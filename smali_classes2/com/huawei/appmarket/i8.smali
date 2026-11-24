@@ -1,13 +1,13 @@
 .class public final Lcom/huawei/appmarket/i8;
-.super Lcom/huawei/appmarket/cz;
+.super Lcom/huawei/appmarket/dz;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bu8;
+.implements Lcom/huawei/appmarket/hu8;
 
 
 # instance fields
-.field private final c:Lcom/huawei/appmarket/qi4;
+.field private final c:Lcom/huawei/appmarket/si4;
 
 .field private d:Lcom/huawei/appmarket/h7$b;
 
@@ -15,28 +15,28 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)V
+.method public constructor <init>(Lcom/huawei/appmarket/is6;Ljava/util/Locale;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/cz;-><init>(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/dz;-><init>(Lcom/huawei/appmarket/is6;Ljava/util/Locale;)V
 
-    new-instance v0, Lcom/huawei/appmarket/qi4;
+    new-instance v0, Lcom/huawei/appmarket/si4;
 
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/qi4;-><init>(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/si4;-><init>(Lcom/huawei/appmarket/is6;Ljava/util/Locale;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/qi4;
+    iput-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/si4;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/qt8;)V
+.method public final a(Lcom/huawei/appmarket/wt8;)V
     .registers 4
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qt8;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wt8;->b()Ljava/lang/String;
 
     move-result-object p1
 
@@ -46,17 +46,17 @@
 
     move-result p1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/qi4;
+    iget-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/si4;
 
     if-eqz p1, :cond_0
 
     iget-object p1, p0, Lcom/huawei/appmarket/i8;->d:Lcom/huawei/appmarket/h7$b;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qi4;->k()Lcom/huawei/appmarket/oi4;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/si4;->k()Lcom/huawei/appmarket/qi4;
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/h7$b;->h0(Lcom/huawei/appmarket/oi4;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/h7$b;->h0(Lcom/huawei/appmarket/qi4;)V
 
     const/4 p1, 0x0
 
@@ -73,11 +73,11 @@
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/st8;)V
+.method public final b(Lcom/huawei/appmarket/yt8;)V
     .registers 8
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/st8;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yt8;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
 
     if-eq v5, v4, :cond_7
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/qi4;
+    iget-object v0, p0, Lcom/huawei/appmarket/i8;->c:Lcom/huawei/appmarket/si4;
 
     if-eq v5, v3, :cond_6
 
@@ -168,41 +168,41 @@
 
     if-eqz v1, :cond_9
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qi4;->b(Lcom/huawei/appmarket/st8;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/si4;->b(Lcom/huawei/appmarket/yt8;)V
 
     goto/16 :goto_1
 
     :cond_6
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qi4;->b(Lcom/huawei/appmarket/st8;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/si4;->b(Lcom/huawei/appmarket/yt8;)V
 
     iput-boolean v4, p0, Lcom/huawei/appmarket/i8;->e:Z
 
     goto/16 :goto_1
 
     :cond_7
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "resource"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "value"
 
-    invoke-virtual {p0, p1, v2}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v2}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iget-object v2, p0, Lcom/huawei/appmarket/i8;->d:Lcom/huawei/appmarket/h7$b;
 
-    new-instance v3, Lcom/huawei/appmarket/u75;
+    new-instance v3, Lcom/huawei/appmarket/x75;
 
-    invoke-direct {v3, v0, v1, p1}, Lcom/huawei/appmarket/u75;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v0, v1, p1}, Lcom/huawei/appmarket/x75;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/h7$b;->n0(Lcom/huawei/appmarket/u75;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/h7$b;->n0(Lcom/huawei/appmarket/x75;)V
 
     goto/16 :goto_1
 
@@ -213,7 +213,7 @@
 
     iput-object v1, p0, Lcom/huawei/appmarket/i8;->d:Lcom/huawei/appmarket/h7$b;
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -223,7 +223,7 @@
 
     const-string v1, "label"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -233,7 +233,7 @@
 
     const-string v1, "process"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -243,7 +243,7 @@
 
     const-string v1, "permission"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -253,7 +253,7 @@
 
     const-string v1, "screenOrientation"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -263,7 +263,7 @@
 
     const-string v1, "enabled"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -273,7 +273,7 @@
 
     const-string v1, "exported"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -285,7 +285,7 @@
 
     const-string v2, "multiprocess"
 
-    invoke-virtual {p0, p1, v2, v1}, Lcom/huawei/appmarket/cz;->g(Lcom/huawei/appmarket/st8;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v2, v1}, Lcom/huawei/appmarket/dz;->g(Lcom/huawei/appmarket/yt8;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
 
     move-result-object v2
 
@@ -295,7 +295,7 @@
 
     const-string v2, "excludeFromRecents"
 
-    invoke-virtual {p0, p1, v2, v1}, Lcom/huawei/appmarket/cz;->g(Lcom/huawei/appmarket/st8;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v2, v1}, Lcom/huawei/appmarket/dz;->g(Lcom/huawei/appmarket/yt8;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -303,7 +303,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/cz;->h(Lcom/huawei/appmarket/st8;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/dz;->h(Lcom/huawei/appmarket/yt8;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -313,7 +313,7 @@
 
     const-string v1, "resizeableActivity"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -323,7 +323,7 @@
 
     const-string v1, "allowEmbedded"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -333,7 +333,7 @@
 
     const-string v1, "allowTaskReparenting"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -343,7 +343,7 @@
 
     const-string v1, "alwaysRetainTaskState"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -353,7 +353,7 @@
 
     const-string v1, "autoRemoveFromRecents"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -363,7 +363,7 @@
 
     const-string v1, "clearTaskOnLaunch"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -373,7 +373,7 @@
 
     const-string v1, "colorMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -383,7 +383,7 @@
 
     const-string v1, "configChanges"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -393,7 +393,7 @@
 
     const-string v1, "directBootAware"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -403,7 +403,7 @@
 
     const-string v1, "documentLaunchMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -413,7 +413,7 @@
 
     const-string v1, "finishOnTaskLaunch"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -423,7 +423,7 @@
 
     const-string v1, "hardwareAccelerated"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -433,7 +433,7 @@
 
     const-string v1, "immersive"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -443,7 +443,7 @@
 
     const-string v1, "launchMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -453,7 +453,7 @@
 
     const-string v1, "lockTaskMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -463,7 +463,7 @@
 
     const-string v1, "maxRecents"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -473,7 +473,7 @@
 
     const-string v1, "maxAspectRatio"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -483,7 +483,7 @@
 
     const-string v1, "noHistory"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -493,7 +493,7 @@
 
     const-string v1, "parentActivityName"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -503,7 +503,7 @@
 
     const-string v1, "persistableMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -513,7 +513,7 @@
 
     const-string v1, "relinquishTaskIdentity"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -523,7 +523,7 @@
 
     const-string v1, "showForAllUsers"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -533,7 +533,7 @@
 
     const-string v1, "stateNotNeeded"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -543,7 +543,7 @@
 
     const-string v1, "supportsPictureInPicture"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -553,7 +553,7 @@
 
     const-string v1, "taskAffinity"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -563,7 +563,7 @@
 
     const-string v1, "theme"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -573,7 +573,7 @@
 
     const-string v1, "uiOptions"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -583,7 +583,7 @@
 
     const-string v1, "windowSoftInputMode"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->j(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -593,7 +593,7 @@
 
     const-string v1, "showOnLockScreen"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -603,7 +603,7 @@
 
     const-string v1, "showWhenLocked"
 
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->f(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/dz;->f(Lcom/huawei/appmarket/yt8;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -614,21 +614,21 @@
     return-void
 .end method
 
-.method public final synthetic c(Lcom/huawei/appmarket/kt8;)V
+.method public final synthetic c(Lcom/huawei/appmarket/qt8;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final synthetic d(Lcom/huawei/appmarket/yt8;)V
+.method public final synthetic d(Lcom/huawei/appmarket/eu8;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final synthetic e(Lcom/huawei/appmarket/yt8;)V
+.method public final synthetic e(Lcom/huawei/appmarket/eu8;)V
     .registers 2
 
     .line 1

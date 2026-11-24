@@ -157,7 +157,7 @@
 
     .line 49
     .line 50
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -478,29 +478,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method private c(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -620,7 +597,7 @@
 
     if-eqz p2, :cond_5
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ju;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ku;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -651,7 +628,7 @@
 
     const/16 v1, 0x40
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -671,7 +648,7 @@
 
     const/16 v1, 0x30
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -740,7 +717,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ju;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ku;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -757,7 +734,7 @@
     const/16 v1, 0x40
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 

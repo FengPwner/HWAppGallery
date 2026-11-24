@@ -4,26 +4,26 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 
 # instance fields
 .field private accessToken:Ljava/lang/String;
 
-.field private resultCode:Lcom/huawei/appmarket/r68;
+.field private resultCode:Lcom/huawei/appmarket/w68;
 
 .field private signResult:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/r68;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/huawei/appmarket/w68;Ljava/lang/String;Ljava/lang/String;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/r68;
+    iput-object p1, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/w68;
 
     iput-object p2, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->signResult:Ljava/lang/String;
 
@@ -42,11 +42,11 @@
     return-object v0
 .end method
 
-.method public getResultCode()Lcom/huawei/appmarket/r68;
+.method public getResultCode()Lcom/huawei/appmarket/w68;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/r68;
+    iget-object v0, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/w68;
 
     return-object v0
 .end method
@@ -67,11 +67,11 @@
     return-void
 .end method
 
-.method public setResultCode(Lcom/huawei/appmarket/r68;)V
+.method public setResultCode(Lcom/huawei/appmarket/w68;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/r68;
+    iput-object p1, p0, Lcom/huawei/appmarket/sdk/foundation/ucs/UcsSignedResult;->resultCode:Lcom/huawei/appmarket/w68;
 
     return-void
 .end method

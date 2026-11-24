@@ -63,7 +63,7 @@
     move-result-object p0
 
     .line 8
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fn;->a()Ljava/lang/Class;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/en;->a()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -272,7 +272,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static b()Lcom/huawei/hmf/services/ui/c;

@@ -399,7 +399,7 @@
     move-result-object v0
 
     .line 163
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 164
     .line 165
@@ -747,7 +747,7 @@
     .line 336
     .line 337
     .line 338
-    invoke-static {v3, v0, p1}, Lcom/huawei/appmarket/b00;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v3, v0, p1}, Lcom/huawei/appmarket/fs;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 339
     .line 340
@@ -1070,18 +1070,13 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -1094,7 +1089,7 @@
     :cond_0
     new-instance v1, Lcom/huawei/appgallery/purchasehistory/ui/card/ConsumeRecordCard$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/purchasehistory/ui/card/ConsumeRecordCard$a;-><init>(Lcom/huawei/appgallery/purchasehistory/ui/card/ConsumeRecordCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/purchasehistory/ui/card/ConsumeRecordCard$a;-><init>(Lcom/huawei/appgallery/purchasehistory/ui/card/ConsumeRecordCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 

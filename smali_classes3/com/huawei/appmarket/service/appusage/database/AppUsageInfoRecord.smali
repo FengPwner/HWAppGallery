@@ -5,47 +5,47 @@
 
 # instance fields
 .field private appLaunchCount:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private date:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private firstTime:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private installSource:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private lastTime:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private pkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private totalTimeInForeground:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 

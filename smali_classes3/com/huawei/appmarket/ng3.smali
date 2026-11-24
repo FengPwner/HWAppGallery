@@ -3,29 +3,22 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Landroid/os/IInterface;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/qb1;
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ng3$a;
+    }
 .end annotation
 
 
 # virtual methods
-.method public abstract j(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;Lcom/huawei/appmarket/to8;)Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
+.method public abstract e(I)V
+    .annotation system Ldalvik/annotation/Throws;
         value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/tt3;",
-            "Landroid/webkit/WebView;",
-            "Lcom/huawei/appmarket/to8;",
-            ")",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/rt3;",
-            ">;"
+            Landroid/os/RemoteException;
         }
     .end annotation
 .end method

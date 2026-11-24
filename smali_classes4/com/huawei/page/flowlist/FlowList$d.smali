@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/pa2;
+.field private final a:Lcom/huawei/appmarket/sa2;
 
-.field private final b:Lcom/huawei/appmarket/r63;
+.field private final b:Lcom/huawei/appmarket/u63;
 
 .field private final c:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -42,21 +42,21 @@
 
     iput-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->c:Ljava/lang/ref/WeakReference;
 
-    new-instance v0, Lcom/huawei/appmarket/r63;
+    new-instance v0, Lcom/huawei/appmarket/u63;
 
     new-instance v1, Lcom/huawei/page/flowlist/FlowList$c;
 
     invoke-direct {v1, p1}, Lcom/huawei/page/flowlist/FlowList$c;-><init>(Lcom/huawei/page/flowlist/FlowList;)V
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/r63;-><init>(Lcom/huawei/appmarket/r63$a;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/u63;-><init>(Lcom/huawei/appmarket/u63$a;)V
 
-    iput-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iput-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
-    invoke-static {p1}, Lcom/huawei/page/flowlist/FlowList;->s(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/pa2;
+    invoke-static {p1}, Lcom/huawei/page/flowlist/FlowList;->s(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/sa2;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iput-object p1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     return-void
 .end method
@@ -65,15 +65,15 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->h(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->h(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -252,23 +252,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic b(Lcom/huawei/page/flowlist/FlowList$d;Lcom/huawei/page/exception/FLPageException;)V
@@ -296,15 +279,15 @@
     move-result p1
 
     .line 12
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
     .line 13
     .line 14
-    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 15
     .line 16
-    invoke-virtual {v1, v0, p1, p0}, Lcom/huawei/appmarket/r63;->d(IILcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v1, v0, p1, p0}, Lcom/huawei/appmarket/u63;->d(IILcom/huawei/appmarket/sa2;)V
 
     .line 17
     .line 18
@@ -563,25 +546,21 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static synthetic c(Lcom/huawei/page/flowlist/FlowList$d;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->g(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->g(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -760,38 +739,21 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic d(Lcom/huawei/page/flowlist/FlowList$d;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->f(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->f(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -970,38 +932,21 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic e(Lcom/huawei/page/flowlist/FlowList$d;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/flowlist/FlowList$d;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->e(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->e(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -1180,23 +1125,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static f(Lcom/huawei/page/flowlist/FlowList$d;)V
@@ -1223,7 +1151,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -1243,7 +1171,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -1419,23 +1347,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static g(Lcom/huawei/page/flowlist/FlowList$d;Lcom/huawei/page/exception/FLPageException;)V
@@ -1462,7 +1373,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -1479,7 +1390,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 21
     .line 22
@@ -1745,10 +1656,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static h(Lcom/huawei/page/flowlist/FlowList$d;)V
@@ -1775,7 +1682,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -1795,7 +1702,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -1963,23 +1870,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static i(Lcom/huawei/page/flowlist/FlowList$d;)V
@@ -2006,7 +1896,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -2026,7 +1916,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -2194,23 +2084,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static j(Lcom/huawei/page/flowlist/FlowList$d;)V
@@ -2237,7 +2110,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/flowlist/FlowList$d;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -2257,7 +2130,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -2425,21 +2298,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

@@ -127,17 +127,17 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setClipToOutline(Z)V
 
-    new-instance v1, Lcom/huawei/appmarket/q45;
+    new-instance v1, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/t45;-><init>()V
 
     int-to-float p1, p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->E(F)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->E(F)V
 
     const/4 p1, 0x0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->setTint(I)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->setTint(I)V
 
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -153,7 +153,7 @@
 
     move-result p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->S(F)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->S(F)V
 
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -173,7 +173,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->R(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->R(Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
@@ -369,7 +369,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic z(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailScreenAdapter$a;)Landroid/widget/LinearLayout;
@@ -415,11 +414,11 @@
 
     if-lez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/wl0;
+    new-instance v1, Lcom/huawei/appmarket/xl0;
 
-    const/16 v2, 0xf
+    const/16 v2, 0x10
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
     const-wide/16 v2, 0xfa
 

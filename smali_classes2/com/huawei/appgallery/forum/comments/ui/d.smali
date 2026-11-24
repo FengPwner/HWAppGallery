@@ -42,11 +42,11 @@
 
     invoke-virtual {v2, v0}, Landroid/view/View;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     move-result v2
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result v3
 

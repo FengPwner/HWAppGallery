@@ -135,7 +135,7 @@
     move-result-object v3
 
     .line 36
-    invoke-static {v3}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 37
     .line 38
@@ -214,7 +214,7 @@
 
     .line 70
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 71
     .line 72
@@ -226,7 +226,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -259,7 +259,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final i0()Z

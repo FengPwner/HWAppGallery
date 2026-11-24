@@ -204,11 +204,11 @@
 
     const-string v1, "QueueManager"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -263,11 +263,11 @@
 
     const-string v1, "QueueManager"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -322,16 +322,16 @@
 
     const-string v1, "QueueManager"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
 
-.method public final e(Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$a;)Lcom/huawei/appmarket/n87;
+.method public final e(Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$a;)Lcom/huawei/appmarket/s87;
     .registers 4
 
     .line 1
@@ -339,7 +339,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -376,12 +376,12 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {}, Lcom/huawei/appmarket/o77;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/t77;->a()V
 
     .line 23
     .line 24
     .line 25
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 26
     .line 27
@@ -476,7 +476,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final f()Lcom/huawei/appgallery/cloudgame/gamedist/https/GetCloudGameResourceResponse;
@@ -487,7 +486,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -510,7 +509,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -535,7 +534,7 @@
     move-result-object v0
 
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {v0}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     .line 27
     .line 28
@@ -559,12 +558,12 @@
 
     .line 37
     .line 38
-    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/z84;->w(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/tr2;->C(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    sput v3, Lcom/huawei/appmarket/wu;->g:I
+    sput v3, Lcom/huawei/appmarket/xu;->g:I
 
     .line 42
     .line 43
@@ -578,7 +577,7 @@
     .line 46
     .line 47
     :goto_0
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -683,7 +682,7 @@
     move-result-object v3
 
     .line 100
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
     .line 102
@@ -744,7 +743,7 @@
 
     .line 128
     .line 129
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -806,13 +805,13 @@
 
     const-string v1, "QueueManager"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
     iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -865,13 +864,13 @@
 
     const-string p2, "QueueManager"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
     iget-object p2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -884,7 +883,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -917,7 +916,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 21
     .line 22
@@ -1014,7 +1013,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final j()V
@@ -1063,11 +1061,11 @@
 
     const-string v2, "QueueManager"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;->d:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -1132,9 +1130,9 @@
 
     const-string v2, "QueueManager"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->H2(Lcom/huawei/appmarket/u17;)V
+    value = Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->H2(Lcom/huawei/appmarket/y17;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/xy5;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/zy5;",
         ">;"
     }
 .end annotation
@@ -43,13 +43,13 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/xy5;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/zy5;",
             ">;)V"
         }
     .end annotation
@@ -59,7 +59,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -88,7 +88,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -96,11 +96,11 @@
     move-result-object v1
 
     .line 21
-    check-cast v1, Lcom/huawei/appmarket/xy5;
+    check-cast v1, Lcom/huawei/appmarket/zy5;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zy5;->a()[I
 
     .line 24
     .line 25
@@ -129,7 +129,7 @@
 
     .line 34
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -137,11 +137,11 @@
     move-result-object p1
 
     .line 38
-    check-cast p1, Lcom/huawei/appmarket/xy5;
+    check-cast p1, Lcom/huawei/appmarket/zy5;
 
     .line 39
     .line 40
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zy5;->a()[I
 
     .line 41
     .line 42
@@ -181,7 +181,7 @@
 
     .line 56
     .line 57
-    invoke-static {v0}, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/u17;
+    invoke-static {v0}, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/y17;
 
     .line 58
     .line 59
@@ -193,7 +193,7 @@
 
     .line 62
     .line 63
-    invoke-static {v0}, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/u17;
+    invoke-static {v0}, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/y17;
 
     .line 64
     .line 65
@@ -201,11 +201,11 @@
     move-result-object p1
 
     .line 67
-    check-cast p1, Lcom/huawei/appmarket/r17;
+    check-cast p1, Lcom/huawei/appmarket/v17;
 
     .line 68
     .line 69
-    invoke-virtual {p1}, Lcom/huawei/appmarket/r17;->v()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/v17;->v()V
 
     .line 70
     .line 71
@@ -247,5 +247,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

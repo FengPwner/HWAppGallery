@@ -27,17 +27,17 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/hx;
+.field private final a:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/hx;)V
+.method public constructor <init>(Lcom/huawei/appmarket/ix;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/bumptech/glide/load/data/c$a;->a:Lcom/huawei/appmarket/hx;
+    iput-object p1, p0, Lcom/bumptech/glide/load/data/c$a;->a:Lcom/huawei/appmarket/ix;
 
     return-void
 .end method
@@ -73,11 +73,11 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Lcom/bumptech/glide/load/data/c$a;->a:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/data/c$a;->a:Lcom/huawei/appmarket/ix;
 
     .line 6
     .line 7
-    invoke-direct {v0, p1, v1}, Lcom/bumptech/glide/load/data/c;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p1, v1}, Lcom/bumptech/glide/load/data/c;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
     .line 8
     .line 9

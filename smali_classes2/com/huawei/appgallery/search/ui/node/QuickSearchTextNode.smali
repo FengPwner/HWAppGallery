@@ -95,7 +95,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p1, v2, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 

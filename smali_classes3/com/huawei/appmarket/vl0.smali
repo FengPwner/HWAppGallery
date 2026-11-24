@@ -1,58 +1,154 @@
 .class public final Lcom/huawei/appmarket/vl0;
-.super Ljava/util/TimerTask;
+.super Lcom/huawei/appmarket/nq1;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;",
+        ">",
+        "Lcom/huawei/appmarket/nq1;"
+    }
+.end annotation
+
+
 # instance fields
-.field private b:Ljava/lang/ref/WeakReference;
+.field private p:I
+
+.field private q:I
+
+.field private r:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/lang/ref/WeakReference<",
-            "Landroid/os/Handler;",
-            ">;"
+            "Ljava/util/List<",
+            "TT;>;"
         }
     .end annotation
 .end field
 
+.field private s:I
+
+.field private t:I
+
 
 # direct methods
-.method public constructor <init>(Landroid/os/Handler;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/nq1;-><init>()V
 
-    new-instance v0, Ljava/lang/ref/WeakReference;
+    const/4 v0, -0x1
 
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/vl0;->b:Ljava/lang/ref/WeakReference;
+    iput v0, p0, Lcom/huawei/appmarket/vl0;->q:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 3
+.method public final D()I
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/vl0;->b:Ljava/lang/ref/WeakReference;
+    iget v0, p0, Lcom/huawei/appmarket/vl0;->s:I
 
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    return v0
+.end method
 
-    move-result-object v0
+.method public final E()I
+    .registers 2
 
-    check-cast v0, Landroid/os/Handler;
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/vl0;->t:I
 
-    if-nez v0, :cond_0
+    return v0
+.end method
+
+.method public final F()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/vl0;->p:I
+
+    return v0
+.end method
+
+.method public final G()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/vl0;->q:I
+
+    return v0
+.end method
+
+.method public final H()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/vl0;->r:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final I(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/vl0;->s:I
 
     return-void
+.end method
 
-    :cond_0
-    const/4 v1, 0x0
+.method public final J(I)V
+    .registers 2
 
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->sendEmptyMessage(I)Z
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/vl0;->t:I
+
+    return-void
+.end method
+
+.method public final K(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/vl0;->p:I
+
+    return-void
+.end method
+
+.method public final L(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/vl0;->q:I
+
+    return-void
+.end method
+
+.method public final M(Ljava/util/List;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/vl0;->r:Ljava/util/List;
 
     return-void
 .end method

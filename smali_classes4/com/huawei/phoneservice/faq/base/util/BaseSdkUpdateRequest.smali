@@ -33,7 +33,7 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -82,7 +82,7 @@
 .end method
 
 .method public abstract onCallback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

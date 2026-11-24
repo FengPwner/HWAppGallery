@@ -382,7 +382,7 @@
 
     .line 80
     .line 81
-    invoke-static {v8, v10, v7, v6}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v8, v10, v7, v6}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     .line 82
     .line 83
@@ -416,7 +416,7 @@
 
     .line 96
     .line 97
-    invoke-static {v11, v13, v10, v8}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v11, v13, v10, v8}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     .line 98
     .line 99
@@ -1117,49 +1117,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method private g([FLandroid/view/MotionEvent;IZ)V
@@ -1194,7 +1151,7 @@
 
     aget v2, p1, v2
 
-    invoke-static {v7, v2, v6, p4}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v7, v2, v6, p4}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p4
 
@@ -1250,7 +1207,7 @@
 
     aget p1, p1, v1
 
-    invoke-static {v3, p1, p2, v2}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v3, p1, p2, v2}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p1
 
@@ -1291,7 +1248,7 @@
 
     aget v1, p1, v1
 
-    invoke-static {v7, v1, v6, p4}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v7, v1, v6, p4}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p4
 
@@ -1349,7 +1306,7 @@
 
     aget p1, p1, v2
 
-    invoke-static {v3, p1, p2, v1}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v3, p1, p2, v1}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p1
 
@@ -1391,7 +1348,7 @@
 
     aget v5, p1, v5
 
-    invoke-static {v4, v5, p2, v3}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v4, v5, p2, v3}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p2
 
@@ -1463,7 +1420,7 @@
 
     aget v5, p1, v5
 
-    invoke-static {v4, v5, p2, v3}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v4, v5, p2, v3}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p2
 
@@ -1678,7 +1635,7 @@
 
     .line 44
     .line 45
-    sget-object v0, Lcom/huawei/appmarket/fg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/hg6;->a:[I
 
     .line 46
     .line 47
@@ -1982,10 +1939,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private setParallaxStyleEffect(I)V
@@ -2055,7 +2008,7 @@
 
     const-string v7, "huawei.android.widget.HwPlume"
 
-    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -2070,7 +2023,7 @@
 
     aput-object p0, v0, v4
 
-    const-string p1, "zoomEnabled"
+    const-string/jumbo p1, "zoomEnabled"
 
     aput-object p1, v0, v5
 
@@ -2080,7 +2033,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -2526,6 +2479,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onDetachedFromWindow()V
@@ -2692,7 +2665,7 @@
     return-void
 .end method
 
-.method public setDragDownAnimationListener(Lcom/huawei/appmarket/ce3;)V
+.method public setDragDownAnimationListener(Lcom/huawei/appmarket/ee3;)V
     .registers 2
 
     .line 1
@@ -2998,21 +2971,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

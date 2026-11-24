@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -88,7 +88,7 @@
 
     const-string v2, "NumberFormatException  exception"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -98,7 +98,7 @@
 
     invoke-direct {v1, v2}, Lcom/huawei/appmarket/MarketActivity$h;-><init>(Lcom/huawei/appmarket/MarketActivity$b;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

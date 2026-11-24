@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/pb0;
-.super Lcom/huawei/appmarket/m16;
+.super Lcom/huawei/appmarket/o16;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pb0$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pb0$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appmarket/pb0;->e:Lcom/huawei/appmarket/pb0$a;
 
@@ -63,7 +63,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/m16;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/o16;-><init>()V
 
     new-instance v0, Lorg/bouncycastle/jsse/provider/BouncyCastleJsseProvider;
 
@@ -76,7 +76,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 2
@@ -104,7 +104,7 @@
             "Ljavax/net/ssl/SSLSocket;",
             "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;)V"
         }
     .end annotation
@@ -112,11 +112,11 @@
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "protocols"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of v0, p1, Lorg/bouncycastle/jsse/BCSSLSocket;
 
@@ -128,11 +128,11 @@
 
     move-result-object p2
 
-    sget-object v0, Lcom/huawei/appmarket/m16;->Companion:Lcom/huawei/appmarket/m16$a;
+    sget-object v0, Lcom/huawei/appmarket/o16;->Companion:Lcom/huawei/appmarket/o16$a;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/m16$a;->a(Ljava/util/List;)Ljava/util/ArrayList;
+    invoke-static {p3}, Lcom/huawei/appmarket/o16$a;->a(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object p3
 
@@ -153,7 +153,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/m16;->configureTlsExtensions(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/o16;->configureTlsExtensions(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
 
     :goto_0
     return-void
@@ -165,7 +165,7 @@
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of v0, p1, Lorg/bouncycastle/jsse/BCSSLSocket;
 
@@ -184,7 +184,7 @@
     :cond_0
     const-string v0, ""
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -196,7 +196,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/m16;->getSelectedProtocol(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o16;->getSelectedProtocol(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -219,7 +219,7 @@
 
     const-string v1, "getInstance(\"TLS\", provider)"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     array-length v1, v0
 
@@ -262,7 +262,7 @@
 
     const-string v0, "null cannot be cast to non-null type javax.net.ssl.X509TrustManager"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Ljavax/net/ssl/X509TrustManager;
 
@@ -275,7 +275,7 @@
 
     const-string v1, "toString(this)"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "Unexpected default trust managers: "
 
@@ -300,7 +300,7 @@
     .line 1
     const-string v0, "sslSocketFactory"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 

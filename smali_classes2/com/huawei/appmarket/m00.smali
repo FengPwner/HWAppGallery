@@ -24,7 +24,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 8
     .line 9
@@ -245,15 +245,15 @@
 
     .line 15
     :catch_0
-    new-instance v1, Lcom/huawei/appmarket/tp1;
+    new-instance v1, Lcom/huawei/appmarket/wp1;
 
     .line 16
     .line 17
-    sget-object v2, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v2, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     .line 18
     .line 19
-    sget-object v3, Lcom/huawei/appmarket/op1;->c:Lcom/huawei/appmarket/op1;
+    sget-object v3, Lcom/huawei/appmarket/rp1;->c:Lcom/huawei/appmarket/rp1;
 
     .line 20
     .line 21
@@ -266,21 +266,21 @@
     .line 24
     .line 25
     .line 26
-    invoke-direct {v1, v2, v3, v4}, Lcom/huawei/appmarket/tp1;-><init>(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/op1;Lcom/huawei/appmarket/kp1;)V
+    invoke-direct {v1, v2, v3, v4}, Lcom/huawei/appmarket/wp1;-><init>(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/rp1;Lcom/huawei/appmarket/np1;)V
 
     .line 27
     .line 28
     .line 29
-    sget-object v2, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v2, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 30
     .line 31
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/up1;->c(Lcom/huawei/appmarket/tp1;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/xp1;->c(Lcom/huawei/appmarket/wp1;)V
 
     .line 32
     .line 33
     .line 34
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 35
     .line 36
@@ -292,7 +292,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42

@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/ff5;
+.field private final b:Lcom/huawei/appmarket/if5;
 
 .field private final c:Lcom/google/android/material/navigation/NavigationBarMenuView;
 
@@ -34,7 +34,7 @@
     .registers 14
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     .line 2
     .line 3
@@ -68,7 +68,7 @@
     move-result-object v6
 
     .line 19
-    sget-object v2, Lcom/huawei/appmarket/ie6;->N:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->N:[I
 
     .line 20
     .line 21
@@ -100,7 +100,7 @@
     move v4, p4
 
     .line 33
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->g(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroidx/appcompat/widget/e0;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->g(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroidx/appcompat/widget/e0;
 
     .line 34
     .line 35
@@ -108,7 +108,7 @@
     move-result-object p2
 
     .line 37
-    new-instance p3, Lcom/huawei/appmarket/ff5;
+    new-instance p3, Lcom/huawei/appmarket/if5;
 
     .line 38
     .line 39
@@ -128,12 +128,12 @@
     move-result v0
 
     .line 47
-    invoke-direct {p3, v6, p4, v0}, Lcom/huawei/appmarket/ff5;-><init>(Landroid/content/Context;Ljava/lang/Class;I)V
+    invoke-direct {p3, v6, p4, v0}, Lcom/huawei/appmarket/if5;-><init>(Landroid/content/Context;Ljava/lang/Class;I)V
 
     .line 48
     .line 49
     .line 50
-    iput-object p3, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/ff5;
+    iput-object p3, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/if5;
 
     .line 51
     .line 52
@@ -378,11 +378,11 @@
     .line 171
     .line 172
     :cond_4
-    new-instance v0, Lcom/huawei/appmarket/q45;
+    new-instance v0, Lcom/huawei/appmarket/t45;
 
     .line 173
     .line 174
-    invoke-direct {v0}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t45;-><init>()V
 
     .line 175
     .line 176
@@ -423,18 +423,18 @@
     move-result-object v3
 
     .line 195
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     .line 196
     .line 197
     .line 198
     :cond_5
-    invoke-virtual {v0, v6}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {v0, v6}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
     .line 199
     .line 200
     .line 201
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     .line 202
     .line 203
@@ -530,7 +530,7 @@
     .line 246
     .line 247
     :cond_9
-    invoke-static {v6, p2, v2}, Lcom/huawei/appmarket/p45;->b(Landroid/content/Context;Landroidx/appcompat/widget/e0;I)Landroid/content/res/ColorStateList;
+    invoke-static {v6, p2, v2}, Lcom/huawei/appmarket/s45;->b(Landroid/content/Context;Landroidx/appcompat/widget/e0;I)Landroid/content/res/ColorStateList;
 
     .line 248
     .line 249
@@ -607,7 +607,7 @@
 
     .line 284
     .line 285
-    invoke-static {v6, p2, v4}, Lcom/huawei/appmarket/p45;->b(Landroid/content/Context;Landroidx/appcompat/widget/e0;I)Landroid/content/res/ColorStateList;
+    invoke-static {v6, p2, v4}, Lcom/huawei/appmarket/s45;->b(Landroid/content/Context;Landroidx/appcompat/widget/e0;I)Landroid/content/res/ColorStateList;
 
     .line 286
     .line 287
@@ -641,7 +641,7 @@
     .line 300
     .line 301
     .line 302
-    sget-object v7, Lcom/huawei/appmarket/ie6;->M:[I
+    sget-object v7, Lcom/huawei/appmarket/ke6;->M:[I
 
     .line 303
     .line 304
@@ -692,7 +692,7 @@
     .line 327
     .line 328
     .line 329
-    invoke-static {v6, v5, v4}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v6, v5, v4}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     .line 330
     .line 331
@@ -713,7 +713,7 @@
     move-result v1
 
     .line 340
-    invoke-static {v6, v1, v2}, Lcom/huawei/appmarket/nb7;->a(Landroid/content/Context;II)Lcom/huawei/appmarket/nb7$b;
+    invoke-static {v6, v1, v2}, Lcom/huawei/appmarket/sb7;->a(Landroid/content/Context;II)Lcom/huawei/appmarket/sb7$b;
 
     .line 341
     .line 342
@@ -721,7 +721,7 @@
     move-result-object v1
 
     .line 344
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb7$b;->m()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sb7$b;->m()Lcom/huawei/appmarket/sb7;
 
     .line 345
     .line 346
@@ -729,7 +729,7 @@
     move-result-object v1
 
     .line 348
-    invoke-virtual {p0, v1}, Lcom/google/android/material/navigation/NavigationBarView;->setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {p0, v1}, Lcom/google/android/material/navigation/NavigationBarView;->setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/sb7;)V
 
     .line 349
     .line 350
@@ -995,13 +995,13 @@
     return v0
 .end method
 
-.method public getItemActiveIndicatorShapeAppearance()Lcom/huawei/appmarket/nb7;
+.method public getItemActiveIndicatorShapeAppearance()Lcom/huawei/appmarket/sb7;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->c:Lcom/google/android/material/navigation/NavigationBarMenuView;
 
-    invoke-virtual {v0}, Lcom/google/android/material/navigation/NavigationBarMenuView;->getItemActiveIndicatorShapeAppearance()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v0}, Lcom/google/android/material/navigation/NavigationBarMenuView;->getItemActiveIndicatorShapeAppearance()Lcom/huawei/appmarket/sb7;
 
     move-result-object v0
 
@@ -1156,7 +1156,7 @@
 .method public getMenu()Landroid/view/Menu;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/ff5;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/if5;
 
     return-object v0
 .end method
@@ -1194,7 +1194,7 @@
 
     invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/s45;->c(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/v45;->c(Landroid/view/View;)V
 
     return-void
 .end method
@@ -1219,7 +1219,7 @@
 
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/ff5;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/if5;
 
     iget-object p1, p1, Lcom/google/android/material/navigation/NavigationBarView$SavedState;->d:Landroid/os/Bundle;
 
@@ -1245,7 +1245,7 @@
 
     iput-object v0, v1, Lcom/google/android/material/navigation/NavigationBarView$SavedState;->d:Landroid/os/Bundle;
 
-    iget-object v2, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/ff5;
+    iget-object v2, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/if5;
 
     invoke-virtual {v2, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->E(Landroid/os/Bundle;)V
 
@@ -1257,7 +1257,7 @@
 
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setElevation(F)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/s45;->b(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/v45;->b(Landroid/view/View;F)V
 
     return-void
 .end method
@@ -1302,13 +1302,13 @@
     return-void
 .end method
 
-.method public setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/nb7;)V
+.method public setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/sb7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->c:Lcom/google/android/material/navigation/NavigationBarMenuView;
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/navigation/NavigationBarMenuView;->setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/navigation/NavigationBarMenuView;->setItemActiveIndicatorShapeAppearance(Lcom/huawei/appmarket/sb7;)V
 
     return-void
 .end method
@@ -1441,7 +1441,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/yw6;->a(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, Lcom/huawei/appmarket/cx6;->a(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -1527,7 +1527,7 @@
 .method public setSelectedItemId(I)V
     .registers 5
 
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/ff5;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarView;->b:Lcom/huawei/appmarket/if5;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->findItem(I)Landroid/view/MenuItem;
 

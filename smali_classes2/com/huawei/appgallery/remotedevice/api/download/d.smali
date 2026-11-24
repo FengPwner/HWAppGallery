@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
-        "Lcom/huawei/appmarket/nv1;",
+        "Lcom/huawei/appmarket/lp5<",
+        "Lcom/huawei/appmarket/rv1;",
         ">;"
     }
 .end annotation
@@ -38,7 +38,7 @@
     .registers 5
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/nv1;
+    check-cast p1, Lcom/huawei/appmarket/rv1;
 
     .line 2
     .line 3
@@ -54,7 +54,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv1;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rv1;->a()I
 
     .line 10
     .line 11
@@ -65,7 +65,7 @@
     const/4 v2, 0x0
 
     .line 14
-    invoke-static {v1, v2, p1, v2}, Lcom/huawei/appmarket/yo6;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;III)V
+    invoke-static {v1, v2, p1, v2}, Lcom/huawei/appmarket/bp6;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;III)V
 
     .line 15
     .line 16
@@ -163,5 +163,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

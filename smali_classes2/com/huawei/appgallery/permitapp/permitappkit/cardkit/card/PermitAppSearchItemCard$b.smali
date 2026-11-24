@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
 
     iput-object p3, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard$b;->c:Ljava/lang/String;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 9
 
-    new-instance p1, Lcom/huawei/appmarket/tg8;
+    new-instance p1, Lcom/huawei/appmarket/zg8;
 
     iget-object v6, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard$b;->d:Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard;
 
@@ -62,9 +62,9 @@
 
     move-object v0, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/tg8;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/zg8;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tg8;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zg8;->b()V
 
     invoke-static {v6}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard;->G1(Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchItemCard;)Landroid/content/Context;
 
@@ -78,7 +78,7 @@
 
     move-result v1
 
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/nz5;->b(ILandroid/content/Context;Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/BasePermitAppCardBean;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/pz5;->b(ILandroid/content/Context;Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/BasePermitAppCardBean;)V
 
     return-void
 .end method

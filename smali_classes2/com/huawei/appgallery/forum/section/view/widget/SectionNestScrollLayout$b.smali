@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/b14;",
+            "Lcom/huawei/appmarket/d14;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/b14;Landroid/view/View;)V
+.method constructor <init>(Lcom/huawei/appmarket/d14;Landroid/view/View;)V
     .registers 4
 
     .line 1
@@ -109,11 +109,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/b14;
+    check-cast p1, Lcom/huawei/appmarket/d14;
 
     if-eqz p1, :cond_3
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/b14;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/d14;->a()V
 
     goto :goto_0
 

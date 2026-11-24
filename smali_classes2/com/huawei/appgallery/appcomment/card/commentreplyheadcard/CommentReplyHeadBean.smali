@@ -9,21 +9,21 @@
 
 # instance fields
 .field private appInfo:Lcom/huawei/appgallery/appcomment/card/base/AppInfoBean;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private commentDetail:Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentDetail;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private commentReplyInfo:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -36,35 +36,35 @@
 .end field
 
 .field private commentUser:Lcom/huawei/appgallery/appcomment/card/commentitemcard/User;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private replyCounts:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private replyeeId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private replyeeNickName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private shareEntrance:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

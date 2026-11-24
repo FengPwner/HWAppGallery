@@ -65,7 +65,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 19
     .line 20
@@ -164,7 +164,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -201,7 +200,7 @@
 
     const-string v0, "SettingAboutCardV2"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->k:Landroid/view/View;
@@ -282,7 +281,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 37
     .line 38
@@ -295,7 +294,7 @@
 
     .line 42
     .line 43
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -369,7 +368,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final m1()Z

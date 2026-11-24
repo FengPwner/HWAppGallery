@@ -72,7 +72,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->Companion:Lcom/huawei/phoneservice/faq/base/network/FaqRestClient$Companion;
 
@@ -250,7 +250,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -408,15 +408,15 @@
 
     const-string p1, "url"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "request"
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "callback"
 
-    invoke-static {p4, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -506,7 +506,7 @@
 
     iget-object p2, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p2, p1}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -528,15 +528,15 @@
 
     const-string v0, "url"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "headers"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p5, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -586,7 +586,7 @@
 
     iget-object p3, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -610,19 +610,19 @@
 
     const-string p1, "url"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "request"
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "headers"
 
-    invoke-static {p4, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "callback"
 
-    invoke-static {p5, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -672,7 +672,7 @@
 
     iget-object p2, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p2, p1}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -727,7 +727,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -768,15 +768,15 @@
 
     const-string v0, "url"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "token"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -804,7 +804,7 @@
 
     iget-object p3, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -884,15 +884,15 @@
 
     const-string v0, "url"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "file"
 
-    invoke-static {p5, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "callback"
 
-    invoke-static {p6, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -902,7 +902,7 @@
 
     iget-object v1, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->attachClient:Lcom/huawei/hms/network/httpclient/HttpClient;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v1}, Lcom/huawei/hms/network/httpclient/HttpClient;->newRequest()Lcom/huawei/hms/network/httpclient/Request$Builder;
 
@@ -967,11 +967,11 @@
 
     const-string p3, "builder.build()"
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p3, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->attachClient:Lcom/huawei/hms/network/httpclient/HttpClient;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/network/httpclient/HttpClient;->newSubmit(Lcom/huawei/hms/network/httpclient/Request;)Lcom/huawei/hms/network/httpclient/Submit;
 
@@ -979,7 +979,7 @@
 
     const-string p3, "attachClient!!.newSubmit(request)"
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p6}, Lcom/huawei/hms/network/httpclient/Submit;->enqueue(Lcom/huawei/hms/network/httpclient/Callback;)V
 
@@ -1014,15 +1014,15 @@
 
     const-string p4, "url"
 
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "headerMap"
 
-    invoke-static {p3, p4}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "requestBody"
 
-    invoke-static {p6, p4}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, p4}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -1070,7 +1070,7 @@
 
     iget-object p3, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -1078,7 +1078,7 @@
 
     const-string p3, "submit"
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->putSubmit(Landroid/content/Context;Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;)V
 
@@ -1112,19 +1112,19 @@
 
     const-string v0, "url"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "headerMap"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "contentType"
 
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "file"
 
-    invoke-static {p5, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/hms/framework/network/util/HttpUtils;->isHttpOrGrsUrl(Ljava/lang/String;)Z
 
@@ -1198,7 +1198,7 @@
 
     iget-object p3, p0, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->restClient:Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/framework/network/restclient/hwhttp/HttpClient;->newSubmit(Lcom/huawei/hms/framework/network/restclient/hwhttp/Request;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
 
@@ -1206,7 +1206,7 @@
 
     const-string p3, "submit"
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/phoneservice/faq/base/network/FaqRestClient;->putSubmit(Landroid/content/Context;Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;)V
 

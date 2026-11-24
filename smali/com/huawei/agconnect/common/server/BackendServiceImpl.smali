@@ -46,7 +46,7 @@
     return-object p0
 .end method
 
-.method private static a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+.method private static a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -59,7 +59,7 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -102,7 +102,7 @@
 
     move-object v3, p2
 
-    invoke-static/range {v1 .. v8}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-static/range {v1 .. v8}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -118,36 +118,36 @@
 
     move-result-object p3
 
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method static synthetic a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+.method static synthetic a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
     .registers 5
 
     .line 3
-    invoke-static {p0, p1, p2, p3, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/nv7;ILjava/lang/Class;)V
+.method static synthetic a(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/tv7;ILjava/lang/Class;)V
     .registers 6
 
     .line 4
-    invoke-static/range {p0 .. p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/nv7;ILjava/lang/Class;)V
+    invoke-static/range {p0 .. p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/tv7;ILjava/lang/Class;)V
 
     return-void
 .end method
 
-.method static synthetic a(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;)V
+.method static synthetic a(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;)V
     .registers 6
 
     .line 5
-    invoke-static/range {p0 .. p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;)V
+    invoke-static/range {p0 .. p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
@@ -207,7 +207,7 @@
     return p0
 .end method
 
-.method public static b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+.method public static b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -220,7 +220,7 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -252,41 +252,41 @@
     goto :goto_0
 
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-virtual {p3}, Lcom/huawei/agconnect/common/api/BackendService$Options;->getThrottle()Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;
 
     move-result-object v1
 
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->d(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->d(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$2;
 
-    invoke-direct {p2, v1, v0}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$2;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, v1, v0}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$2;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$1;
 
-    invoke-direct {p2, v1, v0}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$1;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, v1, v0}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$1;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -302,14 +302,14 @@
 
     move-result-object p3
 
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+.method public static b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -320,7 +320,7 @@
             "I",
             "Ljava/lang/Class<",
             "TRsp;>;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")V"
@@ -356,7 +356,7 @@
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p3, p0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p3, p0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
@@ -368,12 +368,12 @@
     invoke-virtual {v0}, Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;->addForStart()V
 
     :cond_1
-    invoke-static {p0, p1, p2, p3, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
 
     return-void
 .end method
 
-.method private static b(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/nv7;ILjava/lang/Class;)V
+.method private static b(Lcom/huawei/agconnect/core/service/auth/Token;Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/tv7;ILjava/lang/Class;)V
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -383,7 +383,7 @@
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             "Lcom/huawei/agconnect/common/api/BaseRequest;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TRsp;>;I",
             "Ljava/lang/Class<",
             "TRsp;>;)V"
@@ -437,16 +437,16 @@
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p3, p0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p3, p0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
     :cond_0
-    invoke-interface {p0}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens()Lcom/huawei/appmarket/hv7;
+    invoke-interface {p0}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
@@ -464,32 +464,32 @@
 
     move-object v6, p2
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$6;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$6;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
 
-    invoke-virtual {p0, v0, v7}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0, v7}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$5;
 
-    invoke-direct {p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$5;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$5;-><init>(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 
     :cond_1
-    invoke-static {p1, p4, p5, p3, p2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+    invoke-static {p1, p4, p5, p3, p2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
 
     :goto_0
     return-void
 .end method
 
-.method private static b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;)V
+.method private static b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;)V
     .registers 16
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -502,7 +502,7 @@
             "I",
             "Ljava/lang/Class<",
             "TRsp;>;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TRsp;>;)V"
         }
     .end annotation
@@ -548,11 +548,11 @@
 
     check-cast p0, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;
 
-    invoke-interface {p0, v2}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p0, v2}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
@@ -570,22 +570,22 @@
 
     move-object v6, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$10;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$10;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
 
-    invoke-virtual {p0, v0, v7}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0, v7}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;
 
-    invoke-direct {p2, p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;-><init>(Lcom/huawei/appmarket/tv7;)V
 
     :goto_0
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 
@@ -616,16 +616,16 @@
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p5, p0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p5, p0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
     :cond_1
-    invoke-interface {v0, v2}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v2}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -645,29 +645,29 @@
 
     move-object v8, p0
 
-    invoke-direct/range {v2 .. v8}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$12;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;Ljava/lang/Exception;)V
+    invoke-direct/range {v2 .. v8}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$12;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;Ljava/lang/Exception;)V
 
-    invoke-virtual {v0, v1, v9}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v9}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$11;
 
-    invoke-direct {p2, p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$11;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$11;-><init>(Lcom/huawei/appmarket/tv7;)V
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p5, p0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p5, p0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 .end method
 
-.method public static c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+.method public static c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
     .registers 18
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -680,7 +680,7 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -791,16 +791,16 @@
 
     move-object/from16 v5, p2
 
-    invoke-static/range {v3 .. v12}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-static/range {v3 .. v12}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 
     :cond_2
-    new-instance v2, Lcom/huawei/appmarket/nv7;
+    new-instance v2, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-virtual {v0}, Lcom/huawei/agconnect/common/api/BackendService$Options;->getThrottle()Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;
 
@@ -941,9 +941,9 @@
 
     invoke-direct {v0, v1, v4}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -987,40 +987,40 @@
 
     move-object/from16 v5, p2
 
-    invoke-static/range {v3 .. v12}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-static/range {v3 .. v12}, Lcom/huawei/agconnect/common/api/Backend;->call(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v3, Lcom/huawei/agconnect/common/server/BackendServiceImpl$14;
 
-    invoke-direct {v3, v13, v2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$14;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v3, v13, v2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$14;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v3, Lcom/huawei/agconnect/common/server/BackendServiceImpl$13;
 
-    invoke-direct {v3, v13, v2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$13;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v3, v13, v2}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$13;-><init>(Lcom/huawei/agconnect/common/api/RequestThrottle$Throttle;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method private static c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
+.method private static c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/common/api/BackendService$Options;)V
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1031,7 +1031,7 @@
             "I",
             "Ljava/lang/Class<",
             "TRsp;>;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")V"
@@ -1039,23 +1039,23 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1, p2, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2, p4}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->a(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$8;
 
-    invoke-direct {v2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$8;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$8;-><init>(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -1073,14 +1073,14 @@
 
     move-object v7, p3
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$7;-><init>(Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$7;-><init>(Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v8}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v8}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
 
-.method private static d(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+.method private static d(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1093,15 +1093,15 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/nv7;
+    new-instance v6, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v6}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v6}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-static {p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->a(Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/agconnect/AGConnectInstance;
 
@@ -1115,11 +1115,11 @@
 
     check-cast v0, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;
 
-    invoke-interface {v0}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens()Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens()Lcom/huawei/appmarket/nv7;
 
     move-result-object v7
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v8
 
@@ -1137,23 +1137,23 @@
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$4;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/nv7;ILjava/lang/Class;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$4;-><init>(Lcom/huawei/agconnect/common/api/BaseRequest;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/appmarket/tv7;ILjava/lang/Class;)V
 
-    invoke-virtual {v7, v8, v9}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v7, v8, v9}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/common/server/BackendServiceImpl$3;
 
-    invoke-direct {p2, v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$3;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, v6}, Lcom/huawei/agconnect/common/server/BackendServiceImpl$3;-><init>(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v6}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v6}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 

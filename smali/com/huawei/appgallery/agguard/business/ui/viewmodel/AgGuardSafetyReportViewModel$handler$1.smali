@@ -36,7 +36,7 @@
 
     const-string v0, "msg"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -52,7 +52,7 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.List<com.huawei.appgallery.agguard.business.bean.db.HistoryScanApps>"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/util/List;
 
@@ -81,7 +81,7 @@
 
     const-string v1, "AgGuardSafetyReportViewModel"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

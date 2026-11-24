@@ -64,7 +64,7 @@
 
     if-eqz p2, :cond_2
 
-    sget-object v1, Lcom/huawei/appmarket/ef6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/gf6;->a:[I
 
     const/4 v2, 0x0
 
@@ -111,7 +111,7 @@
 
     :goto_2
     :try_start_1
-    sget-object p3, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p3, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v1, "ClipRoundImageView"
 
@@ -129,7 +129,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -830,6 +830,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

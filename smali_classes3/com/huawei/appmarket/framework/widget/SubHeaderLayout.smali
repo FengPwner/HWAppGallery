@@ -177,7 +177,7 @@
 
     const-string p5, "SubHeaderLayout"
 
-    invoke-static {p5, p3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p5, p3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     if-eqz p1, :cond_2

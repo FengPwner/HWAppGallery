@@ -1,8 +1,14 @@
-.class public interface abstract Lcom/huawei/appmarket/by2;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/by2;
+.super Lcom/huawei/appgallery/forum/message/msgsetting/base/request/AbstractGetMsgSettingResponse;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appgallery/forum/message/msgsetting/base/request/AbstractGetMsgSettingResponse;-><init>()V
+
+    return-void
 .end method

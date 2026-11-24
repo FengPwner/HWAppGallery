@@ -43,7 +43,7 @@
 
     const-string v5, "setTextColor"
 
-    invoke-static {v3, v5, v2}, Lcom/huawei/appmarket/wl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v3, v5, v2}, Lcom/huawei/appmarket/zl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
@@ -67,7 +67,7 @@
 
     const-string v2, "setTextSize"
 
-    invoke-static {v3, v2, v1}, Lcom/huawei/appmarket/wl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v3, v2, v1}, Lcom/huawei/appmarket/zl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 

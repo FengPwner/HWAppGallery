@@ -263,7 +263,7 @@
 
     .line 93
     .line 94
-    sget-object v2, Lcom/huawei/appmarket/hw5;->f:Ljava/nio/charset/Charset;
+    sget-object v2, Lcom/huawei/appmarket/jw5;->f:Ljava/nio/charset/Charset;
 
     .line 95
     .line 96
@@ -377,7 +377,7 @@
 
     .line 142
     .line 143
-    sget-object v2, Lcom/huawei/appmarket/hw5;->e:Ljava/nio/charset/Charset;
+    sget-object v2, Lcom/huawei/appmarket/jw5;->e:Ljava/nio/charset/Charset;
 
     .line 144
     .line 145

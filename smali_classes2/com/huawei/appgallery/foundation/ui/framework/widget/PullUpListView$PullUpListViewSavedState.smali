@@ -162,7 +162,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7

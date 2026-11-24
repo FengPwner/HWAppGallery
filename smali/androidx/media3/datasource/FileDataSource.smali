@@ -122,7 +122,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -131,11 +131,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p1, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v0, p1, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     .line 2
     .line 3
-    iget-wide v1, p1, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v1, p1, Lcom/huawei/appmarket/m91;->f:J
 
     .line 4
     .line 5
@@ -143,7 +143,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     .line 8
     .line 9
@@ -200,7 +200,7 @@
     .line 32
     .line 33
     .line 34
-    iget-wide v5, p1, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v5, p1, Lcom/huawei/appmarket/m91;->g:J
 
     .line 35
     .line 36
@@ -265,7 +265,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 63
     .line 64
@@ -402,7 +402,7 @@
 
     .line 122
     .line 123
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 124
     .line 125
@@ -723,7 +723,7 @@
     :try_start_0
     iget-object v2, p0, Landroidx/media3/datasource/FileDataSource;->e:Ljava/io/RandomAccessFile;
 
-    sget v3, Lcom/huawei/appmarket/ge8;->a:I
+    sget v3, Lcom/huawei/appmarket/le8;->a:I
 
     int-to-long v3, p3
 

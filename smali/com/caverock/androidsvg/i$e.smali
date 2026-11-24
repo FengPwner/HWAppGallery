@@ -96,7 +96,7 @@
 
     .line 37
     .line 38
-    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 39
     .line 40
@@ -117,7 +117,7 @@
 
     .line 48
     .line 49
-    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 50
     .line 51
@@ -168,7 +168,7 @@
 
     .line 75
     .line 76
-    invoke-static {v1, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 77
     .line 78
@@ -185,7 +185,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     .line 86
     .line 87
@@ -248,6 +248,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>()V

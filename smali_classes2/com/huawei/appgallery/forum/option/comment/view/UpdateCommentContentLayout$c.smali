@@ -161,7 +161,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ni7;->d(Landroid/widget/EditText;I)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ti7;->d(Landroid/widget/EditText;I)Z
 
     move-result p1
 
@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p0, p1}, Lcom/huawei/appmarket/ni7;->a(ILandroid/text/TextWatcher;Landroid/widget/EditText;)V
+    invoke-static {p2, p0, p1}, Lcom/huawei/appmarket/ti7;->a(ILandroid/text/TextWatcher;Landroid/widget/EditText;)V
 
     :cond_0
     return-void

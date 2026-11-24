@@ -8,7 +8,7 @@
 
 .field private W:Landroid/content/Context;
 
-.field private X:Lcom/huawei/appmarket/fg;
+.field private X:Lcom/huawei/appmarket/eg;
 
 .field private Y:J
 
@@ -39,13 +39,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FullWebViewDelegate"
 
     const-string v2, "Override initTitle, but nothing to do"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
     move-result-object p2
 
     .line 38
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->C(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->C(Landroid/content/Context;Landroid/view/View;)V
 
     .line 39
     .line 40
@@ -251,10 +251,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public V(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
+.method public W(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
     .registers 5
 
     .line 1
@@ -268,25 +267,25 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->V:Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;
 
-    invoke-interface {p2}, Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;->getData()Lcom/huawei/appmarket/g64;
+    invoke-interface {p2}, Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;->getData()Lcom/huawei/appmarket/j64;
 
     move-result-object p2
 
-    instance-of p2, p2, Lcom/huawei/appmarket/fg;
+    instance-of p2, p2, Lcom/huawei/appmarket/eg;
 
     if-eqz p2, :cond_0
 
     iget-object p2, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->V:Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;
 
-    invoke-interface {p2}, Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;->getData()Lcom/huawei/appmarket/g64;
+    invoke-interface {p2}, Lcom/huawei/appgallery/distribution/impl/webview/protoco/IFullWebViewFragmentProtocol;->getData()Lcom/huawei/appmarket/j64;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/fg;
+    check-cast p2, Lcom/huawei/appmarket/eg;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iput-object p2, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
-    sget-object p2, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p2, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -294,7 +293,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -304,37 +303,37 @@
 
     const-string v1, "FullWebViewDelegate"
 
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object p2, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->q:Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->V(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->W(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
 
     return-void
 .end method
 
-.method public final X()V
+.method public final Y()V
     .registers 6
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->X()V
+    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->Y()V
 
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FullWebViewDelegate"
 
     const-string v2, "onPause"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fg;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eg;->e()Ljava/lang/String;
 
     move-result-object v1
 
@@ -342,9 +341,9 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fg;->f()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eg;->f()Ljava/lang/String;
 
     move-result-object v1
 
@@ -352,9 +351,9 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fg;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eg;->d()Ljava/lang/String;
 
     move-result-object v1
 
@@ -366,7 +365,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 
@@ -396,16 +395,16 @@
 
     const-string v1, "360401"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
 
-.method public final Y()V
+.method public final Z()V
     .registers 3
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->Y()V
+    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->Z()V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -420,7 +419,7 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/in8;->b:Lcom/huawei/appmarket/in8;
+    sget-object v0, Lcom/huawei/appmarket/on8;->b:Lcom/huawei/appmarket/on8;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
@@ -435,28 +434,13 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string p2, "FullWebViewDelegate"
 
     const-string p3, "onWebViewTypeChange"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public final c0()V
-    .registers 4
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
-
-    const-string v1, "FullWebViewDelegate"
-
-    const-string v2, "Override setControlMore, but nothing to do"
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -473,13 +457,13 @@
 
     invoke-direct {p1, v0}, Lcom/huawei/appmarket/o80$b;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg;->f()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/eg;->f()Ljava/lang/String;
 
     move-result-object v0
 
@@ -491,11 +475,11 @@
     :goto_0
     invoke-virtual {p1, v0}, Lcom/huawei/appmarket/o80$b;->r(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/eg;->g()Ljava/lang/String;
 
     move-result-object v1
 
@@ -506,9 +490,24 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/fg;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->X:Lcom/huawei/appmarket/eg;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/h90;->x(Lcom/huawei/appmarket/o80;Lcom/huawei/appmarket/fg;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/h90;->x(Lcom/huawei/appmarket/o80;Lcom/huawei/appmarket/eg;)V
+
+    return-void
+.end method
+
+.method public final d0()V
+    .registers 4
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    const-string v1, "FullWebViewDelegate"
+
+    const-string v2, "Override setControlMore, but nothing to do"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -519,7 +518,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->e(I)V
 
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -535,7 +534,7 @@
 
     const-string v1, "FullWebViewDelegate"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/distribution/impl/webview/delegate/FullWebViewDelegate;->Z:Landroid/widget/LinearLayout;
 
@@ -549,11 +548,11 @@
     return-void
 .end method
 
-.method public final l0(Landroid/app/Activity;)V
+.method public final m0(Landroid/app/Activity;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->l0(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->m0(Landroid/app/Activity;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->e:Landroid/widget/RelativeLayout;
 
@@ -567,22 +566,22 @@
     return-void
 .end method
 
-.method protected final m0(Ljava/lang/String;)V
+.method protected final n0(Ljava/lang/String;)V
     .registers 4
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v0, "FullWebViewDelegate"
 
     const-string v1, "Override setTitle, but nothing to do"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method protected final r0()V
+.method protected final s0()V
     .registers 2
 
     .line 1
@@ -590,7 +589,7 @@
 
     invoke-direct {v0}, Lcom/huawei/appgallery/distribution/impl/webview/impl/WebViewListenerImpl;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/i64;
+    iput-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/l64;
 
     return-void
 .end method
@@ -618,13 +617,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FullWebViewDelegate"
 
     const-string v2, "Override finishActivity, but nothing to do"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

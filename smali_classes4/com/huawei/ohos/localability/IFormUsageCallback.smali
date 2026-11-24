@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;

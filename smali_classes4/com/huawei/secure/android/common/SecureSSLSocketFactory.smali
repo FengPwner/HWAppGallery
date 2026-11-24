@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->b:Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object p1
 
@@ -116,15 +116,15 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
-    new-instance v1, Lcom/huawei/appmarket/t83;
+    new-instance v1, Lcom/huawei/appmarket/w83;
 
-    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/t83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/w83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
@@ -163,15 +163,15 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
-    new-instance v1, Lcom/huawei/appmarket/t83;
+    new-instance v1, Lcom/huawei/appmarket/w83;
 
-    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/t83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/w83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
 
@@ -193,9 +193,9 @@
 
     check-cast p1, Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rz6;->c(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vz6;->c(Ljavax/net/ssl/SSLSocket;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rz6;->b(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vz6;->b(Ljavax/net/ssl/SSLSocket;)V
 
     return-void
 .end method

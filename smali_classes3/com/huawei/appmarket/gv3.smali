@@ -3,15 +3,54 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Landroid/os/IInterface;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/lf1;
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/gv3$a;
+    }
 .end annotation
 
 
 # virtual methods
-.method public abstract getOaid()Ljava/lang/String;
+.method public abstract d2()V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract f0()V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract j0()I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract k0()Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract p0()V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
 .end method

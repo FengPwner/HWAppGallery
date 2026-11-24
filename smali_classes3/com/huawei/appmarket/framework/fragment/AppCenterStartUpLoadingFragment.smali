@@ -52,13 +52,13 @@
 
     move-result-object p3
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ni5;->j(Landroid/content/Context;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/pi5;->j(Landroid/content/Context;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p3
 
-    invoke-static {p3}, Lcom/huawei/appmarket/oi5;->k(Landroid/content/Context;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/qi5;->k(Landroid/content/Context;)V
 
     const p3, 0x7f0d087c
 
@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -145,7 +145,7 @@
 
     const-string v1, "loadingCtl onResume again , will excute()"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->n3()V
 

@@ -23,11 +23,11 @@
 
 .field private E:Landroid/view/animation/RotateAnimation;
 
-.field protected F:Lcom/huawei/appmarket/kq1;
+.field protected F:Lcom/huawei/appmarket/nq1;
 
 .field private G:I
 
-.field private H:Lcom/huawei/appmarket/hj0;
+.field private H:Lcom/huawei/appmarket/ij0;
 
 .field private I:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
@@ -57,7 +57,7 @@
 
 .field private N:Landroid/os/Handler;
 
-.field private x:Lcom/huawei/appmarket/aq1;
+.field private x:Lcom/huawei/appmarket/dq1;
 
 .field private y:Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 21
     .line 22
@@ -123,7 +123,7 @@
 
     .line 27
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 28
     .line 29
@@ -218,7 +218,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic A1(Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -302,7 +301,7 @@
     .line 34
     .line 35
     :goto_0
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 36
     .line 37
@@ -474,7 +473,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic C1(Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;)V
@@ -544,7 +542,7 @@
 
     .line 17
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 18
     .line 19
@@ -636,11 +634,11 @@
 
     .line 61
     .line 62
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 63
     .line 64
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 65
     .line 66
@@ -662,11 +660,11 @@
 
     .line 74
     :cond_4
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 75
     .line 76
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 77
     .line 78
@@ -729,7 +727,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic G1(Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -895,7 +892,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 52
     .line 53
@@ -1022,7 +1019,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/ij0;
 
     if-nez v0, :cond_0
 
@@ -1039,17 +1036,17 @@
 
     invoke-direct {v1}, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;-><init>()V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/hj0;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/ij0;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/hj0;->m()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ij0;->m()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;->Y(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/qb3;->k()I
 
     move-result v2
 
@@ -1071,15 +1068,15 @@
 
     invoke-virtual {v1, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->setServiceType_(I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->k()I
 
     move-result v2
 
     add-int/lit8 v2, v2, -0x1
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1089,7 +1086,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard$c;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;)V
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method
@@ -1098,7 +1095,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/f52;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/j52;
 
     const-string v1, "HorizontalYouMayLikeAppCard"
 
@@ -1107,12 +1104,12 @@
     const-string v0, "saveExposeData: exposureCalculator == null "
 
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/f52;->o()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/j52;->o()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -1142,7 +1139,7 @@
 
     const-string v3, "saveExposeData: visibleView == null"
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -1240,7 +1237,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 35
     .line 36
@@ -1497,7 +1494,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v2
 
@@ -1532,21 +1529,21 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->x:Lcom/huawei/appmarket/aq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->x:Lcom/huawei/appmarket/dq1;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/hj0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->H:Lcom/huawei/appmarket/ij0;
 
     return-void
 .end method
@@ -1568,7 +1565,7 @@
     move-result-object v0
 
     .line 8
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 9
     .line 10
@@ -1622,7 +1619,7 @@
     move-result-object v3
 
     .line 33
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 34
     .line 35
@@ -1733,7 +1730,7 @@
     .line 84
     .line 85
     :cond_5
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 86
     .line 87
@@ -1745,12 +1742,12 @@
     move-result v3
 
     .line 91
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 92
     .line 93
     .line 94
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 95
     .line 96
@@ -1762,12 +1759,12 @@
     move-result v3
 
     .line 100
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/nb3;->A(I)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/qb3;->A(I)V
 
     .line 101
     .line 102
     .line 103
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 104
     .line 105
@@ -1782,7 +1779,7 @@
     const/4 v4, 0x1
 
     .line 110
-    invoke-virtual {v0, v4, v3}, Lcom/huawei/appmarket/nb3;->r(ILjava/lang/String;)V
+    invoke-virtual {v0, v4, v3}, Lcom/huawei/appmarket/qb3;->r(ILjava/lang/String;)V
 
     .line 111
     .line 112
@@ -1795,7 +1792,7 @@
     move-result-object v0
 
     .line 117
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 118
     .line 119
@@ -1840,21 +1837,21 @@
     .line 138
     .line 139
     :cond_6
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 140
     .line 141
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 142
     .line 143
     .line 144
     :cond_7
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 145
     .line 146
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 147
     .line 148
@@ -1875,7 +1872,7 @@
     move-result-object v0
 
     .line 157
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 158
     .line 159
@@ -1945,11 +1942,11 @@
 
     .line 191
     :cond_8
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 192
     .line 193
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 194
     .line 195
@@ -2000,7 +1997,7 @@
     .line 216
     .line 217
     .line 218
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 219
     .line 220
@@ -2317,7 +2314,7 @@
     move-result-object v6
 
     .line 377
-    invoke-static {v6}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 378
     .line 379
@@ -3408,71 +3405,9 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -3495,7 +3430,7 @@
 
     check-cast v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleItemCard;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalApplistSingleItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalApplistSingleItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -3543,7 +3478,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 20
     .line 21
@@ -3560,7 +3495,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 29
     .line 30
@@ -3601,7 +3536,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 50
     .line 51
@@ -3618,7 +3553,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 59
     .line 60
@@ -3635,7 +3570,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 68
     .line 69
@@ -3652,7 +3587,7 @@
     .line 74
     .line 75
     .line 76
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 77
     .line 78
@@ -3703,7 +3638,7 @@
     .line 101
     .line 102
     .line 103
-    const v0, 0x7f0a1630
+    const v0, 0x7f0a1631
 
     .line 104
     .line 105
@@ -3744,7 +3679,7 @@
 
     .line 123
     .line 124
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 125
     .line 126
@@ -3756,7 +3691,7 @@
 
     .line 129
     .line 130
-    invoke-interface {v2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {v2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     .line 131
     .line 132
@@ -3764,7 +3699,7 @@
     move-result-object v2
 
     .line 134
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/gw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/aq1;
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/mw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/dq1;
 
     .line 135
     .line 136
@@ -3772,7 +3707,7 @@
     move-result-object v0
 
     .line 138
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->x:Lcom/huawei/appmarket/aq1;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->x:Lcom/huawei/appmarket/dq1;
 
     .line 139
     .line 140
@@ -3926,7 +3861,7 @@
     .line 216
     .line 217
     .line 218
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     .line 219
     .line 220
@@ -3948,7 +3883,7 @@
 
     .line 229
     .line 230
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 231
     .line 232
@@ -4259,7 +4194,7 @@
     .line 386
     .line 387
     .line 388
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 389
     .line 390
@@ -4267,16 +4202,16 @@
 
     .line 391
     .line 392
-    new-instance p1, Lcom/huawei/appmarket/kq1;
+    new-instance p1, Lcom/huawei/appmarket/nq1;
 
     .line 393
     .line 394
-    invoke-direct {p1}, Lcom/huawei/appmarket/kq1;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/nq1;-><init>()V
 
     .line 395
     .line 396
     .line 397
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 398
     .line 399
@@ -5309,66 +5244,4 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method

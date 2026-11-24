@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -36,12 +36,12 @@
 # virtual methods
 .method public final getInstance(Landroid/content/Context;)Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackMediaData;
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackMediaData;->access$getMInstance$cp()Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackMediaData;
 
@@ -68,7 +68,7 @@
 
     const-string v2, "context.applicationContext"
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, p1}, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackMediaData;-><init>(Landroid/content/Context;)V
 
@@ -83,7 +83,7 @@
 
     :cond_0
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/oobe/activity/j;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
     iput p3, p0, Lcom/huawei/appmarket/oobe/activity/j;->c:I
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
     move-exception p1
 
     .line 47
-    sget-object v2, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v2, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 48
     .line 49
@@ -168,7 +168,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -195,7 +195,7 @@
 
     .line 82
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 83
     .line 84
@@ -247,7 +247,7 @@
     .line 108
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     .line 111
     .line 112
@@ -255,7 +255,7 @@
     move-result-object v0
 
     .line 114
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     .line 115
     .line 116
@@ -495,6 +495,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

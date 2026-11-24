@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public final a:Lcom/huawei/appmarket/d28;
+.field public final a:Lcom/huawei/appmarket/i28;
 
 .field public final b:[I
 
@@ -23,18 +23,18 @@
 
 
 # direct methods
-.method public varargs constructor <init>(Lcom/huawei/appmarket/d28;[I)V
+.method public varargs constructor <init>(Lcom/huawei/appmarket/i28;[I)V
     .registers 4
 
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Landroidx/media3/exoplayer/trackselection/e$a;-><init>(Lcom/huawei/appmarket/d28;[II)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/media3/exoplayer/trackselection/e$a;-><init>(Lcom/huawei/appmarket/i28;[II)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/d28;[II)V
+.method public constructor <init>(Lcom/huawei/appmarket/i28;[II)V
     .registers 7
 
     .line 2
@@ -52,10 +52,10 @@
 
     const-string v2, "Empty tracks are not allowed"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
-    iput-object p1, p0, Landroidx/media3/exoplayer/trackselection/e$a;->a:Lcom/huawei/appmarket/d28;
+    iput-object p1, p0, Landroidx/media3/exoplayer/trackselection/e$a;->a:Lcom/huawei/appmarket/i28;
 
     iput-object p2, p0, Landroidx/media3/exoplayer/trackselection/e$a;->b:[I
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qv4;
+.implements Lcom/huawei/appmarket/tv4;
 
 
 # annotations
@@ -16,7 +16,7 @@
         ">",
         "Lcom/huawei/appmarket/z3<",
         "TK;TV;>;",
-        "Lcom/huawei/appmarket/qv4<",
+        "Lcom/huawei/appmarket/tv4<",
         "TK;TV;>;"
     }
 .end annotation

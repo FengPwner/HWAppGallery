@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -60,7 +60,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -116,7 +116,7 @@
 
     .line 39
     .line 40
-    invoke-static {v1}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -156,7 +156,7 @@
     move-result-object p1
 
     .line 58
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60

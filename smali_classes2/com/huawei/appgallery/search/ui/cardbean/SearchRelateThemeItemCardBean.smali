@@ -9,22 +9,22 @@
 
 # instance fields
 .field private bannerUrl:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private styleType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private subTitle:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private title:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -176,7 +176,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final W3()Ljava/lang/String;

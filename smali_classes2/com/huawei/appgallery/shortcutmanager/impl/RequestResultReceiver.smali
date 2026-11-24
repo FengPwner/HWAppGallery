@@ -28,7 +28,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/m24$a;)Landroid/app/PendingIntent;
+.method public static a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/o24$a;)Landroid/app/PendingIntent;
     .registers 6
 
     .line 1
@@ -477,7 +477,7 @@
     move-exception p1
 
     .line 26
-    sget-object p2, Lcom/huawei/appmarket/ey4;->a:Lcom/huawei/appmarket/ey4;
+    sget-object p2, Lcom/huawei/appmarket/hy4;->a:Lcom/huawei/appmarket/hy4;
 
     .line 27
     .line 28
@@ -511,7 +511,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -544,7 +544,7 @@
     move-result-object p1
 
     .line 60
-    check-cast p1, Lcom/huawei/appmarket/m24$a;
+    check-cast p1, Lcom/huawei/appmarket/o24$a;
 
     .line 61
     .line 62
@@ -552,7 +552,7 @@
 
     .line 63
     .line 64
-    invoke-interface {p1}, Lcom/huawei/appmarket/m24$a;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/o24$a;->a()V
 
     .line 65
     .line 66
@@ -656,5 +656,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

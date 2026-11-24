@@ -796,57 +796,14 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method public doAction(Lcom/huawei/appmarket/ax8;Ljava/lang/String;Landroid/view/View;Ljava/util/Map;)Z
+.method public doAction(Lcom/huawei/appmarket/gx8;Ljava/lang/String;Landroid/view/View;Ljava/util/Map;)Z
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ax8;",
+            "Lcom/huawei/appmarket/gx8;",
             "Ljava/lang/String;",
             "Landroid/view/View;",
             "Ljava/util/Map<",
@@ -857,7 +814,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ax8;->getDataContext()Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gx8;->getDataContext()Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
 
     move-result-object v0
 
@@ -884,7 +841,7 @@
     invoke-virtual {p0, v0, p1, p3}, Lcom/huawei/quickcard/action/ActionsManager;->bindActions(Lcom/huawei/quickcard/elexecutor/IExpressionContext;Lcom/huawei/quickcard/CardContext;Landroid/view/View;)V
 
     :try_start_0
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ax8;->executeExpr(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/gx8;->executeExpr(Ljava/lang/String;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

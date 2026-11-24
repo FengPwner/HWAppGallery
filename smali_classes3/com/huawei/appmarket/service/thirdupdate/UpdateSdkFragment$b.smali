@@ -49,7 +49,7 @@
 
     const-string v2, "show update ota dialog timeout."
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->x3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)V
 

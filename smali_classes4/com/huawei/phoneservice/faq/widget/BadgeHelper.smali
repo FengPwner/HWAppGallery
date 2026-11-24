@@ -71,7 +71,7 @@
 
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    const-string p2, "\u5982\u679c\u4f60\u81ea\u5b9a\u4e49\u4e86\u5c0f\u7ea2\u70b9\u7684\u5bbd\u9ad8,\u5c31\u4e0d\u80fd\u8bbe\u7f6e\u5176\u5bbd\u9ad8\u5c0f\u4e8e0!"
+    const-string/jumbo p2, "\u5982\u679c\u4f60\u81ea\u5b9a\u4e49\u4e86\u5c0f\u7ea2\u70b9\u7684\u5bbd\u9ad8,\u5c31\u4e0d\u80fd\u8bbe\u7f6e\u5176\u5bbd\u9ad8\u5c0f\u4e8e0!"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 

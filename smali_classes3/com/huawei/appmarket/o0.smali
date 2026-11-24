@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<R::",
-        "Lcom/huawei/appmarket/ou3;",
+        "Lcom/huawei/appmarket/qu3;",
         ">",
         "Ljava/lang/Object;"
     }
@@ -17,7 +17,7 @@
 # instance fields
 .field public a:Lcom/huawei/appmarket/p0;
 
-.field public b:Lcom/huawei/appmarket/lr0;
+.field public b:Lcom/huawei/appmarket/mr0;
 
 
 # direct methods
@@ -31,7 +31,7 @@
 
 
 # virtual methods
-.method protected abstract a(Lcom/huawei/appmarket/ou3;)V
+.method protected abstract a(Lcom/huawei/appmarket/qu3;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TR;)V"

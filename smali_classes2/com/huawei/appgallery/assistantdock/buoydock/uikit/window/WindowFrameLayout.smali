@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->U2(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->V2(Landroid/content/Context;)V
 
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z

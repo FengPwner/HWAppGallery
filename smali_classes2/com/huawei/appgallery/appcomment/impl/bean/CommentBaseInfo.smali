@@ -5,13 +5,13 @@
 
 # instance fields
 .field private accountId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private accountName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -19,7 +19,7 @@
 .field private id_:Ljava/lang/String;
 
 .field private nickName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -29,13 +29,13 @@
 .field private operTime_:Ljava/lang/String;
 
 .field private phone_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private photoUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field

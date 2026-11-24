@@ -48,13 +48,13 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pl0;->F(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ql0;->F(Z)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->G(Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;)V
 
@@ -63,19 +63,19 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pl0;->F(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ql0;->F(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pl0;->E()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ql0;->E()V
 
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->w(Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;)V
 

@@ -70,7 +70,7 @@
 
     if-lt v3, v0, :cond_4
 
-    invoke-static {p0, v2}, Lcom/huawei/appmarket/ej5;->t(Landroid/app/usage/UsageStatsManager;Ljava/lang/String;)Z
+    invoke-static {p0, v2}, Lcom/huawei/appmarket/gj5;->t(Landroid/app/usage/UsageStatsManager;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -129,7 +129,7 @@
     if-lt v2, v3, :cond_1
 
     :try_start_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->v(Landroid/os/PowerManager;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->v(Landroid/os/PowerManager;)Z
 
     move-result v1
     :try_end_0
@@ -270,7 +270,7 @@
     if-lt v1, v2, :cond_1
 
     :try_start_0
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ej5;->w(Landroid/os/PowerManager;Ljava/lang/String;)Z
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/gj5;->w(Landroid/os/PowerManager;Ljava/lang/String;)Z
 
     move-result p0
     :try_end_0
@@ -351,7 +351,7 @@
 
     if-lt v3, p0, :cond_5
 
-    invoke-static {v2}, Lcom/huawei/appmarket/o85;->b(Landroid/net/ConnectivityManager;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/r85;->b(Landroid/net/ConnectivityManager;)I
 
     move-result v1
 

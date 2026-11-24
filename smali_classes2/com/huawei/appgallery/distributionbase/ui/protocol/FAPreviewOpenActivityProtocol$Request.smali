@@ -17,7 +17,7 @@
 # instance fields
 .field private abilityName:Ljava/lang/String;
 
-.field private channelParams:Lcom/huawei/appmarket/sn0;
+.field private channelParams:Lcom/huawei/appmarket/tn0;
 
 .field private detailId:Ljava/lang/String;
 
@@ -46,11 +46,11 @@
     return-object v0
 .end method
 
-.method public final P2()Lcom/huawei/appmarket/sn0;
+.method public final P2()Lcom/huawei/appmarket/tn0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->channelParams:Lcom/huawei/appmarket/sn0;
+    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-object v0
 .end method
@@ -91,11 +91,11 @@
     return-void
 .end method
 
-.method public final U2(Lcom/huawei/appmarket/sn0;)V
+.method public final U2(Lcom/huawei/appmarket/tn0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->channelParams:Lcom/huawei/appmarket/sn0;
+    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-void
 .end method

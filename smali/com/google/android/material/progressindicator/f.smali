@@ -48,7 +48,7 @@
 
 .field private e:Landroid/animation/ObjectAnimator;
 
-.field private final f:Lcom/huawei/appmarket/uh2;
+.field private final f:Lcom/huawei/appmarket/xh2;
 
 .field private final g:Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;
 
@@ -58,7 +58,7 @@
 
 .field private j:F
 
-.field k:Lcom/huawei/appmarket/ol;
+.field k:Lcom/huawei/appmarket/nl;
 
 
 # direct methods
@@ -141,15 +141,15 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/ol;
+    iput-object v0, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/nl;
 
     iput-object p1, p0, Lcom/google/android/material/progressindicator/f;->g:Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;
 
-    new-instance p1, Lcom/huawei/appmarket/uh2;
+    new-instance p1, Lcom/huawei/appmarket/xh2;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/uh2;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/xh2;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/uh2;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/xh2;
 
     return-void
 .end method
@@ -596,7 +596,7 @@
     move-result v2
 
     .line 16
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 17
     .line 18
@@ -728,13 +728,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final c(Lcom/huawei/appmarket/ol;)V
+.method public final c(Lcom/huawei/appmarket/nl;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/ol;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/nl;
 
     return-void
 .end method
@@ -916,7 +917,7 @@
 
     .line 69
     .line 70
-    iget-object v1, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/uh2;
+    iget-object v1, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/xh2;
 
     .line 71
     .line 72
@@ -975,7 +976,7 @@
     move-result v2
 
     .line 100
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 101
     .line 102
@@ -1039,6 +1040,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f()V
@@ -1047,7 +1049,7 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/ol;
+    iput-object v0, p0, Lcom/google/android/material/progressindicator/f;->k:Lcom/huawei/appmarket/nl;
 
     return-void
 .end method
@@ -1109,7 +1111,7 @@
 
     .line 25
     :goto_0
-    iget-object v4, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/uh2;
+    iget-object v4, p0, Lcom/google/android/material/progressindicator/f;->f:Lcom/huawei/appmarket/xh2;
 
     .line 26
     .line 27
@@ -1149,7 +1151,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/uh2;->getInterpolation(F)F
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/xh2;->getInterpolation(F)F
 
     .line 44
     .line 45
@@ -1194,7 +1196,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/uh2;->getInterpolation(F)F
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/xh2;->getInterpolation(F)F
 
     .line 65
     .line 66
@@ -1369,7 +1371,7 @@
     move-result v2
 
     .line 143
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 144
     .line 145
@@ -1397,7 +1399,7 @@
     move-result v2
 
     .line 157
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 158
     .line 159
@@ -1405,7 +1407,7 @@
     move-result v0
 
     .line 161
-    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/uh2;->getInterpolation(F)F
+    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/xh2;->getInterpolation(F)F
 
     .line 162
     .line 163
@@ -1413,7 +1415,7 @@
     move-result v1
 
     .line 165
-    invoke-static {}, Lcom/huawei/appmarket/ww;->b()Lcom/huawei/appmarket/ww;
+    invoke-static {}, Lcom/huawei/appmarket/xw;->b()Lcom/huawei/appmarket/xw;
 
     .line 166
     .line 167
@@ -1442,7 +1444,7 @@
     .line 178
     .line 179
     .line 180
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/ww;->a(FLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/xw;->a(FLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
 
     .line 181
     .line 182

@@ -255,6 +255,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
@@ -288,7 +289,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/r58;->j(Landroid/text/Spannable;)Ljava/util/stream/IntStream;
+    invoke-static {v0}, Lcom/huawei/appmarket/fq7;->n(Landroid/text/Spannable;)Ljava/util/stream/IntStream;
 
     .line 4
     .line 5
@@ -425,6 +426,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final codePoints()Ljava/util/stream/IntStream;
@@ -435,7 +437,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/r58;->v(Landroid/text/Spannable;)Ljava/util/stream/IntStream;
+    invoke-static {v0}, Lcom/huawei/appmarket/fq7;->D(Landroid/text/Spannable;)Ljava/util/stream/IntStream;
 
     .line 4
     .line 5
@@ -572,6 +574,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getSpanEnd(Ljava/lang/Object;)I

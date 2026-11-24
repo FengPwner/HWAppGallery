@@ -9,15 +9,15 @@
 # instance fields
 .field public final synthetic a:Lcom/airbnb/lottie/h;
 
-.field public final synthetic b:Lcom/huawei/appmarket/zq4;
+.field public final synthetic b:Lcom/huawei/appmarket/cr4;
 
 .field public final synthetic c:Ljava/lang/Object;
 
-.field public final synthetic d:Lcom/huawei/appmarket/m15;
+.field public final synthetic d:Lcom/huawei/appmarket/p15;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/zq4;Ljava/lang/Object;Lcom/huawei/appmarket/m15;)V
+.method public synthetic constructor <init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/cr4;Ljava/lang/Object;Lcom/huawei/appmarket/p15;)V
     .registers 5
 
     .line 1
@@ -25,11 +25,11 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/f;->a:Lcom/airbnb/lottie/h;
 
-    iput-object p2, p0, Lcom/airbnb/lottie/f;->b:Lcom/huawei/appmarket/zq4;
+    iput-object p2, p0, Lcom/airbnb/lottie/f;->b:Lcom/huawei/appmarket/cr4;
 
     iput-object p3, p0, Lcom/airbnb/lottie/f;->c:Ljava/lang/Object;
 
-    iput-object p4, p0, Lcom/airbnb/lottie/f;->d:Lcom/huawei/appmarket/m15;
+    iput-object p4, p0, Lcom/airbnb/lottie/f;->d:Lcom/huawei/appmarket/p15;
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/airbnb/lottie/f;->d:Lcom/huawei/appmarket/m15;
+    iget-object v1, p0, Lcom/airbnb/lottie/f;->d:Lcom/huawei/appmarket/p15;
 
     .line 4
     .line 5
@@ -52,11 +52,11 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lcom/airbnb/lottie/f;->b:Lcom/huawei/appmarket/zq4;
+    iget-object v3, p0, Lcom/airbnb/lottie/f;->b:Lcom/huawei/appmarket/cr4;
 
     .line 8
     .line 9
-    invoke-virtual {v2, v3, v0, v1}, Lcom/airbnb/lottie/h;->c(Lcom/huawei/appmarket/zq4;Ljava/lang/Object;Lcom/huawei/appmarket/m15;)V
+    invoke-virtual {v2, v3, v0, v1}, Lcom/airbnb/lottie/h;->c(Lcom/huawei/appmarket/cr4;Ljava/lang/Object;Lcom/huawei/appmarket/p15;)V
 
     .line 10
     .line 11
@@ -185,4 +185,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

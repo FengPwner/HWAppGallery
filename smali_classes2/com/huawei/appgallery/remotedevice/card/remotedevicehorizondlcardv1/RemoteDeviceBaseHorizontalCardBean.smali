@@ -15,7 +15,7 @@
 
 # instance fields
 .field protected list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -51,7 +51,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedevicehorizondlcardv1/RemoteDeviceBaseHorizontalCardBean;->list:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -103,13 +103,13 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->n()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->n()I
 
     move-result v2
 
     add-int/2addr v2, v1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->i(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->i(Landroid/content/Context;)I
 
     move-result v0
 

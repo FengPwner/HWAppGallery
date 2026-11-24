@@ -3,34 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation runtime Lcom/huawei/appgallery/distribution/impl/bireport/fieldbireport/BiReportData;
-    key = "2220101102"
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/nw6$a;
-    }
-.end annotation
-
-
-# instance fields
-.field private responseInfo:Lcom/huawei/appmarket/av6;
-    .annotation runtime Lcom/huawei/appgallery/distribution/impl/bireport/fieldbireport/FieldBiReport;
-        type = "Object"
-    .end annotation
-.end field
-
-.field private rewardInfo:Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;
-    .annotation runtime Lcom/huawei/appgallery/distribution/impl/bireport/fieldbireport/FieldBiReport;
-        type = "Object"
-    .end annotation
-.end field
-
-
 # direct methods
-.method public constructor <init>()V
+.method constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,20 +12,55 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/nw6;Lcom/huawei/appmarket/av6;)V
-    .registers 2
+
+# virtual methods
+.method public final a(Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;)Ljava/lang/String;
+    .registers 5
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/nw6;->responseInfo:Lcom/huawei/appmarket/av6;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;->X()Ljava/lang/String;
 
-    return-void
-.end method
+    move-result-object v0
 
-.method static synthetic b(Lcom/huawei/appmarket/nw6;Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;)V
-    .registers 2
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/nw6;->rewardInfo:Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;
+    move-result v0
 
-    return-void
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "-"
+
+    const-string v2, ""
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;->X()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;->e0(Ljava/lang/String;)V
+
+    new-instance v1, Lcom/huawei/appmarket/cf;
+
+    const/4 v2, 0x1
+
+    invoke-direct {v1, p1, v2}, Lcom/huawei/appmarket/cf;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v1}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
+
+    return-object v0
 .end method

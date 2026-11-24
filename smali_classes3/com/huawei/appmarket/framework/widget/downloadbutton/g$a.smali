@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -51,7 +51,7 @@
 
     .line 2
     .line 3
-    sget-object v0, Lcom/huawei/appmarket/qz5;->a:Lcom/huawei/appmarket/qz5;
+    sget-object v0, Lcom/huawei/appmarket/sz5;->a:Lcom/huawei/appmarket/sz5;
 
     .line 4
     .line 5
@@ -131,7 +131,7 @@
     move-result-object p1
 
     .line 41
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/dz5;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/fz5;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -144,7 +144,7 @@
 
     .line 47
     .line 48
-    invoke-static {p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     .line 49
     .line 50
@@ -152,7 +152,7 @@
     move-result-object p1
 
     .line 52
-    invoke-interface {p1}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/fr5;->c()V
 
     .line 53
     .line 54
@@ -259,5 +259,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

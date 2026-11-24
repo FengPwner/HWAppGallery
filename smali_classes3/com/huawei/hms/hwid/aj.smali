@@ -76,12 +76,12 @@
 
 
 # virtual methods
-.method public a()Lcom/huawei/appmarket/hv7;
+.method public a()Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -102,9 +102,9 @@
 
     if-eqz v1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/hms/common/ApiException;
 
@@ -118,9 +118,9 @@
 
     invoke-direct {v1, v2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -135,21 +135,21 @@
 
     invoke-direct {v1, v2, v0, v3}, Lcom/huawei/hms/hwid/ak;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public a(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+.method public a(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -178,9 +178,9 @@
 
     if-le v4, v5, :cond_0
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/common/ApiException;
 
@@ -190,9 +190,9 @@
 
     invoke-direct {v0, v2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -240,9 +240,9 @@
 
     if-eqz p1, :cond_1
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/common/ApiException;
 
@@ -252,9 +252,9 @@
 
     invoke-direct {v0, v2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -273,7 +273,7 @@
 
     invoke-direct {p1, v2, v0, v1}, Lcom/huawei/hms/hwid/al;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

@@ -28,9 +28,9 @@
     .end annotation
 .end field
 
-.field private c:Lcom/huawei/appmarket/sq4;
+.field private c:Lcom/huawei/appmarket/vq4;
 
-.field private d:Lcom/huawei/appmarket/d91;
+.field private d:Lcom/huawei/appmarket/e91;
 
 .field private e:Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
@@ -601,7 +601,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/d91;
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/e91;
 
     if-eqz v1, :cond_1
 
@@ -609,7 +609,7 @@
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v4, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/d91;
+    iget-object v4, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/e91;
 
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -625,7 +625,7 @@
     :goto_1
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/sq4;
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/vq4;
 
     if-eqz v1, :cond_2
 
@@ -633,7 +633,7 @@
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/sq4;
+    iget-object v2, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/vq4;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -751,22 +751,22 @@
     return-object v0
 .end method
 
-.method final h(Lcom/huawei/appmarket/sq4;Lcom/huawei/appmarket/d91;Ljava/lang/Class;)V
+.method final h(Lcom/huawei/appmarket/vq4;Lcom/huawei/appmarket/e91;Ljava/lang/Class;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
-            "Lcom/huawei/appmarket/d91;",
+            "Lcom/huawei/appmarket/vq4;",
+            "Lcom/huawei/appmarket/e91;",
             "Ljava/lang/Class<",
             "*>;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/sq4;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/GlideException;->c:Lcom/huawei/appmarket/vq4;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/d91;
+    iput-object p2, p0, Lcom/bumptech/glide/load/engine/GlideException;->d:Lcom/huawei/appmarket/e91;
 
     iput-object p3, p0, Lcom/bumptech/glide/load/engine/GlideException;->e:Ljava/lang/Class;
 

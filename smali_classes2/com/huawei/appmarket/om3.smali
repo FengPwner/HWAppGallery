@@ -4,19 +4,11 @@
 
 
 # virtual methods
-.method public abstract a()Lcom/huawei/appmarket/hv7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/hv7<",
-            "Ljava/lang/Long;",
-            ">;"
-        }
-    .end annotation
+.method public abstract a()V
 .end method
 
-.method public abstract b()Landroid/content/Intent;
+.method public abstract b()V
 .end method
 
-.method public abstract c()Ljava/lang/String;
+.method public abstract c(ILcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)Z
 .end method

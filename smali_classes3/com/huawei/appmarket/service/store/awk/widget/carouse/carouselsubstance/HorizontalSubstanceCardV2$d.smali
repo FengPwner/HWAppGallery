@@ -99,7 +99,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {p1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -131,13 +131,13 @@
 
     rem-int/2addr v2, v1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;->Z3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;)Lcom/huawei/appmarket/nb3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;->Z3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;)Lcom/huawei/appmarket/qb3;
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/ul0;
+    check-cast v3, Lcom/huawei/appmarket/vl0;
 
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/ul0;->K(I)V
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/vl0;->K(I)V
 
     iget v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2$d;->b:I
 
@@ -154,13 +154,13 @@
 
     move-result-object v3
 
-    instance-of v4, v3, Lcom/huawei/appmarket/sb3$a;
+    instance-of v4, v3, Lcom/huawei/appmarket/vb3$a;
 
     if-eqz v4, :cond_3
 
-    check-cast v3, Lcom/huawei/appmarket/sb3$a;
+    check-cast v3, Lcom/huawei/appmarket/vb3$a;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/sb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/vb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
 
     move-result-object v3
 
@@ -170,13 +170,13 @@
 
     check-cast v3, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;->a4(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;)Lcom/huawei/appmarket/nb3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;->a4(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceCardV2;)Lcom/huawei/appmarket/qb3;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/ul0;
+    check-cast v4, Lcom/huawei/appmarket/vl0;
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v4
 

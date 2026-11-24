@@ -22,37 +22,37 @@
 
 # instance fields
 .field private callParam:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private callType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private channelId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private detailId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private globalTrace:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private referrer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private thirdPartyPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -152,7 +152,7 @@
 
     const-string v0, "getParamFromJson error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

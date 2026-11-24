@@ -8,7 +8,7 @@
 
 .field private Y:Ljava/lang/String;
 
-.field private Z:Lcom/huawei/appmarket/u15;
+.field private Z:Lcom/huawei/appmarket/x15;
 
 .field private a0:Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;
 
@@ -31,11 +31,11 @@
     return-object p0
 .end method
 
-.method static synthetic w2(Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;)Lcom/huawei/appmarket/u15;
+.method static synthetic w2(Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;)Lcom/huawei/appmarket/x15;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/u15;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/x15;
 
     return-object p0
 .end method
@@ -62,7 +62,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Y:Ljava/lang/String;
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -80,15 +80,15 @@
 
     const-string v1, "DetailScreenGeneralCardV2"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/u15;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/x15;
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Y:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->a0:Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/u15;->e(Ljava/lang/String;Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x15;->e(Ljava/lang/String;Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;)V
 
     :cond_0
     return-void
@@ -124,14 +124,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     move-result v0
 
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->c()I
 
     move-result v0
 
@@ -142,14 +142,14 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/yl1;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/bm1;->a()I
 
     move-result v0
 
     return v0
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/yl1;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/bm1;->b()I
 
     move-result v0
 
@@ -185,7 +185,7 @@
 
     move-result v2
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v0
 
@@ -223,9 +223,9 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yl1;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/bm1;->c()V
 
-    const v0, 0x7f0a1656
+    const v0, 0x7f0a1657
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -235,13 +235,13 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->X:Landroid/widget/TextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
-    new-instance v0, Lcom/huawei/appmarket/u15;
+    new-instance v0, Lcom/huawei/appmarket/x15;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/u15;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/x15;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/u15;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailscreencardv2/DetailScreenGeneralCardV2;->Z:Lcom/huawei/appmarket/x15;
 
     const v0, 0x7f0a060d
 
@@ -433,5 +433,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

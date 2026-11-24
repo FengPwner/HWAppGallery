@@ -43,7 +43,7 @@
 
     iget-object p1, p1, Lcom/alibaba/fastjson/serializer/JSONSerializer;->out:Lcom/alibaba/fastjson/serializer/SerializeWriter;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/x0;->z(Ljava/lang/Object;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/x0;->y(Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -71,7 +71,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {p2}, Lcom/huawei/appmarket/x0;->D(Ljava/lang/Object;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/x0;->C(Ljava/lang/Object;)Z
 
     move-result p3
 

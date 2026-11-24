@@ -27,7 +27,7 @@
 
 .field private v:I
 
-.field private w:Lcom/huawei/appmarket/lg3;
+.field private w:Lcom/huawei/appmarket/ng3;
 
 .field private x:I
 
@@ -40,7 +40,7 @@
 
     const-class v0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lq1;->d(Ljava/lang/Class;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/oq1;->d(Ljava/lang/Class;)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/lg3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/ng3;
 
     .line 2
     .line 3
@@ -104,13 +104,13 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/lg3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/ng3;
 
     .line 20
     .line 21
@@ -118,7 +118,7 @@
 
     .line 22
     .line 23
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/lg3;->e(I)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ng3;->e(I)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -146,7 +146,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -159,7 +159,7 @@
 
     .line 40
     .line 41
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -295,7 +295,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p2, p3, p1, v0}, Lcom/huawei/appmarket/service/externalapi/secureactivity/a;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;Lcom/huawei/appmarket/cn5;)Ljava/lang/String;
+    invoke-static {p2, p3, p1, v0}, Lcom/huawei/appmarket/service/externalapi/secureactivity/a;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;Lcom/huawei/appmarket/dn5;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -306,13 +306,13 @@
     return-object p0
 .end method
 
-.method public static E3(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/cn5;)Lcom/huawei/appmarket/framework/coreservice/PendingIntentInfo;
+.method public static E3(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/dn5;)Lcom/huawei/appmarket/framework/coreservice/PendingIntentInfo;
     .registers 5
 
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p1, p2, v0, p3}, Lcom/huawei/appmarket/service/externalapi/secureactivity/a;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;Lcom/huawei/appmarket/cn5;)Ljava/lang/String;
+    invoke-static {p1, p2, v0, p3}, Lcom/huawei/appmarket/service/externalapi/secureactivity/a;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;Lcom/huawei/appmarket/dn5;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -581,7 +581,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private G3()Z
@@ -922,7 +921,7 @@
 
     const-string v0, "auto finish activity when upper activity onStop"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->C3()V
 
@@ -982,7 +981,7 @@
     move-result-object v1
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 24
     .line 25
@@ -1026,7 +1025,7 @@
 
     .line 44
     .line 45
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1099,7 +1098,7 @@
 
     .line 81
     .line 82
-    invoke-static {v0, v1, v4}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v4}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 83
     .line 84
@@ -1168,11 +1167,11 @@
     move-result-object p1
 
     .line 115
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
     .line 116
     .line 117
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     .line 118
     .line 119
@@ -1181,7 +1180,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/wz6;->e(Ljava/lang/String;I)I
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/a07;->e(Ljava/lang/String;I)I
 
     .line 123
     .line 124
@@ -1193,7 +1192,7 @@
 
     .line 127
     .line 128
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wz6;->b()Landroid/os/IBinder;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/a07;->b()Landroid/os/IBinder;
 
     .line 129
     .line 130
@@ -1201,7 +1200,7 @@
     move-result-object p1
 
     .line 132
-    invoke-static {p1}, Lcom/huawei/appmarket/lg3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/lg3;
+    invoke-static {p1}, Lcom/huawei/appmarket/ng3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/ng3;
 
     .line 133
     .line 134
@@ -1209,7 +1208,7 @@
     move-result-object p1
 
     .line 136
-    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/lg3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->w:Lcom/huawei/appmarket/ng3;
 
     .line 137
     .line 138
@@ -1438,8 +1437,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final onDestroy()V
@@ -1545,7 +1542,7 @@
 
     const-string v2, "auto finish activity when onResume"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v1, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->s:Z
 
@@ -1599,7 +1596,7 @@
 
     const-string v2, "auto finish activity when onStop"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/externalapi/secureactivity/SecureProxyActivity;->H3()Z
 

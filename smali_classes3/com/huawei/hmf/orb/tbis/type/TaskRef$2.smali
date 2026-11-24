@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations

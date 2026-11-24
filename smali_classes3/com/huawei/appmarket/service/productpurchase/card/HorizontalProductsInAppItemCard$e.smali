@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/va6;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/xa6;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

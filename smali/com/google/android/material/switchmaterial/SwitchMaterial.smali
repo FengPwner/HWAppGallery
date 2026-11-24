@@ -98,7 +98,7 @@
     .line 3
     const v0, 0x7f130625
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->U:Lcom/google/android/material/elevation/ElevationOverlayProvider;
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->Y:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->Y:[I
 
     const v4, 0x7f130625
 
@@ -126,7 +126,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -158,7 +158,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     .line 9
     .line 10
@@ -171,7 +171,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     .line 16
     .line 17
@@ -243,7 +243,7 @@
 
     .line 49
     .line 50
-    invoke-static {v6}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {v6}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     .line 51
     .line 52
@@ -282,7 +282,7 @@
 
     .line 66
     .line 67
-    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     .line 68
     .line 69
@@ -295,7 +295,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-static {v4, v0, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v4, v0, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     .line 75
     .line 76
@@ -376,6 +376,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private getMaterialThemeColorsTrackTintList()Landroid/content/res/ColorStateList;
@@ -387,41 +388,41 @@
 
     const v0, 0x7f040116
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v0
 
     const v1, 0x7f0400f8
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v1
 
     const v2, 0x7f040106
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v2
 
     const v3, 0x3f0a3d71    # 0.54f
 
-    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v3
 
     const v4, 0x3ea3d70a    # 0.32f
 
-    invoke-static {v4, v0, v2}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v4, v0, v2}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v4
 
     const v5, 0x3df5c28f    # 0.12f
 
-    invoke-static {v5, v0, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v5, v0, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v1
 
-    invoke-static {v5, v0, v2}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v5, v0, v2}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v0
 

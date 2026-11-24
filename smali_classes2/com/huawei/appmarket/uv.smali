@@ -1,63 +1,38 @@
 .class public final Lcom/huawei/appmarket/uv;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ai3;
 
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/ai3;
-.end annotation
+# static fields
+.field private static b:Landroid/content/Context;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
+.end method
+
+.method public static e()Landroid/content/Context;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/uv;->b:Landroid/content/Context;
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-    .registers 4
+.method protected final b()V
+    .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/wv;->c()Lcom/huawei/appmarket/wv;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/wv;->a(Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-
-    return-void
-.end method
-
-.method public final b([Ljava/lang/String;[Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-    .registers 5
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/wv;->c()Lcom/huawei/appmarket/wv;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/wv;->b([Ljava/lang/String;[Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-
-    return-void
-.end method
-
-.method public final c(Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-    .registers 5
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/wv;->c()Lcom/huawei/appmarket/wv;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -65,84 +40,64 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sput-object v0, Lcom/huawei/appmarket/uv;->b:Landroid/content/Context;
 
     .line 6
     .line 7
-    .line 8
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    const-string v0, "client.isLegalApp"
 
+    .line 8
     .line 9
+    const-class v1, Lcom/huawei/appgallery/appvalidate/server/AppValidateResponse;
+
     .line 10
     .line 11
-    move-result v0
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 12
-    if-eqz v0, :cond_0
-
     .line 13
     .line 14
-    const-string p1, "AppValidateManager"
+    const-string v0, "client.isLegalApp2"
 
     .line 15
     .line 16
-    const-string v0, "checkApp failed, packageName is empty"
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 19
+    const-class v0, Lcom/huawei/appgallery/appvalidate/server/QueryAppSignsResp;
+
     .line 20
     .line 21
-    const/4 p1, 0x0
+    const-string v1, "client.getAppSigns"
 
     .line 22
-    const/4 v0, 0x5
-
     .line 23
-    const/4 v1, 0x0
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 24
-    invoke-interface {p2, p1, v0, v1}, Lcom/huawei/appmarket/bi3;->onResult(IILjava/util/List;)V
-
     .line 25
     .line 26
+    return-void
     .line 27
-    goto :goto_0
-
     .line 28
-    :cond_0
-    new-instance v0, Lcom/huawei/appgallery/appvalidate/server/QueryAppSignsRequest;
-
     .line 29
     .line 30
-    invoke-direct {v0}, Lcom/huawei/appgallery/appvalidate/server/QueryAppSignsRequest;-><init>()V
-
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/appvalidate/server/QueryAppSignsRequest;->T(Ljava/lang/String;)V
-
     .line 34
     .line 35
     .line 36
-    new-instance v1, Lcom/huawei/appmarket/wv$b;
-
     .line 37
     .line 38
-    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/wv$b;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
-
     .line 39
     .line 40
     .line 41
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
-
     .line 42
     .line 43
     .line 44
-    :goto_0
-    return-void
     .line 45
     .line 46
     .line 47
@@ -236,31 +191,13 @@
     .line 135
     .line 136
     .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
+.end method
+
+.method protected final c()Lcom/huawei/appmarket/dn;
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    return-object v0
 .end method

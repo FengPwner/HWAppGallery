@@ -72,7 +72,7 @@
 
     const/16 p1, 0x10
 
-    invoke-static {p1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -169,7 +169,7 @@
 
     const/16 v0, 0x10
 
-    invoke-static {v0}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -374,7 +374,7 @@
     .line 2
     const/16 v0, 0x10
 
-    invoke-static {v0}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v0
 

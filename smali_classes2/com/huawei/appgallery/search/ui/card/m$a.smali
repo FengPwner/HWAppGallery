@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/search/ui/card/m;->m(Lcom/huawei/appmarket/dj3;Lcom/huawei/appmarket/ak0;Landroid/content/Context;I)V
+    value = Lcom/huawei/appgallery/search/ui/card/m;->m(Lcom/huawei/appmarket/fj3;Lcom/huawei/appmarket/bk0;Landroid/content/Context;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

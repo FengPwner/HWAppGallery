@@ -2,28 +2,27 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
-
 
 # virtual methods
-.method public abstract a1()V
+.method public abstract C()Z
 .end method
 
-.method public abstract d2()V
+.method public abstract c()Lcom/huawei/appmarket/ce5;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/ce5<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
 .end method
 
-.method public abstract j2()V
+.method public abstract getLifecycle()Landroidx/lifecycle/h;
 .end method
 
-.method public abstract l()V
+.method public abstract getView()Landroid/view/View;
 .end method
 
-.method public abstract o()V
-.end method
-
-.method public abstract r1()V
-.end method
-
-.method public abstract s()V
+.method public abstract k()Landroidx/fragment/app/FragmentActivity;
 .end method

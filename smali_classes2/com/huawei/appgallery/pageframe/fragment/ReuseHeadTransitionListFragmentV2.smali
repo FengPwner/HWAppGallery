@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rr2;
+.implements Lcom/huawei/appmarket/ur2;
 
 
 # static fields
@@ -35,7 +35,7 @@
     return-void
 .end method
 
-.method private w6(Landroid/content/Context;)Landroid/graphics/Bitmap;
+.method private x6(Landroid/content/Context;)Landroid/graphics/Bitmap;
     .registers 12
 
     .line 1
@@ -523,7 +523,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/zo5;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/ap5;
 
     if-eqz v0, :cond_0
 
@@ -531,13 +531,13 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K0:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
 
-    invoke-virtual {v2}, Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;->G()Lcom/huawei/appmarket/gg0;
+    invoke-virtual {v2}, Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;->G()Lcom/huawei/appmarket/hg0;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->E0:Ljava/lang/String;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/huawei/appmarket/zo5;->K2(ILcom/huawei/appmarket/gg0;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/huawei/appmarket/ap5;->K2(ILcom/huawei/appmarket/hg0;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -587,13 +587,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v1, "ReuseHeadTransitionListFragmentV2"
 
     const-string v2, "is blur not need initTitleLayout"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -611,15 +611,15 @@
 
     move-result-object p1
 
-    new-instance p2, Lcom/huawei/appmarket/wl1;
+    new-instance p2, Lcom/huawei/appmarket/zl1;
 
     iget-object p3, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->j1:Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K0:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
 
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/wl1;-><init>(Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/zl1;-><init>(Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/g04;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/i04;)V
 
     return-object p1
 .end method
@@ -630,9 +630,9 @@
     .line 1
     iput-object p2, p0, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->T3:Ljava/util/List;
 
-    new-instance p2, Lcom/huawei/appmarket/bw6;
+    new-instance p2, Lcom/huawei/appmarket/fw6;
 
-    invoke-direct {p2, p3}, Lcom/huawei/appmarket/bw6;-><init>(Z)V
+    invoke-direct {p2, p3}, Lcom/huawei/appmarket/fw6;-><init>(Z)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/aguikit/device/HwColumnSystemUtils;->getColumnCount(Landroid/content/Context;)I
 
@@ -643,11 +643,11 @@
     if-eq p3, v0, :cond_0
 
     :try_start_0
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->w6(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->x6(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/bw6;->d(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/fw6;->d(Landroid/graphics/Bitmap;)V
 
     const p1, 0x7f0a10f3
 
@@ -658,19 +658,19 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string p3, "ReuseHeadTransitionListFragmentV2"
 
     const-string v0, "transition setMaskBitmap error!"
 
-    invoke-virtual {p1, p3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
-    new-instance p1, Lcom/huawei/appmarket/uh2;
+    new-instance p1, Lcom/huawei/appmarket/xh2;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/uh2;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/xh2;-><init>()V
 
     invoke-virtual {p2, p1}, Landroid/transition/Transition;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/transition/Transition;
 
@@ -751,7 +751,7 @@
     move-result-object p1
 
     .line 23
-    iget-object p2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/zo5;
+    iget-object p2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/ap5;
 
     .line 24
     .line 25
@@ -779,7 +779,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p3}, Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;->G()Lcom/huawei/appmarket/gg0;
+    invoke-virtual {p3}, Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;->G()Lcom/huawei/appmarket/hg0;
 
     .line 38
     .line 39
@@ -791,7 +791,7 @@
 
     .line 42
     .line 43
-    invoke-interface {p2, v0, p3, v4}, Lcom/huawei/appmarket/zo5;->K2(ILcom/huawei/appmarket/gg0;Ljava/lang/String;)V
+    invoke-interface {p2, v0, p3, v4}, Lcom/huawei/appmarket/ap5;->K2(ILcom/huawei/appmarket/hg0;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -961,11 +961,11 @@
     move-result-object v6
 
     .line 131
-    new-instance v7, Lcom/huawei/appmarket/aw6;
+    new-instance v7, Lcom/huawei/appmarket/ew6;
 
     .line 132
     .line 133
-    invoke-direct {v7, p0}, Lcom/huawei/appmarket/aw6;-><init>(Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;)V
+    invoke-direct {v7, p0}, Lcom/huawei/appmarket/ew6;-><init>(Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;)V
 
     .line 134
     .line 135
@@ -1009,7 +1009,7 @@
     move-result-object v6
 
     .line 156
-    invoke-direct {p0, v6}, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->w6(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-direct {p0, v6}, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->x6(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     .line 157
     .line 158
@@ -1209,7 +1209,7 @@
 
     .line 253
     :cond_7
-    invoke-static {v6}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v6}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 254
     .line 255
@@ -1244,7 +1244,7 @@
 
     .line 269
     .line 270
-    invoke-static {v6}, Lcom/huawei/appmarket/w68;->t(Landroid/content/Context;)I
+    invoke-static {v6}, Lcom/huawei/appmarket/b78;->t(Landroid/content/Context;)I
 
     .line 271
     .line 272
@@ -1362,7 +1362,7 @@
 
     .line 326
     .line 327
-    const v3, 0x7f0a1647
+    const v3, 0x7f0a1648
 
     .line 328
     .line 329
@@ -1545,7 +1545,7 @@
     .line 416
     :cond_d
     :goto_4
-    sget-object p2, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p2, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 417
     .line 418
@@ -1557,14 +1557,14 @@
 
     .line 421
     .line 422
-    invoke-virtual {p2, v0, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 423
     .line 424
     .line 425
     :cond_e
     :goto_5
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 426
     .line 427
@@ -1576,7 +1576,7 @@
 
     .line 430
     .line 431
-    iget-object p2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/zo5;
+    iget-object p2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->N1:Lcom/huawei/appmarket/ap5;
 
     .line 432
     .line 433
@@ -1588,7 +1588,7 @@
 
     .line 436
     .line 437
-    invoke-interface {p2, v0}, Lcom/huawei/appmarket/zo5;->f(I)V
+    invoke-interface {p2, v0}, Lcom/huawei/appmarket/ap5;->f(I)V
 
     .line 438
     .line 439
@@ -1630,7 +1630,7 @@
     const/4 v0, -0x1
 
     .line 457
-    invoke-static {p2, p3, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p2, p3, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 458
     .line 459
@@ -1692,7 +1692,7 @@
     move-result-object p2
 
     .line 486
-    invoke-static {p2}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 487
     .line 488
@@ -2515,81 +2515,6 @@
     .line 1262
 .end method
 
-.method protected final t6()V
-    .registers 4
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->R3:Z
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->F0:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    :try_start_0
-    new-instance v0, Lorg/json/JSONObject;
-
-    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->F0:Ljava/lang/String;
-
-    invoke-direct {v0, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-
-    invoke-static {v0}, Lcom/huawei/appmarket/eg0;->g(Lorg/json/JSONObject;)Lcom/huawei/appmarket/eg0;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/huawei/appmarket/cv4$a;
-
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/cv4$a;-><init>(Lcom/huawei/appmarket/eg0;)V
-
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->E0:Ljava/lang/String;
-
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/cv4$a;->b(Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/cv4$a;->a()Lcom/huawei/appmarket/cv4;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
-
-    invoke-static {v1}, Lcom/huawei/appmarket/lg0;->e(Landroid/view/View;)Lcom/huawei/appmarket/lg0;
-
-    move-result-object v1
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cv4;->b()Lcom/huawei/appmarket/gg0$b;
-
-    move-result-object v0
-
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/lg0;->b(Lcom/huawei/appmarket/gg0;)V
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lg0;->c()V
-    :try_end_0
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
-
-    const-string v1, "ReuseHeadTransitionListFragmentV2"
-
-    const-string v2, "parse css failed."
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    return-void
-
-    :cond_0
-    invoke-super {p0}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->t6()V
-
-    return-void
-.end method
-
 .method protected final u4(Lcom/huawei/appgallery/foundation/ui/framework/widget/NodataWarnLayout;)V
     .registers 4
 
@@ -2618,7 +2543,7 @@
     return-void
 .end method
 
-.method protected final u6(Landroid/view/View;)V
+.method protected final u6()V
     .registers 4
 
     .line 1
@@ -2626,23 +2551,98 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->F0:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    :try_start_0
+    new-instance v0, Lorg/json/JSONObject;
+
+    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->F0:Ljava/lang/String;
+
+    invoke-direct {v0, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/fg0;->g(Lorg/json/JSONObject;)Lcom/huawei/appmarket/fg0;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/huawei/appmarket/fv4$a;
+
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/fv4$a;-><init>(Lcom/huawei/appmarket/fg0;)V
+
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->E0:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/fv4$a;->b(Ljava/lang/String;)V
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/fv4$a;->a()Lcom/huawei/appmarket/fv4;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
+
+    invoke-static {v1}, Lcom/huawei/appmarket/mg0;->e(Landroid/view/View;)Lcom/huawei/appmarket/mg0;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fv4;->b()Lcom/huawei/appmarket/hg0$b;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/mg0;->b(Lcom/huawei/appmarket/hg0;)V
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/mg0;->c()V
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
+
+    const-string v1, "ReuseHeadTransitionListFragmentV2"
+
+    const-string v2, "parse css failed."
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_0
+    return-void
+
+    :cond_0
+    invoke-super {p0}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->u6()V
+
+    return-void
+.end method
+
+.method protected final v6(Landroid/view/View;)V
+    .registers 4
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->R3:Z
+
+    if-eqz v0, :cond_0
+
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "ReuseHeadTransitionListFragmentV2"
 
     const-string v1, "is blur not need setLayoutParam"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->u6(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->v6(Landroid/view/View;)V
 
     return-void
 .end method
 
-.method protected final v6()V
+.method protected final w6()V
     .registers 5
 
     .line 1
@@ -2650,7 +2650,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     const v1, 0x7f0a0eda
 
@@ -2658,7 +2658,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     const v2, 0x7f0a0ee2
 
@@ -2666,7 +2666,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 

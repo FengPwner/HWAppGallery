@@ -53,7 +53,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$k;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     if-eqz v0, :cond_0
 

@@ -196,7 +196,7 @@
 
     .line 8
     .line 9
-    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 10
     .line 11

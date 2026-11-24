@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard$a;->b:Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 
     .line 3
     .line 4
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/m77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/r77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -161,5 +161,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

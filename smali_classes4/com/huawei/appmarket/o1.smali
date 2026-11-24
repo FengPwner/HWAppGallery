@@ -9,13 +9,13 @@
 # instance fields
 .field public final synthetic b:I
 
-.field public final synthetic c:Lcom/huawei/appmarket/bo2;
+.field public final synthetic c:Lcom/huawei/appmarket/do2;
 
 .field public final synthetic d:Lcom/huawei/ohos/localability/Form;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/bo2;ILcom/huawei/ohos/localability/Form;I)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/do2;ILcom/huawei/ohos/localability/Form;I)V
     .registers 5
 
     .line 1
@@ -28,7 +28,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/o1;->c:Lcom/huawei/appmarket/bo2;
+    iput-object p1, p0, Lcom/huawei/appmarket/o1;->c:Lcom/huawei/appmarket/do2;
 
     .line 7
     .line 8
@@ -759,6 +759,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 
@@ -775,7 +895,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/huawei/appmarket/o1;->c:Lcom/huawei/appmarket/bo2;
+    iget-object v2, p0, Lcom/huawei/appmarket/o1;->c:Lcom/huawei/appmarket/do2;
 
     .line 6
     .line 7
@@ -784,7 +904,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/bo2;->f(Lcom/huawei/ohos/localability/Form;)V
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/do2;->f(Lcom/huawei/ohos/localability/Form;)V
 
     .line 11
     .line 12
@@ -793,7 +913,7 @@
 
     .line 14
     :pswitch_0
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/bo2;->f(Lcom/huawei/ohos/localability/Form;)V
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/do2;->f(Lcom/huawei/ohos/localability/Form;)V
 
     .line 15
     .line 16
@@ -802,7 +922,7 @@
 
     .line 18
     :pswitch_1
-    invoke-interface {v2}, Lcom/huawei/appmarket/bo2;->b()V
+    invoke-interface {v2}, Lcom/huawei/appmarket/do2;->b()V
 
     .line 19
     .line 20
@@ -1103,4 +1223,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/h71;
-.super Lcom/huawei/appmarket/ja5;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ja5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fb2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/fb2;
+    invoke-static {v0}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
     move-result-object v0
 
@@ -37,12 +37,12 @@
 
     const-class v1, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/card/TitleCardV3;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/fb2;->f(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ib2;->f(Ljava/lang/String;Ljava/lang/Class;)V
 
     return-void
 .end method
 
-.method protected final c()Lcom/huawei/appmarket/en;
+.method protected final c()Lcom/huawei/appmarket/dn;
     .registers 2
 
     .line 1

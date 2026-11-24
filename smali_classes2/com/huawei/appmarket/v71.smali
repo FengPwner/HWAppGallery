@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/pq1;
+.field private a:Lcom/huawei/appmarket/sq1;
 
 .field private b:Z
 
@@ -57,14 +57,14 @@
 
 
 # virtual methods
-.method public final declared-synchronized a(Lcom/huawei/appmarket/sq1;)V
+.method public final declared-synchronized a(Lcom/huawei/appmarket/vq1;)V
     .registers 2
 
     .line 1
     monitor-enter p0
 
     :try_start_0
-    iput-object p1, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/pq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/sq1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -109,7 +109,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/v71;->c:Ljava/lang/String;
 
-    sget-object v2, Lcom/huawei/appmarket/tq1;->a:Lcom/huawei/appmarket/tq1;
+    sget-object v2, Lcom/huawei/appmarket/wq1;->a:Lcom/huawei/appmarket/wq1;
 
     const-string v3, "DailyActiveReportContext"
 
@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -146,11 +146,11 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/pq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/sq1;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sq1;->b()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -192,9 +192,9 @@
 
     iput-object v2, p0, Lcom/huawei/appmarket/v71;->c:Ljava/lang/String;
 
-    iput-object v2, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/pq1;
+    iput-object v2, p0, Lcom/huawei/appmarket/v71;->a:Lcom/huawei/appmarket/sq1;
 
-    sget-object v2, Lcom/huawei/appmarket/tq1;->a:Lcom/huawei/appmarket/tq1;
+    sget-object v2, Lcom/huawei/appmarket/wq1;->a:Lcom/huawei/appmarket/wq1;
 
     const-string v3, "DailyActiveReportContext"
 
@@ -208,7 +208,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

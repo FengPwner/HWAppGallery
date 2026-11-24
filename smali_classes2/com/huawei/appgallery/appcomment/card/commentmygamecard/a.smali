@@ -31,13 +31,13 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/card/commentmygamecard/a$a;
 
     invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/appcomment/card/commentmygamecard/a$a;-><init>(Lcom/huawei/appgallery/appcomment/card/commentmygamecard/a;Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCardBean$Tag;)V
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -60,7 +60,7 @@
 
     .line 6
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 7
     .line 8
@@ -72,11 +72,11 @@
 
     .line 11
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 15
     .line 16
@@ -88,7 +88,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     .line 21
     .line 22
@@ -135,7 +135,7 @@
     move-result-object v2
 
     .line 41
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 42
     .line 43
@@ -182,7 +182,7 @@
     move-result-object v2
 
     .line 62
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 63
     .line 64

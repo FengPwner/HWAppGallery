@@ -55,7 +55,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -67,11 +67,11 @@
 
     const-string v2, "AbsRestrictionsManager"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "BR"
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -89,15 +89,15 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/c33;->a()Lcom/huawei/appmarket/tr3;
+    invoke-static {}, Lcom/huawei/appmarket/f33;->a()Lcom/huawei/appmarket/vr3;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/tr3;->b(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/vr3;->b(Ljava/lang/String;)I
 
     move-result v1
     :try_end_0
@@ -118,7 +118,7 @@
 
     const-string v3, "getSiteId by getHomeCountry failed."
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -137,7 +137,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -149,11 +149,11 @@
 
     const-string v2, "AbsRestrictionsManager"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "SG"
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -253,7 +253,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, p2, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p2, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
@@ -283,7 +283,7 @@
     move-result-object p0
 
     .line 52
-    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -300,7 +300,7 @@
 
     .line 59
     .line 60
-    invoke-static {v0, p2, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p2, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62

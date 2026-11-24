@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/ur4;->C()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/xr4;->C()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -36,7 +36,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->n(Ljava/lang/Object;)Ljava/util/function/BiConsumer;
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->n(Ljava/lang/Object;)Ljava/util/function/BiConsumer;
 
     move-result-object p0
 
@@ -61,7 +61,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/ur4;->D()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/xr4;->D()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -69,7 +69,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->o(Ljava/lang/Object;)Ljava/util/function/BiFunction;
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->o(Ljava/lang/Object;)Ljava/util/function/BiFunction;
 
     move-result-object p0
 
@@ -208,7 +208,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/ur4;->d()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/xr4;->d()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -216,7 +216,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->p(Ljava/lang/Object;)Ljava/util/function/Function;
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->p(Ljava/lang/Object;)Ljava/util/function/Function;
 
     move-result-object p0
 
@@ -266,7 +266,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/ur4;->A()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/xr4;->A()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -274,7 +274,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
 
     move-result-object p0
 
@@ -299,7 +299,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/nm4;->g()Ljava/lang/invoke/MethodHandles$Lookup;
+    invoke-static {}, Lcom/huawei/appmarket/qm4;->g()Ljava/lang/invoke/MethodHandles$Lookup;
 
     move-result-object v0
 
@@ -307,7 +307,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/l85;->p(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/o85;->p(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
 
     move-result-object p0
 

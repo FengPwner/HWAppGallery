@@ -20,13 +20,13 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/bi0;
+    new-instance v0, Lcom/huawei/appmarket/ci0;
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/bi0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/ci0;-><init>(Landroid/content/Context;Z)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bi0;->r1()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ci0;->r1()V
 
     return-object v0
 .end method

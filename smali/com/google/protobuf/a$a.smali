@@ -195,6 +195,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public bridge synthetic buildPartial()Lcom/google/protobuf/b1;
@@ -340,6 +341,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public clear()Lcom/google/protobuf/a$a;
@@ -683,6 +685,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getFieldBuilder(Lcom/google/protobuf/Descriptors$f;)Lcom/google/protobuf/y0$a;
@@ -886,6 +889,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public hasOneof(Lcom/google/protobuf/Descriptors$k;)Z
@@ -2134,4 +2138,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

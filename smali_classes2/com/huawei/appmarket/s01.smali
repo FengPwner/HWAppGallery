@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -148,7 +148,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -293,7 +293,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v1, v4, v5}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, v5}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
     .line 63
@@ -401,7 +401,7 @@
 
     .line 111
     .line 112
-    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     .line 114
@@ -465,7 +465,7 @@
 
     .line 141
     .line 142
-    invoke-virtual {v1, v3, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 143
     .line 144
@@ -518,7 +518,7 @@
 
     .line 163
     .line 164
-    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 165
     .line 166
@@ -630,13 +630,13 @@
     .line 260
 .end method
 
-.method public static declared-synchronized d(Lcom/huawei/appmarket/v01;Lcom/huawei/appmarket/nv7;)V
+.method public static declared-synchronized d(Lcom/huawei/appmarket/v01;Lcom/huawei/appmarket/tv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/v01;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/appmarket/v01;",
             ">;)V"
         }
@@ -668,7 +668,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/v01;->isAgree()Z
 
@@ -698,7 +698,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -721,12 +721,12 @@
     throw p0
 .end method
 
-.method public static e(Lcom/huawei/appmarket/nv7;)V
+.method public static e(Lcom/huawei/appmarket/tv7;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/appmarket/v01;",
             ">;)V"
         }
@@ -739,18 +739,18 @@
 
     invoke-direct {v0}, Lcom/huawei/appmarket/v01;-><init>()V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     :cond_0
     return-void
 .end method
 
-.method public static declared-synchronized f(ILcom/huawei/appmarket/nv7;)V
+.method public static declared-synchronized f(ILcom/huawei/appmarket/tv7;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Ljava/lang/Integer;",
             ">;)V"
         }
@@ -770,7 +770,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -851,7 +851,7 @@
 
     const-string v1, "ConsentManager isCanRemind:true:Times and Time Allowed"
 
-    invoke-virtual {v0, v7, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v7, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -863,7 +863,7 @@
     const-string v1, "isCanRemind:false:intervalTimes:The duration is insufficient"
 
     :goto_0
-    invoke-virtual {v0, v7, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v7, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

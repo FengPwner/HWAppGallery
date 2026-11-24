@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object p1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -107,7 +107,7 @@
 
     const-string v0, "PayAgent"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/payauthkit/pay/app/control/d;->l()V
 

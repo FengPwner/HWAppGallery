@@ -28,7 +28,7 @@
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard$c$a;-><init>(Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard$c;Landroid/view/View;)V
 
-    const p1, 0x7f0a18be
+    const p1, 0x7f0a18bf
 
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -56,7 +56,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p1, 0x7f0a18c0
+    const p1, 0x7f0a18c1
 
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
 
     iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard$b$a;->w:Landroid/view/View;
 
-    const p1, 0x7f0a18bf
+    const p1, 0x7f0a18c0
 
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

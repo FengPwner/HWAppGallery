@@ -29,17 +29,17 @@
 
     const/16 v0, 0x9
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/wf3;->b(Landroid/content/Context;I)I
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yf3;->b(Landroid/content/Context;I)I
 
     move-result v0
 
     const-class v1, Lcom/huawei/uikit/hwrecyclerview/widget/HwDeviceAdapter;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/wf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/yf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/wf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/yf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 

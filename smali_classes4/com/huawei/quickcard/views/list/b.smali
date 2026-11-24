@@ -402,7 +402,7 @@
     .line 191
     .line 192
     .line 193
-    iget-object p1, v0, Lcom/huawei/quickcard/views/list/QRecyclerView;->I1:Lcom/huawei/quickcard/views/list/e;
+    iget-object p1, v0, Lcom/huawei/quickcard/views/list/QRecyclerView;->s1:Lcom/huawei/quickcard/views/list/e;
 
     .line 194
     .line 195
@@ -492,10 +492,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
@@ -524,7 +520,7 @@
 
     .line 10
     .line 11
-    iget-object p1, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->K1:Lcom/huawei/quickcard/views/list/g;
+    iget-object p1, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->v1:Lcom/huawei/quickcard/views/list/g;
 
     .line 12
     .line 13
@@ -550,7 +546,7 @@
 
     .line 23
     .line 24
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->I1:Lcom/huawei/quickcard/views/list/e;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->s1:Lcom/huawei/quickcard/views/list/e;
 
     .line 25
     .line 26
@@ -567,7 +563,7 @@
     .line 31
     .line 32
     :cond_1
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->H1:Lcom/huawei/quickcard/views/list/d;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->o1:Lcom/huawei/quickcard/views/list/d;
 
     .line 33
     .line 34
@@ -585,7 +581,7 @@
     .line 40
     .line 41
     :cond_2
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->G1:Lcom/huawei/quickcard/views/list/c;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->n1:Lcom/huawei/quickcard/views/list/c;
 
     .line 42
     .line 43
@@ -662,7 +658,7 @@
 
     .line 77
     :cond_3
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 78
     .line 79
@@ -682,7 +678,7 @@
 
     .line 86
     :cond_4
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 87
     .line 88
@@ -706,7 +702,7 @@
 
     .line 96
     .line 97
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 98
     .line 99
@@ -726,7 +722,7 @@
 
     .line 106
     :cond_6
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 107
     .line 108
@@ -750,7 +746,7 @@
 
     .line 116
     .line 117
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 118
     .line 119
@@ -770,7 +766,7 @@
 
     .line 126
     :cond_8
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 127
     .line 128
@@ -788,7 +784,7 @@
     .line 134
     :cond_9
     :goto_0
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->G1:Lcom/huawei/quickcard/views/list/c;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->n1:Lcom/huawei/quickcard/views/list/c;
 
     .line 135
     .line 136
@@ -814,7 +810,7 @@
     .line 146
     :cond_a
     :goto_1
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 147
     .line 148
@@ -889,7 +885,7 @@
 
     .line 181
     .line 182
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->G1:Lcom/huawei/quickcard/views/list/c;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->n1:Lcom/huawei/quickcard/views/list/c;
 
     .line 183
     .line 184
@@ -904,7 +900,7 @@
     .line 189
     :cond_c
     :goto_2
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->J1:Lcom/huawei/quickcard/views/list/f;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->t1:Lcom/huawei/quickcard/views/list/f;
 
     .line 190
     .line 191
@@ -972,7 +968,7 @@
 
     .line 222
     :cond_d
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 223
     .line 224
@@ -992,7 +988,7 @@
 
     .line 231
     :cond_e
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 232
     .line 233
@@ -1016,7 +1012,7 @@
 
     .line 241
     .line 242
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 243
     .line 244
@@ -1036,7 +1032,7 @@
 
     .line 251
     :cond_10
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 252
     .line 253
@@ -1060,7 +1056,7 @@
 
     .line 261
     .line 262
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 263
     .line 264
@@ -1080,7 +1076,7 @@
 
     .line 271
     :cond_12
-    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 272
     .line 273
@@ -1098,7 +1094,7 @@
     .line 279
     :cond_13
     :goto_3
-    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->J1:Lcom/huawei/quickcard/views/list/f;
+    iget-object p2, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->t1:Lcom/huawei/quickcard/views/list/f;
 
     .line 280
     .line 281
@@ -2253,7 +2249,7 @@
     :goto_1
     iget-object p1, p0, Lcom/huawei/quickcard/views/list/b;->e0:Lcom/huawei/quickcard/views/list/QRecyclerView;
 
-    iget-object p1, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->I1:Lcom/huawei/quickcard/views/list/e;
+    iget-object p1, p1, Lcom/huawei/quickcard/views/list/QRecyclerView;->s1:Lcom/huawei/quickcard/views/list/e;
 
     if-eqz p1, :cond_4
 

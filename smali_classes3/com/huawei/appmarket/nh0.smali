@@ -1,83 +1,42 @@
-.class public final Lcom/huawei/appmarket/nh0;
+.class final Lcom/huawei/appmarket/nh0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/content/DialogInterface$OnCancelListener;
+
 
 # instance fields
-.field private a:Z
-
-.field b:Ljava/lang/Class;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/o0<",
-            "*>;>;"
-        }
-    .end annotation
-.end field
+.field final synthetic b:Lcom/huawei/appmarket/ih0;
 
 
 # direct methods
-.method public constructor <init>(Z)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/ih0;)V
+    .registers 2
 
     .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/nh0;->b:Lcom/huawei/appmarket/ih0;
+
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/nh0;->b:Ljava/lang/Class;
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nh0;->a:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/nh0;->a:Z
-
-    return v0
-.end method
-
-.method public final toString()Ljava/lang/String;
+.method public final onCancel(Landroid/content/DialogInterface;)V
     .registers 3
 
     .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    const-string p1, "CallFrontFlow"
 
-    const-string v1, "CallObject{export="
+    const-string v0, "showUnknownCountryDialog\uff0c onCancel"
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-boolean v1, p0, Lcom/huawei/appmarket/nh0;->a:Z
+    iget-object p1, p0, Lcom/huawei/appmarket/nh0;->b:Lcom/huawei/appmarket/ih0;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/ih0;->z(Lcom/huawei/appmarket/ih0;)V
 
-    const-string v1, ", requestClass="
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/nh0;->b:Ljava/lang/Class;
-
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const/16 v1, 0x7d
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    return-void
 .end method

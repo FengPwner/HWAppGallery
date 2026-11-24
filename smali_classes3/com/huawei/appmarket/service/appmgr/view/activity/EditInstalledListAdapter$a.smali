@@ -48,11 +48,11 @@
 
     invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setCheckable(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uy1;->a()Lcom/huawei/appmarket/uy1;
+    invoke-static {}, Lcom/huawei/appmarket/yy1;->a()Lcom/huawei/appmarket/yy1;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/uy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, v0, Lcom/huawei/appmarket/yy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/EditInstalledListAdapter$a;->a:Lcom/huawei/appmarket/service/appmgr/bean/ApkInstalledInfo;
 

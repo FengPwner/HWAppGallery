@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    invoke-static {p1}, Landroidx/media3/exoplayer/audio/b;->a(Landroidx/media3/exoplayer/audio/b;)Lcom/huawei/appmarket/ez;
+    invoke-static {p1}, Landroidx/media3/exoplayer/audio/b;->a(Landroidx/media3/exoplayer/audio/b;)Lcom/huawei/appmarket/fz;
 
     move-result-object v1
 
@@ -82,7 +82,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v1, v2}, Landroidx/media3/exoplayer/audio/a;->c(Landroid/content/Context;Lcom/huawei/appmarket/ez;Landroidx/media3/exoplayer/audio/c;)Landroidx/media3/exoplayer/audio/a;
+    invoke-static {v0, v1, v2}, Landroidx/media3/exoplayer/audio/a;->c(Landroid/content/Context;Lcom/huawei/appmarket/fz;Landroidx/media3/exoplayer/audio/c;)Landroidx/media3/exoplayer/audio/a;
 
     move-result-object v0
 

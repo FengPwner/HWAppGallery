@@ -71,7 +71,7 @@
     monitor-enter p0
 
     :try_start_0
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/bumptech/glide/load/data/b;->a:Ljava/util/HashMap;
 

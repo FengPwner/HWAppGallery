@@ -78,7 +78,7 @@
 
     const v0, 0x7f0a15fd
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/BaseCompositeNode;->H()Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;
 
@@ -227,7 +227,7 @@
 
     .line 52
     :cond_2
-    invoke-static {v7}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v7}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     .line 53
     .line 54
@@ -243,7 +243,7 @@
 
     .line 59
     .line 60
-    invoke-static {v6}, Lcom/huawei/appmarket/o52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/huawei/appmarket/s52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
 
     .line 61
     .line 62

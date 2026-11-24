@@ -1,120 +1,44 @@
-.class final synthetic Lcom/huawei/appmarket/jb5;
+.class final Lcom/huawei/appmarket/jb5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/view/View$OnClickListener;
 
-# static fields
-.field static final synthetic a:[I
+
+# instance fields
+.field final synthetic b:Lcom/huawei/appmarket/lb5;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/lb5;)V
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ju2;->values()[Lcom/huawei/appmarket/ju2;
+    iput-object p1, p0, Lcom/huawei/appmarket/jb5;->b:Lcom/huawei/appmarket/lb5;
 
-    move-result-object v0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    array-length v0, v0
+    return-void
+.end method
 
-    new-array v0, v0, [I
 
-    sput-object v0, Lcom/huawei/appmarket/jb5;->a:[I
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .registers 4
 
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/ju2;->e:Lcom/huawei/appmarket/ju2;
+    .line 1
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    const-string v0, "MoreShareHandler"
 
-    move-result v1
+    const-string v1, "click more share!"
 
-    const/4 v2, 0x1
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    aput v2, v0, v1
-    :try_end_0
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
+    iget-object p1, p0, Lcom/huawei/appmarket/jb5;->b:Lcom/huawei/appmarket/lb5;
 
-    :catch_0
-    :try_start_1
-    sget-object v0, Lcom/huawei/appmarket/jb5;->a:[I
+    invoke-static {p1}, Lcom/huawei/appmarket/lb5;->s(Lcom/huawei/appmarket/lb5;)V
 
-    sget-object v1, Lcom/huawei/appmarket/ju2;->l:Lcom/huawei/appmarket/ju2;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x2
-
-    aput v2, v0, v1
-    :try_end_1
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
-
-    :catch_1
-    :try_start_2
-    sget-object v0, Lcom/huawei/appmarket/jb5;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/ju2;->f:Lcom/huawei/appmarket/ju2;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x3
-
-    aput v2, v0, v1
-    :try_end_2
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
-
-    :catch_2
-    :try_start_3
-    sget-object v0, Lcom/huawei/appmarket/jb5;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/ju2;->k:Lcom/huawei/appmarket/ju2;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x4
-
-    aput v2, v0, v1
-    :try_end_3
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
-
-    :catch_3
-    :try_start_4
-    sget-object v0, Lcom/huawei/appmarket/jb5;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/ju2;->g:Lcom/huawei/appmarket/ju2;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x5
-
-    aput v2, v0, v1
-    :try_end_4
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
-
-    :catch_4
-    :try_start_5
-    sget-object v0, Lcom/huawei/appmarket/jb5;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/ju2;->i:Lcom/huawei/appmarket/ju2;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x6
-
-    aput v2, v0, v1
-    :try_end_5
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
-
-    :catch_5
     return-void
 .end method

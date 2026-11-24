@@ -25,7 +25,7 @@
 
 .field private d:Ljava/lang/String;
 
-.field private e:Lcom/huawei/appmarket/ni0;
+.field private e:Lcom/huawei/appmarket/oi0;
 
 .field private f:I
 
@@ -102,13 +102,13 @@
 
 
 # virtual methods
-.method protected abstract doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method protected abstract doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TClientT;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TResultT;>;)V"
         }
     .end annotation
@@ -148,11 +148,11 @@
     return-object v0
 .end method
 
-.method public getToken()Lcom/huawei/appmarket/ni0;
+.method public getToken()Lcom/huawei/appmarket/oi0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/ni0;
+    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/oi0;
 
     return-object v0
 .end method
@@ -173,20 +173,20 @@
     return-object v0
 .end method
 
-.method public final onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method public final onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TClientT;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TResultT;>;)V"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/ni0;
+    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/oi0;
 
     const-string v1, "TaskApiCall"
 
@@ -194,7 +194,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ni0;->isCancellationRequested()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/oi0;->isCancellationRequested()Z
 
     move-result v0
 
@@ -257,7 +257,7 @@
 
     invoke-static {v1, v0}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/common/internal/TaskApiCall;->doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/common/internal/TaskApiCall;->doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
@@ -278,11 +278,11 @@
     return-void
 .end method
 
-.method public setToken(Lcom/huawei/appmarket/ni0;)V
+.method public setToken(Lcom/huawei/appmarket/oi0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/ni0;
+    iput-object p1, p0, Lcom/huawei/hms/common/internal/TaskApiCall;->e:Lcom/huawei/appmarket/oi0;
 
     return-void
 .end method

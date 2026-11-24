@@ -597,7 +597,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/r13;->b()Ljava/util/LinkedHashMap;
+    invoke-static {}, Lcom/huawei/appmarket/u13;->b()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
@@ -806,7 +806,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/r13;->b()Ljava/util/LinkedHashMap;
+    invoke-static {}, Lcom/huawei/appmarket/u13;->b()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
@@ -1258,7 +1258,7 @@
     :cond_1d
     iget-object v1, p0, Lcom/huawei/appmarket/o80;->M:Ljava/util/HashMap;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->b(Ljava/util/Map;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->b(Ljava/util/Map;)Z
 
     move-result v1
 

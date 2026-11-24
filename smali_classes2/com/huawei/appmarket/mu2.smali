@@ -1,412 +1,266 @@
-.class public final Lcom/huawei/appmarket/mu2;
-.super Ljava/lang/Object;
+.class public final enum Lcom/huawei/appmarket/mu2;
+.super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        Lcom/huawei/appmarket/mu2$a;
+        "Ljava/lang/Enum<",
+        "Lcom/huawei/appmarket/mu2;",
+        ">;"
     }
 .end annotation
 
 
+# static fields
+.field public static final enum c:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum d:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum e:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum f:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum g:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum h:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum i:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum j:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum k:Lcom/huawei/appmarket/mu2;
+
+.field public static final enum l:Lcom/huawei/appmarket/mu2;
+
+.field private static final synthetic m:[Lcom/huawei/appmarket/mu2;
+
+
 # instance fields
-.field private a:Landroid/app/Activity;
-
-.field private b:Landroid/content/Intent;
-
-.field private c:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+.field private final b:I
 
 
 # direct methods
-.method private constructor <init>(Landroid/app/Activity;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/mu2;->a:Landroid/app/Activity;
-
-    new-instance p1, Landroid/content/Intent;
-
-    invoke-direct {p1}, Landroid/content/Intent;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
-
-    return-void
-.end method
-
-.method public static a(Landroid/app/Activity;)Lcom/huawei/appmarket/mu2;
-    .registers 2
+.method static constructor <clinit>()V
+    .registers 16
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/mu2;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/mu2;-><init>(Landroid/app/Activity;)V
+    const-string v1, "NONE"
 
-    return-object v0
-.end method
+    const/4 v2, 0x0
 
+    invoke-direct {v0, v1, v2, v2}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-# virtual methods
-.method public final b(Ljava/util/List;)V
-    .registers 4
+    sput-object v0, Lcom/huawei/appmarket/mu2;->c:Lcom/huawei/appmarket/mu2;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    new-instance v1, Lcom/huawei/appmarket/mu2;
 
-    new-instance v1, Ljava/util/ArrayList;
+    const-string v3, "PENDING_UPDATE"
 
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    const/4 v4, 0x1
 
-    const-string p1, "bounds"
+    invoke-direct {v1, v3, v4, v4}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
+    sput-object v1, Lcom/huawei/appmarket/mu2;->d:Lcom/huawei/appmarket/mu2;
 
-    return-void
-.end method
+    new-instance v3, Lcom/huawei/appmarket/mu2;
 
-.method public final c(Z)V
-    .registers 4
+    const-string v5, "DOWNLOADING"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    const/4 v6, 0x2
 
-    const-string v1, "isCircle"
+    invoke-direct {v3, v5, v6, v6}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    sput-object v3, Lcom/huawei/appmarket/mu2;->e:Lcom/huawei/appmarket/mu2;
 
-    return-void
-.end method
+    new-instance v5, Lcom/huawei/appmarket/mu2;
 
-.method public final d(I)V
-    .registers 4
+    const-string v7, "INSTALLING"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    const/4 v8, 0x3
 
-    const-string v1, "position"
+    invoke-direct {v5, v7, v8, v8}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+    sput-object v5, Lcom/huawei/appmarket/mu2;->f:Lcom/huawei/appmarket/mu2;
 
-    return-void
-.end method
+    new-instance v7, Lcom/huawei/appmarket/mu2;
 
-.method public final e(Ljava/util/ArrayList;)V
-    .registers 4
+    const-string v9, "COMPLETED"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    const/4 v10, 0x4
 
-    new-instance v1, Ljava/util/ArrayList;
+    invoke-direct {v7, v9, v10, v10}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    sput-object v7, Lcom/huawei/appmarket/mu2;->g:Lcom/huawei/appmarket/mu2;
 
-    const-string p1, "imagePaths"
+    new-instance v9, Lcom/huawei/appmarket/mu2;
 
-    invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putStringArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
+    const-string v11, "FAILED"
 
-    return-void
-.end method
+    const/4 v12, 0x5
 
-.method public final f()V
-    .registers 4
+    invoke-direct {v9, v11, v12, v12}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    sput-object v9, Lcom/huawei/appmarket/mu2;->h:Lcom/huawei/appmarket/mu2;
 
-    const-string v1, "fromInformation"
+    new-instance v11, Lcom/huawei/appmarket/mu2;
 
-    const/4 v2, 0x1
+    const-string v13, "PAUSED"
 
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    const/4 v14, 0x6
 
-    return-void
-.end method
+    invoke-direct {v11, v13, v14, v14}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-.method public final g(Z)V
-    .registers 4
+    sput-object v11, Lcom/huawei/appmarket/mu2;->i:Lcom/huawei/appmarket/mu2;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    new-instance v13, Lcom/huawei/appmarket/mu2;
 
-    const-string v1, "hideIndicator"
+    const-string v15, "CANCELLED"
 
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    const/4 v14, 0x7
 
-    return-void
-.end method
+    invoke-direct {v13, v15, v14, v14}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-.method public final h(Ljava/util/ArrayList;)V
-    .registers 4
+    sput-object v13, Lcom/huawei/appmarket/mu2;->j:Lcom/huawei/appmarket/mu2;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    new-instance v15, Lcom/huawei/appmarket/mu2;
 
-    new-instance v1, Ljava/util/ArrayList;
+    const-string v14, "WAITING_INSTALL"
 
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    const/16 v12, 0x8
 
-    const-string p1, "isHorizontal"
+    invoke-direct {v15, v14, v12, v12}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putStringArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
+    sput-object v15, Lcom/huawei/appmarket/mu2;->k:Lcom/huawei/appmarket/mu2;
 
-    return-void
-.end method
+    new-instance v14, Lcom/huawei/appmarket/mu2;
 
-.method public final i(Ljava/util/ArrayList;)V
-    .registers 4
+    const-string v12, "STATUS_WAITING"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    const/16 v10, 0x9
 
-    new-instance v1, Ljava/util/ArrayList;
+    invoke-direct {v14, v12, v10, v10}, Lcom/huawei/appmarket/mu2;-><init>(Ljava/lang/String;II)V
 
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    sput-object v14, Lcom/huawei/appmarket/mu2;->l:Lcom/huawei/appmarket/mu2;
 
-    const-string p1, "allHorizontalRotated"
+    const/16 v12, 0xa
 
-    invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putStringArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
+    new-array v12, v12, [Lcom/huawei/appmarket/mu2;
 
-    return-void
-.end method
+    aput-object v0, v12, v2
 
-.method public final j(Ljava/lang/String;)V
-    .registers 4
+    aput-object v1, v12, v4
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    aput-object v3, v12, v6
 
-    const-string v1, "savePath"
+    aput-object v5, v12, v8
 
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    const/4 v0, 0x4
+
+    aput-object v7, v12, v0
+
+    const/4 v0, 0x5
+
+    aput-object v9, v12, v0
+
+    const/4 v0, 0x6
+
+    aput-object v11, v12, v0
+
+    const/4 v0, 0x7
+
+    aput-object v13, v12, v0
+
+    const/16 v0, 0x8
+
+    aput-object v15, v12, v0
+
+    aput-object v14, v12, v10
+
+    sput-object v12, Lcom/huawei/appmarket/mu2;->m:[Lcom/huawei/appmarket/mu2;
 
     return-void
 .end method
 
-.method public final k(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)V
+.method private constructor <init>(Ljava/lang/String;II)V
     .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/mu2;->c:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
-
-    const-string v1, "screenCardBean"
-
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
+    iput p3, p0, Lcom/huawei/appmarket/mu2;->b:I
 
     return-void
 .end method
 
-.method public final l()V
-    .registers 4
+.method public static a(I)Lcom/huawei/appmarket/mu2;
+    .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    invoke-static {}, Lcom/huawei/appmarket/mu2;->values()[Lcom/huawei/appmarket/mu2;
 
-    const-string v1, "isSingleFling"
+    move-result-object v0
 
-    const/4 v2, 0x1
+    array-length v1, v0
 
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    const/4 v2, 0x0
 
-    return-void
-.end method
+    :goto_0
+    if-ge v2, v1, :cond_1
 
-.method public final m(Lcom/huawei/appmarket/mu2$a;)V
-    .registers 4
+    aget-object v3, v0, v2
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    iget v4, v3, Lcom/huawei/appmarket/mu2;->b:I
 
-    const-string v1, "type"
+    if-ne v4, p0, :cond_0
 
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
+    return-object v3
 
-    return-void
-.end method
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
 
-.method public final n()V
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
-
-    .line 2
-    .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/mu2;->a:Landroid/app/Activity;
-
-    .line 4
-    .line 5
-    iget-object v2, p0, Lcom/huawei/appmarket/mu2;->c:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    .line 6
-    .line 7
-    invoke-static {v2}, Lcom/huawei/appmarket/t27;->a(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v2
-
-    .line 11
-    if-eqz v2, :cond_0
-
-    .line 12
-    .line 13
-    const-class v2, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2;
-
-    .line 14
-    .line 15
     goto :goto_0
 
-    .line 16
-    :cond_0
-    const-class v2, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivity;
+    :cond_1
+    sget-object p0, Lcom/huawei/appmarket/mu2;->c:Lcom/huawei/appmarket/mu2;
 
-    .line 17
-    .line 18
-    :goto_0
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
+    return-object p0
+.end method
 
-    .line 19
-    .line 20
-    .line 21
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->a:Landroid/app/Activity;
+.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/mu2;
+    .registers 2
 
-    .line 22
-    .line 23
-    iget-object v1, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/mu2;
 
-    .line 24
-    .line 25
-    invoke-virtual {v0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
-    .line 26
-    .line 27
-    .line 28
-    iget-object v0, p0, Lcom/huawei/appmarket/mu2;->a:Landroid/app/Activity;
+    move-result-object p0
 
-    .line 29
-    .line 30
-    const/4 v1, 0x0
+    check-cast p0, Lcom/huawei/appmarket/mu2;
 
-    .line 31
-    invoke-virtual {v0, v1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
+    return-object p0
+.end method
 
-    .line 32
-    .line 33
-    .line 34
-    const/4 v0, 0x0
+.method public static values()[Lcom/huawei/appmarket/mu2;
+    .registers 1
 
-    .line 35
-    iput-object v0, p0, Lcom/huawei/appmarket/mu2;->a:Landroid/app/Activity;
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/mu2;->m:[Lcom/huawei/appmarket/mu2;
 
-    .line 36
-    .line 37
-    iput-object v0, p0, Lcom/huawei/appmarket/mu2;->b:Landroid/content/Intent;
+    invoke-virtual {v0}, [Lcom/huawei/appmarket/mu2;->clone()Ljava/lang/Object;
 
-    .line 38
-    .line 39
-    return-void
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
+    move-result-object v0
+
+    check-cast v0, [Lcom/huawei/appmarket/mu2;
+
+    return-object v0
 .end method

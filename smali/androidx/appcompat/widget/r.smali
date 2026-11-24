@@ -320,7 +320,7 @@
 
     .line 33
     :cond_0
-    instance-of v0, p0, Lcom/huawei/appmarket/ys8;
+    instance-of v0, p0, Lcom/huawei/appmarket/et8;
 
     .line 34
     .line 35
@@ -328,11 +328,11 @@
 
     .line 36
     .line 37
-    check-cast p0, Lcom/huawei/appmarket/ys8;
+    check-cast p0, Lcom/huawei/appmarket/et8;
 
     .line 38
     .line 39
-    invoke-interface {p0}, Lcom/huawei/appmarket/ys8;->a()Landroid/graphics/drawable/Drawable;
+    invoke-interface {p0}, Lcom/huawei/appmarket/et8;->a()Landroid/graphics/drawable/Drawable;
 
     .line 40
     .line 41

@@ -38,7 +38,7 @@
     return-object v0
 .end method
 
-.method public static synthetic d(Lcom/huawei/page/flowlist/NetworkListBundleLoader;Lcom/huawei/appmarket/nb2;Lcom/huawei/appmarket/h39;Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/hv7;
+.method public static synthetic d(Lcom/huawei/page/flowlist/NetworkListBundleLoader;Lcom/huawei/appmarket/qb2;Lcom/huawei/appmarket/n39;Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/nv7;
     .registers 4
 
     .line 1
@@ -50,7 +50,7 @@
     move-result-object p0
 
     .line 5
-    invoke-interface {p1, p0, p2, p3}, Lcom/huawei/appmarket/nb2;->a(Landroid/content/Context;Lcom/huawei/appmarket/h39;Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p0, p2, p3}, Lcom/huawei/appmarket/qb2;->a(Landroid/content/Context;Lcom/huawei/appmarket/n39;Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/nv7;
 
     .line 6
     .line 7
@@ -782,9 +782,129 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
-.method public static synthetic e(Lcom/huawei/page/flowlist/NetworkListBundleLoader;Lcom/huawei/appmarket/nb2;Lcom/huawei/appmarket/ya2;Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+.method public static synthetic e(Lcom/huawei/page/flowlist/NetworkListBundleLoader;Lcom/huawei/appmarket/qb2;Lcom/huawei/appmarket/bb2;Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
     .registers 4
 
     .line 1
@@ -793,7 +913,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-interface {p1, p3}, Lcom/huawei/appmarket/nb2;->b(Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p3}, Lcom/huawei/appmarket/qb2;->b(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
 
     .line 5
     .line 6
@@ -1526,21 +1646,141 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 
 # virtual methods
-.method public load(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/ya2;)Lcom/huawei/appmarket/hv7;
+.method public load(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/bb2;)Lcom/huawei/appmarket/nv7;
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sa2;",
+            "Lcom/huawei/appmarket/va2;",
             "Lcom/huawei/flexiblelayout/data/b;",
-            "Lcom/huawei/appmarket/ya2;",
+            "Lcom/huawei/appmarket/bb2;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/mb2;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/pb2;",
             ">;"
         }
     .end annotation
@@ -1571,11 +1811,11 @@
 
     .line 11
     .line 12
-    new-instance p1, Lcom/huawei/appmarket/tk$b;
+    new-instance p1, Lcom/huawei/appmarket/sk$b;
 
     .line 13
     .line 14
-    invoke-direct {p1}, Lcom/huawei/appmarket/tk$b;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/sk$b;-><init>()V
 
     .line 15
     .line 16
@@ -1596,7 +1836,7 @@
     move-result-object p2
 
     .line 25
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk;->f(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk;->f(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -1609,17 +1849,17 @@
     move-result-object p2
 
     .line 32
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk$b;->i(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk$b;->i(Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tk;->h(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/sk;->h(I)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/tk;->b(I)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/sk;->b(I)V
 
     .line 39
     .line 40
@@ -1628,7 +1868,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk;->c(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk;->c(Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -1641,12 +1881,12 @@
     move-result-object p3
 
     .line 50
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/tk;->g(Landroid/content/Context;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/sk;->g(Landroid/content/Context;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1661,7 +1901,7 @@
     .line 60
     .line 61
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/nv7;
 
     .line 62
     .line 63
@@ -1751,7 +1991,7 @@
     move-result-object p1
 
     .line 108
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -1764,7 +2004,7 @@
     move-result-object p1
 
     .line 115
-    invoke-static {p1}, Lcom/huawei/appmarket/fb2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/fb2;
+    invoke-static {p1}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
     .line 116
     .line 117
@@ -1772,7 +2012,7 @@
     move-result-object p1
 
     .line 119
-    invoke-virtual {p0}, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->getLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {p0}, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->getLayout()Lcom/huawei/appmarket/xc2;
 
     .line 120
     .line 121
@@ -1780,11 +2020,11 @@
     move-result-object v4
 
     .line 123
-    const-class v5, Lcom/huawei/appmarket/nb2;
+    const-class v5, Lcom/huawei/appmarket/qb2;
 
     .line 124
     .line 125
-    invoke-virtual {p1, v5, v4, v0}, Lcom/huawei/appmarket/fb2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
+    invoke-virtual {p1, v5, v4, v0}, Lcom/huawei/appmarket/ib2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
 
     .line 126
     .line 127
@@ -1792,7 +2032,7 @@
     move-result-object p1
 
     .line 129
-    check-cast p1, Lcom/huawei/appmarket/nb2;
+    check-cast p1, Lcom/huawei/appmarket/qb2;
 
     .line 130
     .line 131
@@ -1800,11 +2040,11 @@
 
     .line 132
     .line 133
-    new-instance p1, Lcom/huawei/appmarket/tk$b;
+    new-instance p1, Lcom/huawei/appmarket/sk$b;
 
     .line 134
     .line 135
-    invoke-direct {p1}, Lcom/huawei/appmarket/tk$b;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/sk$b;-><init>()V
 
     .line 136
     .line 137
@@ -1825,7 +2065,7 @@
     move-result-object p2
 
     .line 146
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk;->f(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk;->f(Ljava/lang/String;)V
 
     .line 147
     .line 148
@@ -1838,17 +2078,17 @@
     move-result-object p2
 
     .line 153
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk$b;->i(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk$b;->i(Ljava/lang/String;)V
 
     .line 154
     .line 155
     .line 156
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tk;->h(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/sk;->h(I)V
 
     .line 157
     .line 158
     .line 159
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/tk;->b(I)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/sk;->b(I)V
 
     .line 160
     .line 161
@@ -1857,7 +2097,7 @@
 
     .line 163
     .line 164
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tk;->c(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/sk;->c(Ljava/lang/String;)V
 
     .line 165
     .line 166
@@ -1870,12 +2110,12 @@
     move-result-object p3
 
     .line 171
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/tk;->g(Landroid/content/Context;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/sk;->g(Landroid/content/Context;)V
 
     .line 172
     .line 173
     .line 174
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 175
     .line 176
@@ -1905,7 +2145,7 @@
     move-result-wide v0
 
     .line 189
-    new-instance v2, Lcom/huawei/appmarket/sv4;
+    new-instance v2, Lcom/huawei/appmarket/vv4;
 
     .line 190
     .line 191
@@ -1933,7 +2173,7 @@
     move-result v5
 
     .line 203
-    invoke-direct {v2, v3, v4, v5}, Lcom/huawei/appmarket/sv4;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v2, v3, v4, v5}, Lcom/huawei/appmarket/vv4;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 204
     .line 205
@@ -1943,7 +2183,7 @@
     .line 207
     .line 208
     .line 209
-    invoke-virtual {v2}, Lcom/huawei/appmarket/sv4;->a()Lcom/huawei/appmarket/h39;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/vv4;->a()Lcom/huawei/appmarket/n39;
 
     .line 210
     .line 211
@@ -1951,7 +2191,7 @@
     move-result-object v7
 
     .line 213
-    invoke-static {}, Lcom/huawei/appmarket/ko7;->a()Lcom/huawei/appmarket/ko7;
+    invoke-static {}, Lcom/huawei/appmarket/po7;->a()Lcom/huawei/appmarket/po7;
 
     .line 214
     .line 215
@@ -1959,7 +2199,7 @@
     move-result-object v2
 
     .line 217
-    new-instance v3, Lcom/huawei/appmarket/zg5;
+    new-instance v3, Lcom/huawei/appmarket/ch5;
 
     .line 218
     .line 219
@@ -1979,12 +2219,12 @@
     move-object v8, p2
 
     .line 225
-    invoke-direct/range {v4 .. v9}, Lcom/huawei/appmarket/zg5;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct/range {v4 .. v9}, Lcom/huawei/appmarket/ch5;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
     .line 226
     .line 227
     .line 228
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ko7;->b(Lcom/huawei/appmarket/no7;)Lcom/huawei/appmarket/ko7;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/po7;->b(Lcom/huawei/appmarket/so7;)Lcom/huawei/appmarket/po7;
 
     .line 229
     .line 230
@@ -1992,7 +2232,7 @@
     move-result-object p2
 
     .line 232
-    new-instance v2, Lcom/huawei/appmarket/jm5;
+    new-instance v2, Lcom/huawei/appmarket/lm5;
 
     .line 233
     .line 234
@@ -2000,12 +2240,12 @@
 
     .line 235
     .line 236
-    invoke-direct {v2, v3, p0, p1, p3}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, p0, p1, p3}, Lcom/huawei/appmarket/lm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 237
     .line 238
     .line 239
-    invoke-virtual {p2, v2}, Lcom/huawei/appmarket/ko7;->b(Lcom/huawei/appmarket/no7;)Lcom/huawei/appmarket/ko7;
+    invoke-virtual {p2, v2}, Lcom/huawei/appmarket/po7;->b(Lcom/huawei/appmarket/so7;)Lcom/huawei/appmarket/po7;
 
     .line 240
     .line 241
@@ -2013,7 +2253,7 @@
     move-result-object p1
 
     .line 243
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ko7;->c()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/po7;->c()Lcom/huawei/appmarket/nv7;
 
     .line 244
     .line 245
@@ -2037,7 +2277,7 @@
     move-result-object p2
 
     .line 255
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     .line 256
     .line 257
@@ -2054,7 +2294,7 @@
     .line 262
     .line 263
     .line 264
-    invoke-virtual {p1, p3, v2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p3, v2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     .line 265
     .line 266
@@ -2062,7 +2302,7 @@
     move-result-object p3
 
     .line 268
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     .line 269
     .line 270
@@ -2079,7 +2319,7 @@
     .line 275
     .line 276
     .line 277
-    invoke-virtual {p3, v2, v3}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, v2, v3}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     .line 278
     .line 279
@@ -2316,47 +2556,4 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method

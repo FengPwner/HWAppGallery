@@ -130,7 +130,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/lk0;->a(Lcom/huawei/quickcard/base/http/CardHttpResponse;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/mk0;->a(Lcom/huawei/quickcard/base/http/CardHttpResponse;)Z
 
     move-result v0
 

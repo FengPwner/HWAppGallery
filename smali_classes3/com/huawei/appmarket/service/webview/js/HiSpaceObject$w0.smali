@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x0;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -12,62 +12,97 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
+    accessFlags = 0x2
     name = "w0"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
+        ">;"
+    }
 .end annotation
 
 
 # instance fields
-.field private a:Ljava/lang/ref/WeakReference;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private final b:Ljava/lang/String;
 
-.field private b:Lorg/json/JSONObject;
+.field private final c:Ljava/lang/String;
+
+.field private final d:Ljava/lang/String;
+
+.field final synthetic e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
-    .registers 4
+.method public constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 5
+
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/lang/ref/WeakReference;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->b:Ljava/lang/String;
 
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    iput-object p3, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->c:Ljava/lang/String;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->a:Ljava/lang/ref/WeakReference;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->b:Lorg/json/JSONObject;
+    iput-object p4, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->d:Ljava/lang/String;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a()V
-    .registers 3
+.method static synthetic a(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;)Ljava/lang/String;
+    .registers 1
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->a:Ljava/lang/ref/WeakReference;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->c:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    return-object p0
+.end method
 
-    move-result-object v0
+.method static synthetic b(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;)Ljava/lang/String;
+    .registers 1
 
-    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    .line 1
+    iget-object p0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->b:Ljava/lang/String;
 
-    if-eqz v0, :cond_0
+    return-object p0
+.end method
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->b:Lorg/json/JSONObject;
+.method static synthetic c(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;)Ljava/lang/String;
+    .registers 1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
+    .line 1
+    iget-object p0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->d:Ljava/lang/String;
 
-    :cond_0
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;->e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
+
+    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0$a;
+
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0$a;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;Lcom/huawei/appmarket/nv7;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
     return-void
 .end method

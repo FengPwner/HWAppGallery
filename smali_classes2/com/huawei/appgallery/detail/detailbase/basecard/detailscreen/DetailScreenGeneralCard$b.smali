@@ -286,7 +286,7 @@
     return v1
 
     :goto_1
-    sget-object v3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -305,12 +305,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v3, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
     :goto_3
-    sget-object v3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -321,7 +321,7 @@
     goto :goto_2
 
     :goto_4
-    sget-object v3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -536,7 +536,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic z(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;

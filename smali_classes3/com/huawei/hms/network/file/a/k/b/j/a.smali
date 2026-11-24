@@ -28,11 +28,11 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/huawei/hms/network/file/a/k/b/j/c;->a()Lcom/huawei/appmarket/fy6;
+    invoke-static {}, Lcom/huawei/hms/network/file/a/k/b/j/c;->a()Lcom/huawei/appmarket/jy6;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/fy6;->b()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/jy6;->b()Ljava/lang/String;
 
     move-result-object v3
 
@@ -50,7 +50,7 @@
 
     const/16 v2, 0x10
 
-    invoke-static {v2}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v2}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v2
 

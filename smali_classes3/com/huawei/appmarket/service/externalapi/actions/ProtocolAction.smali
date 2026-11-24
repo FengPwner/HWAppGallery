@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/ProtocolAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -18,11 +18,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -32,9 +32,9 @@
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -54,17 +54,17 @@
 
     const-string v2, "PresetConfig"
 
-    const-class v4, Lcom/huawei/appmarket/qx3;
+    const-class v4, Lcom/huawei/appmarket/sx3;
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/qx3;
+    check-cast v2, Lcom/huawei/appmarket/sx3;
 
     const/16 v4, 0x8
 
-    invoke-interface {v2, v4}, Lcom/huawei/appmarket/qx3;->e(I)Z
+    invoke-interface {v2, v4}, Lcom/huawei/appmarket/sx3;->e(I)Z
 
     move-result v2
 
@@ -90,7 +90,7 @@
 
     const-string v1, "hms_protocol_status"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ga3;->a(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ja3;->a(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
 
@@ -102,7 +102,7 @@
 
     const-string v0, "protocol status is not started:"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -112,14 +112,14 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ga3;->b(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ja3;->b(Landroid/content/Context;)V
 
     goto :goto_0
 
     :cond_0
     const-string v0, "protocol status is beging created:"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -150,15 +150,15 @@
         }
     .end annotation
 
-    invoke-super {p0}, Lcom/huawei/appmarket/np3;->getReportMap()Ljava/util/LinkedHashMap;
+    invoke-super {p0}, Lcom/huawei/appmarket/pp3;->getReportMap()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -166,9 +166,9 @@
 
     new-instance v1, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v2}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
@@ -214,7 +214,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 2
     .line 3
@@ -230,7 +230,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -243,11 +243,11 @@
 
     .line 14
     .line 15
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 16
     .line 17
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -304,7 +304,7 @@
 
     .line 45
     .line 46
-    invoke-static {v1, v2, v3, v2}, Lcom/huawei/appmarket/ej2;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v1, v2, v3, v2}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     .line 47
     .line 48
@@ -333,7 +333,7 @@
 
     .line 60
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -429,13 +429,13 @@
 
     .line 110
     .line 111
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 112
     .line 113
     .line 114
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 115
     .line 116
@@ -446,16 +446,16 @@
     const/4 v2, 0x0
 
     .line 119
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     .line 120
     .line 121
     .line 122
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 123
     .line 124
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     .line 125
     .line 126
@@ -514,7 +514,7 @@
     return v0
 
     :cond_0
-    invoke-super {p0}, Lcom/huawei/appmarket/np3;->preExecute()Z
+    invoke-super {p0}, Lcom/huawei/appmarket/pp3;->preExecute()Z
 
     move-result v0
 

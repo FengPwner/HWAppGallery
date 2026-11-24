@@ -453,7 +453,7 @@
 
     const-string v8, "androidx.recyclerview.widget.ViewBoundsCheck"
 
-    invoke-static {v1, v8, v7}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v1, v8, v7}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -490,7 +490,7 @@
 
     aput-object p1, v6, v3
 
-    invoke-static {v1, v7, v6}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v7, v6}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1876,7 +1876,7 @@
 
     const-string v8, "androidx.recyclerview.widget.ViewBoundsCheck"
 
-    invoke-static {v1, v8, v7}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v1, v8, v7}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -1913,7 +1913,7 @@
 
     aput-object p1, v6, v3
 
-    invoke-static {v1, v7, v6}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v7, v6}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1988,7 +1988,7 @@
     const-string v1, "invalid orientation:"
 
     .line 7
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4332,7 +4332,7 @@
 
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "validating child count "
+    const-string/jumbo v1, "validating child count "
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

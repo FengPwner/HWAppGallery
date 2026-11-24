@@ -4,11 +4,5 @@
 
 
 # virtual methods
-.method public abstract O0(Lcom/huawei/appmarket/cb2;)V
-.end method
-
-.method public abstract Y(Lcom/huawei/appmarket/cb2;)V
-.end method
-
-.method public abstract w(Lcom/huawei/appmarket/cb2;)V
+.method public abstract getComputedVisible()I
 .end method

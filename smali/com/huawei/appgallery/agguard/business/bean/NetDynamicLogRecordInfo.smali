@@ -5,37 +5,37 @@
 
 # instance fields
 .field public appType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private appVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private filePath:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private hash:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field public packageHash:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private packageName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private signs:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -48,22 +48,22 @@
 .end field
 
 .field private timeOfLastExact:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private totalCount:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private uuid:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field public versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

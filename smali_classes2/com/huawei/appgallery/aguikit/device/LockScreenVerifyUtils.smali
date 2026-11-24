@@ -128,7 +128,7 @@
 
     const-string v2, "generate auth title failed! "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, ""
 
@@ -222,7 +222,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v3, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -285,11 +285,11 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v1
 
@@ -429,7 +429,7 @@
 
     const-string v0, "callback should not be null"
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -449,7 +449,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/bu5;->c(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/du5;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v4
 
@@ -470,7 +470,7 @@
 
     if-lt v4, v5, :cond_2
 
-    invoke-static {v3}, Lcom/huawei/appmarket/hs2;->A(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-static {v3}, Lcom/huawei/appmarket/ks2;->A(Landroid/content/Context;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -528,7 +528,7 @@
 
     const-string v4, "no screen pin, skip checking"
 
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p0, v2}, Lcom/huawei/appgallery/aguikit/device/LockScreenVerifyUtils$LockScreenVerifyCallback;->onCallback(I)V
 
@@ -540,7 +540,7 @@
 
     const-string v4, "is not system app or primary user!"
 
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p0, v2}, Lcom/huawei/appgallery/aguikit/device/LockScreenVerifyUtils$LockScreenVerifyCallback;->onCallback(I)V
     :try_end_0
@@ -568,7 +568,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p0, v2}, Lcom/huawei/appgallery/aguikit/device/LockScreenVerifyUtils$LockScreenVerifyCallback;->onCallback(I)V
 

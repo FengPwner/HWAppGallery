@@ -5,32 +5,32 @@
 
 # instance fields
 .field private end_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private finished_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private id_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private orgFinished_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private start_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private taskId_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 

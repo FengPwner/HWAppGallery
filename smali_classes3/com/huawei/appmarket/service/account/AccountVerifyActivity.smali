@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/framework/activity/SecureActivity;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Void;",
         ">;"
     }
@@ -28,11 +28,11 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 11
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 2
     .line 3
@@ -70,7 +70,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -147,7 +147,7 @@
 
     .line 59
     .line 60
-    invoke-static {v7, v6, v8, v0, v5}, Lcom/huawei/appmarket/ej2;->r(ILjava/util/LinkedHashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v7, v6, v8, v0, v5}, Lcom/huawei/appmarket/tr2;->q(ILjava/util/LinkedHashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 61
     .line 62
@@ -174,7 +174,7 @@
 
     .line 70
     .line 71
-    invoke-static {v5, v6, v8, v1, v2}, Lcom/huawei/appmarket/ej2;->s(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v6, v8, v1, v2}, Lcom/huawei/appmarket/tr2;->r(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -188,7 +188,7 @@
 
     .line 78
     .line 79
-    invoke-static {v7, v1, v6}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v7, v1, v6}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 80
     .line 81
@@ -211,7 +211,7 @@
 
     .line 91
     .line 92
-    invoke-static {v1, v6}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v6}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 93
     .line 94
@@ -256,7 +256,6 @@
     .line 113
     .line 114
     return-void
-    .line 115
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -310,7 +309,7 @@
     move-result-object v0
 
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 27
     .line 28
@@ -398,7 +397,7 @@
     move-result-object v2
 
     .line 71
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bu5;->c(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/du5;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 72
     .line 73
@@ -415,7 +414,7 @@
     .line 78
     .line 79
     :goto_0
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kk4;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -557,12 +556,12 @@
     move-result-object p1
 
     .line 151
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
     .line 153
     .line 154
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 155
     .line 156
@@ -574,11 +573,11 @@
 
     .line 159
     .line 160
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 161
     .line 162
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 163
     .line 164
@@ -590,7 +589,7 @@
 
     .line 167
     .line 168
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 169
     .line 170
@@ -602,7 +601,7 @@
 
     .line 173
     .line 174
-    invoke-interface {p1, p0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 175
     .line 176
@@ -610,7 +609,7 @@
     move-result-object p1
 
     .line 178
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->uiThread()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->uiThread()Ljava/util/concurrent/Executor;
 
     .line 179
     .line 180
@@ -618,7 +617,7 @@
     move-result-object v0
 
     .line 182
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 183
     .line 184
@@ -805,6 +804,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

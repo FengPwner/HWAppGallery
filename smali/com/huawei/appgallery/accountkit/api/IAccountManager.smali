@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
 # annotations
@@ -33,39 +33,39 @@
 
 
 # virtual methods
-.method public abstract checkAccountConsistency(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract checkAccountConsistency(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -75,43 +75,43 @@
 .method public abstract clearLoginingTask()V
 .end method
 
-.method public abstract getAccountDisplayControl()Lcom/huawei/appmarket/fg3;
+.method public abstract getAccountDisplayControl()Lcom/huawei/appmarket/hg3;
 .end method
 
-.method public abstract getAccountInterceptor()Lcom/huawei/appmarket/gg3;
+.method public abstract getAccountInterceptor()Lcom/huawei/appmarket/ig3;
 .end method
 
-.method public abstract getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/e00;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract getLoginResult()Lcom/huawei/appmarket/gw7;
+.method public abstract getLoginResult()Lcom/huawei/appmarket/mw7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw7<",
+            "Lcom/huawei/appmarket/mw7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract getSession(Landroid/content/Context;Z)Lcom/huawei/appmarket/hv7;
+.method public abstract getSession(Landroid/content/Context;Z)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/account/userauth/api/session/ISession;",
             ">;"
         }
@@ -121,75 +121,75 @@
 .method public abstract getUserVerifyLevel()I
 .end method
 
-.method public abstract initWithParam(Lcom/huawei/appmarket/qr0;)V
+.method public abstract initWithParam(Lcom/huawei/appmarket/rr0;)V
 .end method
 
-.method public abstract launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract launchAccountDetail(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchAccountDetail(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract launchPasswordVerificationV2(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchPasswordVerificationV2(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract launchSecurePhoneBind(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchSecurePhoneBind(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/hv7;
+.method public abstract launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -197,15 +197,15 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract login(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
-    .annotation runtime Lcom/huawei/appmarket/xe5;
+.method public abstract login(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
+    .annotation runtime Lcom/huawei/appmarket/af5;
         value = "loginWithContext"
     .end annotation
 
@@ -214,21 +214,21 @@
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+.method public abstract login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
     .param p1    # Landroid/content/Context;
-        .annotation runtime Lcom/huawei/appmarket/ve5;
+        .annotation runtime Lcom/huawei/appmarket/ye5;
             value = "context"
         .end annotation
     .end param
     .param p2    # Lcom/huawei/appgallery/accountkit/api/LoginParam;
-        .annotation runtime Lcom/huawei/appmarket/ve5;
+        .annotation runtime Lcom/huawei/appmarket/ye5;
             value = "loginParam"
         .end annotation
     .end param
@@ -238,20 +238,20 @@
             "Landroid/content/Context;",
             "Lcom/huawei/appgallery/accountkit/api/LoginParam;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract logout(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract logout(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -261,8 +261,8 @@
 .method public abstract refreshLogoutResult()V
 .end method
 
-.method public abstract setAccountDisplayControl(Lcom/huawei/appmarket/fg3;)V
+.method public abstract setAccountDisplayControl(Lcom/huawei/appmarket/hg3;)V
 .end method
 
-.method public abstract setAccountInterceptor(Lcom/huawei/appmarket/gg3;)V
+.method public abstract setAccountInterceptor(Lcom/huawei/appmarket/ig3;)V
 .end method

@@ -52,7 +52,7 @@
 
     const-string v6, "setBackground"
 
-    invoke-static {v5, v6, v2}, Lcom/huawei/appmarket/wl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v5, v6, v2}, Lcom/huawei/appmarket/zl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
@@ -96,7 +96,7 @@
 
     const-string v6, "setTint"
 
-    invoke-static {v4, v6, v2}, Lcom/huawei/appmarket/wl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v4, v6, v2}, Lcom/huawei/appmarket/zl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
@@ -120,7 +120,7 @@
 
     const-string v2, "setVisibility"
 
-    invoke-static {v5, v2, v1}, Lcom/huawei/appmarket/wl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v5, v2, v1}, Lcom/huawei/appmarket/zl6;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 

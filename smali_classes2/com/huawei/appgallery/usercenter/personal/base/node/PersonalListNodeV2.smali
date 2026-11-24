@@ -18,7 +18,7 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/zz5;
+    new-instance v0, Lcom/huawei/appmarket/b06;
 
     const/4 v1, 0x1
 
@@ -26,7 +26,7 @@
 
     iget-object v3, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/zz5;-><init>(Landroid/content/Context;II)V
+    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/b06;-><init>(Landroid/content/Context;II)V
 
     return-object v0
 .end method

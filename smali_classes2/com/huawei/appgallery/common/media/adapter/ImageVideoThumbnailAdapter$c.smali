@@ -334,7 +334,7 @@
     move-result-object p1
 
     .line 118
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -367,7 +367,7 @@
     .line 134
     :cond_3
     :goto_0
-    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/du3;
+    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
     .line 135
     .line 136
@@ -387,7 +387,7 @@
     move-result v0
 
     .line 144
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/du3;->l1(I)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fu3;->l1(I)V
 
     .line 145
     .line 146

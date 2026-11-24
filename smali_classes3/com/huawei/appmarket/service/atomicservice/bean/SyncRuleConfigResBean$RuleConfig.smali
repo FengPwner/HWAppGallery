@@ -16,7 +16,7 @@
 
 # instance fields
 .field private addCardOwners:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -29,7 +29,7 @@
 .end field
 
 .field private adsInfos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

@@ -50,13 +50,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p1, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string p2, "WishAddFragment"
 
     const-string p3, "cancel Commit"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const/4 p1, 0x0

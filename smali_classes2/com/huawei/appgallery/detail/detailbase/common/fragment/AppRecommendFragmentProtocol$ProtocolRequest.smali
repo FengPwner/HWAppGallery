@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ol1;
+.implements Lcom/huawei/appmarket/rl1;
 
 
 # annotations
@@ -34,11 +34,11 @@
 
 
 # virtual methods
-.method public p(Lcom/huawei/appmarket/jq;)V
+.method public p(Lcom/huawei/appmarket/iq;)V
     .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->i()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -51,7 +51,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->g()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -64,7 +64,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->d()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -76,7 +76,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->e()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -88,7 +88,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->c()I
 
     .line 28
     .line 29
@@ -101,7 +101,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->h()Lcom/huawei/appmarket/nu7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->h()Lcom/huawei/appmarket/tu7;
 
     .line 35
     .line 36
@@ -109,7 +109,7 @@
     move-result-object p1
 
     .line 38
-    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->l0(Lcom/huawei/appmarket/nu7;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->l0(Lcom/huawei/appmarket/tu7;)V
 
     .line 39
     .line 40
@@ -184,7 +184,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final t0()Ljava/lang/String;

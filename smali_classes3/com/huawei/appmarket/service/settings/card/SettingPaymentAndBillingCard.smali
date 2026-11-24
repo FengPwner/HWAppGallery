@@ -231,7 +231,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic o1(Lcom/huawei/appmarket/service/settings/card/SettingPaymentAndBillingCard;)Landroid/content/Context;
@@ -273,7 +272,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/a74;->a()Lcom/huawei/appmarket/a74;
+    invoke-static {}, Lcom/huawei/appmarket/d74;->a()Lcom/huawei/appmarket/d74;
 
     .line 11
     .line 12
@@ -302,7 +301,7 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -323,7 +322,7 @@
 
     .line 34
     :goto_0
-    invoke-interface {v1, v0}, Lcom/huawei/hms/iap/IapClient;->startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, v0}, Lcom/huawei/hms/iap/IapClient;->startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/nv7;
 
     .line 35
     .line 36
@@ -340,7 +339,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     .line 44
     .line 45
@@ -354,7 +353,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     .line 52
     .line 53
@@ -553,7 +552,7 @@
 
     const-string p1, " env is Ready!"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/settings/card/SettingPaymentAndBillingCard;->r1()V
 
@@ -562,7 +561,7 @@
     :cond_0
     const-string p1, " env is not Ready!"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -574,11 +573,11 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :goto_0
     return-void

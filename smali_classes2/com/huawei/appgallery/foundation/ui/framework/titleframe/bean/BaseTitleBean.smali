@@ -24,7 +24,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;"
         }
     .end annotation
@@ -66,7 +66,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {v0, v0, v1}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v0, v0, v1}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -269,7 +269,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;"
         }
     .end annotation
@@ -365,7 +365,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;)V"
         }
     .end annotation

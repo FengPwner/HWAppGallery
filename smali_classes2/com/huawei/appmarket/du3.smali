@@ -4,17 +4,8 @@
 
 
 # virtual methods
-.method public abstract T0()V
+.method public abstract getVisibility()I
 .end method
 
-.method public abstract c2(I)V
-.end method
-
-.method public abstract e2()V
-.end method
-
-.method public abstract l1(I)V
-.end method
-
-.method public abstract m1(Ljava/lang/String;)V
+.method public abstract setVisibility(I)V
 .end method

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/SettingChinaNotificationMgrCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingChinaNotificationMgrCard$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingChinaNotificationMgrCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 16
     .line 17
@@ -90,7 +90,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -120,7 +120,7 @@
 
     .line 42
     .line 43
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 44
     .line 45
@@ -194,5 +194,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

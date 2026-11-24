@@ -1,45 +1,34 @@
-.class final Lcom/huawei/appmarket/lk8;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/lk8;
+.super Lcom/huawei/appmarket/vs5;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/eo5;
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Ljava/lang/Boolean;",
-        ">;"
-    }
-.end annotation
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nk8;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/vs5;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final A()Ljava/lang/String;
     .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Ljava/lang/Boolean;",
-            ">;)V"
-        }
-    .end annotation
 
     .line 1
-    return-void
+    const-string v0, "text/plain"
+
+    return-object v0
+.end method
+
+.method public final f()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, "com.vkontakte.android"
+
+    return-object v0
 .end method

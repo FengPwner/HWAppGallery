@@ -120,9 +120,9 @@
 
     iget-object v0, p0, Lcom/huawei/csc/captcha/HuaweiCaptcha;->e:Lcom/huawei/csc/captcha/h;
 
-    new-instance v1, Lcom/huawei/appmarket/od3;
+    new-instance v1, Lcom/huawei/appmarket/qd3;
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/od3;-><init>(Lcom/huawei/csc/captcha/HuaweiCaptcha;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/qd3;-><init>(Lcom/huawei/csc/captcha/HuaweiCaptcha;I)V
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
@@ -263,7 +263,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic b(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -409,7 +408,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic c(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -596,7 +594,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic d(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -732,7 +729,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic e(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -872,7 +868,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic f(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -1042,7 +1037,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic g(Lcom/huawei/csc/captcha/HuaweiCaptcha;)V
@@ -1165,7 +1159,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static getInstance()Lcom/huawei/csc/captcha/HuaweiCaptcha;
@@ -3605,7 +3598,7 @@
 
     if-lt v4, v5, :cond_52
 
-    invoke-static {}, Lcom/huawei/appmarket/r58;->n()V
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->t()V
 
     const/4 v4, 0x1
 
@@ -3615,7 +3608,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v4}, Lcom/huawei/appmarket/r58;->d([Ljava/util/Locale;)Landroid/os/LocaleList;
+    invoke-static {v4}, Lcom/huawei/appmarket/fq7;->f([Ljava/util/Locale;)Landroid/os/LocaleList;
 
     move-result-object v0
 
@@ -4272,9 +4265,9 @@
 
     iget-object v0, p0, Lcom/huawei/csc/captcha/HuaweiCaptcha;->f:Lcom/huawei/csc/captcha/f;
 
-    new-instance v2, Lcom/huawei/appmarket/od3;
+    new-instance v2, Lcom/huawei/appmarket/qd3;
 
-    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/od3;-><init>(Lcom/huawei/csc/captcha/HuaweiCaptcha;I)V
+    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/qd3;-><init>(Lcom/huawei/csc/captcha/HuaweiCaptcha;I)V
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
@@ -5282,8 +5275,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public isLanguageSupport(Ljava/lang/String;)Z

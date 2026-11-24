@@ -170,7 +170,7 @@
     .line 60
     .line 61
     :cond_1
-    instance-of v0, p1, Lcom/huawei/appmarket/j44;
+    instance-of v0, p1, Lcom/huawei/appmarket/m44;
 
     .line 62
     .line 63
@@ -181,11 +181,11 @@
     move-object v0, p1
 
     .line 66
-    check-cast v0, Lcom/huawei/appmarket/j44;
+    check-cast v0, Lcom/huawei/appmarket/m44;
 
     .line 67
     .line 68
-    invoke-interface {v0}, Lcom/huawei/appmarket/j44;->Y()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/m44;->Y()Z
 
     .line 69
     .line 70
@@ -246,5 +246,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

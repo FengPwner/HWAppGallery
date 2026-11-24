@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ko5;
+.implements Lcom/huawei/appmarket/lo5;
 
 
 # annotations
@@ -177,11 +177,11 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result p2
 
@@ -189,11 +189,11 @@
 
     if-gt p2, v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result p2
 
@@ -201,11 +201,11 @@
 
     if-ge p2, v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/vy4;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/yy4;->e()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result p2
 

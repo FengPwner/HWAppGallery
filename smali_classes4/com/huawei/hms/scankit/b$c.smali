@@ -137,7 +137,7 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/jm7;->l(Landroid/app/Activity;[Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/pm7;->l(Landroid/app/Activity;[Ljava/lang/String;)V
 
     :cond_2
     :goto_0

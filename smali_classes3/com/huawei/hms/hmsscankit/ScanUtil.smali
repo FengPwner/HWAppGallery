@@ -1174,7 +1174,7 @@
     return v1
 
     :cond_0
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/jm7;->d(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/pm7;->d(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p0
 

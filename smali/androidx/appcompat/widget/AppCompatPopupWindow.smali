@@ -32,7 +32,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/pe6;->u:[I
+    sget-object v0, Lcom/huawei/appmarket/re6;->u:[I
 
     .line 2
     .line 3
@@ -70,7 +70,7 @@
     move-result p2
 
     .line 19
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/w26;->a(Landroid/widget/PopupWindow;Z)V
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/y26;->a(Landroid/widget/PopupWindow;Z)V
 
     .line 20
     .line 21

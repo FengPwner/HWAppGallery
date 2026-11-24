@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -188,5 +188,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

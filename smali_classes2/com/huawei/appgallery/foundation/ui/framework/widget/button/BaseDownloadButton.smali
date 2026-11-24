@@ -54,7 +54,7 @@
     const/16 p2, 0x30
 
     .line 3
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -68,7 +68,7 @@
     const/16 p2, 0x4a
 
     .line 5
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -80,7 +80,7 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -94,7 +94,7 @@
     const/16 p2, 0xc3
 
     .line 9
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -316,14 +316,14 @@
 
     .line 53
     .line 54
-    new-instance v2, Lcom/huawei/appmarket/xz;
+    new-instance v2, Lcom/huawei/appmarket/yz;
 
     .line 55
     .line 56
     const/4 v3, 0x5
 
     .line 57
-    invoke-direct {v2, v3, p0, v0, v1}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, p0, v0, v1}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 58
     .line 59
@@ -531,14 +531,14 @@
 
     .line 53
     .line 54
-    new-instance v1, Lcom/huawei/appmarket/xz;
+    new-instance v1, Lcom/huawei/appmarket/yz;
 
     .line 55
     .line 56
     const/4 v2, 0x5
 
     .line 57
-    invoke-direct {v1, v2, p0, p1, v0}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p0, p1, v0}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 58
     .line 59
@@ -594,7 +594,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final g(II)V
@@ -613,7 +612,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     invoke-virtual {p0}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->getPercentage()Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 

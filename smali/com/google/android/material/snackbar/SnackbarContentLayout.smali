@@ -118,7 +118,7 @@
 
     .line 34
     .line 35
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->O(Landroid/widget/TextView;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->O(Landroid/widget/TextView;)Z
 
     .line 36
     .line 37
@@ -130,7 +130,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->y(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->y(Landroid/view/View;)I
 
     .line 42
     .line 43
@@ -138,7 +138,7 @@
     move-result v0
 
     .line 45
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->x(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->x(Landroid/view/View;)I
 
     .line 46
     .line 47
@@ -146,7 +146,7 @@
     move-result v2
 
     .line 49
-    invoke-static {p1, v0, p2, v2, p3}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {p1, v0, p2, v2, p3}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     .line 50
     .line 51
@@ -397,6 +397,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -571,11 +578,11 @@
 
     const v1, 0x7f040116
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v1
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result p1
 

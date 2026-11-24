@@ -54,7 +54,7 @@
 
 .field private host:Ljava/lang/String;
 
-.field private iResponseProcessor:Lcom/huawei/appmarket/g04;
+.field private iResponseProcessor:Lcom/huawei/appmarket/i04;
 
 .field private isHarmonyRequest:Z
 
@@ -69,7 +69,7 @@
     .end annotation
 .end field
 
-.field private preloadStrategy:Lcom/huawei/appmarket/u56;
+.field private preloadStrategy:Lcom/huawei/appmarket/w56;
 
 .field private reqContentType:Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean$a;
 
@@ -87,10 +87,10 @@
     .end annotation
 .end field
 
-.field private routeStrategy:Lcom/huawei/appmarket/vy6;
+.field private routeStrategy:Lcom/huawei/appmarket/zy6;
 
 .field private sessionID:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -160,16 +160,16 @@
 
     .line 22
     .line 23
-    new-instance v1, Lcom/huawei/appmarket/vy6;
+    new-instance v1, Lcom/huawei/appmarket/zy6;
 
     .line 24
     .line 25
-    invoke-direct {v1}, Lcom/huawei/appmarket/vy6;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/zy6;-><init>()V
 
     .line 26
     .line 27
     .line 28
-    iput-object v1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/vy6;
+    iput-object v1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/zy6;
 
     .line 29
     .line 30
@@ -348,7 +348,7 @@
 
     invoke-virtual {v7, v5, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v5, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object v5, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -360,7 +360,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v5, v4, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v4, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v7, v3}, Lcom/alibaba/fastjson2/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -433,7 +433,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object v0, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -451,7 +451,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -492,7 +492,7 @@
     move-result-object v1
 
     .line 10
-    invoke-static {v1}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v1}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 11
     .line 12
@@ -565,7 +565,7 @@
     const/4 v7, 0x1
 
     .line 43
-    invoke-static {v6, v7, v6, v3}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v6, v7, v6, v3}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -583,7 +583,7 @@
 
     .line 51
     :cond_1
-    const-class v7, Lcom/huawei/appmarket/sg5;
+    const-class v7, Lcom/huawei/appmarket/vg5;
 
     .line 52
     .line 53
@@ -620,7 +620,7 @@
     move-result-object v1
 
     .line 67
-    invoke-static {v1}, Lcom/huawei/appmarket/da5;->b(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v1}, Lcom/huawei/appmarket/ga5;->b(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 68
     .line 69
@@ -842,7 +842,7 @@
     move-result-object v1
 
     .line 10
-    invoke-static {v1}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v1}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 11
     .line 12
@@ -895,7 +895,7 @@
     const/4 v7, 0x1
 
     .line 34
-    invoke-static {v6, v7, v6, v3}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v6, v7, v6, v3}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -913,7 +913,7 @@
 
     .line 42
     :cond_0
-    const-class v7, Lcom/huawei/appmarket/sg5;
+    const-class v7, Lcom/huawei/appmarket/vg5;
 
     .line 43
     .line 44
@@ -950,7 +950,7 @@
     move-result-object v1
 
     .line 58
-    invoke-static {v1}, Lcom/huawei/appmarket/da5;->b(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v1}, Lcom/huawei/appmarket/ga5;->b(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 59
     .line 60
@@ -1080,19 +1080,19 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/da5;->a(Ljava/lang/String;)Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;
+    invoke-static {v0}, Lcom/huawei/appmarket/ga5;->a(Ljava/lang/String;)Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->addRequestBean:Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/uu3;
+    instance-of v1, v0, Lcom/huawei/appmarket/wu3;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/uu3;
+    check-cast v0, Lcom/huawei/appmarket/wu3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/uu3;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/wu3;->a()V
 
     :cond_0
     const/4 v0, 0x0
@@ -1130,7 +1130,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {p1}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 9
     .line 10
@@ -1156,7 +1156,7 @@
 
     .line 20
     .line 21
-    invoke-static {p2}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {p2}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 22
     .line 23
@@ -1263,7 +1263,7 @@
     const/4 v3, 0x0
 
     .line 73
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 74
     .line 75
@@ -1318,7 +1318,7 @@
 
     .line 98
     :cond_5
-    const-class v0, Lcom/huawei/appmarket/sg5;
+    const-class v0, Lcom/huawei/appmarket/vg5;
 
     .line 99
     .line 100
@@ -1614,7 +1614,7 @@
     return-object p1
 
     :catch_0
-    sget-object p2, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object p2, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -1634,7 +1634,7 @@
 
     const-string p3, "RequestBean"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -1656,7 +1656,7 @@
     return-object p1
 
     :catch_0
-    sget-object p2, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object p2, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -1676,7 +1676,7 @@
 
     const-string p3, "RequestBean"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -1876,7 +1876,7 @@
 
     .line 54
     .line 55
-    invoke-static {v5}, Lcom/huawei/appmarket/gp7;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/lp7;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 56
     .line 57
@@ -1896,7 +1896,7 @@
 
     .line 64
     .line 65
-    invoke-static {v3, v6, v7, v5, v8}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v6, v7, v5, v8}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -1969,7 +1969,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public getAddRequestBean(Ljava/lang/Class;)Ljava/lang/Object;
@@ -2122,11 +2121,11 @@
     return-object v0
 .end method
 
-.method public getPreloadStrategy()Lcom/huawei/appmarket/u56;
+.method public getPreloadStrategy()Lcom/huawei/appmarket/w56;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->preloadStrategy:Lcom/huawei/appmarket/u56;
+    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->preloadStrategy:Lcom/huawei/appmarket/w56;
 
     return-object v0
 .end method
@@ -2160,7 +2159,7 @@
     const-string v1, "?method="
 
     .line 1
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -2271,20 +2270,20 @@
     return-object v0
 .end method
 
-.method public getResponseProcessor()Lcom/huawei/appmarket/g04;
+.method public getResponseProcessor()Lcom/huawei/appmarket/i04;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->iResponseProcessor:Lcom/huawei/appmarket/g04;
+    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->iResponseProcessor:Lcom/huawei/appmarket/i04;
 
     return-object v0
 .end method
 
-.method public getRouteStrategy()Lcom/huawei/appmarket/vy6;
+.method public getRouteStrategy()Lcom/huawei/appmarket/zy6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/vy6;
+    iget-object v0, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/zy6;
 
     return-object v0
 .end method
@@ -2395,7 +2394,7 @@
 
     :catch_0
     :try_start_1
-    sget-object v2, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object v2, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     const-string v4, "RequestBean"
 
@@ -2413,7 +2412,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v4, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -2661,11 +2660,11 @@
     return-void
 .end method
 
-.method public setPreloadStrategy(Lcom/huawei/appmarket/u56;)V
+.method public setPreloadStrategy(Lcom/huawei/appmarket/w56;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->preloadStrategy:Lcom/huawei/appmarket/u56;
+    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->preloadStrategy:Lcom/huawei/appmarket/w56;
 
     return-void
 .end method
@@ -2710,20 +2709,20 @@
     return-void
 .end method
 
-.method public setResponseProcessor(Lcom/huawei/appmarket/g04;)V
+.method public setResponseProcessor(Lcom/huawei/appmarket/i04;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->iResponseProcessor:Lcom/huawei/appmarket/g04;
+    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->iResponseProcessor:Lcom/huawei/appmarket/i04;
 
     return-void
 .end method
 
-.method public setRouteStrategy(Lcom/huawei/appmarket/vy6;)V
+.method public setRouteStrategy(Lcom/huawei/appmarket/zy6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/vy6;
+    iput-object p1, p0, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->routeStrategy:Lcom/huawei/appmarket/zy6;
 
     return-void
 .end method
@@ -2796,7 +2795,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7

@@ -59,13 +59,13 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SubstanceDeeplinkCard;->x:Landroid/view/View;
 

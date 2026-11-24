@@ -155,7 +155,7 @@
 
     const-string v3, "timer canceled"
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/ff;->e:Ljava/util/TimerTask;
@@ -170,7 +170,7 @@
 
     const-string v2, "monitor canceled"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -231,11 +231,11 @@
 
     .line 21
     .line 22
-    const-class v3, Lcom/huawei/appmarket/yh3;
+    const-class v3, Lcom/huawei/appmarket/ai3;
 
     .line 23
     .line 24
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -243,11 +243,11 @@
     move-result-object v2
 
     .line 28
-    check-cast v2, Lcom/huawei/appmarket/yh3;
+    check-cast v2, Lcom/huawei/appmarket/ai3;
 
     .line 29
     .line 30
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bq6;->j(Lcom/huawei/appmarket/yh3;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/eq6;->j(Lcom/huawei/appmarket/ai3;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 31
     .line 32
@@ -311,7 +311,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0, v8, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v8, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -440,7 +440,7 @@
     move-result-object v4
 
     .line 121
-    invoke-virtual {v3, v8, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v8, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
     .line 123
@@ -553,7 +553,7 @@
     move-result-object v2
 
     .line 179
-    invoke-virtual {v3, v8, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v8, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 180
     .line 181
@@ -643,7 +643,7 @@
 
     .line 220
     .line 221
-    invoke-virtual {v3, v8, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v8, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 222
     .line 223
@@ -667,7 +667,7 @@
     .line 229
     .line 230
     .line 231
-    invoke-static {v4}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v4}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 232
     .line 233
@@ -685,7 +685,7 @@
 
     .line 238
     .line 239
-    invoke-virtual {p1, v8, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v8, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 240
     .line 241
@@ -741,7 +741,7 @@
     move-result-object p1
 
     .line 268
-    invoke-virtual {v0, v8, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v8, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 269
     .line 270
@@ -784,7 +784,7 @@
     move-result-object p1
 
     .line 290
-    invoke-virtual {v1, v8, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v8, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -804,7 +804,7 @@
     .line 296
     .line 297
     .line 298
-    invoke-static {v4}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v4}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 299
     .line 300
@@ -860,7 +860,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/eg5;->g()Lcom/huawei/hms/network/httpclient/HttpClient;
+    invoke-static {}, Lcom/huawei/appmarket/hg5;->g()Lcom/huawei/hms/network/httpclient/HttpClient;
 
     move-result-object v0
 
@@ -971,14 +971,14 @@
 
     const-string v2, "removeRetryTask sleep interrupted"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     sget-object v1, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
 
     const-string v2, "try remove retryTask"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/ff;->a:Landroid/os/Handler;
 

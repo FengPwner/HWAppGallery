@@ -1602,7 +1602,7 @@
     move-result-object p1
 
     .line 143
-    invoke-static {v0, v3, p1, v4, v2}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v3, p1, v4, v2}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     .line 144
     .line 145
@@ -1889,8 +1889,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method private j(Lcom/huawei/hms/network/ai/x;)I

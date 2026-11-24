@@ -363,7 +363,7 @@
 
     .line 131
     .line 132
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 133
     .line 134
@@ -1042,11 +1042,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 
@@ -1097,7 +1092,7 @@
 
     const-string p2, "MultiLineTextView"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

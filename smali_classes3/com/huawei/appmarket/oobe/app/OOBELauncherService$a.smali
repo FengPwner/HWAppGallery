@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/oobe/app/OOBELauncherService$a;
-.super Lcom/huawei/appmarket/dv3$a;
+.super Lcom/huawei/appmarket/fv3$a;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
 .method constructor <init>(Lcom/huawei/appmarket/oobe/app/OOBELauncherService;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dv3$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fv3$a;-><init>()V
 
     return-void
 .end method
@@ -34,7 +34,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -42,11 +42,11 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uk5;->u()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/wk5;->u()Z
 
     move-result v2
 
@@ -58,17 +58,17 @@
 
     const-string v2, "OOBE"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -78,11 +78,11 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uk5;->r()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wk5;->r()Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -141,7 +141,7 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -149,11 +149,11 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uk5;->u()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/wk5;->u()Z
 
     move-result v2
 
@@ -165,21 +165,21 @@
 
     const-string v2, "OOBE"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uk5;->m()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wk5;->m()Ljava/lang/String;
 
     move-result-object v1
 
@@ -191,7 +191,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -219,11 +219,11 @@
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v3, "OOBELauncherInterface.getLayoutData UnsupportedEncodingException"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v0

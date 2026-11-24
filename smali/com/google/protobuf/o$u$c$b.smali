@@ -411,6 +411,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final addRepeatedField(Lcom/google/protobuf/Descriptors$f;Ljava/lang/Object;)Lcom/google/protobuf/g0$b;
@@ -1118,7 +1119,7 @@
 
     .line 190
     .line 191
-    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 192
     .line 193
@@ -1473,7 +1474,7 @@
 
     .line 71
     .line 72
-    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 73
     .line 74

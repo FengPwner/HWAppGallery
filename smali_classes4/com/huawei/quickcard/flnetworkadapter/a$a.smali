@@ -34,7 +34,7 @@
 
 .field private e:Ljava/lang/String;
 
-.field private f:Lcom/huawei/appmarket/g87$a;
+.field private f:Lcom/huawei/appmarket/l87$a;
 
 .field private g:Ljava/lang/String;
 
@@ -90,9 +90,9 @@
 
     invoke-static {v0, v1}, Lcom/huawei/quickcard/flnetworkadapter/a;->j(Lcom/huawei/quickcard/flnetworkadapter/a;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/quickcard/flnetworkadapter/a$a;->f:Lcom/huawei/appmarket/g87$a;
+    iget-object v1, p0, Lcom/huawei/quickcard/flnetworkadapter/a$a;->f:Lcom/huawei/appmarket/l87$a;
 
-    invoke-static {v0, v1}, Lcom/huawei/quickcard/flnetworkadapter/a;->f(Lcom/huawei/quickcard/flnetworkadapter/a;Lcom/huawei/appmarket/g87$a;)V
+    invoke-static {v0, v1}, Lcom/huawei/quickcard/flnetworkadapter/a;->f(Lcom/huawei/quickcard/flnetworkadapter/a;Lcom/huawei/appmarket/l87$a;)V
 
     iget-object v1, p0, Lcom/huawei/quickcard/flnetworkadapter/a$a;->a:Ljava/lang/String;
 
@@ -111,11 +111,11 @@
     return-object v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/g87$a;)V
+.method public final b(Lcom/huawei/appmarket/l87$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/flnetworkadapter/a$a;->f:Lcom/huawei/appmarket/g87$a;
+    iput-object p1, p0, Lcom/huawei/quickcard/flnetworkadapter/a$a;->f:Lcom/huawei/appmarket/l87$a;
 
     return-void
 .end method

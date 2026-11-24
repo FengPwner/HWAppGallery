@@ -584,7 +584,7 @@
 
     .line 50
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/jc8;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/oc8;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -649,7 +649,7 @@
     .line 78
     .line 79
     :cond_4
-    invoke-static {v0}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 80
     .line 81
@@ -832,7 +832,7 @@
 
     .line 163
     :cond_9
-    invoke-static {v4}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 164
     .line 165
@@ -1003,7 +1003,7 @@
     .line 239
     .line 240
     :cond_e
-    invoke-static {p1, v2, v3}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p1, v2, v3}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 241
     .line 242
@@ -1121,8 +1121,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setDecryptBatchPolicy(III)Lcom/huawei/hianalytics/process/HiAnalyticsConfig$Builder;

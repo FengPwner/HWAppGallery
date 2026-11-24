@@ -42,7 +42,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     .line 2
     .line 3
@@ -54,7 +54,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -76,7 +76,7 @@
     .line 17
     .line 18
     :goto_0
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -90,7 +90,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -120,7 +120,7 @@
 
     .line 39
     .line 40
-    invoke-static {v4}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -153,7 +153,7 @@
 
     .line 56
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     .line 57
     .line 58
@@ -240,6 +240,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public agreementPersonalizedAds()V
@@ -247,25 +248,25 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string v1, "HwHiAppPrivacyJs"
 
     const-string v2, "agreementPersonalizedAds "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/x66;
+    const-class v0, Lcom/huawei/appmarket/z66;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/x66;
+    check-cast v0, Lcom/huawei/appmarket/z66;
 
     iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/view/activity/HwHiAppPrivacyJs;->mContext:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/x66;->f1(Landroid/content/Context;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/z66;->f1(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -286,7 +287,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     .line 2
     .line 3
@@ -298,12 +299,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 11
     .line 12
@@ -344,7 +345,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -453,6 +454,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getClientType()Ljava/lang/String;
@@ -461,7 +463,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     .line 2
     .line 3
@@ -473,7 +475,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -512,7 +514,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -640,6 +642,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public needDisplay()Z
@@ -648,7 +651,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     .line 2
     .line 3
@@ -660,7 +663,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -793,6 +796,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public needDisplayPersonalizedAdEntry()Z
@@ -800,23 +804,23 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string v1, "HwHiAppPrivacyJs"
 
     const-string v2, "needDisplayPersonalizedAdEntry "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/x66;
+    const-class v0, Lcom/huawei/appmarket/z66;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/x66;
+    check-cast v0, Lcom/huawei/appmarket/z66;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/x66;->P0()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/z66;->P0()Z
 
     move-result v0
 
@@ -830,23 +834,23 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string v1, "HwHiAppPrivacyJs"
 
     const-string v2, "needDisplayPersonalizedContentRecommendEntry "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/x66;
+    const-class v0, Lcom/huawei/appmarket/z66;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/x66;
+    check-cast v0, Lcom/huawei/appmarket/z66;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/x66;->P0()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/z66;->P0()Z
 
     move-result v0
 
@@ -860,25 +864,25 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string v1, "HwHiAppPrivacyJs"
 
     const-string v2, "agreementPersonalizedContentRecommend "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/x66;
+    const-class v0, Lcom/huawei/appmarket/z66;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/x66;
+    check-cast v0, Lcom/huawei/appmarket/z66;
 
     iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/view/activity/HwHiAppPrivacyJs;->mContext:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/x66;->J1(Landroid/content/Context;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/z66;->K1(Landroid/content/Context;)V
 
     return-void
 .end method

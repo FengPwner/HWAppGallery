@@ -44,7 +44,7 @@
 .method static arrayToMap(Ljava/util/Map;Ljava/util/Collection;Ljava/lang/String;Lcom/alibaba/fastjson2/PropertyNamingStrategy;Lcom/alibaba/fastjson2/reader/ObjectReader;Lcom/alibaba/fastjson2/function/BiConsumer;)V
     .registers 13
 
-    new-instance v6, Lcom/huawei/appmarket/fj2;
+    new-instance v6, Lcom/huawei/appmarket/hj2;
 
     move-object v0, v6
 
@@ -58,9 +58,9 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/fj2;-><init>(Ljava/lang/String;Lcom/alibaba/fastjson2/PropertyNamingStrategy;Lcom/alibaba/fastjson2/reader/ObjectReader;Ljava/util/Map;Lcom/alibaba/fastjson2/function/BiConsumer;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/hj2;-><init>(Ljava/lang/String;Lcom/alibaba/fastjson2/PropertyNamingStrategy;Lcom/alibaba/fastjson2/reader/ObjectReader;Ljava/util/Map;Lcom/alibaba/fastjson2/function/BiConsumer;)V
 
-    invoke-static {p1, v6}, Lcom/huawei/appmarket/t12;->v(Ljava/util/Collection;Lcom/huawei/appmarket/fj2;)V
+    invoke-static {p1, v6}, Lcom/huawei/appmarket/x12;->v(Ljava/util/Collection;Lcom/huawei/appmarket/hj2;)V
 
     return-void
 .end method
@@ -205,7 +205,7 @@
 
     .line 64
     :goto_1
-    invoke-static {p3, p0, p5}, Lcom/huawei/appmarket/t12;->f(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, p0, p5}, Lcom/huawei/appmarket/x12;->f(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -324,7 +324,7 @@
 
     .line 117
     .line 118
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 119
     .line 120
@@ -1643,7 +1643,7 @@
     const-string v2, " error"
 
     .line 7
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2393,7 +2393,7 @@
     const-string v3, " error"
 
     .line 2
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    sget-object v2, Lcom/huawei/appmarket/pe6;->n:[I
+    sget-object v2, Lcom/huawei/appmarket/re6;->n:[I
 
     const/4 v7, 0x0
 
@@ -158,7 +158,7 @@
 
     move v5, p2
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     const/4 p1, 0x1
 
@@ -182,7 +182,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -217,7 +217,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

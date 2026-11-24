@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumNode$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumNode;->s(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumNode;->s(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,7 +28,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumNode$a;->b:Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

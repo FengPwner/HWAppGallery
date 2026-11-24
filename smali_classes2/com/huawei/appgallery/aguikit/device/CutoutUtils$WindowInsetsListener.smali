@@ -120,7 +120,7 @@
 
     const-string v2, "CutoutUtils"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appgallery/aguikit/device/CutoutUtils$WindowInsetsListener;->needTopPadding:Z
 

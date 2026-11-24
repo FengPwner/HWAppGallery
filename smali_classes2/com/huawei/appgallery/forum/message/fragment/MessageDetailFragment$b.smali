@@ -50,19 +50,19 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment$b;->a:Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->y6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;)Lcom/huawei/appmarket/p54;
+    invoke-static {p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->y6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;)Lcom/huawei/appmarket/s54;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/p54;->a(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/s54;->a(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->y6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;)Lcom/huawei/appmarket/p54;
+    invoke-static {p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->y6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;)Lcom/huawei/appmarket/s54;
 
     move-result-object v1
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/p54;->d(Lcom/huawei/secure/android/common/intent/SafeIntent;)I
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/s54;->d(Lcom/huawei/secure/android/common/intent/SafeIntent;)I
 
     move-result p1
 

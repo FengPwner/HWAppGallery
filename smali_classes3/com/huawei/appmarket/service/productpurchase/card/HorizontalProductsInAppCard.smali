@@ -48,7 +48,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 18
     .line 19
@@ -148,7 +148,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final b3(Landroid/content/Context;Ljava/util/List;)Z

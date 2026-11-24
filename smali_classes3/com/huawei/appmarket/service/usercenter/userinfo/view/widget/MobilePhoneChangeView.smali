@@ -12,7 +12,7 @@
 
 .field e:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
-.field protected f:Lcom/huawei/appmarket/jd8;
+.field protected f:Lcom/huawei/appmarket/od8;
 
 .field protected g:Lcom/huawei/appmarket/service/usercenter/userinfo/bean/UserInfoBean;
 
@@ -62,7 +62,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/m06;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/o06;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -145,12 +145,12 @@
     move-result-object v0
 
     .line 26
-    const v1, 0x7f0a17bb
+    const v1, 0x7f0a17bc
 
     .line 27
     .line 28
     .line 29
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     .line 30
     .line 31
@@ -193,7 +193,7 @@
 
     .line 51
     .line 52
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 53
     .line 54
@@ -387,11 +387,11 @@
     return v0
 .end method
 
-.method public e(Lcom/huawei/appmarket/jd8;Lcom/huawei/appmarket/service/usercenter/userinfo/bean/UserInfoBean;)V
+.method public e(Lcom/huawei/appmarket/od8;Lcom/huawei/appmarket/service/usercenter/userinfo/bean/UserInfoBean;)V
     .registers 7
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->f:Lcom/huawei/appmarket/jd8;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->f:Lcom/huawei/appmarket/od8;
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->g:Lcom/huawei/appmarket/service/usercenter/userinfo/bean/UserInfoBean;
 
@@ -455,7 +455,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -469,15 +469,15 @@
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->c:Lcom/huawei/uikit/phone/hwedittext/widget/HwEditText;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/m06;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/o06;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    new-instance p1, Lcom/huawei/appmarket/m06;
+    new-instance p1, Lcom/huawei/appmarket/o06;
 
-    invoke-direct {p1, v1}, Lcom/huawei/appmarket/m06;-><init>(I)V
+    invoke-direct {p1, v1}, Lcom/huawei/appmarket/o06;-><init>(I)V
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->c:Lcom/huawei/uikit/phone/hwedittext/widget/HwEditText;
 
@@ -489,7 +489,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/m06;->h(Landroid/widget/EditText;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/o06;->h(Landroid/widget/EditText;Ljava/lang/String;)V
 
     :cond_0
     return-void

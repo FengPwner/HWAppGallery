@@ -29,7 +29,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/qk8;",
+            "Lcom/huawei/appmarket/wk8;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
 
 .field private g:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter$a;
 
-.field private h:Lcom/huawei/appmarket/qk8;
+.field private h:Lcom/huawei/appmarket/wk8;
 
 .field private i:Z
 
@@ -498,11 +498,11 @@
     return-object p0
 .end method
 
-.method static synthetic m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/qk8;
+.method static synthetic m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/wk8;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/qk8;
+    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/wk8;
 
     return-object p0
 .end method
@@ -516,7 +516,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 5
     .line 6
@@ -528,11 +528,11 @@
 
     .line 9
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 13
     .line 14
@@ -540,11 +540,11 @@
     move-result-object v0
 
     .line 16
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -552,7 +552,7 @@
     move-result-object v0
 
     .line 22
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 23
     .line 24
@@ -601,7 +601,7 @@
 
     .line 46
     .line 47
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->B(Landroid/view/View;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->B(Landroid/view/View;)Lcom/huawei/appmarket/w7;
 
     .line 48
     .line 49
@@ -615,7 +615,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 56
     .line 57
@@ -655,7 +655,7 @@
     int-to-double v5, v5
 
     .line 74
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -718,7 +718,7 @@
 
     .line 103
     .line 104
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 105
     .line 106
@@ -738,7 +738,7 @@
     move-result-object p1
 
     .line 114
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 115
     .line 116
@@ -747,7 +747,7 @@
 
     .line 118
     .line 119
-    invoke-direct {p1, p0, v0, p4}, Lcom/huawei/appgallery/forum/option/vote/adapter/f;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/fh3;I)V
+    invoke-direct {p1, p0, v0, p4}, Lcom/huawei/appgallery/forum/option/vote/adapter/f;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/hh3;I)V
 
     .line 120
     .line 121
@@ -761,7 +761,7 @@
 
     .line 126
     .line 127
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 128
     .line 129
@@ -1527,7 +1527,7 @@
     return p0
 .end method
 
-.method static s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/qk8;
+.method static s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/wk8;
     .registers 2
 
     .line 1
@@ -1543,7 +1543,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Lcom/huawei/appmarket/qk8;
+    check-cast p0, Lcom/huawei/appmarket/wk8;
 
     .line 8
     .line 9
@@ -1702,7 +1702,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -1728,9 +1727,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/qk8;
+    check-cast p1, Lcom/huawei/appmarket/wk8;
 
-    iget p1, p1, Lcom/huawei/appmarket/qk8;->b:I
+    iget p1, p1, Lcom/huawei/appmarket/wk8;->b:I
 
     return p1
 .end method
@@ -1775,7 +1774,7 @@
     move-result-object v4
 
     .line 19
-    check-cast v4, Lcom/huawei/appmarket/qk8;
+    check-cast v4, Lcom/huawei/appmarket/wk8;
 
     .line 20
     .line 21
@@ -1839,7 +1838,7 @@
 
     .line 50
     .line 51
-    iget-object v5, v4, Lcom/huawei/appmarket/qk8;->f:Ljava/lang/String;
+    iget-object v5, v4, Lcom/huawei/appmarket/wk8;->f:Ljava/lang/String;
 
     .line 52
     .line 53
@@ -1848,7 +1847,7 @@
     .line 54
     .line 55
     .line 56
-    iget-object v5, v4, Lcom/huawei/appmarket/qk8;->f:Ljava/lang/String;
+    iget-object v5, v4, Lcom/huawei/appmarket/wk8;->f:Ljava/lang/String;
 
     .line 57
     .line 58
@@ -1873,7 +1872,7 @@
 
     .line 68
     .line 69
-    invoke-direct {v5, v0, v4}, Lcom/huawei/appgallery/forum/option/vote/adapter/d;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;)V
+    invoke-direct {v5, v0, v4}, Lcom/huawei/appgallery/forum/option/vote/adapter/d;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;)V
 
     .line 70
     .line 71
@@ -1927,7 +1926,7 @@
     .line 95
     .line 96
     .line 97
-    invoke-virtual {v1, v4}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->setData(Lcom/huawei/appmarket/qk8;)V
+    invoke-virtual {v1, v4}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->setData(Lcom/huawei/appmarket/wk8;)V
 
     .line 98
     .line 99
@@ -1980,11 +1979,11 @@
 
     .line 121
     .line 122
-    iget v9, v4, Lcom/huawei/appmarket/qk8;->b:I
+    iget v9, v4, Lcom/huawei/appmarket/wk8;->b:I
 
     .line 123
     .line 124
-    iget-object v12, v4, Lcom/huawei/appmarket/qk8;->d:Ljava/util/ArrayList;
+    iget-object v12, v4, Lcom/huawei/appmarket/wk8;->d:Ljava/util/ArrayList;
 
     .line 125
     .line 126
@@ -2024,11 +2023,11 @@
     move-result-object v10
 
     .line 143
-    check-cast v10, Lcom/huawei/appmarket/qk8$a;
+    check-cast v10, Lcom/huawei/appmarket/wk8$a;
 
     .line 144
     .line 145
-    iget-wide v6, v10, Lcom/huawei/appmarket/qk8$a;->b:J
+    iget-wide v6, v10, Lcom/huawei/appmarket/wk8$a;->b:J
 
     .line 146
     .line 147
@@ -2044,11 +2043,11 @@
 
     .line 152
     .line 153
-    iget-object v6, v0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/qk8;
+    iget-object v6, v0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/wk8;
 
     .line 154
     .line 155
-    iget-object v6, v6, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v6, v6, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     .line 156
     .line 157
@@ -2075,12 +2074,12 @@
 
     .line 166
     :goto_1
-    iput-boolean v6, v10, Lcom/huawei/appmarket/qk8$a;->e:Z
+    iput-boolean v6, v10, Lcom/huawei/appmarket/wk8$a;->e:Z
 
     .line 167
     .line 168
     :cond_5
-    iget v6, v4, Lcom/huawei/appmarket/qk8;->g:I
+    iget v6, v4, Lcom/huawei/appmarket/wk8;->g:I
 
     .line 169
     .line 170
@@ -2088,7 +2087,7 @@
 
     .line 171
     .line 172
-    iget-wide v6, v10, Lcom/huawei/appmarket/qk8$a;->b:J
+    iget-wide v6, v10, Lcom/huawei/appmarket/wk8$a;->b:J
 
     .line 173
     .line 174
@@ -2131,7 +2130,7 @@
     .line 192
     .line 193
     :goto_2
-    iget v7, v4, Lcom/huawei/appmarket/qk8;->h:I
+    iget v7, v4, Lcom/huawei/appmarket/wk8;->h:I
 
     .line 194
     .line 195
@@ -2142,7 +2141,7 @@
     int-to-double v13, v7
 
     .line 198
-    invoke-static {v13, v14}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v13, v14}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 199
     .line 200
@@ -2165,7 +2164,7 @@
     move-result-object v6
 
     .line 209
-    iput-object v6, v10, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iput-object v6, v10, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     .line 210
     .line 211
@@ -2179,7 +2178,7 @@
     const/4 v6, 0x0
 
     .line 214
-    iput-object v6, v10, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iput-object v6, v10, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     .line 215
     .line 216
@@ -2206,7 +2205,7 @@
 
     .line 224
     .line 225
-    invoke-direct {v5, v0, v4, v1}, Lcom/huawei/appgallery/forum/option/vote/adapter/c;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;I)V
+    invoke-direct {v5, v0, v4, v1}, Lcom/huawei/appgallery/forum/option/vote/adapter/c;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;I)V
 
     .line 226
     .line 227
@@ -2246,7 +2245,7 @@
 
     .line 245
     .line 246
-    iget-wide v7, v4, Lcom/huawei/appmarket/qk8;->i:J
+    iget-wide v7, v4, Lcom/huawei/appmarket/wk8;->i:J
 
     .line 247
     .line 248
@@ -2266,7 +2265,7 @@
 
     .line 255
     .line 256
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/h36;->a(J)Ljava/lang/String;
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/j36;->a(J)Ljava/lang/String;
 
     .line 257
     .line 258
@@ -2320,7 +2319,7 @@
 
     .line 281
     .line 282
-    iget-wide v7, v4, Lcom/huawei/appmarket/qk8;->i:J
+    iget-wide v7, v4, Lcom/huawei/appmarket/wk8;->i:J
 
     .line 283
     .line 284
@@ -2353,7 +2352,7 @@
     move-result v5
 
     .line 298
-    iget v7, v4, Lcom/huawei/appmarket/qk8;->g:I
+    iget v7, v4, Lcom/huawei/appmarket/wk8;->g:I
 
     .line 299
     .line 300
@@ -2369,11 +2368,11 @@
     move-result-object v5
 
     .line 306
-    check-cast v5, Lcom/huawei/appmarket/qk8$a;
+    check-cast v5, Lcom/huawei/appmarket/wk8$a;
 
     .line 307
     .line 308
-    iget-wide v7, v5, Lcom/huawei/appmarket/qk8$a;->b:J
+    iget-wide v7, v5, Lcom/huawei/appmarket/wk8$a;->b:J
 
     .line 309
     .line 310
@@ -2389,7 +2388,7 @@
 
     .line 315
     .line 316
-    iget v5, v4, Lcom/huawei/appmarket/qk8;->g:I
+    iget v5, v4, Lcom/huawei/appmarket/wk8;->g:I
 
     .line 317
     .line 318
@@ -2401,15 +2400,15 @@
     move-result-object v5
 
     .line 322
-    check-cast v5, Lcom/huawei/appmarket/qk8$a;
+    check-cast v5, Lcom/huawei/appmarket/wk8$a;
 
     .line 323
     .line 324
-    iget-wide v7, v4, Lcom/huawei/appmarket/qk8;->i:J
+    iget-wide v7, v4, Lcom/huawei/appmarket/wk8;->i:J
 
     .line 325
     .line 326
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/h36;->a(J)Ljava/lang/String;
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/j36;->a(J)Ljava/lang/String;
 
     .line 327
     .line 328
@@ -2417,7 +2416,7 @@
     move-result-object v7
 
     .line 330
-    iput-object v7, v5, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iput-object v7, v5, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     .line 331
     .line 332
@@ -2426,7 +2425,7 @@
 
     .line 333
     .line 334
-    invoke-direct {v5, v0, v4, v1, v6}, Lcom/huawei/appgallery/forum/option/vote/adapter/b;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;ILandroid/widget/TextView;)V
+    invoke-direct {v5, v0, v4, v1, v6}, Lcom/huawei/appgallery/forum/option/vote/adapter/b;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;ILandroid/widget/TextView;)V
 
     .line 335
     .line 336
@@ -2444,7 +2443,7 @@
 
     .line 342
     .line 343
-    invoke-direct {v1, v0, v4}, Lcom/huawei/appgallery/forum/option/vote/adapter/a;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;)V
+    invoke-direct {v1, v0, v4}, Lcom/huawei/appgallery/forum/option/vote/adapter/a;-><init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;)V
 
     .line 344
     .line 345
@@ -2455,7 +2454,7 @@
     .line 348
     .line 349
     :goto_5
-    iget v1, v4, Lcom/huawei/appmarket/qk8;->g:I
+    iget v1, v4, Lcom/huawei/appmarket/wk8;->g:I
 
     .line 350
     .line 351
@@ -2474,7 +2473,7 @@
 
     .line 357
     .line 358
-    iget v2, v4, Lcom/huawei/appmarket/qk8;->c:I
+    iget v2, v4, Lcom/huawei/appmarket/wk8;->c:I
 
     .line 359
     .line 360
@@ -2708,13 +2707,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -2955,7 +2947,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final t()Ljava/util/ArrayList;
@@ -2964,7 +2955,7 @@
         value = {
             "()",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/qk8;",
+            "Lcom/huawei/appmarket/wk8;",
             ">;"
         }
     .end annotation
@@ -3062,15 +3053,15 @@
     move-result-object p1
 
     .line 35
-    check-cast p1, Lcom/huawei/appmarket/qk8;
+    check-cast p1, Lcom/huawei/appmarket/wk8;
 
     .line 36
     .line 37
-    iput v2, p1, Lcom/huawei/appmarket/qk8;->g:I
+    iput v2, p1, Lcom/huawei/appmarket/wk8;->g:I
 
     .line 38
     .line 39
-    iput v0, p1, Lcom/huawei/appmarket/qk8;->h:I
+    iput v0, p1, Lcom/huawei/appmarket/wk8;->h:I
 
     .line 40
     .line 41
@@ -3202,7 +3193,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final w(Ljava/util/List;)V
@@ -3211,7 +3201,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/qk8;",
+            "Lcom/huawei/appmarket/wk8;",
             ">;)V"
         }
     .end annotation
@@ -3242,19 +3232,19 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/qk8;
+    check-cast v2, Lcom/huawei/appmarket/wk8;
 
-    iget v4, v2, Lcom/huawei/appmarket/qk8;->b:I
+    iget v4, v2, Lcom/huawei/appmarket/wk8;->b:I
 
     const/4 v5, 0x2
 
     if-ne v5, v4, :cond_1
 
-    iput-object v2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/qk8;
+    iput-object v2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->h:Lcom/huawei/appmarket/wk8;
 
     iput-boolean v3, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->i:Z
 
-    iget-object v2, v2, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v2, v2, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -3295,7 +3285,7 @@
     :cond_2
     if-ne v3, v4, :cond_3
 
-    iget-object v2, v2, Lcom/huawei/appmarket/qk8;->f:Ljava/lang/String;
+    iget-object v2, v2, Lcom/huawei/appmarket/wk8;->f:Ljava/lang/String;
 
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

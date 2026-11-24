@@ -55,7 +55,7 @@
     invoke-virtual {v3, v1, v2}, Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;->d0(IZ)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     move-result-object v1
 
@@ -63,7 +63,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/ub3;->p(Ljava/lang/String;Z)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/xb3;->p(Ljava/lang/String;Z)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->T1()V
 

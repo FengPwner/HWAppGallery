@@ -29,7 +29,7 @@
 
 
 # virtual methods
-.method o()Ljava/lang/String;
+.method n()Ljava/lang/String;
     .registers 2
 
     .line 1

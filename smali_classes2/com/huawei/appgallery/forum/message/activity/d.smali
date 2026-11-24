@@ -49,11 +49,11 @@
 
     check-cast p1, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;
 
-    invoke-interface {p2}, Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingActivityResult;->getMsgSetting()Lcom/huawei/appmarket/nd0;
+    invoke-interface {p2}, Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingActivityResult;->getMsgSetting()Lcom/huawei/appmarket/od0;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;->R6(Lcom/huawei/appmarket/nd0;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;->R6(Lcom/huawei/appmarket/od0;)V
 
     :cond_0
     return-void

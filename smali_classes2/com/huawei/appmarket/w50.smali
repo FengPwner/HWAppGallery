@@ -46,7 +46,7 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/huawei/appmarket/zk;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/yk;->a()I
 
     move-result v2
 
@@ -96,11 +96,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/l78;
+    new-instance v1, Lcom/huawei/appmarket/q78;
 
     iget-object v2, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->packageName:Ljava/lang/String;
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/l78;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/q78;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     invoke-static {v0, v1}, Landroid/os/Message;->obtain(Landroid/os/Handler;Ljava/lang/Runnable;)Landroid/os/Message;
 
@@ -122,7 +122,7 @@
 
     const/16 v2, 0x2000
 
-    invoke-static {p0, v2, p1}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, v2, p1}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
 
@@ -135,13 +135,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     const-string p1, "BaseUninstallProcessSdk26"
 
     const-string v2, "can not find package to uninstall!"
 
-    invoke-virtual {p0, p1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 

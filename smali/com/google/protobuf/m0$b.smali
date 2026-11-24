@@ -94,7 +94,7 @@
 
     .line 12
     .line 13
-    instance-of v1, v0, Lcom/huawei/appmarket/nt4;
+    instance-of v1, v0, Lcom/huawei/appmarket/qt4;
 
     .line 14
     .line 15
@@ -231,7 +231,7 @@
 
     .line 78
     :cond_3
-    instance-of v1, v0, Lcom/huawei/appmarket/h88;
+    instance-of v1, v0, Lcom/huawei/appmarket/m88;
 
     .line 79
     .line 80
@@ -259,7 +259,7 @@
     .line 90
     .line 91
     .line 92
-    check-cast v0, Lcom/huawei/appmarket/h88;
+    check-cast v0, Lcom/huawei/appmarket/m88;
 
     .line 93
     .line 94
@@ -490,6 +490,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -504,13 +511,13 @@
 
     check-cast v0, Ljava/util/List;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/nt4;
+    instance-of v1, v0, Lcom/huawei/appmarket/qt4;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/nt4;
+    check-cast v0, Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/nt4;->E()Lcom/huawei/appmarket/nt4;
+    invoke-interface {v0}, Lcom/huawei/appmarket/qt4;->E()Lcom/huawei/appmarket/qt4;
 
     move-result-object v0
 
@@ -887,6 +894,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method final e(JLjava/lang/Object;)Ljava/util/List;

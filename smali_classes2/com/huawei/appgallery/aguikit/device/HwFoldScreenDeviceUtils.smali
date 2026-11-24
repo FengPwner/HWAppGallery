@@ -72,11 +72,11 @@
     const-string v1, "HwFoldScreenDeviceUtils"
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v2
 
@@ -148,7 +148,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 
@@ -217,7 +217,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_7
     const/4 v0, 0x0
@@ -237,7 +237,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method
@@ -291,11 +291,11 @@
     const-string v1, "HwFoldScreenDeviceUtils"
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v2
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 
@@ -404,7 +404,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 
@@ -436,7 +436,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_7
     const/4 v0, 0x0
@@ -456,7 +456,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method
@@ -464,11 +464,11 @@
 .method private registerFoldDisplayMode(Lcom/huawei/appgallery/aguikit/device/HwFoldDisplayModeListener;)V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -554,7 +554,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -604,7 +604,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_6
@@ -678,7 +678,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -728,7 +728,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_6
@@ -738,11 +738,11 @@
 .method private unregisterFoldDisplayMode()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -824,7 +824,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -874,7 +874,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_6
@@ -944,7 +944,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -994,7 +994,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_6
@@ -1109,7 +1109,7 @@
 
     const-string v1, "startMonitorDisplayMode: this HwFoldDisplayModeListener."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1152,7 +1152,7 @@
     :goto_0
     sget-object p1, Lcom/huawei/appmarket/h0;->a:Lcom/huawei/appmarket/h0;
 
-    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

@@ -62,11 +62,11 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v1
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v2
 

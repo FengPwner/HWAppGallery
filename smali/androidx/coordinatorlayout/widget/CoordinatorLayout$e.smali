@@ -113,7 +113,7 @@
 
     iput-object v2, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;->q:Landroid/graphics/Rect;
 
-    sget-object v2, Lcom/huawei/appmarket/hg6;->b:[I
+    sget-object v2, Lcom/huawei/appmarket/jg6;->b:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -333,7 +333,7 @@
     const-string v0, "Could not inflate Behavior subclass "
 
     .line 3
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

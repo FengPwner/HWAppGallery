@@ -392,11 +392,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ub1;
+    new-instance v0, Lcom/huawei/appmarket/wb1;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     invoke-static {p0, p1, v0, p2}, Lcom/alibaba/fastjson2/reader/ObjectReaders;->fieldReaderList(Ljava/lang/String;Ljava/lang/reflect/Type;Lcom/alibaba/fastjson2/function/Supplier;Lcom/alibaba/fastjson2/function/BiConsumer;)Lcom/alibaba/fastjson2/reader/FieldReader;
 
@@ -510,11 +510,11 @@
 
     new-instance v6, Lcom/alibaba/fastjson2/reader/FieldReaderListFuncImpl;
 
-    new-instance v1, Lcom/huawei/appmarket/ub1;
+    new-instance v1, Lcom/huawei/appmarket/wb1;
 
     const/4 v0, 0x3
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     const/4 v2, 0x0
 

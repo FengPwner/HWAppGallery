@@ -46,7 +46,7 @@
 
     const v1, 0x7f1203f1
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 

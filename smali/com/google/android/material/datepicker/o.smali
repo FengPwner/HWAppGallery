@@ -182,7 +182,7 @@
     move-result-object p3
 
     .line 72
-    check-cast p3, Lcom/huawei/appmarket/gp5;
+    check-cast p3, Lcom/huawei/appmarket/hp5;
 
     .line 73
     .line 74
@@ -202,7 +202,7 @@
     move-result-object p4
 
     .line 82
-    invoke-virtual {p3, p4}, Lcom/huawei/appmarket/gp5;->b(Ljava/lang/Object;)V
+    invoke-virtual {p3, p4}, Lcom/huawei/appmarket/hp5;->b(Ljava/lang/Object;)V
 
     .line 83
     .line 84

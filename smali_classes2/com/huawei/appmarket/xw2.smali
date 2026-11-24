@@ -1,10 +1,16 @@
 .class public final Lcom/huawei/appmarket/xw2;
-.super Lcom/huawei/appmarket/gy4;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field public static final a:Lcom/huawei/appmarket/xw2;
+.field private static final b:[B
+
+.field private static c:Lcom/huawei/appmarket/xw2;
+
+
+# instance fields
+.field private a:Lcom/huawei/appmarket/cr3;
 
 
 # direct methods
@@ -12,24 +18,81 @@
     .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/xw2;
+    const/4 v0, 0x0
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/xw2;-><init>()V
+    new-array v0, v0, [B
 
-    sput-object v0, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sput-object v0, Lcom/huawei/appmarket/xw2;->b:[B
 
     return-void
 .end method
 
 .method private constructor <init>()V
-    .registers 3
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static b()Lcom/huawei/appmarket/xw2;
+    .registers 2
 
     .line 1
-    const-string v0, "GRPL"
+    sget-object v0, Lcom/huawei/appmarket/xw2;->b:[B
 
-    const/4 v1, 0x1
+    monitor-enter v0
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/xw2;->c:Lcom/huawei/appmarket/xw2;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/xw2;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/xw2;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/xw2;->c:Lcom/huawei/appmarket/xw2;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object v1, Lcom/huawei/appmarket/xw2;->c:Lcom/huawei/appmarket/xw2;
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/huawei/appmarket/cr3;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/cr3;
+
+    return-object v0
+.end method
+
+.method public final c(Lcom/huawei/appmarket/ww2;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/cr3;
 
     return-void
 .end method

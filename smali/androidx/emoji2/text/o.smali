@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/e85;
+.field private final a:Lcom/huawei/appmarket/h85;
 
 .field private final b:[C
 
@@ -22,7 +22,7 @@
 
 
 # direct methods
-.method private constructor <init>(Landroid/graphics/Typeface;Lcom/huawei/appmarket/e85;)V
+.method private constructor <init>(Landroid/graphics/Typeface;Lcom/huawei/appmarket/h85;)V
     .registers 8
 
     .line 1
@@ -35,7 +35,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/e85;
+    iput-object p2, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/h85;
 
     .line 7
     .line 8
@@ -56,7 +56,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Lcom/huawei/appmarket/e85;->e()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h85;->e()I
 
     .line 18
     .line 19
@@ -76,7 +76,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p2}, Lcom/huawei/appmarket/e85;->e()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h85;->e()I
 
     .line 28
     .line 29
@@ -155,7 +155,7 @@
 
     .line 62
     .line 63
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/h56;->a(ZLjava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/j56;->a(ZLjava/lang/String;)V
 
     .line 64
     .line 65
@@ -274,26 +274,26 @@
     :try_start_0
     const-string v0, "EmojiCompat.MetadataRepo.create"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
 
     new-instance v0, Landroidx/emoji2/text/o;
 
-    invoke-static {p1}, Landroidx/emoji2/text/n;->a(Ljava/nio/MappedByteBuffer;)Lcom/huawei/appmarket/e85;
+    invoke-static {p1}, Landroidx/emoji2/text/n;->a(Ljava/nio/MappedByteBuffer;)Lcom/huawei/appmarket/h85;
 
     move-result-object p1
 
-    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/o;-><init>(Landroid/graphics/Typeface;Lcom/huawei/appmarket/e85;)V
+    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/o;-><init>(Landroid/graphics/Typeface;Lcom/huawei/appmarket/h85;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     return-object v0
 
     :catchall_0
     move-exception p0
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     throw p0
 .end method
@@ -309,11 +309,11 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/e85;
+.method public final c()Lcom/huawei/appmarket/h85;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/e85;
+    iget-object v0, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/h85;
 
     return-object v0
 .end method
@@ -322,9 +322,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/e85;
+    iget-object v0, p0, Landroidx/emoji2/text/o;->a:Lcom/huawei/appmarket/h85;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/e85;->f()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/h85;->f()I
 
     move-result v0
 

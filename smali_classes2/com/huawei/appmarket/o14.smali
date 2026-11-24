@@ -4,8 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/p14;)V
+.method public abstract a(Lcom/huawei/appmarket/g52;)Z
 .end method
 
-.method public abstract b(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appmarket/p14;)V
+.method public abstract b(Lcom/huawei/appmarket/i77;)V
+.end method
+
+.method public abstract execute()V
 .end method

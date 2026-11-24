@@ -27,7 +27,7 @@
 
     const-string v0, "IAppDataManager"
 
-    const-class v1, Lcom/huawei/appmarket/lh3;
+    const-class v1, Lcom/huawei/appmarket/nh3;
 
     const/4 v2, 0x0
 
@@ -35,7 +35,7 @@
 
     const-string v0, "IAppStatusManager"
 
-    const-class v1, Lcom/huawei/appmarket/yh3;
+    const-class v1, Lcom/huawei/appmarket/ai3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

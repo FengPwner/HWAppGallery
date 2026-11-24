@@ -19,13 +19,13 @@
 
     invoke-super {p0, p1}, Lcom/huawei/hms/push/HmsMessageService;->onMessageReceived(Lcom/huawei/hms/push/RemoteMessage;)V
 
-    sget-object v0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    sget-object v0, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
     const-string v1, "AppGalleryHmsService"
 
     const-string v2, "onMessageReceived"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/hms/push/RemoteMessage;->getData()Ljava/lang/String;
 
@@ -75,15 +75,15 @@
 
     invoke-super {p0, p1}, Lcom/huawei/hms/push/HmsMessageService;->onNewToken(Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    sget-object v0, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
     const-string v1, "AppGalleryHmsService"
 
     const-string v2, "onNewToken"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/yb6;->l(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ac6;->l(Ljava/lang/String;)V
 
     return-void
 .end method

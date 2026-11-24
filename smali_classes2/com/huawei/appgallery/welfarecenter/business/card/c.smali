@@ -3,23 +3,23 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/fh3;
+.field final synthetic b:Lcom/huawei/appmarket/hh3;
 
 .field final synthetic c:Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;Lcom/huawei/appmarket/fh3;)V
+.method constructor <init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;Lcom/huawei/appmarket/hh3;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/c;->c:Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/welfarecenter/business/card/c;->b:Lcom/huawei/appmarket/fh3;
+    iput-object p2, p0, Lcom/huawei/appgallery/welfarecenter/business/card/c;->b:Lcom/huawei/appmarket/hh3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -67,7 +67,7 @@
 
     .line 17
     .line 18
-    invoke-static {p3, p2, v0}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p3, p2, v0}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -141,7 +141,7 @@
     move-exception p2
 
     .line 54
-    sget-object v0, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object v0, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 55
     .line 56
@@ -183,7 +183,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -194,7 +194,7 @@
     .line 80
     .line 81
     .line 82
-    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/c;->b:Lcom/huawei/appmarket/fh3;
+    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/c;->b:Lcom/huawei/appmarket/hh3;
 
     .line 83
     .line 84
@@ -202,7 +202,7 @@
 
     .line 85
     .line 86
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     .line 87
     .line 88

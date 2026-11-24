@@ -97,7 +97,7 @@
     const/4 v1, 0x0
 
     .line 5
-    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 6
     .line 7
@@ -247,7 +247,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final k(Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard$c$a;I)V
@@ -286,11 +285,11 @@
 
     check-cast p1, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignSideslipCard$b$a;
 
-    invoke-static {p1}, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignSideslipCard$b$a;->y(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignSideslipCard$b$a;)Lcom/huawei/appmarket/di0;
+    invoke-static {p1}, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignSideslipCard$b$a;->y(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignSideslipCard$b$a;)Lcom/huawei/appmarket/ei0;
 
     move-result-object v1
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/di0;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/ei0;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard$c$a;->u:Landroid/view/View;
 

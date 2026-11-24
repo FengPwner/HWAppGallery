@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(IIILjava/util/ArrayList;)V
+.method public abstract S0()V
 .end method

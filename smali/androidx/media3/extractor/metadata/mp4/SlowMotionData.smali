@@ -186,7 +186,7 @@
 
     .line 56
     .line 57
-    invoke-static {p1}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 58
     .line 59

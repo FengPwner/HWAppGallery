@@ -37,16 +37,16 @@
 .method public abstract cancel()V
 .end method
 
-.method public abstract d(Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/i81$a;)V
+.method public abstract d(Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/i81$a;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/s66;",
+            "Lcom/huawei/appmarket/u66;",
             "Lcom/huawei/appmarket/i81$a<",
             "-TT;>;)V"
         }
     .end annotation
 .end method
 
-.method public abstract e()Lcom/huawei/appmarket/d91;
+.method public abstract e()Lcom/huawei/appmarket/e91;
 .end method

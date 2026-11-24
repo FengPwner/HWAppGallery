@@ -16,7 +16,7 @@
 
 # instance fields
 .field private apiVersion:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -29,7 +29,7 @@
 .end field
 
 .field private country:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -42,7 +42,7 @@
 .end field
 
 .field private deviceFeature:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -55,7 +55,7 @@
 .end field
 
 .field private deviceTypes:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -68,7 +68,7 @@
 .end field
 
 .field private releaseType:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -81,7 +81,7 @@
 .end field
 
 .field private screenDensity:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -94,7 +94,7 @@
 .end field
 
 .field private screenShape:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -107,7 +107,7 @@
 .end field
 
 .field private screenWindow:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

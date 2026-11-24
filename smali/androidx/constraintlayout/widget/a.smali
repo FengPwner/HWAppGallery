@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/wf6;->h:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->h:[I
 
     invoke-virtual {p0, p1, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -470,7 +470,7 @@
 
     .line 42
     .line 43
-    invoke-static {v7, v5}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7, v5}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -937,7 +937,7 @@
     .line 266
     .line 267
     :goto_2
-    invoke-static {v1, v5, v0}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v5, v0}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 268
     .line 269
@@ -1473,7 +1473,7 @@
 
     .line 18
     .line 19
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1890,7 +1890,7 @@
 
     .line 218
     :goto_1
-    invoke-static {v1, v5, v0}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v5, v0}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 219
     .line 220

@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lcom/huawei/appmarket/w51$b<",
-        "Lcom/huawei/appmarket/si8;",
+        "Lcom/huawei/appmarket/yi8;",
         ">;"
     }
 .end annotation

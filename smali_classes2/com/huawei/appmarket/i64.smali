@@ -4,29 +4,45 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/os/Handler;)V
+.method public abstract a()V
 .end method
 
-.method public abstract b(Landroid/content/Context;)V
+.method public abstract b(Lcom/huawei/appmarket/zo8;Ljava/lang/Class;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/zo8;",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/huawei/appmarket/st3;",
+            ">;)V"
+        }
+    .end annotation
 .end method
 
-.method public abstract c(Landroid/content/Context;Landroid/widget/LinearLayout;)Landroid/widget/LinearLayout;
+.method public abstract c(Ljava/lang/String;)V
 .end method
 
-.method public abstract d(Landroid/content/Context;)V
+.method public abstract clearCache()V
 .end method
 
-.method public abstract e(Landroid/content/Context;Landroid/widget/LinearLayout;)V
+.method public abstract d(Ljava/lang/String;)Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 .end method
 
-.method public abstract f(Ljava/lang/String;)V
+.method public abstract e()V
 .end method
 
-.method public abstract g(Ljava/lang/String;)V
+.method public abstract f(Lcom/huawei/appmarket/k64;)V
 .end method
 
-.method public abstract h(Landroid/content/Context;Ljava/lang/String;)Z
+.method public abstract g()V
 .end method
 
-.method public abstract i(Ljava/lang/String;)V
+.method public abstract h(Ljava/lang/Class;Ljava/lang/String;)V
+.end method
+
+.method public abstract i()V
+.end method
+
+.method public abstract j()V
 .end method

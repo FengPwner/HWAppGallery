@@ -30,7 +30,7 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -59,7 +59,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v0, 0x7f0a100b
 

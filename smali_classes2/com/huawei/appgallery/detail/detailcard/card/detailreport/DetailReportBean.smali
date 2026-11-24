@@ -9,7 +9,7 @@
 
 # instance fields
 .field private title:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -33,11 +33,11 @@
 
     .line 2
     .line 3
-    const-class v1, Lcom/huawei/appmarket/yg3;
+    const-class v1, Lcom/huawei/appmarket/ah3;
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -45,11 +45,11 @@
     move-result-object v0
 
     .line 9
-    check-cast v0, Lcom/huawei/appmarket/yg3;
+    check-cast v0, Lcom/huawei/appmarket/ah3;
 
     .line 10
     .line 11
-    invoke-interface {v0}, Lcom/huawei/appmarket/yg3;->c()Lcom/huawei/appmarket/ke7;
+    invoke-interface {v0}, Lcom/huawei/appmarket/ah3;->c()Lcom/huawei/appmarket/pe7;
 
     .line 12
     .line 13
@@ -57,7 +57,7 @@
     move-result-object v0
 
     .line 15
-    sget-object v1, Lcom/huawei/appmarket/ke7;->b:Lcom/huawei/appmarket/ke7;
+    sget-object v1, Lcom/huawei/appmarket/pe7;->b:Lcom/huawei/appmarket/pe7;
 
     .line 16
     .line 17
@@ -173,7 +173,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final getTitle()Ljava/lang/String;

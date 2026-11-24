@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract onResult(Z)V
+.method public abstract Z1(ILjava/lang/String;)Landroid/view/View;
 .end method

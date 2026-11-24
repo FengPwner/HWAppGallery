@@ -122,7 +122,7 @@
 
     const-string v1, "CSSColorFactory"
 
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/fy4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/iy4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     const/4 p1, 0x0
 

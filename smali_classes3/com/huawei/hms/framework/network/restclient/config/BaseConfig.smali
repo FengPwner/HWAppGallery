@@ -340,7 +340,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -422,7 +422,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setValue(Ljava/lang/String;D)V
@@ -443,7 +442,7 @@
     const-string p3, "BaseConfig"
 
     .line 1
-    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -467,7 +466,7 @@
     const-string v0, "BaseConfig"
 
     .line 7
-    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -491,7 +490,7 @@
     const-string p3, "BaseConfig"
 
     .line 13
-    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -515,7 +514,7 @@
     const-string v0, "BaseConfig"
 
     .line 19
-    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -539,7 +538,7 @@
     const-string v0, "BaseConfig"
 
     .line 25
-    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

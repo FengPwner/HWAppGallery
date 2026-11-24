@@ -9,11 +9,11 @@
 
 # instance fields
 .field private aglocation:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -22,7 +22,7 @@
 .field private clientVersionName_:Ljava/lang/String;
 
 .field private content_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -30,11 +30,11 @@
 .field private deliverRegion_:Ljava/lang/String;
 
 .field private detailId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
 .field private reviewId_:Ljava/lang/String;
 
 .field private serviceToken_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -68,7 +68,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -309,7 +309,7 @@
 
     .line 51
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -333,7 +333,7 @@
 
     .line 63
     .line 64
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 65
     .line 66

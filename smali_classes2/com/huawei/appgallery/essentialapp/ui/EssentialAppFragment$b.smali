@@ -57,7 +57,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->u3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/lw7;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->u3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/rw7;
 
     .line 4
     .line 5
@@ -87,7 +87,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->u3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/lw7;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->u3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/rw7;
 
     .line 20
     .line 21
@@ -95,7 +95,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
 
     .line 24
     .line 25
@@ -108,7 +108,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/if1;
 
     .line 31
     .line 32
@@ -120,21 +120,21 @@
 
     .line 35
     .line 36
-    new-instance v1, Lcom/huawei/appmarket/gf1;
+    new-instance v1, Lcom/huawei/appmarket/if1;
 
     .line 37
     .line 38
-    invoke-direct {v1}, Lcom/huawei/appmarket/gf1;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/if1;-><init>()V
 
     .line 39
     .line 40
     .line 41
-    invoke-static {v0, v1}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->x3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;Lcom/huawei/appmarket/gf1;)V
+    invoke-static {v0, v1}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->x3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;Lcom/huawei/appmarket/if1;)V
 
     .line 42
     .line 43
     .line 44
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/if1;
 
     .line 45
     .line 46
@@ -163,12 +163,12 @@
     move-result-object v2
 
     .line 59
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gf1;->h(Landroid/view/View;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/if1;->h(Landroid/view/View;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/if1;
 
     .line 63
     .line 64
@@ -185,13 +185,13 @@
     .line 69
     .line 70
     .line 71
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gf1;->e(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/if1;->e(Landroid/view/View$OnClickListener;)V
 
     .line 72
     .line 73
     .line 74
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v0}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->w3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/if1;
 
     .line 75
     .line 76
@@ -202,7 +202,7 @@
     const/4 v0, 0x0
 
     .line 79
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 80
     .line 81
@@ -233,5 +233,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

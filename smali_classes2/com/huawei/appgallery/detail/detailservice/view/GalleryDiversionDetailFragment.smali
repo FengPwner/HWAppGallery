@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "AppDiversionDetailFragment"
     protocol = Lcom/huawei/appgallery/detail/detailbase/api/IDetailFragmentProtocol;
 .end annotation
@@ -330,7 +330,7 @@
     return v0
 .end method
 
-.method protected final f4(Lcom/huawei/appmarket/jq;I)Landroidx/fragment/app/Fragment;
+.method protected final f4(Lcom/huawei/appmarket/iq;I)Landroidx/fragment/app/Fragment;
     .registers 6
 
     .line 1
@@ -374,7 +374,7 @@
 
     invoke-virtual {v0, v2}, Lcom/huawei/appmarket/xu0;->H(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->i()Ljava/lang/String;
 
     move-result-object v2
 
@@ -382,7 +382,7 @@
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/xu0;->z()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->c()I
 
     move-result v2
 
@@ -412,7 +412,7 @@
 
     invoke-virtual {v0, v2}, Lcom/huawei/appmarket/xu0;->G(Ljava/lang/String;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jj1;->a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/mj1;->a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;)I
 
     move-result v2
 
@@ -424,17 +424,17 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xu0;->x(Ljava/lang/String;)V
 
-    const-class v1, Lcom/huawei/appmarket/vm3;
+    const-class v1, Lcom/huawei/appmarket/xm3;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/vm3;
+    check-cast v1, Lcom/huawei/appmarket/xm3;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/vm3;->t1(Lcom/huawei/appmarket/xu0;)Landroidx/fragment/app/Fragment;
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/xm3;->u1(Lcom/huawei/appmarket/xu0;)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -446,7 +446,7 @@
 
     iput p2, p0, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDiversionDetailFragment;->c2:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->c()I
 
     move-result p1
 
@@ -578,7 +578,7 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tu2;
+    new-instance v0, Lcom/huawei/appmarket/wu2;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -590,9 +590,9 @@
 
     move-result-object v3
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/tu2;-><init>(Landroid/content/Context;ZLcom/huawei/appmarket/o;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/wu2;-><init>(Landroid/content/Context;ZLcom/huawei/appmarket/o;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;->T1:Lcom/huawei/appmarket/tu2;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;->T1:Lcom/huawei/appmarket/wu2;
 
     return-void
 .end method
@@ -940,7 +940,7 @@
 
     .line 137
     .line 138
-    invoke-virtual {p2}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailActionBarV2;->getReceiver()Lcom/huawei/appmarket/kj8;
+    invoke-virtual {p2}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailActionBarV2;->getReceiver()Lcom/huawei/appmarket/qj8;
 
     .line 139
     .line 140
@@ -1533,13 +1533,13 @@
     return-void
 .end method
 
-.method protected final s4(Lcom/huawei/appmarket/oo2;)V
+.method protected final s4(Lcom/huawei/appmarket/qo2;)V
     .registers 3
 
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/oo2;->f(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qo2;->f(Z)V
 
     return-void
 .end method

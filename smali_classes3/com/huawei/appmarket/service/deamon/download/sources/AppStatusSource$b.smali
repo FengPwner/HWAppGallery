@@ -59,7 +59,7 @@
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource$b;->k:Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/g32;->fire(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/k32;->fire(Ljava/lang/Object;)V
 
     :cond_1
     return-void

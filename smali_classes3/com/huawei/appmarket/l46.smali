@@ -3,23 +3,27 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appgallery/aguikit/device/LockScreenVerifyUtils$LockScreenVerifyCallback;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nx3;
+.field final synthetic b:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-.field final synthetic b:Landroid/content/Context;
+.field final synthetic c:Landroid/content/Context;
+
+.field final synthetic d:Lcom/huawei/appmarket/px3;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nx3;Landroid/content/Context;)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Landroid/content/Context;Lcom/huawei/appmarket/px3;)V
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/l46;->a:Lcom/huawei/appmarket/nx3;
+    iput-object p1, p0, Lcom/huawei/appmarket/l46;->b:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/l46;->b:Landroid/content/Context;
+    iput-object p2, p0, Lcom/huawei/appmarket/l46;->c:Landroid/content/Context;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/l46;->d:Lcom/huawei/appmarket/px3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,178 +32,62 @@
 
 
 # virtual methods
-.method public final onCallback(I)V
-    .registers 5
+.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
+    .registers 4
 
     .line 1
-    const/4 v0, 0x1
+    const/4 p1, -0x1
 
-    .line 2
-    iget-object v1, p0, Lcom/huawei/appmarket/l46;->a:Lcom/huawei/appmarket/nx3;
+    iget-object p2, p0, Lcom/huawei/appmarket/l46;->b:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    .line 3
-    .line 4
-    if-eq p1, v0, :cond_1
+    if-ne p3, p1, :cond_0
 
-    .line 5
-    .line 6
-    const/4 v0, 0x2
+    const-string p1, "2"
 
-    .line 7
-    const-string v2, "PreDownloadCheckUtil"
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/n90;->b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;)V
 
-    .line 8
-    .line 9
-    if-eq p1, v0, :cond_0
+    new-instance p1, Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
-    .line 10
-    .line 11
-    const-string p1, "lockScreen verify not support"
+    invoke-direct {p1}, Lcom/huawei/appgallery/accountkit/api/LoginParam;-><init>()V
 
-    .line 12
-    .line 13
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    const/4 p2, 0x1
 
-    .line 14
-    .line 15
-    .line 16
-    new-instance p1, Lcom/huawei/appmarket/m46;
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/accountkit/api/LoginParam;->setCanShowUpgrade(Z)V
 
-    .line 17
-    .line 18
-    invoke-direct {p1, v1}, Lcom/huawei/appmarket/m46;-><init>(Lcom/huawei/appmarket/nx3;)V
+    const-string p2, "Account"
 
-    .line 19
-    .line 20
-    .line 21
-    new-instance v0, Lcom/huawei/appmarket/u6;
+    const-class p3, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    .line 22
-    .line 23
-    iget-object v1, p0, Lcom/huawei/appmarket/l46;->b:Landroid/content/Context;
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 24
-    .line 25
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/u6;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/s6;)V
+    move-result-object p2
 
-    .line 26
-    .line 27
-    .line 28
-    const-string p1, "Account"
+    check-cast p2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    .line 29
-    .line 30
-    const-class v2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
+    iget-object p3, p0, Lcom/huawei/appmarket/l46;->c:Landroid/content/Context;
 
-    .line 31
-    .line 32
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-interface {p2, p3, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
-    .line 33
-    .line 34
-    .line 35
     move-result-object p1
 
-    .line 36
-    check-cast p1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
+    new-instance p2, Lcom/huawei/appmarket/l46$a;
 
-    .line 37
-    .line 38
-    invoke-interface {p1, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p2, p0}, Lcom/huawei/appmarket/l46$a;-><init>(Lcom/huawei/appmarket/l46;)V
 
-    .line 39
-    .line 40
-    .line 41
-    move-result-object p1
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    .line 42
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
-
-    .line 43
-    .line 44
-    .line 45
     goto :goto_0
 
-    .line 46
     :cond_0
-    const-string p1, "lockScreen verify fail, cancel or click back key"
+    const/4 p1, -0x2
 
-    .line 47
-    .line 48
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    if-ne p3, p1, :cond_1
 
-    .line 49
-    .line 50
-    .line 51
-    goto :goto_0
+    const-string p1, "1"
 
-    .line 52
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/n90;->b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;)V
+
     :cond_1
-    invoke-interface {v1}, Lcom/huawei/appmarket/nx3;->onContinue()V
-
-    .line 53
-    .line 54
-    .line 55
     :goto_0
     return-void
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
 .end method

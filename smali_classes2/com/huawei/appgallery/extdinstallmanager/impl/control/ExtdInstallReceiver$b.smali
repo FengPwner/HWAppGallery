@@ -41,13 +41,13 @@
 
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/p62;
+    instance-of v0, p1, Lcom/huawei/appmarket/t62;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/p62;
+    check-cast p1, Lcom/huawei/appmarket/t62;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->a(Lcom/huawei/appmarket/p62;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->a(Lcom/huawei/appmarket/t62;)V
 
     new-instance v0, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver$c;
 
@@ -55,7 +55,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver$c;-><init>(Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver$a;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/f62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-static {}, Lcom/huawei/appmarket/j62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v1
 
@@ -63,7 +63,7 @@
 
     new-array v2, v2, [Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
 
     move-result-object v3
 
@@ -73,11 +73,11 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    invoke-static {}, Lcom/huawei/appmarket/gn;->b()Lcom/huawei/appmarket/gn;
+    invoke-static {}, Lcom/huawei/appmarket/fn;->b()Lcom/huawei/appmarket/fn;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t62;->h()I
 
     move-result p1
 
@@ -85,7 +85,7 @@
 
     const/4 v0, 0x2
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gn;->c(II)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/fn;->c(II)V
 
     :cond_0
     return-void

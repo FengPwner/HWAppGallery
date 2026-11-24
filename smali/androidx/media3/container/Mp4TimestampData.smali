@@ -192,7 +192,7 @@
 
     iget-wide v0, p0, Landroidx/media3/container/Mp4TimestampData;->b:J
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/m05;->a(J)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/p05;->a(J)I
 
     move-result v0
 
@@ -202,7 +202,7 @@
 
     iget-wide v1, p0, Landroidx/media3/container/Mp4TimestampData;->c:J
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/m05;->a(J)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/p05;->a(J)I
 
     move-result v1
 
@@ -212,7 +212,7 @@
 
     iget-wide v2, p0, Landroidx/media3/container/Mp4TimestampData;->d:J
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/m05;->a(J)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/p05;->a(J)I
 
     move-result v0
 

@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/n72;->values()[Lcom/huawei/appmarket/n72;
+    invoke-static {}, Lcom/huawei/appmarket/r72;->values()[Lcom/huawei/appmarket/r72;
 
     move-result-object v0
 
@@ -30,7 +30,7 @@
 
     new-array v0, v0, [I
 
-    sget-object v1, Lcom/huawei/appmarket/n72;->b:Lcom/huawei/appmarket/n72;
+    sget-object v1, Lcom/huawei/appmarket/r72;->b:Lcom/huawei/appmarket/r72;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -40,7 +40,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lcom/huawei/appmarket/n72;->c:Lcom/huawei/appmarket/n72;
+    sget-object v1, Lcom/huawei/appmarket/r72;->c:Lcom/huawei/appmarket/r72;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

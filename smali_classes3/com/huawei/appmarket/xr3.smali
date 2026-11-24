@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract a()V
+.method public abstract onFailed(I)V
 .end method
 
-.method public abstract b()V
+.method public abstract onSuccess()V
 .end method

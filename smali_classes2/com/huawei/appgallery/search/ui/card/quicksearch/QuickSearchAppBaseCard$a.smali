@@ -39,7 +39,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard$a;->b:Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->E1(Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->E1(Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v0
 
@@ -56,7 +56,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->E1(Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->E1(Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v0
 
@@ -64,18 +64,18 @@
 
     move-result v1
 
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "QuickSearchAppBaseCard"
 
     const-string v1, "cardEventListener is null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

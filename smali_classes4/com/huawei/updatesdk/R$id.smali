@@ -47,9 +47,9 @@
 
 .field public static final third_app_warn_text:I = 0x7f0a15b4
 
-.field public static final version_layout:I = 0x7f0a17c3
+.field public static final version_layout:I = 0x7f0a17c4
 
-.field public static final version_textview:I = 0x7f0a17ce
+.field public static final version_textview:I = 0x7f0a17cf
 
 
 # direct methods

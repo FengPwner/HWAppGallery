@@ -718,14 +718,20 @@
 
     long-to-int v0, v2
 
-    mul-int/lit8 v2, v0, 0x5
+    const/4 v2, 0x5
 
-    add-int/lit8 v2, v2, 0x2
+    const/4 v3, 0x2
 
-    div-int/lit16 v2, v2, 0x99
+    const/16 v4, 0x99
+
+    .line 5
+    invoke-static {v0, v2, v3, v4}, Lcom/huawei/appmarket/uq5;->b(IIII)I
+
+    move-result v2
 
     add-int/lit8 v3, v2, 0x2
 
+    .line 6
     rem-int/lit8 v3, v3, 0xc
 
     add-int/lit8 v3, v3, 0x1
@@ -836,12 +842,12 @@
 
     const-string v3, "Invalid secondOfDay "
 
-    .line 5
-    invoke-static {v3, v1, v2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 7
+    invoke-static {v3, v1, v2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
+    .line 8
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -859,12 +865,12 @@
 
     const-string v1, "Invalid year "
 
-    .line 7
-    invoke-static {v1, v7, v8}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 9
+    invoke-static {v1, v7, v8}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 8
+    .line 10
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -873,7 +879,7 @@
 .method public static format(Lcom/alibaba/fastjson2/time/LocalDate;Ljava/lang/String;)Ljava/lang/String;
     .registers 9
 
-    .line 13
+    .line 16
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
@@ -1139,7 +1145,7 @@
 .method public static format(Lcom/alibaba/fastjson2/time/LocalDateTime;Ljava/lang/String;)Ljava/lang/String;
     .registers 10
 
-    .line 14
+    .line 17
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
@@ -1411,7 +1417,7 @@
 .method public static format(Lcom/alibaba/fastjson2/time/ZonedDateTime;Ljava/lang/String;)Ljava/lang/String;
     .registers 10
 
-    .line 15
+    .line 18
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
@@ -1689,7 +1695,7 @@
 .method public static format(Ljava/util/Date;Ljava/lang/String;)Ljava/lang/String;
     .registers 4
 
-    .line 16
+    .line 19
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
@@ -2348,16 +2354,20 @@
 
     long-to-int v5, v4
 
-    mul-int/lit8 v4, v5, 0x5
+    const/4 v4, 0x5
 
     const/4 v6, 0x2
 
-    add-int/2addr v4, v6
+    const/16 v7, 0x99
 
-    div-int/lit16 v4, v4, 0x99
+    .line 1
+    invoke-static {v5, v4, v6, v7}, Lcom/huawei/appmarket/uq5;->b(IIII)I
+
+    move-result v4
 
     add-int/lit8 v7, v4, 0x2
 
+    .line 2
     rem-int/lit8 v7, v7, 0xc
 
     const/4 v8, 0x1
@@ -2508,12 +2518,12 @@
 
     const-string v3, "Invalid year "
 
-    .line 1
-    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 3
+    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
+    .line 4
     invoke-direct {v2, v0}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
     throw v2
@@ -2522,7 +2532,7 @@
 .method public static formatYMD10(Lcom/alibaba/fastjson2/time/LocalDate;)Ljava/lang/String;
     .registers 10
 
-    .line 7
+    .line 10
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
@@ -2800,7 +2810,7 @@
 
     .line 71
     .line 72
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 73
     .line 74
@@ -3165,6 +3175,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public static formatYMD8(III)Ljava/lang/String;
@@ -3445,14 +3462,20 @@
 
     long-to-int v5, v4
 
-    mul-int/lit8 v4, v5, 0x5
+    const/4 v4, 0x5
 
-    add-int/lit8 v4, v4, 0x2
+    const/4 v6, 0x2
 
-    div-int/lit16 v4, v4, 0x99
+    const/16 v7, 0x99
+
+    .line 2
+    invoke-static {v5, v4, v6, v7}, Lcom/huawei/appmarket/uq5;->b(IIII)I
+
+    move-result v4
 
     add-int/lit8 v6, v4, 0x2
 
+    .line 3
     rem-int/lit8 v6, v6, 0xc
 
     add-int/lit8 v6, v6, 0x1
@@ -3507,12 +3530,12 @@
 
     const-string v3, "Invalid year "
 
-    .line 2
-    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 4
+    invoke-static {v3, v0, v1}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
+    .line 5
     invoke-direct {v2, v0}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
     throw v2
@@ -3923,18 +3946,22 @@
 
     long-to-int v0, v2
 
-    mul-int/lit8 v2, v0, 0x5
+    const/4 v2, 0x5
 
     const/4 v3, 0x2
 
-    add-int/2addr v2, v3
+    const/16 v6, 0x99
 
-    div-int/lit16 v2, v2, 0x99
+    .line 4
+    invoke-static {v0, v2, v3, v6}, Lcom/huawei/appmarket/uq5;->b(IIII)I
+
+    move-result v2
 
     add-int/lit8 v6, v2, 0x2
 
     const/16 v7, 0xc
 
+    .line 5
     rem-int/2addr v6, v7
 
     const/4 v8, 0x1
@@ -4196,12 +4223,12 @@
 
     const-string v1, "Invalid secondOfDay "
 
-    .line 4
-    invoke-static {v1, v4, v5}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 6
+    invoke-static {v1, v4, v5}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
+    .line 7
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/JSONException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -4211,12 +4238,12 @@
 
     const-string v1, "Invalid year "
 
-    .line 6
-    invoke-static {v1, v4, v5}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    .line 8
+    invoke-static {v1, v4, v5}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
+    .line 9
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/JSONException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -5002,7 +5029,7 @@
     .line 77
     .line 78
     :cond_5
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/vw7;->c(Ljava/lang/String;I)C
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ci7;->c(Ljava/lang/String;I)C
 
     .line 79
     .line 80
@@ -5341,13 +5368,13 @@
 
     const/16 v14, 0x64
 
-    invoke-static {v1, v15, v14, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v15, v14, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v1, 0xa
 
-    invoke-static {v2, v15, v1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v15, v1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -5590,13 +5617,13 @@
 
     const/16 v14, 0x64
 
-    invoke-static {v1, v15, v14, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v15, v14, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v1, 0xa
 
-    invoke-static {v2, v15, v1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v15, v1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -5754,43 +5781,43 @@
 
     const v8, 0x989680
 
-    invoke-static {v9, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v9, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const v8, 0xf4240
 
-    invoke-static {v11, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v11, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const v8, 0x186a0
 
-    invoke-static {v12, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v12, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v8, 0x2710
 
-    invoke-static {v13, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v13, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v8, 0x3e8
 
-    invoke-static {v15, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v15, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v8, 0x64
 
-    invoke-static {v1, v10, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v10, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v14, v10, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v14, v10, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -7394,11 +7421,11 @@
 
     const/16 v9, 0x64
 
-    invoke-static {v2, v12, v9, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v12, v9, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
-    invoke-static {v10, v12, v13, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v10, v12, v13, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -7733,13 +7760,13 @@
 
     const/16 v6, 0x64
 
-    invoke-static {v2, v4, v6, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v4, v6, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v0, v4, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v0, v4, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -7979,11 +8006,11 @@
 
     const/16 p1, 0x64
 
-    invoke-static {v1, v12, p1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v12, p1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
-    invoke-static {v3, v12, v11, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v12, v11, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
@@ -8207,11 +8234,11 @@
 
     const/16 p1, 0x64
 
-    invoke-static {v1, v12, p1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v12, p1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
-    invoke-static {v3, v12, v11, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v12, v11, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
@@ -8441,11 +8468,11 @@
 
     const/16 v10, 0x64
 
-    invoke-static {v1, v9, v10, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v9, v10, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
-    invoke-static {v3, v9, v8, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v9, v8, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -8659,11 +8686,11 @@
 
     const/16 v10, 0x64
 
-    invoke-static {v1, v9, v10, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v9, v10, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
-    invoke-static {v3, v9, v8, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v9, v8, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -9025,11 +9052,11 @@
 
     const/16 v9, 0x64
 
-    invoke-static {v1, v10, v9, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v10, v9, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
-    invoke-static {v5, v10, p1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v10, p1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -9413,11 +9440,11 @@
 
     const/16 v9, 0x64
 
-    invoke-static {v1, v10, v9, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v10, v9, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
-    invoke-static {v5, v10, p1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v10, p1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -10182,13 +10209,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v6, v5, v0, v3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v6, v5, v0, v3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v3, 0xa
 
-    invoke-static {v7, v5, v3, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v5, v3, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -10515,13 +10542,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v6, v5, v0, v3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v6, v5, v0, v3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v3, 0xa
 
-    invoke-static {v7, v5, v3, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v5, v3, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -10883,13 +10910,13 @@
 
     const/16 v3, 0x64
 
-    invoke-static {v2, v15, v3, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v15, v3, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v4, v15, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v4, v15, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -11119,13 +11146,13 @@
 
     const/16 v3, 0x64
 
-    invoke-static {v2, v15, v3, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v15, v3, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v4, v15, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v4, v15, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -11901,13 +11928,13 @@
 
     const/16 v15, 0x64
 
-    invoke-static {v1, v7, v15, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v7, v15, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v1, 0xa
 
-    invoke-static {v2, v7, v1, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v7, v1, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -12390,13 +12417,13 @@
 
     const/16 v10, 0x64
 
-    invoke-static {v2, v3, v10, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v3, v10, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v4, v3, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v4, v3, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -13633,7 +13660,7 @@
 
     const/16 v2, 0xa
 
-    invoke-static {v5, v0, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v0, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -13692,13 +13719,13 @@
 
     const/16 v15, 0x64
 
-    invoke-static {v3, v0, v15, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v0, v15, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v3, 0xa
 
-    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -14552,7 +14579,7 @@
 
     const/16 v3, 0xa
 
-    invoke-static {v12, v1, v3, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v12, v1, v3, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -14601,13 +14628,13 @@
 
     const/16 v1, 0x64
 
-    invoke-static {v10, v0, v1, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v10, v0, v1, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v2, 0xa
 
-    invoke-static {v5, v0, v2, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v0, v2, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -15653,13 +15680,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v3, v6, v0, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v6, v0, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v2, 0xa
 
-    invoke-static {v7, v6, v2, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v6, v2, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -16863,13 +16890,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v3, v6, v0, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v6, v0, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
     const/16 v2, 0xa
 
-    invoke-static {v7, v6, v2, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v6, v2, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -22082,7 +22109,7 @@
 
     mul-int/lit8 v10, v10, 0x64
 
-    invoke-static {v11, p1, v6, v10}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v11, p1, v6, v10}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -22245,7 +22272,7 @@
 
     mul-int/lit8 v10, v10, 0x64
 
-    invoke-static {v11, p1, v6, v10}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v11, p1, v6, v10}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -22474,41 +22501,41 @@
 
     const v4, 0x989680
 
-    invoke-static {v12, v0, v4, v11}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v12, v0, v4, v11}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const v10, 0xf4240
 
-    invoke-static {v13, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v13, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const v10, 0x186a0
 
-    invoke-static {v14, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v14, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const/16 v10, 0x2710
 
-    invoke-static {v15, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v15, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const/16 v10, 0x3e8
 
-    invoke-static {v1, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v4, 0x64
 
-    invoke-static {v5, v0, v4, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v0, v4, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
-    invoke-static {v3, v0, v7, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v0, v7, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -22755,41 +22782,41 @@
 
     const v4, 0x989680
 
-    invoke-static {v12, v0, v4, v11}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v12, v0, v4, v11}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const v10, 0xf4240
 
-    invoke-static {v13, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v13, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const v10, 0x186a0
 
-    invoke-static {v14, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v14, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const/16 v10, 0x2710
 
-    invoke-static {v15, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v15, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v4
 
     const/16 v10, 0x3e8
 
-    invoke-static {v1, v0, v10, v4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v0, v10, v4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v4, 0x64
 
-    invoke-static {v5, v0, v4, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v0, v4, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
-    invoke-static {v3, v0, v7, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v0, v7, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -24480,13 +24507,13 @@
 
     const/16 v12, 0x64
 
-    invoke-static {v7, v2, v12, v3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v2, v12, v3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v3
 
     const/16 v7, 0xa
 
-    invoke-static {v9, v2, v7, v3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v9, v2, v7, v3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v3
 
@@ -25429,13 +25456,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v14, v6, v0, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v14, v6, v0, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v14, 0xa
 
-    invoke-static {v10, v6, v14, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v10, v6, v14, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -26327,13 +26354,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v15, v13, v0, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v15, v13, v0, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v15, 0xa
 
-    invoke-static {v9, v13, v15, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v9, v13, v15, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -27485,13 +27512,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v9, v5, v0, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v9, v5, v0, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v9, 0xa
 
-    invoke-static {v7, v5, v9, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v5, v9, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -28680,13 +28707,13 @@
 
     const/16 v0, 0x64
 
-    invoke-static {v9, v5, v0, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v9, v5, v0, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v9, 0xa
 
-    invoke-static {v7, v5, v9, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v5, v9, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -29409,13 +29436,13 @@
 
     const/16 v12, 0x64
 
-    invoke-static {v5, v3, v12, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v5, v3, v12, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v5, 0xa
 
-    invoke-static {v7, v3, v5, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v3, v5, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -29936,13 +29963,13 @@
 
     const/16 v9, 0x64
 
-    invoke-static {v4, v0, v9, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v4, v0, v9, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
     const/16 v4, 0xa
 
-    invoke-static {v6, v0, v4, v1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v6, v0, v4, v1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 
@@ -38914,13 +38941,13 @@
 
     const/16 v8, 0x64
 
-    invoke-static {v3, v4, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v4, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v3, 0xa
 
-    invoke-static {v6, v4, v3, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v6, v4, v3, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -39219,13 +39246,13 @@
 
     const/16 v8, 0x64
 
-    invoke-static {v3, v4, v8, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v3, v4, v8, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
     const/16 v3, 0xa
 
-    invoke-static {v6, v4, v3, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v6, v4, v3, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v2
 
@@ -39751,1031 +39778,1033 @@
     long-to-int v5, v7
 
     .line 131
-    mul-int/lit8 v7, v5, 0x5
+    const/4 v7, 0x5
 
     .line 132
-    .line 133
     const/4 v8, 0x2
 
-    .line 134
-    add-int/2addr v7, v8
+    .line 133
+    const/16 v11, 0x99
 
+    .line 134
     .line 135
-    div-int/lit16 v7, v7, 0x99
+    invoke-static {v5, v7, v8, v11}, Lcom/huawei/appmarket/uq5;->b(IIII)I
 
     .line 136
     .line 137
-    add-int/lit8 v11, v7, 0x2
-
     .line 138
+    move-result v7
+
     .line 139
-    const/16 v12, 0xc
+    add-int/lit8 v11, v7, 0x2
 
     .line 140
     .line 141
-    rem-int/2addr v11, v12
+    const/16 v12, 0xc
 
     .line 142
-    const/4 v13, 0x1
-
     .line 143
-    add-int/2addr v11, v13
+    rem-int/2addr v11, v12
 
     .line 144
-    mul-int/lit16 v14, v7, 0x132
+    const/4 v13, 0x1
 
     .line 145
+    add-int/2addr v11, v13
+
     .line 146
-    const/4 v15, 0x5
+    mul-int/lit16 v14, v7, 0x132
 
     .line 147
-    add-int/2addr v14, v15
-
     .line 148
-    const/16 v12, 0xa
+    const/4 v15, 0x5
 
     .line 149
+    add-int/2addr v14, v15
+
     .line 150
-    div-int/2addr v14, v12
+    const/16 v12, 0xa
 
     .line 151
-    sub-int/2addr v5, v14
-
     .line 152
-    add-int/2addr v5, v13
+    div-int/2addr v14, v12
 
     .line 153
-    div-int/2addr v7, v12
+    sub-int/2addr v5, v14
 
     .line 154
-    int-to-long v13, v7
+    add-int/2addr v5, v13
 
     .line 155
-    add-long/2addr v9, v13
+    div-int/2addr v7, v12
 
     .line 156
-    const-wide/32 v13, -0x3b9ac9ff
+    int-to-long v13, v7
 
     .line 157
-    .line 158
-    .line 159
-    cmp-long v7, v9, v13
+    add-long/2addr v9, v13
 
+    .line 158
+    const-wide/32 v13, -0x3b9ac9ff
+
+    .line 159
     .line 160
     .line 161
-    if-ltz v7, :cond_15
+    cmp-long v7, v9, v13
 
     .line 162
     .line 163
-    const-wide/32 v13, 0x3b9ac9ff
+    if-ltz v7, :cond_15
 
     .line 164
     .line 165
-    .line 166
-    cmp-long v7, v9, v13
+    const-wide/32 v13, 0x3b9ac9ff
 
+    .line 166
     .line 167
     .line 168
-    if-gtz v7, :cond_15
+    cmp-long v7, v9, v13
 
     .line 169
     .line 170
-    long-to-int v7, v9
+    if-gtz v7, :cond_15
 
     .line 171
-    int-to-long v9, v6
-
     .line 172
-    cmp-long v6, v9, v17
+    long-to-int v7, v9
 
     .line 173
+    int-to-long v9, v6
+
     .line 174
-    if-ltz v6, :cond_14
+    cmp-long v6, v9, v17
 
     .line 175
     .line 176
-    const-wide/32 v13, 0x1517f
+    if-ltz v6, :cond_14
 
     .line 177
     .line 178
-    .line 179
-    cmp-long v6, v9, v13
+    const-wide/32 v13, 0x1517f
 
+    .line 179
     .line 180
     .line 181
-    if-gtz v6, :cond_14
+    cmp-long v6, v9, v13
 
     .line 182
     .line 183
-    const-wide/16 v13, 0xe10
+    if-gtz v6, :cond_14
 
     .line 184
     .line 185
-    div-long v13, v9, v13
+    const-wide/16 v13, 0xe10
 
     .line 186
     .line 187
-    long-to-int v6, v13
+    div-long v13, v9, v13
 
     .line 188
+    .line 189
+    long-to-int v6, v13
+
+    .line 190
     mul-int/lit16 v13, v6, 0xe10
 
-    .line 189
-    .line 190
+    .line 191
+    .line 192
     int-to-long v13, v13
 
-    .line 191
+    .line 193
     sub-long/2addr v9, v13
 
-    .line 192
-    const-wide/16 v13, 0x3c
-
-    .line 193
     .line 194
-    div-long v13, v9, v13
+    const-wide/16 v13, 0x3c
 
     .line 195
     .line 196
-    long-to-int v14, v13
+    div-long v13, v9, v13
 
     .line 197
+    .line 198
+    long-to-int v14, v13
+
+    .line 199
     mul-int/lit8 v13, v14, 0x3c
 
-    .line 198
-    .line 199
+    .line 200
+    .line 201
     int-to-long v12, v13
 
-    .line 200
+    .line 202
     sub-long/2addr v9, v12
 
-    .line 201
+    .line 203
     long-to-int v10, v9
 
-    .line 202
+    .line 204
     invoke-static {v0, v1, v3, v4}, Lcom/alibaba/fastjson2/util/IOUtils;->floorMod(JJ)J
 
-    .line 203
-    .line 204
     .line 205
+    .line 206
+    .line 207
     move-result-wide v0
 
-    .line 206
+    .line 208
     long-to-int v1, v0
 
-    .line 207
+    .line 209
     if-nez v1, :cond_3
 
-    .line 208
-    .line 209
+    .line 210
+    .line 211
     const/4 v4, 0x0
 
-    .line 210
+    .line 212
     goto :goto_2
 
-    .line 211
+    .line 213
     :cond_3
     const/16 v4, 0xa
 
-    .line 212
-    .line 213
-    if-ge v1, v4, :cond_5
-
     .line 214
     .line 215
+    if-ge v1, v4, :cond_5
+
+    .line 216
+    .line 217
     :cond_4
     const/4 v4, 0x4
 
-    .line 216
+    .line 218
     goto :goto_2
 
-    .line 217
+    .line 219
     :cond_5
     rem-int/lit8 v4, v1, 0x64
 
-    .line 218
-    .line 219
-    if-nez v4, :cond_6
-
     .line 220
     .line 221
-    const/4 v4, 0x2
+    if-nez v4, :cond_6
 
     .line 222
+    .line 223
+    const/4 v4, 0x2
+
+    .line 224
     goto :goto_2
 
-    .line 223
+    .line 225
     :cond_6
     rem-int/lit8 v4, v1, 0xa
 
-    .line 224
-    .line 225
-    if-nez v4, :cond_4
-
     .line 226
     .line 227
-    const/4 v4, 0x3
+    if-nez v4, :cond_4
 
     .line 228
+    .line 229
+    const/4 v4, 0x3
+
+    .line 230
     :goto_2
     if-eqz p2, :cond_8
 
-    .line 229
-    .line 230
-    if-nez v2, :cond_7
-
     .line 231
     .line 232
-    const/4 v9, 0x1
+    if-nez v2, :cond_7
 
     .line 233
-    goto :goto_3
-
     .line 234
-    :cond_7
-    const/4 v9, 0x6
+    const/4 v9, 0x1
 
     .line 235
     goto :goto_3
 
     .line 236
+    :cond_7
+    const/4 v9, 0x6
+
+    .line 237
+    goto :goto_3
+
+    .line 238
     :cond_8
     const/4 v9, 0x0
 
-    .line 237
+    .line 239
     :goto_3
     add-int/lit8 v12, v4, 0x13
 
-    .line 238
-    .line 239
+    .line 240
+    .line 241
     add-int/2addr v9, v12
 
-    .line 240
-    div-int/lit16 v13, v7, 0x3e8
-
-    .line 241
     .line 242
-    const/16 v18, 0x30
+    div-int/lit16 v13, v7, 0x3e8
 
     .line 243
     .line 244
-    add-int/lit8 v13, v13, 0x30
+    const/16 v18, 0x30
 
     .line 245
     .line 246
-    div-int/lit8 v19, v7, 0x64
+    add-int/lit8 v13, v13, 0x30
 
     .line 247
     .line 248
-    const/16 v17, 0xa
+    div-int/lit8 v19, v7, 0x64
 
     .line 249
     .line 250
-    rem-int/lit8 v19, v19, 0xa
+    const/16 v17, 0xa
 
     .line 251
     .line 252
-    add-int/lit8 v15, v19, 0x30
+    rem-int/lit8 v19, v19, 0xa
 
     .line 253
     .line 254
-    div-int/lit8 v19, v7, 0xa
+    add-int/lit8 v15, v19, 0x30
 
     .line 255
     .line 256
-    rem-int/lit8 v19, v19, 0xa
+    div-int/lit8 v19, v7, 0xa
 
     .line 257
     .line 258
-    add-int/lit8 v0, v19, 0x30
+    rem-int/lit8 v19, v19, 0xa
 
     .line 259
     .line 260
-    rem-int/lit8 v7, v7, 0xa
+    add-int/lit8 v0, v19, 0x30
 
     .line 261
     .line 262
-    add-int/lit8 v7, v7, 0x30
+    rem-int/lit8 v7, v7, 0xa
 
     .line 263
     .line 264
-    div-int/lit8 v19, v11, 0xa
+    add-int/lit8 v7, v7, 0x30
 
     .line 265
     .line 266
-    add-int/lit8 v8, v19, 0x30
+    div-int/lit8 v19, v11, 0xa
 
     .line 267
     .line 268
-    rem-int/lit8 v11, v11, 0xa
+    add-int/lit8 v8, v19, 0x30
 
     .line 269
     .line 270
-    add-int/lit8 v11, v11, 0x30
+    rem-int/lit8 v11, v11, 0xa
 
     .line 271
     .line 272
-    div-int/lit8 v19, v5, 0xa
+    add-int/lit8 v11, v11, 0x30
 
     .line 273
     .line 274
-    add-int/lit8 v3, v19, 0x30
+    div-int/lit8 v19, v5, 0xa
 
     .line 275
     .line 276
-    rem-int/lit8 v5, v5, 0xa
+    add-int/lit8 v3, v19, 0x30
 
     .line 277
     .line 278
-    add-int/lit8 v5, v5, 0x30
+    rem-int/lit8 v5, v5, 0xa
 
     .line 279
     .line 280
-    div-int/lit8 v19, v6, 0xa
+    add-int/lit8 v5, v5, 0x30
 
     .line 281
     .line 282
-    move/from16 v22, v12
+    div-int/lit8 v19, v6, 0xa
 
     .line 283
     .line 284
-    add-int/lit8 v12, v19, 0x30
+    move/from16 v22, v12
 
     .line 285
     .line 286
-    rem-int/lit8 v6, v6, 0xa
+    add-int/lit8 v12, v19, 0x30
 
     .line 287
     .line 288
-    add-int/lit8 v6, v6, 0x30
+    rem-int/lit8 v6, v6, 0xa
 
     .line 289
     .line 290
-    div-int/lit8 v19, v14, 0xa
+    add-int/lit8 v6, v6, 0x30
 
     .line 291
     .line 292
-    move/from16 v23, v2
+    div-int/lit8 v19, v14, 0xa
 
     .line 293
     .line 294
-    add-int/lit8 v2, v19, 0x30
+    move/from16 v23, v2
 
     .line 295
     .line 296
-    rem-int/lit8 v14, v14, 0xa
+    add-int/lit8 v2, v19, 0x30
 
     .line 297
     .line 298
-    add-int/lit8 v14, v14, 0x30
+    rem-int/lit8 v14, v14, 0xa
 
     .line 299
     .line 300
-    div-int/lit8 v19, v10, 0xa
+    add-int/lit8 v14, v14, 0x30
 
     .line 301
     .line 302
-    move/from16 v24, v1
+    div-int/lit8 v19, v10, 0xa
 
     .line 303
     .line 304
-    add-int/lit8 v1, v19, 0x30
+    move/from16 v24, v1
 
     .line 305
     .line 306
-    rem-int/lit8 v10, v10, 0xa
+    add-int/lit8 v1, v19, 0x30
 
     .line 307
     .line 308
-    add-int/lit8 v10, v10, 0x30
+    rem-int/lit8 v10, v10, 0xa
 
     .line 309
     .line 310
-    move/from16 v19, v4
+    add-int/lit8 v10, v10, 0x30
 
     .line 311
     .line 312
-    new-array v4, v9, [C
+    move/from16 v19, v4
 
     .line 313
     .line 314
-    int-to-char v13, v13
+    new-array v4, v9, [C
 
     .line 315
-    const/16 v25, 0x0
-
     .line 316
+    int-to-char v13, v13
+
     .line 317
-    aput-char v13, v4, v25
+    const/16 v25, 0x0
 
     .line 318
     .line 319
-    int-to-char v13, v15
+    aput-char v13, v4, v25
 
     .line 320
-    const/4 v15, 0x1
-
     .line 321
-    aput-char v13, v4, v15
+    int-to-char v13, v15
 
     .line 322
+    const/4 v15, 0x1
+
     .line 323
-    int-to-char v0, v0
+    aput-char v13, v4, v15
 
     .line 324
-    const/4 v13, 0x2
-
     .line 325
-    aput-char v0, v4, v13
+    int-to-char v0, v0
 
     .line 326
+    const/4 v13, 0x2
+
     .line 327
-    const/4 v0, 0x3
+    aput-char v0, v4, v13
 
     .line 328
-    int-to-char v7, v7
-
     .line 329
-    aput-char v7, v4, v0
+    const/4 v0, 0x3
 
     .line 330
+    int-to-char v7, v7
+
     .line 331
-    const/16 v0, 0x2d
+    aput-char v7, v4, v0
 
     .line 332
     .line 333
-    const/4 v7, 0x4
+    const/16 v0, 0x2d
 
     .line 334
-    aput-char v0, v4, v7
-
     .line 335
+    const/4 v7, 0x4
+
     .line 336
-    int-to-char v7, v8
+    aput-char v0, v4, v7
 
     .line 337
-    const/4 v8, 0x5
-
     .line 338
-    aput-char v7, v4, v8
+    int-to-char v7, v8
 
     .line 339
+    const/4 v8, 0x5
+
     .line 340
-    const/4 v7, 0x6
+    aput-char v7, v4, v8
 
     .line 341
-    int-to-char v8, v11
-
     .line 342
-    aput-char v8, v4, v7
+    const/4 v7, 0x6
 
     .line 343
+    int-to-char v8, v11
+
     .line 344
-    const/4 v7, 0x7
+    aput-char v8, v4, v7
 
     .line 345
-    aput-char v0, v4, v7
-
     .line 346
+    const/4 v7, 0x7
+
     .line 347
-    const/16 v7, 0x8
+    aput-char v0, v4, v7
 
     .line 348
     .line 349
-    int-to-char v3, v3
+    const/16 v7, 0x8
 
     .line 350
-    aput-char v3, v4, v7
-
     .line 351
+    int-to-char v3, v3
+
     .line 352
-    const/16 v3, 0x9
+    aput-char v3, v4, v7
 
     .line 353
     .line 354
-    int-to-char v5, v5
+    const/16 v3, 0x9
 
     .line 355
-    aput-char v5, v4, v3
-
     .line 356
+    int-to-char v5, v5
+
     .line 357
-    const/16 v3, 0x20
+    aput-char v5, v4, v3
 
     .line 358
     .line 359
-    const/16 v5, 0xa
+    const/16 v3, 0x20
 
     .line 360
     .line 361
-    aput-char v3, v4, v5
+    const/16 v5, 0xa
 
     .line 362
     .line 363
-    const/16 v3, 0xb
+    aput-char v3, v4, v5
 
     .line 364
     .line 365
-    int-to-char v5, v12
+    const/16 v3, 0xb
 
     .line 366
+    .line 367
+    int-to-char v5, v12
+
+    .line 368
     aput-char v5, v4, v3
 
-    .line 367
-    .line 368
+    .line 369
+    .line 370
     int-to-char v3, v6
 
-    .line 369
-    const/16 v5, 0xc
-
-    .line 370
     .line 371
-    aput-char v3, v4, v5
+    const/16 v5, 0xc
 
     .line 372
     .line 373
-    const/16 v3, 0xd
+    aput-char v3, v4, v5
 
     .line 374
     .line 375
-    const/16 v5, 0x3a
+    const/16 v3, 0xd
 
     .line 376
     .line 377
-    aput-char v5, v4, v3
+    const/16 v5, 0x3a
 
     .line 378
     .line 379
-    const/16 v3, 0xe
+    aput-char v5, v4, v3
 
     .line 380
     .line 381
-    int-to-char v2, v2
+    const/16 v3, 0xe
 
     .line 382
-    aput-char v2, v4, v3
-
     .line 383
+    int-to-char v2, v2
+
     .line 384
-    const/16 v2, 0xf
+    aput-char v2, v4, v3
 
     .line 385
     .line 386
-    int-to-char v3, v14
+    const/16 v2, 0xf
 
     .line 387
-    aput-char v3, v4, v2
-
     .line 388
+    int-to-char v3, v14
+
     .line 389
-    const/16 v2, 0x10
+    aput-char v3, v4, v2
 
     .line 390
     .line 391
-    aput-char v5, v4, v2
+    const/16 v2, 0x10
 
     .line 392
     .line 393
-    const/16 v2, 0x11
+    aput-char v5, v4, v2
 
     .line 394
     .line 395
-    int-to-char v1, v1
+    const/16 v2, 0x11
 
     .line 396
-    aput-char v1, v4, v2
-
     .line 397
+    int-to-char v1, v1
+
     .line 398
-    const/16 v1, 0x12
+    aput-char v1, v4, v2
 
     .line 399
     .line 400
-    int-to-char v2, v10
+    const/16 v1, 0x12
 
     .line 401
-    aput-char v2, v4, v1
-
     .line 402
+    int-to-char v2, v10
+
     .line 403
-    if-lez v19, :cond_d
+    aput-char v2, v4, v1
 
     .line 404
     .line 405
-    const/16 v1, 0x13
+    if-lez v19, :cond_d
 
     .line 406
     .line 407
-    const/16 v2, 0x2e
+    const/16 v1, 0x13
 
     .line 408
     .line 409
-    aput-char v2, v4, v1
+    const/16 v2, 0x2e
 
     .line 410
     .line 411
-    const/16 v1, 0x14
+    aput-char v2, v4, v1
 
     .line 412
     .line 413
-    const/16 v2, 0x14
+    const/16 v1, 0x14
 
     .line 414
     .line 415
-    :goto_4
-    if-ge v2, v9, :cond_9
+    const/16 v2, 0x14
 
     .line 416
     .line 417
-    aput-char v18, v4, v2
+    :goto_4
+    if-ge v2, v9, :cond_9
 
     .line 418
     .line 419
-    add-int/lit8 v2, v2, 0x1
+    aput-char v18, v4, v2
 
     .line 420
     .line 421
-    goto :goto_4
+    add-int/lit8 v2, v2, 0x1
 
     .line 422
+    .line 423
+    goto :goto_4
+
+    .line 424
     :cond_9
     move/from16 v3, v24
 
-    .line 423
-    .line 424
-    const/16 v2, 0xa
-
     .line 425
     .line 426
-    if-ge v3, v2, :cond_b
+    const/16 v2, 0xa
 
     .line 427
     .line 428
-    const/16 v1, 0x16
+    if-ge v3, v2, :cond_b
 
     .line 429
     .line 430
+    const/16 v1, 0x16
+
+    .line 431
+    .line 432
     :cond_a
     :goto_5
     invoke-static {v4, v1, v3}, Lcom/alibaba/fastjson2/util/IOUtils;->writeInt32([CII)I
 
-    .line 431
-    .line 432
     .line 433
+    .line 434
+    .line 435
     goto :goto_6
 
-    .line 434
+    .line 436
     :cond_b
     rem-int/lit8 v2, v3, 0x64
 
-    .line 435
-    .line 436
-    if-nez v2, :cond_c
-
     .line 437
     .line 438
-    div-int/lit8 v2, v3, 0x64
+    if-nez v2, :cond_c
 
     .line 439
     .line 440
-    invoke-static {v4, v1, v2}, Lcom/alibaba/fastjson2/util/IOUtils;->writeInt32([CII)I
+    div-int/lit8 v2, v3, 0x64
 
     .line 441
     .line 442
+    invoke-static {v4, v1, v2}, Lcom/alibaba/fastjson2/util/IOUtils;->writeInt32([CII)I
+
     .line 443
+    .line 444
+    .line 445
     goto :goto_6
 
-    .line 444
+    .line 446
     :cond_c
     rem-int/lit8 v2, v3, 0xa
 
-    .line 445
-    .line 446
-    if-nez v2, :cond_a
-
     .line 447
     .line 448
-    const/16 v2, 0xa
+    if-nez v2, :cond_a
 
     .line 449
     .line 450
-    div-int/2addr v3, v2
+    const/16 v2, 0xa
 
     .line 451
+    .line 452
+    div-int/2addr v3, v2
+
+    .line 453
     goto :goto_5
 
-    .line 452
+    .line 454
     :cond_d
     :goto_6
     if-eqz p2, :cond_13
 
-    .line 453
-    .line 454
-    move/from16 v2, v23
-
     .line 455
     .line 456
-    div-int/lit16 v1, v2, 0xe10
+    move/from16 v2, v23
 
     .line 457
     .line 458
-    if-nez v2, :cond_e
+    div-int/lit16 v1, v2, 0xe10
 
     .line 459
     .line 460
-    const/16 v0, 0x5a
+    if-nez v2, :cond_e
 
     .line 461
     .line 462
-    aput-char v0, v4, v22
+    const/16 v0, 0x5a
 
     .line 463
     .line 464
-    goto :goto_a
+    aput-char v0, v4, v22
 
     .line 465
+    .line 466
+    goto :goto_a
+
+    .line 467
     :cond_e
     invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
-    .line 466
-    .line 467
     .line 468
+    .line 469
+    .line 470
     move-result v3
 
-    .line 469
-    if-ltz v1, :cond_f
-
-    .line 470
     .line 471
-    const/16 v0, 0x2b
+    if-ltz v1, :cond_f
 
     .line 472
     .line 473
-    aput-char v0, v4, v22
+    const/16 v0, 0x2b
 
     .line 474
     .line 475
-    :goto_7
-    const/16 v0, 0xa
+    aput-char v0, v4, v22
 
     .line 476
     .line 477
-    goto :goto_8
+    :goto_7
+    const/16 v0, 0xa
 
     .line 478
+    .line 479
+    goto :goto_8
+
+    .line 480
     :cond_f
     aput-char v0, v4, v22
 
-    .line 479
-    .line 480
+    .line 481
+    .line 482
     goto :goto_7
 
-    .line 481
+    .line 483
     :goto_8
     if-ge v3, v0, :cond_10
 
-    .line 482
-    .line 483
-    add-int/lit8 v0, v19, 0x14
-
     .line 484
     .line 485
-    aput-char v18, v4, v0
+    add-int/lit8 v0, v19, 0x14
 
     .line 486
     .line 487
-    add-int/lit8 v0, v19, 0x15
+    aput-char v18, v4, v0
 
     .line 488
     .line 489
-    add-int/lit8 v3, v3, 0x30
+    add-int/lit8 v0, v19, 0x15
 
     .line 490
     .line 491
-    int-to-char v3, v3
+    add-int/lit8 v3, v3, 0x30
 
     .line 492
+    .line 493
+    int-to-char v3, v3
+
+    .line 494
     aput-char v3, v4, v0
 
-    .line 493
-    .line 494
+    .line 495
+    .line 496
     goto :goto_9
 
-    .line 495
+    .line 497
     :cond_10
     add-int/lit8 v0, v19, 0x14
 
-    .line 496
-    .line 497
-    div-int/lit8 v6, v3, 0xa
-
     .line 498
     .line 499
-    add-int/lit8 v6, v6, 0x30
+    div-int/lit8 v6, v3, 0xa
 
     .line 500
     .line 501
-    int-to-char v6, v6
+    add-int/lit8 v6, v6, 0x30
 
     .line 502
-    aput-char v6, v4, v0
-
     .line 503
+    int-to-char v6, v6
+
     .line 504
-    add-int/lit8 v0, v19, 0x15
+    aput-char v6, v4, v0
 
     .line 505
     .line 506
-    const/16 v6, 0xa
+    add-int/lit8 v0, v19, 0x15
 
     .line 507
     .line 508
-    rem-int/2addr v3, v6
+    const/16 v6, 0xa
 
     .line 509
+    .line 510
+    rem-int/2addr v3, v6
+
+    .line 511
     add-int/lit8 v3, v3, 0x30
 
-    .line 510
-    .line 511
+    .line 512
+    .line 513
     int-to-char v3, v3
 
-    .line 512
-    aput-char v3, v4, v0
-
-    .line 513
     .line 514
-    :goto_9
-    add-int/lit8 v0, v19, 0x16
+    aput-char v3, v4, v0
 
     .line 515
     .line 516
-    aput-char v5, v4, v0
+    :goto_9
+    add-int/lit8 v0, v19, 0x16
 
     .line 517
     .line 518
-    const/16 v0, 0xe10
+    aput-char v5, v4, v0
 
     .line 519
     .line 520
-    const/16 v3, 0x3c
+    const/16 v0, 0xe10
 
     .line 521
     .line 522
-    invoke-static {v1, v0, v2, v3}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    const/16 v3, 0x3c
 
     .line 523
     .line 524
+    invoke-static {v1, v0, v2, v3}, Lcom/huawei/appmarket/kk4;->e(IIII)I
+
     .line 525
+    .line 526
+    .line 527
     move-result v0
 
-    .line 526
+    .line 528
     if-gez v0, :cond_11
 
-    .line 527
-    .line 528
+    .line 529
+    .line 530
     neg-int v0, v0
 
-    .line 529
+    .line 531
     :cond_11
     const/16 v1, 0xa
 
-    .line 530
-    .line 531
-    if-ge v0, v1, :cond_12
-
     .line 532
     .line 533
-    add-int/lit8 v1, v19, 0x17
+    if-ge v0, v1, :cond_12
 
     .line 534
     .line 535
-    aput-char v18, v4, v1
+    add-int/lit8 v1, v19, 0x17
 
     .line 536
     .line 537
-    add-int/lit8 v1, v19, 0x18
+    aput-char v18, v4, v1
 
     .line 538
     .line 539
-    add-int/lit8 v0, v0, 0x30
+    add-int/lit8 v1, v19, 0x18
 
     .line 540
     .line 541
-    int-to-char v0, v0
+    add-int/lit8 v0, v0, 0x30
 
     .line 542
+    .line 543
+    int-to-char v0, v0
+
+    .line 544
     aput-char v0, v4, v1
 
-    .line 543
-    .line 544
+    .line 545
+    .line 546
     goto :goto_a
 
-    .line 545
+    .line 547
     :cond_12
     add-int/lit8 v1, v19, 0x17
 
-    .line 546
-    .line 547
-    div-int/lit8 v2, v0, 0xa
-
     .line 548
     .line 549
-    add-int/lit8 v2, v2, 0x30
+    div-int/lit8 v2, v0, 0xa
 
     .line 550
     .line 551
-    int-to-char v2, v2
+    add-int/lit8 v2, v2, 0x30
 
     .line 552
-    aput-char v2, v4, v1
-
     .line 553
+    int-to-char v2, v2
+
     .line 554
-    add-int/lit8 v1, v19, 0x18
+    aput-char v2, v4, v1
 
     .line 555
     .line 556
-    const/16 v2, 0xa
+    add-int/lit8 v1, v19, 0x18
 
     .line 557
     .line 558
-    rem-int/2addr v0, v2
+    const/16 v2, 0xa
 
     .line 559
+    .line 560
+    rem-int/2addr v0, v2
+
+    .line 561
     add-int/lit8 v0, v0, 0x30
 
-    .line 560
-    .line 561
+    .line 562
+    .line 563
     int-to-char v0, v0
 
-    .line 562
+    .line 564
     aput-char v0, v4, v1
 
-    .line 563
-    .line 564
+    .line 565
+    .line 566
     :cond_13
     :goto_a
     new-instance v0, Ljava/lang/String;
 
-    .line 565
-    .line 566
-    invoke-direct {v0, v4}, Ljava/lang/String;-><init>([C)V
-
     .line 567
     .line 568
+    invoke-direct {v0, v4}, Ljava/lang/String;-><init>([C)V
+
     .line 569
+    .line 570
+    .line 571
     return-object v0
 
-    .line 570
+    .line 572
     :cond_14
     new-instance v0, Lcom/alibaba/fastjson2/time/DateTimeException;
 
-    .line 571
-    .line 572
-    const-string v1, "Invalid secondOfDay "
-
     .line 573
     .line 574
-    invoke-static {v1, v9, v10}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    const-string v1, "Invalid secondOfDay "
 
     .line 575
     .line 576
+    invoke-static {v1, v9, v10}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
+
     .line 577
+    .line 578
+    .line 579
     move-result-object v1
 
-    .line 578
+    .line 580
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
-    .line 579
-    .line 580
     .line 581
+    .line 582
+    .line 583
     throw v0
 
-    .line 582
+    .line 584
     :cond_15
     new-instance v0, Lcom/alibaba/fastjson2/time/DateTimeException;
 
-    .line 583
-    .line 584
-    const-string v1, "Invalid year "
-
     .line 585
     .line 586
-    invoke-static {v1, v9, v10}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    const-string v1, "Invalid year "
 
     .line 587
     .line 588
+    invoke-static {v1, v9, v10}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
+
     .line 589
+    .line 590
+    .line 591
     move-result-object v1
 
-    .line 590
+    .line 592
     invoke-direct {v0, v1}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
-    .line 591
-    .line 592
     .line 593
-    throw v0
     .line 594
     .line 595
+    throw v0
     .line 596
     .line 597
     .line 598

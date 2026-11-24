@@ -5,7 +5,7 @@
 
 # instance fields
 .field private moduleInfos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -18,7 +18,7 @@
 .end field
 
 .field private versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

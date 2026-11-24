@@ -47,7 +47,7 @@
 
     const-string v0, "PersonalHeaderViewV1"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewV1$c;->b:Landroid/widget/PopupWindow;
 
@@ -61,7 +61,7 @@
 
     const-string v1, "remove popWindow"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/widget/PopupWindow;->dismiss()V
 

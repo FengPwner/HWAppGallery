@@ -33,7 +33,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     .line 7
     .line 8
@@ -41,7 +41,7 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     .line 11
     .line 12
@@ -65,7 +65,7 @@
 
     .line 21
     .line 22
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 23
     .line 24
@@ -73,7 +73,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -136,7 +136,7 @@
 
     .line 56
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 57
     .line 58
@@ -144,7 +144,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -208,7 +208,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final updateDrawState(Landroid/text/TextPaint;)V

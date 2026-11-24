@@ -212,7 +212,7 @@
 
     .line 94
     .line 95
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/om5;->p(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/uq5;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 96
     .line 97
@@ -295,7 +295,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic a(Lcom/huawei/appmarket/framework/widget/BannerGallery;)V
@@ -903,7 +902,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onVisibilityChanged(Landroid/view/View;I)V
@@ -1115,7 +1113,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public setMotionEventer(Lcom/huawei/appmarket/framework/widget/BannerGallery$b;)V

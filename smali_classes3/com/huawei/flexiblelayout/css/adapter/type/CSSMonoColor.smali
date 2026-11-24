@@ -4,10 +4,10 @@
 
 
 # instance fields
-.field private final mValueGetter:Lcom/huawei/appmarket/u09;
+.field private final mValueGetter:Lcom/huawei/appmarket/a19;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/u09<",
+            "Lcom/huawei/appmarket/a19<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -23,11 +23,11 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ea9;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/a19;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSMonoColor;->mValueGetter:Lcom/huawei/appmarket/u09;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSMonoColor;->mValueGetter:Lcom/huawei/appmarket/a19;
 
     return-void
 .end method
@@ -37,9 +37,9 @@
 .method public getColor()Ljava/lang/Integer;
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSMonoColor;->mValueGetter:Lcom/huawei/appmarket/u09;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSMonoColor;->mValueGetter:Lcom/huawei/appmarket/a19;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/a19;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     const-string v1, "CSSMonoColor"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const/4 v0, 0x0

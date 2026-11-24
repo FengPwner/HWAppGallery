@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->g0()V
+    value = Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->h0()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate$d;->b:Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->I0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -53,17 +53,17 @@
 
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;->K0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BigBuoyWebviewDelegate;)Landroid/content/Context;
 
     move-result-object v0
 
     const/4 v3, 0x1
 
-    invoke-virtual {v1, v0, v2, p1, v3}, Lcom/huawei/appmarket/cf0;->H0(Landroid/content/Context;Ljava/lang/Class;Landroid/content/Intent;Z)V
+    invoke-virtual {v1, v0, v2, p1, v3}, Lcom/huawei/appmarket/df0;->H0(Landroid/content/Context;Ljava/lang/Class;Landroid/content/Intent;Z)V
 
     return-void
 .end method

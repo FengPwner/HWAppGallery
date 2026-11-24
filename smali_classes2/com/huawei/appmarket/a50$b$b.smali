@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/a50$b;->j(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/appmarket/vq3;)V
+    value = Lcom/huawei/appmarket/a50$b;->j(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/appmarket/xq3;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 5
 
     .line 1

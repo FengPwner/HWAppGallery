@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wg3;
+.implements Lcom/huawei/appmarket/yg3;
 
 
 # annotations
@@ -52,11 +52,11 @@
 
     const-string v0, "onSign"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/jx2;->c(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mx2;->c(Z)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/fapanel/FaPanelCommonActivity$a;->b:Lcom/huawei/appmarket/service/fapanel/FaPanelCommonActivity;
 
@@ -73,7 +73,7 @@
 
     const-string v0, "onUpgrade"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     const-string v0, "onNotSign"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

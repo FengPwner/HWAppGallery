@@ -100,11 +100,11 @@
 
     invoke-virtual {v3, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -113,7 +113,7 @@
     :catch_0
     move-exception v0
 
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v2, "DetailHeadCard"
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

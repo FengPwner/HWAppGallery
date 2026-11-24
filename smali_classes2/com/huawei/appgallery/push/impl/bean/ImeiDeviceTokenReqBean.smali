@@ -9,7 +9,7 @@
 
 # instance fields
 .field private deviceToken_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -30,7 +30,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -176,7 +176,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ej2;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->i()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -291,5 +291,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

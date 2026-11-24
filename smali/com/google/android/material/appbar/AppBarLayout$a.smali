@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # annotations
@@ -34,13 +34,13 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 3
 
     .line 1
     iget-object p1, p0, Lcom/google/android/material/appbar/AppBarLayout$a;->a:Lcom/google/android/material/appbar/AppBarLayout;
 
-    invoke-virtual {p1, p2}, Lcom/google/android/material/appbar/AppBarLayout;->i(Lcom/huawei/appmarket/nq8;)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/appbar/AppBarLayout;->i(Lcom/huawei/appmarket/tq8;)V
 
     return-object p2
 .end method

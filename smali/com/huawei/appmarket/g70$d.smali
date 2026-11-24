@@ -1,9 +1,9 @@
 .class final Lcom/huawei/appmarket/g70$d;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
@@ -18,13 +18,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
         "Ljava/util/HashMap<",
         "Ljava/lang/String;",
         "Lcom/huawei/appmarket/cb;",
         ">;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -43,7 +43,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/x23;->A()Lcom/huawei/appmarket/oc;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/a33;->A()Lcom/huawei/appmarket/oc;
 
     .line 6
     .line 7
@@ -82,7 +82,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Lcom/huawei/appmarket/x23;->A()Lcom/huawei/appmarket/oc;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/a33;->A()Lcom/huawei/appmarket/oc;
 
     .line 16
     .line 17
@@ -131,7 +131,7 @@
     move-result-object v2
 
     .line 38
-    check-cast v2, Lcom/huawei/appmarket/og3;
+    check-cast v2, Lcom/huawei/appmarket/qg3;
 
     .line 39
     .line 40
@@ -179,7 +179,7 @@
 
     .line 60
     :cond_2
-    invoke-virtual {v0}, Lcom/huawei/appmarket/x23;->F()Lcom/huawei/appgallery/agguard/business/ui/view/AgGuardScanItemView;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/a33;->F()Lcom/huawei/appgallery/agguard/business/ui/view/AgGuardScanItemView;
 
     .line 61
     .line 62
@@ -222,7 +222,7 @@
     .line 78
     :cond_5
     :goto_2
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 79
     .line 80

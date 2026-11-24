@@ -31,7 +31,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProcessor$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProcessor$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const-string v0, "proxyActivity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProcessor;-><init>(Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;Ljava/lang/String;)V
 
@@ -70,13 +70,13 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v0, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProcessor;->b()Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s93$a;->b(Lcom/huawei/appmarket/s93$a;Landroid/content/Context;)Lcom/huawei/appmarket/s93;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/v93$a;->b(Lcom/huawei/appmarket/v93$a;Landroid/content/Context;)Lcom/huawei/appmarket/v93;
 
     move-result-object v0
 
@@ -99,7 +99,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     move-result-object v1
 
@@ -129,7 +129,7 @@
 
     const/4 v5, 0x0
 
-    invoke-interface {v1, v3, v4, v5, v2}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {v1, v3, v4, v5, v2}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     sget-object v1, Lcom/huawei/appmarket/z5;->a:Lcom/huawei/appmarket/z5;
 
@@ -137,7 +137,7 @@
 
     const-string v3, "launch bind security mobile page failed."
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Ljava/lang/Exception;
 
@@ -146,16 +146,16 @@
     throw v1
 .end method
 
-.method public final d(IILandroid/content/Intent;Lcom/huawei/appmarket/qs2;)V
+.method public final d(IILandroid/content/Intent;Lcom/huawei/appmarket/ts2;)V
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
             "Landroid/content/Intent;",
-            "Lcom/huawei/appmarket/qs2<",
+            "Lcom/huawei/appmarket/ts2<",
             "-",
             "Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol;",
-            "Lcom/huawei/appmarket/x78;",
+            "Lcom/huawei/appmarket/c88;",
             ">;)V"
         }
     .end annotation
@@ -221,7 +221,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1, v0, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -258,12 +258,12 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     .line 54
     .line 55
@@ -283,7 +283,7 @@
 
     .line 62
     .line 63
-    invoke-interface {p1, v5, v4, v0, v2}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {p1, v5, v4, v0, v2}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -300,7 +300,7 @@
 
     .line 71
     .line 72
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 73
     .line 74
@@ -326,12 +326,12 @@
 
     .line 84
     .line 85
-    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
     .line 88
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     .line 89
     .line 90
@@ -351,7 +351,7 @@
 
     .line 97
     .line 98
-    invoke-interface {p1, v5, v4, p2, v0}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {p1, v5, v4, p2, v0}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     .line 99
     .line 100
@@ -406,7 +406,7 @@
     .line 125
     .line 126
     :cond_2
-    invoke-interface {p4, v1}, Lcom/huawei/appmarket/qs2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v1}, Lcom/huawei/appmarket/ts2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 127
     .line 128

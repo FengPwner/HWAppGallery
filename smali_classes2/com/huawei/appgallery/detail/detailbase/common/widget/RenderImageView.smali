@@ -94,13 +94,13 @@
 
     invoke-super/range {p0 .. p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -118,7 +118,7 @@
 
     const-string v3, "RenderImageView"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget v1, v0, Lcom/huawei/appgallery/detail/detailbase/common/widget/RenderImageView;->f:I
@@ -267,13 +267,13 @@
 
     iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/widget/RenderImageView;->e:F
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -307,7 +307,7 @@
 
     const-string p3, "RenderImageView"
 
-    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

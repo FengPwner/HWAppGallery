@@ -29,13 +29,13 @@
     .registers 3
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/of1;->y(Landroid/text/Spannable;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/qf1;->y(Landroid/text/Spannable;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    instance-of p1, p1, Lcom/huawei/appmarket/e56;
+    instance-of p1, p1, Lcom/huawei/appmarket/g56;
 
     if-eqz p1, :cond_0
 

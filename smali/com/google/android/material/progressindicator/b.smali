@@ -59,7 +59,7 @@
     move-result v1
 
     .line 20
-    sget-object v4, Lcom/huawei/appmarket/ie6;->d:[I
+    sget-object v4, Lcom/huawei/appmarket/ke6;->d:[I
 
     .line 21
     .line 22
@@ -79,7 +79,7 @@
     move v6, p4
 
     .line 28
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     .line 29
     .line 30
@@ -91,7 +91,7 @@
 
     .line 33
     .line 34
-    invoke-static {p1, p2, p3, v1}, Lcom/huawei/appmarket/p45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v1}, Lcom/huawei/appmarket/s45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     .line 35
     .line 36
@@ -106,7 +106,7 @@
     const/4 p3, 0x7
 
     .line 41
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/p45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/s45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     .line 42
     .line 43
@@ -186,7 +186,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-static {p1, p3, v2}, Lcom/huawei/appmarket/f45;->c(Landroid/content/Context;II)I
+    invoke-static {p1, p3, v2}, Lcom/huawei/appmarket/i45;->c(Landroid/content/Context;II)I
 
     .line 80
     .line 81
@@ -392,7 +392,7 @@
 
     .line 177
     .line 178
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 179
     .line 180

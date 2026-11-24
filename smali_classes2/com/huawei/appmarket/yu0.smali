@@ -76,7 +76,7 @@
 
     .line 27
     .line 28
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/b00;->d(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/fs;->a(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 29
     .line 30
@@ -198,7 +198,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

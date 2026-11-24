@@ -76,11 +76,11 @@
 
     aget-object v6, v1, v4
 
-    invoke-virtual {v6}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/e28;
+    invoke-virtual {v6}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/j28;
 
     move-result-object v6
 
-    iget v6, v6, Lcom/huawei/appmarket/e28;->a:I
+    iget v6, v6, Lcom/huawei/appmarket/j28;->a:I
 
     add-int/2addr v5, v6
 
@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_1
-    new-array v1, v5, [Lcom/huawei/appmarket/d28;
+    new-array v1, v5, [Lcom/huawei/appmarket/i28;
 
     invoke-static {v0}, Landroidx/media3/exoplayer/hls/i;->l(Landroidx/media3/exoplayer/hls/i;)[Landroidx/media3/exoplayer/hls/m;
 
@@ -106,11 +106,11 @@
 
     aget-object v7, v2, v5
 
-    invoke-virtual {v7}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/e28;
+    invoke-virtual {v7}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/j28;
 
     move-result-object v8
 
-    iget v8, v8, Lcom/huawei/appmarket/e28;->a:I
+    iget v8, v8, Lcom/huawei/appmarket/j28;->a:I
 
     const/4 v9, 0x0
 
@@ -119,11 +119,11 @@
 
     add-int/lit8 v10, v6, 0x1
 
-    invoke-virtual {v7}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/e28;
+    invoke-virtual {v7}, Landroidx/media3/exoplayer/hls/m;->n()Lcom/huawei/appmarket/j28;
 
     move-result-object v11
 
-    invoke-virtual {v11, v9}, Lcom/huawei/appmarket/e28;->b(I)Lcom/huawei/appmarket/d28;
+    invoke-virtual {v11, v9}, Lcom/huawei/appmarket/j28;->b(I)Lcom/huawei/appmarket/i28;
 
     move-result-object v11
 
@@ -141,11 +141,11 @@
     goto :goto_1
 
     :cond_3
-    new-instance v2, Lcom/huawei/appmarket/e28;
+    new-instance v2, Lcom/huawei/appmarket/j28;
 
-    invoke-direct {v2, v1}, Lcom/huawei/appmarket/e28;-><init>([Lcom/huawei/appmarket/d28;)V
+    invoke-direct {v2, v1}, Lcom/huawei/appmarket/j28;-><init>([Lcom/huawei/appmarket/i28;)V
 
-    invoke-static {v0, v2}, Landroidx/media3/exoplayer/hls/i;->o(Landroidx/media3/exoplayer/hls/i;Lcom/huawei/appmarket/e28;)V
+    invoke-static {v0, v2}, Landroidx/media3/exoplayer/hls/i;->o(Landroidx/media3/exoplayer/hls/i;Lcom/huawei/appmarket/j28;)V
 
     invoke-static {v0}, Landroidx/media3/exoplayer/hls/i;->p(Landroidx/media3/exoplayer/hls/i;)Landroidx/media3/exoplayer/source/j$a;
 

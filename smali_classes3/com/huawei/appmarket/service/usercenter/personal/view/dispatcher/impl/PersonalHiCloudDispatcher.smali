@@ -46,7 +46,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
+    invoke-static {}, Lcom/huawei/appmarket/e06;->d()Lcom/huawei/appmarket/e06;
 
     move-result-object v0
 
@@ -56,7 +56,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c06;->j(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/e06;->j(Landroid/content/Context;)V
 
     :cond_0
     return-void

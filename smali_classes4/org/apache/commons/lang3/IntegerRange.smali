@@ -83,7 +83,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/le3;->s(II)Ljava/util/stream/IntStream;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne3;->s(II)Ljava/util/stream/IntStream;
 
     move-result-object v0
 

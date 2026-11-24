@@ -71,7 +71,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     .line 26
     .line 27
@@ -79,12 +79,12 @@
     move-result-object p1
 
     .line 29
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ag0;->a()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bg0;->a()V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     .line 33
     .line 34
@@ -92,12 +92,12 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ag0;->j(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bg0;->j(Z)V
 
     .line 37
     .line 38
     .line 39
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     .line 40
     .line 41
@@ -105,7 +105,7 @@
     move-result-object p1
 
     .line 43
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ag0;->k()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bg0;->k()V
 
     .line 44
     .line 45
@@ -181,5 +181,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

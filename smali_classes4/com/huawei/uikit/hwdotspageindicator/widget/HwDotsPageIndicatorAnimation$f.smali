@@ -83,7 +83,7 @@
 
     iget v4, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$f;->b:F
 
-    invoke-static {v3, v4, v2, v4}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v3, v4, v2, v4}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v2
 

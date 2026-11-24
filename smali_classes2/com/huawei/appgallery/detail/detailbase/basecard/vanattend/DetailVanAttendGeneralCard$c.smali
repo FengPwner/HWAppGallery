@@ -47,13 +47,13 @@
 .method public final run()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v1, "DetailVanAttendGeneralCard"
 
     const-string v2, "RefreshQuestionRunnable"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/vanattend/DetailVanAttendGeneralCard$c;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/vanattend/DetailVanAttendGeneralCard;
 

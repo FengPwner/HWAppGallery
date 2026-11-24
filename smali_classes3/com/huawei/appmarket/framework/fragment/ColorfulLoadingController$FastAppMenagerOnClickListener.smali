@@ -39,7 +39,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/ColorfulLoadingController$FastAppMenagerOnClickListener;->b:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ze8;->d(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ef8;->d(Landroid/content/Context;)V
 
     return-void
 .end method

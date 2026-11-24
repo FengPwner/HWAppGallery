@@ -20,11 +20,11 @@
 
     if-nez p0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object p0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     const-string v1, "getBattery# context is null !"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p0, Lcom/huawei/appmarket/v70;
 
@@ -59,7 +59,7 @@
 
     invoke-direct {v4, v6}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v4}, Lcom/huawei/appmarket/jz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-static {p0, v4}, Lcom/huawei/appmarket/kz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     move-result-object p0
 
@@ -124,16 +124,16 @@
     goto :goto_1
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object p0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     const-string v2, "register battery changed broadcast securityException,and ignore the battery status..."
 
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v3, v1, Lcom/huawei/appmarket/v70;->a:Z
 
     :goto_1
-    sget-object p0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object p0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -147,7 +147,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 .end method

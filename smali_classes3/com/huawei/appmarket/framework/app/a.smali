@@ -24,17 +24,17 @@
 
     const-class v1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-interface {p0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {p0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     move-result-object p0
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/gw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/aq1;
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/mw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/dq1;
 
     return-void
 .end method
@@ -47,23 +47,23 @@
     .line 1
     const-string v0, "DynamicCore"
 
-    const-class v1, Lcom/huawei/appmarket/uo3;
+    const-class v1, Lcom/huawei/appmarket/wo3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/uo3;
+    check-cast v0, Lcom/huawei/appmarket/wo3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/uo3;->d()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/wo3;->d()V
 
-    invoke-static {}, Lcom/huawei/appmarket/la3;->e()Lcom/huawei/appmarket/la3;
+    invoke-static {}, Lcom/huawei/appmarket/oa3;->e()Lcom/huawei/appmarket/oa3;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/la3;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/oa3;->c()V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v0
 

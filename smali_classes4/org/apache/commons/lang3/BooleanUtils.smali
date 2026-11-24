@@ -193,7 +193,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/xy;->t(Ljava/util/List;Ljava/util/function/Consumer;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/yy;->t(Ljava/util/List;Ljava/util/function/Consumer;)V
 
     return-void
 .end method
@@ -1415,7 +1415,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "yes"
+    const-string/jumbo v2, "yes"
 
     invoke-static {p0, v2, v0, v1}, Lorg/apache/commons/lang3/BooleanUtils;->toString(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -1428,7 +1428,7 @@
     .registers 3
 
     .line 2
-    const-string v0, "yes"
+    const-string/jumbo v0, "yes"
 
     const-string v1, "no"
 

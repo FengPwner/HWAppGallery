@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -27,10 +27,10 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/nv7;
+.field private final a:Lcom/huawei/appmarket/tv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -51,13 +51,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;Lcom/huawei/appmarket/nv7;)V
+.method public constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;Lcom/huawei/appmarket/tv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Ljava/lang/String;",
             ">;)V"
         }
@@ -74,26 +74,26 @@
 
     iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->b:Ljava/lang/ref/WeakReference;
 
-    iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/tv7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -139,7 +139,7 @@
 
     move-result-wide v1
 
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->c:Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;
 
@@ -158,7 +158,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/tv7;
 
     new-instance v0, Lcom/huawei/agconnect/applinking/AppLinkingException;
 
@@ -168,15 +168,15 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method

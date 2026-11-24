@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/by7;
+.implements Lcom/huawei/appmarket/gy7;
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ay7;
+.field private b:Lcom/huawei/appmarket/fy7;
 
 
 # direct methods
@@ -25,7 +25,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -41,7 +41,7 @@
 
     const-string v2, "ThirdDialogResultActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setResult(I)V
 
@@ -53,7 +53,7 @@
 .method public final onActivityResult(IILandroid/content/Intent;)V
     .registers 5
 
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -69,7 +69,7 @@
 
     const-string v0, "ThirdDialogResultActivity"
 
-    invoke-virtual {p1, v0, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
@@ -84,13 +84,13 @@
 
     if-ne p2, p1, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/ay7;
+    iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/fy7;
 
     if-eqz p1, :cond_1
 
     const-string p3, "score/4/1"
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/ay7;->n(Ljava/lang/String;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/fy7;->n(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p0, p2}, Landroid/app/Activity;->setResult(I)V
@@ -152,7 +152,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 27
     .line 28
@@ -173,7 +173,7 @@
 
     .line 36
     .line 37
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 38
     .line 39
@@ -181,7 +181,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -216,7 +216,7 @@
 
     .line 58
     .line 59
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 60
     .line 61
@@ -224,7 +224,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -238,38 +238,38 @@
 
     .line 70
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/ay7;
+    new-instance v0, Lcom/huawei/appmarket/fy7;
 
     .line 71
     .line 72
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/ay7;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/fy7;-><init>(Landroid/app/Activity;)V
 
     .line 73
     .line 74
     .line 75
-    iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/ay7;
+    iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/fy7;
 
     .line 76
     .line 77
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ay7;->e(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/fy7;->e(Landroid/os/Bundle;)V
 
     .line 78
     .line 79
     .line 80
-    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/ay7;
+    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/fy7;
 
     .line 81
     .line 82
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ay7;->l(Lcom/huawei/appmarket/by7;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/fy7;->l(Lcom/huawei/appmarket/gy7;)V
 
     .line 83
     .line 84
     .line 85
-    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/ay7;
+    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/thirdcomment/ThirdDialogResultActivity;->b:Lcom/huawei/appmarket/fy7;
 
     .line 86
     .line 87
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ay7;->m()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fy7;->m()V
 
     .line 88
     .line 89

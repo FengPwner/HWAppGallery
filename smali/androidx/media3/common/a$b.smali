@@ -43,7 +43,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/qr4;",
+            "Lcom/huawei/appmarket/tr4;",
             ">;"
         }
     .end annotation
@@ -110,7 +110,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/jb4;->p()Lcom/huawei/appmarket/jb4;
+    invoke-static {}, Lcom/huawei/appmarket/lb4;->p()Lcom/huawei/appmarket/lb4;
 
     move-result-object v0
 
@@ -717,7 +717,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/f95;->m(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/i95;->m(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -842,7 +842,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {p1}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     move-result-object p1
 
@@ -945,7 +945,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/f95;->m(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/i95;->m(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

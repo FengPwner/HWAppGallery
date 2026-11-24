@@ -90,7 +90,7 @@
 .method protected final onMeasure(II)V
     .registers 7
 
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     move-result v0
 
@@ -128,7 +128,7 @@
 
     div-int/lit8 v1, v1, 0x4
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     move-result v2
 
@@ -167,7 +167,7 @@
 
     div-int/lit8 v2, v2, 0x4
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     move-result v3
 

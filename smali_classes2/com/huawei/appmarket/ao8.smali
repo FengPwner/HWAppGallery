@@ -1,35 +1,42 @@
-.class public final Lcom/huawei/appmarket/ao8;
-.super Lcom/huawei/appmarket/gy4;
+.class public final synthetic Lcom/huawei/appmarket/ao8;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/content/DialogInterface$OnDismissListener;
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/ao8;
+
+# instance fields
+.field public final synthetic b:Lcom/huawei/appmarket/bo8;
+
+.field public final synthetic c:Landroid/app/Activity;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/bo8;Landroid/app/Activity;)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ao8;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ao8;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/ao8;->b:Lcom/huawei/appmarket/bo8;
 
-    sput-object v0, Lcom/huawei/appmarket/ao8;->a:Lcom/huawei/appmarket/ao8;
+    iput-object p2, p0, Lcom/huawei/appmarket/ao8;->c:Landroid/app/Activity;
 
     return-void
 .end method
 
-.method private constructor <init>()V
+
+# virtual methods
+.method public final onDismiss(Landroid/content/DialogInterface;)V
     .registers 3
 
     .line 1
-    const-string v0, "WebVL"
+    iget-object p1, p0, Lcom/huawei/appmarket/ao8;->b:Lcom/huawei/appmarket/bo8;
 
-    const/4 v1, 0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/ao8;->c:Landroid/app/Activity;
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bo8;->a(Lcom/huawei/appmarket/bo8;Landroid/app/Activity;)V
 
     return-void
 .end method

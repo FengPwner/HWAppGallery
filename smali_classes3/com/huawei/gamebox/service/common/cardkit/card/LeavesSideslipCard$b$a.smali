@@ -53,11 +53,11 @@
 
     .line 16
     .line 17
-    iget-object v1, v1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v1, v1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 20
     .line 21
@@ -69,11 +69,11 @@
 
     .line 24
     .line 25
-    iget-object v2, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 26
     .line 27
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 28
     .line 29
@@ -135,11 +135,11 @@
 
     .line 58
     .line 59
-    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->y:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->y:Lcom/huawei/appmarket/bk0;
 
     .line 60
     .line 61
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/common/cardkit/card/LeavesFlatpCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/common/cardkit/card/LeavesFlatpCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 62
     .line 63
@@ -255,7 +255,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic y(Lcom/huawei/gamebox/service/common/cardkit/card/LeavesSideslipCard$b$a;)Lcom/huawei/gamebox/service/common/cardkit/card/LeavesFlatpCard;

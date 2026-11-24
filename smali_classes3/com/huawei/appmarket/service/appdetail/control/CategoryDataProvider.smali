@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -104,31 +104,31 @@
 
     invoke-direct {v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;-><init>(Landroid/content/Context;)V
 
-    new-instance v2, Lcom/huawei/appmarket/fq1;
+    new-instance v2, Lcom/huawei/appmarket/iq1;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/fq1;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/iq1;-><init>()V
 
     const/4 v3, 0x1
 
-    invoke-virtual {v2, v1, v0, p1, v3}, Lcom/huawei/appmarket/w81;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;Z)V
+    invoke-virtual {v2, v1, v0, p1, v3}, Lcom/huawei/appmarket/x81;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;Z)V
 
-    new-instance v0, Lcom/huawei/appmarket/bm0;
+    new-instance v0, Lcom/huawei/appmarket/cm0;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/bm0;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/cm0;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bm0;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cm0;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->j0()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bm0;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cm0;->e(Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getName_()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bm0;->f(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cm0;->f(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/appdetail/control/CategoryDataProvider;->c()Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo;
 
@@ -152,14 +152,14 @@
 
     const-string p1, "response has no currentTabDetail, tabList is empty"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/bm0;
+.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/cm0;
     .registers 3
 
     .line 1
@@ -169,7 +169,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/bm0;
+    check-cast p1, Lcom/huawei/appmarket/cm0;
 
     return-object p1
 .end method
@@ -180,7 +180,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/appdetail/control/CategoryDataProvider;->a:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

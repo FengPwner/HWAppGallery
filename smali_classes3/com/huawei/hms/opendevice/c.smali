@@ -80,7 +80,7 @@
 
     .line 29
     .line 30
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -171,7 +171,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

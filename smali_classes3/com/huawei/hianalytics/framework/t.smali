@@ -872,7 +872,7 @@
 
     .line 408
     .line 409
-    invoke-static {v1, v6, v7, v4}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v6, v7, v4}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 410
     .line 411

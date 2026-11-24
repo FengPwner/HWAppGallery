@@ -55,18 +55,18 @@
 
     move-result-object p1
 
-    invoke-static {v1, v0, v2, p1}, Lcom/huawei/appmarket/jk0;->e(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/card/detailheadcardv4/DetailPermissionBeanV2;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, v2, p1}, Lcom/huawei/appmarket/kk0;->e(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/card/detailheadcardv4/DetailPermissionBeanV2;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v0, "DetailHeadCardV4"
 
     const-string v1, "null permission data,cannot jump to permission page"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

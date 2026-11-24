@@ -79,7 +79,7 @@
 
 .field private U:Landroid/content/res/ColorStateList;
 
-.field private final V:Lcom/huawei/appmarket/q45;
+.field private final V:Lcom/huawei/appmarket/t45;
 
 .field private W:Landroid/graphics/drawable/Drawable;
 
@@ -185,7 +185,7 @@
 
     const v0, 0x7f130650
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -237,11 +237,11 @@
 
     iput-boolean p1, p0, Lcom/google/android/material/slider/BaseSlider;->O:Z
 
-    new-instance v2, Lcom/huawei/appmarket/q45;
+    new-instance v2, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/t45;-><init>()V
 
-    iput-object v2, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iput-object v2, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -379,7 +379,7 @@
 
     iput-object v4, p0, Lcom/google/android/material/slider/BaseSlider;->k:Lcom/google/android/material/slider/BaseSlider$a;
 
-    sget-object v6, Lcom/huawei/appmarket/ie6;->W:[I
+    sget-object v6, Lcom/huawei/appmarket/ke6;->W:[I
 
     const v8, 0x7f130650
 
@@ -392,7 +392,7 @@
     move v7, p3
 
     .line 5
-    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -458,7 +458,7 @@
     const/16 p3, 0x13
 
     :goto_1
-    invoke-static {v3, p2, v5}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, v5}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v4
 
@@ -469,14 +469,14 @@
     :cond_2
     const v4, 0x7f06084f
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object v4
 
     :goto_2
     invoke-virtual {p0, v4}, Lcom/google/android/material/slider/BaseSlider;->setTrackInactiveTintList(Landroid/content/res/ColorStateList;)V
 
-    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -487,7 +487,7 @@
     :cond_3
     const p3, 0x7f06084c
 
-    invoke-static {p3, v3}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p3, v3}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -496,11 +496,11 @@
 
     const/16 p3, 0x9
 
-    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
-    invoke-virtual {v2, p3}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v2, p3}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     const/16 p3, 0xc
 
@@ -510,7 +510,7 @@
 
     if-eqz v4, :cond_4
 
-    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -527,7 +527,7 @@
 
     const/4 p3, 0x5
 
-    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -538,7 +538,7 @@
     :cond_5
     const p3, 0x7f06084d
 
-    invoke-static {p3, v3}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p3, v3}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -577,7 +577,7 @@
     const/16 p3, 0xf
 
     :goto_6
-    invoke-static {v3, p2, v5}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, v5}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v4
 
@@ -588,14 +588,14 @@
     :cond_8
     const v4, 0x7f06084e
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object v4
 
     :goto_7
     invoke-virtual {p0, v4}, Lcom/google/android/material/slider/BaseSlider;->setTickInactiveTintList(Landroid/content/res/ColorStateList;)V
 
-    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v3, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -606,7 +606,7 @@
     :cond_9
     const p3, 0x7f06084b
 
-    invoke-static {p3, v3}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p3, v3}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -669,7 +669,7 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setClickable(Z)V
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/q45;->P()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/t45;->P()V
 
     invoke-static {v3}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
@@ -687,7 +687,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/slider/BaseSlider;->h:Lcom/google/android/material/slider/BaseSlider$e;
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -918,6 +918,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private B()V
@@ -2755,6 +2756,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private getValueOfTouchPositionAbsolute()F
@@ -2777,7 +2779,7 @@
 
     iget v2, p0, Lcom/google/android/material/slider/BaseSlider;->F:F
 
-    invoke-static {v1, v2, v0, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, v2, v0, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 
@@ -2826,11 +2828,11 @@
     move-result-object v1
 
     .line 18
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Lcom/huawei/appmarket/f18;->getIntrinsicHeight()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/k18;->getIntrinsicHeight()I
 
     .line 21
     .line 22
@@ -2953,6 +2955,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private i(Z)Landroid/animation/ValueAnimator;
@@ -3108,7 +3111,7 @@
 
     .line 66
     .line 67
-    sget-object p1, Lcom/huawei/appmarket/mm;->e:Landroid/view/animation/DecelerateInterpolator;
+    sget-object p1, Lcom/huawei/appmarket/lm;->e:Landroid/view/animation/DecelerateInterpolator;
 
     .line 68
     .line 69
@@ -3116,7 +3119,7 @@
 
     .line 70
     :cond_5
-    sget-object p1, Lcom/huawei/appmarket/mm;->c:Lcom/huawei/appmarket/th2;
+    sget-object p1, Lcom/huawei/appmarket/lm;->c:Lcom/huawei/appmarket/wh2;
 
     .line 71
     .line 72
@@ -3892,11 +3895,11 @@
     move-result-object v4
 
     .line 84
-    check-cast v4, Lcom/huawei/appmarket/f18;
+    check-cast v4, Lcom/huawei/appmarket/k18;
 
     .line 85
     .line 86
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->L(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->L(Landroid/view/View;)Z
 
     .line 87
     .line 88
@@ -3908,7 +3911,7 @@
 
     .line 91
     .line 92
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 93
     .line 94
@@ -3916,7 +3919,7 @@
     move-result-object v5
 
     .line 96
-    invoke-static {v5}, Lcom/huawei/appmarket/tj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/vi8;
+    invoke-static {v5}, Lcom/huawei/appmarket/zj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/bj8;
 
     .line 97
     .line 98
@@ -3928,12 +3931,12 @@
 
     .line 101
     .line 102
-    invoke-interface {v5, v4}, Lcom/huawei/appmarket/vi8;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {v5, v4}, Lcom/huawei/appmarket/bj8;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 103
     .line 104
     .line 105
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 106
     .line 107
@@ -3941,7 +3944,7 @@
     move-result-object v5
 
     .line 109
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/f18;->a0(Landroid/view/ViewGroup;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/k18;->a0(Landroid/view/ViewGroup;)V
 
     .line 110
     .line 111
@@ -4001,7 +4004,7 @@
 
     .line 137
     .line 138
-    sget-object v6, Lcom/huawei/appmarket/ie6;->W:[I
+    sget-object v6, Lcom/huawei/appmarket/ke6;->W:[I
 
     .line 139
     .line 140
@@ -4018,7 +4021,7 @@
 
     .line 146
     .line 147
-    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     .line 148
     .line 149
@@ -4051,7 +4054,7 @@
     move-result v4
 
     .line 164
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/f18;->Y(Landroid/content/Context;I)Lcom/huawei/appmarket/f18;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/k18;->Y(Landroid/content/Context;I)Lcom/huawei/appmarket/k18;
 
     .line 165
     .line 166
@@ -4069,7 +4072,7 @@
     .line 172
     .line 173
     .line 174
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->L(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->L(Landroid/view/View;)Z
 
     .line 175
     .line 176
@@ -4081,7 +4084,7 @@
 
     .line 179
     .line 180
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 181
     .line 182
@@ -4089,7 +4092,7 @@
     move-result-object v2
 
     .line 184
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/f18;->b0(Landroid/view/ViewGroup;)V
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/k18;->b0(Landroid/view/ViewGroup;)V
 
     .line 185
     .line 186
@@ -4143,14 +4146,14 @@
     move-result-object v1
 
     .line 209
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
     .line 210
     .line 211
     int-to-float v2, p1
 
     .line 212
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/q45;->S(F)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/t45;->S(F)V
 
     .line 213
     .line 214
@@ -4436,7 +4439,7 @@
     return-void
 .end method
 
-.method private x(Lcom/huawei/appmarket/f18;F)V
+.method private x(Lcom/huawei/appmarket/k18;F)V
     .registers 6
 
     .line 1
@@ -4448,7 +4451,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/f18;->d0(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/k18;->d0(Ljava/lang/CharSequence;)V
 
     .line 6
     .line 7
@@ -4482,7 +4485,7 @@
     add-int/2addr v0, p2
 
     .line 21
-    invoke-virtual {p1}, Lcom/huawei/appmarket/f18;->getIntrinsicWidth()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/k18;->getIntrinsicWidth()I
 
     .line 22
     .line 23
@@ -4519,7 +4522,7 @@
     sub-int/2addr p2, v1
 
     .line 38
-    invoke-virtual {p1}, Lcom/huawei/appmarket/f18;->getIntrinsicHeight()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/k18;->getIntrinsicHeight()I
 
     .line 39
     .line 40
@@ -4531,7 +4534,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1}, Lcom/huawei/appmarket/f18;->getIntrinsicWidth()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/k18;->getIntrinsicWidth()I
 
     .line 45
     .line 46
@@ -4564,7 +4567,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 62
     .line 63
@@ -4572,7 +4575,7 @@
     move-result-object v0
 
     .line 65
-    invoke-static {v0, p0, p2}, Lcom/huawei/appmarket/pi1;->c(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {v0, p0, p2}, Lcom/huawei/appmarket/si1;->c(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 66
     .line 67
@@ -4582,7 +4585,7 @@
     .line 69
     .line 70
     .line 71
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 72
     .line 73
@@ -4590,7 +4593,7 @@
     move-result-object p2
 
     .line 75
-    invoke-static {p2}, Lcom/huawei/appmarket/tj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/vi8;
+    invoke-static {p2}, Lcom/huawei/appmarket/zj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/bj8;
 
     .line 76
     .line 77
@@ -4598,7 +4601,7 @@
     move-result-object p2
 
     .line 79
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/vi8;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/bj8;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 80
     .line 81
@@ -4805,7 +4808,7 @@
 
     .line 59
     .line 60
-    invoke-static {v1, v2, v0, v1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, v2, v0, v1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     .line 61
     .line 62
@@ -5624,7 +5627,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->h:Lcom/google/android/material/slider/BaseSlider$e;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/v42;->n(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/z42;->n(Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -5724,9 +5727,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/q45;->isStateful()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t45;->isStateful()Z
 
     move-result v2
 
@@ -5741,9 +5744,9 @@
     goto :goto_0
 
     :cond_1
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->isStateful()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->isStateful()Z
 
     move-result v1
 
@@ -5790,7 +5793,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->h:Lcom/google/android/material/slider/BaseSlider$e;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/v42;->p()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/z42;->p()I
 
     move-result v0
 
@@ -5856,9 +5859,9 @@
 .method public getThumbElevation()F
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->q()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->q()F
 
     move-result v0
 
@@ -5876,9 +5879,9 @@
 .method public getThumbStrokeColor()Landroid/content/res/ColorStateList;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->v()Landroid/content/res/ColorStateList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->v()Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -5888,9 +5891,9 @@
 .method public getThumbStrokeWidth()F
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->w()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->w()F
 
     move-result v0
 
@@ -5900,9 +5903,9 @@
 .method public getThumbTintList()Landroid/content/res/ColorStateList;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->r()Landroid/content/res/ColorStateList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->r()Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -6104,11 +6107,11 @@
     move-result-object v1
 
     .line 20
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
     .line 21
     .line 22
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 23
     .line 24
@@ -6116,7 +6119,7 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/f18;->b0(Landroid/view/ViewGroup;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/k18;->b0(Landroid/view/ViewGroup;)V
 
     .line 27
     .line 28
@@ -6231,6 +6234,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onDetachedFromWindow()V
@@ -6292,11 +6296,11 @@
     move-result-object v1
 
     .line 27
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
     .line 28
     .line 29
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 30
     .line 31
@@ -6304,7 +6308,7 @@
     move-result-object v2
 
     .line 33
-    invoke-static {v2}, Lcom/huawei/appmarket/tj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/vi8;
+    invoke-static {v2}, Lcom/huawei/appmarket/zj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/bj8;
 
     .line 34
     .line 35
@@ -6316,12 +6320,12 @@
 
     .line 38
     .line 39
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/vi8;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/bj8;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 43
     .line 44
@@ -6329,7 +6333,7 @@
     move-result-object v2
 
     .line 46
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/f18;->a0(Landroid/view/ViewGroup;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/k18;->a0(Landroid/view/ViewGroup;)V
 
     .line 47
     .line 48
@@ -6426,6 +6430,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onDraw(Landroid/graphics/Canvas;)V
@@ -7197,7 +7202,7 @@
     move-result-object v3
 
     .line 353
-    check-cast v3, Lcom/huawei/appmarket/f18;
+    check-cast v3, Lcom/huawei/appmarket/k18;
 
     .line 354
     .line 355
@@ -7225,7 +7230,7 @@
     move-result v4
 
     .line 367
-    invoke-direct {p0, v3, v4}, Lcom/google/android/material/slider/BaseSlider;->x(Lcom/huawei/appmarket/f18;F)V
+    invoke-direct {p0, v3, v4}, Lcom/google/android/material/slider/BaseSlider;->x(Lcom/huawei/appmarket/k18;F)V
 
     .line 368
     .line 369
@@ -7259,7 +7264,7 @@
     move-result-object v0
 
     .line 383
-    check-cast v0, Lcom/huawei/appmarket/f18;
+    check-cast v0, Lcom/huawei/appmarket/k18;
 
     .line 384
     .line 385
@@ -7291,7 +7296,7 @@
     move-result v1
 
     .line 399
-    invoke-direct {p0, v0, v1}, Lcom/google/android/material/slider/BaseSlider;->x(Lcom/huawei/appmarket/f18;F)V
+    invoke-direct {p0, v0, v1}, Lcom/google/android/material/slider/BaseSlider;->x(Lcom/huawei/appmarket/k18;F)V
 
     .line 400
     .line 401
@@ -7544,7 +7549,7 @@
     .line 516
     .line 517
     :cond_12
-    iget-object v5, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v5, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
     .line 518
     .line 519
@@ -8522,7 +8527,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/v42;->k(I)Z
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/z42;->k(I)Z
 
     .line 14
     .line 15
@@ -8611,7 +8616,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/v42;->C(I)Z
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/z42;->C(I)Z
 
     .line 55
     .line 56
@@ -8844,6 +8849,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -9977,11 +9989,11 @@
     move-result-object v0
 
     .line 18
-    check-cast v0, Lcom/huawei/appmarket/f18;
+    check-cast v0, Lcom/huawei/appmarket/k18;
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Lcom/huawei/appmarket/f18;->getIntrinsicHeight()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/k18;->getIntrinsicHeight()I
 
     .line 21
     .line 22
@@ -11359,7 +11371,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 
@@ -11559,7 +11571,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->h:Lcom/google/android/material/slider/BaseSlider$e;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/v42;->C(I)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/z42;->C(I)Z
 
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
@@ -11653,7 +11665,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/qc1;->w(Landroid/graphics/drawable/RippleDrawable;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/sc1;->w(Landroid/graphics/drawable/RippleDrawable;I)V
 
     .line 37
     .line 38
@@ -11963,7 +11975,7 @@
     return-void
 .end method
 
-.method public setLabelFormatter(Lcom/huawei/appmarket/rr4;)V
+.method public setLabelFormatter(Lcom/huawei/appmarket/ur4;)V
     .registers 2
 
     .line 1
@@ -12057,9 +12069,9 @@
 .method public setThumbElevation(F)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     return-void
 .end method
@@ -12129,7 +12141,7 @@
 
     .line 20
     .line 21
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 22
     .line 23
@@ -12178,19 +12190,19 @@
     .line 44
     .line 45
     :cond_1
-    iget-object p1, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
     .line 46
     .line 47
-    sget-object v1, Lcom/huawei/appmarket/nb7;->m:Lcom/huawei/appmarket/fn6;
+    sget-object v1, Lcom/huawei/appmarket/sb7;->m:Lcom/huawei/appmarket/in6;
 
     .line 48
     .line 49
-    new-instance v1, Lcom/huawei/appmarket/nb7$b;
+    new-instance v1, Lcom/huawei/appmarket/sb7$b;
 
     .line 50
     .line 51
-    invoke-direct {v1}, Lcom/huawei/appmarket/nb7$b;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/sb7$b;-><init>()V
 
     .line 52
     .line 53
@@ -12202,12 +12214,12 @@
     int-to-float v2, v2
 
     .line 57
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nb7$b;->q(F)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sb7$b;->q(F)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb7$b;->m()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sb7$b;->m()Lcom/huawei/appmarket/sb7;
 
     .line 61
     .line 62
@@ -12215,7 +12227,7 @@
     move-result-object v1
 
     .line 64
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/q45;->setShapeAppearanceModel(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/t45;->setShapeAppearanceModel(Lcom/huawei/appmarket/sb7;)V
 
     .line 65
     .line 66
@@ -12559,9 +12571,9 @@
 .method public setThumbStrokeColor(Landroid/content/res/ColorStateList;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->R(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->R(Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
@@ -12577,7 +12589,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -12590,9 +12602,9 @@
 .method public setThumbStrokeWidth(F)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->S(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->S(F)V
 
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
@@ -12621,9 +12633,9 @@
 .method public setThumbTintList(Landroid/content/res/ColorStateList;)V
     .registers 4
 
-    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider;->V:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->r()Landroid/content/res/ColorStateList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->r()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -12636,7 +12648,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 

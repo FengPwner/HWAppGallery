@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -38,19 +38,19 @@
     .line 1
     const-string v0, "activity"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "event"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    instance-of v0, p0, Lcom/huawei/appmarket/gu4;
+    instance-of v0, p0, Lcom/huawei/appmarket/ju4;
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Lcom/huawei/appmarket/gu4;
+    check-cast p0, Lcom/huawei/appmarket/ju4;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/k;
+    invoke-interface {p0}, Lcom/huawei/appmarket/ju4;->getLifecycle()Landroidx/lifecycle/k;
 
     move-result-object p0
 
@@ -59,13 +59,13 @@
     return-void
 
     :cond_0
-    instance-of v0, p0, Lcom/huawei/appmarket/du4;
+    instance-of v0, p0, Lcom/huawei/appmarket/gu4;
 
     if-eqz v0, :cond_1
 
-    check-cast p0, Lcom/huawei/appmarket/du4;
+    check-cast p0, Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p0
 
@@ -89,7 +89,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -124,7 +124,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/vg5;->k(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$c;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yg5;->k(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$c;)V
 
     .line 23
     .line 24

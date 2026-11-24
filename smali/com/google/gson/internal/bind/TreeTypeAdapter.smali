@@ -23,19 +23,19 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/kp4;
+.field private final a:Lcom/huawei/appmarket/np4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/kp4<",
+            "Lcom/huawei/appmarket/np4<",
             "TT;>;"
         }
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/lo4;
+.field private final b:Lcom/huawei/appmarket/oo4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lo4<",
+            "Lcom/huawei/appmarket/oo4<",
             "TT;>;"
         }
     .end annotation
@@ -52,7 +52,7 @@
     .end annotation
 .end field
 
-.field private final e:Lcom/huawei/appmarket/h58;
+.field private final e:Lcom/huawei/appmarket/n58;
 
 .field private final f:Lcom/google/gson/internal/bind/TreeTypeAdapter$b;
     .annotation system Ldalvik/annotation/Signature;
@@ -76,19 +76,19 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/kp4;Lcom/huawei/appmarket/lo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/h58;)V
+.method public constructor <init>(Lcom/huawei/appmarket/np4;Lcom/huawei/appmarket/oo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/n58;)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/kp4<",
+            "Lcom/huawei/appmarket/np4<",
             "TT;>;",
-            "Lcom/huawei/appmarket/lo4<",
+            "Lcom/huawei/appmarket/oo4<",
             "TT;>;",
             "Lcom/google/gson/Gson;",
             "Lcom/google/gson/reflect/TypeToken<",
             "TT;>;",
-            "Lcom/huawei/appmarket/h58;",
+            "Lcom/huawei/appmarket/n58;",
             ")V"
         }
     .end annotation
@@ -108,24 +108,24 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v6}, Lcom/google/gson/internal/bind/TreeTypeAdapter;-><init>(Lcom/huawei/appmarket/kp4;Lcom/huawei/appmarket/lo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/h58;Z)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/gson/internal/bind/TreeTypeAdapter;-><init>(Lcom/huawei/appmarket/np4;Lcom/huawei/appmarket/oo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/n58;Z)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/kp4;Lcom/huawei/appmarket/lo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/h58;Z)V
+.method public constructor <init>(Lcom/huawei/appmarket/np4;Lcom/huawei/appmarket/oo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/n58;Z)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/kp4<",
+            "Lcom/huawei/appmarket/np4<",
             "TT;>;",
-            "Lcom/huawei/appmarket/lo4<",
+            "Lcom/huawei/appmarket/oo4<",
             "TT;>;",
             "Lcom/google/gson/Gson;",
             "Lcom/google/gson/reflect/TypeToken<",
             "TT;>;",
-            "Lcom/huawei/appmarket/h58;",
+            "Lcom/huawei/appmarket/n58;",
             "Z)V"
         }
     .end annotation
@@ -141,15 +141,15 @@
 
     iput-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->f:Lcom/google/gson/internal/bind/TreeTypeAdapter$b;
 
-    iput-object p1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/kp4;
+    iput-object p1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/np4;
 
-    iput-object p2, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->b:Lcom/huawei/appmarket/lo4;
+    iput-object p2, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->b:Lcom/huawei/appmarket/oo4;
 
     iput-object p3, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->c:Lcom/google/gson/Gson;
 
     iput-object p4, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->d:Lcom/google/gson/reflect/TypeToken;
 
-    iput-object p5, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->e:Lcom/huawei/appmarket/h58;
+    iput-object p5, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->e:Lcom/huawei/appmarket/n58;
 
     iput-boolean p6, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->g:Z
 
@@ -176,11 +176,11 @@
     :cond_0
     iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->c:Lcom/google/gson/Gson;
 
-    iget-object v1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->e:Lcom/huawei/appmarket/h58;
+    iget-object v1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->e:Lcom/huawei/appmarket/n58;
 
     iget-object v2, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->d:Lcom/google/gson/reflect/TypeToken;
 
-    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/h58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
+    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/n58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
 
     move-result-object v0
 
@@ -190,7 +190,7 @@
     return-object v0
 .end method
 
-.method public static f(Lcom/google/gson/reflect/TypeToken;Ljava/lang/Object;)Lcom/huawei/appmarket/h58;
+.method public static f(Lcom/google/gson/reflect/TypeToken;Ljava/lang/Object;)Lcom/huawei/appmarket/n58;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -199,7 +199,7 @@
             "*>;",
             "Ljava/lang/Object;",
             ")",
-            "Lcom/huawei/appmarket/h58;"
+            "Lcom/huawei/appmarket/n58;"
         }
     .end annotation
 
@@ -233,12 +233,12 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -250,7 +250,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->b:Lcom/huawei/appmarket/lo4;
+    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->b:Lcom/huawei/appmarket/oo4;
 
     .line 2
     .line 3
@@ -266,7 +266,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -278,7 +278,7 @@
 
     .line 14
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/ro7;->a(Lcom/huawei/appmarket/gp4;)Lcom/huawei/appmarket/mo4;
+    invoke-static {p1}, Lcom/huawei/appmarket/wo7;->a(Lcom/huawei/appmarket/jp4;)Lcom/huawei/appmarket/po4;
 
     .line 15
     .line 16
@@ -299,7 +299,7 @@
     .line 23
     .line 24
     .line 25
-    instance-of v1, p1, Lcom/huawei/appmarket/uo4;
+    instance-of v1, p1, Lcom/huawei/appmarket/xo4;
 
     .line 26
     .line 27
@@ -330,7 +330,7 @@
 
     .line 38
     .line 39
-    invoke-interface {v0, p1, v1, v2}, Lcom/huawei/appmarket/lo4;->deserialize(Lcom/huawei/appmarket/mo4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/ko4;)Ljava/lang/Object;
+    invoke-interface {v0, p1, v1, v2}, Lcom/huawei/appmarket/oo4;->deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -393,12 +393,12 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation
@@ -410,7 +410,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/kp4;
+    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/np4;
 
     .line 2
     .line 3
@@ -426,7 +426,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -447,7 +447,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->E()Lcom/huawei/appmarket/tp4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->E()Lcom/huawei/appmarket/wp4;
 
     .line 20
     .line 21
@@ -472,7 +472,7 @@
 
     .line 30
     .line 31
-    invoke-interface {v0, p2, v1, v2}, Lcom/huawei/appmarket/kp4;->serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/jp4;)Lcom/huawei/appmarket/mo4;
+    invoke-interface {v0, p2, v1, v2}, Lcom/huawei/appmarket/np4;->serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/mp4;)Lcom/huawei/appmarket/po4;
 
     .line 32
     .line 33
@@ -484,7 +484,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 38
     .line 39
@@ -613,7 +613,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/kp4;
+    iget-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter;->a:Lcom/huawei/appmarket/np4;
 
     if-eqz v0, :cond_0
 

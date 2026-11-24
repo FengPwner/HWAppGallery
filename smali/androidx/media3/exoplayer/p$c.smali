@@ -163,7 +163,7 @@
 
     .line 42
     .line 43
-    sget p1, Lcom/huawei/appmarket/ge8;->a:I
+    sget p1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 44
     .line 45

@@ -1,33 +1,41 @@
-.class public interface abstract Lcom/huawei/appmarket/f55;
+.class public final Lcom/huawei/appmarket/f55;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/f55;
+# instance fields
+.field private a:I
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>()V
     .registers 1
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/f55$a;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/f55$a;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/f55;->a:Lcom/huawei/appmarket/f55;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public abstract a()J
-.end method
+.method public final a()V
+    .registers 3
 
-.method public abstract b()J
-.end method
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/f55;->a:I
 
-.method public abstract next()Z
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/f55;->a:I
+
+    const v1, 0x7fffffff
+
+    if-ne v0, v1, :cond_0
+
+    div-int/lit8 v0, v0, 0x2
+
+    iput v0, p0, Lcom/huawei/appmarket/f55;->a:I
+
+    :cond_0
+    return-void
 .end method

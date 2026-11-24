@@ -224,7 +224,7 @@
 
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 38
     .line 39
@@ -236,7 +236,7 @@
 
     .line 42
     .line 43
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 44
     .line 45
@@ -244,7 +244,7 @@
     move-result v1
 
     .line 47
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 48
     .line 49
@@ -320,7 +320,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final s1()Ljava/util/ArrayList;

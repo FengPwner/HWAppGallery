@@ -48,7 +48,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -209,23 +209,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 
@@ -258,7 +241,7 @@
 
     invoke-virtual {p0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -267,7 +250,7 @@
     :catch_0
     move-exception v2
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/dz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     invoke-super {p0}, Landroid/webkit/WebView;->destroy()V
@@ -342,7 +325,7 @@
 
     const-string v1, "remove js interface"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -367,7 +350,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dz6;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hz6;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

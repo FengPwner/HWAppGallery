@@ -2,36 +2,28 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/kh3;
+
 
 # virtual methods
-.method public abstract C0()V
+.method public abstract a1()V
 .end method
 
-.method public abstract D2()V
+.method public abstract e2()V
 .end method
 
-.method public abstract H1()V
+.method public abstract k2()V
 .end method
 
-.method public abstract R0()Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oh4;",
-            ">;"
-        }
-    .end annotation
+.method public abstract l()V
 .end method
 
-.method public abstract f1()V
+.method public abstract o()V
 .end method
 
-.method public abstract q2(Ljava/lang/String;)V
+.method public abstract s()V
 .end method
 
-.method public abstract r1(Ljava/lang/Object;)V
-.end method
-
-.method public abstract x()V
+.method public abstract s1()V
 .end method

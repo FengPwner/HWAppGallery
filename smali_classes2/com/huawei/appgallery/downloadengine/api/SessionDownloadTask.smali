@@ -22,28 +22,28 @@
 
 # instance fields
 .field private accessId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private allowMobileNetworkDownload_:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private alreadyDownloadSize_:J
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private appID_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -54,39 +54,39 @@
 .field private d:I
 
 .field private detailID_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private dlPolicy_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private dlType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
-.field private e:Lcom/huawei/appmarket/ip1;
+.field private e:Lcom/huawei/appmarket/lp1;
 
 .field private extend_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private extraParam_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
 
 .field private featureTitleResIds_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -104,51 +104,51 @@
 .field private final i:Ljava/util/LinkedHashMap;
 
 .field private iconUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private initParam_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private installType_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private internalTest:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public interruptReason_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private isExternal_:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private isForeGroundTask_:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private isInstant_:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -163,7 +163,7 @@
 .end field
 
 .field private k:Z
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 .end field
 
@@ -172,17 +172,17 @@
 .field private m:Lcom/huawei/appmarket/z31;
 
 .field private maple_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private volatile n:Z
 
 .field private name_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -191,132 +191,132 @@
 .field private p:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask$b;
 
 .field private packageName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private packingType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private processorType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private progress_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private relatedDetailId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private reportCdnDownloadStartStatus_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private reportDownloadStartStatus_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private retryCount_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private serviceType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private sessionId_:J
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private shaderDeleted:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private shaderEscapeVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private shouldShowNotification_:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private sliceCheckDataStringSha256_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private status_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private taskNet_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private taskSubmitTime_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private taskType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private totalSize_:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private trace_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private universalUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionCode_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private wishId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -651,7 +651,7 @@
 
     aget-object v5, v4, v2
 
-    const-class v6, Lcom/huawei/appmarket/s02;
+    const-class v6, Lcom/huawei/appmarket/w02;
 
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Field;->isAnnotationPresent(Ljava/lang/Class;)Z
 
@@ -789,7 +789,7 @@
     goto :goto_1
 
     :cond_4
-    sget-object v6, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v6, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -817,7 +817,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v6, v1, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v1, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -825,9 +825,9 @@
     goto :goto_3
 
     :goto_2
-    sget-object v6, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v6, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v6, v1, v0, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v6, v1, v0, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_5
     :goto_3
@@ -876,7 +876,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/ej2;->n(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/tr2;->l(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -973,7 +973,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static d(Landroid/os/Bundle;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
@@ -1259,7 +1258,7 @@
     .line 18
     :cond_0
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     .line 19
     .line 20
@@ -1321,7 +1320,7 @@
     move-result-object p1
 
     .line 52
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -1356,7 +1355,7 @@
 
     .line 65
     :try_start_2
-    sget-object p2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object p2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     .line 66
     .line 67
@@ -1368,7 +1367,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 72
     .line 73
@@ -1478,7 +1477,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final K()I
@@ -2326,11 +2324,11 @@
     return-void
 .end method
 
-.method public final l()Lcom/huawei/appmarket/ip1;
+.method public final l()Lcom/huawei/appmarket/lp1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->e:Lcom/huawei/appmarket/ip1;
+    iget-object v0, p0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->e:Lcom/huawei/appmarket/lp1;
 
     return-object v0
 .end method
@@ -2519,7 +2517,7 @@
 
     .line 23
     .line 24
-    const-class v6, Lcom/huawei/appmarket/s02;
+    const-class v6, Lcom/huawei/appmarket/w02;
 
     .line 25
     .line 26
@@ -2624,7 +2622,7 @@
 
     .line 75
     .line 76
-    invoke-static {v7}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 77
     .line 78
@@ -2855,7 +2853,7 @@
 
     .line 182
     :cond_8
-    sget-object v5, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v5, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     .line 183
     .line 184
@@ -2863,7 +2861,7 @@
 
     .line 185
     .line 186
-    invoke-virtual {v5, v1, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v1, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -2875,11 +2873,11 @@
 
     .line 190
     :goto_2
-    sget-object v6, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v6, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     .line 191
     .line 192
-    invoke-virtual {v6, v1, v0, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v6, v1, v0, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 193
     .line 194
@@ -3125,11 +3123,11 @@
     return-object v0
 .end method
 
-.method public final u0(Lcom/huawei/appmarket/ip1;)V
+.method public final u0(Lcom/huawei/appmarket/lp1;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->e:Lcom/huawei/appmarket/ip1;
+    iput-object p1, p0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->e:Lcom/huawei/appmarket/lp1;
 
     return-void
 .end method

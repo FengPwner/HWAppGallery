@@ -43,7 +43,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ex2;->i()Lcom/huawei/appmarket/ex2;
+    invoke-static {}, Lcom/huawei/appmarket/hx2;->i()Lcom/huawei/appmarket/hx2;
 
     move-result-object v1
 
@@ -59,7 +59,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/te0;->h(ILjava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ue0;->h(ILjava/lang/String;)V
 
     :cond_0
     return-void

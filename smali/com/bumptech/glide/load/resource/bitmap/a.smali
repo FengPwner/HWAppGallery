@@ -28,10 +28,10 @@
 
 .field public static final e:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-.field public static final f:Lcom/huawei/appmarket/nr5;
+.field public static final f:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
             ">;"
         }
@@ -81,11 +81,11 @@
 
     const-string v1, "com.bumptech.glide.load.resource.bitmap.Downsampler.DownsampleStrategy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/nr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/nr5;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/pr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/pr5;
 
     move-result-object v0
 
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/nr5;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/pr5;
 
     const/4 v0, 0x1
 

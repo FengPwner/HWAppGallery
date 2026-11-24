@@ -25,29 +25,29 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/eb6;->a(I)I
+    invoke-static {p1}, Lcom/huawei/appmarket/gb6;->a(I)I
 
     move-result p1
 
     iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/e;->a:Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/ff4;
+    invoke-static {v0}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/hf4;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/huawei/appmarket/ff4;->g:Lcom/huawei/appmarket/zd5;
+    iget-object v1, v1, Lcom/huawei/appmarket/hf4;->g:Lcom/huawei/appmarket/ce5;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/ff4;
+    invoke-static {v0}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/hf4;
 
     move-result-object v1
 
-    iget-boolean v1, v1, Lcom/huawei/appmarket/ff4;->o:Z
+    iget-boolean v1, v1, Lcom/huawei/appmarket/hf4;->o:Z
 
     if-eqz v1, :cond_0
 
@@ -56,13 +56,13 @@
     :cond_0
     invoke-static {v0, p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->S3(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -92,7 +92,7 @@
 
     const-string v2, "InstallDistActivity"
 
-    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     invoke-static {v0}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->R3(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)I

@@ -39,9 +39,9 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADetailLoadingFragment$b;->b:Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADetailLoadingFragment;
 
-    iget-object v0, p1, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADetailLoadingFragment;->o0:Lcom/huawei/appmarket/r82;
+    iget-object v0, p1, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADetailLoadingFragment;->o0:Lcom/huawei/appmarket/v82;
 
-    iget-boolean v0, v0, Lcom/huawei/appmarket/r82;->s:Z
+    iget-boolean v0, v0, Lcom/huawei/appmarket/v82;->s:Z
 
     if-eqz v0, :cond_0
 

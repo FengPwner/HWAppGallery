@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;->getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;->getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic a:[Lcom/huawei/appmarket/nv7;
+.field final synthetic a:[Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;[Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;[Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;->b:Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;
 
-    iput-object p2, p0, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;->a:[Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;->a:[Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -64,7 +64,7 @@
 
     invoke-static {p2, p1}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;->a:[Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;->a:[Lcom/huawei/appmarket/tv7;
 
     const/4 p2, 0x0
 
@@ -74,7 +74,7 @@
 
     invoke-direct {p2}, Lcom/huawei/hms/common/api/AvailabilityException;-><init>()V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     const/4 p1, 0x0
 

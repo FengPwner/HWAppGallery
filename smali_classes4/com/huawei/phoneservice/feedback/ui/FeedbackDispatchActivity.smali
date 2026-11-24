@@ -639,10 +639,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static s3(Lcom/huawei/phoneservice/feedback/ui/FeedbackDispatchActivity;Z)V
@@ -959,10 +955,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static synthetic t3(Lcom/huawei/phoneservice/feedback/ui/FeedbackDispatchActivity;)Landroid/widget/ProgressBar;
@@ -1134,7 +1126,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 34
     .line 35
@@ -1481,6 +1473,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final c3()V
@@ -1892,6 +1904,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onActivityResult(IILandroid/content/Intent;)V
@@ -2393,10 +2425,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method protected final onPause()V

@@ -57,7 +57,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     goto :goto_0
 
@@ -74,7 +74,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     :goto_0
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/remotedevice/card/remotedevicenormalcardv1/RemoteDeviceNormalNodeV1;->M(Landroid/content/Context;)Lcom/huawei/appgallery/foundation/card/base/card/BaseDistCard;

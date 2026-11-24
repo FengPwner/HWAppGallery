@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard$b;->b:Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
 
     const-string v2, "1300100101"
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;->n1(Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ch7;->b(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/hh7;->b(Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/service/store/awk/card/SmallBannerCard;->U()V
 

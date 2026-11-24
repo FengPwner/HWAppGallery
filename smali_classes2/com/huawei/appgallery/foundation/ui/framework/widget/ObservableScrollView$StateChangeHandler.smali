@@ -42,7 +42,7 @@
 
     const-string v0, "scrollViewRef"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
@@ -62,7 +62,7 @@
 
     const-string v0, "msg"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/ObservableScrollView$StateChangeHandler;->a:Ljava/lang/ref/WeakReference;
 

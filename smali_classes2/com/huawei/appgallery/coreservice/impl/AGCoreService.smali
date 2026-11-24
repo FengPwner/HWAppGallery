@@ -43,7 +43,7 @@
 .method public final onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .registers 3
 
-    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/yl3;
+    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/am3;
 
     if-eqz v0, :cond_0
 
@@ -75,7 +75,7 @@
     .line 7
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/yl3;
+    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/am3;
 
     .line 10
     .line 11
@@ -105,7 +105,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -241,7 +241,7 @@
     .line 7
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/yl3;
+    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/am3;
 
     .line 10
     .line 11
@@ -390,7 +390,7 @@
 
     const-string p3, "Enter onStartCommand."
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget p3, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -416,7 +416,7 @@
 
     check-cast v1, Landroid/app/NotificationManager;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v0, Landroid/app/Notification$Builder;
@@ -437,7 +437,7 @@
 
     const-string v1, "startForeground..."
 
-    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 
@@ -466,7 +466,7 @@
 .method public final onUnbind(Landroid/content/Intent;)Z
     .registers 3
 
-    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/yl3;
+    sget-object v0, Lcom/huawei/appgallery/coreservice/impl/a;->d:Lcom/huawei/appmarket/am3;
 
     if-eqz v0, :cond_0
 

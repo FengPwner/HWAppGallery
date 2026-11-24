@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/u34;
+.implements Lcom/huawei/appmarket/w34;
 
 
 # static fields
@@ -16,17 +16,17 @@
 .field private isPreLoad:Z
 
 .field protected maxResults:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field protected reqPageNum:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field protected uri:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -72,16 +72,7 @@
     return v0
 .end method
 
-.method public U()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->uri:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final V(I)V
+.method public final U(I)V
     .registers 2
 
     .line 1
@@ -90,7 +81,7 @@
     return-void
 .end method
 
-.method public final W(I)V
+.method public final V(I)V
     .registers 2
 
     .line 1
@@ -99,7 +90,7 @@
     return-void
 .end method
 
-.method public X(Ljava/lang/String;)V
+.method public W(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -139,7 +130,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -157,7 +148,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -292,9 +283,17 @@
 .method public getUri()Ljava/lang/String;
     .registers 2
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getUri_()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->uri:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -326,7 +325,7 @@
 .method public setUri(Ljava/lang/String;)V
     .registers 2
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     return-void
 .end method

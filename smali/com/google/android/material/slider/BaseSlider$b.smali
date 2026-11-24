@@ -68,14 +68,14 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/f18;
+    check-cast v2, Lcom/huawei/appmarket/k18;
 
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/f18;->c0(F)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/k18;->c0(F)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     return-void
 .end method

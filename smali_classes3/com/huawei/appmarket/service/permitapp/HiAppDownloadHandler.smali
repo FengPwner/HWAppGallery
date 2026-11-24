@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/service/permitapp/HiAppDownloadHandler;
-.super Lcom/huawei/appmarket/hu1;
+.super Lcom/huawei/appmarket/lu1;
 .source "SourceFile"
 
 
@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/hu1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/lu1;-><init>()V
 
     return-void
 .end method
@@ -22,7 +22,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -31,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -40,12 +40,12 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    sget-object v0, Lcom/huawei/appmarket/g72;->a:Lcom/huawei/appmarket/g72;
+    sget-object v0, Lcom/huawei/appmarket/k72;->a:Lcom/huawei/appmarket/k72;
 
     .line 17
     .line 18
@@ -54,7 +54,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {p3}, Lcom/huawei/appmarket/g72;->d(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/k72;->d(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     .line 22
     .line 23
@@ -127,7 +127,7 @@
 
     .line 56
     .line 57
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -165,7 +165,7 @@
     move-result-object v0
 
     .line 77
-    invoke-static {v0, v5}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -212,12 +212,12 @@
 
     .line 100
     .line 101
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 102
     .line 103
     .line 104
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 105
     .line 106
@@ -225,7 +225,7 @@
     move-result-object v0
 
     .line 108
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 109
     .line 110
@@ -234,7 +234,7 @@
 
     .line 112
     :cond_2
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/hu1;->j(Landroid/content/Context;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/lu1;->j(Landroid/content/Context;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 113
     .line 114
@@ -244,7 +244,7 @@
 
     .line 116
     .line 117
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/rs1;->b(ILandroid/content/Context;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/us1;->b(ILandroid/content/Context;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 118
     .line 119
@@ -496,27 +496,4 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

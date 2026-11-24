@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/d48;)V
+.method final a(Lcom/huawei/appmarket/j48;)V
     .registers 3
 
     .line 1
@@ -69,11 +69,11 @@
     move-result-object v2
 
     .line 15
-    check-cast v2, Lcom/huawei/appmarket/d48;
+    check-cast v2, Lcom/huawei/appmarket/j48;
 
     .line 16
     .line 17
-    sget v3, Lcom/huawei/appmarket/oe8;->f:I
+    sget v3, Lcom/huawei/appmarket/te8;->f:I
 
     .line 18
     .line 19
@@ -81,7 +81,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d48;->l()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/j48;->l()Z
 
     .line 22
     .line 23
@@ -97,7 +97,7 @@
 
     .line 28
     :cond_0
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d48;->j()Lcom/huawei/appmarket/dm2;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/j48;->j()Lcom/huawei/appmarket/fm2;
 
     .line 29
     .line 30
@@ -105,7 +105,7 @@
     move-result-object v3
 
     .line 32
-    invoke-virtual {v3}, Lcom/huawei/appmarket/dm2;->o()F
+    invoke-virtual {v3}, Lcom/huawei/appmarket/fm2;->o()F
 
     .line 33
     .line 34
@@ -113,7 +113,7 @@
     move-result v3
 
     .line 36
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d48;->d()Lcom/huawei/appmarket/dm2;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/j48;->d()Lcom/huawei/appmarket/fm2;
 
     .line 37
     .line 38
@@ -121,7 +121,7 @@
     move-result-object v4
 
     .line 40
-    invoke-virtual {v4}, Lcom/huawei/appmarket/dm2;->o()F
+    invoke-virtual {v4}, Lcom/huawei/appmarket/fm2;->o()F
 
     .line 41
     .line 42
@@ -129,7 +129,7 @@
     move-result v4
 
     .line 44
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d48;->h()Lcom/huawei/appmarket/dm2;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/j48;->h()Lcom/huawei/appmarket/fm2;
 
     .line 45
     .line 46
@@ -137,7 +137,7 @@
     move-result-object v2
 
     .line 48
-    invoke-virtual {v2}, Lcom/huawei/appmarket/dm2;->o()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/fm2;->o()F
 
     .line 49
     .line 50
@@ -162,7 +162,7 @@
     div-float/2addr v2, v5
 
     .line 59
-    invoke-static {p1, v3, v4, v2}, Lcom/huawei/appmarket/oe8;->a(Landroid/graphics/Path;FFF)V
+    invoke-static {p1, v3, v4, v2}, Lcom/huawei/appmarket/te8;->a(Landroid/graphics/Path;FFF)V
 
     .line 60
     .line 61

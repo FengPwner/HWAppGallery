@@ -25,7 +25,7 @@
 
     const/16 v1, 0x3e8
 
-    invoke-static {v1, p0, p1, v0}, Lcom/huawei/appmarket/hd4;->o(ILandroid/app/Activity;ILjava/lang/String;)V
+    invoke-static {v1, p0, p1, v0}, Lcom/huawei/appmarket/jd4;->o(ILandroid/app/Activity;ILjava/lang/String;)V
 
     return-void
 .end method

@@ -48,7 +48,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object v0
 
@@ -68,19 +68,19 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/xa8;->d()Lcom/huawei/appmarket/xa8;
+    invoke-static {}, Lcom/huawei/appmarket/cb8;->d()Lcom/huawei/appmarket/cb8;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xa8;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cb8;->c(Z)V
 
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/xa8;->d()Lcom/huawei/appmarket/xa8;
+    invoke-static {}, Lcom/huawei/appmarket/cb8;->d()Lcom/huawei/appmarket/cb8;
 
     move-result-object v0
 

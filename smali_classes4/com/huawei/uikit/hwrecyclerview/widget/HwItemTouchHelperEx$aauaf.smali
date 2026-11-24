@@ -277,9 +277,9 @@
     :cond_1
     iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$aauaf;->a:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;
 
-    iget-object p1, p1, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/vx2;
+    iget-object p1, p1, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/yx2;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/vx2;->a(Landroid/view/MotionEvent;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/yx2;->a(Landroid/view/MotionEvent;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getActionMasked()I
 
@@ -428,9 +428,9 @@
 
     iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$aauaf;->a:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;
 
-    iget-object p1, p1, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/vx2;
+    iget-object p1, p1, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/yx2;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/vx2;->a(Landroid/view/MotionEvent;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/yx2;->a(Landroid/view/MotionEvent;)V
 
     iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$aauaf;->a:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;
 

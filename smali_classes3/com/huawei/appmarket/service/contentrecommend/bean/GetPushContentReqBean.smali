@@ -13,19 +13,19 @@
 .field private isHotWifi_:I
 
 .field private lastPhyZone_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private mcc_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private mnc_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -43,7 +43,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setMethod_(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -57,7 +57,7 @@
 
     iput-wide v0, p0, Lcom/huawei/appmarket/service/contentrecommend/bean/GetPushContentReqBean;->roamingTime_:J
 
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/contentrecommend/bean/GetPushContentReqBean;->lastPhyZone_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->n()V
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->n()V
 
     return-void
 .end method
@@ -105,25 +105,25 @@
 
     iput-object v1, p0, Lcom/huawei/appmarket/service/contentrecommend/bean/GetPushContentReqBean;->deviceSpecParams_:Lcom/huawei/appgallery/devicekit/api/DeviceSpec;
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->d()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/appmarket/service/contentrecommend/bean/GetPushContentReqBean;->mcc_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->e()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/appmarket/service/contentrecommend/bean/GetPushContentReqBean;->mnc_:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->p(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->p(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->k(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->k(Landroid/content/Context;)Z
 
     move-result v0
 

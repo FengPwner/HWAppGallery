@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field b:Lcom/huawei/appmarket/by3;
+.field b:Lcom/huawei/appmarket/dy3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/by3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/dy3;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ew0$a;->b:Lcom/huawei/appmarket/by3;
+    iput-object p1, p0, Lcom/huawei/appmarket/ew0$a;->b:Lcom/huawei/appmarket/dy3;
 
     return-void
 .end method
@@ -47,9 +47,9 @@
 
     const/4 p2, 0x0
 
-    iget-object p3, p0, Lcom/huawei/appmarket/ew0$a;->b:Lcom/huawei/appmarket/by3;
+    iget-object p3, p0, Lcom/huawei/appmarket/ew0$a;->b:Lcom/huawei/appmarket/dy3;
 
-    invoke-interface {p3, p1, p2}, Lcom/huawei/appmarket/by3;->b(II)V
+    invoke-interface {p3, p1, p2}, Lcom/huawei/appmarket/dy3;->b(II)V
 
     :cond_0
     return-void

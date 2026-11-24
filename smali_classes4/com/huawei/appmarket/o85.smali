@@ -4,310 +4,328 @@
 
 
 # direct methods
-.method public static bridge synthetic A(Landroid/app/Notification$Action;)Z
+.method public static bridge synthetic A(Landroid/app/Notification;)Ljava/lang/String;
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Action;->getAllowGeneratedReplies()Z
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic B(Ljava/util/stream/Stream;Lcom/huawei/appmarket/pc5;)Z
-    .registers 2
-
-    .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/Stream;->allMatch(Ljava/util/function/Predicate;)Z
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic C()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Landroid/app/Notification$DecoratedCustomViewStyle;
-
-    return-object v0
-.end method
-
-.method public static synthetic D()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Landroid/app/Notification$MessagingStyle$Message;
-
-    return-void
-.end method
-
-.method public static bridge synthetic a()I
-    .registers 1
-
-    .line 1
-    invoke-static {}, Landroid/telephony/SubscriptionManager;->getDefaultDataSubscriptionId()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static bridge synthetic b(Landroid/net/ConnectivityManager;)I
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getRestrictBackgroundStatus()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic c(Ljava/util/stream/IntStream;)I
-    .registers 1
-
-    .line 1
-    invoke-interface {p0}, Ljava/util/stream/IntStream;->sum()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic d(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification$Builder;
-    .registers 2
-
-    .line 1
-    invoke-static {p0, p1}, Landroid/app/Notification$Builder;->recoverBuilder(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0}, Landroid/app/Notification;->getShortcutId()Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic e()Landroid/app/Notification$DecoratedCustomViewStyle;
+.method public static bridge synthetic B(Landroid/telephony/CellSignalStrengthLte;)I
     .registers 1
 
     .line 1
-    new-instance v0, Landroid/app/Notification$DecoratedCustomViewStyle;
+    invoke-virtual {p0}, Landroid/telephony/CellSignalStrengthLte;->getRsrp()I
 
-    invoke-direct {v0}, Landroid/app/Notification$DecoratedCustomViewStyle;-><init>()V
+    move-result p0
+
+    return p0
+.end method
+
+.method public static synthetic C(Ljava/lang/String;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    .registers 4
+
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
+
+    const/4 v1, 0x3
+
+    invoke-direct {v0, p0, p1, v1}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
 
     return-object v0
 .end method
 
-.method public static synthetic f(Ljava/lang/CharSequence;JLjava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle$Message;
-    .registers 5
-
-    .line 1
-    new-instance v0, Landroid/app/Notification$MessagingStyle$Message;
-
-    invoke-direct {v0, p0, p1, p2, p3}, Landroid/app/Notification$MessagingStyle$Message;-><init>(Ljava/lang/CharSequence;JLjava/lang/CharSequence;)V
-
-    return-object v0
-.end method
-
-.method public static synthetic g(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
-    .registers 2
-
-    .line 1
-    new-instance v0, Landroid/app/Notification$MessagingStyle;
-
-    invoke-direct {v0, p0}, Landroid/app/Notification$MessagingStyle;-><init>(Ljava/lang/CharSequence;)V
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic h(Landroid/telephony/TelephonyManager;I)Landroid/telephony/TelephonyManager;
-    .registers 2
-
-    .line 1
-    invoke-virtual {p0, p1}, Landroid/telephony/TelephonyManager;->createForSubscriptionId(I)Landroid/telephony/TelephonyManager;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic i()Ljava/lang/Class;
+.method public static bridge synthetic D(Landroid/telephony/CellSignalStrengthLte;)I
     .registers 1
 
     .line 1
-    const-class v0, Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0}, Landroid/telephony/CellSignalStrengthLte;->getCqi()I
 
-    return-object v0
+    move-result p0
+
+    return p0
 .end method
 
-.method public static bridge synthetic j(Lcom/huawei/appmarket/mi5;)Ljava/util/Spliterator;
-    .registers 2
+.method public static bridge synthetic a(Landroid/app/Notification;)I
+    .registers 1
 
     .line 1
-    const/16 v0, 0x111
+    invoke-virtual {p0}, Landroid/app/Notification;->getBadgeIconType()I
 
-    invoke-static {p0, v0}, Ljava/util/Spliterators;->spliteratorUnknownSize(Ljava/util/Iterator;I)Ljava/util/Spliterator;
+    move-result p0
 
-    move-result-object p0
-
-    return-object p0
+    return p0
 .end method
 
-.method public static bridge synthetic k()Ljava/util/stream/Collector;
+.method public static bridge synthetic b(Landroid/app/NotificationChannel;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getImportance()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic c(Landroid/telephony/CellSignalStrengthLte;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/telephony/CellSignalStrengthLte;->getRssnr()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic d(Landroid/app/Notification;)J
     .registers 3
 
     .line 1
-    const-string v0, "["
+    invoke-virtual {p0}, Landroid/app/Notification;->getTimeoutAfter()J
 
-    const-string v1, "]"
+    move-result-wide v0
 
-    const-string v2, ","
-
-    invoke-static {v2, v0, v1}, Ljava/util/stream/Collectors;->joining(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/util/stream/Collector;
-
-    move-result-object v0
-
-    return-object v0
+    return-wide v0
 .end method
 
-.method public static bridge synthetic l(Ljava/util/stream/Stream;Lorg/apache/commons/lang3/concurrent/a;)Ljava/util/stream/IntStream;
+.method public static bridge synthetic e(Landroid/app/Notification$Builder;I)Landroid/app/Notification$Builder;
     .registers 2
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/Stream;->mapToInt(Ljava/util/function/ToIntFunction;)Ljava/util/stream/IntStream;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setBadgeIconType(I)Landroid/app/Notification$Builder;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic m()V
-    .registers 1
+.method public static bridge synthetic f(Landroid/app/Notification$Builder;J)Landroid/app/Notification$Builder;
+    .registers 3
 
     .line 1
-    new-instance v0, Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0, p1, p2}, Landroid/app/Notification$Builder;->setTimeoutAfter(J)Landroid/app/Notification$Builder;
 
-    return-void
+    move-result-object p0
+
+    return-object p0
 .end method
 
-.method public static bridge synthetic n(Landroid/app/Notification$Action$Builder;Z)V
+.method public static bridge synthetic g(Landroid/app/Notification$Builder;Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;->setAllowGeneratedReplies(Z)Landroid/app/Notification$Action$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setSettingsText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic h(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setShortcutId(Ljava/lang/String;)Landroid/app/Notification$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic i(Landroid/content/Context;Ljava/lang/String;)Landroid/app/Notification$Builder;
+    .registers 3
+
+    .line 1
+    new-instance v0, Landroid/app/Notification$Builder;
+
+    invoke-direct {v0, p0, p1}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic j(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic k(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/app/NotificationChannel;
+    .registers 4
+
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
+
+    const/4 v1, 0x3
+
+    invoke-direct {v0, p0, p1, v1}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+
+    return-object v0
+.end method
+
+.method public static synthetic l(Ljava/lang/String;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    .registers 4
+
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0, p0, p1, v1}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic m(Landroid/telephony/TelephonyManager;)Landroid/telephony/ServiceState;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getServiceState()Landroid/telephony/ServiceState;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic n(Landroid/app/Notification;)Ljava/lang/CharSequence;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/app/Notification;->getSettingsText()Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic o(Landroid/app/Notification;)Ljava/lang/String;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/app/Notification;->getChannelId()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic p(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Ljava/lang/invoke/MethodHandles$Lookup;->unreflect(Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic q()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
 
     return-void
 .end method
 
-.method public static bridge synthetic o(Landroid/app/Notification$Builder;)V
+.method public static bridge synthetic r(Landroid/app/Notification$Builder;)V
     .registers 2
 
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Landroid/app/Notification$Builder;->setRemoteInputHistory([Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, v0}, Landroid/app/Notification$Builder;->setGroupAlertBehavior(I)Landroid/app/Notification$Builder;
 
     return-void
 .end method
 
-.method public static bridge synthetic p(Landroid/app/Notification$Builder;Landroid/widget/RemoteViews;)V
+.method public static bridge synthetic s(Landroid/app/Notification$Builder;Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setCustomContentView(Landroid/widget/RemoteViews;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setChannelId(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     return-void
 .end method
 
-.method public static bridge synthetic q(Landroid/app/Notification$MessagingStyle$Message;Ljava/lang/String;Landroid/net/Uri;)V
-    .registers 3
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/Notification$MessagingStyle$Message;->setData(Ljava/lang/String;Landroid/net/Uri;)Landroid/app/Notification$MessagingStyle$Message;
-
-    return-void
-.end method
-
-.method public static bridge synthetic r(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$Builder;)V
+.method public static bridge synthetic t(Landroid/app/Notification$Builder;Z)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->setBuilder(Landroid/app/Notification$Builder;)V
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setColorized(Z)Landroid/app/Notification$Builder;
 
     return-void
 .end method
 
-.method public static bridge synthetic s(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
+.method public static bridge synthetic u(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->addMessage(Landroid/app/Notification$MessagingStyle$Message;)Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->addHistoricMessage(Landroid/app/Notification$MessagingStyle$Message;)Landroid/app/Notification$MessagingStyle;
 
     return-void
 .end method
 
-.method public static bridge synthetic t(Landroid/app/Notification$MessagingStyle;Ljava/lang/CharSequence;)V
+.method public static bridge synthetic v(Landroid/app/NotificationChannel;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->setConversationTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, v0}, Landroid/app/NotificationChannel;->enableVibration(Z)V
 
     return-void
 .end method
 
-.method public static bridge synthetic u(Landroid/widget/RemoteViews;Z)V
-    .registers 3
-
-    .line 1
-    const v0, 0x7f0a042b
-
-    invoke-virtual {p0, v0, p1}, Landroid/widget/RemoteViews;->setChronometerCountDown(IZ)V
-
-    return-void
-.end method
-
-.method public static bridge synthetic v(Ljava/util/Collection;Lcom/huawei/appmarket/nc5;)V
+.method public static bridge synthetic w(Landroid/app/NotificationChannel;Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/Collection;->forEach(Ljava/util/function/Consumer;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setDescription(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static bridge synthetic w(Ljava/util/HashMap;Lcom/huawei/appmarket/oc5;)V
+.method public static bridge synthetic x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/HashMap;->forEach(Ljava/util/function/BiConsumer;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
 
     return-void
 .end method
 
-.method public static bridge synthetic x(Ljava/util/List;Lcom/huawei/appmarket/r85;)V
-    .registers 2
+.method public static bridge synthetic y(Landroid/telephony/CellSignalStrengthLte;)I
+    .registers 1
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/List;->forEach(Ljava/util/function/Consumer;)V
+    invoke-virtual {p0}, Landroid/telephony/CellSignalStrengthLte;->getRsrq()I
 
-    return-void
+    move-result p0
+
+    return p0
 .end method
 
-.method public static bridge synthetic y(Ljava/util/List;Ljava/util/Comparator;)V
-    .registers 2
+.method public static synthetic z(Ljava/lang/String;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    .registers 4
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/List;->sort(Ljava/util/Comparator;)V
+    new-instance v0, Landroid/app/NotificationChannel;
 
-    return-void
-.end method
+    const/4 v1, 0x2
 
-.method public static bridge synthetic z(Ljava/util/stream/Stream;Lcom/huawei/appmarket/p85;)V
-    .registers 2
+    invoke-direct {v0, p0, p1, v1}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
 
-    .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/Stream;->forEachOrdered(Ljava/util/function/Consumer;)V
-
-    return-void
+    return-object v0
 .end method

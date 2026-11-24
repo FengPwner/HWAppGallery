@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -8,78 +8,78 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+.method public static synthetic a(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->lambda$onAction$0(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->lambda$onAction$0(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$000(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method static synthetic access$100(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$100(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method public static synthetic b(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/ns1;)V
+.method public static synthetic b(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/qs1;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->lambda$onAction$1(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/ns1;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->lambda$onAction$1(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/qs1;)V
 
     return-void
 .end method
 
-.method private downloadTask(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+.method private downloadTask(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ns1$f;
+    new-instance v0, Lcom/huawei/appmarket/qs1$f;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ns1$f;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qs1$f;-><init>()V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->k()Landroid/app/Activity;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->k()Landroid/app/Activity;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ns1$f;->h(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qs1$f;->h(Landroid/content/Context;)V
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/yv1;->e(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/cw1;->e(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     new-instance p2, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction$b;
 
     invoke-direct {p2, p0}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction$b;-><init>(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)V
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/yv1;->f(Lcom/huawei/appmarket/xk3;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/cw1;->f(Lcom/huawei/appmarket/zk3;)V
 
     const/4 p2, 0x0
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/ns1;->o(ZLcom/huawei/appmarket/ns1$f;)Z
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/qs1;->o(ZLcom/huawei/appmarket/qs1$f;)Z
 
     return-void
 .end method
@@ -184,7 +184,7 @@
 
     .line 52
     .line 53
-    invoke-static {v0, v1, v2, v0}, Lcom/huawei/appmarket/z84;->j(Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;Ljava/lang/String;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-static {v0, v1, v2, v0}, Lcom/huawei/appmarket/kk4;->i(Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;Ljava/lang/String;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 54
     .line 55
@@ -192,7 +192,7 @@
     move-result-object v0
 
     .line 57
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
 
     .line 58
     .line 59
@@ -246,7 +246,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {v1}, Lcom/huawei/appmarket/yn3;->a(Landroid/content/Intent;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ao3;->a(Landroid/content/Intent;)V
 
     .line 86
     .line 87
@@ -260,7 +260,7 @@
     .line 91
     .line 92
     .line 93
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 94
     .line 95
@@ -277,7 +277,7 @@
     .line 100
     .line 101
     .line 102
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     .line 103
     .line 104
@@ -290,7 +290,7 @@
     .line 107
     .line 108
     .line 109
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 110
     .line 111
@@ -358,15 +358,14 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private goUpdateMgrPage(Lcom/huawei/appgallery/updatemanager/api/bean/notify/UpdateNotifyBIBean;)V
     .registers 8
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->k()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->k()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -376,7 +375,7 @@
 
     const-string v0, "goUpdateMgrPage activity is null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -409,17 +408,17 @@
 
     invoke-virtual {v2, p1}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol$Request;->o(Lcom/huawei/appgallery/updatemanager/api/bean/notify/UpdateNotifyBIBean;)V
 
-    new-instance v2, Lcom/huawei/appmarket/cn5;
+    new-instance v2, Lcom/huawei/appmarket/dn5;
 
     const-string v4, "updatemgr.activity"
 
-    invoke-direct {v2, v4, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v2, v4, v1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/yn3;->a(Landroid/content/Intent;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ao3;->a(Landroid/content/Intent;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/updatemanager/api/bean/notify/UpdateNotifyBIBean;->n()Ljava/lang/String;
 
@@ -461,20 +460,20 @@
 
     invoke-virtual {v1, p1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object p1
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
 
-.method private synthetic lambda$onAction$0(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+.method private synthetic lambda$onAction$0(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
     .registers 5
 
     .line 1
@@ -486,21 +485,21 @@
 
     invoke-virtual {p2, p3, v0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->l1(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     :cond_0
     return-void
 .end method
 
-.method private synthetic lambda$onAction$1(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/ns1;)V
+.method private synthetic lambda$onAction$1(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/qs1;)V
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/mh4;
+    new-instance v0, Lcom/huawei/appmarket/oh4;
 
     const/4 v1, 0x7
 
-    invoke-direct {v0, p0, v1, p2}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p2}, Lcom/huawei/appmarket/oh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-static {p1, v0}, Lcom/huawei/appmarket/n70;->o(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Lcom/huawei/appmarket/n70$d;)V
 
@@ -553,7 +552,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 2
     .line 3
@@ -569,7 +568,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -582,11 +581,11 @@
 
     .line 14
     .line 15
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 16
     .line 17
-    invoke-interface {v2}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v2}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -623,7 +622,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -660,7 +659,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -674,7 +673,7 @@
 
     .line 61
     :cond_2
-    invoke-static {v2}, Lcom/huawei/appmarket/nv;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    invoke-static {v2}, Lcom/huawei/appmarket/ov;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
     .line 62
     .line 63
@@ -690,16 +689,16 @@
 
     .line 68
     .line 69
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/b00;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/kd0;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
     .line 72
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 73
     .line 74
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     .line 75
     .line 76
@@ -708,11 +707,11 @@
 
     .line 78
     :cond_3
-    new-instance v1, Lcom/huawei/appmarket/ns1;
+    new-instance v1, Lcom/huawei/appmarket/qs1;
 
     .line 79
     .line 80
-    invoke-direct {v1}, Lcom/huawei/appmarket/ns1;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/qs1;-><init>()V
 
     .line 81
     .line 82
@@ -725,7 +724,7 @@
     move-result-object v4
 
     .line 87
-    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/ns1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/qs1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     .line 88
     .line 89
@@ -739,7 +738,7 @@
     .line 93
     .line 94
     .line 95
-    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/ns1;->x(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;)V
+    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/qs1;->x(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;)V
 
     .line 96
     .line 97
@@ -748,11 +747,11 @@
 
     .line 99
     .line 100
-    const-class v5, Lcom/huawei/appmarket/mo3;
+    const-class v5, Lcom/huawei/appmarket/oo3;
 
     .line 101
     .line 102
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 103
     .line 104
@@ -760,11 +759,11 @@
     move-result-object v4
 
     .line 106
-    check-cast v4, Lcom/huawei/appmarket/mo3;
+    check-cast v4, Lcom/huawei/appmarket/oo3;
 
     .line 107
     .line 108
-    invoke-interface {v4, v2}, Lcom/huawei/appmarket/mo3;->t(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-interface {v4, v2}, Lcom/huawei/appmarket/oo3;->t(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 109
     .line 110
@@ -776,15 +775,15 @@
 
     .line 113
     .line 114
-    new-instance v2, Lcom/huawei/appmarket/xz;
+    new-instance v2, Lcom/huawei/appmarket/yz;
 
     .line 115
     .line 116
-    const/16 v4, 0xb
+    const/16 v4, 0xc
 
     .line 117
     .line 118
-    invoke-direct {v2, v4, p0, v3, v1}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v4, p0, v3, v1}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 119
     .line 120
@@ -798,7 +797,7 @@
 
     .line 125
     :cond_4
-    invoke-direct {p0, v1, v2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-direct {p0, v1, v2}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 126
     .line 127

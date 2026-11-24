@@ -69,13 +69,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v2, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v2, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v3, "CachedResRunnable"
 
     const-string v4, "CachedResRunnable onResponse"
 
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;->j6(Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 

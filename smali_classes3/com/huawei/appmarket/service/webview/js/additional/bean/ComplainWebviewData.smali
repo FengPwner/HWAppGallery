@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/g64;
+.implements Lcom/huawei/appmarket/j64;
 
 
 # static fields

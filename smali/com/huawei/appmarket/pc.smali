@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/de;->a()Z
 
@@ -53,7 +53,7 @@
 
     invoke-direct {v0}, Lcom/huawei/appmarket/pc$a;-><init>()V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -61,7 +61,7 @@
 
     invoke-direct {v2}, Lcom/huawei/appmarket/pc$b;-><init>()V
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 

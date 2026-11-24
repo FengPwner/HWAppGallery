@@ -20,9 +20,9 @@
 .method public final create(Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/yv8;
+    new-instance v0, Lcom/huawei/appmarket/ew8;
 
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/yv8;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/ew8;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-object v0
 .end method

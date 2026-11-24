@@ -9,11 +9,11 @@
 # instance fields
 .field final synthetic a:Ljava/io/InputStream;
 
-.field final synthetic b:Lcom/huawei/appmarket/hx;
+.field final synthetic b:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method constructor <init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -24,7 +24,7 @@
     .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/d;->a:Ljava/io/InputStream;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/d;->b:Lcom/huawei/appmarket/hx;
+    iput-object p2, p0, Lcom/bumptech/glide/load/d;->b:Lcom/huawei/appmarket/ix;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,9 +45,9 @@
     iget-object v0, p0, Lcom/bumptech/glide/load/d;->a:Ljava/io/InputStream;
 
     :try_start_0
-    iget-object v1, p0, Lcom/bumptech/glide/load/d;->b:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/d;->b:Lcom/huawei/appmarket/ix;
 
-    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->c(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)I
+    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->c(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)I
 
     move-result p1
     :try_end_0

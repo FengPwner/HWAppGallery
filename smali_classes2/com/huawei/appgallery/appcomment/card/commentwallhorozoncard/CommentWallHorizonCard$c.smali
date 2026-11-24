@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard$c;
-.super Lcom/huawei/appmarket/sb3;
+.super Lcom/huawei/appmarket/vb3;
 .source "SourceFile"
 
 
@@ -19,18 +19,18 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+.method public constructor <init>(Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;",
-            "Lcom/huawei/appmarket/qb3;",
-            "Lcom/huawei/appmarket/sb3$c;",
+            "Lcom/huawei/appmarket/tb3;",
+            "Lcom/huawei/appmarket/vb3$c;",
             "Z)V"
         }
     .end annotation
@@ -50,7 +50,7 @@
 
     move v5, p6
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/sb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/vb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     return-void
 .end method
@@ -61,12 +61,12 @@
     .registers 6
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/vb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
     .line 2
     .line 3
     .line 4
-    instance-of v0, p1, Lcom/huawei/appmarket/sb3$a;
+    instance-of v0, p1, Lcom/huawei/appmarket/vb3$a;
 
     .line 5
     .line 6
@@ -74,11 +74,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/sb3;->e:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appmarket/vb3;->e:Lcom/huawei/appmarket/qb3;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 11
     .line 12
@@ -90,7 +90,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 17
     .line 18
@@ -154,7 +154,7 @@
     move-result-object p2
 
     .line 48
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 49
     .line 50
@@ -172,7 +172,7 @@
 
     .line 56
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/sb3;->getItemCount()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/vb3;->getItemCount()I
 
     .line 57
     .line 58
@@ -196,7 +196,7 @@
     move-result-object p2
 
     .line 68
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 69
     .line 70
@@ -321,5 +321,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

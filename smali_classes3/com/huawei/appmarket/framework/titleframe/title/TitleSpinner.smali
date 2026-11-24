@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private w:Lcom/huawei/appmarket/zi7;
+.field private w:Lcom/huawei/appmarket/fj7;
 
 
 # direct methods
@@ -16,7 +16,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     return-void
 .end method
@@ -29,7 +29,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     const/4 p1, 0x1
 
@@ -86,21 +86,21 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iget-object v1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/zi7;->g()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/fj7;->g()V
 
     :cond_0
     return v0
 .end method
 
-.method public setExtendClick(Lcom/huawei/appmarket/zi7;)V
+.method public setExtendClick(Lcom/huawei/appmarket/fj7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/zi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;->w:Lcom/huawei/appmarket/fj7;
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tj8$b;
+.implements Lcom/huawei/appmarket/zj8$b;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View;Lcom/huawei/appmarket/nq8;Lcom/huawei/appmarket/tj8$c;)Lcom/huawei/appmarket/nq8;
+.method public final a(Landroid/view/View;Lcom/huawei/appmarket/tq8;Lcom/huawei/appmarket/zj8$c;)Lcom/huawei/appmarket/tq8;
     .registers 8
 
     .line 1
@@ -46,7 +46,7 @@
 
     if-eqz p3, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->i()I
 
     move-result p3
 
@@ -67,7 +67,7 @@
 
     move-result p3
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->j()I
 
     move-result v2
 
@@ -81,7 +81,7 @@
     const/4 p3, 0x0
 
     :goto_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->j()I
 
     move-result v2
 
@@ -103,7 +103,7 @@
 
     move-result v2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->k()I
 
     move-result v3
 
@@ -115,7 +115,7 @@
     const/4 v0, 0x0
 
     :goto_2
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->k()I
 
     move-result v1
 

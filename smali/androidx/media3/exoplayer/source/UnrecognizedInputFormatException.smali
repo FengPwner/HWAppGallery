@@ -10,7 +10,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/jb4;->p()Lcom/huawei/appmarket/jb4;
+    invoke-static {}, Lcom/huawei/appmarket/lb4;->p()Lcom/huawei/appmarket/lb4;
 
     move-result-object v0
 
@@ -28,7 +28,7 @@
             "Landroid/net/Uri;",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/kh7;",
+            "Lcom/huawei/appmarket/ph7;",
             ">;)V"
         }
     .end annotation
@@ -42,7 +42,7 @@
 
     invoke-direct {p0, p1, v1, p2, v0}, Landroidx/media3/common/ParserException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;ZI)V
 
-    invoke-static {p3}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {p3}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     return-void
 .end method

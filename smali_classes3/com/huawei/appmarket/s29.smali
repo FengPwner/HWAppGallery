@@ -1,51 +1,43 @@
 .class public final Lcom/huawei/appmarket/s29;
-.super Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+.super Lcom/huawei/appmarket/kj0;
 .source "SourceFile"
 
 
-# instance fields
-.field private final a:Lcom/huawei/appmarket/u09;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/u09<",
-            "Lorg/json/JSONObject;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-
 # direct methods
-.method public constructor <init>(Ljava/lang/Object;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;-><init>()V
-
-    const-class v0, Lorg/json/JSONObject;
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/huawei/appmarket/s29;->a:Lcom/huawei/appmarket/u09;
+    invoke-direct {p0}, Lcom/huawei/appmarket/kj0;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lorg/json/JSONObject;
+.method public final a()Ljava/lang/Class;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/s29;->a:Lcom/huawei/appmarket/u09;
+    const-class v0, Lcom/huawei/appmarket/service/video/InfoFlowVideoCard;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    return-object v0
+.end method
 
-    move-result-object v0
+.method public final b()Ljava/lang/Class;
+    .registers 2
 
-    check-cast v0, Lorg/json/JSONObject;
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/service/video/VideoCardData;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, "com.huawei.infoflow.videocard"
 
     return-object v0
 .end method

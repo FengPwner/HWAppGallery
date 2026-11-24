@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->m(Ljava/lang/Object;)Ljava/nio/file/Path;
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->m(Ljava/lang/Object;)Ljava/nio/file/Path;
 
     move-result-object p1
 
@@ -46,10 +46,10 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->u(Ljava/nio/file/Path;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->u(Ljava/nio/file/Path;)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gi7;->k()Ljava/nio/file/FileVisitResult;
+    invoke-static {}, Lcom/huawei/appmarket/mi7;->k()Ljava/nio/file/FileVisitResult;
 
     move-result-object p1
 
@@ -64,13 +64,13 @@
         }
     .end annotation
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->m(Ljava/lang/Object;)Ljava/nio/file/Path;
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->m(Ljava/lang/Object;)Ljava/nio/file/Path;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->u(Ljava/nio/file/Path;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->u(Ljava/nio/file/Path;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/gi7;->k()Ljava/nio/file/FileVisitResult;
+    invoke-static {}, Lcom/huawei/appmarket/mi7;->k()Ljava/nio/file/FileVisitResult;
 
     move-result-object p1
 

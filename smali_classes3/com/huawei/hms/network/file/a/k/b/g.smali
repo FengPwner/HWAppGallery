@@ -637,7 +637,7 @@
     const-string v0, "0,"
 
     .line 10
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p2
 

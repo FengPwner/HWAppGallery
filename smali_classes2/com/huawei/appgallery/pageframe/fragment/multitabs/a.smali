@@ -38,7 +38,7 @@
     .registers 2
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appmarket/bd5;->a()V
+    invoke-super {p0}, Lcom/huawei/appmarket/ed5;->a()V
 
     const/4 v0, 0x0
 
@@ -64,7 +64,7 @@
     .registers 7
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/bd5;->onFragmentSelected(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ed5;->onFragmentSelected(I)V
 
     .line 2
     .line 3
@@ -116,7 +116,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/bd5;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ed5;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
 
     .line 26
     .line 27
@@ -140,7 +140,7 @@
 
     .line 35
     .line 36
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 37
     .line 38
@@ -152,7 +152,7 @@
 
     .line 41
     .line 42
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 43
     .line 44
@@ -225,7 +225,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     .line 83

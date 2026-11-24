@@ -26,7 +26,7 @@
 
 .field private currTime:Ljava/lang/Long;
 
-.field private emptyViewController:Lcom/huawei/appmarket/u44;
+.field private emptyViewController:Lcom/huawei/appmarket/x44;
 
 .field private installMode:Ljava/lang/String;
 
@@ -68,7 +68,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/appmarket/u44;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/appmarket/x44;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -77,7 +77,7 @@
             "Ljava/util/List<",
             "Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;",
             ">;",
-            "Lcom/huawei/appmarket/u44;",
+            "Lcom/huawei/appmarket/x44;",
             ")V"
         }
     .end annotation
@@ -93,7 +93,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->context:Landroid/content/Context;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->emptyViewController:Lcom/huawei/appmarket/u44;
+    iput-object p3, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->emptyViewController:Lcom/huawei/appmarket/x44;
 
     new-instance p3, Landroid/graphics/drawable/ColorDrawable;
 
@@ -151,11 +151,11 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->f(Landroid/view/View;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
-    const v2, 0x7f0a1720
+    const v2, 0x7f0a1721
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -163,9 +163,9 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v26;->i(Landroid/widget/ImageView;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x26;->i(Landroid/widget/ImageView;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
@@ -175,13 +175,13 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v26;->h(Landroid/view/View;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x26;->h(Landroid/view/View;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
-    const v2, 0x7f0a1722
+    const v2, 0x7f0a1723
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,13 +189,13 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v26;->f(Landroid/widget/TextView;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x26;->f(Landroid/widget/TextView;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
-    const v2, 0x7f0a171e
+    const v2, 0x7f0a171f
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,23 +203,9 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v26;->g(Landroid/widget/TextView;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x26;->g(Landroid/widget/TextView;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
-
-    move-result-object v1
-
-    const v2, 0x7f0a1724
-
-    invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v2
-
-    check-cast v2, Landroid/widget/TextView;
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v26;->j(Landroid/widget/TextView;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
@@ -231,13 +217,27 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/jv;->n(Landroid/widget/TextView;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x26;->j(Landroid/widget/TextView;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object v1
 
-    const v2, 0x7f0a1721
+    const v2, 0x7f0a1726
+
+    invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/widget/TextView;
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/kv;->n(Landroid/widget/TextView;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
+
+    move-result-object v1
+
+    const v2, 0x7f0a1722
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/jv;->m(Landroid/widget/TextView;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/kv;->m(Landroid/widget/TextView;)V
 
     const p2, 0x7f0a03c6
 
@@ -268,7 +268,7 @@
     return-object v0
 .end method
 
-.method private initViewLabel(Lcom/huawei/appmarket/jv;Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)V
+.method private initViewLabel(Lcom/huawei/appmarket/kv;Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)V
     .registers 12
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -301,7 +301,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->d()Landroid/widget/ImageView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->d()Landroid/widget/ImageView;
 
     .line 14
     .line 15
@@ -326,7 +326,7 @@
 
     .line 25
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 26
     .line 27
@@ -338,11 +338,11 @@
 
     .line 30
     .line 31
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 34
     .line 35
@@ -350,11 +350,11 @@
     move-result-object v0
 
     .line 37
-    const-class v1, Lcom/huawei/appmarket/gu3;
+    const-class v1, Lcom/huawei/appmarket/iu3;
 
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -362,11 +362,11 @@
     move-result-object v0
 
     .line 43
-    check-cast v0, Lcom/huawei/appmarket/gu3;
+    check-cast v0, Lcom/huawei/appmarket/iu3;
 
     .line 44
     .line 45
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->d()Landroid/widget/ImageView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->d()Landroid/widget/ImageView;
 
     .line 46
     .line 47
@@ -382,7 +382,7 @@
     move-result-object v2
 
     .line 53
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/gu3;->f(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/iu3;->f(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -403,7 +403,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->c()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->c()Landroid/view/View;
 
     .line 64
     .line 65
@@ -417,7 +417,7 @@
     .line 69
     .line 70
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->a()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->a()Landroid/widget/TextView;
 
     .line 71
     .line 72
@@ -438,7 +438,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jv;->l()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kv;->l()Landroid/widget/TextView;
 
     .line 82
     .line 83
@@ -475,7 +475,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jv;->l()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kv;->l()Landroid/widget/TextView;
 
     .line 101
     .line 102
@@ -722,7 +722,7 @@
 
     .line 218
     :goto_3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jv;->l()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kv;->l()Landroid/widget/TextView;
 
     .line 219
     .line 220
@@ -739,7 +739,7 @@
     .line 225
     .line 226
     .line 227
-    invoke-static {p2}, Lcom/huawei/appmarket/zf4;->a(Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/bg4;->a(Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)Z
 
     .line 228
     .line 229
@@ -790,7 +790,7 @@
 
     .line 251
     :goto_5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jv;->k()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kv;->k()Landroid/widget/TextView;
 
     .line 252
     .line 253
@@ -819,7 +819,7 @@
 
     .line 265
     .line 266
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 267
     .line 268
@@ -856,7 +856,7 @@
     .line 283
     .line 284
     .line 285
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 286
     .line 287
@@ -894,7 +894,7 @@
     .line 303
     .line 304
     .line 305
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 306
     .line 307
@@ -910,7 +910,7 @@
     .line 311
     .line 312
     .line 313
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 314
     .line 315
@@ -927,7 +927,7 @@
     .line 320
     .line 321
     .line 322
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 323
     .line 324
@@ -940,7 +940,7 @@
     .line 327
     .line 328
     .line 329
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->b()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->b()Landroid/widget/TextView;
 
     .line 330
     .line 331
@@ -969,7 +969,7 @@
     move-result-object v3
 
     .line 344
-    invoke-static {v3}, Lcom/huawei/appmarket/u46;->b(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/w46;->b(Ljava/lang/String;)Z
 
     .line 345
     .line 346
@@ -1022,7 +1022,7 @@
     move-result-object p2
 
     .line 370
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->b()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->b()Landroid/widget/TextView;
 
     .line 371
     .line 372
@@ -1040,7 +1040,7 @@
     .line 378
     :cond_8
     :goto_6
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 379
     .line 380
@@ -1117,7 +1117,7 @@
 
     .line 418
     .line 419
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 420
     .line 421
@@ -1126,7 +1126,7 @@
 
     .line 423
     :cond_9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 424
     .line 425
@@ -1156,7 +1156,7 @@
     .line 437
     .line 438
     .line 439
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 440
     .line 441
@@ -1173,7 +1173,7 @@
     .line 446
     .line 447
     .line 448
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->e()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->e()Landroid/widget/TextView;
 
     .line 449
     .line 450
@@ -1213,7 +1213,7 @@
     .line 468
     :cond_a
     :goto_7
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v26;->b()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/x26;->b()Landroid/widget/TextView;
 
     .line 469
     .line 470
@@ -1597,25 +1597,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method private refreshSelectPkg()V
@@ -1629,11 +1610,11 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {}, Lcom/huawei/appmarket/b78;->c()Lcom/huawei/appmarket/b78;
+    invoke-static {}, Lcom/huawei/appmarket/g78;->c()Lcom/huawei/appmarket/g78;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b78;->d()Ljava/util/concurrent/ConcurrentHashMap;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g78;->d()Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v0
 
@@ -1678,11 +1659,11 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/b78;->c()Lcom/huawei/appmarket/b78;
+    invoke-static {}, Lcom/huawei/appmarket/g78;->c()Lcom/huawei/appmarket/g78;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/b78;->d()Ljava/util/concurrent/ConcurrentHashMap;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/g78;->d()Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v1
 
@@ -1727,7 +1708,7 @@
 
     const-string v1, "requestInstalled or selectPkg is empty"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1916,7 +1897,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/u46;->b(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/w46;->b(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -2198,7 +2179,7 @@
 
     if-nez v4, :cond_6
 
-    const v0, 0x7f0a1723
+    const v0, 0x7f0a1724
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2207,7 +2188,7 @@
     goto :goto_3
 
     :cond_6
-    const v1, 0x7f0a171f
+    const v1, 0x7f0a1720
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2266,19 +2247,19 @@
 
     invoke-direct {p0, v1, p1}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->setItemLayoutBackground(Landroid/view/View;I)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/jv;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter$b;->d()Lcom/huawei/appmarket/kv;
 
     move-result-object p1
 
-    invoke-direct {p0, p1, p3}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->initViewLabel(Lcom/huawei/appmarket/jv;Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)V
+    invoke-direct {p0, p1, p3}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->initViewLabel(Lcom/huawei/appmarket/kv;Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)V
 
     invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->setTalkBack(Landroid/view/View;Lcom/huawei/appmarket/service/appmgr/bean/ApkUninstallInfo;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/b78;->c()Lcom/huawei/appmarket/b78;
+    invoke-static {}, Lcom/huawei/appmarket/g78;->c()Lcom/huawei/appmarket/g78;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b78;->d()Ljava/util/concurrent/ConcurrentHashMap;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g78;->d()Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object p1
 
@@ -2357,7 +2338,7 @@
 
     const-string v1, "setData: apkInfo is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -2371,13 +2352,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/u46;->a(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/w46;->a(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v1
 
@@ -2417,7 +2398,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -2431,7 +2412,7 @@
     :cond_3
     invoke-direct {p0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->refreshSelectPkg()V
 
-    iget-object p2, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->emptyViewController:Lcom/huawei/appmarket/u44;
+    iget-object p2, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstalledListAdapter;->emptyViewController:Lcom/huawei/appmarket/x44;
 
     if-eqz p2, :cond_4
 

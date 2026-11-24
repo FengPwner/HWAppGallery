@@ -106,9 +106,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/kj8;
+    check-cast v1, Lcom/huawei/appmarket/qj8;
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/kj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/qj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     goto :goto_0
 

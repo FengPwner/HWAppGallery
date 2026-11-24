@@ -1,12 +1,12 @@
 .class public Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;
-.super Lcom/huawei/appmarket/vs5;
+.super Lcom/huawei/appmarket/xs5;
 .source "SourceFile"
 
 
 # instance fields
 .field private b:Landroid/widget/FrameLayout;
 
-.field private c:Lcom/huawei/appmarket/xs5;
+.field private c:Lcom/huawei/appmarket/zs5;
 
 
 # direct methods
@@ -25,13 +25,13 @@
     .registers 7
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/vs5;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/xs5;-><init>(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/xs5;->a()Lcom/huawei/appmarket/xs5;
+    invoke-static {}, Lcom/huawei/appmarket/zs5;->a()Lcom/huawei/appmarket/zs5;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/xs5;
+    iput-object v0, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/zs5;
 
     const/4 v1, 0x1
 
@@ -69,7 +69,7 @@
 
     check-cast p2, Landroid/app/Activity;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result p2
 
@@ -103,11 +103,11 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->b:Landroid/widget/FrameLayout;
 
-    invoke-virtual {p0, p3, p1}, Lcom/huawei/appmarket/vs5;->b(ILandroid/content/Context;)Landroid/widget/LinearLayout;
+    invoke-virtual {p0, p3, p1}, Lcom/huawei/appmarket/xs5;->b(ILandroid/content/Context;)Landroid/widget/LinearLayout;
 
     move-result-object p3
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/vs5;->a(Landroid/content/Context;)Landroid/widget/LinearLayout;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/xs5;->a(Landroid/content/Context;)Landroid/widget/LinearLayout;
 
     move-result-object p1
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setFocusableInTouchMode(Z)V
 
-    iget p2, v0, Lcom/huawei/appmarket/xs5;->a:I
+    iget p2, v0, Lcom/huawei/appmarket/zs5;->a:I
 
     if-ne p2, v1, :cond_2
 
@@ -145,9 +145,9 @@
 
     if-ne p1, v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/xs5;
+    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/zs5;
 
-    iget v0, v0, Lcom/huawei/appmarket/xs5;->a:I
+    iget v0, v0, Lcom/huawei/appmarket/zs5;->a:I
 
     const/4 v1, 0x1
 
@@ -183,9 +183,9 @@
 
     move-result v1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/xs5;
+    iget-object v2, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/zs5;
 
-    iget v3, v2, Lcom/huawei/appmarket/xs5;->a:I
+    iget v3, v2, Lcom/huawei/appmarket/zs5;->a:I
 
     const/4 v4, 0x1
 
@@ -198,7 +198,7 @@
     :cond_0
     add-int/lit8 v1, v3, 0x1
 
-    iput v1, v2, Lcom/huawei/appmarket/xs5;->a:I
+    iput v1, v2, Lcom/huawei/appmarket/zs5;->a:I
 
     new-instance v1, Landroid/view/animation/TranslateAnimation;
 
@@ -246,7 +246,7 @@
 
     invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
 
-    iget v1, v2, Lcom/huawei/appmarket/xs5;->a:I
+    iget v1, v2, Lcom/huawei/appmarket/zs5;->a:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
@@ -278,7 +278,7 @@
 
     invoke-virtual {v1, v4}, Landroid/view/animation/Animation;->setFillAfter(Z)V
 
-    iget v2, v2, Lcom/huawei/appmarket/xs5;->a:I
+    iget v2, v2, Lcom/huawei/appmarket/zs5;->a:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
@@ -298,9 +298,9 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/xs5;
+    iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/impl/protocol/dialog/OverseaDialogView;->c:Lcom/huawei/appmarket/zs5;
 
-    iget v2, v1, Lcom/huawei/appmarket/xs5;->a:I
+    iget v2, v1, Lcom/huawei/appmarket/zs5;->a:I
 
     if-nez v2, :cond_0
 
@@ -309,7 +309,7 @@
     :cond_0
     add-int/lit8 v3, v2, -0x1
 
-    iput v3, v1, Lcom/huawei/appmarket/xs5;->a:I
+    iput v3, v1, Lcom/huawei/appmarket/zs5;->a:I
 
     new-instance v3, Landroid/view/animation/TranslateAnimation;
 
@@ -357,7 +357,7 @@
 
     invoke-virtual {v3, v8}, Landroid/view/View;->setVisibility(I)V
 
-    iget v3, v1, Lcom/huawei/appmarket/xs5;->a:I
+    iget v3, v1, Lcom/huawei/appmarket/zs5;->a:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
@@ -391,7 +391,7 @@
 
     invoke-virtual {v2, v4}, Landroid/view/animation/Animation;->setFillAfter(Z)V
 
-    iget v1, v1, Lcom/huawei/appmarket/xs5;->a:I
+    iget v1, v1, Lcom/huawei/appmarket/zs5;->a:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 

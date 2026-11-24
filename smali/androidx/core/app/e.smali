@@ -39,7 +39,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/ij5;)V
+.method public final b(Lcom/huawei/appmarket/kj5;)V
     .registers 3
 
     .line 1

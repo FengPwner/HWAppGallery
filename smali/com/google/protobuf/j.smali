@@ -505,6 +505,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private S(Ljava/lang/Object;Lcom/google/protobuf/t1;Lcom/google/protobuf/v;)V
@@ -856,6 +863,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private T(Lcom/google/protobuf/l2$b;Ljava/lang/Class;Lcom/google/protobuf/v;)Ljava/lang/Object;
@@ -4382,7 +4396,7 @@
 
     .line 7
     .line 8
-    instance-of v0, p1, Lcom/huawei/appmarket/nt4;
+    instance-of v0, p1, Lcom/huawei/appmarket/qt4;
 
     .line 9
     .line 10
@@ -4401,7 +4415,7 @@
     move-object v0, p1
 
     .line 17
-    check-cast v0, Lcom/huawei/appmarket/nt4;
+    check-cast v0, Lcom/huawei/appmarket/qt4;
 
     .line 18
     .line 19
@@ -4414,7 +4428,7 @@
     move-result-object p1
 
     .line 23
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/nt4;->a(Lcom/google/protobuf/h;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/qt4;->a(Lcom/google/protobuf/h;)V
 
     .line 24
     .line 25
@@ -6044,6 +6058,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final e()Z
@@ -6425,6 +6446,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final g()J

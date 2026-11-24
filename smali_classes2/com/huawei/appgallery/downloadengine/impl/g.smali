@@ -50,11 +50,11 @@
 
     invoke-virtual {v1, v0, p0}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p0
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -97,11 +97,11 @@
 
     invoke-virtual {v1, v0, p0}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p0
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -459,5 +459,4 @@
     .end packed-switch
     .line 162
     .line 163
-    .line 164
 .end method

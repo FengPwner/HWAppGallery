@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->i()I
 
     move-result v0
 
@@ -94,7 +94,7 @@
 
     .line 23
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->i()I
 
     .line 24
     .line 25
@@ -147,7 +147,7 @@
     move-result-object v4
 
     .line 48
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 49
     .line 50
@@ -163,7 +163,7 @@
     move-result v7
 
     .line 56
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 57
     .line 58
@@ -311,14 +311,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->i()I
 
     move-result v0
 

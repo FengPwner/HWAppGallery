@@ -1,200 +1,158 @@
 .class public final Lcom/huawei/appmarket/q66;
-.super Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
-
-# instance fields
-.field private A:Ljava/lang/String;
-
-.field private B:Ljava/lang/String;
-
-.field private C:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private x:Ljava/lang/String;
-
-.field private y:Ljava/lang/String;
-
-.field private z:Lcom/huawei/appmarket/sn0;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final M()Z
-    .registers 2
+.method public static a(I)Z
+    .registers 3
 
     .line 1
-    const/4 v0, 0x0
+    invoke-static {}, Lcom/huawei/appmarket/q66;->b()Lcom/huawei/appmarket/sx3;
 
-    return v0
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/sx3;->e(I)Z
+
+    move-result p0
+
+    return p0
+
+    :cond_0
+    sget-object p0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
+
+    const-string v0, "PresetConfigUtils"
+
+    const-string v1, "ConfigProvider is null"
+
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
 .end method
 
-.method public final Q(Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;)V
-    .registers 4
+.method public static b()Lcom/huawei/appmarket/sx3;
+    .registers 3
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
-
     .line 4
+    move-result-object v0
+
     .line 5
-    check-cast p1, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;
+    const-string v1, "PresetConfig"
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->getPackageName()Ljava/lang/String;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
+
     .line 10
+    .line 11
+    .line 12
     move-result-object v0
 
-    .line 11
-    iput-object v0, p0, Lcom/huawei/appmarket/q66;->x:Ljava/lang/String;
-
-    .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->R2()Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
+    if-eqz v0, :cond_0
 
     .line 14
     .line 15
-    .line 16
-    move-result-object v0
+    const-class v1, Lcom/huawei/appmarket/sx3;
 
+    .line 16
     .line 17
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->d:Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->P1()Ljava/lang/String;
-
     .line 20
-    .line 21
-    .line 22
     move-result-object v0
 
+    .line 21
+    check-cast v0, Lcom/huawei/appmarket/sx3;
+
+    .line 22
     .line 23
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->c:Ljava/lang/String;
+    return-object v0
 
     .line 24
-    .line 25
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->Q2()Ljava/lang/String;
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
+    .line 25
     .line 26
+    const-string v1, "PresetConfigUtils"
+
     .line 27
     .line 28
-    move-result-object v0
+    const-string v2, "can not found PresetConfig module"
 
     .line 29
-    iput-object v0, p0, Lcom/huawei/appmarket/q66;->y:Ljava/lang/String;
-
     .line 30
-    .line 31
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->P2()Lcom/huawei/appmarket/sn0;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 31
     .line 32
     .line 33
+    const/4 v0, 0x0
+
     .line 34
-    move-result-object v0
-
+    return-object v0
     .line 35
-    iput-object v0, p0, Lcom/huawei/appmarket/q66;->z:Lcom/huawei/appmarket/sn0;
-
     .line 36
     .line 37
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->S2()Ljava/lang/String;
-
     .line 38
     .line 39
     .line 40
-    move-result-object v0
-
     .line 41
-    iput-object v0, p0, Lcom/huawei/appmarket/q66;->A:Ljava/lang/String;
-
     .line 42
     .line 43
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->O2()Ljava/lang/String;
-
     .line 44
     .line 45
     .line 46
-    move-result-object v0
-
     .line 47
-    iput-object v0, p0, Lcom/huawei/appmarket/q66;->B:Ljava/lang/String;
-
     .line 48
     .line 49
-    invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->A2()Ljava/util/HashMap;
-
     .line 50
     .line 51
     .line 52
-    move-result-object p1
-
     .line 53
-    iput-object p1, p0, Lcom/huawei/appmarket/q66;->C:Ljava/util/HashMap;
-
     .line 54
     .line 55
-    goto :goto_0
-
     .line 56
-    :cond_0
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
-
     .line 57
     .line 58
-    const-string v0, "PreviewOpenViewModel"
-
     .line 59
     .line 60
-    const-string v1, "viewModel protocol params error"
-
     .line 61
     .line 62
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 63
     .line 64
     .line 65
-    :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->o:Lcom/huawei/appmarket/zd5;
-
     .line 66
     .line 67
-    sget-object v0, Lcom/huawei/appmarket/wn3;->b:Lcom/huawei/appmarket/wn3;
-
     .line 68
     .line 69
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
-
     .line 70
     .line 71
     .line 72
-    return-void
     .line 73
     .line 74
     .line 75
@@ -230,67 +188,34 @@
     .line 105
     .line 106
     .line 107
-.end method
-
-.method public final d0()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->B:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final e0()Lcom/huawei/appmarket/sn0;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->z:Lcom/huawei/appmarket/sn0;
-
-    return-object v0
-.end method
-
-.method public final f0()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->y:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final g0()Ljava/util/HashMap;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->C:Ljava/util/HashMap;
-
-    return-object v0
-.end method
-
-.method public final h0()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->x:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final i0()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q66;->A:Ljava/lang/String;
-
-    return-object v0
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
 .end method

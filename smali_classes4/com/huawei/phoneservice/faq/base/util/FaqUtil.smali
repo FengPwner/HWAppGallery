@@ -14,7 +14,7 @@
 
 .method public static genContactInfo(Landroid/app/Activity;Ljava/util/List;)V
     .registers 7
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -96,7 +96,7 @@
 
 .method public static getBrand()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -125,7 +125,7 @@
 
 .method public static getDmpaUrl()Ljava/lang/String;
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -159,7 +159,7 @@
 
 .method public static getHaAddress()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -177,7 +177,7 @@
 
 .method public static getLogserviceUrl()Ljava/lang/String;
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -211,7 +211,7 @@
 
 .method public static getMdAddress()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -229,7 +229,7 @@
 
 .method public static getSgwAddress()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -247,14 +247,14 @@
 
 .method public static getUrl(Ljava/lang/String;)Ljava/lang/String;
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
     move-result-object v0
 
-    const-string v1, "useOldDomain"
+    const-string/jumbo v1, "useOldDomain"
 
     invoke-interface {v0, v1}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -313,14 +313,14 @@
 
 .method public static getYunAddress()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
     move-result-object v0
 
-    const-string v1, "yunAddress"
+    const-string/jumbo v1, "yunAddress"
 
     invoke-interface {v0, v1}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 

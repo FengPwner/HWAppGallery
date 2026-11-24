@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/SettingPaymentAndBillingCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingPaymentAndBillingCard$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingPaymentAndBillingCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/a74;->a()Lcom/huawei/appmarket/a74;
+    invoke-static {}, Lcom/huawei/appmarket/d74;->a()Lcom/huawei/appmarket/d74;
 
     .line 12
     .line 13
@@ -77,7 +77,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/a74;->b(Lcom/huawei/appmarket/a74$a;Landroid/content/Context;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/d74;->b(Lcom/huawei/appmarket/d74$a;Landroid/content/Context;)V
 
     .line 24
     .line 25
@@ -171,5 +171,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

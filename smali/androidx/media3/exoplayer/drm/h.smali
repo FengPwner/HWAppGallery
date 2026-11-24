@@ -37,7 +37,7 @@
     throw p1
 .end method
 
-.method public final synthetic b([BLcom/huawei/appmarket/t16;)V
+.method public final synthetic b([BLcom/huawei/appmarket/v16;)V
     .registers 3
 
     .line 1

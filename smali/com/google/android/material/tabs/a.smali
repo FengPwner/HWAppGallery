@@ -154,7 +154,7 @@
     float-to-int v1, v1
 
     .line 63
-    invoke-static {v0, p4, v1}, Lcom/huawei/appmarket/mm;->c(FII)I
+    invoke-static {v0, p4, v1}, Lcom/huawei/appmarket/lm;->c(FII)I
 
     .line 64
     .line 65
@@ -188,7 +188,7 @@
     float-to-int p1, p1
 
     .line 79
-    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/mm;->c(FII)I
+    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/lm;->c(FII)I
 
     .line 80
     .line 81

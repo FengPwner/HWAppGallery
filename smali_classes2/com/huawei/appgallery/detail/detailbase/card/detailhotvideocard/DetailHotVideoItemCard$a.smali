@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;->c:Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -57,11 +57,11 @@
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class v1, Lcom/huawei/appgallery/detail/detailbase/view/a;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
@@ -83,14 +83,14 @@
 
     const-string v2, "1230700102"
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/kj1;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/nj1;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method

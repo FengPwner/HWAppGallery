@@ -1,14 +1,34 @@
-.class final Lcom/huawei/appmarket/oo4;
-.super Ljava/io/IOException;
+.class public interface abstract Lcom/huawei/appmarket/oo4;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method constructor <init>(Ljava/lang/String;)V
-    .registers 2
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-    .line 1
-    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
-    return-void
+# virtual methods
+.method public abstract deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/po4;",
+            "Ljava/lang/reflect/Type;",
+            "Lcom/huawei/appmarket/no4;",
+            ")TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/gson/JsonParseException;
+        }
+    .end annotation
 .end method

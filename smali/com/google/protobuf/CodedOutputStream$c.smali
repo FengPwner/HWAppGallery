@@ -263,7 +263,7 @@
 
     invoke-virtual {p0, v0}, Lcom/google/protobuf/CodedOutputStream$c;->a0(I)V
 
-    invoke-virtual {p1, p0}, Lcom/google/protobuf/h;->t(Lcom/huawei/appmarket/qf0;)V
+    invoke-virtual {p1, p0}, Lcom/google/protobuf/h;->t(Lcom/huawei/appmarket/rf0;)V
 
     return-void
 .end method

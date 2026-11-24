@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/eg3;
+.field private static a:Lcom/huawei/appmarket/gg3;
 
 
 # direct methods
@@ -12,11 +12,11 @@
     .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/f02;
+    new-instance v0, Lcom/huawei/appmarket/j02;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/f02;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/j02;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/eg3;
+    sput-object v0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/gg3;
 
     return-void
 .end method
@@ -29,22 +29,22 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/eg3;
+.method public static a()Lcom/huawei/appmarket/gg3;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/eg3;
+    sget-object v0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/gg3;
 
     return-object v0
 .end method
 
-.method public static b(Lcom/huawei/appmarket/eg3;)V
+.method public static b(Lcom/huawei/appmarket/gg3;)V
     .registers 1
 
     .line 1
     if-eqz p0, :cond_0
 
-    sput-object p0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/eg3;
+    sput-object p0, Lcom/huawei/appmarket/o5;->a:Lcom/huawei/appmarket/gg3;
 
     :cond_0
     return-void

@@ -255,7 +255,7 @@
 
     const-string p2, "DefaultAudioSink"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/cy4;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fy4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -396,7 +396,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -481,7 +481,7 @@
 
     .line 51
     .line 52
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/cy4;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fy4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -935,7 +935,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -1020,7 +1020,7 @@
 
     .line 51
     .line 52
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/cy4;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fy4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54

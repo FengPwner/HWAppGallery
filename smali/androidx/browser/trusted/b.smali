@@ -16,7 +16,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/p44;Landroid/content/ComponentName;)V
+.method constructor <init>(Lcom/huawei/appmarket/s44;Landroid/content/ComponentName;)V
     .registers 3
 
     .line 1

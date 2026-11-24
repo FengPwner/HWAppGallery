@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final addTransferListener(Lcom/huawei/appmarket/s28;)V
+.method public final addTransferListener(Lcom/huawei/appmarket/y28;)V
     .registers 3
 
     .line 1
@@ -46,7 +46,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/media3/datasource/a;->addTransferListener(Lcom/huawei/appmarket/s28;)V
+    invoke-interface {v0, p1}, Landroidx/media3/datasource/a;->addTransferListener(Lcom/huawei/appmarket/y28;)V
 
     .line 7
     .line 8
@@ -198,7 +198,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -265,7 +265,7 @@
     .line 25
     .line 26
     .line 27
-    new-instance v1, Lcom/huawei/appmarket/h91;
+    new-instance v1, Lcom/huawei/appmarket/i91;
 
     .line 28
     .line 29
@@ -273,7 +273,7 @@
 
     .line 30
     .line 31
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/h91;-><init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/l91;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/i91;-><init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/m91;)V
 
     .line 32
     .line 33
@@ -291,7 +291,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v1}, Lcom/huawei/appmarket/h91;->s()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/i91;->s()V
 
     .line 42
     .line 43
@@ -689,4 +689,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

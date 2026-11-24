@@ -139,7 +139,7 @@
 
     aget-object p0, p0, v0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ux2;->c(Ljava/lang/reflect/Type;)Ljava/lang/Class;
+    invoke-static {p0}, Lcom/huawei/appmarket/xx2;->c(Ljava/lang/reflect/Type;)Ljava/lang/Class;
 
     move-result-object p0
 

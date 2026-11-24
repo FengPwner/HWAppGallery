@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 5
 
     .line 1
@@ -50,7 +50,7 @@
 
     iget-object v1, p0, Landroidx/lifecycle/p;->b:Ljava/lang/Object;
 
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/a$a;->a(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/a$a;->a(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
 
     return-void
 .end method

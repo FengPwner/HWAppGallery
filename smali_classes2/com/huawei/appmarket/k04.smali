@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract onResult(I)V
 .end method

@@ -96,7 +96,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     .line 42
     .line 43
@@ -291,14 +291,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     move-result v0
 

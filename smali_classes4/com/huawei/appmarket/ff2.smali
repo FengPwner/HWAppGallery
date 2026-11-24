@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lorg/apache/commons/lang3/function/FailableBiFunction;Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableBiFunction;
+.method public static a(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;)Lorg/apache/commons/lang3/function/FailableBiConsumer;
     .registers 3
 
     .line 1
@@ -17,7 +17,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/df2;-><init>(Lorg/apache/commons/lang3/function/FailableBiFunction;Lorg/apache/commons/lang3/function/FailableFunction;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/df2;-><init>(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;)V
 
     .line 7
     .line 8
@@ -286,13 +286,9 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method public static synthetic b(Lorg/apache/commons/lang3/function/FailableBiFunction;Lorg/apache/commons/lang3/function/FailableFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic b(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -301,23 +297,19 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p2, p3}, Lorg/apache/commons/lang3/function/FailableBiFunction;->apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p2, p3}, Lorg/apache/commons/lang3/function/FailableBiConsumer;->accept(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 2
     .line 3
     .line 4
-    move-result-object p0
+    invoke-interface {p1, p2, p3}, Lorg/apache/commons/lang3/function/FailableBiConsumer;->accept(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 5
-    invoke-interface {p1, p0}, Lorg/apache/commons/lang3/function/FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 6
     .line 7
+    return-void
     .line 8
-    move-result-object p0
-
     .line 9
-    return-object p0
     .line 10
     .line 11
     .line 12
@@ -1041,9 +1033,129 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
-.method public static synthetic c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic c(Ljava/lang/Object;Ljava/lang/Object;)V
     .registers 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1052,12 +1164,10 @@
     .end annotation
 
     .line 1
-    const/4 p0, 0x0
-
-    return-object p0
+    return-void
 .end method
 
-.method public static d()Lorg/apache/commons/lang3/function/FailableBiFunction;
+.method public static d()Lorg/apache/commons/lang3/function/FailableBiConsumer;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1065,18 +1175,16 @@
             "Ljava/lang/Object;",
             "U:",
             "Ljava/lang/Object;",
-            "R:",
-            "Ljava/lang/Object;",
             "E:",
             "Ljava/lang/Throwable;",
             ">()",
-            "Lorg/apache/commons/lang3/function/FailableBiFunction<",
-            "TT;TU;TR;TE;>;"
+            "Lorg/apache/commons/lang3/function/FailableBiConsumer<",
+            "TT;TU;TE;>;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableBiFunction;->NOP:Lorg/apache/commons/lang3/function/FailableBiFunction;
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableBiConsumer;->NOP:Lorg/apache/commons/lang3/function/FailableBiConsumer;
 
     return-object v0
 .end method

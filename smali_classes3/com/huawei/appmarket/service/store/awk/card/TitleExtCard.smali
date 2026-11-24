@@ -79,7 +79,7 @@
     move-result-object p1
 
     .line 28
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 29
     .line 30
@@ -226,16 +226,15 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard;->x:Landroid/widget/TextView;
 
@@ -306,7 +305,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/TitleExtCard;->z:Landroid/widget/LinearLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_0
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V

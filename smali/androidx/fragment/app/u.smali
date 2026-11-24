@@ -354,6 +354,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final j(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -542,7 +543,7 @@
     return-void
 .end method
 
-.method public final p(Ljava/lang/Object;Lcom/huawei/appmarket/mi0;Ljava/lang/Runnable;)V
+.method public final p(Ljava/lang/Object;Lcom/huawei/appmarket/ni0;Ljava/lang/Runnable;)V
     .registers 4
 
     .line 1

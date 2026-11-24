@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # instance fields
@@ -32,7 +32,7 @@
 
     const-string v0, "DependBundleAppDownloadManager"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/m60;->b:Ljava/util/concurrent/CountDownLatch;
 
@@ -40,7 +40,7 @@
 
     const-string p1, "latch size down"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -285,7 +285,7 @@
     .line 119
     .line 120
     .line 121
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/bu0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/kd0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 122
     .line 123
@@ -332,7 +332,7 @@
 
     .line 140
     :goto_2
-    sget-object v5, Lcom/huawei/appmarket/ie6;->c:[I
+    sget-object v5, Lcom/huawei/appmarket/ke6;->c:[I
 
     .line 141
     .line 142
@@ -346,7 +346,7 @@
     move v6, p3
 
     .line 146
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     .line 147
     .line 148
@@ -827,7 +827,7 @@
 
     .line 374
     .line 375
-    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     .line 376
     .line 377
@@ -930,7 +930,7 @@
 
     .line 423
     .line 424
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     .line 425
     .line 426
@@ -963,7 +963,7 @@
 
     .line 440
     :cond_13
-    new-instance p3, Lcom/huawei/appmarket/xw7;
+    new-instance p3, Lcom/huawei/appmarket/cx7;
 
     .line 441
     .line 442
@@ -972,7 +972,7 @@
     .line 443
     .line 444
     .line 445
-    invoke-direct {p3, p1, p4}, Lcom/huawei/appmarket/xw7;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p3, p1, p4}, Lcom/huawei/appmarket/cx7;-><init>(Landroid/content/Context;I)V
 
     .line 446
     .line 447
@@ -981,7 +981,7 @@
 
     .line 449
     .line 450
-    invoke-virtual {p3}, Lcom/huawei/appmarket/xw7;->h()Landroid/content/res/ColorStateList;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/cx7;->h()Landroid/content/res/ColorStateList;
 
     .line 451
     .line 452
@@ -1494,7 +1494,7 @@
 
     .line 697
     .line 698
-    invoke-static {}, Lcom/huawei/appmarket/xy;->f()Ljava/util/Locale$Category;
+    invoke-static {}, Lcom/huawei/appmarket/yy;->f()Ljava/util/Locale$Category;
 
     .line 699
     .line 700
@@ -1502,7 +1502,7 @@
     move-result-object p2
 
     .line 702
-    invoke-static {p2}, Lcom/huawei/appmarket/xy;->g(Ljava/util/Locale$Category;)Ljava/util/Locale;
+    invoke-static {p2}, Lcom/huawei/appmarket/yy;->g(Ljava/util/Locale$Category;)Ljava/util/Locale;
 
     .line 703
     .line 704

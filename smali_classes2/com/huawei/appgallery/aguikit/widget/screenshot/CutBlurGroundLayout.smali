@@ -56,7 +56,7 @@
 
     const/16 p2, 0x18
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -283,13 +283,13 @@
 
     const-string p2, "The layout height and width remains unchanged."
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/mu6;->c()Landroid/graphics/drawable/BitmapDrawable;
+    invoke-static {}, Lcom/huawei/appmarket/qu6;->c()Landroid/graphics/drawable/BitmapDrawable;
 
     move-result-object p3
 
@@ -299,9 +299,9 @@
 
     move-result-object p3
 
-    invoke-static {p3}, Lcom/huawei/appmarket/mu6;->f(Landroid/content/Context;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/qu6;->f(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mu6;->c()Landroid/graphics/drawable/BitmapDrawable;
+    invoke-static {}, Lcom/huawei/appmarket/qu6;->c()Landroid/graphics/drawable/BitmapDrawable;
 
     move-result-object p3
 
@@ -346,7 +346,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v1, p3, p0, p4, v2}, Lcom/huawei/appmarket/mu6;->g(Landroid/content/Context;Landroid/graphics/drawable/BitmapDrawable;Landroid/view/View;Landroid/view/View;Z)V
+    invoke-static {v1, p3, p0, p4, v2}, Lcom/huawei/appmarket/qu6;->g(Landroid/content/Context;Landroid/graphics/drawable/BitmapDrawable;Landroid/view/View;Landroid/view/View;Z)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -357,7 +357,7 @@
 
     const-string p4, "trying to use a recycled bitmap"
 
-    invoke-virtual {p3, v0, p4}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v0, p4}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_1

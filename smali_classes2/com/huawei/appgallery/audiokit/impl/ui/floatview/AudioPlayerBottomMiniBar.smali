@@ -274,7 +274,7 @@
     move-result-object p1
 
     .line 40
-    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/gz;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/hz;
 
     .line 41
     .line 42
@@ -286,7 +286,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->t()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->t()Z
 
     .line 47
     .line 48
@@ -366,7 +366,7 @@
     move-result-object v0
 
     .line 87
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/hz;)V
 
     .line 88
     .line 89
@@ -566,19 +566,19 @@
     .line 260
 .end method
 
-.method public setData(Lcom/huawei/appmarket/gz;)V
+.method public setData(Lcom/huawei/appmarket/hz;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->setData(Lcom/huawei/appmarket/gz;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->setData(Lcom/huawei/appmarket/hz;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->b:Lcom/huawei/appmarket/gz;
+    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->b:Lcom/huawei/appmarket/hz;
 
     if-eqz p1, :cond_0
 
     iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AudioPlayerBottomMiniBar;->e:Landroid/widget/TextView;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->e()Ljava/lang/String;
 
     move-result-object p1
 
@@ -586,9 +586,9 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AudioPlayerBottomMiniBar;->f:Landroid/widget/TextView;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->b:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->b:Lcom/huawei/appmarket/hz;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->b()Ljava/lang/String;
 
     move-result-object v0
 

@@ -57,15 +57,15 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest$a;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->a0(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->Z(Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest$a;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->Y(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->X(Ljava/lang/String;)V
 
     iget v1, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest$a;->e:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->Z(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->Y(I)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->W()Ljava/lang/String;
 

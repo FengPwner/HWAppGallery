@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/qn2$c;
+.field final synthetic b:Lcom/huawei/appmarket/sn2$c;
 
-.field final synthetic c:I
+.field final synthetic c:Landroid/graphics/Typeface;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/uh0;Lcom/huawei/appmarket/qn2$c;I)V
+.method constructor <init>(Lcom/huawei/appmarket/vh0;Lcom/huawei/appmarket/sn2$c;Landroid/graphics/Typeface;)V
     .registers 4
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/th0;->b:Lcom/huawei/appmarket/qn2$c;
+    iput-object p2, p0, Lcom/huawei/appmarket/th0;->b:Lcom/huawei/appmarket/sn2$c;
 
-    iput p3, p0, Lcom/huawei/appmarket/th0;->c:I
+    iput-object p3, p0, Lcom/huawei/appmarket/th0;->c:Landroid/graphics/Typeface;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -32,11 +32,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/th0;->b:Lcom/huawei/appmarket/qn2$c;
+    iget-object v0, p0, Lcom/huawei/appmarket/th0;->b:Lcom/huawei/appmarket/sn2$c;
 
-    iget v1, p0, Lcom/huawei/appmarket/th0;->c:I
+    iget-object v1, p0, Lcom/huawei/appmarket/th0;->c:Landroid/graphics/Typeface;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qn2$c;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sn2$c;->b(Landroid/graphics/Typeface;)V
 
     return-void
 .end method

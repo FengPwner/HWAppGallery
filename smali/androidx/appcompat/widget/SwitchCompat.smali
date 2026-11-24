@@ -226,7 +226,7 @@
 
     iput v4, v3, Landroid/text/TextPaint;->density:F
 
-    sget-object v7, Lcom/huawei/appmarket/pe6;->y:[I
+    sget-object v7, Lcom/huawei/appmarket/re6;->y:[I
 
     invoke-static {p1, p2, v7, p3, v1}, Landroidx/appcompat/widget/e0;->v(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/e0;
 
@@ -244,7 +244,7 @@
 
     move v10, p3
 
-    invoke-static/range {v5 .. v10}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v5 .. v10}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     const/4 v5, 0x2
 
@@ -422,7 +422,7 @@
 
     if-eqz v7, :cond_15
 
-    sget-object v9, Lcom/huawei/appmarket/pe6;->z:[I
+    sget-object v9, Lcom/huawei/appmarket/re6;->z:[I
 
     .line 3
     invoke-static {p1, v7, v9}, Landroidx/appcompat/widget/e0;->t(Landroid/content/Context;I[I)Landroidx/appcompat/widget/e0;
@@ -1046,6 +1046,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private getThumbScrollRange()I
@@ -1789,6 +1790,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getCompoundPaddingRight()I
@@ -1970,6 +1972,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getCustomSelectionActionModeCallback()Landroid/view/ActionMode$Callback;
@@ -1979,7 +1982,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/qx7;->m(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode$Callback;
+    invoke-static {v0}, Lcom/huawei/appmarket/vx7;->m(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode$Callback;
 
     move-result-object v0
 
@@ -2566,7 +2569,7 @@
 
     .line 63
     .line 64
-    invoke-static {p1, p3, p4, p2}, Lcom/huawei/appmarket/om5;->x(IIII)I
+    invoke-static {p1, p3, p4, p2}, Lcom/huawei/appmarket/ci7;->y(IIII)I
 
     .line 65
     .line 66
@@ -5370,7 +5373,7 @@
 
     .line 31
     :cond_0
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 32
     .line 33
@@ -5417,7 +5420,7 @@
 
     .line 54
     :cond_2
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 55
     .line 56
@@ -5785,7 +5788,7 @@
 .method public setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V
     .registers 2
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/qx7;->n(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/vx7;->n(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback;
 
     move-result-object p1
 
@@ -6000,7 +6003,7 @@
 
     .line 34
     :cond_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 35
     .line 36
@@ -6135,7 +6138,7 @@
 
     .line 34
     :cond_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->w0(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 35
     .line 36
@@ -6243,7 +6246,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -6321,7 +6324,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

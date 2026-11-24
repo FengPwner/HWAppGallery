@@ -24,7 +24,7 @@
 
 .field private X2:Ljava/lang/String;
 
-.field private Y2:Lcom/huawei/appmarket/y54;
+.field private Y2:Lcom/huawei/appmarket/b64;
 
 .field private Z2:F
 
@@ -302,7 +302,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -506,7 +505,7 @@
     goto :goto_1
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/widget/SwitchTabListView;->Y2:Lcom/huawei/appmarket/y54;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/widget/SwitchTabListView;->Y2:Lcom/huawei/appmarket/b64;
 
     if-eqz v0, :cond_3
 
@@ -550,7 +549,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/y54;->k1(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/b64;->k1(Z)V
 
     goto :goto_1
 
@@ -1330,14 +1329,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public setViewPager2UserInput(Lcom/huawei/appmarket/y54;)V
+.method public setViewPager2UserInput(Lcom/huawei/appmarket/b64;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/widget/SwitchTabListView;->Y2:Lcom/huawei/appmarket/y54;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/widget/SwitchTabListView;->Y2:Lcom/huawei/appmarket/b64;
 
     return-void
 .end method

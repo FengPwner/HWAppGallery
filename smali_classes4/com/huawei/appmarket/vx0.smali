@@ -315,17 +315,13 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static b()Ljava/util/Comparator;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cf5;->b:Lcom/huawei/appmarket/cf5;
+    sget-object v0, Lcom/huawei/appmarket/ff5;->b:Lcom/huawei/appmarket/ff5;
 
     .line 2
     .line 3
@@ -333,7 +329,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -639,4 +635,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

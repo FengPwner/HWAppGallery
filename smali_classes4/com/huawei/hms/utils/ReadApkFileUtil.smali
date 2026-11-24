@@ -150,7 +150,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object p0
 
@@ -356,7 +356,7 @@
 
     sget-object v0, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v1, "verifyMDMSignatureV1 verify successful!"
+    const-string/jumbo v1, "verifyMDMSignatureV1 verify successful!"
 
     invoke-static {v0, v1}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -372,7 +372,7 @@
     :cond_0
     sget-object v0, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v1, "verifyMDMSignatureV1 verify failure!"
+    const-string/jumbo v1, "verifyMDMSignatureV1 verify failure!"
 
     invoke-static {v0, v1}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -385,7 +385,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "verifyMDMSignatureV1 MDM verify Exception!:"
+    const-string/jumbo v3, "verifyMDMSignatureV1 MDM verify Exception!:"
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1275,7 +1275,7 @@
 
     sget-object v1, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v2, "verifyMDMSignatureV2 verify successful!"
+    const-string/jumbo v2, "verifyMDMSignatureV2 verify successful!"
 
     invoke-static {v1, v2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1291,7 +1291,7 @@
     :cond_0
     sget-object v1, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v2, "verifyMDMSignatureV2 verify failure!"
+    const-string/jumbo v2, "verifyMDMSignatureV2 verify failure!"
 
     invoke-static {v1, v2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -1304,7 +1304,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v4, "verifyMDMSignatureV2 MDM verify Exception!:"
+    const-string/jumbo v4, "verifyMDMSignatureV2 MDM verify Exception!:"
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1541,7 +1541,7 @@
 
     sget-object v1, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v2, "verifyMDMSignatureV3 verify successful!"
+    const-string/jumbo v2, "verifyMDMSignatureV3 verify successful!"
 
     invoke-static {v1, v2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1557,7 +1557,7 @@
     :cond_0
     sget-object v1, Lcom/huawei/hms/utils/ReadApkFileUtil;->a:Ljava/lang/String;
 
-    const-string v2, "verifyMDMSignatureV3 verify failure!"
+    const-string/jumbo v2, "verifyMDMSignatureV3 verify failure!"
 
     invoke-static {v1, v2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -1570,7 +1570,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v4, "verifyMDMSignatureV3 MDM verify Exception!:"
+    const-string/jumbo v4, "verifyMDMSignatureV3 MDM verify Exception!:"
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1675,7 +1675,7 @@
 
     const-string v0, "META-INF/HUAWEI.CER"
 
-    const-string v1, "zipFile.close Exception!"
+    const-string/jumbo v1, "zipFile.close Exception!"
 
     const-string v2, "isCertFound Exception!"
 
@@ -1877,7 +1877,7 @@
 
     const-string v0, "close stream Exception!"
 
-    const-string v1, "verifyApkHash Exception!"
+    const-string/jumbo v1, "verifyApkHash Exception!"
 
     const/4 v2, 0x0
 

@@ -4,17 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
+.method public abstract O0(Lcom/huawei/appmarket/fb2;)V
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
+.method public abstract Y(Lcom/huawei/appmarket/fb2;)V
 .end method
 
-.method public abstract c(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/FLNodeData;
-.end method
-
-.method public abstract d(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/d;
-.end method
-
-.method public abstract e()V
+.method public abstract w(Lcom/huawei/appmarket/fb2;)V
 .end method

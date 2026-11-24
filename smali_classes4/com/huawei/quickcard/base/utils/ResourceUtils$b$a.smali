@@ -27,14 +27,14 @@
 
 
 # virtual methods
-.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Integer;",
             ">;"
@@ -52,7 +52,7 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/pv5;
+    new-instance v0, Lcom/huawei/appmarket/rv5;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
@@ -66,12 +66,12 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object v0
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/pv5;
+    new-instance p1, Lcom/huawei/appmarket/rv5;
 
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object p1
 .end method

@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/bo2;)Z
+.method public static a(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/do2;)Z
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1, p2}, Lcom/huawei/ohos/localability/g;->a0(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/bo2;)Z
+    invoke-virtual {v0, p0, p1, p2}, Lcom/huawei/ohos/localability/g;->a0(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/do2;)Z
 
     move-result p0
     :try_end_0

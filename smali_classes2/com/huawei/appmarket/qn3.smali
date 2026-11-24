@@ -4,5 +4,8 @@
 
 
 # virtual methods
-.method public abstract J1()V
+.method public abstract a()V
+.end method
+
+.method public abstract getDisplayConfig()Lcom/huawei/appmarket/aq1;
 .end method

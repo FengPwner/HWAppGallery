@@ -1,5 +1,5 @@
 .class public final Landroidx/transition/c;
-.super Lcom/huawei/appmarket/bk8;
+.super Lcom/huawei/appmarket/hk8;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/bk8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/hk8;-><init>()V
 
     const/high16 v0, 0x40400000    # 3.0f
 
@@ -117,7 +117,7 @@
 
     .line 38
     :goto_2
-    invoke-static {p3}, Lcom/huawei/appmarket/bk8;->d(Landroidx/transition/y;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/hk8;->d(Landroidx/transition/y;)I
 
     .line 39
     .line 40
@@ -125,7 +125,7 @@
     move-result v3
 
     .line 42
-    invoke-static {p3}, Lcom/huawei/appmarket/bk8;->e(Landroidx/transition/y;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/hk8;->e(Landroidx/transition/y;)I
 
     .line 43
     .line 44

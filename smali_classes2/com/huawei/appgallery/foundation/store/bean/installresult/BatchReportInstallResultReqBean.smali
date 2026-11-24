@@ -21,12 +21,12 @@
 
 # instance fields
 .field private installResultReqs:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private osv:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -69,7 +69,7 @@
     .line 12
     .line 13
     .line 14
-    sget v0, Lcom/huawei/appmarket/zn1;->f:I
+    sget v0, Lcom/huawei/appmarket/co1;->f:I
 
     .line 15
     .line 16
@@ -211,7 +211,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/installresult/BatchReportInstallResultReqBean;->reportList:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -261,7 +261,7 @@
     const-string v2, "IllegalAccessException"
 
     :goto_1
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

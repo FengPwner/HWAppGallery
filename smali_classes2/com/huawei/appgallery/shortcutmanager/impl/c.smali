@@ -28,17 +28,17 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/c;->a:Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/j24;
+    invoke-static {p1}, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/l24;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/j24;
+    invoke-static {p1}, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/l24;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j24;->onShow()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/l24;->onShow()V
 
     :cond_0
     return-void

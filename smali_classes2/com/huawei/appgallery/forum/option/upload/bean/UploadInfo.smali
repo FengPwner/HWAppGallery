@@ -17,7 +17,7 @@
 .field private fileMd5_:Ljava/lang/String;
 
 .field private fileName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -29,50 +29,50 @@
 .field private fileWidthHeight_:Ljava/lang/String;
 
 .field private uploadId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/wb8;)V
+.method public constructor <init>(Lcom/huawei/appmarket/bc8;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;-><init>()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->m()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/upload/bean/UploadInfo;->uploadId_:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->m()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/upload/bean/UploadInfo;->fileName_:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->g()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/upload/bean/UploadInfo;->fileMd5_:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->h()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/upload/bean/UploadInfo;->fileSHA256_:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->d()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->d()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/huawei/appgallery/forum/option/upload/bean/UploadInfo;->fileLength_:J
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->n()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->n()I
 
     move-result v1
 
@@ -96,7 +96,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->i()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->i()I
 
     move-result p1
 

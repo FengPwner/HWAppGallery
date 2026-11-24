@@ -202,13 +202,13 @@
 
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v0, v0, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/si7;
+    iget-object v0, v0, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/si7;->j()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yi7;->j()I
 
     move-result v1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/si7;->h(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/yi7;->h(ILjava/lang/Object;)V
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
@@ -227,13 +227,13 @@
 
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v0, v0, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/si7;
+    iget-object v0, v0, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/si7;->j()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yi7;->j()I
 
     move-result v1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/si7;->h(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/yi7;->h(ILjava/lang/Object;)V
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
@@ -317,9 +317,9 @@
     :goto_0
     iget-object v2, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/si7;
+    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/si7;->j()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/yi7;->j()I
 
     move-result v2
 
@@ -327,9 +327,9 @@
 
     iget-object v2, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/si7;
+    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/si7;->k(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/yi7;->k(I)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -339,9 +339,9 @@
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object p1, p1, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/si7;
+    iget-object p1, p1, Lcom/huawei/phoneservice/faq/widget/a;->c:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/si7;->i(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/yi7;->i(I)V
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
@@ -375,9 +375,9 @@
     :goto_0
     iget-object v2, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/si7;
+    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/si7;->j()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/yi7;->j()I
 
     move-result v2
 
@@ -385,9 +385,9 @@
 
     iget-object v2, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/si7;
+    iget-object v2, v2, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/si7;->k(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/yi7;->k(I)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -397,9 +397,9 @@
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 
-    iget-object p1, p1, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/si7;
+    iget-object p1, p1, Lcom/huawei/phoneservice/faq/widget/a;->b:Lcom/huawei/appmarket/yi7;
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/si7;->i(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/yi7;->i(I)V
 
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/widget/FaqListGridView;->i:Lcom/huawei/phoneservice/faq/widget/a;
 

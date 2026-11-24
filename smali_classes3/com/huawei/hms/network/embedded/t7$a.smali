@@ -432,7 +432,7 @@
     const-string v1, " must not have a request body."
 
     .line 8
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -459,7 +459,7 @@
     const-string v1, " must have a request body."
 
     .line 10
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -703,7 +703,6 @@
 .method public c(Ljava/lang/String;)Lcom/huawei/hms/network/embedded/t7$a;
     .registers 8
 
-    .line 3
     if-eqz p1, :cond_2
 
     const/4 v1, 0x1
@@ -732,14 +731,9 @@
 
     const/4 v1, 0x3
 
+    .line 3
     :goto_0
-    invoke-virtual {p1, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/tr2;->j(Ljava/lang/String;ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -758,6 +752,7 @@
 
     move-object v0, p1
 
+    .line 4
     invoke-virtual/range {v0 .. v5}, Ljava/lang/String;->regionMatches(ZILjava/lang/String;II)Z
 
     move-result v0

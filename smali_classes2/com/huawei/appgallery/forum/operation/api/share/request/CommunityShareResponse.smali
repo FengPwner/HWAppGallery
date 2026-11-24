@@ -14,17 +14,17 @@
 
 # instance fields
 .field private loadDelayTime:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pluginShareInfo:Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse$PluginShareInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private plugins:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -37,17 +37,17 @@
 .end field
 
 .field private shareId:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private shareLink:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private systemShareInfo:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -72,13 +72,13 @@
     return-wide v0
 .end method
 
-.method public final K0(Lcom/huawei/appmarket/pk4;)Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse$PluginInfo;
+.method public final K0(Lcom/huawei/appmarket/sk4;)Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse$PluginInfo;
     .registers 7
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;->plugins:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -114,7 +114,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pk4;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sk4;->b()Ljava/lang/String;
 
     move-result-object v4
 

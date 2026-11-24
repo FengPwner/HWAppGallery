@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -53,31 +53,31 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -117,7 +117,7 @@
 
     const-string v1, "LoginManager"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/LoginManager$c;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/LoginManager$b;
 

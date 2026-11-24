@@ -24,35 +24,35 @@
     return-void
 .end method
 
-.method private static K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+.method private static K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
     .registers 4
 
     .line 1
     if-eqz p2, :cond_0
 
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wq5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq5;->a()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wq5;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq5;->b()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-interface {p2, p0, v0, p1}, Lcom/huawei/appmarket/wq3;->v(IILjava/lang/String;)V
+    invoke-interface {p2, p0, v0, p1}, Lcom/huawei/appmarket/yq3;->v(IILjava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p1, "FaDispatcherStub"
 
     const-string p2, "notifyResult callback result, RemoteException"
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -190,13 +190,13 @@
         }
     .end annotation
 
-    sget-object p1, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p1, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v0, "FaDispatcherStub"
 
     const-string v1, "checkFaAgingSetting..."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -212,7 +212,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 2
     .line 3
@@ -224,12 +224,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/td2;->c()Lcom/huawei/appmarket/td2;
+    invoke-static {}, Lcom/huawei/appmarket/wd2;->c()Lcom/huawei/appmarket/wd2;
 
     .line 11
     .line 12
@@ -336,7 +336,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final queryAbility(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -347,20 +346,20 @@
         }
     .end annotation
 
-    sget-object p1, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p1, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p2, "FaDispatcherStub"
 
     const-string v0, "queryAbility..."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
     return-object p1
 .end method
 
-.method public final silentInstall(ILjava/lang/String;Ljava/lang/String;ILcom/huawei/appmarket/wq3;)I
+.method public final silentInstall(ILjava/lang/String;Ljava/lang/String;ILcom/huawei/appmarket/yq3;)I
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -369,24 +368,24 @@
     .end annotation
 
     .line 1
-    sget-object p2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p3, "FaDispatcherStub"
 
     const-string p4, "silentInstall..."
 
-    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
-    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public final silentInstallSafely(ILohos/aafwk/content/Intent;ILcom/huawei/appmarket/wq3;)I
+.method public final silentInstallSafely(ILohos/aafwk/content/Intent;ILcom/huawei/appmarket/yq3;)I
     .registers 14
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -403,7 +402,7 @@
     move-result-wide v0
 
     .line 5
-    sget-object v2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 6
     .line 7
@@ -437,7 +436,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -458,16 +457,16 @@
 
     .line 33
     .line 34
-    invoke-virtual {v2, v4, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36
     .line 37
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
     .line 38
     .line 39
-    invoke-static {p1, p2, p4}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p4}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     .line 40
     .line 41
@@ -495,7 +494,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v1, p4}, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->F(Lcom/huawei/appmarket/wq3;)V
+    invoke-virtual {v1, p4}, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->F(Lcom/huawei/appmarket/yq3;)V
 
     .line 55
     .line 56
@@ -585,7 +584,7 @@
     .line 93
     .line 94
     :goto_1
-    invoke-virtual {v2, v4, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -666,7 +665,7 @@
     move-exception v2
 
     .line 131
-    sget-object v6, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v6, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 132
     .line 133
@@ -698,7 +697,7 @@
     move-result-object v2
 
     .line 147
-    invoke-virtual {v6, v4, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     .line 149
@@ -774,7 +773,7 @@
 
     .line 184
     .line 185
-    sget-object p3, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p3, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 186
     .line 187
@@ -782,7 +781,7 @@
 
     .line 188
     .line 189
-    invoke-virtual {p3, v4, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v4, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 190
     .line 191
@@ -811,7 +810,7 @@
     move-result v2
 
     .line 203
-    sget-object v6, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v6, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 204
     .line 205
@@ -841,7 +840,7 @@
     move-result-object v7
 
     .line 219
-    invoke-virtual {v6, v4, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 220
     .line 221
@@ -868,7 +867,7 @@
     .line 232
     .line 233
     :goto_4
-    invoke-virtual {v6, v4, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 234
     .line 235
@@ -892,7 +891,7 @@
 
     .line 243
     .line 244
-    invoke-static {p3}, Lcom/huawei/appmarket/jj5;->r(Ljava/util/Optional;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/lj5;->r(Ljava/util/Optional;)Z
 
     .line 245
     .line 246
@@ -908,7 +907,7 @@
 
     .line 251
     :cond_9
-    invoke-static {p3}, Lcom/huawei/appmarket/jj5;->x(Ljava/util/Optional;)Ljava/lang/Object;
+    invoke-static {p3}, Lcom/huawei/appmarket/lj5;->y(Ljava/util/Optional;)Ljava/lang/Object;
 
     .line 252
     .line 253
@@ -1180,47 +1179,47 @@
     .line 388
     .line 389
     :cond_d
-    sget-object p3, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p3, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 390
     .line 391
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     .line 392
     .line 393
-    new-instance v2, Lcom/huawei/appmarket/p43;
+    new-instance v2, Lcom/huawei/appmarket/s43;
 
     .line 394
     .line 395
-    invoke-direct {v2, p2, p4}, Lcom/huawei/appmarket/p43;-><init>(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;I)V
+    invoke-direct {v2, p2, p4}, Lcom/huawei/appmarket/s43;-><init>(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;I)V
 
     .line 396
     .line 397
     .line 398
-    invoke-virtual {p3, v1, v2}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {p3, v1, v2}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     .line 399
     .line 400
     .line 401
     :cond_e
-    sget-object p3, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p3, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 402
     .line 403
-    sget-object p4, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object p4, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     .line 404
     .line 405
-    new-instance v1, Lcom/huawei/appmarket/p43;
+    new-instance v1, Lcom/huawei/appmarket/s43;
 
     .line 406
     .line 407
-    invoke-direct {v1, p2, p1}, Lcom/huawei/appmarket/p43;-><init>(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;I)V
+    invoke-direct {v1, p2, p1}, Lcom/huawei/appmarket/s43;-><init>(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;I)V
 
     .line 408
     .line 409
     .line 410
-    invoke-virtual {p3, p4, v1}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {p3, p4, v1}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     .line 411
     .line 412
@@ -1444,7 +1443,7 @@
     .line 629
 .end method
 
-.method public final upgradeCheck(ILjava/lang/String;Ljava/lang/String;ILcom/huawei/appmarket/wq3;)I
+.method public final upgradeCheck(ILjava/lang/String;Ljava/lang/String;ILcom/huawei/appmarket/yq3;)I
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1453,24 +1452,24 @@
     .end annotation
 
     .line 1
-    sget-object p2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p3, "FaDispatcherStub"
 
     const-string p4, "upgradeCheck..."
 
-    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
-    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public final upgradeCheckSafely(ILohos/aafwk/content/Intent;ILcom/huawei/appmarket/wq3;)I
+.method public final upgradeCheckSafely(ILohos/aafwk/content/Intent;ILcom/huawei/appmarket/yq3;)I
     .registers 9
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1485,24 +1484,24 @@
 
     if-nez p2, :cond_0
 
-    sget-object p2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p3, "upgradeCheckSafely, intent is null"
 
-    invoke-virtual {p2, v1, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
-    invoke-static {p1, p2, p4}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p4}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     return v0
 
     :cond_0
-    sget-object v2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v3, "upgradeCheckSafely..."
 
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
 
@@ -1510,11 +1509,11 @@
 
     invoke-static {p1, p2, p3, v1}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->L2(ILohos/aafwk/content/Intent;ILcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/td2;->c()Lcom/huawei/appmarket/td2;
+    invoke-static {}, Lcom/huawei/appmarket/wd2;->c()Lcom/huawei/appmarket/wd2;
 
     move-result-object p1
 
-    invoke-virtual {v1, p4}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->setIFreeInstallCallback(Lcom/huawei/appmarket/wq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
+    invoke-virtual {v1, p4}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->setIFreeInstallCallback(Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
 
     move-result-object p2
 
@@ -1524,12 +1523,12 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/td2;->f(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/wd2;->f(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;)V
 
     return v0
 .end method
 
-.method public final upgradeInstall(ILjava/lang/String;Ljava/lang/String;IILcom/huawei/appmarket/wq3;)I
+.method public final upgradeInstall(ILjava/lang/String;Ljava/lang/String;IILcom/huawei/appmarket/yq3;)I
     .registers 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1538,24 +1537,24 @@
     .end annotation
 
     .line 1
-    sget-object p2, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p2, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p3, "FaDispatcherStub"
 
     const-string p4, "upgradeInstall..."
 
-    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
-    invoke-static {p1, p2, p6}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p6}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public final upgradeInstallSafely(ILohos/aafwk/content/Intent;IILcom/huawei/appmarket/wq3;)I
+.method public final upgradeInstallSafely(ILohos/aafwk/content/Intent;IILcom/huawei/appmarket/yq3;)I
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1564,13 +1563,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v1, "FaDispatcherStub"
 
     const-string v2, "upgradeInstallSafely..."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -1578,11 +1577,11 @@
 
     const-string p2, "upgradeInstallSafely, intent is null"
 
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/wq5;->o:Lcom/huawei/appmarket/wq5;
+    sget-object p2, Lcom/huawei/appmarket/yq5;->o:Lcom/huawei/appmarket/yq5;
 
-    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/wq5;Lcom/huawei/appmarket/wq3;)V
+    invoke-static {p1, p2, p5}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;->K2(ILcom/huawei/appmarket/yq5;Lcom/huawei/appmarket/yq3;)V
 
     return v3
 
@@ -1597,7 +1596,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1, p5}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->setIFreeInstallCallback(Lcom/huawei/appmarket/wq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
+    invoke-virtual {p1, p5}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->setIFreeInstallCallback(Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
 
     move-result-object p1
 
@@ -1605,15 +1604,15 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/td2;->c()Lcom/huawei/appmarket/td2;
+    invoke-static {}, Lcom/huawei/appmarket/wd2;->c()Lcom/huawei/appmarket/wd2;
 
     move-result-object p2
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/td2;->g(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wd2;->g(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 .end method

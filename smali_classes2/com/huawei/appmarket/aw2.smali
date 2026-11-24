@@ -34,7 +34,7 @@
     .line 1
     new-instance v0, Lcom/huawei/appmarket/aw2;
 
-    const-string v1, "MSG_DND"
+    const-string v1, "NOT_SUPPORT"
 
     const/4 v2, 0x0
 
@@ -44,7 +44,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/aw2;
 
-    const-string v3, "DEEP_DND"
+    const-string v3, "OPEN"
 
     const/4 v4, 0x1
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object p0, Lcom/huawei/appmarket/aw2;->e:Lcom/huawei/appmarket/aw2;
+    sget-object p0, Lcom/huawei/appmarket/aw2;->c:Lcom/huawei/appmarket/aw2;
 
     return-object p0
 .end method

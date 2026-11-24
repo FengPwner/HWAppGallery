@@ -8,11 +8,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     if-nez v1, :cond_1
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v3, v1, Landroid/app/Activity;
 
@@ -51,12 +51,12 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/xo8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/dp8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/np3;->dailyReport(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/pp3;->dailyReport(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

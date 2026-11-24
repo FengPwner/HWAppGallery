@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
-.method public abstract getPublishPostResult()Lcom/huawei/appmarket/la6;
+.method public abstract getPublishPostResult()Lcom/huawei/appmarket/na6;
 .end method
 
-.method public abstract setPublishPostResult(Lcom/huawei/appmarket/la6;)V
+.method public abstract setPublishPostResult(Lcom/huawei/appmarket/na6;)V
 .end method

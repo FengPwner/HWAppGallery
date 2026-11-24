@@ -172,13 +172,13 @@
 
     iput-boolean v1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$f;->e:Z
 
-    sget-object v1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string v2, "NewDetailFlowFragment"
 
     const-string v3, "installDelay: scene=touch_move, cancelling timer"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->L7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;)V
 
@@ -363,7 +363,7 @@
     .line 2
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$f;->b:Landroid/view/Window$Callback;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/qc1;->A(Landroid/view/Window$Callback;Landroid/view/SearchEvent;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/sc1;->A(Landroid/view/Window$Callback;Landroid/view/SearchEvent;)Z
 
     move-result p1
 
@@ -409,7 +409,7 @@
     .line 2
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$f;->b:Landroid/view/Window$Callback;
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/hs2;->k(Landroid/view/Window$Callback;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/ks2;->k(Landroid/view/Window$Callback;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
 
     move-result-object p1
 

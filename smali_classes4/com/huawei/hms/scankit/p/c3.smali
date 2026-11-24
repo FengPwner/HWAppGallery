@@ -97,7 +97,7 @@
 
     const-string v0, "BUILDING FLAG"
 
-    const-string v1, "use lite sdk"
+    const-string/jumbo v1, "use lite sdk"
 
     invoke-static {v0, v1}, Lcom/huawei/hms/scankit/p/y3;->d(Ljava/lang/String;Ljava/lang/String;)V
 

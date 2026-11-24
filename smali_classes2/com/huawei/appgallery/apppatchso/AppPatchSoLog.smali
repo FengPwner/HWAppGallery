@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;
-.super Lcom/huawei/appmarket/gy4;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
@@ -37,7 +37,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -61,28 +61,28 @@
 
     sget-object p0, Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;->LOG:Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
     sget-object p0, Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;->LOG:Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_1
     sget-object p0, Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;->LOG:Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_2
     sget-object p0, Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;->LOG:Lcom/huawei/appgallery/apppatchso/AppPatchSoLog;
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -55,7 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 4
     .line 5
@@ -192,6 +192,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c()V

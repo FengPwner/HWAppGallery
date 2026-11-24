@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/d15;
+.implements Lcom/huawei/appmarket/g15;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/d15<",
-        "Lcom/huawei/appmarket/r05;",
+        "Lcom/huawei/appmarket/g15<",
+        "Lcom/huawei/appmarket/u05;",
         ">;"
     }
 .end annotation
@@ -59,7 +59,7 @@
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/r05;
+    check-cast p1, Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -87,7 +87,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setComposition(Lcom/huawei/appmarket/r05;)V
+    invoke-virtual {v0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setComposition(Lcom/huawei/appmarket/u05;)V
 
     .line 15
     .line 16

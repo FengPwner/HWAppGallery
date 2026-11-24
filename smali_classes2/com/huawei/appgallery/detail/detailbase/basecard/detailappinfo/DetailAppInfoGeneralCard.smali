@@ -88,7 +88,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappinfo/DetailAppInfoGeneralCard;->z:Landroid/widget/TextView;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gs5;->c(Lcom/huawei/appgallery/detail/detailbase/common/commonbean/BasePriceDescBean;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/huawei/appmarket/is5;->c(Lcom/huawei/appgallery/detail/detailbase/common/commonbean/BasePriceDescBean;)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -102,7 +102,7 @@
 
     if-ne v0, v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/du5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/fu5;->a()Z
 
     move-result v0
 
@@ -141,7 +141,7 @@
     :cond_2
     iget-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappinfo/DetailAppInfoGeneralCard;->y:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pe8;->c(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ue8;->c(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -218,11 +218,11 @@
     .line 1
     const v0, 0x7f0a152e
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a04fa
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 
@@ -284,7 +284,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappinfo/DetailAppInfoGeneralCard;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0a17d1
+    const v0, 0x7f0a17d2
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

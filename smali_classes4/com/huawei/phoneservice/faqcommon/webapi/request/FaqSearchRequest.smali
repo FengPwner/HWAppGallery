@@ -5,97 +5,97 @@
 
 # instance fields
 .field private applicableRegion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "applicable_region"
     .end annotation
 .end field
 
 .field private brand:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "brand"
     .end annotation
 .end field
 
 .field private country:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "country"
     .end annotation
 .end field
 
 .field private external_model:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "external_model"
     .end annotation
 .end field
 
 .field private knowledgeTypeId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "knowledge_type_id"
     .end annotation
 .end field
 
 .field private knowledge_type:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "knowledge_type"
     .end annotation
 .end field
 
 .field private language:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "language"
     .end annotation
 .end field
 
 .field private pageNo:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "pageNo"
     .end annotation
 .end field
 
 .field private pageSize:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "pageSize"
     .end annotation
 .end field
 
 .field private produce_f_features:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "produce_features"
     .end annotation
 .end field
 
 .field private q:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "q"
     .end annotation
 .end field
 
 .field private qAppName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "qAppName"
     .end annotation
 .end field
 
 .field private releaseChannel:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "release_channel"
     .end annotation
 .end field
 
 .field private site:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "site"
     .end annotation
 .end field
 
 .field private siteCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "siteCode"
     .end annotation
 .end field
 
 .field private sort:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "sort"
     .end annotation
 .end field

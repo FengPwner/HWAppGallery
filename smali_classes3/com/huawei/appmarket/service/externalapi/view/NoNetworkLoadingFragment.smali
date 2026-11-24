@@ -41,7 +41,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->V1(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Ljava/util/ArrayList;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -75,7 +75,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const p2, 0x7f0a0ed9
 
@@ -91,7 +91,7 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setVisibility(I)V
 
-    const p2, 0x7f0a1609
+    const p2, 0x7f0a160a
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
     invoke-virtual {p2}, Landroid/app/ActionBar;->hide()V
 
     :cond_0
-    const p2, 0x7f0a1612
+    const p2, 0x7f0a1613
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -274,15 +274,15 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/externalapi/view/NoNetworkLoadingFragment;->o0:Lcom/huawei/uikit/phone/hwbutton/widget/HwButton;
 
-    const-class p2, Lcom/huawei/appmarket/yu3;
+    const-class p2, Lcom/huawei/appmarket/av3;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/yu3;
+    check-cast p2, Lcom/huawei/appmarket/av3;
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/yu3;->x()Z
+    invoke-interface {p2}, Lcom/huawei/appmarket/av3;->x()Z
 
     move-result p2
 
@@ -371,7 +371,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/tf5;->a(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wf5;->a(Landroid/content/Context;)V
 
     :cond_0
     const v0, 0x7f0a0a7b
@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tf5;->b(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wf5;->b(Landroid/content/Context;)V
 
     :cond_1
     return-void

@@ -191,7 +191,7 @@
 .method private a(IZ)V
     .registers 6
 
-    const-string v0, "====== HMSSDK version: 61300303 ======"
+    const-string v0, "====== HMSSDK version: 61300304 ======"
 
     const-string v1, "BaseHmsClient"
 
@@ -223,7 +223,7 @@
     const-string v2, "Enter connect, Connection Status: "
 
     .line 5
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     if-nez p2, :cond_2
 
@@ -256,7 +256,7 @@
     const-string v0, " packageName:"
 
     .line 7
-    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2, p1, v0}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -323,7 +323,7 @@
     const-string v0, "check available result: "
 
     .line 9
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     if-nez p1, :cond_5
 
@@ -401,7 +401,7 @@
     const-string p2, "HuaweiApiAvailability check available result: "
 
     .line 11
-    invoke-static {p2, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p2, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     if-nez p1, :cond_8
 
@@ -1176,7 +1176,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 24
     .line 25

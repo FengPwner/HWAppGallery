@@ -11,22 +11,22 @@
 
 # instance fields
 .field private forcedUpdate:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private lang:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private msgHash:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private version:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -66,7 +66,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 18
     .line 19
@@ -87,7 +87,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -99,7 +99,7 @@
 
     .line 33
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/or0;->v()Lcom/huawei/appmarket/or0;
+    invoke-static {}, Lcom/huawei/appmarket/pr0;->v()Lcom/huawei/appmarket/pr0;
 
     .line 35
     .line 36
@@ -131,7 +131,7 @@
 
     .line 49
     .line 50
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -197,12 +197,12 @@
 
     .line 81
     .line 82
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-static {}, Lcom/huawei/appmarket/or0;->v()Lcom/huawei/appmarket/or0;
+    invoke-static {}, Lcom/huawei/appmarket/pr0;->v()Lcom/huawei/appmarket/pr0;
 
     .line 86
     .line 87
@@ -219,7 +219,7 @@
 
     .line 93
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/or0;->v()Lcom/huawei/appmarket/or0;
+    invoke-static {}, Lcom/huawei/appmarket/pr0;->v()Lcom/huawei/appmarket/pr0;
 
     .line 94
     .line 95

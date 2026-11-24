@@ -58,11 +58,11 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_4
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;->H(Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;)Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;
 
@@ -75,7 +75,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;->w1(Lcom/huawei/appmarket/bp;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;->w1(Lcom/huawei/appmarket/ap;)V
 
     goto/16 :goto_1
 
@@ -98,7 +98,7 @@
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/huawei/appmarket/bp;
+    instance-of v1, v1, Lcom/huawei/appmarket/ap;
 
     if-eqz v1, :cond_4
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;->H(Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;)Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;
 
@@ -118,7 +118,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;->A1(Lcom/huawei/appmarket/bp;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;->A1(Lcom/huawei/appmarket/ap;)V
 
     goto :goto_1
 
@@ -141,11 +141,11 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_4
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;->H(Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadNode;)Lcom/huawei/appgallery/appcomment/card/commentreplyheadcard/CommentReplyHeadCard;
 

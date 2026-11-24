@@ -23,11 +23,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     return-void
 .end method
@@ -71,9 +71,9 @@
 
     check-cast v0, Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/c72$b;->k()Landroid/app/Activity;
+    invoke-interface {v2}, Lcom/huawei/appmarket/g72$b;->k()Landroid/app/Activity;
 
     move-result-object v2
 
@@ -88,7 +88,7 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;->setFromBuoy(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/d86;->b()Lcom/huawei/appmarket/d86;
+    invoke-static {}, Lcom/huawei/appmarket/f86;->b()Lcom/huawei/appmarket/f86;
 
     move-result-object v1
 
@@ -96,7 +96,7 @@
 
     invoke-direct {v3, v2, v0}, Lcom/huawei/appmarket/service/pay/purchase/ProductPurchaseAction$a;-><init>(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;)V
 
-    invoke-virtual {v1, v2, v0, v3}, Lcom/huawei/appmarket/d86;->e(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;Lcom/huawei/appmarket/ux3;)V
+    invoke-virtual {v1, v2, v0, v3}, Lcom/huawei/appmarket/f86;->e(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;Lcom/huawei/appmarket/wx3;)V
 
     goto :goto_1
 
@@ -109,11 +109,11 @@
     const-string v0, "onAction intent null"
 
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     :goto_1
     return-void

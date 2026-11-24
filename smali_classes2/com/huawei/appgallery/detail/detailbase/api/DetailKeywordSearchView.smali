@@ -12,7 +12,7 @@
 
 .field private c:Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
-.field private d:Lcom/huawei/appmarket/il1;
+.field private d:Lcom/huawei/appmarket/ll1;
 
 .field private e:Landroid/widget/TextSwitcher;
 
@@ -56,9 +56,9 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->i:Ljava/lang/String;
 
-    new-instance p2, Lcom/huawei/appmarket/jl1;
+    new-instance p2, Lcom/huawei/appmarket/ml1;
 
-    invoke-direct {p2, p0}, Lcom/huawei/appmarket/jl1;-><init>(Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;)V
+    invoke-direct {p2, p0}, Lcom/huawei/appmarket/ml1;-><init>(Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;)V
 
     new-instance v0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView$a;
 
@@ -225,7 +225,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 5
     .line 6
@@ -237,7 +237,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -262,11 +262,11 @@
 
     .line 22
     .line 23
-    new-instance v1, Lcom/huawei/appmarket/pq1$a;
+    new-instance v1, Lcom/huawei/appmarket/sq1$a;
 
     .line 24
     .line 25
-    invoke-direct {v1}, Lcom/huawei/appmarket/pq1$a;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/sq1$a;-><init>()V
 
     .line 26
     .line 27
@@ -275,12 +275,12 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pq1$a;->m(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sq1$a;->m(Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->s(Ljava/lang/String;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->s(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -293,7 +293,7 @@
     move-result-object p0
 
     .line 40
-    invoke-static {p0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 41
     .line 42
@@ -301,7 +301,7 @@
     move-result p0
 
     .line 44
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->o(I)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->o(I)V
 
     .line 45
     .line 46
@@ -309,12 +309,12 @@
     const/4 p0, 0x2
 
     .line 48
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->r(I)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->r(I)V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {v1}, Lcom/huawei/appmarket/pq1$a;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sq1$a;->a()V
 
     .line 52
     .line 53
@@ -372,7 +372,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static d(Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;)V
@@ -384,7 +383,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 5
     .line 6
@@ -396,7 +395,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -421,11 +420,11 @@
 
     .line 22
     .line 23
-    new-instance v1, Lcom/huawei/appmarket/pq1$a;
+    new-instance v1, Lcom/huawei/appmarket/sq1$a;
 
     .line 24
     .line 25
-    invoke-direct {v1}, Lcom/huawei/appmarket/pq1$a;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/sq1$a;-><init>()V
 
     .line 26
     .line 27
@@ -434,12 +433,12 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pq1$a;->m(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sq1$a;->m(Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->s(Ljava/lang/String;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->s(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -452,7 +451,7 @@
     move-result-object p0
 
     .line 40
-    invoke-static {p0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 41
     .line 42
@@ -460,7 +459,7 @@
     move-result p0
 
     .line 44
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->o(I)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->o(I)V
 
     .line 45
     .line 46
@@ -468,12 +467,12 @@
     const/4 p0, 0x2
 
     .line 48
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/pq1$a;->r(I)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sq1$a;->r(I)V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {v1}, Lcom/huawei/appmarket/pq1$a;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sq1$a;->a()V
 
     .line 52
     .line 53
@@ -531,7 +530,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic e(Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;)Landroid/view/View;
@@ -568,7 +566,7 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -620,7 +618,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -774,7 +772,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/k97;->c()Lcom/huawei/appmarket/s14;
+    invoke-static {}, Lcom/huawei/appmarket/p97;->c()Lcom/huawei/appmarket/u14;
 
     move-result-object v0
 
@@ -784,12 +782,12 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->c:Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
-    invoke-interface {v0, v1, p1, v2}, Lcom/huawei/appmarket/s14;->f(Landroid/content/Context;ZLcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;)V
+    invoke-interface {v0, v1, p1, v2}, Lcom/huawei/appmarket/u14;->f(Landroid/content/Context;ZLcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;)V
 
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/k97;->c()Lcom/huawei/appmarket/s14;
+    invoke-static {}, Lcom/huawei/appmarket/p97;->c()Lcom/huawei/appmarket/u14;
 
     move-result-object v0
 
@@ -815,7 +813,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-interface {v0, v1, v2, p1}, Lcom/huawei/appmarket/s14;->c(Landroid/content/Context;Ljava/lang/String;Z)V
+    invoke-interface {v0, v1, v2, p1}, Lcom/huawei/appmarket/u14;->c(Landroid/content/Context;Ljava/lang/String;Z)V
 
     :goto_1
     return-void
@@ -916,7 +914,7 @@
 
 
 # virtual methods
-.method public final g(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/il1;)V
+.method public final g(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/ll1;)V
     .registers 5
 
     .line 1
@@ -949,7 +947,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->j:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iput-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
     if-eqz p3, :cond_4
 
@@ -957,20 +955,20 @@
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/il1;->o()V
+    invoke-virtual {p3}, Lcom/huawei/appmarket/ll1;->o()V
 
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/il1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ll1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object p1
 
     if-nez p1, :cond_3
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/il1;->l()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ll1;->l()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object p1
 
@@ -980,9 +978,9 @@
     goto :goto_2
 
     :cond_3
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/il1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ll1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object p1
 
@@ -1016,15 +1014,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->l:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
     if-eqz v0, :cond_1
 
@@ -1038,11 +1036,11 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/il1;->p(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ll1;->p(IZ)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/il1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ll1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object v0
 
@@ -1052,18 +1050,18 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/il1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ll1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->c:Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/il1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ll1;->k()Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;
 
     move-result-object v0
 
@@ -1071,7 +1069,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1094,15 +1092,15 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->l:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
     if-eqz v0, :cond_0
 
@@ -1116,7 +1114,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/il1;->p(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ll1;->p(IZ)V
 
     :cond_0
     return-void
@@ -1127,11 +1125,11 @@
 
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onVisibilityChanged(Landroid/view/View;I)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/il1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->d:Lcom/huawei/appmarket/ll1;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/il1;->i(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ll1;->i(I)V
 
     :cond_0
     return-void

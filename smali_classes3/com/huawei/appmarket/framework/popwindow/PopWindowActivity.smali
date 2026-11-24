@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dx3;
+.implements Lcom/huawei/appmarket/fx3;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity<",
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/dx3;"
+        "Lcom/huawei/appmarket/fx3;"
     }
 .end annotation
 
@@ -62,64 +62,108 @@
     return-void
 .end method
 
-.method public static synthetic C3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)V
-    .registers 2
+.method static C3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
+    .registers 5
 
     .line 1
-    const/4 v0, 0x0
+    invoke-direct {p0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->I3()Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;
 
     .line 2
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->K3(I)V
-
     .line 3
     .line 4
+    move-result-object p0
+
     .line 5
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
+    if-nez p0, :cond_0
 
     .line 6
     .line 7
+    goto :goto_1
+
     .line 8
-    return-void
+    :cond_0
+    new-instance v0, Ljava/util/LinkedHashMap;
+
     .line 9
     .line 10
+    const/4 v1, 0x4
+
     .line 11
+    invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
+
     .line 12
     .line 13
     .line 14
+    const-string v1, "id"
+
     .line 15
     .line 16
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
+
     .line 17
     .line 18
     .line 19
+    move-result-object v2
+
     .line 20
+    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 21
     .line 22
     .line 23
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+
     .line 24
     .line 25
     .line 26
+    move-result-object v1
+
     .line 27
+    if-nez v1, :cond_1
+
     .line 28
     .line 29
+    const-string p0, ""
+
     .line 30
     .line 31
+    goto :goto_0
+
     .line 32
+    :cond_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+
     .line 33
     .line 34
     .line 35
+    move-result-object p0
+
     .line 36
+    :goto_0
+    const-string v1, "url"
+
     .line 37
     .line 38
+    const-string v2, "type"
+
     .line 39
     .line 40
+    invoke-static {v0, v1, p0, p1, v2}, Lcom/huawei/appmarket/tr2;->z(Ljava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+
     .line 41
     .line 42
     .line 43
+    const-string p0, "13401003001"
+
     .line 44
     .line 45
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
     .line 46
     .line 47
     .line 48
+    :goto_1
+    return-void
     .line 49
     .line 50
     .line 51
@@ -187,18 +231,68 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method
 
-.method static synthetic D3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->K3(I)V
-
-    return-void
-.end method
-
-.method static synthetic E3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)Landroid/widget/FrameLayout;
+.method static synthetic D3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)Landroid/widget/FrameLayout;
     .registers 1
 
     .line 1
@@ -207,11 +301,22 @@
     return-object p0
 .end method
 
+.method static synthetic E3(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->I3()Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
 .method private F3()I
     .registers 7
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 2
     .line 3
@@ -219,7 +324,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 6
     .line 7
@@ -235,7 +340,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     .line 14
     .line 15
@@ -251,7 +356,7 @@
 
     .line 20
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 21
     .line 22
@@ -259,7 +364,7 @@
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 25
     .line 26
@@ -274,7 +379,7 @@
 
     .line 30
     .line 31
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     .line 32
     .line 33
@@ -820,176 +925,6 @@
     .line 164
 .end method
 
-.method private K3(I)V
-    .registers 6
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->I3()Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
-
-    .line 8
-    :cond_0
-    new-instance v1, Ljava/util/LinkedHashMap;
-
-    .line 9
-    .line 10
-    const/4 v2, 0x4
-
-    .line 11
-    invoke-direct {v1, v2}, Ljava/util/LinkedHashMap;-><init>(I)V
-
-    .line 12
-    .line 13
-    .line 14
-    const-string v2, "id"
-
-    .line 15
-    .line 16
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
-
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v3
-
-    .line 20
-    invoke-virtual {v1, v2, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 21
-    .line 22
-    .line 23
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-object v2
-
-    .line 27
-    if-nez v2, :cond_1
-
-    .line 28
-    .line 29
-    const-string v0, ""
-
-    .line 30
-    .line 31
-    goto :goto_0
-
-    .line 32
-    :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v0
-
-    .line 36
-    :goto_0
-    const-string v2, "url"
-
-    .line 37
-    .line 38
-    const-string v3, "type"
-
-    .line 39
-    .line 40
-    invoke-static {v1, v2, v0, p1, v3}, Lcom/huawei/appmarket/ej2;->D(Ljava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
-
-    .line 41
-    .line 42
-    .line 43
-    const-string p1, "13401003001"
-
-    .line 44
-    .line 45
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-.end method
-
 
 # virtual methods
 .method public final H3(I)V
@@ -1174,7 +1109,7 @@
 
     .line 72
     .line 73
-    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/b00;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/fs;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 74
     .line 75
@@ -1347,7 +1282,7 @@
 
     .line 155
     .line 156
-    new-instance v1, Lcom/huawei/appmarket/l33;
+    new-instance v1, Lcom/huawei/appmarket/o33;
 
     .line 157
     .line 158
@@ -1376,7 +1311,7 @@
     move v5, v9
 
     .line 169
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/l33;-><init>(Landroid/content/res/Resources;IIFI)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/o33;-><init>(Landroid/content/res/Resources;IIFI)V
 
     .line 170
     .line 171
@@ -1581,8 +1516,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -1673,7 +1606,7 @@
 
     .line 42
     .line 43
-    invoke-static {v5, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -1730,7 +1663,7 @@
     move-result-object v2
 
     .line 73
-    invoke-static {v2}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 74
     .line 75
@@ -1944,7 +1877,7 @@
     .line 169
     .line 170
     :goto_2
-    invoke-static {v5, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     .line 172
@@ -1981,7 +1914,7 @@
     .line 183
     :cond_2
     :goto_6
-    invoke-static {}, Lcom/huawei/appmarket/du;->b()Lcom/huawei/appmarket/du;
+    invoke-static {}, Lcom/huawei/appmarket/eu;->b()Lcom/huawei/appmarket/eu;
 
     .line 184
     .line 185
@@ -1989,7 +1922,7 @@
     move-result-object v2
 
     .line 187
-    invoke-virtual {v2, v0, v1, v7}, Lcom/huawei/appmarket/du;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/apprecall/bean/AppRecallBean;Lcom/huawei/appmarket/wisedist/statefulbutton/bean/QCardDataTransformBean;)Landroid/view/View;
+    invoke-virtual {v2, v0, v1, v7}, Lcom/huawei/appmarket/eu;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/apprecall/bean/AppRecallBean;Lcom/huawei/appmarket/wisedist/statefulbutton/bean/QCardDataTransformBean;)Landroid/view/View;
 
     .line 188
     .line 189
@@ -2083,7 +2016,7 @@
 
     .line 232
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/du;->b()Lcom/huawei/appmarket/du;
+    invoke-static {}, Lcom/huawei/appmarket/eu;->b()Lcom/huawei/appmarket/eu;
 
     .line 233
     .line 234
@@ -2091,7 +2024,7 @@
     move-result-object v1
 
     .line 236
-    invoke-virtual {v1}, Lcom/huawei/appmarket/du;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eu;->e()I
 
     .line 237
     .line 238
@@ -2111,7 +2044,7 @@
     move-result v2
 
     .line 246
-    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/w68;->t(Landroid/content/Context;)I
+    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/b78;->t(Landroid/content/Context;)I
 
     .line 247
     .line 248
@@ -2148,7 +2081,7 @@
     move-result v2
 
     .line 265
-    invoke-virtual {v1}, Lcom/huawei/appmarket/du;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eu;->c()I
 
     .line 266
     .line 267
@@ -2168,7 +2101,7 @@
     move-result-object v4
 
     .line 275
-    invoke-virtual {v1}, Lcom/huawei/appmarket/du;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/eu;->e()I
 
     .line 276
     .line 277
@@ -2221,7 +2154,7 @@
 
     .line 299
     .line 300
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 301
     .line 302
@@ -2248,7 +2181,7 @@
     .line 311
     .line 312
     .line 313
-    if-eqz v2, :cond_e
+    if-eqz v2, :cond_d
 
     .line 314
     .line 315
@@ -2280,7 +2213,7 @@
     move-result-object v1
 
     .line 328
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 329
     .line 330
@@ -2308,7 +2241,7 @@
 
     .line 341
     .line 342
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 343
     .line 344
@@ -2318,7 +2251,7 @@
     .line 346
     .line 347
     .line 348
-    goto/16 :goto_c
+    goto/16 :goto_b
 
     .line 349
     .line 350
@@ -2336,11 +2269,11 @@
     .line 355
     .line 356
     .line 357
-    new-instance v4, Lcom/huawei/appmarket/q26;
+    new-instance v4, Lcom/huawei/appmarket/s26;
 
     .line 358
     .line 359
-    invoke-direct {v4, v0, v1}, Lcom/huawei/appmarket/q26;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
+    invoke-direct {v4, v0, v1}, Lcom/huawei/appmarket/s26;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
 
     .line 360
     .line 361
@@ -2350,1502 +2283,1464 @@
     .line 363
     .line 364
     .line 365
-    new-instance v3, Ljava/util/LinkedHashMap;
+    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 366
     .line 367
-    const/4 v4, 0x4
-
     .line 368
-    invoke-direct {v3, v4}, Ljava/util/LinkedHashMap;-><init>(I)V
+    move-result-object v3
 
     .line 369
+    invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
     .line 370
     .line 371
-    invoke-virtual {v2}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
-
     .line 372
-    .line 373
-    .line 374
-    move-result-object v7
+    move-result-object v3
 
+    .line 373
+    iget v3, v3, Landroid/util/DisplayMetrics;->density:F
+
+    .line 374
     .line 375
-    const-string v9, "id"
+    invoke-static {}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->J3()I
 
     .line 376
     .line 377
-    invoke-virtual {v3, v9, v7}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 378
+    move-result v4
+
     .line 379
+    int-to-float v4, v4
+
     .line 380
-    invoke-virtual {v2}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+    mul-float v4, v4, v3
 
     .line 381
     .line 382
+    float-to-int v4, v4
+
     .line 383
-    move-result-object v7
+    invoke-direct {v0, v3}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->G3(F)I
 
     .line 384
-    if-nez v7, :cond_b
-
     .line 385
     .line 386
-    const-string v7, ""
+    move-result v7
 
     .line 387
-    .line 388
-    goto :goto_a
+    mul-int/lit8 v9, v7, 0x9
 
+    .line 388
     .line 389
-    :cond_b
-    invoke-virtual {v2}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+    div-int/lit8 v9, v9, 0x10
 
     .line 390
     .line 391
-    .line 392
-    move-result-object v7
+    const/high16 v10, 0x41a00000    # 20.0f
 
+    .line 392
     .line 393
-    :goto_a
-    const-string v9, "url"
+    mul-float v10, v10, v3
 
     .line 394
     .line 395
-    invoke-virtual {v3, v9, v7}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    float-to-int v10, v10
 
     .line 396
+    new-instance v11, Landroid/widget/FrameLayout;
+
     .line 397
     .line 398
-    const-string v7, "13401003002"
+    invoke-direct {v11, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 399
     .line 400
-    invoke-static {v7, v3}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-
     .line 401
+    new-instance v13, Landroid/widget/LinearLayout$LayoutParams;
+
     .line 402
     .line 403
-    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    mul-int/lit8 v14, v10, 0x2
 
     .line 404
     .line 405
-    .line 406
-    move-result-object v3
+    add-int v15, v7, v14
 
+    .line 406
     .line 407
-    invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    add-int/2addr v14, v9
 
     .line 408
+    invoke-direct {v13, v15, v14}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+
     .line 409
     .line 410
-    move-result-object v3
-
     .line 411
-    iget v3, v3, Landroid/util/DisplayMetrics;->density:F
+    iput v1, v13, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
     .line 412
     .line 413
-    invoke-static {}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->J3()I
+    invoke-direct/range {p0 .. p0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->F3()I
 
     .line 414
     .line 415
     .line 416
-    move-result v7
+    move-result v1
 
     .line 417
-    int-to-float v7, v7
+    if-lez v1, :cond_b
 
     .line 418
-    mul-float v7, v7, v3
-
     .line 419
+    int-to-float v1, v1
+
     .line 420
-    float-to-int v7, v7
+    mul-float v1, v1, v3
 
     .line 421
-    invoke-direct {v0, v3}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->G3(F)I
-
     .line 422
+    float-to-int v1, v1
+
     .line 423
+    sub-int/2addr v1, v10
+
     .line 424
-    move-result v9
+    goto :goto_a
 
     .line 425
-    mul-int/lit8 v10, v9, 0x9
+    :cond_b
+    sub-int v1, v4, v10
 
     .line 426
     .line 427
-    div-int/lit8 v10, v10, 0x10
+    :goto_a
+    invoke-virtual {v13, v4, v8, v4, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     .line 428
     .line 429
-    const/high16 v11, 0x41a00000    # 20.0f
-
     .line 430
-    .line 431
-    mul-float v11, v11, v3
+    invoke-virtual {v11, v13}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 431
     .line 432
     .line 433
-    float-to-int v11, v11
+    new-instance v1, Lcom/huawei/appmarket/o33;
 
     .line 434
-    new-instance v15, Landroid/widget/FrameLayout;
-
     .line 435
-    .line 436
-    invoke-direct {v15, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
+    .line 436
     .line 437
     .line 438
+    move-result-object v14
+
     .line 439
-    new-instance v13, Landroid/widget/LinearLayout$LayoutParams;
+    const/high16 v4, 0x41800000    # 16.0f
 
     .line 440
     .line 441
-    mul-int/lit8 v14, v11, 0x2
+    mul-float v17, v3, v4
 
     .line 442
     .line 443
-    add-int v12, v9, v14
+    move-object v13, v1
 
     .line 444
+    move v15, v7
+
     .line 445
-    add-int/2addr v14, v10
+    move/from16 v16, v9
 
     .line 446
-    invoke-direct {v13, v12, v14}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
-
     .line 447
+    move/from16 v18, v10
+
     .line 448
     .line 449
-    iput v1, v13, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
+    invoke-direct/range {v13 .. v18}, Lcom/huawei/appmarket/o33;-><init>(Landroid/content/res/Resources;IIFI)V
 
     .line 450
     .line 451
-    invoke-direct/range {p0 .. p0}, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->F3()I
-
     .line 452
+    invoke-virtual {v11, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
     .line 453
     .line 454
-    move-result v1
-
     .line 455
-    if-lez v1, :cond_c
+    const/4 v1, 0x4
 
     .line 456
+    invoke-virtual {v11, v1}, Landroid/view/View;->setVisibility(I)V
+
     .line 457
-    int-to-float v1, v1
-
     .line 458
-    mul-float v1, v1, v3
-
     .line 459
-    .line 460
-    float-to-int v1, v1
+    new-instance v3, Landroid/widget/FrameLayout;
 
+    .line 460
     .line 461
-    sub-int/2addr v1, v11
+    invoke-direct {v3, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 462
-    goto :goto_b
-
     .line 463
-    :cond_c
-    sub-int v1, v7, v11
-
     .line 464
-    .line 465
-    :goto_b
-    invoke-virtual {v13, v7, v8, v7, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
+    new-instance v10, Landroid/widget/FrameLayout$LayoutParams;
 
+    .line 465
     .line 466
+    invoke-direct {v10, v7, v9}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+
     .line 467
     .line 468
-    invoke-virtual {v15, v13}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
     .line 469
+    const/16 v7, 0x11
+
     .line 470
     .line 471
-    new-instance v1, Lcom/huawei/appmarket/l33;
+    iput v7, v10, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     .line 472
     .line 473
-    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3, v10}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 474
     .line 475
     .line 476
-    move-result-object v14
+    iput-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
 
     .line 477
-    const/high16 v7, 0x41800000    # 16.0f
-
     .line 478
-    .line 479
-    mul-float v17, v3, v7
+    invoke-virtual {v11, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
+    .line 479
     .line 480
     .line 481
-    move-object v13, v1
+    iput-object v11, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->w:Landroid/widget/FrameLayout;
 
     .line 482
-    move-object v3, v15
-
     .line 483
-    move v15, v9
+    new-instance v3, Landroid/widget/ImageView;
 
     .line 484
-    move/from16 v16, v10
-
     .line 485
-    .line 486
-    move/from16 v18, v11
+    invoke-direct {v3, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
+    .line 486
     .line 487
     .line 488
-    invoke-direct/range {v13 .. v18}, Lcom/huawei/appmarket/l33;-><init>(Landroid/content/res/Resources;IIFI)V
+    const v7, 0x7f0a007f
 
     .line 489
     .line 490
     .line 491
-    invoke-virtual {v3, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v3, v7}, Landroid/view/View;->setId(I)V
 
     .line 492
     .line 493
     .line 494
-    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
+    new-instance v7, Landroid/widget/FrameLayout$LayoutParams;
 
     .line 495
     .line 496
-    .line 497
-    new-instance v1, Landroid/widget/FrameLayout;
+    invoke-direct {v7, v6, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
+    .line 497
     .line 498
     .line 499
-    invoke-direct {v1, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+    invoke-virtual {v3, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 500
     .line 501
     .line 502
-    new-instance v11, Landroid/widget/FrameLayout$LayoutParams;
+    sget-object v7, Landroid/widget/ImageView$ScaleType;->FIT_XY:Landroid/widget/ImageView$ScaleType;
 
     .line 503
     .line 504
-    invoke-direct {v11, v9, v10}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+    invoke-virtual {v3, v7}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 505
     .line 506
     .line 507
-    const/16 v9, 0x11
+    new-instance v7, Lcom/huawei/appmarket/framework/popwindow/a;
 
     .line 508
     .line 509
-    iput v9, v11, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
+    invoke-direct {v7, v0, v2}, Lcom/huawei/appmarket/framework/popwindow/a;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;)V
 
     .line 510
     .line 511
-    invoke-virtual {v1, v11}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
     .line 512
+    invoke-virtual {v3, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 513
     .line 514
-    iput-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
-
     .line 515
-    .line 516
-    invoke-virtual {v3, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    iget-object v7, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
 
+    .line 516
     .line 517
+    invoke-virtual {v7, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
     .line 518
     .line 519
-    iput-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->w:Landroid/widget/FrameLayout;
-
     .line 520
-    .line 521
-    new-instance v1, Landroid/widget/ImageView;
+    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
+    .line 521
     .line 522
     .line 523
-    invoke-direct {v1, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+    move-result-object v7
 
     .line 524
+    invoke-virtual {v7}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
     .line 525
     .line 526
-    const v9, 0x7f0a007f
-
     .line 527
-    .line 528
-    .line 529
-    invoke-virtual {v1, v9}, Landroid/view/View;->setId(I)V
+    move-result-object v7
 
+    .line 528
+    iget v7, v7, Landroid/util/DisplayMetrics;->density:F
+
+    .line 529
     .line 530
+    mul-float v4, v4, v7
+
     .line 531
     .line 532
-    new-instance v9, Landroid/widget/FrameLayout$LayoutParams;
+    float-to-int v4, v4
 
     .line 533
-    .line 534
-    invoke-direct {v9, v6, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+    const/high16 v9, 0x41000000    # 8.0f
 
+    .line 534
     .line 535
+    mul-float v7, v7, v9
+
     .line 536
     .line 537
-    invoke-virtual {v1, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    float-to-int v7, v7
 
     .line 538
+    new-instance v9, Landroid/widget/FrameLayout;
+
     .line 539
     .line 540
-    sget-object v9, Landroid/widget/ImageView$ScaleType;->FIT_XY:Landroid/widget/ImageView$ScaleType;
+    invoke-direct {v9, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 541
     .line 542
-    invoke-virtual {v1, v9}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
-
     .line 543
+    const v10, 0x7f0a007e
+
     .line 544
     .line 545
-    new-instance v9, Lcom/huawei/appmarket/framework/popwindow/a;
-
     .line 546
-    .line 547
-    invoke-direct {v9, v0, v2}, Lcom/huawei/appmarket/framework/popwindow/a;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;)V
+    invoke-virtual {v9, v10}, Landroid/view/View;->setId(I)V
 
+    .line 547
     .line 548
     .line 549
-    .line 550
-    invoke-virtual {v1, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    new-instance v10, Landroid/widget/FrameLayout$LayoutParams;
 
+    .line 550
     .line 551
+    invoke-direct {v10, v4, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+
     .line 552
     .line 553
-    iget-object v9, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
-
     .line 554
-    .line 555
-    invoke-virtual {v9, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    const v4, 0x800035
 
+    .line 555
     .line 556
     .line 557
-    .line 558
-    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    iput v4, v10, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
+    .line 558
     .line 559
+    invoke-virtual {v10, v8}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
+
     .line 560
     .line 561
-    move-result-object v9
-
     .line 562
-    invoke-virtual {v9}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {v10, v7}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 563
     .line 564
     .line 565
-    move-result-object v9
+    iput v7, v10, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
     .line 566
-    iget v9, v9, Landroid/util/DisplayMetrics;->density:F
-
     .line 567
-    .line 568
-    mul-float v7, v7, v9
+    invoke-virtual {v9, v10}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 568
     .line 569
     .line 570
-    float-to-int v7, v7
+    new-instance v4, Landroid/widget/ImageView;
 
     .line 571
-    const/high16 v10, 0x41000000    # 8.0f
-
     .line 572
-    .line 573
-    mul-float v9, v9, v10
+    invoke-direct {v4, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
+    .line 573
     .line 574
     .line 575
-    float-to-int v9, v9
+    new-instance v7, Landroid/widget/FrameLayout$LayoutParams;
 
     .line 576
-    new-instance v10, Landroid/widget/FrameLayout;
-
     .line 577
-    .line 578
-    invoke-direct {v10, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+    invoke-direct {v7, v6, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
+    .line 578
     .line 579
     .line 580
-    .line 581
-    const v11, 0x7f0a007e
+    invoke-virtual {v4, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 581
     .line 582
     .line 583
-    .line 584
-    invoke-virtual {v10, v11}, Landroid/view/View;->setId(I)V
+    const v7, 0x7f0801a3
 
+    .line 584
     .line 585
     .line 586
-    .line 587
-    new-instance v11, Landroid/widget/FrameLayout$LayoutParams;
+    invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    .line 587
     .line 588
     .line 589
-    invoke-direct {v11, v7, v7}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+    const v8, 0x66ffffff
 
     .line 590
     .line 591
     .line 592
-    const v7, 0x800035
+    invoke-static {v8}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     .line 593
     .line 594
     .line 595
-    iput v7, v11, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
+    move-result-object v8
 
     .line 596
-    .line 597
-    invoke-virtual {v11, v8, v9, v9, v8}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
+    invoke-virtual {v4, v8}, Landroid/widget/ImageView;->setImageTintList(Landroid/content/res/ColorStateList;)V
 
+    .line 597
     .line 598
     .line 599
-    .line 600
-    invoke-virtual {v10, v11}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v9, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
+    .line 600
     .line 601
     .line 602
+    new-instance v4, Landroid/widget/ImageView;
+
     .line 603
-    new-instance v7, Landroid/widget/ImageView;
-
     .line 604
-    .line 605
-    invoke-direct {v7, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v4, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
+    .line 605
     .line 606
     .line 607
-    .line 608
     new-instance v8, Landroid/widget/FrameLayout$LayoutParams;
 
+    .line 608
     .line 609
-    .line 610
     invoke-direct {v8, v6, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
+    .line 610
     .line 611
     .line 612
-    .line 613
-    invoke-virtual {v7, v8}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 613
     .line 614
     .line 615
-    .line 616
-    const v8, 0x7f0801a3
+    invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    .line 616
     .line 617
     .line 618
-    .line 619
-    invoke-virtual {v7, v8}, Landroid/widget/ImageView;->setImageResource(I)V
+    const/high16 v6, 0x33000000
 
+    .line 619
     .line 620
+    invoke-static {v6}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+
     .line 621
     .line 622
-    const v9, 0x66ffffff
-
     .line 623
-    .line 624
-    .line 625
-    invoke-static {v9}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+    move-result-object v6
 
+    .line 624
+    invoke-virtual {v4, v6}, Landroid/widget/ImageView;->setImageTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 625
     .line 626
     .line 627
+    invoke-virtual {v9, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
     .line 628
-    move-result-object v9
-
     .line 629
-    invoke-virtual {v7, v9}, Landroid/widget/ImageView;->setImageTintList(Landroid/content/res/ColorStateList;)V
-
     .line 630
+    invoke-virtual {v9, v1}, Landroid/view/View;->setVisibility(I)V
+
     .line 631
     .line 632
-    invoke-virtual {v10, v7}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
-
     .line 633
+    new-instance v1, Lcom/huawei/appmarket/framework/popwindow/b;
+
     .line 634
     .line 635
-    new-instance v7, Landroid/widget/ImageView;
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/framework/popwindow/b;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)V
 
     .line 636
     .line 637
-    invoke-direct {v7, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
-
     .line 638
+    invoke-virtual {v9, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 639
     .line 640
-    new-instance v9, Landroid/widget/FrameLayout$LayoutParams;
-
     .line 641
-    .line 642
-    invoke-direct {v9, v6, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+    iget-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
 
+    .line 642
     .line 643
+    invoke-virtual {v1, v9}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
     .line 644
     .line 645
-    invoke-virtual {v7, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
     .line 646
+    invoke-virtual {v0, v12}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
     .line 647
     .line 648
-    invoke-virtual {v7, v8}, Landroid/widget/ImageView;->setImageResource(I)V
-
     .line 649
+    move-result-object v1
+
     .line 650
+    check-cast v1, Landroid/widget/LinearLayout;
+
     .line 651
-    const/high16 v6, 0x33000000
-
     .line 652
-    .line 653
-    invoke-static {v6}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+    const/16 v4, 0x50
 
+    .line 653
     .line 654
+    invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setGravity(I)V
+
     .line 655
     .line 656
-    move-result-object v6
-
     .line 657
-    invoke-virtual {v7, v6}, Landroid/widget/ImageView;->setImageTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 658
     .line 659
     .line 660
-    invoke-virtual {v10, v7}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    move-result-object v6
 
     .line 661
+    check-cast v6, Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;
+
     .line 662
     .line 663
-    invoke-virtual {v10, v4}, Landroid/view/View;->setVisibility(I)V
+    iput v4, v6, Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;->c:I
 
     .line 664
     .line 665
-    .line 666
-    new-instance v4, Lcom/huawei/appmarket/framework/popwindow/b;
+    invoke-virtual {v1, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 666
     .line 667
     .line 668
-    invoke-direct {v4, v0}, Lcom/huawei/appmarket/framework/popwindow/b;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;)V
+    invoke-virtual {v1, v11}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 669
     .line 670
     .line 671
-    invoke-virtual {v10, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    new-instance v1, Ljava/lang/StringBuilder;
 
     .line 672
     .line 673
+    const-string v4, "showActivityGuidePopView card added, initial visibility="
+
     .line 674
-    iget-object v4, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->x:Landroid/widget/FrameLayout;
-
     .line 675
-    .line 676
-    invoke-virtual {v4, v10}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 676
     .line 677
     .line 678
-    .line 679
-    const v4, 0x7f0a1174
+    iget-object v4, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->w:Landroid/widget/FrameLayout;
 
+    .line 679
     .line 680
+    invoke-virtual {v4}, Landroid/view/View;->getVisibility()I
+
     .line 681
     .line 682
-    invoke-virtual {v0, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
     .line 683
+    move-result v4
+
     .line 684
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 685
-    move-result-object v4
-
     .line 686
-    check-cast v4, Landroid/widget/LinearLayout;
-
     .line 687
-    .line 688
-    const/16 v6, 0x50
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 688
     .line 689
     .line 690
-    invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->setGravity(I)V
+    move-result-object v1
 
     .line 691
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 692
     .line 693
-    invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
     .line 694
+    invoke-virtual {v2}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getImgUrl()Ljava/lang/String;
+
     .line 695
     .line 696
-    move-result-object v7
-
     .line 697
-    check-cast v7, Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;
+    move-result-object v1
 
     .line 698
-    .line 699
-    iput v6, v7, Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;->c:I
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
+    .line 699
     .line 700
     .line 701
-    invoke-virtual {v4, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    move-result v2
 
     .line 702
+    if-eqz v2, :cond_c
+
     .line 703
     .line 704
-    invoke-virtual {v4, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    const-string v1, "showActivityGuidePopView imgUrl is empty"
 
     .line 705
     .line 706
-    .line 707
-    new-instance v3, Ljava/lang/StringBuilder;
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 707
     .line 708
     .line 709
-    const-string v4, "showActivityGuidePopView card added, initial visibility="
+    goto :goto_b
 
     .line 710
-    .line 711
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    :cond_c
+    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
+    .line 711
     .line 712
     .line 713
+    move-result-object v2
+
     .line 714
-    iget-object v4, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->w:Landroid/widget/FrameLayout;
+    const v4, 0x7f070a3c
 
     .line 715
     .line 716
-    invoke-virtual {v4}, Landroid/view/View;->getVisibility()I
-
     .line 717
+    invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
     .line 718
     .line 719
-    move-result v4
-
     .line 720
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    move-result v2
 
     .line 721
+    new-instance v4, Ljava/lang/StringBuilder;
+
     .line 722
     .line 723
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    const-string v6, "loadPopImage start imgUrl="
 
     .line 724
     .line 725
+    invoke-direct {v4, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 726
-    move-result-object v3
-
     .line 727
-    invoke-static {v5, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 728
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 729
     .line 730
-    invoke-virtual {v2}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getImgUrl()Ljava/lang/String;
-
     .line 731
+    const-string v6, " cornerRadius="
+
     .line 732
     .line 733
-    move-result-object v2
+    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 734
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 735
     .line 736
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 737
-    move-result v3
-
     .line 738
-    if-eqz v3, :cond_d
-
     .line 739
-    .line 740
-    const-string v1, "showActivityGuidePopView imgUrl is empty"
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 740
     .line 741
     .line 742
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    move-result-object v4
 
     .line 743
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 744
     .line 745
-    goto :goto_c
-
     .line 746
-    :cond_d
-    invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static/range {p0 .. p0}, Lcom/bumptech/glide/a;->o(Landroidx/fragment/app/FragmentActivity;)Lcom/bumptech/glide/i;
 
     .line 747
     .line 748
     .line 749
-    move-result-object v3
+    move-result-object v4
 
     .line 750
-    const v4, 0x7f070a3c
+    invoke-virtual {v4, v1}, Lcom/bumptech/glide/i;->h(Ljava/lang/String;)Lcom/bumptech/glide/h;
 
     .line 751
     .line 752
     .line 753
-    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    move-result-object v1
 
     .line 754
+    new-instance v4, Lcom/huawei/appmarket/sy6;
+
     .line 755
     .line 756
-    move-result v3
+    invoke-direct {v4, v2}, Lcom/huawei/appmarket/sy6;-><init>(I)V
 
     .line 757
-    new-instance v4, Ljava/lang/StringBuilder;
-
     .line 758
     .line 759
-    const-string v6, "loadPopImage start imgUrl="
+    invoke-virtual {v1, v4}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 760
     .line 761
-    invoke-direct {v4, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 762
-    .line 763
-    .line 764
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v1
 
+    .line 763
+    check-cast v1, Lcom/bumptech/glide/h;
+
+    .line 764
     .line 765
+    new-instance v2, Lcom/huawei/appmarket/framework/popwindow/c;
+
     .line 766
     .line 767
-    const-string v6, " cornerRadius="
+    invoke-direct {v2, v0, v9}, Lcom/huawei/appmarket/framework/popwindow/c;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;Landroid/widget/FrameLayout;)V
 
     .line 768
     .line 769
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 770
+    invoke-virtual {v1, v2}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/vr6;)Lcom/bumptech/glide/h;
+
     .line 771
     .line 772
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 773
-    .line 774
-    .line 775
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
 
+    .line 774
+    invoke-virtual {v1, v3}, Lcom/bumptech/glide/h;->f(Landroid/widget/ImageView;)V
+
+    .line 775
     .line 776
     .line 777
+    :goto_b
+    return-void
+
     .line 778
-    move-result-object v4
+    :cond_d
+    invoke-virtual {v0, v9}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     .line 779
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 780
     .line 781
+    move-result-object v2
+
     .line 782
-    invoke-static/range {p0 .. p0}, Lcom/bumptech/glide/a;->o(Landroidx/fragment/app/FragmentActivity;)Lcom/bumptech/glide/i;
+    new-instance v3, Lcom/huawei/appmarket/s26;
 
     .line 783
     .line 784
+    invoke-direct {v3, v0, v8}, Lcom/huawei/appmarket/s26;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
+
     .line 785
-    move-result-object v4
-
     .line 786
-    invoke-virtual {v4, v2}, Lcom/bumptech/glide/i;->h(Ljava/lang/String;)Lcom/bumptech/glide/h;
-
     .line 787
+    invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 788
     .line 789
-    move-result-object v2
-
     .line 790
-    new-instance v4, Lcom/huawei/appmarket/oy6;
+    invoke-static {}, Lcom/huawei/appmarket/z;->o()Lcom/huawei/appmarket/z;
 
     .line 791
     .line 792
-    invoke-direct {v4, v3}, Lcom/huawei/appmarket/oy6;-><init>(I)V
-
     .line 793
-    .line 794
-    .line 795
-    invoke-virtual {v2, v4}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    move-result-object v2
 
+    .line 794
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/z;->u(Lcom/huawei/appmarket/fx3;)V
+
+    .line 795
     .line 796
     .line 797
+    invoke-static {}, Lcom/huawei/appmarket/z;->v()V
+
     .line 798
-    move-result-object v2
-
     .line 799
-    check-cast v2, Lcom/bumptech/glide/h;
-
     .line 800
+    if-eqz v1, :cond_f
+
     .line 801
-    new-instance v3, Lcom/huawei/appmarket/framework/popwindow/c;
-
     .line 802
-    .line 803
-    invoke-direct {v3, v0, v10}, Lcom/huawei/appmarket/framework/popwindow/c;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;Landroid/widget/FrameLayout;)V
+    const-string v2, "response"
 
+    .line 803
     .line 804
+    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+
     .line 805
     .line 806
-    invoke-virtual {v2, v3}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/sr6;)Lcom/bumptech/glide/h;
-
     .line 807
-    .line 808
-    .line 809
-    move-result-object v2
+    move-result-object v3
 
+    .line 808
+    instance-of v3, v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+
+    .line 809
     .line 810
-    invoke-virtual {v2, v1}, Lcom/bumptech/glide/h;->f(Landroid/widget/ImageView;)V
+    if-eqz v3, :cond_e
 
     .line 811
     .line 812
-    .line 813
-    :goto_c
-    return-void
-
-    .line 814
-    :cond_e
-    invoke-virtual {v0, v9}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
-
-    .line 815
-    .line 816
-    .line 817
-    move-result-object v2
-
-    .line 818
-    new-instance v3, Lcom/huawei/appmarket/q26;
-
-    .line 819
-    .line 820
-    invoke-direct {v3, v0, v8}, Lcom/huawei/appmarket/q26;-><init>(Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;I)V
-
-    .line 821
-    .line 822
-    .line 823
-    invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 824
-    .line 825
-    .line 826
-    invoke-static {}, Lcom/huawei/appmarket/z;->o()Lcom/huawei/appmarket/z;
-
-    .line 827
-    .line 828
-    .line 829
-    move-result-object v2
-
-    .line 830
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/z;->u(Lcom/huawei/appmarket/dx3;)V
-
-    .line 831
-    .line 832
-    .line 833
-    invoke-static {}, Lcom/huawei/appmarket/z;->v()V
-
-    .line 834
-    .line 835
-    .line 836
-    if-eqz v1, :cond_10
-
-    .line 837
-    .line 838
-    const-string v2, "response"
-
-    .line 839
-    .line 840
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
-
-    .line 841
-    .line 842
-    .line 843
-    move-result-object v3
-
-    .line 844
-    instance-of v3, v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
-
-    .line 845
-    .line 846
-    if-eqz v3, :cond_f
-
-    .line 847
-    .line 848
     :try_start_2
     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
 
-    .line 849
-    .line 850
-    .line 851
+    .line 813
+    .line 814
+    .line 815
     move-result-object v2
 
-    .line 852
+    .line 816
     check-cast v2, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
 
-    .line 853
-    .line 854
+    .line 817
+    .line 818
     iput-object v2, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_8
 
-    .line 855
-    .line 856
-    goto :goto_d
+    .line 819
+    .line 820
+    goto :goto_c
 
-    .line 857
+    .line 821
     :catch_8
     const-string v2, "savedInstanceState.getSerializable(RESPONSE) e "
 
-    .line 858
-    .line 859
-    invoke-static {v5, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    .line 822
+    .line 823
+    invoke-static {v5, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 824
+    .line 825
+    .line 826
+    :cond_e
+    :goto_c
+    const-string v2, "pageUri"
+
+    .line 827
+    .line 828
+    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 829
+    .line 830
+    .line 831
+    move-result-object v3
+
+    .line 832
+    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 833
+    .line 834
+    .line 835
+    move-result v3
+
+    .line 836
+    if-nez v3, :cond_f
+
+    .line 837
+    .line 838
+    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 839
+    .line 840
+    .line 841
+    move-result-object v1
+
+    .line 842
+    iput-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
+
+    .line 843
+    .line 844
+    :cond_f
+    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
+
+    .line 845
+    .line 846
+    .line 847
+    move-result-object v1
+
+    .line 848
+    check-cast v1, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;
+
+    .line 849
+    .line 850
+    if-eqz v1, :cond_13
+
+    .line 851
+    .line 852
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+
+    .line 853
+    .line 854
+    .line 855
+    move-result-object v2
+
+    .line 856
+    if-eqz v2, :cond_13
+
+    .line 857
+    .line 858
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+
+    .line 859
     .line 860
     .line 861
+    move-result-object v2
+
     .line 862
-    :cond_f
-    :goto_d
-    const-string v2, "pageUri"
+    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h0()Ljava/lang/String;
 
     .line 863
     .line 864
-    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
     .line 865
+    move-result-object v2
+
     .line 866
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 867
-    move-result-object v3
-
     .line 868
-    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 869
-    .line 870
-    .line 871
-    move-result v3
+    move-result v2
 
+    .line 870
+    if-nez v2, :cond_10
+
+    .line 871
     .line 872
-    if-nez v3, :cond_10
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
 
     .line 873
     .line 874
-    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
     .line 875
+    move-result-object v2
+
     .line 876
+    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h0()Ljava/lang/String;
+
     .line 877
-    move-result-object v1
-
     .line 878
-    iput-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
-
     .line 879
+    move-result-object v2
+
     .line 880
-    :cond_10
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    iput-object v2, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
 
     .line 881
     .line 882
+    :cond_10
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+
     .line 883
+    .line 884
+    .line 885
     move-result-object v1
 
-    .line 884
-    check-cast v1, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;
-
-    .line 885
     .line 886
-    if-eqz v1, :cond_14
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h()J
 
     .line 887
     .line 888
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
-
     .line 889
+    move-result-wide v1
+
     .line 890
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
+
     .line 891
-    move-result-object v2
-
     .line 892
-    if-eqz v2, :cond_14
-
     .line 893
+    move-result-object v3
+
     .line 894
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+    invoke-virtual {v3, v1, v2}, Lcom/huawei/appmarket/dm5;->a(J)Ljava/lang/Object;
 
     .line 895
     .line 896
     .line 897
-    move-result-object v2
+    move-result-object v3
 
     .line 898
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h0()Ljava/lang/String;
+    instance-of v4, v3, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;
 
     .line 899
     .line 900
-    .line 901
-    move-result-object v2
+    if-nez v4, :cond_12
 
+    .line 901
     .line 902
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    :cond_11
+    move-object v3, v7
 
     .line 903
-    .line 904
-    .line 905
-    move-result v2
+    goto :goto_d
 
+    .line 904
+    :cond_12
+    check-cast v3, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;
+
+    .line 905
     .line 906
-    if-nez v2, :cond_11
+    const-string v4, "POP_WINDOW_RESPONSE_BEAN"
 
     .line 907
     .line 908
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+    invoke-virtual {v3, v4}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;->a(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 909
     .line 910
     .line 911
-    move-result-object v2
+    move-result-object v3
 
     .line 912
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h0()Ljava/lang/String;
+    instance-of v4, v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
 
     .line 913
     .line 914
-    .line 915
-    move-result-object v2
+    if-eqz v4, :cond_11
 
+    .line 915
     .line 916
-    iput-object v2, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
+    check-cast v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
 
     .line 917
     .line 918
-    :cond_11
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->b()Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
 
     .line 919
     .line 920
     .line 921
-    move-result-object v1
+    move-result-object v4
 
     .line 922
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->h()J
+    invoke-virtual {v4, v1, v2}, Lcom/huawei/appmarket/dm5;->d(J)V
 
     .line 923
     .line 924
     .line 925
-    move-result-wide v1
+    :goto_d
+    if-eqz v3, :cond_13
 
     .line 926
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
-
     .line 927
+    iput-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+
     .line 928
     .line 929
-    move-result-object v3
+    :cond_13
+    iget-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
 
     .line 930
-    invoke-virtual {v3, v1, v2}, Lcom/huawei/appmarket/bm5;->a(J)Ljava/lang/Object;
-
     .line 931
+    if-nez v1, :cond_14
+
     .line 932
     .line 933
-    move-result-object v3
+    const-string v1, "detailResponse == null"
 
     .line 934
-    instance-of v4, v3, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;
-
     .line 935
-    .line 936
-    if-nez v4, :cond_13
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 936
     .line 937
     .line 938
-    :cond_12
-    move-object v3, v7
+    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 
     .line 939
-    goto :goto_e
-
     .line 940
-    :cond_13
-    check-cast v3, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;
-
     .line 941
+    return-void
+
     .line 942
-    const-string v4, "POP_WINDOW_RESPONSE_BEAN"
+    :cond_14
+    invoke-virtual/range {p0 .. p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     .line 943
     .line 944
-    invoke-virtual {v3, v4}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$a;->a(Ljava/lang/String;)Ljava/lang/Object;
-
     .line 945
-    .line 946
-    .line 947
-    move-result-object v3
+    move-result-object v1
 
+    .line 946
+    const-string v2, "popWindowFragment"
+
+    .line 947
     .line 948
-    instance-of v4, v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentManager;->a0(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 949
     .line 950
-    if-eqz v4, :cond_12
-
     .line 951
+    move-result-object v1
+
     .line 952
-    check-cast v3, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    instance-of v3, v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
 
     .line 953
     .line 954
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
+    if-eqz v3, :cond_15
 
     .line 955
     .line 956
-    .line 957
-    move-result-object v4
+    check-cast v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
 
+    .line 957
     .line 958
-    invoke-virtual {v4, v1, v2}, Lcom/huawei/appmarket/bm5;->d(J)V
+    new-instance v2, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
     .line 959
     .line 960
-    .line 961
-    :goto_e
-    if-eqz v3, :cond_14
+    invoke-direct {v2}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;-><init>()V
 
+    .line 961
     .line 962
     .line 963
-    iput-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    iget-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
 
     .line 964
     .line 965
-    :cond_14
-    iget-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    invoke-virtual {v2, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     .line 966
     .line 967
-    if-nez v1, :cond_15
-
     .line 968
+    new-instance v3, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
+
     .line 969
-    const-string v1, "detailResponse == null"
-
     .line 970
-    .line 971
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    iget-object v4, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
 
+    .line 971
     .line 972
+    invoke-direct {v3, v2, v4}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;-><init>(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+
     .line 973
     .line 974
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
-
     .line 975
+    invoke-virtual {v1, v3}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
+
     .line 976
     .line 977
+    .line 978
     return-void
 
-    .line 978
-    :cond_15
-    invoke-virtual/range {p0 .. p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
-
     .line 979
+    :cond_15
+    iget-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+
     .line 980
     .line 981
-    move-result-object v1
+    iget-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
 
     .line 982
-    const-string v2, "popWindowFragment"
-
     .line 983
-    .line 984
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentManager;->a0(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    new-instance v4, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
+    .line 984
     .line 985
+    invoke-direct {v4}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;-><init>()V
+
     .line 986
     .line 987
-    move-result-object v1
-
     .line 988
-    instance-of v3, v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
+    invoke-virtual {v4, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     .line 989
     .line 990
-    if-eqz v3, :cond_16
-
     .line 991
+    new-instance v6, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
+
     .line 992
-    check-cast v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
-
     .line 993
-    .line 994
-    new-instance v2, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    invoke-direct {v6, v4, v1}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;-><init>(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
+    .line 994
     .line 995
     .line 996
-    invoke-direct {v2}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;-><init>()V
+    new-instance v4, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;
 
     .line 997
     .line 998
-    .line 999
-    iget-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
+    invoke-direct {v4}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;-><init>()V
 
+    .line 999
     .line 1000
     .line 1001
-    invoke-virtual {v2, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    new-instance v9, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;
 
     .line 1002
     .line 1003
-    .line 1004
-    new-instance v3, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
+    invoke-direct {v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;-><init>()V
 
+    .line 1004
     .line 1005
     .line 1006
-    iget-object v4, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    invoke-virtual {v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;->A0()V
 
     .line 1007
     .line 1008
-    invoke-direct {v3, v2, v4}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;-><init>(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-
     .line 1009
+    invoke-virtual {v9, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->r0(Ljava/lang/String;)V
+
     .line 1010
     .line 1011
-    invoke-virtual {v1, v3}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
-
     .line 1012
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->a0()Ljava/util/List;
+
     .line 1013
     .line 1014
-    return-void
-
     .line 1015
-    :cond_16
-    iget-object v1, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->r:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
+    move-result-object v3
 
     .line 1016
-    .line 1017
-    iget-object v3, v0, Lcom/huawei/appmarket/framework/popwindow/PopWindowActivity;->s:Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
+    .line 1017
     .line 1018
     .line 1019
-    new-instance v4, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    move-result v10
 
     .line 1020
+    if-eqz v10, :cond_16
+
     .line 1021
-    invoke-direct {v4}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;-><init>()V
-
     .line 1022
-    .line 1023
-    .line 1024
-    invoke-virtual {v4, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    goto :goto_e
 
+    .line 1023
+    :cond_16
+    invoke-interface {v3, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 1024
     .line 1025
     .line 1026
+    move-result-object v3
+
     .line 1027
-    new-instance v6, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
+    check-cast v3, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;
 
     .line 1028
     .line 1029
-    invoke-direct {v6, v4, v1}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;-><init>(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-virtual {v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->getCssSelector()Ljava/lang/String;
 
     .line 1030
     .line 1031
     .line 1032
-    new-instance v4, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;
+    move-result-object v7
 
     .line 1033
-    .line 1034
-    invoke-direct {v4}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;-><init>()V
+    :goto_e
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getCss()Lorg/json/JSONObject;
 
+    .line 1034
     .line 1035
     .line 1036
+    move-result-object v3
+
     .line 1037
-    new-instance v9, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;
+    if-eqz v3, :cond_17
 
     .line 1038
     .line 1039
-    invoke-direct {v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;-><init>()V
+    if-eqz v7, :cond_17
 
     .line 1040
     .line 1041
-    .line 1042
-    invoke-virtual {v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;->A0()V
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getCss()Lorg/json/JSONObject;
 
+    .line 1042
     .line 1043
     .line 1044
+    move-result-object v1
+
     .line 1045
-    invoke-virtual {v9, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->r0(Ljava/lang/String;)V
+    invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     .line 1046
     .line 1047
     .line 1048
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->a0()Ljava/util/List;
+    move-result-object v1
 
     .line 1049
+    invoke-virtual {v9, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->L(Ljava/lang/String;)V
+
     .line 1050
     .line 1051
-    move-result-object v3
-
     .line 1052
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-virtual {v9, v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->N(Ljava/lang/String;)V
 
     .line 1053
     .line 1054
     .line 1055
-    move-result v10
+    :cond_17
+    invoke-virtual {v4, v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;->d(Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;)V
 
     .line 1056
-    if-eqz v10, :cond_17
-
     .line 1057
     .line 1058
-    goto :goto_f
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 1059
-    :cond_17
-    invoke-interface {v3, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
     .line 1060
+    const-string v3, "pop.window.fragment"
+
     .line 1061
     .line 1062
-    move-result-object v3
+    invoke-direct {v1, v3, v4}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 1063
-    check-cast v3, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;
-
     .line 1064
     .line 1065
-    invoke-virtual {v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->getCssSelector()Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 1066
     .line 1067
     .line 1068
-    move-result-object v7
+    move-result-object v1
 
     .line 1069
-    :goto_f
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getCss()Lorg/json/JSONObject;
+    check-cast v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
 
     .line 1070
     .line 1071
-    .line 1072
-    move-result-object v3
-
-    .line 1073
-    if-eqz v3, :cond_18
-
-    .line 1074
-    .line 1075
-    if-eqz v7, :cond_18
-
-    .line 1076
-    .line 1077
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getCss()Lorg/json/JSONObject;
-
-    .line 1078
-    .line 1079
-    .line 1080
-    move-result-object v1
-
-    .line 1081
-    invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
-
-    .line 1082
-    .line 1083
-    .line 1084
-    move-result-object v1
-
-    .line 1085
-    invoke-virtual {v9, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->L(Ljava/lang/String;)V
-
-    .line 1086
-    .line 1087
-    .line 1088
-    invoke-virtual {v9, v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->N(Ljava/lang/String;)V
-
-    .line 1089
-    .line 1090
-    .line 1091
-    :cond_18
-    invoke-virtual {v4, v9}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;->d(Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;)V
-
-    .line 1092
-    .line 1093
-    .line 1094
-    new-instance v1, Lcom/huawei/appmarket/cn5;
-
-    .line 1095
-    .line 1096
-    const-string v3, "pop.window.fragment"
-
-    .line 1097
-    .line 1098
-    invoke-direct {v1, v3, v4}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
-    .line 1099
-    .line 1100
-    .line 1101
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
-
-    .line 1102
-    .line 1103
-    .line 1104
-    move-result-object v1
-
-    .line 1105
-    check-cast v1, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
-
-    .line 1106
-    .line 1107
     invoke-virtual {v1, v6}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 
-    .line 1108
-    .line 1109
-    .line 1110
+    .line 1072
+    .line 1073
+    .line 1074
     :try_start_3
     invoke-virtual/range {p0 .. p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
-    .line 1111
-    .line 1112
-    .line 1113
+    .line 1075
+    .line 1076
+    .line 1077
     move-result-object v3
 
-    .line 1114
+    .line 1078
     invoke-virtual {v3}, Landroidx/fragment/app/FragmentManager;->l()Landroidx/fragment/app/r;
 
-    .line 1115
-    .line 1116
-    .line 1117
+    .line 1079
+    .line 1080
+    .line 1081
     move-result-object v3
 
-    .line 1118
-    const v4, 0x7f0a1174
+    .line 1082
+    invoke-virtual {v3, v12, v1, v2}, Landroidx/fragment/app/r;->r(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
-    .line 1119
-    .line 1120
-    .line 1121
-    invoke-virtual {v3, v4, v1, v2}, Landroidx/fragment/app/r;->r(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)V
-
-    .line 1122
-    .line 1123
-    .line 1124
+    .line 1083
+    .line 1084
+    .line 1085
     invoke-virtual {v3}, Landroidx/fragment/app/r;->i()I
     :try_end_3
     .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_3 .. :try_end_3} :catch_9
 
-    .line 1125
-    .line 1126
-    .line 1127
-    goto :goto_10
+    .line 1086
+    .line 1087
+    .line 1088
+    goto :goto_f
 
-    .line 1128
+    .line 1089
     :catch_9
     const-string v1, "fragment can not commit "
 
+    .line 1090
+    .line 1091
+    invoke-static {v5, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 1092
+    .line 1093
+    .line 1094
+    :goto_f
+    return-void
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
     .line 1129
     .line 1130
-    invoke-static {v5, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 1131
     .line 1132
     .line 1133
-    :goto_10
-    return-void
     .line 1134
     .line 1135
     .line 1136
@@ -4139,68 +4034,6 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
 .method protected final onDestroy()V
@@ -4228,7 +4061,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 13
     .line 14
@@ -4441,7 +4274,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 16
     .line 17
@@ -4640,7 +4473,7 @@
 
     const-string v1, "PopWindowActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -4670,7 +4503,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 13
     .line 14
@@ -4789,7 +4622,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onStart()V
@@ -4822,7 +4654,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 16
     .line 17
@@ -5006,7 +4838,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 16
     .line 17

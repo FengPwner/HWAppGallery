@@ -99,7 +99,7 @@
 
     const-string v2, "getDisplaySafeInsets: object is not Rect"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Landroid/graphics/Rect;
 
@@ -117,7 +117,7 @@
 
     const-string v2, "getDisplaySafeInsets: invocation target exception"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -130,7 +130,7 @@
 
     const-string v2, "getDisplaySafeInsets: illegal access exception"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -143,7 +143,7 @@
 
     const-string v2, "getDisplaySafeInsets: method not found"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -156,7 +156,7 @@
 
     const-string v2, "getDisplaySafeInsets: class not found"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -269,11 +269,11 @@
 
     const-string v0, "HwDisplaySafeInsetsUtils"
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v1
 
@@ -281,11 +281,11 @@
 
     if-ge v1, v2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v1
 
@@ -370,7 +370,7 @@
     const-string v1, "setWindowDisplaySideMode: exception"
 
     :goto_0
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -407,7 +407,7 @@
 
     const-string v1, "setWindowDisplaySideMode: class not found"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -416,11 +416,11 @@
 .method public startMonitorDisplaySafeInsets()V
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v0
 
@@ -430,11 +430,11 @@
 
     if-ge v0, v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -449,7 +449,7 @@
 
     const-string v1, "the version sdk api < 28, need not get display safe insets."
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -497,7 +497,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

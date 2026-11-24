@@ -24,13 +24,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p1, "DetailHeadAgCardV5"
 
     const-string v0, "containerIcon is invalid."
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -43,7 +43,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p0
 
@@ -247,7 +247,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final M2()Landroid/os/Bundle;
@@ -262,7 +261,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->c(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/kd0;->d(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 6
     .line 7
@@ -422,13 +421,13 @@
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/huawei/appmarket/ui3;
+    instance-of v1, v0, Lcom/huawei/appmarket/wi3;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/ui3;
+    check-cast v0, Lcom/huawei/appmarket/wi3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ui3;->i0()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/wi3;->i0()V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/agv3/DetailHeadAgCardV3;->A0:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;

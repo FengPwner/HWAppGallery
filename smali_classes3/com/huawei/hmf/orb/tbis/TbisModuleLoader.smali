@@ -69,13 +69,13 @@
 
     :cond_0
     :try_start_1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/dr6;
+    check-cast v3, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {v3, p0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v3, p0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object v3
     :try_end_1

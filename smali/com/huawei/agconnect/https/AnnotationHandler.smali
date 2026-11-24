@@ -66,14 +66,14 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/Object;)Lcom/huawei/appmarket/id3$a;
+.method public static a(Ljava/lang/Object;)Lcom/huawei/appmarket/kd3$a;
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<RequestBean:",
             "Ljava/lang/Object;",
             ">(TRequestBean;)",
-            "Lcom/huawei/appmarket/id3$a;"
+            "Lcom/huawei/appmarket/kd3$a;"
         }
     .end annotation
 
@@ -150,7 +150,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v0, p0, v2}, Lcom/huawei/agconnect/https/AnnotationHandler$UrlHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/id3$a;)Lcom/huawei/appmarket/id3$a;
+    invoke-virtual {v1, v0, p0, v2}, Lcom/huawei/agconnect/https/AnnotationHandler$UrlHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/kd3$a;)Lcom/huawei/appmarket/kd3$a;
 
     move-result-object p0
 
@@ -175,25 +175,25 @@
     return-void
 .end method
 
-.method public static b(Ljava/lang/Object;)Lcom/huawei/appmarket/gr6$a;
+.method public static b(Ljava/lang/Object;)Lcom/huawei/appmarket/jr6$a;
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<RequestBean:",
             "Ljava/lang/Object;",
             ">(TRequestBean;)",
-            "Lcom/huawei/appmarket/gr6$a;"
+            "Lcom/huawei/appmarket/jr6$a;"
         }
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/agconnect/https/AnnotationHandler;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/id3$a;
+    invoke-static {p0}, Lcom/huawei/agconnect/https/AnnotationHandler;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/kd3$a;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/gr6$a;
+    new-instance v1, Lcom/huawei/appmarket/jr6$a;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/gr6$a;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/jr6$a;-><init>()V
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -248,7 +248,7 @@
 
     sget-object v10, Lcom/huawei/agconnect/https/AnnotationHandler;->a:Lcom/huawei/agconnect/https/AnnotationHandler$QueryHandler;
 
-    invoke-virtual {v10, v7, p0, v0}, Lcom/huawei/agconnect/https/AnnotationHandler$QueryHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/id3$a;)Lcom/huawei/appmarket/id3$a;
+    invoke-virtual {v10, v7, p0, v0}, Lcom/huawei/agconnect/https/AnnotationHandler$QueryHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/kd3$a;)Lcom/huawei/appmarket/kd3$a;
 
     goto :goto_2
 
@@ -263,7 +263,7 @@
 
     sget-object v10, Lcom/huawei/agconnect/https/AnnotationHandler;->b:Lcom/huawei/agconnect/https/AnnotationHandler$HeaderMapHandler;
 
-    invoke-virtual {v10, v7, p0, v1}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderMapHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/gr6$a;)Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v10, v7, p0, v1}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderMapHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/jr6$a;)Lcom/huawei/appmarket/jr6$a;
 
     goto :goto_2
 
@@ -278,7 +278,7 @@
 
     sget-object v10, Lcom/huawei/agconnect/https/AnnotationHandler;->c:Lcom/huawei/agconnect/https/AnnotationHandler$HeaderHandler;
 
-    invoke-virtual {v10, v7, p0, v1}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/gr6$a;)Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v10, v7, p0, v1}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/jr6$a;)Lcom/huawei/appmarket/jr6$a;
 
     :cond_3
     :goto_2
@@ -300,11 +300,11 @@
 
     if-ne v2, v3, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3$a;->c()Lcom/huawei/appmarket/id3;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kd3$a;->c()Lcom/huawei/appmarket/kd3;
 
     move-result-object p0
 
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/gr6$a;->g(Lcom/huawei/appmarket/id3;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/jr6$a;->g(Lcom/huawei/appmarket/kd3;)V
 
     return-object v1
 .end method

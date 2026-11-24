@@ -1,67 +1,81 @@
-.class final Lcom/huawei/appmarket/qu8;
-.super Ljava/io/OutputStream;
+.class public final Lcom/huawei/appmarket/qu8;
+.super Lcom/huawei/appmarket/zu8;
 .source "SourceFile"
 
 
 # instance fields
 .field private b:J
 
-.field private c:Ljava/io/OutputStream;
+.field private c:I
 
-.field private d:Z
+.field private d:I
+
+.field private e:I
+
+.field private f:I
+
+.field private g:J
+
+.field private h:J
+
+.field private i:J
+
+.field private j:J
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/OutputStream;)V
-    .registers 4
+.method public constructor <init>()V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/zu8;-><init>()V
 
-    const-wide/16 v0, 0x0
+    const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lcom/huawei/appmarket/qu8;->b:J
-
-    iput-object p1, p0, Lcom/huawei/appmarket/qu8;->c:Ljava/io/OutputStream;
-
-    const/4 p1, 0x0
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/qu8;->d:Z
+    iput-wide v0, p0, Lcom/huawei/appmarket/qu8;->j:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final close()V
-    .registers 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    return-void
-.end method
-
-.method public final s()V
+.method public final c()I
     .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    const/4 v0, 0x1
+    iget v0, p0, Lcom/huawei/appmarket/qu8;->e:I
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/qu8;->d:Z
-
-    return-void
+    return v0
 .end method
 
-.method public final t()J
+.method public final d()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/qu8;->f:I
+
+    return v0
+.end method
+
+.method public final e()J
+    .registers 3
+
+    .line 1
+    iget-wide v0, p0, Lcom/huawei/appmarket/qu8;->j:J
+
+    return-wide v0
+.end method
+
+.method public final f()J
+    .registers 3
+
+    .line 1
+    iget-wide v0, p0, Lcom/huawei/appmarket/qu8;->i:J
+
+    return-wide v0
+.end method
+
+.method public final g()J
     .registers 3
 
     .line 1
@@ -70,81 +84,119 @@
     return-wide v0
 .end method
 
-.method public final write(I)V
-    .registers 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    const/4 v0, 0x1
-
-    new-array v1, v0, [B
-
-    int-to-byte p1, p1
-
-    const/4 v2, 0x0
-
-    aput-byte p1, v1, v2
+.method public final h()J
+    .registers 3
 
     .line 1
-    invoke-virtual {p0, v1, v2, v0}, Lcom/huawei/appmarket/qu8;->write([BII)V
+    iget-wide v0, p0, Lcom/huawei/appmarket/qu8;->h:J
+
+    return-wide v0
+.end method
+
+.method public final i()J
+    .registers 3
+
+    .line 1
+    iget-wide v0, p0, Lcom/huawei/appmarket/qu8;->g:J
+
+    return-wide v0
+.end method
+
+.method public final j()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/qu8;->c:I
+
+    return v0
+.end method
+
+.method public final k()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/qu8;->d:I
+
+    return v0
+.end method
+
+.method public final l(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/qu8;->e:I
 
     return-void
 .end method
 
-.method public final write([B)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method public final m(I)V
+    .registers 2
 
-    .line 2
-    array-length v0, p1
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, p1, v1, v0}, Lcom/huawei/appmarket/qu8;->write([BII)V
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/qu8;->f:I
 
     return-void
 .end method
 
-.method public final write([BII)V
-    .registers 6
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method public final n(J)V
+    .registers 3
 
-    .line 3
-    iget-boolean v0, p0, Lcom/huawei/appmarket/qu8;->d:Z
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/qu8;->j:J
 
-    if-nez v0, :cond_0
+    return-void
+.end method
 
-    iget-object v0, p0, Lcom/huawei/appmarket/qu8;->c:Ljava/io/OutputStream;
+.method public final o(J)V
+    .registers 3
 
-    invoke-virtual {v0, p1, p2, p3}, Ljava/io/OutputStream;->write([BII)V
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/qu8;->i:J
 
-    iget-wide p1, p0, Lcom/huawei/appmarket/qu8;->b:J
+    return-void
+.end method
 
-    int-to-long v0, p3
+.method public final p(J)V
+    .registers 3
 
-    add-long/2addr p1, v0
-
+    .line 1
     iput-wide p1, p0, Lcom/huawei/appmarket/qu8;->b:J
 
     return-void
+.end method
 
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalStateException;
+.method public final q(J)V
+    .registers 3
 
-    const-string p2, "ZipEntryOutputStream is closed"
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/qu8;->h:J
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    return-void
+.end method
 
-    throw p1
+.method public final r(J)V
+    .registers 3
+
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/qu8;->g:J
+
+    return-void
+.end method
+
+.method public final s(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/qu8;->c:I
+
+    return-void
+.end method
+
+.method public final t(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/qu8;->d:I
+
+    return-void
 .end method

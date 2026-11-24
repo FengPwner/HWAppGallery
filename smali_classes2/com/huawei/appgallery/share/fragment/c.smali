@@ -27,11 +27,11 @@
     .registers 8
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/y06;
+    new-instance v0, Lcom/huawei/appmarket/a16;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/y06;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/a16;-><init>()V
 
     .line 4
     .line 5
@@ -117,7 +117,7 @@
     move-result-object v2
 
     .line 49
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/y06;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/a16;->h(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -223,7 +223,7 @@
     nop
 
     .line 97
-    sget-object v2, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v2, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 98
     .line 99
@@ -235,7 +235,7 @@
 
     .line 102
     .line 103
-    invoke-virtual {v2, v4, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -251,12 +251,12 @@
     .line 111
     :cond_1
     :goto_1
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/y06;->g(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/a16;->g(Landroid/graphics/Bitmap;)V
 
     .line 112
     .line 113
     .line 114
-    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->I7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/sw6;
+    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->I7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/ww6;
 
     .line 115
     .line 116
@@ -268,7 +268,7 @@
 
     .line 119
     .line 120
-    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->I7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/sw6;
+    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->I7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/ww6;
 
     .line 121
     .line 122
@@ -276,12 +276,12 @@
     move-result-object v2
 
     .line 124
-    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->K7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/pk4;
+    invoke-static {v1}, Lcom/huawei/appgallery/share/fragment/ImageShareFragment;->K7(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;)Lcom/huawei/appmarket/sk4;
 
     .line 125
     .line 126
     .line 127
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/sw6;->R1(Lcom/huawei/appmarket/y06;)V
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/ww6;->R1(Lcom/huawei/appmarket/a16;)V
 
     .line 128
     .line 129

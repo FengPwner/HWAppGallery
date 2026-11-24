@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yv6;
+.implements Lcom/huawei/appmarket/cw6;
 
 
 # virtual methods

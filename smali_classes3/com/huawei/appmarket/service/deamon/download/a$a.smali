@@ -152,7 +152,7 @@
 
     const-string p2, "InstalledBroadcastPolicy"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

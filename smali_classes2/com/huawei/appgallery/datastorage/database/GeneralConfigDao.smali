@@ -25,7 +25,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ca1;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/da1;)V
     .registers 5
 
     .line 2
@@ -33,7 +33,7 @@
 
     const-class v1, Lcom/huawei/appgallery/datastorage/database/GeneralConfig;
 
-    invoke-direct {p0, p1, v0, v1, p2}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/ca1;)V
+    invoke-direct {p0, p1, v0, v1, p2}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/da1;)V
 
     return-void
 .end method
@@ -328,7 +328,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d(Ljava/lang/String;Z)V
@@ -376,7 +375,7 @@
 
     invoke-direct {v1, p1, p2, p3}, Lcom/huawei/appgallery/datastorage/database/GeneralConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/f91;)J
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/g91;)J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -392,13 +391,13 @@
     :cond_1
     :goto_0
     :try_start_1
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "GeneralConfigDao"
 
     const-string p3, "key or moduleName isEmpty"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/m91;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/n91;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

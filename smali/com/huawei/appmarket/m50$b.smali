@@ -17,11 +17,11 @@
 # instance fields
 .field private final a:Ljava/util/ArrayList;
 
-.field private final b:Lcom/huawei/appmarket/d48;
+.field private final b:Lcom/huawei/appmarket/j48;
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/d48;)V
+.method private constructor <init>(Lcom/huawei/appmarket/j48;)V
     .registers 3
 
     .line 1
@@ -33,16 +33,16 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/m50$b;->a:Ljava/util/ArrayList;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/m50$b;->b:Lcom/huawei/appmarket/d48;
+    iput-object p1, p0, Lcom/huawei/appmarket/m50$b;->b:Lcom/huawei/appmarket/j48;
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/d48;Lcom/huawei/appmarket/m50$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/j48;Lcom/huawei/appmarket/m50$a;)V
     .registers 3
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/m50$b;-><init>(Lcom/huawei/appmarket/d48;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/m50$b;-><init>(Lcom/huawei/appmarket/j48;)V
 
     return-void
 .end method
@@ -56,11 +56,11 @@
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/huawei/appmarket/m50$b;)Lcom/huawei/appmarket/d48;
+.method static synthetic b(Lcom/huawei/appmarket/m50$b;)Lcom/huawei/appmarket/j48;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/m50$b;->b:Lcom/huawei/appmarket/d48;
+    iget-object p0, p0, Lcom/huawei/appmarket/m50$b;->b:Lcom/huawei/appmarket/j48;
 
     return-object p0
 .end method

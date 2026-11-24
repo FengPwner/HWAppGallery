@@ -35,17 +35,17 @@
     return v0
 
     :catchall_0
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v2, "CheckIsHwHiCarCastMode throwable"
 
     :goto_0
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v2, "CheckIsHwHiCarCastMode exception"
 
@@ -83,7 +83,7 @@
 
     sput-boolean v0, Lcom/huawei/appmarket/zl0;->b:Z
 
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -101,7 +101,7 @@
 
     const-string v2, "CastModeUtils"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     sget-boolean v0, Lcom/huawei/appmarket/zl0;->b:Z

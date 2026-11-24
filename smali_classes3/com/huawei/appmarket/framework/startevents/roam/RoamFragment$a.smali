@@ -37,7 +37,7 @@
     iget-object p1, p0, Lcom/huawei/appmarket/framework/startevents/roam/RoamFragment$a;->a:Lcom/huawei/appmarket/framework/startevents/roam/RoamFragment;
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/vx6;->d()Lcom/huawei/appmarket/vx6;
+    invoke-static {}, Lcom/huawei/appmarket/zx6;->d()Lcom/huawei/appmarket/zx6;
 
     move-result-object p2
 
@@ -45,7 +45,7 @@
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/vx6;->c(I)Ljava/util/Map;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/zx6;->c(I)Ljava/util/Map;
 
     move-result-object p2
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

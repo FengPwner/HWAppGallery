@@ -278,7 +278,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b00;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fs;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 78
     .line 79
@@ -303,7 +303,7 @@
 
     .line 89
     .line 90
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 91
     .line 92
@@ -319,7 +319,7 @@
     move-result-object v2
 
     .line 98
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 99
     .line 100
@@ -338,7 +338,7 @@
     move-result-object v2
 
     .line 107
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 108
     .line 109
@@ -370,7 +370,7 @@
     move-result-object v0
 
     .line 122
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 123
     .line 124
@@ -386,7 +386,7 @@
     move-result-object v1
 
     .line 130
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 131
     .line 132
@@ -409,7 +409,7 @@
 
     .line 140
     .line 141
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 142
     .line 143
@@ -432,7 +432,7 @@
 
     .line 151
     .line 152
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 153
     .line 154
@@ -455,7 +455,7 @@
 
     .line 162
     .line 163
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 164
     .line 165

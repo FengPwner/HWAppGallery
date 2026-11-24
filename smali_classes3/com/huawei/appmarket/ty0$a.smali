@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/xn6;Lcom/huawei/appmarket/ty0$b;)V
+    value = Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/ao6;Lcom/huawei/appmarket/ty0$b;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/kp6;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/np6;",
         ">;"
     }
 .end annotation
@@ -44,19 +44,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/kp6;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/np6;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -66,18 +66,18 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/kp6;
+    check-cast p1, Lcom/huawei/appmarket/np6;
 
-    invoke-interface {v2, p1, v1}, Lcom/huawei/appmarket/ty0$b;->a(Lcom/huawei/appmarket/kp6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
+    invoke-interface {v2, p1, v1}, Lcom/huawei/appmarket/ty0$b;->a(Lcom/huawei/appmarket/np6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
 
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object p1
 
@@ -103,7 +103,7 @@
     invoke-direct {p1, v0, v3}, Lcom/huawei/hmf/orb/exception/ConnectRemoteException;-><init>(Lcom/huawei/hmf/orb/exception/ConnectRemoteException$a;Ljava/lang/String;)V
 
     :goto_0
-    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/ty0$b;->a(Lcom/huawei/appmarket/kp6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
+    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/ty0$b;->a(Lcom/huawei/appmarket/np6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
 
     :goto_1
     return-void

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/ix7$a;
-.super Landroid/graphics/Paint;
+.super Lcom/huawei/appmarket/ex7;
 .source "SourceFile"
 
 
@@ -14,16 +14,77 @@
 .end annotation
 
 
+# instance fields
+.field final synthetic a:Lcom/huawei/appmarket/ix7;
+
+
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ix7;I)V
+.method constructor <init>(Lcom/huawei/appmarket/ix7;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ix7$a;->a:Lcom/huawei/appmarket/ix7;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/ex7;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(I)V
+    .registers 2
+
+    .line 1
+    iget-object p1, p0, Lcom/huawei/appmarket/ix7$a;->a:Lcom/huawei/appmarket/ix7;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ix7;->a(Lcom/huawei/appmarket/ix7;)V
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ix7;->b(Lcom/huawei/appmarket/ix7;)Ljava/lang/ref/WeakReference;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/ix7$b;
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ix7$b;->a()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final b(Landroid/graphics/Typeface;Z)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p2}, Landroid/graphics/Paint;-><init>(I)V
+    if-eqz p2, :cond_0
 
-    sget-object p1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+    return-void
 
-    invoke-virtual {p0, p1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+    :cond_0
+    iget-object p1, p0, Lcom/huawei/appmarket/ix7$a;->a:Lcom/huawei/appmarket/ix7;
 
+    invoke-static {p1}, Lcom/huawei/appmarket/ix7;->a(Lcom/huawei/appmarket/ix7;)V
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ix7;->b(Lcom/huawei/appmarket/ix7;)Ljava/lang/ref/WeakReference;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/ix7$b;
+
+    if-eqz p1, :cond_1
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ix7$b;->a()V
+
+    :cond_1
     return-void
 .end method

@@ -520,7 +520,7 @@
 
     if-eqz p1, :cond_4
 
-    const-string p1, "video/*"
+    const-string/jumbo p1, "video/*"
 
     goto :goto_1
 

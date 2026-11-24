@@ -120,12 +120,12 @@
 
     .line 48
     .line 49
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/cs0;->a()Lcom/huawei/appmarket/cs0;
+    invoke-static {}, Lcom/huawei/appmarket/ds0;->a()Lcom/huawei/appmarket/ds0;
 
     .line 53
     .line 54
@@ -138,7 +138,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 60
     .line 61
@@ -238,7 +238,7 @@
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/nv7;
 
     .line 110
     .line 111

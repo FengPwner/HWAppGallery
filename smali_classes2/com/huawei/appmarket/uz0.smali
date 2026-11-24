@@ -70,7 +70,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/cd3;->b(Lcom/huawei/hms/network/httpclient/Response;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ed3;->b(Lcom/huawei/hms/network/httpclient/Response;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

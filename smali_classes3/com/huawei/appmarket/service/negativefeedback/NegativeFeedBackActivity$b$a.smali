@@ -38,7 +38,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/negativefeedback/NegativeFeedBackActivity$b$a;->u:Landroid/widget/ImageView;
 
-    const p1, 0x7f0a16f9
+    const p1, 0x7f0a16fa
 
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

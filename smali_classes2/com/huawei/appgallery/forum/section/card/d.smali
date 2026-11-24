@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     return-void
 .end method

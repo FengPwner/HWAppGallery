@@ -129,7 +129,7 @@
     move-object/from16 v2, p1
 
     .line 5
-    invoke-static {v2, v8, v1}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {v2, v8, v1}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object v2
 
@@ -164,7 +164,7 @@
 
     iput-object v10, v6, Lcom/huawei/uikit/hwspinner/widget/HwSpinner;->j:Landroid/content/Context;
 
-    sget-object v11, Lcom/huawei/appmarket/mg6;->a:[I
+    sget-object v11, Lcom/huawei/appmarket/og6;->a:[I
 
     const v12, 0x7f13053d
 

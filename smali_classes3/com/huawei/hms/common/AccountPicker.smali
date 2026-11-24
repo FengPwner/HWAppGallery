@@ -78,7 +78,7 @@
     const-string v0, "com.huawei.hms.common.account.CHOOSE_ACCOUNT"
 
     .line 1
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object v0
 

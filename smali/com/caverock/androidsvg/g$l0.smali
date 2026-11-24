@@ -52,7 +52,7 @@
 .method public final toString()Ljava/lang/String;
     .registers 2
 
-    invoke-virtual {p0}, Lcom/caverock/androidsvg/g$n0;->o()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/caverock/androidsvg/g$n0;->n()Ljava/lang/String;
 
     move-result-object v0
 

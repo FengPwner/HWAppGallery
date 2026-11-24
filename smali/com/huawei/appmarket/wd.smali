@@ -57,7 +57,7 @@
 
     const-string v0, "AgGuardReportRuntimeRecordHelp"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

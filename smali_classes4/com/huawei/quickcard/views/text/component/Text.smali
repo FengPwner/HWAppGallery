@@ -26,7 +26,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/views/text/processor/ValueAttribute;-><init>()V
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)V
 

@@ -40,7 +40,7 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->e()I
 
     .line 6
     .line 7
@@ -48,7 +48,7 @@
     move-result v0
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->d()I
 
     .line 10
     .line 11
@@ -102,7 +102,7 @@
     move-result v4
 
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     .line 38
     .line 39
@@ -191,7 +191,7 @@
     move-result-object v0
 
     .line 82
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 83
     .line 84
@@ -199,7 +199,7 @@
     move-result v1
 
     .line 86
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     .line 87
     .line 88
@@ -232,7 +232,7 @@
 
     .line 102
     :cond_2
-    invoke-static {v5, v1, v3}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v5, v1, v3}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 103
     .line 104
@@ -258,7 +258,7 @@
 
     .line 113
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 114
     .line 115
@@ -352,7 +352,7 @@
 
     .line 160
     .line 161
-    invoke-static {v2, p1, v4}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v2, p1, v4}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 162
     .line 163
@@ -1056,39 +1056,20 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -1136,7 +1117,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -1237,5 +1218,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

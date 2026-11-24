@@ -49,7 +49,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/api/LoginResultBean$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/api/LoginResultBean$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->Companion:Lcom/huawei/appgallery/accountkit/api/LoginResultBean$a;
 
@@ -73,7 +73,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;ILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(ILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;ILcom/huawei/appmarket/id1;)V
     .registers 8
 
     .line 2
@@ -221,7 +221,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->reasonCode:Ljava/lang/Integer;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -234,7 +234,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->errorCode:Ljava/lang/Integer;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -247,7 +247,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->errorMessage:Ljava/lang/String;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -432,7 +432,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->m(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->n(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -530,4 +530,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

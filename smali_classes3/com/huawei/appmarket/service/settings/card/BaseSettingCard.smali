@@ -49,7 +49,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 12
     .line 13
@@ -222,7 +222,7 @@
 
     .line 93
     .line 94
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -740,8 +740,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -927,7 +925,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected m1()Z

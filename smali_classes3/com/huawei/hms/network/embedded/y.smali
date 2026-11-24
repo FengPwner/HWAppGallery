@@ -426,7 +426,7 @@
     const-string v3, "DnsUtil"
 
     .line 6
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

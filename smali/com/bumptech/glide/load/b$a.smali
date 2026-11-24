@@ -57,14 +57,14 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     return-object p1
 
     :catchall_0
     move-exception p1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     throw p1
 .end method

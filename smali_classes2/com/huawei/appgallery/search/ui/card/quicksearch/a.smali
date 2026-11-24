@@ -96,14 +96,14 @@
 
     .line 27
     .line 28
-    new-instance v1, Lcom/huawei/appmarket/x07;
+    new-instance v1, Lcom/huawei/appmarket/b17;
 
     .line 29
     .line 30
     const/4 v2, 0x5
 
     .line 31
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/x07;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/b17;-><init>(I)V
 
     .line 32
     .line 33
@@ -147,7 +147,7 @@
 
     .line 54
     .line 55
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 56
     .line 57
@@ -159,7 +159,7 @@
 
     .line 60
     .line 61
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 62
     .line 63

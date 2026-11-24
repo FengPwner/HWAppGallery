@@ -160,7 +160,7 @@
     move-exception v0
 
     .line 63
-    sget-object v1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object v1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 64
     .line 65
@@ -172,7 +172,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 70
     .line 71
@@ -271,7 +271,7 @@
     .line 113
     .line 114
     :goto_3
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 115
     .line 116
@@ -339,5 +339,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

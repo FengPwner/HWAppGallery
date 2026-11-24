@@ -48,13 +48,13 @@
 
     if-eqz v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "NormalSearchView"
 
     const-string v1, "onQueryTextChange mIsDataFromPersistent is true."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -127,7 +127,7 @@
     invoke-virtual {v1, v3}, Landroid/view/View;->setFocusableInTouchMode(Z)V
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v1
 

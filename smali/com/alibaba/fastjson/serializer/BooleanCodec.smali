@@ -233,7 +233,7 @@
 
     .line 81
     .line 82
-    invoke-static {v0, p3}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p3}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 83
     .line 84
@@ -441,6 +441,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public getFastMatchToken()I

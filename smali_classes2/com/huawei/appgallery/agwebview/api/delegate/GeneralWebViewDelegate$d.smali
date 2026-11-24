@@ -38,13 +38,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate$d;->b:Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    iget-object v0, p1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/i64;
+    iget-object v0, p1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/l64;
 
     if-eqz v0, :cond_0
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->A()Landroid/content/Context;
 
-    invoke-interface {v0, p2}, Lcom/huawei/appmarket/i64;->i(Ljava/lang/String;)V
+    invoke-interface {v0, p2}, Lcom/huawei/appmarket/l64;->i(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -57,7 +57,7 @@
 
     iget-object p3, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate$d;->b:Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    iget-object v0, p3, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/i64;
+    iget-object v0, p3, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/l64;
 
     if-eqz v0, :cond_0
 
@@ -73,7 +73,7 @@
 
     move-object v3, p2
 
-    invoke-interface/range {v0 .. v5}, Lcom/huawei/appmarket/i64;->a(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/os/Handler;)V
+    invoke-interface/range {v0 .. v5}, Lcom/huawei/appmarket/l64;->a(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/os/Handler;)V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .registers 8
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -98,7 +98,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uo8;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/ap8;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -108,12 +108,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate$d;->b:Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    iget-object v2, v0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/i64;
+    iget-object v2, v0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->P:Lcom/huawei/appmarket/l64;
 
     const/4 v3, 0x1
 
@@ -123,7 +123,7 @@
 
     move-result-object v4
 
-    invoke-interface {v2, v4, p2}, Lcom/huawei/appmarket/i64;->h(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v2, v4, p2}, Lcom/huawei/appmarket/l64;->h(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
@@ -132,7 +132,7 @@
     return v3
 
     :cond_1
-    iget-object v2, v0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->M:Lcom/huawei/appmarket/ho8;
+    iget-object v2, v0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->M:Lcom/huawei/appmarket/no8;
 
     if-eqz v2, :cond_3
 
@@ -140,7 +140,7 @@
 
     move-result-object v1
 
-    invoke-interface {v2, v1, p1, p2}, Lcom/huawei/appmarket/ho8;->c(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;)Z
+    invoke-interface {v2, v1, p1, p2}, Lcom/huawei/appmarket/no8;->c(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -156,7 +156,7 @@
 
     const-string v2, " super.shouldOverrideUrlLoading(webview, url)"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, v0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->k:Landroid/webkit/WebView;
 

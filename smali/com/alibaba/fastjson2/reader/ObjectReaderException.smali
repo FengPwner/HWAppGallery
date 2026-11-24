@@ -150,9 +150,9 @@
 
     new-array v2, v1, [Lcom/alibaba/fastjson2/reader/FieldReader;
 
-    new-instance v3, Lcom/huawei/appmarket/fm5;
+    new-instance v3, Lcom/huawei/appmarket/hm5;
 
-    invoke-direct {v3, v1}, Lcom/huawei/appmarket/fm5;-><init>(I)V
+    invoke-direct {v3, v1}, Lcom/huawei/appmarket/hm5;-><init>(I)V
 
     const-string v1, "stackTrace"
 
@@ -833,7 +833,7 @@
 
     .line 54
     .line 55
-    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57

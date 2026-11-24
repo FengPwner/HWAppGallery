@@ -656,7 +656,7 @@
 
     move-result-object p1
 
-    const-string v1, "{0}"
+    const-string/jumbo v1, "{0}"
 
     new-array v3, v3, [Ljava/lang/Object;
 

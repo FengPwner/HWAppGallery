@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -20,56 +20,56 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$000(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method static synthetic access$100(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$100(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method static synthetic access$200(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$200(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method static synthetic access$300(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$300(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
 
-.method static synthetic access$400(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$400(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
@@ -79,15 +79,15 @@
 .method public cancelTask()V
     .registers 4
 
-    invoke-super {p0}, Lcom/huawei/appmarket/np3;->cancelTask()V
+    invoke-super {p0}, Lcom/huawei/appmarket/pp3;->cancelTask()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     const/16 v1, 0x2712
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 13
     .line 14
@@ -135,16 +135,16 @@
 
     .line 15
     .line 16
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 20
     .line 21
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     .line 22
     .line 23
@@ -165,7 +165,7 @@
     const/4 v1, 0x1
 
     .line 31
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 32
     .line 33
@@ -181,7 +181,7 @@
 
     .line 38
     .line 39
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -193,7 +193,7 @@
 
     .line 44
     .line 45
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 46
     .line 47
@@ -201,7 +201,7 @@
 
     .line 48
     .line 49
-    invoke-interface {v2, v3, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, v3, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 50
     .line 51
@@ -209,7 +209,7 @@
     move-result-object v1
 
     .line 53
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 54
     .line 55
@@ -339,16 +339,16 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     const/16 v1, 0x2712
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/np3;->onKeyDown(ILandroid/view/KeyEvent;)I
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/pp3;->onKeyDown(ILandroid/view/KeyEvent;)I
 
     move-result p1
 

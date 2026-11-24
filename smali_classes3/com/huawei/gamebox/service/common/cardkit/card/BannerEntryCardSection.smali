@@ -32,7 +32,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {v1}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 10
     .line 11
@@ -180,5 +180,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

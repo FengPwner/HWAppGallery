@@ -115,7 +115,7 @@
     move-result-object v0
 
     .line 40
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 41
     .line 42
@@ -127,11 +127,11 @@
 
     .line 45
     .line 46
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 47
     .line 48
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 49
     .line 50
@@ -139,11 +139,11 @@
     move-result-object v1
 
     .line 52
-    const-class v2, Lcom/huawei/appmarket/fh3;
+    const-class v2, Lcom/huawei/appmarket/hh3;
 
     .line 53
     .line 54
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 55
     .line 56
@@ -151,11 +151,11 @@
     move-result-object v1
 
     .line 58
-    check-cast v1, Lcom/huawei/appmarket/fh3;
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
     .line 59
     .line 60
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 61
     .line 62
@@ -167,7 +167,7 @@
 
     .line 65
     .line 66
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/fh3;->C(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
 
     .line 67
     .line 68
@@ -180,7 +180,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     .line 74
     .line 75
@@ -189,7 +189,7 @@
 
     .line 77
     .line 78
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -228,5 +228,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

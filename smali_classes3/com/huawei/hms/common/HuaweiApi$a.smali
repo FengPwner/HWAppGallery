@@ -137,7 +137,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v3}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lcom/huawei/appmarket/nv7;
+    invoke-virtual {v3}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lcom/huawei/appmarket/tv7;
 
     .line 33
     .line 34
@@ -239,7 +239,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -265,7 +265,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v1, p1, v2, p2, v3}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-virtual {v1, p1, v2, p2, v3}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     .line 82
     .line 83
@@ -369,7 +369,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 

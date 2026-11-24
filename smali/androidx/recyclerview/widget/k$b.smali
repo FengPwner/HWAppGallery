@@ -42,11 +42,11 @@
 
     .line 2
     .line 3
-    iget-object v0, p1, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/vx2;
+    iget-object v0, p1, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/yx2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/vx2;->a(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/yx2;->a(Landroid/view/MotionEvent;)V
 
     .line 6
     .line 7
@@ -966,9 +966,9 @@
 
     iget-object p1, p0, Landroidx/recyclerview/widget/k$b;->b:Landroidx/recyclerview/widget/k;
 
-    iget-object v0, p1, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/vx2;
+    iget-object v0, p1, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/yx2;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/vx2;->a(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/yx2;->a(Landroid/view/MotionEvent;)V
 
     iget-object v0, p1, Landroidx/recyclerview/widget/k;->A0:Landroid/view/VelocityTracker;
 

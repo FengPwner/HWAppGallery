@@ -141,7 +141,7 @@
     move-result-object p1
 
     .line 51
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->e(Landroid/net/NetworkInfo;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->e(Landroid/net/NetworkInfo;)I
 
     .line 52
     .line 53
@@ -212,7 +212,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic a(Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;)Landroid/content/Context;
@@ -372,7 +371,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic d(Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;)Ljava/lang/String;
@@ -669,7 +667,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static o(Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;)V
@@ -693,7 +690,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -821,7 +818,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static p()Z
@@ -857,7 +853,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -962,13 +958,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->p(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->p(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->k(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->k(Landroid/content/Context;)Z
 
     move-result v0
 

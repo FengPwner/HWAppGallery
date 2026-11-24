@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # annotations
@@ -17,8 +17,8 @@
 # instance fields
 .field private request:Lcom/huawei/appgallery/wishlist/ui/activity/WishDetailActivityProtocol$Request;
 
-.field private wishDetailFragment:Lcom/huawei/appmarket/pr2;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+.field private wishDetailFragment:Lcom/huawei/appmarket/rr2;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "wish.detail.fragment"
     .end annotation
 .end field

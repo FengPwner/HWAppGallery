@@ -1,432 +1,190 @@
 .class public abstract Lcom/huawei/appmarket/ti8;
-.super Lcom/huawei/appmarket/xq4;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ti8$b;,
-        Lcom/huawei/appmarket/ti8$a;,
-        Lcom/huawei/appmarket/ti8$c;,
-        Lcom/huawei/appmarket/ti8$f;,
-        Lcom/huawei/appmarket/ti8$g;,
-        Lcom/huawei/appmarket/ti8$h;,
-        Lcom/huawei/appmarket/ti8$d;,
-        Lcom/huawei/appmarket/ti8$i;,
-        Lcom/huawei/appmarket/ti8$j;,
-        Lcom/huawei/appmarket/ti8$k;,
-        Lcom/huawei/appmarket/ti8$l;,
-        Lcom/huawei/appmarket/ti8$m;,
-        Lcom/huawei/appmarket/ti8$e;
-    }
-.end annotation
+# instance fields
+.field private final b:Lcom/huawei/appmarket/ui8;
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 1
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/xq4;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Lcom/huawei/appmarket/ui8;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/ui8;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
 
     return-void
 .end method
 
-.method public static h(Ljava/lang/String;)Lcom/huawei/appmarket/ti8;
+.method public constructor <init>(Lcom/huawei/appmarket/p41;)V
     .registers 3
 
-    .line 1
-    const-string v0, "CUSTOM"
+    .line 2
+    const-string v0, "viewModelScope"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    move-result v0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    if-eqz v0, :cond_0
+    new-instance v0, Lcom/huawei/appmarket/ui8;
 
-    new-instance p0, Lcom/huawei/appmarket/ti8$b;
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/ui8;-><init>(Lcom/huawei/appmarket/p41;)V
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$b;-><init>()V
+    iput-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
 
-    return-object p0
+    return-void
+.end method
 
-    :cond_0
-    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+.method public varargs constructor <init>(Lcom/huawei/appmarket/p41;[Ljava/lang/AutoCloseable;)V
+    .registers 5
 
-    move-result v0
+    .line 3
+    const-string v0, "viewModelScope"
 
-    const/4 v1, -0x1
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sparse-switch v0, :sswitch_data_0
+    const-string v0, "closeables"
 
-    goto/16 :goto_0
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    :sswitch_0
-    const-string v0, "waveOffset"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    new-instance v0, Lcom/huawei/appmarket/ui8;
 
-    move-result p0
+    array-length v1, p2
 
-    if-nez p0, :cond_1
+    invoke-static {p2, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
-    goto/16 :goto_0
+    move-result-object p2
 
-    :cond_1
-    const/16 v1, 0xd
+    check-cast p2, [Ljava/lang/AutoCloseable;
 
-    goto/16 :goto_0
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/ui8;-><init>(Lcom/huawei/appmarket/p41;[Ljava/lang/AutoCloseable;)V
 
-    :sswitch_1
-    const-string v0, "alpha"
+    iput-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    return-void
+.end method
 
-    move-result p0
+.method public varargs synthetic constructor <init>([Ljava/io/Closeable;)V
+    .registers 4
 
-    if-nez p0, :cond_2
+    .line 4
+    const-string v0, "closeables"
 
-    goto/16 :goto_0
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    :cond_2
-    const/16 v1, 0xc
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    goto/16 :goto_0
+    new-instance v0, Lcom/huawei/appmarket/ui8;
 
-    :sswitch_2
-    const-string v0, "transitionPathRotate"
+    array-length v1, p1
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
-    move-result p0
+    move-result-object p1
 
-    if-nez p0, :cond_3
+    check-cast p1, [Ljava/lang/AutoCloseable;
 
-    goto/16 :goto_0
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/ui8;-><init>([Ljava/lang/AutoCloseable;)V
 
-    :cond_3
-    const/16 v1, 0xb
+    iput-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
 
-    goto/16 :goto_0
+    return-void
+.end method
 
-    :sswitch_3
-    const-string v0, "elevation"
+.method public varargs constructor <init>([Ljava/lang/AutoCloseable;)V
+    .registers 4
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    .line 5
+    const-string v0, "closeables"
 
-    move-result p0
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    if-nez p0, :cond_4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    goto/16 :goto_0
+    new-instance v0, Lcom/huawei/appmarket/ui8;
 
-    :cond_4
-    const/16 v1, 0xa
+    array-length v1, p1
 
-    goto/16 :goto_0
+    invoke-static {p1, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
-    :sswitch_4
-    const-string v0, "rotation"
+    move-result-object p1
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    check-cast p1, [Ljava/lang/AutoCloseable;
 
-    move-result p0
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/ui8;-><init>([Ljava/lang/AutoCloseable;)V
 
-    if-nez p0, :cond_5
+    iput-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
 
-    goto/16 :goto_0
-
-    :cond_5
-    const/16 v1, 0x9
-
-    goto/16 :goto_0
-
-    :sswitch_5
-    const-string v0, "waveVariesBy"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_6
-
-    goto/16 :goto_0
-
-    :cond_6
-    const/16 v1, 0x8
-
-    goto/16 :goto_0
-
-    :sswitch_6
-    const-string v0, "scaleY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    goto :goto_0
-
-    :cond_7
-    const/4 v1, 0x7
-
-    goto :goto_0
-
-    :sswitch_7
-    const-string v0, "scaleX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_8
-
-    goto :goto_0
-
-    :cond_8
-    const/4 v1, 0x6
-
-    goto :goto_0
-
-    :sswitch_8
-    const-string v0, "progress"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_9
-
-    goto :goto_0
-
-    :cond_9
-    const/4 v1, 0x5
-
-    goto :goto_0
-
-    :sswitch_9
-    const-string v0, "translationZ"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_a
-
-    goto :goto_0
-
-    :cond_a
-    const/4 v1, 0x4
-
-    goto :goto_0
-
-    :sswitch_a
-    const-string v0, "translationY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_b
-
-    goto :goto_0
-
-    :cond_b
-    const/4 v1, 0x3
-
-    goto :goto_0
-
-    :sswitch_b
-    const-string v0, "translationX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_c
-
-    goto :goto_0
-
-    :cond_c
-    const/4 v1, 0x2
-
-    goto :goto_0
-
-    :sswitch_c
-    const-string v0, "rotationY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_d
-
-    goto :goto_0
-
-    :cond_d
-    const/4 v1, 0x1
-
-    goto :goto_0
-
-    :sswitch_d
-    const-string v0, "rotationX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_e
-
-    goto :goto_0
-
-    :cond_e
-    const/4 v1, 0x0
-
-    :goto_0
-    packed-switch v1, :pswitch_data_0
-
-    const/4 p0, 0x0
-
-    return-object p0
-
-    :pswitch_0
-    new-instance p0, Lcom/huawei/appmarket/ti8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_1
-    new-instance p0, Lcom/huawei/appmarket/ti8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_2
-    new-instance p0, Lcom/huawei/appmarket/ti8$d;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$d;-><init>()V
-
-    return-object p0
-
-    :pswitch_3
-    new-instance p0, Lcom/huawei/appmarket/ti8$c;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$c;-><init>()V
-
-    return-object p0
-
-    :pswitch_4
-    new-instance p0, Lcom/huawei/appmarket/ti8$f;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$f;-><init>()V
-
-    return-object p0
-
-    :pswitch_5
-    new-instance p0, Lcom/huawei/appmarket/ti8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_6
-    new-instance p0, Lcom/huawei/appmarket/ti8$j;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$j;-><init>()V
-
-    return-object p0
-
-    :pswitch_7
-    new-instance p0, Lcom/huawei/appmarket/ti8$i;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$i;-><init>()V
-
-    return-object p0
-
-    :pswitch_8
-    new-instance p0, Lcom/huawei/appmarket/ti8$e;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$e;-><init>()V
-
-    return-object p0
-
-    :pswitch_9
-    new-instance p0, Lcom/huawei/appmarket/ti8$m;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$m;-><init>()V
-
-    return-object p0
-
-    :pswitch_a
-    new-instance p0, Lcom/huawei/appmarket/ti8$l;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$l;-><init>()V
-
-    return-object p0
-
-    :pswitch_b
-    new-instance p0, Lcom/huawei/appmarket/ti8$k;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$k;-><init>()V
-
-    return-object p0
-
-    :pswitch_c
-    new-instance p0, Lcom/huawei/appmarket/ti8$h;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$h;-><init>()V
-
-    return-object p0
-
-    :pswitch_d
-    new-instance p0, Lcom/huawei/appmarket/ti8$g;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ti8$g;-><init>()V
-
-    return-object p0
-
-    :sswitch_data_0
-    .sparse-switch
-        -0x4a771f66 -> :sswitch_d
-        -0x4a771f65 -> :sswitch_c
-        -0x490b9c39 -> :sswitch_b
-        -0x490b9c38 -> :sswitch_a
-        -0x490b9c37 -> :sswitch_9
-        -0x3bab3dd3 -> :sswitch_8
-        -0x3621dfb2 -> :sswitch_7
-        -0x3621dfb1 -> :sswitch_6
-        -0x2f893320 -> :sswitch_5
-        -0x266f082 -> :sswitch_4
-        -0x42d1a3 -> :sswitch_3
-        0x2382115 -> :sswitch_2
-        0x589b15e -> :sswitch_1
-        0x94e04ec -> :sswitch_0
-    .end sparse-switch
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_d
-        :pswitch_c
-        :pswitch_b
-        :pswitch_a
-        :pswitch_9
-        :pswitch_8
-        :pswitch_7
-        :pswitch_6
-        :pswitch_5
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
+    return-void
 .end method
 
 
 # virtual methods
-.method public abstract i(Landroid/view/View;F)V
+.method public final d(Landroidx/lifecycle/s;)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
+
+    if-eqz v0, :cond_0
+
+    const-string v1, "androidx.lifecycle.savedstate.vm.tag"
+
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/ui8;->a(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final f()V
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ui8;->b()V
+
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ti8;->h()V
+
+    return-void
+.end method
+
+.method public final g()Ljava/lang/AutoCloseable;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ti8;->b:Lcom/huawei/appmarket/ui8;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ui8;->d()Ljava/lang/AutoCloseable;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return-object v0
+.end method
+
+.method protected h()V
+    .registers 1
+
+    .line 1
+    return-void
 .end method

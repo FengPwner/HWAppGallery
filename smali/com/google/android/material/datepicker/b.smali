@@ -35,11 +35,11 @@
 
     const v1, 0x7f040501
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/d45;->b(Landroid/content/Context;ILjava/lang/String;)I
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/g45;->b(Landroid/content/Context;ILjava/lang/String;)I
 
     move-result v0
 
-    sget-object v1, Lcom/huawei/appmarket/ie6;->B:[I
+    sget-object v1, Lcom/huawei/appmarket/ke6;->B:[I
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
@@ -97,7 +97,7 @@
 
     const/4 v1, 0x6
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 

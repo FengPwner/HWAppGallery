@@ -73,7 +73,7 @@
 
     .line 11
     .line 12
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -156,7 +156,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -226,7 +226,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final c(Landroid/view/View;Ljava/lang/String;)V
@@ -244,7 +243,7 @@
     const-string p1, "putView fail viewName isEmpty"
 
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

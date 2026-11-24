@@ -17,11 +17,11 @@
 # instance fields
 .field private final c0:Lcom/huawei/page/flowlist/FlowListData;
 
-.field private final d0:Lcom/huawei/appmarket/tw8;
+.field private final d0:Lcom/huawei/appmarket/zw8;
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/tw8;)V
+.method private constructor <init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/zw8;)V
     .registers 3
 
     .line 1
@@ -29,16 +29,16 @@
 
     iput-object p1, p0, Lcom/huawei/page/flowlist/FlowList$h;->c0:Lcom/huawei/page/flowlist/FlowListData;
 
-    iput-object p2, p0, Lcom/huawei/page/flowlist/FlowList$h;->d0:Lcom/huawei/appmarket/tw8;
+    iput-object p2, p0, Lcom/huawei/page/flowlist/FlowList$h;->d0:Lcom/huawei/appmarket/zw8;
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/tw8;Lcom/huawei/page/flowlist/a;)V
+.method synthetic constructor <init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/zw8;Lcom/huawei/page/flowlist/a;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/page/flowlist/FlowList$h;-><init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/tw8;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/page/flowlist/FlowList$h;-><init>(Lcom/huawei/page/flowlist/FlowListData;Lcom/huawei/appmarket/zw8;)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Lcom/huawei/page/flowlist/FlowList$h;->d0:Lcom/huawei/appmarket/tw8;
+    iget-object p1, p0, Lcom/huawei/page/flowlist/FlowList$h;->d0:Lcom/huawei/appmarket/zw8;
 
     .line 4
     .line 5
@@ -78,7 +78,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -87,7 +87,7 @@
 
     .line 15
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tw8;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zw8;->a()I
 
     .line 16
     .line 17
@@ -95,7 +95,7 @@
     move-result p2
 
     .line 19
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tw8;->d()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zw8;->d()I
 
     .line 20
     .line 21
@@ -103,7 +103,7 @@
     move-result v0
 
     .line 23
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tw8;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zw8;->e()I
 
     .line 24
     .line 25
@@ -119,7 +119,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tw8;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zw8;->e()I
 
     .line 32
     .line 33
@@ -383,10 +383,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V

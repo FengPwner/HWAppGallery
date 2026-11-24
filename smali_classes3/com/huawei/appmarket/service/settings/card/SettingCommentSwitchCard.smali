@@ -117,7 +117,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 52
     .line 53
@@ -125,7 +125,7 @@
     move-result-object v0
 
     .line 55
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wa7;->t()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bb7;->t()Z
 
     .line 56
     .line 57
@@ -204,7 +204,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
@@ -223,7 +222,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 8
     .line 9
@@ -235,12 +234,12 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wa7;->G(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bb7;->G(Z)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 17
     .line 18
@@ -273,7 +272,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/bq6;->E(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/fs;->u(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 34
     .line 35
@@ -418,5 +417,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

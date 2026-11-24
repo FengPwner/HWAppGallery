@@ -50,7 +50,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -347,6 +347,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final finishAffinity()V
@@ -385,7 +405,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -682,6 +702,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final getIntent()Landroid/content/Intent;
@@ -721,7 +761,7 @@
 
     const-string v1, "SafeFragmentActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/cx8;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ix8;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
@@ -773,7 +813,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -1070,6 +1110,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onActivityResult(IILandroid/content/Intent;)V
@@ -1117,7 +1177,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -1612,49 +1672,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -1666,7 +1683,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result p1
 
@@ -1714,7 +1731,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -2011,12 +2028,32 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onNewIntent(Landroid/content/Intent;)V
     .registers 4
 
-    invoke-static {p1}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -2026,7 +2063,7 @@
 
     const-string v1, "onNewIntent : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0, p1}, Landroidx/activity/ComponentActivity;->onNewIntent(Landroid/content/Intent;)V
@@ -2041,7 +2078,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -2051,7 +2088,7 @@
 
     const-string v1, "onRestart : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onRestart()V
@@ -2066,7 +2103,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -2076,7 +2113,7 @@
 
     const-string v1, "onResume : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onResume()V
@@ -2091,7 +2128,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -2101,7 +2138,7 @@
 
     const-string v1, "onStart : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onStart()V
@@ -2116,7 +2153,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -2126,7 +2163,7 @@
 
     const-string v1, "onStop : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onStop()V
@@ -2156,7 +2193,7 @@
     const-string v1, "SafeFragmentActivity"
 
     .line 1
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2184,7 +2221,7 @@
     const-string v0, "SafeFragmentActivity"
 
     .line 6
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2210,7 +2247,7 @@
 
     const-string v0, "startActivity Exception "
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2242,7 +2279,7 @@
     const-string v0, "SafeFragmentActivity"
 
     .line 2
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2274,7 +2311,7 @@
     const-string v0, "SafeFragmentActivity"
 
     .line 1
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2306,7 +2343,7 @@
     const-string p3, "SafeFragmentActivity"
 
     .line 6
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -2351,7 +2388,7 @@
 
     .line 15
     .line 16
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/om5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/uq5;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -2612,8 +2649,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

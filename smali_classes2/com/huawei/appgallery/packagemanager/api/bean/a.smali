@@ -16,9 +16,9 @@
 
 .field f:Ljava/lang/Object;
 
-.field g:Lcom/huawei/appmarket/zv7;
+.field g:Lcom/huawei/appmarket/fw7;
 
-.field h:Lcom/huawei/appmarket/yv3;
+.field h:Lcom/huawei/appmarket/aw3;
 
 .field i:Landroid/os/Handler;
 
@@ -35,9 +35,9 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/zv7;->c:Lcom/huawei/appmarket/zv7;
+    sget-object v0, Lcom/huawei/appmarket/fw7;->c:Lcom/huawei/appmarket/fw7;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/zv7;
+    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/fw7;
 
     return-void
 .end method

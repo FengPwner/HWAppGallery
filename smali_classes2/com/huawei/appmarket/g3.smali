@@ -6,9 +6,9 @@
 # instance fields
 .field protected a:J
 
-.field protected b:Lcom/huawei/appmarket/gz;
+.field protected b:Lcom/huawei/appmarket/hz;
 
-.field protected c:Lcom/huawei/appmarket/fi3;
+.field protected c:Lcom/huawei/appmarket/hi3;
 
 
 # direct methods
@@ -42,8 +42,8 @@
 .method public abstract e(J)V
 .end method
 
-.method public abstract f(Lcom/huawei/appmarket/gz;)V
+.method public abstract f(Lcom/huawei/appmarket/hz;)V
 .end method
 
-.method public abstract g(Lcom/huawei/appmarket/fi3;)V
+.method public abstract g(Lcom/huawei/appmarket/hi3;)V
 .end method

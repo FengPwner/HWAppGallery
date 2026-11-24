@@ -4,17 +4,17 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/tp3;
+.field private final a:Lcom/huawei/appmarket/vp3;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tp3;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/vp3;)V
     .registers 3
 
     .line 1
     invoke-direct {p0, p1}, Landroid/content/ContextWrapper;-><init>(Landroid/content/Context;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/w31;->a:Lcom/huawei/appmarket/tp3;
+    iput-object p2, p0, Lcom/huawei/appmarket/w31;->a:Lcom/huawei/appmarket/vp3;
 
     return-void
 .end method
@@ -59,9 +59,9 @@
 
     const-string v1, "ContextWrapperEx"
 
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p2, p0, Lcom/huawei/appmarket/w31;->a:Lcom/huawei/appmarket/tp3;
+    iget-object p2, p0, Lcom/huawei/appmarket/w31;->a:Lcom/huawei/appmarket/vp3;
 
     if-eqz p2, :cond_0
 
@@ -71,7 +71,7 @@
 
     const/4 v0, 0x0
 
-    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/tp3;->a(Ljava/lang/String;Z)V
+    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/vp3;->a(Ljava/lang/String;Z)V
 
     :cond_0
     return-void
@@ -155,7 +155,7 @@
 
     const-string v1, "ContextWrapperEx"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -198,7 +198,7 @@
 
     const-string v1, "ContextWrapperEx"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

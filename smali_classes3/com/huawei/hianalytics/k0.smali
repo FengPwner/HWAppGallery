@@ -661,7 +661,7 @@
     goto/16 :goto_1
 
     :cond_9
-    invoke-static {v1}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -870,7 +870,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

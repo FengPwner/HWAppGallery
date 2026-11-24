@@ -59,11 +59,11 @@
     move-result-object p2
 
     :cond_0
-    const-class p3, Lcom/huawei/appmarket/ex;
+    const-class p3, Lcom/huawei/appmarket/fx;
 
     if-ne p2, p3, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/ex;->A()Lcom/huawei/appmarket/ex;
+    invoke-static {}, Lcom/huawei/appmarket/fx;->A()Lcom/huawei/appmarket/fx;
 
     move-result-object p2
 
@@ -108,12 +108,12 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-virtual {p2, v0, p3}, Lcom/huawei/appmarket/ex;->C(Ljava/util/List;Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0, p3}, Lcom/huawei/appmarket/fx;->C(Ljava/util/List;Ljava/lang/Object;)Z
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/ex;->put(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/fx;->put(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -144,13 +144,13 @@
 
     iget-object p3, p1, Lcom/alibaba/fastjson/serializer/JSONSerializer;->out:Lcom/alibaba/fastjson/serializer/SerializeWriter;
 
-    instance-of p3, p2, Lcom/huawei/appmarket/hd5;
+    instance-of p3, p2, Lcom/huawei/appmarket/kd5;
 
     if-eqz p3, :cond_0
 
-    check-cast p2, Lcom/huawei/appmarket/hd5;
+    check-cast p2, Lcom/huawei/appmarket/kd5;
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/hd5;->b()Ljava/util/Map;
+    invoke-interface {p2}, Lcom/huawei/appmarket/kd5;->b()Ljava/util/Map;
 
     move-result-object p2
 

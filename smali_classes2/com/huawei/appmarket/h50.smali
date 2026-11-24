@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field protected b:Lcom/huawei/appmarket/kc7;
+.field protected b:Lcom/huawei/appmarket/pc7;
 
 .field protected c:Ljava/lang/Long;
 
@@ -15,7 +15,7 @@
 
 .field protected e:Landroid/graphics/Bitmap;
 
-.field protected f:Lcom/huawei/appmarket/c24;
+.field protected f:Lcom/huawei/appmarket/e24;
 
 
 # direct methods
@@ -143,7 +143,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 25
     .line 26
@@ -156,7 +156,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 32
     .line 33
@@ -164,7 +164,7 @@
     move-result v1
 
     .line 35
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 36
     .line 37
@@ -269,7 +269,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public abstract h()Z
@@ -278,7 +277,7 @@
 .method public abstract i()V
 .end method
 
-.method public abstract k(Lcom/huawei/appmarket/c24;Landroid/widget/LinearLayout;Landroid/view/LayoutInflater;Lcom/huawei/appgallery/share/api/ShareBean;)Z
+.method public abstract k(Lcom/huawei/appmarket/e24;Landroid/widget/LinearLayout;Landroid/view/LayoutInflater;Lcom/huawei/appgallery/share/api/ShareBean;)Z
 .end method
 
 .method public abstract l()V
@@ -287,11 +286,11 @@
 .method public abstract m()V
 .end method
 
-.method public final n(Lcom/huawei/appmarket/kc7;)V
+.method public final n(Lcom/huawei/appmarket/pc7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/h50;->b:Lcom/huawei/appmarket/kc7;
+    iput-object p1, p0, Lcom/huawei/appmarket/h50;->b:Lcom/huawei/appmarket/pc7;
 
     return-void
 .end method

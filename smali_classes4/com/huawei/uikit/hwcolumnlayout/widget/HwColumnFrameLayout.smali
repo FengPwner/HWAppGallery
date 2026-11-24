@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->p(Z)V
 
-    sget-object v0, Lcom/huawei/appmarket/vf6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/xf6;->a:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -417,6 +417,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private static b(Landroid/view/ViewGroup;)V
@@ -941,10 +961,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public setColumnType(I)V

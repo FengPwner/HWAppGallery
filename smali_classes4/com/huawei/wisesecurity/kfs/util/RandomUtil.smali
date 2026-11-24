@@ -19,9 +19,9 @@
 .method public static genSecureRandom()Ljava/security/SecureRandom;
     .registers 1
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     move-result-object v0
 
@@ -31,9 +31,9 @@
 .method public static generateRandomBytes(I)[B
     .registers 1
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object p0
 

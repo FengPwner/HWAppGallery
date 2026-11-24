@@ -183,7 +183,7 @@
     move-result-object v1
 
     .line 52
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 53
     .line 54

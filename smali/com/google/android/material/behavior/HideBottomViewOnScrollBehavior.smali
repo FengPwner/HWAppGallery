@@ -166,7 +166,7 @@
     add-int/2addr p1, p3
 
     .line 26
-    sget-object p3, Lcom/huawei/appmarket/mm;->c:Lcom/huawei/appmarket/th2;
+    sget-object p3, Lcom/huawei/appmarket/lm;->c:Lcom/huawei/appmarket/wh2;
 
     .line 27
     .line 28
@@ -276,7 +276,7 @@
 
     .line 78
     .line 79
-    sget-object p1, Lcom/huawei/appmarket/mm;->d:Lcom/huawei/appmarket/yu4;
+    sget-object p1, Lcom/huawei/appmarket/lm;->d:Lcom/huawei/appmarket/bv4;
 
     .line 80
     .line 81

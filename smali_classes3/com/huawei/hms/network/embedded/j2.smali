@@ -241,7 +241,7 @@
     const/4 p2, 0x1
 
     .line 11
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1694,7 +1694,7 @@
     const-string v0, "getHeaderFieldLong value null,name is "
 
     .line 2
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-wide p3
 

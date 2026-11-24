@@ -50,7 +50,7 @@
 
     iput v0, p0, Landroidx/transition/ChangeTransform$e;->b:F
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->D(Landroid/view/View;)F
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->D(Landroid/view/View;)F
 
     move-result v0
 

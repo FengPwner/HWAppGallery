@@ -174,11 +174,11 @@
 
     iget-object p1, p0, Lcom/huawei/hms/aaid/HmsInstanceId;->c:Lcom/huawei/hms/common/HuaweiApi;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -407,11 +407,11 @@
 
     iget-object p1, p0, Lcom/huawei/hms/aaid/HmsInstanceId;->c:Lcom/huawei/hms/common/HuaweiApi;
 
-    invoke-virtual {p1, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
 
     iget-object p1, p0, Lcom/huawei/hms/aaid/HmsInstanceId;->a:Landroid/content/Context;
 
@@ -826,12 +826,12 @@
     return-void
 .end method
 
-.method public getAAID()Lcom/huawei/appmarket/hv7;
+.method public getAAID()Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/aaid/entity/AAIDResult;",
             ">;"
         }
@@ -849,7 +849,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/opendevice/a;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_0
@@ -858,9 +858,9 @@
     return-object v0
 
     :catch_0
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     sget-object v1, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_INTERNAL_ERROR:Lcom/huawei/hms/aaid/constant/ErrorEnum;
 
@@ -868,9 +868,9 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -891,7 +891,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/hms/aaid/HmsInstanceId;->getAAID()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0}, Lcom/huawei/hms/aaid/HmsInstanceId;->getAAID()Lcom/huawei/appmarket/nv7;
 
     :cond_0
     iget-object v1, p0, Lcom/huawei/hms/aaid/HmsInstanceId;->b:Lcom/huawei/hms/aaid/utils/PushPreferences;

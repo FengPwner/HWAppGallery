@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -51,15 +51,15 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x2
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     return-void
 .end method

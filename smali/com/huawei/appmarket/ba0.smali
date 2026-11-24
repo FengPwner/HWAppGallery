@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ku6;
+.implements Lcom/huawei/appmarket/ou6;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ku6<",
+        "Lcom/huawei/appmarket/ou6<",
         "Landroid/graphics/Bitmap;",
         "[B>;"
     }
@@ -52,17 +52,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/cu6;Lcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public final a(Lcom/huawei/appmarket/gu6;Lcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "[B>;"
         }
     .end annotation
@@ -72,7 +72,7 @@
 
     invoke-direct {p2}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu6;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -84,15 +84,15 @@
 
     invoke-virtual {v0, v1, v2, p2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->b()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu6;->b()V
 
-    new-instance p1, Lcom/huawei/appmarket/uf0;
+    new-instance p1, Lcom/huawei/appmarket/vf0;
 
     invoke-virtual {p2}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/huawei/appmarket/uf0;-><init>([B)V
+    invoke-direct {p1, p2}, Lcom/huawei/appmarket/vf0;-><init>([B)V
 
     return-object p1
 .end method

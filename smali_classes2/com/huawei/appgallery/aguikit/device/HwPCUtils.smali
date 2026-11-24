@@ -87,11 +87,11 @@
     const-string v0, "HwPCUtils"
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v1
 
@@ -122,7 +122,7 @@
     const-string v2, "get PC mode Throwable"
 
     :goto_0
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -183,7 +183,7 @@
 
     const-string v2, "HwPCUtils"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

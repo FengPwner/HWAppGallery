@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gt$c;
+.implements Lcom/huawei/appmarket/ht$c;
 
 
 # annotations

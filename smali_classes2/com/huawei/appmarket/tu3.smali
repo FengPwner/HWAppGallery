@@ -4,5 +4,14 @@
 
 
 # virtual methods
-.method public abstract h(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+.method public abstract k1(ILjava/util/LinkedHashMap;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/util/LinkedHashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
 .end method

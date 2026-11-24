@@ -43,11 +43,11 @@
 
     iget-object v1, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->d:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    iget-object v2, v1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->K:Lcom/huawei/appmarket/ii8;
+    iget-object v2, v1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->K:Lcom/huawei/appmarket/oi8;
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ii8;->h()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/oi8;->h()Z
 
     move-result v2
 

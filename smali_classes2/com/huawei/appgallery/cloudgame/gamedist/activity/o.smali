@@ -30,9 +30,9 @@
 
     invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/gamedist/activity/TestSpeedQueueDialogActivity;->g4(Lcom/huawei/appgallery/cloudgame/gamedist/activity/TestSpeedQueueDialogActivity;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/wu;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/xu;->b()V
 
-    invoke-static {}, Lcom/huawei/appmarket/wu;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/xu;->c()V
 
     new-instance v0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;
 

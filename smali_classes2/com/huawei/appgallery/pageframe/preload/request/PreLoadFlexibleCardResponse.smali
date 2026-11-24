@@ -55,7 +55,7 @@
 
     const-string v1, "response data meet JSONException."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/preload/request/PreLoadFlexibleCardResponse;->cards:Lorg/json/JSONArray;

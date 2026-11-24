@@ -23,7 +23,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 5
     .line 6
@@ -35,7 +35,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     .line 11
     .line 12
@@ -43,12 +43,12 @@
     move-result v2
 
     .line 14
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 18
     .line 19

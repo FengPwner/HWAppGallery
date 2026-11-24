@@ -40,12 +40,12 @@
     return-void
 .end method
 
-.method public static bitmapTransform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/RequestOptions;
+.method public static bitmapTransform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/RequestOptions;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)",
             "Lcom/bumptech/glide/request/RequestOptions;"
@@ -57,7 +57,7 @@
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/RequestOptions;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -183,7 +183,7 @@
     return-object p0
 .end method
 
-.method public static diskCacheStrategyOf(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/RequestOptions;
+.method public static diskCacheStrategyOf(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/RequestOptions;
     .registers 2
 
     .line 1
@@ -191,7 +191,7 @@
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/RequestOptions;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -407,14 +407,14 @@
     return-object v0
 .end method
 
-.method public static option(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/RequestOptions;
+.method public static option(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/RequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "TT;>;TT;)",
             "Lcom/bumptech/glide/request/RequestOptions;"
         }
@@ -425,7 +425,7 @@
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/RequestOptions;-><init>()V
 
-    invoke-virtual {v0, p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -496,7 +496,7 @@
     return-object p0
 .end method
 
-.method public static priorityOf(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/RequestOptions;
+.method public static priorityOf(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/RequestOptions;
     .registers 2
 
     .line 1
@@ -504,7 +504,7 @@
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/RequestOptions;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -513,7 +513,7 @@
     return-object p0
 .end method
 
-.method public static signatureOf(Lcom/huawei/appmarket/sq4;)Lcom/bumptech/glide/request/RequestOptions;
+.method public static signatureOf(Lcom/huawei/appmarket/vq4;)Lcom/bumptech/glide/request/RequestOptions;
     .registers 2
 
     .line 1
@@ -521,7 +521,7 @@
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/RequestOptions;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->signature(Lcom/huawei/appmarket/sq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->signature(Lcom/huawei/appmarket/vq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 

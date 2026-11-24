@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/yj2;
+.field final synthetic a:Lcom/huawei/appmarket/ak2;
 
 .field final synthetic b:I
 
@@ -43,13 +43,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/hc;Lcom/huawei/appmarket/yj2;IJJLjava/util/List;Ljava/util/List;)V
+.method constructor <init>(Lcom/huawei/appmarket/hc;Lcom/huawei/appmarket/ak2;IJJLjava/util/List;Ljava/util/List;)V
     .registers 10
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/hc$a;->g:Lcom/huawei/appmarket/hc;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/hc$a;->a:Lcom/huawei/appmarket/yj2;
+    iput-object p2, p0, Lcom/huawei/appmarket/hc$a;->a:Lcom/huawei/appmarket/ak2;
 
     iput p3, p0, Lcom/huawei/appmarket/hc$a;->b:I
 
@@ -72,9 +72,9 @@
     .registers 13
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/hc$a;->a:Lcom/huawei/appmarket/yj2;
+    iget-object v0, p0, Lcom/huawei/appmarket/hc$a;->a:Lcom/huawei/appmarket/ak2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yj2;->e()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ak2;->e()Z
 
     move-result v0
 
@@ -88,7 +88,7 @@
 
     const-string v1, "Scheduled tasks are controlled"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

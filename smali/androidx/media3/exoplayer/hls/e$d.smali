@@ -19,17 +19,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/d28;[I)V
+.method public constructor <init>(Lcom/huawei/appmarket/i28;[I)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/s50;-><init>(Lcom/huawei/appmarket/d28;[I)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/s50;-><init>(Lcom/huawei/appmarket/i28;[I)V
 
     const/4 v0, 0x0
 
     aget p2, p2, v0
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/d28;->b(I)Landroidx/media3/common/a;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/i28;->b(I)Landroidx/media3/common/a;
 
     move-result-object p1
 
@@ -71,7 +71,7 @@
     return v0
 .end method
 
-.method public final s(JJLjava/util/List;[Lcom/huawei/appmarket/f55;)V
+.method public final s(JJLjava/util/List;[Lcom/huawei/appmarket/i55;)V
     .registers 7
 
     .line 1

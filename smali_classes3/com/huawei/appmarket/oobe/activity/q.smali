@@ -12,10 +12,10 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/lw7;
+.field private static a:Lcom/huawei/appmarket/rw7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lw7<",
+            "Lcom/huawei/appmarket/rw7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -32,7 +32,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/nk5;->b()Lcom/huawei/appmarket/nk5;
+    invoke-static {}, Lcom/huawei/appmarket/pk5;->b()Lcom/huawei/appmarket/pk5;
 
     .line 2
     .line 3
@@ -44,7 +44,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk5;->a()Lcom/huawei/appmarket/lw7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pk5;->a()Lcom/huawei/appmarket/rw7;
 
     .line 8
     .line 9
@@ -60,7 +60,7 @@
 
     .line 13
     :goto_0
-    sput-object v1, Lcom/huawei/appmarket/oobe/activity/q;->a:Lcom/huawei/appmarket/lw7;
+    sput-object v1, Lcom/huawei/appmarket/oobe/activity/q;->a:Lcom/huawei/appmarket/rw7;
 
     .line 14
     .line 15
@@ -68,7 +68,7 @@
 
     .line 16
     .line 17
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 18
     .line 19
@@ -80,7 +80,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -98,7 +98,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nk5;->e(Lcom/huawei/appmarket/tw3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pk5;->e(Lcom/huawei/appmarket/vw3;)V
 
     .line 33
     .line 34
@@ -267,7 +267,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -275,20 +275,20 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string p1, "OOBEAppPermissionManager: requireList is empty"
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "OOBEAppPermissionManager:start get AppPermissions by Store"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -357,24 +357,24 @@
 
     invoke-virtual {p0, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    sget-object v0, Lcom/huawei/appmarket/oobe/activity/q;->a:Lcom/huawei/appmarket/lw7;
+    sget-object v0, Lcom/huawei/appmarket/oobe/activity/q;->a:Lcom/huawei/appmarket/rw7;
 
     invoke-virtual {p0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_1
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v0, "gen json object failed!"
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     sput-object p1, Lcom/huawei/appmarket/oobe/activity/q;->b:Lcom/huawei/appmarket/oobe/activity/q$a;

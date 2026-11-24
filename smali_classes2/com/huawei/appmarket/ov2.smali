@@ -7,9 +7,9 @@
 
 
 # static fields
-.field public static final GAME_INNER_SIGN_IN_REQUEST_CODE:I = 0xbbb
+.field public static final GMAE_LOGIN_REQUEST_CODE:I = 0xbb8
 
-.field private static final TAG:Ljava/lang/String; = "GameProtocolWizard"
+.field private static final TAG:Ljava/lang/String; = "GameLoginWizard"
 
 
 # instance fields
@@ -85,7 +85,7 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/hms/ui/SafeIntent;-><init>(Landroid/content/Intent;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/si4;->b(Lcom/huawei/hms/ui/SafeIntent;)Landroid/os/Parcelable;
+    invoke-static {v1}, Lcom/huawei/appmarket/ui4;->b(Lcom/huawei/hms/ui/SafeIntent;)Landroid/os/Parcelable;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0xbbb
+    const/16 v1, 0xbb8
 
     invoke-virtual {p1, v0, v1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
@@ -106,11 +106,11 @@
     goto :goto_0
 
     :catch_0
-    const-string p1, "GameProtocolWizard"
+    const-string p1, "GameLoginWizard"
 
     const-string v0, "intent has some error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -129,39 +129,55 @@
 .end method
 
 .method public onBridgeActivityResult(IILandroid/content/Intent;)Z
-    .registers 4
+    .registers 5
 
     .line 1
-    const/16 p2, 0xbbb
+    const/16 v0, 0xbb8
 
-    if-ne p1, p2, :cond_1
+    if-ne p1, v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/ct7;->getInstance()Lcom/huawei/appmarket/ct7;
+    const/4 p1, -0x1
+
+    if-ne p2, p1, :cond_0
+
+    invoke-static {}, Lcom/huawei/appmarket/it7;->getInstance()Lcom/huawei/appmarket/it7;
 
     move-result-object p1
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/ct7;->notifyProtocolStatus(Landroid/content/Intent;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/it7;->notifyLoginStatus(Landroid/content/Intent;)V
 
+    goto :goto_0
+
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/it7;->getInstance()Lcom/huawei/appmarket/it7;
+
+    move-result-object p1
+
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/it7;->notifyLoginStatus(Landroid/content/Intent;)V
+
+    :goto_0
     invoke-direct {p0}, Lcom/huawei/appmarket/ov2;->getActivity()Landroid/app/Activity;
 
     move-result-object p1
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
     invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result p2
 
-    if-nez p2, :cond_0
+    if-nez p2, :cond_1
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 
-    :cond_0
+    :cond_1
     const/4 p1, 0x1
 
     return p1
 
-    :cond_1
+    :cond_2
     const/4 p1, 0x0
 
     return p1

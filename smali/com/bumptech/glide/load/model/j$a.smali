@@ -47,14 +47,14 @@
     return p1
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
             "Lcom/bumptech/glide/load/model/g$a<",
             "Ljava/lang/Object;",

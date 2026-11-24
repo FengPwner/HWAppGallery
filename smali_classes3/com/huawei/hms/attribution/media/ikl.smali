@@ -234,7 +234,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/hms/attribution/media/hij;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v1, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -242,7 +242,7 @@
 
     invoke-direct {v0}, Lcom/huawei/hms/attribution/media/ikl$lmn;-><init>()V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -250,7 +250,7 @@
 
     invoke-direct {v0}, Lcom/huawei/hms/attribution/media/ikl$klm;-><init>()V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 

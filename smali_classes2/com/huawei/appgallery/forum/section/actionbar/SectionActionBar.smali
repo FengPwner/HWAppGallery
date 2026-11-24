@@ -31,7 +31,7 @@
 
 .field private m:Landroid/view/Window;
 
-.field private n:Lcom/huawei/appmarket/rn5;
+.field private n:Lcom/huawei/appmarket/sn5;
 
 
 # direct methods
@@ -77,7 +77,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -133,7 +133,7 @@
 
     check-cast p3, Landroid/app/Activity;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result p3
 
@@ -151,7 +151,7 @@
     :cond_0
     new-instance p3, Landroid/widget/LinearLayout$LayoutParams;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     move-result v1
 
@@ -168,7 +168,7 @@
     goto :goto_0
 
     :goto_1
-    const p3, 0x7f0a160d
+    const p3, 0x7f0a160e
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -231,7 +231,7 @@
 
     if-nez p3, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     move-result p3
 
@@ -241,7 +241,7 @@
     const/16 p3, 0x30
 
     .line 5
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -249,7 +249,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->h:I
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -259,7 +259,7 @@
 
     const/16 p3, 0x18
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -267,7 +267,7 @@
 
     const/16 p3, 0x20
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -275,7 +275,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->i:I
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -327,7 +327,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->c:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
@@ -342,7 +342,7 @@
 
     const-string p2, "updateIconColor error"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -360,7 +360,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 6
     .line 7
@@ -392,7 +392,7 @@
 
     .line 20
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     .line 21
     .line 22
@@ -497,7 +497,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -543,7 +542,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
@@ -874,7 +873,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public getMenuLayout()Lcom/huawei/appgallery/forum/section/actionbar/MenuLinearLayout;
@@ -896,7 +894,7 @@
 
     if-ne p1, v0, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->n:Lcom/huawei/appmarket/rn5;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->n:Lcom/huawei/appmarket/sn5;
 
     if-eqz p1, :cond_0
 
@@ -908,11 +906,11 @@
     return-void
 .end method
 
-.method public setBackClickListener(Lcom/huawei/appmarket/rn5;)V
+.method public setBackClickListener(Lcom/huawei/appmarket/sn5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->n:Lcom/huawei/appmarket/rn5;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->n:Lcom/huawei/appmarket/sn5;
 
     return-void
 .end method

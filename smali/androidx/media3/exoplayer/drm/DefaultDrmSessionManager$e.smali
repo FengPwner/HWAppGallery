@@ -398,7 +398,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ge8;->V(Landroid/os/Handler;Ljava/lang/Runnable;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/le8;->V(Landroid/os/Handler;Ljava/lang/Runnable;)V
 
     .line 17
     .line 18
@@ -520,4 +520,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

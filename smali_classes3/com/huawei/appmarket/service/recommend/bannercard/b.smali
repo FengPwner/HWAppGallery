@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/recommend/bannercard/b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/recommend/bannercard/b;->b:Landroid/content/Context;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 
     const-class v1, Lcom/huawei/appgallery/pageframe/v2/service/bean/QCardBaseDistCardBean;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gj0;->b(Lcom/huawei/flexiblelayout/data/b;Ljava/lang/Class;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hj0;->b(Lcom/huawei/flexiblelayout/data/b;Ljava/lang/Class;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v0
 
@@ -83,7 +83,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     move-result-object v0
 
@@ -97,12 +97,12 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v3, v2, v1, p1}, Lcom/huawei/appmarket/yj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
+    invoke-static {v3, v2, v1, p1}, Lcom/huawei/appmarket/zj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     move-result-object v1
 
@@ -112,7 +112,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v3, v2, v0, p1}, Lcom/huawei/appmarket/yj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
+    invoke-static {v3, v2, v0, p1}, Lcom/huawei/appmarket/zj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
 
     :goto_0
     return-void

@@ -50,12 +50,12 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -75,7 +75,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -181,12 +181,12 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation
@@ -206,7 +206,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 6
     .line 7
@@ -524,6 +524,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final e(Lcom/google/gson/TypeAdapter;)V

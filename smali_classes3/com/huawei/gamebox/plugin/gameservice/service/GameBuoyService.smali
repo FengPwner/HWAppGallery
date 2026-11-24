@@ -37,7 +37,7 @@
 .method public final onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -47,7 +47,7 @@
 
     const-string v0, "the GameBuoyService AIDL service for GameServiceSDK onBind"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService;->b:Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService$b;
@@ -81,17 +81,17 @@
 
     const-string v1, "onStartCommand.."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "GameBuoyService startForeground"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v1, 0x100
 
     const-string v2, "GameBuoyServiceChannel"
 
-    invoke-static {v0, v2, p0, v1}, Lcom/huawei/appmarket/zn2;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/Service;I)V
+    invoke-static {v0, v2, p0, v1}, Lcom/huawei/appmarket/bo2;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/Service;I)V
 
     invoke-super {p0, p1, p2, p3}, Lcom/huawei/secure/android/common/activity/SafeService;->onStartCommand(Landroid/content/Intent;II)I
 
@@ -103,7 +103,7 @@
 .method public final onUnbind(Landroid/content/Intent;)Z
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -113,7 +113,7 @@
 
     const-string v1, "the GameBuoyService AIDL service for GameServiceSDK onUnbind"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-static {}, Lcom/huawei/appmarket/id0;->c()Lcom/huawei/appmarket/id0;

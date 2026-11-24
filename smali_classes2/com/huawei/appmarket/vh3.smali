@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;)Z
+.method public abstract J0()V
 .end method
 
-.method public abstract b(Landroid/content/Context;Ljava/lang/String;)V
+.method public abstract a(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 .end method
 
-.method public abstract c(Landroid/content/Context;Lcom/huawei/appmarket/h86;)Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+.method public abstract h(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 .end method

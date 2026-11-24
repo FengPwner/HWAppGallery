@@ -58,7 +58,7 @@
     return-void
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/w79;->c()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/c89;->c()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -259,7 +259,7 @@
     goto :goto_8
 
     :cond_7
-    invoke-static {}, Lcom/huawei/appmarket/w79;->c()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/c89;->c()Landroid/os/IBinder;
 
     move-result-object v8
 

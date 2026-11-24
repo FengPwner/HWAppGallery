@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/huawei/appmarket/pe6;->z:[I
+    sget-object v2, Lcom/huawei/appmarket/re6;->z:[I
 
     const v3, 0x1010041
 

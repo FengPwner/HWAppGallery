@@ -4,8 +4,8 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/vv6;
-    result = Lcom/huawei/appmarket/lo;
+.annotation runtime Lcom/huawei/appmarket/zv6;
+    result = Lcom/huawei/appmarket/ko;
 .end annotation
 
 
@@ -17,7 +17,7 @@
 
 # instance fields
 .field private activeCount:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -30,32 +30,32 @@
 .field private detailId_:Ljava/lang/String;
 
 .field private diversionLevel:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private dlType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private globalTrace:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private installTime:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private installTypeCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private mediaPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -64,16 +64,16 @@
 .field private referrer_:Ljava/lang/String;
 
 .field private shareIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private thirdPartyPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -115,17 +115,17 @@
 
     const-string v0, "DeviceInstallationInfos"
 
-    const-class v1, Lcom/huawei/appmarket/yh3;
+    const-class v1, Lcom/huawei/appmarket/ai3;
 
     .line 2
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/yh3;
+    check-cast v0, Lcom/huawei/appmarket/ai3;
 
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bq6;->j(Lcom/huawei/appmarket/yh3;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/eq6;->j(Lcom/huawei/appmarket/ai3;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p1
 
@@ -143,7 +143,7 @@
     const-string v2, "AppActiveReportRequest"
 
     .line 5
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 6
     iget p1, p1, Landroid/content/pm/PackageInfo;->versionCode:I
@@ -159,11 +159,11 @@
     iput-object p2, p0, Lcom/huawei/appmarket/service/distribution/activereport/AppActiveReportRequest;->detailId_:Ljava/lang/String;
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object p1
 
-    iget-object p1, p1, Lcom/huawei/appmarket/sn0;->h:Ljava/lang/String;
+    iget-object p1, p1, Lcom/huawei/appmarket/tn0;->h:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/distribution/activereport/AppActiveReportRequest;->shareIds:Ljava/lang/String;
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -270,7 +270,7 @@
     :catch_0
     const-string p1, "parse diversionLevel error"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

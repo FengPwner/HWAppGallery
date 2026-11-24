@@ -96,7 +96,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/ActivityChooserView;->q:I
 
-    sget-object v3, Lcom/huawei/appmarket/pe6;->e:[I
+    sget-object v3, Lcom/huawei/appmarket/re6;->e:[I
 
     const/4 v7, 0x0
 
@@ -114,7 +114,7 @@
 
     move v6, p3
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     const/4 p2, 0x1
 
@@ -444,6 +444,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c()V

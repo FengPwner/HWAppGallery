@@ -14,7 +14,7 @@
 
 .method public static formatDateString(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
     .registers 9
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -69,232 +69,232 @@
     move-result-object v5
 
     .line 24
-    const-string v6, "yyyy-M-d"
+    const-string/jumbo v6, "yyyy-M-d"
 
     .line 25
     .line 26
+    .line 27
     invoke-direct {v4, v6, v5}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 27
     .line 28
     .line 29
+    .line 30
     :try_start_0
     invoke-virtual {v4, p0}, Ljava/text/DateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
-    .line 30
     .line 31
     .line 32
+    .line 33
     move-result-object v4
     :try_end_0
     .catch Ljava/text/ParseException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 33
+    .line 34
     goto :goto_1
 
-    .line 34
+    .line 35
     :catch_0
     invoke-static {v2, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
     .line 36
     .line 37
+    .line 38
     goto :goto_0
 
-    .line 38
+    .line 39
     :goto_1
     if-nez v4, :cond_2
 
-    .line 39
     .line 40
+    .line 41
     if-nez p0, :cond_1
 
-    .line 41
     .line 42
+    .line 43
     move-object v4, v3
 
-    .line 43
+    .line 44
     goto :goto_3
 
-    .line 44
+    .line 45
     :cond_1
     new-instance v4, Ljava/text/SimpleDateFormat;
 
-    .line 45
     .line 46
+    .line 47
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     move-result-object v5
 
-    .line 50
-    const-string v6, "yyyy/M/d"
-
     .line 51
-    .line 52
-    invoke-direct {v4, v6, v5}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
+    const-string/jumbo v6, "yyyy/M/d"
 
+    .line 52
     .line 53
     .line 54
+    invoke-direct {v4, v6, v5}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
+
     .line 55
+    .line 56
+    .line 57
     :try_start_1
     invoke-virtual {v4, p0}, Ljava/text/DateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
-    .line 56
-    .line 57
     .line 58
+    .line 59
+    .line 60
     move-result-object p0
     :try_end_1
     .catch Ljava/text/ParseException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 59
+    .line 61
     goto :goto_2
 
-    .line 60
+    .line 62
     :catch_1
     invoke-static {v2, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 61
-    .line 62
     .line 63
+    .line 64
+    .line 65
     move-object p0, v3
 
-    .line 64
+    .line 66
     :goto_2
     move-object v4, p0
 
-    .line 65
+    .line 67
     :cond_2
     :goto_3
     if-nez v4, :cond_3
 
-    .line 66
-    .line 67
-    const-string p0, "convertDateToCalendar::date is null"
-
     .line 68
     .line 69
-    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+    const-string p0, "convertDateToCalendar::date is null"
 
     .line 70
     .line 71
+    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 72
+    .line 73
+    .line 74
     move-object p0, v3
 
-    .line 73
+    .line 75
     goto :goto_4
 
-    .line 74
+    .line 76
     :cond_3
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
-    .line 75
-    .line 76
     .line 77
+    .line 78
+    .line 79
     move-result-object p0
 
-    .line 78
+    .line 80
     invoke-virtual {p0, v4}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
 
-    .line 79
-    .line 80
     .line 81
+    .line 82
+    .line 83
     :goto_4
     if-eqz p1, :cond_5
 
-    .line 82
-    .line 83
-    if-nez p0, :cond_4
-
     .line 84
     .line 85
-    goto :goto_5
+    if-nez p0, :cond_4
 
     .line 86
+    .line 87
+    goto :goto_5
+
+    .line 88
     :cond_4
     :try_start_2
     invoke-virtual {p0}, Ljava/util/Calendar;->getTimeInMillis()J
 
-    .line 87
-    .line 88
     .line 89
+    .line 90
+    .line 91
     move-result-wide v4
 
-    .line 90
+    .line 92
     const p0, 0x30014
 
-    .line 91
-    .line 92
     .line 93
-    invoke-static {p1, v4, v5, p0}, Landroid/text/format/DateUtils;->formatDateTime(Landroid/content/Context;JI)Ljava/lang/String;
-
     .line 94
     .line 95
+    invoke-static {p1, v4, v5, p0}, Landroid/text/format/DateUtils;->formatDateTime(Landroid/content/Context;JI)Ljava/lang/String;
+
     .line 96
+    .line 97
+    .line 98
     move-result-object v3
     :try_end_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 97
+    .line 99
     goto :goto_6
 
-    .line 98
+    .line 100
     :catch_2
     const-string p0, "get formatTime error"
 
-    .line 99
-    .line 100
-    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 101
     .line 102
+    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 103
+    .line 104
+    .line 105
     goto :goto_6
 
-    .line 104
+    .line 106
     :cond_5
     :goto_5
     const-string p0, "convertCalendarToString::context or calendar is null"
 
-    .line 105
-    .line 106
-    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 107
     .line 108
+    invoke-static {v2, p0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 109
+    .line 110
+    .line 111
     goto :goto_6
 
-    .line 110
+    .line 112
     :cond_6
     move-object v3, v1
 
-    .line 111
+    .line 113
     :goto_6
     invoke-static {v3}, Lcom/huawei/phoneservice/faq/base/util/FaqStringUtil;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 112
-    .line 113
     .line 114
+    .line 115
+    .line 116
     move-result p0
 
-    .line 115
+    .line 117
     if-eqz p0, :cond_7
 
-    .line 116
-    .line 117
+    .line 118
+    .line 119
     goto :goto_7
 
-    .line 118
+    .line 120
     :cond_7
     move-object v1, v3
 
-    .line 119
+    .line 121
     :goto_7
     return-object v1
-    .line 120
-    .line 121
     .line 122
     .line 123
     .line 124
@@ -446,8 +446,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

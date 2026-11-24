@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kl8$c;
+.implements Lcom/huawei/appmarket/ql8$c;
 
 
 # instance fields
@@ -11,13 +11,13 @@
 
 .field final synthetic b:Lcom/huawei/appmarket/s51;
 
-.field final synthetic c:Lcom/huawei/appmarket/bm3;
+.field final synthetic c:Lcom/huawei/appmarket/dm3;
 
 .field final synthetic d:Lcom/huawei/appmarket/t51;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/bm3;)V
+.method constructor <init>(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/dm3;)V
     .registers 5
 
     .line 1
@@ -27,7 +27,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/u51;->b:Lcom/huawei/appmarket/s51;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/u51;->c:Lcom/huawei/appmarket/bm3;
+    iput-object p4, p0, Lcom/huawei/appmarket/u51;->c:Lcom/huawei/appmarket/dm3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,9 +48,9 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/u51;->b:Lcom/huawei/appmarket/s51;
 
-    iget-object v3, p0, Lcom/huawei/appmarket/u51;->c:Lcom/huawei/appmarket/bm3;
+    iget-object v3, p0, Lcom/huawei/appmarket/u51;->c:Lcom/huawei/appmarket/dm3;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/huawei/appmarket/t51;->e(Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/bm3;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/huawei/appmarket/t51;->e(Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/dm3;)V
 
     return-void
 .end method

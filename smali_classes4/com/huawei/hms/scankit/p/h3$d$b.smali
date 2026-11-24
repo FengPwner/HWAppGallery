@@ -176,7 +176,7 @@
 
     iget-object v0, p0, Lcom/huawei/hms/scankit/p/h3$d$b;->a:Ljava/lang/StringBuilder;
 
-    const-string v1, "{"
+    const-string/jumbo v1, "{"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -228,7 +228,7 @@
 
     move-result v2
 
-    const-string v3, "}"
+    const-string/jumbo v3, "}"
 
     invoke-virtual {v0, v1, v2, v3}, Ljava/lang/StringBuilder;->replace(IILjava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -1,11 +1,45 @@
-.class public interface abstract Lcom/huawei/appmarket/v06;
+.class public final Lcom/huawei/appmarket/v06;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract H2(Lcom/huawei/appmarket/u17;)V
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
 .end method
 
-.method public abstract X0(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/sw6;)V
+.method public static a(Landroid/content/Context;)Lcom/huawei/appmarket/q2;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    const v0, 0x7f0606a6
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result p0
+
+    const/high16 v0, -0x1000000
+
+    if-eq p0, v0, :cond_0
+
+    new-instance p0, Lcom/huawei/appmarket/x71;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/x71;-><init>()V
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Lcom/huawei/appmarket/nu4;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/nu4;-><init>()V
+
+    return-object p0
 .end method

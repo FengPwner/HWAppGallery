@@ -896,6 +896,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getIntrinsicHeight()I
@@ -964,7 +965,7 @@
     .line 15
     .line 16
     :cond_0
-    iget-object v0, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/nm;
+    iget-object v0, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/mm;
 
     .line 17
     .line 18
@@ -1272,6 +1273,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method final m()Lcom/google/android/material/progressindicator/l;

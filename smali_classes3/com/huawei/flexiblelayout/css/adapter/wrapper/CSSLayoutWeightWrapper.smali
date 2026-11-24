@@ -119,9 +119,9 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/fg0;
+    new-instance v0, Lcom/huawei/appmarket/gg0;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/fg0;-><init>(Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;Landroid/view/View;F)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/gg0;-><init>(Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;Landroid/view/View;F)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 

@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard$b;->b:Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -36,11 +36,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard$b;->b:Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;
 
-    iget-object v0, p1, Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;->O:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p1, Lcom/huawei/appgallery/appcomment/card/commentwallhorozoncard/CommentWallHorizonCard;->O:Lcom/huawei/appmarket/bk0;
 
     const/16 v1, 0x9
 
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method

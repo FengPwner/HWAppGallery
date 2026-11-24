@@ -12,103 +12,25 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Ljava/lang/String;
-    .registers 3
+.method public static a(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 4
 
     .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    new-instance v0, Lcom/huawei/appmarket/tn0;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tn0;-><init>()V
 
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    iput-object p0, v0, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
-    move-result v1
+    const-string v1, "INSTALLER"
 
-    if-nez v1, :cond_0
+    iput-object v1, v0, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iput-object p1, v0, Lcom/huawei/appmarket/tn0;->b:Ljava/lang/String;
 
-    const-string p0, "&"
+    iput-object p0, v0, Lcom/huawei/appmarket/tn0;->f:Ljava/lang/String;
 
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/ok3;->c(Lcom/huawei/appmarket/tn0;)V
 
-    :cond_0
-    const-string p0, "isOutside=true"
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static b(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
-    .registers 5
-
-    .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    return-object v1
-
-    :cond_0
-    const-string v0, "="
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p0, p1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-gez v0, :cond_1
-
-    return-object v1
-
-    :cond_1
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
-
-    move-result p1
-
-    add-int/2addr p1, v0
-
-    invoke-static {p0, p1}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;I)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string p1, "&"
-
-    invoke-virtual {p0, p1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
-    move-result p1
-
-    if-gez p1, :cond_2
-
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
-
-    move-result p1
-
-    :cond_2
-    const/4 v0, 0x0
-
-    invoke-static {p0, v0, p1}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
-
-    move-result-object p0
-
-    if-eqz p2, :cond_3
-
-    invoke-static {p0}, Lcom/huawei/appmarket/gp7;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    :cond_3
-    return-object p0
+    return-void
 .end method

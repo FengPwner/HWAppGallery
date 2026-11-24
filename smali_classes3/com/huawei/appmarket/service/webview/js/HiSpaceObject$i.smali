@@ -57,13 +57,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;
+    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i;->c:Ljava/lang/String;
 
@@ -71,9 +71,9 @@
 
     iget-object v4, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i;->b:Ljava/lang/String;
 
-    invoke-direct {v1, v0, v4, v2, v3}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v4, v2, v3}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$1000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lcom/huawei/appmarket/eo5;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$1000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lcom/huawei/appmarket/fo5;)V
 
     goto :goto_0
 

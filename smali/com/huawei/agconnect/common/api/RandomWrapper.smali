@@ -15,9 +15,9 @@
 .method public static generateSecureRandom(I)[B
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v0
 

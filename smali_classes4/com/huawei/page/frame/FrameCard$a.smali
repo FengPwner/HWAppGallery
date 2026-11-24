@@ -56,17 +56,17 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$a;->b:Lcom/huawei/page/frame/FrameCard;
 
-    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/uc2;
+    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/xc2;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/uc2;
+    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/xc2;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uc2;->getView()Landroid/view/View;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xc2;->getView()Landroid/view/View;
 
     move-result-object v1
 
@@ -94,11 +94,11 @@
 
     check-cast v3, Lcom/huawei/flexiblelayout/services/exposure/impl/n$a$a;
 
-    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/uc2;
+    invoke-static {v0}, Lcom/huawei/page/frame/FrameCard;->l(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/xc2;
 
     move-result-object v4
 
-    invoke-interface {v3, v4}, Lcom/huawei/flexiblelayout/services/exposure/impl/n$a$a;->a(Lcom/huawei/appmarket/uc2;)V
+    invoke-interface {v3, v4}, Lcom/huawei/flexiblelayout/services/exposure/impl/n$a$a;->a(Lcom/huawei/appmarket/xc2;)V
 
     goto :goto_0
 

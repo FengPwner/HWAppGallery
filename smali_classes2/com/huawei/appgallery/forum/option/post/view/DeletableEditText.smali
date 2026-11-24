@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/g67;
+.field private b:Lcom/huawei/appmarket/l67;
 
 
 # direct methods
@@ -24,7 +24,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method
@@ -37,7 +37,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method
@@ -78,11 +78,11 @@
 
     invoke-super {p0, p1, p2}, Landroid/widget/EditText;->onSelectionChanged(II)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/g67;->b(IILandroid/view/View;)V
+    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/l67;->b(IILandroid/view/View;)V
 
     :cond_0
     return-void
@@ -91,11 +91,11 @@
 .method public final onTextContextMenuItem(I)Z
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/g67;->a(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/l67;->a(I)V
 
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/EditText;->onTextContextMenuItem(I)Z
@@ -105,11 +105,11 @@
     return p1
 .end method
 
-.method public setSelectionChangedListener(Lcom/huawei/appmarket/g67;)V
+.method public setSelectionChangedListener(Lcom/huawei/appmarket/l67;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DeletableEditText;->b:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method

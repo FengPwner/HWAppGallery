@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract a()Z
+.method public abstract a(Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;II)V
 .end method
 
-.method public abstract b()Z
+.method public abstract b(Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;II)V
 .end method

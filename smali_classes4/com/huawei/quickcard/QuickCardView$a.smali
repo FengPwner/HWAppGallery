@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ff1;
+.implements Lcom/huawei/appmarket/hf1;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final b0(Lcom/huawei/appmarket/du4;)V
+.method public final b0(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public final e(Lcom/huawei/appmarket/du4;)V
+.method public final e(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
@@ -86,7 +86,7 @@
     return-void
 .end method
 
-.method public final onDestroy(Lcom/huawei/appmarket/du4;)V
+.method public final onDestroy(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -124,7 +124,7 @@
     return-void
 .end method
 
-.method public final onStart(Lcom/huawei/appmarket/du4;)V
+.method public final onStart(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -132,7 +132,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -313,26 +313,9 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
-.method public final onStop(Lcom/huawei/appmarket/du4;)V
+.method public final onStop(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -340,7 +323,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -521,26 +504,9 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
-.method public final z(Lcom/huawei/appmarket/du4;)V
+.method public final z(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -548,7 +514,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -729,21 +695,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

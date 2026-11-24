@@ -67,19 +67,19 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpMiniProgramInfo;->username:Ljava/lang/String;
 
-    const-string v1, "wx_state_jump_mini_program_username"
+    const-string/jumbo v1, "wx_state_jump_mini_program_username"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpMiniProgramInfo;->path:Ljava/lang/String;
 
-    const-string v1, "wx_state_jump_mini_program_path"
+    const-string/jumbo v1, "wx_state_jump_mini_program_path"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpMiniProgramInfo;->miniProgramType:I
 
-    const-string v1, "wx_state_jump_mini_program_type"
+    const-string/jumbo v1, "wx_state_jump_mini_program_type"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
@@ -97,7 +97,7 @@
 .method public unserialize(Landroid/os/Bundle;)V
     .registers 4
 
-    const-string v0, "wx_state_jump_mini_program_username"
+    const-string/jumbo v0, "wx_state_jump_mini_program_username"
 
     const-string v1, ""
 
@@ -107,7 +107,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpMiniProgramInfo;->username:Ljava/lang/String;
 
-    const-string v0, "wx_state_jump_mini_program_path"
+    const-string/jumbo v0, "wx_state_jump_mini_program_path"
 
     invoke-virtual {p1, v0, v1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpMiniProgramInfo;->path:Ljava/lang/String;
 
-    const-string v0, "wx_state_jump_mini_program_type"
+    const-string/jumbo v0, "wx_state_jump_mini_program_type"
 
     const/4 v1, 0x0
 

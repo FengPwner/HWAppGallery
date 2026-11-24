@@ -1378,7 +1378,7 @@
 
     .line 327
     .line 328
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 329
     .line 330
@@ -2117,11 +2117,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
-    const/16 v2, 0xa
+    const/16 v2, 0xc
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Lcom/huawei/hianalytics/framework/threadpool/TaskThread;->addToQueue(Ljava/lang/Runnable;)V
 

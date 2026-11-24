@@ -74,7 +74,7 @@
 
     const-string v1, "OneClickUpgradeActivity"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -88,7 +88,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/agguard/business/ui/view/EnvScanItemView;
 
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->c()Lcom/huawei/appmarket/ya6;
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->c()Lcom/huawei/appmarket/ab6;
 
     move-result-object v0
 
@@ -96,17 +96,17 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ya6;->f(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ab6;->f(I)V
 
     invoke-static {}, Lcom/huawei/appmarket/mb;->K()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->c()Lcom/huawei/appmarket/ya6;
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->c()Lcom/huawei/appmarket/ab6;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->d()Z
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->d()Z
 
     move-result v0
 

@@ -28,7 +28,7 @@
     const-string p2, "android.intent.action.INSTALL_PACKAGE"
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p2}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p2
 

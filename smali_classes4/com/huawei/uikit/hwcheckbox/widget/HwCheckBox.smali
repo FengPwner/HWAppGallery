@@ -32,7 +32,7 @@
     const v0, 0x7f1302fe
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -45,7 +45,7 @@
 
     if-lt p1, p2, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/hk2;->p(Landroid/widget/CheckBox;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/jk2;->p(Landroid/widget/CheckBox;)V
 
     :cond_0
     return-void

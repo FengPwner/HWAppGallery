@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wk1;
+.implements Lcom/huawei/appmarket/zk1;
 .implements Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout$a;
 
 
@@ -30,7 +30,7 @@
 
 .field private g:I
 
-.field private h:Lcom/huawei/appmarket/k18;
+.field private h:Lcom/huawei/appmarket/p18;
 
 .field private i:Landroid/widget/LinearLayout;
 
@@ -56,7 +56,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fn3;",
+            "Lcom/huawei/appmarket/hn3;",
             ">;"
         }
     .end annotation
@@ -132,7 +132,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->o:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -156,11 +156,11 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fn3;
+    check-cast v1, Lcom/huawei/appmarket/hn3;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/fn3;->r()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/hn3;->r()V
 
     goto :goto_0
 
@@ -461,7 +461,7 @@
 
     .line 37
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/zl0;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/am0;->a()Z
 
     .line 38
     .line 39
@@ -493,7 +493,7 @@
 
     .line 52
     .line 53
-    sget-object v3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 54
     .line 55
@@ -505,7 +505,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v3, v4, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -862,13 +862,13 @@
         value = {
             "(",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fn3;",
+            "Lcom/huawei/appmarket/hn3;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -889,11 +889,11 @@
     return-void
 .end method
 
-.method public final Q(Lcom/huawei/appmarket/k18;)V
+.method public final Q(Lcom/huawei/appmarket/p18;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/k18;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/p18;
 
     return-void
 .end method
@@ -1112,7 +1112,7 @@
     .registers 13
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     move-result-object p4
 
@@ -1160,9 +1160,9 @@
 
     move-result p4
 
-    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/k18;
+    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v1
 
@@ -1216,9 +1216,9 @@
     return-void
 
     :cond_5
-    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/k18;
+    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollWithoutHeadBehavior;->h:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v1
 

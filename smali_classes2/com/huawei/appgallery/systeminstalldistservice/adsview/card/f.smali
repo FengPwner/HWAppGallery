@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/f;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/f;->b:Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/InstallerVerticalItemCardV2;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -39,19 +39,19 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/si8;
+    check-cast v1, Lcom/huawei/appmarket/yi8;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
-    const-class v1, Lcom/huawei/appmarket/ff4;
+    const-class v1, Lcom/huawei/appmarket/hf4;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ff4;
+    check-cast v0, Lcom/huawei/appmarket/hf4;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/ff4;->h:Lcom/huawei/appmarket/zd5;
+    iget-object v1, v0, Lcom/huawei/appmarket/hf4;->h:Lcom/huawei/appmarket/ce5;
 
     invoke-virtual {v1}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
 
@@ -75,7 +75,7 @@
     const/4 v1, -0x1
 
     :goto_0
-    iget-object v2, v0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v2, v0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/InstallerVerticalItemCardV2;->D1(Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/InstallerVerticalItemCardV2;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -83,13 +83,13 @@
 
     check-cast v3, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/l90;->L(Lcom/huawei/appmarket/iu;ILcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/l90;->L(Lcom/huawei/appmarket/ju;ILcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v0, v0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     const/4 v2, 0x5
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/lr1;->b(Lcom/huawei/appmarket/iu;II)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/or1;->b(Lcom/huawei/appmarket/ju;II)V
 
     :cond_1
     invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/InstallerVerticalItemCardV2;->E1(Lcom/huawei/appgallery/systeminstalldistservice/adsview/card/InstallerVerticalItemCardV2;)Landroid/content/Context;

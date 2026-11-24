@@ -24,7 +24,7 @@
 # instance fields
 .field private r:Lcom/huawei/page/tabitem/c;
 
-.field private s:Lcom/huawei/appmarket/gu7;
+.field private s:Lcom/huawei/appmarket/mu7;
 
 .field private t:Ljava/lang/String;
 
@@ -38,18 +38,18 @@
     return-void
 .end method
 
-.method static synthetic e(Lcom/huawei/page/tabitem/b;)Lcom/huawei/appmarket/gu7;
+.method static synthetic e(Lcom/huawei/page/tabitem/b;)Lcom/huawei/appmarket/mu7;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/gu7;
+    iget-object p0, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/mu7;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method protected final buildChildView(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/FLNodeData;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected final buildChildView(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/FLNodeData;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 7
 
     .line 1
@@ -105,7 +105,7 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/sb2;->createNode(Ljava/lang/String;)Lcom/huawei/appmarket/sb2;
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/vb2;->createNode(Ljava/lang/String;)Lcom/huawei/appmarket/vb2;
 
     .line 27
     .line 28
@@ -125,7 +125,7 @@
     move-result-object v2
 
     .line 35
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/sb2;->createCard(Ljava/lang/String;)Lcom/huawei/appmarket/pa2;
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/vb2;->createCard(Ljava/lang/String;)Lcom/huawei/appmarket/sa2;
 
     .line 36
     .line 37
@@ -142,12 +142,12 @@
 
     .line 42
     :cond_1
-    invoke-virtual {p0, p1, v2, v1, p3}, Lcom/huawei/appmarket/j21;->d(Lcom/huawei/appmarket/sa2;Lcom/huawei/appmarket/pa2;Lcom/huawei/flexiblelayout/data/b;Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-virtual {p0, p1, v2, v1, p3}, Lcom/huawei/appmarket/j21;->d(Lcom/huawei/appmarket/va2;Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/b;Landroid/view/ViewGroup;)Landroid/view/View;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/j21;->c(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/j21;->c(Lcom/huawei/appmarket/sa2;)V
 
     .line 46
     .line 47
@@ -624,52 +624,9 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method protected final buildView(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/FLNodeData;)Landroid/view/ViewGroup;
+.method protected final buildView(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/FLNodeData;)Landroid/view/ViewGroup;
     .registers 3
 
     .line 1
@@ -677,7 +634,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/huawei/page/tabitem/b;->g(Lcom/huawei/appmarket/sa2;)Lcom/huawei/page/tabitem/c;
+    invoke-virtual {p0, p1}, Lcom/huawei/page/tabitem/b;->g(Lcom/huawei/appmarket/va2;)Lcom/huawei/page/tabitem/c;
 
     .line 4
     .line 5
@@ -971,13 +928,9 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method protected abstract g(Lcom/huawei/appmarket/sa2;)Lcom/huawei/page/tabitem/c;
+.method protected abstract g(Lcom/huawei/appmarket/va2;)Lcom/huawei/page/tabitem/c;
 .end method
 
 .method public final h(Ljava/lang/String;)V
@@ -989,7 +942,7 @@
     return-void
 .end method
 
-.method public final setData(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;)V
+.method public final setData(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;)V
     .registers 5
 
     .line 1
@@ -997,7 +950,7 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/j21;->setData(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/j21;->setData(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;)V
 
     .line 4
     .line 5
@@ -1027,7 +980,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/j21;->getChildAt(I)Lcom/huawei/appmarket/pa2;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/j21;->getChildAt(I)Lcom/huawei/appmarket/sa2;
 
     .line 19
     .line 20
@@ -1043,7 +996,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, p1, p2}, Lcom/huawei/page/tabitem/c;->b(ILcom/huawei/appmarket/pa2;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/page/tabitem/c;->b(ILcom/huawei/appmarket/sa2;)V
 
     .line 27
     .line 28
@@ -1086,7 +1039,7 @@
 
     .line 47
     .line 48
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -1129,7 +1082,7 @@
     move-result-object p1
 
     .line 69
-    invoke-static {p1}, Lcom/huawei/appmarket/hu7;->a(Ljava/lang/String;)Lcom/huawei/appmarket/gu7;
+    invoke-static {p1}, Lcom/huawei/appmarket/nu7;->a(Ljava/lang/String;)Lcom/huawei/appmarket/mu7;
 
     .line 70
     .line 71
@@ -1137,7 +1090,7 @@
     move-result-object p1
 
     .line 73
-    iput-object p1, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/gu7;
+    iput-object p1, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/mu7;
 
     .line 74
     .line 75
@@ -1158,7 +1111,7 @@
     .line 82
     .line 83
     .line 84
-    invoke-virtual {p1, p0, p2}, Lcom/huawei/appmarket/gu7;->e(Ljava/lang/Object;Lcom/huawei/appmarket/gu7$a;)V
+    invoke-virtual {p1, p0, p2}, Lcom/huawei/appmarket/mu7;->e(Ljava/lang/Object;Lcom/huawei/appmarket/mu7$a;)V
 
     .line 85
     .line 86
@@ -1598,62 +1551,19 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method public final unbind(Lcom/huawei/appmarket/sa2;)V
+.method public final unbind(Lcom/huawei/appmarket/va2;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/j21;->unbind(Lcom/huawei/appmarket/sa2;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/j21;->unbind(Lcom/huawei/appmarket/va2;)V
 
-    iget-object p1, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/gu7;
+    iget-object p1, p0, Lcom/huawei/page/tabitem/b;->s:Lcom/huawei/appmarket/mu7;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gu7;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mu7;->f()V
 
     :cond_0
     return-void

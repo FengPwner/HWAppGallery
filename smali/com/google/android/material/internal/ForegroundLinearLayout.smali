@@ -70,7 +70,7 @@
 
     iput-boolean v1, p0, Lcom/google/android/material/internal/ForegroundLinearLayout;->g:Z
 
-    sget-object v4, Lcom/huawei/appmarket/ie6;->u:[I
+    sget-object v4, Lcom/huawei/appmarket/ke6;->u:[I
 
     const/4 v6, 0x0
 
@@ -82,7 +82,7 @@
 
     move v5, p3
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 

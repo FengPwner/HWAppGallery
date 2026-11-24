@@ -28,7 +28,7 @@
 
     .line 4
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->b()I
 
     .line 5
     .line 6
@@ -36,7 +36,7 @@
     move-result p1
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/co1;->d()I
 
     .line 9
     .line 10
@@ -87,7 +87,7 @@
 
     .line 29
     .line 30
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -231,7 +231,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public static b()Z
@@ -246,7 +245,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 6
     .line 7
@@ -258,16 +257,16 @@
 
     .line 10
     .line 11
-    new-instance v0, Lcom/huawei/appmarket/xr6$b;
+    new-instance v0, Lcom/huawei/appmarket/as6$b;
 
     .line 12
     .line 13
-    invoke-direct {v0}, Lcom/huawei/appmarket/xr6$b;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/as6$b;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 17
     .line 18
@@ -275,12 +274,12 @@
     move-result v1
 
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xr6$b;->f(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/as6$b;->f(I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -288,7 +287,7 @@
     move-result-object v1
 
     .line 27
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xr6$b;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/as6$b;->e(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -296,12 +295,12 @@
     const/4 v1, 0x1
 
     .line 31
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xr6$b;->b(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/as6$b;->b(Z)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xr6$b;->a()Lcom/huawei/appmarket/xr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/as6$b;->a()Lcom/huawei/appmarket/as6;
 
     .line 35
     .line 36
@@ -313,11 +312,11 @@
 
     .line 39
     .line 40
-    const-class v3, Lcom/huawei/appmarket/nr3;
+    const-class v3, Lcom/huawei/appmarket/pr3;
 
     .line 41
     .line 42
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -325,11 +324,11 @@
     move-result-object v2
 
     .line 46
-    check-cast v2, Lcom/huawei/appmarket/nr3;
+    check-cast v2, Lcom/huawei/appmarket/pr3;
 
     .line 47
     .line 48
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/nr3;->a(Lcom/huawei/appmarket/xr6;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/pr3;->a(Lcom/huawei/appmarket/as6;)Lcom/huawei/appmarket/nv7;
 
     .line 49
     .line 50
@@ -348,7 +347,7 @@
 
     .line 56
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 57
     .line 58
@@ -376,7 +375,7 @@
 
     .line 68
     .line 69
-    invoke-static {v2, v0, v4, v3}, Lcom/huawei/appmarket/vw7;->i(ILcom/huawei/appmarket/qz0;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v0, v4, v3}, Lcom/huawei/appmarket/ci7;->j(ILcom/huawei/appmarket/qz0;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -600,7 +599,7 @@
 
     const-string v1, "button or percentage is null"
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method
@@ -619,14 +618,14 @@
 
     const-string p1, "context is null"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    new-instance v1, Lcom/huawei/appmarket/nc6;
+    new-instance v1, Lcom/huawei/appmarket/pc6;
 
-    invoke-direct {v1, v0, p1}, Lcom/huawei/appmarket/nc6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v1, v0, p1}, Lcom/huawei/appmarket/pc6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     const-string v2, "blue"
 
@@ -662,19 +661,19 @@
 
     invoke-direct {v2, v0, p1, v3, v1}, Lcom/huawei/appmarket/ab0;-><init>(Landroid/content/Context;III)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/td1;)V
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/td1;)V
 
     :goto_0
     const/4 p1, 0x1
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setIsImmersion(Z)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     return-void
 .end method

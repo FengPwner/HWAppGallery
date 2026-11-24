@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ge8;->p(Landroid/os/Handler$Callback;)Landroid/os/Handler;
+    invoke-static {p0}, Lcom/huawei/appmarket/le8;->p(Landroid/os/Handler$Callback;)Landroid/os/Handler;
 
     move-result-object p1
 
@@ -96,7 +96,7 @@
     .registers 6
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x1e
 
@@ -156,7 +156,7 @@
 
     .line 10
     .line 11
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 12
     .line 13

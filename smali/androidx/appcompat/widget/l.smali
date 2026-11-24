@@ -312,7 +312,7 @@
     .registers 10
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/ys8;
+    instance-of v0, p1, Lcom/huawei/appmarket/et8;
 
     .line 2
     .line 3
@@ -323,11 +323,11 @@
     move-object v0, p1
 
     .line 6
-    check-cast v0, Lcom/huawei/appmarket/ys8;
+    check-cast v0, Lcom/huawei/appmarket/et8;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Lcom/huawei/appmarket/ys8;->a()Landroid/graphics/drawable/Drawable;
+    invoke-interface {v0}, Lcom/huawei/appmarket/et8;->a()Landroid/graphics/drawable/Drawable;
 
     .line 9
     .line 10
@@ -347,7 +347,7 @@
     move-result-object p2
 
     .line 18
-    invoke-interface {v0, p2}, Lcom/huawei/appmarket/ys8;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {v0, p2}, Lcom/huawei/appmarket/et8;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 19
     .line 20

@@ -68,7 +68,7 @@
 
     new-instance p2, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$d;
 
-    invoke-direct {p2, p1}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$d;-><init>(Lcom/huawei/appmarket/pt3;)V
+    invoke-direct {p2, p1}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$d;-><init>(Lcom/huawei/appmarket/rt3;)V
 
     iput-object p2, p0, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f;->f:Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$d;
 
@@ -311,7 +311,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f;->e:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -420,7 +420,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -560,7 +560,7 @@
 
     const-string p2, "error holder"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_9
     :goto_6
@@ -634,7 +634,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 34
     .line 35
@@ -670,7 +670,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 51
     .line 52
@@ -752,7 +752,7 @@
 
     .line 90
     .line 91
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 92
     .line 93
@@ -830,7 +830,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -849,7 +848,7 @@
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f;->h:Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result v0
 

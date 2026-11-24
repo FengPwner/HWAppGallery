@@ -216,7 +216,7 @@
     .line 8
     if-eqz p0, :cond_0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/gi7;->i(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/mi7;->i(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
 
     move-result-object p0
 
@@ -422,7 +422,7 @@
     .line 3
     if-eqz p0, :cond_0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/gi7;->h(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/mi7;->h(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
 
     move-result-object p0
 

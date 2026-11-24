@@ -81,7 +81,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXStateJumpUrlInfo;->jumpUrl:Ljava/lang/String;
 
-    const-string v1, "wx_state_jump_url"
+    const-string/jumbo v1, "wx_state_jump_url"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -99,7 +99,7 @@
 .method public unserialize(Landroid/os/Bundle;)V
     .registers 4
 
-    const-string v0, "wx_state_jump_url"
+    const-string/jumbo v0, "wx_state_jump_url"
 
     const-string v1, ""
 

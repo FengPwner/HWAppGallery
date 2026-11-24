@@ -105,7 +105,7 @@
 
     .line 34
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     .line 35
     .line 36
@@ -121,7 +121,7 @@
     move-result-object v4
 
     .line 42
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/e93;->i(Ljava/util/HashSet;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/h93;->i(Ljava/util/HashSet;)V
 
     .line 43
     .line 44
@@ -163,7 +163,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-static {}, Lcom/huawei/appmarket/zj8;->b()Lcom/huawei/appmarket/zj8;
+    invoke-static {}, Lcom/huawei/appmarket/fk8;->b()Lcom/huawei/appmarket/fk8;
 
     .line 67
     .line 68
@@ -171,12 +171,12 @@
     move-result-object v4
 
     .line 70
-    invoke-virtual {v4, v1, v3}, Lcom/huawei/appmarket/zj8;->d(ILjava/util/HashSet;)V
+    invoke-virtual {v4, v1, v3}, Lcom/huawei/appmarket/fk8;->d(ILjava/util/HashSet;)V
 
     .line 71
     .line 72
     .line 73
-    sget-object v3, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88$a;
+    sget-object v3, Lcom/huawei/appmarket/j88;->a:Lcom/huawei/appmarket/j88$a;
 
     .line 74
     .line 75
@@ -193,12 +193,12 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/e88$a;->b(Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;Ljava/util/List;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j88$a;->b(Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;Ljava/util/List;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-static {}, Lcom/huawei/appmarket/kx6;->b()Lcom/huawei/appmarket/kx6;
+    invoke-static {}, Lcom/huawei/appmarket/ox6;->b()Lcom/huawei/appmarket/ox6;
 
     .line 86
     .line 87
@@ -210,12 +210,12 @@
 
     .line 90
     .line 91
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/kx6;->f(Ljava/util/List;)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/ox6;->f(Ljava/util/List;)V
 
     .line 92
     .line 93
     .line 94
-    sget-object p1, Lcom/huawei/appmarket/t28;->a:Lcom/huawei/appmarket/t28;
+    sget-object p1, Lcom/huawei/appmarket/z28;->a:Lcom/huawei/appmarket/z28;
 
     .line 95
     .line 96
@@ -228,7 +228,7 @@
     .line 99
     .line 100
     .line 101
-    invoke-static {v3}, Lcom/huawei/appmarket/t28;->b(Ljava/util/List;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/z28;->b(Ljava/util/List;)V
 
     .line 102
     .line 103
@@ -281,7 +281,7 @@
 
     .line 129
     .line 130
-    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
     .line 131
     .line 132
@@ -290,12 +290,12 @@
 
     .line 134
     .line 135
-    invoke-static {}, Lcom/huawei/appmarket/p57;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/u57;->e()V
 
     .line 136
     .line 137
     .line 138
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     .line 139
     .line 140
@@ -303,7 +303,7 @@
     move-result-object p1
 
     .line 142
-    invoke-virtual {p1}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o82;->f()V
 
     .line 143
     .line 144
@@ -334,7 +334,7 @@
     .line 154
     .line 155
     .line 156
-    invoke-static {}, Lcom/huawei/appmarket/bk5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/dk5;->d()I
 
     .line 157
     .line 158
@@ -356,7 +356,7 @@
 
     .line 166
     .line 167
-    invoke-static {p1}, Lcom/huawei/appmarket/bk5;->e(I)Landroid/util/Pair;
+    invoke-static {p1}, Lcom/huawei/appmarket/dk5;->e(I)Landroid/util/Pair;
 
     .line 168
     .line 169
@@ -378,7 +378,7 @@
     .line 177
     .line 178
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/dt7;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/jt7;->a()V
 
     .line 179
     .line 180
@@ -387,7 +387,7 @@
 
     .line 182
     .line 183
-    invoke-static {p1}, Lcom/huawei/appmarket/i27;->b(Ljava/util/List;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/m27;->b(Ljava/util/List;)V
 
     .line 184
     .line 185
@@ -494,7 +494,7 @@
 
     .line 239
     .line 240
-    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -528,7 +528,7 @@
 
     .line 252
     .line 253
-    invoke-virtual {p0, p1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 254
     .line 255
@@ -548,7 +548,7 @@
     const/4 p1, 0x0
 
     .line 263
-    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
     .line 264
     .line 265
@@ -801,7 +801,7 @@
     .line 489
 .end method
 
-.method static b(Lcom/huawei/appmarket/rb;Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;Lcom/huawei/appmarket/lw7;)V
+.method static b(Lcom/huawei/appmarket/rb;Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;Lcom/huawei/appmarket/rw7;)V
     .registers 20
 
     move-object/from16 v0, p2
@@ -831,7 +831,7 @@
 
     const-string v4, "CollaborativeKill response ok!"
 
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     instance-of v2, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;
 
@@ -851,7 +851,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v3
 
@@ -863,13 +863,13 @@
 
     const-string v4, "DeviceInstallationInfos"
 
-    const-class v5, Lcom/huawei/appmarket/yh3;
+    const-class v5, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/yh3;
+    check-cast v4, Lcom/huawei/appmarket/ai3;
 
     invoke-virtual {v2}, Lcom/huawei/appgallery/agguard/business/bean/AgGuardRiskCheckRequest;->getApps()Ljava/util/List;
 
@@ -908,11 +908,11 @@
 
     move-result-object v8
 
-    invoke-static {v8, v7}, Lcom/huawei/appmarket/cu5;->d(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v8, v7}, Lcom/huawei/appmarket/eu5;->d(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v7
 
-    invoke-static {v4, v7}, Lcom/huawei/appmarket/gd;->j(Lcom/huawei/appmarket/yh3;Landroid/content/pm/PackageInfo;)Z
+    invoke-static {v4, v7}, Lcom/huawei/appmarket/gd;->j(Lcom/huawei/appmarket/ai3;Landroid/content/pm/PackageInfo;)Z
 
     move-result v7
 
@@ -943,7 +943,7 @@
     invoke-static {v4}, Lcom/huawei/appmarket/fe;->f(Ljava/util/HashSet;)V
 
     .line 6
-    sget-object v4, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88$a;
+    sget-object v4, Lcom/huawei/appmarket/j88;->a:Lcom/huawei/appmarket/j88$a;
 
     invoke-virtual {v2}, Lcom/huawei/appgallery/agguard/business/bean/AgGuardRiskCheckRequest;->getApps()Ljava/util/List;
 
@@ -951,13 +951,13 @@
 
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0, v5}, Lcom/huawei/appmarket/e88$a;->b(Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;Ljava/util/List;)V
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/j88$a;->b(Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;Ljava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/e93;->i(Ljava/util/HashSet;)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/h93;->i(Ljava/util/HashSet;)V
 
     :cond_2
     iget v3, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->enable:I
@@ -970,21 +970,21 @@
 
     invoke-static {}, Lcom/huawei/appmarket/fe;->e()V
 
-    invoke-static {}, Lcom/huawei/appmarket/kx6;->b()Lcom/huawei/appmarket/kx6;
+    invoke-static {}, Lcom/huawei/appmarket/ox6;->b()Lcom/huawei/appmarket/ox6;
 
     move-result-object v3
 
     iget-object v4, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->riskConfigs:Ljava/util/List;
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/kx6;->f(Ljava/util/List;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/ox6;->f(Ljava/util/List;)V
 
-    sget-object v3, Lcom/huawei/appmarket/t28;->a:Lcom/huawei/appmarket/t28;
+    sget-object v3, Lcom/huawei/appmarket/z28;->a:Lcom/huawei/appmarket/z28;
 
     iget-object v4, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->riskConfigs:Ljava/util/List;
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v4}, Lcom/huawei/appmarket/t28;->b(Ljava/util/List;)V
+    invoke-static {v4}, Lcom/huawei/appmarket/z28;->b(Ljava/util/List;)V
 
     sget-object v3, Lcom/huawei/appmarket/he;->a:Lcom/huawei/appmarket/he;
 
@@ -1014,7 +1014,7 @@
 
     move-result v5
 
-    invoke-static {v5}, Lcom/huawei/appmarket/i27;->a(I)Ljava/util/List;
+    invoke-static {v5}, Lcom/huawei/appmarket/m27;->a(I)Ljava/util/List;
 
     move-result-object v5
 
@@ -1046,7 +1046,7 @@
     :goto_1
     iget-object v7, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->riskApps:Ljava/util/List;
 
-    invoke-static {v7}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -1091,7 +1091,7 @@
 
     move-result v13
 
-    invoke-static {v12, v4, v5, v13, v6}, Lcom/huawei/appmarket/i27;->c(Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;Ljava/util/ArrayList;Ljava/util/List;ILandroid/util/SparseIntArray;)Lcom/huawei/appgallery/agguard/api/bean/AgGuardVirusInfo;
+    invoke-static {v12, v4, v5, v13, v6}, Lcom/huawei/appmarket/m27;->c(Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;Ljava/util/ArrayList;Ljava/util/List;ILandroid/util/SparseIntArray;)Lcom/huawei/appgallery/agguard/api/bean/AgGuardVirusInfo;
 
     move-result-object v13
 
@@ -1132,7 +1132,7 @@
     invoke-virtual {v7, v12}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/i25;->b()Lcom/huawei/appmarket/i25;
+    invoke-static {}, Lcom/huawei/appmarket/l25;->b()Lcom/huawei/appmarket/l25;
 
     move-result-object v2
 
@@ -1140,18 +1140,18 @@
 
     iget v12, v12, Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;->versionCode:I
 
-    invoke-virtual {v2, v12, v13}, Lcom/huawei/appmarket/i25;->f(ILjava/lang/String;)V
+    invoke-virtual {v2, v12, v13}, Lcom/huawei/appmarket/l25;->f(ILjava/lang/String;)V
 
     move-object/from16 v2, p1
 
     goto :goto_2
 
     :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/zj8;->b()Lcom/huawei/appmarket/zj8;
+    invoke-static {}, Lcom/huawei/appmarket/fk8;->b()Lcom/huawei/appmarket/fk8;
 
     move-result-object v2
 
-    invoke-virtual {v2, v8, v10}, Lcom/huawei/appmarket/zj8;->d(ILjava/util/HashSet;)V
+    invoke-virtual {v2, v8, v10}, Lcom/huawei/appmarket/fk8;->d(ILjava/util/HashSet;)V
 
     new-instance v2, Ljava/util/ArrayList;
 
@@ -1193,22 +1193,22 @@
 
     invoke-virtual {v2, v7}, Lcom/huawei/appmarket/hf;->g(Ljava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     move-result-object v2
 
     iget-object v4, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->unknownApps:Ljava/util/List;
 
-    invoke-virtual {v2, v7, v4}, Lcom/huawei/appmarket/e93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
+    invoke-virtual {v2, v7, v4}, Lcom/huawei/appmarket/h93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
 
     :cond_8
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
 
-    invoke-virtual/range {p3 .. p3}, Lcom/huawei/appmarket/lw7;->d()V
+    invoke-virtual/range {p3 .. p3}, Lcom/huawei/appmarket/rw7;->d()V
 
     iget-object v1, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->riskApps:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -1216,7 +1216,7 @@
 
     iget-object v1, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->unknownApps:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -1231,32 +1231,32 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
     iget-object v1, v0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->riskApps:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
     if-nez v1, :cond_a
 
-    invoke-static {}, Lcom/huawei/appmarket/p57;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/u57;->e()V
 
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o82;->f()V
 
     :cond_a
-    invoke-static {}, Lcom/huawei/appmarket/cb7;->a()Lcom/huawei/appmarket/cb7;
+    invoke-static {}, Lcom/huawei/appmarket/hb7;->a()Lcom/huawei/appmarket/hb7;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/cb7;->b()Ljava/lang/Boolean;
+    invoke-static {}, Lcom/huawei/appmarket/hb7;->b()Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -1293,7 +1293,7 @@
     invoke-direct {v0, v2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
     :goto_6
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/lw7;->e(Ljava/lang/Exception;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/rw7;->e(Ljava/lang/Exception;)V
 
     goto :goto_7
 
@@ -1331,7 +1331,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/z63;->a(ILjava/lang/String;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/c73;->a(ILjava/lang/String;)Z
 
     move-result v0
 
@@ -1343,7 +1343,7 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/i25;->b()Lcom/huawei/appmarket/i25;
+    invoke-static {}, Lcom/huawei/appmarket/l25;->b()Lcom/huawei/appmarket/l25;
 
     move-result-object v1
 
@@ -1351,7 +1351,7 @@
 
     iget v3, p0, Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;->versionCode:I
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/i25;->d(ILjava/lang/String;)Z
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/l25;->d(ILjava/lang/String;)Z
 
     move-result v1
 
@@ -1365,7 +1365,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appmarket/gd;->m(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/i25;->b()Lcom/huawei/appmarket/i25;
+    invoke-static {}, Lcom/huawei/appmarket/l25;->b()Lcom/huawei/appmarket/l25;
 
     move-result-object v0
 
@@ -1373,7 +1373,7 @@
 
     iget v2, p0, Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;->versionCode:I
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/i25;->c(ILjava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/l25;->c(ILjava/lang/String;)V
 
     iget-object p0, p0, Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;->pkgName:Ljava/lang/String;
 
@@ -1482,13 +1482,13 @@
 
     invoke-virtual {p0, v1}, Lcom/huawei/appmarket/hf;->g(Ljava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     move-result-object p0
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v1, v2}, Lcom/huawei/appmarket/e93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
+    invoke-virtual {p0, v1, v2}, Lcom/huawei/appmarket/h93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
 
     :cond_3
     :goto_0
@@ -1503,7 +1503,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 4
     .line 5
@@ -1709,7 +1709,7 @@
     .line 104
     .line 105
     .line 106
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     .line 107
     .line 108
@@ -1721,7 +1721,7 @@
 
     .line 111
     .line 112
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/e93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/h93;->h(Ljava/util/ArrayList;Ljava/util/List;)V
 
     .line 113
     .line 114
@@ -1905,6 +1905,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private static f(Ljava/util/HashSet;Ljava/util/HashSet;Lcom/huawei/appgallery/agguard/business/bean/VirusInfo;)V
@@ -1965,7 +1972,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p0, p2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -2018,7 +2025,7 @@
 
     .line 54
     .line 55
-    invoke-static {v0}, Lcom/huawei/appmarket/p57;->a(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/u57;->a(Ljava/lang/String;)Z
 
     .line 56
     .line 57
@@ -2049,7 +2056,7 @@
     const/4 v1, 0x0
 
     .line 69
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/z63;->a(ILjava/lang/String;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/c73;->a(ILjava/lang/String;)Z
 
     .line 70
     .line 71
@@ -2147,7 +2154,7 @@
 
     .line 115
     .line 116
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -2167,7 +2174,7 @@
 
     .line 124
     .line 125
-    invoke-static {p1, p0, v0, v3}, Lcom/huawei/appmarket/z84;->x(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, p0, v0, v3}, Lcom/huawei/appmarket/tr2;->w(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 126
     .line 127
@@ -2342,6 +2349,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public static g()Lcom/huawei/appmarket/rb;
@@ -2392,7 +2406,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/bean/RiskCheckResponseBean;->notifyConfigs:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -2472,7 +2486,7 @@
 
 
 # virtual methods
-.method public final i(Ljava/util/ArrayList;IIILcom/huawei/appmarket/x64;)V
+.method public final i(Ljava/util/ArrayList;IIILcom/huawei/appmarket/a74;)V
     .registers 10
 
     .line 1
@@ -2516,7 +2530,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -2568,7 +2582,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -2577,12 +2591,12 @@
 
     .line 50
     .line 51
-    invoke-direct {v1, p0, p4, p5}, Lcom/huawei/appmarket/pb;-><init>(Lcom/huawei/appmarket/rb;ILcom/huawei/appmarket/x64;)V
+    invoke-direct {v1, p0, p4, p5}, Lcom/huawei/appmarket/pb;-><init>(Lcom/huawei/appmarket/rb;ILcom/huawei/appmarket/a74;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 55
     .line 56

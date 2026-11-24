@@ -17,7 +17,7 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .registers 4
 
-    invoke-static {p2}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 

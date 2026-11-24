@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # annotations
@@ -17,8 +17,8 @@
 # instance fields
 .field private request:Lcom/huawei/appmarket/service/appdetail/view/AppCategoryFragmentProtocol$Request;
 
-.field private subCategoryFragmentStub:Lcom/huawei/appmarket/pr2;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+.field private subCategoryFragmentStub:Lcom/huawei/appmarket/rr2;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "appsubcategory.fragment"
     .end annotation
 .end field
@@ -44,11 +44,11 @@
     return-object v0
 .end method
 
-.method public final b()Lcom/huawei/appmarket/pr2;
+.method public final b()Lcom/huawei/appmarket/rr2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/appdetail/view/AppCategoryFragmentProtocol;->subCategoryFragmentStub:Lcom/huawei/appmarket/pr2;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/appdetail/view/AppCategoryFragmentProtocol;->subCategoryFragmentStub:Lcom/huawei/appmarket/rr2;
 
     return-object v0
 .end method

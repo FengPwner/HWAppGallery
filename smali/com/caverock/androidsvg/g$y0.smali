@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public final h(Lcom/caverock/androidsvg/g$n0;)V
+.method public final g(Lcom/caverock/androidsvg/g$n0;)V
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {

@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method private static a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+.method private static a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
     .registers 5
 
     .line 1
@@ -23,11 +23,11 @@
     return p0
 
     :cond_0
-    iget-object v0, p1, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v0, p1, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
-    sget-object v1, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v1, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget p1, p1, Lcom/huawei/appmarket/jc9;->a:F
+    iget p1, p1, Lcom/huawei/appmarket/qc9;->a:F
 
     if-ne v0, v1, :cond_1
 
@@ -43,7 +43,7 @@
     return p0
 .end method
 
-.method public static b(Lcom/huawei/appmarket/zc9;Lcom/huawei/appmarket/ac9;)F
+.method public static b(Lcom/huawei/appmarket/gd9;Lcom/huawei/appmarket/hc9;)F
     .registers 5
 
     .line 1
@@ -80,7 +80,7 @@
     return v1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zc9;->e()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gd9;->e()F
 
     move-result p1
 
@@ -93,9 +93,9 @@
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/zc9;Lcom/huawei/appmarket/ac9;)F
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/gd9;Lcom/huawei/appmarket/hc9;)F
 
     move-result p1
 
@@ -103,7 +103,7 @@
     return p1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zc9;->i()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gd9;->i()F
 
     move-result p1
 
@@ -116,9 +116,9 @@
     goto :goto_1
 
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/zc9;Lcom/huawei/appmarket/ac9;)F
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/gd9;Lcom/huawei/appmarket/hc9;)F
 
     move-result p1
 
@@ -126,7 +126,7 @@
     return p1
 
     :cond_4
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zc9;->k()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gd9;->k()F
 
     move-result p1
 
@@ -139,9 +139,9 @@
     goto :goto_2
 
     :cond_5
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/zc9;Lcom/huawei/appmarket/ac9;)F
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/gd9;Lcom/huawei/appmarket/hc9;)F
 
     move-result p1
 
@@ -149,7 +149,7 @@
     return p1
 
     :cond_6
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zc9;->g()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gd9;->g()F
 
     move-result p1
 
@@ -162,9 +162,9 @@
     goto :goto_3
 
     :cond_7
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/zc9;Lcom/huawei/appmarket/ac9;)F
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->b(Lcom/huawei/appmarket/gd9;Lcom/huawei/appmarket/hc9;)F
 
     move-result p1
 
@@ -172,7 +172,7 @@
     return p1
 
     :cond_8
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gd9;->c()F
 
     move-result p0
 
@@ -207,7 +207,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p1}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/zc9;
+    invoke-virtual {p1}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/gd9;
 
     .line 11
     .line 12
@@ -226,7 +226,7 @@
 
     .line 18
     :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zc9;->b()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gd9;->b()Z
 
     .line 19
     .line 20
@@ -238,7 +238,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zc9;->g()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gd9;->g()F
 
     .line 25
     .line 26
@@ -250,7 +250,7 @@
 
     .line 29
     :cond_2
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 30
     .line 31
@@ -763,52 +763,9 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method private static d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+.method private static d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
     .registers 3
 
     .line 1
@@ -845,7 +802,7 @@
     return-object p0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomLeft()Lcom/huawei/appmarket/jc9;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomLeft()Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -854,9 +811,9 @@
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -864,7 +821,7 @@
     return-object p1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomRight()Lcom/huawei/appmarket/jc9;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomRight()Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -873,9 +830,9 @@
     goto :goto_1
 
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -883,7 +840,7 @@
     return-object p1
 
     :cond_4
-    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopRight()Lcom/huawei/appmarket/jc9;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopRight()Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -892,9 +849,9 @@
     goto :goto_2
 
     :cond_5
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -902,7 +859,7 @@
     return-object p1
 
     :cond_6
-    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopLeft()Lcom/huawei/appmarket/jc9;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopLeft()Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -911,9 +868,9 @@
     goto :goto_3
 
     :cond_7
-    sget-object p1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object p1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
-    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p0, p1}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     move-result-object p1
 
@@ -921,7 +878,7 @@
     return-object p1
 
     :cond_8
-    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getAllRadius()Lcom/huawei/appmarket/jc9;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getAllRadius()Lcom/huawei/appmarket/qc9;
 
     move-result-object p0
 
@@ -943,23 +900,23 @@
     return-object v1
 
     :cond_0
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopLeft()Lcom/huawei/appmarket/jc9;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopLeft()Lcom/huawei/appmarket/qc9;
 
     move-result-object v2
 
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopRight()Lcom/huawei/appmarket/jc9;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getTopRight()Lcom/huawei/appmarket/qc9;
 
     move-result-object v3
 
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomLeft()Lcom/huawei/appmarket/jc9;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomLeft()Lcom/huawei/appmarket/qc9;
 
     move-result-object v4
 
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomRight()Lcom/huawei/appmarket/jc9;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getBottomRight()Lcom/huawei/appmarket/qc9;
 
     move-result-object v5
 
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getAllRadius()Lcom/huawei/appmarket/jc9;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/framework/border/BorderRadius;->getAllRadius()Lcom/huawei/appmarket/qc9;
 
     move-result-object v6
 
@@ -975,11 +932,11 @@
 
     if-eqz v6, :cond_3
 
-    sget-object v10, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget v11, v6, Lcom/huawei/appmarket/jc9;->a:F
+    iget v11, v6, Lcom/huawei/appmarket/qc9;->a:F
 
-    iget-object v6, v6, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v6, v6, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
     if-ne v6, v10, :cond_1
 
@@ -1001,7 +958,7 @@
     goto :goto_1
 
     :cond_1
-    sget-object v10, Lcom/huawei/appmarket/ub9;->e:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->e:Lcom/huawei/appmarket/bc9;
 
     if-ne v6, v10, :cond_2
 
@@ -1028,11 +985,11 @@
     :goto_1
     if-eqz v2, :cond_6
 
-    sget-object v10, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget v12, v2, Lcom/huawei/appmarket/jc9;->a:F
+    iget v12, v2, Lcom/huawei/appmarket/qc9;->a:F
 
-    iget-object v2, v2, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v2, v2, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
     if-ne v2, v10, :cond_4
 
@@ -1054,7 +1011,7 @@
     goto :goto_3
 
     :cond_4
-    sget-object v10, Lcom/huawei/appmarket/ub9;->e:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->e:Lcom/huawei/appmarket/bc9;
 
     if-ne v2, v10, :cond_5
 
@@ -1081,11 +1038,11 @@
     :goto_3
     if-eqz v3, :cond_9
 
-    sget-object v10, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget v13, v3, Lcom/huawei/appmarket/jc9;->a:F
+    iget v13, v3, Lcom/huawei/appmarket/qc9;->a:F
 
-    iget-object v3, v3, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v3, v3, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
     if-ne v3, v10, :cond_7
 
@@ -1107,7 +1064,7 @@
     goto :goto_5
 
     :cond_7
-    sget-object v10, Lcom/huawei/appmarket/ub9;->e:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->e:Lcom/huawei/appmarket/bc9;
 
     if-ne v3, v10, :cond_8
 
@@ -1134,11 +1091,11 @@
     :goto_5
     if-eqz v4, :cond_c
 
-    sget-object v10, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget v14, v4, Lcom/huawei/appmarket/jc9;->a:F
+    iget v14, v4, Lcom/huawei/appmarket/qc9;->a:F
 
-    iget-object v4, v4, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v4, v4, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
     if-ne v4, v10, :cond_a
 
@@ -1160,7 +1117,7 @@
     goto :goto_7
 
     :cond_a
-    sget-object v10, Lcom/huawei/appmarket/ub9;->e:Lcom/huawei/appmarket/ub9;
+    sget-object v10, Lcom/huawei/appmarket/bc9;->e:Lcom/huawei/appmarket/bc9;
 
     if-ne v4, v10, :cond_b
 
@@ -1187,11 +1144,11 @@
     :goto_7
     if-eqz v5, :cond_f
 
-    sget-object v6, Lcom/huawei/appmarket/ub9;->d:Lcom/huawei/appmarket/ub9;
+    sget-object v6, Lcom/huawei/appmarket/bc9;->d:Lcom/huawei/appmarket/bc9;
 
-    iget v11, v5, Lcom/huawei/appmarket/jc9;->a:F
+    iget v11, v5, Lcom/huawei/appmarket/qc9;->a:F
 
-    iget-object v5, v5, Lcom/huawei/appmarket/jc9;->b:Lcom/huawei/appmarket/ub9;
+    iget-object v5, v5, Lcom/huawei/appmarket/qc9;->b:Lcom/huawei/appmarket/bc9;
 
     if-ne v5, v6, :cond_d
 
@@ -1208,7 +1165,7 @@
     goto :goto_8
 
     :cond_d
-    sget-object v6, Lcom/huawei/appmarket/ub9;->e:Lcom/huawei/appmarket/ub9;
+    sget-object v6, Lcom/huawei/appmarket/bc9;->e:Lcom/huawei/appmarket/bc9;
 
     if-ne v5, v6, :cond_e
 
@@ -1388,11 +1345,11 @@
 
     .line 21
     .line 22
-    sget-object v2, Lcom/huawei/appmarket/ac9;->b:Lcom/huawei/appmarket/ac9;
+    sget-object v2, Lcom/huawei/appmarket/hc9;->b:Lcom/huawei/appmarket/hc9;
 
     .line 23
     .line 24
-    invoke-static {p1, v2}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p1, v2}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     .line 25
     .line 26
@@ -1408,7 +1365,7 @@
     move-result v2
 
     .line 32
-    invoke-static {p0, p1, v2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, p1, v2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 33
     .line 34
@@ -1424,7 +1381,7 @@
     move-result p2
 
     .line 40
-    invoke-static {p0, p1, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, p1, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 41
     .line 42
@@ -1466,11 +1423,11 @@
 
     .line 58
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/ac9;->b:Lcom/huawei/appmarket/ac9;
+    sget-object v0, Lcom/huawei/appmarket/hc9;->b:Lcom/huawei/appmarket/hc9;
 
     .line 59
     .line 60
-    invoke-static {p1, v0}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p1, v0}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     .line 61
     .line 62
@@ -1478,11 +1435,11 @@
     move-result-object v0
 
     .line 64
-    sget-object v2, Lcom/huawei/appmarket/ac9;->c:Lcom/huawei/appmarket/ac9;
+    sget-object v2, Lcom/huawei/appmarket/hc9;->c:Lcom/huawei/appmarket/hc9;
 
     .line 65
     .line 66
-    invoke-static {p1, v2}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p1, v2}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     .line 67
     .line 68
@@ -1490,11 +1447,11 @@
     move-result-object v2
 
     .line 70
-    sget-object v4, Lcom/huawei/appmarket/ac9;->d:Lcom/huawei/appmarket/ac9;
+    sget-object v4, Lcom/huawei/appmarket/hc9;->d:Lcom/huawei/appmarket/hc9;
 
     .line 71
     .line 72
-    invoke-static {p1, v4}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p1, v4}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     .line 73
     .line 74
@@ -1502,11 +1459,11 @@
     move-result-object v4
 
     .line 76
-    sget-object v5, Lcom/huawei/appmarket/ac9;->e:Lcom/huawei/appmarket/ac9;
+    sget-object v5, Lcom/huawei/appmarket/hc9;->e:Lcom/huawei/appmarket/hc9;
 
     .line 77
     .line 78
-    invoke-static {p1, v5}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/ac9;)Lcom/huawei/appmarket/jc9;
+    invoke-static {p1, v5}, Lcom/huawei/quickcard/a;->d(Lcom/huawei/quickcard/framework/border/BorderRadius;Lcom/huawei/appmarket/hc9;)Lcom/huawei/appmarket/qc9;
 
     .line 79
     .line 80
@@ -1530,7 +1487,7 @@
     move-result p2
 
     .line 90
-    invoke-static {p0, v0, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v0, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 91
     .line 92
@@ -1542,7 +1499,7 @@
 
     .line 95
     .line 96
-    invoke-static {p0, v0, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v0, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 97
     .line 98
@@ -1557,7 +1514,7 @@
 
     .line 102
     .line 103
-    invoke-static {p0, v2, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v2, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 104
     .line 105
@@ -1572,7 +1529,7 @@
 
     .line 109
     .line 110
-    invoke-static {p0, v2, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v2, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 111
     .line 112
@@ -1587,7 +1544,7 @@
 
     .line 116
     .line 117
-    invoke-static {p0, v4, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v4, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 118
     .line 119
@@ -1602,7 +1559,7 @@
 
     .line 123
     .line 124
-    invoke-static {p0, v4, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, v4, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 125
     .line 126
@@ -1617,7 +1574,7 @@
 
     .line 130
     .line 131
-    invoke-static {p0, p1, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, p1, v5}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 132
     .line 133
@@ -1632,7 +1589,7 @@
 
     .line 137
     .line 138
-    invoke-static {p0, p1, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/jc9;F)F
+    invoke-static {p0, p1, p2}, Lcom/huawei/quickcard/a;->a(Landroid/view/View;Lcom/huawei/appmarket/qc9;F)F
 
     .line 139
     .line 140
@@ -2016,47 +1973,4 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method

@@ -36,7 +36,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method

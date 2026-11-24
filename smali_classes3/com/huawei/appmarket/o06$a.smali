@@ -1,57 +1,140 @@
 .class final Lcom/huawei/appmarket/o06$a;
-.super Lcom/huawei/appmarket/gm2;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Landroid/text/TextWatcher;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/o06;-><init>(Lcom/huawei/appmarket/im2;Lcom/huawei/appmarket/q06;)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/o06;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x2
+    name = "a"
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/im2;
+.field private b:Landroid/widget/EditText;
+
+.field private c:Ljava/lang/String;
+
+.field final synthetic d:Lcom/huawei/appmarket/o06;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/o06;Ljava/lang/String;Lcom/huawei/appmarket/im2;)V
+.method constructor <init>(Lcom/huawei/appmarket/o06;Landroid/widget/EditText;Ljava/lang/String;)V
     .registers 4
 
     .line 1
-    iput-object p3, p0, Lcom/huawei/appmarket/o06$a;->a:Lcom/huawei/appmarket/im2;
+    iput-object p1, p0, Lcom/huawei/appmarket/o06$a;->d:Lcom/huawei/appmarket/o06;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/gm2;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lcom/huawei/appmarket/o06$a;->b:Landroid/widget/EditText;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/o06$a;->c:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/Object;)F
-    .registers 2
+.method public final afterTextChanged(Landroid/text/Editable;)V
+    .registers 7
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/o06$a;->a:Lcom/huawei/appmarket/im2;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/im2;->a()F
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/huawei/appmarket/o06$a;->d:Lcom/huawei/appmarket/o06;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/o06;->a(Lcom/huawei/appmarket/o06;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    iget-object v1, p0, Lcom/huawei/appmarket/o06$a;->c:Ljava/lang/String;
+
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    invoke-static {v0}, Lcom/huawei/appmarket/o06;->b(Lcom/huawei/appmarket/o06;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/o06;->c(Lcom/huawei/appmarket/o06;)I
+
+    move-result v1
+
+    iget-object v2, p0, Lcom/huawei/appmarket/o06$a;->b:Landroid/widget/EditText;
+
+    const-string v3, ""
+
+    if-lez v1, :cond_1
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    invoke-static {v0}, Lcom/huawei/appmarket/o06;->c(Lcom/huawei/appmarket/o06;)I
+
+    move-result v4
+
+    if-le v1, v4, :cond_1
+
+    invoke-static {v0}, Lcom/huawei/appmarket/o06;->c(Lcom/huawei/appmarket/o06;)I
+
+    move-result v0
+
+    invoke-static {p1, v0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p1
 
-    return p1
+    invoke-virtual {v2, p1}, Landroid/widget/EditText;->setSelection(I)V
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_2
+    :goto_1
+    return-void
 .end method
 
-.method public final b(Ljava/lang/Object;F)V
-    .registers 3
+.method public final beforeTextChanged(Ljava/lang/CharSequence;III)V
+    .registers 5
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/o06$a;->a:Lcom/huawei/appmarket/im2;
+    return-void
+.end method
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/im2;->b(F)V
+.method public final onTextChanged(Ljava/lang/CharSequence;III)V
+    .registers 5
 
+    .line 1
     return-void
 .end method

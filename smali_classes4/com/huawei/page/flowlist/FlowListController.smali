@@ -7,16 +7,16 @@
 .method public abstract clear()V
 .end method
 
-.method public abstract getScroller()Lcom/huawei/appmarket/xs4;
+.method public abstract getScroller()Lcom/huawei/appmarket/at4;
 .end method
 
-.method public abstract load(Lcom/huawei/page/parser/FLListBundleLoader;)Lcom/huawei/appmarket/hv7;
+.method public abstract load(Lcom/huawei/page/parser/FLListBundleLoader;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/page/parser/FLListBundleLoader;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }

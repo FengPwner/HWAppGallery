@@ -80,7 +80,7 @@
 
     const v0, 0x7f130311
 
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -106,7 +106,7 @@
 
     move-result v1
 
-    sget-object v3, Lcom/huawei/appmarket/kg6;->a:[I
+    sget-object v3, Lcom/huawei/appmarket/mg6;->a:[I
 
     const v4, 0x7f130526
 
@@ -322,7 +322,7 @@
 
     const-class p2, Landroidx/appcompat/widget/LinearLayoutCompat;
 
-    invoke-static {p2, p0, p1, v1, v0}, Lcom/huawei/appmarket/se3;->a(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, p0, p1, v1, v0}, Lcom/huawei/appmarket/ue3;->a(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

@@ -120,7 +120,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -265,7 +265,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -325,7 +324,7 @@
     return-void
 .end method
 
-.method public setMuiltRowNavigatorClickListener(Lcom/huawei/appmarket/xh7;)V
+.method public setMuiltRowNavigatorClickListener(Lcom/huawei/appmarket/di7;)V
     .registers 2
 
     .line 1

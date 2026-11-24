@@ -92,9 +92,9 @@
     move-object v0, p1
 
     :goto_0
-    sget-object v2, Lcom/huawei/appmarket/rr1;->a:Lcom/huawei/appmarket/rr1;
+    sget-object v2, Lcom/huawei/appmarket/ur1;->a:Lcom/huawei/appmarket/ur1;
 
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/rr1;->lookup(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/ur1;->lookup(Ljava/lang/String;)Ljava/util/List;
     :try_end_0
     .catch Ljava/net/UnknownHostException; {:try_start_0 .. :try_end_0} :catch_0
 

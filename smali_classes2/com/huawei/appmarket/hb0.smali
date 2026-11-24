@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/hb0;
-.super Lcom/huawei/appmarket/yh7;
+.super Lcom/huawei/appmarket/ei7;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/yh7;-><init>(II)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/ei7;-><init>(II)V
 
     return-void
 .end method
@@ -19,7 +19,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/yh7;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/ei7;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -55,7 +55,7 @@
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/yh7;->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ei7;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -66,7 +66,7 @@
     .registers 2
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appmarket/yh7;->hashCode()I
+    invoke-super {p0}, Lcom/huawei/appmarket/ei7;->hashCode()I
 
     move-result v0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/su1;
+.implements Lcom/huawei/appmarket/wu1;
 
 
 # instance fields
@@ -27,9 +27,9 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/jz5;
+    new-instance v0, Lcom/huawei/appmarket/lz5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jz5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/lz5;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/d;->a:Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchListCard;
 
@@ -41,7 +41,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/lz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     return-void
 .end method
@@ -50,9 +50,9 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/jz5;
+    new-instance v0, Lcom/huawei/appmarket/lz5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jz5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/lz5;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/d;->a:Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/PermitAppSearchListCard;
 
@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/lz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     return-void
 .end method

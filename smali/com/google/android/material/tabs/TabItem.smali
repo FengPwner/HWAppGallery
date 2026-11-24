@@ -29,7 +29,7 @@
     .line 2
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    sget-object v0, Lcom/huawei/appmarket/ie6;->Z:[I
+    sget-object v0, Lcom/huawei/appmarket/ke6;->Z:[I
 
     invoke-static {p1, p2, v0}, Landroidx/appcompat/widget/e0;->u(Landroid/content/Context;Landroid/util/AttributeSet;[I)Landroidx/appcompat/widget/e0;
 

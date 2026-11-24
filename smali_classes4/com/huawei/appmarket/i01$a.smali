@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dh1$a;
+.implements Lcom/huawei/appmarket/gh1$a;
 
 
 # annotations
@@ -34,7 +34,7 @@
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Lcom/huawei/appmarket/h01;->e:Lcom/huawei/appmarket/h01$a;
 
@@ -63,13 +63,13 @@
     return p1
 .end method
 
-.method public final c(Ljavax/net/ssl/SSLSocket;)Lcom/huawei/appmarket/sh7;
+.method public final c(Ljavax/net/ssl/SSLSocket;)Lcom/huawei/appmarket/xh7;
     .registers 3
 
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appmarket/i01;
 

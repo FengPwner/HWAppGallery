@@ -37,11 +37,11 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/z22;
+    new-instance v0, Lcom/huawei/appmarket/d32;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/z22;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/d32;-><init>(I)V
 
     invoke-direct {p0, p1, v0}, Lorg/apache/commons/lang3/event/EventListenerSupport$ProxyInvocationHandler;-><init>(Lorg/apache/commons/lang3/event/EventListenerSupport;Lorg/apache/commons/lang3/function/FailableConsumer;)V
 

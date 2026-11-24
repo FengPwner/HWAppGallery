@@ -64,7 +64,7 @@
 
     iget-object v1, p0, Lcom/huawei/phoneservice/faq/widget/FaqSubmitButton;->b:Landroid/content/Context;
 
-    const-string v2, "window"
+    const-string/jumbo v2, "window"
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aj3;
+.implements Lcom/huawei/appmarket/cj3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/aj3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/cj3;
 .end annotation
 
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v0, p0, p2, p3, p1}, Lcom/huawei/appgallery/bireport/impl/a$a;-><init>(Lcom/huawei/appgallery/bireport/impl/a;Ljava/lang/String;Ljava/util/LinkedHashMap;Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     :cond_1
     :goto_0
@@ -169,7 +169,7 @@
 
     const-string v2, "getBiReportCache failed, data translate error"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     return-object p1

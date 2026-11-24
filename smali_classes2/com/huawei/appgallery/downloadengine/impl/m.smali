@@ -64,7 +64,7 @@
 
     const-string v3, "SHA-256"
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/fk2;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/hk2;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 
@@ -106,20 +106,20 @@
     return v3
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v1, "file sha256 check succeed"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v1, "checkDownloadedFile warning: file sha256 is null"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const/4 v0, 0x1
@@ -252,7 +252,7 @@
 
     invoke-virtual/range {p4 .. p4}, Lcom/huawei/appgallery/downloadengine/impl/a0;->K()V
 
-    sget-object v4, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v4, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -272,7 +272,7 @@
 
     const-string v5, "HiAppDownload"
 
-    invoke-virtual {v4, v5, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->b0()Z
 
@@ -303,9 +303,9 @@
 
     move-result-object v0
 
-    new-instance v2, Lcom/huawei/appmarket/qn;
+    new-instance v2, Lcom/huawei/appmarket/pn;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/qn;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/pn;-><init>()V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -345,7 +345,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v2, v0, v14, v3}, Lcom/huawei/appmarket/qn;->a(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/rn;
+    invoke-virtual {v2, v0, v14, v3}, Lcom/huawei/appmarket/pn;->a(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/qn;
 
     move-result-object v0
 
@@ -367,25 +367,25 @@
 
     move-result-object v2
 
-    invoke-virtual {v4, v5, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v2, 0x82
 
     if-eqz v0, :cond_8
 
     .line 2
-    iget-boolean v6, v0, Lcom/huawei/appmarket/rn;->a:Z
+    iget-boolean v6, v0, Lcom/huawei/appmarket/qn;->a:Z
 
     if-eqz v6, :cond_8
 
     .line 3
-    iget-object v6, v0, Lcom/huawei/appmarket/rn;->c:Lcom/huawei/appmarket/pn;
+    iget-object v6, v0, Lcom/huawei/appmarket/qn;->c:Lcom/huawei/appmarket/on;
 
     .line 4
-    iget-object v7, v6, Lcom/huawei/appmarket/pn;->a:Ljava/lang/String;
+    iget-object v7, v6, Lcom/huawei/appmarket/on;->a:Ljava/lang/String;
 
     .line 5
-    iget-wide v12, v6, Lcom/huawei/appmarket/pn;->b:J
+    iget-wide v12, v6, Lcom/huawei/appmarket/on;->b:J
 
     .line 6
     new-instance v6, Ljava/lang/StringBuilder;
@@ -406,7 +406,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v4, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->b:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
@@ -505,10 +505,10 @@
     if-eqz v3, :cond_6
 
     .line 9
-    iget-object v0, v0, Lcom/huawei/appmarket/rn;->c:Lcom/huawei/appmarket/pn;
+    iget-object v0, v0, Lcom/huawei/appmarket/qn;->c:Lcom/huawei/appmarket/on;
 
     .line 10
-    iget-object v0, v0, Lcom/huawei/appmarket/pn;->c:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/huawei/appmarket/on;->c:Ljava/util/ArrayList;
 
     iget-object v3, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->a:Lcom/huawei/appgallery/downloadengine/api/SplitTask;
 
@@ -554,7 +554,7 @@
     const-string v5, ", apk sign : "
 
     .line 12
-    invoke-static {v4, v3, v5}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v3, v5}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -620,7 +620,7 @@
     if-eqz v0, :cond_9
 
     .line 16
-    iget-object v0, v0, Lcom/huawei/appmarket/rn;->b:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/qn;->b:Ljava/lang/String;
 
     goto :goto_3
 
@@ -779,7 +779,7 @@
     :cond_d
     const-string v0, "checkDownloadedFile succeed"
 
-    invoke-virtual {v4, v5, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -807,11 +807,11 @@
 
     :goto_7
     :try_start_2
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v3, "checkDownloadedFile IOException:"
 
-    invoke-virtual {v2, v5, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v5, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
@@ -828,11 +828,11 @@
     :goto_8
     if-nez v2, :cond_6
 
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v4, "end checkDownloadedFile failed"
 
-    invoke-virtual {v2, v5, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v2, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->c:Lcom/huawei/appgallery/downloadengine/impl/a0;
 
@@ -862,11 +862,11 @@
 
     .line 19
     :goto_a
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v2, "begin processDownloadedTempFile"
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v2, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->b:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
@@ -919,7 +919,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/fk2;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/hk2;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -980,7 +980,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v0, v5, v14}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v14}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v14, 0x1
 
@@ -1001,7 +1001,7 @@
     const/16 v4, 0xc0
 
     .line 21
-    invoke-static {v15, v4, v3}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v15, v4, v3}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v3
 
@@ -1053,7 +1053,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v14, :cond_12
 
@@ -1119,17 +1119,17 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/huawei/appgallery/downloadengine/impl/q;->i()Lcom/huawei/appmarket/ip1;
+    invoke-virtual {v4}, Lcom/huawei/appgallery/downloadengine/impl/q;->i()Lcom/huawei/appmarket/lp1;
 
     move-result-object v4
 
     iget-object v14, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->b:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
-    invoke-virtual {v4, v14}, Lcom/huawei/appmarket/ip1;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Lcom/huawei/appmarket/ip1$a;
+    invoke-virtual {v4, v14}, Lcom/huawei/appmarket/lp1;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Lcom/huawei/appmarket/lp1$a;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ip1$a;->c()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/lp1$a;->c()I
 
     move-result v14
 
@@ -1141,7 +1141,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ip1$a;->a()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/lp1$a;->a()Ljava/lang/String;
 
     move-result-object v15
 
@@ -1157,7 +1157,7 @@
 
     invoke-direct {v15}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ip1$a;->a()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/lp1$a;->a()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1221,7 +1221,7 @@
 
     const-string v2, "createParentDir fail."
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
@@ -1262,11 +1262,11 @@
 
     :catch_3
     :goto_f
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v2, "get path failed in getMergedFile"
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v2, v14
 
@@ -1276,7 +1276,7 @@
     if-eqz v2, :cond_22
 
     .line 26
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -1296,7 +1296,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0, v5, v6}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v6}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1313,7 +1313,7 @@
 
     invoke-direct {v0, v14}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    new-instance v14, Lcom/huawei/appmarket/zn;
+    new-instance v14, Lcom/huawei/appmarket/yn;
 
     invoke-virtual {v0}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
 
@@ -1331,13 +1331,13 @@
 
     move-result v10
 
-    invoke-direct {v14, v0, v15, v10}, Lcom/huawei/appmarket/zn;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v14, v0, v15, v10}, Lcom/huawei/appmarket/yn;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     invoke-virtual {v2}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v14, v3, v0}, Lcom/huawei/appmarket/zn;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v14, v3, v0}, Lcom/huawei/appmarket/yn;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
     :try_end_6
@@ -1348,7 +1348,7 @@
     :catchall_2
     move-exception v0
 
-    sget-object v3, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v3, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v10, Ljava/lang/StringBuilder;
 
@@ -1366,7 +1366,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v3, v5, v10}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v5, v10}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v3, Ljava/util/HashMap;
 
@@ -1499,7 +1499,7 @@
 
     move-result-object v13
 
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/iu5;->h(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/ku5;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v11
 
@@ -1534,7 +1534,7 @@
     const/16 v13, 0x80
 
     .line 28
-    invoke-static {v13, v11}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v13, v11}, Lcom/huawei/appmarket/eq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v13
 
@@ -1543,7 +1543,7 @@
     if-nez v13, :cond_18
 
     .line 29
-    sget-object v13, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v13, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v9, Ljava/lang/StringBuilder;
 
@@ -1559,7 +1559,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v13, v4, v8}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v13, v4, v8}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v22, v2
 
@@ -1578,13 +1578,13 @@
 
     const-string v9, "DeviceInstallationInfos"
 
-    const-class v11, Lcom/huawei/appmarket/yh3;
+    const-class v11, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v11, v9}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v11, v9}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v9
 
-    check-cast v9, Lcom/huawei/appmarket/yh3;
+    check-cast v9, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -1598,7 +1598,7 @@
 
     iget-object v12, v13, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
-    invoke-interface {v9, v11, v12}, Lcom/huawei/appmarket/yh3;->a(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v9, v11, v12}, Lcom/huawei/appmarket/ai3;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v9
 
@@ -1685,7 +1685,7 @@
     const-wide/16 v8, 0x0
 
     :goto_13
-    sget-object v11, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v11, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v12, Ljava/lang/StringBuilder;
 
@@ -1699,7 +1699,7 @@
 
     move-result-object v12
 
-    invoke-virtual {v11, v4, v12}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v11, v4, v12}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v22, v2
 
@@ -1745,7 +1745,7 @@
 
     if-nez v12, :cond_1e
 
-    sget-object v12, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v12, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     move-object/from16 v24, v11
 
@@ -1765,7 +1765,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v12, v4, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v12, v4, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_15
 
@@ -1803,11 +1803,11 @@
     :cond_20
     move-object/from16 v22, v2
 
-    sget-object v1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v2, "getSplitApkSize applicationInfo null"
 
-    invoke-virtual {v1, v4, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_16
     const-wide/16 v16, 0x0
@@ -1844,18 +1844,18 @@
 
     invoke-virtual {v10, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appgallery/downloadengine/impl/f;->c()Lcom/huawei/appmarket/kk3;
+    invoke-static {}, Lcom/huawei/appgallery/downloadengine/impl/f;->c()Lcom/huawei/appmarket/mk3;
 
     move-result-object v1
 
     const-string v2, "2010100201"
 
-    check-cast v1, Lcom/huawei/appmarket/cm0;
+    check-cast v1, Lcom/huawei/appmarket/dm0;
 
-    invoke-virtual {v1, v2, v10}, Lcom/huawei/appmarket/cm0;->c(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-virtual {v1, v2, v10}, Lcom/huawei/appmarket/dm0;->c(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 34
-    sget-object v1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1875,7 +1875,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v5, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v5, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_19
     move-object/from16 v1, p0
@@ -1913,9 +1913,9 @@
 
     if-nez v2, :cond_23
 
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_23
     iget-object v2, v1, Lcom/huawei/appgallery/downloadengine/impl/m;->c:Lcom/huawei/appgallery/downloadengine/impl/a0;
@@ -1925,7 +1925,7 @@
     :cond_24
     if-eqz v0, :cond_26
 
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -1939,7 +1939,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v5, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -1990,14 +1990,14 @@
     const-string v6, "]"
 
     .line 36
-    invoke-static {v4, v0, v6}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v0, v6}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v4, "smart merge failed "
 
     .line 37
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2010,7 +2010,7 @@
 
     if-nez v4, :cond_25
 
-    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_25
     const/4 v2, 0x0
@@ -2047,7 +2047,7 @@
     move-object/from16 v8, v20
 
     :goto_1c
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -2061,7 +2061,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1d
 
@@ -2115,17 +2115,17 @@
 
     if-nez v8, :cond_2b
 
-    sget-object v3, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v3, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v3, v5, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v5, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1f
 
     .line 43
     :catch_4
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v0, v5, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1e
 
@@ -2197,12 +2197,12 @@
 
     if-eqz v7, :cond_2d
 
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v3, "fileBeforeName is empty."
 
     :goto_21
-    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_20
 
@@ -2223,7 +2223,7 @@
     goto/16 :goto_24
 
     :catch_6
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v3, "get path failed in getCommonFilePath"
     :try_end_a
@@ -2232,7 +2232,7 @@
     goto :goto_21
 
     :goto_22
-    sget-object v3, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v3, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -2250,7 +2250,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v5, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v5, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_20
 
@@ -2364,13 +2364,13 @@
 
     .line 48
     :cond_30
-    invoke-static {v3, v7}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v7}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     .line 49
     :goto_23
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -2378,7 +2378,7 @@
     sget-object v7, Ljava/io/File;->separator:Ljava/lang/String;
 
     .line 51
-    invoke-static {v0, v7, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v7, v3}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2386,11 +2386,11 @@
 
     .line 52
     :catch_7
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v3, "get path failed in getNonBundleApkPath"
 
-    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_20
 
@@ -2410,11 +2410,11 @@
     :cond_31
     if-nez v2, :cond_32
 
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v2, "fileBeforeRename null."
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_25
 
@@ -2448,9 +2448,9 @@
 
     if-nez v2, :cond_33
 
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v2, v5, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_33
     :goto_26
@@ -2464,9 +2464,9 @@
     const/4 v8, 0x1
 
     .line 56
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v0, v5, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_25
 
@@ -2482,9 +2482,9 @@
 
     if-nez v2, :cond_33
 
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
-    invoke-virtual {v2, v5, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_26
 
@@ -2499,7 +2499,7 @@
 
     if-eqz v2, :cond_36
 
-    sget-object v0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -2519,7 +2519,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "get file path failed "
 
@@ -2581,18 +2581,18 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "Downloaded file not exist when process file "
 
     goto :goto_28
 
     :goto_29
-    sget-object v2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v3, "end processDownloadedTempFile"
 
-    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v10, :cond_39
 

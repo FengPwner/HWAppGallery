@@ -175,7 +175,7 @@
 
     .line 47
     .line 48
-    sget-object v0, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/de3;
+    sget-object v0, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/fe3;
 
     .line 49
     .line 50
@@ -358,7 +358,7 @@
 
     .line 137
     .line 138
-    sget-object v2, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/de3;
+    sget-object v2, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/fe3;
 
     .line 139
     .line 140
@@ -524,8 +524,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

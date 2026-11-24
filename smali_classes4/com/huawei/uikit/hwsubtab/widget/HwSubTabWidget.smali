@@ -127,7 +127,7 @@
     const v0, 0x7f130316
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -191,7 +191,7 @@
 
     iget-object v5, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;->k:Landroid/content/Context;
 
-    sget-object v6, Lcom/huawei/appmarket/ng6;->a:[I
+    sget-object v6, Lcom/huawei/appmarket/pg6;->a:[I
 
     const v7, 0x7f13054a
 
@@ -1540,6 +1540,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method static synthetic b(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)Lcom/huawei/uikit/hwsubtab/widget/HwSubTabViewContainer$a;
@@ -1645,9 +1765,9 @@
 
     move-result p1
 
-    new-instance v1, Lcom/huawei/appmarket/lf3;
+    new-instance v1, Lcom/huawei/appmarket/nf3;
 
-    invoke-direct {v1, p2, v0, p3, p1}, Lcom/huawei/appmarket/lf3;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;ILcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;I)V
+    invoke-direct {v1, p2, v0, p3, p1}, Lcom/huawei/appmarket/nf3;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;ILcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;I)V
 
     invoke-virtual {p0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -1688,9 +1808,9 @@
 
     mul-float v0, v0, p1
 
-    new-instance p1, Lcom/huawei/appmarket/kf3;
+    new-instance p1, Lcom/huawei/appmarket/mf3;
 
-    invoke-direct {p1, v0, p2, p3, p0}, Lcom/huawei/appmarket/kf3;-><init>(FLcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)V
+    invoke-direct {p1, v0, p2, p3, p0}, Lcom/huawei/appmarket/mf3;-><init>(FLcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$b;Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)V
 
     invoke-virtual {p0, p1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -3147,65 +3267,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method static k(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)Z
@@ -3407,23 +3468,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic m(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)I
@@ -3640,7 +3684,7 @@
 
     const-string v7, "huawei.android.widget.HwPlume"
 
-    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -3669,7 +3713,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static {v8, v1, v2}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v8, v1, v2}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -3703,7 +3747,7 @@
 
     aput-object v7, v0, v6
 
-    invoke-static {v8, v1, v0}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v8, v1, v0}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -3983,23 +4027,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic y(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;)Z
@@ -4187,7 +4214,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 63
     .line 64
@@ -4203,7 +4230,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 71
     .line 72
@@ -4211,7 +4238,7 @@
     move-result-object p1
 
     .line 74
-    invoke-interface {p1}, Lcom/huawei/appmarket/jf3;->n()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/lf3;->n()V
 
     .line 75
     .line 76
@@ -4281,7 +4308,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 109
     .line 110
@@ -4297,7 +4324,7 @@
 
     .line 115
     .line 116
-    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 117
     .line 118
@@ -4305,7 +4332,7 @@
     move-result-object v1
 
     .line 120
-    invoke-interface {v1}, Lcom/huawei/appmarket/jf3;->l()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/lf3;->l()V
 
     .line 121
     .line 122
@@ -4341,7 +4368,7 @@
 
     .line 137
     .line 138
-    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 139
     .line 140
@@ -4357,7 +4384,7 @@
 
     .line 145
     .line 146
-    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/jf3;
+    invoke-virtual {p1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b()Lcom/huawei/appmarket/lf3;
 
     .line 147
     .line 148
@@ -4369,7 +4396,7 @@
 
     .line 151
     .line 152
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/jf3;->t(Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;)V
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/lf3;->t(Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;)V
 
     .line 153
     .line 154
@@ -4423,23 +4450,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final H(Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;)V
@@ -4890,10 +4900,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public K(FI)V
@@ -5353,10 +5359,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final f(Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;Z)V
@@ -5746,10 +5748,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method protected getAdjustTriggerWidth()I
@@ -6389,7 +6387,7 @@
     const/4 v9, 0x2
 
     .line 114
-    invoke-static {v3, v7, v9, v8}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v3, v7, v9, v8}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 115
     .line 116
@@ -6595,10 +6593,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -6937,23 +6931,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setAnimationEnabled(Z)V

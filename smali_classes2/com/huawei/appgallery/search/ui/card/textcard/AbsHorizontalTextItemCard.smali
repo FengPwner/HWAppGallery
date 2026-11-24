@@ -28,13 +28,13 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/textcard/AbsHorizontalTextItemCard;->y:Landroid/widget/TextView;
 
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->o1(Landroid/view/View;Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->o1(Landroid/view/View;Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     .line 8
     .line 9
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 10
     .line 11
@@ -69,7 +69,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -87,7 +87,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 25
     .line 26
@@ -200,7 +200,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final j(Ljava/lang/String;)Ljava/lang/String;
@@ -211,13 +210,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchRecommendItemCard"
 
     const-string v1, "get searchKeyword, keywordInfo null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

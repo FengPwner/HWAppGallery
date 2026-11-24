@@ -290,7 +290,7 @@
     if-lt v6, v8, :cond_4
 
     :try_start_7
-    invoke-static {}, Lcom/huawei/appmarket/e53;->k()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->k()Ljava/security/SecureRandom;
 
     move-result-object v6
     :try_end_7

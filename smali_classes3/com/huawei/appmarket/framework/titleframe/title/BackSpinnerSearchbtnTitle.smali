@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/dj7;
+.field private n:Lcom/huawei/appmarket/jj7;
 
 
 # direct methods
@@ -38,7 +38,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0a18bb
+    const v1, 0x7f0a18bc
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -50,15 +50,15 @@
 
     check-cast v2, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;
 
-    new-instance v3, Lcom/huawei/appmarket/dj7;
+    new-instance v3, Lcom/huawei/appmarket/jj7;
 
     iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
-    invoke-direct {v3, v4, v1, v2}, Lcom/huawei/appmarket/dj7;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;)V
+    invoke-direct {v3, v4, v1, v2}, Lcom/huawei/appmarket/jj7;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/framework/titleframe/title/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;)V
 
-    iput-object v3, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/dj7;
+    iput-object v3, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/jj7;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/dj7;->d()Z
+    invoke-virtual {v3}, Lcom/huawei/appmarket/jj7;->d()Z
 
     move-result v2
 
@@ -68,7 +68,7 @@
 
     const-string v3, "can show spinner view!"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v2, 0x8
 
@@ -142,27 +142,27 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/dj7;
+    iget-object v1, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/jj7;
 
     if-eqz v1, :cond_0
 
     check-cast v0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/dj7;->e(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/jj7;->e(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerBaseTitleBean;)V
 
     :cond_0
     return-void
 .end method
 
-.method public final setTitleDataChangedListener(Lcom/huawei/appmarket/a44;)V
+.method public final setTitleDataChangedListener(Lcom/huawei/appmarket/c44;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->setTitleDataChangedListener(Lcom/huawei/appmarket/a44;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->setTitleDataChangedListener(Lcom/huawei/appmarket/c44;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/dj7;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/titleframe/title/BackSpinnerSearchbtnTitle;->n:Lcom/huawei/appmarket/jj7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dj7;->f(Lcom/huawei/appmarket/a44;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/jj7;->f(Lcom/huawei/appmarket/c44;)V
 
     return-void
 .end method

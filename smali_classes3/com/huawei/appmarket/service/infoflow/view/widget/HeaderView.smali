@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/infoflow/view/widget/HeaderView;->d:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/infoflow/view/widget/HeaderView;->b:Landroid/widget/LinearLayout;
 
@@ -231,7 +231,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 8
     .line 9
@@ -358,5 +358,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

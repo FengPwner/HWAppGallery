@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/a;
-.super Lcom/huawei/appmarket/w65;
+.super Lcom/huawei/appmarket/z65;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/a;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/w65;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/z65;-><init>()V
 
     return-void
 .end method
@@ -26,17 +26,17 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/framework/titleframe/title/a;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->n(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->n(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->o(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->o(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/a44;->i2()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/c44;->i2()V
 
     goto :goto_0
 
@@ -47,7 +47,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->p(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->p(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     const-string v1, "WiseDistBaseTitle"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tw5;
+.implements Lcom/huawei/appmarket/vw5;
 
 
 # direct methods

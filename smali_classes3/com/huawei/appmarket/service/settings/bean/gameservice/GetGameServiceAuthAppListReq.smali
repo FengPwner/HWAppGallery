@@ -90,7 +90,7 @@
     move-result-object v1
 
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/q27;->a()Lcom/huawei/appmarket/q27;
+    invoke-static {}, Lcom/huawei/appmarket/u27;->a()Lcom/huawei/appmarket/u27;
 
     .line 36
     .line 37
@@ -98,7 +98,7 @@
     move-result-object v2
 
     .line 39
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/q27;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/u27;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 40
     .line 41

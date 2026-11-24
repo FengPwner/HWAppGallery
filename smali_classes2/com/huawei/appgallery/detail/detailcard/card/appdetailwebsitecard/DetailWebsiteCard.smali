@@ -86,7 +86,7 @@
 
     move-result v4
 
-    invoke-static {v3, v2, v0, v1, v4}, Lcom/huawei/appmarket/m52;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;JI)V
+    invoke-static {v3, v2, v0, v1, v4}, Lcom/huawei/appmarket/q52;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;JI)V
 
     :cond_0
     return-void
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bq4;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/eq4;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_0
     return-void

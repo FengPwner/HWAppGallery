@@ -1,13 +1,13 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/view/a;
-.super Lcom/huawei/appmarket/ni8;
+.super Lcom/huawei/appmarket/ti8;
 .source "SourceFile"
 
 
 # instance fields
-.field public A:Lcom/huawei/appmarket/zd5;
+.field public A:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -38,9 +38,9 @@
 
 .field protected j:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/DetailHeadBaseBean;
 
-.field protected k:Lcom/huawei/appmarket/hj0;
+.field protected k:Lcom/huawei/appmarket/ij0;
 
-.field protected l:Lcom/huawei/appmarket/hj0;
+.field protected l:Lcom/huawei/appmarket/ij0;
 
 .field protected m:Z
 
@@ -66,10 +66,10 @@
 
 .field protected t:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
-.field protected u:Lcom/huawei/appmarket/zd5;
+.field protected u:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -82,20 +82,20 @@
 
 .field private x:Z
 
-.field public y:Lcom/huawei/appmarket/zd5;
+.field public y:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public z:Lcom/huawei/appmarket/zd5;
+.field public z:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -107,7 +107,7 @@
 .method public constructor <init>()V
     .registers 4
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ni8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ti8;-><init>()V
 
     const/4 v0, 0x1
 
@@ -135,37 +135,37 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->t:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->u:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->u:Lcom/huawei/appmarket/ce5;
 
     iput-boolean v1, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->x:Z
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
     sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v2}, Lcom/huawei/appmarket/ce5;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->y:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->y:Lcom/huawei/appmarket/ce5;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v2}, Lcom/huawei/appmarket/ce5;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->z:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->z:Lcom/huawei/appmarket/ce5;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ce5;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->A:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->A:Lcom/huawei/appmarket/ce5;
 
     const/4 v0, -0x1
 
@@ -178,19 +178,19 @@
 
 
 # virtual methods
-.method public final A()Lcom/huawei/appmarket/zd5;
+.method public final A()Lcom/huawei/appmarket/ce5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->u:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->u:Lcom/huawei/appmarket/ce5;
 
     return-object v0
 .end method
@@ -417,7 +417,7 @@
     return-void
 .end method
 
-.method protected final i(Ljava/util/ArrayList;)Lcom/huawei/appmarket/vj1;
+.method protected final i(Ljava/util/ArrayList;)Lcom/huawei/appmarket/yj1;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -425,14 +425,14 @@
             "Ljava/util/ArrayList<",
             "Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo;",
             ">;)",
-            "Lcom/huawei/appmarket/vj1;"
+            "Lcom/huawei/appmarket/yj1;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/vj1;
+    new-instance v0, Lcom/huawei/appmarket/yj1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/vj1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/yj1;-><init>()V
 
     iget-boolean v1, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->m:Z
 
@@ -440,7 +440,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -454,7 +454,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vj1;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yj1;->c(Z)V
 
     if-eqz v1, :cond_1
 
@@ -473,7 +473,7 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -489,9 +489,9 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/vj1;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/yj1;->d(Ljava/lang/String;)V
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -517,7 +517,7 @@
 
     const-string v2, "DetailCommonDataViewModel"
 
-    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     return-object v0
@@ -585,11 +585,11 @@
     return v0
 .end method
 
-.method public final p()Lcom/huawei/appmarket/hj0;
+.method public final p()Lcom/huawei/appmarket/ij0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->k:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->k:Lcom/huawei/appmarket/ij0;
 
     return-object v0
 .end method
@@ -648,11 +648,11 @@
     return v0
 .end method
 
-.method public final w()Lcom/huawei/appmarket/hj0;
+.method public final w()Lcom/huawei/appmarket/ij0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->l:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/a;->l:Lcom/huawei/appmarket/ij0;
 
     return-object v0
 .end method

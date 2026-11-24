@@ -27,9 +27,9 @@
 
 .field private f:Ljava/lang/Object;
 
-.field private g:Lcom/huawei/appmarket/zv7;
+.field private g:Lcom/huawei/appmarket/fw7;
 
-.field private h:Lcom/huawei/appmarket/yv3;
+.field private h:Lcom/huawei/appmarket/aw3;
 
 .field private i:Landroid/os/Handler;
 
@@ -68,9 +68,9 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->c:Ljava/util/ArrayList;
 
-    sget-object v0, Lcom/huawei/appmarket/zv7;->c:Lcom/huawei/appmarket/zv7;
+    sget-object v0, Lcom/huawei/appmarket/fw7;->c:Lcom/huawei/appmarket/fw7;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/zv7;
+    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/fw7;
 
     return-void
 .end method
@@ -146,7 +146,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b;-><init>(Lcom/huawei/appgallery/packagemanager/api/bean/b$a;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kx2;->a()J
+    invoke-static {}, Lcom/huawei/appmarket/nx2;->a()J
 
     move-result-wide v2
 
@@ -182,13 +182,13 @@
 
     iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->f:Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/zv7;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/fw7;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/zv7;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/fw7;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->h:Lcom/huawei/appmarket/yv3;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->h:Lcom/huawei/appmarket/aw3;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/yv3;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/aw3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->i:Landroid/os/Handler;
 
@@ -306,11 +306,11 @@
     return-void
 .end method
 
-.method public final n(Lcom/huawei/appmarket/yv3;)V
+.method public final n(Lcom/huawei/appmarket/aw3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->h:Lcom/huawei/appmarket/yv3;
+    iput-object p1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->h:Lcom/huawei/appmarket/aw3;
 
     return-void
 .end method
@@ -342,11 +342,11 @@
     return-void
 .end method
 
-.method public final r(Lcom/huawei/appmarket/zv7;)V
+.method public final r(Lcom/huawei/appmarket/fw7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/zv7;
+    iput-object p1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->g:Lcom/huawei/appmarket/fw7;
 
     return-void
 .end method

@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final l(Landroid/graphics/Matrix;)V
+.method public final k(Landroid/graphics/Matrix;)V
     .registers 2
 
     .line 1

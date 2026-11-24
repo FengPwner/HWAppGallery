@@ -12,9 +12,9 @@
 
 
 # instance fields
-.field protected b:Lcom/huawei/appmarket/df3;
+.field protected b:Lcom/huawei/appmarket/ff3;
 
-.field private c:Lcom/huawei/appmarket/yf3;
+.field private c:Lcom/huawei/appmarket/ag3;
 
 .field private d:Landroid/widget/EditText;
 
@@ -74,7 +74,7 @@
     const v0, 0x7f130303
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/ag6;->e:[I
+    sget-object v1, Lcom/huawei/appmarket/cg6;->e:[I
 
     const v2, 0x7f1304b7
 
@@ -112,7 +112,7 @@
 
     if-ltz p3, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/df3;->values()[Lcom/huawei/appmarket/df3;
+    invoke-static {}, Lcom/huawei/appmarket/ff3;->values()[Lcom/huawei/appmarket/ff3;
 
     move-result-object v0
 
@@ -120,13 +120,13 @@
 
     if-ge p3, v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/df3;->values()[Lcom/huawei/appmarket/df3;
+    invoke-static {}, Lcom/huawei/appmarket/ff3;->values()[Lcom/huawei/appmarket/ff3;
 
     move-result-object v0
 
     aget-object p3, v0, p3
 
-    iput-object p3, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/df3;
+    iput-object p3, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/ff3;
 
     :cond_0
     const/4 p3, 0x7
@@ -135,13 +135,13 @@
 
     move-result p3
 
-    invoke-static {}, Lcom/huawei/appmarket/yf3;->values()[Lcom/huawei/appmarket/yf3;
+    invoke-static {}, Lcom/huawei/appmarket/ag3;->values()[Lcom/huawei/appmarket/ag3;
 
     move-result-object v0
 
     aget-object p3, v0, p3
 
-    iput-object p3, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/yf3;
+    iput-object p3, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/ag3;
 
     const/4 p3, 0x1
 
@@ -200,10 +200,10 @@
 
     invoke-direct {p0}, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->getEyeId()V
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/df3;
+    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/ff3;
 
     .line 6
-    sget-object p2, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object p2, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, p2, :cond_2
 
@@ -219,7 +219,7 @@
     goto :goto_1
 
     :cond_2
-    sget-object p2, Lcom/huawei/appmarket/df3;->c:Lcom/huawei/appmarket/df3;
+    sget-object p2, Lcom/huawei/appmarket/ff3;->c:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, p2, :cond_3
 
@@ -232,7 +232,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object p2, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object p2, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, p2, :cond_4
 
@@ -260,9 +260,9 @@
 .method private a(III)V
     .registers 6
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/yf3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/ag3;
 
-    sget-object v1, Lcom/huawei/appmarket/yf3;->b:Lcom/huawei/appmarket/yf3;
+    sget-object v1, Lcom/huawei/appmarket/ag3;->b:Lcom/huawei/appmarket/ag3;
 
     if-ne v0, v1, :cond_0
 
@@ -271,7 +271,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/yf3;->c:Lcom/huawei/appmarket/yf3;
+    sget-object p1, Lcom/huawei/appmarket/ag3;->c:Lcom/huawei/appmarket/ag3;
 
     if-ne v0, p1, :cond_1
 
@@ -454,7 +454,7 @@
     move-result-object v1
 
     .line 79
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 80
     .line 81
@@ -481,11 +481,11 @@
     .line 91
     .line 92
     :cond_4
-    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/df3;
+    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->b:Lcom/huawei/appmarket/ff3;
 
     .line 93
     .line 94
-    sget-object v0, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     .line 95
     .line 96
@@ -493,7 +493,7 @@
 
     .line 97
     .line 98
-    sget-object v0, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     .line 99
     .line 100
@@ -606,23 +606,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic d(Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;)V
@@ -722,7 +705,7 @@
     move-result-object v1
 
     .line 40
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e53;->p(Landroid/widget/EditText;[Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/h53;->p(Landroid/widget/EditText;[Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -1004,6 +987,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private g()V
@@ -1214,7 +1217,7 @@
     .line 90
     .line 91
     :goto_4
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 92
     .line 93
@@ -1461,14 +1464,34 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private getEyeId()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/yf3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwIconTextLayout;->c:Lcom/huawei/appmarket/ag3;
 
-    sget-object v1, Lcom/huawei/appmarket/yf3;->b:Lcom/huawei/appmarket/yf3;
+    sget-object v1, Lcom/huawei/appmarket/ag3;->b:Lcom/huawei/appmarket/ag3;
 
     if-ne v0, v1, :cond_0
 
@@ -1484,7 +1507,7 @@
     goto :goto_1
 
     :cond_0
-    sget-object v1, Lcom/huawei/appmarket/yf3;->c:Lcom/huawei/appmarket/yf3;
+    sget-object v1, Lcom/huawei/appmarket/ag3;->c:Lcom/huawei/appmarket/ag3;
 
     if-ne v0, v1, :cond_1
 

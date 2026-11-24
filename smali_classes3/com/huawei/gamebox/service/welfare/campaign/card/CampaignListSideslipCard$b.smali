@@ -251,15 +251,15 @@
 
     invoke-virtual {v7, v5}, Landroid/view/View;->setVisibility(I)V
 
-    new-instance v10, Lcom/huawei/appmarket/bi0;
+    new-instance v10, Lcom/huawei/appmarket/ci0;
 
     invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;->A1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Landroid/content/Context;
 
     move-result-object v11
 
-    invoke-direct {v10, v11, v5}, Lcom/huawei/appmarket/bi0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v10, v11, v5}, Lcom/huawei/appmarket/ci0;-><init>(Landroid/content/Context;Z)V
 
-    invoke-virtual {v10, v7}, Lcom/huawei/appmarket/bi0;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v10, v7}, Lcom/huawei/appmarket/ci0;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     const v11, 0x7f0800fe
 
@@ -281,13 +281,13 @@
 
     invoke-virtual {v11, v12}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->G0(Ljava/lang/String;)V
 
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/bi0;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/ci0;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;->B1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;->B1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v12
 
-    invoke-virtual {v10, v12}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v10, v12}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     const/4 v10, 0x2
 

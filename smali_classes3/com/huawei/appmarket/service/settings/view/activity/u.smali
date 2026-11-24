@@ -29,11 +29,11 @@
 
     iget p1, p1, Landroid/os/Message;->arg1:I
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gg5$d;->b(I)Lcom/huawei/appmarket/gg5$d;
+    invoke-static {p1}, Lcom/huawei/appmarket/jg5$d;->b(I)Lcom/huawei/appmarket/jg5$d;
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/gg5$d;->d:Lcom/huawei/appmarket/gg5$d;
+    sget-object v0, Lcom/huawei/appmarket/jg5$d;->d:Lcom/huawei/appmarket/jg5$d;
 
     if-ne p1, v0, :cond_0
 
@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     :cond_1
     return-void

@@ -215,7 +215,7 @@
     return-object v3
 .end method
 
-.method public static transformFoldState(I)Lcom/huawei/appmarket/g89;
+.method public static transformFoldState(I)Lcom/huawei/appmarket/m89;
     .registers 2
 
     .line 1
@@ -223,7 +223,7 @@
 
     if-ne p0, v0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/g89;->d:Lcom/huawei/appmarket/g89;
+    sget-object p0, Lcom/huawei/appmarket/m89;->d:Lcom/huawei/appmarket/m89;
 
     return-object p0
 
@@ -232,7 +232,7 @@
 
     if-ne p0, v0, :cond_1
 
-    sget-object p0, Lcom/huawei/appmarket/g89;->e:Lcom/huawei/appmarket/g89;
+    sget-object p0, Lcom/huawei/appmarket/m89;->e:Lcom/huawei/appmarket/m89;
 
     return-object p0
 
@@ -241,12 +241,12 @@
 
     if-ne p0, v0, :cond_2
 
-    sget-object p0, Lcom/huawei/appmarket/g89;->f:Lcom/huawei/appmarket/g89;
+    sget-object p0, Lcom/huawei/appmarket/m89;->f:Lcom/huawei/appmarket/m89;
 
     return-object p0
 
     :cond_2
-    sget-object p0, Lcom/huawei/appmarket/g89;->c:Lcom/huawei/appmarket/g89;
+    sget-object p0, Lcom/huawei/appmarket/m89;->c:Lcom/huawei/appmarket/m89;
 
     return-object p0
 .end method

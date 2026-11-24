@@ -21,7 +21,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/h57;",
+        "Lcom/huawei/appmarket/m57;",
         ">;",
         "Ljava/io/Serializable;"
     }
@@ -33,17 +33,17 @@
 
 
 # instance fields
-.field private transient b:Lcom/huawei/appmarket/h57;
+.field private transient b:Lcom/huawei/appmarket/m57;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/h57;)V
+.method public constructor <init>(Lcom/huawei/appmarket/m57;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/h57;
+    iput-object p1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/m57;
 
     return-void
 .end method
@@ -83,11 +83,11 @@
     .registers 5
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/h57;
+    check-cast p1, Lcom/huawei/appmarket/m57;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/h57;
+    check-cast p2, Lcom/huawei/appmarket/m57;
 
     .line 4
     .line 5
@@ -103,7 +103,7 @@
 
     .line 10
     :cond_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/h57;->c()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/m57;->c()I
 
     .line 11
     .line 12
@@ -111,7 +111,7 @@
     move-result v0
 
     .line 14
-    invoke-virtual {p2}, Lcom/huawei/appmarket/h57;->b()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/m57;->b()I
 
     .line 15
     .line 16
@@ -119,11 +119,11 @@
     move-result p2
 
     .line 18
-    iget-object v1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/h57;
+    iget-object v1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/m57;
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Lcom/huawei/appmarket/h57;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/m57;->b()I
 
     .line 21
     .line 22
@@ -143,7 +143,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h57;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/m57;->c()I
 
     .line 31
     .line 32
@@ -151,7 +151,7 @@
     move-result p2
 
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h57;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/m57;->b()I
 
     .line 35
     .line 36
@@ -159,11 +159,11 @@
     move-result p1
 
     .line 38
-    iget-object v1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/h57;
+    iget-object v1, p0, Lcom/huawei/appmarket/u4$a;->b:Lcom/huawei/appmarket/m57;
 
     .line 39
     .line 40
-    invoke-virtual {v1}, Lcom/huawei/appmarket/h57;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/m57;->b()I
 
     .line 41
     .line 42
@@ -306,5 +306,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

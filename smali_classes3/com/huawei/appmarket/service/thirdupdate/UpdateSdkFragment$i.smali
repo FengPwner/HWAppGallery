@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -100,7 +100,7 @@
     .line 16
     .line 17
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -164,7 +164,7 @@
 
     .line 48
     .line 49
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
     .line 50
     .line 51
@@ -176,7 +176,7 @@
 
     .line 54
     .line 55
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -184,11 +184,11 @@
     move-result-object v0
 
     .line 59
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     .line 60
     .line 61
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mo3;->U(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/oo3;->U(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 62
     .line 63
@@ -197,7 +197,7 @@
 
     .line 65
     :cond_2
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -205,11 +205,11 @@
     move-result-object v0
 
     .line 69
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     .line 70
     .line 71
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/oo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     .line 72
     .line 73
@@ -256,5 +256,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

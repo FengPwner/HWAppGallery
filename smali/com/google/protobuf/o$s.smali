@@ -26,10 +26,10 @@
 # static fields
 .field private static final g:Lcom/google/protobuf/o$s;
 
-.field public static final h:Lcom/huawei/appmarket/gw5;
+.field public static final h:Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/o$s;",
             ">;"
         }
@@ -76,7 +76,7 @@
 
     invoke-direct {v0}, Lcom/google/protobuf/o$s$a;-><init>()V
 
-    sput-object v0, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/gw5;
+    sput-object v0, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/iw5;
 
     return-void
 .end method
@@ -746,19 +746,19 @@
     return-object v1
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/o$s;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -934,7 +934,7 @@
     const/4 v3, 0x1
 
     .line 27
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 28
     .line 29
@@ -985,7 +985,7 @@
     const/4 v3, 0x2
 
     .line 51
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 52
     .line 53
@@ -1028,7 +1028,7 @@
     const/4 v3, 0x3
 
     .line 71
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 72
     .line 73
@@ -1122,6 +1122,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final i()I
@@ -1362,6 +1363,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final j()Lcom/google/protobuf/o$t;

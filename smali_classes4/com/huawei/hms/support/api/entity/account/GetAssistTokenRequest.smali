@@ -91,7 +91,7 @@
 
     if-nez v1, :cond_1
 
-    const-string v1, "userIdentify"
+    const-string/jumbo v1, "userIdentify"
 
     iget-object v2, p0, Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;->b:Ljava/lang/String;
 

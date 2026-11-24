@@ -13,7 +13,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity<",
         "TT;>;"
@@ -38,11 +38,11 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tp1;
+    new-instance v0, Lcom/huawei/appmarket/wp1;
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
-    sget-object v2, Lcom/huawei/appmarket/op1;->c:Lcom/huawei/appmarket/op1;
+    sget-object v2, Lcom/huawei/appmarket/rp1;->c:Lcom/huawei/appmarket/rp1;
 
     new-instance v3, Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity$b;
 
@@ -50,11 +50,11 @@
 
     invoke-direct {v3, v4}, Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity$b;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity$a;)V
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/tp1;-><init>(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/op1;Lcom/huawei/appmarket/kp1;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/wp1;-><init>(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/rp1;Lcom/huawei/appmarket/np1;)V
 
-    sget-object v1, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/up1;->c(Lcom/huawei/appmarket/tp1;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/xp1;->c(Lcom/huawei/appmarket/wp1;)V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     const-string v1, "onBackPressed isGoBackToOpenApp"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p0}, Lcom/huawei/appmarket/p7;->c(Landroid/app/Activity;)V
 
@@ -142,7 +142,7 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -151,7 +151,7 @@
     :cond_0
     const-string v0, "onKeyDown isGoBackToOpenApp"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1, p0}, Lcom/huawei/appmarket/p7;->d(ILandroid/app/Activity;)Z
 
@@ -167,21 +167,21 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->onResume()V
 
-    invoke-static {}, Lcom/huawei/appmarket/yz4;->c()Lcom/huawei/appmarket/yz4;
+    invoke-static {}, Lcom/huawei/appmarket/b05;->c()Lcom/huawei/appmarket/b05;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/yz4;->g(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/b05;->g(Landroid/app/Activity;)V
 
-    const-class v0, Lcom/huawei/appmarket/er3;
+    const-class v0, Lcom/huawei/appmarket/gr3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/er3;
+    check-cast v0, Lcom/huawei/appmarket/gr3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/er3;->c2()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/gr3;->d2()J
 
     move-result-wide v0
 
@@ -191,13 +191,13 @@
 
     if-lez v4, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/f96;->d()Lcom/huawei/appmarket/f96;
+    invoke-static {}, Lcom/huawei/appmarket/h96;->d()Lcom/huawei/appmarket/h96;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/f96;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/h96;->e()Z
 
     move-result v0
 

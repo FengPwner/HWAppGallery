@@ -14,7 +14,7 @@
 
 .field private u:I
 
-.field v:Lcom/huawei/appmarket/zn5;
+.field v:Lcom/huawei/appmarket/ao5;
 
 
 # direct methods
@@ -31,7 +31,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity$a;-><init>(Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;->v:Lcom/huawei/appmarket/zn5;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;->v:Lcom/huawei/appmarket/ao5;
 
     return-void
 .end method
@@ -129,7 +129,7 @@
     .line 18
     .line 19
     .line 20
-    const p1, 0x7f0a188d
+    const p1, 0x7f0a188e
 
     .line 21
     .line 22
@@ -225,7 +225,7 @@
 
     .line 69
     .line 70
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 71
     .line 72
@@ -284,7 +284,7 @@
     .line 99
     .line 100
     .line 101
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 102
     .line 103
@@ -297,7 +297,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->p()I
 
     .line 109
     .line 110
@@ -337,7 +337,7 @@
     .line 125
     .line 126
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/vw7;->n(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->u(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
 
     .line 127
     .line 128
@@ -374,11 +374,11 @@
 
     .line 141
     .line 142
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;->v:Lcom/huawei/appmarket/zn5;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;->v:Lcom/huawei/appmarket/ao5;
 
     .line 143
     .line 144
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/zn5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/ao5;)V
 
     .line 145
     .line 146
@@ -400,7 +400,7 @@
     .line 154
     .line 155
     .line 156
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 157
     .line 158
@@ -430,7 +430,7 @@
 
     .line 171
     .line 172
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 173
     .line 174
@@ -443,7 +443,7 @@
 
     .line 178
     .line 179
-    invoke-static {v1}, Lcom/huawei/appmarket/lx4;->b(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
 
     .line 180
     .line 181
@@ -695,8 +695,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

@@ -52,19 +52,19 @@
     invoke-interface {v1}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController$VideoEventListener;->doStart()V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->h(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->j(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object v1
 
@@ -75,7 +75,7 @@
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;->v5(Z)V
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->k(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
 
     return-void
 .end method
@@ -85,13 +85,13 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController$b;->a:Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->j(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->l(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->k(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->m(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
 
     move-result v1
 
@@ -100,22 +100,22 @@
     return-void
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->l(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->n(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->m(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->o(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object v0
 

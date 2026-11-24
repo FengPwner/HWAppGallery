@@ -215,7 +215,7 @@
     .line 88
     .line 89
     .line 90
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 91
     .line 92
@@ -223,7 +223,7 @@
 
     .line 93
     .line 94
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -250,7 +250,7 @@
     .line 105
     .line 106
     .line 107
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 108
     .line 109
@@ -262,11 +262,11 @@
 
     .line 112
     .line 113
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 114
     .line 115
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 116
     .line 117
@@ -274,11 +274,11 @@
     move-result-object v1
 
     .line 119
-    const-class v2, Lcom/huawei/appmarket/vs3;
+    const-class v2, Lcom/huawei/appmarket/xs3;
 
     .line 120
     .line 121
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 122
     .line 123
@@ -286,7 +286,7 @@
     move-result-object v1
 
     .line 125
-    check-cast v1, Lcom/huawei/appmarket/vs3;
+    check-cast v1, Lcom/huawei/appmarket/xs3;
 
     .line 126
     .line 127
@@ -298,11 +298,11 @@
     move-result-object v2
 
     .line 131
-    new-instance v4, Lcom/huawei/appmarket/o94$a;
+    new-instance v4, Lcom/huawei/appmarket/q94$a;
 
     .line 132
     .line 133
-    invoke-direct {v4}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v4}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 134
     .line 135
@@ -316,7 +316,7 @@
     .line 139
     .line 140
     .line 141
-    invoke-static {v4, v5, v6, v4}, Lcom/huawei/appmarket/bq6;->n(Lcom/huawei/appmarket/o94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/o94$a;)Lcom/huawei/appmarket/o94;
+    invoke-static {v4, v5, v6, v4}, Lcom/huawei/appmarket/eq6;->n(Lcom/huawei/appmarket/q94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/q94$a;)Lcom/huawei/appmarket/q94;
 
     .line 142
     .line 143
@@ -324,7 +324,7 @@
     move-result-object v4
 
     .line 145
-    invoke-interface {v1, v2, v4}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {v1, v2, v4}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 146
     .line 147
@@ -469,7 +469,7 @@
     .line 218
     .line 219
     .line 220
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 221
     .line 222
@@ -477,7 +477,7 @@
 
     .line 223
     .line 224
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 225
     .line 226
@@ -854,15 +854,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -894,13 +885,13 @@
 
     if-nez v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "HotWordItemCard"
 
     const-string v3, "isSupportToDetail, bean is error."
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -941,13 +932,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v2, "HotWordItemCard"
 
     const-string v3, "getItemViewWidth, get view error."
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 

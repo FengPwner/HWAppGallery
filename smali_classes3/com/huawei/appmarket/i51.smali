@@ -60,7 +60,7 @@
 
     const-string v2, "CpuUtil"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-static {v0}, Lcom/huawei/appmarket/i51;->b(Lcom/huawei/appmarket/i51$a;)V
@@ -119,7 +119,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     :try_start_3
-    invoke-static {v5}, Lcom/huawei/appmarket/tf0;->d(Ljava/io/BufferedReader;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/uf0;->d(Ljava/io/BufferedReader;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -256,7 +256,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     :try_start_5
@@ -283,7 +283,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     :try_start_6
@@ -311,7 +311,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_7
 
@@ -371,7 +371,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_1
 
@@ -401,7 +401,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_5
@@ -431,7 +431,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_6
@@ -484,7 +484,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_9
@@ -514,7 +514,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_a
@@ -544,7 +544,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     :goto_b

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tm2;
+.implements Lcom/huawei/appmarket/vm2;
 
 
 # annotations
@@ -85,13 +85,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/p3;->a()Lcom/huawei/appmarket/tm2;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/p3;->a()Lcom/huawei/appmarket/vm2;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/tm2;->b(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vm2;->b(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -114,7 +114,7 @@
 
     const-class v2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -128,11 +128,11 @@
 
     check-cast v2, Landroid/content/Context;
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     :cond_1
     :goto_0

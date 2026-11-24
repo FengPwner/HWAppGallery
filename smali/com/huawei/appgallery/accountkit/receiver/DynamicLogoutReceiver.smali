@@ -25,7 +25,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/receiver/DynamicLogoutReceiver$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/receiver/DynamicLogoutReceiver$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/accountkit/receiver/DynamicLogoutReceiver;->k:Lcom/huawei/appgallery/accountkit/receiver/DynamicLogoutReceiver$a;
 
@@ -65,11 +65,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "intent"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "com.huawei.hwid.ACTION_REMOVE_ACCOUNT"
 
@@ -77,7 +77,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 

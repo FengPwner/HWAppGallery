@@ -39,7 +39,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
 
     move-result-object p0
 

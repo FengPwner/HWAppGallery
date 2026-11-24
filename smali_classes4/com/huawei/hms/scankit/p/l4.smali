@@ -200,7 +200,7 @@
 
     sget-object v3, Lcom/huawei/hms/scankit/p/l2;->b:Lcom/huawei/hms/scankit/p/l2;
 
-    const-string v4, "utf-8"
+    const-string/jumbo v4, "utf-8"
 
     invoke-virtual {v14, v3, v4}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -813,7 +813,7 @@
     :goto_11
     const-string v0, "MultiFormatWriter"
 
-    const-string v1, "wMultiple == 1f || hMultiple == 1f || !reFormFlag"
+    const-string/jumbo v1, "wMultiple == 1f || hMultiple == 1f || !reFormFlag"
 
     invoke-static {v0, v1}, Lcom/huawei/hms/scankit/p/y3;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1

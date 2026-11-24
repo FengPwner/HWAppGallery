@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;
-.implements Lcom/huawei/appmarket/r34;
+.implements Lcom/huawei/appmarket/t34;
 
 
 # virtual methods

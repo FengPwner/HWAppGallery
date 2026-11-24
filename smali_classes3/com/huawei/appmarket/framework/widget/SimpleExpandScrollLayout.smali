@@ -88,7 +88,7 @@
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/framework/widget/ExpandScrollLayout;->d()V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -124,7 +124,7 @@
 
     const-string p2, "SimpleExpandScrollLayout"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

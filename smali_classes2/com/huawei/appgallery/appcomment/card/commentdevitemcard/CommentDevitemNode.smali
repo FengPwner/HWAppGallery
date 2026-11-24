@@ -43,7 +43,7 @@
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance p1, Lcom/huawei/appgallery/appcomment/card/commentdevitemcard/CommentDevitemCard;
 

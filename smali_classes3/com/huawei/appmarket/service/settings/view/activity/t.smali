@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/view/activity/t;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/t;->b:Lcom/huawei/appmarket/service/settings/view/activity/SettingGameServiceActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 13
     .line 14
@@ -82,7 +82,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 32
     .line 33
@@ -115,7 +115,7 @@
     const/4 v1, 0x0
 
     .line 47
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 48
     .line 49
@@ -123,7 +123,7 @@
     move-result-object v0
 
     .line 51
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 52
     .line 53
@@ -194,5 +194,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

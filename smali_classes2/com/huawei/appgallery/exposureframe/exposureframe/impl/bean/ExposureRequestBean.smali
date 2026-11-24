@@ -15,45 +15,45 @@
 
 # instance fields
 .field private callType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private channelId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private exposure_:Ljava/lang/String;
 
 .field private globalTrace:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private installType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private referrer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private retry:I
 
 .field private shareIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private thirdPartyPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -94,7 +94,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/mn0;->f()Lcom/huawei/appmarket/mn0;
+    invoke-static {}, Lcom/huawei/appmarket/nn0;->f()Lcom/huawei/appmarket/nn0;
 
     .line 19
     .line 20
@@ -102,7 +102,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mn0;->d()Lcom/huawei/appmarket/sn0;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nn0;->d()Lcom/huawei/appmarket/tn0;
 
     .line 23
     .line 24
@@ -114,7 +114,7 @@
 
     .line 27
     .line 28
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
     .line 29
     .line 30
@@ -122,7 +122,7 @@
 
     .line 31
     .line 32
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
     .line 33
     .line 34
@@ -130,7 +130,7 @@
 
     .line 35
     .line 36
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->b:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->b:Ljava/lang/String;
 
     .line 37
     .line 38
@@ -138,7 +138,7 @@
 
     .line 39
     .line 40
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->d:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->d:Ljava/lang/String;
 
     .line 41
     .line 42
@@ -146,7 +146,7 @@
 
     .line 43
     .line 44
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->f:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->f:Ljava/lang/String;
 
     .line 45
     .line 46
@@ -154,7 +154,7 @@
 
     .line 47
     .line 48
-    iget-object v1, v0, Lcom/huawei/appmarket/sn0;->h:Ljava/lang/String;
+    iget-object v1, v0, Lcom/huawei/appmarket/tn0;->h:Ljava/lang/String;
 
     .line 49
     .line 50
@@ -162,7 +162,7 @@
 
     .line 51
     .line 52
-    iget-object v0, v0, Lcom/huawei/appmarket/sn0;->e:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/tn0;->e:Ljava/lang/String;
 
     .line 53
     .line 54
@@ -349,7 +349,7 @@
 
     const-string v1, "client.uploadExposure"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ox6;->x(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/sx6;->x(ILjava/lang/String;)V
 
     return-void
 .end method

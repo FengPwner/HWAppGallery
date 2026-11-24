@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/foundation/ui/framework/widget/button/InstaOpenDownloadButtonStyle;
-.super Lcom/huawei/appmarket/et1;
+.super Lcom/huawei/appmarket/ht1;
 .source "SourceFile"
 
 
@@ -19,7 +19,7 @@
     .registers 6
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/et1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ht1;-><init>()V
 
     invoke-direct/range {p0 .. p5}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/InstaOpenDownloadButtonStyle;->j(Landroid/content/Context;IIIZ)V
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/content/Context;Z)V
     .registers 11
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/et1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ht1;-><init>()V
 
     .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -91,7 +91,7 @@
 
     if-eqz p5, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result p5
 
@@ -109,26 +109,26 @@
 
     move-result p5
 
-    invoke-virtual {p0, p5, p1}, Lcom/huawei/appmarket/et1;->f(ILandroid/content/Context;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p5, p1}, Lcom/huawei/appmarket/ht1;->f(ILandroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->b()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->b()Lcom/huawei/appmarket/kq7;
 
     move-result-object p5
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/et1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ht1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
-    invoke-virtual {p5, v2}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p5, v2}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->b()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->b()Lcom/huawei/appmarket/kq7;
 
     move-result-object p5
 
-    invoke-virtual {p5, p3}, Lcom/huawei/appmarket/eq7;->f(I)V
+    invoke-virtual {p5, p3}, Lcom/huawei/appmarket/kq7;->f(I)V
 
     invoke-static {v1, p2}, Lcom/huawei/appmarket/lu0;->a(FI)I
 
@@ -140,59 +140,59 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, p5, p2, v1}, Lcom/huawei/appmarket/et1;->h(Landroid/content/Context;III)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1, p5, p2, v1}, Lcom/huawei/appmarket/ht1;->h(Landroid/content/Context;III)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->c()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->c()Lcom/huawei/appmarket/kq7;
 
     move-result-object p5
 
-    invoke-virtual {p5, p1}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p5, p1}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->c()Lcom/huawei/appmarket/eq7;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p4}, Lcom/huawei/appmarket/eq7;->f(I)V
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->c()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->c()Lcom/huawei/appmarket/kq7;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/eq7;->e(I)V
+    invoke-virtual {p1, p4}, Lcom/huawei/appmarket/kq7;->f(I)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->a()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->c()Lcom/huawei/appmarket/kq7;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/et1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/kq7;->e(I)V
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->a()Lcom/huawei/appmarket/kq7;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ht1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->a()Lcom/huawei/appmarket/eq7;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/eq7;->f(I)V
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->e()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->a()Lcom/huawei/appmarket/kq7;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/et1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/kq7;->f(I)V
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->e()Lcom/huawei/appmarket/kq7;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ht1;->g(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rd1;->e()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/td1;->e()Lcom/huawei/appmarket/kq7;
 
     move-result-object p1
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/eq7;->f(I)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/kq7;->f(I)V
 
     return-void
 .end method

@@ -117,11 +117,11 @@
 
     if-ne v0, v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result v0
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->o(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->o(Landroid/content/Context;)I
 
     move-result v0
 
@@ -141,7 +141,7 @@
 
     const/16 v3, 0x30
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->o(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->o(Landroid/content/Context;)I
 
     move-result v0
 
@@ -174,7 +174,7 @@
 
     const/16 v3, 0x20
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -204,7 +204,7 @@
 
     const-string v2, "onMeasure error"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_1
     :goto_3
@@ -228,7 +228,7 @@
 
     const/16 v0, 0x10
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -236,7 +236,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 

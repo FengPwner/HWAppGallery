@@ -363,7 +363,7 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/material/bottomsheet/d;-><init>(Lcom/google/android/material/bottomsheet/BottomSheetDialog;)V
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/ei8;->r0(Landroid/view/View;Lcom/huawei/appmarket/qn5;)V
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/ki8;->r0(Landroid/view/View;Lcom/huawei/appmarket/rn5;)V
 
     :cond_1
     iget-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog;->j:Landroid/widget/FrameLayout;
@@ -382,7 +382,7 @@
     invoke-virtual {p2, p1, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     :goto_0
-    const p1, 0x7f0a163e
+    const p1, 0x7f0a163f
 
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
 
     invoke-direct {p2, p0}, Lcom/google/android/material/bottomsheet/f;-><init>(Lcom/google/android/material/bottomsheet/BottomSheetDialog;)V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     iget-object p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog;->j:Landroid/widget/FrameLayout;
 
@@ -565,6 +565,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final k()Z
@@ -870,6 +871,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final setCancelable(Z)V

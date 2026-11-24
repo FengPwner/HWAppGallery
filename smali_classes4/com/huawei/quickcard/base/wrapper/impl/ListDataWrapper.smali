@@ -321,7 +321,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/w91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -675,7 +675,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/v91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/w91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/quickcard/base/wrapper/impl/ListDataWrapper;->size(Ljava/util/List;)I
 
@@ -710,7 +710,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/v91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/w91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

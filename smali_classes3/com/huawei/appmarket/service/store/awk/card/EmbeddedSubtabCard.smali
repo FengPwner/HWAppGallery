@@ -186,7 +186,7 @@
     move-result v4
 
     .line 80
-    invoke-static {v2}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     .line 81
     .line 82
@@ -293,7 +293,7 @@
     .line 130
     .line 131
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 132
     .line 133
@@ -538,15 +538,13 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     instance-of v0, p1, Landroidx/fragment/app/Fragment;
 

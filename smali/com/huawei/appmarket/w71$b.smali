@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/w71$b;
-.super Lcom/huawei/appmarket/p58;
+.super Lcom/huawei/appmarket/v58;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/p58<",
+        "Lcom/huawei/appmarket/v58<",
         "Ljava/util/ArrayList<",
         "Lcom/huawei/appgallary/idleupdate/service/detachinstall/storage/DailyScreenOffTimesRecord;",
         ">;>;"
@@ -32,7 +32,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/p58;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/v58;-><init>()V
 
     return-void
 .end method

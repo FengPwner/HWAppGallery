@@ -46,7 +46,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->c0(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->c0(Landroid/view/View;)V
 
     return-void
 .end method

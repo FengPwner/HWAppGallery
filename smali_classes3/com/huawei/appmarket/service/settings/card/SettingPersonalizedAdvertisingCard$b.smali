@@ -57,7 +57,7 @@
     move-result p1
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     .line 9
     .line 10
@@ -69,7 +69,7 @@
 
     .line 13
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 14
     .line 15
@@ -91,7 +91,7 @@
     monitor-exit p2
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 24
     .line 25
@@ -138,7 +138,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/a73;->f(Ljava/lang/String;Ljava/util/LinkedHashMap;Lcom/huawei/appmarket/q80;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/d73;->f(Ljava/lang/String;Ljava/util/LinkedHashMap;Lcom/huawei/appmarket/q80;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -157,7 +157,7 @@
 
     .line 54
     .line 55
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -288,5 +288,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

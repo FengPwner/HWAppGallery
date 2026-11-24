@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/x14;
+.implements Lcom/huawei/appmarket/s14;
 
 
 # direct methods
@@ -17,7 +17,46 @@
 
 
 # virtual methods
-.method public final u2()V
+.method public final A1(Lcom/huawei/appmarket/qz0;)V
+    .registers 2
+
+    .line 1
+    return-void
+.end method
+
+.method public final J0()Z
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final J2()V
+    .registers 1
+
+    .line 1
+    return-void
+.end method
+
+.method public final b()J
+    .registers 3
+
+    .line 1
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+.end method
+
+.method public final c1()V
+    .registers 1
+
+    .line 1
+    return-void
+.end method
+
+.method public final c2()V
     .registers 1
 
     .line 1

@@ -222,7 +222,7 @@
 
     const v3, 0x7f080905
 
-    invoke-static {v2, v3, p3}, Lcom/huawei/appmarket/nu6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v2, v3, p3}, Lcom/huawei/appmarket/ru6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p3
 
@@ -255,7 +255,7 @@
     :goto_2
     iget-object p3, p2, Lcom/huawei/appmarket/service/settings/view/widget/TagsAdapter$c;->c:Lcom/huawei/uikit/hwimageview/widget/HwImageView;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     iget-object p3, p2, Lcom/huawei/appmarket/service/settings/view/widget/TagsAdapter$c;->c:Lcom/huawei/uikit/hwimageview/widget/HwImageView;
 

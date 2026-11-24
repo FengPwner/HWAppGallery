@@ -79,7 +79,7 @@
             "(",
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/lj8;",
+            "Lcom/huawei/appmarket/rj8;",
             ">;)V"
         }
     .end annotation
@@ -269,6 +269,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final bridge synthetic clone()Ljava/lang/Object;
@@ -290,7 +291,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/wf6;->m:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->m:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

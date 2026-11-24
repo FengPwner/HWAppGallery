@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -41,11 +41,11 @@
 
     invoke-static {p2, p1}, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;->F3(ZZ)V
 
-    sget-object p1, Lcom/huawei/appmarket/j72;->e:Lcom/huawei/appmarket/j72$b;
+    sget-object p1, Lcom/huawei/appmarket/n72;->e:Lcom/huawei/appmarket/n72$b;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/j72$b;->a()Lcom/huawei/appmarket/j72;
+    invoke-static {}, Lcom/huawei/appmarket/n72$b;->a()Lcom/huawei/appmarket/n72;
 
     move-result-object p1
 
@@ -55,17 +55,17 @@
 
     move-result-wide p2
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/j72;->f(J)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/n72;->f(J)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/j72$b;->a()Lcom/huawei/appmarket/j72;
+    invoke-static {}, Lcom/huawei/appmarket/n72$b;->a()Lcom/huawei/appmarket/n72;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/j72;->b(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/n72;->b(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/b;->c:Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;

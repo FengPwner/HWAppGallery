@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -19,7 +19,7 @@
     .line 1
     const-string v0, "handle"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,13 +48,13 @@
 
     if-ne v1, v2, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/e93;->a:Lcom/huawei/appmarket/e93$a;
+    sget-object v1, Lcom/huawei/appmarket/h93;->a:Lcom/huawei/appmarket/h93$a;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/e93$a;->a()Lcom/huawei/appmarket/e93;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/h93$a;->a()Lcom/huawei/appmarket/h93;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/e93;->g()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/h93;->g()Ljava/util/ArrayList;
 
     move-result-object v1
 

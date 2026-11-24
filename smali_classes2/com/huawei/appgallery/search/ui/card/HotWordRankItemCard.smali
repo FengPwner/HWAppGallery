@@ -132,7 +132,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -140,14 +140,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HotWordRankItemCard;->A:Lcom/huawei/appgallery/search/ui/card/textcard/HotWordRankSubItemCardCard;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_1
     return-void

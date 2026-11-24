@@ -166,7 +166,7 @@
 
     iget-object p1, p1, Lcom/huawei/phoneservice/faq/FaqBaseWebActivity;->k:Landroid/widget/ProgressBar;
 
-    invoke-static {p1, p2}, Lcom/huawei/phoneservice/faq/b;->b(Landroid/widget/ProgressBar;I)V
+    invoke-static {p1, p2}, Lcom/huawei/phoneservice/faq/b;->g(Landroid/widget/ProgressBar;I)V
 
     goto :goto_0
 

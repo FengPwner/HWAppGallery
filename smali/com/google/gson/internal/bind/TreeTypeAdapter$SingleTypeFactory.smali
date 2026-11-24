@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h58;
+.implements Lcom/huawei/appmarket/n58;
 
 
 # annotations
@@ -38,19 +38,19 @@
     .end annotation
 .end field
 
-.field private final e:Lcom/huawei/appmarket/kp4;
+.field private final e:Lcom/huawei/appmarket/np4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/kp4<",
+            "Lcom/huawei/appmarket/np4<",
             "*>;"
         }
     .end annotation
 .end field
 
-.field private final f:Lcom/huawei/appmarket/lo4;
+.field private final f:Lcom/huawei/appmarket/oo4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lo4<",
+            "Lcom/huawei/appmarket/oo4<",
             "*>;"
         }
     .end annotation
@@ -73,7 +73,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    instance-of v0, p1, Lcom/huawei/appmarket/kp4;
+    instance-of v0, p1, Lcom/huawei/appmarket/np4;
 
     const/4 v1, 0x0
 
@@ -81,7 +81,7 @@
 
     move-object v0, p1
 
-    check-cast v0, Lcom/huawei/appmarket/kp4;
+    check-cast v0, Lcom/huawei/appmarket/np4;
 
     goto :goto_0
 
@@ -89,18 +89,18 @@
     move-object v0, v1
 
     :goto_0
-    iput-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->e:Lcom/huawei/appmarket/kp4;
+    iput-object v0, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->e:Lcom/huawei/appmarket/np4;
 
-    instance-of v2, p1, Lcom/huawei/appmarket/lo4;
+    instance-of v2, p1, Lcom/huawei/appmarket/oo4;
 
     if-eqz v2, :cond_1
 
     move-object v1, p1
 
-    check-cast v1, Lcom/huawei/appmarket/lo4;
+    check-cast v1, Lcom/huawei/appmarket/oo4;
 
     :cond_1
-    iput-object v1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->f:Lcom/huawei/appmarket/lo4;
+    iput-object v1, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->f:Lcom/huawei/appmarket/oo4;
 
     if-nez v0, :cond_3
 
@@ -190,9 +190,9 @@
     :goto_0
     new-instance v0, Lcom/google/gson/internal/bind/TreeTypeAdapter;
 
-    iget-object v2, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->e:Lcom/huawei/appmarket/kp4;
+    iget-object v2, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->e:Lcom/huawei/appmarket/np4;
 
-    iget-object v3, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->f:Lcom/huawei/appmarket/lo4;
+    iget-object v3, p0, Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;->f:Lcom/huawei/appmarket/oo4;
 
     move-object v1, v0
 
@@ -202,7 +202,7 @@
 
     move-object v6, p0
 
-    invoke-direct/range {v1 .. v6}, Lcom/google/gson/internal/bind/TreeTypeAdapter;-><init>(Lcom/huawei/appmarket/kp4;Lcom/huawei/appmarket/lo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/h58;)V
+    invoke-direct/range {v1 .. v6}, Lcom/google/gson/internal/bind/TreeTypeAdapter;-><init>(Lcom/huawei/appmarket/np4;Lcom/huawei/appmarket/oo4;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/huawei/appmarket/n58;)V
 
     goto :goto_1
 

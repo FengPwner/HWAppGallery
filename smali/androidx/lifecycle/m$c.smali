@@ -26,19 +26,19 @@
 
 
 # instance fields
-.field final f:Lcom/huawei/appmarket/du4;
+.field final f:Lcom/huawei/appmarket/gu4;
 
 .field final synthetic g:Landroidx/lifecycle/m;
 
 
 # direct methods
-.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/du4;",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/gu4;",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
@@ -46,9 +46,9 @@
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/m$c;->g:Landroidx/lifecycle/m;
 
-    invoke-direct {p0, p1, p3}, Landroidx/lifecycle/m$d;-><init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/ym5;)V
+    invoke-direct {p0, p1, p3}, Landroidx/lifecycle/m$d;-><init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/zm5;)V
 
-    iput-object p2, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/du4;
+    iput-object p2, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
@@ -59,22 +59,22 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     return-void
 .end method
 
-.method final c(Lcom/huawei/appmarket/du4;)Z
+.method final c(Lcom/huawei/appmarket/gu4;)Z
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/gu4;
 
     if-ne v0, p1, :cond_0
 
@@ -93,9 +93,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 
@@ -112,13 +112,13 @@
     return v0
 .end method
 
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 5
 
     .line 1
-    iget-object p1, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Landroidx/lifecycle/m$c;->f:Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p2
 
@@ -132,9 +132,9 @@
 
     iget-object p1, p0, Landroidx/lifecycle/m$c;->g:Landroidx/lifecycle/m;
 
-    iget-object p2, p0, Landroidx/lifecycle/m$d;->b:Lcom/huawei/appmarket/ym5;
+    iget-object p2, p0, Landroidx/lifecycle/m$d;->b:Lcom/huawei/appmarket/zm5;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     return-void
 
@@ -150,7 +150,7 @@
 
     invoke-virtual {p0, v0}, Landroidx/lifecycle/m$d;->a(Z)V
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 

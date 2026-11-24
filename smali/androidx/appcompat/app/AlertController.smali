@@ -128,7 +128,7 @@
 
     .line 29
     .line 30
-    sget-object p3, Lcom/huawei/appmarket/pe6;->f:[I
+    sget-object p3, Lcom/huawei/appmarket/re6;->f:[I
 
     .line 31
     .line 32
@@ -454,6 +454,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static b(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V
@@ -597,7 +604,7 @@
     move-result-object v1
 
     .line 19
-    const v3, 0x7f0a1625
+    const v3, 0x7f0a1626
 
     .line 20
     .line 21
@@ -1240,7 +1247,7 @@
 
     .line 341
     .line 342
-    const v11, 0x7f0a1608
+    const v11, 0x7f0a1609
 
     .line 343
     .line 344
@@ -1777,7 +1784,7 @@
 
     .line 600
     .line 601
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ei8;->v0(Landroid/view/ViewGroup;I)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/ki8;->v0(Landroid/view/ViewGroup;I)V
 
     .line 602
     .line 603

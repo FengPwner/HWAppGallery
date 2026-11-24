@@ -243,7 +243,7 @@
 
     .line 70
     .line 71
-    invoke-static {v2, v0, v1, v0}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    invoke-static {v2, v0, v1, v0}, Lcom/huawei/appmarket/kk4;->e(IIII)I
 
     .line 72
     .line 73
@@ -339,7 +339,7 @@
 
     .line 119
     .line 120
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 121
     .line 122
@@ -398,5 +398,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

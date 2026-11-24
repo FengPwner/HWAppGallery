@@ -82,12 +82,12 @@
     return p1
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TModel;II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
             "Lcom/bumptech/glide/load/model/g$a<",
             "TData;>;"
@@ -97,9 +97,9 @@
     .line 1
     new-instance p2, Lcom/bumptech/glide/load/model/g$a;
 
-    new-instance p3, Lcom/huawei/appmarket/yl5;
+    new-instance p3, Lcom/huawei/appmarket/am5;
 
-    invoke-direct {p3, p1}, Lcom/huawei/appmarket/yl5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, Lcom/huawei/appmarket/am5;-><init>(Ljava/lang/Object;)V
 
     new-instance p4, Lcom/bumptech/glide/load/model/d$b;
 
@@ -111,7 +111,7 @@
 
     invoke-direct {p4, p1, v0}, Lcom/bumptech/glide/load/model/d$b;-><init>(Ljava/lang/String;Lcom/bumptech/glide/load/model/d$a;)V
 
-    invoke-direct {p2, p3, p4}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/sq4;Lcom/huawei/appmarket/i81;)V
+    invoke-direct {p2, p3, p4}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/vq4;Lcom/huawei/appmarket/i81;)V
 
     return-object p2
 .end method

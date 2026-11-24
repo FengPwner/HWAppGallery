@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -51,7 +51,7 @@
 
     .line 2
     .line 3
-    sget-object v0, Lcom/huawei/appmarket/g72;->a:Lcom/huawei/appmarket/g72;
+    sget-object v0, Lcom/huawei/appmarket/k72;->a:Lcom/huawei/appmarket/k72;
 
     .line 4
     .line 5
@@ -64,7 +64,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lcom/huawei/appmarket/g72;->f(Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/k72;->f(Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;)Z
 
     .line 11
     .line 12
@@ -92,7 +92,7 @@
     move-result-object v2
 
     .line 24
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 25
     .line 26
@@ -358,7 +358,7 @@
 
     .line 162
     .line 163
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 164
     .line 165
@@ -548,6 +548,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

@@ -39,7 +39,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/hf6;->g:[I
+    sget-object v1, Lcom/huawei/appmarket/jf6;->g:[I
 
     const/4 v2, 0x0
 

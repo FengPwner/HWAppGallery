@@ -98,13 +98,13 @@
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string v1, "UpdateViewParent"
 
     const-string v2, "resumed refreshAllCard"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateViewParent;->g()V
 

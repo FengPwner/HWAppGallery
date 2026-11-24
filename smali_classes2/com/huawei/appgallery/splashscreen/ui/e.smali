@@ -24,13 +24,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object v0, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     const-string v1, "SplashScreenFragment"
 
     const-string v2, "PPS logo max time over"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/splashscreen/ui/e;->f:Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;
 
@@ -45,11 +45,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/splashscreen/ui/e;->f:Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;->m3(Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;)Lcom/huawei/appmarket/rj7;
+    invoke-static {v0}, Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;->m3(Lcom/huawei/appgallery/splashscreen/ui/SplashScreenFragment;)Lcom/huawei/appmarket/xj7;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1, p2}, Lcom/huawei/appmarket/rj7;->B(J)V
+    invoke-virtual {v1, p1, p2}, Lcom/huawei/appmarket/xj7;->B(J)V
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 

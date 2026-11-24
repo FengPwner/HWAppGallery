@@ -214,7 +214,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final bridge synthetic g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -230,7 +229,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v0, 0x7f0a06ec
 

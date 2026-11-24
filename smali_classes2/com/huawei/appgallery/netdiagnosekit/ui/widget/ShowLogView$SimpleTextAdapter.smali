@@ -167,11 +167,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v1
 
@@ -179,11 +179,11 @@
 
     if-gt v1, v2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v1
 
@@ -193,7 +193,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/widget/ShowLogView$SimpleTextAdapter;->context:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v1
 

@@ -116,7 +116,7 @@
     :catch_0
     move-exception p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/t12;->e(Ljava/io/IOException;)Ljava/io/UncheckedIOException;
+    invoke-static {p1}, Lcom/huawei/appmarket/x12;->e(Ljava/io/IOException;)Ljava/io/UncheckedIOException;
 
     move-result-object p1
 
@@ -132,7 +132,7 @@
     .end annotation
 
     .line 2
-    const-string v0, "writer"
+    const-string/jumbo v0, "writer"
 
     invoke-static {p2, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 

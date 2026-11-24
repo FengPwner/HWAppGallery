@@ -6,7 +6,7 @@
 # static fields
 .field public static final a:Lcom/huawei/appmarket/rd;
 
-.field private static b:Lcom/huawei/appmarket/ld7;
+.field private static b:Lcom/huawei/appmarket/qd7;
 
 
 # direct methods
@@ -20,13 +20,13 @@
 
     sput-object v0, Lcom/huawei/appmarket/rd;->a:Lcom/huawei/appmarket/rd;
 
-    new-instance v0, Lcom/huawei/appmarket/ld7;
+    new-instance v0, Lcom/huawei/appmarket/qd7;
 
     const-string v1, "AgGuard"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/ld7;
+    sput-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/qd7;
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_recommend_uri"
 
@@ -55,7 +55,7 @@
 
     const-string v1, "sharedPreferencesWrapper\u2026ng(KEY_RECOMMEND_URI, \"\")"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -64,7 +64,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/rd;->b:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_recommend_uri"
 

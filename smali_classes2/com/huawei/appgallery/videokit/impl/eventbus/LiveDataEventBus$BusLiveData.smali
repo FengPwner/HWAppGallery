@@ -1,5 +1,5 @@
 .class Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;
-.super Lcom/huawei/appmarket/zd5;
+.super Lcom/huawei/appmarket/ce5;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/zd5<",
+        "Lcom/huawei/appmarket/ce5<",
         "TT;>;"
     }
 .end annotation
@@ -50,7 +50,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -171,7 +171,7 @@
 
     if-ne v1, v2, :cond_1
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     goto :goto_0
 
@@ -195,13 +195,13 @@
 
 
 # virtual methods
-.method public observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+.method public observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/du4;",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/gu4;",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
@@ -239,21 +239,21 @@
 
     move-object v5, p0
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/ym5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/zm5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
 
     invoke-direct {p0, v0, v1}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->removeAndPutObserver(Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;)V
 
-    invoke-super {p0, p1, v1}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-super {p0, p1, v1}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     return-void
 .end method
 
-.method public observeForever(Lcom/huawei/appmarket/ym5;)V
+.method public observeForever(Lcom/huawei/appmarket/zm5;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
@@ -273,13 +273,13 @@
 
     move-object v3, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/ym5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/zm5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->mEventType:Ljava/lang/String;
 
     invoke-direct {p0, p1, v6}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->removeAndPutObserver(Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;)V
 
-    invoke-super {p0, v6}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/ym5;)V
+    invoke-super {p0, v6}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/zm5;)V
 
     return-void
 .end method
@@ -296,23 +296,23 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->mIsStartChangeData:Z
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public removeObserver(Lcom/huawei/appmarket/ym5;)V
+.method public removeObserver(Lcom/huawei/appmarket/zm5;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-super {p0, p1}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     instance-of v0, p1, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;
 
@@ -344,7 +344,7 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;->mIsStartChangeData:Z
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -194,7 +194,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static synthetic b(Lcom/huawei/appgallery/search/ui/BaseSearchActivity$d;)V
@@ -336,7 +335,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -344,13 +342,13 @@
 .method public final onTransitionCancel(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle ExitTransitionListener, onTransitionCancel"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -358,13 +356,13 @@
 .method public final onTransitionEnd(Landroid/transition/Transition;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "BaseSearchActivity"
 
     const-string v2, "SubTitle ExitTransitionListener, onTransitionEnd"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -386,13 +384,13 @@
 .method public final onTransitionPause(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle ExitTransitionListener, onTransitionPause"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -400,13 +398,13 @@
 .method public final onTransitionResume(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle ExitTransitionListener, onTransitionResume"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -414,13 +412,13 @@
 .method public final onTransitionStart(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle ExitTransitionListener, onTransitionStart"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/os/Handler;
 

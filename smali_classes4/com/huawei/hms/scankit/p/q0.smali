@@ -527,7 +527,7 @@
     const-string v1, "Contents length should be between 1 and 80 characters, but got "
 
     .line 4
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 

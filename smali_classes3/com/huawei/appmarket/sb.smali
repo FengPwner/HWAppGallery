@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xm5;
+.implements Lcom/huawei/appmarket/ym5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/xm5<",
+        "Lcom/huawei/appmarket/ym5<",
         "Ljava/util/List<",
         "Lcom/huawei/appgallery/agguard/api/bean/AgGuardVirusInfo;",
         ">;>;"
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/aq1;)V
+.method public final a(Lcom/huawei/appmarket/dq1;)V
     .registers 2
 
     .line 1
@@ -185,7 +185,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onComplete()V
@@ -231,7 +230,7 @@
 
     const-string v1, "AgGuardCloudVerifyProcess CloudVerify code error"
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

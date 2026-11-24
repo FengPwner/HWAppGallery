@@ -9,15 +9,15 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/jc9;
+.field private a:Lcom/huawei/appmarket/qc9;
 
-.field private b:Lcom/huawei/appmarket/jc9;
+.field private b:Lcom/huawei/appmarket/qc9;
 
-.field private c:Lcom/huawei/appmarket/jc9;
+.field private c:Lcom/huawei/appmarket/qc9;
 
-.field private d:Lcom/huawei/appmarket/jc9;
+.field private d:Lcom/huawei/appmarket/qc9;
 
-.field private e:Lcom/huawei/appmarket/jc9;
+.field private e:Lcom/huawei/appmarket/qc9;
 
 
 # direct methods
@@ -34,15 +34,15 @@
 .method public allSame()Z
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/qc9;
 
-    iget-object v1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/jc9;
+    iget-object v1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/qc9;
 
     if-ne v0, v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/jc9;
+    iget-object v1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/qc9;
 
-    iget-object v2, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/jc9;
+    iget-object v2, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/qc9;
 
     if-ne v1, v2, :cond_0
 
@@ -59,47 +59,47 @@
     return v0
 .end method
 
-.method public getAllRadius()Lcom/huawei/appmarket/jc9;
+.method public getAllRadius()Lcom/huawei/appmarket/qc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/qc9;
 
     return-object v0
 .end method
 
-.method public getBottomLeft()Lcom/huawei/appmarket/jc9;
+.method public getBottomLeft()Lcom/huawei/appmarket/qc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/qc9;
 
     return-object v0
 .end method
 
-.method public getBottomRight()Lcom/huawei/appmarket/jc9;
+.method public getBottomRight()Lcom/huawei/appmarket/qc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/qc9;
 
     return-object v0
 .end method
 
-.method public getTopLeft()Lcom/huawei/appmarket/jc9;
+.method public getTopLeft()Lcom/huawei/appmarket/qc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/qc9;
 
     return-object v0
 .end method
 
-.method public getTopRight()Lcom/huawei/appmarket/jc9;
+.method public getTopRight()Lcom/huawei/appmarket/qc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/qc9;
 
     return-object v0
 .end method
@@ -120,7 +120,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/qc9;
 
     .line 8
     .line 9
@@ -131,7 +131,7 @@
 
     .line 11
     .line 12
-    iget v0, v0, Lcom/huawei/appmarket/jc9;->a:F
+    iget v0, v0, Lcom/huawei/appmarket/qc9;->a:F
 
     .line 13
     .line 14
@@ -148,7 +148,7 @@
     .line 19
     .line 20
     :cond_0
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/jc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/qc9;
 
     .line 21
     .line 22
@@ -156,7 +156,7 @@
 
     .line 23
     .line 24
-    iget v0, v0, Lcom/huawei/appmarket/jc9;->a:F
+    iget v0, v0, Lcom/huawei/appmarket/qc9;->a:F
 
     .line 25
     .line 26
@@ -458,49 +458,69 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
-.method public setAllRadius(Lcom/huawei/appmarket/jc9;)V
+.method public setAllRadius(Lcom/huawei/appmarket/qc9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/jc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->e:Lcom/huawei/appmarket/qc9;
 
     return-void
 .end method
 
-.method public setBottomLeft(Lcom/huawei/appmarket/jc9;)V
+.method public setBottomLeft(Lcom/huawei/appmarket/qc9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/jc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->d:Lcom/huawei/appmarket/qc9;
 
     return-void
 .end method
 
-.method public setBottomRight(Lcom/huawei/appmarket/jc9;)V
+.method public setBottomRight(Lcom/huawei/appmarket/qc9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/jc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->c:Lcom/huawei/appmarket/qc9;
 
     return-void
 .end method
 
-.method public setTopLeft(Lcom/huawei/appmarket/jc9;)V
+.method public setTopLeft(Lcom/huawei/appmarket/qc9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/jc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->a:Lcom/huawei/appmarket/qc9;
 
     return-void
 .end method
 
-.method public setTopRight(Lcom/huawei/appmarket/jc9;)V
+.method public setTopRight(Lcom/huawei/appmarket/qc9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/jc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/BorderRadius;->b:Lcom/huawei/appmarket/qc9;
 
     return-void
 .end method

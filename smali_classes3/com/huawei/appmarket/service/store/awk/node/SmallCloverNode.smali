@@ -13,7 +13,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -32,7 +32,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -41,7 +41,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -146,7 +146,7 @@
 
     .line 62
     .line 63
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->H(Landroid/view/View;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->H(Landroid/view/View;)V
 
     .line 64
     .line 65
@@ -168,7 +168,7 @@
 
     .line 74
     .line 75
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     .line 76
     .line 77
@@ -220,7 +220,7 @@
 
     .line 100
     .line 101
-    invoke-static {v6, v7}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 102
     .line 103
@@ -315,37 +315,36 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
     const-string v0, "dataItem"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallCloverNode;->n:Landroid/view/View;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->c()I
 
     move-result v1
 
@@ -362,7 +361,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

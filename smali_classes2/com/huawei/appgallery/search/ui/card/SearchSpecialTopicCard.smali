@@ -28,11 +28,11 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/u47;
+    new-instance v0, Lcom/huawei/appmarket/z47;
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/u47;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/search/ui/card/SearchSpecialTopicCard;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/z47;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/search/ui/card/SearchSpecialTopicCard;)V
 
     return-object v0
 .end method

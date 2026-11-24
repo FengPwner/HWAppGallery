@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService$a;
-.super Lcom/huawei/appmarket/qg3$a;
+.super Lcom/huawei/appmarket/sg3$a;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
 .method constructor <init>(Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/qg3$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/sg3$a;-><init>()V
 
     return-void
 .end method
@@ -38,13 +38,13 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/k82;->c(I)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/o82;->c(I)Z
 
     move-result v0
 
@@ -56,7 +56,7 @@
 
     const-string v0, "calling uid not match condition"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -67,7 +67,7 @@
 
     const-string v2, "syncScanResultData"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/ee;->b(Ljava/lang/String;)Ljava/lang/String;
 

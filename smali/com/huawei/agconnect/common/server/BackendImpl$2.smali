@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/agconnect/https/HttpsResult;",
         ">;"
     }
@@ -31,13 +31,13 @@
 
 .field final synthetic b:Lcom/huawei/agconnect/https/Adapter$Factory;
 
-.field final synthetic c:Lcom/huawei/appmarket/nv7;
+.field final synthetic c:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic d:Lcom/huawei/agconnect/common/server/BackendImpl;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/common/server/BackendImpl;Ljava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/agconnect/common/server/BackendImpl;Ljava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;Lcom/huawei/appmarket/tv7;)V
     .registers 5
 
     .line 1
@@ -47,7 +47,7 @@
 
     iput-object p3, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->b:Lcom/huawei/agconnect/https/Adapter$Factory;
 
-    iput-object p4, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/nv7;
+    iput-object p4, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -94,18 +94,18 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
     :goto_0
-    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_1
 
     :catch_0
     move-exception p1
 
-    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
@@ -157,9 +157,9 @@
 
     invoke-direct {v1, v2, v3, v0}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;II)V
 
-    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
     :try_end_1
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -185,9 +185,9 @@
 
     invoke-direct {v0, v1, p1}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
-    iget-object p1, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/common/server/BackendImpl$2;->c:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_1
     return-void

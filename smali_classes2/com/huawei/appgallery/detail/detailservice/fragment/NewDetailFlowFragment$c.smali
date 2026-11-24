@@ -38,13 +38,13 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
     invoke-virtual {p2}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     move-result-object p2
 
-    invoke-direct {v0, p2}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p2}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -58,13 +58,13 @@
 
     if-eq p2, v1, :cond_1
 
-    sget-object p2, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p2, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string v1, "NewDetailFlowFragment"
 
     const-string v3, "not run on main thread"
 
-    invoke-virtual {p2, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->H7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;)Landroid/os/Handler;
 
@@ -89,14 +89,14 @@
 
     new-instance v1, Lcom/huawei/appgallery/detail/detailservice/fragment/f;
 
-    invoke-direct {v1, p0, p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/f;-><init>(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$c;Ljava/lang/String;Lcom/huawei/appmarket/wz6;)V
+    invoke-direct {v1, p0, p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/f;-><init>(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$c;Ljava/lang/String;Lcom/huawei/appmarket/a07;)V
 
     invoke-virtual {p2, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     return-void
 
     :cond_1
-    invoke-static {v2, p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->J7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;Ljava/lang/String;Lcom/huawei/appmarket/wz6;)V
+    invoke-static {v2, p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->J7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;Ljava/lang/String;Lcom/huawei/appmarket/a07;)V
 
     return-void
 .end method

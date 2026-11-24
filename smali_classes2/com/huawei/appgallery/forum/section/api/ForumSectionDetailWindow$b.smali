@@ -70,32 +70,32 @@
 
     move-result-object p1
 
-    instance-of v0, p1, Lcom/huawei/appmarket/cq2;
+    instance-of v0, p1, Lcom/huawei/appmarket/eq2;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lcom/huawei/appmarket/cq2;
+    check-cast v0, Lcom/huawei/appmarket/eq2;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/cq2;->W(Lcom/huawei/appmarket/nj3;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/eq2;->W(Lcom/huawei/appmarket/pj3;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/he0;->e()Lcom/huawei/appmarket/k14;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ie0;->e()Lcom/huawei/appmarket/m14;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cq2;->Y(Lcom/huawei/appmarket/k14;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/eq2;->Y(Lcom/huawei/appmarket/m14;)V
 
     :cond_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/he0;->e()Lcom/huawei/appmarket/k14;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ie0;->e()Lcom/huawei/appmarket/m14;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/y57;
+    check-cast p2, Lcom/huawei/appmarket/d67;
 
     const v0, 0x7f0a0f23
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/y57;->g(ILcom/huawei/appmarket/e50;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/d67;->g(ILcom/huawei/appmarket/e50;)V
 
     return-void
 .end method

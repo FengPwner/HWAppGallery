@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/wn3;->values()[Lcom/huawei/appmarket/wn3;
+    invoke-static {}, Lcom/huawei/appmarket/yn3;->values()[Lcom/huawei/appmarket/yn3;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/wn3;->b:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->b:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/wn3;->e:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->e:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/wn3;->f:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->f:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/wn3;->i:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->i:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -97,7 +97,7 @@
     :try_start_4
     sget-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/wn3;->g:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->g:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -113,7 +113,7 @@
     :try_start_5
     sget-object v0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/wn3;->c:Lcom/huawei/appmarket/wn3;
+    sget-object v1, Lcom/huawei/appmarket/yn3;->c:Lcom/huawei/appmarket/yn3;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

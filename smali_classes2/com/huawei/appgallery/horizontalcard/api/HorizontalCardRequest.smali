@@ -15,12 +15,12 @@
 .field private maxResults_:I
 
 .field private needFilteredApps:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pageContext:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -129,4 +129,12 @@
     iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;->uri_:Ljava/lang/String;
 
     return-void
+.end method
+
+.method public getUri_()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;->uri_:Ljava/lang/String;
+
+    return-object v0
 .end method

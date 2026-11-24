@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/agguard/business/ui/cardkit/card/AgGuardTabCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/agguard/business/ui/cardkit/card/AgGuardTabCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

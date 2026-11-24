@@ -34,17 +34,17 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/c;->a:Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/wh8;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/ci8;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wh8;->B()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ci8;->B()Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

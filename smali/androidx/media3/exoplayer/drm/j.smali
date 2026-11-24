@@ -27,7 +27,7 @@
     .end annotation
 .end method
 
-.method public abstract b([BLcom/huawei/appmarket/t16;)V
+.method public abstract b([BLcom/huawei/appmarket/v16;)V
 .end method
 
 .method public abstract c()Landroidx/media3/exoplayer/drm/j$d;

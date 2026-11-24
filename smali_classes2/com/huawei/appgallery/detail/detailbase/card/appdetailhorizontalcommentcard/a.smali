@@ -118,7 +118,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_0
     return-void

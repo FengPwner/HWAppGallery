@@ -124,11 +124,11 @@
     return-void
 .end method
 
-.method private a(I)Lcom/huawei/appmarket/xk7;
+.method private a(I)Lcom/huawei/appmarket/dl7;
     .registers 6
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/wk7;->b(I)Lcom/huawei/appmarket/xk7;
+    invoke-static {p1}, Lcom/huawei/appmarket/cl7;->b(I)Lcom/huawei/appmarket/dl7;
 
     move-result-object p1
 
@@ -146,7 +146,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xk7;->c()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/dl7;->c()I
 
     move-result v3
 
@@ -158,7 +158,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/cards/widget/UserInfoTextView;->c:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xk7;->b()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/dl7;->b()I
 
     move-result v2
 
@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xk7;->a()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/dl7;->a()I
 
     move-result v2
 
@@ -384,7 +384,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0}, Lcom/huawei/appmarket/ve0;->b(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/we0;->b(Landroid/content/Context;)I
 
     .line 18
     .line 19
@@ -397,7 +397,7 @@
     .line 22
     .line 23
     :goto_0
-    invoke-static {v4, v3, v2, v0}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v4, v3, v2, v0}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 24
     .line 25
@@ -409,7 +409,7 @@
 
     .line 28
     .line 29
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 30
     .line 31
@@ -432,7 +432,7 @@
 
     .line 38
     .line 39
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 40
     .line 41
@@ -735,7 +735,7 @@
 
     .line 68
     .line 69
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 70
     .line 71
@@ -896,7 +896,7 @@
     .line 136
     .line 137
     :goto_6
-    invoke-direct {p0, v5}, Lcom/huawei/appgallery/forum/cards/widget/UserInfoTextView;->a(I)Lcom/huawei/appmarket/xk7;
+    invoke-direct {p0, v5}, Lcom/huawei/appgallery/forum/cards/widget/UserInfoTextView;->a(I)Lcom/huawei/appmarket/dl7;
 
     .line 138
     .line 139
@@ -1226,7 +1226,7 @@
     move-result-object v1
 
     .line 288
-    invoke-interface {v5}, Lcom/huawei/appmarket/xk7;->b()I
+    invoke-interface {v5}, Lcom/huawei/appmarket/dl7;->b()I
 
     .line 289
     .line 290
@@ -1262,7 +1262,7 @@
 
     .line 305
     .line 306
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 307
     .line 308
@@ -1730,11 +1730,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public setFakeView(Landroid/widget/TextView;)V

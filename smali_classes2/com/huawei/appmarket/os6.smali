@@ -1,87 +1,48 @@
 .class public final Lcom/huawei/appmarket/os6;
-.super Lcom/huawei/appmarket/js6;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # instance fields
-.field private final h:I
+.field private a:Lcom/huawei/appmarket/dq0;
 
-.field private final i:I
-
-.field private j:[Lcom/huawei/appmarket/ns6;
+.field private b:I
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/js6;II)V
-    .registers 12
+.method public constructor <init>(Lcom/huawei/appmarket/dq0;I)V
+    .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->i()S
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result v1
+    iput-object p1, p0, Lcom/huawei/appmarket/os6;->a:Lcom/huawei/appmarket/dq0;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->d()S
-
-    move-result v2
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->f()I
-
-    move-result v3
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->j()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->e()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/js6;->h()I
-
-    move-result v6
-
-    const/4 v7, 0x0
-
-    move-object v0, p0
-
-    invoke-direct/range {v0 .. v7}, Lcom/huawei/appmarket/js6;-><init>(SSILjava/lang/String;Ljava/lang/String;ILcom/huawei/appmarket/at6;)V
-
-    iput p2, p0, Lcom/huawei/appmarket/os6;->h:I
-
-    iput p3, p0, Lcom/huawei/appmarket/os6;->i:I
+    iput p2, p0, Lcom/huawei/appmarket/os6;->b:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final m()[Lcom/huawei/appmarket/ns6;
+.method public final a()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/os6;->j:[Lcom/huawei/appmarket/ns6;
+    iget v0, p0, Lcom/huawei/appmarket/os6;->b:I
 
-    return-object v0
-.end method
-
-.method public final n([Lcom/huawei/appmarket/ns6;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/os6;->j:[Lcom/huawei/appmarket/ns6;
-
-    return-void
+    return v0
 .end method
 
 .method public final toString()Ljava/lang/String;
-    .registers 3
+    .registers 4
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     .line 2
     .line 3
-    const-string v1, "ResTableMapEntry(parent="
+    const-string v1, "ResTableHeader(header="
 
     .line 4
     .line 5
@@ -90,16 +51,16 @@
     .line 6
     .line 7
     .line 8
-    iget v1, p0, Lcom/huawei/appmarket/os6;->h:I
+    iget-object v1, p0, Lcom/huawei/appmarket/os6;->a:Lcom/huawei/appmarket/dq0;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
     .line 13
-    const-string v1, ", count="
+    const-string v1, ", packageCount="
 
     .line 14
     .line 15
@@ -108,59 +69,43 @@
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Lcom/huawei/appmarket/os6;->i:I
+    iget v1, p0, Lcom/huawei/appmarket/os6;->b:I
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    const-string v2, ")"
 
     .line 21
     .line 22
-    .line 23
-    const-string v1, ", resTableMaps="
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
+    .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 26
+    return-object v0
     .line 27
     .line 28
-    iget-object v1, p0, Lcom/huawei/appmarket/os6;->j:[Lcom/huawei/appmarket/ns6;
-
     .line 29
     .line 30
-    invoke-static {v1}, Ljava/util/Arrays;->deepToString([Ljava/lang/Object;)Ljava/lang/String;
-
     .line 31
     .line 32
     .line 33
-    move-result-object v1
-
     .line 34
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 35
     .line 36
     .line 37
-    const-string v1, ")"
-
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 43
     .line 44
     .line 45
-    move-result-object v0
-
     .line 46
-    return-object v0
     .line 47
     .line 48
     .line 49

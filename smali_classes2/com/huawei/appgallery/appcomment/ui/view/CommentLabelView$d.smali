@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -86,7 +86,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     :cond_1
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/ui/view/CommentLabelView;->h(Lcom/huawei/appgallery/appcomment/ui/view/CommentLabelView;)Lcom/huawei/appgallery/appcomment/ui/view/CommentLabelView$c;

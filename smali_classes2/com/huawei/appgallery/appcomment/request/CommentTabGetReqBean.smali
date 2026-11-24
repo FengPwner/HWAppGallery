@@ -5,11 +5,11 @@
 
 # instance fields
 .field protected uri:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/request/CommentTabGetReqBean;->uri:Ljava/lang/String;
 
-    invoke-virtual {p0, p2}, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->G0(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->F0(Ljava/lang/String;)V
 
     return-void
 .end method

@@ -241,14 +241,14 @@
     goto :goto_0
 .end method
 
-.method private doWriteGetAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/hv7;
+.method private doWriteGetAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/account/result/AssistTokenResult;",
             ">;"
         }
@@ -268,7 +268,7 @@
 
     invoke-direct {v1, v0, p1, v2}, Lcom/huawei/hms/hwid/p;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -285,9 +285,9 @@
 
     invoke-static {v1, p1, v0}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/support/api/client/Status;
 
@@ -299,9 +299,9 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -369,12 +369,12 @@
 
 
 # virtual methods
-.method public cancelAuthorization()Lcom/huawei/appmarket/hv7;
+.method public cancelAuthorization()Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -414,7 +414,7 @@
 
     invoke-direct {v4, v3, v1, v5}, Lcom/huawei/hms/hwid/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_0
@@ -427,9 +427,9 @@
 
     invoke-static {v0, v1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/hms/support/api/client/Status;
 
@@ -441,9 +441,9 @@
 
     invoke-direct {v2, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -520,14 +520,14 @@
     return v1
 .end method
 
-.method public getAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/hv7;
+.method public getAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/account/result/AssistTokenResult;",
             ">;"
         }
@@ -542,19 +542,19 @@
 
     invoke-static {v2, v0, v1}, Lcom/huawei/hms/hwid/ar;->b(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/support/account/service/AccountAuthServiceImpl;->doWriteGetAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/support/account/service/AccountAuthServiceImpl;->doWriteGetAssistToken(Lcom/huawei/hms/support/api/entity/account/GetAssistTokenRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getChannel()Lcom/huawei/appmarket/hv7;
+.method public getChannel()Lcom/huawei/appmarket/nv7;
     .registers 19
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/account/result/AccountIcon;",
             ">;"
         }
@@ -659,11 +659,11 @@
 
     invoke-direct {v2, v10, v1}, Lcom/huawei/hms/support/account/result/AccountIcon;-><init>(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     new-instance v2, Lcom/huawei/hms/support/api/client/Status;
 
@@ -674,9 +674,9 @@
     invoke-direct {v3, v2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
     :goto_0
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
@@ -692,7 +692,7 @@
 
     invoke-direct {v6, v4, v2, v9, v5}, Lcom/huawei/hms/hwid/i;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)V
 
-    invoke-virtual {v0, v6}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v6}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
     :try_end_0
@@ -705,9 +705,9 @@
 
     invoke-static {v1, v2, v3}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v2, Lcom/huawei/hms/support/api/client/Status;
 
@@ -786,12 +786,12 @@
     return-object v0
 .end method
 
-.method public logout()Lcom/huawei/appmarket/hv7;
+.method public logout()Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -831,7 +831,7 @@
 
     invoke-direct {v4, v3, v1, v5}, Lcom/huawei/hms/hwid/j;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_0
@@ -844,9 +844,9 @@
 
     invoke-static {v0, v1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/hms/support/api/client/Status;
 
@@ -858,21 +858,21 @@
 
     invoke-direct {v2, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public signOut()Lcom/huawei/appmarket/hv7;
+.method public signOut()Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -905,19 +905,19 @@
 
     invoke-direct {v1, v3, v0, v2}, Lcom/huawei/hms/hwid/n;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public silentSignIn()Lcom/huawei/appmarket/hv7;
+.method public silentSignIn()Lcom/huawei/appmarket/nv7;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/account/result/AuthAccount;",
             ">;"
         }
@@ -967,9 +967,9 @@
 
     invoke-static {v0, v1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v2, Lcom/huawei/hms/support/api/client/Status;
 
@@ -981,10 +981,10 @@
 
     invoke-direct {v1, v2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -1011,7 +1011,7 @@
 
     invoke-direct {v3, v5, v1, v4}, Lcom/huawei/hms/hwid/l;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -1022,7 +1022,7 @@
 
     invoke-direct {v3, v5, v1, v4}, Lcom/huawei/hms/hwid/m;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_1
@@ -1035,9 +1035,9 @@
 
     invoke-static {v0, v1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/hms/support/api/client/Status;
 
@@ -1049,19 +1049,19 @@
 
     invoke-direct {v2, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     goto :goto_0
 .end method
 
-.method public startAssistLogin(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+.method public startAssistLogin(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -1093,7 +1093,7 @@
 
     invoke-direct {v3, p1, v1, v4}, Lcom/huawei/hms/hwid/o;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -1106,9 +1106,9 @@
 
     invoke-static {v0, p1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/support/api/client/Status;
 
@@ -1120,9 +1120,9 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

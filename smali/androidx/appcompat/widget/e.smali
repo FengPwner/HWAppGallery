@@ -240,6 +240,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final b()Landroid/content/res/ColorStateList;
@@ -276,7 +277,7 @@
     move-result-object v0
 
     .line 7
-    sget-object v2, Lcom/huawei/appmarket/pe6;->m:[I
+    sget-object v2, Lcom/huawei/appmarket/re6;->m:[I
 
     .line 8
     .line 9
@@ -316,7 +317,7 @@
     move v5, p2
 
     .line 25
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     .line 26
     .line 27
@@ -360,7 +361,7 @@
     move-result-object p2
 
     .line 45
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 46
     .line 47
@@ -421,7 +422,7 @@
     move-result-object p2
 
     .line 71
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 72
     .line 73

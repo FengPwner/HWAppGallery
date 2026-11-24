@@ -37,7 +37,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/ew2;->d()Lcom/huawei/appmarket/yv2;
+    invoke-static {}, Lcom/huawei/appmarket/hw2;->d()Lcom/huawei/appmarket/bw2;
 
     .line 13
     .line 14
@@ -45,7 +45,7 @@
     move-result-object p1
 
     .line 16
-    sget-object v0, Lcom/huawei/appmarket/yv2;->e:Lcom/huawei/appmarket/yv2;
+    sget-object v0, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
 
     .line 17
     .line 18
@@ -164,16 +164,15 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method final p1()Ljava/lang/String;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->d:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->d:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -234,7 +233,7 @@
 
     .line 24
     .line 25
-    sget-object v2, Lcom/huawei/appmarket/yv2;->e:Lcom/huawei/appmarket/yv2;
+    sget-object v2, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
 
     .line 26
     .line 27
@@ -242,7 +241,7 @@
 
     .line 28
     :cond_1
-    sget-object v2, Lcom/huawei/appmarket/yv2;->d:Lcom/huawei/appmarket/yv2;
+    sget-object v2, Lcom/huawei/appmarket/bw2;->d:Lcom/huawei/appmarket/bw2;
 
     .line 29
     .line 30
@@ -264,7 +263,7 @@
     .line 36
     .line 37
     :goto_2
-    invoke-static {v2}, Lcom/huawei/appmarket/ew2;->o(Lcom/huawei/appmarket/yv2;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hw2;->o(Lcom/huawei/appmarket/bw2;)V
 
     .line 38
     .line 39
@@ -317,7 +316,7 @@
     move-result-object v1
 
     .line 64
-    invoke-static {v1}, Lcom/huawei/appmarket/gy1;->a(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {v1}, Lcom/huawei/appmarket/ky1;->a(Landroid/content/Context;)Landroid/content/Context;
 
     .line 65
     .line 66
@@ -325,7 +324,7 @@
     move-result-object v1
 
     .line 68
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 69
     .line 70
@@ -345,7 +344,7 @@
     const/4 v5, 0x0
 
     .line 78
-    invoke-virtual {v2, v1, v4, v5}, Lcom/huawei/appmarket/cf0;->m(Landroid/content/Context;Lcom/huawei/appmarket/ye0;Landroid/os/Bundle;)V
+    invoke-virtual {v2, v1, v4, v5}, Lcom/huawei/appmarket/df0;->m(Landroid/content/Context;Lcom/huawei/appmarket/ze0;Landroid/os/Bundle;)V
 
     .line 79
     .line 80

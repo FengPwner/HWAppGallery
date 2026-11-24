@@ -1,39 +1,35 @@
-.class final Lcom/huawei/appmarket/z96;
-.super Landroid/view/View$AccessibilityDelegate;
+.class public final Lcom/huawei/appmarket/z96;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ba6;)V
-    .registers 2
+# static fields
+.field private static a:Lcom/huawei/appmarket/o96;
 
-    .line 1
-    invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;-><init>()V
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
-    .registers 4
+.method public static a()Lcom/huawei/appmarket/o96;
+    .registers 1
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    sget-object v0, Lcom/huawei/appmarket/z96;->a:Lcom/huawei/appmarket/o96;
 
-    const/4 p1, 0x0
+    return-object v0
+.end method
 
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClickable(Z)V
+.method public static b(Lcom/huawei/appmarket/o96;)V
+    .registers 1
 
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_CLICK:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-
-    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->removeAction(Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;)Z
-
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setLongClickable(Z)V
-
-    sget-object p1, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_LONG_CLICK:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->removeAction(Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;)Z
+    .line 1
+    sput-object p0, Lcom/huawei/appmarket/z96;->a:Lcom/huawei/appmarket/o96;
 
     return-void
 .end method

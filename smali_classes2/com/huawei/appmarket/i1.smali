@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/u82;
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/y82;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # instance fields
@@ -126,7 +126,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -142,13 +141,13 @@
     return-void
 .end method
 
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/i1;->b:Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->z3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->z3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method

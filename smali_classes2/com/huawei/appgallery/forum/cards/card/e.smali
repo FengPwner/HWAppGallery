@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/p54$a;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/s54$a;",
         ">;"
     }
 .end annotation
@@ -42,37 +42,37 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/p54$a;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/s54$a;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/p54$a;
+    check-cast v0, Lcom/huawei/appmarket/s54$a;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/p54$a;->b()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/s54$a;->b()I
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/p54$a;->a()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/s54$a;->a()I
 
     move-result p1
 
@@ -82,7 +82,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/e;->b:Lcom/huawei/appgallery/forum/base/card/bean/User;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/p54$a;->a()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/s54$a;->a()I
 
     move-result v0
 
@@ -90,9 +90,9 @@
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendItemCard;->P1(Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendItemCard;)V
 
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object p1
 
@@ -102,15 +102,15 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/to2;->e(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/vo2;->e(Landroid/content/Context;)I
 
     move-result v3
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/to2;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/vo2;->d()Ljava/lang/String;
 
     move-result-object v5
 
@@ -140,7 +140,7 @@
     const/4 v4, 0x0
 
     :goto_0
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/kk;->b(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/jk;->b(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void

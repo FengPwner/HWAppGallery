@@ -22,13 +22,13 @@
 
 .field final synthetic c:I
 
-.field final synthetic d:Lcom/huawei/appmarket/r42;
+.field final synthetic d:Lcom/huawei/appmarket/v42;
 
 .field final synthetic e:Lcom/google/android/material/transformation/ExpandableBehavior;
 
 
 # direct methods
-.method constructor <init>(Lcom/google/android/material/transformation/ExpandableBehavior;Landroid/view/View;ILcom/huawei/appmarket/r42;)V
+.method constructor <init>(Lcom/google/android/material/transformation/ExpandableBehavior;Landroid/view/View;ILcom/huawei/appmarket/v42;)V
     .registers 5
 
     .line 1
@@ -38,7 +38,7 @@
 
     iput p3, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->c:I
 
-    iput-object p4, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->d:Lcom/huawei/appmarket/r42;
+    iput-object p4, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->d:Lcom/huawei/appmarket/v42;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -70,13 +70,13 @@
 
     if-ne v2, v3, :cond_0
 
-    iget-object v2, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->d:Lcom/huawei/appmarket/r42;
+    iget-object v2, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->d:Lcom/huawei/appmarket/v42;
 
     move-object v3, v2
 
     check-cast v3, Landroid/view/View;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/v42;->a()Z
 
     move-result v2
 

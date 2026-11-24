@@ -203,7 +203,7 @@
 
     .line 2
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -227,7 +227,7 @@
     move-result-object p0
 
     .line 4
-    invoke-static {p0}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     move-result p1
 

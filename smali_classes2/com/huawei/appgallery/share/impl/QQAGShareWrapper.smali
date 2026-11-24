@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    const-class v0, Lcom/huawei/appmarket/sc6;
+    const-class v0, Lcom/huawei/appmarket/uc6;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -57,11 +57,11 @@
         }
     .end annotation
 
-    const-class v0, Lcom/huawei/appmarket/tc6;
+    const-class v0, Lcom/huawei/appmarket/vc6;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    const-class v0, Lcom/huawei/appmarket/bd6;
+    const-class v0, Lcom/huawei/appmarket/dd6;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 

@@ -40,7 +40,7 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -62,7 +62,7 @@
 
     const-string v1, "PackageUninstallObserver"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/control/PackageUninstallObserver;->mContext:Landroid/content/Context;
 
@@ -76,7 +76,7 @@
 
     move v4, p2
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/za1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/ab1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
 
     return-void
 .end method

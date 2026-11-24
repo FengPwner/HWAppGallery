@@ -13,7 +13,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/kk7;
+.field private a:Lcom/huawei/appmarket/qk7;
 
 .field private b:I
 
@@ -29,7 +29,7 @@
 
 .field private h:I
 
-.field private i:Lcom/huawei/appmarket/bm2;
+.field private i:Lcom/huawei/appmarket/dm2;
 
 .field private j:F
 
@@ -56,7 +56,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/kk7;
+    iput-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/qk7;
 
     const/4 v0, 0x1
 
@@ -250,9 +250,9 @@
     invoke-virtual {p0}, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->f()V
 
     :goto_0
-    new-instance p1, Lcom/huawei/appmarket/kk7;
+    new-instance p1, Lcom/huawei/appmarket/qk7;
 
-    sget-object p2, Lcom/huawei/appmarket/ox1;->z:Lcom/huawei/appmarket/ox1$t;
+    sget-object p2, Lcom/huawei/appmarket/sx1;->z:Lcom/huawei/appmarket/sx1$t;
 
     int-to-float p3, v1
 
@@ -260,11 +260,11 @@
 
     const/high16 v2, 0x41f00000    # 30.0f
 
-    invoke-direct {p1, p2, v1, v2, p3}, Lcom/huawei/appmarket/kk7;-><init>(Lcom/huawei/appmarket/gm2;FFF)V
+    invoke-direct {p1, p2, v1, v2, p3}, Lcom/huawei/appmarket/qk7;-><init>(Lcom/huawei/appmarket/im2;FFF)V
 
-    iput-object p1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/kk7;
+    iput-object p1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/qk7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/o06;->b()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/q06;->b()F
 
     move-result p1
 
@@ -418,13 +418,13 @@
 
     if-ne v1, v2, :cond_6
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/bm2;
+    iget-object v1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/dm2;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bm2;->g(F)Lcom/huawei/appmarket/ms5;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/dm2;->g(F)Lcom/huawei/appmarket/os5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ms5;->b()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/os5;->b()F
 
     move-result v1
 
@@ -442,13 +442,13 @@
 
     iput v2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->c:I
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/bm2;
+    iget-object v1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/dm2;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bm2;->g(F)Lcom/huawei/appmarket/ms5;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/dm2;->g(F)Lcom/huawei/appmarket/os5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ms5;->a()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/os5;->a()F
 
     move-result v0
 
@@ -493,9 +493,9 @@
 
     int-to-float v1, v1
 
-    iget-object v2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/kk7;
+    iget-object v2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->a:Lcom/huawei/appmarket/qk7;
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/kk7;->getInterpolation(F)F
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/qk7;->getInterpolation(F)F
 
     move-result v0
 
@@ -552,32 +552,32 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/bm2;
+    new-instance v0, Lcom/huawei/appmarket/dm2;
 
     int-to-float v2, p3
 
-    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/bm2;-><init>(FF)V
+    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/dm2;-><init>(FF)V
 
     :goto_0
-    iput-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/bm2;
+    iput-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/dm2;
 
     goto :goto_1
 
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/bm2;
+    new-instance v0, Lcom/huawei/appmarket/dm2;
 
     int-to-float v2, p3
 
     iget v3, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->q:F
 
-    invoke-direct {v0, v2, v3}, Lcom/huawei/appmarket/bm2;-><init>(FF)V
+    invoke-direct {v0, v2, v3}, Lcom/huawei/appmarket/dm2;-><init>(FF)V
 
     goto :goto_0
 
     :goto_1
-    iget-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/bm2;
+    iget-object v0, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/dm2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/o06;->b()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/q06;->b()F
 
     move-result v0
 
@@ -613,9 +613,9 @@
 
     int-to-float p1, p2
 
-    iget-object p2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/bm2;
+    iget-object p2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper;->i:Lcom/huawei/appmarket/dm2;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/o06;->c()F
+    invoke-virtual {p2}, Lcom/huawei/appmarket/q06;->c()F
 
     move-result p2
 

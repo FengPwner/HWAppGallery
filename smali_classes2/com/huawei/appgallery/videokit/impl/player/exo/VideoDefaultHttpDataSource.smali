@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/s28;IIZLandroidx/media3/datasource/HttpDataSource$c;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/y28;IIZLandroidx/media3/datasource/HttpDataSource$c;)V
     .registers 9
 
     .line 1
@@ -31,7 +31,7 @@
 
     invoke-virtual {v0, p6}, Landroidx/media3/datasource/b$b;->b(Z)V
 
-    invoke-virtual {v0, p3}, Landroidx/media3/datasource/b$b;->f(Lcom/huawei/appmarket/s28;)V
+    invoke-virtual {v0, p3}, Landroidx/media3/datasource/b$b;->f(Lcom/huawei/appmarket/y28;)V
 
     invoke-virtual {p7}, Landroidx/media3/datasource/HttpDataSource$c;->c()Ljava/util/Map;
 
@@ -52,13 +52,13 @@
 
 
 # virtual methods
-.method public addTransferListener(Lcom/huawei/appmarket/s28;)V
+.method public addTransferListener(Lcom/huawei/appmarket/y28;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDefaultHttpDataSource;->mDefaultHttpDataSource:Landroidx/media3/datasource/b;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/i30;->addTransferListener(Lcom/huawei/appmarket/s28;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/i30;->addTransferListener(Lcom/huawei/appmarket/y28;)V
 
     return-void
 .end method
@@ -144,7 +144,7 @@
     return-object v0
 .end method
 
-.method public open(Lcom/huawei/appmarket/l91;)J
+.method public open(Lcom/huawei/appmarket/m91;)J
     .registers 15
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -162,7 +162,7 @@
     :try_start_0
     iget-object v3, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDefaultHttpDataSource;->mDefaultHttpDataSource:Landroidx/media3/datasource/b;
 
-    invoke-virtual {v3, p1}, Landroidx/media3/datasource/b;->open(Lcom/huawei/appmarket/l91;)J
+    invoke-virtual {v3, p1}, Landroidx/media3/datasource/b;->open(Lcom/huawei/appmarket/m91;)J
 
     move-result-wide v3
     :try_end_0
@@ -178,7 +178,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
@@ -196,7 +196,7 @@
 
     invoke-direct/range {v7 .. v12}, Lcom/huawei/appgallery/videokit/impl/eventbus/StateInfoMessage;-><init>(Ljava/lang/String;IIJ)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;->getInstance()Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;
 
@@ -235,7 +235,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
@@ -251,7 +251,7 @@
 
     invoke-direct {v1, v3, v2, v5, v4}, Lcom/huawei/appgallery/videokit/impl/eventbus/StateInfoMessage;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;->getInstance()Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;
 
@@ -278,7 +278,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
@@ -294,7 +294,7 @@
 
     invoke-direct {v1, v3, v2, v5, v4}, Lcom/huawei/appgallery/videokit/impl/eventbus/StateInfoMessage;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;->getInstance()Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;
 

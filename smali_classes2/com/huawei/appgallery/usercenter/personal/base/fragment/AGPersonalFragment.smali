@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "PersonalFragment"
     protocol = Lcom/huawei/appgallery/usercenter/personal/api/IPersonalProtocol;
 .end annotation
@@ -25,17 +25,17 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/a06;
+    new-instance v0, Lcom/huawei/appmarket/c06;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/a06;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/c06;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/w81;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/x81;
 
     goto :goto_0
 
@@ -52,7 +52,7 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;->w4()V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 

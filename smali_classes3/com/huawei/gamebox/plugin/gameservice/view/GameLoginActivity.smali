@@ -14,7 +14,7 @@
 # instance fields
 .field private final b:Landroid/content/BroadcastReceiver;
 
-.field private c:Lcom/huawei/appmarket/bx4;
+.field private c:Lcom/huawei/appmarket/ex4;
 
 
 # direct methods
@@ -41,7 +41,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 5
     .line 6
@@ -49,7 +49,7 @@
     move-result-object p0
 
     .line 8
-    invoke-virtual {p0}, Lcom/huawei/appmarket/cf0;->X0()Lcom/huawei/appmarket/cd0;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/df0;->X0()Lcom/huawei/appmarket/cd0;
 
     .line 9
     .line 10
@@ -195,7 +195,7 @@
 
     .line 83
     .line 84
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -289,7 +289,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -297,7 +296,7 @@
 .method public final finish()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -307,7 +306,7 @@
 
     const-string v1, "finish"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->finish()V
@@ -374,7 +373,7 @@
     move-result-object v0
 
     .line 30
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 31
     .line 32
@@ -382,7 +381,7 @@
     move-result-object v0
 
     .line 34
-    iput-object v0, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/bx4;
+    iput-object v0, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/ex4;
 
     .line 35
     .line 36
@@ -390,7 +389,7 @@
 
     .line 37
     .line 38
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 39
     .line 40
@@ -398,7 +397,7 @@
     move-result-object v0
 
     .line 42
-    iget-object v1, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/bx4;
+    iget-object v1, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/ex4;
 
     .line 43
     .line 44
@@ -406,7 +405,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 47
     .line 48
@@ -436,7 +435,7 @@
     move-result-object v1
 
     .line 62
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 63
     .line 64
@@ -456,7 +455,7 @@
 
     .line 71
     .line 72
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -502,7 +501,7 @@
     move-result-object v0
 
     .line 95
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 96
     .line 97
@@ -518,7 +517,7 @@
 
     .line 102
     .line 103
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -540,7 +539,7 @@
 
     .line 113
     .line 114
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 115
     .line 116
@@ -556,7 +555,7 @@
 
     .line 121
     .line 122
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
     .line 124
@@ -574,7 +573,7 @@
     .line 129
     .line 130
     .line 131
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 132
     .line 133
@@ -590,7 +589,7 @@
 
     .line 138
     .line 139
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 140
     .line 141
@@ -602,7 +601,7 @@
 
     .line 144
     .line 145
-    invoke-interface {v1, p0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, p0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 146
     .line 147
@@ -610,7 +609,7 @@
     move-result-object p1
 
     .line 149
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 150
     .line 151
@@ -820,14 +819,12 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final onDestroy()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -837,16 +834,16 @@
 
     const-string v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/bx4;
+    iget-object v0, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->c:Lcom/huawei/appmarket/ex4;
 
     if-eqz v0, :cond_1
 
     iget-object v1, p0, Lcom/huawei/gamebox/plugin/gameservice/view/GameLoginActivity;->b:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     :cond_1
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onDestroy()V

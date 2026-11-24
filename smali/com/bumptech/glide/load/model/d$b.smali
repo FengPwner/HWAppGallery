@@ -239,6 +239,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final cancel()V
@@ -247,12 +248,12 @@
     return-void
 .end method
 
-.method public final d(Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/i81$a;)V
+.method public final d(Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/i81$a;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/s66;",
+            "Lcom/huawei/appmarket/u66;",
             "Lcom/huawei/appmarket/i81$a<",
             "-TData;>;)V"
         }
@@ -287,11 +288,11 @@
     return-void
 .end method
 
-.method public final e()Lcom/huawei/appmarket/d91;
+.method public final e()Lcom/huawei/appmarket/e91;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/d91;->b:Lcom/huawei/appmarket/d91;
+    sget-object v0, Lcom/huawei/appmarket/e91;->b:Lcom/huawei/appmarket/e91;
 
     return-object v0
 .end method

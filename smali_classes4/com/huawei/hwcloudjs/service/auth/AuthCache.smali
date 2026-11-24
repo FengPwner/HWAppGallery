@@ -121,7 +121,7 @@
 
     .line 27
     .line 28
-    invoke-static {v2, p1, p2, p1}, Lcom/huawei/appmarket/ej2;->n(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1, p2, p1}, Lcom/huawei/appmarket/tr2;->l(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -417,10 +417,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private getCacheFilePath(Ljava/lang/String;)Ljava/lang/String;
@@ -488,7 +484,7 @@
     move-result-object v1
 
     .line 32
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -643,23 +639,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private isExpired(Lcom/huawei/hwcloudjs/service/auth/bean/AuthBean;)Z
@@ -792,7 +771,7 @@
 
     .line 9
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     .line 10
     .line 11
@@ -984,23 +963,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public writeToFile(Lcom/huawei/hwcloudjs/service/auth/bean/AuthBean;)V

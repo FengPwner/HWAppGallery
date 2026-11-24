@@ -98,11 +98,11 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v1, Lcom/huawei/appmarket/p85;
+    new-instance v1, Lcom/huawei/appmarket/s85;
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/p85;-><init>(Ljava/util/List;I)V
+    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/s85;-><init>(Ljava/util/List;I)V
 
     invoke-interface {p0, v1}, Ljava/lang/Iterable;->forEach(Ljava/util/function/Consumer;)V
 
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/rn7;->p(Ljava/util/Spliterator;)Ljava/util/stream/Stream;
+    invoke-static {v0}, Lcom/huawei/appmarket/et6;->p(Ljava/util/Spliterator;)Ljava/util/stream/Stream;
 
     move-result-object v0
 

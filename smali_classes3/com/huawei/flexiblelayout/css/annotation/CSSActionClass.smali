@@ -25,7 +25,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/dg0;",
+            "Lcom/huawei/appmarket/eg0;",
             ">;"
         }
     .end annotation

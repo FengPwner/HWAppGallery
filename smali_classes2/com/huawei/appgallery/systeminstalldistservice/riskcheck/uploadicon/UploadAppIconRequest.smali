@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/uploadicon/UploadAppIconRequest;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
 
 # instance fields
 .field private appSigns:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -24,27 +24,27 @@
 .end field
 
 .field private hash:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private targetSdkVersion:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private version:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private versionCode:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     const-string v0, "client.uploadAppIcon"
 
@@ -294,5 +294,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

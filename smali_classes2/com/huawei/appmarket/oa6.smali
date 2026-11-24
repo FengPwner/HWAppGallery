@@ -3,16 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fy3;
+.implements Ljava/io/Serializable;
 
 
-# annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
+# static fields
+.field private static final serialVersionUID:J = 0x74d134c36ae2f2d5L
 
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/fy3;
-.end annotation
+
+# instance fields
+.field private b:I
+
+.field private c:Lcom/huawei/appmarket/na6;
 
 
 # direct methods
@@ -26,9 +27,38 @@
 
 
 # virtual methods
-.method public final init()V
-    .registers 1
+.method public final a()Lcom/huawei/appmarket/na6;
+    .registers 2
 
     .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/oa6;->c:Lcom/huawei/appmarket/na6;
+
+    return-object v0
+.end method
+
+.method public final b()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/oa6;->b:I
+
+    return v0
+.end method
+
+.method public final c(Lcom/huawei/appmarket/na6;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/oa6;->c:Lcom/huawei/appmarket/na6;
+
+    return-void
+.end method
+
+.method public final d(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/oa6;->b:I
+
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final Lcom/huawei/appmarket/u08$a;
+.class final synthetic Lcom/huawei/appmarket/u08$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,25 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "a"
+    accessFlags = 0x1008
+    name = null
 .end annotation
-
-
-# direct methods
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/u08$a;-><init>()V
-
-    return-void
-.end method

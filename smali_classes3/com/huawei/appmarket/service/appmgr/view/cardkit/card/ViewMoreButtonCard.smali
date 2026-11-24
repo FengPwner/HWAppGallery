@@ -44,12 +44,12 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/fs;->f()Lcom/huawei/appmarket/fs;
+    invoke-static {}, Lcom/huawei/appmarket/gs;->f()Lcom/huawei/appmarket/gs;
 
     .line 15
     .line 16
@@ -60,7 +60,7 @@
     const/4 v1, 0x1
 
     .line 19
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fs;->q(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gs;->q(Z)V
 
     .line 20
     .line 21
@@ -87,7 +87,7 @@
 
     .line 33
     .line 34
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 35
     .line 36
@@ -95,7 +95,7 @@
     move-result-object p0
 
     .line 38
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 39
     .line 40
@@ -174,7 +174,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -210,7 +209,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
@@ -231,7 +230,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/ViewMoreButtonCard;->y:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a180f
+    const v0, 0x7f0a1810
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

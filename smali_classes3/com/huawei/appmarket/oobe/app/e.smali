@@ -21,7 +21,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     .line 2
     .line 3
@@ -29,7 +29,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     .line 6
     .line 7
@@ -49,7 +49,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     .line 16
     .line 17
@@ -57,7 +57,7 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->r()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->r()Ljava/util/ArrayList;
 
     .line 20
     .line 21
@@ -107,7 +107,7 @@
     move-result-object v2
 
     .line 43
-    invoke-static {v2}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 44
     .line 45
@@ -119,7 +119,7 @@
 
     .line 48
     .line 49
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 50
     .line 51
@@ -131,11 +131,11 @@
 
     .line 54
     .line 55
-    check-cast v2, Lcom/huawei/appmarket/dr6;
+    check-cast v2, Lcom/huawei/appmarket/gr6;
 
     .line 56
     .line 57
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 58
     .line 59
@@ -143,11 +143,11 @@
     move-result-object v2
 
     .line 61
-    const-class v3, Lcom/huawei/appmarket/vs3;
+    const-class v3, Lcom/huawei/appmarket/xs3;
 
     .line 62
     .line 63
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -155,7 +155,7 @@
     move-result-object v2
 
     .line 67
-    check-cast v2, Lcom/huawei/appmarket/vs3;
+    check-cast v2, Lcom/huawei/appmarket/xs3;
 
     .line 68
     .line 69
@@ -167,7 +167,7 @@
     move-result-object v1
 
     .line 73
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/vs3;->d(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/xs3;->d(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     .line 74
     .line 75

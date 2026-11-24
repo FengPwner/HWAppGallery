@@ -4,8 +4,51 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;)V
+.method public abstract onEvent(ILjava/lang/String;Ljava/lang/String;)V
+    .param p1    # I
+        .annotation runtime Lcom/huawei/appmarket/ye5;
+            value = "type"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lcom/huawei/appmarket/ye5;
+            value = "event"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lcom/huawei/appmarket/ye5;
+            value = "mapJson"
+        .end annotation
+    .end param
+    .annotation runtime Lcom/huawei/appmarket/af5;
+        value = "onEventWithString"
+    .end annotation
 .end method
 
-.method public abstract b(Landroid/content/Context;Lcom/huawei/appmarket/u80;)V
+.method public abstract onEvent(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/lang/String;",
+            "Ljava/util/LinkedHashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract onMaintenanceEvent(Ljava/lang/String;Ljava/util/LinkedHashMap;Lcom/huawei/appmarket/q80;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/LinkedHashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Lcom/huawei/appmarket/q80;",
+            ")V"
+        }
+    .end annotation
 .end method

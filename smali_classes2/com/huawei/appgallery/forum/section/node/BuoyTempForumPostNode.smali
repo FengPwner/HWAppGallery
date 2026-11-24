@@ -128,7 +128,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final L(Landroid/content/Context;)Lcom/huawei/appgallery/forum/section/card/BuoyForumPostCard;
@@ -245,5 +244,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

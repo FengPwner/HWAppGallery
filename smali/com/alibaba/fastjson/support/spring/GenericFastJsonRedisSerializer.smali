@@ -135,7 +135,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -283,7 +283,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 30
     .line 31

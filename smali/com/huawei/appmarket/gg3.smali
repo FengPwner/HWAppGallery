@@ -2,5 +2,16 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
+
+# virtual methods
+.method public abstract a(IILjava/lang/String;)V
+.end method
+
+.method public abstract b(JLjava/lang/String;)V
+.end method
+
+.method public abstract c(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/p5;)V
+.end method
+
+.method public abstract d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+.end method

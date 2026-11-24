@@ -114,7 +114,7 @@
     const/4 v2, 0x1
 
     .line 1
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/b00;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
 
     move-result-object v3
 

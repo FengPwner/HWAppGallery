@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/huawei/appmarket/h50;->f:Lcom/huawei/appmarket/c24;
+    iget-object v1, v0, Lcom/huawei/appmarket/h50;->f:Lcom/huawei/appmarket/e24;
 
     .line 4
     .line 5
@@ -79,7 +79,7 @@
 
     .line 19
     .line 20
-    iget-object v0, v0, Lcom/huawei/appmarket/h50;->f:Lcom/huawei/appmarket/c24;
+    iget-object v0, v0, Lcom/huawei/appmarket/h50;->f:Lcom/huawei/appmarket/e24;
 
     .line 21
     .line 22

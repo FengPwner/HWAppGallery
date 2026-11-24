@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v1}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v1
 
@@ -115,7 +115,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v2}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v2
 
@@ -137,7 +137,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v4}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v4
 
@@ -159,7 +159,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v6}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v6
 
@@ -175,13 +175,13 @@
 
     new-instance v6, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;
 
-    const-string v8, "webp"
+    const-string/jumbo v8, "webp"
 
     filled-new-array {v8}, [Ljava/lang/String;
 
     move-result-object v8
 
-    invoke-static {v8}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v8}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v8
 
@@ -203,7 +203,7 @@
 
     move-result-object v10
 
-    invoke-static {v10}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v10}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v10
 
@@ -229,7 +229,7 @@
 
     move-result-object v12
 
-    invoke-static {v12}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v12}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v12
 
@@ -237,7 +237,7 @@
 
     const/4 v15, 0x6
 
-    const-string v13, "video/mpeg"
+    const-string/jumbo v13, "video/mpeg"
 
     invoke-direct {v10, v14, v15, v13, v12}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -253,7 +253,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -261,7 +261,7 @@
 
     const/4 v15, 0x7
 
-    const-string v11, "video/mp4"
+    const-string/jumbo v11, "video/mp4"
 
     invoke-direct {v12, v14, v15, v11, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -275,7 +275,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -283,7 +283,7 @@
 
     const/16 v15, 0x8
 
-    const-string v9, "video/quicktime"
+    const-string/jumbo v9, "video/quicktime"
 
     invoke-direct {v11, v14, v15, v9, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -299,7 +299,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -307,7 +307,7 @@
 
     const/16 v15, 0x9
 
-    const-string v7, "video/3gpp"
+    const-string/jumbo v7, "video/3gpp"
 
     invoke-direct {v9, v14, v15, v7, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -323,7 +323,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -331,7 +331,7 @@
 
     const/16 v15, 0xa
 
-    const-string v5, "video/3gpp2"
+    const-string/jumbo v5, "video/3gpp2"
 
     invoke-direct {v7, v14, v15, v5, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -345,7 +345,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -353,7 +353,7 @@
 
     const/16 v15, 0xb
 
-    const-string v3, "video/x-matroska"
+    const-string/jumbo v3, "video/x-matroska"
 
     invoke-direct {v5, v14, v15, v3, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -361,13 +361,13 @@
 
     new-instance v3, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;
 
-    const-string v13, "webm"
+    const-string/jumbo v13, "webm"
 
     filled-new-array {v13}, [Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -377,7 +377,7 @@
 
     move-object/from16 v28, v5
 
-    const-string v5, "video/webm"
+    const-string/jumbo v5, "video/webm"
 
     invoke-direct {v3, v14, v15, v5, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -391,7 +391,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -401,7 +401,7 @@
 
     move-object/from16 v30, v3
 
-    const-string v3, "video/mp2ts"
+    const-string/jumbo v3, "video/mp2ts"
 
     invoke-direct {v5, v14, v15, v3, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -415,7 +415,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -425,7 +425,7 @@
 
     move-object/from16 v32, v5
 
-    const-string v5, "video/avi"
+    const-string/jumbo v5, "video/avi"
 
     invoke-direct {v3, v14, v15, v5, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -439,7 +439,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -449,7 +449,7 @@
 
     move-object/from16 v34, v3
 
-    const-string v3, "video/x-ms-asf"
+    const-string/jumbo v3, "video/x-ms-asf"
 
     invoke-direct {v5, v14, v15, v3, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -457,17 +457,17 @@
 
     new-instance v3, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;
 
-    const-string v13, "wvx"
+    const-string/jumbo v13, "wvx"
 
-    const-string v14, "wmv"
+    const-string/jumbo v14, "wmv"
 
-    const-string v15, "wmx"
+    const-string/jumbo v15, "wmx"
 
     filled-new-array {v14, v15, v13}, [Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -477,7 +477,7 @@
 
     move-object/from16 v36, v5
 
-    const-string v5, "video/x-ms-wmv"
+    const-string/jumbo v5, "video/x-ms-wmv"
 
     invoke-direct {v3, v14, v15, v5, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -491,7 +491,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -501,7 +501,7 @@
 
     move-object/from16 v38, v3
 
-    const-string v3, "video/x-sgi-movie"
+    const-string/jumbo v3, "video/x-sgi-movie"
 
     invoke-direct {v5, v14, v15, v3, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -515,7 +515,7 @@
 
     move-result-object v13
 
-    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+    invoke-static {v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;->a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
 
     move-result-object v13
 
@@ -525,7 +525,7 @@
 
     move-object/from16 v40, v5
 
-    const-string v5, "video/vnd.rn-realvideo"
+    const-string/jumbo v5, "video/vnd.rn-realvideo"
 
     invoke-direct {v3, v14, v15, v5, v13}, Lcom/huawei/phoneservice/feedbackcommon/photolibrary/MimeType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/util/Set;)V
 
@@ -619,7 +619,7 @@
 
     const-string v19, "png"
 
-    const-string v20, "webp"
+    const-string/jumbo v20, "webp"
 
     const-string v21, "mng"
 
@@ -641,11 +641,11 @@
 
     const-string v30, "asf"
 
-    const-string v31, "wmv"
+    const-string/jumbo v31, "wmv"
 
-    const-string v32, "wmx"
+    const-string/jumbo v32, "wmx"
 
-    const-string v33, "wvx"
+    const-string/jumbo v33, "wvx"
 
     const-string v34, "movie"
 
@@ -693,17 +693,17 @@
     return-void
 .end method
 
-.method private static varargs a([Ljava/lang/String;)Lcom/huawei/appmarket/jx;
+.method private static varargs a([Ljava/lang/String;)Lcom/huawei/appmarket/kx;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/jx;
+    new-instance v0, Lcom/huawei/appmarket/kx;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jx;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kx;-><init>(Ljava/util/Collection;)V
 
     return-object v0
 .end method
@@ -751,7 +751,7 @@
 
 .method public static getMimeType(Ljava/lang/String;)Ljava/lang/String;
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1043,28 +1043,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static getSuffixFromUrl(Ljava/lang/String;)Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Lcom/huawei/phoneservice/faq/base/util/FaqStringUtil;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1087,7 +1070,7 @@
 
 .method public static isImageFromUrl(Ljava/lang/String;)Z
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1299,28 +1282,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static isVideo(Ljava/lang/String;)Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -1330,7 +1296,7 @@
     return p0
 
     :cond_0
-    const-string v0, "video"
+    const-string/jumbo v0, "video"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -1341,7 +1307,7 @@
 
 .method public static isVideoFromUrl(Ljava/lang/String;)Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Lcom/huawei/phoneservice/faq/base/util/FaqStringUtil;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1368,7 +1334,7 @@
 
 .method public static ofAll()Ljava/util/Set;
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -1391,7 +1357,7 @@
 
 .method public static ofImage()Ljava/util/Set;
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -1448,7 +1414,7 @@
 
 .method public static ofVideo()Ljava/util/Set;
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -1577,7 +1543,7 @@
 # virtual methods
 .method public checkType(Landroid/content/ContentResolver;Landroid/net/Uri;)Z
     .registers 17
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -2053,10 +2019,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final toString()Ljava/lang/String;

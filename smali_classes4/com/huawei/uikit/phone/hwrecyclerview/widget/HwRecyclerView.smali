@@ -4,15 +4,15 @@
 
 
 # instance fields
-.field private G1:Z
+.field private n1:Z
 
-.field private H1:Landroid/content/IntentFilter;
+.field private o1:Landroid/content/IntentFilter;
 
-.field private I1:Z
+.field private s1:Z
 
-.field private J1:Landroid/content/Context;
+.field private t1:Landroid/content/Context;
 
-.field private K1:Landroid/content/BroadcastReceiver;
+.field private v1:Landroid/content/BroadcastReceiver;
 
 
 # direct methods
@@ -26,7 +26,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView$a;-><init>(Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;)V
 
-    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
     invoke-super {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -51,7 +51,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView$a;-><init>(Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;)V
 
-    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
     invoke-super {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -74,7 +74,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView$a;-><init>(Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;)V
 
-    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
     invoke-super {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -91,19 +91,19 @@
     .line 1
     const-string v0, "HwRecyclerView"
 
-    iget-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G1:Z
+    iget-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->n1:Z
 
     if-eqz v1, :cond_2
 
-    iget-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iget-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
 
     if-nez v1, :cond_2
 
-    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->H1:Landroid/content/IntentFilter;
+    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->o1:Landroid/content/IntentFilter;
 
     if-nez v1, :cond_0
 
@@ -113,7 +113,7 @@
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    iput-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->H1:Landroid/content/IntentFilter;
+    iput-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->o1:Landroid/content/IntentFilter;
 
     :cond_0
     const/4 v1, 0x0
@@ -125,22 +125,22 @@
 
     if-lt v2, v3, :cond_1
 
-    iget-object v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iget-object v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
-    iget-object v3, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iget-object v3, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
-    iget-object v4, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->H1:Landroid/content/IntentFilter;
+    iget-object v4, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->o1:Landroid/content/IntentFilter;
 
-    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/e53;->l(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/h53;->l(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     goto :goto_0
 
     :cond_1
-    iget-object v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iget-object v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
-    iget-object v3, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iget-object v3, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
-    iget-object v4, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->H1:Landroid/content/IntentFilter;
+    iget-object v4, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->o1:Landroid/content/IntentFilter;
 
     const-string v5, "huawei.permission.CLICK_STATUSBAR_BROADCAST"
 
@@ -151,7 +151,7 @@
     :goto_0
     const/4 v2, 0x1
 
-    iput-boolean v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iput-boolean v2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Landroid/content/ReceiverCallNotAllowedException; {:try_start_0 .. :try_end_0} :catch_0
@@ -164,7 +164,7 @@
     :goto_1
     invoke-static {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    iput-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iput-boolean v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
 
     goto :goto_2
 
@@ -191,22 +191,22 @@
     .registers 3
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iget-object v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->K1:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->v1:Landroid/content/BroadcastReceiver;
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iput-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -238,15 +238,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iput-object v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
     goto :goto_0
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->J1:Landroid/content/Context;
+    iput-object p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->t1:Landroid/content/Context;
 
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/ug6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/wg6;->a:[I
 
     const v1, 0x7f13051a
 
@@ -262,7 +262,7 @@
 
     move-result p2
 
-    iput-boolean p2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G1:Z
+    iput-boolean p2, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->n1:Z
 
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -591,6 +591,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final createGenericEventDetector()Lcom/huawei/uikit/hwunifiedinteract/widget/HwGenericEventDetector;
@@ -913,6 +933,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final createKeyEventDetector()Lcom/huawei/uikit/hwunifiedinteract/widget/HwKeyEventDetector;
@@ -1235,6 +1275,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected onAttachedToWindow()V
@@ -1244,7 +1304,7 @@
 
     invoke-direct {p0}, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G()V
 
-    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
 
     if-eqz v0, :cond_0
 
@@ -1269,17 +1329,17 @@
 .method public setScrollTopEnable(Z)V
     .registers 3
 
-    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G1:Z
+    iget-boolean v0, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->n1:Z
 
     if-eq p1, v0, :cond_1
 
-    iput-boolean p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G1:Z
+    iput-boolean p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->n1:Z
 
     if-eqz p1, :cond_0
 
     invoke-direct {p0}, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->G()V
 
-    iget-boolean p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->I1:Z
+    iget-boolean p1, p0, Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;->s1:Z
 
     if-eqz p1, :cond_1
 

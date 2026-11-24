@@ -93,7 +93,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 28
     .line 29
@@ -291,7 +291,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->z(Landroid/view/View;)Landroid/view/ViewParent;
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->z(Landroid/view/View;)Landroid/view/ViewParent;
 
     .line 22
     .line 23

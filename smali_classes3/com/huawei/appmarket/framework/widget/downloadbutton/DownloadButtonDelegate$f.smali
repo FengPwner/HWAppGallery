@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dr5;
+.implements Lcom/huawei/appmarket/fr5;
 
 
 # annotations
@@ -187,26 +187,26 @@
 
     const-string v3, "cardBean is not same with the cardBean in Button"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v2
 
     new-instance v3, Landroid/content/Intent;
 
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     :goto_0
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     goto :goto_2
 
@@ -226,13 +226,13 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v2
 
     new-instance v3, Landroid/content/Intent;
 
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     move-result-object v4
 
@@ -270,10 +270,10 @@
 
     check-cast v0, Landroid/content/Context;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/lj5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/nj5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/z62;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/d72;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -295,7 +295,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-static {v5}, Lcom/huawei/appmarket/z62;->c(Ljava/lang/String;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/d72;->c(Ljava/lang/String;)V
 
     :cond_4
     return-void

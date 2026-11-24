@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ap4;
+.annotation runtime Lcom/huawei/appmarket/dp4;
 .end annotation
 
 .annotation system Ldalvik/annotation/EnclosingClass;
@@ -28,7 +28,7 @@
 
 # instance fields
 .field private dataList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->PRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 
@@ -41,52 +41,52 @@
 .end field
 
 .field private installBtnStyle:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private isInstalledFilter:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private isUpdatableFilter:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private layoutId:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private layoutName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private negativeFeedback:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pageContext:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private quickCard:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private swipeDownRefresh:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private uninstalledFilter:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -150,7 +150,7 @@
     move-result-object v2
 
     .line 19
-    invoke-static {v2}, Lcom/huawei/appmarket/hk0;->b(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Lcom/huawei/appmarket/ik0;->b(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 20
     .line 21
@@ -239,7 +239,7 @@
 
     .line 59
     .line 60
-    invoke-static {p1, v8}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->W(Lorg/json/JSONObject;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Lcom/huawei/appmarket/pn3;
+    invoke-static {p1, v8}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->W(Lorg/json/JSONObject;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Lcom/huawei/appmarket/rn3;
 
     .line 61
     .line 62
@@ -251,7 +251,7 @@
 
     .line 65
     :cond_0
-    invoke-virtual {v8, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->y0(Lcom/huawei/appmarket/pn3;)V
+    invoke-virtual {v8, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->y0(Lcom/huawei/appmarket/rn3;)V
 
     .line 66
     .line 67
@@ -339,7 +339,7 @@
     .line 106
     .line 107
     :goto_1
-    invoke-static {v0, v8}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v8}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -622,7 +622,7 @@
     move-result-object p0
 
     :goto_2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -669,7 +669,7 @@
     return-object v2
 .end method
 
-.method private static W(Lorg/json/JSONObject;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Lcom/huawei/appmarket/pn3;
+.method private static W(Lorg/json/JSONObject;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Lcom/huawei/appmarket/rn3;
     .registers 6
 
     .line 1
@@ -708,7 +708,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/pn3;
+    check-cast v1, Lcom/huawei/appmarket/rn3;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_7
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_6
@@ -771,7 +771,7 @@
     move-result-object p0
 
     :goto_2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -955,7 +955,7 @@
 
     const-string v0, "BaseDetailResponse"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

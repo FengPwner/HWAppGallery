@@ -112,7 +112,7 @@
 
     const-string p1, "hideHeaderView, headerView == null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -123,7 +123,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -131,7 +131,7 @@
 
     const-string p1, "hideHeaderView, height == 0"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -153,7 +153,7 @@
 
     invoke-virtual/range {v2 .. v7}, Landroid/widget/Scroller;->startScroll(IIIII)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -161,7 +161,7 @@
 
     const-string p1, "hideHeaderView"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     return-void
@@ -301,7 +301,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -311,7 +311,7 @@
 
     const-string v1, "finishRefresh"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const/16 v0, 0x12c
@@ -432,7 +432,7 @@
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/infoflow/view/widget/PullDownListView;->R0()V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -441,7 +441,7 @@
     const-string v0, "startPullDownRefresh, onPullDownRefresh"
 
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -460,7 +460,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setmPullRefreshing(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -485,7 +485,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_1
@@ -660,7 +660,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 60
     .line 61
@@ -676,7 +676,7 @@
 
     .line 66
     .line 67
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -694,7 +694,7 @@
 
     .line 75
     .line 76
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -730,7 +730,7 @@
 
     .line 94
     .line 95
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     .line 97
@@ -764,7 +764,7 @@
 
     .line 111
     .line 112
-    invoke-static {v0, v7, v4}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v7, v4}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 113
     .line 114
@@ -917,7 +917,7 @@
 
     .line 182
     .line 183
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 184
     .line 185
@@ -977,7 +977,7 @@
 
     .line 212
     :cond_a
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 213
     .line 214
@@ -1037,7 +1037,7 @@
     move-result-object v0
 
     .line 244
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 245
     .line 246
@@ -1161,8 +1161,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
@@ -1330,7 +1328,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setAutoPullDownRefresh(Z)V

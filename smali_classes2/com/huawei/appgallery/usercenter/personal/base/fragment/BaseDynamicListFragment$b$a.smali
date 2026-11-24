@@ -40,7 +40,7 @@
 
     invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;->X5(Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;)V
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -62,7 +62,7 @@
 
     const-string v2, "BaseDynamicListFragment"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;->Y5(Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;)Z
 

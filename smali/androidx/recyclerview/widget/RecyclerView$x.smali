@@ -51,7 +51,7 @@
 
     iget-object v0, v1, Landroidx/recyclerview/widget/RecyclerView;->mUpdateChildViewsRunnable:Ljava/lang/Runnable;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     goto :goto_0
 

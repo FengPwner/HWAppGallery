@@ -686,7 +686,7 @@
     div-float/2addr v0, v8
 
     .line 71
-    invoke-static {p1, v4, v1, v8}, Lcom/huawei/appmarket/b00;->b(FFFF)F
+    invoke-static {p1, v4, v1, v8}, Lcom/huawei/appmarket/kd0;->b(FFFF)F
 
     .line 72
     .line 73
@@ -1123,7 +1123,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic e(Lcom/huawei/appgallery/common/media/widget/zoomview/d;Landroid/graphics/Matrix;)V
@@ -1930,15 +1929,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private k(Landroid/graphics/Matrix;)Landroid/graphics/RectF;
@@ -2164,7 +2154,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -2374,7 +2363,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final G(Z)V
@@ -4107,13 +4095,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final p()Landroid/widget/ImageView$ScaleType;
@@ -4396,7 +4377,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final u(FFFF)V

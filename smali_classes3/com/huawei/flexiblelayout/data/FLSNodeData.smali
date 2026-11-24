@@ -123,7 +123,7 @@
     const/4 v2, 0x0
 
     .line 26
-    invoke-virtual {v1, v2}, Lcom/huawei/flexiblelayout/data/b;->c(Lcom/huawei/appmarket/ic2;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/flexiblelayout/data/b;->c(Lcom/huawei/appmarket/lc2;)V
 
     .line 27
     .line 28
@@ -249,7 +249,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public get()Ljava/lang/Object;

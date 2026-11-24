@@ -126,7 +126,7 @@
     .registers 1
 
     .line 1
-    instance-of p0, p0, Lcom/huawei/appmarket/u47;
+    instance-of p0, p0, Lcom/huawei/appmarket/z47;
 
     return p0
 .end method

@@ -1,102 +1,109 @@
-.class abstract Lcom/huawei/appmarket/n05;
-.super Ljava/lang/Object;
+.class public abstract enum Lcom/huawei/appmarket/n05;
+.super Ljava/lang/Enum;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/animation/Interpolator;
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/huawei/appmarket/n05;",
+        ">;"
+    }
+.end annotation
 
 
-# instance fields
-.field private final a:[F
+# static fields
+.field public static final enum b:Lcom/huawei/appmarket/n05;
 
-.field private final b:F
+.field private static final synthetic c:[Lcom/huawei/appmarket/n05;
 
 
 # direct methods
-.method protected constructor <init>([F)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 5
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/n05$a;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/n05;->a:[F
+    const-string v1, "DEFAULT"
 
-    array-length p1, p1
+    const/4 v2, 0x0
 
-    add-int/lit8 p1, p1, -0x1
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/n05$a;-><init>(Ljava/lang/String;I)V
 
-    int-to-float p1, p1
+    sput-object v0, Lcom/huawei/appmarket/n05;->b:Lcom/huawei/appmarket/n05;
 
-    const/high16 v0, 0x3f800000    # 1.0f
+    new-instance v1, Lcom/huawei/appmarket/n05$b;
 
-    div-float/2addr v0, p1
+    const-string v3, "STRING"
 
-    iput v0, p0, Lcom/huawei/appmarket/n05;->b:F
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v3, v4}, Lcom/huawei/appmarket/n05$b;-><init>(Ljava/lang/String;I)V
+
+    const/4 v3, 0x2
+
+    new-array v3, v3, [Lcom/huawei/appmarket/n05;
+
+    aput-object v0, v3, v2
+
+    aput-object v1, v3, v4
+
+    sput-object v3, Lcom/huawei/appmarket/n05;->c:[Lcom/huawei/appmarket/n05;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public getInterpolation(F)F
-    .registers 6
+.method private constructor <init>(Ljava/lang/String;I)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 1
-    const/high16 v0, 0x3f800000    # 1.0f
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    cmpl-float v1, p1, v0
+    return-void
+.end method
 
-    if-ltz v1, :cond_0
+.method synthetic constructor <init>(Ljava/lang/String;ILcom/huawei/appmarket/n05$a;)V
+    .registers 4
 
-    return v0
+    .line 2
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/n05;-><init>(Ljava/lang/String;I)V
 
-    :cond_0
-    const/4 v0, 0x0
+    return-void
+.end method
 
-    cmpg-float v1, p1, v0
+.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/n05;
+    .registers 2
 
-    if-gtz v1, :cond_1
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/n05;
 
-    return v0
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
-    :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/n05;->a:[F
+    move-result-object p0
 
-    array-length v1, v0
+    check-cast p0, Lcom/huawei/appmarket/n05;
 
-    add-int/lit8 v1, v1, -0x1
+    return-object p0
+.end method
 
-    int-to-float v1, v1
+.method public static values()[Lcom/huawei/appmarket/n05;
+    .registers 1
 
-    mul-float v1, v1, p1
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/n05;->c:[Lcom/huawei/appmarket/n05;
 
-    float-to-int v1, v1
+    invoke-virtual {v0}, [Lcom/huawei/appmarket/n05;->clone()Ljava/lang/Object;
 
-    array-length v2, v0
+    move-result-object v0
 
-    add-int/lit8 v2, v2, -0x2
+    check-cast v0, [Lcom/huawei/appmarket/n05;
 
-    invoke-static {v1, v2}, Ljava/lang/Math;->min(II)I
-
-    move-result v1
-
-    int-to-float v2, v1
-
-    iget v3, p0, Lcom/huawei/appmarket/n05;->b:F
-
-    invoke-static {v2, v3, p1, v3}, Lcom/huawei/appmarket/b00;->b(FFFF)F
-
-    move-result p1
-
-    aget v2, v0, v1
-
-    add-int/lit8 v1, v1, 0x1
-
-    aget v0, v0, v1
-
-    invoke-static {v0, v2, p1, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
-
-    move-result p1
-
-    return p1
+    return-object v0
 .end method

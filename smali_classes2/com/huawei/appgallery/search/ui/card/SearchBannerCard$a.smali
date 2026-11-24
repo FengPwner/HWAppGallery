@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;->c:Lcom/huawei/appgallery/search/ui/card/SearchBannerCard;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -40,7 +40,7 @@
     .registers 4
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBannerCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -60,7 +60,7 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 12
     .line 13
@@ -159,5 +159,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

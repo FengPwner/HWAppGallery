@@ -172,7 +172,7 @@
 
     const v2, 0x7f07012c
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     move-result v1
 

@@ -39,7 +39,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/globe/view/GlobalFlowActivity$d;->b:Lcom/huawei/appmarket/service/globe/view/GlobalFlowActivity;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tf5;->a(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wf5;->a(Landroid/content/Context;)V
 
     return-void
 .end method

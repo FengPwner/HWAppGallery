@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -89,7 +89,7 @@
 
     invoke-virtual {v0, v2}, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;->U(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v2
 
@@ -103,7 +103,7 @@
 
     if-eqz v3, :cond_0
 
-    invoke-static {v3}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v2
 
@@ -116,7 +116,7 @@
 
     invoke-direct {v2, v1, v3}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardDataProvider$c;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardDataProvider;Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardDataProvider$a;)V
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

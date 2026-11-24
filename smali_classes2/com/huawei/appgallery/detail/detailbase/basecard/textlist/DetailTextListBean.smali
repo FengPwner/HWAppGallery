@@ -25,7 +25,7 @@
 
 # instance fields
 .field private list_:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
@@ -179,7 +179,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final W3()Ljava/util/List;

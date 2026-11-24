@@ -40,7 +40,7 @@
     const-string v0, "SafeBase64"
 
     .line 1
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -73,7 +73,7 @@
     const-string v0, "SafeBase64"
 
     .line 6
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -106,7 +106,7 @@
     const-string p2, "SafeBase64"
 
     .line 11
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -139,7 +139,7 @@
     const-string v0, "SafeBase64"
 
     .line 1
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -172,7 +172,7 @@
     const-string p2, "SafeBase64"
 
     .line 6
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -205,7 +205,7 @@
     const-string v0, "SafeBase64"
 
     .line 1
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const-string p0, ""
 
@@ -236,7 +236,7 @@
     const-string p2, "SafeBase64"
 
     .line 6
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const-string p0, ""
 

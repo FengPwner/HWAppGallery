@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xn5;
+.implements Lcom/huawei/appmarket/yn5;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     const-string v1, "login cancel "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/fapanel/b;->b:Lcom/huawei/appmarket/service/fapanel/FaPanelCommonActivity;
 

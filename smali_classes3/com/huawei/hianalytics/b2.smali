@@ -105,7 +105,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p0
     :try_end_0

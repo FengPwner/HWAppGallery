@@ -138,13 +138,13 @@
 
     sput-object v0, Lorg/apache/commons/lang3/builder/ToStringStyle;->JSON_STYLE:Lorg/apache/commons/lang3/builder/ToStringStyle;
 
-    new-instance v0, Lcom/huawei/appmarket/b22;
+    new-instance v0, Lcom/huawei/appmarket/f22;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/b22;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/f22;-><init>(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fw1;->e(Lcom/huawei/appmarket/b22;)Ljava/lang/ThreadLocal;
+    invoke-static {v0}, Lcom/huawei/appmarket/jw1;->e(Lcom/huawei/appmarket/f22;)Ljava/lang/ThreadLocal;
 
     move-result-object v0
 
@@ -182,7 +182,7 @@
 
     iput-object v1, p0, Lorg/apache/commons/lang3/builder/ToStringStyle;->fieldSeparator:Ljava/lang/String;
 
-    const-string v2, "{"
+    const-string/jumbo v2, "{"
 
     iput-object v2, p0, Lorg/apache/commons/lang3/builder/ToStringStyle;->arrayStart:Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     iput-boolean v0, p0, Lorg/apache/commons/lang3/builder/ToStringStyle;->arrayContentDetail:Z
 
-    const-string v1, "}"
+    const-string/jumbo v1, "}"
 
     iput-object v1, p0, Lorg/apache/commons/lang3/builder/ToStringStyle;->arrayEnd:Ljava/lang/String;
 

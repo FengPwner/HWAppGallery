@@ -202,7 +202,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;->d(Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;Landroid/widget/ImageView;)V
 
-    const v1, 0x7f0a1801
+    const v1, 0x7f0a1802
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;->f(Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;Landroid/widget/TextView;)V
 
-    const v1, 0x7f0a17e3
+    const v1, 0x7f0a17e4
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -222,7 +222,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;->h(Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;Landroid/widget/CheckBox;)V
 
-    const v1, 0x7f0a17e4
+    const v1, 0x7f0a17e5
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
     .line 85
     .line 86
     .line 87
-    invoke-static {p3, v0, p2, p1}, Lcom/huawei/appmarket/vw7;->l(Landroid/content/Context;ILandroid/content/Context;Landroid/widget/TextView;)V
+    invoke-static {p3, v0, p2, p1}, Lcom/huawei/appmarket/ci7;->s(Landroid/content/Context;ILandroid/content/Context;Landroid/widget/TextView;)V
 
     .line 88
     .line 89
@@ -807,7 +807,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     return v2
 
@@ -818,17 +818,17 @@
 .method private loadImage(ILjava/lang/String;Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;)V
     .registers 5
 
-    new-instance v0, Lcom/huawei/appmarket/kx4$e;
+    new-instance v0, Lcom/huawei/appmarket/nx4$e;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/kx4$e;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nx4$e;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx4$e;->i(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nx4$e;->i(I)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->g()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->g()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->l()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->k()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->k()V
 
     const-string p1, "video"
 
@@ -839,7 +839,7 @@
     if-eqz p2, :cond_0
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx4$e;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nx4$e;->h(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -849,7 +849,7 @@
     goto :goto_0
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/kx4;->m()Lcom/huawei/appmarket/kx4;
+    invoke-static {}, Lcom/huawei/appmarket/nx4;->m()Lcom/huawei/appmarket/nx4;
 
     move-result-object p1
 
@@ -859,7 +859,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p1, p2, p3, v0}, Lcom/huawei/appmarket/kx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/kx4$e;)V
+    invoke-virtual {p1, p2, p3, v0}, Lcom/huawei/appmarket/nx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/nx4$e;)V
 
     return-void
 .end method
@@ -1025,7 +1025,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->context:Landroid/content/Context;
 
-    invoke-static {v0, p2, p3, v2}, Lcom/huawei/appmarket/se8;->a(Landroid/content/Context;JZ)Ljava/lang/String;
+    invoke-static {v0, p2, p3, v2}, Lcom/huawei/appmarket/xe8;->a(Landroid/content/Context;JZ)Ljava/lang/String;
 
     move-result-object p2
 
@@ -1051,7 +1051,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->originalBeanList:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1061,12 +1061,12 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     const-string v0, "originalBeanList is null"
 
     :goto_0
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -1092,7 +1092,7 @@
 
     if-nez p1, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     const-string v0, "originalMediaBean is null"
 
@@ -1103,7 +1103,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1207,7 +1207,7 @@
 
     invoke-direct {p0, v1, v2, p3}, Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter;->loadImage(ILjava/lang/String;Lcom/huawei/appgallery/common/media/adapter/ImageVideoThumbnailAdapter$d;)V
 
-    new-instance v1, Lcom/huawei/appmarket/ka7;
+    new-instance v1, Lcom/huawei/appmarket/pa7;
 
     iget-object v2, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->context:Landroid/content/Context;
 
@@ -1219,13 +1219,13 @@
 
     move-result-object p3
 
-    invoke-direct {v1, v2, p1, v0, p3}, Lcom/huawei/appmarket/ka7;-><init>(Landroid/content/Context;ILjava/lang/String;Landroid/view/View;)V
+    invoke-direct {v1, v2, p1, v0, p3}, Lcom/huawei/appmarket/pa7;-><init>(Landroid/content/Context;ILjava/lang/String;Landroid/view/View;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kx4;->m()Lcom/huawei/appmarket/kx4;
+    invoke-static {}, Lcom/huawei/appmarket/nx4;->m()Lcom/huawei/appmarket/nx4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kx4;->l()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nx4;->l()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object p1
 
@@ -1268,7 +1268,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->originalBeanList:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

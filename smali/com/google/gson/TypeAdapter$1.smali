@@ -38,12 +38,12 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -55,15 +55,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->j:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->j:Lcom/huawei/appmarket/qp4;
 
     if-ne v0, v1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->h0()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->h0()V
 
     const/4 p1, 0x0
 
@@ -72,19 +72,19 @@
     :cond_0
     iget-object v0, p0, Lcom/google/gson/TypeAdapter$1;->a:Lcom/google/gson/TypeAdapter;
 
-    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation
@@ -98,14 +98,14 @@
     .line 1
     if-nez p2, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->E()Lcom/huawei/appmarket/tp4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->E()Lcom/huawei/appmarket/wp4;
 
     goto :goto_0
 
     :cond_0
     iget-object v0, p0, Lcom/google/gson/TypeAdapter$1;->a:Lcom/google/gson/TypeAdapter;
 
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     :goto_0
     return-void

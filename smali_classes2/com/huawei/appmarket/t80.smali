@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bj3;
+.implements Lcom/huawei/appmarket/dj3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/bj3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/dj3;
 .end annotation
 
 
@@ -45,7 +45,7 @@
 
     const-string v1, " set user id fon bi error"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -71,7 +71,7 @@
 
     const-string p2, "initConfig param or url is null "
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/or7;->c(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ur7;->c(Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appmarket/u80;->h()Ljava/lang/String;
 
@@ -168,7 +168,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p2, v1, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_4
 

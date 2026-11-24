@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;
@@ -50,7 +50,7 @@
 
 .method public static getAdvertisingIdInfo(Landroid/content/Context;)Lcom/huawei/hms/ads/identifier/AdvertisingIdClient$Info;
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -383,7 +383,7 @@
 
 .method public static isAdvertisingIdAvailable(Landroid/content/Context;)Z
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0
@@ -540,7 +540,7 @@
 
 .method public static verifyAdId(Landroid/content/Context;Ljava/lang/String;Z)Z
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;

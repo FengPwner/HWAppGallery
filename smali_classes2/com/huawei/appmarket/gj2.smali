@@ -19,5 +19,5 @@
 
 
 # virtual methods
-.method public abstract security()Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
+.method public abstract print()Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
 .end method

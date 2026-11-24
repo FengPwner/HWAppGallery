@@ -69,7 +69,7 @@
 
     sput-object v0, Lorg/apache/commons/lang3/time/DateFormatUtils;->UTC_TIME_ZONE:Ljava/util/TimeZone;
 
-    const-string v0, "yyyy-MM-dd\'T\'HH:mm:ss"
+    const-string/jumbo v0, "yyyy-MM-dd\'T\'HH:mm:ss"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/time/FastDateFormat;->getInstance(Ljava/lang/String;)Lorg/apache/commons/lang3/time/FastDateFormat;
 
@@ -79,7 +79,7 @@
 
     sput-object v0, Lorg/apache/commons/lang3/time/DateFormatUtils;->ISO_DATETIME_FORMAT:Lorg/apache/commons/lang3/time/FastDateFormat;
 
-    const-string v0, "yyyy-MM-dd\'T\'HH:mm:ssZZ"
+    const-string/jumbo v0, "yyyy-MM-dd\'T\'HH:mm:ssZZ"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/time/FastDateFormat;->getInstance(Ljava/lang/String;)Lorg/apache/commons/lang3/time/FastDateFormat;
 
@@ -89,7 +89,7 @@
 
     sput-object v0, Lorg/apache/commons/lang3/time/DateFormatUtils;->ISO_DATETIME_TIME_ZONE_FORMAT:Lorg/apache/commons/lang3/time/FastDateFormat;
 
-    const-string v0, "yyyy-MM-dd"
+    const-string/jumbo v0, "yyyy-MM-dd"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/time/FastDateFormat;->getInstance(Ljava/lang/String;)Lorg/apache/commons/lang3/time/FastDateFormat;
 
@@ -99,7 +99,7 @@
 
     sput-object v0, Lorg/apache/commons/lang3/time/DateFormatUtils;->ISO_DATE_FORMAT:Lorg/apache/commons/lang3/time/FastDateFormat;
 
-    const-string v0, "yyyy-MM-ddZZ"
+    const-string/jumbo v0, "yyyy-MM-ddZZ"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/time/FastDateFormat;->getInstance(Ljava/lang/String;)Lorg/apache/commons/lang3/time/FastDateFormat;
 

@@ -1,68 +1,164 @@
-.class public final Lcom/huawei/appmarket/e03;
-.super Lcom/huawei/appmarket/b03;
+.class public Lcom/huawei/appmarket/e03;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
 
 
 # static fields
-.field private static final serialVersionUID:J = 0x38400f9c1950e452L
+.field private static final serialVersionUID:J = 0x2c82af864f1b3360L
+
+
+# instance fields
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/String;
+
+.field private d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/String;
+
+.field private g:Landroid/view/View;
+
+.field private h:Lcom/huawei/appmarket/bo5;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/b03;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final o(Landroid/content/Context;)V
-    .registers 5
+.method public final a()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->b:Ljava/lang/String;
 
-    move-result-object v0
+    return-object v0
+.end method
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->j()Z
+.method public final b()Lcom/huawei/appmarket/bo5;
+    .registers 2
 
-    move-result v0
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->h:Lcom/huawei/appmarket/bo5;
 
-    if-nez v0, :cond_0
+    return-object v0
+.end method
 
-    invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+.method public final c()Ljava/lang/String;
+    .registers 2
 
-    move-result-object p1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->d:Ljava/lang/String;
 
-    const v0, 0x7f0d03ad
+    return-object v0
+.end method
 
-    const/4 v1, 0x0
+.method public final d()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->f:Ljava/lang/String;
 
-    move-result-object p1
+    return-object v0
+.end method
 
-    const v0, 0x7f0a1060
+.method public final e()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->e:Ljava/lang/String;
 
-    move-result-object v0
+    return-object v0
+.end method
 
-    check-cast v0, Landroid/widget/TextView;
+.method public final f()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/b03;->c()Ljava/lang/String;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->c:Ljava/lang/String;
 
-    move-result-object v2
+    return-object v0
+.end method
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+.method public final g()Landroid/view/View;
+    .registers 2
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/b03;->n(Landroid/view/View;)V
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e03;->g:Landroid/view/View;
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/b03;->j(Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    :cond_0
+.method public final h(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final i(Lcom/huawei/appmarket/bo5;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->h:Lcom/huawei/appmarket/bo5;
+
+    return-void
+.end method
+
+.method public final j(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->d:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final k(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final m(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final n(Landroid/view/View;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/e03;->g:Landroid/view/View;
+
     return-void
 .end method

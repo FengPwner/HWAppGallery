@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wl5;
+.implements Lcom/huawei/appmarket/yl5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/wl5;
+    value = Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/yl5;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,22 +19,22 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/wl5<",
+        "Lcom/huawei/appmarket/yl5<",
         "TT;>;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/ai4;
+.field final synthetic a:Lcom/huawei/appmarket/ci4;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ai4;Ljava/lang/reflect/Type;)V
+.method constructor <init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ci4;Ljava/lang/reflect/Type;)V
     .registers 4
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/x11$b;->a:Lcom/huawei/appmarket/ai4;
+    iput-object p2, p0, Lcom/huawei/appmarket/x11$b;->a:Lcom/huawei/appmarket/ci4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x11$b;->a:Lcom/huawei/appmarket/ai4;
+    iget-object v0, p0, Lcom/huawei/appmarket/x11$b;->a:Lcom/huawei/appmarket/ci4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ai4;->createInstance()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/ci4;->createInstance()Ljava/lang/Object;
 
     move-result-object v0
 

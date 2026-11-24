@@ -84,7 +84,7 @@
     move-result-object p1
 
     .line 26
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     .line 27
     .line 28
@@ -92,7 +92,7 @@
 
     .line 29
     .line 30
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     .line 31
     .line 32
@@ -146,7 +146,7 @@
     move-result-object v2
 
     .line 56
-    check-cast v2, Lcom/huawei/appmarket/hj0;
+    check-cast v2, Lcom/huawei/appmarket/ij0;
 
     .line 57
     .line 58
@@ -154,7 +154,7 @@
 
     .line 59
     .line 60
-    iget-object v2, v2, Lcom/huawei/appmarket/hj0;->f:Ljava/util/ArrayList;
+    iget-object v2, v2, Lcom/huawei/appmarket/ij0;->f:Ljava/util/ArrayList;
 
     .line 61
     .line 62
@@ -232,7 +232,7 @@
     move-result-object v4
 
     .line 98
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->e()Ljava/lang/String;
 
     .line 99
     .line 100
@@ -272,7 +272,7 @@
     move-result v2
 
     .line 117
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->b()I
 
     .line 118
     .line 119
@@ -312,7 +312,7 @@
     move-result-object v2
 
     .line 136
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 137
     .line 138
@@ -334,7 +334,7 @@
 
     .line 147
     :cond_4
-    invoke-static {v0}, Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;->G7(Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {v0}, Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;->G7(Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 148
     .line 149
@@ -346,7 +346,7 @@
 
     .line 152
     .line 153
-    invoke-static {v0}, Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;->H7(Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {v0}, Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;->H7(Lcom/huawei/appgallery/appcomment/ui/UserReplyListFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 154
     .line 155
@@ -826,11 +826,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

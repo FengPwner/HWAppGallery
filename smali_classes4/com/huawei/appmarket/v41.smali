@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os5;
+.implements Lcom/huawei/appmarket/qs5;
 
 
 # instance fields
@@ -68,9 +68,9 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zj7;->d(I)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/fk7;->d(I)Z
 
     move-result p1
 
@@ -88,13 +88,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/zj7;
+    instance-of v1, v0, Lcom/huawei/appmarket/fk7;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->s()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->s()J
 
     move-result-wide v0
 
@@ -118,9 +118,9 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->t()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->t()I
 
     move-result v0
 
@@ -143,13 +143,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/zj7;
+    instance-of v1, v0, Lcom/huawei/appmarket/fk7;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->s()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->s()J
 
     move-result-wide v0
 
@@ -172,13 +172,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/zj7;
+    instance-of v1, v0, Lcom/huawei/appmarket/fk7;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->s()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->s()J
 
     move-result-wide v0
 
@@ -202,9 +202,9 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->u()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->u()J
 
     move-result-wide v0
 
@@ -288,13 +288,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/v41;->b:Ljava/io/OutputStream;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/zj7;
+    instance-of v1, v0, Lcom/huawei/appmarket/fk7;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/zj7;
+    check-cast v0, Lcom/huawei/appmarket/fk7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zj7;->v()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk7;->v()Z
 
     move-result v0
 

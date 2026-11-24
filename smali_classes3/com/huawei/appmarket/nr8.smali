@@ -4,11 +4,11 @@
 
 
 # static fields
-.field private static final C:Landroid/util/SparseIntArray;
+.field private static final x:Landroid/util/SparseIntArray;
 
 
 # instance fields
-.field private B:J
+.field private w:J
 
 
 # direct methods
@@ -20,41 +20,17 @@
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/nr8;->C:Landroid/util/SparseIntArray;
+    sput-object v0, Lcom/huawei/appmarket/nr8;->x:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0355
-
-    const/4 v2, 0x1
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    const v1, 0x7f0a036e
+    const v1, 0x7f0a018f
 
     const/4 v2, 0x2
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a036d
+    const v1, 0x7f0a08c0
 
     const/4 v2, 0x3
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    const v1, 0x7f0a035d
-
-    const/4 v2, 0x4
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    const v1, 0x7f0a06ff
-
-    const/4 v2, 0x5
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    const v1, 0x7f0a17c1
-
-    const/4 v2, 0x6
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -65,9 +41,9 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/nr8;->C:Landroid/util/SparseIntArray;
+    sget-object v0, Lcom/huawei/appmarket/nr8;->x:Landroid/util/SparseIntArray;
 
-    const/4 v1, 0x7
+    const/4 v1, 0x4
 
     const/4 v2, 0x0
 
@@ -81,25 +57,25 @@
 .end method
 
 .method private constructor <init>(Lcom/huawei/appmarket/b81;Landroid/view/View;[Ljava/lang/Object;)V
-    .registers 14
+    .registers 11
 
     const/4 v3, 0x0
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     aget-object v0, p3, v0
 
     move-object v4, v0
 
-    check-cast v4, Landroid/widget/ImageView;
+    check-cast v4, Landroid/view/View;
 
-    const/4 v0, 0x4
+    const/4 v0, 0x1
 
     aget-object v0, p3, v0
 
     move-object v5, v0
 
-    check-cast v5, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
+    check-cast v5, Landroid/widget/LinearLayout;
 
     const/4 v0, 0x3
 
@@ -107,31 +83,7 @@
 
     move-object v6, v0
 
-    check-cast v6, Landroid/widget/TextView;
-
-    const/4 v0, 0x2
-
-    aget-object v0, p3, v0
-
-    move-object v7, v0
-
-    check-cast v7, Landroid/widget/TextView;
-
-    const/4 v0, 0x5
-
-    aget-object v0, p3, v0
-
-    move-object v8, v0
-
-    check-cast v8, Landroid/widget/TextView;
-
-    const/4 v0, 0x6
-
-    aget-object v0, p3, v0
-
-    move-object v9, v0
-
-    check-cast v9, Landroid/widget/TextView;
+    check-cast v6, Landroid/view/View;
 
     move-object v0, p0
 
@@ -139,11 +91,17 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v9}, Lcom/huawei/appmarket/mr8;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/ImageView;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/mr8;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/view/View;Landroid/widget/LinearLayout;Landroid/view/View;)V
 
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->B:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->w:J
+
+    iget-object p1, p0, Lcom/huawei/appmarket/mr8;->v:Landroid/widget/LinearLayout;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     const/4 p1, 0x0
 
@@ -151,9 +109,7 @@
 
     check-cast p1, Landroid/widget/LinearLayout;
 
-    const/4 p3, 0x0
-
-    invoke-virtual {p1, p3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     const p1, 0x7f0a0541
 
@@ -195,7 +151,7 @@
     const-wide/16 v0, 0x0
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->B:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->w:J
 
     monitor-exit p0
 
@@ -218,7 +174,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-wide v0, p0, Lcom/huawei/appmarket/nr8;->B:J
+    iget-wide v0, p0, Lcom/huawei/appmarket/nr8;->w:J
 
     const-wide/16 v2, 0x0
 
@@ -261,7 +217,7 @@
     const-wide/16 v0, 0x1
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->B:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/nr8;->w:J
 
     monitor-exit p0
     :try_end_0

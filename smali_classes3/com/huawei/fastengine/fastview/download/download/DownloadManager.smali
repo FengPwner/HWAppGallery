@@ -519,11 +519,11 @@
 
     .line 4
     :try_start_0
-    new-instance v2, Lcom/huawei/appmarket/mn5$a;
+    new-instance v2, Lcom/huawei/appmarket/nn5$a;
 
     .line 5
     .line 6
-    invoke-direct {v2}, Lcom/huawei/appmarket/mn5$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/nn5$a;-><init>()V
 
     .line 7
     .line 8
@@ -536,22 +536,22 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/mn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/nn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/mn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/nn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/mn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v2, v4, v5, v3}, Lcom/huawei/appmarket/nn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v2}, Lcom/huawei/appmarket/mn5$a;->g()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/nn5$a;->g()V
 
     .line 23
     .line 24
@@ -572,16 +572,16 @@
     move-result-object v4
 
     .line 33
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/mn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/nn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
 
     .line 34
     .line 35
     .line 36
-    new-instance v3, Lcom/huawei/appmarket/gr6$a;
+    new-instance v3, Lcom/huawei/appmarket/jr6$a;
 
     .line 37
     .line 38
-    invoke-direct {v3}, Lcom/huawei/appmarket/gr6$a;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/jr6$a;-><init>()V
 
     .line 39
     .line 40
@@ -594,12 +594,12 @@
     move-result-object v4
 
     .line 45
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/gr6$a;->h(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/jr6$a;->h(Ljava/lang/String;)V
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v3}, Lcom/huawei/appmarket/gr6$a;->b()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/jr6$a;->b()Lcom/huawei/appmarket/jr6;
 
     .line 49
     .line 50
@@ -607,32 +607,32 @@
     move-result-object v3
 
     .line 52
-    sget-object v4, Lcom/huawei/appmarket/l57;->b:Lorg/apache/http/conn/ssl/StrictHostnameVerifier;
+    sget-object v4, Lcom/huawei/appmarket/q57;->b:Lorg/apache/http/conn/ssl/StrictHostnameVerifier;
 
     .line 53
     .line 54
-    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/mn5$a;->L(Ljavax/net/ssl/HostnameVerifier;)V
+    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/nn5$a;->L(Ljavax/net/ssl/HostnameVerifier;)V
 
     .line 55
     .line 56
     .line 57
-    new-instance v4, Lcom/huawei/appmarket/mn5;
+    new-instance v4, Lcom/huawei/appmarket/nn5;
 
     .line 58
     .line 59
-    invoke-direct {v4, v2}, Lcom/huawei/appmarket/mn5;-><init>(Lcom/huawei/appmarket/mn5$a;)V
+    invoke-direct {v4, v2}, Lcom/huawei/appmarket/nn5;-><init>(Lcom/huawei/appmarket/nn5$a;)V
 
     .line 60
     .line 61
     .line 62
-    new-instance v2, Lcom/huawei/appmarket/zh6;
+    new-instance v2, Lcom/huawei/appmarket/bi6;
 
     .line 63
     .line 64
     const/4 v5, 0x0
 
     .line 65
-    invoke-direct {v2, v4, v3, v5}, Lcom/huawei/appmarket/zh6;-><init>(Lcom/huawei/appmarket/mn5;Lcom/huawei/appmarket/gr6;Z)V
+    invoke-direct {v2, v4, v3, v5}, Lcom/huawei/appmarket/bi6;-><init>(Lcom/huawei/appmarket/nn5;Lcom/huawei/appmarket/jr6;Z)V
 
     .line 66
     .line 67
@@ -646,7 +646,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/zh6;->e(Lcom/huawei/appmarket/rh0;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/bi6;->e(Lcom/huawei/appmarket/sh0;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_6
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_5
@@ -993,29 +993,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public downloadSync(Lcom/huawei/fastengine/fastview/download/download/bean/DownloadRequest;Landroid/content/Context;)Lcom/huawei/fastengine/fastview/download/download/bean/DownLoadResponse;

@@ -1,13 +1,14 @@
-.class public interface abstract Lcom/huawei/appmarket/bw8;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/bw8;
+.super Lcom/huawei/appmarket/ua2;
 .source "SourceFile"
 
 
-# annotations
-.annotation runtime Ljava/lang/FunctionalInterface;
-.end annotation
+# direct methods
+.method public constructor <init>()V
+    .registers 1
 
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ua2;-><init>()V
 
-# virtual methods
-.method public varargs abstract call([Ljava/lang/Object;)Ljava/lang/Object;
+    return-void
 .end method

@@ -47,7 +47,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/card/fahalfdetailcard/view/VariableDotsPageIndicatorV2;->d(Lcom/huawei/appgallery/detail/detailcard/card/fahalfdetailcard/view/VariableDotsPageIndicatorV2;)Lcom/huawei/appmarket/uf8;
+    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/card/fahalfdetailcard/view/VariableDotsPageIndicatorV2;->d(Lcom/huawei/appgallery/detail/detailcard/card/fahalfdetailcard/view/VariableDotsPageIndicatorV2;)Lcom/huawei/appmarket/zf8;
 
     move-result-object v0
 
@@ -57,7 +57,7 @@
 
     move-result p1
 
-    iput p1, v0, Lcom/huawei/appmarket/uf8;->l:F
+    iput p1, v0, Lcom/huawei/appmarket/zf8;->l:F
 
     goto :goto_0
 
@@ -80,7 +80,7 @@
 
     const-string v0, "VariableDotsPageIndicatorV2"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V

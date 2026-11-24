@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/uc2;)V
+.method public final a(Lcom/huawei/appmarket/xc2;)V
     .registers 3
 
     .line 1
@@ -40,7 +40,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;->f(Lcom/huawei/appmarket/uc2;)Lcom/huawei/flexiblelayout/services/exposure/impl/b;
+    invoke-virtual {v0, p1}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;->f(Lcom/huawei/appmarket/xc2;)Lcom/huawei/flexiblelayout/services/exposure/impl/b;
 
     .line 6
     .line 7
@@ -161,5 +161,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

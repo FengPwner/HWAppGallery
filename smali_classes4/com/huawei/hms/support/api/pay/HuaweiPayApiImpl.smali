@@ -240,7 +240,7 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/hms/support/api/pay/PayResultInfo;->setReturnCode(I)V
 
-    const-string v2, "userName"
+    const-string/jumbo v2, "userName"
 
     invoke-static {p1, v2}, Lcom/huawei/hms/support/api/pay/util/a;->a(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
@@ -280,7 +280,7 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/hms/support/api/pay/PayResultInfo;->setCurrency(Ljava/lang/String;)V
 
-    const-string v2, "withholdID"
+    const-string/jumbo v2, "withholdID"
 
     invoke-static {p1, v2}, Lcom/huawei/hms/support/api/pay/util/a;->a(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 

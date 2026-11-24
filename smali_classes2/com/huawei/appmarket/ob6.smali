@@ -3,664 +3,511 @@
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ob6$a;
+    }
+.end annotation
+
+
 # static fields
-.field private static a:Z = false
+.field private static final d:Ljava/lang/Object;
+
+.field private static e:Lcom/huawei/appmarket/ob6;
+
+
+# instance fields
+.field private a:Ljava/util/HashSet;
+
+.field private b:Ljava/util/HashMap;
+
+.field private c:Ljava/util/HashMap;
 
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/ob6;->d:Ljava/lang/Object;
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;)Z
-    .registers 6
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    const-string v0, "PushMessageManager"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v1, 0x0
+    new-instance v0, Ljava/util/HashSet;
+
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ob6;->a:Ljava/util/HashSet;
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ob6;->b:Ljava/util/HashMap;
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ob6;->c:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/ob6;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/ob6;->d:Ljava/lang/Object;
+
+    monitor-enter v0
 
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    sget-object v1, Lcom/huawei/appmarket/ob6;->e:Lcom/huawei/appmarket/ob6;
 
-    move-result-object v2
+    if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    new-instance v1, Lcom/huawei/appmarket/ob6;
 
-    move-result-object p0
+    invoke-direct {v1}, Lcom/huawei/appmarket/ob6;-><init>()V
 
-    const/16 v3, 0x80
-
-    invoke-virtual {v2, p0, v3}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
-
-    move-result-object p0
-
-    if-nez p0, :cond_0
-
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v2, "appInfo is null"
-
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return v1
-
-    :catch_0
-    move-exception p0
+    sput-object v1, Lcom/huawei/appmarket/ob6;->e:Lcom/huawei/appmarket/ob6;
 
     goto :goto_0
 
-    :catch_1
-    move-exception p0
+    :catchall_0
+    move-exception v1
 
-    goto :goto_2
-
-    :catch_2
-    move-exception p0
-
-    goto :goto_3
-
-    :catch_3
-    move-exception p0
-
-    goto :goto_4
-
-    :catch_4
-    move-exception p0
-
-    goto :goto_5
+    goto :goto_1
 
     :cond_0
-    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
-
-    if-nez p0, :cond_1
-
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v2, "appInfo.metaData is null"
-
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return v1
-
-    :cond_1
-    const-string v2, "com.huawei.appgallery.push.init.classname"
-
-    invoke-virtual {p0, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    if-nez p0, :cond_2
-
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v2, "pushInitClass is null"
-
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    return v1
-
-    :cond_2
-    invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Lcom/huawei/appmarket/hy3;
-
-    invoke-interface {p0}, Lcom/huawei/appmarket/hy3;->init()V
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_4
-    .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_3
-    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
-    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    const/4 p0, 0x1
-
-    return p0
-
     :goto_0
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    sget-object v1, Lcom/huawei/appmarket/ob6;->e:Lcom/huawei/appmarket/ob6;
 
-    new-instance v3, Ljava/lang/StringBuilder;
+    monitor-exit v0
 
-    const-string v4, "initPushMsgHandlers error: Exception: "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    return-object v1
 
     :goto_1
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    move-result-object p0
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v2, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto :goto_6
-
-    :goto_2
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v4, "initPushMsgHandlers error: InstantiationException: "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :goto_3
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v4, "initPushMsgHandlers error: IllegalAccessException: "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :goto_4
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v4, "initPushMsgHandlers error: ClassNotFoundException: "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :goto_5
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v4, "initPushMsgHandlers error: NameNotFoundException: "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :goto_6
-    return v1
+    throw v1
 .end method
 
-.method public static b(Landroid/content/Context;Ljava/lang/String;Z)V
-    .registers 10
+
+# virtual methods
+.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
+    .registers 9
 
     .line 1
-    const-string v0, "cmd"
+    iget-object v0, p0, Lcom/huawei/appmarket/ob6;->b:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    const-string v1, "can not find push msg Handler, cmd: "
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
-    const-string v2, "receive push message, cmd:"
-
     .line 6
+    move-result-object v0
+
     .line 7
-    sget-boolean v3, Lcom/huawei/appmarket/ob6;->a:Z
+    check-cast v0, Ljava/lang/Class;
 
     .line 8
     .line 9
-    if-nez v3, :cond_0
+    const-string v1, "PushMessageCenter"
 
     .line 10
     .line 11
-    invoke-static {p0}, Lcom/huawei/appmarket/ob6;->a(Landroid/content/Context;)Z
+    const-string v2, "4"
 
     .line 12
     .line 13
+    const/4 v3, 0x0
+
     .line 14
-    move-result v3
+    if-eqz v0, :cond_0
 
     .line 15
-    sput-boolean v3, Lcom/huawei/appmarket/ob6;->a:Z
-
     .line 16
-    .line 17
-    :cond_0
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    :try_start_0
+    invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
+    .line 17
     .line 18
     .line 19
+    move-result-object v0
+
     .line 20
-    move-result v3
+    check-cast v0, Lcom/huawei/appmarket/y40;
+    :try_end_0
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 21
-    const-string v4, "PushMessageManager"
-
     .line 22
+    goto :goto_4
+
     .line 23
-    if-eqz v3, :cond_1
+    :catch_0
+    move-exception v0
 
     .line 24
+    goto :goto_0
+
     .line 25
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    :catch_1
+    move-exception v0
 
     .line 26
+    goto :goto_2
+
     .line 27
-    const-string p1, "pushMsg is null"
+    :goto_0
+    sget-object v4, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
     .line 28
     .line 29
-    invoke-virtual {p0, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    new-instance v5, Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
-    .line 32
-    return-void
+    const-string v6, "get PushMsgHandler falid, IllegalAccessException:"
 
+    .line 32
     .line 33
-    :cond_1
-    :try_start_0
-    new-instance v3, Lorg/json/JSONObject;
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
-    invoke-direct {v3, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-    :try_end_0
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
-
     .line 36
+    :goto_1
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
     .line 37
     .line 38
-    goto :goto_0
-
     .line 39
-    :catch_0
-    move-exception v3
+    move-result-object v6
 
     .line 40
-    :try_start_1
-    sget-object v5, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
-    const-string v6, "json parsing exception"
-
     .line 43
-    .line 44
-    invoke-virtual {v5, v4, v6}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 44
     .line 45
     .line 46
+    move-result-object v5
+
     .line 47
-    const-string v5, "1"
+    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
-    invoke-static {v5, v3}, Lcom/huawei/appmarket/rb6;->a(Ljava/lang/String;Ljava/lang/Exception;)V
-
     .line 50
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/tb6;->a(Ljava/lang/String;Ljava/lang/Exception;)V
+
     .line 51
     .line 52
-    const/4 v3, 0x0
-
     .line 53
-    :goto_0
-    if-nez v3, :cond_2
+    goto :goto_3
 
     .line 54
-    .line 55
-    return-void
+    :goto_2
+    sget-object v4, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
+    .line 55
     .line 56
-    :cond_2
-    invoke-virtual {v3, v0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+    new-instance v5, Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
-    .line 59
-    move-result v5
+    const-string v6, "get PushMsgHandler falid, InstantiationException:"
 
+    .line 59
     .line 60
-    if-nez v5, :cond_3
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
     .line 63
+    goto :goto_1
+
     .line 64
-    const-string p1, "the format of pushMsg is not correct"
+    :cond_0
+    :goto_3
+    move-object v0, v3
 
     .line 65
-    .line 66
-    invoke-virtual {p0, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :goto_4
+    if-nez v0, :cond_4
 
+    .line 66
     .line 67
+    iget-object v0, p0, Lcom/huawei/appmarket/ob6;->c:Ljava/util/HashMap;
+
     .line 68
     .line 69
-    const-string p0, "2"
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 70
     .line 71
-    const-string p1, ""
-
     .line 72
+    move-result-object v0
+
     .line 73
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/rb6;->b(Ljava/lang/String;Ljava/lang/String;)V
+    check-cast v0, Lcom/huawei/appmarket/ob6$a;
 
     .line 74
     .line 75
-    .line 76
-    return-void
+    const-string v4, ""
 
+    .line 76
     .line 77
-    :cond_3
-    invoke-virtual {v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+    if-nez v0, :cond_1
 
     .line 78
     .line 79
-    .line 80
-    move-result-object v0
+    sget-object v0, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
+    .line 80
     .line 81
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    new-instance v5, Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
-    .line 84
-    move-result v3
+    const-string v6, "getModulePushMsgHandler error, can\'t find ModulePushHandlerItem, cmd: "
 
+    .line 84
     .line 85
-    if-eqz v3, :cond_4
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 86
     .line 87
-    const-string p0, "3"
-
     .line 88
-    .line 89
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/rb6;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 89
     .line 90
     .line 91
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 92
-    return-void
-
     .line 93
-    :cond_4
-    sget-object v3, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
     .line 94
+    move-result-object p1
+
     .line 95
-    new-instance v5, Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     .line 97
-    invoke-direct {v5, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 98
+    :goto_5
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/tb6;->b(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 99
     .line 100
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 101
-    .line 102
-    .line 103
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    goto :goto_6
 
+    .line 102
+    :cond_1
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
+
+    .line 103
     .line 104
     .line 105
+    move-result-object p1
+
     .line 106
-    move-result-object v2
+    iget-object v5, v0, Lcom/huawei/appmarket/ob6$a;->a:Ljava/lang/String;
 
     .line 107
-    invoke-virtual {v3, v4, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 108
+    check-cast p1, Lcom/huawei/appmarket/gr6;
+
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/mb6;->a()Lcom/huawei/appmarket/mb6;
+    invoke-virtual {p1, v5}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 111
     .line 112
     .line 113
-    move-result-object v2
+    move-result-object p1
 
     .line 114
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/mb6;->b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
+    if-nez p1, :cond_2
 
     .line 115
     .line 116
-    .line 117
-    move-result-object v2
+    sget-object p1, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
+    .line 117
     .line 118
-    if-eqz v2, :cond_5
+    const-string v0, "getModulePushMsgHandler error: module is null"
 
     .line 119
     .line 120
-    invoke-virtual {v2, p0, p1}, Lcom/huawei/appmarket/y40;->j(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 121
     .line 122
     .line 123
-    goto :goto_1
+    goto :goto_5
 
     .line 124
-    :cond_5
-    new-instance p0, Ljava/lang/StringBuilder;
+    :cond_2
+    iget-object v0, v0, Lcom/huawei/appmarket/ob6$a;->b:Ljava/lang/Class;
 
     .line 125
     .line 126
-    invoke-direct {p0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 127
     .line 128
     .line 129
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 130
+    check-cast p1, Lcom/huawei/appmarket/y40;
+
     .line 131
     .line 132
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    if-nez p1, :cond_3
 
     .line 133
     .line 134
-    .line 135
-    move-result-object p0
+    sget-object p1, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
+    .line 135
     .line 136
-    invoke-virtual {v3, v4, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+    const-string v0, "getModulePushMsgHandler error: handler is null"
 
     .line 137
     .line 138
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 139
-    goto :goto_1
-
     .line 140
-    :catch_1
-    sget-object p0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
     .line 141
-    .line 142
-    const-string p1, "PushMessageManager onMessageReceived() Exception"
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/tb6;->b(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 142
     .line 143
     .line 144
-    invoke-virtual {p0, v4, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    goto :goto_6
 
     .line 145
-    .line 146
-    .line 147
-    :goto_1
-    if-nez p2, :cond_6
+    :cond_3
+    move-object v3, p1
 
+    .line 146
+    :goto_6
+    move-object v0, v3
+
+    .line 147
+    :cond_4
+    return-object v0
     .line 148
     .line 149
-    const-string p0, "push"
-
     .line 150
     .line 151
-    invoke-static {p0}, Lcom/huawei/appmarket/pq1;->a(Ljava/lang/String;)Z
-
     .line 152
     .line 153
     .line 154
-    move-result p1
-
     .line 155
-    if-eqz p1, :cond_6
-
     .line 156
     .line 157
-    new-instance p1, Ljava/util/LinkedHashMap;
-
     .line 158
     .line 159
-    const/4 p2, 0x2
-
     .line 160
-    invoke-direct {p1, p2}, Ljava/util/LinkedHashMap;-><init>(I)V
-
     .line 161
     .line 162
     .line 163
-    const-string p2, "start_type"
-
     .line 164
     .line 165
-    invoke-virtual {p1, p2, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 166
     .line 167
     .line 168
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
-
     .line 169
     .line 170
     .line 171
-    move-result p0
-
     .line 172
-    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
     .line 173
     .line 174
     .line 175
-    move-result-object p0
-
     .line 176
-    const-string p2, "service_type"
-
     .line 177
     .line 178
-    invoke-virtual {p1, p2, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 179
     .line 180
     .line 181
-    const-string p0, "action_start_by_type"
-
     .line 182
     .line 183
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-
     .line 184
     .line 185
     .line 186
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->p()Z
-
     .line 187
     .line 188
     .line 189
-    move-result p0
-
     .line 190
-    if-eqz p0, :cond_6
-
     .line 191
     .line 192
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
-
     .line 193
     .line 194
     .line 195
-    move-result p0
-
     .line 196
-    new-instance p1, Lcom/huawei/appmarket/pq1$a;
-
     .line 197
     .line 198
-    invoke-direct {p1}, Lcom/huawei/appmarket/pq1$a;-><init>()V
-
     .line 199
     .line 200
     .line 201
-    new-instance p2, Ljava/lang/StringBuilder;
-
     .line 202
     .line 203
-    const-string v0, "push|"
-
     .line 204
     .line 205
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 206
     .line 207
     .line 208
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 209
     .line 210
     .line 211
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 212
     .line 213
     .line 214
-    move-result-object p2
-
     .line 215
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pq1$a;->q(Ljava/lang/String;)V
-
     .line 216
     .line 217
     .line 218
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/pq1$a;->o(I)V
-
     .line 219
     .line 220
     .line 221
-    const/4 p0, 0x1
-
     .line 222
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/pq1$a;->r(I)V
-
     .line 223
     .line 224
     .line 225
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pq1$a;->a()V
-
     .line 226
     .line 227
     .line 228
-    :cond_6
-    return-void
     .line 229
     .line 230
     .line 231
@@ -693,64 +540,156 @@
     .line 258
     .line 259
     .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
+.end method
+
+.method public final c()Ljava/util/HashSet;
+    .registers 8
+
+    .line 1
+    const-string v0, "PushMessageCenter"
+
+    new-instance v1, Ljava/util/HashSet;
+
+    invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
+
+    iget-object v2, p0, Lcom/huawei/appmarket/ob6;->a:Ljava/util/HashSet;
+
+    invoke-virtual {v2}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    :cond_0
+    :goto_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1
+
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/Class;
+
+    :try_start_0
+    invoke-virtual {v3}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+
+    move-result-object v3
+    :try_end_0
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_3
+
+    :catch_0
+    move-exception v3
+
+    sget-object v4, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    const-string v6, "get PushHandler falid, IllegalAccessException:"
+
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    :goto_1
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v4, v0, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_2
+
+    :catch_1
+    move-exception v3
+
+    sget-object v4, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    const-string v6, "get PushHandler falid, InstantiationException:"
+
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    goto :goto_1
+
+    :goto_2
+    const/4 v3, 0x0
+
+    :goto_3
+    instance-of v4, v3, Lcom/huawei/appmarket/my3;
+
+    if-eqz v4, :cond_0
+
+    check-cast v3, Lcom/huawei/appmarket/my3;
+
+    invoke-virtual {v1, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_1
+    return-object v1
+.end method
+
+.method public final d(Ljava/lang/String;Ljava/lang/Class;)V
+    .registers 6
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ob6;->c:Ljava/util/HashMap;
+
+    const-string v1, "WishList"
+
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_0
+
+    new-instance v2, Lcom/huawei/appmarket/ob6$a;
+
+    invoke-direct {v2, v1, p2}, Lcom/huawei/appmarket/ob6$a;-><init>(Ljava/lang/String;Ljava/lang/Class;)V
+
+    invoke-virtual {v0, p1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final e(Ljava/lang/Class;Ljava/lang/String;)V
+    .registers 5
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ob6;->b:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-virtual {v0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final f()V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ob6;->a:Ljava/util/HashSet;
+
+    const-class v1, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a;
+
+    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    return-void
 .end method

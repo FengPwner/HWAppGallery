@@ -8,7 +8,7 @@
 
 .field private final connectTimeoutMillis:I
 
-.field private final listener:Lcom/huawei/appmarket/s28;
+.field private final listener:Lcom/huawei/appmarket/y28;
 
 .field private final readTimeoutMillis:I
 
@@ -18,7 +18,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/s28;IIZ)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/y28;IIZ)V
     .registers 7
 
     .line 1
@@ -26,7 +26,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->userAgent:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->listener:Lcom/huawei/appmarket/s28;
+    iput-object p3, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->listener:Lcom/huawei/appmarket/y28;
 
     iput p4, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->connectTimeoutMillis:I
 
@@ -62,7 +62,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->userAgent:Ljava/lang/String;
 
-    iget-object v3, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->listener:Lcom/huawei/appmarket/s28;
+    iget-object v3, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->listener:Lcom/huawei/appmarket/y28;
 
     iget v4, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;->connectTimeoutMillis:I
 
@@ -74,7 +74,7 @@
 
     move-object v7, p1
 
-    invoke-direct/range {v0 .. v7}, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDefaultHttpDataSource;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/s28;IIZLandroidx/media3/datasource/HttpDataSource$c;)V
+    invoke-direct/range {v0 .. v7}, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDefaultHttpDataSource;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/y28;IIZLandroidx/media3/datasource/HttpDataSource$c;)V
 
     return-object v8
 .end method

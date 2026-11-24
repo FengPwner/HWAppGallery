@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nl3;
+.implements Lcom/huawei/appmarket/pl3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/nl3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/pl3;
 .end annotation
 
 
@@ -33,11 +33,11 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v2, "id = null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 
@@ -58,11 +58,11 @@
 
     if-nez v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v2, "id not contains comment or reply"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 
@@ -75,11 +75,11 @@
 
     if-nez v2, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v2, "id not contains |"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 
@@ -140,7 +140,7 @@
 
     invoke-virtual {v0, p5}, Lcom/huawei/appgallery/appcomment/impl/bean/AddCommentReplyReqBean;->setAglocation(Ljava/lang/String;)V
 
-    invoke-static {v0, p6}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p6}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

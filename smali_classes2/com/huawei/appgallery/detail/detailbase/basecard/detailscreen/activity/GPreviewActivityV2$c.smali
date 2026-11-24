@@ -62,43 +62,7 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)Landroid/graphics/drawable/Drawable;
-    .registers 1
-
-    .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->e:Landroid/graphics/drawable/Drawable;
-
-    return-object p0
-.end method
-
-.method static synthetic d(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;Landroid/graphics/drawable/BitmapDrawable;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->e:Landroid/graphics/drawable/Drawable;
-
-    return-void
-.end method
-
-.method static synthetic e(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
-    .registers 1
-
-    .line 1
-    iget p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->a:I
-
-    return p0
-.end method
-
-.method static synthetic f(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->a:I
-
-    return-void
-.end method
-
-.method static synthetic g(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
+.method static synthetic c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
     .registers 1
 
     .line 1
@@ -107,7 +71,7 @@
     return p0
 .end method
 
-.method static synthetic h(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
+.method static synthetic d(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
     .registers 2
 
     .line 1
@@ -116,7 +80,7 @@
     return-void
 .end method
 
-.method static synthetic i(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
+.method static synthetic e(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
     .registers 1
 
     .line 1
@@ -125,11 +89,47 @@
     return p0
 .end method
 
-.method static synthetic j(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
+.method static synthetic f(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
     .registers 2
 
     .line 1
     iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->d:I
+
+    return-void
+.end method
+
+.method static synthetic g(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)Landroid/graphics/drawable/Drawable;
+    .registers 1
+
+    .line 1
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->e:Landroid/graphics/drawable/Drawable;
+
+    return-object p0
+.end method
+
+.method static synthetic h(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;Landroid/graphics/drawable/BitmapDrawable;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->e:Landroid/graphics/drawable/Drawable;
+
+    return-void
+.end method
+
+.method static synthetic i(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;)I
+    .registers 1
+
+    .line 1
+    iget p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->a:I
+
+    return p0
+.end method
+
+.method static synthetic j(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/activity/GPreviewActivityV2$c;->a:I
 
     return-void
 .end method

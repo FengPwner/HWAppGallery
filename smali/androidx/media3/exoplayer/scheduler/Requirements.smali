@@ -129,7 +129,7 @@
 
     .line 34
     .line 35
-    sget v3, Lcom/huawei/appmarket/ge8;->a:I
+    sget v3, Lcom/huawei/appmarket/le8;->a:I
 
     .line 36
     .line 37
@@ -145,7 +145,7 @@
 
     .line 42
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appmarket/ej5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
+    invoke-static {v0}, Lcom/huawei/appmarket/gj5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
 
     .line 43
     .line 44
@@ -348,7 +348,7 @@
 
     .line 131
     .line 132
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 133
     .line 134
@@ -360,7 +360,7 @@
 
     .line 137
     .line 138
-    invoke-static {v0}, Lcom/huawei/appmarket/ej5;->v(Landroid/os/PowerManager;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/gj5;->v(Landroid/os/PowerManager;)Z
 
     .line 139
     .line 140

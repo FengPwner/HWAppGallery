@@ -10,11 +10,11 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;)V
 
     return-void
 .end method
@@ -45,18 +45,18 @@
 
     const-string v0, "jsonBean toJson error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
     return-object p1
 .end method
 
-.method public static synthetic c(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic c(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Lcom/huawei/appmarket/nv7;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->lambda$refreshAccessToken$3(Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->lambda$refreshAccessToken$3(Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
@@ -79,11 +79,11 @@
     return-void
 .end method
 
-.method public static synthetic f(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic f(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->lambda$venusCustomerService$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->lambda$venusCustomerService$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
@@ -97,11 +97,11 @@
     return-void
 .end method
 
-.method private synthetic lambda$refreshAccessToken$3(Lcom/huawei/appmarket/hv7;)V
+.method private synthetic lambda$refreshAccessToken$3(Lcom/huawei/appmarket/nv7;)V
     .registers 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yn4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bo4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -162,11 +162,11 @@
     return-void
 
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/eg8;
+    new-instance v0, Lcom/huawei/appmarket/jg8;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/eg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -174,20 +174,20 @@
 .method private synthetic lambda$refreshAccessToken$5()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/eg8;
+    new-instance v0, Lcom/huawei/appmarket/jg8;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/eg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->checkSmartRobot(Lcom/huawei/appmarket/op0;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->checkSmartRobot(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
 
-.method private synthetic lambda$venusCustomerService$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+.method private synthetic lambda$venusCustomerService$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
     .registers 5
 
     .line 1
-    invoke-virtual {p3}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p3
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/yn4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/bo4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p3
 
@@ -250,11 +250,11 @@
     return-void
 
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/dg8;
+    new-instance v0, Lcom/huawei/appmarket/ig8;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/dg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/ig8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
 
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -262,18 +262,18 @@
 .method private synthetic lambda$venusCustomerService$2(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/dg8;
+    new-instance v0, Lcom/huawei/appmarket/ig8;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/dg8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/ig8;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->checkSmartRobot(Lcom/huawei/appmarket/op0;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->checkSmartRobot(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected checkSmartRobot(Lcom/huawei/appmarket/op0;)V
+.method protected checkSmartRobot(Lcom/huawei/appmarket/pp0;)V
     .registers 4
 
     .line 1
@@ -285,7 +285,7 @@
 
     const/4 v0, 0x1
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     return-void
 
@@ -294,9 +294,9 @@
 
     const-string v1, "is not smartRobot, request white list"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/q30;->requestWhiteList(Lcom/huawei/appmarket/op0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/q30;->requestWhiteList(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
@@ -313,7 +313,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     .line 2
     .line 3
@@ -335,7 +335,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->s0()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -368,7 +368,7 @@
 
     .line 26
     :cond_1
-    invoke-static {v2}, Lcom/huawei/appmarket/jn8;->n(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/pn8;->n(Ljava/lang/String;)Z
 
     .line 27
     .line 28
@@ -523,15 +523,15 @@
 
     const-string v1, "use refreshAccessToken"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/q30;->mHandler:Landroid/os/Handler;
 
-    new-instance v1, Lcom/huawei/appmarket/uh5;
+    new-instance v1, Lcom/huawei/appmarket/pr;
 
-    const/4 v2, 0x7
+    const/16 v2, 0x9
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -547,7 +547,7 @@
 
     const-string v1, "use venusCustomerService"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
@@ -559,11 +559,11 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/q30;->mHandler:Landroid/os/Handler;
 
-    new-instance v3, Lcom/huawei/appmarket/xz;
+    new-instance v3, Lcom/huawei/appmarket/yz;
 
-    const/16 v4, 0x12
+    const/16 v4, 0x13
 
-    invoke-direct {v3, v4, p0, v0, v1}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v3, v4, p0, v0, v1}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

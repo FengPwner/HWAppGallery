@@ -20,7 +20,7 @@
 # instance fields
 .field private final a:Lcom/bumptech/glide/load/data/c;
 
-.field private final b:Lcom/huawei/appmarket/hx;
+.field private final b:Lcom/huawei/appmarket/ix;
 
 .field private final c:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -34,7 +34,7 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +43,7 @@
             "Ljava/util/List<",
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")V"
         }
     .end annotation
@@ -62,7 +62,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/hx;
+    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/ix;
 
     .line 9
     .line 10
@@ -82,7 +82,7 @@
 
     .line 17
     .line 18
-    invoke-direct {p2, p1, p3}, Lcom/bumptech/glide/load/data/c;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {p2, p1, p3}, Lcom/bumptech/glide/load/data/c;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
     .line 19
     .line 20
@@ -366,6 +366,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -381,7 +388,7 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->a:Lcom/bumptech/glide/load/data/c;
 
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/vk6;
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/xk6;
 
     move-result-object v0
 
@@ -416,15 +423,15 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->a:Lcom/bumptech/glide/load/data/c;
 
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/vk6;
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/xk6;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/ix;
 
     iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->c:Ljava/util/List;
 
-    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)I
 
     move-result v0
 
@@ -442,15 +449,15 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->a:Lcom/bumptech/glide/load/data/c;
 
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/vk6;
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/data/c;->d()Lcom/huawei/appmarket/xk6;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->b:Lcom/huawei/appmarket/ix;
 
     iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$d;->c:Ljava/util/List;
 
-    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object v0
 

@@ -36,7 +36,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
@@ -154,7 +154,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private setMessage(I)V

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/og8;
+.implements Lcom/huawei/appmarket/tg8;
 
 
 # direct methods

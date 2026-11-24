@@ -21,7 +21,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/a57;",
+        "Lcom/huawei/appmarket/f57;",
         ">;",
         "Ljava/io/Serializable;"
     }
@@ -56,11 +56,11 @@
     .registers 15
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/a57;
+    check-cast p1, Lcom/huawei/appmarket/f57;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/a57;
+    check-cast p2, Lcom/huawei/appmarket/f57;
 
     .line 4
     .line 5
@@ -77,7 +77,7 @@
     .line 10
     .line 11
     :cond_0
-    iget v0, p2, Lcom/huawei/appmarket/a57;->b:I
+    iget v0, p2, Lcom/huawei/appmarket/f57;->b:I
 
     .line 12
     .line 13
@@ -88,7 +88,7 @@
 
     .line 15
     .line 16
-    iget v2, p1, Lcom/huawei/appmarket/a57;->b:I
+    iget v2, p1, Lcom/huawei/appmarket/f57;->b:I
 
     .line 17
     .line 18
@@ -97,7 +97,7 @@
     .line 19
     .line 20
     :cond_1
-    iget v1, p1, Lcom/huawei/appmarket/a57;->b:I
+    iget v1, p1, Lcom/huawei/appmarket/f57;->b:I
 
     .line 21
     .line 22
@@ -106,7 +106,7 @@
     .line 23
     .line 24
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/a57;->c()Lcom/huawei/appmarket/pt4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/f57;->c()Lcom/huawei/appmarket/st4;
 
     .line 25
     .line 26
@@ -114,7 +114,7 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pt4;->b()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/st4;->b()F
 
     .line 29
     .line 30
@@ -122,7 +122,7 @@
     move-result v0
 
     .line 32
-    invoke-virtual {p2}, Lcom/huawei/appmarket/a57;->c()Lcom/huawei/appmarket/pt4;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/f57;->c()Lcom/huawei/appmarket/st4;
 
     .line 33
     .line 34
@@ -130,7 +130,7 @@
     move-result-object v1
 
     .line 36
-    invoke-virtual {v1}, Lcom/huawei/appmarket/pt4;->b()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/st4;->b()F
 
     .line 37
     .line 38
@@ -142,7 +142,7 @@
 
     .line 41
     .line 42
-    iget-object v3, p1, Lcom/huawei/appmarket/a57;->d:Lcom/huawei/appmarket/ju0;
+    iget-object v3, p1, Lcom/huawei/appmarket/f57;->d:Lcom/huawei/appmarket/ju0;
 
     .line 43
     .line 44
@@ -159,7 +159,7 @@
 
     .line 50
     .line 51
-    iget-object v3, p2, Lcom/huawei/appmarket/a57;->d:Lcom/huawei/appmarket/ju0;
+    iget-object v3, p2, Lcom/huawei/appmarket/f57;->d:Lcom/huawei/appmarket/ju0;
 
     .line 52
     .line 53
@@ -171,7 +171,7 @@
 
     .line 56
     :cond_3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/a57;->c()Lcom/huawei/appmarket/pt4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/f57;->c()Lcom/huawei/appmarket/st4;
 
     .line 57
     .line 58
@@ -179,7 +179,7 @@
     move-result-object v2
 
     .line 60
-    invoke-virtual {v2}, Lcom/huawei/appmarket/pt4;->a()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/st4;->a()F
 
     .line 61
     .line 62
@@ -187,7 +187,7 @@
     move-result v2
 
     .line 64
-    invoke-virtual {p2}, Lcom/huawei/appmarket/a57;->c()Lcom/huawei/appmarket/pt4;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/f57;->c()Lcom/huawei/appmarket/st4;
 
     .line 65
     .line 66
@@ -195,7 +195,7 @@
     move-result-object v3
 
     .line 68
-    invoke-virtual {v3}, Lcom/huawei/appmarket/pt4;->a()F
+    invoke-virtual {v3}, Lcom/huawei/appmarket/st4;->a()F
 
     .line 69
     .line 70
@@ -223,7 +223,7 @@
     float-to-double v6, v2
 
     .line 80
-    iget p1, p1, Lcom/huawei/appmarket/a57;->b:I
+    iget p1, p1, Lcom/huawei/appmarket/f57;->b:I
 
     .line 81
     .line 82
@@ -272,7 +272,7 @@
     float-to-double v0, v3
 
     .line 103
-    iget p2, p2, Lcom/huawei/appmarket/a57;->b:I
+    iget p2, p2, Lcom/huawei/appmarket/f57;->b:I
 
     .line 104
     .line 105
@@ -303,7 +303,7 @@
 
     .line 115
     .line 116
-    iget p1, p1, Lcom/huawei/appmarket/a57;->b:I
+    iget p1, p1, Lcom/huawei/appmarket/f57;->b:I
 
     .line 117
     .line 118
@@ -327,7 +327,7 @@
 
     .line 125
     .line 126
-    iget p2, p2, Lcom/huawei/appmarket/a57;->b:I
+    iget p2, p2, Lcom/huawei/appmarket/f57;->b:I
 
     .line 127
     .line 128
@@ -393,5 +393,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

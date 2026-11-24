@@ -43,7 +43,7 @@
 
     const-string v3, "JobSchedulerManager"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "job_run_task_list"
 

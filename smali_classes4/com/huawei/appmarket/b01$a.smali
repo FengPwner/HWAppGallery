@@ -31,7 +31,7 @@
     .line 1
     const-string v0, "connectionSpec"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -94,13 +94,13 @@
     return-object v0
 .end method
 
-.method public final varargs b([Lcom/huawei/appmarket/hq0;)V
+.method public final varargs b([Lcom/huawei/appmarket/iq0;)V
     .registers 7
 
     .line 1
     const-string v0, "cipherSuites"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appmarket/b01$a;->a:Z
 
@@ -123,7 +123,7 @@
 
     aget-object v4, p1, v3
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/hq0;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/iq0;->c()Ljava/lang/String;
 
     move-result-object v4
 
@@ -174,7 +174,7 @@
     .line 1
     const-string v0, "cipherSuites"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appmarket/b01$a;->a:Z
 
@@ -263,7 +263,7 @@
     throw v0
 .end method
 
-.method public final varargs e([Lcom/huawei/appmarket/a08;)V
+.method public final varargs e([Lcom/huawei/appmarket/f08;)V
     .registers 7
 
     .line 1
@@ -288,7 +288,7 @@
 
     aget-object v4, p1, v3
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/a08;->a()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/f08;->a()Ljava/lang/String;
 
     move-result-object v4
 
@@ -339,7 +339,7 @@
     .line 1
     const-string v0, "tlsVersions"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appmarket/b01$a;->a:Z
 

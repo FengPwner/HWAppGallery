@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/card/appdetailentitycertifycard/DetailEntityCertifyCard;
-.super Lcom/huawei/appmarket/oa2;
+.super Lcom/huawei/appmarket/ra2;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/oa2<",
+        "Lcom/huawei/appmarket/ra2<",
         "Lcom/huawei/appgallery/detail/detailbase/card/appdetailentitycertifycard/DetailEntityCertifyCardData;",
         ">;"
     }
@@ -34,7 +34,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/oa2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ra2;-><init>()V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 
 
 # virtual methods
-.method protected final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
@@ -67,7 +67,7 @@
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -78,7 +78,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
@@ -92,7 +92,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -145,7 +145,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->c()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->c()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object p1
 
@@ -159,12 +159,12 @@
 
     const-string p2, "build param is null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method protected final g(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
+.method protected final g(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
     .registers 4
 
     .line 1
@@ -176,7 +176,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     .line 6
     .line 7
@@ -218,7 +218,7 @@
 
     .line 23
     .line 24
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26

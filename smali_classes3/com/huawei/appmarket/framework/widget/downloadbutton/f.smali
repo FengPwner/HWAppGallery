@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/y88;
+.implements Lcom/huawei/appmarket/d98;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 .field final synthetic b:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-.field final synthetic c:Lcom/huawei/appmarket/dt1;
+.field final synthetic c:Lcom/huawei/appmarket/gt1;
 
 .field final synthetic d:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/dt1;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+.method constructor <init>(Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/gt1;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
     .registers 6
 
     .line 1
@@ -29,7 +29,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->b:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->c:Lcom/huawei/appmarket/dt1;
+    iput-object p4, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->c:Lcom/huawei/appmarket/gt1;
 
     iput-object p5, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->d:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
@@ -50,13 +50,13 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->b:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    iget-object v3, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->c:Lcom/huawei/appmarket/dt1;
+    iget-object v3, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->c:Lcom/huawei/appmarket/gt1;
 
     iget-object v4, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/f;->d:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
     xor-int/lit8 v5, p1, 0x1
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->l(Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/dt1;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Z)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->l(Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/gt1;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Z)V
 
     return-void
 .end method

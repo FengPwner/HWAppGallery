@@ -440,14 +440,14 @@
     const/4 v3, 0x0
 
     .line 14
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "ETag"
 
     .line 15
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 

@@ -4,22 +4,22 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/qb2;)V
+.method public constructor <init>(Lcom/huawei/appmarket/tb2;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;-><init>(Lcom/huawei/appmarket/qb2;)V
+    invoke-direct {p0, p1}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;-><init>(Lcom/huawei/appmarket/tb2;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final f(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/qb2;)V
+.method protected final f(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/tb2;)V
     .registers 11
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getEngine()Lcom/huawei/appmarket/fb2;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getEngine()Lcom/huawei/appmarket/ib2;
 
     .line 2
     .line 3
@@ -30,11 +30,11 @@
     const/4 v1, 0x0
 
     .line 6
-    const-class v2, Lcom/huawei/appmarket/pw4;
+    const-class v2, Lcom/huawei/appmarket/sw4;
 
     .line 7
     .line 8
-    invoke-virtual {v0, v2, p1, v1}, Lcom/huawei/appmarket/fb2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
+    invoke-virtual {v0, v2, p1, v1}, Lcom/huawei/appmarket/ib2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -42,7 +42,7 @@
     move-result-object v0
 
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/pw4;
+    check-cast v0, Lcom/huawei/appmarket/sw4;
 
     .line 13
     .line 14
@@ -50,7 +50,7 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Lcom/huawei/appmarket/pw4;->a()Lcom/huawei/appmarket/ow4;
+    invoke-interface {v0}, Lcom/huawei/appmarket/sw4;->a()Lcom/huawei/appmarket/rw4;
 
     .line 17
     .line 18
@@ -58,7 +58,7 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getDataSource()Lcom/huawei/flexiblelayout/data/e;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getDataSource()Lcom/huawei/flexiblelayout/data/e;
 
     .line 21
     .line 22
@@ -122,12 +122,12 @@
     move-object v7, p1
 
     .line 49
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;-><init>(Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/qb2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/uc2;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;-><init>(Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/tb2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/xc2;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ow4;->a(Lcom/huawei/appmarket/sw4;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/rw4;->a(Lcom/huawei/appmarket/vw4;)V
 
     .line 53
     .line 54
@@ -253,5 +253,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

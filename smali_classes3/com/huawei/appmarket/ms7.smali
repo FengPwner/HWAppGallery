@@ -39,49 +39,40 @@
 
     .line 2
     .line 3
-    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    invoke-static {}, Lcom/huawei/appmarket/sy1;->a()Lcom/huawei/appmarket/sy1;
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
-
     .line 6
+    move-result-object p1
+
     .line 7
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 8
-    move-result p2
-
     .line 9
-    if-eqz p2, :cond_0
-
     .line 10
-    .line 11
-    new-instance p1, Lcom/huawei/appmarket/ls7;
+    const-wide/32 p1, 0x57f2a60
 
+    .line 11
     .line 12
     .line 13
-    invoke-direct {p1}, Lcom/huawei/appmarket/ls7;-><init>()V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/sy1;->d(J)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ls7;->c()Z
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 17
     .line 18
+    return-object p1
     .line 19
-    move-result p1
-
     .line 20
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
     .line 21
     .line 22
     .line 23
-    move-result-object p1
-
     .line 24
-    :cond_0
-    return-object p1
     .line 25
     .line 26
     .line 27
@@ -232,14 +223,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method protected final o()J
     .registers 3
 
     .line 1
-    const-wide/32 v0, 0x5265c00
+    const-wide/32 v0, 0x57f2a60
 
     return-wide v0
 .end method
@@ -257,7 +247,7 @@
     .registers 2
 
     .line 1
-    const-string v0, "SyncInstalledAppsTask"
+    const-string v0, "SyncAtomicServiceDataTask"
 
     return-object v0
 .end method
@@ -279,7 +269,7 @@
 .end method
 
 .method protected final u(Landroid/content/Context;)Ljava/lang/Object;
-    .registers 4
+    .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/InterruptedException;
@@ -300,7 +290,7 @@
     .line 6
     .line 7
     .line 8
-    const-string p1, "SyncInstalledAppsTask"
+    const-string p1, "SyncAtomicServiceDataTask"
 
     .line 9
     .line 10
@@ -312,67 +302,37 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 15
     .line 16
+    return-object p1
     .line 17
-    move-result p1
-
     .line 18
-    if-eqz p1, :cond_0
-
     .line 19
     .line 20
-    const-string p1, "DeviceKit"
-
     .line 21
     .line 22
-    const-class v1, Lcom/huawei/appmarket/em3;
-
     .line 23
     .line 24
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-
     .line 25
     .line 26
     .line 27
-    move-result-object p1
-
     .line 28
-    check-cast p1, Lcom/huawei/appmarket/em3;
-
     .line 29
     .line 30
-    invoke-interface {p1}, Lcom/huawei/appmarket/em3;->c()Z
-
     .line 31
     .line 32
     .line 33
-    move-result p1
-
     .line 34
-    if-nez p1, :cond_0
-
     .line 35
     .line 36
-    goto :goto_0
-
     .line 37
-    :cond_0
-    const/4 v0, 0x0
-
     .line 38
-    :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
     .line 39
     .line 40
     .line 41
-    move-result-object p1
-
     .line 42
-    return-object p1
     .line 43
     .line 44
     .line 45
@@ -445,5 +405,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

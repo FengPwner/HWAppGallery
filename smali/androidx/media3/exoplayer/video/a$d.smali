@@ -21,5 +21,5 @@
 .method public abstract b()V
 .end method
 
-.method public abstract onVideoSizeChanged(Lcom/huawei/appmarket/ph8;)V
+.method public abstract onVideoSizeChanged(Lcom/huawei/appmarket/vh8;)V
 .end method

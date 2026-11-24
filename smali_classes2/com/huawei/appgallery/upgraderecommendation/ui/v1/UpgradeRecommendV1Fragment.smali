@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method protected final g6(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Ljava/util/ArrayList;)V
+.method protected final h6(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Ljava/util/ArrayList;)V
     .registers 3
 
     .line 1

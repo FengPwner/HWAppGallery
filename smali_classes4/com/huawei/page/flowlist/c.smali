@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pa2$a;
+.implements Lcom/huawei/appmarket/sa2$a;
 
 
 # instance fields
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/pa2;)V
+.method public final a(Lcom/huawei/appmarket/sa2;)V
     .registers 3
 
     .line 1

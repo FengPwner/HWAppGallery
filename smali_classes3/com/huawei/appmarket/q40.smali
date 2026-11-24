@@ -65,7 +65,7 @@
     .line 10
     .line 11
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 12
     .line 13
@@ -77,11 +77,11 @@
 
     .line 16
     .line 17
-    check-cast v5, Lcom/huawei/appmarket/dr6;
+    check-cast v5, Lcom/huawei/appmarket/gr6;
 
     .line 18
     .line 19
-    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 20
     .line 21
@@ -89,11 +89,11 @@
     move-result-object v5
 
     .line 23
-    const-class v6, Lcom/huawei/appmarket/gu3;
+    const-class v6, Lcom/huawei/appmarket/iu3;
 
     .line 24
     .line 25
-    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -101,14 +101,14 @@
     move-result-object v5
 
     .line 29
-    check-cast v5, Lcom/huawei/appmarket/gu3;
+    check-cast v5, Lcom/huawei/appmarket/iu3;
 
     .line 30
     .line 31
     const/4 v6, 0x0
 
     .line 32
-    invoke-interface {v5, v0, v6}, Lcom/huawei/appmarket/gu3;->b(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
+    invoke-interface {v5, v0, v6}, Lcom/huawei/appmarket/iu3;->b(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
 
     .line 33
     .line 34
@@ -148,7 +148,7 @@
 
     .line 49
     .line 50
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52

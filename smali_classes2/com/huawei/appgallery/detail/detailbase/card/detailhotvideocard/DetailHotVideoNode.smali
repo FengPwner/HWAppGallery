@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;
-.super Lcom/huawei/appmarket/hj1;
+.super Lcom/huawei/appmarket/kj1;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/hj1;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/kj1;-><init>(Landroid/content/Context;I)V
 
     return-void
 .end method
@@ -45,11 +45,11 @@
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/hj1;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/kj1;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 2
     .line 3
@@ -102,7 +102,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v2, p0, p1, v1, v1}, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoCard;)V
+    invoke-direct {v2, p0, p1, v1, v1}, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoCard;)V
 
     .line 27
     .line 28
@@ -133,7 +133,7 @@
     .line 41
     .line 42
     :cond_1
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 43
     .line 44
@@ -205,5 +205,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

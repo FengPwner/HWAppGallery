@@ -36,28 +36,28 @@
 
     const-string v4, ""
 
-    new-instance v5, Lcom/huawei/appmarket/gx;
+    new-instance v5, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v5}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v5}, Lcom/huawei/appmarket/hx;-><init>()V
 
-    new-instance v6, Lcom/huawei/appmarket/gx;
+    new-instance v6, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v6}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v6}, Lcom/huawei/appmarket/hx;-><init>()V
 
-    new-instance v7, Lcom/huawei/appmarket/gx;
+    new-instance v7, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v7}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v7}, Lcom/huawei/appmarket/hx;-><init>()V
 
     move-object v0, p0
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v7}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;)V
 
     return-void
 .end method
 
-.method private constructor <init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;)V
+.method private constructor <init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -65,15 +65,15 @@
             "Landroid/os/Parcel;",
             "II",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Ljava/lang/String;",
             "Ljava/lang/reflect/Method;",
             ">;",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Ljava/lang/String;",
             "Ljava/lang/reflect/Method;",
             ">;",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Ljava/lang/String;",
             "Ljava/lang/Class;",
             ">;)V"
@@ -81,7 +81,7 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0, p5, p6, p7}, Landroidx/versionedparcelable/a;-><init>(Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;)V
+    invoke-direct {p0, p5, p6, p7}, Landroidx/versionedparcelable/a;-><init>(Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;)V
 
     new-instance p5, Landroid/util/SparseIntArray;
 
@@ -247,7 +247,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v4, v5}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v4, v5}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -255,22 +255,22 @@
     move-result-object v4
 
     .line 31
-    iget-object v5, p0, Landroidx/versionedparcelable/a;->a:Lcom/huawei/appmarket/gx;
+    iget-object v5, p0, Landroidx/versionedparcelable/a;->a:Lcom/huawei/appmarket/hx;
 
     .line 32
     .line 33
-    iget-object v6, p0, Landroidx/versionedparcelable/a;->b:Lcom/huawei/appmarket/gx;
+    iget-object v6, p0, Landroidx/versionedparcelable/a;->b:Lcom/huawei/appmarket/hx;
 
     .line 34
     .line 35
-    iget-object v7, p0, Landroidx/versionedparcelable/a;->c:Lcom/huawei/appmarket/gx;
+    iget-object v7, p0, Landroidx/versionedparcelable/a;->c:Lcom/huawei/appmarket/hx;
 
     .line 36
     .line 37
     move-object v0, v8
 
     .line 38
-    invoke-direct/range {v0 .. v7}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;Lcom/huawei/appmarket/gx;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;IILjava/lang/String;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;Lcom/huawei/appmarket/hx;)V
 
     .line 39
     .line 40
@@ -370,6 +370,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f()Z

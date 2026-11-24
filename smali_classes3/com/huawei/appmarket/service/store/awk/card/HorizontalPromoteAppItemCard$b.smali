@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;->c:Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -63,11 +63,11 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->setDetailId_(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard$b;->b:Lcom/huawei/appmarket/bk0;
 
     const/4 v2, 0x0
 
-    invoke-interface {v1, v2, p1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, v2, p1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalPromoteAppItemCard;->V1()Lcom/huawei/appmarket/service/store/awk/bean/HorizontalPromoteAppItemCardBean;
 

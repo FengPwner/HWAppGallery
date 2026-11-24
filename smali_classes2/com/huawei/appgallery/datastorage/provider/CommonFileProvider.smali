@@ -44,13 +44,13 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/huawei/appmarket/dy6;)V
+.method public static a(Ljava/lang/String;Lcom/huawei/appmarket/hy6;)V
     .registers 3
 
     .line 1
     sget-object v0, Lcom/huawei/appgallery/datastorage/provider/CommonFileProvider;->d:Lcom/huawei/appgallery/datastorage/provider/a;
 
-    invoke-virtual {v0, p0, p1}, Lcom/huawei/appgallery/datastorage/provider/a;->a(Ljava/lang/String;Lcom/huawei/appmarket/dy6;)V
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appgallery/datastorage/provider/a;->a(Ljava/lang/String;Lcom/huawei/appmarket/hy6;)V
 
     return-void
 .end method
@@ -111,13 +111,13 @@
 .method public final delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "CommonFileProvider"
 
     const-string p3, "unsupport delete"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -197,13 +197,13 @@
 .method public final insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "CommonFileProvider"
 
     const-string v0, "unsupport insert"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -289,13 +289,13 @@
 
     if-nez v0, :cond_3
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "CommonFileProvider"
 
     const-string v1, "can not open this file."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p2
 
@@ -1284,13 +1284,13 @@
 .method public final update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .registers 5
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "CommonFileProvider"
 
     const-string p3, "unsupport update"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 

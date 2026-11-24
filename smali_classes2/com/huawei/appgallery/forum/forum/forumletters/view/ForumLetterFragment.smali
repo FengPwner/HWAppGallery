@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "forum_letter_frg"
     protocol = Lcom/huawei/appgallery/forum/forum/forumletters/view/IForumLetterFrgProtocol;
 .end annotation
@@ -72,9 +72,9 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    new-instance v1, Lcom/huawei/appmarket/ks1;
+    new-instance v1, Lcom/huawei/appmarket/ns1;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/ks1;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/ns1;-><init>()V
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->Y2:Ljava/util/List;
 
@@ -90,9 +90,9 @@
 
     move-result-object v4
 
-    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/ks1;->d(Ljava/lang/String;)V
+    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/ns1;->d(Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ks1;->e(Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ns1;->e(Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;)V
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->Y2:Ljava/util/List;
 
@@ -110,7 +110,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-direct {p0, v1}, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->z6(Lcom/huawei/appmarket/ks1;)V
+    invoke-direct {p0, v1}, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->z6(Lcom/huawei/appmarket/ns1;)V
 
     invoke-virtual {v0, v5, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -154,12 +154,12 @@
 
     if-eqz v7, :cond_2
 
-    invoke-virtual {v1, v6}, Lcom/huawei/appmarket/ks1;->f(Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;)V
+    invoke-virtual {v1, v6}, Lcom/huawei/appmarket/ns1;->f(Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;)V
 
     invoke-interface {v2}, Ljava/util/Iterator;->remove()V
 
     :cond_3
-    invoke-direct {p0, v1}, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->z6(Lcom/huawei/appmarket/ks1;)V
+    invoke-direct {p0, v1}, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->z6(Lcom/huawei/appmarket/ns1;)V
 
     invoke-virtual {v0, v5, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -170,13 +170,13 @@
     return-void
 .end method
 
-.method private z6(Lcom/huawei/appmarket/ks1;)V
+.method private z6(Lcom/huawei/appmarket/ns1;)V
     .registers 5
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/forumletters/view/ForumLetterFragment;->c3:Ljava/util/LinkedHashMap;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ks1;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ns1;->a()Ljava/lang/String;
 
     move-result-object v1
 
@@ -186,11 +186,11 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ks1;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ns1;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ks1;->b()Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ns1;->b()Lcom/huawei/appgallery/forum/forum/bean/ForumSectionInfoCardBean;
 
     move-result-object v2
 
@@ -205,7 +205,7 @@
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ks1;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ns1;->a()Ljava/lang/String;
 
     move-result-object v1
 
@@ -215,7 +215,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ks1;->g(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ns1;->g(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -235,9 +235,9 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -469,7 +469,7 @@
 
     .line 102
     .line 103
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 104
     .line 105
@@ -551,7 +551,7 @@
     move-result-object v2
 
     .line 143
-    invoke-static {}, Lcom/huawei/appmarket/xe3;->b()Lcom/huawei/appmarket/xe3;
+    invoke-static {}, Lcom/huawei/appmarket/ze3;->b()Lcom/huawei/appmarket/ze3;
 
     .line 144
     .line 145
@@ -591,7 +591,7 @@
 
     .line 162
     :cond_4
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/xe3;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/ze3;->c(Ljava/lang/String;)Ljava/lang/String;
 
     .line 163
     .line 164
@@ -1121,13 +1121,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method protected final u4(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
@@ -1154,11 +1147,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     move-result v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->E(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->E(ILandroid/view/View;)V
 
     const p1, 0x7f0a143b
 

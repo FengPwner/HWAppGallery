@@ -4,23 +4,15 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/gz;)V
-.end method
-
-.method public abstract b(ILjava/lang/String;)V
-.end method
-
-.method public abstract c(I)V
-.end method
-
-.method public abstract d(I)V
-.end method
-
-.method public abstract e(II)V
-.end method
-
-.method public abstract onComplete()V
-.end method
-
-.method public abstract onPause()V
+.method public abstract a(Lcom/huawei/appmarket/bo3;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/bo3;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
+            ">;"
+        }
+    .end annotation
 .end method

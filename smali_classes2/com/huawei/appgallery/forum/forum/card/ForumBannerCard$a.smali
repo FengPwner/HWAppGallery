@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/forum/card/ForumBannerCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/card/ForumBannerCard$a;->b:Lcom/huawei/appgallery/forum/forum/widget/ForumBanner;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -60,17 +60,17 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v1
 
     check-cast p1, Lcom/huawei/appgallery/forum/base/card/ForumCardBean;
 
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/gp3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/ip3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     :cond_0
     return-void

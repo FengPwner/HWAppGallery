@@ -49,15 +49,15 @@
 
     const-string v2, "DownloadProxy"
 
-    const-class v3, Lcom/huawei/appmarket/mo3;
+    const-class v3, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/mo3;
+    check-cast v2, Lcom/huawei/appmarket/oo3;
 
-    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/mo3;->f(J)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/oo3;->f(J)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     const-string v1, "isFeatureDownload true"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -89,11 +89,11 @@
 
 
 # virtual methods
-.method public final refreshStatus()Lcom/huawei/appmarket/dt1;
+.method public final refreshStatus()Lcom/huawei/appmarket/gt1;
     .registers 5
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
@@ -107,13 +107,13 @@
 
     invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setEnabled(Z)V
 
-    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v3, Lcom/huawei/appmarket/dt1;->k:Lcom/huawei/appmarket/dt1;
+    sget-object v3, Lcom/huawei/appmarket/gt1;->k:Lcom/huawei/appmarket/gt1;
 
     if-eq v2, v3, :cond_0
 
-    sget-object v3, Lcom/huawei/appmarket/dt1;->n:Lcom/huawei/appmarket/dt1;
+    sget-object v3, Lcom/huawei/appmarket/gt1;->n:Lcom/huawei/appmarket/gt1;
 
     if-eq v2, v3, :cond_0
 

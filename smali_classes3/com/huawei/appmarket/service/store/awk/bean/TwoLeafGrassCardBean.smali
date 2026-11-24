@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jt3;
+.implements Lcom/huawei/appmarket/lt3;
 
 
 # static fields

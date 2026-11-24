@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -43,7 +43,7 @@
 
     move-result-object p3
 
-    invoke-static {p3}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result p3
 
@@ -61,7 +61,7 @@
 
     invoke-direct {p3, p1, v0}, Lcom/huawei/appgallery/purchasehistory/ui/fragment/ConsumeRecordsFragment$a;-><init>(Lcom/huawei/appgallery/purchasehistory/ui/fragment/ConsumeRecordsFragment;Lcom/huawei/appgallery/purchasehistory/ui/fragment/a;)V
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     :cond_0
     return-void

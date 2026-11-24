@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/kk6;
+.field private n:Lcom/huawei/appmarket/mk6;
 
 .field private o:Lcom/huawei/appmarket/service/store/awk/card/RecommendWordsCard;
 
@@ -15,7 +15,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->h()I
 
     move-result v0
 
@@ -146,34 +146,34 @@
 
     .line 55
     .line 56
-    new-instance v2, Lcom/huawei/appmarket/kk6;
+    new-instance v2, Lcom/huawei/appmarket/mk6;
 
     .line 57
     .line 58
-    invoke-direct {v2}, Lcom/huawei/appmarket/kk6;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/mk6;-><init>()V
 
     .line 59
     .line 60
     .line 61
-    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/kk6;
+    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/mk6;
 
     .line 62
     .line 63
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/kk6;->g(Landroid/widget/RelativeLayout;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/mk6;->g(Landroid/widget/RelativeLayout;)V
 
     .line 64
     .line 65
     .line 66
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/kk6;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/mk6;
 
     .line 67
     .line 68
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/kk6;->m(Landroid/widget/RelativeLayout;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/mk6;->m(Landroid/widget/RelativeLayout;)V
 
     .line 69
     .line 70
     .line 71
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/kk6;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/mk6;
 
     .line 72
     .line 73
@@ -181,7 +181,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/kk6;->n(Ljava/lang/String;)V
+    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/mk6;->n(Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -199,11 +199,11 @@
 
     .line 84
     .line 85
-    iget-object v4, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/kk6;
+    iget-object v4, p0, Lcom/huawei/appmarket/service/store/awk/node/RecommendWordsNode;->n:Lcom/huawei/appmarket/mk6;
 
     .line 86
     .line 87
-    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/service/store/awk/card/RecommendWordsCard;->y1(Lcom/huawei/appmarket/kk6;)V
+    invoke-virtual {v2, v4}, Lcom/huawei/appmarket/service/store/awk/card/RecommendWordsCard;->y1(Lcom/huawei/appmarket/mk6;)V
 
     .line 88
     .line 89
@@ -217,7 +217,7 @@
     .line 93
     .line 94
     .line 95
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 96
     .line 97
@@ -225,7 +225,7 @@
     move-result v2
 
     .line 99
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 100
     .line 101
@@ -311,14 +311,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->h()I
 
     move-result v0
 

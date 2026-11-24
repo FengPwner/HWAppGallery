@@ -68,7 +68,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ot6;->c()Lcom/huawei/appmarket/ot6;
+    invoke-static {}, Lcom/huawei/appmarket/st6;->c()Lcom/huawei/appmarket/st6;
 
     move-result-object v1
 
@@ -82,7 +82,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/ot6;->l(Lcom/huawei/appmarket/service/reserve/game/bean/ReserveResponse;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/service/reserve/game/bean/ContextParam;)V
+    invoke-virtual {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/st6;->l(Lcom/huawei/appmarket/service/reserve/game/bean/ReserveResponse;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/service/reserve/game/bean/ContextParam;)V
 
     goto :goto_0
 
@@ -91,7 +91,7 @@
 
     const-string v1, "can\'t reserve game info, because reserveResponse is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

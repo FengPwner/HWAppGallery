@@ -742,13 +742,13 @@
 
     iget-object p2, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/explorecard/explorecard/card/telextlistcard/TeletextListCardNode;->n:I
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result p2
 
@@ -769,7 +769,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->h()I
 
     move-result v0
 
@@ -815,14 +815,14 @@
     return-void
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 18
 
     .line 1
     move-object v6, p0
 
     .line 2
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     .line 3
     .line 4
@@ -830,7 +830,7 @@
     move-result-object v7
 
     .line 6
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/hj0;->c()I
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/ij0;->c()I
 
     .line 7
     .line 8
@@ -845,7 +845,7 @@
 
     .line 12
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/al0;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->h()I
 
     .line 13
     .line 14
@@ -1172,7 +1172,7 @@
     .line 169
     .line 170
     :cond_3
-    invoke-super/range {p0 .. p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super/range {p0 .. p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 171
     .line 172
@@ -1589,11 +1589,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

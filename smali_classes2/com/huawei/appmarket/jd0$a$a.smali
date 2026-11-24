@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vr1$a;
+.implements Lcom/huawei/appmarket/yr1$a;
 
 
 # annotations
@@ -41,14 +41,14 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/jd0$a$a;->a:Lcom/huawei/appmarket/jd0$a;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jd0$a;->a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ck3;
+    invoke-static {v0}, Lcom/huawei/appmarket/jd0$a;->a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ek3;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
     :try_start_0
-    invoke-static {v0}, Lcom/huawei/appmarket/jd0$a;->a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ck3;
+    invoke-static {v0}, Lcom/huawei/appmarket/jd0$a;->a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ek3;
 
     move-result-object v0
 
@@ -56,7 +56,7 @@
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -67,7 +67,7 @@
 
     const-string v1, "METHOD_SHOW_BUOY_GUIDE response failed"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

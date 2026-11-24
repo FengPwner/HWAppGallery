@@ -83,7 +83,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -169,7 +169,7 @@
     .registers 11
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -196,7 +196,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -226,7 +226,7 @@
 
     .line 28
     .line 29
-    invoke-static {p2, v2}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v2}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -355,7 +355,7 @@
     .line 91
     .line 92
     .line 93
-    invoke-static {p3}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {p3}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     .line 94
     .line 95
@@ -387,7 +387,7 @@
 
     .line 108
     .line 109
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 110
     .line 111
@@ -403,7 +403,7 @@
 
     .line 116
     .line 117
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -470,7 +470,7 @@
     .line 147
     .line 148
     :goto_1
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 149
     .line 150
@@ -564,7 +564,7 @@
     move-result-object p1
 
     .line 190
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 191
     .line 192
@@ -585,7 +585,7 @@
     .line 199
     .line 200
     .line 201
-    invoke-static {p4}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {p4}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     .line 202
     .line 203
@@ -802,7 +802,7 @@
 
     .line 304
     .line 305
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 306
     .line 307

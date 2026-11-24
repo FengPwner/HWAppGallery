@@ -6,43 +6,31 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/u08$a;
+        Lcom/huawei/appmarket/u08$b;
     }
 .end annotation
 
 
 # static fields
-.field public static final d:Lcom/huawei/appmarket/u08$a;
-
-.field private static final e:Lcom/huawei/appmarket/u08;
+.field private static final c:Lcom/huawei/appmarket/u08;
 
 
 # instance fields
-.field private a:Ljava/lang/String;
+.field private final a:Ljava/lang/Object;
 
-.field private b:Lcom/huawei/appmarket/s08$a;
-
-.field private final c:Ljava/util/HashMap;
+.field private b:Ljava/util/concurrent/CopyOnWriteArrayList;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 2
+    .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/u08$a;
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/u08$a;-><init>(Lcom/huawei/appmarket/gd1;)V
-
-    sput-object v0, Lcom/huawei/appmarket/u08;->d:Lcom/huawei/appmarket/u08$a;
-
     new-instance v0, Lcom/huawei/appmarket/u08;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/u08;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/u08;->e:Lcom/huawei/appmarket/u08;
+    sput-object v0, Lcom/huawei/appmarket/u08;->c:Lcom/huawei/appmarket/u08;
 
     return-void
 .end method
@@ -53,134 +41,310 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/util/HashMap;
+    new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/u08;->c:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/Object;
+
+    new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/u08;->b:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     return-void
 .end method
 
-.method public static final synthetic a()Lcom/huawei/appmarket/u08;
+.method public static b()Lcom/huawei/appmarket/u08;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/u08;->e:Lcom/huawei/appmarket/u08;
+    sget-object v0, Lcom/huawei/appmarket/u08;->c:Lcom/huawei/appmarket/u08;
 
     return-object v0
 .end method
 
-.method public static final b()Lcom/huawei/appmarket/u08;
-    .registers 1
+
+# virtual methods
+.method final a(Lcom/huawei/appmarket/ii2;)V
+    .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/u08;->d:Lcom/huawei/appmarket/u08$a;
+    if-nez p1, :cond_0
+
+    sget-object p1, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
+
+    const-string v0, "TokenListenerManager"
+
+    const-string v1, "add token listener is null"
+
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
+
+    const-string v1, "TokenListenerManager"
+
+    const-class v2, Lcom/huawei/appmarket/ii2;
+
+    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "add token listener is:"
+
+    invoke-virtual {v3, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/u08;->b:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->contains(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    iget-object v1, p0, Lcom/huawei/appmarket/u08;->b:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    monitor-exit v0
+
+    return-void
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p1
+.end method
+
+.method public final c()V
+    .registers 9
+
+    .line 1
+    const-string v0, "notify token changed and token state is:"
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v1, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/Object;
 
     .line 4
     .line 5
+    monitor-enter v1
+
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/u08;->a()Lcom/huawei/appmarket/u08;
+    :try_start_0
+    new-instance v2, Lcom/huawei/appmarket/u08$b;
 
     .line 7
     .line 8
+    const/4 v3, 0x0
+
     .line 9
-    move-result-object v0
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/u08$b;-><init>(Lcom/huawei/appmarket/u08$a;)V
 
     .line 10
-    return-object v0
     .line 11
     .line 12
+    sget-object v3, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
+
     .line 13
     .line 14
+    const-string v4, "TokenListenerManager"
+
     .line 15
     .line 16
+    new-instance v5, Ljava/lang/StringBuilder;
+
     .line 17
     .line 18
+    invoke-direct {v5, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 19
     .line 20
     .line 21
+    invoke-static {}, Lcom/huawei/appmarket/z08;->b()Lcom/huawei/appmarket/z08;
+
     .line 22
     .line 23
     .line 24
+    move-result-object v0
+
     .line 25
+    invoke-virtual {v0}, Lcom/huawei/appmarket/z08;->d()Lcom/huawei/appmarket/x08$a;
+
     .line 26
     .line 27
     .line 28
+    move-result-object v0
+
     .line 29
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
     .line 30
     .line 31
     .line 32
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 33
     .line 34
     .line 35
+    move-result-object v0
+
     .line 36
+    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 37
     .line 38
     .line 39
+    iget-object v0, p0, Lcom/huawei/appmarket/u08;->b:Ljava/util/concurrent/CopyOnWriteArrayList;
+
     .line 40
     .line 41
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+
     .line 42
     .line 43
     .line 44
+    move-result-object v0
+
     .line 45
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
     .line 46
     .line 47
     .line 48
+    move-result v3
+
     .line 49
+    if-eqz v3, :cond_0
+
     .line 50
     .line 51
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
     .line 52
     .line 53
     .line 54
+    move-result-object v3
+
     .line 55
+    check-cast v3, Lcom/huawei/appmarket/pp5;
+
     .line 56
     .line 57
+    sget-object v4, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
+
     .line 58
     .line 59
+    const-string v5, "TokenListenerManager"
+
     .line 60
     .line 61
+    new-instance v6, Ljava/lang/StringBuilder;
+
     .line 62
     .line 63
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 64
     .line 65
     .line 66
+    const-string v7, "notify token changed token revieve is:"
+
     .line 67
     .line 68
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 69
     .line 70
     .line 71
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 72
     .line 73
     .line 74
+    move-result-object v7
+
     .line 75
+    invoke-virtual {v7}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
     .line 76
     .line 77
     .line 78
+    move-result-object v7
+
     .line 79
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 80
     .line 81
     .line 82
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 83
     .line 84
     .line 85
+    move-result-object v6
+
     .line 86
+    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 87
     .line 88
     .line 89
+    invoke-interface {v3, v2}, Lcom/huawei/appmarket/pp5;->a(Lcom/huawei/appmarket/x08;)V
+
     .line 90
     .line 91
     .line 92
+    goto :goto_0
+
     .line 93
+    :catchall_0
+    move-exception v0
+
     .line 94
+    goto :goto_1
+
     .line 95
+    :cond_0
+    monitor-exit v1
+
     .line 96
+    return-void
+
     .line 97
+    :goto_1
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
     .line 98
+    throw v0
     .line 99
     .line 100
     .line 101
@@ -218,63 +382,55 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-
-# virtual methods
-.method public final c()Ljava/lang/String;
-    .registers 2
+.method final d(Lcom/huawei/appmarket/pp5;)V
+    .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/String;
+    if-eqz p1, :cond_0
 
-    return-object v0
-.end method
+    sget-object v0, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
 
-.method public final d()Lcom/huawei/appmarket/s08$a;
-    .registers 2
+    const-string v1, "TokenListenerManager"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/u08;->b:Lcom/huawei/appmarket/s08$a;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    return-object v0
-.end method
+    move-result-object v2
 
-.method public final e(Ljava/lang/String;)V
-    .registers 2
+    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/String;
+    move-result-object v2
+
+    const-string v3, "remove token listener is:"
+
+    invoke-virtual {v3, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/u08;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/u08;->b:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
+
+    monitor-exit v0
 
     return-void
-.end method
 
-.method public final f(Lcom/huawei/appmarket/s08$a;)V
-    .registers 2
+    :catchall_0
+    move-exception p1
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/u08;->b:Lcom/huawei/appmarket/s08$a;
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    return-void
-.end method
-
-.method public final g()V
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/u08;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
-
-    const/4 v1, -0x2
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const-string v2, "userState"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-void
+    throw p1
 .end method

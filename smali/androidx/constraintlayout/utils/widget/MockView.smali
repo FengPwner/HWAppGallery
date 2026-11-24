@@ -261,7 +261,7 @@
 
     if-eqz p2, :cond_7
 
-    sget-object v1, Lcom/huawei/appmarket/wf6;->q:[I
+    sget-object v1, Lcom/huawei/appmarket/yf6;->q:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

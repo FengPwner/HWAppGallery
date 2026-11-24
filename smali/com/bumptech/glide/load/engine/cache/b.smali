@@ -17,14 +17,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
+.method public final a(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
     .registers 3
 
     .line 1
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/sq4;)Ljava/io/File;
+.method public final b(Lcom/huawei/appmarket/vq4;)Ljava/io/File;
     .registers 2
 
     .line 1

@@ -35,13 +35,13 @@
 
 .field private g:I
 
-.field private final h:Lcom/huawei/appmarket/ja3;
+.field private final h:Lcom/huawei/appmarket/ma3;
 
 .field final synthetic i:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;Lcom/huawei/appmarket/ja3;)V
+.method public constructor <init>(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;Lcom/huawei/appmarket/ma3;)V
     .registers 5
 
     .line 1
@@ -57,7 +57,7 @@
 
     iput p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->g:I
 
-    iput-object p2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->h:Lcom/huawei/appmarket/ja3;
+    iput-object p2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->h:Lcom/huawei/appmarket/ma3;
 
     return-void
 .end method
@@ -743,11 +743,11 @@
 
     .line 187
     .line 188
-    iget-object v2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->h:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->h:Lcom/huawei/appmarket/ma3;
 
     .line 189
     .line 190
-    invoke-virtual {v1, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->D1(Lcom/huawei/appmarket/ja3;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->D1(Lcom/huawei/appmarket/ma3;)V
 
     .line 191
     .line 192
@@ -772,7 +772,7 @@
 
     .line 202
     .line 203
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 204
     .line 205
@@ -813,7 +813,7 @@
 
     .line 222
     .line 223
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 224
     .line 225
@@ -846,7 +846,7 @@
 
     .line 237
     .line 238
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 239
     .line 240
@@ -860,7 +860,7 @@
     .line 244
     .line 245
     :cond_a
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 246
     .line 247
@@ -882,7 +882,7 @@
 
     .line 254
     .line 255
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 256
     .line 257
@@ -915,7 +915,7 @@
 
     .line 269
     .line 270
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 271
     .line 272
@@ -929,7 +929,7 @@
     .line 276
     .line 277
     :cond_d
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 278
     .line 279
@@ -1507,25 +1507,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -1570,7 +1551,7 @@
     const/4 v1, 0x0
 
     .line 19
-    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 20
     .line 21
@@ -1594,7 +1575,7 @@
 
     .line 30
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 32
     .line 33
@@ -1753,7 +1734,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -1894,7 +1874,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -2021,5 +2000,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

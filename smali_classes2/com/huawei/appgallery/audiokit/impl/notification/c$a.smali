@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sr6;
+.implements Lcom/huawei/appmarket/vr6;
 
 
 # annotations
@@ -46,17 +46,17 @@
 
 
 # virtual methods
-.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Z)Z
+.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Z)Z
     .registers 5
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string p2, "AudioNotificationHelper"
 
     const-string p3, "audioIcon load failed, use appIcon."
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/notification/c$a;->b:Ljava/lang/ref/WeakReference;
 
@@ -94,7 +94,7 @@
     return p1
 .end method
 
-.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)Z
+.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)Z
     .registers 6
 
     .line 1

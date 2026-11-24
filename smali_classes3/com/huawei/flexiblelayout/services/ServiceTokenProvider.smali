@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract getServiceToken()Lcom/huawei/appmarket/ow8;
+.method public abstract getServiceToken()Lcom/huawei/appmarket/uw8;
 .end method

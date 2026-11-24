@@ -7,15 +7,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/bf0;
+.field final synthetic b:Lcom/huawei/appmarket/ie0;
+
+.field final synthetic c:Lcom/huawei/appmarket/cf0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/bf0;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/cf0;Lcom/huawei/appmarket/ie0;)V
+    .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/af0;->b:Lcom/huawei/appmarket/bf0;
+    iput-object p1, p0, Lcom/huawei/appmarket/af0;->c:Lcom/huawei/appmarket/cf0;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/af0;->b:Lcom/huawei/appmarket/ie0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,22 +32,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/af0;->b:Lcom/huawei/appmarket/bf0;
+    iget-object v0, p0, Lcom/huawei/appmarket/af0;->c:Lcom/huawei/appmarket/cf0;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bf0;->b(Lcom/huawei/appmarket/bf0;)Lcom/huawei/appmarket/kj3;
+    iget-object v1, p0, Lcom/huawei/appmarket/af0;->b:Lcom/huawei/appmarket/ie0;
 
-    move-result-object v1
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cf0;->a(Lcom/huawei/appmarket/cf0;Lcom/huawei/appmarket/ie0;)V
 
-    if-eqz v1, :cond_0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/bf0;->b(Lcom/huawei/appmarket/bf0;)Lcom/huawei/appmarket/kj3;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appmarket/cf0;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cf0;->S2()V
-
-    :cond_0
     return-void
 .end method

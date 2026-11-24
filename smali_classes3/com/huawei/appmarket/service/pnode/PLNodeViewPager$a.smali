@@ -48,7 +48,7 @@
 
     const-string v0, "sendAccessibilityEventUnchecked focus cleared"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->k0()V
 
@@ -63,7 +63,7 @@
 
     const-string v0, "sendAccessibilityEventUnchecked focus"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->l0()V
 

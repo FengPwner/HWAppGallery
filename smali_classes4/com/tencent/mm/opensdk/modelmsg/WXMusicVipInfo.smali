@@ -81,7 +81,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelmsg/WXMusicVipInfo;->musicId:Ljava/lang/String;
 
-    const-string v1, "wx_music_vip_id"
+    const-string/jumbo v1, "wx_music_vip_id"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -91,7 +91,7 @@
 .method public unserialize(Landroid/os/Bundle;)V
     .registers 4
 
-    const-string v0, "wx_music_vip_id"
+    const-string/jumbo v0, "wx_music_vip_id"
 
     const-string v1, ""
 

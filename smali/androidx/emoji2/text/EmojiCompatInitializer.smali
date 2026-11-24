@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ad4;
+.implements Lcom/huawei/appmarket/cd4;
 
 
 # annotations
@@ -18,7 +18,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ad4<",
+        "Lcom/huawei/appmarket/cd4<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -44,7 +44,7 @@
             "Ljava/util/List<",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/ad4<",
+            "Lcom/huawei/appmarket/cd4<",
             "*>;>;>;"
         }
     .end annotation
@@ -93,11 +93,11 @@
     move-result-object p1
 
     .line 17
-    check-cast p1, Lcom/huawei/appmarket/du4;
+    check-cast p1, Lcom/huawei/appmarket/gu4;
 
     .line 18
     .line 19
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     .line 20
     .line 21
@@ -114,7 +114,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 29
     .line 30

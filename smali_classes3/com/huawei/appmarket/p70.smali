@@ -393,29 +393,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 
@@ -470,11 +447,11 @@
 
     .line 23
     .line 24
-    const-class v3, Lcom/huawei/appmarket/eo3;
+    const-class v3, Lcom/huawei/appmarket/go3;
 
     .line 25
     .line 26
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -482,14 +459,14 @@
     move-result-object v0
 
     .line 30
-    check-cast v0, Lcom/huawei/appmarket/eo3;
+    check-cast v0, Lcom/huawei/appmarket/go3;
 
     .line 31
     .line 32
     const/4 v3, 0x0
 
     .line 33
-    invoke-interface {v0, v2, v1, v3}, Lcom/huawei/appmarket/eo3;->tryDownloadFA(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+    invoke-interface {v0, v2, v1, v3}, Lcom/huawei/appmarket/go3;->tryDownloadFA(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
 
     .line 34
     .line 35

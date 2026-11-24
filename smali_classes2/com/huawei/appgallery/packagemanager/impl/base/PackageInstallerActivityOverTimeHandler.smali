@@ -111,11 +111,11 @@
 
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appmarket/i76;->b:Lcom/huawei/appmarket/i76;
+    sget-object v0, Lcom/huawei/appmarket/k76;->b:Lcom/huawei/appmarket/k76;
 
     .line 10
     .line 11
-    iget-object v1, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iget-object v1, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
     .line 12
     .line 13
@@ -131,7 +131,7 @@
 
     .line 18
     .line 19
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 20
     .line 21
@@ -188,7 +188,7 @@
     move-result-object v1
 
     .line 48
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -205,7 +205,7 @@
 
     .line 56
     .line 57
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/o62;->a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/s62;->a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 
     .line 58
     .line 59
@@ -234,7 +234,7 @@
 
     .line 70
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/i76;->d:Lcom/huawei/appmarket/i76;
+    sget-object v0, Lcom/huawei/appmarket/k76;->d:Lcom/huawei/appmarket/k76;
 
     .line 71
     .line 72
@@ -242,7 +242,7 @@
 
     .line 73
     .line 74
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 75
     .line 76
@@ -276,7 +276,7 @@
     move-result-object v1
 
     .line 92
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -297,5 +297,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

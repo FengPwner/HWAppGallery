@@ -6,7 +6,7 @@
 # instance fields
 .field private b:Landroid/widget/TextView;
 
-.field private c:Lcom/huawei/appmarket/c63;
+.field private c:Lcom/huawei/appmarket/f63;
 
 
 # direct methods
@@ -171,7 +171,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -184,7 +183,7 @@
 
     invoke-virtual {p0, v0}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/c63;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/f63;
 
     if-eqz v0, :cond_0
 
@@ -217,7 +216,7 @@
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/c63;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/f63;
 
     if-eqz p1, :cond_1
 
@@ -229,11 +228,11 @@
     return-void
 .end method
 
-.method public setHeightChangeListener(Lcom/huawei/appmarket/c63;)V
+.method public setHeightChangeListener(Lcom/huawei/appmarket/f63;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/c63;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/view/RiskDetailView;->c:Lcom/huawei/appmarket/f63;
 
     return-void
 .end method

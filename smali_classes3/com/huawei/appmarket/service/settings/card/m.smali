@@ -3,10 +3,10 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a74$a;
-.implements Lcom/huawei/appmarket/z87$a;
-.implements Lcom/huawei/appmarket/n28$f;
-.implements Lcom/huawei/appmarket/us7$b;
+.implements Lcom/huawei/appmarket/d74$a;
+.implements Lcom/huawei/appmarket/e97$a;
+.implements Lcom/huawei/appmarket/s28$f;
+.implements Lcom/huawei/appmarket/at7$b;
 
 
 # instance fields
@@ -136,7 +136,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -189,7 +188,7 @@
 
     .line 21
     .line 22
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -201,7 +200,7 @@
 
     .line 27
     .line 28
-    invoke-interface {v1, v0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, v0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/nv7;
 
     .line 29
     .line 30
@@ -209,16 +208,16 @@
     move-result-object p1
 
     .line 32
-    new-instance v1, Lcom/huawei/appmarket/lr4;
+    new-instance v1, Lcom/huawei/appmarket/or4;
 
     .line 33
     .line 34
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/lr4;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/or4;-><init>(Landroid/content/Context;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 38
     .line 39
@@ -299,7 +298,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final b(I)V

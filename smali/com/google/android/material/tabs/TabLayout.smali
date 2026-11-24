@@ -23,7 +23,7 @@
 
 
 # static fields
-.field private static final S:Lcom/huawei/appmarket/o26;
+.field private static final S:Lcom/huawei/appmarket/q26;
 
 
 # instance fields
@@ -69,7 +69,7 @@
 
 .field private Q:Z
 
-.field private final R:Lcom/huawei/appmarket/m26;
+.field private final R:Lcom/huawei/appmarket/o26;
 
 .field private final b:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
@@ -134,13 +134,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/o26;
+    new-instance v0, Lcom/huawei/appmarket/q26;
 
     const/16 v1, 0x10
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o26;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/q26;-><init>(I)V
 
-    sput-object v0, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/o26;
+    sput-object v0, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/q26;
 
     return-void
 .end method
@@ -172,7 +172,7 @@
 
     const v0, 0x7f130421
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -208,13 +208,13 @@
 
     iput-object v1, p0, Lcom/google/android/material/tabs/TabLayout;->I:Ljava/util/ArrayList;
 
-    new-instance v1, Lcom/huawei/appmarket/m26;
+    new-instance v1, Lcom/huawei/appmarket/o26;
 
     const/16 v2, 0xc
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/m26;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/o26;-><init>(I)V
 
-    iput-object v1, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/m26;
+    iput-object v1, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/o26;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -236,7 +236,7 @@
 
     invoke-super {p0, v9, p1, v3}, Landroid/widget/HorizontalScrollView;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    sget-object v5, Lcom/huawei/appmarket/ie6;->a0:[I
+    sget-object v5, Lcom/huawei/appmarket/ke6;->a0:[I
 
     const v7, 0x7f130421
 
@@ -252,7 +252,7 @@
 
     move v6, p3
 
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -270,9 +270,9 @@
 
     check-cast p3, Landroid/graphics/drawable/ColorDrawable;
 
-    new-instance v3, Lcom/huawei/appmarket/q45;
+    new-instance v3, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {v3}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/t45;-><init>()V
 
     invoke-virtual {p3}, Landroid/graphics/drawable/ColorDrawable;->getColor()I
 
@@ -282,22 +282,22 @@
 
     move-result-object p3
 
-    invoke-virtual {v3, p3}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v3, p3}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     move-result p3
 
-    invoke-virtual {v3, p3}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v3, p3}, Lcom/huawei/appmarket/t45;->G(F)V
 
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, v3}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
     const/4 p3, 0x5
 
-    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/p45;->d(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/s45;->d(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p3
 
@@ -399,7 +399,7 @@
 
     iput p3, p0, Lcom/google/android/material/tabs/TabLayout;->i:I
 
-    sget-object v4, Lcom/huawei/appmarket/pe6;->z:[I
+    sget-object v4, Lcom/huawei/appmarket/re6;->z:[I
 
     invoke-virtual {v1, p3, v4}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
@@ -416,7 +416,7 @@
 
     const/4 v4, 0x3
 
-    invoke-static {v1, p3, v4}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p3, v4}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v5
 
@@ -434,7 +434,7 @@
 
     if-eqz v5, :cond_1
 
-    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -484,7 +484,7 @@
 
     .line 4
     :cond_2
-    invoke-static {v1, p2, v4}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p2, v4}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -498,7 +498,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {p3, v4}, Lcom/huawei/appmarket/tj8;->g(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p3, v4}, Lcom/huawei/appmarket/zj8;->g(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p3
 
@@ -506,7 +506,7 @@
 
     const/16 p3, 0x15
 
-    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -822,7 +822,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 13
     .line 14
@@ -1167,7 +1167,7 @@
 
     .line 22
     .line 23
-    invoke-static {v3, v0, v2, v2, v2}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {v3, v0, v2, v2, v2}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     .line 24
     .line 25
@@ -1339,6 +1339,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private i(FI)I
@@ -1430,7 +1431,7 @@
 
     float-to-int p1, p2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p2
 
@@ -1461,7 +1462,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/tabs/TabLayout;->K:Landroid/animation/ValueAnimator;
 
-    sget-object v1, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v1, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
@@ -2318,11 +2319,11 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/o26;
+    sget-object v0, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/q26;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/q26;->b()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2352,7 +2353,7 @@
 
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/m26;
+    iget-object v1, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/o26;
 
     .line 19
     .line 20
@@ -2360,7 +2361,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -2555,6 +2556,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final m()V
@@ -2763,6 +2765,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final n()V
@@ -2827,11 +2830,11 @@
     .line 28
     .line 29
     .line 30
-    iget-object v2, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/m26;
+    iget-object v2, p0, Lcom/google/android/material/tabs/TabLayout;->R:Lcom/huawei/appmarket/o26;
 
     .line 31
     .line 32
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/m26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -2897,11 +2900,11 @@
     .line 63
     .line 64
     .line 65
-    sget-object v3, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/o26;
+    sget-object v3, Lcom/google/android/material/tabs/TabLayout;->S:Lcom/huawei/appmarket/q26;
 
     .line 66
     .line 67
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/q26;->a(Ljava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -2977,6 +2980,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final o(Lcom/google/android/material/tabs/TabLayout$g;Z)V
@@ -3274,7 +3278,7 @@
 
     invoke-super {p0}, Landroid/widget/HorizontalScrollView;->onAttachedToWindow()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/s45;->c(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/v45;->c(Landroid/view/View;)V
 
     iget-object v0, p0, Lcom/google/android/material/tabs/TabLayout;->L:Landroidx/viewpager/widget/ViewPager;
 
@@ -3523,7 +3527,7 @@
 
     move-result v1
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     move-result v0
 
@@ -3614,7 +3618,7 @@
 
     const/16 v2, 0x38
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     move-result v1
 
@@ -4137,7 +4141,7 @@
 
     invoke-super {p0, p1}, Landroid/widget/HorizontalScrollView;->setElevation(F)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/s45;->b(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/v45;->b(Landroid/view/View;F)V
 
     return-void
 .end method
@@ -4261,7 +4265,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -4344,7 +4348,7 @@
 
     iget-object p1, p0, Lcom/google/android/material/tabs/TabLayout;->d:Lcom/google/android/material/tabs/TabLayout$f;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     :cond_0
     return-void
@@ -4517,7 +4521,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -4577,7 +4581,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/bu0;->i(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/kd0;->i(ILjava/lang/String;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -4687,7 +4691,7 @@
 
     invoke-static {p1}, Lcom/google/android/material/tabs/TabLayout$f;->a(Lcom/google/android/material/tabs/TabLayout$f;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     return-void
 .end method
@@ -4759,7 +4763,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 

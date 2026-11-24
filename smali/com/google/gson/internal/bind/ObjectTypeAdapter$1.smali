@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h58;
+.implements Lcom/huawei/appmarket/n58;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/c08;
+.field final synthetic b:Lcom/huawei/appmarket/h08;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/c08;)V
+.method constructor <init>(Lcom/huawei/appmarket/h08;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;->b:Lcom/huawei/appmarket/c08;
+    iput-object p1, p0, Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;->b:Lcom/huawei/appmarket/h08;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
 
     new-instance p2, Lcom/google/gson/internal/bind/ObjectTypeAdapter;
 
-    iget-object v0, p0, Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;->b:Lcom/huawei/appmarket/c08;
+    iget-object v0, p0, Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;->b:Lcom/huawei/appmarket/h08;
 
-    invoke-direct {p2, p1, v0, v1}, Lcom/google/gson/internal/bind/ObjectTypeAdapter;-><init>(Lcom/google/gson/Gson;Lcom/huawei/appmarket/c08;Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;)V
+    invoke-direct {p2, p1, v0, v1}, Lcom/google/gson/internal/bind/ObjectTypeAdapter;-><init>(Lcom/google/gson/Gson;Lcom/huawei/appmarket/h08;Lcom/google/gson/internal/bind/ObjectTypeAdapter$1;)V
 
     return-object p2
 

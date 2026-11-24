@@ -1,14 +1,14 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/ApkManagerAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -26,15 +26,15 @@
 .method public onAction()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     const-string v1, "apkmgr.activity"
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c72$b;->M(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/g72$b;->M(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method

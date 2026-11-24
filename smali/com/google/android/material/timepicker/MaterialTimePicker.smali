@@ -371,7 +371,7 @@
 
     .line 107
     .line 108
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 109
     .line 110
@@ -1595,6 +1595,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final h2()V
@@ -1667,7 +1674,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/d45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/g45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
 
     .line 21
     .line 22
@@ -1721,7 +1728,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/d45;->b(Landroid/content/Context;ILjava/lang/String;)I
+    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/g45;->b(Landroid/content/Context;ILjava/lang/String;)I
 
     .line 47
     .line 48
@@ -1729,7 +1736,7 @@
     move-result v1
 
     .line 50
-    new-instance v3, Lcom/huawei/appmarket/q45;
+    new-instance v3, Lcom/huawei/appmarket/t45;
 
     .line 51
     .line 52
@@ -1746,12 +1753,12 @@
     .line 57
     .line 58
     .line 59
-    invoke-direct {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/q45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/t45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 60
     .line 61
     .line 62
-    sget-object v7, Lcom/huawei/appmarket/ie6;->K:[I
+    sget-object v7, Lcom/huawei/appmarket/ke6;->K:[I
 
     .line 63
     .line 64
@@ -1795,7 +1802,7 @@
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
     .line 85
     .line 86
@@ -1808,7 +1815,7 @@
     move-result-object v0
 
     .line 91
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     .line 92
     .line 93
@@ -1847,7 +1854,7 @@
     move-result-object v0
 
     .line 112
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     .line 113
     .line 114
@@ -1855,7 +1862,7 @@
     move-result v0
 
     .line 116
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/t45;->G(F)V
 
     .line 117
     .line 118

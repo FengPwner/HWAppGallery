@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/l50;
-.super Lcom/huawei/appmarket/yj7;
+.super Lcom/huawei/appmarket/ek7;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/yj7;-><init>(Ljava/util/Map;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ek7;-><init>(Ljava/util/Map;)V
 
     return-void
 .end method

@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract finish()V
+.method public abstract initWithDelegate(Lcom/huawei/appmarket/n64;)V
 .end method

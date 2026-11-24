@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rk8;
+.implements Lcom/huawei/appmarket/xk8;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Lcom/huawei/appmarket/support/emui/permission/BasePermissionActivity<",
         "Lcom/huawei/appgallery/share/protocol/WXEntryActivityProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/rk8;"
+        "Lcom/huawei/appmarket/xk8;"
     }
 .end annotation
 
@@ -40,7 +40,7 @@
 
 .field private q:Z
 
-.field private r:Lcom/huawei/appmarket/tk8;
+.field private r:Lcom/huawei/appmarket/zk8;
 
 .field private s:Ljava/lang/String;
 
@@ -123,7 +123,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->n:Ljava/lang/String;
 
-    invoke-static {p0, p0, v0}, Lcom/huawei/appmarket/ed7;->f(Landroid/content/Context;Lcom/huawei/appmarket/rk8;Ljava/lang/String;)V
+    invoke-static {p0, p0, v0}, Lcom/huawei/appmarket/jd7;->f(Landroid/content/Context;Lcom/huawei/appmarket/xk8;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -132,11 +132,11 @@
     :catch_0
     move-exception v0
 
-    sget-object v2, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v2, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v3, "error when share to wx."
 
-    invoke-virtual {v2, v1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v1, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
@@ -144,11 +144,11 @@
     goto :goto_1
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v2, "wxShareApi is null."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -173,11 +173,11 @@
 
     invoke-interface {v0, v2}, Lcom/tencent/mm/opensdk/openapi/IWXAPI;->sendReq(Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Z
 
-    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/tk8;->b(I)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/zk8;->b(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -186,7 +186,7 @@
     :catch_0
     move-exception v0
 
-    sget-object v2, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v2, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -206,7 +206,7 @@
 
     const-string v3, "WXShareActivity"
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
 
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     return-void
 .end method
@@ -253,7 +253,7 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -265,7 +265,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 8
     .line 9
@@ -422,7 +422,7 @@
 
     .line 82
     .line 83
-    invoke-static {}, Lcom/huawei/appmarket/ql6;->d()Lcom/huawei/appmarket/ql6;
+    invoke-static {}, Lcom/huawei/appmarket/tl6;->d()Lcom/huawei/appmarket/tl6;
 
     .line 84
     .line 85
@@ -454,7 +454,7 @@
     move-result-object v0
 
     .line 99
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ql6;->c(Ljava/lang/Long;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/tl6;->c(Ljava/lang/Long;)Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -462,7 +462,7 @@
     move-result-object v0
 
     .line 103
-    instance-of v2, v0, Lcom/huawei/appmarket/tk8;
+    instance-of v2, v0, Lcom/huawei/appmarket/zk8;
 
     .line 104
     .line 105
@@ -470,11 +470,11 @@
 
     .line 106
     .line 107
-    check-cast v0, Lcom/huawei/appmarket/tk8;
+    check-cast v0, Lcom/huawei/appmarket/zk8;
 
     .line 108
     .line 109
-    iput-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iput-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
     .line 110
     .line 111
@@ -506,7 +506,7 @@
 
     .line 124
     .line 125
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 126
     .line 127
@@ -514,7 +514,7 @@
 
     .line 128
     .line 129
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -534,7 +534,7 @@
 
     .line 138
     .line 139
-    invoke-static {v0}, Lcom/huawei/appmarket/u72;->b(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/y72;->b(Ljava/lang/String;)Z
 
     .line 140
     .line 141
@@ -551,7 +551,7 @@
     .line 146
     .line 147
     .line 148
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 149
     .line 150
@@ -560,7 +560,7 @@
     .line 151
     .line 152
     :goto_2
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
     .line 154
@@ -597,7 +597,7 @@
 
     .line 168
     .line 169
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 170
     .line 171
@@ -634,7 +634,7 @@
     .line 185
     .line 186
     .line 187
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 188
     .line 189
@@ -668,7 +668,7 @@
     move-result-object v2
 
     .line 205
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 206
     .line 207
@@ -730,7 +730,7 @@
     const/4 v1, 0x0
 
     .line 236
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 237
     .line 238
@@ -738,7 +738,7 @@
     move-result-object v0
 
     .line 240
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 241
     .line 242
@@ -769,7 +769,7 @@
 
     .line 255
     .line 256
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 257
     .line 258
@@ -777,7 +777,7 @@
 
     .line 259
     .line 260
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 261
     .line 262
@@ -845,7 +845,7 @@
 
     .line 296
     .line 297
-    invoke-static {v3}, Lcom/huawei/appmarket/gp7;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/lp7;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 298
     .line 299
@@ -984,7 +984,7 @@
 
     .line 368
     .line 369
-    invoke-static {v3}, Lcom/huawei/appmarket/gp7;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/lp7;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 370
     .line 371
@@ -1249,22 +1249,13 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final l2(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
     if-eqz v0, :cond_5
 
@@ -1272,7 +1263,7 @@
 
     if-eqz p1, :cond_4
 
-    sget-object v1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1288,7 +1279,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v0, p1, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
@@ -1302,9 +1293,9 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
-    invoke-interface {v0, v3}, Lcom/huawei/appmarket/tk8;->b(I)V
+    invoke-interface {v0, v3}, Lcom/huawei/appmarket/zk8;->b(I)V
 
     :cond_0
     :goto_0
@@ -1322,7 +1313,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/mk;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/lk;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1347,11 +1338,11 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :cond_2
     iget-object p1, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->s:Ljava/lang/String;
@@ -1362,14 +1353,14 @@
 
     move-result-object v1
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/mk;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/lk;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_3
-    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
-    invoke-interface {v0, v3}, Lcom/huawei/appmarket/tk8;->b(I)V
+    invoke-interface {v0, v3}, Lcom/huawei/appmarket/zk8;->b(I)V
 
     iget-boolean v0, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->q:Z
 
@@ -1391,20 +1382,20 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_0
 
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v1, "errcode not return"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->s:Ljava/lang/String;
 
@@ -1416,14 +1407,14 @@
 
     const-string v2, ""
 
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/mk;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/lk;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
-    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/tk8;
+    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/WXShareActivity;->r:Lcom/huawei/appmarket/zk8;
 
     const/4 v0, 0x2
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/tk8;->b(I)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/zk8;->b(I)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
@@ -1459,13 +1450,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v1, "WXShareActivity"
 
     const-string v2, "wxshareactivity finish"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
 

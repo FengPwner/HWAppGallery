@@ -87,11 +87,11 @@
 
     iput-boolean p2, p0, Lorg/apache/commons/lang3/concurrent/Memoizer;->recalculate:Z
 
-    new-instance p2, Lcom/huawei/appmarket/e65;
+    new-instance p2, Lcom/huawei/appmarket/h65;
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p1, v0}, Lcom/huawei/appmarket/e65;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p1, v0}, Lcom/huawei/appmarket/h65;-><init>(Ljava/lang/Object;I)V
 
     iput-object p2, p0, Lorg/apache/commons/lang3/concurrent/Memoizer;->mappingFunction:Ljava/util/function/Function;
 
@@ -137,11 +137,11 @@
 
     iput-boolean p2, p0, Lorg/apache/commons/lang3/concurrent/Memoizer;->recalculate:Z
 
-    new-instance p2, Lcom/huawei/appmarket/e65;
+    new-instance p2, Lcom/huawei/appmarket/h65;
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, p1, v0}, Lcom/huawei/appmarket/e65;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p1, v0}, Lcom/huawei/appmarket/h65;-><init>(Ljava/lang/Object;I)V
 
     iput-object p2, p0, Lorg/apache/commons/lang3/concurrent/Memoizer;->mappingFunction:Ljava/util/function/Function;
 
@@ -210,11 +210,11 @@
 .method private static synthetic lambda$new$1(Lorg/apache/commons/lang3/concurrent/Computable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/fv8;
+    new-instance v0, Lcom/huawei/appmarket/lv8;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/fv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/lv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/FutureTasks;->run(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/FutureTask;
 
@@ -241,11 +241,11 @@
 .method private static synthetic lambda$new$3(Ljava/util/function/Function;Ljava/lang/Object;)Ljava/util/concurrent/Future;
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/fv8;
+    new-instance v0, Lcom/huawei/appmarket/lv8;
 
     const/4 v1, 0x3
 
-    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/fv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/lv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/FutureTasks;->run(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/FutureTask;
 
@@ -291,7 +291,7 @@
 
     iget-object v1, p0, Lorg/apache/commons/lang3/concurrent/Memoizer;->mappingFunction:Ljava/util/function/Function;
 
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ur4;->f(Ljava/util/concurrent/ConcurrentMap;Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/xr4;->f(Ljava/util/concurrent/ConcurrentMap;Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
 
     move-result-object v0
 

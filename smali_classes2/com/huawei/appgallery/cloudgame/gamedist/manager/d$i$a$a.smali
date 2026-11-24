@@ -101,7 +101,7 @@
     const/4 v1, 0x0
 
     .line 32
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 33
     .line 34
@@ -109,7 +109,7 @@
     move-result-object v0
 
     .line 36
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 37
     .line 38
@@ -136,12 +136,12 @@
 
     .line 49
     .line 50
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/nv7;
 
     .line 54
     .line 55
@@ -158,7 +158,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     .line 63
     .line 64

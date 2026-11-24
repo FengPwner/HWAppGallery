@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -70,7 +70,7 @@
 
     iput v0, p1, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->s:I
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->Z()V
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->a0()V
 
     :cond_1
     return-void

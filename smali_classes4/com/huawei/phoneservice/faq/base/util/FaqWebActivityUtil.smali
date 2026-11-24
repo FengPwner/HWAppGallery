@@ -5,17 +5,17 @@
 
 # static fields
 .field public static final ACTION_OF_BROWSER:Ljava/lang/String; = "android.intent.action.VIEW"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
 .field public static final INTENT_TITLE:Ljava/lang/String; = "title"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
 .field public static final INTENT_URL:Ljava/lang/String; = "url"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
 
 .method public static destroyWeb(Landroid/webkit/WebView;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-eqz p0, :cond_1
@@ -77,7 +77,7 @@
 
 .method public static goToBrowserWebUrl(Landroid/app/Activity;Ljava/lang/String;Z)V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -85,7 +85,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -624,54 +624,11 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static initWebView(Landroid/webkit/WebView;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-eqz p0, :cond_0
@@ -714,7 +671,7 @@
 
 .method public static isInWhiteList(Ljava/lang/String;Landroid/content/Context;)Z
     .registers 8
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
@@ -819,7 +776,7 @@
 
     check-cast p1, [Ljava/lang/String;
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/jc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/oc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
 
     move-result p0
     :try_end_0
@@ -842,7 +799,7 @@
 
 .method public static isSafeImagePath(Landroid/content/Context;Landroid/net/Uri;)Z
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0
@@ -1004,7 +961,7 @@
 
 .method public static isUrl(Ljava/lang/String;)Z
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1039,7 +996,7 @@
 
 .method public static onReceivedSslError(Landroid/webkit/SslErrorHandler;)V
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     return-void
@@ -1047,7 +1004,7 @@
 
 .method public static overrideUrlLoading(Ljava/lang/String;Landroid/app/Activity;)Z
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1146,7 +1103,7 @@
 
     .line 45
     .line 46
-    invoke-static {v3}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v3}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 47
     .line 48
@@ -1401,15 +1358,11 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static removeWebViewJavascriptInterface(Landroid/webkit/WebView;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "accessibility"
@@ -1429,7 +1382,7 @@
 
 .method public static startSystemWeb(Landroid/content/Context;Ljava/lang/String;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1437,7 +1390,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -1732,8 +1685,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

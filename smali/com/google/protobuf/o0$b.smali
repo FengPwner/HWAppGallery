@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/w86;->values()[Lcom/huawei/appmarket/w86;
+    invoke-static {}, Lcom/huawei/appmarket/y86;->values()[Lcom/huawei/appmarket/y86;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/google/protobuf/o0$b;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/w86;->c:Lcom/huawei/appmarket/w86;
+    sget-object v1, Lcom/huawei/appmarket/y86;->c:Lcom/huawei/appmarket/y86;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

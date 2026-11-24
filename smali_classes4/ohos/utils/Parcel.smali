@@ -37,7 +37,7 @@
 
     sput-object v0, Lohos/utils/Parcel;->POOL:[Lohos/utils/Parcel;
 
-    const-string v0, "utils_jni.z"
+    const-string/jumbo v0, "utils_jni.z"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 

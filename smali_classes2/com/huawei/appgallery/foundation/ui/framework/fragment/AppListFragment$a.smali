@@ -36,13 +36,13 @@
 
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/sk0;
+    instance-of v0, p1, Lcom/huawei/appmarket/tk0;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/sk0;
+    check-cast p1, Lcom/huawei/appmarket/tk0;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sk0;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tk0;->f()V
 
     :cond_0
     return-void

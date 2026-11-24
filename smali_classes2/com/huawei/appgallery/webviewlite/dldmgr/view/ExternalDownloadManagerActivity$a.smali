@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/k64$a;
+.implements Lcom/huawei/appmarket/n64$a;
 
 
 # annotations
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/mz4;
+.field private b:Lcom/huawei/appmarket/pz4;
 
 .field private c:Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/mz4;Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;)V
+.method constructor <init>(Lcom/huawei/appmarket/pz4;Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$a;->b:Lcom/huawei/appmarket/mz4;
+    iput-object p1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$a;->b:Lcom/huawei/appmarket/pz4;
 
     iput-object p2, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$a;->c:Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;
 
@@ -63,11 +63,11 @@
 
     .line 10
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$a;->b:Lcom/huawei/appmarket/mz4;
+    iget-object v1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$a;->b:Lcom/huawei/appmarket/pz4;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Lcom/huawei/appmarket/mz4;->b()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pz4;->b()V
 
     .line 13
     .line 14
@@ -102,7 +102,7 @@
 
     .line 30
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 32
     .line 33
@@ -110,7 +110,7 @@
     move-result-object v2
 
     .line 35
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->b()I
 
     .line 36
     .line 37

@@ -2,10 +2,16 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/kh3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/ze1;
+.end annotation
+
 
 # virtual methods
-.method public abstract a(I)Landroid/app/PendingIntent;
-    .annotation runtime Lcom/huawei/appmarket/xe5;
-        value = "getActivity"
-    .end annotation
+.method public abstract y(Z)I
 .end method

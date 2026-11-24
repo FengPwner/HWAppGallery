@@ -51,7 +51,7 @@
 
     if-lt v2, v4, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/jm7;->k()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/pm7;->k()Ljava/lang/String;
 
     move-result-object v5
 
@@ -87,7 +87,7 @@
 
     if-lt v2, v4, :cond_6
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jm7;->B(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/huawei/appmarket/pm7;->B(Landroid/content/Context;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -98,7 +98,7 @@
     goto/16 :goto_5
 
     :cond_5
-    invoke-static {v6, v5, v3}, Lcom/huawei/appmarket/jm7;->b(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v5, v3}, Lcom/huawei/appmarket/pm7;->b(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v3
 
@@ -126,7 +126,7 @@
 
     if-lt v2, v4, :cond_b
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
 
     move-result-object v2
 

@@ -32,13 +32,13 @@
     return-void
 .end method
 
-.method protected final a2(Lcom/huawei/appmarket/ak0;)Lcom/huawei/appmarket/rf7;
+.method protected final a2(Lcom/huawei/appmarket/bk0;)Lcom/huawei/appmarket/wf7;
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgCustomedItemCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgCustomedItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgCustomedItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgCustomedItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalBigImgCustomedItemCard;Lcom/huawei/appmarket/bk0;)V
 
     return-object v0
 .end method
@@ -47,7 +47,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
@@ -79,7 +79,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 8
     .line 9
@@ -96,7 +96,7 @@
     .line 14
     .line 15
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 16
     .line 17
@@ -104,7 +104,7 @@
     move-result v2
 
     .line 19
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 20
     .line 21

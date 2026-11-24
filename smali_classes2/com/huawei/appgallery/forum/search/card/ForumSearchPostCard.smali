@@ -122,7 +122,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/h36;->d(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/PostTime;)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j36;->d(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/PostTime;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -151,7 +151,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->e(I)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->e(I)I
 
     .line 10
     .line 11
@@ -311,7 +311,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
@@ -502,7 +501,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final Y1()V
@@ -646,7 +644,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -658,7 +656,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/ro2;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/to2;->a(Landroid/content/Context;)I
 
     .line 10
     .line 11
@@ -823,7 +821,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method protected final v1(Ljava/util/List;)V
@@ -842,7 +839,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -854,7 +851,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/ro2;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/to2;->a(Landroid/content/Context;)I
 
     .line 10
     .line 11
@@ -962,7 +959,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final y1()I
@@ -973,7 +969,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -985,7 +981,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/ro2;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/to2;->a(Landroid/content/Context;)I
 
     .line 10
     .line 11

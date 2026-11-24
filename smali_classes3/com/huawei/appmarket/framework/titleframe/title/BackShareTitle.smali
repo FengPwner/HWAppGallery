@@ -36,15 +36,15 @@
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/hr3;
+    const-class v0, Lcom/huawei/appmarket/jr3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/hr3;
+    check-cast v0, Lcom/huawei/appmarket/jr3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hr3;->V()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/jr3;->V()V
 
     const/4 v0, 0x1
 

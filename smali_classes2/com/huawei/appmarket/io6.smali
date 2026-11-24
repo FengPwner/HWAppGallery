@@ -1,244 +1,183 @@
-.class public final synthetic Lcom/huawei/appmarket/io6;
+.class public final Lcom/huawei/appmarket/io6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/oo5;
-.implements Lcom/huawei/appmarket/kp5;
-
 
 # instance fields
-.field public final synthetic b:I
+.field a:I
 
-.field public final synthetic c:Ljava/lang/Object;
+.field b:Lcom/huawei/wearengine/device/Device;
 
-.field public final synthetic d:Ljava/lang/Object;
+.field c:Ljava/lang/String;
 
-.field public final synthetic e:Ljava/lang/Object;
+.field d:I
 
-.field public final synthetic f:I
+.field e:Lcom/huawei/appmarket/tv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/tv7<",
+            "Lcom/huawei/appmarket/rv1;",
+            ">;"
+        }
+    .end annotation
+.end field
 
-.field public final synthetic g:Ljava/lang/Object;
+.field f:Ljava/lang/String;
+
+.field g:Ljava/lang/String;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/po6;Lcom/huawei/appmarket/fo6;Lcom/huawei/appmarket/vo6;ILcom/huawei/wearengine/device/Device;)V
-    .registers 7
+.method public constructor <init>()V
+    .registers 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x1
-
-    iput v0, p0, Lcom/huawei/appmarket/io6;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/Object;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/io6;->d:Ljava/lang/Object;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/io6;->e:Ljava/lang/Object;
-
-    iput p4, p0, Lcom/huawei/appmarket/io6;->f:I
-
-    iput-object p5, p0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/Object;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/xm1;Lcom/huawei/appmarket/vo6;Landroid/content/Context;ILcom/huawei/appmarket/m56;)V
-    .registers 7
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x2
-
-    iput v0, p0, Lcom/huawei/appmarket/io6;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/Object;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/io6;->e:Ljava/lang/Object;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/Object;
-
-    iput p4, p0, Lcom/huawei/appmarket/io6;->f:I
-
-    iput-object p5, p0, Lcom/huawei/appmarket/io6;->d:Ljava/lang/Object;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;I)V
-    .registers 7
-
-    .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput p6, p0, Lcom/huawei/appmarket/io6;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/Object;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/Object;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/io6;->e:Ljava/lang/Object;
-
-    iput p4, p0, Lcom/huawei/appmarket/io6;->f:I
-
-    iput-object p5, p0, Lcom/huawei/appmarket/io6;->d:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onFailure(Ljava/lang/Exception;)V
-    .registers 19
+.method public final a()I
+    .registers 2
 
     .line 1
-    move-object/from16 v0, p0
+    iget v0, p0, Lcom/huawei/appmarket/io6;->d:I
 
-    iget v1, v0, Lcom/huawei/appmarket/io6;->b:I
-
-    iget-object v2, v0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/Object;
-
-    iget-object v3, v0, Lcom/huawei/appmarket/io6;->e:Ljava/lang/Object;
-
-    iget-object v4, v0, Lcom/huawei/appmarket/io6;->d:Ljava/lang/Object;
-
-    iget-object v5, v0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/Object;
-
-    packed-switch v1, :pswitch_data_0
-
-    move-object v6, v5
-
-    check-cast v6, Lcom/huawei/appmarket/po6;
-
-    move-object v7, v4
-
-    check-cast v7, Lcom/huawei/appmarket/fo6;
-
-    move-object v8, v3
-
-    check-cast v8, Lcom/huawei/appmarket/vo6;
-
-    iget v9, v0, Lcom/huawei/appmarket/io6;->f:I
-
-    move-object v10, v2
-
-    check-cast v10, Lcom/huawei/wearengine/device/Device;
-
-    move-object/from16 v11, p1
-
-    invoke-static/range {v6 .. v11}, Lcom/huawei/appmarket/po6;->c(Lcom/huawei/appmarket/po6;Lcom/huawei/appmarket/fo6;Lcom/huawei/appmarket/vo6;ILcom/huawei/wearengine/device/Device;Ljava/lang/Exception;)V
-
-    return-void
-
-    :pswitch_0
-    move-object v11, v5
-
-    check-cast v11, Lcom/huawei/appmarket/po6;
-
-    move-object v12, v2
-
-    check-cast v12, Lcom/huawei/appmarket/nv7;
-
-    move-object v13, v3
-
-    check-cast v13, Lcom/huawei/appmarket/vo6;
-
-    iget v14, v0, Lcom/huawei/appmarket/io6;->f:I
-
-    move-object v15, v4
-
-    check-cast v15, Lcom/huawei/appmarket/fo6;
-
-    move-object/from16 v16, p1
-
-    invoke-static/range {v11 .. v16}, Lcom/huawei/appmarket/po6;->h(Lcom/huawei/appmarket/po6;Lcom/huawei/appmarket/nv7;Lcom/huawei/appmarket/vo6;ILcom/huawei/appmarket/fo6;Ljava/lang/Exception;)V
-
-    return-void
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
+    return v0
 .end method
 
-.method public final onSuccess(Ljava/lang/Object;)V
-    .registers 20
+.method public final b()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    move-object/from16 v0, p0
+    iget-object v0, p0, Lcom/huawei/appmarket/io6;->f:Ljava/lang/String;
 
-    iget v1, v0, Lcom/huawei/appmarket/io6;->b:I
+    return-object v0
+.end method
 
-    iget-object v2, v0, Lcom/huawei/appmarket/io6;->d:Ljava/lang/Object;
+.method public final c()Lcom/huawei/wearengine/device/Device;
+    .registers 2
 
-    iget-object v3, v0, Lcom/huawei/appmarket/io6;->e:Ljava/lang/Object;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/io6;->b:Lcom/huawei/wearengine/device/Device;
 
-    iget-object v4, v0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/Object;
+    return-object v0
+.end method
 
-    iget-object v5, v0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/Object;
+.method public final d()I
+    .registers 2
 
-    packed-switch v1, :pswitch_data_0
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/io6;->a:I
 
-    move-object v6, v5
+    return v0
+.end method
 
-    check-cast v6, Lcom/huawei/appmarket/xm1;
+.method public final e()Ljava/lang/String;
+    .registers 2
 
-    move-object v7, v4
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/String;
 
-    check-cast v7, Lcom/huawei/appmarket/p56;
+    return-object v0
+.end method
 
-    move-object v8, v3
+.method public final f()Lcom/huawei/appmarket/tv7;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/tv7<",
+            "Lcom/huawei/appmarket/rv1;",
+            ">;"
+        }
+    .end annotation
 
-    check-cast v8, Lcom/huawei/wearengine/device/Device;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/io6;->e:Lcom/huawei/appmarket/tv7;
 
-    iget v9, v0, Lcom/huawei/appmarket/io6;->f:I
+    return-object v0
+.end method
 
-    move-object v10, v2
+.method public final g()Ljava/lang/String;
+    .registers 2
 
-    check-cast v10, Lcom/huawei/appmarket/xm1$a;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/String;
 
-    move-object/from16 v11, p1
+    return-object v0
+.end method
 
-    check-cast v11, Lcom/huawei/appgallery/remotedevice/remoteserver/agstatus/RemoteAgStatus;
+.method public final h()V
+    .registers 2
 
-    invoke-static/range {v6 .. v11}, Lcom/huawei/appmarket/xm1;->i(Lcom/huawei/appmarket/xm1;Lcom/huawei/appmarket/p56;Lcom/huawei/wearengine/device/Device;ILcom/huawei/appmarket/xm1$a;Lcom/huawei/appgallery/remotedevice/remoteserver/agstatus/RemoteAgStatus;)V
+    .line 1
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/io6;->d:I
 
     return-void
+.end method
 
-    :pswitch_0
-    move-object v12, v5
+.method public final i(Ljava/lang/String;)V
+    .registers 2
 
-    check-cast v12, Lcom/huawei/appmarket/xm1;
-
-    move-object v13, v3
-
-    check-cast v13, Lcom/huawei/appmarket/vo6;
-
-    move-object v14, v4
-
-    check-cast v14, Landroid/content/Context;
-
-    iget v15, v0, Lcom/huawei/appmarket/io6;->f:I
-
-    move-object/from16 v16, v2
-
-    check-cast v16, Lcom/huawei/appmarket/m56;
-
-    move-object/from16 v17, p1
-
-    check-cast v17, Ljava/lang/Boolean;
-
-    invoke-static/range {v12 .. v17}, Lcom/huawei/appmarket/xm1;->c(Lcom/huawei/appmarket/xm1;Lcom/huawei/appmarket/vo6;Landroid/content/Context;ILcom/huawei/appmarket/m56;Ljava/lang/Boolean;)V
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/io6;->f:Ljava/lang/String;
 
     return-void
+.end method
 
-    :pswitch_data_0
-    .packed-switch 0x2
-        :pswitch_0
-    .end packed-switch
+.method public final j(Lcom/huawei/wearengine/device/Device;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/io6;->b:Lcom/huawei/wearengine/device/Device;
+
+    return-void
+.end method
+
+.method public final k(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/io6;->a:I
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/io6;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final m(Lcom/huawei/appmarket/tv7;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/tv7<",
+            "Lcom/huawei/appmarket/rv1;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/io6;->e:Lcom/huawei/appmarket/tv7;
+
+    return-void
+.end method
+
+.method public final n(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/io6;->g:Ljava/lang/String;
+
+    return-void
 .end method

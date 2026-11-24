@@ -310,6 +310,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -358,12 +365,12 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -422,12 +429,12 @@
 
     .line 55
     :pswitch_0
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 56
     .line 57
     .line 58
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -535,4 +542,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

@@ -32,11 +32,11 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     const-string v1, "fragment param is empty."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -59,7 +59,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object v1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -77,7 +77,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -111,7 +111,7 @@
 
     .line 12
     .line 13
-    sget-object p2, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p2, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 14
     .line 15
@@ -123,7 +123,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -149,11 +149,11 @@
 
     .line 31
     .line 32
-    new-instance p3, Lcom/huawei/appmarket/kx4$e;
+    new-instance p3, Lcom/huawei/appmarket/nx4$e;
 
     .line 33
     .line 34
-    invoke-direct {p3}, Lcom/huawei/appmarket/kx4$e;-><init>()V
+    invoke-direct {p3}, Lcom/huawei/appmarket/nx4$e;-><init>()V
 
     .line 35
     .line 36
@@ -170,12 +170,12 @@
     move-result v0
 
     .line 43
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/kx4$e;->i(I)V
+    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/nx4$e;->i(I)V
 
     .line 44
     .line 45
     .line 46
-    invoke-static {}, Lcom/huawei/appmarket/kx4;->m()Lcom/huawei/appmarket/kx4;
+    invoke-static {}, Lcom/huawei/appmarket/nx4;->m()Lcom/huawei/appmarket/nx4;
 
     .line 47
     .line 48
@@ -191,7 +191,7 @@
     move-result-object v1
 
     .line 54
-    invoke-virtual {v0, v1, p2, p3}, Lcom/huawei/appmarket/kx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/kx4$e;)V
+    invoke-virtual {v0, v1, p2, p3}, Lcom/huawei/appmarket/nx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/nx4$e;)V
 
     .line 55
     .line 56

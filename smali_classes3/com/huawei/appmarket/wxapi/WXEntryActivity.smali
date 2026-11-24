@@ -24,7 +24,7 @@
 
 .field private s:Z
 
-.field private t:Lcom/huawei/appmarket/rk8;
+.field private t:Lcom/huawei/appmarket/xk8;
 
 
 # direct methods
@@ -47,7 +47,7 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     move-result-object p1
 
@@ -71,7 +71,7 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/ql6;->d()Lcom/huawei/appmarket/ql6;
+    invoke-static {}, Lcom/huawei/appmarket/tl6;->d()Lcom/huawei/appmarket/tl6;
 
     move-result-object v0
 
@@ -83,17 +83,17 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ql6;->c(Ljava/lang/Long;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tl6;->c(Ljava/lang/Long;)Ljava/lang/Object;
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/huawei/appmarket/rk8;
+    instance-of v1, v0, Lcom/huawei/appmarket/xk8;
 
     if-eqz v1, :cond_2
 
-    check-cast v0, Lcom/huawei/appmarket/rk8;
+    check-cast v0, Lcom/huawei/appmarket/xk8;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/rk8;
+    iput-object v0, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/xk8;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/share/protocol/WXEntryActivityProtocol$Request;->a()Ljava/lang/String;
 
@@ -102,7 +102,7 @@
     iput-object p1, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->r:Ljava/lang/String;
 
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/rk8;
+    iget-object p1, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/xk8;
 
     if-eqz p1, :cond_5
 
@@ -117,9 +117,9 @@
     goto :goto_0
 
     :cond_3
-    iget-object p1, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/rk8;
+    iget-object p1, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/xk8;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/rk8;->E1()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/xk8;->E1()Z
 
     move-result p1
 
@@ -208,11 +208,11 @@
 .method public final onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/rk8;
+    iget-object v0, p0, Lcom/huawei/appmarket/wxapi/WXEntryActivity;->t:Lcom/huawei/appmarket/xk8;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/rk8;->l2(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/xk8;->l2(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
@@ -229,13 +229,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v1, "WXEntryActivity"
 
     const-string v2, "WXEntryActivity finish"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 

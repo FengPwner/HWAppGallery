@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/net/Uri;Lcom/huawei/appmarket/h91;)Ljava/lang/Object;
+.method public abstract a(Landroid/net/Uri;Lcom/huawei/appmarket/i91;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

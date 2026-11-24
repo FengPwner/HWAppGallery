@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mx3;
+.implements Lcom/huawei/appmarket/ox3;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Lcom/huawei/appgallery/search/ui/cardbean/BaseCompositeCardBean<",
         "Lcom/huawei/appgallery/search/ui/cardbean/QuickSearchAppCardBean;",
         ">;",
-        "Lcom/huawei/appmarket/mx3;"
+        "Lcom/huawei/appmarket/ox3;"
     }
 .end annotation
 
@@ -23,7 +23,7 @@
 
 # instance fields
 .field private list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -88,7 +88,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/cardbean/QuickSearchAppCombinedCardBean;->list:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -137,7 +137,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v3
 

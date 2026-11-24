@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     invoke-virtual {p2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

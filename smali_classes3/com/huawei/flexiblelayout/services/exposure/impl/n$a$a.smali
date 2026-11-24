@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/uc2;)V
+.method public abstract a(Lcom/huawei/appmarket/xc2;)V
 .end method

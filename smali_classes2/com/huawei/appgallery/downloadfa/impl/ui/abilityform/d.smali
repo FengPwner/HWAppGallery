@@ -51,11 +51,11 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/d;->b:Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;
 
-    invoke-static {v3}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/d92;
+    invoke-static {v3}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/h92;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/d92;->q()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/h92;->q()Ljava/util/List;
 
     move-result-object v4
 
@@ -70,7 +70,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v4, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v4, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     sget-object v5, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v4, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v3, p1}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->K3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;I)V
 
@@ -96,7 +96,7 @@
 
     :cond_1
     :goto_0
-    sget-object v3, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v3, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     sget-object v4, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -114,7 +114,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v3, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -136,7 +136,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/forum/option/post/view/VoteDeleteDialog;->a(Lcom/huawei/appmarket/ao5;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/forum/option/post/view/VoteDeleteDialog;->a(Lcom/huawei/appmarket/bo5;)V
 
     .line 52
     .line 53

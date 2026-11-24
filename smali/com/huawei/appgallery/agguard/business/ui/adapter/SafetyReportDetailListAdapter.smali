@@ -20,7 +20,7 @@
 
 .field private g:Ljava/util/ArrayList;
 
-.field private final h:Lcom/huawei/appmarket/qt4;
+.field private final h:Lcom/huawei/appmarket/tt4;
 
 
 # direct methods
@@ -29,7 +29,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$h;-><init>()V
 
@@ -41,13 +41,13 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->g:Ljava/util/ArrayList;
 
-    new-instance p1, Lcom/huawei/appmarket/qt4;
+    new-instance p1, Lcom/huawei/appmarket/tt4;
 
     const/4 v0, 0x6
 
-    invoke-direct {p1, v0}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {p1, v0}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->h:Lcom/huawei/appmarket/qt4;
+    iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->h:Lcom/huawei/appmarket/tt4;
 
     return-void
 .end method
@@ -81,7 +81,7 @@
     .line 1
     const-string v0, "listApp"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->g:Ljava/util/ArrayList;
 
@@ -89,9 +89,9 @@
 
     check-cast p1, Ljava/lang/Iterable;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->h:Lcom/huawei/appmarket/qt4;
+    iget-object v1, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->h:Lcom/huawei/appmarket/tt4;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/kt0;->r(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/lt0;->r(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object p1
 
@@ -133,7 +133,7 @@
 
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->g:Ljava/util/ArrayList;
 
@@ -148,13 +148,13 @@
     goto :goto_1
 
     :cond_0
-    check-cast p1, Lcom/huawei/appmarket/h07;
+    check-cast p1, Lcom/huawei/appmarket/l07;
 
     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/og3;
+    check-cast v1, Lcom/huawei/appmarket/qg3;
 
     iget-boolean v2, p0, Lcom/huawei/appgallery/agguard/business/ui/adapter/SafetyReportDetailListAdapter;->f:Z
 
@@ -178,7 +178,7 @@
     :goto_0
     const/4 p2, 0x0
 
-    invoke-virtual {p1, v1, v2, p2}, Lcom/huawei/appmarket/h07;->B(Lcom/huawei/appmarket/og3;ZLjava/util/LinkedHashMap;)V
+    invoke-virtual {p1, v1, v2, p2}, Lcom/huawei/appmarket/l07;->B(Lcom/huawei/appmarket/qg3;ZLjava/util/LinkedHashMap;)V
 
     :cond_2
     :goto_1
@@ -193,7 +193,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -232,7 +232,7 @@
     const/4 v0, 0x0
 
     .line 22
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 23
     .line 24
@@ -240,7 +240,7 @@
     move-result-object v3
 
     .line 26
-    new-instance p1, Lcom/huawei/appmarket/h07;
+    new-instance p1, Lcom/huawei/appmarket/l07;
 
     .line 27
     .line 28
@@ -252,7 +252,7 @@
 
     .line 31
     .line 32
-    invoke-static {v3, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -269,7 +269,7 @@
     move-object v1, p1
 
     .line 39
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/h07;-><init>(Landroid/content/Context;Landroid/view/View;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/l07;-><init>(Landroid/content/Context;Landroid/view/View;IILcom/huawei/appmarket/id1;)V
 
     .line 40
     .line 41

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -47,12 +47,12 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
@@ -63,7 +63,7 @@
 
     const-string v0, "deletePost success"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/content/Intent;
 
@@ -95,11 +95,11 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -115,7 +115,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     return-void
 .end method

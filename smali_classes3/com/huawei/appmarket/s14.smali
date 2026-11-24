@@ -2,43 +2,31 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/kh3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/fg1;
+.end annotation
+
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract A1(Lcom/huawei/appmarket/qz0;)V
 .end method
 
-.method public abstract b(Landroid/content/Context;)V
+.method public abstract J0()Z
 .end method
 
-.method public abstract c(Landroid/content/Context;Ljava/lang/String;Z)V
+.method public abstract J2()V
 .end method
 
-.method public abstract d(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/view/ViewGroup;)V
+.method public abstract b()J
 .end method
 
-.method public abstract e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract c1()V
 .end method
 
-.method public abstract f(Landroid/content/Context;ZLcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;)V
-.end method
-
-.method public abstract g(Landroid/widget/LinearLayout;Ljava/lang/String;Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;Ljava/lang/String;Ljava/lang/String;)V
-.end method
-
-.method public abstract h(Landroidx/fragment/app/FragmentActivity;I)V
-.end method
-
-.method public abstract jumpSearchActivity(Landroid/content/Context;)V
-.end method
-
-.method public abstract jumpSearchActivity(Landroid/content/Context;Ljava/lang/String;)V
-.end method
-
-.method public abstract onAccountlogin(Landroid/content/Context;)V
-.end method
-
-.method public abstract onAccountlogout(Landroid/content/Context;)V
-.end method
-
-.method public abstract triggerTabChange(Ljava/lang/String;)V
+.method public abstract c2()V
 .end method

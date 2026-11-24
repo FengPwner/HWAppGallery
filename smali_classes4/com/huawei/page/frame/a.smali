@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Lcom/huawei/page/frame/FrameCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/page/frame/FrameCard;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/page/frame/FrameCard;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/page/frame/a;->b:Lcom/huawei/page/frame/FrameCard;
 
-    iput-object p2, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -32,11 +32,11 @@
     .registers 8
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/tv7;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     .line 4
     .line 5
@@ -74,7 +74,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -177,7 +177,7 @@
 
     .line 71
     .line 72
-    invoke-static {v3, v4, v0, v1, v5}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v4, v0, v1, v5}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
@@ -185,7 +185,7 @@
     move-result-object v0
 
     .line 76
-    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -307,33 +307,16 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onSuccess()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/page/frame/a;->a:Lcom/huawei/appmarket/tv7;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/huawei/page/frame/a;->b:Lcom/huawei/page/frame/FrameCard;
 

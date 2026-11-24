@@ -4,8 +4,5 @@
 
 
 # virtual methods
-.method public abstract I()V
-.end method
-
-.method public abstract N()V
+.method public abstract a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 .end method

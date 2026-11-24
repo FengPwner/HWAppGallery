@@ -38,7 +38,7 @@
             "Ljava/util/List<",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/f91;",
+            "Lcom/huawei/appmarket/g91;",
             ">;>;"
         }
     .end annotation

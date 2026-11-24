@@ -1079,7 +1079,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/gb9;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/nb9;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1739,7 +1739,7 @@
     const-string v0, "_id="
 
     .line 2
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2348,7 +2348,7 @@
 
     check-cast p0, Landroid/app/Activity;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->z(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/et6;->z(Landroid/app/Activity;)Z
 
     move-result p0
 
@@ -2399,7 +2399,7 @@
 .method public static h(Landroid/content/Context;)Z
     .registers 8
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -2473,7 +2473,7 @@
 .method public static i(Landroid/content/Context;)Z
     .registers 8
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -2563,7 +2563,7 @@
 .method public static j(Landroid/content/Context;)Z
     .registers 8
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 

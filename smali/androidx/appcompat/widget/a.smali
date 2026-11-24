@@ -22,7 +22,7 @@
 
 .field protected f:I
 
-.field protected g:Lcom/huawei/appmarket/fj8;
+.field protected g:Lcom/huawei/appmarket/lj8;
 
 .field private h:Z
 
@@ -173,7 +173,7 @@
     const/4 v2, 0x2
 
     .line 10
-    invoke-static {p2, v1, v2, p1}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {p2, v1, v2, p1}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 11
     .line 12
@@ -1122,7 +1122,7 @@
 .method public getAnimatedVisibility()I
     .registers 2
 
-    iget-object v0, p0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/fj8;
+    iget-object v0, p0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/lj8;
 
     if-eqz v0, :cond_0
 
@@ -1157,7 +1157,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/pe6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/re6;->a:[I
 
     const/4 v1, 0x0
 
@@ -1300,11 +1300,11 @@
 
     if-eq p1, v0, :cond_1
 
-    iget-object v0, p0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/fj8;
+    iget-object v0, p0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/lj8;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fj8;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lj8;->b()V
 
     :cond_0
     invoke-super {p0, p1}, Landroid/view/ViewGroup;->setVisibility(I)V

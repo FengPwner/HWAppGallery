@@ -58,7 +58,7 @@
 
     iput v0, p0, Lcom/google/android/material/appbar/AppBarLayout$LayoutParams;->a:I
 
-    sget-object v1, Lcom/huawei/appmarket/ie6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/ke6;->b:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

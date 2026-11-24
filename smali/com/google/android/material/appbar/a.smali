@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/q45;
+.field final synthetic a:Lcom/huawei/appmarket/t45;
 
 .field final synthetic b:Lcom/google/android/material/appbar/AppBarLayout;
 
 
 # direct methods
-.method constructor <init>(Lcom/google/android/material/appbar/AppBarLayout;Lcom/huawei/appmarket/q45;)V
+.method constructor <init>(Lcom/google/android/material/appbar/AppBarLayout;Lcom/huawei/appmarket/t45;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/google/android/material/appbar/a;->b:Lcom/google/android/material/appbar/AppBarLayout;
 
-    iput-object p2, p0, Lcom/google/android/material/appbar/a;->a:Lcom/huawei/appmarket/q45;
+    iput-object p2, p0, Lcom/google/android/material/appbar/a;->a:Lcom/huawei/appmarket/t45;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     move-result p1
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/a;->a:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/appbar/a;->a:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     iget-object v0, p0, Lcom/google/android/material/appbar/a;->b:Lcom/google/android/material/appbar/AppBarLayout;
 
@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/huawei/appmarket/q45;
+    instance-of v1, v1, Lcom/huawei/appmarket/t45;
 
     if-eqz v1, :cond_0
 
@@ -59,9 +59,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/q45;
+    check-cast v1, Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     :cond_0
     invoke-static {v0}, Lcom/google/android/material/appbar/AppBarLayout;->b(Lcom/google/android/material/appbar/AppBarLayout;)Ljava/util/ArrayList;

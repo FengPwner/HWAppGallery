@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -37,7 +37,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/pay/purchase/a;->b:Lcom/huawei/appmarket/service/pay/purchase/AppTraceEditActivity;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result p2
 
@@ -54,11 +54,11 @@
 
     const/4 p3, 0x0
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :cond_1
     :goto_0

@@ -202,7 +202,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic b(Lcom/huawei/appgallery/appcomment/ui/view/CommentLabelView;)I
@@ -278,13 +277,13 @@
 
     move-object v1, p1
 
-    check-cast v1, Lcom/huawei/appmarket/si8;
+    check-cast v1, Lcom/huawei/appmarket/yi8;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class v1, Lcom/huawei/appmarket/zv0;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
@@ -380,11 +379,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/view/CommentLabelView;->c:Landroid/widget/RelativeLayout;
 
-    new-instance v0, Lcom/huawei/appmarket/y07;
+    new-instance v0, Lcom/huawei/appmarket/c17;
 
     const/4 v1, 0x4
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/y07;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/c17;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -621,7 +620,7 @@
     move-result-object v6
 
     .line 73
-    const v7, 0x7f0a1616
+    const v7, 0x7f0a1617
 
     .line 74
     .line 75
@@ -721,7 +720,7 @@
 
     .line 122
     .line 123
-    invoke-static {v8, v12}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, v12}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 124
     .line 125
@@ -785,7 +784,7 @@
 
     .line 155
     :cond_1
-    invoke-static {v8, v12}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, v12}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 156
     .line 157

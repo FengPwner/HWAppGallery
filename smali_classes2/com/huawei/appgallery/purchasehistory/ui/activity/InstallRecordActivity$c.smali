@@ -171,7 +171,7 @@
 
     .line 52
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object v0, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     .line 53
     .line 54
@@ -213,7 +213,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -237,7 +237,7 @@
     .line 85
     :cond_3
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appgallery/purchasehistory/ui/activity/InstallRecordActivity;->J3(Lcom/huawei/appgallery/purchasehistory/ui/activity/InstallRecordActivity;)Lcom/huawei/appmarket/gf1;
+    invoke-static {p1}, Lcom/huawei/appgallery/purchasehistory/ui/activity/InstallRecordActivity;->J3(Lcom/huawei/appgallery/purchasehistory/ui/activity/InstallRecordActivity;)Lcom/huawei/appmarket/if1;
 
     .line 86
     .line 87
@@ -253,7 +253,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 94
     .line 95
@@ -331,5 +331,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -222,7 +222,7 @@
 
     .line 27
     .line 28
-    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -267,7 +267,7 @@
 
     .line 49
     .line 50
-    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -509,10 +509,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static parseToJsonArray(Ljava/lang/Object;)Lcom/huawei/quickcard/framework/value/QuickCardValue;
@@ -827,7 +823,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -872,7 +868,7 @@
 
     .line 39
     .line 40
-    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -917,7 +913,7 @@
 
     .line 61
     .line 62
-    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v3, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 63
     .line 64
@@ -1154,10 +1150,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static parseToSize(Ljava/lang/Object;)Lcom/huawei/quickcard/framework/value/QuickCardValue;
@@ -1289,7 +1281,7 @@
 
     .line 57
     .line 58
-    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 59
     .line 60
@@ -1334,7 +1326,7 @@
 
     .line 79
     .line 80
-    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 81
     .line 82
@@ -1455,23 +1447,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static parseToString(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/quickcard/framework/value/QuickCardValue;

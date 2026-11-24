@@ -101,7 +101,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/purchasehistory/api/bean/a;->b:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -136,7 +136,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/purchasehistory/api/bean/a;->b:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -183,7 +183,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -230,7 +230,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/purchasehistory/api/bean/a;->b:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -315,7 +315,7 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 

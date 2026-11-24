@@ -120,7 +120,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->A5(Lcom/huawei/appmarket/wu3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->A5(Lcom/huawei/appmarket/yu3;)V
 
     :cond_0
     return-void
@@ -146,7 +146,7 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->z5(Z)V
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->A5(Lcom/huawei/appmarket/wu3;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->A5(Lcom/huawei/appmarket/yu3;)V
 
     :cond_0
     return-void

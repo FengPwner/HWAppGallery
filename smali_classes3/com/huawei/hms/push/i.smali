@@ -40,7 +40,7 @@
 
     check-cast p0, Landroid/app/NotificationManager;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jj5;->p(Landroid/app/NotificationManager;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/lj5;->o(Landroid/app/NotificationManager;)Z
 
     move-result p0
 

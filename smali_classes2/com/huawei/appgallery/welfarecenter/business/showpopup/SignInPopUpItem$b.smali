@@ -24,7 +24,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/m64;",
+            "Lcom/huawei/appmarket/p64;",
             ">;"
         }
     .end annotation
@@ -32,7 +32,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/m64;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/p64;)V
     .registers 3
 
     .line 1
@@ -101,11 +101,11 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-static {}, Lcom/huawei/appgallery/welfarecenter/business/node/PointNumberNode;->M()V
 
@@ -116,7 +116,7 @@
     :cond_0
     const p1, 0x7f120ee9
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/e22;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;I)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i22;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;I)V
 
     :goto_0
     iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;->c:Ljava/lang/ref/WeakReference;
@@ -130,11 +130,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/m64;
+    check-cast p1, Lcom/huawei/appmarket/p64;
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/m64;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/p64;->finish()V
 
     :cond_2
     return-void

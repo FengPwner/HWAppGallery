@@ -26,10 +26,10 @@
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/nv7;
+.field private final b:Lcom/huawei/appmarket/tv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TTResult;>;"
         }
     .end annotation
@@ -37,7 +37,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/hms/common/internal/TaskApiCall;Lcom/huawei/appmarket/nv7;)V
+.method public constructor <init>(Lcom/huawei/hms/common/internal/TaskApiCall;Lcom/huawei/appmarket/tv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -46,7 +46,7 @@
             "+",
             "Lcom/huawei/hms/common/internal/AnyClient;",
             "TTResult;>;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TTResult;>;)V"
         }
     .end annotation
@@ -58,7 +58,7 @@
 
     iput-object p1, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->a:Lcom/huawei/hms/common/internal/TaskApiCall;
 
-    iput-object p2, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lcom/huawei/appmarket/tv7;
 
     return-void
 .end method
@@ -82,18 +82,18 @@
     return-object v0
 .end method
 
-.method public getTaskCompletionSource()Lcom/huawei/appmarket/nv7;
+.method public getTaskCompletionSource()Lcom/huawei/appmarket/tv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TTResult;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lcom/huawei/appmarket/tv7;
 
     return-object v0
 .end method

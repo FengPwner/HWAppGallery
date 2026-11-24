@@ -381,7 +381,7 @@
 
     const-string v0, "Error inflating menu XML"
 
-    instance-of v1, p2, Lcom/huawei/appmarket/tr7;
+    instance-of v1, p2, Lcom/huawei/appmarket/zr7;
 
     if-nez v1, :cond_0
 

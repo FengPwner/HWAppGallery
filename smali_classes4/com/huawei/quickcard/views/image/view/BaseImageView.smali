@@ -14,7 +14,7 @@
 
 .field private c:Lcom/huawei/quickcard/exposure/ExposureManager;
 
-.field protected final cacheBean:Lcom/huawei/appmarket/ld9;
+.field protected final cacheBean:Lcom/huawei/appmarket/sd9;
 
 .field private d:Lcom/huawei/quickcard/exposure/extend/ExtendExposureManager;
 
@@ -35,11 +35,11 @@
 
     iput-object p1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->viewBounds:Landroid/graphics/Rect;
 
-    new-instance p1, Lcom/huawei/appmarket/ld9;
+    new-instance p1, Lcom/huawei/appmarket/sd9;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/ld9;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/sd9;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     sget-object p1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
@@ -435,6 +435,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 
@@ -460,9 +480,9 @@
     return-void
 
     :cond_0
-    iget-object v2, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v2, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ld9;->r()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/sd9;->r()Ljava/lang/String;
 
     move-result-object v2
 
@@ -492,9 +512,9 @@
 .method public enableCache(Z)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->k(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->k(Z)V
 
     const/4 p1, 0x1
 
@@ -507,19 +527,19 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/tl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/vl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method public getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/String;",
             "Landroid/graphics/drawable/Drawable;",
             ">;"
@@ -527,15 +547,15 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/pv5;
+    new-instance v0, Lcom/huawei/appmarket/rv5;
 
-    iget-object v1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ld9;->a(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/sd9;->a(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object v0
 .end method
@@ -544,7 +564,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
 
     move-result-object p1
 
@@ -555,7 +575,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     .line 2
     .line 3
@@ -568,7 +588,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->r()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->r()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -581,7 +601,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->q()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->q()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -589,7 +609,7 @@
     move-result-object v2
 
     .line 19
-    invoke-virtual {p0, v2}, Lcom/huawei/quickcard/views/image/view/BaseImageView;->getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+    invoke-virtual {p0, v2}, Lcom/huawei/quickcard/views/image/view/BaseImageView;->getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
 
     .line 20
     .line 21
@@ -597,12 +617,12 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {v1, v2}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->setPlaceHolder(Lcom/huawei/appmarket/pv5;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->setPlaceHolder(Lcom/huawei/appmarket/rv5;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->o()Lcom/huawei/quickcard/views/image/extension/FitMode;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->o()Lcom/huawei/quickcard/views/image/extension/FitMode;
 
     .line 27
     .line 28
@@ -628,7 +648,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->t()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->t()Z
 
     .line 40
     .line 41
@@ -641,7 +661,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->u()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->u()Z
 
     .line 47
     .line 48
@@ -654,7 +674,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->s()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->s()I
 
     .line 54
     .line 55
@@ -667,7 +687,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->p()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->p()I
 
     .line 61
     .line 62
@@ -680,7 +700,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->h()Lcom/huawei/quickcard/framework/unit/LengthValue;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->h()Lcom/huawei/quickcard/framework/unit/LengthValue;
 
     .line 68
     .line 69
@@ -688,7 +708,7 @@
     move-result-object v2
 
     .line 71
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->l()Lcom/huawei/quickcard/framework/unit/LengthValue;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->l()Lcom/huawei/quickcard/framework/unit/LengthValue;
 
     .line 72
     .line 73
@@ -952,6 +972,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public onAttachedToWindow()V
@@ -1055,9 +1095,9 @@
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ld9;->b()Lcom/huawei/quickcard/framework/border/Border;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sd9;->b()Lcom/huawei/quickcard/framework/border/Border;
 
     move-result-object p1
 
@@ -1070,7 +1110,7 @@
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/us3;->b(Lcom/huawei/quickcard/views/image/view/IImageHost;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ws3;->b(Lcom/huawei/quickcard/views/image/view/IImageHost;)V
 
     return-void
 .end method
@@ -1095,7 +1135,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
 
     return-void
 .end method
@@ -1123,9 +1163,9 @@
 .method public setBorder(Lcom/huawei/quickcard/framework/border/Border;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->d(Lcom/huawei/quickcard/framework/border/Border;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->d(Lcom/huawei/quickcard/framework/border/Border;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/quickcard/views/image/view/BaseImageView;->c(Lcom/huawei/quickcard/framework/border/Border;)V
 
@@ -1142,9 +1182,9 @@
 .method public setClipX(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->e(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->e(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
 
     const/4 p1, 0x1
 
@@ -1156,9 +1196,9 @@
 .method public setClipY(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->j(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->j(Lcom/huawei/quickcard/framework/unit/LengthValue;)V
 
     const/4 p1, 0x1
 
@@ -1186,9 +1226,9 @@
 .method public setFitMode(Lcom/huawei/quickcard/views/image/extension/FitMode;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->f(Lcom/huawei/quickcard/views/image/extension/FitMode;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->f(Lcom/huawei/quickcard/views/image/extension/FitMode;)V
 
     const/4 p1, 0x1
 
@@ -1200,9 +1240,9 @@
 .method public setImageHeight(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->c(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->c(I)V
 
     const/4 p1, 0x1
 
@@ -1214,9 +1254,9 @@
 .method public setImageWidth(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->i(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->i(I)V
 
     const/4 p1, 0x1
 
@@ -1228,9 +1268,9 @@
 .method public setNetworkEnhance(Z)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->n(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->n(Z)V
 
     const/4 p1, 0x1
 
@@ -1246,11 +1286,11 @@
 
     if-eqz p2, :cond_0
 
-    new-instance p1, Lcom/huawei/appmarket/q29;
+    new-instance p1, Lcom/huawei/appmarket/w29;
 
     const/16 v0, 0xa
 
-    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     invoke-interface {p2, p1}, Lcom/huawei/quickcard/views/image/view/LayoutHolder;->setOnLayoutListener(Lcom/huawei/quickcard/views/image/view/LayoutHolder$OnLayoutListener;)V
 
@@ -1266,9 +1306,9 @@
 .method public setPlaceHolder(Ljava/lang/String;Landroid/graphics/drawable/Drawable;)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ld9;->g(Ljava/lang/String;Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/sd9;->g(Ljava/lang/String;Landroid/graphics/drawable/Drawable;)V
 
     const/4 p1, 0x1
 
@@ -1280,9 +1320,9 @@
 .method public setSrc(Ljava/lang/String;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ld9;->m(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sd9;->m(Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -1295,7 +1335,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
 
     return-void
 .end method

@@ -94,20 +94,20 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/pu7;->b()Lcom/huawei/appmarket/pu7;
+    invoke-static {}, Lcom/huawei/appmarket/vu7;->b()Lcom/huawei/appmarket/vu7;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pu7;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/vu7;->c()I
 
     move-result p1
 

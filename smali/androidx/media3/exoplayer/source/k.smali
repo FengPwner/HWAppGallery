@@ -20,10 +20,10 @@
 .method public abstract b(Landroidx/media3/exoplayer/source/l;)V
 .end method
 
-.method public abstract c(Landroidx/media3/exoplayer/source/k$b;Lcom/huawei/appmarket/ek;J)Landroidx/media3/exoplayer/source/j;
+.method public abstract c(Landroidx/media3/exoplayer/source/k$b;Lcom/huawei/appmarket/dk;J)Landroidx/media3/exoplayer/source/j;
 .end method
 
-.method public abstract d()Lcom/huawei/appmarket/n55;
+.method public abstract d()Lcom/huawei/appmarket/q55;
 .end method
 
 .method public abstract e(Landroid/os/Handler;Landroidx/media3/exoplayer/drm/e;)V
@@ -44,7 +44,7 @@
 .method public abstract j(Landroidx/media3/exoplayer/source/k$c;)V
 .end method
 
-.method public abstract k(Landroidx/media3/exoplayer/source/k$c;Lcom/huawei/appmarket/s28;Lcom/huawei/appmarket/t16;)V
+.method public abstract k(Landroidx/media3/exoplayer/source/k$c;Lcom/huawei/appmarket/y28;Lcom/huawei/appmarket/v16;)V
 .end method
 
 .method public abstract l()V
@@ -58,8 +58,8 @@
 .method public abstract m()Z
 .end method
 
-.method public abstract n()Lcom/huawei/appmarket/mz7;
+.method public abstract n()Lcom/huawei/appmarket/rz7;
 .end method
 
-.method public abstract o(Lcom/huawei/appmarket/n55;)V
+.method public abstract o(Lcom/huawei/appmarket/q55;)V
 .end method

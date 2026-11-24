@@ -36,7 +36,7 @@
 
     move-result v0
 
-    sget-object v1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object v1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -52,21 +52,21 @@
 
     const-string v3, "InstallConfirmNormalHeadCard"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/eb6;->k(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gb6;->k(Z)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/ff4;
+    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/hf4;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/ff4;
+    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/hf4;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
+    iget-object v2, v2, Lcom/huawei/appmarket/hf4;->e:Lcom/huawei/appmarket/ce5;
 
     invoke-virtual {v2}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
 
@@ -74,17 +74,17 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/ff4;
+    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/hf4;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v1, v1, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/ff4;
+    invoke-static {p1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/hf4;
 
     move-result-object p1
 
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->e:Lcom/huawei/appmarket/ce5;
 
     invoke-virtual {p1}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
 
@@ -96,14 +96,14 @@
 
     move-result p1
 
-    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/l90;->s(Lcom/huawei/appmarket/iu;II)V
+    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/l90;->s(Lcom/huawei/appmarket/ju;II)V
 
     goto :goto_0
 
     :cond_0
     const-string p1, "viewModel or installStatus is null"
 
-    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -280,7 +280,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 37
     .line 38

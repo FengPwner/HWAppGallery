@@ -592,7 +592,7 @@
 
     aput-object v6, v14, v21
 
-    const-string v6, "\ufffe"
+    const-string/jumbo v6, "\ufffe"
 
     filled-new-array {v6, v10}, [Ljava/lang/String;
 
@@ -602,7 +602,7 @@
 
     aput-object v6, v14, v21
 
-    const-string v6, "\uffff"
+    const-string/jumbo v6, "\uffff"
 
     filled-new-array {v6, v10}, [Ljava/lang/String;
 
@@ -710,7 +710,7 @@
 
     aput-object v11, v1, v12
 
-    const-string v11, "\ufffe"
+    const-string/jumbo v11, "\ufffe"
 
     filled-new-array {v11, v10}, [Ljava/lang/String;
 
@@ -718,7 +718,7 @@
 
     aput-object v11, v1, v2
 
-    const-string v11, "\uffff"
+    const-string/jumbo v11, "\uffff"
 
     filled-new-array {v11, v10}, [Ljava/lang/String;
 

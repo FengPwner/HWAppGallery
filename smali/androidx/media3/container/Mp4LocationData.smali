@@ -77,7 +77,7 @@
     :goto_0
     const-string v1, "Invalid latitude or longitude"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/hy;->b(ZLjava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/iy;->b(ZLjava/lang/String;)V
 
     iput p1, p0, Landroidx/media3/container/Mp4LocationData;->b:F
 
@@ -363,6 +363,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final synthetic t()Landroidx/media3/common/a;

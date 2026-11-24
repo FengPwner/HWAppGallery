@@ -204,7 +204,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -218,7 +217,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     .line 5
     .line 6
@@ -246,11 +245,11 @@
 
     .line 17
     :cond_0
-    const-class p1, Lcom/huawei/appmarket/s24;
+    const-class p1, Lcom/huawei/appmarket/u24;
 
     .line 18
     .line 19
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -258,7 +257,7 @@
     move-result-object p1
 
     .line 23
-    check-cast p1, Lcom/huawei/appmarket/s24;
+    check-cast p1, Lcom/huawei/appmarket/u24;
 
     .line 24
     .line 25
@@ -271,7 +270,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/s24;->p1(Lcom/huawei/appmarket/ks3;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/u24;->q1(Lcom/huawei/appmarket/ms3;)V
 
     .line 31
     .line 32
@@ -351,7 +350,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -376,7 +374,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/fourlanterncard/c;->x:Landroid/widget/TextView;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ac5;->a(Landroid/content/Context;Landroid/widget/TextView;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/dc5;->a(Landroid/content/Context;Landroid/widget/TextView;)V
 
     return-object p0
 .end method
@@ -405,7 +403,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -505,5 +503,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

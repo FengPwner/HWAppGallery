@@ -46,7 +46,7 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     .line 2
     .line 3
@@ -57,12 +57,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 10
     .line 11

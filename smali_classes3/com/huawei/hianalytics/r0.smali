@@ -128,7 +128,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v1
 

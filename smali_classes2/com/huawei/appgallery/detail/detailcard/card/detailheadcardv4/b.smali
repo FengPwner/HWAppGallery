@@ -67,18 +67,18 @@
 
     move-result-object v4
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/bq4;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/eq4;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
 
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v0, "DetailHeadCardV4"
 
     const-string v1, "null privacy data,cannot jump to privacy page"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

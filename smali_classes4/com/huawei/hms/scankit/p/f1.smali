@@ -51,11 +51,11 @@
     move-result p3
 
     .line 1
-    invoke-static {v0, p3, v4, v2}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    invoke-static {v0, p3, v4, v2}, Lcom/huawei/appmarket/kk4;->e(IIII)I
 
     move-result v3
 
-    invoke-static {v1, p3, v5, v2}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    invoke-static {v1, p3, v5, v2}, Lcom/huawei/appmarket/kk4;->e(IIII)I
 
     move-result v2
 

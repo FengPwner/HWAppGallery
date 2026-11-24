@@ -1,5 +1,5 @@
 .class public abstract Lcom/huawei/hms/iap/task/BaseIapFullTask;
-.super Lcom/huawei/appmarket/hv7;
+.super Lcom/huawei/appmarket/nv7;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
         "E:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/hv7<",
+        "Lcom/huawei/appmarket/nv7<",
         "TV;>;"
     }
 .end annotation
@@ -22,12 +22,12 @@
 
 .field protected mIsSuccessful:Z
 
-.field protected mOnFailureListener:Lcom/huawei/appmarket/oo5;
+.field protected mOnFailureListener:Lcom/huawei/appmarket/po5;
 
-.field protected mOnSuccessListener:Lcom/huawei/appmarket/kp5;
+.field protected mOnSuccessListener:Lcom/huawei/appmarket/lp5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "TV;>;"
         }
     .end annotation
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/hv7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/nv7;-><init>()V
 
     invoke-virtual {p0}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->setResult()V
 
@@ -99,33 +99,33 @@
 
 
 # virtual methods
-.method public addOnFailureListener(Landroid/app/Activity;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Landroid/app/Activity;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
@@ -155,64 +155,64 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/oo5;->onFailure(Ljava/lang/Exception;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/po5;->onFailure(Ljava/lang/Exception;)V
 
     goto :goto_0
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnFailureListener:Lcom/huawei/appmarket/oo5;
+    iput-object p1, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnFailureListener:Lcom/huawei/appmarket/po5;
 
     :cond_1
     :goto_0
     return-object p0
 .end method
 
-.method public addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/concurrent/Executor;",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
 
     .line 3
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Landroid/app/Activity;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Landroid/app/Activity;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "TV;>;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "TV;>;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
@@ -234,33 +234,33 @@
 
     iget-object v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mResult:Lcom/huawei/hms/support/api/client/Result;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/kp5;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lp5;->onSuccess(Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnSuccessListener:Lcom/huawei/appmarket/kp5;
+    iput-object p1, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnSuccessListener:Lcom/huawei/appmarket/lp5;
 
     :cond_1
     :goto_0
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/concurrent/Executor;",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "TV;>;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TV;>;"
         }
     .end annotation
 
     .line 3
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/iap/task/BaseIapFullTask;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
@@ -359,7 +359,7 @@
 
     iput-boolean v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mIsCompleted:Z
 
-    iget-object v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnFailureListener:Lcom/huawei/appmarket/oo5;
+    iget-object v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnFailureListener:Lcom/huawei/appmarket/po5;
 
     if-eqz v0, :cond_0
 
@@ -371,7 +371,7 @@
 
     invoke-direct {v1, v2}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/oo5;->onFailure(Ljava/lang/Exception;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/po5;->onFailure(Ljava/lang/Exception;)V
 
     :cond_0
     return-void
@@ -386,13 +386,13 @@
 
     iput-boolean v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mIsCompleted:Z
 
-    iget-object v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnSuccessListener:Lcom/huawei/appmarket/kp5;
+    iget-object v0, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mOnSuccessListener:Lcom/huawei/appmarket/lp5;
 
     if-eqz v0, :cond_0
 
     iget-object v1, p0, Lcom/huawei/hms/iap/task/BaseIapFullTask;->mResult:Lcom/huawei/hms/support/api/client/Result;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/kp5;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/lp5;->onSuccess(Ljava/lang/Object;)V
 
     :cond_0
     return-void

@@ -33,13 +33,13 @@
     .registers 7
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
+    sget-object v0, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
 
     const-string v1, "PushMessageDispatcher dispatch"
 
     const-string v2, "PushMessageDispatcher"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -49,7 +49,7 @@
 
     const-string p1, "push dispatch error: msgBean.cmd is empty"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -62,7 +62,7 @@
 
     const-string p1, "push dispatch error: pushMsgJson is empty"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -79,13 +79,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mb6;->a()Lcom/huawei/appmarket/mb6;
+    invoke-static {}, Lcom/huawei/appmarket/ob6;->a()Lcom/huawei/appmarket/ob6;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/mb6;->b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ob6;->b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
 
     move-result-object v1
 
@@ -93,7 +93,7 @@
 
     const-string v1, "push dispatch error: push message handler is null!"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -103,7 +103,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ob6;->a(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/qb6;->a(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -111,16 +111,16 @@
 
     const-string p1, "push dispatch error: push retry init error!"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/mb6;->a()Lcom/huawei/appmarket/mb6;
+    invoke-static {}, Lcom/huawei/appmarket/ob6;->a()Lcom/huawei/appmarket/ob6;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/mb6;->b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ob6;->b(Ljava/lang/String;)Lcom/huawei/appmarket/y40;
 
     move-result-object v1
 
@@ -128,7 +128,7 @@
 
     const-string p1, "push dispatch error: push message handler is null after reinitialize!"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -141,7 +141,7 @@
 
     const-string p1, "dispatch push message error: can\'t parse push bean"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

@@ -50,16 +50,16 @@
 
     if-nez p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p2, "DetailHeadDownLoadButton, the attrs is null"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object v3, Lcom/huawei/appmarket/re6;->a:[I
+    sget-object v3, Lcom/huawei/appmarket/te6;->a:[I
 
     const/4 v4, 0x0
 
@@ -101,7 +101,7 @@
 
     :goto_1
     :try_start_1
-    sget-object p3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -117,7 +117,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, v2, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v2, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     invoke-virtual {p0}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->getPercentage()Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
@@ -288,7 +288,7 @@
 
     .line 22
     .line 23
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 24
     .line 25
@@ -300,7 +300,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -392,7 +392,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final resetUpdate()V
@@ -624,9 +623,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     if-ne v0, v1, :cond_0
 

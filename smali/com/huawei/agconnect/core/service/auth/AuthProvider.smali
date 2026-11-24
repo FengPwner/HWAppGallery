@@ -7,22 +7,22 @@
 .method public abstract addTokenListener(Lcom/huawei/agconnect/core/service/auth/OnTokenListener;)V
 .end method
 
-.method public abstract getTokens()Lcom/huawei/appmarket/hv7;
+.method public abstract getTokens()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract getTokens(Z)Lcom/huawei/appmarket/hv7;
+.method public abstract getTokens(Z)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }

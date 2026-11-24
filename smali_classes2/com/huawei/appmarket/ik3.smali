@@ -4,5 +4,8 @@
 
 
 # virtual methods
-.method public abstract u0(Landroid/view/View;)V
+.method public abstract a()V
+.end method
+
+.method public abstract b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
 .end method

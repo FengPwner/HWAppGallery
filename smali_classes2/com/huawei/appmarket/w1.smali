@@ -14,7 +14,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/n13;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/q13;->b()I
 
     move-result v0
 
@@ -25,11 +25,11 @@
 
 
 # virtual methods
-.method public a(Lcom/huawei/appmarket/oi2;)Z
+.method public a(Lcom/huawei/appmarket/ri2;)Z
     .registers 8
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oi2;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ri2;->h()Ljava/lang/String;
 
     move-result-object v0
 
@@ -44,7 +44,7 @@
     return v1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oi2;->g()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ri2;->g()J
 
     move-result-wide v2
 
@@ -60,7 +60,7 @@
     return v1
 .end method
 
-.method public b(Lcom/huawei/appmarket/oi2;)Lcom/huawei/hiai/awareness/client/AwarenessFence;
+.method public b(Lcom/huawei/appmarket/ri2;)Lcom/huawei/hiai/awareness/client/AwarenessFence;
     .registers 9
 
     .line 1
@@ -80,7 +80,7 @@
     move-result-object v0
 
     .line 9
-    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 10
     .line 11
@@ -118,7 +118,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1, v4, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -135,7 +135,7 @@
 
     .line 37
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oi2;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ri2;->e()Ljava/util/List;
 
     .line 38
     .line 39
@@ -143,7 +143,7 @@
     move-result-object v2
 
     .line 41
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 42
     .line 43
@@ -301,7 +301,7 @@
     .line 115
     .line 116
     .line 117
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oi2;->g()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ri2;->g()J
 
     .line 118
     .line 119
@@ -321,7 +321,7 @@
 
     .line 126
     .line 127
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oi2;->g()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ri2;->g()J
 
     .line 128
     .line 129

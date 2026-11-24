@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mi3;
+.implements Lcom/huawei/appmarket/oi3;
 
 
 # annotations
@@ -70,13 +70,13 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appgallery/detail/detailbase/view/a;->A:Lcom/huawei/appmarket/zd5;
+    iget-object v0, v0, Lcom/huawei/appgallery/detail/detailbase/view/a;->A:Lcom/huawei/appmarket/ce5;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3$g;->a:Landroid/graphics/Bitmap;
 

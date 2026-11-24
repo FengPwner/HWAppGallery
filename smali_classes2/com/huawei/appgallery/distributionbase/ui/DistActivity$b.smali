@@ -74,11 +74,11 @@
     goto :goto_0
 
     :catch_0
-    sget-object p2, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object p2, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v0, "get string extra exception!"
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p2, 0x0
 
@@ -96,11 +96,11 @@
 
     if-eqz p2, :cond_1
 
-    sget-object p2, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object p2, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v0, "onReceive: recent apps key clicked"
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/DistActivity$b;->a:Lcom/huawei/appgallery/distributionbase/ui/DistActivity;
 

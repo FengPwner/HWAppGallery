@@ -14,7 +14,7 @@
 # instance fields
 .field private final e:Landroid/content/Context;
 
-.field private f:Lcom/huawei/appmarket/l91;
+.field private f:Lcom/huawei/appmarket/m91;
 
 .field private g:Landroid/content/res/AssetFileDescriptor;
 
@@ -78,7 +78,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/l91;
+    iput-object v0, p0, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/m91;
 
     const/16 v1, 0x7d0
 
@@ -249,11 +249,11 @@
 .method public final getUri()Landroid/net/Uri;
     .registers 2
 
-    iget-object v0, p0, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/l91;
+    iget-object v0, p0, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/m91;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v0, v0, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     goto :goto_0
 
@@ -264,7 +264,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 18
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -281,16 +281,16 @@
 
     .line 4
     .line 5
-    iput-object v0, v1, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/l91;
+    iput-object v0, v1, Landroidx/media3/datasource/RawResourceDataSource;->f:Lcom/huawei/appmarket/m91;
 
     .line 6
     .line 7
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v2, v0, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     .line 11
     .line 12
@@ -674,7 +674,7 @@
 
     .line 189
     .line 190
-    invoke-static {v10, v4, v3}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v10, v4, v3}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 191
     .line 192
@@ -770,7 +770,7 @@
 
     .line 234
     .line 235
-    iget-wide v11, v0, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v11, v0, Lcom/huawei/appmarket/m91;->f:J
 
     .line 236
     .line 237
@@ -970,7 +970,7 @@
     .line 323
     .line 324
     :goto_6
-    iget-wide v2, v0, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v2, v0, Lcom/huawei/appmarket/m91;->g:J
 
     .line 325
     .line 326
@@ -1022,7 +1022,7 @@
 
     .line 346
     .line 347
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 348
     .line 349
@@ -2310,7 +2310,7 @@
     :goto_0
     iget-object v0, p0, Landroidx/media3/datasource/RawResourceDataSource;->h:Ljava/io/FileInputStream;
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
 

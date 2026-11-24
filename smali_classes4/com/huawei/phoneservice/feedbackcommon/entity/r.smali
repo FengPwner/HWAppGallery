@@ -5,25 +5,25 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "serverDomain"
     .end annotation
 .end field
 
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "accessToken"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "reason"
     .end annotation
 .end field
 
 .field private d:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "resCode"
     .end annotation
 .end field

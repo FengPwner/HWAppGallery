@@ -1,5 +1,5 @@
 .class Lcom/huawei/appmarket/d4$a;
-.super Lcom/huawei/appmarket/nd5;
+.super Lcom/huawei/appmarket/qd5;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/nd5<",
+        "Lcom/huawei/appmarket/qd5<",
         "TK;TV;>;"
     }
 .end annotation
@@ -32,19 +32,19 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/d4$a;->b:Lcom/huawei/appmarket/d4;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/nd5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/qd5;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method final b()Lcom/huawei/appmarket/hd5;
+.method final b()Lcom/huawei/appmarket/kd5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hd5<",
+            "Lcom/huawei/appmarket/kd5<",
             "TK;TV;>;"
         }
     .end annotation

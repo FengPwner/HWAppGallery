@@ -36,7 +36,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->m1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->m1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;)Lcom/huawei/appmarket/bk0;
 
     .line 6
     .line 7
@@ -48,7 +48,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->m1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->m1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;)Lcom/huawei/appmarket/bk0;
 
     .line 12
     .line 13
@@ -59,7 +59,7 @@
     const/4 v2, 0x0
 
     .line 16
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 17
     .line 18

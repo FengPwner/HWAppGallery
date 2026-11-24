@@ -5,19 +5,19 @@
 
 # instance fields
 .field private s:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "orientation"
     .end annotation
 .end field
 
 .field private t:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "defaultItem"
     .end annotation
 .end field
 
 .field private u:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "interactionType"
     .end annotation
 .end field
@@ -29,7 +29,7 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/flexiblelayout/data/FLNodeData;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "vertical"
+    const-string/jumbo p1, "vertical"
 
     iput-object p1, p0, Lcom/huawei/page/tabs/TabsData;->s:Ljava/lang/String;
 

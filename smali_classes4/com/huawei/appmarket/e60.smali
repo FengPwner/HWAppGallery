@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xf3;
+.implements Lcom/huawei/appmarket/zf3;
 
 
 # instance fields
@@ -42,7 +42,7 @@
 
     .line 14
     .line 15
-    new-instance v2, Lcom/huawei/appmarket/d39;
+    new-instance v2, Lcom/huawei/appmarket/j39;
 
     .line 16
     .line 17
@@ -50,7 +50,7 @@
 
     .line 18
     .line 19
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/d39;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/j39;-><init>(Ljava/lang/Class;)V
 
     .line 20
     .line 21
@@ -347,6 +347,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 
@@ -367,7 +387,7 @@
     move-result-object v1
 
     .line 7
-    check-cast v1, Lcom/huawei/appmarket/vf3;
+    check-cast v1, Lcom/huawei/appmarket/xf3;
 
     .line 8
     .line 9
@@ -375,11 +395,11 @@
 
     .line 10
     .line 11
-    new-instance v1, Lcom/huawei/appmarket/d39;
+    new-instance v1, Lcom/huawei/appmarket/j39;
 
     .line 12
     .line 13
-    invoke-direct {v1, p2}, Lcom/huawei/appmarket/d39;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v1, p2}, Lcom/huawei/appmarket/j39;-><init>(Ljava/lang/Class;)V
 
     .line 14
     .line 15
@@ -390,7 +410,7 @@
     .line 18
     .line 19
     :cond_0
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/vf3;->a(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/xf3;->a(Landroid/content/Context;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -648,8 +668,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

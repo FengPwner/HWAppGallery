@@ -27,7 +27,7 @@
 # instance fields
 .field private a:Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;
 
-.field private b:Lcom/huawei/appmarket/e04;
+.field private b:Lcom/huawei/appmarket/g04;
 
 .field private c:Z
 
@@ -211,7 +211,7 @@
 
     .line 59
     .line 60
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -268,7 +268,7 @@
     move-result-object p0
 
     .line 88
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -282,7 +282,7 @@
 
     .line 93
     .line 94
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -306,21 +306,20 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method static synthetic d(Lcom/huawei/appmarket/zb0$a;)Lcom/huawei/appmarket/e04;
+.method static synthetic d(Lcom/huawei/appmarket/zb0$a;)Lcom/huawei/appmarket/g04;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/zb0$a;->b:Lcom/huawei/appmarket/e04;
+    iget-object p0, p0, Lcom/huawei/appmarket/zb0$a;->b:Lcom/huawei/appmarket/g04;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public final e(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/e04;)V
+.method public final e(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/g04;)V
     .registers 8
 
     .line 1
@@ -332,7 +331,7 @@
 
     const-string p1, "bindService context is null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -347,7 +346,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/zb0$a;->a:Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/zb0$a;->b:Lcom/huawei/appmarket/e04;
+    iput-object p3, p0, Lcom/huawei/appmarket/zb0$a;->b:Lcom/huawei/appmarket/g04;
 
     iget-object p2, p0, Lcom/huawei/appmarket/zb0$a;->g:Landroid/content/ServiceConnection;
 
@@ -366,7 +365,7 @@
     :cond_1
     const-string p1, "CommonDataProvider doBind: bind failed"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

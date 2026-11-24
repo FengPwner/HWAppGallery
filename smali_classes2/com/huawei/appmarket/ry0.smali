@@ -26,7 +26,7 @@
         value = {
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/z86;",
+            "Lcom/huawei/appmarket/b96;",
             ">;"
         }
     .end annotation
@@ -100,7 +100,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/z86;",
+            "Lcom/huawei/appmarket/b96;",
             ">;"
         }
     .end annotation
@@ -112,7 +112,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/ry0;->a:Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/tx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-static {v0}, Lcom/huawei/appmarket/wx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
 
     move-result-object v0
 

@@ -17,10 +17,10 @@
 # instance fields
 .field final a:Lcom/bumptech/glide/load/engine/h$e;
 
-.field final b:Lcom/huawei/appmarket/l26;
+.field final b:Lcom/huawei/appmarket/n26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/l26<",
+            "Lcom/huawei/appmarket/n26<",
             "Lcom/bumptech/glide/load/engine/h<",
             "*>;>;"
         }
@@ -42,11 +42,11 @@
 
     const/16 v1, 0x96
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/je2;->a(ILcom/huawei/appmarket/je2$b;)Lcom/huawei/appmarket/l26;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/me2;->a(ILcom/huawei/appmarket/me2$b;)Lcom/huawei/appmarket/n26;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/j$a;->b:Lcom/huawei/appmarket/l26;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/j$a;->b:Lcom/huawei/appmarket/n26;
 
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/j$a;->a:Lcom/bumptech/glide/load/engine/h$e;
 
@@ -55,7 +55,7 @@
 
 
 # virtual methods
-.method final a(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/bumptech/glide/load/engine/m;Lcom/huawei/appmarket/sq4;IILjava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/dp1;Ljava/util/Map;ZZZLcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/engine/k;)Lcom/bumptech/glide/load/engine/h;
+.method final a(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/bumptech/glide/load/engine/m;Lcom/huawei/appmarket/vq4;IILjava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/gp1;Ljava/util/Map;ZZZLcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/engine/k;)Lcom/bumptech/glide/load/engine/h;
     .registers 37
 
     .line 1
@@ -93,9 +93,9 @@
 
     move-object/from16 v17, p16
 
-    iget-object v1, v0, Lcom/bumptech/glide/load/engine/j$a;->b:Lcom/huawei/appmarket/l26;
+    iget-object v1, v0, Lcom/bumptech/glide/load/engine/j$a;->b:Lcom/huawei/appmarket/n26;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/l26;->b()Ljava/lang/Object;
+    invoke-interface {v1}, Lcom/huawei/appmarket/n26;->b()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -105,7 +105,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-static/range {v19 .. v19}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static/range {v19 .. v19}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     move-object/from16 p1, v1
 
@@ -119,7 +119,7 @@
 
     move-object/from16 v1, p1
 
-    invoke-virtual/range {v1 .. v18}, Lcom/bumptech/glide/load/engine/h;->k(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/bumptech/glide/load/engine/m;Lcom/huawei/appmarket/sq4;IILjava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/dp1;Ljava/util/Map;ZZZLcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/engine/k;I)V
+    invoke-virtual/range {v1 .. v18}, Lcom/bumptech/glide/load/engine/h;->k(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/bumptech/glide/load/engine/m;Lcom/huawei/appmarket/vq4;IILjava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/gp1;Ljava/util/Map;ZZZLcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/engine/k;I)V
 
     return-object v19
 .end method

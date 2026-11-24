@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aa5;
+.implements Lcom/huawei/appmarket/da5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/aa5<",
+        "Lcom/huawei/appmarket/da5<",
         "Ljava/lang/Integer;",
         "Landroid/net/Uri;",
         ">;"

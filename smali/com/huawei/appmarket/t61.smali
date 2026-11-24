@@ -869,7 +869,7 @@
     .line 389
     .line 390
     :goto_2
-    invoke-static {v5, v6, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v6, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 391
     .line 392
@@ -877,7 +877,7 @@
     move-result-object v3
 
     .line 394
-    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ab1;->d(Landroid/view/View;)Ljava/lang/String;
+    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/bb1;->d(Landroid/view/View;)Ljava/lang/String;
 
     .line 395
     .line 396

@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static bridge synthetic a(Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdateRespOrBuilder;)Lcom/google/protobuf/b1;
+.method public static bridge synthetic a(Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$RelatedFAInfoOrBuilder;)Lcom/google/protobuf/b1;
     .registers 1
 
     .line 1
@@ -118,5 +118,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

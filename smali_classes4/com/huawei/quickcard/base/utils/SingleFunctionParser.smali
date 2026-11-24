@@ -37,11 +37,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/q29;
+    new-instance v0, Lcom/huawei/appmarket/w29;
 
     const/4 v1, 0x7
 
-    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     invoke-direct {p0, p1, v0}, Lcom/huawei/quickcard/base/utils/FunctionParser;-><init>(Ljava/lang/String;Lcom/huawei/quickcard/base/utils/FunctionParser$Mapper;)V
 
@@ -60,11 +60,11 @@
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/q29;
+    new-instance v0, Lcom/huawei/appmarket/w29;
 
     const/16 v1, 0x8
 
-    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     invoke-direct {p0, p1, v0}, Lcom/huawei/quickcard/base/utils/FunctionParser;-><init>(Ljava/lang/String;Lcom/huawei/quickcard/base/utils/FunctionParser$Mapper;)V
 

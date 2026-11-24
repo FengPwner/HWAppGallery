@@ -47,13 +47,13 @@
 
     if-nez v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/lz5;->a:Lcom/huawei/appmarket/lz5;
+    sget-object v0, Lcom/huawei/appmarket/nz5;->a:Lcom/huawei/appmarket/nz5;
 
     const-string v1, "PermitAppSearchCard"
 
     const-string v2, "container is null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -119,7 +119,7 @@
 
     .line 7
     .line 8
-    sget-object p1, Lcom/huawei/appmarket/lz5;->a:Lcom/huawei/appmarket/lz5;
+    sget-object p1, Lcom/huawei/appmarket/nz5;->a:Lcom/huawei/appmarket/nz5;
 
     .line 9
     .line 10
@@ -131,7 +131,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -293,14 +293,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
     invoke-direct {p0}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/CnPermitAppSearchCard;->r1()V
 
@@ -329,7 +328,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/CnPermitAppSearchCard;->A:Landroid/view/View;
 
-    const v0, 0x7f0a1629
+    const v0, 0x7f0a162a
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +400,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -430,7 +429,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 12
     .line 13

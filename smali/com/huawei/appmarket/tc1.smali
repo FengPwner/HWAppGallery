@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/media3/exoplayer/audio/b$f;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
+.field public final synthetic b:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
 
 
 # direct methods
@@ -17,20 +17,20 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/tc1;->a:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
+    iput-object p1, p0, Lcom/huawei/appmarket/tc1;->b:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroidx/media3/exoplayer/audio/a;)V
-    .registers 3
+.method public final run()V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tc1;->a:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
+    iget-object v0, p0, Lcom/huawei/appmarket/tc1;->b:Landroidx/media3/exoplayer/audio/DefaultAudioSink;
 
-    invoke-virtual {v0, p1}, Landroidx/media3/exoplayer/audio/DefaultAudioSink;->R(Landroidx/media3/exoplayer/audio/a;)V
+    invoke-static {v0}, Landroidx/media3/exoplayer/audio/DefaultAudioSink;->C(Landroidx/media3/exoplayer/audio/DefaultAudioSink;)V
 
     return-void
 .end method

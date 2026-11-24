@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -18,15 +18,15 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ei3;
+.field final synthetic b:Lcom/huawei/appmarket/gi3;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ei3;)V
+.method constructor <init>(Lcom/huawei/appmarket/gi3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/t;->b:Lcom/huawei/appmarket/ei3;
+    iput-object p1, p0, Lcom/huawei/appmarket/t;->b:Lcom/huawei/appmarket/gi3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,7 +51,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 8
     .line 9
@@ -63,7 +63,7 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/huawei/appmarket/t;->b:Lcom/huawei/appmarket/ei3;
+    iget-object v1, p0, Lcom/huawei/appmarket/t;->b:Lcom/huawei/appmarket/gi3;
 
     .line 14
     .line 15
@@ -71,7 +71,7 @@
 
     .line 16
     .line 17
-    sget-object p1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     .line 18
     .line 19
@@ -83,7 +83,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -92,7 +92,7 @@
 
     .line 27
     :cond_0
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/ei3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/gi3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 28
     .line 29
@@ -174,5 +174,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

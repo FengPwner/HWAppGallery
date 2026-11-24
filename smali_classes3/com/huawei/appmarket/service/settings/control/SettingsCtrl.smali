@@ -28,7 +28,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/oo1;->a(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {p0}, Lcom/huawei/appmarket/ro1;->a(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 2
     .line 3
@@ -218,7 +218,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static declared-synchronized b()Lcom/huawei/appmarket/service/settings/control/SettingsCtrl;

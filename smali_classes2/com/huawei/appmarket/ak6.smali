@@ -1,141 +1,324 @@
-.class final Lcom/huawei/appmarket/ak6;
+.class public final Lcom/huawei/appmarket/ak6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
-
 
 # instance fields
-.field final synthetic b:I
+.field private a:Ljava/lang/String;
 
-.field final synthetic c:Lcom/huawei/appmarket/vj6;
+.field private b:Ljava/lang/String;
 
-.field final synthetic d:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+.field private c:Ljava/lang/String;
 
-.field final synthetic e:[Z
+.field private d:I
 
-.field final synthetic f:Ljava/util/concurrent/CountDownLatch;
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/String;
+
+.field private g:Z
+
+.field private h:Ljava/lang/String;
+
+.field private i:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
+
+.field private j:Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
+
+.field private k:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/ip;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private l:Ljava/util/ArrayList;
+
+.field private m:I
+
+.field private n:I
 
 
 # direct methods
-.method constructor <init>(ILcom/huawei/appmarket/vj6;Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;[ZLjava/util/concurrent/CountDownLatch;)V
-    .registers 6
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    iput p1, p0, Lcom/huawei/appmarket/ak6;->b:I
-
-    iput-object p2, p0, Lcom/huawei/appmarket/ak6;->c:Lcom/huawei/appmarket/vj6;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/ak6;->d:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/ak6;->e:[Z
-
-    iput-object p5, p0, Lcom/huawei/appmarket/ak6;->f:Ljava/util/concurrent/CountDownLatch;
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ak6;->l:Ljava/util/ArrayList;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final m2(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-    .registers 9
+.method public final A(Ljava/lang/String;)V
+    .registers 2
 
     .line 1
-    instance-of p1, p2, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
-
-    const/4 v0, 0x1
-
-    const/4 v1, 0x0
-
-    iget-object v2, p0, Lcom/huawei/appmarket/ak6;->e:[Z
-
-    const-string v3, "RecommendV1PreLoadDataUtil"
-
-    iget v4, p0, Lcom/huawei/appmarket/ak6;->b:I
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    check-cast p2, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;
-
-    iget-object p1, p0, Lcom/huawei/appmarket/ak6;->c:Lcom/huawei/appmarket/vj6;
-
-    iget-object v5, p0, Lcom/huawei/appmarket/ak6;->d:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
-
-    invoke-static {v4, p1, v5, p2}, Lcom/huawei/appmarket/xj6;->b(ILcom/huawei/appmarket/vj6;Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_1
-
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    const-string v5, "parse data error, index: "
-
-    invoke-direct {p2, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    aput-boolean v0, v2, v1
-
-    goto :goto_0
-
-    :cond_0
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    const-string v5, "queryEachTabData fail, index: "
-
-    invoke-direct {p2, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    aput-boolean v0, v2, v1
-
-    :cond_1
-    :goto_0
-    iget-object p1, p0, Lcom/huawei/appmarket/ak6;->f:Ljava/util/concurrent/CountDownLatch;
-
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->b:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
-    .registers 4
+.method public final B(Ljava/lang/String;)V
+    .registers 2
 
     .line 1
-    const/4 p1, 0x0
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->a:Ljava/lang/String;
 
-    return p1
+    return-void
 .end method
 
-.method public final z0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+.method public final a()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/ip;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->k:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final b()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/ak6;->d:I
+
+    return v0
+.end method
+
+.method public final c()Ljava/util/ArrayList;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->l:Ljava/util/ArrayList;
+
+    return-object v0
+.end method
+
+.method public final d()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->c:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final e()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/ak6;->n:I
+
+    return v0
+.end method
+
+.method public final f()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/ak6;->m:I
+
+    return v0
+.end method
+
+.method public final g()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->e:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final h()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->h:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final i()Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->i:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
+
+    return-object v0
+.end method
+
+.method public final j()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->f:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final k()Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->j:Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
+
+    return-object v0
+.end method
+
+.method public final l()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final m()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final n()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/ak6;->g:Z
+
+    return v0
+.end method
+
+.method public final o(Ljava/util/ArrayList;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->k:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public final p(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/ak6;->d:I
+
+    return-void
+.end method
+
+.method public final q(Lcom/huawei/appgallery/upgraderecommendation/ui/v3/RecommendHotCardBean;)V
     .registers 3
 
     .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ak6;->l:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public final r(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final s(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/ak6;->n:I
+
+    return-void
+.end method
+
+.method public final t()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/ak6;->g:Z
+
+    return-void
+.end method
+
+.method public final u(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/ak6;->m:I
+
+    return-void
+.end method
+
+.method public final v(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final w(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->h:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final x(Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->i:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
+
+    return-void
+.end method
+
+.method public final y(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final z(Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ak6;->j:Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
+
     return-void
 .end method

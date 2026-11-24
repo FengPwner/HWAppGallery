@@ -16,11 +16,11 @@
 
 .field private Z:Z
 
-.field private a0:Lcom/huawei/appmarket/gb3;
+.field private a0:Lcom/huawei/appmarket/jb3;
 
 .field private b0:Landroid/os/Handler;
 
-.field private c0:Lcom/huawei/appmarket/du4;
+.field private c0:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -62,15 +62,15 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 2
     .line 3
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->D()I
 
     .line 6
     .line 7
@@ -89,7 +89,7 @@
 
     .line 13
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/gb3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/jb3;
 
     .line 14
     .line 15
@@ -100,12 +100,12 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gb3;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jb3;->a()V
 
     .line 19
     .line 20
     .line 21
-    iput-object v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/gb3;
+    iput-object v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/jb3;
 
     .line 22
     .line 23
@@ -149,11 +149,11 @@
     .line 41
     .line 42
     :cond_3
-    new-instance v0, Lcom/huawei/appmarket/gb3;
+    new-instance v0, Lcom/huawei/appmarket/jb3;
 
     .line 43
     .line 44
-    new-instance v1, Lcom/huawei/appmarket/vl0;
+    new-instance v1, Lcom/huawei/appmarket/wl0;
 
     .line 45
     .line 46
@@ -161,7 +161,7 @@
 
     .line 47
     .line 48
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/vl0;-><init>(Landroid/os/Handler;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/wl0;-><init>(Landroid/os/Handler;)V
 
     .line 49
     .line 50
@@ -170,16 +170,16 @@
 
     .line 52
     .line 53
-    invoke-direct {v0, v2, v3, v1}, Lcom/huawei/appmarket/gb3;-><init>(JLjava/util/TimerTask;)V
+    invoke-direct {v0, v2, v3, v1}, Lcom/huawei/appmarket/jb3;-><init>(JLjava/util/TimerTask;)V
 
     .line 54
     .line 55
     .line 56
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/gb3;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/jb3;
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gb3;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jb3;->b()V
 
     .line 59
     .line 60
@@ -239,14 +239,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static g3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/gb3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/jb3;
 
     .line 2
     .line 3
@@ -254,7 +253,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gb3;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jb3;->a()V
 
     .line 6
     .line 7
@@ -262,7 +261,7 @@
     const/4 v0, 0x0
 
     .line 9
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/gb3;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->a0:Lcom/huawei/appmarket/jb3;
 
     .line 10
     .line 11
@@ -380,7 +379,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic h3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)V
@@ -394,11 +392,11 @@
     return-void
 .end method
 
-.method static synthetic i3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/du4;
+.method static synthetic i3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/gu4;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/du4;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/gu4;
 
     return-object p0
 .end method
@@ -425,7 +423,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 2
     .line 3
@@ -437,7 +435,7 @@
 
     .line 6
     :cond_0
-    instance-of v1, v0, Lcom/huawei/appmarket/ul0;
+    instance-of v1, v0, Lcom/huawei/appmarket/vl0;
 
     .line 7
     .line 8
@@ -445,11 +443,11 @@
 
     .line 9
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->D()I
 
     .line 13
     .line 14
@@ -524,7 +522,7 @@
     move-result-object v2
 
     .line 47
-    instance-of v3, v2, Lcom/huawei/appmarket/sb3$a;
+    instance-of v3, v2, Lcom/huawei/appmarket/vb3$a;
 
     .line 48
     .line 49
@@ -532,11 +530,11 @@
 
     .line 50
     .line 51
-    check-cast v2, Lcom/huawei/appmarket/sb3$a;
+    check-cast v2, Lcom/huawei/appmarket/vb3$a;
 
     .line 52
     .line 53
-    invoke-virtual {v2}, Lcom/huawei/appmarket/sb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/vb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
 
     .line 54
     .line 55
@@ -617,23 +615,22 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method static synthetic m3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/nb3;
+.method static synthetic m3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/qb3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     return-object p0
 .end method
 
-.method static synthetic n3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/nb3;
+.method static synthetic n3(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)Lcom/huawei/appmarket/qb3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     return-object p0
 .end method
@@ -644,7 +641,7 @@
     .registers 8
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/tl0;
+    new-instance v6, Lcom/huawei/appmarket/ul0;
 
     .line 2
     .line 3
@@ -652,18 +649,18 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 6
     .line 7
     move-object v2, v0
 
     .line 8
-    check-cast v2, Lcom/huawei/appmarket/kq1;
+    check-cast v2, Lcom/huawei/appmarket/nq1;
 
     .line 9
     .line 10
-    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 11
     .line 12
@@ -677,16 +674,16 @@
     move-object v4, p0
 
     .line 16
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/tl0;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/kq1;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/ul0;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nq1;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     .line 17
     .line 18
     .line 19
-    iput-object v6, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/sb3;
+    iput-object v6, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/vb3;
 
     .line 20
     .line 21
-    invoke-virtual {v6}, Lcom/huawei/appmarket/tl0;->u()Z
+    invoke-virtual {v6}, Lcom/huawei/appmarket/ul0;->u()Z
 
     .line 22
     .line 23
@@ -862,7 +859,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 5
     .line 6
@@ -874,7 +871,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/al0;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->f()I
 
     .line 11
     .line 12
@@ -882,12 +879,12 @@
     move-result v2
 
     .line 14
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 18
     .line 19
@@ -1045,11 +1042,11 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ul0;
+    new-instance v0, Lcom/huawei/appmarket/vl0;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ul0;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/vl0;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iput-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     return-void
 .end method
@@ -1067,11 +1064,11 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 7
     .line 8
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
     .line 9
     .line 10
@@ -1083,7 +1080,7 @@
     move-result v1
 
     .line 14
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ul0;->I(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vl0;->I(I)V
 
     .line 15
     .line 16
@@ -1119,7 +1116,7 @@
     move-result-object p1
 
     .line 32
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 33
     .line 34
@@ -1131,28 +1128,28 @@
 
     .line 37
     .line 38
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 39
     .line 40
-    check-cast v1, Lcom/huawei/appmarket/ul0;
+    check-cast v1, Lcom/huawei/appmarket/vl0;
 
     .line 41
     .line 42
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ul0;->M(Ljava/util/List;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/vl0;->M(Ljava/util/List;)V
 
     .line 43
     .line 44
     .line 45
-    iget-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 46
     .line 47
-    check-cast p1, Lcom/huawei/appmarket/ul0;
+    check-cast p1, Lcom/huawei/appmarket/vl0;
 
     .line 48
     .line 49
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ul0;->L(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/vl0;->L(I)V
 
     .line 50
     .line 51
@@ -1239,7 +1236,7 @@
     move-result-object v4
 
     .line 90
-    instance-of v5, v4, Lcom/huawei/appmarket/sb3$a;
+    instance-of v5, v4, Lcom/huawei/appmarket/vb3$a;
 
     .line 91
     .line 92
@@ -1247,11 +1244,11 @@
 
     .line 93
     .line 94
-    check-cast v4, Lcom/huawei/appmarket/sb3$a;
+    check-cast v4, Lcom/huawei/appmarket/vb3$a;
 
     .line 95
     .line 96
-    invoke-virtual {v4}, Lcom/huawei/appmarket/sb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/vb3$a;->y()Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;
 
     .line 97
     .line 98
@@ -1292,14 +1289,13 @@
     :cond_3
     :goto_1
     return-void
-    .line 115
 .end method
 
-.method public final Y(Lcom/huawei/appmarket/du4;)V
+.method public final Y(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
@@ -1310,11 +1306,11 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalHorizonCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;->c0:Lcom/huawei/appmarket/gu4;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p1
 
@@ -1322,7 +1318,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2$a;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaCardV2;)V
 
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->S1()Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 

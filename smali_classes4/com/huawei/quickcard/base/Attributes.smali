@@ -109,7 +109,7 @@
     const/4 v1, 0x0
 
     .line 31
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 32
     .line 33
@@ -366,10 +366,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static getInt(Ljava/lang/Object;I)I
@@ -436,7 +432,7 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object p0
 
@@ -855,8 +851,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/b96;
+.implements Lcom/huawei/appmarket/d96;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/f96;
+.field final synthetic a:Lcom/huawei/appmarket/h96;
 
 .field final synthetic b:Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;
 
@@ -15,13 +15,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;Lcom/huawei/appmarket/f96;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;)V
+.method constructor <init>(Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;Lcom/huawei/appmarket/h96;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->c:Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->a:Lcom/huawei/appmarket/f96;
+    iput-object p2, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->a:Lcom/huawei/appmarket/h96;
 
     iput-object p3, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->b:Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;
 
@@ -36,13 +36,13 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->a:Lcom/huawei/appmarket/f96;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->a:Lcom/huawei/appmarket/h96;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/a;->c:Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/f96;->c(Landroid/app/Activity;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/h96;->c(Landroid/app/Activity;)V
 
     if-eqz p1, :cond_0
 

@@ -52,7 +52,159 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/rz0;Lcom/huawei/appmarket/xr6;Lcom/huawei/appgallery/globalconfig/impl/req/GlobalConfigResponse;)V
+.method public constructor <init>(Lcom/huawei/appmarket/as6;)V
+    .registers 6
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/rz0;->d:Ljava/util/HashMap;
+
+    .line 14
+    new-instance v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;
+
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->k()I
+
+    move-result v1
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->j()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;->c(ILjava/lang/String;)Ljava/util/ArrayList;
+
+    move-result-object p1
+
+    .line 15
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
+
+    iget-wide v1, v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->bornTime:J
+
+    iput-wide v1, p0, Lcom/huawei/appmarket/rz0;->a:J
+
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
+
+    iget v1, v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->serviceType:I
+
+    iput v1, p0, Lcom/huawei/appmarket/rz0;->b:I
+
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
+
+    iget-object v0, v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->serviceCountry:Ljava/lang/String;
+
+    iput-object v0, p0, Lcom/huawei/appmarket/rz0;->c:Ljava/lang/String;
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
+
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    sget-object v1, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "read from DB:"
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "ConfigValuesImpl"
+
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_0
+    new-instance v1, Lcom/huawei/appmarket/rz0$a;
+
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/rz0$a;-><init>(Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/rz0;->d:Ljava/util/HashMap;
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/rz0$a;->a()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :cond_1
+    const-wide/16 v0, -0x1
+
+    iput-wide v0, p0, Lcom/huawei/appmarket/rz0;->a:J
+
+    const/4 p1, -0x1
+
+    iput p1, p0, Lcom/huawei/appmarket/rz0;->b:I
+
+    const-string p1, "CN"
+
+    iput-object p1, p0, Lcom/huawei/appmarket/rz0;->c:Ljava/lang/String;
+
+    :cond_2
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/huawei/appmarket/rz0;Lcom/huawei/appmarket/as6;Lcom/huawei/appgallery/globalconfig/impl/req/GlobalConfigResponse;)V
     .registers 11
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -69,13 +221,13 @@
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xr6;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/as6;->k()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appmarket/rz0;->b:I
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xr6;->j()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/as6;->j()Ljava/lang/String;
 
     move-result-object v0
 
@@ -98,17 +250,17 @@
     if-eqz p2, :cond_1
 
     .line 3
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xr6;->h()[Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/as6;->h()[Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/rx;->a([Ljava/lang/Object;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/sx;->a([Ljava/lang/Object;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xr6;->h()[Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/as6;->h()[Ljava/lang/String;
 
     move-result-object p2
 
@@ -205,7 +357,7 @@
     iput-wide p1, p0, Lcom/huawei/appmarket/rz0;->a:J
 
     :cond_5
-    invoke-static {p3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -289,11 +441,11 @@
 
     if-nez v4, :cond_9
 
-    sget-object p2, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object p2, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     const-string p3, "The time is not updated."
 
-    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -334,7 +486,7 @@
 
     const-string v0, "24701001001"
 
-    invoke-static {p3, v0, p2}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p3, v0, p2}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -349,161 +501,9 @@
     invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 9
-    invoke-static {p2, p3, p1}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p2, p3, p1}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_6
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/huawei/appmarket/xr6;)V
-    .registers 6
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rz0;->d:Ljava/util/HashMap;
-
-    .line 14
-    new-instance v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;
-
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;-><init>(Landroid/content/Context;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->k()I
-
-    move-result v1
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->j()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigDAO;->c(ILjava/lang/String;)Ljava/util/ArrayList;
-
-    move-result-object p1
-
-    .line 15
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    const/4 v0, 0x0
-
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
-
-    iget-wide v1, v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->bornTime:J
-
-    iput-wide v1, p0, Lcom/huawei/appmarket/rz0;->a:J
-
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
-
-    iget v1, v1, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->serviceType:I
-
-    iput v1, p0, Lcom/huawei/appmarket/rz0;->b:I
-
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
-
-    iget-object v0, v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->serviceCountry:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rz0;->c:Ljava/lang/String;
-
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;
-
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    sget-object v1, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    const-string v3, "read from DB:"
-
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "ConfigValuesImpl"
-
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_0
-    new-instance v1, Lcom/huawei/appmarket/rz0$a;
-
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/rz0$a;-><init>(Lcom/huawei/appgallery/globalconfig/impl/database/ConfigBean;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/rz0;->d:Ljava/util/HashMap;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/rz0$a;->a()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    goto :goto_0
-
-    :cond_1
-    const-wide/16 v0, -0x1
-
-    iput-wide v0, p0, Lcom/huawei/appmarket/rz0;->a:J
-
-    const/4 p1, -0x1
-
-    iput p1, p0, Lcom/huawei/appmarket/rz0;->b:I
-
-    const-string p1, "CN"
-
-    iput-object p1, p0, Lcom/huawei/appmarket/rz0;->c:Ljava/lang/String;
-
-    :cond_2
     return-void
 .end method
 
@@ -666,7 +666,7 @@
 
     .line 72
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object p1, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     .line 73
     .line 74
@@ -674,7 +674,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -705,7 +705,7 @@
     move-result-object v0
 
     .line 93
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -723,7 +723,7 @@
 
     .line 102
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object p1, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     .line 103
     .line 104
@@ -735,7 +735,7 @@
 
     .line 107
     .line 108
-    invoke-static {v3, p2, v4}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, p2, v4}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 109
     .line 110
@@ -779,7 +779,7 @@
 
     .line 131
     :goto_1
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 132
     .line 133
@@ -788,7 +788,7 @@
 
     .line 135
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object p1, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     .line 136
     .line 137
@@ -1001,7 +1001,7 @@
     .line 320
 .end method
 
-.method public final b(Lcom/huawei/appmarket/xr6;)Z
+.method public final b(Lcom/huawei/appmarket/as6;)Z
     .registers 8
 
     .line 1
@@ -1043,7 +1043,7 @@
     sub-long/2addr v2, v4
 
     .line 18
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->i()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->i()J
 
     .line 19
     .line 20
@@ -1059,7 +1059,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->h()[Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->h()[Ljava/lang/String;
 
     .line 27
     .line 28
@@ -1067,7 +1067,7 @@
     move-result-object p1
 
     .line 30
-    invoke-static {p1}, Lcom/huawei/appmarket/rx;->a([Ljava/lang/Object;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/sx;->a([Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -1154,14 +1154,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final c(Lcom/huawei/appmarket/xr6;)Z
+.method public final c(Lcom/huawei/appmarket/as6;)Z
     .registers 4
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->k()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->k()I
 
     move-result v0
 
@@ -1171,7 +1170,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/rz0;->c:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr6;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as6;->j()Ljava/lang/String;
 
     move-result-object p1
 
@@ -1271,7 +1270,7 @@
 
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    sget-object v2, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object v2, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -1287,7 +1286,7 @@
 
     const-string v4, "ConfigValuesImpl"
 
-    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

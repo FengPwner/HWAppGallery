@@ -613,6 +613,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static f(Landroid/content/Context;)Lcom/huawei/hsl/b;
@@ -919,23 +939,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private static g(Ljava/io/FileInputStream;Landroid/os/MemoryFile;)Landroid/os/ParcelFileDescriptor;
@@ -1310,10 +1313,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static j()Z
@@ -1907,6 +1906,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private o()V
@@ -2409,7 +2428,7 @@
     throw v0
 .end method
 
-.method public final i(Ljava/lang/String;Lcom/huawei/appmarket/jv4;Ljava/lang/String;)Z
+.method public final i(Ljava/lang/String;Lcom/huawei/appmarket/mv4;Ljava/lang/String;)Z
     .registers 12
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -2645,7 +2664,7 @@
     return p1
 .end method
 
-.method public final p(Ljava/lang/String;Lcom/huawei/appmarket/kv4;)Z
+.method public final p(Ljava/lang/String;Lcom/huawei/appmarket/nv4;)Z
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {

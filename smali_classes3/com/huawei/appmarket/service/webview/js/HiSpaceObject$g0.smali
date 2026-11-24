@@ -140,7 +140,7 @@
     .line 50
     .line 51
     .line 52
-    new-instance v2, Lcom/huawei/appmarket/cn5;
+    new-instance v2, Lcom/huawei/appmarket/dn5;
 
     .line 53
     .line 54
@@ -148,12 +148,12 @@
 
     .line 55
     .line 56
-    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v2}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 60
     .line 61
@@ -173,7 +173,7 @@
     .line 67
     .line 68
     .line 69
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     .line 70
     .line 71
@@ -202,7 +202,7 @@
     .line 82
     .line 83
     .line 84
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 85
     .line 86
@@ -211,7 +211,7 @@
 
     .line 88
     .line 89
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -224,7 +224,7 @@
 
     .line 94
     .line 95
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -239,7 +239,7 @@
 
     .line 100
     .line 101
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 102
     .line 103
@@ -256,7 +256,7 @@
 
     .line 108
     .line 109
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     .line 111

@@ -1,600 +1,709 @@
-.class public abstract Lcom/huawei/appmarket/jf7;
-.super Lcom/huawei/appmarket/ze7;
+.class public final Lcom/huawei/appmarket/jf7;
+.super Lcom/huawei/appmarket/nk7;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/er7;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/ze7<",
-        "Lcom/huawei/appmarket/gr7;",
-        "Lcom/huawei/appmarket/hr7;",
-        "Landroidx/media3/extractor/text/SubtitleDecoderException;",
-        ">;",
-        "Lcom/huawei/appmarket/er7;"
+        "Lcom/huawei/appmarket/nk7<",
+        "Lcom/huawei/appmarket/tk7;",
+        ">;"
     }
 .end annotation
 
 
+# instance fields
+.field private b:I
+
+.field private c:Ljava/util/ArrayList;
+
+
 # direct methods
-.method protected constructor <init>(Ljava/lang/String;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    const/4 p1, 0x2
+    invoke-direct {p0}, Lcom/huawei/appmarket/nk7;-><init>()V
 
-    new-array v0, p1, [Lcom/huawei/appmarket/gr7;
+    const/4 v0, 0x0
 
-    new-array p1, p1, [Lcom/huawei/appmarket/hr7;
+    iput v0, p0, Lcom/huawei/appmarket/jf7;->b:I
 
-    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/ze7;-><init>([Landroidx/media3/decoder/DecoderInputBuffer;[Lcom/huawei/appmarket/fb1;)V
+    new-instance v0, Ljava/util/ArrayList;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ze7;->p()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
 
     return-void
 .end method
 
-.method static synthetic q(Lcom/huawei/appmarket/jf7;Lcom/huawei/appmarket/fb1;)V
-    .registers 2
+.method private l(Lcom/huawei/appmarket/tk7;Lcom/huawei/appmarket/tk7;)V
+    .registers 5
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ze7;->o(Lcom/huawei/appmarket/fb1;)V
+    move-object v0, p1
 
+    .line 2
+    check-cast v0, Lcom/huawei/appmarket/lf7;
+
+    .line 3
+    .line 4
+    check-cast p2, Lcom/huawei/appmarket/lf7;
+
+    .line 5
+    .line 6
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tk7;->getIndex()I
+
+    .line 7
+    .line 8
+    .line 9
+    move-result p1
+
+    .line 10
+    iget v1, p0, Lcom/huawei/appmarket/jf7;->b:I
+
+    .line 11
+    .line 12
+    if-ne p1, v1, :cond_0
+
+    .line 13
+    .line 14
+    invoke-virtual {p2}, Lcom/huawei/appmarket/lf7;->getValue()F
+
+    .line 15
+    .line 16
+    .line 17
+    move-result p1
+
+    .line 18
+    const/4 p2, 0x0
+
+    .line 19
+    :goto_0
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/lf7;->resetNode(FF)V
+
+    .line 20
+    .line 21
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_0
+    invoke-virtual {p2}, Lcom/huawei/appmarket/lf7;->getValue()F
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p1
+
+    .line 27
+    invoke-virtual {p2}, Lcom/huawei/appmarket/lf7;->getVelocity()F
+
+    .line 28
+    .line 29
+    .line 30
+    move-result p2
+
+    .line 31
+    goto :goto_0
+
+    .line 32
+    :goto_1
     return-void
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
 .end method
 
 
 # virtual methods
-.method public final a(J)V
+.method public final a()Lcom/huawei/appmarket/tk7;
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/jf7;->b:I
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/jf7;->c(I)Lcom/huawei/appmarket/tk7;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+.end method
+
+.method public final b(Lcom/huawei/appmarket/tk7;)Lcom/huawei/appmarket/tk7;
+    .registers 2
+
+    .line 1
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tk7;->getIndex()I
+
+    move-result p1
+
+    add-int/lit8 p1, p1, 0x1
+
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jf7;->c(I)Lcom/huawei/appmarket/tk7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final c(I)Lcom/huawei/appmarket/tk7;
     .registers 3
 
     .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jf7;->i(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/tk7;
+
+    return-object p1
+.end method
+
+.method public final d()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final g(Lcom/huawei/appmarket/mf7;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nk7;->e(Lcom/huawei/appmarket/mf7;)V
+
     return-void
 .end method
 
-.method protected final g()Landroidx/media3/decoder/DecoderInputBuffer;
+.method public final h()I
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/gr7;
+    iget v0, p0, Lcom/huawei/appmarket/jf7;->b:I
 
-    .line 2
-    .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/gr7;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
+    return v0
 .end method
 
-.method protected final h()Lcom/huawei/appmarket/fb1;
-    .registers 2
+.method public final i(I)Z
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/if7;
+    iget-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
 
-    .line 2
-    .line 3
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/if7;-><init>(Lcom/huawei/appmarket/jf7;)V
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-.end method
-
-.method protected final i(Ljava/lang/Throwable;)Landroidx/media3/decoder/DecoderException;
-    .registers 4
-
-    .line 1
-    new-instance v0, Landroidx/media3/extractor/text/SubtitleDecoderException;
-
-    .line 2
-    .line 3
-    const-string v1, "Unexpected decode error"
-
-    .line 4
-    .line 5
-    invoke-direct {v0, v1, p1}, Landroidx/media3/extractor/text/SubtitleDecoderException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-.end method
-
-.method protected final j(Landroidx/media3/decoder/DecoderInputBuffer;Lcom/huawei/appmarket/fb1;Z)Landroidx/media3/decoder/DecoderException;
-    .registers 10
-
-    .line 1
-    check-cast p1, Lcom/huawei/appmarket/gr7;
-
-    .line 2
-    .line 3
-    check-cast p2, Lcom/huawei/appmarket/hr7;
-
-    .line 4
-    .line 5
-    :try_start_0
-    iget-object v0, p1, Landroidx/media3/decoder/DecoderInputBuffer;->e:Ljava/nio/ByteBuffer;
-
-    .line 6
-    .line 7
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 8
-    .line 9
-    .line 10
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->array()[B
-
-    .line 11
-    .line 12
-    .line 13
-    move-result-object v1
-
-    .line 14
-    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
-
-    .line 15
-    .line 16
-    .line 17
     move-result v0
 
+    if-ge p1, v0, :cond_0
+
+    if-ltz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method public final j(I)V
+    .registers 8
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jf7;->c:Ljava/util/ArrayList;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    const/4 v2, 0x1
+
+    .line 5
+    if-gez p1, :cond_1
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v3
+
+    .line 11
+    sub-int/2addr v3, v2
+
+    .line 12
+    :goto_0
+    if-ltz v3, :cond_3
+
+    .line 13
+    .line 14
+    add-int v2, v3, p1
+
+    .line 15
+    .line 16
+    if-gez v2, :cond_0
+
+    .line 17
     .line 18
-    invoke-virtual {p0, v0, v1, p3}, Lcom/huawei/appmarket/jf7;->r(I[BZ)Lcom/huawei/appmarket/dr7;
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
     .line 21
-    move-result-object v3
+    move-result-object v2
 
     .line 22
-    iget-wide v1, p1, Landroidx/media3/decoder/DecoderInputBuffer;->g:J
+    :goto_1
+    check-cast v2, Lcom/huawei/appmarket/tk7;
 
     .line 23
     .line 24
-    iget-wide v4, p1, Lcom/huawei/appmarket/gr7;->k:J
+    goto :goto_2
 
     .line 25
+    :cond_0
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
     .line 26
-    move-object v0, p2
-
     .line 27
-    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/hr7;->n(JLcom/huawei/appmarket/dr7;J)V
-
     .line 28
+    move-result-object v2
+
     .line 29
+    goto :goto_1
+
     .line 30
-    const/4 p1, 0x0
+    :goto_2
+    invoke-virtual {v0, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 31
-    iput-boolean p1, p2, Lcom/huawei/appmarket/fb1;->d:Z
-    :try_end_0
-    .catch Landroidx/media3/extractor/text/SubtitleDecoderException; {:try_start_0 .. :try_end_0} :catch_0
-
     .line 32
     .line 33
-    const/4 p1, 0x0
+    move-result-object v4
 
     .line 34
-    goto :goto_0
+    check-cast v4, Lcom/huawei/appmarket/tk7;
 
     .line 35
-    :catch_0
-    move-exception p1
-
     .line 36
-    :goto_0
-    return-object p1
+    instance-of v5, v2, Lcom/huawei/appmarket/lf7;
+
     .line 37
     .line 38
+    if-eqz v5, :cond_3
+
     .line 39
     .line 40
+    instance-of v5, v4, Lcom/huawei/appmarket/lf7;
+
     .line 41
     .line 42
+    if-eqz v5, :cond_3
+
     .line 43
     .line 44
+    invoke-direct {p0, v4, v2}, Lcom/huawei/appmarket/jf7;->l(Lcom/huawei/appmarket/tk7;Lcom/huawei/appmarket/tk7;)V
+
     .line 45
     .line 46
     .line 47
+    add-int/lit8 v3, v3, -0x1
+
     .line 48
     .line 49
+    goto :goto_0
+
     .line 50
+    :cond_1
+    :goto_3
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
     .line 51
     .line 52
     .line 53
+    move-result v3
+
     .line 54
+    if-ge v1, v3, :cond_3
+
     .line 55
     .line 56
+    add-int v3, v1, p1
+
     .line 57
     .line 58
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
     .line 59
     .line 60
     .line 61
+    move-result v4
+
     .line 62
+    if-lt v3, v4, :cond_2
+
     .line 63
     .line 64
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+
     .line 65
     .line 66
     .line 67
+    move-result-object v3
+
     .line 68
+    :goto_4
+    check-cast v3, Lcom/huawei/appmarket/tk7;
+
     .line 69
     .line 70
+    goto :goto_5
+
     .line 71
+    :cond_2
+    invoke-virtual {v0, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
     .line 72
     .line 73
     .line 74
+    move-result-object v3
+
     .line 75
+    goto :goto_4
+
     .line 76
+    :goto_5
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
     .line 77
     .line 78
     .line 79
+    move-result-object v4
+
     .line 80
+    check-cast v4, Lcom/huawei/appmarket/tk7;
+
     .line 81
     .line 82
+    instance-of v5, v3, Lcom/huawei/appmarket/lf7;
+
     .line 83
     .line 84
+    if-eqz v5, :cond_3
+
     .line 85
     .line 86
+    instance-of v5, v4, Lcom/huawei/appmarket/lf7;
+
     .line 87
     .line 88
+    if-eqz v5, :cond_3
+
     .line 89
     .line 90
+    invoke-direct {p0, v4, v3}, Lcom/huawei/appmarket/jf7;->l(Lcom/huawei/appmarket/tk7;Lcom/huawei/appmarket/tk7;)V
+
     .line 91
     .line 92
     .line 93
+    add-int/lit8 v1, v1, 0x1
+
     .line 94
     .line 95
+    goto :goto_3
+
     .line 96
+    :cond_3
+    return-void
     .line 97
     .line 98
     .line 99
@@ -782,12 +891,82 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
 .end method
 
-.method protected abstract r(I[BZ)Lcom/huawei/appmarket/dr7;
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroidx/media3/extractor/text/SubtitleDecoderException;
-        }
-    .end annotation
+.method public final k(I)V
+    .registers 3
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jf7;->i(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iput p1, p0, Lcom/huawei/appmarket/jf7;->b:I
+
+    :cond_0
+    return-void
 .end method

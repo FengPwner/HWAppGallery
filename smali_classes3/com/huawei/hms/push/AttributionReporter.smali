@@ -81,7 +81,7 @@
     return-void
 .end method
 
-.method private a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/hv7;
+.method private a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/nv7;
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -89,7 +89,7 @@
             "Lcom/huawei/hms/push/AttributionEvent;",
             "Landroid/os/Bundle;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -185,7 +185,7 @@
 
     invoke-direct {v2, v1, p1, v0}, Lcom/huawei/hms/push/task/AttributionReportTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p2, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -204,9 +204,9 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
     :catch_1
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_INTERNAL_ERROR:Lcom/huawei/hms/aaid/constant/ErrorEnum;
 
@@ -214,7 +214,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     invoke-virtual {p2}, Lcom/huawei/hms/aaid/constant/ErrorEnum;->getExternalCode()I
 
@@ -223,11 +223,11 @@
     goto :goto_2
 
     :goto_1
-    new-instance p2, Lcom/huawei/appmarket/nv7;
+    new-instance p2, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p2}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p2}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     invoke-virtual {p1}, Lcom/huawei/hms/common/ApiException;->getStatusCode()I
 
@@ -244,7 +244,7 @@
 
     invoke-static {v2, v1, v0, p2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -456,7 +456,7 @@
 
 
 # virtual methods
-.method public report(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/hv7;
+.method public report(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -464,14 +464,14 @@
             "Lcom/huawei/hms/push/AttributionEvent;",
             "Landroid/os/Bundle;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/hms/push/AttributionReporter;->a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1, p2}, Lcom/huawei/hms/push/AttributionReporter;->a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

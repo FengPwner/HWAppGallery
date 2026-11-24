@@ -52,7 +52,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -415,7 +415,7 @@
 
     const-string v1, "AbilityProxy::cancelConnect failed, result is"
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -459,7 +459,7 @@
 
     :goto_0
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->c()Z
 
     move-result p0
 
@@ -608,7 +608,7 @@
 
     const-string v1, "upgradeInstall failed, result is"
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -874,7 +874,7 @@
 
     const-string v1, "silentInstall failed, result is"
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -1017,7 +1017,7 @@
     goto/16 :goto_5
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -1212,7 +1212,7 @@
 
     const-string v1, "AbilityProxy::downloadAndInstall failed, result is"
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -1386,7 +1386,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     .line 12
     .line 13
@@ -1468,7 +1468,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->b()Z
 
     .line 54
     .line 55
@@ -1495,7 +1495,7 @@
     .line 63
     :cond_1
     :try_start_1
-    sget-object v8, Lcom/huawei/appmarket/cc9;->c:Ljava/lang/String;
+    sget-object v8, Lcom/huawei/appmarket/jc9;->c:Ljava/lang/String;
 
     .line 64
     .line 65
@@ -2754,65 +2754,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public static l(Landroid/content/Context;Landroid/content/Intent;Landroid/content/ServiceConnection;)Z
@@ -2893,7 +2834,7 @@
     invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/gi7;->r(Landroid/content/Intent;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/mi7;->r(Landroid/content/Intent;)V
 
     invoke-static {p0}, Lohos/ohos/ohos/ohos/ohos/g;->k(Landroid/content/Intent;)Ljava/util/ArrayList;
 
@@ -3023,7 +2964,7 @@
 
     invoke-direct {v2, p0}, Lohos/ohos/ohos/ohos/ohos/g$a;-><init>(Lohos/ohos/ohos/ohos/ohos/g;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v3
 

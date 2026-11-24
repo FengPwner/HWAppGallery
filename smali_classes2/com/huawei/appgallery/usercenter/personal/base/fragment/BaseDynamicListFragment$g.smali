@@ -45,15 +45,15 @@
     .registers 9
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/cz3;
+    const-class v0, Lcom/huawei/appmarket/ez3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/cz3;
+    check-cast v0, Lcom/huawei/appmarket/ez3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/cz3;->L0()Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-interface {v0}, Lcom/huawei/appmarket/ez3;->L0()Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     move-result-object v0
 
@@ -65,11 +65,11 @@
 
     if-nez v1, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "refreshClientEntranceInfo fail:no DetailResponse"
 
-    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -127,9 +127,9 @@
 
     if-nez v6, :cond_3
 
-    sget-object v6, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v6, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
-    invoke-virtual {v6, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -148,7 +148,7 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -184,19 +184,19 @@
 
     :cond_7
     :goto_2
-    sget-object p0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
-    invoke-virtual {p0, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_8
     :goto_3
-    sget-object p0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "responseBean code fail"
 
-    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 .end method
@@ -218,13 +218,13 @@
 
     check-cast p2, Lcom/huawei/appgallery/usercenter/personal/base/fragment/BaseDynamicListFragment;
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v1, "BaseDynamicListFragment"
 
     const-string v2, "onReceiveMsg refreshLanternCard "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_e
 
@@ -261,7 +261,7 @@
     const-string p1, " fragment.provider not TabCardDataProvider instance"
 
     :goto_0
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -272,7 +272,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/controller/TabCardDataProvider;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/controller/TabCardDataProvider;->G()Lcom/huawei/appmarket/v34;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/controller/TabCardDataProvider;->G()Lcom/huawei/appmarket/x34;
 
     move-result-object v2
 
@@ -285,13 +285,13 @@
     goto :goto_0
 
     :cond_1
-    invoke-interface {v2}, Lcom/huawei/appmarket/v34;->getResponseCode()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/x34;->getResponseCode()I
 
     move-result v3
 
     if-nez v3, :cond_d
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/v34;->getRtnCode()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/x34;->getRtnCode()I
 
     move-result v3
 
@@ -368,12 +368,12 @@
 
     if-nez v5, :cond_6
 
-    sget-object v3, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v3, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v4, "baseGridCardBean no BaseGridCardBean"
 
     :goto_2
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -423,7 +423,7 @@
 
     if-eqz v5, :cond_4
 
-    sget-object v6, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v6, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v7, "get top3ServiceCardBean success"
 
@@ -441,7 +441,7 @@
 
     if-eqz v5, :cond_4
 
-    sget-object v6, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v6, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -464,7 +464,7 @@
     move-result-object v7
 
     :goto_4
-    invoke-virtual {v6, v1, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v1, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->V()Ljava/util/List;
 
@@ -476,7 +476,7 @@
 
     :cond_9
     :goto_5
-    sget-object v3, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v3, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v4, "get LanternCardDateList fail:getDataList is empty"
 
@@ -491,11 +491,11 @@
 
     if-eqz v0, :cond_e
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v3, "updateProvider start"
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/controller/TabCardDataProvider;->F()Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;
 

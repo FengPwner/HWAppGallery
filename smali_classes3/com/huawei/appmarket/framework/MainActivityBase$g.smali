@@ -89,7 +89,7 @@
 
     const-string v1, "RefreshBottomTabRunnable mainActivityBase weakref null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

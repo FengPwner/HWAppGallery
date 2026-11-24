@@ -112,7 +112,7 @@
     move-result-wide v0
 
     :goto_0
-    invoke-static {p2}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object p2
 

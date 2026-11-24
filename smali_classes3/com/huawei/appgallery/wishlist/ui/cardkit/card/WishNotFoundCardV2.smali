@@ -18,7 +18,7 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 15
 
     .line 1
@@ -182,7 +182,7 @@
 
     .line 81
     .line 82
-    invoke-static {v10}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v10}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 83
     .line 84
@@ -194,7 +194,7 @@
 
     .line 87
     .line 88
-    invoke-static {v11}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v11}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 89
     .line 90
@@ -206,7 +206,7 @@
 
     .line 93
     .line 94
-    invoke-static {v12}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v12}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 95
     .line 96
@@ -377,7 +377,7 @@
     .line 178
     .line 179
     .line 180
-    new-instance v7, Lcom/huawei/appmarket/sr8;
+    new-instance v7, Lcom/huawei/appmarket/yr8;
 
     .line 181
     .line 182
@@ -385,7 +385,7 @@
 
     .line 183
     .line 184
-    invoke-direct {v7, p1, v8, p0}, Lcom/huawei/appmarket/sr8;-><init>(Lcom/huawei/appmarket/ak0;ILcom/huawei/appmarket/y1;)V
+    invoke-direct {v7, p1, v8, p0}, Lcom/huawei/appmarket/yr8;-><init>(Lcom/huawei/appmarket/bk0;ILcom/huawei/appmarket/y1;)V
 
     .line 185
     .line 186
@@ -528,7 +528,7 @@
     .line 257
     .line 258
     .line 259
-    new-instance v2, Lcom/huawei/appmarket/sr8;
+    new-instance v2, Lcom/huawei/appmarket/yr8;
 
     .line 260
     .line 261
@@ -536,7 +536,7 @@
 
     .line 262
     .line 263
-    invoke-direct {v2, p1, v4, p0}, Lcom/huawei/appmarket/sr8;-><init>(Lcom/huawei/appmarket/ak0;ILcom/huawei/appmarket/y1;)V
+    invoke-direct {v2, p1, v4, p0}, Lcom/huawei/appmarket/yr8;-><init>(Lcom/huawei/appmarket/bk0;ILcom/huawei/appmarket/y1;)V
 
     .line 264
     .line 265
@@ -696,15 +696,13 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
     .registers 3
 
     .line 1
-    const v0, 0x7f0a1903
+    const v0, 0x7f0a1904
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

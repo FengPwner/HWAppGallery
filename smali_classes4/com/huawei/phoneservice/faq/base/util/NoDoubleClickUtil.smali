@@ -41,7 +41,7 @@
 
 .method public static isDoubleClick(Landroid/view/View;)Z
     .registers 13
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "NoDoubleClickUtil"

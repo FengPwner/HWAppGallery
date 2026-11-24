@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/f;
-.super Lcom/huawei/appmarket/ws1;
+.super Lcom/huawei/appmarket/zs1;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/f;->a:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/g;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ws1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/zs1;-><init>()V
 
     return-void
 .end method
@@ -23,7 +23,7 @@
 .method public final onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
     .registers 3
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/ws1;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/zs1;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     instance-of p1, p1, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
@@ -77,7 +77,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -149,7 +149,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -196,7 +196,7 @@
     .line 77
     .line 78
     :cond_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/ws1;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/zs1;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 79
     .line 80

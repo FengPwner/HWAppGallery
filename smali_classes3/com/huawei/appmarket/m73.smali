@@ -1,31 +1,91 @@
 .class public final Lcom/huawei/appmarket/m73;
-.super Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
-    .registers 4
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/m73$a;
+    }
+.end annotation
 
-    .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+
+# static fields
+.field private static b:Lcom/huawei/appmarket/m73;
+
+
+# instance fields
+.field private a:Lcom/huawei/appmarket/m73$a;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method protected final getComplainAppId()Ljava/lang/String;
-    .registers 3
+.method public static declared-synchronized b()Lcom/huawei/appmarket/m73;
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mContext:Landroid/content/Context;
+    const-class v0, Lcom/huawei/appmarket/m73;
 
-    const v1, 0x7f12048d
+    monitor-enter v0
 
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/m73;->b:Lcom/huawei/appmarket/m73;
 
-    move-result-object v0
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/m73;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/m73;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/m73;->b:Lcom/huawei/appmarket/m73;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object v1, Lcom/huawei/appmarket/m73;->b:Lcom/huawei/appmarket/m73;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_1
+    monitor-exit v0
+
+    throw v1
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/huawei/appmarket/m73$a;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/m73;->a:Lcom/huawei/appmarket/m73$a;
 
     return-object v0
+.end method
+
+.method public final c(Lcom/huawei/appmarket/m73$a;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/m73;->a:Lcom/huawei/appmarket/m73$a;
+
+    return-void
 .end method

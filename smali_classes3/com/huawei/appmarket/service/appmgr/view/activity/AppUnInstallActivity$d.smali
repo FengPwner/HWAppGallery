@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # annotations
@@ -41,9 +41,9 @@
     .registers 2
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/ly2$a;->c:Lcom/huawei/appmarket/ly2$a;
+    sget-object p1, Lcom/huawei/appmarket/oy2$a;->c:Lcom/huawei/appmarket/oy2$a;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ky2;->a(Lcom/huawei/appmarket/ly2$a;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ny2;->a(Lcom/huawei/appmarket/oy2$a;)V
 
     return-void
 .end method

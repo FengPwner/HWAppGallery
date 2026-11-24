@@ -20,10 +20,10 @@
 # instance fields
 .field private final b:Landroidx/media3/exoplayer/source/u;
 
-.field private final c:Lcom/huawei/appmarket/jb4;
+.field private final c:Lcom/huawei/appmarket/lb4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/jb4<",
+            "Lcom/huawei/appmarket/lb4<",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -49,11 +49,11 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/wy0$a;->b:Landroidx/media3/exoplayer/source/u;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {p2}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appmarket/wy0$a;->c:Lcom/huawei/appmarket/jb4;
+    iput-object p1, p0, Lcom/huawei/appmarket/wy0$a;->c:Lcom/huawei/appmarket/lb4;
 
     return-void
 .end method
@@ -73,19 +73,19 @@
     return p1
 .end method
 
-.method public final b()Lcom/huawei/appmarket/jb4;
+.method public final b()Lcom/huawei/appmarket/lb4;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/jb4<",
+            "Lcom/huawei/appmarket/lb4<",
             "Ljava/lang/Integer;",
             ">;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/wy0$a;->c:Lcom/huawei/appmarket/jb4;
+    iget-object v0, p0, Lcom/huawei/appmarket/wy0$a;->c:Lcom/huawei/appmarket/lb4;
 
     return-object v0
 .end method

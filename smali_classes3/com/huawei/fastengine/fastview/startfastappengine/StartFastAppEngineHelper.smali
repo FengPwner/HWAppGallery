@@ -239,7 +239,7 @@
 
     .line 42
     .line 43
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p2}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 44
     .line 45

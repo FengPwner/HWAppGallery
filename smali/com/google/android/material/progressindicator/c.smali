@@ -439,7 +439,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/i45;->a(II)I
 
     move-result v0
 
@@ -637,6 +637,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final e()I
@@ -790,4 +791,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

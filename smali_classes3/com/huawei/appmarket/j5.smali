@@ -21,11 +21,11 @@
     .line 1
     const p1, 0x7f12083d
 
-    invoke-static {p1}, Lcom/huawei/appmarket/s03;->b(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/v03;->b(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/s03;->n(Ljava/lang/String;Z)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/v03;->n(Ljava/lang/String;Z)V
 
     return-void
 .end method

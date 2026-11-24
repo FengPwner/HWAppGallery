@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -64,11 +64,11 @@
 .method public final run()V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/uw2;->b()Lcom/huawei/appmarket/uw2;
+    invoke-static {}, Lcom/huawei/appmarket/xw2;->b()Lcom/huawei/appmarket/xw2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uw2;->a()Lcom/huawei/appmarket/ar3;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xw2;->a()Lcom/huawei/appmarket/cr3;
 
     move-result-object v0
 
@@ -76,9 +76,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/game/impl/e$b;->d:Ljava/lang/String;
 
-    check-cast v0, Lcom/huawei/appmarket/tw2;
+    check-cast v0, Lcom/huawei/appmarket/ww2;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tw2;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ww2;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -89,13 +89,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object v0, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v1, "SignatureChecker"
 
     const-string v2, "should call initGetSignImpl first."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object v0, p0, Lcom/huawei/appgallery/game/impl/e$b;->b:Ljava/util/concurrent/CountDownLatch;

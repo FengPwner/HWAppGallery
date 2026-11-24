@@ -40,7 +40,7 @@
     move-result-object v3
 
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 12
     .line 13
@@ -48,7 +48,7 @@
     move-result v4
 
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->e()I
 
     .line 16
     .line 17
@@ -56,7 +56,7 @@
     move-result v5
 
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->d()I
 
     .line 20
     .line 21
@@ -64,7 +64,7 @@
     move-result v6
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     .line 24
     .line 25
@@ -100,7 +100,7 @@
 
     .line 40
     :cond_0
-    invoke-static {v10, v4, v7}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v10, v4, v7}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 41
     .line 42
@@ -275,7 +275,7 @@
 
     .line 129
     .line 130
-    invoke-static {v2, v1, v8}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v2, v1, v8}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 131
     .line 132
@@ -332,25 +332,24 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 11
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 2
     .line 3
@@ -358,7 +357,7 @@
     move-result p2
 
     .line 5
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     .line 6
     .line 7
@@ -397,7 +396,7 @@
 
     .line 22
     :cond_0
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     .line 23
     .line 24
@@ -446,7 +445,7 @@
     move-result-object v3
 
     .line 47
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 48
     .line 49
@@ -615,5 +614,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

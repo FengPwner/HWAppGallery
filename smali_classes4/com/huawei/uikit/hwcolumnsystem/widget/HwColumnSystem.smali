@@ -81,7 +81,7 @@
     iput-boolean p2, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->j:Z
 
     .line 2
-    invoke-static {p1}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/yf3;->a(Landroid/content/Context;)I
 
     move-result p2
 
@@ -167,7 +167,7 @@
     iput-boolean v3, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->j:Z
 
     .line 4
-    invoke-static {p1}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/yf3;->a(Landroid/content/Context;)I
 
     move-result p2
 
@@ -576,10 +576,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private b(IZ)V
@@ -1035,10 +1031,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private c(FI)I
@@ -1388,159 +1380,159 @@
 
     .line 149
     .line 150
-    const-string v2, "window"
+    const-string/jumbo v2, "window"
 
     .line 151
     .line 152
+    .line 153
     invoke-virtual {v0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 153
     .line 154
     .line 155
-    move-result-object v0
-
     .line 156
-    check-cast v0, Landroid/view/WindowManager;
+    move-result-object v0
 
     .line 157
+    check-cast v0, Landroid/view/WindowManager;
+
     .line 158
+    .line 159
     if-eqz v0, :cond_6
 
-    .line 159
     .line 160
+    .line 161
     invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 161
     .line 162
     .line 163
+    .line 164
     move-result-object v0
 
-    .line 164
+    .line 165
     invoke-virtual {v0}, Landroid/view/Display;->getRotation()I
 
-    .line 165
     .line 166
     .line 167
+    .line 168
     move-result v0
 
-    .line 168
+    .line 169
     goto :goto_6
 
-    .line 169
+    .line 170
     :cond_6
     const/4 v0, 0x0
 
-    .line 170
+    .line 171
     :goto_6
     if-eqz v0, :cond_7
 
-    .line 171
     .line 172
+    .line 173
     const/4 v2, 0x2
 
-    .line 173
+    .line 174
     if-ne v0, v2, :cond_8
 
-    .line 174
     .line 175
+    .line 176
     :cond_7
     const/4 v1, 0x1
 
-    .line 176
+    .line 177
     :cond_8
     iput-boolean v1, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->m:Z
 
-    .line 177
     .line 178
+    .line 179
     iput p2, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->n:I
 
-    .line 179
     .line 180
+    .line 181
     :cond_9
     iget-boolean v0, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->m:Z
 
-    .line 181
     .line 182
+    .line 183
     if-eqz v0, :cond_b
 
-    .line 183
     .line 184
+    .line 185
     iget v0, v3, Landroid/graphics/Rect;->left:I
 
-    .line 185
     .line 186
+    .line 187
     if-gtz v0, :cond_a
 
-    .line 187
     .line 188
+    .line 189
     iget v0, v3, Landroid/graphics/Rect;->right:I
 
-    .line 189
     .line 190
+    .line 191
     if-lez v0, :cond_b
 
-    .line 191
     .line 192
+    .line 193
     :cond_a
     iget-object p2, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->i:Landroid/content/Context;
 
-    .line 193
     .line 194
+    .line 195
     invoke-virtual {p2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    .line 195
     .line 196
     .line 197
-    move-result-object p2
-
     .line 198
-    invoke-virtual {p2}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    move-result-object p2
 
     .line 199
+    invoke-virtual {p2}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
     .line 200
     .line 201
+    .line 202
     move-result-object p2
 
-    .line 202
+    .line 203
     iget p2, p2, Landroid/content/res/Configuration;->screenWidthDp:I
 
-    .line 203
     .line 204
+    .line 205
     int-to-float p2, p2
 
-    .line 205
+    .line 206
     mul-float p2, p2, p1
 
-    .line 206
     .line 207
+    .line 208
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 208
     .line 209
+    .line 210
     add-float/2addr p2, p1
 
-    .line 210
+    .line 211
     float-to-int p1, p2
 
-    .line 211
+    .line 212
     iget p2, v3, Landroid/graphics/Rect;->left:I
 
-    .line 212
     .line 213
+    .line 214
     sub-int/2addr p1, p2
 
-    .line 214
+    .line 215
     iget p2, v3, Landroid/graphics/Rect;->right:I
 
-    .line 215
     .line 216
+    .line 217
     sub-int p2, p1, p2
 
-    .line 217
     .line 218
+    .line 219
     :cond_b
     return p2
-    .line 219
     .line 220
     .line 221
     .line 222
@@ -1594,10 +1586,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private d()V
@@ -1605,7 +1593,7 @@
 
     invoke-direct {p0}, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->m()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ae3;->a()Lcom/huawei/appmarket/ae3;
+    invoke-static {}, Lcom/huawei/appmarket/ce3;->a()Lcom/huawei/appmarket/ce3;
 
     move-result-object v0
 
@@ -2653,6 +2641,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private m()V
@@ -3079,6 +3087,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final j()I
@@ -3379,23 +3407,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final r(Landroid/content/Context;IIF)V
@@ -3539,26 +3550,26 @@
 
     .line 64
     .line 65
-    const-string p2, "width and density should not below to zero!"
+    const-string/jumbo p2, "width and density should not below to zero!"
 
     .line 66
     .line 67
+    .line 68
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 68
     .line 69
     .line 70
+    .line 71
     iget-object p1, p0, Lcom/huawei/uikit/hwcolumnsystem/widget/HwColumnSystem;->h:Lcom/huawei/uikit/hwcolumnsystem/widget/c;
 
-    .line 71
     .line 72
+    .line 73
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    .line 73
     .line 74
     .line 75
-    return-void
     .line 76
+    return-void
     .line 77
     .line 78
     .line 79
@@ -4215,6 +4226,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public final s(Landroid/content/Context;)V
@@ -4457,21 +4588,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

@@ -104,7 +104,7 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/appcomment/ui/view/CommentEmptyTipView;->c:Landroid/view/View;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     iget-object p2, p0, Lcom/huawei/appgallery/appcomment/ui/view/CommentEmptyTipView;->d:Landroid/view/View;
 
@@ -265,7 +265,7 @@
 
     .line 57
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     .line 58
     .line 59
@@ -283,7 +283,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 66
     .line 67
@@ -294,7 +294,7 @@
     add-int/2addr v2, v1
 
     .line 70
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     .line 71
     .line 72
@@ -349,7 +349,7 @@
 
     .line 94
     .line 95
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 96
     .line 97
@@ -365,7 +365,7 @@
 
     .line 102
     .line 103
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 104
     .line 105

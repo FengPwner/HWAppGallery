@@ -1,14 +1,14 @@
 .class public Lcom/huawei/appmarket/service/externalapi/jumpers/HttpShareLinkActionJumper;
-.super Lcom/huawei/appmarket/x54;
+.super Lcom/huawei/appmarket/a64;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+.method public constructor <init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/x54;-><init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/a64;-><init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
 
     return-void
 .end method
@@ -19,7 +19,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x54;->b:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/huawei/appmarket/a64;->b:Landroid/net/Uri;
 
     invoke-virtual {v0}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
@@ -35,9 +35,9 @@
 
     const-string v1, "path is empty, startMainActivity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/x54;->i()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/a64;->i()V
 
     return-void
 
@@ -62,7 +62,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v2, v1, v0}, Lcom/huawei/appmarket/x54;->h(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v1, v0}, Lcom/huawei/appmarket/a64;->h(ILjava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void

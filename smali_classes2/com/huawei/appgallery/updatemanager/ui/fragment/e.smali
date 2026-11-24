@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/updatemanager/ui/fragment/e;
-.super Lcom/huawei/appmarket/sf7;
+.super Lcom/huawei/appmarket/xf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/fragment/e;->c:Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/sf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/xf7;-><init>()V
 
     return-void
 .end method

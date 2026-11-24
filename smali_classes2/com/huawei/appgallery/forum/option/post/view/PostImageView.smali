@@ -108,7 +108,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    sget-object p3, Lcom/huawei/appmarket/xe6;->a:[I
+    sget-object p3, Lcom/huawei/appmarket/ze6;->a:[I
 
     const/4 v1, 0x0
 
@@ -312,7 +312,7 @@
 
     const-string p2, "NiceImageView"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p1, v2, [F
 
@@ -2516,7 +2516,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2534,7 +2534,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2552,7 +2552,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2570,7 +2570,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2588,7 +2588,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2606,7 +2606,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostImageView;->b:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2637,7 +2637,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 4
     .line 5
@@ -2758,5 +2758,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

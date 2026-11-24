@@ -1,15 +1,15 @@
 .class public Lcom/huawei/flexiblelayout/card/buildin/FLDivider;
-.super Lcom/huawei/appmarket/oa2;
+.super Lcom/huawei/appmarket/ra2;
 .source "SourceFile"
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/si5;
+.annotation runtime Lcom/huawei/appmarket/ui5;
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/oa2<",
+        "Lcom/huawei/appmarket/ra2<",
         "Lcom/huawei/flexiblelayout/data/b;",
         ">;"
     }
@@ -20,24 +20,24 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/oa2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ra2;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
     new-instance v0, Landroid/view/View;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -47,7 +47,7 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     move-result p2
 
@@ -64,7 +64,7 @@
     return-object v0
 .end method
 
-.method protected final g(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
+.method protected final g(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
     .registers 4
 
     .line 1

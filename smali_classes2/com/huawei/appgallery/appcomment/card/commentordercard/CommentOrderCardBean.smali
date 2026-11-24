@@ -15,12 +15,12 @@
 
 # instance fields
 .field private filter:Lcom/huawei/appgallery/appcomment/card/commentordercard/CommentOrderCardBean$Filter;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private labelInfos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -33,12 +33,12 @@
 .end field
 
 .field private sort:Lcom/huawei/appgallery/appcomment/card/commentordercard/CommentOrderCardBean$Sort;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private tag:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

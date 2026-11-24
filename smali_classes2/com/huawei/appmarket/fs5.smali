@@ -16,7 +16,7 @@
 
 # virtual methods
 .method public final c()V
-    .registers 4
+    .registers 5
 
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/r2;->d:I
@@ -35,89 +35,106 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/r2;->f(I)V
+    const/4 v0, 0x7
 
     .line 10
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/r2;->f(I)V
+
     .line 11
     .line 12
-    goto :goto_1
-
     .line 13
-    :cond_0
-    const/4 v1, 0x2
+    goto :goto_2
 
     .line 14
-    if-eq v0, v1, :cond_3
+    :cond_0
+    if-nez v0, :cond_1
 
     .line 15
     .line 16
-    const/4 v2, 0x3
+    :try_start_0
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 17
-    if-ne v0, v2, :cond_1
-
     .line 18
     .line 19
-    goto :goto_0
+    move-result-object v0
 
     .line 20
-    :cond_1
-    const/4 v1, 0x4
+    const-string v1, "isShowChildUseProtect"
 
     .line 21
-    if-eq v0, v1, :cond_2
-
     .line 22
+    const/4 v2, 0x0
+
     .line 23
-    const/4 v1, 0x5
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/j50;->k(Ljava/lang/String;I)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 24
-    if-ne v0, v1, :cond_4
-
     .line 25
     .line 26
-    :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/qm1;->e()V
+    goto :goto_0
 
     .line 27
-    .line 28
-    .line 29
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/r2;->f(I)V
+    :catch_0
+    move-exception v0
 
+    .line 28
+    sget-object v1, Lcom/huawei/appmarket/l31;->a:Lcom/huawei/appmarket/l31;
+
+    .line 29
     .line 30
+    const-string v2, "SpUtils"
+
     .line 31
     .line 32
-    goto :goto_1
+    const-string v3, "setDeviceChildUseProtectDialogFlag error"
 
     .line 33
-    :cond_3
-    :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/qm1;->e()V
-
     .line 34
+    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
     .line 35
     .line 36
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/r2;->f(I)V
-
     .line 37
+    :goto_0
+    const/16 v0, 0xa
+
     .line 38
     .line 39
-    :cond_4
     :goto_1
-    return-void
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/r2;->f(I)V
+
     .line 40
     .line 41
     .line 42
+    goto :goto_2
+
     .line 43
+    :cond_1
+    const/4 v1, 0x6
+
     .line 44
+    if-ne v0, v1, :cond_2
+
     .line 45
     .line 46
+    invoke-static {}, Lcom/huawei/appmarket/r2;->a()V
+
     .line 47
     .line 48
     .line 49
+    const/16 v0, 0xe
+
     .line 50
     .line 51
+    goto :goto_1
+
     .line 52
+    :cond_2
+    :goto_2
+    return-void
     .line 53
     .line 54
     .line 55
@@ -206,55 +223,48 @@
 .end method
 
 .method public final e()V
-    .registers 5
+    .registers 4
 
     .line 1
     const/4 v0, 0x1
 
-    const-string v1, "1"
+    iget v1, p0, Lcom/huawei/appmarket/r2;->d:I
 
-    iget v2, p0, Lcom/huawei/appmarket/r2;->d:I
-
-    if-ne v2, v0, :cond_0
+    if-ne v1, v0, :cond_0
 
     const-string v0, "6"
 
     iput-object v0, p0, Lcom/huawei/appmarket/r2;->c:Ljava/lang/String;
 
+    const-string v0, "1"
+
     :goto_0
-    iput-object v1, p0, Lcom/huawei/appmarket/r2;->b:Ljava/lang/String;
+    iput-object v0, p0, Lcom/huawei/appmarket/r2;->b:Ljava/lang/String;
 
     goto :goto_2
 
     :cond_0
-    const/4 v0, 0x2
+    const-string v0, "0"
 
-    const-string v3, "5"
+    if-nez v1, :cond_1
 
-    if-eq v2, v0, :cond_2
+    const-string v1, "5"
 
-    const/4 v0, 0x3
-
-    if-ne v2, v0, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    const/4 v0, 0x4
-
-    if-eq v2, v0, :cond_2
-
-    const/4 v0, 0x5
-
-    if-ne v2, v0, :cond_3
-
-    :cond_2
     :goto_1
-    iput-object v3, p0, Lcom/huawei/appmarket/r2;->c:Ljava/lang/String;
+    iput-object v1, p0, Lcom/huawei/appmarket/r2;->c:Ljava/lang/String;
 
     goto :goto_0
 
-    :cond_3
+    :cond_1
+    const/4 v2, 0x6
+
+    if-ne v1, v2, :cond_2
+
+    const-string v1, "4"
+
+    goto :goto_1
+
+    :cond_2
     :goto_2
     invoke-virtual {p0}, Lcom/huawei/appmarket/r2;->d()V
 

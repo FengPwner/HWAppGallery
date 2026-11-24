@@ -15,11 +15,11 @@
 
 
 # virtual methods
-.method public abstract c(Landroidx/media3/datasource/cache/Cache;Lcom/huawei/appmarket/wg0;)V
+.method public abstract c(Landroidx/media3/datasource/cache/Cache;Lcom/huawei/appmarket/xg0;)V
 .end method
 
-.method public abstract d(Landroidx/media3/datasource/cache/Cache;Lcom/huawei/appmarket/wg0;Lcom/huawei/appmarket/wg0;)V
+.method public abstract d(Landroidx/media3/datasource/cache/Cache;Lcom/huawei/appmarket/xg0;Lcom/huawei/appmarket/xg0;)V
 .end method
 
-.method public abstract e(Lcom/huawei/appmarket/wg0;)V
+.method public abstract e(Lcom/huawei/appmarket/xg0;)V
 .end method

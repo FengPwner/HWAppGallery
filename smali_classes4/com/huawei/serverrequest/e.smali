@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/j87;
+.implements Lcom/huawei/appmarket/o87;
 
 
 # annotations
@@ -17,11 +17,11 @@
 # instance fields
 .field private final a:Lcom/huawei/serverrequest/e$a;
 
-.field private final b:Lcom/huawei/appmarket/j87$a;
+.field private final b:Lcom/huawei/appmarket/o87$a;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/j87$a;)V
+.method public constructor <init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/o87$a;)V
     .registers 3
 
     .line 1
@@ -29,18 +29,18 @@
 
     iput-object p1, p0, Lcom/huawei/serverrequest/e;->a:Lcom/huawei/serverrequest/e$a;
 
-    iput-object p2, p0, Lcom/huawei/serverrequest/e;->b:Lcom/huawei/appmarket/j87$a;
+    iput-object p2, p0, Lcom/huawei/serverrequest/e;->b:Lcom/huawei/appmarket/o87$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/j87$a;
+.method public final a()Lcom/huawei/appmarket/o87$a;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/serverrequest/e;->b:Lcom/huawei/appmarket/j87$a;
+    iget-object v0, p0, Lcom/huawei/serverrequest/e;->b:Lcom/huawei/appmarket/o87$a;
 
     return-object v0
 .end method

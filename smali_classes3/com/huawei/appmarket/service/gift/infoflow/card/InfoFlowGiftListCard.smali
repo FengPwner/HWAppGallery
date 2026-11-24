@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/service/infoflow/cards/card/BaseInfoFlowCard<",
-        "Lcom/huawei/appmarket/pc4;",
+        "Lcom/huawei/appmarket/rc4;",
         ">;"
     }
 .end annotation
@@ -125,7 +125,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/uz2;
+    check-cast v1, Lcom/huawei/appmarket/xz2;
 
     if-nez v1, :cond_1
 
@@ -170,7 +170,7 @@
     invoke-virtual {v2, p2}, Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;->D2(I)V
 
     :cond_4
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/uz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/xz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     :cond_5
     return-void
@@ -224,7 +224,7 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/uz2;
+    check-cast v3, Lcom/huawei/appmarket/xz2;
 
     invoke-virtual {v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -242,7 +242,7 @@
 
     check-cast v5, Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;
 
-    invoke-static {v5}, Lcom/huawei/appmarket/wb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/yb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -258,7 +258,7 @@
 
     invoke-virtual {v5, v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->K0(Z)V
 
-    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/uz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/xz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     invoke-virtual {v4, v1}, Landroid/view/View;->setVisibility(I)V
 
@@ -291,7 +291,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -312,9 +312,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/uz2;
+    check-cast v1, Lcom/huawei/appmarket/xz2;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -328,7 +328,7 @@
     .registers 6
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/pc4;
+    check-cast p1, Lcom/huawei/appmarket/rc4;
 
     .line 2
     .line 3
@@ -353,7 +353,7 @@
 
     .line 13
     .line 14
-    new-instance v0, Lcom/huawei/appmarket/uz2;
+    new-instance v0, Lcom/huawei/appmarket/xz2;
 
     .line 15
     .line 16
@@ -361,7 +361,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 19
     .line 20
@@ -372,16 +372,16 @@
     const/4 v3, 0x1
 
     .line 23
-    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/uz2;-><init>(Landroid/content/Context;ZI)V
+    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/xz2;-><init>(Landroid/content/Context;ZI)V
 
     .line 24
     .line 25
     .line 26
-    iget-object v1, p1, Lcom/huawei/appmarket/pc4;->v:Landroid/view/View;
+    iget-object v1, p1, Lcom/huawei/appmarket/rc4;->v:Landroid/view/View;
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/uz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 29
     .line 30
@@ -398,7 +398,7 @@
     .line 35
     .line 36
     .line 37
-    new-instance v0, Lcom/huawei/appmarket/uz2;
+    new-instance v0, Lcom/huawei/appmarket/xz2;
 
     .line 38
     .line 39
@@ -406,7 +406,7 @@
 
     .line 40
     .line 41
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 42
     .line 43
@@ -414,16 +414,16 @@
     move-result v2
 
     .line 45
-    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/uz2;-><init>(Landroid/content/Context;ZI)V
+    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/xz2;-><init>(Landroid/content/Context;ZI)V
 
     .line 46
     .line 47
     .line 48
-    iget-object v1, p1, Lcom/huawei/appmarket/pc4;->w:Landroid/view/View;
+    iget-object v1, p1, Lcom/huawei/appmarket/rc4;->w:Landroid/view/View;
 
     .line 49
     .line 50
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/uz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 51
     .line 52
@@ -437,7 +437,7 @@
     .line 56
     .line 57
     .line 58
-    new-instance v0, Lcom/huawei/appmarket/uz2;
+    new-instance v0, Lcom/huawei/appmarket/xz2;
 
     .line 59
     .line 60
@@ -445,7 +445,7 @@
 
     .line 61
     .line 62
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 63
     .line 64
@@ -453,16 +453,16 @@
     move-result v2
 
     .line 66
-    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/uz2;-><init>(Landroid/content/Context;ZI)V
+    invoke-direct {v0, v1, v3, v2}, Lcom/huawei/appmarket/xz2;-><init>(Landroid/content/Context;ZI)V
 
     .line 67
     .line 68
     .line 69
-    iget-object p1, p1, Lcom/huawei/appmarket/pc4;->x:Landroid/view/View;
+    iget-object p1, p1, Lcom/huawei/appmarket/rc4;->x:Landroid/view/View;
 
     .line 70
     .line 71
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/uz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xz2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 72
     .line 73
@@ -514,5 +514,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

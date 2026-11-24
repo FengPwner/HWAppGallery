@@ -206,14 +206,14 @@
     return-object v0
 .end method
 
-.method public analyzInAsyn(Lcom/huawei/hms/mlsdk/common/MLFrame;)Lcom/huawei/appmarket/hv7;
+.method public analyzInAsyn(Lcom/huawei/hms/mlsdk/common/MLFrame;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/mlsdk/common/MLFrame;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/util/List<",
             "Lcom/huawei/hms/ml/scan/HmsScan;",
             ">;>;"
@@ -225,7 +225,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/hms/ml/scan/HmsScanAnalyzer$1;-><init>(Lcom/huawei/hms/ml/scan/HmsScanAnalyzer;Lcom/huawei/hms/mlsdk/common/MLFrame;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

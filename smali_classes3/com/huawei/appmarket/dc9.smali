@@ -1,44 +1,36 @@
-.class public final Lcom/huawei/appmarket/dc9;
-.super Lcom/huawei/appmarket/y39;
+.class public final synthetic Lcom/huawei/appmarket/dc9;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:Lcom/huawei/appmarket/ec9$c;
 
 
 # direct methods
-.method public constructor <init>([Lcom/huawei/appmarket/b09;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/ec9$c;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/y39;-><init>([Lcom/huawei/appmarket/b09;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/dc9;->b:Lcom/huawei/appmarket/ec9$c;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/jb9;)Ljava/lang/Object;
+.method public final run()V
     .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            "E:",
-            "Lcom/huawei/bohr/api/exception/BohrException;",
-            ">(",
-            "Lcom/huawei/appmarket/jb9<",
-            "TR;TE;>;)TR;^TE;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lcom/huawei/appmarket/jb9;->f(Lcom/huawei/appmarket/dc9;)Ljava/lang/Object;
+    iget-object v0, p0, Lcom/huawei/appmarket/dc9;->b:Lcom/huawei/appmarket/ec9$c;
 
-    move-result-object p1
+    invoke-static {v0}, Lcom/huawei/appmarket/ec9$c;->a(Lcom/huawei/appmarket/ec9$c;)V
 
-    return-object p1
+    return-void
 .end method

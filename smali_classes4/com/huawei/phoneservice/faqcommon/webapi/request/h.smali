@@ -5,19 +5,19 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "knowledgeId"
     .end annotation
 .end field
 
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "userAccount"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "channel"
     .end annotation
 .end field

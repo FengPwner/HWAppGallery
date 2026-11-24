@@ -35,13 +35,13 @@
 
     const-string v0, "ISearchSafeAppCardManager"
 
-    const-class v1, Lcom/huawei/appmarket/i14;
+    const-class v1, Lcom/huawei/appmarket/k14;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "ISearchActionHandler"
 
-    const-class v1, Lcom/huawei/appmarket/d14;
+    const-class v1, Lcom/huawei/appmarket/f14;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

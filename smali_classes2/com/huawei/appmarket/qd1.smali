@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nn3;
+.implements Lcom/huawei/appmarket/in3;
 
 
 # direct methods
@@ -17,9 +17,25 @@
 
 
 # virtual methods
-.method public final dispatchByDetailId(Landroid/content/Context;Ljava/lang/String;I)V
-    .registers 4
+.method public final T0()V
+    .registers 1
 
     .line 1
     return-void
+.end method
+
+.method public final m2(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailbase/api/dependent/DetailShareBean;)V
+    .registers 3
+
+    .line 1
+    return-void
+.end method
+
+.method public final n()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, ""
+
+    return-object v0
 .end method

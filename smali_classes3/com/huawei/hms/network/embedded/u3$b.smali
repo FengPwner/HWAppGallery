@@ -50,7 +50,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/b00;->c(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/kd0;->d(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 8
     .line 9
@@ -199,7 +199,7 @@
 
     .line 77
     .line 78
-    invoke-static {v4, v3, v5}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v3, v5}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80

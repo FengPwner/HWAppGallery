@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ju;->c(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/ku;->c(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -111,10 +111,10 @@
 
     const-string v0, "PermissionsActivity"
 
-    invoke-static {v0, p3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/cz5;->a()Lcom/huawei/appmarket/cz5;
+    invoke-static {}, Lcom/huawei/appmarket/ez5;->a()Lcom/huawei/appmarket/ez5;
 
     move-result-object p3
 
@@ -126,7 +126,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/cz5;->c(I[I)V
+    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/ez5;->c(I[I)V
 
     :goto_1
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
@@ -138,7 +138,7 @@
 
     if-ne p3, v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/cz5;->a()Lcom/huawei/appmarket/cz5;
+    invoke-static {}, Lcom/huawei/appmarket/ez5;->a()Lcom/huawei/appmarket/ez5;
 
     move-result-object p3
 
@@ -150,7 +150,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/cz5;->c(I[I)V
+    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/ez5;->c(I[I)V
 
     goto :goto_1
 

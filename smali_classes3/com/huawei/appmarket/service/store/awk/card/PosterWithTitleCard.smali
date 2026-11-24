@@ -164,7 +164,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

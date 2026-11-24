@@ -204,10 +204,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final S(Lcom/huawei/appmarket/ek1;)V
+.method public final S(Lcom/huawei/appmarket/hk1;)V
     .registers 3
 
     .line 1
@@ -215,7 +214,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->U1(Lcom/huawei/appmarket/ek1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->U1(Lcom/huawei/appmarket/hk1;)V
 
     :cond_0
     return-void
@@ -338,7 +337,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final U(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;)V
@@ -537,7 +535,7 @@
     return-void
 .end method
 
-.method public final X(Lcom/huawei/appmarket/wk1;)V
+.method public final X(Lcom/huawei/appmarket/zk1;)V
     .registers 3
 
     .line 1
@@ -545,7 +543,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->c0:Lcom/huawei/appmarket/wk1;
+    iput-object p1, v0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->c0:Lcom/huawei/appmarket/zk1;
 
     .line 4
     .line 5
@@ -651,7 +649,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final Y(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)V
@@ -668,13 +665,13 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/l04;)V
+.method public final Z(Lcom/huawei/appmarket/n04;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgNode;->n:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->e2(Lcom/huawei/appmarket/l04;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->e2(Lcom/huawei/appmarket/n04;)V
 
     return-void
 .end method
@@ -783,13 +780,13 @@
     return-void
 .end method
 
-.method public final e0()Lcom/huawei/appmarket/kj8;
+.method public final e0()Lcom/huawei/appmarket/qj8;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgNode;->n:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->J1()Lcom/huawei/appmarket/kj8;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->J1()Lcom/huawei/appmarket/qj8;
 
     move-result-object v0
 

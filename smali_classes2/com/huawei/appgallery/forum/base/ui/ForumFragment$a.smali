@@ -64,7 +64,7 @@
 
     const-string p1, "handleMessage forumFragment null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -107,7 +107,7 @@
     :goto_0
     const-string p1, "handleMessage activity null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

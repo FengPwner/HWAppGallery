@@ -762,7 +762,7 @@
     const/4 v8, 0x2
 
     .line 150
-    invoke-static {p3, v5, v8, p4}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {p3, v5, v8, p4}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 151
     .line 152
@@ -2234,7 +2234,7 @@
 
     .line 362
     .line 363
-    invoke-static {v2, v8}, Lcom/huawei/appmarket/b00;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+    invoke-static {v2, v8}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
 
     .line 364
     .line 365

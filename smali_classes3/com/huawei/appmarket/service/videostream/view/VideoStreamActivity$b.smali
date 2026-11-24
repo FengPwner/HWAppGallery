@@ -67,7 +67,7 @@
     return v0
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/wh8;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/ci8;
 
     move-result-object v1
 
@@ -79,7 +79,7 @@
 
     iget v3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity$b;->e:I
 
-    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/wh8;->F(IIJLjava/lang/String;)V
+    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/ci8;->F(IIJLjava/lang/String;)V
 
     const/4 v0, 0x1
 

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/tj1;
+.annotation runtime Lcom/huawei/appmarket/wj1;
     name = "hide.card"
 .end annotation
 

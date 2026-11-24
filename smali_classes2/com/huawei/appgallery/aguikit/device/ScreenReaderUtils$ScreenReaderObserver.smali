@@ -79,7 +79,7 @@
 
     const-string v0, "setting change"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/aguikit/device/ScreenReaderUtils$ScreenReaderObserver;->this$0:Lcom/huawei/appgallery/aguikit/device/ScreenReaderUtils;
 

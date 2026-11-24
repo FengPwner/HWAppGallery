@@ -56,7 +56,7 @@
     :goto_0
     iput-boolean v0, p0, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$d;->b:Z
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/bq6;->e(IZ)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/eq6;->e(IZ)Z
 
     move-result p1
 

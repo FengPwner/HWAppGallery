@@ -6,7 +6,7 @@
 # static fields
 .field public static final a:Lcom/huawei/appmarket/bf;
 
-.field private static b:Lcom/huawei/appmarket/ld7;
+.field private static b:Lcom/huawei/appmarket/qd7;
 
 
 # direct methods
@@ -20,13 +20,13 @@
 
     sput-object v0, Lcom/huawei/appmarket/bf;->a:Lcom/huawei/appmarket/bf;
 
-    new-instance v0, Lcom/huawei/appmarket/ld7;
+    new-instance v0, Lcom/huawei/appmarket/qd7;
 
     const-string v1, "agguard_common_config"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/ld7;
+    sput-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/qd7;
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/qd7;
 
     .line 2
     .line 3
@@ -195,13 +195,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static b()V
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/bf;->b:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_upgrade_button_click_status"
 

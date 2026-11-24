@@ -19,7 +19,7 @@
 
 # instance fields
 .field private apps:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -32,7 +32,7 @@
 .end field
 
 .field private engineVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -91,7 +91,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/atomicservice/bean/SyncAppConfigReqBean;->apps:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     return-void
 .end method

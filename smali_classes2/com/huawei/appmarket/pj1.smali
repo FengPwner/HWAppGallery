@@ -12,221 +12,553 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;)Landroid/content/Context;
+.method public static a()V
     .registers 6
 
     .line 1
-    if-nez p0, :cond_0
+    const-string v0, "appdetailcompliancecard"
 
-    return-object p0
-
-    :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/appdetailcompliancecard/DetailComplianceNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/appdetailcompliancecard/DetailComplianceBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailservicecardeuv2"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
 
     move-result-object v0
 
-    new-instance v1, Landroid/content/res/Configuration;
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecardeuv2/DetailServiceEuNode;
 
-    invoke-direct {v1}, Landroid/content/res/Configuration;-><init>()V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
 
-    iget v2, v0, Landroid/content/res/Configuration;->fontScale:F
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceBean;
 
-    const/high16 v3, 0x3f800000    # 1.0f
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
 
-    cmpl-float v4, v2, v3
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
 
-    if-lez v4, :cond_1
+    const-string v0, "appdetailversioncard"
 
-    const/high16 v2, 0x3f800000    # 1.0f
-
-    :cond_1
-    iput v2, v1, Landroid/content/res/Configuration;->fontScale:F
-
-    iget v2, v0, Landroid/content/res/Configuration;->densityDpi:I
-
-    invoke-static {}, Lcom/huawei/appmarket/qu0;->a()I
-
-    move-result v3
-
-    if-le v2, v3, :cond_2
-
-    invoke-static {}, Lcom/huawei/appmarket/qu0;->a()I
-
-    move-result v0
-
-    :goto_0
-    iput v0, v1, Landroid/content/res/Configuration;->densityDpi:I
-
-    goto :goto_1
-
-    :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/zn1;->g(Landroid/content/Context;)Landroid/util/DisplayMetrics;
-
-    move-result-object v2
-
-    iget v2, v2, Landroid/util/DisplayMetrics;->widthPixels:I
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v3
-
-    const v4, 0x7f07035b
-
-    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
-
-    move-result v3
-
-    if-ge v2, v3, :cond_3
-
-    invoke-static {p0}, Lcom/huawei/appmarket/zn1;->g(Landroid/content/Context;)Landroid/util/DisplayMetrics;
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
 
     move-result-object v0
 
-    iget v0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailversioncard/DetailVersionNode;
 
-    div-int/lit16 v0, v0, 0x168
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
 
-    mul-int/lit16 v0, v0, 0xa0
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailversioncard/DetailVersionCardBean;
 
-    goto :goto_0
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
 
-    :cond_3
-    iget v0, v0, Landroid/content/res/Configuration;->densityDpi:I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
 
-    goto :goto_0
+    const-string v0, "appdetailrecordalentitycard"
 
-    :goto_1
-    invoke-virtual {p0, v1}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static b(Landroid/content/Context;)Z
-    .registers 4
-
-    .line 1
-    const/4 v0, 0x0
-
-    if-nez p0, :cond_0
-
-    sget-object p0, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
-
-    const-string v1, "DetailCardUtils"
-
-    const-string v2, "isNeedSlidingAlignment context is null"
-
-    invoke-virtual {p0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    return v0
-
-    :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    invoke-static {p0}, Lcom/huawei/appgallery/aguikit/device/HwConfigurationUtils;->isAgeAdaptMode(Landroid/content/Context;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_1
-
-    const/4 v0, 0x1
-
-    :cond_1
-    return v0
-.end method
-
-.method public static c(Lcom/huawei/appmarket/j1;)V
-    .registers 6
-
-    .line 1
-    if-nez p0, :cond_0
-
-    sget-object p0, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
-
-    const-string v0, "DetailCardUtils"
-
-    const-string v1, "releaseForm, formInfo is null"
-
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/j1;->getFormId()J
-
-    move-result-wide v0
-
-    const-wide/16 v2, 0x0
-
-    cmp-long v4, v0, v2
-
-    if-lez v4, :cond_1
-
-    new-instance v2, Lcom/huawei/appmarket/vz;
-
-    invoke-direct {v2, v0, v1, p0}, Lcom/huawei/appmarket/vz;-><init>(JLcom/huawei/appmarket/j1;)V
-
-    invoke-static {v2}, Lcom/huawei/appmarket/sp1;->a(Ljava/lang/Runnable;)V
-
-    :cond_1
-    return-void
-.end method
-
-.method public static d(ILjava/util/ArrayList;)V
-    .registers 7
-
-    .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lt p0, v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
 
     move-result-object v0
 
-    check-cast v0, Ljava/lang/Long;
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorNode;
 
-    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
 
-    move-result-wide v0
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorCardBean;
 
-    const-wide/16 v2, 0x0
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
 
-    cmp-long v4, v0, v2
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
 
-    if-lez v4, :cond_1
+    const-string v0, "quickservicecard"
 
-    new-instance v2, Lcom/huawei/appmarket/jh8;
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
 
-    invoke-direct {v2, p0, v0, v1, p1}, Lcom/huawei/appmarket/jh8;-><init>(IJLjava/util/ArrayList;)V
+    move-result-object v0
 
-    invoke-static {v2}, Lcom/huawei/appmarket/sp1;->a(Ljava/lang/Runnable;)V
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceNode;
 
-    :cond_1
-    :goto_0
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "reserveappwapdetailsixelementcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/reserveappwapdetailsixelementcard/ReserveAppWapDetailSixElementNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/reserveappwapdetailsixelementcard/ReserveAppWapDetailSixElementCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "detailpermissioncardv1"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/detailpermissioncardv1/DetailPermissionNodeV1;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "detailheadcardv4"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/detailheadcardv4/DetailHeadCardV4Node;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/detailheadcardv4/DetailHeadCardV4Bean;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "wordlistcardv2"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcardv2/WordListNodeV2;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcardv2/WordListCardBeanV2;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "privacyrightscardv1"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyrightscardv1/DetailPrivacyRightsNodeV1;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyrightscardv1/DetailPrivacyRightsCardBean;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailintrocardv2"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailintrocardv2/AppDetailIntroNodeV2;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailbase/card/galleryappdetailintrocard/GalleryDetailAppIntroBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailprivacycard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacycard/DetailPrivacyNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacycard/DetailPrivacyCardBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "detaillabelcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailaboutcardv3"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcardv3/AppDetailAboutNodeV3;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailbase/api/DetailAboutBeanV3;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailwebsitecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebsitecard/DetailWebsiteNode;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebsitecard/DetailWebsiteCardBean;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "detailreportcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/detailreport/DetailReportNode;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/detailreport/DetailReportBean;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailtagcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v5, Lcom/huawei/appgallery/detail/detailcard/card/appdetailtagcard/AppDetailTagNode;
+
+    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "privacyintrocard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyintrocard/DetailPrivacyIntroNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyintrocard/DetailPrivacyIntroCardBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailcustomerservicephonecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailcustomerservicephonecard/DetailCustomerServicePhoneNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailcustomerservicephonecard/DetailCustomerServicePhoneCardBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailcustomerserviceemailcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailcustomerserviceemailcard/DetailCustomerServiceEmailNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailcustomerserviceemailcard/DetailCustomerServiceEmailCardBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetaildevelopercard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetaildevelopercard/DetailDeveloperNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetaildevelopercard/DetailDeveloperCardBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailaboutcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcard/AppDetailAboutNode;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcard/DetailAboutBean;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailaboutcardv2"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcardv2/AppDetailAboutNodeV2;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcardv2/DetailAboutBeanV2;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "privacyrightscardv2"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v4, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyrightscardv2/DetailPrivacyRightsNodeV2;
+
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "wordlistcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcard/WordListNode;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcard/WordListCardBean;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "detailpermissioncard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v3, Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionNode;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "privacyscenecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "privacyentrancecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyentrancecard/DetailPrivacyEntranceNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyentrancecard/DetailPrivacyEntranceCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "orderdetailversioninfocard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/orderdetailversioninfocard/OrderDetailVersionInfoNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/orderdetailversioninfocard/OrderDetailVersionInfoBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "relatedpersonaldatacard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetaildynamicdatacard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetaildynamicdatacard/DetailDynamicDataNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetaildynamicdatacard/DetailDynamicDataCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailprovidercard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprovidercard/DetailProviderNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprovidercard/DetailProviderCardBean;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailservicecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "appdetailinformationflowcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowItemCard;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->d(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/detail/detailbase/api/DetailInformationFlowItemBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->c(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
     return-void
 .end method

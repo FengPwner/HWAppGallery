@@ -29,7 +29,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 2
     .line 3
@@ -58,12 +58,12 @@
 
     .line 15
     .line 16
-    invoke-static {v1, v3, v0, v4}, Lcom/huawei/appmarket/om5;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/fu5;Ljava/lang/String;)V
+    invoke-static {v1, v3, v0, v4}, Lcom/huawei/appmarket/uq5;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/hu5;Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    sget-object v0, Lcom/huawei/appmarket/mu5;->a:Lcom/huawei/appmarket/tw0;
+    sget-object v0, Lcom/huawei/appmarket/ou5;->a:Lcom/huawei/appmarket/tw0;
 
     .line 20
     .line 21
@@ -224,7 +224,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 2
     .line 3
@@ -294,12 +294,12 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
     .line 42
-    sget-object v0, Lcom/huawei/appmarket/mu5;->a:Lcom/huawei/appmarket/tw0;
+    sget-object v0, Lcom/huawei/appmarket/ou5;->a:Lcom/huawei/appmarket/tw0;
 
     .line 43
     .line 44
@@ -476,5 +476,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

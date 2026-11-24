@@ -62,7 +62,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object p1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 6
     .line 7
@@ -74,7 +74,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -92,7 +92,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/cx5;->f()Lcom/huawei/appmarket/cx5;
+    invoke-static {}, Lcom/huawei/appmarket/ex5;->f()Lcom/huawei/appmarket/ex5;
 
     .line 22
     .line 23
@@ -104,12 +104,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/cx5;->a(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex5;->a(Ljava/util/List;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {}, Lcom/huawei/appmarket/cx5;->f()Lcom/huawei/appmarket/cx5;
+    invoke-static {}, Lcom/huawei/appmarket/ex5;->f()Lcom/huawei/appmarket/ex5;
 
     .line 31
     .line 32
@@ -121,7 +121,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/cx5;->b(Ljava/util/List;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ex5;->b(Ljava/util/List;)V
 
     .line 37
     .line 38
@@ -252,5 +252,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

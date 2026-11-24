@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/otaupdate/activity/d;->b:Lcom/huawei/appmarket/service/otaupdate/activity/OtaAppDownloadActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v1
 

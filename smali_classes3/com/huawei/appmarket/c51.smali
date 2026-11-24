@@ -49,7 +49,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -103,7 +103,7 @@
 
     .line 43
     .line 44
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -127,7 +127,7 @@
 
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -189,7 +189,7 @@
     move-result-object p1
 
     .line 87
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 88
     .line 89
@@ -261,7 +261,7 @@
     move-result-object p1
 
     .line 123
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 124
     .line 125
@@ -345,7 +345,7 @@
     move-result-object p0
 
     .line 162
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 163
     .line 164
@@ -383,7 +383,7 @@
 
     .line 180
     :cond_7
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 181
     .line 182
@@ -450,7 +450,7 @@
 
     .line 210
     .line 211
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 212
     .line 213
@@ -529,7 +529,7 @@
     move-result-object v2
 
     .line 248
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 249
     .line 250
@@ -595,7 +595,7 @@
     div-long/2addr p0, v2
 
     .line 280
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 281
     .line 282
@@ -658,7 +658,7 @@
     move-result-object p0
 
     .line 309
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 310
     .line 311
@@ -1213,25 +1213,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method private static b(D)Ljava/lang/String;

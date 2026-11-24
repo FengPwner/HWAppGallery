@@ -52,7 +52,7 @@
     move-result-object v0
 
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -68,7 +68,7 @@
 
     const-string v2, "ConntentRestrictDelegateUtils"
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -124,7 +124,7 @@
     move-result-object v0
 
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -140,7 +140,7 @@
 
     const-string v3, "ConntentRestrictDelegateUtils"
 
-    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 

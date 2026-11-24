@@ -104,7 +104,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {v1}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -360,7 +360,7 @@
     move-result-object v2
 
     .line 47
-    invoke-static {v2}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     .line 48
     .line 49
@@ -469,7 +469,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getDbName()Ljava/lang/String;

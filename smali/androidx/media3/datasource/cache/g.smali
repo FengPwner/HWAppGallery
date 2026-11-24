@@ -34,7 +34,7 @@
     .line 1
     iget-boolean v0, p0, Landroidx/media3/datasource/cache/g;->b:Z
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     iput-object p1, p0, Ljava/io/BufferedOutputStream;->out:Ljava/io/OutputStream;
 
@@ -118,7 +118,7 @@
 
     .line 23
     :cond_1
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 24
     .line 25
@@ -233,4 +233,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

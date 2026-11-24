@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/nd0;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/od0;",
         ">;"
     }
 .end annotation
@@ -38,29 +38,29 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/nd0;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/od0;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/nd0;
+    check-cast p1, Lcom/huawei/appmarket/od0;
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/message/fragment/c;->c:Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;
 
@@ -130,7 +130,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, p1, v2}, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;->I6(Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;Lcom/huawei/appmarket/nd0;Ljava/util/List;)V
+    invoke-static {v0, p1, v2}, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;->I6(Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;Lcom/huawei/appmarket/od0;Ljava/util/List;)V
 
     :cond_2
     invoke-static {v0, v1}, Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;->A6(Lcom/huawei/appgallery/forum/message/fragment/MessageHomeFragment;Lcom/huawei/appgallery/forum/base/api/JGWTabDetailResponse;)V

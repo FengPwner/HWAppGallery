@@ -22,7 +22,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ox7;->a(Ljava/util/Locale;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/tx7;->a(Ljava/util/Locale;)I
 
     move-result v0
 
@@ -72,7 +72,7 @@
     int-to-float v1, v1
 
     .line 14
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 15
     .line 16
@@ -99,7 +99,7 @@
     int-to-float v2, v2
 
     .line 27
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 28
     .line 29
@@ -126,7 +126,7 @@
     int-to-float v3, v3
 
     .line 40
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 41
     .line 42
@@ -153,7 +153,7 @@
     int-to-float p2, p2
 
     .line 53
-    invoke-static {v3, p2}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v3, p2}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 54
     .line 55
@@ -304,5 +304,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

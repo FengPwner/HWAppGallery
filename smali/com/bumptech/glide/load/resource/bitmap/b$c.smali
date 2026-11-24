@@ -30,11 +30,11 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/huawei/appmarket/hx;
+.field private final c:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method constructor <init>(Ljava/io/File;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Ljava/io/File;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +43,7 @@
             "Ljava/util/List<",
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")V"
         }
     .end annotation
@@ -55,7 +55,7 @@
 
     iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->b:Ljava/util/List;
 
-    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/hx;
+    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/ix;
 
     return-void
 .end method
@@ -74,7 +74,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    new-instance v1, Lcom/huawei/appmarket/vk6;
+    new-instance v1, Lcom/huawei/appmarket/xk6;
 
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -82,9 +82,9 @@
 
     invoke-direct {v2, v3}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    iget-object v3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/hx;
+    iget-object v3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -96,7 +96,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :try_start_2
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -117,7 +117,7 @@
     if-eqz v0, :cond_0
 
     :try_start_3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -142,12 +142,12 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/hx;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/ix;
 
     const/4 v1, 0x0
 
     :try_start_0
-    new-instance v2, Lcom/huawei/appmarket/vk6;
+    new-instance v2, Lcom/huawei/appmarket/xk6;
 
     new-instance v3, Ljava/io/FileInputStream;
 
@@ -155,21 +155,21 @@
 
     invoke-direct {v3, v4}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     :try_start_1
     iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->b:Ljava/util/List;
 
-    invoke-static {v2, v1, v0}, Lcom/bumptech/glide/load/b;->a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v2, v1, v0}, Lcom/bumptech/glide/load/b;->a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)I
 
     move-result v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :try_start_2
-    invoke-virtual {v2}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -190,7 +190,7 @@
     if-eqz v1, :cond_0
 
     :try_start_3
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -208,12 +208,12 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/hx;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->c:Lcom/huawei/appmarket/ix;
 
     const/4 v1, 0x0
 
     :try_start_0
-    new-instance v2, Lcom/huawei/appmarket/vk6;
+    new-instance v2, Lcom/huawei/appmarket/xk6;
 
     new-instance v3, Ljava/io/FileInputStream;
 
@@ -221,21 +221,21 @@
 
     invoke-direct {v3, v4}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v2, v3, v0}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     :try_start_1
     iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$c;->b:Ljava/util/List;
 
-    invoke-static {v2, v1, v0}, Lcom/bumptech/glide/load/b;->e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-static {v2, v1, v0}, Lcom/bumptech/glide/load/b;->e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :try_start_2
-    invoke-virtual {v2}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -256,7 +256,7 @@
     if-eqz v1, :cond_0
 
     :try_start_3
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vk6;->close()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xk6;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 

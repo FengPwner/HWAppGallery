@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ku6;
+.implements Lcom/huawei/appmarket/ou6;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ku6<",
+        "Lcom/huawei/appmarket/ou6<",
         "Landroid/graphics/Bitmap;",
         "Landroid/graphics/drawable/BitmapDrawable;",
         ">;"
@@ -71,17 +71,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/cu6;Lcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public final a(Lcom/huawei/appmarket/gu6;Lcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/drawable/BitmapDrawable;",
             ">;"
         }
@@ -90,7 +90,7 @@
     .line 1
     iget-object p2, p0, Lcom/bumptech/glide/load/resource/transcode/BitmapDrawableTranscoder;->a:Landroid/content/res/Resources;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/dt4;->c(Landroid/content/res/Resources;Lcom/huawei/appmarket/cu6;)Lcom/huawei/appmarket/dt4;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gt4;->c(Landroid/content/res/Resources;Lcom/huawei/appmarket/gu6;)Lcom/huawei/appmarket/gt4;
 
     move-result-object p1
 

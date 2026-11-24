@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -63,7 +63,7 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/vn;->a:Lcom/huawei/appmarket/vn;
+    sget-object p2, Lcom/huawei/appmarket/un;->a:Lcom/huawei/appmarket/un;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -83,7 +83,7 @@
 
     const-string p3, "ApkMActivityTag"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

@@ -689,7 +689,7 @@
 
     const-string v1, "getLaunchActivities failed, result is:"
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -1015,7 +1015,7 @@
     .line 5
     const-string v0, "getHapModuleInfos failed, error code is: "
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -1253,7 +1253,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -1455,7 +1455,7 @@
     goto/16 :goto_7
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -1719,7 +1719,7 @@
     .line 8
     const-string v0, "getAllMixPkgExitBundles failed error code is: "
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -1977,7 +1977,7 @@
     throw p1
 .end method
 
-.method public a(Ljava/lang/String;Lcom/huawei/ohos/localability/base/InstallParam;Lcom/huawei/appmarket/et3;)V
+.method public a(Ljava/lang/String;Lcom/huawei/ohos/localability/base/InstallParam;Lcom/huawei/appmarket/gt3;)V
     .registers 10
 
     .line 11
@@ -2117,7 +2117,7 @@
     throw p1
 .end method
 
-.method public a(Landroid/content/Context;Ljava/util/ArrayList;Lcom/huawei/ohos/localability/base/InstallParam;Lcom/huawei/appmarket/et3;)Z
+.method public a(Landroid/content/Context;Ljava/util/ArrayList;Lcom/huawei/ohos/localability/base/InstallParam;Lcom/huawei/appmarket/gt3;)Z
     .registers 15
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2127,7 +2127,7 @@
             "Ljava/lang/String;",
             ">;",
             "Lcom/huawei/ohos/localability/base/InstallParam;",
-            "Lcom/huawei/appmarket/et3;",
+            "Lcom/huawei/appmarket/gt3;",
             ")Z"
         }
     .end annotation
@@ -2679,7 +2679,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v6, "writeFileToStreamer: hapFile:"
+    const-string/jumbo v6, "writeFileToStreamer: hapFile:"
 
     invoke-direct {v3, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2693,7 +2693,7 @@
 
     if-nez v2, :cond_16
 
-    const-string p2, "writeFileToStreamer: installFactory or hapFile is null"
+    const-string/jumbo p2, "writeFileToStreamer: installFactory or hapFile is null"
 
     :goto_12
     invoke-static {v0, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
@@ -2715,7 +2715,7 @@
 
     if-eqz v6, :cond_17
 
-    const-string p2, "writeFileToStreamer: fileName is empty"
+    const-string/jumbo p2, "writeFileToStreamer: fileName is empty"
 
     goto :goto_12
 
@@ -2831,7 +2831,7 @@
     :goto_16
     if-nez v8, :cond_1a
 
-    const-string p2, "writeFileToStreamer: os is null."
+    const-string/jumbo p2, "writeFileToStreamer: os is null."
 
     goto :goto_12
 
@@ -2892,7 +2892,7 @@
 
     invoke-static {v2}, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->a(Ljava/io/Closeable;)V
 
-    const-string v2, "writeFileToStreamer: success"
+    const-string/jumbo v2, "writeFileToStreamer: success"
 
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -2929,7 +2929,7 @@
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p4, "writeFileToStreamer IOException:"
+    const-string/jumbo p4, "writeFileToStreamer IOException:"
 
     invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2953,7 +2953,7 @@
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p4, "writeFileToStreamer FileNotFoundException:"
+    const-string/jumbo p4, "writeFileToStreamer FileNotFoundException:"
 
     invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -3004,7 +3004,7 @@
 
     invoke-static {v0, p3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-virtual {p0, p2, p4}, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->a(Landroid/os/IBinder;Lcom/huawei/appmarket/et3;)Z
+    invoke-virtual {p0, p2, p4}, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->a(Landroid/os/IBinder;Lcom/huawei/appmarket/gt3;)Z
 
     move-result p2
 
@@ -3041,7 +3041,7 @@
     return v1
 .end method
 
-.method public final a(Landroid/os/IBinder;Lcom/huawei/appmarket/et3;)Z
+.method public final a(Landroid/os/IBinder;Lcom/huawei/appmarket/gt3;)Z
     .registers 9
 
     .line 13
@@ -3267,7 +3267,7 @@
 
     const-string v1, "setSyncInfo failed, result is:"
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -3424,7 +3424,7 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -3604,7 +3604,7 @@
 
     if-gt p3, v2, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -3765,7 +3765,7 @@
     .line 18
     const-string v0, "getBmsProxy transact accur exception:"
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -3884,7 +3884,7 @@
 
     const-string v1, "updateWhiteList failed, result is:"
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -4017,7 +4017,7 @@
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "whiteList is null"
+    const-string/jumbo v0, "whiteList is null"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -4038,7 +4038,7 @@
     .line 2
     const-string v0, "getBundleInfos failed, error code is: "
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4310,7 +4310,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -4320,7 +4320,7 @@
 
     invoke-static {v3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -4366,7 +4366,7 @@
 
     invoke-static {v3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_0
@@ -4406,7 +4406,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/xy;->j(Ljava/lang/String;)Ljava/util/Optional;
+    invoke-static {p1}, Lcom/huawei/appmarket/yy;->j(Ljava/lang/String;)Ljava/util/Optional;
 
     move-result-object p1
     :try_end_1
@@ -4422,7 +4422,7 @@
     :cond_4
     :goto_0
     :try_start_2
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_2
@@ -4449,7 +4449,7 @@
 
     invoke-static {v3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_3
@@ -4474,7 +4474,7 @@
 
     invoke-static {v3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -4499,7 +4499,7 @@
     const-string v1, "get bundle manager version code: "
 
     .line 4
-    sget-object v2, Lcom/huawei/appmarket/bz8;->c:Ljava/lang/String;
+    sget-object v2, Lcom/huawei/appmarket/hz8;->c:Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -4511,7 +4511,7 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -4574,18 +4574,18 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/huawei/appmarket/bz8;->c:Ljava/lang/String;
+    sput-object v2, Lcom/huawei/appmarket/hz8;->c:Ljava/lang/String;
 
     if-nez v2, :cond_2
 
-    sput-object v5, Lcom/huawei/appmarket/bz8;->c:Ljava/lang/String;
+    sput-object v5, Lcom/huawei/appmarket/hz8;->c:Ljava/lang/String;
 
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v1, Lcom/huawei/appmarket/bz8;->c:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/hz8;->c:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -4639,7 +4639,7 @@
 
     :cond_3
     :goto_4
-    sget-object v1, Lcom/huawei/appmarket/bz8;->c:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/hz8;->c:Ljava/lang/String;
 
     .line 5
     :goto_5
@@ -4675,7 +4675,7 @@
     goto/16 :goto_9
 
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4685,7 +4685,7 @@
 
     invoke-static {v5, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -4729,7 +4729,7 @@
 
     invoke-static {v5, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_2
@@ -4772,7 +4772,7 @@
     if-nez p1, :cond_a
 
     :cond_9
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_3
@@ -4801,7 +4801,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/ohos/localability/base/BundleInfo;-><init>(Lcom/huawei/ohos/localability/base/d;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/xy;->i(Lcom/huawei/ohos/localability/base/BundleInfo;)Ljava/util/Optional;
+    invoke-static {p2}, Lcom/huawei/appmarket/yy;->i(Lcom/huawei/ohos/localability/base/BundleInfo;)Ljava/util/Optional;
 
     move-result-object p1
     :try_end_4
@@ -4837,7 +4837,7 @@
 
     invoke-static {v5, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_5
@@ -4862,7 +4862,7 @@
 
     invoke-static {v5, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -4874,7 +4874,7 @@
 
     invoke-static {v5, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -4889,7 +4889,7 @@
 
     const-string v1, "getBundleInstaller failed, result is"
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -5057,7 +5057,7 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -5150,7 +5150,7 @@
     .registers 8
 
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -5255,7 +5255,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -5482,7 +5482,7 @@
     return-object v2
 .end method
 
-.method public d()Lcom/huawei/appmarket/bn1;
+.method public d()Lcom/huawei/appmarket/en1;
     .registers 6
 
     .line 2
@@ -5559,7 +5559,7 @@
     goto :goto_0
 
     :sswitch_2
-    const-string v3, "watch"
+    const-string/jumbo v3, "watch"
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -5588,7 +5588,7 @@
     goto :goto_1
 
     :pswitch_2
-    const-string v0, "wearable"
+    const-string/jumbo v0, "wearable"
 
     :cond_3
     :goto_1
@@ -5636,9 +5636,9 @@
     move-result v1
 
     :cond_5
-    new-instance v2, Lcom/huawei/appmarket/bn1;
+    new-instance v2, Lcom/huawei/appmarket/en1;
 
-    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/bn1;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/en1;-><init>(Ljava/lang/String;I)V
 
     return-object v2
 
@@ -5693,7 +5693,7 @@
     return v2
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v4
 
@@ -5834,7 +5834,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -5844,7 +5844,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -5890,7 +5890,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_0
@@ -5930,7 +5930,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/xy;->j(Ljava/lang/String;)Ljava/util/Optional;
+    invoke-static {p1}, Lcom/huawei/appmarket/yy;->j(Ljava/lang/String;)Ljava/util/Optional;
 
     move-result-object p1
     :try_end_1
@@ -5946,7 +5946,7 @@
     :cond_4
     :goto_0
     :try_start_2
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_2
@@ -5973,7 +5973,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_3
@@ -5998,7 +5998,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -6013,7 +6013,7 @@
 
     const-string v1, "syncBundles failed, result is "
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -6175,7 +6175,7 @@
     .line 1
     const-string v0, "getBundleInfos failed error code is: "
 
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -6361,7 +6361,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6371,7 +6371,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -6417,7 +6417,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_0
@@ -6457,7 +6457,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/xy;->j(Ljava/lang/String;)Ljava/util/Optional;
+    invoke-static {p1}, Lcom/huawei/appmarket/yy;->j(Ljava/lang/String;)Ljava/util/Optional;
 
     move-result-object p1
     :try_end_1
@@ -6473,7 +6473,7 @@
     :cond_4
     :goto_0
     :try_start_2
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_2
@@ -6500,7 +6500,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_3
@@ -6525,7 +6525,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -6567,7 +6567,7 @@
     goto/16 :goto_2
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v4
 
@@ -6969,7 +6969,7 @@
     goto/16 :goto_2
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6979,7 +6979,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -7025,7 +7025,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_0
@@ -7058,7 +7058,7 @@
 
     check-cast p1, Lcom/huawei/ohos/localability/base/AssociationInfo;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/xy;->h(Lcom/huawei/ohos/localability/base/AssociationInfo;)Ljava/util/Optional;
+    invoke-static {p1}, Lcom/huawei/appmarket/yy;->h(Lcom/huawei/ohos/localability/base/AssociationInfo;)Ljava/util/Optional;
 
     move-result-object p1
     :try_end_1
@@ -7085,7 +7085,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
     :try_end_2
@@ -7110,7 +7110,7 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p1
 
@@ -7206,7 +7206,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bz8;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/hz8;->a()Landroid/os/IBinder;
 
     move-result-object v3
 

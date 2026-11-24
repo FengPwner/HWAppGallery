@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d$a;->v:Ljava/lang/ref/WeakReference;
 
-    const p2, 0x7f0a1615
+    const p2, 0x7f0a1616
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/foundation/store/bean/spilt/GetApksInfoRequest;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -43,7 +43,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 

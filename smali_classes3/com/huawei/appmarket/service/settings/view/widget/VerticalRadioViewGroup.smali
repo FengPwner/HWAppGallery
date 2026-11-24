@@ -20,7 +20,7 @@
 
 .field private d:Z
 
-.field private e:Lcom/huawei/appmarket/zn5;
+.field private e:Lcom/huawei/appmarket/ao5;
 
 .field private f:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup$c;
 
@@ -233,18 +233,18 @@
 
     const-string v0, "checkedId not change"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     iput p1, p0, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->b:I
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->e:Lcom/huawei/appmarket/zn5;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->e:Lcom/huawei/appmarket/ao5;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/zn5;->f(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;I)V
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/ao5;->f(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;I)V
 
     :cond_1
     return-void
@@ -457,11 +457,11 @@
     return-void
 .end method
 
-.method public setOnCheckedChangeListener(Lcom/huawei/appmarket/zn5;)V
+.method public setOnCheckedChangeListener(Lcom/huawei/appmarket/ao5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->e:Lcom/huawei/appmarket/zn5;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->e:Lcom/huawei/appmarket/ao5;
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i04;
+.implements Lcom/huawei/appmarket/k04;
 
 
 # annotations
@@ -32,7 +32,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/ak0;",
+            "Lcom/huawei/appmarket/bk0;",
             ">;"
         }
     .end annotation
@@ -52,7 +52,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/bean/HorizontalCourseItemCardBean;Lcom/huawei/appmarket/ak0;Landroid/content/Context;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/bean/HorizontalCourseItemCardBean;Lcom/huawei/appmarket/bk0;Landroid/content/Context;)V
     .registers 5
 
     .line 1
@@ -139,7 +139,7 @@
     move-result-object v1
 
     .line 24
-    check-cast v1, Lcom/huawei/appmarket/ak0;
+    check-cast v1, Lcom/huawei/appmarket/bk0;
 
     .line 25
     .line 26
@@ -280,7 +280,7 @@
     .line 92
     .line 93
     :cond_2
-    new-instance p1, Lcom/huawei/appmarket/fl0$b;
+    new-instance p1, Lcom/huawei/appmarket/gl0$b;
 
     .line 94
     .line 95
@@ -292,12 +292,12 @@
     move-result-object v1
 
     .line 99
-    invoke-direct {p1, v1}, Lcom/huawei/appmarket/fl0$b;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-direct {p1, v1}, Lcom/huawei/appmarket/gl0$b;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     .line 100
     .line 101
     .line 102
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fl0$b;->m()Lcom/huawei/appmarket/fl0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gl0$b;->m()Lcom/huawei/appmarket/gl0;
 
     .line 103
     .line 104
@@ -305,7 +305,7 @@
     move-result-object p1
 
     .line 106
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/el0;->a(Landroid/content/Context;Lcom/huawei/appmarket/fl0;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/fl0;->a(Landroid/content/Context;Lcom/huawei/appmarket/gl0;)V
 
     .line 107
     .line 108
@@ -318,7 +318,7 @@
     const/4 p1, 0x0
 
     .line 111
-    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 112
     .line 113
@@ -326,5 +326,4 @@
     :cond_4
     :goto_1
     return-void
-    .line 115
 .end method

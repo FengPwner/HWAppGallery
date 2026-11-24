@@ -138,9 +138,9 @@
     .registers 2
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/jl0;
+    new-instance v0, Lcom/huawei/appmarket/kl0;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jl0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kl0;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/grs/CardServerConfig;->setHAUrl(Lcom/huawei/quickcard/base/interfaces/ICardHAUrl;)V
 
@@ -158,9 +158,9 @@
 .method public static setNetworkAccess(Z)V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/kl0;
+    new-instance v0, Lcom/huawei/appmarket/ll0;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kl0;-><init>(Z)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/ll0;-><init>(Z)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/grs/CardServerConfig;->setNetworkAccessProvider(Lcom/huawei/quickcard/base/grs/INetworkAccessProvider;)V
 
@@ -178,9 +178,9 @@
 .method public static setServiceCountry(Ljava/lang/String;)V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/jl0;
+    new-instance v0, Lcom/huawei/appmarket/kl0;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jl0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kl0;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/grs/CardServerConfig;->setServiceCountryProvider(Lcom/huawei/quickcard/base/grs/IServiceCountryProvider;)V
 
@@ -214,9 +214,9 @@
     .registers 2
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/jl0;
+    new-instance v0, Lcom/huawei/appmarket/kl0;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jl0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kl0;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/grs/CardServerConfig;->setUrl(Lcom/huawei/quickcard/base/grs/ICardServerUrl;)V
 

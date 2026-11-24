@@ -15,33 +15,33 @@
 .method public static setDependence()V
     .registers 1
 
-    new-instance v0, Lcom/huawei/appmarket/pe9;
+    new-instance v0, Lcom/huawei/appmarket/we9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/pe9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/we9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/sha/ShaUtils;->setSha(Lcom/huawei/quickcard/cardmanager/sha/SHA;)V
 
-    new-instance v0, Lcom/huawei/appmarket/rb9;
+    new-instance v0, Lcom/huawei/appmarket/yb9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/rb9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/yb9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/http/ManagerHttpClientUtil;->setHttpClient(Lcom/huawei/quickcard/cardmanager/http/ManagerHttpClient;)V
 
-    new-instance v0, Lcom/huawei/appmarket/xd9;
+    new-instance v0, Lcom/huawei/appmarket/ee9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/xd9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ee9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/bi/CardReporterUtil;->setReporter(Lcom/huawei/quickcard/cardmanager/bi/Reporter;)V
 
-    new-instance v0, Lcom/huawei/appmarket/de9;
+    new-instance v0, Lcom/huawei/appmarket/ke9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/de9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ke9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/http/CardServerUtil;->setCardServer(Lcom/huawei/quickcard/cardmanager/http/CardServer;)V
 
-    new-instance v0, Lcom/huawei/appmarket/td9;
+    new-instance v0, Lcom/huawei/appmarket/ae9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/td9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ae9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/http/ServerConfigUtil;->setServerConfig(Lcom/huawei/quickcard/cardmanager/http/ServerConfig;)V
 
@@ -55,9 +55,9 @@
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/task/TaskThreadUtil;->setWorker(Ljava/util/concurrent/Executor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ig9;
+    new-instance v0, Lcom/huawei/appmarket/pg9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ig9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/pg9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/config/VersionUtils;->setVersionConfig(Lcom/huawei/quickcard/cardmanager/config/VersionConfig;)V
 
@@ -67,9 +67,9 @@
 .method public static setPrintLog()V
     .registers 1
 
-    new-instance v0, Lcom/huawei/appmarket/fg9;
+    new-instance v0, Lcom/huawei/appmarket/mg9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/fg9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/mg9;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->setManagerLog(Lcom/huawei/quickcard/cardmanager/log/ManagerLog;)V
 

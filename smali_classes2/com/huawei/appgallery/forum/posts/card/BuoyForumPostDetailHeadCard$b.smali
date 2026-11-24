@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/posts/card/BuoyForumPostDetailHeadCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/card/BuoyForumPostDetailHeadCard$b;->b:Lcom/huawei/appgallery/forum/posts/card/BuoyForumPostDetailHeadCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -81,7 +81,7 @@
 
     .line 19
     :goto_0
-    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/forum/posts/card/BuoyForumPostDetailHeadCard;->w1(I)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/forum/posts/card/BuoyForumPostDetailHeadCard;->w1(I)Lcom/huawei/appmarket/nv7;
 
     .line 20
     .line 21
@@ -98,7 +98,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 29
     .line 30
@@ -180,5 +180,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

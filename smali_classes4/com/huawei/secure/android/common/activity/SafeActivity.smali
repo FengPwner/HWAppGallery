@@ -45,7 +45,7 @@
 
     const-string v1, "SafeActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -82,7 +82,7 @@
 
     const-string v2, "SafeActivity"
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -125,7 +125,7 @@
 
     const-string v1, "SafeActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
@@ -171,7 +171,7 @@
 
     const-string v1, "SafeActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -213,7 +213,7 @@
 
     const-string p3, "SafeActivity"
 
-    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -228,7 +228,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result p1
 
@@ -271,7 +271,7 @@
 
     const-string v1, "SafeActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -280,7 +280,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .registers 4
 
-    invoke-static {p1}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -290,7 +290,7 @@
 
     const-string v1, "onNewIntent : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0, p1}, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
@@ -305,7 +305,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -315,7 +315,7 @@
 
     const-string v1, "onRestart : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onRestart()V
@@ -330,7 +330,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -340,7 +340,7 @@
 
     const-string v1, "onResume : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
@@ -355,7 +355,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -365,7 +365,7 @@
 
     const-string v1, "onStart : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
@@ -380,7 +380,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/si4;->a(Landroid/content/Intent;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ui4;->a(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -390,7 +390,7 @@
 
     const-string v1, "onStop : hasIntentBomb"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onStop()V
@@ -430,7 +430,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -468,7 +468,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -506,7 +506,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/cx8;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ix8;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -544,7 +544,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -582,7 +582,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -620,7 +620,7 @@
 
     const-string p3, "SafeActivity"
 
-    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {p3, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -659,7 +659,7 @@
 
     const-string v0, "SafeActivity"
 
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/cx8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/ix8;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 p1, 0x0
 

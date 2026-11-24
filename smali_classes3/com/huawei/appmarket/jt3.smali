@@ -4,20 +4,20 @@
 
 
 # virtual methods
-.method public abstract getCardShowTime()J
+.method public abstract getAppId()Ljava/lang/String;
 .end method
 
-.method public abstract getInteractiveRecommResponse()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
+.method public abstract getCardContainer()Landroid/view/View;
 .end method
 
-.method public abstract getLayoutID()Ljava/lang/String;
+.method public abstract getExpandLayout()Landroid/view/View;
 .end method
 
-.method public abstract getPreRecommResponse()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
+.method public abstract getInterRecommendNode()Lcom/huawei/appmarket/n30;
 .end method
 
-.method public abstract setInteractiveRecommResponse(Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;)V
+.method public abstract getListViewChild()Landroid/view/View;
 .end method
 
-.method public abstract setPreRecommResponse(Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;)V
+.method public abstract releaseRecommend()V
 .end method

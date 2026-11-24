@@ -406,11 +406,11 @@
     :cond_7
     sget-object v6, Lcom/koushikdutta/quack/QuackContext;->javaObjectMethodCandidates:Lcom/koushikdutta/quack/Memoize;
 
-    new-instance v7, Lcom/huawei/appmarket/jm5;
+    new-instance v7, Lcom/huawei/appmarket/lm5;
 
     const/16 v8, 0x17
 
-    invoke-direct {v7, v8, p0, v2, v3}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v7, v8, p0, v2, v3}, Lcom/huawei/appmarket/lm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     iget-object v2, p0, Lcom/koushikdutta/quack/JavaMethodObject;->target:Ljava/lang/String;
 
@@ -740,7 +740,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->b(Lcom/koushikdutta/quack/QuackObject;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->b(Lcom/koushikdutta/quack/QuackObject;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -826,7 +826,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -837,7 +837,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/ed6;->e(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/gd6;->e(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

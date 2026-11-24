@@ -68,7 +68,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/cb7;->a()Lcom/huawei/appmarket/cb7;
+    invoke-static {}, Lcom/huawei/appmarket/hb7;->a()Lcom/huawei/appmarket/hb7;
 
     move-result-object v1
 
@@ -78,7 +78,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/cb7;->c(Ljava/lang/Boolean;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/hb7;->c(Ljava/lang/Boolean;)V
 
     const-string v0, "1"
 
@@ -92,13 +92,13 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o82;->f()V
 
     const/4 v0, 0x1
 
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
@@ -115,11 +115,11 @@
 
     if-eqz v1, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -131,7 +131,7 @@
 
     const-string v1, "dialog is showing or dialog is null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -142,17 +142,17 @@
 
     const-string v1, "AGDialog"
 
-    const-class v3, Lcom/huawei/appmarket/fh3;
+    const-class v3, Lcom/huawei/appmarket/hh3;
 
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fh3;
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->H3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;Lcom/huawei/appmarket/fh3;)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->H3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;Lcom/huawei/appmarket/hh3;)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
@@ -162,9 +162,9 @@
 
     move-result-object v3
 
-    invoke-interface {v1, v3}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v3}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
@@ -174,9 +174,9 @@
 
     move-result-object v3
 
-    invoke-interface {v1, v3}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v1, v3}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
@@ -184,9 +184,9 @@
 
     invoke-direct {v3, p0, v0}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a$a;-><init>(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a;Z)V
 
-    invoke-interface {v1, v3}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v3}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v0
 
@@ -194,9 +194,9 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a$b;-><init>(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a;)V
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->G3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object p1
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :goto_0
     return-void

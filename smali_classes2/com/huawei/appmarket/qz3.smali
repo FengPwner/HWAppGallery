@@ -4,5 +4,20 @@
 
 
 # virtual methods
-.method public abstract clearCache()V
+.method public abstract close()V
+.end method
+
+.method public abstract o(Ljava/lang/String;Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyRequest;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/mw7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyRequest;",
+            "Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;",
+            ")",
+            "Lcom/huawei/appmarket/mw7<",
+            "Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyCallback;",
+            ">;"
+        }
+    .end annotation
 .end method

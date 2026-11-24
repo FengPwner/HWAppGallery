@@ -18,15 +18,15 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->c(I)V
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 2
     .line 3
@@ -71,7 +71,7 @@
     move-result p1
 
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->a()I
 
     .line 14
     .line 15
@@ -242,7 +242,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -253,13 +252,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tb3;->a()I
 
     move-result v0
 

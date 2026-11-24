@@ -54,11 +54,11 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/sk0;
+    check-cast p2, Lcom/huawei/appmarket/tk0;
 
     const/4 p3, 0x0
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/sk0;->v(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/tk0;->v(Lcom/huawei/appmarket/bk0;)V
 
     iget-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->H0:Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 

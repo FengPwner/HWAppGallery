@@ -1,54 +1,44 @@
 .class public final Lcom/huawei/appmarket/ga9;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/d29;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ga9$b;
-    }
-.end annotation
-
-
-# instance fields
-.field private a:Landroid/view/View;
-
-
 # direct methods
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(Lcom/huawei/appmarket/ga9$a;)V
+.method public constructor <init>(Lcom/huawei/appmarket/aa9;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ga9;-><init>()V
-
-    return-void
-.end method
-
-.method static synthetic b(Lcom/huawei/appmarket/ga9;Landroid/view/View;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ga9;->a:Landroid/view/View;
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/d29;-><init>(Lcom/huawei/appmarket/aa9;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Landroid/view/View;
+.method public final a(Lcom/huawei/appmarket/qb9;)Ljava/lang/Object;
     .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            "E:",
+            "Lcom/huawei/bohr/api/exception/BohrException;",
+            ">(",
+            "Lcom/huawei/appmarket/qb9<",
+            "TR;TE;>;)TR;^TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/bohr/api/exception/BohrException;
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ga9;->a:Landroid/view/View;
+    invoke-static {}, Lcom/huawei/bohr/api/exception/SystemException;->b()Lcom/huawei/bohr/api/exception/SystemException;
 
-    return-object v0
+    move-result-object p1
+
+    throw p1
 .end method

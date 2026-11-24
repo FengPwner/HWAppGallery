@@ -2,7 +2,12 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/nagativefeedback/IAppIconLongClickApi;
+.implements Lcom/huawei/appmarket/kh3;
 
-# virtual methods
-.method public abstract a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)Z
-.end method
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/qc1;
+.end annotation

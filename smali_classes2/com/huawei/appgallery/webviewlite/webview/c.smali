@@ -27,7 +27,7 @@
     .registers 4
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/ao8;->a:Lcom/huawei/appmarket/ao8;
+    sget-object p1, Lcom/huawei/appmarket/go8;->a:Lcom/huawei/appmarket/go8;
 
     .line 2
     .line 3
@@ -39,7 +39,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -57,7 +57,7 @@
     .line 15
     .line 16
     .line 17
-    new-instance v0, Lcom/huawei/appmarket/n65;
+    new-instance v0, Lcom/huawei/appmarket/q65;
 
     .line 18
     .line 19
@@ -74,12 +74,12 @@
     move-result-object v1
 
     .line 26
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/n65;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/q65;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/n65;->d(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q65;->d(Landroid/content/Context;)V
 
     .line 30
     .line 31
@@ -92,7 +92,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/co8;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/io8;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -165,5 +165,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

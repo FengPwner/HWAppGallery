@@ -115,7 +115,7 @@
     return-void
 .end method
 
-.method private static b(Ljava/util/List;Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
+.method private static b(Ljava/util/List;Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -123,7 +123,7 @@
             "Ljava/util/List<",
             "Landroidx/lifecycle/a$b;",
             ">;",
-            "Lcom/huawei/appmarket/du4;",
+            "Lcom/huawei/appmarket/gu4;",
             "Landroidx/lifecycle/h$a;",
             "Ljava/lang/Object;",
             ")V"
@@ -730,7 +730,7 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
+.method final a(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
     .registers 6
 
     .line 1
@@ -742,7 +742,7 @@
 
     check-cast v1, Ljava/util/List;
 
-    invoke-static {v1, p1, p2, p3}, Landroidx/lifecycle/a$a;->b(Ljava/util/List;Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
+    invoke-static {v1, p1, p2, p3}, Landroidx/lifecycle/a$a;->b(Ljava/util/List;Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
 
     sget-object v1, Landroidx/lifecycle/h$a;->ON_ANY:Landroidx/lifecycle/h$a;
 
@@ -752,7 +752,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0, p1, p2, p3}, Landroidx/lifecycle/a$a;->b(Ljava/util/List;Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
+    invoke-static {v0, p1, p2, p3}, Landroidx/lifecycle/a$a;->b(Ljava/util/List;Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract doBlur(Lcom/huawei/appmarket/l99;)V
+.method public abstract doBlur(Lcom/huawei/appmarket/r99;)V
 .end method
 
 .method public abstract unBlur()V

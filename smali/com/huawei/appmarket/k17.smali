@@ -1,48 +1,169 @@
-.class public final synthetic Lcom/huawei/appmarket/k17;
+.class public final Lcom/huawei/appmarket/k17;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/view/View$OnClickListener;
+.implements Lcom/huawei/appmarket/qg3;
 
 
 # instance fields
-.field public final synthetic b:I
-
-.field public final synthetic c:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
-.field public final synthetic d:Lcom/huawei/appmarket/l17;
+.field private a:Ljava/lang/String;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/l17;I)V
+.method public constructor <init>()V
+    .registers 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    invoke-direct {p0, v0, v1, v0}, Lcom/huawei/appmarket/k17;-><init>(Ljava/lang/String;ILcom/huawei/appmarket/id1;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 3
+
+    .line 2
+    const-string v0, "timeRange"
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;ILcom/huawei/appmarket/id1;)V
+    .registers 4
+
+    .line 3
+    and-int/lit8 p2, p2, 0x1
+
+    if-eqz p2, :cond_0
+
+    const-string p1, ""
+
+    :cond_0
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/k17;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;)I
+    .registers 3
+
+    .line 1
+    const-string v0, "context"
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const p1, 0x7f0d00cd
+
+    return p1
+.end method
+
+.method public final b()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .registers 5
+
+    .line 1
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/huawei/appmarket/k17;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/huawei/appmarket/k17;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
+
+    iget-object p1, p1, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
+
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_2
+
+    return v2
+
+    :cond_2
+    return v0
+.end method
+
+.method public final hashCode()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Ljava/lang/StringBuilder;
 
     .line 2
     .line 3
+    const-string v1, "SafetyReportSubtitleItem(timeRange="
+
     .line 4
-    iput p3, p0, Lcom/huawei/appmarket/k17;->b:I
-
     .line 5
-    .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/k17;->c:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 6
     .line 7
     .line 8
-    iput-object p2, p0, Lcom/huawei/appmarket/k17;->d:Lcom/huawei/appmarket/l17;
+    iget-object v1, p0, Lcom/huawei/appmarket/k17;->a:Ljava/lang/String;
 
     .line 9
     .line 10
-    return-void
+    const/16 v2, 0x29
+
     .line 11
     .line 12
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->n(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
+
     .line 13
     .line 14
     .line 15
+    move-result-object v0
+
     .line 16
+    return-object v0
     .line 17
     .line 18
     .line 19
@@ -163,182 +284,4 @@
     .line 134
     .line 135
     .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-.end method
-
-
-# virtual methods
-.method public final onClick(Landroid/view/View;)V
-    .registers 4
-
-    .line 1
-    iget p1, p0, Lcom/huawei/appmarket/k17;->b:I
-
-    iget-object v0, p0, Lcom/huawei/appmarket/k17;->d:Lcom/huawei/appmarket/l17;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/k17;->c:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
-    packed-switch p1, :pswitch_data_0
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/l17;->B(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/l17;)V
-
-    return-void
-
-    :pswitch_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/l17;->C(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/l17;)V
-
-    return-void
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
 .end method

@@ -53,7 +53,7 @@
     move-result-object p1
 
     .line 5
-    sget-object p2, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p2, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 6
     .line 7
@@ -87,7 +87,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -112,7 +112,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->D6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->E6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
 
     .line 37
     .line 38
@@ -124,7 +124,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->E6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->F6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
 
     .line 43
     .line 44
@@ -136,7 +136,7 @@
 
     .line 47
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 49
     .line 50
@@ -144,7 +144,7 @@
     move-result-object p2
 
     .line 52
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->F6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     .line 53
     .line 54
@@ -155,7 +155,7 @@
     const/4 v0, 0x1
 
     .line 57
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 58
     .line 59
@@ -265,5 +265,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

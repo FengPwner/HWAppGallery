@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dx7$b;
+.implements Lcom/huawei/appmarket/ix7$b;
 
 
 # instance fields
@@ -17,9 +17,9 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/huawei/appmarket/q45;
+.field private final c:Lcom/huawei/appmarket/t45;
 
-.field private final d:Lcom/huawei/appmarket/dx7;
+.field private final d:Lcom/huawei/appmarket/ix7;
 
 .field private final e:Landroid/graphics/Rect;
 
@@ -81,7 +81,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Lcom/huawei/appmarket/tx7;->c(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yx7;->c(Landroid/content/Context;)V
 
     .line 12
     .line 13
@@ -99,33 +99,33 @@
 
     .line 20
     .line 21
-    new-instance v7, Lcom/huawei/appmarket/q45;
+    new-instance v7, Lcom/huawei/appmarket/t45;
 
     .line 22
     .line 23
-    invoke-direct {v7}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v7}, Lcom/huawei/appmarket/t45;-><init>()V
 
     .line 24
     .line 25
     .line 26
-    iput-object v7, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/q45;
+    iput-object v7, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/t45;
 
     .line 27
     .line 28
-    new-instance v8, Lcom/huawei/appmarket/dx7;
+    new-instance v8, Lcom/huawei/appmarket/ix7;
 
     .line 29
     .line 30
-    invoke-direct {v8, p0}, Lcom/huawei/appmarket/dx7;-><init>(Lcom/huawei/appmarket/dx7$b;)V
+    invoke-direct {v8, p0}, Lcom/huawei/appmarket/ix7;-><init>(Lcom/huawei/appmarket/ix7$b;)V
 
     .line 31
     .line 32
     .line 33
-    iput-object v8, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/dx7;
+    iput-object v8, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/ix7;
 
     .line 34
     .line 35
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 36
     .line 37
@@ -162,7 +162,7 @@
 
     .line 53
     :cond_0
-    new-instance v3, Lcom/huawei/appmarket/xw7;
+    new-instance v3, Lcom/huawei/appmarket/cx7;
 
     .line 54
     .line 55
@@ -171,12 +171,12 @@
     .line 56
     .line 57
     .line 58
-    invoke-direct {v3, v1, v4}, Lcom/huawei/appmarket/xw7;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v3, v1, v4}, Lcom/huawei/appmarket/cx7;-><init>(Landroid/content/Context;I)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->c()Lcom/huawei/appmarket/xw7;
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->c()Lcom/huawei/appmarket/cx7;
 
     .line 62
     .line 63
@@ -212,7 +212,7 @@
 
     .line 77
     :cond_2
-    invoke-virtual {v8, v3, v0}, Lcom/huawei/appmarket/dx7;->f(Lcom/huawei/appmarket/xw7;Landroid/content/Context;)V
+    invoke-virtual {v8, v3, v0}, Lcom/huawei/appmarket/ix7;->f(Lcom/huawei/appmarket/cx7;Landroid/content/Context;)V
 
     .line 78
     .line 79
@@ -295,7 +295,7 @@
 
     .line 114
     .line 115
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->g()V
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->g()V
 
     .line 116
     .line 117
@@ -310,7 +310,7 @@
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->g()V
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->g()V
 
     .line 125
     .line 126
@@ -325,7 +325,7 @@
     .line 131
     .line 132
     .line 133
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 134
     .line 135
@@ -367,7 +367,7 @@
     move-result-object v1
 
     .line 155
-    invoke-virtual {v7}, Lcom/huawei/appmarket/q45;->r()Landroid/content/res/ColorStateList;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/t45;->r()Landroid/content/res/ColorStateList;
 
     .line 156
     .line 157
@@ -379,7 +379,7 @@
 
     .line 160
     .line 161
-    invoke-virtual {v7, v1}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v7, v1}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     .line 162
     .line 163
@@ -390,7 +390,7 @@
     .line 166
     .line 167
     :cond_3
-    invoke-virtual {v8}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {v8}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 168
     .line 169
@@ -1663,11 +1663,11 @@
     move-result-object v6
 
     .line 150
-    iget-object v7, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/dx7;
+    iget-object v7, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/ix7;
 
     .line 151
     .line 152
-    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/dx7;->e(Ljava/lang/String;)F
+    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/ix7;->e(Ljava/lang/String;)F
 
     .line 153
     .line 154
@@ -1802,7 +1802,7 @@
 
     .line 215
     .line 216
-    invoke-static {v1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 217
     .line 218
@@ -1881,7 +1881,7 @@
 
     .line 246
     :cond_d
-    invoke-static {v1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 247
     .line 248
@@ -1948,11 +1948,11 @@
 
     .line 275
     .line 276
-    iget-object v1, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/q45;
+    iget-object v1, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/t45;
 
     .line 277
     .line 278
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/q45;->E(F)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/t45;->E(F)V
 
     .line 279
     .line 280
@@ -2538,11 +2538,11 @@
 
     .line 26
     :cond_0
-    iget-object v1, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/q45;
+    iget-object v1, p0, Lcom/google/android/material/badge/a;->c:Lcom/huawei/appmarket/t45;
 
     .line 27
     .line 28
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->draw(Landroid/graphics/Canvas;)V
 
     .line 29
     .line 30
@@ -2576,11 +2576,11 @@
     move-result-object v1
 
     .line 46
-    iget-object v2, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/dx7;
+    iget-object v2, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/ix7;
 
     .line 47
     .line 48
-    invoke-virtual {v2}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 49
     .line 50
@@ -2630,7 +2630,7 @@
     add-float/2addr v4, v0
 
     .line 72
-    invoke-virtual {v2}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 73
     .line 74
@@ -2912,6 +2912,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f()Landroid/widget/FrameLayout;
@@ -3151,6 +3152,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final i()Lcom/google/android/material/badge/BadgeState$State;
@@ -3381,11 +3383,11 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/dx7;
+    iget-object p1, p0, Lcom/google/android/material/badge/a;->d:Lcom/huawei/appmarket/ix7;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/huawei/appmarket/dx7;->d()Landroid/text/TextPaint;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ix7;->d()Landroid/text/TextPaint;
 
     .line 9
     .line 10

@@ -67,7 +67,7 @@
     return-object v0
 .end method
 
-.method public getData()Lcom/huawei/appmarket/g64;
+.method public getData()Lcom/huawei/appmarket/j64;
     .registers 2
 
     .line 1
@@ -157,7 +157,7 @@
     return-void
 .end method
 
-.method public setData(Lcom/huawei/appmarket/g64;)V
+.method public setData(Lcom/huawei/appmarket/j64;)V
     .registers 2
 
     .line 1

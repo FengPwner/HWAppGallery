@@ -99,7 +99,7 @@
 
     .line 17
     .line 18
-    iget-object v1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/tk0;
+    iget-object v1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/uk0;
 
     .line 19
     .line 20
@@ -107,7 +107,7 @@
 
     .line 21
     .line 22
-    new-instance v1, Lcom/huawei/appmarket/tk0;
+    new-instance v1, Lcom/huawei/appmarket/uk0;
 
     .line 23
     .line 24
@@ -119,12 +119,12 @@
     move-result-object v2
 
     .line 28
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/tk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/uk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/a50;->q(Lcom/huawei/appmarket/vq3;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/a50;->q(Lcom/huawei/appmarket/xq3;)V
 
     .line 32
     .line 33
@@ -146,12 +146,12 @@
     .line 41
     .line 42
     .line 43
-    iput-object v1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/tk0;
+    iput-object v1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/uk0;
 
     .line 44
     .line 45
     :cond_2
-    iget-object p1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/tk0;
+    iget-object p1, p1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L0:Lcom/huawei/appmarket/uk0;
 
     .line 46
     .line 47
@@ -215,5 +215,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

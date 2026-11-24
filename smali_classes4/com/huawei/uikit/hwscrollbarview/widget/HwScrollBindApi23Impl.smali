@@ -44,7 +44,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hs2;->r(Landroid/widget/ListView;Landroid/view/View$OnScrollChangeListener;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ks2;->r(Landroid/widget/ListView;Landroid/view/View$OnScrollChangeListener;)V
 
     .line 15
     .line 16
@@ -307,8 +307,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

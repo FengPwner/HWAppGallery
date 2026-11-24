@@ -5,12 +5,12 @@
 
 # instance fields
 .field private pkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 

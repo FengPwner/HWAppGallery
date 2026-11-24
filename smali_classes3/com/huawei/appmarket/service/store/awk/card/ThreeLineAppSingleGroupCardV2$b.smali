@@ -76,9 +76,9 @@
 
     if-nez v0, :cond_6
 
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     check-cast p1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2$ThreeLineHorizontalCardRequest;
 
@@ -86,9 +86,9 @@
 
     move-result p1
 
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/nb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/qb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->n2(Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -101,9 +101,9 @@
     return-void
 
     :cond_0
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     move-result-object p2
 
@@ -117,9 +117,9 @@
 
     move-result-object p2
 
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -174,21 +174,21 @@
 
     invoke-interface {p2}, Ljava/util/List;->clear()V
 
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
     if-nez p2, :cond_5
 
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object p2
 
@@ -241,17 +241,17 @@
     goto :goto_1
 
     :cond_5
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->o()Z
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/huawei/appgallery/horizontalcard/api/bean/HorizontalModuleCardBean;->i2(Z)V
 
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/ThreeLineAppSingleGroupCardV2;->Y:Lcom/huawei/appmarket/nq1;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->k()I
 
     move-result p2
 

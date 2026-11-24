@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public final b()Lcom/huawei/appmarket/ge7;
+.method public final b()Lcom/huawei/appmarket/le7;
     .registers 2
 
     .line 1

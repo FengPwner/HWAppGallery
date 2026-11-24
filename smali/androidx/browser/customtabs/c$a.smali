@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/browser/customtabs/c;-><init>(Lcom/huawei/appmarket/cm3;Landroid/app/PendingIntent;)V
+    value = Landroidx/browser/customtabs/c;-><init>(Lcom/huawei/appmarket/em3;Landroid/app/PendingIntent;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

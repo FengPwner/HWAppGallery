@@ -94,7 +94,7 @@
 
     iput-object v1, p0, Lcom/google/android/material/timepicker/ClockHandView;->l:Landroid/graphics/RectF;
 
-    sget-object v1, Lcom/huawei/appmarket/ie6;->m:[I
+    sget-object v1, Lcom/huawei/appmarket/ke6;->m:[I
 
     const v2, 0x7f130666
 
@@ -166,7 +166,7 @@
 
     iput p1, p0, Lcom/google/android/material/timepicker/ClockHandView;->g:I
 
-    invoke-static {p0, v2}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p0, v2}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 

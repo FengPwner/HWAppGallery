@@ -65,7 +65,7 @@
     int-to-float p2, p3
 
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 16
     .line 17
@@ -480,27 +480,4 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

@@ -3,27 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lk3;
+.implements Lcom/huawei/appmarket/rb1$a;
 
 
 # instance fields
-.field final synthetic a:Landroid/content/Context;
-
-.field final synthetic b:Z
-
-.field final synthetic c:Lcom/huawei/appmarket/es3;
+.field final synthetic b:Ljava/lang/String;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;ZLcom/huawei/appmarket/es3;)V
-    .registers 4
+.method constructor <init>(Ljava/lang/String;)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/j53;->a:Landroid/content/Context;
-
-    iput-boolean p2, p0, Lcom/huawei/appmarket/j53;->b:Z
-
-    iput-object p3, p0, Lcom/huawei/appmarket/j53;->c:Lcom/huawei/appmarket/es3;
+    iput-object p1, p0, Lcom/huawei/appmarket/j53;->b:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -32,28 +24,26 @@
 
 
 # virtual methods
-.method public final a()V
-    .registers 2
+.method public final H()V
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/j53;->c:Lcom/huawei/appmarket/es3;
+    const-string v0, "k53"
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/es3;->h()V
+    const-string v1, " click cancel"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final b()V
-    .registers 4
+.method public final h2()V
+    .registers 2
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/j53;->b:Z
+    iget-object v0, p0, Lcom/huawei/appmarket/j53;->b:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/j53;->c:Lcom/huawei/appmarket/es3;
-
-    iget-object v2, p0, Lcom/huawei/appmarket/j53;->a:Landroid/content/Context;
-
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/l53;->a(Landroid/content/Context;ZLcom/huawei/appmarket/es3;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/k53;->a(Ljava/lang/String;)V
 
     return-void
 .end method

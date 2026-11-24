@@ -58,7 +58,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/oi4;",
+            "Lcom/huawei/appmarket/qi4;",
             ">;"
         }
     .end annotation
@@ -68,7 +68,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/u75;",
+            "Lcom/huawei/appmarket/x75;",
             ">;"
         }
     .end annotation
@@ -995,7 +995,7 @@
     return-object p1
 .end method
 
-.method public final h0(Lcom/huawei/appmarket/oi4;)V
+.method public final h0(Lcom/huawei/appmarket/qi4;)V
     .registers 3
 
     .line 1
@@ -1119,7 +1119,7 @@
     return-object p1
 .end method
 
-.method public final n0(Lcom/huawei/appmarket/u75;)V
+.method public final n0(Lcom/huawei/appmarket/x75;)V
     .registers 3
 
     .line 1

@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/wf6;->d:[I
+    sget-object v1, Lcom/huawei/appmarket/yf6;->d:[I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewV1;->access$000(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewV1;)Landroid/widget/PopupWindow;
 
@@ -162,7 +162,7 @@
     :cond_0
     const-string v0, "popWindow has open"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

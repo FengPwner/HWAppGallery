@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static volatile a:Lcom/huawei/appmarket/fy6;
+.field private static volatile a:Lcom/huawei/appmarket/jy6;
 
 .field private static final b:Ljava/lang/Object;
 
@@ -22,11 +22,11 @@
     return-void
 .end method
 
-.method static a()Lcom/huawei/appmarket/fy6;
+.method static a()Lcom/huawei/appmarket/jy6;
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/fy6;
+    sget-object v0, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/jy6;
 
     if-nez v0, :cond_2
 
@@ -35,11 +35,11 @@
     monitor-enter v0
 
     :try_start_0
-    sget-object v1, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/fy6;
+    sget-object v1, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/jy6;
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
     const-string v1, "cat"
 
@@ -81,11 +81,11 @@
 
     move-result-object v2
 
-    invoke-static {v1, v3, v4, v2}, Lcom/huawei/appmarket/fy6;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/fy6;
+    invoke-static {v1, v3, v4, v2}, Lcom/huawei/appmarket/jy6;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/jy6;
 
     move-result-object v1
 
-    sput-object v1, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/fy6;
+    sput-object v1, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/jy6;
 
     goto :goto_0
 
@@ -109,7 +109,7 @@
 
     :cond_2
     :goto_2
-    sget-object v0, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/fy6;
+    sget-object v0, Lcom/huawei/hms/network/file/a/k/b/j/c;->a:Lcom/huawei/appmarket/jy6;
 
     return-object v0
 .end method
@@ -142,7 +142,7 @@
 
     const/16 p1, 0x10
 
-    invoke-static {p1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v1
 

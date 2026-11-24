@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenLoadingFragment$a;
-.super Lcom/huawei/appmarket/sn5;
+.super Lcom/huawei/appmarket/tn5;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenLoadingFragment$a;->d:Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenLoadingFragment;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/sn5;-><init>(Z)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/tn5;-><init>(Z)V
 
     return-void
 .end method

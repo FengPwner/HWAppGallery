@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/sf6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/uf6;->a:[I
 
     const/4 v2, 0x0
 
@@ -474,23 +474,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onWindowFocusChanged(Z)V

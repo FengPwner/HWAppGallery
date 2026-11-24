@@ -211,7 +211,7 @@
 
     .line 82
     :cond_6
-    invoke-static {v2}, Lcom/huawei/appmarket/d43;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/g43;->a(Landroid/content/Context;)Ljava/lang/String;
 
     .line 83
     .line 84
@@ -267,7 +267,7 @@
 
     .line 108
     :cond_8
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     .line 109
     .line 110
@@ -280,7 +280,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/e84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/h84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 116
     .line 117
@@ -292,7 +292,7 @@
 
     .line 120
     .line 121
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     .line 122
     .line 123
@@ -305,7 +305,7 @@
     .line 126
     .line 127
     .line 128
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/e84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/h84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 129
     .line 130
@@ -321,7 +321,7 @@
 
     .line 135
     :cond_9
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     .line 136
     .line 137
@@ -334,7 +334,7 @@
     .line 140
     .line 141
     .line 142
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/e84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/h84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 143
     .line 144
@@ -346,7 +346,7 @@
 
     .line 147
     .line 148
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     .line 149
     .line 150
@@ -359,7 +359,7 @@
     .line 153
     .line 154
     .line 155
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/e84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/h84;->v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 156
     .line 157
@@ -375,7 +375,7 @@
 
     .line 162
     :cond_a
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     .line 163
     .line 164
@@ -388,7 +388,7 @@
     .line 167
     .line 168
     .line 169
-    invoke-static {}, Lcom/huawei/appmarket/e84;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/h84;->a()I
 
     .line 170
     .line 171

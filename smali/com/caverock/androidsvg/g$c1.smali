@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final d()Lcom/caverock/androidsvg/g$b1;
+.method public final c()Lcom/caverock/androidsvg/g$b1;
     .registers 2
 
     .line 1
@@ -68,7 +68,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -196,4 +196,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

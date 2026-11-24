@@ -89,7 +89,7 @@
 
     const/4 v0, 0x2
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     :cond_0
     return-void
@@ -169,7 +169,7 @@
 
     .line 30
     .line 31
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
@@ -203,7 +203,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/bu0;->v(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/kd0;->w(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 50
     .line 51
@@ -355,7 +355,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method protected final a2()Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;
@@ -529,7 +528,7 @@
 
     .line 79
     .line 80
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/bu0;->v(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->w(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 81
     .line 82
@@ -566,7 +565,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final x1()I

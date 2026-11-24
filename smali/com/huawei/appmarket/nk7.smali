@@ -10,301 +10,79 @@
     }
 .end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<VH:",
+        "Lcom/huawei/appmarket/tk7;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
 
 # instance fields
-.field protected adapter:Lcom/huawei/appmarket/hk7;
-
-.field private distance:I
-
-.field private frameDelta:F
-
-.field private index:I
-
-.field private isAnimToEnd:Z
-
-.field protected isRunning:Z
-
-.field protected listenerList:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/nk7$a;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field protected startTime:J
+.field private a:Lcom/huawei/appmarket/nk7$a;
 
 
 # direct methods
-.method public constructor <init>(I)V
-    .registers 4
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
-
-    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/nk7;->listenerList:Ljava/util/List;
-
-    const/4 v0, 0x0
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/nk7;->isRunning:Z
-
-    const/high16 v1, 0x3f800000    # 1.0f
-
-    iput v1, p0, Lcom/huawei/appmarket/nk7;->frameDelta:F
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
-    const/4 v0, -0x1
-
-    iput v0, p0, Lcom/huawei/appmarket/nk7;->distance:I
-
-    iput p1, p0, Lcom/huawei/appmarket/nk7;->index:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public addListener(Lcom/huawei/appmarket/nk7$a;)Lcom/huawei/appmarket/nk7;
+.method public abstract a()Lcom/huawei/appmarket/tk7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TVH;"
+        }
+    .end annotation
+.end method
+
+.method public abstract b(Lcom/huawei/appmarket/tk7;)Lcom/huawei/appmarket/tk7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TVH;)TVH;"
+        }
+    .end annotation
+.end method
+
+.method public abstract c(I)Lcom/huawei/appmarket/tk7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)TVH;"
+        }
+    .end annotation
+.end method
+
+.method public abstract d()I
+.end method
+
+.method public final e(Lcom/huawei/appmarket/mf7;)V
     .registers 3
 
     .line 1
-    if-eqz p1, :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/nk7;->a:Lcom/huawei/appmarket/nk7$a;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/nk7;->listenerList:Ljava/util/List;
+    if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    check-cast v0, Lcom/huawei/appmarket/kf7;
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kf7;->d(Lcom/huawei/appmarket/mf7;)V
 
     :cond_0
-    return-object p0
-.end method
-
-.method public abstract cancel()V
-.end method
-
-.method protected abstract doDistanceToNeighbor()V
-.end method
-
-.method endToValue(FF)V
-    .registers 3
-
-    .line 1
-    const/4 p1, 0x1
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
     return-void
 .end method
 
-.method endToValue(FFFF)V
-    .registers 5
+.method final f(Lcom/huawei/appmarket/nk7$a;)V
+    .registers 2
 
-    .line 2
-    const/4 p1, 0x1
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/nk7;->a:Lcom/huawei/appmarket/nk7$a;
 
     return-void
-.end method
-
-.method public getAdapter()Lcom/huawei/appmarket/hk7;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nk7;->adapter:Lcom/huawei/appmarket/hk7;
-
-    return-object v0
-.end method
-
-.method public getDistance()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nk7;->distance:I
-
-    return v0
-.end method
-
-.method public getFrameDelta()F
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nk7;->frameDelta:F
-
-    return v0
-.end method
-
-.method public getIndex()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nk7;->index:I
-
-    return v0
-.end method
-
-.method public isAnimToEnd()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
-    return v0
-.end method
-
-.method public isDoFrame()Z
-    .registers 2
-
-    .line 1
-    const/4 v0, 0x1
-
-    return v0
-.end method
-
-.method public isRunning()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/nk7;->isRunning:Z
-
-    return v0
-.end method
-
-.method public onEnd(F)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public onEnd(FF)V
-    .registers 3
-
-    .line 2
-    return-void
-.end method
-
-.method protected onRunning()V
-    .registers 1
-
-    .line 1
-    return-void
-.end method
-
-.method public onUpdate(FF)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method public onUpdate(FFFF)V
-    .registers 5
-
-    .line 2
-    return-void
-.end method
-
-.method public removeListener(Lcom/huawei/appmarket/nk7$a;)Lcom/huawei/appmarket/nk7;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nk7;->listenerList:Ljava/util/List;
-
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    return-object p0
-.end method
-
-.method public resetValue(F)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public resetValue(FF)V
-    .registers 3
-
-    .line 2
-    return-void
-.end method
-
-.method public setAdapter(Lcom/huawei/appmarket/hk7;)Lcom/huawei/appmarket/nk7;
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/nk7;->adapter:Lcom/huawei/appmarket/hk7;
-
-    return-object p0
-.end method
-
-.method public setAnimToEnd(Z)Lcom/huawei/appmarket/nk7;
-    .registers 2
-
-    .line 1
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
-    return-object p0
-.end method
-
-.method public setDistance(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/nk7;->distance:I
-
-    return-void
-.end method
-
-.method protected abstract setDistanceDelta(II)V
-.end method
-
-.method public setFrameDelta(F)Lcom/huawei/appmarket/nk7;
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/nk7;->frameDelta:F
-
-    return-object p0
-.end method
-
-.method public setIndex(I)Lcom/huawei/appmarket/nk7;
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/nk7;->index:I
-
-    return-object p0
-.end method
-
-.method setValue(F)V
-    .registers 2
-
-    .line 1
-    const/4 p1, 0x0
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
-    return-void
-.end method
-
-.method setValue(FF)V
-    .registers 3
-
-    .line 2
-    const/4 p1, 0x0
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/nk7;->isAnimToEnd:Z
-
-    return-void
-.end method
-
-.method abstract transferParams(FF)V
 .end method

@@ -241,7 +241,7 @@
     const-string v0, "BridgeActivity"
 
     .line 3
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -475,7 +475,7 @@
     .line 97
     .line 98
     .line 99
-    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -729,7 +729,7 @@
     .line 70
     .line 71
     .line 72
-    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -820,7 +820,7 @@
     .line 103
     .line 104
     .line 105
-    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 106
     .line 107

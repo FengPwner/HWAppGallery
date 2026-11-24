@@ -1,9 +1,9 @@
 .class final Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$c;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os2;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/os2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/rs2<",
         "Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;",
         ">;"
     }
@@ -38,7 +38,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -81,11 +81,11 @@
     .line 14
     .line 15
     .line 16
-    new-instance v1, Lcom/huawei/appgallery/pageframe/fragment/multitabs/e;
+    new-instance v1, Lcom/huawei/appgallery/pageframe/fragment/multitabs/d;
 
     .line 17
     .line 18
-    invoke-direct {v1, v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/e;-><init>(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/d;-><init>(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)V
 
     .line 19
     .line 20
@@ -95,7 +95,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v2, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/cd5;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/fd5;)V
 
     .line 25
     .line 26

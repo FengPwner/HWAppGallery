@@ -45,13 +45,13 @@
 
     iput-boolean v0, p1, Lcom/huawei/appmarket/service/webview/js/JsCommonHelper$c;->a:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wa7;->J(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bb7;->J(Z)V
 
     return-void
 .end method

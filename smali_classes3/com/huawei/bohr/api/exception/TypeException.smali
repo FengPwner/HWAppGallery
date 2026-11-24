@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/x26;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/z26;)V
     .registers 4
 
     .line 1

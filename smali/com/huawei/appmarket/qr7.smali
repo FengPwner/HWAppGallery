@@ -2,70 +2,142 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/f82;
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/qr7$b;,
-        Lcom/huawei/appmarket/qr7$a;
-    }
-.end annotation
+
+# instance fields
+.field private final b:Lcom/huawei/appmarket/f82;
+
+.field private final c:Lcom/huawei/appmarket/or7$a;
+
+.field private final d:Landroid/util/SparseArray;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/util/SparseArray<",
+            "Lcom/huawei/appmarket/sr7;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method private constructor <init>()V
-    .registers 1
+.method public constructor <init>(Lcom/huawei/appmarket/f82;Lcom/huawei/appmarket/or7$a;)V
+    .registers 3
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/qr7;->b:Lcom/huawei/appmarket/f82;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/qr7;->c:Lcom/huawei/appmarket/or7$a;
+
+    new-instance p1, Landroid/util/SparseArray;
+
+    invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/qr7;->d:Landroid/util/SparseArray;
 
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/pr7;)Lcom/huawei/appmarket/pr7;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/huawei/appmarket/pr7<",
-            "TT;>;)",
-            "Lcom/huawei/appmarket/pr7<",
-            "TT;>;"
-        }
-    .end annotation
+
+# virtual methods
+.method public final a()V
+    .registers 4
 
     .line 1
-    instance-of v0, p0, Lcom/huawei/appmarket/qr7$b;
+    const/4 v0, 0x0
 
-    if-nez v0, :cond_2
+    :goto_0
+    iget-object v1, p0, Lcom/huawei/appmarket/qr7;->d:Landroid/util/SparseArray;
 
-    instance-of v0, p0, Lcom/huawei/appmarket/qr7$a;
+    invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
-    if-eqz v0, :cond_0
+    move-result v2
 
-    goto :goto_1
+    if-ge v0, v2, :cond_0
 
-    :cond_0
-    instance-of v0, p0, Ljava/io/Serializable;
+    invoke-virtual {v1, v0}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
-    if-eqz v0, :cond_1
+    move-result-object v1
 
-    new-instance v0, Lcom/huawei/appmarket/qr7$a;
+    check-cast v1, Lcom/huawei/appmarket/sr7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qr7$a;-><init>(Lcom/huawei/appmarket/pr7;)V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sr7;->i()V
+
+    add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
+    :cond_0
+    return-void
+.end method
+
+.method public final j()V
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/qr7;->b:Lcom/huawei/appmarket/f82;
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/f82;->j()V
+
+    return-void
+.end method
+
+.method public final l(Lcom/huawei/appmarket/x57;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/qr7;->b:Lcom/huawei/appmarket/f82;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/f82;->l(Lcom/huawei/appmarket/x57;)V
+
+    return-void
+.end method
+
+.method public final p(II)Lcom/huawei/appmarket/k28;
+    .registers 6
+
+    .line 1
+    const/4 v0, 0x3
+
+    iget-object v1, p0, Lcom/huawei/appmarket/qr7;->b:Lcom/huawei/appmarket/f82;
+
+    if-eq p2, v0, :cond_0
+
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/f82;->p(II)Lcom/huawei/appmarket/k28;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/qr7;->d:Landroid/util/SparseArray;
+
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/huawei/appmarket/sr7;
+
+    if-eqz v2, :cond_1
+
+    return-object v2
+
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/qr7$b;
+    new-instance v2, Lcom/huawei/appmarket/sr7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qr7$b;-><init>(Lcom/huawei/appmarket/pr7;)V
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/f82;->p(II)Lcom/huawei/appmarket/k28;
 
-    :goto_0
-    return-object v0
+    move-result-object p2
 
-    :cond_2
-    :goto_1
-    return-object p0
+    iget-object v1, p0, Lcom/huawei/appmarket/qr7;->c:Lcom/huawei/appmarket/or7$a;
+
+    invoke-direct {v2, p2, v1}, Lcom/huawei/appmarket/sr7;-><init>(Lcom/huawei/appmarket/k28;Lcom/huawei/appmarket/or7$a;)V
+
+    invoke-virtual {v0, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    return-object v2
 .end method

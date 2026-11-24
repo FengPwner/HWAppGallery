@@ -72,7 +72,7 @@
     return p1
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 6
 
     .line 1
@@ -84,11 +84,11 @@
 
     .line 4
     .line 5
-    new-instance p3, Lcom/huawei/appmarket/yl5;
+    new-instance p3, Lcom/huawei/appmarket/am5;
 
     .line 6
     .line 7
-    invoke-direct {p3, p1}, Lcom/huawei/appmarket/yl5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, Lcom/huawei/appmarket/am5;-><init>(Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -106,7 +106,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-direct {p2, p3, p4}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/sq4;Lcom/huawei/appmarket/i81;)V
+    invoke-direct {p2, p3, p4}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/vq4;Lcom/huawei/appmarket/i81;)V
 
     .line 18
     .line 19

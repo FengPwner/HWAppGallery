@@ -1266,7 +1266,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -1338,7 +1338,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -1412,7 +1412,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -1593,7 +1593,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2286,7 +2286,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2358,7 +2358,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2428,7 +2428,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2500,7 +2500,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2580,7 +2580,7 @@
 
     const/16 v1, 0x20
 
-    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2706,7 +2706,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2762,7 +2762,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2866,7 +2866,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -3040,23 +3040,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static intToHexDigitMsb0(I)C
@@ -3076,7 +3059,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -3358,23 +3341,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static intToShortArray(II[SII)[S
@@ -3389,7 +3355,7 @@
 
     const/16 v1, 0x10
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3513,7 +3479,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3573,7 +3539,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3661,7 +3627,7 @@
 
     const/16 v1, 0x20
 
-    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3715,7 +3681,7 @@
 
     const/16 v1, 0x10
 
-    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3783,7 +3749,7 @@
 
     const/16 v1, 0x10
 
-    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3855,7 +3821,7 @@
 
     const/16 v1, 0x10
 
-    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p5, v0, v1, p4}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -3981,7 +3947,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -4037,7 +4003,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p4, v0, v1, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 

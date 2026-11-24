@@ -588,7 +588,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 4
     .line 5
@@ -943,7 +943,7 @@
 
     .line 60
     .line 61
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 62
     .line 63
@@ -1299,6 +1299,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final onInterceptTouchEvent(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/MotionEvent;)Z

@@ -118,7 +118,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b00;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fs;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 44
     .line 45
@@ -225,5 +225,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

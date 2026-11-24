@@ -1123,7 +1123,7 @@
 
     .line 227
     .line 228
-    invoke-static {v0, v6}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v6}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 229
     .line 230
@@ -1320,6 +1320,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

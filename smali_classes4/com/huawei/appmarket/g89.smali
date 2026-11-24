@@ -1,159 +1,42 @@
-.class public final enum Lcom/huawei/appmarket/g89;
-.super Ljava/lang/Enum;
+.class public final synthetic Lcom/huawei/appmarket/g89;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/huawei/appmarket/g89;",
-        ">;"
-    }
-.end annotation
-
-
-# static fields
-.field public static final enum c:Lcom/huawei/appmarket/g89;
-
-.field public static final enum d:Lcom/huawei/appmarket/g89;
-
-.field public static final enum e:Lcom/huawei/appmarket/g89;
-
-.field public static final enum f:Lcom/huawei/appmarket/g89;
-
-.field private static final synthetic g:[Lcom/huawei/appmarket/g89;
+# interfaces
+.implements Lcom/huawei/quickcard/framework/event/Subscriber;
 
 
 # instance fields
-.field private final b:Ljava/lang/String;
+.field public final synthetic a:Lcom/huawei/appmarket/a99;
+
+.field public final synthetic b:Lcom/huawei/appmarket/r99;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 10
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/a99;Lcom/huawei/appmarket/r99;)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/g89;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v1, "unknown"
+    iput-object p1, p0, Lcom/huawei/appmarket/g89;->a:Lcom/huawei/appmarket/a99;
 
-    const-string v2, "UNKNOWN"
-
-    const/4 v3, 0x0
-
-    invoke-direct {v0, v2, v3, v1}, Lcom/huawei/appmarket/g89;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v0, Lcom/huawei/appmarket/g89;->c:Lcom/huawei/appmarket/g89;
-
-    new-instance v1, Lcom/huawei/appmarket/g89;
-
-    const-string v2, "expand"
-
-    const-string v4, "EXPAND"
-
-    const/4 v5, 0x1
-
-    invoke-direct {v1, v4, v5, v2}, Lcom/huawei/appmarket/g89;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v1, Lcom/huawei/appmarket/g89;->d:Lcom/huawei/appmarket/g89;
-
-    new-instance v2, Lcom/huawei/appmarket/g89;
-
-    const-string v4, "folded"
-
-    const-string v6, "FOLDED"
-
-    const/4 v7, 0x2
-
-    invoke-direct {v2, v6, v7, v4}, Lcom/huawei/appmarket/g89;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v2, Lcom/huawei/appmarket/g89;->e:Lcom/huawei/appmarket/g89;
-
-    new-instance v4, Lcom/huawei/appmarket/g89;
-
-    const-string v6, "half_folded"
-
-    const-string v8, "HALF_FOLDED"
-
-    const/4 v9, 0x3
-
-    invoke-direct {v4, v8, v9, v6}, Lcom/huawei/appmarket/g89;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v4, Lcom/huawei/appmarket/g89;->f:Lcom/huawei/appmarket/g89;
-
-    const/4 v6, 0x4
-
-    new-array v6, v6, [Lcom/huawei/appmarket/g89;
-
-    aput-object v0, v6, v3
-
-    aput-object v1, v6, v5
-
-    aput-object v2, v6, v7
-
-    aput-object v4, v6, v9
-
-    sput-object v6, Lcom/huawei/appmarket/g89;->g:[Lcom/huawei/appmarket/g89;
+    iput-object p2, p0, Lcom/huawei/appmarket/g89;->b:Lcom/huawei/appmarket/r99;
 
     return-void
-.end method
-
-.method private constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    iput-object p3, p0, Lcom/huawei/appmarket/g89;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/g89;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/g89;
-
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
-
-    move-result-object p0
-
-    check-cast p0, Lcom/huawei/appmarket/g89;
-
-    return-object p0
-.end method
-
-.method public static values()[Lcom/huawei/appmarket/g89;
-    .registers 1
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/g89;->g:[Lcom/huawei/appmarket/g89;
-
-    invoke-virtual {v0}, [Lcom/huawei/appmarket/g89;->clone()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, [Lcom/huawei/appmarket/g89;
-
-    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .registers 2
+.method public final onEvent(Lcom/huawei/quickcard/framework/event/CardEvent;)V
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/g89;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/g89;->a:Lcom/huawei/appmarket/a99;
 
-    return-object v0
+    iget-object v1, p0, Lcom/huawei/appmarket/g89;->b:Lcom/huawei/appmarket/r99;
+
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/a99;->a(Lcom/huawei/appmarket/a99;Lcom/huawei/appmarket/r99;Lcom/huawei/quickcard/framework/event/CardEvent;)V
+
+    return-void
 .end method

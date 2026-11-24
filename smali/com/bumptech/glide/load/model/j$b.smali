@@ -44,10 +44,10 @@
     .end annotation
 .end field
 
-.field final c:Lcom/huawei/appmarket/aa5;
+.field final c:Lcom/huawei/appmarket/da5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/aa5<",
+            "Lcom/huawei/appmarket/da5<",
             "+TModel;+TData;>;"
         }
     .end annotation
@@ -55,7 +55,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/aa5;)V
+.method public constructor <init>(Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/da5;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -64,7 +64,7 @@
             "TModel;>;",
             "Ljava/lang/Class<",
             "TData;>;",
-            "Lcom/huawei/appmarket/aa5<",
+            "Lcom/huawei/appmarket/da5<",
             "+TModel;+TData;>;)V"
         }
     .end annotation
@@ -76,7 +76,7 @@
 
     iput-object p2, p0, Lcom/bumptech/glide/load/model/j$b;->b:Ljava/lang/Class;
 
-    iput-object p3, p0, Lcom/bumptech/glide/load/model/j$b;->c:Lcom/huawei/appmarket/aa5;
+    iput-object p3, p0, Lcom/bumptech/glide/load/model/j$b;->c:Lcom/huawei/appmarket/da5;
 
     return-void
 .end method

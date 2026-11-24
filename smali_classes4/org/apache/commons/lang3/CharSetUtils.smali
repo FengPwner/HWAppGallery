@@ -136,13 +136,13 @@
 
     move-result-object p0
 
-    new-instance v0, Lcom/huawei/appmarket/co0;
+    new-instance v0, Lcom/huawei/appmarket/do0;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/co0;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/do0;-><init>(I)V
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/xy;->z(Ljava/util/stream/Stream;Lcom/huawei/appmarket/co0;)Z
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yy;->z(Ljava/util/stream/Stream;Lcom/huawei/appmarket/do0;)Z
 
     move-result p0
 

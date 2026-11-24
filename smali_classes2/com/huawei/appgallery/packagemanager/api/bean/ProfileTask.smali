@@ -7,42 +7,42 @@
 .field private b:Ljava/lang/String;
 
 .field public packageName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public profileName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public profilePath:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public profileType:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public profileUrl:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public sha256:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public status:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 

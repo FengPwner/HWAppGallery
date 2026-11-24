@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/jo;
-.super Lcom/huawei/appmarket/ld7;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
 
@@ -27,12 +27,12 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static v()Lcom/huawei/appmarket/jo;
+.method public static w()Lcom/huawei/appmarket/jo;
     .registers 3
 
     .line 1
@@ -47,7 +47,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/jo;
 
-    const-string v2, "appActiveCount"
+    const-string v2, "appActiveInfo"
 
     invoke-direct {v1, v2}, Lcom/huawei/appmarket/jo;-><init>(Ljava/lang/String;)V
 
@@ -78,30 +78,38 @@
 
 
 # virtual methods
-.method public final w(Ljava/lang/Integer;Ljava/lang/String;)V
-    .registers 4
+.method public final v()Ljava/util/Map;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "*>;"
+        }
+    .end annotation
 
     .line 1
-    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
 
-    move-result v0
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
-    if-eqz v0, :cond_0
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
-    const-string p1, "appActiveCount"
+    goto :goto_0
 
-    const-string p2, "can not save app active count: packageName is empty!"
+    :catch_0
+    const-string v0, "AppActiveInfo"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v1, "catch a ClassCastException when getAllAppActiveInfo"
 
-    return-void
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    :cond_0
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    const/4 v0, 0x0
 
-    move-result p1
-
-    invoke-virtual {p0, p2, p1}, Lcom/huawei/appmarket/j50;->k(Ljava/lang/String;I)V
-
-    return-void
+    :goto_0
+    return-object v0
 .end method

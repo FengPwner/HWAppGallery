@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
+    sget-object v0, Lcom/huawei/appmarket/ky5;->a:Lcom/huawei/appmarket/ky5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -66,7 +66,7 @@
 
     const-string v2, "SyncFAPermissionConfigController"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "launch-others-interception-source-exempt"
 
@@ -76,7 +76,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p2}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -96,7 +96,7 @@
 
     const-string p1, "onRulesAdded, release countDown wait!"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -114,7 +114,7 @@
         }
     .end annotation
 
-    sget-object p2, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
+    sget-object p2, Lcom/huawei/appmarket/ky5;->a:Lcom/huawei/appmarket/ky5;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -130,7 +130,7 @@
 
     const-string v0, "SyncFAPermissionConfigController"
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -147,7 +147,7 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
+    sget-object v0, Lcom/huawei/appmarket/ky5;->a:Lcom/huawei/appmarket/ky5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -163,7 +163,7 @@
 
     const-string v2, "SyncFAPermissionConfigController"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "launch-others-interception-source-exempt"
 
@@ -173,7 +173,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p2}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -193,7 +193,7 @@
 
     const-string p1, "onRulesReplaced, release countDown wait!"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

@@ -192,7 +192,7 @@
 
     const-string v1, "instantiateItem error, inflater is null"
 
-    invoke-static {v6, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Landroid/widget/LinearLayout;
 
@@ -341,7 +341,7 @@
     :cond_4
     const-string v3, "enterCard == null, do not add"
 
-    invoke-static {v6, v3}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v3}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v5, :cond_5
 
@@ -364,7 +364,7 @@
     :cond_5
     const-string v3, "notifyDataSetChanged error, context is null."
 
-    invoke-static {v6, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     add-int/lit8 v11, v11, 0x1

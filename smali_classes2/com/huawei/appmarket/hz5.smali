@@ -12,161 +12,89 @@
     return-void
 .end method
 
-.method public static final a()V
-    .registers 4
+.method public static a(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    .registers 3
 
     .line 1
-    const-string v0, "verticalsearchtextcard"
+    const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
+    if-nez p0, :cond_0
 
-    move-result-object v0
+    return v0
 
-    const-class v1, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/VerticalSearchTextNode;
+    :cond_0
+    iget v1, p0, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->ctype_:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
+    if-nez v1, :cond_1
 
-    const-class v1, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/VerticalSearchTextCardBean;
+    iget p0, p0, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->submitType_:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
+    const/16 v1, 0xa
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
+    if-ne p0, v1, :cond_1
 
-    const-string v0, "lowconversionratepermitsearchcard"
+    const/4 v0, 0x1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
+    :cond_1
+    return v0
+.end method
 
-    move-result-object v0
+.method public static b(Lcom/huawei/appgallery/updatemanager/ui/cardkit/bean/UpdateRecordCardBean;)Z
+    .registers 3
 
-    const-class v1, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/LowConversionRatePermitAppSearchNode;
+    .line 1
+    const/4 v0, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
+    if-nez p0, :cond_0
 
-    const-class v1, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/PermitAppSearchCardBean;
+    return v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->getCtype_()I
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
+    move-result v1
 
-    const-string v0, "permitsearchlistcardv1"
+    if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->getSubmitType_()I
 
-    move-result-object v0
+    move-result p0
 
-    const-class v2, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/PermitAppSearchListV1Node;
+    const/16 v1, 0xa
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
+    if-ne p0, v1, :cond_1
 
-    const-class v2, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/PermitAppSearchItemCardBean;
+    const/4 v0, 0x1
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
+    :cond_1
+    return v0
+.end method
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
+.method public static c(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    .registers 3
 
-    const-string v0, "highconversionratepermitsearchcard"
+    .line 1
+    const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
+    if-nez p0, :cond_0
 
-    move-result-object v0
+    return v0
 
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/HighConversionRatePermitAppSearchNode;
+    :cond_0
+    invoke-static {p0}, Lcom/huawei/appmarket/hz5;->a(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
+    move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
+    if-eqz v1, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
+    iget p0, p0, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->detailType_:I
 
-    const-string v0, "verticalsearchlistcard"
+    const/16 v1, 0x65
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
+    if-ne p0, v1, :cond_1
 
-    move-result-object v0
+    const/4 v0, 0x1
 
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/VerticalSearchListNode;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/VerticalSearchItemCardBean;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    const-string v0, "verticalsearchcard"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
-
-    move-result-object v0
-
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/VerticalSearchNode;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/VerticalSearchCardBean;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    const-string v0, "highconversionratepermitsearchcardv1"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
-
-    move-result-object v0
-
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/HighConversionRatePermitAppSearchV1Node;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    const-string v0, "permitsearchlistcard"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
-
-    move-result-object v0
-
-    const-class v3, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/PermitAppSearchListNode;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    const-string v0, "cnpermitsearchcard"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
-
-    move-result-object v0
-
-    const-class v2, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/CnPermitAppSearchNode;
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    const-class v2, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/CnPermitAppSearchCardBean;
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    const-string v0, "permitsearchcard"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/kk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kk0;
-
-    move-result-object v0
-
-    const-class v2, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/node/PermitAppSearchNode;
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kk0;->f(Ljava/lang/Class;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kk0;->e(Ljava/lang/Class;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kk0;->b()V
-
-    return-void
+    :cond_1
+    return v0
 .end method

@@ -17,7 +17,7 @@
 # instance fields
 .field private final a:Ljava/util/ArrayList;
 
-.field private b:Lcom/huawei/appmarket/w86;
+.field private b:Lcom/huawei/appmarket/y86;
 
 .field private c:Z
 
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/w86;
+    iget-object v0, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/y86;
 
     if-eqz v0, :cond_0
 
@@ -91,7 +91,7 @@
 
     new-instance v7, Lcom/google/protobuf/y1;
 
-    iget-object v2, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/w86;
+    iget-object v2, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/y86;
 
     iget-boolean v3, p0, Lcom/google/protobuf/y1$a;->d:Z
 
@@ -113,7 +113,7 @@
 
     move-object v1, v7
 
-    invoke-direct/range {v1 .. v6}, Lcom/google/protobuf/y1;-><init>(Lcom/huawei/appmarket/w86;Z[I[Lcom/google/protobuf/a0;Ljava/lang/Object;)V
+    invoke-direct/range {v1 .. v6}, Lcom/google/protobuf/y1;-><init>(Lcom/huawei/appmarket/y86;Z[I[Lcom/google/protobuf/a0;Ljava/lang/Object;)V
 
     return-object v7
 
@@ -187,7 +187,7 @@
     return-void
 .end method
 
-.method public final f(Lcom/huawei/appmarket/w86;)V
+.method public final f(Lcom/huawei/appmarket/y86;)V
     .registers 3
 
     .line 1
@@ -199,7 +199,7 @@
 
     .line 4
     .line 5
-    iput-object p1, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/w86;
+    iput-object p1, p0, Lcom/google/protobuf/y1$a;->b:Lcom/huawei/appmarket/y86;
 
     .line 6
     .line 7

@@ -310,7 +310,7 @@
 
     const/high16 v5, 0x3f800000    # 1.0f
 
-    invoke-static {v3, v4, v5}, Lcom/huawei/appmarket/ge8;->i(FFF)F
+    invoke-static {v3, v4, v5}, Lcom/huawei/appmarket/le8;->i(FFF)F
 
     move-result v3
 

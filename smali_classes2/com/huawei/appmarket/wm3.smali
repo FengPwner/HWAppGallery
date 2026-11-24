@@ -3,24 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/ck1;
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/ad1;
 .end annotation
 
 
 # virtual methods
-.method public abstract D2()I
+.method public abstract L(Ljava/lang/String;)V
 .end method
 
-.method public abstract i0()Ljava/lang/String;
-.end method
-
-.method public abstract r2(Ljava/lang/String;Lcom/huawei/appmarket/xm3;)V
-.end method
-
-.method public abstract z2(Ljava/lang/String;)V
+.method public abstract p0(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 .end method

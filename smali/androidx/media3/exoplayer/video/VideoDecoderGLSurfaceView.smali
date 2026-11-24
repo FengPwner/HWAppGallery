@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dh8;
+.implements Lcom/huawei/appmarket/jh8;
 
 
 # annotations
@@ -61,7 +61,7 @@
 
 
 # virtual methods
-.method public getVideoDecoderOutputBufferRenderer()Lcom/huawei/appmarket/dh8;
+.method public getVideoDecoderOutputBufferRenderer()Lcom/huawei/appmarket/jh8;
     .registers 1
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
@@ -70,13 +70,13 @@
     return-object p0
 .end method
 
-.method public setOutputBuffer(Lcom/huawei/appmarket/ch8;)V
+.method public setOutputBuffer(Lcom/huawei/appmarket/ih8;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Landroidx/media3/exoplayer/video/VideoDecoderGLSurfaceView;->b:Landroidx/media3/exoplayer/video/VideoDecoderGLSurfaceView$a;
 
-    invoke-virtual {v0, p1}, Landroidx/media3/exoplayer/video/VideoDecoderGLSurfaceView$a;->a(Lcom/huawei/appmarket/ch8;)V
+    invoke-virtual {v0, p1}, Landroidx/media3/exoplayer/video/VideoDecoderGLSurfaceView$a;->a(Lcom/huawei/appmarket/ih8;)V
 
     return-void
 .end method

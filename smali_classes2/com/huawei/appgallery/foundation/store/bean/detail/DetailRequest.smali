@@ -29,19 +29,19 @@
 .field private accessId_:Ljava/lang/String;
 
 .field private batchId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private businessId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private channelNo_:Ljava/lang/String;
 
 .field private cityId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -51,7 +51,7 @@
 .field private dataFilterSwitch_:Ljava/lang/String;
 
 .field private deeplinkId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 .field private fid_:I
 
 .field private hostPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -71,7 +71,7 @@
 .field private installedVersionCode_:Ljava/lang/String;
 
 .field private installedVersionName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -80,32 +80,32 @@
 .field private needFilteredApps_:Ljava/lang/String;
 
 .field private offShelvesExperiment:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private operationinfo:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest$a;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private osv:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private outside:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pageContext:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private preload:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -116,18 +116,18 @@
 .field private secondRefresh:Z
 
 .field private shellApkVer:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private slat_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private slng_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -162,7 +162,7 @@
     return-void
 .end method
 
-.method public static e0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+.method public static c0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
     .registers 7
 
     .line 1
@@ -193,7 +193,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -202,12 +202,12 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U(I)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
 
     .line 25
     .line 26
@@ -221,7 +221,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 33
     .line 34
@@ -269,7 +269,7 @@
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U(I)V
 
     .line 57
     .line 58
@@ -542,16 +542,7 @@
 
 
 # virtual methods
-.method public final A0(Z)V
-    .registers 2
-
-    .line 1
-    iput-boolean p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->secondRefresh:Z
-
-    return-void
-.end method
-
-.method public final B0(J)V
+.method public final A0(J)V
     .registers 3
 
     .line 1
@@ -560,7 +551,7 @@
     return-void
 .end method
 
-.method public final C0(Ljava/lang/String;)V
+.method public final B0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -569,7 +560,7 @@
     return-void
 .end method
 
-.method public final D0(I)V
+.method public final C0(I)V
     .registers 2
 
     .line 1
@@ -578,7 +569,7 @@
     return-void
 .end method
 
-.method public final E0(Ljava/lang/String;)V
+.method public final D0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -587,7 +578,7 @@
     return-void
 .end method
 
-.method public final Y()Ljava/lang/String;
+.method public final X()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -596,7 +587,7 @@
     return-object v0
 .end method
 
-.method public final Z()Ljava/lang/String;
+.method public final Y()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -605,7 +596,7 @@
     return-object v0
 .end method
 
-.method public a0()I
+.method public Z()I
     .registers 2
 
     .line 1
@@ -614,7 +605,7 @@
     return v0
 .end method
 
-.method public final c0()Z
+.method public final a0()Z
     .registers 2
 
     .line 1
@@ -623,11 +614,20 @@
     return v0
 .end method
 
-.method public final g0(Ljava/lang/String;)V
+.method public final e0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->accessId_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final g0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->batchId:Ljava/lang/String;
 
     return-void
 .end method
@@ -641,7 +641,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     move-result-object v1
 
@@ -651,7 +651,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     move-result-object v1
 
@@ -668,7 +668,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     move-result-object v1
 
@@ -678,7 +678,7 @@
 
     move-result v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->l(I)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->l(I)Z
 
     move-result v1
 
@@ -712,7 +712,9 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->batchId:Ljava/lang/String;
+    const-string p1, "inner-deeplink"
+
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->businessId:Ljava/lang/String;
 
     return-void
 .end method
@@ -721,9 +723,7 @@
     .registers 2
 
     .line 1
-    const-string p1, "inner-deeplink"
-
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->businessId:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->channelNo_:Ljava/lang/String;
 
     return-void
 .end method
@@ -732,7 +732,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->channelNo_:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->contentPkg_:Ljava/lang/String;
 
     return-void
 .end method
@@ -741,7 +741,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->contentPkg_:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->dataFilterSwitch_:Ljava/lang/String;
 
     return-void
 .end method
@@ -750,7 +750,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->dataFilterSwitch_:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->deeplinkId:Ljava/lang/String;
 
     return-void
 .end method
@@ -759,16 +759,16 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->deeplinkId:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->domainId_:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public final n0(Ljava/lang/String;)V
+.method public final n0(I)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->domainId_:Ljava/lang/String;
+    iput p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->fid_:I
 
     return-void
 .end method
@@ -781,11 +781,11 @@
     return v0
 .end method
 
-.method public final o0(I)V
+.method public final o0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    iput p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->fid_:I
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->inputWord_:Ljava/lang/String;
 
     return-void
 .end method
@@ -844,7 +844,7 @@
 
     .line 26
     .line 27
-    sget v0, Lcom/huawei/appmarket/zn1;->f:I
+    sget v0, Lcom/huawei/appmarket/co1;->f:I
 
     .line 28
     .line 29
@@ -856,7 +856,7 @@
 
     .line 32
     .line 33
-    invoke-static {}, Lcom/huawei/appmarket/mn0;->f()Lcom/huawei/appmarket/mn0;
+    invoke-static {}, Lcom/huawei/appmarket/nn0;->f()Lcom/huawei/appmarket/nn0;
 
     .line 34
     .line 35
@@ -864,7 +864,7 @@
     move-result-object v0
 
     .line 37
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mn0;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nn0;->e()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -977,7 +977,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->inputWord_:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->installedVersionCode_:Ljava/lang/String;
 
     return-void
 .end method
@@ -986,27 +986,27 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->installedVersionCode_:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final r0(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->installedVersionName:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public final s0()V
+.method public final r0()V
     .registers 2
 
     .line 1
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->isSupportPage_:I
+
+    return-void
+.end method
+
+.method public final s0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->needFilteredApps_:Ljava/lang/String;
 
     return-void
 .end method
@@ -1019,16 +1019,7 @@
     return-void
 .end method
 
-.method public final t0(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->needFilteredApps_:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public u0(I)V
+.method public t0(I)V
     .registers 2
 
     .line 1
@@ -1037,7 +1028,7 @@
     return-void
 .end method
 
-.method public final v0(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest$a;)V
+.method public final u0(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest$a;)V
     .registers 2
 
     .line 1
@@ -1046,7 +1037,7 @@
     return-void
 .end method
 
-.method public final w0(I)V
+.method public final v0(I)V
     .registers 2
 
     .line 1
@@ -1055,7 +1046,7 @@
     return-void
 .end method
 
-.method public final x0(Ljava/lang/String;)V
+.method public final w0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -1064,7 +1055,7 @@
     return-void
 .end method
 
-.method public final y0()V
+.method public final x0()V
     .registers 2
 
     .line 1
@@ -1075,11 +1066,20 @@
     return-void
 .end method
 
-.method public final z0(Ljava/lang/String;)V
+.method public final y0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->scheme_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final z0(Z)V
+    .registers 2
+
+    .line 1
+    iput-boolean p1, p0, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->secondRefresh:Z
 
     return-void
 .end method

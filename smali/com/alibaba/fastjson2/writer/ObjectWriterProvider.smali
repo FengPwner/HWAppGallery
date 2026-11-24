@@ -1896,11 +1896,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/jm5;
+    new-instance v1, Lcom/huawei/appmarket/lm5;
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v2, p0, p2, p1}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p0, p2, p1}, Lcom/huawei/appmarket/lm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-static {v0, v1}, Lcom/alibaba/fastjson2/util/BeanUtils;->annotationMethods(Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Consumer;)V
 
@@ -2274,7 +2274,7 @@
 
     move-result-object v5
 
-    const-string v9, "com.huawei.appmarket.z75"
+    const-string v9, "com.huawei.appmarket.c85"
 
     invoke-virtual {v5, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2598,11 +2598,11 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/mm5;
+    new-instance v2, Lcom/huawei/appmarket/om5;
 
     const/4 v4, 0x4
 
-    invoke-direct {v2, p1, v3, v4}, Lcom/huawei/appmarket/mm5;-><init>(Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/lang/annotation/Annotation;I)V
+    invoke-direct {v2, p1, v3, v4}, Lcom/huawei/appmarket/om5;-><init>(Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/lang/annotation/Annotation;I)V
 
     invoke-static {v1, v2}, Lcom/alibaba/fastjson2/util/BeanUtils;->annotationMethods(Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Consumer;)V
 
@@ -4259,9 +4259,9 @@
 
     new-array v4, v3, [Lcom/alibaba/fastjson2/writer/FieldWriter;
 
-    new-instance v7, Lcom/huawei/appmarket/um5;
+    new-instance v7, Lcom/huawei/appmarket/vm5;
 
-    invoke-direct {v7, v8}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v7, v8}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v10, "fileName"
 
@@ -4285,9 +4285,9 @@
 
     aput-object v7, v4, v9
 
-    new-instance v7, Lcom/huawei/appmarket/um5;
+    new-instance v7, Lcom/huawei/appmarket/vm5;
 
-    invoke-direct {v7, v5}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v7, v5}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v8, "className"
 
@@ -4297,9 +4297,9 @@
 
     aput-object v7, v4, v6
 
-    new-instance v6, Lcom/huawei/appmarket/um5;
+    new-instance v6, Lcom/huawei/appmarket/vm5;
 
-    invoke-direct {v6, v3}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v6, v3}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v3, "methodName"
 
@@ -4354,11 +4354,11 @@
 
     new-array v4, v5, [Lcom/alibaba/fastjson2/writer/FieldWriter;
 
-    new-instance v5, Lcom/huawei/appmarket/um5;
+    new-instance v5, Lcom/huawei/appmarket/vm5;
 
     const/4 v7, 0x5
 
-    invoke-direct {v5, v7}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v5, v7}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     invoke-static {v11, v3, v5}, Lcom/alibaba/fastjson2/writer/ObjectWriters;->fieldWriter(Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Function;)Lcom/alibaba/fastjson2/writer/FieldWriter;
 
@@ -4366,11 +4366,11 @@
 
     aput-object v3, v4, v8
 
-    new-instance v3, Lcom/huawei/appmarket/um5;
+    new-instance v3, Lcom/huawei/appmarket/vm5;
 
     const/4 v5, 0x6
 
-    invoke-direct {v3, v5}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v3, v5}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     invoke-static {v10, v2, v3}, Lcom/alibaba/fastjson2/writer/ObjectWriters;->fieldWriter(Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Function;)Lcom/alibaba/fastjson2/writer/FieldWriter;
 
@@ -4378,11 +4378,11 @@
 
     aput-object v2, v4, v9
 
-    new-instance v2, Lcom/huawei/appmarket/um5;
+    new-instance v2, Lcom/huawei/appmarket/vm5;
 
     const/4 v3, 0x7
 
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v3, "parameterTypes"
 
@@ -4421,11 +4421,11 @@
 
     new-array v4, v6, [Lcom/alibaba/fastjson2/writer/FieldWriter;
 
-    new-instance v5, Lcom/huawei/appmarket/um5;
+    new-instance v5, Lcom/huawei/appmarket/vm5;
 
     const/16 v6, 0x8
 
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v5, v6}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     invoke-static {v11, v3, v5}, Lcom/alibaba/fastjson2/writer/ObjectWriters;->fieldWriter(Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Function;)Lcom/alibaba/fastjson2/writer/FieldWriter;
 
@@ -4433,11 +4433,11 @@
 
     aput-object v3, v4, v8
 
-    new-instance v3, Lcom/huawei/appmarket/um5;
+    new-instance v3, Lcom/huawei/appmarket/vm5;
 
     const/16 v5, 0x9
 
-    invoke-direct {v3, v5}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v3, v5}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     invoke-static {v10, v2, v3}, Lcom/alibaba/fastjson2/writer/ObjectWriters;->fieldWriter(Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Function;)Lcom/alibaba/fastjson2/writer/FieldWriter;
 
@@ -4466,11 +4466,11 @@
 
     new-array v1, v5, [Lcom/alibaba/fastjson2/writer/FieldWriter;
 
-    new-instance v3, Lcom/huawei/appmarket/um5;
+    new-instance v3, Lcom/huawei/appmarket/vm5;
 
     const/16 v4, 0xa
 
-    invoke-direct {v3, v4}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v3, v4}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v4, "actualTypeArguments"
 
@@ -4482,9 +4482,9 @@
 
     aput-object v3, v1, v8
 
-    new-instance v3, Lcom/huawei/appmarket/um5;
+    new-instance v3, Lcom/huawei/appmarket/vm5;
 
-    invoke-direct {v3, v9}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v3, v9}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v4, "ownerType"
 
@@ -4496,9 +4496,9 @@
 
     aput-object v3, v1, v9
 
-    new-instance v3, Lcom/huawei/appmarket/um5;
+    new-instance v3, Lcom/huawei/appmarket/vm5;
 
-    invoke-direct {v3, v6}, Lcom/huawei/appmarket/um5;-><init>(I)V
+    invoke-direct {v3, v6}, Lcom/huawei/appmarket/vm5;-><init>(I)V
 
     const-string v4, "rawType"
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -41,7 +41,7 @@
 
     const/4 p2, 0x0
 
-    new-array p2, p2, [Lcom/huawei/appmarket/jn;
+    new-array p2, p2, [Lcom/huawei/appmarket/in;
 
     invoke-virtual {p1, p2}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 

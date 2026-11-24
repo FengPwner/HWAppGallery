@@ -91,7 +91,7 @@
 
     move-result v1
 
-    iget-object v2, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
     invoke-static {p1}, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->t2(Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;)Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -101,9 +101,9 @@
 
     move-result v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ja3;->p(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ma3;->p(I)V
 
-    iget-object v2, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->u2()Landroidx/recyclerview/widget/RecyclerView;
 
@@ -113,7 +113,7 @@
 
     move-result v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ja3;->o(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ma3;->o(I)V
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -123,9 +123,9 @@
 
     invoke-virtual {p2, v1}, Lcom/huawei/appgallery/horizontalcard/api/bean/HorizontalModuleCardBean;->setPosition(I)V
 
-    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ma3;->e()I
 
     move-result p1
 
@@ -134,17 +134,17 @@
     goto :goto_1
 
     :cond_2
-    iget-object v0, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->e()I
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/huawei/appgallery/horizontalcard/api/bean/HorizontalModuleCardBean;->setOffset(I)V
 
-    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ja3;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ma3;->f()I
 
     move-result p1
 

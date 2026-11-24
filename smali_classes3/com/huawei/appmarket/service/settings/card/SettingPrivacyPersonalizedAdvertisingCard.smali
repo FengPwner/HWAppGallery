@@ -83,7 +83,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     .line 33
     .line 34
@@ -91,7 +91,7 @@
     move-result-object v1
 
     .line 36
-    invoke-virtual {v1}, Lcom/huawei/appmarket/aj6;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/cj6;->c()I
 
     .line 37
     .line 38
@@ -107,7 +107,7 @@
 
     .line 43
     .line 44
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 45
     .line 46
@@ -198,5 +198,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

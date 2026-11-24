@@ -101,7 +101,7 @@
     .line 42
     .line 43
     :goto_0
-    invoke-static {p1, v4}, Lcom/huawei/appmarket/gj5;->d(Ljava/lang/String;Z)V
+    invoke-static {p1, v4}, Lcom/huawei/appmarket/ij5;->d(Ljava/lang/String;Z)V
 
     .line 44
     .line 45
@@ -180,7 +180,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {}, Lcom/huawei/appmarket/ih5;->g()Lcom/huawei/appmarket/ih5;
+    invoke-static {}, Lcom/huawei/appmarket/lh5;->g()Lcom/huawei/appmarket/lh5;
 
     .line 86
     .line 87
@@ -192,7 +192,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {v0, p0, p1, v6, v1}, Lcom/huawei/appmarket/ih5;->h(Landroid/app/Activity;ZLcom/huawei/appmarket/service/installresult/bean/InstallPopWindowInfo;Ljava/lang/String;)V
+    invoke-virtual {v0, p0, p1, v6, v1}, Lcom/huawei/appmarket/lh5;->h(Landroid/app/Activity;ZLcom/huawei/appmarket/service/installresult/bean/InstallPopWindowInfo;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -225,5 +225,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

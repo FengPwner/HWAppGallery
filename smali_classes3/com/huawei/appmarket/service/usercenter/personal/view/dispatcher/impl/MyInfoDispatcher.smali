@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tm2;
+.implements Lcom/huawei/appmarket/vm2;
 
 
 # instance fields
@@ -21,7 +21,7 @@
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic a(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
@@ -30,7 +30,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 5
     .line 6
@@ -42,7 +42,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -54,7 +54,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -235,10 +235,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public static synthetic c(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic c(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/nv7;)V
     .registers 2
 
     .line 1
@@ -247,7 +246,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 5
     .line 6
@@ -427,14 +426,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private e()V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -446,11 +444,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -458,11 +456,11 @@
     move-result-object v0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -470,7 +468,7 @@
     move-result-object v0
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 20
     .line 21
@@ -491,7 +489,7 @@
     move-result-object v2
 
     .line 30
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 31
     .line 32
@@ -508,7 +506,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 40
     .line 41
@@ -520,7 +518,7 @@
 
     .line 44
     .line 45
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -654,7 +652,7 @@
 
     const-class v0, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -662,7 +660,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->a:Landroid/content/Context;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -672,7 +670,7 @@
 
     invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/c;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 
@@ -681,7 +679,7 @@
 
     const-string v0, "MyInfoDispatcher dispatch to logout hwid because of hwid not installed"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->e()V
 
@@ -697,7 +695,7 @@
     .line 1
     const/16 p1, 0x8
 
-    invoke-static {p1}, Lcom/huawei/appmarket/k66;->a(I)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/m66;->a(I)Z
 
     move-result p1
 
@@ -720,7 +718,7 @@
 
     const-class v0, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -728,7 +726,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->a:Landroid/content/Context;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -738,7 +736,7 @@
 
     invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/c;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -783,7 +781,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/tm2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/vm2;)V
 
     .line 20
     .line 21
@@ -806,12 +804,12 @@
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/tm2;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/vm2;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/tm2;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/vm2;)V
 
     .line 35
     .line 36

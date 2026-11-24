@@ -57,7 +57,7 @@
 
     check-cast p1, Lcom/huawei/appmarket/service/infoflow/cards/bean/BaseInfoFlowCardBean;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/yb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
 
     move-result-object v0
 

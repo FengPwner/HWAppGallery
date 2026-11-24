@@ -1,59 +1,108 @@
-.class final Lcom/huawei/appmarket/bi2;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/bi2;
+.super Lcom/huawei/appmarket/cr5;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ao5;
+
+# static fields
+.field private static final serialVersionUID:J = -0x37be51bfb752ef7L
 
 
 # instance fields
-.field final synthetic b:Landroid/content/Context;
+.field private e:J
 
-.field final synthetic c:Lcom/huawei/appmarket/yh2;
+.field private f:I
 
-.field final synthetic d:Lcom/huawei/appmarket/lw7;
+.field private g:I
 
-.field final synthetic e:Lcom/huawei/appmarket/ci2;
+.field private h:Z
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ci2;Landroid/content/Context;Lcom/huawei/appmarket/yh2;Lcom/huawei/appmarket/lw7;)V
-    .registers 5
+.method public constructor <init>(JILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 7
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/bi2;->e:Lcom/huawei/appmarket/ci2;
+    invoke-direct {p0, p4, p5, p6}, Lcom/huawei/appmarket/cr5;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/bi2;->b:Landroid/content/Context;
+    const/4 p4, 0x0
 
-    iput-object p3, p0, Lcom/huawei/appmarket/bi2;->c:Lcom/huawei/appmarket/yh2;
+    iput p4, p0, Lcom/huawei/appmarket/bi2;->g:I
 
-    iput-object p4, p0, Lcom/huawei/appmarket/bi2;->d:Lcom/huawei/appmarket/lw7;
+    iput-boolean p4, p0, Lcom/huawei/appmarket/bi2;->h:Z
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-wide p1, p0, Lcom/huawei/appmarket/bi2;->e:J
+
+    iput p3, p0, Lcom/huawei/appmarket/bi2;->f:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 5
+.method public final f()J
+    .registers 3
 
     .line 1
-    const/4 p1, -0x1
+    iget-wide v0, p0, Lcom/huawei/appmarket/bi2;->e:J
 
-    if-ne p1, p3, :cond_0
+    return-wide v0
+.end method
 
-    iget-object p1, p0, Lcom/huawei/appmarket/bi2;->c:Lcom/huawei/appmarket/yh2;
+.method public final g()I
+    .registers 2
 
-    iget-object p2, p0, Lcom/huawei/appmarket/bi2;->d:Lcom/huawei/appmarket/lw7;
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/bi2;->f:I
 
-    iget-object p3, p0, Lcom/huawei/appmarket/bi2;->e:Lcom/huawei/appmarket/ci2;
+    return v0
+.end method
 
-    iget-object v0, p0, Lcom/huawei/appmarket/bi2;->b:Landroid/content/Context;
+.method public final h()Z
+    .registers 3
 
-    invoke-static {p3, v0, p1, p2}, Lcom/huawei/appmarket/ci2;->a(Lcom/huawei/appmarket/ci2;Landroid/content/Context;Lcom/huawei/appmarket/yh2;Lcom/huawei/appmarket/lw7;)V
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/bi2;->g:I
+
+    const/4 v1, 0x1
+
+    if-ne v1, v0, :cond_0
+
+    goto :goto_0
 
     :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    return v1
+.end method
+
+.method public final i()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/bi2;->h:Z
+
+    return v0
+.end method
+
+.method public final j()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/bi2;->h:Z
+
+    return-void
+.end method
+
+.method public final k()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/bi2;->g:I
+
     return-void
 .end method

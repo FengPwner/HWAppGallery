@@ -38,7 +38,7 @@
 
     if-eqz p2, :cond_1
 
-    sget-object v1, Lcom/huawei/appmarket/if6;->c:[I
+    sget-object v1, Lcom/huawei/appmarket/kf6;->c:[I
 
     .line 2
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -300,7 +300,7 @@
 
     .line 97
     .line 98
-    const v1, 0x7f0a189a
+    const v1, 0x7f0a189b
 
     .line 99
     .line 100
@@ -342,7 +342,7 @@
 
     .line 119
     .line 120
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 121
     .line 122
@@ -610,8 +610,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 
@@ -885,7 +883,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setMemoVisibility(I)V
@@ -1108,5 +1105,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

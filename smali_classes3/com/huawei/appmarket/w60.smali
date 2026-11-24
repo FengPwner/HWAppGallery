@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -36,11 +36,11 @@
 
     .line 2
     .line 3
-    const-class v1, Lcom/huawei/appmarket/eo3;
+    const-class v1, Lcom/huawei/appmarket/go3;
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -48,7 +48,7 @@
     move-result-object v0
 
     .line 9
-    check-cast v0, Lcom/huawei/appmarket/eo3;
+    check-cast v0, Lcom/huawei/appmarket/go3;
 
     .line 10
     .line 11
@@ -63,7 +63,7 @@
 
     .line 15
     .line 16
-    invoke-interface {v0, v2, v3, v1}, Lcom/huawei/appmarket/eo3;->tryDownloadFA(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+    invoke-interface {v0, v2, v3, v1}, Lcom/huawei/appmarket/go3;->tryDownloadFA(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
 
     .line 17
     .line 18

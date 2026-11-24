@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/w34;
+.implements Lcom/huawei/appmarket/y34;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/w34<",
+        "Lcom/huawei/appmarket/y34<",
         "Lcom/huawei/appmarket/service/externalservice/distribution/common/request/CommonRequest;",
         "Lcom/huawei/appmarket/service/externalservice/distribution/common/response/CommonResponse;",
         ">;"
@@ -168,7 +168,7 @@
 
     .line 67
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 68
     .line 69
@@ -180,7 +180,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     .line 75

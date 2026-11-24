@@ -42,7 +42,7 @@
     const/4 v1, 0x2
 
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 12
     .line 13
@@ -168,7 +168,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final Y1(II)V
@@ -436,7 +435,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method protected final b2()Z

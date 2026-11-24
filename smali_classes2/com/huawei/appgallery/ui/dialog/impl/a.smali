@@ -54,7 +54,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ff0;
+    check-cast v2, Lcom/huawei/appmarket/gf0;
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -70,7 +70,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ff0;
+    check-cast v2, Lcom/huawei/appmarket/gf0;
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ff0;
+    check-cast v2, Lcom/huawei/appmarket/gf0;
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -98,7 +98,7 @@
 
     if-eqz p2, :cond_0
 
-    iget-object p2, p1, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/jo5;
+    iget-object p2, p1, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/ko5;
 
     if-nez p2, :cond_0
 
@@ -134,7 +134,7 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/jo5;
+    iget-object v0, p0, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/ko5;
 
     if-nez v0, :cond_1
 

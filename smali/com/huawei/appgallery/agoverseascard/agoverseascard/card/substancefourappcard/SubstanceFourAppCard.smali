@@ -304,7 +304,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v1
 
@@ -861,7 +861,7 @@
     .line 345
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -887,25 +887,25 @@
     :cond_1
     new-instance v1, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;->B:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;->C:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;->D:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/SubstanceFourAppCard;->E:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/substancefourappcard/HorizonSubstanceFourAppItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method

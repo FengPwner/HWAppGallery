@@ -1,99 +1,140 @@
-.class public Lcom/huawei/appmarket/pb9;
+.class public final Lcom/huawei/appmarket/pb9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/pb9$a;
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/quickcard/framework/configuration/device/IManufacturerDeviceInfo;
 
 
 # instance fields
-.field public a:Lcom/huawei/appmarket/pb9$a;
-
-.field public b:Landroid/app/Activity;
-
-.field public c:Landroid/app/Activity;
-
-.field public d:Ljava/lang/ref/WeakReference;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/ref/WeakReference<",
-            "Landroid/content/Context;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private a:Ljava/lang/Boolean;
 
 
 # direct methods
-.method public constructor <init>(Landroid/app/Activity;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    const/4 v0, 0x0
 
-    new-instance v0, Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lcom/huawei/appmarket/pb9;->a:Ljava/lang/Boolean;
 
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/pb9;->d:Ljava/lang/ref/WeakReference;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/pb9;->c:Landroid/app/Activity;
-
-    instance-of v0, p1, Lcom/huawei/appmarket/pb9$a;
-
-    if-eqz v0, :cond_0
-
-    check-cast p1, Lcom/huawei/appmarket/pb9$a;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/pb9;->a:Lcom/huawei/appmarket/pb9$a;
-
-    :cond_0
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(I)I
-    .registers 5
+.method public final getFoldedState()Lcom/huawei/appmarket/m89;
+    .registers 3
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    const-string v1, "invoke getFoldState, manufacturer::HONOR, os::"
 
-    const/16 v2, 0x17
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    if-lt v0, v2, :cond_0
-
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    invoke-virtual {v1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-static {p0}, Lcom/huawei/appmarket/ku3;->a(Lcom/huawei/quickcard/framework/configuration/device/IManufacturerDeviceInfo;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/gb9;->a(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)I
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result p1
-
-    return p1
-
-    :cond_0
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getColor(I)I
+    const-string v1, "HiHonorDeviceInfo"
 
-    move-result p1
+    invoke-static {v1, v0}, Lcom/huawei/quickcard/base/log/CardLogUtils;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    return p1
+    const-string v0, "com.hihonor.android.fsm.HwFoldScreenManagerEx"
+
+    const-string v1, "getFoldableState"
+
+    invoke-static {v0, v1}, Lcom/huawei/quickcard/base/utils/ReflectUtils;->reflectPublicMethodSimply(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    instance-of v1, v0, Ljava/lang/Integer;
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Ljava/lang/Integer;
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    invoke-static {v0}, Lcom/huawei/quickcard/utils/DeviceInfoUtils;->transformFoldState(I)Lcom/huawei/appmarket/m89;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final isFoldable()Z
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/pb9;->a:Ljava/lang/Boolean;
+
+    if-nez v0, :cond_0
+
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    iput-object v0, p0, Lcom/huawei/appmarket/pb9;->a:Ljava/lang/Boolean;
+
+    const-string v0, "com.hihonor.android.fsm.HwFoldScreenManagerEx"
+
+    const-string v1, "isFoldable"
+
+    invoke-static {v0, v1}, Lcom/huawei/quickcard/base/utils/ReflectUtils;->reflectPublicMethodSimply(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    instance-of v1, v0, Ljava/lang/Boolean;
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    iput-object v0, p0, Lcom/huawei/appmarket/pb9;->a:Ljava/lang/Boolean;
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/pb9;->a:Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final manufacturerName()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, "HONOR"
+
+    return-object v0
+.end method
+
+.method public final synthetic osType()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    invoke-static {p0}, Lcom/huawei/appmarket/ku3;->a(Lcom/huawei/quickcard/framework/configuration/device/IManufacturerDeviceInfo;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

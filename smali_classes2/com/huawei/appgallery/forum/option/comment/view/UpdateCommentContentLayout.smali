@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/np5;
-.implements Lcom/huawei/appmarket/g67;
+.implements Lcom/huawei/appmarket/op5;
+.implements Lcom/huawei/appmarket/l67;
 
 
 # annotations
@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a1744
+    const p2, 0x7f0a1745
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -81,7 +81,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentContentLayout;->b:Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;
 
-    const p2, 0x7f0a1743
+    const p2, 0x7f0a1744
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -125,7 +125,7 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0a1742
+    const p2, 0x7f0a1743
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentContentLayout;->b:Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->setSelectionChangedListener(Lcom/huawei/appmarket/g67;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->setSelectionChangedListener(Lcom/huawei/appmarket/l67;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentContentLayout;->b:Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;
 
@@ -209,11 +209,11 @@
 
     new-array v1, v1, [Landroid/text/InputFilter;
 
-    new-instance v2, Lcom/huawei/appmarket/gx7;
+    new-instance v2, Lcom/huawei/appmarket/lx7;
 
     iget v3, p0, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentContentLayout;->d:I
 
-    invoke-direct {v2, v3, p0}, Lcom/huawei/appmarket/gx7;-><init>(ILcom/huawei/appmarket/np5;)V
+    invoke-direct {v2, v3, p0}, Lcom/huawei/appmarket/lx7;-><init>(ILcom/huawei/appmarket/op5;)V
 
     const/4 v3, 0x0
 
@@ -243,7 +243,7 @@
 
     check-cast p3, Landroid/widget/EditText;
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ni7;->b(IILandroid/widget/EditText;)V
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ti7;->b(IILandroid/widget/EditText;)V
 
     :cond_0
     return-void
@@ -370,21 +370,21 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentContentLayout;->b:Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/huawei/appmarket/p68;->c()Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/u68;->c()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/p68;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/ArrayList;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/u68;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/ArrayList;)Landroid/text/SpannableStringBuilder;
 
     move-result-object p1
 

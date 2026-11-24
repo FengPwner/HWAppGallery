@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/util/List<",
         "Lcom/huawei/appmarket/service/store/awk/bean/VideoStreamListCardBean;",
         ">;>;"
@@ -47,7 +47,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->G3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/qh8;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->G3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/wh8;
 
     .line 6
     .line 7
@@ -55,7 +55,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qh8;->j(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wh8;->j(Ljava/util/List;)V
 
     .line 10
     .line 11
@@ -163,5 +163,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

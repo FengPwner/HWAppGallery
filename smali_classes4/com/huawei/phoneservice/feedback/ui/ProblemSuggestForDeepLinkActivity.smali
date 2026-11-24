@@ -237,13 +237,13 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string v0, "showContact"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -257,7 +257,7 @@
 
     const-string v0, "appId"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -265,7 +265,7 @@
 
     const-string v0, "categoryId"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -273,7 +273,7 @@
 
     const-string v0, "problemId"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -281,7 +281,7 @@
 
     const-string v0, "unicode"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -412,7 +412,7 @@
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "zipCompressFinished......"
+    const-string/jumbo v1, "zipCompressFinished......"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1777,6 +1777,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onActivityResult(IILandroid/content/Intent;)V
@@ -3275,65 +3295,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -3364,19 +3325,19 @@
 
     if-eqz p1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string v1, "CacheMap"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "FeedbackBean"
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/wz6;->g(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/a07;->g(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object v0
 
@@ -3724,10 +3685,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -4119,4 +4076,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

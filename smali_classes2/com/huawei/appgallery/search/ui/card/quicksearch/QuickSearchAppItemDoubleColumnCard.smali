@@ -152,7 +152,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -160,14 +160,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppItemDoubleColumnCard;->A:Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppItemCard;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_1
     return-void
@@ -239,7 +239,7 @@
     .registers 2
 
     .line 1
-    instance-of v0, p0, Lcom/huawei/appmarket/u47;
+    instance-of v0, p0, Lcom/huawei/appmarket/z47;
 
     .line 2
     .line 3

@@ -216,7 +216,7 @@
     const/4 p3, 0x1
 
     .line 19
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -796,7 +796,7 @@
     const-string v1, "unexpected port: "
 
     .line 1
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1181,7 +1181,7 @@
     iget-object v3, v0, Lcom/huawei/hms/network/embedded/m7$a;->b:Ljava/lang/String;
 
     .line 8
-    invoke-static {v2, v3, v14, v1}, Lcom/huawei/appmarket/ej2;->n(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3, v14, v1}, Lcom/huawei/appmarket/tr2;->l(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

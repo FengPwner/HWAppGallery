@@ -27,7 +27,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -39,7 +39,7 @@
 
     const-string v2, "Override initTitle, but nothing to do"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -118,7 +118,7 @@
     move-result-object p2
 
     .line 38
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->C(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->C(Landroid/content/Context;Landroid/view/View;)V
 
     .line 39
     .line 40
@@ -246,14 +246,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public final c0()V
+.method public final d0()V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -265,17 +264,17 @@
 
     const-string v2, "Override setControlMore, but nothing to do"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
 .end method
 
-.method protected final m0(Ljava/lang/String;)V
+.method protected final n0(Ljava/lang/String;)V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -287,7 +286,7 @@
 
     const-string v1, "Override setTitle, but nothing to do"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -297,7 +296,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -309,7 +308,7 @@
 
     const-string v2, "Override finishActivity, but nothing to do"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

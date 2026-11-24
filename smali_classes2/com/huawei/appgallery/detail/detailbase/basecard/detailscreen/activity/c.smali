@@ -50,7 +50,7 @@
 
     const-string v1, "com.huawei.appgallery.detail.detailbase.basecard.detailscreen.activity.GPreviewActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 

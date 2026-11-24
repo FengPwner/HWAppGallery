@@ -31,7 +31,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;->G3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;->G3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;)Lcom/huawei/appmarket/hh3;
 
     .line 4
     .line 5
@@ -39,7 +39,7 @@
     move-result-object v0
 
     .line 7
-    instance-of v0, v0, Lcom/huawei/appmarket/q24;
+    instance-of v0, v0, Lcom/huawei/appmarket/s24;
 
     .line 8
     .line 9
@@ -47,7 +47,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;->G3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;->G3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;)Lcom/huawei/appmarket/hh3;
 
     .line 12
     .line 13
@@ -55,11 +55,11 @@
     move-result-object p1
 
     .line 15
-    check-cast p1, Lcom/huawei/appmarket/q24;
+    check-cast p1, Lcom/huawei/appmarket/s24;
 
     .line 16
     .line 17
-    invoke-interface {p1}, Lcom/huawei/appmarket/q24;->isChecked()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/s24;->isChecked()Z
 
     .line 18
     .line 19
@@ -67,7 +67,7 @@
     move-result p1
 
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/no1;->v()Lcom/huawei/appmarket/no1;
+    invoke-static {}, Lcom/huawei/appmarket/qo1;->v()Lcom/huawei/appmarket/qo1;
 
     .line 22
     .line 23
@@ -84,7 +84,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 31
     .line 32
@@ -92,7 +92,7 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->c()I
 
     .line 35
     .line 36
@@ -109,7 +109,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 44
     .line 45
@@ -117,7 +117,7 @@
     move-result-object v2
 
     .line 47
-    invoke-virtual {v2}, Lcom/huawei/appmarket/vj5;->d()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/xj5;->d()I
 
     .line 48
     .line 49
@@ -180,7 +180,7 @@
 
     .line 79
     .line 80
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 81
     .line 82
@@ -210,5 +210,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

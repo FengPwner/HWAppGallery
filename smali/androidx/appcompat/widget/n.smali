@@ -132,7 +132,7 @@
     move-result-object v0
 
     .line 10
-    sget-object v2, Lcom/huawei/appmarket/pe6;->h:[I
+    sget-object v2, Lcom/huawei/appmarket/re6;->h:[I
 
     .line 11
     .line 12
@@ -172,7 +172,7 @@
     move v5, p2
 
     .line 28
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     .line 29
     .line 30

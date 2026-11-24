@@ -32,7 +32,7 @@
     return-object p0
 .end method
 
-.method protected final j2(Lcom/huawei/appmarket/sb3;Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;)V
+.method protected final j2(Lcom/huawei/appmarket/vb3;Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;)V
     .registers 4
 
     .line 1

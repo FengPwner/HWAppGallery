@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -37,19 +37,19 @@
 
     if-ne p3, p2, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    sget-object p2, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object p2, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string p3, "PayAgent"
 
     const-string v0, "processInitDownload has familysharing , will continue process(open/download)"
 
-    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-static {p1}, Lcom/huawei/appgallery/payauthkit/pay/app/control/d;->a(Lcom/huawei/appgallery/payauthkit/pay/app/control/d;)Ljava/util/HashMap;

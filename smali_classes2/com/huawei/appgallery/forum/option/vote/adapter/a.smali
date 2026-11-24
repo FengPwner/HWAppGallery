@@ -4,19 +4,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/qk8;
+.field final synthetic a:Lcom/huawei/appmarket/wk8;
 
 .field final synthetic b:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->b:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->a:Lcom/huawei/appmarket/qk8;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->a:Lcom/huawei/appmarket/wk8;
 
     invoke-direct {p0}, Lcom/huawei/appgallery/forum/option/vote/view/MultiLineRadioGroup$b;-><init>()V
 
@@ -29,9 +29,9 @@
     .registers 4
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->a:Lcom/huawei/appmarket/qk8;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->a:Lcom/huawei/appmarket/wk8;
 
-    iput p2, p1, Lcom/huawei/appmarket/qk8;->g:I
+    iput p2, p1, Lcom/huawei/appmarket/wk8;->g:I
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/a;->b:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 

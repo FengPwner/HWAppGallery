@@ -5,7 +5,7 @@
 
 # instance fields
 .field public apkInfos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/packagemanager/api/bean/InstallApkTypeProcess;
     .end annotation
 
@@ -19,28 +19,28 @@
 .end field
 
 .field public appId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public appShader:Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/packagemanager/api/bean/AppShaderTypeProcess;
     .end annotation
 .end field
 
 .field public downloadStartStatus:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public flag:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public forbidComponent:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/packagemanager/api/bean/ListStringTypeProcess;
     .end annotation
 
@@ -58,7 +58,7 @@
 .field public i:Z
 
 .field public isLinuxApp:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -71,12 +71,12 @@
 .field public m:Ljava/lang/String;
 
 .field public maple:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public mode:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -85,29 +85,29 @@
 .field public o:Ljava/lang/String;
 
 .field public obbFileNames:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public p:J
 
 .field public packageName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public packingType:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
-.field public processType:Lcom/huawei/appmarket/i76;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+.field public processType:Lcom/huawei/appmarket/k76;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public profileType:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -116,13 +116,13 @@
 .field public r:Z
 
 .field public shaderConfig:Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfigTypeProcess;
     .end annotation
 .end field
 
 .field public splitNames:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/packagemanager/api/bean/ListStringTypeProcess;
     .end annotation
 
@@ -135,33 +135,33 @@
     .end annotation
 .end field
 
-.field public status:Lcom/huawei/appmarket/vu;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+.field public status:Lcom/huawei/appmarket/wu;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public taskId:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public taskIndex:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
-.field public taskPriority:Lcom/huawei/appmarket/zv7;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+.field public taskPriority:Lcom/huawei/appmarket/fw7;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public uninstallForAllUser:Z
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field public versionCode:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -172,9 +172,9 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/vu;->b:Lcom/huawei/appmarket/vu;
+    sget-object v0, Lcom/huawei/appmarket/wu;->b:Lcom/huawei/appmarket/wu;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/vu;
+    iput-object v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/wu;
 
     const/4 v0, 0x0
 
@@ -182,9 +182,9 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->j:Z
 
-    sget-object v1, Lcom/huawei/appmarket/i76;->b:Lcom/huawei/appmarket/i76;
+    sget-object v1, Lcom/huawei/appmarket/k76;->b:Lcom/huawei/appmarket/k76;
 
-    iput-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iput-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->uninstallForAllUser:Z
 
@@ -249,9 +249,9 @@
 
     iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->h:Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
     iget v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->mode:I
 
@@ -261,9 +261,9 @@
 
     iput v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->flag:I
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/zv7;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/fw7;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/zv7;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/fw7;
 
     iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->obbFileNames:Ljava/lang/String;
 
@@ -328,13 +328,13 @@
 
     iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->h:Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/zv7;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/fw7;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/zv7;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/fw7;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/yv3;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/aw3;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/yv3;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/aw3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->i:Landroid/os/Handler;
 
@@ -411,13 +411,13 @@
 
     iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->h:Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/zv7;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->g:Lcom/huawei/appmarket/fw7;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/zv7;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskPriority:Lcom/huawei/appmarket/fw7;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/yv3;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->h:Lcom/huawei/appmarket/aw3;
 
-    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/yv3;
+    iput-object v1, v0, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/aw3;
 
     iget-object p0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/a;->i:Landroid/os/Handler;
 
@@ -561,7 +561,7 @@
     .line 66
     .line 67
     .line 68
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/vu;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/wu;
 
     .line 69
     .line 70
@@ -633,7 +633,7 @@
     .line 106
     .line 107
     .line 108
-    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
     .line 109
     .line 110
@@ -893,7 +893,7 @@
 
     .line 251
     .line 252
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->r(Ljava/lang/StringBuilder;ZC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->s(Ljava/lang/StringBuilder;ZC)Ljava/lang/String;
 
     .line 253
     .line 254
@@ -1244,13 +1244,4 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method

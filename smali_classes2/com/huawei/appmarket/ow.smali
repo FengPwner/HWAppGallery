@@ -7,13 +7,7 @@
 
 
 # instance fields
-.field private b:Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
-
-.field private d:I
-
-.field private e:Ljava/lang/ref/WeakReference;
+.field private b:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
@@ -23,71 +17,67 @@
     .end annotation
 .end field
 
+.field private c:Lcom/huawei/appgallery/appcomment/impl/bean/GetReplyResBean$ReplyComment;
+
+.field private d:Ljava/lang/String;
+
+.field private e:I
+
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/content/Context;II)V
+.method public constructor <init>(Lcom/huawei/appgallery/appcomment/impl/bean/GetReplyResBean$ReplyComment;Landroid/content/Context;I)V
     .registers 5
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    new-instance v0, Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;->getAppId()Ljava/lang/String;
+    invoke-direct {v0, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    move-result-object p4
+    iput-object v0, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/ref/WeakReference;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appmarket/ow;->c:Lcom/huawei/appgallery/appcomment/impl/bean/GetReplyResBean$ReplyComment;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/appcomment/impl/bean/CommentBaseInfo;->getId_()Ljava/lang/String;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ow;->c:Ljava/lang/String;
-
-    iput p3, p0, Lcom/huawei/appmarket/ow;->d:I
-
-    new-instance p1, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ow;->e:Ljava/lang/ref/WeakReference;
+    iput p3, p0, Lcom/huawei/appmarket/ow;->e:I
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;II)V
-    .registers 6
+.method public constructor <init>(Ljava/lang/String;Landroid/content/Context;I)V
+    .registers 5
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/String;
+    new-instance v0, Ljava/lang/ref/WeakReference;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/ow;->c:Ljava/lang/String;
+    invoke-direct {v0, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    iput p4, p0, Lcom/huawei/appmarket/ow;->d:I
+    iput-object v0, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/ref/WeakReference;
 
-    new-instance p1, Ljava/lang/ref/WeakReference;
+    iput-object p1, p0, Lcom/huawei/appmarket/ow;->d:Ljava/lang/String;
 
-    invoke-direct {p1, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ow;->e:Ljava/lang/ref/WeakReference;
+    iput p3, p0, Lcom/huawei/appmarket/ow;->e:I
 
     return-void
 .end method
 
-.method private a(Landroid/content/Context;ILcom/huawei/appmarket/bp;)Z
-    .registers 5
+.method private a(Landroid/content/Context;ILcom/huawei/appmarket/ap;)V
+    .registers 8
 
     .line 1
-    const/4 v0, 0x0
+    iget v0, p0, Lcom/huawei/appmarket/ow;->e:I
 
-    if-eqz p2, :cond_1
+    const/4 v1, 0x1
 
-    const p3, 0x61a8b
+    const/4 v2, 0x0
 
-    if-eq p2, p3, :cond_0
+    if-eqz p2, :cond_2
+
+    const v3, 0x61a8b
+
+    if-eq p2, v3, :cond_1
 
     packed-switch p2, :pswitch_data_0
 
@@ -100,19 +90,42 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
-    goto :goto_1
+    :goto_1
+    invoke-virtual {p3, v2}, Lcom/huawei/appmarket/ap;->m(I)V
+
+    goto :goto_3
 
     :pswitch_0
     const p2, 0x7f120220
 
-    goto :goto_0
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
+
+    goto :goto_3
 
     :pswitch_1
     const p2, 0x7f120203
 
-    goto :goto_0
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
+
+    if-nez v0, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_2
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/ap;->m(I)V
+
+    goto :goto_3
 
     :pswitch_2
     const p2, 0x7f1201fb
@@ -122,7 +135,13 @@
     :pswitch_3
     const p2, 0x7f1201fa
 
-    goto :goto_0
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
+
+    goto :goto_2
 
     :pswitch_4
     const p2, 0x7f120200
@@ -139,32 +158,27 @@
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
     const p2, 0x7f120202
 
     goto :goto_0
 
-    :goto_1
-    return v0
+    :cond_2
+    if-nez v0, :cond_3
 
-    :cond_1
-    iget p1, p0, Lcom/huawei/appmarket/ow;->d:I
-
-    const/4 p2, 0x1
-
-    if-nez p1, :cond_2
-
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/bp;->m(I)V
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/ap;->i(I)V
 
     goto :goto_2
 
-    :cond_2
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/bp;->m(I)V
+    :cond_3
+    const/4 p1, -0x1
 
-    :goto_2
-    return p2
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/ap;->i(I)V
 
-    nop
+    goto :goto_1
+
+    :goto_3
+    return-void
 
     :pswitch_data_0
     .packed-switch 0x61a86
@@ -205,7 +219,7 @@
 
     .line 1
     :try_start_0
-    iget-object p1, p0, Lcom/huawei/appmarket/ow;->e:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
@@ -218,19 +232,19 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/bp;
+    new-instance v0, Lcom/huawei/appmarket/ap;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/bp;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ap;-><init>()V
 
     instance-of v1, p2, Lcom/huawei/appgallery/appcomment/impl/bean/VoteResBean;
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_1
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
 
     move-result v1
 
-    if-nez v1, :cond_2
+    if-nez v1, :cond_1
 
     check-cast p2, Lcom/huawei/appgallery/appcomment/impl/bean/VoteResBean;
 
@@ -238,65 +252,73 @@
 
     move-result p2
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/appmarket/ow;->a(Landroid/content/Context;ILcom/huawei/appmarket/bp;)Z
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/appmarket/ow;->a(Landroid/content/Context;ILcom/huawei/appmarket/ap;)V
 
-    move-result p2
-
-    if-nez p2, :cond_1
-
-    return-void
-
-    :cond_1
-    iget-object p2, p0, Lcom/huawei/appmarket/ow;->b:Ljava/lang/String;
-
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/bp;->h(Ljava/lang/String;)V
-
-    iget-object p2, p0, Lcom/huawei/appmarket/ow;->c:Ljava/lang/String;
-
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/bp;->l(Ljava/lang/String;)V
-
-    new-instance p2, Landroid/content/Intent;
-
-    const-string v1, "com.huawei.appmarket.service.broadcast.Approved"
-
-    invoke-direct {p2, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    const-string v1, "ACTION_PARAM_COMMENT_APPROVED"
-
-    invoke-virtual {p2, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
-
-    goto :goto_1
+    goto :goto_0
 
     :catch_0
     move-exception p1
 
-    goto :goto_0
+    goto :goto_3
 
-    :cond_2
+    :cond_1
     const p2, 0x7f1201f9
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object p2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
-    const/4 p1, 0x0
+    const/4 p2, 0x0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bp;->m(I)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/ap;->m(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    return-void
-
     :goto_0
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    iget-object p2, p0, Lcom/huawei/appmarket/ow;->c:Lcom/huawei/appgallery/appcomment/impl/bean/GetReplyResBean$ReplyComment;
+
+    if-eqz p2, :cond_2
+
+    :try_start_1
+    invoke-virtual {p2}, Lcom/huawei/appgallery/appcomment/impl/bean/CommentBaseInfo;->getId_()Ljava/lang/String;
+
+    move-result-object p2
+
+    :goto_1
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/ap;->l(Ljava/lang/String;)V
+
+    goto :goto_2
+
+    :cond_2
+    iget-object p2, p0, Lcom/huawei/appmarket/ow;->d:Ljava/lang/String;
+
+    goto :goto_1
+
+    :goto_2
+    new-instance p2, Landroid/content/Intent;
+
+    const-string v1, "com.huawei.appmarket.service.broadcast.Approved.reply"
+
+    invoke-direct {p2, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const-string v1, "ACTION_PARAM_COMMENT_APPROVED_REPLY"
+
+    invoke-virtual {p2, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
+
+    move-result-object p1
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+
+    goto :goto_4
+
+    :goto_3
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -314,10 +336,10 @@
 
     move-result-object p1
 
-    const-string v0, "ApproveStoreCallBack"
+    const-string v0, "ApproveCommentReplyCallBack"
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    :goto_1
+    :goto_4
     return-void
 .end method

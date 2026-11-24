@@ -300,7 +300,7 @@
     .line 94
     .line 95
     .line 96
-    invoke-static {p1}, Lcom/huawei/appmarket/af8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ff8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
 
     .line 97
     .line 98
@@ -324,7 +324,7 @@
 
     .line 107
     .line 108
-    invoke-static {}, Lcom/huawei/appmarket/de5;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/ge5;->e()Z
 
     .line 109
     .line 110
@@ -340,7 +340,7 @@
 
     .line 115
     .line 116
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -366,7 +366,7 @@
 
     .line 127
     .line 128
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 129
     .line 130
@@ -675,7 +675,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final bridge synthetic onChanged(Ljava/lang/Object;)V

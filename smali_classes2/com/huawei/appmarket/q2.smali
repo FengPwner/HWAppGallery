@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field protected a:Lcom/huawei/appmarket/mi3;
+.field protected a:Lcom/huawei/appmarket/oi3;
 
 
 # direct methods
@@ -29,21 +29,21 @@
 .method protected abstract a(I)V
 .end method
 
-.method public final b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/mi3;)V
+.method public final b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/oi3;)V
     .registers 6
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/q2;->a:Lcom/huawei/appmarket/mi3;
+    iput-object p2, p0, Lcom/huawei/appmarket/q2;->a:Lcom/huawei/appmarket/oi3;
 
-    sget-object v0, Lcom/huawei/appmarket/qf;->a:Lcom/huawei/appmarket/sf;
+    sget-object v0, Lcom/huawei/appmarket/pf;->a:Lcom/huawei/appmarket/rf;
 
-    sget-object v1, Lcom/huawei/appmarket/sf$b;->b:Lcom/huawei/appmarket/sf$b;
+    sget-object v1, Lcom/huawei/appmarket/rf$b;->b:Lcom/huawei/appmarket/rf$b;
 
     new-instance v2, Lcom/huawei/appmarket/q2$a;
 
-    invoke-direct {v2, p0, p1, p2}, Lcom/huawei/appmarket/q2$a;-><init>(Lcom/huawei/appmarket/q2;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/mi3;)V
+    invoke-direct {v2, p0, p1, p2}, Lcom/huawei/appmarket/q2$a;-><init>(Lcom/huawei/appmarket/q2;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/oi3;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/sf;->a(Lcom/huawei/appmarket/sf$b;Lcom/huawei/appmarket/pf;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/rf;->a(Lcom/huawei/appmarket/rf$b;Lcom/huawei/appmarket/of;)V
 
     return-void
 .end method

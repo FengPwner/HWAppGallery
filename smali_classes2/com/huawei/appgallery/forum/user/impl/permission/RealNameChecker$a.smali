@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rk3;
+.implements Lcom/huawei/appmarket/tk3;
 
 
 # annotations
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/ty3;
+.field final synthetic a:Lcom/huawei/appmarket/vy3;
 
 .field final synthetic b:Landroid/app/Activity;
 
@@ -26,13 +26,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;Lcom/huawei/appmarket/ty3;Landroid/app/Activity;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;Lcom/huawei/appmarket/vy3;Landroid/app/Activity;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->c:Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->a:Lcom/huawei/appmarket/ty3;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->a:Lcom/huawei/appmarket/vy3;
 
     iput-object p3, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->b:Landroid/app/Activity;
 
@@ -58,7 +58,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     .line 7
     .line 8
@@ -76,7 +76,7 @@
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->a:Lcom/huawei/appmarket/ty3;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->a:Lcom/huawei/appmarket/vy3;
 
     .line 16
     .line 17
@@ -84,12 +84,12 @@
 
     .line 18
     .line 19
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/ty3;->b(Landroid/app/Activity;Lcom/huawei/appmarket/uy3;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/vy3;->b(Landroid/app/Activity;Lcom/huawei/appmarket/wy3;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-static {}, Lcom/huawei/appmarket/kq2;->v()Lcom/huawei/appmarket/kq2;
+    invoke-static {}, Lcom/huawei/appmarket/mq2;->v()Lcom/huawei/appmarket/mq2;
 
     .line 23
     .line 24
@@ -197,5 +197,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

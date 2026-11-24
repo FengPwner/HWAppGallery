@@ -4,84 +4,175 @@
 
 
 # static fields
-.field public static final a:Ljava/lang/String;
+.field private static final b:Lcom/huawei/appmarket/jy7;
+
+
+# instance fields
+.field private a:I
 
 
 # direct methods
 .method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jy7;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/jy7;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/jy7;->b:Lcom/huawei/appmarket/jy7;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
     .registers 2
 
     .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/jy7;->a:I
+
+    return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/jy7;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/jy7;->b:Lcom/huawei/appmarket/jy7;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final b()I
+    .registers 5
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
     .line 4
-    .line 5
-    .line 6
-    const-string v1, ".thirdProviderService.CONTENT_URI"
-
-    .line 7
-    .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 9
-    .line 10
-    .line 11
     move-result-object v0
 
+    .line 5
+    const-string v1, "GlobalConfig"
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/huawei/appmarket/gr6;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
+
+    .line 10
+    .line 11
     .line 12
-    sput-object v0, Lcom/huawei/appmarket/jy7;->a:Ljava/lang/String;
+    move-result-object v0
 
     .line 13
+    const-class v1, Lcom/huawei/appmarket/pr3;
+
     .line 14
-    return-void
     .line 15
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+
     .line 16
     .line 17
     .line 18
+    move-result-object v0
+
     .line 19
+    check-cast v0, Lcom/huawei/appmarket/pr3;
+
     .line 20
     .line 21
+    const/4 v1, 0x0
+
     .line 22
+    if-eqz v0, :cond_0
+
     .line 23
     .line 24
+    new-instance v2, Lcom/huawei/appmarket/as6$b;
+
     .line 25
     .line 26
+    invoke-direct {v2}, Lcom/huawei/appmarket/as6$b;-><init>()V
+
     .line 27
     .line 28
     .line 29
+    const/4 v3, 0x1
+
     .line 30
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/tr2;->h(Lcom/huawei/appmarket/as6$b;ZLcom/huawei/appmarket/pr3;)Ljava/lang/Object;
+
     .line 31
     .line 32
     .line 33
+    move-result-object v0
+
     .line 34
+    check-cast v0, Lcom/huawei/appmarket/qz0;
+
     .line 35
     .line 36
+    const-string v2, "INSTALL.THIRD_INSTALL_REPORT"
+
     .line 37
     .line 38
+    const-class v3, Ljava/lang/Integer;
+
     .line 39
     .line 40
+    invoke-static {v1, v0, v3, v2}, Lcom/huawei/appmarket/ci7;->j(ILcom/huawei/appmarket/qz0;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
     .line 41
     .line 42
     .line 43
+    move-result-object v0
+
     .line 44
+    check-cast v0, Ljava/lang/Integer;
+
     .line 45
     .line 46
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
     .line 47
     .line 48
     .line 49
+    move-result v0
+
     .line 50
+    iput v0, p0, Lcom/huawei/appmarket/jy7;->a:I
+
     .line 51
     .line 52
+    :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/jy7;->a:I
+
     .line 53
     .line 54
+    const/4 v2, -0x1
+
     .line 55
+    if-ne v2, v0, :cond_1
+
     .line 56
     .line 57
+    return v1
+
     .line 58
+    :cond_1
+    return v0
     .line 59
     .line 60
     .line 61
@@ -188,12 +279,4 @@
     .line 162
     .line 163
     .line 164
-.end method
-
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
 .end method

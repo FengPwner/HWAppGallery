@@ -71,65 +71,65 @@
 
     .line 20
     .line 21
-    const-string v0, "view"
+    const-string/jumbo v0, "view"
 
     .line 22
     .line 23
+    .line 24
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 24
     .line 25
     .line 26
+    .line 27
     move-result v0
 
-    .line 27
+    .line 28
     if-eqz v0, :cond_0
 
-    .line 28
     .line 29
+    .line 30
     move-object p1, p0
 
-    .line 30
+    .line 31
     goto :goto_0
 
-    .line 31
+    .line 32
     :cond_0
     const-string v0, "list-item"
 
-    .line 32
     .line 33
+    .line 34
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     move-result v0
 
-    .line 37
+    .line 38
     if-eqz v0, :cond_1
 
-    .line 38
     .line 39
+    .line 40
     return-object p1
 
-    .line 40
+    .line 41
     :cond_1
     const-string v0, "_"
 
-    .line 41
     .line 42
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     .line 43
+    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 44
     .line 45
+    .line 46
     move-result-object p1
 
-    .line 46
+    .line 47
     :cond_2
     :goto_0
     return-object p1
-    .line 47
     .line 48
     .line 49
     .line 50
@@ -355,10 +355,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static adaptToolkitLevel(Lorg/json/JSONObject;I)I
@@ -1753,6 +1749,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public static readToolkitLevel(Lorg/json/JSONObject;)I

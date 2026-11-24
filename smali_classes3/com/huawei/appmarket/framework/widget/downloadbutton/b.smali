@@ -90,7 +90,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/b;->h:Lcom/huawei/appmarket/framework/widget/downloadbutton/b$d;
 
-    invoke-static {}, Lcom/huawei/appmarket/av;->c()Lcom/huawei/appmarket/av;
+    invoke-static {}, Lcom/huawei/appmarket/bv;->c()Lcom/huawei/appmarket/bv;
 
     move-result-object p1
 
@@ -285,7 +285,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static b(Lcom/huawei/appmarket/framework/widget/downloadbutton/b;Lcom/huawei/appgallery/downloadproxy/api/bean/FullAppStatus;)V
@@ -360,15 +359,15 @@
 
     .line 34
     .line 35
-    new-instance v1, Lcom/huawei/appmarket/qj8;
+    new-instance v1, Lcom/huawei/appmarket/wj8;
 
     .line 36
     .line 37
-    const/16 v2, 0x1b
+    const/16 v2, 0x1d
 
     .line 38
     .line 39
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/qj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/wj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 40
     .line 41
@@ -509,7 +508,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/framework/widget/downloadbutton/b;)V
@@ -556,7 +554,7 @@
 
     const-string v1, "DependDownloadProgressDialogHelper"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -576,7 +574,7 @@
     :catch_0
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -584,7 +582,7 @@
 
     const-string v0, "dlProgressDialog dismiss IllegalArgumentException"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -632,13 +630,13 @@
     .line 1
     const-string v0, "DownloadProxy"
 
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/b;->f:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
@@ -650,7 +648,7 @@
 
     new-array v2, v2, [I
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/mo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/oo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v0
 
@@ -700,7 +698,7 @@
 
     float-to-int p1, p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->b(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -763,7 +761,7 @@
 
     float-to-int p1, p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->b(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -812,7 +810,7 @@
 
     const-string v0, "mActivity or mDownloadStatusText is null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -881,7 +879,7 @@
 
     const-string p1, "PRE_DOWNLOAD show"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v4, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/b;->l:Z
 
@@ -968,11 +966,11 @@
 
     const v0, 0x7f120f2a
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_2
 
@@ -995,7 +993,7 @@
 
     const-string v0, "msg type :INSTALL_STATUS_TYPE, appStatus: INSTALL_SERVICE_WAIT_INSTALL"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/b;->k(Z)V
 
@@ -1022,11 +1020,11 @@
 
     const-string v1, "msg type :INSTALL_STATUS_TYPE, appStatus: INSTALL_SERVICE_INSTALL_SUCCESS"
 
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    check-cast v0, Lcom/huawei/appmarket/q29;
+    check-cast v0, Lcom/huawei/appmarket/w29;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/q29;->c:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/huawei/appmarket/w29;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
@@ -1045,7 +1043,7 @@
 
     const-string p1, "msg type :INSTALL_STATUS_TYPE, appStatus: INSTALL_SERVICE_INSTALL_FAILED"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1068,7 +1066,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -1148,7 +1146,7 @@
     .line 45
     .line 46
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/av;->c()Lcom/huawei/appmarket/av;
+    invoke-static {}, Lcom/huawei/appmarket/bv;->c()Lcom/huawei/appmarket/bv;
 
     .line 47
     .line 48
@@ -1171,7 +1169,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -1305,7 +1303,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -1354,7 +1352,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1}, Lcom/huawei/appmarket/oo1;->a(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v1}, Lcom/huawei/appmarket/ro1;->a(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 33
     .line 34
@@ -1366,7 +1364,7 @@
 
     .line 37
     .line 38
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 39
     .line 40
@@ -1583,7 +1581,7 @@
     .line 146
     .line 147
     .line 148
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 149
     .line 150
@@ -1665,11 +1663,11 @@
 
     .line 189
     .line 190
-    const-class v5, Lcom/huawei/appmarket/yh3;
+    const-class v5, Lcom/huawei/appmarket/ai3;
 
     .line 191
     .line 192
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 193
     .line 194
@@ -1677,7 +1675,7 @@
     move-result-object v4
 
     .line 196
-    check-cast v4, Lcom/huawei/appmarket/yh3;
+    check-cast v4, Lcom/huawei/appmarket/ai3;
 
     .line 197
     .line 198
@@ -1693,7 +1691,7 @@
     move-result-object v5
 
     .line 204
-    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/yh3;->g(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/ai3;->g(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 205
     .line 206
@@ -1755,7 +1753,7 @@
 
     .line 233
     .line 234
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 235
     .line 236
@@ -1814,7 +1812,7 @@
 
     .line 260
     .line 261
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 262
     .line 263
@@ -2542,19 +2540,19 @@
 
     const-string v0, "DownloadProxy"
 
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->L()J
 
     move-result-wide v1
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/mo3;->d(J)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/oo3;->d(J)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/b;->d()V

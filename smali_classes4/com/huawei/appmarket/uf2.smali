@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lorg/apache/commons/lang3/function/FailableFunction;
+.implements Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
 
 # instance fields
-.field public final synthetic a:I
+.field public final synthetic b:I
 
-.field public final synthetic b:Lorg/apache/commons/lang3/function/FailableFunction;
+.field public final synthetic c:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
-.field public final synthetic c:Lorg/apache/commons/lang3/function/FailableFunction;
+.field public final synthetic d:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;I)V
+.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;I)V
     .registers 4
 
     .line 1
@@ -24,15 +24,15 @@
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Lcom/huawei/appmarket/uf2;->a:I
+    iput p3, p0, Lcom/huawei/appmarket/uf2;->b:I
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/uf2;->b:Lorg/apache/commons/lang3/function/FailableFunction;
+    iput-object p1, p0, Lcom/huawei/appmarket/uf2;->c:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     .line 7
     .line 8
-    iput-object p2, p0, Lcom/huawei/appmarket/uf2;->c:Lorg/apache/commons/lang3/function/FailableFunction;
+    iput-object p2, p0, Lcom/huawei/appmarket/uf2;->d:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     .line 9
     .line 10
@@ -538,90 +538,47 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 
 # virtual methods
-.method public final synthetic andThen(Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+.method public final synthetic andThen(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/uf2;->a:I
+    iget v0, p0, Lcom/huawei/appmarket/uf2;->b:I
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/vf2;->a(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/vf2;->a(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 5
+.method public final applyAsDouble(D)D
+    .registers 6
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/uf2;->a:I
+    iget v0, p0, Lcom/huawei/appmarket/uf2;->b:I
 
-    iget-object v1, p0, Lcom/huawei/appmarket/uf2;->c:Lorg/apache/commons/lang3/function/FailableFunction;
+    iget-object v1, p0, Lcom/huawei/appmarket/uf2;->d:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/uf2;->b:Lorg/apache/commons/lang3/function/FailableFunction;
+    iget-object v2, p0, Lcom/huawei/appmarket/uf2;->c:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-static {v2, v1, p1}, Lcom/huawei/appmarket/vf2;->d(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v1, p1, p2}, Lcom/huawei/appmarket/vf2;->d(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;D)D
 
-    move-result-object p1
+    move-result-wide p1
 
-    return-object p1
+    return-wide p1
 
     :pswitch_0
-    invoke-static {v2, v1, p1}, Lcom/huawei/appmarket/vf2;->c(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v1, p1, p2}, Lcom/huawei/appmarket/vf2;->c(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;D)D
 
-    move-result-object p1
+    move-result-wide p1
 
-    return-object p1
+    return-wide p1
 
     nop
 
@@ -631,13 +588,13 @@
     .end packed-switch
 .end method
 
-.method public final synthetic compose(Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+.method public final synthetic compose(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/uf2;->a:I
+    iget v0, p0, Lcom/huawei/appmarket/uf2;->b:I
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/vf2;->b(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/vf2;->b(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     move-result-object p1
 

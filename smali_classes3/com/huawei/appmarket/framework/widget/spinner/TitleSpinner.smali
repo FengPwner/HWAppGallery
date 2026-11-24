@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private w:Lcom/huawei/appmarket/yi7;
+.field private w:Lcom/huawei/appmarket/ej7;
 
 
 # direct methods
@@ -16,7 +16,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     return-void
 .end method
@@ -29,7 +29,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     const/4 p1, 0x1
 
@@ -86,23 +86,23 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     if-eqz v1, :cond_0
 
-    check-cast v1, Lcom/huawei/appmarket/cj7;
+    check-cast v1, Lcom/huawei/appmarket/ij7;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/cj7;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ij7;->a()V
 
     :cond_0
     return v0
 .end method
 
-.method public setExtendClick(Lcom/huawei/appmarket/yi7;)V
+.method public setExtendClick(Lcom/huawei/appmarket/ej7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/yi7;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->w:Lcom/huawei/appmarket/ej7;
 
     return-void
 .end method

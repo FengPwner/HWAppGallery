@@ -2,6 +2,18 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/tq3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/fg7;
+.end annotation
+
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/tq3;
+.end annotation
+
 
 # direct methods
 .method public constructor <init>()V
@@ -12,88 +24,23 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
-    .registers 3
+
+# virtual methods
+.method public final parseLongToString(J)Ljava/lang/String;
+    .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/p71;->a:Lcom/huawei/appmarket/p71;
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/p71;->getValue()Ljava/lang/String;
+    move-result-object v0
 
-    move-result-object v1
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
 
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result-object v0
 
-    move-result v1
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/jo2;->d(Landroid/content/Context;J)Ljava/lang/String;
 
-    if-eqz v1, :cond_0
+    move-result-object p1
 
-    return-object v0
-
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/p71;->c:Lcom/huawei/appmarket/p71;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/p71;->getValue()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    return-object v0
-
-    :cond_1
-    sget-object v0, Lcom/huawei/appmarket/p71;->b:Lcom/huawei/appmarket/p71;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/p71;->getValue()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    return-object v0
-
-    :cond_2
-    sget-object v0, Lcom/huawei/appmarket/p71;->d:Lcom/huawei/appmarket/p71;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/p71;->getValue()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    return-object v0
-
-    :cond_3
-    sget-object v0, Lcom/huawei/appmarket/p71;->e:Lcom/huawei/appmarket/p71;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/p71;->getValue()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_4
-
-    return-object v0
-
-    :cond_4
-    new-instance v0, Lcom/huawei/appmarket/oq2$a;
-
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/oq2$a;-><init>(Ljava/lang/String;)V
-
-    return-object v0
+    return-object p1
 .end method

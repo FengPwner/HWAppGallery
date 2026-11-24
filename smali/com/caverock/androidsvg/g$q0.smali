@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method final o()Ljava/lang/String;
+.method final n()Ljava/lang/String;
     .registers 2
 
     .line 1

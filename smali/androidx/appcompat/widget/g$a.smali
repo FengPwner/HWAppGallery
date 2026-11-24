@@ -496,7 +496,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 10
     .line 11
@@ -522,7 +522,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 23
     .line 24
@@ -900,7 +900,7 @@
     .line 205
     .line 206
     .line 207
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 208
     .line 209
@@ -933,7 +933,7 @@
     .line 221
     .line 222
     .line 223
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 224
     .line 225
@@ -959,7 +959,7 @@
     .line 234
     .line 235
     .line 236
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 237
     .line 238
@@ -984,7 +984,7 @@
     .line 244
     .line 245
     .line 246
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     .line 247
     .line 248

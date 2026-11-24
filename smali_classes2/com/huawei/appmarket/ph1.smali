@@ -1,35 +1,39 @@
-.class public final Lcom/huawei/appmarket/ph1;
-.super Lcom/huawei/appmarket/ar5;
+.class final Lcom/huawei/appmarket/ph1;
+.super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
-# static fields
-.field private static final serialVersionUID:J = -0x29eac2d9f804e4bL
-
-
 # instance fields
-.field private e:J
+.field final synthetic b:Lcom/huawei/appmarket/qh1$a;
 
 
 # direct methods
-.method public constructor <init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 6
+.method constructor <init>(Lcom/huawei/appmarket/qh1;Lcom/huawei/appmarket/qh1$a;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0, p3, p4, p5}, Lcom/huawei/appmarket/ar5;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    iput-object p2, p0, Lcom/huawei/appmarket/ph1;->b:Lcom/huawei/appmarket/qh1$a;
 
-    iput-wide p1, p0, Lcom/huawei/appmarket/ph1;->e:J
+    invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final f()J
-    .registers 3
+.method public final run()V
+    .registers 2
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/ph1;->e:J
+    iget-object v0, p0, Lcom/huawei/appmarket/ph1;->b:Lcom/huawei/appmarket/qh1$a;
 
-    return-wide v0
+    check-cast v0, Landroidx/media3/exoplayer/trackselection/d;
+
+    iget-object v0, v0, Landroidx/media3/exoplayer/trackselection/d;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
+
+    invoke-static {v0}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->v3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)V
+
+    return-void
 .end method

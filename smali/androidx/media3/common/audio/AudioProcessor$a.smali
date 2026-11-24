@@ -55,13 +55,13 @@
 
     iput p3, p0, Landroidx/media3/common/audio/AudioProcessor$a;->c:I
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ge8;->M(I)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/le8;->M(I)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/ge8;->D(II)I
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/le8;->D(II)I
 
     move-result p1
 
@@ -318,6 +318,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -381,7 +382,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -489,4 +490,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

@@ -3,40 +3,74 @@
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# instance fields
+.field a:Ljava/lang/String;
 
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/cd9;->a:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public static final a(Lcom/huawei/appmarket/cr6;)V
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/cd9;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/en;->b()Lcom/huawei/appmarket/en$b;
+    const/4 v0, 0x0
 
-    move-result-object v0
+    iget-object v1, p0, Lcom/huawei/appmarket/cd9;->a:Ljava/lang/String;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/en$b;->f()Lcom/huawei/appmarket/en;
+    if-nez p1, :cond_1
 
-    move-result-object v0
+    if-nez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/xu5;
+    const/4 v0, 0x1
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/xu5;-><init>()V
+    :cond_0
+    return v0
 
-    new-instance v2, Lcom/huawei/appmarket/ka5;
+    :cond_1
+    instance-of v2, p1, Lcom/huawei/appmarket/cd9;
 
-    const/4 v3, 0x1
+    if-eqz v2, :cond_2
 
-    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/ka5;-><init>(Lcom/huawei/appmarket/ja5;I)V
+    check-cast p1, Lcom/huawei/appmarket/cd9;
 
-    const-string v1, "page"
+    iget-object p1, p1, Lcom/huawei/appmarket/cd9;->a:Ljava/lang/String;
 
-    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/ka5;->e(Lcom/huawei/appmarket/cr6;Ljava/lang/String;Lcom/huawei/appmarket/en;)V
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    return-void
+    move-result p1
+
+    return p1
+
+    :cond_2
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/cd9;->a:Ljava/lang/String;
+
+    return-object v0
 .end method

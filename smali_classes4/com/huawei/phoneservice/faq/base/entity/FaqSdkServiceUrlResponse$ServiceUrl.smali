@@ -34,31 +34,31 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "haAddress"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "mdAddress"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "sdkGwRouteAddressV2"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "yunAddress"
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "countryCode"
     .end annotation
 .end field

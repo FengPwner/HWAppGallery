@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/appcomment/ui/actionbar/CommentDetailActionBar$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/actionbar/CommentDetailActionBar$b;->b:Lcom/huawei/appgallery/appcomment/ui/actionbar/CommentDetailActionBar;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -182,5 +182,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

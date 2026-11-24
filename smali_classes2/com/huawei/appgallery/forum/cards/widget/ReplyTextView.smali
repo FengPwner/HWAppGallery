@@ -122,9 +122,9 @@
 
     invoke-virtual {v0, v2, v2, v3, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    new-instance v3, Lcom/huawei/appmarket/qg8;
+    new-instance v3, Lcom/huawei/appmarket/vg8;
 
-    invoke-direct {v3, v0}, Lcom/huawei/appmarket/qg8;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v3, v0}, Lcom/huawei/appmarket/vg8;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
@@ -182,9 +182,9 @@
 
     invoke-virtual {p1, v2, v2, v0, v1}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    new-instance v3, Lcom/huawei/appmarket/qg8;
+    new-instance v3, Lcom/huawei/appmarket/vg8;
 
-    invoke-direct {v3, p1}, Lcom/huawei/appmarket/qg8;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v3, p1}, Lcom/huawei/appmarket/vg8;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     :cond_1
     if-eqz v3, :cond_2
@@ -233,19 +233,19 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v2
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     move-result-object v2
 
     const/16 v3, 0xc
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -259,9 +259,9 @@
 
     invoke-virtual {v0, v3, v3, v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    new-instance v1, Lcom/huawei/appmarket/qg8;
+    new-instance v1, Lcom/huawei/appmarket/vg8;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/qg8;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/vg8;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     add-int/lit8 v0, p2, 0x9
 
@@ -519,7 +519,7 @@
 
     .line 102
     .line 103
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     .line 104
     .line 105
@@ -532,7 +532,7 @@
     .line 108
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     .line 111
     .line 112
@@ -575,7 +575,7 @@
     int-to-float p1, p1
 
     .line 133
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     .line 134
     .line 135
@@ -588,7 +588,7 @@
     .line 138
     .line 139
     .line 140
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     .line 141
     .line 142
@@ -600,7 +600,7 @@
 
     .line 145
     .line 146
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 147
     .line 148
@@ -622,11 +622,11 @@
     .line 154
     .line 155
     .line 156
-    new-instance p1, Lcom/huawei/appmarket/qg8;
+    new-instance p1, Lcom/huawei/appmarket/vg8;
 
     .line 157
     .line 158
-    invoke-direct {p1, v2}, Lcom/huawei/appmarket/qg8;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p1, v2}, Lcom/huawei/appmarket/vg8;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     .line 159
     .line 160
@@ -994,7 +994,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private f()Z
@@ -2470,7 +2469,7 @@
 
     const-string v0, "onMeasure Exception"
 
-    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     goto :goto_2
 

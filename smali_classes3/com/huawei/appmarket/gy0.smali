@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
-.implements Lcom/huawei/appmarket/op0;
+.implements Lcom/huawei/appmarket/fo5;
+.implements Lcom/huawei/appmarket/pp0;
 
 
 # instance fields
@@ -394,29 +394,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 
@@ -436,7 +413,7 @@
     return-void
 .end method
 
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 5
 
     .line 1
@@ -446,7 +423,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/gy0;->b:Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;
 
-    invoke-static {v2, v0, v1, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->b(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {v2, v0, v1, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->b(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method

@@ -1,5 +1,5 @@
 .class public Lcom/huawei/jmessage/sources/PackageInstallSource;
-.super Lcom/huawei/appmarket/g32;
+.super Lcom/huawei/appmarket/k32;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/g32;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/k32;-><init>()V
 
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -34,11 +34,11 @@
 
 
 # virtual methods
-.method public final onDispatch(Lcom/huawei/appmarket/sq7;Lcom/huawei/appmarket/s22$a;)Z
+.method public final onDispatch(Lcom/huawei/appmarket/yq7;Lcom/huawei/appmarket/w22$a;)Z
     .registers 5
 
     .line 1
-    iget-object v0, p2, Lcom/huawei/appmarket/s22$a;->payload:Ljava/lang/Object;
+    iget-object v0, p2, Lcom/huawei/appmarket/w22$a;->payload:Ljava/lang/Object;
 
     instance-of v0, v0, Lcom/huawei/jmessage/sources/PackageInstallSource$a;
 
@@ -50,28 +50,28 @@
 
     const-string p2, "This type of payload is not supported, expected InstallState."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sq7;->getParam()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq7;->getParam()Ljava/lang/Object;
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/huawei/appmarket/qb2;
+    instance-of v0, v0, Lcom/huawei/appmarket/tb2;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sq7;->getParam()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq7;->getParam()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/qb2;
+    check-cast p1, Lcom/huawei/appmarket/tb2;
 
     const-string v0, "packageName"
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/qb2;->optString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/tb2;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -81,7 +81,7 @@
     const-string p1, ""
 
     :goto_0
-    iget-object p2, p2, Lcom/huawei/appmarket/s22$a;->payload:Ljava/lang/Object;
+    iget-object p2, p2, Lcom/huawei/appmarket/w22$a;->payload:Ljava/lang/Object;
 
     check-cast p2, Lcom/huawei/jmessage/sources/PackageInstallSource$a;
 
@@ -106,11 +106,11 @@
     return v1
 .end method
 
-.method public final onInitialize(Lcom/huawei/appmarket/g32$a;)V
+.method public final onInitialize(Lcom/huawei/appmarket/k32$a;)V
     .registers 5
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/g32;->onInitialize(Lcom/huawei/appmarket/g32$a;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/k32;->onInitialize(Lcom/huawei/appmarket/k32$a;)V
 
     .line 2
     .line 3
@@ -123,7 +123,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -328,23 +328,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onRelease()V
@@ -354,7 +337,7 @@
 
     const-string v1, "onRelease, PackageInstall"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/jmessage/sources/PackageInstallSource;->a:Landroid/content/Context;
 

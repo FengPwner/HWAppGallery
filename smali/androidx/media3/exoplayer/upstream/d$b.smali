@@ -40,7 +40,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     iput p1, p0, Landroidx/media3/exoplayer/upstream/d$b;->a:I
 

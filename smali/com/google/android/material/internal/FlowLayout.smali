@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/ie6;->t:[I
+    sget-object v0, Lcom/huawei/appmarket/ke6;->t:[I
 
     invoke-virtual {p1, p2, v0, p3, p3}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -92,7 +92,7 @@
 
     move-result-object p1
 
-    sget-object p4, Lcom/huawei/appmarket/ie6;->t:[I
+    sget-object p4, Lcom/huawei/appmarket/ke6;->t:[I
 
     invoke-virtual {p1, p2, p4, p3, p3}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -172,7 +172,7 @@
 
     iput p1, p0, Lcom/google/android/material/internal/FlowLayout;->e:I
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p5
 
@@ -270,11 +270,11 @@
 
     check-cast v5, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    invoke-static {v5}, Lcom/huawei/appmarket/j35;->b(Landroid/view/ViewGroup$MarginLayoutParams;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/m35;->b(Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     move-result v6
 
-    invoke-static {v5}, Lcom/huawei/appmarket/j35;->a(Landroid/view/ViewGroup$MarginLayoutParams;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/m35;->a(Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     move-result v5
 

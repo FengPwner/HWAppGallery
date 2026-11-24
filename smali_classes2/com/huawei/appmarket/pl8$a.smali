@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/ko5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/pl8;->q(Landroid/content/Context;Lcom/huawei/appmarket/nv7;)V
+    value = Lcom/huawei/appmarket/pl8;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,21 +35,13 @@
 
 
 # virtual methods
-.method public final onFailure(Ljava/lang/Exception;)V
-    .registers 4
+.method public final c(Landroid/view/View;)V
+    .registers 3
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/pl8$a;->b:Lcom/huawei/appmarket/pl8;
+    iget-object v0, p0, Lcom/huawei/appmarket/pl8$a;->b:Lcom/huawei/appmarket/pl8;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pl8;->k(Lcom/huawei/appmarket/pl8;)V
-
-    sget-object p1, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
-
-    const-string v0, "WatchRemoteDeviceManagerImpl"
-
-    const-string v1, "getBondedDevices error"
-
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/pl8;->a(Lcom/huawei/appmarket/pl8;Landroid/view/View;)V
 
     return-void
 .end method

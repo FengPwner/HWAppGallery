@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sr6;
+.implements Lcom/huawei/appmarket/vr6;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Z)Z
+.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Z)Z
     .registers 5
 
     .line 1
@@ -98,27 +98,27 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->d:Landroid/widget/ImageView;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/ua4;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {p2}, Lcom/huawei/appmarket/wa4;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string p2, "AbstractAudioPlayerFloatView"
 
     const-string p3, "load icon fail"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
     return p1
 .end method
 
-.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)Z
+.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)Z
     .registers 6
 
     .line 1

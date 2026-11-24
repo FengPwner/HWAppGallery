@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final a(FFLcom/huawei/appmarket/ac7;)V
+.method public final a(FFLcom/huawei/appmarket/fc7;)V
     .registers 10
 
     .line 1
@@ -48,7 +48,7 @@
 
     const/high16 v3, 0x42b40000    # 90.0f
 
-    invoke-virtual {p3, v1, v0, v2, v3}, Lcom/huawei/appmarket/ac7;->f(FFFF)V
+    invoke-virtual {p3, v1, v0, v2, v3}, Lcom/huawei/appmarket/fc7;->f(FFFF)V
 
     float-to-double v2, v3
 
@@ -86,7 +86,7 @@
 
     double-to-float p1, v1
 
-    invoke-virtual {p3, v0, p1}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {p3, v0, p1}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     return-void
 .end method

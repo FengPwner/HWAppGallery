@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard$a;
-.super Lcom/huawei/appmarket/sb3;
+.super Lcom/huawei/appmarket/vb3;
 .source "SourceFile"
 
 
@@ -19,18 +19,18 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+.method public constructor <init>(Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;",
-            "Lcom/huawei/appmarket/qb3;",
-            "Lcom/huawei/appmarket/sb3$c;",
+            "Lcom/huawei/appmarket/tb3;",
+            "Lcom/huawei/appmarket/vb3$c;",
             "Z)V"
         }
     .end annotation
@@ -50,7 +50,7 @@
 
     move v5, p6
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/sb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/vb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     return-void
 .end method
@@ -68,9 +68,9 @@
 
     check-cast v0, Lcom/huawei/appgallery/forum/cards/bean/ForumFeedRecommendCardBean;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/sb3;->e:Lcom/huawei/appmarket/nb3;
+    iget-object v1, p0, Lcom/huawei/appmarket/vb3;->e:Lcom/huawei/appmarket/qb3;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object v1
 
@@ -99,7 +99,7 @@
     invoke-virtual {v1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->I1(Ljava/lang/String;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/vb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
     .registers 5
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sb3;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/vb3;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
 
     move-result-object p1
 

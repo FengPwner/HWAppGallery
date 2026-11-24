@@ -239,7 +239,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {v1, p0, p1, p0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, p0, p1, p0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v1
 

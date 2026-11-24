@@ -18,7 +18,7 @@
     .registers 8
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/uq0;
+    new-instance v6, Lcom/huawei/appmarket/vq0;
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
@@ -34,7 +34,7 @@
 
     move-object v0, v6
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/uq0;-><init>(Landroid/content/Context;IIZZ)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/vq0;-><init>(Landroid/content/Context;IIZZ)V
 
     return-object v6
 .end method
@@ -234,5 +234,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -69,7 +69,7 @@
 
     const-string v0, "PrivacySettingBaseCard"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -179,7 +179,7 @@
 
     .line 47
     .line 48
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -201,7 +201,7 @@
     .line 58
     .line 59
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -251,7 +251,7 @@
 
     .line 82
     .line 83
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 84
     .line 85
@@ -286,7 +286,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected abstract p1()V

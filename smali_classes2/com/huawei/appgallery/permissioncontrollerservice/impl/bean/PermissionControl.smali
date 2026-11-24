@@ -32,12 +32,12 @@
 
 # instance fields
 .field private flag:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private permissionGroup:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -131,7 +131,7 @@
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
+    sget-object v1, Lcom/huawei/appmarket/ky5;->a:Lcom/huawei/appmarket/ky5;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -149,7 +149,7 @@
 
     const-string v0, "PermissionControl"
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

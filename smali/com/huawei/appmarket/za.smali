@@ -77,7 +77,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v2, v4, p0}, Lcom/huawei/appmarket/bu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/ApplicationInfo;
+    invoke-static {v2, v4, p0}, Lcom/huawei/appmarket/du5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/ApplicationInfo;
 
     move-result-object v2
 
@@ -89,7 +89,7 @@
 
     const-string v4, "getAppNameByPkgName appInfo null"
 
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -195,7 +195,7 @@
 
     const-string v6, "AgGuardActivityManagerUtils"
 
-    invoke-virtual {v4, v6, v5}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v6, v5}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 

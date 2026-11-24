@@ -624,7 +624,7 @@
     return-void
 .end method
 
-.method public static invoke(Lcom/bumptech/glide/h;IILcom/huawei/appmarket/s66;)V
+.method public static invoke(Lcom/bumptech/glide/h;IILcom/huawei/appmarket/u66;)V
     .registers 13
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -693,7 +693,7 @@
 
     new-array v7, v3, [Ljava/lang/Class;
 
-    const-class v8, Lcom/huawei/appmarket/s66;
+    const-class v8, Lcom/huawei/appmarket/u66;
 
     aput-object v8, v7, v6
 
@@ -744,7 +744,7 @@
 
     check-cast p1, Lcom/bumptech/glide/request/RequestOptions;
 
-    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -754,7 +754,7 @@
     return-void
 .end method
 
-.method public static invoke(Lcom/bumptech/glide/h;IILcom/huawei/appmarket/s66;I)V
+.method public static invoke(Lcom/bumptech/glide/h;IILcom/huawei/appmarket/u66;I)V
     .registers 14
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -807,7 +807,7 @@
 
     new-array v7, v6, [Ljava/lang/Class;
 
-    const-class v8, Lcom/huawei/appmarket/s66;
+    const-class v8, Lcom/huawei/appmarket/u66;
 
     aput-object v8, v7, v5
 
@@ -906,7 +906,7 @@
 
     check-cast p1, Lcom/bumptech/glide/request/RequestOptions;
 
-    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 

@@ -47,11 +47,11 @@
 .method public final onClick(Landroid/view/View;)V
     .registers 7
 
-    invoke-static {}, Lcom/huawei/appmarket/fg4;->p()Lcom/huawei/appmarket/fg4;
+    invoke-static {}, Lcom/huawei/appmarket/hg4;->p()Lcom/huawei/appmarket/hg4;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg4;->k()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hg4;->k()Z
 
     move-result v0
 
@@ -63,11 +63,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/fg4;->p()Lcom/huawei/appmarket/fg4;
+    invoke-static {}, Lcom/huawei/appmarket/hg4;->p()Lcom/huawei/appmarket/hg4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fg4;->t()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hg4;->t()V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -99,16 +99,16 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/fg4;->p()Lcom/huawei/appmarket/fg4;
+    invoke-static {}, Lcom/huawei/appmarket/hg4;->p()Lcom/huawei/appmarket/hg4;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg4;->r()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hg4;->r()Z
 
     move-result v0
 
@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -165,7 +165,7 @@
     goto :goto_0
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->p()Z
+    invoke-static {}, Lcom/huawei/appmarket/co1;->p()Z
 
     move-result v0
 
@@ -193,16 +193,16 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_2
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/fg4;->p()Lcom/huawei/appmarket/fg4;
+    invoke-static {}, Lcom/huawei/appmarket/hg4;->p()Lcom/huawei/appmarket/hg4;
 
     move-result-object v0
 
@@ -210,7 +210,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/fg4;->x(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hg4;->x(Landroid/content/Context;)V
 
     :goto_2
     return-void

@@ -49,11 +49,11 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/account/GuideLogin$b;->b:Lcom/huawei/appmarket/service/account/GuideLogin;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/account/GuideLogin;->c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/xr3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/account/GuideLogin;->c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/zr3;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xr3;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/zr3;->a()V
 
     return-void
 .end method

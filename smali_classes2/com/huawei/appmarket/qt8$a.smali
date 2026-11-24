@@ -17,11 +17,9 @@
 # instance fields
 .field private a:I
 
-.field private b:I
+.field private b:Lcom/huawei/appmarket/dt6;
 
 .field private c:Ljava/lang/String;
-
-.field private d:Ljava/lang/String;
 
 
 # direct methods
@@ -43,13 +41,13 @@
 
     iget v1, p0, Lcom/huawei/appmarket/qt8$a;->a:I
 
-    iget v2, p0, Lcom/huawei/appmarket/qt8$a;->b:I
+    iget-object v2, p0, Lcom/huawei/appmarket/qt8$a;->b:Lcom/huawei/appmarket/dt6;
 
     iget-object v3, p0, Lcom/huawei/appmarket/qt8$a;->c:Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/huawei/appmarket/qt8$a;->d:Ljava/lang/String;
+    const/4 v4, 0x0
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/qt8;-><init>(IILjava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/qt8;-><init>(ILcom/huawei/appmarket/dt6;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -58,7 +56,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qt8$a;->d:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appmarket/qt8$a;->c:Ljava/lang/String;
 
     return-void
 .end method
@@ -67,25 +65,16 @@
     .registers 2
 
     .line 1
-    iput p1, p0, Lcom/huawei/appmarket/qt8$a;->b:I
-
-    return-void
-.end method
-
-.method public final d(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qt8$a;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final e(I)V
-    .registers 2
-
-    .line 1
     iput p1, p0, Lcom/huawei/appmarket/qt8$a;->a:I
+
+    return-void
+.end method
+
+.method public final d(Lcom/huawei/appmarket/dt6;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/qt8$a;->b:Lcom/huawei/appmarket/dt6;
 
     return-void
 .end method
@@ -98,7 +87,7 @@
 
     .line 2
     .line 3
-    const-string v1, "XmlElementEndTag.XmlElementEndTagBuilder(nsRef="
+    const-string v1, "XmlCData.XmlCDataBuilder(dataRef="
 
     .line 4
     .line 5
@@ -116,7 +105,7 @@
     .line 11
     .line 12
     .line 13
-    const-string v1, ", nameRef="
+    const-string v1, ", typedData="
 
     .line 14
     .line 15
@@ -125,16 +114,16 @@
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Lcom/huawei/appmarket/qt8$a;->b:I
+    iget-object v1, p0, Lcom/huawei/appmarket/qt8$a;->b:Lcom/huawei/appmarket/dt6;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    const-string v1, ", namespace="
+    const-string v1, ", data="
 
     .line 24
     .line 25
@@ -147,37 +136,29 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v2, ", value=null)"
 
     .line 31
     .line 32
-    .line 33
-    const-string v1, ", name="
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
+    .line 33
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 36
+    return-object v0
     .line 37
     .line 38
-    iget-object v1, p0, Lcom/huawei/appmarket/qt8$a;->d:Ljava/lang/String;
-
     .line 39
     .line 40
-    const-string v2, ")"
-
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     .line 43
     .line 44
     .line 45
-    move-result-object v0
-
     .line 46
-    return-object v0
     .line 47
     .line 48
     .line 49

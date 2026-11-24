@@ -31,7 +31,7 @@
 
 
 # virtual methods
-.method public final b()Lcom/huawei/appmarket/ge7;
+.method public final b()Lcom/huawei/appmarket/le7;
     .registers 2
 
     .line 1
@@ -41,7 +41,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/ActionMenuItemView$b;->a()Lcom/huawei/appmarket/ge7;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/ActionMenuItemView$b;->a()Lcom/huawei/appmarket/le7;
 
     move-result-object v0
 
@@ -73,13 +73,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$a;->b()Lcom/huawei/appmarket/ge7;
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$a;->b()Lcom/huawei/appmarket/le7;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ge7;->a()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/le7;->a()Z
 
     move-result v0
 

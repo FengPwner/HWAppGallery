@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -140,7 +140,7 @@
     const-string p1, "preLoadTab server response failed."
 
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -169,7 +169,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     if-nez v2, :cond_1
 
@@ -180,7 +180,7 @@
     :cond_1
     check-cast p1, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     move-result-object v1
 
@@ -190,15 +190,15 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/yt7;->m(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/eu7;->m(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/yt7;->a(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/eu7;->a(Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;->getHasNextPage()I
 
     move-result p2
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/yt7;->l(ILjava/lang/String;)V
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/eu7;->l(ILjava/lang/String;)V
 
     invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/n50$a;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;)V
 
@@ -207,7 +207,7 @@
     :cond_2
     const-string p1, "preLoadTab server response null."
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

@@ -25,7 +25,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo;->Companion:Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo$a;
 
@@ -49,7 +49,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/app/Application;Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Landroid/app/Application;Lcom/huawei/appmarket/id1;)V
     .registers 3
 
     .line 2
@@ -106,7 +106,7 @@
     const/4 v1, 0x0
 
     .line 15
-    invoke-direct {v0, p0, v1}, Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo;-><init>(Landroid/app/Application;Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/phoneservice/faq/base/network/SdkAppInfo;-><init>(Landroid/app/Application;Lcom/huawei/appmarket/id1;)V
 
     .line 16
     .line 17
@@ -284,21 +284,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

@@ -75,7 +75,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -205,5 +205,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -15,7 +15,7 @@
 .method public abstract a(Lcom/huawei/page/tabitem/c$a;)V
 .end method
 
-.method public abstract b(ILcom/huawei/appmarket/pa2;)V
+.method public abstract b(ILcom/huawei/appmarket/sa2;)V
 .end method
 
 .method public abstract c(I)V

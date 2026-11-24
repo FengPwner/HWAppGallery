@@ -19,11 +19,11 @@
 
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
-    invoke-static {}, Lcom/huawei/appmarket/fi2;->p()Lcom/huawei/appmarket/fi2;
+    invoke-static {}, Lcom/huawei/appmarket/ii2;->p()Lcom/huawei/appmarket/ii2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fi2;->k()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ii2;->k()V
 
     return-void
 .end method

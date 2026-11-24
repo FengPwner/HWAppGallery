@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xg8;
+.implements Lcom/huawei/appmarket/dh8;
 
 
 # instance fields
@@ -21,7 +21,7 @@
 
 .field private h:J
 
-.field private i:Lcom/huawei/appmarket/ih8;
+.field private i:Lcom/huawei/appmarket/oh8;
 
 .field private j:J
 
@@ -62,16 +62,16 @@
     return-void
 .end method
 
-.method static synthetic g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+.method static synthetic i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/ih8;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/oh8;
 
     return-object p0
 .end method
 
-.method static synthetic h(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+.method static synthetic j(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
     .registers 1
 
     .line 1
@@ -82,7 +82,7 @@
     return p0
 .end method
 
-.method static synthetic i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
+.method static synthetic k(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
     .registers 3
 
     .line 1
@@ -95,7 +95,7 @@
     return-void
 .end method
 
-.method static synthetic j(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+.method static synthetic l(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
     .registers 1
 
     .line 1
@@ -106,7 +106,7 @@
     return p0
 .end method
 
-.method static synthetic k(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+.method static synthetic m(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
     .registers 1
 
     .line 1
@@ -117,7 +117,7 @@
     return p0
 .end method
 
-.method static synthetic l(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
+.method static synthetic n(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)V
     .registers 3
 
     .line 1
@@ -130,7 +130,7 @@
     return-void
 .end method
 
-.method static synthetic m(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
+.method static synthetic o(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Z
     .registers 1
 
     .line 1
@@ -141,7 +141,7 @@
     return p0
 .end method
 
-.method static synthetic n(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
+.method static synthetic p(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
     .registers 4
 
     .line 1
@@ -152,7 +152,7 @@
     return-object p0
 .end method
 
-.method static synthetic o(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Landroid/widget/RelativeLayout;
+.method static synthetic q(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Landroid/widget/RelativeLayout;
     .registers 1
 
     .line 1
@@ -161,11 +161,11 @@
     return-object p0
 .end method
 
-.method private p()V
+.method private r()V
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -177,11 +177,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -189,11 +189,11 @@
     move-result-object v0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -201,7 +201,7 @@
     move-result-object v0
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 20
     .line 21
@@ -225,7 +225,7 @@
 
     .line 30
     .line 31
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/fh3;->C(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
 
     .line 32
     .line 33
@@ -239,7 +239,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 40
     .line 41
@@ -252,7 +252,7 @@
     move-result-object v1
 
     .line 46
-    invoke-static {v1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 47
     .line 48
@@ -290,7 +290,7 @@
     move-result-object v1
 
     .line 65
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 66
     .line 67
@@ -303,7 +303,7 @@
     move-result-object v1
 
     .line 72
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -774,7 +774,7 @@
     .line 24
     .line 25
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/om5;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->C()Z
 
     .line 26
     .line 27
@@ -1780,15 +1780,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final m1()V
@@ -1958,7 +1949,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/ih8;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/oh8;
 
     if-eqz v0, :cond_4
 
@@ -2075,7 +2066,7 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     :cond_6
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->p()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->r()V
 
     return-void
 .end method
@@ -2179,11 +2170,11 @@
     return-object v0
 .end method
 
-.method public setVideoReboundListener(Lcom/huawei/appmarket/ih8;)V
+.method public setVideoReboundListener(Lcom/huawei/appmarket/oh8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/ih8;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i:Lcom/huawei/appmarket/oh8;
 
     return-void
 .end method

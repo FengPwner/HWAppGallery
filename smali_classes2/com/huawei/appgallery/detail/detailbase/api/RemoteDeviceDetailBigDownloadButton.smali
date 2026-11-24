@@ -32,9 +32,9 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceDetailDownloadButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/rd1;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/td1;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/rd1;->c()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/td1;->c()Lcom/huawei/appmarket/kq7;
 
     move-result-object p1
 
@@ -48,7 +48,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method

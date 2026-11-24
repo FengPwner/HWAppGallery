@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp4;
+.implements Lcom/huawei/appmarket/np4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp4<",
+        "Lcom/huawei/appmarket/np4<",
         "Landroid/net/Uri;",
         ">;"
     }
@@ -28,28 +28,28 @@
 
 
 # virtual methods
-.method public serialize(Landroid/net/Uri;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/jp4;)Lcom/huawei/appmarket/mo4;
+.method public serialize(Landroid/net/Uri;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/mp4;)Lcom/huawei/appmarket/po4;
     .registers 4
 
     .line 1
-    new-instance p2, Lcom/huawei/appmarket/dp4;
+    new-instance p2, Lcom/huawei/appmarket/gp4;
 
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Lcom/huawei/appmarket/dp4;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Lcom/huawei/appmarket/gp4;-><init>(Ljava/lang/String;)V
 
     return-object p2
 .end method
 
-.method public bridge synthetic serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/jp4;)Lcom/huawei/appmarket/mo4;
+.method public bridge synthetic serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/mp4;)Lcom/huawei/appmarket/po4;
     .registers 4
 
     .line 2
     check-cast p1, Landroid/net/Uri;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/phoneservice/feedbackcommon/utils/UriSerializer;->serialize(Landroid/net/Uri;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/jp4;)Lcom/huawei/appmarket/mo4;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/phoneservice/feedbackcommon/utils/UriSerializer;->serialize(Landroid/net/Uri;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/mp4;)Lcom/huawei/appmarket/po4;
 
     move-result-object p1
 

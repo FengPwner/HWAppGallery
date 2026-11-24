@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -38,25 +38,25 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -98,21 +98,21 @@
     invoke-static {v2, v0}, Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;->q1(Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;I)V
 
     :goto_0
-    new-instance v3, Lcom/huawei/appmarket/wp2;
+    new-instance v3, Lcom/huawei/appmarket/yp2;
 
-    invoke-direct {v3}, Lcom/huawei/appmarket/wp2;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/yp2;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Lcom/huawei/appmarket/to2;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/wp2;->h(Ljava/lang/String;)V
+    invoke-virtual {v4}, Lcom/huawei/appmarket/vo2;->d()Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/yp2;->h(Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v4
 
@@ -122,7 +122,7 @@
 
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v5}, Lcom/huawei/appmarket/to2;->e(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/vo2;->e(Landroid/content/Context;)I
 
     move-result v4
 
@@ -130,7 +130,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/wp2;->j(Ljava/lang/Integer;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/yp2;->j(Ljava/lang/Integer;)V
 
     invoke-static {v2}, Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;->o1(Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;)Lcom/huawei/appgallery/forum/base/card/bean/Section;
 
@@ -144,11 +144,11 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/wp2;->i(Ljava/lang/Integer;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/yp2;->i(Ljava/lang/Integer;)V
 
     const-string v4, "MESSAGE"
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/wp2;->k(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/yp2;->k(Ljava/lang/String;)V
 
     if-nez p1, :cond_1
 
@@ -159,17 +159,17 @@
 
     move-result-object p1
 
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/wp2;->g(Ljava/lang/Integer;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/yp2;->g(Ljava/lang/Integer;)V
 
     invoke-static {v2}, Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;->s1(Lcom/huawei/appgallery/forum/message/card/ForumRemindGameMsgCard;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/wp2;->l(Ljava/lang/String;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/yp2;->l(Ljava/lang/String;)V
 
-    sget-object p1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object p1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/kk;->g(Lcom/huawei/appmarket/wp2;)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/jk;->g(Lcom/huawei/appmarket/yp2;)V
 
     :cond_2
     return-void

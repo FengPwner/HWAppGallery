@@ -1333,7 +1333,7 @@
 
     .line 145
     .line 146
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 147
     .line 148
@@ -1379,7 +1379,7 @@
 
     .line 167
     .line 168
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 169
     .line 170
@@ -1425,7 +1425,7 @@
 
     .line 189
     .line 190
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 191
     .line 192

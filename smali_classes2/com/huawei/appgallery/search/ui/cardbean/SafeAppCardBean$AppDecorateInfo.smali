@@ -22,12 +22,12 @@
 
 # instance fields
 .field private decorateType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private packageName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -251,7 +251,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final W3()I

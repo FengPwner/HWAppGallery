@@ -67,7 +67,7 @@
 
     .line 21
     .line 22
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 23
     .line 24
@@ -112,7 +112,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 46
     .line 47
@@ -136,7 +136,7 @@
 
     .line 56
     .line 57
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 58
     .line 59
@@ -203,5 +203,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

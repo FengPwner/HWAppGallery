@@ -98,7 +98,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/f91;)J
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/g91;)J
 
     .line 22
     .line 23

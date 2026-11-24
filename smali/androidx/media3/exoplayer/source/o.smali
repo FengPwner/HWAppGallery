@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic b:Landroidx/media3/exoplayer/source/p;
 
-.field public final synthetic c:Lcom/huawei/appmarket/s57;
+.field public final synthetic c:Lcom/huawei/appmarket/x57;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/s57;)V
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/x57;)V
     .registers 3
 
     .line 1
@@ -21,7 +21,7 @@
 
     iput-object p1, p0, Landroidx/media3/exoplayer/source/o;->b:Landroidx/media3/exoplayer/source/p;
 
-    iput-object p2, p0, Landroidx/media3/exoplayer/source/o;->c:Lcom/huawei/appmarket/s57;
+    iput-object p2, p0, Landroidx/media3/exoplayer/source/o;->c:Lcom/huawei/appmarket/x57;
 
     return-void
 .end method
@@ -34,9 +34,9 @@
     .line 1
     iget-object v0, p0, Landroidx/media3/exoplayer/source/o;->b:Landroidx/media3/exoplayer/source/p;
 
-    iget-object v1, p0, Landroidx/media3/exoplayer/source/o;->c:Lcom/huawei/appmarket/s57;
+    iget-object v1, p0, Landroidx/media3/exoplayer/source/o;->c:Lcom/huawei/appmarket/x57;
 
-    invoke-static {v0, v1}, Landroidx/media3/exoplayer/source/p;->v(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/s57;)V
+    invoke-static {v0, v1}, Landroidx/media3/exoplayer/source/p;->v(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/x57;)V
 
     return-void
 .end method

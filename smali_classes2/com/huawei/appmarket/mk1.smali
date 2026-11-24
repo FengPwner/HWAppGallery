@@ -1,62 +1,84 @@
 .class public final Lcom/huawei/appmarket/mk1;
-.super Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+.super Lcom/huawei/appmarket/jk1;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;I)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;-><init>(Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-direct {p0}, Lcom/huawei/appmarket/jk1;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final e(Landroid/view/MotionEvent;)V
-    .registers 6
+.method protected final D(Lcom/huawei/appmarket/jk1$c;)V
+    .registers 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
+    return-void
+.end method
 
-    move-result p1
+.method protected final H(Z)Z
+    .registers 2
 
-    if-nez p1, :cond_0
-
+    .line 1
     const/4 p1, 0x0
 
-    iput p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->e:F
+    return p1
+.end method
 
-    iput p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->f:F
+.method protected final J()V
+    .registers 1
 
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    .line 1
+    return-void
+.end method
 
-    move-result-wide v0
+.method protected final K(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;)V
+    .registers 3
 
-    iput-wide v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->c:J
+    .line 1
+    return-void
+.end method
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->b()I
+.method protected final N(Landroid/view/LayoutInflater;)V
+    .registers 4
 
-    move-result p1
+    .line 1
+    const v0, 0x7f0d0347
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->d()I
+    const/4 v1, 0x0
 
-    move-result v0
+    invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->c()I
+    move-result-object p1
 
-    move-result v1
+    iput-object p1, p0, Lcom/huawei/appmarket/m30;->b:Landroid/view/View;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->a()I
+    return-void
+.end method
 
-    move-result v2
+.method protected final O()V
+    .registers 1
 
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;->d:Landroid/graphics/Rect;
+    .line 1
+    return-void
+.end method
 
-    invoke-virtual {v3, p1, v0, v1, v2}, Landroid/graphics/Rect;->set(IIII)V
+.method protected final P()V
+    .registers 1
 
-    :cond_0
+    .line 1
+    return-void
+.end method
+
+.method protected final x()V
+    .registers 1
+
+    .line 1
     return-void
 .end method

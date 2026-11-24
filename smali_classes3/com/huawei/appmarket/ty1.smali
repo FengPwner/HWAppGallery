@@ -1,190 +1,113 @@
 .class public final Lcom/huawei/appmarket/ty1;
-.super Lcom/huawei/appmarket/ra6;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ty1$b;
+    }
+.end annotation
+
+
+# static fields
+.field private static final b:Ljava/lang/Long;
+
+.field public static final synthetic c:I
+
+
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method static constructor <clinit>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ra6;-><init>()V
+    const-wide/16 v0, 0x0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/ty1;->b:Ljava/lang/Long;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 2
+
+    .line 1
+    const-string v0, "ECOLOGICAL_RULE_INFO"
+
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/huawei/appmarket/ty1$a;)V
+    .registers 2
+
+    .line 2
+    invoke-direct {p0}, Lcom/huawei/appmarket/ty1;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/util/List;)V
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/purchasehistory/api/bean/PurchaseInfoBean;",
-            ">;)V"
-        }
-    .end annotation
+.method public final v()J
+    .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cx5;->f()Lcom/huawei/appmarket/cx5;
+    sget-object v0, Lcom/huawei/appmarket/ty1;->b:Ljava/lang/Long;
 
-    move-result-object v0
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cx5;->a(Ljava/util/List;)V
+    move-result-wide v0
 
-    return-void
+    const-string v2, "last_sync_app_config_time"
+
+    invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/appmarket/j50;->f(Ljava/lang/String;J)J
+
+    move-result-wide v0
+
+    return-wide v0
 .end method
 
-.method public final b(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Z)V
-    .registers 6
+.method public final w()J
+    .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;
+    sget-object v0, Lcom/huawei/appmarket/ty1;->b:Ljava/lang/Long;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;-><init>()V
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
-    new-instance v1, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;
+    move-result-wide v0
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;-><init>()V
+    const-string v2, "last_sync_atomic_service_control_strategy_time"
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->d(Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/appmarket/j50;->f(Ljava/lang/String;J)J
 
-    const/4 p2, 0x1
+    move-result-wide v0
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->e(I)V
-
-    invoke-virtual {v1, p3}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->f(Z)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;->c(Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;)V
-
-    new-instance p2, Lcom/huawei/appmarket/cn5;
-
-    const-string p3, "apptraceedit.activity"
-
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
-    :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
-
-    move-result-object p3
-
-    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const/16 p3, 0x3ea
-
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/is4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/cn5;I)Lcom/huawei/appmarket/pv6;
-    :try_end_0
-    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    move-exception p1
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    const-string p3, "ActivityNotFoundException :"
-
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "EditHistoryDispatcher"
-
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    return-void
+    return-wide v0
 .end method
 
-.method public final c(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Z)V
-    .registers 6
+.method public final x()J
+    .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;
+    sget-object v0, Lcom/huawei/appmarket/ty1;->b:Ljava/lang/Long;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;-><init>()V
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
-    new-instance v1, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;
+    move-result-wide v0
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;-><init>()V
+    const-string v2, "last_sync_rule_config_time"
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->d(Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/appmarket/j50;->f(Ljava/lang/String;J)J
 
-    const/4 p2, 0x0
+    move-result-wide v0
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->e(I)V
-
-    invoke-virtual {v1, p3}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->f(Z)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;->c(Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;)V
-
-    new-instance p2, Lcom/huawei/appmarket/cn5;
-
-    const-string p3, "apptraceedit.activity"
-
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
-    :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
-
-    move-result-object p3
-
-    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const/16 p3, 0x3ea
-
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/is4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/cn5;I)Lcom/huawei/appmarket/pv6;
-    :try_end_0
-    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    move-exception p1
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    const-string p3, "ActivityNotFoundException :"
-
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "EditHistoryDispatcher"
-
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    return-void
-.end method
-
-.method public final d(Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cx5;->f()Lcom/huawei/appmarket/cx5;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cx5;->j(Ljava/lang/String;)V
-
-    return-void
+    return-wide v0
 .end method

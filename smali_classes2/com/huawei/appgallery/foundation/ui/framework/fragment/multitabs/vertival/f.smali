@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os2;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # instance fields
@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -212,7 +211,7 @@
 
     .line 9
     .line 10
-    sget v0, Lcom/huawei/appmarket/v52$a;->v:I
+    sget v0, Lcom/huawei/appmarket/z52$a;->v:I
 
     .line 11
     .line 12
@@ -287,7 +286,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v2, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/cd5;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/fd5;)V
 
     .line 48
     .line 49

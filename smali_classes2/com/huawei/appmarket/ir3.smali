@@ -4,23 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()V
-.end method
-
-.method public abstract b()Z
-.end method
-
-.method public abstract c()V
-.end method
-
-.method public abstract d(Lcom/huawei/appmarket/sq3;)V
-.end method
-
-.method public abstract e()Lcom/huawei/appmarket/kw7;
-.end method
-
-.method public abstract f()Lcom/huawei/appmarket/sq3;
-.end method
-
-.method public abstract logout()V
+.method public abstract getFileName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 .end method

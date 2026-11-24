@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uo5;
+.implements Lcom/huawei/appmarket/vo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/framework/MainActivityBase;->m4(Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/framework/MainActivityBase;->m4(Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

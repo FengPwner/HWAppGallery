@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Landroidx/fragment/app/FragmentActivity;"
     }
@@ -37,12 +37,12 @@
 
 
 # virtual methods
-.method public final Y2(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public final Y2(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -56,21 +56,21 @@
 
     new-instance v0, Landroidx/lifecycle/y;
 
-    invoke-direct {v0, p0}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->c:Landroidx/lifecycle/y;
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->c:Landroidx/lifecycle/y;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method protected final Z2()Lcom/huawei/appmarket/z86;
+.method protected final Z2()Lcom/huawei/appmarket/b96;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -86,20 +86,20 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/z86;
+    check-cast v0, Lcom/huawei/appmarket/b96;
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
     return-object v0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/ev5;->a:Lcom/huawei/appmarket/ev5;
+    sget-object v0, Lcom/huawei/appmarket/gv5;->a:Lcom/huawei/appmarket/gv5;
 
     const-string v1, "ContractActivity"
 
     const-string v2, "getProtocol appends RuntimeException!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -119,7 +119,7 @@
     :catchall_0
     move-exception v0
 
-    sget-object v1, Lcom/huawei/appmarket/ev5;->a:Lcom/huawei/appmarket/ev5;
+    sget-object v1, Lcom/huawei/appmarket/gv5;->a:Lcom/huawei/appmarket/gv5;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -139,7 +139,7 @@
 
     const-string v2, "ContractActivity"
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

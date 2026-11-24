@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vv7;
+.implements Lcom/huawei/appmarket/bw7;
 
 
 # instance fields
@@ -15,15 +15,15 @@
 
 .field private d:Ljava/lang/Exception;
 
-.field private final e:Lcom/huawei/appmarket/qb2;
+.field private final e:Lcom/huawei/appmarket/tb2;
 
 .field private f:I
 
-.field private g:Lcom/huawei/appmarket/uc2;
+.field private g:Lcom/huawei/appmarket/xc2;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/qb2;)V
+.method public constructor <init>(Lcom/huawei/appmarket/tb2;)V
     .registers 3
 
     .line 1
@@ -41,18 +41,18 @@
 
     iput-boolean v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->c:Z
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->e:Lcom/huawei/appmarket/qb2;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->e:Lcom/huawei/appmarket/tb2;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/uc2;I)V
+.method public final a(Lcom/huawei/appmarket/xc2;I)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->g:Lcom/huawei/appmarket/uc2;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->g:Lcom/huawei/appmarket/xc2;
 
     iput p2, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->f:I
 
@@ -75,9 +75,9 @@
 
     iput-boolean v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->b:Z
 
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->e:Lcom/huawei/appmarket/qb2;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->e:Lcom/huawei/appmarket/tb2;
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->f(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/qb2;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->f(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/tb2;)V
 
     goto :goto_0
 
@@ -156,11 +156,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->g:Lcom/huawei/appmarket/uc2;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->g:Lcom/huawei/appmarket/xc2;
 
     iget v1, p0, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->f:I
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->a(Lcom/huawei/appmarket/uc2;I)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/flexiblelayout/services/task/JavaTaskHandler;->a(Lcom/huawei/appmarket/xc2;I)V
 
     return-void
 
@@ -215,7 +215,7 @@
     return v0
 .end method
 
-.method protected abstract f(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/qb2;)V
+.method protected abstract f(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/tb2;)V
 .end method
 
 .method public final g()V

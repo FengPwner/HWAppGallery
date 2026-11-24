@@ -1,346 +1,100 @@
-.class public Lcom/huawei/appmarket/a69;
+.class public final synthetic Lcom/huawei/appmarket/a69;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bs7;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/bs7;
+.field public final synthetic b:Lcom/huawei/csc/captcha/n$a;
 
-.field private final b:Ljava/lang/String;
+.field public final synthetic c:I
 
-.field private final c:Ljava/util/HashMap;
-
-.field private d:[Lcom/huawei/appmarket/as7;
+.field public final synthetic d:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/bs7;Ljava/lang/String;)V
-    .registers 3
+.method public synthetic constructor <init>(Lcom/huawei/csc/captcha/n$a;ILjava/lang/String;)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->a:Lcom/huawei/appmarket/bs7;
+    iput-object p1, p0, Lcom/huawei/appmarket/a69;->b:Lcom/huawei/csc/captcha/n$a;
 
-    new-instance p1, Ljava/util/HashMap;
+    iput p2, p0, Lcom/huawei/appmarket/a69;->c:I
 
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/a69;->b:Ljava/lang/String;
-
-    const/4 p1, 0x2
-
-    new-array p1, p1, [Lcom/huawei/appmarket/k49;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;)V
-    .registers 3
-
-    .line 2
-    const/4 v0, 0x0
-
-    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/a69;-><init>(Lcom/huawei/appmarket/bs7;Ljava/lang/String;)V
+    iput-object p3, p0, Lcom/huawei/appmarket/a69;->d:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)I
-    .registers 5
+.method public final run()V
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/huawei/appmarket/a69;->b:Lcom/huawei/csc/captcha/n$a;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    iget v1, p0, Lcom/huawei/appmarket/a69;->c:I
 
     .line 4
     .line 5
-    .line 6
-    move-result-object v1
+    iget-object v2, p0, Lcom/huawei/appmarket/a69;->d:Ljava/lang/String;
 
+    .line 6
     .line 7
-    if-eqz v1, :cond_0
+    invoke-interface {v0, v1, v2}, Lcom/huawei/csc/captcha/n$a;->a(ILjava/lang/String;)V
 
     .line 8
     .line 9
-    const/4 p1, -0x1
-
     .line 10
-    return p1
-
+    return-void
     .line 11
-    :cond_0
-    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
-
     .line 12
     .line 13
     .line 14
-    move-result v1
-
     .line 15
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
     .line 16
     .line 17
     .line 18
-    move-result-object v2
-
     .line 19
-    invoke-virtual {v0, p1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 20
     .line 21
     .line 22
-    new-instance v0, Lcom/huawei/appmarket/k49;
-
     .line 23
     .line 24
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/k49;-><init>(Ljava/lang/String;)V
-
     .line 25
     .line 26
     .line 27
-    iget-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
     .line 28
     .line 29
-    array-length v2, p1
-
     .line 30
-    if-lt v1, v2, :cond_2
-
     .line 31
     .line 32
-    array-length v2, p1
-
     .line 33
-    shl-int/lit8 v2, v2, 0x1
-
     .line 34
     .line 35
-    if-lt v1, v2, :cond_1
-
     .line 36
     .line 37
-    add-int/lit8 v2, v1, 0x1
-
     .line 38
     .line 39
-    :cond_1
-    invoke-static {p1, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
     .line 40
     .line 41
     .line 42
-    move-result-object p1
-
     .line 43
-    check-cast p1, [Lcom/huawei/appmarket/as7;
-
     .line 44
     .line 45
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
     .line 46
     .line 47
-    :cond_2
-    iget-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
     .line 48
     .line 49
-    aput-object v0, p1, v1
-
     .line 50
     .line 51
-    return v1
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-.end method
-
-.method public final b(Ljava/lang/String;Lcom/huawei/appmarket/f58;)I
-    .registers 6
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v1
-
-    .line 7
-    if-eqz v1, :cond_0
-
-    .line 8
-    .line 9
-    const/4 p1, -0x1
-
-    .line 10
-    return p1
-
-    .line 11
-    :cond_0
-    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v1
-
-    .line 15
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object v2
-
-    .line 19
-    invoke-virtual {v0, p1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 20
-    .line 21
-    .line 22
-    new-instance v0, Lcom/huawei/appmarket/k49;
-
-    .line 23
-    .line 24
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/k49;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/f58;)V
-
-    .line 25
-    .line 26
-    .line 27
-    iget-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
-    .line 28
-    .line 29
-    array-length p2, p1
-
-    .line 30
-    if-lt v1, p2, :cond_2
-
-    .line 31
-    .line 32
-    array-length p2, p1
-
-    .line 33
-    shl-int/lit8 p2, p2, 0x1
-
-    .line 34
-    .line 35
-    if-lt v1, p2, :cond_1
-
-    .line 36
-    .line 37
-    add-int/lit8 p2, v1, 0x1
-
-    .line 38
-    .line 39
-    :cond_1
-    invoke-static {p1, p2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object p1
-
-    .line 43
-    check-cast p1, [Lcom/huawei/appmarket/as7;
-
-    .line 44
-    .line 45
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
-    .line 46
-    .line 47
-    :cond_2
-    iget-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
-    .line 48
-    .line 49
-    aput-object v0, p1, v1
-
-    .line 50
-    .line 51
-    return v1
     .line 52
     .line 53
     .line 54
@@ -454,159 +208,4 @@
     .line 162
     .line 163
     .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-.end method
-
-.method public final c(II)Lcom/huawei/appmarket/as7;
-    .registers 4
-
-    .line 1
-    if-nez p1, :cond_0
-
-    iget-object p1, p0, Lcom/huawei/appmarket/a69;->d:[Lcom/huawei/appmarket/as7;
-
-    aget-object p1, p1, p2
-
-    return-object p1
-
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->a:Lcom/huawei/appmarket/bs7;
-
-    add-int/lit8 p1, p1, -0x1
-
-    check-cast v0, Lcom/huawei/appmarket/a69;
-
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/a69;->c(II)Lcom/huawei/appmarket/as7;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public final d(Lcom/huawei/appmarket/bs7;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/a69;->a:Lcom/huawei/appmarket/bs7;
-
-    return-void
-.end method
-
-.method public final e()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final f()[Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    new-array v1, v1, [Ljava/lang/String;
-
-    invoke-interface {v0, v1}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, [Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final g(Ljava/lang/String;)Lcom/huawei/appmarket/xx4;
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Integer;
-
-    if-eqz v0, :cond_0
-
-    new-instance p1, Lcom/huawei/appmarket/xx4;
-
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    invoke-direct {p1, v1, v0}, Lcom/huawei/appmarket/xx4;-><init>(II)V
-
-    return-object p1
-
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->a:Lcom/huawei/appmarket/bs7;
-
-    const/4 v1, 0x0
-
-    if-nez v0, :cond_1
-
-    return-object v1
-
-    :cond_1
-    check-cast v0, Lcom/huawei/appmarket/a69;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a69;->g(Ljava/lang/String;)Lcom/huawei/appmarket/xx4;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_2
-
-    new-instance v0, Lcom/huawei/appmarket/xx4;
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xx4;->b()I
-
-    move-result v1
-
-    add-int/lit8 v1, v1, 0x1
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xx4;->a()I
-
-    move-result p1
-
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/xx4;-><init>(II)V
-
-    return-object v0
-
-    :cond_2
-    return-object v1
-.end method
-
-.method public final toString()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a69;->b:Ljava/lang/String;
-
-    return-object v0
 .end method

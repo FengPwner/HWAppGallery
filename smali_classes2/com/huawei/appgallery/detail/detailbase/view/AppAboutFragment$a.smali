@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
-        "Lcom/huawei/appmarket/l38;",
+        "Lcom/huawei/appmarket/zm5<",
+        "Lcom/huawei/appmarket/r38;",
         ">;"
     }
 .end annotation
@@ -47,7 +47,7 @@
     .registers 4
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/l38;
+    check-cast p1, Lcom/huawei/appmarket/r38;
 
     .line 2
     .line 3
@@ -59,7 +59,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->o6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;)Lcom/huawei/appmarket/u15;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->p6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;)Lcom/huawei/appmarket/x15;
 
     .line 8
     .line 9
@@ -75,7 +75,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/l38;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/r38;->j()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -83,7 +83,7 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/u15;->c(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/x15;->c(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -174,5 +174,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

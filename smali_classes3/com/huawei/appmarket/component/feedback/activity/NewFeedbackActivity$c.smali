@@ -62,7 +62,7 @@
 
     if-lt p2, p4, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hs2;->y(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ks2;->y(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;)I
 
     move-result p4
 
@@ -81,7 +81,7 @@
 
     if-ge p2, p4, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hs2;->e(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ks2;->e(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;)I
 
     move-result p2
 
@@ -99,7 +99,7 @@
     :goto_0
     if-eqz p5, :cond_2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;->F3(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;->F3(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -107,7 +107,7 @@
 
     invoke-direct {p2, p0, p3}, Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity$c$a;-><init>(Lcom/huawei/appmarket/component/feedback/activity/NewFeedbackActivity$c;I)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 

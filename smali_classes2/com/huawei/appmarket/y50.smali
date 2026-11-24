@@ -17,7 +17,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/aa1;->y()Lcom/huawei/appmarket/aa1;
+    invoke-static {}, Lcom/huawei/appmarket/ba1;->y()Lcom/huawei/appmarket/ba1;
 
     .line 5
     .line 6
@@ -269,19 +269,19 @@
     if-nez v4, :cond_0
 
     :try_start_0
-    const-class v4, Lcom/huawei/appmarket/xh3;
+    const-class v4, Lcom/huawei/appmarket/zh3;
 
-    invoke-static {v4}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v4}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/xh3;
+    check-cast v4, Lcom/huawei/appmarket/zh3;
 
     invoke-virtual {v3}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->getPackage_()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-interface {v4, v5}, Lcom/huawei/appmarket/xh3;->Y1(Ljava/lang/String;)Z
+    invoke-interface {v4, v5}, Lcom/huawei/appmarket/zh3;->Z1(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -289,7 +289,7 @@
 
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
-    sget-object v4, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v4, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -309,7 +309,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v2, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v2, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Lcom/huawei/appgallery/foundation/apikit/execption/NotRegisterExecption; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -318,7 +318,7 @@
     :catch_0
     move-exception v4
 
-    sget-object v5, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v5, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -336,23 +336,23 @@
 
     move-result-object v4
 
-    invoke-virtual {v5, v2, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v2, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    const-class v4, Lcom/huawei/appmarket/lw3;
+    const-class v4, Lcom/huawei/appmarket/nw3;
 
-    invoke-static {v4}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v4}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/lw3;
+    check-cast v4, Lcom/huawei/appmarket/nw3;
 
-    invoke-interface {v4, v3}, Lcom/huawei/appmarket/lw3;->k0(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
+    invoke-interface {v4, v3}, Lcom/huawei/appmarket/nw3;->k0(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
 
     goto :goto_0
 
     :cond_2
-    sget-object v1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -382,7 +382,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -462,7 +462,7 @@
     move-result-object v0
 
     .line 36
-    invoke-virtual {v1, p1, v4, v0}, Lcom/huawei/appmarket/b71;->g(Lcom/huawei/appmarket/e91;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v1, p1, v4, v0}, Lcom/huawei/appmarket/b71;->g(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 37
     .line 38
@@ -471,7 +471,7 @@
 
     .line 40
     :cond_0
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/e91;)J
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/f91;)J
 
     .line 41
     .line 42
@@ -541,5 +541,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -48,7 +48,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/bu0;->u(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/kb1;->x(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 10
     .line 11
@@ -61,11 +61,11 @@
 
     .line 15
     .line 16
-    const-class v1, Lcom/huawei/appmarket/lh3;
+    const-class v1, Lcom/huawei/appmarket/nh3;
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -73,7 +73,7 @@
     move-result-object v0
 
     .line 22
-    check-cast v0, Lcom/huawei/appmarket/lh3;
+    check-cast v0, Lcom/huawei/appmarket/nh3;
 
     .line 23
     .line 24
@@ -93,7 +93,7 @@
     move-result-object v1
 
     .line 32
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/lh3;->h(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/nh3;->h(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -103,7 +103,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {}, Lcom/huawei/appmarket/f96;->d()Lcom/huawei/appmarket/f96;
+    invoke-static {}, Lcom/huawei/appmarket/h96;->d()Lcom/huawei/appmarket/h96;
 
     .line 39
     .line 40
@@ -116,7 +116,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {}, Lcom/huawei/appmarket/f96;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/h96;->f()Z
 
     .line 46
     .line 47
@@ -124,7 +124,7 @@
     move-result v0
 
     .line 49
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 50
     .line 51
@@ -140,7 +140,7 @@
 
     .line 56
     .line 57
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/bu0;->u(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/kb1;->x(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 58
     .line 59
@@ -212,7 +212,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static d(Landroid/app/Application;)V
@@ -227,7 +226,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -288,7 +287,7 @@
     .line 35
     .line 36
     :try_start_1
-    invoke-static {p0, v3, v1}, Lcom/huawei/appmarket/hk2;->o(Landroid/app/Application;Lcom/huawei/appmarket/service/installresult/control/HarmonyInstallerReceiver;Landroid/content/IntentFilter;)V
+    invoke-static {p0, v3, v1}, Lcom/huawei/appmarket/jk2;->o(Landroid/app/Application;Lcom/huawei/appmarket/service/installresult/control/HarmonyInstallerReceiver;Landroid/content/IntentFilter;)V
 
     .line 37
     .line 38
@@ -324,7 +323,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -390,7 +389,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static e(Landroid/app/Application;)V
@@ -402,7 +400,7 @@
     :try_start_0
     const-string v1, "HarmonyInstallerReceiver unregister"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v1, Lcom/huawei/appmarket/service/installresult/control/HarmonyInstallerReceiver;->k:Lcom/huawei/appmarket/service/installresult/control/HarmonyInstallerReceiver;
 
@@ -417,7 +415,7 @@
 
     const-string v1, "unregisterReceiver."
 
-    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -458,7 +456,7 @@
 
     const-string v1, "HarmoneyInstallerReceiver"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

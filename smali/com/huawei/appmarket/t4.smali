@@ -57,15 +57,15 @@
     return-void
 .end method
 
-.method public static a(ILcom/huawei/appmarket/aw5;)V
+.method public static a(ILcom/huawei/appmarket/cw5;)V
     .registers 4
 
     .line 1
     const/4 v0, 0x7
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/aw5;->J(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/cw5;->J(I)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aw5;->d()[B
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cw5;->d()[B
 
     move-result-object p1
 
@@ -122,7 +122,7 @@
     return-void
 .end method
 
-.method public static b(Lcom/huawei/appmarket/zv5;)Lcom/huawei/appmarket/t4$b;
+.method public static b(Lcom/huawei/appmarket/bw5;)Lcom/huawei/appmarket/t4$b;
     .registers 12
 
     .line 1
@@ -130,7 +130,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 4
     .line 5
@@ -138,7 +138,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 8
     .line 9
@@ -162,7 +162,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 20
     .line 21
@@ -204,7 +204,7 @@
     const/4 v0, 0x2
 
     .line 36
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 37
     .line 38
@@ -226,7 +226,7 @@
 
     .line 45
     :goto_1
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 46
     .line 47
@@ -237,7 +237,7 @@
     add-int/2addr v6, v5
 
     .line 50
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zv5;->g()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bw5;->g()Z
 
     .line 51
     .line 52
@@ -276,7 +276,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 67
     .line 68
@@ -284,7 +284,7 @@
     move-result v1
 
     .line 70
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zv5;->g()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bw5;->g()Z
 
     .line 71
     .line 72
@@ -296,7 +296,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 77
     .line 78
@@ -308,13 +308,13 @@
 
     .line 81
     .line 82
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zv5;->p(I)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bw5;->p(I)V
 
     .line 83
     .line 84
     .line 85
     :cond_4
-    invoke-virtual {p0}, Lcom/huawei/appmarket/zv5;->g()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bw5;->g()Z
 
     .line 86
     .line 87
@@ -351,7 +351,7 @@
     .line 103
     .line 104
     :goto_3
-    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/zv5;->h(I)I
+    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/bw5;->h(I)I
 
     .line 105
     .line 106

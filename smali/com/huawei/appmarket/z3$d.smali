@@ -129,7 +129,7 @@
 
     .line 24
     .line 25
-    sget-object p1, Lcom/huawei/appmarket/al4;->b:Lcom/huawei/appmarket/al4;
+    sget-object p1, Lcom/huawei/appmarket/dl4;->b:Lcom/huawei/appmarket/dl4;
 
     .line 26
     .line 27

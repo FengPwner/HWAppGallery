@@ -147,7 +147,7 @@
     const-string v1, "reparentWithOverlay"
 
     .line 2
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -167,7 +167,7 @@
 
     const-string v1, "reparent"
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result p2
 
@@ -294,7 +294,7 @@
 
     invoke-virtual {p1, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0a1646
+    const v1, 0x7f0a1647
 
     invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -816,7 +816,7 @@
     .line 220
     .line 221
     .line 222
-    invoke-static {v6, v5}, Lcom/huawei/appmarket/ei8;->y0(Landroid/view/View;F)V
+    invoke-static {v6, v5}, Lcom/huawei/appmarket/ki8;->y0(Landroid/view/View;F)V
 
     .line 223
     .line 224

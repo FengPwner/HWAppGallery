@@ -4,10 +4,26 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/fd3;)Lcom/huawei/appmarket/gd3;
-    .annotation system Ldalvik/annotation/Throws;
+.method public abstract body()Ljava/lang/String;
+.end method
+
+.method public abstract contentType()Ljava/lang/String;
+.end method
+
+.method public abstract headers()Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Lcom/huawei/serverrequest/api/service/HttpException;
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
         }
     .end annotation
+.end method
+
+.method public abstract method()Ljava/lang/String;
+.end method
+
+.method public abstract url()Ljava/lang/String;
 .end method

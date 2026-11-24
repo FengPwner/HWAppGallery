@@ -35,13 +35,13 @@
     .line 1
     const-string v0, "PowerKitManager"
 
-    const-class v1, Lcom/huawei/appmarket/kx3;
+    const-class v1, Lcom/huawei/appmarket/mx3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/kx3;
+    check-cast v0, Lcom/huawei/appmarket/mx3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -53,15 +53,15 @@
 
     const-string v2, "user-audioplay"
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/kx3;->f(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/mx3;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPowerKitManager"
 
     const-string v2, "unapplyForPowerKitResource success."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

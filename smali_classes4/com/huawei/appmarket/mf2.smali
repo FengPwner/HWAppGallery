@@ -2,38 +2,46 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lorg/apache/commons/lang3/function/FailableConsumer;
+
+
+# instance fields
+.field public final synthetic a:Ljava/util/function/Function;
+
 
 # direct methods
-.method public static synthetic a(D)Ljava/lang/Object;
+.method public synthetic constructor <init>(Ljava/util/function/Function;)V
     .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Throwable;
-        }
-    .end annotation
 
     .line 1
-    const/4 p0, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-object p0
+    iput-object p1, p0, Lcom/huawei/appmarket/mf2;->a:Ljava/util/function/Function;
+
+    return-void
 .end method
 
-.method public static b()Lorg/apache/commons/lang3/function/FailableDoubleFunction;
-    .registers 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            "E:",
-            "Ljava/lang/Throwable;",
-            ">()",
-            "Lorg/apache/commons/lang3/function/FailableDoubleFunction<",
-            "TR;TE;>;"
-        }
-    .end annotation
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .registers 3
 
     .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableDoubleFunction;->NOP:Lorg/apache/commons/lang3/function/FailableDoubleFunction;
+    iget-object v0, p0, Lcom/huawei/appmarket/mf2;->a:Ljava/util/function/Function;
 
-    return-object v0
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/qu0;->A(Ljava/util/function/Function;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final synthetic andThen(Lorg/apache/commons/lang3/function/FailableConsumer;)Lorg/apache/commons/lang3/function/FailableConsumer;
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/nf2;->a(Lorg/apache/commons/lang3/function/FailableConsumer;Lorg/apache/commons/lang3/function/FailableConsumer;)Lorg/apache/commons/lang3/function/FailableConsumer;
+
+    move-result-object p1
+
+    return-object p1
 .end method

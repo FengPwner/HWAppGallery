@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
+.method public abstract a(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
 .end method

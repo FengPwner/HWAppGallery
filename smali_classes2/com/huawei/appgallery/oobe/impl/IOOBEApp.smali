@@ -23,11 +23,11 @@
 .method public abstract getAppPermissionOk(Ljava/lang/String;)V
 .end method
 
-.method public abstract getOOBECallbackTaskStream()Lcom/huawei/appmarket/gw7;
+.method public abstract getOOBECallbackTaskStream()Lcom/huawei/appmarket/mw7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw7<",
+            "Lcom/huawei/appmarket/mw7<",
             "Ljava/lang/String;",
             ">;"
         }

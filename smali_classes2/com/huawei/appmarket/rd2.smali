@@ -3,12 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aq3;
+.implements Lcom/huawei/appmarket/bq3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/aq3;
+.annotation runtime Lcom/huawei/appmarket/fg7;
+.end annotation
+
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/bq3;
 .end annotation
 
 
@@ -23,96 +26,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appgallery/fadispatcher/impl/install/FaDispatcher$a;
+.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/y82;)V
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->i()Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/a92;->a(Landroid/content/Context;Lcom/huawei/appmarket/y82;)V
 
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    sget-boolean v0, Lcom/huawei/appmarket/yd3;->f:Z
-
-    if-eqz v0, :cond_1
-
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
-
-    move-result v0
-
-    const/16 v1, 0x1f
-
-    if-lt v0, v1, :cond_1
-
-    new-instance v0, Lcom/huawei/appgallery/fadispatcher/impl/install/b;
-
-    invoke-direct {v0}, Lcom/huawei/appgallery/fadispatcher/impl/install/b;-><init>()V
-
-    return-object v0
-
-    :cond_1
-    const-string v0, "FaDispatcherInit"
-
-    const-string v1, "return EmptyFaDispatcher below harmony os 4.0"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appgallery/fadispatcher/impl/install/a;
-
-    invoke-direct {v0}, Lcom/huawei/appgallery/fadispatcher/impl/install/a;-><init>()V
-
-    return-object v0
-.end method
-
-.method public final b()Lcom/huawei/appmarket/yr3$a;
-    .registers 3
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->i()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    sget-boolean v0, Lcom/huawei/appmarket/yd3;->f:Z
-
-    if-eqz v0, :cond_1
-
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
-
-    move-result v0
-
-    const/16 v1, 0x1f
-
-    if-lt v0, v1, :cond_1
-
-    new-instance v0, Lcom/huawei/appmarket/r43;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/r43;-><init>()V
-
-    return-object v0
-
-    :cond_1
-    const-string v0, "FaDispatcherInit"
-
-    const-string v1, "return EmptyHapInstallStub below harmony os 4.0"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appmarket/h02;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/h02;-><init>()V
-
-    return-object v0
+    return-void
 .end method

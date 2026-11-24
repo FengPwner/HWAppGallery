@@ -116,7 +116,7 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/w86;
+.method public final c()Lcom/huawei/appmarket/y86;
     .registers 3
 
     .line 1
@@ -126,7 +126,7 @@
 
     if-eqz v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/w86;->b:Lcom/huawei/appmarket/w86;
+    sget-object v0, Lcom/huawei/appmarket/y86;->b:Lcom/huawei/appmarket/y86;
 
     return-object v0
 
@@ -137,12 +137,12 @@
 
     if-ne v0, v1, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/w86;->d:Lcom/huawei/appmarket/w86;
+    sget-object v0, Lcom/huawei/appmarket/y86;->d:Lcom/huawei/appmarket/y86;
 
     return-object v0
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/w86;->c:Lcom/huawei/appmarket/w86;
+    sget-object v0, Lcom/huawei/appmarket/y86;->c:Lcom/huawei/appmarket/y86;
 
     return-object v0
 .end method

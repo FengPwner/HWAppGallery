@@ -11,21 +11,21 @@
 .field private detailTitle_:Ljava/lang/String;
 
 .field private issueEndTimeStamp:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private issueEndTime_:Ljava/lang/String;
 
 .field private issueStartTimeStamp:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private issueStartTime_:Ljava/lang/String;
 
 .field private nowTimeStamp:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

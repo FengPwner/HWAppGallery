@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public a:Lcom/huawei/appmarket/bq0;
+.field public a:Lcom/huawei/appmarket/cq0;
 
 .field public b:Z
 
@@ -30,7 +30,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/hls/e$b;->a:Lcom/huawei/appmarket/bq0;
+    iput-object v0, p0, Landroidx/media3/exoplayer/hls/e$b;->a:Lcom/huawei/appmarket/cq0;
 
     const/4 v1, 0x0
 

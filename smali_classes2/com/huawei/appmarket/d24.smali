@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract a()I
+.method public abstract a(Landroid/content/Context;Lcom/huawei/appgallery/share/api/ShareBean;)V
 .end method
 
-.method public abstract n()Ljava/lang/String;
+.method public abstract b(Landroid/content/Context;Lcom/huawei/appmarket/xw6;Lcom/huawei/appmarket/sc7;)V
 .end method

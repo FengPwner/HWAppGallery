@@ -856,7 +856,7 @@
     const-string v1, "privacy_statement_confirm_result rejected: "
 
     .line 23
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const p1, 0x3611cad9
 
@@ -1049,7 +1049,7 @@
     const-string v1, "BaseAdapter"
 
     .line 8
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -1811,7 +1811,7 @@
 
     .line 102
     .line 103
-    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 104
     .line 105

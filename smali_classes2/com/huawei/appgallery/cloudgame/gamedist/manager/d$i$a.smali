@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$i;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$i;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ej2;->o(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/tr2;->n(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -79,7 +79,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -193,5 +193,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

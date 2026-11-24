@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/dt1;->values()[Lcom/huawei/appmarket/dt1;
+    invoke-static {}, Lcom/huawei/appmarket/gt1;->values()[Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceInstallBtnDelegate$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceInstallBtnDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->k:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->k:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceInstallBtnDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->f:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->f:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceInstallBtnDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -97,7 +97,7 @@
     :try_start_4
     sget-object v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceInstallBtnDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->m:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->m:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

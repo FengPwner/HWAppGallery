@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/hms/iap/entity/PurchaseIntentResult;",
         ">;"
     }
@@ -97,7 +97,7 @@
 
     .line 14
     .line 15
-    sget-object v1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 16
     .line 17
@@ -109,7 +109,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -147,7 +147,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -170,7 +170,7 @@
     move-exception v1
 
     .line 50
-    sget-object v4, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v4, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 51
     .line 52
@@ -182,7 +182,7 @@
     move-result-object v1
 
     .line 56
-    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -196,7 +196,7 @@
     .line 61
     :cond_1
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 62
     .line 63
@@ -260,7 +260,7 @@
     move-result-object p1
 
     .line 89
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -284,5 +284,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

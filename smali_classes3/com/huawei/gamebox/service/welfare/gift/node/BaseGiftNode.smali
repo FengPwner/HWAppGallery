@@ -147,17 +147,17 @@
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/ak0;
+    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/bk0;
 
     move-result-object p1
 
     if-eqz p1, :cond_7
 
-    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/ak0;
+    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/bk0;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/bk0;)V
 
     :cond_7
     return-void
@@ -333,7 +333,7 @@
 
     .line 80
     :cond_4
-    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/ak0;
+    invoke-virtual {p0}, Lcom/huawei/gamebox/service/welfare/gift/node/BaseGiftNode;->L()Lcom/huawei/appmarket/bk0;
 
     .line 81
     .line 82
@@ -341,7 +341,7 @@
     move-result-object p1
 
     .line 84
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 85
     .line 86
@@ -434,10 +434,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method protected L()Lcom/huawei/appmarket/ak0;
+.method protected L()Lcom/huawei/appmarket/bk0;
     .registers 2
 
     .line 1
@@ -522,7 +521,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_2
     :goto_2

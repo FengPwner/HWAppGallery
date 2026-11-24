@@ -643,7 +643,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v1
 
@@ -672,7 +672,7 @@
     goto :goto_3
 
     :cond_1
-    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v1
 
@@ -710,7 +710,7 @@
 
     move-result v5
 
-    invoke-static {v4, v5, v0, v3}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v4, v5, v0, v3}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v3
 
@@ -724,7 +724,7 @@
 
     move-result v5
 
-    invoke-static {v4, v5, v0, v3}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v4, v5, v0, v3}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v3
 

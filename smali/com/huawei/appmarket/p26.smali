@@ -1,338 +1,144 @@
-.class public final Lcom/huawei/appmarket/p26;
-.super Lcom/huawei/appmarket/j50;
+.class final Lcom/huawei/appmarket/p26;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# static fields
-.field private static final b:Ljava/lang/Object;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-.field private static volatile c:Lcom/huawei/appmarket/p26;
+
+# instance fields
+.field private final a:[Ljava/lang/Object;
+
+.field private b:I
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
+.method constructor <init>(I)V
+    .registers 3
 
     .line 1
-    new-instance v0, Ljava/lang/Object;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    if-lez p1, :cond_0
 
-    sput-object v0, Lcom/huawei/appmarket/p26;->b:Ljava/lang/Object;
+    new-array p1, p1, [Ljava/lang/Object;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/p26;->a:[Ljava/lang/Object;
 
     return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 4
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/j50;-><init>()V
-
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    const-string v1, "PoorNetDownloadRecord"
-
-    const/4 v2, 0x0
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
-
-    return-void
-.end method
-
-.method public static r()Lcom/huawei/appmarket/p26;
-    .registers 2
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/p26;->c:Lcom/huawei/appmarket/p26;
-
-    if-nez v0, :cond_1
-
-    sget-object v0, Lcom/huawei/appmarket/p26;->b:Ljava/lang/Object;
-
-    monitor-enter v0
-
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/p26;->c:Lcom/huawei/appmarket/p26;
-
-    if-nez v1, :cond_0
-
-    new-instance v1, Lcom/huawei/appmarket/p26;
-
-    invoke-direct {v1}, Lcom/huawei/appmarket/p26;-><init>()V
-
-    sput-object v1, Lcom/huawei/appmarket/p26;->c:Lcom/huawei/appmarket/p26;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
 
     :cond_0
-    :goto_0
-    monitor-exit v0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    goto :goto_2
+    const-string v0, "The max pool size must be > 0"
 
-    :goto_1
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    throw v1
-
-    :cond_1
-    :goto_2
-    sget-object v0, Lcom/huawei/appmarket/p26;->c:Lcom/huawei/appmarket/p26;
-
-    return-object v0
-.end method
-
-.method private static s()Ljava/lang/String;
-    .registers 4
-
-    .line 1
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v0
-
-    new-instance v2, Ljava/util/Date;
-
-    invoke-direct {v2, v0, v1}, Ljava/util/Date;-><init>(J)V
-
-    new-instance v0, Ljava/text/SimpleDateFormat;
-
-    const-string v1, "yyyyMMdd"
-
-    sget-object v3, Ljava/util/Locale;->US:Ljava/util/Locale;
-
-    invoke-direct {v0, v1, v3}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
-
-    invoke-virtual {v0, v2}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    throw p1
 .end method
 
 
 # virtual methods
-.method public final q(Ljava/lang/String;)I
+.method public final a()Ljava/lang/Object;
     .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
 
     .line 1
-    const-string v0, ""
+    iget v0, p0, Lcom/huawei/appmarket/p26;->b:I
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/j50;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    const/4 v1, 0x0
 
-    move-result-object v0
+    if-lez v0, :cond_0
 
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    add-int/lit8 v2, v0, -0x1
 
-    move-result v1
+    iget-object v3, p0, Lcom/huawei/appmarket/p26;->a:[Ljava/lang/Object;
 
-    const/4 v2, -0x1
+    aget-object v4, v3, v2
 
-    if-eqz v1, :cond_0
+    aput-object v1, v3, v2
 
-    return v2
+    add-int/lit8 v0, v0, -0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/p26;->b:I
+
+    return-object v4
 
     :cond_0
-    const-string v1, "#"
+    return-object v1
+.end method
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+.method public final b(Ljava/lang/Object;)V
+    .registers 5
 
-    move-result-object v0
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/p26;->b:I
 
-    array-length v1, v0
+    iget-object v1, p0, Lcom/huawei/appmarket/p26;->a:[Ljava/lang/Object;
 
-    const/4 v3, 0x2
+    array-length v2, v1
 
-    if-eq v1, v3, :cond_1
+    if-ge v0, v2, :cond_0
 
-    return v2
+    aput-object p1, v1, v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/p26;->b:I
+
+    :cond_0
+    return-void
+.end method
+
+.method public final c(I[Ljava/lang/Object;)V
+    .registers 8
+
+    .line 1
+    array-length v0, p2
+
+    if-le p1, v0, :cond_0
+
+    array-length p1, p2
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    if-ge v0, p1, :cond_2
+
+    aget-object v1, p2, v0
+
+    iget v2, p0, Lcom/huawei/appmarket/p26;->b:I
+
+    iget-object v3, p0, Lcom/huawei/appmarket/p26;->a:[Ljava/lang/Object;
+
+    array-length v4, v3
+
+    if-ge v2, v4, :cond_1
+
+    aput-object v1, v3, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    iput v2, p0, Lcom/huawei/appmarket/p26;->b:I
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/p26;->s()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v3, 0x0
-
-    aget-object v3, v0, v3
-
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_2
-
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/j50;->p(Ljava/lang/String;)V
+    add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
     :cond_2
-    const/4 p1, 0x1
-
-    :try_start_0
-    aget-object p1, v0, p1
-
-    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result p1
-    :try_end_0
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return p1
-
-    :catch_0
-    move-exception p1
-
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v3, "can not get download fail times: "
-
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v1, "PoorNetDownloadRecord"
-
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    return v2
-.end method
-
-.method public final t()Z
-    .registers 3
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "NetworkAnomaly#"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/p26;->s()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/j50;->d(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final u(Ljava/lang/String;)V
-    .registers 5
-
-    .line 1
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return-void
-
-    :cond_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/p26;->q(Ljava/lang/String;)I
-
-    move-result v0
-
-    const/4 v1, -0x1
-
-    const/4 v2, 0x1
-
-    if-eq v1, v0, :cond_1
-
-    add-int/2addr v2, v0
-
-    :cond_1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Lcom/huawei/appmarket/p26;->s()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, "#"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/j50;->n(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public final v()V
-    .registers 3
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "NetworkAnomaly#"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/p26;->s()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x1
-
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/j50;->j(Ljava/lang/String;Z)V
-
     return-void
 .end method

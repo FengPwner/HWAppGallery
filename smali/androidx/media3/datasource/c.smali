@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final addTransferListener(Lcom/huawei/appmarket/s28;)V
+.method public final addTransferListener(Lcom/huawei/appmarket/y28;)V
     .registers 2
 
     .line 1
@@ -189,6 +189,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getUri()Landroid/net/Uri;
@@ -199,7 +200,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {

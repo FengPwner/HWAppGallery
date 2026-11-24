@@ -60,7 +60,7 @@
 .method private a(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .registers 6
 
-    sget-object v0, Lcom/huawei/appmarket/mg6;->b:[I
+    sget-object v0, Lcom/huawei/appmarket/og6;->b:[I
 
     const/4 v1, 0x0
 
@@ -104,7 +104,7 @@
 
     if-lt p1, p2, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->b(Landroid/widget/CheckedTextView;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->b(Landroid/widget/CheckedTextView;)I
 
     move-result p1
 
@@ -112,7 +112,7 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwspinner/widget/HwSpinnerTextView;->c:F
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->B(Landroid/widget/CheckedTextView;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->B(Landroid/widget/CheckedTextView;)I
 
     move-result p1
 
@@ -120,7 +120,7 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwspinner/widget/HwSpinnerTextView;->d:F
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->o(Landroid/widget/CheckedTextView;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->o(Landroid/widget/CheckedTextView;)V
 
     :cond_0
     new-instance p1, Landroid/text/TextPaint;
@@ -732,10 +732,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public setAutoTextSize(F)V
@@ -955,23 +951,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setSelected(Z)V

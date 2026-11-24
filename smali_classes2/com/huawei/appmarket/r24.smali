@@ -2,10 +2,13 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
-
 
 # virtual methods
-.method public abstract skuJump(Lcom/huawei/appmarket/ib2;I)V
+.method public abstract a([Ljava/lang/String;)V
+.end method
+
+.method public abstract b(Lcom/huawei/appmarket/c71;)V
+.end method
+
+.method public abstract c([Ljava/lang/String;)Landroid/os/Bundle;
 .end method

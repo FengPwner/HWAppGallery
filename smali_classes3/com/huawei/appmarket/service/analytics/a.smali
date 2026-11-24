@@ -36,7 +36,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appmarket/service/analytics/b;-><init>(Lcom/huawei/appmarket/service/analytics/b$b;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pk;->c(Lcom/huawei/appmarket/service/analytics/b;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ok;->c(Lcom/huawei/appmarket/service/analytics/b;)V
 
     new-instance v0, Lcom/huawei/appmarket/service/analytics/HiAppAnalyticsGrsProcesssor;
 
@@ -50,7 +50,7 @@
 
     invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/service/analytics/HiAppAnalyticsGrsProcesssor;-><init>(Landroid/content/Context;Z)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pk;->a(Lcom/huawei/appmarket/service/analytics/HiAppAnalyticsGrsProcesssor;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ok;->a(Lcom/huawei/appmarket/service/analytics/HiAppAnalyticsGrsProcesssor;)V
 
     return-void
 .end method

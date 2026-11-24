@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/lp5;
+.implements Lcom/huawei/appmarket/po5;
 .implements Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$b;
 
 
@@ -127,7 +127,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -161,7 +160,7 @@
     .line 12
     .line 13
     .line 14
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 15
     .line 16
@@ -173,7 +172,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -264,7 +263,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onSuccess(Ljava/lang/Object;)V
@@ -393,5 +391,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

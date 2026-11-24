@@ -4,14 +4,17 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;)Z
+.method public abstract a(Lcom/huawei/appmarket/nu0;Ljava/lang/String;)V
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/qb2;Ljava/lang/String;I)Z
+.method public abstract b(I)V
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/qb2;Ljava/lang/String;I)Z
+.method public abstract c()V
 .end method
 
-.method public abstract d(Lcom/huawei/appmarket/qb2;Ljava/lang/String;)Z
+.method public abstract d()V
+.end method
+
+.method public abstract e(Ljava/lang/String;)V
 .end method

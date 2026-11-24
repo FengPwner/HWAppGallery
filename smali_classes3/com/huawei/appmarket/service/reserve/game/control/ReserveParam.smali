@@ -51,7 +51,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/SoftReference<",
-            "Lcom/huawei/appmarket/dr5;",
+            "Lcom/huawei/appmarket/fr5;",
             ">;"
         }
     .end annotation
@@ -67,7 +67,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/SoftReference<",
-            "Lcom/huawei/appmarket/b04;",
+            "Lcom/huawei/appmarket/d04;",
             ">;"
         }
     .end annotation
@@ -285,7 +285,7 @@
     return-object v0
 .end method
 
-.method public final c0()Lcom/huawei/appmarket/dr5;
+.method public final c0()Lcom/huawei/appmarket/fr5;
     .registers 2
 
     .line 1
@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dr5;
+    check-cast v0, Lcom/huawei/appmarket/fr5;
 
     return-object v0
 .end method
@@ -365,7 +365,7 @@
     return v0
 .end method
 
-.method public final h0()Lcom/huawei/appmarket/b04;
+.method public final h0()Lcom/huawei/appmarket/d04;
     .registers 2
 
     .line 1
@@ -382,7 +382,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/b04;
+    check-cast v0, Lcom/huawei/appmarket/d04;
 
     return-object v0
 .end method
@@ -531,7 +531,7 @@
     return-void
 .end method
 
-.method public final u0(Lcom/huawei/appmarket/b04;)V
+.method public final u0(Lcom/huawei/appmarket/d04;)V
     .registers 3
 
     .line 1

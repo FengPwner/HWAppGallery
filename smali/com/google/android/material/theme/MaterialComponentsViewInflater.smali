@@ -1,5 +1,5 @@
 .class public Lcom/google/android/material/theme/MaterialComponentsViewInflater;
-.super Lcom/huawei/appmarket/ip;
+.super Lcom/huawei/appmarket/hp;
 .source "SourceFile"
 
 
@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ip;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/hp;-><init>()V
 
     return-void
 .end method

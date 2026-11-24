@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/option/vote/view/b;
-.super Lcom/huawei/appmarket/lf7;
+.super Lcom/huawei/appmarket/qf7;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
     iput-object p3, p0, Lcom/huawei/appgallery/forum/option/vote/view/b;->c:Landroid/view/View;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/lf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/qf7;-><init>()V
 
     return-void
 .end method
@@ -57,11 +57,11 @@
 
     move-result v0
 
-    invoke-static {v2}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+    invoke-static {v2}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v1, v1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -71,11 +71,11 @@
 
     if-ltz v0, :cond_0
 
-    invoke-static {v2}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+    invoke-static {v2}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v1, v1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->set(ILjava/lang/Object;)Ljava/lang/Object;
 

@@ -53,9 +53,9 @@
 
     if-nez p4, :cond_0
 
-    new-instance p4, Lcom/huawei/appmarket/tf7;
+    new-instance p4, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {p4, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {p4, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     :goto_0
     invoke-virtual {p1, p4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -81,7 +81,7 @@
 
     invoke-virtual {p1, p4}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object p4
 
@@ -1113,7 +1113,7 @@
 
     .line 467
     .line 468
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 469
     .line 470
@@ -1372,11 +1372,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -1413,7 +1408,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceCard;->x:Landroid/widget/LinearLayout;
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object v1
 
@@ -1421,7 +1416,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceCard;->y:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 
@@ -1471,7 +1466,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bq4;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/eq4;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1484,7 +1479,7 @@
 
     if-eqz v1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/ll6;->a()Lcom/huawei/appmarket/ll6;
+    invoke-static {}, Lcom/huawei/appmarket/nl6;->a()Lcom/huawei/appmarket/nl6;
 
     move-result-object v1
 
@@ -1514,7 +1509,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v3, v4, v2}, Lcom/huawei/appmarket/ll6;->b(Landroid/content/Context;ILjava/lang/String;)Z
+    invoke-static {v3, v4, v2}, Lcom/huawei/appmarket/nl6;->b(Landroid/content/Context;ILjava/lang/String;)Z
 
     move-result v1
 
@@ -1545,7 +1540,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceCard;->z:Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceBean;
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/jk0;->f(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceBean;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/kk0;->f(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/appdetailservicecard/DetailServiceBean;Landroid/view/View;)V
 
     :cond_3
     :goto_1

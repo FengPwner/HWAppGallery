@@ -79,7 +79,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v2, 0x7f0a15fd
 

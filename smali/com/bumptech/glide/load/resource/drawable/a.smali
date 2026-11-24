@@ -1,12 +1,12 @@
 .class final Lcom/bumptech/glide/load/resource/drawable/a;
-.super Lcom/huawei/appmarket/pw1;
+.super Lcom/huawei/appmarket/tw1;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/pw1<",
+        "Lcom/huawei/appmarket/tw1<",
         "Landroid/graphics/drawable/Drawable;",
         ">;"
     }
@@ -17,19 +17,19 @@
 .method private constructor <init>(Landroid/graphics/drawable/Drawable;)V
     .registers 2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pw1;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tw1;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
 
-.method static c(Landroid/graphics/drawable/Drawable;)Lcom/huawei/appmarket/cu6;
+.method static c(Landroid/graphics/drawable/Drawable;)Lcom/huawei/appmarket/gu6;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/drawable/Drawable;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/drawable/Drawable;",
             ">;"
         }
@@ -72,7 +72,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pw1;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lcom/huawei/appmarket/tw1;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -84,7 +84,7 @@
 .method public final getSize()I
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/pw1;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lcom/huawei/appmarket/tw1;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 

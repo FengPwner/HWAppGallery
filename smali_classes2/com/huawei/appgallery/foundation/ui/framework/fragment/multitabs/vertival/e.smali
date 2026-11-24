@@ -59,7 +59,7 @@
 
     iget v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/e;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->s(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->q(I)V
 
     return-void
 .end method

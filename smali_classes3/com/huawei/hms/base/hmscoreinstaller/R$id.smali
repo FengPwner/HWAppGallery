@@ -101,15 +101,15 @@
 
 .field public static final titleDividerNoCustom:I = 0x7f0a15ec
 
-.field public static final title_template:I = 0x7f0a1608
+.field public static final title_template:I = 0x7f0a1609
 
-.field public static final topPanel:I = 0x7f0a1625
+.field public static final topPanel:I = 0x7f0a1626
 
-.field public static final update_dialog_button:I = 0x7f0a1748
+.field public static final update_dialog_button:I = 0x7f0a1749
 
-.field public static final version_layout:I = 0x7f0a17c3
+.field public static final version_layout:I = 0x7f0a17c4
 
-.field public static final version_textview:I = 0x7f0a17ce
+.field public static final version_textview:I = 0x7f0a17cf
 
 
 # direct methods

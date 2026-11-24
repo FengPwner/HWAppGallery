@@ -3,303 +3,183 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/io/Serializable;
+.implements Lcom/huawei/appmarket/kl3;
+.implements Lcom/huawei/appmarket/ol3;
 
 
-# static fields
-.field private static final serialVersionUID:J = 0x6efc69618ab360f7L
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/kl3;
+.end annotation
 
 
 # instance fields
-.field private b:I
+.field private b:Landroid/app/Activity;
 
-.field private c:J
+.field private c:Lcom/huawei/appmarket/zu0;
 
-.field private d:Ljava/lang/String;
-
-.field private e:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/j36;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private f:Ljava/lang/String;
-
-.field private g:Ljava/lang/String;
-
-.field private h:Ljava/lang/String;
-
-.field private i:I
-
-.field private j:I
-
-.field private k:I
+.field private d:Z
 
 
 # direct methods
-.method public constructor <init>(I)V
-    .registers 4
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-wide/16 v0, -0x1
-
-    iput-wide v0, p0, Lcom/huawei/appmarket/la6;->c:J
-
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/huawei/appmarket/la6;->i:I
-
-    iput v0, p0, Lcom/huawei/appmarket/la6;->j:I
-
-    iput p1, p0, Lcom/huawei/appmarket/la6;->b:I
-
-    return-void
-.end method
-
-.method public constructor <init>(IJLjava/lang/String;Ljava/util/List;)V
-    .registers 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(IJ",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/j36;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x0
-
-    iput v0, p0, Lcom/huawei/appmarket/la6;->i:I
-
-    iput v0, p0, Lcom/huawei/appmarket/la6;->j:I
-
-    iput-wide p2, p0, Lcom/huawei/appmarket/la6;->c:J
-
-    iput p1, p0, Lcom/huawei/appmarket/la6;->b:I
-
-    iput-object p4, p0, Lcom/huawei/appmarket/la6;->d:Ljava/lang/String;
-
-    iput-object p5, p0, Lcom/huawei/appmarket/la6;->e:Ljava/util/List;
+    iput-boolean v0, p0, Lcom/huawei/appmarket/la6;->d:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()I
-    .registers 2
+.method public final I()V
+    .registers 4
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/la6;->k:I
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
-    return v0
+    const-string v1, "PublishAppCommentImpl"
+
+    const-string v2, "Comment interrupt"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
+
+    if-eqz v0, :cond_0
+
+    iget-boolean v1, p0, Lcom/huawei/appmarket/la6;->d:Z
+
+    if-eqz v1, :cond_0
+
+    const/16 v1, 0x66
+
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->setResult(I)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
+
+    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
+
+    :cond_0
+    return-void
 .end method
 
-.method public final b()Ljava/lang/String;
-    .registers 2
+.method public final N()V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la6;->g:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
 
-    return-object v0
-.end method
+    if-eqz v0, :cond_0
 
-.method public final c()Ljava/lang/String;
-    .registers 2
+    new-instance v0, Landroid/content/Intent;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la6;->f:Ljava/lang/String;
+    iget-object v1, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
 
-    return-object v0
-.end method
+    const-class v2, Lcom/huawei/appgallery/appcomment/ui/CommentActivity;
 
-.method public final d()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/j36;",
-            ">;"
-        }
-    .end annotation
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la6;->e:Ljava/util/List;
+    iget-object v1, p0, Lcom/huawei/appmarket/la6;->c:Lcom/huawei/appmarket/zu0;
 
-    return-object v0
-.end method
+    invoke-static {v1}, Lcom/huawei/appmarket/wv0;->a(Lcom/huawei/appmarket/zu0;)Landroid/os/Bundle;
 
-.method public final e()I
-    .registers 2
+    move-result-object v1
 
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/la6;->j:I
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
-    return v0
-.end method
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
 
-.method public final f()I
-    .registers 2
+    const/16 v2, 0x3e9
 
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/la6;->b:I
-
-    return v0
-.end method
-
-.method public final g()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/la6;->i:I
-
-    return v0
-.end method
-
-.method public final h()J
-    .registers 3
-
-    .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/la6;->c:J
-
-    return-wide v0
-.end method
-
-.method public final i()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la6;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final j()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la6;->h:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final k()Z
-    .registers 3
-
-    .line 1
-    const/4 v0, 0x2
-
-    iget v1, p0, Lcom/huawei/appmarket/la6;->j:I
-
-    if-ne v0, v1, :cond_0
-
-    const/4 v0, 0x1
+    invoke-virtual {v1, v0, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
+    :catch_0
+    move-exception v0
+
+    sget-object v1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "ActivityNotFoundException :"
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "PublishAppCommentImpl"
+
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
     :cond_0
-    const/4 v0, 0x0
-
     :goto_0
-    return v0
-.end method
-
-.method public final l(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/la6;->k:I
-
     return-void
 .end method
 
-.method public final m(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/la6;->g:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final n(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/la6;->f:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final o(Ljava/util/List;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/j36;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/la6;->e:Ljava/util/List;
-
-    return-void
-.end method
-
-.method public final p(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/la6;->j:I
-
-    return-void
-.end method
-
-.method public final q(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/la6;->i:I
-
-    return-void
-.end method
-
-.method public final r(J)V
+.method public final a(Landroid/app/Activity;Lcom/huawei/appmarket/zu0;)V
     .registers 3
 
     .line 1
-    iput-wide p1, p0, Lcom/huawei/appmarket/la6;->c:J
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
+    iput-object p1, p0, Lcom/huawei/appmarket/la6;->b:Landroid/app/Activity;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/la6;->c:Lcom/huawei/appmarket/zu0;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
+
+    move-result p2
+
+    if-nez p2, :cond_1
+
+    const p2, 0x7f120b3b
+
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
+
+    return-void
+
+    :cond_1
+    new-instance p2, Lcom/huawei/appmarket/dv0;
+
+    invoke-direct {p2, p1, p0}, Lcom/huawei/appmarket/dv0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ol3;)V
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/dv0;->e()V
 
     return-void
 .end method
 
-.method public final s(Ljava/lang/String;)V
+.method public final b()V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/la6;->d:Ljava/lang/String;
+    const/4 v0, 0x1
 
-    return-void
-.end method
-
-.method public final t(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/la6;->h:Ljava/lang/String;
+    iput-boolean v0, p0, Lcom/huawei/appmarket/la6;->d:Z
 
     return-void
 .end method

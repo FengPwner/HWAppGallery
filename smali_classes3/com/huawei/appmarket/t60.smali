@@ -45,25 +45,25 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ns1;
+    new-instance v0, Lcom/huawei/appmarket/qs1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ns1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qs1;-><init>()V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getRelatedFAInfo()Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ns1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qs1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     const-string p1, "DeviceInstallationInfos"
 
-    const-class v1, Lcom/huawei/appmarket/yh3;
+    const-class v1, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/yh3;
+    check-cast p1, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -77,7 +77,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v1, v2}, Lcom/huawei/appmarket/yh3;->d(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {p1, v1, v2}, Lcom/huawei/appmarket/ai3;->d(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -97,7 +97,7 @@
 
     const/4 p1, 0x1
 
-    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/ns1;->B(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Z)V
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/qs1;->B(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Z)V
 
     return-void
 .end method
@@ -118,7 +118,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 
@@ -148,7 +148,7 @@
 
     invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/q60;->l(Lcom/huawei/appmarket/q60;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 

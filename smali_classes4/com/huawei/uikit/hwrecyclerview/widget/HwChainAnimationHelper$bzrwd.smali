@@ -1,11 +1,11 @@
 .class Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper$bzrwd;
-.super Lcom/huawei/appmarket/hf7;
+.super Lcom/huawei/appmarket/mf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->a(I)Lcom/huawei/appmarket/hf7;
+    value = Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->a(I)Lcom/huawei/appmarket/mf7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper$bzrwd;->a:Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/hf7;-><init>(I)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/mf7;-><init>(I)V
 
     return-void
 .end method
@@ -57,17 +57,17 @@
     invoke-static {p2, v0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->a(Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;Z)Z
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nk7;->getIndex()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/tk7;->getIndex()I
 
     move-result p2
 
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper$bzrwd;->a:Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;
 
-    invoke-static {v0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->c(Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;)Lcom/huawei/appmarket/ef7;
+    invoke-static {v0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->c(Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;)Lcom/huawei/appmarket/jf7;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ef7;->h()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jf7;->h()I
 
     move-result v0
 

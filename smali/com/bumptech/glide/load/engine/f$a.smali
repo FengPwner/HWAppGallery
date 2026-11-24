@@ -15,30 +15,30 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/sq4;Ljava/lang/Object;Lcom/huawei/appmarket/i81;Lcom/huawei/appmarket/d91;Lcom/huawei/appmarket/sq4;)V
+.method public abstract a(Lcom/huawei/appmarket/vq4;Ljava/lang/Object;Lcom/huawei/appmarket/i81;Lcom/huawei/appmarket/e91;Lcom/huawei/appmarket/vq4;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Ljava/lang/Object;",
             "Lcom/huawei/appmarket/i81<",
             "*>;",
-            "Lcom/huawei/appmarket/d91;",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/e91;",
+            "Lcom/huawei/appmarket/vq4;",
             ")V"
         }
     .end annotation
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/sq4;Ljava/lang/Exception;Lcom/huawei/appmarket/i81;Lcom/huawei/appmarket/d91;)V
+.method public abstract b(Lcom/huawei/appmarket/vq4;Ljava/lang/Exception;Lcom/huawei/appmarket/i81;Lcom/huawei/appmarket/e91;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Ljava/lang/Exception;",
             "Lcom/huawei/appmarket/i81<",
             "*>;",
-            "Lcom/huawei/appmarket/d91;",
+            "Lcom/huawei/appmarket/e91;",
             ")V"
         }
     .end annotation

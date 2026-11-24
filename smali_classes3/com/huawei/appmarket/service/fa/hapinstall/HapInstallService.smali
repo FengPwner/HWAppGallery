@@ -15,15 +15,15 @@
 
     const-string v0, "FaDispatcher"
 
-    const-class v1, Lcom/huawei/appmarket/aq3;
+    const-class v1, Lcom/huawei/appmarket/cq3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/aq3;
+    check-cast v0, Lcom/huawei/appmarket/cq3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq3;->b()Lcom/huawei/appmarket/yr3$a;
+    invoke-interface {v0}, Lcom/huawei/appmarket/cq3;->b()Lcom/huawei/appmarket/as3$a;
 
     move-result-object v0
 
@@ -55,7 +55,7 @@
 
     const-string v0, "HapInstallService"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/fa/hapinstall/HapInstallService;->b:Landroid/os/Binder;
 
@@ -83,11 +83,11 @@
 
     const-string v1, "HapInstallService"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0}, Lcom/huawei/secure/android/common/activity/SafeService;->onCreate()V
 
-    invoke-static {}, Lcom/huawei/appmarket/qd2;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/td2;->a()V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     const-string v1, "HapInstallService onStartCommand..."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1, p2, p3}, Lcom/huawei/secure/android/common/activity/SafeService;->onStartCommand(Landroid/content/Intent;II)I
 
@@ -115,7 +115,7 @@
 
     const-string v1, "HapInstallService unbindService..."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Lcom/huawei/secure/android/common/activity/SafeService;->unbindService(Landroid/content/ServiceConnection;)V
 

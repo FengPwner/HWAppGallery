@@ -34,11 +34,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "controller"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener;-><init>(Landroid/content/Context;I)V
 
@@ -240,7 +240,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Landroid/app/Activity;
 
@@ -254,7 +254,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroid/app/Activity;
 
@@ -271,7 +271,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroid/app/Activity;
 

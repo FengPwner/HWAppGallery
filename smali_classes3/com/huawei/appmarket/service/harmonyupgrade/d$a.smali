@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/harmonyupgrade/d;->x(Landroid/content/Context;ZLcom/huawei/appmarket/es3;)V
+    value = Lcom/huawei/appmarket/service/harmonyupgrade/d;->x(Landroid/content/Context;ZLcom/huawei/appmarket/gs3;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/xy5;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/zy5;",
         ">;"
     }
 .end annotation
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic b:Landroid/content/Context;
 
-.field final synthetic c:Lcom/huawei/appmarket/es3;
+.field final synthetic c:Lcom/huawei/appmarket/gs3;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/es3;)V
+.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/gs3;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->b:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->c:Lcom/huawei/appmarket/es3;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->c:Lcom/huawei/appmarket/gs3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,13 +48,13 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/xy5;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/zy5;",
             ">;)V"
         }
     .end annotation
@@ -62,13 +62,13 @@
     .line 1
     const-string p1, "DeviceInstallationInfos"
 
-    const-class v0, Lcom/huawei/appmarket/lh3;
+    const-class v0, Lcom/huawei/appmarket/nh3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/lh3;
+    check-cast p1, Lcom/huawei/appmarket/nh3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appmarket/service/harmonyupgrade/d$a$a;-><init>(Lcom/huawei/appmarket/service/harmonyupgrade/d$a;)V
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/lh3;->b(Landroid/content/Context;Lcom/huawei/appmarket/wc4;)I
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/nh3;->b(Landroid/content/Context;Lcom/huawei/appmarket/yc4;)I
 
     return-void
 .end method

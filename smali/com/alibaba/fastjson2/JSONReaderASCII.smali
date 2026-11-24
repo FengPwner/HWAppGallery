@@ -3419,7 +3419,7 @@
     const-string v1, "illegal fieldName input"
 
     .line 1
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -4490,7 +4490,7 @@
     const-string v2, "expect \':\', but "
 
     .line 3
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v2
 

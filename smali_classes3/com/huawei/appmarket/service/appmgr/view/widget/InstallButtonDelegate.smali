@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private c:Lcom/huawei/appmarket/nw3;
+.field private c:Lcom/huawei/appmarket/pw3;
 
 
 # direct methods
@@ -17,7 +17,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 5
     .line 6
@@ -29,11 +29,11 @@
 
     .line 9
     .line 10
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 13
     .line 14
@@ -45,11 +45,11 @@
 
     .line 17
     .line 18
-    const-class v0, Lcom/huawei/appmarket/nw3;
+    const-class v0, Lcom/huawei/appmarket/pw3;
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -57,11 +57,11 @@
     move-result-object p1
 
     .line 24
-    check-cast p1, Lcom/huawei/appmarket/nw3;
+    check-cast p1, Lcom/huawei/appmarket/pw3;
 
     .line 25
     .line 26
-    iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate;->c:Lcom/huawei/appmarket/nw3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate;->c:Lcom/huawei/appmarket/pw3;
 
     .line 27
     .line 28
@@ -153,18 +153,17 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vu;->b:Lcom/huawei/appmarket/vu;
+    sget-object v0, Lcom/huawei/appmarket/wu;->b:Lcom/huawei/appmarket/wu;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate;->c:Lcom/huawei/appmarket/nw3;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate;->c:Lcom/huawei/appmarket/pw3;
 
     if-eqz v1, :cond_0
 
@@ -172,7 +171,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/nw3;->b(Ljava/lang/String;)Lcom/huawei/appmarket/vu;
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/pw3;->b(Ljava/lang/String;)Lcom/huawei/appmarket/wu;
 
     move-result-object v0
 
@@ -217,7 +216,7 @@
 
     if-eqz p1, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->e:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->e:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -233,7 +232,7 @@
     goto :goto_1
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/dt1;->f:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->f:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -244,7 +243,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/dt1;->s:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->s:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -255,7 +254,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/dt1;->r:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->r:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -274,7 +273,7 @@
 
     move-result-object v0
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->h:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->h:Lcom/huawei/appmarket/gt1;
 
     goto :goto_1
 
@@ -287,16 +286,16 @@
 
     move-result-object v0
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->p:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->p:Lcom/huawei/appmarket/gt1;
 
     :goto_1
-    new-instance v1, Lcom/huawei/appmarket/om7;
+    new-instance v1, Lcom/huawei/appmarket/um7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/om7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/um7;-><init>()V
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/om7;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/um7;->e(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/om7;->f(Lcom/huawei/appmarket/dt1;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/um7;->f(Lcom/huawei/appmarket/gt1;)V
 
     return-object v1
 .end method

@@ -1,23 +1,37 @@
-.class final Lcom/huawei/appmarket/me0;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/me0;
+.super Lcom/huawei/appmarket/o36;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/re0$b;
-
-
-# instance fields
-.field final synthetic a:Lcom/huawei/appmarket/ne0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ne0;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/me0;->a:Lcom/huawei/appmarket/ne0;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/o36;-><init>()V
 
     return-void
+.end method
+
+
+# virtual methods
+.method public final b(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)Ljava/util/HashMap;
+    .registers 4
+
+    .line 1
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/o36;->b(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)Ljava/util/HashMap;
+
+    move-result-object p1
+
+    invoke-static {}, Lcom/huawei/appmarket/ve0;->c()Lcom/huawei/appmarket/ve0;
+
+    move-result-object p3
+
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/ve0;->b(Ljava/lang/String;)Lcom/huawei/appmarket/wo8;
+
+    move-result-object p2
+
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/wo8;->a(Ljava/util/HashMap;)V
+
+    return-object p1
 .end method

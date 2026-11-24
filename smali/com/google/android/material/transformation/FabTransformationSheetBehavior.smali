@@ -51,21 +51,21 @@
 
     invoke-direct {v0}, Lcom/google/android/material/transformation/FabTransformationBehavior$b;-><init>()V
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/nb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/nb5;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/qb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/qb5;
 
     move-result-object p1
 
-    iput-object p1, v0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iput-object p1, v0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
-    new-instance p1, Lcom/huawei/appmarket/z26;
+    new-instance p1, Lcom/huawei/appmarket/b36;
 
     const/16 p2, 0x11
 
     const/4 v1, 0x0
 
-    invoke-direct {p1, p2, v1, v1}, Lcom/huawei/appmarket/z26;-><init>(IFF)V
+    invoke-direct {p1, p2, v1, v1}, Lcom/huawei/appmarket/b36;-><init>(IFF)V
 
-    iput-object p1, v0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iput-object p1, v0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
     return-object v0
 .end method
@@ -259,7 +259,7 @@
 
     .line 87
     :goto_2
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 88
     .line 89

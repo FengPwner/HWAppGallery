@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xu;
+.implements Lcom/huawei/appmarket/yu;
 
 
 # annotations

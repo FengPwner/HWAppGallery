@@ -29,11 +29,11 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/bf2;
+    new-instance v0, Lcom/huawei/appmarket/ef2;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/bf2;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ef2;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/function/FailableBiConsumer;->NOP:Lorg/apache/commons/lang3/function/FailableBiConsumer;
 

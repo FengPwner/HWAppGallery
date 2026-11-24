@@ -426,23 +426,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static getFontStyle(Ljava/lang/String;)I
@@ -865,32 +848,15 @@
     .line 181
     :goto_5
     return p0
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
-.method public static getLineHeightSpan(I)Lcom/huawei/appmarket/la9;
+.method public static getLineHeightSpan(I)Lcom/huawei/appmarket/sa9;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/la9;
+    new-instance v0, Lcom/huawei/appmarket/sa9;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/la9;-><init>(I)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/sa9;-><init>(I)V
 
     return-object v0
 .end method
@@ -898,9 +864,9 @@
 .method public static getTextDecoration(Ljava/lang/String;)Landroid/text/style/CharacterStyle;
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/kf9;
+    new-instance v0, Lcom/huawei/appmarket/rf9;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kf9;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/rf9;-><init>(Ljava/lang/String;)V
 
     return-object v0
 .end method

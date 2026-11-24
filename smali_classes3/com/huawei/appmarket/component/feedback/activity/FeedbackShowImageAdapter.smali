@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ji2;",
+            "Lcom/huawei/appmarket/mi2;",
             ">;"
         }
     .end annotation
@@ -35,7 +35,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ji2;",
+            "Lcom/huawei/appmarket/mi2;",
             ">;",
             "Landroid/content/Context;",
             "Landroid/os/Handler;",
@@ -225,7 +225,7 @@
     move-result-object v1
 
     .line 60
-    check-cast v1, Lcom/huawei/appmarket/ji2;
+    check-cast v1, Lcom/huawei/appmarket/mi2;
 
     .line 61
     .line 62
@@ -300,7 +300,7 @@
 
     .line 98
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 99
     .line 100
@@ -312,11 +312,11 @@
 
     .line 103
     .line 104
-    check-cast p3, Lcom/huawei/appmarket/dr6;
+    check-cast p3, Lcom/huawei/appmarket/gr6;
 
     .line 105
     .line 106
-    invoke-virtual {p3, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p3, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 107
     .line 108
@@ -324,11 +324,11 @@
     move-result-object p3
 
     .line 110
-    const-class v2, Lcom/huawei/appmarket/vs3;
+    const-class v2, Lcom/huawei/appmarket/xs3;
 
     .line 111
     .line 112
-    invoke-virtual {p3, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p3, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 113
     .line 114
@@ -336,11 +336,11 @@
     move-result-object p3
 
     .line 116
-    check-cast p3, Lcom/huawei/appmarket/vs3;
+    check-cast p3, Lcom/huawei/appmarket/xs3;
 
     .line 117
     .line 118
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ji2;->b()Landroid/net/Uri;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/mi2;->b()Landroid/net/Uri;
 
     .line 119
     .line 120
@@ -356,11 +356,11 @@
     move-result-object v1
 
     .line 126
-    new-instance v2, Lcom/huawei/appmarket/o94$a;
+    new-instance v2, Lcom/huawei/appmarket/q94$a;
 
     .line 127
     .line 128
-    invoke-direct {v2}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 129
     .line 130
@@ -369,7 +369,7 @@
 
     .line 132
     .line 133
-    invoke-static {v2, v3, v2, p3, v1}, Lcom/huawei/appmarket/bq6;->B(Lcom/huawei/appmarket/o94$a;Landroid/widget/ImageView;Lcom/huawei/appmarket/o94$a;Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+    invoke-static {v2, v3, v2, p3, v1}, Lcom/huawei/appmarket/fs;->o(Lcom/huawei/appmarket/q94$a;Landroid/widget/ImageView;Lcom/huawei/appmarket/q94$a;Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
 
     .line 134
     .line 135
@@ -629,27 +629,4 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

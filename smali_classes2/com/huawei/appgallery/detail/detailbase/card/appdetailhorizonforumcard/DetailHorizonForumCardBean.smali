@@ -1,12 +1,12 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumCardBean;
-.super Lcom/huawei/appmarket/fj1;
+.super Lcom/huawei/appmarket/ij1;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/fj1<",
+        "Lcom/huawei/appmarket/ij1<",
         "Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizonforumcard/DetailHorizonForumItemCardBean;",
         ">;"
     }
@@ -29,7 +29,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/fj1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ij1;-><init>()V
 
     return-void
 .end method

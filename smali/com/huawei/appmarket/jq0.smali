@@ -1,127 +1,77 @@
 .class public final Lcom/huawei/appmarket/jq0;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/na0;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/v21;
 
-
-# instance fields
-.field private final a:Ljava/lang/String;
-
-.field private final b:Lcom/huawei/appmarket/em;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/em<",
-            "Landroid/graphics/PointF;",
-            "Landroid/graphics/PointF;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final c:Lcom/huawei/appmarket/vl;
-
-.field private final d:Z
-
-.field private final e:Z
+# static fields
+.field private static final b:[B
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/em;Lcom/huawei/appmarket/vl;ZZ)V
-    .registers 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/em<",
-            "Landroid/graphics/PointF;",
-            "Landroid/graphics/PointF;",
-            ">;",
-            "Lcom/huawei/appmarket/vl;",
-            "ZZ)V"
-        }
-    .end annotation
+.method static constructor <clinit>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    const-string v0, "com.bumptech.glide.load.resource.bitmap.CircleCrop.1"
 
-    iput-object p1, p0, Lcom/huawei/appmarket/jq0;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/vq4;->a:Ljava/nio/charset/Charset;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/jq0;->b:Lcom/huawei/appmarket/em;
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
-    iput-object p3, p0, Lcom/huawei/appmarket/jq0;->c:Lcom/huawei/appmarket/vl;
+    move-result-object v0
 
-    iput-boolean p4, p0, Lcom/huawei/appmarket/jq0;->d:Z
+    sput-object v0, Lcom/huawei/appmarket/jq0;->b:[B
 
-    iput-boolean p5, p0, Lcom/huawei/appmarket/jq0;->e:Z
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/na0;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/r05;Lcom/huawei/appmarket/g40;)Lcom/huawei/appmarket/k21;
-    .registers 4
+.method public final a(Ljava/security/MessageDigest;)V
+    .registers 3
 
     .line 1
-    new-instance p2, Lcom/huawei/appmarket/ez1;
+    sget-object v0, Lcom/huawei/appmarket/jq0;->b:[B
 
-    invoke-direct {p2, p1, p3, p0}, Lcom/huawei/appmarket/ez1;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/g40;Lcom/huawei/appmarket/jq0;)V
+    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
-    return-object p2
+    return-void
 .end method
 
-.method public final b()Ljava/lang/String;
+.method protected final c(Lcom/huawei/appmarket/ka0;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    .registers 5
+
+    .line 1
+    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/d38;->c(Lcom/huawei/appmarket/ka0;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jq0;->a:Ljava/lang/String;
+    instance-of p1, p1, Lcom/huawei/appmarket/jq0;
 
-    return-object v0
+    return p1
 .end method
 
-.method public final c()Lcom/huawei/appmarket/em;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/em<",
-            "Landroid/graphics/PointF;",
-            "Landroid/graphics/PointF;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jq0;->b:Lcom/huawei/appmarket/em;
-
-    return-object v0
-.end method
-
-.method public final d()Lcom/huawei/appmarket/vl;
+.method public final hashCode()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jq0;->c:Lcom/huawei/appmarket/vl;
-
-    return-object v0
-.end method
-
-.method public final e()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/jq0;->e:Z
-
-    return v0
-.end method
-
-.method public final f()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/jq0;->d:Z
+    const v0, 0x41aadb8c
 
     return v0
 .end method

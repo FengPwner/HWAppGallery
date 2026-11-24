@@ -74,7 +74,7 @@
     return p1
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -122,7 +122,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -223,5 +223,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

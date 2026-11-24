@@ -30,11 +30,11 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/re5;
+    new-instance v0, Lcom/huawei/appmarket/ue5;
 
     const-string v1, "NetDiagnoseKit_ShowLogView"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/re5;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ue5;-><init>(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -245,7 +245,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -298,7 +297,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/zm7;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/fn7;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v4
 

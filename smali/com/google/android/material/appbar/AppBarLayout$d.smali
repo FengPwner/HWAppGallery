@@ -234,7 +234,7 @@
     .line 87
     .line 88
     .line 89
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 90
     .line 91
@@ -246,7 +246,7 @@
     const/4 p1, 0x0
 
     .line 94
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 95
     .line 96
@@ -441,4 +441,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

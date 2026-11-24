@@ -175,7 +175,7 @@
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 1
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     goto :goto_7
 
@@ -387,11 +387,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->d(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->d(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object p0
 

@@ -109,7 +109,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string p1, "use local decoder"
+    const-string/jumbo p1, "use local decoder"
 
     invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -122,7 +122,7 @@
     goto :goto_2
 
     :cond_0
-    const-string v1, "use remote decoder"
+    const-string/jumbo v1, "use remote decoder"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
@@ -931,7 +931,7 @@
     return v1
 
     :cond_0
-    const-string v2, "window"
+    const-string/jumbo v2, "window"
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -1543,7 +1543,7 @@
     const/4 v1, 0x1
 
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -1863,6 +1863,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public handleMessage(Landroid/os/Message;)V

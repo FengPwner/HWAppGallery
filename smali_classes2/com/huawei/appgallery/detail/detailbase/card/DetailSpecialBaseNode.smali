@@ -160,11 +160,11 @@
 
     check-cast p2, Landroidx/fragment/app/FragmentActivity;
 
-    invoke-direct {v0, p2}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, p2}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class p2, Lcom/huawei/appgallery/detail/detailbase/view/a;
 
-    invoke-virtual {v0, p2}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, p2}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p2
 

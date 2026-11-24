@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/rh4;
+.field final synthetic b:Lcom/huawei/appmarket/th4;
 
 .field final synthetic c:Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment;Lcom/huawei/appmarket/rh4;)V
+.method constructor <init>(Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment;Lcom/huawei/appmarket/th4;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment$a;->c:Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment$a;->b:Lcom/huawei/appmarket/rh4;
+    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment$a;->b:Lcom/huawei/appmarket/th4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,11 +63,11 @@
     move-result-object p1
 
     .line 11
-    iget-object v1, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment$a;->b:Lcom/huawei/appmarket/rh4;
+    iget-object v1, p0, Lcom/huawei/appgallery/systeminstalldistservice/adsview/fragment/InstallSuccessFragment$a;->b:Lcom/huawei/appmarket/th4;
 
     .line 12
     .line 13
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fa;->b(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/rh4;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fa;->b(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/th4;)V
 
     .line 14
     .line 15
@@ -85,7 +85,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 24
     .line 25
@@ -171,5 +171,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

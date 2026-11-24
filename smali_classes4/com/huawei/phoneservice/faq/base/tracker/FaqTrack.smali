@@ -223,475 +223,458 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static event(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 10
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
-    const-string v0, "\u6027\u80fd\u76d1\u63a7"
+    const-string/jumbo v0, "\u6027\u80fd\u76d1\u63a7"
 
     .line 2
     .line 3
+    .line 4
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 4
     .line 5
     .line 6
-    move-result v0
-
     .line 7
-    const-string v1, "DEBUG_INFO"
+    move-result v0
 
     .line 8
+    const-string v1, "DEBUG_INFO"
+
     .line 9
+    .line 10
     const-string v2, "+"
 
-    .line 10
     .line 11
+    .line 12
     const-string v3, ""
 
-    .line 12
     .line 13
+    .line 14
     if-nez v0, :cond_1
 
-    .line 14
     .line 15
-    const-string v0, "\u63a5\u53e3\u5f02\u5e38\u76d1\u63a7"
-
     .line 16
-    .line 17
-    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string/jumbo v0, "\u63a5\u53e3\u5f02\u5e38\u76d1\u63a7"
 
+    .line 17
     .line 18
     .line 19
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 20
+    .line 21
+    .line 22
     move-result v0
 
-    .line 21
-    if-nez v0, :cond_1
-
-    .line 22
     .line 23
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    if-nez v0, :cond_1
 
     .line 24
     .line 25
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 26
+    .line 27
+    .line 28
     move-result v0
 
-    .line 27
-    if-nez v0, :cond_1
-
-    .line 28
     .line 29
-    sget-object v0, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
+    if-nez v0, :cond_1
 
     .line 30
     .line 31
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    sget-object v0, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
 
     .line 32
     .line 33
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 34
+    .line 35
+    .line 36
     move-result v0
 
-    .line 35
-    if-nez v0, :cond_0
-
-    .line 36
     .line 37
-    new-instance v0, Ljava/lang/StringBuilder;
+    if-nez v0, :cond_0
 
     .line 38
     .line 39
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    new-instance v0, Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
-    .line 42
-    sget-object v4, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 42
     .line 43
     .line 44
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    sget-object v4, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
 
     .line 45
     .line 46
-    .line 47
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 47
     .line 48
     .line 49
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 50
+    .line 51
+    .line 52
     move-result-object v0
 
-    .line 51
+    .line 53
     goto :goto_0
 
-    .line 52
+    .line 54
     :cond_0
     move-object v0, v3
 
-    .line 53
+    .line 55
     :goto_0
     sget-object v4, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
 
-    .line 54
-    .line 55
-    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 56
     .line 57
+    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 58
+    .line 59
+    .line 60
     move-result v4
 
-    .line 59
-    if-nez v4, :cond_2
-
-    .line 60
     .line 61
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-nez v4, :cond_2
 
     .line 62
     .line 63
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 64
+    .line 65
+    .line 66
     move-result-object v0
 
-    .line 65
-    sget-object v4, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
-
-    .line 66
     .line 67
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    sget-object v4, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
 
     .line 68
     .line 69
-    .line 70
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 70
     .line 71
     .line 72
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 73
+    .line 74
+    .line 75
     move-result-object v0
 
-    .line 74
+    .line 76
     goto :goto_1
 
-    .line 75
+    .line 77
     :cond_1
     move-object v0, v3
 
-    .line 76
+    .line 78
     :cond_2
     :goto_1
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 77
-    .line 78
     .line 79
+    .line 80
+    .line 81
     move-result v1
 
-    .line 80
-    if-eqz v1, :cond_5
-
-    .line 81
     .line 82
-    sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->a:Ljava/lang/ref/WeakReference;
+    if-eqz v1, :cond_5
 
     .line 83
     .line 84
-    if-eqz v1, :cond_3
+    sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->a:Ljava/lang/ref/WeakReference;
 
     .line 85
     .line 86
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    if-eqz v1, :cond_3
 
     .line 87
     .line 88
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
     .line 89
+    .line 90
+    .line 91
     move-result-object v1
 
-    .line 90
-    if-eqz v1, :cond_3
-
-    .line 91
     .line 92
-    sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->a:Ljava/lang/ref/WeakReference;
+    if-eqz v1, :cond_3
 
     .line 93
     .line 94
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->a:Ljava/lang/ref/WeakReference;
 
     .line 95
     .line 96
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
     .line 97
+    .line 98
+    .line 99
     move-result-object v1
 
-    .line 98
-    check-cast v1, Landroid/content/Context;
-
-    .line 99
     .line 100
-    if-eqz v1, :cond_3
+    check-cast v1, Landroid/content/Context;
 
     .line 101
     .line 102
-    new-instance v4, Ljava/lang/StringBuilder;
+    if-eqz v1, :cond_3
 
     .line 103
     .line 104
-    invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    new-instance v4, Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
+    invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 107
+    .line 108
+    .line 109
     :try_start_0
     invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
-    .line 108
-    .line 109
     .line 110
+    .line 111
+    .line 112
     move-result-object v5
 
-    .line 111
+    .line 113
     invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    .line 112
-    .line 113
     .line 114
+    .line 115
+    .line 116
     move-result-object v1
 
-    .line 115
-    const/16 v6, 0x4000
-
-    .line 116
     .line 117
-    invoke-virtual {v5, v1, v6}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    const/16 v6, 0x4000
 
     .line 118
     .line 119
+    invoke-virtual {v5, v1, v6}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+
     .line 120
+    .line 121
+    .line 122
     move-result-object v1
 
-    .line 121
+    .line 123
     iget-object v3, v1, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 122
-    .line 123
+    .line 124
+    .line 125
     goto :goto_2
 
-    .line 124
+    .line 126
     :catch_0
     move-exception v1
 
-    .line 125
+    .line 127
     invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 126
-    .line 127
     .line 128
+    .line 129
+    .line 130
     move-result-object v1
 
-    .line 129
-    const-string v5, "Track"
-
-    .line 130
     .line 131
-    invoke-static {v5, v1}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v5, "Track"
 
     .line 132
     .line 133
-    .line 134
-    :goto_2
-    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v1}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 134
     .line 135
     .line 136
+    :goto_2
+    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 137
+    .line 138
+    .line 139
     move-result-object v3
 
-    .line 138
+    .line 140
     :cond_3
     sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
 
-    .line 139
-    .line 140
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 141
     .line 142
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 143
+    .line 144
+    .line 145
     move-result v1
 
-    .line 144
-    if-nez v1, :cond_4
-
-    .line 145
     .line 146
-    invoke-static {v3}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-nez v1, :cond_4
 
     .line 147
     .line 148
+    invoke-static {v3}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 149
+    .line 150
+    .line 151
     move-result-object v1
 
-    .line 150
-    sget-object v3, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
-
-    .line 151
     .line 152
-    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    sget-object v3, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;
 
     .line 153
     .line 154
+    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 155
+    .line 156
+    .line 157
     move-result-object v1
 
-    .line 156
+    .line 158
     move-object v3, v1
 
-    .line 157
+    .line 159
     :cond_4
     sget-object v1, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
 
-    .line 158
-    .line 159
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 160
     .line 161
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 162
+    .line 163
+    .line 164
     move-result v1
 
-    .line 163
-    if-nez v1, :cond_5
-
-    .line 164
     .line 165
-    invoke-static {v3}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-nez v1, :cond_5
 
     .line 166
     .line 167
+    invoke-static {v3}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 168
+    .line 169
+    .line 170
     move-result-object v1
 
-    .line 169
-    sget-object v3, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
-
-    .line 170
     .line 171
-    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    sget-object v3, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->c:Ljava/lang/String;
 
     .line 172
     .line 173
+    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 174
+    .line 175
+    .line 176
     move-result-object v3
 
-    .line 175
-    :cond_5
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 176
     .line 177
+    :cond_5
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 178
+    .line 179
+    .line 180
     move-result-object p0
 
-    .line 179
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 180
     .line 181
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 182
+    .line 183
+    .line 184
     move-result-object p1
 
-    .line 183
-    new-instance v0, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
-
-    .line 184
     .line 185
-    invoke-direct {v0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;-><init>()V
+    new-instance v0, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
 
     .line 186
     .line 187
-    .line 188
-    const-string v1, "category"
+    invoke-direct {v0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;-><init>()V
 
+    .line 188
     .line 189
     .line 190
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+    const-string v1, "category"
 
     .line 191
     .line 192
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+
     .line 193
+    .line 194
+    .line 195
     move-result-object p0
 
-    .line 194
-    const-string v0, "action"
-
-    .line 195
     .line 196
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+    const-string v0, "action"
 
     .line 197
     .line 198
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+
     .line 199
+    .line 200
+    .line 201
     move-result-object p0
 
-    .line 200
-    const-string p1, "label"
-
-    .line 201
     .line 202
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+    const-string p1, "label"
 
     .line 203
     .line 204
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;
+
     .line 205
+    .line 206
+    .line 207
     move-result-object p0
 
-    .line 206
+    .line 208
     invoke-virtual {p0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;->build()Ljava/util/LinkedHashMap;
 
-    .line 207
-    .line 208
     .line 209
+    .line 210
+    .line 211
     move-result-object p0
 
-    .line 210
-    const-string p1, "SDKGAEvent"
-
-    .line 211
     .line 212
-    invoke-static {p1, p0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils;->trackEvent(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    const-string p1, "SDKGAEvent"
 
     .line 213
     .line 214
+    invoke-static {p1, p0}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils;->trackEvent(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
     .line 215
-    return-void
     .line 216
     .line 217
+    return-void
     .line 218
     .line 219
     .line 220
@@ -986,54 +969,11 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static setCountryAndLanguage(Ljava/lang/String;Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     sput-object p0, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->b:Ljava/lang/String;

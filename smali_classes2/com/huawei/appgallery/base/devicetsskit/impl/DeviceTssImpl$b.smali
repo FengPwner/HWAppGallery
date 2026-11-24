@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # annotations
@@ -50,7 +50,7 @@
 
     check-cast v0, Lcom/huawei/hms/common/ApiException;
 
-    sget-object v2, Lcom/huawei/appmarket/vn1;->a:Lcom/huawei/appmarket/vn1;
+    sget-object v2, Lcom/huawei/appmarket/yn1;->a:Lcom/huawei/appmarket/yn1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -78,18 +78,18 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/vn1;->a:Lcom/huawei/appmarket/vn1;
+    sget-object v0, Lcom/huawei/appmarket/yn1;->a:Lcom/huawei/appmarket/yn1;
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method

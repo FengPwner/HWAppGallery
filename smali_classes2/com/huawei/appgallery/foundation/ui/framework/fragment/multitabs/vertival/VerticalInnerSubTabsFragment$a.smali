@@ -37,7 +37,7 @@
     .line 1
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment$a;->a:Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;
 
-    invoke-static {p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;->S7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;Landroidx/fragment/app/Fragment;)V
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;->T7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;Landroidx/fragment/app/Fragment;)V
 
     return-void
 .end method

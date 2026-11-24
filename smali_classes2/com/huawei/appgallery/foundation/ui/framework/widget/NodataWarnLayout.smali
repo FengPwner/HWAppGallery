@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -78,7 +78,7 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundColor(I)V
 
-    const p2, 0x7f0a1850
+    const p2, 0x7f0a1851
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/NodataWarnLayout;->b:Landroid/widget/ImageView;
 
-    const p2, 0x7f0a1851
+    const p2, 0x7f0a1852
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -98,7 +98,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/NodataWarnLayout;->c:Landroid/widget/TextView;
 
-    const p2, 0x7f0a1852
+    const p2, 0x7f0a1853
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/NodataWarnLayout;->h:Landroid/widget/TextView;
 
-    const p2, 0x7f0a184f
+    const p2, 0x7f0a1850
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -20,85 +20,85 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "resourceId"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "resourceTitle"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "resourceHTitle"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "content"
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "describe"
     .end annotation
 .end field
 
 .field private g:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "icon"
     .end annotation
 .end field
 
 .field private h:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "url"
     .end annotation
 .end field
 
 .field private i:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "updateDate"
     .end annotation
 .end field
 
 .field private j:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "knowTypeId"
     .end annotation
 .end field
 
 .field private k:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "knowTypeName"
     .end annotation
 .end field
 
 .field private l:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "comments"
     .end annotation
 .end field
 
 .field private m:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "downloads"
     .end annotation
 .end field
 
 .field private n:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "reads"
     .end annotation
 .end field
 
 .field private o:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "toolID"
     .end annotation
 .end field

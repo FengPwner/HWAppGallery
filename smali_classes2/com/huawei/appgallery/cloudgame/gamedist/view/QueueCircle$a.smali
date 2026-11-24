@@ -49,7 +49,7 @@
 
     const-string v1, "setQueueText addUpdateListener"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
@@ -149,7 +149,7 @@
 
     move-result v3
 
-    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/xj5;->u(Landroid/widget/TextView;II)V
+    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/zj5;->u(Landroid/widget/TextView;II)V
 
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->getResources()Landroid/content/res/Resources;

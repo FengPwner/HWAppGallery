@@ -56,7 +56,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v0
 
@@ -65,9 +65,9 @@
     :cond_1
     invoke-static {p1}, Lcom/huawei/appmarket/q60;->h(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ns1;
+    new-instance v0, Lcom/huawei/appmarket/qs1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ns1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qs1;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appmarket/q60$h;->a:Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;
 
@@ -75,17 +75,17 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ns1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qs1;->z(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     const-string v1, "DeviceInstallationInfos"
 
-    const-class v2, Lcom/huawei/appmarket/yh3;
+    const-class v2, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/yh3;
+    check-cast v1, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -99,7 +99,7 @@
 
     move-result-object v3
 
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/yh3;->d(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/ai3;->d(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -117,7 +117,7 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->l1(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ns1;->m(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qs1;->m(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     return-void
 .end method

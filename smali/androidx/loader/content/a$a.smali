@@ -65,7 +65,7 @@
 
     .line 11
     .line 12
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bu0;->n(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/kd0;->o(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 13
     .line 14

@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appgallery/forum/forum/card/ForumHorizonCard$a;
-.super Lcom/huawei/appmarket/sb3;
+.super Lcom/huawei/appmarket/vb3;
 .source "SourceFile"
 
 
@@ -19,18 +19,18 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/forum/forum/card/ForumHorizonCard;Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+.method public constructor <init>(Lcom/huawei/appgallery/forum/forum/card/ForumHorizonCard;Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;",
-            "Lcom/huawei/appmarket/qb3;",
-            "Lcom/huawei/appmarket/sb3$c;",
+            "Lcom/huawei/appmarket/tb3;",
+            "Lcom/huawei/appmarket/vb3$c;",
             "Z)V"
         }
     .end annotation
@@ -50,7 +50,7 @@
 
     move v5, p6
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/sb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/vb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     return-void
 .end method
@@ -61,7 +61,7 @@
     .registers 7
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/vb3;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
     .line 2
     .line 3
@@ -94,7 +94,7 @@
 
     .line 17
     :cond_0
-    instance-of v1, p1, Lcom/huawei/appmarket/sb3$a;
+    instance-of v1, p1, Lcom/huawei/appmarket/vb3$a;
 
     .line 18
     .line 19
@@ -102,11 +102,11 @@
 
     .line 20
     .line 21
-    iget-object v1, p0, Lcom/huawei/appmarket/sb3;->e:Lcom/huawei/appmarket/nb3;
+    iget-object v1, p0, Lcom/huawei/appmarket/vb3;->e:Lcom/huawei/appmarket/qb3;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 24
     .line 25
@@ -118,7 +118,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 30
     .line 31
@@ -150,7 +150,7 @@
 
     .line 44
     .line 45
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 46
     .line 47
@@ -205,7 +205,7 @@
     move-result-object p2
 
     .line 72
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 73
     .line 74
@@ -221,7 +221,7 @@
     move-result-object v0
 
     .line 80
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 81
     .line 82
@@ -242,7 +242,7 @@
 
     .line 89
     :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/sb3;->getItemCount()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/vb3;->getItemCount()I
 
     .line 90
     .line 91
@@ -266,7 +266,7 @@
     move-result-object p2
 
     .line 101
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 102
     .line 103
@@ -282,7 +282,7 @@
     move-result-object v3
 
     .line 109
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 110
     .line 111
@@ -368,5 +368,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

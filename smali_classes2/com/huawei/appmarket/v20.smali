@@ -232,7 +232,7 @@
     .line 28
     .line 29
     .line 30
-    instance-of v0, p0, Lcom/huawei/appmarket/ce2;
+    instance-of v0, p0, Lcom/huawei/appmarket/fe2;
 
     .line 31
     .line 32
@@ -389,5 +389,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

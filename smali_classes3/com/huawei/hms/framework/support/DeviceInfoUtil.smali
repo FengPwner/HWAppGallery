@@ -1295,7 +1295,7 @@
     .line 78
     .line 79
     .line 80
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 81
     .line 82

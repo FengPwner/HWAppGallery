@@ -406,7 +406,7 @@
     div-float/2addr v1, v8
 
     .line 97
-    invoke-static {p1, v4, v0, v8}, Lcom/huawei/appmarket/b00;->b(FFFF)F
+    invoke-static {p1, v4, v0, v8}, Lcom/huawei/appmarket/kd0;->b(FFFF)F
 
     .line 98
     .line 99
@@ -1505,15 +1505,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private static d(FFF)V
@@ -1768,7 +1759,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -2052,13 +2042,13 @@
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/widget/b;->e()V
 
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v2, "PhotoViewAttacher"
 
     const-string v3, "imageView \u4e3a\u7a7a"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-object v0
@@ -2623,7 +2613,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final p(FFF)V
@@ -2881,7 +2870,7 @@
     .line 49
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 50
     .line 51
@@ -2893,7 +2882,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -2949,7 +2938,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final y(Landroid/widget/ImageView$ScaleType;)V
@@ -3108,7 +3096,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final z(Z)V

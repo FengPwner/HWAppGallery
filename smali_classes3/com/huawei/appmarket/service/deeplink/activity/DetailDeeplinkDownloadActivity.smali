@@ -32,7 +32,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->x:Ljava/lang/String;
 
-    invoke-static {p0, v0, v1, v2}, Lcom/huawei/appmarket/jb1;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0, v1, v2}, Lcom/huawei/appmarket/lb1;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
@@ -51,7 +51,7 @@
 
     const v1, 0x7f120565
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/d08;->i(ILandroid/content/Context;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i08;->i(ILandroid/content/Context;)V
 
     :cond_1
     iget-object v1, p0, Lcom/huawei/appmarket/service/deeplink/activity/DeeplinkDownloadActivity;->L:Ljava/lang/String;
@@ -60,7 +60,7 @@
 
     iget-object v3, p0, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->x:Ljava/lang/String;
 
-    invoke-static {p0, v1, v2, v0, v3}, Lcom/huawei/appmarket/jb1;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p0, v1, v2, v0, v3}, Lcom/huawei/appmarket/lb1;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     :goto_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
@@ -72,7 +72,7 @@
 
     const-string v1, "empty jump url,finish"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

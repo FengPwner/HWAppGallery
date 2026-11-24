@@ -80,7 +80,7 @@
     move-result-object p1
 
     .line 24
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     .line 25
     .line 26
@@ -88,7 +88,7 @@
 
     .line 27
     .line 28
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     .line 29
     .line 30
@@ -146,7 +146,7 @@
     move-result-object v2
 
     .line 56
-    check-cast v2, Lcom/huawei/appmarket/hj0;
+    check-cast v2, Lcom/huawei/appmarket/ij0;
 
     .line 57
     .line 58
@@ -154,7 +154,7 @@
 
     .line 59
     .line 60
-    iget-object v2, v2, Lcom/huawei/appmarket/hj0;->f:Ljava/util/ArrayList;
+    iget-object v2, v2, Lcom/huawei/appmarket/ij0;->f:Ljava/util/ArrayList;
 
     .line 61
     .line 62
@@ -244,7 +244,7 @@
 
     .line 103
     .line 104
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 105
     .line 106
@@ -256,7 +256,7 @@
 
     .line 109
     .line 110
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     .line 112
@@ -265,7 +265,7 @@
 
     .line 114
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->e()Ljava/lang/String;
 
     .line 115
     .line 116
@@ -305,7 +305,7 @@
     move-result v2
 
     .line 133
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 134
     .line 135
@@ -346,7 +346,7 @@
     .line 150
     .line 151
     .line 152
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 153
     .line 154
@@ -369,7 +369,7 @@
     .line 163
     :cond_5
     :goto_3
-    invoke-static {p2}, Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;->F7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {p2}, Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;->F7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 164
     .line 165
@@ -381,7 +381,7 @@
 
     .line 168
     .line 169
-    invoke-static {p2}, Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;->G7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {p2}, Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;->G7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 170
     .line 171
@@ -804,11 +804,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

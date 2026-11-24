@@ -52,7 +52,7 @@
 
     if-lt v0, v1, :cond_3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p1}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/rr5;->A(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/tr5;->x(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
 

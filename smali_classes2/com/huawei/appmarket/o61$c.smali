@@ -115,13 +115,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ea4;->a:Lcom/huawei/appmarket/ea4;
+    sget-object p1, Lcom/huawei/appmarket/ga4;->a:Lcom/huawei/appmarket/ga4;
 
     const-string v1, "CacheWriteLocker"
 
     const-string v2, "The element was not added to this queue."
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

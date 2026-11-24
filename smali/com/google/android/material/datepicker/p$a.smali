@@ -38,7 +38,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->f0(Landroid/view/View;Z)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->f0(Landroid/view/View;Z)V
 
     const v1, 0x7f0a0f8d
 

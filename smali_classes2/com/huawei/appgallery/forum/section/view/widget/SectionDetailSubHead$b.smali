@@ -56,7 +56,7 @@
 
     const-string p2, "spinner initialization click"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

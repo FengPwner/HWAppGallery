@@ -147,7 +147,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -451,8 +451,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

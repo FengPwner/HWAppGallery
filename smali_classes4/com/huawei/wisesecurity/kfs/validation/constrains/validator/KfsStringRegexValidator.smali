@@ -114,7 +114,7 @@
 
     if-nez p1, :cond_1
 
-    const-string p1, "value is not match"
+    const-string/jumbo p1, "value is not match"
 
     goto :goto_0
 

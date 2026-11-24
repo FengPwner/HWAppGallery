@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao3;
+.implements Lcom/huawei/appmarket/co3;
 
 
 # direct methods
@@ -41,7 +41,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/il5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Lcom/huawei/appmarket/kl5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 12
     .line 13
@@ -161,7 +161,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onStoreDownloadTaskFinish(I)V
@@ -188,7 +187,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/il5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Lcom/huawei/appmarket/kl5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 12
     .line 13
@@ -243,7 +242,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 41
     .line 42
@@ -251,12 +250,12 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 45
     .line 46
     .line 47
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     .line 48
     .line 49
@@ -264,7 +263,7 @@
     move-result-object p1
 
     .line 51
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uk5;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wk5;->b()V
 
     .line 52
     .line 53
@@ -330,5 +329,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

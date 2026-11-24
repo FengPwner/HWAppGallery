@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/du4;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/gu4;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 4
 
     .line 1

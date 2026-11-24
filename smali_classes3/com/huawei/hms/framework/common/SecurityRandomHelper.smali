@@ -38,7 +38,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
     new-instance v1, Lcom/huawei/hms/framework/common/SecurityRandomHelper;
 
@@ -78,7 +78,7 @@
 .method public generateSecureRandom(I)[B
     .registers 2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object p1
 
@@ -88,7 +88,7 @@
 .method public generateSecureRandomStr(I)Ljava/lang/String;
     .registers 2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object p1
 

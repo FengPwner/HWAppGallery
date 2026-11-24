@@ -17,7 +17,7 @@
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "wifiDetectStatus"
+    const-string/jumbo p1, "wifiDetectStatus"
 
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 

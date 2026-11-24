@@ -1,5 +1,5 @@
 .class public final Landroidx/lifecycle/i$a;
-.super Lcom/huawei/appmarket/g02;
+.super Lcom/huawei/appmarket/k02;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/g02;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/k02;-><init>()V
 
     return-void
 .end method
@@ -30,7 +30,7 @@
 
     const-string p2, "activity"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object p2, Landroidx/lifecycle/ReportFragment;->c:Landroidx/lifecycle/ReportFragment$b;
 

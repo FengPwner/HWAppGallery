@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/h;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/h;->b:Lcom/huawei/appmarket/service/settings/card/SettingChinaCancelProtocolCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -28,7 +28,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/service/settings/card/SettingChinaCancelProtocolCard;->D1(Lcom/huawei/appmarket/service/settings/card/SettingChinaCancelProtocolCard;)Lcom/huawei/appmarket/fh3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/settings/card/SettingChinaCancelProtocolCard;->D1(Lcom/huawei/appmarket/service/settings/card/SettingChinaCancelProtocolCard;)Lcom/huawei/appmarket/hh3;
 
     .line 4
     .line 5
@@ -48,7 +48,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/fh3;->y(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/hh3;->y(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -195,5 +195,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

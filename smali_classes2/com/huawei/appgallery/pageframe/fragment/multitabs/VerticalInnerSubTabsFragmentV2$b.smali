@@ -40,13 +40,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2$b;->a:Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()Landroidx/viewpager2/widget/ViewPager2;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Landroidx/viewpager2/widget/ViewPager2;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()Landroidx/viewpager2/widget/ViewPager2;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Landroidx/viewpager2/widget/ViewPager2;
 
     move-result-object v1
 
@@ -55,11 +55,11 @@
     invoke-virtual {v1, p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2;->Q6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;
+    invoke-static {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2;->R6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalInnerSubTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->s(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->t(I)V
 
     return-void
 .end method

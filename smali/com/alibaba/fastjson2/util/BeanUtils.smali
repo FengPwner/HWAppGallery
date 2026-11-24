@@ -4072,7 +4072,7 @@
 
     move-result-object v6
 
-    const-string v7, "com.huawei.appmarket.gd1"
+    const-string v7, "com.huawei.appmarket.id1"
 
     invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -4212,7 +4212,7 @@
     if-nez v0, :cond_3
 
     :try_start_2
-    const-class v0, Lcom/huawei/appmarket/jq4;
+    const-class v0, Lcom/huawei/appmarket/mq4;
 
     const-string v1, "getParameters"
 
@@ -4242,7 +4242,7 @@
     if-nez v0, :cond_4
 
     :try_start_3
-    const-class v0, Lcom/huawei/appmarket/mq4;
+    const-class v0, Lcom/huawei/appmarket/pq4;
 
     const-string v1, "getName"
 
@@ -5599,7 +5599,6 @@
         }
     .end annotation
 
-    .line 3
     move-object/from16 v0, p0
 
     move-object/from16 v1, p1
@@ -5661,7 +5660,7 @@
     const/4 v8, 0x0
 
     :goto_1
-    if-ge v8, v7, :cond_2c
+    if-ge v8, v7, :cond_29
 
     aget-object v9, v4, v8
 
@@ -5678,14 +5677,12 @@
     :pswitch_0
     move-object/from16 v3, p3
 
-    move-object/from16 v20, v4
-
-    move/from16 v21, v7
+    move-object/from16 v21, v4
 
     :goto_3
-    const/4 v7, 0x0
+    const/4 v10, 0x0
 
-    goto/16 :goto_15
+    goto/16 :goto_13
 
     :cond_4
     invoke-virtual {v9}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
@@ -5737,111 +5734,113 @@
 
     invoke-virtual {v11}, Ljava/lang/String;->hashCode()I
 
-    move-result v12
+    invoke-virtual {v11}, Ljava/lang/String;->hashCode()I
 
-    const-string v13, "getSerializedSize"
+    move-result v16
 
-    sparse-switch v12, :sswitch_data_0
+    sparse-switch v16, :sswitch_data_0
 
     :goto_4
-    const/4 v12, -0x1
+    const/4 v15, -0x1
 
     goto :goto_5
 
     :sswitch_0
-    const-string v12, "getInitializationErrorString"
+    const-string v15, "getInitializationErrorString"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_8
+    if-nez v15, :cond_8
 
     goto :goto_4
 
     :cond_8
-    const/4 v12, 0x5
+    const/4 v15, 0x5
 
     goto :goto_5
 
     :sswitch_1
-    const-string v12, "hashCode"
+    const-string v15, "hashCode"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_9
+    if-nez v15, :cond_9
 
     goto :goto_4
 
     :cond_9
-    const/4 v12, 0x4
+    const/4 v15, 0x4
 
     goto :goto_5
 
     :sswitch_2
-    const-string v12, "isInitialized"
+    const-string v15, "isInitialized"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_a
+    if-nez v15, :cond_a
 
     goto :goto_4
 
     :cond_a
-    const/4 v12, 0x3
+    const/4 v15, 0x3
 
     goto :goto_5
 
     :sswitch_3
-    const-string v12, "equals"
+    const-string v15, "equals"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_b
+    if-nez v15, :cond_b
 
     goto :goto_4
 
     :cond_b
-    const/4 v12, 0x2
+    const/4 v15, 0x2
 
     goto :goto_5
 
     :sswitch_4
-    invoke-virtual {v11, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v15, "getSerializedSize"
 
-    move-result v12
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    if-nez v12, :cond_c
+    move-result v15
+
+    if-nez v15, :cond_c
 
     goto :goto_4
 
     :cond_c
-    const/4 v12, 0x1
+    const/4 v15, 0x1
 
     goto :goto_5
 
     :sswitch_5
-    const-string v12, "toString"
+    const-string v15, "toString"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_d
+    if-nez v15, :cond_d
 
     goto :goto_4
 
     :cond_d
-    const/4 v12, 0x0
+    const/4 v15, 0x0
 
     :goto_5
-    packed-switch v12, :pswitch_data_0
+    packed-switch v15, :pswitch_data_0
 
     goto :goto_6
 
@@ -5854,204 +5853,196 @@
     :goto_6
     if-eqz v6, :cond_10
 
-    const-string v12, "Type"
+    const-string v15, "Type"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    move-result v12
+    move-result v15
 
-    if-nez v12, :cond_f
+    if-nez v15, :cond_f
 
-    const-string v12, "Bytes"
+    const-string v15, "Bytes"
 
-    invoke-virtual {v11, v12}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v11, v15}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    move-result v12
+    move-result v15
 
-    if-eqz v12, :cond_10
+    if-eqz v15, :cond_10
 
     :cond_f
     invoke-virtual {v10}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
-    move-result-object v12
+    move-result-object v15
 
-    const-string v15, "com.google.protobuf.h"
+    const-string v13, "com.google.protobuf.h"
 
-    invoke-virtual {v12, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v15, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v12
+    move-result v13
 
-    if-eqz v12, :cond_10
+    if-eqz v13, :cond_10
 
     goto/16 :goto_2
 
     :cond_10
-    const-string v12, "isSet"
+    const-string v13, "isSet"
 
-    invoke-virtual {v11, v12, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
+    invoke-virtual {v11, v13, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
 
-    move-result v12
+    move-result v13
 
-    if-eqz v12, :cond_16
+    if-eqz v13, :cond_16
 
-    sget-object v12, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v13, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
-    if-ne v10, v12, :cond_16
+    if-ne v10, v13, :cond_16
 
-    const/4 v12, 0x0
+    const/4 v13, 0x0
 
-    invoke-static {v11, v12}, Lcom/alibaba/fastjson2/util/BeanUtils;->getterName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v11, v13}, Lcom/alibaba/fastjson2/util/BeanUtils;->getterName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v12
+    move-result-object v13
 
     new-instance v15, Ljava/lang/StringBuilder;
 
-    const-string v5, "g"
+    const-string v12, "g"
 
-    invoke-direct {v15, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v15, v12}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v12, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    .line 3
+    invoke-static {v13, v3, v15}, Lcom/huawei/appmarket/tr2;->j(Ljava/lang/String;ILjava/lang/StringBuilder;)Ljava/lang/String;
 
-    move-result-object v5
-
-    invoke-virtual {v15, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v15}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
+    move-result-object v12
 
     const-string v15, "un"
 
-    invoke-virtual {v15, v12}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    .line 4
+    invoke-virtual {v15, v13}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v15
 
-    array-length v14, v4
+    array-length v5, v4
 
-    const/4 v3, 0x0
-
-    const/16 v16, 0x0
+    const/4 v14, 0x0
 
     const/16 v17, 0x0
 
     const/16 v18, 0x0
 
+    const/16 v19, 0x0
+
     :goto_7
-    if-ge v3, v14, :cond_15
+    if-ge v14, v5, :cond_15
 
-    aget-object v19, v4, v3
+    aget-object v20, v4, v14
 
-    move-object/from16 v20, v4
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    move-result-object v3
 
-    move-result-object v4
+    invoke-virtual {v3, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v3
 
-    move-result v4
+    if-eqz v3, :cond_11
 
-    if-eqz v4, :cond_11
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+    move-result-object v3
 
-    move-result-object v4
+    array-length v3, v3
 
-    array-length v4, v4
+    move-object/from16 v21, v4
 
-    move/from16 v21, v7
+    const/4 v4, 0x1
 
-    const/4 v7, 0x1
+    if-ne v3, v4, :cond_12
 
-    if-ne v4, v7, :cond_12
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    move-result-object v3
 
-    move-result-object v4
+    sget-object v4, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
 
-    sget-object v7, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
+    if-ne v3, v4, :cond_12
 
-    if-ne v4, v7, :cond_12
-
-    const/16 v16, 0x1
+    const/16 v17, 0x1
 
     goto :goto_8
 
     :cond_11
-    move/from16 v21, v7
+    move-object/from16 v21, v4
 
     :cond_12
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
-    move-result-object v4
+    move-result-object v3
 
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v4
+    move-result v3
 
-    if-eqz v4, :cond_13
+    if-eqz v3, :cond_13
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
-    move-result-object v4
+    move-result-object v3
 
-    array-length v4, v4
+    array-length v3, v3
 
-    if-nez v4, :cond_13
+    if-nez v3, :cond_13
 
-    const/16 v18, 0x1
+    const/16 v19, 0x1
 
     goto :goto_8
 
     :cond_13
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
-    move-result-object v4
+    move-result-object v3
 
-    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v4
+    move-result v3
 
-    if-eqz v4, :cond_14
+    if-eqz v3, :cond_14
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
-    move-result-object v4
+    move-result-object v3
 
-    array-length v4, v4
+    array-length v3, v3
 
-    if-nez v4, :cond_14
+    if-nez v3, :cond_14
 
-    invoke-virtual/range {v19 .. v19}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
-    move-result-object v4
+    move-result-object v3
 
-    sget-object v7, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
 
-    if-ne v4, v7, :cond_14
+    if-ne v3, v4, :cond_14
 
-    const/16 v17, 0x1
+    const/16 v18, 0x1
 
     :cond_14
     :goto_8
-    add-int/lit8 v3, v3, 0x1
+    add-int/lit8 v14, v14, 0x1
 
-    move-object/from16 v4, v20
+    move-object/from16 v4, v21
 
-    move/from16 v7, v21
+    const/4 v3, 0x1
 
     goto :goto_7
 
     :cond_15
-    move-object/from16 v20, v4
-
-    move/from16 v21, v7
-
-    if-eqz v16, :cond_17
+    move-object/from16 v21, v4
 
     if-eqz v17, :cond_17
 
     if-eqz v18, :cond_17
+
+    if-eqz v19, :cond_17
 
     const-class v3, Lcom/alibaba/fastjson2/annotation/JSONField;
 
@@ -6067,9 +6058,7 @@
     goto/16 :goto_3
 
     :cond_16
-    move-object/from16 v20, v4
-
-    move/from16 v21, v7
+    move-object/from16 v21, v4
 
     :cond_17
     invoke-virtual {v11}, Ljava/lang/String;->length()I
@@ -6082,9 +6071,9 @@
 
     const-string v5, "get"
 
-    const/4 v7, 0x0
+    const/4 v12, 0x0
 
-    invoke-virtual {v11, v5, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
+    invoke-virtual {v11, v5, v12}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
 
     move-result v5
 
@@ -6098,157 +6087,144 @@
     const/4 v5, 0x0
 
     :goto_a
-    const/16 v7, 0x7a
+    const/16 v12, 0x7a
 
-    const/16 v12, 0x61
+    const/16 v13, 0x61
 
-    if-eqz v5, :cond_1c
+    if-eqz v5, :cond_1a
 
     invoke-virtual {v11, v4}, Ljava/lang/String;->charAt(I)C
 
-    move-result v10
+    move-result v4
 
-    if-lt v10, v12, :cond_19
+    if-lt v4, v13, :cond_19
 
-    if-gt v10, v7, :cond_19
+    if-gt v4, v12, :cond_19
 
     const/4 v4, 0x4
 
-    if-ne v3, v4, :cond_1a
+    if-ne v3, v4, :cond_19
 
     const/4 v5, 0x0
 
-    goto :goto_b
-
     :cond_19
-    const/4 v4, 0x4
-
-    :cond_1a
-    :goto_b
-    move v10, v5
-
-    const/4 v5, 0x2
-
-    :cond_1b
-    const/4 v7, 0x3
-
-    goto :goto_d
-
-    :cond_1c
-    const/4 v4, 0x4
-
-    sget-object v14, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
-
-    if-eq v10, v14, :cond_1d
-
-    const-class v14, Ljava/lang/Boolean;
-
-    if-eq v10, v14, :cond_1d
-
-    if-eqz p2, :cond_1a
-
-    :cond_1d
-    const/4 v5, 0x2
-
-    if-le v3, v5, :cond_1e
-
-    const-string v10, "is"
-
-    const/4 v14, 0x0
-
-    invoke-virtual {v11, v10, v14}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
-
-    move-result v10
-
-    if-eqz v10, :cond_1e
-
-    const/4 v10, 0x1
+    move v12, v5
 
     goto :goto_c
 
-    :cond_1e
+    :cond_1a
+    sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    if-eq v10, v4, :cond_1b
+
+    const-class v4, Ljava/lang/Boolean;
+
+    if-eq v10, v4, :cond_1b
+
+    if-eqz p2, :cond_19
+
+    :cond_1b
+    const/4 v4, 0x2
+
+    if-le v3, v4, :cond_1c
+
+    const-string v5, "is"
+
     const/4 v10, 0x0
+
+    invoke-virtual {v11, v5, v10}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_1c
+
+    const/4 v5, 0x1
+
+    goto :goto_b
+
+    :cond_1c
+    const/4 v5, 0x0
+
+    :goto_b
+    if-eqz v5, :cond_19
+
+    invoke-virtual {v11, v4}, Ljava/lang/String;->charAt(I)C
+
+    move-result v4
+
+    if-lt v4, v13, :cond_19
+
+    if-gt v4, v12, :cond_19
+
+    const/4 v4, 0x3
+
+    if-ne v3, v4, :cond_19
+
+    const/4 v12, 0x0
 
     :goto_c
-    if-eqz v10, :cond_1b
-
-    invoke-virtual {v11, v5}, Ljava/lang/String;->charAt(I)C
-
-    move-result v14
-
-    if-lt v14, v12, :cond_1b
-
-    if-gt v14, v7, :cond_1b
-
-    const/4 v7, 0x3
-
-    if-ne v3, v7, :cond_1f
-
-    const/4 v10, 0x0
-
-    :cond_1f
-    :goto_d
-    if-nez v10, :cond_20
+    if-nez v12, :cond_1d
 
     invoke-static {v9}, Lcom/alibaba/fastjson2/util/BeanUtils;->isJSONField(Ljava/lang/reflect/AnnotatedElement;)Z
 
     move-result v3
 
-    if-eqz v3, :cond_20
+    if-eqz v3, :cond_1d
 
-    const/4 v10, 0x1
+    const/4 v12, 0x1
 
-    :cond_20
-    if-nez v10, :cond_21
+    :cond_1d
+    if-nez v12, :cond_1e
 
-    if-eqz v1, :cond_21
+    if-eqz v1, :cond_1e
 
     invoke-static {v1, v9}, Lcom/alibaba/fastjson2/util/BeanUtils;->getMethod(Ljava/lang/Class;Ljava/lang/reflect/Method;)Ljava/lang/reflect/Method;
 
     move-result-object v3
 
-    if-eqz v3, :cond_21
+    if-eqz v3, :cond_1e
 
     invoke-static {v3}, Lcom/alibaba/fastjson2/util/BeanUtils;->isJSONField(Ljava/lang/reflect/AnnotatedElement;)Z
 
     move-result v3
 
-    if-eqz v3, :cond_21
+    if-eqz v3, :cond_1e
 
-    goto :goto_e
+    goto :goto_d
 
-    :cond_21
-    if-nez v10, :cond_22
+    :cond_1e
+    if-nez v12, :cond_1f
 
     goto :goto_9
 
-    :cond_22
-    :goto_e
-    if-eqz v6, :cond_2b
+    :cond_1f
+    :goto_d
+    if-eqz v6, :cond_28
 
     invoke-virtual {v9}, Ljava/lang/reflect/Method;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v3
 
-    if-ne v3, v2, :cond_23
+    if-ne v3, v2, :cond_20
 
-    goto/16 :goto_9
+    goto :goto_9
 
-    :cond_23
+    :cond_20
     invoke-virtual {v9}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
     move-result-object v3
 
     invoke-virtual {v11}, Ljava/lang/String;->hashCode()I
 
-    move-result v10
+    const/4 v4, -0x1
 
-    sparse-switch v10, :sswitch_data_1
+    invoke-virtual {v11}, Ljava/lang/String;->hashCode()I
 
-    :goto_f
-    const/4 v14, -0x1
+    move-result v5
 
-    goto :goto_10
+    sparse-switch v5, :sswitch_data_1
+
+    goto :goto_e
 
     :sswitch_6
     const-string v5, "getDefaultInstanceForType"
@@ -6257,79 +6233,81 @@
 
     move-result v5
 
-    if-nez v5, :cond_24
+    if-nez v5, :cond_21
 
-    goto :goto_f
+    goto :goto_e
 
-    :cond_24
-    const/4 v14, 0x4
+    :cond_21
+    const/4 v4, 0x4
 
-    goto :goto_10
+    goto :goto_e
 
     :sswitch_7
-    const-string v4, "getMessageBytes"
+    const-string v5, "getMessageBytes"
 
-    invoke-virtual {v11, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v4
+    move-result v5
 
-    if-nez v4, :cond_25
+    if-nez v5, :cond_22
 
-    goto :goto_f
+    goto :goto_e
 
-    :cond_25
-    const/4 v14, 0x3
+    :cond_22
+    const/4 v4, 0x3
 
-    goto :goto_10
+    goto :goto_e
 
     :sswitch_8
-    const-string v4, "getUnknownFields"
+    const-string v5, "getUnknownFields"
 
-    invoke-virtual {v11, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v4
+    move-result v5
 
-    if-nez v4, :cond_26
+    if-nez v5, :cond_23
 
-    goto :goto_f
+    goto :goto_e
 
-    :cond_26
-    const/4 v14, 0x2
+    :cond_23
+    const/4 v4, 0x2
 
-    goto :goto_10
+    goto :goto_e
 
     :sswitch_9
-    const-string v4, "getParserForType"
+    const-string v5, "getParserForType"
 
-    invoke-virtual {v11, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v4
+    move-result v5
 
-    if-nez v4, :cond_27
+    if-nez v5, :cond_24
 
-    goto :goto_f
+    goto :goto_e
 
-    :cond_27
-    const/4 v14, 0x1
+    :cond_24
+    const/4 v4, 0x1
 
-    goto :goto_10
+    goto :goto_e
 
     :sswitch_a
-    invoke-virtual {v11, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v5, "getSerializedSize"
 
-    move-result v4
+    invoke-virtual {v11, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    if-nez v4, :cond_28
+    move-result v5
 
-    goto :goto_f
+    if-nez v5, :cond_25
 
-    :cond_28
-    const/4 v14, 0x0
+    goto :goto_e
 
-    :goto_10
-    packed-switch v14, :pswitch_data_1
+    :cond_25
+    const/4 v4, 0x0
 
-    goto :goto_13
+    :goto_e
+    packed-switch v4, :pswitch_data_1
+
+    goto :goto_11
 
     :pswitch_2
     invoke-virtual {v3}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -6338,45 +6316,43 @@
 
     const-string v5, "com.google.protobuf."
 
-    const/4 v7, 0x0
+    const/4 v10, 0x0
 
-    invoke-virtual {v4, v5, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
+    invoke-virtual {v4, v5, v10}, Ljava/lang/String;->startsWith(Ljava/lang/String;I)Z
 
     move-result v4
 
-    if-nez v4, :cond_2a
+    if-nez v4, :cond_27
 
-    if-ne v3, v0, :cond_29
+    if-ne v3, v0, :cond_26
+
+    goto :goto_10
+
+    :cond_26
+    :goto_f
+    move-object/from16 v3, p3
 
     goto :goto_12
 
-    :cond_29
+    :cond_27
+    :goto_10
+    move-object/from16 v3, p3
+
+    goto :goto_13
+
+    :cond_28
     :goto_11
-    move-object/from16 v3, p3
+    const/4 v10, 0x0
 
-    goto :goto_14
+    goto :goto_f
 
-    :cond_2a
     :goto_12
-    move-object/from16 v3, p3
-
-    goto :goto_15
-
-    :cond_2b
-    :goto_13
-    const/4 v7, 0x0
-
-    goto :goto_11
-
-    :goto_14
     invoke-interface {v3, v9}, Lcom/alibaba/fastjson2/function/Consumer;->accept(Ljava/lang/Object;)V
 
-    :goto_15
+    :goto_13
     add-int/lit8 v8, v8, 0x1
 
-    move-object/from16 v4, v20
-
-    move/from16 v7, v21
+    move-object/from16 v4, v21
 
     const/4 v3, 0x1
 
@@ -6384,7 +6360,7 @@
 
     goto/16 :goto_1
 
-    :cond_2c
+    :cond_29
     return-void
 
     :sswitch_data_0
@@ -6659,11 +6635,11 @@
 
     invoke-direct {v5}, Lcom/alibaba/fastjson2/codec/BeanInfo;-><init>()V
 
-    new-instance v6, Lcom/huawei/appmarket/mm5;
+    new-instance v6, Lcom/huawei/appmarket/om5;
 
     const/4 v7, 0x3
 
-    invoke-direct {v6, v5, v3, v7}, Lcom/huawei/appmarket/mm5;-><init>(Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/lang/annotation/Annotation;I)V
+    invoke-direct {v6, v5, v3, v7}, Lcom/huawei/appmarket/om5;-><init>(Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/lang/annotation/Annotation;I)V
 
     invoke-static {v4, v6}, Lcom/alibaba/fastjson2/util/BeanUtils;->annotationMethods(Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Consumer;)V
 
@@ -8489,7 +8465,7 @@
 
     .line 124
     .line 125
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 126
     .line 127

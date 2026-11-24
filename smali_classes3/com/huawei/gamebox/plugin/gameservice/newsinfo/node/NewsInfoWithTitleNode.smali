@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private l:Lcom/huawei/appmarket/ak0;
+.field private l:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -62,7 +62,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 13
     .line 14
@@ -279,7 +279,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
@@ -291,11 +290,11 @@
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 14
 
     .line 1
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     .line 2
     .line 3
@@ -334,7 +333,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     .line 20
     .line 21
@@ -386,7 +385,7 @@
     move-result-object v3
 
     .line 45
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 46
     .line 47
@@ -549,11 +548,11 @@
 
     .line 127
     :cond_2
-    iget-object v2, p0, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iget-object v2, p0, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 128
     .line 129
-    invoke-virtual {p0, v2}, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 130
     .line 131
@@ -619,14 +618,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 9
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -681,7 +679,7 @@
     move-result-object v3
 
     .line 26
-    invoke-virtual {v3, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 27
     .line 28
@@ -738,7 +736,7 @@
 
     .line 51
     .line 52
-    invoke-direct {v6, p1, v4, v0}, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/gamebox/service/common/cardkit/card/BaseGsCard;I)V
+    invoke-direct {v6, p1, v4, v0}, Lcom/huawei/gamebox/plugin/gameservice/newsinfo/node/NewsInfoWithTitleNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/gamebox/service/common/cardkit/card/BaseGsCard;I)V
 
     .line 53
     .line 54
@@ -817,5 +815,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

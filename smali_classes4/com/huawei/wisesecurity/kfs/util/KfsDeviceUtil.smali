@@ -314,13 +314,13 @@
     if-lt v0, v1, :cond_1
 
     :try_start_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->D(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->D(Landroid/content/Context;)I
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/e53;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->i()Ljava/lang/String;
 
     move-result-object p0
 
@@ -504,7 +504,7 @@
 
     if-lt v0, v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 

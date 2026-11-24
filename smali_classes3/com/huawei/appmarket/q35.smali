@@ -1,41 +1,38 @@
-.class final Lcom/huawei/appmarket/q35;
-.super Landroid/animation/AnimatorListenerAdapter;
+.class public final synthetic Lcom/huawei/appmarket/q35;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # instance fields
-.field final synthetic a:Landroid/view/View;
-
-.field final synthetic b:Lcom/huawei/appmarket/MarketActivity;
+.field public final synthetic b:Lcom/huawei/appmarket/MarketActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;Landroid/view/View;)V
-    .registers 3
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/MarketActivity;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appmarket/q35;->b:Lcom/huawei/appmarket/MarketActivity;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/q35;->a:Landroid/view/View;
-
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onAnimationEnd(Landroid/animation/Animator;)V
+.method public final onChanged(Ljava/lang/Object;)V
     .registers 3
 
-    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/q35;->b:Lcom/huawei/appmarket/MarketActivity;
 
-    iget-object p1, p0, Lcom/huawei/appmarket/q35;->b:Lcom/huawei/appmarket/MarketActivity;
+    check-cast p1, Ljava/lang/Boolean;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/MarketActivity;->K4(Lcom/huawei/appmarket/MarketActivity;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/q35;->a:Landroid/view/View;
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/MarketActivity;->L4(Lcom/huawei/appmarket/MarketActivity;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/MarketActivity;->A4(Lcom/huawei/appmarket/MarketActivity;Ljava/lang/Boolean;)V
 
     return-void
 .end method

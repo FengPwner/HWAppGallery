@@ -49,28 +49,28 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string v1, "getContainer is null!"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/BaseTitleCard;->x:Landroid/widget/TextView;
 
     if-eqz p1, :cond_1
 
-    const-class p1, Lcom/huawei/appmarket/e54;
+    const-class p1, Lcom/huawei/appmarket/h54;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/e54;
+    check-cast p1, Lcom/huawei/appmarket/h54;
 
     const/4 v0, 0x1
 
-    invoke-interface {p1, v0, v0}, Lcom/huawei/appmarket/e54;->N(IZ)I
+    invoke-interface {p1, v0, v0}, Lcom/huawei/appmarket/h54;->N(IZ)I
 
     move-result p1
 
@@ -99,11 +99,11 @@
     goto :goto_1
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string v1, "setCardData, leftTextView is null!"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

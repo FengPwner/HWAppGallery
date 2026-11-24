@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -52,7 +52,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 15
     .line 16
@@ -64,11 +64,11 @@
 
     .line 19
     .line 20
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 23
     .line 24
@@ -76,11 +76,11 @@
     move-result-object v0
 
     .line 26
-    const-class v2, Lcom/huawei/appmarket/vs3;
+    const-class v2, Lcom/huawei/appmarket/xs3;
 
     .line 27
     .line 28
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -88,7 +88,7 @@
     move-result-object v0
 
     .line 32
-    check-cast v0, Lcom/huawei/appmarket/vs3;
+    check-cast v0, Lcom/huawei/appmarket/xs3;
 
     .line 33
     .line 34
@@ -108,7 +108,7 @@
     move-result-object v2
 
     .line 42
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/vs3;->d(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/xs3;->d(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     .line 43
     .line 44
@@ -149,7 +149,7 @@
     .line 61
     .line 62
     :goto_0
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -273,7 +273,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 118
-    invoke-static {v4}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v4}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 119
     .line 120
@@ -376,7 +376,7 @@
     move-result-object v0
 
     .line 172
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 173
     .line 174
@@ -453,7 +453,7 @@
 
     .line 208
     :goto_3
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 209
     .line 210

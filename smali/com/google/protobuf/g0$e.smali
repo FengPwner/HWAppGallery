@@ -360,6 +360,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getAllFieldsRaw()Ljava/util/Map;
@@ -528,6 +529,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/b1;
@@ -673,6 +675,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getField(Lcom/google/protobuf/Descriptors$f;)Ljava/lang/Object;
@@ -1293,6 +1296,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final makeExtensionsImmutable()V

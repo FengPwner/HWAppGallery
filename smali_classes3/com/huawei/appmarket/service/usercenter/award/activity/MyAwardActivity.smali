@@ -76,7 +76,7 @@
     const/4 v3, 0x0
 
     .line 14
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/m77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -132,7 +132,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 45
     .line 46
@@ -268,7 +268,7 @@
 
     .line 108
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/p66;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/r66;->e()Z
 
     .line 109
     .line 110
@@ -280,7 +280,7 @@
 
     .line 113
     .line 114
-    invoke-static {}, Lcom/huawei/appmarket/p66;->d()Z
+    invoke-static {}, Lcom/huawei/appmarket/r66;->d()Z
 
     .line 115
     .line 116
@@ -293,7 +293,7 @@
     .line 119
     .line 120
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 121
     .line 122
@@ -376,7 +376,7 @@
 
     .line 161
     .line 162
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/xo8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/dp8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     .line 164
@@ -400,7 +400,7 @@
 
     .line 172
     .line 173
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 174
     .line 175
@@ -1263,12 +1263,12 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 36
     .line 37
@@ -1284,7 +1284,7 @@
 
     .line 42
     .line 43
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -1313,7 +1313,7 @@
     const/4 v0, 0x0
 
     .line 58
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 59
     .line 60
@@ -1321,7 +1321,7 @@
     move-result-object p1
 
     .line 62
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 63
     .line 64
@@ -1344,11 +1344,11 @@
     .line 72
     .line 73
     .line 74
-    const-class v0, Lcom/huawei/appmarket/is3;
+    const-class v0, Lcom/huawei/appmarket/ks3;
 
     .line 75
     .line 76
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 77
     .line 78
@@ -1356,7 +1356,7 @@
     move-result-object v0
 
     .line 80
-    check-cast v0, Lcom/huawei/appmarket/is3;
+    check-cast v0, Lcom/huawei/appmarket/ks3;
 
     .line 81
     .line 82
@@ -1369,7 +1369,7 @@
     .line 85
     .line 86
     .line 87
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/is3;->A0(Lcom/huawei/appmarket/js3;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ks3;->A0(Lcom/huawei/appmarket/ls3;)V
 
     .line 88
     .line 89
@@ -1405,7 +1405,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onDestroy()V

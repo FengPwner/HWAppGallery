@@ -38,21 +38,21 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result v1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 
     sub-int/2addr v1, v2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     move-result v2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v3
 
@@ -77,7 +77,7 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 11
     .line 12
@@ -240,7 +240,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

@@ -8,7 +8,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ThreadLocal<",
-            "Lcom/huawei/appmarket/d85;",
+            "Lcom/huawei/appmarket/g85;",
             ">;"
         }
     .end annotation
@@ -52,7 +52,7 @@
     return-void
 .end method
 
-.method private g()Lcom/huawei/appmarket/d85;
+.method private g()Lcom/huawei/appmarket/g85;
     .registers 4
 
     .line 1
@@ -62,26 +62,26 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/d85;
+    check-cast v1, Lcom/huawei/appmarket/g85;
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/d85;
+    new-instance v1, Lcom/huawei/appmarket/g85;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/d85;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/g85;-><init>()V
 
     invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
     :cond_0
     iget-object v0, p0, Landroidx/emoji2/text/p;->b:Landroidx/emoji2/text/o;
 
-    invoke-virtual {v0}, Landroidx/emoji2/text/o;->c()Lcom/huawei/appmarket/e85;
+    invoke-virtual {v0}, Landroidx/emoji2/text/o;->c()Lcom/huawei/appmarket/h85;
 
     move-result-object v0
 
     iget v2, p0, Landroidx/emoji2/text/p;->a:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/e85;->d(Lcom/huawei/appmarket/d85;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/h85;->d(Lcom/huawei/appmarket/g85;I)V
 
     return-object v1
 .end method
@@ -133,11 +133,11 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/d85;->c(I)I
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g85;->c(I)I
 
     move-result p1
 
@@ -148,11 +148,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->d()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->d()I
 
     move-result v0
 
@@ -179,11 +179,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->f()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->f()S
 
     move-result v0
 
@@ -194,11 +194,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->g()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->g()I
 
     move-result v0
 
@@ -209,11 +209,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->h()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->h()S
 
     move-result v0
 
@@ -224,11 +224,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->i()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->i()S
 
     move-result v0
 
@@ -239,11 +239,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/d85;
+    invoke-direct {p0}, Landroidx/emoji2/text/p;->g()Lcom/huawei/appmarket/g85;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d85;->e()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g85;->e()Z
 
     move-result v0
 

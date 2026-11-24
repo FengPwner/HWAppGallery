@@ -1,9 +1,34 @@
-.class public final Lcom/huawei/appmarket/rc7;
+.class public abstract Lcom/huawei/appmarket/rc7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/rc7$a;
+    }
+.end annotation
+
+
+# static fields
+.field private static final a:Ljava/util/HashMap;
+
+
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/rc7;->a:Ljava/util/HashMap;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -12,202 +37,271 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;)Z
-    .registers 5
+.method static synthetic a()Ljava/util/HashMap;
+    .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/mu5;->n()Lcom/huawei/appmarket/qw0;
+    sget-object v0, Lcom/huawei/appmarket/rc7;->a:Ljava/util/HashMap;
 
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
+    return-object v0
+.end method
 
-    .line 5
-    const/4 v1, 0x0
+.method static synthetic b(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/e24;)Z
+    .registers 3
 
-    .line 6
-    const-string v2, "ShareDirManager"
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/rc7;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/e24;)Z
 
-    .line 7
-    .line 8
-    if-eqz v0, :cond_4
-
-    .line 9
-    .line 10
-    invoke-static {}, Lcom/huawei/appmarket/ie4;->f()Z
-
-    .line 11
-    .line 12
-    .line 13
-    move-result v0
-
-    .line 14
-    if-nez v0, :cond_0
-
-    .line 15
-    .line 16
-    goto :goto_1
-
-    .line 17
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v0
-
-    .line 21
-    const-string v3, "PackageManager"
-
-    .line 22
-    .line 23
-    check-cast v0, Lcom/huawei/appmarket/dr6;
-
-    .line 24
-    .line 25
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
-
-    .line 26
-    .line 27
-    .line 28
-    move-result-object v0
-
-    .line 29
-    if-eqz v0, :cond_3
-
-    .line 30
-    .line 31
-    const-class v3, Lcom/huawei/appmarket/jw3;
-
-    .line 32
-    .line 33
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object v0
-
-    .line 37
-    if-eqz v0, :cond_2
-
-    .line 38
-    .line 39
-    check-cast v0, Lcom/huawei/appmarket/jw3;
-
-    .line 40
-    .line 41
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/jw3;->j(Landroid/content/Context;)Z
-
-    .line 42
-    .line 43
-    .line 44
     move-result p0
 
-    .line 45
-    if-nez p0, :cond_1
+    return p0
+.end method
 
-    .line 46
-    .line 47
-    sget-object p0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+.method private static c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/e24;)Z
+    .registers 3
 
-    .line 48
-    .line 49
-    const-string v0, "do not support share dir, condition is limited!!!"
+    .line 1
+    check-cast p2, Lcom/huawei/appgallery/share/fragment/ShareFragment;
 
-    .line 50
-    .line 51
-    :goto_0
-    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p0}, Lcom/huawei/appgallery/share/fragment/ShareFragment;->p3(Ljava/lang/String;)Ljava/util/List;
 
-    .line 52
-    .line 53
-    .line 54
-    return v1
+    move-result-object p0
 
-    .line 55
-    :cond_1
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :cond_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result p2
+
+    if-eqz p2, :cond_1
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Landroid/view/View;
+
+    if-eq p2, p1, :cond_0
+
+    invoke-virtual {p2}, Landroid/view/View;->getVisibility()I
+
+    move-result p2
+
+    if-nez p2, :cond_0
+
     const/4 p0, 0x1
 
-    .line 56
     return p0
 
-    .line 57
-    :cond_2
-    new-instance p0, Lcom/huawei/appgallery/packagemanager/impl/utils/HMFUtils$ModuleCreateExecption;
+    :cond_1
+    const/4 p0, 0x0
 
-    .line 58
-    .line 59
-    const-string v0, "create module failed:PackageManager"
+    return p0
+.end method
 
-    .line 60
-    .line 61
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/packagemanager/impl/utils/HMFUtils$ModuleCreateExecption;-><init>(Ljava/lang/String;)V
+.method public static d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
+    .registers 2
 
-    .line 62
-    .line 63
-    .line 64
-    throw p0
+    .line 1
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 65
-    :cond_3
-    new-instance p0, Lcom/huawei/appgallery/packagemanager/impl/utils/HMFUtils$ModuleCreateExecption;
+    move-result v0
 
-    .line 66
-    .line 67
-    const-string v0, "module can not find:PackageManager"
+    if-eqz v0, :cond_0
 
-    .line 68
-    .line 69
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/packagemanager/impl/utils/HMFUtils$ModuleCreateExecption;-><init>(Ljava/lang/String;)V
+    const/4 p0, 0x0
 
-    .line 70
-    .line 71
-    .line 72
-    throw p0
+    return-object p0
 
-    .line 73
-    :cond_4
-    :goto_1
-    sget-object p0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/rc7;->a:Ljava/util/HashMap;
 
-    .line 74
-    .line 75
-    const-string v0, "do not support share dir, share dir flag is off!!!"
+    invoke-virtual {v0, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 76
-    .line 77
+    move-result-object p0
+
+    check-cast p0, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
+
+    return-object p0
+.end method
+
+.method public static e(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/rc7;->a:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p0}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public static f(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    .registers 6
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
+
+    const-string v1, "ShareCommonHelp"
+
+    const-string v2, "click share to  zone!"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_0
+
+    sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p0, v1, v2}, Landroid/graphics/Bitmap;->copy(Landroid/graphics/Bitmap$Config;Z)Landroid/graphics/Bitmap;
+
+    move-result-object v1
+
+    new-instance v2, Landroid/graphics/Canvas;
+
+    invoke-direct {v2, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v3
+
+    const v4, 0x7f06092e
+
+    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v3
+
+    invoke-virtual {v2, v3}, Landroid/graphics/Canvas;->drawColor(I)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, p0, v3, v3, v0}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+
+    move-object v0, v1
+
+    :cond_0
+    return-object v0
+.end method
+
+.method public static g(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v0
+
+    const v1, 0x7f12037b
+
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static h(Ljava/lang/String;Lcom/huawei/appgallery/share/api/ShareDownloadButton;Lcom/huawei/appmarket/e24;)V
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/rc7;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/e24;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    invoke-virtual {p1, p0}, Landroid/view/View;->setVisibility(I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public static i(Lcom/huawei/appgallery/share/api/ShareDownloadButton;Lcom/huawei/appmarket/e24;Ljava/lang/String;)V
+    .registers 7
+
+    .line 1
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
+
+    move-result-object v0
+
+    check-cast p1, Lcom/huawei/appgallery/share/fragment/ShareFragment;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/share/fragment/ShareFragment;->p3(Ljava/lang/String;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_0
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/view/View;
+
+    if-eq v2, p0, :cond_0
+
+    const/4 v3, 0x4
+
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
+
     goto :goto_0
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
+
+    :cond_1
+    sget-object v1, Lcom/huawei/appmarket/gt1;->b:Lcom/huawei/appmarket/gt1;
+
+    if-ne v0, v1, :cond_2
+
+    invoke-static {}, Lcom/huawei/appmarket/xd6;->a()Lcom/huawei/appmarket/g24;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/huawei/appmarket/qc7;
+
+    invoke-direct {v1, p2, p0, p1}, Lcom/huawei/appmarket/qc7;-><init>(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/e24;)V
+
+    invoke-interface {v0, p2, v1}, Lcom/huawei/appmarket/g24;->a(Ljava/lang/String;Lcom/huawei/appmarket/h24;)V
+
+    goto :goto_1
+
+    :cond_2
+    const/4 p1, 0x0
+
+    invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
+
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
+
+    :goto_1
+    return-void
 .end method

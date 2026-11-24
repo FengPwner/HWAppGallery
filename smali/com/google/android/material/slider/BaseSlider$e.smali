@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/slider/BaseSlider$e;
-.super Lcom/huawei/appmarket/v42;
+.super Lcom/huawei/appmarket/z42;
 .source "SourceFile"
 
 
@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/v42;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/z42;-><init>(Landroid/view/View;)V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -245,7 +245,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/v42;->t(I)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/z42;->t(I)V
 
     .line 54
     .line 55
@@ -388,7 +388,7 @@
     .line 116
     .line 117
     .line 118
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/v42;->t(I)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/z42;->t(I)V
 
     .line 119
     .line 120
@@ -559,6 +559,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected final z(ILcom/huawei/appmarket/f5;)V

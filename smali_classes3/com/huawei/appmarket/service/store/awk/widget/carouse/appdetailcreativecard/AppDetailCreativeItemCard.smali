@@ -6,11 +6,11 @@
 # instance fields
 .field private L:Landroid/view/ViewStub;
 
-.field private M:Lcom/huawei/appmarket/kq1;
+.field private M:Lcom/huawei/appmarket/nq1;
 
 .field private N:Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeSingleItemCard;
 
-.field private O:Lcom/huawei/appmarket/ak0;
+.field private O:Lcom/huawei/appmarket/bk0;
 
 .field private P:Landroid/view/View;
 
@@ -30,12 +30,12 @@
 
 
 # virtual methods
-.method public final I1(Lcom/huawei/appmarket/nb3;)V
+.method public final I1(Lcom/huawei/appmarket/qb3;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -43,20 +43,20 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->I1(Lcom/huawei/appmarket/nb3;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->I1(Lcom/huawei/appmarket/qb3;)V
 
-    check-cast p1, Lcom/huawei/appmarket/kq1;
+    check-cast p1, Lcom/huawei/appmarket/nq1;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->M:Lcom/huawei/appmarket/kq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->M:Lcom/huawei/appmarket/nq1;
 
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->O:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->O:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -65,11 +65,11 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->M:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeItemCard;->M:Lcom/huawei/appmarket/nq1;
 
     .line 2
     .line 3
-    instance-of v1, v0, Lcom/huawei/appmarket/ul0;
+    instance-of v1, v0, Lcom/huawei/appmarket/vl0;
 
     .line 4
     .line 5
@@ -77,7 +77,7 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
     .line 8
     .line 9
@@ -131,7 +131,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 35
     .line 36
@@ -139,7 +139,7 @@
     move-result-object v1
 
     .line 38
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 39
     .line 40
@@ -233,7 +233,7 @@
     .line 85
     .line 86
     .line 87
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kq1;->e()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nq1;->e()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;
 
     .line 88
     .line 89
@@ -272,7 +272,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final b2()I
@@ -339,7 +338,7 @@
     move-result v2
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 9
     .line 10
@@ -537,7 +536,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g2(Ljava/util/List;)V
@@ -559,7 +557,7 @@
     .registers 8
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 2
     .line 3
@@ -567,7 +565,7 @@
     move-result p1
 
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
     .line 6
     .line 7
@@ -575,7 +573,7 @@
     move-result v0
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->a()I
 
     .line 10
     .line 11

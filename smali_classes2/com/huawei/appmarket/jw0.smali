@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jm3;
+.implements Lcom/huawei/appmarket/lm3;
 
 
 # instance fields
-.field protected final b:Lcom/huawei/appmarket/f83;
+.field protected final b:Lcom/huawei/appmarket/i83;
 
 
 # direct methods
@@ -17,26 +17,26 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/f83;
+    new-instance v0, Lcom/huawei/appmarket/i83;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/f83;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/i83;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/jw0;->b:Lcom/huawei/appmarket/f83;
+    iput-object v0, p0, Lcom/huawei/appmarket/jw0;->b:Lcom/huawei/appmarket/i83;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public F0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+.method public F0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
     .registers 11
 
     .line 1
-    iget-object v0, p1, Lcom/huawei/appmarket/jm3$a;->b:Landroid/net/Uri;
+    iget-object v0, p1, Lcom/huawei/appmarket/lm3$a;->b:Landroid/net/Uri;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/r13;->c(Lcom/huawei/appmarket/jm3$a;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/u13;->c(Lcom/huawei/appmarket/lm3$a;)V
 
     .line 4
     .line 5
@@ -81,16 +81,16 @@
     .line 24
     .line 25
     :cond_0
-    iget-object v3, p0, Lcom/huawei/appmarket/jw0;->b:Lcom/huawei/appmarket/f83;
+    iget-object v3, p0, Lcom/huawei/appmarket/jw0;->b:Lcom/huawei/appmarket/i83;
 
     .line 26
     .line 27
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/f83;->a(Landroid/net/Uri;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/i83;->a(Landroid/net/Uri;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v3}, Lcom/huawei/appmarket/f83;->f()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/i83;->f()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -98,7 +98,7 @@
     move-result-object v0
 
     .line 34
-    invoke-static {v0}, Lcom/huawei/appmarket/gr1;->s(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/jr1;->s(Ljava/lang/String;)Z
 
     .line 35
     .line 36
@@ -110,7 +110,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v3}, Lcom/huawei/appmarket/f83;->n()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/i83;->n()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -118,7 +118,7 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v3}, Lcom/huawei/appmarket/f83;->i()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/i83;->i()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -126,7 +126,7 @@
     move-result-object v4
 
     .line 48
-    invoke-virtual {v3}, Lcom/huawei/appmarket/f83;->f()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/i83;->f()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -150,7 +150,7 @@
 
     .line 59
     .line 60
-    sget-object v5, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v5, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 61
     .line 62
@@ -158,7 +158,7 @@
 
     .line 63
     .line 64
-    invoke-static {v6, v3, v7, v0}, Lcom/huawei/appmarket/ej2;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v3, v7, v0}, Lcom/huawei/appmarket/kb1;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 65
     .line 66
@@ -166,12 +166,12 @@
     move-result-object v7
 
     .line 68
-    invoke-virtual {v5, v2, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v2, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     .line 70
     .line 71
-    invoke-static {v0}, Lcom/huawei/appmarket/eh4$b;->a(Ljava/lang/String;)Lcom/huawei/appmarket/eh4$b;
+    invoke-static {v0}, Lcom/huawei/appmarket/gh4$b;->a(Ljava/lang/String;)Lcom/huawei/appmarket/gh4$b;
 
     .line 72
     .line 73
@@ -205,12 +205,12 @@
     move-result-object v7
 
     .line 89
-    invoke-virtual {v5, v2, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v2, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
     .line 92
-    sget-object v5, Lcom/huawei/appmarket/eh4$b;->b:Lcom/huawei/appmarket/eh4$b;
+    sget-object v5, Lcom/huawei/appmarket/gh4$b;->b:Lcom/huawei/appmarket/gh4$b;
 
     .line 93
     .line 94
@@ -218,7 +218,7 @@
 
     .line 95
     .line 96
-    sget-object v5, Lcom/huawei/appmarket/eh4$b;->d:Lcom/huawei/appmarket/eh4$b;
+    sget-object v5, Lcom/huawei/appmarket/gh4$b;->d:Lcom/huawei/appmarket/gh4$b;
 
     .line 97
     .line 98
@@ -230,7 +230,7 @@
 
     .line 101
     :cond_1
-    sget-object v5, Lcom/huawei/appmarket/eh4$b;->f:Lcom/huawei/appmarket/eh4$b;
+    sget-object v5, Lcom/huawei/appmarket/gh4$b;->f:Lcom/huawei/appmarket/gh4$b;
 
     .line 102
     .line 103
@@ -238,7 +238,7 @@
 
     .line 104
     .line 105
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 106
     .line 107
@@ -246,7 +246,7 @@
     move-result-object v0
 
     .line 109
-    invoke-virtual {p0, p1, v0, v5}, Lcom/huawei/appmarket/jw0;->F1(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/eh4$b;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0, v5}, Lcom/huawei/appmarket/jw0;->G1(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/gh4$b;)Lcom/huawei/appmarket/dn5;
 
     .line 110
     .line 111
@@ -258,7 +258,7 @@
 
     .line 114
     :cond_2
-    sget-object v5, Lcom/huawei/appmarket/eh4$b;->c:Lcom/huawei/appmarket/eh4$b;
+    sget-object v5, Lcom/huawei/appmarket/gh4$b;->c:Lcom/huawei/appmarket/gh4$b;
 
     .line 115
     .line 116
@@ -266,7 +266,7 @@
 
     .line 117
     .line 118
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 119
     .line 120
@@ -274,7 +274,7 @@
     move-result-object v1
 
     .line 122
-    invoke-virtual {p0, p1, v1, v0}, Lcom/huawei/appmarket/jw0;->F1(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/eh4$b;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v1, v0}, Lcom/huawei/appmarket/jw0;->G1(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/gh4$b;)Lcom/huawei/appmarket/dn5;
 
     .line 123
     .line 124
@@ -286,7 +286,7 @@
 
     .line 127
     :cond_3
-    sget-object v5, Lcom/huawei/appmarket/eh4$b;->g:Lcom/huawei/appmarket/eh4$b;
+    sget-object v5, Lcom/huawei/appmarket/gh4$b;->g:Lcom/huawei/appmarket/gh4$b;
 
     .line 128
     .line 129
@@ -294,7 +294,7 @@
 
     .line 130
     .line 131
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 132
     .line 133
@@ -302,7 +302,7 @@
     move-result-object v0
 
     .line 135
-    invoke-virtual {p0, p1, v0, v1}, Lcom/huawei/appmarket/jw0;->F1(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/eh4$b;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0, v1}, Lcom/huawei/appmarket/jw0;->G1(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/gh4$b;)Lcom/huawei/appmarket/dn5;
 
     .line 136
     .line 137
@@ -315,7 +315,7 @@
     .line 140
     :cond_4
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 141
     .line 142
@@ -323,7 +323,7 @@
     move-result-object v0
 
     .line 144
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->J2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->K2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 145
     .line 146
@@ -369,7 +369,7 @@
 
     .line 164
     .line 165
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 166
     .line 167
@@ -377,7 +377,7 @@
 
     .line 168
     .line 169
-    invoke-static {v6, v3, v1, v4}, Lcom/huawei/appmarket/ej2;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v3, v1, v4}, Lcom/huawei/appmarket/kb1;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 170
     .line 171
@@ -385,7 +385,7 @@
     move-result-object v1
 
     .line 173
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 174
     .line 175
@@ -430,12 +430,12 @@
 
     .line 194
     .line 195
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 196
     .line 197
     .line 198
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jw0;->Y0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jw0;->Y0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
 
     .line 199
     .line 200
@@ -452,12 +452,12 @@
 
     .line 204
     .line 205
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 206
     .line 207
     .line 208
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 209
     .line 210
@@ -465,7 +465,7 @@
     move-result-object v0
 
     .line 212
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->K2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->L2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 213
     .line 214
@@ -478,7 +478,7 @@
 
     .line 217
     :cond_9
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 218
     .line 219
@@ -486,12 +486,12 @@
 
     .line 220
     .line 221
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 222
     .line 223
     .line 224
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jw0;->Y0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/jw0;->Y0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
 
     .line 225
     .line 226
@@ -504,7 +504,7 @@
     .line 229
     :cond_a
     :goto_4
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 230
     .line 231
@@ -512,12 +512,12 @@
 
     .line 232
     .line 233
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 234
     .line 235
     .line 236
-    new-instance p1, Lcom/huawei/appmarket/cn5;
+    new-instance p1, Lcom/huawei/appmarket/dn5;
 
     .line 237
     .line 238
@@ -525,12 +525,12 @@
 
     .line 239
     .line 240
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 241
     .line 242
     .line 243
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 244
     .line 245
@@ -560,7 +560,7 @@
     .line 260
 .end method
 
-.method protected F1(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/eh4$b;)Lcom/huawei/appmarket/cn5;
+.method protected G1(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/gh4$b;)Lcom/huawei/appmarket/dn5;
     .registers 5
 
     .line 1
@@ -568,15 +568,15 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xq5;->N2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/zq5;->O2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;->d()Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;
 
     move-result-object v0
 
-    invoke-virtual {v0, p3}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->n2(Lcom/huawei/appmarket/eh4$b;)V
+    invoke-virtual {v0, p3}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->n2(Lcom/huawei/appmarket/gh4$b;)V
 
-    sget-object v0, Lcom/huawei/appmarket/eh4$b;->c:Lcom/huawei/appmarket/eh4$b;
+    sget-object v0, Lcom/huawei/appmarket/gh4$b;->c:Lcom/huawei/appmarket/gh4$b;
 
     if-ne v0, p3, :cond_0
 
@@ -589,21 +589,21 @@
 
     move-result-object p3
 
-    iget p1, p1, Lcom/huawei/appmarket/jm3$a;->g:I
+    iget p1, p1, Lcom/huawei/appmarket/lm3$a;->g:I
 
     invoke-virtual {p3, p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->r2(I)V
 
     const-string p1, "dist.detail"
 
     :goto_0
-    new-instance p3, Lcom/huawei/appmarket/cn5;
+    new-instance p3, Lcom/huawei/appmarket/dn5;
 
-    invoke-direct {p3, p1, p2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p3, p1, p2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object p3
 .end method
 
-.method protected J2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+.method protected K2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
     .registers 4
 
     .line 1
@@ -611,26 +611,26 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xq5;->N2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/zq5;->O2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;->d()Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;
 
     move-result-object v0
 
-    iget p1, p1, Lcom/huawei/appmarket/jm3$a;->g:I
+    iget p1, p1, Lcom/huawei/appmarket/lm3$a;->g:I
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->r2(I)V
 
-    new-instance p1, Lcom/huawei/appmarket/cn5;
+    new-instance p1, Lcom/huawei/appmarket/dn5;
 
     const-string v0, "distribution.fulldetail.activity"
 
-    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object p1
 .end method
 
-.method protected K2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+.method protected L2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
     .registers 4
 
     .line 1
@@ -638,22 +638,22 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/xq5;->N2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/zq5;->O2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
 
-    new-instance p1, Lcom/huawei/appmarket/cn5;
+    new-instance p1, Lcom/huawei/appmarket/dn5;
 
     const-string v0, "mini.detail"
 
-    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object p1
 .end method
 
-.method protected Y0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+.method protected Y0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
     .registers 9
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/yo1;->a(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
+    invoke-static {p1}, Lcom/huawei/appmarket/bp1;->a(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;
 
     .line 2
     .line 3
@@ -661,7 +661,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/br1;->d()Lcom/huawei/appmarket/br1;
+    invoke-static {}, Lcom/huawei/appmarket/er1;->d()Lcom/huawei/appmarket/er1;
 
     .line 6
     .line 7
@@ -685,12 +685,12 @@
     move-result-object v2
 
     .line 17
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/br1;->g(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/er1;->g(Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 21
     .line 22
@@ -702,11 +702,11 @@
 
     .line 25
     .line 26
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 27
     .line 28
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 29
     .line 30
@@ -714,11 +714,11 @@
     move-result-object v1
 
     .line 32
-    const-class v2, Lcom/huawei/appmarket/nr3;
+    const-class v2, Lcom/huawei/appmarket/pr3;
 
     .line 33
     .line 34
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -726,7 +726,7 @@
     move-result-object v1
 
     .line 38
-    check-cast v1, Lcom/huawei/appmarket/nr3;
+    check-cast v1, Lcom/huawei/appmarket/pr3;
 
     .line 39
     .line 40
@@ -744,16 +744,16 @@
 
     .line 45
     .line 46
-    new-instance v5, Lcom/huawei/appmarket/xr6$b;
+    new-instance v5, Lcom/huawei/appmarket/as6$b;
 
     .line 47
     .line 48
-    invoke-direct {v5}, Lcom/huawei/appmarket/xr6$b;-><init>()V
+    invoke-direct {v5}, Lcom/huawei/appmarket/as6$b;-><init>()V
 
     .line 49
     .line 50
     .line 51
-    invoke-static {v5, v3, v1}, Lcom/huawei/appmarket/ej2;->h(Lcom/huawei/appmarket/xr6$b;ZLcom/huawei/appmarket/nr3;)Ljava/lang/Object;
+    invoke-static {v5, v3, v1}, Lcom/huawei/appmarket/tr2;->h(Lcom/huawei/appmarket/as6$b;ZLcom/huawei/appmarket/pr3;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -773,7 +773,7 @@
 
     .line 60
     .line 61
-    invoke-static {v4, v1, v6, v5}, Lcom/huawei/appmarket/vw7;->i(ILcom/huawei/appmarket/qz0;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v4, v1, v6, v5}, Lcom/huawei/appmarket/ci7;->j(ILcom/huawei/appmarket/qz0;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -793,7 +793,7 @@
     move-result v4
 
     .line 71
-    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 72
     .line 73
@@ -823,7 +823,7 @@
     move-result-object v5
 
     .line 87
-    invoke-virtual {v1, v2, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -833,7 +833,7 @@
 
     .line 91
     .line 92
-    sget-object v1, Lcom/huawei/appmarket/eh4$b;->d:Lcom/huawei/appmarket/eh4$b;
+    sget-object v1, Lcom/huawei/appmarket/gh4$b;->d:Lcom/huawei/appmarket/gh4$b;
 
     .line 93
     .line 94
@@ -845,7 +845,7 @@
 
     .line 96
     .line 97
-    sget-object v1, Lcom/huawei/appmarket/eh4$b;->f:Lcom/huawei/appmarket/eh4$b;
+    sget-object v1, Lcom/huawei/appmarket/gh4$b;->f:Lcom/huawei/appmarket/gh4$b;
 
     .line 98
     .line 99
@@ -853,12 +853,12 @@
 
     .line 100
     :cond_2
-    sget-object v1, Lcom/huawei/appmarket/eh4$b;->g:Lcom/huawei/appmarket/eh4$b;
+    sget-object v1, Lcom/huawei/appmarket/gh4$b;->g:Lcom/huawei/appmarket/gh4$b;
 
     .line 101
     .line 102
     :goto_0
-    sget-object v3, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v3, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 103
     .line 104
@@ -888,12 +888,12 @@
     move-result-object v4
 
     .line 118
-    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
-    sget-object v2, Lcom/huawei/appmarket/eh4$b;->d:Lcom/huawei/appmarket/eh4$b;
+    sget-object v2, Lcom/huawei/appmarket/gh4$b;->d:Lcom/huawei/appmarket/gh4$b;
 
     .line 122
     .line 123
@@ -901,7 +901,7 @@
 
     .line 124
     .line 125
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->J2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->K2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 126
     .line 127
@@ -913,7 +913,7 @@
 
     .line 130
     :cond_3
-    sget-object v2, Lcom/huawei/appmarket/eh4$b;->c:Lcom/huawei/appmarket/eh4$b;
+    sget-object v2, Lcom/huawei/appmarket/gh4$b;->c:Lcom/huawei/appmarket/gh4$b;
 
     .line 131
     .line 132
@@ -921,7 +921,7 @@
 
     .line 133
     .line 134
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->K2(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->L2(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 135
     .line 136
@@ -933,7 +933,7 @@
 
     .line 139
     :cond_4
-    sget-object v2, Lcom/huawei/appmarket/eh4$b;->f:Lcom/huawei/appmarket/eh4$b;
+    sget-object v2, Lcom/huawei/appmarket/gh4$b;->f:Lcom/huawei/appmarket/gh4$b;
 
     .line 140
     .line 141
@@ -941,7 +941,7 @@
 
     .line 142
     .line 143
-    invoke-virtual {p0, p1, v0, v2}, Lcom/huawei/appmarket/jw0;->F1(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/eh4$b;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0, v2}, Lcom/huawei/appmarket/jw0;->G1(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;Lcom/huawei/appmarket/gh4$b;)Lcom/huawei/appmarket/dn5;
 
     .line 144
     .line 145
@@ -953,7 +953,7 @@
 
     .line 148
     :cond_5
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->l0(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jw0;->l0(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 149
     .line 150
@@ -1072,7 +1072,7 @@
     .line 260
 .end method
 
-.method protected l0(Lcom/huawei/appmarket/jm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/cn5;
+.method protected l0(Lcom/huawei/appmarket/lm3$a;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;)Lcom/huawei/appmarket/dn5;
     .registers 4
 
     .line 1
@@ -1080,21 +1080,21 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xq5;->N2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/zq5;->O2(Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;->d()Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;
 
     move-result-object v0
 
-    iget p1, p1, Lcom/huawei/appmarket/jm3$a;->g:I
+    iget p1, p1, Lcom/huawei/appmarket/lm3$a;->g:I
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->r2(I)V
 
-    new-instance p1, Lcom/huawei/appmarket/cn5;
+    new-instance p1, Lcom/huawei/appmarket/dn5;
 
     const-string v0, "dist.detail"
 
-    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p1, v0, p2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object p1
 .end method

@@ -45,7 +45,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->p(Landroid/os/Handler$Callback;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->p(Landroid/os/Handler$Callback;)Landroid/os/Handler;
 
     .line 3
     .line 4
@@ -197,6 +197,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final b()V

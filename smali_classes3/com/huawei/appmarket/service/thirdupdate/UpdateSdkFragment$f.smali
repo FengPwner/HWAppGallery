@@ -69,7 +69,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -102,7 +102,7 @@
     .line 22
     .line 23
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -124,7 +124,7 @@
     move-result-object v2
 
     .line 34
-    invoke-static {v2}, Lcom/huawei/appmarket/nv;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    invoke-static {v2}, Lcom/huawei/appmarket/ov;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
     .line 35
     .line 36
@@ -169,12 +169,12 @@
     const/4 v3, 0x1
 
     .line 53
-    invoke-static {v3, v1, v0}, Lcom/huawei/appmarket/ur1;->a(IILjava/lang/String;)V
+    invoke-static {v3, v1, v0}, Lcom/huawei/appmarket/xr1;->a(IILjava/lang/String;)V
 
     .line 54
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     .line 57
     .line 58
@@ -190,7 +190,7 @@
     const/4 v0, 0x0
 
     .line 64
-    invoke-static {v2, p1, v0, v3}, Lcom/huawei/appmarket/t98;->j(Landroid/content/Context;Ljava/lang/String;II)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    invoke-static {v2, p1, v0, v3}, Lcom/huawei/appmarket/y98;->j(Landroid/content/Context;Ljava/lang/String;II)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
     .line 65
     .line 66
@@ -246,7 +246,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onCancelled(Ljava/lang/Object;)V
@@ -270,7 +269,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -299,7 +298,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -308,7 +307,7 @@
 
     .line 29
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/zh3;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/bi3;
 
     .line 30
     .line 31
@@ -324,7 +323,7 @@
 
     .line 36
     .line 37
-    invoke-static {v1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/zh3;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/bi3;
 
     .line 38
     .line 39
@@ -355,7 +354,7 @@
 
     .line 50
     :goto_0
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/zh3;->t0(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/bi3;->t0(Z)V
 
     .line 51
     .line 52
@@ -428,7 +427,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onPostExecute(Ljava/lang/Object;)V
@@ -447,7 +445,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -477,7 +475,7 @@
     .line 21
     .line 22
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -546,7 +544,7 @@
     move-result-object v2
 
     .line 58
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -580,7 +578,7 @@
 
     .line 74
     .line 75
-    invoke-static {v0}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->q3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/ny7;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->q3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/sy7;
 
     .line 76
     .line 77
@@ -650,5 +648,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

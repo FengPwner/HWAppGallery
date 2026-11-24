@@ -3,26 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Ljava/lang/Runnable;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->bindPhone(Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->installApp(Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Ljava/lang/Void;",
-        ">;"
-    }
 .end annotation
 
 
@@ -47,41 +38,20 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Ljava/lang/Void;",
-            ">;)V"
-        }
-    .end annotation
+.method public final run()V
+    .registers 3
 
-    .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$n0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    iget-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$n0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
-
-    iget-object v0, p1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     if-eqz v0, :cond_0
 
-    const-string v0, "HiSpaceObject"
+    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$n0;->b:Ljava/lang/String;
 
-    const-string v1, "BindPhone SUCCESSED"
+    check-cast v0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    iget-object p1, p1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
-
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$n0;->b:Ljava/lang/String;
-
-    invoke-virtual {p1, v0}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->R(Ljava/lang/String;)V
 
     :cond_0
     return-void

@@ -220,7 +220,7 @@
     .line 2
     iget-object v0, p0, Landroidx/appcompat/widget/y;->a:Landroid/content/res/Resources;
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/nu6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/ru6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -240,7 +240,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/nu6;->e(Landroid/content/res/Resources;IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/ru6;->e(Landroid/content/res/Resources;IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -253,7 +253,7 @@
     .line 2
     iget-object v0, p0, Landroidx/appcompat/widget/y;->a:Landroid/content/res/Resources;
 
-    invoke-static {v0, p1, p2, p3}, Lcom/huawei/appmarket/nu6;->e(Landroid/content/res/Resources;IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1, p2, p3}, Lcom/huawei/appmarket/ru6;->e(Landroid/content/res/Resources;IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

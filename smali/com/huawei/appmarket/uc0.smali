@@ -12,19 +12,19 @@
     return-void
 .end method
 
-.method public static a(Ljava/util/ArrayList;Lcom/huawei/appmarket/mt2;)Lcom/huawei/appmarket/jb4;
+.method public static a(Ljava/util/ArrayList;Lcom/huawei/appmarket/pt2;)Lcom/huawei/appmarket/lb4;
     .registers 5
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/jb4;->d:I
+    sget v0, Lcom/huawei/appmarket/lb4;->d:I
 
     .line 2
     .line 3
-    new-instance v0, Lcom/huawei/appmarket/jb4$a;
+    new-instance v0, Lcom/huawei/appmarket/lb4$a;
 
     .line 4
     .line 5
-    invoke-direct {v0}, Lcom/huawei/appmarket/jb4$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/lb4$a;-><init>()V
 
     .line 6
     .line 7
@@ -62,7 +62,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/mt2;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/pt2;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -70,7 +70,7 @@
     move-result-object v2
 
     .line 28
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/jb4$a;->i(Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lb4$a;->i(Ljava/lang/Object;)V
 
     .line 29
     .line 30
@@ -83,7 +83,7 @@
 
     .line 34
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jb4$a;->j()Lcom/huawei/appmarket/jb4;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lb4$a;->j()Lcom/huawei/appmarket/lb4;
 
     .line 35
     .line 36

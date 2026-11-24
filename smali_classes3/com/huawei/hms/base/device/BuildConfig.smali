@@ -10,9 +10,9 @@
 
 .field public static final LIBRARY_PACKAGE_NAME:Ljava/lang/String; = "com.huawei.hms.base.device"
 
-.field public static final SDK_VERSION_CODE:I = 0x3a75e4f
+.field public static final SDK_VERSION_CODE:I = 0x3a75e50
 
-.field public static final SDK_VERSION_NAME:Ljava/lang/String; = "6.13.0.303"
+.field public static final SDK_VERSION_NAME:Ljava/lang/String; = "6.13.0.304"
 
 
 # direct methods

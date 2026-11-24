@@ -203,6 +203,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private positionToDayOfWeek(I)I
@@ -303,7 +304,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p3, p2, p3, v1}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p3, p2, p3, v1}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 11
     .line 12
@@ -650,4 +651,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

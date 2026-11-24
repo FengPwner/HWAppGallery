@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/LinkedHashSet<",
-            "Lcom/huawei/appmarket/gp5<",
+            "Lcom/huawei/appmarket/hp5<",
             "TS;>;>;"
         }
     .end annotation
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method e3(Lcom/huawei/appmarket/gp5;)V
+.method e3(Lcom/huawei/appmarket/hp5;)V
     .registers 3
 
     .line 1

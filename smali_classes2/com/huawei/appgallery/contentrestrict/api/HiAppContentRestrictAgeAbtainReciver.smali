@@ -53,11 +53,11 @@
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
-    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     sget-object p1, Lcom/huawei/appmarket/l31;->a:Lcom/huawei/appmarket/l31;
 
@@ -65,7 +65,7 @@
 
     const-string v1, "HiAppContentRestrictAgeAbtainReciver registered"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -121,7 +121,7 @@
 
     const-string v1, "AbsRestrictionsManager"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p2, :cond_4
 
@@ -172,7 +172,7 @@
 
     const-string p2, "activity WeakReference is null"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -187,7 +187,7 @@
 
     const-string p2, "activity WeakReference is not null but activity is null"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -204,7 +204,7 @@
 
     const-string p2, "age not change"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -213,7 +213,7 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/q13;->b()Lcom/huawei/appgallery/contentrestrict/api/GradeInfo;
+    invoke-static {}, Lcom/huawei/appmarket/t13;->b()Lcom/huawei/appgallery/contentrestrict/api/GradeInfo;
 
     move-result-object v1
 
@@ -235,11 +235,11 @@
 .method public release(Landroid/content/Context;)V
     .registers 2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     return-void
 .end method

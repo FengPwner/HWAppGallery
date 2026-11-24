@@ -4,13 +4,13 @@
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
-.implements Lcom/huawei/appmarket/h37;
-.implements Lcom/huawei/appmarket/do5;
-.implements Lcom/huawei/appmarket/bu3;
+.implements Lcom/huawei/appmarket/m37;
+.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/du3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "UserCommentListFragment"
     protocol = Lcom/huawei/appgallery/appcomment/api/IUserCommentListFragmentProtocol;
 .end annotation
@@ -21,9 +21,9 @@
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;",
         ">;",
         "Landroid/view/View$OnClickListener;",
-        "Lcom/huawei/appmarket/h37;",
-        "Lcom/huawei/appmarket/do5;",
-        "Lcom/huawei/appmarket/bu3;"
+        "Lcom/huawei/appmarket/m37;",
+        "Lcom/huawei/appmarket/eo5;",
+        "Lcom/huawei/appmarket/du3;"
     }
 .end annotation
 
@@ -31,7 +31,7 @@
 # instance fields
 .field protected k0:Ljava/lang/String;
 
-.field private l0:Lcom/huawei/appmarket/qr2;
+.field private l0:Lcom/huawei/appmarket/sr2;
 
 .field private m0:I
 
@@ -64,11 +64,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->k0:Ljava/lang/String;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p0}, Lcom/huawei/appmarket/sr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/sr2;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->l0:Lcom/huawei/appmarket/qr2;
+    iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->l0:Lcom/huawei/appmarket/sr2;
 
     const/4 v0, 0x1
 
@@ -149,27 +149,27 @@
     :cond_2
     if-ne v3, v1, :cond_3
 
-    instance-of v4, v3, Lcom/huawei/appmarket/do5;
+    instance-of v4, v3, Lcom/huawei/appmarket/eo5;
 
     if-eqz v4, :cond_3
 
-    instance-of v4, v3, Lcom/huawei/appmarket/bu3;
+    instance-of v4, v3, Lcom/huawei/appmarket/du3;
 
     if-eqz v4, :cond_3
 
     move-object v4, v3
 
-    check-cast v4, Lcom/huawei/appmarket/do5;
+    check-cast v4, Lcom/huawei/appmarket/eo5;
 
-    invoke-interface {v4}, Lcom/huawei/appmarket/do5;->H0()V
+    invoke-interface {v4}, Lcom/huawei/appmarket/eo5;->H0()V
 
     move-object v4, v3
 
-    check-cast v4, Lcom/huawei/appmarket/bu3;
+    check-cast v4, Lcom/huawei/appmarket/du3;
 
     const/4 v5, 0x4
 
-    invoke-interface {v4, v5}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {v4, v5}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     :cond_3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->y1()Landroidx/fragment/app/FragmentManager;
@@ -201,25 +201,25 @@
 
     invoke-virtual {v0}, Landroidx/fragment/app/r;->i()I
 
-    instance-of v0, v2, Lcom/huawei/appmarket/do5;
+    instance-of v0, v2, Lcom/huawei/appmarket/eo5;
 
     if-eqz v0, :cond_5
 
-    instance-of v0, v2, Lcom/huawei/appmarket/bu3;
+    instance-of v0, v2, Lcom/huawei/appmarket/du3;
 
     if-eqz v0, :cond_5
 
     move-object v0, v2
 
-    check-cast v0, Lcom/huawei/appmarket/do5;
+    check-cast v0, Lcom/huawei/appmarket/eo5;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/do5;->Z0(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/eo5;->Z0(I)V
 
-    check-cast v2, Lcom/huawei/appmarket/bu3;
+    check-cast v2, Lcom/huawei/appmarket/du3;
 
     const/4 v0, 0x0
 
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     :cond_5
     iget v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->m0:I
@@ -312,7 +312,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result p1
 
@@ -326,7 +326,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/qt7;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wt7;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;)V
 
     :cond_0
     return-void
@@ -348,7 +348,7 @@
 
     .line 6
     .line 7
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 8
     .line 9
@@ -360,7 +360,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -410,7 +410,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 39
     .line 40
@@ -583,7 +583,7 @@
 
     .line 128
     :goto_2
-    instance-of v5, v3, Lcom/huawei/appmarket/bu3;
+    instance-of v5, v3, Lcom/huawei/appmarket/du3;
 
     .line 129
     .line 130
@@ -591,11 +591,11 @@
 
     .line 131
     .line 132
-    check-cast v3, Lcom/huawei/appmarket/bu3;
+    check-cast v3, Lcom/huawei/appmarket/du3;
 
     .line 133
     .line 134
-    invoke-interface {v3}, Lcom/huawei/appmarket/bu3;->getVisibility()I
+    invoke-interface {v3}, Lcom/huawei/appmarket/du3;->getVisibility()I
 
     .line 135
     .line 136
@@ -607,7 +607,7 @@
 
     .line 139
     .line 140
-    invoke-interface {v3, v4}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {v3, v4}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     .line 141
     .line 142
@@ -777,13 +777,13 @@
 
     check-cast v0, Landroidx/fragment/app/Fragment;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/do5;
+    instance-of v1, v0, Lcom/huawei/appmarket/eo5;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/do5;
+    check-cast v0, Lcom/huawei/appmarket/eo5;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/do5;->H0()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/eo5;->H0()V
 
     :cond_1
     return-void
@@ -866,15 +866,15 @@
 
     check-cast p1, Landroidx/fragment/app/Fragment;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/do5;
+    instance-of v0, p1, Lcom/huawei/appmarket/eo5;
 
     if-eqz v0, :cond_1
 
-    check-cast p1, Lcom/huawei/appmarket/do5;
+    check-cast p1, Lcom/huawei/appmarket/eo5;
 
     iget v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->m0:I
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/do5;->Z0(I)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/eo5;->Z0(I)V
 
     :cond_1
     return-void
@@ -906,20 +906,20 @@
 
     check-cast v0, Landroidx/fragment/app/Fragment;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/h37;
+    instance-of v1, v0, Lcom/huawei/appmarket/m37;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/h37;
+    check-cast v0, Lcom/huawei/appmarket/m37;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/h37;->c0()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/m37;->c0()Z
 
     move-result v0
 
     return v0
 
     :cond_0
-    sget-object v1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -935,7 +935,7 @@
 
     const-string v2, "TaskFragment"
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const/4 v0, 0x0
@@ -967,9 +967,9 @@
     :goto_0
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->k0:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->l0:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/UserCommentListFragment;->l0:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1067,7 +1067,7 @@
 
     .line 32
     .line 33
-    invoke-static {p2}, Lcom/huawei/appmarket/ud3;->c(Landroid/widget/ToggleButton;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/wd3;->c(Landroid/widget/ToggleButton;)V
 
     .line 34
     .line 35
@@ -1076,7 +1076,7 @@
 
     .line 37
     .line 38
-    invoke-static {p2}, Lcom/huawei/appmarket/ud3;->c(Landroid/widget/ToggleButton;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/wd3;->c(Landroid/widget/ToggleButton;)V
 
     .line 39
     .line 40
@@ -1479,7 +1479,7 @@
     move-result-object p1
 
     .line 14
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 15
     .line 16
@@ -1704,7 +1704,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onClick(Landroid/view/View;)V
@@ -1781,19 +1780,19 @@
 
     check-cast v0, Landroidx/fragment/app/Fragment;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/bu3;
+    instance-of v1, v0, Lcom/huawei/appmarket/du3;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/bu3;
+    check-cast v0, Lcom/huawei/appmarket/du3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/bu3;->getVisibility()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/du3;->getVisibility()I
 
     move-result v1
 
     if-eq v1, p1, :cond_1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     if-nez p1, :cond_1
 

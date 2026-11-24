@@ -71,32 +71,32 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/g25;->m(Z)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/j25;->m(Z)V
 
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/g25;->l(Z)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/j25;->l(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/g25;->j(Z)V
-
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/g25;->m(Z)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/j25;->j(Z)V
+
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/j25;->m(Z)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/appmarket/x50$c;->b(Z)V
 

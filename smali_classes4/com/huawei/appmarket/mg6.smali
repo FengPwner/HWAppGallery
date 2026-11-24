@@ -6,15 +6,13 @@
 # static fields
 .field public static final a:[I
 
-.field public static final b:[I
-
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 2
+    .registers 1
 
     .line 1
-    const/16 v0, 0x15
+    const/16 v0, 0x10
 
     new-array v0, v0, [I
 
@@ -22,41 +20,26 @@
 
     sput-object v0, Lcom/huawei/appmarket/mg6;->a:[I
 
-    const v0, 0x7f040266
-
-    const v1, 0x7f040267
-
-    filled-new-array {v0, v1}, [I
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/mg6;->b:[I
-
     return-void
 
     :array_0
     .array-data 4
-        0x7f04026d
-        0x7f0402b6
-        0x7f0402be
-        0x7f0402c6
-        0x7f0402c7
-        0x7f0402c8
-        0x7f0402c9
-        0x7f0402ca
-        0x7f0402cb
-        0x7f040337
-        0x7f040338
-        0x7f040339
-        0x7f040354
-        0x7f040357
-        0x7f040359
-        0x7f040389
-        0x7f0403bc
-        0x7f0403bd
-        0x7f0403be
-        0x7f0403bf
-        0x7f040414
+        0x7f04026c
+        0x7f040271
+        0x7f040293
+        0x7f0402f5
+        0x7f0402f9
+        0x7f040308
+        0x7f0403a0
+        0x7f0403a1
+        0x7f0403a2
+        0x7f0403a3
+        0x7f0403a4
+        0x7f0403a5
+        0x7f0403a6
+        0x7f0403a7
+        0x7f0403ed
+        0x7f0403ee
     .end array-data
 .end method
 

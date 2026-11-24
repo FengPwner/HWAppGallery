@@ -1,155 +1,194 @@
-.class public final synthetic Lcom/huawei/appmarket/aw6;
+.class public final Lcom/huawei/appmarket/aw6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/View$OnClickListener;
-
-
-# instance fields
-.field public final synthetic b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/aw6;->b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final onClick(Landroid/view/View;)V
-    .registers 3
+.method public static a()Lcom/huawei/appmarket/g10;
+    .registers 8
 
     .line 1
-    sget p1, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->U3:I
+    const-string v0, "uri"
 
-    .line 2
-    .line 3
-    iget-object p1, p0, Lcom/huawei/appmarket/aw6;->b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
+    const-string v1, "type"
 
-    .line 4
-    .line 5
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
+    const/4 v2, 0x0
 
-    .line 6
-    .line 7
-    .line 8
+    const-string v3, "INSTALLER.BACKCONFIG"
+
+    const-class v4, Ljava/lang/String;
+
+    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/eb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/huawei/appmarket/g10;
+
+    invoke-direct {v3}, Lcom/huawei/appmarket/g10;-><init>()V
+
+    instance-of v4, v2, Ljava/lang/String;
+
+    const-string v5, "ReturnPolicyUtil"
+
+    if-eqz v4, :cond_1
+
+    sget-object v4, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    const-string v7, "getBackConfigPolicy:"
+
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    :try_start_0
+    new-instance v4, Lorg/json/JSONObject;
+
+    check-cast v2, Ljava/lang/String;
+
+    invoke-direct {v4, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v4, v1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-virtual {v4, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/g10;->c(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    invoke-virtual {v4, v0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    invoke-virtual {v4, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+
     move-result-object v0
 
-    .line 9
-    if-eqz v0, :cond_0
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/g10;->d(Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
-    .line 11
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
+    goto :goto_2
 
-    .line 12
-    .line 13
-    .line 14
-    move-result-object p1
+    :goto_1
+    sget-object v1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
-    .line 15
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->onBackPressed()V
+    new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 16
-    .line 17
-    .line 18
+    const-string v4, "getBackConfigPolicy err: "
+
+    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v5, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_2
+
+    :cond_1
+    sget-object v0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v4, "getBackConfigPolicy fail:"
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v5, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_2
+    :goto_2
+    return-object v3
+.end method
+
+.method public static b()Ljava/lang/Integer;
+    .registers 4
+
+    .line 1
+    const/4 v0, 0x2
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    const-class v1, Ljava/lang/Integer;
+
+    const-string v2, "INSTALLER.SEARCH_RETURN_POLICY"
+
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/eb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    instance-of v2, v1, Ljava/lang/Integer;
+
+    if-eqz v2, :cond_0
+
+    sget-object v0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "search return policy:"
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "ReturnPolicyUtil"
+
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    check-cast v1, Ljava/lang/Integer;
+
+    return-object v1
+
     :cond_0
-    return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
+    return-object v0
 .end method

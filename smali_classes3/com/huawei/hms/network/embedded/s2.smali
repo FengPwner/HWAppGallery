@@ -142,7 +142,7 @@
     const-string v6, "networkkit"
 
     .line 2
-    invoke-static {v1, v4, v5, v6}, Lcom/huawei/appmarket/ej2;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v1, v4, v5, v6}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     move-result-object v1
 

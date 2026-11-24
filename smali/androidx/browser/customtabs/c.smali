@@ -4,13 +4,13 @@
 
 
 # instance fields
-.field final a:Lcom/huawei/appmarket/cm3;
+.field final a:Lcom/huawei/appmarket/em3;
 
 .field private final b:Landroid/app/PendingIntent;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/cm3;Landroid/app/PendingIntent;)V
+.method constructor <init>(Lcom/huawei/appmarket/em3;Landroid/app/PendingIntent;)V
     .registers 3
 
     .line 1
@@ -33,7 +33,7 @@
 
     :cond_1
     :goto_0
-    iput-object p1, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/cm3;
+    iput-object p1, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/em3;
 
     iput-object p2, p0, Landroidx/browser/customtabs/c;->b:Landroid/app/PendingIntent;
 
@@ -141,7 +141,7 @@
 
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/cm3;
+    iget-object v1, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/em3;
 
     .line 36
     .line 37
@@ -157,7 +157,7 @@
     move-result-object v1
 
     .line 43
-    iget-object p1, p1, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/cm3;
+    iget-object p1, p1, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/em3;
 
     .line 44
     .line 45
@@ -262,7 +262,7 @@
 
     .line 10
     :cond_0
-    iget-object v0, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/cm3;
+    iget-object v0, p0, Landroidx/browser/customtabs/c;->a:Lcom/huawei/appmarket/em3;
 
     .line 11
     .line 12
@@ -409,4 +409,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

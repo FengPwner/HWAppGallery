@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -51,19 +51,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -71,7 +71,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -136,17 +136,17 @@
 
     if-ne p1, v0, :cond_3
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
     if-eqz p1, :cond_3
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/b04;->F1()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/d04;->G1()V
 
     :cond_3
     :goto_0
@@ -154,17 +154,17 @@
 
     :cond_4
     :goto_1
-    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/b04;->F1()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/d04;->G1()V
 
     :cond_5
     return-void

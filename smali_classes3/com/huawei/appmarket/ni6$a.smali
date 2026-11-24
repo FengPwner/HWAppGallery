@@ -1,11 +1,14 @@
 .class final Lcom/huawei/appmarket/ni6$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/ni6;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/ni6;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,38 +18,30 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
-
-.field final synthetic c:Lcom/huawei/appmarket/ni6;
+.field final synthetic b:Lcom/huawei/appmarket/ni6;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ni6;Lcom/huawei/appmarket/ak0;)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/ni6;)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ni6$a;->c:Lcom/huawei/appmarket/ni6;
+    iput-object p1, p0, Lcom/huawei/appmarket/ni6$a;->b:Lcom/huawei/appmarket/ni6;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/ni6$a;->b:Lcom/huawei/appmarket/ak0;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onSingleClick(Landroid/view/View;)V
-    .registers 4
+.method public final onClick(Landroid/view/View;)V
+    .registers 2
 
     .line 1
-    const/4 p1, 0x0
+    iget-object p1, p0, Lcom/huawei/appmarket/ni6$a;->b:Lcom/huawei/appmarket/ni6;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ni6$a;->c:Lcom/huawei/appmarket/ni6;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/ni6$a;->b:Lcom/huawei/appmarket/ak0;
-
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ni6;->i2()V
 
     return-void
 .end method

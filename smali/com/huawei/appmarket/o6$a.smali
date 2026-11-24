@@ -32,7 +32,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ej2;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->i()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -218,4 +218,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

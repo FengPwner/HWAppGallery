@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # instance fields
@@ -32,7 +32,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSystemDialogActivity;->D3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSystemDialogActivity;I)V
 
-    sget-object v0, Lcom/huawei/appmarket/en4;->a:Lcom/huawei/appmarket/en4;
+    sget-object v0, Lcom/huawei/appmarket/hn4;->a:Lcom/huawei/appmarket/hn4;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -52,7 +52,7 @@
 
     const-string v1, "NotifySysDialogAct"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

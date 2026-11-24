@@ -24,7 +24,7 @@
 
     const-string v0, "multiUri_"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/horizontalcard/api/HorizontalCardRequest;-><init>()V
 

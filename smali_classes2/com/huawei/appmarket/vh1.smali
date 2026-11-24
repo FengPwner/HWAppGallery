@@ -3,31 +3,35 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/mq3$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/mq3$a<",
+        "Lcom/huawei/appgallery/forum/operation/https/JGWCommentDeleteRequest;",
+        "Lcom/huawei/appmarket/hl4;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields
-.field final synthetic b:Landroid/content/Context;
+.field final synthetic a:Landroid/content/Context;
 
-.field final synthetic c:Lcom/huawei/appmarket/ph1;
-
-.field final synthetic d:Lcom/huawei/appmarket/nv7;
-
-.field final synthetic e:Lcom/huawei/appmarket/uh1;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/uh1;Landroid/content/Context;Lcom/huawei/appmarket/ph1;Lcom/huawei/appmarket/nv7;)V
-    .registers 5
+.method constructor <init>(Lcom/huawei/appmarket/th1;Landroid/content/Context;Lcom/huawei/appmarket/tv7;)V
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/vh1;->e:Lcom/huawei/appmarket/uh1;
+    iput-object p2, p0, Lcom/huawei/appmarket/vh1;->a:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/vh1;->b:Landroid/content/Context;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/vh1;->c:Lcom/huawei/appmarket/ph1;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/vh1;->d:Lcom/huawei/appmarket/nv7;
+    iput-object p3, p0, Lcom/huawei/appmarket/vh1;->b:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,171 +40,163 @@
 
 
 # virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 7
+.method public final a(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 5
 
     .line 1
-    const/4 p1, -0x1
+    check-cast p1, Lcom/huawei/appgallery/forum/operation/https/JGWCommentDeleteRequest;
 
     .line 2
-    if-ne p1, p3, :cond_0
-
     .line 3
+    check-cast p2, Lcom/huawei/appmarket/hl4;
+
     .line 4
-    iget-object p1, p0, Lcom/huawei/appmarket/vh1;->e:Lcom/huawei/appmarket/uh1;
-
     .line 5
-    .line 6
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object p1, p0, Lcom/huawei/appmarket/vh1;->b:Lcom/huawei/appmarket/tv7;
 
+    .line 6
     .line 7
+    iget-object v0, p0, Lcom/huawei/appmarket/vh1;->a:Landroid/content/Context;
+
     .line 8
     .line 9
-    new-instance p2, Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest$a;
+    if-nez p2, :cond_0
 
     .line 10
     .line 11
-    iget-object p3, p0, Lcom/huawei/appmarket/vh1;->c:Lcom/huawei/appmarket/ph1;
+    const p2, 0x7f120712
 
     .line 12
     .line 13
-    invoke-virtual {p3}, Lcom/huawei/appmarket/ph1;->f()J
-
     .line 14
+    :goto_0
+    invoke-virtual {v0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
     .line 15
     .line 16
-    move-result-wide v0
-
     .line 17
-    invoke-direct {p2, v0, v1}, Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest$a;-><init>(J)V
+    move-result-object p2
 
     .line 18
+    invoke-static {p2}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
+
     .line 19
     .line 20
-    invoke-virtual {p2}, Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest$a;->b()V
-
     .line 21
+    sget-object p2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
     .line 22
     .line 23
-    invoke-virtual {p3}, Lcom/huawei/appmarket/ar5;->c()Ljava/lang/String;
+    :goto_1
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 24
     .line 25
     .line 26
-    move-result-object v0
+    goto :goto_2
 
     .line 27
-    invoke-static {v0}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    :cond_0
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
 
     .line 28
     .line 29
     .line 30
-    move-result-object v0
+    move-result v1
 
     .line 31
-    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest$a;->c(Lcom/huawei/appmarket/p71;)V
+    if-nez v1, :cond_1
 
     .line 32
     .line 33
-    .line 34
-    invoke-virtual {p2}, Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest$a;->a()Lcom/huawei/appgallery/forum/operation/https/JGWPostDeleteRequest;
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
 
+    .line 34
     .line 35
     .line 36
+    move-result v1
+
     .line 37
-    move-result-object p2
+    if-nez v1, :cond_1
 
     .line 38
-    invoke-virtual {p3}, Lcom/huawei/appmarket/ar5;->a()Ljava/lang/String;
-
     .line 39
+    const p2, 0x7f1206f2
+
     .line 40
     .line 41
-    move-result-object v0
-
     .line 42
-    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/forum/base/api/request/JGWHttpsReq;->U(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p3}, Lcom/huawei/appmarket/ar5;->b()Ljava/lang/String;
+    move-result-object p2
 
     .line 46
+    invoke-static {p2}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
+
     .line 47
     .line 48
-    move-result-object p3
-
     .line 49
-    invoke-virtual {p2, p3}, Lcom/huawei/appgallery/forum/base/api/request/JGWHttpsReq;->setDetailId_(Ljava/lang/String;)V
+    sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 50
     .line 51
+    goto :goto_1
+
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    :cond_1
+    sget-object v1, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 53
     .line 54
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
     .line 55
-    move-result-object p3
-
     .line 56
-    const-string v0, "Base"
-
     .line 57
+    move-result p2
+
     .line 58
-    check-cast p3, Lcom/huawei/appmarket/dr6;
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 59
     .line 60
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
-
     .line 61
+    move-result-object p2
+
     .line 62
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zo2;->c()I
+
     .line 63
-    move-result-object p3
-
     .line 64
-    const-class v0, Lcom/huawei/appmarket/kq3;
-
     .line 65
+    move-result p2
+
     .line 66
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    goto :goto_0
 
     .line 67
+    :goto_2
+    return-void
     .line 68
     .line 69
-    move-result-object p3
-
     .line 70
-    check-cast p3, Lcom/huawei/appmarket/kq3;
-
     .line 71
     .line 72
-    new-instance v0, Lcom/huawei/appmarket/wh1;
-
     .line 73
     .line 74
-    iget-object v1, p0, Lcom/huawei/appmarket/vh1;->b:Landroid/content/Context;
-
     .line 75
     .line 76
-    iget-object v2, p0, Lcom/huawei/appmarket/vh1;->d:Lcom/huawei/appmarket/nv7;
-
     .line 77
     .line 78
-    invoke-direct {v0, p1, v1, v2}, Lcom/huawei/appmarket/wh1;-><init>(Lcom/huawei/appmarket/uh1;Landroid/content/Context;Lcom/huawei/appmarket/nv7;)V
-
     .line 79
     .line 80
     .line 81
-    invoke-interface {p3, p2, v0}, Lcom/huawei/appmarket/kq3;->a(Ljava/lang/Object;Lcom/huawei/appmarket/kq3$a;)V
-
     .line 82
     .line 83
     .line 84
-    :cond_0
-    return-void
     .line 85
     .line 86
     .line 87
@@ -280,161 +276,15 @@
     .line 161
     .line 162
     .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
+.end method
+
+.method public final bridge synthetic b(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+
+    .line 1
+    check-cast p1, Lcom/huawei/appgallery/forum/operation/https/JGWCommentDeleteRequest;
+
+    check-cast p2, Lcom/huawei/appmarket/hl4;
+
+    return-void
 .end method

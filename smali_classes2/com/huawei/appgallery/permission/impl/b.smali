@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -112,7 +112,7 @@
 
     .line 42
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/vy5;->a:Lcom/huawei/appmarket/vy5;
+    sget-object p1, Lcom/huawei/appmarket/xy5;->a:Lcom/huawei/appmarket/xy5;
 
     .line 43
     .line 44
@@ -124,7 +124,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50

@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -18,36 +18,36 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/tt3;
+.field private final b:Lcom/huawei/appmarket/vt3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/tt3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/vt3;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/l;->b:Lcom/huawei/appmarket/tt3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/l;->b:Lcom/huawei/appmarket/vt3;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 2
     .line 3
@@ -59,7 +59,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -71,7 +71,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -118,7 +118,7 @@
 
     .line 33
     .line 34
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/bu0;->u(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kb1;->x(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 35
     .line 36
@@ -127,7 +127,7 @@
 
     .line 38
     .line 39
-    iget-object p1, p0, Lcom/huawei/appmarket/service/webview/js/l;->b:Lcom/huawei/appmarket/tt3;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/webview/js/l;->b:Lcom/huawei/appmarket/vt3;
 
     .line 40
     .line 41
@@ -135,7 +135,7 @@
 
     .line 42
     .line 43
-    invoke-interface {p1}, Lcom/huawei/appmarket/tt3;->g()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/vt3;->g()V
 
     .line 44
     .line 45
@@ -210,5 +210,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

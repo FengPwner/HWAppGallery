@@ -5317,6 +5317,7 @@
     <item type="id" name="title_scan" />
     <item type="id" name="title_scan_level_two" />
     <item type="id" name="title_split" />
+    <item type="id" name="title_status_bar" />
     <item type="id" name="title_template" />
     <item type="id" name="title_text" />
     <item type="id" name="title_text_kind" />

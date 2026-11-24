@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wl5;
+.implements Lcom/huawei/appmarket/yl5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/wl5<",
+        "Lcom/huawei/appmarket/yl5<",
         "Ljava/lang/Object;",
         ">;"
     }

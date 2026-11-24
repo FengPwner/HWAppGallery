@@ -61,7 +61,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/h;->a:Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;
 
-    const v0, 0x7f0a189b
+    const v0, 0x7f0a189c
 
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 

@@ -13,7 +13,7 @@
 
     const-string v0, "com.huawei.scanner.view.ScannerActivity"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/by6;->getAction(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/fy6;->getAction(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

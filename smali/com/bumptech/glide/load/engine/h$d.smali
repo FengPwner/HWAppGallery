@@ -24,12 +24,12 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/sq4;
+.field private a:Lcom/huawei/appmarket/vq4;
 
-.field private b:Lcom/huawei/appmarket/iu6;
+.field private b:Lcom/huawei/appmarket/mu6;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/iu6<",
+            "Lcom/huawei/appmarket/mu6<",
             "TZ;>;"
         }
     .end annotation
@@ -62,16 +62,16 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/sq4;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/vq4;
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/iu6;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/mu6;
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     return-void
 .end method
 
-.method final b(Lcom/bumptech/glide/load/engine/h$e;Lcom/huawei/appmarket/tr5;)V
+.method final b(Lcom/bumptech/glide/load/engine/h$e;Lcom/huawei/appmarket/vr5;)V
     .registers 7
 
     .line 1
@@ -82,17 +82,17 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/sq4;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/vq4;
 
     new-instance v1, Lcom/bumptech/glide/load/engine/e;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/iu6;
+    iget-object v2, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/mu6;
 
     iget-object v3, p0, Lcom/bumptech/glide/load/engine/h$d;->c:Lcom/bumptech/glide/load/engine/r;
 
-    invoke-direct {v1, v2, v3, p2}, Lcom/bumptech/glide/load/engine/e;-><init>(Lcom/huawei/appmarket/w02;Ljava/lang/Object;Lcom/huawei/appmarket/tr5;)V
+    invoke-direct {v1, v2, v3, p2}, Lcom/bumptech/glide/load/engine/e;-><init>(Lcom/huawei/appmarket/a12;Ljava/lang/Object;Lcom/huawei/appmarket/vr5;)V
 
-    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/engine/cache/a;->a(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
+    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/engine/cache/a;->a(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -131,15 +131,15 @@
     return v0
 .end method
 
-.method final d(Lcom/huawei/appmarket/sq4;Lcom/huawei/appmarket/iu6;Lcom/bumptech/glide/load/engine/r;)V
+.method final d(Lcom/huawei/appmarket/vq4;Lcom/huawei/appmarket/mu6;Lcom/bumptech/glide/load/engine/r;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<X:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/huawei/appmarket/sq4;",
-            "Lcom/huawei/appmarket/iu6<",
+            "Lcom/huawei/appmarket/vq4;",
+            "Lcom/huawei/appmarket/mu6<",
             "TX;>;",
             "Lcom/bumptech/glide/load/engine/r<",
             "TX;>;)V"
@@ -147,9 +147,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/sq4;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/h$d;->a:Lcom/huawei/appmarket/vq4;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/iu6;
+    iput-object p2, p0, Lcom/bumptech/glide/load/engine/h$d;->b:Lcom/huawei/appmarket/mu6;
 
     iput-object p3, p0, Lcom/bumptech/glide/load/engine/h$d;->c:Lcom/bumptech/glide/load/engine/r;
 

@@ -36,7 +36,7 @@
     .end annotation
 .end method
 
-.method public abstract e(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/google/android/material/datepicker/CalendarConstraints;Lcom/huawei/appmarket/gp5;)Landroid/view/View;
+.method public abstract e(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/google/android/material/datepicker/CalendarConstraints;Lcom/huawei/appmarket/hp5;)Landroid/view/View;
 .end method
 
 .method public abstract f(Landroid/content/Context;)I

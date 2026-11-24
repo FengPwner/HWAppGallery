@@ -8,7 +8,7 @@
 
 .field private B:Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCardBean;
 
-.field private C:Lcom/huawei/appmarket/zn6;
+.field private C:Lcom/huawei/appmarket/co6;
 
 .field private D:Z
 
@@ -27,7 +27,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/zn6;
+    iput-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/co6;
 
     const/4 p1, 0x0
 
@@ -79,7 +79,7 @@
     move-result-object p1
 
     .line 22
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 23
     .line 24
@@ -164,7 +164,7 @@
 
     .line 63
     .line 64
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 65
     .line 66
@@ -266,7 +266,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic B1(Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;)Landroid/content/Context;
@@ -464,7 +463,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic y1(Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;)Z
@@ -512,24 +510,24 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->D1(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/zn6;
+    iget-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/co6;
 
     if-nez p1, :cond_1
 
-    new-instance p1, Lcom/huawei/appmarket/zn6;
+    new-instance p1, Lcom/huawei/appmarket/co6;
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->B:Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCardBean;
 
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/zn6;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCardBean;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/co6;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCardBean;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/zn6;
+    iput-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/co6;
 
     :cond_1
     iget-object p1, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->y:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/zn6;
+    iget-object v0, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->C:Lcom/huawei/appmarket/co6;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
 
@@ -573,9 +571,9 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
-    const v0, 0x7f0a1705
+    const v0, 0x7f0a1706
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -649,7 +647,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/remotedevice/card/remotedeviceappdetailcard/RemoteDeviceAppDetailCard;->y:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v3, Lcom/huawei/appmarket/ii7;
+    new-instance v3, Lcom/huawei/appmarket/oi7;
 
     iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -657,7 +655,7 @@
 
     const/4 v5, 0x0
 
-    invoke-direct {v3, v4, v0, v5}, Lcom/huawei/appmarket/ii7;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v3, v4, v0, v5}, Lcom/huawei/appmarket/oi7;-><init>(Landroid/content/Context;IZ)V
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$o;)V
 

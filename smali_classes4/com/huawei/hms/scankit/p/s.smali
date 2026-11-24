@@ -693,7 +693,7 @@
 
     const/16 v2, 0x1f
 
-    invoke-static {v0, v1, v0, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v0, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result v0
 

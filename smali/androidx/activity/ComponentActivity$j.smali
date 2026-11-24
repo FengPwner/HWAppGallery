@@ -179,9 +179,9 @@
 
     iput-object v0, p0, Landroidx/activity/ComponentActivity$j;->c:Ljava/lang/Runnable;
 
-    iget-object v0, v2, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Lcom/huawei/appmarket/ms2;
+    iget-object v0, v2, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Lcom/huawei/appmarket/ps2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ms2;->b()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ps2;->b()Z
 
     move-result v0
 

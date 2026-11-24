@@ -31,7 +31,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;->a(Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;)Lcom/huawei/appmarket/tp5;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;->a(Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;)Lcom/huawei/appmarket/up5;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;->a(Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;)Lcom/huawei/appmarket/tp5;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;->a(Lcom/huawei/appgallery/forum/option/post/view/PostVoteView;)Lcom/huawei/appmarket/up5;
 
     .line 10
     .line 11
@@ -97,7 +97,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/forum/option/post/view/VoteDeleteDialog;->a(Lcom/huawei/appmarket/ao5;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/forum/option/post/view/VoteDeleteDialog;->a(Lcom/huawei/appmarket/bo5;)V
 
     .line 38
     .line 39
@@ -172,5 +172,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

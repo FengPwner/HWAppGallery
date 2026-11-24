@@ -104,17 +104,17 @@
 
     invoke-static {p3, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ur4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
+    invoke-static {p3}, Lcom/huawei/appmarket/xr4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
 
     move-result-object p1
 
     iput-object p1, p0, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor;->readLockSupplier:Ljava/util/function/Supplier;
 
-    const-string p1, "writeLockSupplier"
+    const-string/jumbo p1, "writeLockSupplier"
 
     invoke-static {p4, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {p4}, Lcom/huawei/appmarket/ur4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
+    invoke-static {p4}, Lcom/huawei/appmarket/xr4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
 
     move-result-object p1
 
@@ -162,7 +162,7 @@
 
     invoke-static {v0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ur4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
+    invoke-static {v0}, Lcom/huawei/appmarket/xr4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
 
     move-result-object v0
 
@@ -172,11 +172,11 @@
 
     move-result-object p1
 
-    const-string v0, "writeLockSupplier"
+    const-string/jumbo v0, "writeLockSupplier"
 
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ur4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
+    invoke-static {p1}, Lcom/huawei/appmarket/xr4;->q(Ljava/lang/Object;)Ljava/util/function/Supplier;
 
     move-result-object p1
 

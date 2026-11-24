@@ -4,28 +4,28 @@
 
 
 # instance fields
-.field protected a:Lcom/huawei/appmarket/ad6;
+.field protected a:Lcom/huawei/appmarket/cd6;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/ad6;)V
+.method public constructor <init>(Lcom/huawei/appmarket/cd6;)V
     .registers 3
 
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/z20;-><init>(Lcom/huawei/appmarket/o19;Lcom/huawei/appmarket/ad6;)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/z20;-><init>(Lcom/huawei/appmarket/u19;Lcom/huawei/appmarket/cd6;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/o19;Lcom/huawei/appmarket/ad6;)V
+.method public constructor <init>(Lcom/huawei/appmarket/u19;Lcom/huawei/appmarket/cd6;)V
     .registers 3
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/z20;->a:Lcom/huawei/appmarket/ad6;
+    iput-object p2, p0, Lcom/huawei/appmarket/z20;->a:Lcom/huawei/appmarket/cd6;
 
     return-void
 .end method
@@ -95,7 +95,7 @@
 
     const-string v0, "startAssistActivity exception"
 
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/dz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -148,7 +148,7 @@
     :goto_1
     const-string v3, "setActivityIntent security catch exception"
 
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/dz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_2
     invoke-virtual {p0}, Landroid/app/Activity;->getRequestedOrientation()I
@@ -174,7 +174,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -214,7 +214,7 @@
     :goto_4
     const-string p1, "setActivityIntent create pendingIntent exception"
 
-    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/dz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_5
     return-void
@@ -268,7 +268,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/dz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 22
     .line 23
@@ -523,10 +523,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
@@ -534,337 +530,659 @@
 .method protected final b()Ljava/lang/String;
     .registers 12
 
+    .line 1
     const-string v0, "format"
 
+    .line 2
+    .line 3
     const-string v1, "json"
 
-    .line 1
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->c(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/kd0;->d(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 
+    .line 6
+    .line 7
+    .line 8
     move-result-object v0
 
+    .line 9
     const-string v1, "status_os"
 
-    .line 2
+    .line 10
+    .line 11
     sget-object v2, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
+    .line 12
+    .line 13
     invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/n79;->a()Lcom/huawei/appmarket/n79;
+    .line 14
+    .line 15
+    .line 16
+    invoke-static {}, Lcom/huawei/appmarket/t79;->a()Lcom/huawei/appmarket/t79;
 
+    .line 17
+    .line 18
+    .line 19
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/n79;->f()Ljava/lang/String;
+    .line 20
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t79;->f()Ljava/lang/String;
 
+    .line 21
+    .line 22
+    .line 23
     move-result-object v1
 
+    .line 24
     const-string v2, "status_machine"
 
+    .line 25
+    .line 26
     invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 27
+    .line 28
+    .line 29
     const-string v1, "status_version"
 
+    .line 30
+    .line 31
     sget-object v2, Landroid/os/Build$VERSION;->SDK:Ljava/lang/String;
 
+    .line 32
+    .line 33
     invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 34
+    .line 35
+    .line 36
     const-string v1, "sdkv"
 
+    .line 37
+    .line 38
     const-string v2, "3.5.18.lite"
 
+    .line 39
+    .line 40
     invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 41
+    .line 42
+    .line 43
     const-string v1, "sdkp"
 
+    .line 44
+    .line 45
     const-string v2, "a"
 
+    .line 46
+    .line 47
     invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/z20;->a:Lcom/huawei/appmarket/ad6;
+    .line 48
+    .line 49
+    .line 50
+    iget-object v1, p0, Lcom/huawei/appmarket/z20;->a:Lcom/huawei/appmarket/cd6;
 
+    .line 51
+    .line 52
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ad6;->l()Z
+    .line 53
+    .line 54
+    invoke-virtual {v1}, Lcom/huawei/appmarket/cd6;->l()Z
 
+    .line 55
+    .line 56
+    .line 57
     move-result v2
 
+    .line 58
     if-eqz v2, :cond_0
 
+    .line 59
+    .line 60
     const-string v2, "access_token"
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ad6;->h()Ljava/lang/String;
+    .line 61
+    .line 62
+    invoke-virtual {v1}, Lcom/huawei/appmarket/cd6;->h()Ljava/lang/String;
 
+    .line 63
+    .line 64
+    .line 65
     move-result-object v3
 
+    .line 66
     invoke-virtual {v0, v2, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 67
+    .line 68
+    .line 69
     const-string v2, "oauth_consumer_key"
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ad6;->i()Ljava/lang/String;
+    .line 70
+    .line 71
+    invoke-virtual {v1}, Lcom/huawei/appmarket/cd6;->i()Ljava/lang/String;
 
+    .line 72
+    .line 73
+    .line 74
     move-result-object v3
 
+    .line 75
     invoke-virtual {v0, v2, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 76
+    .line 77
+    .line 78
     const-string v2, "openid"
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ad6;->j()Ljava/lang/String;
+    .line 79
+    .line 80
+    invoke-virtual {v1}, Lcom/huawei/appmarket/cd6;->j()Ljava/lang/String;
 
+    .line 81
+    .line 82
+    .line 83
     move-result-object v1
 
+    .line 84
     invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 85
+    .line 86
+    .line 87
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/sz8;->u()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/yz8;->u()Landroid/content/Context;
 
+    .line 88
+    .line 89
+    .line 90
     move-result-object v1
 
+    .line 91
     const-string v2, "pfStore"
 
+    .line 92
+    .line 93
     const/4 v3, 0x0
 
+    .line 94
     invoke-virtual {v1, v2, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
+    .line 95
+    .line 96
+    .line 97
     move-result-object v1
 
+    .line 98
     const-string v2, "openmobile_android"
 
+    .line 99
+    .line 100
     const-string v4, "pf"
 
+    .line 101
+    .line 102
     invoke-interface {v1, v4, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
+    .line 103
+    .line 104
+    .line 105
     move-result-object v1
 
+    .line 106
     invoke-virtual {v0, v4, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
+    .line 107
+    .line 108
+    .line 109
     new-instance v1, Ljava/lang/StringBuilder;
 
+    .line 110
+    .line 111
     const-string v2, "https://openmobile.qq.com/oauth2.0/m_jump_by_version?"
 
+    .line 112
+    .line 113
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 114
+    .line 115
+    .line 116
     const-string v2, ""
 
+    .line 117
+    .line 118
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
+    .line 119
+    .line 120
+    .line 121
     move-result v4
 
+    .line 122
     if-nez v4, :cond_1
 
+    .line 123
+    .line 124
     const-string v4, "need_version"
 
+    .line 125
+    .line 126
     invoke-virtual {v0, v4, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
+    .line 127
+    .line 128
+    .line 129
     :cond_1
     new-instance v4, Ljava/util/HashMap;
 
+    .line 130
+    .line 131
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
+    .line 132
+    .line 133
+    .line 134
     invoke-virtual {v0}, Landroid/os/BaseBundle;->size()I
 
+    .line 135
+    .line 136
+    .line 137
     move-result v5
 
+    .line 138
     if-nez v5, :cond_2
 
+    .line 139
+    .line 140
     goto :goto_3
 
+    .line 141
     :cond_2
     invoke-virtual {v0}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
 
+    .line 142
+    .line 143
+    .line 144
     move-result-object v5
 
+    .line 145
     invoke-interface {v5}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
+    .line 146
+    .line 147
+    .line 148
     move-result-object v5
 
+    .line 149
     :goto_0
     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
 
+    .line 150
+    .line 151
+    .line 152
     move-result v6
 
+    .line 153
     if-eqz v6, :cond_7
 
+    .line 154
+    .line 155
     invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
+    .line 156
+    .line 157
+    .line 158
     move-result-object v6
 
+    .line 159
     check-cast v6, Ljava/lang/String;
 
+    .line 160
+    .line 161
     invoke-virtual {v0, v6}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
+    .line 162
+    .line 163
+    .line 164
     move-result-object v7
 
+    .line 165
     instance-of v8, v7, Ljava/lang/String;
 
+    .line 166
+    .line 167
     if-nez v8, :cond_3
 
+    .line 168
+    .line 169
     instance-of v8, v7, [Ljava/lang/String;
 
+    .line 170
+    .line 171
     if-nez v8, :cond_3
 
+    .line 172
+    .line 173
     new-instance v6, Ljava/lang/StringBuilder;
 
+    .line 174
+    .line 175
     const-string v8, "parseBundleToMap: the type "
 
+    .line 176
+    .line 177
     invoke-direct {v6, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 178
+    .line 179
+    .line 180
     invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
+    .line 181
+    .line 182
+    .line 183
     move-result-object v7
 
+    .line 184
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
+    .line 185
+    .line 186
+    .line 187
     const-string v7, " is unsupported"
 
+    .line 188
+    .line 189
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 190
+    .line 191
+    .line 192
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 193
+    .line 194
+    .line 195
     move-result-object v6
 
+    .line 196
     const-string v7, "openSDK_LOG.HttpUtils"
 
-    invoke-static {v7, v6}, Lcom/huawei/appmarket/dz6;->j(Ljava/lang/String;Ljava/lang/String;)V
+    .line 197
+    .line 198
+    invoke-static {v7, v6}, Lcom/huawei/appmarket/hz6;->j(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 199
+    .line 200
+    .line 201
     goto :goto_0
 
+    .line 202
     :cond_3
     instance-of v8, v7, [Ljava/lang/String;
 
+    .line 203
+    .line 204
     if-eqz v8, :cond_6
 
+    .line 205
+    .line 206
     check-cast v7, [Ljava/lang/String;
 
+    .line 207
+    .line 208
     new-instance v8, Ljava/lang/StringBuilder;
 
+    .line 209
+    .line 210
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
+    .line 211
+    .line 212
+    .line 213
     const/4 v9, 0x0
 
+    .line 214
     :goto_1
     array-length v10, v7
 
+    .line 215
     if-ge v9, v10, :cond_5
 
+    .line 216
+    .line 217
     if-eqz v9, :cond_4
 
+    .line 218
+    .line 219
     const-string v10, ","
 
+    .line 220
+    .line 221
     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 222
+    .line 223
+    .line 224
     :cond_4
     aget-object v10, v7, v9
 
+    .line 225
+    .line 226
     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 227
+    .line 228
+    .line 229
     add-int/lit8 v9, v9, 0x1
 
+    .line 230
+    .line 231
     goto :goto_1
 
+    .line 232
     :cond_5
     invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 233
+    .line 234
+    .line 235
     move-result-object v7
 
+    .line 236
     :goto_2
     invoke-virtual {v4, v6, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 237
+    .line 238
+    .line 239
     goto :goto_0
 
+    .line 240
     :cond_6
     check-cast v7, Ljava/lang/String;
 
+    .line 241
+    .line 242
     goto :goto_2
 
-    .line 5
+    .line 243
     :cond_7
     :goto_3
     invoke-virtual {v4}, Ljava/util/HashMap;->size()I
 
+    .line 244
+    .line 245
+    .line 246
     move-result v0
 
+    .line 247
     if-nez v0, :cond_8
 
+    .line 248
+    .line 249
     goto :goto_6
 
+    .line 250
     :cond_8
     new-instance v0, Ljava/lang/StringBuilder;
 
+    .line 251
+    .line 252
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
+    .line 253
+    .line 254
+    .line 255
     invoke-virtual {v4}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
+    .line 256
+    .line 257
+    .line 258
     move-result-object v2
 
+    .line 259
     invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
+    .line 260
+    .line 261
+    .line 262
     move-result-object v2
 
+    .line 263
     const/4 v5, 0x1
 
+    .line 264
     :goto_4
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
+    .line 265
+    .line 266
+    .line 267
     move-result v6
 
+    .line 268
     if-eqz v6, :cond_a
 
+    .line 269
+    .line 270
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
+    .line 271
+    .line 272
+    .line 273
     move-result-object v6
 
+    .line 274
     check-cast v6, Ljava/lang/String;
 
+    .line 275
+    .line 276
     if-eqz v5, :cond_9
 
+    .line 277
+    .line 278
     const/4 v5, 0x0
 
+    .line 279
     goto :goto_5
 
+    .line 280
     :cond_9
     const-string v7, "&"
 
+    .line 281
+    .line 282
     invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 283
+    .line 284
+    .line 285
     :goto_5
     invoke-static {v6}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;)Ljava/lang/String;
 
+    .line 286
+    .line 287
+    .line 288
     move-result-object v7
 
+    .line 289
     invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 290
+    .line 291
+    .line 292
     const-string v7, "="
 
+    .line 293
+    .line 294
     invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 295
+    .line 296
+    .line 297
     invoke-virtual {v4, v6}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 298
+    .line 299
+    .line 300
     move-result-object v6
 
+    .line 301
     check-cast v6, Ljava/lang/String;
 
+    .line 302
+    .line 303
     invoke-static {v6}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;)Ljava/lang/String;
 
+    .line 304
+    .line 305
+    .line 306
     move-result-object v6
 
+    .line 307
     invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 308
+    .line 309
+    .line 310
     goto :goto_4
 
+    .line 311
     :cond_a
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 312
+    .line 313
+    .line 314
     move-result-object v2
 
-    .line 6
+    .line 315
     :goto_6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 316
+    .line 317
+    .line 318
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 319
+    .line 320
+    .line 321
     move-result-object v0
 
+    .line 322
     return-object v0
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

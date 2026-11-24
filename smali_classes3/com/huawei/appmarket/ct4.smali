@@ -1,97 +1,28 @@
-.class public abstract Lcom/huawei/appmarket/ct4;
+.class public interface abstract Lcom/huawei/appmarket/ct4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
+        Lcom/huawei/appmarket/ct4$a;
     }
 .end annotation
 
 
-# instance fields
-.field private volatile a:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-.end field
-
-
-# direct methods
-.method public constructor <init>()V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/ct4;->a:Ljava/lang/Object;
-
-    return-void
-.end method
-
-
 # virtual methods
-.method protected abstract a()Lcom/huawei/appmarket/x04;
+.method public abstract c(Lcom/huawei/appmarket/xc2;)V
 .end method
 
-.method public final b()Ljava/lang/Object;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
+.method public abstract d()V
+.end method
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ct4;->a:Ljava/lang/Object;
+.method public abstract e()Lcom/huawei/appmarket/ct4$a;
+.end method
 
-    if-nez v0, :cond_1
+.method public abstract getView()Landroid/view/View;
+.end method
 
-    monitor-enter p0
-
-    :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/ct4;->a:Ljava/lang/Object;
-
-    if-nez v0, :cond_0
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ct4;->a()Lcom/huawei/appmarket/x04;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/ct4;->a:Ljava/lang/Object;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v0
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    goto :goto_2
-
-    :goto_1
-    monitor-exit p0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v0
-
-    :cond_1
-    :goto_2
-    iget-object v0, p0, Lcom/huawei/appmarket/ct4;->a:Ljava/lang/Object;
-
-    return-object v0
+.method public abstract requestDataChanged(Lcom/huawei/appmarket/ya2;)V
 .end method

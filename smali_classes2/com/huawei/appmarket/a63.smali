@@ -1,58 +1,132 @@
-.class public final Lcom/huawei/appmarket/a63;
-.super Ljava/lang/Object;
+.class public final enum Lcom/huawei/appmarket/a63;
+.super Ljava/lang/Enum;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/huawei/appmarket/a63;",
+        ">;"
+    }
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+# static fields
+.field public static final enum b:Lcom/huawei/appmarket/a63;
+
+.field public static final enum c:Lcom/huawei/appmarket/a63;
+
+.field public static final enum d:Lcom/huawei/appmarket/a63;
+
+.field public static final enum e:Lcom/huawei/appmarket/a63;
+
+.field private static final synthetic f:[Lcom/huawei/appmarket/a63;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 9
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/a63;
+
+    const-string v1, "READ_RISK"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/a63;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/huawei/appmarket/a63;->b:Lcom/huawei/appmarket/a63;
+
+    new-instance v1, Lcom/huawei/appmarket/a63;
+
+    const-string v3, "CONTINUE_INSTALL"
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v3, v4}, Lcom/huawei/appmarket/a63;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lcom/huawei/appmarket/a63;->c:Lcom/huawei/appmarket/a63;
+
+    new-instance v3, Lcom/huawei/appmarket/a63;
+
+    const-string v5, "INSTALLING"
+
+    const/4 v6, 0x2
+
+    invoke-direct {v3, v5, v6}, Lcom/huawei/appmarket/a63;-><init>(Ljava/lang/String;I)V
+
+    sput-object v3, Lcom/huawei/appmarket/a63;->d:Lcom/huawei/appmarket/a63;
+
+    new-instance v5, Lcom/huawei/appmarket/a63;
+
+    const-string v7, "OPEN_APP"
+
+    const/4 v8, 0x3
+
+    invoke-direct {v5, v7, v8}, Lcom/huawei/appmarket/a63;-><init>(Ljava/lang/String;I)V
+
+    sput-object v5, Lcom/huawei/appmarket/a63;->e:Lcom/huawei/appmarket/a63;
+
+    const/4 v7, 0x4
+
+    new-array v7, v7, [Lcom/huawei/appmarket/a63;
+
+    aput-object v0, v7, v2
+
+    aput-object v1, v7, v4
+
+    aput-object v3, v7, v6
+
+    aput-object v5, v7, v8
+
+    sput-object v7, Lcom/huawei/appmarket/a63;->f:[Lcom/huawei/appmarket/a63;
 
     return-void
 .end method
 
-.method public static a()V
+.method private constructor <init>(Ljava/lang/String;I)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/a63;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/u30;
+    const-class v0, Lcom/huawei/appmarket/a63;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/u30;-><init>()V
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
+    move-result-object p0
 
-    move-result-object v1
+    check-cast p0, Lcom/huawei/appmarket/a63;
 
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getHeadUrl()Ljava/lang/String;
+    return-object p0
+.end method
 
-    move-result-object v1
+.method public static values()[Lcom/huawei/appmarket/a63;
+    .registers 1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->e(Ljava/lang/String;)Ljava/lang/String;
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/a63;->f:[Lcom/huawei/appmarket/a63;
 
-    move-result-object v1
+    invoke-virtual {v0}, [Lcom/huawei/appmarket/a63;->clone()Ljava/lang/Object;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/u30;->f(Ljava/lang/String;)V
+    move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
+    check-cast v0, [Lcom/huawei/appmarket/a63;
 
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "activityUri|info_head"
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/i06;->l(Ljava/lang/String;Lcom/huawei/appmarket/u30;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "activityUri|info_head_title"
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/i06;->l(Ljava/lang/String;Lcom/huawei/appmarket/u30;)V
-
-    return-void
+    return-object v0
 .end method

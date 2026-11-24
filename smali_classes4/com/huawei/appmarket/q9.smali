@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/rr1;
+.field private final a:Lcom/huawei/appmarket/ur1;
 
 .field private final b:Ljavax/net/SocketFactory;
 
@@ -12,7 +12,7 @@
 
 .field private final d:Ljavax/net/ssl/HostnameVerifier;
 
-.field private final e:Lcom/huawei/appmarket/an0;
+.field private final e:Lcom/huawei/appmarket/bn0;
 
 .field private final f:Lcom/huawei/appmarket/h00;
 
@@ -20,13 +20,13 @@
 
 .field private final h:Ljava/net/ProxySelector;
 
-.field private final i:Lcom/huawei/appmarket/id3;
+.field private final i:Lcom/huawei/appmarket/kd3;
 
 .field private final j:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;"
         }
     .end annotation
@@ -44,23 +44,23 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;ILcom/huawei/appmarket/rr1;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lcom/huawei/appmarket/an0;Lcom/huawei/appmarket/h00;Ljava/net/Proxy;Ljava/util/List;Ljava/util/List;Ljava/net/ProxySelector;)V
+.method public constructor <init>(Ljava/lang/String;ILcom/huawei/appmarket/ur1;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lcom/huawei/appmarket/bn0;Lcom/huawei/appmarket/h00;Ljava/net/Proxy;Ljava/util/List;Ljava/util/List;Ljava/net/ProxySelector;)V
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             "I",
-            "Lcom/huawei/appmarket/rr1;",
+            "Lcom/huawei/appmarket/ur1;",
             "Ljavax/net/SocketFactory;",
             "Ljavax/net/ssl/SSLSocketFactory;",
             "Ljavax/net/ssl/HostnameVerifier;",
-            "Lcom/huawei/appmarket/an0;",
+            "Lcom/huawei/appmarket/bn0;",
             "Lcom/huawei/appmarket/h00;",
             "Ljava/net/Proxy;",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;",
             "Ljava/util/List<",
             "Lcom/huawei/appmarket/b01;",
@@ -73,35 +73,35 @@
     .line 1
     const-string v0, "uriHost"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "dns"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "socketFactory"
 
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "proxyAuthenticator"
 
-    invoke-static {p8, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p8, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "protocols"
 
-    invoke-static {p10, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p10, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "connectionSpecs"
 
-    invoke-static {p11, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p11, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "proxySelector"
 
-    invoke-static {p12, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p12, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p3, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/rr1;
+    iput-object p3, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/ur1;
 
     iput-object p4, p0, Lcom/huawei/appmarket/q9;->b:Ljavax/net/SocketFactory;
 
@@ -109,7 +109,7 @@
 
     iput-object p6, p0, Lcom/huawei/appmarket/q9;->d:Ljavax/net/ssl/HostnameVerifier;
 
-    iput-object p7, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/an0;
+    iput-object p7, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/bn0;
 
     iput-object p8, p0, Lcom/huawei/appmarket/q9;->f:Lcom/huawei/appmarket/h00;
 
@@ -117,9 +117,9 @@
 
     iput-object p12, p0, Lcom/huawei/appmarket/q9;->h:Ljava/net/ProxySelector;
 
-    new-instance p3, Lcom/huawei/appmarket/id3$a;
+    new-instance p3, Lcom/huawei/appmarket/kd3$a;
 
-    invoke-direct {p3}, Lcom/huawei/appmarket/id3$a;-><init>()V
+    invoke-direct {p3}, Lcom/huawei/appmarket/kd3$a;-><init>()V
 
     if-eqz p5, :cond_0
 
@@ -131,25 +131,25 @@
     const-string p4, "http"
 
     :goto_0
-    invoke-virtual {p3, p4}, Lcom/huawei/appmarket/id3$a;->k(Ljava/lang/String;)V
+    invoke-virtual {p3, p4}, Lcom/huawei/appmarket/kd3$a;->k(Ljava/lang/String;)V
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/id3$a;->f(Ljava/lang/String;)V
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/kd3$a;->f(Ljava/lang/String;)V
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/id3$a;->i(I)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/kd3$a;->i(I)V
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/id3$a;->c()Lcom/huawei/appmarket/id3;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/kd3$a;->c()Lcom/huawei/appmarket/kd3;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iput-object p1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    invoke-static {p10}, Lcom/huawei/appmarket/le8;->z(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p10}, Lcom/huawei/appmarket/qe8;->z(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/huawei/appmarket/q9;->j:Ljava/util/List;
 
-    invoke-static {p11}, Lcom/huawei/appmarket/le8;->z(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p11}, Lcom/huawei/appmarket/qe8;->z(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -160,11 +160,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/an0;
+.method public final a()Lcom/huawei/appmarket/bn0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/an0;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/bn0;
 
     return-object v0
 .end method
@@ -186,11 +186,11 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/rr1;
+.method public final c()Lcom/huawei/appmarket/ur1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/rr1;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/ur1;
 
     return-object v0
 .end method
@@ -201,13 +201,13 @@
     .line 1
     const-string v0, "that"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/rr1;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/ur1;
 
-    iget-object v1, p1, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/rr1;
+    iget-object v1, p1, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/ur1;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -217,7 +217,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->f:Lcom/huawei/appmarket/h00;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -227,7 +227,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->j:Ljava/util/List;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -237,7 +237,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->k:Ljava/util/List;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -247,7 +247,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->h:Ljava/net/ProxySelector;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -257,7 +257,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->g:Ljava/net/Proxy;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -267,7 +267,7 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->c:Ljavax/net/ssl/SSLSocketFactory;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -277,31 +277,31 @@
 
     iget-object v1, p1, Lcom/huawei/appmarket/q9;->d:Ljavax/net/ssl/HostnameVerifier;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/an0;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/bn0;
 
-    iget-object v1, p1, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/an0;
+    iget-object v1, p1, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/bn0;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3;->j()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kd3;->j()I
 
     move-result v0
 
-    iget-object p1, p1, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object p1, p1, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/id3;->j()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kd3;->j()I
 
     move-result p1
 
@@ -337,11 +337,11 @@
 
     check-cast p1, Lcom/huawei/appmarket/q9;
 
-    iget-object v0, p1, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v0, p1, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -370,7 +370,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;"
         }
     .end annotation
@@ -403,9 +403,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3;->hashCode()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kd3;->hashCode()I
 
     move-result v0
 
@@ -413,7 +413,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v1, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/rr1;
+    iget-object v1, p0, Lcom/huawei/appmarket/q9;->a:Lcom/huawei/appmarket/ur1;
 
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
@@ -493,7 +493,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v1, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/an0;
+    iget-object v1, p0, Lcom/huawei/appmarket/q9;->e:Lcom/huawei/appmarket/bn0;
 
     invoke-static {v1}, Ljava/util/Objects;->hashCode(Ljava/lang/Object;)I
 
@@ -531,11 +531,11 @@
     return-object v0
 .end method
 
-.method public final l()Lcom/huawei/appmarket/id3;
+.method public final l()Lcom/huawei/appmarket/kd3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
     return-object v0
 .end method
@@ -557,11 +557,11 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/id3;
+    iget-object v1, p0, Lcom/huawei/appmarket/q9;->i:Lcom/huawei/appmarket/kd3;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Lcom/huawei/appmarket/id3;->g()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kd3;->g()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -583,7 +583,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v1}, Lcom/huawei/appmarket/id3;->j()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kd3;->j()I
 
     .line 23
     .line 24
@@ -678,7 +678,7 @@
 
     .line 70
     .line 71
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->m(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->n(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -920,4 +920,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

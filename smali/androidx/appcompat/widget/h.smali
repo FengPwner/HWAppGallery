@@ -6,7 +6,7 @@
 # instance fields
 .field private final a:Landroid/widget/EditText;
 
-.field private final b:Lcom/huawei/appmarket/wz1;
+.field private final b:Lcom/huawei/appmarket/a02;
 
 
 # direct methods
@@ -17,13 +17,13 @@
 
     iput-object p1, p0, Landroidx/appcompat/widget/h;->a:Landroid/widget/EditText;
 
-    new-instance v0, Lcom/huawei/appmarket/wz1;
+    new-instance v0, Lcom/huawei/appmarket/a02;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/wz1;-><init>(Landroid/widget/EditText;Z)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/a02;-><init>(Landroid/widget/EditText;Z)V
 
-    iput-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/wz1;
+    iput-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/a02;
 
     return-void
 .end method
@@ -46,11 +46,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/wz1;
+    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/a02;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wz1;->a(Landroid/text/method/KeyListener;)Landroid/text/method/KeyListener;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a02;->a(Landroid/text/method/KeyListener;)Landroid/text/method/KeyListener;
 
     .line 10
     .line 11
@@ -154,7 +154,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/pe6;->j:[I
+    sget-object v1, Lcom/huawei/appmarket/re6;->j:[I
 
     const/4 v2, 0x0
 
@@ -204,9 +204,9 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/wz1;
+    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/a02;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/wz1;->b(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/a02;->b(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
 
     move-result-object p1
 
@@ -217,9 +217,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/wz1;
+    iget-object v0, p0, Landroidx/appcompat/widget/h;->b:Lcom/huawei/appmarket/a02;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wz1;->c(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a02;->c(Z)V
 
     return-void
 .end method

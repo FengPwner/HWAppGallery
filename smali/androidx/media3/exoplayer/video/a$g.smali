@@ -38,7 +38,7 @@
     return-void
 .end method
 
-.method public static a(F)Lcom/huawei/appmarket/yy1;
+.method public static a(F)Lcom/huawei/appmarket/cz1;
     .registers 5
 
     .line 1
@@ -116,7 +116,7 @@
     .line 36
     .line 37
     .line 38
-    check-cast p0, Lcom/huawei/appmarket/yy1;
+    check-cast p0, Lcom/huawei/appmarket/cz1;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

@@ -63,12 +63,12 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -88,7 +88,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->s0()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->s0()V
 
     .line 6
     .line 7
@@ -124,7 +124,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/h58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
+    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/n58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
 
     .line 22
     .line 23
@@ -137,7 +137,7 @@
     .line 26
     .line 27
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -212,12 +212,12 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation
@@ -237,7 +237,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->E()Lcom/huawei/appmarket/tp4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->E()Lcom/huawei/appmarket/wp4;
 
     .line 6
     .line 7
@@ -270,7 +270,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/h58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
+    invoke-virtual {v0, v1, v2}, Lcom/google/gson/Gson;->f(Lcom/huawei/appmarket/n58;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
 
     .line 21
     .line 22
@@ -283,7 +283,7 @@
     .line 25
     .line 26
     :goto_0
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 27
     .line 28

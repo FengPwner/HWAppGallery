@@ -4,8 +4,14 @@
 
 
 # virtual methods
-.method public abstract onReadyOk()V
+.method public abstract a()I
 .end method
 
-.method public abstract onSetResponseDatas(Lcom/huawei/appgallery/oobebase/api/OOBEAppDataBean;)V
+.method public abstract b()V
+.end method
+
+.method public abstract c()I
+.end method
+
+.method public abstract d(Landroid/app/Activity;)V
 .end method

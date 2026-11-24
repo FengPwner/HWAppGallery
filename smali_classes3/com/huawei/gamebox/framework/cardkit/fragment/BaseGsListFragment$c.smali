@@ -91,7 +91,7 @@
 
     const-string v2, "onAccountBusinessResult, account interval too short."
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     monitor-exit v0
 

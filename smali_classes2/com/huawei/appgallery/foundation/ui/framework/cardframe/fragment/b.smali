@@ -44,7 +44,7 @@
     move-result-object p1
 
     .line 9
-    instance-of p1, p1, Lcom/huawei/appmarket/h44;
+    instance-of p1, p1, Lcom/huawei/appmarket/j44;
 
     .line 10
     .line 11
@@ -52,7 +52,7 @@
 
     .line 12
     .line 13
-    iget-boolean p1, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J1:Z
+    iget-boolean p1, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->t1:Z
 
     .line 14
     .line 15
@@ -68,7 +68,7 @@
     move-result-object p1
 
     .line 21
-    check-cast p1, Lcom/huawei/appmarket/h44;
+    check-cast p1, Lcom/huawei/appmarket/j44;
 
     .line 22
     .line 23
@@ -112,7 +112,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v1, p1, v2, v3, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;->k(Lcom/huawei/appmarket/h44;Landroid/view/View;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo$TabTitleSelectColor;Ljava/lang/String;)V
+    invoke-virtual {v1, p1, v2, v3, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;->k(Lcom/huawei/appmarket/j44;Landroid/view/View;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo$TabTitleSelectColor;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -161,7 +161,7 @@
     move-result-object v1
 
     .line 67
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/h44;->t1(Landroid/view/View;)Landroid/view/View;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/j44;->t1(Landroid/view/View;)Landroid/view/View;
 
     .line 68
     .line 69
@@ -189,7 +189,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v2, p1, v1, v3, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;->k(Lcom/huawei/appmarket/h44;Landroid/view/View;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo$TabTitleSelectColor;Ljava/lang/String;)V
+    invoke-virtual {v2, p1, v1, v3, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;->k(Lcom/huawei/appmarket/j44;Landroid/view/View;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo$TabTitleSelectColor;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -221,5 +221,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

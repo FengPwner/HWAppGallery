@@ -24,7 +24,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_0
     invoke-super {p0, p1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignNode;->I(Landroid/view/View;)Lcom/huawei/gamebox/service/welfare/campaign/card/BaseCampaignCard;
@@ -38,13 +38,13 @@
     .registers 4
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/bi0;
+    new-instance p1, Lcom/huawei/appmarket/ci0;
 
     iget-object v0, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
     const/4 v1, 0x0
 
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/bi0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/ci0;-><init>(Landroid/content/Context;Z)V
 
     return-object p1
 .end method

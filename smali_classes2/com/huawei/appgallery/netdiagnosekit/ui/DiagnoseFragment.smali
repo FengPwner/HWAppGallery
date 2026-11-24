@@ -37,7 +37,7 @@
     .end annotation
 .end field
 
-.field private k0:Lcom/huawei/appmarket/eo1;
+.field private k0:Lcom/huawei/appmarket/ho1;
 
 .field private l0:Lcom/huawei/appgallery/netdiagnosekit/api/DiagnoseParam;
 
@@ -178,7 +178,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static f3(Lcom/huawei/appgallery/netdiagnosekit/ui/DiagnoseFragment;Landroid/os/Message;)V
@@ -468,7 +467,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -754,7 +752,7 @@
 
     .line 150
     .line 151
-    const v6, 0x7f0a180a
+    const v6, 0x7f0a180b
 
     .line 152
     .line 153
@@ -775,7 +773,7 @@
 
     .line 161
     .line 162
-    const v6, 0x7f0a169d
+    const v6, 0x7f0a169e
 
     .line 163
     .line 164
@@ -1034,7 +1032,7 @@
 
     .line 297
     .line 298
-    invoke-static {p2}, Lcom/huawei/appmarket/ue8;->b(Lcom/huawei/appgallery/netdiagnosekit/api/DiagnoseParam;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/ze8;->b(Lcom/huawei/appgallery/netdiagnosekit/api/DiagnoseParam;)Z
 
     .line 299
     .line 300
@@ -1076,16 +1074,16 @@
     .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->g2()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/DiagnoseFragment;->k0:Lcom/huawei/appmarket/eo1;
+    iget-object v0, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/DiagnoseFragment;->k0:Lcom/huawei/appmarket/ho1;
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/eo1;->l()V
+    invoke-static {}, Lcom/huawei/appmarket/ho1;->l()V
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/eo1;->h:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/ho1;->h:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ue8;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ze8;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1228,7 +1226,7 @@
     move-result-object v0
 
     .line 48
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/xo8;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/dp8;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -1237,7 +1235,7 @@
 
     .line 52
     :cond_2
-    new-instance p1, Lcom/huawei/appmarket/eo1;
+    new-instance p1, Lcom/huawei/appmarket/ho1;
 
     .line 53
     .line 54
@@ -1254,16 +1252,16 @@
 
     .line 60
     .line 61
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/eo1;-><init>(Landroid/os/Handler;Lcom/huawei/appgallery/netdiagnosekit/api/DiagnoseParam;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/ho1;-><init>(Landroid/os/Handler;Lcom/huawei/appgallery/netdiagnosekit/api/DiagnoseParam;)V
 
     .line 62
     .line 63
     .line 64
-    iput-object p1, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/DiagnoseFragment;->k0:Lcom/huawei/appmarket/eo1;
+    iput-object p1, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/DiagnoseFragment;->k0:Lcom/huawei/appmarket/ho1;
 
     .line 65
     .line 66
-    invoke-virtual {p1}, Lcom/huawei/appmarket/eo1;->k()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ho1;->k()V
 
     .line 67
     .line 68
@@ -1335,7 +1333,7 @@
     move-result p1
 
     .line 103
-    const v0, 0x7f0a180a
+    const v0, 0x7f0a180b
 
     .line 104
     .line 105

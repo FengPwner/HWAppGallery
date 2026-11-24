@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mx3;
+.implements Lcom/huawei/appmarket/ox3;
 
 
 # annotations
@@ -26,7 +26,7 @@
 .field private pinnedType:I
 
 .field private title:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

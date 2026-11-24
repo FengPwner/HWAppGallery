@@ -15,10 +15,10 @@
 
 
 # virtual methods
-.method public abstract K1(Ljava/lang/String;Lcom/huawei/appmarket/rr0;)V
+.method public abstract K1(Ljava/lang/String;Lcom/huawei/appmarket/sr0;)V
 .end method
 
-.method public abstract Z1(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/q74;)V
+.method public abstract Z1(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/t74;)V
 .end method
 
 .method public abstract b2(I)Landroid/os/IBinder;

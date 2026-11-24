@@ -5,7 +5,7 @@
 
 # instance fields
 .field private s:Ljava/lang/Integer;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "interval"
     .end annotation
 .end field

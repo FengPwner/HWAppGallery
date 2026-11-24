@@ -3,23 +3,24 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ym3$a;
-    }
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/fk1;
 .end annotation
 
 
 # virtual methods
-.method public abstract A1(Landroid/app/Activity;IILjava/io/Serializable;Lcom/huawei/appmarket/ym3$a;)V
+.method public abstract A2(Ljava/lang/String;)V
 .end method
 
-.method public abstract P1(Landroid/app/Activity;IILcom/huawei/appmarket/ym3$a;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract E2()I
 .end method
 
-.method public abstract getDomainId()Ljava/lang/String;
+.method public abstract i0()Ljava/lang/String;
+.end method
+
+.method public abstract s2(Ljava/lang/String;Lcom/huawei/appmarket/zm3;)V
 .end method

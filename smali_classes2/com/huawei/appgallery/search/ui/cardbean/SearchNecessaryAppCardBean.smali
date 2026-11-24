@@ -15,7 +15,7 @@
 .field private hasClickInstallAllBtn:Z
 
 .field private list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -61,7 +61,7 @@
     .registers 7
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     move-result v0
 
@@ -71,7 +71,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->k()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->k()Z
 
     move-result v0
 
@@ -82,18 +82,18 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/cardbean/SearchNecessaryAppCardBean;->list:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "filter card for empty list."
 
     :goto_0
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -129,7 +129,7 @@
     goto :goto_1
 
     :cond_3
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -152,7 +152,7 @@
 
     :cond_6
     :goto_3
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "filter card for pad or FoldDevice."
 

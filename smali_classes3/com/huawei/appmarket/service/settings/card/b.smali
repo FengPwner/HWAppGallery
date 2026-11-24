@@ -45,11 +45,11 @@
     invoke-static {v0}, Lcom/huawei/appmarket/service/settings/card/SettingAppSyncCard;->r1(Lcom/huawei/appmarket/service/settings/card/SettingAppSyncCard;)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/wa7;->F(Z)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/bb7;->F(Z)V
 
     return-void
 .end method

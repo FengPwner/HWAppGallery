@@ -25,7 +25,7 @@
 
 .field private destroyed:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-.field private forumMsgDisposable:Lcom/huawei/appmarket/aq1;
+.field private forumMsgDisposable:Lcom/huawei/appmarket/dq1;
 
 .field protected forumMsgLayout:Landroid/widget/RelativeLayout;
 
@@ -67,20 +67,20 @@
     return-object p0
 .end method
 
-.method static synthetic access$200(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;)Lcom/huawei/appmarket/aq1;
+.method static synthetic access$200(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;)Lcom/huawei/appmarket/dq1;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/aq1;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/dq1;
 
     return-object p0
 .end method
 
-.method static synthetic access$202(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;Lcom/huawei/appmarket/aq1;)Lcom/huawei/appmarket/aq1;
+.method static synthetic access$202(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;Lcom/huawei/appmarket/dq1;)Lcom/huawei/appmarket/dq1;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/aq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/dq1;
 
     return-object p1
 .end method
@@ -256,7 +256,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/js4;->a(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ms4;->a(I)V
 
     goto :goto_1
 
@@ -273,7 +273,7 @@
 
     const-string v0, "subscribe error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -319,7 +319,7 @@
 
     const-string v1, "subscribe error"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -340,7 +340,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->setStatusBarAndNavigationBarColor(Landroid/view/View;)V
 
@@ -402,11 +402,11 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->onDestory()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/aq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->forumMsgDisposable:Lcom/huawei/appmarket/dq1;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->destroyed:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -476,12 +476,12 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 9
     .line 10
@@ -493,11 +493,11 @@
 
     .line 13
     .line 14
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 17
     .line 18
@@ -505,11 +505,11 @@
     move-result-object v0
 
     .line 20
-    const-class v1, Lcom/huawei/appmarket/nu3;
+    const-class v1, Lcom/huawei/appmarket/pu3;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -517,7 +517,7 @@
     move-result-object v0
 
     .line 26
-    check-cast v0, Lcom/huawei/appmarket/nu3;
+    check-cast v0, Lcom/huawei/appmarket/pu3;
 
     .line 27
     .line 28
@@ -555,7 +555,7 @@
     move-result-object v1
 
     .line 46
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/nu3;->a(Ljava/lang/String;)Lcom/huawei/appmarket/kw7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/pu3;->a(Ljava/lang/String;)Lcom/huawei/appmarket/qw7;
 
     .line 47
     .line 48
@@ -563,7 +563,7 @@
     move-result-object v0
 
     .line 50
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->uiThread()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->uiThread()Ljava/util/concurrent/Executor;
 
     .line 51
     .line 52
@@ -580,7 +580,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/kw7;->n(Lcom/huawei/appmarket/xm5;Ljava/util/concurrent/Executor;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/qw7;->n(Lcom/huawei/appmarket/ym5;Ljava/util/concurrent/Executor;)V
 
     .line 60
     .line 61

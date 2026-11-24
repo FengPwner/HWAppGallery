@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->w(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->w(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -105,19 +105,19 @@
 
     iget-object p2, p2, Lcom/huawei/appmarket/service/usercenter/userinfo/view/activity/ChooseCountryAdapter$c;->d:Landroid/widget/TextView;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->N(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->N(Landroid/view/View;)V
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->L(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->L(Landroid/view/View;)V
 
     goto :goto_0
 
@@ -146,7 +146,7 @@
 
     move-result v5
 
-    invoke-static {v1, v5, p2}, Lcom/huawei/appmarket/b37;->D(IILandroid/view/View;)V
+    invoke-static {v1, v5, p2}, Lcom/huawei/appmarket/g37;->D(IILandroid/view/View;)V
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
 
     move-result v1
 
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/b37;->F(ILandroid/view/View;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/g37;->F(ILandroid/view/View;)V
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
 
     move-result p2
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b37;->E(ILandroid/view/View;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/g37;->E(ILandroid/view/View;)V
 
     :cond_1
     :goto_0

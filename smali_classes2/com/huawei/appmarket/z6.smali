@@ -16,7 +16,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zl0;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/am0;->a()Z
 
     move-result v0
 
@@ -39,17 +39,32 @@
     return-void
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->t(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->u(Landroid/app/Activity;)Z
 
     move-result v0
 
-    if-nez v0, :cond_1
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
+
+    return-void
+
+    :cond_1
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->t(Landroid/content/Context;)I
+
+    move-result v0
+
+    if-nez v0, :cond_2
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
-    :cond_1
+    :cond_2
     new-instance v1, Landroid/widget/LinearLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -62,7 +77,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/b37;->b(Landroid/content/Context;Z)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/g37;->b(Landroid/content/Context;Z)V
 
     :goto_0
     return-void
@@ -81,19 +96,19 @@
 
     move-result-object p0
 
-    instance-of v2, p0, Lcom/huawei/appmarket/si8;
+    instance-of v2, p0, Lcom/huawei/appmarket/yi8;
 
     if-eqz v2, :cond_0
 
     new-instance v2, Landroidx/lifecycle/y;
 
-    check-cast p0, Lcom/huawei/appmarket/si8;
+    check-cast p0, Lcom/huawei/appmarket/yi8;
 
-    invoke-direct {v2, p0}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v2, p0}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class p0, Lcom/huawei/appgallery/detail/detailbase/view/a;
 
-    invoke-virtual {v2, p0}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v2, p0}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p0
 
@@ -103,7 +118,7 @@
 
     move-result p0
 
-    sget-object v2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -115,18 +130,18 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return p0
 
     :catchall_0
-    sget-object p0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v1, "check show app gallery title error."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const/4 p0, 0x0

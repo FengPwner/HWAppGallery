@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/np4;->values()[Lcom/huawei/appmarket/np4;
+    invoke-static {}, Lcom/huawei/appmarket/qp4;->values()[Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/google/gson/internal/bind/NumberTypeAdapter$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/np4;->j:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->j:Lcom/huawei/appmarket/qp4;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/google/gson/internal/bind/NumberTypeAdapter$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/google/gson/internal/bind/NumberTypeAdapter$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

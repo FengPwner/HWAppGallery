@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->download(Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->refreshMyexchange(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic b:Lorg/json/JSONObject;
+.field final synthetic b:Ljava/lang/String;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
     .registers 3
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->b:Lorg/json/JSONObject;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->b:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,29 +39,17 @@
 
 # virtual methods
 .method public final run()V
-    .registers 4
+    .registers 3
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->isCanInstall()Z
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
-    move-result v1
+    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->b:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$o0;->b:Lorg/json/JSONObject;
+    check-cast v0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    if-eqz v1, :cond_0
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->R(Ljava/lang/String;)V
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$500(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
-
-    goto :goto_0
-
-    :cond_0
-    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$p0;
-
-    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$p0;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->requestWhiteList(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x0;)V
-
-    :goto_0
     return-void
 .end method

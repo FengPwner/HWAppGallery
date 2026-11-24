@@ -214,11 +214,11 @@
 
     .line 80
     .line 81
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 82
     .line 83
-    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -307,11 +307,11 @@
 
     .line 126
     .line 127
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 128
     .line 129
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -332,7 +332,7 @@
 
     .line 138
     .line 139
-    invoke-static {v0}, Lcom/huawei/appmarket/gk2;->c(Ljava/io/File;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ik2;->c(Ljava/io/File;)V
 
     .line 140
     .line 141
@@ -342,7 +342,7 @@
     .line 143
     :cond_7
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 144
     .line 145
@@ -350,7 +350,7 @@
 
     .line 146
     .line 147
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     .line 149

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/k34$a;
+.implements Lcom/huawei/appmarket/m34$a;
 
 
 # annotations
@@ -58,13 +58,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment$b;->a:Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment;
 
-    iget-object v1, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object v1, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
-    sget-object v2, Lcom/huawei/appmarket/wq5;->d:Lcom/huawei/appmarket/wq5;
+    sget-object v2, Lcom/huawei/appmarket/yq5;->d:Lcom/huawei/appmarket/yq5;
 
     iget-object v0, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->l0:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/se7;->B(Lcom/huawei/appmarket/wq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/xe7;->B(Lcom/huawei/appmarket/yq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
 
     return-void
 .end method

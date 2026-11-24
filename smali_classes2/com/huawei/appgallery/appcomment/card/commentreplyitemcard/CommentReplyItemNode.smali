@@ -38,7 +38,7 @@
 
     invoke-direct {p2, v0}, Lcom/huawei/appgallery/appcomment/ui/view/CommentReplyItemView;-><init>(Landroid/content/Context;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/card/commentreplyitemcard/CommentReplyItemCard;
 
@@ -67,7 +67,7 @@
     return p1
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 4
 
     .line 1
@@ -78,12 +78,12 @@
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -236,5 +236,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

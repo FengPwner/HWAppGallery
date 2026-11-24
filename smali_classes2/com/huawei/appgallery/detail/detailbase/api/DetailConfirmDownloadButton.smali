@@ -56,23 +56,23 @@
 
     if-nez v0, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->m:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->m:Lcom/huawei/appmarket/gt1;
 
-    invoke-interface {p1, p0, v0, v1}, Lcom/huawei/appmarket/vj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    invoke-interface {p1, p0, v0, v1}, Lcom/huawei/appmarket/xj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/hm6;
+    instance-of v0, p1, Lcom/huawei/appmarket/km6;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/hm6;
+    check-cast p1, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hm6;->z()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/km6;->z()V
 
     :cond_0
     return-void
@@ -83,23 +83,23 @@
     return-void
 .end method
 
-.method public final refreshStatus()Lcom/huawei/appmarket/dt1;
+.method public final refreshStatus()Lcom/huawei/appmarket/gt1;
     .registers 5
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-super {p0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    instance-of v2, v1, Lcom/huawei/appmarket/hm6;
+    instance-of v2, v1, Lcom/huawei/appmarket/km6;
 
     if-eqz v2, :cond_0
 
-    check-cast v1, Lcom/huawei/appmarket/hm6;
+    check-cast v1, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/hm6;->F()I
+    invoke-interface {v1}, Lcom/huawei/appmarket/km6;->F()I
 
     move-result v1
 
@@ -107,19 +107,19 @@
 
     if-ne v1, v2, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/rd1;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/td1;
 
-    sget-object v2, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v2, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/rd1;->d(Lcom/huawei/appmarket/dt1;)Lcom/huawei/appmarket/eq7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/td1;->d(Lcom/huawei/appmarket/gt1;)Lcom/huawei/appmarket/kq7;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setIsImmersionByStyle(Lcom/huawei/appmarket/eq7;)V
+    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setIsImmersionByStyle(Lcom/huawei/appmarket/kq7;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->resetUpdate()V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/eq7;->a()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kq7;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
@@ -127,13 +127,13 @@
 
     invoke-virtual {p0, v2, v3}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->t(Landroid/graphics/drawable/Drawable;I)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/eq7;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kq7;->c()I
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/eq7;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kq7;->c()I
 
     move-result v1
 
@@ -149,13 +149,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/hm6;
+    instance-of v1, v0, Lcom/huawei/appmarket/km6;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/hm6;
+    check-cast v0, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hm6;->F()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/km6;->F()I
 
     move-result v0
 
@@ -163,9 +163,9 @@
 
     if-ne v0, v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v2, Lcom/huawei/appmarket/dt1;->E:Lcom/huawei/appmarket/dt1;
+    sget-object v2, Lcom/huawei/appmarket/gt1;->E:Lcom/huawei/appmarket/gt1;
 
     if-ne v1, v2, :cond_0
 
@@ -214,19 +214,19 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/hm6;
+    instance-of v1, v0, Lcom/huawei/appmarket/km6;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/hm6;
+    check-cast v0, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hm6;->F()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/km6;->F()I
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v2, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v2, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     if-ne v1, v2, :cond_0
 

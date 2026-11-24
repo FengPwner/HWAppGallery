@@ -109,7 +109,7 @@
     move-result-object v0
 
     .line 35
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 36
     .line 37
@@ -133,7 +133,7 @@
     move-result p1
 
     .line 47
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/s13;->a(ILjava/util/List;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/v13;->a(ILjava/util/List;)V
 
     .line 48
     .line 49
@@ -155,7 +155,7 @@
     .line 55
     .line 56
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -185,7 +185,7 @@
 
     .line 70
     .line 71
-    invoke-static {}, Lcom/huawei/appmarket/gh6;->a()Lcom/huawei/appmarket/gh6;
+    invoke-static {}, Lcom/huawei/appmarket/ih6;->a()Lcom/huawei/appmarket/ih6;
 
     .line 72
     .line 73
@@ -193,7 +193,7 @@
     move-result-object p2
 
     .line 75
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/gh6;->c(Ljava/util/List;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ih6;->c(Ljava/util/List;)V
 
     .line 76
     .line 77
@@ -296,7 +296,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
@@ -352,7 +351,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -360,7 +359,7 @@
 
     const-string v1, "[global]  gradeInfo != null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->V()I
 
@@ -395,9 +394,9 @@
 
     move-result-object p2
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object p2
 

@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity;"
     }
@@ -44,7 +44,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 11
     .line 12
@@ -163,5 +163,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

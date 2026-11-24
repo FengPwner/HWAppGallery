@@ -17,9 +17,46 @@
 
 
 # virtual methods
-.method public final q2(Lcom/huawei/appmarket/bl1;)V
-    .registers 2
+.method public final F1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 4
 
     .line 1
     return-void
+.end method
+
+.method public final I2(Landroid/content/Context;Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    return-void
+.end method
+
+.method public final K(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 5
+
+    .line 1
+    return-void
+.end method
+
+.method public final Y(Landroid/content/Context;Ljava/util/HashMap;)V
+    .registers 3
+
+    .line 1
+    return-void
+.end method
+
+.method public final t2(IILjava/lang/String;)V
+    .registers 4
+
+    .line 1
+    return-void
+.end method
+
+.method public final u2(Landroid/content/Context;Lcom/huawei/appmarket/qo2;)Landroidx/fragment/app/Fragment;
+    .registers 3
+
+    .line 1
+    const/4 p1, 0x0
+
+    return-object p1
 .end method

@@ -36,7 +36,7 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object v0, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -60,7 +60,7 @@
 
     const-string v1, "ConntentRestrictDelegateUtils"
 
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 

@@ -5,7 +5,7 @@
 
 # virtual methods
 .method public abstract dmpa(Ljava/lang/String;Ljava/lang/String;)V
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;

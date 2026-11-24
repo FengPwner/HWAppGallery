@@ -23,7 +23,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/qj$a;->values()[Lcom/huawei/appmarket/qj$a;
+    invoke-static {}, Lcom/huawei/appmarket/pj$a;->values()[Lcom/huawei/appmarket/pj$a;
 
     move-result-object v0
 
@@ -31,7 +31,7 @@
 
     new-array v0, v0, [I
 
-    sget-object v1, Lcom/huawei/appmarket/qj$a;->b:Lcom/huawei/appmarket/qj$a;
+    sget-object v1, Lcom/huawei/appmarket/pj$a;->b:Lcom/huawei/appmarket/pj$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -41,7 +41,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lcom/huawei/appmarket/qj$a;->c:Lcom/huawei/appmarket/qj$a;
+    sget-object v1, Lcom/huawei/appmarket/pj$a;->c:Lcom/huawei/appmarket/pj$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

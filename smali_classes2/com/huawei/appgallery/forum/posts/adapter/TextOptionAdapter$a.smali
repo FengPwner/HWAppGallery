@@ -87,13 +87,13 @@
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/fx3;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/hx3;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/fx3;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/hx3;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fx3;->a(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hx3;->a(Ljava/util/List;)V
 
     :cond_3
     return-void

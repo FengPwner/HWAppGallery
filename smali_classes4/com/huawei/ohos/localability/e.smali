@@ -19,11 +19,11 @@
 
 .field public final synthetic g:I
 
-.field public final synthetic h:Lcom/huawei/appmarket/bo2;
+.field public final synthetic h:Lcom/huawei/appmarket/do2;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Landroid/content/Context;Landroid/widget/FrameLayout;Landroid/view/View;ILcom/huawei/appmarket/bo2;)V
+.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Landroid/content/Context;Landroid/widget/FrameLayout;Landroid/view/View;ILcom/huawei/appmarket/do2;)V
     .registers 8
 
     .line 1
@@ -41,7 +41,7 @@
 
     iput p6, p0, Lcom/huawei/ohos/localability/e;->g:I
 
-    iput-object p7, p0, Lcom/huawei/ohos/localability/e;->h:Lcom/huawei/appmarket/bo2;
+    iput-object p7, p0, Lcom/huawei/ohos/localability/e;->h:Lcom/huawei/appmarket/do2;
 
     return-void
 .end method
@@ -64,9 +64,9 @@
 
     iget v5, p0, Lcom/huawei/ohos/localability/e;->g:I
 
-    iget-object v6, p0, Lcom/huawei/ohos/localability/e;->h:Lcom/huawei/appmarket/bo2;
+    iget-object v6, p0, Lcom/huawei/ohos/localability/e;->h:Lcom/huawei/appmarket/do2;
 
-    invoke-static/range {v0 .. v6}, Lcom/huawei/ohos/localability/g;->d(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Landroid/content/Context;Landroid/widget/FrameLayout;Landroid/view/View;ILcom/huawei/appmarket/bo2;)Ljava/lang/Integer;
+    invoke-static/range {v0 .. v6}, Lcom/huawei/ohos/localability/g;->d(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Landroid/content/Context;Landroid/widget/FrameLayout;Landroid/view/View;ILcom/huawei/appmarket/do2;)Ljava/lang/Integer;
 
     move-result-object v0
 

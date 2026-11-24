@@ -64,9 +64,9 @@
 
     invoke-direct {v4, v2}, Lcom/huawei/serverrequest/e$a;-><init>(Ljava/lang/String;)V
 
-    sget-object v2, Lcom/huawei/appmarket/j87$a;->b:Lcom/huawei/appmarket/j87$a;
+    sget-object v2, Lcom/huawei/appmarket/o87$a;->b:Lcom/huawei/appmarket/o87$a;
 
-    invoke-direct {v3, v4, v2}, Lcom/huawei/serverrequest/e;-><init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/j87$a;)V
+    invoke-direct {v3, v4, v2}, Lcom/huawei/serverrequest/e;-><init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/o87$a;)V
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 

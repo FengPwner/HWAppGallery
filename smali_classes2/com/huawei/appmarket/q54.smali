@@ -4,15 +4,8 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;",
-            ">;"
-        }
-    .end annotation
+.method public abstract a(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;)V
+.end method
+
+.method public abstract b(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;Ljava/lang/String;)V
 .end method

@@ -90,7 +90,7 @@
 
     .line 22
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 24
     .line 25
@@ -106,7 +106,7 @@
 
     .line 30
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 32
     .line 33
@@ -114,7 +114,7 @@
     move-result v2
 
     .line 35
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 36
     .line 37
@@ -269,15 +269,14 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final I1(Lcom/huawei/appmarket/nb3;)V
+.method public final I1(Lcom/huawei/appmarket/qb3;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -285,12 +284,12 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->I1(Lcom/huawei/appmarket/nb3;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->I1(Lcom/huawei/appmarket/qb3;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 5
     .line 6
@@ -302,7 +301,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 11
     .line 12
@@ -318,7 +317,7 @@
     move-result p1
 
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 19
     .line 20
@@ -334,7 +333,7 @@
 
     .line 25
     .line 26
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 27
     .line 28
@@ -346,7 +345,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 33
     .line 34
@@ -354,7 +353,7 @@
     move-result v1
 
     .line 36
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 37
     .line 38
@@ -377,7 +376,7 @@
     sub-int/2addr v1, v2
 
     .line 47
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 48
     .line 49
@@ -388,7 +387,7 @@
     div-int/2addr v1, v2
 
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 53
     .line 54
@@ -404,7 +403,7 @@
 
     .line 59
     .line 60
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 61
     .line 62
@@ -790,21 +789,19 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/DoubleHorizontalSmallEntranceItemCard;->D:Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/DoubleHorizontalSmallEntranceItemCard;->E:Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallLanternCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method
@@ -1107,7 +1104,7 @@
 
     .line 154
     .line 155
-    instance-of v0, p1, Lcom/huawei/appmarket/jg3;
+    instance-of v0, p1, Lcom/huawei/appmarket/lg3;
 
     .line 156
     .line 157
@@ -1144,7 +1141,7 @@
     .line 172
     .line 173
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 174
     .line 175
@@ -1160,7 +1157,7 @@
 
     .line 180
     .line 181
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 182
     .line 183
@@ -1168,7 +1165,7 @@
     move-result v1
 
     .line 185
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 186
     .line 187
@@ -1350,8 +1347,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final s1()Ljava/util/ArrayList;

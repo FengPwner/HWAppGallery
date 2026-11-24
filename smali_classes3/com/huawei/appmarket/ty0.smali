@@ -37,7 +37,7 @@
     return-void
 .end method
 
-.method public static declared-synchronized a(Lcom/huawei/appmarket/xn6;)Lcom/huawei/appmarket/kp6;
+.method public static declared-synchronized a(Lcom/huawei/appmarket/ao6;)Lcom/huawei/appmarket/np6;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -66,15 +66,15 @@
     :try_start_1
     sget-object v1, Lcom/huawei/appmarket/ty0;->a:Lcom/huawei/appmarket/uy0;
 
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/uy0;->c(Lcom/huawei/appmarket/xn6;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/uy0;->c(Lcom/huawei/appmarket/ao6;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
 
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/kp6;
+    check-cast p0, Lcom/huawei/appmarket/np6;
     :try_end_1
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_1
@@ -149,20 +149,20 @@
     throw p0
 .end method
 
-.method public static b()Lcom/huawei/appmarket/cr6;
+.method public static b()Lcom/huawei/appmarket/fr6;
     .registers 1
 
     .line 1
     sget-object v0, Lcom/huawei/appmarket/ty0;->a:Lcom/huawei/appmarket/uy0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uy0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/uy0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static declared-synchronized c(Lcom/huawei/appmarket/xn6;Lcom/huawei/appmarket/ty0$b;)V
+.method public static declared-synchronized c(Lcom/huawei/appmarket/ao6;Lcom/huawei/appmarket/ty0$b;)V
     .registers 4
 
     .line 1
@@ -173,7 +173,7 @@
     :try_start_0
     sget-object v1, Lcom/huawei/appmarket/ty0;->a:Lcom/huawei/appmarket/uy0;
 
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/uy0;->c(Lcom/huawei/appmarket/xn6;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/uy0;->c(Lcom/huawei/appmarket/ao6;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -181,7 +181,7 @@
 
     invoke-direct {v1, p1}, Lcom/huawei/appmarket/ty0$a;-><init>(Lcom/huawei/appmarket/ty0$b;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

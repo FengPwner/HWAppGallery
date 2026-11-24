@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/y34;
+.implements Lcom/huawei/appmarket/a44;
 
 
 # direct methods
@@ -59,7 +59,7 @@
     .line 21
     .line 22
     .line 23
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    new-instance p2, Lcom/huawei/appmarket/dn5;
 
     .line 24
     .line 25
@@ -67,12 +67,12 @@
 
     .line 26
     .line 27
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p2}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 31
     .line 32
@@ -80,7 +80,7 @@
     move-result-object p3
 
     .line 34
-    invoke-static {p3}, Lcom/huawei/appmarket/yn3;->a(Landroid/content/Intent;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/ao3;->a(Landroid/content/Intent;)V
 
     .line 35
     .line 36
@@ -93,7 +93,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p2}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 42
     .line 43
@@ -111,7 +111,7 @@
     .line 49
     .line 50
     :cond_0
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vw7;->m(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ci7;->t(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 51
     .line 52
@@ -930,7 +930,7 @@
     .line 864
 .end method
 
-.method public final R1(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
+.method public final S1(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
     .registers 7
 
     .line 1
@@ -962,24 +962,24 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol;->b(Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol$Request;)V
 
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    new-instance p2, Lcom/huawei/appmarket/dn5;
 
     const-string p3, "open.thirdapp.download.activity"
 
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object p3
 
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     return-void
 .end method
 
-.method public final x2(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
+.method public final y2(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
     .registers 7
 
     .line 1
@@ -1007,24 +1007,24 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol;->b(Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol$Request;)V
 
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    new-instance p2, Lcom/huawei/appmarket/dn5;
 
     const-string p3, "open.thirdapp.download.activity"
 
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object p3
 
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     return-void
 .end method
 
-.method public final y1(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
+.method public final z1(Landroid/app/Activity;Ljava/lang/String;ILjava/lang/String;)V
     .registers 7
 
     .line 1
@@ -1056,19 +1056,19 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol;->b(Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivityProtocol$Request;)V
 
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    new-instance p2, Lcom/huawei/appmarket/dn5;
 
     const-string p3, "open.thirdapp.download.activity"
 
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object p3
 
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     return-void
 .end method

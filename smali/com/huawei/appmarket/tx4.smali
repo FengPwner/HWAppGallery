@@ -1,120 +1,260 @@
-.class final Lcom/huawei/appmarket/tx4;
+.class public final Lcom/huawei/appmarket/tx4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/sx4;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/tx4$a;,
+        Lcom/huawei/appmarket/tx4$b;
+    }
+.end annotation
+
+
+# static fields
+.field private static final b:Lcom/huawei/appmarket/tx4;
 
 
 # instance fields
-.field private final a:Landroid/os/LocaleList;
+.field private final a:Lcom/huawei/appmarket/vx4;
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/Object;)V
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/util/Locale;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/tx4;->a([Ljava/util/Locale;)Lcom/huawei/appmarket/tx4;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/tx4;->b:Lcom/huawei/appmarket/tx4;
+
+    return-void
+.end method
+
+.method private constructor <init>(Lcom/huawei/appmarket/vx4;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ur4;->b(Ljava/lang/Object;)Landroid/os/LocaleList;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
+    iput-object p1, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
 
     return-void
 .end method
 
+.method public static varargs a([Ljava/util/Locale;)Lcom/huawei/appmarket/tx4;
+    .registers 3
+
+    .line 1
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x18
+
+    if-lt v0, v1, :cond_0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/tx4$b;->a([Ljava/util/Locale;)Landroid/os/LocaleList;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/tx4;->h(Landroid/os/LocaleList;)Lcom/huawei/appmarket/tx4;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    new-instance v0, Lcom/huawei/appmarket/tx4;
+
+    new-instance v1, Lcom/huawei/appmarket/ux4;
+
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/ux4;-><init>([Ljava/util/Locale;)V
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tx4;-><init>(Lcom/huawei/appmarket/vx4;)V
+
+    return-object v0
+.end method
+
+.method public static b(Ljava/lang/String;)Lcom/huawei/appmarket/tx4;
+    .registers 5
+
+    .line 1
+    if-eqz p0, :cond_2
+
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    const-string v0, ","
+
+    const/4 v1, -0x1
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+
+    move-result-object p0
+
+    array-length v0, p0
+
+    new-array v1, v0, [Ljava/util/Locale;
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v0, :cond_1
+
+    aget-object v3, p0, v2
+
+    invoke-static {v3}, Lcom/huawei/appmarket/tx4$a;->a(Ljava/lang/String;)Ljava/util/Locale;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    invoke-static {v1}, Lcom/huawei/appmarket/tx4;->a([Ljava/util/Locale;)Lcom/huawei/appmarket/tx4;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_2
+    :goto_1
+    sget-object p0, Lcom/huawei/appmarket/tx4;->b:Lcom/huawei/appmarket/tx4;
+
+    return-object p0
+.end method
+
+.method public static d()Lcom/huawei/appmarket/tx4;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/tx4;->b:Lcom/huawei/appmarket/tx4;
+
+    return-object v0
+.end method
+
+.method public static h(Landroid/os/LocaleList;)Lcom/huawei/appmarket/tx4;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/tx4;
+
+    new-instance v1, Lcom/huawei/appmarket/wx4;
+
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/wx4;-><init>(Ljava/lang/Object;)V
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tx4;-><init>(Lcom/huawei/appmarket/vx4;)V
+
+    return-object v0
+.end method
+
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/x0;->o(Landroid/os/LocaleList;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final b()Ljava/lang/Object;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    return-object v0
-.end method
-
-.method public final equals(Ljava/lang/Object;)Z
+.method public final c(I)Ljava/util/Locale;
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/sx4;
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/sx4;->b()Ljava/lang/Object;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/x0;->A(Ljava/lang/Object;Landroid/os/LocaleList;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final get(I)Ljava/util/Locale;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ur4;->i(Landroid/os/LocaleList;I)Ljava/util/Locale;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vx4;->get(I)Ljava/util/Locale;
 
     move-result-object p1
 
     return-object p1
 .end method
 
+.method public final e()Z
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/vx4;->isEmpty()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .registers 3
+
+    .line 1
+    instance-of v0, p1, Lcom/huawei/appmarket/tx4;
+
+    if-eqz v0, :cond_0
+
+    check-cast p1, Lcom/huawei/appmarket/tx4;
+
+    iget-object p1, p1, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
+
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method public final f()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/vx4;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final g()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/vx4;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
 .method public final hashCode()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ur4;->z(Landroid/os/LocaleList;)I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final isEmpty()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/ur4;->x(Landroid/os/LocaleList;)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final size()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/ur4;->a(Landroid/os/LocaleList;)I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
@@ -125,9 +265,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Landroid/os/LocaleList;
+    iget-object v0, p0, Lcom/huawei/appmarket/tx4;->a:Lcom/huawei/appmarket/vx4;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ur4;->g(Landroid/os/LocaleList;)Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
 

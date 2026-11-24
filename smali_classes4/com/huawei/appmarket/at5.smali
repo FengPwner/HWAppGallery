@@ -1,30 +1,19 @@
-.class final Lcom/huawei/appmarket/at5;
-.super Lcom/huawei/appmarket/si6$a;
+.class public interface abstract Lcom/huawei/appmarket/at5;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/os/IInterface;
 
-# direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ft5;)V
-    .registers 2
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/si6$a;-><init>()V
-
-    return-void
-.end method
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/at5$a;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final F1([B)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public final p(Lcom/huawei/wearengine/p2p/MessageParcel;)V
-    .registers 2
-
-    .line 1
-    return-void
+.method public abstract f(ILjava/lang/String;)V
 .end method

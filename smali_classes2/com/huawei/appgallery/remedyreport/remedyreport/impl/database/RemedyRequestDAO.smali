@@ -112,7 +112,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/f91;)J
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/g91;)J
 
     return-void
 .end method
@@ -154,7 +154,7 @@
 
     const-string v2, "_id=?"
 
-    invoke-virtual {v0, p1, v2, v1}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v0, p1, v2, v1}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/g91;Ljava/lang/String;[Ljava/lang/String;)I
 
     return-void
 .end method

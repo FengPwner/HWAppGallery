@@ -75,12 +75,12 @@
     return-void
 .end method
 
-.method private a(Z)Lcom/huawei/appmarket/hv7;
+.method private a(Z)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -128,7 +128,7 @@
 
     invoke-direct {v3, v1, v2, v0}, Lcom/huawei/hms/push/task/ConsentTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -152,9 +152,9 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
     :catch_1
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     sget-object v2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_INTERNAL_ERROR:Lcom/huawei/hms/aaid/constant/ErrorEnum;
 
@@ -162,7 +162,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     invoke-virtual {v2}, Lcom/huawei/hms/aaid/constant/ErrorEnum;->getExternalCode()I
 
@@ -171,11 +171,11 @@
     goto :goto_1
 
     :goto_0
-    new-instance v2, Lcom/huawei/appmarket/nv7;
+    new-instance v2, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     invoke-virtual {p1}, Lcom/huawei/hms/common/ApiException;->getStatusCode()I
 
@@ -192,7 +192,7 @@
 
     invoke-static {v3, v1, v0, v2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -211,12 +211,12 @@
 
 
 # virtual methods
-.method public consentOff()Lcom/huawei/appmarket/hv7;
+.method public consentOff()Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -225,19 +225,19 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public consentOn()Lcom/huawei/appmarket/hv7;
+.method public consentOn()Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -246,7 +246,7 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 

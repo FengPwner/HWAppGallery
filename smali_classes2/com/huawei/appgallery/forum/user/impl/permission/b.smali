@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -44,7 +44,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :goto_0
     return-void

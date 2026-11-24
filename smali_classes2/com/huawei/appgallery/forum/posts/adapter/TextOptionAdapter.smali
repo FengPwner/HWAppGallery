@@ -29,13 +29,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ok8;",
+            "Lcom/huawei/appmarket/uk8;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private postTextVoteListener:Lcom/huawei/appmarket/fx3;
+.field private postTextVoteListener:Lcom/huawei/appmarket/hx3;
 
 .field private selectMode:I
 
@@ -115,11 +115,11 @@
     return-void
 .end method
 
-.method static synthetic access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/fx3;
+.method static synthetic access$600(Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;)Lcom/huawei/appmarket/hx3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->postTextVoteListener:Lcom/huawei/appmarket/fx3;
+    iget-object p0, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->postTextVoteListener:Lcom/huawei/appmarket/hx3;
 
     return-object p0
 .end method
@@ -182,9 +182,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/ok8;
+    check-cast p2, Lcom/huawei/appmarket/uk8;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ok8;->a()J
+    invoke-virtual {p2}, Lcom/huawei/appmarket/uk8;->a()J
 
     move-result-wide v3
 
@@ -229,9 +229,9 @@
 
     invoke-virtual {p2, v0}, Lcom/huawei/appgallery/forum/base/card/bean/VoteOptionBean;->setChecked(Z)V
 
-    new-instance p2, Lcom/huawei/appmarket/ok8;
+    new-instance p2, Lcom/huawei/appmarket/uk8;
 
-    invoke-direct {p2}, Lcom/huawei/appmarket/ok8;-><init>()V
+    invoke-direct {p2}, Lcom/huawei/appmarket/uk8;-><init>()V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->voteOptionBeanList:Ljava/util/List;
 
@@ -245,7 +245,7 @@
 
     move-result-wide v0
 
-    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/ok8;->b(J)V
+    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/uk8;->b(J)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->optionsList:Ljava/util/List;
 
@@ -294,9 +294,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ok8;
+    check-cast v2, Lcom/huawei/appmarket/uk8;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ok8;->a()J
+    invoke-virtual {v2}, Lcom/huawei/appmarket/uk8;->a()J
 
     move-result-wide v4
 
@@ -323,9 +323,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ok8;
+    check-cast v2, Lcom/huawei/appmarket/uk8;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ok8;->a()J
+    invoke-virtual {v2}, Lcom/huawei/appmarket/uk8;->a()J
 
     move-result-wide v4
 
@@ -358,9 +358,9 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/ok8;
+    check-cast v4, Lcom/huawei/appmarket/uk8;
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ok8;->a()J
+    invoke-virtual {v4}, Lcom/huawei/appmarket/uk8;->a()J
 
     move-result-wide v4
 
@@ -428,7 +428,7 @@
 
     if-eq p1, p2, :cond_0
 
-    sget-object p2, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object p2, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -444,7 +444,7 @@
 
     const-string p3, "PostTextVoteAdapter"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -642,7 +642,7 @@
 
     .line 70
     .line 71
-    invoke-static {v5, v3, v4}, Lcom/huawei/appmarket/ho2;->d(Landroid/content/Context;J)Ljava/lang/String;
+    invoke-static {v5, v3, v4}, Lcom/huawei/appmarket/jo2;->d(Landroid/content/Context;J)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -693,7 +693,7 @@
 
     .line 95
     .line 96
-    invoke-static {p2, v5}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2, v5}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 97
     .line 98
@@ -705,7 +705,7 @@
 
     .line 101
     .line 102
-    invoke-static {v5, v3, v4, v0, v1}, Lcom/huawei/appmarket/ho2;->e(Landroid/content/Context;JJ)Ljava/lang/String;
+    invoke-static {v5, v3, v4, v0, v1}, Lcom/huawei/appmarket/jo2;->e(Landroid/content/Context;JJ)Ljava/lang/String;
 
     .line 103
     .line 104
@@ -1265,13 +1265,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method private setVoteDefaultUnselectView(Ljava/util/List;ILcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter$c;)V
@@ -1331,9 +1324,9 @@
 
     invoke-virtual {p3, v0}, Lcom/huawei/appgallery/forum/base/card/bean/VoteOptionBean;->setChecked(Z)V
 
-    new-instance p3, Lcom/huawei/appmarket/ok8;
+    new-instance p3, Lcom/huawei/appmarket/uk8;
 
-    invoke-direct {p3}, Lcom/huawei/appmarket/ok8;-><init>()V
+    invoke-direct {p3}, Lcom/huawei/appmarket/uk8;-><init>()V
 
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1345,7 +1338,7 @@
 
     move-result-wide p1
 
-    invoke-virtual {p3, p1, p2}, Lcom/huawei/appmarket/ok8;->b(J)V
+    invoke-virtual {p3, p1, p2}, Lcom/huawei/appmarket/uk8;->b(J)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->optionsList:Ljava/util/List;
 
@@ -1359,13 +1352,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object p1, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     const-string p2, "PostTextVoteAdapter"
 
     const-string v0, "textVoteViewHolder ==null, return "
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1644,7 +1637,7 @@
 
     if-eq p3, v3, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object v0, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -1657,7 +1650,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
@@ -1761,7 +1754,7 @@
 
     if-eq p3, v3, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object v0, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -1878,11 +1871,11 @@
     return v1
 .end method
 
-.method public setData(Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;Lcom/huawei/appmarket/fx3;)V
+.method public setData(Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;Lcom/huawei/appmarket/hx3;)V
     .registers 7
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->postTextVoteListener:Lcom/huawei/appmarket/fx3;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->postTextVoteListener:Lcom/huawei/appmarket/hx3;
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->voteDetailBean:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
 
@@ -1948,15 +1941,15 @@
 
     if-eqz v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/ok8;
+    new-instance v1, Lcom/huawei/appmarket/uk8;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/ok8;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/uk8;-><init>()V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/forum/base/card/bean/VoteOptionBean;->V()J
 
     move-result-wide v2
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/ok8;->b(J)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/uk8;->b(J)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->optionsList:Ljava/util/List;
 
@@ -1969,7 +1962,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/TextOptionAdapter;->voteOptionBeanList:Ljava/util/List;
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fx3;->a(Ljava/util/List;)V
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/hx3;->a(Ljava/util/List;)V
 
     :cond_2
     return-void

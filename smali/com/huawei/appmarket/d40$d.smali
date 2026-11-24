@@ -27,11 +27,11 @@
 .method public abstract a(F)Z
 .end method
 
-.method public abstract b()Lcom/huawei/appmarket/gr4;
+.method public abstract b()Lcom/huawei/appmarket/jr4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TT;>;"
         }
     .end annotation

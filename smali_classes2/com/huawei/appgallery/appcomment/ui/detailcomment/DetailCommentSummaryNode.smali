@@ -40,7 +40,7 @@
 
     invoke-virtual {p2, v2, v2, v2, v1}, Landroid/view/View;->setPadding(IIII)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentSummaryCard;
 

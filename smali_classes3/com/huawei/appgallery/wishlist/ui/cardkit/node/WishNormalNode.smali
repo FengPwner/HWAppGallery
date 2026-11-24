@@ -24,7 +24,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/huawei/appmarket/il0;->a(Landroid/content/Context;)Landroid/content/res/Resources;
+    invoke-static {p1}, Lcom/huawei/appmarket/jl0;->a(Landroid/content/Context;)Landroid/content/res/Resources;
 
     .line 10
     .line 11
@@ -44,7 +44,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 20
     .line 21
@@ -52,7 +52,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 24
     .line 25
@@ -157,7 +157,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -179,7 +178,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 9
     .line 10
@@ -303,7 +302,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public d(Landroid/view/ViewGroup;Landroid/view/ViewGroup;)Z
@@ -378,7 +376,7 @@
 
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/ki5;->d()Lcom/huawei/appmarket/ki5;
+    invoke-static {}, Lcom/huawei/appmarket/mi5;->d()Lcom/huawei/appmarket/mi5;
 
     .line 36
     .line 37
@@ -386,7 +384,7 @@
     move-result-object v6
 
     .line 39
-    invoke-virtual {v6}, Lcom/huawei/appmarket/ki5;->b()I
+    invoke-virtual {v6}, Lcom/huawei/appmarket/mi5;->b()I
 
     .line 40
     .line 41
@@ -408,7 +406,7 @@
 
     .line 49
     .line 50
-    invoke-static {v3, p1, v5}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v3, p1, v5}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 51
     .line 52
@@ -571,5 +569,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

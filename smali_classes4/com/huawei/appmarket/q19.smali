@@ -2,100 +2,17 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/io/Serializable;
-
-
-# instance fields
-.field public final b:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
-
 
 # direct methods
-.method public constructor <init>(Landroid/os/Bundle;)V
-    .registers 6
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/q19;->b:Ljava/util/HashMap;
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/String;
-
-    iget-object v2, p0, Lcom/huawei/appmarket/q19;->b:Ljava/util/HashMap;
-
-    invoke-virtual {p1, v1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    goto :goto_0
-
-    :cond_0
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/util/HashMap;)V
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0, p1}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/q19;->b:Ljava/util/HashMap;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final toString()Ljava/lang/String;
+.method public static a(Ljava/lang/String;Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -103,7 +20,7 @@
 
     .line 2
     .line 3
-    const-string v1, "BaseData{time="
+    const-string v1, "SecurityComp21000300: "
 
     .line 4
     .line 5
@@ -112,69 +29,47 @@
     .line 6
     .line 7
     .line 8
-    const-string v1, "time"
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
-    iget-object v2, p0, Lcom/huawei/appmarket/q19;->b:Ljava/util/HashMap;
-
     .line 11
-    .line 12
-    invoke-virtual {v2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 12
     .line 13
     .line 14
+    move-result-object p0
+
     .line 15
-    move-result-object v1
+    invoke-static {p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 16
-    check-cast v1, Ljava/lang/String;
-
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
+    return-void
     .line 19
     .line 20
     .line 21
-    const-string v1, ", name="
-
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 24
     .line 25
     .line 26
-    const-string v1, "interface_name"
-
     .line 27
     .line 28
-    invoke-virtual {v2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 29
     .line 30
     .line 31
-    move-result-object v1
-
     .line 32
-    check-cast v1, Ljava/lang/String;
-
     .line 33
     .line 34
-    const/16 v2, 0x7d
-
     .line 35
     .line 36
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->m(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
-
     .line 37
     .line 38
     .line 39
-    move-result-object v0
-
     .line 40
-    return-object v0
     .line 41
     .line 42
     .line 43
@@ -407,40 +302,15 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
+.end method
+
+.method public static b(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    const-string v0, "SecurityComp21000300: RootDetect"
+
+    invoke-static {v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    return-void
 .end method

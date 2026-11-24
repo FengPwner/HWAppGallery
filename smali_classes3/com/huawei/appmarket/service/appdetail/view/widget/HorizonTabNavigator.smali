@@ -346,7 +346,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic e(Lcom/huawei/appmarket/service/appdetail/view/widget/HorizonTabNavigator;)I
@@ -657,11 +656,11 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result v0
 
@@ -706,7 +705,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result v3
 
@@ -716,11 +715,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->o(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->o(Landroid/content/Context;)I
 
     move-result p1
 
@@ -770,7 +769,7 @@
 
     const/16 v1, 0x1c
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -790,7 +789,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -1391,8 +1390,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setOnPageSelectListener(Lcom/huawei/appmarket/service/appdetail/view/widget/HorizonTabNavigator$a;)V
@@ -1887,6 +1884,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

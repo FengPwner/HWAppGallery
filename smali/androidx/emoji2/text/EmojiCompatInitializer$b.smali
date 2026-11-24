@@ -57,7 +57,7 @@
     const/4 v2, 0x0
 
     .line 9
-    invoke-direct {v1, v2}, Landroidx/emoji2/text/b;-><init>(Lcom/huawei/appmarket/zd1;)V
+    invoke-direct {v1, v2}, Landroidx/emoji2/text/b;-><init>(Lcom/huawei/appmarket/be1;)V
 
     .line 10
     .line 11
@@ -381,6 +381,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 

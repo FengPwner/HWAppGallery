@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/yv2;->values()[Lcom/huawei/appmarket/yv2;
+    invoke-static {}, Lcom/huawei/appmarket/bw2;->values()[Lcom/huawei/appmarket/bw2;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/yv2;->e:Lcom/huawei/appmarket/yv2;
+    sget-object v1, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/yv2;->d:Lcom/huawei/appmarket/yv2;
+    sget-object v1, Lcom/huawei/appmarket/bw2;->d:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/yv2;->f:Lcom/huawei/appmarket/yv2;
+    sget-object v1, Lcom/huawei/appmarket/bw2;->f:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

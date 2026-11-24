@@ -53,21 +53,21 @@
 .method static constructor <clinit>()V
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/ch6;
+    new-instance v0, Lcom/huawei/appmarket/eh6;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/RandomStringUtils;->SECURE_SUPPLIER:Ljava/util/function/Supplier;
 
     new-instance v1, Lorg/apache/commons/lang3/RandomStringUtils;
 
-    new-instance v2, Lcom/huawei/appmarket/ch6;
+    new-instance v2, Lcom/huawei/appmarket/eh6;
 
     const/4 v3, 0x1
 
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     invoke-direct {v1, v2}, Lorg/apache/commons/lang3/RandomStringUtils;-><init>(Ljava/util/function/Supplier;)V
 
@@ -81,11 +81,11 @@
 
     new-instance v0, Lorg/apache/commons/lang3/RandomStringUtils;
 
-    new-instance v1, Lcom/huawei/appmarket/ch6;
+    new-instance v1, Lcom/huawei/appmarket/eh6;
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     invoke-direct {v0, v1}, Lorg/apache/commons/lang3/RandomStringUtils;-><init>(Ljava/util/function/Supplier;)V
 
@@ -428,7 +428,7 @@
     const-string v1, ") must be greater then (48) for generating digits or greater then (65) for generating letters."
 
     .line 4
-    invoke-static {v4, v6, v1}, Lcom/huawei/appmarket/z84;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v6, v1}, Lcom/huawei/appmarket/kk4;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -665,7 +665,7 @@
     const-string v3, " is less than 0."
 
     .line 6
-    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/z84;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/kk4;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

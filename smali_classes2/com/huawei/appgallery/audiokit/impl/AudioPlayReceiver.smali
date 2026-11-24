@@ -310,7 +310,7 @@
     move-result-object v0
 
     .line 126
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->e(Landroid/net/NetworkInfo;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->e(Landroid/net/NetworkInfo;)I
 
     .line 127
     .line 128
@@ -346,7 +346,7 @@
     move-result v0
 
     .line 144
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->m(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->m(Landroid/content/Context;)Z
 
     .line 145
     .line 146
@@ -409,7 +409,7 @@
     .line 174
     .line 175
     .line 176
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ss8;->a(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ys8;->a(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 177
     .line 178
@@ -417,7 +417,7 @@
     move-result-object p1
 
     .line 180
-    invoke-static {p1}, Lcom/huawei/appmarket/h08;->e(Ljava/lang/String;)Lcom/huawei/appmarket/h08;
+    invoke-static {p1}, Lcom/huawei/appmarket/m08;->e(Ljava/lang/String;)Lcom/huawei/appmarket/m08;
 
     .line 181
     .line 182
@@ -425,7 +425,7 @@
     move-result-object p1
 
     .line 184
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h08;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/m08;->f()V
 
     .line 185
     .line 186
@@ -859,11 +859,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

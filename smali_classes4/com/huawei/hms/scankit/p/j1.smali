@@ -143,7 +143,7 @@
 
     aget v6, p0, v6
 
-    invoke-static {v8, v6, v7, v5}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v8, v6, v7, v5}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v5
 

@@ -568,7 +568,7 @@
     const-string p4, ", fieldName "
 
     .line 3
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -589,12 +589,12 @@
     const-string p4, ", "
 
     .line 5
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
     .line 6
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -1351,7 +1351,7 @@
     new-instance v0, Lcom/alibaba/fastjson/JSONException;
 
     .line 2
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1364,7 +1364,7 @@
     new-instance p2, Lcom/alibaba/fastjson/JSONException;
 
     .line 4
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 

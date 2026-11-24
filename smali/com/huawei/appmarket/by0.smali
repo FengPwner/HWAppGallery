@@ -1,18 +1,18 @@
 .class final Lcom/huawei/appmarket/by0;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
         "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -31,7 +31,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -63,12 +63,12 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;->edit(Ljava/lang/String;Lcom/huawei/appmarket/qs2;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;->edit(Ljava/lang/String;Lcom/huawei/appmarket/ts2;)V
 
     .line 13
     .line 14
     .line 15
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 16
     .line 17

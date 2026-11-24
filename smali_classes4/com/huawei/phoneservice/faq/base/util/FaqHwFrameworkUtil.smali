@@ -13,7 +13,7 @@
 
 # static fields
 .field public static final LAYOUT_IN_DISPLAY_SIDE_MODE_ALWAYS:I = 0x1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 
 .method public static initScreenType(Landroid/app/Activity;Lcom/huawei/phoneservice/faq/base/util/FaqHwFrameworkUtil$b;)V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -51,7 +51,7 @@
 
 .method public static setDisplaySideMode(Landroid/app/Activity;I)V
     .registers 9
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "FaqHwFrameworkUtil"

@@ -47,7 +47,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory;->Companion:Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory$a;
 
@@ -104,7 +104,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILjava/lang/Long;Ljava/lang/String;JJLjava/lang/String;Ljava/lang/Integer;ILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(ILjava/lang/Long;Ljava/lang/String;JJLjava/lang/String;Ljava/lang/Integer;ILcom/huawei/appmarket/id1;)V
     .registers 24
 
     .line 3
@@ -405,7 +405,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory;->timestamp:Ljava/lang/Long;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -418,7 +418,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory;->version:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -453,7 +453,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory;->homeCountry:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -466,7 +466,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/agreement/data/impl/bean/SignHistory;->type:Ljava/lang/Integer;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

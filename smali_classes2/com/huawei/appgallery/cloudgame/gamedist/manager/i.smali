@@ -43,7 +43,7 @@
     .registers 9
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/d08;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/i08;->c()V
 
     const/16 v0, 0x64
 
@@ -63,7 +63,7 @@
 
     const-string p1, "success to AsyncLoader"
 
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/i;->a:Ljava/lang/String;
 
@@ -80,7 +80,7 @@
     :cond_0
     const-string p1, "start cloud game in harmony"
 
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v6, v4, v3}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->L(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;Ljava/lang/String;Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;)V
 
@@ -101,15 +101,15 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     const-string p1, "failed to AsyncLoader,release cloud game resource"
 
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;->getSessionId()Ljava/lang/String;
 
@@ -131,11 +131,11 @@
 
     :cond_2
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/cg0;->a()Lcom/huawei/appmarket/cg0;
+    invoke-static {}, Lcom/huawei/appmarket/dg0;->a()Lcom/huawei/appmarket/dg0;
 
     move-result-object p1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/cg0;->f(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/dg0;->f(Z)V
 
     return-void
 .end method

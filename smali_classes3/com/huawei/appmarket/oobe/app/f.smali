@@ -6,10 +6,10 @@
 # static fields
 .field private static final a:Landroid/os/Handler;
 
-.field private static b:Lcom/huawei/appmarket/lw7;
+.field private static b:Lcom/huawei/appmarket/rw7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lw7<",
+            "Lcom/huawei/appmarket/rw7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -37,7 +37,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/nk5;->b()Lcom/huawei/appmarket/nk5;
+    invoke-static {}, Lcom/huawei/appmarket/pk5;->b()Lcom/huawei/appmarket/pk5;
 
     .line 9
     .line 10
@@ -49,7 +49,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nk5;->a()Lcom/huawei/appmarket/lw7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pk5;->a()Lcom/huawei/appmarket/rw7;
 
     .line 15
     .line 16
@@ -65,7 +65,7 @@
 
     .line 20
     :goto_0
-    sput-object v2, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/lw7;
+    sput-object v2, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/rw7;
 
     .line 21
     .line 22
@@ -73,7 +73,7 @@
 
     .line 23
     .line 24
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 25
     .line 26
@@ -85,7 +85,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -103,7 +103,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nk5;->d(Lcom/huawei/appmarket/ao3;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pk5;->d(Lcom/huawei/appmarket/co3;)V
 
     .line 40
     .line 41
@@ -254,11 +254,11 @@
     return-void
 .end method
 
-.method static synthetic a()Lcom/huawei/appmarket/lw7;
+.method static synthetic a()Lcom/huawei/appmarket/rw7;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/lw7;
+    sget-object v0, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/rw7;
 
     return-object v0
 .end method
@@ -278,13 +278,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v1, "OOBE"
 
     const-string v2, "OOBEAsyncHandler.startGetAppListTask"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appmarket/oobe/app/f$a;
 
@@ -301,15 +301,15 @@
     .line 1
     const-string v0, "OOBE"
 
-    sget-object v1, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/lw7;
+    sget-object v1, Lcom/huawei/appmarket/oobe/app/f;->b:Lcom/huawei/appmarket/rw7;
 
     if-nez v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "syncInitGrs failed, callbackTaskStream is null"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -329,18 +329,18 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "syncInitGrs gen json object failed!"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

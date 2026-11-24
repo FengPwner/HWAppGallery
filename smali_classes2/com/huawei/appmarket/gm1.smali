@@ -1,66 +1,105 @@
 .class public final Lcom/huawei/appmarket/gm1;
-.super Lcom/huawei/appgallery/detail/detailbase/card/detailupdatecard/DetailUpdateBean;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/gm1$a;
+    }
+.end annotation
+
+
+# instance fields
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Lcom/huawei/appmarket/en3;
+
+.field private d:Ljava/lang/String;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/huawei/appmarket/gm1;Ljava/lang/String;)V
+    .registers 2
+
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/card/detailupdatecard/DetailUpdateBean;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/gm1;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method static synthetic b(Lcom/huawei/appmarket/gm1;Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/gm1;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method static synthetic c(Lcom/huawei/appmarket/gm1;Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/gm1;->c:Lcom/huawei/appmarket/en3;
+
+    return-void
+.end method
+
+.method static synthetic d(Lcom/huawei/appmarket/gm1;Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/gm1;->d:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final T(I)Z
-    .registers 5
+.method public final e()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getPackage_()Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/gm1;->b:Ljava/lang/String;
 
-    move-result-object p1
+    return-object v0
+.end method
 
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+.method public final f()Ljava/lang/String;
+    .registers 2
 
-    move-result p1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/gm1;->d:Ljava/lang/String;
 
-    const/4 v0, 0x1
+    return-object v0
+.end method
 
-    if-eqz p1, :cond_0
+.method public final g()Lcom/huawei/appmarket/en3;
+    .registers 2
 
-    return v0
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/gm1;->c:Lcom/huawei/appmarket/en3;
 
-    :cond_0
-    const-string p1, "DeviceInstallationInfos"
+    return-object v0
+.end method
 
-    const-class v1, Lcom/huawei/appmarket/yh3;
+.method public final h()Ljava/lang/String;
+    .registers 2
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/gm1;->a:Ljava/lang/String;
 
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appmarket/yh3;
-
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getPackage_()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-interface {p1, v1, v2}, Lcom/huawei/appmarket/yh3;->d(Landroid/content/Context;Ljava/lang/String;)Z
-
-    move-result p1
-
-    xor-int/2addr p1, v0
-
-    return p1
+    return-object v0
 .end method

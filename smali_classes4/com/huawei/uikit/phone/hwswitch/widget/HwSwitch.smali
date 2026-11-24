@@ -52,7 +52,7 @@
     if-lt p1, p2, :cond_0
 
     .line 3
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->w(Lcom/huawei/uikit/hwswitch/widget/HwSwitch;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->w(Lcom/huawei/uikit/hwswitch/widget/HwSwitch;)V
 
     :cond_0
     new-instance p1, Landroid/graphics/Paint;

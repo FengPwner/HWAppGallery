@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         "Lretrofit2/Converter<",
         "TT;",
-        "Lcom/huawei/appmarket/lr6;",
+        "Lcom/huawei/appmarket/or6;",
         ">;"
     }
 .end annotation
@@ -47,12 +47,12 @@
 
 
 # virtual methods
-.method public convert(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+.method public convert(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)",
-            "Lcom/huawei/appmarket/lr6;"
+            "Lcom/huawei/appmarket/or6;"
         }
     .end annotation
 
@@ -121,11 +121,11 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory;->access$100()Lcom/huawei/appmarket/a65;
+    invoke-static {}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory;->access$100()Lcom/huawei/appmarket/d65;
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/lr6;->create(Lcom/huawei/appmarket/a65;[B)Lcom/huawei/appmarket/lr6;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/or6;->create(Lcom/huawei/appmarket/d65;[B)Lcom/huawei/appmarket/or6;
 
     move-result-object p1
     :try_end_0
@@ -145,7 +145,7 @@
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -164,7 +164,7 @@
     .end annotation
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory$RequestBodyConverter;->convert(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+    invoke-virtual {p0, p1}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory$RequestBodyConverter;->convert(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
 
     move-result-object p1
 

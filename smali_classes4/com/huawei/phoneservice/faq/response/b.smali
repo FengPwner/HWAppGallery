@@ -13,19 +13,19 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "returnCode"
     .end annotation
 .end field
 
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "returnMessage"
     .end annotation
 .end field
 
 .field private c:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "rList"
     .end annotation
 
@@ -39,25 +39,25 @@
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "curPage"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "pageSize"
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "totalPage"
     .end annotation
 .end field
 
 .field private g:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "totalCount"
     .end annotation
 .end field

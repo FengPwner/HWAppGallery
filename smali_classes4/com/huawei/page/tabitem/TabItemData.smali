@@ -5,13 +5,13 @@
 
 # instance fields
 .field private s:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "defaultItem"
     .end annotation
 .end field
 
 .field private t:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "interactionType"
     .end annotation
 .end field

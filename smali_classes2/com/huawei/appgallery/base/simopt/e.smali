@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/if8;
+.implements Lcom/huawei/appmarket/nf8;
 
 
 # static fields
@@ -86,7 +86,7 @@
 
     const-string v0, "android.telephony.MSimTelephonyManager"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -112,7 +112,7 @@
 
     const-string v0, "com.huawei.telephony.HuaweiTelephonyManager"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -138,7 +138,7 @@
 
     const-string v0, "android.telephony.HwTelephonyManager"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

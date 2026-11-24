@@ -1,5 +1,5 @@
 .class final Lcom/huawei/page/PageInstanceManager$a;
-.super Lcom/huawei/appmarket/ct4;
+.super Lcom/huawei/appmarket/ft4;
 .source "SourceFile"
 
 
@@ -15,8 +15,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/ct4<",
-        "Lcom/huawei/appmarket/x04;",
+        "Lcom/huawei/appmarket/ft4<",
+        "Lcom/huawei/appmarket/z04;",
         ">;"
     }
 .end annotation
@@ -32,18 +32,18 @@
 
     iput-object p1, p0, Lcom/huawei/page/PageInstanceManager$a;->b:Lcom/huawei/page/PageInstanceManager;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ct4;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ft4;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final a()Lcom/huawei/appmarket/x04;
+.method protected final a()Lcom/huawei/appmarket/z04;
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/e37;->d()Lcom/huawei/appmarket/e37;
+    invoke-static {}, Lcom/huawei/appmarket/j37;->d()Lcom/huawei/appmarket/j37;
 
     .line 2
     .line 3
@@ -63,7 +63,7 @@
     move-result-object v1
 
     .line 11
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/e37;->c(Landroid/content/Context;)Lcom/huawei/appmarket/x04;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/j37;->c(Landroid/content/Context;)Lcom/huawei/appmarket/z04;
 
     .line 12
     .line 13
@@ -365,4 +365,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

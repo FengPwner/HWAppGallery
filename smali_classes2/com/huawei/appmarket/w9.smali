@@ -26,7 +26,7 @@
 
     const-string v2, "INSTALLER.RECOMMEND_APPS_MAX_LINE"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/cb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/eb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -34,7 +34,7 @@
 
     if-eqz v2, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object v0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -50,7 +50,7 @@
 
     const-string v3, "AdsGlobalConfigUtils"
 
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     check-cast v1, Ljava/lang/Integer;
 

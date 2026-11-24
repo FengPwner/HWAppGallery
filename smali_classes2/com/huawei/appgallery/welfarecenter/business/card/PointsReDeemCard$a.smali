@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+.method constructor <init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard$a;->d:Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -106,7 +106,7 @@
     move-result-object p1
 
     .line 35
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/up8;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/aq8;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     .line 36
     .line 37
@@ -180,5 +180,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

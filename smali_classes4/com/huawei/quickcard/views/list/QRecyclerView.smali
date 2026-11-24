@@ -27,20 +27,6 @@
 
 
 # instance fields
-.field G1:Lcom/huawei/quickcard/views/list/c;
-
-.field H1:Lcom/huawei/quickcard/views/list/d;
-
-.field I1:Lcom/huawei/quickcard/views/list/e;
-
-.field J1:Lcom/huawei/quickcard/views/list/f;
-
-.field K1:Lcom/huawei/quickcard/views/list/g;
-
-.field L1:Landroidx/recyclerview/widget/RecyclerView$p;
-
-.field M1:I
-
 .field N1:Z
 
 .field private O1:Ljava/lang/String;
@@ -49,7 +35,7 @@
 
 .field private Q1:I
 
-.field private R1:Lcom/huawei/appmarket/r09;
+.field private R1:Lcom/huawei/appmarket/x09;
 
 .field private S1:Ljava/util/LinkedList;
 
@@ -71,7 +57,7 @@
 
 .field private b2:Lcom/huawei/quickcard/exposure/ExposureManager;
 
-.field private c2:Lcom/huawei/appmarket/ta9;
+.field private c2:Lcom/huawei/appmarket/ab9;
 
 .field private d2:Ljava/lang/String;
 
@@ -85,6 +71,20 @@
 
 .field private i2:I
 
+.field n1:Lcom/huawei/quickcard/views/list/c;
+
+.field o1:Lcom/huawei/quickcard/views/list/d;
+
+.field s1:Lcom/huawei/quickcard/views/list/e;
+
+.field t1:Lcom/huawei/quickcard/views/list/f;
+
+.field v1:Lcom/huawei/quickcard/views/list/g;
+
+.field x1:Landroidx/recyclerview/widget/RecyclerView$p;
+
+.field y1:I
+
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -95,7 +95,7 @@
 
     const/4 p1, 0x1
 
-    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     const-string v0, "grid"
 
@@ -134,7 +134,7 @@
 
     const/4 p1, 0x1
 
-    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     const-string p2, "grid"
 
@@ -173,7 +173,7 @@
 
     const/4 p1, 0x1
 
-    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     const-string p2, "grid"
 
@@ -208,7 +208,7 @@
     .registers 8
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 2
     .line 3
@@ -242,7 +242,7 @@
 
     .line 16
     .line 17
-    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     .line 18
     .line 19
@@ -579,6 +579,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private c()V
@@ -593,11 +613,11 @@
 
     iput-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->Z1:Lcom/huawei/quickcard/views/list/QRecyclerView$b;
 
-    new-instance v0, Lcom/huawei/appmarket/r09;
+    new-instance v0, Lcom/huawei/appmarket/x09;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/r09;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/x09;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iput-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getItemAnimator()Landroidx/recyclerview/widget/RecyclerView$m;
 
@@ -642,7 +662,7 @@
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object p0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     .line 2
     invoke-virtual {p0}, Lcom/huawei/quickcard/BaseRecyclerAdapter;->onDataChanged()V
@@ -650,11 +670,11 @@
     return-void
 .end method
 
-.method static synthetic d(Lcom/huawei/quickcard/views/list/QRecyclerView;)Lcom/huawei/appmarket/r09;
+.method static synthetic d(Lcom/huawei/quickcard/views/list/QRecyclerView;)Lcom/huawei/appmarket/x09;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object p0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     return-object p0
 .end method
@@ -662,7 +682,7 @@
 .method private f()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -894,7 +914,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 13
     .line 14
@@ -908,7 +928,7 @@
 
     .line 17
     .line 18
-    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 19
     .line 20
@@ -1243,33 +1263,16 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public endAddChildItem(Lcom/huawei/quickcard/CardContext;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     invoke-virtual {v0, p1}, Lcom/huawei/quickcard/BaseRecyclerAdapter;->setCardContext(Lcom/huawei/quickcard/CardContext;)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->S1:Ljava/util/LinkedList;
 
@@ -1279,11 +1282,11 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/quickcard/views/list/QRecyclerView;->setLayoutType(Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$h;->notifyDataSetChanged()V
 
@@ -1294,7 +1297,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/tl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/vl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -1302,7 +1305,7 @@
 .method final g()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -1343,7 +1346,7 @@
     goto :goto_0
 
     :goto_1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->V1:I
 
@@ -1355,7 +1358,7 @@
 
     if-eqz v0, :cond_3
 
-    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     const/4 v2, 0x1
 
@@ -1420,7 +1423,7 @@
 
     :cond_3
     :goto_3
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -1485,7 +1488,7 @@
 .method public getLayoutQuickCardManager()Landroidx/recyclerview/widget/RecyclerView$p;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     return-object v0
 .end method
@@ -1503,7 +1506,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 7
     .line 8
@@ -1552,7 +1555,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {v2, v5, v4, v1, v3}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v5, v4, v1, v3}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 32
     .line 33
@@ -1900,13 +1903,33 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final synthetic getViewParent(Landroid/view/View;)Landroid/view/ViewParent;
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
 
     move-result-object p1
 
@@ -1974,7 +1997,7 @@
 
     .line 21
     :cond_0
-    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 22
     .line 23
@@ -2283,6 +2306,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public isRTL()Z
@@ -2340,7 +2383,7 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 15
     .line 16
@@ -2670,12 +2713,32 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public isScrollBottom()Z
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -2691,7 +2754,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$p;->getItemCount()I
 
@@ -2755,7 +2818,7 @@
 .method public isScrollTop()Z
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -2841,15 +2904,15 @@
 .method public notifyDataSetChanged()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/uh5;
+    new-instance v0, Lcom/huawei/appmarket/pr;
 
-    const/16 v1, 0x10
+    const/16 v1, 0x12
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/utils/CardThreadUtils;->runOnMainThread(Ljava/lang/Runnable;)V
 
@@ -2860,7 +2923,7 @@
 .method public notifyItemChanged(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     if-eqz v0, :cond_0
 
@@ -3213,23 +3276,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public onScreenStateChanged(I)V
@@ -3255,7 +3301,7 @@
     if-eq p2, p4, :cond_1
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     if-eqz p1, :cond_1
 
@@ -3263,7 +3309,7 @@
 
     sget-object p3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/ta9;->g(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/ab9;->g(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
     :cond_1
     return-void
@@ -4888,72 +4934,13 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final synthetic onViewCreated(Lcom/huawei/quickcard/CardContext;)V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
 
     return-void
 .end method
@@ -5168,7 +5155,7 @@
 
     .line 47
     :cond_2
-    iget-object v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     .line 48
     .line 49
@@ -5188,7 +5175,7 @@
 
     .line 56
     .line 57
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     .line 58
     .line 59
@@ -5226,7 +5213,7 @@
     .line 74
     .line 75
     :goto_1
-    iget-object v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 76
     .line 77
@@ -5283,7 +5270,7 @@
 
     .line 102
     :cond_6
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 103
     .line 104
@@ -5399,23 +5386,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setColumns(I)V
@@ -5423,7 +5393,7 @@
 
     iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->P1:I
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -5464,7 +5434,7 @@
 
     new-instance p1, Lcom/huawei/quickcard/views/list/BounceHandler;
 
-    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     const/4 v1, 0x1
 
@@ -5627,7 +5597,7 @@
     .line 54
     .line 55
     .line 56
-    iput v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 57
     .line 58
@@ -5640,7 +5610,7 @@
 
     .line 61
     :pswitch_0
-    iput v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput v2, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 62
     .line 63
@@ -5653,7 +5623,7 @@
 
     .line 66
     :pswitch_1
-    iput v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 67
     .line 68
@@ -5661,7 +5631,7 @@
 
     .line 69
     :pswitch_2
-    iput v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iput v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 70
     .line 71
@@ -5681,7 +5651,7 @@
 
     .line 77
     .line 78
-    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 79
     .line 80
@@ -5707,7 +5677,7 @@
     .line 88
     .line 89
     :cond_4
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 90
     .line 91
@@ -5735,7 +5705,7 @@
 
     .line 102
     .line 103
-    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 104
     .line 105
@@ -5760,7 +5730,7 @@
 
     .line 114
     .line 115
-    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     .line 116
     .line 117
@@ -5779,7 +5749,7 @@
     .line 123
     .line 124
     :goto_5
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     .line 125
     .line 126
@@ -5885,23 +5855,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setInitPos(I)V
@@ -5909,7 +5862,7 @@
 
     iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->Q1:I
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     instance-of v1, v0, Lcom/huawei/quickcard/views/list/layoutmanager/QGridLayoutManager;
 
@@ -5964,7 +5917,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/quickcard/views/list/layoutmanager/QStaggeredGridLayoutManager;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->setOrientation(I)V
 
@@ -5984,7 +5937,7 @@
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->setReverseLayout(Z)V
 
     :goto_0
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     goto :goto_1
 
@@ -5999,7 +5952,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/GridLayoutManager;->v(Landroidx/recyclerview/widget/GridLayoutManager$b;)V
 
-    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->M1:I
+    iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->y1:I
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/LinearLayoutManager;->setOrientation(I)V
 
@@ -6021,7 +5974,7 @@
     goto :goto_0
 
     :goto_1
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->L1:Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->x1:Landroidx/recyclerview/widget/RecyclerView$p;
 
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$p;)V
 
@@ -6031,7 +5984,7 @@
 .method public setOnScrollBottomEvent(Lcom/huawei/quickcard/views/list/c;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->G1:Lcom/huawei/quickcard/views/list/c;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->n1:Lcom/huawei/quickcard/views/list/c;
 
     return-void
 .end method
@@ -6039,7 +5992,7 @@
 .method public setOnScrollEndEvent(Lcom/huawei/quickcard/views/list/d;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->H1:Lcom/huawei/quickcard/views/list/d;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->o1:Lcom/huawei/quickcard/views/list/d;
 
     return-void
 .end method
@@ -6047,7 +6000,7 @@
 .method public setOnScrollEvent(Lcom/huawei/quickcard/views/list/e;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->I1:Lcom/huawei/quickcard/views/list/e;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->s1:Lcom/huawei/quickcard/views/list/e;
 
     return-void
 .end method
@@ -6055,7 +6008,7 @@
 .method public setOnScrollTopEvent(Lcom/huawei/quickcard/views/list/f;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->J1:Lcom/huawei/quickcard/views/list/f;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->t1:Lcom/huawei/quickcard/views/list/f;
 
     return-void
 .end method
@@ -6063,7 +6016,7 @@
 .method public setOnScrollTouchUpEvent(Lcom/huawei/quickcard/views/list/g;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->K1:Lcom/huawei/quickcard/views/list/g;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->v1:Lcom/huawei/quickcard/views/list/g;
 
     return-void
 .end method
@@ -6073,11 +6026,11 @@
 
     iput-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->d2:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ta9;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ab9;->h(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -6105,27 +6058,27 @@
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     if-eqz p1, :cond_3
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ta9;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ab9;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     if-nez v0, :cond_2
 
-    new-instance v0, Lcom/huawei/appmarket/ta9;
+    new-instance v0, Lcom/huawei/appmarket/ab9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ta9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ab9;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iput-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     :cond_2
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -6136,29 +6089,29 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
-    invoke-virtual {v3, p0}, Lcom/huawei/appmarket/ta9;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v3, p0}, Lcom/huawei/appmarket/ab9;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object v3, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/ta9;->i(Z)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/ab9;->i(Z)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     iget-object v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->d2:Ljava/lang/String;
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ta9;->h(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ab9;->h(Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     iget v1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->e2:F
 
-    invoke-virtual {p1, v0, v2, v1}, Lcom/huawei/appmarket/ta9;->f(Landroid/content/Context;Lcom/huawei/quickcard/CardContext;F)V
+    invoke-virtual {p1, v0, v2, v1}, Lcom/huawei/appmarket/ab9;->f(Landroid/content/Context;Lcom/huawei/quickcard/CardContext;F)V
 
     :cond_3
     :goto_1
@@ -6170,7 +6123,7 @@
 
     iput p1, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->e2:F
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ta9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->c2:Lcom/huawei/appmarket/ab9;
 
     if-eqz v0, :cond_0
 
@@ -6182,7 +6135,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/ta9;->f(Landroid/content/Context;Lcom/huawei/quickcard/CardContext;F)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/ab9;->f(Landroid/content/Context;Lcom/huawei/quickcard/CardContext;F)V
 
     :cond_0
     return-void
@@ -6239,7 +6192,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
 
     return-void
 .end method
@@ -6257,7 +6210,7 @@
 .method public update(Ljava/lang/String;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/r09;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/list/QRecyclerView;->R1:Lcom/huawei/appmarket/x09;
 
     invoke-virtual {v0, p1}, Lcom/huawei/quickcard/BaseRecyclerAdapter;->onDataChanged(Ljava/lang/String;)V
 

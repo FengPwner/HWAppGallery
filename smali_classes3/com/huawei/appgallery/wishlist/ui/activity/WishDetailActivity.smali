@@ -107,7 +107,7 @@
     .line 27
     .line 28
     .line 29
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 30
     .line 31
@@ -115,12 +115,12 @@
 
     .line 32
     .line 33
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 34
     .line 35
     .line 36
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 37
     .line 38
@@ -151,7 +151,7 @@
     const/4 v2, 0x0
 
     .line 51
-    const v3, 0x7f0a18de
+    const v3, 0x7f0a18df
 
     .line 52
     .line 53
@@ -289,7 +289,7 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/wishbase/ui/activity/WishBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     move-result-object p1
 
@@ -378,7 +378,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0a18ca
+    const v0, 0x7f0a18cb
 
     invoke-virtual {p0, v0, p1}, Lcom/huawei/appgallery/wishbase/ui/activity/WishBaseActivity;->C3(ILjava/lang/String;)V
 
@@ -397,7 +397,7 @@
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/activity/WishDetailActivity;->u:Ljava/util/Map;
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v0, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -433,7 +433,7 @@
 
     const-string v1, "WishDetailActivity"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
@@ -451,19 +451,19 @@
 
     if-eqz p1, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object p1
 
     const-string v0, "wishnotification"
 
-    iput-object v0, p1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iput-object v0, p1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
     const-string v1, "NATIVENOTIFICATION"
 
-    iput-object v1, p1, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iput-object v1, p1, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mk3;->c(Lcom/huawei/appmarket/sn0;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ok3;->c(Lcom/huawei/appmarket/tn0;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/j90;->a(Ljava/lang/String;)V
 
@@ -567,7 +567,7 @@
 
     .line 41
     .line 42
-    sget-object p1, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p1, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     .line 43
     .line 44
@@ -579,7 +579,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -668,7 +668,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onRetainCustomNonConfigurationInstance()Ljava/lang/Object;
@@ -702,7 +701,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v0, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -718,7 +717,7 @@
 
     const-string v2, "WishDetailActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/activity/WishDetailActivity;->u:Ljava/util/Map;
 

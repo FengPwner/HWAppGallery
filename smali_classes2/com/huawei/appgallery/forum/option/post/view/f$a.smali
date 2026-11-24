@@ -85,7 +85,7 @@
 
     const-string v1, "can\'t start InitiateVotingActivity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -291,7 +291,7 @@
     move-result-object v4
 
     .line 100
-    invoke-static {v4}, Lcom/huawei/appmarket/w68;->o(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/b78;->o(Landroid/content/Context;)I
 
     .line 101
     .line 102

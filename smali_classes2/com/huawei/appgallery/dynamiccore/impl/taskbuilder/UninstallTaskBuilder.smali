@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private transient mListener:Lcom/huawei/appmarket/yv3;
+.field private transient mListener:Lcom/huawei/appmarket/aw3;
 
 .field private mModules:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
@@ -82,9 +82,9 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->d(I)V
 
-    sget-object v1, Lcom/huawei/appmarket/zv7;->b:Lcom/huawei/appmarket/zv7;
+    sget-object v1, Lcom/huawei/appmarket/fw7;->b:Lcom/huawei/appmarket/fw7;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->i(Lcom/huawei/appmarket/zv7;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->i(Lcom/huawei/appmarket/fw7;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;->mPkgName:Ljava/lang/String;
 
@@ -98,9 +98,9 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->h(Ljava/util/ArrayList;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;->mListener:Lcom/huawei/appmarket/yv3;
+    iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;->mListener:Lcom/huawei/appmarket/aw3;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->f(Lcom/huawei/appmarket/yv3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->f(Lcom/huawei/appmarket/aw3;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/packagemanager/api/bean/c$b;->a()Lcom/huawei/appgallery/packagemanager/api/bean/c;
 
@@ -109,11 +109,11 @@
     return-object v0
 .end method
 
-.method public setListener(Lcom/huawei/appmarket/yv3;)Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;
+.method public setListener(Lcom/huawei/appmarket/aw3;)Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;->mListener:Lcom/huawei/appmarket/yv3;
+    iput-object p1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/UninstallTaskBuilder;->mListener:Lcom/huawei/appmarket/aw3;
 
     return-object p0
 .end method

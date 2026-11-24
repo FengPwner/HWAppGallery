@@ -123,7 +123,7 @@
     move-result-object p3
 
     .line 5
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 

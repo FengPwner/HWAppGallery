@@ -103,7 +103,7 @@
 
     .line 40
     .line 41
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -140,7 +140,7 @@
 
     .line 58
     .line 59
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 60
     .line 61
@@ -152,7 +152,7 @@
 
     .line 64
     .line 65
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 66
     .line 67
@@ -190,7 +190,7 @@
 
     .line 82
     .line 83
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 84
     .line 85
@@ -1206,7 +1206,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v0
 
@@ -1220,13 +1220,13 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v3
 
@@ -1719,7 +1719,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1801,7 +1801,7 @@
 
     const-string v0, "setViewPagerAdapter error. "
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

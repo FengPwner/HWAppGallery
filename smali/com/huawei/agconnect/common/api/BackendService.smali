@@ -21,7 +21,7 @@
     return-void
 .end method
 
-.method public static sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+.method public static sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -34,13 +34,13 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/common/api/BackendService$Options;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/agconnect/common/server/BackendServiceImpl;->c(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 

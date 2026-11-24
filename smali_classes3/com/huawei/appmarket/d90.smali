@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ti3;
+.implements Lcom/huawei/appmarket/vi3;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/service/bridgeservice/server/DataHolder;Lcom/huawei/appmarket/pu3;)V
+.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/service/bridgeservice/server/DataHolder;Lcom/huawei/appmarket/ru3;)V
     .registers 6
 
     .line 1
@@ -45,7 +45,7 @@
 
     const-string v1, "BiReportProcess"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appmarket/service/bridgeservice/server/DataHolder;->b()Ljava/lang/String;
 
@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/google/gson/Gson;
 
@@ -84,11 +84,11 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     const-string p1, "OK"
 
-    invoke-interface {p3, p1}, Lcom/huawei/appmarket/pu3;->a(Ljava/lang/String;)V
+    invoke-interface {p3, p1}, Lcom/huawei/appmarket/ru3;->a(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

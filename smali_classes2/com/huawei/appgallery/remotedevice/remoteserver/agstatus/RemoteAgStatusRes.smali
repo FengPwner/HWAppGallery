@@ -9,7 +9,7 @@
 
 # instance fields
 .field private status:Lcom/huawei/appgallery/remotedevice/remoteserver/agstatus/RemoteAgStatus;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
     if-eqz v2, :cond_0
 
     :try_start_0
-    sget-object v2, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v2, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -63,18 +63,18 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v1, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     const-string v2, "queryAgStatus exception "
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

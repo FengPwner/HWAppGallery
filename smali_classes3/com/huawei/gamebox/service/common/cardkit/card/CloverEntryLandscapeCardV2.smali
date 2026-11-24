@@ -33,7 +33,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -41,7 +41,7 @@
     move-result v1
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 8
     .line 9
@@ -49,7 +49,7 @@
     move-result v2
 
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 12
     .line 13

@@ -1965,445 +1965,445 @@
 
     const/16 v1, 0x142
 
-    const-string v2, "wa"
+    const-string/jumbo v2, "wa"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x143
 
-    const-string v2, "wai"
+    const-string/jumbo v2, "wai"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x144
 
-    const-string v2, "wan"
+    const-string/jumbo v2, "wan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x145
 
-    const-string v2, "wang"
+    const-string/jumbo v2, "wang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x146
 
-    const-string v2, "wei"
+    const-string/jumbo v2, "wei"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x147
 
-    const-string v2, "wen"
+    const-string/jumbo v2, "wen"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x148
 
-    const-string v2, "weng"
+    const-string/jumbo v2, "weng"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x149
 
-    const-string v2, "wo"
+    const-string/jumbo v2, "wo"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14a
 
-    const-string v2, "wu"
+    const-string/jumbo v2, "wu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14b
 
-    const-string v2, "xi"
+    const-string/jumbo v2, "xi"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14c
 
-    const-string v2, "xia"
+    const-string/jumbo v2, "xia"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14d
 
-    const-string v2, "xian"
+    const-string/jumbo v2, "xian"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14e
 
-    const-string v2, "xiang"
+    const-string/jumbo v2, "xiang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14f
 
-    const-string v2, "xiao"
+    const-string/jumbo v2, "xiao"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x150
 
-    const-string v2, "xie"
+    const-string/jumbo v2, "xie"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x151
 
-    const-string v2, "xin"
+    const-string/jumbo v2, "xin"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x152
 
-    const-string v2, "xing"
+    const-string/jumbo v2, "xing"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x153
 
-    const-string v2, "xiong"
+    const-string/jumbo v2, "xiong"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x154
 
-    const-string v2, "xiu"
+    const-string/jumbo v2, "xiu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x155
 
-    const-string v2, "xu"
+    const-string/jumbo v2, "xu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x156
 
-    const-string v2, "xuan"
+    const-string/jumbo v2, "xuan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x157
 
-    const-string v2, "xue"
+    const-string/jumbo v2, "xue"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x158
 
-    const-string v2, "xun"
+    const-string/jumbo v2, "xun"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x159
 
-    const-string v2, "ya"
+    const-string/jumbo v2, "ya"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15a
 
-    const-string v2, "yan"
+    const-string/jumbo v2, "yan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15b
 
-    const-string v2, "yang"
+    const-string/jumbo v2, "yang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15c
 
-    const-string v2, "yao"
+    const-string/jumbo v2, "yao"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15d
 
-    const-string v2, "ye"
+    const-string/jumbo v2, "ye"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15e
 
-    const-string v2, "yi"
+    const-string/jumbo v2, "yi"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15f
 
-    const-string v2, "yin"
+    const-string/jumbo v2, "yin"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x160
 
-    const-string v2, "ying"
+    const-string/jumbo v2, "ying"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x161
 
-    const-string v2, "yo"
+    const-string/jumbo v2, "yo"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x162
 
-    const-string v2, "yong"
+    const-string/jumbo v2, "yong"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x163
 
-    const-string v2, "you"
+    const-string/jumbo v2, "you"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x164
 
-    const-string v2, "yu"
+    const-string/jumbo v2, "yu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x165
 
-    const-string v2, "yuan"
+    const-string/jumbo v2, "yuan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x166
 
-    const-string v2, "yue"
+    const-string/jumbo v2, "yue"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x167
 
-    const-string v2, "yun"
+    const-string/jumbo v2, "yun"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x168
 
-    const-string v2, "za"
+    const-string/jumbo v2, "za"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x169
 
-    const-string v2, "zai"
+    const-string/jumbo v2, "zai"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16a
 
-    const-string v2, "zan"
+    const-string/jumbo v2, "zan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16b
 
-    const-string v2, "zang"
+    const-string/jumbo v2, "zang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16c
 
-    const-string v2, "zao"
+    const-string/jumbo v2, "zao"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16d
 
-    const-string v2, "ze"
+    const-string/jumbo v2, "ze"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16e
 
-    const-string v2, "zei"
+    const-string/jumbo v2, "zei"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16f
 
-    const-string v2, "zen"
+    const-string/jumbo v2, "zen"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x170
 
-    const-string v2, "zeng"
+    const-string/jumbo v2, "zeng"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x171
 
-    const-string v2, "zha"
+    const-string/jumbo v2, "zha"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x172
 
-    const-string v2, "zhai"
+    const-string/jumbo v2, "zhai"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x173
 
-    const-string v2, "zhan"
+    const-string/jumbo v2, "zhan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x174
 
-    const-string v2, "zhang"
+    const-string/jumbo v2, "zhang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x175
 
-    const-string v2, "zhao"
+    const-string/jumbo v2, "zhao"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x176
 
-    const-string v2, "zhe"
+    const-string/jumbo v2, "zhe"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x177
 
-    const-string v2, "zhen"
+    const-string/jumbo v2, "zhen"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x178
 
-    const-string v2, "zheng"
+    const-string/jumbo v2, "zheng"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x179
 
-    const-string v2, "zhi"
+    const-string/jumbo v2, "zhi"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17a
 
-    const-string v2, "zhong"
+    const-string/jumbo v2, "zhong"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17b
 
-    const-string v2, "zhou"
+    const-string/jumbo v2, "zhou"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17c
 
-    const-string v2, "zhu"
+    const-string/jumbo v2, "zhu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17d
 
-    const-string v2, "zhua"
+    const-string/jumbo v2, "zhua"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17e
 
-    const-string v2, "zhuai"
+    const-string/jumbo v2, "zhuai"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17f
 
-    const-string v2, "zhuan"
+    const-string/jumbo v2, "zhuan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x180
 
-    const-string v2, "zhuang"
+    const-string/jumbo v2, "zhuang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x181
 
-    const-string v2, "zhui"
+    const-string/jumbo v2, "zhui"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x182
 
-    const-string v2, "zhun"
+    const-string/jumbo v2, "zhun"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x183
 
-    const-string v2, "zhuo"
+    const-string/jumbo v2, "zhuo"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x184
 
-    const-string v2, "zi"
+    const-string/jumbo v2, "zi"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x185
 
-    const-string v2, "zong"
+    const-string/jumbo v2, "zong"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x186
 
-    const-string v2, "zou"
+    const-string/jumbo v2, "zou"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x187
 
-    const-string v2, "zu"
+    const-string/jumbo v2, "zu"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x188
 
-    const-string v2, "zuan"
+    const-string/jumbo v2, "zuan"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x189
 
-    const-string v2, "zui"
+    const-string/jumbo v2, "zui"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18a
 
-    const-string v2, "zun"
+    const-string/jumbo v2, "zun"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18b
 
-    const-string v2, "zuo"
+    const-string/jumbo v2, "zuo"
 
     aput-object v2, v0, v1
 
@@ -3145,23 +3145,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static declared-synchronized b()Lcom/huawei/uikit/hwalphaindexerlistview/utils/HwTextPinyinUtil;

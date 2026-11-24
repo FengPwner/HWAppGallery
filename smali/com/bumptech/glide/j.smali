@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ii5$a;
+.field private b:Lcom/huawei/appmarket/ki5$a;
 
 
 # direct methods
@@ -32,11 +32,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ii5;->a()Lcom/huawei/appmarket/ii5$a;
+    invoke-static {}, Lcom/huawei/appmarket/ki5;->a()Lcom/huawei/appmarket/ki5$a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ii5$a;
+    iput-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ki5$a;
 
     return-void
 .end method
@@ -74,11 +74,11 @@
     throw v1
 .end method
 
-.method final b()Lcom/huawei/appmarket/ii5$a;
+.method final b()Lcom/huawei/appmarket/ki5$a;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ii5$a;
+    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ki5$a;
 
     return-object v0
 .end method
@@ -107,11 +107,11 @@
 
     check-cast p1, Lcom/bumptech/glide/j;
 
-    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ii5$a;
+    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ki5$a;
 
-    iget-object p1, p1, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ii5$a;
+    iget-object p1, p1, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ki5$a;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -126,7 +126,7 @@
 .method public hashCode()I
     .registers 2
 
-    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ii5$a;
+    iget-object v0, p0, Lcom/bumptech/glide/j;->b:Lcom/huawei/appmarket/ki5$a;
 
     if-eqz v0, :cond_0
 

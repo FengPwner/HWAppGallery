@@ -79,7 +79,7 @@
 
     const/16 v2, 0x10
 
-    invoke-static {v2}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v2
 

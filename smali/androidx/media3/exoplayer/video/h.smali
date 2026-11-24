@@ -12,10 +12,10 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/eb1;)V
+.method public abstract a(Lcom/huawei/appmarket/fb1;)V
 .end method
 
-.method public abstract b(Landroidx/media3/common/a;Lcom/huawei/appmarket/gb1;)V
+.method public abstract b(Landroidx/media3/common/a;Lcom/huawei/appmarket/hb1;)V
 .end method
 
 .method public abstract c(Ljava/lang/String;)V
@@ -33,10 +33,10 @@
 .method public abstract o(IJ)V
 .end method
 
-.method public abstract onVideoSizeChanged(Lcom/huawei/appmarket/ph8;)V
+.method public abstract onVideoSizeChanged(Lcom/huawei/appmarket/vh8;)V
 .end method
 
-.method public abstract q(Lcom/huawei/appmarket/eb1;)V
+.method public abstract q(Lcom/huawei/appmarket/fb1;)V
 .end method
 
 .method public abstract s(JJLjava/lang/String;)V

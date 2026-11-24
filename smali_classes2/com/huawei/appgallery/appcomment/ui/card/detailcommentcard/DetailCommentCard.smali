@@ -84,7 +84,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 19
     .line 20
@@ -92,7 +92,7 @@
     move-result-object p0
 
     .line 22
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 23
     .line 24
@@ -236,7 +236,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic y1(Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -305,7 +304,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCard;->x:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 
@@ -331,7 +330,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_1
     const/16 v1, 0x8
@@ -344,7 +343,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     const v0, 0x7f0a05bf
 
@@ -483,13 +482,13 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCard$a;
 
     invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCard$a;-><init>(Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCard;Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentCardBean$Tag;)V
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -752,7 +751,7 @@
     .line 120
     .line 121
     .line 122
-    invoke-static {v6}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {v6}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 123
     .line 124
@@ -847,7 +846,7 @@
 
     .line 170
     .line 171
-    invoke-static {v7, v10}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v7, v10}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 172
     .line 173
@@ -911,7 +910,7 @@
 
     .line 203
     :cond_7
-    invoke-static {v7, v10}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v7, v10}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 204
     .line 205
@@ -1516,11 +1515,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final bridge synthetic g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

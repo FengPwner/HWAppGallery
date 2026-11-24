@@ -16,7 +16,7 @@
 
 .field protected B:Landroid/view/View;
 
-.field private C:Lcom/huawei/appmarket/d04;
+.field private C:Lcom/huawei/appmarket/f04;
 
 .field private D:Landroid/widget/ImageView;
 
@@ -32,7 +32,7 @@
 
 .field protected y:Lcom/huawei/uikit/hwrecyclerview/widget/HwRecyclerView;
 
-.field protected z:Lcom/huawei/appmarket/n47;
+.field protected z:Lcom/huawei/appmarket/s47;
 
 
 # direct methods
@@ -43,7 +43,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     new-instance p1, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard$a;
 
@@ -71,7 +71,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 4
     .line 5
@@ -719,7 +719,7 @@
     .line 1
     const v0, 0x7f0a1509
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a0b32
 
@@ -754,7 +754,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/d;->x:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -787,13 +787,13 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/f93;
+    new-instance v0, Lcom/huawei/appmarket/i93;
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/d;->x:Ljava/util/List;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/f93;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/i93;-><init>(Ljava/util/List;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->y:Lcom/huawei/uikit/hwrecyclerview/widget/HwRecyclerView;
 
@@ -846,7 +846,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->C:Lcom/huawei/appmarket/d04;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->C:Lcom/huawei/appmarket/f04;
 
     if-nez v0, :cond_0
 
@@ -856,27 +856,27 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->C:Lcom/huawei/appmarket/d04;
+    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->C:Lcom/huawei/appmarket/f04;
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->D:Landroid/widget/ImageView;
 
     const v2, 0x7f08093a
 
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/d04;->a(I)Landroid/graphics/drawable/Drawable;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/f04;->a(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v0
 
@@ -884,7 +884,7 @@
 
     if-gt v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v0
 
@@ -910,13 +910,13 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->X0(J)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_0
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/w30;->k()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     const/4 v1, 0x1
 
@@ -935,7 +935,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result v1
 
@@ -949,7 +949,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_1
 
@@ -959,7 +959,7 @@
 
     invoke-direct {p0, v1}, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->F1(Z)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/w30;->l()Ljava/util/ArrayList;
 
@@ -1024,13 +1024,13 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->h0(J)V
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v0
 
     iget v2, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->I:I
 
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     :cond_1
     return-void
@@ -1050,7 +1050,7 @@
 
     check-cast v0, Lcom/huawei/appgallery/search/ui/cardbean/HistorySearchCardBean;
 
-    invoke-static {}, Lcom/huawei/appmarket/d47;->r()Lcom/huawei/appmarket/d47;
+    invoke-static {}, Lcom/huawei/appmarket/i47;->r()Lcom/huawei/appmarket/i47;
 
     move-result-object v1
 
@@ -1058,7 +1058,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/d47;->t(I)Ljava/util/List;
+    invoke-static {v2}, Lcom/huawei/appmarket/i47;->t(I)Ljava/util/List;
 
     move-result-object v1
 
@@ -1076,7 +1076,7 @@
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->G1()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_0
 
@@ -1090,25 +1090,25 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/w30;->p(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/d;->x:Ljava/util/List;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/n47;->s(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/s47;->s(Ljava/util/List;)V
 
     :cond_0
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/n47;->t(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/s47;->t(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     return-void
@@ -1231,7 +1231,7 @@
     move-result-object v0
 
     .line 60
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 61
     .line 62
@@ -1286,5 +1286,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

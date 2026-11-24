@@ -243,7 +243,7 @@
 
     .line 98
     .line 99
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 100
     .line 101
@@ -255,7 +255,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {p2, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -337,7 +337,7 @@
 
     .line 147
     .line 148
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 149
     .line 150
@@ -379,7 +379,7 @@
     move-result-object v1
 
     .line 170
-    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     .line 172
@@ -452,7 +452,7 @@
     move-result-object p1
 
     .line 208
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     .line 209
     .line 210
@@ -460,7 +460,7 @@
 
     .line 211
     .line 212
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     .line 213
     .line 214
@@ -518,7 +518,7 @@
     move-result-object v2
 
     .line 240
-    check-cast v2, Lcom/huawei/appmarket/hj0;
+    check-cast v2, Lcom/huawei/appmarket/ij0;
 
     .line 241
     .line 242
@@ -526,7 +526,7 @@
 
     .line 243
     .line 244
-    iget-object v3, v2, Lcom/huawei/appmarket/hj0;->f:Ljava/util/ArrayList;
+    iget-object v3, v2, Lcom/huawei/appmarket/ij0;->f:Ljava/util/ArrayList;
 
     .line 245
     .line 246
@@ -542,7 +542,7 @@
 
     .line 251
     .line 252
-    iget-object v2, v2, Lcom/huawei/appmarket/hj0;->f:Ljava/util/ArrayList;
+    iget-object v2, v2, Lcom/huawei/appmarket/ij0;->f:Ljava/util/ArrayList;
 
     .line 253
     .line 254
@@ -608,7 +608,7 @@
     move-result-object v4
 
     .line 284
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->e()Ljava/lang/String;
 
     .line 285
     .line 286
@@ -648,7 +648,7 @@
     move-result v2
 
     .line 303
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->b()I
 
     .line 304
     .line 305
@@ -688,7 +688,7 @@
     move-result-object v2
 
     .line 322
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 323
     .line 324
@@ -714,7 +714,7 @@
 
     .line 334
     .line 335
-    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;->W7(Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;->W7(Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 336
     .line 337
@@ -730,7 +730,7 @@
 
     .line 342
     .line 343
-    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;->X7(Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;)Lcom/huawei/appmarket/sk0;
+    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;->X7(Lcom/huawei/appgallery/appcomment/ui/AppReplyFragment;)Lcom/huawei/appmarket/tk0;
 
     .line 344
     .line 345
@@ -980,11 +980,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

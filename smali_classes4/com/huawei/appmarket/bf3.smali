@@ -7,15 +7,15 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/cf3;
+.field final synthetic a:Lcom/huawei/appmarket/ef3;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/cf3;)V
+.method constructor <init>(Lcom/huawei/appmarket/ef3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/bf3;->a:Lcom/huawei/appmarket/cf3;
+    iput-object p1, p0, Lcom/huawei/appmarket/bf3;->a:Lcom/huawei/appmarket/ef3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -32,16 +32,16 @@
 
     const-string p1, "HwSeekableLoadingAnim"
 
-    const-string v0, "onAnimationUpdate:null animator"
+    const-string v0, "onAnimationUpdate: null animator"
 
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/bf3;->a:Lcom/huawei/appmarket/cf3;
+    iget-object v0, p0, Lcom/huawei/appmarket/bf3;->a:Lcom/huawei/appmarket/ef3;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/fe3;->c:Lcom/huawei/appmarket/fe3$i;
+    iget-object v1, v0, Lcom/huawei/appmarket/he3;->c:Lcom/huawei/appmarket/he3$i;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -53,7 +53,7 @@
 
     move-result p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/fe3$i;->g(F)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/he3$i;->b(F)V
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 

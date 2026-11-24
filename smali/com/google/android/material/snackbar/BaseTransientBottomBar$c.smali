@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # annotations
@@ -34,11 +34,11 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 4
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->i()I
 
     move-result p1
 
@@ -46,13 +46,13 @@
 
     invoke-static {v0, p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->h(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->j()I
 
     move-result p1
 
     invoke-static {v0, p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->i(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->k()I
 
     move-result p1
 

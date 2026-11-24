@@ -64,13 +64,13 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/t29;
+    check-cast v2, Lcom/huawei/appmarket/z29;
 
     invoke-static {v3}, Lcom/huawei/quickcard/exposure/ExposureManager;->a(Landroid/view/View;)I
 
     move-result v4
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/t29;->n()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/z29;->n()I
 
     move-result v5
 
@@ -84,13 +84,13 @@
     const/4 v4, 0x0
 
     :goto_1
-    invoke-virtual {v2}, Lcom/huawei/appmarket/t29;->s()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/z29;->s()Z
 
     move-result v5
 
     if-eq v4, v5, :cond_0
 
-    invoke-static {v0, v3, v2, v4}, Lcom/huawei/quickcard/exposure/ExposureManager;->e(Lcom/huawei/quickcard/exposure/ExposureManager;Landroid/view/View;Lcom/huawei/appmarket/t29;Z)V
+    invoke-static {v0, v3, v2, v4}, Lcom/huawei/quickcard/exposure/ExposureManager;->e(Lcom/huawei/quickcard/exposure/ExposureManager;Landroid/view/View;Lcom/huawei/appmarket/z29;Z)V
 
     goto :goto_0
 

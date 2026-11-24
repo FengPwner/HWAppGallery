@@ -38,13 +38,13 @@
 
 .field private v3:Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;
 
-.field private w3:Lcom/huawei/appmarket/b25;
+.field private w3:Lcom/huawei/appmarket/e25;
 
-.field private x3:Lcom/huawei/appmarket/sh8;
+.field private x3:Lcom/huawei/appmarket/yh8;
 
 .field private y3:Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;
 
-.field private z3:Lcom/huawei/appmarket/qh8;
+.field private z3:Lcom/huawei/appmarket/wh8;
 
 
 # direct methods
@@ -269,7 +269,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic F7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Integer;)V
@@ -458,7 +457,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic G7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Integer;)V
@@ -500,7 +498,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -667,7 +665,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic H7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;)V
@@ -678,11 +675,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sh8;->w()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yh8;->w()Lcom/huawei/appmarket/ce5;
 
     .line 6
     .line 7
@@ -750,7 +747,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -762,15 +759,15 @@
 
     .line 44
     .line 45
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/b25;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/e25;
 
     .line 46
     .line 47
-    iget-object v1, v1, Lcom/huawei/appmarket/b25;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v1, v1, Lcom/huawei/appmarket/e25;->c:Lcom/huawei/appmarket/ce5;
 
     .line 48
     .line 49
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     .line 50
     .line 51
@@ -845,7 +842,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic I7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Boolean;)V
@@ -885,7 +881,7 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -1047,7 +1043,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic J7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;)Z
@@ -1077,7 +1072,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -1188,7 +1183,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic K7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Boolean;)V
@@ -1230,11 +1224,11 @@
 
     .line 17
     .line 18
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/b25;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/e25;
 
     .line 19
     .line 20
-    iget-object p1, p1, Lcom/huawei/appmarket/b25;->c:Lcom/huawei/appmarket/zd5;
+    iget-object p1, p1, Lcom/huawei/appmarket/e25;->c:Lcom/huawei/appmarket/ce5;
 
     .line 21
     .line 22
@@ -1242,7 +1236,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -1402,7 +1396,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic L7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Boolean;)V
@@ -1599,7 +1592,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic M7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;)V
@@ -1618,7 +1610,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/b25;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/e25;
 
     .line 8
     .line 9
@@ -1639,11 +1631,11 @@
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/b25;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/e25;
 
     .line 19
     .line 20
-    iget-object v0, v0, Lcom/huawei/appmarket/b25;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v0, v0, Lcom/huawei/appmarket/e25;->c:Lcom/huawei/appmarket/ce5;
 
     .line 21
     .line 22
@@ -1651,7 +1643,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -1668,7 +1660,7 @@
     .line 31
     .line 32
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -1774,7 +1766,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic N7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Boolean;)V
@@ -1802,11 +1793,11 @@
 
     .line 11
     .line 12
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     .line 15
     .line 16
@@ -1822,7 +1813,7 @@
 
     .line 21
     :cond_0
-    const v0, 0x7f0a17ff
+    const v0, 0x7f0a1800
 
     .line 22
     .line 23
@@ -1843,11 +1834,11 @@
 
     .line 31
     :cond_1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 32
     .line 33
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/sh8;->B(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/yh8;->B(Landroid/view/View;)V
 
     .line 34
     .line 35
@@ -2005,18 +1996,17 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic O7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/util/List;)V
     .registers 2
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/qh8;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/wh8;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/qh8;->j(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/wh8;->j(Ljava/util/List;)V
 
     .line 4
     .line 5
@@ -2190,7 +2180,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static synthetic P7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;Ljava/lang/Integer;)V
@@ -2391,7 +2380,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic Q7(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;)Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;
@@ -2419,7 +2407,7 @@
 
     const-string v1, "filter data"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2473,7 +2461,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -2526,7 +2514,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     .line 33
     .line 34
@@ -2567,7 +2555,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1, v3, v0}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v1, v3, v0}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 55
     .line 56
@@ -2576,7 +2564,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 60
     .line 61
@@ -2618,7 +2606,7 @@
     .line 79
     .line 80
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -2692,7 +2680,7 @@
     const/4 v5, -0x1
 
     .line 116
-    invoke-static {v0, v5}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 117
     .line 118
@@ -2766,7 +2754,7 @@
 
     .line 152
     .line 153
-    new-instance v1, Lcom/huawei/appmarket/y07;
+    new-instance v1, Lcom/huawei/appmarket/c17;
 
     .line 154
     .line 155
@@ -2774,7 +2762,7 @@
 
     .line 156
     .line 157
-    invoke-direct {v1, p0, v5}, Lcom/huawei/appmarket/y07;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v5}, Lcom/huawei/appmarket/c17;-><init>(Ljava/lang/Object;I)V
 
     .line 158
     .line 159
@@ -2784,16 +2772,16 @@
     .line 161
     .line 162
     .line 163
-    new-instance v0, Lcom/huawei/appmarket/sh8;
+    new-instance v0, Lcom/huawei/appmarket/yh8;
 
     .line 164
     .line 165
-    invoke-direct {v0}, Lcom/huawei/appmarket/sh8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/yh8;-><init>()V
 
     .line 166
     .line 167
     .line 168
-    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 169
     .line 170
@@ -2809,7 +2797,7 @@
 
     .line 175
     .line 176
-    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J1:Z
+    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->t1:Z
 
     .line 177
     .line 178
@@ -2828,7 +2816,7 @@
 
     .line 183
     :goto_3
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sh8;->A(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yh8;->A(Z)V
 
     .line 184
     .line 185
@@ -2853,11 +2841,11 @@
     move-result-object v0
 
     .line 196
-    const-class v1, Lcom/huawei/appmarket/b25;
+    const-class v1, Lcom/huawei/appmarket/e25;
 
     .line 197
     .line 198
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->d(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->a(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 199
     .line 200
@@ -2865,25 +2853,25 @@
     move-result-object v0
 
     .line 202
-    check-cast v0, Lcom/huawei/appmarket/b25;
+    check-cast v0, Lcom/huawei/appmarket/e25;
 
     .line 203
     .line 204
-    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/b25;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->w3:Lcom/huawei/appmarket/e25;
 
     .line 205
     .line 206
     :cond_5
-    new-instance v0, Lcom/huawei/appmarket/qh8;
+    new-instance v0, Lcom/huawei/appmarket/wh8;
 
     .line 207
     .line 208
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/qh8;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/wh8;-><init>(Ljava/util/List;)V
 
     .line 209
     .line 210
     .line 211
-    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/qh8;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/wh8;
 
     .line 212
     .line 213
@@ -2904,7 +2892,7 @@
     .line 220
     .line 221
     .line 222
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 223
     .line 224
@@ -2921,7 +2909,7 @@
 
     .line 230
     .line 231
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/qh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->z3:Lcom/huawei/appmarket/wh8;
 
     .line 232
     .line 233
@@ -2964,11 +2952,11 @@
 
     .line 253
     .line 254
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 255
     .line 256
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->b(Lcom/huawei/appmarket/rp5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->b(Lcom/huawei/appmarket/sp5;)V
 
     .line 257
     .line 258
@@ -3015,11 +3003,11 @@
     move-result-object p1
 
     .line 280
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 281
     .line 282
-    invoke-virtual {p1, v1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, v1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 283
     .line 284
@@ -3040,11 +3028,11 @@
 
     .line 292
     .line 293
-    new-instance v6, Lcom/huawei/appmarket/wz5;
+    new-instance v6, Lcom/huawei/appmarket/yz5;
 
     .line 294
     .line 295
-    invoke-direct {v6, p0, v5}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v6, p0, v5}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
     .line 296
     .line 297
@@ -3054,11 +3042,11 @@
     .line 299
     .line 300
     .line 301
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 302
     .line 303
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->p()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->p()Lcom/huawei/appmarket/ce5;
 
     .line 304
     .line 305
@@ -3070,16 +3058,16 @@
 
     .line 308
     .line 309
-    invoke-virtual {p1, v5}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v5}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 310
     .line 311
     .line 312
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 313
     .line 314
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->p()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->p()Lcom/huawei/appmarket/ce5;
 
     .line 315
     .line 316
@@ -3087,28 +3075,28 @@
     move-result-object p1
 
     .line 318
-    new-instance v5, Lcom/huawei/appmarket/rh8;
+    new-instance v5, Lcom/huawei/appmarket/xh8;
 
     .line 319
     .line 320
     const/4 v6, 0x5
 
     .line 321
-    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 322
     .line 323
     .line 324
-    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 325
     .line 326
     .line 327
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 328
     .line 329
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->m()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->m()Lcom/huawei/appmarket/ce5;
 
     .line 330
     .line 331
@@ -3116,28 +3104,28 @@
     move-result-object p1
 
     .line 333
-    new-instance v5, Lcom/huawei/appmarket/rh8;
+    new-instance v5, Lcom/huawei/appmarket/xh8;
 
     .line 334
     .line 335
     const/4 v6, 0x6
 
     .line 336
-    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 337
     .line 338
     .line 339
-    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 340
     .line 341
     .line 342
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 343
     .line 344
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->k()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->k()Lcom/huawei/appmarket/ce5;
 
     .line 345
     .line 346
@@ -3145,28 +3133,28 @@
     move-result-object p1
 
     .line 348
-    new-instance v5, Lcom/huawei/appmarket/rh8;
+    new-instance v5, Lcom/huawei/appmarket/xh8;
 
     .line 349
     .line 350
     const/4 v6, 0x7
 
     .line 351
-    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v5, p0, v6}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 352
     .line 353
     .line 354
-    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v5}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 355
     .line 356
     .line 357
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 358
     .line 359
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->k()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->k()Lcom/huawei/appmarket/ce5;
 
     .line 360
     .line 361
@@ -3174,16 +3162,16 @@
     move-result-object p1
 
     .line 363
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 364
     .line 365
     .line 366
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 367
     .line 368
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->o()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->o()Lcom/huawei/appmarket/ce5;
 
     .line 369
     .line 370
@@ -3191,25 +3179,25 @@
     move-result-object p1
 
     .line 372
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 373
     .line 374
-    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 375
     .line 376
     .line 377
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 378
     .line 379
     .line 380
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 381
     .line 382
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->s()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->s()Lcom/huawei/appmarket/ce5;
 
     .line 383
     .line 384
@@ -3217,7 +3205,7 @@
     move-result-object p1
 
     .line 386
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 387
     .line 388
@@ -3225,21 +3213,21 @@
 
     .line 389
     .line 390
-    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 391
     .line 392
     .line 393
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 394
     .line 395
     .line 396
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 397
     .line 398
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->r()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->r()Lcom/huawei/appmarket/ce5;
 
     .line 399
     .line 400
@@ -3247,7 +3235,7 @@
     move-result-object p1
 
     .line 402
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 403
     .line 404
@@ -3255,21 +3243,21 @@
 
     .line 405
     .line 406
-    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v3}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 407
     .line 408
     .line 409
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 410
     .line 411
     .line 412
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 413
     .line 414
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->t()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->t()Lcom/huawei/appmarket/ce5;
 
     .line 415
     .line 416
@@ -3277,25 +3265,25 @@
     move-result-object p1
 
     .line 418
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 419
     .line 420
-    invoke-direct {v0, p0, v4}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v4}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 421
     .line 422
     .line 423
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 424
     .line 425
     .line 426
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 427
     .line 428
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->w()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->w()Lcom/huawei/appmarket/ce5;
 
     .line 429
     .line 430
@@ -3303,25 +3291,25 @@
     move-result-object p1
 
     .line 432
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 433
     .line 434
-    invoke-direct {v0, p0, v2}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v2}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 435
     .line 436
     .line 437
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 438
     .line 439
     .line 440
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 441
     .line 442
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->l()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->l()Lcom/huawei/appmarket/ce5;
 
     .line 443
     .line 444
@@ -3329,28 +3317,28 @@
     move-result-object p1
 
     .line 446
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 447
     .line 448
     const/4 v2, 0x2
 
     .line 449
-    invoke-direct {v0, p0, v2}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v2}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 450
     .line 451
     .line 452
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 453
     .line 454
     .line 455
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 456
     .line 457
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->j()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->j()Lcom/huawei/appmarket/ce5;
 
     .line 458
     .line 459
@@ -3358,25 +3346,25 @@
     move-result-object p1
 
     .line 461
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 462
     .line 463
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 464
     .line 465
     .line 466
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 467
     .line 468
     .line 469
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 470
     .line 471
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->q()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->q()Lcom/huawei/appmarket/ce5;
 
     .line 472
     .line 473
@@ -3384,19 +3372,19 @@
     move-result-object p1
 
     .line 475
-    new-instance v0, Lcom/huawei/appmarket/rh8;
+    new-instance v0, Lcom/huawei/appmarket/xh8;
 
     .line 476
     .line 477
     const/4 v1, 0x4
 
     .line 478
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/rh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xh8;-><init>(Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;I)V
 
     .line 479
     .line 480
     .line 481
-    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 482
     .line 483
@@ -4344,68 +4332,6 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
 .method private T7(Z)V
@@ -4422,7 +4348,7 @@
 
     const-string p1, "title view show"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->u3:Landroid/widget/LinearLayout;
 
@@ -4436,7 +4362,7 @@
     :cond_0
     const-string p1, "title view hide"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->u3:Landroid/widget/LinearLayout;
 
@@ -4450,11 +4376,11 @@
 
 
 # virtual methods
-.method protected final D7(Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;Z)V
+.method protected final D7(Lcom/huawei/appmarket/w34;Lcom/huawei/appmarket/x34;Z)V
     .registers 9
 
     .line 1
-    invoke-interface {p2}, Lcom/huawei/appmarket/v34;->getLayoutData()Ljava/util/List;
+    invoke-interface {p2}, Lcom/huawei/appmarket/x34;->getLayoutData()Ljava/util/List;
 
     .line 2
     .line 3
@@ -4549,7 +4475,7 @@
 
     .line 44
     .line 45
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -4569,7 +4495,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-interface {p1}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/w34;->getReqPageNum()I
 
     .line 58
     .line 59
@@ -4608,7 +4534,7 @@
     .line 76
     .line 77
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -4617,7 +4543,7 @@
 
     .line 81
     :cond_2
-    invoke-interface {p1}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/w34;->getReqPageNum()I
 
     .line 82
     .line 83
@@ -4641,7 +4567,7 @@
 
     .line 92
     .line 93
-    iget-object v4, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v4, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 94
     .line 95
@@ -4654,20 +4580,20 @@
     .line 98
     .line 99
     .line 100
-    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 101
     .line 102
-    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/sh8;->D(Ljava/util/ArrayList;)V
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/yh8;->D(Ljava/util/ArrayList;)V
 
     .line 103
     .line 104
     .line 105
-    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 106
     .line 107
-    invoke-virtual {p3}, Lcom/huawei/appmarket/sh8;->k()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/yh8;->k()Lcom/huawei/appmarket/ce5;
 
     .line 108
     .line 109
@@ -4675,16 +4601,16 @@
     move-result-object p3
 
     .line 111
-    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 112
     .line 113
     .line 114
-    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p3, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 115
     .line 116
-    invoke-virtual {p3}, Lcom/huawei/appmarket/sh8;->o()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/yh8;->o()Lcom/huawei/appmarket/ce5;
 
     .line 117
     .line 118
@@ -4696,12 +4622,12 @@
 
     .line 121
     .line 122
-    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 123
     .line 124
     .line 125
-    invoke-interface {p2}, Lcom/huawei/appmarket/v34;->getHasNextPage()I
+    invoke-interface {p2}, Lcom/huawei/appmarket/x34;->getHasNextPage()I
 
     .line 126
     .line 127
@@ -4717,11 +4643,11 @@
 
     .line 132
     :cond_3
-    iget-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     .line 133
     .line 134
-    invoke-virtual {p2}, Lcom/huawei/appmarket/sh8;->p()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/yh8;->p()Lcom/huawei/appmarket/ce5;
 
     .line 135
     .line 136
@@ -4737,7 +4663,7 @@
     move-result-object p3
 
     .line 142
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 143
     .line 144
@@ -4755,7 +4681,7 @@
     .line 150
     .line 151
     .line 152
-    invoke-interface {p1}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/w34;->getReqPageNum()I
 
     .line 153
     .line 154
@@ -4786,7 +4712,7 @@
     .line 165
     :cond_5
     :goto_3
-    invoke-interface {p1}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/w34;->getReqPageNum()I
 
     .line 166
     .line 167
@@ -4824,7 +4750,7 @@
 
     .line 184
     .line 185
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 186
     .line 187
@@ -5009,29 +4935,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public final H0()V
@@ -5040,22 +4943,22 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->H0()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sh8;->A(Z)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/yh8;->A(Z)V
 
     if-nez v0, :cond_1
 
@@ -5087,7 +4990,7 @@
 
     const-string v1, "unRegisterReceiver"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -5108,7 +5011,7 @@
     iput-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->A3:Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     if-eqz v0, :cond_1
 
@@ -5116,11 +5019,11 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
-    invoke-virtual {v0, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
-    iput-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iput-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     :cond_1
     return-void
@@ -5132,31 +5035,31 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->Z0(I)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     if-nez p1, :cond_0
 
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yh8;->u()Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sh8;->A(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yh8;->A(Z)V
 
     if-nez p1, :cond_1
 
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sh8;->n()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yh8;->n()Z
 
     move-result v0
 
@@ -5175,9 +5078,9 @@
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->start(Ljava/lang/String;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/sh8;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->x3:Lcom/huawei/appmarket/yh8;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sh8;->i(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/yh8;->i(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
 
     return-void
 .end method
@@ -5195,7 +5098,7 @@
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     move-result-object v0
 
@@ -5227,21 +5130,21 @@
 
     const-string v1, "fragment onDestroy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/th8;->f()Lcom/huawei/appmarket/th8;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/th8;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/zh8;->f()Lcom/huawei/appmarket/zh8;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/th8;->f()Lcom/huawei/appmarket/th8;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zh8;->e()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/huawei/appmarket/zh8;->f()Lcom/huawei/appmarket/zh8;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/th8;->d()Ljava/util/HashMap;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zh8;->d()Ljava/util/HashMap;
 
     move-result-object v1
 
@@ -5277,19 +5180,19 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/nl0;
+    check-cast v2, Lcom/huawei/appmarket/ol0;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v3
 
-    invoke-static {v2, v5, v6, v3}, Lcom/huawei/appmarket/xh8;->n(Lcom/huawei/appmarket/nl0;JI)V
+    invoke-static {v2, v5, v6, v3}, Lcom/huawei/appmarket/di8;->n(Lcom/huawei/appmarket/ol0;JI)V
 
-    invoke-static {}, Lcom/huawei/appmarket/th8;->f()Lcom/huawei/appmarket/th8;
+    invoke-static {}, Lcom/huawei/appmarket/zh8;->f()Lcom/huawei/appmarket/zh8;
 
     move-result-object v4
 
@@ -5299,9 +5202,9 @@
 
     move-object v7, v0
 
-    check-cast v7, Lcom/huawei/appmarket/nl0;
+    check-cast v7, Lcom/huawei/appmarket/ol0;
 
-    invoke-virtual/range {v4 .. v9}, Lcom/huawei/appmarket/th8;->h(JLcom/huawei/appmarket/nl0;J)V
+    invoke-virtual/range {v4 .. v9}, Lcom/huawei/appmarket/zh8;->h(JLcom/huawei/appmarket/ol0;J)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/VideoStreamFragment;->E3:Ljava/util/ArrayList;
@@ -5326,11 +5229,11 @@
     return-void
 .end method
 
-.method protected final m7(Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)V
+.method protected final m7(Lcom/huawei/appmarket/w34;Lcom/huawei/appmarket/x34;)V
     .registers 6
 
     .line 1
-    invoke-interface {p2}, Lcom/huawei/appmarket/v34;->getLayoutData()Ljava/util/List;
+    invoke-interface {p2}, Lcom/huawei/appmarket/x34;->getLayoutData()Ljava/util/List;
 
     .line 2
     .line 3
@@ -5420,7 +5323,7 @@
 
     .line 41
     .line 42
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 43
     .line 44
@@ -5464,7 +5367,7 @@
 
     .line 65
     .line 66
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
     .line 68
@@ -5575,18 +5478,17 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method protected final q7(Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)Z
+.method protected final q7(Lcom/huawei/appmarket/w34;Lcom/huawei/appmarket/x34;)Z
     .registers 5
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->q7(Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)Z
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->q7(Lcom/huawei/appmarket/w34;Lcom/huawei/appmarket/x34;)Z
 
     move-result p1
 
-    iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->H1:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment$f;
+    iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->o1:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment$f;
 
     if-eqz p2, :cond_0
 
@@ -5612,7 +5514,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/th8;->f()Lcom/huawei/appmarket/th8;
+    invoke-static {}, Lcom/huawei/appmarket/zh8;->f()Lcom/huawei/appmarket/zh8;
 
     move-result-object v0
 
@@ -5630,7 +5532,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/th8;->g(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zh8;->g(Landroid/content/Context;)V
 
     :cond_0
     return-void
@@ -5653,7 +5555,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -5805,7 +5707,7 @@
 
     .line 86
     .line 87
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -5836,7 +5738,7 @@
 
     .line 102
     .line 103
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -5846,11 +5748,11 @@
 
     .line 107
     .line 108
-    sget v0, Lcom/huawei/appmarket/rs1;->b:I
+    sget v0, Lcom/huawei/appmarket/us1;->b:I
 
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 111
     .line 112
@@ -5875,7 +5777,7 @@
 
     .line 122
     .line 123
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->a()Ljava/lang/String;
 
     .line 124
     .line 125
@@ -5931,7 +5833,7 @@
 
     .line 152
     .line 153
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 154
     .line 155
@@ -5955,5 +5857,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

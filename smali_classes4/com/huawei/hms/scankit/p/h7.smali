@@ -59,7 +59,7 @@
 .method public static b(Landroid/content/Context;)Landroid/graphics/Point;
     .registers 2
 
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 

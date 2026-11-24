@@ -60,7 +60,7 @@
     const/4 v2, 0x0
 
     .line 7
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/z84;->t(Landroid/content/Context;II)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/kk4;->v(Landroid/content/Context;II)V
 
     .line 8
     .line 9

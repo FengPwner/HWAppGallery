@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bm3;
+.implements Ljava/lang/Runnable;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->createShortcut(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->callJsbackMethod(Ljava/lang/String;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,22 @@
 
 
 # instance fields
-.field final synthetic a:Ljava/lang/String;
+.field final synthetic b:Ljava/lang/String;
 
-.field final synthetic b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+.field final synthetic c:I
+
+.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;I)V
+    .registers 4
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->a:Ljava/lang/String;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->b:Ljava/lang/String;
+
+    iput p3, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->c:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,18 +42,40 @@
 
 
 # virtual methods
-.method public final onResult(Ljava/lang/String;)V
+.method public final run()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mHandler:Landroid/os/Handler;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
 
-    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z$a;
+    new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z$a;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;Ljava/lang/String;)V
+    const-string v2, "javascript:window."
 
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->b:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "(\'"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z;->c:I
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v2, "\');"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
     return-void
 .end method

@@ -55,7 +55,7 @@
 
     const-string p2, "activity is finishing"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -78,11 +78,11 @@
 
     const p2, 0x7f1203fb
 
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/settings/view/activity/JointServiceOverseasActivity;->C3(Lcom/huawei/appmarket/service/settings/view/activity/JointServiceOverseasActivity;)V
 
@@ -91,11 +91,11 @@
     :cond_1
     const p2, 0x7f1203fa
 
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :goto_0
     return-void

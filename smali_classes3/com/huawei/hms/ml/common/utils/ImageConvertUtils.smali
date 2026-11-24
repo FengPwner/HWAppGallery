@@ -95,7 +95,7 @@
 
     const/16 v5, 0x80
 
-    invoke-static {v10, v14, v15, v5}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v10, v14, v15, v5}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v14
 
@@ -111,7 +111,7 @@
 
     const/16 v13, 0x70
 
-    invoke-static {v10, v13, v15, v5}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v10, v13, v15, v5}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v13
 
@@ -666,7 +666,7 @@
     :goto_3
     const/4 v1, 0x1
 
-    invoke-static {v7, v1, v12, v3}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v7, v1, v12, v3}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v1
 

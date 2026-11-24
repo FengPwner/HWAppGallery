@@ -78,13 +78,13 @@
     return-object v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/du4;)V
+.method public final b(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Landroidx/databinding/m;->a:Landroidx/databinding/j;
 
-    invoke-interface {v0, p1}, Landroidx/databinding/j;->a(Lcom/huawei/appmarket/du4;)V
+    invoke-interface {v0, p1}, Landroidx/databinding/j;->a(Lcom/huawei/appmarket/gu4;)V
 
     return-void
 .end method

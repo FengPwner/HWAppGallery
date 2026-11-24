@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6(I)V
+    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,7 +40,7 @@
 
     const-string v0, "recyclerView"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$t;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
@@ -48,7 +48,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$b;->c0:Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object p1
 

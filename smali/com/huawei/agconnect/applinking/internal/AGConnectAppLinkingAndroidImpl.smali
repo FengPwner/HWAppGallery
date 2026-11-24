@@ -56,44 +56,44 @@
     return-object p0
 .end method
 
-.method private a(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method private a(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a:Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance v1, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$1;
 
-    invoke-direct {v1, p0, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$1;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$1;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/hv7;
+.method private a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/nv7;
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -101,16 +101,16 @@
             "Landroid/app/Activity;",
             "Landroid/content/Intent;",
             "Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
     .end annotation
 
     .line 3
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;
 
@@ -132,23 +132,23 @@
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;
 
-    invoke-direct {p2, p0, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p0, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;ZLcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$2;
 
-    invoke-direct {p2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$2;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$2;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 
@@ -161,10 +161,10 @@
 
     invoke-direct {p1, p2, p3}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -199,10 +199,10 @@
 
     invoke-direct {p1, p2, p3}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -217,7 +217,7 @@
 
     if-eqz p1, :cond_3
 
-    invoke-direct {p0, p1, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p1, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
 
     goto :goto_1
 
@@ -244,7 +244,7 @@
 
     invoke-static {p2, v1}, Lcom/huawei/agconnect/common/api/Logger;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->b(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p1, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->b(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
 
     goto :goto_1
 
@@ -291,24 +291,24 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_1
 
     :cond_5
-    invoke-direct {p0, v2, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->b(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, v2, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->b(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
 
     goto :goto_1
 .end method
 
-.method private a(Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+.method private a(Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Intent;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
@@ -325,30 +325,30 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$4;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+.method static synthetic a(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
     .registers 4
 
     .line 5
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
 
-.method private a(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+.method private a(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             "Z",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;)V"
         }
@@ -394,15 +394,15 @@
 
     const-class v1, Lcom/huawei/agconnect/applinking/internal/server/OpenResponse;
 
-    invoke-static {v0, p2, v1, p1}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0, p2, v1, p1}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$5;
 
-    invoke-direct {p2, p0, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$5;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/applinking/internal/server/OpenRequest;)V
+    invoke-direct {p2, p0, p3, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$5;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/applinking/internal/server/OpenRequest;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -416,14 +416,14 @@
     return-object p0
 .end method
 
-.method private b(Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+.method private b(Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             "Z",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;)V"
         }
@@ -458,29 +458,29 @@
 
     const-class v2, Lcom/huawei/agconnect/applinking/internal/server/OpenResponse;
 
-    invoke-static {v0, v1, v2, p2}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0, v1, v2, p2}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p2
 
     new-instance v1, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$6;
 
-    invoke-direct {v1, p0, p3, v0, p1}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$6;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/nv7;Lcom/huawei/agconnect/applinking/internal/server/OpenRequest;Ljava/lang/String;)V
+    invoke-direct {v1, p0, p3, v0, p1}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$6;-><init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Lcom/huawei/appmarket/tv7;Lcom/huawei/agconnect/applinking/internal/server/OpenRequest;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public getAppLinking(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method public getAppLinking(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
@@ -491,14 +491,14 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+.method public getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -506,7 +506,7 @@
             "Landroid/app/Activity;",
             "Landroid/content/Intent;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
@@ -532,7 +532,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-direct {p0, p2}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p2}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -561,21 +561,21 @@
 
     if-nez v1, :cond_2
 
-    invoke-direct {p0, p1}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 
     :cond_2
-    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getAppLinking(Landroid/app/Activity;Landroid/net/Uri;)Lcom/huawei/appmarket/hv7;
+.method public getAppLinking(Landroid/app/Activity;Landroid/net/Uri;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -583,7 +583,7 @@
             "Landroid/app/Activity;",
             "Landroid/net/Uri;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
@@ -596,7 +596,7 @@
 
     invoke-virtual {v0, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

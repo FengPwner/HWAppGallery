@@ -1,12 +1,12 @@
 .class public Lcom/huawei/page/tabitem/tabbutton/TabButton;
-.super Lcom/huawei/appmarket/oa2;
+.super Lcom/huawei/appmarket/ra2;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/oa2<",
+        "Lcom/huawei/appmarket/ra2<",
         "Lcom/huawei/page/tabitem/tabbutton/TabButtonData;",
         ">;"
     }
@@ -21,20 +21,20 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/oa2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ra2;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method public final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 3
 
     .line 1
     new-instance p2, Landroid/widget/TextView;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -45,14 +45,14 @@
     return-object p2
 .end method
 
-.method protected final e(Lcom/huawei/appmarket/sa2;)V
+.method protected final e(Lcom/huawei/appmarket/va2;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method protected final g(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
+.method protected final g(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
     .registers 4
 
     .line 1
@@ -577,47 +577,4 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method

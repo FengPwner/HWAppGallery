@@ -46,7 +46,7 @@
 
     new-instance v1, Lcom/huawei/phoneservice/faq/widget/FaqAutoConfigLinearLayout$a;
 
-    const-string v3, "vertical"
+    const-string/jumbo v3, "vertical"
 
     const/4 v4, 0x1
 

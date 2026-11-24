@@ -1,246 +1,269 @@
 .class public final Lcom/huawei/appmarket/cq8;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:[Ljava/lang/String;
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 7
-
-    .line 1
-    const-string v0, "feedBack"
-
-    const-string v1, "commentReply"
-
-    const-string v2, "advIntercept"
-
-    const-string v3, "addWishInfo"
-
-    const-string v4, "wishDetail"
-
-    const-string v5, "addGameReserveInfo"
-
-    const-string v6, "agWebInstall"
-
-    filled-new-array/range {v0 .. v6}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/cq8;->a:[Ljava/lang/String;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Z
-    .registers 5
+
+# virtual methods
+.method protected final c()Lcom/huawei/appmarket/dn;
+    .registers 9
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    new-instance v0, Lcom/huawei/appmarket/aq8;
 
     .line 2
     .line 3
+    invoke-direct {v0}, Lcom/huawei/appmarket/aq8;-><init>()V
+
     .line 4
-    move-result-object v0
-
     .line 5
-    const-string v1, "GlobalConfig"
-
     .line 6
+    const-string v1, "promotions"
+
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
-
     .line 8
-    .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/zj0;->j(Ljava/lang/String;Lcom/huawei/appmarket/zj0$a;)V
 
+    .line 9
     .line 10
     .line 11
-    .line 12
-    move-result-object v0
+    const-string v0, "welfare_center_fragment"
 
+    .line 12
     .line 13
-    const-class v1, Lcom/huawei/appmarket/nr3;
+    const-class v1, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/sy0;->d(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    move-result-object v0
+    const-string v0, "welfare_center_activity"
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/nr3;
-
     .line 20
+    const-class v1, Lcom/huawei/appgallery/welfarecenter/business/ui/activity/WelfareCenterActivity;
+
     .line 21
-    new-instance v1, Lcom/huawei/appmarket/xr6$b;
-
     .line 22
-    .line 23
-    invoke-direct {v1}, Lcom/huawei/appmarket/xr6$b;-><init>()V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/sy0;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
+    .line 23
     .line 24
     .line 25
-    .line 26
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    const-string v0, "welfare_center_popup_activity"
 
+    .line 26
     .line 27
+    const-class v1, Lcom/huawei/appgallery/welfarecenter/business/showpopup/WelfareCenterPopUpShowActivity;
+
     .line 28
     .line 29
-    move-result v2
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/sy0;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 30
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/xr6$b;->f(I)V
-
     .line 31
     .line 32
-    .line 33
-    invoke-static {}, Lcom/huawei/appmarket/na3;->f()Ljava/lang/String;
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/cardbean/PointsReDeemCardBean;
 
+    .line 33
     .line 34
+    const-string v1, "pointsredeemcard"
+
     .line 35
     .line 36
-    move-result-object v2
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 37
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/xr6$b;->e(Ljava/lang/String;)V
-
     .line 38
     .line 39
-    .line 40
-    const/4 v2, 0x1
+    const-class v2, Lcom/huawei/appgallery/welfarecenter/business/cardbean/PointNumberCardBean;
 
+    .line 40
     .line 41
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/xr6$b;->b(Z)V
+    const-string v3, "pointsnumbercard"
 
     .line 42
     .line 43
-    .line 44
-    invoke-virtual {v1}, Lcom/huawei/appmarket/xr6$b;->a()Lcom/huawei/appmarket/xr6;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
 
+    .line 44
     .line 45
     .line 46
-    .line 47
-    move-result-object v1
+    const-class v2, Lcom/huawei/appgallery/welfarecenter/business/cardbean/PointsTaskArrayCardBean;
 
+    .line 47
     .line 48
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/nr3;->a(Lcom/huawei/appmarket/xr6;)Lcom/huawei/appmarket/hv7;
+    const-string v4, "pointstaskcard"
 
     .line 49
     .line 50
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 51
-    move-result-object v0
-
     .line 52
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
     .line 53
+    const-class v2, Lcom/huawei/appgallery/welfarecenter/business/cardbean/SignInActivityCardBean;
+
     .line 54
     .line 55
-    move-result-object v0
+    const-string v5, "signinactivitycard"
 
     .line 56
-    check-cast v0, Lcom/huawei/appmarket/qz0;
-
     .line 57
-    .line 58
-    sget-object v1, Lcom/huawei/appmarket/cq8;->a:[Ljava/lang/String;
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
 
+    .line 58
     .line 59
     .line 60
-    const-class v2, [Ljava/lang/String;
+    const-string v2, "moreredeemcard"
 
     .line 61
     .line 62
-    const-string v3, "PUSH.ALLOW_LIST"
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 63
     .line 64
-    invoke-interface {v0, v2, v3, v1}, Lcom/huawei/appmarket/qz0;->a(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qz0$a;
-
     .line 65
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/cardbean/HorizontalSubstanceQuickCardBean;
+
     .line 66
     .line 67
-    move-result-object v0
+    const-string v6, "horizontalsubstancequickcard"
 
     .line 68
-    invoke-interface {v0}, Lcom/huawei/appmarket/qz0$a;->getValue()Ljava/lang/Object;
-
     .line 69
+    invoke-static {v0, v6}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 70
     .line 71
-    move-result-object v0
-
     .line 72
-    check-cast v0, [Ljava/lang/String;
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/cardbean/HorizontalListQuickCardBean;
 
     .line 73
     .line 74
-    invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+    const-string v7, "horizontallistquickcard"
 
     .line 75
     .line 76
+    invoke-static {v0, v7}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 77
-    move-result-object v0
-
     .line 78
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
     .line 79
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/PointsTaskArrayNode;
+
     .line 80
     .line 81
-    move-result v1
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 82
-    if-eqz v1, :cond_0
-
     .line 83
     .line 84
-    const/4 p0, 0x0
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/PointsReDeemNode;
 
     .line 85
-    return p0
-
     .line 86
-    :cond_0
-    invoke-interface {v0, p0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 87
     .line 88
     .line 89
-    move-result p0
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/PointNumberNode;
 
     .line 90
-    return p0
     .line 91
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 92
     .line 93
     .line 94
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;
+
     .line 95
     .line 96
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 97
     .line 98
     .line 99
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/MoreRedeemNode;
+
     .line 100
     .line 101
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 102
     .line 103
     .line 104
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/HorizontalSubstanceQuickNode;
+
     .line 105
     .line 106
+    invoke-static {v0, v6}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+
     .line 107
+    .line 108
+    .line 109
+    const-class v0, Lcom/huawei/appgallery/welfarecenter/business/node/HorizontalListQuickNode;
+
+    .line 110
+    .line 111
+    invoke-static {v0, v7}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+
+    .line 112
+    .line 113
+    .line 114
+    const-string v0, "aop.exchange.participate"
+
+    .line 115
+    .line 116
+    const-class v1, Lcom/huawei/appgallery/welfarecenter/business/bean/response/WelfareCenterBusinessResponse;
+
+    .line 117
+    .line 118
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+
+    .line 119
+    .line 120
+    .line 121
+    const-string v0, "aop.giveaway.participate"
+
+    .line 122
+    .line 123
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+
+    .line 124
+    .line 125
+    .line 126
+    const-string v0, "aop.signin.participate"
+
+    .line 127
+    .line 128
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+
+    .line 129
+    .line 130
+    .line 131
+    const/4 v0, 0x0
+
+    .line 132
+    return-object v0
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
 .end method

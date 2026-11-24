@@ -112,14 +112,14 @@
 
 
 # virtual methods
-.method public getUserAddress(Lcom/huawei/hms/identity/entity/UserAddressRequest;)Lcom/huawei/appmarket/hv7;
+.method public getUserAddress(Lcom/huawei/hms/identity/entity/UserAddressRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/identity/entity/UserAddressRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/identity/entity/GetUserAddressResult;",
             ">;"
         }
@@ -148,7 +148,7 @@
 
     invoke-direct {v1, v2, p1, v0}, Lcom/huawei/hms/identity/g;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

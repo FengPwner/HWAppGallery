@@ -70,7 +70,7 @@
 
     const-string v0, "BannerAccessibilityDelegate plNodeViewPager is null"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
@@ -87,7 +87,7 @@
 
     const-string v0, "BannerAccessibilityDelegate focus cleared"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/recommend/bannercard/RecommendHeaderBannerItemCard$c;->a:Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;
 
@@ -104,7 +104,7 @@
 
     const-string v0, "BannerAccessibilityDelegate focused"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/recommend/bannercard/RecommendHeaderBannerItemCard$c;->a:Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;
 

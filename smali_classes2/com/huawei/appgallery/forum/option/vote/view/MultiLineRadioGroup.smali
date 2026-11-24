@@ -83,7 +83,7 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/qk8$a;
+    check-cast v2, Lcom/huawei/appmarket/wk8$a;
 
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -129,11 +129,11 @@
 
     invoke-direct {v4, v5}, Lcom/huawei/appgallery/forum/option/vote/view/MultiLineRadioGroup$a;-><init>(Lcom/huawei/appgallery/forum/option/vote/view/a;)V
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     if-ne p3, v1, :cond_1
 
-    iget-object v4, v2, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iget-object v4, v2, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -141,12 +141,12 @@
 
     if-nez v4, :cond_1
 
-    iget-object v4, v2, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iget-object v4, v2, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     goto :goto_1
 
     :cond_1
-    iget v4, v2, Lcom/huawei/appmarket/qk8$a;->c:I
+    iget v4, v2, Lcom/huawei/appmarket/wk8$a;->c:I
 
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -167,13 +167,13 @@
 
     const/16 v5, 0x8
 
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v6
 
     iput v6, v4, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v5
 
@@ -185,7 +185,7 @@
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    iget-boolean v5, v2, Lcom/huawei/appmarket/qk8$a;->e:Z
+    iget-boolean v5, v2, Lcom/huawei/appmarket/wk8$a;->e:Z
 
     xor-int/lit8 v5, v5, 0x1
 
@@ -197,7 +197,7 @@
 
     if-ne p3, v1, :cond_2
 
-    iget-boolean v2, v2, Lcom/huawei/appmarket/qk8$a;->e:Z
+    iget-boolean v2, v2, Lcom/huawei/appmarket/wk8$a;->e:Z
 
     if-nez v2, :cond_2
 

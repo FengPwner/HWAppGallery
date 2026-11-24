@@ -3,115 +3,149 @@
 .source "SourceFile"
 
 
+# static fields
+.field private static final c:Lcom/huawei/appmarket/tl6;
+
+
 # instance fields
-.field private a:Ljava/lang/String;
+.field private final a:Landroid/util/LongSparseArray;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/util/LongSparseArray<",
+            "Ljava/lang/ref/WeakReference;",
+            ">;"
+        }
+    .end annotation
+.end field
 
-.field private b:Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
-
-.field private d:I
-
-.field private e:Ljava/lang/String;
+.field private final b:Ljava/util/concurrent/atomic/AtomicLong;
 
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/tl6;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/tl6;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/tl6;->c:Lcom/huawei/appmarket/tl6;
 
     return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 4
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Landroid/util/LongSparseArray;
+
+    invoke-direct {v0}, Landroid/util/LongSparseArray;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/tl6;->a:Landroid/util/LongSparseArray;
+
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
+
+    const-wide/16 v1, 0x1
+
+    invoke-direct {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/tl6;->b:Ljava/util/concurrent/atomic/AtomicLong;
+
+    return-void
+.end method
+
+.method public static d()Lcom/huawei/appmarket/tl6;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/tl6;->c:Lcom/huawei/appmarket/tl6;
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .registers 2
+.method public final a(Ljava/lang/Object;)Ljava/lang/Long;
+    .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->e:Ljava/lang/String;
+    if-eqz p1, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->b:Ljava/util/concurrent/atomic/AtomicLong;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lcom/huawei/appmarket/tl6;->a:Landroid/util/LongSparseArray;
+
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v2
+
+    invoke-virtual {p1, v2, v3, v1}, Landroid/util/LongSparseArray;->put(JLjava/lang/Object;)V
 
     return-object v0
+
+    :cond_0
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "object must not be null."
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
 .end method
 
-.method public final b()Ljava/lang/String;
+.method public final b()V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->a:Landroid/util/LongSparseArray;
 
-    return-object v0
-.end method
-
-.method public final c()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/tl6;->d:I
-
-    return v0
-.end method
-
-.method public final d()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->a:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final e()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final f(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tl6;->e:Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/util/LongSparseArray;->clear()V
 
     return-void
 .end method
 
-.method public final g(Ljava/lang/String;)V
-    .registers 2
+.method public final c(Ljava/lang/Long;)Ljava/lang/Object;
+    .registers 5
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tl6;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/tl6;->a:Landroid/util/LongSparseArray;
 
-    return-void
-.end method
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
-.method public final h(I)V
-    .registers 2
+    move-result-wide v1
 
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/tl6;->d:I
+    invoke-virtual {v0, v1, v2}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
 
-    return-void
-.end method
+    move-result-object p1
 
-.method public final i(Ljava/lang/String;)V
-    .registers 2
+    check-cast p1, Ljava/lang/ref/WeakReference;
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tl6;->a:Ljava/lang/String;
+    if-eqz p1, :cond_0
 
-    return-void
-.end method
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-.method public final j(Ljava/lang/String;)V
-    .registers 2
+    move-result-object p1
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tl6;->b:Ljava/lang/String;
+    return-object p1
 
-    return-void
+    :cond_0
+    const/4 p1, 0x0
+
+    return-object p1
 .end method

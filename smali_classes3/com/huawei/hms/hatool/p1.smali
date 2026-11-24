@@ -275,7 +275,7 @@
     return v2
 
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
     return p0
 
     :cond_2
-    invoke-static {p2}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

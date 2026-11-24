@@ -120,7 +120,7 @@
 
     iput-object p1, p0, Lcom/huawei/csc/captcha/f;->g:Landroid/view/View;
 
-    const v0, 0x7f0a1859
+    const v0, 0x7f0a185a
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0a1857
+    const v1, 0x7f0a1858
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -500,7 +500,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final show()V

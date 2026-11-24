@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Landroid/graphics/drawable/Drawable$Callback;
-.implements Lcom/huawei/appmarket/ys8;
-.implements Lcom/huawei/appmarket/rz7;
+.implements Lcom/huawei/appmarket/et8;
+.implements Lcom/huawei/appmarket/wz7;
 
 
 # static fields
@@ -433,6 +433,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getCurrent()Landroid/graphics/drawable/Drawable;
@@ -708,6 +709,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final isStateful()Z
@@ -960,6 +962,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onBoundsChange(Landroid/graphics/Rect;)V

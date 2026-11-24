@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rv7;
+.implements Lcom/huawei/appmarket/xv7;
 
 
 # annotations
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->l(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->l(Landroid/content/Context;)Z
 
     move-result v0
 

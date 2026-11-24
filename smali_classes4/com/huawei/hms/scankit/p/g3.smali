@@ -55,7 +55,7 @@
 
     new-instance v0, Lcom/huawei/hms/scankit/p/g3$a;
 
-    const-string v1, "yyyyMMddHHmmss.SSS"
+    const-string/jumbo v1, "yyyyMMddHHmmss.SSS"
 
     invoke-direct {v0, p0, v1}, Lcom/huawei/hms/scankit/p/g3$a;-><init>(Lcom/huawei/hms/scankit/p/g3;Ljava/lang/String;)V
 

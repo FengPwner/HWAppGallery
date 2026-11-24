@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/dt1;->values()[Lcom/huawei/appmarket/dt1;
+    invoke-static {}, Lcom/huawei/appmarket/gt1;->values()[Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/dt1;->j:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->j:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->i:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->i:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->g:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->g:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -97,7 +97,7 @@
     :try_start_4
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->f:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->f:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -113,7 +113,7 @@
     :try_start_5
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->q:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->q:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -129,7 +129,7 @@
     :try_start_6
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->u:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->u:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -145,7 +145,7 @@
     :try_start_7
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->t:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->t:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -161,7 +161,7 @@
     :try_start_8
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->k:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->k:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -177,7 +177,7 @@
     :try_start_9
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -193,7 +193,7 @@
     :try_start_a
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->e:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->e:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -209,7 +209,7 @@
     :try_start_b
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->w:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->w:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -225,7 +225,7 @@
     :try_start_c
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->y:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->y:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -241,7 +241,7 @@
     :try_start_d
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->G:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->G:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -257,7 +257,7 @@
     :try_start_e
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->E:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->E:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -273,7 +273,7 @@
     :try_start_f
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->L:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->L:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -289,7 +289,7 @@
     :try_start_10
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->D:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->D:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -305,7 +305,7 @@
     :try_start_11
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->J:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->J:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -321,7 +321,7 @@
     :try_start_12
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->K:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->K:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -337,7 +337,7 @@
     :try_start_13
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->C:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->C:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -353,7 +353,7 @@
     :try_start_14
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->N:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->N:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -369,7 +369,7 @@
     :try_start_15
     sget-object v0, Lcom/huawei/appmarket/framework/widget/downloadbutton/c$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->m:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->m:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

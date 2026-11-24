@@ -46,7 +46,7 @@
     const v0, 0x7f130309
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -71,7 +71,7 @@
     invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
-    sget-object v1, Lcom/huawei/appmarket/dg6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/fg6;->a:[I
 
     const/4 v2, 0x0
 
@@ -375,23 +375,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private getScrollRange()I
@@ -478,7 +461,7 @@
 
     const-string v7, "huawei.android.widget.HwPlume"
 
-    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -503,7 +486,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1118,6 +1101,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
@@ -1396,9 +1399,9 @@
     mul-float v2, v2, v3
 
     .line 5
-    new-instance v3, Lcom/huawei/appmarket/yx1;
+    new-instance v3, Lcom/huawei/appmarket/cy1;
 
-    invoke-direct {v3, v2}, Lcom/huawei/appmarket/yx1;-><init>(F)V
+    invoke-direct {v3, v2}, Lcom/huawei/appmarket/cy1;-><init>(F)V
 
     move v2, p1
 
@@ -1410,7 +1413,7 @@
 
     int-to-float v0, v0
 
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/yx1;->a(F)F
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/cy1;->a(F)F
 
     move-result v0
 

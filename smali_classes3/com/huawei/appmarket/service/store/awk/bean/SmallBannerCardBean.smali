@@ -5,7 +5,7 @@
 
 # instance fields
 .field private bannerUrl:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -25,13 +25,13 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ch7;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/hh7;->c()V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getLayoutID()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ch7;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/hh7;->d(Ljava/lang/String;)Z
 
     move-result p1
 

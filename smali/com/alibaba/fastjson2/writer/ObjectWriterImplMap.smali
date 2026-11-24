@@ -359,7 +359,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/xj5;->x(Ljava/lang/Object;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zj5;->x(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -647,7 +647,7 @@
     return-void
 
     :cond_0
-    invoke-static/range {p0 .. p1}, Lcom/huawei/appmarket/sm5;->f(Lcom/alibaba/fastjson2/writer/ObjectWriter;Lcom/alibaba/fastjson2/JSONWriter;)Z
+    invoke-static/range {p0 .. p1}, Lcom/huawei/appmarket/tm5;->f(Lcom/alibaba/fastjson2/writer/ObjectWriter;Lcom/alibaba/fastjson2/JSONWriter;)Z
 
     move-result v4
 

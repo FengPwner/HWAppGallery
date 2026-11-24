@@ -75,7 +75,7 @@
     :goto_0
     const/16 v0, 0x10
 
-    invoke-static {p0, v0, p1, p0}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {p0, v0, p1, p0}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result p0
 
@@ -887,7 +887,7 @@
     const-string v1, "Unsupported word size "
 
     .line 5
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

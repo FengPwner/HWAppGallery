@@ -2,18 +2,12 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/userinfo/IUserInfoApi;
+.implements Lcom/huawei/appmarket/kh3;
+
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/u54$a;
-    }
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/bh1;
 .end annotation
-
-
-# virtual methods
-.method public abstract a()V
-.end method
-
-.method public abstract b(Ljava/lang/String;Lcom/huawei/appmarket/u54$a;)V
-.end method

@@ -343,9 +343,9 @@
 
     move-result-object v6
 
-    new-instance v7, Lcom/huawei/appmarket/ey8;
+    new-instance v7, Lcom/huawei/appmarket/ky8;
 
-    invoke-direct {v7, v5, v6}, Lcom/huawei/appmarket/ey8;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v7, v5, v6}, Lcom/huawei/appmarket/ky8;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v5, p0, Lohos/ohos/ohos/ohos/ohos/k;->q:Ljava/util/ArrayList;
 
@@ -571,7 +571,7 @@
 
     .line 78
     .line 79
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 80
     .line 81
@@ -617,7 +617,7 @@
 
     .line 100
     .line 101
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/b00;->l(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/fs;->k(Ljava/util/ArrayList;Landroid/os/Parcel;)Ljava/util/Iterator;
 
     .line 102
     .line 103
@@ -646,11 +646,11 @@
     move-result-object v0
 
     .line 115
-    check-cast v0, Lcom/huawei/appmarket/ey8;
+    check-cast v0, Lcom/huawei/appmarket/ky8;
 
     .line 116
     .line 117
-    iget-object v2, v0, Lcom/huawei/appmarket/ey8;->a:Ljava/lang/String;
+    iget-object v2, v0, Lcom/huawei/appmarket/ky8;->a:Ljava/lang/String;
 
     .line 118
     .line 119
@@ -659,7 +659,7 @@
     .line 120
     .line 121
     .line 122
-    iget-object v0, v0, Lcom/huawei/appmarket/ey8;->b:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/ky8;->b:Ljava/lang/String;
 
     .line 123
     .line 124
@@ -837,8 +837,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

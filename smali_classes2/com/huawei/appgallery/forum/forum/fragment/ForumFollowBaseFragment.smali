@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "ForumFollowBaseFragment"
     protocol = Lcom/huawei/appgallery/forum/base/api/IJGWTabProtocol;
 .end annotation
@@ -215,7 +215,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static z6(Lcom/huawei/appgallery/forum/forum/fragment/ForumFollowBaseFragment;Ljava/lang/String;I)V
@@ -569,9 +568,9 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -642,23 +641,23 @@
     invoke-super {p0}, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->P5()V
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumFollowBaseFragment;->X2:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -671,7 +670,7 @@
 
     const-string v2, "unregister error"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     :goto_0
     return-void
@@ -715,7 +714,7 @@
     :try_start_0
     new-instance v0, Landroid/content/IntentFilter;
 
-    sget-object v1, Lcom/huawei/appmarket/zm2;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/bn2;->a:Ljava/lang/String;
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -723,23 +722,23 @@
 
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumFollowBaseFragment;->X2:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -752,7 +751,7 @@
 
     const-string v2, "register error"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     :goto_0
     return-void

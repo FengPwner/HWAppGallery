@@ -73,24 +73,24 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchCorrectCard"
 
     const-string v1, "setData error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchCorrectCard;->z:Lcom/huawei/uikit/phone/hwbutton/widget/HwButton;
 
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->o1(Landroid/view/View;Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->o1(Landroid/view/View;Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method
@@ -136,13 +136,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchCorrectCard"
 
     const-string v1, "get searchKeyword null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -174,13 +174,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string p2, "SearchCorrectCard"
 
     const-string v0, "reportClickExtBi error, for cardBean is null."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -207,7 +207,7 @@
 
     move-object v5, p2
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ve8;->k(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/af8;->k(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

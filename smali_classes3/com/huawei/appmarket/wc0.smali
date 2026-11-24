@@ -36,9 +36,9 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/y16;
+    new-instance v0, Lcom/huawei/appmarket/a26;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/y16;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/a26;-><init>(Ljava/lang/Object;)V
 
     return-object v0
 

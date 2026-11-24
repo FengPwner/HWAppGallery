@@ -62,7 +62,7 @@
 
     move-result v1
 
-    sget-object v4, Lcom/huawei/appmarket/ie6;->k:[I
+    sget-object v4, Lcom/huawei/appmarket/ke6;->k:[I
 
     const/4 v8, 0x0
 
@@ -76,13 +76,13 @@
 
     move v6, p4
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
     const/4 p3, 0x2
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/p45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/s45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     move-result p4
 
@@ -98,7 +98,7 @@
 
     const/4 p3, 0x1
 
-    invoke-static {p1, p2, p3, v1}, Lcom/huawei/appmarket/p45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v1}, Lcom/huawei/appmarket/s45;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     move-result p1
 

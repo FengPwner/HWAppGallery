@@ -1,29 +1,43 @@
-.class public final Lcom/huawei/appmarket/u73;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/u73;
+.super Lcom/huawei/appmarket/da1;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ho3;
+
+# instance fields
+.field final synthetic a:[Z
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>([Z)V
+    .registers 2
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/u73;->a:[Z
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/da1;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final w0()Lcom/huawei/appmarket/hu1;
-    .registers 2
+.method public final a(Lcom/huawei/appmarket/c71;)V
+    .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/service/permitapp/HiAppDownloadHandler;
+    const/4 v0, 0x1
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/permitapp/HiAppDownloadHandler;-><init>()V
+    iget-object v1, p0, Lcom/huawei/appmarket/u73;->a:[Z
 
-    return-object v0
+    const/4 v2, 0x0
+
+    aput-boolean v0, v1, v2
+
+    new-instance v0, Lcom/huawei/appmarket/u73$a;
+
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/u73$a;-><init>(Lcom/huawei/appmarket/u73;Lcom/huawei/appmarket/c71;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
+
+    return-void
 .end method

@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/wf6;->e:[I
+    sget-object v1, Lcom/huawei/appmarket/yf6;->e:[I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -391,6 +391,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c(Landroidx/constraintlayout/widget/ConstraintLayout;)V

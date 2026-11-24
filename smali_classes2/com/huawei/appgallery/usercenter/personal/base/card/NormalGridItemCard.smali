@@ -71,7 +71,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -315,7 +315,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -344,7 +343,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/NormalGridItemCard;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0a17da
+    const v0, 0x7f0a17db
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -534,7 +533,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final q1()V
@@ -881,5 +879,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

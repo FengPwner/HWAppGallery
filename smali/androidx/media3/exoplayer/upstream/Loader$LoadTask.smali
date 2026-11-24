@@ -352,7 +352,7 @@
 
     .line 13
     :goto_0
-    invoke-static {v1}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v1}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     .line 14
     .line 15
@@ -819,7 +819,7 @@
 
     .line 163
     .line 164
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 165
     .line 166
@@ -1280,7 +1280,7 @@
 
     .line 87
     .line 88
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 89
     .line 90
@@ -1322,7 +1322,7 @@
 
     .line 107
     .line 108
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 109
     .line 110
@@ -1371,7 +1371,7 @@
 
     .line 131
     .line 132
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 133
     .line 134

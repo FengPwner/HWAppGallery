@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/List;
-.implements Lcom/huawei/appmarket/lq4;
+.implements Lcom/huawei/appmarket/oq4;
 
 
 # annotations
@@ -17,7 +17,7 @@
         "TE;>;",
         "Ljava/util/List<",
         "TE;>;",
-        "Lcom/huawei/appmarket/lq4;"
+        "Lcom/huawei/appmarket/oq4;"
     }
 .end annotation
 

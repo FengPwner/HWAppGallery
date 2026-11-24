@@ -9,14 +9,14 @@
 # instance fields
 .field final synthetic b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-.field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;
+.field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;)V
     .registers 3
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/h;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/h;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/h;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
@@ -38,13 +38,13 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/h;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/h;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;->a(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q0;)Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x0;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;->a(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t0;)Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a1;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x0;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a1;->a()V
 
     goto :goto_0
 
@@ -53,7 +53,7 @@
 
     const-string v2, "after request whitelist, not in install list"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 

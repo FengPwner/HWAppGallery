@@ -65,7 +65,7 @@
 
     iget-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask$1;->a:Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;
 
-    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/oo5;
+    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/po5;
 
     move-result-object p1
 
@@ -73,7 +73,7 @@
 
     iget-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask$1;->a:Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;
 
-    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/oo5;
+    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/po5;
 
     move-result-object p1
 
@@ -91,7 +91,7 @@
 
     invoke-direct {p2, v0}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/oo5;->onFailure(Ljava/lang/Exception;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/po5;->onFailure(Ljava/lang/Exception;)V
 
     :cond_0
     return-void
@@ -194,7 +194,7 @@
 
     iget-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask$1;->a:Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;
 
-    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/kp5;
+    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/lp5;
 
     move-result-object p1
 
@@ -202,7 +202,7 @@
 
     iget-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask$1;->a:Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;
 
-    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/kp5;
+    invoke-static {p1}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/lp5;
 
     move-result-object p1
 
@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/kp5;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lp5;->onSuccess(Ljava/lang/Object;)V
 
     :cond_1
     return-void

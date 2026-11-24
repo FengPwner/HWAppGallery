@@ -48,9 +48,9 @@
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper;->mAudioManager:Landroid/media/AudioManager;
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/iz;
+    new-instance p1, Lcom/huawei/appmarket/jz;
 
-    invoke-direct {p1, p0}, Lcom/huawei/appmarket/iz;-><init>(Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper;)V
+    invoke-direct {p1, p0}, Lcom/huawei/appmarket/jz;-><init>(Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper;->audioFocusChangeListener:Landroid/media/AudioManager$OnAudioFocusChangeListener;
 
@@ -71,7 +71,7 @@
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, -0x2
 
@@ -162,7 +162,7 @@
 
     const-string v0, "callBack"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper;->callBack:Lcom/huawei/appgallery/videokit/impl/constants/AudioFocusHelper$AudioFocusChangeCallBack;
 

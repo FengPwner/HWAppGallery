@@ -15,67 +15,54 @@
 
 
 # instance fields
-.field private final a:J
+.field private a:Ljava/lang/String;
 
-.field private final b:J
-
-.field private final c:I
-
-.field private final d:J
+.field private b:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(JJIJ)V
-    .registers 8
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-wide p1, p0, Lcom/huawei/appmarket/fo$a;->d:J
-
-    iput-wide p3, p0, Lcom/huawei/appmarket/fo$a;->a:J
-
-    iput p5, p0, Lcom/huawei/appmarket/fo$a;->c:I
-
-    iput-wide p6, p0, Lcom/huawei/appmarket/fo$a;->b:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()J
-    .registers 3
-
-    .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/fo$a;->d:J
-
-    return-wide v0
-.end method
-
-.method public final b()I
+.method public final a()Ljava/lang/String;
     .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/fo$a;->c:I
+    iget-object v0, p0, Lcom/huawei/appmarket/fo$a;->b:Ljava/lang/String;
 
-    return v0
+    return-object v0
 .end method
 
-.method public final c()J
-    .registers 3
+.method public final b()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/fo$a;->a:J
+    iget-object v0, p0, Lcom/huawei/appmarket/fo$a;->a:Ljava/lang/String;
 
-    return-wide v0
+    return-object v0
 .end method
 
-.method public final d()J
-    .registers 3
+.method public final c(Ljava/lang/String;)V
+    .registers 2
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/fo$a;->b:J
+    iput-object p1, p0, Lcom/huawei/appmarket/fo$a;->b:Ljava/lang/String;
 
-    return-wide v0
+    return-void
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/fo$a;->a:Ljava/lang/String;
+
+    return-void
 .end method

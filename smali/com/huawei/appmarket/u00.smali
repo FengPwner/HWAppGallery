@@ -30,37 +30,37 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/aw5;)Lcom/huawei/appmarket/u00;
+.method public static a(Lcom/huawei/appmarket/cw5;)Lcom/huawei/appmarket/u00;
     .registers 6
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->o()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->o()I
 
     move-result v0
 
     const/16 v1, 0x8
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/aw5;->N(I)V
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/cw5;->N(I)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->o()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->o()I
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->o()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->o()I
 
     move-result v2
 
     const/4 v3, 0x4
 
-    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/aw5;->N(I)V
+    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/cw5;->N(I)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->o()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->o()I
 
     move-result v3
 
     const/16 v4, 0xc
 
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/aw5;->N(I)V
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/cw5;->N(I)V
 
     new-instance p0, Lcom/huawei/appmarket/u00;
 

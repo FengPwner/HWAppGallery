@@ -42,7 +42,7 @@
 
     invoke-direct {v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->i()I
 
     move-result v2
 

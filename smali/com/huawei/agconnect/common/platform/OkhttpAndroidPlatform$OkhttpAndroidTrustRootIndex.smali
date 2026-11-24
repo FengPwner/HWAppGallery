@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/k48;
+.implements Lcom/huawei/appmarket/q48;
 
 
 # annotations

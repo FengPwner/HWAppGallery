@@ -64,7 +64,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;->E:Lcom/huawei/appmarket/ov5;
+    iput-object v1, v0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;->E:Lcom/huawei/appmarket/qv5;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -76,11 +76,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity$b;->b:Lcom/huawei/appgallery/webviewlite/dldmgr/viewmodel/ExternalDownloadTaskInfoBean;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/webviewlite/dldmgr/viewmodel/ExternalDownloadTaskInfoBean;->W3()Lcom/huawei/appmarket/n72;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/webviewlite/dldmgr/viewmodel/ExternalDownloadTaskInfoBean;->W3()Lcom/huawei/appmarket/r72;
 
     move-result-object v1
 
-    sget-object v3, Lcom/huawei/appmarket/n72;->d:Lcom/huawei/appmarket/n72;
+    sget-object v3, Lcom/huawei/appmarket/r72;->d:Lcom/huawei/appmarket/r72;
 
     if-ne v1, v3, :cond_1
 
@@ -90,11 +90,11 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_0
 

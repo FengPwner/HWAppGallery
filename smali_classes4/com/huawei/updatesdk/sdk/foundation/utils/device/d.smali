@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    const-string v2, "zh"
+    const-string/jumbo v2, "zh"
 
     invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

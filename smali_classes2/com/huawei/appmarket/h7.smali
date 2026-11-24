@@ -45,7 +45,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oi4;",
+            "Lcom/huawei/appmarket/qi4;",
             ">;"
         }
     .end annotation
@@ -55,7 +55,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/u75;",
+            "Lcom/huawei/appmarket/x75;",
             ">;"
         }
     .end annotation
@@ -419,7 +419,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/oi4;
+    check-cast v0, Lcom/huawei/appmarket/qi4;
 
     invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
@@ -482,7 +482,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/u75;
+    check-cast p1, Lcom/huawei/appmarket/x75;
 
     invoke-static {p1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 

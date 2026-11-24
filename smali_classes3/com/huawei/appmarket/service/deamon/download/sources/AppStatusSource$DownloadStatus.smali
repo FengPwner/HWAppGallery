@@ -23,7 +23,7 @@
 
 .field public prompt:Ljava/lang/CharSequence;
 
-.field public status:Lcom/huawei/appmarket/dt1;
+.field public status:Lcom/huawei/appmarket/gt1;
 
 
 # direct methods

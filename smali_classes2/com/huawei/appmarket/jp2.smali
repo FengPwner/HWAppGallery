@@ -1,4 +1,4 @@
-.class final Lcom/huawei/appmarket/jp2;
+.class public interface abstract Lcom/huawei/appmarket/jp2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,49 +6,23 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/jp2$g;,
-        Lcom/huawei/appmarket/jp2$c;,
-        Lcom/huawei/appmarket/jp2$f;,
-        Lcom/huawei/appmarket/jp2$b;,
-        Lcom/huawei/appmarket/jp2$e;,
-        Lcom/huawei/appmarket/jp2$d;
+        Lcom/huawei/appmarket/jp2$a;
     }
 .end annotation
 
 
-# static fields
-.field private static a:Lcom/huawei/appmarket/jp2;
-
-.field public static final synthetic b:I
-
-
-# direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/jp2;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/jp2;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/jp2;->a:Lcom/huawei/appmarket/jp2;
-
-    return-void
+# virtual methods
+.method public abstract a()V
 .end method
 
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+.method public abstract b(Ljava/lang/String;)V
 .end method
 
-.method static a()Lcom/huawei/appmarket/jp2;
-    .registers 1
+.method public abstract c()V
+.end method
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/jp2;->a:Lcom/huawei/appmarket/jp2;
+.method public abstract d()Ljava/lang/String;
+.end method
 
-    return-object v0
+.method public abstract getDomainId()Ljava/lang/String;
 .end method

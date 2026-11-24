@@ -5,17 +5,17 @@
 
 # instance fields
 .field private l2MaxScore:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private l2MinScore:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private l2MinScoreNew:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appgallery/agguard/business/bean/ScoreLevel;-><init>(IIIILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appgallery/agguard/business/bean/ScoreLevel;-><init>(IIIILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IIIILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(IIIILcom/huawei/appmarket/id1;)V
     .registers 6
 
     .line 3
@@ -248,7 +248,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -356,4 +356,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

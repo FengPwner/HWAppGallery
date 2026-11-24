@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field protected mCallback:Lcom/huawei/appmarket/ck3;
+.field protected mCallback:Lcom/huawei/appmarket/ek3;
 
 .field protected mContext:Landroid/content/Context;
 
@@ -29,11 +29,11 @@
     return-void
 .end method
 
-.method private checkBuoyPermission(Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)Z
+.method private checkBuoyPermission(Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)Z
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -92,7 +92,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/ue0;->c()Lcom/huawei/appmarket/ue0;
+    invoke-static {}, Lcom/huawei/appmarket/ve0;->c()Lcom/huawei/appmarket/ve0;
 
     .line 32
     .line 33
@@ -104,7 +104,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1, v1, v0, p2}, Lcom/huawei/appmarket/ue0;->h(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;Landroid/content/Intent;Lcom/huawei/appmarket/ck3;)V
+    invoke-virtual {p1, v1, v0, p2}, Lcom/huawei/appmarket/ve0;->h(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;Landroid/content/Intent;Lcom/huawei/appmarket/ek3;)V
 
     .line 38
     .line 39
@@ -235,7 +235,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -246,7 +245,7 @@
     return-void
 .end method
 
-.method public dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+.method public dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
     .registers 8
 
     .line 1
@@ -357,7 +356,7 @@
     .line 55
     .line 56
     .line 57
-    iput-object p3, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iput-object p3, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     .line 58
     .line 59
@@ -377,7 +376,7 @@
 
     .line 66
     .line 67
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 68
     .line 69
@@ -410,7 +409,7 @@
 
     .line 83
     .line 84
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/b00;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/fs;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -444,7 +443,7 @@
     move-result-object p1
 
     .line 100
-    const-class v1, Lcom/huawei/appmarket/sy5;
+    const-class v1, Lcom/huawei/appmarket/uy5;
 
     .line 101
     .line 102
@@ -460,7 +459,7 @@
 
     .line 107
     .line 108
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->checkBuoyPermission(Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)Z
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->checkBuoyPermission(Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)Z
 
     .line 109
     .line 110
@@ -511,7 +510,7 @@
 
     .line 129
     .line 130
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 131
     .line 132
@@ -712,7 +711,7 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 2
     .line 3
@@ -745,7 +744,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/b00;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/fs;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -801,7 +800,7 @@
 
     .line 42
     .line 43
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 44
     .line 45

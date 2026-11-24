@@ -53,11 +53,11 @@
 
     invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/base/ui/a$a;->a(Lcom/huawei/appgallery/forum/base/ui/ForumActivity;)V
 
-    new-instance v0, Lcom/huawei/appmarket/gf1;
+    new-instance v0, Lcom/huawei/appmarket/if1;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/gf1;-><init>(Z)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/if1;-><init>(Z)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/ForumActivity;->p:Lcom/huawei/appmarket/c8;
 

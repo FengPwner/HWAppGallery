@@ -33,7 +33,7 @@
     .end annotation
 .end field
 
-.field private f:Lcom/huawei/appmarket/ot3;
+.field private f:Lcom/huawei/appmarket/qt3;
 
 .field private g:Z
 
@@ -51,7 +51,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/ot3;)V
+.method private constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/qt3;)V
     .registers 3
 
     .line 1
@@ -69,16 +69,16 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->h:Ljava/util/ArrayList;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->f:Lcom/huawei/appmarket/ot3;
+    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->f:Lcom/huawei/appmarket/qt3;
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/ot3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/qt3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;-><init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/ot3;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;-><init>(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;Lcom/huawei/appmarket/qt3;)V
 
     return-void
 .end method
@@ -262,7 +262,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -352,11 +351,11 @@
 
     check-cast p1, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/k47;
+    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/p47;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/k47;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/p47;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     iget-boolean v2, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->g:Z
 
@@ -422,7 +421,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->h:Ljava/util/ArrayList;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/k47;
+    invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/p47;
 
     move-result-object p1
 
@@ -444,13 +443,13 @@
 
     :cond_5
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string p2, "SearchNecessaryAppCardV1"
 
     const-string v0, "onBindViewHolder error."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -470,7 +469,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->f:Lcom/huawei/appmarket/ot3;
+    iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$d;->f:Lcom/huawei/appmarket/qt3;
 
     const/4 v2, 0x0
 
@@ -494,11 +493,11 @@
 
     new-instance v0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;->C1(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;->C1(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;)Lcom/huawei/appmarket/bk0;
 
     move-result-object p2
 
-    invoke-direct {v0, p1, p2, v1, v3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/ot3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
+    invoke-direct {v0, p1, p2, v1, v3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/qt3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
 
     goto :goto_0
 
@@ -531,16 +530,16 @@
 
     new-instance v0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;->C1(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p2}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;->C1(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1;)Lcom/huawei/appmarket/bk0;
 
     move-result-object p2
 
-    invoke-direct {v0, p1, p2, v1, v3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/ot3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
+    invoke-direct {v0, p1, p2, v1, v3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/qt3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
 
     goto :goto_0
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -560,7 +559,7 @@
 
     const-string v1, "SearchNecessaryAppCardV1"
 
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$c;
 

@@ -10,7 +10,7 @@
 # instance fields
 .field private n:Lcom/huawei/appmarket/service/apprecall/card/AppListRecallHorizontalCardV2;
 
-.field private o:Lcom/huawei/appmarket/du4;
+.field private o:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -123,14 +123,14 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 7
 
     .line 1
@@ -146,7 +146,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 8
     .line 9
@@ -168,7 +168,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -180,7 +180,7 @@
     const/4 v2, 0x0
 
     .line 23
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     .line 24
     .line 25
@@ -213,7 +213,7 @@
 
     .line 38
     .line 39
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -252,12 +252,12 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/bq6;->E(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fs;->u(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 63
     .line 64
@@ -372,19 +372,18 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/node/AppListRecallV2Node;->o:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/node/AppListRecallV2Node;->o:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -432,7 +431,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -533,7 +532,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;

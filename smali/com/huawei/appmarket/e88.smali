@@ -2,31 +2,44 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/ou6;
+
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        Lcom/huawei/appmarket/e88$a;
+        "<Z:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/ou6<",
+        "TZ;TZ;>;"
     }
 .end annotation
 
 
 # static fields
-.field public static final a:Lcom/huawei/appmarket/e88$a;
+.field private static final a:Lcom/huawei/appmarket/e88;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/e88<",
+            "*>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 2
+    .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/e88$a;
+    new-instance v0, Lcom/huawei/appmarket/e88;
 
-    const/4 v1, 0x0
+    invoke-direct {v0}, Lcom/huawei/appmarket/e88;-><init>()V
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/e88$a;-><init>(Lcom/huawei/appmarket/gd1;)V
-
-    sput-object v0, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88$a;
+    sput-object v0, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88;
 
     return-void
 .end method
@@ -37,4 +50,33 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method public static b()Lcom/huawei/appmarket/e88;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/huawei/appmarket/gu6;Lcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/gu6<",
+            "TZ;>;",
+            "Lcom/huawei/appmarket/vr5;",
+            ")",
+            "Lcom/huawei/appmarket/gu6<",
+            "TZ;>;"
+        }
+    .end annotation
+
+    .line 1
+    return-object p1
 .end method

@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/l29;
-.super Lcom/huawei/appmarket/jj0;
+.super Lcom/huawei/appmarket/kj0;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/jj0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/kj0;-><init>()V
 
     return-void
 .end method
@@ -19,7 +19,7 @@
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/service/video/ImmerseHeadVideoCard;
+    const-class v0, Lcom/huawei/appmarket/service/recommend/bannercard/RecommendHeaderBannerItemCard;
 
     return-object v0
 .end method
@@ -28,7 +28,7 @@
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/service/video/VideoCardData;
+    const-class v0, Lcom/huawei/appmarket/service/recommend/bannercard/RecommendHeaderItemCardBean;
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
     .registers 2
 
     .line 1
-    const-string v0, "com.huawei.appgallery.immersevideocard"
+    const-string v0, "com.huawei.appgallery.recommend.header.banner.native.card"
 
     return-object v0
 .end method

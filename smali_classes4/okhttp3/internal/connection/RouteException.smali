@@ -15,7 +15,7 @@
 
     const-string v0, "firstConnectException"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
@@ -34,7 +34,7 @@
     .line 1
     iget-object v0, p0, Lokhttp3/internal/connection/RouteException;->b:Ljava/io/IOException;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/l32;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/p32;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     iput-object p1, p0, Lokhttp3/internal/connection/RouteException;->c:Ljava/io/IOException;
 

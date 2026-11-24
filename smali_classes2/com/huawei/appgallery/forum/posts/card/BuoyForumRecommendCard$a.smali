@@ -85,13 +85,13 @@
 
     invoke-virtual {v0, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const-class p1, Lcom/huawei/appmarket/qj3;
+    const-class p1, Lcom/huawei/appmarket/sj3;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/qj3;
+    check-cast p1, Lcom/huawei/appmarket/sj3;
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/qj3;->u1(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/sj3;->v1(Landroid/content/Context;Landroid/content/Intent;)V
 
     :cond_0
     return-void

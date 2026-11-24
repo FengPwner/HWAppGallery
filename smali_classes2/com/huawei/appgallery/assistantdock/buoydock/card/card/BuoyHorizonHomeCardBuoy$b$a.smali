@@ -52,11 +52,11 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyHorizonHomeCardBuoy$b;->f:Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyHorizonHomeCardBuoy;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->s1()Lcom/huawei/appmarket/ak0;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->s1()Lcom/huawei/appmarket/bk0;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy;->Z(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method

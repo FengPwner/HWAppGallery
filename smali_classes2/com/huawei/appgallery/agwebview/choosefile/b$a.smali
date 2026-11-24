@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -58,7 +58,7 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/fk2;->d(Ljava/io/File;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/hk2;->d(Ljava/io/File;)Z
 
     add-int/lit8 v0, v0, 0x1
 

@@ -3,18 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mm6;
+.implements Lcom/huawei/appmarket/pm6;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity<",
         "TT;>;",
-        "Lcom/huawei/appmarket/mm6;"
+        "Lcom/huawei/appmarket/pm6;"
     }
 .end annotation
 
@@ -53,7 +53,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -226,13 +226,13 @@
     .registers 4
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/q53;
+    instance-of v0, p1, Lcom/huawei/appmarket/t53;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/q53;
+    check-cast p1, Lcom/huawei/appmarket/t53;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/q53;->O()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/t53;->O()Z
 
     move-result p1
 
@@ -245,13 +245,13 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity;->E3(Z)V
 
-    sget-object p1, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object p1, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string v0, "PurchaseMenuActivity"
 
     const-string v1, "fragment not instanceof HasDataInterface"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -279,7 +279,7 @@
     .line 8
     .line 9
     :goto_0
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 10
     .line 11
@@ -456,7 +456,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected abstract F3()V
@@ -470,7 +469,7 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/activity/SecureActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/dn1;->m(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/gn1;->m(Landroid/content/Context;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity;->r()V
 
@@ -486,7 +485,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
@@ -498,7 +497,7 @@
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     new-instance p1, Landroid/content/IntentFilter;
 
@@ -542,13 +541,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity;->u:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     invoke-static {p0, v1}, Lcom/huawei/appmarket/w8;->y(Landroid/content/Context;Landroid/content/BroadcastReceiver;)V
 
@@ -572,7 +571,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->getHelper()Lcom/huawei/appmarket/ra6;
+    invoke-static {}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->getHelper()Lcom/huawei/appmarket/ta6;
 
     move-result-object v0
 
@@ -599,13 +598,13 @@
 
     move-result-object p1
 
-    instance-of v0, p1, Lcom/huawei/appmarket/ra6;
+    instance-of v0, p1, Lcom/huawei/appmarket/ta6;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/ra6;
+    check-cast p1, Lcom/huawei/appmarket/ta6;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->setHelper(Lcom/huawei/appmarket/ra6;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->setHelper(Lcom/huawei/appmarket/ta6;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
@@ -627,13 +626,13 @@
     move-exception p1
 
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object v0, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string v1, "PurchaseMenuActivity"
 
     const-string v2, "parse json error"
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_1
@@ -645,7 +644,7 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    invoke-static {}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->getHelper()Lcom/huawei/appmarket/ra6;
+    invoke-static {}, Lcom/huawei/appgallery/purchasehistory/impl/PurchaseHistoryManager;->getHelper()Lcom/huawei/appmarket/ta6;
 
     move-result-object v0
 

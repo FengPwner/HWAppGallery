@@ -286,7 +286,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final k()V
@@ -301,7 +300,7 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/e43;->l(Lcom/huawei/appmarket/e43$b;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/h43;->l(Lcom/huawei/appmarket/h43$b;)V
 
     .line 6
     .line 7
@@ -438,7 +437,7 @@
     .line 137
 .end method
 
-.method public p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -466,7 +465,7 @@
 
     .line 11
     .line 12
-    invoke-static {v1}, Lcom/huawei/appmarket/lh6;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/nh6;->a(Landroid/content/Context;)I
 
     .line 13
     .line 14
@@ -474,14 +473,14 @@
     move-result v1
 
     .line 16
-    invoke-static {v1, v1, v0}, Lcom/huawei/appmarket/b37;->D(IILandroid/view/View;)V
+    invoke-static {v1, v1, v0}, Lcom/huawei/appmarket/g37;->D(IILandroid/view/View;)V
 
     .line 17
     .line 18
     .line 19
     :cond_1
     :goto_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 20
     .line 21
@@ -628,5 +627,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

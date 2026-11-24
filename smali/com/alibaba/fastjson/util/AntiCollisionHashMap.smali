@@ -261,7 +261,7 @@
     const-string v0, "Illegal initial capacity: "
 
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

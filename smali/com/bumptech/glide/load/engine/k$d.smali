@@ -15,19 +15,19 @@
 
 
 # instance fields
-.field final a:Lcom/huawei/appmarket/eu6;
+.field final a:Lcom/huawei/appmarket/iu6;
 
 .field final b:Ljava/util/concurrent/Executor;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/eu6;Ljava/util/concurrent/Executor;)V
+.method constructor <init>(Lcom/huawei/appmarket/iu6;Ljava/util/concurrent/Executor;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/eu6;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/iu6;
 
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/k$d;->b:Ljava/util/concurrent/Executor;
 
@@ -45,9 +45,9 @@
 
     check-cast p1, Lcom/bumptech/glide/load/engine/k$d;
 
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/eu6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/iu6;
 
-    iget-object p1, p1, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/eu6;
+    iget-object p1, p1, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/iu6;
 
     invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -64,7 +64,7 @@
 .method public final hashCode()I
     .registers 2
 
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/eu6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$d;->a:Lcom/huawei/appmarket/iu6;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 

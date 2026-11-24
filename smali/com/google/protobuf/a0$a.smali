@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/hj2;->values()[Lcom/huawei/appmarket/hj2;
+    invoke-static {}, Lcom/huawei/appmarket/jj2;->values()[Lcom/huawei/appmarket/jj2;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/google/protobuf/a0$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/hj2;->n:Lcom/huawei/appmarket/hj2;
+    sget-object v1, Lcom/huawei/appmarket/jj2;->n:Lcom/huawei/appmarket/jj2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/google/protobuf/a0$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/hj2;->v:Lcom/huawei/appmarket/hj2;
+    sget-object v1, Lcom/huawei/appmarket/jj2;->v:Lcom/huawei/appmarket/jj2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/google/protobuf/a0$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/hj2;->F:Lcom/huawei/appmarket/hj2;
+    sget-object v1, Lcom/huawei/appmarket/jj2;->F:Lcom/huawei/appmarket/jj2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/google/protobuf/a0$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/hj2;->b0:Lcom/huawei/appmarket/hj2;
+    sget-object v1, Lcom/huawei/appmarket/jj2;->b0:Lcom/huawei/appmarket/jj2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

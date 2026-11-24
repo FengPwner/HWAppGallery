@@ -41,7 +41,7 @@
     .line 12
     .line 13
     .line 14
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     .line 15
     .line 16
@@ -49,7 +49,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 19
     .line 20
@@ -66,7 +66,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
 
     .line 28
     .line 29
@@ -84,7 +84,7 @@
     .line 35
     .line 36
     :cond_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/vw7;->m(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ci7;->t(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 37
     .line 38
@@ -165,5 +165,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

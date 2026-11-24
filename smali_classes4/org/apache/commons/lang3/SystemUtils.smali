@@ -501,13 +501,13 @@
 
     sput-object v0, Lorg/apache/commons/lang3/SystemUtils;->PATH_SEPARATOR:Ljava/lang/String;
 
-    new-instance v0, Lcom/huawei/appmarket/ch6;
+    new-instance v0, Lcom/huawei/appmarket/eh6;
 
     const/16 v1, 0x8
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
-    const-string v1, "user.country"
+    const-string/jumbo v1, "user.country"
 
     invoke-static {v1, v0}, Lorg/apache/commons/lang3/SystemProperties;->getProperty(Ljava/lang/String;Ljava/util/function/Supplier;)Ljava/lang/String;
 
@@ -1173,7 +1173,7 @@
 
     sput-boolean v0, Lorg/apache/commons/lang3/SystemUtils;->IS_OS_WINDOWS_11:Z
 
-    const-string v0, "z/OS"
+    const-string/jumbo v0, "z/OS"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/SystemUtils;->getOsNameMatches(Ljava/lang/String;)Z
 
@@ -1281,7 +1281,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/xj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v0
 
@@ -1313,7 +1313,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/xj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v0
 
@@ -1383,7 +1383,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/xj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v0
 
@@ -1415,7 +1415,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/xj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zj5;->n(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object v0
 
@@ -1642,7 +1642,7 @@
 .method private static synthetic lambda$static$0()Ljava/lang/String;
     .registers 1
 
-    const-string v0, "user.region"
+    const-string/jumbo v0, "user.region"
 
     invoke-static {v0}, Lorg/apache/commons/lang3/SystemProperties;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 

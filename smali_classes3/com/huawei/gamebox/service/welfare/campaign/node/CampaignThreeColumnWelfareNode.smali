@@ -54,7 +54,7 @@
 
     const v2, 0x7f0a018f
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     :cond_1
     const v2, 0x7f0a0b3a

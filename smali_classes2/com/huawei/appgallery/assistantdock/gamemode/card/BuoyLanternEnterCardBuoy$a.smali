@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyLanternEnterCardBuoy$a;
-.super Lcom/huawei/appmarket/kf7;
+.super Lcom/huawei/appmarket/pf7;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/kf7<",
+        "Lcom/huawei/appmarket/pf7<",
         "Landroid/graphics/drawable/Drawable;",
         ">;"
     }
@@ -32,14 +32,14 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyLanternEnterCardBuoy$a;->b:Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyLanternEnterCardBuoy;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/kf7;-><init>(II)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/pf7;-><init>(II)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 3
 
     .line 1
@@ -214,5 +214,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

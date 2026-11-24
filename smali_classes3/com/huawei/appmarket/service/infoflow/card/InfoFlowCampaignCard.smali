@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/service/infoflow/cards/card/BaseInfoFlowCard<",
-        "Lcom/huawei/appmarket/fc4;",
+        "Lcom/huawei/appmarket/hc4;",
         ">;"
     }
 .end annotation
@@ -53,11 +53,11 @@
     move-result-object v0
 
     .line 14
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 15
     .line 16
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 17
     .line 18
@@ -82,11 +82,11 @@
     move-result-object v0
 
     .line 29
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 30
     .line 31
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 32
     .line 33
@@ -170,11 +170,11 @@
     move-result-object v2
 
     .line 73
-    check-cast v2, Lcom/huawei/appmarket/fc4;
+    check-cast v2, Lcom/huawei/appmarket/hc4;
 
     .line 74
     .line 75
-    iget-object v2, v2, Lcom/huawei/appmarket/fc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v2, v2, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 76
     .line 77
@@ -253,11 +253,11 @@
     move-result-object v0
 
     .line 113
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 114
     .line 115
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 116
     .line 117
@@ -333,11 +333,11 @@
     move-result-object v0
 
     .line 152
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 153
     .line 154
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 155
     .line 156
@@ -359,11 +359,11 @@
     move-result-object v0
 
     .line 165
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 166
     .line 167
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 168
     .line 169
@@ -380,11 +380,11 @@
     move-result-object v0
 
     .line 176
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 177
     .line 178
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 179
     .line 180
@@ -405,11 +405,11 @@
     move-result-object v0
 
     .line 188
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 189
     .line 190
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 191
     .line 192
@@ -451,11 +451,11 @@
     move-result-object v0
 
     .line 212
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 213
     .line 214
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->z:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 215
     .line 216
@@ -476,11 +476,11 @@
     move-result-object v0
 
     .line 224
-    check-cast v0, Lcom/huawei/appmarket/fc4;
+    check-cast v0, Lcom/huawei/appmarket/hc4;
 
     .line 225
     .line 226
-    iget-object v0, v0, Lcom/huawei/appmarket/fc4;->y:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/hc4;->y:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 227
     .line 228
@@ -505,11 +505,11 @@
     move-result-object p1
 
     .line 239
-    check-cast p1, Lcom/huawei/appmarket/fc4;
+    check-cast p1, Lcom/huawei/appmarket/hc4;
 
     .line 240
     .line 241
-    iget-object p1, p1, Lcom/huawei/appmarket/fc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    iget-object p1, p1, Lcom/huawei/appmarket/hc4;->v:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     .line 242
     .line 243
@@ -624,15 +624,13 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final y1(Landroidx/databinding/l;)V
     .registers 2
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/fc4;
+    check-cast p1, Lcom/huawei/appmarket/hc4;
 
     .line 2
     .line 3
@@ -649,11 +647,11 @@
     move-result-object p1
 
     .line 10
-    check-cast p1, Lcom/huawei/appmarket/fc4;
+    check-cast p1, Lcom/huawei/appmarket/hc4;
 
     .line 11
     .line 12
-    iget-object p1, p1, Lcom/huawei/appmarket/fc4;->x:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object p1, p1, Lcom/huawei/appmarket/hc4;->x:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 13
     .line 14
@@ -760,5 +758,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

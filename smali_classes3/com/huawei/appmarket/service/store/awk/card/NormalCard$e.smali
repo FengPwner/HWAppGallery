@@ -79,7 +79,7 @@
 
     check-cast v0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->J1()Lcom/huawei/appmarket/sb3;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->J1()Lcom/huawei/appmarket/vb3;
 
     move-result-object v0
 

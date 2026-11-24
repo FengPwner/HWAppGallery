@@ -67,7 +67,7 @@
 
     iput v0, p0, Lcom/huawei/uikit/hwcommon/anim/HwCubicBezierInterpolator;->d:F
 
-    sget-object v0, Lcom/huawei/appmarket/xf6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/zf6;->a:[I
 
     const/4 v1, 0x0
 

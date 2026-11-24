@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kr3;
+.implements Lcom/huawei/appmarket/mr3;
 
 
 # annotations
@@ -38,7 +38,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -54,7 +54,7 @@
 
     const-string v2, "MyAssetChildGridItemCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -86,7 +86,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/usercenter/personal/base/card/MyAssetChildGridItemCard;->D1(Lcom/huawei/appgallery/usercenter/personal/base/card/MyAssetChildGridItemCard;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -102,7 +102,7 @@
 
     const-string v1, "MyAssetChildGridItemCard"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

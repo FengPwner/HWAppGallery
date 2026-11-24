@@ -61,7 +61,7 @@
 
     const-string v3, "CloudGamePlayActivity"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     aget-boolean v0, v1, v2
 

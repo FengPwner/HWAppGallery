@@ -81,7 +81,7 @@
     return-void
 .end method
 
-.method public final getRequest()Lcom/huawei/appmarket/z86$a;
+.method public final getRequest()Lcom/huawei/appmarket/b96$a;
     .registers 2
 
     .line 1

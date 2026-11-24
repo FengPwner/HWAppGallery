@@ -985,7 +985,7 @@
     const-string p1, "Illegal number of error correction codewords specified: "
 
     .line 2
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

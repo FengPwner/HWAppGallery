@@ -26,7 +26,7 @@
 # instance fields
 .field private buoyOperationId:Ljava/lang/String;
 
-.field protected params:Lcom/huawei/appmarket/pe0;
+.field protected params:Lcom/huawei/appmarket/qe0;
 
 .field private startTime:J
 
@@ -88,7 +88,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -260,7 +260,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private enterOfflineMode(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
@@ -270,19 +269,19 @@
 
     const-string v1, "BuoyServiceDispatcher"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cf0;->N2()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/df0;->O2()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -290,7 +289,7 @@
 
     const-string p1, "!BuoyWindowManager.getInstance().isEmpty()"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-direct {p0}, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->openBuoyWindow()V
@@ -298,7 +297,7 @@
     return-void
 
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/rv2;->i(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/uv2;->i(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
 
     move-result p1
 
@@ -322,11 +321,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->buoyOperationId:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/cf0;->W2(Lcom/huawei/appmarket/cd0;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/df0;->X2(Lcom/huawei/appmarket/cd0;)V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -336,13 +335,13 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v1, Lcom/huawei/appmarket/fq5;
+    new-instance v1, Lcom/huawei/appmarket/gq5;
 
-    iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
     iget-object v3, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mContext:Landroid/content/Context;
 
-    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/fq5;-><init>(Lcom/huawei/appmarket/pe0;Landroid/content/Context;)V
+    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/gq5;-><init>(Lcom/huawei/appmarket/qe0;Landroid/content/Context;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -365,15 +364,15 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/pe0;
+    new-instance v0, Lcom/huawei/appmarket/qe0;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/pe0;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qe0;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
     :cond_1
     :try_start_0
@@ -393,11 +392,11 @@
 
     move-result p1
 
-    sget-object v2, Lcom/huawei/appmarket/he0$a;->c:Lcom/huawei/appmarket/he0$a;
+    sget-object v2, Lcom/huawei/appmarket/ie0$a;->c:Lcom/huawei/appmarket/ie0$a;
 
-    sget-object v3, Lcom/huawei/appmarket/he0$a;->d:Lcom/huawei/appmarket/he0$a;
+    sget-object v3, Lcom/huawei/appmarket/ie0$a;->d:Lcom/huawei/appmarket/ie0$a;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/he0$a;->a()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/ie0$a;->a()I
 
     move-result v4
 
@@ -406,11 +405,11 @@
     move-object v2, v3
 
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/pe0;->c(Lcom/huawei/appmarket/he0$a;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/qe0;->c(Lcom/huawei/appmarket/ie0$a;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
     const-string v2, "isFromDockCircle"
 
@@ -418,7 +417,7 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/pe0;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qe0;->d(Z)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -429,7 +428,7 @@
 
     const-string v0, "get params error JSONException"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -438,13 +437,13 @@
 .method private sendNewRedNoticeResult(I)V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     const-string v1, "BuoyServiceDispatcher"
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -452,7 +451,7 @@
 
     const-string p1, "callback is null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -460,13 +459,13 @@
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mReqId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -474,7 +473,7 @@
 
     const-string p1, "method is blank"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     return-void
@@ -490,7 +489,7 @@
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/bean/GameBuoyRedInfoBean;->V(Ljava/lang/Integer;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -512,7 +511,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :try_start_0
@@ -520,11 +519,11 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mReqId:Ljava/lang/String;
 
-    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -533,7 +532,7 @@
     :catch_0
     const-string p1, "String to Json exception"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -542,13 +541,13 @@
 .method private sendRedDotResult(Z)V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     const-string v1, "BuoyServiceDispatcher"
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -556,7 +555,7 @@
 
     const-string p1, "callback is null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -564,13 +563,13 @@
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mReqId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -578,7 +577,7 @@
 
     const-string p1, "method is blank"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     return-void
@@ -596,7 +595,7 @@
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/bean/GameBuoyRedInfoBean;->W(Ljava/lang/Integer;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -618,7 +617,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :try_start_0
@@ -626,11 +625,11 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mReqId:Ljava/lang/String;
 
-    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -639,7 +638,7 @@
     :catch_0
     const-string p1, "String to Json exception"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -672,7 +671,7 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->destroy()V
 
-    invoke-static {}, Lcom/huawei/appmarket/qe0;->a()Lcom/huawei/appmarket/qe0;
+    invoke-static {}, Lcom/huawei/appmarket/re0;->a()Lcom/huawei/appmarket/re0;
 
     move-result-object v0
 
@@ -680,15 +679,15 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qe0;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/re0;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->W2(Lcom/huawei/appmarket/cd0;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->X2(Lcom/huawei/appmarket/cd0;)V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -707,7 +706,7 @@
     return-void
 .end method
 
-.method public dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+.method public dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
     .registers 6
 
     .line 1
@@ -745,11 +744,11 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;->setAppId(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ue0;->c()Lcom/huawei/appmarket/ue0;
+    invoke-static {}, Lcom/huawei/appmarket/ve0;->c()Lcom/huawei/appmarket/ve0;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, p3}, Lcom/huawei/appmarket/ue0;->e(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;Lcom/huawei/appmarket/ck3;)V
+    invoke-virtual {v1, v0, p3}, Lcom/huawei/appmarket/ve0;->e(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;Lcom/huawei/appmarket/ek3;)V
 
     const-string v0, "showBuoyDialog"
 
@@ -766,7 +765,7 @@
     invoke-direct {p0, p2}, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->parseParams(Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;)V
 
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
 
     return-void
 .end method
@@ -795,7 +794,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -819,7 +818,7 @@
 
     .line 12
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/fe0;
+    new-instance v0, Lcom/huawei/appmarket/ge0;
 
     .line 13
     .line 14
@@ -835,7 +834,7 @@
     move-result-object v2
 
     .line 20
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/fe0;-><init>(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/ge0;-><init>(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
 
     .line 21
     .line 22
@@ -849,7 +848,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fe0;->e(Lcom/huawei/appmarket/fe0$c;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ge0;->e(Lcom/huawei/appmarket/ge0$c;)V
 
     .line 29
     .line 30
@@ -967,7 +966,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -991,7 +990,7 @@
 
     .line 12
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/ne0;
+    new-instance v0, Lcom/huawei/appmarket/oe0;
 
     .line 13
     .line 14
@@ -1007,7 +1006,7 @@
     move-result-object v2
 
     .line 20
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/ne0;-><init>(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/oe0;-><init>(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
 
     .line 21
     .line 22
@@ -1021,7 +1020,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ne0;->c(Lcom/huawei/appmarket/ne0$b;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/oe0;->c(Lcom/huawei/appmarket/oe0$b;)V
 
     .line 29
     .line 30
@@ -1139,7 +1138,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -1155,7 +1154,7 @@
 
     .line 8
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/o56;
+    new-instance v0, Lcom/huawei/appmarket/q56;
 
     .line 9
     .line 10
@@ -1163,7 +1162,7 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o56;-><init>(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/q56;-><init>(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
 
     .line 13
     .line 14
@@ -1177,12 +1176,12 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/o56;->e(Lcom/huawei/appmarket/o56$b;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/q56;->e(Lcom/huawei/appmarket/q56$b;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0}, Lcom/huawei/appmarket/o56;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/q56;->d()V
 
     .line 24
     .line 25
@@ -1318,13 +1317,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/bv2;->c()Lcom/huawei/appmarket/bv2;
+    invoke-static {}, Lcom/huawei/appmarket/ev2;->c()Lcom/huawei/appmarket/ev2;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mGameInfo:Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bv2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/zu2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ev2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/cv2;
 
     move-result-object v0
 
@@ -1332,7 +1331,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mGameInfo:Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zu2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1344,11 +1343,11 @@
     return-object v0
 .end method
 
-.method public getRequestParams()Lcom/huawei/appmarket/pe0;
+.method public getRequestParams()Lcom/huawei/appmarket/qe0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/pe0;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->params:Lcom/huawei/appmarket/qe0;
 
     return-object v0
 .end method
@@ -1356,12 +1355,12 @@
 .method public notify(Ljava/lang/String;Ljava/lang/String;)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     if-eqz v0, :cond_0
 
     :try_start_0
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1374,7 +1373,7 @@
 
     const-string v0, "send the show result to sdk failed"
 
-    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0
@@ -1384,7 +1383,7 @@
 .method public onClose()V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/f32;->a()Lcom/huawei/appmarket/f32;
+    invoke-static {}, Lcom/huawei/appmarket/j32;->a()Lcom/huawei/appmarket/j32;
 
     move-result-object v0
 
@@ -1408,14 +1407,14 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/f32;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/j32;->b(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     if-eqz v0, :cond_0
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/qe0;->a()Lcom/huawei/appmarket/qe0;
+    invoke-static {}, Lcom/huawei/appmarket/re0;->a()Lcom/huawei/appmarket/re0;
 
     move-result-object v0
 
@@ -1423,7 +1422,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qe0;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/re0;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)V
 
     new-instance v0, Lcom/huawei/appgallery/assistantdock/base/service/bean/BuoyResponse;
 
@@ -1433,7 +1432,7 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/appgallery/assistantdock/base/service/bean/BuoyResponse;-><init>(ILjava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->buoyOperationId:Ljava/lang/String;
 
@@ -1441,7 +1440,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1454,7 +1453,7 @@
 
     const-string v2, "send the show result to sdk failed"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0
@@ -1464,7 +1463,7 @@
 .method public onFail(Ljava/lang/String;)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     if-eqz v0, :cond_0
 
@@ -1475,7 +1474,7 @@
 
     invoke-direct {v0, v1, p1}, Lcom/huawei/appgallery/assistantdock/base/service/bean/BuoyResponse;-><init>(ILjava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->buoyOperationId:Ljava/lang/String;
 
@@ -1483,7 +1482,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1496,13 +1495,13 @@
 
     const-string v1, "send the show result to sdk failed"
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oe0;->a(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/pe0;->a(Z)V
 
     return-void
 .end method
@@ -1519,7 +1518,7 @@
     .registers 10
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     .line 2
     .line 3
@@ -1528,7 +1527,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/qe0;->a()Lcom/huawei/appmarket/qe0;
+    invoke-static {}, Lcom/huawei/appmarket/re0;->a()Lcom/huawei/appmarket/re0;
 
     .line 6
     .line 7
@@ -1544,7 +1543,7 @@
     move-result-wide v1
 
     .line 13
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qe0;->c(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/re0;->c(J)V
 
     .line 14
     .line 15
@@ -1564,7 +1563,7 @@
     .line 21
     .line 22
     .line 23
-    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     .line 24
     .line 25
@@ -1580,7 +1579,7 @@
     move-result-object v0
 
     .line 31
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1602,7 +1601,7 @@
 
     .line 39
     .line 40
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 41
     .line 42
@@ -1656,11 +1655,11 @@
     move-result-object v2
 
     .line 66
-    sget v3, Lcom/huawei/appmarket/dn1;->i:I
+    sget v3, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 67
     .line 68
-    invoke-static {v2}, Lcom/huawei/appmarket/qw7;->d(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/ww7;->d(Landroid/content/Context;)Ljava/lang/String;
 
     .line 69
     .line 70
@@ -1738,7 +1737,7 @@
 
     .line 109
     .line 110
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/a73;->e(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/d73;->e(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 111
     .line 112
@@ -1747,7 +1746,7 @@
     const/4 v0, 0x1
 
     .line 114
-    invoke-static {v0}, Lcom/huawei/appmarket/oe0;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/pe0;->a(Z)V
 
     .line 115
     .line 116
@@ -1777,7 +1776,7 @@
 
 .method public showBuoyDialog()V
     .registers 3
-    .annotation runtime Lcom/huawei/appmarket/sy5;
+    .annotation runtime Lcom/huawei/appmarket/uy5;
     .end annotation
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1799,7 +1798,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -1819,7 +1818,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -1828,7 +1827,7 @@
 
     .line 15
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 16
     .line 17
@@ -1836,7 +1835,7 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/cf0;->W2(Lcom/huawei/appmarket/cd0;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/df0;->X2(Lcom/huawei/appmarket/cd0;)V
 
     .line 20
     .line 21
@@ -1853,7 +1852,7 @@
 
     .line 27
     .line 28
-    iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     .line 29
     .line 30
@@ -1862,7 +1861,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/jd0;->e(Landroid/content/Context;Lcom/huawei/appmarket/ck3;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/jd0;->e(Landroid/content/Context;Lcom/huawei/appmarket/ek3;)V
 
     .line 34
     .line 35

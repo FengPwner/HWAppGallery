@@ -6,16 +6,16 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$e;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$k;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$c;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$i;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$j;,
         Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$d;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$g;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$f;,
         Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$h;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$b;
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$b;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$j;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$i;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$f;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$c;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$g;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$k;,
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$e;
     }
 .end annotation
 
@@ -52,7 +52,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 5
     .line 6
@@ -64,7 +64,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -227,7 +227,7 @@
 
     .line 85
     :goto_2
-    sget-object v4, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v4, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 86
     .line 87
@@ -297,7 +297,7 @@
     move-result-object v0
 
     .line 119
-    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 120
     .line 121
@@ -1071,7 +1071,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     .line 2
     .line 3
@@ -1119,7 +1119,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -1147,7 +1147,7 @@
 
     .line 40
     .line 41
-    invoke-interface {p2, v0}, Lcom/huawei/hms/iap/IapClient;->obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p2, v0}, Lcom/huawei/hms/iap/IapClient;->obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/nv7;
 
     .line 42
     .line 43
@@ -1182,7 +1182,7 @@
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p2, v6}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p2, v6}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     .line 57
     .line 58
@@ -1202,7 +1202,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     .line 67
     .line 68
@@ -1826,19 +1826,19 @@
 
     invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object p1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string p2, "IAPWrapper"
 
     const-string p3, "createPurchase"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
@@ -1850,17 +1850,17 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v1, "IAPWrapper"
 
     const-string v2, "call isEnvReady"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper;->a:Lcom/huawei/hms/iap/IapClient;
 
-    invoke-interface {v0}, Lcom/huawei/hms/iap/IapClient;->isEnvReady()Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0}, Lcom/huawei/hms/iap/IapClient;->isEnvReady()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -1868,7 +1868,7 @@
 
     invoke-direct {v1, p1}, Lcom/huawei/appgallery/payauthkit/pay/app/control/a;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -1876,7 +1876,7 @@
 
     invoke-direct {v1, p1}, Lcom/huawei/appgallery/payauthkit/pay/app/control/a;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -1885,13 +1885,13 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v1, "IAPWrapper"
 
     const-string v2, "obtainOwnedPurchases: entry"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -1918,13 +1918,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object p1, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v0, "productId empty"
 
     const-string v1, "IAPWrapper"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     check-cast p2, Lcom/huawei/appgallery/payauthkit/pay/app/control/d$c;
 

@@ -120,7 +120,7 @@
     const-string v0, "/"
 
     .line 1
-    invoke-static {v4, p0, v0}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, p0, v0}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -254,7 +254,7 @@
     :cond_3
     iget-object p2, p0, Lcom/huawei/agconnect/applinking/internal/report/HAEventReport;->a:Lcom/huawei/agconnect/common/api/HaBridge;
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/agconnect/common/api/HaBridge;->onEvent(Ljava/lang/String;Landroid/os/Bundle;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/agconnect/common/api/HaBridge;->onEvent(Ljava/lang/String;Landroid/os/Bundle;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

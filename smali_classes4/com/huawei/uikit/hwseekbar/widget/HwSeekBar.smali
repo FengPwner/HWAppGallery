@@ -34,7 +34,7 @@
 
 .field private I:Ljava/lang/reflect/Field;
 
-.field private J:Lcom/huawei/appmarket/kk7;
+.field private J:Lcom/huawei/appmarket/qk7;
 
 .field private K:Z
 
@@ -157,7 +157,7 @@
     const v0, 0x7f130312
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -226,7 +226,7 @@
 
     const-class v4, Ljava/lang/Float;
 
-    const-string v5, "visual_progress"
+    const-string/jumbo v5, "visual_progress"
 
     invoke-direct {v3, p0, v4, v5}, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar$b;-><init>(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;Ljava/lang/Class;Ljava/lang/String;)V
 
@@ -251,7 +251,7 @@
 
     iput v4, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->G:F
 
-    sget-object v4, Lcom/huawei/appmarket/lg6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/ng6;->a:[I
 
     const v5, 0x7f130534
 
@@ -466,7 +466,7 @@
 
     if-lt p1, p2, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->s(Landroid/widget/SeekBar;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->s(Landroid/widget/SeekBar;)V
 
     :cond_0
     iget-boolean p1, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->e:Z
@@ -527,7 +527,7 @@
 
     if-lt p2, v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->d(Landroid/widget/SeekBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->d(Landroid/widget/SeekBar;)I
 
     move-result p2
 
@@ -696,7 +696,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1}, Lcom/huawei/appmarket/t12;->a(Landroid/graphics/drawable/GradientDrawable;)F
+    invoke-static {p1}, Lcom/huawei/appmarket/x12;->a(Landroid/graphics/drawable/GradientDrawable;)F
 
     .line 37
     .line 38
@@ -725,7 +725,7 @@
     .line 49
     .line 50
     :try_start_0
-    invoke-static {p1}, Lcom/huawei/appmarket/t12;->D(Landroid/graphics/drawable/GradientDrawable;)[F
+    invoke-static {p1}, Lcom/huawei/appmarket/x12;->D(Landroid/graphics/drawable/GradientDrawable;)[F
 
     .line 51
     .line 52
@@ -923,7 +923,7 @@
 
     .line 139
     .line 140
-    invoke-static {v5, v7, v3}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v5, v7, v3}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 141
     .line 142
@@ -956,7 +956,7 @@
 
     .line 154
     .line 155
-    invoke-static {v0, v3, v5}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v3, v5}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 156
     .line 157
@@ -991,23 +991,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private c(Landroid/graphics/drawable/LayerDrawable;)V
@@ -1212,7 +1195,7 @@
 
     .line 94
     .line 95
-    invoke-static {v1}, Lcom/huawei/appmarket/hs2;->g(Landroid/graphics/drawable/ClipDrawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1}, Lcom/huawei/appmarket/ks2;->g(Landroid/graphics/drawable/ClipDrawable;)Landroid/graphics/drawable/Drawable;
 
     .line 96
     .line 97
@@ -1340,23 +1323,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private d(Landroid/graphics/drawable/ScaleDrawable;)V
@@ -1626,23 +1592,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static f(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;F)V
@@ -2035,10 +1984,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static synthetic g(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;F)V
@@ -2121,7 +2066,7 @@
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lcom/huawei/appmarket/kk7;
+    new-instance v1, Lcom/huawei/appmarket/qk7;
 
     .line 7
     .line 8
@@ -2133,12 +2078,12 @@
 
     .line 11
     .line 12
-    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/kk7;-><init>(FF)V
+    invoke-direct {v1, v2, v3}, Lcom/huawei/appmarket/qk7;-><init>(FF)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/o06;->d()Lcom/huawei/appmarket/q06;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/q06;->d()Lcom/huawei/appmarket/s06;
 
     .line 16
     .line 17
@@ -2146,7 +2091,7 @@
     move-result-object v2
 
     .line 19
-    invoke-virtual {v2}, Lcom/huawei/appmarket/q06;->getEstimatedDuration()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/s06;->getEstimatedDuration()F
 
     .line 20
     .line 21
@@ -2462,23 +2407,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private i()V
@@ -2534,7 +2462,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yf3;->a(Landroid/content/Context;)I
 
     .line 27
     .line 28
@@ -2971,6 +2899,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private k(I)V
@@ -3249,23 +3197,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static m(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;)V
@@ -3462,23 +3393,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic n(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;)Ljava/lang/Runnable;
@@ -3794,7 +3708,7 @@
 
     const-string v7, "huawei.android.widget.HwPlume"
 
-    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v2, v7, v1}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
@@ -3819,7 +3733,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -4031,23 +3945,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private u()V
@@ -4799,7 +4696,7 @@
 
     .line 162
     .line 163
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->d(Landroid/widget/SeekBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->d(Landroid/widget/SeekBar;)I
 
     .line 164
     .line 165
@@ -5967,65 +5864,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method protected final onFocusChanged(ZILandroid/graphics/Rect;)V
@@ -6146,7 +5984,7 @@
 
     if-lt p1, v1, :cond_2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->d(Landroid/widget/SeekBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->d(Landroid/widget/SeekBar;)I
 
     move-result p1
 
@@ -7654,65 +7492,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final onWindowFocusChanged(Z)V
@@ -7871,7 +7650,7 @@
     if-lt v1, v2, :cond_1
 
     .line 3
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->d(Landroid/widget/SeekBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->d(Landroid/widget/SeekBar;)I
 
     move-result v3
 
@@ -7885,7 +7664,7 @@
 
     move-result v4
 
-    invoke-static {p1, v3, v4}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p1, v3, v4}, Lcom/huawei/appmarket/c55;->a(III)I
 
     move-result p1
 
@@ -7932,7 +7711,7 @@
     if-lt v1, v2, :cond_4
 
     .line 5
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->d(Landroid/widget/SeekBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->d(Landroid/widget/SeekBar;)I
 
     move-result p2
 
@@ -7976,7 +7755,7 @@
 
     invoke-virtual {p1, v4}, Landroid/animation/ObjectAnimator;->setAutoCancel(Z)V
 
-    new-instance p2, Lcom/huawei/appmarket/kk7;
+    new-instance p2, Lcom/huawei/appmarket/qk7;
 
     iget v0, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->S:F
 
@@ -7986,27 +7765,27 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    invoke-direct {p2, v0, v1, v3, v2}, Lcom/huawei/appmarket/kk7;-><init>(FFFF)V
+    invoke-direct {p2, v0, v1, v3, v2}, Lcom/huawei/appmarket/qk7;-><init>(FFFF)V
 
-    iput-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/kk7;
+    iput-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/qk7;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/o06;->d()Lcom/huawei/appmarket/q06;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/q06;->d()Lcom/huawei/appmarket/s06;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/q06;->getVelocity()F
+    invoke-virtual {p2}, Lcom/huawei/appmarket/s06;->getVelocity()F
 
     move-result p2
 
     iput p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->k:F
 
-    iget-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/kk7;
+    iget-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/qk7;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/o06;->d()Lcom/huawei/appmarket/q06;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/q06;->d()Lcom/huawei/appmarket/s06;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/q06;->getEstimatedDuration()F
+    invoke-virtual {p2}, Lcom/huawei/appmarket/s06;->getEstimatedDuration()F
 
     move-result p2
 
@@ -8014,7 +7793,7 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
-    iget-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/kk7;
+    iget-object p2, p0, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->J:Lcom/huawei/appmarket/qk7;
 
     invoke-virtual {p1, p2}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
@@ -8109,7 +7888,7 @@
     const-string v5, "android.widget.ProgressBar"
 
     .line 8
-    invoke-static {v1, v5, p2}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v1, v5, p2}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p2
 
@@ -8195,7 +7974,7 @@
 
     aput-object p1, v1, v6
 
-    invoke-static {p0, p2, v1}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p2, v1}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_f
     if-eqz v3, :cond_10

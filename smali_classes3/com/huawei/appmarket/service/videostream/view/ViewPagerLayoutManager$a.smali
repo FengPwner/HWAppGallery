@@ -39,7 +39,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager$a;->b:Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/rp5;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/sp5;
 
     move-result-object v1
 
@@ -57,11 +57,11 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/rp5;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/sp5;
 
     move-result-object v0
 
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/rp5;->c(ILandroid/view/View;)V
+    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/sp5;->c(ILandroid/view/View;)V
 
     :cond_0
     return-void
@@ -72,13 +72,13 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager$a;->b:Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/rp5;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/sp5;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/rp5;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/sp5;
 
     move-result-object v1
 
@@ -86,7 +86,7 @@
 
     move-result p1
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/rp5;->b(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/sp5;->b(I)V
 
     :cond_0
     return-void

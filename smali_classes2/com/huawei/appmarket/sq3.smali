@@ -4,14 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()I
-.end method
-
-.method public abstract b()I
-.end method
-
-.method public abstract c()I
-.end method
-
-.method public abstract d()Ljava/lang/String;
+.method public abstract a(Landroid/content/Context;Lcom/huawei/appmarket/kq2;)V
 .end method

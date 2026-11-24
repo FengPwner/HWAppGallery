@@ -63,7 +63,7 @@
 
     if-lt p2, v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gi7;->p(Landroid/app/Notification$Builder;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/mi7;->p(Landroid/app/Notification$Builder;)V
 
     :cond_1
     invoke-static {p0, v0, p1}, Lcom/huawei/hms/push/n;->b(Landroid/content/Context;Landroid/app/Notification$Builder;Lcom/huawei/hms/push/o;)V
@@ -642,13 +642,13 @@
 
     move-result-object v4
 
-    invoke-static {}, Lcom/huawei/appmarket/l85;->q()V
+    invoke-static {}, Lcom/huawei/appmarket/o85;->q()V
 
-    invoke-static {v4}, Lcom/huawei/appmarket/gi7;->w(Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {v4}, Lcom/huawei/appmarket/mi7;->w(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_7
     invoke-virtual {v2, v1, v0}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V

@@ -58,7 +58,7 @@
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->c()Z
 
     move-result v1
 

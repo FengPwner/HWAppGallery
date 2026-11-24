@@ -29,7 +29,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -44,7 +44,7 @@
     .line 1
     const-string v0, "state"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Landroidx/lifecycle/h$a$a$a;->a:[I
 
@@ -93,7 +93,7 @@
     .line 1
     const-string v0, "state"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Landroidx/lifecycle/h$a$a$a;->a:[I
 

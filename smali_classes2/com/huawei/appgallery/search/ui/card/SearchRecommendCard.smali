@@ -20,7 +20,7 @@
     .end annotation
 .end field
 
-.field private x:Lcom/huawei/appmarket/n47;
+.field private x:Lcom/huawei/appmarket/s47;
 
 .field private y:Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -37,13 +37,13 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->w:Ljava/util/List;
 
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->y:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->z:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result p1
 
@@ -100,7 +100,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_0
 
@@ -116,11 +116,11 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->X0(J)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/w30;->k()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     const/4 v1, 0x1
 
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result v1
 
@@ -162,7 +162,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_1
 
@@ -172,7 +172,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     const/4 v1, 0x0
 
@@ -180,7 +180,7 @@
 
     invoke-direct {p0, v1}, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->m1(Z)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/w30;->l()Ljava/util/ArrayList;
 
@@ -245,13 +245,13 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->h0(J)V
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v0
 
     iget v2, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->B:I
 
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -275,13 +275,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchRecommendCard"
 
     const-string v1, "It\'s not recommend cardBean."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -307,7 +307,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_2
 
@@ -321,11 +321,11 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/w30;->p(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->w:Ljava/util/List;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/n47;->s(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/s47;->s(Ljava/util/List;)V
 
     :cond_2
     iget-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->A:Landroid/widget/ImageView;
@@ -336,11 +336,11 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result p1
 
@@ -348,7 +348,7 @@
 
     if-gt p1, v0, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result p1
 
@@ -376,7 +376,7 @@
 
     .line 4
     .line 5
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 6
     .line 7
@@ -384,7 +384,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -476,7 +476,7 @@
     .line 54
     .line 55
     .line 56
-    new-instance v1, Lcom/huawei/appmarket/n47;
+    new-instance v1, Lcom/huawei/appmarket/s47;
 
     .line 57
     .line 58
@@ -484,12 +484,12 @@
 
     .line 59
     .line 60
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/n47;-><init>(Ljava/util/List;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/s47;-><init>(Ljava/util/List;)V
 
     .line 61
     .line 62
     .line 63
-    iput-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iput-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     .line 64
     .line 65
@@ -524,11 +524,11 @@
 
     .line 80
     .line 81
-    new-instance v1, Lcom/huawei/appmarket/q23;
+    new-instance v1, Lcom/huawei/appmarket/t23;
 
     .line 82
     .line 83
-    invoke-direct {v1}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/t23;-><init>()V
 
     .line 84
     .line 85
@@ -570,7 +570,7 @@
 
     .line 103
     .line 104
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 105
     .line 106
@@ -595,7 +595,7 @@
     move-result-object v0
 
     .line 117
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 118
     .line 119
@@ -611,7 +611,7 @@
 
     .line 124
     :cond_2
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 125
     .line 126
@@ -619,7 +619,7 @@
 
     .line 127
     .line 128
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
     .line 130
@@ -759,15 +759,15 @@
     .line 260
 .end method
 
-.method public final n1(Lcom/huawei/appmarket/ak0;)V
+.method public final n1(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/n47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchRecommendCard;->x:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/n47;->t(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/s47;->t(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     return-void

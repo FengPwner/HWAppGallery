@@ -123,7 +123,7 @@
     :try_start_0
     new-instance v0, Ljava/text/SimpleDateFormat;
 
-    const-string v1, "yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'Z"
+    const-string/jumbo v1, "yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'Z"
 
     sget-object v2, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 

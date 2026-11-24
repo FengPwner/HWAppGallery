@@ -46,7 +46,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener;->Companion:Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener$Companion;
 
@@ -58,7 +58,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -80,7 +80,7 @@
 
     const-string p2, "null cannot be cast to non-null type android.hardware.SensorManager"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroid/hardware/SensorManager;
 
@@ -158,7 +158,7 @@
 
     const-string v1, "Cannot detect sensors. Invalid disable"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -192,7 +192,7 @@
 
     const-string v0, "Cannot detect sensors. Not enabled"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -206,7 +206,7 @@
 
     const-string v2, "OrientationEventListener enabled"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener;->mSensorManager:Landroid/hardware/SensorManager;
 
@@ -247,7 +247,7 @@
 
     const-string v2, "enable IllegalStateException"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

@@ -1,164 +1,77 @@
 .class public final Lcom/huawei/appmarket/nv2;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/m2;
 .source "SourceFile"
 
 
-# static fields
-.field public static final CODE_FAIL:I = -0x1
-
-.field public static final CODE_SUCCESS:I = 0x0
-
-.field private static final TAG:Ljava/lang/String; = "GameLoginInfo"
-
-
-# instance fields
-.field private final code:I
-
-.field private final displayName:Ljava/lang/String;
-
-.field private final playerId:Ljava/lang/String;
-
-.field private final playerLevel:I
-
-.field private final playerSign:Ljava/lang/String;
-
-.field private final ts:Ljava/lang/String;
-
-
 # direct methods
-.method public constructor <init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
-    .registers 7
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ze0;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput p1, p0, Lcom/huawei/appmarket/nv2;->code:I
-
-    iput-object p2, p0, Lcom/huawei/appmarket/nv2;->playerId:Ljava/lang/String;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/nv2;->displayName:Ljava/lang/String;
-
-    iput p4, p0, Lcom/huawei/appmarket/nv2;->playerLevel:I
-
-    iput-object p5, p0, Lcom/huawei/appmarket/nv2;->ts:Ljava/lang/String;
-
-    iput-object p6, p0, Lcom/huawei/appmarket/nv2;->playerSign:Ljava/lang/String;
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/m2;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/ze0;)V
 
     return-void
 .end method
 
-.method public static build(Lcom/huawei/hms/ui/SafeIntent;)Lcom/huawei/appmarket/nv2;
-    .registers 9
-
-    .line 1
-    if-nez p0, :cond_0
-
-    const/4 p0, 0x0
-
-    return-object p0
-
-    :cond_0
-    const-string v0, "key_player_id"
-
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/ui/SafeIntent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    const-string v0, "key_display_name"
-
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/ui/SafeIntent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    const-string v0, "key_player_level"
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/hms/ui/SafeIntent;->getIntExtra(Ljava/lang/String;I)I
-
-    move-result v5
-
-    const-string v0, "key_ts"
-
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/ui/SafeIntent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v6
-
-    const-string v0, "key_player_sign"
-
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/ui/SafeIntent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    const-string v0, "key_code"
-
-    const/4 v1, -0x1
-
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/hms/ui/SafeIntent;->getIntExtra(Ljava/lang/String;I)I
-
-    move-result v2
-
-    new-instance p0, Lcom/huawei/appmarket/nv2;
-
-    move-object v1, p0
-
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/nv2;-><init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
-
-    return-object p0
-.end method
-
 
 # virtual methods
-.method public getCode()I
+.method protected final A()I
     .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nv2;->code:I
+    const v0, 0x7f0d0565
 
     return v0
 .end method
 
-.method public getDisplayName()Ljava/lang/String;
-    .registers 2
+.method protected final y(Landroid/view/View;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv2;->displayName:Ljava/lang/String;
+    const v0, 0x7f0a0d59
 
-    return-object v0
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    const v1, 0x7f0a0d52
+
+    invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    const v2, 0x7f0a0aed
+
+    invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/ImageView;
+
+    const v2, 0x7f080345
+
+    invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    const p1, 0x7f1203aa
+
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
+
+    const p1, 0x7f1203a9
+
+    invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(I)V
+
+    return-void
 .end method
 
-.method public getPlayerId()Ljava/lang/String;
+.method public final z()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv2;->playerId:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getPlayerLevel()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nv2;->playerLevel:I
+    const v0, 0x7f080345
 
     return v0
-.end method
-
-.method public getPlayerSign()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv2;->playerSign:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getTs()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv2;->ts:Ljava/lang/String;
-
-    return-object v0
 .end method

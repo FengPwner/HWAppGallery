@@ -129,7 +129,7 @@
 
     new-instance v0, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$StampedLockVisitor;
 
-    invoke-static {}, Lcom/huawei/appmarket/ur4;->l()Ljava/util/concurrent/locks/StampedLock;
+    invoke-static {}, Lcom/huawei/appmarket/xr4;->l()Ljava/util/concurrent/locks/StampedLock;
 
     move-result-object v1
 

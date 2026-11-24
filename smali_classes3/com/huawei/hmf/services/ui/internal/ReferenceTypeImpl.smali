@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sl6;
+.implements Lcom/huawei/appmarket/vl6;
 .implements Landroid/os/Parcelable;
 
 
@@ -14,7 +14,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/sl6<",
+        "Lcom/huawei/appmarket/vl6<",
         "TT;>;",
         "Landroid/os/Parcelable;"
     }

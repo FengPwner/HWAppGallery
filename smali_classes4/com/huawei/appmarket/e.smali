@@ -25,17 +25,17 @@
     return-void
 .end method
 
-.method public static final a([BII[BI)Z
+.method public static final a(I[BI[BI)Z
     .registers 9
 
     .line 1
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "b"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -44,9 +44,9 @@
     :goto_0
     if-ge v1, p4, :cond_1
 
-    add-int v2, v1, p1
+    add-int v2, v1, p0
 
-    aget-byte v2, p0, v2
+    aget-byte v2, p1, v2
 
     add-int v3, v1, p2
 
@@ -123,7 +123,7 @@
 
     .line 25
     .line 26
-    invoke-static {v1, p0, p1, v2}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p0, p1, v2}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -627,49 +627,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static final c()I
@@ -695,7 +652,7 @@
     return p0
 .end method
 
-.method public static final e(Lcom/huawei/appmarket/sf0;)I
+.method public static final e(Lcom/huawei/appmarket/tf0;)I
     .registers 3
 
     .line 1
@@ -703,7 +660,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -720,7 +677,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Lcom/huawei/appmarket/sf0;->e()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/tf0;->e()I
 
     .line 13
     .line 14
@@ -897,23 +854,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static final f(I)I
@@ -962,7 +902,7 @@
 
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/sz8;->S()[C
+    invoke-static {}, Lcom/huawei/appmarket/yz8;->S()[C
 
     .line 5
     .line 6
@@ -989,7 +929,7 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/huawei/appmarket/sz8;->S()[C
+    invoke-static {}, Lcom/huawei/appmarket/yz8;->S()[C
 
     .line 18
     .line 19
@@ -1170,21 +1110,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

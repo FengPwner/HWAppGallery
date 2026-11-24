@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method protected final D1(Lcom/huawei/appmarket/ak0;)V
+.method protected final D1(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -30,7 +30,7 @@
 
     new-instance v0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallVideoItemCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallVideoItemCard$a;-><init>(Lcom/huawei/appmarket/service/apprecall/card/AppListRecallVideoItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallVideoItemCard$a;-><init>(Lcom/huawei/appmarket/service/apprecall/card/AppListRecallVideoItemCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->B:Landroid/view/ViewGroup;
 

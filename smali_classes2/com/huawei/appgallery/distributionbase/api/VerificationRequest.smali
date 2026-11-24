@@ -24,19 +24,19 @@
 .field private advPlatform_:I
 
 .field private agdProSdkVer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private agdSdkVer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private appid_:Ljava/lang/String;
 
 .field private callType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -55,7 +55,7 @@
 .field private callerPkgName_:Ljava/lang/String;
 
 .field private clickAreaType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -64,22 +64,22 @@
 .field private downloadFlag_:I
 
 .field private elderCareSwitch:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private enhancedModeSwitch:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private mediaManagerPkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private mediaManagerSigns:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -92,12 +92,12 @@
 .end field
 
 .field private offShelvesExperiment:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private originalDeeplink:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -108,7 +108,7 @@
 .field private responseProcessorInterceptor:Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
 
 .field private serviceInfo:Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$ServiceInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -123,7 +123,7 @@
 
     const-class v1, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -133,18 +133,18 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;->callType:Ljava/lang/String;
 
     return-void
 .end method
 
-.method static synthetic F0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
+.method static synthetic E0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
     .registers 1
 
     .line 1
@@ -155,7 +155,7 @@
 
 
 # virtual methods
-.method public final G0()Ljava/lang/String;
+.method public final F0()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -164,7 +164,7 @@
     return-object v0
 .end method
 
-.method public final H0()Ljava/util/List;
+.method public final G0()Ljava/util/List;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -181,7 +181,7 @@
     return-object v0
 .end method
 
-.method public final I0()Ljava/lang/String;
+.method public final H0()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -190,7 +190,7 @@
     return-object v0
 .end method
 
-.method public final J0()I
+.method public final I0()I
     .registers 2
 
     .line 1
@@ -199,7 +199,7 @@
     return v0
 .end method
 
-.method public final K0()Ljava/lang/String;
+.method public final J0()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -208,7 +208,7 @@
     return-object v0
 .end method
 
-.method public final L0()Ljava/lang/String;
+.method public final K0()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -217,7 +217,7 @@
     return-object v0
 .end method
 
-.method public final M0()Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$UriParams;
+.method public final L0()Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$UriParams;
     .registers 2
 
     .line 1
@@ -226,7 +226,7 @@
     return-object v0
 .end method
 
-.method public final N0(I)V
+.method public final M0(I)V
     .registers 2
 
     .line 1
@@ -235,7 +235,7 @@
     return-void
 .end method
 
-.method public final O0(Ljava/lang/String;)V
+.method public final N0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -244,7 +244,7 @@
     return-void
 .end method
 
-.method public final P0(Ljava/lang/String;)V
+.method public final O0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -253,7 +253,7 @@
     return-void
 .end method
 
-.method public final Q0(Ljava/lang/String;)V
+.method public final P0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -262,7 +262,7 @@
     return-void
 .end method
 
-.method public final R0(I)V
+.method public final Q0(I)V
     .registers 2
 
     .line 1
@@ -271,7 +271,7 @@
     return-void
 .end method
 
-.method public final S0(Ljava/util/List;)V
+.method public final R0(Ljava/util/List;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -288,7 +288,7 @@
     return-void
 .end method
 
-.method public final T0(Ljava/lang/String;)V
+.method public final S0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -297,7 +297,7 @@
     return-void
 .end method
 
-.method public final U0(I)V
+.method public final T0(I)V
     .registers 2
 
     .line 1
@@ -306,7 +306,7 @@
     return-void
 .end method
 
-.method public final V0(I)V
+.method public final U0(I)V
     .registers 2
 
     .line 1
@@ -315,7 +315,7 @@
     return-void
 .end method
 
-.method public final W0(Ljava/lang/String;)V
+.method public final V0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -324,7 +324,7 @@
     return-void
 .end method
 
-.method public final X0(Ljava/util/ArrayList;)V
+.method public final W0(Ljava/util/ArrayList;)V
     .registers 2
 
     .line 1
@@ -333,7 +333,7 @@
     return-void
 .end method
 
-.method public final Y0(Ljava/lang/String;)V
+.method public final X0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -342,7 +342,7 @@
     return-void
 .end method
 
-.method public final Z0(Ljava/lang/String;)V
+.method public final Y0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -351,7 +351,7 @@
     return-void
 .end method
 
-.method public final a0()I
+.method public final Z()I
     .registers 2
 
     .line 1
@@ -360,7 +360,7 @@
     return v0
 .end method
 
-.method public final a1(Ljava/lang/String;)V
+.method public final Z0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -369,7 +369,7 @@
     return-void
 .end method
 
-.method public final b1(Lcom/huawei/appmarket/kh;)V
+.method public final a1(Lcom/huawei/appmarket/jh;)V
     .registers 2
 
     .line 1
@@ -378,7 +378,7 @@
     return-void
 .end method
 
-.method public final c1(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$ServiceInfo;)V
+.method public final b1(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$ServiceInfo;)V
     .registers 2
 
     .line 1
@@ -387,7 +387,7 @@
     return-void
 .end method
 
-.method public final d1(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$UriParams;)V
+.method public final c1(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$UriParams;)V
     .registers 2
 
     .line 1
@@ -458,7 +458,7 @@
 
     .line 30
     .line 31
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 32
     .line 33
@@ -470,7 +470,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -483,11 +483,11 @@
 
     .line 42
     .line 43
-    const-class v4, Lcom/huawei/appmarket/yh3;
+    const-class v4, Lcom/huawei/appmarket/ai3;
 
     .line 44
     .line 45
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -495,11 +495,11 @@
     move-result-object v3
 
     .line 49
-    check-cast v3, Lcom/huawei/appmarket/yh3;
+    check-cast v3, Lcom/huawei/appmarket/ai3;
 
     .line 50
     .line 51
-    invoke-interface {v3, v0, v1}, Lcom/huawei/appmarket/yh3;->i(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-interface {v3, v0, v1}, Lcom/huawei/appmarket/ai3;->i(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 52
     .line 53
@@ -523,7 +523,7 @@
     move-result-object v5
 
     .line 63
-    invoke-virtual {p0, v5}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->q0(Ljava/lang/String;)V
+    invoke-virtual {p0, v5}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->p0(Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -532,13 +532,13 @@
 
     .line 67
     .line 68
-    invoke-virtual {p0, v4}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->r0(Ljava/lang/String;)V
+    invoke-virtual {p0, v4}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->q0(Ljava/lang/String;)V
 
     .line 69
     .line 70
     .line 71
     :cond_1
-    invoke-interface {v3, v1}, Lcom/huawei/appmarket/yh3;->r(Ljava/lang/String;)Z
+    invoke-interface {v3, v1}, Lcom/huawei/appmarket/ai3;->r(Ljava/lang/String;)Z
 
     .line 72
     .line 73
@@ -550,7 +550,7 @@
 
     .line 76
     .line 77
-    invoke-interface {v3, v0, v1}, Lcom/huawei/appmarket/yh3;->o(Landroid/content/Context;Ljava/lang/String;)J
+    invoke-interface {v3, v0, v1}, Lcom/huawei/appmarket/ai3;->o(Landroid/content/Context;Ljava/lang/String;)J
 
     .line 78
     .line 79
@@ -558,14 +558,14 @@
     move-result-wide v0
 
     .line 81
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->B0(J)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->A0(J)V
 
     .line 82
     .line 83
     .line 84
     :cond_2
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 85
     .line 86
@@ -573,7 +573,7 @@
     move-result-object v0
 
     .line 88
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 89
     .line 90
@@ -585,7 +585,7 @@
 
     .line 93
     .line 94
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->h()Z
 
     .line 95
     .line 96
@@ -597,7 +597,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->s0()V
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->r0()V
 
     .line 101
     .line 102
@@ -654,7 +654,7 @@
 
     .line 126
     :try_start_1
-    sget-object v5, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v5, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 127
     .line 128
@@ -680,7 +680,7 @@
     move-result-object v1
 
     .line 140
-    invoke-virtual {v5, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -705,7 +705,7 @@
 
     .line 148
     :goto_1
-    sget-object v5, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v5, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 149
     .line 150
@@ -743,7 +743,7 @@
     move-result-object v1
 
     .line 168
-    invoke-virtual {v5, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 169
     .line 170
@@ -753,7 +753,7 @@
 
     .line 172
     .line 173
-    invoke-static {}, Lcom/huawei/appmarket/fb6;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/hb6;->a()I
 
     .line 174
     .line 175
@@ -1193,15 +1193,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final setAppid(Ljava/lang/String;)V
@@ -1212,20 +1203,20 @@
     return-void
 .end method
 
-.method public final setResponseProcessor(Lcom/huawei/appmarket/g04;)V
+.method public final setResponseProcessor(Lcom/huawei/appmarket/i04;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;-><init>(Lcom/huawei/appmarket/g04;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;-><init>(Lcom/huawei/appmarket/i04;)V
 
-    invoke-super {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/g04;)V
+    invoke-super {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/i04;)V
 
     return-void
 .end method
 
-.method public final u0(I)V
+.method public final t0(I)V
     .registers 2
 
     .line 1

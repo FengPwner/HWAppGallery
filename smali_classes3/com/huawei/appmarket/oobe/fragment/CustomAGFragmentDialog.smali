@@ -22,7 +22,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/ao5;
+    iget-object v0, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/bo5;
 
     if-eqz v0, :cond_0
 
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/ao5;
+    iget-object v0, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/bo5;
 
     invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
@@ -38,7 +38,7 @@
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2, p1}, Lcom/huawei/appmarket/ao5;->h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
+    invoke-interface {v0, v1, v2, p1}, Lcom/huawei/appmarket/bo5;->h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/ui/dialog/impl/AGFragmentDialog;->c()Lcom/huawei/appmarket/w7;
@@ -55,9 +55,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/ff0;
+    check-cast p1, Lcom/huawei/appmarket/gf0;
 
-    iget-boolean p1, p1, Lcom/huawei/appmarket/ff0;->d:Z
+    iget-boolean p1, p1, Lcom/huawei/appmarket/gf0;->d:Z
 
     if-eqz p1, :cond_1
 

@@ -3,112 +3,75 @@
 .source "SourceFile"
 
 
-# instance fields
-.field private final a:Lcom/huawei/appmarket/zs0;
-
-.field private final b:Landroidx/media3/exoplayer/trackselection/e;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/at0$a;
+    }
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/at0$a;)V
+    .registers 5
 
     .line 1
-    const-string v0, ".*-.*"
-
-    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
-
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/huawei/appmarket/zs0;Landroidx/media3/exoplayer/trackselection/e;JFLjava/lang/String;ZZZ)V
-    .registers 11
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const-wide/16 p6, 0x0
-
-    const/4 p8, 0x1
-
-    const/4 p9, 0x0
-
-    cmp-long v0, p3, p6
-
-    if-ltz v0, :cond_0
-
-    const/4 p3, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p3, 0x0
-
-    :goto_0
-    invoke-static {p3}, Lcom/huawei/appmarket/hy;->a(Z)V
-
-    const p3, -0x800001
-
-    cmpl-float p3, p5, p3
-
-    if-eqz p3, :cond_2
-
-    const/4 p3, 0x0
-
-    cmpl-float p3, p5, p3
-
-    if-lez p3, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    const/4 p8, 0x0
-
-    :cond_2
-    :goto_1
-    invoke-static {p8}, Lcom/huawei/appmarket/hy;->a(Z)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/at0;->a:Lcom/huawei/appmarket/zs0;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/at0;->b:Landroidx/media3/exoplayer/trackselection/e;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/at0;->a:Lcom/huawei/appmarket/zs0;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
     const/4 v0, 0x0
 
-    throw v0
+    invoke-direct {p0, p1, p2, p3, v0}, Lcom/huawei/appmarket/at0;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/at0$a;I)V
+
+    return-void
 .end method
 
-.method public final b(J)V
-    .registers 6
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/at0$a;I)V
+    .registers 7
 
-    .line 1
-    const-wide/16 v0, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    cmp-long v2, p1, v0
+    const/4 p4, 0x0
 
-    if-ltz v2, :cond_0
+    const/16 v0, 0x40
 
-    const/4 p1, 0x1
+    const/4 v1, 0x1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    move-result p1
+
+    if-gt p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
     const/4 p1, 0x0
 
+    goto :goto_1
+
+    :cond_1
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/hy;->a(Z)V
+    const/4 p1, 0x1
+
+    :goto_1
+    invoke-static {p1}, Lcom/huawei/appmarket/iy;->a(Z)V
+
+    if-eqz p2, :cond_2
+
+    invoke-virtual {p2}, Ljava/lang/String;->length()I
+
+    move-result p1
+
+    if-gt p1, v0, :cond_3
+
+    :cond_2
+    const/4 p4, 0x1
+
+    :cond_3
+    invoke-static {p4}, Lcom/huawei/appmarket/iy;->a(Z)V
+
+    .line 2
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     return-void
 .end method

@@ -9,11 +9,11 @@
 
 # instance fields
 .field private deviceSpecParams:Lcom/huawei/appgallery/devicekit/api/DeviceSpec;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->NOPRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -42,18 +42,18 @@
     return-object p0
 .end method
 
-.method public final V(Lcom/huawei/appmarket/p56;)V
+.method public final V(Lcom/huawei/appmarket/r56;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/remotedevice/server/BaseRemoteRequestBean;->V(Lcom/huawei/appmarket/p56;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/remotedevice/server/BaseRemoteRequestBean;->V(Lcom/huawei/appmarket/r56;)V
 
     if-nez p1, :cond_0
 
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p56;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/r56;->c()Ljava/lang/String;
 
     move-result-object p1
 

@@ -37,33 +37,33 @@
 .method public final run()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v0, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string v1, "FaDetailFragment"
 
     const-string v2, "install success"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$g$a;->b:Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->x6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appmarket/s85;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->y6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appmarket/v85;
 
     move-result-object v1
 
     const-string v2, "installTime"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->d(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->d(Ljava/lang/String;)V
 
     const-string v2, "refreshUiTime"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->n(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->n(Ljava/lang/String;)Z
 
     const/16 v1, 0x64
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->O6(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->P6(I)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->y6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->z6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
 
     return-void
 .end method

@@ -89,11 +89,11 @@
 
     move-result-object v3
 
-    invoke-static {}, Lcom/huawei/appmarket/cg0;->a()Lcom/huawei/appmarket/cg0;
+    invoke-static {}, Lcom/huawei/appmarket/dg0;->a()Lcom/huawei/appmarket/dg0;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/cg0;->e(Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/dg0;->e(Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;)V
 
     goto :goto_0
 
@@ -129,7 +129,7 @@
 
     const-string p2, "cgToken is null, no network"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -141,11 +141,11 @@
 
     const/4 p2, 0x0
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/activity/TestSpeedQueueDialogActivity;->C3()V
 

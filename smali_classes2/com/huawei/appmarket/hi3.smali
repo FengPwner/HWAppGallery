@@ -4,5 +4,23 @@
 
 
 # virtual methods
-.method public abstract a(Landroidx/fragment/app/FragmentActivity;)V
+.method public abstract a(Lcom/huawei/appmarket/hz;)V
+.end method
+
+.method public abstract b(ILjava/lang/String;)V
+.end method
+
+.method public abstract c(I)V
+.end method
+
+.method public abstract d(I)V
+.end method
+
+.method public abstract e(II)V
+.end method
+
+.method public abstract onComplete()V
+.end method
+
+.method public abstract onPause()V
 .end method

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCardV2;->g2(Lcom/huawei/appmarket/gg0;Lcom/huawei/appmarket/jg0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCardV2;->g2(Lcom/huawei/appmarket/hg0;Lcom/huawei/appmarket/kg0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
     return-void
 .end method
 
-.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 4
 
     .line 1
@@ -65,7 +65,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {p2}, Lcom/huawei/appmarket/sp1;->b(Ljava/lang/Runnable;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/vp1;->b(Ljava/lang/Runnable;)V
 
     .line 10
     .line 11
@@ -233,5 +233,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

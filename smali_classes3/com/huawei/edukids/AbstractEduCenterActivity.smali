@@ -45,7 +45,7 @@
     .line 1
     const-string v0, "kidedu"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/va8;->c(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ab8;->c(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 5
     .line 6
@@ -80,7 +80,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -88,21 +88,21 @@
     move-result-object v1
 
     .line 14
-    new-instance v2, Lcom/huawei/appmarket/pq1$a;
+    new-instance v2, Lcom/huawei/appmarket/sq1$a;
 
     .line 15
     .line 16
-    invoke-direct {v2}, Lcom/huawei/appmarket/pq1$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/sq1$a;-><init>()V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/pq1$a;->q(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/sq1$a;->q(Ljava/lang/String;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/pq1$a;->o(I)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/sq1$a;->o(I)V
 
     .line 23
     .line 24
@@ -110,21 +110,21 @@
     const/4 v0, 0x1
 
     .line 26
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/pq1$a;->r(I)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/sq1$a;->r(I)V
 
     .line 27
     .line 28
     .line 29
-    new-instance v0, Lcom/huawei/appmarket/sq1;
+    new-instance v0, Lcom/huawei/appmarket/vq1;
 
     .line 30
     .line 31
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/sq1;-><init>(Lcom/huawei/appmarket/pq1$a;)V
+    invoke-direct {v0, v2}, Lcom/huawei/appmarket/vq1;-><init>(Lcom/huawei/appmarket/sq1$a;)V
 
     .line 32
     .line 33
     .line 34
-    const-class v1, Lcom/huawei/appmarket/pq1;
+    const-class v1, Lcom/huawei/appmarket/sq1;
 
     .line 35
     .line 36
@@ -140,7 +140,7 @@
     move-result-object v2
 
     .line 41
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/v71;->a(Lcom/huawei/appmarket/sq1;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/v71;->a(Lcom/huawei/appmarket/vq1;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -150,7 +150,7 @@
     monitor-exit v1
 
     .line 45
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 46
     .line 47
@@ -162,7 +162,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 52
     .line 53
@@ -186,7 +186,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 64
     .line 65
@@ -267,7 +267,7 @@
 
     .line 102
     .line 103
-    invoke-static {v0}, Lcom/huawei/appmarket/mk3;->d(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ok3;->d(Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -289,7 +289,7 @@
     move-result-object v1
 
     .line 115
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 116
     .line 117

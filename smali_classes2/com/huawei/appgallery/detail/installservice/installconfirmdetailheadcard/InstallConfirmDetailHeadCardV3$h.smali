@@ -69,7 +69,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 20
     .line 21
@@ -178,5 +178,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

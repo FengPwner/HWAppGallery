@@ -16,33 +16,21 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/p62;
+.field private a:Lcom/huawei/appmarket/t62;
 
-.field private b:Ljava/lang/ref/WeakReference;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/kp3;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private b:Lcom/huawei/appmarket/mp3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/p62;Lcom/huawei/appmarket/kp3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/t62;Lcom/huawei/appmarket/mp3;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/p62;
+    iput-object p1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/t62;
 
-    new-instance p1, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/q62;->b:Ljava/lang/ref/WeakReference;
+    iput-object p2, p0, Lcom/huawei/appmarket/q62;->b:Lcom/huawei/appmarket/mp3;
 
     return-void
 .end method
@@ -50,7 +38,7 @@
 
 # virtual methods
 .method protected final doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 8
+    .registers 15
 
     .line 1
     check-cast p1, [Ljava/lang/Void;
@@ -73,529 +61,997 @@
     move-result-object p1
 
     .line 11
-    if-eqz p1, :cond_8
+    const-string v0, "ExtdInstallMoveTask"
 
     .line 12
     .line 13
-    iget-object p1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/p62;
+    iget-object v1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/t62;
 
     .line 14
     .line 15
-    if-nez p1, :cond_0
+    if-eqz v1, :cond_a
 
     .line 16
     .line 17
-    goto/16 :goto_7
+    if-nez p1, :cond_0
 
     .line 18
     .line 19
-    :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->a()I
+    goto/16 :goto_a
 
     .line 20
     .line 21
+    :cond_0
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t62;->k()Landroid/net/Uri;
+
     .line 22
-    move-result v0
-
     .line 23
-    const/4 v1, 0x1
-
     .line 24
-    const/4 v2, 0x0
+    move-result-object v2
 
     .line 25
-    const-string v3, "ExtdObbCheckIncludeTask"
+    if-nez v2, :cond_1
 
     .line 26
     .line 27
-    if-ne v0, v1, :cond_2
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 28
     .line 29
-    :try_start_0
-    new-instance v0, Ljava/net/URI;
+    const-string v1, "Move task uri null"
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->k()Landroid/net/Uri;
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    move-result-object v4
+    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 35
-    invoke-virtual {v4}, Landroid/net/Uri;->toString()Ljava/lang/String;
-
     .line 36
+    goto/16 :goto_b
+
     .line 37
     .line 38
-    move-result-object v4
+    :cond_1
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t62;->a()I
 
     .line 39
-    invoke-direct {v0, v4}, Ljava/net/URI;-><init>(Ljava/lang/String;)V
-
     .line 40
     .line 41
+    move-result v0
+
     .line 42
-    invoke-virtual {v0}, Ljava/net/URI;->getScheme()Ljava/lang/String;
+    const/4 v3, 0x1
 
     .line 43
+    if-ne v0, v3, :cond_2
+
     .line 44
     .line 45
-    move-result-object v4
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 46
-    const-string v5, "file"
-
     .line 47
-    .line 48
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    goto/16 :goto_b
 
+    .line 48
     .line 49
+    :cond_2
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
     .line 50
     .line 51
-    move-result v4
-
     .line 52
-    if-eqz v4, :cond_1
+    move-result-object p1
 
     .line 53
+    new-instance v0, Ljava/io/File;
+
     .line 54
-    new-instance v4, Ljava/io/File;
-
     .line 55
-    .line 56
-    invoke-direct {v4, v0}, Ljava/io/File;-><init>(Ljava/net/URI;)V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t62;->i()Ljava/io/File;
 
+    .line 56
     .line 57
     .line 58
+    move-result-object v4
+
     .line 59
-    goto :goto_2
+    invoke-virtual {v1}, Lcom/huawei/appmarket/t62;->j()Ljava/lang/String;
 
     .line 60
-    :cond_1
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
-
     .line 61
     .line 62
-    const-string v4, "Uri scheme not file!"
+    move-result-object v1
 
     .line 63
-    .line 64
-    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/net/URISyntaxException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-direct {v0, v4, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
+    .line 64
     .line 65
     .line 66
-    .line 67
-    goto :goto_1
+    const-string v1, "FileUtil"
 
+    .line 67
     .line 68
-    :catch_0
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 69
     .line 70
-    const-string v4, "Uri convert File Exception!"
-
     .line 71
+    move-result v4
+
     .line 72
-    :goto_0
-    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    if-eqz v4, :cond_3
 
     .line 73
     .line 74
+    invoke-static {v0}, Lcom/huawei/appmarket/ik2;->c(Ljava/io/File;)V
+
     .line 75
-    goto :goto_1
-
     .line 76
-    :catch_1
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
-
     .line 77
-    .line 78
-    const-string v4, "Uri convert File URISyntaxException!"
+    :cond_3
+    invoke-virtual {v0}, Ljava/io/File;->getParent()Ljava/lang/String;
 
+    .line 78
     .line 79
     .line 80
-    goto :goto_0
+    move-result-object v4
 
     .line 81
-    :goto_1
-    move-object v4, v2
+    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 82
-    goto :goto_2
-
     .line 83
-    :cond_2
-    new-instance v4, Ljava/io/File;
-
     .line 84
+    move-result v4
+
     .line 85
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->i()Ljava/io/File;
+    const/4 v5, 0x0
 
     .line 86
+    if-eqz v4, :cond_4
+
     .line 87
     .line 88
-    move-result-object v0
+    :goto_0
+    const/4 v3, 0x0
 
     .line 89
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->j()Ljava/lang/String;
+    goto/16 :goto_8
 
     .line 90
     .line 91
-    .line 92
-    move-result-object v5
+    :cond_4
+    new-instance v4, Ljava/io/File;
 
+    .line 92
     .line 93
-    invoke-direct {v4, v0, v5}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-virtual {v0}, Ljava/io/File;->getParent()Ljava/lang/String;
 
     .line 94
     .line 95
     .line 96
-    :goto_2
-    if-eqz v4, :cond_8
+    move-result-object v6
 
     .line 97
-    .line 98
-    invoke-virtual {v4}, Ljava/io/File;->exists()Z
+    invoke-direct {v4, v6}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
+    .line 98
     .line 99
     .line 100
+    invoke-virtual {v4}, Ljava/io/File;->exists()Z
+
     .line 101
-    move-result v0
-
     .line 102
-    if-nez v0, :cond_3
-
     .line 103
+    move-result v6
+
     .line 104
-    goto/16 :goto_7
+    if-nez v6, :cond_5
 
     .line 105
     .line 106
-    :cond_3
-    invoke-virtual {v4}, Ljava/io/File;->getPath()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/io/File;->mkdirs()Z
 
     .line 107
     .line 108
     .line 109
-    move-result-object v0
+    move-result v4
 
     .line 110
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->f()I
+    if-nez v4, :cond_5
 
     .line 111
     .line 112
+    goto :goto_0
+
     .line 113
-    move-result p1
+    :cond_5
+    const/high16 v4, 0x20000
 
     .line 114
-    const/4 v4, 0x0
-
     .line 115
-    if-ne p1, v1, :cond_4
+    const/4 v6, 0x0
 
     .line 116
+    :try_start_0
+    new-array v4, v4, [B
+
     .line 117
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
-
     .line 118
-    .line 119
-    const-string v0, "The file is normal apk file!"
+    invoke-virtual {p1, v2}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
 
+    .line 119
     .line 120
     .line 121
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_8
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_7
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_6
+    .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
     .line 122
+    if-nez p1, :cond_6
+
     .line 123
     .line 124
-    :goto_3
-    const/4 v1, 0x0
+    :try_start_1
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 125
-    goto :goto_6
-
     .line 126
-    :cond_4
-    :try_start_1
-    invoke-static {v0}, Lcom/huawei/appmarket/av8;->d(Ljava/lang/String;)Z
+    const-string v2, "CopyFile open InputStream failed"
 
     .line 127
     .line 128
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_1
+    .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_4
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
     .line 129
-    move-result p1
-
     .line 130
-    if-nez p1, :cond_5
-
     .line 131
-    .line 132
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    invoke-static {p1, v6}, Lcom/huawei/appmarket/ik2;->b(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
+    .line 132
     .line 133
     .line 134
-    const-string v0, "unZipToSession Zip is not safe"
+    goto :goto_0
 
     .line 135
+    :catchall_0
+    move-exception v0
+
     .line 136
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_1
-    .catch Lcom/huawei/secure/android/common/util/SecurityCommonException; {:try_start_1 .. :try_end_1} :catch_4
+    move-object v2, v6
 
     .line 137
-    .line 138
-    .line 139
-    goto :goto_3
+    :goto_1
+    move-object v6, p1
 
+    .line 138
+    goto/16 :goto_9
+
+    .line 139
     .line 140
-    :cond_5
-    :try_start_2
-    new-instance p1, Ljava/util/zip/ZipFile;
+    :catch_0
+    move-object v2, v6
 
     .line 141
+    :catch_1
+    move-object v6, p1
+
     .line 142
-    invoke-direct {p1, v0}, Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
-    :try_end_2
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+    goto :goto_4
 
     .line 143
+    :catch_2
+    move-object v2, v6
+
     .line 144
+    :catch_3
+    move-object v6, p1
+
     .line 145
-    :try_start_3
-    invoke-virtual {p1}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
+    goto/16 :goto_6
 
     .line 146
     .line 147
+    :catch_4
+    move-object v2, v6
+
     .line 148
-    move-result-object v0
+    :catch_5
+    move-object v6, p1
 
     .line 149
-    :cond_6
-    invoke-interface {v0}, Ljava/util/Enumeration;->hasMoreElements()Z
+    goto/16 :goto_7
 
     .line 150
     .line 151
-    .line 152
-    move-result v2
+    :cond_6
+    :try_start_2
+    new-instance v2, Ljava/io/FileOutputStream;
 
+    .line 152
     .line 153
-    if-eqz v2, :cond_7
+    invoke-direct {v2, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+    :try_end_2
+    .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_4
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 154
     .line 155
-    invoke-interface {v0}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
-
     .line 156
+    const-wide/16 v6, 0x0
+
     .line 157
     .line 158
-    move-result-object v2
+    :goto_2
+    :try_start_3
+    invoke-virtual {p1, v4}, Ljava/io/InputStream;->read([B)I
 
     .line 159
-    check-cast v2, Ljava/util/zip/ZipEntry;
-
     .line 160
     .line 161
-    invoke-virtual {v2}, Ljava/util/zip/ZipEntry;->isDirectory()Z
+    move-result v0
 
     .line 162
-    .line 163
-    .line 164
-    move-result v5
+    const/4 v8, -0x1
 
+    .line 163
+    if-eq v0, v8, :cond_9
+
+    .line 164
     .line 165
-    if-nez v5, :cond_6
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     .line 166
     .line 167
-    invoke-virtual {v2}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
-
     .line 168
+    move-result-object v8
+
     .line 169
+    invoke-virtual {v8}, Ljava/lang/Thread;->isInterrupted()Z
+
     .line 170
-    move-result-object v2
-
     .line 171
-    sget-object v5, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
-
     .line 172
+    move-result v8
+
     .line 173
-    invoke-virtual {v2, v5}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+    if-eqz v8, :cond_7
 
     .line 174
     .line 175
-    .line 176
-    move-result-object v2
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
+    .line 176
     .line 177
-    const-string v5, ".obb"
+    const-string v3, "CopyFile thread is interrupted"
 
     .line 178
     .line 179
-    invoke-virtual {v2, v5}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    :goto_3
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_3
+    .catch Ljava/io/FileNotFoundException; {:try_start_3 .. :try_end_3} :catch_5
+    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
     .line 180
     .line 181
     .line 182
-    move-result v2
-    :try_end_3
-    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
-    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/ik2;->b(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
     .line 183
-    if-eqz v2, :cond_6
-
     .line 184
     .line 185
-    invoke-static {p1}, Lcom/huawei/appmarket/av8;->b(Ljava/util/zip/ZipFile;)V
+    goto :goto_0
 
     .line 186
-    .line 187
-    .line 188
-    goto :goto_6
-
-    .line 189
-    :catchall_0
-    move-exception v0
-
-    .line 190
-    move-object v2, p1
-
-    .line 191
-    goto :goto_5
-
-    .line 192
-    :catch_2
-    move-object v2, p1
-
-    .line 193
-    goto :goto_4
-
-    .line 194
-    :cond_7
-    invoke-static {p1}, Lcom/huawei/appmarket/av8;->b(Ljava/util/zip/ZipFile;)V
-
-    .line 195
-    .line 196
-    .line 197
-    goto :goto_3
-
-    .line 198
     :catchall_1
     move-exception v0
 
+    .line 187
+    goto :goto_1
+
+    .line 188
+    :cond_7
+    const-wide/32 v8, 0x20000
+
+    .line 189
+    .line 190
+    .line 191
+    add-long/2addr v8, v6
+
+    .line 192
+    const-wide v10, 0x100000000L
+
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    cmp-long v12, v8, v10
+
+    .line 198
     .line 199
-    goto :goto_5
+    if-lez v12, :cond_8
 
     .line 200
-    :catch_3
-    :goto_4
-    :try_start_4
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
-
     .line 201
+    :try_start_4
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
     .line 202
-    const-string v0, "checkObbFile IOException"
-
     .line 203
-    .line 204
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_4
-    .catchall {:try_start_4 .. :try_end_4} :catchall_1
+    const-string v3, "CopyFile File is too big"
 
+    .line 204
     .line 205
+    goto :goto_3
+
     .line 206
+    :cond_8
+    int-to-long v8, v0
+
     .line 207
-    invoke-static {v2}, Lcom/huawei/appmarket/av8;->b(Ljava/util/zip/ZipFile;)V
+    add-long/2addr v6, v8
 
     .line 208
+    invoke-virtual {v2, v4, v5, v0}, Ljava/io/FileOutputStream;->write([BII)V
+    :try_end_4
+    .catch Ljava/io/FileNotFoundException; {:try_start_4 .. :try_end_4} :catch_5
+    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
+    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
+    .catchall {:try_start_4 .. :try_end_4} :catchall_1
+
     .line 209
     .line 210
-    goto :goto_3
-
     .line 211
-    :goto_5
-    invoke-static {v2}, Lcom/huawei/appmarket/av8;->b(Ljava/util/zip/ZipFile;)V
+    goto :goto_2
 
     .line 212
+    :cond_9
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/ik2;->b(Ljava/io/InputStream;Ljava/io/OutputStream;)V
+
     .line 213
     .line 214
-    throw v0
-
     .line 215
-    :catch_4
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
-
-    .line 216
-    .line 217
-    const-string v0, "unZipToSession SecurityCommonException"
-
-    .line 218
-    .line 219
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 220
-    .line 221
-    .line 222
-    goto :goto_3
-
-    .line 223
-    :goto_6
-    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 224
-    .line 225
-    .line 226
-    move-result-object p1
-
-    .line 227
     goto :goto_8
 
-    .line 228
-    :cond_8
-    :goto_7
-    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    .line 216
+    :catchall_2
+    move-exception v0
 
+    .line 217
+    move-object v2, v6
+
+    .line 218
+    goto :goto_9
+
+    .line 219
+    :catch_6
+    move-object v2, v6
+
+    .line 220
+    goto :goto_4
+
+    .line 221
+    :catch_7
+    move-object v2, v6
+
+    .line 222
+    goto :goto_6
+
+    .line 223
+    :catch_8
+    move-object v2, v6
+
+    .line 224
+    goto :goto_7
+
+    .line 225
+    :goto_4
+    :try_start_5
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
+    .line 226
+    .line 227
+    const-string v0, "CopyFile Exception"
+
+    .line 228
     .line 229
+    :goto_5
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_5
+    .catchall {:try_start_5 .. :try_end_5} :catchall_3
+
     .line 230
-    :goto_8
-    return-object p1
     .line 231
     .line 232
+    invoke-static {v6, v2}, Lcom/huawei/appmarket/ik2;->b(Ljava/io/InputStream;Ljava/io/OutputStream;)V
+
     .line 233
     .line 234
     .line 235
+    goto/16 :goto_0
+
     .line 236
     .line 237
+    :catchall_3
+    move-exception v0
+
     .line 238
+    goto :goto_9
+
     .line 239
+    :goto_6
+    :try_start_6
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
     .line 240
     .line 241
+    const-string v0, "CopyFile IOException"
+
     .line 242
     .line 243
+    goto :goto_5
+
     .line 244
+    :goto_7
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
     .line 245
     .line 246
+    const-string v0, "CopyFile FileNotFoundException"
+    :try_end_6
+    .catchall {:try_start_6 .. :try_end_6} :catchall_3
+
     .line 247
     .line 248
+    goto :goto_5
+
     .line 249
+    :goto_8
+    invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
     .line 250
     .line 251
     .line 252
+    move-result-object p1
+
     .line 253
+    goto :goto_b
+
     .line 254
+    :goto_9
+    invoke-static {v6, v2}, Lcom/huawei/appmarket/ik2;->b(Ljava/io/InputStream;Ljava/io/OutputStream;)V
+
     .line 255
     .line 256
     .line 257
+    throw v0
+
     .line 258
+    :cond_a
+    :goto_a
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
     .line 259
     .line 260
+    const-string v1, "Move task resultBean null"
+
+    .line 261
+    .line 262
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 263
+    .line 264
+    .line 265
+    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    .line 266
+    .line 267
+    :goto_b
+    return-object p1
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
+    .line 565
+    .line 566
+    .line 567
+    .line 568
+    .line 569
+    .line 570
+    .line 571
+    .line 572
+    .line 573
+    .line 574
+    .line 575
+    .line 576
+    .line 577
+    .line 578
+    .line 579
+    .line 580
+    .line 581
+    .line 582
+    .line 583
+    .line 584
+    .line 585
+    .line 586
+    .line 587
+    .line 588
+    .line 589
+    .line 590
+    .line 591
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
+    .line 599
+    .line 600
+    .line 601
+    .line 602
+    .line 603
+    .line 604
+    .line 605
+    .line 606
+    .line 607
+    .line 608
+    .line 609
+    .line 610
+    .line 611
+    .line 612
+    .line 613
+    .line 614
+    .line 615
+    .line 616
+    .line 617
+    .line 618
+    .line 619
+    .line 620
+    .line 621
+    .line 622
+    .line 623
+    .line 624
+    .line 625
+    .line 626
+    .line 627
+    .line 628
+    .line 629
+    .line 630
+    .line 631
+    .line 632
+    .line 633
+    .line 634
+.end method
+
+.method protected final onCancelled()V
+    .registers 4
+
+    .line 1
+    invoke-super {p0}, Landroid/os/AsyncTask;->onCancelled()V
+
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
+
+    const-string v1, "ExtdInstallMoveTask"
+
+    const-string v2, "Cancel ExtdInstallMoveTask!"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
 .end method
 
 .method protected final onPostExecute(Ljava/lang/Object;)V
@@ -611,7 +1067,7 @@
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 7
     .line 8
@@ -619,7 +1075,7 @@
 
     .line 9
     .line 10
-    const-string v2, "check obb file task result:"
+    const-string v2, "Move task result:"
 
     .line 11
     .line 12
@@ -641,11 +1097,11 @@
     move-result-object v1
 
     .line 22
-    const-string v2, "ExtdObbCheckIncludeTask"
+    const-string v2, "ExtdInstallMoveTask"
 
     .line 23
     .line 24
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -658,55 +1114,49 @@
     move-result p1
 
     .line 31
-    iget-object v1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/p62;
+    iget-object v1, p0, Lcom/huawei/appmarket/q62;->a:Lcom/huawei/appmarket/t62;
 
     .line 32
     .line 33
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/p62;->A(Z)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t62;->A(Z)V
 
     .line 34
     .line 35
     .line 36
-    iget-object p1, p0, Lcom/huawei/appmarket/q62;->b:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Lcom/huawei/appmarket/q62;->b:Lcom/huawei/appmarket/mp3;
 
     .line 37
     .line 38
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    if-eqz p1, :cond_0
 
     .line 39
     .line 40
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/mp3;->a(Lcom/huawei/appmarket/t62;)V
+
     .line 41
-    move-result-object p1
-
     .line 42
-    check-cast p1, Lcom/huawei/appmarket/kp3;
-
     .line 43
+    goto :goto_0
+
     .line 44
-    if-eqz p1, :cond_0
+    :cond_0
+    const-string p1, "callback is null"
 
     .line 45
     .line 46
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/kp3;->a(Lcom/huawei/appmarket/p62;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    goto :goto_0
-
+    :goto_0
+    return-void
     .line 50
-    :cond_0
-    const-string p1, "callback is null"
-
     .line 51
     .line 52
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 53
     .line 54
     .line 55
-    :goto_0
-    return-void
     .line 56
     .line 57
     .line 58
@@ -758,5 +1208,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/ni8;)V
+.method public static a(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/ti8;)V
     .registers 7
 
     .line 1
@@ -63,7 +63,7 @@
 
     new-instance v2, Lcom/huawei/appmarket/fa$a;
 
-    invoke-direct {v2, p2, p1}, Lcom/huawei/appmarket/fa$a;-><init>(Lcom/huawei/appmarket/ni8;Z)V
+    invoke-direct {v2, p2, p1}, Lcom/huawei/appmarket/fa$a;-><init>(Lcom/huawei/appmarket/ti8;Z)V
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
@@ -97,18 +97,18 @@
 
     :cond_2
     :goto_1
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     const-string p1, "AdsMenuUtils"
 
     const-string p2, "createPopupMenu fail. "
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static b(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/rh4;)V
+.method public static b(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/th4;)V
     .registers 7
 
     .line 1
@@ -143,7 +143,7 @@
 
     new-instance v2, Lcom/huawei/appmarket/da;
 
-    invoke-direct {v2, p2, p1}, Lcom/huawei/appmarket/da;-><init>(Lcom/huawei/appmarket/ni8;Landroid/view/View;)V
+    invoke-direct {v2, p2, p1}, Lcom/huawei/appmarket/da;-><init>(Lcom/huawei/appmarket/ti8;Landroid/view/View;)V
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
@@ -177,18 +177,18 @@
 
     :cond_1
     :goto_0
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     const-string p1, "AdsMenuUtils"
 
     const-string p2, "createPopupMenu fail. "
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static c(Lcom/huawei/appmarket/ff4;)Z
+.method public static c(Lcom/huawei/appmarket/hf4;)Z
     .registers 5
 
     .line 1
@@ -203,7 +203,7 @@
 
     .line 5
     .line 6
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 7
     .line 8
@@ -211,7 +211,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -220,7 +220,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/w38;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/c48;->a()Z
 
     .line 15
     .line 16
@@ -232,7 +232,7 @@
 
     .line 19
     .line 20
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 21
     .line 22
@@ -240,7 +240,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -269,7 +269,7 @@
 
     .line 37
     .line 38
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 39
     .line 40
@@ -281,7 +281,7 @@
 
     .line 43
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/jx2;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/mx2;->b()Z
 
     .line 44
     .line 45
@@ -294,7 +294,7 @@
 
     .line 48
     .line 49
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 50
     .line 51
@@ -302,7 +302,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -323,7 +323,7 @@
 
     .line 62
     .line 63
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 64
     .line 65
@@ -331,7 +331,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -352,7 +352,7 @@
 
     .line 76
     .line 77
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 78
     .line 79
@@ -360,7 +360,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     .line 83
@@ -369,11 +369,11 @@
 
     .line 85
     :cond_5
-    iget-object v2, p0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v2, p0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 86
     .line 87
-    invoke-virtual {v2}, Lcom/huawei/appmarket/iu;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ju;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
 
     .line 88
     .line 89
@@ -421,11 +421,11 @@
 
     .line 110
     :cond_6
-    iget-object p0, p0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object p0, p0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 111
     .line 112
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->y()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->y()Z
 
     .line 113
     .line 114
@@ -501,7 +501,7 @@
     .line 146
     :cond_9
     :goto_1
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 147
     .line 148
@@ -509,7 +509,7 @@
 
     .line 149
     .line 150
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 151
     .line 152

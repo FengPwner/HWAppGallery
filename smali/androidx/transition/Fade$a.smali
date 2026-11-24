@@ -65,7 +65,7 @@
 
     iget-object p1, p0, Landroidx/transition/Fade$a;->a:Landroid/view/View;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->I(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->I(Landroid/view/View;)Z
 
     move-result v0
 

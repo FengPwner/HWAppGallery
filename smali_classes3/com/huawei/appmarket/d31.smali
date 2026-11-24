@@ -11,7 +11,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yt7;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/eu7;->b()V
 
     return-void
 .end method

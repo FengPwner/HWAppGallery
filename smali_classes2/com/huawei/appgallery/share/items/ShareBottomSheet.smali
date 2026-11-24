@@ -116,7 +116,7 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setBackgroundColor(I)V
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     return-void
 .end method

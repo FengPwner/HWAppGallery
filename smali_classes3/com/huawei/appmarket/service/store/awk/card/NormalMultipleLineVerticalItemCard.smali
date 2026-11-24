@@ -62,13 +62,13 @@
     return-void
 .end method
 
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 2
 
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->b()Ljava/lang/String;
 
     move-result-object p1
 
@@ -103,7 +103,7 @@
     return-void
 .end method
 
-.method protected final t2(Landroid/view/View;Lcom/huawei/appmarket/ak0;)V
+.method protected final t2(Landroid/view/View;Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -113,7 +113,7 @@
 
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalItemCard$a;
 
-    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalItemCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

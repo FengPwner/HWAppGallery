@@ -40,11 +40,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity$g;->a:Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity;->K3(Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity;)Lcom/huawei/appmarket/la6;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity;->K3(Lcom/huawei/appgallery/forum/option/post/view/PublishPostActivity;)Lcom/huawei/appmarket/na6;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/la6;->k()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/na6;->k()Z
 
     move-result v1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -55,17 +55,17 @@
 
     if-ne p3, p1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xj5;->c()I
 
     move-result p1
 
     const/4 p3, 0x0
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/ho1;->a(IZ)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/ko1;->a(IZ)V
 
     invoke-static {p2}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;->E3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;)V
 

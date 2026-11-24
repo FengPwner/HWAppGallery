@@ -117,11 +117,11 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingsAppDetailAutoTranslateCard;->y:Lcom/huawei/uikit/phone/hwswitch/widget/HwSwitch;
 
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/wa7;->r()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/bb7;->r()Z
 
     move-result v1
 

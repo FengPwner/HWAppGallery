@@ -202,11 +202,11 @@
     move-result-object v7
 
     .line 75
-    new-instance v8, Lcom/huawei/appmarket/ss0;
+    new-instance v8, Lcom/huawei/appmarket/ts0;
 
     .line 76
     .line 77
-    invoke-direct {v8, v7}, Lcom/huawei/appmarket/ss0;-><init>(Ljava/lang/reflect/Field;)V
+    invoke-direct {v8, v7}, Lcom/huawei/appmarket/ts0;-><init>(Ljava/lang/reflect/Field;)V
 
     .line 78
     .line 79
@@ -332,7 +332,7 @@
     .line 135
     .line 136
     :goto_2
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 137
     .line 138

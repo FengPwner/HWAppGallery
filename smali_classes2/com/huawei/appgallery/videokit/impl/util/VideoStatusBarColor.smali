@@ -65,7 +65,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ip7;->r(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/np7;->r(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v3
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/dy4;->c(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gy4;->c(Ljava/lang/String;)V
 
     if-eqz v3, :cond_0
 
@@ -90,7 +90,7 @@
     :cond_0
     sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ip7;->r(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/np7;->r(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/dy4;->c(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gy4;->c(Ljava/lang/String;)V
 
     return v1
 .end method
@@ -152,7 +152,7 @@
 
     const-string v0, "window"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/videokit/impl/util/VideoStatusBarColor;->isNewHwHint()Z
 

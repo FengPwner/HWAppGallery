@@ -25,7 +25,7 @@
 
 .field private h:Ljava/lang/String;
 
-.field private i:Lcom/huawei/appmarket/wb8;
+.field private i:Lcom/huawei/appmarket/bc8;
 
 .field private j:I
 
@@ -33,7 +33,7 @@
 
 
 # direct methods
-.method public constructor <init>(JLjava/lang/String;Lcom/huawei/appmarket/wb8;)V
+.method public constructor <init>(JLjava/lang/String;Lcom/huawei/appmarket/bc8;)V
     .registers 7
 
     .line 1
@@ -51,12 +51,12 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/ev0;->d:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/wb8;
+    iput-object p4, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/bc8;
 
     return-void
 .end method
 
-.method public constructor <init>(JLjava/lang/String;Lcom/huawei/appmarket/wb8;I)V
+.method public constructor <init>(JLjava/lang/String;Lcom/huawei/appmarket/bc8;I)V
     .registers 8
 
     .line 2
@@ -74,7 +74,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/ev0;->d:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/wb8;
+    iput-object p4, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/bc8;
 
     iput p5, p0, Lcom/huawei/appmarket/ev0;->e:I
 
@@ -164,11 +164,11 @@
     return-wide v0
 .end method
 
-.method public final j()Lcom/huawei/appmarket/wb8;
+.method public final j()Lcom/huawei/appmarket/bc8;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/wb8;
+    iget-object v0, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/bc8;
 
     return-object v0
 .end method
@@ -236,11 +236,11 @@
     return-void
 .end method
 
-.method public final r(Lcom/huawei/appmarket/wb8;)V
+.method public final r(Lcom/huawei/appmarket/bc8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/wb8;
+    iput-object p1, p0, Lcom/huawei/appmarket/ev0;->i:Lcom/huawei/appmarket/bc8;
 
     return-void
 .end method

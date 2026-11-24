@@ -32,15 +32,15 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/huawei/appmarket/vt5;
+    new-instance v0, Lcom/huawei/appmarket/xt5;
 
     iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/impl/install/control/PackageInstallObserver;->mContext:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/huawei/appgallery/packagemanager/impl/install/control/PackageInstallObserver;->task:Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/vt5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/xt5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/vt5;->b(Ljava/lang/String;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/xt5;->b(Ljava/lang/String;I)V
 
     return-void
 .end method

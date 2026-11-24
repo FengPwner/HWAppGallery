@@ -501,6 +501,275 @@
         android:usesNonSdkApi="true"
         android:requestLegacyExternalStorage="true"
         android:forceQueryable="true">
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.huawei.appmarket.service.externalapi.view.ThirdApiActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="orientation|screenSize|uiMode">
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.MyCenterLogFile" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.online_searchable"
+                android:resource="@xml/global_search" />
+            <intent-filter>
+                <action
+                    android:name="huawei.intent.action.ONLINESEARCH" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-downloadFilter>
+                <action
+                    android:name="android.intent.action.ONLINESEARCH" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-downloadFilter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.appmanager" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.appmovemanager" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.service.appmgr.apkmanagement.activity.apkmanagement" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.SearchActivity" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.service.externalapi.actions.AppUninstallAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withdetailId" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AppDetail.withaccessID" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="hiapplink" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.service.externalapi.actions.PayZoneAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="market"
+                    android:host="com.huawei.appmarket.applink" />
+                <data
+                    android:scheme="https"
+                    android:host="a.vmall.com" />
+                <data
+                    android:scheme="hiapp"
+                    android:host="com.huawei.appmarket" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.ThirdUpdateAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.ThirdUpdateRemindAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.MemberJoinAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.checkProtocolWithUpdate" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.guidecomment" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="http"
+                    android:host="appgallery.cloud.huawei.com"
+                    android:pathPrefix="/marketshare/app/" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="appgallery.cloud.huawei.com"
+                    android:pathPrefix="/marketshare/app/" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.ACCESS_RESTRICTIONS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="huawei.intent.action.SET_YOUTH_MODE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.showGameServiceAuthAppsAction" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AG_GUARD.scanApps" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AG_GUARD.installInterceptRecords" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SHOW_APP_INFO" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appgallery.usercenter.personal.intent.action.JUMP_TO_MY_ASSETS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AG_DETAIL.departGuidePage" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="https"
+                    android:pathPrefix="/play.google.com/store/apps/" />
+                <data
+                    android:scheme="http"
+                    android:pathPrefix="/play.google.com/store/apps/" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.ext.public" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.AppDetail" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withapp" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withid" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withURL" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.PROTOCOL" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.LOGIN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.huawei.appmarket.intent.action.TRANSPARENT_ACTIVITY" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+            <meta-data
+                android:name="hnc-theme"
+                android:value="androidhnext:style/Theme.Magic.Translucent" />
+        </activity>
+        <provider
+            android:name="com.huawei.appmarket.service.provider.LogFileProvider"
+            android:exported="false"
+            android:authorities="com.huawei.appmarket.logfile.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/mycenter_log_file_paths" />
+        </provider>
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
@@ -1061,260 +1330,6 @@
                     android:scheme="market"
                     android:host="details" />
             </intent-filter>
-        </activity>
-        <activity
-            android:theme="@android:style/Theme.Translucent"
-            android:name="com.huawei.appmarket.service.externalapi.view.ThirdApiActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="behind"
-            android:configChanges="orientation|screenSize|uiMode">
-            <meta-data
-                android:name="android.app.online_searchable"
-                android:resource="@xml/global_search" />
-            <intent-filter>
-                <action
-                    android:name="huawei.intent.action.ONLINESEARCH" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-downloadFilter>
-                <action
-                    android:name="android.intent.action.ONLINESEARCH" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-downloadFilter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.appmanager" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.appmovemanager" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.service.appmgr.apkmanagement.activity.apkmanagement" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.SearchActivity" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.service.externalapi.actions.AppUninstallAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withdetailId" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.AppDetail.withaccessID" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <category
-                    android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="hiapplink" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.service.externalapi.actions.PayZoneAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.VIEW" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <category
-                    android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="market"
-                    android:host="com.huawei.appmarket.applink" />
-                <data
-                    android:scheme="https"
-                    android:host="a.vmall.com" />
-                <data
-                    android:scheme="hiapp"
-                    android:host="com.huawei.appmarket" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.ThirdUpdateAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.ThirdUpdateRemindAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.MemberJoinAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.checkProtocolWithUpdate" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.guidecomment" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.VIEW" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <category
-                    android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="http"
-                    android:host="appgallery.cloud.huawei.com"
-                    android:pathPrefix="/marketshare/app/" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.VIEW" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <category
-                    android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="https"
-                    android:host="appgallery.cloud.huawei.com"
-                    android:pathPrefix="/marketshare/app/" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.ACCESS_RESTRICTIONS" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="huawei.intent.action.SET_YOUTH_MODE" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.showGameServiceAuthAppsAction" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.AG_GUARD.scanApps" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.AG_GUARD.installInterceptRecords" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.SHOW_APP_INFO" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appgallery.usercenter.personal.intent.action.JUMP_TO_MY_ASSETS" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.AG_DETAIL.departGuidePage" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <data
-                    android:scheme="https"
-                    android:pathPrefix="/play.google.com/store/apps/" />
-                <data
-                    android:scheme="http"
-                    android:pathPrefix="/play.google.com/store/apps/" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.ext.public" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.AppDetail" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withapp" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withid" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.appmarket.intent.action.AppDetail.withURL" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.PROTOCOL" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.LOGIN" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="com.huawei.appmarket.intent.action.TRANSPARENT_ACTIVITY" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data
-                android:name="hwc-theme"
-                android:value="androidhwext:style/Theme.Emui.Translucent" />
-            <meta-data
-                android:name="hnc-theme"
-                android:value="androidhnext:style/Theme.Magic.Translucent" />
         </activity>
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
@@ -3452,6 +3467,35 @@
             android:name="com.huawei.appgallery.upgraderecommendation.ui.fixe.FixePopWindowActivity"
             android:exported="false" />
         <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.huawei.appgallery.agwebview.view.TranslucentWebViewActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+            <meta-data
+                android:name="hnc-theme"
+                android:value="androidhnext:style/Theme.Magic.Translucent" />
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:name="com.huawei.appgallery.agwebview.view.WebViewActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.huawei.appgallery.agwebview.choosefile.WebViewTransferActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
             android:name="com.huawei.appgallery.appcomment.ui.CommentActivity"
             android:exported="false"
             android:screenOrientation="behind"
@@ -3670,35 +3714,6 @@
             <meta-data
                 android:name="hnc-theme"
                 android:value="androidhnext:style/Theme.Magic.Translucent.NoTitleBar" />
-        </activity>
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.huawei.appgallery.agwebview.view.TranslucentWebViewActivity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-            android:windowSoftInputMode="adjustResize|stateHidden">
-            <meta-data
-                android:name="hwc-theme"
-                android:value="androidhwext:style/Theme.Emui.Translucent" />
-            <meta-data
-                android:name="hnc-theme"
-                android:value="androidhnext:style/Theme.Magic.Translucent" />
-        </activity>
-        <activity
-            android:theme="@style/Theme.AppCompat.DayNight"
-            android:name="com.huawei.appgallery.agwebview.view.WebViewActivity"
-            android:exported="false"
-            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
-        <activity
-            android:theme="@android:style/Theme.Translucent"
-            android:name="com.huawei.appgallery.agwebview.choosefile.WebViewTransferActivity"
-            android:exported="false"
-            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
-            <meta-data
-                android:name="hwc-theme"
-                android:value="androidhwext:style/Theme.Emui.Translucent" />
         </activity>
         <receiver
             android:name="com.huawei.appgallery.accountkit.receiver.StaticLogoutReceiver"
@@ -4272,7 +4287,7 @@
             android:name="com.huawei.appgallery.jointmessage.jointmessage.impl.activity.NotificationSystemDialogActivity"
             android:exported="false"
             android:launchMode="singleTop"
-            android:configChanges="keyboardHidden|orientation|screenSize">
+            android:configChanges="fontScale|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
             <meta-data
                 android:name="hwc-theme"
                 android:value="androidhwext:style/Theme.Emui.Translucent" />
@@ -4531,6 +4546,13 @@
                 <action
                     android:name="com.huawei.push.msg.PASSBY_MSG" />
             </intent-filter>
+        </service>
+        <service
+            android:name="com.huawei.appmarket.service.crosslake.DHProxyService"
+            android:exported="false">
+            <meta-data
+                android:name="ohos_service_component"
+                android:value="com.huawei.hmsapp.appgallery/CrossLakeServiceExtensionAbility" />
         </service>
         <activity
             android:theme="@android:style/Theme.Translucent"
@@ -4986,7 +5008,7 @@
             android:value="1" />
         <meta-data
             android:name="com.huawei.hms.client.service.name:base"
-            android:value="base:6.13.0.303" />
+            android:value="base:6.13.0.304" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:base:hmscore"
             android:value="1" />

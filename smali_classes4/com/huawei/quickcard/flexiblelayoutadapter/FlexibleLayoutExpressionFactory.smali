@@ -72,7 +72,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataObjWrapper;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/qb2;
+    const-class v1, Lcom/huawei/appmarket/tb2;
 
     invoke-static {v1, v0}, Lcom/huawei/quickcard/base/wrapper/WrapDataUtils;->registerDataWrapper(Ljava/lang/Class;Lcom/huawei/quickcard/base/wrapper/DataWrapper;)V
 
@@ -80,7 +80,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/na2;
+    const-class v1, Lcom/huawei/appmarket/qa2;
 
     invoke-static {v1, v0}, Lcom/huawei/quickcard/base/wrapper/WrapDataUtils;->registerDataWrapper(Ljava/lang/Class;Lcom/huawei/quickcard/base/wrapper/DataWrapper;)V
 
@@ -88,7 +88,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataObjWrapper;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/ib2;
+    const-class v1, Lcom/huawei/appmarket/lb2;
 
     invoke-static {v1, v0}, Lcom/huawei/quickcard/base/wrapper/WrapDataUtils;->registerDataWrapper(Ljava/lang/Class;Lcom/huawei/quickcard/base/wrapper/DataWrapper;)V
 
@@ -96,15 +96,15 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/hb2;
+    const-class v1, Lcom/huawei/appmarket/kb2;
 
     invoke-static {v1, v0}, Lcom/huawei/quickcard/base/wrapper/WrapDataUtils;->registerDataWrapper(Ljava/lang/Class;Lcom/huawei/quickcard/base/wrapper/DataWrapper;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ub1;
+    new-instance v0, Lcom/huawei/appmarket/wb1;
 
     const/16 v1, 0x1c
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/wrapper/WrapDataUtils;->setWrapperMethod(Lcom/huawei/quickcard/base/wrapper/IQuickCardDataWrapper;)V
 

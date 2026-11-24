@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/sq4;)V
+.method final a(Lcom/huawei/appmarket/vq4;)V
     .registers 4
 
     .line 1
@@ -105,7 +105,7 @@
     throw p1
 .end method
 
-.method final b(Lcom/huawei/appmarket/sq4;)V
+.method final b(Lcom/huawei/appmarket/vq4;)V
     .registers 7
 
     .line 1

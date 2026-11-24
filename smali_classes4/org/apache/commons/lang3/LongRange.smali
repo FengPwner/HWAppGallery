@@ -83,7 +83,7 @@
 
     move-result-wide v2
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/ur4;->s(JJ)Ljava/util/stream/LongStream;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/xr4;->s(JJ)Ljava/util/stream/LongStream;
 
     move-result-object v0
 

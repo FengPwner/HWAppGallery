@@ -227,7 +227,7 @@
 
     .line 79
     .line 80
-    invoke-static {p2, p1, v3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, v3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -325,7 +325,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -450,7 +449,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -512,7 +511,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public get(Ljava/lang/String;)Ljava/lang/String;
@@ -586,7 +584,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -675,7 +673,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getBoolean(Ljava/lang/String;)Z
@@ -736,7 +733,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -829,7 +826,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getDouble(Ljava/lang/String;)D
@@ -884,7 +880,7 @@
 
     .line 21
     .line 22
-    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -979,7 +975,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getInt(Ljava/lang/String;)I
@@ -1033,7 +1028,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -1129,7 +1124,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getLong(Ljava/lang/String;)J
@@ -1184,7 +1178,7 @@
 
     .line 21
     .line 22
-    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -1279,7 +1273,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getMap(Ljava/lang/String;)Ljava/util/Map;
@@ -1423,7 +1416,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -1518,7 +1511,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setOption(Ljava/lang/String;)V
@@ -1603,7 +1595,7 @@
 
     .line 37
     .line 38
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -1683,7 +1675,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setValue(Ljava/lang/String;D)V

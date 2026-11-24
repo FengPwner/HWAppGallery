@@ -50,16 +50,16 @@
     return v0
 .end method
 
-.method public abstract load(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/ya2;)Lcom/huawei/appmarket/hv7;
+.method public abstract load(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/bb2;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sa2;",
+            "Lcom/huawei/appmarket/va2;",
             "Lcom/huawei/flexiblelayout/data/b;",
-            "Lcom/huawei/appmarket/ya2;",
+            "Lcom/huawei/appmarket/bb2;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/mb2;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/pb2;",
             ">;"
         }
     .end annotation

@@ -83,13 +83,13 @@
 
     if-ne p1, v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v0, "AppListFragment"
 
     const-string v1, "listView scroll to bottom, stopScroll."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
 
@@ -163,13 +163,13 @@
 
     if-ne p2, p3, :cond_2
 
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p3, "AppListFragment"
 
     const-string v1, "listView scroll to bottom, stopScroll."
 
-    invoke-virtual {p2, p3, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
 

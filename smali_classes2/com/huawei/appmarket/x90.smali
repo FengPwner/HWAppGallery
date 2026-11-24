@@ -45,7 +45,7 @@
 
     .line 12
     .line 13
-    sget-object p0, Lcom/huawei/appmarket/hn1;->a:Lcom/huawei/appmarket/hn1;
+    sget-object p0, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     .line 14
     .line 15
@@ -54,7 +54,7 @@
     .line 16
     .line 17
     :goto_0
-    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -67,7 +67,7 @@
 
     .line 22
     .line 23
-    sget-object p0, Lcom/huawei/appmarket/hn1;->a:Lcom/huawei/appmarket/hn1;
+    sget-object p0, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     .line 24
     .line 25
@@ -194,5 +194,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

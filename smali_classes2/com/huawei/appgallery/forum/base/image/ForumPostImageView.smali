@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/i37;
+.field private final b:Lcom/huawei/appmarket/n37;
 
 .field private final c:Lcom/huawei/appgallery/forum/base/image/a;
 
@@ -85,11 +85,11 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/i37;->b(Landroid/content/Context;)Lcom/huawei/appmarket/i37;
+    invoke-static {p2}, Lcom/huawei/appmarket/n37;->b(Landroid/content/Context;)Lcom/huawei/appmarket/n37;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;->b:Lcom/huawei/appmarket/i37;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;->b:Lcom/huawei/appmarket/n37;
 
     new-instance p2, Lcom/huawei/appgallery/forum/base/image/c;
 
@@ -352,7 +352,7 @@
 
     const-string v2, "imageScale =0, canvas not draw"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -720,7 +720,7 @@
 
     move-result v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/qc1;->v(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/sc1;->v(Landroid/graphics/drawable/Drawable;I)V
 
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->isStateful()Z
@@ -1001,11 +1001,11 @@
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;->b:Lcom/huawei/appmarket/i37;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;->b:Lcom/huawei/appmarket/n37;
 
     .line 18
     .line 19
-    invoke-virtual {v0}, Lcom/huawei/appmarket/i37;->a()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n37;->a()Z
 
     .line 20
     .line 21
@@ -1033,7 +1033,7 @@
     move-result v6
 
     .line 33
-    invoke-virtual {v0}, Lcom/huawei/appmarket/i37;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n37;->c()I
 
     .line 34
     .line 35
@@ -1041,7 +1041,7 @@
     move-result v1
 
     .line 37
-    invoke-virtual {v0}, Lcom/huawei/appmarket/i37;->d()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n37;->d()I
 
     .line 38
     .line 39
@@ -1091,7 +1091,7 @@
     .line 60
     .line 61
     :cond_2
-    invoke-virtual {v0}, Lcom/huawei/appmarket/i37;->e()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n37;->e()Z
 
     .line 62
     .line 63
@@ -1103,7 +1103,7 @@
 
     .line 66
     .line 67
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 68
     .line 69
@@ -1377,7 +1377,7 @@
     .line 29
     .line 30
     :goto_1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 31
     .line 32
@@ -1513,7 +1513,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final g(FII)V
@@ -1620,7 +1619,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 47
     .line 48
@@ -2203,7 +2202,7 @@
 
     const-string v2, "canvas draw exception!"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     invoke-virtual {p1, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
@@ -2404,7 +2403,7 @@
     .line 44
     .line 45
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 46
     .line 47
@@ -2469,7 +2468,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setImageUrl(Ljava/lang/String;)V

@@ -402,7 +402,7 @@
 
     .line 134
     .line 135
-    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 136
     .line 137
@@ -651,10 +651,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method protected setProperty(Landroid/widget/ImageView;Lcom/huawei/quickcard/views/image/view/IImageHost;Ljava/lang/String;Lcom/huawei/quickcard/framework/value/QuickCardValue;)V

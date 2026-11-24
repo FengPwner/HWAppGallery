@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->callJsbackMethod(Ljava/lang/String;I)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->callJsMethod(Ljava/lang/String;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,18 +22,22 @@
 
 .field final synthetic c:I
 
-.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+.field final synthetic d:I
+
+.field final synthetic e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;I)V
-    .registers 4
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;II)V
+    .registers 5
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->b:Ljava/lang/String;
 
     iput p3, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->c:I
+
+    iput p4, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->d:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +49,7 @@
 .method public final run()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->e:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
 
@@ -64,6 +68,14 @@
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->c:I
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v2, "\',\'"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$y;->d:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

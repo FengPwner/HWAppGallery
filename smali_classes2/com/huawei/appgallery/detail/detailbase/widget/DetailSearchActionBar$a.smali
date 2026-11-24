@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar$a;->b:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -36,7 +36,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar$a;->b:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/l37;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/q37;
 
     move-result-object v1
 
@@ -51,7 +51,7 @@
 
     if-ne p1, v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/l37;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/q37;
 
     move-result-object p1
 
@@ -62,11 +62,11 @@
     :cond_1
     invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->e(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/l37;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/q37;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/l37;->F0()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/q37;->F0()V
 
     :goto_0
     return-void

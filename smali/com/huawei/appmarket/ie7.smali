@@ -1,131 +1,71 @@
-.class public final Lcom/huawei/appmarket/ie7;
+.class final Lcom/huawei/appmarket/ie7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/fy3;
+
 
 # instance fields
-.field private final a:I
+.field final synthetic a:Landroid/app/Activity;
 
-.field private final b:I
+.field final synthetic b:Lcom/huawei/appmarket/l96;
 
-.field private final c:Ljava/lang/String;
-
-.field private final d:Ljava/lang/String;
-
-.field private final e:Z
-
-.field private final f:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field final synthetic c:Lcom/huawei/appmarket/je7;
 
 
 # direct methods
-.method public constructor <init>(IILjava/lang/String;Ljava/lang/String;ZLjava/util/List;)V
-    .registers 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(II",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            "Z",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
+.method constructor <init>(Lcom/huawei/appmarket/je7;Landroid/app/Activity;Lcom/huawei/appmarket/l96;)V
+    .registers 4
 
     .line 1
-    const-string v0, "country"
+    iput-object p1, p0, Lcom/huawei/appmarket/ie7;->c:Lcom/huawei/appmarket/je7;
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    iput-object p2, p0, Lcom/huawei/appmarket/ie7;->a:Landroid/app/Activity;
 
-    const-string v0, "language"
-
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    iput-object p3, p0, Lcom/huawei/appmarket/ie7;->b:Lcom/huawei/appmarket/l96;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput p1, p0, Lcom/huawei/appmarket/ie7;->a:I
-
-    iput p2, p0, Lcom/huawei/appmarket/ie7;->b:I
-
-    iput-object p3, p0, Lcom/huawei/appmarket/ie7;->c:Ljava/lang/String;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/ie7;->d:Ljava/lang/String;
-
-    iput-boolean p5, p0, Lcom/huawei/appmarket/ie7;->e:Z
-
-    iput-object p6, p0, Lcom/huawei/appmarket/ie7;->f:Ljava/util/List;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()I
-    .registers 2
+.method public final a()V
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ie7;->a:I
+    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->c:Lcom/huawei/appmarket/je7;
 
-    return v0
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/je7;->a(Lcom/huawei/appmarket/je7;Z)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->b:Lcom/huawei/appmarket/l96;
+
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/l96;->a(Z)V
+
+    return-void
 .end method
 
-.method public final b()I
-    .registers 2
+.method public final b()V
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ie7;->b:I
+    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->c:Lcom/huawei/appmarket/je7;
 
-    return v0
-.end method
+    const/4 v1, 0x1
 
-.method public final c()Ljava/lang/String;
-    .registers 2
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/je7;->a(Lcom/huawei/appmarket/je7;Z)V
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->a:Landroid/app/Activity;
 
-    return-object v0
-.end method
+    invoke-static {v0}, Lcom/huawei/appmarket/ij;->a(Landroid/app/Activity;)V
 
-.method public final d()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
+    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->b:Lcom/huawei/appmarket/l96;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->f:Ljava/util/List;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/l96;->a(Z)V
 
-    return-object v0
-.end method
-
-.method public final e()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ie7;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final f()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/ie7;->e:Z
-
-    return v0
+    return-void
 .end method

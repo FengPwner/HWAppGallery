@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/substance/FlowCardView$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/substance/FlowCardView$a;->b:Lcom/huawei/appmarket/service/substance/FlowCardView;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     invoke-static {p1, v2}, Lcom/huawei/appmarket/service/substance/FlowCardView;->b(Lcom/huawei/appmarket/service/substance/FlowCardView;Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     move-result-object v2
 
@@ -97,7 +97,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/yj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
+    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/zj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/substance/FlowCardView;->d(Lcom/huawei/appmarket/service/substance/FlowCardView;)V
 

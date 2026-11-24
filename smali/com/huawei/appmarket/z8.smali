@@ -70,19 +70,19 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x2
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x3
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     return-void
 .end method
@@ -348,7 +348,7 @@
 
     iget-object v3, p1, Lcom/huawei/appmarket/z8;->a:Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 

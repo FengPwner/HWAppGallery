@@ -39,11 +39,11 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction$a;->b:Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction;->access$000(Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction;->access$000(Lcom/huawei/appmarket/service/externalapi/actions/BatchUpdateAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method

@@ -40,19 +40,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$a;->a:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
 
-    invoke-virtual {v0}, Landroid/view/View;->getMeasuredHeight()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final b()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$a;->a:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
-
     invoke-static {v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->g(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)I
 
     move-result v0
@@ -60,7 +47,7 @@
     return v0
 .end method
 
-.method public final c()I
+.method public final b()I
     .registers 4
 
     .line 1
@@ -93,7 +80,7 @@
     return v1
 .end method
 
-.method public final d()Landroid/view/ViewGroup$LayoutParams;
+.method public final c()Landroid/view/ViewGroup$LayoutParams;
     .registers 3
 
     .line 1
@@ -106,13 +93,25 @@
     return-object v0
 .end method
 
-.method public final e()I
+.method public final d()I
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$a;->a:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
 
     invoke-static {v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->f(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final getHeight()I
+    .registers 2
+
+    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$a;->a:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
+
+    invoke-virtual {v0}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v0
 

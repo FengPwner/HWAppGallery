@@ -55,11 +55,11 @@
     invoke-virtual {v1, p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;->T7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;
+    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;->U7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalInnerSubTabsFragment;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->s(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->t(I)V
 
     return-void
 .end method

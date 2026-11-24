@@ -116,11 +116,11 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/huawei/appmarket/eq;
+    new-instance v3, Lcom/huawei/appmarket/dq;
 
     iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-direct {v3, v4, p1}, Lcom/huawei/appmarket/eq;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-direct {v3, v4, p1}, Lcom/huawei/appmarket/dq;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -136,7 +136,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1

@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/divider/MaterialDividerItemDecoration;->o0:Landroid/graphics/Rect;
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->F:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->F:[I
 
     const v5, 0x7f130643
 
@@ -69,11 +69,11 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
@@ -161,7 +161,7 @@
     const-string p3, ". It should be either HORIZONTAL or VERTICAL"
 
     .line 5
-    invoke-static {p2, p4, p3}, Lcom/huawei/appmarket/z84;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p4, p3}, Lcom/huawei/appmarket/kk4;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -363,7 +363,7 @@
 
     .line 66
     :goto_0
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 67
     .line 68
@@ -781,4 +781,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

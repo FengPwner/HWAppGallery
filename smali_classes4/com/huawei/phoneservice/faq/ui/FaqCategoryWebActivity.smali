@@ -602,6 +602,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final o3(Ljava/lang/String;)Z
@@ -1031,262 +1051,262 @@
     move-result-object p1
 
     .line 100
-    const-string v4, "wechatId"
+    const-string/jumbo v4, "wechatId"
 
     .line 101
     .line 102
+    .line 103
     invoke-interface {p1, v4}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 103
     .line 104
     .line 105
+    .line 106
     move-result-object p1
 
-    .line 106
+    .line 107
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 107
     .line 108
     .line 109
+    .line 110
     move-result p1
 
-    .line 110
-    const-string v5, "weiboId"
-
     .line 111
-    .line 112
-    if-eqz p1, :cond_2
+    const-string/jumbo v5, "weiboId"
 
+    .line 112
     .line 113
     .line 114
-    invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
+    if-eqz p1, :cond_2
 
     .line 115
     .line 116
+    invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
+
     .line 117
+    .line 118
+    .line 119
     move-result-object p1
 
-    .line 118
+    .line 120
     invoke-interface {p1, v5}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 119
-    .line 120
     .line 121
+    .line 122
+    .line 123
     move-result-object p1
 
-    .line 122
+    .line 124
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 123
-    .line 124
     .line 125
+    .line 126
+    .line 127
     move-result p1
 
-    .line 126
-    if-eqz p1, :cond_2
-
-    .line 127
     .line 128
-    const-string p1, "share to other because both weChatId and weiboId are empty. "
+    if-eqz p1, :cond_2
 
     .line 129
     .line 130
-    goto :goto_0
+    const-string p1, "share to other because both weChatId and weiboId are empty. "
 
     .line 131
+    .line 132
+    goto :goto_0
+
+    .line 133
     :goto_1
     invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 132
-    .line 133
     .line 134
+    .line 135
+    .line 136
     move-result-object p1
 
-    .line 135
+    .line 137
     invoke-interface {p1, v1}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 136
-    .line 137
     .line 138
+    .line 139
+    .line 140
     move-result-object p1
 
-    .line 139
-    iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->E:Ljava/lang/String;
-
-    .line 140
     .line 141
-    iget-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->D:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->E:Ljava/lang/String;
 
     .line 142
     .line 143
-    invoke-static {p0, p1, v0, v1}, Lcom/huawei/phoneservice/faq/utils/d;->c(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    iget-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->D:Ljava/lang/String;
 
     .line 144
     .line 145
+    invoke-static {p0, p1, v0, v1}, Lcom/huawei/phoneservice/faq/utils/d;->c(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
     .line 146
+    .line 147
+    .line 148
     goto :goto_2
 
-    .line 147
+    .line 149
     :cond_2
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->E:Ljava/lang/String;
 
-    .line 148
-    .line 149
-    iget-object v6, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->D:Ljava/lang/String;
-
     .line 150
     .line 151
-    invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
+    iget-object v6, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->D:Ljava/lang/String;
 
     .line 152
     .line 153
+    invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
+
     .line 154
+    .line 155
+    .line 156
     move-result-object v3
 
-    .line 155
+    .line 157
     invoke-interface {v3, v0}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 156
-    .line 157
     .line 158
+    .line 159
+    .line 160
     move-result-object v0
 
-    .line 159
+    .line 161
     invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 160
-    .line 161
     .line 162
+    .line 163
+    .line 164
     move-result-object v3
 
-    .line 163
+    .line 165
     invoke-interface {v3, v1}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 164
-    .line 165
     .line 166
+    .line 167
+    .line 168
     move-result-object v7
 
-    .line 167
+    .line 169
     invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 168
-    .line 169
     .line 170
+    .line 171
+    .line 172
     move-result-object v1
 
-    .line 171
+    .line 173
     invoke-interface {v1, v4}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 172
-    .line 173
     .line 174
+    .line 175
+    .line 176
     move-result-object v8
 
-    .line 175
+    .line 177
     invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 176
-    .line 177
     .line 178
+    .line 179
+    .line 180
     move-result-object v1
 
-    .line 179
+    .line 181
     invoke-interface {v1, v5}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 180
-    .line 181
     .line 182
+    .line 183
+    .line 184
     move-result-object v9
 
-    .line 183
+    .line 185
     invoke-static {}, Lcom/huawei/phoneservice/faq/utils/SdkFaqManager;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 184
-    .line 185
     .line 186
+    .line 187
+    .line 188
     move-result-object v1
 
-    .line 187
-    const-string v3, "picId"
-
-    .line 188
     .line 189
-    invoke-interface {v1, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "picId"
 
     .line 190
     .line 191
+    invoke-interface {v1, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+
     .line 192
+    .line 193
+    .line 194
     move-result-object v10
 
-    .line 193
+    .line 195
     iget-object v11, p0, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->F:Ljava/lang/String;
 
-    .line 194
-    .line 195
+    .line 196
+    .line 197
     move-object v3, p0
 
-    .line 196
+    .line 198
     move-object v4, p1
 
-    .line 197
+    .line 199
     move-object v5, v6
 
-    .line 198
+    .line 200
     move-object v6, v0
 
-    .line 199
+    .line 201
     invoke-static/range {v3 .. v11}, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->h3(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 200
-    .line 201
     .line 202
+    .line 203
+    .line 204
     :cond_3
     :goto_2
     return v2
 
-    .line 203
+    .line 205
     :cond_4
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
-    .line 204
-    .line 205
     .line 206
+    .line 207
+    .line 208
     move-result v0
 
-    .line 207
+    .line 209
     const v1, 0x102002c
 
-    .line 208
-    .line 209
     .line 210
-    if-ne v0, v1, :cond_5
-
     .line 211
     .line 212
-    invoke-virtual {p0}, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->onBackPressed()V
+    if-ne v0, v1, :cond_5
 
     .line 213
     .line 214
+    invoke-virtual {p0}, Lcom/huawei/phoneservice/faq/ui/FaqCategoryWebActivity;->onBackPressed()V
+
     .line 215
+    .line 216
+    .line 217
     const/4 p1, 0x0
 
-    .line 216
+    .line 218
     return p1
 
-    .line 217
+    .line 219
     :cond_5
     invoke-super {p0, p1}, Lcom/huawei/phoneservice/faq/ui/AbstractBaseActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
-    .line 218
-    .line 219
     .line 220
+    .line 221
+    .line 222
     move-result p1
 
-    .line 221
-    return p1
-    .line 222
     .line 223
+    return p1
     .line 224
     .line 225
     .line 226
@@ -2218,65 +2238,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final onPrepareOptionsMenu(Landroid/view/Menu;)Z

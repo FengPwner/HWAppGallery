@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hms/ml/scan/HmsScanAnalyzer;->analyzInAsyn(Lcom/huawei/hms/mlsdk/common/MLFrame;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/hms/ml/scan/HmsScanAnalyzer;->analyzInAsyn(Lcom/huawei/hms/mlsdk/common/MLFrame;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

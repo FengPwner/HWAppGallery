@@ -22,19 +22,19 @@
 
     sput-object v0, Lcom/huawei/appmarket/sc4;->z:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a17f8
+    const v1, 0x7f0a0a59
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a1217
+    const v1, 0x7f0a0a5f
 
     const/4 v2, 0x2
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a17ed
+    const v1, 0x7f0a0a61
 
     const/4 v2, 0x3
 
@@ -67,29 +67,29 @@
 
     const/4 v3, 0x0
 
-    const/4 v0, 0x2
+    const/4 v0, 0x1
 
     aget-object v0, p3, v0
 
     move-object v4, v0
 
-    check-cast v4, Lcom/huawei/appmarket/framework/widget/PromotionSignTextView;
+    check-cast v4, Landroid/view/View;
 
-    const/4 v0, 0x3
+    const/4 v0, 0x2
 
     aget-object v0, p3, v0
 
     move-object v5, v0
 
-    check-cast v5, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
+    check-cast v5, Landroid/view/View;
 
-    const/4 v0, 0x1
+    const/4 v0, 0x3
 
     aget-object v0, p3, v0
 
     move-object v6, v0
 
-    check-cast v6, Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    check-cast v6, Landroid/view/View;
 
     move-object v0, p0
 
@@ -97,7 +97,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/rc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILcom/huawei/appmarket/framework/widget/PromotionSignTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/rc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/view/View;Landroid/view/View;Landroid/view/View;)V
 
     const-wide/16 v0, -0x1
 

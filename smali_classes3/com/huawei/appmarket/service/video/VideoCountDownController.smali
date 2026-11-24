@@ -47,7 +47,7 @@
     return-void
 .end method
 
-.method private g(I)Ljava/lang/String;
+.method private i(I)Ljava/lang/String;
     .registers 9
 
     .line 1
@@ -393,7 +393,7 @@
 
     long-to-int v1, v4
 
-    invoke-direct {p0, v1}, Lcom/huawei/appmarket/service/video/VideoCountDownController;->g(I)Ljava/lang/String;
+    invoke-direct {p0, v1}, Lcom/huawei/appmarket/service/video/VideoCountDownController;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -420,7 +420,7 @@
 
     mul-int/lit16 p1, p1, 0x3e8
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoCountDownController;->g(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoCountDownController;->i(I)Ljava/lang/String;
 
     move-result-object p1
 

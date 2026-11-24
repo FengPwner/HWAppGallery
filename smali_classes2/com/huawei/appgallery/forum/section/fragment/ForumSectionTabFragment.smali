@@ -3,18 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jq3;
+.implements Lcom/huawei/appmarket/lq3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "ForumSectionTabFragment"
     protocol = Lcom/huawei/appgallery/forum/section/api/ISectionTabFragmentProtocol;
 .end annotation
 
 
 # instance fields
-.field private X2:Lcom/huawei/appmarket/qr2;
+.field private X2:Lcom/huawei/appmarket/sr2;
 
 
 # direct methods
@@ -23,11 +23,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p0}, Lcom/huawei/appmarket/sr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/sr2;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionTabFragment;->X2:Lcom/huawei/appmarket/qr2;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionTabFragment;->X2:Lcom/huawei/appmarket/sr2;
 
     return-void
 .end method
@@ -113,9 +113,9 @@
     const/4 v0, 0x0
 
     :goto_0
-    new-instance v1, Lcom/huawei/appmarket/j57;
+    new-instance v1, Lcom/huawei/appmarket/o57;
 
-    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/j57;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/o57;-><init>(Landroid/content/Context;Z)V
 
     return-object v1
 .end method
@@ -144,9 +144,9 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionTabFragment;->X2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionTabFragment;->X2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -164,11 +164,11 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->l0:Ljava/lang/String;
 
-    invoke-interface {v0}, Lcom/huawei/appgallery/forum/section/api/ISectionTabFragmentProtocol;->getTabStyle()Lcom/huawei/appmarket/nu7;
+    invoke-interface {v0}, Lcom/huawei/appgallery/forum/section/api/ISectionTabFragmentProtocol;->getTabStyle()Lcom/huawei/appmarket/tu7;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->G5(Lcom/huawei/appmarket/nu7;)V
+    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->G5(Lcom/huawei/appmarket/tu7;)V
 
     invoke-interface {v0}, Lcom/huawei/appgallery/forum/section/api/ISectionTabFragmentProtocol;->getFragmentID()I
 
@@ -205,7 +205,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {v0}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object v0
 
@@ -268,7 +268,7 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->H0:Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
-    invoke-virtual {p2, p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setFooterViewListener(Lcom/huawei/appmarket/jq3;)V
+    invoke-virtual {p2, p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setFooterViewListener(Lcom/huawei/appmarket/lq3;)V
 
     :cond_0
     return-object p1
@@ -332,7 +332,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 4
     .line 5
@@ -357,7 +357,7 @@
 
     .line 15
     .line 16
-    sget v3, Lcom/huawei/appmarket/po2;->b:I
+    sget v3, Lcom/huawei/appmarket/ro2;->b:I
 
     .line 17
     .line 18
@@ -396,7 +396,7 @@
     move-result-object v1
 
     .line 34
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36

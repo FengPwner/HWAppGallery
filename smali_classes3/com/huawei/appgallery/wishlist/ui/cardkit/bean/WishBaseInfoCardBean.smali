@@ -11,7 +11,7 @@
 .field private addCount_:I
 
 .field private appName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -93,17 +93,17 @@
     goto :goto_2
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v1, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string v2, "AssertionError"
 
     :goto_0
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object v1, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v1, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string v2, "NumberFormatException"
 

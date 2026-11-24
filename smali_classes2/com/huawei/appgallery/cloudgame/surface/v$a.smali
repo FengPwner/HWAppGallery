@@ -61,7 +61,7 @@
 
     const-string v1, "CloudGameQuitView"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/v$a;->c:Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
 
@@ -98,7 +98,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/qs0;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/rs0;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_2
 

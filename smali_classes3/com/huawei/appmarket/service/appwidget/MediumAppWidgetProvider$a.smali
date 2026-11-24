@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/appwidget/MediumAppWidgetProvider$a;
-.super Lcom/huawei/appmarket/cw;
+.super Lcom/huawei/appmarket/dw;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
 
     const p1, 0x7f0a0f4c
 
-    invoke-direct {p0, p2, p1, p3, p4}, Lcom/huawei/appmarket/cw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;Landroid/content/ComponentName;)V
+    invoke-direct {p0, p2, p1, p3, p4}, Lcom/huawei/appmarket/dw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;Landroid/content/ComponentName;)V
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/appwidget/MediumAppWidgetProvider$a;->j:Landroid/content/Context;
 
@@ -45,13 +45,13 @@
 
 
 # virtual methods
-.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Bitmap;",
-            "Lcom/huawei/appmarket/c38<",
+            "Lcom/huawei/appmarket/i38<",
             "-",
             "Landroid/graphics/Bitmap;",
             ">;)V"
@@ -61,13 +61,13 @@
     .line 1
     invoke-static {}, Lcom/huawei/appmarket/service/appwidget/MediumAppWidgetProvider;->b()V
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/cw;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/dw;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
 
     const-string p1, "MediumAppWidgetProvider"
 
     const-string p2, "medium widget topic image loaded."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -152,7 +152,7 @@
     .line 39
     .line 40
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -287,7 +287,7 @@
 
     .line 106
     .line 107
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -345,7 +345,7 @@
     move-result-object p1
 
     .line 135
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     .line 137
@@ -567,17 +567,15 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 3
 
     .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/MediumAppWidgetProvider$a;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/MediumAppWidgetProvider$a;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
 
     return-void
 .end method

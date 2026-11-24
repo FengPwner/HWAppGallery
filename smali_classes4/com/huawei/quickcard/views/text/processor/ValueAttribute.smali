@@ -154,7 +154,7 @@
 
     invoke-direct {v2, p3}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    invoke-static {v1}, Lcom/huawei/quickcard/views/text/utils/TextStyleUtils;->getLineHeightSpan(I)Lcom/huawei/appmarket/la9;
+    invoke-static {v1}, Lcom/huawei/quickcard/views/text/utils/TextStyleUtils;->getLineHeightSpan(I)Lcom/huawei/appmarket/sa9;
 
     move-result-object p3
 

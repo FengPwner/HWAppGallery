@@ -51,17 +51,17 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     move-result v0
 
     mul-int/lit8 v0, v0, 0x2
 
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->c(I)V
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     return-void
 .end method
@@ -87,11 +87,11 @@
     move-result-object p1
 
     .line 10
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 11
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/kq1;
+    check-cast v0, Lcom/huawei/appmarket/nq1;
 
     .line 13
     .line 14
@@ -99,7 +99,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 17
     .line 18
@@ -174,7 +174,7 @@
 
     .line 53
     .line 54
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 55
     .line 56
@@ -193,7 +193,7 @@
 
     .line 62
     .line 63
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 64
     .line 65
@@ -302,7 +302,7 @@
     .line 116
     .line 117
     .line 118
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 119
     .line 120
@@ -318,7 +318,7 @@
 
     .line 125
     .line 126
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 127
     .line 128
@@ -554,8 +554,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final X1(Landroid/view/View;)V

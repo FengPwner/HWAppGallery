@@ -409,7 +409,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 29
     .line 30
@@ -555,7 +555,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public preloadQuickApp(Landroid/content/Context;Ljava/lang/String;)V
@@ -811,7 +810,7 @@
 
     .line 120
     .line 121
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 122
     .line 123
@@ -1612,25 +1611,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public releasePreloadManagerRes()V

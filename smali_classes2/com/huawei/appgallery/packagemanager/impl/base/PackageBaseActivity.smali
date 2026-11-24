@@ -84,7 +84,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/packagemanager/impl/base/PackageBaseActivity;->c:I
 
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -102,7 +102,7 @@
 
     const-string v2, "PackageBaseActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

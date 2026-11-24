@@ -197,7 +197,7 @@
 
     .line 6
     .line 7
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 8
     .line 9
@@ -457,7 +457,7 @@
 
     iget-wide v1, p0, Landroidx/media3/common/Metadata;->c:J
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/m05;->a(J)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/p05;->a(J)I
 
     move-result v1
 

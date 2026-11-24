@@ -1,14 +1,26 @@
-.class Lcom/huawei/appmarket/x67;
-.super Lcom/huawei/appmarket/w67;
+.class public interface abstract Lcom/huawei/appmarket/x67;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/w67;-><init>()V
 
-    return-void
+# virtual methods
+.method public abstract iterator()Ljava/util/Iterator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Iterator<",
+            "TT;>;"
+        }
+    .end annotation
 .end method

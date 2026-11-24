@@ -1,78 +1,41 @@
 .class final Lcom/huawei/appmarket/wh8$a;
-.super Ljava/lang/Object;
+.super Landroidx/recyclerview/widget/RecyclerView$d0;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$EduVideoNetChangeCallBack;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/wh8;->L(Landroid/view/View;)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/wh8;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "a"
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Landroid/view/View;
-
-.field final synthetic b:Lcom/huawei/appmarket/wh8;
+.field u:Lcom/huawei/appmarket/service/videostream/view/VideoStreamItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/wh8;Landroid/view/View;)V
-    .registers 3
+.method public constructor <init>(Lcom/huawei/appmarket/wh8;Landroid/view/View;)V
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/wh8$a;->b:Lcom/huawei/appmarket/wh8;
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$d0;-><init>(Landroid/view/View;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/wh8$a;->a:Landroid/view/View;
+    new-instance p1, Lcom/huawei/appmarket/service/videostream/view/VideoStreamItemCard;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final continuePlaying()V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/wh8$a;->a:Landroid/view/View;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/wh8$a;->b:Lcom/huawei/appmarket/wh8;
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/wh8;->r(Lcom/huawei/appmarket/wh8;Landroid/view/View;)V
-
-    invoke-static {v1}, Lcom/huawei/appmarket/wh8;->s(Lcom/huawei/appmarket/wh8;)Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    invoke-direct {p1, v0}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamItemCard;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    iput-object p1, p0, Lcom/huawei/appmarket/wh8$a;->u:Lcom/huawei/appmarket/service/videostream/view/VideoStreamItemCard;
 
-    return-void
-.end method
-
-.method public final onCancel()V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/wh8$a;->b:Lcom/huawei/appmarket/wh8;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/wh8;->s(Lcom/huawei/appmarket/wh8;)Lcom/huawei/appmarket/zd5;
-
-    move-result-object v0
-
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamItemCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     return-void
 .end method

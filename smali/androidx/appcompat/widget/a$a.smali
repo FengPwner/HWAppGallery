@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/hj8;
+.implements Lcom/huawei/appmarket/nj8;
 
 
 # annotations
@@ -68,7 +68,7 @@
 
     iget-object v0, p0, Landroidx/appcompat/widget/a$a;->c:Landroidx/appcompat/widget/a;
 
-    iput-object p1, v0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/fj8;
+    iput-object p1, v0, Landroidx/appcompat/widget/a;->g:Lcom/huawei/appmarket/lj8;
 
     iget p1, p0, Landroidx/appcompat/widget/a$a;->b:I
 

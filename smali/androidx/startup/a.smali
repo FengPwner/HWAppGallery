@@ -60,7 +60,7 @@
     .registers 8
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/o18;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/t18;->a()Z
 
     .line 2
     .line 3
@@ -165,11 +165,11 @@
     move-result-object v1
 
     .line 48
-    check-cast v1, Lcom/huawei/appmarket/ad4;
+    check-cast v1, Lcom/huawei/appmarket/cd4;
 
     .line 49
     .line 50
-    invoke-interface {v1}, Lcom/huawei/appmarket/ad4;->a()Ljava/util/List;
+    invoke-interface {v1}, Lcom/huawei/appmarket/cd4;->a()Ljava/util/List;
 
     .line 51
     .line 52
@@ -255,7 +255,7 @@
 
     .line 89
     .line 90
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/ad4;->create(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/cd4;->create(Landroid/content/Context;)Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -493,7 +493,7 @@
 
     move-result-object v3
 
-    const-class v5, Lcom/huawei/appmarket/ad4;
+    const-class v5, Lcom/huawei/appmarket/cd4;
 
     invoke-virtual {v5, v3}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
@@ -725,6 +725,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final e()Z

@@ -506,17 +506,13 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final synthetic focus(Ljava/lang/Object;)V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/tl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/vl3;->a(Lcom/huawei/quickcard/framework/IComponentFunction;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -619,7 +615,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->a(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/View;)Landroid/view/ViewParent;
 
     move-result-object p1
 
@@ -630,7 +626,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/a64;->a(Lcom/huawei/quickcard/framework/IVirtualView;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/quickcard/framework/value/QuickCardValue;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/d64;->a(Lcom/huawei/quickcard/framework/IVirtualView;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/quickcard/framework/value/QuickCardValue;
 
     move-result-object p1
 
@@ -714,7 +710,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->b(Lcom/huawei/quickcard/framework/IComponentSupport;Lcom/huawei/quickcard/CardContext;)V
 
     return-void
 .end method
@@ -1016,7 +1012,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wl3;->c(Lcom/huawei/quickcard/framework/IComponentSupport;Landroid/view/ViewParent;)V
 
     return-void
 .end method

@@ -360,6 +360,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private d(Landroid/util/AttributeSet;I)V
@@ -398,7 +399,7 @@
     move-result-object v0
 
     .line 16
-    sget-object v1, Lcom/huawei/appmarket/he6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/je6;->a:[I
 
     .line 17
     .line 18

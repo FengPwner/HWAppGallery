@@ -32,7 +32,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayerFactory$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayerFactory$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayerFactory;->Companion:Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayerFactory$Companion;
 
@@ -79,7 +79,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     goto/16 :goto_5
 
@@ -112,7 +112,7 @@
 
     move-object v3, p1
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoTVCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoTVCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     goto :goto_5
 
@@ -145,7 +145,7 @@
 
     move-object v3, p1
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSteamController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSteamController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     goto :goto_5
 
@@ -178,7 +178,7 @@
 
     move-object v3, p1
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSplashController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSplashController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     goto :goto_5
 
@@ -211,7 +211,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSmallCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSmallCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     goto :goto_5
 
@@ -231,7 +231,7 @@
 
     move-object v8, p1
 
-    invoke-direct/range {v7 .. v12}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v7 .. v12}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     :goto_5
     return-object p2

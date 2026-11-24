@@ -152,13 +152,13 @@
 
 
 # virtual methods
-.method abstract a(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method abstract a(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Integer;",
             ">;"

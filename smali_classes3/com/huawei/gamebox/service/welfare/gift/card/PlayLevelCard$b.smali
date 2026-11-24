@@ -47,19 +47,19 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;->w1(Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;->w1(Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;->w1(Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;->w1(Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v0
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     :cond_0
     invoke-static {v1}, Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;->x1(Lcom/huawei/gamebox/service/welfare/gift/card/PlayLevelCard;)Landroid/widget/TextView;
@@ -74,11 +74,11 @@
 
     invoke-direct {v0}, Lcom/huawei/gamebox/service/usercenter/personal/bean/GetUserSummaryInfoReq;-><init>()V
 
-    new-instance v1, Lcom/huawei/appmarket/dz2;
+    new-instance v1, Lcom/huawei/appmarket/gz2;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/dz2;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/gz2;-><init>()V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

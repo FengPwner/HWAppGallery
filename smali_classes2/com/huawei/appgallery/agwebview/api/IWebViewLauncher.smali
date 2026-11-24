@@ -4,10 +4,10 @@
 
 
 # virtual methods
-.method public abstract getWebViewLauncherHelper()Lcom/huawei/appmarket/h64;
+.method public abstract getWebViewLauncherHelper()Lcom/huawei/appmarket/k64;
 .end method
 
-.method public abstract getWebViewType(Ljava/lang/String;)Lcom/huawei/appmarket/to8;
+.method public abstract getWebViewType(Ljava/lang/String;)Lcom/huawei/appmarket/zo8;
 .end method
 
 .method public abstract isAppDetailUrl(Ljava/lang/String;)Z
@@ -22,7 +22,7 @@
 .method public abstract startWebViewActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.method public abstract startWebViewActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/g64;)V
+.method public abstract startWebViewActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/j64;)V
 .end method
 
 .method public abstract startWebViewActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

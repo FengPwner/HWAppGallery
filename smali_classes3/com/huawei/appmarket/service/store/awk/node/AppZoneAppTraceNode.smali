@@ -76,7 +76,7 @@
     return p1
 .end method
 
-.method public s(Lcom/huawei/appmarket/ak0;)V
+.method public s(Lcom/huawei/appmarket/bk0;)V
     .registers 7
 
     .line 1
@@ -126,11 +126,11 @@
 
     .line 21
     .line 22
-    new-instance v4, Lcom/huawei/appmarket/co5;
+    new-instance v4, Lcom/huawei/appmarket/do5;
 
     .line 23
     .line 24
-    invoke-direct {v4, p1, v2, v0}, Lcom/huawei/appmarket/co5;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v4, p1, v2, v0}, Lcom/huawei/appmarket/do5;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 25
     .line 26
@@ -235,5 +235,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

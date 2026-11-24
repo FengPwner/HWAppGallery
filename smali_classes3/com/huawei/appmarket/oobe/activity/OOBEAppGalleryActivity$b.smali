@@ -49,11 +49,11 @@
 
     invoke-virtual {p1, p2}, Lcom/huawei/appgallery/oobebase/api/OOBEAppDataBean$OOBEAppInfo;->setSelected(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object p2
 
@@ -66,22 +66,22 @@
 
     invoke-virtual {p1, p2}, Lcom/huawei/appgallery/oobebase/api/OOBEAppDataBean$OOBEAppInfo;->setSelected(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object p2
 
     invoke-virtual {p2, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object p1
 

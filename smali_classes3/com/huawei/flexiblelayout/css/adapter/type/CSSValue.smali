@@ -22,7 +22,7 @@
     .end annotation
 .end field
 
-.field private mParent:Lcom/huawei/appmarket/jg0;
+.field private mParent:Lcom/huawei/appmarket/kg0;
 
 
 # direct methods
@@ -73,20 +73,20 @@
     return-object v0
 .end method
 
-.method public getParent()Lcom/huawei/appmarket/jg0;
+.method public getParent()Lcom/huawei/appmarket/kg0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;->mParent:Lcom/huawei/appmarket/jg0;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;->mParent:Lcom/huawei/appmarket/kg0;
 
     return-object v0
 .end method
 
-.method public setParent(Lcom/huawei/appmarket/jg0;)V
+.method public setParent(Lcom/huawei/appmarket/kg0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;->mParent:Lcom/huawei/appmarket/jg0;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;->mParent:Lcom/huawei/appmarket/kg0;
 
     return-void
 .end method

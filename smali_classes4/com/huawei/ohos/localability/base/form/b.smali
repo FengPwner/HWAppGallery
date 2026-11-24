@@ -66,7 +66,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/w79;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/c89;->f()Z
 
     move-result v1
 

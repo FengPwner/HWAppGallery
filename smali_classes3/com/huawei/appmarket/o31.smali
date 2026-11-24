@@ -21,7 +21,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/t13;->d(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/w13;->d(Ljava/lang/String;)V
 
     return-void
 .end method

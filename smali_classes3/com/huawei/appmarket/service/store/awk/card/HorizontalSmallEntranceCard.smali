@@ -43,15 +43,15 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->c(I)V
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     return-void
 .end method
@@ -84,7 +84,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 14
     .line 15
@@ -181,7 +181,7 @@
 
     .line 60
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->f()I
 
     .line 62
     .line 63
@@ -259,7 +259,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -275,7 +274,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 7
     .line 8
@@ -283,11 +282,11 @@
     move-result p1
 
     .line 10
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tb3;->a()I
 
     .line 13
     .line 14
@@ -410,5 +409,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -16,7 +16,7 @@
 # instance fields
 .field private a:Landroid/content/Context;
 
-.field private b:Lcom/huawei/appmarket/xr3;
+.field private b:Lcom/huawei/appmarket/zr3;
 
 
 # direct methods
@@ -67,21 +67,21 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 22
     .line 23
     .line 24
-    iget-object p0, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/xr3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/zr3;
 
     .line 25
     .line 26
-    invoke-interface {p0}, Lcom/huawei/appmarket/xr3;->b()V
+    invoke-interface {p0}, Lcom/huawei/appmarket/zr3;->b()V
 
     .line 27
     .line 28
@@ -105,7 +105,7 @@
     const/4 v1, 0x1
 
     .line 37
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 38
     .line 39
@@ -121,7 +121,7 @@
 
     .line 44
     .line 45
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -137,7 +137,7 @@
 
     .line 52
     .line 53
-    invoke-interface {v2, p0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, p0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 54
     .line 55
@@ -145,7 +145,7 @@
     move-result-object p0
 
     .line 57
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 58
     .line 59
@@ -206,7 +206,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static b(Lcom/huawei/appmarket/service/account/GuideLogin;)V
@@ -218,7 +217,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 5
     .line 6
@@ -230,11 +229,11 @@
 
     .line 9
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 13
     .line 14
@@ -242,11 +241,11 @@
     move-result-object v0
 
     .line 16
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -254,7 +253,7 @@
     move-result-object v0
 
     .line 22
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 23
     .line 24
@@ -275,7 +274,7 @@
     move-result-object v2
 
     .line 33
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 34
     .line 35
@@ -291,7 +290,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-interface {v0, v2, v3}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2, v3}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     .line 42
     .line 43
@@ -321,7 +320,7 @@
     .line 55
     .line 56
     .line 57
-    iput-object v2, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/ao5;
+    iput-object v2, v0, Lcom/huawei/appmarket/w7;->i:Lcom/huawei/appmarket/bo5;
 
     .line 58
     .line 59
@@ -345,7 +344,7 @@
 
     .line 68
     .line 69
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -393,25 +392,24 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method static synthetic c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/xr3;
+.method static synthetic c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/zr3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/xr3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/zr3;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public final d(Lcom/huawei/appmarket/xr3;)V
+.method public final d(Lcom/huawei/appmarket/zr3;)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/xr3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->b:Lcom/huawei/appmarket/zr3;
 
     new-instance p1, Lcom/huawei/appmarket/service/account/GuideLogin$a;
 
@@ -423,7 +421,7 @@
 
     const-class v1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -431,11 +429,11 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/account/GuideLogin;->a:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i04;
+.implements Lcom/huawei/appmarket/k04;
 
 
 # annotations
@@ -61,9 +61,9 @@
 
     const-string v1, "ExtraJsObject"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/m66;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/o66;->c()Ljava/lang/String;
 
     move-result-object v5
 
@@ -75,7 +75,7 @@
 
     const-string p1, "gamePackage is empty"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -121,16 +121,16 @@
     goto :goto_4
 
     :pswitch_0
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_install_result"
 
     :goto_0
-    iget-object p1, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object p1, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     check-cast p1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->u0()Ljava/lang/String;
 
     move-result-object v6
 
@@ -139,57 +139,57 @@
     const/4 v3, 0x0
 
     :goto_1
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/kk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/jk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
     :pswitch_1
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_result"
 
     goto :goto_0
 
     :cond_1
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm_install"
 
     goto :goto_0
 
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object p1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
-    iget-object v0, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     check-cast v0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->u0()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "action_restore_start_install"
 
     :goto_2
-    invoke-virtual {p1, v1, v5, v0, v2}, Lcom/huawei/appmarket/kk;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v5, v0, v2}, Lcom/huawei/appmarket/jk;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
     :cond_3
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm"
 
     goto :goto_0
 
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object p1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
-    iget-object v0, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     check-cast v0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->u0()Ljava/lang/String;
 
     move-result-object v0
 
@@ -198,16 +198,16 @@
     goto :goto_2
 
     :cond_5
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm_install"
 
     :goto_3
-    iget-object p1, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object p1, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     check-cast p1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->u0()Ljava/lang/String;
 
     move-result-object v6
 
@@ -218,21 +218,21 @@
     goto :goto_1
 
     :cond_6
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm"
 
     goto :goto_3
 
     :cond_7
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_install_result"
 
     goto :goto_3
 
     :cond_8
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_result"
 

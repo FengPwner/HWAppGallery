@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
@@ -12,7 +12,7 @@
         value = {
             "()",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/m94;",
+            "Lcom/huawei/appmarket/o94;",
             ">;"
         }
     .end annotation
@@ -35,7 +35,7 @@
         value = {
             "(",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/m94;",
+            "Lcom/huawei/appmarket/o94;",
             ">;)V"
         }
     .end annotation

@@ -141,7 +141,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v1, p1, v0, p1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, p1, v0, p1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result p1
 

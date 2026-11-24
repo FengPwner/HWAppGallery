@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    iget-object v1, v0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object v1, v0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     .line 6
     .line 7
@@ -57,7 +57,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 11
     .line 12
@@ -230,7 +230,7 @@
     sub-int/2addr v10, v5
 
     .line 88
-    invoke-static {v6, v2, v10}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {v6, v2, v10}, Lcom/huawei/appmarket/c55;->a(III)I
 
     .line 89
     .line 90
@@ -269,7 +269,7 @@
 
     .line 106
     .line 107
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 108
     .line 109
@@ -283,7 +283,7 @@
     move-result v2
 
     .line 114
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 115
     .line 116
@@ -330,11 +330,11 @@
     move-result v1
 
     .line 135
-    iget-object v4, v0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v4, v0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 136
     .line 137
-    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/ft0;->U(F)V
+    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/gt0;->U(F)V
 
     .line 138
     .line 139
@@ -346,7 +346,7 @@
     add-int/2addr v0, v3
 
     .line 143
-    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ft0;->J(I)V
+    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/gt0;->J(I)V
 
     .line 144
     .line 145
@@ -365,7 +365,7 @@
     div-float/2addr p1, v2
 
     .line 152
-    invoke-virtual {v4, p1}, Lcom/huawei/appmarket/ft0;->S(F)V
+    invoke-virtual {v4, p1}, Lcom/huawei/appmarket/gt0;->S(F)V
 
     .line 153
     .line 154

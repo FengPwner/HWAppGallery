@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/f78$b;
+.implements Lcom/huawei/appmarket/k78$b;
 
 
 # instance fields
 .field public final synthetic a:I
 
-.field public final synthetic b:Lcom/huawei/appmarket/y88;
+.field public final synthetic b:Lcom/huawei/appmarket/d98;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/y88;I)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/d98;I)V
     .registers 3
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/n;->b:Lcom/huawei/appmarket/y88;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/n;->b:Lcom/huawei/appmarket/d98;
 
     .line 7
     .line 8
@@ -197,7 +197,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -210,7 +209,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/n;->b:Lcom/huawei/appmarket/y88;
+    iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/n;->b:Lcom/huawei/appmarket/d98;
 
     .line 4
     .line 5

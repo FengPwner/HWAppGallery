@@ -100,7 +100,7 @@
 
     const-string v2, "BubbleTips"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/app/Activity;->isChangingConfigurations()Z
 

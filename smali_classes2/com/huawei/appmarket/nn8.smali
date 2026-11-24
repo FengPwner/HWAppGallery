@@ -1,202 +1,458 @@
-.class public final enum Lcom/huawei/appmarket/nn8;
-.super Ljava/lang/Enum;
+.class public final Lcom/huawei/appmarket/nn8;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/i64;
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/i64;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "Ljava/lang/Enum<",
-        "Lcom/huawei/appmarket/nn8;",
-        ">;"
+        Lcom/huawei/appmarket/nn8$b;
     }
 .end annotation
 
 
-# static fields
-.field public static final enum b:Lcom/huawei/appmarket/nn8;
-
-.field private static final synthetic c:[Lcom/huawei/appmarket/nn8;
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/nn8;
-
-    const-string v1, "INSTANCE"
-
-    const/4 v2, 0x0
-
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/nn8;-><init>(Ljava/lang/String;I)V
-
-    sput-object v0, Lcom/huawei/appmarket/nn8;->b:Lcom/huawei/appmarket/nn8;
-
-    const/4 v1, 0x1
-
-    new-array v1, v1, [Lcom/huawei/appmarket/nn8;
-
-    aput-object v0, v1, v2
-
-    sput-object v1, Lcom/huawei/appmarket/nn8;->c:[Lcom/huawei/appmarket/nn8;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method private constructor <init>(Ljava/lang/String;I)V
+
+# virtual methods
+.method public final a()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/huawei/appgallery/agwebview/controlmore/db/WapControlMore;
+
+    invoke-direct {v0}, Lcom/huawei/appgallery/agwebview/controlmore/db/WapControlMore;-><init>()V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/fa1;->a(Lcom/huawei/appmarket/f91;)V
+
+    return-void
+.end method
+
+.method public final b(Lcom/huawei/appmarket/zo8;Ljava/lang/Class;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()V"
+            "(",
+            "Lcom/huawei/appmarket/zo8;",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/huawei/appmarket/st3;",
+            ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/xn8;->h(Lcom/huawei/appmarket/zo8;Ljava/lang/Class;)V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
-    .registers 6
+.method public final c(Ljava/lang/String;)V
+    .registers 2
 
     .line 1
-    const-string v0, "WebViewFactory"
+    invoke-static {p1}, Lcom/huawei/appmarket/xn8;->f(Ljava/lang/String;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/cp8;->a(Ljava/lang/String;)Ljava/lang/Class;
+    return-void
+.end method
+
+.method public final clearCache()V
+    .registers 4
+
+    .line 1
+    :try_start_0
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
+
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    new-instance v1, Lcom/huawei/appmarket/nn8$b;
 
     const/4 v2, 0x0
 
-    if-eqz v1, :cond_0
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/nn8$b;-><init>(Lcom/huawei/appmarket/nn8$a;)V
 
-    const/4 v3, 0x0
-
-    :try_start_0
-    new-array v4, v3, [Ljava/lang/Class;
-
-    invoke-virtual {v1, v4}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
-
-    move-result-object v1
-
-    new-array v3, v3, [Ljava/lang/Object;
-
-    invoke-virtual {v1, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
     :try_end_0
-    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_7
-    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_6
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_5
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_4
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    :try_start_1
-    invoke-virtual {v1, p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->e0(Ljava/lang/String;)V
-    :try_end_1
-    .catch Ljava/lang/InstantiationException; {:try_start_1 .. :try_end_1} :catch_3
-    .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_2
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_0
-
-    move-object v2, v1
-
-    goto :goto_2
+    goto :goto_0
 
     :catch_0
-    move-exception p0
+    sget-object v0, Lcom/huawei/appmarket/k0;->a:Lcom/huawei/appmarket/k0;
+
+    const-string v1, "WebViewConfigImpl"
+
+    const-string v2, "clearCache exception"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    move-object v2, v1
-
-    goto :goto_1
-
-    :catch_1
-    move-exception p0
-
-    goto :goto_0
-
-    :catch_2
-    move-exception p0
-
-    goto :goto_0
-
-    :catch_3
-    move-exception p0
-
-    goto :goto_0
-
-    :catch_4
-    move-exception p0
-
-    goto :goto_1
-
-    :catch_5
-    move-exception p0
-
-    goto :goto_1
-
-    :catch_6
-    move-exception p0
-
-    goto :goto_1
-
-    :catch_7
-    move-exception p0
-
-    :goto_1
-    sget-object v1, Lcom/huawei/appmarket/k0;->a:Lcom/huawei/appmarket/k0;
-
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v1, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_0
-    :goto_2
-    return-object v2
+    return-void
 .end method
 
-.method public static b(Ljava/lang/Class;Ljava/lang/String;)V
+.method public final d(Ljava/lang/String;)Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
+    .registers 3
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/tn8;->b:Lcom/huawei/appmarket/tn8;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/tn8;->a(Ljava/lang/String;)Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final e()V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/cp8;->b(Ljava/lang/Class;Ljava/lang/String;)V
+    sget v0, Lcom/huawei/appmarket/xn8;->f:I
+
+    .line 2
+    .line 3
+    invoke-static {}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->H0()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+.end method
+
+.method public final f(Lcom/huawei/appmarket/k64;)V
+    .registers 2
+
+    .line 1
+    invoke-static {p1}, Lcom/huawei/appmarket/xn8;->i(Lcom/huawei/appmarket/k64;)V
 
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/nn8;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/nn8;
-
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
-
-    move-result-object p0
-
-    check-cast p0, Lcom/huawei/appmarket/nn8;
-
-    return-object p0
-.end method
-
-.method public static values()[Lcom/huawei/appmarket/nn8;
+.method public final g()V
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/nn8;->c:[Lcom/huawei/appmarket/nn8;
+    invoke-static {}, Lcom/huawei/appmarket/xn8;->g()V
 
-    invoke-virtual {v0}, [Lcom/huawei/appmarket/nn8;->clone()Ljava/lang/Object;
+    return-void
+.end method
 
-    move-result-object v0
+.method public final h(Ljava/lang/Class;Ljava/lang/String;)V
+    .registers 4
 
-    check-cast v0, [Lcom/huawei/appmarket/nn8;
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/tn8;->b:Lcom/huawei/appmarket/tn8;
 
-    return-object v0
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/tn8;->b(Ljava/lang/Class;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final i()V
+    .registers 2
+
+    .line 1
+    sget v0, Lcom/huawei/appmarket/xn8;->f:I
+
+    .line 2
+    .line 3
+    invoke-static {}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->F0()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+.end method
+
+.method public final j()V
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/xn8;->j()V
+
+    return-void
 .end method

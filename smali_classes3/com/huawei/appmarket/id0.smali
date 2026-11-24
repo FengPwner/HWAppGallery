@@ -33,7 +33,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -43,7 +43,7 @@
 
     const-string v1, "destroy BuoyDispatchManager"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/id0;->a:Ljava/util/HashMap;
@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v2
 
@@ -230,7 +230,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -362,7 +362,7 @@
     throw v0
 .end method
 
-.method public final declared-synchronized f(Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+.method public final declared-synchronized f(Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
     .registers 8
 
     .line 1
@@ -435,7 +435,7 @@
     :cond_2
     if-eqz v2, :cond_3
 
-    invoke-interface {v2, p1, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/base/dispatch/GameServiceDispatcher;->dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+    invoke-interface {v2, p1, p2, p3}, Lcom/huawei/appgallery/assistantdock/base/service/base/dispatch/GameServiceDispatcher;->dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
 
     :cond_3
     iput-object v1, p0, Lcom/huawei/appmarket/id0;->b:Ljava/lang/String;

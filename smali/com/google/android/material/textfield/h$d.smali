@@ -170,7 +170,7 @@
     const/4 v3, 0x2
 
     .line 68
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 69
     .line 70

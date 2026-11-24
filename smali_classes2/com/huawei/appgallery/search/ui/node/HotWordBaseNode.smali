@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     return-void
 .end method
@@ -145,11 +145,11 @@
     return v0
 .end method
 
-.method public s(Lcom/huawei/appmarket/ak0;)V
+.method public s(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/bk0;)V
 
     const/4 v0, 0x0
 
@@ -179,7 +179,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_1
     add-int/lit8 v0, v0, 0x1

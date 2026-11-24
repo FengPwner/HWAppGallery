@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -18,13 +18,13 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/q24;
+.field private b:Lcom/huawei/appmarket/s24;
 
 .field final synthetic c:Lcom/huawei/appmarket/framework/MainActivityBase;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/framework/MainActivityBase;Lcom/huawei/appmarket/q24;)V
+.method public constructor <init>(Lcom/huawei/appmarket/framework/MainActivityBase;Lcom/huawei/appmarket/s24;)V
     .registers 3
 
     .line 1
@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/framework/MainActivityBase$d;->b:Lcom/huawei/appmarket/q24;
+    iput-object p2, p0, Lcom/huawei/appmarket/framework/MainActivityBase$d;->b:Lcom/huawei/appmarket/s24;
 
     return-void
 .end method
@@ -51,15 +51,15 @@
 
     const-string p2, "showExitDialog BUTTON_POSITIVE"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/framework/MainActivityBase$d;->b:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/framework/MainActivityBase$d;->b:Lcom/huawei/appmarket/s24;
 
     const/4 p2, 0x1
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/q24;->isChecked()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/s24;->isChecked()Z
 
     move-result p1
 
@@ -73,7 +73,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object p3
 

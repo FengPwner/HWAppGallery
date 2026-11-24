@@ -172,7 +172,7 @@
     return v0
 .end method
 
-.method public static calculatePosition(Landroid/view/View;Lcom/huawei/quickcard/framework/background/b;Lcom/huawei/appmarket/i69;)Landroid/graphics/Point;
+.method public static calculatePosition(Landroid/view/View;Lcom/huawei/quickcard/framework/background/b;Lcom/huawei/appmarket/o69;)Landroid/graphics/Point;
     .registers 9
 
     .line 1
@@ -196,11 +196,11 @@
 
     invoke-direct {v3, v4, v4}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->i()Lcom/huawei/quickcard/framework/unit/LengthValue;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->i()Lcom/huawei/quickcard/framework/unit/LengthValue;
 
     move-result-object v4
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->e()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->e()I
 
     move-result v5
 
@@ -210,11 +210,11 @@
 
     iput v0, v3, Landroid/graphics/Point;->x:I
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->l()Lcom/huawei/quickcard/framework/unit/LengthValue;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->l()Lcom/huawei/quickcard/framework/unit/LengthValue;
 
     move-result-object v0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->k()I
 
     move-result p2
 
@@ -229,11 +229,11 @@
     return-object v3
 .end method
 
-.method public static calculateRepeat(Lcom/huawei/appmarket/i69;)Lcom/huawei/quickcard/framework/background/a;
+.method public static calculateRepeat(Lcom/huawei/appmarket/o69;)Lcom/huawei/quickcard/framework/background/a;
     .registers 5
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/i69;->m()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/o69;->m()Ljava/lang/String;
 
     move-result-object p0
 
@@ -347,11 +347,11 @@
     .end packed-switch
 .end method
 
-.method public static calculateSize(Landroid/view/View;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i69;)Lcom/huawei/quickcard/framework/background/b;
+.method public static calculateSize(Landroid/view/View;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/o69;)Lcom/huawei/quickcard/framework/background/b;
     .registers 11
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->n()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->n()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -359,7 +359,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p2}, Lcom/huawei/appmarket/i69;->a()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o69;->a()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -1219,59 +1219,16 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static createLayerDrawable(Landroid/content/Context;)Landroid/graphics/drawable/LayerDrawable;
     .registers 6
 
-    new-instance v0, Lcom/huawei/appmarket/o39;
+    new-instance v0, Lcom/huawei/appmarket/u39;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/o39;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/u39;-><init>(Landroid/content/Context;I)V
 
     const/4 p0, 0x4
 
@@ -1434,17 +1391,17 @@
     return-object v0
 .end method
 
-.method public static parseToColorDrawable(Landroid/view/View;I)Lcom/huawei/appmarket/o39;
+.method public static parseToColorDrawable(Landroid/view/View;I)Lcom/huawei/appmarket/u39;
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/o39;
+    new-instance v0, Lcom/huawei/appmarket/u39;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p0
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/o39;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/u39;-><init>(Landroid/content/Context;I)V
 
     return-object v0
 .end method

@@ -143,7 +143,7 @@
 
     if-eqz v1, :cond_5
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ej5;->y(Landroid/util/ArraySet;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/gj5;->y(Landroid/util/ArraySet;)Z
 
     move-result v1
 
@@ -188,7 +188,7 @@
 
     iget-object v5, p0, Lcom/huawei/updatesdk/service/appmgr/keyset/c$a;->b:Landroid/util/ArraySet;
 
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/ej5;->z(Landroid/util/ArraySet;Ljava/lang/String;)Z
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/gj5;->z(Landroid/util/ArraySet;Ljava/lang/String;)Z
 
     move-result v4
 
@@ -201,11 +201,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ej5;->l(Ljava/lang/Object;)Landroid/util/ArraySet;
+    invoke-static {v3}, Lcom/huawei/appmarket/gj5;->l(Ljava/lang/Object;)Landroid/util/ArraySet;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ej5;->n(Landroid/util/ArraySet;)Ljava/util/Iterator;
+    invoke-static {v3}, Lcom/huawei/appmarket/gj5;->n(Landroid/util/ArraySet;)Ljava/util/Iterator;
 
     move-result-object v3
 

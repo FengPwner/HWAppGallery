@@ -31,7 +31,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/ServiceCountryChangeActivityProcessor$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/ServiceCountryChangeActivityProcessor$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const-string v0, "proxyActivity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProcessor;-><init>(Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;Ljava/lang/String;)V
 
@@ -112,12 +112,12 @@
     .line 18
     :cond_0
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v0, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 19
     .line 20
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v1, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 21
     .line 22
@@ -129,7 +129,7 @@
     move-result-object v2
 
     .line 26
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/s93$a;->b(Lcom/huawei/appmarket/s93$a;Landroid/content/Context;)Lcom/huawei/appmarket/s93;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/v93$a;->b(Lcom/huawei/appmarket/v93$a;Landroid/content/Context;)Lcom/huawei/appmarket/v93;
 
     .line 27
     .line 28
@@ -168,7 +168,7 @@
 
     .line 44
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     .line 45
     .line 46
@@ -230,7 +230,7 @@
     const/4 v5, 0x0
 
     .line 76
-    invoke-interface {v1, v3, v4, v5, v2}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {v1, v3, v4, v5, v2}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -247,7 +247,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -304,18 +304,19 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final d(IILandroid/content/Intent;Lcom/huawei/appmarket/qs2;)V
+.method public final d(IILandroid/content/Intent;Lcom/huawei/appmarket/ts2;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
             "Landroid/content/Intent;",
-            "Lcom/huawei/appmarket/qs2<",
+            "Lcom/huawei/appmarket/ts2<",
             "-",
             "Lcom/huawei/appgallery/accountkit/impl/bridge/ServiceCountryChangeActivityProtocol;",
-            "Lcom/huawei/appmarket/x78;",
+            "Lcom/huawei/appmarket/c88;",
             ">;)V"
         }
     .end annotation
@@ -349,7 +350,7 @@
 
     const-string v2, "ServiceCountryChangeProcessor"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, -0x1
 
@@ -383,9 +384,9 @@
 
     const-string p3, "onExternalActivityResult, launch service country change page failed or user cancelled"
 
-    invoke-virtual {p1, v2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     move-result-object p1
 
@@ -399,10 +400,10 @@
 
     const-string v2, "[ServiceCountryChangeProcessor, onExternalActivityResult][message = launch service country change page failed or user cancelled]"
 
-    invoke-interface {p1, p3, v0, p2, v2}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {p1, p3, v0, p2, v2}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     :cond_1
-    invoke-interface {p4, v1}, Lcom/huawei/appmarket/qs2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v1}, Lcom/huawei/appmarket/ts2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

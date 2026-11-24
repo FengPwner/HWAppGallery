@@ -3,34 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/BiConsumer;
+.implements Lorg/apache/commons/lang3/function/FailableRunnable;
 
 
 # instance fields
-.field public final synthetic a:Lorg/apache/commons/lang3/Functions$FailableBiConsumer;
+.field public final synthetic a:Lorg/apache/commons/lang3/Functions$FailableRunnable;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;)V
+.method public synthetic constructor <init>(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/zt2;->a:Lorg/apache/commons/lang3/Functions$FailableBiConsumer;
+    iput-object p1, p0, Lcom/huawei/appmarket/zt2;->a:Lorg/apache/commons/lang3/Functions$FailableRunnable;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
-    .registers 4
+.method public final run()V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/zt2;->a:Lorg/apache/commons/lang3/Functions$FailableBiConsumer;
+    iget-object v0, p0, Lcom/huawei/appmarket/zt2;->a:Lorg/apache/commons/lang3/Functions$FailableRunnable;
 
-    invoke-static {v0, p1, p2}, Lorg/apache/commons/lang3/Functions;->k(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v0}, Lorg/apache/commons/lang3/Functions$FailableRunnable;->run()V
 
     return-void
 .end method

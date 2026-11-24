@@ -94,7 +94,7 @@
 
     const-string p2, "AppZoneListFragment"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment$a;->k:Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment;
 

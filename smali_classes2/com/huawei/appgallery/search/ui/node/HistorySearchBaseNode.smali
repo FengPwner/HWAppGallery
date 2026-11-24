@@ -47,7 +47,7 @@
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -64,7 +64,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     add-int/lit8 v0, v0, 0x1

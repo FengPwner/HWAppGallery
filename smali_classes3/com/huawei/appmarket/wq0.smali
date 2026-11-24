@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/hp0$b;
+.implements Lcom/huawei/appmarket/ip0$d;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/xq0;
+.field final synthetic a:Lcom/huawei/appmarket/yq0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/xq0;)V
+.method constructor <init>(Lcom/huawei/appmarket/yq0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/wq0;->b:Lcom/huawei/appmarket/xq0;
+    iput-object p1, p0, Lcom/huawei/appmarket/wq0;->a:Lcom/huawei/appmarket/yq0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -24,46 +24,55 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
-    .registers 5
+.method public final a(Z)V
+    .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->u0()I
+    iget-object v0, p0, Lcom/huawei/appmarket/wq0;->a:Lcom/huawei/appmarket/yq0;
 
-    move-result p1
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yq0;->c(Lcom/huawei/appmarket/yq0;Z)V
+
+    goto :goto_0
+
+    :cond_0
+    iget-object p1, v0, Lcom/huawei/appmarket/io1;->a:Lcom/huawei/appmarket/vm4;
 
     const/4 v0, 0x1
 
-    if-ne p1, v0, :cond_0
+    check-cast p1, Lcom/huawei/appmarket/a45;
 
-    iget-object p1, p0, Lcom/huawei/appmarket/wq0;->b:Lcom/huawei/appmarket/xq0;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a45;->l(Z)V
 
-    iget-object v1, p1, Lcom/huawei/appmarket/xq0;->b:Lcom/huawei/appmarket/framework/MainActivityBase;
+    :goto_0
+    return-void
+.end method
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/framework/MainActivityBase;->n4(Z)V
+.method public final b()V
+    .registers 3
 
-    const-string v1, "DownloadProxy"
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/wq0;->a:Lcom/huawei/appmarket/yq0;
 
-    const-class v2, Lcom/huawei/appmarket/mo3;
+    const/4 v1, 0x1
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/yq0;->c(Lcom/huawei/appmarket/yq0;Z)V
 
-    move-result-object v1
+    return-void
+.end method
 
-    check-cast v1, Lcom/huawei/appmarket/mo3;
+.method public final onCancel()V
+    .registers 3
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/mo3;->D(I)I
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/wq0;->a:Lcom/huawei/appmarket/yq0;
 
-    iget-object p1, p1, Lcom/huawei/appmarket/xq0;->b:Lcom/huawei/appmarket/framework/MainActivityBase;
+    const/4 v1, 0x0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->t3(Landroid/content/Context;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/yq0;->c(Lcom/huawei/appmarket/yq0;Z)V
 
-    const-string p1, "CleanDataDialogHandler"
-
-    const-string v0, "doCloseApp end"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_0
     return-void
 .end method

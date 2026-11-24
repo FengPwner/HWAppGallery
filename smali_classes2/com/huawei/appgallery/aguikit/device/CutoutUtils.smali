@@ -223,11 +223,11 @@
     .end annotation
 
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v0
 
@@ -235,11 +235,11 @@
 
     if-ge v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -250,7 +250,7 @@
     return-void
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -262,7 +262,7 @@
 
     const-string p1, "multi window mode"
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -304,7 +304,7 @@
 
     const-string v0, "have title"
 
-    invoke-virtual {p4, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p4, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2, v3, p3, v3, v3}, Landroid/view/View;->setPadding(IIII)V
 
@@ -323,7 +323,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p2, v1, p3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, p3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_5
 
@@ -547,7 +547,7 @@
 
     .line 38
     .line 39
-    invoke-static {v3, v0, v4, p0}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v3, v0, v4, p0}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -555,7 +555,7 @@
     move-result-object v0
 
     .line 43
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -616,7 +616,7 @@
 
     .line 72
     .line 73
-    invoke-static {v8, p0, v9, v3, v10}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, p0, v9, v3, v10}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
@@ -628,7 +628,7 @@
 
     .line 78
     .line 79
-    invoke-static {p0, v1, v9, v4, v3}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {p0, v1, v9, v4, v3}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 80
     .line 81
@@ -637,7 +637,7 @@
 
     .line 83
     .line 84
-    invoke-static {p0, v6, v9, v5, v1}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {p0, v6, v9, v5, v1}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 85
     .line 86
@@ -655,7 +655,7 @@
     move-result-object p0
 
     .line 94
-    invoke-virtual {v7, v2, p0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v7, v2, p0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -670,7 +670,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static getCutoutHeight()I
@@ -751,7 +750,7 @@
 
     const-string p1, "CutoutUtils"
 
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -763,7 +762,7 @@
 
     const-string v0, "hw_sc.dms.rotation_correction"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gt7;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/mt7;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -800,7 +799,7 @@
 
     const-string v4, "CutoutUtils"
 
-    invoke-virtual {v1, v4, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, ";"
 
@@ -869,7 +868,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v7, v4, v6}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v7, v4, v6}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     add-int/lit8 v5, v5, 0x1
@@ -970,7 +969,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move p0, v0
 
@@ -994,7 +993,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "android.view.DisplayCutout"
 
@@ -1086,7 +1085,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move p0, v2
 
@@ -1263,11 +1262,11 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v2
 
@@ -1275,11 +1274,11 @@
 
     if-ge v2, v3, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v2
 
@@ -1363,7 +1362,7 @@
     :catch_0
     sget-object p0, Lcom/huawei/appmarket/h0;->a:Lcom/huawei/appmarket/h0;
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -1378,7 +1377,7 @@
 
     const-string v2, "WithTopPadding"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1443,7 +1442,7 @@
 
     const-string v1, "WithoutTopPadding"
 
-    invoke-virtual {p3, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p3, "window"
 
@@ -1558,11 +1557,11 @@
 
     const-string v0, "layoutInDisplayCutoutMode"
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v1
 
@@ -1570,11 +1569,11 @@
 
     if-ge v1, v2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v1
 
@@ -1662,7 +1661,7 @@
 
     const-string v0, "CutoutUtils"
 
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

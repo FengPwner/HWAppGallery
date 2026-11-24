@@ -142,7 +142,7 @@
 
     .line 54
     .line 55
-    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 56
     .line 57
@@ -547,10 +547,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static sendUsingPendingIntent(Landroid/content/Context;Landroid/content/Intent;)V

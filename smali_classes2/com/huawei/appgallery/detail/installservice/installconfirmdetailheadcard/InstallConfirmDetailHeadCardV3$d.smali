@@ -51,11 +51,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3$d;->a:Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->t2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/iu;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->t2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/ju;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/fe4;->c(Lcom/huawei/appmarket/iu;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/he4;->c(Lcom/huawei/appmarket/ju;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->F2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)V
 
@@ -100,19 +100,19 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/huawei/appmarket/x53;->c:Lcom/huawei/appmarket/x53;
+    sget-object v3, Lcom/huawei/appmarket/a63;->c:Lcom/huawei/appmarket/a63;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->R2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;ZLjava/lang/String;Lcom/huawei/appmarket/x53;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->R2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;ZLjava/lang/String;Lcom/huawei/appmarket/a63;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->S2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/ne4;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ne4;->k()Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->S2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/pe4;
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/mj8;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pe4;->k()Lcom/huawei/appmarket/ce5;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/huawei/appmarket/sj8;
 
     invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->P2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/uikit/phone/hwcheckbox/widget/HwCheckBox;
 
@@ -138,19 +138,19 @@
 
     move-result v5
 
-    invoke-direct {v2, v3, v4, v5}, Lcom/huawei/appmarket/mj8;-><init>(ZLjava/lang/CharSequence;I)V
+    invoke-direct {v2, v3, v4, v5}, Lcom/huawei/appmarket/sj8;-><init>(ZLjava/lang/CharSequence;I)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->S2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/ne4;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ne4;->i()Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->S2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/pe4;
 
     move-result-object v1
 
-    new-instance v8, Lcom/huawei/appmarket/mj8;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pe4;->i()Lcom/huawei/appmarket/ce5;
+
+    move-result-object v1
+
+    new-instance v8, Lcom/huawei/appmarket/sj8;
 
     invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->T2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appgallery/detail/installservice/continueinstall/HeadContinueButton;
 
@@ -184,7 +184,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appgallery/detail/installservice/continueinstall/HeadContinueButton;->getStatus()Lcom/huawei/appmarket/x53;
+    invoke-virtual {v2}, Lcom/huawei/appgallery/detail/installservice/continueinstall/HeadContinueButton;->getStatus()Lcom/huawei/appmarket/a63;
 
     move-result-object v6
 
@@ -198,9 +198,9 @@
 
     move-object v2, v8
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/mj8;-><init>(ZZLjava/lang/CharSequence;Lcom/huawei/appmarket/x53;I)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/sj8;-><init>(ZZLjava/lang/CharSequence;Lcom/huawei/appmarket/a63;I)V
 
-    invoke-virtual {v1, v8}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v1, v8}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -213,7 +213,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->U2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/ff4;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;->U2(Lcom/huawei/appgallery/detail/installservice/installconfirmdetailheadcard/InstallConfirmDetailHeadCardV3;)Lcom/huawei/appmarket/hf4;
 
     .line 4
     .line 5
@@ -229,7 +229,7 @@
 
     .line 10
     :cond_0
-    iget-object v1, v1, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v1, v1, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 11
     .line 12
@@ -237,7 +237,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Lcom/huawei/appmarket/iu;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ju;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 15
     .line 16
@@ -253,7 +253,7 @@
 
     .line 21
     :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appmarket/iu;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ju;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 22
     .line 23
@@ -305,7 +305,7 @@
 
     .line 46
     .line 47
-    sget-object v1, Lcom/huawei/appmarket/wg4;->a:Lcom/huawei/appmarket/wg4;
+    sget-object v1, Lcom/huawei/appmarket/yg4;->a:Lcom/huawei/appmarket/yg4;
 
     .line 48
     .line 49
@@ -317,7 +317,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field protected v:Lcom/huawei/appmarket/ak0;
+.field protected v:Lcom/huawei/appmarket/bk0;
 
 .field private w:Landroid/view/View;
 
@@ -486,11 +486,11 @@
     .line 221
     .line 222
     .line 223
-    iget-object v9, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iget-object v9, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
     .line 224
     .line 225
-    invoke-virtual {v7, v9}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v7, v9}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 226
     .line 227
@@ -556,11 +556,11 @@
     .line 260
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -576,7 +576,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard$a;-><init>(Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard$a;-><init>(Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/BaseCompositeCard;Lcom/huawei/appmarket/bk0;)V
 
     .line 10
     .line 11
@@ -679,7 +679,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

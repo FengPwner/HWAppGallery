@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/message/card/ForumRemindFollowCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -22,7 +22,7 @@
 .method constructor <init>(Landroid/view/View$OnClickListener;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/message/card/ForumRemindFollowCard$a;->b:Landroid/view/View$OnClickListener;
 

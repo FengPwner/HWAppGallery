@@ -18,7 +18,7 @@
 
 .field public final g:I
 
-.field final h:Lcom/huawei/appmarket/yu1;
+.field final h:Lcom/huawei/appmarket/cv1;
 
 
 # direct methods
@@ -26,9 +26,9 @@
     .registers 23
 
     .line 1
-    new-instance v11, Lcom/huawei/appmarket/yu1;
+    new-instance v11, Lcom/huawei/appmarket/cv1;
 
-    invoke-direct {v11}, Lcom/huawei/appmarket/yu1;-><init>()V
+    invoke-direct {v11}, Lcom/huawei/appmarket/cv1;-><init>()V
 
     move-object v0, p0
 
@@ -46,12 +46,12 @@
 
     move/from16 v10, p10
 
-    invoke-direct/range {v0 .. v11}, Landroidx/media3/exoplayer/offline/b;-><init>(Landroidx/media3/exoplayer/offline/DownloadRequest;IJJJIILcom/huawei/appmarket/yu1;)V
+    invoke-direct/range {v0 .. v11}, Landroidx/media3/exoplayer/offline/b;-><init>(Landroidx/media3/exoplayer/offline/DownloadRequest;IJJJIILcom/huawei/appmarket/cv1;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;IJJJIILcom/huawei/appmarket/yu1;)V
+.method public constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;IJJJIILcom/huawei/appmarket/cv1;)V
     .registers 16
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -96,7 +96,7 @@
 
     .line 3
     :goto_2
-    invoke-static {v2}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v2}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     if-eqz p9, :cond_4
 
@@ -112,7 +112,7 @@
     const/4 v0, 0x0
 
     :goto_3
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     :cond_4
     iput-object p1, p0, Landroidx/media3/exoplayer/offline/b;->a:Landroidx/media3/exoplayer/offline/DownloadRequest;
@@ -129,7 +129,7 @@
 
     iput p10, p0, Landroidx/media3/exoplayer/offline/b;->g:I
 
-    iput-object p11, p0, Landroidx/media3/exoplayer/offline/b;->h:Lcom/huawei/appmarket/yu1;
+    iput-object p11, p0, Landroidx/media3/exoplayer/offline/b;->h:Lcom/huawei/appmarket/cv1;
 
     return-void
 .end method

@@ -145,7 +145,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -407,10 +407,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static unflattenFromString(Ljava/lang/String;)Lohos/bundle/ElementName;

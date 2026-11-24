@@ -51,7 +51,7 @@
     if-eqz p2, :cond_6
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/xe6;->c:[I
+    sget-object v1, Lcom/huawei/appmarket/ze6;->c:[I
 
     const/4 v2, 0x0
 
@@ -171,7 +171,7 @@
 
     const-string p2, "RoundImageView init(AttributeSet attrs) "
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     :goto_3
@@ -411,5 +411,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -5,17 +5,17 @@
 
 # static fields
 .field public static final FAQ_IPCC_FILENAME:Ljava/lang/String; = "FAQ_IPCC_FILENAME"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
 .field public static final FAQ_IPCC_KEY:Ljava/lang/String; = "FAQ_IPCC_KEY"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
 .field public static final FAQ_IPCC_TYPE:Ljava/lang/String; = "FAQ_IPCC_TYPE"
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 .end field
 
@@ -103,7 +103,7 @@
 
 .method public static delete(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "FaqSharePrefUtil"
@@ -172,7 +172,7 @@
 
 .method public static getModuleListBeanList(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -234,7 +234,7 @@
 
 .method public static getString(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -266,7 +266,7 @@
 
 .method public static save(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0

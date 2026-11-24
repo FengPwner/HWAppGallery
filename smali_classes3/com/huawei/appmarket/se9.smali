@@ -1,88 +1,112 @@
-.class public final Lcom/huawei/appmarket/se9;
-.super Ljava/lang/Object;
+.class public abstract Lcom/huawei/appmarket/se9;
+.super Lcom/huawei/appmarket/dh9;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tv8$a;
+.implements Lcom/huawei/appmarket/zd9;
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/se9;
+# instance fields
+.field private a:Lcom/huawei/appmarket/ch9;
+
+.field private b:Lcom/huawei/appmarket/ch9;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/se9;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/se9;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/se9;->a:Lcom/huawei/appmarket/se9;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/dh9;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/util/LinkedHashSet;)Ljava/util/LinkedHashSet;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
+.method public final a(Lcom/huawei/appmarket/ch9;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
         value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljava/util/LinkedHashSet<",
-            "Lcom/huawei/appmarket/t09<",
-            "TT;>;>;)",
-            "Ljava/util/LinkedHashSet<",
-            "Lcom/huawei/appmarket/t09<",
-            "TT;>;>;"
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+        }
+    .end annotation
+
+    .line 2
+    iput-object p1, p0, Lcom/huawei/appmarket/se9;->a:Lcom/huawei/appmarket/ch9;
+
+    return-void
+.end method
+
+.method public final a()Z
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/se9;->a:Lcom/huawei/appmarket/ch9;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/se9;->b:Lcom/huawei/appmarket/ch9;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
+.method public final c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
         }
     .end annotation
 
     .line 1
-    new-instance v0, Ljava/util/LinkedHashSet;
+    iget-object v0, p0, Lcom/huawei/appmarket/se9;->a:Lcom/huawei/appmarket/ch9;
 
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ch9;->c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
 
-    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/huawei/appmarket/se9;->b:Lcom/huawei/appmarket/ch9;
+
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/ch9;->c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
 
     move-result-object p1
 
-    :cond_0
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/se9;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    move-result v1
+    move-result-object p1
 
-    if-eqz v1, :cond_1
+    return-object p1
+.end method
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+.method public final d(Lcom/huawei/appmarket/ch9;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+        }
+    .end annotation
 
-    move-result-object v1
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/se9;->b:Lcom/huawei/appmarket/ch9;
 
-    check-cast v1, Lcom/huawei/appmarket/t09;
+    return-void
+.end method
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/t09;->getParent()Lcom/huawei/appmarket/t09;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_0
-
-    invoke-virtual {v0, v1}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
-    :cond_1
-    return-object v0
+.method protected abstract f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+        }
+    .end annotation
 .end method

@@ -492,7 +492,7 @@
     iget-object v5, p0, Lcom/huawei/hms/network/embedded/q0;->a:Ljava/lang/String;
 
     .line 6
-    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

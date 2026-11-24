@@ -17,7 +17,7 @@
 
 .field private C:Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;
 
-.field private D:Lcom/huawei/appmarket/he2;
+.field private D:Lcom/huawei/appmarket/ke2;
 
 .field private E:Lcom/huawei/uikit/hwbottomsheet/widget/HwBottomSheet$a;
 
@@ -150,7 +150,7 @@
     :catch_0
     move-exception v0
 
-    sget-object v1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -170,7 +170,7 @@
 
     const-string v2, "FAReminderActivity"
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -195,7 +195,7 @@
 
     const-string v3, "2"
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/i82;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/m82;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->finish()V
@@ -233,13 +233,13 @@
 
     const-string v3, "2"
 
-    invoke-static {v0, v3, v1, v2}, Lcom/huawei/appmarket/i82;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3, v1, v2}, Lcom/huawei/appmarket/m82;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->s:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
     iget-object v1, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->r:Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b92;->n(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/f92;->n(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;)Z
 
     move-result v0
 
@@ -247,11 +247,11 @@
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v2, "FA is installed, add to launcher."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->r:Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;
 
@@ -261,12 +261,12 @@
 
     const-string v3, "0"
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/l82;->b(Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/p82;->b(Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
 
     move-result-object v0
 
@@ -280,19 +280,19 @@
 
     new-array v4, v3, [I
 
-    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/fv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/jv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v2, "FA is downloading."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
 
     move-result-object v0
 
@@ -304,7 +304,7 @@
 
     new-array v2, v3, [I
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/fv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v0
 
@@ -314,7 +314,7 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->t:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/b92;->f(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/f92;->f(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;ILjava/lang/String;)V
 
     goto :goto_0
 
@@ -323,11 +323,11 @@
 
     if-eqz v0, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v2, "FA start downloading."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->s:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
@@ -337,16 +337,16 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->u:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/b92;->k(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/f92;->k(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_3
-    sget-object v0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v2, "relatedFAInfo is null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_0
@@ -371,7 +371,7 @@
 
     const-string v2, "1"
 
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/i82;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/m82;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->r:Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;
 
@@ -383,7 +383,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->w:Ljava/lang/String;
 
-    invoke-static {p1, v2, v0, v1}, Lcom/huawei/appmarket/i82;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v2, v0, v1}, Lcom/huawei/appmarket/m82;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->finish()V
@@ -397,7 +397,7 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/activity/SecureActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -644,16 +644,16 @@
 
     .line 105
     .line 106
-    new-instance v2, Lcom/huawei/appmarket/wz6;
+    new-instance v2, Lcom/huawei/appmarket/a07;
 
     .line 107
     .line 108
-    invoke-direct {v2, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v2, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     .line 109
     .line 110
     .line 111
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/wz6;->h(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/a07;->h(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 112
     .line 113
@@ -678,7 +678,7 @@
     .line 122
     .line 123
     :cond_2
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/wz6;->h(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/a07;->h(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 124
     .line 125
@@ -795,7 +795,7 @@
 
     .line 183
     .line 184
-    sget-object p1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     .line 185
     .line 186
@@ -803,7 +803,7 @@
 
     .line 187
     .line 188
-    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 189
     .line 190
@@ -858,11 +858,11 @@
 
     .line 215
     .line 216
-    const-class v4, Lcom/huawei/appmarket/vs3;
+    const-class v4, Lcom/huawei/appmarket/xs3;
 
     .line 217
     .line 218
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 219
     .line 220
@@ -870,15 +870,15 @@
     move-result-object v3
 
     .line 222
-    check-cast v3, Lcom/huawei/appmarket/vs3;
+    check-cast v3, Lcom/huawei/appmarket/xs3;
 
     .line 223
     .line 224
-    new-instance v4, Lcom/huawei/appmarket/o94$a;
+    new-instance v4, Lcom/huawei/appmarket/q94$a;
 
     .line 225
     .line 226
-    invoke-direct {v4}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v4}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 227
     .line 228
@@ -887,7 +887,7 @@
 
     .line 230
     .line 231
-    invoke-static {v4, v5, v4, v3, v1}, Lcom/huawei/appmarket/bq6;->B(Lcom/huawei/appmarket/o94$a;Landroid/widget/ImageView;Lcom/huawei/appmarket/o94$a;Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+    invoke-static {v4, v5, v4, v3, v1}, Lcom/huawei/appmarket/fs;->o(Lcom/huawei/appmarket/q94$a;Landroid/widget/ImageView;Lcom/huawei/appmarket/q94$a;Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
 
     .line 232
     .line 233
@@ -1206,7 +1206,7 @@
 
     .line 395
     .line 396
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 397
     .line 398
@@ -1410,7 +1410,7 @@
 
     .line 492
     :cond_d
-    sget-object v1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     .line 493
     .line 494
@@ -1418,7 +1418,7 @@
 
     .line 495
     .line 496
-    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 497
     .line 498
@@ -1462,7 +1462,7 @@
     .line 518
     :cond_e
     :goto_6
-    const v1, 0x7f0a1807
+    const v1, 0x7f0a1808
 
     .line 519
     .line 520
@@ -1483,7 +1483,7 @@
 
     .line 528
     .line 529
-    new-instance v1, Lcom/huawei/appmarket/he2;
+    new-instance v1, Lcom/huawei/appmarket/ke2;
 
     .line 530
     .line 531
@@ -1515,7 +1515,7 @@
     move-result-object v6
 
     .line 545
-    invoke-static {v6}, Lcom/huawei/appmarket/l82;->c(Ljava/lang/String;)I
+    invoke-static {v6}, Lcom/huawei/appmarket/p82;->c(Ljava/lang/String;)I
 
     .line 546
     .line 547
@@ -1531,12 +1531,12 @@
 
     .line 551
     :goto_7
-    invoke-direct {v1, v4, v5, v6}, Lcom/huawei/appmarket/he2;-><init>(Landroid/content/Context;Ljava/util/List;I)V
+    invoke-direct {v1, v4, v5, v6}, Lcom/huawei/appmarket/ke2;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
     .line 552
     .line 553
     .line 554
-    iput-object v1, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->D:Lcom/huawei/appmarket/he2;
+    iput-object v1, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->D:Lcom/huawei/appmarket/ke2;
 
     .line 555
     .line 556
@@ -1549,7 +1549,7 @@
     .line 559
     .line 560
     .line 561
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 562
     .line 563
@@ -1557,12 +1557,12 @@
     move-result-object v1
 
     .line 565
-    invoke-virtual {v1}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 566
     .line 567
     .line 568
-    invoke-static {p0}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     .line 569
     .line 570
@@ -1570,7 +1570,7 @@
     move-result v1
 
     .line 572
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->y(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->y(Landroid/app/Activity;)Z
 
     .line 573
     .line 574
@@ -1578,7 +1578,7 @@
     move-result v4
 
     .line 576
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->u(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->u(Landroid/app/Activity;)Z
 
     .line 577
     .line 578
@@ -1586,7 +1586,7 @@
     move-result v5
 
     .line 580
-    sget-object v6, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object v6, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     .line 581
     .line 582
@@ -1630,7 +1630,7 @@
     move-result-object v7
 
     .line 604
-    invoke-virtual {v6, v2, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v2, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 605
     .line 606
@@ -1648,7 +1648,7 @@
     .line 612
     .line 613
     :cond_10
-    iget-object v2, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->D:Lcom/huawei/appmarket/he2;
+    iget-object v2, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->D:Lcom/huawei/appmarket/ke2;
 
     .line 614
     .line 615
@@ -1668,7 +1668,7 @@
     move-result-object v4
 
     .line 623
-    invoke-static {v4}, Lcom/huawei/appmarket/l82;->c(Ljava/lang/String;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/p82;->c(Ljava/lang/String;)I
 
     .line 624
     .line 625
@@ -1689,7 +1689,7 @@
     .line 630
     .line 631
     .line 632
-    invoke-static {v4}, Lcom/huawei/appmarket/he2;->q(I)Landroid/widget/FrameLayout$LayoutParams;
+    invoke-static {v4}, Lcom/huawei/appmarket/ke2;->q(I)Landroid/widget/FrameLayout$LayoutParams;
 
     .line 633
     .line 634
@@ -1750,7 +1750,7 @@
 
     .line 662
     .line 663
-    new-instance v6, Lcom/huawei/appmarket/lv5;
+    new-instance v6, Lcom/huawei/appmarket/nv5;
 
     .line 664
     .line 665
@@ -1766,7 +1766,7 @@
     move-result v7
 
     .line 671
-    invoke-direct {v6, v7, v2}, Lcom/huawei/appmarket/lv5;-><init>(ILjava/lang/Integer;)V
+    invoke-direct {v6, v7, v2}, Lcom/huawei/appmarket/nv5;-><init>(ILjava/lang/Integer;)V
 
     .line 672
     .line 673
@@ -1850,7 +1850,7 @@
 
     .line 716
     .line 717
-    new-instance v3, Lcom/huawei/appmarket/w92;
+    new-instance v3, Lcom/huawei/appmarket/z92;
 
     .line 718
     .line 719
@@ -1864,7 +1864,7 @@
     .line 723
     .line 724
     .line 725
-    const v2, 0x7f0a17db
+    const v2, 0x7f0a17dc
 
     .line 726
     .line 727
@@ -1946,7 +1946,7 @@
 
     .line 767
     :cond_12
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->k()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->k()Z
 
     .line 768
     .line 769
@@ -2148,7 +2148,7 @@
 
     .line 870
     .line 871
-    sget-object v2, Lcom/huawei/appmarket/i82;->b:Ljava/util/concurrent/ConcurrentHashMap;
+    sget-object v2, Lcom/huawei/appmarket/m82;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 872
     .line 873
@@ -2160,7 +2160,7 @@
 
     .line 876
     .line 877
-    invoke-static {v2, p1, v3, v0}, Lcom/huawei/appmarket/ej2;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v2, p1, v3, v0}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     .line 878
     .line 879
@@ -2181,7 +2181,7 @@
 
     .line 887
     .line 888
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 889
     .line 890

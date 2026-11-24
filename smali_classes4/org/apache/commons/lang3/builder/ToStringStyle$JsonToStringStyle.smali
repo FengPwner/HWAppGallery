@@ -32,11 +32,11 @@
 
     invoke-virtual {p0, v0}, Lorg/apache/commons/lang3/builder/ToStringStyle;->setUseIdentityHashCode(Z)V
 
-    const-string v0, "{"
+    const-string/jumbo v0, "{"
 
     invoke-virtual {p0, v0}, Lorg/apache/commons/lang3/builder/ToStringStyle;->setContentStart(Ljava/lang/String;)V
 
-    const-string v0, "}"
+    const-string/jumbo v0, "}"
 
     invoke-virtual {p0, v0}, Lorg/apache/commons/lang3/builder/ToStringStyle;->setContentEnd(Ljava/lang/String;)V
 

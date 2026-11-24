@@ -50,7 +50,7 @@
 
 .field private x:Landroid/widget/TextView;
 
-.field private y:Lcom/huawei/appmarket/ff4;
+.field private y:Lcom/huawei/appmarket/hf4;
 
 .field private z:Landroid/view/View;
 
@@ -86,11 +86,11 @@
     return-object p0
 .end method
 
-.method static synthetic o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/ff4;
+.method static synthetic o1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;)Lcom/huawei/appmarket/hf4;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     return-object p0
 .end method
@@ -290,7 +290,7 @@
     .line 96
     .line 97
     .line 98
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 99
     .line 100
@@ -298,7 +298,7 @@
 
     .line 101
     .line 102
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 103
     .line 104
@@ -318,7 +318,7 @@
 
     .line 110
     :cond_5
-    invoke-virtual {v2}, Lcom/huawei/appmarket/iu;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ju;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
 
     .line 111
     .line 112
@@ -354,7 +354,7 @@
 
     .line 126
     .line 127
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/v63;->b(ILjava/lang/String;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/y63;->b(ILjava/lang/String;)Z
 
     .line 128
     .line 129
@@ -378,7 +378,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {v2}, Lcom/huawei/appmarket/iu;->l()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ju;->l()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 140
     .line 141
@@ -417,7 +417,7 @@
     .line 157
     :cond_8
     :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 158
     .line 159
@@ -425,7 +425,7 @@
 
     .line 160
     .line 161
-    iget p1, p1, Lcom/huawei/appmarket/ff4;->q:I
+    iget p1, p1, Lcom/huawei/appmarket/hf4;->q:I
 
     .line 162
     .line 163
@@ -552,7 +552,7 @@
 
     .line 226
     .line 227
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 228
     .line 229
@@ -560,7 +560,7 @@
 
     .line 230
     .line 231
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->u:Landroid/content/Intent;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->u:Landroid/content/Intent;
 
     .line 232
     .line 233
@@ -603,11 +603,11 @@
 
     .line 253
     .line 254
-    iget-object v6, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v6, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 255
     .line 256
-    iget-object v6, v6, Lcom/huawei/appmarket/ff4;->u:Landroid/content/Intent;
+    iget-object v6, v6, Lcom/huawei/appmarket/hf4;->u:Landroid/content/Intent;
 
     .line 257
     .line 258
@@ -616,7 +616,7 @@
     .line 259
     .line 260
     .line 261
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/qf4;->a(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/ArrayList;
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/sf4;->a(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/ArrayList;
 
     .line 262
     .line 263
@@ -624,7 +624,7 @@
     move-result-object p1
 
     .line 265
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 266
     .line 267
@@ -739,11 +739,11 @@
     .line 321
     .line 322
     .line 323
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 324
     .line 325
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->u:Landroid/content/Intent;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->u:Landroid/content/Intent;
 
     .line 326
     .line 327
@@ -770,7 +770,7 @@
 
     .line 337
     .line 338
-    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 339
     .line 340
@@ -778,7 +778,7 @@
 
     .line 341
     .line 342
-    iget-object p0, p0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object p0, p0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 343
     .line 344
@@ -802,7 +802,7 @@
 
     .line 352
     :cond_e
-    invoke-virtual {v2}, Lcom/huawei/appmarket/iu;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ju;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 353
     .line 354
@@ -840,7 +840,7 @@
     .line 369
     :cond_10
     :goto_1
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/qf4;->d(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/sf4;->d(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 370
     .line 371
@@ -850,7 +850,7 @@
     .line 373
     :cond_11
     :goto_2
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 374
     .line 375
@@ -862,7 +862,7 @@
 
     .line 378
     .line 379
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 380
     .line 381
@@ -1084,13 +1084,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method static synthetic q1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;I)V
@@ -1126,7 +1119,7 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/eb6;->a(I)I
+    invoke-static {v0}, Lcom/huawei/appmarket/gb6;->a(I)I
 
     .line 7
     .line 8
@@ -1244,7 +1237,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private t1(I)V
@@ -1311,14 +1303,14 @@
     .line 29
     .line 30
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 31
     .line 32
     const/4 v1, 0x6
 
     .line 33
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/l90;->Q(Lcom/huawei/appmarket/ff4;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/l90;->Q(Lcom/huawei/appmarket/hf4;I)V
 
     .line 34
     .line 35
@@ -1426,14 +1418,14 @@
     .line 84
     .line 85
     :cond_4
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 86
     .line 87
     const/4 v2, 0x7
 
     .line 88
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/l90;->Q(Lcom/huawei/appmarket/ff4;I)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/l90;->Q(Lcom/huawei/appmarket/hf4;I)V
 
     .line 89
     .line 90
@@ -1486,7 +1478,7 @@
 
     .line 113
     .line 114
-    invoke-static {v0}, Lcom/huawei/appmarket/eb6;->a(I)I
+    invoke-static {v0}, Lcom/huawei/appmarket/gb6;->a(I)I
 
     .line 115
     .line 116
@@ -1771,7 +1763,7 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 20
     .line 21
@@ -1779,7 +1771,7 @@
 
     .line 22
     .line 23
-    iget-object v2, v2, Lcom/huawei/appmarket/ff4;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v2, Lcom/huawei/appmarket/hf4;->k:Landroid/graphics/drawable/Drawable;
 
     .line 24
     .line 25
@@ -1788,7 +1780,7 @@
     .line 26
     .line 27
     :try_start_0
-    invoke-static {v2}, Lcom/huawei/appmarket/jy6;->b(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lcom/huawei/appmarket/ny6;->b(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
 
     .line 28
     .line 29
@@ -1796,7 +1788,7 @@
     move-result-object p1
 
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/ln1;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/on1;->a()Z
 
     .line 32
     .line 33
@@ -1824,15 +1816,15 @@
     move-result-object p1
 
     .line 45
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 46
     .line 47
-    iget-object v2, v2, Lcom/huawei/appmarket/ff4;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v2, Lcom/huawei/appmarket/hf4;->k:Landroid/graphics/drawable/Drawable;
 
     .line 48
     .line 49
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/uu5;->h(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/wu5;->h(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
 
     .line 50
     .line 51
@@ -1867,7 +1859,7 @@
     move-result-object v2
 
     .line 64
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/jy6;->c(Landroid/content/Context;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/ny6;->c(Landroid/content/Context;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 65
     .line 66
@@ -1889,15 +1881,15 @@
 
     .line 74
     .line 75
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 76
     .line 77
-    iget-object v2, v2, Lcom/huawei/appmarket/ff4;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v2, Lcom/huawei/appmarket/hf4;->k:Landroid/graphics/drawable/Drawable;
 
     .line 78
     .line 79
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/uu5;->m(Lcom/huawei/appgallery/aguikit/widget/imageview/MaskImageView;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/wu5;->m(Lcom/huawei/appgallery/aguikit/widget/imageview/MaskImageView;Landroid/graphics/drawable/Drawable;)V
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1909,7 +1901,7 @@
 
     .line 83
     :goto_1
-    sget-object v2, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object v2, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 84
     .line 85
@@ -1947,7 +1939,7 @@
     move-result-object p1
 
     .line 103
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -1956,7 +1948,7 @@
 
     .line 107
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 108
     .line 109
@@ -1964,7 +1956,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -2015,7 +2007,7 @@
     .line 136
     .line 137
     :cond_4
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 138
     .line 139
@@ -2026,7 +2018,7 @@
 
     .line 141
     .line 142
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 143
     .line 144
@@ -2042,7 +2034,7 @@
 
     .line 148
     :goto_3
-    sget-object v3, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object v3, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 149
     .line 150
@@ -2050,7 +2042,7 @@
 
     .line 151
     .line 152
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
     .line 154
@@ -2059,7 +2051,7 @@
 
     .line 156
     .line 157
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
 
     .line 158
     .line 159
@@ -2098,7 +2090,7 @@
 
     .line 175
     .line 176
-    invoke-static {}, Lcom/huawei/appmarket/eb6;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/gb6;->e()Z
 
     .line 177
     .line 178
@@ -2110,15 +2102,15 @@
 
     .line 181
     .line 182
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 183
     .line 184
-    iget-object v4, v4, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v4, v4, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 185
     .line 186
-    invoke-virtual {v4}, Lcom/huawei/appmarket/iu;->m()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ju;->m()I
 
     .line 187
     .line 188
@@ -2344,11 +2336,11 @@
     .line 303
     .line 304
     .line 305
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 306
     .line 307
-    iget-object v4, v4, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
+    iget-object v4, v4, Lcom/huawei/appmarket/hf4;->e:Lcom/huawei/appmarket/ce5;
 
     .line 308
     .line 309
@@ -2379,7 +2371,7 @@
     .line 322
     :cond_7
     :goto_4
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 323
     .line 324
@@ -2396,21 +2388,21 @@
     .line 329
     .line 330
     .line 331
-    iget-object v6, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v6, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 332
     .line 333
-    iget-object v6, v6, Lcom/huawei/appmarket/ff4;->g:Lcom/huawei/appmarket/zd5;
+    iget-object v6, v6, Lcom/huawei/appmarket/hf4;->g:Lcom/huawei/appmarket/ce5;
 
     .line 334
     .line 335
-    invoke-virtual {v6, v4}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {v6, v4}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/zm5;)V
 
     .line 336
     .line 337
     .line 338
     :cond_8
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 339
     .line 340
@@ -2452,7 +2444,7 @@
 
     .line 358
     .line 359
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->c()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->c()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     .line 360
     .line 361
@@ -2464,7 +2456,7 @@
 
     .line 364
     .line 365
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->s()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->s()Ljava/lang/String;
 
     .line 366
     .line 367
@@ -2580,7 +2572,7 @@
     move-result-object v0
 
     .line 421
-    invoke-static {}, Lcom/huawei/appmarket/ln1;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/on1;->b()Z
 
     .line 422
     .line 423
@@ -2603,7 +2595,7 @@
     .line 431
     .line 432
     :cond_d
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->e()Lcom/huawei/appmarket/pi0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->e()Lcom/huawei/appmarket/qi0;
 
     .line 433
     .line 434
@@ -2615,7 +2607,7 @@
 
     .line 437
     .line 438
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pi0;->c()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qi0;->c()Ljava/util/List;
 
     .line 439
     .line 440
@@ -2627,7 +2619,7 @@
 
     .line 443
     .line 444
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pi0;->c()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qi0;->c()Ljava/util/List;
 
     .line 445
     .line 446
@@ -2648,7 +2640,7 @@
     .line 453
     .line 454
     :cond_e
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
 
     .line 455
     .line 456
@@ -2656,7 +2648,7 @@
     move-result-object v0
 
     .line 458
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->d()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->d()J
 
     .line 459
     .line 460
@@ -2664,7 +2656,7 @@
     move-result-wide v4
 
     .line 462
-    invoke-virtual {v0, v4, v5}, Lcom/huawei/appmarket/bm5;->a(J)Ljava/lang/Object;
+    invoke-virtual {v0, v4, v5}, Lcom/huawei/appmarket/dm5;->a(J)Ljava/lang/Object;
 
     .line 463
     .line 464
@@ -2672,11 +2664,11 @@
     move-result-object v0
 
     .line 466
-    check-cast v0, Lcom/huawei/appmarket/pi0;
+    check-cast v0, Lcom/huawei/appmarket/qi0;
 
     .line 467
     .line 468
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/iu;->G(Lcom/huawei/appmarket/pi0;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ju;->G(Lcom/huawei/appmarket/qi0;)V
 
     .line 469
     .line 470
@@ -2686,7 +2678,7 @@
 
     .line 472
     .line 473
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pi0;->c()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qi0;->c()Ljava/util/List;
 
     .line 474
     .line 475
@@ -2698,7 +2690,7 @@
 
     .line 478
     .line 479
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pi0;->c()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qi0;->c()Ljava/util/List;
 
     .line 480
     .line 481
@@ -2726,7 +2718,7 @@
 
     .line 491
     .line 492
-    invoke-virtual {v3, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 493
     .line 494
@@ -2789,7 +2781,7 @@
     .line 523
     .line 524
     .line 525
-    new-instance v1, Lcom/huawei/appmarket/ts8;
+    new-instance v1, Lcom/huawei/appmarket/zs8;
 
     .line 526
     .line 527
@@ -2797,12 +2789,12 @@
 
     .line 528
     .line 529
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/ts8;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/pi0;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/zs8;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qi0;)V
 
     .line 530
     .line 531
     .line 532
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ts8;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/zs8;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 533
     .line 534
@@ -2909,14 +2901,9 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
@@ -3264,7 +3251,7 @@
 
     .line 177
     .line 178
-    invoke-static {}, Lcom/huawei/appmarket/ln1;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/on1;->a()Z
 
     .line 179
     .line 180
@@ -3289,7 +3276,7 @@
     move-result-object v0
 
     .line 191
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 192
     .line 193
@@ -3311,7 +3298,7 @@
     .line 200
     .line 201
     .line 202
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 203
     .line 204
@@ -3331,7 +3318,7 @@
 
     .line 211
     .line 212
-    check-cast p1, Lcom/huawei/appmarket/si8;
+    check-cast p1, Lcom/huawei/appmarket/yi8;
 
     .line 213
     .line 214
@@ -3339,16 +3326,16 @@
 
     .line 215
     .line 216
-    invoke-direct {v0, p1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, p1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     .line 217
     .line 218
     .line 219
-    const-class p1, Lcom/huawei/appmarket/ff4;
+    const-class p1, Lcom/huawei/appmarket/hf4;
 
     .line 220
     .line 221
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 222
     .line 223
@@ -3356,16 +3343,16 @@
     move-result-object p1
 
     .line 225
-    check-cast p1, Lcom/huawei/appmarket/ff4;
+    check-cast p1, Lcom/huawei/appmarket/hf4;
 
     .line 226
     .line 227
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 228
     .line 229
     :cond_1
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 230
     .line 231
@@ -3385,7 +3372,7 @@
 
     .line 238
     .line 239
-    iget-object p1, p1, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
+    iget-object p1, p1, Lcom/huawei/appmarket/hf4;->e:Lcom/huawei/appmarket/ce5;
 
     .line 240
     .line 241
@@ -3402,13 +3389,13 @@
     .line 246
     .line 247
     .line 248
-    invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 249
     .line 250
     .line 251
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 252
     .line 253
@@ -3425,15 +3412,15 @@
     .line 258
     .line 259
     .line 260
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/ff4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalheadcard/InstallConfirmNormalHeadCard;->y:Lcom/huawei/appmarket/hf4;
 
     .line 261
     .line 262
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->f:Lcom/huawei/appmarket/zd5;
+    iget-object v0, v0, Lcom/huawei/appmarket/hf4;->f:Lcom/huawei/appmarket/ce5;
 
     .line 263
     .line 264
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/m;->observeForever(Lcom/huawei/appmarket/zm5;)V
 
     .line 265
     .line 266
@@ -3807,9 +3794,4 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method

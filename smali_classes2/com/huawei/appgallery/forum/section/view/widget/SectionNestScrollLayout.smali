@@ -454,7 +454,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 5
     .line 6
@@ -482,7 +482,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 19
     .line 20
@@ -498,7 +498,7 @@
 
     .line 25
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 26
     .line 27
@@ -1180,7 +1180,7 @@
 
     const-string p2, "onMeasure error"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -2235,11 +2235,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final scrollTo(II)V
@@ -2354,13 +2349,13 @@
     return-void
 .end method
 
-.method public setStateListener(Lcom/huawei/appmarket/b14;)V
+.method public setStateListener(Lcom/huawei/appmarket/d14;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appgallery/forum/section/view/widget/SectionNestScrollLayout$b;
 
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appgallery/forum/section/view/widget/SectionNestScrollLayout$b;-><init>(Lcom/huawei/appmarket/b14;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lcom/huawei/appgallery/forum/section/view/widget/SectionNestScrollLayout$b;-><init>(Lcom/huawei/appmarket/d14;Landroid/view/View;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionNestScrollLayout;->z:Lcom/huawei/appgallery/forum/section/view/widget/SectionNestScrollLayout$b;
 

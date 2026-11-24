@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 .implements Landroidx/databinding/j;
 
 
@@ -20,7 +20,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5;",
+        "Lcom/huawei/appmarket/zm5;",
         "Landroidx/databinding/j<",
         "Landroidx/lifecycle/m<",
         "*>;>;"
@@ -43,7 +43,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/du4;",
+            "Lcom/huawei/appmarket/gu4;",
             ">;"
         }
     .end annotation
@@ -81,7 +81,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/du4;)V
+.method public final a(Lcom/huawei/appmarket/gu4;)V
     .registers 4
 
     .line 1
@@ -108,7 +108,7 @@
     move-result-object v0
 
     .line 11
-    check-cast v0, Lcom/huawei/appmarket/du4;
+    check-cast v0, Lcom/huawei/appmarket/gu4;
 
     .line 12
     .line 13
@@ -137,7 +137,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v1, p0}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {v1, p0}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     .line 26
     .line 27
@@ -147,7 +147,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, p1, p0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {v1, p1, p0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 31
     .line 32
@@ -235,7 +235,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     .line 4
     .line 5
@@ -363,7 +363,7 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Lcom/huawei/appmarket/du4;
+    check-cast v0, Lcom/huawei/appmarket/gu4;
 
     .line 14
     .line 15
@@ -372,7 +372,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0, p0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p1, v0, p0}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     .line 18
     .line 19

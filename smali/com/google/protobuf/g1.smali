@@ -1990,6 +1990,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f(Ljava/lang/Object;)I
@@ -2655,6 +2656,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final i(Ljava/lang/Object;[BIILcom/google/protobuf/f$b;)V

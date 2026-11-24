@@ -1,119 +1,72 @@
 .class public final Lcom/huawei/appmarket/ry6;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/n41;
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:Lcom/huawei/appmarket/fp4$a;
+# instance fields
+.field a:F
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    const-string v0, "r"
+    invoke-direct {p0}, Lcom/huawei/appmarket/n41;-><init>()V
 
-    const-string v1, "hd"
+    const/high16 v0, -0x40800000    # -1.0f
 
-    const-string v2, "nm"
-
-    filled-new-array {v2, v0, v1}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/fp4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/fp4$a;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/ry6;->a:Lcom/huawei/appmarket/fp4$a;
+    iput v0, p0, Lcom/huawei/appmarket/ry6;->a:F
 
     return-void
 .end method
 
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method static a(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;)Lcom/huawei/appmarket/py6;
-    .registers 8
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
+.method public constructor <init>(F)V
+    .registers 2
+    .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
+    .line 2
+    invoke-direct {p0}, Lcom/huawei/appmarket/n41;-><init>()V
+
+    iput p1, p0, Lcom/huawei/appmarket/ry6;->a:F
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(FFLcom/huawei/appmarket/fc7;)V
+    .registers 11
+
     .line 1
-    const/4 v0, 0x0
+    const/high16 v6, 0x42b40000    # 90.0f
+
+    mul-float v0, p2, p1
+
+    const/high16 v1, 0x42b40000    # 90.0f
+
+    const/4 v2, 0x0
+
+    const/high16 v3, 0x43340000    # 180.0f
+
+    invoke-virtual {p3, v2, v0, v3, v1}, Lcom/huawei/appmarket/fc7;->f(FFFF)V
 
     const/4 v1, 0x0
 
-    move-object v2, v0
+    const/high16 v0, 0x40000000    # 2.0f
 
-    move-object v3, v2
+    mul-float p2, p2, v0
 
-    :goto_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->x()Z
+    mul-float v4, p2, p1
 
-    move-result v4
+    const/high16 v5, 0x43340000    # 180.0f
 
-    if-eqz v4, :cond_3
+    move-object v0, p3
 
-    sget-object v4, Lcom/huawei/appmarket/ry6;->a:Lcom/huawei/appmarket/fp4$a;
+    move v3, v4
 
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/fp4;->G(Lcom/huawei/appmarket/fp4$a;)I
+    invoke-virtual/range {v0 .. v6}, Lcom/huawei/appmarket/fc7;->a(FFFFFF)V
 
-    move-result v4
-
-    if-eqz v4, :cond_2
-
-    const/4 v5, 0x1
-
-    if-eq v4, v5, :cond_1
-
-    const/4 v5, 0x2
-
-    if-eq v4, v5, :cond_0
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->I()V
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->y()Z
-
-    move-result v1
-
-    goto :goto_0
-
-    :cond_1
-    invoke-static {p0, p1, v5}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
-    move-result-object v3
-
-    goto :goto_0
-
-    :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->C()Ljava/lang/String;
-
-    move-result-object v2
-
-    goto :goto_0
-
-    :cond_3
-    if-eqz v1, :cond_4
-
-    goto :goto_1
-
-    :cond_4
-    new-instance v0, Lcom/huawei/appmarket/py6;
-
-    invoke-direct {v0, v2, v3}, Lcom/huawei/appmarket/py6;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/em;)V
-
-    :goto_1
-    return-object v0
+    return-void
 .end method

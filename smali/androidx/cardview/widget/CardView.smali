@@ -87,7 +87,7 @@
 
     iput-object v1, p0, Landroidx/cardview/widget/CardView;->f:Landroidx/cardview/widget/CardView$a;
 
-    sget-object v2, Lcom/huawei/appmarket/lf6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/nf6;->a:[I
 
     const v3, 0x7f1301ae
 
@@ -472,6 +472,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getContentPaddingBottom()I

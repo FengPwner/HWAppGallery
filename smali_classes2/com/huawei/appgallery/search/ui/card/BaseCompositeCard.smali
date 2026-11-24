@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field protected v:Lcom/huawei/appmarket/ak0;
+.field protected v:Lcom/huawei/appmarket/bk0;
 
 .field protected w:Ljava/util/ArrayList;
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -515,7 +515,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
     if-eqz v0, :cond_1
 
@@ -720,14 +720,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -841,7 +840,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -973,9 +971,9 @@
 
     invoke-virtual {v2, v1}, Lcom/huawei/appgallery/foundation/card/base/card/BaseDistCard;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    iget-object v4, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/ak0;
+    iget-object v4, p0, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->v:Lcom/huawei/appmarket/bk0;
 
-    invoke-virtual {v2, v4}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v2, v4}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {p0, v2}, Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;->q1(Lcom/huawei/appgallery/search/ui/card/BaseCompositeItemCard;)V
 

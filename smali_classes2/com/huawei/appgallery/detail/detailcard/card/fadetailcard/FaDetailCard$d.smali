@@ -21,7 +21,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/kd2;",
+            "Lcom/huawei/appmarket/nd2;",
             ">;"
         }
     .end annotation
@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/kd2;Ljava/lang/String;)V
+.method private constructor <init>(Lcom/huawei/appmarket/nd2;Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -46,11 +46,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/kd2;Ljava/lang/String;Lcom/huawei/appgallery/detail/detailcard/card/fadetailcard/FaDetailCard$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/nd2;Ljava/lang/String;Lcom/huawei/appgallery/detail/detailcard/card/fadetailcard/FaDetailCard$a;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/detail/detailcard/card/fadetailcard/FaDetailCard$d;-><init>(Lcom/huawei/appmarket/kd2;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/detail/detailcard/card/fadetailcard/FaDetailCard$d;-><init>(Lcom/huawei/appmarket/nd2;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/fadetailcard/FaDetailCard$d;->k:Ljava/lang/String;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -99,7 +99,7 @@
 
     move-result p1
 
-    sget-object p2, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p2, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -115,7 +115,7 @@
 
     const-string v1, "FaDetailCard"
 
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -127,18 +127,18 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/kd2;
+    check-cast p1, Lcom/huawei/appmarket/nd2;
 
     if-nez p1, :cond_1
 
     const-string p1, "get uninstall intent, but faDetailViewModel is null"
 
-    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kd2;->M()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nd2;->M()Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
@@ -148,7 +148,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     :cond_2
     return-void

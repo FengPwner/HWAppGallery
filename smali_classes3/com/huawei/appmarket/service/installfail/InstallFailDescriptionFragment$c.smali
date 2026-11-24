@@ -50,7 +50,7 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 8
     .line 9
@@ -70,7 +70,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/xo8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/dp8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -170,5 +170,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

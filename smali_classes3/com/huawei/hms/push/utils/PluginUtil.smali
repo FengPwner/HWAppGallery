@@ -122,7 +122,7 @@
     const-string p1, "com.huawei.push.msg.NOTIFY_MSG"
 
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p1
 

@@ -257,7 +257,7 @@
 
     .line 58
     .line 59
-    invoke-interface {v1}, Lcom/google/protobuf/z0;->c()Lcom/huawei/appmarket/w86;
+    invoke-interface {v1}, Lcom/google/protobuf/z0;->c()Lcom/huawei/appmarket/y86;
 
     .line 60
     .line 61
@@ -370,7 +370,7 @@
 
     .line 111
     .line 112
-    invoke-interface {v1}, Lcom/google/protobuf/z0;->c()Lcom/huawei/appmarket/w86;
+    invoke-interface {v1}, Lcom/google/protobuf/z0;->c()Lcom/huawei/appmarket/y86;
 
     .line 113
     .line 114

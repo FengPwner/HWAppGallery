@@ -1,19 +1,19 @@
 .class final Lcom/huawei/appmarket/c6;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/et2;
+.implements Lcom/huawei/appmarket/ht2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/et2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ht2<",
         "Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;",
         "Lcom/huawei/appgallery/accountkit/impl/bridge/HmsJumpActivityProtocol;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -32,7 +32,7 @@
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -64,7 +64,7 @@
 
     .line 11
     .line 12
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -78,7 +78,7 @@
     .line 18
     .line 19
     .line 20
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 21
     .line 22

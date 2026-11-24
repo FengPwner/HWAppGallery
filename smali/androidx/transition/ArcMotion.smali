@@ -86,7 +86,7 @@
     const-string v1, "minimumVerticalAngle"
 
     .line 2
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -114,7 +114,7 @@
     const-string v1, "minimumHorizontalAngle"
 
     .line 4
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -140,7 +140,7 @@
     const-string v0, "maximumAngle"
 
     .line 6
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result p2
 
@@ -385,11 +385,11 @@
 
     double-to-float v3, v8
 
-    invoke-static {v1, v2, v3, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, v2, v3, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v1
 
-    invoke-static {v0, v5, v3, v5}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v0, v5, v3, v5}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 

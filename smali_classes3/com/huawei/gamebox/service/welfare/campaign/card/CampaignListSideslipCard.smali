@@ -29,7 +29,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 7
     .line 8
@@ -46,7 +46,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 16
     .line 17
@@ -58,7 +58,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 22
     .line 23
@@ -66,11 +66,11 @@
     move-result v0
 
     .line 25
-    iget-object v1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 28
     .line 29
@@ -92,11 +92,11 @@
     sub-int/2addr v0, v1
 
     .line 37
-    iget-object v1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 38
     .line 39
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 40
     .line 41
@@ -129,7 +129,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 55
     .line 56
@@ -218,7 +218,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic A1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Landroid/content/Context;
@@ -230,11 +229,11 @@
     return-object p0
 .end method
 
-.method static synthetic B1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Lcom/huawei/appmarket/ak0;
+.method static synthetic B1(Lcom/huawei/gamebox/service/welfare/campaign/card/CampaignListSideslipCard;)Lcom/huawei/appmarket/bk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->y:Lcom/huawei/appmarket/ak0;
+    iget-object p0, p0, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->y:Lcom/huawei/appmarket/bk0;
 
     return-object p0
 .end method
@@ -276,7 +275,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 

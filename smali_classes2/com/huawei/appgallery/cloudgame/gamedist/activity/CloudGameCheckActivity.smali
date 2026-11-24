@@ -260,7 +260,7 @@
 
     const-string v1, "loadingDialog onCancel"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/activity/CloudGameCheckActivity;->p:Landroid/app/ProgressDialog;
 
@@ -281,7 +281,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 3
     .line 4
@@ -446,7 +446,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final F3(Ljava/lang/String;Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$c;)V
@@ -456,7 +455,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 3
     .line 4
@@ -652,7 +651,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final G3(Landroid/app/Dialog;)V
@@ -684,7 +682,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 3
     .line 4
@@ -821,7 +819,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final I3(Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$c;)V
@@ -848,7 +845,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -937,7 +934,7 @@
 
     .line 56
     .line 57
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -1007,7 +1004,7 @@
 
     .line 90
     .line 91
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -1027,7 +1024,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final J3(Ljava/lang/String;Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$b;)V
@@ -1037,7 +1033,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 3
     .line 4
@@ -1247,7 +1243,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final K3(Ljava/lang/String;)V
@@ -1257,7 +1252,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 3
     .line 4
@@ -1406,5 +1401,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

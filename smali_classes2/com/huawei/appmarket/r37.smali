@@ -1,119 +1,116 @@
 .class public final Lcom/huawei/appmarket/r37;
-.super Lcom/huawei/appmarket/u50;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/f14;
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/huawei/appmarket/u50<",
-        "Lcom/huawei/appmarket/e14;",
-        ">;"
-    }
+.annotation runtime Lcom/huawei/appmarket/fg7;
+.end annotation
+
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/f14;
 .end annotation
 
 
-# static fields
-.field private static final b:Lcom/huawei/appmarket/r37;
+# instance fields
+.field private b:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Lcom/huawei/appmarket/f14$a;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/r37;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/r37;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/r37;->b:Lcom/huawei/appmarket/r37;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/u50;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
-.end method
-
-.method public static c()Lcom/huawei/appmarket/r37;
-    .registers 1
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/r37;->b:Lcom/huawei/appmarket/r37;
-
-    return-object v0
 .end method
 
 
 # virtual methods
-.method public final d(I)V
-    .registers 4
+.method public final F(Lcom/huawei/appmarket/f14$a;)V
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/u50;->a:Ljava/util/concurrent/ConcurrentHashMap;
+    new-instance v0, Ljava/lang/ref/WeakReference;
 
-    if-eqz v0, :cond_3
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentHashMap;->isEmpty()Z
+    iput-object v0, p0, Lcom/huawei/appmarket/r37;->b:Ljava/lang/ref/WeakReference;
 
-    move-result v1
+    return-void
+.end method
 
-    if-eqz v1, :cond_0
+.method public final e(Lcom/huawei/appmarket/va2;Lcom/huawei/appmarket/sa2;Lcom/huawei/appmarket/bj0$a;)Z
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/va2;",
+            "Lcom/huawei/appmarket/sa2<",
+            "+",
+            "Lcom/huawei/flexiblelayout/data/b;",
+            ">;",
+            "Lcom/huawei/appmarket/bj0$a;",
+            ")Z"
+        }
+    .end annotation
 
-    goto :goto_1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/r37;->b:Ljava/lang/ref/WeakReference;
 
-    :cond_0
-    invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentHashMap;->entrySet()Ljava/util/Set;
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/util/Map$Entry;
-
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/huawei/appmarket/e14;
-
-    if-nez v1, :cond_1
+    if-nez v0, :cond_0
 
     goto :goto_0
 
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/r37;->b:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/f14$a;
+
+    invoke-interface {v0, p1, p2, p3}, Lcom/huawei/appmarket/f14$a;->e(Lcom/huawei/appmarket/va2;Lcom/huawei/appmarket/sa2;Lcom/huawei/appmarket/bj0$a;)Z
+
+    move-result p1
+
+    return p1
+
     :cond_1
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/e14;->a(I)V
+    :goto_0
+    const/4 p1, 0x0
 
-    :cond_2
-    return-void
+    return p1
+.end method
 
-    :cond_3
-    :goto_1
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+.method public final release()V
+    .registers 2
 
-    const-string v0, "SearchAppShrinkTrigger"
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/r37;->b:Ljava/lang/ref/WeakReference;
 
-    const-string v1, "notifyScroll error. "
+    if-eqz v0, :cond_0
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->clear()V
 
+    :cond_0
     return-void
 .end method

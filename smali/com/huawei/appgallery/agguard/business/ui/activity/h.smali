@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/w44;
+.implements Lcom/huawei/appmarket/z44;
 
 
 # instance fields
@@ -45,7 +45,7 @@
     .line 1
     const-string v0, "list"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/activity/h;->a:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardRiskDetailActivity;
 

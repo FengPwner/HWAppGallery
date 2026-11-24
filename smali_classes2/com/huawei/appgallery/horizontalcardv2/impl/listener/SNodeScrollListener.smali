@@ -58,7 +58,7 @@
 
     .line 13
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 14
     .line 15
@@ -66,7 +66,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pl0;->v(Landroid/view/ViewGroup;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ql0;->v(Landroid/view/ViewGroup;)Z
 
     .line 18
     .line 19
@@ -82,7 +82,7 @@
 
     .line 24
     .line 25
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 26
     .line 27
@@ -99,7 +99,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {p2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 35
     .line 36
@@ -107,7 +107,7 @@
     move-result-object p1
 
     .line 38
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 39
     .line 40
@@ -237,14 +237,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 2
     .line 3
@@ -252,7 +251,7 @@
     move-result-object p2
 
     .line 5
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/pl0;->v(Landroid/view/ViewGroup;)Z
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ql0;->v(Landroid/view/ViewGroup;)Z
 
     .line 6
     .line 7
@@ -264,7 +263,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 12
     .line 13
@@ -276,7 +275,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pl0;->A(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ql0;->A(I)V
 
     .line 18
     .line 19

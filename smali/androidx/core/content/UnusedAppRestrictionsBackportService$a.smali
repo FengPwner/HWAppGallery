@@ -1,5 +1,5 @@
 .class final Landroidx/core/content/UnusedAppRestrictionsBackportService$a;
-.super Lcom/huawei/appmarket/a54$a;
+.super Lcom/huawei/appmarket/d54$a;
 .source "SourceFile"
 
 
@@ -24,14 +24,14 @@
 
     iput-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$a;->b:Landroidx/core/content/UnusedAppRestrictionsBackportService;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/a54$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/d54$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final g2(Lcom/huawei/appmarket/z44;)V
+.method public final g2(Lcom/huawei/appmarket/c54;)V
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -45,9 +45,9 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/v88;
+    new-instance v0, Lcom/huawei/appmarket/a98;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/v88;-><init>(Lcom/huawei/appmarket/z44;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a98;-><init>(Lcom/huawei/appmarket/c54;)V
 
     iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$a;->b:Landroidx/core/content/UnusedAppRestrictionsBackportService;
 

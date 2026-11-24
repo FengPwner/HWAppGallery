@@ -31,7 +31,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 

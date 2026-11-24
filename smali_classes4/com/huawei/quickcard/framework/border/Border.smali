@@ -13,9 +13,9 @@
 
 .field private b:Lcom/huawei/quickcard/b;
 
-.field private c:Lcom/huawei/appmarket/zc9;
+.field private c:Lcom/huawei/appmarket/gd9;
 
-.field private d:Lcom/huawei/appmarket/ca9;
+.field private d:Lcom/huawei/appmarket/ja9;
 
 
 # direct methods
@@ -29,11 +29,11 @@
 
 
 # virtual methods
-.method public getBorderColor()Lcom/huawei/appmarket/ca9;
+.method public getBorderColor()Lcom/huawei/appmarket/ja9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/Border;->d:Lcom/huawei/appmarket/ca9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/Border;->d:Lcom/huawei/appmarket/ja9;
 
     return-object v0
 .end method
@@ -54,20 +54,20 @@
     return-object v0
 .end method
 
-.method public getBorderWidth()Lcom/huawei/appmarket/zc9;
+.method public getBorderWidth()Lcom/huawei/appmarket/gd9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/Border;->c:Lcom/huawei/appmarket/zc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/border/Border;->c:Lcom/huawei/appmarket/gd9;
 
     return-object v0
 .end method
 
-.method public setBorderColor(Lcom/huawei/appmarket/ca9;)V
+.method public setBorderColor(Lcom/huawei/appmarket/ja9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/Border;->d:Lcom/huawei/appmarket/ca9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/Border;->d:Lcom/huawei/appmarket/ja9;
 
     return-void
 .end method
@@ -88,11 +88,11 @@
     return-void
 .end method
 
-.method public setBorderWidth(Lcom/huawei/appmarket/zc9;)V
+.method public setBorderWidth(Lcom/huawei/appmarket/gd9;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/Border;->c:Lcom/huawei/appmarket/zc9;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/border/Border;->c:Lcom/huawei/appmarket/gd9;
 
     return-void
 .end method

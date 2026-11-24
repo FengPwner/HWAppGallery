@@ -18,7 +18,7 @@
 
 .field private c:Landroid/widget/TextView;
 
-.field private d:Lcom/huawei/appmarket/df3;
+.field private d:Lcom/huawei/appmarket/ff3;
 
 .field private e:I
 
@@ -76,7 +76,7 @@
     const v0, 0x7f130303
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -115,7 +115,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    sget-object v3, Lcom/huawei/appmarket/ag6;->a:[I
+    sget-object v3, Lcom/huawei/appmarket/cg6;->a:[I
 
     const v4, 0x7f130485
 
@@ -141,13 +141,13 @@
 
     move-result p2
 
-    invoke-static {}, Lcom/huawei/appmarket/df3;->values()[Lcom/huawei/appmarket/df3;
+    invoke-static {}, Lcom/huawei/appmarket/ff3;->values()[Lcom/huawei/appmarket/ff3;
 
     move-result-object p3
 
     aget-object p2, p3, p2
 
-    iput-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iput-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
     const/4 p2, 0x7
 
@@ -255,11 +255,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/df3;
+.method static synthetic a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/ff3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object p0, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
     return-object p0
 .end method
@@ -685,10 +685,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static synthetic c(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;Z)V
@@ -819,9 +815,9 @@
 .method private setBackground(Z)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
-    sget-object v1, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object v1, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-ne v0, v1, :cond_1
 
@@ -844,7 +840,7 @@
     goto :goto_3
 
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/df3;->c:Lcom/huawei/appmarket/df3;
+    sget-object v1, Lcom/huawei/appmarket/ff3;->c:Lcom/huawei/appmarket/ff3;
 
     if-ne v0, v1, :cond_3
 
@@ -866,7 +862,7 @@
     goto :goto_3
 
     :cond_3
-    sget-object v1, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object v1, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne v0, v1, :cond_5
 
@@ -923,9 +919,9 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setImeOptions(I)V
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
-    sget-object v0, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, v0, :cond_1
 
@@ -939,7 +935,7 @@
     goto :goto_1
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/df3;->c:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->c:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, v0, :cond_2
 
@@ -950,7 +946,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, v0, :cond_3
 
@@ -1065,7 +1061,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     .line 48
     .line 49
@@ -1107,11 +1103,11 @@
     .line 67
     .line 68
     .line 69
-    iget-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
     .line 70
     .line 71
-    sget-object p3, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object p3, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     .line 72
     .line 73
@@ -1124,7 +1120,7 @@
 
     .line 77
     .line 78
-    sget-object p3, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object p3, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     .line 79
     .line 80
@@ -1634,49 +1630,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public getEditText()Landroid/widget/EditText;
@@ -1745,13 +1698,13 @@
     return-void
 
     :cond_0
-    iget-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object p2, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
-    sget-object p3, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object p3, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-eq p2, p3, :cond_1
 
-    sget-object p3, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object p3, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne p2, p3, :cond_2
 
@@ -1889,13 +1842,13 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/df3;
+    iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->d:Lcom/huawei/appmarket/ff3;
 
-    sget-object v0, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-eq p1, v0, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne p1, v0, :cond_4
 

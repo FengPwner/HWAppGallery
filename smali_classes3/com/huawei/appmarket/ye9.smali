@@ -1,382 +1,264 @@
 .class public final Lcom/huawei/appmarket/ye9;
-.super Lcom/huawei/appmarket/wg9;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pg9;
+.implements Lcom/huawei/appmarket/hb2;
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/wg9;
-
-.field private final b:Lcom/huawei/appmarket/wg9;
-
-.field private final c:Lcom/huawei/appmarket/wg9;
+.field private a:Lcom/huawei/appmarket/hx;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/wg9;Lcom/huawei/appmarket/wg9;)V
+.method private constructor <init>()V
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/wg9;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ye9;->b:Lcom/huawei/appmarket/wg9;
+    new-instance v0, Lcom/huawei/appmarket/hx;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/ye9;->c:Lcom/huawei/appmarket/wg9;
+    invoke-direct {v0}, Lcom/huawei/appmarket/hx;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/hx;
+
+    const-string v0, "border"
+
+    const-class v1, Lcom/huawei/flexiblelayout/y;
+
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/ye9;->register(Ljava/lang/String;Ljava/lang/Class;)V
+
+    const-string v0, "scale"
+
+    const-class v1, Lcom/huawei/appmarket/gh9;
+
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/ye9;->register(Ljava/lang/String;Ljava/lang/Class;)V
 
     return-void
+.end method
+
+.method public static c()Lcom/huawei/appmarket/ye9;
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/ye9;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/ye9;-><init>()V
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->b:Lcom/huawei/appmarket/wg9;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public final b(Lcom/huawei/appmarket/vg9;)V
+.method public final a(Ljava/lang/String;)Z
     .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/wg9;
+    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/hx;
 
-    if-eqz v0, :cond_0
-
-    check-cast p1, Lcom/huawei/appmarket/wg9;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
-
-    return-void
-
-    :cond_0
-    new-instance p1, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    const-string v0, "Expected variable to the target of index."
-
-    invoke-direct {p1, v0}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-.end method
-
-.method public final c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-    .registers 10
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
-
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hx;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    const/4 v1, 0x0
+    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
-    if-nez v0, :cond_0
+    move-result p1
 
-    return-object v1
-
-    :cond_0
-    instance-of v2, v0, Lcom/huawei/appmarket/pv4;
-
-    const-string v3, "."
-
-    const-string v4, "Expected \'"
-
-    if-eqz v2, :cond_8
-
-    iget-object v2, p0, Lcom/huawei/appmarket/ye9;->b:Lcom/huawei/appmarket/wg9;
-
-    invoke-interface {v2, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-
-    move-result-object v5
-
-    if-nez v5, :cond_1
-
-    return-object v1
-
-    :cond_1
-    instance-of v6, v5, Ljava/lang/Integer;
-
-    const-string v7, "\' is a Integer, but "
-
-    if-eqz v6, :cond_7
-
-    iget-object v2, p0, Lcom/huawei/appmarket/ye9;->c:Lcom/huawei/appmarket/wg9;
-
-    invoke-interface {v2, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-
-    move-result-object v6
-
-    if-nez v6, :cond_2
-
-    return-object v1
-
-    :cond_2
-    instance-of v1, v6, Ljava/lang/Integer;
-
-    if-eqz v1, :cond_6
-
-    move-object v1, v0
-
-    check-cast v1, Lcom/huawei/appmarket/pv4;
-
-    invoke-interface {v1}, Lcom/huawei/appmarket/pv4;->size()I
-
-    move-result v1
-
-    check-cast v5, Ljava/lang/Integer;
-
-    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
-
-    move-result v2
-
-    check-cast v6, Ljava/lang/Integer;
-
-    invoke-virtual {v6}, Ljava/lang/Integer;->intValue()I
-
-    move-result v3
-
-    const/4 v4, -0x1
-
-    if-eq v3, v4, :cond_4
-
-    if-le v3, v1, :cond_3
-
-    goto :goto_0
-
-    :cond_3
-    move v1, v3
-
-    :cond_4
-    :goto_0
-    new-instance v3, Ljava/util/ArrayList;
-
-    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
-
-    move v4, v2
-
-    :goto_1
-    if-ge v4, v1, :cond_5
-
-    :try_start_0
-    move-object v5, v0
-
-    check-cast v5, Lcom/huawei/appmarket/pv4;
-
-    invoke-interface {v5, v4}, Lcom/huawei/appmarket/pv4;->get(I)Ljava/lang/Object;
-
-    move-result-object v5
-
-    invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    add-int/lit8 v4, v4, 0x1
-
-    goto :goto_1
-
-    :catch_0
-    move-exception v0
-
-    new-instance v3, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    const-string v5, "Failed to get value of \'"
-
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v5, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
-
-    invoke-virtual {v5, p1}, Lcom/huawei/appmarket/wg9;->e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "["
-
-    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p1, ":"
-
-    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p1, "]\'."
-
-    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v3, p1, v0}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    throw v3
-
-    :cond_5
-    new-instance p1, Lcom/huawei/appmarket/jw8;
-
-    invoke-direct {p1, v3}, Lcom/huawei/appmarket/jw8;-><init>(Ljava/util/List;)V
-
-    return-object p1
-
-    :cond_6
-    new-instance v0, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/wg9;->e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_7
-    new-instance v0, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/wg9;->e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_8
-    new-instance v1, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v4, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
-
-    invoke-virtual {v4, p1}, Lcom/huawei/appmarket/wg9;->e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "\' is a ListModel, but "
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v1, p1}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;)V
-
-    throw v1
+    return p1
 .end method
 
-.method public final e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
+.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/gb2;
+    .registers 5
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/hx;
+
+    .line 3
+    .line 4
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p1
+
+    .line 8
+    check-cast p1, Ljava/lang/Class;
+
+    .line 9
+    .line 10
+    if-eqz p1, :cond_0
+
+    .line 11
+    .line 12
+    invoke-virtual {p1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    check-cast p1, Lcom/huawei/appmarket/gb2;
+    :try_end_0
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 17
+    .line 18
+    return-object p1
+
+    .line 19
+    :catch_0
+    move-exception p1
+
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catch_1
+    move-exception p1
+
+    .line 22
+    :goto_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 23
+    .line 24
+    const-string v2, "getEffect, e: "
+
+    .line 25
+    .line 26
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p1
+
+    .line 40
+    const-string v1, "FLEffectServiceImpl"
+
+    .line 41
+    .line 42
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 43
+    .line 44
+    .line 45
+    :cond_0
+    return-object v0
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+.end method
+
+.method public final register(Ljava/lang/String;Ljava/lang/Class;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/huawei/appmarket/gb2;",
+            ">;)V"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/wg9;
+    iget-object v0, p0, Lcom/huawei/appmarket/ye9;->a:Lcom/huawei/appmarket/hx;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wg9;->e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ze7;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

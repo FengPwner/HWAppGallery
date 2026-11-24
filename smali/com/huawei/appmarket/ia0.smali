@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fu6;
+.implements Lcom/huawei/appmarket/ju6;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/fu6<",
+        "Lcom/huawei/appmarket/ju6<",
         "Landroid/graphics/ImageDecoder$Source;",
         "Landroid/graphics/Bitmap;",
         ">;"
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final bridge synthetic a(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public final bridge synthetic a(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -53,14 +53,14 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/ia0;->c(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/ma0;
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/ia0;->c(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/ma0;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final bridge synthetic b(Ljava/lang/Object;Lcom/huawei/appmarket/tr5;)Z
+.method public final bridge synthetic b(Ljava/lang/Object;Lcom/huawei/appmarket/vr5;)Z
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -76,7 +76,7 @@
     return p1
 .end method
 
-.method public final c(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/ma0;
+.method public final c(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/ma0;
     .registers 8
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -85,11 +85,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/pf1;
+    new-instance v0, Lcom/huawei/appmarket/rf1;
 
-    invoke-direct {v0, p2, p3, p4}, Lcom/huawei/appmarket/pf1;-><init>(IILcom/huawei/appmarket/tr5;)V
+    invoke-direct {v0, p2, p3, p4}, Lcom/huawei/appmarket/rf1;-><init>(IILcom/huawei/appmarket/vr5;)V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/c5;->d(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/pf1;)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/c5;->d(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/rf1;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 

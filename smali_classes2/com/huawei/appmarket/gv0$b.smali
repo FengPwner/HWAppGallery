@@ -90,11 +90,11 @@
 
     if-ne p1, v4, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string p2, "Account login state error."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 p1, 0x68
 
@@ -111,18 +111,18 @@
 
     if-ne p1, v4, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string p2, "Review dialog apply over max count."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v3}, Lcom/huawei/appmarket/gv0;->b(Lcom/huawei/appmarket/gv0;I)V
 
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -140,7 +140,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v0}, Lcom/huawei/appmarket/gv0;->b(Lcom/huawei/appmarket/gv0;I)V
 
@@ -156,11 +156,11 @@
 
     if-nez p1, :cond_3
 
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string p2, "ReviewDialogApply_ is empty."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v0}, Lcom/huawei/appmarket/gv0;->b(Lcom/huawei/appmarket/gv0;I)V
 
@@ -186,11 +186,11 @@
     goto :goto_1
 
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string p2, "Constraints are met."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v3}, Lcom/huawei/appmarket/gv0;->b(Lcom/huawei/appmarket/gv0;I)V
 
@@ -202,7 +202,7 @@
 
     if-eqz p1, :cond_6
 
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -220,16 +220,16 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_6
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string p2, "ResponseBean is error."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v0}, Lcom/huawei/appmarket/gv0;->b(Lcom/huawei/appmarket/gv0;I)V
 

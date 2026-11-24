@@ -13,7 +13,7 @@
 
 # instance fields
 .field private a:Ljava/util/ArrayList;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "rList"
     .end annotation
 

@@ -10,24 +10,24 @@
 .method public abstract getSignInIntent(Ljava/lang/String;)Landroid/content/Intent;
 .end method
 
-.method public abstract silentSignIn()Lcom/huawei/appmarket/hv7;
+.method public abstract silentSignIn()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/hwid/result/AuthHuaweiId;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract silentSignIn(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+.method public abstract silentSignIn(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/hwid/result/AuthHuaweiId;",
             ">;"
         }

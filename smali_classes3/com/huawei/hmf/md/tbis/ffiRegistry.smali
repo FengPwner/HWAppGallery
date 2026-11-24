@@ -45,7 +45,7 @@
 
     invoke-virtual {p0, v1, v2, v0}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/cm4;
+    const-class v0, Lcom/huawei/appmarket/fm4;
 
     const-string v1, "javacall"
 

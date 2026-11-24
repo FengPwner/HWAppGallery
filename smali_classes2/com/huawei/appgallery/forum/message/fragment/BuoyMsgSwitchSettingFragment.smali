@@ -7,14 +7,14 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "buoy_msg_setting_fragment"
     protocol = Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 .end annotation
 
 
 # instance fields
-.field private f0:Lcom/huawei/appmarket/qr2;
+.field private f0:Lcom/huawei/appmarket/sr2;
 
 .field private g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -30,7 +30,7 @@
 
 .field private m0:Landroid/os/Handler;
 
-.field private n0:Lcom/huawei/appmarket/nd0;
+.field private n0:Lcom/huawei/appmarket/od0;
 
 
 # direct methods
@@ -39,11 +39,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p0}, Lcom/huawei/appmarket/sr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/sr2;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->f0:Lcom/huawei/appmarket/qr2;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->f0:Lcom/huawei/appmarket/sr2;
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -132,7 +132,7 @@
 
     .line 33
     .line 34
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 35
     .line 36
@@ -249,7 +249,7 @@
 
     .line 90
     :cond_2
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 91
     .line 92
@@ -280,7 +280,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static h3(Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;)V
@@ -303,7 +302,7 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 10
     .line 11
@@ -311,7 +310,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->f()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->f()Z
 
     .line 14
     .line 15
@@ -340,11 +339,11 @@
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 29
     .line 30
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->d()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->d()Z
 
     .line 31
     .line 32
@@ -373,11 +372,11 @@
     .line 43
     .line 44
     .line 45
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 46
     .line 47
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->c()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->c()Z
 
     .line 48
     .line 49
@@ -406,11 +405,11 @@
     .line 60
     .line 61
     .line 62
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 63
     .line 64
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->g()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->g()Z
 
     .line 65
     .line 66
@@ -439,11 +438,11 @@
     .line 77
     .line 78
     .line 79
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 80
     .line 81
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->a()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->a()Z
 
     .line 82
     .line 83
@@ -472,11 +471,11 @@
     .line 94
     .line 95
     .line 96
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 97
     .line 98
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->e()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->e()Z
 
     .line 99
     .line 100
@@ -505,11 +504,11 @@
     .line 111
     .line 112
     .line 113
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     .line 114
     .line 115
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nd0;->b()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/od0;->b()Z
 
     .line 116
     .line 117
@@ -775,9 +774,9 @@
 
     check-cast v2, Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingActivityResult;
 
-    iget-object v3, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v3, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
-    invoke-interface {v2, v3}, Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingActivityResult;->setMsgSetting(Lcom/huawei/appmarket/nd0;)V
+    invoke-interface {v2, v3}, Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingActivityResult;->setMsgSetting(Lcom/huawei/appmarket/od0;)V
 
     invoke-virtual {v1}, Lcom/huawei/appmarket/j8;->d()Landroid/content/Intent;
 
@@ -803,9 +802,9 @@
 
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->d2(Landroid/os/Bundle;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->f0:Lcom/huawei/appmarket/qr2;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->f0:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -826,11 +825,11 @@
     goto/16 :goto_7
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/nd0;
+    new-instance p1, Lcom/huawei/appmarket/od0;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nd0;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/od0;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -850,9 +849,9 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->m(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->m(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -870,9 +869,9 @@
     const/4 v1, 0x0
 
     :goto_1
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->k(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->k(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -890,9 +889,9 @@
     const/4 v1, 0x0
 
     :goto_2
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->h(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->h(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -910,9 +909,9 @@
     const/4 v1, 0x0
 
     :goto_3
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->j(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->j(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -930,9 +929,9 @@
     const/4 v1, 0x0
 
     :goto_4
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->i(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->i(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -950,9 +949,9 @@
     const/4 v1, 0x0
 
     :goto_5
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nd0;->l(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/od0;->l(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->g0:Lcom/huawei/appgallery/forum/message/api/IBuoyMsgSwitchSettingFragmentProtocol;
 
@@ -968,7 +967,7 @@
     const/4 v0, 0x0
 
     :goto_6
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nd0;->n(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/od0;->n(Z)V
 
     :cond_8
     :goto_7
@@ -1060,7 +1059,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/nd0;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->n0:Lcom/huawei/appmarket/od0;
 
     if-eqz v0, :cond_0
 
@@ -1069,37 +1068,37 @@
     goto :goto_0
 
     :pswitch_0
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->n(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->n(Z)V
 
     goto :goto_0
 
     :pswitch_1
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->l(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->l(Z)V
 
     goto :goto_0
 
     :pswitch_2
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->i(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->i(Z)V
 
     goto :goto_0
 
     :pswitch_3
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->j(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->j(Z)V
 
     goto :goto_0
 
     :pswitch_4
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->h(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->h(Z)V
 
     goto :goto_0
 
     :pswitch_5
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->k(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->k(Z)V
 
     goto :goto_0
 
     :pswitch_6
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nd0;->m(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/od0;->m(Z)V
 
     :goto_0
     invoke-direct {p0}, Lcom/huawei/appgallery/forum/message/fragment/BuoyMsgSwitchSettingFragment;->k3()V

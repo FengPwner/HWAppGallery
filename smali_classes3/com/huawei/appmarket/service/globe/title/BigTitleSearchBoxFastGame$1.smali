@@ -1,5 +1,5 @@
 .class Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxFastGame$1;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxFastGame$1;->this$0:Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxFastGame;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 5
 
     .line 1
@@ -82,7 +82,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -99,11 +99,11 @@
 
     .line 32
     .line 33
-    sget v1, Lcom/huawei/appmarket/rs1;->b:I
+    sget v1, Lcom/huawei/appmarket/us1;->b:I
 
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->a()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -262,5 +262,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

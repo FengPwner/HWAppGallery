@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -125,7 +125,7 @@
     .line 41
     .line 42
     :cond_1
-    invoke-static {v1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/ff4;
+    invoke-static {v1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;->a4(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/activity/InstallDistActivity;)Lcom/huawei/appmarket/hf4;
 
     .line 43
     .line 44
@@ -133,7 +133,7 @@
     move-result-object v0
 
     .line 46
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v0, v0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 47
     .line 48
@@ -145,7 +145,7 @@
     move-result p1
 
     .line 52
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/l90;->k(ILcom/huawei/appmarket/iu;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/l90;->k(ILcom/huawei/appmarket/ju;)V
 
     .line 53
     .line 54
@@ -203,5 +203,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

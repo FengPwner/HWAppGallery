@@ -38,23 +38,23 @@
     return p0
 .end method
 
-.method private a(Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+.method private a(Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "J)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Landroid/os/Handler;
 
@@ -62,22 +62,22 @@
 
     new-instance v2, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;
 
-    invoke-direct {v2, p0, v0, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Lcom/huawei/appmarket/nv7;Landroid/content/Context;)V
+    invoke-direct {v2, p0, v0, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Lcom/huawei/appmarket/tv7;Landroid/content/Context;)V
 
     invoke-virtual {v1, v2, p2, p3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+.method static synthetic a(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
     .registers 4
 
     .line 3
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -186,23 +186,23 @@
 
 
 # virtual methods
-.method public getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     const/4 v1, 0x0
 
@@ -210,21 +210,21 @@
 
     new-instance v1, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;
 
-    invoke-direct {v1, p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v1, p0, p1, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Landroid/content/Context;Lcom/huawei/appmarket/tv7;)V
 
     iput-object v1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->b:Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;
 
     const-wide/16 v1, 0x0
 
-    invoke-direct {p0, p1, v1, v2}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1, v1, v2}, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->b:Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$StringOnCompleteListener;
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

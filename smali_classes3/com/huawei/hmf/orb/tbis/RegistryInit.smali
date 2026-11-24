@@ -19,7 +19,7 @@
 
     invoke-direct {v0}, Lcom/huawei/hmf/orb/tbis/RegistryInit$1;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/hv7;
+    const-class v1, Lcom/huawei/appmarket/nv7;
 
     const/4 v2, 0x0
 
@@ -29,7 +29,7 @@
 
     invoke-direct {v0}, Lcom/huawei/hmf/orb/tbis/RegistryInit$2;-><init>()V
 
-    const-class v1, Lcom/huawei/appmarket/gw7;
+    const-class v1, Lcom/huawei/appmarket/mw7;
 
     invoke-static {v1, v2, v0}, Lcom/huawei/hmf/orb/tbis/TBNativeType;->registry(Ljava/lang/reflect/Type;Lcom/huawei/hmf/orb/tbis/TBNativeType$Factory;Lcom/huawei/hmf/orb/tbis/TBNativeType$Factory;)V
 

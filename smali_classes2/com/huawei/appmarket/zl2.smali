@@ -1,37 +1,85 @@
-.class final Lcom/huawei/appmarket/zl2;
+.class public final Lcom/huawei/appmarket/zl2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/quickcard/base/grs/ICardServerUrl;
+.implements Lcom/huawei/appmarket/kq3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/fg7;
+.end annotation
+
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/kq3;
+.end annotation
+
+
+# instance fields
+.field private a:Z
 
 
 # direct methods
-.method constructor <init>()V
-    .registers 1
+.method public constructor <init>()V
+    .registers 2
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/zl2;->a:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final getUrl()Ljava/lang/String;
-    .registers 3
+.method public final a()V
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;->V()Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;
+    const/4 v0, 0x0
 
-    move-result-object v0
+    iput-boolean v0, p0, Lcom/huawei/appmarket/zl2;->a:Z
 
-    new-instance v1, Lcom/huawei/appmarket/s87;
+    return-void
+.end method
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/s87;-><init>()V
+.method public final b()V
+    .registers 4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/s87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Ljava/lang/String;
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/zl2;->a:Z
 
-    move-result-object v0
+    const-string v1, "FlexCardsImpl"
 
-    return-object v0
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
+
+    const-string v2, "already preload. return"
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
+
+    const-string v2, "preload start."
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v0, Lcom/huawei/appmarket/zl2$a;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/zl2$a;-><init>(Lcom/huawei/appmarket/zl2;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/vp1;->b(Ljava/lang/Runnable;)V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/zl2;->a:Z
+
+    return-void
 .end method

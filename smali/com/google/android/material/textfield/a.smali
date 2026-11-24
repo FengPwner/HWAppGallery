@@ -402,7 +402,7 @@
     move-result-object v2
 
     .line 59
-    sget-object v3, Lcom/huawei/appmarket/mm;->d:Lcom/huawei/appmarket/yu4;
+    sget-object v3, Lcom/huawei/appmarket/lm;->d:Lcom/huawei/appmarket/bv4;
 
     .line 60
     .line 61
@@ -451,7 +451,7 @@
     move-result-object v3
 
     .line 86
-    sget-object v4, Lcom/huawei/appmarket/mm;->a:Landroid/view/animation/LinearInterpolator;
+    sget-object v4, Lcom/huawei/appmarket/lm;->a:Landroid/view/animation/LinearInterpolator;
 
     .line 87
     .line 88

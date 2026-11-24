@@ -48,7 +48,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->O3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/v95;
+    invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->O3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/y95;
 
     move-result-object v0
 
@@ -56,7 +56,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p2, p1}, Lcom/huawei/appmarket/v95;->b(Landroid/view/MotionEvent;I)V
+    invoke-virtual {v0, p2, p1}, Lcom/huawei/appmarket/y95;->b(Landroid/view/MotionEvent;I)V
 
     :cond_0
     const/4 p1, 0x1

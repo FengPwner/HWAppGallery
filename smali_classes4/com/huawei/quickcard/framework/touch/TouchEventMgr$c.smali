@@ -257,11 +257,11 @@
 
     .line 33
     :cond_2
-    new-instance v6, Lcom/huawei/appmarket/d99;
+    new-instance v6, Lcom/huawei/appmarket/j99;
 
     .line 34
     .line 35
-    invoke-direct {v6, v2}, Lcom/huawei/appmarket/d99;-><init>(Landroid/view/MotionEvent;)V
+    invoke-direct {v6, v2}, Lcom/huawei/appmarket/j99;-><init>(Landroid/view/MotionEvent;)V
 
     .line 36
     .line 37
@@ -286,13 +286,13 @@
 
     .line 47
     .line 48
-    invoke-virtual {v6}, Lcom/huawei/appmarket/d99;->g()V
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j99;->g()V
 
     .line 49
     .line 50
     .line 51
     :cond_3
-    invoke-virtual {v6}, Lcom/huawei/appmarket/d99;->h()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j99;->h()F
 
     .line 52
     .line 53
@@ -308,7 +308,7 @@
     move-result v2
 
     .line 59
-    invoke-virtual {v6}, Lcom/huawei/appmarket/d99;->i()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j99;->i()F
 
     .line 60
     .line 61
@@ -324,7 +324,7 @@
     move-result v4
 
     .line 67
-    invoke-virtual {v6}, Lcom/huawei/appmarket/d99;->a()I
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j99;->a()I
 
     .line 68
     .line 69
@@ -469,16 +469,16 @@
     .line 136
     .line 137
     .line 138
-    new-instance v13, Lcom/huawei/appmarket/d99;
+    new-instance v13, Lcom/huawei/appmarket/j99;
 
     .line 139
     .line 140
-    invoke-direct {v13, v6}, Lcom/huawei/appmarket/d99;-><init>(Lcom/huawei/appmarket/d99;)V
+    invoke-direct {v13, v6}, Lcom/huawei/appmarket/j99;-><init>(Lcom/huawei/appmarket/j99;)V
 
     .line 141
     .line 142
     .line 143
-    invoke-virtual {v13}, Lcom/huawei/appmarket/d99;->e()Ljava/util/List;
+    invoke-virtual {v13}, Lcom/huawei/appmarket/j99;->e()Ljava/util/List;
 
     .line 144
     .line 145
@@ -506,7 +506,7 @@
 
     .line 155
     .line 156
-    invoke-virtual {v13}, Lcom/huawei/appmarket/d99;->e()Ljava/util/List;
+    invoke-virtual {v13}, Lcom/huawei/appmarket/j99;->e()Ljava/util/List;
 
     .line 157
     .line 158
@@ -530,11 +530,11 @@
     move-result-object v4
 
     .line 168
-    check-cast v4, Lcom/huawei/appmarket/w99;
+    check-cast v4, Lcom/huawei/appmarket/ca9;
 
     .line 169
     .line 170
-    invoke-virtual {v13, v15}, Lcom/huawei/appmarket/d99;->b(I)I
+    invoke-virtual {v13, v15}, Lcom/huawei/appmarket/j99;->b(I)I
 
     .line 171
     .line 172
@@ -542,12 +542,12 @@
     move-result v3
 
     .line 174
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/w99;->c(I)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/ca9;->c(I)V
 
     .line 175
     .line 176
     .line 177
-    invoke-virtual {v4}, Lcom/huawei/appmarket/w99;->d()F
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->d()F
 
     .line 178
     .line 179
@@ -579,12 +579,12 @@
     sub-float/2addr v3, v0
 
     .line 191
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/w99;->b(F)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/ca9;->b(F)V
 
     .line 192
     .line 193
     .line 194
-    invoke-virtual {v4}, Lcom/huawei/appmarket/w99;->f()F
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->f()F
 
     .line 195
     .line 196
@@ -619,7 +619,7 @@
     sub-float/2addr v0, v3
 
     .line 209
-    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/w99;->e(F)V
+    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ca9;->e(F)V
 
     .line 210
     .line 211
@@ -650,7 +650,7 @@
 
     .line 222
     .line 223
-    invoke-interface {v10, v1, v11, v13}, Lcom/huawei/quickcard/framework/touch/IQuickCardTouchEventListener;->onTouch(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/d99;)Z
+    invoke-interface {v10, v1, v11, v13}, Lcom/huawei/quickcard/framework/touch/IQuickCardTouchEventListener;->onTouch(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/j99;)Z
 
     .line 224
     .line 225
@@ -753,8 +753,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

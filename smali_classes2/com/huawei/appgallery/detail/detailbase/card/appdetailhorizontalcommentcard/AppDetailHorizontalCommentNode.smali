@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentNode;
-.super Lcom/huawei/appmarket/hj1;
+.super Lcom/huawei/appmarket/kj1;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/hj1;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/kj1;-><init>(Landroid/content/Context;I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -146,7 +146,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 45
     .line 46
@@ -216,5 +216,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

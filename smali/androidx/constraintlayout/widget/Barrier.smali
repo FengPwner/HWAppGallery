@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/wf6;->c:[I
+    sget-object v1, Lcom/huawei/appmarket/yf6;->c:[I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -239,18 +239,18 @@
     :cond_4
     iget-object p1, p0, Landroidx/constraintlayout/widget/Barrier;->m:Lcom/huawei/appmarket/p20;
 
-    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintHelper;->e:Lcom/huawei/appmarket/t63;
+    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintHelper;->e:Lcom/huawei/appmarket/w63;
 
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->u()V
 
     return-void
 .end method
 
-.method public final o(Landroidx/constraintlayout/widget/c$a;Lcom/huawei/appmarket/t63;Landroidx/constraintlayout/widget/Constraints$LayoutParams;Landroid/util/SparseArray;)V
+.method public final o(Landroidx/constraintlayout/widget/c$a;Lcom/huawei/appmarket/w63;Landroidx/constraintlayout/widget/Constraints$LayoutParams;Landroid/util/SparseArray;)V
     .registers 5
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintHelper;->o(Landroidx/constraintlayout/widget/c$a;Lcom/huawei/appmarket/t63;Landroidx/constraintlayout/widget/Constraints$LayoutParams;Landroid/util/SparseArray;)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintHelper;->o(Landroidx/constraintlayout/widget/c$a;Lcom/huawei/appmarket/w63;Landroidx/constraintlayout/widget/Constraints$LayoutParams;Landroid/util/SparseArray;)V
 
     .line 2
     .line 3

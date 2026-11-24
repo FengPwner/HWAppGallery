@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xl3;
+.implements Lcom/huawei/appmarket/zl3;
 
 
 # annotations
@@ -18,13 +18,13 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/xl3$a;
+.field private a:Lcom/huawei/appmarket/zl3$a;
 
 .field final synthetic b:Lcom/huawei/appmarket/h31;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/h31;Lcom/huawei/appmarket/xl3$a;)V
+.method constructor <init>(Lcom/huawei/appmarket/h31;Lcom/huawei/appmarket/zl3$a;)V
     .registers 3
 
     .line 1
@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/xl3$a;
+    iput-object p2, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/zl3$a;
 
     return-void
 .end method
@@ -60,7 +60,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/xl3$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/zl3$a;
 
     if-eqz v0, :cond_1
 
@@ -86,7 +86,7 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/xl3$a;
+    iput-object v0, p0, Lcom/huawei/appmarket/h31$a;->a:Lcom/huawei/appmarket/zl3$a;
 
     return-void
 .end method

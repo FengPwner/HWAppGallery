@@ -21,7 +21,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/h57;",
+        "Lcom/huawei/appmarket/m57;",
         ">;",
         "Ljava/io/Serializable;"
     }
@@ -56,11 +56,11 @@
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/h57;
+    check-cast p1, Lcom/huawei/appmarket/m57;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/h57;
+    check-cast p2, Lcom/huawei/appmarket/m57;
 
     .line 4
     .line 5
@@ -76,7 +76,7 @@
 
     .line 10
     :cond_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/h57;->c()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/m57;->c()I
 
     .line 11
     .line 12
@@ -84,7 +84,7 @@
     move-result p2
 
     .line 14
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h57;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/m57;->c()I
 
     .line 15
     .line 16
@@ -247,5 +247,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

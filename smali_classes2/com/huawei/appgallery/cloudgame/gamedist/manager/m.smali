@@ -35,11 +35,11 @@
 
     const-string v1, "play activity destroy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/m;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
-    invoke-static {v1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/s87;
 
     move-result-object v1
 
@@ -47,7 +47,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/m;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
-    invoke-static {v1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/s87;
 
     move-result-object v1
 
@@ -61,15 +61,15 @@
 
     const-string v1, "cancel auth task"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/m;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->v(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;)Lcom/huawei/appmarket/s87;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n87;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s87;->f()V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/m;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;

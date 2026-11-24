@@ -79,7 +79,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -196,7 +196,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "result"
 

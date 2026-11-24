@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uo5;
+.implements Lcom/huawei/appmarket/vo5;
 
 
 # direct methods
@@ -74,7 +74,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/reusebasecard/GetImgColorCard$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/reusebasecard/GetImgColorCard;Landroid/graphics/Bitmap;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/sp1;->b(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vp1;->b(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -87,7 +87,7 @@
 
     const-string v1, "set color fail"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

@@ -1,80 +1,76 @@
-.class final Lcom/huawei/appmarket/ew6;
-.super Lcom/huawei/appmarket/t50;
+.class public final synthetic Lcom/huawei/appmarket/ew6;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
 
 
 # instance fields
-.field final synthetic a:Landroid/view/Window;
+.field public final synthetic b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/fw6;Landroid/view/Window;)V
-    .registers 3
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;)V
+    .registers 2
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/ew6;->a:Landroid/view/Window;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/t50;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/ew6;->b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onTransitionStart(Landroid/transition/Transition;)V
+.method public final onClick(Landroid/view/View;)V
     .registers 3
 
     .line 1
-    sget p1, Lcom/huawei/appmarket/fw6;->d:I
+    sget p1, Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;->U3:I
 
     .line 2
     .line 3
-    iget-object p1, p0, Lcom/huawei/appmarket/ew6;->a:Landroid/view/Window;
+    iget-object p1, p0, Lcom/huawei/appmarket/ew6;->b:Lcom/huawei/appgallery/pageframe/fragment/ReuseHeadTransitionListFragmentV2;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
     .line 6
     .line 7
     .line 8
-    move-result-object p1
+    move-result-object v0
 
     .line 9
-    invoke-virtual {p1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    if-eqz v0, :cond_0
 
     .line 10
     .line 11
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
+
     .line 12
-    move-result-object p1
-
     .line 13
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
-
     .line 14
-    .line 15
-    .line 16
     move-result-object p1
 
+    .line 15
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->onBackPressed()V
+
+    .line 16
     .line 17
-    sget-object v0, Lcom/huawei/appmarket/va0;->b:Lcom/huawei/appmarket/va0;
-
     .line 18
+    :cond_0
+    return-void
     .line 19
-    invoke-static {v0}, Lcom/huawei/appmarket/ua0;->a(Lcom/huawei/appmarket/va0;)Landroid/graphics/ColorFilter;
-
     .line 20
     .line 21
     .line 22
-    move-result-object v0
-
     .line 23
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V
-
     .line 24
     .line 25
     .line 26
-    return-void
     .line 27
     .line 28
     .line 29
@@ -155,5 +151,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

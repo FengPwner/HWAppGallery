@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -114,7 +114,7 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p2, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -134,7 +134,7 @@
 
     const-string p3, "ExtdInstPkgActivity"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

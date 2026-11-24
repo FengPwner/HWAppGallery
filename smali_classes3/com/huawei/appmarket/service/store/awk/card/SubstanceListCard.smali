@@ -169,7 +169,7 @@
 
     invoke-direct {v4, v0}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceListCardVideoItem;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f0a18b5
+    const v5, 0x7f0a18b6
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
 
     invoke-direct {v8, v0}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceListCardDlItem;-><init>(Landroid/content/Context;)V
 
-    const v9, 0x7f0a18b3
+    const v9, 0x7f0a18b4
 
     invoke-virtual {p1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
 
     invoke-direct {v10, v0}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceListCardAudioItem;-><init>(Landroid/content/Context;)V
 
-    const v11, 0x7f0a18b4
+    const v11, 0x7f0a18b5
 
     invoke-virtual {p1, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

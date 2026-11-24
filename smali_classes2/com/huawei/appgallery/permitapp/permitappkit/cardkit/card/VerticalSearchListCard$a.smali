@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard$a;->b:Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -66,7 +66,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v1
 
@@ -74,7 +74,7 @@
 
     move-result v2
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/gp3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ip3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard;->B1(Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchListCard;)Landroid/content/Context;
 
@@ -84,7 +84,7 @@
 
     move-result p1
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/nz5;->b(ILandroid/content/Context;Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/BasePermitAppCardBean;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/pz5;->b(ILandroid/content/Context;Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/bean/BasePermitAppCardBean;)V
 
     :cond_0
     return-void

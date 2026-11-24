@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bi3;
+.implements Lcom/huawei/appmarket/di3;
 
 
 # annotations
@@ -28,13 +28,13 @@
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/kr;
+.field private final b:Lcom/huawei/appmarket/jr;
 
 .field private final c:Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/kr;Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/jr;Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;)V
     .registers 5
 
     .line 1
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->a:Ljava/lang/ref/WeakReference;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->b:Lcom/huawei/appmarket/kr;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->b:Lcom/huawei/appmarket/jr;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->c:Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;
 
@@ -88,7 +88,7 @@
 
     .line 11
     .line 12
-    invoke-static {p3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 13
     .line 14
@@ -138,11 +138,11 @@
 
     .line 35
     .line 36
-    iget-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->b:Lcom/huawei/appmarket/kr;
+    iget-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$a;->b:Lcom/huawei/appmarket/jr;
 
     .line 37
     .line 38
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;->e(Landroid/content/Context;Lcom/huawei/appmarket/kr;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;->e(Landroid/content/Context;Lcom/huawei/appmarket/jr;)V
 
     .line 39
     .line 40
@@ -213,7 +213,7 @@
     move-result-object p1
 
     .line 73
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->j(Ljava/lang/CharSequence;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->j(Ljava/lang/CharSequence;)V
 
     .line 74
     .line 75
@@ -251,7 +251,7 @@
     .line 90
     .line 91
     .line 92
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->i(ILandroid/content/Context;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i08;->i(ILandroid/content/Context;)V
 
     .line 93
     .line 94
@@ -266,7 +266,7 @@
 
     .line 98
     .line 99
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -536,27 +536,4 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

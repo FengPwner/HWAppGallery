@@ -79,7 +79,7 @@
 
     const v1, 0x7f0a018f
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/HorizontalBilobaWithTextNode;->n:Lcom/huawei/appmarket/service/store/awk/card/HorizontalBilobaWithTextCard;
 
@@ -100,14 +100,14 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -123,13 +123,13 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 11
     .line 12
@@ -296,10 +296,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -351,7 +350,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v2, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v2, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     .line 24
     .line 25
@@ -369,7 +368,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 34
     .line 35
@@ -458,7 +457,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;

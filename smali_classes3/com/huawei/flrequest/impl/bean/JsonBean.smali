@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/up4;
+.implements Lcom/huawei/appmarket/xp4;
 
 
 # static fields
@@ -11,9 +11,9 @@
 
 
 # instance fields
-.field private final mJsonDecode:Lcom/huawei/appmarket/jo4;
+.field private final mJsonDecode:Lcom/huawei/appmarket/mo4;
 
-.field private final mJsonEncode:Lcom/huawei/appmarket/no4;
+.field private final mJsonEncode:Lcom/huawei/appmarket/qo4;
 
 
 # direct methods
@@ -22,17 +22,17 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/no4;
+    new-instance v0, Lcom/huawei/appmarket/qo4;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/no4;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qo4;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonEncode:Lcom/huawei/appmarket/no4;
+    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonEncode:Lcom/huawei/appmarket/qo4;
 
-    new-instance v0, Lcom/huawei/appmarket/jo4;
+    new-instance v0, Lcom/huawei/appmarket/mo4;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/jo4;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/mo4;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonDecode:Lcom/huawei/appmarket/jo4;
+    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonDecode:Lcom/huawei/appmarket/mo4;
 
     return-void
 .end method
@@ -58,11 +58,11 @@
     .line 5
     .line 6
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonEncode:Lcom/huawei/appmarket/no4;
+    iget-object v1, p0, Lcom/huawei/flrequest/impl/bean/JsonBean;->mJsonEncode:Lcom/huawei/appmarket/qo4;
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/no4;->g(Ljava/lang/StringBuilder;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qo4;->g(Ljava/lang/StringBuilder;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -101,7 +101,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 27
     .line 28

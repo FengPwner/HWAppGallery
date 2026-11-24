@@ -1,67 +1,44 @@
-.class public final Lcom/huawei/appmarket/ki2;
+.class final Lcom/huawei/appmarket/ki2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ki2$a;
-    }
-.end annotation
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
-# static fields
-.field private static a:Lcom/huawei/appmarket/ki2;
+# instance fields
+.field final synthetic b:Landroid/app/Activity;
+
+.field final synthetic c:Lcom/huawei/appmarket/ii2;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Lcom/huawei/appmarket/ii2;Landroid/app/Activity;)V
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ki2;->c:Lcom/huawei/appmarket/ii2;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/ki2;->b:Landroid/app/Activity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public static declared-synchronized a()Lcom/huawei/appmarket/ki2;
-    .registers 2
+
+# virtual methods
+.method public final run()V
+    .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/ki2;
+    iget-object v0, p0, Lcom/huawei/appmarket/ki2;->b:Landroid/app/Activity;
 
-    monitor-enter v0
+    const/4 v1, 0x0
 
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/ki2;->a:Lcom/huawei/appmarket/ki2;
+    iget-object v2, p0, Lcom/huawei/appmarket/ki2;->c:Lcom/huawei/appmarket/ii2;
 
-    if-nez v1, :cond_0
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ii2;->g(Lcom/huawei/appmarket/ii2;Landroid/app/Activity;Z)V
 
-    new-instance v1, Lcom/huawei/appmarket/ki2;
-
-    invoke-direct {v1}, Lcom/huawei/appmarket/ki2;-><init>()V
-
-    sput-object v1, Lcom/huawei/appmarket/ki2;->a:Lcom/huawei/appmarket/ki2;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    sget-object v1, Lcom/huawei/appmarket/ki2;->a:Lcom/huawei/appmarket/ki2;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit v0
-
-    return-object v1
-
-    :goto_1
-    monitor-exit v0
-
-    throw v1
+    return-void
 .end method

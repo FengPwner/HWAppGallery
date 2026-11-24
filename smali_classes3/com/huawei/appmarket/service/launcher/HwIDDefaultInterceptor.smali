@@ -22,7 +22,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p2}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -30,7 +30,7 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/d43;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/g43;->a(Landroid/content/Context;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -216,7 +216,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public isInterceptor(Ljava/lang/String;)Z
@@ -230,7 +229,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/d43;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/g43;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 

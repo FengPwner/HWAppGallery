@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aa5;
+.implements Lcom/huawei/appmarket/da5;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/aa5<",
+        "Lcom/huawei/appmarket/da5<",
         "Ljava/io/File;",
         "TData;>;"
     }

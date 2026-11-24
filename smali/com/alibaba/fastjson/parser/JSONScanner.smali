@@ -606,7 +606,7 @@
 
     const/4 v11, 0x5
 
-    goto/16 :goto_25
+    goto/16 :goto_26
 
     :cond_7
     :goto_5
@@ -1067,25 +1067,25 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v7
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v13, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v13, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v8
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v12, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v12, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v10
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v12
 
@@ -1093,7 +1093,7 @@
 
     const/4 v1, 0x5
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v13
 
@@ -1101,7 +1101,7 @@
 
     const/4 v1, 0x6
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v11
 
@@ -1163,7 +1163,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_30
+    if-eqz v0, :cond_2f
 
     invoke-static {v14}, Ljava/util/TimeZone;->getAvailableIDs(I)[Ljava/lang/String;
 
@@ -1171,7 +1171,7 @@
 
     array-length v1, v0
 
-    if-lez v1, :cond_30
+    if-lez v1, :cond_2f
 
     aget-object v0, v0, v14
 
@@ -1183,7 +1183,7 @@
 
     invoke-virtual {v1, v0}, Ljava/util/Calendar;->setTimeZone(Ljava/util/TimeZone;)V
 
-    goto/16 :goto_1b
+    goto/16 :goto_1c
 
     :goto_17
     iput v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->token:I
@@ -1205,7 +1205,7 @@
     :cond_26
     const/16 v8, 0x3a
 
-    goto/16 :goto_1c
+    goto/16 :goto_1d
 
     :cond_27
     const/16 v0, 0x22
@@ -1256,7 +1256,7 @@
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     .line 5
-    invoke-static {v0, v11, v12, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v12, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
@@ -1266,7 +1266,7 @@
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
@@ -1278,7 +1278,7 @@
 
     const/4 v2, 0x5
 
-    invoke-static {v0, v11, v2, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v2, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
@@ -1320,13 +1320,13 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
     iget v2, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v2, v11, v13, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v2, v11, v13, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v2
 
@@ -1366,11 +1366,11 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/Calendar;->set(II)V
 
-    :cond_2f
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     add-int/2addr v0, v11
 
+    :goto_1b
     iput v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     invoke-virtual {v9, v0}, Lcom/alibaba/fastjson/parser/JSONScanner;->charAt(I)C
@@ -1379,28 +1379,41 @@
 
     iput-char v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->ch:C
 
-    :cond_30
-    :goto_1b
+    :cond_2f
+    :goto_1c
     const/4 v0, 0x5
 
     goto/16 :goto_17
 
-    :goto_1c
+    :goto_1d
     add-int/lit8 v0, v11, 0x9
 
-    if-ge v10, v0, :cond_31
+    if-ge v10, v0, :cond_30
 
     const/4 v0, 0x0
 
     return v0
 
-    :cond_31
+    :cond_30
     const/4 v0, 0x0
 
     iget v1, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     .line 9
-    invoke-static {v1, v11, v12, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v1, v11, v12, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+
+    move-result v1
+
+    if-eq v1, v8, :cond_31
+
+    return v0
+
+    :cond_31
+    iget v1, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
+
+    const/4 v7, 0x6
+
+    invoke-static {v1, v11, v7, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v1
 
@@ -1409,36 +1422,23 @@
     return v0
 
     :cond_32
-    iget v1, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
-
-    const/4 v7, 0x6
-
-    invoke-static {v1, v11, v7, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
-
-    move-result v1
-
-    if-eq v1, v8, :cond_33
-
-    return v0
-
-    :cond_33
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v15
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v13, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v13, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v17
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v14, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v18
 
@@ -1446,7 +1446,7 @@
 
     const/4 v1, 0x5
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v19
 
@@ -1454,7 +1454,7 @@
 
     const/4 v1, 0x7
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v20
 
@@ -1462,7 +1462,7 @@
 
     const/16 v1, 0x8
 
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v16
 
@@ -1485,13 +1485,13 @@
 
     move-result v0
 
-    if-nez v0, :cond_34
+    if-nez v0, :cond_33
 
     const/4 v0, 0x0
 
     return v0
 
-    :cond_34
+    :cond_33
     move-object/from16 v0, p0
 
     move v1, v15
@@ -1513,60 +1513,60 @@
     const/16 v1, 0x9
 
     .line 11
-    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v1, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
     const/16 v1, 0x2e
 
-    if-ne v0, v1, :cond_39
+    if-ne v0, v1, :cond_38
 
     add-int/lit8 v0, v11, 0xb
 
-    if-ge v10, v0, :cond_35
+    if-ge v10, v0, :cond_34
 
     const/4 v1, 0x0
 
     return v1
 
-    :cond_35
+    :cond_34
     iget v1, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/16 v2, 0xa
 
-    invoke-static {v1, v11, v2, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v1, v11, v2, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v1
 
     const/16 v2, 0x30
 
-    if-lt v1, v2, :cond_36
+    if-lt v1, v2, :cond_35
 
     const/16 v3, 0x39
 
-    if-le v1, v3, :cond_37
+    if-le v1, v3, :cond_36
 
-    :cond_36
+    :cond_35
     const/4 v0, 0x0
 
-    goto :goto_1e
+    goto :goto_1f
 
-    :cond_37
+    :cond_36
     sub-int/2addr v1, v2
 
-    if-le v10, v0, :cond_38
+    if-le v10, v0, :cond_37
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/16 v4, 0xb
 
-    invoke-static {v0, v11, v4, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v0, v11, v4, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v0
 
-    if-lt v0, v2, :cond_38
+    if-lt v0, v2, :cond_37
 
-    if-gt v0, v3, :cond_38
+    if-gt v0, v3, :cond_37
 
     mul-int/lit8 v1, v1, 0xa
 
@@ -1578,27 +1578,27 @@
 
     const/4 v0, 0x2
 
-    goto :goto_1d
+    goto :goto_1e
 
-    :cond_38
+    :cond_37
     const/4 v0, 0x1
 
-    :goto_1d
-    if-ne v0, v13, :cond_3a
+    :goto_1e
+    if-ne v0, v13, :cond_39
 
     iget v3, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/16 v4, 0xc
 
-    invoke-static {v3, v11, v4, v9}, Lcom/huawei/appmarket/z84;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
+    invoke-static {v3, v11, v4, v9}, Lcom/huawei/appmarket/kk4;->c(IIILcom/alibaba/fastjson/parser/JSONScanner;)C
 
     move-result v3
 
-    if-lt v3, v2, :cond_3a
+    if-lt v3, v2, :cond_39
 
     const/16 v4, 0x39
 
-    if-gt v3, v4, :cond_3a
+    if-gt v3, v4, :cond_39
 
     mul-int/lit8 v1, v1, 0xa
 
@@ -1610,18 +1610,18 @@
 
     const/4 v0, 0x3
 
-    goto :goto_1f
+    goto :goto_20
 
-    :goto_1e
+    :goto_1f
     return v0
 
-    :cond_39
+    :cond_38
     const/4 v0, -0x1
 
     const/4 v1, 0x0
 
-    :cond_3a
-    :goto_1f
+    :cond_39
+    :goto_20
     iget-object v2, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->calendar:Ljava/util/Calendar;
 
     const/16 v3, 0xe
@@ -1645,7 +1645,7 @@
 
     const/16 v3, 0x20
 
-    if-ne v1, v3, :cond_3b
+    if-ne v1, v3, :cond_3a
 
     add-int/lit8 v0, v0, 0x1
 
@@ -1661,23 +1661,23 @@
 
     move-result v1
 
-    :cond_3b
+    :cond_3a
     move v6, v0
 
     const/16 v0, 0x2b
 
-    if-eq v1, v0, :cond_3f
+    if-eq v1, v0, :cond_3e
 
     const/16 v0, 0x2d
 
-    if-ne v1, v0, :cond_3c
+    if-ne v1, v0, :cond_3b
 
-    goto :goto_20
+    goto :goto_21
 
-    :cond_3c
+    :cond_3b
     const/16 v0, 0x5a
 
-    if-ne v1, v0, :cond_3e
+    if-ne v1, v0, :cond_3d
 
     iget-object v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->calendar:Ljava/util/Calendar;
 
@@ -1689,7 +1689,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_3d
+    if-eqz v0, :cond_3c
 
     const/4 v0, 0x0
 
@@ -1699,7 +1699,7 @@
 
     array-length v2, v1
 
-    if-lez v2, :cond_3d
+    if-lez v2, :cond_3c
 
     aget-object v1, v1, v0
 
@@ -1711,18 +1711,18 @@
 
     invoke-virtual {v1, v0}, Ljava/util/Calendar;->setTimeZone(Ljava/util/TimeZone;)V
 
-    :cond_3d
+    :cond_3c
     const/4 v7, 0x1
 
-    goto/16 :goto_23
+    goto/16 :goto_24
 
-    :cond_3e
+    :cond_3d
     const/4 v7, 0x0
 
-    goto/16 :goto_23
+    goto/16 :goto_24
 
-    :cond_3f
-    :goto_20
+    :cond_3e
+    :goto_21
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     add-int/2addr v0, v11
@@ -1743,18 +1743,18 @@
 
     const/16 v0, 0x30
 
-    if-lt v3, v0, :cond_40
+    if-lt v3, v0, :cond_3f
 
     const/16 v4, 0x31
 
-    if-le v3, v4, :cond_41
+    if-le v3, v4, :cond_40
 
-    :cond_40
+    :cond_3f
     const/4 v4, 0x0
 
-    goto/16 :goto_24
+    goto/16 :goto_25
 
-    :cond_41
+    :cond_40
     iget v4, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     add-int/2addr v4, v11
@@ -1769,18 +1769,18 @@
 
     move-result v4
 
-    if-lt v4, v0, :cond_42
+    if-lt v4, v0, :cond_41
 
     const/16 v0, 0x39
 
-    if-le v4, v0, :cond_43
+    if-le v4, v0, :cond_42
 
-    :cond_42
+    :cond_41
     const/4 v4, 0x0
 
-    goto/16 :goto_24
+    goto/16 :goto_25
 
-    :cond_43
+    :cond_42
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     add-int/2addr v0, v11
@@ -1797,7 +1797,7 @@
 
     const/16 v5, 0x33
 
-    if-ne v0, v8, :cond_49
+    if-ne v0, v8, :cond_48
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
@@ -1831,72 +1831,72 @@
 
     const/16 v8, 0x34
 
-    if-ne v0, v8, :cond_46
+    if-ne v0, v8, :cond_45
 
     const/16 v8, 0x35
 
-    if-ne v2, v8, :cond_46
+    if-ne v2, v8, :cond_45
 
     const/16 v8, 0x31
 
-    if-ne v3, v8, :cond_44
+    if-ne v3, v8, :cond_43
 
     const/16 v8, 0x32
 
-    if-eq v4, v8, :cond_48
+    if-eq v4, v8, :cond_47
 
-    if-ne v4, v5, :cond_44
+    if-ne v4, v5, :cond_43
 
-    goto :goto_21
+    goto :goto_22
 
-    :cond_44
+    :cond_43
     const/16 v5, 0x30
 
-    if-ne v3, v5, :cond_45
+    if-ne v3, v5, :cond_44
 
     const/16 v5, 0x35
 
-    if-eq v4, v5, :cond_48
+    if-eq v4, v5, :cond_47
 
     const/16 v5, 0x38
 
-    if-ne v4, v5, :cond_45
+    if-ne v4, v5, :cond_44
 
-    goto :goto_21
+    goto :goto_22
+
+    :cond_44
+    const/4 v8, 0x0
+
+    return v8
 
     :cond_45
     const/4 v8, 0x0
 
+    const/16 v10, 0x30
+
+    if-eq v0, v10, :cond_46
+
+    if-eq v0, v5, :cond_46
+
     return v8
 
     :cond_46
-    const/4 v8, 0x0
-
-    const/16 v10, 0x30
-
-    if-eq v0, v10, :cond_47
-
-    if-eq v0, v5, :cond_47
+    if-eq v2, v10, :cond_47
 
     return v8
 
     :cond_47
-    if-eq v2, v10, :cond_48
-
-    return v8
-
-    :cond_48
-    :goto_21
+    :goto_22
     move/from16 v22, v0
 
     move v5, v2
 
-    goto :goto_22
+    goto :goto_23
 
-    :cond_49
+    :cond_48
     const/16 v10, 0x30
 
-    if-ne v0, v10, :cond_4b
+    if-ne v0, v10, :cond_4a
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
@@ -1914,25 +1914,25 @@
 
     move-result v0
 
-    if-eq v0, v10, :cond_4a
+    if-eq v0, v10, :cond_49
 
-    if-eq v0, v5, :cond_4a
+    if-eq v0, v5, :cond_49
 
     const/4 v2, 0x0
 
     return v2
 
-    :cond_4a
+    :cond_49
     move/from16 v22, v0
 
     const/16 v5, 0x30
 
     const/4 v7, 0x5
 
-    goto :goto_22
+    goto :goto_23
 
-    :cond_4b
-    if-ne v0, v5, :cond_4c
+    :cond_4a
+    if-ne v0, v5, :cond_4b
 
     iget v2, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
@@ -1952,7 +1952,7 @@
 
     const/16 v7, 0x30
 
-    if-ne v2, v7, :cond_4c
+    if-ne v2, v7, :cond_4b
 
     const/16 v5, 0x30
 
@@ -1960,12 +1960,12 @@
 
     const/16 v22, 0x33
 
-    goto :goto_22
+    goto :goto_23
 
-    :cond_4c
+    :cond_4b
     const/16 v2, 0x34
 
-    if-ne v0, v2, :cond_4d
+    if-ne v0, v2, :cond_4c
 
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
@@ -1985,7 +1985,7 @@
 
     const/16 v2, 0x35
 
-    if-ne v0, v2, :cond_4d
+    if-ne v0, v2, :cond_4c
 
     const/16 v0, 0x34
 
@@ -1997,16 +1997,16 @@
 
     const/16 v22, 0x34
 
-    goto :goto_22
+    goto :goto_23
 
-    :cond_4d
+    :cond_4c
     const/16 v5, 0x30
 
     const/4 v7, 0x3
 
     const/16 v22, 0x30
 
-    :goto_22
+    :goto_23
     move-object/from16 v0, p0
 
     move v2, v3
@@ -2017,37 +2017,44 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/alibaba/fastjson/parser/JSONScanner;->setTimeZone(CCCCC)V
 
-    :goto_23
+    :goto_24
     iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/16 v1, 0xa
 
-    add-int/2addr v11, v1
+    invoke-static {v11, v1, v6, v7}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
-    add-int/2addr v11, v6
+    move-result v1
 
-    add-int/2addr v11, v7
-
-    add-int/2addr v0, v11
+    add-int/2addr v0, v1
 
     invoke-virtual {v9, v0}, Lcom/alibaba/fastjson/parser/JSONScanner;->charAt(I)C
 
     move-result v0
 
-    const/16 v1, 0x1a
+    const/16 v2, 0x1a
 
-    if-eq v0, v1, :cond_2f
+    if-eq v0, v2, :cond_4d
 
-    const/16 v1, 0x22
+    const/16 v2, 0x22
 
-    if-eq v0, v1, :cond_2f
+    if-eq v0, v2, :cond_4d
 
     const/4 v4, 0x0
 
-    :goto_24
     return v4
 
+    :cond_4d
+    iget v0, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
+
+    add-int/2addr v0, v1
+
+    goto/16 :goto_1b
+
     :goto_25
+    return v4
+
+    :goto_26
     if-eqz p1, :cond_4e
 
     return v4
@@ -2071,12 +2078,12 @@
 
     const/4 v4, 0x1
 
-    goto :goto_26
+    goto :goto_27
 
     :cond_4f
     const/4 v4, 0x0
 
-    :goto_26
+    :goto_27
     if-eqz v4, :cond_50
 
     const/16 v7, 0x10
@@ -2085,12 +2092,12 @@
 
     const/4 v14, 0x1
 
-    goto :goto_27
+    goto :goto_28
 
     :cond_50
     const/4 v14, 0x0
 
-    :goto_27
+    :goto_28
     if-eqz v4, :cond_51
 
     const/16 v4, 0x11
@@ -2099,17 +2106,17 @@
 
     const/16 v17, 0x1
 
-    goto :goto_28
+    goto :goto_29
 
     :cond_51
     const/16 v17, 0x0
 
-    :goto_28
+    :goto_29
     if-nez v17, :cond_54
 
     if-eqz v14, :cond_52
 
-    goto :goto_29
+    goto :goto_2a
 
     :cond_52
     const/16 v4, 0x2d
@@ -2126,7 +2133,7 @@
 
     const/16 v20, 0x30
 
-    goto :goto_2a
+    goto :goto_2b
 
     :cond_53
     move/from16 v18, v1
@@ -2137,10 +2144,10 @@
 
     move/from16 v21, v5
 
-    goto :goto_2a
+    goto :goto_2b
 
     :cond_54
-    :goto_29
+    :goto_2a
     iget v1, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
     const/16 v4, 0x9
@@ -2159,7 +2166,7 @@
 
     move/from16 v20, v12
 
-    :goto_2a
+    :goto_2b
     move v1, v13
 
     move v2, v15
@@ -2328,7 +2335,7 @@
 
     const/16 v13, 0x30
 
-    goto :goto_2b
+    goto :goto_2c
 
     :cond_59
     move v7, v0
@@ -2343,7 +2350,7 @@
 
     move v12, v4
 
-    :goto_2b
+    :goto_2c
     move-object/from16 v0, p0
 
     move v1, v14
@@ -2414,7 +2421,7 @@
     :cond_5b
     const/4 v0, 0x0
 
-    goto :goto_2d
+    goto :goto_2e
 
     :cond_5c
     if-lt v1, v3, :cond_5d
@@ -2424,7 +2431,7 @@
     :cond_5d
     const/4 v0, 0x0
 
-    goto :goto_2d
+    goto :goto_2e
 
     :cond_5e
     if-lt v2, v3, :cond_5f
@@ -2434,7 +2441,7 @@
     :cond_5f
     const/4 v0, 0x0
 
-    goto :goto_2d
+    goto :goto_2e
 
     :cond_60
     sub-int/2addr v0, v3
@@ -2443,7 +2450,7 @@
 
     const/16 v4, 0xa
 
-    invoke-static {v1, v3, v4, v0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v3, v4, v0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result v0
 
@@ -2451,20 +2458,20 @@
 
     add-int/2addr v0, v2
 
-    :goto_2c
+    :goto_2d
     const/16 v1, 0x30
 
-    goto :goto_2e
+    goto :goto_2f
 
-    :goto_2d
+    :goto_2e
     return v0
 
     :cond_61
     const/4 v0, 0x0
 
-    goto :goto_2c
+    goto :goto_2d
 
-    :goto_2e
+    :goto_2f
     sub-int/2addr v14, v1
 
     const/16 v2, 0xa
@@ -2497,7 +2504,7 @@
 
     move v11, v3
 
-    goto :goto_2f
+    goto :goto_30
 
     :cond_62
     const/4 v0, 0x0
@@ -2508,7 +2515,7 @@
 
     const/4 v11, 0x0
 
-    :goto_2f
+    :goto_30
     iget-object v3, v9, Lcom/alibaba/fastjson/parser/JSONLexerBase;->calendar:Ljava/util/Calendar;
 
     const/16 v4, 0xb
@@ -2533,7 +2540,7 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/Calendar;->set(II)V
 
-    goto/16 :goto_1b
+    goto/16 :goto_1c
 .end method
 
 .method private setCalendar(CCCCCCCC)V
@@ -2557,13 +2564,13 @@
 
     const/16 v2, 0x64
 
-    invoke-static {p2, v1, v2, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p2, v1, v2, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
     const/16 p2, 0xa
 
-    invoke-static {p3, v1, p2, p1}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p3, v1, p2, p1}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p1
 
@@ -2799,7 +2806,7 @@
 
     .line 73
     .line 74
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -2901,6 +2908,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final charArrayCompare([C)Z
@@ -3160,7 +3168,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, v1, v3, v4, v6}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, v3, v4, v6}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 44
     .line 45
@@ -3288,6 +3296,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public isEOF()Z
@@ -5865,7 +5874,7 @@
 .end method
 
 .method public scanFieldString([C)Ljava/lang/String;
-    .registers 14
+    .registers 15
 
     const/4 v0, 0x0
 
@@ -5955,11 +5964,11 @@
 
     move-result v4
 
-    move v11, v4
+    move v12, v4
 
     move v4, v3
 
-    move v3, v11
+    move v3, v12
 
     goto :goto_2
 
@@ -5991,6 +6000,8 @@
 
     move-result v9
 
+    const/4 v10, 0x1
+
     if-eq v9, v6, :cond_8
 
     :goto_4
@@ -6003,9 +6014,9 @@
 
     invoke-virtual {p0, v4}, Lcom/alibaba/fastjson/parser/JSONScanner;->charAt(I)C
 
-    move-result v10
+    move-result v11
 
-    if-ne v10, v8, :cond_6
+    if-ne v11, v8, :cond_6
 
     add-int/lit8 v9, v9, 0x1
 
@@ -6024,7 +6035,7 @@
 
     add-int/2addr v4, v0
 
-    add-int/lit8 v4, v4, 0x1
+    add-int/2addr v4, v10
 
     add-int/2addr v4, v7
 
@@ -6032,13 +6043,11 @@
 
     array-length p1, p1
 
-    add-int/2addr v0, p1
+    invoke-static {v0, p1, v10, v7}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
-    add-int/lit8 v0, v0, 0x1
+    move-result p1
 
-    add-int/2addr v0, v7
-
-    invoke-virtual {p0, v0, v4}, Lcom/alibaba/fastjson/parser/JSONScanner;->sub_chars(II)[C
+    invoke-virtual {p0, p1, v4}, Lcom/alibaba/fastjson/parser/JSONScanner;->sub_chars(II)[C
 
     move-result-object p1
 
@@ -6153,7 +6162,7 @@
 
     iget p1, p0, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
-    add-int/lit8 p1, p1, 0x1
+    add-int/2addr p1, v10
 
     iput p1, p0, Lcom/alibaba/fastjson/parser/JSONLexerBase;->bp:I
 
@@ -8490,7 +8499,7 @@
 
     .line 180
     .line 181
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 182
     .line 183

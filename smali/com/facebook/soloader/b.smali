@@ -188,7 +188,7 @@
     move-result-object v5
 
     .line 75
-    invoke-static {v5}, Lcom/huawei/appmarket/h95;->a(Ljava/nio/channels/FileChannel;)[Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/k95;->a(Ljava/nio/channels/FileChannel;)[Ljava/lang/String;
 
     .line 76
     .line 77
@@ -305,7 +305,7 @@
 
     .line 124
     :cond_6
-    sget-object p2, Lcom/facebook/soloader/SoLoader;->sSoFileLoader:Lcom/huawei/appmarket/ph7;
+    sget-object p2, Lcom/facebook/soloader/SoLoader;->sSoFileLoader:Lcom/huawei/appmarket/uh7;
 
     .line 125
     .line 126

@@ -28,13 +28,13 @@
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/kr;
+.field private final b:Lcom/huawei/appmarket/jr;
 
 .field private final c:Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/kr;Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;)V
+.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/jr;Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;)V
     .registers 5
 
     .line 1
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->a:Ljava/lang/ref/WeakReference;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->b:Lcom/huawei/appmarket/kr;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->b:Lcom/huawei/appmarket/jr;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->c:Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;
 
@@ -67,7 +67,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
@@ -104,7 +104,7 @@
 
     .line 23
     .line 24
-    iget-object v0, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->b:Lcom/huawei/appmarket/kr;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor$b;->b:Lcom/huawei/appmarket/jr;
 
     .line 25
     .line 26
@@ -112,7 +112,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;->b(Landroid/content/Context;Lcom/huawei/appmarket/kr;)V
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/service/launcher/FastAppLauccherInterceptor;->b(Landroid/content/Context;Lcom/huawei/appmarket/jr;)V
 
     .line 29
     .line 30
@@ -202,5 +202,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

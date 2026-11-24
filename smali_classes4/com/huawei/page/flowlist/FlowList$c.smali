@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r63$a;
+.implements Lcom/huawei/appmarket/u63$a;
 
 
 # annotations
@@ -60,7 +60,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->k(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->k(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/nv7;
 
     :cond_0
     return-void

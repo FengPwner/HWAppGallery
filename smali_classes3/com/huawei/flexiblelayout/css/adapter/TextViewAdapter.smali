@@ -55,11 +55,11 @@
 
     new-instance v4, Lcom/huawei/flexiblelayout/css/adapter/param/MethodSignature;
 
-    new-instance v7, Lcom/huawei/appmarket/ub1;
+    new-instance v7, Lcom/huawei/appmarket/wb1;
 
     const/16 v8, 0xe
 
-    invoke-direct {v7, v8}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v7, v8}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     invoke-direct {v4, v1, v6, v7}, Lcom/huawei/flexiblelayout/css/adapter/param/MethodSignature;-><init>(Ljava/lang/reflect/Method;Ljava/lang/Class;Lcom/huawei/flexiblelayout/css/adapter/param/Parameter$Generator;)V
 

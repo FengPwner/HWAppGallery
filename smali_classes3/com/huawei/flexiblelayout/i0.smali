@@ -27,11 +27,11 @@
     return-object v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/q02;->b()Lcom/huawei/appmarket/q02;
+    invoke-static {}, Lcom/huawei/appmarket/u02;->b()Lcom/huawei/appmarket/u02;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/q02;->c(Landroid/content/Context;)I
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/u02;->c(Landroid/content/Context;)I
 
     move-result v0
 

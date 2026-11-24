@@ -171,7 +171,7 @@
 
     .line 14
     .line 15
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -329,6 +329,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private readBefore()V
@@ -360,7 +361,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -527,6 +528,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private startStructure()V
@@ -727,7 +729,7 @@
 
     .line 25
     .line 26
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -883,6 +885,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public peek()I

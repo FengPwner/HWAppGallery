@@ -37,7 +37,7 @@
     if-lt v0, v1, :cond_0
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/e53;->k()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->k()Ljava/security/SecureRandom;
 
     move-result-object v0
 
@@ -76,7 +76,7 @@
 
     invoke-virtual {p0, p1}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
-    sget-object p1, Lcom/huawei/appmarket/l57;->b:Lorg/apache/http/conn/ssl/StrictHostnameVerifier;
+    sget-object p1, Lcom/huawei/appmarket/q57;->b:Lorg/apache/http/conn/ssl/StrictHostnameVerifier;
 
     invoke-virtual {p0, p1}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
     :try_end_0

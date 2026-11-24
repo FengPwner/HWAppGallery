@@ -581,13 +581,13 @@
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     new-instance v1, Lcom/huawei/appgallery/agwebview/choosefile/b$a;
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/agwebview/choosefile/b$a;-><init>(Lcom/huawei/appgallery/agwebview/choosefile/b;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/up1;->a(Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xp1;->a(Lcom/huawei/appmarket/np1;)V
 
     return-void
 .end method

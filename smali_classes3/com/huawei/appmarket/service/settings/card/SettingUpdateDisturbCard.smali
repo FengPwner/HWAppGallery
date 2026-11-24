@@ -21,7 +21,7 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;-><init>(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/us7;->c()Lcom/huawei/appmarket/us7;
+    invoke-static {}, Lcom/huawei/appmarket/at7;->c()Lcom/huawei/appmarket/at7;
 
     move-result-object p1
 
@@ -33,7 +33,7 @@
 
     const-string v1, "SettingUpdateDisturbCard"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/us7;->f(Ljava/lang/String;Lcom/huawei/appmarket/service/settings/card/l;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/at7;->f(Ljava/lang/String;Lcom/huawei/appmarket/service/settings/card/l;)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -125,12 +125,12 @@
 
     .line 42
     .line 43
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     .line 44
     .line 45
     .line 46
-    invoke-static {v1}, Lcom/huawei/appmarket/t98;->A0(Z)V
+    invoke-static {v1}, Lcom/huawei/appmarket/y98;->A0(Z)V
 
     .line 47
     .line 48
@@ -152,7 +152,7 @@
 
     .line 57
     .line 58
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -277,14 +277,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static o1(Landroid/content/Context;Z)V
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     .line 2
     .line 3
@@ -293,7 +292,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/t98;->A0(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/y98;->A0(Z)V
 
     .line 7
     .line 8
@@ -328,7 +327,7 @@
     move-result-object p0
 
     .line 23
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -482,7 +481,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -546,9 +544,9 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
-    invoke-static {}, Lcom/huawei/appmarket/t98;->e0()Z
+    invoke-static {}, Lcom/huawei/appmarket/y98;->e0()Z
 
     move-result v1
 
@@ -576,11 +574,11 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/nj5;->b(Landroid/content/Context;)Lcom/huawei/appmarket/nj5;
+    invoke-static {v1}, Lcom/huawei/appmarket/pj5;->b(Landroid/content/Context;)Lcom/huawei/appmarket/pj5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nj5;->a()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pj5;->a()Z
 
     move-result v1
 

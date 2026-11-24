@@ -777,11 +777,11 @@
 
     .line 40
     .line 41
-    new-instance v6, Lcom/huawei/appmarket/jc3;
+    new-instance v6, Lcom/huawei/appmarket/lc3;
 
     .line 42
     .line 43
-    invoke-direct {v6, v5}, Lcom/huawei/appmarket/jc3;-><init>(I)V
+    invoke-direct {v6, v5}, Lcom/huawei/appmarket/lc3;-><init>(I)V
 
     .line 44
     .line 45
@@ -790,7 +790,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {v6}, Lcom/huawei/appmarket/jc3;->b()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/lc3;->b()F
 
     .line 49
     .line 50
@@ -816,7 +816,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v6}, Lcom/huawei/appmarket/jc3;->c()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/lc3;->c()F
 
     .line 61
     .line 62
@@ -853,7 +853,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v6}, Lcom/huawei/appmarket/jc3;->a()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/lc3;->a()F
 
     .line 78
     .line 79
@@ -1060,7 +1060,7 @@
     or-int/2addr v6, v8
 
     .line 171
-    new-instance v7, Lcom/huawei/appmarket/a57;
+    new-instance v7, Lcom/huawei/appmarket/f57;
 
     .line 172
     .line 173
@@ -1068,7 +1068,7 @@
 
     .line 174
     .line 175
-    invoke-direct {v7, v8, v5, v6}, Lcom/huawei/appmarket/a57;-><init>(III)V
+    invoke-direct {v7, v8, v5, v6}, Lcom/huawei/appmarket/f57;-><init>(III)V
 
     .line 176
     .line 177
@@ -1149,7 +1149,7 @@
     move-result-object v2
 
     .line 215
-    check-cast v2, Lcom/huawei/appmarket/a57;
+    check-cast v2, Lcom/huawei/appmarket/f57;
 
     .line 216
     .line 217
@@ -1157,7 +1157,7 @@
 
     .line 218
     .line 219
-    invoke-static {v4, v1, v2}, Lcom/huawei/appmarket/gu0;->b(Ljava/util/List;ILcom/huawei/appmarket/a57;)V
+    invoke-static {v4, v1, v2}, Lcom/huawei/appmarket/gu0;->b(Ljava/util/List;ILcom/huawei/appmarket/f57;)V
 
     .line 220
     .line 221
@@ -1216,7 +1216,7 @@
     .line 260
 .end method
 
-.method private static b(Ljava/util/List;ILcom/huawei/appmarket/a57;)V
+.method private static b(Ljava/util/List;ILcom/huawei/appmarket/f57;)V
     .registers 12
 
     .line 1
@@ -1232,11 +1232,11 @@
 
     .line 6
     .line 7
-    new-instance p1, Lcom/huawei/appmarket/a57;
+    new-instance p1, Lcom/huawei/appmarket/f57;
 
     .line 8
     .line 9
-    invoke-direct {p1, p2}, Lcom/huawei/appmarket/a57;-><init>(Lcom/huawei/appmarket/a57;)V
+    invoke-direct {p1, p2}, Lcom/huawei/appmarket/f57;-><init>(Lcom/huawei/appmarket/f57;)V
 
     .line 10
     .line 11
@@ -1259,11 +1259,11 @@
     move-result-object v0
 
     .line 21
-    check-cast v0, Lcom/huawei/appmarket/a57;
+    check-cast v0, Lcom/huawei/appmarket/f57;
 
     .line 22
     .line 23
-    invoke-virtual {p2}, Lcom/huawei/appmarket/a57;->b()S
+    invoke-virtual {p2}, Lcom/huawei/appmarket/f57;->b()S
 
     .line 24
     .line 25
@@ -1271,7 +1271,7 @@
     move-result v1
 
     .line 27
-    invoke-virtual {v0}, Lcom/huawei/appmarket/a57;->b()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/f57;->b()S
 
     .line 28
     .line 29
@@ -1325,7 +1325,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p2}, Lcom/huawei/appmarket/a57;->d()S
+    invoke-virtual {p2}, Lcom/huawei/appmarket/f57;->d()S
 
     .line 52
     .line 53
@@ -1341,7 +1341,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {p2}, Lcom/huawei/appmarket/a57;->a()S
+    invoke-virtual {p2}, Lcom/huawei/appmarket/f57;->a()S
 
     .line 60
     .line 61
@@ -1357,7 +1357,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {v0}, Lcom/huawei/appmarket/a57;->d()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/f57;->d()S
 
     .line 68
     .line 69
@@ -1373,7 +1373,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v0}, Lcom/huawei/appmarket/a57;->a()S
+    invoke-virtual {v0}, Lcom/huawei/appmarket/f57;->a()S
 
     .line 76
     .line 77
@@ -1458,11 +1458,11 @@
 
     .line 111
     .line 112
-    iget v5, p2, Lcom/huawei/appmarket/a57;->a:I
+    iget v5, p2, Lcom/huawei/appmarket/f57;->a:I
 
     .line 113
     .line 114
-    iget v0, v0, Lcom/huawei/appmarket/a57;->a:I
+    iget v0, v0, Lcom/huawei/appmarket/f57;->a:I
 
     .line 115
     .line 116
@@ -1534,22 +1534,22 @@
     move-result-object p0
 
     .line 147
-    check-cast p0, Lcom/huawei/appmarket/a57;
+    check-cast p0, Lcom/huawei/appmarket/f57;
 
     .line 148
     .line 149
-    iget p1, p0, Lcom/huawei/appmarket/a57;->b:I
+    iget p1, p0, Lcom/huawei/appmarket/f57;->b:I
 
     .line 150
     .line 151
-    iget p2, p2, Lcom/huawei/appmarket/a57;->b:I
+    iget p2, p2, Lcom/huawei/appmarket/f57;->b:I
 
     .line 152
     .line 153
     add-int/2addr p1, p2
 
     .line 154
-    iput p1, p0, Lcom/huawei/appmarket/a57;->b:I
+    iput p1, p0, Lcom/huawei/appmarket/f57;->b:I
 
     .line 155
     .line 156
@@ -1560,7 +1560,7 @@
     add-int/2addr p1, v4
 
     .line 158
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/gu0;->b(Ljava/util/List;ILcom/huawei/appmarket/a57;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/gu0;->b(Ljava/util/List;ILcom/huawei/appmarket/f57;)V
 
     .line 159
     .line 160
@@ -1736,7 +1736,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/h57;",
+            "Lcom/huawei/appmarket/m57;",
             ">;"
         }
     .end annotation
@@ -1798,7 +1798,7 @@
     move-result-object v5
 
     .line 27
-    check-cast v5, Lcom/huawei/appmarket/a57;
+    check-cast v5, Lcom/huawei/appmarket/f57;
 
     .line 28
     .line 29
@@ -1829,11 +1829,11 @@
     move-result-object v8
 
     .line 41
-    check-cast v8, Lcom/huawei/appmarket/h57;
+    check-cast v8, Lcom/huawei/appmarket/m57;
 
     .line 42
     .line 43
-    invoke-virtual {v8, v5}, Lcom/huawei/appmarket/h57;->a(Lcom/huawei/appmarket/a57;)Z
+    invoke-virtual {v8, v5}, Lcom/huawei/appmarket/m57;->a(Lcom/huawei/appmarket/f57;)Z
 
     .line 44
     .line 45
@@ -1862,11 +1862,11 @@
 
     .line 54
     .line 55
-    new-instance v6, Lcom/huawei/appmarket/h57;
+    new-instance v6, Lcom/huawei/appmarket/m57;
 
     .line 56
     .line 57
-    invoke-direct {v6, v5}, Lcom/huawei/appmarket/h57;-><init>(Lcom/huawei/appmarket/a57;)V
+    invoke-direct {v6, v5}, Lcom/huawei/appmarket/m57;-><init>(Lcom/huawei/appmarket/f57;)V
 
     .line 58
     .line 59
@@ -1909,11 +1909,11 @@
     move-result-object v0
 
     .line 77
-    check-cast v0, Lcom/huawei/appmarket/h57;
+    check-cast v0, Lcom/huawei/appmarket/m57;
 
     .line 78
     .line 79
-    invoke-virtual {v0}, Lcom/huawei/appmarket/h57;->d()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/m57;->d()Ljava/util/ArrayList;
 
     .line 80
     .line 81

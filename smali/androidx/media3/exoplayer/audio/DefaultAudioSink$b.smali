@@ -37,7 +37,7 @@
     iget-object p1, p1, Landroidx/media3/exoplayer/audio/c;->a:Landroid/media/AudioDeviceInfo;
 
     :goto_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/qc1;->x(Landroid/media/AudioTrack;Landroid/media/AudioDeviceInfo;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/sc1;->x(Landroid/media/AudioTrack;Landroid/media/AudioDeviceInfo;)V
 
     return-void
 .end method

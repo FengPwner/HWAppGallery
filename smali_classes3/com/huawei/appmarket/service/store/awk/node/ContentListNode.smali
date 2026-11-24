@@ -36,7 +36,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->a()I
 
     .line 10
     .line 11
@@ -240,7 +240,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I

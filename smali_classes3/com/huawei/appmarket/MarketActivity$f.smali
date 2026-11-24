@@ -70,7 +70,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->C4(Lcom/huawei/appmarket/MarketActivity;)Lcom/huawei/appmarket/aq1;
+    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->E4(Lcom/huawei/appmarket/MarketActivity;)Lcom/huawei/appmarket/dq1;
 
     .line 6
     .line 7
@@ -82,7 +82,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->C4(Lcom/huawei/appmarket/MarketActivity;)Lcom/huawei/appmarket/aq1;
+    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->E4(Lcom/huawei/appmarket/MarketActivity;)Lcom/huawei/appmarket/dq1;
 
     .line 12
     .line 13
@@ -90,7 +90,7 @@
     move-result-object v0
 
     .line 15
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     .line 16
     .line 17
@@ -125,12 +125,12 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/t13;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/w13;->a()V
 
     .line 36
     .line 37
@@ -213,5 +213,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

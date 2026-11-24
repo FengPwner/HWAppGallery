@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aa5;
+.implements Lcom/huawei/appmarket/da5;
 .implements Lcom/bumptech/glide/load/model/a$a;
 
 
@@ -20,7 +20,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/aa5<",
+        "Lcom/huawei/appmarket/da5<",
         "Landroid/net/Uri;",
         "Ljava/io/InputStream;",
         ">;",
@@ -63,9 +63,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/co7;
+    new-instance v0, Lcom/huawei/appmarket/ho7;
 
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/co7;-><init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/ho7;-><init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
 
     return-object v0
 .end method

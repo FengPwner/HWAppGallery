@@ -25,19 +25,19 @@
 
 # instance fields
 .field private abis:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private accountZone:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private appMappingIPCRequest:Lcom/huawei/appmarket/service/externalservice/distribution/appmapping/request/AppMappingIPCRequest;
 
 .field private apps:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -50,52 +50,52 @@
 .end field
 
 .field private clientCapability:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private clientVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private density:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private harmonyDeviceType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private isSubUser:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private locale:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pcEmulator:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private phoneType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private timeZone:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private verify:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -165,7 +165,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -330,7 +330,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private buildHarmonyInfo(Lcom/huawei/appmarket/service/externalservice/distribution/appmapping/request/AppMappingIPCRequest$TargetHarmonyInfo;)Lcom/huawei/appgallery/serverreqkit/api/bean/HarmonyInfo;
@@ -437,7 +436,7 @@
     .registers 1
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->k()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->k()Ljava/lang/String;
 
     move-result-object v0
 
@@ -462,7 +461,7 @@
 
     const-string v1, ""
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ht7;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/nt7;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -472,11 +471,11 @@
 .method private static getTelephoneLanguage()Ljava/lang/String;
     .registers 2
 
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->i()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->m()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->m()Ljava/lang/String;
 
     move-result-object v1
 
@@ -534,7 +533,7 @@
     move-result-object v0
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->e()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -568,7 +567,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -607,11 +606,11 @@
     .line 46
     .line 47
     .line 48
-    sget v1, Lcom/huawei/appmarket/dn1;->i:I
+    sget v1, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 49
     .line 50
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->e(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->e(Landroid/content/Context;)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -624,7 +623,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {}, Lcom/huawei/appmarket/ed5;->a()Lcom/huawei/appmarket/ed5;
+    invoke-static {}, Lcom/huawei/appmarket/hd5;->a()Lcom/huawei/appmarket/hd5;
 
     .line 58
     .line 59
@@ -632,7 +631,7 @@
     move-result-object v0
 
     .line 61
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ed5;->b()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hd5;->b()Z
 
     .line 62
     .line 63
@@ -700,7 +699,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

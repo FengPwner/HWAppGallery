@@ -22,7 +22,7 @@
     return-void
 .end method
 
-.method static synthetic I0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)I
+.method static synthetic J0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)I
     .registers 1
 
     .line 1
@@ -31,7 +31,7 @@
     return p0
 .end method
 
-.method static synthetic J0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/webkit/WebView;
+.method static synthetic K0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/webkit/WebView;
     .registers 1
 
     .line 1
@@ -40,7 +40,7 @@
     return-object p0
 .end method
 
-.method static synthetic K0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/View;
+.method static synthetic L0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/View;
     .registers 1
 
     .line 1
@@ -49,7 +49,7 @@
     return-object p0
 .end method
 
-.method static synthetic L0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/content/Context;
+.method static synthetic M0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/content/Context;
     .registers 1
 
     .line 1
@@ -60,7 +60,7 @@
     return-object p0
 .end method
 
-.method static synthetic M0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
+.method static synthetic N0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
     .registers 2
 
     .line 1
@@ -71,16 +71,16 @@
     return-void
 .end method
 
-.method static synthetic N0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
+.method static synthetic O0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->Z()V
+    invoke-virtual {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->a0()V
 
     return-void
 .end method
 
-.method static synthetic O0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/ViewStub;
+.method static synthetic P0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/ViewStub;
     .registers 1
 
     .line 1
@@ -89,7 +89,7 @@
     return-object p0
 .end method
 
-.method private P0()V
+.method private Q0()V
     .registers 8
 
     .line 1
@@ -119,7 +119,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->c:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v2
 
@@ -129,7 +129,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     move-result v0
 
@@ -137,7 +137,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     move-result v0
 
@@ -147,7 +147,7 @@
 
     const/16 v1, 0x150
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -265,11 +265,11 @@
     return-void
 .end method
 
-.method public final U(Landroid/content/res/Configuration;)V
+.method public final V(Landroid/content/res/Configuration;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->U(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->V(Landroid/content/res/Configuration;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->X:Landroid/widget/LinearLayout;
 
@@ -281,13 +281,13 @@
 
     if-nez p1, :cond_0
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->P0()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->Q0()V
 
     :cond_0
     return-void
 .end method
 
-.method protected final j0(I)V
+.method protected final k0(I)V
     .registers 3
 
     .line 1
@@ -300,11 +300,11 @@
     return-void
 .end method
 
-.method public final l0(Landroid/app/Activity;)V
+.method public final m0(Landroid/app/Activity;)V
     .registers 5
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->l0(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->m0(Landroid/app/Activity;)V
 
     .line 2
     .line 3
@@ -351,7 +351,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 25
     .line 26
@@ -446,10 +446,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method protected final o0(I)V
+.method protected final p0(I)V
     .registers 4
 
     .line 1
@@ -511,7 +510,7 @@
     .line 2
     .line 3
     .line 4
-    const v0, 0x7f0a1649
+    const v0, 0x7f0a164a
 
     .line 5
     .line 6
@@ -532,7 +531,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 16
     .line 17
@@ -608,7 +607,7 @@
     .line 53
     .line 54
     :cond_0
-    invoke-direct {p0}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->P0()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->Q0()V
 
     .line 55
     .line 56
@@ -691,5 +690,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

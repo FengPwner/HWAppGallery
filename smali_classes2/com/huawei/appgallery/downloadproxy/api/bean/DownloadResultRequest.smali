@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/vv6;
+.annotation runtime Lcom/huawei/appmarket/zv6;
 .end annotation
 
 
@@ -34,7 +34,7 @@
 .field private advPlatform:Ljava/lang/String;
 
 .field private appDiffUnMatchReason:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -49,29 +49,29 @@
 .field private channelNo_:Ljava/lang/String;
 
 .field private ctype:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private detailId_:Ljava/lang/String;
 
 .field private detailType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private diffObjectType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private distWay:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private diversionLevel:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -80,7 +80,7 @@
 .field private downResult_:I
 
 .field private downUrlType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -91,34 +91,34 @@
 .field private familyShare_:Ljava/lang/String;
 
 .field private globalInstallTypeCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private globalTrace:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private installTypeCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private ipType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private maple_:I
 
 .field private mediaPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private packageInstallerParam:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -131,23 +131,23 @@
 .field private renew_:I
 
 .field private shareIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private submitType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private tId_:Ljava/lang/String;
 
 .field private thirdPartyPkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -266,7 +266,7 @@
     const-string v4, "task.getDlType_() = "
 
     .line 2
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -307,7 +307,7 @@
 
     const-string v4, "DownloadResultRequest"
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "clientApi"
 
@@ -355,7 +355,7 @@
 
     const-string v3, "aId"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ic8;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/nc8;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -381,7 +381,7 @@
 
     const-string v3, "channelNo"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/gp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/lp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -417,11 +417,11 @@
 
     if-ne v5, v8, :cond_2
 
-    sget-object v3, Lcom/huawei/appmarket/jv1;->a:Lcom/huawei/appmarket/jv1;
+    sget-object v3, Lcom/huawei/appmarket/nv1;->a:Lcom/huawei/appmarket/nv1;
 
     const-string v5, "you can\'t call this method in main thread!!!!!"
 
-    invoke-virtual {v3, v9, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v9, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -478,7 +478,7 @@
     :try_start_2
     const-string v11, "parseIp json exception"
 
-    invoke-static {v9, v11}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v11}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -516,7 +516,7 @@
     :try_start_4
     const-string v11, "parseIpType UnknownHostException exception"
 
-    invoke-static {v9, v11}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v11}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_3
@@ -552,7 +552,7 @@
     :catch_2
     const-string v3, "parseIpType json exception"
 
-    invoke-static {v9, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_9
     :goto_4
@@ -607,7 +607,7 @@
 
     const-string v1, "990001"
 
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_a
     invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->A()I
@@ -684,7 +684,7 @@
 
     const-string p2, "source"
 
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/gp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/lp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -700,7 +700,7 @@
 
     const-string p2, "subsource"
 
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/gp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/lp7;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -777,7 +777,7 @@
     move-result-object p2
 
     .line 8
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/eq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p2
 
@@ -804,7 +804,7 @@
 
     move-result-object p2
 
-    invoke-static {v4, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iput v6, p0, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadResultRequest;->renew_:I
 
@@ -829,7 +829,7 @@
 
     move-result-object p2
 
-    invoke-static {v4, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iput v0, p0, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadResultRequest;->renew_:I
 
@@ -887,7 +887,7 @@
 
     if-nez v0, :cond_11
 
-    invoke-static {p2}, Lcom/huawei/appmarket/gp7;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/lp7;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -912,11 +912,11 @@
     goto :goto_a
 
     :cond_12
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object p2
 
-    iget-object p2, p2, Lcom/huawei/appmarket/sn0;->d:Ljava/lang/String;
+    iget-object p2, p2, Lcom/huawei/appmarket/tn0;->d:Ljava/lang/String;
 
     goto :goto_9
 
@@ -929,11 +929,11 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadResultRequest;->callParam_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fv1;->v()Lcom/huawei/appmarket/no3;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/jv1;->v()Lcom/huawei/appmarket/po3;
 
     move-result-object p2
 
@@ -941,23 +941,23 @@
 
     if-eqz p2, :cond_13
 
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fv1;->v()Lcom/huawei/appmarket/no3;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/jv1;->v()Lcom/huawei/appmarket/po3;
 
     move-result-object p2
 
     iget-object v1, p0, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadResultRequest;->callType_:Ljava/lang/String;
 
-    check-cast p2, Lcom/huawei/appmarket/gv1;
+    check-cast p2, Lcom/huawei/appmarket/kv1;
 
     .line 11
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 12
-    invoke-static {v1}, Lcom/huawei/appmarket/ng;->f(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/mg;->f(Ljava/lang/String;)Z
 
     move-result p2
 
@@ -1061,7 +1061,7 @@
     :catch_3
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v2
 
@@ -1069,7 +1069,7 @@
 
     const-string v2, "catch an NumberFormatException when parse ctype"
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_15
     :goto_d
@@ -1093,7 +1093,7 @@
     :catch_4
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v2
 
@@ -1101,7 +1101,7 @@
 
     const-string v2, "catch an NumberFormatException when parse submitType"
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_16
     :goto_e
@@ -1125,7 +1125,7 @@
     :catch_5
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v2
 
@@ -1133,7 +1133,7 @@
 
     const-string v2, "catch an NumberFormatException when parse detailType"
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_17
     :goto_f
@@ -1157,7 +1157,7 @@
     :catch_6
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v2
 
@@ -1165,7 +1165,7 @@
 
     const-string v2, "catch an NumberFormatException when parse downUrlType"
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_18
     :goto_10
@@ -1194,7 +1194,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_9
     .catch Ljava/lang/NumberFormatException; {:try_start_9 .. :try_end_9} :catch_7
 
@@ -1203,7 +1203,7 @@
     :catch_7
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v1
 
@@ -1211,7 +1211,7 @@
 
     const-string v1, "catch an NumberFormatException when parse diversionLevel"
 
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_19
     :goto_11
@@ -1240,7 +1240,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_a
     .catch Ljava/lang/NumberFormatException; {:try_start_a .. :try_end_a} :catch_8
 
@@ -1249,7 +1249,7 @@
     :catch_8
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -1257,7 +1257,7 @@
 
     const-string v0, "catch an NumberFormatException when parse appDiffUnMatchReason"
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1a
     :goto_12
@@ -1286,7 +1286,7 @@
 
     move-result-object p2
 
-    invoke-static {v4, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_b
     .catch Ljava/lang/NumberFormatException; {:try_start_b .. :try_end_b} :catch_9
 
@@ -1295,7 +1295,7 @@
     :catch_9
     nop
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p2
 
@@ -1303,7 +1303,7 @@
 
     const-string p2, "catch an NumberFormatException when parse diffObjectType"
 
-    invoke-static {v4, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1b
     :goto_13

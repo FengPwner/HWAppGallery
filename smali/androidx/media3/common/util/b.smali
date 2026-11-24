@@ -35,11 +35,11 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ge8;->Q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/le8;->Q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/ge8;->Q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/le8;->Q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

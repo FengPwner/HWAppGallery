@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -21,17 +21,17 @@
 
 
 # instance fields
-.field private mCommentDiag:Lcom/huawei/appmarket/ll3;
+.field private mCommentDiag:Lcom/huawei/appmarket/nl3;
 
 .field private mPackageName:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     const-string p1, ""
 
@@ -56,29 +56,29 @@
     return-object p0
 .end method
 
-.method static synthetic access$300(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/ll3;
+.method static synthetic access$300(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/nl3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->mCommentDiag:Lcom/huawei/appmarket/ll3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->mCommentDiag:Lcom/huawei/appmarket/nl3;
 
     return-object p0
 .end method
 
-.method static synthetic access$302(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;Lcom/huawei/appmarket/ll3;)Lcom/huawei/appmarket/ll3;
+.method static synthetic access$302(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;Lcom/huawei/appmarket/nl3;)Lcom/huawei/appmarket/nl3;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->mCommentDiag:Lcom/huawei/appmarket/ll3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->mCommentDiag:Lcom/huawei/appmarket/nl3;
 
     return-object p1
 .end method
 
-.method static synthetic access$400(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/c72$b;
+.method static synthetic access$400(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/g72$b;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     return-object p0
 .end method
@@ -86,13 +86,13 @@
 .method private setRetCodeAndExit(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/c72$b;->setResult(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/g72$b;->setResult(I)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method
@@ -110,9 +110,9 @@
 .method public onAction()V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->getCallerPkg()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->getCallerPkg()Ljava/lang/String;
 
     move-result-object v0
 
@@ -120,13 +120,13 @@
 
     const-string v0, "AppValidate"
 
-    const-class v1, Lcom/huawei/appmarket/ai3;
+    const-class v1, Lcom/huawei/appmarket/ci3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ai3;
+    check-cast v0, Lcom/huawei/appmarket/ci3;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->mPackageName:Ljava/lang/String;
 
@@ -136,7 +136,7 @@
 
     invoke-direct {v2, p0, v3}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction$b;-><init>(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction$a;)V
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ai3;->a(Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ci3;->a(Ljava/lang/String;Lcom/huawei/appmarket/di3;)V
 
     return-void
 .end method

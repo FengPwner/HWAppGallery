@@ -170,7 +170,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/x63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/a73;->a([B)Ljava/lang/String;
 
     move-result-object v1
     :try_end_1
@@ -732,23 +732,23 @@
     invoke-virtual {p1}, Ljava/io/File;->mkdirs()Z
 
     :cond_1
-    new-instance p1, Lcom/huawei/appmarket/ru8;
+    new-instance p1, Lcom/huawei/appmarket/xu8;
 
-    invoke-direct {p1, p0}, Lcom/huawei/appmarket/ru8;-><init>(Ljava/io/File;)V
+    invoke-direct {p1, p0}, Lcom/huawei/appmarket/xu8;-><init>(Ljava/io/File;)V
 
-    new-instance p0, Lcom/huawei/appmarket/wu8;
+    new-instance p0, Lcom/huawei/appmarket/cv8;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/wu8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/cv8;-><init>()V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/wu8;->B()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cv8;->B()V
 
     sget-object v2, Lcom/huawei/appmarket/hz0;->d:Lcom/huawei/appmarket/hz0;
 
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/wu8;->u(Lcom/huawei/appmarket/hz0;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/cv8;->u(Lcom/huawei/appmarket/hz0;)V
 
     sget-object v2, Lcom/huawei/appmarket/gz0;->f:Lcom/huawei/appmarket/gz0;
 
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/wu8;->t(Lcom/huawei/appmarket/gz0;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/cv8;->t(Lcom/huawei/appmarket/gz0;)V
 
     const-wide/16 v2, 0x0
 
@@ -758,12 +758,12 @@
 
     const-wide/32 p2, 0x2000000
 
-    invoke-virtual {p1, v1, p0, p2, p3}, Lcom/huawei/appmarket/ru8;->a(Ljava/io/File;Lcom/huawei/appmarket/wu8;J)V
+    invoke-virtual {p1, v1, p0, p2, p3}, Lcom/huawei/appmarket/xu8;->a(Ljava/io/File;Lcom/huawei/appmarket/cv8;J)V
 
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p1, v1, p0, p2, p3}, Lcom/huawei/appmarket/ru8;->a(Ljava/io/File;Lcom/huawei/appmarket/wu8;J)V
+    invoke-virtual {p1, v1, p0, p2, p3}, Lcom/huawei/appmarket/xu8;->a(Ljava/io/File;Lcom/huawei/appmarket/cv8;J)V
     :try_end_0
     .catch Lnet/lingala/zip4j/exception/ZipException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

@@ -1,4 +1,4 @@
-.class public interface abstract Lcom/huawei/appmarket/iu1$a;
+.class final synthetic Lcom/huawei/appmarket/iu1$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,11 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
-    name = "a"
+    accessFlags = 0x1008
+    name = null
 .end annotation
-
-
-# virtual methods
-.method public abstract a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
-.end method

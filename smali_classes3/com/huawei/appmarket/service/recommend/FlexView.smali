@@ -176,7 +176,7 @@
     .line 27
     .line 28
     .line 29
-    new-instance p0, Lcom/huawei/appmarket/cn5;
+    new-instance p0, Lcom/huawei/appmarket/dn5;
 
     .line 30
     .line 31
@@ -184,12 +184,12 @@
 
     .line 32
     .line 33
-    invoke-direct {p0, v1, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p0, v1, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 34
     .line 35
     .line 36
-    invoke-static {p0}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {p0}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 37
     .line 38
@@ -274,7 +274,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private getFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -389,7 +388,7 @@
 
     const-string v1, "fragment manager is state saved,do not commit fragment"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

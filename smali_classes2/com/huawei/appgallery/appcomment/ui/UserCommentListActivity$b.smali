@@ -113,7 +113,7 @@
 
     const-string p1, "UserCommentListActivity onPageSelected"
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nk;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mk;->a(Ljava/lang/String;)V
 
     :cond_2
     return-void

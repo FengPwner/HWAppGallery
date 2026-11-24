@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appmarket/pv0;",
         ">;"
     }
@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/pv0;",
             ">;)V"
         }
@@ -59,7 +59,7 @@
 
     invoke-static {v0}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->Q3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v1
 
@@ -67,13 +67,13 @@
 
     if-eqz v1, :cond_3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -95,7 +95,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/pv0;->b()I
 
@@ -162,7 +162,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->I3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;)Lcom/huawei/appmarket/wb8;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->I3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;)Lcom/huawei/appmarket/bc8;
 
     move-result-object p1
 
@@ -174,10 +174,10 @@
 
     invoke-static {v0, p1, p1}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->M3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;ZZ)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->J3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/wb8;)V
+    invoke-static {v0, v1}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->J3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/bc8;)V
 
     :cond_1
-    iget-object p1, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->t0:Lcom/huawei/appmarket/qo3;
+    iget-object p1, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->t0:Lcom/huawei/appmarket/so3;
 
     invoke-static {v0}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->G3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;)Lcom/huawei/appgallery/forum/base/card/bean/Post;
 
@@ -187,15 +187,15 @@
 
     move-result-wide v2
 
-    invoke-interface {p1, v2, v3}, Lcom/huawei/appmarket/qo3;->a(J)Lcom/huawei/appmarket/ev0;
+    invoke-interface {p1, v2, v3}, Lcom/huawei/appmarket/so3;->a(J)Lcom/huawei/appmarket/ev0;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    iget-object p1, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->t0:Lcom/huawei/appmarket/qo3;
+    iget-object p1, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->t0:Lcom/huawei/appmarket/so3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/qo3;->b()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/so3;->b()V
 
     :cond_2
     invoke-static {v0, v1}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->L3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Ljava/lang/CharSequence;)V
@@ -234,7 +234,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     iget-object p1, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->v0:Lcom/huawei/appgallery/forum/posts/view/PostDetailFragment;
 
@@ -247,7 +247,7 @@
     :cond_3
     const-string p1, "comment result fail."
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_0

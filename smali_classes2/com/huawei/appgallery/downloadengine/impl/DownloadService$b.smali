@@ -58,13 +58,13 @@
 
     if-eqz p2, :cond_2
 
-    sget-object p2, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object p2, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string v0, "DownloadTaskChecker: one task finished"
 
     const-string v1, "HiAppDownload"
 
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appgallery/downloadengine/impl/DownloadService;->b()Z
 
@@ -74,7 +74,7 @@
 
     const-string v0, "DownloadService task allDone, stop service"
 
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_0
     new-instance p2, Landroid/content/Intent;
@@ -92,11 +92,11 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object p1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     const-string p2, "failed to stop service, catch a Exception"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-static {}, Lcom/huawei/appgallery/downloadengine/impl/r;->k()V

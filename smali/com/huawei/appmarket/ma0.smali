@@ -3,18 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/cu6;
-.implements Lcom/huawei/appmarket/yc4;
+.implements Lcom/huawei/appmarket/gu6;
+.implements Lcom/huawei/appmarket/ad4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/cu6<",
+        "Lcom/huawei/appmarket/gu6<",
         "Landroid/graphics/Bitmap;",
         ">;",
-        "Lcom/huawei/appmarket/yc4;"
+        "Lcom/huawei/appmarket/ad4;"
     }
 .end annotation
 
@@ -286,7 +286,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/ma0;->b:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ie8;->c(Landroid/graphics/Bitmap;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ne8;->c(Landroid/graphics/Bitmap;)I
 
     move-result v0
 

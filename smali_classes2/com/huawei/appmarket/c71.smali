@@ -72,28 +72,28 @@
     goto :goto_1
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p0, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v1, "closeCursor ex : Exception"
 
     :goto_0
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
     move-exception p0
 
-    sget-object v1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v2, "closeCursor ex:"
 
-    invoke-virtual {v1, v0, v2, p0}, Lcom/huawei/appmarket/m91;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v0, v2, p0}, Lcom/huawei/appmarket/n91;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_1
 
     :catch_2
-    sget-object p0, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p0, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v1, "closeCursor ex: SQLiteException"
 
@@ -140,11 +140,11 @@
 
     if-nez v2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "delete: db is null"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -164,24 +164,24 @@
     goto :goto_1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "delete ex : Exception"
 
     :goto_0
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "delete ex: IllegalStateException"
 
     goto :goto_0
 
     :catch_2
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "delete ex: SQLiteException"
 
@@ -209,7 +209,7 @@
     return-object v0
 .end method
 
-.method public final e(Lcom/huawei/appmarket/f91;)J
+.method public final e(Lcom/huawei/appmarket/g91;)J
     .registers 8
 
     .line 1
@@ -218,7 +218,7 @@
     const-wide/16 v1, -0x1
 
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/f91;->toRecord()Landroid/content/ContentValues;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g91;->toRecord()Landroid/content/ContentValues;
 
     move-result-object p1
 
@@ -228,11 +228,11 @@
 
     if-nez v3, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insert (bean): db is null"
 
-    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-wide v1
 
@@ -254,24 +254,24 @@
     goto :goto_1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insert ex : Exception"
 
     :goto_0
-    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insert ex : IllegalStateException"
 
     goto :goto_0
 
     :catch_2
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insert ex : SQLiteException"
 
@@ -286,7 +286,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/f91;",
+            "Lcom/huawei/appmarket/g91;",
             ">(",
             "Ljava/util/List<",
             "TT;>;)V"
@@ -316,11 +316,11 @@
 
     if-nez v2, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insert(List): db is null"
 
-    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_4
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_2
@@ -338,7 +338,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -354,7 +354,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0
@@ -373,13 +373,13 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/f91;
+    check-cast v3, Lcom/huawei/appmarket/g91;
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/c71;->d()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/f91;->getInsertSqlStatement(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/g91;->getInsertSqlStatement(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -404,9 +404,9 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/f91;
+    check-cast v4, Lcom/huawei/appmarket/g91;
 
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/f91;->toRecord(Landroid/database/sqlite/SQLiteStatement;)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/g91;->toRecord(Landroid/database/sqlite/SQLiteStatement;)V
 
     invoke-virtual {v3}, Landroid/database/sqlite/SQLiteStatement;->executeInsert()J
 
@@ -429,7 +429,7 @@
     :catch_1
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -446,17 +446,17 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
     :catch_2
     :try_start_4
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insertBatch ex : IllegalStateException"
 
-    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -472,7 +472,7 @@
     :catch_3
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -482,11 +482,11 @@
 
     :catch_4
     :try_start_6
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v3, "insertBatch ex :SQLiteException"
 
-    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -502,7 +502,7 @@
     :catch_5
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -527,7 +527,7 @@
     :catch_6
     move-exception v2
 
-    sget-object v3, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v3, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -543,7 +543,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_5
@@ -612,7 +612,7 @@
 
     .line 16
     .line 17
-    sget-object v4, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v4, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 18
     .line 19
@@ -620,7 +620,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -689,7 +689,7 @@
 
     .line 50
     :catch_0
-    sget-object v4, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v4, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 51
     .line 52
@@ -698,7 +698,7 @@
     .line 53
     .line 54
     :goto_0
-    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -707,11 +707,11 @@
 
     .line 58
     :catch_1
-    sget-object v4, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v4, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 59
     .line 60
-    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -720,7 +720,7 @@
 
     .line 64
     :catch_2
-    sget-object v4, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v4, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 65
     .line 66
@@ -751,7 +751,7 @@
 
     .line 76
     .line 77
-    invoke-static {p1}, Lcom/huawei/appmarket/j91;->c(Ljava/lang/Class;)Lcom/huawei/appmarket/f91;
+    invoke-static {p1}, Lcom/huawei/appmarket/k91;->c(Ljava/lang/Class;)Lcom/huawei/appmarket/g91;
 
     .line 78
     .line 79
@@ -763,7 +763,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/f91;->toBean(Landroid/database/Cursor;)V
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/g91;->toBean(Landroid/database/Cursor;)V
 
     .line 84
     .line 85
@@ -789,11 +789,11 @@
     .line 92
     :catch_3
     :try_start_2
-    sget-object v4, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v4, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 93
     .line 94
-    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v1, v0}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -812,7 +812,7 @@
     .line 101
     :catch_4
     :try_start_3
-    sget-object v0, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object v0, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 102
     .line 103
@@ -820,7 +820,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -1156,7 +1156,7 @@
     .line 426
 .end method
 
-.method public final i(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
+.method public final i(Lcom/huawei/appmarket/g91;Ljava/lang/String;[Ljava/lang/String;)I
     .registers 8
 
     .line 1
@@ -1171,11 +1171,11 @@
 
     if-nez v2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "update: db is null"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -1184,7 +1184,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/f91;->toRecord()Landroid/content/ContentValues;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g91;->toRecord()Landroid/content/ContentValues;
 
     move-result-object p1
 
@@ -1198,17 +1198,17 @@
     goto :goto_1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "update ex: IllegalStateException"
 
     :goto_0
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "update ex : SQLiteException"
 
@@ -1232,12 +1232,12 @@
 
     if-nez v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updates(List): list is null or size = 0."
 
     :goto_0
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1263,7 +1263,7 @@
 
     if-eq v1, v3, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updates(List): list.size() != whereArgs.size()"
 
@@ -1279,11 +1279,11 @@
 
     if-nez v1, :cond_4
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updates(List): db is null"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_2
@@ -1301,7 +1301,7 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1315,7 +1315,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_1
@@ -1338,9 +1338,9 @@
 
     move-result-object v5
 
-    check-cast v5, Lcom/huawei/appmarket/f91;
+    check-cast v5, Lcom/huawei/appmarket/g91;
 
-    invoke-static {v3, v5, p3}, Lcom/huawei/appmarket/j91;->h(Ljava/lang/String;Lcom/huawei/appmarket/f91;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v5, p3}, Lcom/huawei/appmarket/k91;->h(Ljava/lang/String;Lcom/huawei/appmarket/g91;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -1369,9 +1369,9 @@
 
     move-result-object v6
 
-    check-cast v6, Lcom/huawei/appmarket/f91;
+    check-cast v6, Lcom/huawei/appmarket/g91;
 
-    invoke-virtual {v6, v3}, Lcom/huawei/appmarket/f91;->toRecord(Landroid/database/sqlite/SQLiteStatement;)V
+    invoke-virtual {v6, v3}, Lcom/huawei/appmarket/g91;->toRecord(Landroid/database/sqlite/SQLiteStatement;)V
 
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1411,7 +1411,7 @@
     :catch_1
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1425,17 +1425,17 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
     :catch_2
     :try_start_4
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updateBatch ex : IllegalStateException"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1450,11 +1450,11 @@
 
     :catch_3
     :try_start_6
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updateBatch ex :SQLiteException"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -1482,7 +1482,7 @@
     :catch_4
     move-exception p2
 
-    sget-object p3, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p3, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1496,7 +1496,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_8
     :goto_5
@@ -1504,7 +1504,7 @@
 
     :cond_9
     :goto_6
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "updates(List): whereArgs is null or size = 0."
 

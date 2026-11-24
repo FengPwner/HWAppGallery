@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private w:Lcom/huawei/appmarket/ej7;
+.field private w:Lcom/huawei/appmarket/kj7;
 
 
 # direct methods
@@ -16,7 +16,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method
@@ -29,7 +29,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method
@@ -90,7 +90,7 @@
 
     const-string p2, "onMeasure error"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -108,7 +108,7 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     .line 6
     .line 7
@@ -254,11 +254,11 @@
     .line 137
 .end method
 
-.method public setExtendClick(Lcom/huawei/appmarket/ej7;)V
+.method public setExtendClick(Lcom/huawei/appmarket/kj7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/ej7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->w:Lcom/huawei/appmarket/kj7;
 
     return-void
 .end method

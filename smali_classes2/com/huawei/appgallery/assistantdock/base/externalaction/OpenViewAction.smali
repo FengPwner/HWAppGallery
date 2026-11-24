@@ -20,11 +20,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/gamebox/plugin/gameservice/action/IGameServiceAction;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/gamebox/plugin/gameservice/action/IGameServiceAction;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     const/4 p1, 0x0
 
@@ -53,7 +53,7 @@
     move-result-object v0
 
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v1, v1, Landroid/app/Activity;
 
@@ -63,7 +63,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v2, Landroid/app/Activity;
 
@@ -80,7 +80,7 @@
 
     const-string v0, "startActivity error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -98,13 +98,13 @@
 
     const-string v2, "start open view from game service"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v3}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v3}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v3
 
@@ -124,16 +124,16 @@
 
     const-string v0, "taskId null"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ue0;->c()Lcom/huawei/appmarket/ue0;
+    invoke-static {}, Lcom/huawei/appmarket/ve0;->c()Lcom/huawei/appmarket/ve0;
 
     move-result-object v3
 
@@ -155,13 +155,13 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ue0;->c()Lcom/huawei/appmarket/ue0;
+    invoke-static {}, Lcom/huawei/appmarket/ve0;->c()Lcom/huawei/appmarket/ve0;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/ue0;->d(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/ve0;->d(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -179,13 +179,13 @@
 
     invoke-direct {v0, v3}, Lcom/huawei/secure/android/common/intent/SafeIntent;-><init>(Landroid/content/Intent;)V
 
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     invoke-virtual {v0}, Lcom/huawei/secure/android/common/intent/SafeIntent;->getAction()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-static {v3, v5, v0}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenViewActionRegistry;->getAction(Lcom/huawei/appmarket/c72$b;Ljava/lang/String;Lcom/huawei/secure/android/common/intent/SafeIntent;)Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;
+    invoke-static {v3, v5, v0}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenViewActionRegistry;->getAction(Lcom/huawei/appmarket/g72$b;Ljava/lang/String;Lcom/huawei/secure/android/common/intent/SafeIntent;)Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;
 
     move-result-object v0
 
@@ -193,36 +193,36 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/np3;->onAction()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pp3;->onAction()V
 
     goto :goto_0
 
     :cond_1
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v2, Landroid/content/Intent;
 
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/c72$b;->startActivity(Landroid/content/Intent;)V
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/g72$b;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_2
-    instance-of v3, v2, Lcom/huawei/appmarket/cn5;
+    instance-of v3, v2, Lcom/huawei/appmarket/dn5;
 
     if-eqz v3, :cond_4
 
-    check-cast v2, Lcom/huawei/appmarket/cn5;
+    check-cast v2, Lcom/huawei/appmarket/dn5;
 
     :try_start_1
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v3, v3, Landroid/app/Activity;
 
@@ -230,7 +230,7 @@
 
     new-instance v3, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     move-result-object v5
 
@@ -248,24 +248,24 @@
 
     move-result v0
 
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v3, Landroid/app/Activity;
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/hd4;->p(Landroid/app/Activity;I)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/jd4;->p(Landroid/app/Activity;I)V
 
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object v0
 
-    iget-object v3, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v3, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v3, Landroid/app/Activity;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -287,26 +287,26 @@
 
     if-eqz v0, :cond_6
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v0, v0, Landroid/app/Activity;
 
     if-eqz v0, :cond_6
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v1, Landroid/app/Activity;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->V2(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->W2(Landroid/content/Context;)V
 
     :cond_6
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     :cond_7
     :goto_0
@@ -320,7 +320,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/np3;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/pp3;->onActivityResult(IILandroid/content/Intent;)V
 
     :cond_0
     return-void
@@ -350,21 +350,21 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v0, v0, Landroid/app/Activity;
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     check-cast v1, Landroid/app/Activity;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->V2(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->W2(Landroid/content/Context;)V
 
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/externalaction/OpenViewAction;->openViewAction:Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;
@@ -380,9 +380,9 @@
     return-void
 
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method

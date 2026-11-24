@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bm3;
+.implements Lcom/huawei/appmarket/dm3;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/t51;->d(Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/bm3;)V
+    value = Lcom/huawei/appmarket/t51;->d(Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/dm3;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,13 +22,13 @@
 
 .field final synthetic b:Lcom/huawei/appmarket/s51;
 
-.field final synthetic c:Lcom/huawei/appmarket/bm3;
+.field final synthetic c:Lcom/huawei/appmarket/dm3;
 
 .field final synthetic d:Lcom/huawei/appmarket/t51;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/bm3;)V
+.method constructor <init>(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/dm3;)V
     .registers 5
 
     .line 1
@@ -38,7 +38,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/t51$a;->b:Lcom/huawei/appmarket/s51;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/t51$a;->c:Lcom/huawei/appmarket/bm3;
+    iput-object p4, p0, Lcom/huawei/appmarket/t51$a;->c:Lcom/huawei/appmarket/dm3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,7 +61,7 @@
 
     const-string v2, "CreateShortcutUtil"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -134,7 +134,7 @@
     const/4 v5, 0x0
 
     :goto_0
-    iget-object v0, p0, Lcom/huawei/appmarket/t51$a;->c:Lcom/huawei/appmarket/bm3;
+    iget-object v0, p0, Lcom/huawei/appmarket/t51$a;->c:Lcom/huawei/appmarket/dm3;
 
     iget-object v1, p0, Lcom/huawei/appmarket/t51$a;->d:Lcom/huawei/appmarket/t51;
 
@@ -146,7 +146,7 @@
 
     invoke-virtual {v1}, Lcom/huawei/appmarket/t51;->g()V
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/t51;->b(Lcom/huawei/appmarket/bm3;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/t51;->b(Lcom/huawei/appmarket/dm3;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -155,7 +155,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/t51$a;->b:Lcom/huawei/appmarket/s51;
 
-    invoke-static {v1, p1, v0, p0}, Lcom/huawei/appmarket/t51;->a(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/bm3;)V
+    invoke-static {v1, p1, v0, p0}, Lcom/huawei/appmarket/t51;->a(Lcom/huawei/appmarket/t51;Landroid/content/Context;Lcom/huawei/appmarket/s51;Lcom/huawei/appmarket/dm3;)V
 
     goto :goto_1
 
@@ -169,7 +169,7 @@
     :cond_8
     invoke-virtual {v1}, Lcom/huawei/appmarket/t51;->g()V
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/t51;->b(Lcom/huawei/appmarket/bm3;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/t51;->b(Lcom/huawei/appmarket/dm3;Ljava/lang/String;)V
 
     :goto_1
     return-void

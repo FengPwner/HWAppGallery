@@ -54,24 +54,7 @@
 
 
 # virtual methods
-.method public final a()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/caverock/androidsvg/g$n0;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/caverock/androidsvg/g$j;->h:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final h(Lcom/caverock/androidsvg/g$n0;)V
+.method public final g(Lcom/caverock/androidsvg/g$n0;)V
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -112,4 +95,20 @@
     invoke-direct {v0, p1}, Lcom/caverock/androidsvg/SVGParseException;-><init>(Ljava/lang/String;)V
 
     throw v0
+.end method
+
+.method public final getChildren()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/caverock/androidsvg/g$n0;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/caverock/androidsvg/g$j;->h:Ljava/util/List;
+
+    return-object v0
 .end method

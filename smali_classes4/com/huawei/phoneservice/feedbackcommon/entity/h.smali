@@ -5,7 +5,7 @@
 
 # instance fields
 .field public a:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemId"
     .end annotation
 .end field

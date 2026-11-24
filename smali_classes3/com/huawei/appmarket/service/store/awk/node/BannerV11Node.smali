@@ -6,7 +6,7 @@
 # instance fields
 .field private n:Lcom/huawei/appmarket/service/store/awk/card/BannerV11Card;
 
-.field private o:Lcom/huawei/appmarket/du4;
+.field private o:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -89,9 +89,9 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->n:Lcom/huawei/appmarket/service/store/awk/card/BannerV11Card;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->o:Lcom/huawei/appmarket/du4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->o:Lcom/huawei/appmarket/gu4;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->n:Lcom/huawei/appmarket/service/store/awk/card/BannerV11Card;
 
@@ -112,7 +112,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
@@ -133,7 +133,7 @@
     return-void
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -149,13 +149,13 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 11
     .line 12
@@ -322,19 +322,18 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->o:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV11Node;->o:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -382,7 +381,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -483,7 +482,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;

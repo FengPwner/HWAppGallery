@@ -15,7 +15,7 @@
 
 .field private o0:Z
 
-.field protected p0:Lcom/huawei/appmarket/ap1;
+.field protected p0:Lcom/huawei/appmarket/dp1;
 
 
 # direct methods
@@ -30,11 +30,11 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->o0:Z
 
-    new-instance v0, Lcom/huawei/appmarket/ap1;
+    new-instance v0, Lcom/huawei/appmarket/dp1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ap1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/dp1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
     return-void
 .end method
@@ -129,9 +129,9 @@
     .line 1
     const/4 p2, 0x1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ap1;->q(IZ)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/dp1;->q(IZ)V
 
     return-void
 .end method
@@ -211,13 +211,13 @@
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_2
-    iget-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iget-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
     iget-boolean p3, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->o0:Z
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/ap1;->y(Z)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/dp1;->y(Z)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iget-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -231,15 +231,15 @@
 
     move-object v2, p1
 
-    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/ap1;->v(Landroid/view/View;Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/dp1;->v(Landroid/view/View;Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    iget-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iget-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
     new-instance p3, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment$a;
 
     invoke-direct {p3, p0}, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment$a;-><init>(Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;)V
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/gf1;->e(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/if1;->e(Landroid/view/View$OnClickListener;)V
 
     return-object p1
 .end method

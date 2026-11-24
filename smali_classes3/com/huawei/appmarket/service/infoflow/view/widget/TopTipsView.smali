@@ -176,7 +176,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static b(Lcom/huawei/appmarket/service/infoflow/view/widget/TopTipsView;Landroid/view/animation/Animation$AnimationListener;)V
@@ -363,7 +362,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private c(Landroid/content/Context;)V
@@ -522,7 +520,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private e(FFLandroid/view/animation/Animation$AnimationListener;)V
@@ -535,9 +532,9 @@
 
     invoke-direct {v0, v1, v1, p1, p2}, Landroid/view/animation/ScaleAnimation;-><init>(FFFF)V
 
-    new-instance p1, Lcom/huawei/appmarket/yu4;
+    new-instance p1, Lcom/huawei/appmarket/bv4;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/yu4;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/bv4;-><init>()V
 
     invoke-virtual {v0, p1}, Landroid/view/animation/Animation;->setInterpolator(Landroid/view/animation/Interpolator;)V
 

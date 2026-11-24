@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/hmf/services/ui/f;
-.super Lcom/huawei/appmarket/fn;
+.super Lcom/huawei/appmarket/en;
 .source "SourceFile"
 
 
@@ -57,7 +57,7 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/fn;-><init>(Ljava/lang/Class;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/en;-><init>(Ljava/lang/Class;)V
 
     iput-object p2, p0, Lcom/huawei/hmf/services/ui/f;->c:Ljava/lang/Class;
 

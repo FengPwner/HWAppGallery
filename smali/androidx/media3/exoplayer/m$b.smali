@@ -23,11 +23,11 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroidx/media3/exoplayer/m;ZLjava/lang/String;)Lcom/huawei/appmarket/t16;
+.method public static a(Landroid/content/Context;Landroidx/media3/exoplayer/m;ZLjava/lang/String;)Lcom/huawei/appmarket/v16;
     .registers 4
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/u55;->l0(Landroid/content/Context;)Lcom/huawei/appmarket/u55;
+    invoke-static {p0}, Lcom/huawei/appmarket/x55;->l0(Landroid/content/Context;)Lcom/huawei/appmarket/x55;
 
     move-result-object p0
 
@@ -37,31 +37,31 @@
 
     const-string p1, "MediaMetricsService unavailable."
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/cy4;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/fy4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance p0, Lcom/huawei/appmarket/t16;
+    new-instance p0, Lcom/huawei/appmarket/v16;
 
-    invoke-static {}, Lcom/huawei/appmarket/hz;->i()Landroid/media/metrics/LogSessionId;
+    invoke-static {}, Lcom/huawei/appmarket/iz;->i()Landroid/media/metrics/LogSessionId;
 
     move-result-object p1
 
-    invoke-direct {p0, p1, p3}, Lcom/huawei/appmarket/t16;-><init>(Landroid/media/metrics/LogSessionId;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p3}, Lcom/huawei/appmarket/v16;-><init>(Landroid/media/metrics/LogSessionId;Ljava/lang/String;)V
 
     return-object p0
 
     :cond_0
     if-eqz p2, :cond_1
 
-    invoke-virtual {p1, p0}, Landroidx/media3/exoplayer/m;->g0(Lcom/huawei/appmarket/u55;)V
+    invoke-virtual {p1, p0}, Landroidx/media3/exoplayer/m;->g0(Lcom/huawei/appmarket/x55;)V
 
     :cond_1
-    new-instance p1, Lcom/huawei/appmarket/t16;
+    new-instance p1, Lcom/huawei/appmarket/v16;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/u55;->n0()Landroid/media/metrics/LogSessionId;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/x55;->n0()Landroid/media/metrics/LogSessionId;
 
     move-result-object p0
 
-    invoke-direct {p1, p0, p3}, Lcom/huawei/appmarket/t16;-><init>(Landroid/media/metrics/LogSessionId;Ljava/lang/String;)V
+    invoke-direct {p1, p0, p3}, Lcom/huawei/appmarket/v16;-><init>(Landroid/media/metrics/LogSessionId;Ljava/lang/String;)V
 
     return-object p1
 .end method

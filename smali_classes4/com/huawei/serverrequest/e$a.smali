@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gd3;
+.implements Lcom/huawei/appmarket/id3;
 
 
 # annotations
@@ -24,25 +24,25 @@
 
 .field private c:Ljava/lang/String;
 
-.field private d:Lcom/huawei/appmarket/gd3;
+.field private d:Lcom/huawei/appmarket/id3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/gd3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/id3;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iput-object p1, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/gd3;->L()Ljava/io/InputStream;
+    invoke-interface {p1}, Lcom/huawei/appmarket/id3;->L()Ljava/io/InputStream;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/serverrequest/e$a;->b:Ljava/io/InputStream;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/gd3;->b()J
+    invoke-interface {p1}, Lcom/huawei/appmarket/id3;->b()J
 
     move-result-wide v0
 
@@ -124,9 +124,9 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     :try_start_1
-    iget-object v2, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iget-object v2, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/gd3;->a()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/huawei/appmarket/id3;->a()Ljava/lang/String;
 
     move-result-object v2
 
@@ -183,11 +183,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/gd3;->c()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/id3;->c()I
 
     move-result v0
 
@@ -203,11 +203,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/gd3;->d()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/id3;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -231,11 +231,11 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/gd3;->headers()Ljava/util/Map;
+    invoke-interface {v0}, Lcom/huawei/appmarket/id3;->headers()Ljava/util/Map;
 
     move-result-object v0
 
@@ -252,11 +252,11 @@
 .method public final url()Ljava/lang/String;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/gd3;
+    iget-object v0, p0, Lcom/huawei/serverrequest/e$a;->d:Lcom/huawei/appmarket/id3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/gd3;->url()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/id3;->url()Ljava/lang/String;
 
     move-result-object v0
 

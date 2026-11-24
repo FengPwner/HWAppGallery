@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/uf6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/wf6;->a:[I
 
     const/4 v1, 0x0
 

@@ -47,7 +47,7 @@
 
     iput-object p3, p0, Lcom/huawei/hianalytics/framework/d0;->c:Lcom/huawei/hianalytics/framework/config/RomAttributeCollector;
 
-    invoke-static {p4}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p4}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
@@ -690,7 +690,7 @@
 
     move-result-object v1
 
-    invoke-static {v2}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v2}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v2
 
@@ -898,14 +898,14 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_12
 
     :cond_19
-    invoke-static {v1}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object v1
 

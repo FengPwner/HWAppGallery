@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/oobe/activity/r;->b:Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;->C3(Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;)Lcom/huawei/appmarket/al5;
+    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;->C3(Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;)Lcom/huawei/appmarket/cl5;
 
     move-result-object v1
 
@@ -40,13 +40,13 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;->C3(Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;)Lcom/huawei/appmarket/al5;
+    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;->C3(Lcom/huawei/appmarket/oobe/activity/OOBEProtocolActivity;)Lcom/huawei/appmarket/cl5;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/al5;->j(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cl5;->j(I)V
 
     :cond_0
     return-void

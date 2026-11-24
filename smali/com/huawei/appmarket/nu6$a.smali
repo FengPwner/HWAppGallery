@@ -9,38 +9,81 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x8
+    accessFlags = 0x1a
     name = "a"
 .end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/Class<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final b:Lcom/huawei/appmarket/mu6;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/mu6<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
 
 # direct methods
-.method private constructor <init>()V
-    .registers 1
+.method constructor <init>(Ljava/lang/Class;Lcom/huawei/appmarket/mu6;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "TT;>;",
+            "Lcom/huawei/appmarket/mu6<",
+            "TT;>;)V"
+        }
+    .end annotation
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/nu6$a;->a:Ljava/lang/Class;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/nu6$a;->b:Lcom/huawei/appmarket/mu6;
 
     return-void
 .end method
 
-.method static a(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+
+# virtual methods
+.method final a(Ljava/lang/Class;)Z
     .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)Z"
+        }
+    .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;->getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lcom/huawei/appmarket/nu6$a;->a:Ljava/lang/Class;
 
-    move-result-object p0
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    return-object p0
-.end method
+    move-result p1
 
-.method static b(Landroid/content/res/Resources;IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-    .registers 4
-
-    .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/content/res/Resources;->getDrawableForDensity(IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-
-    move-result-object p0
-
-    return-object p0
+    return p1
 .end method

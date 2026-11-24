@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/g04;
+.implements Lcom/huawei/appmarket/i04;
 
 
 # annotations
@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/g04;
+.field private final b:Lcom/huawei/appmarket/i04;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/g04;)V
+.method public constructor <init>(Lcom/huawei/appmarket/i04;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;->b:Lcom/huawei/appmarket/g04;
+    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;->b:Lcom/huawei/appmarket/i04;
 
     return-void
 .end method
@@ -51,11 +51,11 @@
 
     .line 6
     .line 7
-    const-class v0, Lcom/huawei/appmarket/or3;
+    const-class v0, Lcom/huawei/appmarket/qr3;
 
     .line 8
     .line 9
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -63,11 +63,11 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Lcom/huawei/appmarket/or3;
+    check-cast v0, Lcom/huawei/appmarket/qr3;
 
     .line 14
     .line 15
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/or3;->r(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/qr3;->r(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     .line 16
     .line 17
@@ -88,7 +88,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;->F0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
+    invoke-static {v0}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;->E0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
 
     .line 26
     .line 27
@@ -100,7 +100,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;->F0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
+    invoke-static {v0}, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;->E0(Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$b;
 
     .line 32
     .line 33
@@ -108,7 +108,7 @@
     move-result-object v0
 
     .line 35
-    check-cast v0, Lcom/huawei/appmarket/kh;
+    check-cast v0, Lcom/huawei/appmarket/jh;
 
     .line 36
     .line 37
@@ -164,7 +164,7 @@
     move-result-object v0
 
     .line 63
-    invoke-static {v0}, Lcom/huawei/appmarket/n82;->b(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/r82;->b(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;)Z
 
     .line 64
     .line 65
@@ -176,7 +176,7 @@
 
     .line 68
     .line 69
-    sget-object p1, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 70
     .line 71
@@ -188,7 +188,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -197,11 +197,11 @@
 
     .line 79
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;->b:Lcom/huawei/appmarket/g04;
+    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/VerificationRequest$a;->b:Lcom/huawei/appmarket/i04;
 
     .line 80
     .line 81
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/g04;->r(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/i04;->r(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     .line 82
     .line 83
@@ -286,5 +286,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

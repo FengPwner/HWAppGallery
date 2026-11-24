@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s44;
+.implements Lcom/huawei/appmarket/v44;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/s44<",
+        "Lcom/huawei/appmarket/v44<",
         "Ljava/util/List<",
         "Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/bean/RiskCheckRequest$AppSign;",
         ">;>;"
@@ -29,7 +29,7 @@
 
 
 # virtual methods
-.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/f91;Ljava/lang/reflect/Field;)V
+.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/g91;Ljava/lang/reflect/Field;)V
     .registers 7
 
     .line 1
@@ -76,13 +76,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     const-string p2, "AppSignTypeProcess"
 
     const-string p3, "put value failed:IllegalAccessException"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

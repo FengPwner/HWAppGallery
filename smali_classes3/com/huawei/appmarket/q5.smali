@@ -10,7 +10,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/eg3;
+.field private a:Lcom/huawei/appmarket/gg3;
 
 
 # direct methods
@@ -35,7 +35,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/eg3;
+    iput-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/gg3;
 
     return-void
 .end method
@@ -84,11 +84,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/eg3;
+.method public final a()Lcom/huawei/appmarket/gg3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/eg3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/gg3;
 
     return-object v0
 .end method
@@ -101,7 +101,7 @@
 
     const-string v1, "AccountBiRegister"
 
-    iget-object v2, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/eg3;
+    iget-object v2, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/gg3;
 
     if-eqz v2, :cond_0
 
@@ -113,9 +113,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/eg3;
+    check-cast v0, Lcom/huawei/appmarket/gg3;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/eg3;
+    iput-object v0, p0, Lcom/huawei/appmarket/q5;->a:Lcom/huawei/appmarket/gg3;
     :try_end_0
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -126,7 +126,7 @@
     const-string v0, "IAccountBiReport newInstance illegal faild"
 
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

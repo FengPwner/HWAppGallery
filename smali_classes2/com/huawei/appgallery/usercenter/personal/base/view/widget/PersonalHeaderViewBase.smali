@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
-.implements Lcom/huawei/appmarket/xu3;
+.implements Lcom/huawei/appmarket/zu3;
 
 
 # static fields
@@ -76,7 +76,7 @@
 
 .field private final minHeight:I
 
-.field private mineUserInfoBean:Lcom/huawei/appmarket/i95;
+.field private mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
 .field private normalDownHeight:I
 
@@ -132,7 +132,7 @@
 
     const/16 p3, 0xb0
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -174,7 +174,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 6
     .line 7
@@ -190,7 +190,7 @@
     move-result-object v1
 
     .line 13
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     .line 14
     .line 15
@@ -205,7 +205,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 21
     .line 22
@@ -225,7 +225,7 @@
     const/4 v4, 0x4
 
     .line 30
-    invoke-static {v2, v3, v4, v0}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v2, v3, v4, v0}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 31
     .line 32
@@ -383,7 +383,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -403,7 +403,7 @@
     const/4 v3, 0x2
 
     .line 13
-    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 14
     .line 15
@@ -552,7 +552,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     .line 2
     .line 3
@@ -740,7 +740,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->t(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->t(Landroid/content/Context;)I
 
     move-result v0
 
@@ -785,7 +785,7 @@
 
     check-cast v0, Landroid/widget/RelativeLayout$LayoutParams;
 
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     move-result v1
 
@@ -801,7 +801,7 @@
 
     const/16 v5, 0xc
 
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -865,7 +865,7 @@
 
     const/16 v2, 0x2a
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -933,11 +933,11 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mHeaderView:Landroid/widget/RelativeLayout;
 
-    new-instance v1, Lcom/huawei/appmarket/lf;
+    new-instance v1, Lcom/huawei/appmarket/w81;
 
-    const/16 v2, 0x12
+    const/16 v2, 0x14
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -965,7 +965,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 11
     .line 12
@@ -973,7 +973,7 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
 
     .line 15
     .line 16
@@ -985,7 +985,7 @@
 
     .line 19
     .line 20
-    iget-object v2, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iget-object v2, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     .line 21
     .line 22
@@ -997,12 +997,12 @@
     move-result v3
 
     .line 26
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/i95;->e(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/l95;->e(I)V
 
     .line 27
     .line 28
     .line 29
-    iget-object v2, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iget-object v2, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     .line 30
     .line 31
@@ -1014,13 +1014,13 @@
     move-result-object v0
 
     .line 35
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/i95;->f(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/l95;->f(Ljava/lang/String;)V
 
     .line 36
     .line 37
     .line 38
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     .line 39
     .line 40
@@ -1039,7 +1039,7 @@
 
     .line 46
     .line 47
-    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     .line 48
     .line 49
@@ -1059,7 +1059,7 @@
     move-result-object v4
 
     .line 57
-    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/i95;->g(Ljava/lang/String;)V
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/l95;->g(Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -1122,11 +1122,11 @@
 
     .line 89
     .line 90
-    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     .line 91
     .line 92
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/UserInfoTextView;->setData(Lcom/huawei/appmarket/i95;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/UserInfoTextView;->setData(Lcom/huawei/appmarket/l95;)V
 
     .line 93
     .line 94
@@ -1157,11 +1157,11 @@
 
     .line 107
     .line 108
-    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     .line 109
     .line 110
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/UserInfoTextView;->setData(Lcom/huawei/appmarket/i95;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/UserInfoTextView;->setData(Lcom/huawei/appmarket/l95;)V
 
     .line 111
     .line 112
@@ -1259,7 +1259,7 @@
     .line 158
     .line 159
     .line 160
-    invoke-static {v0, v0, v4}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v0, v0, v4}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 161
     .line 162
@@ -1737,15 +1737,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private registerRefreshObserver()V
@@ -1757,19 +1748,19 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mHeadImageView:Landroid/widget/ImageView;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/z53;->b(Landroid/widget/ImageView;Landroid/content/Context;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/c63;->b(Landroid/widget/ImageView;Landroid/content/Context;)V
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/wz5;
+    new-instance v1, Lcom/huawei/appmarket/yz5;
 
     const/4 v2, 0x5
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/rd8;->a(Landroid/content/Context;Lcom/huawei/appmarket/rd8$a;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/wd8;->a(Landroid/content/Context;Lcom/huawei/appmarket/wd8$a;)V
 
     return-void
 .end method
@@ -1800,7 +1791,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -1811,13 +1802,13 @@
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string p2, "PersonalHeaderViewBase"
 
     const-string v0, "container must in RelativeLayout. "
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -1830,7 +1821,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result v0
 
@@ -1981,9 +1972,9 @@
 .method private setOnClickListener()V
     .registers 3
 
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mHeadImageView:Landroid/widget/ImageView;
 
@@ -2013,13 +2004,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v1, "PersonalHeaderViewBase"
 
     const-string v2, "adjustForAgeAdapter, mContext is null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -2316,7 +2307,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mHeaderView:Landroid/widget/RelativeLayout;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->B(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->B(Landroid/view/View;)V
 
     const v1, 0x7f0a1123
 
@@ -2358,11 +2349,11 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->loginTipTextView:Landroid/widget/TextView;
 
-    new-instance v1, Lcom/huawei/appmarket/i95;
+    new-instance v1, Lcom/huawei/appmarket/l95;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/i95;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/l95;-><init>()V
 
-    iput-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/i95;
+    iput-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->mineUserInfoBean:Lcom/huawei/appmarket/l95;
 
     const v1, 0x7f0a1130
 
@@ -2547,7 +2538,7 @@
 
     move-result-object v8
 
-    invoke-static {v8}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v8}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result v8
 
@@ -2781,7 +2772,7 @@
     :goto_4
     invoke-virtual {v2, v1}, Landroid/view/View;->setClickable(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     move-result p1
 
@@ -2926,7 +2917,7 @@
 
     const-string v0, "activityUri|info_head"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -2947,13 +2938,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->isRtl:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/a63;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/d63;->a()V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->refreshUserName()V
 

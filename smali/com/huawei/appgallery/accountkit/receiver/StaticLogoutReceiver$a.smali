@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -41,7 +41,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     .line 5
     .line 6
@@ -56,7 +56,7 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-interface {p0, v0, v1, p1, p2}, Lcom/huawei/appmarket/eg3;->c(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/p5;)V
+    invoke-interface {p0, v0, v1, p1, p2}, Lcom/huawei/appmarket/gg3;->c(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/p5;)V
 
     .line 12
     .line 13
@@ -331,4 +331,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

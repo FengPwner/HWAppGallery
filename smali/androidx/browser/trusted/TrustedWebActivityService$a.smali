@@ -1,5 +1,5 @@
 .class final Landroidx/browser/trusted/TrustedWebActivityService$a;
-.super Lcom/huawei/appmarket/p44$a;
+.super Lcom/huawei/appmarket/s44$a;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Landroidx/browser/trusted/TrustedWebActivityService$a;->b:Landroidx/browser/trusted/TrustedWebActivityService;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/p44$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/s44$a;-><init>()V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     invoke-virtual {v1, v2}, Landroid/content/pm/PackageManager;->getPackagesForUid(I)[Ljava/lang/String;
 
-    invoke-virtual {v0}, Landroidx/browser/trusted/TrustedWebActivityService;->b()Lcom/huawei/appmarket/t08;
+    invoke-virtual {v0}, Landroidx/browser/trusted/TrustedWebActivityService;->b()Lcom/huawei/appmarket/y08;
 
     const/4 v0, 0x0
 
@@ -706,6 +706,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final v0()Landroid/os/Bundle;
@@ -879,4 +880,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

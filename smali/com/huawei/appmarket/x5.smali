@@ -6,7 +6,7 @@
 # static fields
 .field public static final a:Lcom/huawei/appmarket/x5;
 
-.field private static b:Lcom/huawei/appmarket/gg3;
+.field private static b:Lcom/huawei/appmarket/ig3;
 
 
 # direct methods
@@ -31,20 +31,20 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/gg3;
+.method public static a()Lcom/huawei/appmarket/ig3;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/x5;->b:Lcom/huawei/appmarket/gg3;
+    sget-object v0, Lcom/huawei/appmarket/x5;->b:Lcom/huawei/appmarket/ig3;
 
     return-object v0
 .end method
 
-.method public static b(Lcom/huawei/appmarket/gg3;)V
+.method public static b(Lcom/huawei/appmarket/ig3;)V
     .registers 1
 
     .line 1
-    sput-object p0, Lcom/huawei/appmarket/x5;->b:Lcom/huawei/appmarket/gg3;
+    sput-object p0, Lcom/huawei/appmarket/x5;->b:Lcom/huawei/appmarket/ig3;
 
     return-void
 .end method

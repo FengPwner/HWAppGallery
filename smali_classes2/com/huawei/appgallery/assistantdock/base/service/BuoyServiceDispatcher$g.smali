@@ -38,7 +38,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 2
     .line 3
@@ -49,12 +49,12 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->W2(Lcom/huawei/appmarket/cd0;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->X2(Lcom/huawei/appmarket/cd0;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 10
     .line 11
@@ -73,7 +73,7 @@
     const/4 v2, 0x1
 
     .line 18
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cf0;->Y0(Landroid/content/Context;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/df0;->Y0(Landroid/content/Context;Z)V
 
     .line 19
     .line 20

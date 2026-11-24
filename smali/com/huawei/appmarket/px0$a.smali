@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/vm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/wm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -291,6 +291,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z

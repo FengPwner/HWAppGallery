@@ -37,7 +37,7 @@
 
     if-eqz v0, :cond_5
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 
@@ -74,7 +74,7 @@
     move-result v0
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->R(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->R(ILandroid/view/View;)V
 
     const/4 v0, 0x0
 

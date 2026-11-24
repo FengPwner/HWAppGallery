@@ -9,9 +9,9 @@
 
 
 # instance fields
-.field private final c:Lcom/huawei/appmarket/ob5;
+.field private final c:Lcom/huawei/appmarket/rb5;
 
-.field private final d:Lcom/huawei/appmarket/ob5;
+.field private final d:Lcom/huawei/appmarket/rb5;
 
 
 # direct methods
@@ -21,23 +21,23 @@
     .line 1
     invoke-direct {p0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/ob5;
+    new-instance v0, Lcom/huawei/appmarket/rb5;
 
     const-wide/16 v1, 0x4b
 
     const-wide/16 v3, 0x96
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/ob5;-><init>(JJ)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/rb5;-><init>(JJ)V
 
-    iput-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/ob5;
+    iput-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/rb5;
 
-    new-instance v0, Lcom/huawei/appmarket/ob5;
+    new-instance v0, Lcom/huawei/appmarket/rb5;
 
     const-wide/16 v1, 0x0
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/ob5;-><init>(JJ)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/rb5;-><init>(JJ)V
 
-    iput-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/ob5;
+    iput-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/rb5;
 
     return-void
 .end method
@@ -48,23 +48,23 @@
     .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    new-instance p1, Lcom/huawei/appmarket/ob5;
+    new-instance p1, Lcom/huawei/appmarket/rb5;
 
     const-wide/16 v0, 0x4b
 
     const-wide/16 v2, 0x96
 
-    invoke-direct {p1, v0, v1, v2, v3}, Lcom/huawei/appmarket/ob5;-><init>(JJ)V
+    invoke-direct {p1, v0, v1, v2, v3}, Lcom/huawei/appmarket/rb5;-><init>(JJ)V
 
-    iput-object p1, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/ob5;
+    iput-object p1, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/rb5;
 
-    new-instance p1, Lcom/huawei/appmarket/ob5;
+    new-instance p1, Lcom/huawei/appmarket/rb5;
 
     const-wide/16 v0, 0x0
 
-    invoke-direct {p1, v0, v1, v2, v3}, Lcom/huawei/appmarket/ob5;-><init>(JJ)V
+    invoke-direct {p1, v0, v1, v2, v3}, Lcom/huawei/appmarket/rb5;-><init>(JJ)V
 
-    iput-object p1, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/ob5;
+    iput-object p1, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/rb5;
 
     return-void
 .end method
@@ -115,7 +115,7 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/ob5;
+    iget-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->c:Lcom/huawei/appmarket/rb5;
 
     .line 14
     .line 15
@@ -123,7 +123,7 @@
 
     .line 16
     :cond_0
-    iget-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/ob5;
+    iget-object v0, p0, Lcom/google/android/material/transformation/FabTransformationScrimBehavior;->d:Lcom/huawei/appmarket/rb5;
 
     .line 17
     .line 18
@@ -200,7 +200,7 @@
 
     .line 51
     :goto_1
-    invoke-virtual {v0, p4}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v0, p4}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     .line 52
     .line 53
@@ -219,7 +219,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-static {p4, p1}, Lcom/huawei/appmarket/pm;->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
+    invoke-static {p4, p1}, Lcom/huawei/appmarket/om;->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
 
     .line 63
     .line 64

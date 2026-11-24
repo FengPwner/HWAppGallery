@@ -44,7 +44,7 @@
 
     const-string p2, "CloudGameQuitView"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Landroid/view/KeyEvent;->getKeyCode()I
 

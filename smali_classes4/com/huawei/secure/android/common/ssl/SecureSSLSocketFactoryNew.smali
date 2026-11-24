@@ -52,13 +52,13 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->setContext(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->setSslContext(Ljavax/net/ssl/SSLContext;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/o57;->a(Landroid/content/Context;)Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;
+    invoke-static {p1}, Lcom/huawei/appmarket/t57;->a(Landroid/content/Context;)Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;
 
     move-result-object p1
 
@@ -104,15 +104,15 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->b:Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->a:Ljavax/net/ssl/SSLContext;
 
-    new-instance v1, Lcom/huawei/appmarket/s83;
+    new-instance v1, Lcom/huawei/appmarket/v83;
 
-    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/s83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/v83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->setX509TrustManager(Ljavax/net/ssl/X509TrustManager;)V
 
@@ -153,15 +153,15 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->b:Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->a:Ljavax/net/ssl/SSLContext;
 
-    new-instance v1, Lcom/huawei/appmarket/s83;
+    new-instance v1, Lcom/huawei/appmarket/v83;
 
-    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/s83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/v83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->setX509TrustManager(Ljavax/net/ssl/X509TrustManager;)V
 
@@ -202,7 +202,7 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->b:Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
@@ -244,7 +244,7 @@
 
     iput-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->b:Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v1
 
@@ -272,7 +272,7 @@
 
     iget-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->h:[Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ex8;->a([Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/kx8;->a([Ljava/lang/String;)Z
 
     move-result v0
 
@@ -284,7 +284,7 @@
 
     const-string v0, "set protocols"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, p1
 
@@ -292,7 +292,7 @@
 
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->h:[Ljava/lang/String;
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/rz6;->d(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/vz6;->d(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -304,7 +304,7 @@
     :goto_0
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->g:[Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ex8;->a([Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/kx8;->a([Ljava/lang/String;)Z
 
     move-result v3
 
@@ -312,7 +312,7 @@
 
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->f:[Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ex8;->a([Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/kx8;->a([Ljava/lang/String;)Z
 
     move-result v3
 
@@ -321,17 +321,17 @@
     :cond_1
     const-string v2, "set cipher"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v2, p1
 
     check-cast v2, Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/rz6;->c(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/vz6;->c(Ljavax/net/ssl/SSLSocket;)V
 
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->g:[Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ex8;->a([Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/kx8;->a([Ljava/lang/String;)Z
 
     move-result v3
 
@@ -339,7 +339,7 @@
 
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->g:[Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/rz6;->f(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/vz6;->f(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
 
     move-result v2
 
@@ -348,7 +348,7 @@
     :cond_2
     iget-object v3, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->f:[Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/rz6;->a(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/vz6;->a(Ljavax/net/ssl/SSLSocket;[Ljava/lang/String;)Z
 
     move-result v2
 
@@ -358,24 +358,24 @@
 
     const-string v0, "set default protocols"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, p1
 
     check-cast v0, Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/rz6;->c(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vz6;->c(Ljavax/net/ssl/SSLSocket;)V
 
     :cond_4
     if-nez v2, :cond_5
 
     const-string v0, "set default cipher"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     check-cast p1, Ljavax/net/ssl/SSLSocket;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rz6;->b(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vz6;->b(Ljavax/net/ssl/SSLSocket;)V
 
     :cond_5
     return-void
@@ -561,7 +561,7 @@
 
     const-string v1, "createSocket: host , port"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->a:Ljavax/net/ssl/SSLContext;
 
@@ -671,7 +671,7 @@
 
     const-string v1, "createSocket"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;->a:Ljavax/net/ssl/SSLContext;
 

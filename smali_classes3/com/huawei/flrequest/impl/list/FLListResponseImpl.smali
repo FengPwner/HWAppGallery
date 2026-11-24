@@ -9,19 +9,19 @@
 
 # instance fields
 .field private mDataId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "dataId"
     .end annotation
 .end field
 
 .field private mHasMore:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "hasMore"
     .end annotation
 .end field
 
 .field private mLayoutData:Lorg/json/JSONArray;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "layoutData"
     .end annotation
 .end field

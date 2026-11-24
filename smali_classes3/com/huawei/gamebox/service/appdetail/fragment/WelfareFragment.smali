@@ -110,7 +110,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->V0:Lcom/huawei/appmarket/vw4;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->V0:Lcom/huawei/appmarket/yw4;
 
     if-eqz v0, :cond_1
 
@@ -123,13 +123,13 @@
     goto :goto_0
 
     :cond_0
-    instance-of v1, v0, Lcom/huawei/appmarket/gf1;
+    instance-of v1, v0, Lcom/huawei/appmarket/if1;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/gf1;
+    check-cast v0, Lcom/huawei/appmarket/if1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gf1;->i()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/if1;->i()Landroid/view/View;
 
     move-result-object v0
 
@@ -168,7 +168,7 @@
 
     .line 7
     :cond_0
-    sget v1, Lcom/huawei/appmarket/ei8;->h:I
+    sget v1, Lcom/huawei/appmarket/ki8;->h:I
 
     .line 8
     .line 9
@@ -362,7 +362,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 12
     .line 13
@@ -378,7 +378,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -482,7 +482,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -532,7 +532,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final r4()V
@@ -541,7 +540,7 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/gamebox/framework/cardkit/fragment/CardListFragment;->r4()V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     move-result-object v0
 

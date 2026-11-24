@@ -193,9 +193,9 @@
 
 .field public static final title:I = 0x7f0a15ea
 
-.field public static final translucent:I = 0x7f0a1648
+.field public static final translucent:I = 0x7f0a1649
 
-.field public static final view_tree_lifecycle_owner:I = 0x7f0a1819
+.field public static final view_tree_lifecycle_owner:I = 0x7f0a181a
 
 
 # direct methods

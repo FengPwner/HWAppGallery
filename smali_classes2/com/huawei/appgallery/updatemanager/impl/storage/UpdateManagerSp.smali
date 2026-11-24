@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/updatemanager/impl/storage/UpdateManagerSp;
-.super Lcom/huawei/appmarket/ld7;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
 
@@ -33,11 +33,11 @@
 
     const-string v0, "UpdateManager"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/kd7;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/pd7;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ld7;-><init>(Landroid/content/SharedPreferences;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/qd7;-><init>(Landroid/content/SharedPreferences;)V
 
     return-void
 .end method

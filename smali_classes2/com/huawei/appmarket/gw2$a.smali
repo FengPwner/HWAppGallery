@@ -1,14 +1,11 @@
 .class final Lcom/huawei/appmarket/gw2$a;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/gw2$f;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/lang/Runnable;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/gw2;->d(Landroid/content/Context;Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;Lcom/huawei/appgallery/cloudgame/gamedist/https/GetCloudGameResourceResponse;)V
+    value = Lcom/huawei/appmarket/gw2;->b(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,189 +15,153 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;
-
-.field final synthetic c:Landroid/content/Context;
-
-.field final synthetic d:Landroidx/core/app/NotificationCompat$Builder;
-
-.field final synthetic e:Landroid/app/NotificationManager;
-
-.field final synthetic f:Lcom/huawei/appmarket/gw2;
+.field final synthetic a:Lcom/huawei/appmarket/ao6;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/gw2;Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;Landroid/content/Context;Landroidx/core/app/NotificationCompat$Builder;Landroid/app/NotificationManager;)V
-    .registers 6
+.method constructor <init>(Lcom/huawei/appmarket/gw2;Lcom/huawei/appmarket/ao6;)V
+    .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/gw2$a;->f:Lcom/huawei/appmarket/gw2;
+    iput-object p2, p0, Lcom/huawei/appmarket/gw2$a;->a:Lcom/huawei/appmarket/ao6;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/gw2$a;->b:Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;
+    const/4 p1, 0x0
 
-    iput-object p3, p0, Lcom/huawei/appmarket/gw2$a;->c:Landroid/content/Context;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/gw2$a;->d:Landroidx/core/app/NotificationCompat$Builder;
-
-    iput-object p5, p0, Lcom/huawei/appmarket/gw2$a;->e:Landroid/app/NotificationManager;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/gw2$f;-><init>(Lcom/huawei/appmarket/gw2$a;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 6
+.method public final a(Lcom/huawei/appmarket/np6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/gw2$a;->b:Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;
+    const-string v0, "GameModeProxy"
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;->getAppIcon()Ljava/lang/String;
+    if-eqz p2, :cond_0
 
     .line 4
     .line 5
-    .line 6
-    move-result-object v1
+    const-string p1, "connect com.huawei.gameassistant exception"
 
+    .line 6
     .line 7
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    move-result v1
+    return-void
 
     .line 11
-    iget-object v2, p0, Lcom/huawei/appmarket/gw2$a;->d:Landroidx/core/app/NotificationCompat$Builder;
+    :cond_0
+    const-string p2, "buoysettingmodule"
 
     .line 12
     .line 13
-    if-nez v1, :cond_0
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 14
     .line 15
-    invoke-interface {v0}, Lcom/huawei/appgallery/cloudgame/gamedist/api/ITestSpeedQueueProtocol;->getAppIcon()Ljava/lang/String;
-
     .line 16
-    .line 17
-    .line 18
-    move-result-object v0
+    move-result-object p1
 
+    .line 17
+    if-nez p1, :cond_1
+
+    .line 18
     .line 19
-    iget-object v1, p0, Lcom/huawei/appmarket/gw2$a;->c:Landroid/content/Context;
+    const-string p1, "Module buoysettingmodule is null"
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gw2;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
-    move-result-object v0
+    return-void
 
     .line 25
-    if-eqz v0, :cond_0
+    :cond_1
+    const-class p2, Lcom/huawei/appmarket/rj3;
 
     .line 26
     .line 27
-    iget-object v3, p0, Lcom/huawei/appmarket/gw2$a;->f:Lcom/huawei/appmarket/gw2;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 28
     .line 29
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
     .line 30
-    .line 31
-    .line 32
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    move-result-object p1
 
+    .line 31
+    check-cast p1, Lcom/huawei/appmarket/rj3;
+
+    .line 32
     .line 33
+    if-nez p1, :cond_2
+
     .line 34
     .line 35
-    move-result-object v1
+    const-string p1, "buoyWindowManager is null"
 
     .line 36
-    invoke-virtual {v1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
-
     .line 37
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 38
     .line 39
-    move-result-object v1
-
     .line 40
-    iget v1, v1, Landroid/util/DisplayMetrics;->density:F
+    return-void
 
     .line 41
-    .line 42
-    const/16 v3, 0x28
+    :cond_2
+    invoke-interface {p1}, Lcom/huawei/appmarket/rj3;->l()V
 
+    .line 42
     .line 43
     .line 44
-    int-to-float v3, v3
+    iget-object p1, p0, Lcom/huawei/appmarket/gw2$a;->a:Lcom/huawei/appmarket/ao6;
 
     .line 45
-    mul-float v3, v3, v1
-
     .line 46
+    check-cast p1, Lcom/huawei/appmarket/m0;
+
     .line 47
-    const/high16 v1, 0x3f000000    # 0.5f
-
     .line 48
+    invoke-virtual {p1}, Lcom/huawei/appmarket/m0;->h()V
+
     .line 49
-    add-float/2addr v3, v1
-
     .line 50
-    float-to-int v1, v3
-
     .line 51
-    int-to-double v3, v1
-
+    return-void
     .line 52
-    invoke-static {v0, v3, v4, v3, v4}, Lcom/huawei/appmarket/ya4;->d(Landroid/graphics/Bitmap;DD)Landroid/graphics/Bitmap;
-
     .line 53
     .line 54
     .line 55
-    move-result-object v0
-
     .line 56
-    invoke-virtual {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;->u(Landroid/graphics/Bitmap;)V
-
     .line 57
     .line 58
     .line 59
-    :cond_0
-    invoke-virtual {v2}, Landroidx/core/app/NotificationCompat$Builder;->c()Landroid/app/Notification;
-
     .line 60
     .line 61
     .line 62
-    move-result-object v0
-
     .line 63
-    iget-object v1, p0, Lcom/huawei/appmarket/gw2$a;->e:Landroid/app/NotificationManager;
-
     .line 64
     .line 65
-    const-string v2, "GameBox_GameQueueNotification"
-
     .line 66
     .line 67
-    const v3, 0x78673ff5
-
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v1, v2, v3, v0}, Landroid/app/NotificationManager;->notify(Ljava/lang/String;ILandroid/app/Notification;)V
-
     .line 71
     .line 72
     .line 73
-    return-void
     .line 74
     .line 75
     .line 76
@@ -265,4 +226,30 @@
     .line 135
     .line 136
     .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
 .end method

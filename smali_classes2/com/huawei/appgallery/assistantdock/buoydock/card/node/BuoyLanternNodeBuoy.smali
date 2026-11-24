@@ -336,10 +336,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 13
 
     .line 1
@@ -351,7 +350,7 @@
     move-result p2
 
     .line 5
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     .line 6
     .line 7
@@ -397,7 +396,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     .line 26
     .line 27
@@ -453,7 +452,7 @@
     move-result-object v5
 
     .line 53
-    invoke-static {v5}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v5}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 54
     .line 55
@@ -645,10 +644,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -679,7 +677,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyLanternCardBuoy;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyLanternCardBuoy;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 15
     .line 16
@@ -775,7 +773,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final x()Ljava/util/ArrayList;

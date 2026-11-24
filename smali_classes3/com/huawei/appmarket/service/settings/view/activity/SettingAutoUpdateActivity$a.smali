@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zn5;
+.implements Lcom/huawei/appmarket/ao5;
 
 
 # annotations
@@ -48,12 +48,12 @@
 
     const-string p2, "group.getCheckedRadioButtonId() != checkedId"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->b:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->b:Lcom/huawei/appmarket/g54$a;
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity$a;->b:Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;
 
@@ -71,10 +71,10 @@
 
     if-ne v1, p2, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->d:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->d:Lcom/huawei/appmarket/g54$a;
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->E3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;Lcom/huawei/appmarket/d54$a;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->E3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;Lcom/huawei/appmarket/g54$a;)V
 
     goto :goto_1
 
@@ -93,7 +93,7 @@
 
     if-ne v1, p2, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->c:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->c:Lcom/huawei/appmarket/g54$a;
 
     goto :goto_0
 
@@ -116,23 +116,23 @@
 
     :cond_3
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/t98;->z0(Lcom/huawei/appmarket/d54$a;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/y98;->z0(Lcom/huawei/appmarket/g54$a;)V
 
-    const-class p2, Lcom/huawei/appmarket/ss3;
+    const-class p2, Lcom/huawei/appmarket/us3;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/ss3;
+    check-cast p2, Lcom/huawei/appmarket/us3;
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/xh;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wh;->a()Z
 
     move-result v0
 
@@ -150,7 +150,7 @@
 
     const/4 v2, 0x3
 
-    invoke-interface {p2, v2, p1, v0, v1}, Lcom/huawei/appmarket/ss3;->Z0(IIILjava/lang/String;)V
+    invoke-interface {p2, v2, p1, v0, v1}, Lcom/huawei/appmarket/us3;->Z0(IIILjava/lang/String;)V
 
     return-void
 .end method

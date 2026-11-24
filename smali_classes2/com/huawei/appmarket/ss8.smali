@@ -1,250 +1,241 @@
-.class public abstract Lcom/huawei/appmarket/ss8;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/ss8;
+.super Lcom/huawei/appmarket/dl6;
 .source "SourceFile"
 
 
 # static fields
 .field private static a:Z = false
 
-.field private static b:Ljava/lang/String; = "WLAN"
-
-.field private static c:Ljava/lang/String; = "WiFi"
-
-.field private static d:Ljava/lang/String; = "Wi-Fi"
+.field private static b:Z = false
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/dl6;-><init>()V
 
     return-void
 .end method
 
-.method public static a(ILandroid/content/Context;)Ljava/lang/String;
-    .registers 3
+.method public static e()Z
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;->g0()I
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_0
+
+    return v1
+
+    :cond_0
+    sget-boolean v0, Lcom/huawei/appmarket/ss8;->b:Z
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    sput-boolean v1, Lcom/huawei/appmarket/ss8;->b:Z
+
+    :cond_1
+    return v1
+.end method
+
+.method public static f()V
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ss8;->e()Z
 
     .line 2
     .line 3
     .line 4
-    move-result-object v0
+    move-result v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/dl6;->b()Z
 
     .line 6
     .line 7
     .line 8
-    move-result v0
+    move-result v1
 
     .line 9
-    sput-boolean v0, Lcom/huawei/appmarket/ss8;->a:Z
+    if-nez v1, :cond_0
 
     .line 10
     .line 11
-    if-nez p1, :cond_0
-
-    .line 12
-    .line 13
     goto :goto_0
 
-    .line 14
+    .line 12
     :cond_0
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    sget-boolean v1, Lcom/huawei/appmarket/ss8;->a:Z
+
+    .line 13
+    .line 14
+    if-eq v1, v0, :cond_1
 
     .line 15
     .line 16
-    .line 17
-    move-result-object v0
+    const-class v1, Lcom/huawei/appmarket/ez3;
 
+    .line 17
     .line 18
-    if-nez v0, :cond_1
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 19
     .line 20
-    goto :goto_0
-
     .line 21
-    :cond_1
-    const v0, 0x7f120308
+    move-result-object v1
 
     .line 22
+    check-cast v1, Lcom/huawei/appmarket/ez3;
+
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/ez3;->W1()V
 
     .line 25
     .line 26
     .line 27
-    move-result-object v0
+    :cond_1
+    sput-boolean v0, Lcom/huawei/appmarket/ss8;->a:Z
 
     .line 28
-    sput-object v0, Lcom/huawei/appmarket/ss8;->b:Ljava/lang/String;
-
     .line 29
-    .line 30
-    const v0, 0x7f120307
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
+    .line 30
     .line 31
     .line 32
+    move-result-object v1
+
     .line 33
-    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zz5;->f()Z
 
     .line 34
     .line 35
     .line 36
-    move-result-object v0
+    move-result v1
 
     .line 37
-    sput-object v0, Lcom/huawei/appmarket/ss8;->c:Ljava/lang/String;
+    if-nez v1, :cond_2
 
     .line 38
     .line 39
-    const v0, 0x7f120306
+    goto :goto_0
 
     .line 40
+    :cond_2
+    sget-boolean v1, Lcom/huawei/appmarket/ss8;->b:Z
+
     .line 41
     .line 42
-    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    if-eq v1, v0, :cond_3
 
     .line 43
     .line 44
-    .line 45
-    move-result-object v0
+    if-eqz v0, :cond_3
 
+    .line 45
     .line 46
-    sput-object v0, Lcom/huawei/appmarket/ss8;->d:Ljava/lang/String;
+    const/4 v1, 0x4
 
     .line 47
-    .line 48
-    :goto_0
-    invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/f10;->g(I)V
 
+    .line 48
     .line 49
     .line 50
+    const/4 v1, 0x1
+
     .line 51
-    move-result-object p0
+    sput-boolean v1, Lcom/huawei/appmarket/ss8;->b:Z
 
     .line 52
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 53
+    :cond_3
+    :goto_0
+    invoke-static {}, Lcom/huawei/appmarket/k06;->i()Lcom/huawei/appmarket/k06;
+
     .line 54
     .line 55
-    move-result p1
-
     .line 56
-    if-eqz p1, :cond_2
+    move-result-object v1
 
     .line 57
-    .line 58
-    const-string p0, ""
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
+    .line 58
     .line 59
     .line 60
-    goto :goto_2
+    move-result-object v0
 
     .line 61
-    :cond_2
-    sget-boolean p1, Lcom/huawei/appmarket/ss8;->a:Z
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 62
     .line 63
-    if-nez p1, :cond_3
-
     .line 64
-    .line 65
-    goto :goto_2
+    const-string v1, "activityUri|wish"
 
+    .line 65
     .line 66
-    :cond_3
-    sget-object p1, Lcom/huawei/appmarket/ss8;->c:Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/k06;->k(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 67
     .line 68
-    invoke-virtual {p0, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
     .line 69
+    return-void
     .line 70
     .line 71
-    move-result p1
-
     .line 72
-    if-eqz p1, :cond_4
-
     .line 73
     .line 74
-    sget-object p1, Lcom/huawei/appmarket/ss8;->c:Ljava/lang/String;
-
     .line 75
     .line 76
-    :goto_1
-    sget-object v0, Lcom/huawei/appmarket/ss8;->b:Ljava/lang/String;
-
     .line 77
     .line 78
-    invoke-virtual {p0, p1, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
     .line 79
     .line 80
     .line 81
-    move-result-object p0
-
     .line 82
-    goto :goto_2
-
     .line 83
-    :cond_4
-    sget-object p1, Lcom/huawei/appmarket/ss8;->d:Ljava/lang/String;
-
     .line 84
     .line 85
-    invoke-virtual {p0, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
     .line 86
     .line 87
     .line 88
-    move-result p1
-
     .line 89
-    if-eqz p1, :cond_5
-
     .line 90
     .line 91
-    sget-object p1, Lcom/huawei/appmarket/ss8;->d:Ljava/lang/String;
-
     .line 92
     .line 93
-    goto :goto_1
-
     .line 94
-    :cond_5
-    const-string p1, "WI-FI"
-
     .line 95
     .line 96
-    invoke-virtual {p0, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
     .line 97
     .line 98
     .line 99
-    move-result v0
-
     .line 100
-    if-eqz v0, :cond_6
-
     .line 101
     .line 102
-    goto :goto_1
-
     .line 103
-    :cond_6
-    :goto_2
-    return-object p0
     .line 104
     .line 105
     .line 106
@@ -279,31 +270,4 @@
     .line 135
     .line 136
     .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
 .end method

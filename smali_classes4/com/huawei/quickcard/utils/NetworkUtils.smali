@@ -119,7 +119,7 @@
 
     if-ne v0, v1, :cond_2
 
-    const-string p0, "wifi"
+    const-string/jumbo p0, "wifi"
 
     return-object p0
 

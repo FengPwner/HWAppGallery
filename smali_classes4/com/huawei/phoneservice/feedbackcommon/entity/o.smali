@@ -12,19 +12,19 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "responseCode"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "responseDesc"
     .end annotation
 .end field
 
 .field private d:Lcom/huawei/phoneservice/feedbackcommon/entity/e;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "responseData"
     .end annotation
 .end field

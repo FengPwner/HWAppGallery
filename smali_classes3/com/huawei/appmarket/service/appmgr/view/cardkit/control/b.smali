@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/service/appmgr/view/cardkit/control/b;
-.super Lcom/huawei/appmarket/ld7;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
 
@@ -16,7 +16,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method

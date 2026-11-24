@@ -701,7 +701,7 @@
     return-void
 .end method
 
-.method public b(Lcom/huawei/appmarket/ij5;)V
+.method public b(Lcom/huawei/appmarket/kj5;)V
     .registers 2
 
     .line 1
@@ -1406,7 +1406,7 @@
 
     .line 344
     .line 345
-    invoke-static {v7, v1}, Lcom/huawei/appmarket/o85;->u(Landroid/widget/RemoteViews;Z)V
+    invoke-static {v7, v1}, Lcom/huawei/appmarket/r85;->u(Landroid/widget/RemoteViews;Z)V
 
     .line 346
     .line 347

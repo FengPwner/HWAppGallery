@@ -34,7 +34,7 @@
 
     const-string v0, "-->finish by touch"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/dz6;->j(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/hz6;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 

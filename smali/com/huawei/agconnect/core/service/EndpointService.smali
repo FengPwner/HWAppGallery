@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract getEndpointDomain(Z)Lcom/huawei/appmarket/hv7;
+.method public abstract getEndpointDomain(Z)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }

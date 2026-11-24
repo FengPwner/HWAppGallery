@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xi4;->d(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+    invoke-static {v0}, Lcom/huawei/appmarket/zi4;->d(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     move-result-object v0
 

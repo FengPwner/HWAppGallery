@@ -84,7 +84,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_1
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/store/awk/node/TitleNode;->M(Landroid/view/View;)V

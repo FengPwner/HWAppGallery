@@ -30,10 +30,10 @@
 
 .field private final b:Z
 
-.field private final c:Lcom/huawei/appmarket/zd5;
+.field private final c:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -44,14 +44,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;ZLcom/huawei/appmarket/zd5;Z)V
+.method public constructor <init>(Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;ZLcom/huawei/appmarket/ce5;Z)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;",
             "Z",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;Z)V"
         }
@@ -68,7 +68,7 @@
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->b:Z
 
-    iput-object p3, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->c:Lcom/huawei/appmarket/zd5;
+    iput-object p3, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->c:Lcom/huawei/appmarket/ce5;
 
     iput-boolean p4, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->d:Z
 
@@ -80,7 +80,7 @@
 .method public final onTransitionCancel(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -98,7 +98,7 @@
 
     const-string v1, "BaseSearchActivity"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 .method public final onTransitionEnd(Landroid/transition/Transition;)V
     .registers 6
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -124,7 +124,7 @@
 
     const-string v3, "BaseSearchActivity"
 
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v1, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->d:Z
 
@@ -132,7 +132,7 @@
 
     const-string v1, "repair mode:false,remove transition listener"
 
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1, p0}, Landroid/transition/Transition;->removeListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
@@ -141,11 +141,11 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$e;->c:Lcom/huawei/appmarket/ce5;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Landroid/transition/Transition;->removeListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
@@ -156,7 +156,7 @@
 .method public final onTransitionPause(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -174,7 +174,7 @@
 
     const-string v1, "BaseSearchActivity"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -182,7 +182,7 @@
 .method public final onTransitionResume(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -200,7 +200,7 @@
 
     const-string v1, "BaseSearchActivity"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -217,7 +217,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 6
     .line 7
@@ -225,7 +225,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -234,7 +234,7 @@
 
     .line 13
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 14
     .line 15
@@ -268,7 +268,7 @@
     move-result-object v1
 
     .line 31
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -395,5 +395,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

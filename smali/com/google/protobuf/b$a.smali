@@ -89,19 +89,19 @@
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 3
-    instance-of v0, p0, Lcom/huawei/appmarket/nt4;
+    instance-of v0, p0, Lcom/huawei/appmarket/qt4;
 
     if-eqz v0, :cond_3
 
-    check-cast p0, Lcom/huawei/appmarket/nt4;
+    check-cast p0, Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/nt4;->u()Ljava/util/List;
+    invoke-interface {p0}, Lcom/huawei/appmarket/qt4;->u()Ljava/util/List;
 
     move-result-object p0
 
     move-object v0, p1
 
-    check-cast v0, Lcom/huawei/appmarket/nt4;
+    check-cast v0, Lcom/huawei/appmarket/qt4;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -175,7 +175,7 @@
 
     check-cast v1, Lcom/google/protobuf/h;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/nt4;->a(Lcom/google/protobuf/h;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qt4;->a(Lcom/google/protobuf/h;)V
 
     goto :goto_0
 
@@ -481,7 +481,7 @@
     .end annotation
 
     .line 4
-    invoke-interface {p0}, Lcom/huawei/appmarket/r75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
+    invoke-interface {p0}, Lcom/huawei/appmarket/u75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
 
     move-result-object v0
 

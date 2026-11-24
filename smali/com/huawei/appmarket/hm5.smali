@@ -3,16 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/alibaba/fastjson2/function/Consumer;
-.implements Lcom/huawei/appgallery/jsonkit/api/JsonBean$b;
+.implements Lcom/alibaba/fastjson2/function/BiConsumer;
 
 
 # instance fields
-.field public final synthetic b:Ljava/util/List;
+.field public final synthetic a:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/util/List;)V
+.method public synthetic constructor <init>(I)V
     .registers 2
 
     .line 1
@@ -21,7 +20,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/huawei/appmarket/hm5;->b:Ljava/util/List;
+    iput p1, p0, Lcom/huawei/appmarket/hm5;->a:I
 
     .line 5
     .line 6
@@ -119,15 +118,31 @@
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .registers 3
+.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/hm5;->b:Ljava/util/List;
+    iget v0, p0, Lcom/huawei/appmarket/hm5;->a:I
 
-    check-cast p1, Ljava/lang/reflect/Constructor;
+    check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {v0, p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;->c(Ljava/util/List;Ljava/lang/reflect/Constructor;)V
+    check-cast p2, [Ljava/lang/StackTraceElement;
+
+    packed-switch v0, :pswitch_data_0
+
+    invoke-virtual {p1, p2}, Ljava/lang/Throwable;->setStackTrace([Ljava/lang/StackTraceElement;)V
 
     return-void
+
+    :pswitch_0
+    invoke-virtual {p1, p2}, Ljava/lang/Throwable;->setStackTrace([Ljava/lang/StackTraceElement;)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
 .end method

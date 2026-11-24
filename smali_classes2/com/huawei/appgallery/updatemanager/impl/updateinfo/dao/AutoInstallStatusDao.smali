@@ -58,7 +58,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/updatemanager/impl/updateinfo/dao/AutoInstallStatusDao$a;-><init>(Lcom/huawei/appgallery/updatemanager/impl/updateinfo/dao/AutoInstallStatusDao;Z)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

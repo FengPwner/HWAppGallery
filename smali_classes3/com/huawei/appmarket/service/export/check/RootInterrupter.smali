@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zj4;
+.implements Lcom/huawei/appmarket/bk4;
 
 
 # instance fields
-.field private listener:Lcom/huawei/appmarket/zj4$a;
+.field private listener:Lcom/huawei/appmarket/bk4$a;
 
 
 # direct methods
@@ -24,13 +24,13 @@
 .method public checkFailed()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/zj4$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/bk4$a;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/zj4$a;->a(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/bk4$a;->a(Z)V
 
     :cond_0
     return-void
@@ -39,13 +39,13 @@
 .method public checkSuccess()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/zj4$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/bk4$a;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/zj4$a;->a(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/bk4$a;->a(Z)V
 
     :cond_0
     return-void
@@ -67,11 +67,11 @@
     return v0
 .end method
 
-.method public setListener(Lcom/huawei/appmarket/zj4$a;)V
+.method public setListener(Lcom/huawei/appmarket/bk4$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/zj4$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/export/check/RootInterrupter;->listener:Lcom/huawei/appmarket/bk4$a;
 
     return-void
 .end method

@@ -2,29 +2,9 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/tv8$a;
-
-
-# static fields
-.field public static final a:Lcom/huawei/appmarket/jd9;
-
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/jd9;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/jd9;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/jd9;->a:Lcom/huawei/appmarket/jd9;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -32,60 +12,31 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Ljava/util/LinkedHashSet;)Ljava/util/LinkedHashSet;
-    .registers 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljava/util/LinkedHashSet<",
-            "Lcom/huawei/appmarket/t09<",
-            "TT;>;>;)",
-            "Ljava/util/LinkedHashSet<",
-            "Lcom/huawei/appmarket/t09<",
-            "TT;>;>;"
-        }
-    .end annotation
+.method public static final a(Lcom/huawei/appmarket/fr6;)V
+    .registers 5
 
     .line 1
-    new-instance v0, Ljava/util/LinkedHashSet;
+    invoke-static {}, Lcom/huawei/appmarket/dn;->b()Lcom/huawei/appmarket/dn$b;
 
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
+    move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/nc9;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dn$b;->f()Lcom/huawei/appmarket/dn;
 
-    sget-object v2, Lcom/huawei/appmarket/nc9$b;->c:Lcom/huawei/appmarket/nc9$b;
+    move-result-object v0
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/nc9;-><init>(Lcom/huawei/appmarket/nc9$b;)V
+    new-instance v1, Lcom/huawei/appmarket/zu5;
 
-    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+    invoke-direct {v1}, Lcom/huawei/appmarket/zu5;-><init>()V
 
-    move-result-object p1
+    new-instance v2, Lcom/huawei/appmarket/na5;
 
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    const/4 v3, 0x1
 
-    move-result v2
+    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/na5;-><init>(Lcom/huawei/appmarket/ma5;I)V
 
-    if-eqz v2, :cond_0
+    const-string v1, "page"
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/na5;->e(Lcom/huawei/appmarket/fr6;Ljava/lang/String;Lcom/huawei/appmarket/dn;)V
 
-    move-result-object v2
-
-    check-cast v2, Lcom/huawei/appmarket/t09;
-
-    new-instance v3, Lcom/huawei/appmarket/ed9;
-
-    invoke-direct {v3, v0}, Lcom/huawei/appmarket/ed9;-><init>(Ljava/util/LinkedHashSet;)V
-
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/nc9;->a(Lcom/huawei/appmarket/zb9;Lcom/huawei/appmarket/nc9$c;)V
-
-    goto :goto_0
-
-    :cond_0
-    return-object v0
+    return-void
 .end method

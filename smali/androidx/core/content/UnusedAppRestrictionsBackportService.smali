@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/a54$a;
+.field private b:Lcom/huawei/appmarket/d54$a;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
     invoke-direct {v0, p0}, Landroidx/core/content/UnusedAppRestrictionsBackportService$a;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportService;)V
 
-    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->b:Lcom/huawei/appmarket/a54$a;
+    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->b:Lcom/huawei/appmarket/d54$a;
 
     return-void
 .end method
@@ -30,7 +30,7 @@
 .method public final onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .registers 2
 
-    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->b:Lcom/huawei/appmarket/a54$a;
+    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->b:Lcom/huawei/appmarket/d54$a;
 
     return-object p1
 .end method

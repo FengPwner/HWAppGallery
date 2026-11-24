@@ -22,15 +22,15 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingGameSpeedUpCard;->A:Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/qm6;->e()Lcom/huawei/appmarket/qm6;
+    invoke-static {}, Lcom/huawei/appmarket/tm6;->e()Lcom/huawei/appmarket/tm6;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/xa7;
+    new-instance v0, Lcom/huawei/appmarket/cb7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/xa7;-><init>(Lcom/huawei/appmarket/service/settings/card/SettingGameSpeedUpCard;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/cb7;-><init>(Lcom/huawei/appmarket/service/settings/card/SettingGameSpeedUpCard;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qm6;->h(Lcom/huawei/appmarket/xa7;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tm6;->h(Lcom/huawei/appmarket/cb7;)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/fb7;->e()Lcom/huawei/appmarket/fb7;
+    invoke-static {}, Lcom/huawei/appmarket/kb7;->e()Lcom/huawei/appmarket/kb7;
 
     .line 5
     .line 6
@@ -52,7 +52,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fb7;->d()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kb7;->d()Z
 
     .line 9
     .line 10
@@ -180,7 +180,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -194,7 +193,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/fb7;->e()Lcom/huawei/appmarket/fb7;
+    invoke-static {}, Lcom/huawei/appmarket/kb7;->e()Lcom/huawei/appmarket/kb7;
 
     .line 5
     .line 6
@@ -202,7 +201,7 @@
     move-result-object p1
 
     .line 8
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fb7;->d()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kb7;->d()Z
 
     .line 9
     .line 10
@@ -336,7 +335,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -798,8 +796,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final m1()Z
@@ -855,7 +851,7 @@
 
     const-string v0, "1570100105"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

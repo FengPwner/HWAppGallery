@@ -1070,7 +1070,7 @@
 
     if-lt v1, v2, :cond_0
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/jm7;->a(ILandroid/content/Context;)I
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/pm7;->a(ILandroid/content/Context;)I
 
     move-result p0
 

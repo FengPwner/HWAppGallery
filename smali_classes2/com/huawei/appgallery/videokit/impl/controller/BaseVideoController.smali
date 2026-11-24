@@ -85,7 +85,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->Companion:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController$Companion;
 
@@ -98,7 +98,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -112,7 +112,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -137,7 +137,7 @@
 
     move-object v3, p2
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -148,7 +148,7 @@
     .line 3
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -189,7 +189,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
     .registers 6
 
     .line 4
@@ -253,7 +253,7 @@
 
     const-string v0, "setShowHideAnimationEnabled error: IllegalStateException"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/dy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -389,7 +389,7 @@
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -617,7 +617,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of v0, p1, Landroid/app/Activity;
 
@@ -1017,7 +1017,7 @@
 
     const-string v0, "keyEvent"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1069,7 +1069,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.graphics.drawable.ColorDrawable"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/graphics/drawable/ColorDrawable;
 
@@ -1133,7 +1133,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.view.ViewGroup.LayoutParams"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, -0x1
 
@@ -1157,7 +1157,7 @@
 
     const-string v0, "state_changed"
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
@@ -1169,7 +1169,7 @@
 
     invoke-direct {v1, v2, p1, p2}, Lcom/huawei/appgallery/videokit/impl/eventbus/StateInfoMessage;-><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;->getInstance()Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;
 
@@ -1201,7 +1201,7 @@
 
     const-string v0, "baseInfo"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/videokit/api/VideoBaseInfo;->getMediaId()Ljava/lang/String;
 
@@ -1273,7 +1273,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->mFadeOut:Ljava/lang/Runnable;
 
@@ -1293,7 +1293,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->mShowProgress:Ljava/lang/Runnable;
 
@@ -1371,7 +1371,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->videoKey:Ljava/lang/String;
 
@@ -1423,7 +1423,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.graphics.drawable.ColorDrawable"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/graphics/drawable/ColorDrawable;
 
@@ -1454,7 +1454,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of v0, p1, Landroid/app/Activity;
 
@@ -1531,7 +1531,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->p(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->p(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -1543,7 +1543,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->k(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->k(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -1554,7 +1554,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->m(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->m(Landroid/content/Context;)Z
 
     move-result v0
 

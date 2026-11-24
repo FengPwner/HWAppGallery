@@ -4,5 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/foundation/card/base/card/BaseDistCard;Lcom/huawei/appmarket/service/store/awk/bean/NormalCardRecommendVerticalBean;)V
+.method public abstract a(Landroid/app/Activity;Lcom/huawei/appmarket/tk3;)V
+.end method
+
+.method public abstract b(Landroid/app/Activity;Lcom/huawei/appmarket/wy3;)V
+.end method
+
+.method public abstract clear()V
 .end method

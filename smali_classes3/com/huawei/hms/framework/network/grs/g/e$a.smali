@@ -175,7 +175,7 @@
 
     .line 64
     .line 65
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/b00;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
 
     .line 66
     .line 67

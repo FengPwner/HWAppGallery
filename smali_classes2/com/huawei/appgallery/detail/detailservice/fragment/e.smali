@@ -28,13 +28,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/e;->b:Lcom/huawei/appgallery/detail/detailservice/fragment/FaHalfDetailFragment;
 
-    iget-object v0, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/kd2;
+    iget-object v0, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/nd2;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->z1()Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kd2;->m(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nd2;->m(Landroid/content/Context;)V
 
     return-void
 .end method

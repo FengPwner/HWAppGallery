@@ -60,7 +60,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     iput-object p2, p0, Landroidx/media3/exoplayer/video/spherical/c$b;->c:[F
 

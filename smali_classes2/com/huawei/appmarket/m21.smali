@@ -52,7 +52,7 @@
 
     const-string v3, "content animator finish start onCompleted "
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/n21;->b(Lcom/huawei/appmarket/n21;)Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
 

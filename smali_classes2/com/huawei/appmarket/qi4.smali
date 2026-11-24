@@ -1,358 +1,165 @@
 .class public final Lcom/huawei/appmarket/qi4;
-.super Lcom/huawei/appmarket/cz;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/bu8;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/qi4$a;
+    }
+.end annotation
 
 
 # instance fields
-.field private c:Lcom/huawei/appmarket/oi4$a;
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/Integer;
+
+.field private d:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private e:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private f:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Lcom/huawei/appmarket/y71;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)V
-    .registers 3
+.method constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/util/Set;Ljava/util/Set;Ljava/util/Set;)V
+    .registers 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/Integer;",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Set<",
+            "Lcom/huawei/appmarket/y71;",
+            ">;)V"
+        }
+    .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/cz;-><init>(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/qi4;->a:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/qi4;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/qi4;->c:Ljava/lang/Integer;
+
+    iput-object p4, p0, Lcom/huawei/appmarket/qi4;->d:Ljava/util/Set;
+
+    iput-object p5, p0, Lcom/huawei/appmarket/qi4;->e:Ljava/util/Set;
+
+    iput-object p6, p0, Lcom/huawei/appmarket/qi4;->f:Ljava/util/Set;
 
     return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/qi4$a;
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/qi4$a;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/qi4$a;-><init>()V
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final synthetic a(Lcom/huawei/appmarket/qt8;)V
-    .registers 2
+.method public final toString()Ljava/lang/String;
+    .registers 3
 
     .line 1
-    return-void
-.end method
+    new-instance v0, Ljava/lang/StringBuilder;
 
-.method public final b(Lcom/huawei/appmarket/st8;)V
-    .registers 9
+    const-string v1, "Intent(label="
 
-    .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/st8;->d()Ljava/lang/String;
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    move-result-object v0
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->a:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    const-string v1, ", icon="
 
-    move-result v1
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v2, 0x1
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->b:Ljava/lang/String;
 
-    const/4 v3, 0x2
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v4, 0x3
+    const-string v1, ", priority="
 
-    const/4 v5, 0x4
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v6, -0x1
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->c:Ljava/lang/Integer;
 
-    sparse-switch v1, :sswitch_data_0
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    goto :goto_0
+    const-string v1, ", actions="
 
-    :sswitch_0
-    const-string v1, "category"
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->d:Ljava/util/Set;
 
-    move-result v0
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    if-nez v0, :cond_0
+    const-string v1, ", categories="
 
-    goto :goto_0
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    :cond_0
-    const/4 v6, 0x4
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->e:Ljava/util/Set;
 
-    goto :goto_0
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    :sswitch_1
-    const-string v1, "data"
+    const-string v1, ", dataList="
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result v0
+    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->f:Ljava/util/Set;
 
-    if-nez v0, :cond_1
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    goto :goto_0
+    const-string v1, ")"
 
-    :cond_1
-    const/4 v6, 0x3
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    goto :goto_0
-
-    :sswitch_2
-    const-string v1, "intent-filter"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    goto :goto_0
-
-    :cond_2
-    const/4 v6, 0x2
-
-    goto :goto_0
-
-    :sswitch_3
-    const-string v1, "intent"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_3
-
-    goto :goto_0
-
-    :cond_3
-    const/4 v6, 0x1
-
-    goto :goto_0
-
-    :sswitch_4
-    const-string v1, "action"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_4
-
-    goto :goto_0
-
-    :cond_4
-    const/4 v6, 0x0
-
-    :goto_0
-    const-string v0, "name"
-
-    if-eqz v6, :cond_8
-
-    if-eq v6, v2, :cond_7
-
-    if-eq v6, v3, :cond_7
-
-    if-eq v6, v4, :cond_6
-
-    if-eq v6, v5, :cond_5
-
-    sget-object v0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "Unsupported element tag: "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/st8;->d()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v1, "IntentResolver"
-
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/16 :goto_1
-
-    :cond_5
-    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->c:Lcom/huawei/appmarket/oi4$a;
-
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/oi4$a;->c(Ljava/lang/String;)V
-
-    goto/16 :goto_1
-
-    :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/y71;->a()Lcom/huawei/appmarket/y71$a;
-
-    move-result-object v0
-
-    const-string v1, "scheme"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->j(Ljava/lang/String;)V
-
-    const-string v1, "host"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->b(Ljava/lang/String;)V
-
-    const-string v1, "port"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->i(Ljava/lang/String;)V
-
-    const-string v1, "path"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->d(Ljava/lang/String;)V
-
-    const-string v1, "pathPattern"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->f(Ljava/lang/String;)V
-
-    const-string v1, "pathPrefix"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->g(Ljava/lang/String;)V
-
-    const-string v1, "pathSuffix"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->h(Ljava/lang/String;)V
-
-    const-string v1, "pathAdvancedPattern"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y71$a;->e(Ljava/lang/String;)V
-
-    const-string v1, "mimeType"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/y71$a;->c(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/y71$a;->a()Lcom/huawei/appmarket/y71;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/huawei/appmarket/qi4;->c:Lcom/huawei/appmarket/oi4$a;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/oi4$a;->d(Lcom/huawei/appmarket/y71;)V
-
-    goto :goto_1
-
-    :cond_7
-    invoke-static {}, Lcom/huawei/appmarket/oi4;->a()Lcom/huawei/appmarket/oi4$a;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/qi4;->c:Lcom/huawei/appmarket/oi4$a;
-
-    const-string v1, "label"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/oi4$a;->f(Ljava/lang/String;)V
-
-    const-string v1, "priority"
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/cz;->i(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/oi4$a;->g(Ljava/lang/Integer;)V
-
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/cz;->h(Lcom/huawei/appmarket/st8;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/oi4$a;->e(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :cond_8
-    iget-object v1, p0, Lcom/huawei/appmarket/qi4;->c:Lcom/huawei/appmarket/oi4$a;
-
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/cz;->j(Lcom/huawei/appmarket/st8;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/oi4$a;->a(Ljava/lang/String;)V
-
-    :goto_1
-    return-void
-
-    nop
-
-    :sswitch_data_0
-    .sparse-switch
-        -0x54d081ca -> :sswitch_4
-        -0x468ec964 -> :sswitch_3
-        -0x3d616837 -> :sswitch_2
-        0x2eefaa -> :sswitch_1
-        0x302bcfe -> :sswitch_0
-    .end sparse-switch
-.end method
-
-.method public final synthetic c(Lcom/huawei/appmarket/kt8;)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public final synthetic d(Lcom/huawei/appmarket/yt8;)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public final synthetic e(Lcom/huawei/appmarket/yt8;)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public final k()Lcom/huawei/appmarket/oi4;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qi4;->c:Lcom/huawei/appmarket/oi4$a;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/oi4$a;->b()Lcom/huawei/appmarket/oi4;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 

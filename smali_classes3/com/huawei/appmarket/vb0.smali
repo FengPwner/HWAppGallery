@@ -4,30 +4,30 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Object;Lcom/huawei/appmarket/p0;)Lcom/huawei/appmarket/ub4;
+.method public abstract a(Ljava/lang/Object;Lcom/huawei/appmarket/p0;)Lcom/huawei/appmarket/wb4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
             "Lcom/huawei/appmarket/p0;",
             ")",
-            "Lcom/huawei/appmarket/ub4<",
+            "Lcom/huawei/appmarket/wb4<",
             "+",
-            "Lcom/huawei/appmarket/rp6;",
+            "Lcom/huawei/appmarket/up6;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/ep6;Lcom/huawei/appmarket/zt6;Lcom/huawei/appmarket/q58;)Ljava/lang/Object;
+.method public abstract b(Lcom/huawei/appmarket/hp6;Lcom/huawei/appmarket/du6;Lcom/huawei/appmarket/w58;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ep6;",
-            "Lcom/huawei/appmarket/zt6<",
-            "Lcom/huawei/appmarket/lk4$b;",
+            "Lcom/huawei/appmarket/hp6;",
+            "Lcom/huawei/appmarket/du6<",
+            "Lcom/huawei/appmarket/ok4$b;",
             ">;",
-            "Lcom/huawei/appmarket/q58;",
+            "Lcom/huawei/appmarket/w58;",
             ")",
             "Ljava/lang/Object;"
         }

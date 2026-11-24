@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/la6;)V
+.method public final a(Lcom/huawei/appmarket/na6;)V
     .registers 3
 
     .line 1
@@ -42,7 +42,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow$b;->a:Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow;
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow;->E(Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow;Lcom/huawei/appmarket/la6;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow;->E(Lcom/huawei/appgallery/forum/posts/api/ForumPostDetailWindow;Lcom/huawei/appmarket/na6;)V
 
     :cond_0
     return-void

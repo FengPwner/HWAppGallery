@@ -234,7 +234,7 @@
     const-string v3, ", eventId : "
 
     .line 2
-    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 3
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -510,7 +510,7 @@
     const-string v3, ", eventId : "
 
     .line 2
-    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 3
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

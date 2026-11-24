@@ -1,319 +1,342 @@
-.class public final synthetic Lcom/huawei/appmarket/mm4;
-.super Ljava/lang/Object;
+.class public final enum Lcom/huawei/appmarket/mm4;
+.super Ljava/lang/Enum;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/huawei/appmarket/mm4;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum c:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum d:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum e:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum f:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum g:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum h:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum i:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum j:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum k:Lcom/huawei/appmarket/mm4;
+
+.field public static final enum l:Lcom/huawei/appmarket/mm4;
+
+.field private static final synthetic m:[Lcom/huawei/appmarket/mm4;
+
+
+# instance fields
+.field private final b:Ljava/lang/Object;
+
+
 # direct methods
-.method public static bridge synthetic A()Ljava/lang/Class;
-    .registers 1
+.method static constructor <clinit>()V
+    .registers 26
 
     .line 1
-    const-class v0, Ljava/time/Period;
+    new-instance v6, Lcom/huawei/appmarket/mm4;
 
-    return-object v0
+    const-string v1, "VOID"
+
+    const/4 v2, 0x0
+
+    const-class v3, Ljava/lang/Void;
+
+    const-class v4, Ljava/lang/Void;
+
+    const/4 v5, 0x0
+
+    move-object v0, v6
+
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v6, Lcom/huawei/appmarket/mm4;->c:Lcom/huawei/appmarket/mm4;
+
+    new-instance v0, Lcom/huawei/appmarket/mm4;
+
+    const-string v8, "INT"
+
+    const/4 v9, 0x1
+
+    sget-object v13, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    const-class v11, Ljava/lang/Integer;
+
+    const/4 v1, 0x0
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v12
+
+    move-object v7, v0
+
+    move-object v10, v13
+
+    invoke-direct/range {v7 .. v12}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v0, Lcom/huawei/appmarket/mm4;->d:Lcom/huawei/appmarket/mm4;
+
+    new-instance v2, Lcom/huawei/appmarket/mm4;
+
+    const-string v15, "LONG"
+
+    const/16 v16, 0x2
+
+    sget-object v17, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    const-class v18, Ljava/lang/Long;
+
+    const-wide/16 v3, 0x0
+
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v19
+
+    move-object v14, v2
+
+    invoke-direct/range {v14 .. v19}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v2, Lcom/huawei/appmarket/mm4;->e:Lcom/huawei/appmarket/mm4;
+
+    new-instance v3, Lcom/huawei/appmarket/mm4;
+
+    const-string v8, "FLOAT"
+
+    const/4 v9, 0x3
+
+    sget-object v10, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
+
+    const-class v11, Ljava/lang/Float;
+
+    const/4 v4, 0x0
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v12
+
+    move-object v7, v3
+
+    invoke-direct/range {v7 .. v12}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v3, Lcom/huawei/appmarket/mm4;->f:Lcom/huawei/appmarket/mm4;
+
+    new-instance v4, Lcom/huawei/appmarket/mm4;
+
+    const-string v15, "DOUBLE"
+
+    const/16 v16, 0x4
+
+    sget-object v17, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
+
+    const-class v18, Ljava/lang/Double;
+
+    const-wide/16 v7, 0x0
+
+    invoke-static {v7, v8}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v19
+
+    move-object v14, v4
+
+    invoke-direct/range {v14 .. v19}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v4, Lcom/huawei/appmarket/mm4;->g:Lcom/huawei/appmarket/mm4;
+
+    new-instance v5, Lcom/huawei/appmarket/mm4;
+
+    const-string v8, "BOOLEAN"
+
+    const/4 v9, 0x5
+
+    sget-object v10, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    const-class v11, Ljava/lang/Boolean;
+
+    sget-object v12, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    move-object v7, v5
+
+    invoke-direct/range {v7 .. v12}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v5, Lcom/huawei/appmarket/mm4;->h:Lcom/huawei/appmarket/mm4;
+
+    new-instance v7, Lcom/huawei/appmarket/mm4;
+
+    const-string v15, "STRING"
+
+    const/16 v16, 0x6
+
+    const-class v17, Ljava/lang/String;
+
+    const-class v18, Ljava/lang/String;
+
+    const-string v19, ""
+
+    move-object v14, v7
+
+    invoke-direct/range {v14 .. v19}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v7, Lcom/huawei/appmarket/mm4;->i:Lcom/huawei/appmarket/mm4;
+
+    new-instance v8, Lcom/huawei/appmarket/mm4;
+
+    const-string v21, "BYTE_STRING"
+
+    const/16 v22, 0x7
+
+    const-class v23, Lcom/google/protobuf/h;
+
+    const-class v24, Lcom/google/protobuf/h;
+
+    sget-object v25, Lcom/google/protobuf/h;->c:Lcom/google/protobuf/h;
+
+    move-object/from16 v20, v8
+
+    invoke-direct/range {v20 .. v25}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v8, Lcom/huawei/appmarket/mm4;->j:Lcom/huawei/appmarket/mm4;
+
+    new-instance v9, Lcom/huawei/appmarket/mm4;
+
+    const-string v11, "ENUM"
+
+    const/16 v12, 0x8
+
+    const-class v14, Ljava/lang/Integer;
+
+    const/4 v15, 0x0
+
+    move-object v10, v9
+
+    invoke-direct/range {v10 .. v15}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v9, Lcom/huawei/appmarket/mm4;->k:Lcom/huawei/appmarket/mm4;
+
+    new-instance v10, Lcom/huawei/appmarket/mm4;
+
+    const-string v17, "MESSAGE"
+
+    const/16 v18, 0x9
+
+    const-class v19, Ljava/lang/Object;
+
+    const-class v20, Ljava/lang/Object;
+
+    const/16 v21, 0x0
+
+    move-object/from16 v16, v10
+
+    invoke-direct/range {v16 .. v21}, Lcom/huawei/appmarket/mm4;-><init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
+
+    sput-object v10, Lcom/huawei/appmarket/mm4;->l:Lcom/huawei/appmarket/mm4;
+
+    const/16 v11, 0xa
+
+    new-array v11, v11, [Lcom/huawei/appmarket/mm4;
+
+    aput-object v6, v11, v1
+
+    const/4 v1, 0x1
+
+    aput-object v0, v11, v1
+
+    const/4 v0, 0x2
+
+    aput-object v2, v11, v0
+
+    const/4 v0, 0x3
+
+    aput-object v3, v11, v0
+
+    const/4 v0, 0x4
+
+    aput-object v4, v11, v0
+
+    const/4 v0, 0x5
+
+    aput-object v5, v11, v0
+
+    const/4 v0, 0x6
+
+    aput-object v7, v11, v0
+
+    const/4 v0, 0x7
+
+    aput-object v8, v11, v0
+
+    const/16 v0, 0x8
+
+    aput-object v9, v11, v0
+
+    const/16 v0, 0x9
+
+    aput-object v10, v11, v0
+
+    sput-object v11, Lcom/huawei/appmarket/mm4;->m:[Lcom/huawei/appmarket/mm4;
+
+    return-void
 .end method
 
-.method public static bridge synthetic B()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/Duration;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic C()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/Instant;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic D()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/LocalDate;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic a(Ljava/time/LocalDateTime;)I
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/time/LocalDateTime;->getHour()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic b()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/LocalDateTime;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic c(Ljava/lang/String;)Ljava/time/Duration;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/Duration;->parse(Ljava/lang/CharSequence;)Ljava/time/Duration;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic d(Ljava/lang/String;)Ljava/time/Instant;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/Instant;->parse(Ljava/lang/CharSequence;)Ljava/time/Instant;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic e(Ljava/util/Date;)Ljava/time/Instant;
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/util/Date;->toInstant()Ljava/time/Instant;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic f(IIIIII)Ljava/time/LocalDateTime;
+.method private constructor <init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
     .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Ljava/lang/Object;",
+            ")V"
+        }
+    .end annotation
 
     .line 1
-    invoke-static/range {p0 .. p5}, Ljava/time/LocalDateTime;->of(IIIIII)Ljava/time/LocalDateTime;
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    move-result-object p0
+    iput-object p5, p0, Lcom/huawei/appmarket/mm4;->b:Ljava/lang/Object;
 
-    return-object p0
+    return-void
 .end method
 
-.method public static bridge synthetic g(Ljava/lang/String;)Ljava/time/LocalDateTime;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/LocalDateTime;->parse(Ljava/lang/CharSequence;)Ljava/time/LocalDateTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic h(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDateTime;
+.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/mm4;
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Ljava/time/LocalDateTime;->ofInstant(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDateTime;
+    const-class v0, Lcom/huawei/appmarket/mm4;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
+
+    check-cast p0, Lcom/huawei/appmarket/mm4;
 
     return-object p0
 .end method
 
-.method public static bridge synthetic i(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;
-    .registers 2
-
-    .line 1
-    invoke-static {p0, p1}, Ljava/time/LocalDateTime;->of(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic j()Ljava/time/LocalTime;
+.method public static values()[Lcom/huawei/appmarket/mm4;
     .registers 1
 
     .line 1
-    sget-object v0, Ljava/time/LocalTime;->MIN:Ljava/time/LocalTime;
+    sget-object v0, Lcom/huawei/appmarket/mm4;->m:[Lcom/huawei/appmarket/mm4;
 
-    return-object v0
-.end method
-
-.method public static bridge synthetic k(IIII)Ljava/time/LocalTime;
-    .registers 4
-
-    .line 1
-    invoke-static {p0, p1, p2, p3}, Ljava/time/LocalTime;->of(IIII)Ljava/time/LocalTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic l(Ljava/lang/String;)Ljava/time/LocalTime;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/LocalTime;->parse(Ljava/lang/CharSequence;)Ljava/time/LocalTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic m(Ljava/time/LocalDateTime;)Ljava/time/LocalTime;
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/time/LocalDateTime;->toLocalTime()Ljava/time/LocalTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic n(Ljava/lang/String;)Ljava/time/OffsetDateTime;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/OffsetDateTime;->parse(Ljava/lang/CharSequence;)Ljava/time/OffsetDateTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic o(Ljava/lang/String;)Ljava/time/OffsetTime;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/OffsetTime;->parse(Ljava/lang/CharSequence;)Ljava/time/OffsetTime;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic p(Ljava/lang/String;)Ljava/time/Period;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/Period;->parse(Ljava/lang/CharSequence;)Ljava/time/Period;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic q(Ljava/lang/String;)Ljava/time/ZoneId;
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Ljava/time/ZoneId;->of(Ljava/lang/String;)Ljava/time/ZoneId;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic r()Ljava/time/format/DateTimeFormatter;
-    .registers 1
-
-    .line 1
-    const-string v0, "yyyy\u5e74M\u6708d\u65e5"
-
-    invoke-static {v0}, Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+    invoke-virtual {v0}, [Lcom/huawei/appmarket/mm4;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    return-object v0
-.end method
-
-.method public static bridge synthetic s(Ljava/time/LocalDateTime;)I
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/time/LocalDateTime;->getMinute()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic t()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/ZonedDateTime;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic u()Ljava/time/format/DateTimeFormatter;
-    .registers 1
-
-    .line 1
-    const-string v0, "yyyy\ub144M\uc6d4d\uc77c"
-
-    invoke-static {v0}, Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic v(Ljava/time/LocalDateTime;)I
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/time/LocalDateTime;->getSecond()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic w()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/OffsetDateTime;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic x(Ljava/time/LocalDateTime;)I
-    .registers 1
-
-    .line 1
-    invoke-virtual {p0}, Ljava/time/LocalDateTime;->getNano()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic y()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/OffsetTime;
-
-    return-object v0
-.end method
-
-.method public static bridge synthetic z()Ljava/lang/Class;
-    .registers 1
-
-    .line 1
-    const-class v0, Ljava/time/ZoneId;
+    check-cast v0, [Lcom/huawei/appmarket/mm4;
 
     return-object v0
 .end method

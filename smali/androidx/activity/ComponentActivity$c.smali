@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 3
 
     .line 1
@@ -54,11 +54,11 @@
 
     if-nez p2, :cond_0
 
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getViewModelStore()Lcom/huawei/appmarket/ri8;
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getViewModelStore()Lcom/huawei/appmarket/xi8;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ri8;->a()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/xi8;->a()V
 
     :cond_0
     iget-object p1, p1, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$i;

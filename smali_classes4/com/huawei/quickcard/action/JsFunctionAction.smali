@@ -20,7 +20,7 @@
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ha9;->a(Ljava/lang/String;Lcom/huawei/quickcard/QuickCardRoot;)Landroid/view/View;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/oa9;->a(Ljava/lang/String;Lcom/huawei/quickcard/QuickCardRoot;)Landroid/view/View;
 
     move-result-object p1
 
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ha9;->a(Ljava/lang/String;Lcom/huawei/quickcard/QuickCardRoot;)Landroid/view/View;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/oa9;->a(Ljava/lang/String;Lcom/huawei/quickcard/QuickCardRoot;)Landroid/view/View;
 
     move-result-object p1
 

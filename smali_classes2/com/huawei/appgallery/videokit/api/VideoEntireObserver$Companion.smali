@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -37,11 +37,11 @@
 .method public final getInstance()Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;
     .registers 2
 
-    invoke-static {}, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->access$getInstance$delegate$cp()Lcom/huawei/appmarket/bt4;
+    invoke-static {}, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->access$getInstance$delegate$cp()Lcom/huawei/appmarket/et4;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/bt4;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/et4;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 

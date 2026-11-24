@@ -25,17 +25,17 @@
 .method public final registry()V
     .registers 4
 
-    const-string v0, "IScreenInfo"
+    const-string v0, "IMarketAppInfo"
 
-    const-class v1, Lcom/huawei/appgallery/distributionbase/api/IScreenInfo;
+    const-class v1, Lcom/huawei/appgallery/distributionbase/api/IMarketAppInfo;
 
     const/4 v2, 0x0
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
-    const-string v0, "IMarketAppInfo"
+    const-string v0, "IScreenInfo"
 
-    const-class v1, Lcom/huawei/appgallery/distributionbase/api/IMarketAppInfo;
+    const-class v1, Lcom/huawei/appgallery/distributionbase/api/IScreenInfo;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

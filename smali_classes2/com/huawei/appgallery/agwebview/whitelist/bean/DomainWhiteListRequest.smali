@@ -44,16 +44,16 @@
     .line 9
     .line 10
     .line 11
-    new-instance v1, Lcom/huawei/appmarket/fl8;
+    new-instance v1, Lcom/huawei/appmarket/ll8;
 
     .line 12
     .line 13
-    invoke-direct {v1}, Lcom/huawei/appmarket/fl8;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/ll8;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    new-instance v1, Lcom/huawei/appmarket/ld7;
+    new-instance v1, Lcom/huawei/appmarket/qd7;
 
     .line 17
     .line 18
@@ -61,7 +61,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -207,7 +207,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7

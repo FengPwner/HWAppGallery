@@ -74,7 +74,7 @@
 
     iget-object v0, p0, Landroidx/transition/ChangeBounds$h;->b:Landroid/view/View;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     iget p1, p0, Landroidx/transition/ChangeBounds$h;->f:I
 

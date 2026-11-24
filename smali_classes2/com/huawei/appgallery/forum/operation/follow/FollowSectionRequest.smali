@@ -54,7 +54,7 @@
 .method public final setDomainId(Ljava/lang/String;)V
     .registers 2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {p1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object p1
 

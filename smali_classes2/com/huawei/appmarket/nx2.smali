@@ -3,7 +3,42 @@
 .source "SourceFile"
 
 
+# static fields
+.field private static final a:Ljava/lang/Object;
+
+.field private static b:J
+
+.field private static c:J
+
+
 # direct methods
+.method static constructor <clinit>()V
+    .registers 3
+
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/nx2;->a:Ljava/lang/Object;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    const/16 v2, 0x10
+
+    shl-long/2addr v0, v2
+
+    sput-wide v0, Lcom/huawei/appmarket/nx2;->b:J
+
+    const-wide/16 v0, 0x0
+
+    sput-wide v0, Lcom/huawei/appmarket/nx2;->c:J
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -12,515 +47,37 @@
     return-void
 .end method
 
-.method private static a(Ljava/lang/String;)Ljava/lang/String;
-    .registers 4
+.method public static a()J
+    .registers 5
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    sget-object v0, Lcom/huawei/appmarket/nx2;->a:Ljava/lang/Object;
 
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
+    monitor-enter v0
 
-    .line 5
-    const-string v1, ""
+    :try_start_0
+    sget-wide v1, Lcom/huawei/appmarket/nx2;->c:J
 
-    .line 6
-    .line 7
-    const-string v2, "GenerateAdsViewBiReportUtil"
+    const-wide/16 v3, 0x1
 
-    .line 8
-    .line 9
-    if-eqz v0, :cond_0
+    add-long/2addr v1, v3
 
-    .line 10
-    .line 11
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sput-wide v1, Lcom/huawei/appmarket/nx2;->c:J
 
-    .line 12
-    .line 13
-    const-string v0, "caller package is null"
+    sget-wide v3, Lcom/huawei/appmarket/nx2;->b:J
 
-    .line 14
-    .line 15
-    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    add-long/2addr v3, v1
 
-    .line 16
-    .line 17
-    .line 18
-    return-object v1
+    monitor-exit v0
 
-    .line 19
-    :cond_0
-    const/4 v0, 0x0
+    return-wide v3
 
-    .line 20
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    :catchall_0
+    move-exception v1
 
-    .line 21
-    .line 22
-    .line 23
-    move-result-object p0
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 24
-    if-eqz p0, :cond_1
-
-    .line 25
-    .line 26
-    iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
-
-    .line 27
-    .line 28
-    return-object p0
-
-    .line 29
-    :cond_1
-    sget-object p0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
-
-    .line 30
-    .line 31
-    const-string v0, "package not found "
-
-    .line 32
-    .line 33
-    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-object v1
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-.end method
-
-.method private static b(Lcom/huawei/appmarket/mx2$a;)Ljava/util/LinkedHashMap;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/mx2$a;",
-            ")",
-            "Ljava/util/LinkedHashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Ljava/util/LinkedHashMap;
-
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
-
-    iget-object v1, p0, Lcom/huawei/appmarket/mx2$a;->c:Ljava/lang/String;
-
-    const-string v2, "callerPkg"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/mx2$a;->c:Ljava/lang/String;
-
-    invoke-static {v1}, Lcom/huawei/appmarket/nx2;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "callerVersion"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "pkg"
-
-    iget-object v2, p0, Lcom/huawei/appmarket/mx2$a;->a:Ljava/lang/String;
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "installSource"
-
-    iget-object v2, p0, Lcom/huawei/appmarket/mx2$a;->b:Ljava/lang/String;
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "callType"
-
-    const-string v2, "AGDSDK"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "channelId"
-
-    iget-object p0, p0, Lcom/huawei/appmarket/mx2$a;->c:Ljava/lang/String;
-
-    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-object v0
-.end method
-
-.method private static c(Lcom/huawei/appmarket/mx2;)Ljava/util/LinkedHashMap;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/mx2;",
-            ")",
-            "Ljava/util/LinkedHashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Ljava/util/LinkedHashMap;
-
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->b()Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "callerPkg"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->b()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/huawei/appmarket/nx2;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "callerVersion"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "pkg"
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->e()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "installSource"
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->d()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->j()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "uiVersion"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->a()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "adsType"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "callType"
-
-    const-string v2, "AGDSDK"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "channelId"
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->b()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-object v0
-.end method
-
-.method public static d(Lcom/huawei/appmarket/mx2;)V
-    .registers 3
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->c(Lcom/huawei/appmarket/mx2;)Ljava/util/LinkedHashMap;
-
-    move-result-object p0
-
-    const/4 v0, 0x1
-
-    const-string v1, "2240100101"
-
-    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
-.end method
-
-.method public static e(Lcom/huawei/appmarket/mx2$a;)V
-    .registers 3
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->b(Lcom/huawei/appmarket/mx2$a;)Ljava/util/LinkedHashMap;
-
-    move-result-object v0
-
-    iget p0, p0, Lcom/huawei/appmarket/mx2$a;->f:I
-
-    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v1, "errorCode"
-
-    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 p0, 0x1
-
-    const-string v1, "2240100102"
-
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
-.end method
-
-.method public static f(Lcom/huawei/appmarket/mx2;I)V
-    .registers 3
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->c(Lcom/huawei/appmarket/mx2;)Ljava/util/LinkedHashMap;
-
-    move-result-object p0
-
-    const-string v0, "errorCode"
-
-    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p0, v0, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 p1, 0x1
-
-    const-string v0, "2240100102"
-
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
-.end method
-
-.method public static g(Lcom/huawei/appmarket/mx2;)V
-    .registers 6
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->c(Lcom/huawei/appmarket/mx2;)Ljava/util/LinkedHashMap;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->f()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "responseCode"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->h()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "rtnCode"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->i()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "status"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->g()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "result"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v1
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/mx2;->c()J
-
-    move-result-wide v3
-
-    sub-long/2addr v1, v3
-
-    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v1, "totalTime"
-
-    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 p0, 0x1
-
-    const-string v1, "2240100103"
-
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
-.end method
-
-.method public static h(Lcom/huawei/appmarket/mx2$a;)V
-    .registers 2
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->b(Lcom/huawei/appmarket/mx2$a;)Ljava/util/LinkedHashMap;
-
-    move-result-object p0
-
-    const-string v0, "1280100101"
-
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
-.end method
-
-.method public static i(Lcom/huawei/appmarket/mx2$a;)V
-    .registers 4
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/nx2;->b(Lcom/huawei/appmarket/mx2$a;)Ljava/util/LinkedHashMap;
-
-    move-result-object v0
-
-    iget v1, p0, Lcom/huawei/appmarket/mx2$a;->d:I
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "uiVersion"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    iget p0, p0, Lcom/huawei/appmarket/mx2$a;->e:I
-
-    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v1, "adsType"
-
-    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 p0, 0x1
-
-    const-string v1, "2240100104"
-
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
+    throw v1
 .end method

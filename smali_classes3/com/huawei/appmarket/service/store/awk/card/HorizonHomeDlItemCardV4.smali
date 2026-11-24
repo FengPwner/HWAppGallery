@@ -62,7 +62,7 @@
     return p1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     move-result p1
 

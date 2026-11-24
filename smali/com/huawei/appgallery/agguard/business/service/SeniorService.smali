@@ -25,7 +25,7 @@
 
     const-string v2, "click senior notification button"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
@@ -33,7 +33,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/secure/android/common/intent/SafeIntent;-><init>(Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
+    invoke-static {v0}, Lcom/huawei/appmarket/dk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
 
     move-result-object p1
 
@@ -47,11 +47,11 @@
 
     const/4 v1, -0x1
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/bk5;->q(IILjava/util/LinkedHashMap;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/dk5;->q(IILjava/util/LinkedHashMap;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/bk5;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/dk5;->b()V
 
-    invoke-static {}, Lcom/huawei/appmarket/q67;->r()V
+    invoke-static {}, Lcom/huawei/appmarket/v67;->r()V
 
     return-void
 .end method

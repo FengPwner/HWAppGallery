@@ -5,15 +5,6 @@
 
 # static fields
 .field private static final a:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
@@ -27,39 +18,9 @@
 
     sput-object v0, Lcom/huawei/appmarket/ya3;->a:Ljava/util/HashMap;
 
-    const-string v1, "ro.hw.vendor"
+    const-string v1, "com.huawei.parentcontrol"
 
-    const-string v2, "msc.sys.vendor"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "ro.hw.country"
-
-    const-string v2, "msc.sys.country"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "ro.config.hw_optb"
-
-    const-string v2, "msc.config.optb"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "hw.wifipro.dns_fail_count"
-
-    const-string v2, "mscw.wifipro.dns_fail_count"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "hw.wifipro.uid_dns_fail_count"
-
-    const-string v2, "mscw.wifipro.uid_dns_fail_count"
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "ro.config.hw_tint"
-
-    const-string v2, "msc.config.tint"
+    const-string v2, "com.hihonor.parentcontrol"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

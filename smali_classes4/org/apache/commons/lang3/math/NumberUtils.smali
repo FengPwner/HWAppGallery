@@ -1640,7 +1640,7 @@
     const/4 v0, 0x1
 
     .line 10
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/vw7;->c(Ljava/lang/String;I)C
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ci7;->c(Ljava/lang/String;I)C
 
     .line 11
     .line 12
@@ -1851,23 +1851,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private static isSign(C)Z

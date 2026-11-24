@@ -3,324 +3,37 @@
 .source "SourceFile"
 
 
-# instance fields
-.field private a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
     return-void
 .end method
 
-
-# virtual methods
-.method public final a()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->getBtnDisable_()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final b()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final c()J
+.method public static a(I)Z
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+    const/4 v0, 0x2
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->getFullSize()J
+    const/4 v1, 0x1
 
-    move-result-wide v0
+    if-eq p0, v0, :cond_1
 
-    return-wide v0
-.end method
+    const/4 v0, 0x3
 
-.method public final d()Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-    .registers 2
+    if-eq p0, v0, :cond_1
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+    if-ne p0, v1, :cond_0
 
-    return-object v0
-.end method
+    goto :goto_0
 
-.method public final e()Ljava/lang/String;
-    .registers 2
+    :cond_0
+    const/4 v1, 0x0
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->getIcon_()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final f()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    .line 2
-    .line 3
-    iget v0, v0, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->installConfig:I
-
-    .line 4
-    .line 5
-    return v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-.end method
-
-.method public final g()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getPackage_()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final h()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->R2()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final i()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;->n4()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final j()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->getVersionCode_()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final k(I)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->setBtnDisable_(I)V
-
-    return-void
-.end method
-
-.method public final l(Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->setDetailId_(Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public final m(Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->setPackage_(Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public final n(Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xk1;->a:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;->setVersionCode_(Ljava/lang/String;)V
-
-    return-void
+    :cond_1
+    :goto_0
+    return v1
 .end method

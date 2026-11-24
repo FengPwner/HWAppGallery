@@ -104,7 +104,7 @@
     return v1
 
     :cond_1
-    invoke-interface {p1}, Lcom/caverock/androidsvg/g$j0;->a()Ljava/util/List;
+    invoke-interface {p1}, Lcom/caverock/androidsvg/g$j0;->getChildren()Ljava/util/List;
 
     move-result-object p0
 
@@ -2686,7 +2686,7 @@
 
     .line 60
     .line 61
-    invoke-interface {p5}, Lcom/caverock/androidsvg/g$j0;->a()Ljava/util/List;
+    invoke-interface {p5}, Lcom/caverock/androidsvg/g$j0;->getChildren()Ljava/util/List;
 
     .line 62
     .line 63
@@ -4194,6 +4194,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private static j(Lcom/caverock/androidsvg/b$q;Lcom/caverock/androidsvg/b$s;ILjava/util/ArrayList;I)Z
@@ -4348,7 +4355,7 @@
 
     .line 66
     .line 67
-    invoke-interface {v1}, Lcom/caverock/androidsvg/g$j0;->a()Ljava/util/List;
+    invoke-interface {v1}, Lcom/caverock/androidsvg/g$j0;->getChildren()Ljava/util/List;
 
     .line 68
     .line 69
@@ -5246,7 +5253,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p2}, Lcom/caverock/androidsvg/g$n0;->o()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/caverock/androidsvg/g$n0;->n()Ljava/lang/String;
 
     move-result-object v2
 

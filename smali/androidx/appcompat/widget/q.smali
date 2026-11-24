@@ -1486,7 +1486,7 @@
     .registers 15
 
     .line 1
-    sget-object v2, Lcom/huawei/appmarket/pe6;->j:[I
+    sget-object v2, Lcom/huawei/appmarket/re6;->j:[I
 
     .line 2
     .line 3
@@ -1526,7 +1526,7 @@
     move v5, p2
 
     .line 19
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     .line 20
     .line 21
@@ -2697,7 +2697,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 55
     .line 56

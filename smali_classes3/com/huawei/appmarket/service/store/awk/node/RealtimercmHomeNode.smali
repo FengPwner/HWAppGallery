@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yi4;
+.implements Lcom/huawei/appmarket/aj4;
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/li6;
+.field private n:Lcom/huawei/appmarket/ni6;
 
 
 # direct methods
@@ -51,7 +51,7 @@
 
     const-string p1, "rootLayout is null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -161,7 +161,7 @@
     :cond_3
     const-string p1, "resetLayout successfully"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -173,7 +173,7 @@
     :goto_0
     const-string p1, "cardContainer or titleContainer is null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -205,7 +205,7 @@
 
     .line 11
     .line 12
-    new-instance v0, Lcom/huawei/appmarket/li6;
+    new-instance v0, Lcom/huawei/appmarket/ni6;
 
     .line 13
     .line 14
@@ -221,12 +221,12 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/li6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/ni6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/li6;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/ni6;
 
     .line 24
     .line 25
@@ -285,21 +285,21 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 53
     .line 54
     .line 55
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/li6;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/ni6;
 
     .line 56
     .line 57
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/li6;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ni6;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 58
     .line 59
     .line 60
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/li6;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/ni6;
 
     .line 61
     .line 62
@@ -422,21 +422,20 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public s(Lcom/huawei/appmarket/ak0;)V
+.method public s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -468,7 +467,7 @@
 
     .line 13
     .line 14
-    instance-of v2, v1, Lcom/huawei/appmarket/li6;
+    instance-of v2, v1, Lcom/huawei/appmarket/ni6;
 
     .line 15
     .line 16
@@ -480,11 +479,11 @@
 
     .line 19
     :cond_0
-    check-cast v1, Lcom/huawei/appmarket/li6;
+    check-cast v1, Lcom/huawei/appmarket/ni6;
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/li6;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ni6;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -585,7 +584,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public x()Ljava/util/ArrayList;
@@ -600,11 +598,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/li6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNode;->n:Lcom/huawei/appmarket/ni6;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/li6;->l2()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ni6;->l2()Ljava/util/ArrayList;
 
     move-result-object v0
 

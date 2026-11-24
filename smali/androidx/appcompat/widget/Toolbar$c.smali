@@ -75,9 +75,9 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Landroidx/appcompat/widget/Toolbar;->H:Lcom/huawei/appmarket/t65;
+    iget-object v1, v0, Landroidx/appcompat/widget/Toolbar;->H:Lcom/huawei/appmarket/w65;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t65;->h(Landroid/view/Menu;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/w65;->h(Landroid/view/Menu;)V
 
     :cond_0
     iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->P:Landroidx/appcompat/view/menu/MenuBuilder$a;

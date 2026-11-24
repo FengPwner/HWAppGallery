@@ -57,13 +57,13 @@
 
     iget-wide v2, p0, Lcom/huawei/appgallary/idleupdate/service/detachinstall/storage/DailyScreenOffTimesRecord;->date:J
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/q91;->a(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r91;->a(J)Ljava/lang/String;
 
     move-result-object v2
 
     iget-wide v3, p1, Lcom/huawei/appgallary/idleupdate/service/detachinstall/storage/DailyScreenOffTimesRecord;->date:J
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/q91;->a(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/r91;->a(J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -139,7 +139,7 @@
 
     iget-wide v1, p0, Lcom/huawei/appgallary/idleupdate/service/detachinstall/storage/DailyScreenOffTimesRecord;->date:J
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/q91;->a(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/r91;->a(J)Ljava/lang/String;
 
     move-result-object v1
 

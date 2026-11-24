@@ -103,11 +103,11 @@
     move-result-object v1
 
     .line 13
-    check-cast v1, Lcom/huawei/appmarket/ev2;
+    check-cast v1, Lcom/huawei/appmarket/hv2;
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ev2;->c()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/hv2;->c()Z
 
     .line 16
     .line 17
@@ -135,11 +135,11 @@
     move-result-object v1
 
     .line 29
-    check-cast v1, Lcom/huawei/appmarket/ev2;
+    check-cast v1, Lcom/huawei/appmarket/hv2;
 
     .line 30
     .line 31
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ev2;->b()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/hv2;->b()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -172,11 +172,11 @@
     move-result-object v1
 
     .line 48
-    check-cast v1, Lcom/huawei/appmarket/ev2;
+    check-cast v1, Lcom/huawei/appmarket/hv2;
 
     .line 49
     .line 50
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ev2;->a()Ljava/lang/CharSequence;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/hv2;->a()Ljava/lang/CharSequence;
 
     .line 51
     .line 52
@@ -237,11 +237,11 @@
     move-result-object p2
 
     .line 80
-    check-cast p2, Lcom/huawei/appmarket/ev2;
+    check-cast p2, Lcom/huawei/appmarket/hv2;
 
     .line 81
     .line 82
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ev2;->a()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/hv2;->a()Ljava/lang/CharSequence;
 
     .line 83
     .line 84
@@ -330,7 +330,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -522,5 +521,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

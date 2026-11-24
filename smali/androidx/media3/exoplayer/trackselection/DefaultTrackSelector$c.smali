@@ -35,15 +35,15 @@
 
 
 # direct methods
-.method public constructor <init>(ILcom/huawei/appmarket/d28;ILandroidx/media3/exoplayer/trackselection/DefaultTrackSelector$Parameters;I)V
+.method public constructor <init>(ILcom/huawei/appmarket/i28;ILandroidx/media3/exoplayer/trackselection/DefaultTrackSelector$Parameters;I)V
     .registers 6
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;-><init>(ILcom/huawei/appmarket/d28;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;-><init>(ILcom/huawei/appmarket/i28;I)V
 
     iget-boolean p1, p4, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$Parameters;->t0:Z
 
-    invoke-static {p5, p1}, Lcom/huawei/appmarket/bq6;->e(IZ)Z
+    invoke-static {p5, p1}, Lcom/huawei/appmarket/eq6;->e(IZ)Z
 
     move-result p1
 

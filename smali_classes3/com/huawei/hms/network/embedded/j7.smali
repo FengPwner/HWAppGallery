@@ -402,7 +402,7 @@
     const-string v1, " == null"
 
     .line 7
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -694,7 +694,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mm4;->e(Ljava/util/Date;)Ljava/time/Instant;
+    invoke-static {p1}, Lcom/huawei/appmarket/pm4;->e(Ljava/util/Date;)Ljava/time/Instant;
 
     move-result-object p1
 

@@ -6,7 +6,7 @@
 # instance fields
 .field protected B:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-.field protected C:Lcom/huawei/appmarket/dt1;
+.field protected C:Lcom/huawei/appmarket/gt1;
 
 
 # direct methods
@@ -15,21 +15,21 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;-><init>(Landroid/content/Context;)V
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/dt1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/gt1;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public I1(Lcom/huawei/appmarket/nb3;)V
+.method public I1(Lcom/huawei/appmarket/qb3;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -37,7 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;->I1(Lcom/huawei/appmarket/nb3;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;->I1(Lcom/huawei/appmarket/qb3;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -47,12 +47,12 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->U1(Lcom/huawei/appmarket/nb3;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->U1(Lcom/huawei/appmarket/qb3;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/nb3;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/qb3;)V
 
     :goto_0
     return-void
@@ -67,11 +67,11 @@
     return-object v0
 .end method
 
-.method public final K1()Lcom/huawei/appmarket/dt1;
+.method public final K1()Lcom/huawei/appmarket/gt1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/gt1;
 
     return-object v0
 .end method
@@ -111,7 +111,7 @@
 
     const-string p2, " res is null."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -262,16 +262,16 @@
 
     .line 59
     .line 60
-    new-instance v0, Lcom/huawei/appmarket/rd1;
+    new-instance v0, Lcom/huawei/appmarket/td1;
 
     .line 61
     .line 62
-    invoke-direct {v0}, Lcom/huawei/appmarket/rd1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/td1;-><init>()V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/td1;)V
 
     .line 66
     .line 67
@@ -297,7 +297,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     .line 80
     .line 81
@@ -344,7 +344,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected N1(Lcom/huawei/appmarket/framework/widget/TagRenderTextView;)V
@@ -410,12 +409,12 @@
     return-void
 .end method
 
-.method public P1(Lcom/huawei/appmarket/nb3;)V
+.method public P1(Lcom/huawei/appmarket/qb3;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -423,7 +422,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 2
     .line 3
@@ -506,7 +505,7 @@
 
     .line 41
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nb3;->f()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qb3;->f()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
 
     .line 42
     .line 43
@@ -605,7 +604,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected Q1()V
@@ -818,11 +816,11 @@
     return-void
 .end method
 
-.method public final S1(Lcom/huawei/appmarket/dt1;)V
+.method public final S1(Lcom/huawei/appmarket/gt1;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/dt1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/gt1;
 
     return-void
 .end method
@@ -880,7 +878,7 @@
 
     const-string v1, "DistHorizontalItemCard"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_1
@@ -948,23 +946,23 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->B:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/dt1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->C:Lcom/huawei/appmarket/gt1;
 
     :cond_2
     :goto_1
     return-void
 .end method
 
-.method protected U1(Lcom/huawei/appmarket/nb3;)V
+.method protected U1(Lcom/huawei/appmarket/qb3;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"

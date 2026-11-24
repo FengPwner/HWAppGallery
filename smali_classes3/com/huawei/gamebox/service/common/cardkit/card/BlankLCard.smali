@@ -23,7 +23,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 5
     .line 6

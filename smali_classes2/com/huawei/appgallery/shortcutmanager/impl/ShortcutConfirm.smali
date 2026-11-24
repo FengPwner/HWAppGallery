@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i24;
+.implements Lcom/huawei/appmarket/k24;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "ShortcutConfirm"
     protocol = Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirmProtocol;
 .end annotation
@@ -20,7 +20,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/j24;",
+            "Lcom/huawei/appmarket/l24;",
             ">;"
         }
     .end annotation
@@ -28,13 +28,13 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/k24;
+.field private b:Lcom/huawei/appmarket/m24;
 
 .field private c:Landroid/widget/TextView;
 
 .field private d:Landroid/widget/CheckBox;
 
-.field private e:Lcom/huawei/appmarket/j24;
+.field private e:Lcom/huawei/appmarket/l24;
 
 
 # direct methods
@@ -46,22 +46,22 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/j24;
+.method static synthetic b(Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;)Lcom/huawei/appmarket/l24;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iget-object p0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/j24;)V
+.method public final a(Lcom/huawei/appmarket/l24;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iput-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     return-void
 .end method
@@ -114,7 +114,7 @@
 
     .line 22
     .line 23
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 24
     .line 25
@@ -122,7 +122,7 @@
 
     .line 26
     .line 27
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getShortcutId()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getShortcutId()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -142,7 +142,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0}, Lcom/huawei/appmarket/mx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/mx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/px4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/px4;
 
     .line 38
     .line 39
@@ -153,13 +153,13 @@
     const/4 v2, 0x1
 
     .line 42
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/mx4;->e(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/px4;->e(Ljava/lang/String;Z)V
 
     .line 43
     .line 44
     .line 45
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     .line 46
     .line 47
@@ -167,7 +167,7 @@
 
     .line 48
     .line 49
-    invoke-interface {v0}, Lcom/huawei/appmarket/j24;->b()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/l24;->b()V
 
     .line 50
     .line 51
@@ -293,11 +293,11 @@
     move-result-object v0
 
     .line 9
-    check-cast v0, Lcom/huawei/appmarket/k24;
+    check-cast v0, Lcom/huawei/appmarket/m24;
 
     .line 10
     .line 11
-    iput-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iput-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 12
     .line 13
@@ -356,7 +356,7 @@
     move-result-object p1
 
     .line 40
-    check-cast p1, Lcom/huawei/appmarket/j24;
+    check-cast p1, Lcom/huawei/appmarket/l24;
 
     .line 41
     .line 42
@@ -372,7 +372,7 @@
 
     .line 46
     :goto_0
-    iput-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iput-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     .line 47
     .line 48
@@ -389,11 +389,11 @@
     move-result-object v1
 
     .line 54
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 55
     .line 56
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->getThemeResId()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->getThemeResId()I
 
     .line 57
     .line 58
@@ -405,11 +405,11 @@
 
     .line 61
     .line 62
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 63
     .line 64
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->getThemeResId()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->getThemeResId()I
 
     .line 65
     .line 66
@@ -480,11 +480,11 @@
     .line 97
     .line 98
     .line 99
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 100
     .line 101
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getAddButtonText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getAddButtonText()Ljava/lang/String;
 
     .line 102
     .line 103
@@ -504,11 +504,11 @@
 
     .line 110
     .line 111
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 112
     .line 113
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getAddButtonText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getAddButtonText()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -542,11 +542,11 @@
 
     .line 129
     :goto_2
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 130
     .line 131
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->isButtonAllCaps()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->isButtonAllCaps()Z
 
     .line 132
     .line 133
@@ -605,11 +605,11 @@
     .line 157
     .line 158
     .line 159
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 160
     .line 161
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getExitButtonText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getExitButtonText()Ljava/lang/String;
 
     .line 162
     .line 163
@@ -629,11 +629,11 @@
 
     .line 170
     .line 171
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 172
     .line 173
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getExitButtonText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getExitButtonText()Ljava/lang/String;
 
     .line 174
     .line 175
@@ -667,11 +667,11 @@
 
     .line 189
     :goto_4
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 190
     .line 191
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->isButtonAllCaps()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->isButtonAllCaps()Z
 
     .line 192
     .line 193
@@ -742,11 +742,11 @@
     .line 223
     .line 224
     .line 225
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 226
     .line 227
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->getShortcutTitle()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->getShortcutTitle()Ljava/lang/String;
 
     .line 228
     .line 229
@@ -798,11 +798,11 @@
     move-result-object v1
 
     .line 251
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 252
     .line 253
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->isNotRemindVisible()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->isNotRemindVisible()Z
 
     .line 254
     .line 255
@@ -900,11 +900,11 @@
     .line 303
     .line 304
     .line 305
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 306
     .line 307
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getContentText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getContentText()Ljava/lang/String;
 
     .line 308
     .line 309
@@ -928,11 +928,11 @@
 
     .line 318
     .line 319
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 320
     .line 321
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->getContentText()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->getContentText()Ljava/lang/String;
 
     .line 322
     .line 323
@@ -946,11 +946,11 @@
     .line 327
     .line 328
     :cond_a
-    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 329
     .line 330
-    invoke-interface {v1}, Lcom/huawei/appmarket/k24;->getNotRemindText()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/m24;->getNotRemindText()Ljava/lang/String;
 
     .line 331
     .line 332
@@ -974,11 +974,11 @@
 
     .line 341
     .line 342
-    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v2, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 343
     .line 344
-    invoke-interface {v2}, Lcom/huawei/appmarket/k24;->getNotRemindText()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/huawei/appmarket/m24;->getNotRemindText()Ljava/lang/String;
 
     .line 345
     .line 346
@@ -1006,11 +1006,11 @@
     .line 356
     .line 357
     .line 358
-    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 359
     .line 360
-    invoke-interface {v0}, Lcom/huawei/appmarket/k24;->getContentText()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/m24;->getContentText()Ljava/lang/String;
 
     .line 361
     .line 362
@@ -1030,11 +1030,11 @@
 
     .line 369
     .line 370
-    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/k24;
+    iget-object v0, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->b:Lcom/huawei/appmarket/m24;
 
     .line 371
     .line 372
-    invoke-interface {v0}, Lcom/huawei/appmarket/k24;->getContentText()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/m24;->getContentText()Ljava/lang/String;
 
     .line 373
     .line 374
@@ -1311,11 +1311,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final onDestroyView()V
@@ -1356,7 +1351,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/ey4;->a:Lcom/huawei/appmarket/ey4;
+    sget-object v0, Lcom/huawei/appmarket/hy4;->a:Lcom/huawei/appmarket/hy4;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1376,14 +1371,14 @@
 
     const-string v1, "ShortcutConfirm"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iget-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j24;->onDismiss()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/l24;->onDismiss()V
 
     :cond_0
     return-void
@@ -1423,7 +1418,7 @@
     .line 15
     .line 16
     .line 17
-    iget-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/j24;
+    iget-object p1, p0, Lcom/huawei/appgallery/shortcutmanager/impl/ShortcutConfirm;->e:Lcom/huawei/appmarket/l24;
 
     .line 18
     .line 19
@@ -1523,5 +1518,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appmarket/s71;",
         ">;"
     }
@@ -29,7 +29,7 @@
 # instance fields
 .field private b:Ljava/lang/String;
 
-.field private c:Lcom/huawei/appmarket/k04;
+.field private c:Lcom/huawei/appmarket/m04;
 
 .field private d:Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;
 
@@ -48,13 +48,13 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/k04;Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;Ljava/util/LinkedHashMap;I)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/m04;Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;Ljava/util/LinkedHashMap;I)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/k04;",
+            "Lcom/huawei/appmarket/m04;",
             "Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;",
             "Ljava/util/LinkedHashMap<",
             "Ljava/lang/String;",
@@ -68,7 +68,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->b:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->c:Lcom/huawei/appmarket/k04;
+    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->c:Lcom/huawei/appmarket/m04;
 
     iput-object p3, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->d:Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;
 
@@ -81,19 +81,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/s71;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -161,7 +161,7 @@
 
     .line 36
     .line 37
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -178,7 +178,7 @@
     move-result v0
 
     .line 46
-    iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->c:Lcom/huawei/appmarket/k04;
+    iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$l;->c:Lcom/huawei/appmarket/m04;
 
     .line 47
     .line 48
@@ -376,12 +376,12 @@
     move-result-object v0
 
     .line 149
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
     .line 151
     .line 152
-    invoke-static {}, Lcom/huawei/appmarket/wi7;->v()Lcom/huawei/appmarket/wi7;
+    invoke-static {}, Lcom/huawei/appmarket/cj7;->v()Lcom/huawei/appmarket/cj7;
 
     .line 153
     .line 154
@@ -463,7 +463,7 @@
     move-result-object v0
 
     .line 194
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 195
     .line 196
@@ -473,7 +473,7 @@
 
     .line 198
     .line 199
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 200
     .line 201
@@ -513,7 +513,7 @@
     .line 218
     .line 219
     .line 220
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 221
     .line 222
@@ -557,7 +557,7 @@
     .line 240
     .line 241
     .line 242
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 243
     .line 244

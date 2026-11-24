@@ -1,0 +1,29 @@
+.class public Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusKeyParameters;
+.super Lorg/bouncycastle/crypto/params/AsymmetricKeyParameter;
+.source "SourceFile"
+
+
+# instance fields
+.field private final params:Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;
+
+
+# direct methods
+.method public constructor <init>(ZLorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;)V
+    .registers 3
+
+    invoke-direct {p0, p1}, Lorg/bouncycastle/crypto/params/AsymmetricKeyParameter;-><init>(Z)V
+
+    iput-object p2, p0, Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusKeyParameters;->params:Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getParameters()Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;
+    .registers 2
+
+    iget-object v0, p0, Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusKeyParameters;->params:Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;
+
+    return-object v0
+.end method

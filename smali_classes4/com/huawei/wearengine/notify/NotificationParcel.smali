@@ -134,7 +134,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/dj5;)V
+.method public constructor <init>(Lcom/huawei/appmarket/fj5;)V
     .registers 3
 
     .line 2
@@ -153,7 +153,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/dj5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/fj5;->a()I
 
     move-result p1
 

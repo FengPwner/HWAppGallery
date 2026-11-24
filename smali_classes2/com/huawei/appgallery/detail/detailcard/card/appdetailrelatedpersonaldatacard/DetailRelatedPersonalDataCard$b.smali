@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard$b;->u:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a1702
+    const v0, 0x7f0a1703
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

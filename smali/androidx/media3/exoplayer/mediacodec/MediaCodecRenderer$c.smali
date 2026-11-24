@@ -23,19 +23,19 @@
     return-void
 .end method
 
-.method public static a(Landroidx/media3/exoplayer/mediacodec/h$a;Lcom/huawei/appmarket/t16;)V
+.method public static a(Landroidx/media3/exoplayer/mediacodec/h$a;Lcom/huawei/appmarket/v16;)V
     .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/t16;->a()Landroid/media/metrics/LogSessionId;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/v16;->a()Landroid/media/metrics/LogSessionId;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/hz;->i()Landroid/media/metrics/LogSessionId;
+    invoke-static {}, Lcom/huawei/appmarket/iz;->i()Landroid/media/metrics/LogSessionId;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -45,7 +45,7 @@
 
     const-string v0, "log-session-id"
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hz;->r(Landroid/media/metrics/LogSessionId;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/iz;->r(Landroid/media/metrics/LogSessionId;)Ljava/lang/String;
 
     move-result-object p1
 

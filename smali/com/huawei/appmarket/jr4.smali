@@ -1,275 +1,674 @@
-.class final Lcom/huawei/appmarket/jr4;
+.class public Lcom/huawei/appmarket/jr4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# static fields
-.field static a:Lcom/huawei/appmarket/fp4$a;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/huawei/appmarket/u05;
+
+.field public final b:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field public c:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field public final d:Landroid/view/animation/Interpolator;
+
+.field public final e:Landroid/view/animation/Interpolator;
+
+.field public final f:Landroid/view/animation/Interpolator;
+
+.field public final g:F
+
+.field public h:Ljava/lang/Float;
+
+.field private i:F
+
+.field private j:F
+
+.field private k:I
+
+.field private l:I
+
+.field private m:F
+
+.field private n:F
+
+.field public o:Landroid/graphics/PointF;
+
+.field public p:Landroid/graphics/PointF;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    const-string v0, "k"
-
-    filled-new-array {v0}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/fp4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/fp4$a;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/fp4$a;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method static a(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;FLcom/huawei/appmarket/qf8;Z)Ljava/util/ArrayList;
-    .registers 14
-    .annotation system Ldalvik/annotation/Throws;
+.method public constructor <init>(Lcom/huawei/appmarket/u05;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+    .registers 8
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Ljava/io/IOException;
+            "(",
+            "Lcom/huawei/appmarket/u05;",
+            "TT;TT;",
+            "Landroid/view/animation/Interpolator;",
+            "F",
+            "Ljava/lang/Float;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Ljava/util/ArrayList;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    const v0, -0x358c9d09
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->E()Lcom/huawei/appmarket/fp4$b;
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
 
-    move-result-object v1
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
 
-    sget-object v2, Lcom/huawei/appmarket/fp4$b;->g:Lcom/huawei/appmarket/fp4$b;
+    const v0, 0x2ec8fb09
 
-    if-ne v1, v2, :cond_0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
 
-    const-string p0, "Lottie doesn\'t support expressions."
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/r05;->a(Ljava/lang/String;)V
+    const/4 v0, 0x1
 
-    return-object v0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->m:F
 
-    :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->t()V
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
 
-    :goto_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->x()Z
+    const/4 v0, 0x0
 
-    move-result v1
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->o:Landroid/graphics/PointF;
 
-    if-eqz v1, :cond_5
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->p:Landroid/graphics/PointF;
 
-    sget-object v1, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/fp4$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/fp4;->G(Lcom/huawei/appmarket/fp4$a;)I
+    iput-object p2, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
-    move-result v1
+    iput-object p3, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
-    if-eqz v1, :cond_1
+    iput-object p4, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->I()V
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
 
-    goto :goto_0
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
 
-    :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->E()Lcom/huawei/appmarket/fp4$b;
+    iput p5, p0, Lcom/huawei/appmarket/jr4;->g:F
 
-    move-result-object v1
+    iput-object p6, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
-    sget-object v2, Lcom/huawei/appmarket/fp4$b;->b:Lcom/huawei/appmarket/fp4$b;
+    return-void
+.end method
 
-    if-ne v1, v2, :cond_4
+.method public constructor <init>(Lcom/huawei/appmarket/u05;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+    .registers 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/u05;",
+            "TT;TT;",
+            "Landroid/view/animation/Interpolator;",
+            "Landroid/view/animation/Interpolator;",
+            "F",
+            "Ljava/lang/Float;",
+            ")V"
+        }
+    .end annotation
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->s()V
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->E()Lcom/huawei/appmarket/fp4$b;
+    const v0, -0x358c9d09
 
-    move-result-object v1
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
 
-    sget-object v2, Lcom/huawei/appmarket/fp4$b;->h:Lcom/huawei/appmarket/fp4$b;
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
 
-    if-ne v1, v2, :cond_2
+    const v0, 0x2ec8fb09
 
-    const/4 v7, 0x0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
 
-    move-object v3, p0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
 
-    move-object v4, p1
+    const/4 v0, 0x1
 
-    move v5, p2
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->m:F
 
-    move-object v6, p3
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
 
-    move v8, p4
+    const/4 v0, 0x0
 
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/ir4;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;FLcom/huawei/appmarket/qf8;ZZ)Lcom/huawei/appmarket/gr4;
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->o:Landroid/graphics/PointF;
 
-    move-result-object v1
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->p:Landroid/graphics/PointF;
 
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
 
-    goto :goto_2
+    iput-object p2, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
-    :cond_2
-    :goto_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->x()Z
+    iput-object p3, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
-    move-result v1
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
 
-    if-eqz v1, :cond_3
+    iput-object p4, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
 
-    const/4 v6, 0x1
+    iput-object p5, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
 
-    move-object v2, p0
+    iput p6, p0, Lcom/huawei/appmarket/jr4;->g:F
 
-    move-object v3, p1
+    iput-object p7, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
-    move v4, p2
+    return-void
+.end method
 
-    move-object v5, p3
+.method protected constructor <init>(Lcom/huawei/appmarket/u05;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;Landroid/view/animation/Interpolator;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+    .registers 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/u05;",
+            "TT;TT;",
+            "Landroid/view/animation/Interpolator;",
+            "Landroid/view/animation/Interpolator;",
+            "Landroid/view/animation/Interpolator;",
+            "F",
+            "Ljava/lang/Float;",
+            ")V"
+        }
+    .end annotation
 
-    move v7, p4
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/ir4;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;FLcom/huawei/appmarket/qf8;ZZ)Lcom/huawei/appmarket/gr4;
+    const v0, -0x358c9d09
 
-    move-result-object v1
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
 
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
 
-    goto :goto_1
+    const v0, 0x2ec8fb09
 
-    :cond_3
-    :goto_2
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->u()V
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
 
-    goto :goto_0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
 
-    :cond_4
-    const/4 v6, 0x0
+    const/4 v0, 0x1
 
-    move-object v2, p0
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->m:F
 
-    move-object v3, p1
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
 
-    move v4, p2
+    const/4 v0, 0x0
 
-    move-object v5, p3
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->o:Landroid/graphics/PointF;
 
-    move v7, p4
+    iput-object v0, p0, Lcom/huawei/appmarket/jr4;->p:Landroid/graphics/PointF;
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/ir4;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;FLcom/huawei/appmarket/qf8;ZZ)Lcom/huawei/appmarket/gr4;
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
 
-    move-result-object v1
+    iput-object p2, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    iput-object p3, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
-    goto :goto_0
+    iput-object p4, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
 
-    :cond_5
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->v()V
+    iput-object p5, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jr4;->b(Ljava/util/ArrayList;)V
+    iput-object p6, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
+
+    iput p7, p0, Lcom/huawei/appmarket/jr4;->g:F
+
+    iput-object p8, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Object;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const v0, -0x358c9d09
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
+
+    const v0, 0x2ec8fb09
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
+
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->m:F
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
+
+    const/4 v1, 0x0
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->o:Landroid/graphics/PointF;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->p:Landroid/graphics/PointF;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->g:F
+
+    const p1, 0x7f7fffff    # Float.MAX_VALUE
+
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)V"
+        }
+    .end annotation
+
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const v0, -0x358c9d09
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
+
+    const v0, 0x2ec8fb09
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
+
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->m:F
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
+
+    const/4 v1, 0x0
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->o:Landroid/graphics/PointF;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->p:Landroid/graphics/PointF;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->g:F
+
+    const p1, 0x7f7fffff    # Float.MAX_VALUE
+
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
+
+    return-void
+.end method
+
+.method public static a(Lcom/huawei/appmarket/h23;Lcom/huawei/appmarket/h23;)Lcom/huawei/appmarket/jr4;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jr4;
+
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/jr4;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object v0
 .end method
 
-.method public static b(Ljava/util/ArrayList;)V
-    .registers 6
+
+# virtual methods
+.method public final b()F
+    .registers 5
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
+    const/high16 v0, 0x3f800000    # 1.0f
 
-    move-result v0
+    iget-object v1, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
 
-    const/4 v1, 0x0
+    if-nez v1, :cond_0
+
+    return v0
 
     :cond_0
-    :goto_0
-    const/4 v2, 0x1
+    iget v2, p0, Lcom/huawei/appmarket/jr4;->n:F
 
-    add-int/lit8 v3, v0, -0x1
+    const/4 v3, 0x1
 
-    if-ge v1, v3, :cond_1
+    cmpl-float v2, v2, v3
 
-    invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    if-nez v2, :cond_2
 
-    move-result-object v2
+    iget-object v2, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
-    check-cast v2, Lcom/huawei/appmarket/gr4;
+    if-nez v2, :cond_1
 
-    add-int/lit8 v1, v1, 0x1
-
-    invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/huawei/appmarket/gr4;
-
-    iget v4, v3, Lcom/huawei/appmarket/gr4;->g:F
-
-    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v4
-
-    iput-object v4, v2, Lcom/huawei/appmarket/gr4;->h:Ljava/lang/Float;
-
-    iget-object v4, v2, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
-
-    if-nez v4, :cond_0
-
-    iget-object v3, v3, Lcom/huawei/appmarket/gr4;->b:Ljava/lang/Object;
-
-    if-eqz v3, :cond_0
-
-    iput-object v3, v2, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
-
-    instance-of v3, v2, Lcom/huawei/appmarket/pw5;
-
-    if-eqz v3, :cond_0
-
-    check-cast v2, Lcom/huawei/appmarket/pw5;
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/pw5;->i()V
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->n:F
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p0, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/jr4;->e()F
 
-    move-result-object v0
+    move-result v0
 
-    check-cast v0, Lcom/huawei/appmarket/gr4;
+    iget-object v2, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/gr4;->b:Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
 
-    if-eqz v1, :cond_2
+    move-result v2
 
-    iget-object v1, v0, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
+    iget v3, p0, Lcom/huawei/appmarket/jr4;->g:F
 
-    if-nez v1, :cond_3
+    sub-float/2addr v2, v3
 
-    :cond_2
-    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/u05;->e()F
 
     move-result v1
 
-    if-le v1, v2, :cond_3
+    div-float/2addr v2, v1
 
-    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    add-float/2addr v2, v0
 
-    :cond_3
-    return-void
+    iput v2, p0, Lcom/huawei/appmarket/jr4;->n:F
+
+    :cond_2
+    :goto_0
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->n:F
+
+    return v0
+.end method
+
+.method public final c()F
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->j:F
+
+    const v1, -0x358c9d09
+
+    cmpl-float v0, v0, v1
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Float;
+
+    invoke-virtual {v0}, Ljava/lang/Float;->floatValue()F
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->j:F
+
+    :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->j:F
+
+    return v0
+.end method
+
+.method public final d()I
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->l:I
+
+    const v1, 0x2ec8fb09
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Integer;
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->l:I
+
+    :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->l:I
+
+    return v0
+.end method
+
+.method public final e()F
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->a:Lcom/huawei/appmarket/u05;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
+    iget v1, p0, Lcom/huawei/appmarket/jr4;->m:F
+
+    const/4 v2, 0x1
+
+    cmpl-float v1, v1, v2
+
+    if-nez v1, :cond_1
+
+    iget v1, p0, Lcom/huawei/appmarket/jr4;->g:F
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->p()F
+
+    move-result v2
+
+    sub-float/2addr v1, v2
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->e()F
+
+    move-result v0
+
+    div-float/2addr v1, v0
+
+    iput v1, p0, Lcom/huawei/appmarket/jr4;->m:F
+
+    :cond_1
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->m:F
+
+    return v0
+.end method
+
+.method public final f()F
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->i:F
+
+    const v1, -0x358c9d09
+
+    cmpl-float v0, v0, v1
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Float;
+
+    invoke-virtual {v0}, Ljava/lang/Float;->floatValue()F
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->i:F
+
+    :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->i:F
+
+    return v0
+.end method
+
+.method public final g()I
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->k:I
+
+    const v1, 0x2ec8fb09
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Integer;
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/jr4;->k:I
+
+    :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/jr4;->k:I
+
+    return v0
+.end method
+
+.method public final h()Z
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "Keyframe{startValue="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", endValue="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", startFrame="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcom/huawei/appmarket/jr4;->g:F
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v1, ", endFrame="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", interpolator="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x7d
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

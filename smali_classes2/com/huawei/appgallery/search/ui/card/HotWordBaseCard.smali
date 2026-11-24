@@ -54,7 +54,7 @@
 
 .field protected v:I
 
-.field protected w:Lcom/huawei/appmarket/ak0;
+.field protected w:Lcom/huawei/appmarket/bk0;
 
 .field protected x:I
 
@@ -238,7 +238,7 @@
 
     .line 59
     .line 60
-    invoke-static {v5}, Lcom/huawei/appmarket/s52;->b(Landroid/view/View;)Z
+    invoke-static {v5}, Lcom/huawei/appmarket/w52;->b(Landroid/view/View;)Z
 
     .line 61
     .line 62
@@ -416,7 +416,7 @@
 
     .line 146
     .line 147
-    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/ej2;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v2, v0, v3, v1}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     .line 148
     .line 149
@@ -436,7 +436,7 @@
 
     .line 156
     .line 157
-    invoke-static {p0, v0, v1, v2, v0}, Lcom/huawei/appmarket/ej2;->t(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0, v1, v2, v0}, Lcom/huawei/appmarket/tr2;->s(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 158
     .line 159
@@ -446,7 +446,7 @@
     .line 161
     :cond_7
     :goto_2
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 162
     .line 163
@@ -484,7 +484,7 @@
 
     .line 180
     .line 181
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 182
     .line 183
@@ -704,7 +704,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->y:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -724,22 +724,22 @@
 
     :cond_2
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "HotWordBaseCard"
 
     const-string v1, "setData error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->w:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->w:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -827,7 +827,7 @@
     move-result-object p1
 
     .line 42
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 43
     .line 44
@@ -898,7 +898,7 @@
 
     .line 76
     .line 77
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 78
     .line 79
@@ -910,7 +910,7 @@
 
     .line 82
     .line 83
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 84
     .line 85
@@ -925,7 +925,7 @@
 
     .line 89
     .line 90
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 91
     .line 92
@@ -940,7 +940,7 @@
 
     .line 96
     .line 97
-    invoke-static {v0}, Lcom/huawei/appmarket/ve8;->c(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/af8;->c(Landroid/content/Context;)I
 
     .line 98
     .line 99
@@ -960,7 +960,6 @@
     .line 105
     .line 106
     return-object p0
-    .line 107
 .end method
 
 .method protected final n1(Ljava/util/List;)V
@@ -974,7 +973,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 2
     .line 3
@@ -1034,7 +1033,7 @@
     move-result-object v0
 
     .line 30
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uv4;->c(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/xv4;->c(Ljava/util/List;Ljava/util/List;)Z
 
     .line 31
     .line 32
@@ -1240,11 +1239,11 @@
     .line 132
     .line 133
     .line 134
-    iget-object v5, p0, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->w:Lcom/huawei/appmarket/ak0;
+    iget-object v5, p0, Lcom/huawei/appgallery/search/ui/card/HotWordBaseCard;->w:Lcom/huawei/appmarket/bk0;
 
     .line 135
     .line 136
-    invoke-virtual {v4, v5}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 137
     .line 138
@@ -1440,7 +1439,7 @@
 
     if-eqz v1, :cond_5
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -1482,7 +1481,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ve8;->a(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/af8;->a(Landroid/view/View;)Z
 
     move-result v3
 
@@ -1693,7 +1692,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected p1()Lcom/huawei/appgallery/search/ui/card/textcard/HotWordBaseItemCard;
@@ -1715,13 +1713,13 @@
     .line 1
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "HotWordBaseCard"
 
     const-string v1, "get LayoutInflater error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/view/View;
 

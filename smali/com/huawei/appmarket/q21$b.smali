@@ -28,7 +28,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hz;->n(Landroid/content/ClipData;I)Landroid/view/ContentInfo$Builder;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/iz;->n(Landroid/content/ClipData;I)Landroid/view/ContentInfo$Builder;
 
     move-result-object p1
 
@@ -43,13 +43,13 @@
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/hz;->s()V
+    invoke-static {}, Lcom/huawei/appmarket/iz;->s()V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/q21;->f()Landroid/view/ContentInfo;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hz;->o(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
+    invoke-static {p1}, Lcom/huawei/appmarket/iz;->o(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
 
     move-result-object p1
 
@@ -66,7 +66,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$b;->a:Landroid/view/ContentInfo$Builder;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hz;->x(Landroid/view/ContentInfo$Builder;Landroid/net/Uri;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/iz;->x(Landroid/view/ContentInfo$Builder;Landroid/net/Uri;)V
 
     return-void
 .end method
@@ -81,7 +81,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/q21$b;->a:Landroid/view/ContentInfo$Builder;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/hz;->p(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
+    invoke-static {v2}, Lcom/huawei/appmarket/iz;->p(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
 
     move-result-object v2
 
@@ -98,7 +98,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$b;->a:Landroid/view/ContentInfo$Builder;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hz;->y(Landroid/view/ContentInfo$Builder;Landroid/os/Bundle;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/iz;->y(Landroid/view/ContentInfo$Builder;Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$b;->a:Landroid/view/ContentInfo$Builder;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hz;->w(Landroid/view/ContentInfo$Builder;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/iz;->w(Landroid/view/ContentInfo$Builder;I)V
 
     return-void
 .end method

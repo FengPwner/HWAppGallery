@@ -93,7 +93,7 @@
 
     const-string v2, "onAccountBusinessResult, account interval too short."
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     monitor-exit v1
 
@@ -111,17 +111,17 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {}, Lcom/huawei/appmarket/i57;->b()Lcom/huawei/appmarket/i57;
+    invoke-static {}, Lcom/huawei/appmarket/n57;->b()Lcom/huawei/appmarket/n57;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/i57;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/n57;->a()V
 
-    invoke-static {}, Lcom/huawei/appmarket/e36;->b()Lcom/huawei/appmarket/e36;
+    invoke-static {}, Lcom/huawei/appmarket/g36;->b()Lcom/huawei/appmarket/g36;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/e36;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/g36;->a()V
 
     invoke-static {v0}, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;->h3(Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;)V
 

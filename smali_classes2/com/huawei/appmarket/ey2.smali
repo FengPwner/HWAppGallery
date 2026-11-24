@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/nd0;)V
+.method public abstract a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 .end method

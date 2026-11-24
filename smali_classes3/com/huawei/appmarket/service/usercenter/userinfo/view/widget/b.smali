@@ -54,7 +54,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
 
-    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->f:Lcom/huawei/appmarket/jd8;
+    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/MobilePhoneChangeView;->f:Lcom/huawei/appmarket/od8;
 
     if-eqz p1, :cond_0
 

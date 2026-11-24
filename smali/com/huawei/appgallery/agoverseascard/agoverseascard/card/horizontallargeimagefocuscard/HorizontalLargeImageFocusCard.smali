@@ -58,7 +58,7 @@
 
     const-string v0, "biReportNew error, cardBean is not instanceof HorizontalLargeImageFocusCardBean."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -169,7 +169,7 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/pb3;
+    new-instance v0, Lcom/huawei/appmarket/sb3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -181,7 +181,7 @@
 
     move-result-object v3
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/pb3;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/e$b;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/sb3;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/e$b;)V
 
     return-object v0
 .end method
@@ -255,7 +255,7 @@
 
     const-string v1, "setData data is not instanceof HorizontalLargeImageFocusListCardBean."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

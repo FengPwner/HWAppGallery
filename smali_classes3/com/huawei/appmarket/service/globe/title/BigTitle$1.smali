@@ -57,7 +57,7 @@
 
     const-string v2, "huazi load timeout, restore text"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/globe/title/BigTitle$1;->val$titleTextView:Landroid/widget/TextView;
 

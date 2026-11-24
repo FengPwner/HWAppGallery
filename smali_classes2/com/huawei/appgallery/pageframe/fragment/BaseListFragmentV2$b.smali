@@ -66,13 +66,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fb2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/fb2;
+    invoke-static {v0}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fb2;->a()Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ib2;->a()Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;
 
     move-result-object v1
 
@@ -98,7 +98,7 @@
     return-void
 
     :cond_2
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fb2;->a()Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ib2;->a()Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;
 
     move-result-object v0
 

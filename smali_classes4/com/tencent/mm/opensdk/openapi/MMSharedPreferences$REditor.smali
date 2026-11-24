@@ -282,7 +282,7 @@
 
     move-result-object v5
 
-    const-string v6, "value"
+    const-string/jumbo v6, "value"
 
     invoke-virtual {v0, v6, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 

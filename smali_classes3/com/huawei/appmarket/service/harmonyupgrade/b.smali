@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/es3;
+.implements Lcom/huawei/appmarket/gs3;
 
 
 # instance fields
@@ -83,11 +83,11 @@
     .line 14
     .line 15
     .line 16
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 17
     .line 18
-    sget-object v2, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v2, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     .line 19
     .line 20
@@ -104,7 +104,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     .line 28
     .line 29
@@ -194,5 +194,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

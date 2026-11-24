@@ -48,7 +48,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 14
     .line 15
@@ -145,7 +145,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic A1(Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -245,7 +244,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 6
     .line 7
@@ -257,7 +256,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -429,10 +428,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -440,7 +438,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard$a;-><init>(Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard$a;-><init>(Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard;Lcom/huawei/appmarket/bk0;)V
 
     .line 4
     .line 5
@@ -466,7 +464,7 @@
 
     .line 16
     .line 17
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 18
     .line 19
@@ -478,7 +476,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -576,7 +574,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final e1()V
@@ -595,7 +592,7 @@
 
     .line 6
     .line 7
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 8
     .line 9
@@ -603,7 +600,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -741,7 +738,7 @@
 
     .line 74
     :cond_6
-    sget-object v5, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v5, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 75
     .line 76
@@ -753,7 +750,7 @@
 
     .line 79
     .line 80
-    invoke-static {v6, v0, v7}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v6, v0, v7}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
@@ -782,7 +779,7 @@
     move-result-object v0
 
     .line 95
-    invoke-virtual {v5, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     .line 97
@@ -989,7 +986,7 @@
 
     .line 69
     .line 70
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 71
     .line 72
@@ -1001,7 +998,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -1085,7 +1082,7 @@
 
     .line 118
     .line 119
-    invoke-static {v3, v1, v0, v2}, Lcom/huawei/appmarket/vw7;->l(Landroid/content/Context;ILandroid/content/Context;Landroid/widget/TextView;)V
+    invoke-static {v3, v1, v0, v2}, Lcom/huawei/appmarket/ci7;->s(Landroid/content/Context;ILandroid/content/Context;Landroid/widget/TextView;)V
 
     .line 120
     .line 121
@@ -1262,13 +1259,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "SafeAppDecorateItemCard"
 
     const-string v2, "setIntro error. info is null."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

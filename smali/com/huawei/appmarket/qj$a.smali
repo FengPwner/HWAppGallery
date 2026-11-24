@@ -37,7 +37,7 @@
     .line 1
     new-instance v0, Lcom/huawei/appmarket/qj$a;
 
-    const-string v1, "USER_PROTOCOL"
+    const-string v1, "OPTION_STATE_DEFAULT"
 
     const/4 v2, 0x0
 
@@ -47,7 +47,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/qj$a;
 
-    const-string v3, "APP_PRIVACY"
+    const-string v3, "OPTION_STATE_CANCEL"
 
     const/4 v4, 0x1
 

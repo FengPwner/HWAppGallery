@@ -53,13 +53,13 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setPressed(Z)V
 
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v1, "CommentTipClickListener : onClick()"
 
     const-string v2, "UserCommentInfoCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v1, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;->i0:Lcom/huawei/appgallery/appcomment/ui/view/CommentBubbleTipView;
 
@@ -67,7 +67,7 @@
 
     const-string p1, "commentBubbleTipView is null."
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -78,7 +78,7 @@
 
     const-string p1, "auditInfo is null"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

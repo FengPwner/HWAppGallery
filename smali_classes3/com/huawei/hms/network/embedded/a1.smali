@@ -271,7 +271,7 @@
 .end method
 
 .method private a(Lcom/huawei/hms/network/httpclient/Request;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/hms/network/embedded/h1$d;
-    .registers 9
+    .registers 10
 
     new-instance v0, Lcom/huawei/hms/network/httpclient/config/NetworkConfig;
 
@@ -348,7 +348,7 @@
     const-string v1, "appendSceneType error "
 
     .line 1
-    invoke-static {v1, p3, v3}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p3, v3}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2
     :goto_0
@@ -384,28 +384,18 @@
 
     if-lt v2, v4, :cond_0
 
-    new-instance v2, Ljava/lang/StringBuilder;
+    const-string v2, "FirstIpv6ClientConcurrentConnectDelay "
 
-    const-string v4, "FirstIpv6ClientConcurrentConnectDelay "
+    const-string v4, " ms is bigger than Connect Timeout "
 
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v5, " ms, please check. This request will use the default value 0"
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, " ms is bigger than Connect Timeout "
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p2, " ms, please check. This request will use the default value 0"
-
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 3
+    invoke-static {v2, v1, v4, p2, v5}, Lcom/huawei/appmarket/kk4;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
+    .line 4
     invoke-static {v3, p2}, Lcom/huawei/hms/framework/common/Logger;->w(Ljava/lang/String;Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/hms/network/embedded/k;->b()Lcom/huawei/hms/network/embedded/k;
@@ -459,7 +449,7 @@
 .method private declared-synchronized a()Lcom/huawei/hms/network/embedded/k2;
     .registers 4
 
-    .line 8
+    .line 17
     monitor-enter p0
 
     :try_start_0
@@ -494,7 +484,7 @@
 .method private a(Ljava/lang/String;)Ljava/lang/String;
     .registers 4
 
-    .line 9
+    .line 18
     iget-object v0, p0, Lcom/huawei/hms/network/embedded/a1;->o:Lcom/huawei/hms/network/httpclient/excutor/PolicyExecutor;
 
     const-string v1, "core_scene_type"
@@ -531,7 +521,7 @@
 .method public static synthetic a(Lcom/huawei/hms/network/embedded/a1;)Ljava/util/List;
     .registers 1
 
-    .line 10
+    .line 19
     iget-object p0, p0, Lcom/huawei/hms/network/embedded/a1;->a:Ljava/util/List;
 
     return-object p0
@@ -540,7 +530,7 @@
 .method private a(Lcom/huawei/hms/network/embedded/h1$d;Lcom/huawei/hms/network/httpclient/websocket/WebSocket;)V
     .registers 4
 
-    .line 11
+    .line 20
     invoke-direct {p0, p1, p2}, Lcom/huawei/hms/network/embedded/a1;->b(Lcom/huawei/hms/network/embedded/h1$d;Lcom/huawei/hms/network/httpclient/websocket/WebSocket;)Lcom/huawei/hms/network/httpclient/Submit;
 
     move-result-object p1
@@ -559,7 +549,7 @@
 .method private a(Lcom/huawei/hms/network/httpclient/Request;)Z
     .registers 4
 
-    .line 25
+    .line 43
     new-instance v0, Lcom/huawei/hms/network/embedded/d3;
 
     invoke-virtual {p1}, Lcom/huawei/hms/network/httpclient/Request;->getUrl()Ljava/lang/String;
@@ -819,9 +809,9 @@
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/so7;
+    new-instance v1, Lcom/huawei/appmarket/xo7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     sput-object v1, Lcom/huawei/hms/network/embedded/a1;->s:Ljavax/net/ssl/HostnameVerifier;
 
@@ -963,7 +953,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     move-result-object v1
 
@@ -1128,17 +1118,17 @@
 
     const-string v10, "\uff0crequest firstIpv6ClientConcurrentConnectDelay\uff1a"
 
-    .line 12
-    invoke-static {v8, v1, v9, v3, v10}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 21
+    invoke-static {v8, v1, v9, v3, v10}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v8
 
     const-string v10, "httpclient: ConnectTimeout:"
 
-    .line 13
-    invoke-static {v8, v5, v10, v6, v9}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .line 22
+    invoke-static {v8, v5, v10, v6, v9}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
+    .line 23
     invoke-virtual {v8, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v5, "\uff0chttpclient firstIpv6ClientConcurrentConnectDelay\uff1a"
@@ -1297,28 +1287,18 @@
 
     if-lt v6, v4, :cond_a
 
-    new-instance v4, Ljava/lang/StringBuilder;
+    const-string v4, "Concurrent Connect Delay "
 
-    const-string v6, "Concurrent Connect Delay "
+    const-string v6, " ms is bigger than Connect Timeout "
 
-    invoke-direct {v4, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v7, " ms, please check. This request will use the default value."
 
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v3, " ms is bigger than Connect Timeout "
-
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, " ms, please check. This request will use the default value."
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 24
+    invoke-static {v4, v3, v6, v1, v7}, Lcom/huawei/appmarket/kk4;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
+    .line 25
     invoke-static {v5, v1}, Lcom/huawei/hms/framework/common/Logger;->w(Ljava/lang/String;Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/hms/network/embedded/k;->b()Lcom/huawei/hms/network/embedded/k;

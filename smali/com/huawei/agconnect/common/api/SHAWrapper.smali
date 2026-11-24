@@ -15,7 +15,7 @@
 .method public static sha256Encrypt(Ljava/lang/String;)Ljava/lang/String;
     .registers 1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

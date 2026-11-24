@@ -348,7 +348,7 @@
     const-string p2, "X509CertUtil"
 
     .line 7
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 

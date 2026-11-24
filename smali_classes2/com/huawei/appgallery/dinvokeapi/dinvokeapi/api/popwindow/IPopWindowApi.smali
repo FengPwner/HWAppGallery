@@ -26,5 +26,5 @@
 .method public abstract jumpToDetail(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.method public abstract refreshAppRecallCard(Lcom/huawei/appmarket/ib2;)V
+.method public abstract refreshAppRecallCard(Lcom/huawei/appmarket/lb2;)V
 .end method

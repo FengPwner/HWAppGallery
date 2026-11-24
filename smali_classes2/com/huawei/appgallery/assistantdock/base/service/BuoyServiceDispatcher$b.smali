@@ -43,25 +43,25 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;->access$102(Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/cf0;->W2(Lcom/huawei/appmarket/cd0;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/df0;->X2(Lcom/huawei/appmarket/cd0;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v1
 
     iget-object v0, v0, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/cf0;->L2(Landroid/content/Context;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/df0;->M2(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/te0;->g()Lcom/huawei/appmarket/te0;
+    invoke-static {}, Lcom/huawei/appmarket/ue0;->g()Lcom/huawei/appmarket/ue0;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/te0;->e()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ue0;->e()V
 
     return-void
 .end method

@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method public final c(Landroidx/media3/exoplayer/source/k$b;Lcom/huawei/appmarket/ek;J)Landroidx/media3/exoplayer/source/j;
+.method public final c(Landroidx/media3/exoplayer/source/k$b;Lcom/huawei/appmarket/dk;J)Landroidx/media3/exoplayer/source/j;
     .registers 5
 
     .line 1
@@ -53,11 +53,11 @@
     throw p1
 .end method
 
-.method public final d()Lcom/huawei/appmarket/n55;
+.method public final d()Lcom/huawei/appmarket/q55;
     .registers 2
 
     .line 1
-    invoke-static {}, Landroidx/media3/exoplayer/source/e;->K()Lcom/huawei/appmarket/n55;
+    invoke-static {}, Landroidx/media3/exoplayer/source/e;->K()Lcom/huawei/appmarket/q55;
 
     move-result-object v0
 
@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method protected final y(Lcom/huawei/appmarket/s28;)V
+.method protected final y(Lcom/huawei/appmarket/y28;)V
     .registers 2
 
     .line 1

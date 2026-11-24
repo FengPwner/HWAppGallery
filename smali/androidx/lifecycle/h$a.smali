@@ -240,7 +240,7 @@
     const/4 v1, 0x0
 
     .line 93
-    invoke-direct {v0, v1}, Landroidx/lifecycle/h$a$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/h$a$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     .line 94
     .line 95
@@ -287,6 +287,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V

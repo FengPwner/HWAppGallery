@@ -17,7 +17,7 @@
 # instance fields
 .field private checkCapsuleCard:Z
 
-.field private commonReqInfo:Lcom/huawei/appmarket/r47;
+.field private commonReqInfo:Lcom/huawei/appmarket/w47;
 
 .field private domainId:Ljava/lang/String;
 
@@ -59,11 +59,11 @@
 
 
 # virtual methods
-.method public final B0()Lcom/huawei/appmarket/r47;
+.method public final B0()Lcom/huawei/appmarket/w47;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/fragment/protocol/SearchResultFragmentProtocol$Request;->commonReqInfo:Lcom/huawei/appmarket/r47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/fragment/protocol/SearchResultFragmentProtocol$Request;->commonReqInfo:Lcom/huawei/appmarket/w47;
 
     return-object v0
 .end method
@@ -167,7 +167,7 @@
     .line 2
     .line 3
     .line 4
-    instance-of v0, p1, Lcom/huawei/appmarket/r47;
+    instance-of v0, p1, Lcom/huawei/appmarket/w47;
 
     .line 5
     .line 6
@@ -175,11 +175,11 @@
 
     .line 7
     .line 8
-    check-cast p1, Lcom/huawei/appmarket/r47;
+    check-cast p1, Lcom/huawei/appmarket/w47;
 
     .line 9
     .line 10
-    iget-object v0, p1, Lcom/huawei/appmarket/r47;->A:Ljava/lang/String;
+    iget-object v0, p1, Lcom/huawei/appmarket/w47;->A:Ljava/lang/String;
 
     .line 11
     .line 12
@@ -187,7 +187,7 @@
 
     .line 13
     .line 14
-    iget-object v0, p1, Lcom/huawei/appmarket/r47;->C:Ljava/lang/String;
+    iget-object v0, p1, Lcom/huawei/appmarket/w47;->C:Ljava/lang/String;
 
     .line 15
     .line 16
@@ -195,7 +195,7 @@
 
     .line 17
     .line 18
-    iget-object v0, p1, Lcom/huawei/appmarket/r47;->B:Ljava/lang/String;
+    iget-object v0, p1, Lcom/huawei/appmarket/w47;->B:Ljava/lang/String;
 
     .line 19
     .line 20
@@ -203,7 +203,7 @@
 
     .line 21
     .line 22
-    iget-object v0, p1, Lcom/huawei/appmarket/r47;->D:Ljava/util/List;
+    iget-object v0, p1, Lcom/huawei/appmarket/w47;->D:Ljava/util/List;
 
     .line 23
     .line 24
@@ -212,7 +212,7 @@
     .line 25
     .line 26
     .line 27
-    iget-object v0, p1, Lcom/huawei/appmarket/r47;->E:Ljava/lang/String;
+    iget-object v0, p1, Lcom/huawei/appmarket/w47;->E:Ljava/lang/String;
 
     .line 28
     .line 29
@@ -220,7 +220,7 @@
 
     .line 30
     .line 31
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/fragment/protocol/SearchResultFragmentProtocol$Request;->commonReqInfo:Lcom/huawei/appmarket/r47;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/fragment/protocol/SearchResultFragmentProtocol$Request;->commonReqInfo:Lcom/huawei/appmarket/w47;
 
     .line 32
     .line 33
@@ -299,7 +299,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final M0()Ljava/lang/String;

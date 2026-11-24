@@ -83,7 +83,7 @@
 
     iget-object p1, p0, Landroidx/fragment/app/g$b;->b:Landroid/view/ViewGroup;
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/vp5;->a(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/wp5;->a(Landroid/view/View;Ljava/lang/Runnable;)V
 
     :cond_1
     return v0
@@ -118,7 +118,7 @@
 
     iget-object p1, p0, Landroidx/fragment/app/g$b;->b:Landroid/view/ViewGroup;
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/vp5;->a(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/wp5;->a(Landroid/view/View;Ljava/lang/Runnable;)V
 
     :cond_1
     return v0

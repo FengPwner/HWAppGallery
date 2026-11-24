@@ -8,7 +8,7 @@
 
 .field private y:Z
 
-.field private z:Lcom/huawei/appmarket/a47;
+.field private z:Lcom/huawei/appmarket/f47;
 
 
 # direct methods
@@ -193,7 +193,7 @@
 
     invoke-super {p0}, Lcom/huawei/appmarket/framework/widget/ExpandScrollLayout;->j()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/a47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/f47;
 
     if-eqz v0, :cond_0
 
@@ -219,7 +219,7 @@
 
     invoke-super {p0}, Lcom/huawei/appmarket/framework/widget/ExpandScrollLayout;->k()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/a47;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/f47;
 
     if-eqz v0, :cond_0
 
@@ -252,11 +252,11 @@
     return-void
 .end method
 
-.method public setHeadLayoutListener(Lcom/huawei/appmarket/a47;)V
+.method public setHeadLayoutListener(Lcom/huawei/appmarket/f47;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/a47;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/view/SearchExpandScrollLayout;->z:Lcom/huawei/appmarket/f47;
 
     return-void
 .end method

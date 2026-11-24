@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle$a;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,7 +34,7 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle$a;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
@@ -48,7 +48,7 @@
 
     const-string v1, "1"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/t98;->d(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y98;->d(Landroid/content/Intent;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->b(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Landroid/app/Activity;
 

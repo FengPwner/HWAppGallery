@@ -13,9 +13,9 @@
 
 .field private d:Lcom/huawei/quickcard/b;
 
-.field private e:Lcom/huawei/appmarket/ca9;
+.field private e:Lcom/huawei/appmarket/ja9;
 
-.field private f:Lcom/huawei/appmarket/zc9;
+.field private f:Lcom/huawei/appmarket/gd9;
 
 .field private g:Lcom/huawei/quickcard/framework/border/BorderRadius;
 
@@ -187,7 +187,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v2}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/zc9;
+    invoke-virtual {v2}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/gd9;
 
     .line 8
     .line 9
@@ -195,7 +195,7 @@
     move-result-object v2
 
     .line 11
-    iput-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iput-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 12
     .line 13
@@ -203,7 +203,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v2}, Lcom/huawei/quickcard/framework/border/Border;->getBorderColor()Lcom/huawei/appmarket/ca9;
+    invoke-virtual {v2}, Lcom/huawei/quickcard/framework/border/Border;->getBorderColor()Lcom/huawei/appmarket/ja9;
 
     .line 16
     .line 17
@@ -211,7 +211,7 @@
     move-result-object v2
 
     .line 19
-    iput-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iput-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 20
     .line 21
@@ -274,7 +274,7 @@
     .line 48
     .line 49
     .line 50
-    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 51
     .line 52
@@ -289,7 +289,7 @@
 
     .line 56
     :cond_0
-    invoke-virtual {v2}, Lcom/huawei/appmarket/zc9;->b()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/gd9;->b()Z
 
     .line 57
     .line 58
@@ -301,11 +301,11 @@
 
     .line 61
     .line 62
-    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 63
     .line 64
-    invoke-virtual {v2}, Lcom/huawei/appmarket/zc9;->g()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/gd9;->g()F
 
     .line 65
     .line 66
@@ -317,11 +317,11 @@
 
     .line 69
     :cond_1
-    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 70
     .line 71
-    invoke-virtual {v2}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 72
     .line 73
@@ -343,7 +343,7 @@
     .line 80
     .line 81
     :cond_2
-    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 82
     .line 83
@@ -359,7 +359,7 @@
 
     .line 88
     :cond_3
-    invoke-virtual {v7}, Lcom/huawei/appmarket/ca9;->b()Z
+    invoke-virtual {v7}, Lcom/huawei/appmarket/ja9;->b()Z
 
     .line 89
     .line 90
@@ -371,11 +371,11 @@
 
     .line 93
     .line 94
-    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 95
     .line 96
-    invoke-virtual {v7}, Lcom/huawei/appmarket/ca9;->g()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/ja9;->g()Ljava/lang/String;
 
     .line 97
     .line 98
@@ -396,11 +396,11 @@
 
     .line 105
     :cond_4
-    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v7, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 106
     .line 107
-    invoke-virtual {v7}, Lcom/huawei/appmarket/ca9;->c()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/ja9;->c()Ljava/lang/String;
 
     .line 108
     .line 109
@@ -640,7 +640,7 @@
     .line 227
     .line 228
     :cond_8
-    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v2, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 229
     .line 230
@@ -653,7 +653,7 @@
     .line 233
     .line 234
     :cond_9
-    iget-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 235
     .line 236
@@ -661,16 +661,16 @@
 
     .line 237
     .line 238
-    new-instance v2, Lcom/huawei/appmarket/ca9;
+    new-instance v2, Lcom/huawei/appmarket/ja9;
 
     .line 239
     .line 240
-    invoke-direct {v2}, Lcom/huawei/appmarket/ca9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/ja9;-><init>()V
 
     .line 241
     .line 242
     .line 243
-    iput-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iput-object v2, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 244
     .line 245
@@ -725,11 +725,11 @@
     .line 271
     .line 272
     .line 273
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 274
     .line 275
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->g()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->g()Ljava/lang/String;
 
     .line 276
     .line 277
@@ -741,11 +741,11 @@
 
     .line 280
     .line 281
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 282
     .line 283
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->c()Ljava/lang/String;
 
     .line 284
     .line 285
@@ -754,11 +754,11 @@
 
     .line 287
     :cond_b
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 288
     .line 289
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->g()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->g()F
 
     .line 290
     .line 291
@@ -774,11 +774,11 @@
 
     .line 296
     .line 297
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 298
     .line 299
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 300
     .line 301
@@ -928,11 +928,11 @@
     .line 370
     .line 371
     :cond_e
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 372
     .line 373
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->k()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->k()Ljava/lang/String;
 
     .line 374
     .line 375
@@ -944,11 +944,11 @@
 
     .line 378
     .line 379
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 380
     .line 381
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->c()Ljava/lang/String;
 
     .line 382
     .line 383
@@ -957,11 +957,11 @@
 
     .line 385
     :cond_f
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 386
     .line 387
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->k()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->k()F
 
     .line 388
     .line 389
@@ -977,11 +977,11 @@
 
     .line 394
     .line 395
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 396
     .line 397
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 398
     .line 399
@@ -1124,11 +1124,11 @@
     .line 465
     .line 466
     :cond_12
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 467
     .line 468
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->i()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->i()Ljava/lang/String;
 
     .line 469
     .line 470
@@ -1140,11 +1140,11 @@
 
     .line 473
     .line 474
-    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v4, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 475
     .line 476
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ca9;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ja9;->c()Ljava/lang/String;
 
     .line 477
     .line 478
@@ -1153,11 +1153,11 @@
 
     .line 480
     :cond_13
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 481
     .line 482
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->i()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->i()F
 
     .line 483
     .line 484
@@ -1173,11 +1173,11 @@
 
     .line 489
     .line 490
-    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v9, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 491
     .line 492
-    invoke-virtual {v9}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v9}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 493
     .line 494
@@ -1345,11 +1345,11 @@
     .line 571
     .line 572
     :cond_16
-    iget-object v5, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v5, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 573
     .line 574
-    invoke-virtual {v5}, Lcom/huawei/appmarket/ca9;->e()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/ja9;->e()Ljava/lang/String;
 
     .line 575
     .line 576
@@ -1361,11 +1361,11 @@
 
     .line 579
     .line 580
-    iget-object v5, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ca9;
+    iget-object v5, v0, Lcom/huawei/quickcard/k;->e:Lcom/huawei/appmarket/ja9;
 
     .line 581
     .line 582
-    invoke-virtual {v5}, Lcom/huawei/appmarket/ca9;->c()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/ja9;->c()Ljava/lang/String;
 
     .line 583
     .line 584
@@ -1374,11 +1374,11 @@
 
     .line 586
     :cond_17
-    iget-object v6, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v6, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 587
     .line 588
-    invoke-virtual {v6}, Lcom/huawei/appmarket/zc9;->e()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/gd9;->e()F
 
     .line 589
     .line 590
@@ -1394,11 +1394,11 @@
 
     .line 595
     .line 596
-    iget-object v6, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/zc9;
+    iget-object v6, v0, Lcom/huawei/quickcard/k;->f:Lcom/huawei/appmarket/gd9;
 
     .line 597
     .line 598
-    invoke-virtual {v6}, Lcom/huawei/appmarket/zc9;->c()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/gd9;->c()F
 
     .line 599
     .line 600
@@ -2042,65 +2042,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final getOpacity()I

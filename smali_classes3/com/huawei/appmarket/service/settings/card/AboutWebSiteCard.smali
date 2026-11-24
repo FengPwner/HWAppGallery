@@ -6,7 +6,7 @@
 # instance fields
 .field protected y:Lcom/huawei/appmarket/service/settings/view/widget/EnterLayout;
 
-.field private z:Lcom/huawei/appmarket/rf7;
+.field private z:Lcom/huawei/appmarket/wf7;
 
 
 # direct methods
@@ -19,7 +19,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard$a;-><init>(Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;->z:Lcom/huawei/appmarket/rf7;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;->z:Lcom/huawei/appmarket/wf7;
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/m77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -190,7 +190,7 @@
 
     .line 76
     .line 77
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;->z:Lcom/huawei/appmarket/rf7;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutWebSiteCard;->z:Lcom/huawei/appmarket/wf7;
 
     .line 78
     .line 79
@@ -232,5 +232,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -43,7 +43,7 @@
     move-result-object v1
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/k19;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/q19;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

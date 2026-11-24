@@ -46,7 +46,7 @@
 
     move-result-object p2
 
-    sget-object p3, Lcom/huawei/appmarket/wf6;->y:[I
+    sget-object p3, Lcom/huawei/appmarket/yf6;->y:[I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

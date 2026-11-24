@@ -1549,7 +1549,7 @@
     if-nez v4, :cond_2
 
     :try_start_1
-    sget v4, Lcom/huawei/appmarket/ge8;->a:I
+    sget v4, Lcom/huawei/appmarket/le8;->a:I
 
     if-lt v4, v2, :cond_1
 
@@ -1591,7 +1591,7 @@
     if-nez v5, :cond_4
 
     :try_start_2
-    sget v5, Lcom/huawei/appmarket/ge8;->a:I
+    sget v5, Lcom/huawei/appmarket/le8;->a:I
 
     if-lt v5, v2, :cond_3
 

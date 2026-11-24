@@ -46,7 +46,7 @@
 
     invoke-direct {v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->i()I
 
     move-result v2
 
@@ -73,7 +73,7 @@
     return p1
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 4
 
     .line 1
@@ -81,10 +81,10 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceImgCard;->V(Lcom/huawei/appmarket/hj0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceImgCard;->V(Lcom/huawei/appmarket/ij0;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

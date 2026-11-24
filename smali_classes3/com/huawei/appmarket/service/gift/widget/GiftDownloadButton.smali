@@ -14,10 +14,10 @@
 # static fields
 .field private static M:Z = false
 
-.field private static N:Lcom/huawei/appmarket/qu4;
+.field private static N:Lcom/huawei/appmarket/tu4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/qu4<",
+            "Lcom/huawei/appmarket/tu4<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -37,13 +37,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/qu4;
+    new-instance v0, Lcom/huawei/appmarket/tu4;
 
     const/16 v1, 0x64
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qu4;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tu4;-><init>(I)V
 
-    sput-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/qu4;
+    sput-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/tu4;
 
     return-void
 .end method
@@ -93,14 +93,14 @@
 
     const-string v0, "package is null"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/qu4;
+    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/tu4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qu4;->a()Ljava/util/LinkedList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tu4;->a()Ljava/util/LinkedList;
 
     move-result-object v0
 
@@ -170,9 +170,9 @@
     return-void
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/qu4;
+    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/tu4;
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/qu4;->b(Ljava/io/Serializable;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/tu4;->b(Ljava/io/Serializable;)V
 
     return-void
 .end method
@@ -200,13 +200,13 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/qu4;
+    sget-object v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->N:Lcom/huawei/appmarket/tu4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qu4;->a()Ljava/util/LinkedList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tu4;->a()Ljava/util/LinkedList;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -241,7 +241,7 @@
     const-string p0, "giftCardBean is null"
 
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 
@@ -336,13 +336,13 @@
 
     if-nez p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->m:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->m:Lcom/huawei/appmarket/gt1;
 
-    invoke-interface {p1, p0, v0, v1}, Lcom/huawei/appmarket/vj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    invoke-interface {p1, p0, v0, v1}, Lcom/huawei/appmarket/xj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 
     return-void
 
@@ -355,12 +355,12 @@
 
     const-string v0, "onClick, giftCardBean == null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     instance-of v1, v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;
 
@@ -368,23 +368,23 @@
 
     check-cast v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     iget v2, p0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;->L:I
 
-    invoke-virtual {v0, p0, p1, v1, v2}, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;->M(Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;Lcom/huawei/appmarket/dt1;I)V
+    invoke-virtual {v0, p0, p1, v1, v2}, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;->M(Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButton;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;Lcom/huawei/appmarket/gt1;I)V
 
     :cond_2
     return-void
 .end method
 
-.method public final refreshStatus()Lcom/huawei/appmarket/dt1;
+.method public final refreshStatus()Lcom/huawei/appmarket/gt1;
     .registers 7
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->isEventProcessing()Z
 
@@ -409,7 +409,7 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     return-object v0
 
@@ -432,7 +432,7 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->setDetailId_(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     instance-of v1, v0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;
 
@@ -445,41 +445,41 @@
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate;->P(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/vj3;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/xj3;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/om7;->c()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/um7;->c()Lcom/huawei/appmarket/gt1;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/om7;->b()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/um7;->b()Ljava/lang/CharSequence;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->prompt:Ljava/lang/CharSequence;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/om7;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/um7;->a()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->percent:I
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/rd1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/td1;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rd1;->d(Lcom/huawei/appmarket/dt1;)Lcom/huawei/appmarket/eq7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/td1;->d(Lcom/huawei/appmarket/gt1;)Lcom/huawei/appmarket/kq7;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setIsImmersionByStyle(Lcom/huawei/appmarket/eq7;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setIsImmersionByStyle(Lcom/huawei/appmarket/kq7;)V
 
     const/4 v1, 0x0
 
@@ -494,7 +494,7 @@
     invoke-virtual {p0}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->resetUpdate()V
 
     :cond_3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/eq7;->a()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kq7;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
@@ -502,11 +502,11 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->t(Landroid/graphics/drawable/Drawable;I)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->cardBean:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->prompt:Ljava/lang/CharSequence;
 
@@ -514,19 +514,19 @@
 
     move-result-object v5
 
-    invoke-interface {v1, v2, v3, v4, v5}, Lcom/huawei/appmarket/vj3;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+    invoke-interface {v1, v2, v3, v4, v5}, Lcom/huawei/appmarket/xj3;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->prompt:Ljava/lang/CharSequence;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/eq7;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kq7;->c()I
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/eq7;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kq7;->c()I
 
     move-result v0
 
@@ -545,7 +545,7 @@
 
     invoke-virtual {p0, v0}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     return-object v0
 .end method
@@ -825,7 +825,7 @@
 
     .line 14
     .line 15
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -854,7 +854,7 @@
     const/4 p2, 0x0
 
     .line 30
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 31
     .line 32
@@ -862,7 +862,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 35
     .line 36
@@ -890,7 +890,7 @@
     const/4 v2, 0x1
 
     .line 46
-    invoke-static {p2, v2, v1, v2}, Lcom/huawei/appmarket/j03;->c(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;III)V
+    invoke-static {p2, v2, v1, v2}, Lcom/huawei/appmarket/m03;->c(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;III)V
 
     .line 47
     .line 48
@@ -918,7 +918,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 63
     .line 64
@@ -1033,5 +1033,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

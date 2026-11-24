@@ -56,7 +56,7 @@
 
     .line 6
     .line 7
-    invoke-static {v2}, Lcom/huawei/serverrequest/c;->b(Lcom/huawei/serverrequest/c;)Lcom/huawei/appmarket/hd3;
+    invoke-static {v2}, Lcom/huawei/serverrequest/c;->b(Lcom/huawei/serverrequest/c;)Lcom/huawei/appmarket/jd3;
 
     .line 8
     .line 9
@@ -64,7 +64,7 @@
     move-result-object v2
 
     .line 11
-    invoke-interface {v2, p1}, Lcom/huawei/appmarket/hd3;->a(Lcom/huawei/appmarket/fd3;)Lcom/huawei/appmarket/gd3;
+    invoke-interface {v2, p1}, Lcom/huawei/appmarket/jd3;->a(Lcom/huawei/appmarket/hd3;)Lcom/huawei/appmarket/id3;
 
     .line 12
     .line 13
@@ -76,7 +76,7 @@
 
     .line 16
     .line 17
-    invoke-direct {v3, v2}, Lcom/huawei/serverrequest/e$a;-><init>(Lcom/huawei/appmarket/gd3;)V
+    invoke-direct {v3, v2}, Lcom/huawei/serverrequest/e$a;-><init>(Lcom/huawei/appmarket/id3;)V
 
     .line 18
     .line 19
@@ -114,7 +114,7 @@
 
     .line 36
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/serverrequest/b;->a()Lcom/huawei/appmarket/g87;
+    invoke-virtual {p1}, Lcom/huawei/serverrequest/b;->a()Lcom/huawei/appmarket/l87;
 
     .line 37
     .line 38
@@ -122,7 +122,7 @@
     move-result-object v5
 
     .line 40
-    invoke-interface {v5}, Lcom/huawei/appmarket/g87;->b()J
+    invoke-interface {v5}, Lcom/huawei/appmarket/l87;->b()J
 
     .line 41
     .line 42
@@ -146,7 +146,7 @@
 
     .line 51
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/serverrequest/b;->a()Lcom/huawei/appmarket/g87;
+    invoke-virtual {p1}, Lcom/huawei/serverrequest/b;->a()Lcom/huawei/appmarket/l87;
 
     .line 52
     .line 53
@@ -154,7 +154,7 @@
     move-result-object v5
 
     .line 55
-    invoke-interface {v5}, Lcom/huawei/appmarket/g87;->a()Ljava/lang/String;
+    invoke-interface {v5}, Lcom/huawei/appmarket/l87;->a()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -277,11 +277,11 @@
 
     .line 105
     .line 106
-    sget-object v4, Lcom/huawei/appmarket/j87$a;->c:Lcom/huawei/appmarket/j87$a;
+    sget-object v4, Lcom/huawei/appmarket/o87$a;->c:Lcom/huawei/appmarket/o87$a;
 
     .line 107
     .line 108
-    invoke-direct {v2, v3, v4}, Lcom/huawei/serverrequest/e;-><init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/j87$a;)V
+    invoke-direct {v2, v3, v4}, Lcom/huawei/serverrequest/e;-><init>(Lcom/huawei/serverrequest/e$a;Lcom/huawei/appmarket/o87$a;)V
 
     .line 109
     .line 110
@@ -371,21 +371,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -63,7 +63,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     .line 13
     .line 14
@@ -92,7 +92,7 @@
     .line 25
     .line 26
     .line 27
-    new-instance p3, Lcom/huawei/appmarket/th1;
+    new-instance p3, Lcom/huawei/appmarket/wh1;
 
     .line 28
     .line 29
@@ -117,12 +117,12 @@
     move-object v5, p1
 
     .line 38
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/th1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/wh1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
 
     .line 39
     .line 40
     .line 41
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 42
     .line 43
@@ -149,7 +149,7 @@
     move-result-object p1
 
     .line 54
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     .line 55
     .line 56

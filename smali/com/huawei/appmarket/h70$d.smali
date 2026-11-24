@@ -1,9 +1,9 @@
 .class final Lcom/huawei/appmarket/h70$d;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
@@ -18,13 +18,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
         "Ljava/util/HashMap<",
         "Ljava/lang/String;",
         "Lcom/huawei/appmarket/cb;",
         ">;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -43,7 +43,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -119,7 +119,7 @@
     .line 28
     .line 29
     .line 30
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 31
     .line 32

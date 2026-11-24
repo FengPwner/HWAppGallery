@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard$b;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard$b;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;)Lcom/huawei/appmarket/bk0;
 
     .line 6
     .line 7
@@ -62,7 +62,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/RookieTaskActivityCard;)Lcom/huawei/appmarket/bk0;
 
     .line 14
     .line 15
@@ -86,7 +86,7 @@
 
     .line 24
     .line 25
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 26
     .line 27

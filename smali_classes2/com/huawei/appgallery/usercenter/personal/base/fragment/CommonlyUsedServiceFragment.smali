@@ -28,11 +28,11 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/a06;
+    new-instance v0, Lcom/huawei/appmarket/c06;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/a06;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/c06;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/w81;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/x81;
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     const-string v1, "restart from process"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-class v0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;
 
@@ -65,7 +65,7 @@
 
     const-class v2, Lcom/huawei/appgallery/usercenter/personal/base/node/PersonalGridNoTitleNode;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/d06;->c(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/f06;->c(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
 
     const-class v0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCardV2;
 
@@ -73,7 +73,7 @@
 
     const-class v2, Lcom/huawei/appgallery/usercenter/personal/base/node/ServiceClassificationListNode;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/d06;->c(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/f06;->c(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
 
     :cond_0
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->d2(Landroid/os/Bundle;)V

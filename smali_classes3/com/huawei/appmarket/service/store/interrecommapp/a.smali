@@ -155,11 +155,11 @@
     .line 54
     .line 55
     .line 56
-    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 59
     .line 60
@@ -172,11 +172,11 @@
     .line 63
     .line 64
     .line 65
-    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 66
     .line 67
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 68
     .line 69
@@ -204,11 +204,11 @@
 
     .line 79
     :goto_0
-    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 80
     .line 81
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 82
     .line 83
@@ -217,11 +217,11 @@
 
     .line 85
     .line 86
-    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 87
     .line 88
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/nb3;->A(I)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/qb3;->A(I)V
 
     .line 89
     .line 90
@@ -230,7 +230,7 @@
 
     .line 92
     :cond_2
-    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 93
     .line 94
@@ -245,13 +245,13 @@
     add-int/2addr p1, v3
 
     .line 99
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nb3;->A(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qb3;->A(I)V
 
     .line 100
     .line 101
     .line 102
     :goto_1
-    invoke-static {v2}, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->V3(Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {v2}, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->V3(Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;)Lcom/huawei/appmarket/qb3;
 
     .line 103
     .line 104
@@ -259,7 +259,7 @@
     move-result-object p1
 
     .line 106
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 107
     .line 108
@@ -302,11 +302,11 @@
     move-result-object p2
 
     .line 129
-    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 130
     .line 131
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 132
     .line 133
@@ -365,20 +365,20 @@
     .line 162
     :cond_3
     :goto_2
-    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 163
     .line 164
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/nb3;->A(I)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/qb3;->A(I)V
 
     .line 165
     .line 166
     .line 167
-    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/kq1;
+    iget-object p1, v2, Lcom/huawei/appmarket/service/store/interrecommapp/InterRecommendAppCard;->l0:Lcom/huawei/appmarket/nq1;
 
     .line 168
     .line 169
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 170
     .line 171
@@ -400,7 +400,7 @@
     .line 178
     .line 179
     .line 180
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ej2;->u(Landroid/content/Context;II)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/kb1;->q(Landroid/content/Context;II)V
 
     .line 181
     .line 182
@@ -1069,23 +1069,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

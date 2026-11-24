@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mm3;
+.implements Lcom/huawei/appmarket/om3;
 
 
 # direct methods
@@ -132,7 +132,7 @@
 
     .line 46
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/lf4;->g()Lcom/huawei/appmarket/lf4;
+    invoke-static {}, Lcom/huawei/appmarket/nf4;->g()Lcom/huawei/appmarket/nf4;
 
     .line 47
     .line 48
@@ -140,7 +140,7 @@
     move-result-object v0
 
     .line 50
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/lf4;->m(I)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nf4;->m(I)Z
 
     .line 51
     .line 52
@@ -152,7 +152,7 @@
 
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/qg4;->w()Lcom/huawei/appmarket/qg4;
+    invoke-static {}, Lcom/huawei/appmarket/sg4;->w()Lcom/huawei/appmarket/sg4;
 
     .line 57
     .line 58
@@ -186,7 +186,7 @@
 
     .line 73
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/lf4;->g()Lcom/huawei/appmarket/lf4;
+    invoke-static {}, Lcom/huawei/appmarket/nf4;->g()Lcom/huawei/appmarket/nf4;
 
     .line 74
     .line 75
@@ -203,7 +203,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/lf4;->n(ILjava/lang/String;)Z
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/nf4;->n(ILjava/lang/String;)Z
 
     .line 83
     .line 84
@@ -215,7 +215,7 @@
 
     .line 87
     .line 88
-    invoke-static {}, Lcom/huawei/appmarket/qg4;->w()Lcom/huawei/appmarket/qg4;
+    invoke-static {}, Lcom/huawei/appmarket/sg4;->w()Lcom/huawei/appmarket/sg4;
 
     .line 89
     .line 90
@@ -249,7 +249,7 @@
 
     .line 105
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/ie4;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/ke4;->h()Z
 
     .line 106
     .line 107
@@ -269,7 +269,7 @@
 
     .line 114
     .line 115
-    invoke-static {}, Lcom/huawei/appmarket/qg4;->w()Lcom/huawei/appmarket/qg4;
+    invoke-static {}, Lcom/huawei/appmarket/sg4;->w()Lcom/huawei/appmarket/sg4;
 
     .line 116
     .line 117
@@ -350,5 +350,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

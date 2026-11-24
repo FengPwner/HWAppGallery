@@ -65,13 +65,13 @@
     if-eqz p2, :cond_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bu;->d()Lcom/huawei/appmarket/bu;
+    invoke-static {}, Lcom/huawei/appmarket/cu;->d()Lcom/huawei/appmarket/cu;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/bu;->c(Landroid/content/Context;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/cu;->c(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/i65;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/l65;->c()V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity$b;->k:Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;
 

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ak0;
+.implements Lcom/huawei/appmarket/bk0;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->c:Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,9 +43,9 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method
@@ -65,9 +65,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchAppListCompositeCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ak0;->S(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/bk0;->S(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -125,13 +125,13 @@
     goto :goto_0
 
     :cond_2
-    sget-object p2, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p2, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchAppListCompositeCard"
 
     const-string v1, "onGetCardBeans\uff0cno child data."
 
-    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-object p1

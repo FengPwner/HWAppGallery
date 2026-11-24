@@ -712,7 +712,7 @@
     .line 100
     :cond_9
     :goto_2
-    sget-object p0, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p0, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 101
     .line 102
@@ -720,7 +720,7 @@
 
     .line 103
     .line 104
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 105
     .line 106
@@ -732,7 +732,7 @@
     move-exception p0
 
     .line 109
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 110
     .line 111
@@ -744,7 +744,7 @@
     move-result-object p0
 
     .line 115
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 116
     .line 117
@@ -795,7 +795,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -1197,7 +1196,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d4()Ljava/lang/String;

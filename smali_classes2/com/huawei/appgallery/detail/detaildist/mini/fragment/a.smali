@@ -117,7 +117,7 @@
 
     iget-object p1, v2, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailAbstractFragment;->u3:Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     :cond_2
     invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/store/bean/spilt/InterAppsDiffInfoResponse;->U()I
@@ -147,20 +147,20 @@
     move-object v0, v1
 
     :cond_3
-    invoke-static {p1, v3, v2, v0}, Lcom/huawei/appmarket/kj1;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v3, v2, v0}, Lcom/huawei/appmarket/nj1;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     return-void
 
     :cond_5
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/zj1;->a:Lcom/huawei/appmarket/zj1;
+    sget-object p1, Lcom/huawei/appmarket/ck1;->a:Lcom/huawei/appmarket/ck1;
 
     const-string p2, "MiniDetailFragment"
 
     const-string v2, "AppsDiff response not ok!"
 
-    invoke-virtual {p1, p2, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/a;->b:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
@@ -170,7 +170,7 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/a;->c:Ljava/lang/String;
 
-    invoke-static {v1, p1, p2, v0}, Lcom/huawei/appmarket/kj1;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, p2, v0}, Lcom/huawei/appmarket/nj1;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

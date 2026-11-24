@@ -102,7 +102,7 @@
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/rt4;
+    new-instance p1, Lcom/huawei/appmarket/ut4;
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/api/VideoEntireManager;->getConfig()Lcom/huawei/appgallery/videokit/api/VideoEntireConfig;
 
@@ -120,7 +120,7 @@
     const-wide/16 v2, 0x0
 
     :goto_0
-    invoke-direct {p1, v2, v3}, Lcom/huawei/appmarket/rt4;-><init>(J)V
+    invoke-direct {p1, v2, v3}, Lcom/huawei/appmarket/ut4;-><init>(J)V
 
     invoke-direct {v0, v1, p1}, Landroidx/media3/datasource/cache/h;-><init>(Ljava/io/File;Landroidx/media3/datasource/cache/b;)V
 
@@ -135,7 +135,7 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v8, Lcom/huawei/appmarket/l91;
+    new-instance v8, Lcom/huawei/appmarket/m91;
 
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -151,13 +151,13 @@
 
     move-object v1, v8
 
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/l91;-><init>(Landroid/net/Uri;JJLjava/lang/String;)V
+    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/m91;-><init>(Landroid/net/Uri;JJLjava/lang/String;)V
 
     new-instance p0, Landroidx/media3/datasource/cache/a;
 
     sget-object v1, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoVideoCacheManager;->dataSourceFactory:Landroidx/media3/datasource/a$a;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-interface {v1}, Landroidx/media3/datasource/a$a;->createDataSource()Landroidx/media3/datasource/a;
 
@@ -165,13 +165,13 @@
 
     invoke-direct {p0, v0, v1}, Landroidx/media3/datasource/cache/a;-><init>(Landroidx/media3/datasource/cache/Cache;Landroidx/media3/datasource/a;)V
 
-    new-instance v0, Lcom/huawei/appmarket/yg0;
+    new-instance v0, Lcom/huawei/appmarket/zg0;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v8, v1, v1}, Lcom/huawei/appmarket/yg0;-><init>(Landroidx/media3/datasource/cache/a;Lcom/huawei/appmarket/l91;[BLcom/huawei/appmarket/yg0$a;)V
+    invoke-direct {v0, p0, v8, v1, v1}, Lcom/huawei/appmarket/zg0;-><init>(Landroidx/media3/datasource/cache/a;Lcom/huawei/appmarket/m91;[BLcom/huawei/appmarket/zg0$a;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yg0;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zg0;->a()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -184,7 +184,7 @@
 
     const-string v1, "cache error: Exception"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -240,7 +240,7 @@
 
     iget-object v1, v1, Landroid/content/pm/ApplicationInfo;->name:Ljava/lang/String;
 
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/ge8;->I(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/le8;->I(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

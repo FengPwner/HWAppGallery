@@ -914,23 +914,23 @@
     return-object p1
 .end method
 
-.method public k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+.method public k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lorg/json/JSONObject;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ShortAppLinking;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-direct {p0, p1}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;->d(Lorg/json/JSONObject;)Lcom/huawei/agconnect/applinking/internal/server/CreateLinkRequest;
 
@@ -958,33 +958,33 @@
 
     const-class v3, Lcom/huawei/agconnect/applinking/internal/server/CreateLinkResponse;
 
-    invoke-static {p1, v2, v3, v1}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, v2, v3, v1}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v2, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;
 
-    invoke-direct {v2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;-><init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;-><init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v2, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$1;
 
-    invoke-direct {v2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$1;-><init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$1;-><init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

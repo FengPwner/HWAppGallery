@@ -49,7 +49,7 @@
 
     check-cast p2, Lcom/caverock/androidsvg/g$j0;
 
-    invoke-interface {p2}, Lcom/caverock/androidsvg/g$j0;->a()Ljava/util/List;
+    invoke-interface {p2}, Lcom/caverock/androidsvg/g$j0;->getChildren()Ljava/util/List;
 
     move-result-object p1
 

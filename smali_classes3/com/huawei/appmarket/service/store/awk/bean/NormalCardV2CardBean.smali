@@ -5,43 +5,43 @@
 
 # instance fields
 .field private A:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineSecIsDownload"
     .end annotation
 .end field
 
 .field private B:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineSecIsScore"
     .end annotation
 .end field
 
 .field private C:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "crossLinePrice"
     .end annotation
 .end field
 
 .field private D:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "sortIndex"
     .end annotation
 .end field
 
 .field private E:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "cardType"
     .end annotation
 .end field
 
 .field private F:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "hasShowBlankpaddingcard"
     .end annotation
 .end field
 
 .field private G:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "tileCardPath"
     .end annotation
 .end field
@@ -52,52 +52,52 @@
 
 .field private J:Lcom/huawei/appgallery/pageframe/v2/service/bean/QCardBaseDistCardBean;
 
-.field private K:Lcom/huawei/appmarket/oc6;
+.field private K:Lcom/huawei/appmarket/qc6;
 
 .field private s:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineFirType"
     .end annotation
 .end field
 
 .field private t:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineFirContent"
     .end annotation
 .end field
 
 .field private u:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineFirImage"
     .end annotation
 .end field
 
 .field private v:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineFirIsScore"
     .end annotation
 .end field
 
 .field private w:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineFirIsDownload"
     .end annotation
 .end field
 
 .field private x:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineSecType"
     .end annotation
 .end field
 
 .field private y:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineSecContent"
     .end annotation
 .end field
 
 .field private z:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "secLineSecImage"
     .end annotation
 .end field
@@ -152,7 +152,7 @@
     const-string v0, "cardData null."
 
     :goto_1
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -168,7 +168,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {v3, v0}, Lcom/huawei/flexiblelayout/data/d;->getData(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/qb2;
+    invoke-virtual {v3, v0}, Lcom/huawei/flexiblelayout/data/d;->getData(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/tb2;
 
     move-result-object v0
 
@@ -181,7 +181,7 @@
     :cond_3
     const-string v1, "componentData"
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qb2;->optMap(Ljava/lang/String;)Lcom/huawei/appmarket/qb2;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/tb2;->optMap(Ljava/lang/String;)Lcom/huawei/appmarket/tb2;
 
     move-result-object v0
 
@@ -191,7 +191,7 @@
 
     invoke-direct {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;-><init>()V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/mp4;->h(Lcom/huawei/appmarket/ib2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/pp4;->h(Lcom/huawei/appmarket/lb2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
 
     return-object v1
 
@@ -201,11 +201,11 @@
 
 
 # virtual methods
-.method public final A()Lcom/huawei/appmarket/oc6;
+.method public final A()Lcom/huawei/appmarket/qc6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->K:Lcom/huawei/appmarket/oc6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->K:Lcom/huawei/appmarket/qc6;
 
     return-object v0
 .end method
@@ -226,7 +226,7 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/qb2;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/tb2;
 
     .line 7
     .line 8
@@ -246,7 +246,7 @@
 
     .line 15
     .line 16
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -265,7 +265,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/mp4;->h(Lcom/huawei/appmarket/ib2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/pp4;->h(Lcom/huawei/appmarket/lb2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
 
     .line 26
     .line 27
@@ -298,7 +298,7 @@
 
     .line 40
     .line 41
-    invoke-interface {v0, v3}, Lcom/huawei/appmarket/qb2;->optInt(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/huawei/appmarket/tb2;->optInt(Ljava/lang/String;)I
 
     .line 42
     .line 43
@@ -328,7 +328,7 @@
     move-result-object v2
 
     .line 57
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -353,7 +353,7 @@
 
     .line 67
     .line 68
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Lcom/huawei/flexiblelayout/json/codec/JsonException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -368,7 +368,7 @@
 
     .line 73
     .line 74
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -468,7 +468,7 @@
     .registers 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/qb2;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/tb2;
 
     move-result-object v0
 
@@ -478,24 +478,24 @@
 
     const-string v0, "data map null."
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/qb2;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/tb2;
 
     move-result-object v0
 
     const-string v2, "rankInfos"
 
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/qb2;->optArray(Ljava/lang/String;)Lcom/huawei/appmarket/na2;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/tb2;->optArray(Ljava/lang/String;)Lcom/huawei/appmarket/qa2;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/na2;->size()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qa2;->size()I
 
     move-result v2
 
@@ -507,7 +507,7 @@
     const/4 v2, 0x0
 
     :try_start_0
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/na2;->optMap(I)Lcom/huawei/appmarket/qb2;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/qa2;->optMap(I)Lcom/huawei/appmarket/tb2;
 
     move-result-object v0
 
@@ -515,7 +515,7 @@
 
     invoke-direct {v2}, Lcom/huawei/appmarket/service/store/awk/bean/RankInfo;-><init>()V
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/mp4;->h(Lcom/huawei/appmarket/ib2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/pp4;->h(Lcom/huawei/appmarket/lb2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
 
     iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->I:Lcom/huawei/appmarket/service/store/awk/bean/RankInfo;
     :try_end_0
@@ -526,7 +526,7 @@
     :catch_0
     const-string v0, "initRankInfo meet JsonException."
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_0
@@ -555,11 +555,11 @@
     return-void
 .end method
 
-.method public final G(Lcom/huawei/appmarket/oc6;)V
+.method public final G(Lcom/huawei/appmarket/qc6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->K:Lcom/huawei/appmarket/oc6;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->K:Lcom/huawei/appmarket/qc6;
 
     return-void
 .end method

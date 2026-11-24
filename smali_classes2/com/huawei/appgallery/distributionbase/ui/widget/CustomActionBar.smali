@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v2, 0x7f0a15fd
 
@@ -138,7 +138,7 @@
     iput-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->f:Landroid/view/View;
 
     .line 4
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->t(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->t(Landroid/content/Context;)I
 
     move-result v1
 
@@ -166,7 +166,7 @@
     invoke-virtual {v1, p2}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
-    const p2, 0x7f0a160d
+    const p2, 0x7f0a160e
 
     .line 5
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,13 +219,13 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->l:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->k:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->f()I
 
     move-result p2
 
@@ -237,7 +237,7 @@
 
     const/16 p3, 0x10
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -249,7 +249,7 @@
 
     const/16 p3, 0x20
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -261,7 +261,7 @@
 
     const/16 p3, 0x30
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -273,7 +273,7 @@
 
     const/16 p3, 0x40
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -487,7 +487,7 @@
 
     .line 83
     .line 84
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 85
     .line 86
@@ -758,7 +758,7 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     move-result v1
 
@@ -773,7 +773,7 @@
     const/4 p1, 0x1
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     goto :goto_1
 
@@ -834,7 +834,7 @@
 
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 21
     .line 22
@@ -863,7 +863,7 @@
 
     .line 33
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 35
     .line 36
@@ -982,7 +982,7 @@
 
     .line 91
     .line 92
-    invoke-static {v6, v0}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v6, v0}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 93
     .line 94
@@ -1145,7 +1145,7 @@
 
     .line 168
     .line 169
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 170
     .line 171
@@ -1620,20 +1620,13 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final d()V
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->f()I
 
     move-result v0
 
@@ -1641,7 +1634,7 @@
 
     if-eq v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->f()I
 
     move-result v0
 
@@ -1676,7 +1669,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->c(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->c(Landroid/content/Context;)I
 
     move-result v0
 
@@ -1717,7 +1710,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->l:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -1740,7 +1733,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v0
 
@@ -1748,7 +1741,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->l:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -1775,7 +1768,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v0
 
@@ -1783,7 +1776,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->l:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -1810,7 +1803,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result p1
 
@@ -1818,7 +1811,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/widget/CustomActionBar;->l:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -1851,7 +1844,7 @@
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->b(Landroid/content/Context;Z)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->b(Landroid/content/Context;Z)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Void;",
         ">;"
     }
@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;)V"
         }
@@ -76,7 +76,7 @@
     :cond_0
     sget-object v1, Lcom/huawei/hms/support/api/client/Status;->FAILURE:Lcom/huawei/hms/support/api/client/Status;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v3
 
@@ -87,7 +87,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object p1
 
@@ -110,7 +110,7 @@
     goto :goto_0
 
     :cond_2
-    const-string p1, "wrong exception while failed"
+    const-string/jumbo p1, "wrong exception while failed"
 
     invoke-static {v0, p1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
 

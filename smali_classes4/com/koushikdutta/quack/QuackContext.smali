@@ -157,7 +157,7 @@
 
 .field private jobExecutor:Ljava/util/concurrent/Executor;
 
-.field private mCoerceJavaScriptToJava:Lcom/huawei/appmarket/dt0;
+.field private mCoerceJavaScriptToJava:Lcom/huawei/appmarket/et0;
 
 .field private mReferrer:Ljava/lang/Object;
 
@@ -281,21 +281,21 @@
 
     iput-object v1, p0, Lcom/koushikdutta/quack/QuackContext;->empty:[Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/4 v2, 0x5
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v2, Ljava/lang/Enum;
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v3, 0x10
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Byte;
 
@@ -303,35 +303,35 @@
 
     sget-object v1, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x13
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x14
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v1, v4}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v4, 0x15
 
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v3, v1}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v3, 0x16
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Short;
 
@@ -339,35 +339,35 @@
 
     sget-object v1, Ljava/lang/Short;->TYPE:Ljava/lang/Class;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x17
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x18
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v1, v4}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v4, 0x19
 
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v3, v1}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v3, 0x1a
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Integer;
 
@@ -375,19 +375,19 @@
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
-    new-instance v3, Lcom/huawei/appmarket/rl4;
+    new-instance v3, Lcom/huawei/appmarket/ul4;
 
     const/4 v4, 0x6
 
-    invoke-direct {v3, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v3, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/4 v3, 0x7
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Long;
 
@@ -395,38 +395,38 @@
 
     sget-object v1, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x8
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0x9
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v1, v4}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v4, 0xa
 
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v3, v1}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
     :cond_0
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v3, 0xb
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Float;
 
@@ -434,35 +434,35 @@
 
     sget-object v1, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0xc
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v4, Lcom/huawei/appmarket/rl4;
+    new-instance v4, Lcom/huawei/appmarket/ul4;
 
     const/16 v5, 0xd
 
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v1, v4}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v4, 0xe
 
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v3, v1}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v1, Lcom/huawei/appmarket/rl4;
+    new-instance v1, Lcom/huawei/appmarket/ul4;
 
     const/16 v3, 0xf
 
-    invoke-direct {v1, v3}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v1, v3}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v3, Ljava/lang/Double;
 
@@ -470,25 +470,25 @@
 
     sget-object v1, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
-    new-instance v3, Lcom/huawei/appmarket/rl4;
+    new-instance v3, Lcom/huawei/appmarket/ul4;
 
     const/16 v4, 0x11
 
-    invoke-direct {v3, v4}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v3, v4}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v0, Lcom/huawei/appmarket/rl4;
+    new-instance v0, Lcom/huawei/appmarket/ul4;
 
     const/16 v1, 0x12
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p0, v2, v0}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance v0, Lcom/huawei/appmarket/dd6;
+    new-instance v0, Lcom/huawei/appmarket/fd6;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/dd6;-><init>(Z)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/fd6;-><init>(Z)V
 
     const-class p1, Ljava/nio/ByteBuffer;
 
@@ -905,7 +905,7 @@
 
     .line 10
     .line 11
-    new-instance p0, Lcom/huawei/appmarket/cd6;
+    new-instance p0, Lcom/huawei/appmarket/ed6;
 
     .line 12
     .line 13
@@ -1084,23 +1084,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic d(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
@@ -3147,11 +3130,11 @@
 .method private static wrapObjectInvocationHandler(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/reflect/InvocationHandler;
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/im4;
+    new-instance v0, Lcom/huawei/appmarket/lm4;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/im4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;I)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/lm4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;I)V
 
     return-object v0
 .end method
@@ -4004,11 +3987,11 @@
     return-object v0
 
     :cond_18
-    iget-object v0, p0, Lcom/koushikdutta/quack/QuackContext;->mCoerceJavaScriptToJava:Lcom/huawei/appmarket/dt0;
+    iget-object v0, p0, Lcom/koushikdutta/quack/QuackContext;->mCoerceJavaScriptToJava:Lcom/huawei/appmarket/et0;
 
     if-eqz v0, :cond_19
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/dt0;->coerce(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/et0;->coerce(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -4051,9 +4034,9 @@
 
     aput-object p1, v2, v4
 
-    new-instance p1, Lcom/huawei/appmarket/yi0;
+    new-instance p1, Lcom/huawei/appmarket/zi0;
 
-    invoke-direct {p1, p0, p2, v4}, Lcom/huawei/appmarket/yi0;-><init>(Lcom/koushikdutta/quack/QuackContext;Lcom/koushikdutta/quack/JavaScriptObject;I)V
+    invoke-direct {p1, p0, p2, v4}, Lcom/huawei/appmarket/zi0;-><init>(Lcom/koushikdutta/quack/QuackContext;Lcom/koushikdutta/quack/JavaScriptObject;I)V
 
     invoke-virtual {p2, p1}, Lcom/koushikdutta/quack/JavaScriptObject;->getWrappedInvocationHandler(Ljava/lang/reflect/InvocationHandler;)Ljava/lang/reflect/InvocationHandler;
 
@@ -5530,11 +5513,11 @@
     throw v0
 .end method
 
-.method public setCoerceJavaScriptToJava(Lcom/huawei/appmarket/dt0;)V
+.method public setCoerceJavaScriptToJava(Lcom/huawei/appmarket/et0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/koushikdutta/quack/QuackContext;->mCoerceJavaScriptToJava:Lcom/huawei/appmarket/dt0;
+    iput-object p1, p0, Lcom/koushikdutta/quack/QuackContext;->mCoerceJavaScriptToJava:Lcom/huawei/appmarket/et0;
 
     return-void
 .end method

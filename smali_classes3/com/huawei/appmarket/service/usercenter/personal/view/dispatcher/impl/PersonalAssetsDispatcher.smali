@@ -56,11 +56,11 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
+    invoke-static {}, Lcom/huawei/appmarket/e06;->d()Lcom/huawei/appmarket/e06;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c06;->g(Landroid/app/Activity;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/e06;->g(Landroid/app/Activity;)V
 
     :cond_0
     return-void

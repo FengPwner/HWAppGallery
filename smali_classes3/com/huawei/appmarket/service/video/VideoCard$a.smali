@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/video/VideoCard;->k(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
+    value = Lcom/huawei/appmarket/service/video/VideoCard;->k(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -63,7 +63,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v2, v0, p1, v1}, Lcom/huawei/appmarket/vg8;->a(Landroid/app/Activity;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;Z)V
+    invoke-static {v2, v0, p1, v1}, Lcom/huawei/appmarket/bh8;->a(Landroid/app/Activity;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;Z)V
 
     goto :goto_0
 

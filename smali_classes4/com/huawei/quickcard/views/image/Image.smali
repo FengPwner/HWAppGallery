@@ -71,7 +71,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/views/image/processor/WidthProcessor;-><init>()V
 
-    const-string v1, "width"
+    const-string/jumbo v1, "width"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)V
 

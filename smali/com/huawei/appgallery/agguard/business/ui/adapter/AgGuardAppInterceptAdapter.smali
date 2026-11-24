@@ -103,7 +103,7 @@
     .registers 16
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/kj4;
+    instance-of v0, p1, Lcom/huawei/appmarket/mj4;
 
     .line 2
     .line 3
@@ -111,7 +111,7 @@
 
     .line 4
     .line 5
-    check-cast p1, Lcom/huawei/appmarket/kj4;
+    check-cast p1, Lcom/huawei/appmarket/mj4;
 
     .line 6
     .line 7
@@ -131,7 +131,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kj4;->y()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mj4;->y()Landroid/widget/TextView;
 
     .line 16
     .line 17
@@ -148,7 +148,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kj4;->C()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mj4;->C()Landroid/widget/TextView;
 
     .line 25
     .line 26
@@ -204,7 +204,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kj4;->A()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mj4;->A()Landroid/widget/TextView;
 
     .line 53
     .line 54
@@ -625,7 +625,7 @@
     .line 235
     .line 236
     .line 237
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kj4;->z()Landroid/widget/TextView;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mj4;->z()Landroid/widget/TextView;
 
     .line 238
     .line 239
@@ -668,7 +668,7 @@
     .line 257
     .line 258
     .line 259
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kj4;->B()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mj4;->B()Landroid/view/View;
 
     .line 260
     .line 261
@@ -1257,7 +1257,7 @@
     const/4 v0, 0x0
 
     .line 19
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 20
     .line 21
@@ -1265,11 +1265,11 @@
     move-result-object p1
 
     .line 23
-    new-instance p2, Lcom/huawei/appmarket/kj4;
+    new-instance p2, Lcom/huawei/appmarket/mj4;
 
     .line 24
     .line 25
-    invoke-direct {p2, p1}, Lcom/huawei/appmarket/kj4;-><init>(Landroid/view/View;)V
+    invoke-direct {p2, p1}, Lcom/huawei/appmarket/mj4;-><init>(Landroid/view/View;)V
 
     .line 26
     .line 27

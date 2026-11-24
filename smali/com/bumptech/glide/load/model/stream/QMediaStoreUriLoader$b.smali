@@ -61,7 +61,7 @@
 
 .field private final g:I
 
-.field private final h:Lcom/huawei/appmarket/tr5;
+.field private final h:Lcom/huawei/appmarket/vr5;
 
 .field private final i:Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
@@ -99,7 +99,7 @@
     return-void
 .end method
 
-.method constructor <init>(Landroid/content/Context;Lcom/bumptech/glide/load/model/g;Lcom/bumptech/glide/load/model/g;Landroid/net/Uri;IILcom/huawei/appmarket/tr5;Ljava/lang/Class;)V
+.method constructor <init>(Landroid/content/Context;Lcom/bumptech/glide/load/model/g;Lcom/bumptech/glide/load/model/g;Landroid/net/Uri;IILcom/huawei/appmarket/vr5;Ljava/lang/Class;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -113,7 +113,7 @@
             "TDataT;>;",
             "Landroid/net/Uri;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             "Ljava/lang/Class<",
             "TDataT;>;)V"
         }
@@ -138,7 +138,7 @@
 
     iput p6, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->g:I
 
-    iput-object p7, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->h:Lcom/huawei/appmarket/tr5;
+    iput-object p7, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->h:Lcom/huawei/appmarket/vr5;
 
     iput-object p8, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->i:Ljava/lang/Class;
 
@@ -162,7 +162,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/vg5;->y()Z
+    invoke-static {}, Lcom/huawei/appmarket/yg5;->y()Z
 
     .line 2
     .line 3
@@ -177,7 +177,7 @@
 
     .line 7
     .line 8
-    iget-object v3, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->h:Lcom/huawei/appmarket/tr5;
+    iget-object v3, p0, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;->h:Lcom/huawei/appmarket/vr5;
 
     .line 9
     .line 10
@@ -309,7 +309,7 @@
 
     .line 69
     .line 70
-    invoke-interface {v2, v0, v5, v4, v3}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v2, v0, v5, v4, v3}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     .line 71
     .line 72
@@ -426,7 +426,7 @@
 
     .line 122
     .line 123
-    invoke-static {v0}, Lcom/huawei/appmarket/z55;->a(Landroid/net/Uri;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/c65;->a(Landroid/net/Uri;)Z
 
     .line 124
     .line 125
@@ -468,7 +468,7 @@
     .line 143
     :cond_4
     :goto_1
-    invoke-interface {v7, v0, v5, v4, v3}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v7, v0, v5, v4, v3}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     .line 144
     .line 145
@@ -480,7 +480,7 @@
 
     .line 148
     :cond_5
-    invoke-static {v2}, Lcom/huawei/appmarket/ej5;->C(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/gj5;->C(Landroid/content/Context;)I
 
     .line 149
     .line 150
@@ -492,7 +492,7 @@
 
     .line 153
     .line 154
-    invoke-static {v0}, Lcom/huawei/appmarket/vg5;->g(Landroid/net/Uri;)Landroid/net/Uri;
+    invoke-static {v0}, Lcom/huawei/appmarket/yg5;->g(Landroid/net/Uri;)Landroid/net/Uri;
 
     .line 155
     .line 156
@@ -1184,12 +1184,12 @@
     return-void
 .end method
 
-.method public final d(Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/i81$a;)V
+.method public final d(Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/i81$a;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/s66;",
+            "Lcom/huawei/appmarket/u66;",
             "Lcom/huawei/appmarket/i81$a<",
             "-TDataT;>;)V"
         }
@@ -1242,7 +1242,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/i81;->d(Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/i81$a;)V
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/i81;->d(Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/i81$a;)V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1255,11 +1255,11 @@
     return-void
 .end method
 
-.method public final e()Lcom/huawei/appmarket/d91;
+.method public final e()Lcom/huawei/appmarket/e91;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/d91;->b:Lcom/huawei/appmarket/d91;
+    sget-object v0, Lcom/huawei/appmarket/e91;->b:Lcom/huawei/appmarket/e91;
 
     return-object v0
 .end method

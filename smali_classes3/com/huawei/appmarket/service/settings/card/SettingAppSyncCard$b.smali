@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/xy5;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/zy5;",
         ">;"
     }
 .end annotation
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
     .annotation build Landroid/annotation/TargetApi;
         value = 0x17
@@ -52,8 +52,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/xy5;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/zy5;",
             ">;)V"
         }
     .end annotation
@@ -61,7 +61,7 @@
     .line 1
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -70,13 +70,13 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/xy5;
+    check-cast v0, Lcom/huawei/appmarket/zy5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zy5;->a()[I
 
     move-result-object v0
 
@@ -84,13 +84,13 @@
 
     if-lez v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/xy5;
+    check-cast p1, Lcom/huawei/appmarket/zy5;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zy5;->a()[I
 
     move-result-object p1
 
@@ -104,7 +104,7 @@
 
     const-string v0, "refreshSynTime()"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appmarket/service/appsyn/bean/GetSyncAppReq;
 
@@ -114,22 +114,22 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     goto :goto_0
 
     :cond_1
     iget-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingAppSyncCard$b;->b:Landroid/app/Activity;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ej5;->s(Landroid/app/Activity;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/gj5;->s(Landroid/app/Activity;)Z
 
     move-result v0
 
-    new-instance v1, Lcom/huawei/appmarket/cv;
+    new-instance v1, Lcom/huawei/appmarket/dv;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/cv;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/dv;-><init>()V
 
-    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/cv;->a(Landroid/app/Activity;Z)V
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/dv;->a(Landroid/app/Activity;Z)V
 
     :cond_2
     :goto_0

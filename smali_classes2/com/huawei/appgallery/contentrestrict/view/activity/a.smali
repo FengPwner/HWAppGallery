@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/a37;->b(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/f37;->b(Landroid/view/Window;)V
 
     return-void
 .end method

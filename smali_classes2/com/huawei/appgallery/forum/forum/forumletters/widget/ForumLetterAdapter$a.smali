@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter;->setViewHolderData(Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$c;Lcom/huawei/appmarket/ks1;)V
+    value = Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter;->setViewHolderData(Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$c;Lcom/huawei/appmarket/ns1;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,7 +32,7 @@
 
     iput-object p3, p0, Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$a;->c:Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$c;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+    invoke-static {}, Lcom/huawei/appmarket/os4;->a()Lcom/huawei/appmarket/os4;
 
     move-result-object p1
 
@@ -58,7 +58,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/forum/forumletters/widget/ForumLetterAdapter$a;->b:Lcom/huawei/appgallery/forum/base/card/bean/Section;
 
-    invoke-virtual {p1, v0, v2, v1}, Lcom/huawei/appmarket/ls4;->b(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/Section;Landroid/widget/TextView;)V
+    invoke-virtual {p1, v0, v2, v1}, Lcom/huawei/appmarket/os4;->b(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/Section;Landroid/widget/TextView;)V
 
     return-void
 .end method

@@ -43,11 +43,11 @@
     .line 1
     if-eqz p1, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/g72;->a:Lcom/huawei/appmarket/g72;
+    sget-object v0, Lcom/huawei/appmarket/k72;->a:Lcom/huawei/appmarket/k72;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/g72;->i(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/k72;->i(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     move-result v0
 
@@ -68,15 +68,15 @@
 
     const-string v0, "DownloadProxy"
 
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/oo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     const-string v0, "hostType"
 
@@ -84,21 +84,21 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->l1(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/tp1;
+    new-instance v0, Lcom/huawei/appmarket/wp1;
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
-    sget-object v2, Lcom/huawei/appmarket/op1;->c:Lcom/huawei/appmarket/op1;
+    sget-object v2, Lcom/huawei/appmarket/rp1;->c:Lcom/huawei/appmarket/rp1;
 
     new-instance v3, Lcom/huawei/appmarket/w60;
 
     invoke-direct {v3, p1, p2}, Lcom/huawei/appmarket/w60;-><init>(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/tp1;-><init>(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/op1;Lcom/huawei/appmarket/kp1;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/wp1;-><init>(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/rp1;Lcom/huawei/appmarket/np1;)V
 
-    sget-object p1, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/up1;->c(Lcom/huawei/appmarket/tp1;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/xp1;->c(Lcom/huawei/appmarket/wp1;)V
 
     :cond_1
     return-void

@@ -142,7 +142,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/iu5;->h(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ku5;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p1
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/iu5;->h(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ku5;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p1
 
@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/iu5;->h(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ku5;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p1
 

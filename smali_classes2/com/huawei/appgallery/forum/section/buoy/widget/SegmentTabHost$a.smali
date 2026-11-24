@@ -19,7 +19,7 @@
 
 .field b:Ljava/lang/String;
 
-.field c:Lcom/huawei/appmarket/eq2;
+.field c:Lcom/huawei/appmarket/gq2;
 
 
 # direct methods

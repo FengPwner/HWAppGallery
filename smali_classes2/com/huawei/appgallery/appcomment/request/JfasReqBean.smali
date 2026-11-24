@@ -21,19 +21,19 @@
 .field private final deliverRegion_:Ljava/lang/String;
 
 .field private deviceIdType_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private deviceId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private deviceType_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -43,7 +43,7 @@
 .field private requestId_:Ljava/lang/String;
 
 .field private serviceToken_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -91,10 +91,10 @@
 
     move-result-object v0
 
-    sget v1, Lcom/huawei/appmarket/dn1;->i:I
+    sget v1, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->c(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->c(Landroid/content/Context;)I
 
     move-result v0
 
@@ -110,7 +110,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->d(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->d(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -121,7 +121,7 @@
     .line 6
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setStoreApi(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/request/JfasReqBean;->timeZone_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v0
 

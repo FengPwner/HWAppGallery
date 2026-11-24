@@ -1,32 +1,31 @@
 .class final Lcom/huawei/appmarket/vi;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
-        "Ljava/util/Map<",
-        "Ljava/lang/Integer;",
-        "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;",
-        ">;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
+        "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic b:Ljava/util/List;
+.field final synthetic b:Ljava/lang/String;
+
+.field final synthetic c:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/qj;",
+            "Lcom/huawei/appmarket/pj;",
             ">;"
         }
     .end annotation
@@ -34,23 +33,26 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/util/List;)V
-    .registers 2
+.method constructor <init>(Ljava/lang/String;Ljava/util/List;)V
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
+            "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/qj;",
+            "Lcom/huawei/appmarket/pj;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/vi;->b:Ljava/util/List;
+    iput-object p1, p0, Lcom/huawei/appmarket/vi;->b:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/vi;->c:Ljava/util/List;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -58,89 +60,67 @@
 
 # virtual methods
 .method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 5
+    .registers 4
 
     .line 1
-    check-cast p1, Ljava/util/Map;
+    check-cast p1, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;
 
     .line 2
     .line 3
-    const-string v0, "itemEntries"
+    const-string v0, "data"
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/vi;->b:Ljava/util/List;
+    new-instance v0, Lcom/huawei/appmarket/ui;
 
     .line 9
     .line 10
-    check-cast v0, Ljava/lang/Iterable;
+    iget-object v1, p0, Lcom/huawei/appmarket/vi;->c:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ui;-><init>(Ljava/util/List;)V
 
     .line 13
     .line 14
     .line 15
-    move-result-object v0
+    iget-object v1, p0, Lcom/huawei/appmarket/vi;->b:Ljava/lang/String;
 
     .line 16
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
     .line 17
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;->edit(Ljava/lang/String;Lcom/huawei/appmarket/ts2;)V
+
     .line 18
     .line 19
-    move-result v1
-
     .line 20
-    if-eqz v1, :cond_0
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 21
     .line 22
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
+    return-object p1
     .line 23
     .line 24
     .line 25
-    move-result-object v1
-
     .line 26
-    check-cast v1, Lcom/huawei/appmarket/qj;
-
     .line 27
     .line 28
-    invoke-virtual {v1}, Lcom/huawei/appmarket/qj;->b()I
-
     .line 29
     .line 30
     .line 31
-    move-result v1
-
     .line 32
-    sget-object v2, Lcom/huawei/appmarket/ui;->b:Lcom/huawei/appmarket/ui;
-
     .line 33
     .line 34
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/sz8;->P(Ljava/util/Map;ILcom/huawei/appmarket/qs2;)V
-
     .line 35
     .line 36
     .line 37
-    goto :goto_0
-
     .line 38
-    :cond_0
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
-
     .line 39
     .line 40
-    return-object p1
     .line 41
     .line 42
     .line 43

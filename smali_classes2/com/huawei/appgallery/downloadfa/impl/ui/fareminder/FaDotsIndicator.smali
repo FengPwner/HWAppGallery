@@ -151,9 +151,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/he2;
+    check-cast p1, Lcom/huawei/appmarket/ke2;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/he2;->r()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ke2;->r()I
 
     move-result p1
 

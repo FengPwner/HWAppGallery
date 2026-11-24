@@ -180,7 +180,7 @@
     move-result-object v7
 
     .line 73
-    invoke-static {v7}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v7}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 74
     .line 75
@@ -238,7 +238,7 @@
     .line 103
     .line 104
     .line 105
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 106
     .line 107
@@ -246,7 +246,7 @@
     move-result v7
 
     .line 109
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 110
     .line 111
@@ -1093,28 +1093,9 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -1126,7 +1107,7 @@
 
     move-result-object v1
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/ThreeLineCourseNode;->p:Landroid/view/View;
 
@@ -1155,7 +1136,7 @@
 
     check-cast v1, Lcom/huawei/appmarket/service/store/awk/card/CourseListCard;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/CourseListCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/CourseListCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     add-int/lit8 v0, v0, 0x1

@@ -2,18 +2,36 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lorg/apache/commons/lang3/function/FailableSupplier;
 
-
-# virtual methods
-.method public final get()Ljava/lang/Object;
-    .registers 2
+# direct methods
+.method public static synthetic a(Ljava/lang/Object;J)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/tg2;->a()Ljava/lang/Object;
+    return-void
+.end method
 
-    move-result-object v0
+.method public static b()Lorg/apache/commons/lang3/function/FailableObjLongConsumer;
+    .registers 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            "E:",
+            "Ljava/lang/Throwable;",
+            ">()",
+            "Lorg/apache/commons/lang3/function/FailableObjLongConsumer<",
+            "TT;TE;>;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableObjLongConsumer;->NOP:Lorg/apache/commons/lang3/function/FailableObjLongConsumer;
 
     return-object v0
 .end method

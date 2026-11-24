@@ -26,7 +26,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/x63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/a73;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -37,7 +37,7 @@
     .registers 5
 
     .line 2
-    invoke-static {p0}, Lcom/huawei/appmarket/x63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/a73;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
@@ -86,7 +86,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/x63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/a73;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -97,11 +97,11 @@
     .registers 7
 
     .line 3
-    invoke-static {p0}, Lcom/huawei/appmarket/x63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/a73;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/x63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/a73;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
@@ -140,7 +140,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v1}, Lcom/huawei/appmarket/x63;->a([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/a73;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -167,7 +167,7 @@
 
     move-result-object p0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/x63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/a73;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 

@@ -52,7 +52,7 @@
     return v0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 

@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
-.implements Lcom/huawei/appmarket/op0;
+.implements Lcom/huawei/appmarket/fo5;
+.implements Lcom/huawei/appmarket/pp0;
 
 
 # instance fields
@@ -134,7 +134,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -150,13 +149,13 @@
     return-void
 .end method
 
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/hy0;->b:Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->d(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->d(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method

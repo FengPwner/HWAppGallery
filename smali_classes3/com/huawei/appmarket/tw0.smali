@@ -33,13 +33,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ny1;->d()Z
+    invoke-static {}, Lcom/huawei/appmarket/ry1;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ly1;->c()Lcom/huawei/appmarket/ly1;
+    invoke-static {}, Lcom/huawei/appmarket/py1;->c()Lcom/huawei/appmarket/py1;
 
     move-result-object v0
 
@@ -49,20 +49,20 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ly1;->a(Ljava/lang/String;I)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/py1;->a(Ljava/lang/String;I)V
 
     :cond_0
     const-string v0, "DownloadFA"
 
-    const-class v1, Lcom/huawei/appmarket/dt3;
+    const-class v1, Lcom/huawei/appmarket/ft3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dt3;
+    check-cast v0, Lcom/huawei/appmarket/ft3;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/dt3;->notifyObserver(ILcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/ft3;->notifyObserver(ILcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 
     return-void
 .end method
@@ -85,17 +85,17 @@
 
     const-string v1, "CommonPackageStateProcess"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "DeviceInstallationInfos"
 
-    const-class v1, Lcom/huawei/appmarket/lh3;
+    const-class v1, Lcom/huawei/appmarket/nh3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/lh3;
+    check-cast v0, Lcom/huawei/appmarket/nh3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/lh3;->h(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/nh3;->h(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -168,7 +168,7 @@
     :goto_1
     const-string p0, "1013300101"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -197,13 +197,13 @@
 
     const-string v1, "CommonPackageStateProcess"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x5
 
     if-ne p0, v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->j()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->j()Z
 
     move-result p0
 
@@ -211,13 +211,13 @@
 
     const-string p0, "DeviceInstallationInfos"
 
-    const-class v0, Lcom/huawei/appmarket/lh3;
+    const-class v0, Lcom/huawei/appmarket/nh3;
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/lh3;
+    check-cast p0, Lcom/huawei/appmarket/nh3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -227,7 +227,7 @@
 
     move-result-object v0
 
-    invoke-interface {p0, v0, p1}, Lcom/huawei/appmarket/lh3;->h(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {p0, v0, p1}, Lcom/huawei/appmarket/nh3;->h(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_0
     return-void

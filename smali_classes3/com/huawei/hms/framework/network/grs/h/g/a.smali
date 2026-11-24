@@ -11,9 +11,9 @@
 .method static constructor <clinit>()V
     .registers 1
 
-    new-instance v0, Lcom/huawei/appmarket/so7;
+    new-instance v0, Lcom/huawei/appmarket/xo7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     sput-object v0, Lcom/huawei/hms/framework/network/grs/h/g/a;->a:Ljavax/net/ssl/HostnameVerifier;
 
@@ -74,7 +74,7 @@
 
     new-instance p0, Lcom/huawei/secure/android/common/ssl/SecureSSLSocketFactoryNew;
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     move-result-object v1
 

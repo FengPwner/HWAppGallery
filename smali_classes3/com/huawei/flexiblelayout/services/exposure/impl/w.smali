@@ -9,7 +9,7 @@
 # instance fields
 .field a:I
 
-.field b:Lcom/huawei/appmarket/ak8;
+.field b:Lcom/huawei/appmarket/gk8;
 
 .field c:Z
 
@@ -43,7 +43,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->b:Lcom/huawei/appmarket/ak8;
+    iput-object v1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->b:Lcom/huawei/appmarket/gk8;
 
     iput-boolean v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->c:Z
 

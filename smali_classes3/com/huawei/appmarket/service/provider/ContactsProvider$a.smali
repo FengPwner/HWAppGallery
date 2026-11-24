@@ -43,7 +43,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -105,7 +105,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 38
     .line 39
@@ -117,7 +117,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 44
     .line 45
@@ -252,5 +252,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

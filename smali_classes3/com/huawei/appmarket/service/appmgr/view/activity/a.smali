@@ -36,7 +36,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/uy1;->a()Lcom/huawei/appmarket/uy1;
+    invoke-static {}, Lcom/huawei/appmarket/yy1;->a()Lcom/huawei/appmarket/yy1;
 
     .line 7
     .line 8
@@ -44,7 +44,7 @@
     move-result-object p1
 
     .line 10
-    iget-object p1, p1, Lcom/huawei/appmarket/uy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object p1, p1, Lcom/huawei/appmarket/yy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 11
     .line 12
@@ -69,7 +69,7 @@
     move-result-object p1
 
     .line 23
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 24
     .line 25
@@ -81,7 +81,7 @@
 
     .line 28
     .line 29
-    sget-object v1, Lcom/huawei/appmarket/tq8;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/zq8;->a:Ljava/lang/String;
 
     .line 30
     .line 31
@@ -90,7 +90,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 35
     .line 36
@@ -173,5 +173,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

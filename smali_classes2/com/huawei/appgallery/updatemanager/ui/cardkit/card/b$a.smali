@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/fh3;
+.field private final b:Lcom/huawei/appmarket/hh3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/fh3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/hh3;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/b$a;->b:Lcom/huawei/appmarket/fh3;
+    iput-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/b$a;->b:Lcom/huawei/appmarket/hh3;
 
     return-void
 .end method
@@ -43,19 +43,19 @@
 
     if-ne p1, p3, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/b$a;->b:Lcom/huawei/appmarket/fh3;
+    iget-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/b$a;->b:Lcom/huawei/appmarket/hh3;
 
     if-eqz p1, :cond_0
 
     const-string p2, "DisclaimerDialog"
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     :cond_0
     return-void

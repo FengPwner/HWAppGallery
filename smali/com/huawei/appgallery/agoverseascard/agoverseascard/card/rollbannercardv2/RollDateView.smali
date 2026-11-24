@@ -44,7 +44,7 @@
 
 .field private u:Landroid/os/Handler;
 
-.field private v:Lcom/huawei/appmarket/wx6;
+.field private v:Lcom/huawei/appmarket/ay6;
 
 
 # direct methods
@@ -90,7 +90,7 @@
 
     const/4 v0, 0x6
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -152,7 +152,7 @@
 
     const/4 v2, 0x6
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -176,7 +176,7 @@
 
     move-result-object v5
 
-    sget-object v6, Lcom/huawei/appmarket/ke6;->a:[I
+    sget-object v6, Lcom/huawei/appmarket/me6;->a:[I
 
     invoke-virtual {v5, p2, v6}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -225,7 +225,7 @@
     :catch_0
     iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->b:Landroid/content/Context;
 
-    invoke-static {p2, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -233,7 +233,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->f:F
 
-    invoke-static {p2, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -357,11 +357,11 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->u:Landroid/os/Handler;
 
-    new-instance p1, Lcom/huawei/appmarket/wx6;
+    new-instance p1, Lcom/huawei/appmarket/ay6;
 
-    invoke-direct {p1, p0, v1}, Lcom/huawei/appmarket/wx6;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v1}, Lcom/huawei/appmarket/ay6;-><init>(Ljava/lang/Object;I)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/wx6;
+    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/ay6;
 
     :cond_3
     return-void
@@ -409,7 +409,7 @@
 
     const/4 p2, 0x6
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -680,11 +680,11 @@
     .line 36
     .line 37
     .line 38
-    new-instance v1, Lcom/huawei/appmarket/zx6;
+    new-instance v1, Lcom/huawei/appmarket/dy6;
 
     .line 39
     .line 40
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/zx6;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/dy6;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;)V
 
     .line 41
     .line 42
@@ -786,7 +786,7 @@
 
     const-string v2, "formatDateView catch exception"
 
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object p1, v1
 
@@ -915,7 +915,7 @@
 
     const-string v3, "RollDateView"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1027,7 +1027,7 @@
 
     .line 22
     .line 23
-    iget-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/wx6;
+    iget-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/ay6;
 
     .line 24
     .line 25
@@ -1057,16 +1057,16 @@
 
     .line 37
     .line 38
-    new-instance p1, Lcom/huawei/appmarket/wx6;
+    new-instance p1, Lcom/huawei/appmarket/ay6;
 
     .line 39
     .line 40
-    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/wx6;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/ay6;-><init>(Ljava/lang/Object;I)V
 
     .line 41
     .line 42
     .line 43
-    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/wx6;
+    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/ay6;
 
     .line 44
     .line 45
@@ -1079,7 +1079,7 @@
 
     .line 48
     .line 49
-    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/wx6;
+    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercardv2/RollDateView;->v:Lcom/huawei/appmarket/ay6;
 
     .line 50
     .line 51
@@ -1108,7 +1108,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65

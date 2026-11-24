@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ir2;
+.implements Lcom/huawei/appmarket/kr2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentManager;->j(Landroidx/fragment/app/j;Lcom/huawei/appmarket/dr2;Landroidx/fragment/app/Fragment;)V
+    value = Landroidx/fragment/app/FragmentManager;->j(Landroidx/fragment/app/j;Lcom/huawei/appmarket/fr2;Landroidx/fragment/app/Fragment;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

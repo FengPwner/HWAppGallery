@@ -9,13 +9,13 @@
 # instance fields
 .field final synthetic b:I
 
-.field final synthetic c:Lcom/huawei/appmarket/x64;
+.field final synthetic c:Lcom/huawei/appmarket/a74;
 
 .field final synthetic d:Lcom/huawei/appmarket/rb;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/rb;ILcom/huawei/appmarket/x64;)V
+.method constructor <init>(Lcom/huawei/appmarket/rb;ILcom/huawei/appmarket/a74;)V
     .registers 4
 
     .line 1
@@ -23,7 +23,7 @@
 
     iput p2, p0, Lcom/huawei/appmarket/pb;->b:I
 
-    iput-object p3, p0, Lcom/huawei/appmarket/pb;->c:Lcom/huawei/appmarket/x64;
+    iput-object p3, p0, Lcom/huawei/appmarket/pb;->c:Lcom/huawei/appmarket/a74;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,12 +61,12 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    iget-object p1, p0, Lcom/huawei/appmarket/pb;->c:Lcom/huawei/appmarket/x64;
+    iget-object p1, p0, Lcom/huawei/appmarket/pb;->c:Lcom/huawei/appmarket/a74;
 
     .line 18
     .line 19

@@ -134,7 +134,7 @@
     move-result-object v3
 
     .line 34
-    invoke-static {v3}, Lcom/huawei/appmarket/ke8;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/pe8;->d(Ljava/lang/String;)Z
 
     .line 35
     .line 36
@@ -165,7 +165,7 @@
     .line 47
     .line 48
     :cond_1
-    sget-object v3, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object v3, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 49
     .line 50
@@ -217,7 +217,7 @@
     move-result-object v4
 
     .line 76
-    invoke-virtual {v3, v0, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v0, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -242,7 +242,7 @@
 
     .line 87
     :catch_0
-    sget-object p2, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p2, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 88
     .line 89
@@ -250,7 +250,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -326,5 +326,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

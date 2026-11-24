@@ -168,7 +168,7 @@
 
     iget p0, p0, Lcom/huawei/hms/scankit/p/b6;->a:F
 
-    invoke-static {p0, v0, p2, v2}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {p0, v0, p2, v2}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p0
 

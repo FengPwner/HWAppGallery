@@ -70,7 +70,7 @@
     move-result-object p2
 
     .line 18
-    sget-object v0, Lcom/huawei/appmarket/wf6;->B:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->B:[I
 
     .line 19
     .line 20

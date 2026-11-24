@@ -22,7 +22,7 @@
 
 
 # instance fields
-.field private A:Lcom/huawei/appmarket/ih7;
+.field private A:Lcom/huawei/appmarket/nh7;
 
 .field private d:Z
 
@@ -108,7 +108,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/ih7;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/nh7;
 
     .line 2
     new-instance p1, Landroid/graphics/Paint;
@@ -604,7 +604,7 @@
     .line 207
     .line 208
     :cond_1
-    const p1, 0x7f0a189b
+    const p1, 0x7f0a189c
 
     .line 209
     .line 210
@@ -708,7 +708,7 @@
 
     .line 256
     .line 257
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/ih7;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/nh7;
 
     .line 258
     .line 259
@@ -716,7 +716,7 @@
 
     .line 260
     .line 261
-    invoke-interface {p1}, Lcom/huawei/appmarket/ih7;->call()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/nh7;->call()V
 
     .line 262
     .line 263
@@ -1093,11 +1093,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method private h()V
@@ -1439,7 +1434,7 @@
 
     .line 158
     :cond_7
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 159
     .line 160
@@ -2126,15 +2121,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private i()F
@@ -2186,13 +2172,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v2, "SmoothImageView"
 
     const-string v3, "The divisor is 0."
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0
@@ -2362,7 +2348,7 @@
     .line 65
     .line 66
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/ih7;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/nh7;
 
     .line 67
     .line 68
@@ -2370,7 +2356,7 @@
 
     .line 69
     .line 70
-    invoke-interface {v0}, Lcom/huawei/appmarket/ih7;->call()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/nh7;->call()V
 
     .line 71
     .line 72
@@ -2844,11 +2830,11 @@
 
     :cond_6
     :goto_2
-    new-instance v0, Lcom/huawei/appmarket/wl0;
+    new-instance v0, Lcom/huawei/appmarket/xl0;
 
-    const/16 v1, 0xe
+    const/16 v1, 0xf
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -4163,11 +4149,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public setAlphaChangeListener(Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView$a;)V
@@ -4186,11 +4167,11 @@
     return-void
 .end method
 
-.method public setSmoothImageViewCallback(Lcom/huawei/appmarket/ih7;)V
+.method public setSmoothImageViewCallback(Lcom/huawei/appmarket/nh7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/ih7;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->A:Lcom/huawei/appmarket/nh7;
 
     return-void
 .end method

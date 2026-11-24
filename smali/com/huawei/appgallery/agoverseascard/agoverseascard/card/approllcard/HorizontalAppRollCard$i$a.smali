@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uo5;
+.implements Lcom/huawei/appmarket/vo5;
 
 
 # annotations
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/t06;->a(Landroid/content/Context;)Lcom/huawei/appmarket/q2;
+    invoke-static {v0}, Lcom/huawei/appmarket/v06;->a(Landroid/content/Context;)Lcom/huawei/appmarket/q2;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/HorizontalAppRollCard$i$a$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/HorizontalAppRollCard$i$a;)V
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/q2;->b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/mi3;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/q2;->b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/oi3;)V
 
     return-void
 .end method

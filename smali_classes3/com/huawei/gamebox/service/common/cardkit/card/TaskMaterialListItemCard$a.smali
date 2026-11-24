@@ -1,11 +1,11 @@
 .class final Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;->c:Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;
 
-    iput-object p2, p0, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
     move-result p1
 
     .line 9
-    iget-object v0, p0, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     .line 10
     .line 11
@@ -68,7 +68,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->n1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-static {v1, v0}, Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;->n1(Lcom/huawei/gamebox/service/common/cardkit/card/TaskMaterialListItemCard;Lcom/huawei/appmarket/bk0;)V
 
     .line 16
     .line 17
@@ -88,7 +88,7 @@
     const/4 v0, 0x1
 
     .line 25
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 26
     .line 27
@@ -104,7 +104,7 @@
 
     .line 32
     .line 33
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -124,7 +124,7 @@
     move-result-object v1
 
     .line 43
-    invoke-interface {v2, v1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, v1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 44
     .line 45
@@ -132,7 +132,7 @@
     move-result-object v0
 
     .line 47
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 48
     .line 49
@@ -153,7 +153,7 @@
     const/4 p1, 0x0
 
     .line 57
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 58
     .line 59
@@ -214,5 +214,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

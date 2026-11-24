@@ -45,11 +45,11 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/te5;
+    new-instance v0, Lcom/huawei/appmarket/we5;
 
     const-string v1, "ShowLogView"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/te5;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/we5;-><init>(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -106,7 +106,7 @@
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/az4;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/dz4;->d()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -171,7 +171,7 @@
     .line 51
     .line 52
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object p1, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     .line 53
     .line 54
@@ -205,7 +205,7 @@
     move-result-object p3
 
     .line 70
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 71
     .line 72
@@ -215,7 +215,7 @@
     .line 74
     :cond_2
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object p1, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     .line 75
     .line 76
@@ -223,7 +223,7 @@
 
     .line 77
     .line 78
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -925,7 +925,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static c(Lcom/huawei/appgallery/logupload/impl/ui/a;)V
@@ -1070,7 +1069,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static d(Lcom/huawei/appgallery/logupload/impl/ui/a;Ljava/util/ArrayList;)V
@@ -1101,7 +1099,7 @@
 
     .line 12
     .line 13
-    sget-object v3, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object v3, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     .line 14
     .line 15
@@ -1143,7 +1141,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v3, v5, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v5, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -1347,7 +1345,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic e(Lcom/huawei/appgallery/logupload/impl/ui/a;)I
@@ -1461,7 +1458,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/logupload/impl/ui/a;->h:I
 
-    sget-object v0, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object v0, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1479,7 +1476,7 @@
 
     const-string v2, "ShowLogView"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

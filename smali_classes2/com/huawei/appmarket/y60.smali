@@ -297,7 +297,7 @@
 
     .line 140
     .line 141
-    invoke-static {}, Lcom/huawei/appgallery/upgraderecommendation/impl/UpgradeRecommendManger;->getHelper()Lcom/huawei/appmarket/n54;
+    invoke-static {}, Lcom/huawei/appgallery/upgraderecommendation/impl/UpgradeRecommendManger;->getHelper()Lcom/huawei/appmarket/q54;
 
     .line 142
     .line 143
@@ -305,7 +305,7 @@
     move-result-object p2
 
     .line 145
-    invoke-interface {p2, p0, p1, v0}, Lcom/huawei/appmarket/n54;->a(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;)V
+    invoke-interface {p2, p0, p1, v0}, Lcom/huawei/appmarket/q54;->a(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;)V
 
     .line 146
     .line 147
@@ -314,7 +314,7 @@
 
     .line 149
     :cond_1
-    invoke-static {}, Lcom/huawei/appgallery/upgraderecommendation/impl/UpgradeRecommendManger;->getHelper()Lcom/huawei/appmarket/n54;
+    invoke-static {}, Lcom/huawei/appgallery/upgraderecommendation/impl/UpgradeRecommendManger;->getHelper()Lcom/huawei/appmarket/q54;
 
     .line 150
     .line 151
@@ -322,7 +322,7 @@
     move-result-object p2
 
     .line 153
-    invoke-interface {p2, p0, p1, v0, p3}, Lcom/huawei/appmarket/n54;->b(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;Ljava/lang/String;)V
+    invoke-interface {p2, p0, p1, v0, p3}, Lcom/huawei/appmarket/q54;->b(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;Ljava/lang/String;)V
 
     .line 154
     .line 155

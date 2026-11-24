@@ -34,25 +34,25 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemId"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemDesc"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "answer"
     .end annotation
 .end field
 
 .field private e:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "attaches"
     .end annotation
 
@@ -66,67 +66,67 @@
 .end field
 
 .field private f:Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "pic"
     .end annotation
 .end field
 
 .field private g:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "createTime"
     .end annotation
 .end field
 
 .field private h:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "score"
     .end annotation
 .end field
 
 .field private i:Z
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "read"
     .end annotation
 .end field
 
 .field private j:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "srcno"
     .end annotation
 .end field
 
 .field private k:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "answerTime"
     .end annotation
 .end field
 
 .field private l:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "updateTime"
     .end annotation
 .end field
 
 .field private m:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemCatalogCode"
     .end annotation
 .end field
 
 .field private n:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "contact"
     .end annotation
 .end field
 
 .field private o:Z
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "isSelectMode"
     .end annotation
 .end field
 
 .field private p:Z
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "isChecked"
     .end annotation
 .end field
@@ -297,7 +297,7 @@
 
 .method public getAnswer()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->d:Ljava/lang/String;
@@ -307,7 +307,7 @@
 
 .method public getAnswerTime()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->k:Ljava/lang/String;
@@ -317,7 +317,7 @@
 
 .method public getContact()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->n:Ljava/lang/String;
@@ -327,7 +327,7 @@
 
 .method public getCreateTime()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->g:Ljava/lang/String;
@@ -337,7 +337,7 @@
 
 .method public getIsRead()Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-boolean v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->i:Z
@@ -347,7 +347,7 @@
 
 .method public getMediaItemList()Ljava/util/List;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -366,7 +366,7 @@
 
 .method public getPicURL()Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->f:Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;
@@ -376,7 +376,7 @@
 
 .method public getProblemCatalogCode()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->m:Ljava/lang/String;
@@ -386,7 +386,7 @@
 
 .method public getProblemDesc()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->c:Ljava/lang/String;
@@ -396,7 +396,7 @@
 
 .method public getProblemId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->b:Ljava/lang/String;
@@ -406,7 +406,7 @@
 
 .method public getScore()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->h:Ljava/lang/String;
@@ -416,7 +416,7 @@
 
 .method public getSrno()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->j:Ljava/lang/String;
@@ -426,7 +426,7 @@
 
 .method public getUpdateTime()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->l:Ljava/lang/String;
@@ -436,7 +436,7 @@
 
 .method public isChecked()Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-boolean v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->p:Z
@@ -446,7 +446,7 @@
 
 .method public isSelectMode()Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-boolean v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->o:Z
@@ -456,7 +456,7 @@
 
 .method public setChecked(Z)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-boolean p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->p:Z
@@ -466,7 +466,7 @@
 
 .method public setIsRead(Z)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-boolean p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->i:Z
@@ -476,7 +476,7 @@
 
 .method public setScore(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->h:Ljava/lang/String;
@@ -486,7 +486,7 @@
 
 .method public setSelectMode(Z)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-boolean p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedBackResponse$ProblemEnity;->o:Z

@@ -207,7 +207,7 @@
 
     .line 67
     :cond_4
-    sget-object v0, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object v0, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     .line 68
     .line 69
@@ -241,7 +241,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -270,5 +270,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -135,7 +135,7 @@
     return-void
 .end method
 
-.method public final f(Landroid/app/Activity;Lcom/huawei/appmarket/k04;)V
+.method public final f(Landroid/app/Activity;Lcom/huawei/appmarket/m04;)V
     .registers 6
 
     .line 1
@@ -156,7 +156,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/po1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/so1;->b(ILandroid/content/Context;)Landroid/app/AlertDialog$Builder;
 
     .line 10
     .line 11
@@ -178,7 +178,7 @@
 
     .line 20
     .line 21
-    invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/cloudgame/surface/w$a;-><init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/k04;)V
+    invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/cloudgame/surface/w$a;-><init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/m04;)V
 
     .line 22
     .line 23
@@ -197,7 +197,7 @@
 
     .line 31
     .line 32
-    invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/cloudgame/surface/w$b;-><init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/k04;)V
+    invoke-direct {v1, p0, p2}, Lcom/huawei/appgallery/cloudgame/surface/w$b;-><init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/m04;)V
 
     .line 33
     .line 34
@@ -358,5 +358,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

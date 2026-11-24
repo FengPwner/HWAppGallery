@@ -25,10 +25,10 @@
 
 .field public final c:J
 
-.field public final d:Lcom/huawei/appmarket/lz7;
+.field public final d:Lcom/huawei/appmarket/qz7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lz7<",
+            "Lcom/huawei/appmarket/qz7<",
             "Landroidx/media3/common/a;",
             ">;"
         }
@@ -68,11 +68,11 @@
 
     iput-wide p5, p0, Landroidx/media3/exoplayer/mediacodec/MediaCodecRenderer$e;->c:J
 
-    new-instance p1, Lcom/huawei/appmarket/lz7;
+    new-instance p1, Lcom/huawei/appmarket/qz7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/lz7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/qz7;-><init>()V
 
-    iput-object p1, p0, Landroidx/media3/exoplayer/mediacodec/MediaCodecRenderer$e;->d:Lcom/huawei/appmarket/lz7;
+    iput-object p1, p0, Landroidx/media3/exoplayer/mediacodec/MediaCodecRenderer$e;->d:Lcom/huawei/appmarket/qz7;
 
     return-void
 .end method

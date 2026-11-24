@@ -22,7 +22,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/ze9;
+.field private final a:Lcom/huawei/appmarket/gf9;
 
 .field private final b:Lcom/huawei/quickcard/k;
 
@@ -38,13 +38,13 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/ze9;
+    new-instance v0, Lcom/huawei/appmarket/gf9;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/ze9;-><init>(ZLandroid/view/View;)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/gf9;-><init>(ZLandroid/view/View;)V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/ze9;
+    iput-object v0, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/gf9;
 
     new-instance v0, Lcom/huawei/quickcard/k;
 
@@ -74,9 +74,9 @@
 .method public drawMaskLayer(Landroid/graphics/Canvas;Landroid/graphics/Rect;)V
     .registers 3
 
-    iget-object p2, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/ze9;
+    iget-object p2, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/gf9;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/g79;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/m79;->draw(Landroid/graphics/Canvas;)V
 
     return-void
 .end method
@@ -84,9 +84,9 @@
 .method public prepare(Lcom/huawei/quickcard/framework/border/Border;Landroid/graphics/Rect;)V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/ze9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->a:Lcom/huawei/appmarket/gf9;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/db9;->updateBorder(Lcom/huawei/quickcard/framework/border/Border;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kb9;->updateBorder(Lcom/huawei/quickcard/framework/border/Border;)V
 
     iget-object v1, p0, Lcom/huawei/quickcard/views/image/view/BorderDrawer;->b:Lcom/huawei/quickcard/k;
 
@@ -96,7 +96,7 @@
 
     invoke-virtual {v1, p2}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/db9;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kb9;->a()V
 
     return-void
 .end method

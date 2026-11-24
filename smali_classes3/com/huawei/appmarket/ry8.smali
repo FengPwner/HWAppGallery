@@ -2,104 +2,158 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/v25;
-
-
-# instance fields
-.field private final b:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-.end field
-
 
 # direct methods
-.method public constructor <init>(Ljava/util/Map;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
+.method private constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ry8;->b:Ljava/util/Map;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public get(Ljava/lang/String;)Ljava/lang/Object;
+.method public static a(Ljava/lang/Class;)Ljava/lang/Class;
     .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Class<",
+            "TT;>;)",
+            "Ljava/lang/Class<",
+            "TT;>;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ry8;->b:Ljava/util/Map;
-
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public isEmpty()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ry8;->b:Ljava/util/Map;
-
-    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public keys()[Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ry8;->b:Ljava/util/Map;
-
-    invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Class;->getGenericSuperclass()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    const/4 v1, 0x0
+    instance-of v1, v0, Ljava/lang/reflect/ParameterizedType;
 
-    new-array v1, v1, [Ljava/lang/String;
+    if-nez v1, :cond_1
 
-    invoke-interface {v0, v1}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    :cond_1
+    check-cast v0, Ljava/lang/reflect/ParameterizedType;
+
+    invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    aget-object p0, p0, v0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/ry8;->b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/reflect/Type;",
+            ")",
+            "Ljava/lang/Class<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 1
+    instance-of v0, p0, Ljava/lang/Class;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Ljava/lang/Class;
+
+    return-object p0
+
+    :cond_0
+    instance-of v0, p0, Ljava/lang/reflect/ParameterizedType;
+
+    if-eqz v0, :cond_1
+
+    check-cast p0, Ljava/lang/reflect/ParameterizedType;
+
+    invoke-interface {p0}, Ljava/lang/reflect/ParameterizedType;->getRawType()Ljava/lang/reflect/Type;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Class;
+
+    return-object p0
+
+    :cond_1
+    instance-of v0, p0, Ljava/lang/reflect/TypeVariable;
+
+    if-eqz v0, :cond_3
+
+    check-cast p0, Ljava/lang/reflect/TypeVariable;
+
+    invoke-interface {p0}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    check-cast v0, [Ljava/lang/String;
+    array-length v0, v0
 
-    return-object v0
-.end method
+    if-nez v0, :cond_2
 
-.method public size()I
-    .registers 2
+    const-class p0, Ljava/lang/Object;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ry8;->b:Ljava/util/Map;
+    return-object p0
 
-    invoke-interface {v0}, Ljava/util/Map;->size()I
+    :cond_2
+    invoke-interface {p0}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
 
-    move-result v0
+    move-result-object p0
 
-    return v0
+    const/4 v0, 0x0
+
+    aget-object p0, p0, v0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/ry8;->b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_3
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v2, "Not supported: "
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
 .end method

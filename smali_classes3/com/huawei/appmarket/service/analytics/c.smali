@@ -23,7 +23,7 @@
     :try_start_0
     const-string p0, "getProcessName context is null!"
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -41,7 +41,7 @@
 
     if-lt v1, v2, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/of1;->m()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qf1;->m()Ljava/lang/String;
 
     move-result-object v1
 
@@ -106,11 +106,11 @@
 
     move-result-object p0
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/ql7;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/wl7;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "getProcessName failed!"
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     const-string p0, ""

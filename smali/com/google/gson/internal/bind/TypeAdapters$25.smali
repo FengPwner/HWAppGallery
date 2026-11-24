@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -42,7 +42,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->j0()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->j0()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -80,7 +80,7 @@
 
     .line 16
     .line 17
-    invoke-static {v3, v0, v4}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v0, v4}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
@@ -88,7 +88,7 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->B()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->B()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -177,7 +177,7 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -198,7 +198,7 @@
     move-result-object p2
 
     .line 7
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tp4;->j0(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wp4;->j0(Ljava/lang/String;)V
 
     .line 8
     .line 9

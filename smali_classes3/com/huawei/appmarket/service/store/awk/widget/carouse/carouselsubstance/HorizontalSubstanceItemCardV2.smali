@@ -14,9 +14,9 @@
 # instance fields
 .field private D:Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;
 
-.field private E:Lcom/huawei/appmarket/ak0;
+.field private E:Lcom/huawei/appmarket/bk0;
 
-.field private F:Lcom/huawei/appmarket/kq1;
+.field private F:Lcom/huawei/appmarket/nq1;
 
 .field private G:Z
 
@@ -42,11 +42,11 @@
     return-void
 .end method
 
-.method static synthetic V1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;)Lcom/huawei/appmarket/kq1;
+.method static synthetic V1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;)Lcom/huawei/appmarket/nq1;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/kq1;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/nq1;
 
     return-object p0
 .end method
@@ -107,7 +107,7 @@
     move-result-object v0
 
     .line 14
-    invoke-static {v0}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     .line 15
     .line 16
@@ -244,7 +244,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-virtual {p0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;->z1()Lcom/huawei/appmarket/nb3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalItemCard;->z1()Lcom/huawei/appmarket/qb3;
 
     .line 83
     .line 84
@@ -252,7 +252,7 @@
     move-result-object p1
 
     .line 86
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nb3;->b(Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetailInfo;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/qb3;->b(Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetailInfo;)V
 
     .line 87
     .line 88
@@ -1038,11 +1038,11 @@
     .line 864
 .end method
 
-.method static synthetic a2(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;)Lcom/huawei/appmarket/ak0;
+.method static synthetic a2(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;)Lcom/huawei/appmarket/bk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/ak0;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/bk0;
 
     return-object p0
 .end method
@@ -1103,7 +1103,7 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/huawei/appmarket/du4;
+    instance-of v0, v0, Lcom/huawei/appmarket/gu4;
 
     if-eqz v0, :cond_2
 
@@ -1115,17 +1115,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/du4;
+    check-cast v0, Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v1
 
     new-instance v2, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/b;
 
-    invoke-direct {v2, p0, v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/b;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;Lcom/huawei/appmarket/du4;)V
+    invoke-direct {v2, p0, v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/b;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;Lcom/huawei/appmarket/gu4;)V
 
-    invoke-virtual {v1, v2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_2
     return-void
@@ -1135,13 +1135,13 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/nq1;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/ul0;
+    instance-of v1, v0, Lcom/huawei/appmarket/vl0;
 
     if-eqz v1, :cond_3
 
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->J:Landroid/view/View;
 
@@ -1177,11 +1177,11 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -1209,9 +1209,9 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->K:Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizonSubstanceSingleItemCardV2;
 
-    iget-object v3, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/ak0;
+    iget-object v3, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/bk0;
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_2
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1220,7 +1220,7 @@
 
     check-cast p1, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemBeanV2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kq1;->e()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nq1;->e()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;
 
     move-result-object v0
 
@@ -1236,12 +1236,12 @@
 
 
 # virtual methods
-.method public I1(Lcom/huawei/appmarket/nb3;)V
+.method public I1(Lcom/huawei/appmarket/qb3;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -1249,20 +1249,20 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->I1(Lcom/huawei/appmarket/nb3;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->I1(Lcom/huawei/appmarket/qb3;)V
 
-    check-cast p1, Lcom/huawei/appmarket/kq1;
+    check-cast p1, Lcom/huawei/appmarket/nq1;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/kq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/nq1;
 
     return-void
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->E:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -1271,15 +1271,15 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/nq1;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/ul0;
+    instance-of v1, v0, Lcom/huawei/appmarket/vl0;
 
     if-eqz v1, :cond_2
 
-    check-cast v0, Lcom/huawei/appmarket/ul0;
+    check-cast v0, Lcom/huawei/appmarket/vl0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v1
 
@@ -1287,7 +1287,7 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->G()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->G()I
 
     move-result v1
 
@@ -1295,11 +1295,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->c2()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->H()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->H()Ljava/util/List;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1324,7 +1324,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v1
 
@@ -1334,11 +1334,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->c2()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -1348,7 +1348,7 @@
 
     invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2$a;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;Ljava/util/List;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ul0;->F()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vl0;->F()I
 
     move-result v0
 
@@ -1401,7 +1401,7 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/al0;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->e()I
 
     move-result v0
 
@@ -1418,7 +1418,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1470,13 +1470,13 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     move-result v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v0
 
@@ -1535,7 +1535,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1547,11 +1547,11 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->D:Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceItemCardV2;->F:Lcom/huawei/appmarket/nq1;
 
-    check-cast v1, Lcom/huawei/appmarket/ul0;
+    check-cast v1, Lcom/huawei/appmarket/vl0;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ul0;->E()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/vl0;->E()I
 
     move-result v1
 

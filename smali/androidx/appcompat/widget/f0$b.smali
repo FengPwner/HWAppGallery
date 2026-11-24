@@ -1,11 +1,11 @@
 .class final Landroidx/appcompat/widget/f0$b;
-.super Lcom/huawei/appmarket/ij8;
+.super Lcom/huawei/appmarket/oj8;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/f0;->k(IJ)Lcom/huawei/appmarket/fj8;
+    value = Landroidx/appcompat/widget/f0;->k(IJ)Lcom/huawei/appmarket/lj8;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,7 +30,7 @@
 
     iput p2, p0, Landroidx/appcompat/widget/f0$b;->b:I
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ij8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/oj8;-><init>()V
 
     const/4 p1, 0x0
 

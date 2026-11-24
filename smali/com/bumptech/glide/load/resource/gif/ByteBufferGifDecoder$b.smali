@@ -28,7 +28,7 @@
     .line 2
     .line 3
     .line 4
-    sget v0, Lcom/huawei/appmarket/ie8;->d:I
+    sget v0, Lcom/huawei/appmarket/ne8;->d:I
 
     .line 5
     .line 6
@@ -170,11 +170,12 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
 # virtual methods
-.method final declared-synchronized a(Ljava/nio/ByteBuffer;)Lcom/huawei/appmarket/pz2;
+.method final declared-synchronized a(Ljava/nio/ByteBuffer;)Lcom/huawei/appmarket/sz2;
     .registers 3
 
     .line 1
@@ -187,13 +188,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/pz2;
+    check-cast v0, Lcom/huawei/appmarket/sz2;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/pz2;
+    new-instance v0, Lcom/huawei/appmarket/sz2;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/pz2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/sz2;-><init>()V
 
     goto :goto_0
 
@@ -204,7 +205,7 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pz2;->g(Ljava/nio/ByteBuffer;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sz2;->g(Ljava/nio/ByteBuffer;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -218,14 +219,14 @@
     throw p1
 .end method
 
-.method final declared-synchronized b(Lcom/huawei/appmarket/pz2;)V
+.method final declared-synchronized b(Lcom/huawei/appmarket/sz2;)V
     .registers 3
 
     .line 1
     monitor-enter p0
 
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pz2;->a()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sz2;->a()V
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/ByteBufferGifDecoder$b;->a:Ljava/util/ArrayDeque;
 

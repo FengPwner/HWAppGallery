@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard$a;->b:Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 7
     .line 8
@@ -59,7 +59,7 @@
     const/4 v0, 0x1
 
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/k66;->a(I)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/m66;->a(I)Z
 
     .line 14
     .line 15
@@ -91,7 +91,7 @@
 
     .line 28
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 30
     .line 31
@@ -103,11 +103,11 @@
 
     .line 34
     .line 35
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 38
     .line 39
@@ -115,11 +115,11 @@
     move-result-object v1
 
     .line 41
-    const-class v2, Lcom/huawei/appmarket/h04;
+    const-class v2, Lcom/huawei/appmarket/j04;
 
     .line 42
     .line 43
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -127,7 +127,7 @@
     move-result-object v1
 
     .line 47
-    check-cast v1, Lcom/huawei/appmarket/h04;
+    check-cast v1, Lcom/huawei/appmarket/j04;
 
     .line 48
     .line 49
@@ -151,7 +151,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-interface {v1, v3, v2, v0, p1}, Lcom/huawei/appmarket/h04;->b(ILcom/huawei/appmarket/i04;Landroid/app/Activity;I)V
+    invoke-interface {v1, v3, v2, v0, p1}, Lcom/huawei/appmarket/j04;->b(ILcom/huawei/appmarket/k04;Landroid/app/Activity;I)V
 
     .line 60
     .line 61
@@ -223,5 +223,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

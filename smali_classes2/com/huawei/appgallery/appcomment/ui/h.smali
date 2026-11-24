@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -67,7 +67,7 @@
 
     .line 16
     .line 17
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 18
     .line 19
@@ -79,7 +79,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -88,7 +88,7 @@
 
     .line 27
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     .line 28
     .line 29
@@ -113,7 +113,7 @@
     move-result-object p1
 
     .line 40
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -142,16 +142,16 @@
     .line 52
     .line 53
     .line 54
-    new-instance p3, Lcom/huawei/appmarket/it0;
+    new-instance p3, Lcom/huawei/appmarket/jt0;
 
     .line 55
     .line 56
-    invoke-direct {p3, v0, v1, p1}, Lcom/huawei/appmarket/it0;-><init>(Ljava/lang/String;ILandroid/content/Context;)V
+    invoke-direct {p3, v0, v1, p1}, Lcom/huawei/appmarket/jt0;-><init>(Ljava/lang/String;ILandroid/content/Context;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 60
     .line 61

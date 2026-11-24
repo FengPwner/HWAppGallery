@@ -54,7 +54,7 @@
 
     const-string v0, "not run on main thread"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;->E7(Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;)Landroid/os/Handler;
 

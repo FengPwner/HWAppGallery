@@ -54,7 +54,7 @@
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    sget-object v2, Lcom/huawei/appmarket/lz5;->a:Lcom/huawei/appmarket/lz5;
+    sget-object v2, Lcom/huawei/appmarket/nz5;->a:Lcom/huawei/appmarket/nz5;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -74,7 +74,7 @@
 
     const-string v3, "CnPermitAppSearchCardBean"
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

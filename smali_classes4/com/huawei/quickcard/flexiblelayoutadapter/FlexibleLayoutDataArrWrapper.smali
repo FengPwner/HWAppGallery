@@ -10,7 +10,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/hb2;",
+        "Lcom/huawei/appmarket/kb2;",
         ">",
         "Ljava/lang/Object;",
         "Lcom/huawei/quickcard/base/wrapper/DataWrapper<",
@@ -30,17 +30,17 @@
 
 
 # virtual methods
-.method public add(Lcom/huawei/appmarket/hb2;Ljava/lang/Object;)V
+.method public add(Lcom/huawei/appmarket/kb2;Ljava/lang/Object;)V
     .registers 4
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/na2;
+    instance-of v0, p1, Lcom/huawei/appmarket/qa2;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/na2;
+    check-cast p1, Lcom/huawei/appmarket/qa2;
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/na2;->add(Ljava/lang/Object;)Lcom/huawei/appmarket/na2;
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/qa2;->add(Ljava/lang/Object;)Lcom/huawei/appmarket/qa2;
 
     :cond_0
     return-void
@@ -50,14 +50,14 @@
     .registers 3
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->add(Lcom/huawei/appmarket/hb2;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->add(Lcom/huawei/appmarket/kb2;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public get(Lcom/huawei/appmarket/hb2;Ljava/lang/String;)Ljava/lang/Object;
+.method public get(Lcom/huawei/appmarket/kb2;Ljava/lang/String;)Ljava/lang/Object;
     .registers 3
 
     .line 1
@@ -66,7 +66,7 @@
 
     move-result p2
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hb2;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/kb2;->get(I)Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
@@ -84,7 +84,7 @@
     .registers 3
 
     .line 2
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v91;->a(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/w91;->a(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -95,16 +95,16 @@
     .registers 3
 
     .line 3
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->get(Lcom/huawei/appmarket/hb2;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->get(Lcom/huawei/appmarket/kb2;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public isArray(Lcom/huawei/appmarket/hb2;)Z
+.method public isArray(Lcom/huawei/appmarket/kb2;)Z
     .registers 2
 
     .line 1
@@ -117,16 +117,16 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->isArray(Lcom/huawei/appmarket/hb2;)Z
+    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->isArray(Lcom/huawei/appmarket/kb2;)Z
 
     move-result p1
 
     return p1
 .end method
 
-.method public isObject(Lcom/huawei/appmarket/hb2;)Z
+.method public isObject(Lcom/huawei/appmarket/kb2;)Z
     .registers 2
 
     .line 1
@@ -139,20 +139,20 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->isObject(Lcom/huawei/appmarket/hb2;)Z
+    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->isObject(Lcom/huawei/appmarket/kb2;)Z
 
     move-result p1
 
     return p1
 .end method
 
-.method public keys(Lcom/huawei/appmarket/hb2;)[Ljava/lang/String;
+.method public keys(Lcom/huawei/appmarket/kb2;)[Ljava/lang/String;
     .registers 5
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/hb2;->size()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/kb2;->size()I
 
     move-result p1
 
@@ -181,30 +181,30 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->keys(Lcom/huawei/appmarket/hb2;)[Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->keys(Lcom/huawei/appmarket/kb2;)[Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public set(Lcom/huawei/appmarket/hb2;Ljava/lang/String;Ljava/lang/Object;)V
+.method public set(Lcom/huawei/appmarket/kb2;Ljava/lang/String;Ljava/lang/Object;)V
     .registers 5
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/na2;
+    instance-of v0, p1, Lcom/huawei/appmarket/qa2;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/na2;
+    check-cast p1, Lcom/huawei/appmarket/qa2;
 
     invoke-static {p2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p1, p2, p3}, Lcom/huawei/appmarket/na2;->set(ILjava/lang/Object;)V
+    invoke-interface {p1, p2, p3}, Lcom/huawei/appmarket/qa2;->set(ILjava/lang/Object;)V
 
     :cond_0
     return-void
@@ -214,7 +214,7 @@
     .registers 4
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/v91;->b(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/w91;->b(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -223,18 +223,18 @@
     .registers 4
 
     .line 3
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->set(Lcom/huawei/appmarket/hb2;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->set(Lcom/huawei/appmarket/kb2;Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public size(Lcom/huawei/appmarket/hb2;)I
+.method public size(Lcom/huawei/appmarket/kb2;)I
     .registers 2
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/hb2;->size()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/kb2;->size()I
 
     move-result p1
 
@@ -245,9 +245,9 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->size(Lcom/huawei/appmarket/hb2;)I
+    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->size(Lcom/huawei/appmarket/kb2;)I
 
     move-result p1
 
@@ -258,7 +258,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/w91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -269,7 +269,7 @@
     .registers 4
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/v91;->d(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;II)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/w91;->d(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;II)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -280,14 +280,14 @@
     .registers 7
 
     .line 1
-    invoke-static/range {p0 .. p6}, Lcom/huawei/appmarket/v91;->e(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/String;ILjava/lang/Object;II[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static/range {p0 .. p6}, Lcom/huawei/appmarket/w91;->e(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/String;ILjava/lang/Object;II[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public stringify(Lcom/huawei/appmarket/hb2;)Ljava/lang/String;
+.method public stringify(Lcom/huawei/appmarket/kb2;)Ljava/lang/String;
     .registers 5
 
     .line 1
@@ -302,19 +302,19 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-interface {p1}, Lcom/huawei/appmarket/hb2;->size()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/kb2;->size()I
 
     move-result v2
 
     if-ge v1, v2, :cond_1
 
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/hb2;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/kb2;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/v91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/w91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hb2;->size()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/kb2;->size()I
 
     move-result v2
 
@@ -347,9 +347,9 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/hb2;
+    check-cast p1, Lcom/huawei/appmarket/kb2;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->stringify(Lcom/huawei/appmarket/hb2;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/huawei/quickcard/flexiblelayoutadapter/FlexibleLayoutDataArrWrapper;->stringify(Lcom/huawei/appmarket/kb2;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -360,7 +360,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/v91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/w91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

@@ -1,69 +1,123 @@
-.class public final synthetic Lcom/huawei/appmarket/t97;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/t97;
+.super Lcom/huawei/appmarket/x1;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/View$OnClickListener;
 
-
-# instance fields
-.field public final synthetic b:I
-
-.field public final synthetic c:Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/x1<",
+        "Ljava/lang/Boolean;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;I)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/x1;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final k(Landroid/content/Context;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    check-cast p2, Ljava/lang/Boolean;
 
     .line 2
     .line 3
+    if-eqz p2, :cond_0
+
     .line 4
-    iput p2, p0, Lcom/huawei/appmarket/t97;->b:I
-
     .line 5
-    .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/t97;->c:Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
+    .line 6
     .line 7
     .line 8
-    return-void
+    move-result p1
+
     .line 9
+    if-eqz p1, :cond_0
+
     .line 10
     .line 11
+    const-string p1, "ServiceUsageReportTask"
+
     .line 12
     .line 13
+    const-string p2, "start report service usage."
+
     .line 14
     .line 15
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 16
     .line 17
     .line 18
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
+
     .line 19
     .line 20
     .line 21
+    move-result-object p1
+
     .line 22
+    const-string p2, "service_usage_report_task_last_run_time"
+
     .line 23
     .line 24
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
     .line 25
     .line 26
     .line 27
+    move-result-wide v0
+
     .line 28
+    invoke-virtual {p1, p2, v0, v1}, Lcom/huawei/appmarket/j50;->l(Ljava/lang/String;J)V
+
     .line 29
     .line 30
     .line 31
+    const/4 p1, 0x0
+
     .line 32
+    const/4 p2, 0x0
+
     .line 33
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/v97;->b(Ljava/lang/String;Z)V
+
     .line 34
     .line 35
     .line 36
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
     .line 37
     .line 38
+    goto :goto_0
+
     .line 39
+    :cond_0
+    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
     .line 40
     .line 41
+    :goto_0
+    return-object p1
     .line 42
     .line 43
     .line 44
@@ -197,213 +251,220 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-
-# virtual methods
-.method public final onClick(Landroid/view/View;)V
-    .registers 6
+.method protected final s()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    iget p1, p0, Lcom/huawei/appmarket/t97;->b:I
+    const-string v0, "ServiceUsageReportTask"
+
+    return-object v0
+.end method
+
+.method protected final bridge synthetic t(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    check-cast p2, Ljava/lang/Boolean;
+
+    check-cast p3, Ljava/lang/Boolean;
+
+    return-void
+.end method
+
+.method protected final u(Landroid/content/Context;)Ljava/lang/Object;
+    .registers 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    const-string p1, "DeviceKit"
 
     .line 2
     .line 3
-    const-string v0, "1"
+    const-class v0, Lcom/huawei/appmarket/es3;
 
     .line 4
     .line 5
-    const-string v1, "ServiceZoneChangeBackFragment"
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
-    iget-object v2, p0, Lcom/huawei/appmarket/t97;->c:Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;
-
     .line 8
+    move-result-object p1
+
     .line 9
-    packed-switch p1, :pswitch_data_0
+    check-cast p1, Lcom/huawei/appmarket/es3;
 
     .line 10
     .line 11
-    .line 12
-    sget p1, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;->o0:I
+    invoke-interface {p1}, Lcom/huawei/appmarket/es3;->f()Z
 
+    .line 12
     .line 13
     .line 14
-    invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
+    move-result p1
 
     .line 15
+    if-nez p1, :cond_0
+
     .line 16
     .line 17
-    move-result-object p1
+    goto :goto_0
 
     .line 18
-    if-eqz p1, :cond_0
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/hd5;->a()Lcom/huawei/appmarket/hd5;
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
-
     .line 21
+    move-result-object p1
+
     .line 22
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hd5;->b()Z
+
     .line 23
-    move-result v3
-
     .line 24
-    if-nez v3, :cond_0
-
     .line 25
+    move-result p1
+
     .line 26
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    if-nez p1, :cond_1
 
     .line 27
     .line 28
+    goto :goto_0
+
     .line 29
-    move-result-object v2
+    :cond_1
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 30
-    check-cast v2, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragmentProtocol;
-
     .line 31
     .line 32
-    invoke-virtual {v2}, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragmentProtocol;->b()Ljava/lang/String;
+    move-result p1
 
     .line 33
+    if-nez p1, :cond_2
+
     .line 34
     .line 35
-    move-result-object v2
+    :goto_0
+    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 36
-    const-string v3, "cancel finish targetServiceZone:"
-
     .line 37
+    goto :goto_2
+
     .line 38
-    invoke-static {v3, v2, v1}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    :cond_2
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 39
     .line 40
     .line 41
-    const-string v1, "2"
+    move-result-object p1
 
     .line 42
-    .line 43
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/aa7;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    const-string v0, "service_usage_report_task_last_run_time"
 
+    .line 43
     .line 44
+    const-wide/16 v1, 0x0
+
     .line 45
     .line 46
-    invoke-virtual {p1}, Landroid/app/Activity;->finish()V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/huawei/appmarket/j50;->f(Ljava/lang/String;J)J
 
     .line 47
     .line 48
     .line 49
-    :cond_0
-    return-void
+    move-result-wide v0
 
     .line 50
-    :pswitch_0
-    sget p1, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragment;->o0:I
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 51
     .line 52
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
-
     .line 53
+    move-result-wide v2
+
     .line 54
+    sub-long/2addr v2, v0
+
     .line 55
-    move-result-object p1
+    const-wide/32 v0, 0x1499700
 
     .line 56
-    if-nez p1, :cond_1
-
     .line 57
     .line 58
-    const-string p1, "protocol is null"
+    cmp-long p1, v2, v0
 
     .line 59
     .line 60
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    if-ltz p1, :cond_3
 
     .line 61
     .line 62
+    const/4 p1, 0x1
+
     .line 63
-    goto :goto_0
+    goto :goto_1
 
     .line 64
-    :cond_1
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    :cond_3
+    const/4 p1, 0x0
 
     .line 65
+    :goto_1
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
     .line 66
     .line 67
+    .line 68
     move-result-object p1
 
-    .line 68
-    check-cast p1, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragmentProtocol;
-
     .line 69
+    :goto_2
+    return-object p1
     .line 70
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/globe/extendzoneapp/ServiceZoneChangeBackFragmentProtocol;->b()Ljava/lang/String;
-
     .line 71
     .line 72
     .line 73
-    move-result-object p1
-
     .line 74
-    const-string v3, "checkPassword targetServiceZone:"
-
     .line 75
     .line 76
-    invoke-static {v3, p1, v1}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
     .line 77
     .line 78
     .line 79
-    invoke-static {p1, v0, v0}, Lcom/huawei/appmarket/aa7;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
     .line 80
     .line 81
     .line 82
-    invoke-static {}, Lcom/huawei/appmarket/service/globe/extendzoneapp/a;->f()Lcom/huawei/appmarket/service/globe/extendzoneapp/a;
-
     .line 83
     .line 84
     .line 85
-    move-result-object v0
-
     .line 86
-    invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
-
     .line 87
     .line 88
     .line 89
-    move-result-object v1
-
     .line 90
-    const/4 v2, 0x0
-
     .line 91
-    const/4 v3, 0x1
-
     .line 92
-    invoke-virtual {v0, v1, p1, v2, v3}, Lcom/huawei/appmarket/service/globe/extendzoneapp/a;->e(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Ljava/lang/String;Z)V
-
     .line 93
     .line 94
     .line 95
-    :goto_0
-    return-void
-
     .line 96
-    nop
-
     .line 97
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
     .line 98
     .line 99
     .line 100
@@ -421,5 +482,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

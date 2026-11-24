@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Lcom/huawei/appmarket/tn5;
+    value = Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Lcom/huawei/appmarket/un5;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 4
 
     .line 1
@@ -50,7 +50,7 @@
 
     iget-object p2, p0, Landroidx/activity/ComponentActivity$f;->b:Landroidx/activity/ComponentActivity;
 
-    invoke-static {p2}, Landroidx/activity/ComponentActivity;->access$100(Landroidx/activity/ComponentActivity;)Lcom/huawei/appmarket/tn5;
+    invoke-static {p2}, Landroidx/activity/ComponentActivity;->access$100(Landroidx/activity/ComponentActivity;)Lcom/huawei/appmarket/un5;
 
     move-result-object p2
 
@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/tn5;->k(Landroid/window/OnBackInvokedDispatcher;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/un5;->k(Landroid/window/OnBackInvokedDispatcher;)V
 
     :cond_0
     return-void

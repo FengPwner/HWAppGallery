@@ -29,7 +29,7 @@
 .end field
 
 .field private inAppDatas_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -96,7 +96,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/bean/ClientOrderCallBackRequest;->inAppDataList:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -104,11 +104,11 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v2, "inAppDataList isEmpty"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -153,17 +153,17 @@
     goto :goto_0
 
     :catch_0
-    sget-object v3, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v3, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v4, "IllegalAccessException"
 
     :goto_1
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :catch_1
-    sget-object v3, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v3, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v4, "JSONException"
 

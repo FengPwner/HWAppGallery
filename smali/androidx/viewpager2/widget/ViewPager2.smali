@@ -543,15 +543,15 @@
 
     if-eqz v2, :cond_3
 
-    instance-of v3, v0, Lcom/huawei/appmarket/fm7;
+    instance-of v3, v0, Lcom/huawei/appmarket/lm7;
 
     if-eqz v3, :cond_2
 
     move-object v3, v0
 
-    check-cast v3, Lcom/huawei/appmarket/fm7;
+    check-cast v3, Lcom/huawei/appmarket/lm7;
 
-    invoke-interface {v3, v2}, Lcom/huawei/appmarket/fm7;->e(Landroid/os/Parcelable;)V
+    invoke-interface {v3, v2}, Lcom/huawei/appmarket/lm7;->e(Landroid/os/Parcelable;)V
 
     :cond_2
     const/4 v2, 0x0
@@ -596,7 +596,7 @@
     .registers 10
 
     .line 2
-    sget-object v2, Lcom/huawei/appmarket/fe6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/he6;->a:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -612,7 +612,7 @@
 
     move-object v4, v6
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     const/4 p1, 0x0
 
@@ -1273,13 +1273,13 @@
 
     move-result-object v0
 
-    instance-of v2, v0, Lcom/huawei/appmarket/fm7;
+    instance-of v2, v0, Lcom/huawei/appmarket/lm7;
 
     if-eqz v2, :cond_2
 
-    check-cast v0, Lcom/huawei/appmarket/fm7;
+    check-cast v0, Lcom/huawei/appmarket/lm7;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/fm7;->b()Landroid/os/Bundle;
+    invoke-interface {v0}, Lcom/huawei/appmarket/lm7;->b()Landroid/os/Bundle;
 
     move-result-object v0
 

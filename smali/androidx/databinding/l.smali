@@ -59,7 +59,7 @@
 
 .field private l:Landroidx/databinding/l;
 
-.field private m:Lcom/huawei/appmarket/du4;
+.field private m:Lcom/huawei/appmarket/gu4;
 
 .field private n:Landroidx/databinding/l$k;
 
@@ -445,6 +445,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method static synthetic l(Landroidx/databinding/l;)Landroid/view/View;
@@ -532,7 +533,7 @@
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/jm7;->a(ILandroid/content/Context;)I
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/pm7;->a(ILandroid/content/Context;)I
 
     move-result p0
 
@@ -1233,7 +1234,7 @@
     const/4 v11, 0x0
 
     .line 305
-    invoke-static {v10, v12, v11}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v10, v12, v11}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 306
     .line 307
@@ -1368,7 +1369,7 @@
     const/4 v8, 0x1
 
     .line 369
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/vw7;->c(Ljava/lang/String;I)C
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/ci7;->c(Ljava/lang/String;I)C
 
     .line 370
     .line 371
@@ -2376,11 +2377,11 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/gu4;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 
@@ -2467,7 +2468,7 @@
     return-void
 .end method
 
-.method public K(Lcom/huawei/appmarket/du4;)V
+.method public K(Lcom/huawei/appmarket/gu4;)V
     .registers 6
 
     .line 1
@@ -2482,7 +2483,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
-    iget-object v0, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/gu4;
 
     if-ne v0, p1, :cond_1
 
@@ -2491,16 +2492,16 @@
     :cond_1
     if-eqz v0, :cond_2
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 
     iget-object v1, p0, Landroidx/databinding/l;->n:Landroidx/databinding/l$k;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     :cond_2
-    iput-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/gu4;
 
     if-eqz p1, :cond_4
 
@@ -2517,13 +2518,13 @@
     iput-object v0, p0, Landroidx/databinding/l;->n:Landroidx/databinding/l$k;
 
     :cond_3
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v0
 
     iget-object v1, p0, Landroidx/databinding/l;->n:Landroidx/databinding/l$k;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_4
     iget-object v0, p0, Landroidx/databinding/l;->e:[Landroidx/databinding/m;
@@ -2539,7 +2540,7 @@
 
     if-eqz v3, :cond_5
 
-    invoke-virtual {v3, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v3, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/gu4;)V
 
     :cond_5
     add-int/lit8 v2, v2, 0x1
@@ -2553,7 +2554,7 @@
 .method public abstract L(Lcom/huawei/appmarket/ae;)Z
 .end method
 
-.method protected final M(ILcom/huawei/appmarket/zd5;)V
+.method protected final M(ILcom/huawei/appmarket/ce5;)V
     .registers 5
 
     .line 1
@@ -2664,7 +2665,7 @@
 
     .line 31
     .line 32
-    iget-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/gu4;
 
     .line 33
     .line 34
@@ -2672,7 +2673,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v2, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v2, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/gu4;)V
 
     .line 37
     .line 38
@@ -2745,7 +2746,7 @@
 
     .line 70
     .line 71
-    iget-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Landroidx/databinding/l;->m:Lcom/huawei/appmarket/gu4;
 
     .line 72
     .line 73
@@ -2753,7 +2754,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v1, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v1, p1}, Landroidx/databinding/m;->b(Lcom/huawei/appmarket/gu4;)V
 
     .line 76
     .line 77
@@ -2967,6 +2968,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected abstract n()V

@@ -16,11 +16,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     return-void
 .end method
@@ -28,7 +28,7 @@
 .method private dispatchOpenGiftSelectDialog()V
     .registers 7
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v1, v0, Landroid/app/Activity;
 
@@ -38,11 +38,11 @@
 
     const-string v1, "callback is not activity, finish"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     goto :goto_0
 
@@ -73,7 +73,7 @@
 
     const-string v4, "service_type"
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v5
 
@@ -85,7 +85,7 @@
 
     invoke-direct {v4, v0}, Lcom/huawei/gamebox/plugin/gameservice/action/OpenRoleSelectDialogAction$RoleSelectDialogDismissListener;-><init>(Landroid/app/Activity;)V
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/yz2;->c(Landroid/app/Activity;Ljava/util/ArrayList;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;ILandroid/content/DialogInterface$OnDismissListener;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/b03;->c(Landroid/app/Activity;Ljava/util/ArrayList;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;ILandroid/content/DialogInterface$OnDismissListener;)V
 
     :goto_0
     return-void

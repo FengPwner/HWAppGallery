@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/user/usercenter/widget/a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/a;->b:Lcom/huawei/appgallery/forum/user/usercenter/widget/CommentReferenceUserView;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -23,7 +23,7 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 6
 
-    invoke-static {}, Lcom/huawei/appmarket/td8;->a()Lcom/huawei/appmarket/td8;
+    invoke-static {}, Lcom/huawei/appmarket/yd8;->a()Lcom/huawei/appmarket/yd8;
 
     move-result-object p1
 
@@ -47,7 +47,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/td8;->d(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/yd8;->d(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
 .end method

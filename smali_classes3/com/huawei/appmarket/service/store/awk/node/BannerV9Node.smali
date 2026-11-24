@@ -6,14 +6,14 @@
 # instance fields
 .field private n:Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;
 
-.field private o:Lcom/huawei/appmarket/du4;
+.field private o:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
@@ -76,9 +76,9 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->n:Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->o:Lcom/huawei/appmarket/du4;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->o:Lcom/huawei/appmarket/gu4;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->n:Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;
 
@@ -99,18 +99,18 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->o:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerV9Node;->o:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

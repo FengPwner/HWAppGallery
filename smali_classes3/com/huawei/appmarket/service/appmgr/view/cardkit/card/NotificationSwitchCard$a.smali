@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rs7;
+.implements Lcom/huawei/appmarket/xs7;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -90,7 +90,7 @@
 
     .line 28
     .line 29
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 30
     .line 31
@@ -242,7 +242,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -292,7 +292,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0}, Lcom/huawei/appmarket/uj5;->b(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wj5;->b(Landroid/content/Context;)V
 
     .line 32
     .line 33
@@ -336,7 +336,7 @@
 
     .line 54
     .line 55
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 56
     .line 57
@@ -459,13 +459,13 @@
 
     const-string v1, "reject notification switch"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "0"
 
     const-string v1, "2"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/sj5;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uj5;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -478,13 +478,13 @@
 
     const-string v1, "allow notification switch"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "1"
 
     const-string v1, "2"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/sj5;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uj5;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard$a;->a:Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;
 

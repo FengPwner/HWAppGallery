@@ -72,7 +72,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 11
     .line 12
@@ -120,7 +120,7 @@
     move-result-object v0
 
     .line 33
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 34
     .line 35
@@ -154,7 +154,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -192,7 +192,7 @@
     .line 71
     .line 72
     .line 73
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     .line 74
     .line 75
@@ -200,12 +200,12 @@
 
     .line 76
     .line 77
-    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 78
     .line 79
     .line 80
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 81
     .line 82
@@ -238,7 +238,7 @@
     move-result-object v1
 
     .line 94
-    invoke-static {}, Lcom/huawei/appmarket/wz7;->b()Lcom/huawei/appmarket/wz7;
+    invoke-static {}, Lcom/huawei/appmarket/b08;->b()Lcom/huawei/appmarket/b08;
 
     .line 95
     .line 96
@@ -246,7 +246,7 @@
     move-result-object v2
 
     .line 98
-    invoke-virtual {v1, v2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 99
     .line 100
@@ -305,7 +305,7 @@
     .line 127
     .line 128
     .line 129
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 130
     .line 131
@@ -471,7 +471,7 @@
 
     const-string v0, "other|update_personal_info"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/uz5;->d(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/wz5;->d(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

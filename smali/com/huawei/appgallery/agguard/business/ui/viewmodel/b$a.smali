@@ -24,7 +24,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     iput p1, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b$a;->a:I
 
@@ -99,7 +99,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -227,4 +227,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

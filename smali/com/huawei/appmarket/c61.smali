@@ -115,7 +115,7 @@
     .line 12
     .line 13
     .line 14
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 15
     .line 16
@@ -1072,7 +1072,7 @@
 
     .line 2
     :goto_0
-    invoke-static {v3}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v3}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     :goto_1
     instance-of v3, v1, Landroid/text/Spanned;
@@ -1800,7 +1800,7 @@
     move-result v1
 
     .line 157
-    invoke-static {v1}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v1}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     .line 158
     .line 159

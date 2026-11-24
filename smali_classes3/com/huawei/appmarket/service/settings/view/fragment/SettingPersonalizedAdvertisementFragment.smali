@@ -20,7 +20,7 @@
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/eb7;->b()Lcom/huawei/appmarket/eb7;
+    invoke-static {}, Lcom/huawei/appmarket/jb7;->b()Lcom/huawei/appmarket/jb7;
 
     move-result-object v0
 
@@ -28,7 +28,7 @@
 
     const v0, 0x7f110016
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/eb7;->a(ILandroid/content/Context;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jb7;->a(ILandroid/content/Context;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
     move-result-object p1
 
@@ -75,13 +75,13 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/us7;->c()Lcom/huawei/appmarket/us7;
+    invoke-static {}, Lcom/huawei/appmarket/at7;->c()Lcom/huawei/appmarket/at7;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/us7;->d()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/at7;->d()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const/4 p2, 0x1
 

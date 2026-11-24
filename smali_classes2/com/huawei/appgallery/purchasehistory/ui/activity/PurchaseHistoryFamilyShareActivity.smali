@@ -94,7 +94,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 36
     .line 37
@@ -112,12 +112,12 @@
     move-result-object p1
 
     .line 45
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 46
     .line 47
     .line 48
-    const v0, 0x7f0a1891
+    const v0, 0x7f0a1892
 
     .line 49
     .line 50
@@ -152,7 +152,7 @@
     move-result-object v0
 
     .line 67
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 68
     .line 69
@@ -165,7 +165,7 @@
     move-result-object v0
 
     .line 74
-    const v1, 0x7f0a1609
+    const v1, 0x7f0a160a
 
     .line 75
     .line 76
@@ -252,7 +252,7 @@
 
     .line 118
     .line 119
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 120
     .line 121
@@ -312,11 +312,11 @@
     .line 148
     .line 149
     .line 150
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 151
     .line 152
-    invoke-virtual {p1}, Lcom/huawei/appgallery/purchasehistory/ui/protocol/PurchaseHistoryFamilyShareProtocol;->a()Lcom/huawei/appmarket/pr2;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/purchasehistory/ui/protocol/PurchaseHistoryFamilyShareProtocol;->a()Lcom/huawei/appmarket/rr2;
 
     .line 153
     .line 154
@@ -324,12 +324,12 @@
     move-result-object p1
 
     .line 156
-    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/cn5;-><init>(Lcom/huawei/appmarket/dq7;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/dn5;-><init>(Lcom/huawei/appmarket/jq7;Lcom/huawei/appmarket/b96;)V
 
     .line 157
     .line 158
     .line 159
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 160
     .line 161
@@ -379,7 +379,7 @@
 
     .line 184
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object p1, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     .line 185
     .line 186
@@ -391,7 +391,7 @@
 
     .line 189
     .line 190
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 191
     .line 192

@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/r99;
+.field private a:Lcom/huawei/appmarket/x99;
 
-.field private b:Lcom/huawei/appmarket/rc9;
+.field private b:Lcom/huawei/appmarket/yc9;
 
 .field private c:I
 
@@ -75,7 +75,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/r99;Lcom/huawei/appmarket/rc9;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/huawei/appmarket/x99;Lcom/huawei/appmarket/yc9;Ljava/lang/String;)V
     .registers 5
 
     .line 2
@@ -93,9 +93,9 @@
 
     iput-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->l:Ljava/lang/String;
 
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->a:Lcom/huawei/appmarket/r99;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->a:Lcom/huawei/appmarket/x99;
 
-    iput-object p2, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->b:Lcom/huawei/appmarket/rc9;
+    iput-object p2, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->b:Lcom/huawei/appmarket/yc9;
 
     iput-object p3, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->e:Ljava/lang/String;
 
@@ -352,11 +352,11 @@
 .method public isRoot()Z
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->b:Lcom/huawei/appmarket/rc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->b:Lcom/huawei/appmarket/yc9;
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->a:Lcom/huawei/appmarket/r99;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalData;->a:Lcom/huawei/appmarket/x99;
 
     if-nez v0, :cond_0
 

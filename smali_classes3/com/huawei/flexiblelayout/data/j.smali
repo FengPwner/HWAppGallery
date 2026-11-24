@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/k76;
+.implements Lcom/huawei/appmarket/m76;
 
 
 # direct methods
@@ -50,11 +50,11 @@
     return-object p0
 .end method
 
-.method protected static g(Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/s59;)V
+.method protected static g(Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/y59;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/b;->a(Lcom/huawei/appmarket/jg0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/b;->a(Lcom/huawei/appmarket/kg0;)V
 
     return-void
 .end method
@@ -68,11 +68,11 @@
     return-void
 .end method
 
-.method protected static i(Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/vv7;)V
+.method protected static i(Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/bw7;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/FLNodeData;->a(Lcom/huawei/appmarket/vv7;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/FLNodeData;->a(Lcom/huawei/appmarket/bw7;)V
 
     return-void
 .end method

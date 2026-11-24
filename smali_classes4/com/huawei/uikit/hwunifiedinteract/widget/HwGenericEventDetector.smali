@@ -71,13 +71,13 @@
 
     if-lt v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/e53;->a(Landroid/view/ViewConfiguration;)F
+    invoke-static {v0}, Lcom/huawei/appmarket/h53;->a(Landroid/view/ViewConfiguration;)F
 
     move-result p1
 
     iput p1, p0, Lcom/huawei/uikit/hwunifiedinteract/widget/HwGenericEventDetector;->f:F
 
-    invoke-static {v0}, Lcom/huawei/appmarket/e53;->A(Landroid/view/ViewConfiguration;)F
+    invoke-static {v0}, Lcom/huawei/appmarket/h53;->A(Landroid/view/ViewConfiguration;)F
 
     move-result p1
 
@@ -414,23 +414,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final c(Landroid/view/MotionEvent;)Z
@@ -565,11 +548,11 @@
 
     .line 58
     .line 59
-    check-cast v5, Lcom/huawei/appmarket/q29;
+    check-cast v5, Lcom/huawei/appmarket/w29;
 
     .line 60
     .line 61
-    iget-object v5, v5, Lcom/huawei/appmarket/q29;->c:Ljava/lang/Object;
+    iget-object v5, v5, Lcom/huawei/appmarket/w29;->c:Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -790,26 +773,9 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
-.method public final d(Lcom/huawei/appmarket/q29;)V
+.method public final d(Lcom/huawei/appmarket/w29;)V
     .registers 2
 
     .line 1

@@ -99,7 +99,7 @@
     return p1
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -167,7 +167,7 @@
     move-result-object v1
 
     .line 31
-    new-instance v2, Lcom/huawei/appmarket/tf7;
+    new-instance v2, Lcom/huawei/appmarket/yf7;
 
     .line 32
     .line 33
@@ -180,7 +180,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 39
     .line 40
@@ -259,5 +259,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

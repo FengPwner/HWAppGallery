@@ -789,7 +789,7 @@
     const-string p2, "Can\'t find a symbol arrangement that matches the message. Data codewords: "
 
     .line 3
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

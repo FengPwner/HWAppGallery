@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/b04;
+.implements Lcom/huawei/appmarket/d04;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final F1()V
+.method public final G1()V
     .registers 3
 
     .line 1

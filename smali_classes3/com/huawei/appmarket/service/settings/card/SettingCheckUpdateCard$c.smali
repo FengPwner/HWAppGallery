@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 3
 
     .line 1
@@ -45,7 +45,7 @@
 
     if-ne p2, p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/xa8;->d()Lcom/huawei/appmarket/xa8;
+    invoke-static {}, Lcom/huawei/appmarket/cb8;->d()Lcom/huawei/appmarket/cb8;
 
     move-result-object p1
 

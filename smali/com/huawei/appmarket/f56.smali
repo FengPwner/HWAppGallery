@@ -1,141 +1,259 @@
-.class public final Lcom/huawei/appmarket/f56;
+.class public final synthetic Lcom/huawei/appmarket/f56;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method private constructor <init>()V
+.method public static bridge synthetic a(Landroid/graphics/Typeface;)I
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-virtual {p0}, Landroid/graphics/Typeface;->getWeight()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic b(Landroid/text/PrecomputedText$Params;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getBreakStrategy()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic c(Landroid/view/DisplayCutout;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetTop()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic d(Landroid/graphics/Picture;)Landroid/graphics/Bitmap;
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Landroid/graphics/Bitmap;->createBitmap(Landroid/graphics/Picture;)Landroid/graphics/Bitmap;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic f(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setBreakStrategy(I)Landroid/text/PrecomputedText$Params$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic g(Landroid/text/PrecomputedText$Params$Builder;Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic h(Landroid/text/TextPaint;)Landroid/text/PrecomputedText$Params$Builder;
+    .registers 2
+
+    .line 1
+    new-instance v0, Landroid/text/PrecomputedText$Params$Builder;
+
+    invoke-direct {v0, p0}, Landroid/text/PrecomputedText$Params$Builder;-><init>(Landroid/text/TextPaint;)V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic i(Landroid/text/Spannable;)Landroid/text/PrecomputedText;
+    .registers 1
+
+    .line 1
+    check-cast p0, Landroid/text/PrecomputedText;
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic j(Landroid/text/PrecomputedText$Params;)Landroid/text/TextDirectionHeuristic;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getTextDirection()Landroid/text/TextDirectionHeuristic;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic k(Landroid/text/PrecomputedText$Params;)Landroid/text/TextPaint;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getTextPaint()Landroid/text/TextPaint;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic l(Landroid/view/WindowInsets;)Landroid/view/DisplayCutout;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/WindowInsets;->getDisplayCutout()Landroid/view/DisplayCutout;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic m(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/WindowInsets;->consumeDisplayCutout()Landroid/view/WindowInsets;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic n(Ljava/lang/reflect/Type;)Ljava/lang/String;
+    .registers 1
+
+    .line 1
+    invoke-interface {p0}, Ljava/lang/reflect/Type;->getTypeName()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic o(Landroid/view/DisplayCutout;)Ljava/util/List;
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getBoundingRects()Ljava/util/List;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic p(Landroid/text/PrecomputedText$Params$Builder;)V
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params$Builder;->build()Landroid/text/PrecomputedText$Params;
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;Z)V
+.method public static bridge synthetic q(Landroid/text/PrecomputedText;Ljava/lang/Object;)V
     .registers 2
 
     .line 1
-    if-eqz p1, :cond_0
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;->removeSpan(Ljava/lang/Object;)V
 
     return-void
-
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
-
-    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p1
 .end method
 
-.method public static b(Ljava/lang/Object;)V
+.method public static bridge synthetic r(Landroid/text/PrecomputedText;Ljava/lang/Object;III)V
+    .registers 5
+
+    .line 1
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/text/PrecomputedText;->setSpan(Ljava/lang/Object;III)V
+
+    return-void
+.end method
+
+.method public static bridge synthetic s(Landroid/widget/TextView;)V
     .registers 2
 
     .line 1
-    if-eqz p0, :cond_0
+    const/4 v0, 0x1
 
-    .line 2
-    .line 3
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setAccessibilityHeading(Z)V
+
     return-void
+.end method
 
-    .line 4
-    :cond_0
-    new-instance p0, Ljava/lang/NullPointerException;
+.method public static bridge synthetic t(Ljava/lang/String;)V
+    .registers 1
 
-    .line 5
-    .line 6
-    const-string v0, "Argument must not be null"
+    .line 1
+    invoke-static {p0}, Landroid/webkit/WebView;->setDataDirectorySuffix(Ljava/lang/String;)V
 
-    .line 7
-    .line 8
-    invoke-direct {p0, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    return-void
+.end method
 
-    .line 9
-    .line 10
-    .line 11
-    throw p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+.method public static bridge synthetic u(Landroid/text/PrecomputedText;IILjava/lang/Class;)[Ljava/lang/Object;
+    .registers 4
+
+    .line 1
+    invoke-virtual {p0, p1, p2, p3}, Landroid/text/PrecomputedText;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic v(Landroid/text/PrecomputedText$Params;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getHyphenationFrequency()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic w(Landroid/view/DisplayCutout;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetBottom()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic x(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setHyphenationFrequency(I)Landroid/text/PrecomputedText$Params$Builder;
+
+    move-result-object p0
+
+    return-object p0
 .end method

@@ -82,7 +82,7 @@
 
     iget v1, p0, Lcom/huawei/uikit/hwedittext/widget/HwErrorTipTextLayout;->b:I
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     new-instance v0, Landroid/widget/RelativeLayout$LayoutParams;
 

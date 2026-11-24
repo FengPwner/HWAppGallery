@@ -223,7 +223,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 8
     .line 9
@@ -243,7 +243,7 @@
     const/4 v3, 0x2
 
     .line 17
-    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 18
     .line 19
@@ -418,7 +418,7 @@
     return-void
 .end method
 
-.method public setData(Lcom/huawei/appmarket/i95;)V
+.method public setData(Lcom/huawei/appmarket/l95;)V
     .registers 8
 
     .line 1
@@ -430,7 +430,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 6
     .line 7
@@ -438,7 +438,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -451,7 +451,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->b()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -490,7 +490,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->c()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->c()Z
 
     .line 34
     .line 35
@@ -533,7 +533,7 @@
 
     .line 54
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->d()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->d()Z
 
     .line 55
     .line 56
@@ -593,7 +593,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->b()Ljava/lang/String;
 
     .line 84
     .line 85
@@ -605,7 +605,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->b()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -625,7 +625,7 @@
 
     .line 98
     .line 99
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 100
     .line 101
@@ -633,13 +633,13 @@
 
     .line 102
     .line 103
-    invoke-virtual {v1, v0, v5}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v5}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
     .line 106
     :cond_5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/i95;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/l95;->a()Ljava/lang/String;
 
     .line 107
     .line 108
@@ -928,8 +928,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setMaxWidth(I)V
@@ -1455,8 +1453,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setNickName(Ljava/lang/String;)V
@@ -1633,7 +1629,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setNickNameTextSizeFix(F)V
@@ -1799,7 +1794,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setShowDuties(Z)V

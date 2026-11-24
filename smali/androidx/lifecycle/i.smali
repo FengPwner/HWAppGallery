@@ -48,7 +48,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Landroidx/lifecycle/i;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -69,7 +69,7 @@
 
     const-string v0, "null cannot be cast to non-null type android.app.Application"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p0, Landroid/app/Application;
 

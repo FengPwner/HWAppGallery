@@ -4,10 +4,10 @@
 
 
 # instance fields
-.field public final a:Lcom/huawei/appmarket/jb4;
+.field public final a:Lcom/huawei/appmarket/lb4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/jb4<",
+            "Lcom/huawei/appmarket/lb4<",
             "Lcom/huawei/appmarket/c61;",
             ">;"
         }
@@ -36,11 +36,11 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {p1}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appmarket/h61;->a:Lcom/huawei/appmarket/jb4;
+    iput-object p1, p0, Lcom/huawei/appmarket/h61;->a:Lcom/huawei/appmarket/lb4;
 
     iput-wide p2, p0, Lcom/huawei/appmarket/h61;->b:J
 

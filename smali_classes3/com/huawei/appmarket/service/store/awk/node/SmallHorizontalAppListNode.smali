@@ -6,7 +6,7 @@
 # instance fields
 .field private p:Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;
 
-.field private q:Lcom/huawei/appmarket/ej4;
+.field private q:Lcom/huawei/appmarket/gj4;
 
 
 # direct methods
@@ -15,7 +15,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -30,11 +30,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->h()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->h()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
 
     move-result-object v0
 
@@ -66,13 +66,13 @@
     return v0
 .end method
 
-.method protected T(Lcom/huawei/appmarket/ej4;)V
+.method protected T(Lcom/huawei/appmarket/gj4;)V
     .registers 6
 
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ej4;->g()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gj4;->g()Landroid/view/View;
 
     move-result-object p1
 
@@ -149,11 +149,11 @@
     .line 1
     const-string v0, "rootLayout"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p2, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -169,7 +169,7 @@
 
     const-string v1, "context"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->U(Landroid/content/Context;)Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;
 
@@ -193,32 +193,32 @@
 
     const-string v2, "null cannot be cast to non-null type android.widget.LinearLayout"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    new-instance v2, Lcom/huawei/appmarket/ej4;
+    new-instance v2, Lcom/huawei/appmarket/gj4;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/ej4;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/gj4;-><init>()V
 
-    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ej4;->i(Landroid/view/View;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/gj4;->i(Landroid/view/View;)V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->T(Lcom/huawei/appmarket/ej4;)V
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->T(Lcom/huawei/appmarket/gj4;)V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ej4;->o(Landroid/view/View;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/gj4;->o(Landroid/view/View;)V
 
     :cond_0
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;->L1(Lcom/huawei/appmarket/ej4;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;->L1(Lcom/huawei/appmarket/gj4;)V
 
     invoke-virtual {v1, v0}, Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
@@ -233,35 +233,35 @@
     return p1
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
     const-string v0, "dataItem"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;->q:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ej4;->p(Lcom/huawei/appgallery/foundation/ui/css/CSSRule;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gj4;->p(Lcom/huawei/appgallery/foundation/ui/css/CSSRule;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 7
 
     .line 1
@@ -269,7 +269,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -334,7 +334,7 @@
 
     .line 31
     .line 32
-    invoke-direct {v3, p1, v2}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v3, p1, v2}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     .line 33
     .line 34
@@ -357,7 +357,7 @@
     .line 43
     .line 44
     :cond_2
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/service/store/awk/card/SmallHorizontalAppListCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 45
     .line 46
@@ -435,7 +435,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;
@@ -470,7 +469,7 @@
 
     .line 10
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v0, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 11
     .line 12

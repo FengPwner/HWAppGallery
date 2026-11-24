@@ -22,7 +22,7 @@
 
     const-string p1, "container is empty"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -213,7 +213,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 69
     .line 70
@@ -311,10 +311,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 6
 
     .line 1
@@ -330,7 +329,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->o()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->o()Z
 
     move-result v1
 
@@ -364,7 +363,7 @@
 
     :cond_1
     :goto_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

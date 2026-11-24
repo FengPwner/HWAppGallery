@@ -30,7 +30,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/h10$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/h10$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -58,23 +58,23 @@
     .line 2
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/xm;->a:Lcom/huawei/appmarket/xm;
+    sget-object v0, Lcom/huawei/appmarket/wm;->a:Lcom/huawei/appmarket/wm;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xm;->d(Landroid/window/BackEvent;)F
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wm;->d(Landroid/window/BackEvent;)F
 
     move-result v1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xm;->e(Landroid/window/BackEvent;)F
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wm;->e(Landroid/window/BackEvent;)F
 
     move-result v2
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xm;->b(Landroid/window/BackEvent;)F
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wm;->b(Landroid/window/BackEvent;)F
 
     move-result v3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xm;->c(Landroid/window/BackEvent;)I
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wm;->c(Landroid/window/BackEvent;)I
 
     move-result p1
 
@@ -173,7 +173,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -271,4 +271,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

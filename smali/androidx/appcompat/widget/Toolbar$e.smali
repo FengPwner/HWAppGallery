@@ -40,9 +40,9 @@
     .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v0, Lcom/huawei/appmarket/a18;
+    new-instance v0, Lcom/huawei/appmarket/f18;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/a18;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/f18;-><init>(Ljava/lang/Runnable;)V
 
     return-object v0
 .end method

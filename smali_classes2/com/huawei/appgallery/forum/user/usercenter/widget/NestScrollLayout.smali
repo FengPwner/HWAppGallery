@@ -220,7 +220,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 5
     .line 6
@@ -228,7 +228,7 @@
     move-result v0
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 9
     .line 10
@@ -2197,11 +2197,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final scrollTo(II)V
@@ -2316,13 +2311,13 @@
     return-void
 .end method
 
-.method public setStateListener(Lcom/huawei/appmarket/z04;)V
+.method public setStateListener(Lcom/huawei/appmarket/b14;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appgallery/forum/user/usercenter/widget/NestScrollLayout$b;
 
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appgallery/forum/user/usercenter/widget/NestScrollLayout$b;-><init>(Lcom/huawei/appmarket/z04;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lcom/huawei/appgallery/forum/user/usercenter/widget/NestScrollLayout$b;-><init>(Lcom/huawei/appmarket/b14;Landroid/view/View;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/NestScrollLayout;->x:Lcom/huawei/appgallery/forum/user/usercenter/widget/NestScrollLayout$b;
 

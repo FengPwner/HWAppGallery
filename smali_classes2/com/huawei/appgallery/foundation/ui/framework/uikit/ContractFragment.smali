@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Landroidx/fragment/app/Fragment;"
     }
@@ -44,12 +44,12 @@
     return-void
 .end method
 
-.method public final e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public final e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -65,21 +65,21 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->e0:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->d0:Landroidx/lifecycle/y;
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->d0:Landroidx/lifecycle/y;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final f3()Lcom/huawei/appmarket/z86;
+.method public final f3()Lcom/huawei/appmarket/b96;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -123,7 +123,7 @@
     move-result-object v4
 
     .line 17
-    invoke-static {v4}, Lcom/huawei/appmarket/tx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-static {v4}, Lcom/huawei/appmarket/wx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -140,7 +140,7 @@
     move-result-object v4
 
     .line 25
-    check-cast v4, Lcom/huawei/appmarket/z86;
+    check-cast v4, Lcom/huawei/appmarket/b96;
     :try_end_0
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -168,7 +168,7 @@
 
     .line 33
     :goto_0
-    sget-object v5, Lcom/huawei/appmarket/ev5;->a:Lcom/huawei/appmarket/ev5;
+    sget-object v5, Lcom/huawei/appmarket/gv5;->a:Lcom/huawei/appmarket/gv5;
 
     .line 34
     .line 35
@@ -203,7 +203,7 @@
     move-result-object v2
 
     .line 51
-    invoke-virtual {v5, v3, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v3, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -212,7 +212,7 @@
 
     .line 55
     :goto_2
-    sget-object v5, Lcom/huawei/appmarket/ev5;->a:Lcom/huawei/appmarket/ev5;
+    sget-object v5, Lcom/huawei/appmarket/gv5;->a:Lcom/huawei/appmarket/gv5;
 
     .line 56
     .line 57
@@ -229,16 +229,16 @@
 
     .line 63
     :goto_3
-    new-instance v2, Lcom/huawei/appmarket/h75;
+    new-instance v2, Lcom/huawei/appmarket/k75;
 
     .line 64
     .line 65
-    invoke-direct {v2}, Lcom/huawei/appmarket/h75;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/k75;-><init>()V
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/h75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/k75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
 
     .line 69
     .line 70

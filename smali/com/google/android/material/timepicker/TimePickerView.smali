@@ -198,7 +198,7 @@
 
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/c;->k(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v1
 
@@ -266,7 +266,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/timepicker/TimePickerView;->u:Lcom/google/android/material/chip/Chip;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     return-void
 .end method
@@ -277,7 +277,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/timepicker/TimePickerView;->v:Lcom/google/android/material/chip/Chip;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     return-void
 .end method
@@ -532,7 +532,7 @@
 
     .line 21
     :goto_1
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ei8;->g0(Landroid/view/View;I)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/ki8;->g0(Landroid/view/View;I)V
 
     .line 22
     .line 23
@@ -570,7 +570,7 @@
 
     .line 38
     :cond_3
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/ei8;->g0(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/ki8;->g0(Landroid/view/View;I)V
 
     .line 39
     .line 40

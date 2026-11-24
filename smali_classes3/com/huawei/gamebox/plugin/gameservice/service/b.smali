@@ -158,7 +158,7 @@
 
     .line 57
     .line 58
-    instance-of v0, p4, Lcom/huawei/appmarket/ck3;
+    instance-of v0, p4, Lcom/huawei/appmarket/ek3;
 
     .line 59
     .line 60
@@ -169,7 +169,7 @@
     move-object v0, p4
 
     .line 63
-    check-cast v0, Lcom/huawei/appmarket/ck3;
+    check-cast v0, Lcom/huawei/appmarket/ek3;
 
     .line 64
     .line 65
@@ -210,7 +210,7 @@
 
     .line 81
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 82
     .line 83
@@ -256,7 +256,7 @@
     move-result-object v2
 
     .line 105
-    invoke-static {p4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -274,7 +274,7 @@
 
     .line 113
     .line 114
-    invoke-virtual {p4, p2, p1, v0}, Lcom/huawei/appmarket/id0;->f(Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+    invoke-virtual {p4, p2, p1, v0}, Lcom/huawei/appmarket/id0;->f(Lcom/huawei/gamebox/plugin/gameservice/service/GameBuoyService;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
 
     .line 115
     .line 116
@@ -288,7 +288,7 @@
 
     .line 119
     .line 120
-    invoke-static {p4, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 121
     .line 122

@@ -59,7 +59,7 @@
 
     if-eq v1, v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->h()Z
 
     move-result v0
 
@@ -92,7 +92,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -370,5 +370,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

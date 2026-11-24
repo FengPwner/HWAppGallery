@@ -1,71 +1,66 @@
-.class public abstract Lcom/huawei/appmarket/i88;
-.super Lcom/huawei/appmarket/g88;
+.class public final Lcom/huawei/appmarket/i88;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/ListIterator;
+.implements Ljava/util/Comparator;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<E:",
+        "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/g88<",
-        "TE;>;",
-        "Ljava/util/ListIterator<",
-        "TE;>;"
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator;"
     }
 .end annotation
 
 
 # direct methods
-.method protected constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/g88;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final add(Ljava/lang/Object;)V
-    .registers 2
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TE;)V"
+            "(TT;TT;)I"
         }
     .end annotation
 
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-
     .line 1
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
+    check-cast p2, Lcom/huawei/appgallery/agguard/business/bean/Permission;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-virtual {p2}, Lcom/huawei/appgallery/agguard/business/bean/Permission;->T()F
 
-    throw p1
-.end method
+    move-result p2
 
-.method public final set(Ljava/lang/Object;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;)V"
-        }
-    .end annotation
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
+    move-result-object p2
 
-    .line 1
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
+    check-cast p1, Lcom/huawei/appgallery/agguard/business/bean/Permission;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agguard/business/bean/Permission;->T()F
 
-    throw p1
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/vx0;->a(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+
+    move-result p1
+
+    return p1
 .end method

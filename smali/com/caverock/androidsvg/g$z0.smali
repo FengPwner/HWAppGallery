@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final d()Lcom/caverock/androidsvg/g$b1;
+.method public final c()Lcom/caverock/androidsvg/g$b1;
     .registers 2
 
     .line 1
@@ -45,7 +45,7 @@
     return-object v0
 .end method
 
-.method final o()Ljava/lang/String;
+.method final n()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -54,7 +54,7 @@
     return-object v0
 .end method
 
-.method public final p(Lcom/caverock/androidsvg/g$b1;)V
+.method public final o(Lcom/caverock/androidsvg/g$b1;)V
     .registers 2
 
     .line 1

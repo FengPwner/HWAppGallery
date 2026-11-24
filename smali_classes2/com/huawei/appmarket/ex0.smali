@@ -36,7 +36,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 12
     .line 13
@@ -216,7 +216,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/na3;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->i()Z
 
     .line 12
     .line 13

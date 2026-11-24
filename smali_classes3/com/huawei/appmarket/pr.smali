@@ -1,201 +1,97 @@
-.class public final Lcom/huawei/appmarket/pr;
-.super Lcom/huawei/appmarket/kr2;
+.class public final synthetic Lcom/huawei/appmarket/pr;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field private n:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/fu7;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public final synthetic b:I
 
-.field private o:Landroidx/fragment/app/FragmentManager;
+.field public final synthetic c:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/List;Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/h;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/fu7;",
-            ">;",
-            "Landroidx/fragment/app/FragmentManager;",
-            "Landroidx/lifecycle/h;",
-            ")V"
-        }
-    .end annotation
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/kr2;-><init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/h;)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/pr;->n:Ljava/util/List;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/pr;->o:Landroidx/fragment/app/FragmentManager;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final getItemCount()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pr;->n:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final l(I)Landroidx/fragment/app/Fragment;
-    .registers 5
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol$Request;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol$Request;-><init>()V
-
     .line 4
+    iput p2, p0, Lcom/huawei/appmarket/pr;->b:I
+
     .line 5
     .line 6
-    new-instance v1, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol;
+    iput-object p1, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol;-><init>()V
-
+    return-void
     .line 9
     .line 10
     .line 11
-    if-eqz p1, :cond_2
-
     .line 12
     .line 13
-    const/4 v2, 0x1
-
     .line 14
-    if-eq p1, v2, :cond_0
-
     .line 15
     .line 16
-    new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;
-
     .line 17
     .line 18
-    invoke-direct {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;-><init>()V
-
     .line 19
     .line 20
     .line 21
-    return-object p1
-
     .line 22
-    :cond_0
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol;->f(Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol$Request;)V
-
     .line 23
     .line 24
     .line 25
-    new-instance p1, Lcom/huawei/appmarket/cn5;
-
     .line 26
     .line 27
-    const-string v0, "installmgr.installed.fragment"
-
     .line 28
     .line 29
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
     .line 30
     .line 31
     .line 32
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
-
     .line 33
     .line 34
     .line 35
-    move-result-object p1
-
     .line 36
-    check-cast p1, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;
-
     .line 37
     .line 38
-    if-nez p1, :cond_1
-
     .line 39
     .line 40
-    new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;
-
     .line 41
     .line 42
-    invoke-direct {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;-><init>()V
-
     .line 43
     .line 44
     .line 45
-    :cond_1
-    return-object p1
-
     .line 46
-    :cond_2
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol;->f(Lcom/huawei/appmarket/service/appmgr/protocol/AppInstallFragmentProtocol$Request;)V
-
     .line 47
     .line 48
     .line 49
-    new-instance p1, Lcom/huawei/appmarket/cn5;
-
     .line 50
     .line 51
-    const-string v0, "installmgr.installing.fragment"
-
     .line 52
     .line 53
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
     .line 54
     .line 55
     .line 56
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
-
     .line 57
     .line 58
     .line 59
-    move-result-object p1
-
     .line 60
-    check-cast p1, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;
-
     .line 61
     .line 62
-    if-nez p1, :cond_3
-
     .line 63
     .line 64
-    new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;
-
     .line 65
     .line 66
-    invoke-direct {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;-><init>()V
-
     .line 67
     .line 68
     .line 69
-    :cond_3
-    return-object p1
     .line 70
     .line 71
     .line 72
@@ -242,36 +138,270 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method
 
-.method public final q(I)Landroidx/fragment/app/Fragment;
-    .registers 5
+
+# virtual methods
+.method public final run()V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pr;->o:Landroidx/fragment/app/FragmentManager;
+    iget v0, p0, Lcom/huawei/appmarket/pr;->b:I
 
-    if-nez v0, :cond_0
+    packed-switch v0, :pswitch_data_0
 
-    const/4 p1, 0x0
+    :pswitch_0
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
 
-    return-object p1
+    check-cast v0, Lorg/apache/commons/lang3/function/FailableRunnable;
 
-    :cond_0
-    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lorg/apache/commons/lang3/function/Failable;->a(Lorg/apache/commons/lang3/function/FailableRunnable;)V
 
-    const-string v2, "f"
+    return-void
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    :pswitch_1
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    check-cast v0, Lcom/huawei/quickcard/views/list/QRecyclerView;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/quickcard/views/list/QRecyclerView;->c(Lcom/huawei/quickcard/views/list/QRecyclerView;)V
 
-    move-result-object p1
+    return-void
 
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->a0(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    :pswitch_2
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
 
-    move-result-object p1
+    check-cast v0, Lcom/huawei/quickcard/base/bi/CardReporter;
 
-    return-object p1
+    invoke-static {v0}, Lcom/huawei/quickcard/base/bi/CardReporter;->a(Lcom/huawei/quickcard/base/bi/CardReporter;)V
+
+    return-void
+
+    :pswitch_3
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/mc6;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mc6;->a(Lcom/huawei/appmarket/mc6;)V
+
+    return-void
+
+    :pswitch_4
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/hms/network/file/core/task/h;
+
+    invoke-static {v0}, Lcom/huawei/hms/network/file/core/task/h;->a(Lcom/huawei/hms/network/file/core/task/h;)V
+
+    return-void
+
+    :pswitch_5
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/hms/network/file/core/d;
+
+    invoke-static {v0}, Lcom/huawei/hms/network/file/core/d;->a(Lcom/huawei/hms/network/file/core/d;)V
+
+    return-void
+
+    :pswitch_6
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/hms/network/embedded/z8;
+
+    invoke-static {v0}, Lcom/huawei/hms/network/embedded/z8;->a(Lcom/huawei/hms/network/embedded/z8;)V
+
+    return-void
+
+    :pswitch_7
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/hms/network/embedded/ua;
+
+    invoke-static {v0}, Lcom/huawei/hms/network/embedded/ua;->a(Lcom/huawei/hms/network/embedded/ua;)V
+
+    return-void
+
+    :pswitch_8
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Ljava/util/Queue;
+
+    invoke-interface {v0}, Ljava/util/Collection;->clear()V
+
+    return-void
+
+    :pswitch_9
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;->e(Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;)V
+
+    return-void
+
+    :pswitch_a
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->f(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;)V
+
+    return-void
+
+    :pswitch_b
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->d(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;)V
+
+    return-void
+
+    :pswitch_c
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/substance/WideSubstanceDetailFragment;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/substance/WideSubstanceDetailFragment;->P7(Lcom/huawei/appmarket/service/substance/WideSubstanceDetailFragment;)V
+
+    return-void
+
+    :pswitch_d
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->q2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)V
+
+    return-void
+
+    :pswitch_e
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/store/awk/control/video/HorizontalVideoController;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/control/video/HorizontalVideoController;->i(Lcom/huawei/appmarket/service/store/awk/control/video/HorizontalVideoController;)V
+
+    return-void
+
+    :pswitch_f
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/reserve/game/view/AppReservedFragment;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/reserve/game/view/AppReservedFragment;->F7(Lcom/huawei/appmarket/service/reserve/game/view/AppReservedFragment;)V
+
+    return-void
+
+    :pswitch_10
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/xh5;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/xh5;->e(Lcom/huawei/appmarket/xh5;)V
+
+    return-void
+
+    :pswitch_11
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/ca7;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ca7;->c(Lcom/huawei/appmarket/ca7;)V
+
+    return-void
+
+    :pswitch_12
+    iget-object v0, p0, Lcom/huawei/appmarket/pr;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/huawei/appmarket/service/installresult/control/a;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/service/installresult/control/a;->a(Lcom/huawei/appmarket/service/installresult/control/a;)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_0
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+    .end packed-switch
 .end method

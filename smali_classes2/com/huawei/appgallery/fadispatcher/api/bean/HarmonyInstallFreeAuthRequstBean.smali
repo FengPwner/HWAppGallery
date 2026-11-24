@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/fadispatcher/api/bean/HarmonyInstallFreeAuthRequstBean;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
 # instance fields
 .field private callerInfoList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -22,12 +22,12 @@
 .end field
 
 .field private dispatcherVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private targetInfo:Lcom/huawei/appgallery/fadispatcher/impl/bean/store/TargetInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     const-string v0, "client.harmony.installFreeAuth"
 

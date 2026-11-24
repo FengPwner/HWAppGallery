@@ -4,14 +4,13 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-.end method
-
-.method public abstract b()Z
-.end method
-
-.method public abstract c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)V
-.end method
-
-.method public abstract d()V
+.method public abstract S0(Ljava/util/List;Z)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo;",
+            ">;Z)V"
+        }
+    .end annotation
 .end method

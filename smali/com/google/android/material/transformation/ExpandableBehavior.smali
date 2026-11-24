@@ -65,11 +65,11 @@
     .registers 6
 
     .line 1
-    check-cast p3, Lcom/huawei/appmarket/r42;
+    check-cast p3, Lcom/huawei/appmarket/v42;
 
     .line 2
     .line 3
-    invoke-interface {p3}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {p3}, Lcom/huawei/appmarket/v42;->a()Z
 
     .line 4
     .line 5
@@ -113,7 +113,7 @@
     .line 22
     :cond_1
     :goto_0
-    invoke-interface {p3}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {p3}, Lcom/huawei/appmarket/v42;->a()Z
 
     .line 23
     .line 24
@@ -140,7 +140,7 @@
 
     .line 33
     .line 34
-    invoke-interface {p3}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {p3}, Lcom/huawei/appmarket/v42;->a()Z
 
     .line 35
     .line 36
@@ -401,13 +401,20 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
     .registers 8
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -470,7 +477,7 @@
 
     .line 30
     .line 31
-    check-cast v2, Lcom/huawei/appmarket/r42;
+    check-cast v2, Lcom/huawei/appmarket/v42;
 
     .line 32
     .line 33
@@ -494,7 +501,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v2}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/v42;->a()Z
 
     .line 41
     .line 42
@@ -538,7 +545,7 @@
     .line 59
     :cond_3
     :goto_2
-    invoke-interface {v2}, Lcom/huawei/appmarket/r42;->a()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/v42;->a()Z
 
     .line 60
     .line 61
@@ -570,7 +577,7 @@
 
     .line 73
     .line 74
-    invoke-direct {v1, p0, p2, p3, v2}, Lcom/google/android/material/transformation/ExpandableBehavior$a;-><init>(Lcom/google/android/material/transformation/ExpandableBehavior;Landroid/view/View;ILcom/huawei/appmarket/r42;)V
+    invoke-direct {v1, p0, p2, p3, v2}, Lcom/google/android/material/transformation/ExpandableBehavior$a;-><init>(Lcom/google/android/material/transformation/ExpandableBehavior;Landroid/view/View;ILcom/huawei/appmarket/v42;)V
 
     .line 75
     .line 76
@@ -785,6 +792,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected abstract t(Landroid/view/View;Landroid/view/View;ZZ)V

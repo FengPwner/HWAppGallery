@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/yq6;",
+            "Lcom/huawei/appmarket/br6;",
             ">;"
         }
     .end annotation
@@ -100,9 +100,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/report/adapter/ReportTypeAdapter;->list:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/yq6;
+    new-instance v2, Lcom/huawei/appmarket/br6;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/yq6;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/br6;-><init>()V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -138,9 +138,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/yq6;
+    check-cast v2, Lcom/huawei/appmarket/br6;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/yq6;->a()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/br6;->a()Z
 
     move-result v2
 
@@ -403,7 +403,7 @@
     move-result-object v0
 
     .line 80
-    check-cast v0, Lcom/huawei/appmarket/yq6;
+    check-cast v0, Lcom/huawei/appmarket/br6;
 
     .line 81
     .line 82
@@ -486,7 +486,7 @@
 
     .line 118
     .line 119
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/forum/operation/report/adapter/ReportTypeAdapter$b;-><init>(Lcom/huawei/appgallery/forum/operation/report/adapter/ReportTypeAdapter;Lcom/huawei/appmarket/yq6;)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/forum/operation/report/adapter/ReportTypeAdapter$b;-><init>(Lcom/huawei/appgallery/forum/operation/report/adapter/ReportTypeAdapter;Lcom/huawei/appmarket/br6;)V
 
     .line 120
     .line 121
@@ -500,7 +500,7 @@
 
     .line 126
     .line 127
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yq6;->a()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/br6;->a()Z
 
     .line 128
     .line 129
@@ -755,9 +755,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/yq6;
+    check-cast v1, Lcom/huawei/appmarket/br6;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/yq6;->b(Z)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/br6;->b(Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -780,7 +780,7 @@
 
     const-string v2, "ReportTypeAdapter"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_1

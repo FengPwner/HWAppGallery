@@ -31,7 +31,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 9
     .line 10
@@ -155,7 +155,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final d(Landroid/view/ViewGroup;Landroid/view/ViewGroup;)Z

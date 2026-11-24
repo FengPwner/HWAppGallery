@@ -63,7 +63,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/uh8;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/ai8;->a()Z
 
     .line 16
     .line 17
@@ -104,11 +104,11 @@
 
     .line 34
     :cond_1
-    sget p1, Lcom/huawei/appmarket/rs1;->b:I
+    sget p1, Lcom/huawei/appmarket/us1;->b:I
 
     .line 35
     .line 36
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -273,5 +273,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

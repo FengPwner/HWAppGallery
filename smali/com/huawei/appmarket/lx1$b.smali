@@ -1,4 +1,4 @@
-.class final Lcom/huawei/appmarket/lx1$b;
+.class public final Lcom/huawei/appmarket/lx1$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,13 +9,13 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1a
+    accessFlags = 0x19
     name = "b"
 .end annotation
 
 
 # instance fields
-.field public final a:I
+.field public final a:Ljava/lang/String;
 
 .field public final b:I
 
@@ -23,29 +23,34 @@
 
 .field public final d:I
 
-.field public final e:I
-
-.field public final f:I
+.field public final e:J
 
 
 # direct methods
-.method public constructor <init>(IIIIII)V
-    .registers 7
+.method private constructor <init>(Ljava/lang/String;IIIJI)V
+    .registers 8
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lcom/huawei/appmarket/lx1$b;->a:I
+    iput-object p1, p0, Lcom/huawei/appmarket/lx1$b;->a:Ljava/lang/String;
 
-    iput p2, p0, Lcom/huawei/appmarket/lx1$b;->b:I
+    iput p2, p0, Lcom/huawei/appmarket/lx1$b;->c:I
 
-    iput p3, p0, Lcom/huawei/appmarket/lx1$b;->c:I
+    iput p3, p0, Lcom/huawei/appmarket/lx1$b;->b:I
 
     iput p4, p0, Lcom/huawei/appmarket/lx1$b;->d:I
 
-    iput p5, p0, Lcom/huawei/appmarket/lx1$b;->e:I
+    iput-wide p5, p0, Lcom/huawei/appmarket/lx1$b;->e:J
 
-    iput p6, p0, Lcom/huawei/appmarket/lx1$b;->f:I
+    return-void
+.end method
+
+.method synthetic constructor <init>(Ljava/lang/String;IIIJILcom/huawei/appmarket/lx1$a;)V
+    .registers 9
+
+    .line 2
+    invoke-direct/range {p0 .. p7}, Lcom/huawei/appmarket/lx1$b;-><init>(Ljava/lang/String;IIIJI)V
 
     return-void
 .end method

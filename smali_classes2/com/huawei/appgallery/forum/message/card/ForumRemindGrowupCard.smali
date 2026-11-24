@@ -77,7 +77,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 16
     .line 17
@@ -153,7 +153,7 @@
     move-result-object v0
 
     .line 53
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 54
     .line 55

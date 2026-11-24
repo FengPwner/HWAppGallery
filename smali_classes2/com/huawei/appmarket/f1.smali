@@ -85,7 +85,7 @@
     iput-object v0, p0, Lcom/huawei/appmarket/f1;->a:Landroid/app/AlertDialog;
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/na3;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->i()Z
 
     move-result v0
 
@@ -331,7 +331,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public static synthetic b(Lcom/huawei/appmarket/f1;Lcom/huawei/appmarket/f1$a;I)Z

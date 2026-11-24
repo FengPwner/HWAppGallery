@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/recommend/bannercard/a$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/huawei/appgallery/pageframe/v2/service/bean/QCardBaseDistCardBean;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/recommend/bannercard/a$a;->b:Lcom/huawei/appgallery/pageframe/v2/service/bean/QCardBaseDistCardBean;
 
@@ -35,7 +35,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     .line 2
     .line 3
@@ -66,7 +66,7 @@
     const/4 v2, 0x0
 
     .line 16
-    invoke-static {p1, v1, v2, v0, v0}, Lcom/huawei/appmarket/yj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ll0;)Z
+    invoke-static {p1, v1, v2, v0, v0}, Lcom/huawei/appmarket/zj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ml0;)Z
 
     .line 17
     .line 18
@@ -167,5 +167,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

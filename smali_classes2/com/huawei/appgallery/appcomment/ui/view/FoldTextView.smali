@@ -156,7 +156,7 @@
 
     .line 23
     .line 24
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 25
     .line 26
@@ -164,7 +164,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -253,7 +253,7 @@
 
     .line 70
     .line 71
-    invoke-static {v6, p0}, Lcom/huawei/appmarket/wu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
+    invoke-static {v6, p0}, Lcom/huawei/appmarket/zu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -312,7 +312,7 @@
     .line 98
     .line 99
     :goto_0
-    invoke-static {v6}, Lcom/huawei/appmarket/wu4;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/huawei/appmarket/zu4;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 100
     .line 101
@@ -361,7 +361,7 @@
 
     .line 121
     .line 122
-    sget-object v7, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v7, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 123
     .line 124
@@ -369,7 +369,7 @@
 
     .line 125
     .line 126
-    invoke-virtual {v7, v2, v9}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v7, v2, v9}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -536,7 +536,7 @@
 
     .line 203
     :goto_3
-    invoke-static {v6, v5, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v5, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 204
     .line 205
@@ -544,7 +544,7 @@
     move-result-object v2
 
     .line 207
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/wu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/zu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
 
     .line 208
     .line 209
@@ -1031,15 +1031,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -1298,7 +1289,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final e(Lcom/huawei/appgallery/appcomment/ui/view/FoldTextView$b;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)V
@@ -1412,13 +1402,13 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v0, "FoldTextView"
 
     const-string v1, "onMeasure error"
 
-    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0

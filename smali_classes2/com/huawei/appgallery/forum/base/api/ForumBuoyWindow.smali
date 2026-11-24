@@ -1,5 +1,5 @@
 .class public abstract Lcom/huawei/appgallery/forum/base/api/ForumBuoyWindow;
-.super Lcom/huawei/appmarket/ye0;
+.super Lcom/huawei/appmarket/ze0;
 .source "SourceFile"
 
 
@@ -12,7 +12,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ye0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ze0;-><init>()V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -31,7 +31,7 @@
     .registers 2
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/ye0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ze0;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/base/api/ForumBuoyWindow;->i:Landroid/content/Context;
 
@@ -44,7 +44,7 @@
     .registers 3
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appmarket/ye0;->o()V
+    invoke-super {p0}, Lcom/huawei/appmarket/ze0;->o()V
 
     .line 2
     .line 3

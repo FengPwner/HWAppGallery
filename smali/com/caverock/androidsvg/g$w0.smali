@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final l(Landroid/graphics/Matrix;)V
+.method public final k(Landroid/graphics/Matrix;)V
     .registers 2
 
     .line 1
@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method final o()Ljava/lang/String;
+.method final n()Ljava/lang/String;
     .registers 2
 
     .line 1

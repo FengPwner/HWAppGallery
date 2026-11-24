@@ -1,45 +1,39 @@
-.class public final Lcom/huawei/appmarket/bh2;
-.super Lcom/huawei/appmarket/h4;
+.class public final synthetic Lcom/huawei/appmarket/bh2;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# instance fields
-.field private final d:Lcom/huawei/appmarket/bh2$a;
-
-
 # direct methods
-.method public constructor <init>()V
-    .registers 2
+.method public static synthetic a(Ljava/lang/Object;)I
+    .registers 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/h4;-><init>()V
+    const/4 p0, 0x0
 
-    new-instance v0, Lcom/huawei/appmarket/bh2$a;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/bh2$a;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bh2;->d:Lcom/huawei/appmarket/bh2$a;
-
-    return-void
+    return p0
 .end method
 
-
-# virtual methods
-.method public final f()Ljava/util/Random;
-    .registers 3
+.method public static b()Lorg/apache/commons/lang3/function/FailableToIntFunction;
+    .registers 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            "E:",
+            "Ljava/lang/Throwable;",
+            ">()",
+            "Lorg/apache/commons/lang3/function/FailableToIntFunction<",
+            "TT;TE;>;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bh2;->d:Lcom/huawei/appmarket/bh2$a;
-
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    const-string v1, "get(...)"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    check-cast v0, Ljava/util/Random;
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableToIntFunction;->NOP:Lorg/apache/commons/lang3/function/FailableToIntFunction;
 
     return-object v0
 .end method

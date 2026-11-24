@@ -194,7 +194,7 @@
     :try_start_0
     new-instance v10, Ljava/lang/String;
 
-    const-string v11, "utf-8"
+    const-string/jumbo v11, "utf-8"
 
     invoke-direct {v10, v3, v11}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
     :try_end_0
@@ -205,7 +205,7 @@
 
     invoke-direct {v3, v10}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    const-string v10, "wx_errcode"
+    const-string/jumbo v10, "wx_errcode"
 
     invoke-virtual {v3, v10}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
@@ -251,7 +251,7 @@
 
     iput-object v10, v6, Lcom/tencent/mm/opensdk/diffdev/a/c$a;->a:Lcom/tencent/mm/opensdk/diffdev/OAuthErrCode;
 
-    const-string v10, "wx_code"
+    const-string/jumbo v10, "wx_code"
 
     invoke-virtual {v3, v10}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -516,8 +516,6 @@
     :cond_d
     :goto_c
     return-object v6
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x192

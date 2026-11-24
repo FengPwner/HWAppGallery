@@ -5,7 +5,7 @@
 
 # instance fields
 .field private apps:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/AppStateTypeProcess;
     .end annotation
 
@@ -19,22 +19,22 @@
 .end field
 
 .field private enabled:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private isReportable:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private policyName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private policyType:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -136,7 +136,7 @@
 
     iget-object v3, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/PolicyItem;->apps:Ljava/util/List;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v2
 
@@ -371,7 +371,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     .line 43
     .line 44

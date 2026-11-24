@@ -3,34 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/v34;
+.implements Lcom/huawei/appmarket/x34;
 
 
 # instance fields
 .field private controlResult:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private emergency:Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/bean/Strategy;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private hasNextPage:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private pageNum:I
 
 .field private tabDetailInfo:Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/bean/TabDetailInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private washAppInfo:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/WashAppInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

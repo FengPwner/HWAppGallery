@@ -418,11 +418,11 @@
 
     iget-object v0, p0, Lcom/huawei/hms/network/file/core/task/h;->c:Ljava/util/concurrent/ExecutorService;
 
-    new-instance v1, Lcom/huawei/appmarket/uh5;
+    new-instance v1, Lcom/huawei/appmarket/pr;
 
-    const/16 v2, 0xd
+    const/16 v2, 0xf
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 

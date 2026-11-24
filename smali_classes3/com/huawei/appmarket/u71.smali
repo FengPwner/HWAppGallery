@@ -95,7 +95,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -201,7 +201,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method final c()Z

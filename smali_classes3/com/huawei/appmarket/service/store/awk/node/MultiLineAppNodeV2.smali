@@ -100,7 +100,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 30
     .line 31
@@ -264,10 +264,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -279,7 +278,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->V(Lcom/huawei/appmarket/hj0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->V(Lcom/huawei/appmarket/ij0;)V
 
     .line 6
     .line 7
@@ -292,13 +291,13 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 13
     .line 14
     .line 15
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/MultiLineAppNode;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/MultiLineAppNode;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 16
     .line 17
@@ -460,10 +459,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -473,7 +471,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/p40$a;
 
-    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/MultiLineAppNodeV2;->o:Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;
 
@@ -485,7 +483,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/MultiLineAppNodeV2;->o:Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     return-void

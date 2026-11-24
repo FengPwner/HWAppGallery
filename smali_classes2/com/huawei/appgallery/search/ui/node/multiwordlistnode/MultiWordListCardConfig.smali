@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/search/ui/node/multiwordlistnode/MultiWordListCardConfig;
-.super Lcom/huawei/appmarket/pn3;
+.super Lcom/huawei/appmarket/rn3;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/pn3;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn3;-><init>()V
 
     return-void
 .end method

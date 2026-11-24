@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Lcom/huawei/appmarket/nv7;)V
+    value = Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Lcom/huawei/appmarket/tv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/agconnect/credential/internal/ClientAuthResponse;",
         ">;"
     }
@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Ljava/util/concurrent/CountDownLatch;
 
@@ -35,13 +35,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/nv7;Ljava/util/concurrent/CountDownLatch;)V
+.method constructor <init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/tv7;Ljava/util/concurrent/CountDownLatch;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->c:Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;
 
-    iput-object p2, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/tv7;
 
     iput-object p3, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->b:Ljava/util/concurrent/CountDownLatch;
 
@@ -52,12 +52,12 @@
 
 
 # virtual methods
-.method public onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/credential/internal/ClientAuthResponse;",
             ">;)V"
         }
@@ -70,19 +70,19 @@
 
     invoke-static {v0, v1}, Lcom/huawei/agconnect/common/api/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->b:Ljava/util/concurrent/CountDownLatch;
 
@@ -91,7 +91,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -133,9 +133,9 @@
 
     invoke-direct {v0, v1, p1}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
-    iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->b:Ljava/util/concurrent/CountDownLatch;
 
@@ -226,7 +226,7 @@
 
     invoke-static {p1, v0, v1}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;J)J
 
-    iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->a:Lcom/huawei/appmarket/tv7;
 
     iget-object v0, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;->c:Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;
 
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method

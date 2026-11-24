@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -208,11 +207,11 @@
     .line 6
     .line 7
     .line 8
-    check-cast p2, Lcom/huawei/appmarket/kl5;
+    check-cast p2, Lcom/huawei/appmarket/ml5;
 
     .line 9
     .line 10
-    invoke-static {p2}, Lcom/huawei/appmarket/kl5;->a(Lcom/huawei/appmarket/kl5;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/ml5;->a(Lcom/huawei/appmarket/ml5;)V
 
     .line 11
     .line 12
@@ -390,5 +389,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fq3;
+.implements Lcom/huawei/appmarket/hq3;
 
 
 # direct methods

@@ -566,57 +566,57 @@
 
 .field public static final titleDividerNoCustom:I = 0x7f0a15ec
 
-.field public static final title_template:I = 0x7f0a1608
+.field public static final title_template:I = 0x7f0a1609
 
-.field public static final topPanel:I = 0x7f0a1625
+.field public static final topPanel:I = 0x7f0a1626
 
-.field public static final tv_evaluad_content:I = 0x7f0a1680
+.field public static final tv_evaluad_content:I = 0x7f0a1681
 
-.field public static final tv_progress:I = 0x7f0a16af
+.field public static final tv_progress:I = 0x7f0a16b0
 
-.field public static final tv_sr_number:I = 0x7f0a16c4
+.field public static final tv_sr_number:I = 0x7f0a16c5
 
-.field public static final tv_tryagain:I = 0x7f0a16d9
+.field public static final tv_tryagain:I = 0x7f0a16da
 
-.field public static final txtContent:I = 0x7f0a16ef
+.field public static final txtContent:I = 0x7f0a16f0
 
-.field public static final txt_channel:I = 0x7f0a16f6
+.field public static final txt_channel:I = 0x7f0a16f7
 
-.field public static final txt_channel_title:I = 0x7f0a16f7
+.field public static final txt_channel_title:I = 0x7f0a16f8
 
-.field public static final txt_number:I = 0x7f0a16fb
+.field public static final txt_number:I = 0x7f0a16fc
 
-.field public static final txt_question_type_item:I = 0x7f0a1701
+.field public static final txt_question_type_item:I = 0x7f0a1702
 
-.field public static final txt_style:I = 0x7f0a170c
+.field public static final txt_style:I = 0x7f0a170d
 
-.field public static final txt_style_2:I = 0x7f0a170d
+.field public static final txt_style_2:I = 0x7f0a170e
 
-.field public static final txt_style_title:I = 0x7f0a170e
+.field public static final txt_style_title:I = 0x7f0a170f
 
-.field public static final unchecked:I = 0x7f0a1712
+.field public static final unchecked:I = 0x7f0a1713
 
-.field public static final uniform:I = 0x7f0a1713
+.field public static final uniform:I = 0x7f0a1714
 
-.field public static final up:I = 0x7f0a1735
+.field public static final up:I = 0x7f0a1736
 
-.field public static final video_frame:I = 0x7f0a17eb
+.field public static final video_frame:I = 0x7f0a17ec
 
-.field public static final video_list:I = 0x7f0a17f0
+.field public static final video_list:I = 0x7f0a17f1
 
-.field public static final view_tree_lifecycle_owner:I = 0x7f0a1819
+.field public static final view_tree_lifecycle_owner:I = 0x7f0a181a
 
-.field public static final view_tree_on_back_pressed_dispatcher_owner:I = 0x7f0a181a
+.field public static final view_tree_on_back_pressed_dispatcher_owner:I = 0x7f0a181b
 
-.field public static final view_tree_saved_state_registry_owner:I = 0x7f0a181b
+.field public static final view_tree_saved_state_registry_owner:I = 0x7f0a181c
 
-.field public static final view_tree_view_model_store_owner:I = 0x7f0a181c
+.field public static final view_tree_view_model_store_owner:I = 0x7f0a181d
 
-.field public static final visible_removing_fragment_view_tag:I = 0x7f0a1823
+.field public static final visible_removing_fragment_view_tag:I = 0x7f0a1824
 
-.field public static final wrapFirst:I = 0x7f0a190f
+.field public static final wrapFirst:I = 0x7f0a1910
 
-.field public static final wrap_content:I = 0x7f0a1910
+.field public static final wrap_content:I = 0x7f0a1911
 
 
 # direct methods

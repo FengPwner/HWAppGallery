@@ -4,11 +4,11 @@
 
 
 # static fields
-.field public static final b:Lcom/huawei/appmarket/pr7;
+.field public static final b:Lcom/huawei/appmarket/vr7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/pr7<",
-            "Lcom/huawei/appmarket/bw4;",
+            "Lcom/huawei/appmarket/vr7<",
+            "Lcom/huawei/appmarket/ew4;",
             ">;"
         }
     .end annotation
@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/bw4;
+.field private final a:Lcom/huawei/appmarket/ew4;
 
 
 # direct methods
@@ -24,7 +24,7 @@
     .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/g91;
+    new-instance v0, Lcom/huawei/appmarket/h91;
 
     .line 2
     .line 3
@@ -33,7 +33,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/qr7;->a(Lcom/huawei/appmarket/pr7;)Lcom/huawei/appmarket/pr7;
+    invoke-static {v0}, Lcom/huawei/appmarket/wr7;->a(Lcom/huawei/appmarket/vr7;)Lcom/huawei/appmarket/vr7;
 
     .line 7
     .line 8
@@ -41,7 +41,7 @@
     move-result-object v0
 
     .line 10
-    sput-object v0, Landroidx/media3/datasource/DataSourceBitmapLoader;->b:Lcom/huawei/appmarket/pr7;
+    sput-object v0, Landroidx/media3/datasource/DataSourceBitmapLoader;->b:Lcom/huawei/appmarket/vr7;
 
     .line 11
     .line 12
@@ -169,49 +169,50 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 4
 
     .line 1
-    sget-object v0, Landroidx/media3/datasource/DataSourceBitmapLoader;->b:Lcom/huawei/appmarket/pr7;
+    sget-object v0, Landroidx/media3/datasource/DataSourceBitmapLoader;->b:Lcom/huawei/appmarket/vr7;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/pr7;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/vr7;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/bw4;
+    check-cast v0, Lcom/huawei/appmarket/ew4;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->f(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->f(Ljava/lang/Object;)V
 
     new-instance v1, Landroidx/media3/datasource/DefaultDataSource$Factory;
 
     invoke-direct {v1, p1}, Landroidx/media3/datasource/DefaultDataSource$Factory;-><init>(Landroid/content/Context;)V
 
-    invoke-direct {p0, v0, v1}, Landroidx/media3/datasource/DataSourceBitmapLoader;-><init>(Lcom/huawei/appmarket/bw4;Landroidx/media3/datasource/a$a;)V
+    invoke-direct {p0, v0, v1}, Landroidx/media3/datasource/DataSourceBitmapLoader;-><init>(Lcom/huawei/appmarket/ew4;Landroidx/media3/datasource/a$a;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/bw4;Landroidx/media3/datasource/a$a;)V
+.method public constructor <init>(Lcom/huawei/appmarket/ew4;Landroidx/media3/datasource/a$a;)V
     .registers 4
 
     .line 2
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Landroidx/media3/datasource/DataSourceBitmapLoader;-><init>(Lcom/huawei/appmarket/bw4;Landroidx/media3/datasource/a$a;Landroid/graphics/BitmapFactory$Options;)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/media3/datasource/DataSourceBitmapLoader;-><init>(Lcom/huawei/appmarket/ew4;Landroidx/media3/datasource/a$a;Landroid/graphics/BitmapFactory$Options;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/bw4;Landroidx/media3/datasource/a$a;Landroid/graphics/BitmapFactory$Options;)V
+.method public constructor <init>(Lcom/huawei/appmarket/ew4;Landroidx/media3/datasource/a$a;Landroid/graphics/BitmapFactory$Options;)V
     .registers 4
 
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/media3/datasource/DataSourceBitmapLoader;->a:Lcom/huawei/appmarket/bw4;
+    iput-object p1, p0, Landroidx/media3/datasource/DataSourceBitmapLoader;->a:Lcom/huawei/appmarket/ew4;
 
     return-void
 .end method

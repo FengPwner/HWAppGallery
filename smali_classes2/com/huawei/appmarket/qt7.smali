@@ -3,7 +3,35 @@
 .source "SourceFile"
 
 
+# static fields
+.field private static a:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/Integer;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final synthetic b:I
+
+
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/qt7;->a:Ljava/util/Map;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -12,107 +40,97 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;)V
+.method public static a(I)Ljava/lang/String;
     .registers 6
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->d()Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/qt7;->a:Ljava/util/Map;
+
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    :try_start_0
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+
+    move-result-object v0
+
+    const-string v1, "ApkCollect/res-map.txt"
+
+    invoke-virtual {v0, v1}, Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/util/Properties;
+
+    invoke-direct {v1}, Ljava/util/Properties;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
+
+    invoke-virtual {v1}, Ljava/util/Properties;->stringPropertyNames()Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/fq7;->o(Ljava/util/Set;)Ljava/util/stream/Stream;
+
+    move-result-object v0
+
+    new-instance v2, Lcom/huawei/appmarket/ct6;
+
+    const/4 v3, 0x1
+
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/ct6;-><init>(I)V
+
+    new-instance v3, Lcom/huawei/appmarket/pt7;
+
+    const/4 v4, 0x0
+
+    invoke-direct {v3, v1, v4}, Lcom/huawei/appmarket/pt7;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/fq7;->m(Lcom/huawei/appmarket/ct6;Lcom/huawei/appmarket/pt7;)Ljava/util/stream/Collector;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->c()Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne3;->l(Ljava/util/stream/Stream;Ljava/util/stream/Collector;)Ljava/lang/Object;
 
-    move-result-object v2
+    move-result-object v0
 
-    new-instance v3, Ljava/util/LinkedHashMap;
+    check-cast v0, Ljava/util/Map;
 
-    invoke-direct {v3}, Ljava/util/LinkedHashMap;-><init>()V
+    sput-object v0, Lcom/huawei/appmarket/qt7;->a:Ljava/util/Map;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    goto :goto_0
 
-    move-result v4
+    :catch_0
+    sget-object v0, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
-    if-nez v4, :cond_0
+    const-string v1, "SystemResource"
 
-    const-string v4, "tabid"
+    const-string v2, "open assets error"
 
-    invoke-virtual {v3, v4, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    :goto_0
+    sget-object v0, Lcom/huawei/appmarket/qt7;->a:Ljava/util/Map;
 
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    const-string v0, "tabname"
-
-    invoke-virtual {v3, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    :cond_1
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    const-string v0, "service_type"
-
-    invoke-virtual {v3, v0, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->b()I
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "redStatus"
-
-    invoke-virtual {v3, v1, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->b()I
-
-    move-result v0
-
-    const/4 v1, 0x3
-
-    if-ne v0, v1, :cond_3
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->a()I
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "redNumb"
-
-    invoke-virtual {v3, v1, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    :cond_3
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;->f()I
-
-    move-result p0
-
-    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
 
-    const-string v0, "tabStyle"
+    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v3, v0, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object p0
 
-    const-string p0, "client_tab_click"
+    check-cast p0, Ljava/lang/String;
 
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    return-void
+    return-object p0
 .end method

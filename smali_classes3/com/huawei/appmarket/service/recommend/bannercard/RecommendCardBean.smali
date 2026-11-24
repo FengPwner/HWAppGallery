@@ -9,17 +9,17 @@
 
 # instance fields
 .field private commentInfo:Lcom/huawei/appgallery/foundation/card/base/bean/CommentVo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private downloadUnit:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private downloads:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
     long-to-double v1, v1
 
     .line 14
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 15
     .line 16

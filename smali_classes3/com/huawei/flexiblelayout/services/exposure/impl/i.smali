@@ -7,12 +7,12 @@
 
 
 # instance fields
-.field a:Lcom/huawei/appmarket/uc2;
+.field a:Lcom/huawei/appmarket/xc2;
 
-.field b:Lcom/huawei/appmarket/pa2;
+.field b:Lcom/huawei/appmarket/sa2;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/pa2<",
+            "Lcom/huawei/appmarket/sa2<",
             "*>;"
         }
     .end annotation
@@ -25,7 +25,7 @@
 .field e:I
 
 .field f:Ljava/lang/String;
-    .annotation build Lcom/huawei/appmarket/l52$a;
+    .annotation build Lcom/huawei/appmarket/p52$a;
     .end annotation
 .end field
 
@@ -49,7 +49,7 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->a:Lcom/huawei/appmarket/uc2;
+    iget-object v1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->a:Lcom/huawei/appmarket/xc2;
 
     const/4 v2, 0x0
 
@@ -68,17 +68,17 @@
     return v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/pa2;ILjava/lang/String;)V
+.method public final b(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/sa2;ILjava/lang/String;)V
     .registers 6
     .param p4    # Ljava/lang/String;
-        .annotation build Lcom/huawei/appmarket/l52$a;
+        .annotation build Lcom/huawei/appmarket/p52$a;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/uc2;",
-            "Lcom/huawei/appmarket/pa2<",
+            "Lcom/huawei/appmarket/xc2;",
+            "Lcom/huawei/appmarket/sa2<",
             "*>;I",
             "Ljava/lang/String;",
             ")V"
@@ -86,15 +86,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->a:Lcom/huawei/appmarket/uc2;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->a:Lcom/huawei/appmarket/xc2;
 
-    iput-object p2, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->b:Lcom/huawei/appmarket/pa2;
+    iput-object p2, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->b:Lcom/huawei/appmarket/sa2;
 
     const/4 p1, 0x0
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/pa2;->getRootView()Landroid/view/View;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/sa2;->getRootView()Landroid/view/View;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
 
     if-eqz p2, :cond_1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/pa2;->getData()Lcom/huawei/appmarket/qa2;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/sa2;->getData()Lcom/huawei/appmarket/ta2;
 
     move-result-object p1
 
@@ -133,7 +133,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v1, v1, v2, v0}, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->b(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/pa2;ILjava/lang/String;)V
+    invoke-virtual {p0, v1, v1, v2, v0}, Lcom/huawei/flexiblelayout/services/exposure/impl/i;->b(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/sa2;ILjava/lang/String;)V
 
     return-void
 .end method

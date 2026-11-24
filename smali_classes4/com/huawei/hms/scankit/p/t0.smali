@@ -313,7 +313,7 @@
 .method private static a(Ljava/lang/CharSequence;)V
     .registers 4
 
-    .line 4
+    .line 6
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -336,7 +336,7 @@
 .method private static a(Ljava/lang/CharSequence;II)V
     .registers 9
 
-    .line 5
+    .line 7
     add-int/lit8 v0, p1, -0x1
 
     const/4 v1, 0x1
@@ -399,7 +399,7 @@
 .method private a(Lcom/huawei/hms/scankit/p/r;)[I
     .registers 13
 
-    .line 6
+    .line 8
     invoke-virtual {p1}, Lcom/huawei/hms/scankit/p/r;->d()I
 
     move-result v0
@@ -687,7 +687,6 @@
 .method public a(ILcom/huawei/hms/scankit/p/r;Ljava/util/Map;)Lcom/huawei/hms/scankit/p/z5;
     .registers 15
 
-    .line 3
     invoke-direct {p0, p2}, Lcom/huawei/hms/scankit/p/t0;->a(Lcom/huawei/hms/scankit/p/r;)[I
 
     move-result-object p3
@@ -815,14 +814,18 @@
 
     int-to-float p3, p3
 
-    mul-int/lit8 v9, v9, 0xa
+    const/16 v3, 0xa
 
-    div-int/lit8 v9, v9, 0x9
+    const/16 v5, 0x9
 
-    add-int/2addr v9, v1
+    .line 3
+    invoke-static {v9, v3, v5, v1}, Lcom/huawei/appmarket/kk4;->D(IIII)I
 
-    int-to-float v1, v9
+    move-result v1
 
+    int-to-float v1, v1
+
+    .line 4
     new-instance v3, Lcom/huawei/hms/scankit/p/z5;
 
     new-instance v5, Lcom/huawei/hms/scankit/p/b6;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 .field private callerContext:Ljava/lang/String;
 
-.field private channelParams:Lcom/huawei/appmarket/sn0;
+.field private channelParams:Lcom/huawei/appmarket/tn0;
 
 .field private detailId:Ljava/lang/String;
 
@@ -21,7 +21,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
+            "Lcom/huawei/appmarket/rk2;",
             ">;"
         }
     .end annotation
@@ -61,11 +61,11 @@
     return-object v0
 .end method
 
-.method public getChannelParams()Lcom/huawei/appmarket/sn0;
+.method public getChannelParams()Lcom/huawei/appmarket/tn0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/api/AbilityFormProtocol;->channelParams:Lcom/huawei/appmarket/sn0;
+    iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/api/AbilityFormProtocol;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-object v0
 .end method
@@ -92,7 +92,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
+            "Lcom/huawei/appmarket/rk2;",
             ">;"
         }
     .end annotation
@@ -142,11 +142,11 @@
     return-void
 .end method
 
-.method public setChannelParams(Lcom/huawei/appmarket/sn0;)V
+.method public setChannelParams(Lcom/huawei/appmarket/tn0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/downloadfa/api/AbilityFormProtocol;->channelParams:Lcom/huawei/appmarket/sn0;
+    iput-object p1, p0, Lcom/huawei/appgallery/downloadfa/api/AbilityFormProtocol;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-void
 .end method
@@ -173,7 +173,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
+            "Lcom/huawei/appmarket/rk2;",
             ">;)V"
         }
     .end annotation

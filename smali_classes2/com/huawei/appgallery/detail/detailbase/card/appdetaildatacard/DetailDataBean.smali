@@ -25,7 +25,7 @@
 .field private hasAward_:I
 
 .field private hiddenStars:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -34,7 +34,7 @@
 .field private scoredBy_:J
 
 .field private securityDetectionInfo:Lcom/huawei/appgallery/foundation/card/base/bean/SecurityDetectionInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

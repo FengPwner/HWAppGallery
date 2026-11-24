@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ej7;
+.implements Lcom/huawei/appmarket/kj7;
 .implements Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget$a;
 
 
@@ -101,7 +101,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSubHead;->m:I
 
-    sget-object v1, Lcom/huawei/appmarket/ye6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/af6;->b:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -353,7 +353,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private e(Landroid/content/Context;)V
@@ -430,7 +429,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSubHead;->b:Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->setExtendClick(Lcom/huawei/appmarket/ej7;)V
+    invoke-virtual {p1, p0}, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSpinner;->setExtendClick(Lcom/huawei/appmarket/kj7;)V
 
     return-void
 .end method
@@ -521,7 +520,7 @@
 
     const/16 p2, 0x28
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -802,7 +801,7 @@
 
     if-ne v4, v5, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/i57;->b()Lcom/huawei/appmarket/i57;
+    invoke-static {}, Lcom/huawei/appmarket/n57;->b()Lcom/huawei/appmarket/n57;
 
     move-result-object v1
 
@@ -820,7 +819,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/i57;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/n57;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1044,11 +1043,11 @@
 
     .line 14
     .line 15
-    sget-object v1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     .line 18
     .line 19
@@ -1069,7 +1068,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {v3}, Lcom/huawei/appmarket/to2;->e(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/vo2;->e(Landroid/content/Context;)I
 
     .line 29
     .line 30
@@ -1205,7 +1204,7 @@
 
     .line 97
     .line 98
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->b()Ljava/lang/String;
 
     .line 99
     .line 100
@@ -1222,7 +1221,7 @@
 
     .line 106
     .line 107
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 108
     .line 109

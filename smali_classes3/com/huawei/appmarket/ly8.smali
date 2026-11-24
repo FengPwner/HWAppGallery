@@ -1,159 +1,293 @@
 .class public final Lcom/huawei/appmarket/ly8;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/e49;
 .source "SourceFile"
 
 
 # direct methods
-.method private constructor <init>()V
-    .registers 1
+.method public constructor <init>([Lcom/huawei/appmarket/h09;)V
+    .registers 2
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/e49;-><init>([Lcom/huawei/appmarket/h09;)V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/Class;)Ljava/lang/Class;
-    .registers 3
+
+# virtual methods
+.method public final a(Lcom/huawei/appmarket/qb9;)Ljava/lang/Object;
+    .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
+            "<R:",
             "Ljava/lang/Object;",
+            "E:",
+            "Lcom/huawei/bohr/api/exception/BohrException;",
             ">(",
-            "Ljava/lang/Class<",
-            "TT;>;)",
-            "Ljava/lang/Class<",
-            "TT;>;"
+            "Lcom/huawei/appmarket/qb9<",
+            "TR;TE;>;)TR;^TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/bohr/api/exception/BohrException;
         }
     .end annotation
 
     .line 1
-    :cond_0
-    invoke-virtual {p0}, Ljava/lang/Class;->getGenericSuperclass()Ljava/lang/reflect/Type;
+    invoke-interface {p1, p0}, Lcom/huawei/appmarket/qb9;->j(Lcom/huawei/appmarket/ly8;)Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object p1
 
-    instance-of v1, v0, Ljava/lang/reflect/ParameterizedType;
-
-    if-nez v1, :cond_1
-
-    invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
-
-    move-result-object p0
-
-    if-nez p0, :cond_0
-
-    const/4 p0, 0x0
-
-    return-object p0
-
-    :cond_1
-    check-cast v0, Ljava/lang/reflect/ParameterizedType;
-
-    invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
-
-    move-result-object p0
-
-    const/4 v0, 0x0
-
-    aget-object p0, p0, v0
-
-    invoke-static {p0}, Lcom/huawei/appmarket/ly8;->b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
-
-    move-result-object p0
-
-    return-object p0
+    return-object p1
 .end method
 
-.method public static b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/reflect/Type;",
-            ")",
-            "Ljava/lang/Class<",
-            "*>;"
-        }
-    .end annotation
+.method public final toString()Ljava/lang/String;
+    .registers 6
 
     .line 1
-    instance-of v0, p0, Ljava/lang/Class;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/e49;->c()I
 
-    if-eqz v0, :cond_0
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
 
-    check-cast p0, Ljava/lang/Class;
+    .line 5
+    const/4 v1, 0x0
 
-    return-object p0
+    .line 6
+    const/4 v2, 0x1
 
-    :cond_0
-    instance-of v0, p0, Ljava/lang/reflect/ParameterizedType;
+    .line 7
+    if-le v0, v2, :cond_0
 
-    if-eqz v0, :cond_1
+    .line 8
+    .line 9
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/e49;->d(I)Lcom/huawei/appmarket/h09;
 
-    check-cast p0, Ljava/lang/reflect/ParameterizedType;
-
-    invoke-interface {p0}, Ljava/lang/reflect/ParameterizedType;->getRawType()Ljava/lang/reflect/Type;
-
-    move-result-object p0
-
-    check-cast p0, Ljava/lang/Class;
-
-    return-object p0
-
-    :cond_1
-    instance-of v0, p0, Ljava/lang/reflect/TypeVariable;
-
-    if-eqz v0, :cond_3
-
-    check-cast p0, Ljava/lang/reflect/TypeVariable;
-
-    invoke-interface {p0}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
-
+    .line 10
+    .line 11
+    .line 12
     move-result-object v0
 
-    array-length v0, v0
+    .line 13
+    check-cast v0, Lcom/huawei/appmarket/ga9;
 
-    if-nez v0, :cond_2
+    .line 14
+    .line 15
+    goto :goto_0
 
-    const-class p0, Ljava/lang/Object;
+    .line 16
+    :cond_0
+    move-object v0, v1
 
-    return-object p0
+    .line 17
+    :goto_0
+    const/4 v3, 0x0
 
+    .line 18
+    const-string v4, ": "
+
+    .line 19
+    .line 20
+    if-nez v0, :cond_1
+
+    .line 21
+    .line 22
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 23
+    .line 24
+    invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/e49;->d(I)Lcom/huawei/appmarket/h09;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v1
+
+    .line 31
+    check-cast v1, Lcom/huawei/appmarket/y79;
+
+    .line 32
+    .line 33
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 34
+    .line 35
+    .line 36
+    :goto_1
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v0
+
+    .line 40
+    return-object v0
+
+    .line 41
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 42
+    .line 43
+    invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 44
+    .line 45
+    .line 46
+    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/e49;->d(I)Lcom/huawei/appmarket/h09;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v3
+
+    .line 50
+    check-cast v3, Lcom/huawei/appmarket/y79;
+
+    .line 51
+    .line 52
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-virtual {p0}, Lcom/huawei/appmarket/e49;->c()I
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v3
+
+    .line 59
+    if-le v3, v2, :cond_2
+
+    .line 60
+    .line 61
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/e49;->d(I)Lcom/huawei/appmarket/h09;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v1
+
+    .line 65
+    check-cast v1, Lcom/huawei/appmarket/ga9;
+
+    .line 66
+    .line 67
     :cond_2
-    invoke-interface {p0}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    move-result-object p0
+    .line 68
+    .line 69
+    .line 70
+    const-string v1, "]"
 
-    const/4 v0, 0x0
+    .line 71
+    .line 72
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    aget-object p0, p0, v0
-
-    invoke-static {p0}, Lcom/huawei/appmarket/ly8;->b(Ljava/lang/reflect/Type;)Ljava/lang/Class;
-
-    move-result-object p0
-
-    return-object p0
-
-    :cond_3
-    new-instance v0, Ljava/lang/IllegalArgumentException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "Not supported: "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    move-result-object p0
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw v0
+    .line 73
+    .line 74
+    .line 75
+    goto :goto_1
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
 .end method

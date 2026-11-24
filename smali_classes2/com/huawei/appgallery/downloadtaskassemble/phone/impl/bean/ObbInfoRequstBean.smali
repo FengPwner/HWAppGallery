@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/downloadtaskassemble/phone/impl/bean/ObbInfoRequstBean;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -33,7 +33,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     const-string v0, "client.batchAppObb"
 

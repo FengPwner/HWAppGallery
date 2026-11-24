@@ -4,17 +4,17 @@
 
 
 # instance fields
-.field rawResponse:Lcom/huawei/appmarket/vu6;
+.field rawResponse:Lcom/huawei/appmarket/zu6;
 
 
 # direct methods
-.method public constructor <init>(ZILcom/huawei/appmarket/vu6;)V
+.method public constructor <init>(ZILcom/huawei/appmarket/zu6;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p3, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iput-object p3, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
     return-void
 .end method
@@ -24,11 +24,11 @@
 .method public code()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->w()I
 
     move-result v0
 
@@ -55,7 +55,7 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
     if-nez v0, :cond_1
 
@@ -64,7 +64,7 @@
     return-object v0
 
     :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->C()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->C()Ljava/lang/String;
 
     move-result-object v0
 
@@ -107,9 +107,9 @@
     if-eqz p2, :cond_2
 
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     move-result-object v0
 
@@ -215,23 +215,23 @@
     const-string v0, ""
 
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/xu6;->w()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/bv6;->w()Ljava/lang/String;
 
     move-result-object v0
     :try_end_0
@@ -245,11 +245,11 @@
 .method public isSuccess()Z
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsResult;->rawResponse:Lcom/huawei/appmarket/zu6;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->B()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->B()Z
 
     move-result v0
 

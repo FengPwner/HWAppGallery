@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;->c:Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -40,7 +40,7 @@
     .registers 5
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -60,7 +60,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -77,7 +77,7 @@
     const/4 v1, 0x0
 
     .line 20
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     .line 21
     .line 22
@@ -175,5 +175,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -79,13 +79,13 @@
 
     const v1, 0x3e99999a    # 0.3f
 
-    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result v0
 
     iget v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwDefaultItemAnimator$bzqlh;->b:F
 
-    invoke-static {v2, v1, p1, v2}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v2, v1, p1, v2}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result p1
 

@@ -121,7 +121,7 @@
 
     move-object v4, v0
 
-    check-cast v4, Lcom/huawei/appmarket/rh;
+    check-cast v4, Lcom/huawei/appmarket/qh;
 
     const/4 v0, 0x6
 
@@ -129,7 +129,7 @@
 
     move-object v5, v0
 
-    check-cast v5, Lcom/huawei/appmarket/nh;
+    check-cast v5, Lcom/huawei/appmarket/mh;
 
     const/4 v0, 0x3
 
@@ -161,7 +161,7 @@
 
     move-object v9, v0
 
-    check-cast v9, Lcom/huawei/appmarket/ph;
+    check-cast v9, Lcom/huawei/appmarket/oh;
 
     move-object v0, p0
 
@@ -169,17 +169,17 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v9}, Lcom/huawei/appmarket/i7;-><init>(Ljava/lang/Object;Landroid/view/View;ILcom/huawei/appmarket/rh;Lcom/huawei/appmarket/nh;Landroid/view/View;Landroid/widget/FrameLayout;Lcom/huawei/uikit/hwcolumnlayout/widget/HwColumnLinearLayout;Lcom/huawei/appmarket/ph;)V
+    invoke-direct/range {v0 .. v9}, Lcom/huawei/appmarket/i7;-><init>(Ljava/lang/Object;Landroid/view/View;ILcom/huawei/appmarket/qh;Lcom/huawei/appmarket/mh;Landroid/view/View;Landroid/widget/FrameLayout;Lcom/huawei/uikit/hwcolumnlayout/widget/HwColumnLinearLayout;Lcom/huawei/appmarket/oh;)V
 
     const-wide/16 v0, -0x1
 
     iput-wide v0, p0, Lcom/huawei/appmarket/j7;->B:J
 
-    iget-object p1, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object p1, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
     invoke-virtual {p0, p1}, Landroidx/databinding/l;->I(Landroidx/databinding/l;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object p1, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
     invoke-virtual {p0, p1}, Landroidx/databinding/l;->I(Landroidx/databinding/l;)V
 
@@ -201,7 +201,7 @@
 
     invoke-virtual {p1, p3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object p1, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
     invoke-virtual {p0, p1}, Landroidx/databinding/l;->I(Landroidx/databinding/l;)V
 
@@ -368,7 +368,7 @@
 
     .line 14
     :cond_0
-    check-cast p3, Lcom/huawei/appmarket/nh;
+    check-cast p3, Lcom/huawei/appmarket/mh;
 
     .line 15
     .line 16
@@ -422,7 +422,7 @@
 
     .line 33
     :cond_2
-    check-cast p3, Lcom/huawei/appmarket/rh;
+    check-cast p3, Lcom/huawei/appmarket/qh;
 
     .line 34
     .line 35
@@ -454,7 +454,7 @@
 
     .line 47
     :cond_4
-    check-cast p3, Lcom/huawei/appmarket/ph;
+    check-cast p3, Lcom/huawei/appmarket/oh;
 
     .line 48
     .line 49
@@ -697,25 +697,32 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
-.method public final K(Lcom/huawei/appmarket/du4;)V
+.method public final K(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/du4;)V
+    invoke-super {p0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/gu4;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
-    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/gu4;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
-    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/gu4;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
-    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, p1}, Landroidx/databinding/l;->K(Lcom/huawei/appmarket/gu4;)V
 
     return-void
 .end method
@@ -1009,17 +1016,17 @@
 
     if-eqz v8, :cond_b
 
-    iget-object v8, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object v8, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
-    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/rh;->P(Lcom/huawei/appmarket/ae;)V
+    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/qh;->P(Lcom/huawei/appmarket/ae;)V
 
-    iget-object v8, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object v8, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
-    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/nh;->P(Lcom/huawei/appmarket/ae;)V
+    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/mh;->P(Lcom/huawei/appmarket/ae;)V
 
-    iget-object v8, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v8, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
-    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/ph;->P(Lcom/huawei/appmarket/ae;)V
+    invoke-virtual {v8, v4}, Lcom/huawei/appmarket/oh;->P(Lcom/huawei/appmarket/ae;)V
 
     :cond_b
     and-long/2addr v0, v5
@@ -1032,7 +1039,7 @@
 
     invoke-virtual {v0, v9}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->u()Landroid/view/View;
 
@@ -1041,15 +1048,15 @@
     invoke-virtual {v0, v7}, Landroid/view/View;->setVisibility(I)V
 
     :cond_c
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
     invoke-static {v0}, Landroidx/databinding/l;->p(Landroidx/databinding/l;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
     invoke-static {v0}, Landroidx/databinding/l;->p(Landroidx/databinding/l;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
     invoke-static {v0}, Landroidx/databinding/l;->p(Landroidx/databinding/l;)V
 
@@ -1097,7 +1104,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->x()Z
 
@@ -1108,7 +1115,7 @@
     return v4
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->x()Z
 
@@ -1119,7 +1126,7 @@
     return v4
 
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->x()Z
 
@@ -1158,15 +1165,15 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/rh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->v:Lcom/huawei/appmarket/qh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->y()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/ph;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->z:Lcom/huawei/appmarket/oh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->y()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/nh;
+    iget-object v0, p0, Lcom/huawei/appmarket/i7;->w:Lcom/huawei/appmarket/mh;
 
     invoke-virtual {v0}, Landroidx/databinding/l;->y()V
 

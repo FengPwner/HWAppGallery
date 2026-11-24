@@ -27,7 +27,7 @@
 
     const-string v0, "IGetFileNameHelper"
 
-    const-class v1, Lcom/huawei/appmarket/gr3;
+    const-class v1, Lcom/huawei/appmarket/ir3;
 
     const/4 v2, 0x0
 
@@ -35,13 +35,13 @@
 
     const-string v0, "IWebViewLite"
 
-    const-class v1, Lcom/huawei/appmarket/j64;
+    const-class v1, Lcom/huawei/appmarket/m64;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IWebDisplayConfig"
 
-    const-class v1, Lcom/huawei/appmarket/d64;
+    const-class v1, Lcom/huawei/appmarket/g64;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

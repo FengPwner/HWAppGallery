@@ -187,7 +187,7 @@
     const-string v1, "resizeClip"
 
     .line 2
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result p2
 
@@ -215,7 +215,7 @@
     .line 1
     iget-object v0, p1, Landroidx/transition/y;->b:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     move-result v1
 
@@ -274,7 +274,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->m(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->m(Landroid/view/View;)Landroid/graphics/Rect;
 
     move-result-object p1
 
@@ -1129,7 +1129,7 @@
 
     .line 369
     .line 370
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 371
     .line 372

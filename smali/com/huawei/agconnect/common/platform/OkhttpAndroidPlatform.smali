@@ -1,5 +1,5 @@
 .class public Lcom/huawei/agconnect/common/platform/OkhttpAndroidPlatform;
-.super Lcom/huawei/appmarket/m16;
+.super Lcom/huawei/appmarket/o16;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/m16;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/o16;-><init>()V
 
     invoke-static {}, Lcom/huawei/agconnect/common/platform/OkhttpAndroidPlatform$OkhttpCloseGuard;->a()Lcom/huawei/agconnect/common/platform/OkhttpAndroidPlatform$OkhttpCloseGuard;
 
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public buildCertificateChainCleaner(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/wm0;
+.method public buildCertificateChainCleaner(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/xm0;
     .registers 10
 
     .line 1
@@ -106,14 +106,14 @@
     return-object v1
 
     :catch_0
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/m16;->buildCertificateChainCleaner(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/wm0;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o16;->buildCertificateChainCleaner(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/xm0;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public buildTrustRootIndex(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/k48;
+.method public buildTrustRootIndex(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/q48;
     .registers 8
 
     .line 1
@@ -149,7 +149,7 @@
     return-object v1
 
     :catch_0
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/m16;->buildTrustRootIndex(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/k48;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o16;->buildTrustRootIndex(Ljavax/net/ssl/X509TrustManager;)Lcom/huawei/appmarket/q48;
 
     move-result-object p1
 
@@ -164,7 +164,7 @@
             "Ljavax/net/ssl/SSLSocket;",
             "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;)V"
         }
     .end annotation
@@ -189,7 +189,7 @@
     .registers 4
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+    invoke-static {}, Lcom/huawei/appmarket/vz6;->e()Ljavax/net/ssl/SSLContext;
 
     move-result-object v0
     :try_end_0
@@ -232,7 +232,7 @@
 .method public isCleartextTrafficPermitted(Ljava/lang/String;)Z
     .registers 2
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/m16;->isCleartextTrafficPermitted(Ljava/lang/String;)Z
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o16;->isCleartextTrafficPermitted(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -242,7 +242,7 @@
 .method public log(ILjava/lang/String;Ljava/lang/Throwable;)V
     .registers 4
 
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/m16;->log(ILjava/lang/String;Ljava/lang/Throwable;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/o16;->log(ILjava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method

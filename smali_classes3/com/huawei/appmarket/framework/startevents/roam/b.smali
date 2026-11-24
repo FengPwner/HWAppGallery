@@ -30,7 +30,7 @@
 
     invoke-static {}, Lcom/huawei/appmarket/framework/startevents/roam/a;->a()V
 
-    invoke-static {}, Lcom/huawei/appmarket/vx6;->d()Lcom/huawei/appmarket/vx6;
+    invoke-static {}, Lcom/huawei/appmarket/zx6;->d()Lcom/huawei/appmarket/zx6;
 
     move-result-object p1
 
@@ -40,7 +40,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/vx6;->b(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/zx6;->b(I)V
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 

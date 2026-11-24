@@ -9,19 +9,19 @@
 
 # instance fields
 .field private hcrId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private secretHash_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private secret_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -42,7 +42,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -232,7 +232,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 14
     .line 15
@@ -240,7 +240,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->d()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -253,7 +253,7 @@
     .line 22
     .line 23
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 24
     .line 25
@@ -261,7 +261,7 @@
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->d()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -281,7 +281,7 @@
     move-result-object v0
 
     .line 37
-    invoke-static {v0}, Lcom/huawei/appmarket/tf0;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/uf0;->a([B)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -315,13 +315,13 @@
 
     .line 51
     .line 52
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
     .line 55
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/u53;->t()Lcom/huawei/appmarket/u53;
+    invoke-static {}, Lcom/huawei/appmarket/x53;->t()Lcom/huawei/appmarket/x53;
 
     .line 56
     .line 57
@@ -329,7 +329,7 @@
     move-result-object v0
 
     .line 59
-    invoke-virtual {v0}, Lcom/huawei/appmarket/u53;->r()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/x53;->r()Ljava/lang/String;
 
     .line 60
     .line 61
@@ -349,7 +349,7 @@
 
     .line 68
     .line 69
-    invoke-static {}, Lcom/huawei/appmarket/u53;->t()Lcom/huawei/appmarket/u53;
+    invoke-static {}, Lcom/huawei/appmarket/x53;->t()Lcom/huawei/appmarket/x53;
 
     .line 70
     .line 71
@@ -357,7 +357,7 @@
     move-result-object v0
 
     .line 73
-    invoke-virtual {v0}, Lcom/huawei/appmarket/u53;->r()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/x53;->r()Ljava/lang/String;
 
     .line 74
     .line 75

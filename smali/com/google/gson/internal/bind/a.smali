@@ -1,5 +1,5 @@
 .class public final Lcom/google/gson/internal/bind/a;
-.super Lcom/huawei/appmarket/gp4;
+.super Lcom/huawei/appmarket/jp4;
 .source "SourceFile"
 
 
@@ -38,13 +38,13 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/mo4;)V
+.method public constructor <init>(Lcom/huawei/appmarket/po4;)V
     .registers 4
 
     .line 1
     sget-object v0, Lcom/google/gson/internal/bind/a;->u:Ljava/io/Reader;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/gp4;-><init>(Ljava/io/Reader;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/jp4;-><init>(Ljava/io/Reader;)V
 
     const/16 v0, 0x20
 
@@ -90,7 +90,7 @@
 
     aget-object v4, v3, v1
 
-    instance-of v5, v4, Lcom/huawei/appmarket/do4;
+    instance-of v5, v4, Lcom/huawei/appmarket/go4;
 
     if-eqz v5, :cond_2
 
@@ -137,7 +137,7 @@
     goto :goto_1
 
     :cond_2
-    instance-of v4, v4, Lcom/huawei/appmarket/yo4;
+    instance-of v4, v4, Lcom/huawei/appmarket/bp4;
 
     if-eqz v4, :cond_3
 
@@ -386,9 +386,10 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method private v0(Lcom/huawei/appmarket/np4;)V
+.method private v0(Lcom/huawei/appmarket/qp4;)V
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -397,7 +398,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
@@ -420,7 +421,7 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object p1
 
@@ -450,9 +451,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->f:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->f:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->y0()Ljava/lang/Object;
 
@@ -546,9 +547,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->f:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->f:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->y0()Ljava/lang/Object;
 
@@ -568,7 +569,7 @@
 
     invoke-direct {p0, v1}, Lcom/google/gson/internal/bind/a;->B0(Ljava/lang/Object;)V
 
-    new-instance v1, Lcom/huawei/appmarket/dp4;
+    new-instance v1, Lcom/huawei/appmarket/gp4;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -576,7 +577,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/dp4;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/gp4;-><init>(Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/google/gson/internal/bind/a;->B0(Ljava/lang/Object;)V
 
@@ -605,19 +606,19 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->e:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->e:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->c:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->c:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->k:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->k:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
@@ -641,17 +642,17 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->i:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->i:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->z0()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->g()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->g()Z
 
     move-result v0
 
@@ -682,15 +683,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v2, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v2, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     if-ne v0, v2, :cond_0
 
@@ -733,13 +734,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->h()D
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->h()D
 
     move-result-wide v0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/gp4;->E()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/jp4;->E()Z
 
     move-result v2
 
@@ -809,15 +810,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v2, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v2, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     if-ne v0, v2, :cond_0
 
@@ -860,9 +861,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->b()I
 
     move-result v0
 
@@ -895,15 +896,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v2, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v2, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     if-ne v0, v2, :cond_0
 
@@ -946,9 +947,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->i()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->i()J
 
     move-result-wide v0
 
@@ -1024,9 +1025,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->j:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->j:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->z0()Ljava/lang/Object;
 
@@ -1057,15 +1058,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v2, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v2, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     if-ne v0, v2, :cond_0
 
@@ -1108,9 +1109,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->e()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1132,7 +1133,7 @@
     return-object v0
 .end method
 
-.method public final l0()Lcom/huawei/appmarket/np4;
+.method public final l0()Lcom/huawei/appmarket/qp4;
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1145,7 +1146,7 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->k:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->k:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
@@ -1166,7 +1167,7 @@
 
     aget-object v1, v1, v2
 
-    instance-of v1, v1, Lcom/huawei/appmarket/yo4;
+    instance-of v1, v1, Lcom/huawei/appmarket/bp4;
 
     check-cast v0, Ljava/util/Iterator;
 
@@ -1178,7 +1179,7 @@
 
     if-eqz v1, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->f:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->f:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
@@ -1189,7 +1190,7 @@
 
     invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->B0(Ljava/lang/Object;)V
 
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
@@ -1198,70 +1199,70 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->e:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->e:Lcom/huawei/appmarket/qp4;
 
     goto :goto_0
 
     :cond_3
-    sget-object v0, Lcom/huawei/appmarket/np4;->c:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->c:Lcom/huawei/appmarket/qp4;
 
     :goto_0
     return-object v0
 
     :cond_4
-    instance-of v1, v0, Lcom/huawei/appmarket/yo4;
+    instance-of v1, v0, Lcom/huawei/appmarket/bp4;
 
     if-eqz v1, :cond_5
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->d:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->d:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
     :cond_5
-    instance-of v1, v0, Lcom/huawei/appmarket/do4;
+    instance-of v1, v0, Lcom/huawei/appmarket/go4;
 
     if-eqz v1, :cond_6
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->b:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->b:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
     :cond_6
-    instance-of v1, v0, Lcom/huawei/appmarket/dp4;
+    instance-of v1, v0, Lcom/huawei/appmarket/gp4;
 
     if-eqz v1, :cond_a
 
-    check-cast v0, Lcom/huawei/appmarket/dp4;
+    check-cast v0, Lcom/huawei/appmarket/gp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->n()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->n()Z
 
     move-result v1
 
     if-eqz v1, :cond_7
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->g:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->g:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
     :cond_7
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->k()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->k()Z
 
     move-result v1
 
     if-eqz v1, :cond_8
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->i:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->i:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
     :cond_8
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dp4;->m()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gp4;->m()Z
 
     move-result v0
 
     if-eqz v0, :cond_9
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->h:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->h:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
@@ -1273,11 +1274,11 @@
     throw v0
 
     :cond_a
-    instance-of v1, v0, Lcom/huawei/appmarket/uo4;
+    instance-of v1, v0, Lcom/huawei/appmarket/xo4;
 
     if-eqz v1, :cond_b
 
-    sget-object v0, Lcom/huawei/appmarket/np4;->j:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->j:Lcom/huawei/appmarket/qp4;
 
     return-object v0
 
@@ -1335,17 +1336,17 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->b:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->b:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->y0()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/do4;
+    check-cast v0, Lcom/huawei/appmarket/go4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/do4;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/go4;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -1373,7 +1374,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
@@ -1446,17 +1447,17 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->d:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->d:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->y0()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/yo4;
+    check-cast v0, Lcom/huawei/appmarket/bp4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yo4;->i()Ljava/util/Set;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bp4;->i()Ljava/util/Set;
 
     move-result-object v0
 
@@ -1506,9 +1507,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->c:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->c:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     invoke-direct {p0}, Lcom/google/gson/internal/bind/a;->z0()Ljava/lang/Object;
 
@@ -1532,7 +1533,7 @@
     return-void
 .end method
 
-.method final w0()Lcom/huawei/appmarket/mo4;
+.method final w0()Lcom/huawei/appmarket/po4;
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1541,23 +1542,23 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->l0()Lcom/huawei/appmarket/qp4;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->f:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->f:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->c:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->c:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->e:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->e:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/np4;->k:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->k:Lcom/huawei/appmarket/qp4;
 
     if-eq v0, v1, :cond_0
 
@@ -1565,7 +1566,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/mo4;
+    check-cast v0, Lcom/huawei/appmarket/po4;
 
     invoke-virtual {p0}, Lcom/google/gson/internal/bind/a;->s0()V
 
@@ -1604,9 +1605,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/np4;->e:Lcom/huawei/appmarket/np4;
+    sget-object v0, Lcom/huawei/appmarket/qp4;->e:Lcom/huawei/appmarket/qp4;
 
-    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/np4;)V
+    invoke-direct {p0, v0}, Lcom/google/gson/internal/bind/a;->v0(Lcom/huawei/appmarket/qp4;)V
 
     iget-object v0, p0, Lcom/google/gson/internal/bind/a;->s:[Ljava/lang/String;
 

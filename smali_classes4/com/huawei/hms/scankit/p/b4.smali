@@ -150,7 +150,7 @@
     const-string p2, "Invalid mask pattern: "
 
     .line 3
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

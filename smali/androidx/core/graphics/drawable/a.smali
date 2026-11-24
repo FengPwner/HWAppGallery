@@ -83,13 +83,13 @@
     goto :goto_2
 
     :cond_1
-    instance-of v0, p0, Lcom/huawei/appmarket/ys8;
+    instance-of v0, p0, Lcom/huawei/appmarket/et8;
 
     if-eqz v0, :cond_2
 
-    check-cast p0, Lcom/huawei/appmarket/ys8;
+    check-cast p0, Lcom/huawei/appmarket/et8;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/ys8;->a()Landroid/graphics/drawable/Drawable;
+    invoke-interface {p0}, Lcom/huawei/appmarket/et8;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
 
@@ -440,7 +440,7 @@
     return-object p0
 
     :cond_0
-    instance-of v0, p0, Lcom/huawei/appmarket/rz7;
+    instance-of v0, p0, Lcom/huawei/appmarket/wz7;
 
     if-nez v0, :cond_1
 

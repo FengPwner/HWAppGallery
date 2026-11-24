@@ -55,7 +55,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 11
     .line 12
@@ -63,12 +63,12 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xz5;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zz5;->h()V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 18
     .line 19
@@ -135,7 +135,7 @@
     .line 49
     .line 50
     .line 51
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 52
     .line 53
@@ -143,12 +143,12 @@
 
     .line 54
     .line 55
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 56
     .line 57
     .line 58
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 59
     .line 60
@@ -201,12 +201,12 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {p0, p1, p1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, p1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 87
     .line 88
@@ -278,7 +278,7 @@
 
     .line 120
     .line 121
-    invoke-static {}, Lcom/huawei/appmarket/j66;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/l66;->b()Z
 
     .line 122
     .line 123

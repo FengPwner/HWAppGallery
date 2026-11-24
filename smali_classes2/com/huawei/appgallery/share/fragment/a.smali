@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/vs3;
+.field final synthetic b:Lcom/huawei/appmarket/xs3;
 
 .field final synthetic c:Ljava/lang/String;
 
@@ -15,13 +15,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+.method constructor <init>(Lcom/huawei/appgallery/share/fragment/ImageShareFragment;Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/share/fragment/a;->d:Lcom/huawei/appgallery/share/fragment/ImageShareFragment;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/share/fragment/a;->b:Lcom/huawei/appmarket/vs3;
+    iput-object p2, p0, Lcom/huawei/appgallery/share/fragment/a;->b:Lcom/huawei/appmarket/xs3;
 
     iput-object p3, p0, Lcom/huawei/appgallery/share/fragment/a;->c:Ljava/lang/String;
 
@@ -36,11 +36,11 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/o94$a;
+    new-instance v0, Lcom/huawei/appmarket/q94$a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 4
     .line 5
@@ -57,7 +57,7 @@
     move-result-object v2
 
     .line 12
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 13
     .line 14
@@ -67,7 +67,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/o94$a;->v(I)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/q94$a;->v(I)V
 
     .line 19
     .line 20
@@ -80,21 +80,21 @@
     move-result-object v1
 
     .line 25
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/o94$a;->o(Lcom/huawei/appmarket/uo5;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/q94$a;->o(Lcom/huawei/appmarket/vo5;)V
 
     .line 26
     .line 27
     .line 28
-    new-instance v1, Lcom/huawei/appmarket/o94;
+    new-instance v1, Lcom/huawei/appmarket/q94;
 
     .line 29
     .line 30
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/o94;-><init>(Lcom/huawei/appmarket/o94$a;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/q94;-><init>(Lcom/huawei/appmarket/q94$a;)V
 
     .line 31
     .line 32
     .line 33
-    iget-object v0, p0, Lcom/huawei/appgallery/share/fragment/a;->b:Lcom/huawei/appmarket/vs3;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/fragment/a;->b:Lcom/huawei/appmarket/xs3;
 
     .line 34
     .line 35
@@ -102,7 +102,7 @@
 
     .line 36
     .line 37
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 38
     .line 39

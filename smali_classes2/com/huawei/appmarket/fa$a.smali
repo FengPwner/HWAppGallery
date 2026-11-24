@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/fa$a;
-.super Lcom/huawei/appmarket/w65;
+.super Lcom/huawei/appmarket/z65;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/fa;->a(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/ni8;)V
+    value = Lcom/huawei/appmarket/fa;->a(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/ti8;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ni8;
+.field final synthetic b:Lcom/huawei/appmarket/ti8;
 
 .field final synthetic c:Z
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ni8;Z)V
+.method constructor <init>(Lcom/huawei/appmarket/ti8;Z)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/fa$a;->b:Lcom/huawei/appmarket/ni8;
+    iput-object p1, p0, Lcom/huawei/appmarket/fa$a;->b:Lcom/huawei/appmarket/ti8;
 
     iput-boolean p2, p0, Lcom/huawei/appmarket/fa$a;->c:Z
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/w65;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/z65;-><init>()V
 
     return-void
 .end method
@@ -40,11 +40,11 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/fa$a;->b:Lcom/huawei/appmarket/ni8;
+    iget-object v0, p0, Lcom/huawei/appmarket/fa$a;->b:Lcom/huawei/appmarket/ti8;
 
     .line 2
     .line 3
-    instance-of v1, v0, Lcom/huawei/appmarket/ff4;
+    instance-of v1, v0, Lcom/huawei/appmarket/hf4;
 
     .line 4
     .line 5
@@ -59,7 +59,7 @@
 
     .line 9
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/ff4;
+    check-cast v0, Lcom/huawei/appmarket/hf4;
 
     .line 11
     .line 12
@@ -81,7 +81,7 @@
 
     .line 18
     :goto_0
-    iget-object v5, v0, Lcom/huawei/appmarket/ff4;->r:Lcom/huawei/appmarket/zd5;
+    iget-object v5, v0, Lcom/huawei/appmarket/hf4;->r:Lcom/huawei/appmarket/ce5;
 
     .line 19
     .line 20
@@ -93,12 +93,12 @@
     move-result-object v4
 
     .line 24
-    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    iget-object v4, v0, Lcom/huawei/appmarket/ff4;->h:Lcom/huawei/appmarket/zd5;
+    iget-object v4, v0, Lcom/huawei/appmarket/hf4;->h:Lcom/huawei/appmarket/ce5;
 
     .line 28
     .line 29
@@ -135,7 +135,7 @@
 
     .line 45
     :cond_1
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->c:Lcom/huawei/appmarket/iu;
+    iget-object v0, v0, Lcom/huawei/appmarket/hf4;->c:Lcom/huawei/appmarket/ju;
 
     .line 46
     .line 47
@@ -143,13 +143,13 @@
 
     .line 48
     .line 49
-    invoke-static {v0, v1, v4}, Lcom/huawei/appmarket/l90;->M(Lcom/huawei/appmarket/iu;IZ)V
+    invoke-static {v0, v1, v4}, Lcom/huawei/appmarket/l90;->M(Lcom/huawei/appmarket/ju;IZ)V
 
     .line 50
     .line 51
     .line 52
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/qh4;->r()Lcom/huawei/appmarket/qh4;
+    invoke-static {}, Lcom/huawei/appmarket/sh4;->r()Lcom/huawei/appmarket/sh4;
 
     .line 53
     .line 54
@@ -161,7 +161,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qh4;->s(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sh4;->s(Z)V
 
     .line 59
     .line 60

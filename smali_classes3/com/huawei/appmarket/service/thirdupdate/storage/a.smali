@@ -19,7 +19,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 5
     .line 6
@@ -327,7 +327,7 @@
 
     .line 57
     .line 58
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -342,7 +342,7 @@
 
     .line 63
     .line 64
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 65
     .line 66
@@ -396,7 +396,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static b()V
@@ -425,7 +424,7 @@
 
     const-string v2, "deleteComponentCallerDataList"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
@@ -486,7 +485,7 @@
 
     const-string v3, "getComponentCallerDataList "
 
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-object v1

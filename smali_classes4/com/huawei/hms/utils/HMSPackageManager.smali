@@ -259,7 +259,7 @@
     const-string v4, "&"
 
     .line 2
-    invoke-static {p2, v4, p4}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v4, p4}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -681,7 +681,7 @@
     const/4 v0, 0x1
 
     .line 17
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p3
 
@@ -1053,7 +1053,7 @@
 
     if-nez v0, :cond_3
 
-    const-string v0, "verifyApkHash fail!"
+    const-string/jumbo v0, "verifyApkHash fail!"
 
     goto :goto_0
 
@@ -1818,7 +1818,7 @@
     .line 119
     .line 120
     .line 121
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 122
     .line 123
@@ -2008,6 +2008,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private i()Landroid/util/Pair;
@@ -2265,7 +2285,7 @@
 
     .line 123
     .line 124
-    invoke-static {v0, v4, v1, v5, v1}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v4, v1, v5, v1}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 125
     .line 126
@@ -2479,6 +2499,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private j()Ljava/util/ArrayList;
@@ -2823,7 +2863,7 @@
 
     .line 162
     .line 163
-    invoke-static {v3, v6, v4, v7, v4}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v6, v4, v7, v4}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 164
     .line 165
@@ -2910,7 +2950,7 @@
     .line 204
     .line 205
     .line 206
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 207
     .line 208
@@ -3015,6 +3055,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private k()V

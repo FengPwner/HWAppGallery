@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->i()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->i()I
 
     move-result v0
 
@@ -214,7 +214,7 @@
 
     .line 91
     .line 92
-    invoke-static {v5, v7}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -232,7 +232,7 @@
 
     .line 100
     .line 101
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 102
     .line 103
@@ -265,7 +265,7 @@
 
     .line 115
     .line 116
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 117
     .line 118
@@ -358,7 +358,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final f(Landroid/view/LayoutInflater;)Landroid/view/ViewGroup;

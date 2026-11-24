@@ -108,7 +108,7 @@
 
     .line 37
     .line 38
-    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 39
     .line 40
@@ -191,7 +191,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/network/embedded/rb;)Lcom/huawei/hms/network/embedded/yb;

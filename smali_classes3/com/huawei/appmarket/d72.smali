@@ -3,12 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/d72$a;
-    }
-.end annotation
+# static fields
+.field private static a:Ljava/lang/String;
 
 
 # direct methods
@@ -21,116 +17,107 @@
 .end method
 
 .method public static a()V
-    .registers 2
+    .registers 7
 
     .line 1
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.appmovemanager"
+    const-class v0, Lcom/huawei/appmarket/oo3;
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/AppMoveAction;
+    const-string v1, "DownloadProxy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
-    const-string v0, "com.huawei.appmarket.service.appmgr.apkmanagement.activity.apkmanagement"
+    move-result-object v2
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/ApkManagerAction;
+    check-cast v2, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-interface {v2}, Lcom/huawei/appmarket/oo3;->c()Ljava/util/List;
 
-    const-string v0, "com.huawei.appmarket.intent.action.launcher.downloadmanager"
+    move-result-object v2
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/LauncherManagerApp;
+    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result-object v2
 
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.appmanager"
+    :cond_0
+    :goto_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/AppUpdateAction;
+    move-result v3
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    if-eqz v3, :cond_1
 
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.SearchActivity"
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/SearchAction;
+    move-result-object v3
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    check-cast v3, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
-    const-string v0, "com.huawei.appmarket.service.externalapi.actions.PayZoneAction"
+    if-eqz v3, :cond_0
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/PayZoneAction;
+    const-string v4, "extendZoneType"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
 
-    const-string v0, "android.intent.action.VIEW"
+    move-result-object v4
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/AppViewAction;
+    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result v4
 
-    const-string v0, "android.intent.action.SHOW_APP_INFO"
+    if-nez v4, :cond_0
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/ShowAppInfoAction;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result-object v4
 
-    const-string v0, "com.huawei.appmarket.intent.action.AG_DETAIL.departGuidePage"
+    check-cast v4, Lcom/huawei/appmarket/oo3;
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;
+    invoke-virtual {v3}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->L()J
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result-wide v5
 
-    const-string v0, "com.huawei.appmarket.intent.action.ThirdUpdateAction"
+    invoke-interface {v4, v5, v6}, Lcom/huawei/appmarket/oo3;->d(J)V
 
-    const-class v1, Lcom/huawei/appmarket/service/thirdupdate/ThirdAppUpdateAction;
+    new-instance v4, Ljava/lang/StringBuilder;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    const-string v5, "cancelExtendZoneTask "
 
-    const-string v0, "com.huawei.appmarket.intent.action.ThirdUpdateRemindAction"
+    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/ThirdAppUpdateRemindAction;
+    invoke-virtual {v3}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result-object v3
 
-    const-string v0, "com.huawei.appmarket.intent.action.guidecomment"
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    move-result-object v3
 
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.campaign.gift"
+    const-string v4, "ExtendZoneAppManager"
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/CampaignGiftShortCutAction;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    goto :goto_0
 
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.checkProtocolWithUpdate"
+    :cond_1
+    return-void
+.end method
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction;
+.method public static b()Ljava/lang/String;
+    .registers 1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/d72;->a:Ljava/lang/String;
 
-    sget-object v0, Lcom/huawei/appmarket/d72$a;->a:Ljava/lang/String;
+    return-object v0
+.end method
 
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/ShowGameServiceAuthAppsAction;
+.method public static c(Ljava/lang/String;)V
+    .registers 1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
-
-    const-string v0, "com.huawei.appmarket.intent.action.AG_GUARD.scanApps"
-
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/AgGuardScanAppsAction;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
-
-    const-string v0, "com.huawei.appmarket.intent.action.AG_GUARD.installInterceptRecords"
-
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/AgGuardInterceptRecordsAction;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
-
-    const-string v0, "com.huawei.appmarket.appmarket.intent.action.h5.activity"
-
-    const-class v1, Lcom/huawei/appmarket/service/externalapi/actions/H5ActivityAction;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    .line 1
+    sput-object p0, Lcom/huawei/appmarket/d72;->a:Ljava/lang/String;
 
     return-void
 .end method

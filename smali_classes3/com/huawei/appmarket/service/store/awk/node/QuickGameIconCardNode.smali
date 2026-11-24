@@ -107,14 +107,14 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -162,7 +162,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -263,7 +263,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;

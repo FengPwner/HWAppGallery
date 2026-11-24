@@ -35,7 +35,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/activity/g;->b:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Z(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Z(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -43,7 +43,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/cloudgame/gamedist/activity/g$a;-><init>(Lcom/huawei/appgallery/cloudgame/gamedist/activity/g;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

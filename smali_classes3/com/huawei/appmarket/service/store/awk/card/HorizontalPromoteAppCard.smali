@@ -30,7 +30,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -57,7 +57,7 @@
 
     const-string v0, "setData: list\'s item is not instanceof HorizontalPromoteAppItemCardBean"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -78,7 +78,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v4
 

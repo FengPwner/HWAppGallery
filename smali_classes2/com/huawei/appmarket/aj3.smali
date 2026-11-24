@@ -4,22 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;)V
-.end method
-
-.method public abstract b(Landroid/content/Context;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ljava/lang/String;",
-            "Ljava/util/LinkedHashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract c(Landroid/content/Context;)Ljava/util/ArrayList;
+.method public abstract a()V
 .end method

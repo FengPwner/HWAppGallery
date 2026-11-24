@@ -43,16 +43,16 @@
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 16
     .line 17
@@ -153,7 +153,7 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
 
     .line 20
     .line 21
@@ -179,7 +179,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -193,7 +193,7 @@
 
     .line 38
     .line 39
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -265,5 +265,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -83,7 +83,7 @@
 
     iput-boolean p1, p2, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l()V
+    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->m()V
 
     :cond_1
     :goto_0
@@ -145,13 +145,13 @@
 
     const-string p3, "HorizontalWrapTabsController"
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p2, 0x0
 
     iput-boolean p2, p1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l()V
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->m()V
 
     :cond_2
     :goto_0

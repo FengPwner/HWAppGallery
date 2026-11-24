@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s16$d;
+.implements Lcom/huawei/appmarket/u16$d;
 
 
 # annotations
@@ -46,15 +46,15 @@
 
 .field private mMediaSourceHelper:Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;
 
-.field private mRendererFactory:Lcom/huawei/appmarket/dq6;
+.field private mRendererFactory:Lcom/huawei/appmarket/gq6;
 
-.field private mSpeedPlaybackParameters:Lcom/huawei/appmarket/q16;
+.field private mSpeedPlaybackParameters:Lcom/huawei/appmarket/s16;
 
 .field private mSurface:Landroid/view/Surface;
 
 .field private mTimer:Ljava/util/Timer;
 
-.field private mTrackSelector:Lcom/huawei/appmarket/j28;
+.field private mTrackSelector:Lcom/huawei/appmarket/o28;
 
 .field private sourceIndex:I
 
@@ -69,7 +69,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->Companion:Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer$Companion;
 
@@ -137,7 +137,7 @@
 
     const-string v2, "cancelTimerTask"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTimer:Ljava/util/Timer;
 
@@ -186,7 +186,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mCache:Landroidx/media3/datasource/cache/Cache;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Landroidx/media3/datasource/cache/CacheDataSink$a;->b(Landroidx/media3/datasource/cache/Cache;)V
 
@@ -198,7 +198,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mCache:Landroidx/media3/datasource/cache/Cache;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/media3/datasource/cache/a$c;->f(Landroidx/media3/datasource/cache/Cache;)V
 
@@ -284,7 +284,7 @@
 
     const-string v2, "IllegalStateException "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -322,7 +322,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->G()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->G()J
 
     move-result-wide v0
 
@@ -342,7 +342,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->c()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->c()J
 
     move-result-wide v0
 
@@ -396,7 +396,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mLoadControl:Landroidx/media3/exoplayer/q;
 
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/dq6;
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/gq6;
 
     if-nez p1, :cond_2
 
@@ -404,14 +404,14 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mAppContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-direct {p1, v0}, Landroidx/media3/exoplayer/DefaultRenderersFactory;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/dq6;
+    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/gq6;
 
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/j28;
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/o28;
 
     if-nez p1, :cond_3
 
@@ -419,30 +419,30 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mAppContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-direct {p1, v0}, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/j28;
+    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/o28;
 
     :cond_3
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/dq6;
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mRendererFactory:Lcom/huawei/appmarket/gq6;
 
     if-eqz p1, :cond_6
 
     new-instance v0, Landroidx/media3/exoplayer/ExoPlayer$Builder;
 
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p1}, Landroidx/media3/exoplayer/ExoPlayer$Builder;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/dq6;)V
+    invoke-direct {v0, v1, p1}, Landroidx/media3/exoplayer/ExoPlayer$Builder;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/gq6;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/j28;
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mTrackSelector:Lcom/huawei/appmarket/o28;
 
     if-eqz p1, :cond_4
 
-    invoke-virtual {v0, p1}, Landroidx/media3/exoplayer/ExoPlayer$Builder;->c(Lcom/huawei/appmarket/j28;)V
+    invoke-virtual {v0, p1}, Landroidx/media3/exoplayer/ExoPlayer$Builder;->c(Lcom/huawei/appmarket/o28;)V
 
     :cond_4
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mLoadControl:Landroidx/media3/exoplayer/q;
@@ -465,7 +465,7 @@
 
     if-eqz p1, :cond_7
 
-    invoke-interface {p1, p0}, Lcom/huawei/appmarket/s16;->v(Lcom/huawei/appmarket/s16$d;)V
+    invoke-interface {p1, p0}, Lcom/huawei/appmarket/u16;->v(Lcom/huawei/appmarket/u16$d;)V
 
     :cond_7
     return-void
@@ -486,7 +486,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->A()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->A()I
 
     move-result v0
 
@@ -537,7 +537,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->r()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->r()Z
 
     move-result v1
 
@@ -546,7 +546,7 @@
     return v1
 .end method
 
-.method public bridge synthetic onAudioAttributesChanged(Lcom/huawei/appmarket/ez;)V
+.method public bridge synthetic onAudioAttributesChanged(Lcom/huawei/appmarket/fz;)V
     .registers 2
 
     .line 1
@@ -560,7 +560,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onAvailableCommandsChanged(Lcom/huawei/appmarket/s16$b;)V
+.method public bridge synthetic onAvailableCommandsChanged(Lcom/huawei/appmarket/u16$b;)V
     .registers 2
 
     .line 1
@@ -583,7 +583,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onDeviceInfoChanged(Lcom/huawei/appmarket/an1;)V
+.method public bridge synthetic onDeviceInfoChanged(Lcom/huawei/appmarket/dn1;)V
     .registers 2
 
     .line 1
@@ -597,7 +597,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onEvents(Lcom/huawei/appmarket/s16;Lcom/huawei/appmarket/s16$c;)V
+.method public bridge synthetic onEvents(Lcom/huawei/appmarket/u16;Lcom/huawei/appmarket/u16$c;)V
     .registers 3
 
     .line 1
@@ -634,7 +634,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onMediaItemTransition(Lcom/huawei/appmarket/n55;I)V
+.method public bridge synthetic onMediaItemTransition(Lcom/huawei/appmarket/q55;I)V
     .registers 3
 
     .line 1
@@ -662,7 +662,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onPlaybackParametersChanged(Lcom/huawei/appmarket/q16;)V
+.method public bridge synthetic onPlaybackParametersChanged(Lcom/huawei/appmarket/s16;)V
     .registers 2
 
     .line 1
@@ -688,7 +688,7 @@
 
     const-string v0, "error"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Lcom/huawei/appgallery/videokit/VideoKitLog;->LOG:Lcom/huawei/appgallery/videokit/VideoKitLog;
 
@@ -706,7 +706,7 @@
 
     const-string v2, "ExoMediaPlayer"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     instance-of v1, p1, Landroidx/media3/exoplayer/ExoPlaybackException;
 
@@ -748,7 +748,7 @@
     :cond_3
     const-string p1, "onPlayerError"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->cancelTimerTask()V
 
@@ -796,7 +796,7 @@
 
     const-string v2, "ExoMediaPlayer"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mLastReportedPlayWhenReady:Z
 
@@ -909,7 +909,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onPositionDiscontinuity(Lcom/huawei/appmarket/s16$e;Lcom/huawei/appmarket/s16$e;I)V
+.method public bridge synthetic onPositionDiscontinuity(Lcom/huawei/appmarket/u16$e;Lcom/huawei/appmarket/u16$e;I)V
     .registers 4
 
     .line 2
@@ -937,7 +937,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/s16;->A()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/u16;->A()I
 
     move-result v2
 
@@ -959,7 +959,7 @@
 
     const-string v2, "ExoMediaPlayer"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1022,7 +1022,7 @@
     return-void
 .end method
 
-.method public bridge synthetic onTimelineChanged(Lcom/huawei/appmarket/mz7;I)V
+.method public bridge synthetic onTimelineChanged(Lcom/huawei/appmarket/rz7;I)V
     .registers 3
 
     .line 1
@@ -1036,13 +1036,13 @@
     return-void
 .end method
 
-.method public onTracksChanged(Lcom/huawei/appmarket/l28;)V
+.method public onTracksChanged(Lcom/huawei/appmarket/q28;)V
     .registers 3
 
     .line 1
     const-string v0, "tracks"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;->getMPlayerEventListener()Lcom/huawei/appgallery/videokit/impl/player/base/PlayerEventListener;
 
@@ -1056,13 +1056,13 @@
     return-void
 .end method
 
-.method public onVideoSizeChanged(Lcom/huawei/appmarket/ph8;)V
+.method public onVideoSizeChanged(Lcom/huawei/appmarket/vh8;)V
     .registers 4
 
     .line 1
     const-string v0, "videoSize"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;->getMPlayerEventListener()Lcom/huawei/appgallery/videokit/impl/player/base/PlayerEventListener;
 
@@ -1070,9 +1070,9 @@
 
     if-eqz v0, :cond_0
 
-    iget v1, p1, Lcom/huawei/appmarket/ph8;->a:I
+    iget v1, p1, Lcom/huawei/appmarket/vh8;->a:I
 
-    iget p1, p1, Lcom/huawei/appmarket/ph8;->b:I
+    iget p1, p1, Lcom/huawei/appmarket/vh8;->b:I
 
     invoke-interface {v0, v1, p1}, Lcom/huawei/appgallery/videokit/impl/player/base/PlayerEventListener;->onVideoSizeChanged(II)V
 
@@ -1102,7 +1102,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/s16;->k(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/u16;->k(Z)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1115,7 +1115,7 @@
 
     const-string v2, "set play when ready error"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -1131,7 +1131,7 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/q16;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/s16;
 
     if-eqz v0, :cond_2
 
@@ -1142,7 +1142,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/s16;->b(Lcom/huawei/appmarket/q16;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/u16;->b(Lcom/huawei/appmarket/s16;)V
 
     :cond_2
     :goto_0
@@ -1154,7 +1154,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/s16;->d(Landroid/view/Surface;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/u16;->d(Landroid/view/Surface;)V
 
     :cond_3
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mInternalPlayer:Landroidx/media3/exoplayer/ExoPlayer;
@@ -1163,7 +1163,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mMediaSource:Landroidx/media3/exoplayer/source/e;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-interface {v0, v1}, Landroidx/media3/exoplayer/ExoPlayer;->h(Landroidx/media3/exoplayer/source/d;)V
 
@@ -1182,7 +1182,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/s16;->B(Lcom/huawei/appmarket/s16$d;)V
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/u16;->B(Lcom/huawei/appmarket/u16$d;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mInternalPlayer:Landroidx/media3/exoplayer/ExoPlayer;
@@ -1212,7 +1212,7 @@
 
     iput-boolean v1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mLastReportedPlayWhenReady:Z
 
-    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/q16;
+    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/s16;
 
     return-void
 .end method
@@ -1259,7 +1259,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->C()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->C()I
 
     .line 20
     .line 21
@@ -1354,7 +1354,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setActivityPause(Ljava/lang/Boolean;)V
@@ -1443,7 +1442,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/s16;->D(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/u16;->D(I)V
 
     :goto_1
     return-void
@@ -1558,7 +1557,7 @@
     :cond_0
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/s16;->k(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/u16;->k(Z)V
 
     :goto_0
     return-void
@@ -1567,11 +1566,11 @@
 .method public setSpeed(F)V
     .registers 3
 
-    new-instance v0, Lcom/huawei/appmarket/q16;
+    new-instance v0, Lcom/huawei/appmarket/s16;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/q16;-><init>(F)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/s16;-><init>(F)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/q16;
+    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mSpeedPlaybackParameters:Lcom/huawei/appmarket/s16;
 
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaPlayer;->mInternalPlayer:Landroidx/media3/exoplayer/ExoPlayer;
 
@@ -1580,7 +1579,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/s16;->b(Lcom/huawei/appmarket/q16;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/u16;->b(Lcom/huawei/appmarket/s16;)V
 
     :goto_0
     return-void
@@ -1595,7 +1594,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/s16;->d(Landroid/view/Surface;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/u16;->d(Landroid/view/Surface;)V
 
     :cond_0
     return-void
@@ -1619,7 +1618,7 @@
 
     div-float/2addr p1, p2
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/s16;->f(F)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/u16;->f(F)V
 
     :goto_0
     return-void
@@ -1637,7 +1636,7 @@
     :cond_0
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/s16;->k(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/u16;->k(Z)V
 
     :goto_0
     return-void
@@ -1652,7 +1651,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/s16;->stop()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/u16;->stop()V
 
     :cond_0
     return-void

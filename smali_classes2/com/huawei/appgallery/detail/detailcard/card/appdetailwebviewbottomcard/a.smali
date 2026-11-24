@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/by2;
+.implements Lcom/huawei/appmarket/ey2;
 
 
 # instance fields
@@ -41,11 +41,11 @@
 
     invoke-virtual {p1, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->y0(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;->b(Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;)Lcom/huawei/appmarket/zp;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;->b(Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;)Lcom/huawei/appmarket/yp;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zp;->h()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yp;->h()I
 
     move-result v1
 
@@ -58,11 +58,11 @@
     invoke-virtual {p1, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->w0(I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;->b(Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;)Lcom/huawei/appmarket/zp;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;->b(Lcom/huawei/appgallery/detail/detailcard/card/appdetailwebviewbottomcard/WebViewBottomLayout;)Lcom/huawei/appmarket/yp;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zp;->C()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yp;->C()Z
 
     move-result v1
 
@@ -83,13 +83,13 @@
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v0, "WebViewBottomLayout"
 
     const-string v1, "onResult, adTask = null "
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -37,13 +37,13 @@
 
     move-result-object p3
 
-    new-instance v0, Lcom/huawei/appmarket/fh2;
+    new-instance v0, Lcom/huawei/appmarket/ih2;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p3}, Lcom/huawei/appmarket/fh2;-><init>(Landroid/content/Context;Ljava/util/List;)V
+    invoke-direct {v0, v1, p3}, Lcom/huawei/appmarket/ih2;-><init>(Landroid/content/Context;Ljava/util/List;)V
 
     const v1, 0x7f0d058f
 
@@ -63,7 +63,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {p3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p3
 

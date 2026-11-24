@@ -98,7 +98,7 @@
     const-string v1, "Requested contents should be 12 or 13 digits long, but got "
 
     .line 2
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 

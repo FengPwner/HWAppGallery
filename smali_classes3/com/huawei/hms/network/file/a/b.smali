@@ -146,7 +146,7 @@
     const-string v1, "getSliceNum use predictSliceNum:"
 
     .line 1
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -170,7 +170,7 @@
     const-string v1, ",sliceNum:"
 
     .line 3
-    invoke-static {p4, p1, v1, p2}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {p4, p1, v1, p2}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -588,7 +588,7 @@
     const-string p3, "checkAndFillDownloadTasks requestInfo not exist:"
 
     .line 14
-    invoke-static {p3, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p3, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1714,7 +1714,7 @@
     const-string v0, "onRequestCanceled:"
 
     .line 26
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2060,7 +2060,7 @@
     const-string v0, "getCachedTasks requestInfo not exist:"
 
     .line 3
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2325,7 +2325,7 @@
     const-string v5, ",status:"
 
     .line 1
-    invoke-static {v2, p1, p2, v5}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p1, p2, v5}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 

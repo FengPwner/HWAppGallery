@@ -1,149 +1,61 @@
-.class public final Lcom/huawei/appmarket/nv8;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/nv8;
+.super Landroid/os/Handler;
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Ljava/util/regex/Pattern;
+# instance fields
+.field final synthetic a:Lcom/huawei/appmarket/q59;
 
 
 # direct methods
-.method public static constructor <clinit>()V
-    .registers 1
+.method constructor <init>(Landroid/os/Looper;Lcom/huawei/appmarket/q59;)V
+    .registers 3
 
     .line 1
-    const-string v0, "%([0-9]+)\\$s"
+    iput-object p2, p0, Lcom/huawei/appmarket/nv8;->a:Lcom/huawei/appmarket/q59;
 
-    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/nv8;->a:Ljava/util/regex/Pattern;
+    invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     return-void
 .end method
 
-.method public static varargs a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
-    .registers 6
+
+# virtual methods
+.method public final handleMessage(Landroid/os/Message;)V
+    .registers 5
 
     .line 1
-    new-instance v0, Landroid/text/SpannableStringBuilder;
+    iget v0, p1, Landroid/os/Message;->what:I
 
-    invoke-direct {v0, p0}, Landroid/text/SpannableStringBuilder;-><init>(Ljava/lang/CharSequence;)V
+    const/16 v1, 0x65
 
-    const/4 p0, 0x0
+    iget-object v2, p0, Lcom/huawei/appmarket/nv8;->a:Lcom/huawei/appmarket/q59;
 
-    :goto_0
-    invoke-virtual {v0}, Landroid/text/SpannableStringBuilder;->length()I
+    if-eq v0, v1, :cond_1
 
-    move-result v1
+    const/16 v1, 0x66
 
-    if-ge p0, v1, :cond_2
+    if-eq v0, v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/nv8;->a:Ljava/util/regex/Pattern;
+    invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
 
-    invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->find(I)Z
-
-    move-result p0
-
-    if-nez p0, :cond_0
-
-    goto :goto_2
+    return-void
 
     :cond_0
-    invoke-virtual {v1}, Ljava/util/regex/Matcher;->start()I
+    iget p1, p1, Landroid/os/Message;->arg1:I
 
-    move-result p0
+    const/4 v0, 0x0
 
-    invoke-virtual {v1}, Ljava/util/regex/Matcher;->end()I
+    invoke-interface {v2, p1, v0}, Lcom/huawei/appmarket/q59;->a(ILjava/lang/String;)V
 
-    move-result v2
-
-    const/4 v3, 0x1
-
-    invoke-virtual {v1, v3}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    sub-int/2addr v1, v3
-
-    aget-object v1, p1, v1
-
-    instance-of v3, v1, Landroid/text/SpannableStringBuilder;
-
-    if-eqz v3, :cond_1
-
-    check-cast v1, Landroid/text/SpannableStringBuilder;
-
-    goto :goto_1
+    return-void
 
     :cond_1
-    check-cast v1, Ljava/lang/CharSequence;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    :goto_1
-    invoke-virtual {v0, p0, v2, v1}, Landroid/text/SpannableStringBuilder;->replace(IILjava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
+    check-cast p1, Ljava/util/ArrayList;
 
-    invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v2, p1}, Lcom/huawei/appmarket/q59;->a(Ljava/util/ArrayList;)V
 
-    move-result v1
-
-    add-int/2addr p0, v1
-
-    goto :goto_0
-
-    :cond_2
-    :goto_2
-    return-object v0
-.end method
-
-.method public static b(Landroid/app/Activity;)Ljava/util/Locale;
-    .registers 3
-
-    .line 1
-    if-eqz p0, :cond_1
-
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x18
-
-    if-lt v0, v1, :cond_0
-
-    invoke-static {}, Lcom/huawei/appmarket/r58;->c()Landroid/os/LocaleList;
-
-    move-result-object p0
-
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->h(Landroid/os/LocaleList;)Ljava/util/Locale;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
-
-    move-result-object p0
-
-    iget-object p0, p0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
-
-    goto :goto_0
-
-    :cond_1
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object p0
-
-    :goto_0
-    return-object p0
+    return-void
 .end method

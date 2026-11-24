@@ -283,7 +283,7 @@
     .line 73
     .line 74
     :cond_1
-    invoke-interface {v0}, Lcom/huawei/appmarket/ge7;->b()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/le7;->b()V
 
     .line 75
     .line 76
@@ -717,7 +717,7 @@
 
     iget-object v0, p0, Landroidx/appcompat/view/menu/i;->j:Landroidx/appcompat/view/menu/h;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ge7;->dismiss()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/le7;->dismiss()V
 
     :cond_0
     return-void
@@ -973,6 +973,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c()Z
@@ -983,7 +984,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ge7;->a()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/le7;->a()Z
 
     move-result v0
 

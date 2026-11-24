@@ -3,13 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fp;
+.implements Lcom/huawei/appmarket/ep;
 
 
 # instance fields
 .field private e:Landroidx/appcompat/app/f;
 
-.field private final f:Lcom/huawei/appmarket/yq4$a;
+.field private final f:Lcom/huawei/appmarket/br4$a;
 
 
 # direct methods
@@ -59,7 +59,7 @@
 
     invoke-direct {v2, p0}, Landroidx/appcompat/app/m;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
 
-    iput-object v2, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/yq4$a;
+    iput-object v2, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/br4$a;
 
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDialog;->d()Landroidx/appcompat/app/f;
 
@@ -99,7 +99,7 @@
 
     invoke-direct {p1, p0}, Landroidx/appcompat/app/m;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
 
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/yq4$a;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/br4$a;
 
     invoke-virtual {p0, p2}, Landroid/app/Dialog;->setCancelable(Z)V
 
@@ -158,7 +158,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0, p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Dialog;Lcom/huawei/appmarket/fp;)V
+    invoke-direct {v0, p0, p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Dialog;Lcom/huawei/appmarket/ep;)V
 
     .line 10
     .line 11
@@ -292,6 +292,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final dismiss()V
@@ -319,9 +320,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/yq4$a;
+    iget-object v1, p0, Landroidx/appcompat/app/AppCompatDialog;->f:Lcom/huawei/appmarket/br4$a;
 
-    invoke-static {v1, v0, p0, p1}, Lcom/huawei/appmarket/yq4;->b(Lcom/huawei/appmarket/yq4$a;Landroid/view/View;Landroid/view/Window$Callback;Landroid/view/KeyEvent;)Z
+    invoke-static {v1, v0, p0, p1}, Lcom/huawei/appmarket/br4;->b(Lcom/huawei/appmarket/br4$a;Landroid/view/View;Landroid/view/Window$Callback;Landroid/view/KeyEvent;)Z
 
     move-result p1
 

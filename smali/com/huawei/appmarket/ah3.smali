@@ -3,57 +3,27 @@
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ah3$b;,
+        Lcom/huawei/appmarket/ah3$a;
+    }
+.end annotation
+
+
 # virtual methods
-.method public abstract A(Landroid/app/Activity;Lcom/huawei/appmarket/j96;)V
+.method public abstract a()Lcom/huawei/appmarket/ah3$b;
 .end method
 
-.method public abstract B()V
+.method public abstract c()Lcom/huawei/appmarket/pe7;
 .end method
 
-.method public abstract C(Landroid/app/Activity;Lcom/huawei/appmarket/j96;)V
+.method public abstract g(Ljava/lang/String;Lcom/huawei/appmarket/rj;)V
 .end method
 
-.method public abstract D(Landroid/app/Activity;Lcom/huawei/appmarket/j96;)V
+.method public abstract h(Landroid/content/Context;Lcom/huawei/appmarket/yi;)V
 .end method
 
-.method public abstract c()V
-.end method
-
-.method public abstract g(Lcom/huawei/appmarket/bh3;)V
-.end method
-
-.method public abstract getSigningEntity()I
-.end method
-
-.method public abstract i()V
-.end method
-
-.method public abstract q(Landroid/app/Activity;Lcom/huawei/appmarket/wg3;Lcom/huawei/appmarket/eh3;)V
-.end method
-
-.method public abstract r(Ljava/lang/String;Z)V
-.end method
-
-.method public abstract s()Z
-.end method
-
-.method public abstract t(Landroid/app/Activity;ZLcom/huawei/appmarket/j96;)V
-.end method
-
-.method public abstract u(Landroid/app/Activity;)V
-.end method
-
-.method public abstract v(Landroid/app/Activity;ZLcom/huawei/appmarket/j96;)V
-.end method
-
-.method public abstract w(Ljava/lang/String;Z)V
-.end method
-
-.method public abstract x()Z
-.end method
-
-.method public abstract y(Landroid/content/Context;)Ljava/lang/String;
-.end method
-
-.method public abstract z(Landroid/content/Context;Lcom/huawei/appmarket/bj;)V
+.method public abstract n(Lcom/huawei/appmarket/rj;)Z
 .end method

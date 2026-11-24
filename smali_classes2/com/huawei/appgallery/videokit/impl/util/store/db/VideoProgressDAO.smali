@@ -124,7 +124,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/f91;)J
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/g91;)J
 
     return-void
 .end method
@@ -140,7 +140,7 @@
 
     move-result-object p2
 
-    invoke-virtual {v0, p1, v1, p2}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v0, p1, v1, p2}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/g91;Ljava/lang/String;[Ljava/lang/String;)I
 
     return-void
 .end method
@@ -186,7 +186,7 @@
 
     const-string p2, "userId_=? and mediaId_=?"
 
-    invoke-virtual {v1, v0, p2, p1}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v1, v0, p2, p1}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/g91;Ljava/lang/String;[Ljava/lang/String;)I
 
     return-void
 .end method
@@ -240,7 +240,7 @@
 
     const-string p3, "package list is empty, can not add to database"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

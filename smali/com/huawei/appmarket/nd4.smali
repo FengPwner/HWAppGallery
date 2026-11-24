@@ -2,116 +2,136 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/fu6;
-
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation build Landroid/annotation/SuppressLint;
     value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/fu6<",
-        "Ljava/io/InputStream;",
-        "Landroid/graphics/Bitmap;",
-        ">;"
+        "PrivateConstructorForUtilityClass"
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/nd4$a;
     }
 .end annotation
 
 
-# instance fields
-.field private final a:Lcom/huawei/appmarket/ia0;
-
-
 # direct methods
 .method public constructor <init>()V
-    .registers 2
+    .registers 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Lcom/huawei/appmarket/ia0;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ia0;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/nd4;->a:Lcom/huawei/appmarket/ia0;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public static a(Landroid/view/View;Landroid/view/inputmethod/EditorInfo;Landroid/view/inputmethod/InputConnection;)Landroid/view/inputmethod/InputConnection;
     .registers 6
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    check-cast p1, Ljava/io/InputStream;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/pf0;->b(Ljava/io/InputStream;)Ljava/nio/ByteBuffer;
-
     .line 4
+    new-instance v0, Lcom/huawei/appmarket/kd4;
+
     .line 5
     .line 6
-    move-result-object p1
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/kd4;-><init>(Landroid/view/View;)V
 
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/c5;->f(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
-
     .line 8
     .line 9
-    .line 10
-    move-result-object p1
+    if-eqz p1, :cond_2
 
+    .line 10
     .line 11
-    iget-object v0, p0, Lcom/huawei/appmarket/nd4;->a:Lcom/huawei/appmarket/ia0;
+    sget p0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/huawei/appmarket/ia0;->c(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/ma0;
+    const/16 v1, 0x19
 
     .line 14
     .line 15
+    const/4 v2, 0x0
+
     .line 16
-    move-result-object p1
+    if-lt p0, v1, :cond_0
 
     .line 17
-    return-object p1
     .line 18
+    new-instance p0, Lcom/huawei/appmarket/ld4;
+
     .line 19
     .line 20
+    invoke-direct {p0, p2, v2, v0}, Lcom/huawei/appmarket/ld4;-><init>(Landroid/view/inputmethod/InputConnection;ZLcom/huawei/appmarket/nd4$a;)V
+
     .line 21
     .line 22
     .line 23
+    :goto_0
+    move-object p2, p0
+
     .line 24
+    goto :goto_1
+
     .line 25
+    :cond_0
+    invoke-static {p1}, Lcom/huawei/appmarket/az1;->a(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
+
     .line 26
     .line 27
     .line 28
+    move-result-object p0
+
     .line 29
+    array-length p0, p0
+
     .line 30
+    if-nez p0, :cond_1
+
     .line 31
     .line 32
+    goto :goto_1
+
     .line 33
+    :cond_1
+    new-instance p0, Lcom/huawei/appmarket/md4;
+
     .line 34
     .line 35
+    invoke-direct {p0, p2, v2, v0}, Lcom/huawei/appmarket/md4;-><init>(Landroid/view/inputmethod/InputConnection;ZLcom/huawei/appmarket/nd4$a;)V
+
     .line 36
     .line 37
     .line 38
+    goto :goto_0
+
     .line 39
+    :goto_1
+    return-object p2
+
     .line 40
+    :cond_2
+    new-instance p0, Ljava/lang/NullPointerException;
+
     .line 41
     .line 42
+    const-string p1, "editorInfo must be non-null"
+
     .line 43
     .line 44
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
     .line 45
     .line 46
     .line 47
+    throw p0
     .line 48
     .line 49
     .line 50
@@ -355,219 +375,4 @@
     .line 288
     .line 289
     .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
-    .line 390
-    .line 391
-    .line 392
-    .line 393
-    .line 394
-    .line 395
-    .line 396
-    .line 397
-    .line 398
-    .line 399
-    .line 400
-    .line 401
-    .line 402
-    .line 403
-    .line 404
-    .line 405
-    .line 406
-    .line 407
-    .line 408
-    .line 409
-    .line 410
-    .line 411
-    .line 412
-    .line 413
-    .line 414
-    .line 415
-    .line 416
-    .line 417
-    .line 418
-    .line 419
-    .line 420
-    .line 421
-    .line 422
-    .line 423
-    .line 424
-    .line 425
-    .line 426
-    .line 427
-    .line 428
-    .line 429
-    .line 430
-    .line 431
-    .line 432
-    .line 433
-    .line 434
-    .line 435
-    .line 436
-    .line 437
-    .line 438
-    .line 439
-    .line 440
-    .line 441
-    .line 442
-    .line 443
-    .line 444
-    .line 445
-    .line 446
-    .line 447
-    .line 448
-    .line 449
-    .line 450
-    .line 451
-    .line 452
-    .line 453
-    .line 454
-    .line 455
-    .line 456
-    .line 457
-    .line 458
-    .line 459
-    .line 460
-    .line 461
-    .line 462
-    .line 463
-    .line 464
-    .line 465
-    .line 466
-    .line 467
-    .line 468
-    .line 469
-    .line 470
-    .line 471
-    .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-.end method
-
-.method public final bridge synthetic b(Ljava/lang/Object;Lcom/huawei/appmarket/tr5;)Z
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    check-cast p1, Ljava/io/InputStream;
-
-    const/4 p1, 0x1
-
-    return p1
 .end method

@@ -28,10 +28,10 @@
 
 .field private static final DEFAULT_INSTANCE:Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;
 
-.field private static final PARSER:Lcom/huawei/appmarket/gw5;
+.field private static final PARSER:Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;",
             ">;"
         }
@@ -54,7 +54,7 @@
 
 .field private memoizedIsInitialized:B
 
-.field private permissions_:Lcom/huawei/appmarket/nt4;
+.field private permissions_:Lcom/huawei/appmarket/qt4;
 
 .field private services_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -66,7 +66,7 @@
     .end annotation
 .end field
 
-.field private treeStructs_:Lcom/huawei/appmarket/nt4;
+.field private treeStructs_:Lcom/huawei/appmarket/qt4;
 
 
 # direct methods
@@ -83,7 +83,7 @@
 
     invoke-direct {v0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo$1;-><init>()V
 
-    sput-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sput-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-void
 .end method
@@ -100,9 +100,9 @@
 
     sget-object v0, Lcom/google/protobuf/l0;->e:Lcom/google/protobuf/l0;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iput-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iput-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -243,11 +243,11 @@
     :cond_4
     iget-object v3, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->services_:Ljava/util/List;
 
-    invoke-static {}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$Service;->parser()Lcom/huawei/appmarket/gw5;
+    invoke-static {}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$Service;->parser()Lcom/huawei/appmarket/iw5;
 
     move-result-object v4
 
-    invoke-virtual {p1, v4, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v4, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     move-result-object v4
 
@@ -270,12 +270,12 @@
 
     invoke-direct {v4}, Lcom/google/protobuf/l0;-><init>()V
 
-    iput-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iput-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     or-int/lit8 v2, v2, 0x2
 
     :cond_6
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     :goto_1
     invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -295,12 +295,12 @@
 
     invoke-direct {v4}, Lcom/google/protobuf/l0;-><init>()V
 
-    iput-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iput-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     or-int/lit8 v2, v2, 0x1
 
     :cond_8
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
     :try_end_0
     .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -330,26 +330,26 @@
 
     if-eqz p2, :cond_9
 
-    iget-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/nt4;->E()Lcom/huawei/appmarket/nt4;
+    invoke-interface {p2}, Lcom/huawei/appmarket/qt4;->E()Lcom/huawei/appmarket/qt4;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     :cond_9
     and-int/lit8 p2, v2, 0x2
 
     if-eqz p2, :cond_a
 
-    iget-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/nt4;->E()Lcom/huawei/appmarket/nt4;
+    invoke-interface {p2}, Lcom/huawei/appmarket/qt4;->E()Lcom/huawei/appmarket/qt4;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iput-object p2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     :cond_a
     and-int/lit8 p2, v2, 0x4
@@ -380,26 +380,26 @@
 
     if-eqz p1, :cond_d
 
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/nt4;->E()Lcom/huawei/appmarket/nt4;
+    invoke-interface {p1}, Lcom/huawei/appmarket/qt4;->E()Lcom/huawei/appmarket/qt4;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     :cond_d
     and-int/lit8 p1, v2, 0x2
 
     if-eqz p1, :cond_e
 
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/nt4;->E()Lcom/huawei/appmarket/nt4;
+    invoke-interface {p1}, Lcom/huawei/appmarket/qt4;->E()Lcom/huawei/appmarket/qt4;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     :cond_e
     and-int/lit8 p1, v2, 0x4
@@ -448,38 +448,38 @@
     return v0
 .end method
 
-.method static synthetic access$6200(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;)Lcom/huawei/appmarket/nt4;
+.method static synthetic access$6200(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;)Lcom/huawei/appmarket/qt4;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     return-object p0
 .end method
 
-.method static synthetic access$6202(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;Lcom/huawei/appmarket/nt4;)Lcom/huawei/appmarket/nt4;
+.method static synthetic access$6202(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;Lcom/huawei/appmarket/qt4;)Lcom/huawei/appmarket/qt4;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     return-object p1
 .end method
 
-.method static synthetic access$6300(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;)Lcom/huawei/appmarket/nt4;
+.method static synthetic access$6300(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;)Lcom/huawei/appmarket/qt4;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object p0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     return-object p0
 .end method
 
-.method static synthetic access$6302(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;Lcom/huawei/appmarket/nt4;)Lcom/huawei/appmarket/nt4;
+.method static synthetic access$6302(Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;Lcom/huawei/appmarket/qt4;)Lcom/huawei/appmarket/qt4;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     return-object p1
 .end method
@@ -532,11 +532,11 @@
     return-object p0
 .end method
 
-.method static synthetic access$6900()Lcom/huawei/appmarket/gw5;
+.method static synthetic access$6900()Lcom/huawei/appmarket/iw5;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -624,9 +624,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -644,9 +644,9 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -664,9 +664,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/h;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/h;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -684,9 +684,9 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -704,9 +704,9 @@
     .end annotation
 
     .line 3
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -724,9 +724,9 @@
     .end annotation
 
     .line 4
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -744,9 +744,9 @@
     .end annotation
 
     .line 5
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -764,9 +764,9 @@
     .end annotation
 
     .line 6
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -784,9 +784,9 @@
     .end annotation
 
     .line 7
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/nio/ByteBuffer;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/nio/ByteBuffer;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -804,9 +804,9 @@
     .end annotation
 
     .line 8
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/nio/ByteBuffer;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/nio/ByteBuffer;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -824,9 +824,9 @@
     .end annotation
 
     .line 9
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom([B)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom([B)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -844,9 +844,9 @@
     .end annotation
 
     .line 10
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom([BLcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom([BLcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -855,19 +855,19 @@
     return-object p0
 .end method
 
-.method public static parser()Lcom/huawei/appmarket/gw5;
+.method public static parser()Lcom/huawei/appmarket/iw5;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -897,11 +897,11 @@
     :cond_1
     check-cast p1, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v2
 
@@ -916,11 +916,11 @@
     return v2
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v3
 
@@ -1018,19 +1018,19 @@
     return-object v0
 .end method
 
-.method public getParserForType()Lcom/huawei/appmarket/gw5;
+.method public getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -1038,7 +1038,7 @@
 .method public getPermissions(I)Ljava/lang/String;
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1052,9 +1052,9 @@
 .method public getPermissionsBytes(I)Lcom/google/protobuf/h;
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/nt4;->x(I)Lcom/google/protobuf/h;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/qt4;->x(I)Lcom/google/protobuf/h;
 
     move-result-object p1
 
@@ -1064,7 +1064,7 @@
 .method public getPermissionsCount()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -1073,11 +1073,11 @@
     return v0
 .end method
 
-.method public getPermissionsList()Lcom/huawei/appmarket/r96;
+.method public getPermissionsList()Lcom/huawei/appmarket/t96;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     return-object v0
 .end method
@@ -1086,7 +1086,7 @@
     .registers 2
 
     .line 2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v0
 
@@ -1112,7 +1112,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    iget-object v3, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v3, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -1120,9 +1120,9 @@
 
     if-ge v1, v3, :cond_1
 
-    iget-object v3, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v3, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v3, v1}, Lcom/huawei/appmarket/nt4;->F(I)Ljava/lang/Object;
+    invoke-interface {v3, v1}, Lcom/huawei/appmarket/qt4;->F(I)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -1137,7 +1137,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v1
 
@@ -1152,7 +1152,7 @@
     const/4 v3, 0x0
 
     :goto_1
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v4}, Ljava/util/List;->size()I
 
@@ -1160,9 +1160,9 @@
 
     if-ge v2, v4, :cond_2
 
-    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v4, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v4, v2}, Lcom/huawei/appmarket/nt4;->F(I)Ljava/lang/Object;
+    invoke-interface {v4, v2}, Lcom/huawei/appmarket/qt4;->F(I)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -1179,7 +1179,7 @@
     :cond_2
     add-int/2addr v1, v3
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v2
 
@@ -1321,7 +1321,7 @@
 .method public getTreeStructs(I)Ljava/lang/String;
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1335,9 +1335,9 @@
 .method public getTreeStructsBytes(I)Lcom/google/protobuf/h;
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/nt4;->x(I)Lcom/google/protobuf/h;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/qt4;->x(I)Lcom/google/protobuf/h;
 
     move-result-object p1
 
@@ -1347,7 +1347,7 @@
 .method public getTreeStructsCount()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -1356,11 +1356,11 @@
     return v0
 .end method
 
-.method public getTreeStructsList()Lcom/huawei/appmarket/r96;
+.method public getTreeStructsList()Lcom/huawei/appmarket/t96;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     return-object v0
 .end method
@@ -1369,7 +1369,7 @@
     .registers 2
 
     .line 2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v0
 
@@ -1416,11 +1416,11 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getPermissionsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v1
 
@@ -1441,11 +1441,11 @@
 
     const/4 v3, 0x2
 
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/r96;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->getTreeStructsList()Lcom/huawei/appmarket/t96;
 
     move-result-object v1
 
@@ -1466,7 +1466,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result v0
 
@@ -1485,7 +1485,7 @@
 
     const/4 v3, 0x4
 
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     move-result v0
 
@@ -1671,7 +1671,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -1679,9 +1679,9 @@
 
     if-ge v1, v2, :cond_0
 
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/nt4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->permissions_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/nt4;->F(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/qt4;->F(I)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1697,7 +1697,7 @@
     const/4 v1, 0x0
 
     :goto_1
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -1705,9 +1705,9 @@
 
     if-ge v1, v2, :cond_1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/nt4;
+    iget-object v2, p0, Lcom/huawei/appgallery/systeminstalldistservice/proto/CharacteristicProto$AXmlInfo;->treeStructs_:Lcom/huawei/appmarket/qt4;
 
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/nt4;->F(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/qt4;->F(I)Ljava/lang/Object;
 
     move-result-object v2
 

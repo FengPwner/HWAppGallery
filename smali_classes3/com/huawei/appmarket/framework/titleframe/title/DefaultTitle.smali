@@ -99,7 +99,7 @@
     move-result-object v2
 
     .line 26
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 27
     .line 28
@@ -112,7 +112,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -171,7 +171,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 64
     .line 65
@@ -220,7 +220,7 @@
     move-result-object v2
 
     .line 89
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 90
     .line 91
@@ -238,12 +238,12 @@
     move-result-object v3
 
     .line 99
-    invoke-static {v3}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 100
     .line 101
     .line 102
-    const v4, 0x7f0a1609
+    const v4, 0x7f0a160a
 
     .line 103
     .line 104
@@ -321,7 +321,7 @@
     .line 142
     .line 143
     .line 144
-    invoke-static {v3}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 145
     .line 146
@@ -360,13 +360,13 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object v0
 
     const v1, 0x7f1201e9
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 

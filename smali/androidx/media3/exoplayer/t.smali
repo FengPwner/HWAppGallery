@@ -59,7 +59,7 @@
     const/4 v7, 0x1
 
     :goto_1
-    invoke-static {v7}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v7}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     if-eqz v3, :cond_3
 
@@ -77,7 +77,7 @@
     const/4 v7, 0x1
 
     :goto_3
-    invoke-static {v7}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v7}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     if-eqz v1, :cond_4
 
@@ -91,7 +91,7 @@
     const/4 v5, 0x1
 
     :cond_5
-    invoke-static {v5}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v5}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     move-object v5, p1
 
@@ -307,7 +307,7 @@
 
     iget-object p1, p1, Landroidx/media3/exoplayer/t;->a:Landroidx/media3/exoplayer/source/k$b;
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

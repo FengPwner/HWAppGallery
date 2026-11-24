@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method protected final handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+.method protected final handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
     .registers 5
 
     .line 1
@@ -54,7 +54,7 @@
 
     check-cast p2, Lcom/huawei/appgallery/captchakit/captchakit/api/ui/ICaptchaActivityResult;
 
-    invoke-interface {p2, p1}, Lcom/huawei/appgallery/captchakit/captchakit/api/ui/ICaptchaActivityResult;->setResultCode(Lcom/huawei/appmarket/qi0;)V
+    invoke-interface {p2, p1}, Lcom/huawei/appgallery/captchakit/captchakit/api/ui/ICaptchaActivityResult;->setResultCode(Lcom/huawei/appmarket/ri0;)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/j8;->d()Landroid/content/Intent;
 

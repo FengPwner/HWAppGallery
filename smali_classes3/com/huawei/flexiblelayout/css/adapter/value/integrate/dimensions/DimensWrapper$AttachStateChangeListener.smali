@@ -73,7 +73,7 @@
 
     const-string v0, "setCompatibleDimensActual failed,  view not added to parent"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

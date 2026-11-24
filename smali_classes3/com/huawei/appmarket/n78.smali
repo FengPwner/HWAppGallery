@@ -1,48 +1,102 @@
-.class final Lcom/huawei/appmarket/n78;
+.class public final Lcom/huawei/appmarket/n78;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/jo5;
+
+# static fields
+.field private static final b:Lcom/huawei/appmarket/n78;
 
 
 # instance fields
-.field final synthetic b:Landroid/app/Activity;
-
-.field final synthetic c:Ljava/lang/String;
-
-.field final synthetic d:Lcom/huawei/appmarket/o78;
+.field private a:Ljava/util/concurrent/ConcurrentHashMap;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/o78;Landroid/app/Activity;Ljava/lang/String;)V
-    .registers 4
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/n78;->d:Lcom/huawei/appmarket/o78;
+    new-instance v0, Lcom/huawei/appmarket/n78;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/n78;->b:Landroid/app/Activity;
+    invoke-direct {v0}, Lcom/huawei/appmarket/n78;-><init>()V
 
-    iput-object p3, p0, Lcom/huawei/appmarket/n78;->c:Ljava/lang/String;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    sput-object v0, Lcom/huawei/appmarket/n78;->b:Lcom/huawei/appmarket/n78;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final c(Landroid/view/View;)V
-    .registers 5
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/n78;->b:Landroid/app/Activity;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/n78;->c:Ljava/lang/String;
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/n78;->d:Lcom/huawei/appmarket/o78;
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    invoke-static {v2, v0, p1, v1}, Lcom/huawei/appmarket/o78;->b(Lcom/huawei/appmarket/o78;Landroid/app/Activity;Landroid/view/View;Ljava/lang/String;)V
+    iput-object v0, p0, Lcom/huawei/appmarket/n78;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+.end method
+
+.method public static b()Lcom/huawei/appmarket/n78;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/n78;->b:Lcom/huawei/appmarket/n78;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;)Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/n78;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/String;
+
+    return-object p1
+.end method
+
+.method public final c(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 4
+
+    .line 1
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appmarket/n78;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/n78;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

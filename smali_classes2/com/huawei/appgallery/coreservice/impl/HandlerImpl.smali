@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/qh3;
+.field private b:Lcom/huawei/appmarket/sh3;
 
 .field private c:Z
 
@@ -46,13 +46,13 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/qh3;Z)V
+.method public constructor <init>(Lcom/huawei/appmarket/sh3;Z)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Lcom/huawei/appgallery/coreservice/api/IHandler;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->b:Lcom/huawei/appmarket/qh3;
+    iput-object p1, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->b:Lcom/huawei/appmarket/sh3;
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->c:Z
 
@@ -87,14 +87,14 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->b:Lcom/huawei/appmarket/qh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->b:Lcom/huawei/appmarket/sh3;
 
     if-eqz v0, :cond_0
 
     :try_start_0
     iget-object v1, p0, Lcom/huawei/appgallery/coreservice/impl/HandlerImpl;->d:Lcom/huawei/appmarket/framework/coreservice/Status;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qh3;->I2(Lcom/huawei/appmarket/framework/coreservice/Status;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/sh3;->I2(Lcom/huawei/appmarket/framework/coreservice/Status;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -123,7 +123,7 @@
 
     const-string v2, "HandlerImpl"
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

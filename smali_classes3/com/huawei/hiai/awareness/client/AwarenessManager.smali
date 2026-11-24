@@ -8,7 +8,7 @@
 
 .field private b:Landroid/content/Context;
 
-.field private c:Lcom/huawei/appmarket/ki3;
+.field private c:Lcom/huawei/appmarket/mi3;
 
 .field private volatile d:Z
 
@@ -43,7 +43,7 @@
 
     const-string v1, "AwarenessManager constructor"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b:Landroid/content/Context;
 
@@ -59,11 +59,11 @@
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/ki3;)V
+.method static synthetic b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/mi3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/ki3;
+    iput-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/mi3;
 
     return-void
 .end method
@@ -104,7 +104,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -124,7 +124,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -270,7 +270,7 @@
 
     .line 83
     .line 84
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -359,7 +359,7 @@
 
     .line 125
     .line 126
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -373,7 +373,7 @@
     .line 132
     .line 133
     :goto_2
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 134
     .line 135
@@ -514,7 +514,7 @@
 
     .line 196
     .line 197
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 198
     .line 199
@@ -527,7 +527,7 @@
 
     .line 202
     .line 203
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 204
     .line 205
@@ -537,7 +537,7 @@
 
     .line 207
     .line 208
-    invoke-static {v2}, Lcom/huawei/appmarket/mt7;->a(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/st7;->a(Landroid/content/Context;)Z
 
     .line 209
     .line 210
@@ -553,7 +553,7 @@
 
     .line 215
     .line 216
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 217
     .line 218
@@ -584,7 +584,7 @@
 
     .line 230
     .line 231
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -713,7 +713,7 @@
 
     .line 290
     .line 291
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -788,8 +788,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final f()Z
@@ -800,7 +798,7 @@
 
     const-string v1, "AwarenessManager"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b:Landroid/content/Context;
 
@@ -810,7 +808,7 @@
 
     const-string v0, "Context is null, could not disconnect"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -828,7 +826,7 @@
 
     const-string v2, "Service not connected yet, could not disconnect"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/util/NoSuchElementException; {:try_start_0 .. :try_end_0} :catch_0
@@ -855,7 +853,7 @@
 
     const/4 v3, 0x0
 
-    iput-object v3, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/ki3;
+    iput-object v3, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/mi3;
 
     iput-boolean v2, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->d:Z
 
@@ -881,7 +879,7 @@
     :try_start_2
     const-string v2, "unbindService exception"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -908,7 +906,7 @@
 
     const-string v2, "dispatch"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->a:Ljava/util/concurrent/locks/ReentrantLock;
 
@@ -923,7 +921,7 @@
 
     const-string p1, "AwarenessService is not connected!"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -987,15 +985,15 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/ki3;
+    iget-object v0, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/mi3;
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/a10;->f()Lcom/huawei/hiai/awareness/client/AwarenessEnvelope;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ki3;->e1(Lcom/huawei/hiai/awareness/client/AwarenessEnvelope;)Z
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mi3;->e1(Lcom/huawei/hiai/awareness/client/AwarenessEnvelope;)Z
 
     move-result v2
     :try_end_1
@@ -1013,7 +1011,7 @@
     :try_start_2
     const-string p1, "RemoteException in dispatch"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1032,7 +1030,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -1063,7 +1061,7 @@
 
     const-string p1, "AwarenessService is not connected!"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1197,11 +1195,11 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/ki3;
+    iget-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager;->c:Lcom/huawei/appmarket/mi3;
 
-    invoke-interface {p1, v4, p2}, Lcom/huawei/appmarket/ki3;->J1(Ljava/util/ArrayList;Lcom/huawei/hiai/awareness/client/b;)Z
+    invoke-interface {p1, v4, p2}, Lcom/huawei/appmarket/mi3;->J1(Ljava/util/ArrayList;Lcom/huawei/hiai/awareness/client/b;)Z
 
     move-result v1
     :try_end_1
@@ -1219,7 +1217,7 @@
     :try_start_2
     const-string p1, "RemoteException in dispatch"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1238,7 +1236,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -1262,7 +1260,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -1289,7 +1287,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -1324,7 +1322,7 @@
     .line 34
     .line 35
     :goto_0
-    invoke-static {v6, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -1431,7 +1429,7 @@
     move-result-object v9
 
     .line 85
-    invoke-static {v6, v9}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v9}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -1512,7 +1510,7 @@
     move-result-object v7
 
     .line 126
-    invoke-static {v6, v7}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -1598,7 +1596,7 @@
 
     .line 165
     .line 166
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1692,7 +1690,7 @@
     .line 198
     .line 199
     :goto_5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 200
     .line 201
@@ -1733,7 +1731,7 @@
 
     .line 220
     :goto_6
-    invoke-static {v6, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 221
     .line 222
@@ -1767,7 +1765,7 @@
 
     .line 233
     .line 234
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 235
     .line 236

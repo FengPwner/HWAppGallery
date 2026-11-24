@@ -4,15 +4,15 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/qk4;I)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tk4;I)V
     .registers 5
 
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/nc;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qk4;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/nc;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tk4;I)V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
     .line 1
     const-string v0, "parent"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -43,7 +43,7 @@
 
     const-string v0, "from(parent.context).inf\u2026(viewType, parent, false)"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appmarket/a60;
 
@@ -69,17 +69,17 @@
     if-ne p2, v1, :cond_3
 
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/a22;
+    new-instance v0, Lcom/huawei/appmarket/e22;
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/nc;->j()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nc;->k()Lcom/huawei/appmarket/qk4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/nc;->k()Lcom/huawei/appmarket/tk4;
 
     move-result-object v1
 
-    invoke-direct {v0, p2, p1, v1}, Lcom/huawei/appmarket/a22;-><init>(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/qk4;)V
+    invoke-direct {v0, p2, p1, v1}, Lcom/huawei/appmarket/e22;-><init>(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/tk4;)V
 
     goto :goto_1
 
@@ -108,7 +108,7 @@
     .line 1
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 
@@ -130,7 +130,7 @@
     .line 1
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 

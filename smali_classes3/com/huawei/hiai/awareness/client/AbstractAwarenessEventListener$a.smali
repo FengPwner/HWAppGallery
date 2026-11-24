@@ -58,7 +58,7 @@
     const-string p1, "Do onTransact, reason is Context is null."
 
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 

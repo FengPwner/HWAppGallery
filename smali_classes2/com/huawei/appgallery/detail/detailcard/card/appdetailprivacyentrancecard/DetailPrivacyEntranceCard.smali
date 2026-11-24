@@ -49,7 +49,7 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 14
     .line 15
@@ -410,11 +410,11 @@
     .line 193
     .line 194
     .line 195
-    new-instance v6, Lcom/huawei/appmarket/tf7;
+    new-instance v6, Lcom/huawei/appmarket/yf7;
 
     .line 196
     .line 197
-    invoke-direct {v6, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v6, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 198
     .line 199
@@ -518,7 +518,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyentrancecard/DetailPrivacyEntranceCard;->x:Landroid/widget/LinearLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 
@@ -545,7 +545,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/ll6;->a()Lcom/huawei/appmarket/ll6;
+    invoke-static {}, Lcom/huawei/appmarket/nl6;->a()Lcom/huawei/appmarket/nl6;
 
     move-result-object v0
 
@@ -555,7 +555,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/ll6;->b(Landroid/content/Context;ILjava/lang/String;)Z
+    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/nl6;->b(Landroid/content/Context;ILjava/lang/String;)Z
 
     :cond_1
     :goto_0

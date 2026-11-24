@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z34;
+.implements Lcom/huawei/appmarket/b44;
 
 
 # instance fields
@@ -109,7 +109,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -130,7 +130,7 @@
 
     .line 43
     .line 44
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -148,7 +148,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 54
     .line 55
@@ -156,7 +156,7 @@
     move-result-object p1
 
     .line 57
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 58
     .line 59
@@ -217,7 +217,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -588,7 +587,7 @@
     .line 188
     .line 189
     .line 190
-    invoke-virtual {p0, p0}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->S3(Lcom/huawei/appmarket/z34;)V
+    invoke-virtual {p0, p0}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->S3(Lcom/huawei/appmarket/b44;)V
 
     .line 191
     .line 192
@@ -753,6 +752,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

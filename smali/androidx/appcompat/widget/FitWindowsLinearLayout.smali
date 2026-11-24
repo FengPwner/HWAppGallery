@@ -34,7 +34,7 @@
     return p1
 .end method
 
-.method public setOnFitSystemWindowsListener(Lcom/huawei/appmarket/fl2;)V
+.method public setOnFitSystemWindowsListener(Lcom/huawei/appmarket/hl2;)V
     .registers 2
 
     .line 1

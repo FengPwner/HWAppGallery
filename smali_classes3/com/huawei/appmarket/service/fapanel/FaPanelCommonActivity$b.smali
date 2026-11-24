@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eh3;
+.implements Lcom/huawei/appmarket/gh3;
 
 
 # annotations
@@ -56,11 +56,11 @@
 
     const-string p1, "user agree sign"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/jx2;->c(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mx2;->c(Z)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/service/fapanel/FaPanelCommonActivity;->D3(Lcom/huawei/appmarket/service/fapanel/FaPanelCommonActivity;)V
 
@@ -69,7 +69,7 @@
     :cond_0
     const-string p1, "user not agree sign"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 

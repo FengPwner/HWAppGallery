@@ -19,7 +19,7 @@
 
     const-class v1, Lcom/huawei/appgallery/assistantdock/base/externalaction/OpenViewAction;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/c72;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/g72;->c(Ljava/lang/String;Ljava/lang/Class;)V
 
     const-string v0, "com.huawei.gamebox.ACTION_GAME_LOGIN"
 

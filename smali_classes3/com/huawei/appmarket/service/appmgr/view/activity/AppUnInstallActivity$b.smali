@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # annotations
@@ -41,15 +41,15 @@
     .registers 3
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/ly2$a;->b:Lcom/huawei/appmarket/ly2$a;
+    sget-object p1, Lcom/huawei/appmarket/oy2$a;->b:Lcom/huawei/appmarket/oy2$a;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ky2;->a(Lcom/huawei/appmarket/ly2$a;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ny2;->a(Lcom/huawei/appmarket/oy2$a;)V
 
     const-string p1, "AppUnInstallActivity"
 
     const-string v0, "Refresh All App"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -38,13 +38,13 @@
 .method public final onClick(Landroid/view/View;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/wg4;->a:Lcom/huawei/appmarket/wg4;
+    sget-object v0, Lcom/huawei/appmarket/yg4;->a:Lcom/huawei/appmarket/yg4;
 
     const-string v1, "InstallConfirmDetailHeadCardV3"
 
     const-string v2, "onClick open the appeal link"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 

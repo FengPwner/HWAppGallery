@@ -1535,6 +1535,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final n(Landroid/os/Bundle;)V
@@ -1863,7 +1864,7 @@
 
     .line 70
     .line 71
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     .line 72
     .line 73
@@ -1991,7 +1992,7 @@
 
     .line 133
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     .line 134
     .line 135

@@ -329,7 +329,7 @@
             "(I)",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/w64;",
+            "Lcom/huawei/appmarket/z64;",
             ">;"
         }
     .end annotation
@@ -363,7 +363,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 16
     .line 17
@@ -478,7 +478,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -522,7 +522,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static g(Ljava/lang/Class;)J
@@ -579,7 +578,7 @@
             "(I",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/w64;",
+            "Lcom/huawei/appmarket/z64;",
             ">;)V"
         }
     .end annotation
@@ -606,7 +605,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -783,5 +782,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

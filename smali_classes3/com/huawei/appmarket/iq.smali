@@ -2,86 +2,221 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/bn3;
+
+# instance fields
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/String;
+
+.field private d:I
+
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/String;
+
+.field private g:Ljava/lang/String;
+
+.field private h:Ljava/lang/String;
+
+.field private i:Ljava/lang/String;
+
+.field private j:Lcom/huawei/appmarket/tu7;
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 1
+    .registers 2
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    sget-object v0, Lcom/huawei/appmarket/tu7;->b:Lcom/huawei/appmarket/tu7;
+
+    iput-object v0, p0, Lcom/huawei/appmarket/iq;->j:Lcom/huawei/appmarket/tu7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final q2(Lcom/huawei/appmarket/bl1;)V
-    .registers 4
+.method public final a()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/rb4$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->f:Ljava/lang/String;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/rb4$b;-><init>()V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->e()Landroid/content/Context;
+.method public final b()Ljava/lang/String;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->a:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->n(Landroid/content/Context;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->a()Ljava/lang/String;
+.method public final c()I
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/iq;->d:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->j(Ljava/lang/String;)V
+    return v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->d()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+.method public final d()Ljava/lang/String;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->h:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->m(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->f()Ljava/lang/String;
+.method public final e()Ljava/lang/String;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->i:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->o(Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->h()Ljava/lang/String;
+.method public final f()Ljava/lang/String;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->g:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->q(Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->c()Ljava/lang/String;
+.method public final g()Ljava/lang/String;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->e:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->l(Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->b()Ljava/lang/String;
+.method public final h()Lcom/huawei/appmarket/tu7;
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->j:Lcom/huawei/appmarket/tu7;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rb4$b;->k(Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bl1;->g()I
+.method public final i()Ljava/lang/String;
+    .registers 2
 
-    move-result p1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/rb4$b;->p(I)V
+    return-object v0
+.end method
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/rb4$b;->i()Lcom/huawei/appmarket/rb4;
+.method public final j()Ljava/lang/String;
+    .registers 2
 
-    move-result-object p1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/iq;->c:Ljava/lang/String;
 
-    new-instance v0, Lcom/huawei/appmarket/aq4;
+    return-object v0
+.end method
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/aq4;-><init>()V
+.method public final k(Ljava/lang/String;)V
+    .registers 2
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/aq4;->c(Lcom/huawei/appmarket/rb4;)V
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final m(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/iq;->d:I
+
+    return-void
+.end method
+
+.method public final n(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->h:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final o(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->i:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final p(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->g:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final q(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final r(Lcom/huawei/appmarket/tu7;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->j:Lcom/huawei/appmarket/tu7;
+
+    return-void
+.end method
+
+.method public final s(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final t(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/iq;->c:Ljava/lang/String;
 
     return-void
 .end method

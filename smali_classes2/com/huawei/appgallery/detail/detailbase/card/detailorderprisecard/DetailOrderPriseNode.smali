@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/detail/detailbase/card/detailorderprisecard/DetailOrderPriseNode;
-.super Lcom/huawei/appmarket/hj1;
+.super Lcom/huawei/appmarket/kj1;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/hj1;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/kj1;-><init>(Landroid/content/Context;I)V
 
     return-void
 .end method

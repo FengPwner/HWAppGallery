@@ -178,7 +178,7 @@
 
     invoke-direct {v1, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "x5c"
+    const-string/jumbo p1, "x5c"
 
     invoke-virtual {v1, p1}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
@@ -243,7 +243,7 @@
     move-result-object v1
 
     .line 3
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -339,75 +339,75 @@
 
     .line 38
     .line 39
-    const-string v1, "version"
+    const-string/jumbo v1, "version"
 
     .line 40
     .line 41
+    .line 42
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
-    .line 42
     .line 43
     .line 44
+    .line 45
     move-result v0
 
-    .line 45
+    .line 46
     iput v0, p1, Lcom/huawei/wisesecurity/ucs_credential/u$b;->a:I
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 46
     .line 47
+    .line 48
     return-void
 
-    .line 48
+    .line 49
     :catch_0
     move-exception p1
 
-    .line 49
+    .line 50
     goto :goto_0
 
-    .line 50
+    .line 51
     :catch_1
     move-exception p1
 
-    .line 51
+    .line 52
     :goto_0
     new-instance v0, Lcom/huawei/wisesecurity/ucs/common/exception/UcsException;
 
-    .line 52
     .line 53
+    .line 54
     const-string v1, "Fail to convert jws string to payload, "
 
-    .line 54
     .line 55
+    .line 56
     invoke-static {v1}, Lcom/huawei/wisesecurity/ucs_credential/a;->a(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 56
     .line 57
     .line 58
+    .line 59
     move-result-object v1
 
-    .line 59
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
-
     .line 60
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
     .line 61
     .line 62
+    .line 63
     move-result-object p1
 
-    .line 63
+    .line 64
     const-wide/16 v1, 0x3f4    # 5.0E-321
 
-    .line 64
     .line 65
+    .line 66
     invoke-direct {v0, v1, v2, p1}, Lcom/huawei/wisesecurity/ucs/common/exception/UcsException;-><init>(JLjava/lang/String;)V
 
-    .line 66
     .line 67
     .line 68
-    throw v0
     .line 69
+    throw v0
     .line 70
     .line 71
     .line 72
@@ -520,21 +520,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

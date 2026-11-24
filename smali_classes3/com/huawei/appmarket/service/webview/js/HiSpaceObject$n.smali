@@ -43,23 +43,23 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$n;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     check-cast v1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {v1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->s0()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    iget-object v2, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v2, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     const-string v3, "exposure"
 
     check-cast v2, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->z0(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->A0(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2
 
@@ -80,7 +80,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uo8;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/ap8;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -92,7 +92,7 @@
 
     const-string v1, "HiSpaceObject"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public d(Lcom/huawei/appmarket/ni8;)V
+.method public d(Lcom/huawei/appmarket/ti8;)V
     .registers 2
 
     .line 1

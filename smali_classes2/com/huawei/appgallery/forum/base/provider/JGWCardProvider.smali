@@ -57,9 +57,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/hj0;
+    check-cast v2, Lcom/huawei/appmarket/ij0;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v2
 
@@ -109,7 +109,7 @@
 
     const-string p1, "find delete card"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v2}, Ljava/util/Iterator;->remove()V
 
@@ -120,7 +120,7 @@
     :cond_4
     const-string p1, "find no delete card"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_1

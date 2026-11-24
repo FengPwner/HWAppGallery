@@ -34,7 +34,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/common/media/activity/j;->b:Lcom/huawei/appgallery/common/media/activity/MediaSelectActivity;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/common/media/activity/MediaSelectActivity;->A3(Lcom/huawei/appgallery/common/media/activity/MediaSelectActivity;)Lcom/huawei/appmarket/kx4;
+    invoke-static {p1}, Lcom/huawei/appgallery/common/media/activity/MediaSelectActivity;->A3(Lcom/huawei/appgallery/common/media/activity/MediaSelectActivity;)Lcom/huawei/appmarket/nx4;
 
     move-result-object p1
 
@@ -43,7 +43,7 @@
     const/4 p2, 0x1
 
     :goto_0
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/kx4;->o(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nx4;->o(Z)V
 
     goto :goto_1
 

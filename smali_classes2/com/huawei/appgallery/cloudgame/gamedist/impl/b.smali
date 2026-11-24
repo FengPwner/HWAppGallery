@@ -30,7 +30,7 @@
 
     const-string v1, "startGame hide"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appgallery/cloudgame/gamedist/impl/FloatingService;->E()V
 

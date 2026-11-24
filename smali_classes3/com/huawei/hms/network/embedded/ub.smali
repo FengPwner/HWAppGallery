@@ -1041,7 +1041,7 @@
     const-string v1, "limit < 0: "
 
     .line 2
-    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1254,7 +1254,7 @@
     const-string v1, "byteCount < 0: "
 
     .line 2
-    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1959,7 +1959,7 @@
     const-string v0, "byteCount < 0: "
 
     .line 4
-    invoke-static {v0, p2, p3}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p2, p3}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p2
 

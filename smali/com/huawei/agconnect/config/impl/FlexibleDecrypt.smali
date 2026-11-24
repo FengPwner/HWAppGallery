@@ -292,7 +292,7 @@
 
     .line 92
     .line 93
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -340,4 +340,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

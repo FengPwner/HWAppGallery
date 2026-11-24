@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/alarm/process/OnScreenReceiver$a;->b:Landroid/content/Context;
 
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ka8;->a(Landroid/content/Context;Ljava/lang/String;Z)V
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/pa8;->a(Landroid/content/Context;Ljava/lang/String;Z)V
 
     return-void
 .end method

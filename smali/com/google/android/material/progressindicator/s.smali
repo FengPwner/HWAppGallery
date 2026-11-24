@@ -45,7 +45,7 @@
 
 .field private j:F
 
-.field k:Lcom/huawei/appmarket/ol;
+.field k:Lcom/huawei/appmarket/nl;
 
 
 # direct methods
@@ -115,7 +115,7 @@
     const/4 v2, 0x0
 
     .line 9
-    iput-object v2, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/ol;
+    iput-object v2, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/nl;
 
     .line 10
     .line 11
@@ -497,7 +497,7 @@
     move-result v2
 
     .line 16
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 17
     .line 18
@@ -629,13 +629,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final c(Lcom/huawei/appmarket/ol;)V
+.method public final c(Lcom/huawei/appmarket/nl;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/ol;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/nl;
 
     return-void
 .end method
@@ -901,7 +902,7 @@
     move-result v1
 
     .line 96
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 97
     .line 98
@@ -963,6 +964,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f()V
@@ -971,7 +973,7 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/ol;
+    iput-object v0, p0, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/nl;
 
     return-void
 .end method
@@ -1129,7 +1131,7 @@
     move-result v1
 
     .line 70
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/f45;->a(II)I
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/i45;->a(II)I
 
     .line 71
     .line 72

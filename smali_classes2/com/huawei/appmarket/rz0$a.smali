@@ -135,7 +135,7 @@
     iput-object p3, p0, Lcom/huawei/appmarket/rz0$a;->c:Ljava/lang/String;
 
     .line 4
-    invoke-static {p3}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -263,12 +263,12 @@
 
     if-eq v6, v5, :cond_6
 
-    sget-object v0, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object v0, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     const-string v3, "unknown type, key:"
 
     .line 5
-    invoke-static {v3, p1, v7, p2, v2}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, p1, v7, p2, v2}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -279,7 +279,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v8, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v8, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -309,10 +309,10 @@
     goto :goto_1
 
     :catch_0
-    sget-object v3, Lcom/huawei/appmarket/i13;->a:Lcom/huawei/appmarket/i13;
+    sget-object v3, Lcom/huawei/appmarket/l13;->a:Lcom/huawei/appmarket/l13;
 
     .line 7
-    invoke-static {v0, p1, v7, p2, v2}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v7, p2, v2}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -323,7 +323,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v3, v8, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v8, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/be4;
+.implements Lcom/huawei/appmarket/de4;
 
 
 # annotations
@@ -53,7 +53,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/rg4;->b()Lcom/huawei/appmarket/rg4;
+    invoke-static {}, Lcom/huawei/appmarket/tg4;->b()Lcom/huawei/appmarket/tg4;
 
     move-result-object p1
 
@@ -61,7 +61,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2, p0}, Lcom/huawei/appmarket/rg4;->e(Ljava/lang/String;Lcom/huawei/appmarket/be4;)V
+    invoke-virtual {p1, p2, p0}, Lcom/huawei/appmarket/tg4;->e(Ljava/lang/String;Lcom/huawei/appmarket/de4;)V
 
     :cond_0
     return-void
@@ -223,14 +223,14 @@
 
     const-string v1, "preloadTitleView is not null."
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_2
     const-string v0, "bigTitleSearchView is null."
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->inflater:Landroid/view/LayoutInflater;
 
@@ -310,11 +310,11 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxInstallBtn;->installAnimationView:Lcom/airbnb/lottie/LottieAnimationView;
 
-    invoke-static {}, Lcom/huawei/appmarket/rg4;->b()Lcom/huawei/appmarket/rg4;
+    invoke-static {}, Lcom/huawei/appmarket/tg4;->b()Lcom/huawei/appmarket/tg4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/rg4;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tg4;->a()I
 
     move-result p1
 
@@ -328,7 +328,7 @@
 
     invoke-super {p0}, Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBox;->jumpSearchActivity()V
 
-    invoke-static {}, Lcom/huawei/appmarket/rg4;->b()Lcom/huawei/appmarket/rg4;
+    invoke-static {}, Lcom/huawei/appmarket/tg4;->b()Lcom/huawei/appmarket/tg4;
 
     move-result-object v0
 
@@ -342,7 +342,7 @@
 
     const-string v0, "searchbar_click"
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/rg4;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/BaseTitleBean;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/tg4;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/BaseTitleBean;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -390,7 +390,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/rg4;->b()Lcom/huawei/appmarket/rg4;
+    invoke-static {}, Lcom/huawei/appmarket/tg4;->b()Lcom/huawei/appmarket/tg4;
 
     move-result-object v0
 
@@ -400,7 +400,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rg4;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tg4;->d(Ljava/lang/String;)V
 
     :cond_2
     return-void

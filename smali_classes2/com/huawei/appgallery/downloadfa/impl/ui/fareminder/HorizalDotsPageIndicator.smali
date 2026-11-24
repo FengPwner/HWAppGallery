@@ -160,16 +160,16 @@
 
     if-nez p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string p2, "init failed, the attrs is null"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object v2, Lcom/huawei/appmarket/te6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/ve6;->a:[I
 
     const/4 v3, 0x0
 
@@ -273,11 +273,11 @@
 
     :catch_0
     :try_start_1
-    sget-object p1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string p3, "use typedArray Exception"
 
-    invoke-virtual {p1, v1, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -542,7 +542,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final onMeasure(II)V
@@ -629,7 +628,7 @@
     const/4 v4, 0x1
 
     .line 40
-    invoke-static {v1, v4, v3, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {v1, v4, v3, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     .line 41
     .line 42
@@ -775,5 +774,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

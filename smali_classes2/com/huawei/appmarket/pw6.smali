@@ -1,457 +1,454 @@
-.class public final synthetic Lcom/huawei/appmarket/pw6;
+.class public final Lcom/huawei/appmarket/pw6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Callable;
+.implements Lcom/huawei/appmarket/r04;
 
 
-# instance fields
-.field public final synthetic b:Ljava/lang/String;
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/r04;
+.end annotation
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/String;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/pw6;->b:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final call()Ljava/lang/Object;
-    .registers 7
+.method public final a(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    .registers 11
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/q04;->a()Lcom/huawei/appmarket/jw6;
+    const-string v0, "RewardImpl"
 
     .line 2
     .line 3
+    const/4 v1, 0x0
+
     .line 4
-    move-result-object v0
+    if-eqz p1, :cond_8
 
     .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
     .line 6
+    invoke-static {p2}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
+
     .line 7
     .line 8
-    new-instance v0, Lcom/huawei/appmarket/ld7;
-
     .line 9
+    move-result v2
+
     .line 10
-    const-string v1, "reward_fence_sp"
+    if-eqz v2, :cond_0
 
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    goto/16 :goto_4
 
     .line 13
     .line 14
-    .line 15
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld7;->s()Ljava/util/Map;
+    :cond_0
+    const-string v2, "conversionRewardInfo"
 
+    .line 15
     .line 16
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/g07;->a(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+
     .line 17
     .line 18
-    move-result-object v1
-
     .line 19
-    new-instance v2, Ljava/util/ArrayList;
+    move-result-object v3
 
     .line 20
-    .line 21
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+    invoke-static {v3}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
+    .line 21
     .line 22
     .line 23
+    move-result v4
+
     .line 24
-    invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    if-eqz v4, :cond_1
 
     .line 25
     .line 26
+    return-object v1
+
     .line 27
-    move-result-object v1
+    :cond_1
+    const-string v4, "params"
 
     .line 28
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
     .line 29
+    invoke-static {p1, v4}, Lcom/huawei/appmarket/g07;->a(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+
     .line 30
     .line 31
-    move-result-object v1
-
     .line 32
-    :cond_0
-    :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    move-result-object p1
 
     .line 33
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
+
     .line 34
     .line 35
-    move-result v3
-
     .line 36
-    iget-object v4, p0, Lcom/huawei/appmarket/pw6;->b:Ljava/lang/String;
+    move-result v5
 
     .line 37
-    .line 38
-    if-eqz v3, :cond_2
+    if-eqz v5, :cond_2
 
+    .line 38
     .line 39
+    return-object v1
+
     .line 40
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    :cond_2
+    :try_start_0
+    new-instance v5, Lorg/json/JSONObject;
 
     .line 41
     .line 42
+    invoke-direct {v5, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
     .line 43
-    move-result-object v3
-
     .line 44
-    check-cast v3, Ljava/util/Map$Entry;
-
     .line 45
-    .line 46
-    invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-virtual {v5, v4}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
+    .line 46
     .line 47
     .line 48
+    move-result-object p1
+
     .line 49
-    move-result-object v5
+    invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     .line 50
-    instance-of v5, v5, Ljava/lang/String;
-
     .line 51
     .line 52
-    if-eqz v5, :cond_0
+    move-result v4
 
     .line 53
+    if-lez v4, :cond_4
+
     .line 54
-    invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
     .line 55
+    const/4 v4, 0x0
+
     .line 56
+    :goto_0
+    invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
+
     .line 57
-    move-result-object v3
-
     .line 58
-    check-cast v3, Ljava/lang/String;
-
     .line 59
+    move-result v5
+
     .line 60
-    invoke-static {v3}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->T(Ljava/lang/String;)Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;
+    if-ge v4, v5, :cond_4
 
     .line 61
     .line 62
+    invoke-virtual {p1, v4}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+
     .line 63
-    move-result-object v3
-
     .line 64
-    invoke-virtual {v3}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->isValid()Z
-
     .line 65
-    .line 66
-    .line 67
-    move-result v5
+    move-result-object v5
 
+    .line 66
+    new-instance v6, Lcom/huawei/appgallery/opengateway/api/Param;
+
+    .line 67
     .line 68
-    if-eqz v5, :cond_1
+    invoke-direct {v6}, Lcom/huawei/appgallery/opengateway/api/Param;-><init>()V
 
     .line 69
     .line 70
-    invoke-virtual {v3}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->getPkgName()Ljava/lang/String;
-
     .line 71
+    invoke-virtual {v6, v5}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->fromJson(Lorg/json/JSONObject;)V
+
     .line 72
     .line 73
-    move-result-object v5
-
     .line 74
-    if-eqz v5, :cond_1
+    const-string v5, "uri"
 
     .line 75
     .line 76
-    invoke-virtual {v3}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->getPkgName()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/huawei/appgallery/opengateway/api/Param;->getName_()Ljava/lang/String;
 
     .line 77
     .line 78
     .line 79
-    move-result-object v5
+    move-result-object v7
 
     .line 80
-    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 81
     .line 82
     .line 83
-    move-result v4
+    move-result v5
 
     .line 84
-    if-eqz v4, :cond_0
+    if-eqz v5, :cond_3
 
     .line 85
     .line 86
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v6}, Lcom/huawei/appgallery/opengateway/api/Param;->getValue_()Ljava/lang/String;
 
     .line 87
     .line 88
     .line 89
-    :cond_1
-    invoke-virtual {v3}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->U()Ljava/lang/String;
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 90
+    goto :goto_1
+
     .line 91
+    :cond_3
+    add-int/lit8 v4, v4, 0x1
+
     .line 92
-    move-result-object v3
-
     .line 93
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/j50;->p(Ljava/lang/String;)V
-
-    .line 94
-    .line 95
-    .line 96
     goto :goto_0
 
+    .line 94
+    :catch_0
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    .line 95
+    .line 96
+    const-string v4, "can not get params:JSONException"
+
     .line 97
-    :cond_2
-    new-instance v0, Ljava/util/ArrayList;
-
     .line 98
-    .line 99
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-virtual {p1, v0, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 99
     .line 100
     .line 101
+    :cond_4
+    move-object p1, v1
+
     .line 102
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    :goto_1
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 103
     .line 104
     .line 105
-    move-result v1
+    move-result v4
 
     .line 106
-    const-string v3, "RewardProcessManager"
+    if-eqz v4, :cond_5
 
     .line 107
     .line 108
-    if-eqz v1, :cond_3
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 109
     .line 110
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    const-string p2, "parseRewardInfo failed, detailId empty"
 
     .line 111
     .line 112
-    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     .line 114
-    const-string v2, "without reward fence, pkgName: "
-
     .line 115
+    return-object v1
+
     .line 116
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    :cond_5
+    new-instance v4, Lorg/json/JSONObject;
 
     .line 117
     .line 118
-    .line 119
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
 
+    .line 119
     .line 120
     .line 121
-    .line 122
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    :try_start_1
+    new-instance v5, Lorg/json/JSONObject;
 
+    .line 122
     .line 123
+    invoke-direct {v5, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
     .line 124
     .line 125
-    move-result-object v1
-
     .line 126
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v2, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 127
     .line 128
     .line 129
-    goto :goto_2
+    const-string v2, "detailId"
 
     .line 130
-    :cond_3
-    invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
     .line 131
+    invoke-virtual {v4, v2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
     .line 132
     .line 133
-    move-result-object v1
-
     .line 134
-    :cond_4
-    :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    const-string p1, "callerPkg"
 
     .line 135
     .line 136
+    invoke-virtual {v4, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
     .line 137
-    move-result v2
-
     .line 138
-    if-eqz v2, :cond_5
-
     .line 139
-    .line 140
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    const-string p1, "mediaPkg"
 
+    .line 140
     .line 141
+    invoke-virtual {v4, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
     .line 142
     .line 143
-    move-result-object v2
-
     .line 144
-    check-cast v2, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;
+    goto :goto_2
 
     .line 145
+    :catch_1
+    const-string p1, "parseRewardInfo error"
+
     .line 146
-    if-eqz v2, :cond_4
-
     .line 147
-    .line 148
-    invoke-virtual {v2}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->U()Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 148
     .line 149
     .line 150
+    :goto_2
+    invoke-virtual {v4}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
     .line 151
-    move-result-object v4
-
     .line 152
-    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 153
+    move-result-object p1
+
     .line 154
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
+
     .line 155
-    move-result v4
-
     .line 156
-    if-nez v4, :cond_4
-
     .line 157
+    move-result p2
+
     .line 158
-    invoke-virtual {v2}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardFence;->U()Ljava/lang/String;
+    if-eqz p2, :cond_6
 
     .line 159
     .line 160
+    return-object v1
+
     .line 161
-    move-result-object v2
+    :cond_6
+    invoke-static {p1}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;->T(Ljava/lang/String;)Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;
 
     .line 162
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 163
     .line 164
+    move-result-object p1
+
     .line 165
-    goto :goto_1
+    invoke-virtual {p1}, Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;->U()Lcom/huawei/appgallery/distributionbase/bean/ConversionRewardInfo;
 
     .line 166
-    :cond_5
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
-
     .line 167
     .line 168
+    move-result-object p2
+
     .line 169
-    move-result v1
+    if-nez p2, :cond_7
 
     .line 170
-    if-eqz v1, :cond_6
-
     .line 171
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
     .line 172
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
-
     .line 173
+    const-string p2, "String is not Legal for RewardInfo."
+
     .line 174
-    const-string v1, "fenceIdList is empty."
-
     .line 175
-    .line 176
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 176
     .line 177
     .line 178
-    .line 179
-    goto :goto_2
+    const-string p1, ""
 
+    .line 179
     .line 180
-    :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/ig;->g()Lcom/huawei/appmarket/ig;
+    goto :goto_3
 
     .line 181
+    :cond_7
+    invoke-static {}, Lcom/huawei/appmarket/s04;->a()Lcom/huawei/appmarket/nw6;
+
     .line 182
     .line 183
-    move-result-object v1
-
     .line 184
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ig;->k(Ljava/util/ArrayList;)Lcom/huawei/appmarket/jg;
+    move-result-object p2
 
     .line 185
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/nw6;->a(Lcom/huawei/appgallery/distribution/impl/reward/bean/RewardInfo;)Ljava/lang/String;
+
     .line 186
     .line 187
-    move-result-object v0
-
     .line 188
-    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    move-result-object p1
 
     .line 189
-    .line 190
-    new-instance v2, Ljava/lang/StringBuilder;
+    :goto_3
+    return-object p1
 
+    .line 190
+    :cond_8
+    :goto_4
+    return-object v1
     .line 191
     .line 192
-    const-string v4, "syncUnregister, result: "
-
     .line 193
     .line 194
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 195
     .line 196
     .line 197
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jg;->c()I
-
     .line 198
     .line 199
     .line 200
-    move-result v0
-
     .line 201
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 202
     .line 203
     .line 204
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 205
     .line 206
     .line 207
-    move-result-object v0
-
     .line 208
-    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 209
     .line 210
     .line 211
-    :goto_2
-    const/4 v0, 0x0
-
     .line 212
-    return-object v0
     .line 213
     .line 214
     .line 215
@@ -824,27 +821,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
-    .line 592
-    .line 593
-    .line 594
-    .line 595
-    .line 596
-    .line 597
-    .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method

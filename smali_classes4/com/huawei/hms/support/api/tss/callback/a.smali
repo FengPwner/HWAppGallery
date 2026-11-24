@@ -94,7 +94,7 @@
     return p1
 .end method
 
-.method public doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method public doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 13
 
     .line 1
@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
     :try_end_1
     .catch Lcom/huawei/hms/support/api/tss/exception/a; {:try_start_1 .. :try_end_1} :catch_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
@@ -191,7 +191,7 @@
 
     invoke-direct {p3, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p3}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
     :try_end_4
     .catch Lcom/huawei/hms/support/api/tss/exception/a; {:try_start_4 .. :try_end_4} :catch_3
     .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_2
@@ -372,7 +372,7 @@
 
     invoke-direct {p3, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p3}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 

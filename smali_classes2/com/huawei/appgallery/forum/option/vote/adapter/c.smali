@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/qk8;
+.field final synthetic a:Lcom/huawei/appmarket/wk8;
 
 .field final synthetic b:I
 
@@ -12,13 +12,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;I)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;I)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->c:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->a:Lcom/huawei/appmarket/qk8;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->a:Lcom/huawei/appmarket/wk8;
 
     iput p3, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->b:I
 
@@ -46,17 +46,17 @@
 
     invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->j(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->a:Lcom/huawei/appmarket/qk8;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/c;->a:Lcom/huawei/appmarket/wk8;
 
-    iget-object v2, v1, Lcom/huawei/appmarket/qk8;->d:Ljava/util/ArrayList;
+    iget-object v2, v1, Lcom/huawei/appmarket/wk8;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v2, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/qk8$a;
+    check-cast v2, Lcom/huawei/appmarket/wk8$a;
 
-    iget-wide v2, v2, Lcom/huawei/appmarket/qk8$a;->b:J
+    iget-wide v2, v2, Lcom/huawei/appmarket/wk8$a;->b:J
 
     long-to-int v3, v2
 
@@ -66,11 +66,11 @@
 
     if-ne v2, v3, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/qk8;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/wk8;
 
     move-result-object p1
 
-    iget-object p1, p1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object p1, p1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
@@ -88,11 +88,11 @@
 
     if-ne v5, v3, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/qk8;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->m(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Lcom/huawei/appmarket/wk8;
 
     move-result-object p1
 
-    iget-object p1, p1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object p1, p1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
@@ -105,23 +105,23 @@
 
     if-eq p3, p2, :cond_2
 
-    iget-object v3, v1, Lcom/huawei/appmarket/qk8;->d:Ljava/util/ArrayList;
+    iget-object v3, v1, Lcom/huawei/appmarket/wk8;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v3, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p3
 
-    check-cast p3, Lcom/huawei/appmarket/qk8$a;
+    check-cast p3, Lcom/huawei/appmarket/wk8$a;
 
     const/4 v3, 0x0
 
-    iput-object v3, p3, Lcom/huawei/appmarket/qk8$a;->d:Ljava/lang/String;
+    iput-object v3, p3, Lcom/huawei/appmarket/wk8$a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->l(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;)Landroid/content/Context;
 
     move-result-object v0
 
-    iget p3, p3, Lcom/huawei/appmarket/qk8$a;->c:I
+    iget p3, p3, Lcom/huawei/appmarket/wk8$a;->c:I
 
     invoke-virtual {v0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -134,9 +134,9 @@
     invoke-virtual {p1, p3}, Landroid/widget/ToggleButton;->setTextOff(Ljava/lang/CharSequence;)V
 
     :cond_2
-    iput v2, v1, Lcom/huawei/appmarket/qk8;->h:I
+    iput v2, v1, Lcom/huawei/appmarket/wk8;->h:I
 
-    iput p2, v1, Lcom/huawei/appmarket/qk8;->g:I
+    iput p2, v1, Lcom/huawei/appmarket/wk8;->g:I
 
     const/4 p1, 0x0
 

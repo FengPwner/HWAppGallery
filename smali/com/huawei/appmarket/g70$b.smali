@@ -32,11 +32,11 @@
     .line 1
     const-string v0, "groupItemView"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "groupItem"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -65,11 +65,11 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/g70$b;->c:Lcom/huawei/appmarket/oc;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/oc;->a()Lcom/huawei/appmarket/v23;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/oc;->a()Lcom/huawei/appmarket/y23;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/v23;->a()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/y23;->a()I
 
     move-result v2
 
@@ -81,7 +81,7 @@
 
     const-string v2, "BatchProcessGroupItemViewHolder"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/g70$b;->b:Lcom/huawei/appgallery/agguard/business/ui/view/AgGuardScanItemView;
 
@@ -113,7 +113,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bb;->m()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bb;->m()Lcom/huawei/appmarket/ce5;
 
     move-result-object v2
 
@@ -137,7 +137,7 @@
 
     const-string v3, "groupItem.items"
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Ljava/lang/Iterable;
 
@@ -157,7 +157,7 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/og3;
+    check-cast v3, Lcom/huawei/appmarket/qg3;
 
     instance-of v4, v3, Lcom/huawei/appmarket/cb;
 

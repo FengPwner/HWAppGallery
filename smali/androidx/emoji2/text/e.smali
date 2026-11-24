@@ -29,7 +29,7 @@
 # instance fields
 .field private final a:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
-.field private final b:Lcom/huawei/appmarket/jx;
+.field private final b:Lcom/huawei/appmarket/kx;
 
 .field private volatile c:I
 
@@ -142,16 +142,16 @@
 
     .line 41
     .line 42
-    new-instance p1, Lcom/huawei/appmarket/jx;
+    new-instance p1, Lcom/huawei/appmarket/kx;
 
     .line 43
     .line 44
-    invoke-direct {p1}, Lcom/huawei/appmarket/jx;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/kx;-><init>()V
 
     .line 45
     .line 46
     .line 47
-    iput-object p1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iput-object p1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
     .line 48
     .line 49
@@ -731,6 +731,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static e(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
@@ -1115,6 +1116,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final j(Ljava/lang/Throwable;)V
@@ -1138,13 +1140,13 @@
     :try_start_0
     iput v1, p0, Landroidx/emoji2/text/e;->c:I
 
-    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/jx;->clear()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kx;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1203,13 +1205,13 @@
     :try_start_0
     iput v1, p0, Landroidx/emoji2/text/e;->c:I
 
-    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/jx;->clear()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kx;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1315,7 +1317,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/h56;->a(ZLjava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j56;->a(ZLjava/lang/String;)V
 
     .line 28
     .line 29
@@ -1358,7 +1360,7 @@
 
     .line 44
     .line 45
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/h56;->a(ZLjava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j56;->a(ZLjava/lang/String;)V
 
     .line 46
     .line 47
@@ -1383,7 +1385,7 @@
 
     .line 56
     .line 57
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/h56;->a(ZLjava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j56;->a(ZLjava/lang/String;)V
 
     .line 58
     .line 59
@@ -1939,11 +1941,11 @@
 
     .line 23
     :cond_0
-    iget-object v0, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v0, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
     .line 24
     .line 25
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/jx;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx;->add(Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -2074,7 +2076,7 @@
     .line 1
     const-string v0, "initCallback cannot be null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/h56;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j56;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/emoji2/text/e;->a:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
@@ -2085,9 +2087,9 @@
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     :try_start_0
-    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/jx;
+    iget-object v1, p0, Landroidx/emoji2/text/e;->b:Lcom/huawei/appmarket/kx;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/jx;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/kx;->remove(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

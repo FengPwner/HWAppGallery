@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/bh7;
+.field private a:Lcom/huawei/appmarket/gh7;
 
-.field private b:Lcom/huawei/appmarket/ws7;
+.field private b:Lcom/huawei/appmarket/ct7;
 
 
 # direct methods
@@ -26,33 +26,33 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/bh7;
+    new-instance v0, Lcom/huawei/appmarket/gh7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/bh7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gh7;-><init>()V
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->a:Lcom/huawei/appmarket/bh7;
+    iput-object v0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->a:Lcom/huawei/appmarket/gh7;
 
-    sget-object v0, Lcom/huawei/appmarket/vr0;->a:Lcom/huawei/appmarket/ws7;
+    sget-object v0, Lcom/huawei/appmarket/wr0;->a:Lcom/huawei/appmarket/ct7;
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->b:Lcom/huawei/appmarket/ws7;
+    iput-object v0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->b:Lcom/huawei/appmarket/ct7;
 
     return-void
 .end method
 
-.method static synthetic a(Landroidx/media3/exoplayer/upstream/experimental/a$b;)Lcom/huawei/appmarket/bh7;
+.method static synthetic a(Landroidx/media3/exoplayer/upstream/experimental/a$b;)Lcom/huawei/appmarket/gh7;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->a:Lcom/huawei/appmarket/bh7;
+    iget-object p0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->a:Lcom/huawei/appmarket/gh7;
 
     return-object p0
 .end method
 
-.method static synthetic b(Landroidx/media3/exoplayer/upstream/experimental/a$b;)Lcom/huawei/appmarket/ws7;
+.method static synthetic b(Landroidx/media3/exoplayer/upstream/experimental/a$b;)Lcom/huawei/appmarket/ct7;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->b:Lcom/huawei/appmarket/ws7;
+    iget-object p0, p0, Landroidx/media3/exoplayer/upstream/experimental/a$b;->b:Lcom/huawei/appmarket/ct7;
 
     return-object p0
 .end method

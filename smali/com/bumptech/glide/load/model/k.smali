@@ -77,7 +77,7 @@
     return p1
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 10
 
     .line 1
@@ -275,7 +275,7 @@
 
     .line 95
     .line 96
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     .line 97
     .line 98

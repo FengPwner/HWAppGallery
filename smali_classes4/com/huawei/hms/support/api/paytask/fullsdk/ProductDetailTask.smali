@@ -1,12 +1,12 @@
 .class public Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;
-.super Lcom/huawei/appmarket/hv7;
+.super Lcom/huawei/appmarket/nv7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/hv7<",
+        "Lcom/huawei/appmarket/nv7<",
         "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
         ">;"
     }
@@ -20,24 +20,24 @@
 
 .field private c:Lcom/huawei/hms/support/api/pay/ProductDetailResult;
 
-.field private d:Lcom/huawei/appmarket/kp5;
+.field private d:Lcom/huawei/appmarket/lp5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private e:Lcom/huawei/appmarket/oo5;
+.field private e:Lcom/huawei/appmarket/po5;
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)V
     .registers 4
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/hv7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/nv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/support/api/pay/ProductDetailResult;
 
@@ -87,11 +87,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/kp5;
+.method static synthetic a(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/lp5;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->d:Lcom/huawei/appmarket/kp5;
+    iget-object p0, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->d:Lcom/huawei/appmarket/lp5;
 
     return-object p0
 .end method
@@ -173,45 +173,45 @@
     return p1
 .end method
 
-.method static synthetic c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/oo5;
+.method static synthetic c(Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;)Lcom/huawei/appmarket/po5;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->e:Lcom/huawei/appmarket/oo5;
+    iget-object p0, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->e:Lcom/huawei/appmarket/po5;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public addOnFailureListener(Landroid/app/Activity;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Landroid/app/Activity;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
@@ -236,68 +236,68 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/oo5;->onFailure(Ljava/lang/Exception;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/po5;->onFailure(Ljava/lang/Exception;)V
 
     goto :goto_0
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->e:Lcom/huawei/appmarket/oo5;
+    iput-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->e:Lcom/huawei/appmarket/po5;
 
     :cond_1
     :goto_0
     return-object p0
 .end method
 
-.method public addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+.method public addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/concurrent/Executor;",
-            "Lcom/huawei/appmarket/oo5;",
+            "Lcom/huawei/appmarket/po5;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
     .end annotation
 
     .line 3
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Landroid/app/Activity;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Landroid/app/Activity;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
@@ -306,29 +306,29 @@
     .line 2
     if-eqz p1, :cond_0
 
-    iput-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->d:Lcom/huawei/appmarket/kp5;
+    iput-object p1, p0, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->d:Lcom/huawei/appmarket/lp5;
 
     :cond_0
     return-object p0
 .end method
 
-.method public addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+.method public addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/concurrent/Executor;",
-            "Lcom/huawei/appmarket/kp5<",
+            "Lcom/huawei/appmarket/lp5<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
     .end annotation
 
     .line 3
-    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p2}, Lcom/huawei/hms/support/api/paytask/fullsdk/ProductDetailTask;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-object p0
 .end method

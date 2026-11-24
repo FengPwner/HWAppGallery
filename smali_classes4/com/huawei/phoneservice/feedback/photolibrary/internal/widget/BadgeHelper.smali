@@ -381,40 +381,23 @@
 
     .line 168
     .line 169
-    const-string v0, "\u76ee\u6807View\u4e0d\u80fd\u6ca1\u6709\u7236\u5e03\u5c40!"
+    const-string/jumbo v0, "\u76ee\u6807View\u4e0d\u80fd\u6ca1\u6709\u7236\u5e03\u5c40!"
 
     .line 170
     .line 171
+    .line 172
     invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    .line 172
     .line 173
     .line 174
-    throw p1
     .line 175
+    throw p1
     .line 176
     .line 177
     .line 178
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected final onDraw(Landroid/graphics/Canvas;)V
@@ -489,7 +472,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    const-string p2, "\u5982\u679c\u4f60\u81ea\u5b9a\u4e49\u4e86\u5c0f\u7ea2\u70b9\u7684\u5bbd\u9ad8,\u5c31\u4e0d\u80fd\u8bbe\u7f6e\u5176\u5bbd\u9ad8\u5c0f\u4e8e0!"
+    const-string/jumbo p2, "\u5982\u679c\u4f60\u81ea\u5b9a\u4e49\u4e86\u5c0f\u7ea2\u70b9\u7684\u5bbd\u9ad8,\u5c31\u4e0d\u80fd\u8bbe\u7f6e\u5176\u5bbd\u9ad8\u5c0f\u4e8e0!"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 

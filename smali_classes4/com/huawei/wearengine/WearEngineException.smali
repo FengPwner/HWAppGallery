@@ -11,7 +11,7 @@
 .method public constructor <init>(I)V
     .registers 3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/im8;->b(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/om8;->b(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -32,7 +32,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/im8;->a(Ljava/lang/String;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/om8;->a(Ljava/lang/String;)I
 
     move-result p0
 

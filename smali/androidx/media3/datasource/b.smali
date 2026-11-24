@@ -30,10 +30,10 @@
 
 .field private final k:Landroidx/media3/datasource/HttpDataSource$c;
 
-.field private final l:Lcom/huawei/appmarket/i56;
+.field private final l:Lcom/huawei/appmarket/k56;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/i56<",
+            "Lcom/huawei/appmarket/k56<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -42,7 +42,7 @@
 
 .field private final m:Z
 
-.field private n:Lcom/huawei/appmarket/l91;
+.field private n:Lcom/huawei/appmarket/m91;
 
 .field private o:Ljava/net/HttpURLConnection;
 
@@ -58,7 +58,7 @@
 
 
 # direct methods
-.method private constructor <init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/i56;Z)V
+.method private constructor <init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/k56;Z)V
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -66,7 +66,7 @@
             "Ljava/lang/String;",
             "IIZZ",
             "Landroidx/media3/datasource/HttpDataSource$c;",
-            "Lcom/huawei/appmarket/i56<",
+            "Lcom/huawei/appmarket/k56<",
             "Ljava/lang/String;",
             ">;Z)V"
         }
@@ -106,7 +106,7 @@
     :goto_0
     iput-object p6, p0, Landroidx/media3/datasource/b;->j:Landroidx/media3/datasource/HttpDataSource$c;
 
-    iput-object p7, p0, Landroidx/media3/datasource/b;->l:Lcom/huawei/appmarket/i56;
+    iput-object p7, p0, Landroidx/media3/datasource/b;->l:Lcom/huawei/appmarket/k56;
 
     new-instance p1, Landroidx/media3/datasource/HttpDataSource$c;
 
@@ -119,11 +119,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/i56;ZLandroidx/media3/datasource/b$a;)V
+.method synthetic constructor <init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/k56;ZLandroidx/media3/datasource/b$a;)V
     .registers 10
 
     .line 2
-    invoke-direct/range {p0 .. p8}, Landroidx/media3/datasource/b;-><init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/i56;Z)V
+    invoke-direct/range {p0 .. p8}, Landroidx/media3/datasource/b;-><init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/k56;Z)V
 
     return-void
 .end method
@@ -150,7 +150,7 @@
 
     const-string v2, "Unexpected error while disconnecting"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/cy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     const/4 v0, 0x0
@@ -161,7 +161,7 @@
     return-void
 .end method
 
-.method private p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/l91;)Ljava/net/URL;
+.method private p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/m91;)Ljava/net/URL;
     .registers 9
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -245,7 +245,7 @@
 
     .line 35
     .line 36
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -253,7 +253,7 @@
     move-result-object p2
 
     .line 40
-    invoke-direct {p1, p2, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p1, p2, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;II)V
 
     .line 41
     .line 42
@@ -349,7 +349,7 @@
 
     .line 83
     .line 84
-    invoke-direct {p2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 85
     .line 86
@@ -419,7 +419,7 @@
     move-result-object p1
 
     .line 121
-    invoke-direct {v2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {v2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;II)V
 
     .line 122
     .line 123
@@ -440,7 +440,7 @@
 
     .line 128
     .line 129
-    invoke-direct {p2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p2, p1, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 130
     .line 131
@@ -457,7 +457,7 @@
 
     .line 136
     .line 137
-    invoke-direct {p1, p2, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p1, p2, p3, v1, v0}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;II)V
 
     .line 138
     .line 139
@@ -606,9 +606,16 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
-.method private q(Lcom/huawei/appmarket/l91;)Ljava/net/HttpURLConnection;
+.method private q(Lcom/huawei/appmarket/m91;)Ljava/net/HttpURLConnection;
     .registers 28
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -629,7 +636,7 @@
 
     .line 6
     .line 7
-    iget-object v0, v12, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v0, v12, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     .line 8
     .line 9
@@ -646,26 +653,26 @@
     .line 14
     .line 15
     .line 16
-    iget v2, v12, Lcom/huawei/appmarket/l91;->c:I
+    iget v2, v12, Lcom/huawei/appmarket/m91;->c:I
 
     .line 17
     .line 18
-    iget-object v3, v12, Lcom/huawei/appmarket/l91;->d:[B
+    iget-object v3, v12, Lcom/huawei/appmarket/m91;->d:[B
 
     .line 19
     .line 20
-    iget-wide v13, v12, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v13, v12, Lcom/huawei/appmarket/m91;->f:J
 
     .line 21
     .line 22
-    iget-wide v9, v12, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v9, v12, Lcom/huawei/appmarket/m91;->g:J
 
     .line 23
     .line 24
     const/4 v15, 0x1
 
     .line 25
-    invoke-virtual {v12, v15}, Lcom/huawei/appmarket/l91;->b(I)Z
+    invoke-virtual {v12, v15}, Lcom/huawei/appmarket/m91;->b(I)Z
 
     .line 26
     .line 27
@@ -700,7 +707,7 @@
     const/4 v15, 0x1
 
     .line 42
-    iget-object v12, v12, Lcom/huawei/appmarket/l91;->e:Ljava/util/Map;
+    iget-object v12, v12, Lcom/huawei/appmarket/m91;->e:Ljava/util/Map;
 
     .line 43
     .line 44
@@ -766,7 +773,7 @@
 
     .line 69
     .line 70
-    iget-object v5, v12, Lcom/huawei/appmarket/l91;->e:Ljava/util/Map;
+    iget-object v5, v12, Lcom/huawei/appmarket/m91;->e:Ljava/util/Map;
 
     .line 71
     .line 72
@@ -972,7 +979,7 @@
 
     .line 165
     :goto_1
-    invoke-direct {v11, v14, v2, v12}, Landroidx/media3/datasource/b;->p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/l91;)Ljava/net/URL;
+    invoke-direct {v11, v14, v2, v12}, Landroidx/media3/datasource/b;->p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/m91;)Ljava/net/URL;
 
     .line 166
     .line 167
@@ -997,7 +1004,7 @@
     .line 173
     .line 174
     .line 175
-    invoke-direct {v11, v14, v2, v12}, Landroidx/media3/datasource/b;->p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/l91;)Ljava/net/URL;
+    invoke-direct {v11, v14, v2, v12}, Landroidx/media3/datasource/b;->p(Ljava/net/URL;Ljava/lang/String;Lcom/huawei/appmarket/m91;)Ljava/net/URL;
 
     .line 176
     .line 177
@@ -1052,7 +1059,7 @@
 
     .line 199
     .line 200
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 201
     .line 202
@@ -1069,7 +1076,7 @@
 
     .line 208
     .line 209
-    invoke-direct {v0, v1, v12, v2, v15}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {v0, v1, v12, v2, v15}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 210
     .line 211
@@ -1389,7 +1396,7 @@
 
     .line 81
     :cond_1
-    sget p10, Lcom/huawei/appmarket/ld3;->c:I
+    sget p10, Lcom/huawei/appmarket/nd3;->c:I
 
     .line 82
     .line 83
@@ -1432,7 +1439,7 @@
 
     .line 100
     .line 101
-    invoke-static {p10, p4, p5, v0}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p10, p4, p5, v0}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 102
     .line 103
@@ -1559,7 +1566,7 @@
     .line 158
     .line 159
     .line 160
-    sget p5, Lcom/huawei/appmarket/l91;->k:I
+    sget p5, Lcom/huawei/appmarket/m91;->k:I
 
     .line 161
     .line 162
@@ -1676,7 +1683,7 @@
 
     .line 2
     .line 3
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 4
     .line 5
@@ -1924,7 +1931,7 @@
     .line 150
 .end method
 
-.method private u(JLcom/huawei/appmarket/l91;)V
+.method private u(JLcom/huawei/appmarket/m91;)V
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1984,7 +1991,7 @@
 
     .line 23
     .line 24
-    sget v6, Lcom/huawei/appmarket/ge8;->a:I
+    sget v6, Lcom/huawei/appmarket/le8;->a:I
 
     .line 25
     .line 26
@@ -2052,7 +2059,7 @@
 
     .line 54
     .line 55
-    invoke-direct {p1, p3, p2, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p1, p3, p2, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Lcom/huawei/appmarket/m91;II)V
 
     .line 56
     .line 57
@@ -2078,7 +2085,7 @@
 
     .line 67
     .line 68
-    invoke-direct {p1, p2, p3, v0, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p1, p2, p3, v0, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 69
     .line 70
@@ -2228,15 +2235,15 @@
     :try_start_2
     new-instance v3, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;
 
-    iget-object v4, p0, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/l91;
+    iget-object v4, p0, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/m91;
 
-    sget v5, Lcom/huawei/appmarket/ge8;->a:I
+    sget v5, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v5, 0x7d0
 
     const/4 v6, 0x3
 
-    invoke-direct {v3, v2, v4, v5, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {v3, v2, v4, v5, v6}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     throw v3
     :try_end_2
@@ -2293,7 +2300,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/kb4;->k()Lcom/huawei/appmarket/kb4;
+    invoke-static {}, Lcom/huawei/appmarket/mb4;->k()Lcom/huawei/appmarket/mb4;
 
     move-result-object v0
 
@@ -2476,7 +2483,7 @@
     return v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 18
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -2493,7 +2500,7 @@
 
     .line 4
     .line 5
-    iput-object v7, v1, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/l91;
+    iput-object v7, v1, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/m91;
 
     .line 6
     .line 7
@@ -2509,13 +2516,13 @@
 
     .line 12
     .line 13
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     .line 14
     .line 15
     .line 16
     :try_start_0
-    invoke-direct/range {p0 .. p1}, Landroidx/media3/datasource/b;->q(Lcom/huawei/appmarket/l91;)Ljava/net/HttpURLConnection;
+    invoke-direct/range {p0 .. p1}, Landroidx/media3/datasource/b;->q(Lcom/huawei/appmarket/m91;)Ljava/net/HttpURLConnection;
 
     .line 17
     .line 18
@@ -2565,11 +2572,11 @@
 
     .line 39
     .line 40
-    iget-wide v12, v7, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v12, v7, Lcom/huawei/appmarket/m91;->f:J
 
     .line 41
     .line 42
-    iget-wide v14, v7, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v14, v7, Lcom/huawei/appmarket/m91;->g:J
 
     .line 43
     .line 44
@@ -2602,7 +2609,7 @@
     move-result-object v4
 
     .line 57
-    iget-object v5, v1, Landroidx/media3/datasource/b;->l:Lcom/huawei/appmarket/i56;
+    iget-object v5, v1, Landroidx/media3/datasource/b;->l:Lcom/huawei/appmarket/k56;
 
     .line 58
     .line 59
@@ -2610,7 +2617,7 @@
 
     .line 60
     .line 61
-    invoke-interface {v5, v4}, Lcom/huawei/appmarket/i56;->apply(Ljava/lang/Object;)Z
+    invoke-interface {v5, v4}, Lcom/huawei/appmarket/k56;->apply(Ljava/lang/Object;)Z
 
     .line 62
     .line 63
@@ -2635,7 +2642,7 @@
 
     .line 72
     .line 73
-    invoke-direct {v0, v4, v7}, Landroidx/media3/datasource/HttpDataSource$InvalidContentTypeException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;)V
+    invoke-direct {v0, v4, v7}, Landroidx/media3/datasource/HttpDataSource$InvalidContentTypeException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;)V
 
     .line 74
     .line 75
@@ -2730,7 +2737,7 @@
     move-result-object v6
 
     .line 117
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/ld3;->a(Ljava/lang/String;Ljava/lang/String;)J
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/nd3;->a(Ljava/lang/String;Ljava/lang/String;)J
 
     .line 118
     .line 119
@@ -2818,13 +2825,13 @@
 
     .line 154
     .line 155
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 156
     .line 157
     .line 158
     :try_start_2
-    invoke-direct {v1, v2, v3, v7}, Landroidx/media3/datasource/b;->u(JLcom/huawei/appmarket/l91;)V
+    invoke-direct {v1, v2, v3, v7}, Landroidx/media3/datasource/b;->u(JLcom/huawei/appmarket/m91;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -2876,7 +2883,7 @@
     const/4 v4, 0x1
 
     .line 180
-    invoke-direct {v0, v2, v7, v5, v4}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {v0, v2, v7, v5, v4}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 181
     .line 182
@@ -2894,7 +2901,7 @@
 
     .line 188
     .line 189
-    invoke-direct {v2, v0, v7, v5, v4}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {v2, v0, v7, v5, v4}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 190
     .line 191
@@ -2931,7 +2938,7 @@
     move-result-object v3
 
     .line 207
-    invoke-static {v3}, Lcom/huawei/appmarket/ld3;->b(Ljava/lang/String;)J
+    invoke-static {v3}, Lcom/huawei/appmarket/nd3;->b(Ljava/lang/String;)J
 
     .line 208
     .line 209
@@ -2951,7 +2958,7 @@
 
     .line 216
     .line 217
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 218
     .line 219
@@ -2993,7 +3000,7 @@
     .line 234
     .line 235
     :try_start_3
-    invoke-static {v0}, Lcom/huawei/appmarket/rf0;->b(Ljava/io/InputStream;)[B
+    invoke-static {v0}, Lcom/huawei/appmarket/sf0;->b(Ljava/io/InputStream;)[B
 
     .line 236
     .line 237
@@ -3005,7 +3012,7 @@
 
     .line 240
     :cond_c
-    sget-object v0, Lcom/huawei/appmarket/ge8;->f:[B
+    sget-object v0, Lcom/huawei/appmarket/le8;->f:[B
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
 
@@ -3019,7 +3026,7 @@
 
     .line 244
     :catch_2
-    sget-object v0, Lcom/huawei/appmarket/ge8;->f:[B
+    sget-object v0, Lcom/huawei/appmarket/le8;->f:[B
 
     .line 245
     .line 246
@@ -3082,7 +3089,7 @@
 
     .line 271
     .line 272
-    invoke-direct/range {v2 .. v8}, Landroidx/media3/datasource/HttpDataSource$InvalidResponseCodeException;-><init>(ILjava/lang/String;Ljava/io/IOException;Ljava/util/Map;Lcom/huawei/appmarket/l91;[B)V
+    invoke-direct/range {v2 .. v8}, Landroidx/media3/datasource/HttpDataSource$InvalidResponseCodeException;-><init>(ILjava/lang/String;Ljava/io/IOException;Ljava/util/Map;Lcom/huawei/appmarket/m91;[B)V
 
     .line 273
     .line 274
@@ -3102,7 +3109,7 @@
     const/4 v2, 0x1
 
     .line 281
-    invoke-static {v0, v7, v2}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;->b(Ljava/io/IOException;Lcom/huawei/appmarket/l91;I)Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;
+    invoke-static {v0, v7, v2}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;->b(Ljava/io/IOException;Lcom/huawei/appmarket/m91;I)Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;
 
     .line 282
     .line 283
@@ -3259,7 +3266,7 @@
 
     .line 32
     .line 33
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 34
     .line 35
@@ -3308,18 +3315,18 @@
     move-exception p1
 
     .line 53
-    iget-object p2, p0, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/l91;
+    iget-object p2, p0, Landroidx/media3/datasource/b;->n:Lcom/huawei/appmarket/m91;
 
     .line 54
     .line 55
-    sget p3, Lcom/huawei/appmarket/ge8;->a:I
+    sget p3, Lcom/huawei/appmarket/le8;->a:I
 
     .line 56
     .line 57
     const/4 p3, 0x2
 
     .line 58
-    invoke-static {p1, p2, p3}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;->b(Ljava/io/IOException;Lcom/huawei/appmarket/l91;I)Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;
+    invoke-static {p1, p2, p3}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;->b(Ljava/io/IOException;Lcom/huawei/appmarket/m91;I)Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;
 
     .line 59
     .line 60
@@ -3549,6 +3556,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final t(Ljava/lang/String;Ljava/lang/String;)V

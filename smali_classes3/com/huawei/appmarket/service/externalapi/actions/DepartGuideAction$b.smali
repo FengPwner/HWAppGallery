@@ -54,13 +54,13 @@
 
     const-string v0, "DepartGuideAction"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
     const-string p1, "AppDetailCallback checkResultData resBean is null."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -73,7 +73,7 @@
 
     const-string p1, "AppDetailCallback checkResultData resBean.getRtnCode_() != 0 "
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -82,7 +82,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -98,7 +98,7 @@
 
     check-cast v2, Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ld6;->a(Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/nd6;->a(Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;)Z
 
     move-result v2
 
@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$200(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)V
 
@@ -138,11 +138,11 @@
 
     invoke-static {v1, p1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$300(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 
@@ -153,11 +153,11 @@
 
     move-result-object p1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$600(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$600(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p2
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/c72$b;->getCallerPkg()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/huawei/appmarket/g72$b;->getCallerPkg()Ljava/lang/String;
 
     move-result-object p2
 
@@ -167,7 +167,7 @@
 
     const-string v2, "1010800202"
 
-    invoke-static {v2, p1, p2, v0}, Lcom/huawei/appmarket/ld6;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1, p2, v0}, Lcom/huawei/appmarket/nd6;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;->access$800(Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;)V
 

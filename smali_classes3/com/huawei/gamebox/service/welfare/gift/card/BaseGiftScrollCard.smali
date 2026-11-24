@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private A:Lcom/huawei/appmarket/ak0;
+.field private A:Lcom/huawei/appmarket/bk0;
 
 .field private B:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;
 
@@ -24,7 +24,7 @@
 
 .field private E:Landroidx/recyclerview/widget/LinearLayoutManager;
 
-.field private F:Lcom/huawei/appmarket/ja3;
+.field private F:Lcom/huawei/appmarket/ma3;
 
 .field private G:J
 
@@ -163,7 +163,7 @@
     move-result-object p1
 
     .line 48
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 49
     .line 50
@@ -183,7 +183,7 @@
     move-result-object p1
 
     .line 58
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 59
     .line 60
@@ -237,7 +237,7 @@
     move-result-object v0
 
     .line 85
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 86
     .line 87
@@ -274,7 +274,7 @@
     move-result-object v1
 
     .line 104
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 105
     .line 106
@@ -378,7 +378,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private K1(I)V
@@ -409,7 +408,7 @@
     move-result-object p1
 
     .line 13
-    invoke-static {p1}, Lcom/huawei/appmarket/xh8;->e(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/di8;->e(Landroid/view/View;)I
 
     .line 14
     .line 15
@@ -464,7 +463,7 @@
 
     .line 39
     .line 40
-    invoke-static {v3, p1, v4}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, p1, v4}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -527,7 +526,7 @@
 
     .line 72
     .line 73
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     .line 75
@@ -640,7 +639,7 @@
     move-result-object v2
 
     .line 130
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 131
     .line 132
@@ -660,7 +659,7 @@
     move-result-object v2
 
     .line 140
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 141
     .line 142
@@ -748,7 +747,7 @@
     move-result-object v3
 
     .line 183
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 184
     .line 185
@@ -826,7 +825,7 @@
     move-result-object p1
 
     .line 222
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 223
     .line 224
@@ -994,8 +993,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method static synthetic v1(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -1016,11 +1013,11 @@
     return-object p0
 .end method
 
-.method static synthetic x1(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;)Lcom/huawei/appmarket/ak0;
+.method static synthetic x1(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;)Lcom/huawei/appmarket/bk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->A:Lcom/huawei/appmarket/ak0;
+    iget-object p0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->A:Lcom/huawei/appmarket/bk0;
 
     return-object p0
 .end method
@@ -1117,7 +1114,7 @@
 
     const-string v1, "calculateItemVerExpose horizon Item Card"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$c;
 
@@ -1306,18 +1303,17 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final F1()V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ma3;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->l()V
 
     .line 4
     .line 5
@@ -1360,7 +1356,7 @@
 
     .line 25
     .line 26
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -1611,7 +1607,7 @@
 
     .line 38
     .line 39
-    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ma3;
 
     .line 40
     .line 41
@@ -1619,7 +1615,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->c()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->c()Ljava/util/ArrayList;
 
     .line 44
     .line 45
@@ -1789,11 +1785,11 @@
     .line 164
 .end method
 
-.method protected H1(Lcom/huawei/appmarket/ak0;)V
+.method protected H1(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->A:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->A:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -1804,7 +1800,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->C:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xh8;->h(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/di8;->h(Landroid/view/View;)I
 
     move-result v0
 
@@ -1822,7 +1818,7 @@
 
     const-string v2, "BaseGiftScrollCard"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -1880,7 +1876,7 @@
     return-void
 .end method
 
-.method protected final L1(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;Landroidx/recyclerview/widget/LinearLayoutManager;Lcom/huawei/appmarket/ja3;)V
+.method protected final L1(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;Landroidx/recyclerview/widget/LinearLayoutManager;Lcom/huawei/appmarket/ma3;)V
     .registers 5
 
     .line 1
@@ -1890,7 +1886,7 @@
 
     iput-object p3, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->E:Landroidx/recyclerview/widget/LinearLayoutManager;
 
-    iput-object p4, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ja3;
+    iput-object p4, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->F:Lcom/huawei/appmarket/ma3;
 
     return-void
 .end method

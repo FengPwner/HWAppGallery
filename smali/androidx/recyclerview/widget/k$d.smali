@@ -156,7 +156,7 @@
     .registers 3
 
     .line 1
-    sget-object p1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object p1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
@@ -772,7 +772,7 @@
     .registers 1
 
     .line 1
-    instance-of p0, p0, Lcom/huawei/appmarket/ck$b;
+    instance-of p0, p0, Lcom/huawei/appmarket/bk$b;
 
     xor-int/lit8 p0, p0, 0x1
 
@@ -788,7 +788,7 @@
     .line 1
     if-eqz p1, :cond_0
 
-    sget-object p1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object p1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 

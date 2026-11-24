@@ -6,7 +6,7 @@
 # instance fields
 .field private final a:Lcom/huawei/appmarket/gb0;
 
-.field private final b:Lcom/huawei/appmarket/v29;
+.field private final b:Lcom/huawei/appmarket/b39;
 
 
 # direct methods
@@ -18,28 +18,28 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/fb0;->a:Lcom/huawei/appmarket/gb0;
 
-    new-instance v0, Lcom/huawei/appmarket/v29;
+    new-instance v0, Lcom/huawei/appmarket/b39;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/v29;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/b39;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/v29;
+    iput-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/b39;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/gb0;->a()Lcom/huawei/appmarket/y12;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/gb0;->a()Lcom/huawei/appmarket/c22;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bu0;->a(Lcom/huawei/appmarket/y12;Lcom/huawei/appmarket/y12;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kb1;->a(Lcom/huawei/appmarket/c22;Lcom/huawei/appmarket/c22;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/v29;
+.method public final a()Lcom/huawei/appmarket/b39;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/v29;
+    iget-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/b39;
 
     return-object v0
 .end method
@@ -56,11 +56,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/v29;
+    iget-object v0, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/b39;
 
     iget-object v1, p0, Lcom/huawei/appmarket/fb0;->a:Lcom/huawei/appmarket/gb0;
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gb0;->c(Lcom/huawei/appmarket/v29;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gb0;->c(Lcom/huawei/appmarket/b39;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -78,15 +78,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/n80;->a()Lcom/huawei/appmarket/b09;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/n80;->a()Lcom/huawei/appmarket/h09;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/huawei/appmarket/fb0;->a:Lcom/huawei/appmarket/gb0;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/v29;
+    iget-object v1, p0, Lcom/huawei/appmarket/fb0;->b:Lcom/huawei/appmarket/b39;
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gb0;->b(Lcom/huawei/appmarket/v29;Lcom/huawei/appmarket/b09;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gb0;->b(Lcom/huawei/appmarket/b39;Lcom/huawei/appmarket/h09;)Ljava/lang/Object;
 
     return-void
 .end method

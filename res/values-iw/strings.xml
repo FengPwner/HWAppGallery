@@ -1891,7 +1891,7 @@
     <string name="hiapp_trial_mode_privacy_first_content">כדי ליהנות מכל התכונות של AppGallery, עליך להסכים ל%1$s ול%2$s.</string>
     <string name="hiapp_trial_mode_privacy_first_content_all">כדי ליהנות מכל התכונות של AppGallery, עליך להסכים ל%1$s, ל%2$s ול%3$s.</string>
     <string name="hiapp_trial_mode_privacy_merge_content">"מצב 'מלא' זקוק לחיבור %1$s ולהרשאה 'רשימת יישומים'. ייתכן שיהיה עליו לקרוא ולהעלות/להעביר את הדברים הבאים: פרטי התמונות והסרטונים, ומידע אודות ההתקן, החשבון, הרשת, העסקאות, השימוש ביישום, היישומים המותקנים ואנשי הקשר, וכן מידע אחר שאתה מעלה באופן פעיל. זאת על מנת לספק הורדות, התקנות ועדכונים של יישומים, ושירותים קשורים אחרים. %2$s"</string>
-    <string name="hiapp_trial_mode_privacy_second_content">"השתמש במצב 'מלא' כדי ליהנות מכל התכונות של AppGallery. שימוש במצב 'מלא' מהווה הסכמה מצדך ל%1$s ל%2$s ול%3$s, ולהפעלת שירותי ערך מוסף."</string>
+    <string name="hiapp_trial_mode_privacy_second_content">"השתמש במצב 'מלא' כדי ליהנות מכל התכונות של AppGallery. שימוש במצב 'מלא' מהווה הסכמה מצדך ל%1$s, ל%2$s, ל%3$s, ולהפעלת שירותי ערך מוסף."</string>
     <string name="hiapp_trial_mode_privacy_second_content_no_permission_desc">"השתמש במצב 'מלא' כדי ליהנות מכל התכונות של AppGallery. באמצעות שימוש במצב 'מלא', אתה מצהיר על הסכמתך ל%1$s, ל%2$s ולהפעלת שירותי ערך מוסף."</string>
     <string name="hiapp_trial_mode_privacy_second_content_other_brand">"השתמש במצב 'מלא' כדי ליהנות מכל התכונות של AppGallery. על-ידי שימוש במצב 'מלא', אתה מציין שאתה מסכים ל%1$s ול%2$s."</string>
     <string name="hiapp_trial_mode_privacy_second_description_trialmode">מצב בסיסי נותן רק גישה לתכונות בסיסיות של AppGallery, למשל חיפושים והורדות של יישומים. %1$s. מצב זה צריך חיבור %2$s. על-ידי המשך הפעולה במצב זה, אתה מסכים לתנאים אלה.</string>

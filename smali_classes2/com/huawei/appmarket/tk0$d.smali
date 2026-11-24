@@ -1,62 +1,72 @@
-.class final Lcom/huawei/appmarket/tk0$d;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/tk0$d;
+.super Landroidx/recyclerview/widget/RecyclerView$d0;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lcom/huawei/appmarket/t64;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/tk0;->d()V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/tk0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x9
+    name = "d"
 .end annotation
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/tk0;
+.field u:Lcom/huawei/appmarket/o2;
+
+.field v:Landroid/view/View;
+
+.field w:Landroid/view/ViewGroup;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/tk0;)V
-    .registers 2
+.method public constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/o2;Landroid/view/ViewGroup;)V
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tk0$d;->b:Lcom/huawei/appmarket/tk0;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$d0;-><init>(Landroid/view/View;)V
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p2, p0, Lcom/huawei/appmarket/tk0$d;->u:Lcom/huawei/appmarket/o2;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/tk0$d;->v:Landroid/view/View;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/tk0$d;->w:Landroid/view/ViewGroup;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 4
+.method public final a()V
+    .registers 2
 
     .line 1
-    :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/tk0$d;->b:Lcom/huawei/appmarket/tk0;
+    iget-object v0, p0, Lcom/huawei/appmarket/tk0$d;->u:Lcom/huawei/appmarket/o2;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/tk0;->C(Lcom/huawei/appmarket/tk0;)V
-    :try_end_0
-    .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
+    if-eqz v0, :cond_0
 
-    goto :goto_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o2;->n()V
 
-    :catch_0
-    move-exception v0
+    :cond_0
+    return-void
+.end method
 
-    const-string v1, "CardListAdapterV2"
+.method public final c()V
+    .registers 2
 
-    const-string v2, "onDataClear e: "
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tk0$d;->u:Lcom/huawei/appmarket/o2;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    if-eqz v0, :cond_0
 
-    :goto_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o2;->m()V
+
+    :cond_0
     return-void
 .end method

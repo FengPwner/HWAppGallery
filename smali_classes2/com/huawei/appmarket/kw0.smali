@@ -18,16 +18,16 @@
 
 .field protected L:Z
 
-.field protected M:Lcom/huawei/appmarket/hj0;
+.field protected M:Lcom/huawei/appmarket/ij0;
 
-.field protected N:Lcom/huawei/appmarket/kl1;
+.field protected N:Lcom/huawei/appmarket/nl1;
 
 .field protected O:Ljava/util/ArrayList;
 
-.field protected P:Lcom/huawei/appmarket/zd5;
+.field protected P:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;",
             ">;"
         }
@@ -54,11 +54,11 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/kw0;->O:Ljava/util/ArrayList;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/kw0;->P:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appmarket/kw0;->P:Lcom/huawei/appmarket/ce5;
 
     return-void
 .end method
@@ -287,11 +287,11 @@
     return-object v0
 .end method
 
-.method public final f0()Lcom/huawei/appmarket/hj0;
+.method public final f0()Lcom/huawei/appmarket/ij0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->M:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->M:Lcom/huawei/appmarket/ij0;
 
     return-object v0
 .end method
@@ -305,28 +305,28 @@
     return-object v0
 .end method
 
-.method public final h0()Lcom/huawei/appmarket/kl1;
+.method public final h0()Lcom/huawei/appmarket/nl1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->N:Lcom/huawei/appmarket/kl1;
+    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->N:Lcom/huawei/appmarket/nl1;
 
     return-object v0
 .end method
 
-.method public final i0()Lcom/huawei/appmarket/zd5;
+.method public final i0()Lcom/huawei/appmarket/ce5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;",
             ">;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->P:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/kw0;->P:Lcom/huawei/appmarket/ce5;
 
     return-object v0
 .end method

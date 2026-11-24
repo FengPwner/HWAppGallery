@@ -108,7 +108,7 @@
 
     .line 34
     .line 35
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 36
     .line 37
@@ -246,5 +246,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

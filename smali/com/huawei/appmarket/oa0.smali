@@ -49,11 +49,11 @@
     .line 13
     .line 14
     :try_start_0
-    new-instance p0, Lcom/huawei/appmarket/w32;
+    new-instance p0, Lcom/huawei/appmarket/a42;
 
     .line 15
     .line 16
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/w32;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/a42;-><init>(Ljava/io/InputStream;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -65,7 +65,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Lcom/huawei/appmarket/w32;->c()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/a42;->c()I
 
     .line 23
     .line 24

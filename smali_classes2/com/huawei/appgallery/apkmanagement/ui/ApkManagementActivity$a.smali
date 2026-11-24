@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    sget-object v1, Lcom/huawei/appmarket/hn;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/gn;->a:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -64,7 +64,7 @@
     return-void
 
     :cond_1
-    sget-object p2, Lcom/huawei/appmarket/hn;->b:Ljava/lang/String;
+    sget-object p2, Lcom/huawei/appmarket/gn;->b:Ljava/lang/String;
 
     invoke-virtual {v0, p2}, Lcom/huawei/secure/android/common/intent/SafeIntent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
@@ -79,21 +79,21 @@
     return-void
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/wn;->a()Lcom/huawei/appmarket/wn;
+    invoke-static {}, Lcom/huawei/appmarket/vn;->a()Lcom/huawei/appmarket/vn;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wn;->b()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vn;->b()Ljava/util/ArrayList;
 
     move-result-object v0
 
     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    new-instance v0, Lcom/huawei/appmarket/jn;
+    new-instance v0, Lcom/huawei/appmarket/in;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jn;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/in;-><init>()V
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/jn;->i(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/in;->i(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;->C3(Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;)Ljava/util/ArrayList;
 

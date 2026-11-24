@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 8
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -51,12 +51,12 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->s()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->s()V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->l0()Lcom/huawei/appmarket/qp4;
 
     .line 10
     .line 11
@@ -68,7 +68,7 @@
 
     .line 14
     :goto_0
-    sget-object v3, Lcom/huawei/appmarket/np4;->c:Lcom/huawei/appmarket/np4;
+    sget-object v3, Lcom/huawei/appmarket/qp4;->c:Lcom/huawei/appmarket/qp4;
 
     .line 15
     .line 16
@@ -113,7 +113,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->H()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->H()Z
 
     .line 36
     .line 37
@@ -160,7 +160,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->z()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->z()Ljava/lang/String;
 
     .line 60
     .line 61
@@ -190,7 +190,7 @@
 
     .line 74
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->J()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->J()I
 
     .line 75
     .line 76
@@ -222,7 +222,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->l0()Lcom/huawei/appmarket/qp4;
 
     .line 89
     .line 90
@@ -246,7 +246,7 @@
 
     .line 98
     .line 99
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 100
     .line 101
@@ -254,7 +254,7 @@
     move-result-object v1
 
     .line 103
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->B()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->B()Ljava/lang/String;
 
     .line 104
     .line 105
@@ -284,7 +284,7 @@
 
     .line 118
     :cond_5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->w()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->w()V
 
     .line 119
     .line 120
@@ -516,7 +516,7 @@
     .line 345
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -529,7 +529,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->t()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->t()V
 
     .line 4
     .line 5
@@ -561,7 +561,7 @@
     int-to-long v2, v2
 
     .line 18
-    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/tp4;->f0(J)V
+    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/wp4;->f0(J)V
 
     .line 19
     .line 20
@@ -574,7 +574,7 @@
 
     .line 24
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->w()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->w()V
 
     .line 25
     .line 26

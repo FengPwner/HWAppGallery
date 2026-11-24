@@ -740,7 +740,7 @@
 
     iput-object p1, p0, Lcom/huawei/fastengine/fastview/download/download/DownloadActivity;->mInstallInfoReceiver:Lcom/huawei/fastengine/fastview/download/download/DownloadActivity$InstallInfoReceiver;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
@@ -752,7 +752,7 @@
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     :cond_5
     :goto_1
@@ -770,13 +770,13 @@
 
     invoke-direct {p0}, Lcom/huawei/fastengine/fastview/download/download/DownloadActivity;->unregisterReceiver()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/fastengine/fastview/download/download/DownloadActivity;->mInstallInfoReceiver:Lcom/huawei/fastengine/fastview/download/download/DownloadActivity$InstallInfoReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     iget-object v0, p0, Lcom/huawei/fastengine/fastview/download/download/DownloadActivity;->guideDownloadDlg:Lcom/huawei/fastengine/fastview/download/download/GuideDownloadDlg;
 

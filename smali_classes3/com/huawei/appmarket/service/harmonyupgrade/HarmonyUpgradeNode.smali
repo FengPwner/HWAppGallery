@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private l:Lcom/huawei/appmarket/du4;
+.field private l:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -42,9 +42,9 @@
 
     invoke-direct {v1, p2}, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;-><init>(Landroid/content/Context;)V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeNode;->l:Lcom/huawei/appmarket/du4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeNode;->l:Lcom/huawei/appmarket/gu4;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     invoke-virtual {v1, v0}, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
@@ -70,7 +70,7 @@
 
     float-to-int v2, v2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     move-result v3
 
@@ -90,7 +90,7 @@
 
     float-to-int v2, v2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     move-result p2
 
@@ -105,20 +105,20 @@
     return p1
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeNode;->l:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/HarmonyUpgradeNode;->l:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method

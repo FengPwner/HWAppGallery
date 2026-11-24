@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;
-.super Lcom/huawei/appmarket/c52;
+.super Lcom/huawei/appmarket/g52;
 .source "SourceFile"
 
 
@@ -23,9 +23,9 @@
     .registers 3
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/c52;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/g52;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iput-object p1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;->a:Z
 
@@ -70,7 +70,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     .line 18
     .line 19
@@ -79,7 +79,7 @@
 
     .line 21
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 22
     .line 23
@@ -91,11 +91,11 @@
 
     .line 26
     .line 27
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 30
     .line 31
@@ -103,11 +103,11 @@
     move-result-object v0
 
     .line 33
-    const-class v1, Lcom/huawei/appmarket/ty3;
+    const-class v1, Lcom/huawei/appmarket/vy3;
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -115,11 +115,11 @@
     move-result-object v0
 
     .line 39
-    check-cast v0, Lcom/huawei/appmarket/ty3;
+    check-cast v0, Lcom/huawei/appmarket/vy3;
 
     .line 40
     .line 41
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 42
     .line 43
@@ -135,7 +135,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     .line 50
     .line 51
@@ -174,12 +174,12 @@
 
     .line 67
     .line 68
-    invoke-direct {v2, p0, v0, v1}, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;-><init>(Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;Lcom/huawei/appmarket/ty3;Landroid/app/Activity;)V
+    invoke-direct {v2, p0, v0, v1}, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;-><init>(Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;Lcom/huawei/appmarket/vy3;Landroid/app/Activity;)V
 
     .line 69
     .line 70
     .line 71
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ty3;->a(Landroid/app/Activity;Lcom/huawei/appmarket/rk3;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/vy3;->a(Landroid/app/Activity;Lcom/huawei/appmarket/tk3;)V
 
     .line 72
     .line 73

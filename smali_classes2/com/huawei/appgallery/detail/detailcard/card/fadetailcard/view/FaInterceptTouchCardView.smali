@@ -51,19 +51,19 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/si8;
+    check-cast v2, Lcom/huawei/appmarket/yi8;
 
-    invoke-direct {v1, v2}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v1, v2}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
-    const-class v2, Lcom/huawei/appmarket/kd2;
+    const-class v2, Lcom/huawei/appmarket/nd2;
 
-    invoke-virtual {v1, v2}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/kd2;
+    check-cast v1, Lcom/huawei/appmarket/nd2;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/kd2;->W()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/nd2;->W()Z
 
     move-result v1
 
@@ -81,13 +81,13 @@
     return p1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v1, "FaInterceptTouchCardView"
 
     const-string v2, "onInterceptTouchEvent exception occurred."
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method

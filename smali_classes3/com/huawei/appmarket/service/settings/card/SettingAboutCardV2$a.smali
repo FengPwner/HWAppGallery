@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/SettingAboutCardV2$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingAboutCardV2$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingAboutCardV2;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     invoke-static {v0}, Lcom/huawei/appmarket/service/settings/card/SettingAboutCardV2;->p1(Lcom/huawei/appmarket/service/settings/card/SettingAboutCardV2;)V
 
@@ -58,7 +58,7 @@
 
     const-string v0, "About activity started, analytics event sent"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

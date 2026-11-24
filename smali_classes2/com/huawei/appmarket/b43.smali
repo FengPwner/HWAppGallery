@@ -12,59 +12,51 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;)Ljava/lang/String;
+.method public static a(Lcom/huawei/appgallery/game/impl/GameResource;Ljava/lang/String;)V
     .registers 5
 
     .line 1
-    const-string v0, "HMSPackageUtil"
+    new-instance v0, Ljava/util/LinkedHashMap;
 
-    const-string v1, "hmsPackageName = "
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    const/4 v2, 0x0
-
-    :try_start_0
-    invoke-static {p0}, Lcom/huawei/hms/utils/HMSPackageManager;->getInstance(Landroid/content/Context;)Lcom/huawei/hms/utils/HMSPackageManager;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lcom/huawei/hms/utils/HMSPackageManager;->getHMSPackageNameForMultiService()Ljava/lang/String;
-
-    move-result-object v2
-
-    sget-object p0, Lcom/huawei/appmarket/x76;->a:Lcom/huawei/appmarket/x76;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/game/impl/GameResource;->f()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    const-string v2, "pkgName"
 
-    goto :goto_0
+    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    :catch_0
-    sget-object p0, Lcom/huawei/appmarket/x76;->a:Lcom/huawei/appmarket/x76;
+    new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v1, "getHmsPackageName fail"
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0}, Lcom/huawei/appgallery/game/impl/GameResource;->k()I
 
     move-result p0
 
-    if-eqz p0, :cond_0
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    const-string v2, ""
+    const-string p0, ""
 
-    :cond_0
-    return-object v2
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "resVersion"
+
+    invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string p0, "action"
+
+    invoke-virtual {v0, p0, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string p0, "1010900307"
+
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
+    return-void
 .end method

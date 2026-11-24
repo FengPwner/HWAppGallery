@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/huawei/appgallery/search/ui/node/BaseCompositeNode;->K()Z
@@ -129,7 +129,7 @@
 
     const v0, 0x7f0a0d7f
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/huawei/appgallery/search/ui/node/BaseCompositeNode;->H()Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;
@@ -295,7 +295,7 @@
 
     .line 60
     :cond_2
-    invoke-static {v7}, Lcom/huawei/appmarket/ve8;->a(Landroid/view/View;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/af8;->a(Landroid/view/View;)Z
 
     .line 61
     .line 62
@@ -311,7 +311,7 @@
 
     .line 67
     :cond_3
-    invoke-static {v6}, Lcom/huawei/appmarket/o52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/huawei/appmarket/s52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
 
     .line 68
     .line 69

@@ -86,7 +86,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/nm4;->c(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
+    invoke-static {v1}, Lcom/huawei/appmarket/qm4;->c(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
 
     move-result-object v1
 
@@ -96,7 +96,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/nm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v1}, Lcom/huawei/appmarket/qm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     move-result-object v0
 

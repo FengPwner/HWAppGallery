@@ -4,22 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()Ljava/lang/String;
-.end method
-
-.method public abstract b(Ljava/lang/String;)Ljava/lang/String;
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-.end method
-
-.method public abstract c()Ljava/lang/String;
-.end method
-
-.method public abstract d()Ljava/lang/String;
-.end method
-
-.method public abstract e(I)Z
-.end method
-
-.method public abstract getServiceType()I
+.method public abstract prepareFa(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;)Lcom/huawei/appmarket/hn6;
 .end method

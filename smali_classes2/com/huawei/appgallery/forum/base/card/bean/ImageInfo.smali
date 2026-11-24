@@ -99,7 +99,7 @@
 
     const-string v2, "getImgHeight e"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     :cond_0
     const/4 v0, 0x0
@@ -153,7 +153,7 @@
 
     const-string v3, "getImgWidth e"
 
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     :cond_0
     return v1

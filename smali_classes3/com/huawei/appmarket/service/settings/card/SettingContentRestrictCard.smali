@@ -33,7 +33,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingContentRestrictCard;->A:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -47,19 +47,19 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingContentRestrictCard;->y:Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/qm6;->e()Lcom/huawei/appmarket/qm6;
+    invoke-static {}, Lcom/huawei/appmarket/tm6;->e()Lcom/huawei/appmarket/tm6;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/va7;
+    new-instance v0, Lcom/huawei/appmarket/ab7;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/va7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/ab7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
 
     const-string v1, "settingcontentrestrictcard"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/qm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/va7;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/tm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/ab7;)V
 
     return-void
 .end method
@@ -184,7 +184,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic o1(Lcom/huawei/appmarket/service/settings/card/SettingContentRestrictCard;)Landroid/content/Context;
@@ -342,7 +341,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private s1()V
@@ -399,11 +397,11 @@
     :goto_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->k:Landroid/view/View;
 
-    new-instance v1, Lcom/huawei/appmarket/tf7;
+    new-instance v1, Lcom/huawei/appmarket/yf7;
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/settings/card/SettingContentRestrictCard;->D:Landroid/view/View$OnClickListener;
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -644,7 +642,6 @@
     .line 113
     return-object p0
     .line 114
-    .line 115
 .end method
 
 .method protected final m1()Z

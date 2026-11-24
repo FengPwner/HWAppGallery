@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final g:Lcom/huawei/appmarket/g52;
+.field private final g:Lcom/huawei/appmarket/k52;
 
 .field private final h:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -20,15 +20,15 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/l52;Lcom/huawei/appmarket/g52;)V
+.method public constructor <init>(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/p52;Lcom/huawei/appmarket/k52;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;-><init>(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/l52;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;-><init>(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/p52;)V
 
-    iput-object p3, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/g;->g:Lcom/huawei/appmarket/g52;
+    iput-object p3, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/g;->g:Lcom/huawei/appmarket/k52;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getView()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getView()Landroid/view/View;
 
     move-result-object p1
 
@@ -83,9 +83,9 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/g;->g:Lcom/huawei/appmarket/g52;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/g;->g:Lcom/huawei/appmarket/k52;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/g52;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcom/huawei/appmarket/k52;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -104,9 +104,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/dk8;
+    check-cast v1, Lcom/huawei/appmarket/jk8;
 
-    invoke-virtual {p0, v1, p1}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;->b(Lcom/huawei/appmarket/dk8;Z)V
+    invoke-virtual {p0, v1, p1}, Lcom/huawei/flexiblelayout/services/exposure/impl/b;->b(Lcom/huawei/appmarket/jk8;Z)V
 
     goto :goto_0
 

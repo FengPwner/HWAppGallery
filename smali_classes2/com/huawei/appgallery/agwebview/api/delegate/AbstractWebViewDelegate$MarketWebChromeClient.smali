@@ -106,7 +106,7 @@
 
     const-string v1, "AbstractWebviewDelegate"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -131,7 +131,7 @@
 
     const-string v2, "exit web view full screen"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v2, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
@@ -165,7 +165,7 @@
     const-string v2, "full screen layout is null"
 
     :goto_0
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -211,7 +211,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setNavigationBarColor(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     move-result v1
 
@@ -228,7 +228,7 @@
     const/4 v1, 0x1
 
     :goto_1
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     goto :goto_2
 
@@ -300,7 +300,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->j0(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->k0(I)V
 
     .line 16
     .line 17
@@ -492,7 +492,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
@@ -559,7 +558,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-static {p1, p1, p2}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, p2}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -573,7 +572,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->m0(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->n0(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -703,7 +702,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
@@ -715,7 +713,7 @@
 
     const-string v2, "enter web view full screen"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
@@ -830,7 +828,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setNavigationBarColor(I)V
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -874,7 +872,7 @@
 
     const-string p2, "enter web view full screen failed."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -896,7 +894,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/zp0;
+    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/aq0;
 
     move-result-object v0
 
@@ -904,7 +902,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/zp0;
+    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/aq0;
 
     move-result-object v0
 
@@ -912,7 +910,7 @@
 
     iget-object v1, v1, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->c:Landroid/content/Context;
 
-    invoke-interface {v0, v1, p1, p2, p3}, Lcom/huawei/appmarket/zp0;->b(Landroid/content/Context;Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z
+    invoke-interface {v0, v1, p1, p2, p3}, Lcom/huawei/appmarket/aq0;->b(Landroid/content/Context;Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z
 
     :cond_0
     const/4 p1, 0x1
@@ -936,7 +934,7 @@
 
     iget-object p3, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-static {p3}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/zp0;
+    invoke-static {p3}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/aq0;
 
     move-result-object p3
 
@@ -944,7 +942,7 @@
 
     iget-object p3, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$MarketWebChromeClient;->this$0:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-static {p3}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/zp0;
+    invoke-static {p3}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->r(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)Lcom/huawei/appmarket/aq0;
 
     move-result-object p3
 
@@ -954,7 +952,7 @@
 
     move-result-object v0
 
-    invoke-interface {p3, v0, p1, p2}, Lcom/huawei/appmarket/zp0;->a(Landroid/content/Context;Landroid/webkit/ValueCallback;Ljava/lang/String;)V
+    invoke-interface {p3, v0, p1, p2}, Lcom/huawei/appmarket/aq0;->a(Landroid/content/Context;Landroid/webkit/ValueCallback;Ljava/lang/String;)V
 
     :cond_0
     return-void

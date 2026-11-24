@@ -1,5 +1,5 @@
 .class final Lcom/huawei/gamebox/service/welfare/gift/card/SimpleItemsCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
 
     iput-object p3, p0, Lcom/huawei/gamebox/service/welfare/gift/card/SimpleItemsCard$a;->c:Lcom/huawei/gamebox/service/common/cardkit/bean/BaseGsCardBean;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
     move-result-object p1
 
     .line 23
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/vq8;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/br8;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -179,5 +179,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

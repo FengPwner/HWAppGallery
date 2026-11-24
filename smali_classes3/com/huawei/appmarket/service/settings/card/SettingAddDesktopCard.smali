@@ -471,29 +471,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 
@@ -506,11 +483,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->k:Landroid/view/View;
 
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/settings/card/SettingAddDesktopCard;->y:Lcom/huawei/appmarket/service/settings/card/a;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -582,7 +559,7 @@
 
     .line 31
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/ri1;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/ui1;->a()Z
 
     .line 32
     .line 33
@@ -599,7 +576,7 @@
 
     .line 39
     .line 40
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 41
     .line 42
@@ -686,15 +663,15 @@
 
     .line 82
     :cond_2
-    new-instance v2, Lcom/huawei/appmarket/xz;
+    new-instance v2, Lcom/huawei/appmarket/yz;
 
     .line 83
     .line 84
-    const/16 v3, 0xf
+    const/16 v3, 0x10
 
     .line 85
     .line 86
-    invoke-direct {v2, v3, p0, v0, v1}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, p0, v0, v1}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 87
     .line 88
@@ -731,7 +708,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final m1()Z

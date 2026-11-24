@@ -154,7 +154,7 @@
     .line 48
     .line 49
     .line 50
-    const v0, 0x7f0a1616
+    const v0, 0x7f0a1617
 
     .line 51
     .line 52
@@ -179,7 +179,7 @@
 
     .line 62
     .line 63
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 64
     .line 65
@@ -191,7 +191,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -209,7 +209,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 79
     .line 80
@@ -243,7 +243,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final j(Ljava/lang/String;)Ljava/lang/String;
@@ -256,13 +255,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "HotWordBaseItemCard"
 
     const-string v1, "getSearchKeyword, bean is error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -284,13 +283,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "HotWordBaseItemCard"
 
     const-string v2, "getItemViewWidth, get view error."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -420,13 +419,13 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "HotWordBaseItemCard"
 
     const-string v1, "setItemData error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -439,13 +438,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "HotWordBaseItemCard"
 
     const-string v2, "setItemWidth, itemView == null."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -514,11 +513,11 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string p2, "reportClickExtBi error."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -533,11 +532,11 @@
 
     if-eqz v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string p2, "reportClickExtBi error, no detailId."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -560,25 +559,25 @@
 
     move-object v7, p2
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/ve8;->k(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/af8;->k(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/pq1$a;
+    new-instance v0, Lcom/huawei/appmarket/sq1$a;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/pq1$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/sq1$a;-><init>()V
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pq1$a;->r(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sq1$a;->r(I)V
 
     const-string v1, "13"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pq1$a;->m(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sq1$a;->m(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/pq1$a;->s(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/sq1$a;->s(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pq1$a;->o(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sq1$a;->o(I)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sq1$a;->a()V
 
     return-void
 .end method

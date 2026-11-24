@@ -15,14 +15,14 @@
         "Ljava/lang/Object;",
         "Lcom/huawei/agconnect/https/Adapter<",
         "TRequest;",
-        "Lcom/huawei/appmarket/lr6;",
+        "Lcom/huawei/appmarket/or6;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field public static final a:Lcom/huawei/appmarket/a65;
+.field public static final a:Lcom/huawei/appmarket/d65;
 
 
 # direct methods
@@ -30,7 +30,7 @@
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/a65;->c:Lcom/huawei/appmarket/a65$a;
+    sget-object v0, Lcom/huawei/appmarket/d65;->c:Lcom/huawei/appmarket/d65$a;
 
     .line 2
     .line 3
@@ -43,7 +43,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lcom/huawei/appmarket/a65$a;->b(Ljava/lang/String;)Lcom/huawei/appmarket/a65;
+    invoke-static {v0}, Lcom/huawei/appmarket/d65$a;->b(Ljava/lang/String;)Lcom/huawei/appmarket/d65;
 
     .line 9
     .line 10
@@ -51,7 +51,7 @@
     move-result-object v0
 
     .line 12
-    sput-object v0, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a:Lcom/huawei/appmarket/a65;
+    sput-object v0, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a:Lcom/huawei/appmarket/d65;
 
     .line 13
     .line 14
@@ -177,6 +177,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public constructor <init>()V
@@ -189,12 +190,12 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+.method public a(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TRequest;)",
-            "Lcom/huawei/appmarket/lr6;"
+            "Lcom/huawei/appmarket/or6;"
         }
     .end annotation
 
@@ -284,14 +285,14 @@
     if-ne v0, v4, :cond_0
 
     :goto_2
-    sget-object p1, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a:Lcom/huawei/appmarket/a65;
+    sget-object p1, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a:Lcom/huawei/appmarket/d65;
 
     if-nez v1, :cond_4
 
     const-string v1, "{}"
 
     :cond_4
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/lr6;->create(Lcom/huawei/appmarket/a65;Ljava/lang/String;)Lcom/huawei/appmarket/lr6;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/or6;->create(Lcom/huawei/appmarket/d65;Ljava/lang/String;)Lcom/huawei/appmarket/or6;
 
     move-result-object p1
 
@@ -409,7 +410,7 @@
         }
     .end annotation
 
-    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/JsonBodyRequestAdapter;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
 
     move-result-object p1
 

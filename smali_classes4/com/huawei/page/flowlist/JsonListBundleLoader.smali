@@ -91,11 +91,11 @@
     return-object v6
 .end method
 
-.method public static synthetic f(Lcom/huawei/page/flowlist/JsonListBundleLoader;Lcom/huawei/appmarket/nv7;Lcom/huawei/appmarket/ab2;)V
+.method public static synthetic f(Lcom/huawei/page/flowlist/JsonListBundleLoader;Lcom/huawei/appmarket/tv7;Lcom/huawei/appmarket/db2;)V
     .registers 6
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv4;
+    new-instance v0, Lcom/huawei/appmarket/qv4;
 
     .line 2
     .line 3
@@ -119,12 +119,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, v1, v2, p0, p2}, Lcom/huawei/appmarket/nv4;-><init>(Ljava/lang/String;Ljava/lang/String;ZLcom/huawei/appmarket/ab2;)V
+    invoke-direct {v0, v1, v2, p0, p2}, Lcom/huawei/appmarket/qv4;-><init>(Ljava/lang/String;Ljava/lang/String;ZLcom/huawei/appmarket/db2;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 17
     .line 18
@@ -622,83 +622,40 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method private g(Lcom/huawei/appmarket/hv7;)Lcom/huawei/appmarket/hv7;
+.method private g(Lcom/huawei/appmarket/nv7;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/ab2;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/db2;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7;"
+            "Lcom/huawei/appmarket/nv7;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Lcom/huawei/page/flowlist/d;
 
     invoke-direct {v1, p0, v0}, Lcom/huawei/page/flowlist/d;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    new-instance v1, Lcom/huawei/appmarket/qm2;
+    new-instance v1, Lcom/huawei/appmarket/sm2;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/qm2;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/sm2;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -707,17 +664,17 @@
 
 
 # virtual methods
-.method public load(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/ya2;)Lcom/huawei/appmarket/hv7;
+.method public load(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/bb2;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sa2;",
+            "Lcom/huawei/appmarket/va2;",
             "Lcom/huawei/flexiblelayout/data/b;",
-            "Lcom/huawei/appmarket/ya2;",
+            "Lcom/huawei/appmarket/bb2;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/mb2;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/pb2;",
             ">;"
         }
     .end annotation
@@ -751,7 +708,7 @@
 
     const-string v2, "JsonListBundleLoader"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -765,11 +722,11 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/ya2;->parse(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/bb2;->parse(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/hv7;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/nv7;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -782,11 +739,11 @@
 
     check-cast p1, Lorg/json/JSONObject;
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/ya2;->parse(Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/bb2;->parse(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/hv7;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/nv7;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -799,11 +756,11 @@
 
     check-cast p1, Lorg/json/JSONArray;
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/ya2;->parse(Lorg/json/JSONArray;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/bb2;->parse(Lorg/json/JSONArray;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/hv7;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->g(Lcom/huawei/appmarket/nv7;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -816,7 +773,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/page/flowlist/NetworkListBundleLoader;->load(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/ya2;)Lcom/huawei/appmarket/hv7;
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/page/flowlist/NetworkListBundleLoader;->load(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/b;Lcom/huawei/appmarket/bb2;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -831,7 +788,7 @@
 
     invoke-direct {p1, p2, p3}, Lcom/huawei/page/exception/FLPageException;-><init>(ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

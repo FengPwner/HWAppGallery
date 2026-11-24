@@ -17,14 +17,14 @@
 .field private locale_:Ljava/lang/String;
 
 .field private maxId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private requestId_:Ljava/lang/String;
 
 .field private serviceToken_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -70,13 +70,13 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->clientVersionName_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->deliverRegion_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
 
 
 # virtual methods
-.method public final F0()Ljava/lang/String;
+.method public final E0()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -109,7 +109,7 @@
     return-object v0
 .end method
 
-.method public final G0(Ljava/lang/String;)V
+.method public final F0(Ljava/lang/String;)V
     .registers 2
 
     .line 1

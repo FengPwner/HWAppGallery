@@ -42,7 +42,7 @@
     .line 3
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/material/progressindicator/b;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->w:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->w:[I
 
     const v3, 0x7f0404b9
 
@@ -58,7 +58,7 @@
 
     move-object v1, p2
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 

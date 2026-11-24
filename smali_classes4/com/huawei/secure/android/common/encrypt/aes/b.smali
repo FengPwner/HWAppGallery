@@ -21,7 +21,7 @@
 
     if-eqz p0, :cond_0
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
@@ -52,7 +52,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
@@ -65,7 +65,7 @@
     .line 1
     if-nez p0, :cond_0
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 

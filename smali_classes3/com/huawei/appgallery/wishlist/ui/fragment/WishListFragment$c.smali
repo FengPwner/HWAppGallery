@@ -52,7 +52,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -148,22 +148,22 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/fs8;->b()Lcom/huawei/appmarket/fs8;
+    invoke-static {}, Lcom/huawei/appmarket/ls8;->b()Lcom/huawei/appmarket/ls8;
 
     move-result-object p2
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/fs8;->e(Ljava/util/ArrayList;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/ls8;->e(Ljava/util/ArrayList;)V
 
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    new-instance p2, Lcom/huawei/appmarket/dn5;
 
     const-string p3, "delete.wish.activity"
 
     const/4 p5, 0x0
 
-    invoke-direct {p2, p3, p5}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p2, p3, p5}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object p3
 
@@ -175,11 +175,11 @@
 
     const/16 p3, 0x65
 
-    invoke-static {p5, p2, p3}, Lcom/huawei/appmarket/is4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/cn5;I)Lcom/huawei/appmarket/pv6;
+    invoke-static {p5, p2, p3}, Lcom/huawei/appmarket/ls4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/dn5;I)Lcom/huawei/appmarket/tv6;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->E3(Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;Lcom/huawei/appmarket/pv6;)V
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->E3(Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;Lcom/huawei/appmarket/tv6;)V
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -188,7 +188,7 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p2, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -208,7 +208,7 @@
 
     const-string p3, "WishListFragment"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return p4

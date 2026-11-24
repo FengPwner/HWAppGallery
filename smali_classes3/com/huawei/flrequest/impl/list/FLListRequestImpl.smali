@@ -11,37 +11,37 @@
 
 # instance fields
 .field private mCookies:Lorg/json/JSONArray;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "cookie"
     .end annotation
 .end field
 
 .field private mDataId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "dataId"
     .end annotation
 .end field
 
 .field private mPageNum:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "pageNum"
     .end annotation
 .end field
 
 .field private mPageSize:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "pageSize"
     .end annotation
 .end field
 
 .field private mReferrer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "referrer"
     .end annotation
 .end field
 
 .field private mSubType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "subType"
     .end annotation
 .end field
@@ -70,7 +70,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/huawei/appmarket/fb2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/fb2;
+    invoke-static {p1}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
     .line 9
     .line 10
@@ -84,11 +84,11 @@
     const/4 v2, 0x0
 
     .line 14
-    const-class v3, Lcom/huawei/appmarket/mc2;
+    const-class v3, Lcom/huawei/appmarket/pc2;
 
     .line 15
     .line 16
-    invoke-virtual {p1, v3, v2, v1}, Lcom/huawei/appmarket/fb2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
+    invoke-virtual {p1, v3, v2, v1}, Lcom/huawei/appmarket/ib2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -96,7 +96,7 @@
     move-result-object p1
 
     .line 20
-    check-cast p1, Lcom/huawei/appmarket/mc2;
+    check-cast p1, Lcom/huawei/appmarket/pc2;
 
     .line 21
     .line 22
@@ -104,7 +104,7 @@
 
     .line 23
     .line 24
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->d()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->d()I
 
     .line 25
     .line 26
@@ -217,7 +217,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

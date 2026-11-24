@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -80,7 +80,7 @@
 
     const-string p3, "GameReserveManager"
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$c;->b:Landroid/content/Context;
 
@@ -99,17 +99,17 @@
 
     if-ne p3, p1, :cond_1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/b04;->l0()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/d04;->l0()V
 
     :cond_1
     :goto_0

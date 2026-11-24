@@ -17,7 +17,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -238,19 +238,19 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "DeviceKit"
 
-    const-class v6, Lcom/huawei/appmarket/em3;
+    const-class v6, Lcom/huawei/appmarket/gm3;
 
-    invoke-static {v6, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v6, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/em3;
+    check-cast v2, Lcom/huawei/appmarket/gm3;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/em3;->c()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/gm3;->c()Z
 
     move-result v2
 
@@ -258,7 +258,7 @@
 
     const-string p1, "not support DH."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3, p2, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
@@ -270,7 +270,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->i()Z
 
     move-result v2
 
@@ -278,7 +278,7 @@
 
     const-string p1, "not Hw device."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, -0x6
 
@@ -287,11 +287,11 @@
     return-object v3
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v2
 
@@ -301,7 +301,7 @@
 
     const-string p1, "version invalid."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, -0x4
 
@@ -320,7 +320,7 @@
 
     sget-object v6, Lcom/huawei/appmarket/service/provider/DHProvider;->b:[Ljava/lang/String;
 
-    invoke-static {v2, v5, v6}, Lcom/huawei/appmarket/me7;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)Z
+    invoke-static {v2, v5, v6}, Lcom/huawei/appmarket/re7;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)Z
 
     move-result v2
 
@@ -328,14 +328,14 @@
 
     const-string p1, "caller sign verify fail. "
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3, p2, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
     return-object v3
 
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/jx2;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/mx2;->b()Z
 
     move-result v2
 
@@ -347,7 +347,7 @@
 
     const-string p1, "no signed agree protocol."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v3
 
@@ -360,7 +360,7 @@
 
     if-eqz v2, :cond_5
 
-    invoke-static {p3, v5}, Lcom/huawei/appmarket/ng;->m(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {p3, v5}, Lcom/huawei/appmarket/mg;->m(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
 
@@ -377,7 +377,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3, p2, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
     :try_end_0
@@ -402,7 +402,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3, p2, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 

@@ -17,11 +17,11 @@
 
 
 # virtual methods
-.method public abstract then(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+.method public abstract then(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TTResult;>;)TTContinuationResult;"
         }
     .end annotation

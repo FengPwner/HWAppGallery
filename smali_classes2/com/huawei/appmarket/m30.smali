@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kj8;
+.implements Lcom/huawei/appmarket/qj8;
 
 
 # instance fields
@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method public abstract a()Lcom/huawei/appmarket/ek1;
+.method public abstract a()Lcom/huawei/appmarket/hk1;
 .end method
 
 .method public final b()Lcom/huawei/appgallery/taskfragment/api/TaskFragment;
@@ -35,7 +35,7 @@
     return-object v0
 .end method
 
-.method public c()Lcom/huawei/appmarket/kj8;
+.method public c()Lcom/huawei/appmarket/qj8;
     .registers 2
 
     .line 1

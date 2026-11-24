@@ -4,17 +4,22 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/sm4;)V
+.method public abstract a(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;Lcom/huawei/appmarket/zo8;)Lcom/huawei/appmarket/tt3;
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/oy3;)V
-.end method
-
-.method public abstract c(ILandroid/content/Context;)V
-.end method
-
-.method public abstract d()Lcom/huawei/appgallery/jointmessage/jointmessage/impl/bean/BlockingInfoBean;
-.end method
-
-.method public abstract e(Landroid/content/Context;Lcom/huawei/appmarket/rs7;)V
+.method public abstract j(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;Lcom/huawei/appmarket/zo8;)Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/vt3;",
+            "Landroid/webkit/WebView;",
+            "Lcom/huawei/appmarket/zo8;",
+            ")",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/huawei/appmarket/tt3;",
+            ">;"
+        }
+    .end annotation
 .end method

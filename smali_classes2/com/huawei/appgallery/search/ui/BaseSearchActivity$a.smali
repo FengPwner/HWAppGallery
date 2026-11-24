@@ -130,7 +130,7 @@
 
     .line 37
     .line 38
-    invoke-static {v2}, Lcom/huawei/appmarket/nk;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/mk;->a(Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -261,7 +261,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final c()V

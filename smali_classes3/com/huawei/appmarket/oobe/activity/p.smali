@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tw3;
+.implements Lcom/huawei/appmarket/vw3;
 
 
 # direct methods
@@ -20,7 +20,7 @@
 .method public final getAppPermissionFail(II)V
     .registers 5
 
-    sget-object p2, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p2, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -36,7 +36,7 @@
 
     const-string v0, "OOBE"
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/oobe/activity/q;->a()Lcom/huawei/appmarket/oobe/activity/q$a;
 
@@ -57,7 +57,7 @@
 .method public final getAppPermissionOk(Ljava/lang/String;)V
     .registers 6
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -65,11 +65,11 @@
 
     if-eqz v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v0, "OOBEAppPermissionManager:Permission datas is empty"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/oobe/activity/q;->a()Lcom/huawei/appmarket/oobe/activity/q$a;
 
@@ -103,17 +103,17 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    sget-object p1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v0, "OOBEAppPermissionManager:Permission is null or empty"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/oobe/activity/q;->a()Lcom/huawei/appmarket/oobe/activity/q$a;
 
@@ -131,31 +131,31 @@
     return-void
 
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->d()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->d()Ljava/util/ArrayList;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->d()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->d()Ljava/util/ArrayList;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    sget-object p1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v0, "OOBEAppPermissionManager:Get Permissions Success"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/oobe/activity/q;->a()Lcom/huawei/appmarket/oobe/activity/q$a;
 

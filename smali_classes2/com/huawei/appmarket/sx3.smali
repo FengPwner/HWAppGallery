@@ -4,20 +4,22 @@
 
 
 # virtual methods
-.method public abstract a()V
+.method public abstract a()Ljava/lang/String;
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/p76;)V
+.method public abstract b(Ljava/lang/String;)Ljava/lang/String;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 .end method
 
-.method public abstract c()V
+.method public abstract c()Ljava/lang/String;
 .end method
 
-.method public abstract d(ILcom/huawei/appmarket/tx3;)V
+.method public abstract d()Ljava/lang/String;
 .end method
 
-.method public abstract e(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;Lcom/huawei/appmarket/ux3;)V
+.method public abstract e(I)Z
 .end method
 
-.method public abstract init()V
+.method public abstract getServiceType()I
 .end method

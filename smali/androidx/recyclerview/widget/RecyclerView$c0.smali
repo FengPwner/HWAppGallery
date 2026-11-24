@@ -158,7 +158,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 15
     .line 16
@@ -283,6 +283,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c(IIILandroid/view/animation/Interpolator;)V
@@ -1702,7 +1703,7 @@
     .line 361
     .line 362
     .line 363
-    invoke-static {v9, v0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v9, v0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 364
     .line 365

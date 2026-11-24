@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/fo5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # instance fields
@@ -296,15 +296,11 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
 
     .line 1
@@ -312,7 +308,7 @@
 
     .line 2
     .line 3
-    check-cast v0, Lcom/huawei/appmarket/sw4;
+    check-cast v0, Lcom/huawei/appmarket/vw4;
 
     .line 4
     .line 5
@@ -324,7 +320,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 10
     .line 11
@@ -337,7 +333,7 @@
     .line 14
     .line 15
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/sw4;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/vw4;->a()V
 
     .line 16
     .line 17
@@ -346,7 +342,7 @@
 
     .line 19
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     .line 20
     .line 21
@@ -398,7 +394,7 @@
     .line 43
     .line 44
     :cond_2
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/sw4;->b(Ljava/lang/Exception;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vw4;->b(Ljava/lang/Exception;)V
 
     .line 45
     .line 46
@@ -539,23 +535,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onSuccess(Ljava/lang/Object;)V
@@ -568,11 +547,11 @@
 
     iget-object v1, p0, Lcom/huawei/page/flowlist/d;->c:Ljava/lang/Object;
 
-    check-cast v1, Lcom/huawei/appmarket/nv7;
+    check-cast v1, Lcom/huawei/appmarket/tv7;
 
-    check-cast p1, Lcom/huawei/appmarket/ab2;
+    check-cast p1, Lcom/huawei/appmarket/db2;
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->f(Lcom/huawei/page/flowlist/JsonListBundleLoader;Lcom/huawei/appmarket/nv7;Lcom/huawei/appmarket/ab2;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/page/flowlist/JsonListBundleLoader;->f(Lcom/huawei/page/flowlist/JsonListBundleLoader;Lcom/huawei/appmarket/tv7;Lcom/huawei/appmarket/db2;)V
 
     return-void
 .end method

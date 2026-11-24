@@ -798,6 +798,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static g(Lcom/huawei/appmarket/r90$c;JJ)V
@@ -1115,6 +1122,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected static h(JJJJJJ)J
@@ -1174,7 +1188,7 @@
 
     move-wide p4, v0
 
-    invoke-static/range {p0 .. p5}, Lcom/huawei/appmarket/ge8;->k(JJJ)J
+    invoke-static/range {p0 .. p5}, Lcom/huawei/appmarket/le8;->k(JJJ)J
 
     move-result-wide v0
 

@@ -40,12 +40,12 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string v0, "received extra msg"
 
     :goto_0
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -62,7 +62,7 @@
 
     if-nez v2, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string v0, "WelfareCenter is not showing"
 
@@ -71,11 +71,11 @@
     :cond_1
     iget p1, p1, Landroid/os/Message;->arg1:I
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gg5$d;->b(I)Lcom/huawei/appmarket/gg5$d;
+    invoke-static {p1}, Lcom/huawei/appmarket/jg5$d;->b(I)Lcom/huawei/appmarket/jg5$d;
 
     move-result-object p1
 
-    sget-object v1, Lcom/huawei/appmarket/gg5$d;->d:Lcom/huawei/appmarket/gg5$d;
+    sget-object v1, Lcom/huawei/appmarket/jg5$d;->d:Lcom/huawei/appmarket/jg5$d;
 
     if-ne p1, v1, :cond_2
 

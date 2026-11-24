@@ -3,6 +3,10 @@
 .source "SourceFile"
 
 
+# static fields
+.field private static final f:Ljava/util/regex/Pattern;
+
+
 # instance fields
 .field private b:Ljava/lang/String;
 
@@ -14,6 +18,20 @@
 
 
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    const-string v0, "^[A-Za-z_$][\\w$]*$"
+
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->f:Ljava/util/regex/Pattern;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -30,7 +48,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(ILjava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c(ILjava/lang/String;)V
 
     .line 4
     .line 5
@@ -204,158 +222,307 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method private b(ILjava/lang/String;)V
+.method private static b(Ljava/lang/String;)Ljava/lang/String;
     .registers 5
 
     .line 1
+    if-nez p0, :cond_0
+
+    const-string p0, ""
+
+    return-object p0
+
+    :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, 0x10
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    const/4 v1, 0x0
+
+    :goto_0
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    if-ge v1, v2, :cond_8
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
+
+    move-result v2
+
+    const/16 v3, 0xa
+
+    if-eq v2, v3, :cond_7
+
+    const/16 v3, 0xd
+
+    if-eq v2, v3, :cond_6
+
+    const/16 v3, 0x22
+
+    if-eq v2, v3, :cond_5
+
+    const/16 v3, 0x27
+
+    if-eq v2, v3, :cond_4
+
+    const/16 v3, 0x5c
+
+    if-eq v2, v3, :cond_3
+
+    const/16 v3, 0x2028
+
+    if-eq v2, v3, :cond_2
+
+    const/16 v3, 0x2029
+
+    if-eq v2, v3, :cond_1
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    goto :goto_2
+
+    :cond_1
+    const-string v2, "\\u2029"
+
+    :goto_1
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_2
+
+    :cond_2
+    const-string v2, "\\u2028"
+
+    goto :goto_1
+
+    :cond_3
+    const-string v2, "\\\\"
+
+    goto :goto_1
+
+    :cond_4
+    const-string v2, "\\\'"
+
+    goto :goto_1
+
+    :cond_5
+    const-string v2, "\\\""
+
+    goto :goto_1
+
+    :cond_6
+    const-string v2, "\\r"
+
+    goto :goto_1
+
+    :cond_7
+    const-string v2, "\\n"
+
+    goto :goto_1
+
+    :goto_2
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_8
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private c(ILjava/lang/String;)V
+    .registers 5
+
+    .line 1
+    const-string v0, "PrizeAddressActivity"
 
     .line 2
     .line 3
-    const-string v1, "javascript:window."
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 6
+    iget-object p2, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->d:Ljava/lang/String;
+
     .line 7
     .line 8
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->d:Ljava/lang/String;
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 11
+    move-result v1
+
     .line 12
+    if-nez v1, :cond_0
+
     .line 13
-    const-string v1, "(\'"
-
     .line 14
-    .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    sget-object v1, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->f:Ljava/util/regex/Pattern;
 
+    .line 15
     .line 16
+    invoke-virtual {v1, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
-
     .line 19
+    move-result-object p2
+
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2}, Ljava/util/regex/Matcher;->matches()Z
 
     .line 21
     .line 22
     .line 23
-    const-string v1, "\',\'"
+    move-result p2
 
     .line 24
-    .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz p2, :cond_0
 
+    .line 25
     .line 26
+    new-instance p2, Ljava/lang/StringBuilder;
+
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    const-string v0, "javascript:window."
 
     .line 29
     .line 30
-    .line 31
-    const-string p1, "\');"
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 31
     .line 32
     .line 33
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->d:Ljava/lang/String;
 
     .line 34
     .line 35
-    .line 36
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 36
     .line 37
     .line 38
-    .line 39
-    move-result-object p1
+    const-string v0, "(\'"
 
+    .line 39
     .line 40
-    new-instance v0, Landroid/content/Intent;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
-
     .line 43
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
+
     .line 44
     .line 45
-    const-string v1, "webview_load_url"
+    invoke-static {v0}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 46
     .line 47
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
     .line 48
+    move-result-object v0
+
     .line 49
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 50
-    const/4 p1, -0x1
-
     .line 51
-    invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
-
     .line 52
+    const-string v0, "\',\'"
+
     .line 53
     .line 54
-    const-string p1, "PrizeAddressActivity"
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 55
     .line 56
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 57
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 58
     .line 59
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
-
     .line 60
+    const-string p1, "\');"
+
     .line 61
     .line 62
-    return-void
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 63
     .line 64
     .line 65
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 66
     .line 67
     .line 68
+    move-result-object p1
+
     .line 69
+    new-instance p2, Landroid/content/Intent;
+
     .line 70
     .line 71
+    invoke-direct {p2}, Landroid/content/Intent;-><init>()V
+
     .line 72
     .line 73
     .line 74
+    const-string v0, "webview_load_url"
+
     .line 75
     .line 76
+    invoke-virtual {p2, v0, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
     .line 77
     .line 78
     .line 79
+    const/4 p1, -0x1
+
     .line 80
+    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
+
     .line 81
     .line 82
     .line 83
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
     .line 84
     .line 85
     .line 86
+    return-void
+
     .line 87
+    :cond_0
+    const-string p1, "failed callback is invalid"
+
     .line 88
     .line 89
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 90
     .line 91
     .line 92
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
     .line 93
     .line 94
     .line 95
+    return-void
     .line 96
     .line 97
     .line 98
@@ -435,7 +602,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -493,7 +659,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -501,7 +667,7 @@
     const/4 p1, -0x1
 
     .line 32
-    if-ne p2, p1, :cond_2
+    if-ne p2, p1, :cond_3
 
     .line 33
     .line 34
@@ -522,11 +688,11 @@
     move-result-object p2
 
     .line 43
-    if-eqz p2, :cond_1
+    if-eqz p2, :cond_2
 
     .line 44
     .line 45
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -570,93 +736,93 @@
 
     .line 66
     .line 67
-    goto :goto_1
+    goto/16 :goto_0
 
     .line 68
+    .line 69
     :cond_0
     new-instance p3, Lcom/huawei/appmarket/service/webview/bean/PrizeAddressJson;
 
-    .line 69
     .line 70
+    .line 71
     invoke-direct {p3, p2}, Lcom/huawei/appmarket/service/webview/bean/PrizeAddressJson;-><init>(Lcom/huawei/hms/identity/entity/UserAddress;)V
 
-    .line 71
     .line 72
     .line 73
+    .line 74
+    const/16 p2, -0x2710
+
+    .line 75
+    .line 76
     :try_start_0
     invoke-virtual {p3}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->toJson()Ljava/lang/String;
 
-    .line 74
-    .line 75
-    .line 76
-    move-result-object p2
-
     .line 77
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->e:Ljava/lang/String;
+    .line 78
+    .line 79
+    move-result-object p3
+
+    .line 80
+    iput-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->e:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 78
-    .line 79
-    goto :goto_0
-
-    .line 80
-    :catch_0
-    const/16 p2, -0x2710
-
     .line 81
     .line 82
-    const-string p3, "toJson IllegalAccessException"
+    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c:Ljava/lang/String;
 
     .line 83
     .line 84
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(ILjava/lang/String;)V
+    invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 85
     .line 86
     .line 87
-    :goto_0
-    new-instance p2, Ljava/lang/StringBuilder;
+    move-result v0
 
     .line 88
+    if-nez v0, :cond_1
+
     .line 89
-    const-string p3, "javascript:window."
-
     .line 90
-    .line 91
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    sget-object v0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->f:Ljava/util/regex/Pattern;
 
+    .line 91
     .line 92
+    invoke-virtual {v0, p3}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
     .line 93
     .line 94
-    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c:Ljava/lang/String;
-
     .line 95
+    move-result-object p3
+
     .line 96
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3}, Ljava/util/regex/Matcher;->matches()Z
 
     .line 97
     .line 98
     .line 99
-    const-string p3, "(\'"
+    move-result p3
 
     .line 100
-    .line 101
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz p3, :cond_1
 
+    .line 101
     .line 102
+    new-instance p2, Ljava/lang/StringBuilder;
+
     .line 103
     .line 104
-    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
+    const-string p3, "javascript:window."
 
     .line 105
     .line 106
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 107
     .line 108
     .line 109
-    const-string p3, "\',\'"
+    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c:Ljava/lang/String;
 
     .line 110
     .line 111
@@ -665,174 +831,208 @@
     .line 112
     .line 113
     .line 114
-    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->e:Ljava/lang/String;
+    const-string p3, "(\'"
 
     .line 115
     .line 116
-    const-string v0, "\');"
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 117
     .line 118
-    invoke-static {p2, p3, v0}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     .line 119
+    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
+
     .line 120
     .line 121
-    move-result-object p2
+    invoke-static {p3}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 122
-    new-instance p3, Landroid/content/Intent;
-
     .line 123
     .line 124
-    invoke-direct {p3}, Landroid/content/Intent;-><init>()V
+    move-result-object p3
 
     .line 125
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 126
     .line 127
-    const-string v0, "webview_load_url"
-
     .line 128
-    .line 129
-    invoke-virtual {p3, v0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    const-string p3, "\',\'"
 
+    .line 129
     .line 130
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 131
     .line 132
-    invoke-virtual {p0, p1, p3}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
-
     .line 133
+    iget-object p3, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->e:Ljava/lang/String;
+
     .line 134
     .line 135
-    iget-object p1, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
+    invoke-static {p3}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 136
     .line 137
-    new-instance p2, Ljava/util/LinkedHashMap;
-
     .line 138
+    move-result-object p3
+
     .line 139
-    invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
+    const-string v0, "\');"
 
     .line 140
     .line 141
-    .line 142
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
+    invoke-static {p2, p3, v0}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
+    .line 142
     .line 143
     .line 144
+    move-result-object p2
+
     .line 145
-    move-result-object p3
+    new-instance p3, Landroid/content/Intent;
 
     .line 146
-    invoke-virtual {p3}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getUserId()Ljava/lang/String;
-
     .line 147
+    invoke-direct {p3}, Landroid/content/Intent;-><init>()V
+
     .line 148
     .line 149
-    move-result-object p3
-
     .line 150
-    const-string v0, "userId"
+    const-string v0, "webview_load_url"
 
     .line 151
     .line 152
-    invoke-virtual {p2, v0, p3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, v0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 153
     .line 154
     .line 155
-    const-string p3, "prizeId"
+    invoke-virtual {p0, p1, p3}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
     .line 156
     .line 157
-    invoke-virtual {p2, p3, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 158
+    iget-object p1, p0, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b:Ljava/lang/String;
+
     .line 159
     .line 160
-    const-string p1, "1012200301"
+    new-instance p2, Ljava/util/LinkedHashMap;
 
     .line 161
     .line 162
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 163
     .line 164
     .line 165
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
 
     .line 166
     .line 167
     .line 168
-    goto :goto_2
+    move-result-object p3
 
     .line 169
-    :cond_1
-    :goto_1
-    const/16 p1, -0x2711
+    invoke-virtual {p3}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getUserId()Ljava/lang/String;
 
     .line 170
     .line 171
-    const-string p2, "userAddress is invalid"
-
     .line 172
+    move-result-object p3
+
     .line 173
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(ILjava/lang/String;)V
+    const-string v0, "userId"
 
     .line 174
     .line 175
+    invoke-virtual {p2, v0, p3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 176
-    return-void
-
     .line 177
-    :cond_2
-    const-string p1, "getUserAddress on activity result, failed"
-
     .line 178
-    .line 179
-    invoke-direct {p0, p2, p1}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->b(ILjava/lang/String;)V
+    const-string p3, "prizeId"
 
+    .line 179
     .line 180
+    invoke-virtual {p2, p3, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 181
     .line 182
-    :goto_2
-    return-void
     .line 183
+    const-string p1, "1012200301"
+
     .line 184
     .line 185
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
     .line 186
     .line 187
     .line 188
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
     .line 189
     .line 190
     .line 191
+    goto :goto_1
+
     .line 192
+    :cond_1
+    const-string p1, "success callback is invalid"
+
     .line 193
     .line 194
+    invoke-direct {p0, p2, p1}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c(ILjava/lang/String;)V
+
     .line 195
     .line 196
     .line 197
+    return-void
+
     .line 198
+    :catch_0
+    const-string p1, "toJson IllegalAccessException"
+
     .line 199
     .line 200
+    invoke-direct {p0, p2, p1}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c(ILjava/lang/String;)V
+
     .line 201
     .line 202
     .line 203
+    return-void
+
     .line 204
+    :cond_2
+    :goto_0
+    const/16 p1, -0x2711
+
     .line 205
     .line 206
+    const-string p2, "userAddress is invalid"
+
     .line 207
     .line 208
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c(ILjava/lang/String;)V
+
     .line 209
     .line 210
     .line 211
+    return-void
+
     .line 212
+    :cond_3
+    const-string p1, "getUserAddress on activity result, failed"
+
     .line 213
     .line 214
+    invoke-direct {p0, p2, p1}, Lcom/huawei/appmarket/service/webview/activity/PrizeAddressActivity;->c(ILjava/lang/String;)V
+
     .line 215
     .line 216
     .line 217
+    :goto_1
+    return-void
     .line 218
     .line 219
     .line 220
@@ -982,29 +1182,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -1093,16 +1270,16 @@
 
     .line 42
     .line 43
-    new-instance v1, Lcom/huawei/appmarket/q29;
+    new-instance v1, Lcom/huawei/appmarket/w29;
 
     .line 44
     .line 45
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     .line 46
     .line 47
     .line 48
-    invoke-static {p1, p0, v1}, Lcom/huawei/appmarket/g76;->b(Ljava/lang/String;Landroid/app/Activity;Lcom/huawei/appmarket/q29;)V
+    invoke-static {p1, p0, v1}, Lcom/huawei/appmarket/i76;->b(Ljava/lang/String;Landroid/app/Activity;Lcom/huawei/appmarket/w29;)V
 
     .line 49
     .line 50
@@ -1171,5 +1348,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

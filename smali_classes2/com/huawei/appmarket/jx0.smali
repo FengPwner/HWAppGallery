@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/pk4;)Ljava/lang/String;
+.method public static a(Lcom/huawei/appmarket/sk4;)Ljava/lang/String;
     .registers 2
 
     .line 1

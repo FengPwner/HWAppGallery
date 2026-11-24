@@ -56,7 +56,7 @@
 
     .line 6
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/cs0;->a()Lcom/huawei/appmarket/cs0;
+    invoke-static {}, Lcom/huawei/appmarket/ds0;->a()Lcom/huawei/appmarket/ds0;
 
     .line 7
     .line 8
@@ -69,7 +69,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 14
     .line 15
@@ -228,5 +228,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

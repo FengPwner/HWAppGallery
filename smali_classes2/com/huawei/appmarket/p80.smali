@@ -30,11 +30,11 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -50,7 +50,7 @@
 
     invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result p0
 
@@ -64,7 +64,7 @@
 
     const-string p0, "action_product_deeplink"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -79,11 +79,11 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -105,7 +105,7 @@
 
     invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result p0
 
@@ -119,7 +119,7 @@
 
     const-string p0, "action_product_pop"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -132,11 +132,11 @@
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -156,7 +156,7 @@
 
     invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result p0
 
@@ -168,11 +168,11 @@
 
     invoke-virtual {v0, v1, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object p0
 
@@ -186,7 +186,7 @@
 
     const-string p0, "card_installbtn_click"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -209,7 +209,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object p1
 
@@ -237,21 +237,21 @@
 
     const-class p2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/y76;->f()Landroid/content/Context;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/a86;->f()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -259,7 +259,7 @@
 
     invoke-direct {p2, p0}, Lcom/huawei/appmarket/p80$a;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -332,7 +332,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result v1
 
@@ -344,11 +344,11 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -360,11 +360,11 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -384,7 +384,7 @@
 
     const-string v1, "21030104"
 
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -481,7 +481,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     .line 16
     .line 17
@@ -506,7 +506,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     .line 29
     .line 30
@@ -514,7 +514,7 @@
     move-result-object p0
 
     .line 32
-    invoke-virtual {p0}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     .line 33
     .line 34
@@ -539,7 +539,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     .line 46
     .line 47
@@ -547,7 +547,7 @@
     move-result-object p0
 
     .line 49
-    invoke-virtual {p0}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     .line 50
     .line 51
@@ -571,7 +571,7 @@
 
     .line 60
     .line 61
-    invoke-static {v0, v1, p0, p1, v2}, Lcom/huawei/appmarket/ej2;->D(Ljava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, p0, p1, v2}, Lcom/huawei/appmarket/tr2;->z(Ljava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 62
     .line 63
@@ -600,7 +600,7 @@
 
     .line 75
     .line 76
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 77
     .line 78
@@ -904,7 +904,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result v1
 
@@ -916,11 +916,11 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -936,7 +936,7 @@
 
     const-string v2, "21030101"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -951,11 +951,11 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
+    invoke-static {}, Lcom/huawei/appmarket/a86;->j()Lcom/huawei/appmarket/a86;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/y76;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/a86;->g()Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;
 
     move-result-object v1
 
@@ -971,7 +971,7 @@
 
     invoke-virtual {v0, v1, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/wv5;->h()I
 
     move-result p1
 
@@ -983,7 +983,7 @@
 
     invoke-virtual {v0, v1, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

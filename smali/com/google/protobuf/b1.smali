@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r75;
+.implements Lcom/huawei/appmarket/u75;
 
 
 # annotations
@@ -15,11 +15,11 @@
 
 
 # virtual methods
-.method public abstract getParserForType()Lcom/huawei/appmarket/gw5;
+.method public abstract getParserForType()Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "+",
             "Lcom/google/protobuf/b1;",
             ">;"

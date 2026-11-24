@@ -43,7 +43,7 @@
 
     const-string v2, "security control data changed"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/cardkit/node/AgGuardTabNode$a;->b:Lcom/huawei/appgallery/agguard/business/ui/cardkit/node/AgGuardTabNode;
 
@@ -62,11 +62,11 @@
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/agguard/business/ui/cardkit/widget/AgGuardTabView;->n(I)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o82;->f()V
 
     return-void
 .end method

@@ -1,30 +1,30 @@
 .class final Lcom/huawei/appmarket/w93;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/et2;
+.implements Lcom/huawei/appmarket/ht2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/et2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ht2<",
         "Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;",
-        "Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appgallery/accountkit/impl/bridge/AccountDetailActivityProtocol;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/String;",
+            "Lcom/huawei/appmarket/tv7<",
+            "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
@@ -32,23 +32,23 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appmarket/tv7;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/String;",
+            "Lcom/huawei/appmarket/tv7<",
+            "Ljava/lang/Void;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w93;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p1, p0, Lcom/huawei/appmarket/w93;->b:Lcom/huawei/appmarket/tv7;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -56,14 +56,14 @@
 
 # virtual methods
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 5
+    .registers 4
 
     .line 1
     check-cast p1, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol;
+    check-cast p2, Lcom/huawei/appgallery/accountkit/impl/bridge/AccountDetailActivityProtocol;
 
     .line 4
     .line 5
@@ -71,140 +71,87 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    const-string p1, "outProtocol"
+    const-string p1, "<anonymous parameter 1>"
 
     .line 11
     .line 12
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p2}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol;->h()Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;
+    iget-object p1, p0, Lcom/huawei/appmarket/w93;->b:Lcom/huawei/appmarket/tv7;
 
     .line 16
     .line 17
+    const/4 p2, 0x0
+
     .line 18
-    move-result-object p1
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 19
-    if-nez p1, :cond_0
-
     .line 20
     .line 21
-    new-instance p1, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 22
     .line 23
-    invoke-direct {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;-><init>()V
-
+    return-object p1
     .line 24
     .line 25
     .line 26
-    :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;->c()Z
-
     .line 27
     .line 28
     .line 29
-    move-result p2
-
     .line 30
-    iget-object v0, p0, Lcom/huawei/appmarket/w93;->b:Lcom/huawei/appmarket/nv7;
-
     .line 31
     .line 32
-    if-eqz p2, :cond_2
-
     .line 33
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;->a()Ljava/lang/String;
-
     .line 35
     .line 36
     .line 37
-    move-result-object p2
-
     .line 38
-    if-eqz p2, :cond_2
-
     .line 39
     .line 40
-    invoke-static {p2}, Lcom/huawei/appmarket/ip7;->u(Ljava/lang/CharSequence;)Z
-
     .line 41
     .line 42
     .line 43
-    move-result p2
-
     .line 44
-    if-eqz p2, :cond_1
-
     .line 45
     .line 46
-    goto :goto_0
-
     .line 47
-    :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;->a()Ljava/lang/String;
-
     .line 48
     .line 49
     .line 50
-    move-result-object p1
-
     .line 51
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
-
     .line 52
     .line 53
     .line 54
-    goto :goto_1
-
     .line 55
-    :cond_2
-    :goto_0
-    new-instance p2, Lcom/huawei/appgallery/account/base/api/AccountException;
-
     .line 56
     .line 57
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;->d()Ljava/lang/Integer;
-
     .line 58
     .line 59
     .line 60
-    move-result-object v1
-
     .line 61
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/VerifyPasswordV2ActivityProtocol$Response;->b()Ljava/lang/String;
-
     .line 62
     .line 63
     .line 64
-    move-result-object p1
-
     .line 65
-    invoke-direct {p2, v1, p1}, Lcom/huawei/appgallery/account/base/api/AccountException;-><init>(Ljava/lang/Integer;Ljava/lang/String;)V
-
     .line 66
     .line 67
     .line 68
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
-
     .line 69
     .line 70
     .line 71
-    :goto_1
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
-
     .line 72
     .line 73
-    return-object p1
     .line 74
     .line 75
     .line 76

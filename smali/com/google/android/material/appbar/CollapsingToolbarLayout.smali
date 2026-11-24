@@ -41,7 +41,7 @@
 
 .field private final k:Landroid/graphics/Rect;
 
-.field final l:Lcom/huawei/appmarket/ft0;
+.field final l:Lcom/huawei/appmarket/gt0;
 
 .field final m:Lcom/google/android/material/elevation/ElevationOverlayProvider;
 
@@ -69,7 +69,7 @@
 
 .field private y:I
 
-.field z:Lcom/huawei/appmarket/nq8;
+.field z:Lcom/huawei/appmarket/tq8;
 
 
 # direct methods
@@ -101,7 +101,7 @@
     .line 3
     const v0, 0x7f13041c
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -131,17 +131,17 @@
 
     move-result-object v8
 
-    new-instance v9, Lcom/huawei/appmarket/ft0;
+    new-instance v9, Lcom/huawei/appmarket/gt0;
 
-    invoke-direct {v9, p0}, Lcom/huawei/appmarket/ft0;-><init>(Landroid/view/View;)V
+    invoke-direct {v9, p0}, Lcom/huawei/appmarket/gt0;-><init>(Landroid/view/View;)V
 
-    iput-object v9, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iput-object v9, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    sget-object v2, Lcom/huawei/appmarket/mm;->e:Landroid/view/animation/DecelerateInterpolator;
+    sget-object v2, Lcom/huawei/appmarket/lm;->e:Landroid/view/animation/DecelerateInterpolator;
 
-    invoke-virtual {v9, v2}, Lcom/huawei/appmarket/ft0;->e0(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v9, v2}, Lcom/huawei/appmarket/gt0;->e0(Landroid/animation/TimeInterpolator;)V
 
-    invoke-virtual {v9, v1}, Lcom/huawei/appmarket/ft0;->b0(Z)V
+    invoke-virtual {v9, v1}, Lcom/huawei/appmarket/gt0;->b0(Z)V
 
     new-instance v2, Lcom/google/android/material/elevation/ElevationOverlayProvider;
 
@@ -149,7 +149,7 @@
 
     iput-object v2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->m:Lcom/google/android/material/elevation/ElevationOverlayProvider;
 
-    sget-object v4, Lcom/huawei/appmarket/ie6;->n:[I
+    sget-object v4, Lcom/huawei/appmarket/ke6;->n:[I
 
     const v6, 0x7f13041c
 
@@ -161,7 +161,7 @@
 
     move v5, p3
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -173,7 +173,7 @@
 
     move-result p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->O(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->O(I)V
 
     const p3, 0x800013
 
@@ -181,7 +181,7 @@
 
     move-result p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->G(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->G(I)V
 
     const/4 p3, 0x5
 
@@ -275,11 +275,11 @@
 
     const p3, 0x7f130293
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->M(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->M(I)V
 
     const p3, 0x7f13027e
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->E(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->E(I)V
 
     const/16 p3, 0xa
 
@@ -293,7 +293,7 @@
 
     move-result p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->M(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->M(I)V
 
     :cond_4
     invoke-virtual {p2, p1}, Landroid/content/res/TypedArray;->hasValue(I)Z
@@ -306,7 +306,7 @@
 
     move-result p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->E(I)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->E(I)V
 
     :cond_5
     const/16 p3, 0xb
@@ -317,11 +317,11 @@
 
     if-eqz v2, :cond_6
 
-    invoke-static {v8, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v8, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->N(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->N(Landroid/content/res/ColorStateList;)V
 
     :cond_6
     const/4 p3, 0x2
@@ -332,11 +332,11 @@
 
     if-eqz v2, :cond_7
 
-    invoke-static {v8, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v8, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
 
-    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/ft0;->F(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v9, p3}, Lcom/huawei/appmarket/gt0;->F(Landroid/content/res/ColorStateList;)V
 
     :cond_7
     const/16 p3, 0x10
@@ -359,7 +359,7 @@
 
     move-result p1
 
-    invoke-virtual {v9, p1}, Lcom/huawei/appmarket/ft0;->Z(I)V
+    invoke-virtual {v9, p1}, Lcom/huawei/appmarket/gt0;->Z(I)V
 
     :cond_8
     const/16 p1, 0x15
@@ -378,7 +378,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v9, p1}, Lcom/huawei/appmarket/ft0;->a0(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v9, p1}, Lcom/huawei/appmarket/gt0;->a0(Landroid/animation/TimeInterpolator;)V
 
     :cond_9
     const/16 p1, 0xf
@@ -449,7 +449,7 @@
 
     invoke-direct {p1, p0}, Lcom/google/android/material/appbar/CollapsingToolbarLayout$a;-><init>(Lcom/google/android/material/appbar/CollapsingToolbarLayout;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->r0(Landroid/view/View;Lcom/huawei/appmarket/qn5;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->r0(Landroid/view/View;Lcom/huawei/appmarket/rn5;)V
 
     return-void
 .end method
@@ -698,13 +698,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method static b(Landroid/view/View;)Lcom/google/android/material/appbar/f;
     .registers 3
 
     .line 1
-    const v0, 0x7f0a1810
+    const v0, 0x7f0a1811
 
     invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -814,7 +815,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->L(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->L(Landroid/view/View;)Z
 
     .line 10
     .line 11
@@ -872,7 +873,7 @@
     .line 33
     .line 34
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 35
     .line 36
@@ -974,7 +975,7 @@
 
     .line 79
     .line 80
-    invoke-static {p0, v0, v3}, Lcom/huawei/appmarket/pi1;->a(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p0, v0, v3}, Lcom/huawei/appmarket/si1;->a(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 81
     .line 82
@@ -1055,7 +1056,7 @@
 
     .line 119
     .line 120
-    invoke-static {v0}, Lcom/huawei/appmarket/xy;->a(Landroid/widget/Toolbar;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yy;->a(Landroid/widget/Toolbar;)I
 
     .line 121
     .line 122
@@ -1063,7 +1064,7 @@
     move-result v1
 
     .line 124
-    invoke-static {v0}, Lcom/huawei/appmarket/xy;->B(Landroid/widget/Toolbar;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yy;->B(Landroid/widget/Toolbar;)I
 
     .line 125
     .line 126
@@ -1071,7 +1072,7 @@
     move-result v4
 
     .line 128
-    invoke-static {v0}, Lcom/huawei/appmarket/xy;->C(Landroid/widget/Toolbar;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yy;->C(Landroid/widget/Toolbar;)I
 
     .line 129
     .line 130
@@ -1079,7 +1080,7 @@
     move-result v6
 
     .line 132
-    invoke-static {v0}, Lcom/huawei/appmarket/xy;->D(Landroid/widget/Toolbar;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yy;->D(Landroid/widget/Toolbar;)I
 
     .line 133
     .line 134
@@ -1162,11 +1163,11 @@
     sub-int/2addr v1, v0
 
     .line 163
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 164
     .line 165
-    invoke-virtual {v0, v7, v8, v6, v1}, Lcom/huawei/appmarket/ft0;->D(IIII)V
+    invoke-virtual {v0, v7, v8, v6, v1}, Lcom/huawei/appmarket/gt0;->D(IIII)V
 
     .line 166
     .line 167
@@ -1232,12 +1233,12 @@
     sub-int/2addr p4, p1
 
     .line 193
-    invoke-virtual {v0, v1, v3, p3, p4}, Lcom/huawei/appmarket/ft0;->K(IIII)V
+    invoke-virtual {v0, v1, v3, p3, p4}, Lcom/huawei/appmarket/gt0;->K(IIII)V
 
     .line 194
     .line 195
     .line 196
-    invoke-virtual {v0, p5}, Lcom/huawei/appmarket/ft0;->C(Z)V
+    invoke-virtual {v0, p5}, Lcom/huawei/appmarket/gt0;->C(Z)V
 
     .line 197
     .line 198
@@ -1991,11 +1992,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->y()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->y()Ljava/lang/CharSequence;
 
     .line 12
     .line 13
@@ -2164,6 +2165,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
@@ -2302,7 +2304,7 @@
 
     .line 42
     .line 43
-    iget-object v1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 44
     .line 45
@@ -2337,7 +2339,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ft0;->q()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gt0;->q()F
 
     .line 61
     .line 62
@@ -2345,7 +2347,7 @@
     move-result v0
 
     .line 64
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ft0;->r()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gt0;->r()F
 
     .line 65
     .line 66
@@ -2390,7 +2392,7 @@
     .line 85
     .line 86
     .line 87
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ft0;->d(Landroid/graphics/Canvas;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/gt0;->d(Landroid/graphics/Canvas;)V
 
     .line 88
     .line 89
@@ -2404,7 +2406,7 @@
 
     .line 94
     :cond_1
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ft0;->d(Landroid/graphics/Canvas;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/gt0;->d(Landroid/graphics/Canvas;)V
 
     .line 95
     .line 96
@@ -2427,7 +2429,7 @@
 
     .line 104
     .line 105
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     .line 106
     .line 107
@@ -2438,7 +2440,7 @@
 
     .line 109
     .line 110
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 111
     .line 112
@@ -3100,6 +3102,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected final drawableStateChanged()V
@@ -3148,11 +3157,11 @@
     or-int/2addr v1, v2
 
     :cond_1
-    iget-object v2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ft0;->c0([I)Z
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/gt0;->c0([I)Z
 
     move-result v0
 
@@ -3233,9 +3242,9 @@
 .method public getCollapsedTitleGravity()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->g()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->g()I
 
     move-result v0
 
@@ -3245,9 +3254,9 @@
 .method public getCollapsedTitleTypeface()Landroid/graphics/Typeface;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->i()Landroid/graphics/Typeface;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->i()Landroid/graphics/Typeface;
 
     move-result-object v0
 
@@ -3265,9 +3274,9 @@
 .method public getExpandedTitleGravity()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->n()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->n()I
 
     move-result v0
 
@@ -3309,9 +3318,9 @@
 .method public getExpandedTitleTypeface()Landroid/graphics/Typeface;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->p()Landroid/graphics/Typeface;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->p()Landroid/graphics/Typeface;
 
     move-result-object v0
 
@@ -3321,9 +3330,9 @@
 .method public getHyphenationFrequency()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->s()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->s()I
 
     move-result v0
 
@@ -3333,9 +3342,9 @@
 .method public getLineCount()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->t()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->t()I
 
     move-result v0
 
@@ -3345,9 +3354,9 @@
 .method public getLineSpacingAdd()F
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->u()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->u()F
 
     move-result v0
 
@@ -3357,9 +3366,9 @@
 .method public getLineSpacingMultiplier()F
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->v()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->v()F
 
     move-result v0
 
@@ -3369,9 +3378,9 @@
 .method public getMaxLines()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->w()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->w()I
 
     move-result v0
 
@@ -3412,11 +3421,11 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tq8;->l()I
 
     move-result v0
 
@@ -3426,7 +3435,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     move-result v1
 
@@ -3471,9 +3480,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->y()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->y()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -3497,9 +3506,9 @@
 .method public getTitlePositionInterpolator()Landroid/animation/TimeInterpolator;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ft0;->x()Landroid/animation/TimeInterpolator;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gt0;->x()Landroid/animation/TimeInterpolator;
 
     move-result-object v0
 
@@ -3555,7 +3564,7 @@
     .line 22
     .line 23
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 24
     .line 25
@@ -3599,7 +3608,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->c0(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->c0(Landroid/view/View;)V
 
     .line 47
     .line 48
@@ -3692,6 +3701,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -3699,9 +3709,9 @@
 
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->A(Landroid/content/res/Configuration;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->A(Landroid/content/res/Configuration;)V
 
     return-void
 .end method
@@ -3736,13 +3746,13 @@
 
     invoke-super/range {p0 .. p5}, Landroid/widget/FrameLayout;->onLayout(ZIIII)V
 
-    iget-object p1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object p1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     const/4 v0, 0x0
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->l()I
 
     move-result p1
 
@@ -3759,7 +3769,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     move-result v4
 
@@ -3771,7 +3781,7 @@
 
     if-ge v4, p1, :cond_0
 
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/ei8;->S(ILandroid/view/View;)V
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/ki8;->S(ILandroid/view/View;)V
 
     :cond_0
     add-int/lit8 v2, v2, 0x1
@@ -3868,7 +3878,7 @@
     move-result p2
 
     .line 11
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     .line 12
     .line 13
@@ -3876,7 +3886,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 16
     .line 17
@@ -3950,11 +3960,11 @@
 
     .line 48
     .line 49
-    iget-object p2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object p2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 50
     .line 51
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ft0;->w()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/gt0;->w()I
 
     .line 52
     .line 53
@@ -4007,7 +4017,7 @@
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ft0;->l()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/gt0;->l()I
 
     .line 77
     .line 78
@@ -4019,7 +4029,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ft0;->m()F
+    invoke-virtual {p2}, Lcom/huawei/appmarket/gt0;->m()F
 
     .line 83
     .line 84
@@ -5282,9 +5292,9 @@
 .method public setCollapsedTitleGravity(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->G(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->G(I)V
 
     return-void
 .end method
@@ -5292,9 +5302,9 @@
 .method public setCollapsedTitleTextAppearance(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->E(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->E(I)V
 
     return-void
 .end method
@@ -5316,9 +5326,9 @@
     .registers 3
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->F(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->F(Landroid/content/res/ColorStateList;)V
 
     return-void
 .end method
@@ -5326,9 +5336,9 @@
 .method public setCollapsedTitleTypeface(Landroid/graphics/Typeface;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->H(Landroid/graphics/Typeface;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->H(Landroid/graphics/Typeface;)V
 
     return-void
 .end method
@@ -5462,7 +5472,7 @@
     .line 61
     .line 62
     :cond_3
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 63
     .line 64
@@ -5544,9 +5554,9 @@
 .method public setExpandedTitleGravity(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->O(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->O(I)V
 
     return-void
 .end method
@@ -5594,9 +5604,9 @@
 .method public setExpandedTitleTextAppearance(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->M(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->M(I)V
 
     return-void
 .end method
@@ -5604,9 +5614,9 @@
 .method public setExpandedTitleTextColor(Landroid/content/res/ColorStateList;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->N(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->N(Landroid/content/res/ColorStateList;)V
 
     return-void
 .end method
@@ -5614,9 +5624,9 @@
 .method public setExpandedTitleTypeface(Landroid/graphics/Typeface;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->Q(Landroid/graphics/Typeface;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->Q(Landroid/graphics/Typeface;)V
 
     return-void
 .end method
@@ -5640,9 +5650,9 @@
 .method public setHyphenationFrequency(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->V(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->V(I)V
 
     return-void
 .end method
@@ -5650,9 +5660,9 @@
 .method public setLineSpacingAdd(F)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->X(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->X(F)V
 
     return-void
 .end method
@@ -5660,9 +5670,9 @@
 .method public setLineSpacingMultiplier(F)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->Y(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->Y(F)V
 
     return-void
 .end method
@@ -5670,9 +5680,9 @@
 .method public setMaxLines(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->Z(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->Z(I)V
 
     return-void
 .end method
@@ -5680,9 +5690,9 @@
 .method public setRtlTextDirectionHeuristicsEnabled(Z)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->b0(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->b0(Z)V
 
     return-void
 .end method
@@ -5702,12 +5712,12 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     :cond_0
     iput p1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->r:I
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     :cond_1
     return-void
@@ -5740,7 +5750,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -5837,7 +5847,7 @@
 
     .line 46
     .line 47
-    sget-object v2, Lcom/huawei/appmarket/mm;->c:Lcom/huawei/appmarket/th2;
+    sget-object v2, Lcom/huawei/appmarket/lm;->c:Lcom/huawei/appmarket/wh2;
 
     .line 48
     .line 49
@@ -5845,7 +5855,7 @@
 
     .line 50
     :cond_2
-    sget-object v2, Lcom/huawei/appmarket/mm;->d:Lcom/huawei/appmarket/yu4;
+    sget-object v2, Lcom/huawei/appmarket/lm;->d:Lcom/huawei/appmarket/bv4;
 
     .line 51
     .line 52
@@ -6247,7 +6257,7 @@
     :cond_2
     iget-object p1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->q:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 
@@ -6284,7 +6294,7 @@
     invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
     :cond_4
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     :cond_5
     return-void
@@ -6322,11 +6332,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->d0(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->d0(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -6458,11 +6468,11 @@
 
     .line 10
     :goto_0
-    iget-object v2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v2, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
     .line 11
     .line 12
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/ft0;->T(Z)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/gt0;->T(Z)V
 
     .line 13
     .line 14
@@ -6713,9 +6723,9 @@
 .method public setTitlePositionInterpolator(Landroid/animation/TimeInterpolator;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/ft0;
+    iget-object v0, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->l:Lcom/huawei/appmarket/gt0;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ft0;->a0(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gt0;->a0(Landroid/animation/TimeInterpolator;)V
 
     return-void
 .end method

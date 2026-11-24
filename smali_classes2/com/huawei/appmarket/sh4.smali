@@ -1,193 +1,79 @@
 .class public final Lcom/huawei/appmarket/sh4;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/j50;
 .source "SourceFile"
 
 
-# instance fields
-.field private a:Lcom/huawei/appmarket/ni8;
+# static fields
+.field private static volatile b:Lcom/huawei/appmarket/sh4;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a()Lcom/huawei/appmarket/zd5;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/zd5<",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
+.method private constructor <init>()V
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/sh4;->a:Lcom/huawei/appmarket/ni8;
-
-    instance-of v1, v0, Lcom/huawei/appmarket/ff4;
-
-    if-eqz v1, :cond_0
-
-    check-cast v0, Lcom/huawei/appmarket/ff4;
-
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
-
-    return-object v0
-
-    :cond_0
-    instance-of v0, v0, Lcom/huawei/appmarket/rh4;
-
-    if-eqz v0, :cond_1
-
-    new-instance v0, Lcom/huawei/appmarket/zd5;
-
-    const/4 v1, 0x2
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
-
-    :cond_1
-    sget-object v0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
-
-    const-string v1, "InstallerDataViewModelProxy"
-
-    const-string v2, "getInstallStatusLiveData mViewModel is not instanceof InstallDistViewModel or InstallerDataManage"
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appmarket/zd5;
-
-    const/4 v1, 0x0
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
-.end method
-
-.method public final b()I
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/sh4;->a:Lcom/huawei/appmarket/ni8;
+    invoke-direct {p0}, Lcom/huawei/appmarket/j50;-><init>()V
 
     .line 2
     .line 3
-    instance-of v1, v0, Lcom/huawei/appmarket/ff4;
-
     .line 4
-    .line 5
-    if-eqz v1, :cond_0
+    const-string v0, "installerAds"
 
+    .line 5
     .line 6
+    const/4 v1, 0x0
+
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/ff4;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 8
     .line 9
-    iget-object v0, v0, Lcom/huawei/appmarket/ff4;->r:Lcom/huawei/appmarket/zd5;
-
     .line 10
+    move-result-object v0
+
     .line 11
-    goto :goto_0
+    iput-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
 
     .line 12
-    :cond_0
-    instance-of v1, v0, Lcom/huawei/appmarket/rh4;
-
     .line 13
+    return-void
     .line 14
-    if-eqz v1, :cond_1
-
     .line 15
     .line 16
-    check-cast v0, Lcom/huawei/appmarket/rh4;
-
     .line 17
     .line 18
-    iget-object v0, v0, Lcom/huawei/appmarket/rh4;->m:Lcom/huawei/appmarket/zd5;
-
     .line 19
     .line 20
-    goto :goto_0
-
     .line 21
-    :cond_1
-    sget-object v0, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
-
     .line 22
     .line 23
-    const-string v1, "InstallerDataViewModelProxy"
-
     .line 24
     .line 25
-    const-string v2, "getRecommendFlagLiveData mContext is not instanceof InstallDistActivity or InstallSuccessActivity"
-
     .line 26
     .line 27
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 28
     .line 29
     .line 30
-    new-instance v0, Lcom/huawei/appmarket/zd5;
-
     .line 31
     .line 32
-    const/4 v1, 0x0
-
     .line 33
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
     .line 34
     .line 35
     .line 36
-    move-result-object v1
-
     .line 37
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
-
     .line 38
     .line 39
     .line 40
-    :goto_0
-    invoke-virtual {v0}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
-
     .line 41
     .line 42
     .line 43
-    move-result-object v0
-
     .line 44
-    check-cast v0, Ljava/lang/Integer;
-
     .line 45
     .line 46
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-
     .line 47
     .line 48
     .line 49
-    move-result v0
-
     .line 50
-    return v0
     .line 51
     .line 52
     .line 53
@@ -277,94 +163,88 @@
     .line 137
 .end method
 
-.method public final c()Lcom/huawei/appmarket/ni8;
+.method public static declared-synchronized r()Lcom/huawei/appmarket/sh4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/sh4;->a:Lcom/huawei/appmarket/ni8;
+    const-class v0, Lcom/huawei/appmarket/sh4;
 
-    return-object v0
-.end method
+    monitor-enter v0
 
-.method public final d(Landroid/content/Context;Lcom/huawei/appmarket/ym5;Lcom/huawei/appmarket/ym5;Lcom/huawei/appmarket/ym5;)V
-    .registers 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/ym5<",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Lcom/huawei/appmarket/ym5<",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Lcom/huawei/appmarket/ym5<",
-            "Ljava/lang/Integer;",
-            ">;)V"
-        }
-    .end annotation
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/sh4;->b:Lcom/huawei/appmarket/sh4;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/sh4;->a:Lcom/huawei/appmarket/ni8;
+    if-nez v1, :cond_0
 
-    instance-of v1, v0, Lcom/huawei/appmarket/ff4;
+    new-instance v1, Lcom/huawei/appmarket/sh4;
 
-    if-eqz v1, :cond_0
+    invoke-direct {v1}, Lcom/huawei/appmarket/sh4;-><init>()V
 
-    check-cast v0, Lcom/huawei/appmarket/ff4;
-
-    iget-object v1, v0, Lcom/huawei/appmarket/ff4;->e:Lcom/huawei/appmarket/zd5;
-
-    check-cast p1, Lcom/huawei/appmarket/du4;
-
-    invoke-virtual {v1, p1, p3}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
-
-    iget-object p3, v0, Lcom/huawei/appmarket/ff4;->r:Lcom/huawei/appmarket/zd5;
-
-    invoke-virtual {p3, p1, p2}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
-
-    if-eqz p4, :cond_2
-
-    iget-object p2, v0, Lcom/huawei/appmarket/ff4;->h:Lcom/huawei/appmarket/zd5;
-
-    invoke-virtual {p2, p1, p4}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    sput-object v1, Lcom/huawei/appmarket/sh4;->b:Lcom/huawei/appmarket/sh4;
 
     goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
 
     :cond_0
-    instance-of p3, v0, Lcom/huawei/appmarket/rh4;
-
-    if-eqz p3, :cond_1
-
-    check-cast v0, Lcom/huawei/appmarket/rh4;
-
-    iget-object p3, v0, Lcom/huawei/appmarket/rh4;->m:Lcom/huawei/appmarket/zd5;
-
-    check-cast p1, Lcom/huawei/appmarket/du4;
-
-    invoke-virtual {p3, p1, p2}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
-
-    goto :goto_0
-
-    :cond_1
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
-
-    const-string p2, "InstallerDataViewModelProxy"
-
-    const-string p3, "registerObserver mContext is not instanceof InstallDistActivity or InstallSuccessActivity"
-
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_2
     :goto_0
-    return-void
+    sget-object v1, Lcom/huawei/appmarket/sh4;->b:Lcom/huawei/appmarket/sh4;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_1
+    monitor-exit v0
+
+    throw v1
 .end method
 
-.method public final e(Lcom/huawei/appmarket/ni8;)V
-    .registers 2
+
+# virtual methods
+.method public final q()Z
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/sh4;->a:Lcom/huawei/appmarket/ni8;
+    iget-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
+
+    const-string v1, "allowDisplay"
+
+    const/4 v2, 0x1
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final s(Z)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
+
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v0
+
+    const-string v1, "allowDisplay"
+
+    invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
+
+    new-instance v0, Lcom/huawei/appmarket/rh4;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/rh4;-><init>()V
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/rh4;->b(Z)V
 
     return-void
 .end method

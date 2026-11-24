@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -97,17 +97,17 @@
 
     iget-object v0, v1, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity;->q:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object p1, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string p2, "list.size = 0"
 
-    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -124,7 +124,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity$a;->k:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -148,7 +148,7 @@
 
     iget-object v5, p0, Lcom/huawei/appgallery/purchasehistory/ui/activity/PurchaseMenuActivity$a;->l:Ljava/lang/String;
 
-    invoke-static {v5, p2}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v5, p2}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v5
 
@@ -170,11 +170,11 @@
 
     if-eqz v0, :cond_4
 
-    sget-object p1, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object p1, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string p2, "filter same action"
 
-    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -215,9 +215,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/r18;
+    check-cast v0, Lcom/huawei/appmarket/w18;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/r18;->y(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/w18;->y(Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -234,11 +234,11 @@
     goto :goto_6
 
     :goto_5
-    sget-object p2, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object p2, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string v0, "APPZONE_TRACE_CHANGE_BROADCAST error!"
 
-    invoke-virtual {p2, v3, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v3, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_6
     return-void

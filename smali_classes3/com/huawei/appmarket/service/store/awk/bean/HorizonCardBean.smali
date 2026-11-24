@@ -46,11 +46,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result v0
 
@@ -62,11 +62,11 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->g()I
 
     move-result v1
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->i(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->i(Landroid/content/Context;)I
 
     move-result v0
 

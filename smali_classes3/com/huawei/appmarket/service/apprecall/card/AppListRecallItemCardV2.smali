@@ -8,7 +8,7 @@
 
 .field private E:Ljava/util/HashMap;
 
-.field private F:Lcom/huawei/appmarket/ak0;
+.field private F:Lcom/huawei/appmarket/bk0;
 
 .field private G:Z
 
@@ -66,7 +66,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/du;->b()Lcom/huawei/appmarket/du;
+    invoke-static {}, Lcom/huawei/appmarket/eu;->b()Lcom/huawei/appmarket/eu;
 
     .line 14
     .line 15
@@ -74,7 +74,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/du;->i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/eu;->i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     .line 18
     .line 19
@@ -355,11 +355,11 @@
     .line 147
     .line 148
     .line 149
-    iget-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallItemCardV2;->F:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallItemCardV2;->F:Lcom/huawei/appmarket/bk0;
 
     .line 150
     .line 151
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 152
     .line 153
@@ -562,15 +562,13 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallItemCardV2;->F:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallItemCardV2;->F:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -667,7 +665,7 @@
 
     invoke-virtual {v0, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
@@ -687,7 +685,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v0
 

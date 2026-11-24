@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zh7;
+.implements Lcom/huawei/appmarket/fi7;
 .implements Ljava/nio/channels/ReadableByteChannel;
 
 
@@ -17,7 +17,7 @@
 .method public abstract M()Lcom/huawei/appmarket/ic0;
 .end method
 
-.method public abstract N(Lcom/huawei/appmarket/sf0;)J
+.method public abstract N(Lcom/huawei/appmarket/tf0;)J
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -49,7 +49,7 @@
     .end annotation
 .end method
 
-.method public abstract T(Lcom/huawei/appmarket/sr5;)I
+.method public abstract T(Lcom/huawei/appmarket/ur5;)I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -65,7 +65,7 @@
     .end annotation
 .end method
 
-.method public abstract W(J)Lcom/huawei/appmarket/sf0;
+.method public abstract W(J)Lcom/huawei/appmarket/tf0;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

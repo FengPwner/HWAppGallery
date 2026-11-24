@@ -55,7 +55,7 @@
 
     const-string v1, "CloudGameManager"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Q()I
 
@@ -68,13 +68,13 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/ww7;
+    new-instance v0, Lcom/huawei/appmarket/bx7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ww7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bx7;-><init>()V
 
     const/4 v1, 0x1
 
-    sput-boolean v1, Lcom/huawei/appmarket/wu;->a:Z
+    sput-boolean v1, Lcom/huawei/appmarket/xu;->a:Z
 
     iget-boolean v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$h;->b:Z
 
@@ -83,7 +83,7 @@
     const v1, 0x19e22
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ww7;->gameAuthFailedTips(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx7;->gameAuthFailedTips(I)V
 
     goto :goto_1
 

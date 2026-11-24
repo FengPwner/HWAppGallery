@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Lcom/huawei/hmf/orb/tbis/TBNativeType$Factory<",
         "Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;",
-        "Lcom/huawei/appmarket/gw7;",
+        "Lcom/huawei/appmarket/mw7;",
         ">;"
     }
 .end annotation
@@ -38,13 +38,13 @@
 
 
 # virtual methods
-.method public create(Lcom/huawei/appmarket/gw7;)Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
+.method public create(Lcom/huawei/appmarket/mw7;)Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
 
-    invoke-direct {v0, p1}, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;-><init>(Lcom/huawei/appmarket/gw7;)V
+    invoke-direct {v0, p1}, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;-><init>(Lcom/huawei/appmarket/mw7;)V
 
     return-object v0
 .end method
@@ -53,9 +53,9 @@
     .registers 2
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/gw7;
+    check-cast p1, Lcom/huawei/appmarket/mw7;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/hmf/orb/tbis/RegistryInit$2;->create(Lcom/huawei/appmarket/gw7;)Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
+    invoke-virtual {p0, p1}, Lcom/huawei/hmf/orb/tbis/RegistryInit$2;->create(Lcom/huawei/appmarket/mw7;)Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
 
     move-result-object p1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xm5;
+.implements Lcom/huawei/appmarket/ym5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/xm5<",
+        "Lcom/huawei/appmarket/ym5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -37,7 +37,7 @@
     .end annotation
 .end field
 
-.field private b:Lcom/huawei/appmarket/aq1;
+.field private b:Lcom/huawei/appmarket/dq1;
 
 
 # direct methods
@@ -57,11 +57,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/aq1;)V
+.method public final a(Lcom/huawei/appmarket/dq1;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard$b;->b:Lcom/huawei/appmarket/aq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard$b;->b:Lcom/huawei/appmarket/dq1;
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard$b;->b:Lcom/huawei/appmarket/aq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard$b;->b:Lcom/huawei/appmarket/dq1;
 
     .line 4
     .line 5
@@ -82,7 +82,7 @@
 
     .line 6
     .line 7
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     .line 8
     .line 9
@@ -226,7 +226,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onComplete()V
@@ -236,7 +235,7 @@
 
     const-string v1, "HistoryObserver onComplete"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -248,7 +247,7 @@
 
     const-string v0, "HistoryObserver onFailure"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

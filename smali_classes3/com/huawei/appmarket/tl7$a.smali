@@ -1,36 +1,54 @@
-.class final Lcom/huawei/appmarket/tl7$a;
+.class public final Lcom/huawei/appmarket/tl7$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/vr3;
-
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/tl7;->e(Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse;)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/tl7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x9
+    name = "a"
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;
+.field private a:Lcom/huawei/appmarket/y81;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/y81<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
 
-.field final synthetic b:Lcom/huawei/appmarket/tl7;
+.field private b:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/nu0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private c:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/tl7;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;)V
-    .registers 3
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/tl7$a;->b:Lcom/huawei/appmarket/tl7;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/tl7$a;->a:Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;
+.method public constructor <init>()V
+    .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,28 +57,104 @@
 
 
 # virtual methods
-.method public final onFailed(I)V
-    .registers 3
+.method public final a()Lcom/huawei/appmarket/y81;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/y81<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    const-string p1, "GLOBAL_START_FLOW"
+    iget-object v0, p0, Lcom/huawei/appmarket/tl7$a;->a:Lcom/huawei/appmarket/y81;
 
-    const-string v0, "StartupCallback grs failed"
+    return-object v0
+.end method
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+.method public final b()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tl7$a;->c:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/nu0;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/tl7$a;->b:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final d(Lcom/huawei/appmarket/y81;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/y81<",
+            "Ljava/lang/Integer;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/tl7$a;->a:Lcom/huawei/appmarket/y81;
 
     return-void
 .end method
 
-.method public final onSuccess()V
-    .registers 3
+.method public final e(Ljava/util/List;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/foundation/card/base/bean/KeywordInfo;",
+            ">;)V"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/tl7$a;->b:Lcom/huawei/appmarket/tl7;
+    iput-object p1, p0, Lcom/huawei/appmarket/tl7$a;->c:Ljava/util/List;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/tl7$a;->a:Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;
+    return-void
+.end method
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/tl7;->a(Lcom/huawei/appmarket/tl7;Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupRequest;)V
+.method public final f(Ljava/util/List;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/nu0;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/tl7$a;->b:Ljava/util/List;
 
     return-void
 .end method

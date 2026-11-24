@@ -9,7 +9,7 @@
 
 # instance fields
 .field private cgToken_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -19,7 +19,7 @@
 .field private requestId_:Ljava/lang/String;
 
 .field private sessionId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -164,7 +164,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static V(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appgallery/cloudgame/gamedist/https/ReleaseResourceRequest;
@@ -356,7 +355,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 

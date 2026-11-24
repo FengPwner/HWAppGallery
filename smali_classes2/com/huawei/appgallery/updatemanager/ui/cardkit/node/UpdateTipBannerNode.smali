@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v2, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/UpdateTipBannerCard;
 

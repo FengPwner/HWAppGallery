@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Comparator;
-.implements Lcom/huawei/appmarket/e91;
+.implements Lcom/huawei/appmarket/f91;
 .implements Ljava/io/Serializable;
 
 
@@ -21,7 +21,7 @@
         "Ljava/util/Comparator<",
         "Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;",
         ">;",
-        "Lcom/huawei/appmarket/e91;",
+        "Lcom/huawei/appmarket/f91;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -107,12 +107,12 @@
 
 # instance fields
 .field private abroadThirdPartyAppStorePkg:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private adCreative:Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo$AdCreative;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -121,26 +121,26 @@
 .field public appShelfTime_:J
 
 .field private bgDiffSha2:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private bgDiffSize:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private bgDiffType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private bgDownurl:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -155,12 +155,12 @@
 .field private channelId:Ljava/lang/String;
 
 .field private clearPkgChannelId:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private cnCrossRegionalUpdateShowFlag:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -177,7 +177,7 @@
 .field private diffSize_:J
 
 .field private diffType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -186,7 +186,7 @@
 .field private downUrlType_:I
 
 .field private downurl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -198,7 +198,7 @@
 .field private formatDate:Ljava/util/Date;
 
 .field private fullDownUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -216,7 +216,7 @@
 .field private hash_:Ljava/lang/String;
 
 .field private hmsSdkVersion:Lcom/huawei/appgallery/foundation/card/base/bean/HmsSdkVersion;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -235,7 +235,7 @@
 .field private isKeyApp_:I
 
 .field private jointOperation:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -248,7 +248,7 @@
 .field private name_:Ljava/lang/String;
 
 .field private newFeatures_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->NOPRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 .end field
@@ -282,7 +282,7 @@
 .field private referrer:Ljava/lang/String;
 
 .field private relatedFAInfo:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -293,7 +293,7 @@
 .field private reservedNeedDownload:I
 
 .field private riskTips:Lcom/huawei/appgallery/foundation/card/base/bean/RiskInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -1075,7 +1075,7 @@
 
     .line 129
     .line 130
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     .line 132
@@ -1111,7 +1111,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private static W(Ljava/lang/String;)Ljava/util/Date;
@@ -1177,7 +1176,7 @@
 
     .line 20
     .line 21
-    invoke-static {v3, p0, v4}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, p0, v4}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
@@ -1206,7 +1205,7 @@
     move-result-object p0
 
     .line 36
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -1280,7 +1279,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -1435,7 +1433,7 @@
 
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/du5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/fu5;->a()Z
 
     .line 7
     .line 8
@@ -1914,7 +1912,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final T0(I)V
@@ -2187,7 +2184,7 @@
 .method public final getInsertSqlStatement(Ljava/lang/String;)Ljava/lang/String;
     .registers 2
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/i91;->f(Lcom/huawei/appmarket/e91;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j91;->f(Lcom/huawei/appmarket/f91;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2289,7 +2286,7 @@
     const/4 v2, 0x0
 
     .line 26
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -2459,7 +2456,7 @@
 .method public final getTableScheme()Ljava/lang/String;
     .registers 2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/i91;->e(Lcom/huawei/appmarket/e91;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/j91;->e(Lcom/huawei/appmarket/f91;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3047,7 +3044,7 @@
 .method public final toBean(Landroid/database/Cursor;)V
     .registers 2
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/i91;->c(Lcom/huawei/appmarket/e91;Landroid/database/Cursor;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j91;->c(Lcom/huawei/appmarket/f91;Landroid/database/Cursor;)V
 
     return-void
 .end method
@@ -3056,7 +3053,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/i91;->a(Lcom/huawei/appmarket/e91;)Landroid/content/ContentValues;
+    invoke-static {p0}, Lcom/huawei/appmarket/j91;->a(Lcom/huawei/appmarket/f91;)Landroid/content/ContentValues;
 
     move-result-object v0
 
@@ -3067,7 +3064,7 @@
     .registers 2
 
     .line 2
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/i91;->b(Lcom/huawei/appmarket/e91;Landroid/database/sqlite/SQLiteStatement;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j91;->b(Lcom/huawei/appmarket/f91;Landroid/database/sqlite/SQLiteStatement;)V
 
     return-void
 .end method

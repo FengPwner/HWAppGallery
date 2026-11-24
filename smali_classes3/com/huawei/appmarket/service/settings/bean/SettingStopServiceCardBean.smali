@@ -22,27 +22,27 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/c33;->a()Lcom/huawei/appmarket/tr3;
+    invoke-static {}, Lcom/huawei/appmarket/f33;->a()Lcom/huawei/appmarket/vr3;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/tr3;->b(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/vr3;->b(Ljava/lang/String;)I
 
     move-result p1
 
     const/16 v0, 0x8
 
-    invoke-static {v0}, Lcom/huawei/appmarket/m66;->a(I)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/o66;->a(I)Z
 
     move-result v0
 
     const/4 v1, 0x1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/m66;->a(I)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/o66;->a(I)Z
 
     move-result v2
 

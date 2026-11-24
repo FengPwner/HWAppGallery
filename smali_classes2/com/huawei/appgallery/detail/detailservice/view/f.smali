@@ -76,13 +76,13 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string p2, "InstallerGalleryDetailFragment"
 
     const-string v0, "initSplitAccessibility view null"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

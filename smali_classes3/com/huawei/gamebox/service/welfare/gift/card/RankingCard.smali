@@ -185,7 +185,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic u1(Lcom/huawei/gamebox/service/welfare/gift/card/RankingCard;)Landroid/widget/TextView;
@@ -225,7 +224,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 13
     .line 14
@@ -245,7 +244,7 @@
     const/4 v3, 0x2
 
     .line 22
-    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/vw7;->e(Landroid/content/Context;III)I
+    invoke-static {v1, v2, v3, v0}, Lcom/huawei/appmarket/ci7;->e(Landroid/content/Context;III)I
 
     .line 23
     .line 24
@@ -262,7 +261,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 32
     .line 33
@@ -737,29 +736,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 
@@ -949,7 +925,7 @@
     .line 89
     .line 90
     .line 91
-    invoke-static {v3, v4, v0}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v3, v4, v0}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 92
     .line 93
@@ -1042,7 +1018,7 @@
     .line 135
     .line 136
     .line 137
-    invoke-static {v0, v3, p1}, Lcom/huawei/appmarket/bu0;->q(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v0, v3, p1}, Lcom/huawei/appmarket/kb1;->r(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 138
     .line 139
@@ -1281,8 +1257,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

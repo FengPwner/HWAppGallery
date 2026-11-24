@@ -3,9 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;
+.implements Lcom/huawei/appmarket/kh3;
 
 
-# virtual methods
-.method public abstract E(Landroid/content/Context;Lcom/huawei/appgallery/foundation/report/ComplainBean;)V
-.end method
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/dd1;
+.end annotation

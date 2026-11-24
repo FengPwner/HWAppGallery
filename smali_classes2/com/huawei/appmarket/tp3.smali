@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;Z)V
+.method public abstract showFARetryErrorFragment(II)V
 .end method

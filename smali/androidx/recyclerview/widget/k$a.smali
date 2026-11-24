@@ -64,7 +64,7 @@
 
     iget-object v0, v0, Landroidx/recyclerview/widget/k;->y0:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     :cond_1
     return-void

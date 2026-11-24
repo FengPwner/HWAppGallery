@@ -58,7 +58,7 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 7
     .line 8
@@ -99,7 +99,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 25
     .line 26
@@ -199,5 +199,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

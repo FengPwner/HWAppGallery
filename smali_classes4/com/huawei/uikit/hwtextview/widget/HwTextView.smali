@@ -46,7 +46,7 @@
     const v0, 0x7f130318
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/pg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/rg6;->a:[I
 
     const v1, 0x7f130557
 
@@ -121,7 +121,7 @@
 
     if-lt p1, p2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->e(Landroid/widget/TextView;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->e(Landroid/widget/TextView;)I
 
     move-result p1
 
@@ -129,7 +129,7 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwtextview/widget/HwTextView;->c:F
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->C(Landroid/widget/TextView;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->C(Landroid/widget/TextView;)I
 
     move-result p1
 
@@ -137,7 +137,7 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwtextview/widget/HwTextView;->d:F
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->t(Landroid/widget/TextView;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->t(Landroid/widget/TextView;)V
 
     :cond_1
     new-instance p1, Landroid/text/TextPaint;
@@ -596,7 +596,7 @@
 
     .line 164
     .line 165
-    invoke-static {v7, v6, v8, v4}, Lcom/huawei/appmarket/ej5;->k(Ljava/lang/CharSequence;ILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {v7, v6, v8, v4}, Lcom/huawei/appmarket/gj5;->k(Ljava/lang/CharSequence;ILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
 
     .line 166
     .line 167
@@ -604,7 +604,7 @@
     move-result-object v6
 
     .line 169
-    invoke-static {v6}, Lcom/huawei/appmarket/jm7;->h(Landroid/text/StaticLayout$Builder;)Landroid/text/StaticLayout;
+    invoke-static {v6}, Lcom/huawei/appmarket/pm7;->h(Landroid/text/StaticLayout$Builder;)Landroid/text/StaticLayout;
 
     .line 170
     .line 171

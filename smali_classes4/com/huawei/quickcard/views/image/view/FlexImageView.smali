@@ -30,11 +30,11 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/ub1;
+    new-instance v0, Lcom/huawei/appmarket/wb1;
 
     const/16 v1, 0x1d
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     sput-object v0, Lcom/huawei/quickcard/views/image/view/FlexImageView;->FACTORY:Lcom/huawei/quickcard/views/image/extension/IImageViewFactory;
 
@@ -99,11 +99,11 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->b()Lcom/huawei/quickcard/framework/border/Border;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->b()Lcom/huawei/quickcard/framework/border/Border;
 
     .line 4
     .line 5
@@ -115,11 +115,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->b()Lcom/huawei/quickcard/framework/border/Border;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->b()Lcom/huawei/quickcard/framework/border/Border;
 
     .line 12
     .line 13
@@ -127,7 +127,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/zc9;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/border/Border;->getBorderWidth()Lcom/huawei/appmarket/gd9;
 
     .line 16
     .line 17
@@ -307,34 +307,17 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected drawRadiusMask(Landroid/graphics/Canvas;)V
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->b()Lcom/huawei/quickcard/framework/border/Border;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->b()Lcom/huawei/quickcard/framework/border/Border;
 
     .line 4
     .line 5
@@ -346,11 +329,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/ld9;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/view/BaseImageView;->cacheBean:Lcom/huawei/appmarket/sd9;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ld9;->b()Lcom/huawei/quickcard/framework/border/Border;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sd9;->b()Lcom/huawei/quickcard/framework/border/Border;
 
     .line 12
     .line 13
@@ -538,23 +521,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected onDraw(Landroid/graphics/Canvas;)V

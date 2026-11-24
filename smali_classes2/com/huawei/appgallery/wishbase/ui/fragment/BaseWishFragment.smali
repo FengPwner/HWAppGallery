@@ -3,26 +3,26 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kv3;
-.implements Lcom/huawei/appmarket/tv3;
+.implements Lcom/huawei/appmarket/mv3;
+.implements Lcom/huawei/appmarket/vv3;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appgallery/taskfragment/api/TaskFragment<",
         "TT;>;",
-        "Lcom/huawei/appmarket/kv3;",
-        "Lcom/huawei/appmarket/tv3;"
+        "Lcom/huawei/appmarket/mv3;",
+        "Lcom/huawei/appmarket/vv3;"
     }
 .end annotation
 
 
 # instance fields
-.field private k0:Lcom/huawei/appmarket/lv3;
+.field private k0:Lcom/huawei/appmarket/nv3;
 
 
 # direct methods
@@ -57,20 +57,20 @@
     return-void
 .end method
 
-.method public final y3()Lcom/huawei/appmarket/lv3;
+.method public final y3()Lcom/huawei/appmarket/nv3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->k0:Lcom/huawei/appmarket/lv3;
+    iget-object v0, p0, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->k0:Lcom/huawei/appmarket/nv3;
 
     return-object v0
 .end method
 
-.method public final z3(Lcom/huawei/appmarket/lv3;)V
+.method public final z3(Lcom/huawei/appmarket/nv3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->k0:Lcom/huawei/appmarket/lv3;
+    iput-object p1, p0, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->k0:Lcom/huawei/appmarket/nv3;
 
     return-void
 .end method

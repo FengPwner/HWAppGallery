@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private o:Lcom/huawei/appmarket/mi6;
+.field private o:Lcom/huawei/appmarket/oi6;
 
 
 # direct methods
@@ -45,7 +45,7 @@
 
     .line 11
     .line 12
-    new-instance v0, Lcom/huawei/appmarket/mi6;
+    new-instance v0, Lcom/huawei/appmarket/oi6;
 
     .line 13
     .line 14
@@ -61,12 +61,12 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/mi6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/oi6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/mi6;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/oi6;
 
     .line 24
     .line 25
@@ -125,21 +125,21 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 53
     .line 54
     .line 55
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/mi6;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/oi6;
 
     .line 56
     .line 57
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/mi6;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/oi6;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 58
     .line 59
     .line 60
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/mi6;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/oi6;
 
     .line 61
     .line 62
@@ -262,10 +262,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -297,7 +296,7 @@
 
     .line 13
     .line 14
-    instance-of v2, v1, Lcom/huawei/appmarket/mi6;
+    instance-of v2, v1, Lcom/huawei/appmarket/oi6;
 
     .line 15
     .line 16
@@ -309,11 +308,11 @@
 
     .line 19
     :cond_0
-    check-cast v1, Lcom/huawei/appmarket/mi6;
+    check-cast v1, Lcom/huawei/appmarket/oi6;
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/li6;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ni6;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -414,7 +413,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final x()Ljava/util/ArrayList;
@@ -429,11 +427,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/mi6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/RealtimercmHomeNodeV2;->o:Lcom/huawei/appmarket/oi6;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/li6;->l2()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ni6;->l2()Ljava/util/ArrayList;
 
     move-result-object v0
 

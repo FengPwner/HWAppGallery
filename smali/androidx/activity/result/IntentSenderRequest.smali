@@ -51,7 +51,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/result/IntentSenderRequest$c;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/activity/result/IntentSenderRequest$c;-><init>(Lcom/huawei/appmarket/id1;)V
 
     new-instance v0, Landroidx/activity/result/IntentSenderRequest$b;
 
@@ -68,7 +68,7 @@
     .line 1
     const-string v0, "intentSender"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -83,7 +83,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/IntentSender;Landroid/content/Intent;IIILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Landroid/content/IntentSender;Landroid/content/Intent;IIILcom/huawei/appmarket/id1;)V
     .registers 8
 
     .line 2
@@ -121,7 +121,7 @@
     .line 3
     const-string v0, "parcel"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-class v0, Landroid/content/IntentSender;
 
@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     check-cast v0, Landroid/content/IntentSender;
 
@@ -213,7 +213,7 @@
 
     const-string v0, "dest"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->b:Landroid/content/IntentSender;
 

@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailextendcardv2/DetailExtendCardV2;->D:Landroid/view/ViewGroup;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailextendcardv2/DetailExtendCardV2;->D:Landroid/view/ViewGroup;
 
@@ -381,7 +381,7 @@
 
     .line 108
     :catch_0
-    sget-object v4, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v4, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 109
     .line 110
@@ -393,7 +393,7 @@
 
     .line 113
     .line 114
-    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 115
     .line 116
@@ -407,7 +407,7 @@
 
     .line 120
     .line 121
-    invoke-static {v6, v4, v5}, Lcom/huawei/appmarket/jo2;->b(Landroid/content/Context;J)Ljava/lang/String;
+    invoke-static {v6, v4, v5}, Lcom/huawei/appmarket/lo2;->b(Landroid/content/Context;J)Ljava/lang/String;
 
     .line 122
     .line 123
@@ -1095,11 +1095,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final bridge synthetic g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

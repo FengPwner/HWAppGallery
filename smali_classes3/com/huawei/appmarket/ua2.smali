@@ -1,11 +1,13 @@
-.class public interface abstract Lcom/huawei/appmarket/ua2;
+.class public abstract Lcom/huawei/appmarket/ua2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a(Lcom/huawei/appmarket/ta2;)V
-.end method
+# direct methods
+.method public constructor <init>()V
+    .registers 1
 
-.method public abstract b(Lcom/huawei/appmarket/ta2;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
 .end method

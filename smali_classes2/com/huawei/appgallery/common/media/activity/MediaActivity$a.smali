@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -83,7 +83,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b65;->b(Lcom/huawei/appgallery/common/media/activity/MediaActivity;Landroid/net/Uri;)Ljava/io/File;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/e65;->b(Lcom/huawei/appgallery/common/media/activity/MediaActivity;Landroid/net/Uri;)Ljava/io/File;
 
     .line 14
     .line 15
@@ -115,7 +115,7 @@
     move-result-object v2
 
     .line 29
-    invoke-static {v2}, Lcom/huawei/appmarket/b65;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/e65;->c(Ljava/lang/String;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -254,7 +254,7 @@
 
     .line 100
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object v1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 101
     .line 102
@@ -266,7 +266,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 107
     .line 108

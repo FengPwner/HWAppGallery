@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/au3;
+.implements Lcom/huawei/appmarket/cu3;
 
 
 # instance fields
@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 
@@ -104,11 +104,11 @@
 .method public abstract synthetic isInterceptor(Ljava/lang/String;)Z
 .end method
 
-.method public launchByAppInfo(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;Lcom/huawei/appmarket/kr;)Z
+.method public launchByAppInfo(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;Lcom/huawei/appmarket/jr;)Z
     .registers 5
 
     .line 1
-    invoke-virtual {p4}, Lcom/huawei/appmarket/kr;->d()Ljava/lang/String;
+    invoke-virtual {p4}, Lcom/huawei/appmarket/jr;->e()Ljava/lang/String;
 
     move-result-object p4
 
@@ -182,7 +182,7 @@
     move-result-object v2
 
     .line 28
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 29
     .line 30
@@ -372,7 +372,7 @@
 
     .line 118
     .line 119
-    invoke-virtual {v2, v4, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 120
     .line 121
@@ -475,7 +475,7 @@
     move-result-object p1
 
     .line 167
-    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     .line 169

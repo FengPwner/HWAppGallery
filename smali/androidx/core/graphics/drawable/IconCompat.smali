@@ -785,6 +785,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static j(Landroid/content/Context;Ljava/lang/String;)Landroid/content/res/Resources;
@@ -1812,7 +1819,7 @@
     move-result-object p1
 
     .line 264
-    invoke-static {v0, v5, p1}, Lcom/huawei/appmarket/nu6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v5, p1}, Lcom/huawei/appmarket/ru6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     .line 265
     .line 266

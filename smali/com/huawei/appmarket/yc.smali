@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/ld7;
+.field private static a:Lcom/huawei/appmarket/qd7;
 
 
 # direct methods
@@ -12,13 +12,13 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ld7;
+    new-instance v0, Lcom/huawei/appmarket/qd7;
 
     const-string v1, "AgGuard"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sput-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     return-void
 .end method
@@ -35,7 +35,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_delay_show_list"
 
@@ -56,7 +56,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_delay_last_show_time"
 
@@ -73,7 +73,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_delay_show_list"
 
@@ -90,7 +90,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_last_show_time"
 
@@ -193,7 +193,7 @@
 
     move-result-wide v0
 
-    sget-object v2, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v2, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-wide/16 v3, 0x0
 
@@ -231,7 +231,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_delay_last_show_time"
 
@@ -244,7 +244,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/yc;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_notification_delay_show_list"
 

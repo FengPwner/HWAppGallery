@@ -2082,7 +2082,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, v11, v7, v2}, Lcom/huawei/appmarket/om5;->x(IIII)I
+    invoke-static {v0, v11, v7, v2}, Lcom/huawei/appmarket/ci7;->y(IIII)I
 
     move-result v5
 
@@ -2114,7 +2114,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v11, v7, v1}, Lcom/huawei/appmarket/om5;->x(IIII)I
+    invoke-static {v0, v11, v7, v1}, Lcom/huawei/appmarket/ci7;->y(IIII)I
 
     move-result v2
 
@@ -2187,7 +2187,7 @@
 
     if-ne v2, v9, :cond_37
 
-    invoke-static {v1, v11, v7, v3}, Lcom/huawei/appmarket/om5;->x(IIII)I
+    invoke-static {v1, v11, v7, v3}, Lcom/huawei/appmarket/ci7;->y(IIII)I
 
     move-result v2
 
@@ -2203,7 +2203,7 @@
     const/16 v5, 0x2e
 
     :goto_2e
-    invoke-static {v1, v11, v7, v3}, Lcom/huawei/appmarket/om5;->x(IIII)I
+    invoke-static {v1, v11, v7, v3}, Lcom/huawei/appmarket/ci7;->y(IIII)I
 
     move-result v2
 

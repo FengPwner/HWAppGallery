@@ -19,7 +19,7 @@
 
 # instance fields
 .field private list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -66,7 +66,7 @@
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 11
     .line 12
@@ -239,7 +239,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final T0()Ljava/util/List;

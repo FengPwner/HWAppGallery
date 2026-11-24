@@ -43,7 +43,7 @@
 
     const-string v2, "security control data changed"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/AgGuardListFragment$a;->b:Lcom/huawei/appgallery/agguard/business/ui/fragment/AgGuardListFragment;
 
@@ -51,11 +51,11 @@
 
     invoke-static {v0, v1}, Lcom/huawei/appgallery/agguard/business/ui/fragment/AgGuardListFragment;->y3(Lcom/huawei/appgallery/agguard/business/ui/fragment/AgGuardListFragment;I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o82;->f()V
 
     return-void
 .end method

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/du4;
+.field private n:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -79,9 +79,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerNode;->n:Lcom/huawei/appmarket/du4;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerNode;->n:Lcom/huawei/appmarket/gu4;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
@@ -94,11 +94,11 @@
     return p1
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 9
 
     .line 1
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     .line 2
     .line 3
@@ -133,7 +133,7 @@
 
     .line 17
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->j()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->j()I
 
     .line 18
     .line 19
@@ -195,7 +195,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     .line 48
     .line 49
@@ -229,7 +229,7 @@
 
     .line 63
     :cond_3
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 64
     .line 65
@@ -366,14 +366,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerNode;->n:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/BannerNode;->n:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

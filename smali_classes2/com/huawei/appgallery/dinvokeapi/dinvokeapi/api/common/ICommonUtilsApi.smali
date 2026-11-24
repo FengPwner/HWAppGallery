@@ -16,5 +16,5 @@
 .method public abstract reportExpose(Ljava/lang/String;)V
 .end method
 
-.method public abstract skuJump(Lcom/huawei/appmarket/ib2;I)V
+.method public abstract skuJump(Lcom/huawei/appmarket/lb2;I)V
 .end method

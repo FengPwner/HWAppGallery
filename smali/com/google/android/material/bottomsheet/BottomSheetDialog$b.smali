@@ -19,17 +19,17 @@
 
 .field private final b:Z
 
-.field private final c:Lcom/huawei/appmarket/nq8;
+.field private final c:Lcom/huawei/appmarket/tq8;
 
 
 # direct methods
-.method private constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/nq8;)V
+.method private constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/tq8;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$c;-><init>()V
 
-    iput-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;->c:Lcom/huawei/appmarket/nq8;
+    iput-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;->c:Lcom/huawei/appmarket/tq8;
 
     sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -59,20 +59,20 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->R()Lcom/huawei/appmarket/q45;
+    invoke-virtual {v0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->R()Lcom/huawei/appmarket/t45;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->r()Landroid/content/res/ColorStateList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->r()Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
     goto :goto_1
 
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->k(Landroid/view/View;)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->k(Landroid/view/View;)Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -84,7 +84,7 @@
     move-result p1
 
     :goto_2
-    invoke-static {p1}, Lcom/huawei/appmarket/f45;->d(I)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/i45;->d(I)Z
 
     move-result p1
 
@@ -120,11 +120,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/nq8;Lcom/google/android/material/bottomsheet/d;)V
+.method synthetic constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/tq8;Lcom/google/android/material/bottomsheet/d;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;-><init>(Landroid/view/View;Lcom/huawei/appmarket/nq8;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;-><init>(Landroid/view/View;Lcom/huawei/appmarket/tq8;)V
 
     return-void
 .end method
@@ -141,11 +141,11 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;->c:Lcom/huawei/appmarket/nq8;
+    iget-object v1, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;->c:Lcom/huawei/appmarket/tq8;
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 8
     .line 9
@@ -216,7 +216,7 @@
     move-result v0
 
     .line 41
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 42
     .line 43

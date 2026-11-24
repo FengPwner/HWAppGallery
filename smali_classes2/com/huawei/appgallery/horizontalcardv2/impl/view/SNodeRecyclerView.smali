@@ -61,7 +61,7 @@
     move-result-object p1
 
     .line 11
-    invoke-static {p1}, Lcom/huawei/appmarket/ox7;->a(Ljava/util/Locale;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/tx7;->a(Ljava/util/Locale;)I
 
     .line 12
     .line 13
@@ -172,7 +172,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -185,11 +184,11 @@
 
     invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView;->setOnFlingListener(Landroidx/recyclerview/widget/RecyclerView$r;)V
 
-    new-instance v0, Lcom/huawei/appmarket/q23;
+    new-instance v0, Lcom/huawei/appmarket/t23;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t23;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     return-void
 .end method

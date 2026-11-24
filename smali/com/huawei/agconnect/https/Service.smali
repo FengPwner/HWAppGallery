@@ -12,13 +12,13 @@
 
 
 # virtual methods
-.method public abstract execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/hv7;
+.method public abstract execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/agconnect/https/Method;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/https/HttpsResult;",
             ">;"
         }

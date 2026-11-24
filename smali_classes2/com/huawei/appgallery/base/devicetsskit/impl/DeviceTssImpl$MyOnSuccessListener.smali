@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/hms/support/api/entity/tss/GetDeviceIdResp;",
         ">;"
     }
@@ -111,7 +111,7 @@
     .line 27
     .line 28
     .line 29
-    sget-object v1, Lcom/huawei/appmarket/vn1;->a:Lcom/huawei/appmarket/vn1;
+    sget-object v1, Lcom/huawei/appmarket/yn1;->a:Lcom/huawei/appmarket/yn1;
 
     .line 30
     .line 31
@@ -127,7 +127,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -145,7 +145,7 @@
     .line 45
     .line 46
     :goto_0
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -264,5 +264,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

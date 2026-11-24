@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bv5$b;
+.implements Lcom/huawei/appmarket/dv5$b;
 
 
 # instance fields
@@ -70,7 +70,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -222,7 +222,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final b(Ljava/lang/String;Ljava/lang/String;)V
@@ -237,13 +236,13 @@
 
     invoke-virtual {v1}, Lcom/huawei/appmarket/ec0;->e()I
 
-    invoke-static {v0}, Lcom/huawei/appmarket/dc0;->f(Lcom/huawei/appmarket/dc0;)Lcom/huawei/appmarket/qv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/dc0;->f(Lcom/huawei/appmarket/dc0;)Lcom/huawei/appmarket/wv7;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appmarket/cc0;->a:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qv7;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/wv7;->a(Ljava/lang/String;)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

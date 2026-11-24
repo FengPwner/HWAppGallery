@@ -4,12 +4,6 @@
 
 
 # instance fields
-.field private G1:I
-
-.field private H1:I
-
-.field private I1:I
-
 .field private i1:Z
 
 .field private j1:I
@@ -19,6 +13,12 @@
 .field private l1:I
 
 .field private m1:F
+
+.field private n1:I
+
+.field private o1:I
+
+.field private s1:I
 
 
 # direct methods
@@ -62,7 +62,7 @@
 
     iput v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->m1:F
 
-    sget-object v1, Lcom/huawei/appmarket/hf6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/jf6;->b:[I
 
     invoke-virtual {p1, p2, v1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -96,7 +96,7 @@
     const-string p1, "clickCardPos ev is null"
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -105,7 +105,7 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v2
 
@@ -193,7 +193,7 @@
     move-result-object v0
 
     .line 10
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     .line 11
     .line 12
@@ -213,7 +213,7 @@
     move-result-object v0
 
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 21
     .line 22
@@ -229,7 +229,7 @@
     move-result-object v1
 
     .line 28
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     .line 29
     .line 30
@@ -253,7 +253,7 @@
 
     .line 39
     .line 40
-    iput v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->H1:I
+    iput v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->o1:I
 
     .line 41
     .line 42
@@ -273,7 +273,7 @@
 
     .line 49
     .line 50
-    iput v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->I1:I
+    iput v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->s1:I
 
     .line 51
     .line 52
@@ -290,7 +290,7 @@
     .line 57
     .line 58
     .line 59
-    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->H1:I
+    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->o1:I
 
     .line 60
     .line 61
@@ -308,7 +308,7 @@
     .line 67
     .line 68
     .line 69
-    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->I1:I
+    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->s1:I
 
     .line 70
     .line 71
@@ -316,7 +316,7 @@
 
     .line 72
     .line 73
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 74
     .line 75
@@ -422,7 +422,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -446,7 +446,7 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v3
 
@@ -575,7 +575,7 @@
 
     const-string v3, "dispatchTouchEvent layoutParams error."
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -766,7 +766,7 @@
 
     const-string v1, "rootView is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -854,11 +854,11 @@
 
     if-eq v0, v1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result v0
 
@@ -868,7 +868,7 @@
 
     move-result v0
 
-    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->G1:I
+    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->n1:I
 
     if-nez v1, :cond_1
 
@@ -876,18 +876,18 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->H1:I
+    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->o1:I
 
     goto :goto_0
 
     :cond_0
-    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->I1:I
+    iget v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->s1:I
 
     :goto_0
     invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
@@ -906,7 +906,7 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->G1:I
+    iput v1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->n1:I
 
     :cond_1
     const/high16 v1, 0x40000000    # 2.0f
@@ -915,7 +915,7 @@
 
     move-result v0
 
-    iget v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->G1:I
+    iget v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->n1:I
 
     invoke-static {v2, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -964,7 +964,7 @@
 .method public setHeight(I)V
     .registers 2
 
-    iput p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->G1:I
+    iput p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;->n1:I
 
     return-void
 .end method

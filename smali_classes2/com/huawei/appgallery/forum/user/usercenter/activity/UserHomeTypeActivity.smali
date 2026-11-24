@@ -51,7 +51,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 11
     .line 12
@@ -139,12 +139,12 @@
     move-result-object p1
 
     .line 57
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 58
     .line 59
     .line 60
-    const p1, 0x7f0a160d
+    const p1, 0x7f0a160e
 
     .line 61
     .line 62
@@ -223,7 +223,7 @@
     .line 101
     .line 102
     .line 103
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 104
     .line 105
@@ -235,11 +235,11 @@
 
     .line 108
     .line 109
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 110
     .line 111
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 112
     .line 113
@@ -251,7 +251,7 @@
 
     .line 116
     .line 117
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     .line 118
     .line 119
@@ -309,7 +309,7 @@
     move-result-object p1
 
     .line 147
-    invoke-static {p1}, Lcom/huawei/appmarket/qr2;->d(Lcom/huawei/hmf/services/ui/b;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p1}, Lcom/huawei/appmarket/sr2;->d(Lcom/huawei/hmf/services/ui/b;)Lcom/huawei/appmarket/sr2;
 
     .line 148
     .line 149
@@ -333,7 +333,7 @@
     move-result-object v0
 
     .line 159
-    invoke-virtual {p1}, Lcom/huawei/appmarket/az6;->a()Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ez6;->a()Landroidx/fragment/app/Fragment;
 
     .line 160
     .line 161
@@ -344,7 +344,7 @@
     const/4 v1, 0x0
 
     .line 164
-    const v2, 0x7f0a17a0
+    const v2, 0x7f0a17a1
 
     .line 165
     .line 166

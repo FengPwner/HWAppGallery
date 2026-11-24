@@ -243,7 +243,7 @@
 
     iget-object p1, p0, Lcom/huawei/hms/scankit/p/f3;->b:Ljava/util/LinkedHashMap;
 
-    const-string v4, "version"
+    const-string/jumbo v4, "version"
 
     iget-object v3, v3, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
 

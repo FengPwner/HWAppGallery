@@ -125,18 +125,18 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_7
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     const/4 p2, 0x1
 
     :goto_0
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bp;->n(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ap;->n(Z)V
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;->S7(Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;Lcom/huawei/appmarket/bp;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;->S7(Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;Lcom/huawei/appmarket/ap;)V
 
     goto/16 :goto_1
 
@@ -159,13 +159,13 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_7
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;->T7(Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;Lcom/huawei/appmarket/bp;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;->T7(Lcom/huawei/appgallery/appcomment/ui/AppCommentFragment;Lcom/huawei/appmarket/ap;)V
 
     goto/16 :goto_1
 
@@ -188,11 +188,11 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_7
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     const/4 p2, 0x0
 

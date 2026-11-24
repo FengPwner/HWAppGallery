@@ -1,0 +1,26 @@
+.class public Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyFactorySpi$NTRUPlus1152;
+.super Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyFactorySpi;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyFactorySpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "NTRUPlus1152"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    sget-object v0, Lorg/bouncycastle/asn1/bc/BCObjectIdentifiers;->ntruplus1152:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-direct {p0, v0}, Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyFactorySpi;-><init>(Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;)V
+
+    return-void
+.end method

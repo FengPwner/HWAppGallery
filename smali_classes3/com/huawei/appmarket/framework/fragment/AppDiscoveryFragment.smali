@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private x3:Lcom/huawei/appmarket/aq1;
+.field private x3:Lcom/huawei/appmarket/dq1;
 
 .field private y3:Z
 
@@ -18,7 +18,7 @@
     return-void
 .end method
 
-.method static o6(Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;)V
+.method static p6(Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;)V
     .registers 4
 
     .line 1
@@ -41,7 +41,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -153,7 +153,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -184,7 +183,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -196,7 +195,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     .line 20
     .line 21
@@ -204,7 +203,7 @@
     move-result-object v0
 
     .line 23
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/gw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/aq1;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/dq1;
 
     .line 24
     .line 25
@@ -212,7 +211,7 @@
     move-result-object p1
 
     .line 27
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->x3:Lcom/huawei/appmarket/aq1;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->x3:Lcom/huawei/appmarket/dq1;
 
     .line 28
     .line 29
@@ -302,7 +301,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g2()V
@@ -314,7 +312,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->x3:Lcom/huawei/appmarket/aq1;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->x3:Lcom/huawei/appmarket/dq1;
 
     .line 5
     .line 6
@@ -322,7 +320,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     .line 9
     .line 10
@@ -555,7 +553,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34

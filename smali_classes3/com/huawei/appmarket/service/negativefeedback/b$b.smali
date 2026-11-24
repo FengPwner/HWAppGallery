@@ -79,7 +79,7 @@
 
     const-string p1, "loadNegativeFeedbackInfo success"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appmarket/service/negativefeedback/bean/GetNegativeFeedbackResponse;->getTitle()Ljava/lang/String;
 
@@ -95,11 +95,11 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/service/negativefeedback/b;->e(Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/jf5;->q()Lcom/huawei/appmarket/jf5;
+    invoke-static {}, Lcom/huawei/appmarket/mf5;->q()Lcom/huawei/appmarket/mf5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/jf5;->s(Ljava/lang/String;Ljava/util/List;)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/mf5;->s(Ljava/lang/String;Ljava/util/List;)V
 
     goto :goto_0
 
@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

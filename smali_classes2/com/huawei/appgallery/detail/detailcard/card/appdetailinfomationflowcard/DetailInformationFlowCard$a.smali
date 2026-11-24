@@ -79,7 +79,7 @@
 
     .line 21
     .line 22
-    invoke-static {p2}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->Q1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)Lcom/huawei/appmarket/nk1;
+    invoke-static {p2}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->Q1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)Lcom/huawei/appmarket/qk1;
 
     .line 23
     .line 24
@@ -87,7 +87,7 @@
     move-result-object v0
 
     .line 26
-    sget-object v1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object v1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 27
     .line 28
@@ -99,7 +99,7 @@
 
     .line 31
     .line 32
-    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -107,7 +107,7 @@
     move-result-object v2
 
     .line 36
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -129,7 +129,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->o()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->o()Z
 
     .line 49
     .line 50
@@ -154,7 +154,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
     .line 63
@@ -163,7 +163,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -175,7 +175,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -213,7 +213,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -290,5 +290,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

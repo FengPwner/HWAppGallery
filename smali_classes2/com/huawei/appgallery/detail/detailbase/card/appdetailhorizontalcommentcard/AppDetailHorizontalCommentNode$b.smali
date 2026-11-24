@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ak0;
+.implements Lcom/huawei/appmarket/bk0;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentNode;->s(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentNode;->s(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -76,13 +76,13 @@
 
     invoke-virtual {p2, p1}, Lcom/huawei/appmarket/lv0;->h(Ljava/lang/String;)V
 
-    const-class p1, Lcom/huawei/appmarket/vm3;
+    const-class p1, Lcom/huawei/appmarket/xm3;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/vm3;
+    check-cast p1, Lcom/huawei/appmarket/xm3;
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentNode$b;->b:Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentNode;
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0, p2}, Lcom/huawei/appmarket/vm3;->d0(Landroid/content/Context;Lcom/huawei/appmarket/lv0;)V
+    invoke-interface {p1, v0, p2}, Lcom/huawei/appmarket/xm3;->d0(Landroid/content/Context;Lcom/huawei/appmarket/lv0;)V
 
     :cond_0
     return-void

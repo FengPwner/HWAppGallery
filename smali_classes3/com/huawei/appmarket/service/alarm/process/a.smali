@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/m24$a;
+.implements Lcom/huawei/appmarket/o24$a;
 
 
 # instance fields
@@ -120,7 +120,7 @@
     move-result-object v3
 
     .line 46
-    invoke-static {v3}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 47
     .line 48
@@ -149,7 +149,7 @@
     const/4 v3, 0x0
 
     .line 61
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 62
     .line 63

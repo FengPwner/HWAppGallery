@@ -18,7 +18,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/huawei/appmarket/vg5;->s(Landroid/view/View;IIII)V
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/huawei/appmarket/yg5;->s(Landroid/view/View;IIII)V
 
     return-void
 .end method
@@ -27,7 +27,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vg5;->j(ILandroid/view/View;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yg5;->j(ILandroid/view/View;)V
 
     return-void
 .end method
@@ -36,7 +36,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/vg5;->a(Landroid/view/View;)F
+    invoke-static {p1}, Lcom/huawei/appmarket/yg5;->a(Landroid/view/View;)F
 
     move-result p1
 
@@ -47,7 +47,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vg5;->r(Landroid/view/View;F)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yg5;->r(Landroid/view/View;F)V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vg5;->t(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yg5;->t(Landroid/view/View;Landroid/graphics/Matrix;)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vg5;->D(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yg5;->D(Landroid/view/View;Landroid/graphics/Matrix;)V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vg5;->B(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yg5;->B(Landroid/view/View;Landroid/graphics/Matrix;)V
 
     return-void
 .end method

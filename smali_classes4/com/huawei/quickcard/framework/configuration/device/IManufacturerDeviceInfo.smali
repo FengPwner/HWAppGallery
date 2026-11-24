@@ -10,7 +10,7 @@
 
 
 # virtual methods
-.method public abstract getFoldedState()Lcom/huawei/appmarket/g89;
+.method public abstract getFoldedState()Lcom/huawei/appmarket/m89;
 .end method
 
 .method public abstract isFoldable()Z

@@ -14,15 +14,15 @@
     .end annotation
 .end field
 
-.field private final l:Lcom/huawei/appmarket/ot1;
+.field private final l:Lcom/huawei/appmarket/rt1;
 
 .field private final m:I
 
-.field private n:Lcom/huawei/appmarket/l54;
+.field private n:Lcom/huawei/appmarket/o54;
 
 
 # direct methods
-.method public constructor <init>(Landroid/app/Activity;Lcom/huawei/appmarket/ot1;ILcom/huawei/appmarket/l54;)V
+.method public constructor <init>(Landroid/app/Activity;Lcom/huawei/appmarket/rt1;ILcom/huawei/appmarket/o54;)V
     .registers 6
 
     .line 1
@@ -34,16 +34,16 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->k:Ljava/lang/ref/WeakReference;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->l:Lcom/huawei/appmarket/ot1;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->l:Lcom/huawei/appmarket/rt1;
 
     iput p3, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->m:I
 
-    iput-object p4, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->n:Lcom/huawei/appmarket/l54;
+    iput-object p4, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->n:Lcom/huawei/appmarket/o54;
 
     return-void
 .end method
 
-.method public static c(Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;Lcom/huawei/appmarket/l54;)V
+.method public static c(Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;Lcom/huawei/appmarket/o54;)V
     .registers 7
 
     .line 1
@@ -56,11 +56,11 @@
 
     .line 5
     .line 6
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -68,7 +68,7 @@
     move-result-object v0
 
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     .line 13
     .line 14
@@ -88,7 +88,7 @@
     move-result-object v1
 
     .line 22
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/mo3;->u(Landroid/content/Context;)I
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/oo3;->u(Landroid/content/Context;)I
 
     .line 23
     .line 24
@@ -125,7 +125,7 @@
 
     .line 37
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/bu0;->A()Z
+    invoke-static {}, Lcom/huawei/appmarket/kb1;->z()Z
 
     .line 38
     .line 39
@@ -164,7 +164,7 @@
 
     .line 53
     .line 54
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 55
     .line 56
@@ -174,7 +174,7 @@
 
     .line 58
     .line 59
-    iget-object v0, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->l:Lcom/huawei/appmarket/ot1;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->l:Lcom/huawei/appmarket/rt1;
 
     .line 60
     .line 61
@@ -182,7 +182,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     .line 64
     .line 65
@@ -194,7 +194,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     .line 70
     .line 71
@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 73
-    invoke-interface {v0}, Lcom/huawei/appmarket/xk3;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/zk3;->a()V
 
     .line 74
     .line 75
@@ -255,7 +255,7 @@
 
     .line 98
     .line 99
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -268,7 +268,7 @@
 
     .line 104
     .line 105
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -341,7 +341,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -417,7 +416,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -463,59 +462,59 @@
     .line 53
     .line 54
     .line 55
-    new-instance p2, Lcom/huawei/appmarket/qj8;
+    new-instance p2, Lcom/huawei/appmarket/st1;
 
     .line 56
     .line 57
-    const/16 v0, 0x1c
+    const/4 v0, 0x0
 
     .line 58
+    iget-object v1, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->n:Lcom/huawei/appmarket/o54;
+
     .line 59
-    iget-object v1, p0, Lcom/huawei/appmarket/service/deamon/download/adapter/DownloadDialogSecureBroadcastReceiver;->n:Lcom/huawei/appmarket/l54;
-
     .line 60
-    .line 61
-    invoke-direct {p2, p0, v0, v1}, Lcom/huawei/appmarket/qj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {p2, p0, v0, v1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
+    .line 61
     .line 62
     .line 63
-    .line 64
     const-wide/16 v0, 0x3e8
 
+    .line 64
     .line 65
-    .line 66
     invoke-virtual {p1, p2, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
+    .line 66
     .line 67
     .line 68
-    .line 69
     goto :goto_2
 
-    .line 70
+    .line 69
     :cond_0
     const-string p1, "net not connected."
 
+    .line 70
     .line 71
-    .line 72
     :goto_1
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 72
     .line 73
     .line 74
-    .line 75
     goto :goto_2
 
-    .line 76
+    .line 75
     :cond_1
     const-string p1, "action error."
 
+    .line 76
     .line 77
-    .line 78
     goto :goto_1
 
-    .line 79
+    .line 78
     :goto_2
     return-void
+    .line 79
     .line 80
     .line 81
     .line 82
@@ -611,5 +610,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

@@ -106,7 +106,7 @@
     const-string v1, "CSSSpaceValueWrapper"
 
     .line 2
-    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_2
     return-object p1

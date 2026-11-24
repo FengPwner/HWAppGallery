@@ -14,7 +14,7 @@
 
 
 # static fields
-.field static final b:Lcom/huawei/appmarket/h58;
+.field static final b:Lcom/huawei/appmarket/n58;
 
 
 # instance fields
@@ -37,7 +37,7 @@
 
     invoke-direct {v0}, Lcom/google/gson/internal/sql/SqlTimestampTypeAdapter$1;-><init>()V
 
-    sput-object v0, Lcom/google/gson/internal/sql/SqlTimestampTypeAdapter;->b:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/SqlTimestampTypeAdapter;->b:Lcom/huawei/appmarket/n58;
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -85,7 +85,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -202,7 +202,7 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -219,7 +219,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 6
     .line 7

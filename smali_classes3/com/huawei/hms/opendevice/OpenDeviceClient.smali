@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract getOdid()Lcom/huawei/appmarket/hv7;
+.method public abstract getOdid()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/opendevice/OdidResult;",
             ">;"
         }

@@ -800,6 +800,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private k()Lcom/google/protobuf/s1;
@@ -1055,6 +1056,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
@@ -3938,7 +3940,7 @@
 
     .line 92
     .line 93
-    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 94
     .line 95
@@ -6694,11 +6696,11 @@
     .line 185
     .line 186
     :sswitch_9
-    sget-object v1, Lcom/google/protobuf/o$j;->p:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$j;->p:Lcom/huawei/appmarket/iw5;
 
     .line 187
     .line 188
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 189
     .line 190
@@ -6785,11 +6787,11 @@
     .line 230
     .line 231
     :sswitch_a
-    sget-object v1, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$s;->h:Lcom/huawei/appmarket/iw5;
 
     .line 232
     .line 233
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 234
     .line 235
@@ -6859,11 +6861,11 @@
 
     .line 267
     :sswitch_b
-    sget-object v1, Lcom/google/protobuf/o$d;->j:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$d;->j:Lcom/huawei/appmarket/iw5;
 
     .line 268
     .line 269
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 270
     .line 271
@@ -6933,11 +6935,11 @@
 
     .line 303
     :sswitch_c
-    sget-object v1, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/iw5;
 
     .line 304
     .line 305
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 306
     .line 307
@@ -7002,7 +7004,7 @@
 
     .line 336
     .line 337
-    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 338
     .line 339

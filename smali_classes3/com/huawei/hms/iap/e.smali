@@ -109,14 +109,14 @@
 
 
 # virtual methods
-.method public consumeOwnedPurchase(Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;)Lcom/huawei/appmarket/hv7;
+.method public consumeOwnedPurchase(Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseResult;",
             ">;"
         }
@@ -136,14 +136,14 @@
     return-object v0
 .end method
 
-.method public createPurchaseIntent(Lcom/huawei/hms/iap/entity/PurchaseIntentReq;)Lcom/huawei/appmarket/hv7;
+.method public createPurchaseIntent(Lcom/huawei/hms/iap/entity/PurchaseIntentReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentResult;",
             ">;"
         }
@@ -163,14 +163,14 @@
     return-object v0
 .end method
 
-.method public createPurchaseIntentWithPrice(Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;)Lcom/huawei/appmarket/hv7;
+.method public createPurchaseIntentWithPrice(Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentResult;",
             ">;"
         }
@@ -198,12 +198,12 @@
     throw v0
 .end method
 
-.method public isEnvReady()Lcom/huawei/appmarket/hv7;
+.method public isEnvReady()Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -219,14 +219,14 @@
     throw v0
 .end method
 
-.method public isEnvReady(Lcom/huawei/hms/iap/entity/IsEnvReadyReq;)Lcom/huawei/appmarket/hv7;
+.method public isEnvReady(Lcom/huawei/hms/iap/entity/IsEnvReadyReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -246,12 +246,12 @@
     return-object v0
 .end method
 
-.method public isEnvReady(Z)Lcom/huawei/appmarket/hv7;
+.method public isEnvReady(Z)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -267,14 +267,14 @@
     throw p1
 .end method
 
-.method public isSandboxActivated(Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;)Lcom/huawei/appmarket/hv7;
+.method public isSandboxActivated(Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsSandboxActivatedResult;",
             ">;"
         }
@@ -290,14 +290,14 @@
     throw p1
 .end method
 
-.method public obtainOwnedPurchaseRecord(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainOwnedPurchaseRecord(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;",
             ">;"
         }
@@ -317,14 +317,14 @@
     return-object v0
 .end method
 
-.method public obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;",
             ">;"
         }
@@ -344,14 +344,14 @@
     return-object v0
 .end method
 
-.method public obtainProductInfo(Lcom/huawei/hms/iap/entity/ProductInfoReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainProductInfo(Lcom/huawei/hms/iap/entity/ProductInfoReq;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/ProductInfoReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ProductInfoResult;",
             ">;"
         }
@@ -466,12 +466,12 @@
     throw p1
 .end method
 
-.method public scanRedeemCode()Lcom/huawei/appmarket/hv7;
+.method public scanRedeemCode()Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ScanRedeemCodeResult;",
             ">;"
         }
@@ -487,14 +487,14 @@
     throw v0
 .end method
 
-.method public startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/hv7;
+.method public startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/StartIapActivityReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/StartIapActivityResult;",
             ">;"
         }

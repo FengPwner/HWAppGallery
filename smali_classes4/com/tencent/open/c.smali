@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field protected b:Lcom/huawei/appmarket/uz8;
+.field protected b:Lcom/huawei/appmarket/a09;
 
 .field protected final c:Landroid/webkit/WebChromeClient;
     .annotation build Landroid/annotation/SuppressLint;
@@ -40,11 +40,11 @@
 
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    new-instance p1, Lcom/huawei/appmarket/uz8;
+    new-instance p1, Lcom/huawei/appmarket/a09;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/uz8;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/a09;-><init>()V
 
-    iput-object p1, p0, Lcom/tencent/open/c;->b:Lcom/huawei/appmarket/uz8;
+    iput-object p1, p0, Lcom/tencent/open/c;->b:Lcom/huawei/appmarket/a09;
 
     return-void
 .end method

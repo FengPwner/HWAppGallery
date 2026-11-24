@@ -260,7 +260,7 @@
 
     .line 78
     .line 79
-    sget-object v3, Lcom/huawei/appmarket/mm;->e:Landroid/view/animation/DecelerateInterpolator;
+    sget-object v3, Lcom/huawei/appmarket/lm;->e:Landroid/view/animation/DecelerateInterpolator;
 
     .line 80
     .line 81
@@ -509,6 +509,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private static F(Landroidx/coordinatorlayout/widget/CoordinatorLayout;)Landroid/view/View;
@@ -528,7 +535,7 @@
 
     move-result-object v2
 
-    instance-of v3, v2, Lcom/huawei/appmarket/nf5;
+    instance-of v3, v2, Lcom/huawei/appmarket/qf5;
 
     if-nez v3, :cond_1
 
@@ -776,7 +783,7 @@
 
     .line 95
     .line 96
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 97
     .line 98
@@ -788,7 +795,7 @@
 
     .line 101
     .line 102
-    invoke-static {v2}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 103
     .line 104
@@ -823,7 +830,7 @@
 
     .line 117
     .line 118
-    invoke-static {v2}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 119
     .line 120
@@ -849,7 +856,7 @@
 
     .line 128
     .line 129
-    invoke-static {v2}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 130
     .line 131
@@ -928,7 +935,7 @@
     neg-int v0, v0
 
     .line 161
-    invoke-static {v8, v0, v3}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {v8, v0, v3}, Lcom/huawei/appmarket/c55;->a(III)I
 
     .line 162
     .line 163
@@ -1502,7 +1509,7 @@
     move-result v0
 
     .line 7
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     .line 8
     .line 9
@@ -1519,7 +1526,7 @@
     move-result v0
 
     .line 16
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     .line 17
     .line 18
@@ -1670,7 +1677,7 @@
 
     .line 82
     .line 83
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->G(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->G(Landroid/view/View;)Z
 
     .line 84
     .line 85
@@ -1691,7 +1698,7 @@
     .line 92
     .line 93
     .line 94
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 95
     .line 96
@@ -1736,7 +1743,7 @@
     .line 114
     .line 115
     .line 116
-    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     .line 117
     .line 118
@@ -1812,7 +1819,7 @@
     .line 149
     .line 150
     .line 151
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     .line 152
     .line 153
@@ -1834,7 +1841,7 @@
     .line 160
     .line 161
     .line 162
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     .line 163
     .line 164
@@ -2502,7 +2509,7 @@
 
     .line 47
     .line 48
-    invoke-static {v4}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 49
     .line 50
@@ -3545,7 +3552,7 @@
 
     .line 13
     .line 14
-    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/c55;->a(III)I
 
     .line 15
     .line 16
@@ -3687,7 +3694,7 @@
 
     .line 82
     .line 83
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 84
     .line 85
@@ -3707,7 +3714,7 @@
     .line 90
     :cond_1
     :goto_1
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 91
     .line 92
@@ -5813,7 +5820,7 @@
 
     iput v3, v1, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior$SavedState;->f:I
 
-    invoke-static {v4}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     move-result v0
 
@@ -5981,7 +5988,7 @@
 
     .line 57
     .line 58
-    invoke-static {p3}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 59
     .line 60
@@ -6147,7 +6154,7 @@
     neg-int v0, v0
 
     .line 132
-    invoke-static {p3, v0, v1}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p3, v0, v1}, Lcom/huawei/appmarket/c55;->a(III)I
 
     .line 133
     .line 134
@@ -6319,6 +6326,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final i(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)Z

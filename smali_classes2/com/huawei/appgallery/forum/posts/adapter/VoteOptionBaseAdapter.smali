@@ -10,7 +10,7 @@
 
 .field private optionNum:I
 
-.field private postBaseVoteListener:Lcom/huawei/appmarket/fx3;
+.field private postBaseVoteListener:Lcom/huawei/appmarket/hx3;
 
 .field private voteDetailBean:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
 
@@ -206,13 +206,13 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/fx3;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/hx3;
 
     if-eqz p1, :cond_4
 
     iget-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->voteOptions:Ljava/util/List;
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fx3;->a(Ljava/util/List;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hx3;->a(Ljava/util/List;)V
 
     :cond_4
     return-void
@@ -269,7 +269,7 @@
 
     move-result-wide v8
 
-    invoke-static {v7, v8, v9}, Lcom/huawei/appmarket/ho2;->d(Landroid/content/Context;J)Ljava/lang/String;
+    invoke-static {v7, v8, v9}, Lcom/huawei/appmarket/jo2;->d(Landroid/content/Context;J)Ljava/lang/String;
 
     move-result-object v7
 
@@ -291,7 +291,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->mContext:Landroid/content/Context;
 
-    invoke-static {v2, v0, v1, p2, p3}, Lcom/huawei/appmarket/ho2;->e(Landroid/content/Context;JJ)Ljava/lang/String;
+    invoke-static {v2, v0, v1, p2, p3}, Lcom/huawei/appmarket/jo2;->e(Landroid/content/Context;JJ)Ljava/lang/String;
 
     move-result-object v2
 
@@ -425,7 +425,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -653,13 +653,13 @@
     goto :goto_2
 
     :cond_2
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/fx3;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/hx3;
 
     if-eqz p1, :cond_3
 
     iget-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->voteOptions:Ljava/util/List;
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fx3;->a(Ljava/util/List;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hx3;->a(Ljava/util/List;)V
 
     :cond_3
     return-void
@@ -817,7 +817,7 @@
 .method protected initViewHolder(Lcom/huawei/appgallery/forum/posts/adapter/a;Landroid/view/View;I)V
     .registers 5
 
-    const v0, 0x7f0a182c
+    const v0, 0x7f0a182d
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -827,7 +827,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/a;->a:Lcom/huawei/uikit/hwcheckbox/widget/HwCheckBox;
 
-    const v0, 0x7f0a182b
+    const v0, 0x7f0a182c
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/a;->b:Lcom/huawei/uikit/hwcheckbox/widget/HwCheckBox;
 
-    const v0, 0x7f0a182d
+    const v0, 0x7f0a182e
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -847,7 +847,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/a;->d:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a1834
+    const v0, 0x7f0a1835
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -857,7 +857,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/a;->e:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a1835
+    const v0, 0x7f0a1836
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -867,7 +867,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/a;->f:Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;
 
-    const v0, 0x7f0a1836
+    const v0, 0x7f0a1837
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -949,13 +949,13 @@
     return v1
 .end method
 
-.method public setData(Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;Lcom/huawei/appmarket/fx3;)V
+.method public setData(Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;Lcom/huawei/appmarket/hx3;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->voteDetailBean:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/fx3;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->postBaseVoteListener:Lcom/huawei/appmarket/hx3;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;->U()Lcom/huawei/appgallery/forum/base/card/bean/VoteInfoBean;
 
@@ -987,7 +987,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->voteOptions:Ljava/util/List;
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fx3;->a(Ljava/util/List;)V
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/hx3;->a(Ljava/util/List;)V
 
     :cond_0
     return-void

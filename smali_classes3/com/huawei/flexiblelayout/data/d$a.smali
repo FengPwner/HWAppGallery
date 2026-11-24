@@ -17,9 +17,9 @@
 # instance fields
 .field private a:I
 
-.field private b:Lcom/huawei/appmarket/qb2;
+.field private b:Lcom/huawei/appmarket/tb2;
 
-.field private c:Lcom/huawei/appmarket/y23;
+.field private c:Lcom/huawei/appmarket/b33;
 
 
 # direct methods
@@ -45,29 +45,29 @@
 
     iget v1, p0, Lcom/huawei/flexiblelayout/data/d$a;->a:I
 
-    iget-object v2, p0, Lcom/huawei/flexiblelayout/data/d$a;->b:Lcom/huawei/appmarket/qb2;
+    iget-object v2, p0, Lcom/huawei/flexiblelayout/data/d$a;->b:Lcom/huawei/appmarket/tb2;
 
-    iget-object v3, p0, Lcom/huawei/flexiblelayout/data/d$a;->c:Lcom/huawei/appmarket/y23;
+    iget-object v3, p0, Lcom/huawei/flexiblelayout/data/d$a;->c:Lcom/huawei/appmarket/b33;
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/flexiblelayout/data/d;-><init>(ILcom/huawei/appmarket/qb2;Lcom/huawei/appmarket/y23;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/flexiblelayout/data/d;-><init>(ILcom/huawei/appmarket/tb2;Lcom/huawei/appmarket/b33;)V
 
     return-object v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/qb2;)V
+.method public final b(Lcom/huawei/appmarket/tb2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/d$a;->b:Lcom/huawei/appmarket/qb2;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/d$a;->b:Lcom/huawei/appmarket/tb2;
 
     return-void
 .end method
 
-.method public final c(Lcom/huawei/appmarket/y23;)V
+.method public final c(Lcom/huawei/appmarket/b33;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/d$a;->c:Lcom/huawei/appmarket/y23;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/d$a;->c:Lcom/huawei/appmarket/b33;
 
     return-void
 .end method

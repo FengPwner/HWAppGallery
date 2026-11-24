@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$b;
-.super Lcom/huawei/appmarket/cw;
+.super Lcom/huawei/appmarket/dw;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
 
     const p1, 0x7f0a0e15
 
-    invoke-direct {p0, p2, p1, p3, p4}, Lcom/huawei/appmarket/cw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;[I)V
+    invoke-direct {p0, p2, p1, p3, p4}, Lcom/huawei/appmarket/dw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;[I)V
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$b;->j:Landroid/content/Context;
 
@@ -45,13 +45,13 @@
 
 
 # virtual methods
-.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Bitmap;",
-            "Lcom/huawei/appmarket/c38<",
+            "Lcom/huawei/appmarket/i38<",
             "-",
             "Landroid/graphics/Bitmap;",
             ">;)V"
@@ -93,7 +93,7 @@
 
     const-string p1, "onLoadFailed, use default icon."
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$b;->m:Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider;
 
@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const-class p1, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider;
 
@@ -133,13 +133,13 @@
     return-void
 .end method
 
-.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 3
 
     .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$b;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$b;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
 
     return-void
 .end method

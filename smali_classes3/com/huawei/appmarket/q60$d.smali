@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -52,7 +52,7 @@
     .registers 7
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/g72;->a:Lcom/huawei/appmarket/g72;
+    sget-object v0, Lcom/huawei/appmarket/k72;->a:Lcom/huawei/appmarket/k72;
 
     .line 2
     .line 3
@@ -65,7 +65,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {v1}, Lcom/huawei/appmarket/g72;->f(Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/k72;->f(Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;)Z
 
     .line 9
     .line 10
@@ -93,7 +93,7 @@
     move-result-object v2
 
     .line 22
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 23
     .line 24
@@ -596,8 +596,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final bridge synthetic onSuccess(Ljava/lang/Object;)V

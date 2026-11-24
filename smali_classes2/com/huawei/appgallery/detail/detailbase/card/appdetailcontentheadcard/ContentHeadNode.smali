@@ -52,7 +52,7 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     const/4 p1, 0x1
 

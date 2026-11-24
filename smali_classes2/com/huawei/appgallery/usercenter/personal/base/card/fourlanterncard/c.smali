@@ -41,9 +41,9 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/tf7;
+    new-instance v1, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -145,7 +145,7 @@
     int-to-double v1, p1
 
     .line 8
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -265,7 +265,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public onClick(Landroid/view/View;)V

@@ -34,11 +34,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "controller"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener;-><init>(Landroid/content/Context;I)V
 
@@ -88,11 +88,11 @@
 .end method
 
 .method public onOrientationChanged(I)V
-    .registers 7
+    .registers 4
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->weakController:Ljava/lang/ref/WeakReference;
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_9
 
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
@@ -100,7 +100,7 @@
 
     check-cast v0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_9
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/api/VideoEntireManager;->isLockActivityPortrait()Z
 
@@ -123,10 +123,6 @@
     :cond_0
     const/16 v1, 0x4c
 
-    const/16 v2, 0x5a
-
-    const/16 v3, 0x10e
-
     if-gt v1, p1, :cond_1
 
     const/16 v1, 0x6a
@@ -137,7 +133,7 @@
 
     move-result v1
 
-    add-int/2addr v1, v3
+    add-int/lit16 v1, v1, 0x10e
 
     :goto_0
     iput v1, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
@@ -157,7 +153,7 @@
 
     move-result v1
 
-    add-int/2addr v1, v2
+    add-int/lit8 v1, v1, 0x5a
 
     goto :goto_0
 
@@ -206,7 +202,7 @@
     :cond_5
     const/4 v1, -0x1
 
-    if-eq p1, v1, :cond_b
+    if-eq p1, v1, :cond_9
 
     iget p1, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
 
@@ -223,8 +219,6 @@
 
     move-result p1
 
-    const/4 v1, 0x1
-
     if-eqz p1, :cond_8
 
     invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$getFirstDegree$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)F
@@ -233,9 +227,9 @@
 
     float-to-int p1, p1
 
-    iget v4, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
+    iget v1, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
 
-    if-ne p1, v4, :cond_7
+    if-ne p1, v1, :cond_7
 
     invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$isDoFirstSensor$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)Z
 
@@ -246,18 +240,20 @@
     return-void
 
     :cond_7
-    invoke-static {v0, v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$setDoFirstSensor$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;Z)V
+    const/4 p1, 0x1
+
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$setDoFirstSensor$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;Z)V
 
     :cond_8
     invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$getRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)I
 
     move-result p1
 
-    iget v4, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
+    iget v1, p0, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController$OrientationSensorListener;->nowRotationAngle:I
 
-    if-eq p1, v4, :cond_b
+    if-eq p1, v1, :cond_9
 
-    invoke-static {v0, v4}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$setRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$setRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;I)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$getRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)I
 
@@ -267,27 +263,6 @@
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->setControllerRotation(F)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$getRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)I
-
-    move-result p1
-
-    if-eq p1, v2, :cond_a
-
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->access$getRotationAngle$p(Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;)I
-
-    move-result p1
-
-    if-ne p1, v3, :cond_9
-
-    goto :goto_2
-
     :cond_9
-    const/4 v1, 0x0
-
-    :cond_a
-    :goto_2
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->notifyScreenOrientation$VideoKit_release(Z)V
-
-    :cond_b
     return-void
 .end method

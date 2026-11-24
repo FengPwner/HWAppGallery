@@ -1,127 +1,114 @@
-.class public final enum Lcom/huawei/appmarket/bh6;
-.super Ljava/lang/Enum;
+.class public abstract Lcom/huawei/appmarket/bh6;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "Ljava/lang/Enum<",
-        "Lcom/huawei/appmarket/bh6;",
-        ">;"
+        Lcom/huawei/appmarket/bh6$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final enum c:Lcom/huawei/appmarket/bh6;
+.field public static final b:Lcom/huawei/appmarket/bh6$a;
 
-.field public static final enum d:Lcom/huawei/appmarket/bh6;
-
-.field private static final synthetic e:[Lcom/huawei/appmarket/bh6;
-
-
-# instance fields
-.field private b:Ljava/lang/String;
+.field private static final c:Lcom/huawei/appmarket/bh6;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 6
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/bh6;
-
-    const-string v1, "r"
-
-    const-string v2, "READ"
-
-    const/4 v3, 0x0
-
-    invoke-direct {v0, v2, v3, v1}, Lcom/huawei/appmarket/bh6;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v0, Lcom/huawei/appmarket/bh6;->c:Lcom/huawei/appmarket/bh6;
-
-    new-instance v1, Lcom/huawei/appmarket/bh6;
-
-    const-string v2, "rw"
-
-    const-string v4, "WRITE"
-
-    const/4 v5, 0x1
-
-    invoke-direct {v1, v4, v5, v2}, Lcom/huawei/appmarket/bh6;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    sput-object v1, Lcom/huawei/appmarket/bh6;->d:Lcom/huawei/appmarket/bh6;
-
-    const/4 v2, 0x2
-
-    new-array v2, v2, [Lcom/huawei/appmarket/bh6;
-
-    aput-object v0, v2, v3
-
-    aput-object v1, v2, v5
-
-    sput-object v2, Lcom/huawei/appmarket/bh6;->e:[Lcom/huawei/appmarket/bh6;
-
-    return-void
-.end method
-
-.method private constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    iput-object p3, p0, Lcom/huawei/appmarket/bh6;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/bh6;
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/bh6;
+    new-instance v0, Lcom/huawei/appmarket/bh6$a;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    const/4 v1, 0x0
 
-    move-result-object p0
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/bh6$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
-    check-cast p0, Lcom/huawei/appmarket/bh6;
+    sput-object v0, Lcom/huawei/appmarket/bh6;->b:Lcom/huawei/appmarket/bh6$a;
 
-    return-object p0
-.end method
+    sget-object v0, Lcom/huawei/appmarket/q16;->a:Lcom/huawei/appmarket/gl4;
 
-.method public static values()[Lcom/huawei/appmarket/bh6;
-    .registers 1
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/bh6;->e:[Lcom/huawei/appmarket/bh6;
-
-    invoke-virtual {v0}, [Lcom/huawei/appmarket/bh6;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gl4;->b()Lcom/huawei/appmarket/bh6;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/huawei/appmarket/bh6;
+    sput-object v0, Lcom/huawei/appmarket/bh6;->c:Lcom/huawei/appmarket/bh6;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static final synthetic a()Lcom/huawei/appmarket/bh6;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/bh6;->c:Lcom/huawei/appmarket/bh6;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
+.method public abstract b(I)I
+.end method
+
+.method public c()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bh6;->b:Ljava/lang/String;
+    const/16 v0, 0x20
 
-    return-object v0
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bh6;->b(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public d()I
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bh6;->e()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public e()I
+    .registers 4
+
+    .line 1
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bh6;->c()I
+
+    move-result v0
+
+    ushr-int/lit8 v0, v0, 0x1
+
+    const/high16 v1, 0x7fff0000
+
+    rem-int v1, v0, v1
+
+    sub-int/2addr v0, v1
+
+    const v2, 0x7ffeffff
+
+    add-int/2addr v0, v2
+
+    if-ltz v0, :cond_0
+
+    return v1
 .end method

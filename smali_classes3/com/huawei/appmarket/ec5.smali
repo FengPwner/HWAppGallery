@@ -1,118 +1,170 @@
 .class public final Lcom/huawei/appmarket/ec5;
-.super Lcom/huawei/appmarket/p2;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ec5$a;
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/appmarket/bz3;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/p2;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method static g(Lcom/huawei/appmarket/ec5;I)V
-    .registers 3
+
+# virtual methods
+.method public final a(Lcom/huawei/appmarket/service/uninstallreport/messagestrategy/ClientMessageStrategyResponse$ClientMsgInfo;Lcom/huawei/appmarket/service/recommendmessage/bean/MsgExtParams;Ljava/lang/String;)Z
+    .registers 14
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/service/recommendmessage/bean/MsgExtParams;->Y()I
 
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/huawei/appmarket/u30;
+    move-result p1
 
     .line 5
+    const/4 p2, -0x1
+
     .line 6
-    invoke-direct {v0}, Lcom/huawei/appmarket/u30;-><init>()V
+    const/4 p3, 0x1
 
     .line 7
+    if-ne p1, p2, :cond_0
+
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u30;->g(I)V
+    return p3
 
     .line 10
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
+
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
-
     .line 13
-    .line 14
-    .line 15
-    move-result-object p1
+    move-result-object p2
 
+    .line 14
+    const-string v0, "sendMsgTime"
+
+    .line 15
     .line 16
-    invoke-virtual {p0}, Lcom/huawei/appmarket/z1;->a()Lcom/huawei/appgallery/foundation/ui/framework/filter/BaseEventCardBean;
+    const-wide/16 v1, 0x0
 
     .line 17
     .line 18
+    invoke-virtual {p2, v0, v1, v2}, Lcom/huawei/appmarket/j50;->f(Ljava/lang/String;J)J
+
     .line 19
-    move-result-object p0
-
     .line 20
-    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/c06;->q(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/u30;)V
-
     .line 21
+    move-result-wide v0
+
     .line 22
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
     .line 23
-    return-void
     .line 24
     .line 25
+    move-result-wide v2
+
     .line 26
+    sub-long v4, v2, v0
+
     .line 27
     .line 28
+    int-to-long v6, p1
+
     .line 29
+    const-wide/32 v8, 0xea60
+
     .line 30
     .line 31
     .line 32
+    mul-long v6, v6, v8
+
     .line 33
     .line 34
+    cmp-long p2, v4, v6
+
     .line 35
     .line 36
+    if-lez p2, :cond_1
+
     .line 37
     .line 38
+    goto :goto_0
+
     .line 39
+    :cond_1
+    const/4 p3, 0x0
+
     .line 40
+    :goto_0
+    if-nez p3, :cond_2
+
     .line 41
     .line 42
+    const-string p2, "handleMsg interval does not match, lastTime:"
+
     .line 43
     .line 44
+    const-string v4, " ,currentTime:"
+
     .line 45
     .line 46
+    invoke-static {p2, v0, v1, v4}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 47
     .line 48
     .line 49
+    move-result-object p2
+
     .line 50
+    invoke-virtual {p2, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
     .line 51
     .line 52
     .line 53
+    const-string v0, " ,intervalTime:"
+
     .line 54
     .line 55
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 56
     .line 57
     .line 58
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 59
     .line 60
     .line 61
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 62
     .line 63
     .line 64
+    move-result-object p1
+
     .line 65
+    const-string p2, "MsgIntervalCondition"
+
     .line 66
     .line 67
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 68
     .line 69
     .line 70
+    :cond_2
+    return p3
     .line 71
     .line 72
     .line 73
@@ -218,63 +270,195 @@
     .line 173
     .line 174
     .line 175
-.end method
-
-
-# virtual methods
-.method public final f()I
-    .registers 5
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/u30;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/u30;-><init>()V
-
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->isLoginSuccessful()Z
-
-    move-result v1
-
-    const/4 v2, 0x0
-
-    if-nez v1, :cond_0
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/u30;->g(I)V
-
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/z1;->a()Lcom/huawei/appgallery/foundation/ui/framework/filter/BaseEventCardBean;
-
-    move-result-object v3
-
-    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/c06;->q(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/u30;)V
-
-    goto :goto_0
-
-    :cond_0
-    const-class v0, Lcom/huawei/appmarket/s24;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appmarket/s24;
-
-    new-instance v1, Lcom/huawei/appmarket/ec5$a;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/z1;->a()Lcom/huawei/appgallery/foundation/ui/framework/filter/BaseEventCardBean;
-
-    move-result-object v3
-
-    invoke-direct {v1, p0, v3}, Lcom/huawei/appmarket/ec5$a;-><init>(Lcom/huawei/appmarket/ec5;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
-
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/s24;->p1(Lcom/huawei/appmarket/ks3;)V
-
-    :goto_0
-    return v2
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
 .end method

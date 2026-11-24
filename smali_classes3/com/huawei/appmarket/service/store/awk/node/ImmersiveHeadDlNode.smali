@@ -36,7 +36,7 @@
 
     const v1, 0x7f0a0cda
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appmarket/service/store/awk/card/ImmersiveHeadDlCard;
 

@@ -128,7 +128,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -186,11 +185,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/HighConversionRatePermitSearchCardV1;->G:Landroid/widget/LinearLayout;
 
-    new-instance v0, Lcom/huawei/appmarket/y07;
+    new-instance v0, Lcom/huawei/appmarket/c17;
 
     const/16 v1, 0xd
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/y07;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/c17;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -300,7 +299,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     return-object v0
 .end method

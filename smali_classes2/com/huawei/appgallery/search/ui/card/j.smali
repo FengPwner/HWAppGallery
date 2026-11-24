@@ -46,7 +46,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/a;->a:Landroid/view/View;
 
-    const v1, 0x7f0a18a5
+    const v1, 0x7f0a18a6
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -58,7 +58,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/a;->a:Landroid/view/View;
 
-    const v1, 0x7f0a18a7
+    const v1, 0x7f0a18a8
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -70,7 +70,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/a;->a:Landroid/view/View;
 
-    const v1, 0x7f0a18a9
+    const v1, 0x7f0a18aa
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,13 +83,13 @@
     return-void
 .end method
 
-.method public final m(Lcom/huawei/appmarket/dj3;Lcom/huawei/appmarket/ak0;Landroid/content/Context;I)V
+.method public final m(Lcom/huawei/appmarket/fj3;Lcom/huawei/appmarket/bk0;Landroid/content/Context;I)V
     .registers 8
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appgallery/search/ui/card/a;->m(Lcom/huawei/appmarket/dj3;Lcom/huawei/appmarket/ak0;Landroid/content/Context;I)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appgallery/search/ui/card/a;->m(Lcom/huawei/appmarket/fj3;Lcom/huawei/appmarket/bk0;Landroid/content/Context;I)V
 
-    invoke-virtual {p0, p1, p0}, Lcom/huawei/appgallery/search/ui/card/a;->n(Lcom/huawei/appmarket/dj3;Lcom/huawei/appgallery/search/ui/card/a;)V
+    invoke-virtual {p0, p1, p0}, Lcom/huawei/appgallery/search/ui/card/a;->n(Lcom/huawei/appmarket/fj3;Lcom/huawei/appgallery/search/ui/card/a;)V
 
     const/4 p2, 0x3
 
@@ -113,15 +113,15 @@
 
     aput-object p3, p2, p4
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/dj3;->i()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/fj3;->i()Ljava/lang/String;
 
     move-result-object p3
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/dj3;->y()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/fj3;->y()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/dj3;->b()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/fj3;->b()Ljava/lang/String;
 
     move-result-object v1
 
@@ -204,7 +204,7 @@
     invoke-virtual {p4, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
-    invoke-virtual {p0, p2, p3, p1, p0}, Lcom/huawei/appgallery/search/ui/card/a;->o([Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;[Ljava/lang/String;Lcom/huawei/appmarket/dj3;Lcom/huawei/appgallery/search/ui/card/a;)V
+    invoke-virtual {p0, p2, p3, p1, p0}, Lcom/huawei/appgallery/search/ui/card/a;->o([Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;[Ljava/lang/String;Lcom/huawei/appmarket/fj3;Lcom/huawei/appgallery/search/ui/card/a;)V
 
     return-void
 .end method

@@ -39,17 +39,17 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView$a;->b:Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -62,11 +62,11 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     const-string v1, ""
 

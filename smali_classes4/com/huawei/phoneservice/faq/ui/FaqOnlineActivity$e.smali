@@ -106,7 +106,7 @@
 
     check-cast v2, [Ljava/lang/String;
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/jc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/oc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
 
     move-result v0
 

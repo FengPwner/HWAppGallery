@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/pa2;
+.field private final a:Lcom/huawei/appmarket/sa2;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/pa2<",
+            "Lcom/huawei/appmarket/sa2<",
             "*>;"
         }
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/r63;
+.field private final b:Lcom/huawei/appmarket/u63;
 
 .field private final c:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -49,21 +49,21 @@
 
     iput-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->c:Ljava/lang/ref/WeakReference;
 
-    new-instance v0, Lcom/huawei/appmarket/r63;
+    new-instance v0, Lcom/huawei/appmarket/u63;
 
     new-instance v1, Lcom/huawei/page/frame/d;
 
     invoke-direct {v1, p0}, Lcom/huawei/page/frame/d;-><init>(Ljava/lang/Object;)V
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/r63;-><init>(Lcom/huawei/appmarket/r63$a;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/u63;-><init>(Lcom/huawei/appmarket/u63$a;)V
 
-    iput-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iput-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
-    invoke-static {p1}, Lcom/huawei/page/frame/FrameCard;->m(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/pa2;
+    invoke-static {p1}, Lcom/huawei/page/frame/FrameCard;->m(Lcom/huawei/page/frame/FrameCard;)Lcom/huawei/appmarket/sa2;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iput-object p1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     return-void
 .end method
@@ -72,15 +72,15 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->h(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->h(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -259,23 +259,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static b(Lcom/huawei/page/frame/FrameCard$b;)V
@@ -322,7 +305,7 @@
 
     .line 20
     .line 21
-    iget-object v2, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v2, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 22
     .line 23
@@ -342,7 +325,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 32
     .line 33
@@ -503,38 +486,21 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic c(Lcom/huawei/page/frame/FrameCard$b;II)V
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2, p0}, Lcom/huawei/appmarket/r63;->d(IILcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p1, p2, p0}, Lcom/huawei/appmarket/u63;->d(IILcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -1043,64 +1009,21 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static synthetic d(Lcom/huawei/page/frame/FrameCard$b;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->f(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->f(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -1279,38 +1202,21 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic e(Lcom/huawei/page/frame/FrameCard$b;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->g(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->g(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -1489,38 +1395,21 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic f(Lcom/huawei/page/frame/FrameCard$b;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/r63;
+    iget-object v0, p0, Lcom/huawei/page/frame/FrameCard$b;->b:Lcom/huawei/appmarket/u63;
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object p0, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r63;->e(Lcom/huawei/appmarket/pa2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/u63;->e(Lcom/huawei/appmarket/sa2;)V
 
     .line 6
     .line 7
@@ -1699,23 +1588,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static g(Lcom/huawei/page/frame/FrameCard$b;)V
@@ -1742,7 +1614,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -1762,7 +1634,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -1930,23 +1802,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static h(Lcom/huawei/page/frame/FrameCard$b;II)V
@@ -1973,7 +1828,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -1990,7 +1845,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 21
     .line 22
@@ -2489,49 +2344,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method static i(Lcom/huawei/page/frame/FrameCard$b;)V
@@ -2558,7 +2370,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -2578,7 +2390,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -2746,23 +2558,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static j(Lcom/huawei/page/frame/FrameCard$b;)V
@@ -2789,7 +2584,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -2809,7 +2604,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -2977,23 +2772,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static k(Lcom/huawei/page/frame/FrameCard$b;)V
@@ -3020,7 +2798,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/pa2;
+    iget-object v1, p0, Lcom/huawei/page/frame/FrameCard$b;->a:Lcom/huawei/appmarket/sa2;
 
     .line 12
     .line 13
@@ -3040,7 +2818,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/pa2;->addOnReadyListener(Lcom/huawei/appmarket/pa2$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/sa2;->addOnReadyListener(Lcom/huawei/appmarket/sa2$a;)V
 
     .line 22
     .line 23
@@ -3208,21 +2986,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

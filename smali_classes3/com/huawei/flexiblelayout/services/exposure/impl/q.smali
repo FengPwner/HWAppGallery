@@ -98,7 +98,7 @@
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/zv6;->b()Lcom/huawei/appmarket/zv6;
+    invoke-static {}, Lcom/huawei/appmarket/dw6;->b()Lcom/huawei/appmarket/dw6;
 
     .line 22
     .line 23
@@ -106,7 +106,7 @@
     move-result-object v2
 
     .line 25
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/zv6;->c(Lcom/huawei/appmarket/yv6;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/dw6;->c(Lcom/huawei/appmarket/cw6;)V
 
     .line 26
     .line 27
@@ -227,7 +227,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected abstract b()V

@@ -391,7 +391,7 @@
     :try_start_0
     iget-object v1, p0, Lorg/apache/commons/lang3/CharSet;->set:Ljava/util/Set;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/rn7;->o(Ljava/util/Set;)Ljava/util/stream/Stream;
+    invoke-static {v1}, Lcom/huawei/appmarket/fq7;->o(Ljava/util/Set;)Ljava/util/stream/Stream;
 
     move-result-object v1
 
@@ -399,7 +399,7 @@
 
     invoke-direct {v2, p1}, Lorg/apache/commons/lang3/c;-><init>(C)V
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/xy;->A(Ljava/util/stream/Stream;Lorg/apache/commons/lang3/c;)Z
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/yy;->A(Ljava/util/stream/Stream;Lorg/apache/commons/lang3/c;)Z
 
     move-result p1
 

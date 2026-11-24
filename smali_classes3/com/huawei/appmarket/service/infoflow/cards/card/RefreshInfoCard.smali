@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/service/infoflow/cards/card/BaseInfoFlowCard<",
-        "Lcom/huawei/appmarket/a93;",
+        "Lcom/huawei/appmarket/d93;",
         ">;"
     }
 .end annotation
@@ -49,9 +49,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/a93;
+    check-cast v0, Lcom/huawei/appmarket/d93;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/a93;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iget-object v0, v0, Lcom/huawei/appmarket/d93;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/infoflow/cards/bean/RefreshInfoCardBean;->Y3()I
 

@@ -9,7 +9,7 @@
 
 # instance fields
 .field private accountId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public static F0(I)Lcom/huawei/appgallery/purchasehistory/api/bean/PurchaseHistoryRequest;
+.method public static E0(I)Lcom/huawei/appgallery/purchasehistory/api/bean/PurchaseHistoryRequest;
     .registers 3
 
     .line 1
@@ -38,13 +38,13 @@
 
     const/16 v1, 0x19
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U(I)V
 
     const-string v1, "clientApi"
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setStoreApi(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(I)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
 
     const-string p0, "1.1"
 

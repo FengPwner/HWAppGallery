@@ -123,7 +123,7 @@
     const-string p1, "~"
 
     .line 1
-    invoke-static {v0, p1, p4}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, p4}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -602,5 +602,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

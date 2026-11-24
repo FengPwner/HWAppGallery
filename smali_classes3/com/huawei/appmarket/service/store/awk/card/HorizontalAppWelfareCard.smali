@@ -57,7 +57,7 @@
 
     const-string v0, "setData: list\'s item is not instanceof HorizontalAppWelfareItemCardBean"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -68,7 +68,7 @@
 
     check-cast v3, Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareItemCardBean;
 
-    invoke-static {}, Lcom/huawei/appmarket/cs4;->b()Lcom/huawei/appmarket/cs4;
+    invoke-static {}, Lcom/huawei/appmarket/fs4;->b()Lcom/huawei/appmarket/fs4;
 
     move-result-object v4
 
@@ -76,11 +76,11 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/cs4;->c(Ljava/lang/String;)Lcom/huawei/appmarket/sn;
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/fs4;->c(Ljava/lang/String;)Lcom/huawei/appmarket/rn;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/sn;->a()J
+    invoke-virtual {v4}, Lcom/huawei/appmarket/rn;->a()J
 
     move-result-wide v4
 
@@ -146,7 +146,7 @@
     return v0
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1

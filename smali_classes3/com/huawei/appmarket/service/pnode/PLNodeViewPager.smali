@@ -4,14 +4,6 @@
 
 
 # instance fields
-.field private G1:J
-
-.field private H1:I
-
-.field private I1:Z
-
-.field private J1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
-
 .field private j1:Z
 
 .field private k1:Lcom/huawei/uikit/hwviewpager/widget/HwViewPager$OnPageChangeListener;
@@ -19,6 +11,14 @@
 .field private l1:I
 
 .field private m1:J
+
+.field private n1:J
+
+.field private o1:I
+
+.field private s1:Z
+
+.field private t1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
 
 
 # direct methods
@@ -147,7 +147,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -338,7 +338,6 @@
     return p1
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final i0(Lcom/huawei/uikit/hwviewpager/widget/HwViewPager$OnPageChangeListener;)V
@@ -356,7 +355,7 @@
     .registers 2
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->I1:Z
+    iget-boolean v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->s1:Z
 
     return v0
 .end method
@@ -365,7 +364,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->J1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->t1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
 
     .line 2
     .line 3
@@ -385,7 +384,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/ud3;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wd3;->a()Z
 
     .line 12
     .line 13
@@ -405,7 +404,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -414,11 +413,11 @@
 
     .line 25
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->J1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->t1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
 
     .line 26
     .line 27
-    new-instance v1, Lcom/huawei/appmarket/f75$a;
+    new-instance v1, Lcom/huawei/appmarket/i75$a;
 
     .line 28
     .line 29
@@ -426,12 +425,12 @@
 
     .line 30
     .line 31
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/f75$a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/i75$a;-><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v1}, Lcom/huawei/appmarket/f75$a;->build()Lcom/huawei/appmarket/f75;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/i75$a;->build()Lcom/huawei/appmarket/i75;
 
     .line 35
     .line 36
@@ -443,7 +442,7 @@
 
     .line 39
     .line 40
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 41
     .line 42
@@ -455,11 +454,11 @@
 
     .line 45
     .line 46
-    check-cast v2, Lcom/huawei/appmarket/dr6;
+    check-cast v2, Lcom/huawei/appmarket/gr6;
 
     .line 47
     .line 48
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 49
     .line 50
@@ -471,11 +470,11 @@
 
     .line 53
     .line 54
-    const-class v4, Lcom/huawei/appmarket/d32;
+    const-class v4, Lcom/huawei/appmarket/h32;
 
     .line 55
     .line 56
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ea5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 57
     .line 58
@@ -483,7 +482,7 @@
     move-result-object v2
 
     .line 60
-    check-cast v2, Lcom/huawei/appmarket/d32;
+    check-cast v2, Lcom/huawei/appmarket/h32;
 
     .line 61
     .line 62
@@ -491,7 +490,7 @@
 
     .line 63
     .line 64
-    invoke-interface {v2, v3, v1, v0}, Lcom/huawei/appmarket/d32;->publish(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v2, v3, v1, v0}, Lcom/huawei/appmarket/h32;->publish(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 65
     .line 66
@@ -601,7 +600,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->J1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->t1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
 
     .line 2
     .line 3
@@ -609,7 +608,7 @@
 
     .line 4
     .line 5
-    new-instance v1, Lcom/huawei/appmarket/f75$a;
+    new-instance v1, Lcom/huawei/appmarket/i75$a;
 
     .line 6
     .line 7
@@ -617,12 +616,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/f75$a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/i75$a;-><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v1}, Lcom/huawei/appmarket/f75$a;->build()Lcom/huawei/appmarket/f75;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/i75$a;->build()Lcom/huawei/appmarket/i75;
 
     .line 13
     .line 14
@@ -630,7 +629,7 @@
     move-result-object v1
 
     .line 16
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 17
     .line 18
@@ -642,11 +641,11 @@
 
     .line 21
     .line 22
-    check-cast v2, Lcom/huawei/appmarket/dr6;
+    check-cast v2, Lcom/huawei/appmarket/gr6;
 
     .line 23
     .line 24
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 25
     .line 26
@@ -658,11 +657,11 @@
 
     .line 29
     .line 30
-    const-class v4, Lcom/huawei/appmarket/d32;
+    const-class v4, Lcom/huawei/appmarket/h32;
 
     .line 31
     .line 32
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ea5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -670,7 +669,7 @@
     move-result-object v2
 
     .line 36
-    check-cast v2, Lcom/huawei/appmarket/d32;
+    check-cast v2, Lcom/huawei/appmarket/h32;
 
     .line 37
     .line 38
@@ -678,7 +677,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v2, v3, v1, v0}, Lcom/huawei/appmarket/d32;->publish(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v2, v3, v1, v0}, Lcom/huawei/appmarket/h32;->publish(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 41
     .line 42
@@ -901,7 +900,7 @@
     move-result-wide v2
 
     .line 19
-    iget-wide v4, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->G1:J
+    iget-wide v4, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->n1:J
 
     .line 20
     .line 21
@@ -920,7 +919,7 @@
 
     .line 27
     .line 28
-    iget v2, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->H1:I
+    iget v2, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->o1:I
 
     .line 29
     .line 30
@@ -1014,7 +1013,7 @@
     float-to-int v0, v0
 
     .line 70
-    iput v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->H1:I
+    iput v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->o1:I
 
     .line 71
     .line 72
@@ -1026,7 +1025,7 @@
     move-result-wide v0
 
     .line 76
-    iput-wide v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->G1:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->n1:J
 
     .line 77
     .line 78
@@ -1073,7 +1072,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setAccessibilityDelegate(Lcom/huawei/flexiblelayout/card/IndicatorCard;)V
@@ -1085,14 +1083,14 @@
 
     const-string v1, "setAccessibilityDelegate indicatortcard fail"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->J1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->t1:Lcom/huawei/flexiblelayout/card/IndicatorCard;
 
     const/4 p1, 0x1
 
-    iput-boolean p1, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->I1:Z
+    iput-boolean p1, p0, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager;->s1:Z
 
     new-instance p1, Lcom/huawei/appmarket/service/pnode/PLNodeViewPager$a;
 

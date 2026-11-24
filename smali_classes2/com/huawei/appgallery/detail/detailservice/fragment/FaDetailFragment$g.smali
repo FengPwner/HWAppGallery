@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ct3;
+.implements Lcom/huawei/appmarket/et3;
 
 
 # annotations
@@ -71,12 +71,12 @@
 
     if-nez p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string p2, "fragment WeakReference is null"
 
     :goto_0
-    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string p2, "fragment\'s Activity is null"
 
@@ -139,7 +139,7 @@
 
     :cond_5
     :goto_3
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string p2, "fragment\'s Activity is destroyed"
 

@@ -193,7 +193,7 @@
     .line 20
     .line 21
     .line 22
-    instance-of v0, p1, Lcom/huawei/appmarket/ko5;
+    instance-of v0, p1, Lcom/huawei/appmarket/lo5;
 
     .line 23
     .line 24
@@ -216,11 +216,11 @@
     move-object v0, p1
 
     .line 33
-    check-cast v0, Lcom/huawei/appmarket/ko5;
+    check-cast v0, Lcom/huawei/appmarket/lo5;
 
     .line 34
     .line 35
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setDataRange(Lcom/huawei/appmarket/ko5;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setDataRange(Lcom/huawei/appmarket/lo5;)V
 
     .line 36
     .line 37
@@ -634,8 +634,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setBottomCardLayout(Landroid/view/View;)V

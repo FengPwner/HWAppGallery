@@ -197,7 +197,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -228,7 +227,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 14
     .line 15
@@ -240,11 +239,11 @@
 
     .line 18
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 20
     .line 21
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 22
     .line 23
@@ -260,7 +259,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/ea5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -276,7 +275,7 @@
 
     .line 36
     .line 37
-    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 38
     .line 39

@@ -51,17 +51,17 @@
 
     check-cast v2, Lcom/huawei/flexiblelayout/services/exposure/impl/w;
 
-    iget-object v3, v2, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->b:Lcom/huawei/appmarket/ak8;
+    iget-object v3, v2, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->b:Lcom/huawei/appmarket/gk8;
 
     iget-boolean v4, v2, Lcom/huawei/flexiblelayout/services/exposure/impl/w;->c:Z
 
-    invoke-interface {v3, v4}, Lcom/huawei/appmarket/ak8;->a(Z)V
+    invoke-interface {v3, v4}, Lcom/huawei/appmarket/gk8;->a(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/zv6;->b()Lcom/huawei/appmarket/zv6;
+    invoke-static {}, Lcom/huawei/appmarket/dw6;->b()Lcom/huawei/appmarket/dw6;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/zv6;->c(Lcom/huawei/appmarket/yv6;)V
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/dw6;->c(Lcom/huawei/appmarket/cw6;)V
 
     goto :goto_0
 

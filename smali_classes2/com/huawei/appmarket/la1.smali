@@ -9,48 +9,38 @@
 # instance fields
 .field public final synthetic b:I
 
-.field public final synthetic c:Lcom/huawei/appmarket/fa1;
+.field public final synthetic c:Lcom/huawei/appmarket/ga1;
 
 .field public final synthetic d:Ljava/lang/Object;
 
-.field public final synthetic e:Ljava/lang/Object;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/fa1;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 5
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/ga1;Ljava/lang/String;I)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v0, 0x0
+    iput p3, p0, Lcom/huawei/appmarket/la1;->b:I
 
-    iput v0, p0, Lcom/huawei/appmarket/la1;->b:I
+    iput-object p1, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/ga1;
 
     iput-object p2, p0, Lcom/huawei/appmarket/la1;->d:Ljava/lang/Object;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/la1;->e:Ljava/lang/Object;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/fa1;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/io/File;Lcom/huawei/appmarket/fa1;Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;)V
-    .registers 5
+.method public synthetic constructor <init>(Ljava/lang/Object;Lcom/huawei/appmarket/ga1;I)V
+    .registers 4
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v0, 0x1
-
-    iput v0, p0, Lcom/huawei/appmarket/la1;->b:I
+    iput p3, p0, Lcom/huawei/appmarket/la1;->b:I
 
     iput-object p1, p0, Lcom/huawei/appmarket/la1;->d:Ljava/lang/Object;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/fa1;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/la1;->e:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/ga1;
 
     return-void
 .end method
@@ -58,296 +48,304 @@
 
 # virtual methods
 .method public final run()V
-    .registers 6
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/la1;->d:Ljava/lang/Object;
+    iget v0, p0, Lcom/huawei/appmarket/la1;->b:I
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/huawei/appmarket/la1;->b:I
+    iget-object v1, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/ga1;
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/huawei/appmarket/la1;->c:Lcom/huawei/appmarket/fa1;
+    iget-object v2, p0, Lcom/huawei/appmarket/la1;->d:Ljava/lang/Object;
 
     .line 6
     .line 7
-    iget-object v3, p0, Lcom/huawei/appmarket/la1;->e:Ljava/lang/Object;
+    packed-switch v0, :pswitch_data_0
 
     .line 8
     .line 9
-    packed-switch v1, :pswitch_data_0
-
     .line 10
+    check-cast v2, Ljava/io/File;
+
     .line 11
     .line 12
-    check-cast v0, Ljava/io/File;
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->d(Ljava/io/File;)Z
 
     .line 13
     .line 14
-    check-cast v3, Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;
-
     .line 15
-    .line 16
-    invoke-static {v0}, Lcom/huawei/appmarket/fk2;->d(Ljava/io/File;)Z
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
+    .line 16
     .line 17
+    const-string v2, "DccoBinHelper"
+
     .line 18
     .line 19
-    new-instance v0, Lcom/huawei/appmarket/lu;
+    const-string v3, "ShaderConfigStep restore failed, continue chain"
 
     .line 20
     .line 21
-    invoke-direct {v0}, Lcom/huawei/appmarket/lu;-><init>()V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v2}, Lcom/huawei/appmarket/fa1;->e()Landroid/content/Context;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 25
     .line 26
     .line 27
-    move-result-object v0
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->a()V
 
     .line 28
-    invoke-static {v0}, Lcom/huawei/appmarket/jb7;->d(Landroid/content/Context;)Lcom/huawei/appmarket/jb7;
-
     .line 29
     .line 30
+    return-void
+
     .line 31
-    move-result-object v0
+    :pswitch_0
+    check-cast v2, Ljava/lang/String;
 
     .line 32
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->acquireDB()V
-
     .line 33
+    new-instance v0, Ljava/io/File;
+
     .line 34
     .line 35
-    invoke-virtual {v3}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+    invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     .line 36
     .line 37
     .line 38
-    move-result-object v1
+    invoke-static {v0}, Lcom/huawei/appmarket/hk2;->d(Ljava/io/File;)Z
 
     .line 39
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jb7;->e(Ljava/lang/String;)Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;
-
     .line 40
     .line 41
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 42
-    move-result-object v1
-
     .line 43
-    if-nez v1, :cond_0
-
     .line 44
-    .line 45
-    invoke-virtual {v3}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->a()V
 
+    .line 45
     .line 46
     .line 47
+    return-void
+
     .line 48
-    move-result-object v1
+    :pswitch_1
+    check-cast v2, Ljava/lang/String;
 
     .line 49
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jb7;->a(Ljava/lang/String;)V
-
     .line 50
+    new-instance v0, Lcom/huawei/appmarket/mu;
+
     .line 51
     .line 52
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/jb7;->f(Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;)V
+    invoke-direct {v0}, Lcom/huawei/appmarket/mu;-><init>()V
 
     .line 53
     .line 54
     .line 55
-    goto :goto_0
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->e()Landroid/content/Context;
 
     .line 56
-    :cond_0
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/jb7;->g(Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;)V
-
     .line 57
     .line 58
+    move-result-object v0
+
     .line 59
-    :goto_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
+    invoke-static {v0}, Lcom/huawei/appmarket/ob7;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ob7;
 
     .line 60
     .line 61
     .line 62
-    new-instance v0, Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 63
-    .line 64
-    const-string v1, "update ShaderConfig data: "
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->acquireDB()V
 
+    .line 64
     .line 65
     .line 66
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ob7;->a(Ljava/lang/String;)V
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v3}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
 
     .line 70
     .line 71
     .line 72
-    move-result-object v1
+    new-instance v0, Ljava/lang/StringBuilder;
 
     .line 73
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 74
+    const-string v3, "delete ShaderConfig data: "
+
     .line 75
     .line 76
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 77
     .line 78
     .line 79
-    move-result-object v0
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 80
-    invoke-static {v0}, Lcom/huawei/appmarket/ga1;->b(Ljava/lang/String;)V
-
     .line 81
     .line 82
-    .line 83
-    invoke-virtual {v2}, Lcom/huawei/appmarket/fa1;->a()V
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 83
     .line 84
     .line 85
+    move-result-object v0
+
     .line 86
-    return-void
+    invoke-static {v0}, Lcom/huawei/appmarket/ha1;->b(Ljava/lang/String;)V
 
     .line 87
-    :pswitch_0
-    check-cast v0, Ljava/lang/String;
-
     .line 88
     .line 89
-    check-cast v3, Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->a()V
 
     .line 90
     .line 91
-    new-instance v1, Ljava/io/File;
-
     .line 92
+    return-void
+
     .line 93
-    invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    :pswitch_2
+    check-cast v2, Ljava/lang/String;
 
     .line 94
     .line 95
-    .line 96
-    invoke-static {v1}, Lcom/huawei/appmarket/fk2;->d(Ljava/io/File;)Z
+    new-instance v0, Lcom/huawei/appmarket/mu;
 
+    .line 96
     .line 97
+    invoke-direct {v0}, Lcom/huawei/appmarket/mu;-><init>()V
+
     .line 98
     .line 99
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 100
-    .line 101
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->e()Landroid/content/Context;
 
+    .line 101
     .line 102
     .line 103
+    move-result-object v0
+
     .line 104
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/lu;->e(Landroid/content/Context;)Lcom/huawei/appmarket/lu;
 
     .line 105
     .line 106
     .line 107
-    sget-object v1, Ljava/io/File;->separator:Ljava/lang/String;
+    move-result-object v0
 
     .line 108
-    .line 109
-    const-string v3, "escape_version"
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->acquireDB()V
 
+    .line 109
     .line 110
     .line 111
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lu;->a(Ljava/lang/String;)V
 
     .line 112
     .line 113
     .line 114
-    move-result-object v0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
 
     .line 115
-    new-instance v1, Lcom/huawei/appmarket/ia1;
-
     .line 116
     .line 117
-    invoke-direct {v1}, Lcom/huawei/appmarket/ia1;-><init>()V
+    new-instance v0, Ljava/lang/StringBuilder;
 
     .line 118
     .line 119
-    .line 120
-    invoke-static {v1}, Lcom/huawei/android/app/PackageManagerEx;->startBackupSession(Landroid/os/IBackupSessionCallback;)I
+    const-string v3, "delete AppShader data: "
 
+    .line 120
     .line 121
+    invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 122
     .line 123
-    move-result v1
-
     .line 124
-    new-instance v3, Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 125
     .line 126
-    const-string v4, "remove file "
-
     .line 127
-    .line 128
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 128
     .line 129
     .line 130
+    move-result-object v0
+
     .line 131
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/ha1;->b(Ljava/lang/String;)V
 
     .line 132
     .line 133
     .line 134
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->a()V
 
     .line 135
     .line 136
     .line 137
-    move-result-object v0
+    return-void
 
     .line 138
-    invoke-static {v1, v0}, Lcom/huawei/android/app/PackageManagerEx;->executeBackupTask(ILjava/lang/String;)I
+    :pswitch_3
+    check-cast v2, Ljava/lang/String;
 
     .line 139
     .line 140
-    .line 141
-    invoke-virtual {v2}, Lcom/huawei/appmarket/fa1;->c()V
+    new-instance v0, Ljava/io/File;
 
+    .line 141
     .line 142
+    invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
     .line 143
     .line 144
-    return-void
-
     .line 145
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
+    invoke-static {v0}, Lcom/huawei/appmarket/hk2;->d(Ljava/io/File;)Z
+
     .line 146
     .line 147
     .line 148
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 149
     .line 150
     .line 151
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ga1;->a()V
+
     .line 152
     .line 153
     .line 154
+    return-void
+
     .line 155
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
     .line 156
     .line 157
     .line 158
@@ -791,13 +789,4 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method

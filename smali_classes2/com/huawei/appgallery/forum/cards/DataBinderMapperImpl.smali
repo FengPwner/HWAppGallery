@@ -128,11 +128,11 @@
 
     .line 26
     .line 27
-    new-instance p3, Lcom/huawei/appmarket/ic4;
+    new-instance p3, Lcom/huawei/appmarket/kc4;
 
     .line 28
     .line 29
-    invoke-direct {p3, p1, p2}, Lcom/huawei/appmarket/ic4;-><init>(Lcom/huawei/appmarket/b81;Landroid/view/View;)V
+    invoke-direct {p3, p1, p2}, Lcom/huawei/appmarket/kc4;-><init>(Lcom/huawei/appmarket/b81;Landroid/view/View;)V
 
     .line 30
     .line 31
@@ -149,7 +149,7 @@
 
     .line 36
     .line 37
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 38
     .line 39

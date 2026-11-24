@@ -12,11 +12,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/externalapi/actions/ViewAction;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/externalapi/actions/ViewAction;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -48,9 +48,9 @@
 .method public onAction()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -86,20 +86,20 @@
 
     const-string v2, "details"
 
-    invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/appmarket/service/externalapi/actions/ViewAction;->getViewActionJumper(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/x54;
+    invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/appmarket/service/externalapi/actions/ViewAction;->getViewActionJumper(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/a64;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/x54;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/a64;->b()V
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method
@@ -107,9 +107,9 @@
 .method public preAction()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->k()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->k()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -117,13 +117,13 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/sn0;
+    new-instance v1, Lcom/huawei/appmarket/tn0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/sn0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tn0;-><init>()V
 
     const-string v2, "SHOW_APP_INFO"
 
-    iput-object v2, v1, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iput-object v2, v1, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -131,20 +131,20 @@
 
     if-nez v2, :cond_0
 
-    iput-object v0, v1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iput-object v0, v1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/huawei/appmarket/sn0;->f:Ljava/lang/String;
+    iput-object v0, v1, Lcom/huawei/appmarket/tn0;->f:Ljava/lang/String;
 
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/mk3;->c(Lcom/huawei/appmarket/sn0;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ok3;->c(Lcom/huawei/appmarket/tn0;)V
 
-    iget-object v0, v1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iget-object v0, v1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
-    iget-object v1, v1, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iget-object v1, v1, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
     const-string v2, "4"
 
-    invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/appmarket/np3;->reportActionType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/appmarket/pp3;->reportActionType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

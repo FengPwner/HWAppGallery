@@ -1,87 +1,80 @@
 .class final Lcom/huawei/appmarket/bl4;
-.super Lcom/huawei/appmarket/g88;
+.super Lcom/huawei/appmarket/v3;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<T:",
+        "Lcom/huawei/appmarket/v3<",
         "Ljava/lang/Object;",
-        ">",
-        "Lcom/huawei/appmarket/g88<",
-        "TT;>;"
+        ">;"
     }
 .end annotation
 
 
 # instance fields
-.field private final b:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-.end field
+.field final synthetic d:Ljava/util/Iterator;
 
-.field private c:Z
+.field final synthetic e:Lcom/huawei/appmarket/k56;
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/Object;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
+.method constructor <init>(Ljava/util/Iterator;Lcom/huawei/appmarket/k56;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/g88;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/bl4;->d:Ljava/util/Iterator;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/bl4;->b:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/huawei/appmarket/bl4;->e:Lcom/huawei/appmarket/k56;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/v3;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final hasNext()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/bl4;->c:Z
-
-    xor-int/lit8 v0, v0, 0x1
-
-    return v0
-.end method
-
-.method public final next()Ljava/lang/Object;
-    .registers 2
+.method protected final b()Ljava/lang/Object;
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()TT;"
+            "()",
+            "Ljava/lang/Object;"
         }
     .end annotation
 
+    .annotation runtime Ljavax/annotation/CheckForNull;
+    .end annotation
+
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/bl4;->c:Z
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/bl4;->d:Ljava/util/Iterator;
 
-    if-nez v0, :cond_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    const/4 v0, 0x1
+    move-result v1
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/bl4;->c:Z
+    if-eqz v1, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/bl4;->b:Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/huawei/appmarket/bl4;->e:Lcom/huawei/appmarket/k56;
+
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/k56;->apply(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
 
     return-object v0
 
-    :cond_0
-    new-instance v0, Ljava/util/NoSuchElementException;
+    :cond_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/v3;->c()V
 
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+    const/4 v0, 0x0
 
-    throw v0
+    return-object v0
 .end method

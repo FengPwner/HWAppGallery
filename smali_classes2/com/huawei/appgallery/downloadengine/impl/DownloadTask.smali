@@ -5,183 +5,183 @@
 
 # instance fields
 .field private appID_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private b:I
 
 .field private backupFileSize_:J
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private backupUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private c:Ljava/util/concurrent/CopyOnWriteArrayList;
 
 .field private detailID_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private diffSha2_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private dlPolicy_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private dlType_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private downloadRate_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private fileSize_:J
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private filepath_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private iconUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private id_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private installType_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private interruptReason_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private name_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private packageName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private progress_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private reportDownloadStartStatus_:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private sha256_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private sliceCheckDataStringSha256_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private status_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private trace_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private url_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionCode_:I
-    .annotation runtime Lcom/huawei/appmarket/s02;
+    .annotation runtime Lcom/huawei/appmarket/w02;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 

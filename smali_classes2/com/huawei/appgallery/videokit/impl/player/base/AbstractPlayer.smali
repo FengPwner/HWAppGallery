@@ -37,7 +37,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;->Companion:Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer$Companion;
 
@@ -126,7 +126,7 @@
 
     const-string v0, "playerEventListener"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;->mPlayerEventListener:Lcom/huawei/appgallery/videokit/impl/player/base/PlayerEventListener;
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i04;
+.implements Lcom/huawei/appmarket/k04;
 
 
 # annotations
@@ -61,9 +61,9 @@
 
     const-string v1, "ForumSectionEnterCard"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/k66;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/m66;->b()Ljava/lang/String;
 
     move-result-object v5
 
@@ -75,7 +75,7 @@
 
     const-string p1, "cannot find gameBoxPackageName"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -115,7 +115,7 @@
     goto/16 :goto_5
 
     :pswitch_0
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_install_result"
 
@@ -133,12 +133,12 @@
     const/4 v3, 0x0
 
     :goto_1
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/kk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/jk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_5
 
     :pswitch_1
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_result"
 
@@ -155,7 +155,7 @@
     goto :goto_5
 
     :pswitch_3
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_install_result"
 
@@ -171,7 +171,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/kk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/jk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;->x1(Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;)Landroid/content/Context;
 
@@ -180,7 +180,7 @@
     goto :goto_2
 
     :pswitch_4
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_result"
 
@@ -196,7 +196,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/kk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/jk;->f(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;->v1(Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;)Landroid/content/Context;
 
@@ -205,14 +205,14 @@
     goto :goto_2
 
     :cond_1
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm_install"
 
     goto :goto_0
 
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object p1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;->u1(Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;)Lcom/huawei/appgallery/forum/section/bean/ForumSectionEnterCardBean;
 
@@ -225,19 +225,19 @@
     const-string v1, "action_restore_start_install"
 
     :goto_3
-    invoke-virtual {p1, v1, v5, v0, v2}, Lcom/huawei/appmarket/kk;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v5, v0, v2}, Lcom/huawei/appmarket/jk;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
     :cond_3
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm"
 
     goto :goto_0
 
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object p1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;->u1(Lcom/huawei/appgallery/forum/section/card/ForumSectionEnterCard;)Lcom/huawei/appgallery/forum/section/bean/ForumSectionEnterCardBean;
 
@@ -252,7 +252,7 @@
     goto :goto_3
 
     :cond_5
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm_install"
 
@@ -272,7 +272,7 @@
     goto :goto_1
 
     :cond_6
-    sget-object v2, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v2, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     const-string v4, "action_restore_confirm"
 

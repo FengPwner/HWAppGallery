@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method public a(FFLcom/huawei/appmarket/ac7;)V
+.method public a(FFLcom/huawei/appmarket/fc7;)V
     .registers 4
 
     .line 1

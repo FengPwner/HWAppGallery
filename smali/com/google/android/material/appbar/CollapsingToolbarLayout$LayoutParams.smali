@@ -68,7 +68,7 @@
 
     iput v1, p0, Lcom/google/android/material/appbar/CollapsingToolbarLayout$LayoutParams;->b:F
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->o:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->o:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

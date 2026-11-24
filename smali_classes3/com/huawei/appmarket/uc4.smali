@@ -4,11 +4,11 @@
 
 
 # static fields
-.field private static final A:Landroid/util/SparseIntArray;
+.field private static final z:Landroid/util/SparseIntArray;
 
 
 # instance fields
-.field private z:J
+.field private y:J
 
 
 # direct methods
@@ -20,29 +20,23 @@
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/uc4;->A:Landroid/util/SparseIntArray;
+    sput-object v0, Lcom/huawei/appmarket/uc4;->z:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0319
+    const v1, 0x7f0a17f9
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a1711
+    const v1, 0x7f0a1217
 
     const/4 v2, 0x2
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a15ea
+    const v1, 0x7f0a17ee
 
     const/4 v2, 0x3
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    const v1, 0x7f0a0d61
-
-    const/4 v2, 0x4
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -53,9 +47,9 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/uc4;->A:Landroid/util/SparseIntArray;
+    sget-object v0, Lcom/huawei/appmarket/uc4;->z:Landroid/util/SparseIntArray;
 
-    const/4 v1, 0x5
+    const/4 v1, 0x4
 
     const/4 v2, 0x0
 
@@ -69,19 +63,19 @@
 .end method
 
 .method private constructor <init>(Lcom/huawei/appmarket/b81;Landroid/view/View;[Ljava/lang/Object;)V
-    .registers 12
+    .registers 11
 
     const/4 v3, 0x0
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     aget-object v0, p3, v0
 
     move-object v4, v0
 
-    check-cast v4, Landroid/widget/ImageView;
+    check-cast v4, Lcom/huawei/appmarket/framework/widget/PromotionSignTextView;
 
-    const/4 v0, 0x4
+    const/4 v0, 0x3
 
     aget-object v0, p3, v0
 
@@ -89,21 +83,13 @@
 
     check-cast v5, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
-    const/4 v0, 0x3
+    const/4 v0, 0x1
 
     aget-object v0, p3, v0
 
     move-object v6, v0
 
-    check-cast v6, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
-
-    const/4 v0, 0x2
-
-    aget-object v0, p3, v0
-
-    move-object v7, v0
-
-    check-cast v7, Landroid/widget/ImageView;
+    check-cast v6, Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     move-object v0, p0
 
@@ -111,11 +97,11 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v7}, Lcom/huawei/appmarket/tc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/ImageView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Landroid/widget/ImageView;)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/tc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILcom/huawei/appmarket/framework/widget/PromotionSignTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
 
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->z:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->y:J
 
     const/4 p1, 0x0
 
@@ -167,7 +153,7 @@
     const-wide/16 v0, 0x0
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->z:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->y:J
 
     monitor-exit p0
 
@@ -190,7 +176,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-wide v0, p0, Lcom/huawei/appmarket/uc4;->z:J
+    iget-wide v0, p0, Lcom/huawei/appmarket/uc4;->y:J
 
     const-wide/16 v2, 0x0
 
@@ -233,7 +219,7 @@
     const-wide/16 v0, 0x1
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->z:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/uc4;->y:J
 
     monitor-exit p0
     :try_end_0

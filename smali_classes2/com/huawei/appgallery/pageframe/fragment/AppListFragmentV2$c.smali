@@ -71,7 +71,7 @@
 
     .line 12
     .line 13
-    if-eqz p1, :cond_b
+    if-eqz p1, :cond_e
 
     .line 14
     .line 15
@@ -83,15 +83,15 @@
     move-result v1
 
     .line 19
-    if-nez v1, :cond_b
+    if-nez v1, :cond_e
 
     .line 20
     .line 21
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_e
 
     .line 22
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -123,7 +123,7 @@
 
     .line 38
     .line 39
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 40
     .line 41
@@ -132,7 +132,7 @@
     .line 42
     .line 43
     :goto_0
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -181,7 +181,7 @@
 
     .line 65
     .line 66
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 67
     .line 68
@@ -203,17 +203,17 @@
     .line 75
     .line 76
     :goto_1
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->j6()V
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->k6()V
 
     .line 77
     .line 78
     .line 79
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->h6()V
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->i6()V
 
     .line 80
     .line 81
     .line 82
-    goto/16 :goto_3
+    goto/16 :goto_6
 
     .line 83
     .line 84
@@ -242,15 +242,15 @@
     move-result p1
 
     .line 96
-    if-nez p1, :cond_b
+    if-nez p1, :cond_e
 
     .line 97
     .line 98
-    iget-boolean p1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K1:Z
+    iget-boolean p1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->v1:Z
 
     .line 99
     .line 100
-    if-eqz p1, :cond_b
+    if-eqz p1, :cond_e
 
     .line 101
     .line 102
@@ -262,11 +262,11 @@
     move-result p1
 
     .line 106
-    if-nez p1, :cond_b
+    if-nez p1, :cond_e
 
     .line 107
     .line 108
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 109
     .line 110
@@ -281,12 +281,12 @@
     const/4 v0, 0x1
 
     .line 115
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 116
     .line 117
     .line 118
-    goto/16 :goto_3
+    goto/16 :goto_6
 
     .line 119
     .line 120
@@ -334,7 +334,7 @@
 
     .line 140
     .line 141
-    iget-boolean p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K1:Z
+    iget-boolean p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->v1:Z
 
     .line 142
     .line 143
@@ -342,7 +342,7 @@
 
     .line 144
     .line 145
-    iget-boolean p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L1:Z
+    iget-boolean p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->x1:Z
 
     .line 146
     .line 147
@@ -350,12 +350,12 @@
 
     .line 148
     .line 149
-    invoke-static {}, Lcom/huawei/appmarket/d08;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/i08;->c()V
 
     .line 150
     .line 151
     .line 152
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 153
     .line 154
@@ -363,17 +363,17 @@
     move-result-object p1
 
     .line 156
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 157
     .line 158
     .line 159
-    goto/16 :goto_3
+    goto/16 :goto_6
 
     .line 160
     .line 161
     :cond_5
-    sget-object p2, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p2, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 162
     .line 163
@@ -385,7 +385,7 @@
 
     .line 166
     .line 167
-    invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 168
     .line 169
@@ -393,7 +393,7 @@
     move-result-object p1
 
     .line 171
-    iget-boolean v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K1:Z
+    iget-boolean v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->v1:Z
 
     .line 172
     .line 173
@@ -411,7 +411,7 @@
     .line 179
     .line 180
     .line 181
-    iget-boolean v0, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->L1:Z
+    iget-boolean v0, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->x1:Z
 
     .line 182
     .line 183
@@ -428,12 +428,12 @@
     move-result-object p1
 
     .line 190
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 191
     .line 192
     .line 193
-    goto/16 :goto_3
+    goto/16 :goto_6
 
     .line 194
     .line 195
@@ -504,7 +504,7 @@
     move-result v1
 
     .line 228
-    if-eqz v1, :cond_a
+    if-eqz v1, :cond_d
 
     .line 229
     .line 230
@@ -520,7 +520,7 @@
     move-result-object p1
 
     .line 236
-    if-eqz p1, :cond_b
+    if-eqz p1, :cond_e
 
     .line 237
     .line 238
@@ -528,7 +528,7 @@
 
     .line 239
     .line 240
-    iget-object p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->H1:Ljava/util/ArrayList;
+    iget-object p2, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->o1:Ljava/util/ArrayList;
 
     .line 241
     .line 242
@@ -536,212 +536,260 @@
 
     .line 243
     .line 244
-    goto :goto_3
+    goto/16 :goto_6
 
     .line 245
+    .line 246
     :cond_8
+    const/4 v1, 0x0
+
+    .line 247
     :goto_2
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
-    .line 246
-    .line 247
     .line 248
-    move-result v1
-
     .line 249
-    if-ge v3, v1, :cond_b
-
     .line 250
+    move-result v2
+
     .line 251
-    invoke-virtual {p2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    if-ge v1, v2, :cond_a
 
     .line 252
     .line 253
+    invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
     .line 254
-    move-result-object v1
-
     .line 255
-    check-cast v1, Lcom/huawei/appmarket/fu7;
-
     .line 256
+    move-result-object v2
+
     .line 257
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    check-cast v2, Lcom/huawei/appmarket/lu7;
 
     .line 258
     .line 259
+    invoke-virtual {v2}, Lcom/huawei/appmarket/lu7;->A()Ljava/lang/String;
+
     .line 260
-    move-result-object v1
-
     .line 261
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 262
+    move-result-object v2
+
     .line 263
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 264
-    move-result v1
-
     .line 265
-    if-eqz v1, :cond_9
-
     .line 266
+    move-result v2
+
     .line 267
-    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->W0:Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;
+    if-eqz v2, :cond_9
 
     .line 268
     .line 269
-    if-eqz v1, :cond_9
+    goto :goto_3
 
     .line 270
-    .line 271
-    invoke-virtual {v1}, Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;->getCurrentItem()I
+    :cond_9
+    add-int/lit8 v1, v1, 0x1
 
+    .line 271
     .line 272
+    goto :goto_2
+
     .line 273
+    :cond_a
+    const/4 v1, -0x1
+
     .line 274
-    move-result v1
+    :goto_3
+    if-gez v1, :cond_c
 
     .line 275
-    if-eq v1, v3, :cond_9
-
     .line 276
-    .line 277
-    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->V0:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
+    :goto_4
+    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
+    .line 277
     .line 278
     .line 279
-    if-eqz v1, :cond_9
+    move-result v2
 
     .line 280
-    .line 281
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->k5()V
+    if-ge v3, v2, :cond_c
 
+    .line 281
     .line 282
+    invoke-virtual {p2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
     .line 283
     .line 284
-    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->V0:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
-
     .line 285
+    move-result-object v2
+
     .line 286
-    invoke-virtual {v1, v3}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;->setSubTabSelected(I)V
+    check-cast v2, Lcom/huawei/appmarket/lu7;
 
     .line 287
     .line 288
-    .line 289
-    :cond_9
-    add-int/lit8 v3, v3, 0x1
+    invoke-virtual {v2}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
+    .line 289
     .line 290
     .line 291
-    goto :goto_2
+    move-result-object v2
 
     .line 292
-    :cond_a
-    sget-object p2, Lcom/huawei/appmarket/e11;->e:Ljava/lang/String;
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 293
     .line 294
-    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 295
-    .line 296
-    .line 297
-    move-result p1
+    move-result v2
 
+    .line 296
+    if-eqz v2, :cond_b
+
+    .line 297
     .line 298
-    if-eqz p1, :cond_b
+    move v1, v3
 
     .line 299
+    goto :goto_5
+
     .line 300
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    :cond_b
+    add-int/lit8 v3, v3, 0x1
 
     .line 301
     .line 302
+    goto :goto_4
+
     .line 303
-    move-result-object p1
+    :cond_c
+    :goto_5
+    if-ltz v1, :cond_e
 
     .line 304
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
     .line 305
+    iget-object p1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->W0:Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;
+
     .line 306
     .line 307
-    move-result-object p2
+    if-eqz p1, :cond_e
 
     .line 308
-    if-ne p1, p2, :cond_b
-
     .line 309
-    .line 310
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    invoke-virtual {p1}, Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;->getCurrentItem()I
 
+    .line 310
     .line 311
     .line 312
-    const-string p2, "refresh by REFRESH_FIRST_PAGE_ACTION"
+    move-result p1
 
     .line 313
-    .line 314
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    if-eq p1, v1, :cond_e
 
+    .line 314
     .line 315
+    iget-object p1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->V0:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
+
     .line 316
     .line 317
-    invoke-static {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->x5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;)V
+    if-eqz p1, :cond_e
 
     .line 318
     .line 319
-    .line 320
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->k5()V
 
+    .line 320
     .line 321
     .line 322
-    .line 323
-    move-result-wide p1
+    iget-object p1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->V0:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
 
+    .line 323
     .line 324
-    invoke-static {v0, p1, p2}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->y5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;J)V
+    invoke-virtual {p1, v1}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;->setSubTabSelected(I)V
 
     .line 325
     .line 326
     .line 327
-    :cond_b
-    :goto_3
-    return-void
+    goto :goto_6
+
     .line 328
+    :cond_d
+    sget-object p2, Lcom/huawei/appmarket/e11;->e:Ljava/lang/String;
+
     .line 329
     .line 330
+    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 331
     .line 332
     .line 333
+    move-result p1
+
     .line 334
+    if-eqz p1, :cond_e
+
     .line 335
     .line 336
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
     .line 337
     .line 338
     .line 339
+    move-result-object p1
+
     .line 340
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
     .line 341
     .line 342
     .line 343
+    move-result-object p2
+
     .line 344
+    if-ne p1, p2, :cond_e
+
     .line 345
     .line 346
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
+
     .line 347
     .line 348
+    const-string p2, "refresh by REFRESH_FIRST_PAGE_ACTION"
+
     .line 349
     .line 350
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 351
     .line 352
     .line 353
+    invoke-static {v0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->x5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;)V
+
     .line 354
     .line 355
     .line 356
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
     .line 357
     .line 358
     .line 359
+    move-result-wide p1
+
     .line 360
+    invoke-static {v0, p1, p2}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->y5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;J)V
+
     .line 361
     .line 362
     .line 363
+    :cond_e
+    :goto_6
+    return-void
     .line 364
     .line 365
     .line 366
@@ -963,11 +1011,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

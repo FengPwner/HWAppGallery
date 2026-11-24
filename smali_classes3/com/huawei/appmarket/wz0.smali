@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method protected final a(Lcom/huawei/appmarket/ou3;)V
+.method protected final a(Lcom/huawei/appmarket/qu3;)V
     .registers 3
 
     .line 1
@@ -49,20 +49,20 @@
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/o0;->b:Lcom/huawei/appmarket/lr0;
+    iget-object v0, p0, Lcom/huawei/appmarket/o0;->b:Lcom/huawei/appmarket/mr0;
 
     .line 9
     .line 10
-    iget-object v0, v0, Lcom/huawei/appmarket/lr0;->a:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/mr0;->a:Ljava/lang/String;
 
     .line 11
     .line 12
-    invoke-static {v0}, Lcom/huawei/appmarket/pp6;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sp6;->a(Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/d52;->c()Lcom/huawei/appmarket/d52;
+    invoke-static {}, Lcom/huawei/appmarket/h52;->c()Lcom/huawei/appmarket/h52;
 
     .line 16
     .line 17
@@ -70,7 +70,7 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d52;->b()Ljava/util/HashSet;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/h52;->b()Ljava/util/HashSet;
 
     .line 20
     .line 21
@@ -86,7 +86,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/p0;->b(Lcom/huawei/appmarket/ou3;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/p0;->b(Lcom/huawei/appmarket/qu3;)V
 
     .line 28
     .line 29
@@ -176,5 +176,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

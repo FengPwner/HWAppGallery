@@ -76,13 +76,13 @@
 
     move-result-object v1
 
-    const-string v2, "widthMeasureSpec"
+    const-string/jumbo v2, "widthMeasureSpec"
 
     invoke-static {v2, v1}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/phoneservice/feedback/widget/SubmitButton;->b:Landroid/content/Context;
 
-    const-string v3, "window"
+    const-string/jumbo v3, "window"
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 

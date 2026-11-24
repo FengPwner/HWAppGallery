@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "comment.detail.inner.fragment"
     protocol = Lcom/huawei/appgallery/forum/comments/api/ICommentDetailProtocol;
 .end annotation
@@ -110,7 +110,7 @@
 
     const-string v1, "setSelectionScroll exception"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -153,11 +153,11 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -201,11 +201,11 @@
 
     .line 24
     .line 25
-    sget-object v1, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v1, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 26
     .line 27
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 28
     .line 29
@@ -213,7 +213,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->a()I
 
     .line 32
     .line 33
@@ -226,7 +226,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->b()I
 
     .line 39
     .line 40
@@ -258,7 +258,7 @@
     .line 53
     .line 54
     .line 55
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 56
     .line 57
@@ -267,7 +267,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 61
     .line 62
@@ -275,7 +275,7 @@
     move-result-object v0
 
     .line 64
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->b()I
 
     .line 65
     .line 66
@@ -337,7 +337,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;

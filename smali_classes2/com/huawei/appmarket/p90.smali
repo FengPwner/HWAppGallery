@@ -75,9 +75,9 @@
     :cond_4
     if-eqz p1, :cond_5
 
-    new-instance p0, Lcom/huawei/appmarket/up5;
+    new-instance p0, Lcom/huawei/appmarket/vp5;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/up5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/vp5;-><init>()V
 
     return-object p0
 

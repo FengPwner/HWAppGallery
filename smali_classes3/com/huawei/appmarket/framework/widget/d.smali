@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/framework/widget/FixedSearchView;->e(Lcom/huawei/appmarket/framework/widget/FixedSearchView;)V
 
@@ -105,7 +105,7 @@
 
     move-result-object p1
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

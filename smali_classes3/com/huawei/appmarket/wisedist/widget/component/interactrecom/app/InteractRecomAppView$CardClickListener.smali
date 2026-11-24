@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ak0;
+.implements Lcom/huawei/appmarket/bk0;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     move-result-object v1
 
@@ -56,7 +56,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$CardClickListener;->b:Landroid/content/Context;
 
-    invoke-static {p1, v1, v0, p2}, Lcom/huawei/appmarket/yj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
+    invoke-static {p1, v1, v0, p2}, Lcom/huawei/appmarket/zj0;->b(ILandroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
 
     :cond_0
     return-void

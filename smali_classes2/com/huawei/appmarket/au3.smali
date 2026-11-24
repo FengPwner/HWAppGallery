@@ -4,20 +4,20 @@
 
 
 # virtual methods
-.method public abstract getIntentByPackage(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
+.method public abstract i()V
 .end method
 
-.method public abstract getLaunchResult()I
+.method public abstract j(Ljava/lang/String;)Ljava/lang/String;
 .end method
 
-.method public abstract interceptorResult(Ljava/lang/String;Landroid/content/Context;)V
+.method public abstract n()Z
 .end method
 
-.method public abstract launchByAppInfo(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;Lcom/huawei/appmarket/kr;)Z
+.method public abstract v(Ljava/lang/String;)Ljava/lang/String;
 .end method
 
-.method public abstract launchByPackage(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;Ljava/lang/String;)Z
+.method public abstract w(ILjava/lang/String;)V
 .end method
 
-.method public abstract setLaunchResult(I)V
+.method public abstract x()Ljava/lang/String;
 .end method

@@ -23,7 +23,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/us4$b;->values()[Lcom/huawei/appmarket/us4$b;
+    invoke-static {}, Lcom/huawei/appmarket/xs4$b;->values()[Lcom/huawei/appmarket/xs4$b;
 
     move-result-object v0
 
@@ -34,7 +34,7 @@
     sput-object v0, Lcom/huawei/appmarket/bz0$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/us4$b;->c:Lcom/huawei/appmarket/us4$b;
+    sget-object v1, Lcom/huawei/appmarket/xs4$b;->c:Lcom/huawei/appmarket/xs4$b;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -50,7 +50,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/bz0$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/us4$b;->d:Lcom/huawei/appmarket/us4$b;
+    sget-object v1, Lcom/huawei/appmarket/xs4$b;->d:Lcom/huawei/appmarket/xs4$b;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

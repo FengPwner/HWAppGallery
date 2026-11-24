@@ -168,7 +168,7 @@
     const-string v0, "failed to delete file: "
 
     .line 3
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ej2;->k(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/kb1;->i(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -186,7 +186,7 @@
     const-string v1, "not a readable directory: "
 
     .line 5
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/ej2;->k(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/kb1;->i(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
 

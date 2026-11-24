@@ -38,12 +38,12 @@
 
 
 # virtual methods
-.method protected a(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
+.method protected a(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
@@ -106,7 +106,7 @@
 
     invoke-virtual {v0, p2}, Lcom/huawei/hms/iap/entity/IsEnvReadyResult;->setCarrierId(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method

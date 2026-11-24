@@ -35,11 +35,11 @@
 .method public static toTimeZone(Ljava/util/TimeZone;)Ljava/util/TimeZone;
     .registers 3
 
-    new-instance v0, Lcom/huawei/appmarket/b22;
+    new-instance v0, Lcom/huawei/appmarket/f22;
 
     const/4 v1, 0x6
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/b22;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/f22;-><init>(I)V
 
     invoke-static {p0, v0}, Lorg/apache/commons/lang3/ObjectUtils;->getIfNull(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;
 

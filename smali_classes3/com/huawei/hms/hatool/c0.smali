@@ -81,7 +81,7 @@
     return v0
 
     :cond_1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/jm7;->d(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/pm7;->d(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p0
 
@@ -132,7 +132,7 @@
     const-string v2, "../shared_prefs/"
 
     .line 3
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -174,7 +174,7 @@
     const-string v1, "../../shared_prefs/"
 
     .line 5
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

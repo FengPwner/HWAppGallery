@@ -30,7 +30,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -48,13 +48,13 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->s()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->s()V
 
     .line 7
     .line 8
     .line 9
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->D()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->D()Z
 
     .line 10
     .line 11
@@ -70,7 +70,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -107,7 +107,7 @@
 
     .line 35
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->w()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->w()V
 
     .line 36
     .line 37
@@ -202,7 +202,7 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -215,7 +215,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->t()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->t()V
 
     .line 4
     .line 5
@@ -256,7 +256,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v3, p1, v2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v3, p1, v2}, Lcom/google/gson/TypeAdapter;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
 
     .line 24
     .line 25
@@ -269,7 +269,7 @@
 
     .line 29
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->w()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->w()V
 
     .line 30
     .line 31

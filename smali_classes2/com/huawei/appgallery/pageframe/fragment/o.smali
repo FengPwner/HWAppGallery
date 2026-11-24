@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -208,7 +207,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {v1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->p6(Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;)V
+    invoke-static {v1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->q6(Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;)V
 
     .line 9
     .line 10
@@ -221,7 +220,7 @@
 
     .line 13
     .line 14
-    iget-object v0, v1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v0, v1, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     .line 15
     .line 16
@@ -229,7 +228,7 @@
 
     .line 17
     .line 18
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 19
     .line 20
@@ -241,7 +240,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26

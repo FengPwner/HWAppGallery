@@ -32,7 +32,14 @@
 
 
 # virtual methods
-.method public final a()Ljava/util/List;
+.method public final g(Lcom/caverock/androidsvg/g$n0;)V
+    .registers 2
+
+    .line 1
+    return-void
+.end method
+
+.method public final getChildren()Ljava/util/List;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -51,14 +57,7 @@
     return-object v0
 .end method
 
-.method public final h(Lcom/caverock/androidsvg/g$n0;)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method final o()Ljava/lang/String;
+.method final n()Ljava/lang/String;
     .registers 2
 
     .line 1

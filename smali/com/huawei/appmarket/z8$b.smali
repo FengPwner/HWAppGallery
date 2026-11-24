@@ -26,7 +26,7 @@
     .end annotation
 .end field
 
-.field public final e:[Lcom/huawei/appmarket/n55;
+.field public final e:[Lcom/huawei/appmarket/q55;
 
 .field public final f:[I
 
@@ -44,39 +44,39 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x2
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x3
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x5
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x6
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/4 v0, 0x7
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     const/16 v0, 0x8
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->L(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->L(I)V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
 
     new-array v5, v0, [I
 
-    new-array v6, v0, [Lcom/huawei/appmarket/n55;
+    new-array v6, v0, [Lcom/huawei/appmarket/q55;
 
     new-array v7, v0, [J
 
@@ -105,12 +105,12 @@
 
     move-wide v1, p1
 
-    invoke-direct/range {v0 .. v10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/n55;[JJZ)V
+    invoke-direct/range {v0 .. v10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/q55;[JJZ)V
 
     return-void
 .end method
 
-.method private constructor <init>(JII[I[Lcom/huawei/appmarket/n55;[JJZ)V
+.method private constructor <init>(JII[I[Lcom/huawei/appmarket/q55;[JJZ)V
     .registers 14
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -131,7 +131,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     iput-wide p1, p0, Lcom/huawei/appmarket/z8$b;->a:J
 
@@ -141,7 +141,7 @@
 
     iput-object p5, p0, Lcom/huawei/appmarket/z8$b;->f:[I
 
-    iput-object p6, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/n55;
+    iput-object p6, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/q55;
 
     iput-object p7, p0, Lcom/huawei/appmarket/z8$b;->g:[J
 
@@ -171,13 +171,13 @@
     goto :goto_2
 
     :cond_1
-    iget-object p2, p2, Lcom/huawei/appmarket/n55;->b:Lcom/huawei/appmarket/n55$h;
+    iget-object p2, p2, Lcom/huawei/appmarket/q55;->b:Lcom/huawei/appmarket/q55$h;
 
     .line 2
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 3
-    iget-object p2, p2, Lcom/huawei/appmarket/n55$h;->a:Landroid/net/Uri;
+    iget-object p2, p2, Lcom/huawei/appmarket/q55$h;->a:Landroid/net/Uri;
 
     :goto_2
     aput-object p2, p1, v2
@@ -190,11 +190,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(JII[I[Lcom/huawei/appmarket/n55;[JJZLcom/huawei/appmarket/z8$a;)V
+.method synthetic constructor <init>(JII[I[Lcom/huawei/appmarket/q55;[JJZLcom/huawei/appmarket/z8$a;)V
     .registers 12
 
     .line 4
-    invoke-direct/range {p0 .. p10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/n55;[JJZ)V
+    invoke-direct/range {p0 .. p10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/q55;[JJZ)V
 
     return-void
 .end method
@@ -311,7 +311,7 @@
     .line 34
     .line 35
     .line 36
-    iget-object v0, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/n55;
+    iget-object v0, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/q55;
 
     .line 37
     .line 38
@@ -326,7 +326,7 @@
     move-object v6, v0
 
     .line 43
-    check-cast v6, [Lcom/huawei/appmarket/n55;
+    check-cast v6, [Lcom/huawei/appmarket/q55;
 
     .line 44
     .line 45
@@ -353,7 +353,7 @@
     move-object v0, v11
 
     .line 56
-    invoke-direct/range {v0 .. v10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/n55;[JJZ)V
+    invoke-direct/range {v0 .. v10}, Lcom/huawei/appmarket/z8$b;-><init>(JII[I[Lcom/huawei/appmarket/q55;[JJZ)V
 
     .line 57
     .line 58
@@ -435,6 +435,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -485,9 +486,9 @@
 
     if-ne v2, v3, :cond_2
 
-    iget-object v2, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/n55;
+    iget-object v2, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/q55;
 
-    iget-object v3, p1, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/n55;
+    iget-object v3, p1, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/q55;
 
     invoke-static {v2, v3}, Ljava/util/Arrays;->equals([Ljava/lang/Object;[Ljava/lang/Object;)Z
 
@@ -570,7 +571,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v1, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/n55;
+    iget-object v1, p0, Lcom/huawei/appmarket/z8$b;->e:[Lcom/huawei/appmarket/q55;
 
     invoke-static {v1}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
 

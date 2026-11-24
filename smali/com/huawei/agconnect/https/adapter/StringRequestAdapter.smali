@@ -15,7 +15,7 @@
         "Ljava/lang/Object;",
         "Lcom/huawei/agconnect/https/Adapter<",
         "THttpsRequest;",
-        "Lcom/huawei/appmarket/lr6;",
+        "Lcom/huawei/appmarket/or6;",
         ">;"
     }
 .end annotation
@@ -145,19 +145,19 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+.method public a(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(THttpsRequest;)",
-            "Lcom/huawei/appmarket/lr6;"
+            "Lcom/huawei/appmarket/or6;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ao2$a;
+    new-instance v0, Lcom/huawei/appmarket/co2$a;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ao2$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/co2$a;-><init>()V
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -189,7 +189,7 @@
 
     if-eqz v6, :cond_1
 
-    invoke-virtual {p0, v5, v0, p1}, Lcom/huawei/agconnect/https/adapter/StringRequestAdapter;->a(Ljava/lang/reflect/Field;Lcom/huawei/appmarket/ao2$a;Ljava/lang/Object;)V
+    invoke-virtual {p0, v5, v0, p1}, Lcom/huawei/agconnect/https/adapter/StringRequestAdapter;->a(Ljava/lang/reflect/Field;Lcom/huawei/appmarket/co2$a;Ljava/lang/Object;)V
 
     :cond_1
     add-int/lit8 v4, v4, 0x1
@@ -205,7 +205,7 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ao2$a;->c()Lcom/huawei/appmarket/ao2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/co2$a;->c()Lcom/huawei/appmarket/co2;
 
     move-result-object p1
 
@@ -366,13 +366,13 @@
     return-object p1
 .end method
 
-.method public final a(Ljava/lang/reflect/Field;Lcom/huawei/appmarket/ao2$a;Ljava/lang/Object;)V
+.method public final a(Ljava/lang/reflect/Field;Lcom/huawei/appmarket/co2$a;Ljava/lang/Object;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/reflect/Field;",
-            "Lcom/huawei/appmarket/ao2$a;",
+            "Lcom/huawei/appmarket/co2$a;",
             "THttpsRequest;)V"
         }
     .end annotation
@@ -422,7 +422,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/ao2$a;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/co2$a;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -452,7 +452,7 @@
         }
     .end annotation
 
-    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/StringRequestAdapter;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/lr6;
+    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/StringRequestAdapter;->a(Ljava/lang/Object;)Lcom/huawei/appmarket/or6;
 
     move-result-object p1
 

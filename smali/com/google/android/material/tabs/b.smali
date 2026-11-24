@@ -40,14 +40,14 @@
 
     if-gez v1, :cond_1
 
-    invoke-static {p3, p2, p2, v0, p4}, Lcom/huawei/appmarket/mm;->b(FFFFF)F
+    invoke-static {p3, p2, p2, v0, p4}, Lcom/huawei/appmarket/lm;->b(FFFFF)F
 
     move-result p2
 
     goto :goto_1
 
     :cond_1
-    invoke-static {p2, p3, v0, p3, p4}, Lcom/huawei/appmarket/mm;->b(FFFFF)F
+    invoke-static {p2, p3, v0, p3, p4}, Lcom/huawei/appmarket/lm;->b(FFFFF)F
 
     move-result p2
 

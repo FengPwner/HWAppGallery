@@ -68,7 +68,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p1}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -167,7 +167,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final getName_()Ljava/lang/String;

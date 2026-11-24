@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s16;
+.implements Lcom/huawei/appmarket/u16;
 
 
 # annotations
@@ -28,5 +28,5 @@
 .method public abstract release()V
 .end method
 
-.method public abstract w(Lcom/huawei/appmarket/t57;)V
+.method public abstract w(Lcom/huawei/appmarket/y57;)V
 .end method

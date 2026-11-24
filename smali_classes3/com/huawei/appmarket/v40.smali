@@ -101,7 +101,7 @@
     .line 30
     .line 31
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -154,7 +154,7 @@
 
     .line 51
     .line 52
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -179,7 +179,7 @@
     move-result-object p0
 
     .line 65
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -257,7 +257,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static b()Ljava/lang/reflect/Field;
@@ -293,7 +292,7 @@
 
     const-string v1, "can not find hwFlags"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const/4 v0, 0x1
@@ -388,7 +387,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
@@ -429,7 +428,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
 
@@ -444,7 +443,7 @@
 
     const-string p1, "getVersionCode_(Context context, String packageName) "
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, -0x1
 
@@ -518,7 +517,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -561,7 +560,7 @@
     move-result-object p0
 
     .line 48
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -694,7 +693,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static f(Ljava/lang/String;)Z
@@ -711,22 +709,22 @@
 
     const-string v0, "package name is empty"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
     return p0
 
     :cond_0
-    const-class v0, Lcom/huawei/appmarket/xh3;
+    const-class v0, Lcom/huawei/appmarket/zh3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/xh3;
+    check-cast v0, Lcom/huawei/appmarket/zh3;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/xh3;->O0(Ljava/lang/String;)Z
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/zh3;->O0(Ljava/lang/String;)Z
 
     move-result p0
 

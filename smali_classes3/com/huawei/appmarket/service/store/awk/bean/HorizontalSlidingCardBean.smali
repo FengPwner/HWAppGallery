@@ -52,7 +52,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/HorizontalSlidingCardBean;->list_:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -89,7 +89,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/pn3;",
+            "Lcom/huawei/appmarket/rn3;",
             ">;"
         }
     .end annotation
@@ -120,7 +120,7 @@
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->i(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->i(Landroid/content/Context;)I
 
     .line 10
     .line 11
@@ -128,7 +128,7 @@
     move-result v0
 
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 14
     .line 15

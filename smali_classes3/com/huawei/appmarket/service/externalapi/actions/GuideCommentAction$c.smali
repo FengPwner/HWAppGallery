@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -89,7 +89,7 @@
     const-string p1, "DetailInfo is empty."
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;I)V
 
@@ -98,13 +98,13 @@
     :cond_0
     const-string p2, "DeviceInstallationInfos"
 
-    const-class v3, Lcom/huawei/appmarket/yh3;
+    const-class v3, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v3, p2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, p2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/yh3;
+    check-cast p2, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -118,7 +118,7 @@
 
     move-result-object v4
 
-    invoke-interface {p2, v3, v4}, Lcom/huawei/appmarket/yh3;->i(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-interface {p2, v3, v4}, Lcom/huawei/appmarket/ai3;->i(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p2
 
@@ -139,13 +139,13 @@
 
     const-string v0, "AppComment"
 
-    const-class v1, Lcom/huawei/appmarket/ny3;
+    const-class v1, Lcom/huawei/appmarket/py3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ny3;
+    check-cast v0, Lcom/huawei/appmarket/py3;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;->getId_()Ljava/lang/String;
 
@@ -155,7 +155,7 @@
 
     invoke-direct {v2, p0, p1, p2}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction$c$a;-><init>(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction$c;Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean$DetailInfoBean;Landroid/content/pm/PackageInfo;)V
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ny3;->a(Ljava/lang/String;Lcom/huawei/appmarket/id6;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/py3;->a(Ljava/lang/String;Lcom/huawei/appmarket/kd6;)V
 
     goto :goto_2
 
@@ -168,7 +168,7 @@
     :cond_3
     const-string p1, "ResponseBean error."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2, v1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;I)V
 

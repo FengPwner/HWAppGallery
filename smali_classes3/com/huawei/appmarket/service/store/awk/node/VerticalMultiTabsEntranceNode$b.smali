@@ -94,7 +94,7 @@
 
     .line 29
     .line 30
-    invoke-static {v3}, Lcom/huawei/appmarket/sz8;->Q([Ljava/lang/Enum;)Lcom/huawei/appmarket/q12;
+    invoke-static {v3}, Lcom/huawei/appmarket/yz8;->Q([Ljava/lang/Enum;)Lcom/huawei/appmarket/u12;
 
     .line 31
     .line 32

@@ -3,16 +3,6 @@
 .source "SourceFile"
 
 
-# static fields
-.field private static c:Lcom/huawei/appmarket/vl7;
-
-
-# instance fields
-.field private a:Ljava/lang/String;
-
-.field private b:Ljava/lang/String;
-
-
 # direct methods
 .method public constructor <init>()V
     .registers 1
@@ -22,144 +12,101 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/vl7;
-    .registers 1
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/vl7;->c:Lcom/huawei/appmarket/vl7;
-
-    if-nez v0, :cond_0
-
-    new-instance v0, Lcom/huawei/appmarket/vl7;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/vl7;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/vl7;->c:Lcom/huawei/appmarket/vl7;
-
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/vl7;->c:Lcom/huawei/appmarket/vl7;
-
-    return-object v0
-.end method
-
-
-# virtual methods
-.method public final b()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/vl7;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/vl7;->a:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final d(Ljava/lang/String;)Z
+.method public static a(Ljava/lang/String;Ljava/lang/String;)V
     .registers 3
 
     .line 1
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/vl7;->a:Ljava/lang/String;
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    return p1
-.end method
-
-.method public final e(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/vl7;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final f(Ljava/lang/String;)V
-    .registers 4
-
-    .line 1
-    const-string v0, "Tab info loaded. mFirstTabId="
+    sget v0, Lcom/huawei/appmarket/kz4;->l:I
 
     .line 2
     .line 3
-    const-string v1, "StartupDataSession"
+    sget-object v0, Lcom/huawei/appmarket/py4;->d:Lcom/huawei/appmarket/py4;
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/kz4;->a(Ljava/lang/String;Lcom/huawei/appmarket/py4;)Lcom/huawei/appmarket/kz4;
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, p0, Lcom/huawei/appmarket/vl7;->a:Ljava/lang/String;
+    move-result-object v0
 
     .line 9
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kz4;->h(Ljava/lang/Object;)V
+
     .line 10
-    return-void
     .line 11
     .line 12
+    invoke-static {}, Lcom/huawei/appmarket/ly4;->b()Z
+
     .line 13
     .line 14
     .line 15
+    move-result p1
+
     .line 16
+    if-nez p1, :cond_0
+
     .line 17
     .line 18
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
+
     .line 19
     .line 20
     .line 21
+    move-result p1
+
     .line 22
+    if-nez p1, :cond_0
+
     .line 23
     .line 24
+    const-string p1, "HiApp.StartUpLog_"
+
     .line 25
     .line 26
+    invoke-virtual {p1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
     .line 27
     .line 28
     .line 29
+    move-result-object p0
+
     .line 30
+    new-instance p1, Lcom/huawei/appmarket/bp7;
+
     .line 31
     .line 32
+    invoke-direct {p1}, Lcom/huawei/appmarket/bp7;-><init>()V
+
     .line 33
     .line 34
     .line 35
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kz4;->b(Lcom/huawei/appmarket/bp7;)V
+
     .line 36
     .line 37
     .line 38
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bp7;->a()Ljava/lang/String;
+
     .line 39
     .line 40
     .line 41
+    move-result-object p1
+
     .line 42
+    invoke-static {p0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 43
     .line 44
     .line 45
+    :cond_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kz4;->c()V
+
     .line 46
     .line 47
     .line 48
+    return-void
     .line 49
     .line 50
     .line 51
@@ -227,4 +174,63 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method

@@ -40,19 +40,19 @@
 
     const/4 p3, 0x0
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/nu6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ru6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->getDownloadButtonStyle()Lcom/huawei/appmarket/ek1;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->getDownloadButtonStyle()Lcom/huawei/appmarket/hk1;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/rd1;->c()Lcom/huawei/appmarket/eq7;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/td1;->c()Lcom/huawei/appmarket/kq7;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/eq7;->d(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/kq7;->d(Landroid/graphics/drawable/Drawable;)V
 
     const p1, 0x7f0809db
 
@@ -81,7 +81,7 @@
 
     const-string v1, "initBtnTextInfo textView is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -142,7 +142,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/w68;->B(Landroid/content/Context;F)I
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/b78;->B(Landroid/content/Context;F)I
 
     move-result v2
 
@@ -211,9 +211,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     if-ne v0, v1, :cond_0
 

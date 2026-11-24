@@ -139,7 +139,7 @@
     move-result-object v5
 
     .line 48
-    instance-of v5, v5, Lcom/huawei/appmarket/u47;
+    instance-of v5, v5, Lcom/huawei/appmarket/z47;
 
     .line 49
     .line 50
@@ -159,11 +159,11 @@
     move-result-object v5
 
     .line 57
-    check-cast v5, Lcom/huawei/appmarket/u47;
+    check-cast v5, Lcom/huawei/appmarket/z47;
 
     .line 58
     .line 59
-    invoke-virtual {v5}, Lcom/huawei/appmarket/u47;->G1()Ljava/util/ArrayList;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/z47;->G1()Ljava/util/ArrayList;
 
     .line 60
     .line 61
@@ -223,7 +223,7 @@
 
     .line 86
     :cond_3
-    invoke-static {v8}, Lcom/huawei/appmarket/ve8;->a(Landroid/view/View;)Z
+    invoke-static {v8}, Lcom/huawei/appmarket/af8;->a(Landroid/view/View;)Z
 
     .line 87
     .line 88
@@ -239,7 +239,7 @@
 
     .line 93
     :cond_4
-    invoke-static {v7}, Lcom/huawei/appmarket/o52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/huawei/appmarket/s52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
 
     .line 94
     .line 95

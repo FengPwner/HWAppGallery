@@ -26,13 +26,13 @@
 .method public abstract a(Landroidx/media3/common/a;)Z
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/q16;)V
+.method public abstract b(Lcom/huawei/appmarket/s16;)V
 .end method
 
 .method public abstract c()Z
 .end method
 
-.method public abstract e()Lcom/huawei/appmarket/q16;
+.method public abstract e()Lcom/huawei/appmarket/s16;
 .end method
 
 .method public abstract f(F)V
@@ -53,7 +53,7 @@
 .method public abstract j()Z
 .end method
 
-.method public abstract k(Lcom/huawei/appmarket/ez;)V
+.method public abstract k(Lcom/huawei/appmarket/fz;)V
 .end method
 
 .method public abstract l(I)V
@@ -103,7 +103,7 @@
 .method public abstract t(Z)J
 .end method
 
-.method public abstract u(Lcom/huawei/appmarket/t16;)V
+.method public abstract u(Lcom/huawei/appmarket/v16;)V
 .end method
 
 .method public abstract v(Landroidx/media3/common/a;[I)V
@@ -120,7 +120,7 @@
 .method public abstract x()V
 .end method
 
-.method public abstract y(Lcom/huawei/appmarket/vr0;)V
+.method public abstract y(Lcom/huawei/appmarket/wr0;)V
 .end method
 
 .method public abstract z(Landroidx/media3/common/a;)I

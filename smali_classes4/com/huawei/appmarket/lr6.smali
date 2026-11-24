@@ -1,344 +1,89 @@
-.class public abstract Lcom/huawei/appmarket/lr6;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/lr6;
+.super Lcom/huawei/appmarket/or6;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/lr6$a;
-    }
-.end annotation
+# instance fields
+.field final synthetic c:Lcom/huawei/appmarket/d65;
 
-
-# static fields
-.field public static final Companion:Lcom/huawei/appmarket/lr6$a;
+.field final synthetic d:Ljava/io/File;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/d65;Ljava/io/File;)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/lr6$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/lr6;->c:Lcom/huawei/appmarket/d65;
 
-    const/4 v1, 0x0
+    iput-object p2, p0, Lcom/huawei/appmarket/lr6;->d:Ljava/io/File;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/lr6$a;-><init>(Lcom/huawei/appmarket/gd1;)V
-
-    sput-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
+    invoke-direct {p0}, Lcom/huawei/appmarket/or6;-><init>()V
 
     return-void
-.end method
-
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;Lcom/huawei/appmarket/sf0;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "content"
-
-    .line 2
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 3
-    new-instance v0, Lcom/huawei/appmarket/jr6;
-
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/jr6;-><init>(Lcom/huawei/appmarket/a65;Lcom/huawei/appmarket/sf0;)V
-
-    return-object v0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;Ljava/io/File;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "file"
-
-    .line 4
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 5
-    new-instance v0, Lcom/huawei/appmarket/ir6;
-
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/ir6;-><init>(Lcom/huawei/appmarket/a65;Ljava/io/File;)V
-
-    return-object v0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;Ljava/lang/String;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "content"
-
-    .line 6
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/lr6$a;->a(Ljava/lang/String;Lcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;[B)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "content"
-
-    .line 7
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x0
-
-    const/16 v2, 0xc
-
-    invoke-static {v0, p0, p1, v1, v2}, Lcom/huawei/appmarket/lr6$a;->c(Lcom/huawei/appmarket/lr6$a;Lcom/huawei/appmarket/a65;[BII)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;[BI)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "content"
-
-    .line 8
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/16 v1, 0x8
-
-    invoke-static {v0, p0, p1, p2, v1}, Lcom/huawei/appmarket/lr6$a;->c(Lcom/huawei/appmarket/lr6$a;Lcom/huawei/appmarket/a65;[BII)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/a65;[BII)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "content"
-
-    .line 9
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {p1, p0, p2, p3}, Lcom/huawei/appmarket/lr6$a;->b([BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create(Lcom/huawei/appmarket/sf0;Lcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "<this>"
-
-    .line 1
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appmarket/jr6;
-
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/jr6;-><init>(Lcom/huawei/appmarket/a65;Lcom/huawei/appmarket/sf0;)V
-
-    return-object v0
-.end method
-
-.method public static final create(Ljava/io/File;Lcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "<this>"
-
-    .line 10
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appmarket/ir6;
-
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/ir6;-><init>(Lcom/huawei/appmarket/a65;Ljava/io/File;)V
-
-    return-object v0
-.end method
-
-.method public static final create(Ljava/lang/String;Lcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/lr6;
-    .registers 3
-
-    .line 11
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/lr6$a;->a(Ljava/lang/String;Lcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create([B)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "<this>"
-
-    .line 12
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x7
-
-    const/4 v3, 0x0
-
-    invoke-static {v0, p0, v3, v1, v2}, Lcom/huawei/appmarket/lr6$a;->d(Lcom/huawei/appmarket/lr6$a;[BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create([BLcom/huawei/appmarket/a65;)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "<this>"
-
-    .line 13
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x6
-
-    invoke-static {v0, p0, p1, v1, v2}, Lcom/huawei/appmarket/lr6$a;->d(Lcom/huawei/appmarket/lr6$a;[BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create([BLcom/huawei/appmarket/a65;I)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v1, "<this>"
-
-    .line 14
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x4
-
-    invoke-static {v0, p0, p1, p2, v1}, Lcom/huawei/appmarket/lr6$a;->d(Lcom/huawei/appmarket/lr6$a;[BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final create([BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/lr6;
-    .registers 5
-
-    .line 15
-    sget-object v0, Lcom/huawei/appmarket/lr6;->Companion:Lcom/huawei/appmarket/lr6$a;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/lr6$a;->b([BLcom/huawei/appmarket/a65;II)Lcom/huawei/appmarket/kr6;
-
-    move-result-object p0
-
-    return-object p0
 .end method
 
 
 # virtual methods
-.method public contentLength()J
+.method public final contentLength()J
     .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    const-wide/16 v0, -0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/lr6;->d:Ljava/io/File;
+
+    invoke-virtual {v0}, Ljava/io/File;->length()J
+
+    move-result-wide v0
 
     return-wide v0
 .end method
 
-.method public abstract contentType()Lcom/huawei/appmarket/a65;
-.end method
-
-.method public isDuplex()Z
+.method public final contentType()Lcom/huawei/appmarket/d65;
     .registers 2
 
     .line 1
-    const/4 v0, 0x0
+    iget-object v0, p0, Lcom/huawei/appmarket/lr6;->c:Lcom/huawei/appmarket/d65;
 
-    return v0
+    return-object v0
 .end method
 
-.method public isOneShot()Z
-    .registers 2
+.method public final writeTo(Lcom/huawei/appmarket/lc0;)V
+    .registers 4
 
     .line 1
-    const/4 v0, 0x0
+    const-string v0, "sink"
 
-    return v0
-.end method
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-.method public abstract writeTo(Lcom/huawei/appmarket/lc0;)V
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+    iget-object v0, p0, Lcom/huawei/appmarket/lr6;->d:Ljava/io/File;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/yz8;->d0(Ljava/io/File;)Lcom/huawei/appmarket/fi7;
+
+    move-result-object v0
+
+    :try_start_0
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lc0;->e0(Lcom/huawei/appmarket/fi7;)J
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    const/4 p1, 0x0
+
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    :try_start_1
+    throw p1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    :catchall_1
+    move-exception v1
+
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    throw v1
 .end method

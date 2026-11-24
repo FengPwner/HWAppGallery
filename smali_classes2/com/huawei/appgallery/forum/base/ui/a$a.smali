@@ -91,7 +91,7 @@
 
     const-string v3, "ForumActivityController"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
@@ -258,7 +258,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final init()V

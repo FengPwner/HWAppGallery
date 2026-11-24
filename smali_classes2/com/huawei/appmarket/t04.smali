@@ -1,31 +1,22 @@
-.class public final Lcom/huawei/appmarket/t04;
+.class public interface abstract Lcom/huawei/appmarket/t04;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/s04;
-
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/s04;
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/t04$a;
+    }
 .end annotation
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+# virtual methods
+.method public abstract a(Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
+.method public abstract b(Ljava/lang/String;)V
+.end method
 
-# virtual methods
-.method public final a()V
-    .registers 1
-
-    .line 1
-    return-void
+.method public abstract c(Ljava/lang/String;Ljava/lang/String;)V
 .end method

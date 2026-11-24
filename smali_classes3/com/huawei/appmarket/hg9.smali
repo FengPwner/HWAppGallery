@@ -1,124 +1,95 @@
 .class public final Lcom/huawei/appmarket/hg9;
-.super Lcom/huawei/appmarket/wg9;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sd9;
+.implements Lcom/huawei/appmarket/zv8$b;
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/vg9;
-
-.field private b:Lcom/huawei/appmarket/vg9;
-
-.field private c:Lcom/huawei/appmarket/vg9;
+.field private final a:I
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/vg9;)V
+.method public constructor <init>(I)V
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/wg9;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/hg9;->a:Lcom/huawei/appmarket/vg9;
+    iput p1, p0, Lcom/huawei/appmarket/hg9;->a:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/vg9;)V
-    .registers 2
-
-    .line 2
-    iput-object p1, p0, Lcom/huawei/appmarket/hg9;->b:Lcom/huawei/appmarket/vg9;
-
-    return-void
-.end method
-
-.method public final a()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->b:Lcom/huawei/appmarket/vg9;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->a:Lcom/huawei/appmarket/vg9;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->c:Lcom/huawei/appmarket/vg9;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public final c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
+.method public final a(Ljava/util/LinkedHashSet;)Ljava/util/LinkedHashSet;
+    .registers 8
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/LinkedHashSet<",
+            "Lcom/huawei/appmarket/z09<",
+            "TT;>;>;)",
+            "Ljava/util/LinkedHashSet<",
+            "Lcom/huawei/appmarket/z09<",
+            "TT;>;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->b:Lcom/huawei/appmarket/vg9;
+    new-instance v0, Ljava/util/LinkedHashSet;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    move-result-object v0
+    iget v1, p0, Lcom/huawei/appmarket/hg9;->a:I
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ka9;->a(Ljava/lang/Object;)Z
+    const/4 v2, 0x1
 
-    move-result v0
+    if-lt v1, v2, :cond_1
 
-    if-eqz v0, :cond_0
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->a:Lcom/huawei/appmarket/vg9;
+    move-result v3
 
-    :goto_0
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
+    if-gt v1, v3, :cond_1
+
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    return-object p1
+    const/4 v3, 0x0
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/huawei/appmarket/z09;
+
+    add-int/lit8 v5, v1, -0x1
+
+    if-ne v3, v5, :cond_0
+
+    invoke-virtual {v0, v4}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    goto :goto_1
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/hg9;->c:Lcom/huawei/appmarket/vg9;
+    add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
-.end method
 
-.method public final d(Lcom/huawei/appmarket/vg9;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/hg9;->c:Lcom/huawei/appmarket/vg9;
-
-    return-void
-.end method
-
-.method public final e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
-
-    .line 1
-    const-string p1, "ternary"
-
-    return-object p1
+    :cond_1
+    :goto_1
+    return-object v0
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jf3;
+.implements Lcom/huawei/appmarket/lf3;
 
 
 # instance fields
@@ -77,7 +77,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()Landroidx/viewpager2/widget/ViewPager2;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Landroidx/viewpager2/widget/ViewPager2;
 
     move-result-object v0
 
@@ -92,7 +92,7 @@
 
     const-string v1, "onSubTabSelected, baseListFragment == null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0
@@ -240,7 +240,7 @@
     .line 55
     .line 56
     :cond_2
-    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()Landroidx/viewpager2/widget/ViewPager2;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Landroidx/viewpager2/widget/ViewPager2;
 
     .line 57
     .line 58
@@ -260,7 +260,7 @@
     move-result v2
 
     .line 66
-    invoke-virtual {v0, v2}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->x6(I)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->y6(I)V
 
     .line 67
     .line 68
@@ -285,7 +285,7 @@
     move-result p1
 
     .line 79
-    invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/tf;->a(Landroidx/viewpager2/widget/ViewPager2;IZ)V
+    invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/sf;->a(Landroidx/viewpager2/widget/ViewPager2;IZ)V
 
     .line 80
     .line 81
@@ -298,7 +298,7 @@
 
     .line 84
     .line 85
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -359,7 +359,7 @@
     move-result-object p1
 
     .line 116
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     .line 118

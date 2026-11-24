@@ -93,26 +93,26 @@
     return p1
 .end method
 
-.method public getForCondition()Lcom/huawei/appmarket/r99;
+.method public getForCondition()Lcom/huawei/appmarket/x99;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/huawei/quickcard/views/list/ListItemCondition;->b:Lcom/huawei/quickcard/framework/condition/ConditionalChild;
 
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/r99;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/x99;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getIfCondition()Lcom/huawei/appmarket/rc9;
+.method public getIfCondition()Lcom/huawei/appmarket/yc9;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/huawei/quickcard/views/list/ListItemCondition;->b:Lcom/huawei/quickcard/framework/condition/ConditionalChild;
 
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getIfCondition()Lcom/huawei/appmarket/rc9;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getIfCondition()Lcom/huawei/appmarket/yc9;
 
     move-result-object v0
 
@@ -168,7 +168,7 @@
 
     iget-object v0, p0, Lcom/huawei/quickcard/views/list/ListItemCondition;->b:Lcom/huawei/quickcard/framework/condition/ConditionalChild;
 
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/r99;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/x99;
 
     move-result-object v0
 
@@ -210,11 +210,11 @@
 
     iget-object v0, p0, Lcom/huawei/quickcard/views/list/ListItemCondition;->b:Lcom/huawei/quickcard/framework/condition/ConditionalChild;
 
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/r99;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getForCondition()Lcom/huawei/appmarket/x99;
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getIfCondition()Lcom/huawei/appmarket/rc9;
+    invoke-virtual {v0}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->getIfCondition()Lcom/huawei/appmarket/yc9;
 
     move-result-object v0
 
@@ -229,7 +229,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/rc9;->a(Lcom/huawei/quickcard/CardContext;)Z
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/yc9;->a(Lcom/huawei/quickcard/CardContext;)Z
 
     move-result v0
 
@@ -242,7 +242,7 @@
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->clear()V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/r99;->a(Lcom/huawei/quickcard/CardContext;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/x99;->a(Lcom/huawei/quickcard/CardContext;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -281,7 +281,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/rc9;->a(Lcom/huawei/quickcard/CardContext;)Z
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/yc9;->a(Lcom/huawei/quickcard/CardContext;)Z
 
     move-result v4
 

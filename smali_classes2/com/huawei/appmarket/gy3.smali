@@ -3,30 +3,20 @@
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a(Landroid/content/Context;)Z
-.end method
+# static fields
+.field public static final a:Lcom/huawei/appmarket/jl4;
 
-.method public abstract b()V
-.end method
 
-.method public abstract c()Z
-.end method
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
 
-.method public abstract d(Ljava/lang/Class;Ljava/lang/String;)V
-.end method
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jl4;
 
-.method public abstract e()V
-.end method
+    invoke-direct {v0}, Lcom/huawei/appmarket/jl4;-><init>()V
 
-.method public abstract f(Ljava/lang/String;Ljava/lang/Class;)V
-.end method
+    sput-object v0, Lcom/huawei/appmarket/gy3;->a:Lcom/huawei/appmarket/jl4;
 
-.method public abstract g()V
-.end method
-
-.method public abstract h(Landroid/content/Context;)V
-.end method
-
-.method public abstract i(Landroid/content/Context;)V
+    return-void
 .end method

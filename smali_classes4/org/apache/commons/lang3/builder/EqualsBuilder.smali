@@ -65,13 +65,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/b22;
+    new-instance v0, Lcom/huawei/appmarket/f22;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/b22;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/f22;-><init>(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fw1;->e(Lcom/huawei/appmarket/b22;)Ljava/lang/ThreadLocal;
+    invoke-static {v0}, Lcom/huawei/appmarket/jw1;->e(Lcom/huawei/appmarket/f22;)Ljava/lang/ThreadLocal;
 
     move-result-object v0
 

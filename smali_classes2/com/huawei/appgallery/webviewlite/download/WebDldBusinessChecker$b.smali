@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -40,11 +40,11 @@
     .line 1
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "dialog"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x2
 
@@ -63,94 +63,94 @@
 
     const-string v1, "1210100102"
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getCtype()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getCtype()I
 
     move-result v0
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getSubmitType()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getSubmitType()I
 
     move-result v2
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getDetailType()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getDetailType()I
 
     move-result v3
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getFileName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getFileName()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getDetailId()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getDetailId()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/co8;->b(ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/io8;->b(ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_1
     const-string v7, "1210100101"
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getCtype()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getCtype()I
 
     move-result v6
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getSubmitType()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getSubmitType()I
 
     move-result v8
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getDetailType()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getDetailType()I
 
     move-result v9
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getFileName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getFileName()Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/wm8;
+    invoke-static {p2}, Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;->b(Lcom/huawei/appgallery/webviewlite/download/WebDldBusinessChecker;)Lcom/huawei/appmarket/cn8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wm8;->getDetailId()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cn8;->getDetailId()Ljava/lang/String;
 
     move-result-object v11
 
-    invoke-static/range {v6 .. v11}, Lcom/huawei/appmarket/co8;->b(ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+    invoke-static/range {v6 .. v11}, Lcom/huawei/appmarket/io8;->b(ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

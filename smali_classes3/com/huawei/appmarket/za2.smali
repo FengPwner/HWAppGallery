@@ -1,36 +1,20 @@
-.class public final synthetic Lcom/huawei/appmarket/za2;
+.class public interface abstract Lcom/huawei/appmarket/za2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/flexiblelayout/card/props/CardSpecHelper$c;
-
-
-# instance fields
-.field public final synthetic a:Lcom/huawei/flexiblelayout/data/e;
-
-
-# direct methods
-.method public synthetic constructor <init>(Lcom/huawei/flexiblelayout/data/e;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/za2;->a:Lcom/huawei/flexiblelayout/data/e;
-
-    return-void
-.end method
-
 
 # virtual methods
-.method public final update()V
-    .registers 2
+.method public abstract a(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
+.end method
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/za2;->a:Lcom/huawei/flexiblelayout/data/e;
+.method public abstract b(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
+.end method
 
-    invoke-static {v0}, Lcom/huawei/flexiblelayout/data/e;->a(Lcom/huawei/flexiblelayout/data/e;)V
+.method public abstract c(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/FLNodeData;
+.end method
 
-    return-void
+.method public abstract d(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/d;
+.end method
+
+.method public abstract e()V
 .end method

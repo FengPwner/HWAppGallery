@@ -43,7 +43,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 11
     .line 12
@@ -98,7 +98,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 40
     .line 41
@@ -337,7 +337,7 @@
 
     .line 158
     .line 159
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 160
     .line 161
@@ -351,7 +351,7 @@
     move-result-object v1
 
     .line 166
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/oc8;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/fastengine/fastview/startfastappengine/bean/RpkInfo;
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/tc8;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/fastengine/fastview/startfastappengine/bean/RpkInfo;
 
     .line 167
     .line 168
@@ -371,11 +371,11 @@
     .line 174
     .line 175
     .line 176
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 177
     .line 178
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/installdepend/view/activity/protocol/InstallDependActivityProtocol;->a()Lcom/huawei/appmarket/pr2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/installdepend/view/activity/protocol/InstallDependActivityProtocol;->a()Lcom/huawei/appmarket/rr2;
 
     .line 179
     .line 180
@@ -383,12 +383,12 @@
     move-result-object v0
 
     .line 182
-    invoke-direct {v1, v0, p1}, Lcom/huawei/appmarket/cn5;-><init>(Lcom/huawei/appmarket/dq7;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v0, p1}, Lcom/huawei/appmarket/dn5;-><init>(Lcom/huawei/appmarket/jq7;Lcom/huawei/appmarket/b96;)V
 
     .line 183
     .line 184
     .line 185
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 186
     .line 187
@@ -577,6 +577,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

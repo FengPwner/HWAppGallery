@@ -483,7 +483,7 @@
 
     move-result-object v2
 
-    const-string v3, "com.huawei.appmarket.l02"
+    const-string v3, "com.huawei.appmarket.p02"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -610,7 +610,7 @@
 
     :cond_11
     :goto_2
-    const-string v3, "com.huawei.appmarket.k02"
+    const-string v3, "com.huawei.appmarket.o02"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -618,7 +618,7 @@
 
     if-nez v3, :cond_13
 
-    const-string v3, "com.huawei.appmarket.o02"
+    const-string v3, "com.huawei.appmarket.s02"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

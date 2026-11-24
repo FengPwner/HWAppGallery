@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ll1;
+.field private b:Lcom/huawei/appmarket/ol1;
 
 
 # direct methods
@@ -53,11 +53,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/ll1;->a(Landroid/view/View;Z)V
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/ol1;->a(Landroid/view/View;Z)V
 
     :cond_0
     return-void
@@ -68,20 +68,20 @@
 
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onWindowVisibilityChanged(I)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/ll1;
+    new-instance v0, Lcom/huawei/appmarket/ol1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ll1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ol1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/ll1;->b(ILandroid/view/View;)V
+    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/ol1;->b(ILandroid/view/View;)V
 
     return-void
 .end method
@@ -89,20 +89,20 @@
 .method public setDetailPinnedBean(Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/ll1;
+    new-instance v0, Lcom/huawei/appmarket/ol1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ll1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ol1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ll1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureImageView;->b:Lcom/huawei/appmarket/ol1;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ll1;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ol1;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;)V
 
     return-void
 .end method

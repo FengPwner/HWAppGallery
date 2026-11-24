@@ -231,6 +231,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>()V
@@ -3005,6 +3006,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static p(ILjava/util/List;Lcom/google/protobuf/t1;)I
@@ -3368,6 +3376,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static q(ILjava/util/List;)I
@@ -3830,16 +3845,16 @@
 
     mul-int p0, p0, v0
 
-    instance-of v2, p1, Lcom/huawei/appmarket/nt4;
+    instance-of v2, p1, Lcom/huawei/appmarket/qt4;
 
     if-eqz v2, :cond_2
 
-    check-cast p1, Lcom/huawei/appmarket/nt4;
+    check-cast p1, Lcom/huawei/appmarket/qt4;
 
     :goto_0
     if-ge v1, v0, :cond_4
 
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/nt4;->F(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/qt4;->F(I)Ljava/lang/Object;
 
     move-result-object v2
 

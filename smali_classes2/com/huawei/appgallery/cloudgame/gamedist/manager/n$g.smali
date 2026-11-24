@@ -66,7 +66,7 @@
 
     const-string v0, "QueueManager"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bg0;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/cg0;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -77,7 +77,7 @@
     const-string p2, "ReleaseResource responseBean is null"
 
     :goto_0
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     invoke-interface {v1, p1}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n$e;->onResult(Z)V

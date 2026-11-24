@@ -36,7 +36,7 @@
 
 .field private m:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-.field private n:Lcom/huawei/appmarket/jq3;
+.field private n:Lcom/huawei/appmarket/lq3;
 
 
 # direct methods
@@ -220,7 +220,7 @@
     const/4 v3, 0x0
 
     .line 59
-    invoke-static {p1, v2, v1, v3}, Lcom/huawei/appmarket/ej2;->v(Landroid/content/Context;ILandroid/widget/TextView;I)V
+    invoke-static {p1, v2, v1, v3}, Lcom/huawei/appmarket/tr2;->t(Landroid/content/Context;ILandroid/widget/TextView;I)V
 
     .line 60
     .line 61
@@ -569,11 +569,11 @@
 
     iput v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->l:I
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/jq3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/lq3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/jq3;->onHide()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/lq3;->onHide()V
 
     :cond_0
     return-void
@@ -842,7 +842,7 @@
     .line 87
     .line 88
     :cond_5
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/jq3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/lq3;
 
     .line 89
     .line 90
@@ -850,7 +850,7 @@
 
     .line 91
     .line 92
-    invoke-interface {v0}, Lcom/huawei/appmarket/jq3;->onShow()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/lq3;->onShow()V
 
     .line 93
     .line 94
@@ -1127,7 +1127,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setBlankHeight(I)V
@@ -1138,11 +1137,11 @@
     return-void
 .end method
 
-.method public setFootViewListener(Lcom/huawei/appmarket/jq3;)V
+.method public setFootViewListener(Lcom/huawei/appmarket/lq3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/jq3;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/FooterView;->n:Lcom/huawei/appmarket/lq3;
 
     return-void
 .end method

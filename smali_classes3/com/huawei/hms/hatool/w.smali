@@ -761,9 +761,9 @@
 
     invoke-virtual {p0, v0}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
-    new-instance v0, Lcom/huawei/appmarket/so7;
+    new-instance v0, Lcom/huawei/appmarket/xo7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     invoke-virtual {p0, v0}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
 

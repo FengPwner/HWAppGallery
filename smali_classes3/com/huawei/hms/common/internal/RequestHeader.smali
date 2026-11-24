@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/huawei/hms/common/internal/RequestHeader;->version:Ljava/lang/String;
 
-    const v0, 0x3a75e4f
+    const v0, 0x3a75e50
 
     iput v0, p0, Lcom/huawei/hms/common/internal/RequestHeader;->sdk_version:I
 

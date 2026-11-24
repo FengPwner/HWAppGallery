@@ -59,9 +59,9 @@
 
     if-eqz v0, :cond_2
 
-    new-instance v0, Lcom/huawei/appmarket/oc8$e;
+    new-instance v0, Lcom/huawei/appmarket/tc8$e;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/oc8$e;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tc8$e;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment$a;->k:Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;
 
@@ -73,7 +73,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/huawei/appmarket/oc8$e;->a:Ljava/lang/String;
+    iput-object v2, v0, Lcom/huawei/appmarket/tc8$e;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;->Q5(Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;)Lcom/huawei/appmarket/service/installdepend/view/fragment/protocol/InstallDependFragmentProtocol$Request;
 
@@ -83,7 +83,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/huawei/appmarket/oc8$e;->b:Ljava/lang/String;
+    iput-object v2, v0, Lcom/huawei/appmarket/tc8$e;->b:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;->Q5(Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;)Lcom/huawei/appmarket/service/installdepend/view/fragment/protocol/InstallDependFragmentProtocol$Request;
 
@@ -93,7 +93,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/huawei/appmarket/oc8$e;->e:Ljava/lang/String;
+    iput-object v2, v0, Lcom/huawei/appmarket/tc8$e;->e:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;->Q5(Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;)Lcom/huawei/appmarket/service/installdepend/view/fragment/protocol/InstallDependFragmentProtocol$Request;
 
@@ -103,7 +103,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/huawei/appmarket/oc8$e;->h:Lcom/huawei/fastengine/fastview/startfastappengine/bean/RpkInfo;
+    iput-object v2, v0, Lcom/huawei/appmarket/tc8$e;->h:Lcom/huawei/fastengine/fastview/startfastappengine/bean/RpkInfo;
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;->Q5(Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;)Lcom/huawei/appmarket/service/installdepend/view/fragment/protocol/InstallDependFragmentProtocol$Request;
 
@@ -117,7 +117,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/gp7;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/lp7;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -147,7 +147,7 @@
 
     if-eqz p2, :cond_2
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/oc8;->r(Lcom/huawei/appmarket/oc8$e;Landroid/content/Context;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/tc8;->r(Lcom/huawei/appmarket/tc8$e;Landroid/content/Context;)V
 
     :cond_2
     return-void
@@ -174,7 +174,7 @@
 
     const-string p2, "InstallDependFragment"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

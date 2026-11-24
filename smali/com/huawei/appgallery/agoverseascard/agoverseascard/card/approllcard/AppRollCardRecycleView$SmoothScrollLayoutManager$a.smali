@@ -63,7 +63,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 2
     .line 3
@@ -211,4 +211,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

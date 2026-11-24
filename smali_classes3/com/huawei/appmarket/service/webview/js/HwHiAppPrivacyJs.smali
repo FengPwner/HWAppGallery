@@ -41,7 +41,7 @@
 
     const-string v0, "findMorePrivacy context is null"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -49,7 +49,7 @@
     :try_start_0
     const-string v0, "findMorePrivacy "
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -63,7 +63,7 @@
 
     const-string v3, "com.huawei.dataprivacycenter.MainActivity"
 
-    invoke-static {v3}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -84,7 +84,7 @@
     :catch_0
     const-string v0, "findMorePrivacy error"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -95,7 +95,7 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v0
 
@@ -117,7 +117,7 @@
 
     const-string v2, "HwHiAppPrivacyJs"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -143,7 +143,7 @@
 
     const-string v2, "HwHiAppPrivacyJs"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -188,11 +188,11 @@
     move-result-object v0
 
     .line 9
-    sget v1, Lcom/huawei/appmarket/a76;->b:I
+    sget v1, Lcom/huawei/appmarket/c76;->b:I
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 12
     .line 13
@@ -200,7 +200,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->b()I
 
     .line 16
     .line 17
@@ -216,7 +216,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0}, Lcom/huawei/appmarket/a76;->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/c76;->a(Landroid/content/Context;)Z
 
     .line 24
     .line 25
@@ -228,7 +228,7 @@
 
     .line 28
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 30
     .line 31

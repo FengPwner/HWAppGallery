@@ -70,7 +70,7 @@
     move-result-object p1
 
     .line 12
-    invoke-static {p1}, Lcom/huawei/appmarket/d55;->a(Ljava/util/List;)Ljava/util/HashMap;
+    invoke-static {p1}, Lcom/huawei/appmarket/g55;->a(Ljava/util/List;)Ljava/util/HashMap;
 
     .line 13
     .line 14
@@ -235,5 +235,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

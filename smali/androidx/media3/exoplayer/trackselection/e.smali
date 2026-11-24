@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h28;
+.implements Lcom/huawei/appmarket/m28;
 
 
 # annotations
@@ -52,7 +52,7 @@
             "(J",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/e55;",
+            "Lcom/huawei/appmarket/h55;",
             ">;)I"
         }
     .end annotation
@@ -67,7 +67,7 @@
 .method public abstract r()I
 .end method
 
-.method public abstract s(JJLjava/util/List;[Lcom/huawei/appmarket/f55;)V
+.method public abstract s(JJLjava/util/List;[Lcom/huawei/appmarket/i55;)V
 .end method
 
 .method public abstract t()V

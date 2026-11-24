@@ -25,7 +25,7 @@
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$o;-><init>()V
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     move-result v0
 

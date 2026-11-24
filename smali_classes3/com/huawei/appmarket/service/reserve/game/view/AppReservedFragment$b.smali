@@ -168,7 +168,7 @@
 
     const-string v0, "AppReservedFragment"
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/reserve/game/view/AppReservedFragment;->P5()V
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zn3;
+.implements Lcom/huawei/appmarket/bo3;
 
 
 # instance fields
@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/qs1;
+.method public final generate()Lcom/huawei/appmarket/ts1;
     .registers 6
 
     .line 1
@@ -39,15 +39,15 @@
     return-object v0
 
     :cond_0
-    new-instance v2, Lcom/huawei/appmarket/qs1$b;
+    new-instance v2, Lcom/huawei/appmarket/ts1$b;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/qs1$b;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/ts1$b;-><init>()V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getSha256_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->w(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->w(Ljava/lang/String;)V
 
     :try_start_0
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getSize_()Ljava/lang/String;
@@ -58,7 +58,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/qs1$b;->y(J)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ts1$b;->y(J)V
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -69,50 +69,50 @@
 
     const-string v4, "can not get fileSize"
 
-    invoke-static {v0, v4, v3}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v4, v3}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getDownurl_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->C(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->C(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getName_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->q(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->q(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getPackage_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->s(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->s(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getId_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->c(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->c(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getIcon_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->j(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->j(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getDetailId_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->f(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->f(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getMaple_()I
 
     move-result v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->n(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->n(I)V
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -130,17 +130,17 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->h(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->h(Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getPackingType_()I
 
     move-result v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->t(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->t(I)V
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->i(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->i(I)V
 
     :try_start_1
     invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/card/base/bean/AppInfoBean;->getVersionCode_()Ljava/lang/String;
@@ -151,7 +151,7 @@
 
     move-result v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qs1$b;->D(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ts1$b;->D(I)V
     :try_end_1
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -162,18 +162,18 @@
 
     const-string v4, "can not get versionCode!!!!!"
 
-    invoke-static {v0, v4, v3}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v4, v3}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_1
     const-string v0, "DeviceInstallationInfos"
 
-    const-class v3, Lcom/huawei/appmarket/yh3;
+    const-class v3, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/yh3;
+    check-cast v0, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -187,7 +187,7 @@
 
     move-result-object v4
 
-    invoke-interface {v0, v3, v4}, Lcom/huawei/appmarket/yh3;->g(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-interface {v0, v3, v4}, Lcom/huawei/appmarket/ai3;->g(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
 
@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nv;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    invoke-static {v0}, Lcom/huawei/appmarket/ov;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
     move-result-object v0
 
@@ -209,22 +209,22 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/qs1$b;->C(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/ts1$b;->C(Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->getMaple_()I
 
     move-result v1
 
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/qs1$b;->n(I)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/ts1$b;->n(I)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->getDetailId_()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/qs1$b;->f(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ts1$b;->f(Ljava/lang/String;)V
 
     :cond_1
-    invoke-virtual {v2}, Lcom/huawei/appmarket/qs1$b;->a()Lcom/huawei/appmarket/qs1;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ts1$b;->a()Lcom/huawei/appmarket/ts1;
 
     move-result-object v0
 

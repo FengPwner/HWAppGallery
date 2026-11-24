@@ -110,7 +110,7 @@
 
     .line 35
     .line 36
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 37
     .line 38
@@ -118,7 +118,7 @@
     move-result-object v2
 
     .line 40
-    invoke-virtual {v2}, Lcom/huawei/appmarket/cf0;->X0()Lcom/huawei/appmarket/cd0;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/df0;->X0()Lcom/huawei/appmarket/cd0;
 
     .line 41
     .line 42
@@ -134,7 +134,7 @@
 
     .line 47
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/bv2;->c()Lcom/huawei/appmarket/bv2;
+    invoke-static {}, Lcom/huawei/appmarket/ev2;->c()Lcom/huawei/appmarket/ev2;
 
     .line 48
     .line 49
@@ -150,7 +150,7 @@
     move-result-object v2
 
     .line 55
-    invoke-virtual {v4, v2}, Lcom/huawei/appmarket/bv2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/zu2;
+    invoke-virtual {v4, v2}, Lcom/huawei/appmarket/ev2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/cv2;
 
     .line 56
     .line 57
@@ -166,7 +166,7 @@
 
     .line 62
     :cond_2
-    invoke-virtual {v2}, Lcom/huawei/appmarket/zu2;->j()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/cv2;->j()Ljava/lang/String;
 
     .line 63
     .line 64
@@ -540,8 +540,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public U()Ljava/lang/String;

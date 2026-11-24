@@ -1,4 +1,4 @@
-.class public final Lcom/huawei/appmarket/xh5$a;
+.class public interface abstract Lcom/huawei/appmarket/xh5$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,25 +9,14 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
+    accessFlags = 0x609
     name = "a"
 .end annotation
 
 
-# direct methods
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+# virtual methods
+.method public abstract a(Lcom/huawei/appmarket/wh5;)V
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/xh5$a;-><init>()V
-
-    return-void
+.method public abstract b(Lcom/huawei/appmarket/wh5;I)V
 .end method

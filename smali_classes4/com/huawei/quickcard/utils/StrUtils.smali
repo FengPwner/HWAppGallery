@@ -195,39 +195,39 @@
 
     .line 12
     .line 13
-    const-string v0, "}"
+    const-string/jumbo v0, "}"
 
     .line 14
     .line 15
+    .line 16
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 16
     .line 17
     .line 18
+    .line 19
     move-result v0
 
-    .line 19
+    .line 20
     if-eqz v0, :cond_1
 
-    .line 20
     .line 21
+    .line 22
     const/4 v0, 0x1
 
-    .line 22
+    .line 23
     const/4 v1, 0x2
 
-    .line 23
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
-
     .line 24
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
+
     .line 25
     .line 26
+    .line 27
     move-result-object p0
 
-    .line 27
+    .line 28
     :cond_1
     return-object p0
-    .line 28
     .line 29
     .line 30
     .line 31
@@ -381,21 +381,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

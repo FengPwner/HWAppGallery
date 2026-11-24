@@ -156,11 +156,11 @@
 
     if-eqz v4, :cond_0
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     :cond_0
     const/4 v5, 0x1

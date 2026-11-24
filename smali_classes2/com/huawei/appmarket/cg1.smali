@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h14;
+.implements Lcom/huawei/appmarket/fz3;
 
 
 # direct methods
@@ -17,9 +17,18 @@
 
 
 # virtual methods
-.method public final a(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;Z)V
-    .registers 5
+.method public final d(JJLjava/lang/String;)V
+    .registers 6
 
     .line 1
     return-void
+.end method
+
+.method public final v(JJLjava/lang/String;)Z
+    .registers 6
+
+    .line 1
+    const/4 p1, 0x0
+
+    return p1
 .end method

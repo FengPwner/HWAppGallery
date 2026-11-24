@@ -4,19 +4,17 @@
 
 
 # virtual methods
-.method public abstract getAbilityFormInfo(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ILcom/huawei/appmarket/sn0;)Lcom/huawei/appmarket/k1;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
-            ">;",
-            "Ljava/lang/String;",
-            "I",
-            "Lcom/huawei/appmarket/sn0;",
-            ")",
-            "Lcom/huawei/appmarket/k1;"
-        }
-    .end annotation
+.method public abstract getFAAddChoice()I
+.end method
+
+.method public abstract getFASettingPolicyFromGlobal()I
+.end method
+
+.method public abstract isSupportPromoteFA()Z
+.end method
+
+.method public abstract recordHasShownFASetting()V
+.end method
+
+.method public abstract setUserFAAddChoice(I)V
 .end method

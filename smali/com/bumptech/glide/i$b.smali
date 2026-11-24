@@ -18,13 +18,13 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/yr6;
+.field private final a:Lcom/huawei/appmarket/bs6;
 
 .field final synthetic b:Lcom/bumptech/glide/i;
 
 
 # direct methods
-.method constructor <init>(Lcom/bumptech/glide/i;Lcom/huawei/appmarket/yr6;)V
+.method constructor <init>(Lcom/bumptech/glide/i;Lcom/huawei/appmarket/bs6;)V
     .registers 3
 
     .line 1
@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/bumptech/glide/i$b;->a:Lcom/huawei/appmarket/yr6;
+    iput-object p2, p0, Lcom/bumptech/glide/i$b;->a:Lcom/huawei/appmarket/bs6;
 
     return-void
 .end method
@@ -49,9 +49,9 @@
     monitor-enter p1
 
     :try_start_0
-    iget-object v0, p0, Lcom/bumptech/glide/i$b;->a:Lcom/huawei/appmarket/yr6;
+    iget-object v0, p0, Lcom/bumptech/glide/i$b;->a:Lcom/huawei/appmarket/bs6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/yr6;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bs6;->d()V
 
     monitor-exit p1
 

@@ -100,11 +100,11 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/packagemanager/impl/control/msg/PackageMessageDispatchHandler;->a:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bx4;->e(Landroid/content/Intent;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ex4;->e(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -115,7 +115,7 @@
     .line 1
     if-eqz p1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/mu5;->a:Lcom/huawei/appmarket/tw0;
+    sget-object v0, Lcom/huawei/appmarket/ou5;->a:Lcom/huawei/appmarket/tw0;
 
     if-eqz v0, :cond_0
 
@@ -198,11 +198,11 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/packagemanager/impl/control/msg/PackageMessageDispatchHandler;->a:Landroid/content/Context;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v3}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/bx4;->e(Landroid/content/Intent;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/ex4;->e(Landroid/content/Intent;)V
 
     iget-object v0, v1, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->c:Landroid/os/Handler;
 
@@ -215,13 +215,13 @@
 
     iget p1, p1, Landroid/os/Message;->arg2:I
 
-    iget-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/yv3;
+    iget-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/BaseManageTask;->b:Lcom/huawei/appmarket/aw3;
 
     if-eqz v2, :cond_4
 
-    new-instance v2, Lcom/huawei/appmarket/lp1;
+    new-instance v2, Lcom/huawei/appmarket/op1;
 
-    invoke-direct {v2, v1, v0, p1}, Lcom/huawei/appmarket/lp1;-><init>(Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;II)V
+    invoke-direct {v2, v1, v0, p1}, Lcom/huawei/appmarket/op1;-><init>(Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;II)V
 
     const/4 p1, 0x0
 

@@ -381,7 +381,7 @@
 
     .line 138
     .line 139
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 140
     .line 141

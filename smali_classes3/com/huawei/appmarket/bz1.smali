@@ -3,351 +3,117 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lohos/utils/Sequenceable;
-
-
-# instance fields
-.field private a:Ljava/lang/String;
-
-.field private b:Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
-
-.field private d:Ljava/lang/String;
+.implements Lcom/huawei/appmarket/zj0$a;
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 2
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/huawei/appmarket/bz1;)V
-    .registers 3
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    if-eqz p1, :cond_0
-
-    iget-object v0, p1, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    iget-object v0, p1, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iget-object v0, p1, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    iget-object p1, p1, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    :cond_0
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 5
-
-    .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final b()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final d()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final e()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/bz1;->d:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public final equals(Ljava/lang/Object;)Z
+.method public final a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
     .registers 6
 
     .line 1
-    const/4 v0, 0x1
+    invoke-static {p1}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
 
-    if-ne p0, p1, :cond_0
+    move-result-object p2
 
-    return v0
+    if-nez p2, :cond_0
+
+    return-void
 
     :cond_0
-    instance-of v1, p1, Lcom/huawei/appmarket/bz1;
+    const-string v0, "310501"
 
-    const/4 v2, 0x0
+    const-string v1, "EducationCenter|"
 
-    if-nez v1, :cond_1
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    return v2
+    const-string v0, "activity"
 
-    :cond_1
-    check-cast p1, Lcom/huawei/appmarket/bz1;
+    invoke-virtual {p2, v0}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
+    move-result-object v0
 
-    iget-object v3, p1, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
+    check-cast v0, Landroid/app/ActivityManager;
 
-    invoke-static {v1, v3}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    iget-object v3, p1, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    invoke-static {v1, v3}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {}, Lcom/huawei/appmarket/jd4;->e()I
 
     move-result v1
 
-    if-eqz v1, :cond_2
+    const/4 v2, -0x1
 
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
+    if-eq v1, v2, :cond_1
 
-    iget-object p1, p1, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
+    if-eqz v0, :cond_1
 
-    invoke-static {v1, p1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {}, Lcom/huawei/appmarket/jd4;->e()I
 
     move-result p1
 
-    if-eqz p1, :cond_2
+    const/4 p2, 0x1
+
+    invoke-virtual {v0, p1, p2}, Landroid/app/ActivityManager;->moveTaskToFront(II)V
 
     goto :goto_0
 
-    :cond_2
-    const/4 v0, 0x0
+    :cond_1
+    new-instance v0, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;-><init>()V
+
+    new-instance v1, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;-><init>()V
+
+    invoke-virtual {p2}, Landroid/app/Activity;->getTaskId()I
+
+    move-result p2
+
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;->c(I)V
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;->b()V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;->b(Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;)V
+
+    new-instance p2, Lcom/huawei/appmarket/dn5;
+
+    const-string v1, "educenter.activity"
+
+    invoke-direct {p2, v1, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
+
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    move-result-object v0
+
+    const v1, 0x10008000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     :goto_0
-    return v0
+    return-void
 .end method
 
-.method public final hashCode()I
+.method public final synthetic b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
     .registers 4
 
     .line 1
-    const/4 v0, 0x3
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/kd0;->a(Lcom/huawei/appmarket/zj0$a;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
-    new-array v0, v0, [Ljava/lang/Object;
-
-    const/4 v1, 0x0
-
-    iget-object v2, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    aput-object v2, v0, v1
-
-    const/4 v1, 0x1
-
-    iget-object v2, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    aput-object v2, v0, v1
-
-    const/4 v1, 0x2
-
-    iget-object v2, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    aput-object v2, v0, v1
-
-    invoke-static {v0}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final marshalling(Lohos/utils/Parcel;)Z
-    .registers 4
-
-    .line 1
-    const/4 v0, 0x0
-
-    if-nez p1, :cond_0
-
-    return v0
-
-    :cond_0
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    invoke-virtual {p1, v1}, Lohos/utils/Parcel;->writeString(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    return v0
-
-    :cond_1
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    invoke-virtual {p1, v1}, Lohos/utils/Parcel;->writeString(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_2
-
-    return v0
-
-    :cond_2
-    iget-object v1, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    invoke-virtual {p1, v1}, Lohos/utils/Parcel;->writeString(Ljava/lang/String;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_3
-
-    return v0
-
-    :cond_3
-    const/4 p1, 0x1
-
-    return p1
-.end method
-
-.method public final unmarshalling(Lohos/utils/Parcel;)Z
-    .registers 3
-
-    .line 1
-    if-nez p1, :cond_0
-
-    const/4 p1, 0x0
-
-    return p1
-
-    :cond_0
-    invoke-virtual {p1}, Lohos/utils/Parcel;->readString()Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->b:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lohos/utils/Parcel;->readString()Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/bz1;->c:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lohos/utils/Parcel;->readString()Ljava/lang/String;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/huawei/appmarket/bz1;->a:Ljava/lang/String;
-
-    const/4 p1, 0x1
-
-    return p1
+    return-void
 .end method

@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -126,7 +126,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -139,14 +139,14 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/RealtimercmtelexTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/RealtimercmtelexTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/RealtimercmtelexCard;->y:Lcom/huawei/appgallery/explorecard/explorecard/card/smallimagecard/ExploreSmallImageCard;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_2
     return-void

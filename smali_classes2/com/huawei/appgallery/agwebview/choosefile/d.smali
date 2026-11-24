@@ -136,7 +136,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -198,7 +198,7 @@
     .line 77
     .line 78
     .line 79
-    sget-object p2, Lcom/huawei/appmarket/qy7;->a:Ljava/util/concurrent/ThreadPoolExecutor;
+    sget-object p2, Lcom/huawei/appmarket/vy7;->a:Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 80
     .line 81
@@ -294,5 +294,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

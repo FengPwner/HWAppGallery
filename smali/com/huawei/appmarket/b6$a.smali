@@ -73,7 +73,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/sz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object v0
 
@@ -103,7 +103,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/sz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p1
 
@@ -118,7 +118,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/sz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p1
 
@@ -131,7 +131,7 @@
     :catchall_1
     move-exception v0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/sz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/yz8;->N(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v0
 .end method
@@ -142,7 +142,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -151,7 +151,7 @@
 
     const-string v0, "context.contentResolver"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "content://com.huawei.hwid.api.provider/has_login"
 
@@ -161,7 +161,7 @@
 
     const-string v1, "parse(\"content://com.hua\u2026.api.provider/has_login\")"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p0, v0}, Lcom/huawei/appmarket/b6$a;->a(Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/lang/Boolean;
 
@@ -178,7 +178,7 @@
 
     const-string v1, "Exception when checking has HwID login."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 

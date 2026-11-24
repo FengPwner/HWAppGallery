@@ -123,7 +123,7 @@
     :catch_0
     const-string v2, "delete string error"
 
-    invoke-static {v7, v2}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setTextKeepState(Ljava/lang/CharSequence;)V
@@ -197,7 +197,7 @@
     :cond_3
     const-string p1, "index < 0"
 
-    invoke-static {v7, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_2
@@ -215,7 +215,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/RichTextEditor$g;->e:Landroid/widget/EditText;
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ni7;->d(Landroid/widget/EditText;I)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ti7;->d(Landroid/widget/EditText;I)Z
 
     move-result p1
 
@@ -255,7 +255,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/RichTextEditor$g;->e:Landroid/widget/EditText;
 
-    invoke-static {p2, p0, p1}, Lcom/huawei/appmarket/ni7;->a(ILandroid/text/TextWatcher;Landroid/widget/EditText;)V
+    invoke-static {p2, p0, p1}, Lcom/huawei/appmarket/ti7;->a(ILandroid/text/TextWatcher;Landroid/widget/EditText;)V
 
     :cond_0
     return-void

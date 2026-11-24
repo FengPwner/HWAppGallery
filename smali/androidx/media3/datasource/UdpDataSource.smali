@@ -265,6 +265,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getUri()Landroid/net/Uri;
@@ -275,7 +276,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -284,7 +285,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p1, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v0, p1, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -317,7 +318,7 @@
     move-result v1
 
     .line 18
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     .line 19
     .line 20
@@ -449,7 +450,7 @@
 
     .line 79
     .line 80
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 81
     .line 82
@@ -1116,4 +1117,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

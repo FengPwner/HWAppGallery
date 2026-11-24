@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean;",
         ">;"
     }
@@ -47,19 +47,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdResBean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/wu;->c:I
+    sget v0, Lcom/huawei/appmarket/xu;->c:I
 
     .line 2
     .line 3
@@ -78,7 +78,7 @@
 
     .line 9
     .line 10
-    sget v0, Lcom/huawei/appmarket/wu;->b:I
+    sget v0, Lcom/huawei/appmarket/xu;->b:I
 
     .line 11
     .line 12
@@ -90,12 +90,12 @@
 
     .line 15
     .line 16
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    sget p1, Lcom/huawei/appmarket/wu;->c:I
+    sget p1, Lcom/huawei/appmarket/xu;->c:I
 
     .line 20
     .line 21
@@ -103,7 +103,7 @@
 
     .line 22
     .line 23
-    sput p1, Lcom/huawei/appmarket/wu;->c:I
+    sput p1, Lcom/huawei/appmarket/xu;->c:I
 
     .line 24
     .line 25
@@ -116,7 +116,7 @@
 
     .line 29
     :cond_0
-    sput v1, Lcom/huawei/appmarket/wu;->c:I
+    sput v1, Lcom/huawei/appmarket/xu;->c:I
 
     .line 30
     .line 31
@@ -136,7 +136,7 @@
 
     .line 38
     .line 39
-    invoke-static {v4, v0, v5}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v0, v5}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -165,7 +165,7 @@
     move-result-object v4
 
     .line 54
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -194,7 +194,7 @@
 
     .line 68
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -222,7 +222,7 @@
 
     .line 81
     .line 82
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 83
     .line 84
@@ -238,7 +238,7 @@
     move-result-object p1
 
     .line 90
-    sget v0, Lcom/huawei/appmarket/wu;->b:I
+    sget v0, Lcom/huawei/appmarket/xu;->b:I
 
     .line 91
     .line 92
@@ -254,7 +254,7 @@
     .line 96
     .line 97
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 98
     .line 99
@@ -281,7 +281,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 112
     .line 113
@@ -289,7 +289,7 @@
     move-result-object p1
 
     .line 115
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 116
     .line 117
@@ -311,7 +311,7 @@
     move-result-object p1
 
     .line 126
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 127
     .line 128
@@ -412,7 +412,7 @@
     move-result-object p1
 
     .line 178
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 179
     .line 180
@@ -557,7 +557,7 @@
     move-result-object p1
 
     .line 251
-    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     .line 252
     .line 253
@@ -565,7 +565,7 @@
     move-result-object p1
 
     .line 255
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 256
     .line 257
@@ -584,7 +584,7 @@
 
     .line 263
     .line 264
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 265
     .line 266
@@ -597,7 +597,7 @@
     move-result-object p1
 
     .line 271
-    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     .line 272
     .line 273
@@ -605,7 +605,7 @@
     move-result-object p1
 
     .line 275
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 276
     .line 277
@@ -969,9 +969,4 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method

@@ -21,16 +21,16 @@
     .end annotation
 .end method
 
-.method public abstract b(Ljava/lang/String;)Lcom/huawei/appmarket/hd1;
+.method public abstract b(Ljava/lang/String;)Lcom/huawei/appmarket/jd1;
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/wg0;)V
+.method public abstract c(Lcom/huawei/appmarket/xg0;)V
 .end method
 
 .method public abstract d(JJLjava/lang/String;)J
 .end method
 
-.method public abstract e(JJLjava/lang/String;)Lcom/huawei/appmarket/wg0;
+.method public abstract e(JJLjava/lang/String;)Lcom/huawei/appmarket/xg0;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/InterruptedException;,
@@ -39,7 +39,7 @@
     .end annotation
 .end method
 
-.method public abstract f(JJLjava/lang/String;)Lcom/huawei/appmarket/wg0;
+.method public abstract f(JJLjava/lang/String;)Lcom/huawei/appmarket/xg0;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/media3/datasource/cache/Cache$CacheException;
@@ -66,7 +66,7 @@
     .end annotation
 .end method
 
-.method public abstract j(Lcom/huawei/appmarket/wg0;)V
+.method public abstract j(Lcom/huawei/appmarket/xg0;)V
 .end method
 
 .method public abstract k(Ljava/lang/String;)V

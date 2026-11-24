@@ -12,15 +12,15 @@
     return-void
 .end method
 
-.method public static final a(Lcom/huawei/appmarket/cr6;)V
+.method public static final a(Lcom/huawei/appmarket/fr6;)V
     .registers 5
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/rp;
+    const-class v0, Lcom/huawei/appmarket/qp;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/z84;->i(Ljava/lang/Class;)Lcom/huawei/appmarket/en;
+    invoke-static {v0}, Lcom/huawei/appmarket/kk4;->h(Ljava/lang/Class;)Lcom/huawei/appmarket/dn;
 
     .line 4
     .line 5
@@ -37,14 +37,14 @@
     .line 10
     .line 11
     .line 12
-    new-instance v2, Lcom/huawei/appmarket/ka5;
+    new-instance v2, Lcom/huawei/appmarket/na5;
 
     .line 13
     .line 14
     const/4 v3, 0x5
 
     .line 15
-    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/ka5;-><init>(Lcom/huawei/appmarket/ja5;I)V
+    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/na5;-><init>(Lcom/huawei/appmarket/ma5;I)V
 
     .line 16
     .line 17
@@ -53,7 +53,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/ka5;->e(Lcom/huawei/appmarket/cr6;Ljava/lang/String;Lcom/huawei/appmarket/en;)V
+    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/na5;->e(Lcom/huawei/appmarket/fr6;Ljava/lang/String;Lcom/huawei/appmarket/dn;)V
 
     .line 21
     .line 22
@@ -150,5 +150,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

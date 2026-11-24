@@ -65,7 +65,7 @@
     move-result-object v0
 
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 27
     .line 28
@@ -155,7 +155,7 @@
     move-result-object v3
 
     .line 71
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bu5;->c(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/du5;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 72
     .line 73
@@ -172,7 +172,7 @@
     .line 78
     .line 79
     :goto_0
-    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/kk4;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -314,7 +314,7 @@
     move-result-object p1
 
     .line 151
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
     .line 153
@@ -357,7 +357,7 @@
     .line 172
     .line 173
     .line 174
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/xi0;->a(Landroid/content/Context;ILcom/huawei/appmarket/xi0$b;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/yi0;->a(Landroid/content/Context;ILcom/huawei/appmarket/yi0$b;)V
 
     .line 175
     .line 176

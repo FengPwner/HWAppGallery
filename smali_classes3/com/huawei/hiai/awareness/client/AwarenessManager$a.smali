@@ -41,7 +41,7 @@
 
     const-string v0, "onServiceConnected"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager$a;->b:Lcom/huawei/hiai/awareness/client/AwarenessManager;
 
@@ -52,11 +52,11 @@
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
     :try_start_0
-    invoke-static {p2}, Lcom/huawei/appmarket/ki3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/ki3;
+    invoke-static {p2}, Lcom/huawei/appmarket/mi3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/mi3;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/ki3;)V
+    invoke-static {p1, p2}, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/mi3;)V
 
     const/4 p2, 0x1
 
@@ -104,7 +104,7 @@
 
     const-string v0, "onServiceDisconnected"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/hiai/awareness/client/AwarenessManager$a;->b:Lcom/huawei/hiai/awareness/client/AwarenessManager;
 
@@ -117,7 +117,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-static {p1, v0}, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/ki3;)V
+    invoke-static {p1, v0}, Lcom/huawei/hiai/awareness/client/AwarenessManager;->b(Lcom/huawei/hiai/awareness/client/AwarenessManager;Lcom/huawei/appmarket/mi3;)V
 
     const/4 v0, 0x0
 

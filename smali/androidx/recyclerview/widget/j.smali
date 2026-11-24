@@ -480,6 +480,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -800,6 +807,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method final b(J)V
@@ -1300,7 +1314,7 @@
 
     .line 232
     .line 233
-    invoke-static {v8}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v8}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
 
     .line 234
     .line 235
@@ -1395,7 +1409,7 @@
 
     .line 276
     .line 277
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     .line 278
     .line 279
@@ -1404,7 +1418,7 @@
 
     .line 281
     :goto_9
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     .line 282
     .line 283
@@ -1506,7 +1520,7 @@
     :try_start_0
     const-string v2, "RV Prefetch"
 
-    invoke-static {v2}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1524,7 +1538,7 @@
     :goto_0
     iput-wide v0, p0, Landroidx/recyclerview/widget/j;->c:J
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     return-void
 
@@ -1598,14 +1612,14 @@
 
     iput-wide v0, p0, Landroidx/recyclerview/widget/j;->c:J
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     return-void
 
     :goto_3
     iput-wide v0, p0, Landroidx/recyclerview/widget/j;->c:J
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     throw v2
 .end method

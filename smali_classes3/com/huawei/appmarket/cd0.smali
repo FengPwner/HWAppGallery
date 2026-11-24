@@ -7,7 +7,7 @@
 .method public abstract getGameInfo()Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;
 .end method
 
-.method public abstract getRequestParams()Lcom/huawei/appmarket/pe0;
+.method public abstract getRequestParams()Lcom/huawei/appmarket/qe0;
 .end method
 
 .method public abstract onClose()V

@@ -78,7 +78,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->j(Ljava/util/List;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/lp7;->j(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -114,7 +114,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14

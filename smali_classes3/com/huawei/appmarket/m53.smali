@@ -3,34 +3,27 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/xy5;",
-        ">;"
-    }
-.end annotation
+.implements Lcom/huawei/appmarket/nk3;
 
 
 # instance fields
-.field final synthetic b:Landroid/content/Context;
+.field final synthetic a:Landroid/content/Context;
 
-.field final synthetic c:Lcom/huawei/appmarket/es3;
+.field final synthetic b:Z
+
+.field final synthetic c:Lcom/huawei/appmarket/gs3;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/es3;)V
-    .registers 3
+.method constructor <init>(Landroid/content/Context;ZLcom/huawei/appmarket/gs3;)V
+    .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/m53;->b:Landroid/content/Context;
+    iput-object p1, p0, Lcom/huawei/appmarket/m53;->a:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/m53;->c:Lcom/huawei/appmarket/es3;
+    iput-boolean p2, p0, Lcom/huawei/appmarket/m53;->b:Z
+
+    iput-object p3, p0, Lcom/huawei/appmarket/m53;->c:Lcom/huawei/appmarket/gs3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,41 +32,28 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/xy5;",
-            ">;)V"
-        }
-    .end annotation
+.method public final a()V
+    .registers 2
 
     .line 1
-    const-string p1, "DeviceInstallationInfos"
+    iget-object v0, p0, Lcom/huawei/appmarket/m53;->c:Lcom/huawei/appmarket/gs3;
 
-    const-class v0, Lcom/huawei/appmarket/lh3;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gs3;->h()V
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    return-void
+.end method
 
-    move-result-object p1
+.method public final b()V
+    .registers 4
 
-    check-cast p1, Lcom/huawei/appmarket/lh3;
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/m53;->b:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+    iget-object v1, p0, Lcom/huawei/appmarket/m53;->c:Lcom/huawei/appmarket/gs3;
 
-    move-result-object v0
+    iget-object v2, p0, Lcom/huawei/appmarket/m53;->a:Landroid/content/Context;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/huawei/appmarket/m53$a;
-
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/m53$a;-><init>(Lcom/huawei/appmarket/m53;)V
-
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/lh3;->b(Landroid/content/Context;Lcom/huawei/appmarket/wc4;)I
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/o53;->a(Landroid/content/Context;ZLcom/huawei/appmarket/gs3;)V
 
     return-void
 .end method

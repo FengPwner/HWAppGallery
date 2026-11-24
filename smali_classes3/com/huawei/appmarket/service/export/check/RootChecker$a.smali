@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -48,7 +48,7 @@
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/export/check/RootChecker;->access$002(Z)Z
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     goto :goto_0
 
@@ -61,7 +61,7 @@
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/export/check/RootChecker;->access$002(Z)Z
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :cond_1
     :goto_0

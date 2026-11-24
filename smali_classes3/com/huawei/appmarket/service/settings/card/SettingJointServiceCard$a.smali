@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/SettingJointServiceCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingJointServiceCard$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingJointServiceCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,7 +34,7 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 

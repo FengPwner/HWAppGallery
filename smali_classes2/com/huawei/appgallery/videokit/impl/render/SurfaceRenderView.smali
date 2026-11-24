@@ -38,7 +38,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -167,7 +167,7 @@
 
     const-string v0, "surfaceCallBack"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/SurfaceRenderView;->surfaceCallBack:Lcom/huawei/appgallery/videokit/impl/render/SurfaceCallBack;
 
@@ -202,7 +202,7 @@
 
     const-string p2, "holder"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p2, p0, Lcom/huawei/appgallery/videokit/impl/render/SurfaceRenderView;->mMediaPlayer:Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;
 
@@ -226,7 +226,7 @@
 
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -236,7 +236,7 @@
 
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

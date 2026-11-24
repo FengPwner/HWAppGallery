@@ -89,7 +89,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -126,7 +126,7 @@
 
     .line 50
     .line 51
-    invoke-static {}, Lcom/huawei/appmarket/am5;->b()Lcom/huawei/appmarket/am5;
+    invoke-static {}, Lcom/huawei/appmarket/cm5;->b()Lcom/huawei/appmarket/cm5;
 
     .line 52
     .line 53
@@ -138,7 +138,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/am5;->a(J)Ljava/lang/Object;
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/cm5;->a(J)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -216,7 +216,7 @@
     move-result-object v1
 
     .line 94
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -289,7 +289,7 @@
     .line 128
     .line 129
     :goto_2
-    invoke-static {p1, p0, v0}, Lcom/huawei/appmarket/xe8;->a(Lcom/huawei/appgallery/ui/dialog/impl/AGFragmentDialog;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, p0, v0}, Lcom/huawei/appmarket/cf8;->a(Lcom/huawei/appgallery/ui/dialog/impl/AGFragmentDialog;Landroid/content/Context;Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -307,7 +307,7 @@
 
     .line 136
     .line 137
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 138
     .line 139
@@ -460,7 +460,7 @@
 
     const-string v2, "DialogActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appgallery/ui/dialog/impl/activity/DialogActivity;->d:Z
 
@@ -477,13 +477,13 @@
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->clear()V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/am5;->b()Lcom/huawei/appmarket/am5;
+    invoke-static {}, Lcom/huawei/appmarket/cm5;->b()Lcom/huawei/appmarket/cm5;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/huawei/appgallery/ui/dialog/impl/activity/DialogActivity;->b:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/am5;->d(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cm5;->d(J)V
 
     :cond_1
     return-void
@@ -500,7 +500,7 @@
 
     const-string v1, "onSaveInstanceState"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 

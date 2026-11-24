@@ -73,13 +73,13 @@
     :cond_0
     const-string p1, "DeviceInstallationInfos"
 
-    const-class v0, Lcom/huawei/appmarket/yh3;
+    const-class v0, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/yh3;
+    check-cast p1, Lcom/huawei/appmarket/ai3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/yh3;->d(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ai3;->d(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/su1;
+.implements Lcom/huawei/appmarket/wu1;
 
 
 # annotations
@@ -42,7 +42,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oz5;->a()Lcom/huawei/appmarket/oz5;
+    invoke-static {}, Lcom/huawei/appmarket/qz5;->a()Lcom/huawei/appmarket/qz5;
 
     move-result-object v0
 
@@ -50,7 +50,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$b;->b:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/oz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oz5;->a()Lcom/huawei/appmarket/oz5;
+    invoke-static {}, Lcom/huawei/appmarket/qz5;->a()Lcom/huawei/appmarket/qz5;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$b;->b:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/oz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qz5;->d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 
     return-void
 .end method

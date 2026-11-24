@@ -176,7 +176,7 @@
 
     invoke-direct {v3, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "version"
+    const-string/jumbo p1, "version"
 
     invoke-virtual {v3, p1}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
@@ -208,7 +208,7 @@
 
     iput-object p1, v2, Lcom/huawei/wisesecurity/ucs/credential/entity/KeyEncryptKey;->key:Ljava/lang/String;
 
-    const-string p1, "v1"
+    const-string/jumbo p1, "v1"
 
     invoke-virtual {v3, p1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
@@ -216,7 +216,7 @@
 
     iput p1, v2, Lcom/huawei/wisesecurity/ucs/credential/entity/KeyEncryptKey;->v1:I
 
-    const-string p1, "v2"
+    const-string/jumbo p1, "v2"
 
     invoke-virtual {v3, p1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 

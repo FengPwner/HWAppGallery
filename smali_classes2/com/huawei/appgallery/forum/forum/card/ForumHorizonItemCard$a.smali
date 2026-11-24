@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard$a;->b:Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,9 +34,9 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 6
 
-    new-instance p1, Lcom/huawei/appmarket/fl0$b;
+    new-instance p1, Lcom/huawei/appmarket/gl0$b;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/fl0$b;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/gl0$b;-><init>()V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard$a;->b:Lcom/huawei/appgallery/forum/forum/card/ForumHorizonItemCard;
 
@@ -48,9 +48,9 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/fl0$b;->o(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/gl0$b;->o(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fl0$b;->m()Lcom/huawei/appmarket/fl0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gl0$b;->m()Lcom/huawei/appmarket/gl0;
 
     move-result-object p1
 
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/el0;->a(Landroid/content/Context;Lcom/huawei/appmarket/fl0;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/fl0;->a(Landroid/content/Context;Lcom/huawei/appmarket/gl0;)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -68,7 +68,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+    invoke-static {}, Lcom/huawei/appmarket/os4;->a()Lcom/huawei/appmarket/os4;
 
     move-result-object p1
 
@@ -84,13 +84,13 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {p1, v1, v2, v3}, Lcom/huawei/appmarket/ls4;->b(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/Section;Landroid/widget/TextView;)V
+    invoke-virtual {p1, v1, v2, v3}, Lcom/huawei/appmarket/os4;->b(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/Section;Landroid/widget/TextView;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v1
 
@@ -100,7 +100,7 @@
 
     check-cast v0, Lcom/huawei/appgallery/forum/base/card/bean/Section;
 
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/gp3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ip3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     :cond_0
     return-void

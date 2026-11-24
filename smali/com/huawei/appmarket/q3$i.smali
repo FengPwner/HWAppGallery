@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xv4;
+.implements Lcom/huawei/appmarket/aw4;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/xv4<",
+        "Lcom/huawei/appmarket/aw4<",
         "TV;>;"
     }
 .end annotation

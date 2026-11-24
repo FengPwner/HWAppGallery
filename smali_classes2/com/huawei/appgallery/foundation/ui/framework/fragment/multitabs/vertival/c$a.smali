@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->m(Landroid/view/View;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c$d;)V
+    value = Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->n(Landroid/view/View;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c$d;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -58,7 +58,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     move-result-object v1
 

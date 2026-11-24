@@ -187,35 +187,35 @@
     if-lez p0, :cond_3
 
     :cond_2
-    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p1, "translationXCurveUpwards"
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object p0
 
-    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p2, "translationYCurveUpwards"
 
     :goto_0
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object p1
 
     goto :goto_2
 
     :cond_3
-    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p1, "translationXCurveDownwards"
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object p0
 
-    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p2, "translationYCurveDownwards"
 
@@ -223,15 +223,15 @@
 
     :cond_4
     :goto_1
-    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p0, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p1, "translationXLinear"
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object p0
 
-    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p1, p3, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string p2, "translationYLinear"
 
@@ -245,7 +245,7 @@
     return-object p2
 .end method
 
-.method private x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+.method private x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
     .registers 7
 
     .line 1
@@ -280,7 +280,7 @@
     .line 16
     .line 17
     .line 18
-    iget p1, p3, Lcom/huawei/appmarket/z26;->a:I
+    iget p1, p3, Lcom/huawei/appmarket/b36;->a:I
 
     .line 19
     .line 20
@@ -364,7 +364,7 @@
 
     .line 53
     :goto_1
-    iget p2, p3, Lcom/huawei/appmarket/z26;->b:F
+    iget p2, p3, Lcom/huawei/appmarket/b36;->b:F
 
     .line 54
     .line 55
@@ -599,9 +599,16 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
-.method private y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+.method private y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
     .registers 7
 
     .line 1
@@ -636,7 +643,7 @@
     .line 16
     .line 17
     .line 18
-    iget p1, p3, Lcom/huawei/appmarket/z26;->a:I
+    iget p1, p3, Lcom/huawei/appmarket/b36;->a:I
 
     .line 19
     .line 20
@@ -723,7 +730,7 @@
 
     .line 56
     :goto_1
-    iget p2, p3, Lcom/huawei/appmarket/z26;->c:F
+    iget p2, p3, Lcom/huawei/appmarket/b36;->c:F
 
     .line 57
     .line 58
@@ -955,33 +962,40 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
-.method private static z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/ob5;F)F
+.method private static z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/rb5;F)F
     .registers 11
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ob5;->c()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rb5;->c()J
 
     move-result-wide v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ob5;->d()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rb5;->d()J
 
     move-result-wide v2
 
-    iget-object p0, p0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object p0, p0, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v4, "expansion"
 
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ob5;->c()J
+    invoke-virtual {p0}, Lcom/huawei/appmarket/rb5;->c()J
 
     move-result-wide v4
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ob5;->d()J
+    invoke-virtual {p0}, Lcom/huawei/appmarket/rb5;->d()J
 
     move-result-wide v6
 
@@ -999,7 +1013,7 @@
 
     div-float/2addr p0, v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ob5;->e()Landroid/animation/TimeInterpolator;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rb5;->e()Landroid/animation/TimeInterpolator;
 
     move-result-object p1
 
@@ -1009,7 +1023,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p2, p1, p0}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {p2, p1, p0}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     move-result p0
 
@@ -1128,11 +1142,11 @@
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
     .line 1
-    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     move-result v7
 
-    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     move-result v8
 
@@ -1179,30 +1193,30 @@
     move-result-object v7
 
     :goto_0
-    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v12, "elevation"
 
-    invoke-virtual {v11, v12}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {v11, v12}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object v11
 
-    invoke-virtual {v11, v7}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v11, v7}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     iget-object v7, v0, Lcom/google/android/material/transformation/FabTransformationBehavior;->d:Landroid/graphics/RectF;
 
     .line 2
-    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
-    invoke-direct {v0, v1, v2, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v11
 
-    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
-    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v12
 
@@ -1212,11 +1226,11 @@
 
     iget-object v14, v13, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    check-cast v14, Lcom/huawei/appmarket/ob5;
+    check-cast v14, Lcom/huawei/appmarket/rb5;
 
     iget-object v13, v13, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    check-cast v13, Lcom/huawei/appmarket/ob5;
+    check-cast v13, Lcom/huawei/appmarket/rb5;
 
     iget-object v15, v0, Lcom/google/android/material/transformation/FabTransformationBehavior;->e:Landroid/graphics/RectF;
 
@@ -1268,11 +1282,11 @@
     neg-float v11, v12
 
     .line 3
-    invoke-static {v4, v14, v10}, Lcom/google/android/material/transformation/FabTransformationBehavior;->z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/ob5;F)F
+    invoke-static {v4, v14, v10}, Lcom/google/android/material/transformation/FabTransformationBehavior;->z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/rb5;F)F
 
     move-result v10
 
-    invoke-static {v4, v13, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/ob5;F)F
+    invoke-static {v4, v13, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->z(Lcom/google/android/material/transformation/FabTransformationBehavior$b;Lcom/huawei/appmarket/rb5;F)F
 
     move-result v11
 
@@ -1325,9 +1339,9 @@
     move-result-object v10
 
     :goto_1
-    invoke-virtual {v14, v6}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v14, v6}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
-    invoke-virtual {v13, v10}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v13, v10}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1343,15 +1357,15 @@
     move-result v10
 
     .line 6
-    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v11, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
-    invoke-direct {v0, v1, v2, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v11}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v11
 
-    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
-    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v12
 
@@ -1361,11 +1375,11 @@
 
     iget-object v14, v13, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    check-cast v14, Lcom/huawei/appmarket/ob5;
+    check-cast v14, Lcom/huawei/appmarket/rb5;
 
     iget-object v13, v13, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    check-cast v13, Lcom/huawei/appmarket/ob5;
+    check-cast v13, Lcom/huawei/appmarket/rb5;
 
     move/from16 v19, v11
 
@@ -1420,9 +1434,9 @@
 
     move-result-object v6
 
-    invoke-virtual {v14, v8}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v14, v8}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
-    invoke-virtual {v13, v6}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v13, v6}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1472,7 +1486,7 @@
     invoke-virtual {v11, v12}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
     :cond_a
-    sget-object v12, Lcom/huawei/appmarket/iw1;->a:Lcom/huawei/appmarket/iw1;
+    sget-object v12, Lcom/huawei/appmarket/mw1;->a:Lcom/huawei/appmarket/mw1;
 
     const/4 v13, 0x0
 
@@ -1487,7 +1501,7 @@
     goto :goto_6
 
     :cond_b
-    sget-object v13, Lcom/huawei/appmarket/iw1;->a:Lcom/huawei/appmarket/iw1;
+    sget-object v13, Lcom/huawei/appmarket/mw1;->a:Lcom/huawei/appmarket/mw1;
 
     filled-new-array {v12}, [I
 
@@ -1504,15 +1518,15 @@
 
     invoke-virtual {v12, v13}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    iget-object v13, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v13, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v14, "iconFade"
 
-    invoke-virtual {v13, v14}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {v13, v14}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object v13
 
-    invoke-virtual {v13, v12}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v13, v12}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v12}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1537,7 +1551,7 @@
 
     check-cast v11, Lcom/google/android/material/circularreveal/c;
 
-    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v12, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
     .line 9
     invoke-direct {v0, v1, v7}, Lcom/google/android/material/transformation/FabTransformationBehavior;->A(Landroid/view/View;Landroid/graphics/RectF;)V
@@ -1551,7 +1565,7 @@
     .line 10
     invoke-direct {v0, v2, v15}, Lcom/google/android/material/transformation/FabTransformationBehavior;->A(Landroid/view/View;Landroid/graphics/RectF;)V
 
-    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v12}, Lcom/google/android/material/transformation/FabTransformationBehavior;->x(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v12
 
@@ -1570,7 +1584,7 @@
     sub-float/2addr v12, v13
 
     .line 11
-    iget-object v13, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/z26;
+    iget-object v13, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->b:Lcom/huawei/appmarket/b36;
 
     .line 12
     invoke-direct {v0, v1, v7}, Lcom/google/android/material/transformation/FabTransformationBehavior;->A(Landroid/view/View;Landroid/graphics/RectF;)V
@@ -1586,7 +1600,7 @@
     .line 13
     invoke-direct {v0, v2, v15}, Lcom/google/android/material/transformation/FabTransformationBehavior;->A(Landroid/view/View;Landroid/graphics/RectF;)V
 
-    invoke-direct {v0, v1, v2, v13}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/z26;)F
+    invoke-direct {v0, v1, v2, v13}, Lcom/google/android/material/transformation/FabTransformationBehavior;->y(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/b36;)F
 
     move-result v6
 
@@ -1621,11 +1635,11 @@
 
     div-float/2addr v7, v9
 
-    iget-object v9, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v9, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v13, "expansion"
 
-    invoke-virtual {v9, v13}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {v9, v13}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object v9
 
@@ -1651,7 +1665,7 @@
     :cond_e
     move/from16 v15, v21
 
-    invoke-static {v12, v6, v15, v10}, Lcom/huawei/appmarket/y45;->a(FFFF)F
+    invoke-static {v12, v6, v15, v10}, Lcom/huawei/appmarket/b55;->a(FFFF)F
 
     move-result v10
 
@@ -1665,7 +1679,7 @@
 
     invoke-virtual {v10, v15}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    invoke-virtual {v9}, Lcom/huawei/appmarket/ob5;->c()J
+    invoke-virtual {v9}, Lcom/huawei/appmarket/rb5;->c()J
 
     move-result-wide v13
 
@@ -1707,7 +1721,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v9}, Lcom/huawei/appmarket/ob5;->c()J
+    invoke-virtual {v9}, Lcom/huawei/appmarket/rb5;->c()J
 
     move-result-wide v13
 
@@ -1738,17 +1752,17 @@
 
     .line 18
     :cond_11
-    invoke-virtual {v9}, Lcom/huawei/appmarket/ob5;->c()J
+    invoke-virtual {v9}, Lcom/huawei/appmarket/rb5;->c()J
 
     move-result-wide v10
 
-    invoke-virtual {v9}, Lcom/huawei/appmarket/ob5;->d()J
+    invoke-virtual {v9}, Lcom/huawei/appmarket/rb5;->d()J
 
     move-result-wide v13
 
-    iget-object v0, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v0, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb5;->g()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb5;->g()J
 
     move-result-wide v20
 
@@ -1776,7 +1790,7 @@
 
     .line 20
     :goto_8
-    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1798,7 +1812,7 @@
     check-cast v0, Lcom/google/android/material/circularreveal/c;
 
     .line 22
-    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ei8;->k(Landroid/view/View;)Landroid/content/res/ColorStateList;
+    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ki8;->k(Landroid/view/View;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -1858,21 +1872,21 @@
     move-result-object v0
 
     :goto_b
-    invoke-static {}, Lcom/huawei/appmarket/ww;->b()Lcom/huawei/appmarket/ww;
+    invoke-static {}, Lcom/huawei/appmarket/xw;->b()Lcom/huawei/appmarket/xw;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
 
-    iget-object v1, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v1, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v6, "color"
 
-    invoke-virtual {v1, v6}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {v1, v6}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1966,7 +1980,7 @@
     if-nez p4, :cond_1d
 
     .line 31
-    sget-object v0, Lcom/huawei/appmarket/up0;->a:Lcom/huawei/appmarket/up0;
+    sget-object v0, Lcom/huawei/appmarket/vp0;->a:Lcom/huawei/appmarket/vp0;
 
     const/4 v1, 0x0
 
@@ -1974,10 +1988,10 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v6, v1}, Lcom/huawei/appmarket/up0;->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, v6, v1}, Lcom/huawei/appmarket/vp0;->set(Ljava/lang/Object;Ljava/lang/Object;)V
 
     :cond_1d
-    sget-object v0, Lcom/huawei/appmarket/up0;->a:Lcom/huawei/appmarket/up0;
+    sget-object v0, Lcom/huawei/appmarket/vp0;->a:Lcom/huawei/appmarket/vp0;
 
     const/4 v1, 0x1
 
@@ -2000,7 +2014,7 @@
 
     const/4 v9, 0x0
 
-    sget-object v0, Lcom/huawei/appmarket/up0;->a:Lcom/huawei/appmarket/up0;
+    sget-object v0, Lcom/huawei/appmarket/vp0;->a:Lcom/huawei/appmarket/vp0;
 
     new-array v1, v1, [F
 
@@ -2013,15 +2027,15 @@
     move-result-object v0
 
     :goto_10
-    iget-object v1, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/nb5;
+    iget-object v1, v4, Lcom/google/android/material/transformation/FabTransformationBehavior$b;->a:Lcom/huawei/appmarket/qb5;
 
     const-string v4, "contentFade"
 
-    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/nb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/ob5;
+    invoke-virtual {v1, v4}, Lcom/huawei/appmarket/qb5;->f(Ljava/lang/String;)Lcom/huawei/appmarket/rb5;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ob5;->a(Landroid/animation/Animator;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/rb5;->a(Landroid/animation/Animator;)V
 
     invoke-virtual {v5, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -2031,7 +2045,7 @@
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
 
-    invoke-static {v0, v5}, Lcom/huawei/appmarket/pm;->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/om;->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
 
     new-instance v1, Lcom/google/android/material/transformation/FabTransformationBehavior$a;
 

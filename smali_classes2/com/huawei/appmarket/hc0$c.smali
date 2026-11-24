@@ -195,7 +195,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -258,7 +257,7 @@
 
     const-string v3, "BubbleTips"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v2, p0, Lcom/huawei/appmarket/hc0$c;->f:I
 

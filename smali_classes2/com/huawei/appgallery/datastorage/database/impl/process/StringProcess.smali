@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s44;
+.implements Lcom/huawei/appmarket/v44;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/s44<",
+        "Lcom/huawei/appmarket/v44<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/f91;Ljava/lang/reflect/Field;)V
+.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/g91;Ljava/lang/reflect/Field;)V
     .registers 6
 
     .line 1
@@ -47,7 +47,7 @@
     goto :goto_1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -64,12 +64,12 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 

@@ -36,20 +36,20 @@
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/agconnect/common/api/HaBridge;Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic a(Lcom/huawei/agconnect/common/api/HaBridge;Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$syncOAID$5(Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$syncOAID$5(Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
 
-.method public static synthetic b(Lcom/huawei/appmarket/nv7;ZLcom/huawei/appmarket/hv7;)V
+.method public static synthetic b(Lcom/huawei/appmarket/tv7;ZLcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$getUserProfiles$3(Lcom/huawei/appmarket/nv7;ZLcom/huawei/appmarket/hv7;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$getUserProfiles$3(Lcom/huawei/appmarket/tv7;ZLcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
@@ -65,65 +65,65 @@
     return-object p0
 .end method
 
-.method public static synthetic d(Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic d(Lcom/huawei/appmarket/nv7;)V
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$onReport$2(Lcom/huawei/appmarket/hv7;)V
+    invoke-static {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$onReport$2(Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
 
-.method public static synthetic e(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic e(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$onEvent$1(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$onEvent$1(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
 
-.method public static synthetic f(Lcom/huawei/appmarket/nv7;Ljava/lang/Exception;)V
+.method public static synthetic f(Lcom/huawei/appmarket/tv7;Ljava/lang/Exception;)V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$getUserProfiles$4(Lcom/huawei/appmarket/nv7;Ljava/lang/Exception;)V
+    invoke-static {p0, p1}, Lcom/huawei/agconnect/common/api/HaBridge;->lambda$getUserProfiles$4(Lcom/huawei/appmarket/tv7;Ljava/lang/Exception;)V
 
     return-void
 .end method
 
-.method private initHaInMain()Lcom/huawei/appmarket/hv7;
+.method private initHaInMain()Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/credential/obs/c;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->uiThread()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->uiThread()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/h43;
+    new-instance v1, Lcom/huawei/appmarket/k43;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/h43;-><init>(Lcom/huawei/agconnect/common/api/HaBridge;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/k43;-><init>(Lcom/huawei/agconnect/common/api/HaBridge;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method private static synthetic lambda$getUserProfiles$3(Lcom/huawei/appmarket/nv7;ZLcom/huawei/appmarket/hv7;)V
+.method private static synthetic lambda$getUserProfiles$3(Lcom/huawei/appmarket/tv7;ZLcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -133,18 +133,18 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method private static synthetic lambda$getUserProfiles$4(Lcom/huawei/appmarket/nv7;Ljava/lang/Exception;)V
+.method private static synthetic lambda$getUserProfiles$4(Lcom/huawei/appmarket/tv7;Ljava/lang/Exception;)V
     .registers 2
 
     .line 1
     const/4 p1, 0x0
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -221,11 +221,11 @@
     throw v1
 .end method
 
-.method private static synthetic lambda$onEvent$1(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/hv7;)V
+.method private static synthetic lambda$onEvent$1(Ljava/lang/String;Landroid/os/Bundle;Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -236,11 +236,11 @@
     return-void
 .end method
 
-.method private static synthetic lambda$onReport$2(Lcom/huawei/appmarket/hv7;)V
+.method private static synthetic lambda$onReport$2(Lcom/huawei/appmarket/nv7;)V
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -251,7 +251,7 @@
     return-void
 .end method
 
-.method private synthetic lambda$syncOAID$5(Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/hv7;)V
+.method private synthetic lambda$syncOAID$5(Lcom/huawei/agconnect/common/api/HaSyncCallBack;Lcom/huawei/appmarket/nv7;)V
     .registers 5
 
     .line 1
@@ -261,7 +261,7 @@
 
     invoke-static {v0, v1}, Lcom/huawei/agconnect/common/api/Logger;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -278,12 +278,12 @@
 
 
 # virtual methods
-.method public getUserProfiles(Z)Lcom/huawei/appmarket/hv7;
+.method public getUserProfiles(Z)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
@@ -292,38 +292,38 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/tb1;
+    new-instance v2, Lcom/huawei/appmarket/vb1;
 
     const/4 v3, 0x3
 
-    invoke-direct {v2, v3, p1, v0}, Lcom/huawei/appmarket/tb1;-><init>(IZLjava/lang/Object;)V
+    invoke-direct {v2, v3, p1, v0}, Lcom/huawei/appmarket/vb1;-><init>(IZLjava/lang/Object;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    new-instance v1, Lcom/huawei/appmarket/jo7;
+    new-instance v1, Lcom/huawei/appmarket/oo7;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/jo7;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/oo7;-><init>(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public onEvent(Ljava/lang/String;Landroid/os/Bundle;)Lcom/huawei/appmarket/hv7;
+.method public onEvent(Ljava/lang/String;Landroid/os/Bundle;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -331,53 +331,53 @@
             "Ljava/lang/String;",
             "Landroid/os/Bundle;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/i43;
+    new-instance v2, Lcom/huawei/appmarket/l43;
 
     const/4 v3, 0x1
 
-    invoke-direct {v2, p1, v3, p2}, Lcom/huawei/appmarket/i43;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v2, p1, v3, p2}, Lcom/huawei/appmarket/l43;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public onReport()Lcom/huawei/appmarket/hv7;
+.method public onReport()Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
@@ -387,46 +387,46 @@
 
     invoke-direct {v2, v3}, Lcom/huawei/appmarket/jb0;-><init>(I)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public syncOAID(Lcom/huawei/agconnect/common/api/HaSyncCallBack;)Lcom/huawei/appmarket/hv7;
+.method public syncOAID(Lcom/huawei/agconnect/common/api/HaSyncCallBack;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/agconnect/common/api/HaSyncCallBack;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0}, Lcom/huawei/agconnect/common/api/HaBridge;->initHaInMain()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/i43;
+    new-instance v2, Lcom/huawei/appmarket/l43;
 
     const/4 v3, 0x0
 
-    invoke-direct {v2, p0, v3, p1}, Lcom/huawei/appmarket/i43;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v2, p0, v3, p1}, Lcom/huawei/appmarket/l43;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

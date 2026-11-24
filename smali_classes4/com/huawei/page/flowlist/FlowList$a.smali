@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/mb2;I)V
+.method public final b(Lcom/huawei/appmarket/pb2;I)V
     .registers 4
 
     .line 1
@@ -79,7 +79,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p2, v0, p1}, Lcom/huawei/page/flowlist/FlowList;->e(ILcom/huawei/page/flowlist/FlowList;Lcom/huawei/appmarket/mb2;)V
+    invoke-static {p2, v0, p1}, Lcom/huawei/page/flowlist/FlowList;->e(ILcom/huawei/page/flowlist/FlowList;Lcom/huawei/appmarket/pb2;)V
 
     :cond_0
     return-void

@@ -35,7 +35,7 @@
     return-void
 .end method
 
-.method public final b(Landroid/os/Looper;Lcom/huawei/appmarket/t16;)V
+.method public final b(Landroid/os/Looper;Lcom/huawei/appmarket/v16;)V
     .registers 3
 
     .line 1
@@ -97,7 +97,7 @@
     .registers 3
 
     .line 1
-    sget-object p1, Landroidx/media3/exoplayer/drm/f$b;->n1:Lcom/huawei/appmarket/jb0;
+    sget-object p1, Landroidx/media3/exoplayer/drm/f$b;->p1:Lcom/huawei/appmarket/jb0;
 
     return-object p1
 .end method

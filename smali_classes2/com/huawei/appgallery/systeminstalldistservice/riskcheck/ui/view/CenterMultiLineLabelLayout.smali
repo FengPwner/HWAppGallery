@@ -16,11 +16,11 @@
     .end annotation
 .end field
 
-.field private j:Lcom/huawei/appmarket/pi0;
+.field private j:Lcom/huawei/appmarket/qi0;
 
 .field private k:Lcom/huawei/appgallery/systeminstalldistservice/utils/CapsuleDisplayExposure;
 
-.field private l:Lcom/huawei/appmarket/iu;
+.field private l:Lcom/huawei/appmarket/ju;
 
 
 # direct methods
@@ -200,11 +200,11 @@
 
     .line 66
     .line 67
-    iget-object p5, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/pi0;
+    iget-object p5, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/qi0;
 
     .line 68
     .line 69
-    invoke-virtual {p3, p4, p5}, Lcom/huawei/appgallery/systeminstalldistservice/utils/CapsuleDisplayExposure;->c(Landroid/view/View;Lcom/huawei/appmarket/pi0;)V
+    invoke-virtual {p3, p4, p5}, Lcom/huawei/appgallery/systeminstalldistservice/utils/CapsuleDisplayExposure;->c(Landroid/view/View;Lcom/huawei/appmarket/qi0;)V
 
     .line 70
     .line 71
@@ -221,11 +221,11 @@
 
     .line 76
     .line 77
-    iget-object p3, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/pi0;
+    iget-object p3, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/qi0;
 
     .line 78
     .line 79
-    invoke-virtual {p1, p3}, Lcom/huawei/appgallery/systeminstalldistservice/utils/CapsuleDisplayExposure;->a(Lcom/huawei/appmarket/pi0;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appgallery/systeminstalldistservice/utils/CapsuleDisplayExposure;->a(Lcom/huawei/appmarket/qi0;)V
 
     .line 80
     .line 81
@@ -247,7 +247,7 @@
     move-result-object p1
 
     .line 91
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 92
     .line 93
@@ -382,7 +382,7 @@
     move-result-object p1
 
     .line 155
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 156
     .line 157
@@ -466,7 +466,7 @@
 
     .line 194
     :cond_7
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/iu;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/ju;
 
     .line 195
     .line 196
@@ -474,7 +474,7 @@
 
     .line 197
     .line 198
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->q()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->q()I
 
     .line 199
     .line 200
@@ -490,11 +490,11 @@
 
     .line 205
     .line 206
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/iu;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/ju;
 
     .line 207
     .line 208
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->q()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->q()I
 
     .line 209
     .line 210
@@ -505,7 +505,7 @@
     sub-int/2addr p2, p1
 
     .line 213
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/iu;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/ju;
 
     .line 214
     .line 215
@@ -543,7 +543,7 @@
     .line 230
     .line 231
     .line 232
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
 
     .line 233
     .line 234
@@ -551,7 +551,7 @@
     move-result-object p2
 
     .line 236
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu;->m()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ju;->m()I
 
     .line 237
     .line 238
@@ -576,7 +576,7 @@
     .line 247
     .line 248
     .line 249
-    invoke-static {}, Lcom/huawei/appmarket/eb6;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/gb6;->d()I
 
     .line 250
     .line 251
@@ -652,13 +652,13 @@
 
     .line 287
     .line 288
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 289
     .line 290
     .line 291
     :goto_6
-    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/iu;
+    iget-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/ju;
 
     .line 292
     .line 293
@@ -666,7 +666,7 @@
 
     .line 294
     .line 295
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/iu;->W(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ju;->W(I)V
 
     .line 296
     .line 297
@@ -1238,20 +1238,20 @@
     return-void
 .end method
 
-.method public setRiskCheckInfo(Lcom/huawei/appmarket/iu;)V
+.method public setRiskCheckInfo(Lcom/huawei/appmarket/ju;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/iu;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->l:Lcom/huawei/appmarket/ju;
 
     return-void
 .end method
 
-.method public setmBean(Lcom/huawei/appmarket/pi0;)V
+.method public setmBean(Lcom/huawei/appmarket/qi0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/pi0;
+    iput-object p1, p0, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/view/CenterMultiLineLabelLayout;->j:Lcom/huawei/appmarket/qi0;
 
     return-void
 .end method

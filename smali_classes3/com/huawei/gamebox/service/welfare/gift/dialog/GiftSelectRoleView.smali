@@ -20,7 +20,7 @@
     .end annotation
 .end field
 
-.field private f:Lcom/huawei/appmarket/m03;
+.field private f:Lcom/huawei/appmarket/p03;
 
 .field private g:Ljava/lang/String;
 
@@ -441,29 +441,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method static synthetic b(Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;Ljava/lang/String;)V
@@ -607,7 +584,7 @@
 
     .line 41
     .line 42
-    const v4, 0x7f0a1919
+    const v4, 0x7f0a191a
 
     .line 43
     .line 44
@@ -652,7 +629,7 @@
 
     .line 64
     .line 65
-    invoke-static {v7}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 66
     .line 67
@@ -788,14 +765,14 @@
     .line 131
     .line 132
     .line 133
-    new-instance v10, Lcom/huawei/appmarket/z52;
+    new-instance v10, Lcom/huawei/appmarket/d62;
 
     .line 134
     .line 135
     const/4 v12, 0x4
 
     .line 136
-    invoke-direct {v10, p0, v12}, Lcom/huawei/appmarket/z52;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v10, p0, v12}, Lcom/huawei/appmarket/d62;-><init>(Ljava/lang/Object;I)V
 
     .line 137
     .line 138
@@ -842,7 +819,7 @@
 
     .line 159
     .line 160
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 161
     .line 162
@@ -1072,8 +1049,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final e()V
@@ -1103,7 +1078,7 @@
     .line 10
     .line 11
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -1117,7 +1092,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 19
     .line 20
@@ -1440,7 +1415,7 @@
 
     .line 179
     .line 180
-    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;->f:Lcom/huawei/appmarket/m03;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;->f:Lcom/huawei/appmarket/p03;
 
     .line 181
     .line 182
@@ -1448,11 +1423,11 @@
 
     .line 183
     .line 184
-    check-cast v0, Lcom/huawei/appmarket/p03;
+    check-cast v0, Lcom/huawei/appmarket/s03;
 
     .line 185
     .line 186
-    invoke-virtual {v0}, Lcom/huawei/appmarket/p03;->j()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s03;->j()V
 
     .line 187
     .line 188
@@ -1674,7 +1649,7 @@
 
     .line 299
     .line 300
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 301
     .line 302
@@ -2350,7 +2325,7 @@
 
     iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;->e:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -2413,11 +2388,11 @@
     return-object v0
 .end method
 
-.method public setListener(Lcom/huawei/appmarket/m03;)V
+.method public setListener(Lcom/huawei/appmarket/p03;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;->f:Lcom/huawei/appmarket/m03;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/dialog/GiftSelectRoleView;->f:Lcom/huawei/appmarket/p03;
 
     return-void
 .end method

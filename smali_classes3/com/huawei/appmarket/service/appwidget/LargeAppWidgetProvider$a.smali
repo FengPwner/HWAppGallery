@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$a;
-.super Lcom/huawei/appmarket/cw;
+.super Lcom/huawei/appmarket/dw;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     const v0, 0x7f0a0e12
 
-    invoke-direct {p0, p1, v0, p2, p3}, Lcom/huawei/appmarket/cw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;[I)V
+    invoke-direct {p0, p1, v0, p2, p3}, Lcom/huawei/appmarket/dw;-><init>(Landroid/content/Context;ILandroid/widget/RemoteViews;[I)V
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$a;->j:Landroid/content/Context;
 
@@ -45,13 +45,13 @@
 
 
 # virtual methods
-.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+.method public final a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Bitmap;",
-            "Lcom/huawei/appmarket/c38<",
+            "Lcom/huawei/appmarket/i38<",
             "-",
             "Landroid/graphics/Bitmap;",
             ">;)V"
@@ -83,7 +83,7 @@
 
     const-string p1, "AppWidgetManager is null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -98,18 +98,18 @@
 
     const-string p1, "large widget topic image loaded."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 3
 
     .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$a;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/c38;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/service/appwidget/LargeAppWidgetProvider$a;->a(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/i38;)V
 
     return-void
 .end method

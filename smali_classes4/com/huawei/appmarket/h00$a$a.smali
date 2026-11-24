@@ -28,13 +28,13 @@
 
 
 # virtual methods
-.method public final authenticate(Lcom/huawei/appmarket/sy6;Lcom/huawei/appmarket/vu6;)Lcom/huawei/appmarket/gr6;
+.method public final authenticate(Lcom/huawei/appmarket/wy6;Lcom/huawei/appmarket/zu6;)Lcom/huawei/appmarket/jr6;
     .registers 3
 
     .line 1
     const-string p1, "response"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

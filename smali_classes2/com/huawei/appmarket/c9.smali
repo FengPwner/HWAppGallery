@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/c9;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/c9;->c:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

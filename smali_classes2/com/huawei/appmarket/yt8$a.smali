@@ -19,9 +19,23 @@
 
 .field private b:I
 
-.field private c:Ljava/lang/String;
+.field private c:S
 
-.field private d:Ljava/lang/String;
+.field private d:S
+
+.field private e:S
+
+.field private f:S
+
+.field private g:S
+
+.field private h:S
+
+.field private i:Ljava/lang/String;
+
+.field private j:Ljava/lang/String;
+
+.field private k:[Lcom/huawei/appmarket/pt8;
 
 
 # direct methods
@@ -35,53 +49,105 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/yt8;
-    .registers 6
+.method public final a(S)V
+    .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/yt8;
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->e:S
+
+    return-void
+.end method
+
+.method public final b(S)V
+    .registers 2
+
+    .line 1
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->d:S
+
+    return-void
+.end method
+
+.method public final c(S)V
+    .registers 2
+
+    .line 1
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->c:S
+
+    return-void
+.end method
+
+.method public final d([Lcom/huawei/appmarket/pt8;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yt8$a;->k:[Lcom/huawei/appmarket/pt8;
+
+    return-void
+.end method
+
+.method public final e()Lcom/huawei/appmarket/yt8;
+    .registers 14
+
+    .line 1
+    new-instance v12, Lcom/huawei/appmarket/yt8;
 
     iget v1, p0, Lcom/huawei/appmarket/yt8$a;->a:I
 
     iget v2, p0, Lcom/huawei/appmarket/yt8$a;->b:I
 
-    iget-object v3, p0, Lcom/huawei/appmarket/yt8$a;->c:Ljava/lang/String;
+    iget-short v3, p0, Lcom/huawei/appmarket/yt8$a;->c:S
 
-    iget-object v4, p0, Lcom/huawei/appmarket/yt8$a;->d:Ljava/lang/String;
+    iget-short v4, p0, Lcom/huawei/appmarket/yt8$a;->d:S
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/yt8;-><init>(IILjava/lang/String;Ljava/lang/String;)V
+    iget-short v5, p0, Lcom/huawei/appmarket/yt8$a;->e:S
 
-    return-object v0
+    iget-short v6, p0, Lcom/huawei/appmarket/yt8$a;->f:S
+
+    iget-short v7, p0, Lcom/huawei/appmarket/yt8$a;->g:S
+
+    iget-short v8, p0, Lcom/huawei/appmarket/yt8$a;->h:S
+
+    iget-object v9, p0, Lcom/huawei/appmarket/yt8$a;->i:Ljava/lang/String;
+
+    iget-object v10, p0, Lcom/huawei/appmarket/yt8$a;->j:Ljava/lang/String;
+
+    iget-object v11, p0, Lcom/huawei/appmarket/yt8$a;->k:[Lcom/huawei/appmarket/pt8;
+
+    move-object v0, v12
+
+    invoke-direct/range {v0 .. v11}, Lcom/huawei/appmarket/yt8;-><init>(IISSSSSSLjava/lang/String;Ljava/lang/String;[Lcom/huawei/appmarket/pt8;)V
+
+    return-object v12
 .end method
 
-.method public final b(Ljava/lang/String;)V
+.method public final f(S)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/yt8$a;->c:Ljava/lang/String;
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->g:S
 
     return-void
 .end method
 
-.method public final c(I)V
+.method public final g(S)V
     .registers 2
 
     .line 1
-    iput p1, p0, Lcom/huawei/appmarket/yt8$a;->a:I
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->f:S
 
     return-void
 .end method
 
-.method public final d(Ljava/lang/String;)V
+.method public final h(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/yt8$a;->d:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appmarket/yt8$a;->j:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public final e(I)V
+.method public final i(I)V
     .registers 2
 
     .line 1
@@ -90,183 +156,138 @@
     return-void
 .end method
 
+.method public final j(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yt8$a;->i:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final k(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/yt8$a;->a:I
+
+    return-void
+.end method
+
+.method public final l(S)V
+    .registers 2
+
+    .line 1
+    iput-short p1, p0, Lcom/huawei/appmarket/yt8$a;->h:S
+
+    return-void
+.end method
+
 .method public final toString()Ljava/lang/String;
-    .registers 4
+    .registers 3
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 2
-    .line 3
-    const-string v1, "XmlNamespaceTag.XmlNamespaceTagBuilder(prefixRef="
+    const-string v1, "XmlElementStartTag.XmlElementStartTagBuilder(nsRef="
 
-    .line 4
-    .line 5
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 6
-    .line 7
-    .line 8
     iget v1, p0, Lcom/huawei/appmarket/yt8$a;->a:I
 
-    .line 9
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 11
-    .line 12
-    .line 13
-    const-string v1, ", uriRef="
+    const-string v1, ", nameRef="
 
-    .line 14
-    .line 15
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
-    .line 17
-    .line 18
     iget v1, p0, Lcom/huawei/appmarket/yt8$a;->b:I
 
-    .line 19
-    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 21
-    .line 22
-    .line 23
-    const-string v1, ", prefix="
+    const-string v1, ", attributeStart="
 
-    .line 24
-    .line 25
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 26
-    .line 27
-    .line 28
-    iget-object v1, p0, Lcom/huawei/appmarket/yt8$a;->c:Ljava/lang/String;
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->c:S
 
-    .line 29
-    .line 30
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", attributeSize="
+
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 31
-    .line 32
-    .line 33
-    const-string v1, ", uri="
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->d:S
 
-    .line 34
-    .line 35
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", attributeCount="
+
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 36
-    .line 37
-    .line 38
-    iget-object v1, p0, Lcom/huawei/appmarket/yt8$a;->d:Ljava/lang/String;
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->e:S
 
-    .line 39
-    .line 40
-    const-string v2, ")"
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 41
-    .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    const-string v1, ", idIndex="
 
-    .line 43
-    .line 44
-    .line 45
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->f:S
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", classIndex="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->g:S
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", styleIndex="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-short v1, p0, Lcom/huawei/appmarket/yt8$a;->h:S
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", namespace="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/yt8$a;->i:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", name="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/yt8$a;->j:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", attributes="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/yt8$a;->k:[Lcom/huawei/appmarket/pt8;
+
+    invoke-static {v1}, Ljava/util/Arrays;->deepToString([Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ")"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     move-result-object v0
 
-    .line 46
     return-object v0
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
 .end method

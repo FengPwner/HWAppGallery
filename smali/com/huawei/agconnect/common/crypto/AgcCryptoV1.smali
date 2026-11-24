@@ -116,7 +116,7 @@
     move-result-object v1
 
     .line 39
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -232,6 +232,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private b()Ljava/lang/String;

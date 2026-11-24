@@ -30,11 +30,11 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cf0;->X0()Lcom/huawei/appmarket/cd0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/df0;->X0()Lcom/huawei/appmarket/cd0;
 
     move-result-object p1
 
@@ -54,7 +54,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rv2;->i(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/uv2;->i(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
 
     move-result p1
 
@@ -68,7 +68,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/rv2;->h(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/uv2;->h(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Z
 
     move-result p1
 
@@ -82,7 +82,7 @@
 
     const-string v1, "buoyBridge == null or gameInfo == null"
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method

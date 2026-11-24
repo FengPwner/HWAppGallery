@@ -17,7 +17,7 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/DistHorizontalAppListItemCard;-><init>(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result p1
 
@@ -110,7 +110,7 @@
 
     if-nez v4, :cond_0
 
-    invoke-static {v3}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v3
 
@@ -378,7 +378,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final X1(Landroid/content/Context;)I
@@ -398,11 +397,11 @@
     return p1
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/DistHorizontalAppListItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/DistHorizontalAppListItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 2
     .line 3
@@ -529,14 +528,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final Z1()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
@@ -695,7 +693,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final x1()I

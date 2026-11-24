@@ -48,7 +48,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 13
     .line 14
@@ -68,7 +68,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p1}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/wh8;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;->F3(Lcom/huawei/appmarket/service/videostream/view/VideoStreamActivity;)Lcom/huawei/appmarket/ci8;
 
     .line 23
     .line 24
@@ -95,7 +95,7 @@
     move-result-object p1
 
     .line 35
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/wh8;->w(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ci8;->w(Landroid/view/View;)V
 
     .line 36
     .line 37
@@ -177,5 +177,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

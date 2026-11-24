@@ -312,7 +312,7 @@
     move-result-object p0
 
     .line 132
-    invoke-static {p0}, Lcom/huawei/appmarket/mb;->o0(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/mb;->p0(Ljava/lang/String;)V
 
     .line 133
     .line 134
@@ -680,7 +680,7 @@
     .line 315
     .line 316
     .line 317
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 318
     .line 319

@@ -152,14 +152,14 @@
 
 
 # virtual methods
-.method public addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/hv7;
+.method public addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/PayResult;",
             ">;"
         }
@@ -201,7 +201,7 @@
 
     if-eqz v0, :cond_2
 
-    const-string v0, "withhold with Full SDK branch."
+    const-string/jumbo v0, "withhold with Full SDK branch."
 
     invoke-static {v1, v0}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -211,7 +211,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -226,7 +226,7 @@
     return-object p1
 
     :cond_2
-    const-string v0, "withhold with IAP SDK branch."
+    const-string/jumbo v0, "withhold with IAP SDK branch."
 
     invoke-static {v1, v0}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -236,7 +236,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->addWithholdingPlan(Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -251,14 +251,14 @@
     return-object p1
 .end method
 
-.method public getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/hv7;
+.method public getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/OrderRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/OrderResult;",
             ">;"
         }
@@ -306,7 +306,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -327,7 +327,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getOrderDetail(Lcom/huawei/hms/support/api/entity/pay/OrderRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -366,14 +366,14 @@
     return-object p1
 .end method
 
-.method public getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/hv7;
+.method public getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/ProductDetailResult;",
             ">;"
         }
@@ -421,7 +421,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -442,7 +442,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getProductDetails(Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -481,14 +481,14 @@
     return-object p1
 .end method
 
-.method public getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/hv7;
+.method public getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/PurchaseInfoResult;",
             ">;"
         }
@@ -536,7 +536,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -557,7 +557,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getPurchaseInfo(Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -572,12 +572,12 @@
     return-object p1
 .end method
 
-.method public getWalletUiIntent(I)Lcom/huawei/appmarket/hv7;
+.method public getWalletUiIntent(I)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/GetWalletUiIntentResult;",
             ">;"
         }
@@ -590,7 +590,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getWalletUiIntent(I)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->getWalletUiIntent(I)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -605,14 +605,14 @@
     return-object p1
 .end method
 
-.method public internalPay(Lcom/huawei/hms/support/api/entity/pay/InternalPayRequest;)Lcom/huawei/appmarket/hv7;
+.method public internalPay(Lcom/huawei/hms/support/api/entity/pay/InternalPayRequest;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/InternalPayRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/PayResult;",
             ">;"
         }
@@ -627,7 +627,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->internalPay(Lcom/huawei/hms/support/api/entity/pay/InternalPayRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->internalPay(Lcom/huawei/hms/support/api/entity/pay/InternalPayRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -642,14 +642,14 @@
     return-object p1
 .end method
 
-.method public pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/hv7;
+.method public pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/PayReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/PayResult;",
             ">;"
         }
@@ -701,7 +701,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -726,7 +726,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->pay(Lcom/huawei/hms/support/api/entity/pay/PayReq;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -741,14 +741,14 @@
     return-object p1
 .end method
 
-.method public productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/hv7;
+.method public productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/PayResult;",
             ">;"
         }
@@ -796,7 +796,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientFullImpl;->productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -817,7 +817,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->productPay(Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -832,14 +832,14 @@
     return-object p1
 .end method
 
-.method public queryWalletInfo(Lcom/huawei/hms/support/api/entity/pay/HwWalletInfoRequest;)Lcom/huawei/appmarket/hv7;
+.method public queryWalletInfo(Lcom/huawei/hms/support/api/entity/pay/HwWalletInfoRequest;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/pay/HwWalletInfoRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/pay/HwWalletInfoResult;",
             ">;"
         }
@@ -854,7 +854,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->queryWalletInfo(Lcom/huawei/hms/support/api/entity/pay/HwWalletInfoRequest;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/support/api/paytask/PayClientImpl;->queryWalletInfo(Lcom/huawei/hms/support/api/entity/pay/HwWalletInfoRequest;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

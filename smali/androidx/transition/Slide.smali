@@ -147,7 +147,7 @@
     const-string v0, "slideEdge"
 
     .line 3
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result p2
 
@@ -379,7 +379,7 @@
 
     invoke-virtual {v0, p1}, Landroidx/transition/r;->f(I)V
 
-    iput-object v0, p0, Landroidx/transition/Transition;->t:Lcom/huawei/appmarket/f38;
+    iput-object v0, p0, Landroidx/transition/Transition;->t:Lcom/huawei/appmarket/l38;
 
     return-void
 .end method

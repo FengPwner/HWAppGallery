@@ -33,7 +33,7 @@
 .method public abstract a()V
 .end method
 
-.method public abstract b(Landroid/os/Looper;Lcom/huawei/appmarket/t16;)V
+.method public abstract b(Landroid/os/Looper;Lcom/huawei/appmarket/v16;)V
 .end method
 
 .method public abstract c(Landroidx/media3/exoplayer/drm/e$a;Landroidx/media3/common/a;)Landroidx/media3/exoplayer/drm/DrmSession;

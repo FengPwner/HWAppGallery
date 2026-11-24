@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uo5;
+.implements Lcom/huawei/appmarket/vo5;
 
 
 # instance fields
@@ -26,13 +26,13 @@
 .method public final onImageLoaded(Ljava/lang/Object;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v1, "DetailHeadGameCard"
 
     const-string v2, "ImageUtils.asynLoadImage  get bitmap "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     instance-of v0, p1, Landroid/graphics/Bitmap;
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/t06;->a(Landroid/content/Context;)Lcom/huawei/appmarket/q2;
+    invoke-static {v0}, Lcom/huawei/appmarket/v06;->a(Landroid/content/Context;)Lcom/huawei/appmarket/q2;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/b$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/b;)V
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/q2;->b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/mi3;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/q2;->b(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/oi3;)V
 
     return-void
 .end method

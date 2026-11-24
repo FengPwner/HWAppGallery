@@ -34,7 +34,7 @@
 
     const-string v0, "2"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/co8;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/io8;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

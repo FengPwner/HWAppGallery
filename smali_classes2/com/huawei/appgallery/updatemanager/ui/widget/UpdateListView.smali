@@ -156,7 +156,7 @@
 
     .line 34
     .line 35
-    const v6, 0x7f0a1768
+    const v6, 0x7f0a1769
 
     .line 36
     .line 37
@@ -324,7 +324,7 @@
     move-result-object v5
 
     .line 116
-    invoke-static {v5}, Lcom/huawei/appmarket/w68;->o(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/b78;->o(Landroid/content/Context;)I
 
     .line 117
     .line 118
@@ -885,15 +885,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public getNoDataView()Landroid/view/View;

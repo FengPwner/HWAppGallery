@@ -127,7 +127,7 @@
 
     .line 43
     .line 44
-    invoke-static {}, Lcom/huawei/appmarket/ck0;->c()Lcom/huawei/appmarket/ck0;
+    invoke-static {}, Lcom/huawei/appmarket/dk0;->c()Lcom/huawei/appmarket/dk0;
 
     .line 45
     .line 46
@@ -135,7 +135,7 @@
     move-result-object p3
 
     .line 48
-    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/ck0;->d(Landroid/view/View;Ljava/lang/String;)V
+    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/dk0;->d(Landroid/view/View;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -186,7 +186,7 @@
 
     .line 72
     .line 73
-    invoke-static {}, Lcom/huawei/appmarket/lj0;->c()Lcom/huawei/appmarket/lj0;
+    invoke-static {}, Lcom/huawei/appmarket/mj0;->c()Lcom/huawei/appmarket/mj0;
 
     .line 74
     .line 75
@@ -194,7 +194,7 @@
     move-result-object p3
 
     .line 77
-    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/lj0;->d(Landroid/view/View;Ljava/lang/String;)V
+    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/mj0;->d(Landroid/view/View;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -810,7 +810,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 
@@ -834,7 +834,7 @@
 
     const-string v1, "detail_updateintro_click"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

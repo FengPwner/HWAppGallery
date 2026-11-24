@@ -30,7 +30,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/vg5;->b(ILandroid/view/ViewGroup;)I
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/yg5;->b(ILandroid/view/ViewGroup;)I
 
     move-result p0
 
@@ -131,7 +131,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/vg5;->u(Landroid/view/ViewGroup;Z)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/yg5;->u(Landroid/view/ViewGroup;Z)V
 
     .line 8
     .line 9
@@ -149,7 +149,7 @@
     .line 14
     .line 15
     :try_start_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/vg5;->u(Landroid/view/ViewGroup;Z)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/yg5;->u(Landroid/view/ViewGroup;Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
 

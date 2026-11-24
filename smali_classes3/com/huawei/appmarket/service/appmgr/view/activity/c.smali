@@ -36,7 +36,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 7
     .line 8
@@ -48,7 +48,7 @@
 
     .line 11
     .line 12
-    sget-object v1, Lcom/huawei/appmarket/tq8;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/zq8;->a:Ljava/lang/String;
 
     .line 13
     .line 14
@@ -57,7 +57,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 18
     .line 19
@@ -157,5 +157,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

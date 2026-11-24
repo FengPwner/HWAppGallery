@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->Q6(I)V
+    value = Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->R6(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,7 +45,7 @@
 
     iget v1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$e;->b:I
 
-    invoke-static {v0, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->F6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
 
     return-void
 .end method

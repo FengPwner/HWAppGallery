@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # annotations
@@ -51,7 +51,7 @@
 
     const/4 v1, 0x2
 
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/ur1;->a(IILjava/lang/String;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/xr1;->a(IILjava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nv;->a(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ov;->a(Landroid/content/Context;)V
 
     :cond_0
     return-void

@@ -19,7 +19,7 @@
 
 .field private g:Landroid/view/View;
 
-.field private h:Lcom/huawei/appmarket/ig3;
+.field private h:Lcom/huawei/appmarket/kg3;
 
 .field private i:I
 
@@ -77,7 +77,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -167,7 +167,7 @@
 
     check-cast p3, Landroid/app/Activity;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result p3
 
@@ -185,7 +185,7 @@
     :cond_0
     new-instance p3, Landroid/widget/LinearLayout$LayoutParams;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     move-result v1
 
@@ -202,7 +202,7 @@
     goto :goto_0
 
     :goto_1
-    const p3, 0x7f0a160d
+    const p3, 0x7f0a160e
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     if-nez p3, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     move-result p3
 
@@ -265,7 +265,7 @@
     const/16 p3, 0x30
 
     .line 5
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -273,7 +273,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->i:I
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -283,7 +283,7 @@
 
     const/16 p3, 0x18
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -291,7 +291,7 @@
 
     const/16 p3, 0x20
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -299,7 +299,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->j:I
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -356,7 +356,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->c:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -366,7 +366,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->f:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -387,7 +387,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 6
     .line 7
@@ -399,7 +399,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 12
     .line 13
@@ -435,7 +435,7 @@
 
     .line 27
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     .line 28
     .line 29
@@ -534,7 +534,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -856,14 +855,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onClick(Landroid/view/View;)V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/ig3;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/kg3;
 
     .line 2
     .line 3
@@ -875,7 +873,7 @@
 
     .line 6
     .line 7
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 8
     .line 9
@@ -883,7 +881,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -909,7 +907,7 @@
 
     .line 23
     .line 24
-    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/ig3;
+    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/kg3;
 
     .line 25
     .line 26
@@ -943,7 +941,7 @@
 
     .line 40
     .line 41
-    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/ig3;
+    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/kg3;
 
     .line 42
     .line 43
@@ -960,7 +958,7 @@
 
     .line 49
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 50
     .line 51
@@ -968,7 +966,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1025,14 +1023,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public setActionbarClickListener(Lcom/huawei/appmarket/ig3;)V
+.method public setActionbarClickListener(Lcom/huawei/appmarket/kg3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/ig3;
+    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->h:Lcom/huawei/appmarket/kg3;
 
     return-void
 .end method

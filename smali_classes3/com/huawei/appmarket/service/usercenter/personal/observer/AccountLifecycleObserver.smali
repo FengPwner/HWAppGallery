@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 3
 
     .line 1
@@ -54,7 +54,7 @@
 
     const-class p2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -62,7 +62,7 @@
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/usercenter/personal/observer/AccountLifecycleObserver;->b:Landroid/content/Context;
 
-    invoke-interface {p1, p2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p2}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -70,18 +70,18 @@
 
     invoke-direct {p2, p0}, Lcom/huawei/appmarket/service/usercenter/personal/observer/AccountLifecycleObserver$a;-><init>(Lcom/huawei/appmarket/service/usercenter/personal/observer/AccountLifecycleObserver;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
+    invoke-static {}, Lcom/huawei/appmarket/e06;->d()Lcom/huawei/appmarket/e06;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/c06;->k(Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/e06;->k(Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;)V
 
     goto :goto_0
 
@@ -90,17 +90,17 @@
 
     if-ne p2, p1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/yz5;->h()Lcom/huawei/appmarket/yz5;
+    invoke-static {}, Lcom/huawei/appmarket/a06;->h()Lcom/huawei/appmarket/a06;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yz5;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/a06;->f()V
 
-    invoke-static {}, Lcom/huawei/appmarket/j88;->b()Lcom/huawei/appmarket/j88;
+    invoke-static {}, Lcom/huawei/appmarket/o88;->b()Lcom/huawei/appmarket/o88;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/j88;->e()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o88;->e()V
 
     goto :goto_0
 
@@ -109,11 +109,11 @@
 
     if-ne p2, p1, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/j88;->b()Lcom/huawei/appmarket/j88;
+    invoke-static {}, Lcom/huawei/appmarket/o88;->b()Lcom/huawei/appmarket/o88;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/j88;->c()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o88;->c()V
 
     :cond_3
     :goto_0

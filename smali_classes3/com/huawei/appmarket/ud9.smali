@@ -1,41 +1,19 @@
-.class public final Lcom/huawei/appmarket/ud9;
+.class public final synthetic Lcom/huawei/appmarket/ud9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/ud9;
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/ud9;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ud9;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ud9;->a:Lcom/huawei/appmarket/ud9;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final toString()Ljava/lang/String;
+.method public static synthetic a(Lcom/huawei/hms/network/embedded/x7;Lcom/huawei/hms/network/embedded/v7;)Lcom/huawei/hms/network/embedded/t7;
     .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
     .line 1
-    const-string v0, "void"
+    const/4 p0, 0x0
 
-    return-object v0
+    return-object p0
 .end method

@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/em3;
+.implements Lcom/huawei/appmarket/gm3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/em3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/gm3;
 .end annotation
 
 
@@ -70,7 +70,7 @@
 
     const/4 v2, 0x2
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ht7;->d(Ljava/lang/String;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/nt7;->d(Ljava/lang/String;I)I
 
     move-result v1
 
@@ -93,7 +93,7 @@
     sput-object v2, Lcom/huawei/appmarket/d71;->b:Ljava/lang/Boolean;
 
     :cond_2
-    sget-object v2, Lcom/huawei/appmarket/hn1;->a:Lcom/huawei/appmarket/hn1;
+    sget-object v2, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     const-string v3, "DHDeviceInfo"
 
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -171,7 +171,7 @@
     :try_start_2
     const-string v1, "hw_mc.cust.is_oversea"
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ht7;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/nt7;->c(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -181,7 +181,7 @@
 
     sput-object v1, Lcom/huawei/appmarket/d71;->c:Ljava/lang/Boolean;
 
-    sget-object v1, Lcom/huawei/appmarket/hn1;->a:Lcom/huawei/appmarket/hn1;
+    sget-object v1, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     const-string v2, "DHDeviceInfo"
 
@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v0, Lcom/huawei/appmarket/d71;->c:Ljava/lang/Boolean;
 
@@ -251,7 +251,7 @@
     :try_start_1
     const-string v1, "hw_sc.anco.enable"
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ht7;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/nt7;->c(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -261,7 +261,7 @@
 
     sput-object v1, Lcom/huawei/appmarket/d71;->a:Ljava/lang/Boolean;
 
-    sget-object v1, Lcom/huawei/appmarket/hn1;->a:Lcom/huawei/appmarket/hn1;
+    sget-object v1, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     const-string v2, "DHDeviceInfo"
 
@@ -277,7 +277,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v0, Lcom/huawei/appmarket/d71;->a:Ljava/lang/Boolean;
 

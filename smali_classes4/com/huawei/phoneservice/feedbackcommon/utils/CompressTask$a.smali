@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sr6;
+.implements Lcom/huawei/appmarket/vr6;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/sr6<",
+        "Lcom/huawei/appmarket/vr6<",
         "Landroid/graphics/Bitmap;",
         ">;"
     }
@@ -51,14 +51,14 @@
 
 
 # virtual methods
-.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Z)Z
+.method public final onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Z)Z
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/engine/GlideException;",
             "Ljava/lang/Object;",
-            "Lcom/huawei/appmarket/dv7<",
+            "Lcom/huawei/appmarket/jv7<",
             "Landroid/graphics/Bitmap;",
             ">;Z)Z"
         }
@@ -96,7 +96,7 @@
     return p1
 .end method
 
-.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)Z
+.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)Z
     .registers 13
 
     .line 1

@@ -4,15 +4,7 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/x26;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/EvalException;
-        }
-    .end annotation
-.end method
-
-.method public abstract b(Ljava/lang/Object;Lcom/huawei/appmarket/x26;)V
+.method public abstract a([Ljava/lang/Object;Lcom/huawei/appmarket/z26;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/huawei/bohr/api/exception/EvalException;

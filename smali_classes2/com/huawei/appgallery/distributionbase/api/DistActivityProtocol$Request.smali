@@ -43,7 +43,7 @@
 
 .field private linkId:Ljava/lang/String;
 
-.field private loadingType:Lcom/huawei/appmarket/eh4$b;
+.field private loadingType:Lcom/huawei/appmarket/gh4$b;
 
 .field private mediaPkg:Ljava/lang/String;
 
@@ -72,9 +72,9 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/eh4$b;->g:Lcom/huawei/appmarket/eh4$b;
+    sget-object v0, Lcom/huawei/appmarket/gh4$b;->g:Lcom/huawei/appmarket/gh4$b;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/eh4$b;
+    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/gh4$b;
 
     return-void
 .end method
@@ -180,11 +180,11 @@
     return-object v0
 .end method
 
-.method public final Q1()Lcom/huawei/appmarket/eh4$b;
+.method public final Q1()Lcom/huawei/appmarket/gh4$b;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/eh4$b;
+    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/gh4$b;
 
     return-object v0
 .end method
@@ -229,13 +229,13 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->responseId:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/bm5;->a(J)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/dm5;->a(J)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -243,13 +243,13 @@
 
     if-nez v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "DistActivityProtocol"
 
     const-string v2, "get response is not VerificationResponse"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -292,13 +292,13 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->responseId:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/bm5;->d(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/dm5;->d(J)V
 
     return-void
 .end method
@@ -307,11 +307,11 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bm5;->b()Lcom/huawei/appmarket/bm5;
+    invoke-static {}, Lcom/huawei/appmarket/dm5;->b()Lcom/huawei/appmarket/dm5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bm5;->c(Ljava/lang/Object;)J
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dm5;->c(Ljava/lang/Object;)J
 
     move-result-wide v0
 
@@ -444,11 +444,11 @@
     return-void
 .end method
 
-.method public final n2(Lcom/huawei/appmarket/eh4$b;)V
+.method public final n2(Lcom/huawei/appmarket/gh4$b;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/eh4$b;
+    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->loadingType:Lcom/huawei/appmarket/gh4$b;
 
     return-void
 .end method

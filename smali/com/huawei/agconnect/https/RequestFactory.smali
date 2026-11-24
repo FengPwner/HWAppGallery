@@ -61,13 +61,13 @@
 
 
 # virtual methods
-.method public a()Lcom/huawei/appmarket/gr6$a;
+.method public a()Lcom/huawei/appmarket/jr6$a;
     .registers 2
 
     .line 2
     iget-object v0, p0, Lcom/huawei/agconnect/https/RequestFactory;->a:Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/huawei/agconnect/https/AnnotationHandler;->b(Ljava/lang/Object;)Lcom/huawei/appmarket/gr6$a;
+    invoke-static {v0}, Lcom/huawei/agconnect/https/AnnotationHandler;->b(Ljava/lang/Object;)Lcom/huawei/appmarket/jr6$a;
 
     move-result-object v0
 

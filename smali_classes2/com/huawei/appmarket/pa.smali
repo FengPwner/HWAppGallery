@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic b:Lcom/huawei/appmarket/qa;
 
-.field public final synthetic c:Lcom/huawei/appmarket/va2;
+.field public final synthetic c:Lcom/huawei/appmarket/ya2;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/qa;Lcom/huawei/appmarket/va2;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/qa;Lcom/huawei/appmarket/ya2;)V
     .registers 3
 
     .line 1
@@ -21,7 +21,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/pa;->b:Lcom/huawei/appmarket/qa;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/pa;->c:Lcom/huawei/appmarket/va2;
+    iput-object p2, p0, Lcom/huawei/appmarket/pa;->c:Lcom/huawei/appmarket/ya2;
 
     return-void
 .end method
@@ -36,11 +36,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/pa;->c:Lcom/huawei/appmarket/va2;
+    iget-object v1, p0, Lcom/huawei/appmarket/pa;->c:Lcom/huawei/appmarket/ya2;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qa;->requestDataChanged(Lcom/huawei/appmarket/va2;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qa;->requestDataChanged(Lcom/huawei/appmarket/ya2;)V
 
     .line 6
     .line 7

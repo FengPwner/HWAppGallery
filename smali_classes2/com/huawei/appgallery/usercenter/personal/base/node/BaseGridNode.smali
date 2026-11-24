@@ -33,7 +33,7 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/wi5;
+    new-instance v0, Lcom/huawei/appmarket/yi5;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/usercenter/personal/base/node/BaseGridNode;->M()I
 
@@ -45,7 +45,7 @@
 
     iget-object v3, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/wi5;-><init>(Landroid/content/Context;II)V
+    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/yi5;-><init>(Landroid/content/Context;II)V
 
     return-object v0
 .end method
@@ -69,7 +69,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     iget-object p2, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 

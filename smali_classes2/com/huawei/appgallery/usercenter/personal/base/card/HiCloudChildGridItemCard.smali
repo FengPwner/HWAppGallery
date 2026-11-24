@@ -22,7 +22,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/HiCloudChildGridItemCard$a;-><init>(Lcom/huawei/appgallery/usercenter/personal/base/card/HiCloudChildGridItemCard;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/r83;->b(Landroid/content/Context;Lcom/huawei/appmarket/kr3;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/u83;->b(Landroid/content/Context;Lcom/huawei/appmarket/mr3;)V
 
     return-void
 .end method
@@ -37,7 +37,7 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/HiCloudChildGridItemCard;->C1()V
 
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
+    invoke-static {}, Lcom/huawei/appmarket/k06;->i()Lcom/huawei/appmarket/k06;
 
     move-result-object p1
 
@@ -47,7 +47,7 @@
 
     const-string p1, "activityUri|my_cloudspace"
 
-    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/i06;->m(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/ym5;)V
+    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/k06;->m(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/zm5;)V
 
     return-void
 .end method
@@ -117,13 +117,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "HiCloudChildGridItemCard"
 
     const-string v1, "onChanged,event is null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

@@ -25,19 +25,19 @@
 
     const-string p1, "AgreementData"
 
-    const-class v0, Lcom/huawei/appmarket/yg3;
+    const-class v0, Lcom/huawei/appmarket/ah3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appmarket/yg3;
-
-    invoke-interface {p1}, Lcom/huawei/appmarket/yg3;->c()Lcom/huawei/appmarket/ke7;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/ke7;->b:Lcom/huawei/appmarket/ke7;
+    check-cast p1, Lcom/huawei/appmarket/ah3;
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ah3;->c()Lcom/huawei/appmarket/pe7;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/huawei/appmarket/pe7;->b:Lcom/huawei/appmarket/pe7;
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/agv3/c;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/agv3/DetailHeadAgCardV3;
 
@@ -47,7 +47,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/a48;->c(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g48;->c(Landroid/content/Context;)V
 
     return-void
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/rj1;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uj1;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_2
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ou3;
+.implements Lcom/huawei/appmarket/qu3;
 
 
 # annotations
@@ -17,7 +17,7 @@
 
 # instance fields
 .field private infos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

@@ -1,5 +1,5 @@
-.class final Lcom/huawei/appmarket/ix7$b;
-.super Landroid/graphics/Paint;
+.class public interface abstract Lcom/huawei/appmarket/ix7$b;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -9,21 +9,17 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x609
+    name = "b"
 .end annotation
 
 
-# direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ix7;I)V
-    .registers 3
+# virtual methods
+.method public abstract a()V
+.end method
 
-    .line 1
-    invoke-direct {p0, p2}, Landroid/graphics/Paint;-><init>(I)V
+.method public abstract getState()[I
+.end method
 
-    sget-object p1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
-
-    invoke-virtual {p0, p1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
-
-    return-void
+.method public abstract onStateChange([I)Z
 .end method

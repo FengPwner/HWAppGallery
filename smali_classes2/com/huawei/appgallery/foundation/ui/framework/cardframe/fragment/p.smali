@@ -7,15 +7,15 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/fu7;
+.field final synthetic b:Lcom/huawei/appmarket/lu7;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;Lcom/huawei/appmarket/fu7;)V
+.method constructor <init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/q;Lcom/huawei/appmarket/lu7;)V
     .registers 3
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/p;->b:Lcom/huawei/appmarket/fu7;
+    iput-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/p;->b:Lcom/huawei/appmarket/lu7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -32,9 +32,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/p;->b:Lcom/huawei/appmarket/fu7;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/p;->b:Lcom/huawei/appmarket/lu7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/fu7;->I(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/lu7;->I(Ljava/lang/String;)V
 
     return-void
 .end method

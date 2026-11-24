@@ -452,23 +452,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private s3()V
@@ -557,13 +540,13 @@
 
     iput-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/FeedbackDisabledActivity;->n:Landroid/os/Bundle;
 
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string v0, "country"
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

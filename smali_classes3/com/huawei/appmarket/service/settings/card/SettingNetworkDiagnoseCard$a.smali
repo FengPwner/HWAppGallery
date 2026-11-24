@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/SettingNetworkDiagnoseCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingNetworkDiagnoseCard$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingNetworkDiagnoseCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,19 +34,19 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 3
 
-    const-class p1, Lcom/huawei/appmarket/yu3;
+    const-class p1, Lcom/huawei/appmarket/av3;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/yu3;
+    check-cast p1, Lcom/huawei/appmarket/av3;
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingNetworkDiagnoseCard$a;->b:Lcom/huawei/appmarket/service/settings/card/SettingNetworkDiagnoseCard;
 
     iget-object v0, v0, Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;->v:Landroid/content/Context;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/yu3;->k2(Landroid/content/Context;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/av3;->l2(Landroid/content/Context;)V
 
     return-void
 .end method

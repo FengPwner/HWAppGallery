@@ -39,7 +39,7 @@
 
     if-eqz p1, :cond_0
 
-    const-string p1, "xml"
+    const-string/jumbo p1, "xml"
 
     return-object p1
 
@@ -73,7 +73,7 @@
         }
     .end annotation
 
-    const-string p2, "use sdk PushProvider openFile"
+    const-string/jumbo p2, "use sdk PushProvider openFile"
 
     const-string v0, "PushProvider"
 
@@ -83,7 +83,7 @@
 
     move-result-object p2
 
-    const-string v1, "xml"
+    const-string/jumbo v1, "xml"
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -113,11 +113,11 @@
 
     invoke-static {v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {v3}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/rr5;->d(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v3}, Lcom/huawei/appmarket/tr5;->d(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v3
 
@@ -154,7 +154,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/rr5;->d(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v3}, Lcom/huawei/appmarket/tr5;->d(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v3
 

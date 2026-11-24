@@ -53,7 +53,7 @@
 .method public onClose(Lcom/huawei/csc/captcha/HuaweiCaptcha$CloseType;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -73,7 +73,7 @@
 
     const-string v2, "CaptchaBaseActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v1, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity$a;->$SwitchMap$com$huawei$csc$captcha$HuaweiCaptcha$CloseType:[I
 
@@ -104,9 +104,9 @@
     :goto_0
     iget-object p1, p0, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity$b;->this$0:Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;
 
-    sget-object v0, Lcom/huawei/appmarket/qi0;->ABORT:Lcom/huawei/appmarket/qi0;
+    sget-object v0, Lcom/huawei/appmarket/ri0;->ABORT:Lcom/huawei/appmarket/ri0;
 
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
 
     :goto_1
     iget-object p1, p0, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity$b;->this$0:Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;
@@ -133,16 +133,16 @@
 
     const-string p1, "validate is empty."
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     iget-object p1, p0, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity$b;->this$0:Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;
 
-    sget-object v0, Lcom/huawei/appmarket/qi0;->SUCCESS:Lcom/huawei/appmarket/qi0;
+    sget-object v0, Lcom/huawei/appmarket/ri0;->SUCCESS:Lcom/huawei/appmarket/ri0;
 
     iget-object v1, p0, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity$b;->validate:Ljava/lang/String;
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -163,13 +163,13 @@
         }
     .end annotation
 
-    sget-object p1, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object p1, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v0, "CaptchaBaseActivity"
 
     const-string v1, "onError"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -177,13 +177,13 @@
 .method public onLoad()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v1, "CaptchaBaseActivity"
 
     const-string v2, "onLoad"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/csc/captcha/HuaweiCaptcha;->getInstance()Lcom/huawei/csc/captcha/HuaweiCaptcha;
 
@@ -207,7 +207,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     .line 2
     .line 3
@@ -219,7 +219,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -232,7 +232,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -313,7 +313,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -360,7 +360,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -382,7 +382,7 @@
     .line 87
     .line 88
     :goto_1
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -442,7 +442,7 @@
 
     .line 117
     .line 118
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 119
     .line 120
@@ -455,7 +455,7 @@
 
     .line 123
     .line 124
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 125
     .line 126

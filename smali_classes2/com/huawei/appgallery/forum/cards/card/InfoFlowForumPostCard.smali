@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/service/infoflow/cards/card/BaseInfoFlowCard<",
-        "Lcom/huawei/appmarket/hc4;",
+        "Lcom/huawei/appmarket/jc4;",
         ">;"
     }
 .end annotation
@@ -142,11 +142,11 @@
     move-result-object v8
 
     .line 51
-    check-cast v8, Lcom/huawei/appmarket/hc4;
+    check-cast v8, Lcom/huawei/appmarket/jc4;
 
     .line 52
     .line 53
-    iget-object v8, v8, Lcom/huawei/appmarket/hc4;->z:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object v8, v8, Lcom/huawei/appmarket/jc4;->z:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 54
     .line 55
@@ -183,11 +183,11 @@
     move-result-object v8
 
     .line 70
-    check-cast v8, Lcom/huawei/appmarket/hc4;
+    check-cast v8, Lcom/huawei/appmarket/jc4;
 
     .line 71
     .line 72
-    iget-object v8, v8, Lcom/huawei/appmarket/hc4;->A:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object v8, v8, Lcom/huawei/appmarket/jc4;->A:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 73
     .line 74
@@ -220,11 +220,11 @@
     move-result-object v8
 
     .line 87
-    check-cast v8, Lcom/huawei/appmarket/hc4;
+    check-cast v8, Lcom/huawei/appmarket/jc4;
 
     .line 88
     .line 89
-    iget-object v8, v8, Lcom/huawei/appmarket/hc4;->x:Landroid/widget/LinearLayout;
+    iget-object v8, v8, Lcom/huawei/appmarket/jc4;->x:Landroid/widget/LinearLayout;
 
     .line 90
     .line 91
@@ -318,11 +318,11 @@
     move-result-object v5
 
     .line 133
-    check-cast v5, Lcom/huawei/appmarket/hc4;
+    check-cast v5, Lcom/huawei/appmarket/jc4;
 
     .line 134
     .line 135
-    iget-object v5, v5, Lcom/huawei/appmarket/hc4;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iget-object v5, v5, Lcom/huawei/appmarket/jc4;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
     .line 136
     .line 137
@@ -339,11 +339,11 @@
     move-result-object v5
 
     .line 144
-    check-cast v5, Lcom/huawei/appmarket/hc4;
+    check-cast v5, Lcom/huawei/appmarket/jc4;
 
     .line 145
     .line 146
-    iget-object v5, v5, Lcom/huawei/appmarket/hc4;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iget-object v5, v5, Lcom/huawei/appmarket/jc4;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
     .line 147
     .line 148
@@ -380,11 +380,11 @@
     move-result-object v4
 
     .line 163
-    check-cast v4, Lcom/huawei/appmarket/hc4;
+    check-cast v4, Lcom/huawei/appmarket/jc4;
 
     .line 164
     .line 165
-    iget-object v4, v4, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/appgallery/forum/cards/widget/PostTitleTextView;
+    iget-object v4, v4, Lcom/huawei/appmarket/jc4;->w:Lcom/huawei/appgallery/forum/cards/widget/PostTitleTextView;
 
     .line 166
     .line 167
@@ -422,11 +422,11 @@
     move-result-object v1
 
     .line 183
-    check-cast v1, Lcom/huawei/appmarket/hc4;
+    check-cast v1, Lcom/huawei/appmarket/jc4;
 
     .line 184
     .line 185
-    iget-object v1, v1, Lcom/huawei/appmarket/hc4;->y:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object v1, v1, Lcom/huawei/appmarket/jc4;->y:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 186
     .line 187
@@ -447,11 +447,11 @@
     move-result-object v1
 
     .line 196
-    check-cast v1, Lcom/huawei/appmarket/hc4;
+    check-cast v1, Lcom/huawei/appmarket/jc4;
 
     .line 197
     .line 198
-    iget-object v1, v1, Lcom/huawei/appmarket/hc4;->z:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object v1, v1, Lcom/huawei/appmarket/jc4;->z:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 199
     .line 200
@@ -468,11 +468,11 @@
     move-result-object v1
 
     .line 207
-    check-cast v1, Lcom/huawei/appmarket/hc4;
+    check-cast v1, Lcom/huawei/appmarket/jc4;
 
     .line 208
     .line 209
-    iget-object v1, v1, Lcom/huawei/appmarket/hc4;->A:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    iget-object v1, v1, Lcom/huawei/appmarket/jc4;->A:Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
 
     .line 210
     .line 211
@@ -639,7 +639,7 @@
     move-result v8
 
     .line 289
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 290
     .line 291
@@ -651,11 +651,11 @@
 
     .line 294
     .line 295
-    check-cast v9, Lcom/huawei/appmarket/dr6;
+    check-cast v9, Lcom/huawei/appmarket/gr6;
 
     .line 296
     .line 297
-    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 298
     .line 299
@@ -663,11 +663,11 @@
     move-result-object v9
 
     .line 301
-    const-class v10, Lcom/huawei/appmarket/vs3;
+    const-class v10, Lcom/huawei/appmarket/xs3;
 
     .line 302
     .line 303
-    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v9, v10}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 304
     .line 305
@@ -675,40 +675,40 @@
     move-result-object v9
 
     .line 307
-    check-cast v9, Lcom/huawei/appmarket/vs3;
+    check-cast v9, Lcom/huawei/appmarket/xs3;
 
     .line 308
     .line 309
-    new-instance v10, Lcom/huawei/appmarket/o94$a;
+    new-instance v10, Lcom/huawei/appmarket/q94$a;
 
     .line 310
     .line 311
-    invoke-direct {v10}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v10}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 312
     .line 313
     .line 314
-    invoke-virtual {v10, v3}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v10, v3}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 315
     .line 316
     .line 317
-    invoke-virtual {v10, v5}, Lcom/huawei/appmarket/o94$a;->z(I)V
+    invoke-virtual {v10, v5}, Lcom/huawei/appmarket/q94$a;->z(I)V
 
     .line 318
     .line 319
     .line 320
-    invoke-virtual {v10, v8}, Lcom/huawei/appmarket/o94$a;->n(I)V
+    invoke-virtual {v10, v8}, Lcom/huawei/appmarket/q94$a;->n(I)V
 
     .line 321
     .line 322
     .line 323
-    invoke-virtual {v10, v4}, Lcom/huawei/appmarket/o94$a;->v(I)V
+    invoke-virtual {v10, v4}, Lcom/huawei/appmarket/q94$a;->v(I)V
 
     .line 324
     .line 325
     .line 326
-    invoke-static {v10, v9, v1}, Lcom/huawei/appmarket/ej2;->y(Lcom/huawei/appmarket/o94$a;Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+    invoke-static {v10, v9, v1}, Lcom/huawei/appmarket/tr2;->u(Lcom/huawei/appmarket/q94$a;Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
 
     .line 327
     .line 328
@@ -1025,18 +1025,13 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final y1(Landroidx/databinding/l;)V
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/hc4;
+    check-cast p1, Lcom/huawei/appmarket/jc4;
 
     .line 2
     .line 3
@@ -1045,7 +1040,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p1, Lcom/huawei/appmarket/hc4;->w:Lcom/huawei/appgallery/forum/cards/widget/PostTitleTextView;
+    iget-object p1, p1, Lcom/huawei/appmarket/jc4;->w:Lcom/huawei/appgallery/forum/cards/widget/PostTitleTextView;
 
     .line 7
     .line 8
@@ -1152,5 +1147,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

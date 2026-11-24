@@ -44,7 +44,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->i:Landroid/view/View;
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object p2
 
@@ -208,7 +208,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->i:Landroid/view/View;
 
-    const v0, 0x7f0a189a
+    const v0, 0x7f0a189b
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,5 +417,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

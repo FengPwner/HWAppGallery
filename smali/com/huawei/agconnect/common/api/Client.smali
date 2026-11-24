@@ -12,16 +12,16 @@
     return-void
 .end method
 
-.method public static build(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/mn5;
+.method public static build(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/nn5;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;)",
-            "Lcom/huawei/appmarket/mn5;"
+            "Lcom/huawei/appmarket/nn5;"
         }
     .end annotation
 
@@ -32,23 +32,23 @@
 
     invoke-direct {v0, p0, p1, v1}, Lcom/huawei/agconnect/common/server/ClientImpl;-><init>(Landroid/content/Context;Ljava/util/List;Z)V
 
-    invoke-virtual {v0}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/mn5;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/nn5;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static build(Landroid/content/Context;Ljava/util/List;Z)Lcom/huawei/appmarket/mn5;
+.method public static build(Landroid/content/Context;Ljava/util/List;Z)Lcom/huawei/appmarket/nn5;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;Z)",
-            "Lcom/huawei/appmarket/mn5;"
+            "Lcom/huawei/appmarket/nn5;"
         }
     .end annotation
 
@@ -57,7 +57,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/huawei/agconnect/common/server/ClientImpl;-><init>(Landroid/content/Context;Ljava/util/List;Z)V
 
-    invoke-virtual {v0}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/mn5;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/nn5;
 
     move-result-object p0
 

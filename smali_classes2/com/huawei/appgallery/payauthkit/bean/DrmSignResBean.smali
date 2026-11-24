@@ -7,7 +7,7 @@
 .field private appid_:Ljava/lang/String;
 
 .field private checkType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -71,6 +71,68 @@
     return-object v0
 .end method
 
+.method public final V(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->checkType:I
+
+    return-void
+.end method
+
+.method public final W(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->downloadUrl_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final X(Ljava/util/ArrayList;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->drmItems_:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public final Y(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->iapGroupId_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final Z(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->memberFreeFlag_:I
+
+    return-void
+.end method
+
+.method public final a0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->resultDesc_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setAppId_(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignResBean;->appid_:Ljava/lang/String;
+
+    return-void
+.end method
+
 .method public final toString()Ljava/lang/String;
     .registers 4
 
@@ -83,7 +145,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -147,7 +209,7 @@
 
     .line 38
     .line 39
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 40
     .line 41

@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     move-result p1
 
@@ -247,7 +247,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private b(Landroid/view/MotionEvent;)V
@@ -483,7 +482,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -508,11 +506,11 @@
     iput-object v0, p0, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView;->b:Landroid/view/View;
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v0
 
@@ -520,11 +518,11 @@
 
     if-ge v0, v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -568,13 +566,13 @@
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ScrollView;->onScrollChanged(IIII)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object p1
 
     const/4 p2, 0x1
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pl0;->A(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ql0;->A(I)V
 
     return-void
 .end method
@@ -619,7 +617,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 2
     .line 3
@@ -627,7 +625,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     .line 6
     .line 7
@@ -691,7 +689,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -777,17 +775,16 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final overScrollBy(IIIIIIIIZ)Z
     .registers 14
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
     move-result v0
 
@@ -992,13 +989,13 @@
     return-void
 .end method
 
-.method public setStateListener(Lcom/huawei/appmarket/a14;)V
+.method public setStateListener(Lcom/huawei/appmarket/c14;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView$c;
 
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView$c;-><init>(Lcom/huawei/appmarket/a14;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView$c;-><init>(Lcom/huawei/appmarket/c14;Landroid/view/View;)V
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView;->i:Lcom/huawei/appmarket/service/appdetail/view/widget/DetailInnerScrollView$c;
 

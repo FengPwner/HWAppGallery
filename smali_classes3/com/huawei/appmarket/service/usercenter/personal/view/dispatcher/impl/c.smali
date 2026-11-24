@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # instance fields
@@ -197,12 +197,11 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
 
     .line 1
@@ -228,7 +227,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     .line 14
     .line 15
@@ -244,7 +243,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -256,7 +255,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -288,7 +287,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -304,7 +303,7 @@
 
     .line 50
     .line 51
-    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->logout(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->logout(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 52
     .line 53
@@ -331,7 +330,7 @@
 
     .line 62
     .line 63
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->c(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->c(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/nv7;)V
 
     .line 64
     .line 65
@@ -344,7 +343,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->a(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/hv7;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;->a(Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/MyInfoDispatcher;Lcom/huawei/appmarket/nv7;)V
 
     .line 70
     .line 71
@@ -398,5 +397,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

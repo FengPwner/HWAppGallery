@@ -93,7 +93,7 @@
 
     .line 28
     .line 29
-    invoke-static {v0, v2, v3, v1}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v2, v3, v1}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31

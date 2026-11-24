@@ -120,7 +120,7 @@
     move-result v2
 
     .line 30
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 31
     .line 32

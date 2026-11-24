@@ -27,14 +27,14 @@
 
 
 # virtual methods
-.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Integer;",
             ">;"
@@ -44,7 +44,7 @@
     .line 1
     new-instance v0, Lcom/huawei/quickcard/base/utils/SingleFunctionParser;
 
-    invoke-static {}, Lcom/huawei/quickcard/base/utils/ResourceUtils;->g()Lcom/huawei/appmarket/ub1;
+    invoke-static {}, Lcom/huawei/quickcard/base/utils/ResourceUtils;->g()Lcom/huawei/appmarket/wb1;
 
     move-result-object v1
 
@@ -119,7 +119,7 @@
 
     move-result p1
 
-    new-instance v1, Lcom/huawei/appmarket/pv5;
+    new-instance v1, Lcom/huawei/appmarket/rv5;
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
@@ -127,7 +127,7 @@
 
     move-result-object p1
 
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -141,7 +141,7 @@
     invoke-static {v1, p1}, Lcom/huawei/quickcard/base/log/CardLogUtils;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/pv5;
+    new-instance p1, Lcom/huawei/appmarket/rv5;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    invoke-direct {p1, v1, v0}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v1, v0}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object p1
 .end method

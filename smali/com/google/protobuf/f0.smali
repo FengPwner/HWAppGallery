@@ -883,6 +883,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getDefaultInstanceForType()Lcom/google/protobuf/b1;
@@ -1032,6 +1033,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final getMemoizedSerializedSize()I
@@ -1046,12 +1048,12 @@
     return v0
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TMessageType;>;"
         }
     .end annotation
@@ -1069,7 +1071,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/gw5;
+    check-cast v0, Lcom/huawei/appmarket/iw5;
 
     .line 8
     .line 9
@@ -1200,6 +1202,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getSerializedSize()I
@@ -1259,7 +1262,7 @@
     const-string v1, "serialized size must be non-negative, was "
 
     .line 6
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1522,6 +1525,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final i()Lcom/google/protobuf/f0$a;
@@ -1678,6 +1682,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final isInitialized()Z
@@ -1839,6 +1844,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final setMemoizedSerializedSize(I)V
@@ -1887,7 +1893,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 21
     .line 22

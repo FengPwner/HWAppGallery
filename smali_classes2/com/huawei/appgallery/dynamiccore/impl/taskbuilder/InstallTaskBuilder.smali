@@ -25,7 +25,7 @@
     .end annotation
 .end field
 
-.field private transient mListener:Lcom/huawei/appmarket/yv3;
+.field private transient mListener:Lcom/huawei/appmarket/aw3;
 
 .field private mPackingType:I
 
@@ -116,9 +116,9 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->j(I)V
 
-    sget-object v1, Lcom/huawei/appmarket/zv7;->b:Lcom/huawei/appmarket/zv7;
+    sget-object v1, Lcom/huawei/appmarket/fw7;->b:Lcom/huawei/appmarket/fw7;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->r(Lcom/huawei/appmarket/zv7;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->r(Lcom/huawei/appmarket/fw7;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;->mPkgName:Ljava/lang/String;
 
@@ -174,9 +174,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;->mListener:Lcom/huawei/appmarket/yv3;
+    iget-object v1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;->mListener:Lcom/huawei/appmarket/aw3;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->n(Lcom/huawei/appmarket/yv3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->n(Lcom/huawei/appmarket/aw3;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/packagemanager/api/bean/b$b;->c()Lcom/huawei/appgallery/packagemanager/api/bean/b;
 
@@ -345,11 +345,11 @@
     .line 137
 .end method
 
-.method public setListener(Lcom/huawei/appmarket/yv3;)Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;
+.method public setListener(Lcom/huawei/appmarket/aw3;)Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;->mListener:Lcom/huawei/appmarket/yv3;
+    iput-object p1, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/InstallTaskBuilder;->mListener:Lcom/huawei/appmarket/aw3;
 
     return-object p0
 .end method

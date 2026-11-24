@@ -34,7 +34,7 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/i65;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/l65;->c()V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity$a;->a:Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;
 

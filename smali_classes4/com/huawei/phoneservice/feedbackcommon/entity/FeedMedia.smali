@@ -23,25 +23,25 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "size"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "attachId"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "downloadURL"
     .end annotation
 .end field
 
 .field private e:Z
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "isReplay"
     .end annotation
 .end field
@@ -113,7 +113,7 @@
 
 .method public getAttachId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;->c:Ljava/lang/String;
@@ -123,7 +123,7 @@
 
 .method public getDownloadURL()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;->d:Ljava/lang/String;
@@ -133,7 +133,7 @@
 
 .method public getSize()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedMedia;->b:Ljava/lang/String;

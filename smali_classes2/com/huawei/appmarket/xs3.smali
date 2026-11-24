@@ -4,17 +4,20 @@
 
 
 # virtual methods
-.method public abstract C()Z
+.method public abstract a()V
 .end method
 
-.method public abstract c()Lcom/huawei/appmarket/vr2;
+.method public abstract b(Ljava/lang/String;)Ljava/io/File;
 .end method
 
-.method public abstract getLifecycle()Landroidx/lifecycle/h;
+.method public abstract c(Ljava/lang/String;)Ljava/io/File;
 .end method
 
-.method public abstract getView()Landroid/view/View;
+.method public abstract d(Ljava/lang/String;)Landroid/graphics/Bitmap;
 .end method
 
-.method public abstract k()Landroidx/fragment/app/FragmentActivity;
+.method public abstract e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
+.end method
+
+.method public abstract f(Ljava/lang/String;)Ljava/lang/String;
 .end method

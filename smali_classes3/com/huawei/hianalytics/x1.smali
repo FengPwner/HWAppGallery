@@ -29,7 +29,7 @@
 
     if-lt p2, v1, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gb9;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/nb9;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -81,7 +81,7 @@
     :goto_2
     if-lt p2, v1, :cond_8
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jm7;->B(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/huawei/appmarket/pm7;->B(Landroid/content/Context;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -92,7 +92,7 @@
     goto :goto_3
 
     :cond_7
-    invoke-static {p0, p1, v3}, Lcom/huawei/appmarket/jm7;->b(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, v3}, Lcom/huawei/appmarket/pm7;->b(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
 

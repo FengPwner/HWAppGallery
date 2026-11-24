@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -47,7 +47,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/by3;
+    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/dy3;
 
     .line 4
     .line 5
@@ -111,7 +111,7 @@
     .line 30
     :cond_1
     :goto_0
-    invoke-interface {v1, v0, v3}, Lcom/huawei/appmarket/by3;->b(II)V
+    invoke-interface {v1, v0, v3}, Lcom/huawei/appmarket/dy3;->b(II)V
 
     .line 31
     .line 32

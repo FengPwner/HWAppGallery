@@ -267,7 +267,7 @@
 
     .line 70
     .line 71
-    invoke-static {v6, v5}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v6, v5}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 72
     .line 73

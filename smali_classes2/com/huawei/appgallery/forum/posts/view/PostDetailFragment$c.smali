@@ -64,7 +64,7 @@
 
     const-string v1, "PostDetailFragment"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "com.huawei.appgallery.forum.posts.refreshlist"
 

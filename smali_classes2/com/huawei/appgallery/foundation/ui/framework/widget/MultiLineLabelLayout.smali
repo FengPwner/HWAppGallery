@@ -372,7 +372,7 @@
     move-result-object v7
 
     .line 107
-    invoke-static {v7}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 108
     .line 109
@@ -1996,13 +1996,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public setFirstRowTopMargin(I)V

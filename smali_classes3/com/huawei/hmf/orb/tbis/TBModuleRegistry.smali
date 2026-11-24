@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private mModuleWrapper:Lcom/huawei/appmarket/ka5;
+.field private mModuleWrapper:Lcom/huawei/appmarket/na5;
 
 .field private mServiceMap:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -46,21 +46,21 @@
 
     iput-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->mServiceMap:Ljava/util/Map;
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     invoke-virtual {p0}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->d(Ljava/lang/String;)Lcom/huawei/appmarket/ka5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->d(Ljava/lang/String;)Lcom/huawei/appmarket/na5;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->mModuleWrapper:Lcom/huawei/appmarket/ka5;
+    iput-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->mModuleWrapper:Lcom/huawei/appmarket/na5;
 
     if-eqz v0, :cond_0
 
@@ -76,11 +76,11 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->mModuleWrapper:Lcom/huawei/appmarket/ka5;
+    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->mModuleWrapper:Lcom/huawei/appmarket/na5;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p2, p3}, Lcom/huawei/appmarket/ka5;->i(Ljava/lang/Class;Ljava/lang/String;)Z
+    invoke-virtual {v0, p2, p3}, Lcom/huawei/appmarket/na5;->i(Ljava/lang/Class;Ljava/lang/String;)Z
 
     .line 4
     .line 5
@@ -151,7 +151,7 @@
 
     .line 38
     .line 39
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -489,29 +489,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public abstract getName()Ljava/lang/String;

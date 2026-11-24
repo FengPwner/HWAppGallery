@@ -403,11 +403,11 @@
     return-void
 .end method
 
-.method public bridge synthetic setLabelFormatter(Lcom/huawei/appmarket/rr4;)V
+.method public bridge synthetic setLabelFormatter(Lcom/huawei/appmarket/ur4;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/google/android/material/slider/BaseSlider;->setLabelFormatter(Lcom/huawei/appmarket/rr4;)V
+    invoke-super {p0, p1}, Lcom/google/android/material/slider/BaseSlider;->setLabelFormatter(Lcom/huawei/appmarket/ur4;)V
 
     return-void
 .end method

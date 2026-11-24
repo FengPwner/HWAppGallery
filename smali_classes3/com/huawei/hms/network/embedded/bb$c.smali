@@ -236,7 +236,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 70
     .line 71
@@ -261,7 +261,7 @@
 
     .line 80
     .line 81
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 82
     .line 83
@@ -301,7 +301,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final j(J)J
@@ -472,7 +471,7 @@
 
     .line 76
     .line 77
-    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -841,8 +840,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final k(J)I

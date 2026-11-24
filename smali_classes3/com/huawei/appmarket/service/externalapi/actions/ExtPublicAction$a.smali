@@ -45,7 +45,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->p()Z
+    invoke-static {}, Lcom/huawei/appmarket/co1;->p()Z
 
     move-result p1
 
@@ -72,7 +72,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$200(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$200(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/xp5;->c(Ljava/lang/String;Lcom/huawei/appmarket/c72$b;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yp5;->c(Ljava/lang/String;Lcom/huawei/appmarket/g72$b;)V
 
     goto :goto_0
 

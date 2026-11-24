@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     iput-object v0, p0, Landroidx/media3/extractor/metadata/id3/ApicFrame;->c:Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     iget-object v3, p1, Landroidx/media3/extractor/metadata/id3/ApicFrame;->c:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -156,7 +156,7 @@
 
     iget-object v3, p1, Landroidx/media3/extractor/metadata/id3/ApicFrame;->d:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 

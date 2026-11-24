@@ -84,7 +84,7 @@
     const/4 v1, 0x1
 
     .line 10
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 11
     .line 12
@@ -100,7 +100,7 @@
 
     .line 17
     .line 18
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -116,7 +116,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v2, p0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, p0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 27
     .line 28
@@ -124,7 +124,7 @@
     move-result-object p0
 
     .line 30
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 31
     .line 32
@@ -203,7 +203,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic b(Lcom/huawei/appgallery/forum/cards/widget/ForumFeedLoginView;)Lcom/huawei/appgallery/forum/cards/widget/ForumFeedLoginView$b;
@@ -256,7 +255,7 @@
     move-result-object v0
 
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 21
     .line 22
@@ -283,7 +282,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {p1, p1, v2}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, v2}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -402,7 +401,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 

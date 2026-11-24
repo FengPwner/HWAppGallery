@@ -70,14 +70,14 @@
     return-object p0
 .end method
 
-.method private static a()Lcom/huawei/appmarket/bn1;
+.method private static a()Lcom/huawei/appmarket/en1;
     .registers 2
 
     .line 2
     :try_start_0
     sget-object v0, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->a:Lcom/huawei/ohos/localability/base/BundleMgrProxy;
 
-    invoke-virtual {v0}, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->d()Lcom/huawei/appmarket/bn1;
+    invoke-virtual {v0}, Lcom/huawei/ohos/localability/base/BundleMgrProxy;->d()Lcom/huawei/appmarket/en1;
 
     move-result-object v0
     :try_end_0
@@ -239,7 +239,7 @@
     const-string v2, ", throwable : "
 
     .line 5
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -274,13 +274,13 @@
     move-result-object v0
 
     .line 2
-    invoke-static {v0}, Lcom/huawei/appmarket/jj5;->r(Ljava/util/Optional;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lj5;->r(Ljava/util/Optional;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jj5;->x(Ljava/util/Optional;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/lj5;->y(Ljava/util/Optional;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -298,7 +298,7 @@
     const-string v2, ", e:"
 
     .line 3
-    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -338,13 +338,13 @@
     return-object v1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/updatesdk/sdk/foundation/utils/e;->a()Lcom/huawei/appmarket/bn1;
+    invoke-static {}, Lcom/huawei/updatesdk/sdk/foundation/utils/e;->a()Lcom/huawei/appmarket/en1;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lcom/huawei/appmarket/bn1;->a:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/en1;->a:Ljava/lang/String;
 
     return-object v0
 

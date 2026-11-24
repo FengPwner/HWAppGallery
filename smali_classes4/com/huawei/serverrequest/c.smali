@@ -15,7 +15,7 @@
 
 
 # static fields
-.field private static final d:Lcom/huawei/appmarket/jl2;
+.field private static final d:Lcom/huawei/appmarket/ll2;
 
 
 # instance fields
@@ -23,22 +23,22 @@
 
 .field private final b:Landroid/content/Context;
 
-.field private c:Lcom/huawei/appmarket/hd3;
+.field private c:Lcom/huawei/appmarket/jd3;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .registers 3
 
-    new-instance v0, Lcom/huawei/appmarket/jl2;
+    new-instance v0, Lcom/huawei/appmarket/ll2;
 
     const-string v1, "ServerRequest"
 
     const/4 v2, 0x4
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/jl2;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/ll2;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lcom/huawei/serverrequest/c;->d:Lcom/huawei/appmarket/jl2;
+    sput-object v0, Lcom/huawei/serverrequest/c;->d:Lcom/huawei/appmarket/ll2;
 
     return-void
 .end method
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/serverrequest/c;Lcom/huawei/appmarket/g87;)Lcom/huawei/appmarket/j87;
+.method public static a(Lcom/huawei/serverrequest/c;Lcom/huawei/appmarket/l87;)Lcom/huawei/appmarket/o87;
     .registers 4
 
     .line 1
@@ -70,7 +70,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Lcom/huawei/serverrequest/b;-><init>(Lcom/huawei/appmarket/g87;)V
+    invoke-direct {v0, p1}, Lcom/huawei/serverrequest/b;-><init>(Lcom/huawei/appmarket/l87;)V
 
     .line 7
     .line 8
@@ -79,7 +79,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Lcom/huawei/appmarket/g87;->getRequestType()Lcom/huawei/appmarket/g87$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/l87;->getRequestType()Lcom/huawei/appmarket/l87$a;
 
     .line 12
     .line 13
@@ -128,7 +128,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-interface {p1}, Lcom/huawei/appmarket/g87;->getRequestType()Lcom/huawei/appmarket/g87$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/l87;->getRequestType()Lcom/huawei/appmarket/l87$a;
 
     .line 36
     .line 37
@@ -153,7 +153,7 @@
 
     .line 47
     .line 48
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -386,33 +386,29 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method static synthetic b(Lcom/huawei/serverrequest/c;)Lcom/huawei/appmarket/hd3;
+.method static synthetic b(Lcom/huawei/serverrequest/c;)Lcom/huawei/appmarket/jd3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/serverrequest/c;->c:Lcom/huawei/appmarket/hd3;
+    iget-object p0, p0, Lcom/huawei/serverrequest/c;->c:Lcom/huawei/appmarket/jd3;
 
     return-object p0
 .end method
 
-.method static synthetic d(Lcom/huawei/serverrequest/c;Lcom/huawei/appmarket/hd3;)V
+.method static synthetic d(Lcom/huawei/serverrequest/c;Lcom/huawei/appmarket/jd3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/serverrequest/c;->c:Lcom/huawei/appmarket/hd3;
+    iput-object p1, p0, Lcom/huawei/serverrequest/c;->c:Lcom/huawei/appmarket/jd3;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final c(Lcom/huawei/quickcard/flnetworkadapter/a;)Lcom/huawei/appmarket/hv7;
+.method public final c(Lcom/huawei/quickcard/flnetworkadapter/a;)Lcom/huawei/appmarket/nv7;
     .registers 7
 
     .line 1
@@ -468,7 +464,7 @@
     .line 20
     .line 21
     .line 22
-    sget-object v2, Lcom/huawei/appmarket/g87$a;->c:Lcom/huawei/appmarket/g87$a;
+    sget-object v2, Lcom/huawei/appmarket/l87$a;->c:Lcom/huawei/appmarket/l87$a;
 
     .line 23
     .line 24
@@ -486,7 +482,7 @@
     .line 30
     .line 31
     .line 32
-    sget-object v2, Lcom/huawei/appmarket/g87$a;->d:Lcom/huawei/appmarket/g87$a;
+    sget-object v2, Lcom/huawei/appmarket/l87$a;->d:Lcom/huawei/appmarket/l87$a;
 
     .line 33
     .line 34
@@ -504,7 +500,7 @@
     .line 40
     .line 41
     .line 42
-    sget-object v2, Lcom/huawei/appmarket/g87$a;->b:Lcom/huawei/appmarket/g87$a;
+    sget-object v2, Lcom/huawei/appmarket/l87$a;->b:Lcom/huawei/appmarket/l87$a;
 
     .line 43
     .line 44
@@ -535,23 +531,23 @@
 
     .line 56
     :goto_1
-    new-instance v0, Lcom/huawei/appmarket/fv8;
+    new-instance v0, Lcom/huawei/appmarket/lv8;
 
     .line 57
     .line 58
     const/4 v1, 0x1
 
     .line 59
-    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/fv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/lv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 60
     .line 61
     .line 62
-    sget-object p1, Lcom/huawei/serverrequest/c;->d:Lcom/huawei/appmarket/jl2;
+    sget-object p1, Lcom/huawei/serverrequest/c;->d:Lcom/huawei/appmarket/ll2;
 
     .line 63
     .line 64
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jl2;->a()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ll2;->a()Z
 
     .line 65
     .line 66
@@ -563,7 +559,7 @@
 
     .line 69
     .line 70
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->call(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->call(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     .line 71
     .line 72
@@ -575,7 +571,7 @@
 
     .line 75
     :cond_2
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     .line 76
     .line 77
@@ -695,21 +691,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

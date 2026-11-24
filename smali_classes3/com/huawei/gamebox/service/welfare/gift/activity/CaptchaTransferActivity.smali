@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xz2;
+.implements Lcom/huawei/appmarket/a03;
 
 
 # instance fields
@@ -43,13 +43,13 @@
     return-object p0
 .end method
 
-.method private e(Lcom/huawei/appmarket/wz6;)Z
+.method private e(Lcom/huawei/appmarket/a07;)Z
     .registers 6
 
     .line 1
     const-string v0, "giftcardbean_key"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->h(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->h(Ljava/lang/String;)Ljava/io/Serializable;
 
     move-result-object v0
 
@@ -61,7 +61,7 @@
 
     const-string p1, "giftCardBeanObject == null"
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -72,7 +72,7 @@
 
     const-string p1, "giftCardBean invalid"
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -83,7 +83,7 @@
 
     const-string v0, "certification_key"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -91,11 +91,11 @@
 
     const-string v0, "servicetype_key"
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/wz6;->e(Ljava/lang/String;I)I
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/a07;->e(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -103,11 +103,11 @@
 
     const-string v0, "detailId_key"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     const-string v0, "playerinfo_key"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->h(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->h(Ljava/lang/String;)Ljava/io/Serializable;
 
     move-result-object p1
 
@@ -149,11 +149,11 @@
     return-void
 .end method
 
-.method protected final handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+.method protected final handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/qi0;->SUCCESS:Lcom/huawei/appmarket/qi0;
+    sget-object v0, Lcom/huawei/appmarket/ri0;->SUCCESS:Lcom/huawei/appmarket/ri0;
 
     const-string v1, "GeeTestTransferActivity"
 
@@ -171,7 +171,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -184,7 +184,7 @@
 
     const-string p1, "validate is null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -273,7 +273,7 @@
 
     invoke-direct {p2, p0}, Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity$a;-><init>(Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity;)V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method
@@ -294,7 +294,7 @@
 
     const-string p1, "getIntent() == null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
@@ -311,16 +311,16 @@
 
     const-string v1, "extras == null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :cond_1
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
-    invoke-direct {p0, v1}, Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity;->e(Lcom/huawei/appmarket/wz6;)Z
+    invoke-direct {p0, v1}, Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity;->e(Lcom/huawei/appmarket/a07;)Z
 
     move-result p1
 
@@ -335,7 +335,7 @@
     :catch_0
     const-string p1, "getExtras error"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 

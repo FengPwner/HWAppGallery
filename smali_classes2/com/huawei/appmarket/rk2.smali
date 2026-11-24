@@ -2,204 +2,148 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x154e51b66a3e59e7L
+
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/or;
+.field private dimensions:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
 
-.field private final b:Lcom/huawei/appmarket/xa0;
+.field private formName:Ljava/lang/String;
 
-.field private final c:Lcom/huawei/appmarket/bs;
-
-.field private final d:Lcom/huawei/appmarket/g95;
-
-.field private final e:Lcom/huawei/appmarket/ti5;
-
-.field private final f:Lcom/huawei/appmarket/t46;
-
-.field private final g:Lcom/huawei/appmarket/ps;
-
-.field private final h:Lcom/huawei/appmarket/i48;
-
-.field private final i:Lcom/huawei/appmarket/oo;
-
-.field private final j:Lcom/huawei/appmarket/po;
-
-.field private final k:Lcom/huawei/appmarket/nb4;
+.field private moduleName:Ljava/lang/String;
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 2
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Lcom/huawei/appmarket/or;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/or;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->a:Lcom/huawei/appmarket/or;
-
-    new-instance v0, Lcom/huawei/appmarket/xa0;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/xa0;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->b:Lcom/huawei/appmarket/xa0;
-
-    new-instance v0, Lcom/huawei/appmarket/bs;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/bs;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->c:Lcom/huawei/appmarket/bs;
-
-    new-instance v0, Lcom/huawei/appmarket/g95;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/g95;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->d:Lcom/huawei/appmarket/g95;
-
-    new-instance v0, Lcom/huawei/appmarket/ti5;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ti5;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->e:Lcom/huawei/appmarket/ti5;
-
-    new-instance v0, Lcom/huawei/appmarket/t46;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/t46;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->f:Lcom/huawei/appmarket/t46;
-
-    new-instance v0, Lcom/huawei/appmarket/ps;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ps;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->g:Lcom/huawei/appmarket/ps;
-
-    new-instance v0, Lcom/huawei/appmarket/i48;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/i48;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->h:Lcom/huawei/appmarket/i48;
-
-    new-instance v0, Lcom/huawei/appmarket/oo;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/oo;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->i:Lcom/huawei/appmarket/oo;
-
-    new-instance v0, Lcom/huawei/appmarket/po;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/po;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->j:Lcom/huawei/appmarket/po;
-
-    new-instance v0, Lcom/huawei/appmarket/nb4;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/nb4;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rk2;->k:Lcom/huawei/appmarket/nb4;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/or;
+.method public getDimensions()Ljava/util/List;
     .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->a:Lcom/huawei/appmarket/or;
+    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->dimensions:Ljava/util/List;
 
     return-object v0
 .end method
 
-.method public final b()Lcom/huawei/appmarket/bs;
+.method public getFormName()Ljava/lang/String;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->c:Lcom/huawei/appmarket/bs;
+    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->formName:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/ps;
+.method public getModuleName()Ljava/lang/String;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->g:Lcom/huawei/appmarket/ps;
+    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->moduleName:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final d()Lcom/huawei/appmarket/xa0;
+.method public setDimensions(Ljava/util/List;)V
     .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->b:Lcom/huawei/appmarket/xa0;
+    iput-object p1, p0, Lcom/huawei/appmarket/rk2;->dimensions:Ljava/util/List;
 
-    return-object v0
+    return-void
 .end method
 
-.method public final e()Lcom/huawei/appmarket/nb4;
+.method public setFormName(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->k:Lcom/huawei/appmarket/nb4;
+    iput-object p1, p0, Lcom/huawei/appmarket/rk2;->formName:Ljava/lang/String;
 
-    return-object v0
+    return-void
 .end method
 
-.method public final f()Lcom/huawei/appmarket/g95;
+.method public setModuleName(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->d:Lcom/huawei/appmarket/g95;
+    iput-object p1, p0, Lcom/huawei/appmarket/rk2;->moduleName:Ljava/lang/String;
 
-    return-object v0
+    return-void
 .end method
 
-.method public final g()Lcom/huawei/appmarket/ti5;
-    .registers 2
+.method public toString()Ljava/lang/String;
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->e:Lcom/huawei/appmarket/ti5;
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    return-object v0
-.end method
+    const-string v1, "FilterFormInfo{moduleName="
 
-.method public final h()Lcom/huawei/appmarket/t46;
-    .registers 2
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->f:Lcom/huawei/appmarket/t46;
+    iget-object v1, p0, Lcom/huawei/appmarket/rk2;->moduleName:Ljava/lang/String;
 
-    return-object v0
-.end method
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-.method public final i()Lcom/huawei/appmarket/i48;
-    .registers 2
+    const-string v1, ", formName="
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->h:Lcom/huawei/appmarket/i48;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    return-object v0
-.end method
+    iget-object v1, p0, Lcom/huawei/appmarket/rk2;->formName:Ljava/lang/String;
 
-.method public final j()Lcom/huawei/appmarket/oo;
-    .registers 2
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->i:Lcom/huawei/appmarket/oo;
+    const-string v1, ", dimensions="
 
-    return-object v0
-.end method
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-.method public final k()Lcom/huawei/appmarket/po;
-    .registers 2
+    iget-object v1, p0, Lcom/huawei/appmarket/rk2;->dimensions:Ljava/util/List;
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rk2;->j:Lcom/huawei/appmarket/po;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x7d
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
 
     return-object v0
 .end method

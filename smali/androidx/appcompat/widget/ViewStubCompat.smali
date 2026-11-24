@@ -51,7 +51,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/ViewStubCompat;->b:I
 
-    sget-object v1, Lcom/huawei/appmarket/pe6;->D:[I
+    sget-object v1, Lcom/huawei/appmarket/re6;->D:[I
 
     invoke-virtual {p1, p2, v1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

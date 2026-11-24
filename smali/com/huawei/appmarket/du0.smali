@@ -1,12 +1,12 @@
 .class public final Lcom/huawei/appmarket/du0;
-.super Lcom/huawei/appmarket/hr4;
+.super Lcom/huawei/appmarket/kr4;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/hr4<",
+        "Lcom/huawei/appmarket/kr4<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -20,25 +20,25 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "Ljava/lang/Integer;",
             ">;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/hr4;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/kr4;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method final h(Lcom/huawei/appmarket/gr4;F)Ljava/lang/Object;
+.method final h(Lcom/huawei/appmarket/jr4;F)Ljava/lang/Object;
     .registers 3
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/du0;->p(Lcom/huawei/appmarket/gr4;F)I
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/du0;->p(Lcom/huawei/appmarket/jr4;F)I
 
     .line 2
     .line 3
@@ -202,7 +202,7 @@
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/gr4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/jr4;
 
     move-result-object v0
 
@@ -210,26 +210,26 @@
 
     move-result v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/du0;->p(Lcom/huawei/appmarket/gr4;F)I
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/du0;->p(Lcom/huawei/appmarket/jr4;F)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/gr4;F)I
+.method public final p(Lcom/huawei/appmarket/jr4;F)I
     .registers 12
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "Ljava/lang/Integer;",
             ">;F)I"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p1, Lcom/huawei/appmarket/gr4;->b:Ljava/lang/Object;
+    iget-object v0, p1, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -237,7 +237,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p1, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
+    iget-object v0, p1, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -245,11 +245,11 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/m15;
+    iget-object v1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/p15;
 
     .line 10
     .line 11
-    iget-object v0, p1, Lcom/huawei/appmarket/gr4;->b:Ljava/lang/Object;
+    iget-object v0, p1, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -257,7 +257,7 @@
 
     .line 14
     .line 15
-    iget-object v2, p1, Lcom/huawei/appmarket/gr4;->h:Ljava/lang/Float;
+    iget-object v2, p1, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
     .line 16
     .line 17
@@ -265,7 +265,7 @@
 
     .line 18
     .line 19
-    iget v3, p1, Lcom/huawei/appmarket/gr4;->g:F
+    iget v3, p1, Lcom/huawei/appmarket/jr4;->g:F
 
     .line 20
     .line 21
@@ -284,7 +284,7 @@
 
     .line 27
     .line 28
-    iget-object v2, p1, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
+    iget-object v2, p1, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -322,7 +322,7 @@
     move v6, p2
 
     .line 44
-    invoke-virtual/range {v1 .. v8}, Lcom/huawei/appmarket/m15;->b(FFLjava/lang/Object;Ljava/lang/Object;FFF)Ljava/lang/Object;
+    invoke-virtual/range {v1 .. v8}, Lcom/huawei/appmarket/p15;->b(FFLjava/lang/Object;Ljava/lang/Object;FFF)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -357,7 +357,7 @@
 
     .line 59
     .line 60
-    invoke-static {p2, v1, v2}, Lcom/huawei/appmarket/s95;->b(FFF)F
+    invoke-static {p2, v1, v2}, Lcom/huawei/appmarket/v95;->b(FFF)F
 
     .line 61
     .line 62
@@ -377,7 +377,7 @@
     move-result v0
 
     .line 70
-    iget-object p1, p1, Lcom/huawei/appmarket/gr4;->c:Ljava/lang/Object;
+    iget-object p1, p1, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
     .line 71
     .line 72
@@ -393,7 +393,7 @@
     move-result p1
 
     .line 78
-    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/gx2;->c(FII)I
+    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/jx2;->c(FII)I
 
     .line 79
     .line 80

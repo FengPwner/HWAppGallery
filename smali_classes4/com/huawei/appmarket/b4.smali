@@ -11,7 +11,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/pj2;",
+        "Lcom/huawei/appmarket/rj2;",
         ">;"
     }
 .end annotation
@@ -33,11 +33,11 @@
     .registers 6
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/pj2;
+    check-cast p1, Lcom/huawei/appmarket/rj2;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/pj2;
+    check-cast p2, Lcom/huawei/appmarket/rj2;
 
     .line 4
     .line 5
@@ -76,7 +76,7 @@
 
     .line 21
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pj2;->N()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rj2;->N()J
 
     .line 22
     .line 23
@@ -84,7 +84,7 @@
     move-result-wide v0
 
     .line 25
-    invoke-virtual {p2}, Lcom/huawei/appmarket/pj2;->N()J
+    invoke-virtual {p2}, Lcom/huawei/appmarket/rj2;->N()J
 
     .line 26
     .line 27
@@ -348,8 +348,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

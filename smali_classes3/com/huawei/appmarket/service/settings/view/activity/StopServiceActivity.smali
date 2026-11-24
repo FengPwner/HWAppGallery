@@ -65,11 +65,11 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->onDestroy()V
 
-    invoke-static {}, Lcom/huawei/appmarket/xi6;->c()Lcom/huawei/appmarket/xi6;
+    invoke-static {}, Lcom/huawei/appmarket/zi6;->c()Lcom/huawei/appmarket/zi6;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xi6;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zi6;->a()V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 12
     .line 13
@@ -104,7 +104,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 16
     .line 17

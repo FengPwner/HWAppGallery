@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appgallery/forum/posts/card/ForumNewCampaignCard;
 

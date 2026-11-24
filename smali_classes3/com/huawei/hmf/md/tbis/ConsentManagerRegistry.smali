@@ -25,7 +25,7 @@
 .method public final registry()V
     .registers 4
 
-    const-class v0, Lcom/huawei/appmarket/vl3;
+    const-class v0, Lcom/huawei/appmarket/xl3;
 
     const/4 v1, 0x0
 

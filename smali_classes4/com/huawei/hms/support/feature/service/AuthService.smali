@@ -7,11 +7,11 @@
 
 
 # virtual methods
-.method public abstract cancelAuthorization()Lcom/huawei/appmarket/hv7;
+.method public abstract cancelAuthorization()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -21,11 +21,11 @@
 .method public abstract getSignInIntent()Landroid/content/Intent;
 .end method
 
-.method public abstract signOut()Lcom/huawei/appmarket/hv7;
+.method public abstract signOut()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }

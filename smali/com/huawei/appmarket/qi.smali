@@ -1,34 +1,28 @@
 .class final Lcom/huawei/appmarket/qi;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
+        "Ljava/util/Map<",
+        "Ljava/lang/Integer;",
         "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;",
-        "Lcom/huawei/appmarket/x78;",
+        ">;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic b:Ljava/util/Map$Entry;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map$Entry<",
-            "Lcom/huawei/appmarket/qj;",
-            "Ljava/lang/Long;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field final synthetic b:Lcom/huawei/appmarket/rj;
 
 .field final synthetic c:Ljava/lang/String;
 
@@ -42,26 +36,11 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/util/Map$Entry;Ljava/lang/String;Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;Ljava/lang/String;JLjava/lang/String;)V
+.method constructor <init>(Lcom/huawei/appmarket/rj;Ljava/lang/String;Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;Ljava/lang/String;JLjava/lang/String;)V
     .registers 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map$Entry<",
-            "Lcom/huawei/appmarket/qj;",
-            "Ljava/lang/Long;",
-            ">;",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;",
-            "Ljava/lang/String;",
-            "J",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qi;->b:Ljava/util/Map$Entry;
+    iput-object p1, p0, Lcom/huawei/appmarket/qi;->b:Lcom/huawei/appmarket/rj;
 
     iput-object p2, p0, Lcom/huawei/appmarket/qi;->c:Ljava/lang/String;
 
@@ -75,7 +54,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -83,150 +62,186 @@
 
 # virtual methods
 .method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 4
+    .registers 19
 
     .line 1
-    check-cast p1, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;
+    move-object/from16 v0, p0
 
     .line 2
     .line 3
-    const-string v0, "item"
+    move-object/from16 v1, p1
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    check-cast v1, Ljava/util/Map;
 
     .line 6
     .line 7
+    const-string v2, "itemEntries"
+
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/qi;->b:Ljava/util/Map$Entry;
-
     .line 9
-    .line 10
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 10
     .line 11
     .line 12
-    .line 13
-    move-result-object v1
+    iget-object v2, v0, Lcom/huawei/appmarket/qi;->b:Lcom/huawei/appmarket/rj;
 
+    .line 13
     .line 14
-    check-cast v1, Lcom/huawei/appmarket/qj;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/rj;->d()Ljava/util/Map;
 
     .line 15
     .line 16
-    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setType(Lcom/huawei/appmarket/qj;)V
-
     .line 17
+    move-result-object v2
+
     .line 18
+    iget-object v11, v0, Lcom/huawei/appmarket/qi;->c:Ljava/lang/String;
+
     .line 19
-    iget-object v1, p0, Lcom/huawei/appmarket/qi;->c:Ljava/lang/String;
-
     .line 20
-    .line 21
-    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setServiceCountry(Ljava/lang/String;)V
+    iget-object v12, v0, Lcom/huawei/appmarket/qi;->d:Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;
 
+    .line 21
     .line 22
+    iget-object v13, v0, Lcom/huawei/appmarket/qi;->e:Ljava/lang/String;
+
     .line 23
     .line 24
-    iget-object v1, p0, Lcom/huawei/appmarket/qi;->d:Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;
+    iget-wide v14, v0, Lcom/huawei/appmarket/qi;->f:J
 
     .line 25
     .line 26
-    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setSigningEntity(Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;)V
+    iget-object v10, v0, Lcom/huawei/appmarket/qi;->g:Ljava/lang/String;
 
     .line 27
     .line 28
-    .line 29
-    iget-object v1, p0, Lcom/huawei/appmarket/qi;->e:Ljava/lang/String;
+    invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
+    .line 29
     .line 30
     .line 31
-    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLanguage(Ljava/lang/String;)V
+    move-result-object v2
 
     .line 32
+    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
     .line 33
     .line 34
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
     .line 35
+    move-result-object v2
+
     .line 36
+    :goto_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
     .line 37
-    move-result-object v0
-
     .line 38
-    check-cast v0, Ljava/lang/Long;
-
     .line 39
+    move-result v3
+
     .line 40
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setSignedVersion(Ljava/lang/Long;)V
+    if-eqz v3, :cond_0
 
     .line 41
     .line 42
-    .line 43
-    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getLatestVersion()Ljava/lang/Long;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
+    .line 43
     .line 44
     .line 45
+    move-result-object v3
+
     .line 46
-    iget-wide v0, p0, Lcom/huawei/appmarket/qi;->f:J
+    move-object v4, v3
 
     .line 47
-    .line 48
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    check-cast v4, Ljava/util/Map$Entry;
 
+    .line 48
     .line 49
+    invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
     .line 50
     .line 51
-    move-result-object v0
-
     .line 52
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLocalSignTime(Ljava/lang/Long;)V
+    move-result-object v3
 
     .line 53
+    check-cast v3, Lcom/huawei/appmarket/pj;
+
     .line 54
     .line 55
-    iget-object v0, p0, Lcom/huawei/appmarket/qi;->g:Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pj;->b()I
 
     .line 56
     .line 57
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setUserIdHash(Ljava/lang/String;)V
-
     .line 58
-    .line 59
-    .line 60
-    const/4 v0, 0x0
+    move-result v8
 
+    .line 59
+    new-instance v9, Lcom/huawei/appmarket/pi;
+
+    .line 60
     .line 61
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setCloudSignTime(Ljava/lang/Long;)V
+    move-object v3, v9
 
     .line 62
+    move-object v5, v11
+
     .line 63
+    move-object v6, v12
+
     .line 64
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    move-object v7, v13
 
     .line 65
+    move-object/from16 p1, v2
+
     .line 66
-    return-object p1
     .line 67
+    move v0, v8
+
     .line 68
+    move-object v2, v9
+
     .line 69
+    move-wide v8, v14
+
     .line 70
+    move-object/from16 v16, v10
+
     .line 71
     .line 72
+    invoke-direct/range {v3 .. v10}, Lcom/huawei/appmarket/pi;-><init>(Ljava/util/Map$Entry;Ljava/lang/String;Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;Ljava/lang/String;JLjava/lang/String;)V
+
     .line 73
     .line 74
     .line 75
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/yz8;->P(Ljava/util/Map;ILcom/huawei/appmarket/ts2;)V
+
     .line 76
     .line 77
     .line 78
+    move-object/from16 v0, p0
+
     .line 79
     .line 80
+    move-object/from16 v2, p1
+
     .line 81
     .line 82
+    goto :goto_0
+
     .line 83
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
+
     .line 84
     .line 85
+    return-object v0
     .line 86
     .line 87
     .line 88

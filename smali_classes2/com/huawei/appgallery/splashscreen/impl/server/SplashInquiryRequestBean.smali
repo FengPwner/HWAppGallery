@@ -9,12 +9,12 @@
 
 # instance fields
 .field private screen:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private taskIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setMethod_(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->j()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->j()Ljava/lang/String;
 
     move-result-object v0
 

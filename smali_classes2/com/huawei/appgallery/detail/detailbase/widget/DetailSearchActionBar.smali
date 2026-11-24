@@ -16,7 +16,7 @@
 
 .field private final g:Lcom/huawei/uikit/hwbutton/widget/HwButton;
 
-.field private h:Lcom/huawei/appmarket/l37;
+.field private h:Lcom/huawei/appmarket/q37;
 
 
 # direct methods
@@ -60,7 +60,7 @@
 
     invoke-virtual {p2, p3, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const p2, 0x7f0a0dec
 
@@ -154,37 +154,37 @@
     goto :goto_0
 
     :cond_1
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p3, "searchButton is null"
 
-    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     if-eqz v1, :cond_2
 
-    new-instance p1, Lcom/huawei/appmarket/zl1;
+    new-instance p1, Lcom/huawei/appmarket/cm1;
 
     const/4 p2, 0x0
 
-    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/zl1;-><init>(Landroid/view/View;I)V
+    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/cm1;-><init>(Landroid/view/View;I)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    new-instance p1, Lcom/huawei/appmarket/am1;
+    new-instance p1, Lcom/huawei/appmarket/dm1;
 
-    invoke-direct {p1, p0}, Lcom/huawei/appmarket/am1;-><init>(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)V
+    invoke-direct {p1, p0}, Lcom/huawei/appmarket/dm1;-><init>(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)V
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     goto :goto_1
 
     :cond_2
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p3, "search editText is null"
 
-    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -581,7 +581,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     .line 4
     .line 5
@@ -589,7 +589,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p0}, Lcom/huawei/appmarket/l37;->F0()V
+    invoke-interface {p0}, Lcom/huawei/appmarket/q37;->F0()V
 
     .line 8
     .line 9
@@ -755,14 +755,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method static synthetic c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/l37;
+.method static synthetic c(Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;)Lcom/huawei/appmarket/q37;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     return-object p0
 .end method
@@ -795,7 +794,7 @@
 
     if-eqz v0, :cond_3
 
-    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     if-nez v1, :cond_0
 
@@ -812,12 +811,12 @@
 
     if-eqz v2, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     const-string v0, ""
 
     :goto_0
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/l37;->W(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/q37;->W(Ljava/lang/String;)V
 
     return-void
 
@@ -841,7 +840,7 @@
     :cond_2
     invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->clearFocus()V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
@@ -924,21 +923,21 @@
 
     if-eq p2, p4, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/l37;->Y0(I)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/q37;->Y0(I)V
 
     :cond_0
     return-void
 .end method
 
-.method public setActionBarListener(Lcom/huawei/appmarket/l37;)V
+.method public setActionBarListener(Lcom/huawei/appmarket/q37;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/l37;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h:Lcom/huawei/appmarket/q37;
 
     return-void
 .end method

@@ -58,11 +58,11 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 6
     .line 7
@@ -84,11 +84,11 @@
     sub-int/2addr v1, v2
 
     .line 15
-    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 16
     .line 17
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 18
     .line 19
@@ -128,16 +128,16 @@
 
     .line 36
     .line 37
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
     .line 40
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 43
     .line 44
@@ -145,11 +145,11 @@
     move-result-object v1
 
     .line 46
-    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 47
     .line 48
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 49
     .line 50
@@ -177,11 +177,11 @@
 
     .line 61
     .line 62
-    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 63
     .line 64
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 65
     .line 66
@@ -206,11 +206,11 @@
 
     .line 76
     .line 77
-    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v3, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 78
     .line 79
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 80
     .line 81
@@ -239,7 +239,7 @@
 
     .line 92
     .line 93
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -281,11 +281,11 @@
 
     .line 113
     .line 114
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 115
     .line 116
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 117
     .line 118
@@ -294,7 +294,7 @@
 
     .line 120
     .line 121
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 122
     .line 123
@@ -306,12 +306,12 @@
     move-result v2
 
     .line 127
-    invoke-virtual {v1, v2, p2}, Lcom/huawei/appmarket/nb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v1, v2, p2}, Lcom/huawei/appmarket/qb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 128
     .line 129
     .line 130
-    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 131
     .line 132
@@ -323,7 +323,7 @@
     move-result v1
 
     .line 136
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     .line 137
     .line 138
@@ -351,7 +351,7 @@
     move-result-object p2
 
     .line 150
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 151
     .line 152
@@ -363,7 +363,7 @@
     move-result p1
 
     .line 156
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     .line 157
     .line 158
@@ -434,11 +434,11 @@
     move-result-object p1
 
     .line 192
-    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 193
     .line 194
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 195
     .line 196
@@ -460,11 +460,11 @@
     move-result-object p1
 
     .line 205
-    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 206
     .line 207
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 208
     .line 209
@@ -485,11 +485,11 @@
     move-result-object p1
 
     .line 218
-    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 219
     .line 220
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->k()I
 
     .line 221
     .line 222
@@ -502,11 +502,11 @@
     .line 225
     .line 226
     .line 227
-    iget-object p1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p1, v0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/VerticalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 228
     .line 229
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 230
     .line 231
@@ -514,7 +514,7 @@
     move-result-object p1
 
     .line 233
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 234
     .line 235
@@ -932,11 +932,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

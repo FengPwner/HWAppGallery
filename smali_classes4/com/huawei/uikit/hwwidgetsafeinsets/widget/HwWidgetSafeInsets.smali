@@ -677,6 +677,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final c(Landroid/view/View;Landroid/graphics/Rect;Z)V
@@ -1117,356 +1137,356 @@
     move-result-object v5
 
     .line 171
-    const-string v7, "window"
+    const-string/jumbo v7, "window"
 
     .line 172
     .line 173
+    .line 174
     if-eqz v5, :cond_9
 
-    .line 174
     .line 175
+    .line 176
     invoke-virtual {v5, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 176
     .line 177
     .line 178
-    move-result-object v5
-
     .line 179
-    check-cast v5, Landroid/view/WindowManager;
+    move-result-object v5
 
     .line 180
+    check-cast v5, Landroid/view/WindowManager;
+
     .line 181
+    .line 182
     if-eqz v5, :cond_9
 
-    .line 182
     .line 183
+    .line 184
     invoke-interface {v5}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 184
     .line 185
     .line 186
+    .line 187
     move-result-object v5
 
-    .line 187
+    .line 188
     invoke-virtual {v5}, Landroid/view/Display;->getRotation()I
 
-    .line 188
     .line 189
     .line 190
+    .line 191
     move-result v5
 
-    .line 191
+    .line 192
     goto :goto_4
 
-    .line 192
+    .line 193
     :cond_9
     const/4 v5, 0x0
 
-    .line 193
+    .line 194
     :goto_4
     if-eqz v5, :cond_b
 
-    .line 194
     .line 195
+    .line 196
     if-ne v5, v6, :cond_a
 
-    .line 196
     .line 197
+    .line 198
     goto :goto_5
 
-    .line 198
+    .line 199
     :cond_a
     const/4 v5, 0x0
 
-    .line 199
+    .line 200
     goto :goto_6
 
-    .line 200
+    .line 201
     :cond_b
     :goto_5
     const/4 v5, 0x1
 
-    .line 201
+    .line 202
     :goto_6
     iget-boolean v8, p0, Lcom/huawei/uikit/hwwidgetsafeinsets/widget/HwWidgetSafeInsets;->g:Z
 
-    .line 202
     .line 203
+    .line 204
     if-eqz v8, :cond_e
 
-    .line 204
     .line 205
+    .line 206
     if-eqz v5, :cond_c
 
-    .line 206
     .line 207
+    .line 208
     iget v8, v2, Landroid/graphics/Rect;->top:I
 
-    .line 208
     .line 209
+    .line 210
     if-lez v8, :cond_c
 
-    .line 210
     .line 211
+    .line 212
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
-    .line 212
     .line 213
+    .line 214
     if-ge v1, v8, :cond_c
 
-    .line 214
     .line 215
+    .line 216
     invoke-virtual {p1}, Landroid/view/View;->getPaddingTop()I
 
-    .line 216
     .line 217
     .line 218
+    .line 219
     move-result v8
 
-    .line 219
+    .line 220
     add-int/2addr v8, v1
 
-    .line 220
+    .line 221
     iget v1, v2, Landroid/graphics/Rect;->top:I
 
-    .line 221
     .line 222
+    .line 223
     if-ge v8, v1, :cond_d
 
-    .line 223
     .line 224
+    .line 225
     :goto_7
     iput v1, v0, Landroid/graphics/Rect;->top:I
 
-    .line 225
     .line 226
+    .line 227
     goto :goto_8
 
-    .line 227
+    .line 228
     :cond_c
     iget-boolean v1, p0, Lcom/huawei/uikit/hwwidgetsafeinsets/widget/HwWidgetSafeInsets;->i:Z
 
-    .line 228
     .line 229
+    .line 230
     if-eqz v1, :cond_e
 
-    .line 230
     .line 231
+    .line 232
     :cond_d
     invoke-virtual {p1}, Landroid/view/View;->getPaddingTop()I
 
-    .line 232
     .line 233
     .line 234
+    .line 235
     move-result v1
 
-    .line 235
+    .line 236
     goto :goto_7
 
-    .line 236
+    .line 237
     :cond_e
     :goto_8
     iget-boolean v1, p0, Lcom/huawei/uikit/hwwidgetsafeinsets/widget/HwWidgetSafeInsets;->h:Z
 
-    .line 237
     .line 238
+    .line 239
     if-eqz v1, :cond_12
 
-    .line 239
     .line 240
+    .line 241
     if-eqz v5, :cond_12
 
-    .line 241
     .line 242
+    .line 243
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 243
     .line 244
     .line 245
+    .line 246
     move-result-object v1
 
-    .line 246
+    .line 247
     if-eqz v1, :cond_11
 
-    .line 247
     .line 248
+    .line 249
     const-string v2, "HwWidgetSafeInsets"
 
-    .line 249
     .line 250
+    .line 251
     :try_start_0
     sget-object v5, Lcom/huawei/uikit/hwwidgetsafeinsets/widget/HwWidgetSafeInsets;->n:Ljava/lang/reflect/Method;
 
-    .line 251
     .line 252
+    .line 253
     if-eqz v5, :cond_f
 
-    .line 253
     .line 254
+    .line 255
     new-array v8, v4, [Ljava/lang/Object;
 
-    .line 255
     .line 256
+    .line 257
     aput-object v1, v8, v3
 
-    .line 257
     .line 258
+    .line 259
     const/4 v9, 0x0
 
-    .line 259
+    .line 260
     invoke-virtual {v5, v9, v8}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 260
     .line 261
     .line 262
+    .line 263
     move-result-object v5
 
-    .line 263
+    .line 264
     check-cast v5, Ljava/lang/Integer;
 
-    .line 264
     .line 265
+    .line 266
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
-    .line 266
     .line 267
     .line 268
+    .line 269
     move-result v2
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 269
+    .line 270
     goto :goto_b
 
-    .line 270
+    .line 271
     :catch_0
     const-string v5, "getRadiusSize InvocationTargetException"
 
-    .line 271
     .line 272
+    .line 273
     :goto_9
     invoke-static {v2, v5}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 273
     .line 274
     .line 275
+    .line 276
     goto :goto_a
 
-    .line 276
+    .line 277
     :catch_1
     const-string v5, "getRadiusSize IllegalAccessException"
 
-    .line 277
     .line 278
+    .line 279
     goto :goto_9
 
-    .line 279
+    .line 280
     :cond_f
     :goto_a
     const/4 v2, 0x0
 
-    .line 280
+    .line 281
     :goto_b
     if-gtz v2, :cond_10
 
-    .line 281
     .line 282
+    .line 283
     goto :goto_c
 
-    .line 283
+    .line 284
     :cond_10
     new-array v3, v6, [I
 
-    .line 284
     .line 285
+    .line 286
     invoke-virtual {p1, v3}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 286
     .line 287
     .line 288
+    .line 289
     invoke-virtual {v1, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 289
     .line 290
     .line 291
-    move-result-object v1
-
     .line 292
-    check-cast v1, Landroid/view/WindowManager;
+    move-result-object v1
 
     .line 293
+    check-cast v1, Landroid/view/WindowManager;
+
     .line 294
+    .line 295
     new-instance v5, Landroid/util/DisplayMetrics;
 
-    .line 295
     .line 296
+    .line 297
     invoke-direct {v5}, Landroid/util/DisplayMetrics;-><init>()V
 
-    .line 297
     .line 298
     .line 299
+    .line 300
     invoke-interface {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 300
     .line 301
     .line 302
+    .line 303
     move-result-object v1
 
-    .line 303
+    .line 304
     invoke-virtual {v1, v5}, Landroid/view/Display;->getRealMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 304
     .line 305
     .line 306
+    .line 307
     iget v1, v5, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 307
     .line 308
+    .line 309
     aget v3, v3, v4
 
-    .line 309
     .line 310
+    .line 311
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredHeight()I
 
-    .line 311
     .line 312
     .line 313
+    .line 314
     move-result p1
 
-    .line 314
+    .line 315
     add-int/2addr p1, v3
 
-    .line 315
+    .line 316
     add-int/2addr p1, v2
 
-    .line 316
+    .line 317
     sub-int v3, p1, v1
 
-    .line 317
     .line 318
+    .line 319
     :cond_11
     :goto_c
     if-lez v3, :cond_12
 
-    .line 319
     .line 320
+    .line 321
     iget p1, p2, Landroid/graphics/Rect;->bottom:I
 
-    .line 321
     .line 322
+    .line 323
     add-int/2addr p1, v3
 
-    .line 323
+    .line 324
     iput p1, v0, Landroid/graphics/Rect;->bottom:I
 
-    .line 324
     .line 325
+    .line 326
     :cond_12
     :goto_d
     return-object v0
-    .line 326
     .line 327
     .line 328
     .line 329
@@ -2556,7 +2576,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/tg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/vg6;->a:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -3418,6 +3438,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public final o(Landroid/view/WindowInsets;)V
@@ -3735,7 +3875,7 @@
 
     .line 140
     .line 141
-    invoke-static {p1}, Lcom/huawei/appmarket/d56;->l(Landroid/view/WindowInsets;)Landroid/view/DisplayCutout;
+    invoke-static {p1}, Lcom/huawei/appmarket/f56;->l(Landroid/view/WindowInsets;)Landroid/view/DisplayCutout;
 
     .line 142
     .line 143
@@ -3747,7 +3887,7 @@
 
     .line 146
     .line 147
-    invoke-static {p1}, Lcom/huawei/appmarket/of1;->A(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/qf1;->A(Landroid/view/DisplayCutout;)I
 
     .line 148
     .line 149
@@ -3755,7 +3895,7 @@
     move-result v0
 
     .line 151
-    invoke-static {p1}, Lcom/huawei/appmarket/of1;->D(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/qf1;->D(Landroid/view/DisplayCutout;)I
 
     .line 152
     .line 153
@@ -4842,63 +4982,4 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method

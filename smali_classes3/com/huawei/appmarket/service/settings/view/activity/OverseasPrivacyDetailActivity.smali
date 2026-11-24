@@ -77,7 +77,7 @@
     move-result-object p1
 
     .line 34
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 35
     .line 36
@@ -90,7 +90,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -488,6 +488,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

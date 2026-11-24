@@ -7,15 +7,15 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/qi3;
+.field final synthetic b:Lcom/huawei/appmarket/si3;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/qi3;)V
+.method constructor <init>(Lcom/huawei/appmarket/si3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/i;->b:Lcom/huawei/appmarket/qi3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/i;->b:Lcom/huawei/appmarket/si3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -46,7 +46,7 @@
     .line 1
     const/4 p1, 0x0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/i;->b:Lcom/huawei/appmarket/qi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/i;->b:Lcom/huawei/appmarket/si3;
 
     if-eqz p2, :cond_0
 
@@ -67,9 +67,9 @@
     move-result-object p1
 
     :cond_0
-    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w;
+    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w;->a(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x;->a(Ljava/util/List;)V
 
     return-void
 .end method

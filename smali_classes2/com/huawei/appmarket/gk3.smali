@@ -4,8 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()V
-.end method
-
-.method public abstract b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
+.method public abstract prepare(Lcom/huawei/appgallery/captchakit/captchakit/api/bean/CaptchaInitBean;)V
 .end method

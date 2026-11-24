@@ -4,11 +4,14 @@
 
 
 # virtual methods
-.method public abstract H()V
+.method public abstract a()I
 .end method
 
-.method public abstract W0()I
+.method public abstract b()I
 .end method
 
-.method public abstract x(Lcom/huawei/appmarket/ju7;)V
+.method public abstract c()I
+.end method
+
+.method public abstract d()Ljava/lang/String;
 .end method

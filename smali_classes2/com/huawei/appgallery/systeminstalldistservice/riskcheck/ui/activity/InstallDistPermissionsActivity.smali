@@ -42,7 +42,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 8
     .line 9
@@ -125,7 +125,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 52
     .line 53
@@ -177,7 +177,7 @@
     move-result-object p1
 
     .line 77
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 78
     .line 79
@@ -189,7 +189,7 @@
 
     .line 82
     .line 83
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 84
     .line 85
@@ -201,7 +201,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -215,7 +215,7 @@
 
     .line 96
     :cond_1
-    const v0, 0x7f0a1809
+    const v0, 0x7f0a180a
 
     .line 97
     .line 98
@@ -232,7 +232,7 @@
 
     .line 104
     .line 105
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 106
     .line 107
@@ -261,7 +261,7 @@
     move-result-object v3
 
     .line 119
-    check-cast v3, Lcom/huawei/appmarket/oh4;
+    check-cast v3, Lcom/huawei/appmarket/qh4;
 
     .line 120
     .line 121
@@ -282,7 +282,7 @@
     move-result-object v5
 
     .line 130
-    invoke-virtual {v4, v3, v5}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/common/PermissionGroupLayout;->b(Lcom/huawei/appmarket/oh4;Landroid/content/pm/PackageManager;)V
+    invoke-virtual {v4, v3, v5}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/common/PermissionGroupLayout;->b(Lcom/huawei/appmarket/qh4;Landroid/content/pm/PackageManager;)V
 
     .line 131
     .line 132

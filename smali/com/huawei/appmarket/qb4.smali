@@ -1,151 +1,83 @@
-.class abstract Lcom/huawei/appmarket/qb4;
+.class public final Lcom/huawei/appmarket/qb4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/Iterator;
+.implements Lcom/huawei/appmarket/xo8;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TT;>;"
-    }
-.end annotation
-
-
-# instance fields
-.field private b:I
-
-.field private c:I
-
-.field private d:Z
+# static fields
+.field private static final a:[Ljava/lang/String;
 
 
 # direct methods
-.method constructor <init>(I)V
-    .registers 2
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    const/4 v0, 0x0
 
-    iput p1, p0, Lcom/huawei/appmarket/qb4;->b:I
+    new-array v0, v0, [Ljava/lang/String;
+
+    sput-object v0, Lcom/huawei/appmarket/qb4;->a:[Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected abstract b(I)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I)TT;"
-        }
-    .end annotation
+.method public final a()[Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/qb4;->a:[Ljava/lang/String;
+
+    return-object v0
 .end method
 
-.method protected abstract c(I)V
-.end method
-
-.method public final hasNext()Z
+.method public final getDropDataProvider()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
     .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/qb4;->c:I
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
 
-    iget v1, p0, Lcom/huawei/appmarket/qb4;->b:I
+    const-string v1, "This should never happen, if this method was called it means we\'re trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily"
 
-    if-ge v0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public final next()Ljava/lang/Object;
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/qb4;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget v0, p0, Lcom/huawei/appmarket/qb4;->c:I
-
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/qb4;->b(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    iget v1, p0, Lcom/huawei/appmarket/qb4;->c:I
-
-    const/4 v2, 0x1
-
-    add-int/2addr v1, v2
-
-    iput v1, p0, Lcom/huawei/appmarket/qb4;->c:I
-
-    iput-boolean v2, p0, Lcom/huawei/appmarket/qb4;->d:Z
-
-    return-object v0
-
-    :cond_0
-    new-instance v0, Ljava/util/NoSuchElementException;
-
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
 
-.method public final remove()V
-    .registers 2
+.method public final getStatics()Lorg/chromium/support_lib_boundary/StaticsBoundaryInterface;
+    .registers 3
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/qb4;->d:Z
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
 
-    if-eqz v0, :cond_0
+    const-string v1, "This should never happen, if this method was called it means we\'re trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily"
 
-    iget v0, p0, Lcom/huawei/appmarket/qb4;->c:I
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
-    add-int/lit8 v0, v0, -0x1
+    throw v0
+.end method
 
-    iput v0, p0, Lcom/huawei/appmarket/qb4;->c:I
+.method public final getWebkitToCompatConverter()Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+    .registers 3
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/qb4;->c(I)V
+    .line 1
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
 
-    iget v0, p0, Lcom/huawei/appmarket/qb4;->b:I
+    const-string v1, "This should never happen, if this method was called it means we\'re trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily"
 
-    add-int/lit8 v0, v0, -0x1
-
-    iput v0, p0, Lcom/huawei/appmarket/qb4;->b:I
-
-    const/4 v0, 0x0
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/qb4;->d:Z
-
-    return-void
-
-    :cond_0
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method

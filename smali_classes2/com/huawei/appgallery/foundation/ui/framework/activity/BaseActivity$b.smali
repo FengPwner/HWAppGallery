@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -40,7 +40,7 @@
 .method public final run()V
     .registers 1
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->n()V
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->n()V
 
     return-void
 .end method

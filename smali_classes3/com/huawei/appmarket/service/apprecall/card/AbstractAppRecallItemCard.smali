@@ -8,7 +8,7 @@
 
 .field protected B:Landroid/view/ViewGroup;
 
-.field protected C:Lcom/huawei/appmarket/ak0;
+.field protected C:Lcom/huawei/appmarket/bk0;
 
 .field private D:Landroid/view/View;
 
@@ -197,7 +197,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -247,7 +247,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/td1;)V
 
     .line 37
     .line 38
@@ -302,7 +302,7 @@
     move-result v7
 
     .line 64
-    new-instance p1, Lcom/huawei/appmarket/ft1;
+    new-instance p1, Lcom/huawei/appmarket/it1;
 
     .line 65
     .line 66
@@ -316,12 +316,12 @@
     move-object v1, p1
 
     .line 70
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/ft1;-><init>(Landroid/content/Context;IIIZI)V
+    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/it1;-><init>(Landroid/content/Context;IIIZI)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->setButtonStyle(Lcom/huawei/appmarket/td1;)V
 
     .line 74
     .line 75
@@ -335,7 +335,7 @@
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     .line 81
     .line 82
@@ -372,10 +372,9 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method protected D1(Lcom/huawei/appmarket/ak0;)V
+.method protected D1(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -516,7 +515,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final E1(Landroid/view/View;)V
@@ -603,7 +601,7 @@
 
     .line 12
     :cond_0
-    instance-of v0, p1, Lcom/huawei/appmarket/gz2;
+    instance-of v0, p1, Lcom/huawei/appmarket/jz2;
 
     .line 13
     .line 14
@@ -611,11 +609,11 @@
 
     .line 15
     .line 16
-    check-cast p1, Lcom/huawei/appmarket/gz2;
+    check-cast p1, Lcom/huawei/appmarket/jz2;
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz2;->c()Landroid/graphics/Bitmap;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jz2;->c()Landroid/graphics/Bitmap;
 
     .line 19
     .line 20
@@ -652,7 +650,7 @@
 
     .line 34
     .line 35
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -702,7 +700,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     .line 61
     .line 62
@@ -835,7 +833,7 @@
     .line 121
     .line 122
     .line 123
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     .line 124
     .line 125
@@ -852,7 +850,7 @@
     .line 130
     .line 131
     .line 132
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     .line 133
     .line 134
@@ -1104,8 +1102,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
@@ -1142,17 +1138,17 @@
     return-void
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->C:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->C:Lcom/huawei/appmarket/bk0;
 
     if-nez v0, :cond_0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->C:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->C:Lcom/huawei/appmarket/bk0;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->D1(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->D1(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     return-void

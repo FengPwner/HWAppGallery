@@ -254,7 +254,7 @@
     move-result-wide v2
 
     .line 4
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/b00;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
 
     move-result-object v4
 

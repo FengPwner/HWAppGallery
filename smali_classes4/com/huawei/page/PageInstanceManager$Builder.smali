@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/fc2;
+.field private a:Lcom/huawei/appmarket/ic2;
 
 .field private final b:Landroid/content/Context;
 
@@ -23,7 +23,7 @@
 
 .field private d:Lcom/huawei/page/PageInstanceManager$b;
 
-.field private e:Lcom/huawei/appmarket/hc2;
+.field private e:Lcom/huawei/appmarket/kc2;
 
 .field private f:Lcom/huawei/page/b;
 
@@ -41,11 +41,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/page/PageInstanceManager$Builder;)Lcom/huawei/appmarket/fc2;
+.method static synthetic a(Lcom/huawei/page/PageInstanceManager$Builder;)Lcom/huawei/appmarket/ic2;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/fc2;
+    iget-object p0, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/ic2;
 
     return-object p0
 .end method
@@ -75,11 +75,11 @@
     return-object p0
 .end method
 
-.method static synthetic f(Lcom/huawei/page/PageInstanceManager$Builder;)Lcom/huawei/appmarket/hc2;
+.method static synthetic f(Lcom/huawei/page/PageInstanceManager$Builder;)Lcom/huawei/appmarket/kc2;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/page/PageInstanceManager$Builder;->e:Lcom/huawei/appmarket/hc2;
+    iget-object p0, p0, Lcom/huawei/page/PageInstanceManager$Builder;->e:Lcom/huawei/appmarket/kc2;
 
     return-object p0
 .end method
@@ -128,11 +128,11 @@
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/fc2;
+    iget-object v1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/ic2;
 
     .line 17
     .line 18
-    instance-of v2, v1, Lcom/huawei/appmarket/ta7;
+    instance-of v2, v1, Lcom/huawei/appmarket/ya7;
 
     .line 19
     .line 20
@@ -141,11 +141,11 @@
     .line 21
     .line 22
     :try_start_0
-    check-cast v1, Lcom/huawei/appmarket/ta7;
+    check-cast v1, Lcom/huawei/appmarket/ya7;
 
     .line 23
     .line 24
-    invoke-interface {v1}, Lcom/huawei/appmarket/ta7;->a()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/ya7;->a()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -188,11 +188,11 @@
     .line 42
     .line 43
     :cond_2
-    iget-object v1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/fc2;
+    iget-object v1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/ic2;
 
     .line 44
     .line 45
-    instance-of v2, v1, Lcom/huawei/appmarket/ta7;
+    instance-of v2, v1, Lcom/huawei/appmarket/ya7;
 
     .line 46
     .line 47
@@ -201,11 +201,11 @@
     .line 48
     .line 49
     :try_start_1
-    check-cast v1, Lcom/huawei/appmarket/ta7;
+    check-cast v1, Lcom/huawei/appmarket/ya7;
 
     .line 50
     .line 51
-    invoke-interface {v1}, Lcom/huawei/appmarket/ta7;->a()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/ya7;->a()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -469,6 +469,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final h(Ljava/lang/String;Lcom/huawei/page/b;)V
@@ -500,20 +520,20 @@
     return-void
 .end method
 
-.method public final k(Lcom/huawei/appmarket/fc2;)V
+.method public final k(Lcom/huawei/appmarket/ic2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/fc2;
+    iput-object p1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->a:Lcom/huawei/appmarket/ic2;
 
     return-void
 .end method
 
-.method public final l(Lcom/huawei/appmarket/hc2;)V
+.method public final l(Lcom/huawei/appmarket/kc2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->e:Lcom/huawei/appmarket/hc2;
+    iput-object p1, p0, Lcom/huawei/page/PageInstanceManager$Builder;->e:Lcom/huawei/appmarket/kc2;
 
     return-void
 .end method

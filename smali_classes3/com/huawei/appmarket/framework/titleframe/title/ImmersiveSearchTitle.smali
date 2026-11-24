@@ -18,11 +18,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;)Lcom/huawei/appmarket/a44;
+.method static synthetic a(Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;)Lcom/huawei/appmarket/c44;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->iTitleDataChangedListener:Lcom/huawei/appmarket/a44;
+    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->iTitleDataChangedListener:Lcom/huawei/appmarket/c44;
 
     return-object p0
 .end method
@@ -94,12 +94,12 @@
 
     .line 23
     .line 24
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 25
     .line 26
     .line 27
-    const v1, 0x7f0a1893
+    const v1, 0x7f0a1894
 
     .line 28
     .line 29
@@ -180,7 +180,7 @@
     .line 68
     .line 69
     :cond_0
-    const v1, 0x7f0a1890    # 1.83561E38f
+    const v1, 0x7f0a1891
 
     .line 70
     .line 71
@@ -379,7 +379,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 33
     .line 34
@@ -406,7 +406,7 @@
 
     .line 43
     .line 44
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 45
     .line 46
@@ -597,5 +597,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

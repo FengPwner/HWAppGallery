@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/e;
-.super Lcom/huawei/appmarket/bd5;
+.super Lcom/huawei/appmarket/ed5;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/e;->e:Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallManagerMultiTabsFragment;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/bd5;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/ed5;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 .method public final onFragmentSelected(I)V
     .registers 4
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/bd5;->onFragmentSelected(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ed5;->onFragmentSelected(I)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/e;->e:Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallManagerMultiTabsFragment;
 

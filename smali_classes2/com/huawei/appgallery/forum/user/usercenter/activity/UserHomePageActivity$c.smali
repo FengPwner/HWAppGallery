@@ -67,7 +67,7 @@
 
     const-string v1, "ReloadRunnable userHomePageActivity null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -88,7 +88,7 @@
 
     const-string v2, "ACCOUNT_LOGOUT_SUCCESS finish myself"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 
@@ -126,7 +126,7 @@
 
     const-string v2, "onAccountBusinessResult, account interval too short."
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     monitor-exit v1
 

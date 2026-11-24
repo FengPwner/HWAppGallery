@@ -58,7 +58,7 @@
 
     const-string v1, "DetailInfoFlowDownloadView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_3
 
@@ -71,7 +71,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->h(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)Lcom/huawei/appmarket/nk1;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->h(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)Lcom/huawei/appmarket/qk1;
 
     move-result-object v0
 
@@ -83,7 +83,7 @@
 
     if-eqz p2, :cond_3
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     move-result-object v2
 
@@ -96,7 +96,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->i()Lcom/huawei/appgallery/detail/detailbase/api/DetailInformationFlowItemBean;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->i()Lcom/huawei/appgallery/detail/detailbase/api/DetailInformationFlowItemBean;
 
     move-result-object p2
 
@@ -104,14 +104,14 @@
 
     const-string p1, "ShowDownloadingViewReceiver, find cardBean is null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_2
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nk1;->C(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qk1;->C(Z)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->i(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)Landroid/widget/FrameLayout;
 

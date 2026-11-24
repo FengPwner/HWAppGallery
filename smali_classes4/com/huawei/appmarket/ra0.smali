@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jg7;
+.implements Lcom/huawei/appmarket/og7;
 
 
 # direct methods
@@ -23,7 +23,7 @@
     .line 1
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/ic0;->skip(J)V
 
@@ -44,11 +44,11 @@
     return-void
 .end method
 
-.method public final timeout()Lcom/huawei/appmarket/oz7;
+.method public final timeout()Lcom/huawei/appmarket/tz7;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/oz7;->d:Lcom/huawei/appmarket/oz7$a;
+    sget-object v0, Lcom/huawei/appmarket/tz7;->d:Lcom/huawei/appmarket/tz7$a;
 
     return-object v0
 .end method

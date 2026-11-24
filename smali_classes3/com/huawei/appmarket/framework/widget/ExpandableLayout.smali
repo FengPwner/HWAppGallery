@@ -1091,11 +1091,11 @@
     .line 121
     .line 122
     .line 123
-    new-instance v0, Lcom/huawei/appmarket/uh2;
+    new-instance v0, Lcom/huawei/appmarket/xh2;
 
     .line 124
     .line 125
-    invoke-direct {v0}, Lcom/huawei/appmarket/uh2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/xh2;-><init>()V
 
     .line 126
     .line 127

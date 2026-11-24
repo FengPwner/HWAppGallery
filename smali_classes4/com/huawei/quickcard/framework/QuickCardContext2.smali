@@ -1,5 +1,5 @@
 .class public Lcom/huawei/quickcard/framework/QuickCardContext2;
-.super Lcom/huawei/appmarket/ax8;
+.super Lcom/huawei/appmarket/gx8;
 .source "SourceFile"
 
 
@@ -12,13 +12,13 @@
 .method public constructor <init>(Lcom/huawei/quickcard/QuickCardRoot;)V
     .registers 2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ax8;-><init>(Lcom/huawei/quickcard/QuickCardRoot;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/gx8;-><init>(Lcom/huawei/quickcard/QuickCardRoot;)V
 
-    new-instance p1, Lcom/huawei/appmarket/pf9;
+    new-instance p1, Lcom/huawei/appmarket/wf9;
 
-    invoke-direct {p1, p0}, Lcom/huawei/appmarket/pf9;-><init>(Lcom/huawei/quickcard/CardContext;)V
+    invoke-direct {p1, p0}, Lcom/huawei/appmarket/wf9;-><init>(Lcom/huawei/quickcard/CardContext;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ax8;->configurationManager:Lcom/huawei/appmarket/bg9;
+    iput-object p1, p0, Lcom/huawei/appmarket/gx8;->configurationManager:Lcom/huawei/appmarket/ig9;
 
     return-void
 .end method
@@ -28,9 +28,9 @@
 .method public bindData(Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;)I
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->scriptEngine:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->scriptEngine:Ljava/lang/String;
 
-    iget v1, p0, Lcom/huawei/appmarket/ax8;->toolkitLevel:I
+    iget v1, p0, Lcom/huawei/appmarket/gx8;->toolkitLevel:I
 
     invoke-interface {p1, v0, v1}, Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;->getExpressionContext(Ljava/lang/String;I)Lcom/huawei/quickcard/elexecutor/IExpressionContext;
 
@@ -49,7 +49,7 @@
     return p1
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/ax8;->bindData(Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;)I
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/gx8;->bindData(Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;)I
 
     move-result p1
 
@@ -68,7 +68,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
 
     invoke-interface {v0}, Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;->getCardId()Ljava/lang/String;
 
@@ -151,20 +151,20 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/ax8;->composeWatcherScript(Lcom/huawei/quickcard/watcher/Watcher;Z)Ljava/lang/String;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/gx8;->composeWatcherScript(Lcom/huawei/quickcard/watcher/Watcher;Z)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method protected createConfigurationManager()Lcom/huawei/appmarket/bg9;
+.method protected createConfigurationManager()Lcom/huawei/appmarket/ig9;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/pf9;
+    new-instance v0, Lcom/huawei/appmarket/wf9;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/pf9;-><init>(Lcom/huawei/quickcard/CardContext;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/wf9;-><init>(Lcom/huawei/quickcard/CardContext;)V
 
     return-object v0
 .end method
@@ -172,13 +172,13 @@
 .method protected doOnBindLifeCycle(Lcom/huawei/quickcard/elexecutor/IExpressionContext;)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
 
     invoke-virtual {v0}, Lcom/huawei/quickcard/action/ActionsManager;->initActions()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ax8;->getRoot()Lcom/huawei/quickcard/QuickCardRoot;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gx8;->getRoot()Lcom/huawei/quickcard/QuickCardRoot;
 
     move-result-object v1
 
@@ -189,7 +189,7 @@
     invoke-virtual {v0, p1, p0, v1}, Lcom/huawei/quickcard/action/ActionsManager;->bindActions(Lcom/huawei/quickcard/elexecutor/IExpressionContext;Lcom/huawei/quickcard/CardContext;Landroid/view/View;)V
 
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
 
     invoke-interface {v0}, Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;->getCardId()Ljava/lang/String;
 
@@ -235,7 +235,7 @@
 .method public getDataContext()Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
 
     const/4 v1, 0x0
 
@@ -244,7 +244,7 @@
     return-object v1
 
     :cond_0
-    iget-object v2, p0, Lcom/huawei/appmarket/ax8;->scriptEngine:Ljava/lang/String;
+    iget-object v2, p0, Lcom/huawei/appmarket/gx8;->scriptEngine:Ljava/lang/String;
 
     invoke-interface {v0, v2}, Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;->getExpressionContext(Ljava/lang/String;)Lcom/huawei/quickcard/elexecutor/IExpressionContext;
 
@@ -255,11 +255,11 @@
     return-object v1
 
     :cond_1
-    iget-object v1, p0, Lcom/huawei/appmarket/ax8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
+    iget-object v1, p0, Lcom/huawei/appmarket/gx8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
 
     invoke-interface {v1, v0}, Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;->setSrcExpressionContext(Lcom/huawei/quickcard/elexecutor/IExpressionContext;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
 
     return-object v0
 .end method
@@ -268,7 +268,7 @@
     .registers 9
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/ax8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
+    iput-object p2, p0, Lcom/huawei/appmarket/gx8;->dataContextProvider:Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;
 
     .line 2
     .line 3
@@ -280,7 +280,7 @@
     move-result-object v0
 
     .line 7
-    iput-object v0, p0, Lcom/huawei/appmarket/ax8;->script:Ljava/lang/String;
+    iput-object v0, p0, Lcom/huawei/appmarket/gx8;->script:Ljava/lang/String;
 
     .line 8
     .line 9
@@ -297,7 +297,7 @@
     move-result-object v0
 
     .line 16
-    iput-object v0, p0, Lcom/huawei/appmarket/ax8;->scriptEngine:Ljava/lang/String;
+    iput-object v0, p0, Lcom/huawei/appmarket/gx8;->scriptEngine:Ljava/lang/String;
 
     .line 17
     .line 18
@@ -497,7 +497,7 @@
     .line 111
     .line 112
     :goto_2
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
 
     .line 113
     .line 114
@@ -506,11 +506,11 @@
     .line 115
     .line 116
     .line 117
-    iget-object p3, p0, Lcom/huawei/appmarket/ax8;->configurationManager:Lcom/huawei/appmarket/bg9;
+    iget-object p3, p0, Lcom/huawei/appmarket/gx8;->configurationManager:Lcom/huawei/appmarket/ig9;
 
     .line 118
     .line 119
-    invoke-virtual {p3}, Lcom/huawei/appmarket/bg9;->k()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/ig9;->k()Ljava/lang/String;
 
     .line 120
     .line 121
@@ -527,7 +527,7 @@
     .line 126
     .line 127
     .line 128
-    iget-object p3, p0, Lcom/huawei/appmarket/ax8;->hostParams:Ljava/util/Map;
+    iget-object p3, p0, Lcom/huawei/appmarket/gx8;->hostParams:Ljava/util/Map;
 
     .line 129
     .line 130
@@ -582,17 +582,17 @@
     .line 155
     .line 156
     .line 157
-    iput-object p2, p0, Lcom/huawei/appmarket/ax8;->mThemeBean:Lcom/huawei/quickcard/framework/bean/ThemeBean;
+    iput-object p2, p0, Lcom/huawei/appmarket/gx8;->mThemeBean:Lcom/huawei/quickcard/framework/bean/ThemeBean;
 
     .line 158
     .line 159
     :cond_5
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ax8;->resetConfig()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/gx8;->resetConfig()V
 
     .line 160
     .line 161
     .line 162
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
 
     .line 163
     .line 164
@@ -616,11 +616,11 @@
 
     .line 173
     .line 174
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->expressionContextProxy:Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;
 
     .line 175
     .line 176
-    iget-object p3, p0, Lcom/huawei/appmarket/ax8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
+    iget-object p3, p0, Lcom/huawei/appmarket/gx8;->actionsManager:Lcom/huawei/quickcard/action/ActionsManager;
 
     .line 177
     .line 178
@@ -961,49 +961,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public onRendered()V
@@ -1029,7 +986,7 @@
 
     invoke-direct {v0, p1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
 
     invoke-interface {p1, v0}, Lcom/huawei/quickcard/watcher/IWatcherManager;->updateByScripts(Ljava/util/Collection;)V
 
@@ -1041,13 +998,13 @@
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
 
     invoke-interface {p1}, Lcom/huawei/quickcard/watcher/IWatcherManager;->updateDPWatchers()V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->configurationManager:Lcom/huawei/appmarket/bg9;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->configurationManager:Lcom/huawei/appmarket/ig9;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/ax8;->quickCardRoot:Lcom/huawei/quickcard/QuickCardRoot;
+    iget-object v0, p0, Lcom/huawei/appmarket/gx8;->quickCardRoot:Lcom/huawei/quickcard/QuickCardRoot;
 
     invoke-interface {v0}, Lcom/huawei/quickcard/QuickCardRoot;->getRootViewGroup()Landroid/view/ViewGroup;
 
@@ -1057,7 +1014,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bg9;->p(Landroid/content/Context;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ig9;->p(Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -1070,7 +1027,7 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appmarket/ax8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
+    iget-object p1, p0, Lcom/huawei/appmarket/gx8;->wm:Lcom/huawei/quickcard/watcher/IWatcherManager;
 
     invoke-interface {p1}, Lcom/huawei/quickcard/watcher/IWatcherManager;->updateSPWatchers()V
 

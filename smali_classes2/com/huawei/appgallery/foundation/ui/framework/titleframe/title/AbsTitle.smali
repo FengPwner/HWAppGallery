@@ -14,7 +14,7 @@
 # instance fields
 .field protected activity:Landroid/app/Activity;
 
-.field protected iTitleDataChangedListener:Lcom/huawei/appmarket/a44;
+.field protected iTitleDataChangedListener:Lcom/huawei/appmarket/c44;
 
 .field protected inflater:Landroid/view/LayoutInflater;
 
@@ -166,7 +166,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 4
     .line 5
@@ -329,7 +329,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public setTitleAccessibilityEvent()V
@@ -353,11 +352,11 @@
     return-void
 .end method
 
-.method public setTitleDataChangedListener(Lcom/huawei/appmarket/a44;)V
+.method public setTitleDataChangedListener(Lcom/huawei/appmarket/c44;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->iTitleDataChangedListener:Lcom/huawei/appmarket/a44;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->iTitleDataChangedListener:Lcom/huawei/appmarket/c44;
 
     return-void
 .end method

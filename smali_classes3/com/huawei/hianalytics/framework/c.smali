@@ -106,7 +106,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object v2
 

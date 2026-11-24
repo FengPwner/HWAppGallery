@@ -1,3 +1,8 @@
-.class final synthetic Lcom/huawei/appmarket/hl2;
+.class public interface abstract Lcom/huawei/appmarket/hl2;
 .super Ljava/lang/Object;
 .source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Landroid/graphics/Rect;)V
+.end method

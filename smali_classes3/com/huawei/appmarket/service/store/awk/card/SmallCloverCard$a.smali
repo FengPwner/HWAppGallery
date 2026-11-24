@@ -74,7 +74,7 @@
     :try_start_0
     invoke-static {v1}, Lcom/huawei/appmarket/service/store/awk/card/SmallCloverCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/SmallCloverCard;)V
 
-    sget-object v1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object v1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

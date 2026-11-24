@@ -66,7 +66,7 @@
 
     move-result-object p2
 
-    sget-object v2, Lcom/huawei/appmarket/wg6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/yg6;->a:[I
 
     invoke-virtual {p3, p4, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -323,7 +323,7 @@
     :goto_3
     check-cast p1, Landroid/view/ViewGroup;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/or2;->e(Landroidx/fragment/app/Fragment;Landroid/view/ViewGroup;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/qr2;->e(Landroidx/fragment/app/Fragment;Landroid/view/ViewGroup;)V
 
     iput-object p1, v0, Landroidx/fragment/app/Fragment;->J:Landroid/view/ViewGroup;
 
@@ -371,7 +371,7 @@
     const-string p3, " did not create a view."
 
     .line 5
-    invoke-static {v2, p2, p3}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p2, p3}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 

@@ -38,7 +38,7 @@
 
 .field private h:Lcom/bumptech/glide/load/engine/h$e;
 
-.field private i:Lcom/huawei/appmarket/tr5;
+.field private i:Lcom/huawei/appmarket/vr5;
 
 .field private j:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -46,7 +46,7 @@
             "Ljava/util/Map<",
             "Ljava/lang/Class<",
             "*>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "*>;>;"
         }
     .end annotation
@@ -65,11 +65,11 @@
 
 .field private m:Z
 
-.field private n:Lcom/huawei/appmarket/sq4;
+.field private n:Lcom/huawei/appmarket/vq4;
 
-.field private o:Lcom/huawei/appmarket/s66;
+.field private o:Lcom/huawei/appmarket/u66;
 
-.field private p:Lcom/huawei/appmarket/dp1;
+.field private p:Lcom/huawei/appmarket/gp1;
 
 .field private q:Z
 
@@ -109,19 +109,19 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->d:Ljava/lang/Object;
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/sq4;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/vq4;
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->g:Ljava/lang/Class;
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->k:Ljava/lang/Class;
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/tr5;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/vr5;
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/s66;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/u66;
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->j:Ljava/util/Map;
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/dp1;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/gp1;
 
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->a:Ljava/util/ArrayList;
 
@@ -140,13 +140,13 @@
     return-void
 .end method
 
-.method final b()Lcom/huawei/appmarket/hx;
+.method final b()Lcom/huawei/appmarket/ix;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->c:Lcom/bumptech/glide/d;
 
-    invoke-virtual {v0}, Lcom/bumptech/glide/d;->b()Lcom/huawei/appmarket/hx;
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->b()Lcom/huawei/appmarket/ix;
 
     move-result-object v0
 
@@ -190,7 +190,7 @@
 
     check-cast v5, Lcom/bumptech/glide/load/model/g$a;
 
-    iget-object v6, v5, Lcom/bumptech/glide/load/model/g$a;->a:Lcom/huawei/appmarket/sq4;
+    iget-object v6, v5, Lcom/bumptech/glide/load/model/g$a;->a:Lcom/huawei/appmarket/vq4;
 
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -198,7 +198,7 @@
 
     if-nez v6, :cond_0
 
-    iget-object v6, v5, Lcom/bumptech/glide/load/model/g$a;->a:Lcom/huawei/appmarket/sq4;
+    iget-object v6, v5, Lcom/bumptech/glide/load/model/g$a;->a:Lcom/huawei/appmarket/vq4;
 
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -259,11 +259,11 @@
     return-object v0
 .end method
 
-.method final e()Lcom/huawei/appmarket/dp1;
+.method final e()Lcom/huawei/appmarket/gp1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/dp1;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/gp1;
 
     return-object v0
 .end method
@@ -326,9 +326,9 @@
 
     iget v7, p0, Lcom/bumptech/glide/load/engine/g;->f:I
 
-    iget-object v8, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/tr5;
+    iget-object v8, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/vr5;
 
-    invoke-interface {v4, v5, v6, v7, v8}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v4, v5, v6, v7, v8}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     move-result-object v4
 
@@ -431,20 +431,20 @@
     return-object p1
 .end method
 
-.method final k()Lcom/huawei/appmarket/tr5;
+.method final k()Lcom/huawei/appmarket/vr5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/vr5;
 
     return-object v0
 .end method
 
-.method final l()Lcom/huawei/appmarket/s66;
+.method final l()Lcom/huawei/appmarket/u66;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/s66;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/u66;
 
     return-object v0
 .end method
@@ -484,16 +484,16 @@
     return-object v0
 .end method
 
-.method final n(Lcom/huawei/appmarket/cu6;)Lcom/huawei/appmarket/iu6;
+.method final n(Lcom/huawei/appmarket/gu6;)Lcom/huawei/appmarket/mu6;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Z:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "TZ;>;)",
-            "Lcom/huawei/appmarket/iu6<",
+            "Lcom/huawei/appmarket/mu6<",
             "TZ;>;"
         }
     .end annotation
@@ -505,7 +505,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->i(Lcom/huawei/appmarket/cu6;)Lcom/huawei/appmarket/iu6;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->i(Lcom/huawei/appmarket/gu6;)Lcom/huawei/appmarket/mu6;
 
     move-result-object p1
 
@@ -538,23 +538,23 @@
     return-object p1
 .end method
 
-.method final p()Lcom/huawei/appmarket/sq4;
+.method final p()Lcom/huawei/appmarket/vq4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/sq4;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/vq4;
 
     return-object v0
 .end method
 
-.method final q(Ljava/lang/Object;)Lcom/huawei/appmarket/w02;
+.method final q(Ljava/lang/Object;)Lcom/huawei/appmarket/a12;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<X:",
             "Ljava/lang/Object;",
             ">(TX;)",
-            "Lcom/huawei/appmarket/w02<",
+            "Lcom/huawei/appmarket/a12<",
             "TX;>;"
         }
     .end annotation
@@ -572,7 +572,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->k(Ljava/lang/Object;)Lcom/huawei/appmarket/w02;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->k(Ljava/lang/Object;)Lcom/huawei/appmarket/a12;
 
     move-result-object p1
 
@@ -595,7 +595,7 @@
     return-object v0
 .end method
 
-.method final s(Ljava/lang/Class;)Lcom/huawei/appmarket/v28;
+.method final s(Ljava/lang/Class;)Lcom/huawei/appmarket/b38;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -604,7 +604,7 @@
             ">(",
             "Ljava/lang/Class<",
             "TZ;>;)",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "TZ;>;"
         }
     .end annotation
@@ -612,105 +612,191 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->j:Ljava/util/Map;
 
+    .line 2
+    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 4
+    .line 5
+    .line 6
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/v28;
+    .line 7
+    check-cast v0, Lcom/huawei/appmarket/b38;
 
+    .line 8
+    .line 9
     if-nez v0, :cond_1
 
+    .line 10
+    .line 11
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/g;->j:Ljava/util/Map;
 
+    .line 12
+    .line 13
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
+    .line 14
+    .line 15
+    .line 16
     move-result-object v1
 
+    .line 17
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
+    .line 18
+    .line 19
+    .line 20
     move-result-object v1
 
+    .line 21
     :cond_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
+    .line 22
+    .line 23
+    .line 24
     move-result v2
 
+    .line 25
     if-eqz v2, :cond_1
 
+    .line 26
+    .line 27
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
+    .line 28
+    .line 29
+    .line 30
     move-result-object v2
 
+    .line 31
     check-cast v2, Ljava/util/Map$Entry;
 
+    .line 32
+    .line 33
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
+    .line 34
+    .line 35
+    .line 36
     move-result-object v3
 
+    .line 37
     check-cast v3, Ljava/lang/Class;
 
+    .line 38
+    .line 39
     invoke-virtual {v3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
+    .line 40
+    .line 41
+    .line 42
     move-result v3
 
+    .line 43
     if-eqz v3, :cond_0
 
+    .line 44
+    .line 45
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
+    .line 46
+    .line 47
+    .line 48
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/v28;
+    .line 49
+    check-cast v0, Lcom/huawei/appmarket/b38;
 
+    .line 50
+    .line 51
     :cond_1
     if-nez v0, :cond_4
 
+    .line 52
+    .line 53
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/g;->j:Ljava/util/Map;
 
+    .line 54
+    .line 55
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
+    .line 56
+    .line 57
+    .line 58
     move-result v0
 
+    .line 59
     if-eqz v0, :cond_3
 
+    .line 60
+    .line 61
     iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/g;->q:Z
 
+    .line 62
+    .line 63
     if-nez v0, :cond_2
 
+    .line 64
+    .line 65
     goto :goto_0
 
+    .line 66
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    .line 67
+    .line 68
+    const-string v1, "Missing transformation for "
 
-    const-string v2, "Missing transformation for "
+    .line 69
+    .line 70
+    const-string v2, ". If you wish to ignore unknown resource types, use the optional transformation methods."
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    .line 71
+    .line 72
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/uq5;->j(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string p1, ". If you wish to ignore unknown resource types, use the optional transformation methods."
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
+    .line 73
+    .line 74
+    .line 75
     move-result-object p1
 
+    .line 76
     invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
+    .line 77
+    .line 78
+    .line 79
     throw v0
 
+    .line 80
     :cond_3
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/a88;->c()Lcom/huawei/appmarket/a88;
+    invoke-static {}, Lcom/huawei/appmarket/f88;->c()Lcom/huawei/appmarket/f88;
 
+    .line 81
+    .line 82
+    .line 83
     move-result-object p1
 
+    .line 84
     return-object p1
 
+    .line 85
     :cond_4
     return-object v0
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method
 
 .method final t()I
@@ -722,7 +808,7 @@
     return v0
 .end method
 
-.method final u(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/huawei/appmarket/sq4;IILcom/huawei/appmarket/dp1;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/tr5;Ljava/util/Map;ZZLcom/bumptech/glide/load/engine/h$e;)V
+.method final u(Lcom/bumptech/glide/d;Ljava/lang/Object;Lcom/huawei/appmarket/vq4;IILcom/huawei/appmarket/gp1;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/vr5;Ljava/util/Map;ZZLcom/bumptech/glide/load/engine/h$e;)V
     .registers 15
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -731,19 +817,19 @@
             ">(",
             "Lcom/bumptech/glide/d;",
             "Ljava/lang/Object;",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "II",
-            "Lcom/huawei/appmarket/dp1;",
+            "Lcom/huawei/appmarket/gp1;",
             "Ljava/lang/Class<",
             "*>;",
             "Ljava/lang/Class<",
             "TR;>;",
-            "Lcom/huawei/appmarket/s66;",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/u66;",
+            "Lcom/huawei/appmarket/vr5;",
             "Ljava/util/Map<",
             "Ljava/lang/Class<",
             "*>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "*>;>;ZZ",
             "Lcom/bumptech/glide/load/engine/h$e;",
             ")V"
@@ -755,13 +841,13 @@
 
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/g;->d:Ljava/lang/Object;
 
-    iput-object p3, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/sq4;
+    iput-object p3, p0, Lcom/bumptech/glide/load/engine/g;->n:Lcom/huawei/appmarket/vq4;
 
     iput p4, p0, Lcom/bumptech/glide/load/engine/g;->e:I
 
     iput p5, p0, Lcom/bumptech/glide/load/engine/g;->f:I
 
-    iput-object p6, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/dp1;
+    iput-object p6, p0, Lcom/bumptech/glide/load/engine/g;->p:Lcom/huawei/appmarket/gp1;
 
     iput-object p7, p0, Lcom/bumptech/glide/load/engine/g;->g:Ljava/lang/Class;
 
@@ -769,9 +855,9 @@
 
     iput-object p8, p0, Lcom/bumptech/glide/load/engine/g;->k:Ljava/lang/Class;
 
-    iput-object p9, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/s66;
+    iput-object p9, p0, Lcom/bumptech/glide/load/engine/g;->o:Lcom/huawei/appmarket/u66;
 
-    iput-object p10, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/tr5;
+    iput-object p10, p0, Lcom/bumptech/glide/load/engine/g;->i:Lcom/huawei/appmarket/vr5;
 
     iput-object p11, p0, Lcom/bumptech/glide/load/engine/g;->j:Ljava/util/Map;
 
@@ -782,12 +868,12 @@
     return-void
 .end method
 
-.method final v(Lcom/huawei/appmarket/cu6;)Z
+.method final v(Lcom/huawei/appmarket/gu6;)Z
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "*>;)Z"
         }
     .end annotation
@@ -799,7 +885,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->l(Lcom/huawei/appmarket/cu6;)Z
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->l(Lcom/huawei/appmarket/gu6;)Z
 
     move-result p1
 

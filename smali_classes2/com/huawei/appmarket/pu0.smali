@@ -4,17 +4,17 @@
 
 
 # instance fields
-.field a:Lcom/huawei/appmarket/hl3;
+.field a:Lcom/huawei/appmarket/jl3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/hl3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/jl3;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/pu0;->a:Lcom/huawei/appmarket/hl3;
+    iput-object p1, p0, Lcom/huawei/appmarket/pu0;->a:Lcom/huawei/appmarket/jl3;
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     iget v0, v0, Landroid/content/res/Configuration;->screenWidthDp:I
 
-    iget-object v0, p0, Lcom/huawei/appmarket/pu0;->a:Lcom/huawei/appmarket/hl3;
+    iget-object v0, p0, Lcom/huawei/appmarket/pu0;->a:Lcom/huawei/appmarket/jl3;
 
     if-eqz v0, :cond_0
 

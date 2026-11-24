@@ -1,39 +1,54 @@
-.class public final Lcom/huawei/appmarket/uk1;
+.class public final synthetic Lcom/huawei/appmarket/uk1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/vo5;
+
+
+# instance fields
+.field public final synthetic b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;
+
+.field public final synthetic c:Lcom/huawei/appgallery/detail/detailbase/common/commonbean/RankInfo;
+
+.field public final synthetic d:Landroid/content/Context;
+
+.field public final synthetic e:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e$a;
+
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;Lcom/huawei/appgallery/detail/detailbase/common/commonbean/RankInfo;Landroid/content/Context;Lcom/huawei/appmarket/dt8;)V
+    .registers 5
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/uk1;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/uk1;->c:Lcom/huawei/appgallery/detail/detailbase/common/commonbean/RankInfo;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/uk1;->d:Landroid/content/Context;
+
+    iput-object p4, p0, Lcom/huawei/appmarket/uk1;->e:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e$a;
 
     return-void
 .end method
 
-.method public static a(I)Z
-    .registers 3
+
+# virtual methods
+.method public final onImageLoaded(Ljava/lang/Object;)V
+    .registers 6
 
     .line 1
-    const/4 v0, 0x2
+    iget-object v0, p0, Lcom/huawei/appmarket/uk1;->d:Landroid/content/Context;
 
-    const/4 v1, 0x1
+    iget-object v1, p0, Lcom/huawei/appmarket/uk1;->e:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e$a;
 
-    if-eq p0, v0, :cond_1
+    iget-object v2, p0, Lcom/huawei/appmarket/uk1;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;
 
-    const/4 v0, 0x3
+    iget-object v3, p0, Lcom/huawei/appmarket/uk1;->c:Lcom/huawei/appgallery/detail/detailbase/common/commonbean/RankInfo;
 
-    if-eq p0, v0, :cond_1
+    invoke-static {v2, v3, v0, v1, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e;Lcom/huawei/appgallery/detail/detailbase/common/commonbean/RankInfo;Landroid/content/Context;Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/e$a;Ljava/lang/Object;)V
 
-    if-ne p0, v1, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v1, 0x0
-
-    :cond_1
-    :goto_0
-    return v1
+    return-void
 .end method

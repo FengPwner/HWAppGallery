@@ -21,17 +21,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/cu4;Landroidx/lifecycle/h$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/fu4;Landroidx/lifecycle/h$b;)V
     .registers 4
 
     .line 1
     const-string v0, "initialState"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-static {p1}, Landroidx/lifecycle/l;->c(Ljava/lang/Object;)Landroidx/lifecycle/j;
 
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final a(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 6
 
     .line 1
@@ -75,7 +75,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -108,7 +108,7 @@
 
     .line 29
     .line 30
-    invoke-interface {v1, p1, p2}, Landroidx/lifecycle/j;->onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+    invoke-interface {v1, p1, p2}, Landroidx/lifecycle/j;->onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
 
     .line 31
     .line 32

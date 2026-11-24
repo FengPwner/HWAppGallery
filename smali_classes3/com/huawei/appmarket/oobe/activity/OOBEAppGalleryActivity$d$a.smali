@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/du4;
+.implements Lcom/huawei/appmarket/gu4;
 
 
 # annotations
@@ -47,7 +47,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/du4;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/gu4;)V
 
     .line 9
     .line 10
@@ -85,7 +85,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 29
     .line 30
@@ -240,7 +240,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static A(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity$d$a;)V
@@ -269,7 +268,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1, p0}, Landroidx/lifecycle/k;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, p0}, Landroidx/lifecycle/k;->c(Lcom/huawei/appmarket/fu4;)V
 
     .line 14
     .line 15
@@ -373,7 +372,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic B(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity$d$a;)Landroidx/lifecycle/k;
@@ -417,7 +415,7 @@
     move-result v2
 
     .line 15
-    sget-object v3, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v3, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 16
     .line 17
@@ -465,7 +463,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v3, v5, v4}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v5, v4}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -593,7 +591,7 @@
     .line 102
     .line 103
     .line 104
-    invoke-static {v4}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 105
     .line 106
@@ -638,7 +636,7 @@
     .line 127
     .line 128
     .line 129
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     .line 130
     .line 131
@@ -646,7 +644,7 @@
     move-result-object v6
 
     .line 133
-    invoke-interface {v6, v4, v3}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {v6, v4, v3}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     .line 134
     .line 135
@@ -870,8 +868,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method static D(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity$d$a;)V
@@ -883,7 +879,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 5
     .line 6
@@ -925,7 +921,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -1022,7 +1018,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic y(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity$d$a;)Landroid/widget/LinearLayout;
@@ -1046,7 +1041,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/k;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/k;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 6
     .line 7
@@ -1162,7 +1157,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

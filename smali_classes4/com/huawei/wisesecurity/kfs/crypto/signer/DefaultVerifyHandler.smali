@@ -207,7 +207,7 @@
     :cond_2
     new-instance v0, Lcom/huawei/wisesecurity/kfs/exception/CryptoException;
 
-    const-string v1, "verify key not public key"
+    const-string/jumbo v1, "verify key not public key"
 
     invoke-direct {v0, v1}, Lcom/huawei/wisesecurity/kfs/exception/CryptoException;-><init>(Ljava/lang/String;)V
 

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/dq6;
+.field private final a:Lcom/huawei/appmarket/gq6;
 
 
 # direct methods
@@ -21,13 +21,13 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/dq6;)V
+.method public constructor <init>(Lcom/huawei/appmarket/gq6;)V
     .registers 2
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/media3/exoplayer/DefaultRendererCapabilitiesList$Factory;->a:Lcom/huawei/appmarket/dq6;
+    iput-object p1, p0, Landroidx/media3/exoplayer/DefaultRendererCapabilitiesList$Factory;->a:Lcom/huawei/appmarket/gq6;
 
     return-void
 .end method

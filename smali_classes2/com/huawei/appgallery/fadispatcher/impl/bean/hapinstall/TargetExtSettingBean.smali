@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private extInfo:Lcom/huawei/appmarket/yo4;
+.field private extInfo:Lcom/huawei/appmarket/bp4;
 
 
 # direct methods
@@ -18,20 +18,20 @@
 
 
 # virtual methods
-.method public getExtInfo()Lcom/huawei/appmarket/yo4;
+.method public getExtInfo()Lcom/huawei/appmarket/bp4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/yo4;
+    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/bp4;
 
     return-object v0
 .end method
 
-.method public setExtInfo(Lcom/huawei/appmarket/yo4;)V
+.method public setExtInfo(Lcom/huawei/appmarket/bp4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/yo4;
+    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/bp4;
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/yo4;
+    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/hapinstall/TargetExtSettingBean;->extInfo:Lcom/huawei/appmarket/bp4;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

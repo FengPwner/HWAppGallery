@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private v:Lcom/huawei/appmarket/jq5;
+.field private v:Lcom/huawei/appmarket/kq5;
 
 
 # direct methods
@@ -28,9 +28,9 @@
 
     if-nez v0, :cond_0
 
-    const-class v0, Lcom/huawei/appmarket/lh;
+    const-class v0, Lcom/huawei/appmarket/kh;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Y2(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Y2(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
@@ -42,9 +42,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/s85;
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/v85;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->i(Lcom/huawei/appmarket/s85;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->i(Lcom/huawei/appmarket/v85;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->E3()Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;
@@ -58,49 +58,49 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "AgdsOpenActivity"
 
     const-string v2, "openFa"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/kq5;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/jq5;
+    new-instance v0, Lcom/huawei/appmarket/kq5;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->D3()Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/jq5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/kq5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/jq5;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/kq5;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/kq5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xt1;->e()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bu1;->e()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/kq5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jq5;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kq5;->d()V
 
     goto :goto_0
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/s85;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/v85;
 
     const-string v1, "beforeDownloadTime"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/s85;->n(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/v85;->n(Ljava/lang/String;)Z
 
     new-instance v0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenLoadingFragment;
 
@@ -132,11 +132,11 @@
     return-void
 .end method
 
-.method public final I3()Lcom/huawei/appmarket/jq5;
+.method public final I3()Lcom/huawei/appmarket/kq5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->v:Lcom/huawei/appmarket/kq5;
 
     return-object v0
 .end method
@@ -189,11 +189,11 @@
     .line 1
     const-string p1, "AgdsOpen"
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/s85;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->u:Lcom/huawei/appmarket/v85;
 
     const-string v1, "scene"
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/s85;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/v85;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/agdsopen/AgdsOpenActivity;->D3()Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;
 
@@ -203,13 +203,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/y92;->a(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)J
+    invoke-static {v0}, Lcom/huawei/appmarket/ba2;->a(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)J
 
     move-result-wide v0
 
     const-string v2, "2220200504"
 
-    invoke-static {p1, p2, v2, v0, v1}, Lcom/huawei/appmarket/y92;->h(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;Ljava/util/LinkedHashMap;Ljava/lang/String;J)V
+    invoke-static {p1, p2, v2, v0, v1}, Lcom/huawei/appmarket/ba2;->h(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;Ljava/util/LinkedHashMap;Ljava/lang/String;J)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yr1;
+.implements Lcom/huawei/appmarket/bs1;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 .field private c:Landroidx/recyclerview/widget/RecyclerView;
 
-.field private d:Lcom/huawei/appmarket/mq1;
+.field private d:Lcom/huawei/appmarket/pq1;
 
 
 # direct methods
@@ -83,12 +83,12 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xr1;->i(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/as1;->i(Z)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 15
     .line 16
@@ -96,7 +96,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mq1;->n0(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pq1;->n0(Z)V
 
     .line 19
     .line 20
@@ -233,7 +233,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lcom/huawei/appmarket/zj1;->a:Lcom/huawei/appmarket/zj1;
+    sget-object p1, Lcom/huawei/appmarket/ck1;->a:Lcom/huawei/appmarket/ck1;
 
     .line 6
     .line 7
@@ -245,7 +245,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -286,7 +286,7 @@
 
     .line 30
     .line 31
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 32
     .line 33
@@ -323,11 +323,11 @@
     .line 48
     .line 49
     .line 50
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 51
     .line 52
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mq1;->d0()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/pq1;->d0()Ljava/lang/Integer;
 
     .line 53
     .line 54
@@ -359,7 +359,7 @@
 
     .line 66
     :goto_0
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/xr1;->d(Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/as1;->d(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     .line 67
     .line 68
@@ -380,11 +380,11 @@
 
     .line 74
     .line 75
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 76
     .line 77
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/mq1;->o0(Lcom/huawei/flexiblelayout/data/b;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pq1;->o0(Lcom/huawei/flexiblelayout/data/b;)V
 
     .line 78
     .line 79
@@ -393,7 +393,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/xr1;->i(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/as1;->i(Z)V
 
     .line 83
     .line 84
@@ -402,7 +402,7 @@
 
     .line 86
     .line 87
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xr1;->e()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/as1;->e()Landroid/view/View;
 
     .line 88
     .line 89
@@ -415,7 +415,7 @@
     .line 92
     .line 93
     .line 94
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 95
     .line 96
@@ -424,7 +424,7 @@
     .line 97
     .line 98
     :goto_2
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/mq1;->n0(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/pq1;->n0(Z)V
 
     .line 99
     .line 100
@@ -433,12 +433,12 @@
 
     .line 102
     :cond_3
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xr1;->i(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/as1;->i(Z)V
 
     .line 103
     .line 104
     .line 105
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     .line 106
     .line 107
@@ -505,20 +505,19 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public final c(Lcom/huawei/appmarket/mq1;Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
+.method public final c(Lcom/huawei/appmarket/pq1;Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mq1;->g0()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/pq1;->g0()Z
 
     move-result p1
 
@@ -526,9 +525,9 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object p2, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/mq1;
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->d:Lcom/huawei/appmarket/pq1;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/mq1;->c0()Lcom/huawei/flexiblelayout/data/b;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/pq1;->c0()Lcom/huawei/flexiblelayout/data/b;
 
     move-result-object p2
 
@@ -557,11 +556,11 @@
 
     invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ak1;->b()Lcom/huawei/appmarket/ak1;
+    invoke-static {}, Lcom/huawei/appmarket/dk1;->b()Lcom/huawei/appmarket/dk1;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ak1;->a(Lcom/huawei/appmarket/yr1;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/dk1;->a(Lcom/huawei/appmarket/bs1;)V
 
     return-void
 .end method
@@ -571,11 +570,11 @@
 
     invoke-super {p0}, Landroid/widget/FrameLayout;->onDetachedFromWindow()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ak1;->b()Lcom/huawei/appmarket/ak1;
+    invoke-static {}, Lcom/huawei/appmarket/dk1;->b()Lcom/huawei/appmarket/dk1;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ak1;->d(Lcom/huawei/appmarket/yr1;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/dk1;->d(Lcom/huawei/appmarket/bs1;)V
 
     return-void
 .end method

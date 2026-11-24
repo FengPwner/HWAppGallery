@@ -20,11 +20,11 @@
 .method public final run()V
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/il5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Lcom/huawei/appmarket/kl5;->f(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -50,11 +50,11 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/uk5;->e()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wk5;->e()I
 
     move-result v1
 
@@ -64,13 +64,13 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->t()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->t()Ljava/lang/String;
 
     move-result-object v1
 
@@ -82,11 +82,11 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->r()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->r()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
 
     invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    invoke-static {}, Lcom/huawei/appmarket/oobe/app/f;->a()Lcom/huawei/appmarket/lw7;
+    invoke-static {}, Lcom/huawei/appmarket/oobe/app/f;->a()Lcom/huawei/appmarket/rw7;
 
     move-result-object v0
 
@@ -121,20 +121,20 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v1, "OOBE"
 
     const-string v2, "gen json object failed!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

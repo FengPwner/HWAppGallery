@@ -29,11 +29,11 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/tf2;
+    new-instance v0, Lcom/huawei/appmarket/wf2;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tf2;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wf2;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/function/FailableFunction;->NOP:Lorg/apache/commons/lang3/function/FailableFunction;
 

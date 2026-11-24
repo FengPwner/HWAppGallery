@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jo5;
+.implements Lcom/huawei/appmarket/ko5;
 .implements Landroidx/lifecycle/j;
 
 
@@ -19,7 +19,7 @@
 # instance fields
 .field private b:Lcom/huawei/appgallery/logupload/impl/ui/a;
 
-.field private c:Lcom/huawei/appmarket/fh3;
+.field private c:Lcom/huawei/appmarket/hh3;
 
 .field private final d:Z
 
@@ -43,29 +43,29 @@
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog;->d:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object p2
 
     const-string v0, "AGDialog"
 
-    check-cast p2, Lcom/huawei/appmarket/dr6;
+    check-cast p2, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object p2
 
-    const-class v0, Lcom/huawei/appmarket/fh3;
+    const-class v0, Lcom/huawei/appmarket/hh3;
 
     .line 2
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p2
 
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/fh3;
+    check-cast p2, Lcom/huawei/appmarket/hh3;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog;->c:Lcom/huawei/appmarket/fh3;
+    iput-object p2, p0, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog;->c:Lcom/huawei/appmarket/hh3;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -77,27 +77,27 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     const/4 p1, -0x2
 
     const/16 v0, 0x8
 
-    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/fh3;->C(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
 
     const/4 p1, -0x1
 
     const v0, 0x7f120a98
 
-    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     const p1, 0x7f0d08ea
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fh3;->G(I)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/hh3;->G(I)Lcom/huawei/appmarket/w7;
 
-    invoke-interface {p2, p0}, Lcom/huawei/appmarket/fh3;->a(Lcom/huawei/appmarket/jo5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p0}, Lcom/huawei/appmarket/hh3;->a(Lcom/huawei/appmarket/ko5;)Lcom/huawei/appmarket/w7;
 
-    invoke-interface {p2, p0}, Lcom/huawei/appmarket/fh3;->t(Landroidx/lifecycle/j;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p0}, Lcom/huawei/appmarket/hh3;->t(Landroidx/lifecycle/j;)Lcom/huawei/appmarket/w7;
 
     return-void
 .end method
@@ -108,13 +108,13 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog;->c:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog;->c:Lcom/huawei/appmarket/hh3;
 
     if-eqz v0, :cond_0
 
     const-string v1, "SystemLogInfoDialog"
 
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0a178a
+    const v2, 0x7f0a178b
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -148,13 +148,13 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f0a178b
+    const v1, 0x7f0a178c
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v2, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object v2, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -189,7 +189,7 @@
 
     const-string v3, "SystemLogInfoDialog"
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const v1, 0x7f0a0f03
@@ -218,14 +218,6 @@
 
     invoke-direct {v3, v1, v2}, Lcom/huawei/appgallery/logupload/impl/ui/SystemLogInfoDialog$a;-><init>(Landroid/widget/LinearLayout;Landroid/view/View;)V
 
-    const v4, 0x7f0a1788
-
-    invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
     const v4, 0x7f0a1789
 
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,7 +226,15 @@
 
     invoke-virtual {v4, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0a1787
+    const v4, 0x7f0a178a
+
+    invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    const v3, 0x7f0a1788
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     return-void
 .end method
 
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 3
 
     .line 1

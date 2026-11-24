@@ -31,7 +31,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/gj0;->c(Lcom/huawei/flexiblelayout/data/b;Ljava/lang/String;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/hj0;->c(Lcom/huawei/flexiblelayout/data/b;Ljava/lang/String;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v0
 
@@ -46,7 +46,7 @@
 
     const-string v1, "Exception when creating CardBean from FLCardData."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

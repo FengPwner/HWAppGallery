@@ -1,104 +1,244 @@
 .class final Lcom/huawei/appmarket/g68;
-.super Lcom/huawei/appmarket/s58;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/h68$a;
 
-# instance fields
-.field final synthetic b:Ljava/util/concurrent/atomic/AtomicReference;
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/h68$a<",
+        "Lcom/huawei/appmarket/rn2$d;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
-.method constructor <init>(Ljava/util/concurrent/atomic/AtomicReference;)V
+.method constructor <init>(Lcom/huawei/appmarket/h68;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/g68;->b:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/s58;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method final b(Ljava/lang/Class;)V
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "*>;)V"
-        }
-    .end annotation
+.method public final a(Ljava/lang/Object;)Z
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/g68;->b:Ljava/util/concurrent/atomic/AtomicReference;
+    check-cast p1, Lcom/huawei/appmarket/rn2$d;
 
-    invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rn2$d;->f()Z
 
-    move-result-object p1
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-
-    return-void
+    .line 7
+    return p1
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method
 
-.method final c(Ljava/lang/reflect/GenericArrayType;)V
-    .registers 3
+.method public final b(Ljava/lang/Object;)I
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/g68;->b:Ljava/util/concurrent/atomic/AtomicReference;
+    check-cast p1, Lcom/huawei/appmarket/rn2$d;
 
-    invoke-interface {p1}, Ljava/lang/reflect/GenericArrayType;->getGenericComponentType()Ljava/lang/reflect/Type;
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Lcom/huawei/appmarket/rn2$d;->e()I
 
-    move-result-object p1
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-
-    return-void
-.end method
-
-.method final e(Ljava/lang/reflect/TypeVariable;)V
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/reflect/TypeVariable<",
-            "*>;)V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/huawei/appmarket/h68;->a([Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/huawei/appmarket/g68;->b:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-
-    return-void
-.end method
-
-.method final f(Ljava/lang/reflect/WildcardType;)V
-    .registers 3
-
-    .line 1
-    invoke-interface {p1}, Ljava/lang/reflect/WildcardType;->getUpperBounds()[Ljava/lang/reflect/Type;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/huawei/appmarket/h68;->a([Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/huawei/appmarket/g68;->b:Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-
-    return-void
+    .line 7
+    return p1
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method

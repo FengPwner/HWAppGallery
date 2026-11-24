@@ -10,7 +10,7 @@
 # instance fields
 .field private final mModuleRegistry:Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;
 
-.field private mRepository:Lcom/huawei/appmarket/cr6;
+.field private mRepository:Lcom/huawei/appmarket/fr6;
 
 
 # direct methods
@@ -22,16 +22,16 @@
 
     iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mModuleRegistry:Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;Lcom/huawei/appmarket/xn6;)V
+.method public constructor <init>(Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;Lcom/huawei/appmarket/ao6;)V
     .registers 4
 
     .line 2
@@ -40,11 +40,11 @@
     iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mModuleRegistry:Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;
 
     :try_start_0
-    invoke-static {p2}, Lcom/huawei/appmarket/ty0;->a(Lcom/huawei/appmarket/xn6;)Lcom/huawei/appmarket/kp6;
+    invoke-static {p2}, Lcom/huawei/appmarket/ty0;->a(Lcom/huawei/appmarket/ao6;)Lcom/huawei/appmarket/np6;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iput-object p1, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
     :try_end_0
     .catch Lcom/huawei/hmf/orb/exception/ConnectRemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -109,7 +109,7 @@
 .method public create(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
     .registers 6
 
-    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
 
     const/4 v1, 0x0
 
@@ -122,15 +122,15 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
 
     invoke-virtual {p0}, Lcom/huawei/hmf/orb/tbis/TBModuleService;->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object v0
 
@@ -144,7 +144,7 @@
     if-eqz p2, :cond_2
 
     .line 2
-    invoke-virtual {v0, p2, p1}, Lcom/huawei/appmarket/ea5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, p2, p1}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -152,7 +152,7 @@
 
     .line 3
     :cond_2
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -167,7 +167,7 @@
 .method public createUIModule(Ljava/lang/String;)Lcom/huawei/hmf/orb/tbis/TBUIModule;
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
 
     const/4 v1, 0x0
 
@@ -180,9 +180,9 @@
 
     move-result-object v2
 
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object v0
 
@@ -191,7 +191,7 @@
     return-object v1
 
     :cond_1
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     move-result-object p1
 
@@ -210,15 +210,15 @@
 .method public destroy()V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/cr6;
+    iget-object v0, p0, Lcom/huawei/hmf/orb/tbis/TBModuleService;->mRepository:Lcom/huawei/appmarket/fr6;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/kp6;
+    instance-of v1, v0, Lcom/huawei/appmarket/np6;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/kp6;
+    check-cast v0, Lcom/huawei/appmarket/np6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kp6;->g()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/np6;->g()V
 
     :cond_0
     return-void

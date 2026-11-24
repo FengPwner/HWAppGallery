@@ -1,13 +1,11 @@
-.class public final Lcom/huawei/appmarket/ty4;
+.class public interface abstract Lcom/huawei/appmarket/ty4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# virtual methods
+.method public abstract a(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+.end method
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+.method public abstract b(Landroid/content/Context;Lcom/huawei/appmarket/uy4;)V
 .end method

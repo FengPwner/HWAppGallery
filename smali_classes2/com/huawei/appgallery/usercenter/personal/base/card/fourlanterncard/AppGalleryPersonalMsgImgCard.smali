@@ -18,7 +18,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/j66;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/l66;->a()I
 
     move-result v0
 
@@ -26,7 +26,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 

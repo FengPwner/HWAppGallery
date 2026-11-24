@@ -150,7 +150,7 @@
     move-result-object v5
 
     .line 66
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 67
     .line 68
@@ -211,7 +211,7 @@
     .line 98
     .line 99
     .line 100
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 101
     .line 102
@@ -296,10 +296,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -338,7 +337,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 18
     .line 19
@@ -438,5 +437,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

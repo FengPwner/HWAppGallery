@@ -4,14 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;)V
-.end method
-
-.method public abstract b(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Landroid/content/Context;)Z
-.end method
-
-.method public abstract c(Ljava/lang/String;)Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;
-.end method
-
-.method public abstract d()Ljava/util/ArrayList;
+.method public abstract R(IZ)V
 .end method

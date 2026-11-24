@@ -331,23 +331,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private c(Ljava/io/File;)Lcom/huawei/quickcard/cardmanager/bean/CardBean;
@@ -362,536 +345,536 @@
 
     .line 4
     .line 5
-    const-string v2, "write file exception occurred: "
+    const-string/jumbo v2, "write file exception occurred: "
 
     .line 6
     .line 7
+    .line 8
     const-string v3, "readCardFile err occurred: "
 
-    .line 8
     .line 9
+    .line 10
     const/4 v4, 0x0
 
-    .line 10
+    .line 11
     :try_start_0
     invoke-static {p1}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->openInputStream(Ljava/io/File;)Ljava/io/FileInputStream;
 
-    .line 11
     .line 12
     .line 13
+    .line 14
     move-result-object v5
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_5
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 14
+    .line 15
     :try_start_1
     new-instance v6, Ljava/io/ObjectInputStream;
 
-    .line 15
     .line 16
+    .line 17
     new-instance v7, Ljava/io/BufferedInputStream;
 
-    .line 17
     .line 18
+    .line 19
     invoke-direct {v7, v5}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 19
     .line 20
     .line 21
+    .line 22
     invoke-direct {v6, v7}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 22
     .line 23
     .line 24
+    .line 25
     :try_start_2
     invoke-virtual {v6}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
-    .line 25
     .line 26
     .line 27
+    .line 28
     move-result-object v4
 
-    .line 28
+    .line 29
     check-cast v4, Lcom/huawei/quickcard/cardmanager/bean/CardBean;
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 29
     .line 30
+    .line 31
     invoke-static {v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 31
     .line 32
     .line 33
+    .line 34
     invoke-static {v5}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     return-object v4
 
-    .line 37
+    .line 38
     :catchall_0
     move-exception v1
 
-    .line 38
+    .line 39
     goto :goto_0
 
-    .line 39
+    .line 40
     :catch_0
     move-exception p1
 
-    .line 40
+    .line 41
     goto :goto_1
 
-    .line 41
+    .line 42
     :catch_1
     move-exception p1
 
-    .line 42
+    .line 43
     goto :goto_2
 
-    .line 43
+    .line 44
     :goto_0
     move-object v4, v6
 
-    .line 44
+    .line 45
     goto :goto_3
 
-    .line 45
+    .line 46
     :goto_1
     move-object v4, v6
 
-    .line 46
+    .line 47
     goto/16 :goto_6
 
-    .line 47
     .line 48
+    .line 49
     :goto_2
     move-object v4, v6
 
-    .line 49
+    .line 50
     goto/16 :goto_8
 
-    .line 50
     .line 51
+    .line 52
     :catchall_1
     move-exception v1
 
-    .line 52
+    .line 53
     goto :goto_3
 
-    .line 53
+    .line 54
     :catch_2
     move-exception p1
 
-    .line 54
+    .line 55
     goto/16 :goto_6
 
-    .line 55
     .line 56
+    .line 57
     :catch_3
     move-exception p1
 
-    .line 57
+    .line 58
     goto/16 :goto_8
 
-    .line 58
     .line 59
+    .line 60
     :catchall_2
     move-exception v1
 
-    .line 60
+    .line 61
     move-object v5, v4
 
-    .line 61
+    .line 62
     :goto_3
     :try_start_3
     new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 62
     .line 63
+    .line 64
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 64
     .line 65
     .line 66
+    .line 67
     invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 67
     .line 68
     .line 69
+    .line 70
     move-result-object v3
 
-    .line 70
+    .line 71
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 71
     .line 72
     .line 73
+    .line 74
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 74
     .line 75
     .line 76
+    .line 77
     move-result-object v2
 
-    .line 77
+    .line 78
     invoke-static {v0, v2}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_5
 
-    .line 78
     .line 79
     .line 80
+    .line 81
     :try_start_4
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
-    .line 81
     .line 82
     .line 83
+    .line 84
     move-result v2
 
-    .line 84
+    .line 85
     if-eqz v2, :cond_0
 
-    .line 85
     .line 86
+    .line 87
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 87
     .line 88
     .line 89
+    .line 90
     goto :goto_4
 
-    .line 90
+    .line 91
     :catchall_3
     move-exception v2
 
-    .line 91
+    .line 92
     :try_start_5
     new-instance v3, Ljava/lang/StringBuilder;
 
-    .line 92
     .line 93
+    .line 94
     const-string v6, "deleteFile err occurred: "
 
-    .line 94
     .line 95
+    .line 96
     invoke-direct {v3, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 96
     .line 97
     .line 98
+    .line 99
     invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 99
     .line 100
     .line 101
-    move-result-object v2
-
     .line 102
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v2
 
     .line 103
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 104
     .line 105
+    .line 106
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 106
     .line 107
     .line 108
+    .line 109
     move-result-object v2
 
-    .line 109
+    .line 110
     invoke-static {v0, v2}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 110
     .line 111
     .line 112
+    .line 113
     :cond_0
     :goto_4
     new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 113
     .line 114
+    .line 115
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_5
 
-    .line 115
     .line 116
     .line 117
+    .line 118
     :try_start_6
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
-    .line 118
     .line 119
     .line 120
+    .line 121
     move-result-object p1
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 
-    .line 121
+    .line 122
     goto :goto_5
 
-    .line 122
+    .line 123
     :catchall_4
     move-exception p1
 
-    .line 123
+    .line 124
     :try_start_7
     new-instance v3, Ljava/lang/StringBuilder;
 
-    .line 124
     .line 125
+    .line 126
     const-string v6, "getCardName err occurred: "
 
-    .line 126
     .line 127
+    .line 128
     invoke-direct {v3, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 128
     .line 129
     .line 130
+    .line 131
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 131
     .line 132
     .line 133
-    move-result-object p1
-
     .line 134
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 135
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 136
     .line 137
+    .line 138
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 138
     .line 139
     .line 140
+    .line 141
     move-result-object p1
 
-    .line 141
+    .line 142
     invoke-static {v0, p1}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 142
     .line 143
     .line 144
+    .line 145
     const-string p1, ""
 
-    .line 145
     .line 146
+    .line 147
     :goto_5
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 147
     .line 148
     .line 149
+    .line 150
     const-string p1, "__"
 
-    .line 150
     .line 151
+    .line 152
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 152
     .line 153
     .line 154
+    .line 155
     invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 155
     .line 156
     .line 157
-    move-result-object p1
-
     .line 158
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 159
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 160
     .line 161
+    .line 162
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 162
     .line 163
     .line 164
+    .line 165
     move-result-object p1
 
-    .line 165
+    .line 166
     iget-object v0, p0, Lcom/huawei/quickcard/cardmanager/c;->b:Ljava/lang/ref/WeakReference;
 
-    .line 166
     .line 167
+    .line 168
     if-eqz v0, :cond_1
 
-    .line 168
     .line 169
+    .line 170
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    .line 170
     .line 171
     .line 172
+    .line 173
     move-result-object v0
 
-    .line 173
+    .line 174
     check-cast v0, Landroid/content/Context;
 
-    .line 174
     .line 175
+    .line 176
     invoke-static {v0, p1}, Lcom/huawei/quickcard/cardmanager/bi/CardReporterUtil;->reportError(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 176
     .line 177
     .line 178
+    .line 179
     goto :goto_9
 
-    .line 179
+    .line 180
     :catchall_5
     move-exception p1
 
-    .line 180
+    .line 181
     goto :goto_a
 
-    .line 181
+    .line 182
     :catch_4
     move-exception p1
 
-    .line 182
+    .line 183
     move-object v5, v4
 
-    .line 183
+    .line 184
     :goto_6
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 184
     .line 185
+    .line 186
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 186
     .line 187
     .line 188
+    .line 189
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 189
     .line 190
     .line 191
-    move-result-object p1
-
     .line 192
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 193
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 194
     .line 195
+    .line 196
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 196
     .line 197
     .line 198
+    .line 199
     move-result-object p1
 
-    .line 199
+    .line 200
     :goto_7
     invoke-static {v0, p1}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 200
     .line 201
     .line 202
+    .line 203
     goto :goto_9
 
-    .line 203
+    .line 204
     :catch_5
     move-exception p1
 
-    .line 204
+    .line 205
     move-object v5, v4
 
-    .line 205
+    .line 206
     :goto_8
     new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 206
     .line 207
+    .line 208
     invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 208
     .line 209
     .line 210
+    .line 211
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 211
     .line 212
     .line 213
+    .line 214
     move-result-object p1
 
-    .line 214
+    .line 215
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 215
     .line 216
     .line 217
+    .line 218
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 218
     .line 219
     .line 220
+    .line 221
     move-result-object p1
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_5
 
-    .line 221
+    .line 222
     goto :goto_7
 
-    .line 222
+    .line 223
     :cond_1
     :goto_9
     invoke-static {v4}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 223
     .line 224
     .line 225
+    .line 226
     invoke-static {v5}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 226
     .line 227
     .line 228
+    .line 229
     new-instance p1, Lcom/huawei/quickcard/cardmanager/bean/CardBean;
 
-    .line 229
     .line 230
+    .line 231
     invoke-direct {p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;-><init>()V
 
-    .line 231
     .line 232
     .line 233
+    .line 234
     return-object p1
 
-    .line 234
+    .line 235
     :goto_a
     invoke-static {v4}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 235
     .line 236
     .line 237
+    .line 238
     invoke-static {v5}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 238
     .line 239
     .line 240
-    throw p1
     .line 241
+    throw p1
     .line 242
     .line 243
     .line 244
@@ -1805,65 +1788,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method private d(Ljava/io/File;)Ljava/util/ArrayList;
@@ -2167,318 +2091,318 @@
 
     .line 4
     .line 5
-    const-string v2, "write file exception occurred: "
+    const-string/jumbo v2, "write file exception occurred: "
 
     .line 6
     .line 7
-    const-string v3, "write card file success: "
-
     .line 8
+    const-string/jumbo v3, "write card file success: "
+
     .line 9
+    .line 10
+    .line 11
     const/4 v4, 0x0
 
-    .line 10
+    .line 12
     :try_start_0
     invoke-direct {p0, p1}, Lcom/huawei/quickcard/cardmanager/c;->a(Lcom/huawei/quickcard/cardmanager/bean/CardBean;)Ljava/io/File;
 
-    .line 11
-    .line 12
     .line 13
+    .line 14
+    .line 15
     move-result-object v5
 
-    .line 14
+    .line 16
     const/4 v6, 0x0
 
-    .line 15
+    .line 17
     invoke-static {v5, v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->openOutputStream(Ljava/io/File;Z)Ljava/io/FileOutputStream;
 
-    .line 16
-    .line 17
     .line 18
+    .line 19
+    .line 20
     move-result-object v6
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_5
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 19
+    .line 21
     :try_start_1
     new-instance v7, Ljava/io/ObjectOutputStream;
 
-    .line 20
-    .line 21
-    new-instance v8, Ljava/io/BufferedOutputStream;
-
     .line 22
     .line 23
-    invoke-direct {v8, v6}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+    new-instance v8, Ljava/io/BufferedOutputStream;
 
     .line 24
     .line 25
+    invoke-direct {v8, v6}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+
     .line 26
+    .line 27
+    .line 28
     invoke-direct {v7, v8}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 27
-    .line 28
     .line 29
+    .line 30
+    .line 31
     :try_start_2
     invoke-virtual {v7, p1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 30
-    .line 31
     .line 32
-    invoke-virtual {v7}, Ljava/io/ObjectOutputStream;->flush()V
-
     .line 33
     .line 34
-    .line 35
-    new-instance p1, Ljava/lang/StringBuilder;
+    invoke-virtual {v7}, Ljava/io/ObjectOutputStream;->flush()V
 
+    .line 35
     .line 36
     .line 37
-    invoke-direct {p1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    new-instance p1, Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
-    .line 40
-    invoke-virtual {v5}, Ljava/io/File;->getName()Ljava/lang/String;
+    invoke-direct {p1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 40
     .line 41
     .line 42
+    invoke-virtual {v5}, Ljava/io/File;->getName()Ljava/lang/String;
+
     .line 43
+    .line 44
+    .line 45
     move-result-object v3
 
-    .line 44
+    .line 46
     invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 45
-    .line 46
     .line 47
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 48
     .line 49
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 50
+    .line 51
+    .line 52
     move-result-object p1
 
-    .line 51
+    .line 53
     invoke-static {v0, p1}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 52
-    .line 53
     .line 54
+    .line 55
+    .line 56
     goto :goto_6
 
-    .line 55
+    .line 57
     :catchall_0
     move-exception p1
 
-    .line 56
+    .line 58
     goto :goto_0
 
-    .line 57
+    .line 59
     :catch_0
     move-exception p1
 
-    .line 58
+    .line 60
     goto :goto_1
 
-    .line 59
+    .line 61
     :catch_1
     move-exception p1
 
-    .line 60
+    .line 62
     goto :goto_2
 
-    .line 61
+    .line 63
     :goto_0
     move-object v4, v7
 
-    .line 62
+    .line 64
     goto :goto_7
 
-    .line 63
+    .line 65
     :goto_1
     move-object v4, v7
 
-    .line 64
+    .line 66
     goto :goto_3
 
-    .line 65
+    .line 67
     :goto_2
     move-object v4, v7
 
-    .line 66
+    .line 68
     goto :goto_5
 
-    .line 67
+    .line 69
     :catchall_1
     move-exception p1
 
-    .line 68
+    .line 70
     goto :goto_7
 
-    .line 69
+    .line 71
     :catch_2
     move-exception p1
 
-    .line 70
+    .line 72
     goto :goto_3
 
-    .line 71
+    .line 73
     :catch_3
     move-exception p1
 
-    .line 72
+    .line 74
     goto :goto_5
 
-    .line 73
+    .line 75
     :catchall_2
     move-exception p1
 
-    .line 74
+    .line 76
     move-object v6, v4
 
-    .line 75
+    .line 77
     goto :goto_7
 
-    .line 76
+    .line 78
     :catch_4
     move-exception p1
 
-    .line 77
+    .line 79
     move-object v6, v4
 
-    .line 78
+    .line 80
     goto :goto_3
 
-    .line 79
+    .line 81
     :catch_5
     move-exception p1
 
-    .line 80
+    .line 82
     move-object v6, v4
 
-    .line 81
+    .line 83
     goto :goto_5
 
-    .line 82
+    .line 84
     :goto_3
     :try_start_3
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 83
-    .line 84
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 85
     .line 86
-    .line 87
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 87
     .line 88
     .line 89
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
     .line 90
+    .line 91
+    .line 92
     move-result-object p1
 
-    .line 91
+    .line 93
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 92
-    .line 93
     .line 94
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 95
     .line 96
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 97
+    .line 98
+    .line 99
     move-result-object p1
 
-    .line 98
+    .line 100
     :goto_4
     invoke-static {v0, p1}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 99
-    .line 100
     .line 101
+    .line 102
+    .line 103
     move-object v7, v4
 
-    .line 102
+    .line 104
     goto :goto_6
 
-    .line 103
+    .line 105
     :goto_5
     new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 104
-    .line 105
-    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 106
     .line 107
-    .line 108
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 108
     .line 109
     .line 110
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
     .line 111
+    .line 112
+    .line 113
     move-result-object p1
 
-    .line 112
+    .line 114
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 113
-    .line 114
     .line 115
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 116
     .line 117
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 118
+    .line 119
+    .line 120
     move-result-object p1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 119
+    .line 121
     goto :goto_4
 
-    .line 120
+    .line 122
     :goto_6
     invoke-static {v7}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 121
-    .line 122
     .line 123
-    invoke-static {v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
-
     .line 124
     .line 125
+    invoke-static {v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
+
     .line 126
+    .line 127
+    .line 128
     return-void
 
-    .line 127
+    .line 129
     :goto_7
     invoke-static {v4}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
 
-    .line 128
-    .line 129
     .line 130
-    invoke-static {v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
-
     .line 131
     .line 132
+    invoke-static {v6}, Lcom/huawei/quickcard/cardmanager/util/FileUtils;->closeQuietly(Ljava/io/Closeable;)V
+
     .line 133
-    throw p1
     .line 134
     .line 135
+    throw p1
     .line 136
     .line 137
     .line 138
@@ -2525,23 +2449,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final removeAllCard()V

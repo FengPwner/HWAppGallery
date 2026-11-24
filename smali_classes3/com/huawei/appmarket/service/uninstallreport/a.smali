@@ -115,7 +115,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-static {}, Lcom/huawei/appmarket/om5;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->C()Z
 
     .line 28
     .line 29
@@ -127,7 +127,7 @@
 
     .line 32
     .line 33
-    invoke-static {v0}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {v0}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     .line 34
     .line 35
@@ -210,7 +210,7 @@
 
     .line 75
     .line 76
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -223,11 +223,11 @@
 
     .line 81
     .line 82
-    const-class v2, Lcom/huawei/appmarket/mz3;
+    const-class v2, Lcom/huawei/appmarket/oz3;
 
     .line 83
     .line 84
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -235,11 +235,11 @@
     move-result-object v1
 
     .line 88
-    check-cast v1, Lcom/huawei/appmarket/mz3;
+    check-cast v1, Lcom/huawei/appmarket/oz3;
 
     .line 89
     .line 90
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/mz3;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/oz3;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)V
 
     .line 91
     .line 92

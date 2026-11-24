@@ -28,7 +28,7 @@
 
     new-instance v0, Lcom/huawei/agconnect/https/HttpsService;
 
-    invoke-virtual {p0}, Lcom/huawei/agconnect/https/HttpsKit;->client()Lcom/huawei/appmarket/mn5;
+    invoke-virtual {p0}, Lcom/huawei/agconnect/https/HttpsKit;->client()Lcom/huawei/appmarket/nn5;
 
     move-result-object v1
 
@@ -36,7 +36,7 @@
 
     move-result-object p0
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/agconnect/https/HttpsService;-><init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/agconnect/https/HttpsService;-><init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;)V
 
     return-object v0
 .end method

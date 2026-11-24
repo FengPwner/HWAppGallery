@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lo4;
+.implements Lcom/huawei/appmarket/oo4;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/lo4<",
+        "Lcom/huawei/appmarket/oo4<",
         "Landroid/net/Uri;",
         ">;"
     }
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final deserialize(Lcom/huawei/appmarket/mo4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/ko4;)Ljava/lang/Object;
+.method public final deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Ljava/lang/Object;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -46,7 +46,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mo4;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/po4;->e()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -565,47 +565,4 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method

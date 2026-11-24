@@ -6,7 +6,7 @@
 # static fields
 .field private static final a:Ljava/lang/Object;
 
-.field private static final b:Lcom/huawei/appmarket/wk2;
+.field private static final b:Lcom/huawei/appmarket/yk2;
 
 
 # direct methods
@@ -19,11 +19,11 @@
 
     sput-object v0, Lcom/huawei/appgallary/idleupdate/base/manager/a;->a:Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/wk2;->v()Lcom/huawei/appmarket/wk2;
+    invoke-static {}, Lcom/huawei/appmarket/yk2;->v()Lcom/huawei/appmarket/yk2;
 
     move-result-object v0
 
-    sput-object v0, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/wk2;
+    sput-object v0, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/yk2;
 
     return-void
 .end method
@@ -45,7 +45,7 @@
     monitor-enter v0
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/wk2;
+    sget-object v1, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/yk2;
 
     const-string v2, "finish_update_data_cache_key"
 
@@ -76,11 +76,11 @@
     monitor-enter v1
 
     :try_start_0
-    sget-object v2, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/wk2;
+    sget-object v2, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/yk2;
 
     const-string v3, "finish_update_data_cache_key"
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ld7;->c(Ljava/lang/String;)Z
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/qd7;->c(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -90,7 +90,7 @@
 
     const-string v2, "get key fail, key = finish_update_data_cache_key"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -145,7 +145,7 @@
 
     const-string v4, "get data from storage, key = finish_update_data_cache_key"
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     monitor-exit v1
@@ -245,7 +245,7 @@
     .line 25
     :cond_0
     :goto_0
-    sget-object v1, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/wk2;
+    sget-object v1, Lcom/huawei/appgallary/idleupdate/base/manager/a;->b:Lcom/huawei/appmarket/yk2;
 
     .line 26
     .line 27
@@ -279,7 +279,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -303,7 +303,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -383,9 +383,9 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -401,7 +401,7 @@
     goto/16 :goto_3
 
     :cond_0
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -411,7 +411,7 @@
 
     const-string v1, "saveNewListfinish_update_data_cache_key"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -440,7 +440,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -539,7 +539,7 @@
 
     const-string v3, "saveMergedListfinish_update_data_cache_key"
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallary/idleupdate/base/manager/a;->c(Ljava/util/ArrayList;)V
 

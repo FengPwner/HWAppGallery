@@ -61,7 +61,7 @@
 
     const-string v0, "SettingRecommendTagsCard"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     instance-of p1, p2, Lcom/huawei/appmarket/service/settings/bean/recommendservice/GetRecommendServiceTagListBean;
 

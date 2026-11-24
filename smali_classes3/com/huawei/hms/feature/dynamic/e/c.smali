@@ -192,7 +192,7 @@
 
     .line 79
     .line 80
-    invoke-static {v3, p2, v4}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, p2, v4}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
@@ -371,5 +371,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

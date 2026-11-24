@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qf8;
+.implements Lcom/huawei/appmarket/vf8;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/qf8<",
+        "Lcom/huawei/appmarket/vf8<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/fp4;F)Ljava/lang/Object;
+.method public final a(Lcom/huawei/appmarket/ip4;F)Ljava/lang/Object;
     .registers 14
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -54,7 +54,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->E()Lcom/huawei/appmarket/fp4$b;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->E()Lcom/huawei/appmarket/ip4$b;
 
     .line 2
     .line 3
@@ -62,7 +62,7 @@
     move-result-object p2
 
     .line 5
-    sget-object v0, Lcom/huawei/appmarket/fp4$b;->b:Lcom/huawei/appmarket/fp4$b;
+    sget-object v0, Lcom/huawei/appmarket/ip4$b;->b:Lcom/huawei/appmarket/ip4$b;
 
     .line 6
     .line 7
@@ -85,13 +85,13 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->s()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->s()V
 
     .line 15
     .line 16
     .line 17
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->z()D
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->z()D
 
     .line 18
     .line 19
@@ -99,7 +99,7 @@
     move-result-wide v0
 
     .line 21
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->z()D
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->z()D
 
     .line 22
     .line 23
@@ -107,7 +107,7 @@
     move-result-wide v2
 
     .line 25
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->z()D
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->z()D
 
     .line 26
     .line 27
@@ -115,7 +115,7 @@
     move-result-wide v4
 
     .line 29
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->E()Lcom/huawei/appmarket/fp4$b;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->E()Lcom/huawei/appmarket/ip4$b;
 
     .line 30
     .line 31
@@ -123,7 +123,7 @@
     move-result-object v6
 
     .line 33
-    sget-object v7, Lcom/huawei/appmarket/fp4$b;->h:Lcom/huawei/appmarket/fp4$b;
+    sget-object v7, Lcom/huawei/appmarket/ip4$b;->h:Lcom/huawei/appmarket/ip4$b;
 
     .line 34
     .line 35
@@ -135,7 +135,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->z()D
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->z()D
 
     .line 40
     .line 41
@@ -155,7 +155,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fp4;->u()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ip4;->u()V
 
     .line 48
     .line 49

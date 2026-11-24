@@ -1,25 +1,8 @@
-.class final Lcom/huawei/appmarket/gk8;
-.super Lcom/huawei/appmarket/p0;
+.class public interface abstract Lcom/huawei/appmarket/gk8;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 2
-
-    .line 1
-    const/4 v0, 0x0
-
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/p0;-><init>(Lcom/huawei/appmarket/ag3;)V
-
-    return-void
-.end method
-
-
 # virtual methods
-.method protected final a(ILcom/huawei/appmarket/ou3;)V
-    .registers 3
-
-    .line 1
-    return-void
+.method public abstract a(Z)V
 .end method

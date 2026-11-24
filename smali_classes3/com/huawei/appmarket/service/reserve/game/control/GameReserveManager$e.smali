@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yq3;
+.implements Lcom/huawei/appmarket/ar3;
 
 
 # annotations
@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/b04;
+.field private final a:Lcom/huawei/appmarket/d04;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/b04;)V
+.method public constructor <init>(Lcom/huawei/appmarket/d04;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;->a:Lcom/huawei/appmarket/b04;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;->a:Lcom/huawei/appmarket/d04;
 
     return-void
 .end method
@@ -48,11 +48,11 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;->a:Lcom/huawei/appmarket/b04;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;->a:Lcom/huawei/appmarket/d04;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/b04;->Y0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/d04;->Y0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     :cond_0
     return-void

@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/sg4;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ug4;->b()Ljava/lang/String;
 
     move-result-object v1
 
@@ -68,7 +68,7 @@
 
     const-string p2, "mReceiver packageName is empty"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

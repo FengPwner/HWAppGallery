@@ -85,7 +85,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/netdiagnosekit/ui/widget/NetDiagnoseItemView;->b:Landroid/view/View;
 
-    const v1, 0x7f0a1692
+    const v1, 0x7f0a1693
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

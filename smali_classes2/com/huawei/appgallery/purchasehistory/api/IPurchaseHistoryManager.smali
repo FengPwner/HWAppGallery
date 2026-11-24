@@ -3,9 +3,9 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
-.method public abstract init(Lcom/huawei/appmarket/ra6;)V
+.method public abstract init(Lcom/huawei/appmarket/ta6;)V
 .end method

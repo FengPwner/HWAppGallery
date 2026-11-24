@@ -52,7 +52,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/gf1;",
+            "Lcom/huawei/appmarket/if1;",
             ">;"
         }
     .end annotation
@@ -70,11 +70,11 @@
     .end annotation
 .end field
 
-.field private h:Lcom/huawei/appmarket/gf1;
+.field private h:Lcom/huawei/appmarket/if1;
 
 
 # direct methods
-.method public constructor <init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/gf1;)V
+.method public constructor <init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/if1;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -86,7 +86,7 @@
             "Ljava/util/List<",
             "Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$ComplaIntegerData;",
             ">;",
-            "Lcom/huawei/appmarket/gf1;",
+            "Lcom/huawei/appmarket/if1;",
             ")V"
         }
     .end annotation
@@ -306,7 +306,7 @@
     .line 86
     .line 87
     .line 88
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 89
     .line 90
@@ -314,7 +314,7 @@
 
     .line 91
     .line 92
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 93
     .line 94
@@ -322,7 +322,7 @@
     const/4 p1, 0x0
 
     .line 96
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 97
     .line 98
@@ -330,7 +330,7 @@
 
     .line 99
     :cond_3
-    iget-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iget-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 100
     .line 101
@@ -343,7 +343,7 @@
     .line 104
     .line 105
     .line 106
-    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 107
     .line 108
@@ -355,7 +355,7 @@
     move-result p1
 
     .line 112
-    invoke-virtual {p2, p1, v2}, Lcom/huawei/appmarket/gf1;->q(IZ)V
+    invoke-virtual {p2, p1, v2}, Lcom/huawei/appmarket/if1;->q(IZ)V
 
     .line 113
     .line 114
@@ -637,11 +637,11 @@
     move-result-object v1
 
     .line 23
-    check-cast v1, Lcom/huawei/appmarket/gf1;
+    check-cast v1, Lcom/huawei/appmarket/if1;
 
     .line 24
     .line 25
-    iput-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iput-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 26
     .line 27
@@ -673,7 +673,7 @@
 
     .line 40
     .line 41
-    iget-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iget-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 42
     .line 43
@@ -708,12 +708,12 @@
 
     .line 56
     .line 57
-    invoke-virtual {v2, v5}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {v2, v5}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 58
     .line 59
     .line 60
-    iput-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iput-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 61
     .line 62
@@ -776,7 +776,7 @@
     move-result-object p2
 
     .line 91
-    invoke-static {v6, p2}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v6, p2}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 92
     .line 93
@@ -784,7 +784,7 @@
     move-result-object p2
 
     .line 95
-    invoke-virtual {p2}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 96
     .line 97
@@ -835,7 +835,7 @@
     move-result-object p1
 
     .line 119
-    invoke-static {v6, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v6, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 120
     .line 121
@@ -843,7 +843,7 @@
     move-result-object p1
 
     .line 123
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 124
     .line 125
@@ -880,12 +880,12 @@
 
     .line 138
     .line 139
-    invoke-virtual {v2, v5}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {v2, v5}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 140
     .line 141
     .line 142
-    iput-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/gf1;
+    iput-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;->h:Lcom/huawei/appmarket/if1;
 
     .line 143
     .line 144
@@ -903,7 +903,7 @@
     move-result-object p1
 
     .line 151
-    invoke-static {v6, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v6, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 152
     .line 153
@@ -911,7 +911,7 @@
     move-result-object p1
 
     .line 155
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -927,7 +927,7 @@
 
     .line 160
     :goto_2
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 161
     .line 162
@@ -969,7 +969,7 @@
 
     .line 181
     .line 182
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 183
     .line 184
@@ -1376,11 +1376,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

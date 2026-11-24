@@ -150,7 +150,7 @@
 
     .line 41
     .line 42
-    invoke-static {v2, v3, v1, v3}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v3, v1, v3}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     .line 43
     .line 44

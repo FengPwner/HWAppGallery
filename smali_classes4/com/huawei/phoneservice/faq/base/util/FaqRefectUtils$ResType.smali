@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 .annotation system Ldalvik/annotation/EnclosingClass;
@@ -103,7 +103,7 @@
 
     new-instance v6, Lcom/huawei/phoneservice/faq/base/util/FaqRefectUtils$ResType;
 
-    const-string v8, "xml"
+    const-string/jumbo v8, "xml"
 
     const-string v10, "RES_TYPE_XML"
 

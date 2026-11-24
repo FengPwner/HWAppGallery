@@ -28,15 +28,15 @@
 
     const/4 v1, 0x1
 
-    check-cast v0, Lcom/huawei/appmarket/co6;
+    check-cast v0, Lcom/huawei/appmarket/fo6;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/co6;->t(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fo6;->t(Z)V
 
     :cond_0
     return-void
 .end method
 
-.method public final r(Lcom/huawei/appmarket/dt1;I)Lcom/huawei/appmarket/om7;
+.method public final r(Lcom/huawei/appmarket/gt1;I)Lcom/huawei/appmarket/um7;
     .registers 9
 
     .line 1
@@ -60,7 +60,7 @@
     move-result-object p2
 
     .line 11
-    sget-object v1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     .line 12
     .line 13
@@ -438,7 +438,7 @@
 
     .line 203
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v0, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     .line 204
     .line 205
@@ -447,7 +447,7 @@
     .line 206
     .line 207
     :goto_0
-    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 208
     .line 209
@@ -457,7 +457,7 @@
     .line 211
     :cond_2
     :goto_1
-    sget-object v0, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v0, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     .line 212
     .line 213
@@ -521,21 +521,21 @@
     .line 240
     :cond_5
     :goto_3
-    new-instance v0, Lcom/huawei/appmarket/om7;
+    new-instance v0, Lcom/huawei/appmarket/um7;
 
     .line 241
     .line 242
-    invoke-direct {v0}, Lcom/huawei/appmarket/om7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/um7;-><init>()V
 
     .line 243
     .line 244
     .line 245
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/om7;->f(Lcom/huawei/appmarket/dt1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/um7;->f(Lcom/huawei/appmarket/gt1;)V
 
     .line 246
     .line 247
     .line 248
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/om7;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/um7;->e(Ljava/lang/CharSequence;)V
 
     .line 249
     .line 250
@@ -874,13 +874,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final z(Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceDetailDownloadButton$a;)V

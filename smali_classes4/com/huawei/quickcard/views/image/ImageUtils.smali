@@ -184,13 +184,13 @@
 .method public static loadDrawable(Lcom/huawei/quickcard/views/image/extension/ImageOptions;Landroid/widget/ImageView;)V
     .registers 2
 
-    invoke-virtual {p0}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->getPlaceHolder()Lcom/huawei/appmarket/pv5;
+    invoke-virtual {p0}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->getPlaceHolder()Lcom/huawei/appmarket/rv5;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    iget-object p0, p0, Lcom/huawei/appmarket/pv5;->b:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/huawei/appmarket/rv5;->b:Ljava/lang/Object;
 
     check-cast p0, Landroid/graphics/drawable/Drawable;
 

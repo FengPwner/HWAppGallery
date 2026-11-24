@@ -16,7 +16,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment<",
         "TT;>;"
@@ -25,7 +25,7 @@
 
 
 # instance fields
-.field protected f0:Lcom/huawei/appmarket/n87;
+.field protected f0:Lcom/huawei/appmarket/s87;
 
 .field private g0:Ljava/util/ArrayList;
 
@@ -128,13 +128,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string p2, "TaskFragment"
 
     const-string v0, "onPrepareRequestParams, mExcuteListener == null"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -155,7 +155,7 @@
     iput-object p1, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->i0:Lcom/huawei/appgallery/taskfragment/api/TaskFragment$c;
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/jr2;->b(Landroidx/fragment/app/Fragment;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/lr2;->b(Landroidx/fragment/app/Fragment;)V
 
     return-void
 .end method
@@ -174,7 +174,7 @@
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -192,7 +192,7 @@
 
     const-string v1, "TaskFragment"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -224,13 +224,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string p2, "TaskFragment"
 
     const-string v0, "onCompleted, mExcuteListener == null"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -242,11 +242,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/n87;
+    iget-object v0, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/s87;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n87;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s87;->f()V
 
     :cond_0
     return-void
@@ -256,15 +256,15 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     new-instance v1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$b;
 
-    iget-object v2, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/n87;
+    iget-object v2, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/s87;
 
-    invoke-direct {v1, v2}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$b;-><init>(Lcom/huawei/appmarket/n87;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$b;-><init>(Lcom/huawei/appmarket/s87;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/up1;->a(Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xp1;->a(Lcom/huawei/appmarket/np1;)V
 
     return-void
 .end method
@@ -294,13 +294,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string v0, "TaskFragment"
 
     const-string v1, "dismiss, activity is destroyed"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -327,7 +327,7 @@
 
     invoke-virtual {p0, p0, v0}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->V1(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Ljava/util/ArrayList;)V
 
-    sget-object v0, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object v0, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -357,7 +357,7 @@
 
     const-string v2, "TaskFragment"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->g0:Ljava/util/ArrayList;
 
@@ -387,14 +387,14 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->setServiceType_(I)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/f87;->a()Lcom/huawei/appmarket/f87;
+    invoke-static {}, Lcom/huawei/appmarket/k87;->a()Lcom/huawei/appmarket/k87;
 
     move-result-object v1
 
@@ -402,11 +402,11 @@
 
     invoke-direct {v2, p0}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$e;-><init>(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/f87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$e;)Lcom/huawei/appmarket/n87;
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/k87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$e;)Lcom/huawei/appmarket/s87;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/n87;
+    iput-object v0, p0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/s87;
 
     :cond_1
     return-void
@@ -484,7 +484,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 8
     .line 9
@@ -496,11 +496,11 @@
 
     .line 12
     .line 13
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 16
     .line 17
@@ -508,11 +508,11 @@
     move-result-object v0
 
     .line 19
-    const-class v1, Lcom/huawei/appmarket/qx3;
+    const-class v1, Lcom/huawei/appmarket/sx3;
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -520,7 +520,7 @@
     move-result-object v0
 
     .line 25
-    check-cast v0, Lcom/huawei/appmarket/qx3;
+    check-cast v0, Lcom/huawei/appmarket/sx3;
 
     .line 26
     .line 27
@@ -531,7 +531,7 @@
     const/4 v1, 0x2
 
     .line 30
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qx3;->e(I)Z
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/sx3;->e(I)Z
 
     .line 31
     .line 32
@@ -547,11 +547,11 @@
 
     .line 37
     .line 38
-    const-class v1, Lcom/huawei/appmarket/yg3;
+    const-class v1, Lcom/huawei/appmarket/ah3;
 
     .line 39
     .line 40
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -559,11 +559,11 @@
     move-result-object v0
 
     .line 44
-    check-cast v0, Lcom/huawei/appmarket/yg3;
+    check-cast v0, Lcom/huawei/appmarket/ah3;
 
     .line 45
     .line 46
-    invoke-interface {v0}, Lcom/huawei/appmarket/yg3;->c()Lcom/huawei/appmarket/ke7;
+    invoke-interface {v0}, Lcom/huawei/appmarket/ah3;->c()Lcom/huawei/appmarket/pe7;
 
     .line 47
     .line 48
@@ -571,7 +571,7 @@
     move-result-object v0
 
     .line 50
-    sget-object v1, Lcom/huawei/appmarket/ke7;->b:Lcom/huawei/appmarket/ke7;
+    sget-object v1, Lcom/huawei/appmarket/pe7;->b:Lcom/huawei/appmarket/pe7;
 
     .line 51
     .line 52
@@ -583,11 +583,11 @@
 
     .line 55
     :cond_0
-    const-class v0, Lcom/huawei/appmarket/j04;
+    const-class v0, Lcom/huawei/appmarket/l04;
 
     .line 56
     .line 57
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -595,7 +595,7 @@
     move-result-object v0
 
     .line 61
-    check-cast v0, Lcom/huawei/appmarket/j04;
+    check-cast v0, Lcom/huawei/appmarket/l04;
 
     .line 62
     .line 63
@@ -608,7 +608,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-interface {v0}, Lcom/huawei/appmarket/j04;->C()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/l04;->C()V
 
     .line 69
     .line 70
@@ -760,13 +760,13 @@
     goto :goto_1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string p2, "TaskFragment"
 
     const-string p3, "show fragment appers IllegalStateException."
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

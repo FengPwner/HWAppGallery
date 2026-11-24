@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -45,7 +45,7 @@
 
     if-ne p3, p2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tn1;->s(Landroid/app/Activity;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wn1;->s(Landroid/app/Activity;)V
 
     :cond_0
     return-void

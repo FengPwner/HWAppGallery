@@ -3,23 +3,23 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/jn;
+.field final synthetic b:Lcom/huawei/appmarket/in;
 
 .field final synthetic c:Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;Lcom/huawei/appmarket/jn;)V
+.method constructor <init>(Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;Lcom/huawei/appmarket/in;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/apkmanagement/ui/a;->c:Lcom/huawei/appgallery/apkmanagement/ui/ApkManagementActivity;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/apkmanagement/ui/a;->b:Lcom/huawei/appmarket/jn;
+    iput-object p2, p0, Lcom/huawei/appgallery/apkmanagement/ui/a;->b:Lcom/huawei/appmarket/in;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,7 +36,7 @@
 
     if-ne p3, p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/apkmanagement/ui/a;->b:Lcom/huawei/appmarket/jn;
+    iget-object p1, p0, Lcom/huawei/appgallery/apkmanagement/ui/a;->b:Lcom/huawei/appmarket/in;
 
     if-eqz p1, :cond_0
 
@@ -52,7 +52,7 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lcom/huawei/appmarket/jn;
+    new-array v0, v0, [Lcom/huawei/appmarket/in;
 
     const/4 v1, 0x0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tj8$b;
+.implements Lcom/huawei/appmarket/zj8$b;
 
 
 # instance fields
@@ -27,29 +27,29 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View;Lcom/huawei/appmarket/nq8;Lcom/huawei/appmarket/tj8$c;)Lcom/huawei/appmarket/nq8;
+.method public final a(Landroid/view/View;Lcom/huawei/appmarket/tq8;Lcom/huawei/appmarket/zj8$c;)Lcom/huawei/appmarket/tq8;
     .registers 14
 
     .line 1
     const/4 v0, 0x7
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/nq8;->f(I)Lcom/huawei/appmarket/sd4;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/tq8;->f(I)Lcom/huawei/appmarket/ud4;
 
     move-result-object v0
 
     const/16 v1, 0x20
 
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/nq8;->f(I)Lcom/huawei/appmarket/sd4;
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/tq8;->f(I)Lcom/huawei/appmarket/ud4;
 
     move-result-object v1
 
-    iget v2, v0, Lcom/huawei/appmarket/sd4;->b:I
+    iget v2, v0, Lcom/huawei/appmarket/ud4;->b:I
 
     iget-object v3, p0, Lcom/google/android/material/bottomsheet/b;->b:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     invoke-static {v3, v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->B(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;I)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tj8;->f(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zj8;->f(Landroid/view/View;)Z
 
     move-result v2
 
@@ -71,13 +71,13 @@
 
     if-eqz v7, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->i()I
 
     move-result v4
 
     invoke-static {v3, v4}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->E(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;I)V
 
-    iget v4, p3, Lcom/huawei/appmarket/tj8$c;->d:I
+    iget v4, p3, Lcom/huawei/appmarket/zj8$c;->d:I
 
     invoke-static {v3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->D(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)I
 
@@ -90,18 +90,18 @@
 
     move-result v7
 
-    iget v8, v0, Lcom/huawei/appmarket/sd4;->a:I
+    iget v8, v0, Lcom/huawei/appmarket/ud4;->a:I
 
     if-eqz v7, :cond_2
 
     if-eqz v2, :cond_1
 
-    iget v5, p3, Lcom/huawei/appmarket/tj8$c;->c:I
+    iget v5, p3, Lcom/huawei/appmarket/zj8$c;->c:I
 
     goto :goto_0
 
     :cond_1
-    iget v5, p3, Lcom/huawei/appmarket/tj8$c;->a:I
+    iget v5, p3, Lcom/huawei/appmarket/zj8$c;->a:I
 
     :goto_0
     add-int/2addr v5, v8
@@ -111,18 +111,18 @@
 
     move-result v7
 
-    iget v9, v0, Lcom/huawei/appmarket/sd4;->c:I
+    iget v9, v0, Lcom/huawei/appmarket/ud4;->c:I
 
     if-eqz v7, :cond_4
 
     if-eqz v2, :cond_3
 
-    iget p3, p3, Lcom/huawei/appmarket/tj8$c;->a:I
+    iget p3, p3, Lcom/huawei/appmarket/zj8$c;->a:I
 
     goto :goto_1
 
     :cond_3
-    iget p3, p3, Lcom/huawei/appmarket/tj8$c;->c:I
+    iget p3, p3, Lcom/huawei/appmarket/zj8$c;->c:I
 
     :goto_1
     add-int v6, p3, v9
@@ -182,7 +182,7 @@
 
     iget v2, p3, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    iget v0, v0, Lcom/huawei/appmarket/sd4;->b:I
+    iget v0, v0, Lcom/huawei/appmarket/ud4;->b:I
 
     if-eq v2, v0, :cond_7
 
@@ -207,7 +207,7 @@
 
     if-eqz p1, :cond_9
 
-    iget p3, v1, Lcom/huawei/appmarket/sd4;->d:I
+    iget p3, v1, Lcom/huawei/appmarket/ud4;->d:I
 
     invoke-static {v3, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->u(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;I)V
 

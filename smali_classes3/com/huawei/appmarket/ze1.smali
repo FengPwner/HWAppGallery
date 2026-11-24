@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rs3;
+.implements Lcom/huawei/appmarket/nz3;
 
 
 # direct methods
@@ -17,16 +17,11 @@
 
 
 # virtual methods
-.method public final e1(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Ljava/lang/Object;)V
-    .registers 3
+.method public final y(Z)I
+    .registers 2
 
     .line 1
-    return-void
-.end method
+    const/4 p1, 0x0
 
-.method public final k1(ILjava/lang/Object;)V
-    .registers 3
-
-    .line 1
-    return-void
+    return p1
 .end method

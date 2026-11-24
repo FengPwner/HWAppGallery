@@ -38,13 +38,13 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/thirdupdate/a;->b:Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/zh3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/bi3;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/zh3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;->u3(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;)Lcom/huawei/appmarket/bi3;
 
     move-result-object p2
 
@@ -52,7 +52,7 @@
 
     move-result p1
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/zh3;->t0(Z)V
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/bi3;->t0(Z)V
 
     :cond_0
     const/4 p1, 0x1

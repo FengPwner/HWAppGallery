@@ -44,7 +44,7 @@
     move-result-object v1
 
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 14
     .line 15
@@ -52,7 +52,7 @@
     move-result-object v2
 
     .line 17
-    invoke-virtual {v2}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 18
     .line 19
@@ -233,5 +233,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

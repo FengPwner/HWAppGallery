@@ -259,23 +259,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static synthetic b(Lcom/huawei/quickcard/base/bi/CardReporter;Ljava/lang/String;)V
@@ -570,10 +553,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static c(Landroid/content/Context;Lcom/huawei/quickcard/base/bi/CardReportBean;)V
@@ -718,11 +697,11 @@
     .line 6
     .line 7
     .line 8
-    new-instance v0, Lcom/huawei/appmarket/q92;
+    new-instance v0, Lcom/huawei/appmarket/st1;
 
     .line 9
     .line 10
-    const/16 v1, 0x13
+    const/16 v1, 0x15
 
     .line 11
     .line 12
@@ -730,7 +709,7 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, p0, v1, v2}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 15
     .line 16
@@ -1029,6 +1008,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public reportDownload()V
@@ -1069,11 +1068,11 @@
     .line 17
     .line 18
     .line 19
-    new-instance v0, Lcom/huawei/appmarket/q92;
+    new-instance v0, Lcom/huawei/appmarket/st1;
 
     .line 20
     .line 21
-    const/16 v1, 0x13
+    const/16 v1, 0x15
 
     .line 22
     .line 23
@@ -1081,7 +1080,7 @@
 
     .line 24
     .line 25
-    invoke-direct {v0, p0, v1, v2}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 26
     .line 27
@@ -1369,6 +1368,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public reportError(Ljava/lang/String;Ljava/lang/String;)V
@@ -1397,15 +1416,15 @@
     .line 11
     .line 12
     .line 13
-    new-instance p2, Lcom/huawei/appmarket/q92;
+    new-instance p2, Lcom/huawei/appmarket/st1;
 
     .line 14
     .line 15
-    const/16 v0, 0x13
+    const/16 v0, 0x15
 
     .line 16
     .line 17
-    invoke-direct {p2, p0, v0, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {p2, p0, v0, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 18
     .line 19
@@ -1665,10 +1684,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public reportInit(Z)V
@@ -1705,15 +1720,15 @@
 
     .line 16
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/q92;
+    new-instance p1, Lcom/huawei/appmarket/st1;
 
     .line 17
     .line 18
-    const/16 v1, 0x13
+    const/16 v1, 0x15
 
     .line 19
     .line 20
-    invoke-direct {p1, p0, v1, v0}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {p1, p0, v1, v0}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 21
     .line 22
@@ -1880,23 +1895,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public reportLater(Ljava/lang/String;)V
@@ -1936,11 +1934,11 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/quickcard/base/bi/CardReportBean;->setType(Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/uh5;
+    new-instance v0, Lcom/huawei/appmarket/pr;
 
-    const/16 v1, 0xf
+    const/16 v1, 0x11
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-static {v0}, Lcom/huawei/quickcard/base/utils/CardThreadUtils;->runOnReportThread(Ljava/lang/Runnable;)V
 

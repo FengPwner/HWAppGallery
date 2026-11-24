@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle$a;->b:Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
     const/4 v0, 0x2
 
     .line 10
-    invoke-static {v0}, Lcom/huawei/appmarket/m66;->a(I)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/o66;->a(I)Z
 
     .line 11
     .line 12
@@ -66,7 +66,7 @@
 
     .line 15
     .line 16
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 17
     .line 18
@@ -78,11 +78,11 @@
 
     .line 21
     .line 22
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 23
     .line 24
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 25
     .line 26
@@ -90,11 +90,11 @@
     move-result-object v1
 
     .line 28
-    const-class v2, Lcom/huawei/appmarket/nu3;
+    const-class v2, Lcom/huawei/appmarket/pu3;
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -102,7 +102,7 @@
     move-result-object v1
 
     .line 34
-    check-cast v1, Lcom/huawei/appmarket/nu3;
+    check-cast v1, Lcom/huawei/appmarket/pu3;
 
     .line 35
     .line 36
@@ -114,7 +114,7 @@
     move-result-object p1
 
     .line 40
-    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/nu3;->b(ILandroid/content/Context;)V
+    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/pu3;->b(ILandroid/content/Context;)V
 
     .line 41
     .line 42
@@ -192,5 +192,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

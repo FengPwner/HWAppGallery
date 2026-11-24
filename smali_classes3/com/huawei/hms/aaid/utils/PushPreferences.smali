@@ -27,7 +27,7 @@
 
     if-lt v0, v1, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p1}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -43,7 +43,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/rr5;->A(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/tr5;->x(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -144,7 +144,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Lcom/huawei/appmarket/rr5;->d(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p1}, Lcom/huawei/appmarket/tr5;->d(Landroid/content/Context;)Ljava/io/File;
 
     .line 20
     .line 21
@@ -332,7 +332,7 @@
 
     .line 113
     .line 114
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 115
     .line 116
@@ -395,7 +395,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private b(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
@@ -537,7 +536,7 @@
 
     .line 62
     .line 63
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -652,7 +651,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 

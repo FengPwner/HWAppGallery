@@ -121,7 +121,7 @@
 
     iget-object v2, p0, Landroidx/appcompat/widget/e0;->a:Landroid/content/Context;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -200,7 +200,7 @@
 
     iget-object p1, p0, Landroidx/appcompat/widget/e0;->a:Landroid/content/Context;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -269,7 +269,7 @@
     return v0
 .end method
 
-.method public final j(IILcom/huawei/appmarket/nu6$e;)Landroid/graphics/Typeface;
+.method public final j(IILcom/huawei/appmarket/ru6$e;)Landroid/graphics/Typeface;
     .registers 6
 
     .line 1
@@ -303,7 +303,7 @@
 
     iget-object v1, p0, Landroidx/appcompat/widget/e0;->a:Landroid/content/Context;
 
-    invoke-static {v1, p1, v0, p2, p3}, Lcom/huawei/appmarket/nu6;->g(Landroid/content/Context;ILandroid/util/TypedValue;ILcom/huawei/appmarket/nu6$e;)Landroid/graphics/Typeface;
+    invoke-static {v1, p1, v0, p2, p3}, Lcom/huawei/appmarket/ru6;->g(Landroid/content/Context;ILandroid/util/TypedValue;ILcom/huawei/appmarket/ru6$e;)Landroid/graphics/Typeface;
 
     move-result-object p1
 

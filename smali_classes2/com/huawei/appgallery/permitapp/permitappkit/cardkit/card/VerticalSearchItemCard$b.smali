@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard$b;->b:Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
@@ -54,11 +54,11 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->onClick(Landroid/view/View;)V
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->J:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->J:Lcom/huawei/appmarket/gt1;
 
     if-ne v0, v1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/tg8;
+    new-instance v0, Lcom/huawei/appmarket/zg8;
 
     invoke-static {p1}, Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard;->L1(Lcom/huawei/appgallery/permitapp/permitappkit/cardkit/card/VerticalSearchItemCard;)Landroid/content/Context;
 
@@ -82,9 +82,9 @@
 
     const-string v3, "2"
 
-    invoke-direct {v0, v1, v2, v3, p1}, Lcom/huawei/appmarket/tg8;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3, p1}, Lcom/huawei/appmarket/zg8;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/tg8;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zg8;->b()V
 
     :cond_0
     return-void

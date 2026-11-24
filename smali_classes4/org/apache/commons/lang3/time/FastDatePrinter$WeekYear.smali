@@ -61,7 +61,7 @@
     .line 2
     iget-object v0, p0, Lorg/apache/commons/lang3/time/FastDatePrinter$WeekYear;->rule:Lorg/apache/commons/lang3/time/FastDatePrinter$NumberRule;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/t12;->c(Ljava/util/Calendar;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/x12;->c(Ljava/util/Calendar;)I
 
     move-result p2
 

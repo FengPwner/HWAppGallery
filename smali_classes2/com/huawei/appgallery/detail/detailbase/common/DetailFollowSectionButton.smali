@@ -90,13 +90,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v1, "DetailFollowSectionButton"
 
     const-string v2, "refreshImmersionTextColor exception"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -269,7 +269,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onRenderReady(Lcom/huawei/appgallery/foundation/ui/css/CSSViewProxy;)Z
@@ -335,7 +334,7 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/common/DetailFollowSectionButton;->d()V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

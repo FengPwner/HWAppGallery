@@ -22,9 +22,9 @@
     .registers 3
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/ju5;
+    new-instance p1, Lcom/huawei/appmarket/lu5;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/ju5;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/lu5;-><init>()V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ju5;->l0(Landroid/content/Context;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/lu5;->l0(Landroid/content/Context;)Z
 
     move-result p1
 

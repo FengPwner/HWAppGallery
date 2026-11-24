@@ -1,9 +1,9 @@
 .class final Lcom/huawei/appmarket/ly0$a;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os2;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/os2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/rs2<",
         "Lcom/huawei/appgallery/account/userauth/api/IAuthProvider;",
         ">;"
     }
@@ -50,7 +50,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -206,4 +206,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

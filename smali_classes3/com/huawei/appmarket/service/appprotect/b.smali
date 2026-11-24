@@ -200,7 +200,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->g(Ljava/io/File;)[B
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->g(Ljava/io/File;)[B
 
     .line 49
     .line 50
@@ -261,7 +261,7 @@
 
     .line 78
     .line 79
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -277,7 +277,7 @@
 
     .line 85
     .line 86
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_4
     .catch Ljava/security/spec/InvalidKeySpecException; {:try_start_0 .. :try_end_0} :catch_3
@@ -297,7 +297,7 @@
     .line 91
     .line 92
     :goto_0
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -343,7 +343,7 @@
 
     .line 109
     .line 110
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     .line 112
@@ -410,5 +410,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

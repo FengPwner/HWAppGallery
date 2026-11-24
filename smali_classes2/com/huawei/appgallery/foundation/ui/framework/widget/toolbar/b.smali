@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/y08;)V
+.method public static a(Lcom/huawei/appmarket/d18;)V
     .registers 1
 
     .line 1

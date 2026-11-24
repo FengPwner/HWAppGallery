@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/appcomment/ui/GameDetailCommentActivity$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/GameDetailCommentActivity$b;->b:Lcom/huawei/appgallery/appcomment/ui/GameDetailCommentActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

@@ -51,7 +51,7 @@
 
     invoke-direct {p1}, Lcom/huawei/appmarket/component/feedback/activity/FeedbackListDetailRequest;-><init>()V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     move-result-object v0
 
@@ -196,7 +196,7 @@
 
     .line 61
     .line 62
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/fe5;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Lcom/huawei/appmarket/fe5;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/ie5;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Lcom/huawei/appmarket/ie5;
 
     .line 63
     .line 64
@@ -204,7 +204,7 @@
     move-result-object p2
 
     .line 66
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fe5;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ie5;->b()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -212,7 +212,7 @@
     move-result-object v0
 
     .line 70
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fe5;->c()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ie5;->c()Z
 
     .line 71
     .line 72
@@ -327,7 +327,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final onActivityResult(IILandroid/content/Intent;)V
@@ -393,7 +392,7 @@
 
     .line 22
     .line 23
-    const v0, 0x7f0a1609
+    const v0, 0x7f0a160a
 
     .line 24
     .line 25
@@ -414,7 +413,7 @@
 
     .line 33
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 35
     .line 36
@@ -422,7 +421,7 @@
     move-result-object p1
 
     .line 38
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ky1;->b()I
 
     .line 39
     .line 40
@@ -443,7 +442,7 @@
 
     .line 48
     .line 49
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 50
     .line 51
@@ -451,7 +450,7 @@
     move-result-object p1
 
     .line 53
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ky1;->e()I
 
     .line 54
     .line 55
@@ -589,12 +588,12 @@
     .line 121
     .line 122
     .line 123
-    invoke-static {p0, p1, p1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, p1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 124
     .line 125
     .line 126
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 127
     .line 128
@@ -856,8 +855,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

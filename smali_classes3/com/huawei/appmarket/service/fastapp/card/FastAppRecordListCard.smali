@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private A:Lcom/huawei/appmarket/jh2;
+.field private A:Lcom/huawei/appmarket/mh2;
 
 .field private B:Lcom/huawei/uikit/phone/hwbutton/widget/HwButton;
 
@@ -16,7 +16,7 @@
 
 .field private y:Landroid/widget/LinearLayout;
 
-.field private z:Lcom/huawei/appmarket/jh2;
+.field private z:Lcom/huawei/appmarket/mh2;
 
 
 # direct methods
@@ -135,16 +135,16 @@
     .line 40
     .line 41
     .line 42
-    new-instance p1, Lcom/huawei/appmarket/jh2;
+    new-instance p1, Lcom/huawei/appmarket/mh2;
 
     .line 43
     .line 44
-    invoke-direct {p1}, Lcom/huawei/appmarket/jh2;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/mh2;-><init>()V
 
     .line 45
     .line 46
     .line 47
-    iput-object p1, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->z:Lcom/huawei/appmarket/jh2;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->z:Lcom/huawei/appmarket/mh2;
 
     .line 48
     .line 49
@@ -212,16 +212,16 @@
     .line 80
     .line 81
     .line 82
-    new-instance p1, Lcom/huawei/appmarket/jh2;
+    new-instance p1, Lcom/huawei/appmarket/mh2;
 
     .line 83
     .line 84
-    invoke-direct {p1}, Lcom/huawei/appmarket/jh2;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/mh2;-><init>()V
 
     .line 85
     .line 86
     .line 87
-    iput-object p1, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->A:Lcom/huawei/appmarket/jh2;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->A:Lcom/huawei/appmarket/mh2;
 
     .line 88
     .line 89
@@ -266,7 +266,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -347,15 +346,15 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->B:Lcom/huawei/uikit/phone/hwbutton/widget/HwButton;
 
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/nh2;
+    new-instance v1, Lcom/huawei/appmarket/qh2;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/nh2;-><init>(Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/qh2;-><init>(Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mh2;->m(Lcom/huawei/appmarket/nh2;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ph2;->m(Lcom/huawei/appmarket/qh2;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 
@@ -374,7 +373,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -404,7 +403,7 @@
     move-result v1
 
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
     .line 22
     .line 23
@@ -417,7 +416,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->d()Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->d()Ljava/util/ArrayList;
 
     .line 29
     .line 30
@@ -425,7 +424,7 @@
     move-result-object v2
 
     .line 32
-    iget-object v3, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->z:Lcom/huawei/appmarket/jh2;
+    iget-object v3, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->z:Lcom/huawei/appmarket/mh2;
 
     .line 33
     .line 34
@@ -456,12 +455,12 @@
     move-result-object v4
 
     .line 47
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/jh2;->k(Ljava/util/List;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/mh2;->k(Ljava/util/List;)V
 
     .line 48
     .line 49
     .line 50
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
     .line 51
     .line 52
@@ -474,7 +473,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->b()Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->b()Ljava/util/ArrayList;
 
     .line 58
     .line 59
@@ -482,7 +481,7 @@
     move-result-object v3
 
     .line 61
-    iget-object v4, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->A:Lcom/huawei/appmarket/jh2;
+    iget-object v4, p0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->A:Lcom/huawei/appmarket/mh2;
 
     .line 62
     .line 63
@@ -514,7 +513,7 @@
     move-result-object v1
 
     .line 77
-    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/jh2;->k(Ljava/util/List;)V
+    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/mh2;->k(Ljava/util/List;)V
 
     .line 78
     .line 79
@@ -575,7 +574,7 @@
     move-result-object v1
 
     .line 110
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     .line 112

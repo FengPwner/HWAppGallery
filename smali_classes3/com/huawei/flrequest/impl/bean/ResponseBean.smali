@@ -16,7 +16,7 @@
 # instance fields
 .field private mResponseJson:Lorg/json/JSONObject;
 
-.field private mResponseType:Lcom/huawei/appmarket/pc2;
+.field private mResponseType:Lcom/huawei/appmarket/sc2;
 
 .field private mRtnCode:I
 
@@ -37,9 +37,9 @@
 
     iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/ResponseBean;->mRtnDesc:Ljava/lang/String;
 
-    sget-object v0, Lcom/huawei/appmarket/pc2;->b:Lcom/huawei/appmarket/pc2;
+    sget-object v0, Lcom/huawei/appmarket/sc2;->b:Lcom/huawei/appmarket/sc2;
 
-    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/ResponseBean;->mResponseType:Lcom/huawei/appmarket/pc2;
+    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/ResponseBean;->mResponseType:Lcom/huawei/appmarket/sc2;
 
     return-void
 .end method

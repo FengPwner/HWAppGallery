@@ -61,12 +61,12 @@
 
     invoke-static {p1, p2}, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->r1(Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;I)V
 
-    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
     if-eqz p1, :cond_3
 
     :goto_0
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/t24;->u0(I)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/v24;->u0(I)V
 
     goto :goto_1
 
@@ -75,7 +75,7 @@
 
     invoke-static {p1, p2}, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->r1(Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;I)V
 
-    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iget-object p1, p1, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
     if-eqz p1, :cond_3
 

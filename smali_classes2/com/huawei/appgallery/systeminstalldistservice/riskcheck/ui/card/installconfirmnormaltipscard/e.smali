@@ -32,7 +32,7 @@
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/huawei/appmarket/bt3;
+    instance-of v1, v1, Lcom/huawei/appmarket/dt3;
 
     if-eqz v1, :cond_0
 
@@ -40,9 +40,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/bt3;
+    check-cast v0, Lcom/huawei/appmarket/dt3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/bt3;->C0()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dt3;->C0()V
 
     :cond_0
     return-void

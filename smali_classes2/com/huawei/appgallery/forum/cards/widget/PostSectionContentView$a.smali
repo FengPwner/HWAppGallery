@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView$a;->b:Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -36,13 +36,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView$a;->b:Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;->a(Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;)Lcom/huawei/appmarket/b57;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;->a(Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;)Lcom/huawei/appmarket/g57;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;->a(Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;)Lcom/huawei/appmarket/b57;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;->a(Lcom/huawei/appgallery/forum/cards/widget/PostSectionContentView;)Lcom/huawei/appmarket/g57;
 
     move-result-object p1
 

@@ -19,7 +19,7 @@
 
 .field private b:I
 
-.field private c:Lcom/huawei/appmarket/nv7;
+.field private c:Lcom/huawei/appmarket/tv7;
 
 
 # direct methods
@@ -51,11 +51,11 @@
     return v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/nv7;
+.method public final c()Lcom/huawei/appmarket/tv7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c:Lcom/huawei/appmarket/tv7;
 
     return-object v0
 .end method
@@ -78,11 +78,11 @@
     return-void
 .end method
 
-.method public final f(Lcom/huawei/appmarket/nv7;)V
+.method public final f(Lcom/huawei/appmarket/tv7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c:Lcom/huawei/appmarket/nv7;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c:Lcom/huawei/appmarket/tv7;
 
     return-void
 .end method

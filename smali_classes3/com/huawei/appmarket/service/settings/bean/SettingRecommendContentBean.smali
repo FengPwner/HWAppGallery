@@ -24,7 +24,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 
@@ -50,11 +50,11 @@
     return v0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aj6;->g()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cj6;->g()Z
 
     move-result p1
 

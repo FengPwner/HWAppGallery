@@ -1112,7 +1112,7 @@
 
     move-result-wide v2
 
-    invoke-static {p1, v1, v2, v3}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {p1, v1, v2, v3}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     goto :goto_0
 
@@ -1228,7 +1228,7 @@
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    invoke-static {p1, v1, v4, v5}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {p1, v1, v4, v5}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     :goto_3
     return-void
@@ -1982,7 +1982,7 @@
     move-result-wide v0
 
     :goto_1
-    invoke-static {p1, v2, v0, v1}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {p1, v2, v0, v1}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     goto :goto_2
 

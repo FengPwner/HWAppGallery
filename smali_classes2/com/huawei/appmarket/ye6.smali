@@ -6,42 +6,23 @@
 # static fields
 .field public static final a:[I
 
-.field public static final b:[I
-
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 1
+    .registers 2
 
     .line 1
-    const/4 v0, 0x7
+    const v0, 0x7f04051f
 
-    new-array v0, v0, [I
+    const v1, 0x7f04070e
 
-    fill-array-data v0, :array_0
-
-    sput-object v0, Lcom/huawei/appmarket/ye6;->a:[I
-
-    const v0, 0x7f040639
-
-    filled-new-array {v0}, [I
+    filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/huawei/appmarket/ye6;->b:[I
+    sput-object v0, Lcom/huawei/appmarket/ye6;->a:[I
 
     return-void
-
-    :array_0
-    .array-data 4
-        0x7f040050
-        0x7f04016e
-        0x7f0404b3
-        0x7f04055b
-        0x7f04059a
-        0x7f0405f7
-        0x7f0405f8
-    .end array-data
 .end method
 
 .method private constructor <init>()V

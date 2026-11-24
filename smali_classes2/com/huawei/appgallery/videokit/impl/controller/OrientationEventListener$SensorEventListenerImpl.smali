@@ -58,7 +58,7 @@
 
     const-string p2, "sensor"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const-string v0, "event"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener$SensorEventListenerImpl;->this$0:Lcom/huawei/appgallery/videokit/impl/controller/OrientationEventListener;
 

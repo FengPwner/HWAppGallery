@@ -24,7 +24,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/du5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/fu5;->a()Z
 
     .line 2
     .line 3
@@ -44,7 +44,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/z84;->z(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kk4;->A(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 12
     .line 13
@@ -157,5 +157,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -71,7 +71,7 @@
 
     .line 6
     .line 7
-    iget-object v0, v0, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/q45;
+    iget-object v0, v0, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/t45;
 
     .line 8
     .line 9
@@ -79,7 +79,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     .line 12
     .line 13
@@ -189,7 +189,7 @@
 
     .line 6
     .line 7
-    iget-object v0, v1, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/q45;
+    iget-object v0, v1, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/t45;
 
     .line 8
     .line 9
@@ -204,7 +204,7 @@
 
     .line 13
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->q()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->q()F
 
     .line 14
     .line 15
@@ -269,7 +269,7 @@
     int-to-float p1, p1
 
     .line 42
-    iget-object v0, v1, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/q45;
+    iget-object v0, v1, Lcom/google/android/material/floatingactionbutton/h;->b:Lcom/huawei/appmarket/t45;
 
     .line 43
     .line 44
@@ -277,7 +277,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     .line 47
     .line 48

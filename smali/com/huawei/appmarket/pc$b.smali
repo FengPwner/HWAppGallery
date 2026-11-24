@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # annotations
@@ -52,7 +52,7 @@
 
     const-string v1, "AgGuardHandScan"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -66,7 +66,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
     :cond_0
     return-void

@@ -13,7 +13,7 @@
 
 # instance fields
 .field private list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -35,7 +35,7 @@
     return-void
 .end method
 
-.method public static T(Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;Lcom/huawei/appmarket/gz;)Ljava/util/ArrayList;
+.method public static T(Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;Lcom/huawei/appmarket/hz;)Ljava/util/ArrayList;
     .registers 8
 
     .line 1
@@ -101,7 +101,7 @@
     move-result-object v2
 
     .line 32
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -146,7 +146,7 @@
     move-result-object v3
 
     .line 55
-    invoke-virtual {v3, v2}, Lcom/huawei/appgallery/audiokit/impl/a;->r(Ljava/lang/String;)Lcom/huawei/appmarket/gz;
+    invoke-virtual {v3, v2}, Lcom/huawei/appgallery/audiokit/impl/a;->r(Ljava/lang/String;)Lcom/huawei/appmarket/hz;
 
     .line 56
     .line 57
@@ -162,7 +162,7 @@
     move-result-object v3
 
     .line 63
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->D(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->D(Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -175,12 +175,12 @@
     move-result-object v3
 
     .line 70
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->x(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->x(Ljava/lang/String;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -188,12 +188,12 @@
     move-result-object v3
 
     .line 77
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->E(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->E(Ljava/lang/String;)V
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->n()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->n()I
 
     .line 81
     .line 82
@@ -201,7 +201,7 @@
     move-result v3
 
     .line 84
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->I(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->I(I)V
 
     .line 85
     .line 86
@@ -214,7 +214,7 @@
     move-result-object v3
 
     .line 91
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->x(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->x(Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -237,7 +237,7 @@
     int-to-long v3, v4
 
     .line 102
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gz;->z(J)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/hz;->z(J)V
 
     .line 103
     .line 104
@@ -251,7 +251,7 @@
     move-result-object v3
 
     .line 109
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gz;->B(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/hz;->B(Ljava/lang/String;)V
 
     .line 110
     .line 111
@@ -276,7 +276,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->c()Ljava/lang/String;
 
     .line 123
     .line 124
@@ -285,7 +285,7 @@
 
     .line 126
     :goto_1
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/gz;->w(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/hz;->w(Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -306,7 +306,7 @@
 
     .line 135
     :goto_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->l()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->l()Ljava/lang/String;
 
     .line 136
     .line 137
@@ -314,12 +314,12 @@
     move-result-object v1
 
     .line 139
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/gz;->F(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/hz;->F(Ljava/lang/String;)V
 
     .line 140
     .line 141
     .line 142
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->i()Ljava/lang/String;
 
     .line 143
     .line 144
@@ -327,7 +327,7 @@
     move-result-object v1
 
     .line 146
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/gz;->C(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/hz;->C(Ljava/lang/String;)V
 
     .line 147
     .line 148
@@ -352,5 +352,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

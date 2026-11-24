@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/g87;
+.implements Lcom/huawei/appmarket/l87;
 
 
 # static fields
@@ -18,7 +18,7 @@
 
 # instance fields
 .field private mBusinessParam:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "businessParam"
     .end annotation
 .end field
@@ -26,13 +26,13 @@
 .field private mCacheExpireTime:J
 
 .field private final mClientVer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "clientVer"
     .end annotation
 .end field
 
 .field private final mDeviceInfo:Ljava/util/Map;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "deviceInfo"
     .end annotation
 
@@ -60,21 +60,21 @@
 .end field
 
 .field private final mLocale:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "locale"
     .end annotation
 .end field
 
-.field private mRequestConfig:Lcom/huawei/appmarket/mc2;
+.field private mRequestConfig:Lcom/huawei/appmarket/pc2;
 
 .field private mRequestId:Ljava/lang/String;
 
-.field protected mRequestType:Lcom/huawei/appmarket/nc2;
+.field protected mRequestType:Lcom/huawei/appmarket/qc2;
 
 .field private final mServerUrl:Ljava/lang/String;
 
 .field private final mZone:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "zone"
     .end annotation
 .end field
@@ -109,15 +109,15 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/nc2;->b:Lcom/huawei/appmarket/nc2;
+    sget-object v0, Lcom/huawei/appmarket/qc2;->b:Lcom/huawei/appmarket/qc2;
 
     .line 5
     .line 6
-    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/nc2;
+    iput-object v0, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/qc2;
 
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/huawei/appmarket/fb2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/fb2;
+    invoke-static {p1}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
     .line 9
     .line 10
@@ -128,14 +128,14 @@
     const/4 v0, 0x0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/mc2;
+    const-class v1, Lcom/huawei/appmarket/pc2;
 
     .line 14
     .line 15
     const/4 v2, 0x0
 
     .line 16
-    invoke-virtual {p1, v1, v0, v2}, Lcom/huawei/appmarket/fb2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
+    invoke-virtual {p1, v1, v0, v2}, Lcom/huawei/appmarket/ib2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -143,7 +143,7 @@
     move-result-object p1
 
     .line 20
-    check-cast p1, Lcom/huawei/appmarket/mc2;
+    check-cast p1, Lcom/huawei/appmarket/pc2;
 
     .line 21
     .line 22
@@ -151,11 +151,11 @@
 
     .line 23
     .line 24
-    iput-object p1, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestConfig:Lcom/huawei/appmarket/mc2;
+    iput-object p1, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestConfig:Lcom/huawei/appmarket/pc2;
 
     .line 25
     .line 26
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->f()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->f()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -163,7 +163,7 @@
     move-result-object v0
 
     .line 30
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->getAppId()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->getAppId()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -272,7 +272,7 @@
 
     .line 85
     .line 86
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->getServiceCountry()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->getServiceCountry()Ljava/lang/String;
 
     .line 87
     .line 88
@@ -284,7 +284,7 @@
 
     .line 91
     .line 92
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->getClientVersion()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->getClientVersion()Ljava/lang/String;
 
     .line 93
     .line 94
@@ -296,7 +296,7 @@
 
     .line 97
     .line 98
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->b()J
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->b()J
 
     .line 99
     .line 100
@@ -308,7 +308,7 @@
 
     .line 103
     .line 104
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->c()Ljava/util/Map;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->c()Ljava/util/Map;
 
     .line 105
     .line 106
@@ -358,7 +358,7 @@
 
     .line 128
     .line 129
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->getAppId()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->getAppId()Ljava/lang/String;
 
     .line 130
     .line 131
@@ -662,7 +662,7 @@
 
     .line 271
     :cond_8
-    invoke-static {v1, v5, v4}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v5, v4}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 272
     .line 273
@@ -727,7 +727,7 @@
 
     .line 301
     .line 302
-    invoke-interface {p1}, Lcom/huawei/appmarket/mc2;->g()Ljava/util/Map;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pc2;->g()Ljava/util/Map;
 
     .line 303
     .line 304
@@ -811,8 +811,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 
@@ -853,11 +851,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestConfig:Lcom/huawei/appmarket/mc2;
+    iget-object v0, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestConfig:Lcom/huawei/appmarket/pc2;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/huawei/appmarket/mc2;->e()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/pc2;->e()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -1074,35 +1072,35 @@
     return-object v0
 .end method
 
-.method public final getRequestType()Lcom/huawei/appmarket/g87$a;
+.method public final getRequestType()Lcom/huawei/appmarket/l87$a;
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/nc2;->b:Lcom/huawei/appmarket/nc2;
+    sget-object v0, Lcom/huawei/appmarket/qc2;->b:Lcom/huawei/appmarket/qc2;
 
-    iget-object v1, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/nc2;
+    iget-object v1, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/qc2;
 
     if-ne v0, v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g87$a;->b:Lcom/huawei/appmarket/g87$a;
+    sget-object v0, Lcom/huawei/appmarket/l87$a;->b:Lcom/huawei/appmarket/l87$a;
 
     return-object v0
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/nc2;->c:Lcom/huawei/appmarket/nc2;
+    sget-object v0, Lcom/huawei/appmarket/qc2;->c:Lcom/huawei/appmarket/qc2;
 
     if-ne v0, v1, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/g87$a;->c:Lcom/huawei/appmarket/g87$a;
+    sget-object v0, Lcom/huawei/appmarket/l87$a;->c:Lcom/huawei/appmarket/l87$a;
 
     return-object v0
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/nc2;->d:Lcom/huawei/appmarket/nc2;
+    sget-object v0, Lcom/huawei/appmarket/qc2;->d:Lcom/huawei/appmarket/qc2;
 
     if-ne v0, v1, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/g87$a;->d:Lcom/huawei/appmarket/g87$a;
+    sget-object v0, Lcom/huawei/appmarket/l87$a;->d:Lcom/huawei/appmarket/l87$a;
 
     return-object v0
 
@@ -1115,7 +1113,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/nc2;
+    iget-object v2, p0, Lcom/huawei/flrequest/impl/bean/RequestBean;->mRequestType:Lcom/huawei/appmarket/qc2;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

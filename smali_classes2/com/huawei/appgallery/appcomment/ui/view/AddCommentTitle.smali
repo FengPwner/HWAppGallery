@@ -73,7 +73,7 @@
 
     invoke-virtual {p2, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const/4 p2, 0x0
 
@@ -133,7 +133,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/view/AddCommentTitle;->d:Landroid/widget/LinearLayout;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/view/AddCommentTitle;->d:Landroid/widget/LinearLayout;
 
@@ -141,7 +141,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/view/AddCommentTitle;->e:Landroid/widget/LinearLayout;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/view/AddCommentTitle;->e:Landroid/widget/LinearLayout;
 
@@ -333,7 +333,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setCommentContent(Ljava/lang/String;)V
@@ -384,7 +383,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/appcomment/ui/view/AddCommentTitle;->f:Landroid/widget/ImageView;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

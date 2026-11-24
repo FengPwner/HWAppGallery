@@ -900,7 +900,7 @@
 
 # virtual methods
 .method public final run()V
-    .registers 6
+    .registers 7
 
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/service/webview/js/g;->b:I
@@ -937,11 +937,11 @@
 
     .line 18
     :pswitch_0
-    check-cast v3, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$e0;
+    check-cast v3, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$f0;
 
     .line 19
     .line 20
-    iget-object v0, v3, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$e0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v0, v3, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$f0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     .line 21
     .line 22
@@ -949,67 +949,57 @@
 
     .line 23
     .line 24
-    new-instance v3, Ljava/lang/StringBuilder;
+    const-string v3, "javascript:window."
 
     .line 25
     .line 26
-    const-string v4, "javascript:window."
+    const-string v4, "(\'"
 
     .line 27
     .line 28
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v5, "\');"
 
     .line 29
     .line 30
-    .line 31
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v2, v4, v1, v5}, Lcom/huawei/appmarket/kk4;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
+    .line 31
     .line 32
     .line 33
+    move-result-object v1
+
     .line 34
-    const-string v2, "(\'"
+    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
     .line 35
     .line 36
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 37
-    .line 38
-    .line 39
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 40
-    .line 41
-    .line 42
-    const-string v1, "\');"
-
-    .line 43
-    .line 44
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 45
-    .line 46
-    .line 47
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 48
-    .line 49
-    .line 50
-    move-result-object v1
-
-    .line 51
-    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
-
-    .line 52
-    .line 53
-    .line 54
     return-void
 
-    .line 55
+    .line 38
+    nop
+
+    .line 39
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
     .line 56
     .line 57
     .line 58

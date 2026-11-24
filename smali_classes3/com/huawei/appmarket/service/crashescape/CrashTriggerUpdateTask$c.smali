@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -27,19 +27,19 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/ns1;
+.field private final b:Lcom/huawei/appmarket/qs1;
 
 .field private final c:Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
+.method public constructor <init>(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/crashescape/CrashTriggerUpdateTask$c;->b:Lcom/huawei/appmarket/ns1;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/crashescape/CrashTriggerUpdateTask$c;->b:Lcom/huawei/appmarket/qs1;
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/crashescape/CrashTriggerUpdateTask$c;->c:Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
@@ -68,7 +68,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -119,14 +119,14 @@
     const/4 v0, 0x0
 
     .line 35
-    iget-object v1, p0, Lcom/huawei/appmarket/service/crashescape/CrashTriggerUpdateTask$c;->b:Lcom/huawei/appmarket/ns1;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/crashescape/CrashTriggerUpdateTask$c;->b:Lcom/huawei/appmarket/qs1;
 
     .line 36
     .line 37
     const/4 v2, 0x1
 
     .line 38
-    invoke-virtual {v1, p1, v2, v0}, Lcom/huawei/appmarket/ns1;->C(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;ZZ)V
+    invoke-virtual {v1, p1, v2, v0}, Lcom/huawei/appmarket/qs1;->C(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;ZZ)V
 
     .line 39
     .line 40
@@ -206,5 +206,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

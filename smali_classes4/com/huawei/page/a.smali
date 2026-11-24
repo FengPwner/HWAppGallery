@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/page/a;
-.super Lcom/huawei/appmarket/sa2;
+.super Lcom/huawei/appmarket/va2;
 .source "SourceFile"
 
 
@@ -8,22 +8,22 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/uc2;Landroid/content/Context;)V
+.method public constructor <init>(Lcom/huawei/appmarket/xc2;Landroid/content/Context;)V
     .registers 4
 
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/page/a;-><init>(Lcom/huawei/appmarket/uc2;Landroid/content/Context;Lcom/huawei/page/PageInstanceManager;)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/page/a;-><init>(Lcom/huawei/appmarket/xc2;Landroid/content/Context;Lcom/huawei/page/PageInstanceManager;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/uc2;Landroid/content/Context;Lcom/huawei/page/PageInstanceManager;)V
+.method public constructor <init>(Lcom/huawei/appmarket/xc2;Landroid/content/Context;Lcom/huawei/page/PageInstanceManager;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/sa2;-><init>(Lcom/huawei/appmarket/uc2;Landroid/content/Context;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/va2;-><init>(Lcom/huawei/appmarket/xc2;Landroid/content/Context;)V
 
     iput-object p3, p0, Lcom/huawei/page/a;->f:Lcom/huawei/page/PageInstanceManager;
 

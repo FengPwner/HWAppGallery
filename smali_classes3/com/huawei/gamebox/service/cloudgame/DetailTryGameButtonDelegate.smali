@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
     .registers 4
 
     .line 1
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/p48;->d(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/v48;->d(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)Z
 
     move-result v0
 
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/p48;->c(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/v48;->c(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)I
 
     move-result v0
 
@@ -78,12 +78,12 @@
 
     if-ne v0, v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->I:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->I:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f1205a9
 
     :goto_0
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/dt1;I)Lcom/huawei/appmarket/om7;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/gt1;I)Lcom/huawei/appmarket/um7;
 
     move-result-object p1
 
@@ -98,41 +98,41 @@
 
     if-eqz p1, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->I:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->I:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f120de7
 
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/dt1;->I:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->I:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f120de6
 
     goto :goto_0
 
     :cond_2
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final c(II)Lcom/huawei/appmarket/rd1;
+.method public final c(II)Lcom/huawei/appmarket/td1;
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ek1;
+    new-instance v0, Lcom/huawei/appmarket/hk1;
 
     iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a:Landroid/app/Activity;
 
-    invoke-direct {v0, v1, p1, p2}, Lcom/huawei/appmarket/ek1;-><init>(Landroid/content/Context;II)V
+    invoke-direct {v0, v1, p1, p2}, Lcom/huawei/appmarket/hk1;-><init>(Landroid/content/Context;II)V
 
     return-object v0
 .end method
 
-.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
     .registers 5
 
     .line 1
@@ -140,7 +140,7 @@
 
     const-string p3, "onClick"
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a:Landroid/app/Activity;
 
@@ -150,12 +150,12 @@
 
     const-string v0, "1"
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/p48;->b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;Ljava/lang/String;)V
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/v48;->b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
     .registers 5
 
     .line 1
@@ -163,7 +163,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/p48;->c(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/v48;->c(Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;)I
 
     move-result p2
 
@@ -221,13 +221,13 @@
     goto :goto_0
 .end method
 
-.method public final f()Lcom/huawei/appmarket/rd1;
+.method public final f()Lcom/huawei/appmarket/td1;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ek1;
+    new-instance v0, Lcom/huawei/appmarket/hk1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ek1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hk1;-><init>()V
 
     return-object v0
 .end method

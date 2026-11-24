@@ -97,7 +97,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/agd/api/ServiceInfo;->formInfos:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -222,13 +222,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v2, "ServiceInfo"
 
     const-string v3, "ServiceInfo toString exception"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;

@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/mb3;
-.super Lcom/huawei/appmarket/gy4;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
@@ -25,11 +25,11 @@
     .registers 3
 
     .line 1
-    const-string v0, "HC2"
+    const-string v0, "HC"
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
 
     return-void
 .end method

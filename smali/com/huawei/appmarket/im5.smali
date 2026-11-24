@@ -9,10 +9,12 @@
 # instance fields
 .field public final synthetic a:I
 
+.field public final synthetic b:Ljava/lang/Object;
+
 
 # direct methods
-.method public synthetic constructor <init>(I)V
-    .registers 2
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -20,13 +22,15 @@
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/huawei/appmarket/im5;->a:I
+    iput p2, p0, Lcom/huawei/appmarket/im5;->a:I
 
     .line 5
     .line 6
-    return-void
+    iput-object p1, p0, Lcom/huawei/appmarket/im5;->b:Ljava/lang/Object;
+
     .line 7
     .line 8
+    return-void
     .line 9
     .line 10
     .line 11
@@ -114,266 +118,96 @@
     .line 93
     .line 94
     .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
 .end method
 
 
 # virtual methods
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 3
+    .registers 4
 
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/im5;->a:I
 
+    iget-object v1, p0, Lcom/huawei/appmarket/im5;->b:Ljava/lang/Object;
+
     packed-switch v0, :pswitch_data_0
 
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
+    check-cast v1, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;
 
-    check-cast p1, Ljava/lang/Boolean;
+    invoke-static {v1, p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->h(Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+    move-result-object p1
 
-    move-result p1
-
-    invoke-direct {v0, p1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
-
-    return-object v0
+    return-object p1
 
     :pswitch_0
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;->k(Ljava/lang/Object;)Ljava/lang/Object;
+    check-cast v1, Ljava/lang/reflect/Type;
+
+    invoke-static {p1, v1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->l(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
     :pswitch_1
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;->s(Ljava/lang/Object;)Ljava/lang/Object;
+    check-cast v1, Ljava/lang/reflect/Method;
 
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_2
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;->h(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_3
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplMap;->a(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_4
-    check-cast p1, Ljava/util/Map;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_5
-    check-cast p1, Ljava/util/SortedMap;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedSortedMap(Ljava/util/SortedMap;)Ljava/util/SortedMap;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_6
-    check-cast p1, Ljava/util/Map;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_7
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplListStr;->b(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_8
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplListStr;->a(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_9
-    check-cast p1, Ljava/util/Set;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_a
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_b
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableCollection(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_c
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->f(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_d
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->k(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_e
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->j(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_f
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->i(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_10
-    check-cast p1, Ljava/util/Set;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_11
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_12
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableCollection(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_13
-    check-cast p1, Ljava/util/Set;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedSet(Ljava/util/Set;)Ljava/util/Set;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_14
-    check-cast p1, Ljava/util/Collection;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedCollection(Ljava/util/Collection;)Ljava/util/Collection;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_15
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_16
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->a(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_17
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->e(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_18
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->d(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_19
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->b(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_1a
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->c(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_1b
-    invoke-static {p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->g(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_1c
-    check-cast p1, Ljava/util/SortedSet;
-
-    invoke-static {p1}, Ljava/util/Collections;->synchronizedSortedSet(Ljava/util/SortedSet;)Ljava/util/SortedSet;
+    invoke-static {p1, v1}, Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;->b(Ljava/lang/Object;Ljava/lang/reflect/Method;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -381,33 +215,6 @@
 
     :pswitch_data_0
     .packed-switch 0x0
-        :pswitch_1c
-        :pswitch_1b
-        :pswitch_1a
-        :pswitch_19
-        :pswitch_18
-        :pswitch_17
-        :pswitch_16
-        :pswitch_15
-        :pswitch_14
-        :pswitch_13
-        :pswitch_12
-        :pswitch_11
-        :pswitch_10
-        :pswitch_f
-        :pswitch_e
-        :pswitch_d
-        :pswitch_c
-        :pswitch_b
-        :pswitch_a
-        :pswitch_9
-        :pswitch_8
-        :pswitch_7
-        :pswitch_6
-        :pswitch_5
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
         :pswitch_1
         :pswitch_0
     .end packed-switch

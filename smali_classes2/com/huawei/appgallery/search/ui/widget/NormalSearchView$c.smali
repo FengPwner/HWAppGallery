@@ -21,5 +21,5 @@
 .method public abstract Z(Ljava/lang/String;)V
 .end method
 
-.method public abstract w2(Lcom/huawei/appmarket/fr4;)V
+.method public abstract w2(Lcom/huawei/appmarket/ir4;)V
 .end method

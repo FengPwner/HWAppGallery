@@ -43,7 +43,7 @@
 .end method
 
 .method public c(I)V
-    .registers 5
+    .registers 6
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/o30;->c:Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;
@@ -98,7 +98,7 @@
     move-result-object p1
 
     .line 27
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -182,36 +182,46 @@
     move-result-object v0
 
     .line 71
-    const v1, 0x7f12031f
+    const-string v1, "_constants"
 
     .line 72
     .line 73
-    .line 74
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    const-string v2, "_leagcy"
 
+    .line 74
     .line 75
+    const-string v3, "1"
+
     .line 76
     .line 77
-    move-result-object v0
+    invoke-static {v1, p1, v2, v3}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     .line 78
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 79
     .line 80
+    move-result-object p1
+
     .line 81
-    :cond_0
-    return-void
+    const v1, 0x7f12031f
+
     .line 82
     .line 83
     .line 84
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
     .line 85
     .line 86
     .line 87
+    move-result-object v0
+
     .line 88
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
     .line 89
     .line 90
     .line 91
+    :cond_0
+    return-void
     .line 92
     .line 93
     .line 94
@@ -235,5 +245,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

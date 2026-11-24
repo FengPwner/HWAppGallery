@@ -63,7 +63,7 @@
 
 
 # instance fields
-.field private diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+.field private diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
 .field private errorId:I
 
@@ -89,7 +89,7 @@
 
 .field private onlyRetrieveFromCache:Z
 
-.field private options:Lcom/huawei/appmarket/tr5;
+.field private options:Lcom/huawei/appmarket/vr5;
 
 .field private overrideHeight:I
 
@@ -99,7 +99,7 @@
 
 .field private placeholderId:I
 
-.field private priority:Lcom/huawei/appmarket/s66;
+.field private priority:Lcom/huawei/appmarket/u66;
 
 .field private resourceClass:Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
@@ -110,7 +110,7 @@
     .end annotation
 .end field
 
-.field private signature:Lcom/huawei/appmarket/sq4;
+.field private signature:Lcom/huawei/appmarket/vq4;
 
 .field private sizeMultiplier:F
 
@@ -122,7 +122,7 @@
             "Ljava/util/Map<",
             "Ljava/lang/Class<",
             "*>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "*>;>;"
         }
     .end annotation
@@ -143,13 +143,13 @@
 
     iput v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->sizeMultiplier:F
 
-    sget-object v0, Lcom/huawei/appmarket/dp1;->d:Lcom/huawei/appmarket/dp1;
+    sget-object v0, Lcom/huawei/appmarket/gp1;->d:Lcom/huawei/appmarket/gp1;
 
-    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
-    sget-object v0, Lcom/huawei/appmarket/s66;->d:Lcom/huawei/appmarket/s66;
+    sget-object v0, Lcom/huawei/appmarket/u66;->d:Lcom/huawei/appmarket/u66;
 
-    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     const/4 v0, 0x1
 
@@ -161,23 +161,23 @@
 
     iput v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->overrideWidth:I
 
-    invoke-static {}, Lcom/huawei/appmarket/p02;->c()Lcom/huawei/appmarket/p02;
+    invoke-static {}, Lcom/huawei/appmarket/t02;->c()Lcom/huawei/appmarket/t02;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iput-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
     iput-boolean v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->isTransformationAllowed:Z
 
-    new-instance v1, Lcom/huawei/appmarket/tr5;
+    new-instance v1, Lcom/huawei/appmarket/vr5;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/tr5;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/vr5;-><init>()V
 
-    iput-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iput-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    new-instance v1, Lcom/huawei/appmarket/zg0;
+    new-instance v1, Lcom/huawei/appmarket/ah0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/zg0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/ah0;-><init>()V
 
     iput-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->transformations:Ljava/util/Map;
 
@@ -222,13 +222,13 @@
     return p0
 .end method
 
-.method private optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method private optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -237,20 +237,20 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method private scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -259,20 +259,20 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method private scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;Z)TT;"
         }
@@ -281,14 +281,14 @@
     .line 2
     if-eqz p3, :cond_0
 
-    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -393,9 +393,9 @@
 
     if-eqz v0, :cond_4
 
-    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
-    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
     :cond_4
     iget v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
@@ -408,9 +408,9 @@
 
     if-eqz v0, :cond_5
 
-    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
-    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     :cond_5
     iget v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
@@ -553,9 +553,9 @@
 
     if-eqz v0, :cond_c
 
-    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iget-object v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
-    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iput-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
     :cond_c
     iget v0, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
@@ -731,11 +731,11 @@
 
     iput v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    iget-object p1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object p1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tr5;->d(Lcom/huawei/appmarket/tr5;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/vr5;->d(Lcom/huawei/appmarket/vr5;)V
 
     invoke-virtual {p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->selfOrThrowIfLocked()Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -794,11 +794,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->c:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/mm0;
+    new-instance v1, Lcom/huawei/appmarket/nm0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/mm0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/nm0;-><init>()V
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -815,11 +815,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->b:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/om0;
+    new-instance v1, Lcom/huawei/appmarket/pm0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/om0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/pm0;-><init>()V
 
-    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -836,11 +836,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->b:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/iq0;
+    new-instance v1, Lcom/huawei/appmarket/jq0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/iq0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/jq0;-><init>()V
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -863,19 +863,19 @@
 
     check-cast v0, Lcom/bumptech/glide/request/BaseRequestOptions;
 
-    new-instance v1, Lcom/huawei/appmarket/tr5;
+    new-instance v1, Lcom/huawei/appmarket/vr5;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/tr5;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/vr5;-><init>()V
 
-    iput-object v1, v0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iput-object v1, v0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    iget-object v2, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v2, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/tr5;->d(Lcom/huawei/appmarket/tr5;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/vr5;->d(Lcom/huawei/appmarket/vr5;)V
 
-    new-instance v1, Lcom/huawei/appmarket/zg0;
+    new-instance v1, Lcom/huawei/appmarket/ah0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/zg0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/ah0;-><init>()V
 
     iput-object v1, v0, Lcom/bumptech/glide/request/BaseRequestOptions;->transformations:Ljava/util/Map;
 
@@ -1073,23 +1073,23 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/pr5;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/dp1;",
+            "Lcom/huawei/appmarket/gp1;",
             ")TT;"
         }
     .end annotation
@@ -1111,7 +1111,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 10
     .line 11
@@ -1127,7 +1127,7 @@
 
     .line 15
     .line 16
-    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
     .line 17
     .line 18
@@ -1238,11 +1238,11 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/qz2;->b:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/huawei/appmarket/tz2;->b:Lcom/huawei/appmarket/pr5;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -1316,7 +1316,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/pr5;
 
     .line 2
     .line 3
@@ -1324,7 +1324,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 6
     .line 7
@@ -1441,7 +1441,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fa0;->c:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/huawei/appmarket/fa0;->c:Lcom/huawei/appmarket/pr5;
 
     .line 2
     .line 3
@@ -1449,7 +1449,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 6
     .line 7
@@ -1563,13 +1563,13 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/fa0;->b:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/huawei/appmarket/fa0;->b:Lcom/huawei/appmarket/pr5;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -1791,11 +1791,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->a:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/bl2;
+    new-instance v1, Lcom/huawei/appmarket/dl2;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/bl2;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/dl2;-><init>()V
 
-    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->scaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -1812,17 +1812,17 @@
         }
     .end annotation
 
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
-    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/qz2;->a:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/huawei/appmarket/tz2;->a:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, v1, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -1837,24 +1837,24 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/d;->d:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/d;->d:Lcom/huawei/appmarket/pr5;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final getDiskCacheStrategy()Lcom/huawei/appmarket/dp1;
+.method public final getDiskCacheStrategy()Lcom/huawei/appmarket/gp1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
     return-object v0
 .end method
@@ -1899,11 +1899,11 @@
     return v0
 .end method
 
-.method public final getOptions()Lcom/huawei/appmarket/tr5;
+.method public final getOptions()Lcom/huawei/appmarket/vr5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
     return-object v0
 .end method
@@ -1940,11 +1940,11 @@
     return v0
 .end method
 
-.method public final getPriority()Lcom/huawei/appmarket/s66;
+.method public final getPriority()Lcom/huawei/appmarket/u66;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     return-object v0
 .end method
@@ -1964,11 +1964,11 @@
     return-object v0
 .end method
 
-.method public final getSignature()Lcom/huawei/appmarket/sq4;
+.method public final getSignature()Lcom/huawei/appmarket/vq4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
     return-object v0
 .end method
@@ -1997,7 +1997,7 @@
             "Ljava/util/Map<",
             "Ljava/lang/Class<",
             "*>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "*>;>;"
         }
     .end annotation
@@ -2035,7 +2035,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->g(FI)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->g(FI)I
 
     .line 6
     .line 7
@@ -2047,7 +2047,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ie8;->h(II)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ne8;->h(II)I
 
     .line 12
     .line 13
@@ -2059,7 +2059,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 18
     .line 19
@@ -2071,7 +2071,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ie8;->h(II)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ne8;->h(II)I
 
     .line 24
     .line 25
@@ -2083,7 +2083,7 @@
 
     .line 28
     .line 29
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 30
     .line 31
@@ -2095,7 +2095,7 @@
 
     .line 34
     .line 35
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ie8;->h(II)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ne8;->h(II)I
 
     .line 36
     .line 37
@@ -2107,7 +2107,7 @@
 
     .line 40
     .line 41
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 42
     .line 43
@@ -2119,7 +2119,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->j(IZ)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->j(IZ)I
 
     .line 48
     .line 49
@@ -2131,7 +2131,7 @@
 
     .line 52
     .line 53
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ie8;->h(II)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ne8;->h(II)I
 
     .line 54
     .line 55
@@ -2143,7 +2143,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ie8;->h(II)I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ne8;->h(II)I
 
     .line 60
     .line 61
@@ -2155,7 +2155,7 @@
 
     .line 64
     .line 65
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->j(IZ)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->j(IZ)I
 
     .line 66
     .line 67
@@ -2167,7 +2167,7 @@
 
     .line 70
     .line 71
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->j(IZ)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->j(IZ)I
 
     .line 72
     .line 73
@@ -2179,7 +2179,7 @@
 
     .line 76
     .line 77
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->j(IZ)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->j(IZ)I
 
     .line 78
     .line 79
@@ -2191,7 +2191,7 @@
 
     .line 82
     .line 83
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->j(IZ)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->j(IZ)I
 
     .line 84
     .line 85
@@ -2199,11 +2199,11 @@
     move-result v0
 
     .line 87
-    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
     .line 88
     .line 89
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 90
     .line 91
@@ -2211,11 +2211,11 @@
     move-result v0
 
     .line 93
-    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     .line 94
     .line 95
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 96
     .line 97
@@ -2223,11 +2223,11 @@
     move-result v0
 
     .line 99
-    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
     .line 100
     .line 101
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 102
     .line 103
@@ -2239,7 +2239,7 @@
 
     .line 106
     .line 107
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 108
     .line 109
@@ -2251,7 +2251,7 @@
 
     .line 112
     .line 113
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 114
     .line 115
@@ -2259,11 +2259,11 @@
     move-result v0
 
     .line 117
-    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iget-object v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
     .line 118
     .line 119
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 120
     .line 121
@@ -2275,7 +2275,7 @@
 
     .line 124
     .line 125
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->i(ILjava/lang/Object;)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->i(ILjava/lang/Object;)I
 
     .line 126
     .line 127
@@ -2290,6 +2290,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final isAutoCloneEnabled()Z
@@ -2342,7 +2343,7 @@
 
     iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->errorPlaceholder:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2358,7 +2359,7 @@
 
     iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholderDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2374,7 +2375,7 @@
 
     iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->fallbackDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2422,9 +2423,9 @@
 
     if-ne v0, v1, :cond_0
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
-    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/dp1;
+    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy:Lcom/huawei/appmarket/gp1;
 
     invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -2432,17 +2433,17 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
-    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     if-ne v0, v1, :cond_0
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2468,11 +2469,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
-    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iget-object v1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2482,7 +2483,7 @@
 
     iget-object p1, p1, Lcom/bumptech/glide/request/BaseRequestOptions;->theme:Landroid/content/res/Resources$Theme;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ie8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ne8;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2582,7 +2583,7 @@
 
     iget v1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->overrideHeight:I
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ie8;->k(II)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ne8;->k(II)Z
 
     move-result v0
 
@@ -2658,11 +2659,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->c:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/mm0;
+    new-instance v1, Lcom/huawei/appmarket/nm0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/mm0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/nm0;-><init>()V
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -2679,11 +2680,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->b:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/om0;
+    new-instance v1, Lcom/huawei/appmarket/pm0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/om0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/pm0;-><init>()V
 
-    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -2700,11 +2701,11 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->c:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/iq0;
+    new-instance v1, Lcom/huawei/appmarket/jq0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/iq0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/jq0;-><init>()V
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
@@ -2721,24 +2722,24 @@
 
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->a:Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    new-instance v1, Lcom/huawei/appmarket/bl2;
+    new-instance v1, Lcom/huawei/appmarket/dl2;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/bl2;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/dl2;-><init>()V
 
-    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-direct {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalScaleOnlyTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method final optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method final optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -2753,7 +2754,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->optionalTransform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -2764,19 +2765,19 @@
 
     const/4 p1, 0x0
 
-    invoke-virtual {p0, p2, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p2, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public optionalTransform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public optionalTransform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -2785,14 +2786,14 @@
     .line 2
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public optionalTransform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public optionalTransform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2801,7 +2802,7 @@
             ">(",
             "Ljava/lang/Class<",
             "TY;>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "TY;>;)TT;"
         }
     .end annotation
@@ -2809,7 +2810,7 @@
     .line 3
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -2965,12 +2966,12 @@
     return-object p1
 .end method
 
-.method public priority(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public priority(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/s66;",
+            "Lcom/huawei/appmarket/u66;",
             ")TT;"
         }
     .end annotation
@@ -2992,7 +2993,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/s66;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->priority(Lcom/huawei/appmarket/u66;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 10
     .line 11
@@ -3008,7 +3009,7 @@
 
     .line 15
     .line 16
-    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/s66;
+    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->priority:Lcom/huawei/appmarket/u66;
 
     .line 17
     .line 18
@@ -3111,12 +3112,12 @@
     .line 95
 .end method
 
-.method removeOption(Lcom/huawei/appmarket/nr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method removeOption(Lcom/huawei/appmarket/pr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "*>;)TT;"
         }
     .end annotation
@@ -3130,16 +3131,16 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->removeOption(Lcom/huawei/appmarket/nr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->removeOption(Lcom/huawei/appmarket/pr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tr5;->e(Lcom/huawei/appmarket/nr5;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/vr5;->e(Lcom/huawei/appmarket/pr5;)V
 
     invoke-virtual {p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->selfOrThrowIfLocked()Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -3176,14 +3177,14 @@
     throw v0
 .end method
 
-.method public set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Y:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "TY;>;TY;)TT;"
         }
     .end annotation
@@ -3197,20 +3198,20 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
-    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/tr5;
+    iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->options:Lcom/huawei/appmarket/vr5;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/tr5;->f(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/vr5;->f(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)V
 
     invoke-virtual {p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->selfOrThrowIfLocked()Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -3219,12 +3220,12 @@
     return-object p1
 .end method
 
-.method public signature(Lcom/huawei/appmarket/sq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public signature(Lcom/huawei/appmarket/vq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             ")TT;"
         }
     .end annotation
@@ -3246,7 +3247,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->signature(Lcom/huawei/appmarket/sq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->signature(Lcom/huawei/appmarket/vq4;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 10
     .line 11
@@ -3262,7 +3263,7 @@
 
     .line 15
     .line 16
-    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/sq4;
+    iput-object p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->signature:Lcom/huawei/appmarket/vq4;
 
     .line 17
     .line 18
@@ -3503,9 +3504,9 @@
 
     iput v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
 
-    sget-object v0, Lcom/bumptech/glide/load/resource/drawable/ResourceDrawableDecoder;->b:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/drawable/ResourceDrawableDecoder;->b:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -3520,9 +3521,9 @@
 
     iput p1, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->fields:I
 
-    sget-object p1, Lcom/bumptech/glide/load/resource/drawable/ResourceDrawableDecoder;->b:Lcom/huawei/appmarket/nr5;
+    sget-object p1, Lcom/bumptech/glide/load/resource/drawable/ResourceDrawableDecoder;->b:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->removeOption(Lcom/huawei/appmarket/nr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->removeOption(Lcom/huawei/appmarket/pr5;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -3537,26 +3538,26 @@
         }
     .end annotation
 
-    sget-object v0, Lcom/huawei/appmarket/bd3;->b:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/huawei/appmarket/dd3;->b:Lcom/huawei/appmarket/pr5;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/nr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->set(Lcom/huawei/appmarket/pr5;Ljava/lang/Object;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method final transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method final transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -3571,7 +3572,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -3580,19 +3581,19 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->downsample(Lcom/bumptech/glide/load/resource/bitmap/a;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
-    invoke-virtual {p0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -3601,19 +3602,19 @@
     .line 2
     const/4 v0, 0x1
 
-    invoke-virtual {p0, p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;Z)TT;"
         }
@@ -3628,36 +3629,36 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/sw1;
+    new-instance v0, Lcom/huawei/appmarket/ww1;
 
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/sw1;-><init>(Lcom/huawei/appmarket/v28;Z)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/ww1;-><init>(Lcom/huawei/appmarket/b38;Z)V
 
     const-class v1, Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, v1, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v1, p1, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     const-class v1, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p0, v1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     const-class v1, Landroid/graphics/drawable/BitmapDrawable;
 
-    invoke-virtual {p0, v1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
-    new-instance v0, Lcom/huawei/appmarket/kz2;
+    new-instance v0, Lcom/huawei/appmarket/nz2;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/kz2;-><init>(Lcom/huawei/appmarket/v28;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/nz2;-><init>(Lcom/huawei/appmarket/b38;)V
 
-    const-class p1, Lcom/huawei/appmarket/gz2;
+    const-class p1, Lcom/huawei/appmarket/jz2;
 
-    invoke-virtual {p0, p1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, v0, p2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     invoke-virtual {p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->selfOrThrowIfLocked()Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -3666,7 +3667,7 @@
     return-object p1
 .end method
 
-.method public transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3675,7 +3676,7 @@
             ">(",
             "Ljava/lang/Class<",
             "TY;>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "TY;>;)TT;"
         }
     .end annotation
@@ -3683,14 +3684,14 @@
     .line 4
     const/4 v0, 0x1
 
-    invoke-virtual {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1, p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3699,7 +3700,7 @@
             ">(",
             "Ljava/lang/Class<",
             "TY;>;",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "TY;>;Z)TT;"
         }
     .end annotation
@@ -3713,16 +3714,16 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v0, p1, p2, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Ljava/lang/Class;Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/bumptech/glide/request/BaseRequestOptions;->transformations:Ljava/util/Map;
 
@@ -3762,12 +3763,12 @@
     return-object p1
 .end method
 
-.method public varargs transform([Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public varargs transform([Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -3780,11 +3781,11 @@
 
     if-le v0, v1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/dd5;
+    new-instance v0, Lcom/huawei/appmarket/gd5;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/dd5;-><init>([Lcom/huawei/appmarket/v28;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/gd5;-><init>([Lcom/huawei/appmarket/b38;)V
 
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -3799,7 +3800,7 @@
 
     aget-object p1, p1, v0
 
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -3813,12 +3814,12 @@
     return-object p1
 .end method
 
-.method public varargs transforms([Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+.method public varargs transforms([Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
-            "Lcom/huawei/appmarket/v28<",
+            "Lcom/huawei/appmarket/b38<",
             "Landroid/graphics/Bitmap;",
             ">;)TT;"
         }
@@ -3828,13 +3829,13 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/dd5;
+    new-instance v0, Lcom/huawei/appmarket/gd5;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/dd5;-><init>([Lcom/huawei/appmarket/v28;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/gd5;-><init>([Lcom/huawei/appmarket/b38;)V
 
     const/4 p1, 0x1
 
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;Z)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 

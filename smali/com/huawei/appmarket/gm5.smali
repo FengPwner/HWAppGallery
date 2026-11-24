@@ -3,219 +3,92 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/alibaba/fastjson2/function/Function;
+.implements Lcom/alibaba/fastjson2/function/Consumer;
 
 
 # instance fields
-.field public final synthetic a:I
+.field public final synthetic b:Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;
 
-.field public final synthetic b:Ljava/lang/Object;
+.field public final synthetic c:Lcom/alibaba/fastjson2/codec/FieldInfo;
+
+.field public final synthetic d:Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;
+
+.field public final synthetic e:Ljava/lang/Class;
+
+.field public final synthetic f:Ljava/lang/String;
+
+.field public final synthetic g:Ljava/lang/Class;
+
+.field public final synthetic h:Lcom/alibaba/fastjson2/codec/BeanInfo;
+
+.field public final synthetic i:I
+
+.field public final synthetic j:Ljava/util/Map;
+
+.field public final synthetic k:Ljava/lang/reflect/Type;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/Object;I)V
-    .registers 3
+.method public synthetic constructor <init>(Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/codec/BeanInfo;ILjava/util/LinkedHashMap;Ljava/lang/reflect/Type;)V
+    .registers 11
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
-    iput p2, p0, Lcom/huawei/appmarket/gm5;->a:I
+    iput-object p1, p0, Lcom/huawei/appmarket/gm5;->b:Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;
 
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/gm5;->b:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/huawei/appmarket/gm5;->c:Lcom/alibaba/fastjson2/codec/FieldInfo;
 
-    .line 7
-    .line 8
+    iput-object p3, p0, Lcom/huawei/appmarket/gm5;->d:Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;
+
+    iput-object p4, p0, Lcom/huawei/appmarket/gm5;->e:Ljava/lang/Class;
+
+    iput-object p5, p0, Lcom/huawei/appmarket/gm5;->f:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/huawei/appmarket/gm5;->g:Ljava/lang/Class;
+
+    iput-object p7, p0, Lcom/huawei/appmarket/gm5;->h:Lcom/alibaba/fastjson2/codec/BeanInfo;
+
+    iput p8, p0, Lcom/huawei/appmarket/gm5;->i:I
+
+    iput-object p9, p0, Lcom/huawei/appmarket/gm5;->j:Ljava/util/Map;
+
+    iput-object p10, p0, Lcom/huawei/appmarket/gm5;->k:Ljava/lang/reflect/Type;
+
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 4
+.method public final accept(Ljava/lang/Object;)V
+    .registers 13
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/gm5;->a:I
+    iget-object v0, p0, Lcom/huawei/appmarket/gm5;->b:Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/gm5;->b:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/huawei/appmarket/gm5;->c:Lcom/alibaba/fastjson2/codec/FieldInfo;
 
-    packed-switch v0, :pswitch_data_0
+    iget-object v2, p0, Lcom/huawei/appmarket/gm5;->d:Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;
 
-    check-cast v1, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;
+    iget-object v3, p0, Lcom/huawei/appmarket/gm5;->e:Ljava/lang/Class;
 
-    invoke-static {v1, p1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->h(Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;Ljava/lang/Object;)Ljava/lang/Object;
+    iget-object v4, p0, Lcom/huawei/appmarket/gm5;->f:Ljava/lang/String;
 
-    move-result-object p1
+    iget-object v5, p0, Lcom/huawei/appmarket/gm5;->g:Ljava/lang/Class;
 
-    return-object p1
+    iget-object v6, p0, Lcom/huawei/appmarket/gm5;->h:Lcom/alibaba/fastjson2/codec/BeanInfo;
 
-    :pswitch_0
-    check-cast v1, Ljava/lang/reflect/Type;
+    iget v7, p0, Lcom/huawei/appmarket/gm5;->i:I
 
-    invoke-static {p1, v1}, Lcom/alibaba/fastjson2/reader/ObjectReaderImplList;->l(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    iget-object v8, p0, Lcom/huawei/appmarket/gm5;->j:Ljava/util/Map;
 
-    move-result-object p1
+    iget-object v9, p0, Lcom/huawei/appmarket/gm5;->k:Ljava/lang/reflect/Type;
 
-    return-object p1
+    move-object v10, p1
 
-    :pswitch_1
-    check-cast v1, Ljava/lang/reflect/Method;
+    check-cast v10, Ljava/lang/reflect/Method;
 
-    invoke-static {p1, v1}, Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;->b(Ljava/lang/Object;Ljava/lang/reflect/Method;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v10}, Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;->a(Lcom/alibaba/fastjson2/reader/ObjectReaderCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Lcom/alibaba/fastjson2/reader/ObjectReaderProvider;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Lcom/alibaba/fastjson2/codec/BeanInfo;ILjava/util/Map;Ljava/lang/reflect/Type;Ljava/lang/reflect/Method;)V
 
-    move-result-object p1
-
-    return-object p1
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
+    return-void
 .end method

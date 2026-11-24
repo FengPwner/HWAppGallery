@@ -16,7 +16,7 @@
 # instance fields
 .field private q:Lcom/huawei/uikit/phone/hwrecyclerview/widget/HwRecyclerView;
 
-.field private r:Lcom/huawei/appmarket/db5;
+.field private r:Lcom/huawei/appmarket/gb5;
 
 .field private s:Ljava/util/ArrayList;
 
@@ -74,7 +74,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 24
     .line 25
@@ -118,7 +118,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 48
     .line 49
@@ -136,7 +136,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 58
     .line 59
@@ -180,7 +180,7 @@
     move-result-object v0
 
     .line 79
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 80
     .line 81
@@ -210,7 +210,7 @@
     .line 93
     .line 94
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/db5;
+    new-instance p1, Lcom/huawei/appmarket/gb5;
 
     .line 95
     .line 96
@@ -218,12 +218,12 @@
 
     .line 97
     .line 98
-    invoke-direct {p1, v0, p0}, Lcom/huawei/appmarket/db5;-><init>(Ljava/util/List;Landroid/content/Context;)V
+    invoke-direct {p1, v0, p0}, Lcom/huawei/appmarket/gb5;-><init>(Ljava/util/List;Landroid/content/Context;)V
 
     .line 99
     .line 100
     .line 101
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/activity/MoreChannelsActivity;->r:Lcom/huawei/appmarket/db5;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/activity/MoreChannelsActivity;->r:Lcom/huawei/appmarket/gb5;
 
     .line 102
     .line 103
@@ -249,7 +249,7 @@
 
     .line 114
     .line 115
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/activity/MoreChannelsActivity;->r:Lcom/huawei/appmarket/db5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/activity/MoreChannelsActivity;->r:Lcom/huawei/appmarket/gb5;
 
     .line 116
     .line 117
@@ -489,6 +489,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

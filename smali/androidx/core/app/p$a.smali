@@ -59,7 +59,7 @@
 
     const-string v2, "mParams is invalid."
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     monitor-exit v0
     :try_end_0
@@ -76,7 +76,7 @@
     :try_start_1
     iget-object v2, p0, Landroidx/core/app/p$a;->a:Landroid/app/job/JobWorkItem;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/nm4;->w(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/qm4;->w(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -90,7 +90,7 @@
     const-string v2, "complete error."
 
     :goto_0
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -119,7 +119,7 @@
 
     iget-object v0, p0, Landroidx/core/app/p$a;->a:Landroid/app/job/JobWorkItem;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/qm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     move-result-object v0
 

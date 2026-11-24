@@ -412,14 +412,14 @@
 
 
 # virtual methods
-.method public consumeOwnedPurchase(Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;)Lcom/huawei/appmarket/hv7;
+.method public consumeOwnedPurchase(Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseResult;",
             ">;"
         }
@@ -452,21 +452,21 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/c;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/ConsumeOwnedPurchaseReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public createPurchaseIntent(Lcom/huawei/hms/iap/entity/PurchaseIntentReq;)Lcom/huawei/appmarket/hv7;
+.method public createPurchaseIntent(Lcom/huawei/hms/iap/entity/PurchaseIntentReq;)Lcom/huawei/appmarket/nv7;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentResult;",
             ">;"
         }
@@ -574,21 +574,21 @@
 
     invoke-direct {v2, v3, p1, v1, v0}, Lcom/huawei/hms/iap/n;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/PurchaseIntentReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public createPurchaseIntentWithPrice(Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;)Lcom/huawei/appmarket/hv7;
+.method public createPurchaseIntentWithPrice(Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/PurchaseIntentResult;",
             ">;"
         }
@@ -613,9 +613,9 @@
 
     if-nez v0, :cond_0
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v0, Lcom/huawei/hms/support/api/client/Status;
 
@@ -629,9 +629,9 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -690,7 +690,7 @@
 
     invoke-direct {v3, v2, p1, v1, v0}, Lcom/huawei/hms/iap/o;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/PurchaseIntentWithPriceReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -713,12 +713,12 @@
     return-void
 .end method
 
-.method public isEnvReady()Lcom/huawei/appmarket/hv7;
+.method public isEnvReady()Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -727,21 +727,21 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/iap/f;->isEnvReady(Z)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/iap/f;->isEnvReady(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public isEnvReady(Lcom/huawei/hms/iap/entity/IsEnvReadyReq;)Lcom/huawei/appmarket/hv7;
+.method public isEnvReady(Lcom/huawei/hms/iap/entity/IsEnvReadyReq;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -757,12 +757,12 @@
     throw p1
 .end method
 
-.method public isEnvReady(Z)Lcom/huawei/appmarket/hv7;
+.method public isEnvReady(Z)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsEnvReadyResult;",
             ">;"
         }
@@ -785,21 +785,21 @@
 
     invoke-direct {v1, v2, v0, p1}, Lcom/huawei/hms/iap/j;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public isSandboxActivated(Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;)Lcom/huawei/appmarket/hv7;
+.method public isSandboxActivated(Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/IsSandboxActivatedReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/IsSandboxActivatedResult;",
             ">;"
         }
@@ -830,21 +830,21 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/k;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public obtainOwnedPurchaseRecord(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainOwnedPurchaseRecord(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;",
             ">;"
         }
@@ -877,21 +877,21 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/l;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainOwnedPurchases(Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;",
             ">;"
         }
@@ -924,21 +924,21 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/l;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/OwnedPurchasesReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public obtainProductInfo(Lcom/huawei/hms/iap/entity/ProductInfoReq;)Lcom/huawei/appmarket/hv7;
+.method public obtainProductInfo(Lcom/huawei/hms/iap/entity/ProductInfoReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/ProductInfoReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ProductInfoResult;",
             ">;"
         }
@@ -975,7 +975,7 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/m;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -1124,12 +1124,12 @@
     return-object v0
 .end method
 
-.method public scanRedeemCode()Lcom/huawei/appmarket/hv7;
+.method public scanRedeemCode()Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/ScanRedeemCodeResult;",
             ">;"
         }
@@ -1152,21 +1152,21 @@
 
     invoke-direct {v1, v2, v0}, Lcom/huawei/hms/iap/q;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/hv7;
+.method public startIapActivity(Lcom/huawei/hms/iap/entity/StartIapActivityReq;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/iap/entity/StartIapActivityReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/iap/entity/StartIapActivityResult;",
             ">;"
         }
@@ -1193,7 +1193,7 @@
 
     invoke-direct {v1, v2, p1, v3, v0}, Lcom/huawei/hms/iap/r;-><init>(Ljava/lang/String;Lcom/huawei/hms/iap/entity/StartIapActivityReq;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

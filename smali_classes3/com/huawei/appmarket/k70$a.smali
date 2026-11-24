@@ -28,13 +28,13 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/huawei/appmarket/yq3;
+.field private final c:Lcom/huawei/appmarket/ar3;
 
 .field private final d:Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
     .registers 5
 
     .line 1
@@ -48,7 +48,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/k70$a;->d:Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/yq3;
+    iput-object p3, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/ar3;
 
     return-void
 .end method
@@ -61,7 +61,7 @@
     .line 1
     instance-of v0, p2, Lcom/huawei/appmarket/service/reserve/game/bean/ReserveResponse;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/yq3;
+    iget-object v1, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/ar3;
 
     if-eqz v0, :cond_1
 
@@ -93,7 +93,7 @@
 
     const-string p1, "reserveContext is null!"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
 
     return-void
 
@@ -106,15 +106,15 @@
 
     check-cast v3, Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/ot6;->c()Lcom/huawei/appmarket/ot6;
+    invoke-static {}, Lcom/huawei/appmarket/st6;->c()Lcom/huawei/appmarket/st6;
 
     move-result-object v2
 
     iget-object v6, p0, Lcom/huawei/appmarket/k70$a;->d:Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;
 
-    iget-object v7, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/yq3;
+    iget-object v7, p0, Lcom/huawei/appmarket/k70$a;->c:Lcom/huawei/appmarket/ar3;
 
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/ot6;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/bean/BatchReserveRequest;Lcom/huawei/appmarket/service/reserve/game/bean/ReserveResponse;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/st6;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/bean/BatchReserveRequest;Lcom/huawei/appmarket/service/reserve/game/bean/ReserveResponse;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
 
     goto :goto_0
 
@@ -139,16 +139,16 @@
 
     const-string v2, "BatchReserveProcessor"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
 
     :goto_0
     if-eqz v1, :cond_2
 
-    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/yq3;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/ar3;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     :cond_2
     return-void

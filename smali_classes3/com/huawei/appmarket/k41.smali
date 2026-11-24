@@ -105,7 +105,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/x36;->c()Lcom/huawei/appmarket/x36;
+    invoke-static {}, Lcom/huawei/appmarket/z36;->c()Lcom/huawei/appmarket/z36;
 
     move-result-object v4
 
@@ -123,7 +123,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/x36;->e(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/z36;->e(Ljava/lang/String;)V
 
     invoke-interface {v2}, Ljava/util/Iterator;->remove()V
 
@@ -141,7 +141,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -150,12 +150,12 @@
     :catch_0
     const-string v3, "time NumberFormatException"
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_1
-    invoke-static {v1}, Lcom/huawei/appmarket/l41;->b(Lcom/huawei/appmarket/l41;)Lcom/huawei/appmarket/vf7;
+    invoke-static {v1}, Lcom/huawei/appmarket/l41;->b(Lcom/huawei/appmarket/l41;)Lcom/huawei/appmarket/ag7;
 
     move-result-object v0
 

@@ -33,11 +33,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->u(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/h69;
+    invoke-static {p1}, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->u(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/n69;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h69;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/n69;->b()V
 
     :cond_0
     return-void

@@ -197,12 +197,12 @@
 
 
 # virtual methods
-.method public canSign()Lcom/huawei/appmarket/hv7;
+.method public canSign()Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/consent/entity/resp/CanSignResp;",
             ">;"
         }
@@ -229,7 +229,7 @@
 
     invoke-direct {v1, v3, v2, v0}, Lcom/huawei/hms/support/api/consent/callback/CanSignTaskApiCall;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -244,7 +244,7 @@
     return v0
 .end method
 
-.method public visitorQuery(Ljava/lang/String;Lcom/huawei/hms/support/api/consent/entity/req/VisitorQueryReq;)Lcom/huawei/appmarket/hv7;
+.method public visitorQuery(Ljava/lang/String;Lcom/huawei/hms/support/api/consent/entity/req/VisitorQueryReq;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -252,7 +252,7 @@
             "Ljava/lang/String;",
             "Lcom/huawei/hms/support/api/consent/entity/req/VisitorQueryReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/consent/entity/resp/VisitorQueryResp;",
             ">;"
         }
@@ -261,9 +261,9 @@
     .line 1
     const-string v0, "consent.queryRequest"
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     :try_start_0
     invoke-virtual {p2}, Lcom/huawei/hms/support/api/consent/entity/req/VisitorQueryReq;->getConsentInfoList()Ljava/util/List;
@@ -294,7 +294,7 @@
 
     invoke-direct {v2, v3, v0, p2, p1}, Lcom/huawei/hms/support/api/consent/callback/QueryTaskApiCall;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -312,16 +312,16 @@
     move-exception p1
 
     :goto_0
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public visitorSign(Ljava/lang/String;Lcom/huawei/hms/support/api/consent/entity/req/VisitorSignReq;)Lcom/huawei/appmarket/hv7;
+.method public visitorSign(Ljava/lang/String;Lcom/huawei/hms/support/api/consent/entity/req/VisitorSignReq;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -329,7 +329,7 @@
             "Ljava/lang/String;",
             "Lcom/huawei/hms/support/api/consent/entity/req/VisitorSignReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/consent/entity/resp/VisitorSignResp;",
             ">;"
         }
@@ -338,9 +338,9 @@
     .line 1
     const-string v0, "consent.signRequest"
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     :try_start_0
     invoke-virtual {p2}, Lcom/huawei/hms/support/api/consent/entity/req/VisitorSignReq;->getConsentInformationList()Ljava/util/List;
@@ -371,7 +371,7 @@
 
     invoke-direct {v2, v3, v0, p2, p1}, Lcom/huawei/hms/support/api/consent/callback/SignTaskApiCall;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -389,9 +389,9 @@
     move-exception p1
 
     :goto_0
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

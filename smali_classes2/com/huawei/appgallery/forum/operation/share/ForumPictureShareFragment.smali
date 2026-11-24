@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/w06;
+.implements Lcom/huawei/appmarket/y06;
 .implements Landroid/content/DialogInterface$OnDismissListener;
 
 
@@ -14,13 +14,13 @@
 
 .field private f0:Landroid/widget/LinearLayout;
 
-.field private g0:Lcom/huawei/appmarket/iq2;
+.field private g0:Lcom/huawei/appmarket/kq2;
 
 .field private h0:Z
 
-.field private i0:Lcom/huawei/appmarket/pk4;
+.field private i0:Lcom/huawei/appmarket/sk4;
 
-.field private j0:Lcom/huawei/appmarket/sw6;
+.field private j0:Lcom/huawei/appmarket/ww6;
 
 .field private k0:Lcom/huawei/appmarket/framework/widget/LoadingDialog;
 
@@ -183,7 +183,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic h3(Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;)V
@@ -371,14 +370,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private j3()V
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/pk4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/sk4;
 
     .line 2
     .line 3
@@ -386,7 +384,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/sw6;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/ww6;
 
     .line 6
     .line 7
@@ -394,11 +392,11 @@
 
     .line 8
     .line 9
-    new-instance v0, Lcom/huawei/appmarket/y06;
+    new-instance v0, Lcom/huawei/appmarket/a16;
 
     .line 10
     .line 11
-    invoke-direct {v0}, Lcom/huawei/appmarket/y06;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/a16;-><init>()V
 
     .line 12
     .line 13
@@ -411,11 +409,11 @@
 
     .line 17
     .line 18
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/pk4;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/sk4;
 
     .line 19
     .line 20
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;->K0(Lcom/huawei/appmarket/pk4;)Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse$PluginInfo;
+    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;->K0(Lcom/huawei/appmarket/sk4;)Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse$PluginInfo;
 
     .line 21
     .line 22
@@ -435,7 +433,7 @@
     move-result-object v2
 
     .line 30
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/y06;->f(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/a16;->f(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -448,13 +446,13 @@
     move-result-object v1
 
     .line 37
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y06;->e(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a16;->e(Ljava/util/List;)V
 
     .line 38
     .line 39
     .line 40
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/j37;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/o37;->a()Z
 
     .line 41
     .line 42
@@ -469,7 +467,7 @@
 
     .line 46
     .line 47
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     .line 48
     .line 49
@@ -482,7 +480,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->b()Landroid/content/Context;
 
     .line 55
     .line 56
@@ -555,7 +553,7 @@
 
     .line 91
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/y06;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a16;->h(Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -676,7 +674,7 @@
 
     .line 142
     .line 143
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
     .line 145
@@ -691,7 +689,7 @@
     .line 150
     .line 151
     :cond_3
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/iq2;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/kq2;
 
     .line 152
     .line 153
@@ -708,7 +706,7 @@
 
     .line 159
     .line 160
-    invoke-virtual {v1}, Lcom/huawei/appmarket/iq2;->c()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/kq2;->c()Ljava/lang/String;
 
     .line 161
     .line 162
@@ -734,7 +732,7 @@
     .line 172
     .line 173
     .line 174
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 175
     .line 176
@@ -766,31 +764,31 @@
     const/4 v5, 0x1
 
     .line 190
-    invoke-static {v5, v1, v4}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v5, v1, v4}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 191
     .line 192
     .line 193
     :goto_3
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/y06;->g(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/a16;->g(Landroid/graphics/Bitmap;)V
 
     .line 194
     .line 195
     .line 196
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/sw6;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/ww6;
 
     .line 197
     .line 198
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/sw6;->R1(Lcom/huawei/appmarket/y06;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/ww6;->R1(Lcom/huawei/appmarket/a16;)V
 
     .line 199
     .line 200
     .line 201
-    iput-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/pk4;
+    iput-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/sk4;
 
     .line 202
     .line 203
-    iput-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/sw6;
+    iput-object v2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/ww6;
 
     .line 204
     .line 205
@@ -1189,24 +1187,15 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
 # virtual methods
-.method public final D(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/sw6;)V
+.method public final D(Lcom/huawei/appmarket/sk4;Lcom/huawei/appmarket/ww6;)V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/iq2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/kq2;
 
     .line 2
     .line 3
@@ -1214,16 +1203,16 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/hq2;->a(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/iq2;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/jq2;->a(Lcom/huawei/appmarket/sk4;Lcom/huawei/appmarket/kq2;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/pk4;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/sk4;
 
     .line 9
     .line 10
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/sw6;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/ww6;
 
     .line 11
     .line 12
@@ -1401,7 +1390,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d2(Landroid/os/Bundle;)V
@@ -1439,7 +1427,7 @@
 
     invoke-direct {p1}, Landroid/content/IntentFilter;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/fl4;->c:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/il4;->c:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
@@ -1447,13 +1435,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->m0:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     return-void
 .end method
@@ -1552,7 +1540,7 @@
     move-result-object v0
 
     .line 47
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 48
     .line 49
@@ -1591,7 +1579,7 @@
 
     .line 64
     .line 65
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 66
     .line 67
@@ -1611,7 +1599,7 @@
     move-result-object v0
 
     .line 75
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 76
     .line 77
@@ -1721,7 +1709,7 @@
     move-result-object p3
 
     .line 130
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 131
     .line 132
@@ -1815,7 +1803,7 @@
     move-object v2, p2
 
     .line 172
-    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->b(JIILjava/util/ArrayList;Ljava/lang/String;)Lcom/huawei/appmarket/hj0;
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->b(JIILjava/util/ArrayList;Ljava/lang/String;)Lcom/huawei/appmarket/ij0;
 
     .line 173
     .line 174
@@ -1839,7 +1827,7 @@
     move-result-object v4
 
     .line 184
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/hj0;->t(Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/ij0;->t(Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;Ljava/lang/String;)V
 
     .line 185
     .line 186
@@ -1849,7 +1837,7 @@
     .line 188
     :cond_6
     :goto_2
-    invoke-static {p3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 189
     .line 190
@@ -1906,7 +1894,7 @@
     move-result-wide v1
 
     .line 215
-    invoke-virtual {p2, v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/hj0;
+    invoke-virtual {p2, v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/ij0;
 
     .line 216
     .line 217
@@ -1959,7 +1947,7 @@
     move-result-object v0
 
     .line 240
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/hj0;->F(Ljava/util/List;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ij0;->F(Ljava/util/List;)V
 
     .line 241
     .line 242
@@ -2021,7 +2009,7 @@
     move-result v3
 
     .line 269
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 270
     .line 271
@@ -2029,7 +2017,7 @@
     move-result-object v2
 
     .line 273
-    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/hj0;
+    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/ij0;
 
     .line 274
     .line 275
@@ -2050,7 +2038,7 @@
     .line 282
     .line 283
     .line 284
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 285
     .line 286
@@ -2108,22 +2096,22 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->m0:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     return-void
 .end method
 
-.method public final k3(Lcom/huawei/appmarket/iq2;)V
+.method public final k3(Lcom/huawei/appmarket/kq2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/iq2;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->g0:Lcom/huawei/appmarket/kq2;
 
     return-void
 .end method
@@ -2137,9 +2125,9 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/sw6;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->j0:Lcom/huawei/appmarket/ww6;
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/pk4;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->i0:Lcom/huawei/appmarket/sk4;
 
     :cond_0
     return-void

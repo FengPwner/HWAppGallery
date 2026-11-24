@@ -42,7 +42,7 @@
 
     const-string v2, "waitSlowTask run"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v0, :cond_0
 

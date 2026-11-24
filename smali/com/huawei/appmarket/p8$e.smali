@@ -54,7 +54,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/p8$e;->a:Landroidx/lifecycle/h;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/p8$e;->b:Ljava/util/ArrayList;
 
@@ -88,7 +88,7 @@
 
     iget-object v3, p0, Lcom/huawei/appmarket/p8$e;->a:Landroidx/lifecycle/h;
 
-    invoke-virtual {v3, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v3, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     goto :goto_0
 

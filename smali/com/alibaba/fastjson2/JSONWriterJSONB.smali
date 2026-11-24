@@ -3043,7 +3043,7 @@
 
     const/4 v4, 0x5
 
-    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v2
 
@@ -5123,11 +5123,9 @@
 
     move-result v2
 
-    add-int/2addr v1, v0
+    invoke-static {v0, v1, v2, v6}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
-    add-int/2addr v1, v2
-
-    add-int/2addr v1, v6
+    move-result v1
 
     invoke-virtual {p0, v1}, Lcom/alibaba/fastjson2/JSONWriterJSONB;->ensureCapacity(I)V
 
@@ -5518,13 +5516,11 @@
 
     iget v4, p0, Lcom/alibaba/fastjson2/JSONWriter;->off:I
 
-    add-int/2addr v4, p3
+    invoke-static {v4, p3, v2, v3}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
-    add-int/2addr v4, v2
+    move-result p3
 
-    add-int/2addr v4, v3
-
-    invoke-virtual {p0, v4}, Lcom/alibaba/fastjson2/JSONWriterJSONB;->ensureCapacity(I)V
+    invoke-virtual {p0, p3}, Lcom/alibaba/fastjson2/JSONWriterJSONB;->ensureCapacity(I)V
 
     array-length p3, p1
 

@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/flexiblelayout/data/e;)Lcom/huawei/appmarket/rt7;
+.method public abstract a(Lcom/huawei/flexiblelayout/data/e;)Lcom/huawei/appmarket/xt7;
 .end method

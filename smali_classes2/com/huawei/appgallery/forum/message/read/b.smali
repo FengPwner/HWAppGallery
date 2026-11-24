@@ -3,31 +3,31 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq3$a;
+.implements Lcom/huawei/appmarket/mq3$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kq3$a<",
+        "Lcom/huawei/appmarket/mq3$a<",
         "Lcom/huawei/appgallery/forum/message/read/ReadAllMessageRequest;",
-        "Lcom/huawei/appmarket/wh6;",
+        "Lcom/huawei/appmarket/yh6;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/message/read/a;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/message/read/a;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/message/read/b;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/message/read/b;->a:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,11 +44,11 @@
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/wh6;
+    check-cast p2, Lcom/huawei/appmarket/yh6;
 
     .line 4
     .line 5
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/read/b;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/read/b;->a:Lcom/huawei/appmarket/tv7;
 
     .line 6
     .line 7
@@ -100,7 +100,7 @@
 
     .line 28
     :goto_1
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 29
     .line 30
@@ -246,7 +246,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -255,7 +254,7 @@
     .line 1
     check-cast p1, Lcom/huawei/appgallery/forum/message/read/ReadAllMessageRequest;
 
-    check-cast p2, Lcom/huawei/appmarket/wh6;
+    check-cast p2, Lcom/huawei/appmarket/yh6;
 
     return-void
 .end method

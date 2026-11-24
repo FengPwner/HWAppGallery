@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/u54$a;
+.implements Lcom/huawei/appmarket/x54$a;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
     const-string v0, "It\'s mine page, finish when logout"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/user/usercenter/activity/UserFollowActivity$a;->a:Lcom/huawei/appgallery/forum/user/usercenter/activity/UserFollowActivity;
 

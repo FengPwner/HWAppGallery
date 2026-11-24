@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/e43$c;
+.implements Lcom/huawei/appmarket/h43$c;
 
 
 # annotations
@@ -62,11 +62,11 @@
 
     if-ne p1, v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string v0, "root is not support to get cert chain"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v1}, Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;->n1(Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;)V
@@ -82,18 +82,18 @@
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string v0, "no phone permission, try to ask"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;->q1(Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;)V
 
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object v0, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -107,7 +107,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

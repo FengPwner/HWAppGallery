@@ -27,19 +27,19 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/io5;)V
+.method public final a(Lcom/huawei/appmarket/jo5;)V
     .registers 3
 
     .line 1
     const-string v0, "listener"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/s31;->b:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/io5;->a(Landroid/content/Context;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/jo5;->a(Landroid/content/Context;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/s31;->a:Ljava/util/concurrent/CopyOnWriteArraySet;
@@ -66,7 +66,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appmarket/s31;->b:Landroid/content/Context;
 
@@ -87,9 +87,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/io5;
+    check-cast v1, Lcom/huawei/appmarket/jo5;
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/io5;->a(Landroid/content/Context;)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/jo5;->a(Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -106,13 +106,13 @@
     return-object v0
 .end method
 
-.method public final e(Lcom/huawei/appmarket/io5;)V
+.method public final e(Lcom/huawei/appmarket/jo5;)V
     .registers 3
 
     .line 1
     const-string v0, "listener"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/s31;->a:Ljava/util/concurrent/CopyOnWriteArraySet;
 

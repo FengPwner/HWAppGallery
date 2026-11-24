@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+.method public static a(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
     .registers 3
 
     .line 1
@@ -20,32 +20,35 @@
 
     .line 2
     .line 3
-    const/4 p0, 0x0
+    if-eqz p2, :cond_1
 
     .line 4
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/v;->h(Lcom/huawei/appmarket/d34;Z)V
-
     .line 5
+    const/4 p0, 0x0
+
     .line 6
+    invoke-interface {p2, p0}, Lcom/huawei/appmarket/f34;->startFADownloadResult(Z)V
+
     .line 7
+    .line 8
+    .line 9
     goto :goto_0
 
-    .line 8
-    :cond_0
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/z92;->c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
-
-    .line 9
     .line 10
-    .line 11
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v;->d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+    :cond_0
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/ca2;->c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
+    .line 11
     .line 12
     .line 13
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v;->d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
+
     .line 14
-    :goto_0
-    return-void
     .line 15
     .line 16
+    :cond_1
+    :goto_0
+    return-void
     .line 17
     .line 18
     .line 19
@@ -352,7 +355,7 @@
     .line 320
 .end method
 
-.method public static synthetic b(Lcom/huawei/appmarket/d34;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/ei3;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+.method public static b(Lcom/huawei/appmarket/f34;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/gi3;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
     .registers 4
 
     .line 1
@@ -360,42 +363,44 @@
 
     .line 2
     .line 3
-    const/4 p1, 0x0
+    if-eqz p0, :cond_1
 
     .line 4
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/v;->h(Lcom/huawei/appmarket/d34;Z)V
-
     .line 5
+    const/4 p1, 0x0
+
     .line 6
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/f34;->startFADownloadResult(Z)V
+
     .line 7
+    .line 8
+    .line 9
     goto :goto_0
 
-    .line 8
-    :cond_0
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/z92;->c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
-
-    .line 9
     .line 10
-    .line 11
-    invoke-static {p1, p3, p0}, Lcom/huawei/appmarket/v;->d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+    :cond_0
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/ca2;->c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
+    .line 11
     .line 12
     .line 13
-    .line 14
-    if-eqz p2, :cond_1
+    invoke-static {p1, p3, p0}, Lcom/huawei/appmarket/v;->d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
 
+    .line 14
     .line 15
     .line 16
-    invoke-interface {p2, p3}, Lcom/huawei/appmarket/ei3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    if-eqz p2, :cond_1
 
     .line 17
     .line 18
+    invoke-interface {p2, p3}, Lcom/huawei/appmarket/gi3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+
     .line 19
+    .line 20
+    .line 21
     :cond_1
     :goto_0
     return-void
-    .line 20
-    .line 21
     .line 22
     .line 23
     .line 24
@@ -1006,11 +1011,11 @@
     .line 629
 .end method
 
-.method public static c(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/d34;)V
+.method public static c(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/f34;)V
     .registers 5
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/v;->f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/d34;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/v;->f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/f34;)Z
 
     move-result v0
 
@@ -1019,26 +1024,26 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/z92;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/ca2;->d()V
 
-    new-instance v0, Lcom/huawei/appmarket/z82;
+    new-instance v0, Lcom/huawei/appmarket/d92;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/z82;-><init>(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/d92;-><init>(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
-    new-instance v1, Lcom/huawei/appmarket/n74;
+    new-instance v1, Lcom/huawei/appmarket/q74;
 
     const/16 v2, 0x18
 
-    invoke-direct {v1, p1, v2, p0}, Lcom/huawei/appmarket/n74;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p1, v2, p0}, Lcom/huawei/appmarket/q74;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/v;->e(Lcom/huawei/appmarket/z82;Lcom/huawei/appmarket/ei3;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/v;->e(Lcom/huawei/appmarket/d92;Lcom/huawei/appmarket/gi3;)V
 
     return-void
 .end method
 
-.method private static d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/d34;)V
+.method private static d(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/f34;)V
     .registers 7
 
     .line 1
@@ -1180,7 +1185,7 @@
 
     .line 70
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     .line 71
     .line 72
@@ -1188,17 +1193,17 @@
     move-result-object v2
 
     .line 74
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/vn0;->a(Lcom/huawei/appmarket/sn0;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/wn0;->a(Lcom/huawei/appmarket/tn0;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 75
     .line 76
     .line 77
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/b92;->q(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/f92;->q(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     .line 78
     .line 79
     .line 80
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
 
     .line 81
     .line 82
@@ -1206,19 +1211,22 @@
     move-result-object p0
 
     .line 84
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/fv1;->k0(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Z)Z
+    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/jv1;->k0(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Z)Z
 
     .line 85
     .line 86
     .line 87
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/v;->h(Lcom/huawei/appmarket/d34;Z)V
+    if-eqz p2, :cond_2
 
     .line 88
     .line 89
+    invoke-interface {p2, v0}, Lcom/huawei/appmarket/f34;->startFADownloadResult(Z)V
+
     .line 90
-    return-void
     .line 91
     .line 92
+    :cond_2
+    return-void
     .line 93
     .line 94
     .line 95
@@ -1449,57 +1457,57 @@
     .line 320
 .end method
 
-.method private static e(Lcom/huawei/appmarket/z82;Lcom/huawei/appmarket/ei3;)V
+.method private static e(Lcom/huawei/appmarket/d92;Lcom/huawei/appmarket/gi3;)V
     .registers 4
 
     .line 1
     const-string v0, "DownloadTaskAssemblePhone"
 
-    const-class v1, Lcom/huawei/appmarket/di3;
+    const-class v1, Lcom/huawei/appmarket/fi3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/di3;
+    check-cast v0, Lcom/huawei/appmarket/fi3;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/di3;->a(Lcom/huawei/appmarket/zn3;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/fi3;->a(Lcom/huawei/appmarket/bo3;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
     if-nez p0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v0, "AGInnerDownloadFAUtil"
 
     const-string v1, "assembleDownloadTask assemble fail."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
-    invoke-interface {p1, p0}, Lcom/huawei/appmarket/ei3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-interface {p1, p0}, Lcom/huawei/appmarket/gi3;->result(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     return-void
 
     :cond_0
     new-instance v0, Lcom/huawei/appmarket/t;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/t;-><init>(Lcom/huawei/appmarket/ei3;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/t;-><init>(Lcom/huawei/appmarket/gi3;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     new-instance v0, Lcom/huawei/appmarket/u;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/u;-><init>(Lcom/huawei/appmarket/ei3;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/u;-><init>(Lcom/huawei/appmarket/gi3;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
 
-.method private static f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/d34;)Z
+.method private static f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/f34;)Z
     .registers 6
 
     .line 1
@@ -1509,82 +1517,88 @@
     const/4 v1, 0x0
 
     .line 3
-    if-nez p0, :cond_0
+    if-nez p0, :cond_1
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/v;->h(Lcom/huawei/appmarket/d34;Z)V
+    if-eqz p1, :cond_0
 
     .line 6
     .line 7
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/f34;->startFADownloadResult(Z)V
+
     .line 8
+    .line 9
+    .line 10
+    :cond_0
     return v0
 
-    .line 9
-    :cond_0
+    .line 11
+    :cond_1
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;->getPkg()Ljava/lang/String;
 
-    .line 10
-    .line 11
     .line 12
+    .line 13
+    .line 14
     move-result-object p0
 
-    .line 13
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
-
-    .line 14
     .line 15
+    invoke-static {}, Lcom/huawei/appmarket/jv1;->s()Lcom/huawei/appmarket/jv1;
+
     .line 16
+    .line 17
+    .line 18
     move-result-object v2
 
-    .line 17
-    new-array v3, v1, [I
-
-    .line 18
     .line 19
-    invoke-virtual {v2, p0, v3}, Lcom/huawei/appmarket/fv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    new-array v3, v1, [I
 
     .line 20
     .line 21
+    invoke-virtual {v2, p0, v3}, Lcom/huawei/appmarket/jv1;->x(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
     .line 22
+    .line 23
+    .line 24
     move-result-object p0
 
-    .line 23
-    if-eqz p0, :cond_1
-
-    .line 24
     .line 25
-    sget-object p0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    if-eqz p0, :cond_3
 
     .line 26
     .line 27
-    const-string v2, "AGInnerDownloadFAUtil"
+    sget-object p0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     .line 28
     .line 29
-    const-string v3, "fa is downloading."
+    const-string v2, "AGInnerDownloadFAUtil"
 
     .line 30
     .line 31
-    invoke-virtual {p0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v3, "fa is downloading."
 
     .line 32
     .line 33
-    .line 34
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/v;->h(Lcom/huawei/appmarket/d34;Z)V
+    invoke-virtual {p0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 34
     .line 35
     .line 36
-    .line 37
-    return v0
+    if-eqz p1, :cond_2
 
+    .line 37
     .line 38
-    :cond_1
-    return v1
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/f34;->startFADownloadResult(Z)V
+
     .line 39
     .line 40
     .line 41
+    :cond_2
+    return v0
+
     .line 42
+    :cond_3
+    return v1
     .line 43
     .line 44
     .line 45
@@ -1706,14 +1720,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public static g(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/d34;Lcom/huawei/appmarket/ei3;)V
+.method public static g(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/f34;Lcom/huawei/appmarket/gi3;)V
     .registers 6
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/v;->f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/d34;)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/v;->f(Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/f34;)Z
 
     move-result v0
 
@@ -1722,31 +1735,19 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/z92;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/ca2;->d()V
 
     new-instance v0, Lcom/huawei/appmarket/ow0;
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/ow0;-><init>(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
-    new-instance p0, Lcom/huawei/appmarket/jm5;
+    new-instance p0, Lcom/huawei/appmarket/lm5;
 
     const/16 v1, 0xa
 
-    invoke-direct {p0, v1, p2, p1, p3}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p0, v1, p2, p1, p3}, Lcom/huawei/appmarket/lm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/v;->e(Lcom/huawei/appmarket/z82;Lcom/huawei/appmarket/ei3;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/v;->e(Lcom/huawei/appmarket/d92;Lcom/huawei/appmarket/gi3;)V
 
-    return-void
-.end method
-
-.method private static h(Lcom/huawei/appmarket/d34;Z)V
-    .registers 2
-
-    .line 1
-    if-eqz p0, :cond_0
-
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/d34;->startFADownloadResult(Z)V
-
-    :cond_0
     return-void
 .end method

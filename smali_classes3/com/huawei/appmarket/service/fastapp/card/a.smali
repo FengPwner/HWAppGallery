@@ -81,7 +81,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/rm6;->v()Lcom/huawei/appmarket/rm6;
+    invoke-static {}, Lcom/huawei/appmarket/um6;->v()Lcom/huawei/appmarket/um6;
 
     .line 30
     .line 31
@@ -135,7 +135,7 @@
 
     .line 56
     .line 57
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 58
     .line 59
@@ -196,5 +196,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

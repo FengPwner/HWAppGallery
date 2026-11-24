@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/w24$a;
+.field private final b:Lcom/huawei/appmarket/y24$a;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService$a;-><init>(Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;->b:Lcom/huawei/appmarket/w24$a;
+    iput-object v0, p0, Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;->b:Lcom/huawei/appmarket/y24$a;
 
     return-void
 .end method
@@ -33,9 +33,9 @@
 
     const-string v1, "onBind"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;->b:Lcom/huawei/appmarket/w24$a;
+    iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;->b:Lcom/huawei/appmarket/y24$a;
 
     return-object p1
 .end method
@@ -68,7 +68,7 @@
 
     const-string v2, "onStartCommand..."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -76,7 +76,7 @@
 
     if-lt v2, v3, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/xj5;->A()Landroid/app/NotificationChannel;
+    invoke-static {}, Lcom/huawei/appmarket/zj5;->A()Landroid/app/NotificationChannel;
 
     move-result-object v3
 
@@ -94,7 +94,7 @@
 
     check-cast v4, Landroid/app/NotificationManager;
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v3, Landroid/app/Notification$Builder;
@@ -103,7 +103,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/gi7;->c(Landroid/content/Context;)Landroid/app/Notification$Builder;
+    invoke-static {v3}, Lcom/huawei/appmarket/mi7;->c(Landroid/content/Context;)Landroid/app/Notification$Builder;
 
     move-result-object v3
 
@@ -115,7 +115,7 @@
 
     const-string v4, "startForeground..."
 
-    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 
@@ -125,7 +125,7 @@
 
     if-lt v2, v1, :cond_1
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/vg5;->w(Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;Landroid/app/Notification;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yg5;->w(Lcom/huawei/appgallery/agguard/business/service/SpaceCleanTaskResultService;Landroid/app/Notification;)V
 
     goto :goto_0
 

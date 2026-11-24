@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/xn6;
+.field final synthetic a:Lcom/huawei/appmarket/ao6;
 
 .field final synthetic b:Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;Lcom/huawei/appmarket/xn6;)V
+.method constructor <init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;Lcom/huawei/appmarket/ao6;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;->b:Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;->a:Lcom/huawei/appmarket/xn6;
+    iput-object p2, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;->a:Lcom/huawei/appmarket/ao6;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/kp6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
+.method public final a(Lcom/huawei/appmarket/np6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
     .registers 6
 
     .line 1
@@ -62,7 +62,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -80,7 +80,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 20
     .line 21
@@ -96,7 +96,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -110,11 +110,11 @@
 
     .line 34
     :cond_1
-    const-class p2, Lcom/huawei/appmarket/pj3;
+    const-class p2, Lcom/huawei/appmarket/rj3;
 
     .line 35
     .line 36
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -122,7 +122,7 @@
     move-result-object p1
 
     .line 40
-    check-cast p1, Lcom/huawei/appmarket/pj3;
+    check-cast p1, Lcom/huawei/appmarket/rj3;
 
     .line 41
     .line 42
@@ -134,7 +134,7 @@
 
     .line 45
     .line 46
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -148,7 +148,7 @@
 
     .line 53
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 54
     .line 55
@@ -156,7 +156,7 @@
     move-result-object p2
 
     .line 57
-    invoke-virtual {p2}, Lcom/huawei/appmarket/cf0;->X0()Lcom/huawei/appmarket/cd0;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/df0;->X0()Lcom/huawei/appmarket/cd0;
 
     .line 58
     .line 59
@@ -188,7 +188,7 @@
     move-result-object v0
 
     .line 73
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/pj3;->f(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/rj3;->f(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     .line 74
     .line 75
@@ -205,7 +205,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 83
     .line 84
@@ -220,7 +220,7 @@
     .line 88
     .line 89
     :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;->a:Lcom/huawei/appmarket/xn6;
+    iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;->a:Lcom/huawei/appmarket/ao6;
 
     .line 90
     .line 91
@@ -301,5 +301,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

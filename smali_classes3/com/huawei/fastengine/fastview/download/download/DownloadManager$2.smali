@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rh0;
+.implements Lcom/huawei/appmarket/sh0;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public onFailure(Lcom/huawei/appmarket/eh0;Ljava/io/IOException;)V
+.method public onFailure(Lcom/huawei/appmarket/fh0;Ljava/io/IOException;)V
     .registers 3
 
     .line 1
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public onResponse(Lcom/huawei/appmarket/eh0;Lcom/huawei/appmarket/vu6;)V
+.method public onResponse(Lcom/huawei/appmarket/fh0;Lcom/huawei/appmarket/zu6;)V
     .registers 15
 
     .line 1
@@ -88,7 +88,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 11
     .line 12
@@ -118,7 +118,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->w()I
 
     .line 26
     .line 27
@@ -164,7 +164,7 @@
     .line 47
     .line 48
     :try_start_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 49
     .line 50
@@ -172,7 +172,7 @@
     move-result-object v3
 
     .line 52
-    invoke-virtual {v3}, Lcom/huawei/appmarket/xu6;->t()J
+    invoke-virtual {v3}, Lcom/huawei/appmarket/bv6;->t()J
 
     .line 53
     .line 54
@@ -212,7 +212,7 @@
     .line 69
     :cond_1
     :goto_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->w()I
 
     .line 70
     .line 71
@@ -245,7 +245,7 @@
 
     .line 84
     :try_start_1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 85
     .line 86
@@ -253,7 +253,7 @@
     move-result-object p2
 
     .line 88
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xu6;->v()Lcom/huawei/appmarket/mc0;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/bv6;->v()Lcom/huawei/appmarket/mc0;
 
     .line 89
     .line 90
@@ -1425,23 +1425,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

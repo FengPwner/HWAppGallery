@@ -40,7 +40,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -273,7 +273,7 @@
     goto :goto_3
 
     :sswitch_4
-    const-string p3, "view-start"
+    const-string/jumbo p3, "view-start"
 
     invoke-virtual {p2, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -289,7 +289,7 @@
     goto :goto_3
 
     :sswitch_5
-    const-string p3, "view-end"
+    const-string/jumbo p3, "view-end"
 
     invoke-virtual {p2, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

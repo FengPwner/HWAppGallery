@@ -352,7 +352,7 @@
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    const-string v6, "yyyy-MM-dd HH:mm"
+    const-string/jumbo v6, "yyyy-MM-dd HH:mm"
 
     invoke-static {v5, v6}, Lcom/huawei/phoneservice/feedback/photolibrary/internal/utils/a;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

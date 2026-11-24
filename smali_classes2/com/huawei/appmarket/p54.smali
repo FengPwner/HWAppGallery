@@ -3,34 +3,15 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/p54$a;
-    }
-.end annotation
-
-
 # virtual methods
-.method public abstract a(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/lang/String;
+.method public abstract a(Lcom/huawei/appmarket/vm4;)V
 .end method
 
-.method public abstract b()Landroid/content/IntentFilter;
+.method public abstract b(III)V
 .end method
 
-.method public abstract c(Landroid/content/Context;Lcom/huawei/appmarket/bn2;I)Lcom/huawei/appmarket/hv7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/bn2;",
-            "I)",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/p54$a;",
-            ">;"
-        }
-    .end annotation
+.method public abstract c()V
 .end method
 
-.method public abstract d(Lcom/huawei/secure/android/common/intent/SafeIntent;)I
+.method public abstract d()Ljava/lang/String;
 .end method

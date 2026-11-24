@@ -26,7 +26,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->b(Ljava/util/Map;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->b(Ljava/util/Map;)Z
 
     move-result v0
 

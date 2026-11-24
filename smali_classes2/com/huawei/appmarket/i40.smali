@@ -126,7 +126,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -150,7 +149,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->r6(Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;->s6(Lcom/huawei/appgallery/pageframe/fragment/TransitionListFragmentV2;)V
 
     return-void
 .end method

@@ -2,66 +2,56 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/quickcard/watcher/IWatchConditionCallback;
-
 
 # instance fields
-.field private final a:Landroid/view/ViewGroup;
+.field private a:I
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/ViewGroup;)V
-    .registers 2
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;I)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/n39;->a:Landroid/view/ViewGroup;
+    iput-object p1, p0, Lcom/huawei/appmarket/n39;->b:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/n39;->c:Ljava/lang/String;
+
+    iput p3, p0, Lcom/huawei/appmarket/n39;->a:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onUpdate(Ljava/lang/String;)V
-    .registers 5
+.method public final a()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/n39;->a:Landroid/view/ViewGroup;
+    iget-object v0, p0, Lcom/huawei/appmarket/n39;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/quickcard/utils/ViewUtils;->getCardContext(Landroid/view/View;)Lcom/huawei/quickcard/CardContext;
+    return-object v0
+.end method
 
-    move-result-object v1
+.method public final b()Ljava/lang/String;
+    .registers 2
 
-    if-nez v1, :cond_0
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/n39;->b:Ljava/lang/String;
 
-    const-string p1, "WatchConditionCallback"
+    return-object v0
+.end method
 
-    const-string v0, "cardContext is null"
+.method public final c()I
+    .registers 2
 
-    invoke-static {p1, v0}, Lcom/huawei/quickcard/base/log/CardLogUtils;->e(Ljava/lang/String;Ljava/lang/String;)V
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/n39;->a:I
 
-    return-void
-
-    :cond_0
-    instance-of v2, v0, Lcom/huawei/quickcard/IRecyclerHost;
-
-    if-eqz v2, :cond_1
-
-    check-cast v0, Lcom/huawei/quickcard/IRecyclerHost;
-
-    invoke-interface {v0, p1}, Lcom/huawei/quickcard/IRecyclerHost;->update(Ljava/lang/String;)V
-
-    goto :goto_0
-
-    :cond_1
-    new-instance v2, Lcom/huawei/quickcard/framework/inflater/QuickCardInflater;
-
-    invoke-direct {v2, v1}, Lcom/huawei/quickcard/framework/inflater/QuickCardInflater;-><init>(Lcom/huawei/quickcard/CardContext;)V
-
-    invoke-virtual {v2, v0, p1}, Lcom/huawei/quickcard/framework/inflater/QuickCardInflater;->inflateConditionChildren(Landroid/view/ViewGroup;Ljava/lang/String;)V
-
-    :goto_0
-    return-void
+    return v0
 .end method

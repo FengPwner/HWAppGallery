@@ -167,7 +167,7 @@
 
     .line 18
     .line 19
-    invoke-interface {p1}, Lcom/google/protobuf/b1;->getParserForType()Lcom/huawei/appmarket/gw5;
+    invoke-interface {p1}, Lcom/google/protobuf/b1;->getParserForType()Lcom/huawei/appmarket/iw5;
 
     .line 20
     .line 21
@@ -183,7 +183,7 @@
 
     .line 26
     .line 27
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -450,7 +450,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/r75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
+    invoke-interface {v0}, Lcom/huawei/appmarket/u75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
 
     move-result-object v1
 
@@ -465,7 +465,7 @@
     return p1
 
     :cond_4
-    invoke-interface {v1}, Lcom/huawei/appmarket/r75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
+    invoke-interface {v1}, Lcom/huawei/appmarket/u75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
 
     move-result-object p1
 

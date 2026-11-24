@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s22;
+.implements Lcom/huawei/appmarket/w22;
 
 
 # instance fields
@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method public final call(Lcom/huawei/appmarket/s22$a;)V
+.method public final call(Lcom/huawei/appmarket/w22$a;)V
     .registers 5
 
     .line 1
@@ -31,11 +31,11 @@
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/huawei/appmarket/s22$a;->payload:Ljava/lang/Object;
+    iget-object p1, p1, Lcom/huawei/appmarket/w22$a;->payload:Ljava/lang/Object;
 
     .line 4
     .line 5
-    instance-of v0, p1, Lcom/huawei/appmarket/iu4$b;
+    instance-of v0, p1, Lcom/huawei/appmarket/lu4$b;
 
     .line 6
     .line 7
@@ -43,11 +43,11 @@
 
     .line 8
     .line 9
-    check-cast p1, Lcom/huawei/appmarket/iu4$b;
+    check-cast p1, Lcom/huawei/appmarket/lu4$b;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu4$b;->getLifecycleState()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu4$b;->getLifecycleState()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -63,7 +63,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/kk4;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -72,7 +72,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/huawei/appmarket/iu4$b;->getEvent()Landroidx/lifecycle/h$a;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu4$b;->getEvent()Landroidx/lifecycle/h$a;
 
     .line 25
     .line 26
@@ -209,5 +209,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

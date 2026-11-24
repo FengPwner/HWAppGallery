@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/timepicker/ClockFaceView;->D:[F
 
-    sget-object v0, Lcom/huawei/appmarket/ie6;->l:[I
+    sget-object v0, Lcom/huawei/appmarket/ke6;->l:[I
 
     const v1, 0x7f130666
 
@@ -118,7 +118,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -178,7 +178,7 @@
 
     const v1, 0x7f060854
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/hp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gp;->a(ILandroid/content/Context;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -188,7 +188,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -541,6 +541,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method static synthetic x(Lcom/google/android/material/timepicker/ClockFaceView;)Lcom/google/android/material/timepicker/ClockHandView;
@@ -743,7 +744,7 @@
 
     .line 84
     .line 85
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 86
     .line 87

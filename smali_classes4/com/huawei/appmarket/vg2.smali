@@ -2,40 +2,18 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lorg/apache/commons/lang3/function/FailableSupplier;
 
-# direct methods
-.method public static synthetic a(Ljava/lang/Object;Ljava/lang/Object;)D
+
+# virtual methods
+.method public final get()Ljava/lang/Object;
     .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Throwable;
-        }
-    .end annotation
 
     .line 1
-    const-wide/16 p0, 0x0
+    invoke-static {}, Lcom/huawei/appmarket/wg2;->a()Ljava/lang/Object;
 
-    return-wide p0
-.end method
-
-.method public static b()Lorg/apache/commons/lang3/function/FailableToDoubleBiFunction;
-    .registers 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            "U:",
-            "Ljava/lang/Object;",
-            "E:",
-            "Ljava/lang/Throwable;",
-            ">()",
-            "Lorg/apache/commons/lang3/function/FailableToDoubleBiFunction<",
-            "TT;TU;TE;>;"
-        }
-    .end annotation
-
-    .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableToDoubleBiFunction;->NOP:Lorg/apache/commons/lang3/function/FailableToDoubleBiFunction;
+    move-result-object v0
 
     return-object v0
 .end method

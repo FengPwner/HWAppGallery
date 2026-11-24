@@ -55,17 +55,17 @@
 
     const-string v1, "onStartCommand.."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "RemoteBuoyService startForeground"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v1, 0x103
 
     const-string v2, "RemoteBuoyServiceChannel"
 
-    invoke-static {v0, v2, p0, v1}, Lcom/huawei/appmarket/zn2;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/Service;I)V
+    invoke-static {v0, v2, p0, v1}, Lcom/huawei/appmarket/bo2;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/Service;I)V
 
     invoke-super {p0, p1, p2, p3}, Landroid/app/Service;->onStartCommand(Landroid/content/Intent;II)I
 

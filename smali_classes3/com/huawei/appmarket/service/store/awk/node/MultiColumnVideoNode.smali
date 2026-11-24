@@ -64,7 +64,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->g()I
 
     move-result v0
 

@@ -50,7 +50,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/ex2;->i()Lcom/huawei/appmarket/ex2;
+    invoke-static {}, Lcom/huawei/appmarket/hx2;->i()Lcom/huawei/appmarket/hx2;
 
     .line 8
     .line 9
@@ -86,7 +86,7 @@
     const/4 v2, 0x0
 
     .line 25
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/te0;->h(ILjava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ue0;->h(ILjava/lang/String;)V
 
     .line 26
     .line 27

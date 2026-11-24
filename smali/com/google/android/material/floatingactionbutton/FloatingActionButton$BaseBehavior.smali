@@ -50,7 +50,7 @@
     .line 2
     invoke-direct {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    sget-object v0, Lcom/huawei/appmarket/ie6;->s:[I
+    sget-object v0, Lcom/huawei/appmarket/ke6;->s:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -187,7 +187,7 @@
 
     .line 49
     .line 50
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/pi1;->a(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/si1;->a(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 51
     .line 52
@@ -441,6 +441,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private t(Landroid/view/View;Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)Z
@@ -1219,6 +1226,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
@@ -1536,7 +1550,7 @@
 
     .line 144
     .line 145
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/ei8;->S(ILandroid/view/View;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/ki8;->S(ILandroid/view/View;)V
 
     .line 146
     .line 147
@@ -1546,7 +1560,7 @@
 
     .line 149
     .line 150
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/ei8;->R(ILandroid/view/View;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/ki8;->R(ILandroid/view/View;)V
 
     .line 151
     .line 152
@@ -1685,4 +1699,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

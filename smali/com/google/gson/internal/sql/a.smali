@@ -28,11 +28,11 @@
     .end annotation
 .end field
 
-.field public static final d:Lcom/huawei/appmarket/h58;
+.field public static final d:Lcom/huawei/appmarket/n58;
 
-.field public static final e:Lcom/huawei/appmarket/h58;
+.field public static final e:Lcom/huawei/appmarket/n58;
 
-.field public static final f:Lcom/huawei/appmarket/h58;
+.field public static final f:Lcom/huawei/appmarket/n58;
 
 
 # direct methods
@@ -74,18 +74,18 @@
 
     sput-object v0, Lcom/google/gson/internal/sql/a;->c:Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a;
 
-    sget-object v0, Lcom/google/gson/internal/sql/SqlDateTypeAdapter;->b:Lcom/huawei/appmarket/h58;
+    sget-object v0, Lcom/google/gson/internal/sql/SqlDateTypeAdapter;->b:Lcom/huawei/appmarket/n58;
 
-    sput-object v0, Lcom/google/gson/internal/sql/a;->d:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/a;->d:Lcom/huawei/appmarket/n58;
 
-    sget-object v0, Lcom/google/gson/internal/sql/SqlTimeTypeAdapter;->b:Lcom/huawei/appmarket/h58;
+    sget-object v0, Lcom/google/gson/internal/sql/SqlTimeTypeAdapter;->b:Lcom/huawei/appmarket/n58;
 
-    sput-object v0, Lcom/google/gson/internal/sql/a;->e:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/a;->e:Lcom/huawei/appmarket/n58;
 
-    sget-object v0, Lcom/google/gson/internal/sql/SqlTimestampTypeAdapter;->b:Lcom/huawei/appmarket/h58;
+    sget-object v0, Lcom/google/gson/internal/sql/SqlTimestampTypeAdapter;->b:Lcom/huawei/appmarket/n58;
 
     :goto_1
-    sput-object v0, Lcom/google/gson/internal/sql/a;->f:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/a;->f:Lcom/huawei/appmarket/n58;
 
     goto :goto_2
 
@@ -96,9 +96,9 @@
 
     sput-object v0, Lcom/google/gson/internal/sql/a;->c:Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a;
 
-    sput-object v0, Lcom/google/gson/internal/sql/a;->d:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/a;->d:Lcom/huawei/appmarket/n58;
 
-    sput-object v0, Lcom/google/gson/internal/sql/a;->e:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/sql/a;->e:Lcom/huawei/appmarket/n58;
 
     goto :goto_1
 

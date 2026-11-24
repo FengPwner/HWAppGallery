@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/to5;
+.implements Lcom/huawei/appmarket/uo5;
 
 
 # instance fields
@@ -144,15 +144,15 @@
 
     :cond_3
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     new-instance v2, Lcom/huawei/appgallery/common/media/widget/zoomview/b$a;
 
     invoke-direct {v2, p0, p1}, Lcom/huawei/appgallery/common/media/widget/zoomview/b$a;-><init>(Lcom/huawei/appgallery/common/media/widget/zoomview/b;F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     :cond_4
     :goto_1

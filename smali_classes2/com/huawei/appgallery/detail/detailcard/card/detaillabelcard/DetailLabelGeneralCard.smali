@@ -46,17 +46,17 @@
     return-void
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/sr4;
+    new-instance p1, Lcom/huawei/appmarket/vr4;
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelGeneralCard;->x:Lcom/huawei/appgallery/foundation/ui/framework/widget/MultiLineLabelLayout;
 
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/sr4;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/MultiLineLabelLayout;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/vr4;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/MultiLineLabelLayout;)V
 
     const-string v0, "detaillabelcard"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/sr4;->e(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/vr4;->e(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelGeneralCard;->z:Landroid/widget/TextView;
 
@@ -68,7 +68,7 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/sr4;->f(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/vr4;->f(I)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelGeneralCard;->y:Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelBean;
 
@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/sr4;->a(Ljava/util/List;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/vr4;->a(Ljava/util/List;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
     .line 1
     const v0, 0x7f0a152e
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a0680
 
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/detaillabelcard/DetailLabelGeneralCard;->x:Lcom/huawei/appgallery/foundation/ui/framework/widget/MultiLineLabelLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 

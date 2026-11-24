@@ -531,6 +531,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final generateDefaultLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -957,6 +958,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final l()Z
@@ -1739,30 +1741,28 @@
 
     .line 309
     .line 310
-    add-int/2addr v7, v4
+    invoke-static {v7, v4, v3, v5}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
     .line 311
-    add-int/2addr v7, v3
-
     .line 312
-    add-int/2addr v7, v5
-
     .line 313
-    move v5, v7
+    move-result v4
 
     .line 314
+    move v5, v4
+
+    .line 315
     :cond_d
     :goto_9
     add-int/lit8 v8, v8, 0x1
 
-    .line 315
     .line 316
+    .line 317
     goto :goto_8
 
-    .line 317
+    .line 318
     :cond_e
     return-void
-    .line 318
     .line 319
     .line 320
     .line 321

@@ -2,290 +2,178 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-.implements Ljava/lang/Comparable;
-
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/huawei/appmarket/rf$a;,
         Lcom/huawei/appmarket/rf$b;
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/lang/Runnable;",
-        "Ljava/lang/Comparable<",
-        "Lcom/huawei/appmarket/rf;",
-        ">;"
     }
 .end annotation
 
 
 # instance fields
-.field private final b:Ljava/util/concurrent/atomic/AtomicBoolean;
+.field private a:Ljava/util/concurrent/ThreadPoolExecutor;
 
-.field private volatile c:Lcom/huawei/appmarket/rf$b;
+.field private b:Ljava/util/concurrent/ThreadPoolExecutor;
 
-.field private d:Lcom/huawei/appmarket/sf$b;
-
-.field private e:Lcom/huawei/appmarket/pf;
-
-.field private f:I
-
-.field private g:Lcom/huawei/appmarket/sf$a;
+.field private c:Ljava/util/concurrent/atomic/AtomicInteger;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/sf$b;Lcom/huawei/appmarket/sf$a;Lcom/huawei/appmarket/pf;)V
-    .registers 6
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 16
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rf;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    sget-object v0, Lcom/huawei/appmarket/rf$b;->b:Lcom/huawei/appmarket/rf$b;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rf;->c:Lcom/huawei/appmarket/rf$b;
-
-    sget-object v0, Lcom/huawei/appmarket/sf$a;->c:Lcom/huawei/appmarket/sf$a;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/rf;->d:Lcom/huawei/appmarket/sf$b;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/rf;->g:Lcom/huawei/appmarket/sf$a;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/rf;->e:Lcom/huawei/appmarket/pf;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method protected final a(Ljava/util/concurrent/ThreadPoolExecutor;)V
-    .registers 5
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->c:Lcom/huawei/appmarket/rf$b;
-
-    sget-object v1, Lcom/huawei/appmarket/rf$b;->b:Lcom/huawei/appmarket/rf$b;
-
-    if-eq v0, v1, :cond_2
-
-    sget-object v0, Lcom/huawei/appmarket/rf$a;->a:[I
-
-    iget-object v1, p0, Lcom/huawei/appmarket/rf;->c:Lcom/huawei/appmarket/rf$b;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    aget v0, v0, v1
-
-    const/4 v1, 0x1
-
-    const-string v2, "AgUikitDispatchWorkItem"
-
-    if-eq v0, v1, :cond_1
-
-    const/4 v1, 0x2
-
-    if-eq v0, v1, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/h0;->a:Lcom/huawei/appmarket/h0;
-
-    const-string v1, "Cannot execute task: the task has already been executed (a task can be executed only once)"
-
-    :goto_0
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :cond_1
-    sget-object v0, Lcom/huawei/appmarket/h0;->a:Lcom/huawei/appmarket/h0;
-
-    const-string v1, "Cannot execute task: the task is already running."
-
-    goto :goto_0
-
-    :cond_2
-    :goto_1
-    sget-object v0, Lcom/huawei/appmarket/rf$b;->c:Lcom/huawei/appmarket/rf$b;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/rf;->c:Lcom/huawei/appmarket/rf$b;
-
-    invoke-virtual {p1, p0}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
-
-    return-void
-.end method
-
-.method protected final b()Lcom/huawei/appmarket/pf;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->e:Lcom/huawei/appmarket/pf;
-
-    return-object v0
-.end method
-
-.method protected final c()Lcom/huawei/appmarket/sf$b;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->d:Lcom/huawei/appmarket/sf$b;
-
-    return-object v0
-.end method
-
-.method public final compareTo(Ljava/lang/Object;)I
-    .registers 6
-
-    .line 1
-    check-cast p1, Lcom/huawei/appmarket/rf;
-
     .line 2
     .line 3
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->g:Lcom/huawei/appmarket/sf$a;
-
     .line 4
+    const/4 v0, 0x0
+
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sf$a;->a()I
+    iput-object v0, p0, Lcom/huawei/appmarket/rf;->a:Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 6
     .line 7
-    .line 8
-    move-result v1
+    iput-object v0, p0, Lcom/huawei/appmarket/rf;->b:Ljava/util/concurrent/ThreadPoolExecutor;
 
+    .line 8
     .line 9
-    iget-object v2, p1, Lcom/huawei/appmarket/rf;->g:Lcom/huawei/appmarket/sf$a;
+    new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 10
     .line 11
-    invoke-virtual {v2}, Lcom/huawei/appmarket/sf$a;->a()I
+    const/4 v2, 0x0
 
     .line 12
-    .line 13
-    .line 14
-    move-result v2
+    const/4 v3, 0x1
 
+    .line 13
+    const-wide/16 v4, 0xa
+
+    .line 14
     .line 15
-    const/4 v3, -0x1
+    sget-object v11, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 16
-    if-le v1, v2, :cond_0
-
     .line 17
-    .line 18
-    goto :goto_1
+    new-instance v7, Ljava/util/concurrent/LinkedBlockingQueue;
 
+    .line 18
     .line 19
-    :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sf$a;->a()I
+    invoke-direct {v7}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
     .line 20
     .line 21
     .line 22
-    move-result v0
+    new-instance v8, Lcom/huawei/appmarket/ae6;
 
     .line 23
-    iget-object v1, p1, Lcom/huawei/appmarket/rf;->g:Lcom/huawei/appmarket/sf$a;
-
     .line 24
-    .line 25
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sf$a;->a()I
+    const-string v1, "Serial"
 
+    .line 25
     .line 26
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 27
     .line 28
-    move-result v1
-
     .line 29
-    const/4 v2, 0x1
+    move-result-object v1
 
     .line 30
-    if-ge v0, v1, :cond_1
+    invoke-direct {v8, v1}, Lcom/huawei/appmarket/ae6;-><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
-    :goto_0
-    const/4 v3, 0x1
-
     .line 33
-    goto :goto_1
+    move-object v1, v0
 
     .line 34
-    :cond_1
-    iget v0, p0, Lcom/huawei/appmarket/rf;->f:I
+    move-object v6, v11
 
     .line 35
-    .line 36
-    iget p1, p1, Lcom/huawei/appmarket/rf;->f:I
+    invoke-direct/range {v1 .. v8}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
 
+    .line 36
     .line 37
     .line 38
-    if-ge v0, p1, :cond_2
+    iput-object v0, p0, Lcom/huawei/appmarket/rf;->a:Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 39
     .line 40
-    goto :goto_1
+    new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 41
-    :cond_2
-    if-le v0, p1, :cond_3
-
     .line 42
+    const/4 v7, 0x0
+
     .line 43
-    goto :goto_0
+    const/4 v8, 0x4
 
     .line 44
-    :cond_3
-    const/4 v3, 0x0
+    const-wide/16 v9, 0xa
 
     .line 45
-    :goto_1
-    return v3
     .line 46
+    new-instance v12, Ljava/util/concurrent/PriorityBlockingQueue;
+
     .line 47
     .line 48
+    invoke-direct {v12}, Ljava/util/concurrent/PriorityBlockingQueue;-><init>()V
+
     .line 49
     .line 50
     .line 51
+    new-instance v13, Lcom/huawei/appmarket/ae6;
+
     .line 52
     .line 53
+    const-string v1, "Concurrent"
+
     .line 54
     .line 55
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
     .line 56
     .line 57
     .line 58
+    move-result-object p1
+
     .line 59
+    invoke-direct {v13, p1}, Lcom/huawei/appmarket/ae6;-><init>(Ljava/lang/String;)V
+
     .line 60
     .line 61
     .line 62
+    move-object v6, v0
+
     .line 63
+    invoke-direct/range {v6 .. v13}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+
     .line 64
     .line 65
     .line 66
+    iput-object v0, p0, Lcom/huawei/appmarket/rf;->b:Ljava/util/concurrent/ThreadPoolExecutor;
+
     .line 67
     .line 68
+    new-instance p1, Ljava/util/concurrent/atomic/AtomicInteger;
+
     .line 69
     .line 70
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
     .line 71
     .line 72
     .line 73
+    iput-object p1, p0, Lcom/huawei/appmarket/rf;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+
     .line 74
     .line 75
+    return-void
     .line 76
     .line 77
     .line 78
@@ -317,106 +205,116 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method protected final d(I)V
-    .registers 2
+
+# virtual methods
+.method public final a(Lcom/huawei/appmarket/rf$b;Lcom/huawei/appmarket/of;)V
+    .registers 5
 
     .line 1
-    iput p1, p0, Lcom/huawei/appmarket/rf;->f:I
-
-    return-void
-.end method
-
-.method public final equals(Ljava/lang/Object;)Z
-    .registers 2
-
-    .line 1
-    invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final hashCode()I
-    .registers 2
-
-    .line 1
-    invoke-super {p0}, Ljava/lang/Object;->hashCode()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final run()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->e:Lcom/huawei/appmarket/pf;
+    new-instance v0, Lcom/huawei/appmarket/qf;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    sget-object v1, Lcom/huawei/appmarket/rf$a;->c:Lcom/huawei/appmarket/rf$a;
 
     .line 4
     .line 5
-    .line 6
-    sget-object v0, Lcom/huawei/appmarket/rf$b;->d:Lcom/huawei/appmarket/rf$b;
+    invoke-direct {v0, p1, v1, p2}, Lcom/huawei/appmarket/qf;-><init>(Lcom/huawei/appmarket/rf$b;Lcom/huawei/appmarket/rf$a;Lcom/huawei/appmarket/of;)V
 
+    .line 6
     .line 7
     .line 8
-    iput-object v0, p0, Lcom/huawei/appmarket/rf;->c:Lcom/huawei/appmarket/rf$b;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qf;->b()Lcom/huawei/appmarket/of;
 
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/huawei/appmarket/rf;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
-
     .line 11
+    move-result-object p1
+
     .line 12
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    if-nez p1, :cond_0
 
     .line 13
     .line 14
+    sget-object p1, Lcom/huawei/appmarket/h0;->a:Lcom/huawei/appmarket/h0;
+
     .line 15
-    return-void
     .line 16
+    const-string p2, "AgUikitDispatchWorkQueue"
+
     .line 17
     .line 18
+    const-string v0, "async item error:dispatchBlock is null"
+
     .line 19
     .line 20
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 21
     .line 22
     .line 23
+    goto :goto_1
+
     .line 24
+    :cond_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qf;->c()Lcom/huawei/appmarket/rf$b;
+
     .line 25
     .line 26
     .line 27
+    move-result-object p1
+
     .line 28
+    sget-object p2, Lcom/huawei/appmarket/rf$b;->c:Lcom/huawei/appmarket/rf$b;
+
     .line 29
     .line 30
+    if-ne p1, p2, :cond_1
+
     .line 31
     .line 32
+    iget-object p1, p0, Lcom/huawei/appmarket/rf;->a:Ljava/util/concurrent/ThreadPoolExecutor;
+
     .line 33
     .line 34
+    :goto_0
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qf;->a(Ljava/util/concurrent/ThreadPoolExecutor;)V
+
     .line 35
     .line 36
     .line 37
+    goto :goto_1
+
     .line 38
+    :cond_1
+    iget-object p1, p0, Lcom/huawei/appmarket/rf;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+
     .line 39
     .line 40
+    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
+
     .line 41
     .line 42
     .line 43
+    move-result p1
+
     .line 44
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/qf;->d(I)V
+
     .line 45
     .line 46
     .line 47
+    iget-object p1, p0, Lcom/huawei/appmarket/rf;->b:Ljava/util/concurrent/ThreadPoolExecutor;
+
     .line 48
     .line 49
+    goto :goto_0
+
     .line 50
+    :goto_1
+    return-void
     .line 51
     .line 52
     .line 53
@@ -504,4 +402,30 @@
     .line 135
     .line 136
     .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
 .end method

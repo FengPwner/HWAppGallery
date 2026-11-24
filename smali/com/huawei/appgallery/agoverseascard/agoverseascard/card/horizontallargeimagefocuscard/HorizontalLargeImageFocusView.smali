@@ -139,7 +139,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/horizontallargeimagefocuscard/HorizontalLargeImageFocusView;->f:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    const p1, 0x7f0a1637
+    const p1, 0x7f0a1638
 
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

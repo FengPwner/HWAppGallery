@@ -27,11 +27,11 @@
     if-eqz p1, :cond_0
 
     :try_start_0
-    new-instance v0, Lcom/huawei/appmarket/nd3;
+    new-instance v0, Lcom/huawei/appmarket/pd3;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/nd3;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/pd3;-><init>(Landroid/app/Activity;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nd3;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pd3;->b()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -46,7 +46,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

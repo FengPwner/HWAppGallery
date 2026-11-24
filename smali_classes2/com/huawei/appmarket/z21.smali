@@ -77,7 +77,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -111,7 +111,7 @@
     .registers 1
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/n73;
+    const-class v0, Lcom/huawei/appmarket/q73;
 
     sput-object v0, Lcom/huawei/appmarket/z21;->a:Ljava/lang/Class;
 

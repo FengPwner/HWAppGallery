@@ -852,7 +852,7 @@
 
     .line 24
     :cond_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -1208,7 +1208,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, p1, p2, v2}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, p2, v2}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     .line 9
@@ -1511,7 +1511,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public networkUnavailable(JJ)Z

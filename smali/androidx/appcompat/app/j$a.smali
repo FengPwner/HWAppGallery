@@ -1,5 +1,5 @@
 .class final Landroidx/appcompat/app/j$a;
-.super Lcom/huawei/appmarket/ij8;
+.super Lcom/huawei/appmarket/oj8;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Landroidx/appcompat/app/j$a;->a:Landroidx/appcompat/app/j;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ij8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/oj8;-><init>()V
 
     return-void
 .end method
@@ -47,13 +47,13 @@
 
     iget-object p1, p1, Landroidx/appcompat/app/j;->b:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
-    iget-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->z:Lcom/huawei/appmarket/fj8;
+    iget-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->z:Lcom/huawei/appmarket/lj8;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fj8;->f(Lcom/huawei/appmarket/hj8;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lj8;->f(Lcom/huawei/appmarket/nj8;)V
 
-    iput-object v1, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->z:Lcom/huawei/appmarket/fj8;
+    iput-object v1, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->z:Lcom/huawei/appmarket/lj8;
 
     return-void
 .end method

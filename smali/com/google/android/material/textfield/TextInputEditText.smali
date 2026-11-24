@@ -38,7 +38,7 @@
     .line 3
     const/4 v0, 0x0
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object v1
 
@@ -50,7 +50,7 @@
 
     iput-object v1, p0, Lcom/google/android/material/textfield/TextInputEditText;->h:Landroid/graphics/Rect;
 
-    sget-object v4, Lcom/huawei/appmarket/ie6;->c0:[I
+    sget-object v4, Lcom/huawei/appmarket/ke6;->c0:[I
 
     const v6, 0x7f130422
 
@@ -62,7 +62,7 @@
 
     move v5, p3
 
-    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
@@ -645,6 +645,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
@@ -801,7 +802,7 @@
 
     .line 63
     .line 64
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 65
     .line 66

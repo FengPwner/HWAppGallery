@@ -29,11 +29,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/cu4;)V
+.method public abstract a(Lcom/huawei/appmarket/fu4;)V
 .end method
 
 .method public abstract b()Landroidx/lifecycle/h$b;
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/cu4;)V
+.method public abstract c(Lcom/huawei/appmarket/fu4;)V
 .end method

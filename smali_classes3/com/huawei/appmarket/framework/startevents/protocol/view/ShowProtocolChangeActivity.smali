@@ -31,9 +31,9 @@
 
     const-string v0, "Component UIModule onCreate"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/n96;->a()Lcom/huawei/appmarket/ah3;
+    invoke-static {}, Lcom/huawei/appmarket/p96;->a()Lcom/huawei/appmarket/ch3;
 
     move-result-object p1
 
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appmarket/framework/startevents/protocol/view/ShowProtocolChangeActivity$b;-><init>(Lcom/huawei/appmarket/framework/startevents/protocol/view/ShowProtocolChangeActivity$a;)V
 
-    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/ah3;->A(Landroid/app/Activity;Lcom/huawei/appmarket/j96;)V
+    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/ch3;->A(Landroid/app/Activity;Lcom/huawei/appmarket/l96;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 

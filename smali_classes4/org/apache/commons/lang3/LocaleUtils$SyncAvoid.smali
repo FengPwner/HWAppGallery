@@ -50,7 +50,7 @@
 
     invoke-direct {v1, v2}, Lorg/apache/commons/lang3/a;-><init>(I)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ur4;->h(Lorg/apache/commons/lang3/a;)Ljava/util/Comparator;
+    invoke-static {v1}, Lcom/huawei/appmarket/xr4;->h(Lorg/apache/commons/lang3/a;)Ljava/util/Comparator;
 
     move-result-object v1
 

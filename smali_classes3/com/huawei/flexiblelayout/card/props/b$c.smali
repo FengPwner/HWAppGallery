@@ -27,7 +27,7 @@
     const-string v0, "dpi"
 
     .line 1
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bu0;->i(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/kd0;->i(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

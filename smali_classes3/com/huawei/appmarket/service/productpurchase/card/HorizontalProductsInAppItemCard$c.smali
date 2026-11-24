@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard$c;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard$c;->b:Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard;->m2(Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard;->m2(Lcom/huawei/appmarket/service/productpurchase/card/HorizontalProductsInAppItemCard;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v1
 
@@ -56,7 +56,7 @@
 
     const-string p1, "HorizontalProductsInAppItemCard"
 
-    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_0
     return-void

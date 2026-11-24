@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # instance fields
@@ -215,11 +215,11 @@
 
     .line 17
     .line 18
-    check-cast p1, Lcom/huawei/appmarket/ab8;
+    check-cast p1, Lcom/huawei/appmarket/fb8;
 
     .line 19
     .line 20
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/UpdatedRecordDetailFragment;->E7(Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/UpdatedRecordDetailFragment;Lcom/huawei/appmarket/ab8;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/UpdatedRecordDetailFragment;->E7(Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/UpdatedRecordDetailFragment;Lcom/huawei/appmarket/fb8;)V
 
     .line 21
     .line 22
@@ -262,7 +262,7 @@
 
     .line 40
     :pswitch_3
-    check-cast v1, Lcom/huawei/appmarket/eb4;
+    check-cast v1, Lcom/huawei/appmarket/gb4;
 
     .line 41
     .line 42
@@ -270,7 +270,7 @@
 
     .line 43
     .line 44
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/eb4;->a(Lcom/huawei/appmarket/eb4;Ljava/lang/Boolean;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gb4;->a(Lcom/huawei/appmarket/gb4;Ljava/lang/Boolean;)V
 
     .line 45
     .line 46
@@ -300,11 +300,11 @@
 
     .line 57
     .line 58
-    check-cast p1, Lcom/huawei/appmarket/wn3;
+    check-cast p1, Lcom/huawei/appmarket/yn3;
 
     .line 59
     .line 60
-    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewOpenActivity;->F3(Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewOpenActivity;Lcom/huawei/appmarket/wn3;)V
+    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewOpenActivity;->F3(Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewOpenActivity;Lcom/huawei/appmarket/yn3;)V
 
     .line 61
     .line 62
@@ -317,11 +317,11 @@
 
     .line 65
     .line 66
-    check-cast p1, Lcom/huawei/appmarket/wn3;
+    check-cast p1, Lcom/huawei/appmarket/yn3;
 
     .line 67
     .line 68
-    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADistActivity;->F3(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADistActivity;Lcom/huawei/appmarket/wn3;)V
+    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADistActivity;->F3(Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/FADistActivity;Lcom/huawei/appmarket/yn3;)V
 
     .line 69
     .line 70
@@ -334,11 +334,11 @@
 
     .line 73
     .line 74
-    check-cast p1, Lcom/huawei/appmarket/wn3;
+    check-cast p1, Lcom/huawei/appmarket/yn3;
 
     .line 75
     .line 76
-    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->C3(Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;Lcom/huawei/appmarket/wn3;)V
+    invoke-static {v1, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;->C3(Lcom/huawei/appgallery/distribution/impl/harmony/adgslink/AgdsLinkActivity;Lcom/huawei/appmarket/yn3;)V
 
     .line 77
     .line 78

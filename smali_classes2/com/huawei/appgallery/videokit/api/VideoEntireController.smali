@@ -16,10 +16,10 @@
 
 .field private static final TAG:Ljava/lang/String; = "VideoEntireController"
 
-.field private static final instance$delegate:Lcom/huawei/appmarket/bt4;
+.field private static final instance$delegate:Lcom/huawei/appmarket/et4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/bt4<",
+            "Lcom/huawei/appmarket/et4<",
             "Lcom/huawei/appgallery/videokit/api/VideoEntireController;",
             ">;"
         }
@@ -48,19 +48,19 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->Companion:Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion;
 
-    sget-object v0, Lcom/huawei/appmarket/ot4;->b:Lcom/huawei/appmarket/ot4;
+    sget-object v0, Lcom/huawei/appmarket/rt4;->b:Lcom/huawei/appmarket/rt4;
 
     sget-object v1, Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion$instance$2;->INSTANCE:Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion$instance$2;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gt4;->b(Lcom/huawei/appmarket/ot4;Lcom/huawei/appmarket/os2;)Lcom/huawei/appmarket/bt4;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jt4;->b(Lcom/huawei/appmarket/rt4;Lcom/huawei/appmarket/rs2;)Lcom/huawei/appmarket/et4;
 
     move-result-object v0
 
-    sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-void
 .end method
@@ -80,7 +80,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 2
@@ -89,11 +89,11 @@
     return-void
 .end method
 
-.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/bt4;
+.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/et4;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sget-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-object v0
 .end method
@@ -139,7 +139,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -202,7 +202,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -265,7 +265,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -312,7 +312,7 @@
 
     const-string v2, "VideoEntireController"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->observerList:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -352,7 +352,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -584,7 +584,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xc
 
@@ -598,7 +598,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xd
 
@@ -612,7 +612,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
@@ -626,7 +626,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xe
 
@@ -640,7 +640,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x6
 
@@ -654,7 +654,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -668,11 +668,11 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "baseInfo"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->autoPlay(Ljava/lang/String;Lcom/huawei/appgallery/videokit/api/VideoBaseInfo;)V
 
@@ -694,7 +694,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->observerList:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -747,7 +747,7 @@
     const/4 v3, 0x0
 
     :goto_1
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -789,7 +789,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xf
 
@@ -803,7 +803,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->observerList:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -843,7 +843,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -870,7 +870,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->setLoop(Ljava/lang/String;Z)V
 
@@ -882,11 +882,11 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "url"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->setNextSource(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -898,7 +898,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/VideoEntireController;->observerList:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -938,7 +938,7 @@
     const/4 v2, 0x0
 
     :goto_1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -965,7 +965,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0x10
 
@@ -979,7 +979,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -993,7 +993,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0x11
 
@@ -1007,7 +1007,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x3
 
@@ -1021,7 +1021,7 @@
 
     const-string v0, "videoKey"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x5
 

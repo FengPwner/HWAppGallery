@@ -43,17 +43,17 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xk3;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/zk3;->a()V
 
     :cond_0
     return-void

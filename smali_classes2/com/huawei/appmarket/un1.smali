@@ -1,32 +1,35 @@
-.class public final Lcom/huawei/appmarket/un1;
-.super Lcom/huawei/appmarket/ja5;
+.class final Lcom/huawei/appmarket/un1;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
+# static fields
+.field static final a:Lcom/huawei/appmarket/un1;
+
+
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ja5;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/un1;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/un1;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/un1;->a:Lcom/huawei/appmarket/un1;
 
     return-void
 .end method
 
-
-# virtual methods
-.method protected final b()V
-    .registers 1
+.method constructor <init>()V
+    .registers 3
 
     .line 1
+    const-string v0, "DSK"
+
+    const/4 v1, 0x1
+
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
+
     return-void
-.end method
-
-.method protected final c()Lcom/huawei/appmarket/en;
-    .registers 2
-
-    .line 1
-    const/4 v0, 0x0
-
-    return-object v0
 .end method

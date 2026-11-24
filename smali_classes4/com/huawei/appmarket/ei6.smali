@@ -1,249 +1,166 @@
-.class public final Lcom/huawei/appmarket/ei6;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/ei6;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lj4$a;
+.implements Lcom/huawei/appmarket/rs2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/rs2<",
+        "Ljava/util/List<",
+        "+",
+        "Ljava/security/cert/X509Certificate;",
+        ">;>;"
+    }
+.end annotation
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/zh6;
-
-.field private final b:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final c:I
-
-.field private final d:Lcom/huawei/appmarket/n32;
-
-.field private final e:Lcom/huawei/appmarket/gr6;
-
-.field private final f:I
-
-.field private final g:I
-
-.field private final h:I
-
-.field private i:I
+.field final synthetic b:Lcom/huawei/appmarket/ci6;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/zh6;Ljava/util/List;ILcom/huawei/appmarket/n32;Lcom/huawei/appmarket/gr6;III)V
-    .registers 10
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/zh6;",
-            "Ljava/util/List<",
-            "+",
-            "Lcom/huawei/appmarket/lj4;",
-            ">;I",
-            "Lcom/huawei/appmarket/n32;",
-            "Lcom/huawei/appmarket/gr6;",
-            "III)V"
-        }
-    .end annotation
+.method constructor <init>(Lcom/huawei/appmarket/ci6;)V
+    .registers 2
 
     .line 1
-    const-string v0, "call"
+    iput-object p1, p0, Lcom/huawei/appmarket/ei6;->b:Lcom/huawei/appmarket/ci6;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    const/4 p1, 0x0
 
-    const-string v0, "interceptors"
-
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "request"
-
-    invoke-static {p5, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ei6;->a:Lcom/huawei/appmarket/zh6;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/ei6;->b:Ljava/util/List;
-
-    iput p3, p0, Lcom/huawei/appmarket/ei6;->c:I
-
-    iput-object p4, p0, Lcom/huawei/appmarket/ei6;->d:Lcom/huawei/appmarket/n32;
-
-    iput-object p5, p0, Lcom/huawei/appmarket/ei6;->e:Lcom/huawei/appmarket/gr6;
-
-    iput p6, p0, Lcom/huawei/appmarket/ei6;->f:I
-
-    iput p7, p0, Lcom/huawei/appmarket/ei6;->g:I
-
-    iput p8, p0, Lcom/huawei/appmarket/ei6;->h:I
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
 
-.method public static c(Lcom/huawei/appmarket/ei6;ILcom/huawei/appmarket/n32;Lcom/huawei/appmarket/gr6;I)Lcom/huawei/appmarket/ei6;
-    .registers 14
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .registers 5
 
     .line 1
-    and-int/lit8 v0, p4, 0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->b:Lcom/huawei/appmarket/ci6;
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
+    invoke-static {v0}, Lcom/huawei/appmarket/ci6;->c(Lcom/huawei/appmarket/ci6;)Lcom/huawei/appmarket/r43;
 
     .line 4
     .line 5
-    iget p1, p0, Lcom/huawei/appmarket/ei6;->c:I
-
     .line 6
+    move-result-object v0
+
     .line 7
-    :cond_0
-    move v3, p1
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     .line 8
-    and-int/lit8 p1, p4, 0x2
-
     .line 9
     .line 10
-    if-eqz p1, :cond_1
+    invoke-virtual {v0}, Lcom/huawei/appmarket/r43;->c()Ljava/util/List;
 
     .line 11
     .line 12
-    iget-object p2, p0, Lcom/huawei/appmarket/ei6;->d:Lcom/huawei/appmarket/n32;
-
     .line 13
+    move-result-object v0
+
     .line 14
-    :cond_1
-    move-object v4, p2
+    check-cast v0, Ljava/lang/Iterable;
 
     .line 15
-    and-int/lit8 p1, p4, 0x4
-
     .line 16
+    new-instance v1, Ljava/util/ArrayList;
+
     .line 17
-    if-eqz p1, :cond_2
-
     .line 18
-    .line 19
-    iget-object p3, p0, Lcom/huawei/appmarket/ei6;->e:Lcom/huawei/appmarket/gr6;
+    invoke-static {v0}, Lcom/huawei/appmarket/lt0;->f(Ljava/lang/Iterable;)I
 
+    .line 19
     .line 20
     .line 21
-    :cond_2
-    move-object v5, p3
+    move-result v2
 
     .line 22
-    and-int/lit8 p1, p4, 0x8
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 23
     .line 24
-    const/4 p2, 0x0
-
     .line 25
-    if-eqz p1, :cond_3
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 26
     .line 27
-    iget p1, p0, Lcom/huawei/appmarket/ei6;->f:I
-
     .line 28
+    move-result-object v0
+
     .line 29
-    move v6, p1
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 30
-    goto :goto_0
-
     .line 31
-    :cond_3
-    const/4 v6, 0x0
-
     .line 32
-    :goto_0
-    and-int/lit8 p1, p4, 0x10
+    move-result v2
 
     .line 33
+    if-eqz v2, :cond_0
+
     .line 34
-    if-eqz p1, :cond_4
-
     .line 35
-    .line 36
-    iget p1, p0, Lcom/huawei/appmarket/ei6;->g:I
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
+    .line 36
     .line 37
     .line 38
-    move v7, p1
+    move-result-object v2
 
     .line 39
-    goto :goto_1
+    check-cast v2, Ljava/security/cert/Certificate;
 
     .line 40
-    :cond_4
-    const/4 v7, 0x0
-
     .line 41
-    :goto_1
-    and-int/lit8 p1, p4, 0x20
+    const-string v3, "null cannot be cast to non-null type java.security.cert.X509Certificate"
 
     .line 42
     .line 43
-    if-eqz p1, :cond_5
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
     .line 45
-    iget p1, p0, Lcom/huawei/appmarket/ei6;->h:I
-
     .line 46
-    .line 47
-    move v8, p1
+    check-cast v2, Ljava/security/cert/X509Certificate;
 
+    .line 47
     .line 48
-    goto :goto_2
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 49
-    :cond_5
-    const/4 v8, 0x0
-
     .line 50
-    :goto_2
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
     .line 51
-    .line 52
-    .line 53
-    const-string p1, "request"
+    goto :goto_0
 
+    .line 52
+    :cond_0
+    return-object v1
+    .line 53
     .line 54
     .line 55
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 56
     .line 57
     .line 58
-    new-instance p1, Lcom/huawei/appmarket/ei6;
-
     .line 59
     .line 60
-    iget-object v1, p0, Lcom/huawei/appmarket/ei6;->a:Lcom/huawei/appmarket/zh6;
-
     .line 61
     .line 62
-    iget-object v2, p0, Lcom/huawei/appmarket/ei6;->b:Ljava/util/List;
-
     .line 63
     .line 64
-    move-object v0, p1
-
     .line 65
-    invoke-direct/range {v0 .. v8}, Lcom/huawei/appmarket/ei6;-><init>(Lcom/huawei/appmarket/zh6;Ljava/util/List;ILcom/huawei/appmarket/n32;Lcom/huawei/appmarket/gr6;III)V
-
     .line 66
     .line 67
     .line 68
-    return-object p1
     .line 69
     .line 70
     .line 71
@@ -504,601 +421,4 @@
     .line 326
     .line 327
     .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
-    .line 390
-    .line 391
-    .line 392
-    .line 393
-    .line 394
-    .line 395
-    .line 396
-    .line 397
-    .line 398
-    .line 399
-    .line 400
-    .line 401
-    .line 402
-    .line 403
-    .line 404
-    .line 405
-    .line 406
-    .line 407
-    .line 408
-    .line 409
-    .line 410
-    .line 411
-    .line 412
-    .line 413
-    .line 414
-    .line 415
-    .line 416
-    .line 417
-    .line 418
-    .line 419
-    .line 420
-    .line 421
-    .line 422
-    .line 423
-    .line 424
-    .line 425
-    .line 426
-    .line 427
-    .line 428
-    .line 429
-    .line 430
-    .line 431
-    .line 432
-    .line 433
-    .line 434
-    .line 435
-    .line 436
-    .line 437
-    .line 438
-    .line 439
-    .line 440
-    .line 441
-    .line 442
-    .line 443
-    .line 444
-    .line 445
-    .line 446
-    .line 447
-    .line 448
-    .line 449
-    .line 450
-    .line 451
-    .line 452
-    .line 453
-    .line 454
-    .line 455
-    .line 456
-    .line 457
-    .line 458
-    .line 459
-    .line 460
-    .line 461
-    .line 462
-    .line 463
-    .line 464
-    .line 465
-    .line 466
-    .line 467
-    .line 468
-    .line 469
-    .line 470
-    .line 471
-    .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
-    .line 555
-    .line 556
-    .line 557
-    .line 558
-    .line 559
-    .line 560
-    .line 561
-    .line 562
-    .line 563
-    .line 564
-    .line 565
-    .line 566
-    .line 567
-    .line 568
-    .line 569
-    .line 570
-    .line 571
-    .line 572
-    .line 573
-    .line 574
-    .line 575
-    .line 576
-    .line 577
-    .line 578
-    .line 579
-    .line 580
-    .line 581
-    .line 582
-    .line 583
-    .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-.end method
-
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/gr6;)Lcom/huawei/appmarket/vu6;
-    .registers 11
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    const-string v0, "request"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->b:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    iget v2, p0, Lcom/huawei/appmarket/ei6;->c:I
-
-    if-ge v2, v1, :cond_7
-
-    iget v1, p0, Lcom/huawei/appmarket/ei6;->i:I
-
-    const/4 v3, 0x1
-
-    add-int/2addr v1, v3
-
-    iput v1, p0, Lcom/huawei/appmarket/ei6;->i:I
-
-    const-string v1, " must call proceed() exactly once"
-
-    iget-object v4, p0, Lcom/huawei/appmarket/ei6;->d:Lcom/huawei/appmarket/n32;
-
-    const-string v5, "network interceptor "
-
-    if-eqz v4, :cond_2
-
-    invoke-virtual {v4}, Lcom/huawei/appmarket/n32;->j()Lcom/huawei/appmarket/p32;
-
-    move-result-object v6
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gr6;->i()Lcom/huawei/appmarket/id3;
-
-    move-result-object v7
-
-    invoke-virtual {v6, v7}, Lcom/huawei/appmarket/p32;->e(Lcom/huawei/appmarket/id3;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_1
-
-    iget v6, p0, Lcom/huawei/appmarket/ei6;->i:I
-
-    if-ne v6, v3, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sub-int/2addr v2, v3
-
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_1
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sub-int/2addr v2, v3
-
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v0, " must retain the same host and port"
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_2
-    :goto_0
-    add-int/lit8 v6, v2, 0x1
-
-    const/4 v7, 0x0
-
-    const/16 v8, 0x3a
-
-    invoke-static {p0, v6, v7, p1, v8}, Lcom/huawei/appmarket/ei6;->c(Lcom/huawei/appmarket/ei6;ILcom/huawei/appmarket/n32;Lcom/huawei/appmarket/gr6;I)Lcom/huawei/appmarket/ei6;
-
-    move-result-object p1
-
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/huawei/appmarket/lj4;
-
-    invoke-interface {v2, p1}, Lcom/huawei/appmarket/lj4;->intercept(Lcom/huawei/appmarket/lj4$a;)Lcom/huawei/appmarket/vu6;
-
-    move-result-object v7
-
-    const-string v8, "interceptor "
-
-    if-eqz v7, :cond_6
-
-    if-eqz v4, :cond_4
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v0
-
-    if-ge v6, v0, :cond_4
-
-    iget p1, p1, Lcom/huawei/appmarket/ei6;->i:I
-
-    if-ne p1, v3, :cond_3
-
-    goto :goto_1
-
-    :cond_3
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_4
-    :goto_1
-    invoke-virtual {v7}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_5
-
-    return-object v7
-
-    :cond_5
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v0, " returned a response with no body"
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_6
-    new-instance p1, Ljava/lang/NullPointerException;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, " returned null"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-
-    :cond_7
-    new-instance p1, Ljava/lang/IllegalStateException;
-
-    const-string v0, "Check failed."
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-.end method
-
-.method public final b()Lcom/huawei/appmarket/zh6;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->a:Lcom/huawei/appmarket/zh6;
-
-    return-object v0
-.end method
-
-.method public final d()Lcom/huawei/appmarket/zh6;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->a:Lcom/huawei/appmarket/zh6;
-
-    return-object v0
-.end method
-
-.method public final e()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ei6;->f:I
-
-    return v0
-.end method
-
-.method public final f()Lcom/huawei/appmarket/n32;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->d:Lcom/huawei/appmarket/n32;
-
-    return-object v0
-.end method
-
-.method public final g()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ei6;->g:I
-
-    return v0
-.end method
-
-.method public final h()Lcom/huawei/appmarket/gr6;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->e:Lcom/huawei/appmarket/gr6;
-
-    return-object v0
-.end method
-
-.method public final i()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ei6;->h:I
-
-    return v0
-.end method
-
-.method public final j()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ei6;->g:I
-
-    return v0
-.end method
-
-.method public final request()Lcom/huawei/appmarket/gr6;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ei6;->e:Lcom/huawei/appmarket/gr6;
-
-    return-object v0
 .end method

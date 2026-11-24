@@ -13,7 +13,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalApplistSingleItemCard;-><init>(Landroid/content/Context;)V
 
@@ -97,7 +97,7 @@
 
     if-eqz v1, :cond_5
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ip7;->G(Ljava/lang/String;)Ljava/lang/Float;
+    invoke-static {v1}, Lcom/huawei/appmarket/np7;->G(Ljava/lang/String;)Ljava/lang/Float;
 
     move-result-object v1
 
@@ -143,7 +143,7 @@
     float-to-int v2, v2
 
     :goto_1
-    sget-object v5, Lcom/huawei/appmarket/vo7;->a:Lcom/huawei/appmarket/vo7;
+    sget-object v5, Lcom/huawei/appmarket/ap7;->a:Lcom/huawei/appmarket/ap7;
 
     sget-object v5, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -165,7 +165,7 @@
 
     const-string v5, "format(...)"
 
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v5, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -199,7 +199,7 @@
 
     if-eqz v2, :cond_7
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ip7;->u(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/np7;->u(Ljava/lang/CharSequence;)Z
 
     move-result v5
 
@@ -229,7 +229,7 @@
     goto :goto_2
 
     :cond_8
-    invoke-static {v1}, Lcom/huawei/appmarket/ip7;->u(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/np7;->u(Ljava/lang/CharSequence;)Z
 
     move-result v2
 

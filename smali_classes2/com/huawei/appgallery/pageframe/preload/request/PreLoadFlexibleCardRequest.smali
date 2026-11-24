@@ -11,22 +11,22 @@
 
 # instance fields
 .field private hashes:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private mcc:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private mnc:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private requireType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -47,13 +47,13 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/pageframe/preload/request/PreLoadFlexibleCardRequest;->hashes:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->e()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/huawei/appgallery/pageframe/preload/request/PreLoadFlexibleCardRequest;->mnc:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->d()Ljava/lang/String;
 
     move-result-object p1
 

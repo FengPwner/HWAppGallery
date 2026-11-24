@@ -62,7 +62,7 @@
     .line 23
     .line 24
     .line 25
-    sget p2, Lcom/huawei/appmarket/ge8;->a:I
+    sget p2, Lcom/huawei/appmarket/le8;->a:I
 
     .line 26
     .line 27
@@ -118,7 +118,7 @@
 
     .line 51
     .line 52
-    invoke-static {p1}, Lcom/huawei/appmarket/hs2;->b(Landroid/media/MediaCodec$CodecException;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ks2;->b(Landroid/media/MediaCodec$CodecException;)I
 
     .line 53
     .line 54
@@ -137,7 +137,7 @@
 
     .line 59
     :cond_3
-    invoke-static {v1}, Lcom/huawei/appmarket/ge8;->A(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/le8;->A(Ljava/lang/String;)I
 
     .line 60
     .line 61

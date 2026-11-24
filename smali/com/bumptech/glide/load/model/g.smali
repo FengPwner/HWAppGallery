@@ -31,11 +31,11 @@
     .end annotation
 .end method
 
-.method public abstract b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public abstract b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TModel;II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
             "Lcom/bumptech/glide/load/model/g$a<",
             "TData;>;"

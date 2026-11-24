@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/js3;
+.implements Lcom/huawei/appmarket/ls3;
 
 
 # annotations
@@ -50,16 +50,16 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    sget-object v0, Lcom/huawei/appmarket/z93;->c:Lcom/huawei/appmarket/z93;
+    sget-object v0, Lcom/huawei/appmarket/ca3;->c:Lcom/huawei/appmarket/ca3;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lcom/huawei/appmarket/z93;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ca3;->a()I
 
     .line 11
     .line 12
@@ -91,7 +91,7 @@
     const/4 v0, 0x1
 
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 27
     .line 28
@@ -107,7 +107,7 @@
 
     .line 33
     .line 34
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -119,7 +119,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v2, v1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, v1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 41
     .line 42
@@ -127,7 +127,7 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 45
     .line 46
@@ -206,5 +206,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -22,11 +22,11 @@
 
 .field final synthetic c:Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$c;
 
-.field final synthetic d:Lcom/huawei/appmarket/xv4;
+.field final synthetic d:Lcom/huawei/appmarket/aw4;
 
 
 # direct methods
-.method constructor <init>(Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter;Ljava/lang/String;Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$c;Lcom/huawei/appmarket/xv4;)V
+.method constructor <init>(Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter;Ljava/lang/String;Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$c;Lcom/huawei/appmarket/aw4;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -39,7 +39,7 @@
 
     iput-object p3, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$a;->c:Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$c;
 
-    iput-object p4, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$a;->d:Lcom/huawei/appmarket/xv4;
+    iput-object p4, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$a;->d:Lcom/huawei/appmarket/aw4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -73,7 +73,7 @@
     const/4 v1, 0x0
 
     :try_start_0
-    iget-object v2, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$a;->d:Lcom/huawei/appmarket/xv4;
+    iget-object v2, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$a;->d:Lcom/huawei/appmarket/aw4;
 
     invoke-interface {v2}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 

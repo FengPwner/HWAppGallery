@@ -121,7 +121,7 @@
 
     sput v0, Lcom/huawei/appmarket/r00;->c:I
 
-    sget-object v0, Lcom/huawei/appmarket/rn1;->a:Lcom/huawei/appmarket/rn1;
+    sget-object v0, Lcom/huawei/appmarket/un1;->a:Lcom/huawei/appmarket/un1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -149,7 +149,7 @@
 
     const-string p1, "AverageCalculator"
 
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-wide p0, Lcom/huawei/appmarket/r00;->b:D
 

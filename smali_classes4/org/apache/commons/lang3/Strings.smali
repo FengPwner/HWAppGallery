@@ -258,9 +258,9 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/qm2;
+    new-instance v0, Lcom/huawei/appmarket/sm2;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qm2;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/sm2;-><init>(Ljava/lang/Object;)V
 
     invoke-static {v0, p1, p2}, Lorg/apache/commons/lang3/Strings;->containsAny(Lorg/apache/commons/lang3/function/ToBooleanBiFunction;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Z
 

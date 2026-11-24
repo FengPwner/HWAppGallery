@@ -235,7 +235,7 @@
 
     .line 32
     .line 33
-    invoke-static {v2, v1, v0, v3}, Lcom/huawei/appmarket/bq6;->D(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v0, v3}, Lcom/huawei/appmarket/eq6;->C(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35

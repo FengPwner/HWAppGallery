@@ -1,5 +1,5 @@
-.class final synthetic Lcom/huawei/appmarket/rp4$a;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/rp4$a;
+.super Ljava/io/Writer;
 .source "SourceFile"
 
 
@@ -9,75 +9,51 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1008
+    accessFlags = 0x0
     name = null
 .end annotation
 
 
-# static fields
-.field static final synthetic a:[I
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 3
+.method constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/io/Writer;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final close()V
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/fp4$b;->values()[Lcom/huawei/appmarket/fp4$b;
+    new-instance v0, Ljava/lang/AssertionError;
 
-    move-result-object v0
+    invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
 
-    array-length v0, v0
+    throw v0
+.end method
 
-    new-array v0, v0, [I
+.method public final flush()V
+    .registers 2
 
-    sput-object v0, Lcom/huawei/appmarket/rp4$a;->a:[I
+    .line 1
+    new-instance v0, Ljava/lang/AssertionError;
 
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/fp4$b;->h:Lcom/huawei/appmarket/fp4$b;
+    invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    throw v0
+.end method
 
-    move-result v1
+.method public final write([CII)V
+    .registers 4
 
-    const/4 v2, 0x1
+    .line 1
+    new-instance p1, Ljava/lang/AssertionError;
 
-    aput v2, v0, v1
-    :try_end_0
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    :catch_0
-    :try_start_1
-    sget-object v0, Lcom/huawei/appmarket/rp4$a;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/fp4$b;->b:Lcom/huawei/appmarket/fp4$b;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x2
-
-    aput v2, v0, v1
-    :try_end_1
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
-
-    :catch_1
-    :try_start_2
-    sget-object v0, Lcom/huawei/appmarket/rp4$a;->a:[I
-
-    sget-object v1, Lcom/huawei/appmarket/fp4$b;->d:Lcom/huawei/appmarket/fp4$b;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/4 v2, 0x3
-
-    aput v2, v0, v1
-    :try_end_2
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
-
-    :catch_2
-    return-void
+    throw p1
 .end method

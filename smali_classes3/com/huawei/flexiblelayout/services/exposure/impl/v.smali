@@ -6,7 +6,7 @@
 # instance fields
 .field private final a:Landroidx/lifecycle/h;
 
-.field private b:Lcom/huawei/appmarket/cu4;
+.field private b:Lcom/huawei/appmarket/fu4;
 
 .field private final c:Ljava/util/ArrayList;
 
@@ -41,7 +41,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/cu4;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/fu4;
 
     .line 2
     .line 3
@@ -53,7 +53,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     .line 8
     .line 9
@@ -61,7 +61,7 @@
     const/4 v0, 0x0
 
     .line 11
-    iput-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/cu4;
+    iput-object v0, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/fu4;
 
     .line 12
     .line 13
@@ -168,7 +168,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -184,7 +183,7 @@
     return-void
 .end method
 
-.method public final c(Lcom/huawei/appmarket/ak8;)V
+.method public final c(Lcom/huawei/appmarket/gk8;)V
     .registers 3
 
     .line 1
@@ -197,7 +196,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/cu4;
+    iget-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/fu4;
 
     .line 7
     .line 8
@@ -214,7 +213,7 @@
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/cu4;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/services/exposure/impl/v;->b:Lcom/huawei/appmarket/fu4;
 
     .line 16
     .line 17
@@ -222,7 +221,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 20
     .line 21
@@ -321,5 +320,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

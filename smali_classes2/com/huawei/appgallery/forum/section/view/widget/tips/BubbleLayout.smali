@@ -36,7 +36,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 5
     .line 6
@@ -48,7 +48,7 @@
 
     .line 9
     .line 10
-    sget-object v0, Lcom/huawei/appmarket/ye6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/af6;->a:[I
 
     .line 11
     .line 12
@@ -328,7 +328,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private a()V
@@ -1605,11 +1604,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method protected final onSizeChanged(IIII)V
@@ -1932,7 +1926,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setTriangleOffset(I)V

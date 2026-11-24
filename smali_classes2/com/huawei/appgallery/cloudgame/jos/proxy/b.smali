@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ca3$a;
+.implements Lcom/huawei/appmarket/fa3$a;
 
 
 # instance fields
 .field final synthetic a:J
 
-.field final synthetic b:Lcom/huawei/appmarket/dn0;
+.field final synthetic b:Lcom/huawei/appmarket/en0;
 
 .field final synthetic c:Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/appmarket/dn0;)V
+.method constructor <init>(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/appmarket/en0;)V
     .registers 5
 
     .line 1
@@ -23,7 +23,7 @@
 
     iput-wide p2, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->a:J
 
-    iput-object p4, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->b:Lcom/huawei/appmarket/dn0;
+    iput-object p4, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->b:Lcom/huawei/appmarket/en0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,20 +50,20 @@
 
     const-string v3, "HuaweiApiClient connect success"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->c:Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;
 
-    iget-object v3, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->b:Lcom/huawei/appmarket/dn0;
+    iget-object v3, p0, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;->b:Lcom/huawei/appmarket/en0;
 
-    invoke-static {v2, v0, v1, p1, v3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->h(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appmarket/dn0;)V
+    invoke-static {v2, v0, v1, p1, v3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->h(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appmarket/en0;)V
 
     goto :goto_0
 
     :cond_0
     const-string p1, "HuaweiApiClient connect failed"
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bg0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/cg0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

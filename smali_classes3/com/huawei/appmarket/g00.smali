@@ -45,7 +45,7 @@
     .registers 7
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->g()Landroid/content/pm/PackageManager;
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->g()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -106,7 +106,7 @@
 
     .line 27
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 29
     .line 30
@@ -122,7 +122,7 @@
 
     .line 35
     .line 36
-    invoke-static {v6, v5, v2}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v5, v2}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -165,7 +165,7 @@
 
     .line 53
     .line 54
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -297,7 +297,7 @@
     const-string v0, "caller is null."
 
     :goto_0
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -330,7 +330,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/bu5;->c(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/du5;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
 

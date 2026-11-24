@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dv7;
+.implements Lcom/huawei/appmarket/jv7;
 
 
 # annotations
@@ -13,7 +13,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/dv7<",
+        "Lcom/huawei/appmarket/jv7<",
         "TZ;>;"
     }
 .end annotation
@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field private request:Lcom/huawei/appmarket/hr6;
+.field private request:Lcom/huawei/appmarket/kr6;
 
 
 # direct methods
@@ -37,11 +37,11 @@
 
 
 # virtual methods
-.method public getRequest()Lcom/huawei/appmarket/hr6;
+.method public getRequest()Lcom/huawei/appmarket/kr6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o50;->request:Lcom/huawei/appmarket/hr6;
+    iget-object v0, p0, Lcom/huawei/appmarket/o50;->request:Lcom/huawei/appmarket/kr6;
 
     return-object v0
 .end method
@@ -88,11 +88,11 @@
     return-void
 .end method
 
-.method public setRequest(Lcom/huawei/appmarket/hr6;)V
+.method public setRequest(Lcom/huawei/appmarket/kr6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/o50;->request:Lcom/huawei/appmarket/hr6;
+    iput-object p1, p0, Lcom/huawei/appmarket/o50;->request:Lcom/huawei/appmarket/kr6;
 
     return-void
 .end method

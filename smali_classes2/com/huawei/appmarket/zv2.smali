@@ -18,9 +18,7 @@
 
 .field public static final enum d:Lcom/huawei/appmarket/zv2;
 
-.field public static final enum e:Lcom/huawei/appmarket/zv2;
-
-.field private static final synthetic f:[Lcom/huawei/appmarket/zv2;
+.field private static final synthetic e:[Lcom/huawei/appmarket/zv2;
 
 
 # instance fields
@@ -40,8 +38,6 @@
 
     invoke-direct {v0, v1, v2, v2}, Lcom/huawei/appmarket/zv2;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lcom/huawei/appmarket/zv2;->c:Lcom/huawei/appmarket/zv2;
-
     new-instance v1, Lcom/huawei/appmarket/zv2;
 
     const-string v3, "OPEN"
@@ -50,7 +46,7 @@
 
     invoke-direct {v1, v3, v4, v4}, Lcom/huawei/appmarket/zv2;-><init>(Ljava/lang/String;II)V
 
-    sput-object v1, Lcom/huawei/appmarket/zv2;->d:Lcom/huawei/appmarket/zv2;
+    sput-object v1, Lcom/huawei/appmarket/zv2;->c:Lcom/huawei/appmarket/zv2;
 
     new-instance v3, Lcom/huawei/appmarket/zv2;
 
@@ -60,7 +56,7 @@
 
     invoke-direct {v3, v5, v6, v6}, Lcom/huawei/appmarket/zv2;-><init>(Ljava/lang/String;II)V
 
-    sput-object v3, Lcom/huawei/appmarket/zv2;->e:Lcom/huawei/appmarket/zv2;
+    sput-object v3, Lcom/huawei/appmarket/zv2;->d:Lcom/huawei/appmarket/zv2;
 
     const/4 v5, 0x3
 
@@ -72,7 +68,7 @@
 
     aput-object v3, v5, v6
 
-    sput-object v5, Lcom/huawei/appmarket/zv2;->f:[Lcom/huawei/appmarket/zv2;
+    sput-object v5, Lcom/huawei/appmarket/zv2;->e:[Lcom/huawei/appmarket/zv2;
 
     return-void
 .end method
@@ -91,40 +87,6 @@
     iput p3, p0, Lcom/huawei/appmarket/zv2;->b:I
 
     return-void
-.end method
-
-.method public static b(I)Lcom/huawei/appmarket/zv2;
-    .registers 6
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zv2;->values()[Lcom/huawei/appmarket/zv2;
-
-    move-result-object v0
-
-    array-length v1, v0
-
-    const/4 v2, 0x0
-
-    :goto_0
-    if-ge v2, v1, :cond_1
-
-    aget-object v3, v0, v2
-
-    iget v4, v3, Lcom/huawei/appmarket/zv2;->b:I
-
-    if-ne v4, p0, :cond_0
-
-    return-object v3
-
-    :cond_0
-    add-int/lit8 v2, v2, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    sget-object p0, Lcom/huawei/appmarket/zv2;->c:Lcom/huawei/appmarket/zv2;
-
-    return-object p0
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/zv2;
@@ -146,7 +108,7 @@
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zv2;->f:[Lcom/huawei/appmarket/zv2;
+    sget-object v0, Lcom/huawei/appmarket/zv2;->e:[Lcom/huawei/appmarket/zv2;
 
     invoke-virtual {v0}, [Lcom/huawei/appmarket/zv2;->clone()Ljava/lang/Object;
 

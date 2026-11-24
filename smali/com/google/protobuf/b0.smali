@@ -1726,6 +1726,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public static K(Lcom/google/protobuf/b0$c;Ljava/lang/Object;Lcom/google/protobuf/CodedOutputStream;)V
@@ -4055,7 +4062,7 @@
     move-result-object v0
 
     .line 44
-    instance-of v2, v0, Lcom/huawei/appmarket/r75;
+    instance-of v2, v0, Lcom/huawei/appmarket/u75;
 
     .line 45
     .line 46
@@ -4063,11 +4070,11 @@
 
     .line 47
     .line 48
-    check-cast v0, Lcom/huawei/appmarket/r75;
+    check-cast v0, Lcom/huawei/appmarket/u75;
 
     .line 49
     .line 50
-    invoke-interface {v0}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 51
     .line 52
@@ -4119,7 +4126,7 @@
     move-result-object p0
 
     .line 73
-    instance-of v0, p0, Lcom/huawei/appmarket/r75;
+    instance-of v0, p0, Lcom/huawei/appmarket/u75;
 
     .line 74
     .line 75
@@ -4127,11 +4134,11 @@
 
     .line 76
     .line 77
-    check-cast p0, Lcom/huawei/appmarket/r75;
+    check-cast p0, Lcom/huawei/appmarket/u75;
 
     .line 78
     .line 79
-    invoke-interface {p0}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {p0}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 80
     .line 81
@@ -4883,6 +4890,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final hashCode()I

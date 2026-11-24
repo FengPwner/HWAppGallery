@@ -262,7 +262,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p1
 

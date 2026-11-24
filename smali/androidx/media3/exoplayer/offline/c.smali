@@ -160,7 +160,7 @@
 
     .line 18
     .line 19
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 20
     .line 21
@@ -212,7 +212,7 @@
 
     .line 40
     .line 41
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 42
     .line 43
@@ -264,7 +264,7 @@
 
     .line 62
     .line 63
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 64
     .line 65

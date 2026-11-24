@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/og3;
+.implements Lcom/huawei/appmarket/qg3;
 
 
 # instance fields
@@ -179,7 +179,7 @@
 
     const-string v1, "catch an JSONException"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     iput-object v2, p0, Lcom/huawei/appmarket/cb;->k:Ljava/util/ArrayList;

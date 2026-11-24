@@ -90,7 +90,7 @@
     move-result-object v0
 
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -112,7 +112,7 @@
 
     const-string v2, "UserCommentActivity"
 
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method

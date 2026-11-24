@@ -83,7 +83,7 @@
             "(",
             "Landroid/content/Context;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;",
             "Lcom/huawei/appmarket/h00;",
             "J",
@@ -119,7 +119,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1, p4, p5, p6}, Lcom/huawei/agconnect/common/server/ClientImpl;->a(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/mn5;
+    invoke-virtual {p1, p4, p5, p6}, Lcom/huawei/agconnect/common/server/ClientImpl;->a(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/nn5;
 
     move-result-object p1
 
@@ -127,7 +127,7 @@
 
     invoke-direct {p2}, Lcom/huawei/agconnect/https/HttpsKit$Builder;-><init>()V
 
-    invoke-virtual {p2, p1}, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client(Lcom/huawei/appmarket/mn5;)Lcom/huawei/agconnect/https/HttpsKit$Builder;
+    invoke-virtual {p2, p1}, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client(Lcom/huawei/appmarket/nn5;)Lcom/huawei/agconnect/https/HttpsKit$Builder;
 
     move-result-object p1
 
@@ -190,7 +190,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+.method public a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
     .registers 16
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -203,7 +203,7 @@
             "TRsp;>;",
             "Lcom/huawei/agconnect/AGConnectOptions;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -229,14 +229,14 @@
 
     move-object v10, p4
 
-    invoke-virtual/range {v0 .. v10}, Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual/range {v0 .. v10}, Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+.method public a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
     .registers 22
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -251,12 +251,12 @@
             "J",
             "Ljava/util/concurrent/TimeUnit;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;",
             "Lcom/huawei/appmarket/h00;",
             "Lcom/huawei/agconnect/AGConnectOptions;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -280,9 +280,9 @@
     move-object v8, v2
 
     :goto_0
-    new-instance v9, Lcom/huawei/appmarket/nv7;
+    new-instance v9, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v9}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v9}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     const-string v2, "agcgw/url"
 
@@ -317,10 +317,10 @@
     invoke-direct {v0, v1, v2}, Lcom/huawei/agconnect/exception/AGCServerException;-><init>(Ljava/lang/String;I)V
 
     :goto_1
-    invoke-virtual {v9, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v9, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_2
-    invoke-virtual {v9}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v9}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -394,11 +394,11 @@
 
     move-result-object v0
 
-    invoke-interface {v0, v1}, Lcom/huawei/agconnect/https/Service;->execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/agconnect/https/Service;->execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -406,26 +406,26 @@
 
     move-object v3, p3
 
-    invoke-direct {v2, p0, p3, v8, v9}, Lcom/huawei/agconnect/common/server/BackendImpl$2;-><init>(Lcom/huawei/agconnect/common/server/BackendImpl;Ljava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, p3, v8, v9}, Lcom/huawei/agconnect/common/server/BackendImpl$2;-><init>(Lcom/huawei/agconnect/common/server/BackendImpl;Ljava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-instance v2, Lcom/huawei/agconnect/common/server/BackendImpl$1;
 
-    invoke-direct {v2, p0, v9}, Lcom/huawei/agconnect/common/server/BackendImpl$1;-><init>(Lcom/huawei/agconnect/common/server/BackendImpl;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, v9}, Lcom/huawei/agconnect/common/server/BackendImpl$1;-><init>(Lcom/huawei/agconnect/common/server/BackendImpl;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_2
 .end method
 
-.method public a(Ljava/lang/Object;ILjava/lang/Class;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+.method public a(Ljava/lang/Object;ILjava/lang/Class;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
     .registers 19
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -437,12 +437,12 @@
             "Ljava/lang/Class<",
             "TRsp;>;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;",
             "Lcom/huawei/appmarket/h00;",
             "Lcom/huawei/agconnect/AGConnectOptions;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "TRsp;>;"
         }
     .end annotation
@@ -470,7 +470,7 @@
 
     move-object/from16 v10, p6
 
-    invoke-virtual/range {v0 .. v10}, Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual/range {v0 .. v10}, Lcom/huawei/agconnect/common/server/BackendImpl;->a(Ljava/lang/Object;ILjava/lang/Class;Lcom/huawei/agconnect/https/Adapter$Factory;JLjava/util/concurrent/TimeUnit;Ljava/util/List;Lcom/huawei/appmarket/h00;Lcom/huawei/agconnect/AGConnectOptions;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 

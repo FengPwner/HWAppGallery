@@ -48,11 +48,11 @@
 
     invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setCheckable(Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/b78;->c()Lcom/huawei/appmarket/b78;
+    invoke-static {}, Lcom/huawei/appmarket/g78;->c()Lcom/huawei/appmarket/g78;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b78;->d()Ljava/util/concurrent/ConcurrentHashMap;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g78;->d()Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v0
 

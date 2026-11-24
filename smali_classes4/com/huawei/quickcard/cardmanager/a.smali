@@ -512,10 +512,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
@@ -957,248 +953,230 @@
 
     .line 181
     .line 182
-    new-instance v2, Ljava/lang/StringBuilder;
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/ci7;->o(Ljava/lang/String;Ljava/io/IOException;)Ljava/lang/String;
 
     .line 183
     .line 184
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 185
-    .line 186
-    .line 187
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 188
-    .line 189
-    .line 190
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 191
-    .line 192
-    .line 193
     move-result-object v2
 
-    .line 194
+    .line 186
     const/16 v3, 0x11
+
+    .line 187
+    .line 188
+    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+
+    .line 189
+    .line 190
+    .line 191
+    move-result-object p2
+
+    .line 192
+    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
+
+    .line 193
+    .line 194
+    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     .line 195
     .line 196
-    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+    check-cast v0, Ljava/lang/Integer;
 
     .line 197
     .line 198
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
     .line 199
-    move-result-object p2
-
     .line 200
-    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
-
     .line 201
+    move-result v0
+
     .line 202
-    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
+    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     .line 203
     .line 204
-    check-cast v0, Ljava/lang/Integer;
+    check-cast p2, Ljava/lang/String;
 
     .line 205
     .line 206
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
 
     .line 207
     .line 208
     .line 209
-    move-result v0
+    return-object p3
 
     .line 210
-    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
+    :cond_0
+    instance-of v2, p1, Ljava/net/SocketTimeoutException;
 
     .line 211
     .line 212
-    check-cast p2, Ljava/lang/String;
+    if-nez v2, :cond_2
 
     .line 213
     .line 214
-    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     .line 215
     .line 216
     .line 217
-    return-object p3
+    move-result-object v2
 
     .line 218
-    :cond_0
-    instance-of v2, p1, Ljava/net/SocketTimeoutException;
+    instance-of v2, v2, Ljava/net/SocketTimeoutException;
 
     .line 219
     .line 220
-    if-nez v2, :cond_2
+    if-eqz v2, :cond_1
 
     .line 221
     .line 222
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    goto :goto_4
 
     .line 223
+    :cond_1
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/ci7;->o(Ljava/lang/String;Ljava/io/IOException;)Ljava/lang/String;
+
     .line 224
     .line 225
+    .line 226
     move-result-object v2
 
-    .line 226
-    instance-of v2, v2, Ljava/net/SocketTimeoutException;
-
     .line 227
+    const/4 v3, 0x4
+
     .line 228
-    if-eqz v2, :cond_1
+    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
     .line 229
     .line 230
-    goto :goto_4
-
     .line 231
-    :cond_1
-    new-instance v2, Ljava/lang/StringBuilder;
+    move-result-object p2
 
     .line 232
-    .line 233
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
 
+    .line 233
     .line 234
+    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
+
     .line 235
     .line 236
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    check-cast v0, Ljava/lang/Integer;
 
     .line 237
     .line 238
-    .line 239
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
+    .line 239
     .line 240
     .line 241
+    move-result v0
+
     .line 242
-    move-result-object v2
+    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     .line 243
-    const/4 v3, 0x4
-
     .line 244
-    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+    check-cast p2, Ljava/lang/String;
 
     .line 245
     .line 246
+    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
+
     .line 247
-    move-result-object p2
-
     .line 248
-    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
-
     .line 249
+    return-object p3
+
     .line 250
-    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
+    :cond_2
+    :goto_4
+    const-string v2, "request card time out exception:"
 
     .line 251
     .line 252
-    check-cast v0, Ljava/lang/Integer;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/ci7;->o(Ljava/lang/String;Ljava/io/IOException;)Ljava/lang/String;
 
     .line 253
     .line 254
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-
     .line 255
-    .line 256
-    .line 257
-    move-result v0
+    move-result-object v2
 
+    .line 256
+    const/16 v3, 0x12
+
+    .line 257
     .line 258
-    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
+    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
     .line 259
     .line 260
-    check-cast p2, Ljava/lang/String;
-
     .line 261
+    move-result-object p2
+
     .line 262
-    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
+    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
 
     .line 263
     .line 264
-    .line 265
-    return-object p3
+    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
 
+    .line 265
     .line 266
-    :cond_2
-    :goto_4
-    new-instance v2, Ljava/lang/StringBuilder;
+    check-cast v0, Ljava/lang/Integer;
 
     .line 267
     .line 268
-    const-string v3, "request card time out exception:"
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 269
     .line 270
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 271
-    .line 272
-    .line 273
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    move-result v0
 
+    .line 272
+    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 273
     .line 274
+    check-cast p2, Ljava/lang/String;
+
     .line 275
     .line 276
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
 
     .line 277
     .line 278
     .line 279
-    move-result-object v2
-
+    return-object p3
     .line 280
-    const/16 v3, 0x12
-
     .line 281
     .line 282
-    invoke-static {v0, p3, p2, v3, v2}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
-
     .line 283
     .line 284
     .line 285
-    move-result-object p2
-
     .line 286
-    new-instance p3, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;
-
     .line 287
     .line 288
-    iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
-
     .line 289
     .line 290
-    check-cast v0, Ljava/lang/Integer;
-
     .line 291
     .line 292
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-
     .line 293
     .line 294
     .line 295
-    move-result v0
-
     .line 296
-    iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
-
     .line 297
     .line 298
-    check-cast p2, Ljava/lang/String;
-
     .line 299
     .line 300
-    invoke-direct {p3, v0, p2, v1, p1}, Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;-><init>(ILjava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;Ljava/lang/Exception;)V
-
     .line 301
     .line 302
     .line 303
-    return-object p3
     .line 304
     .line 305
     .line 306
@@ -1407,49 +1385,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method private static d(Lcom/huawei/quickcard/cardmanager/ICardRepository$Result;)Z
@@ -1661,7 +1596,7 @@
 
     move-result-object v10
 
-    const-string v11, "ver"
+    const-string/jumbo v11, "ver"
 
     invoke-virtual {v9, v11, v10}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1866,30 +1801,22 @@
 
     const/16 v6, 0x12c
 
-    if-eqz v5, :cond_8
+    if-eqz v5, :cond_14
 
     invoke-virtual {v5}, Lcom/huawei/quickcard/cardmanager/http/ManagerHttpResponse;->getCode()I
 
-    move-result v10
+    move-result v9
 
-    if-lez v10, :cond_9
+    if-lez v9, :cond_8
 
-    const/16 v14, 0xc8
+    const/16 v10, 0xc8
 
-    if-lt v10, v14, :cond_8
+    if-lt v9, v10, :cond_14
 
-    if-ge v10, v6, :cond_8
-
-    goto :goto_5
-
-    :cond_8
-    const/16 v7, 0x14
-
-    goto/16 :goto_a
+    if-ge v9, v6, :cond_14
 
     .line 10
-    :cond_9
-    :goto_5
+    :cond_8
     invoke-virtual {v5}, Lcom/huawei/quickcard/cardmanager/http/ManagerHttpResponse;->getResponse()Ljava/lang/String;
 
     move-result-object v5
@@ -1898,22 +1825,21 @@
 
     move-result v6
 
-    const-string v10, "success"
+    const-string v9, "success"
 
-    const/4 v14, 0x5
+    const/4 v10, 0x5
 
-    if-eqz v6, :cond_a
+    if-eqz v6, :cond_9
 
     const-string v5, "server: http response body is empty."
 
-    :goto_6
-    invoke-static {v4, v3, v2, v14, v5}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+    invoke-static {v4, v3, v2, v10, v5}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
     move-result-object v5
 
-    goto/16 :goto_9
+    goto/16 :goto_7
 
-    :cond_a
+    :cond_9
     new-instance v6, Lorg/json/JSONObject;
 
     invoke-direct {v6, v5}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
@@ -1924,75 +1850,75 @@
 
     move-result-object v5
 
-    const-string v15, "code"
+    const-string v14, "code"
 
-    invoke-virtual {v5, v15}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v15
-
-    :try_start_0
-    const-string v14, "0x"
-
-    invoke-virtual {v15, v14}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v14
-
-    if-nez v14, :cond_c
-
-    const-string v14, "0X"
-
-    invoke-virtual {v15, v14}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v14
-
-    if-eqz v14, :cond_b
-
-    goto :goto_7
-
-    :cond_b
-    invoke-static {v15}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v14
-
-    goto :goto_8
-
-    :cond_c
-    :goto_7
-    const/4 v14, 0x2
-
-    invoke-virtual {v15, v14}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v5, v14}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v14
 
-    const/16 v9, 0x10
+    :try_start_0
+    const-string v15, "0x"
 
-    invoke-static {v14, v9}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
+    invoke-virtual {v14, v15}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v15
+
+    if-nez v15, :cond_b
+
+    const-string v15, "0X"
+
+    invoke-virtual {v14, v15}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v15
+
+    if-eqz v15, :cond_a
+
+    goto :goto_5
+
+    :cond_a
+    invoke-static {v14}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v14
+
+    goto :goto_6
+
+    :cond_b
+    :goto_5
+    const/4 v15, 0x2
+
+    invoke-virtual {v14, v15}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v15
+
+    const/16 v10, 0x10
+
+    invoke-static {v15, v10}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
 
     move-result v14
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_8
+    goto :goto_6
 
     :catch_0
-    new-instance v9, Ljava/lang/StringBuilder;
+    new-instance v10, Ljava/lang/StringBuilder;
 
-    const-string v14, "parse code failed: "
+    const-string v15, "parse code failed: "
 
-    invoke-direct {v9, v14}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v10, v15}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v9, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v10, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v9}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v9
+    move-result-object v10
 
-    invoke-static {v8, v9}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v10}, Lcom/huawei/quickcard/cardmanager/log/ManagerLogUtil;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v14, 0x5
 
-    :goto_8
-    if-eqz v14, :cond_d
+    :goto_6
+    if-eqz v14, :cond_c
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -2012,9 +1938,13 @@
 
     move-result-object v5
 
-    goto :goto_6
+    invoke-static {v4, v3, v2, v14, v5}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
-    :cond_d
+    move-result-object v5
+
+    goto :goto_7
+
+    :cond_c
     const-string v5, "cardContent"
 
     invoke-virtual {v6, v5}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -2023,7 +1953,7 @@
 
     invoke-virtual {v1, v5}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->setContent(Ljava/lang/String;)V
 
-    const-string v5, "versionCode"
+    const-string/jumbo v5, "versionCode"
 
     invoke-virtual {v6, v5}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -2053,7 +1983,7 @@
 
     move-result v5
 
-    if-eqz v5, :cond_e
+    if-eqz v5, :cond_d
 
     const-string v5, "dependencies"
 
@@ -2061,7 +1991,7 @@
 
     move-result-object v5
 
-    if-eqz v5, :cond_e
+    if-eqz v5, :cond_d
 
     invoke-virtual {v5}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
 
@@ -2069,7 +1999,7 @@
 
     invoke-virtual {v1, v5}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->setDependencies(Ljava/lang/String;)V
 
-    :cond_e
+    :cond_d
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2086,12 +2016,12 @@
 
     move-result-object v5
 
-    invoke-static {v5, v10}, Landroid/util/Pair;->create(Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/Pair;
+    invoke-static {v5, v9}, Landroid/util/Pair;->create(Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/Pair;
 
     move-result-object v5
 
     .line 11
-    :goto_9
+    :goto_7
     iget-object v6, v5, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v6, Ljava/lang/Integer;
@@ -2100,11 +2030,11 @@
 
     move-result v6
 
-    if-eqz v6, :cond_f
+    if-eqz v6, :cond_e
 
     return-object v5
 
-    :cond_f
+    :cond_e
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->getType()Ljava/lang/String;
 
     move-result-object v5
@@ -2117,7 +2047,7 @@
 
     const/4 v6, 0x3
 
-    if-eqz v5, :cond_10
+    if-eqz v5, :cond_f
 
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->getMinPlatformVersion()I
 
@@ -2125,7 +2055,7 @@
 
     iget v7, v0, Lcom/huawei/quickcard/cardmanager/a;->c:I
 
-    if-le v5, v7, :cond_11
+    if-le v5, v7, :cond_10
 
     const-string v1, "server platform version not support."
 
@@ -2135,14 +2065,14 @@
 
     return-object v1
 
-    :cond_10
+    :cond_f
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->getMinPlatformVersion()I
 
     move-result v5
 
     iget v7, v0, Lcom/huawei/quickcard/cardmanager/a;->d:I
 
-    if-le v5, v7, :cond_11
+    if-le v5, v7, :cond_10
 
     const-string v1, "server sdk version not support."
 
@@ -2152,7 +2082,7 @@
 
     return-object v1
 
-    :cond_11
+    :cond_10
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->getContent()Ljava/lang/String;
 
     move-result-object v5
@@ -2161,7 +2091,7 @@
 
     move-result v5
 
-    if-nez v5, :cond_14
+    if-nez v5, :cond_13
 
     invoke-virtual/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->getContent()Ljava/lang/String;
 
@@ -2179,13 +2109,13 @@
 
     move-result v7
 
-    if-nez v7, :cond_12
+    if-nez v7, :cond_11
 
     invoke-virtual {v6, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
 
-    if-nez v5, :cond_13
+    if-nez v5, :cond_12
 
     const/16 v1, 0xe
 
@@ -2197,10 +2127,10 @@
 
     return-object v1
 
-    :cond_12
+    :cond_11
     invoke-virtual {v1, v5}, Lcom/huawei/quickcard/cardmanager/bean/CardBean;->setSign(Ljava/lang/String;)V
 
-    :cond_13
+    :cond_12
     invoke-static/range {p1 .. p1}, Lcom/huawei/quickcard/cardmanager/util/CardUriUtils;->getCardName(Lcom/huawei/quickcard/cardmanager/bean/CardBean;)Ljava/lang/String;
 
     move-result-object v5
@@ -2208,22 +2138,22 @@
     invoke-static {v5, v1}, Lcom/huawei/quickcard/cardmanager/a$a;->b(Ljava/lang/String;Lcom/huawei/quickcard/cardmanager/bean/CardBean;)V
 
     .line 12
-    new-instance v5, Lcom/huawei/appmarket/q92;
+    new-instance v5, Lcom/huawei/appmarket/st1;
 
-    const/16 v7, 0x14
+    const/16 v6, 0x16
 
-    invoke-direct {v5, v0, v7, v1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v5, v0, v6, v1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-static {v5}, Lcom/huawei/quickcard/cardmanager/task/TaskThreadUtil;->execute(Ljava/lang/Runnable;)V
 
     .line 13
-    invoke-static {v4, v3, v2, v13, v10}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+    invoke-static {v4, v3, v2, v13, v9}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
     move-result-object v1
 
     return-object v1
 
-    :cond_14
+    :cond_13
     const-string v1, "server card content is null."
 
     const/4 v5, 0x5
@@ -2234,12 +2164,12 @@
 
     return-object v1
 
-    :goto_a
+    :cond_14
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    move-result-wide v8
+    move-result-wide v7
 
-    invoke-virtual {v2, v8, v9}, Lcom/huawei/quickcard/cardmanager/bi/CardReportBean;->setEndTime(J)V
+    invoke-virtual {v2, v7, v8}, Lcom/huawei/quickcard/cardmanager/bi/CardReportBean;->setEndTime(J)V
 
     if-eqz v5, :cond_18
 
@@ -2247,40 +2177,40 @@
 
     move-result v1
 
-    const/16 v8, 0x1f4
+    const/16 v7, 0x1f4
 
-    if-lt v1, v8, :cond_15
+    if-lt v1, v7, :cond_15
 
-    const/16 v9, 0x15
+    const/16 v6, 0x15
 
-    goto :goto_b
+    goto :goto_8
 
     :cond_15
-    const/16 v8, 0x190
+    const/16 v7, 0x190
 
-    if-lt v1, v8, :cond_16
+    if-lt v1, v7, :cond_16
 
-    const/16 v9, 0x14
+    const/16 v6, 0x14
 
-    goto :goto_b
+    goto :goto_8
 
     :cond_16
     if-lt v1, v6, :cond_17
 
-    const/16 v9, 0x13
+    const/16 v6, 0x13
 
-    goto :goto_b
+    goto :goto_8
 
     :cond_17
-    const/16 v9, 0xf
+    const/16 v6, 0xf
 
-    :goto_b
-    const-string v6, "http code:"
+    :goto_8
+    const-string v7, "http code:"
 
-    const-string v7, " http error:"
+    const-string v8, " http error:"
 
     .line 14
-    invoke-static {v6, v1, v7}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v7, v1, v8}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -2295,7 +2225,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v3, v2, v9, v1}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
+    invoke-static {v4, v3, v2, v6, v1}, Lcom/huawei/quickcard/cardmanager/a;->b(Landroid/content/Context;ILcom/huawei/quickcard/cardmanager/bi/CardReportBean;ILjava/lang/String;)Landroid/util/Pair;
 
     move-result-object v1
 
@@ -2732,10 +2662,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static g(Lcom/huawei/quickcard/cardmanager/bean/CardBean;)Lcom/huawei/quickcard/cardmanager/bean/CardBean;
@@ -4439,65 +4365,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final checkSDKVersion(Lcom/huawei/quickcard/cardmanager/bean/CardBean;)Landroid/util/Pair;

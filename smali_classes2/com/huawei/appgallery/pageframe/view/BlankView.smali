@@ -88,13 +88,13 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result p1
 
@@ -103,7 +103,7 @@
     const/4 p1, 0x1
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     goto :goto_1
 
@@ -367,7 +367,7 @@
 
     .line 93
     :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 94
     .line 95
@@ -379,7 +379,7 @@
 
     .line 98
     .line 99
-    invoke-static {p2}, Lcom/huawei/appmarket/zn1;->q(Landroid/content/Context;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/co1;->q(Landroid/content/Context;)Z
 
     .line 100
     .line 101
@@ -391,7 +391,7 @@
 
     .line 104
     .line 105
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 106
     .line 107
@@ -411,7 +411,7 @@
 
     .line 113
     :goto_2
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     .line 114
     .line 115
@@ -470,7 +470,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public getViewHeight()I

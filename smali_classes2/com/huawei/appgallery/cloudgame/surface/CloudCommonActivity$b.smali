@@ -69,7 +69,7 @@
 
     const-string v1, "CloudCommonActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -111,13 +111,13 @@
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->j3()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     move-result-object p1
 
     const/4 p2, 0x1
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ag0;->g(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bg0;->g(Z)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity$b;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;
 
@@ -136,7 +136,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/xg5;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ah5;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -164,17 +164,17 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity$b;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;
 
-    iget-object p2, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/fh3;
+    iget-object p2, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/hh3;
 
     if-eqz p2, :cond_4
 
     const-string v0, "mobileTrafficDialog"
 
-    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/fh3;->j(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {p2, p1, v0}, Lcom/huawei/appmarket/hh3;->j(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -186,19 +186,19 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity$b;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;
 
-    iget-object p1, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/fh3;
+    iget-object p1, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     const-string p1, "mobile traffic dialog dismiss"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity$b;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;
 
     const/4 p2, 0x0
 
-    iput-object p2, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/fh3;
+    iput-object p2, p1, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->f:Lcom/huawei/appmarket/hh3;
 
     :cond_4
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity$b;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;

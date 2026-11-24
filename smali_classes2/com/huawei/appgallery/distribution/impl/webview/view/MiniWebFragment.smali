@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "mini_webview_fragment"
     protocol = Lcom/huawei/appgallery/distribution/impl/webview/protoco/IMiniWebViewFragmentProtocol;
 .end annotation

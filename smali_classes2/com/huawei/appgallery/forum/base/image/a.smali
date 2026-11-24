@@ -20,10 +20,10 @@
 # static fields
 .field private static r:I
 
-.field private static s:Lcom/huawei/appmarket/o26;
+.field private static s:Lcom/huawei/appmarket/q26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/o26<",
+            "Lcom/huawei/appmarket/q26<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -32,20 +32,20 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/m26;
+.field private a:Lcom/huawei/appmarket/o26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/m26<",
+            "Lcom/huawei/appmarket/o26<",
             "Lcom/huawei/appgallery/forum/base/image/a$a;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private b:Lcom/huawei/appmarket/m26;
+.field private b:Lcom/huawei/appmarket/o26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/m26<",
+            "Lcom/huawei/appmarket/o26<",
             "Lcom/huawei/appgallery/forum/base/image/a$b;",
             ">;"
         }
@@ -87,13 +87,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/o26;
+    new-instance v0, Lcom/huawei/appmarket/q26;
 
     const/4 v1, 0x6
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o26;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/q26;-><init>(I)V
 
-    sput-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/o26;
+    sput-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/q26;
 
     return-void
 .end method
@@ -103,19 +103,19 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/m26;
+    new-instance v0, Lcom/huawei/appmarket/o26;
 
     const/16 v1, 0x40
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/m26;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o26;-><init>(I)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/m26;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/o26;
 
-    new-instance v0, Lcom/huawei/appmarket/m26;
+    new-instance v0, Lcom/huawei/appmarket/o26;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/m26;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o26;-><init>(I)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a;->b:Lcom/huawei/appmarket/m26;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a;->b:Lcom/huawei/appmarket/o26;
 
     new-instance v0, Lcom/huawei/appgallery/forum/base/image/b;
 
@@ -178,11 +178,11 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/o26;
+    sget-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/q26;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/q26;->b()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -336,11 +336,11 @@
     .line 137
 .end method
 
-.method static synthetic c()Lcom/huawei/appmarket/o26;
+.method static synthetic c()Lcom/huawei/appmarket/q26;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/o26;
+    sget-object v0, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/q26;
 
     return-object v0
 .end method
@@ -373,11 +373,11 @@
 
     .line 4
     .line 5
-    iget-object v2, v0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/m26;
+    iget-object v2, v0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/o26;
 
     .line 6
     .line 7
-    invoke-virtual {v2}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -696,7 +696,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private j(Ljava/util/Map;)V
@@ -797,11 +796,11 @@
 
     .line 41
     .line 42
-    sget-object v4, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/o26;
+    sget-object v4, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/q26;
 
     .line 43
     .line 44
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/q26;->a(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -811,11 +810,11 @@
     .line 48
     .line 49
     :cond_1
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/m26;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/o26;
 
     .line 50
     .line 51
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/m26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
 
     .line 52
     .line 53
@@ -878,7 +877,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -1017,7 +1015,7 @@
     move-result v4
 
     .line 31
-    iget-object v11, v8, Lcom/huawei/appgallery/forum/base/image/a;->b:Lcom/huawei/appmarket/m26;
+    iget-object v11, v8, Lcom/huawei/appgallery/forum/base/image/a;->b:Lcom/huawei/appmarket/o26;
 
     .line 32
     .line 33
@@ -1044,7 +1042,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {v11, v4}, Lcom/huawei/appmarket/m26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v4}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -1997,7 +1995,7 @@
 
     .line 477
     .line 478
-    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     .line 479
     .line 480
@@ -3153,7 +3151,7 @@
 
     .line 1025
     :cond_30
-    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     .line 1026
     .line 1027
@@ -3165,7 +3163,7 @@
 
     .line 1030
     .line 1031
-    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual/range {v19 .. v19}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     .line 1032
     .line 1033
@@ -3471,11 +3469,11 @@
 
     .line 1180
     .line 1181
-    sget-object v4, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/o26;
+    sget-object v4, Lcom/huawei/appgallery/forum/base/image/a;->s:Lcom/huawei/appmarket/q26;
 
     .line 1182
     .line 1183
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/q26;->a(Ljava/lang/Object;)Z
 
     .line 1184
     .line 1185
@@ -3485,11 +3483,11 @@
     .line 1187
     .line 1188
     :cond_34
-    iget-object v3, v8, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/m26;
+    iget-object v3, v8, Lcom/huawei/appgallery/forum/base/image/a;->a:Lcom/huawei/appmarket/o26;
 
     .line 1189
     .line 1190
-    invoke-virtual {v3, v7}, Lcom/huawei/appmarket/m26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v7}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
 
     .line 1191
     .line 1192
@@ -3731,7 +3729,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final l(Ljava/lang/String;)V

@@ -358,29 +358,29 @@
 .method private loadImage(ILcom/huawei/appgallery/common/media/api/OriginalMediaBean;Lcom/huawei/appgallery/common/media/adapter/ImageThumbnailAdapter$e;)V
     .registers 5
 
-    new-instance v0, Lcom/huawei/appmarket/kx4$e;
+    new-instance v0, Lcom/huawei/appmarket/nx4$e;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/kx4$e;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nx4$e;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx4$e;->i(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nx4$e;->i(I)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->g()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->g()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->l()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kx4$e;->k()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nx4$e;->k()V
 
     iget-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->mediaType:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx4$e;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nx4$e;->h(Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/common/media/api/OriginalMediaBean;->f()I
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/kx4$e;->j(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nx4$e;->j(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kx4;->m()Lcom/huawei/appmarket/kx4;
+    invoke-static {}, Lcom/huawei/appmarket/nx4;->m()Lcom/huawei/appmarket/nx4;
 
     move-result-object p1
 
@@ -390,7 +390,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p1, p2, p3, v0}, Lcom/huawei/appmarket/kx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/kx4$e;)V
+    invoke-virtual {p1, p2, p3, v0}, Lcom/huawei/appmarket/nx4;->h(Landroid/content/Context;Landroid/widget/ImageView;Lcom/huawei/appmarket/nx4$e;)V
 
     return-void
 .end method
@@ -541,7 +541,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -651,7 +651,7 @@
 
     invoke-direct {p0, v1, v0, p3}, Lcom/huawei/appgallery/common/media/adapter/ImageThumbnailAdapter;->loadImage(ILcom/huawei/appgallery/common/media/api/OriginalMediaBean;Lcom/huawei/appgallery/common/media/adapter/ImageThumbnailAdapter$e;)V
 
-    new-instance v1, Lcom/huawei/appmarket/ka7;
+    new-instance v1, Lcom/huawei/appmarket/pa7;
 
     iget-object v2, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->context:Landroid/content/Context;
 
@@ -663,13 +663,13 @@
 
     move-result-object p3
 
-    invoke-direct {v1, v2, p1, v0, p3}, Lcom/huawei/appmarket/ka7;-><init>(Landroid/content/Context;ILjava/lang/String;Landroid/view/View;)V
+    invoke-direct {v1, v2, p1, v0, p3}, Lcom/huawei/appmarket/pa7;-><init>(Landroid/content/Context;ILjava/lang/String;Landroid/view/View;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kx4;->m()Lcom/huawei/appmarket/kx4;
+    invoke-static {}, Lcom/huawei/appmarket/nx4;->m()Lcom/huawei/appmarket/nx4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kx4;->l()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nx4;->l()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object p1
 

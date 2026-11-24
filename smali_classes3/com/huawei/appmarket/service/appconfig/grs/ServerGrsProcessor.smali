@@ -23,7 +23,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -194,7 +194,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/r87;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/w87;->a()I
 
     move-result v0
 
@@ -210,7 +210,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -392,7 +392,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/r87;->c(Ljava/util/Map;Ljava/lang/Integer;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/w87;->c(Ljava/util/Map;Ljava/lang/Integer;)V
 
     return-void
 .end method

@@ -5,12 +5,12 @@
 
 # instance fields
 .field private commentStatus:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private demoPlayInfo:Lcom/huawei/appgallery/detail/detailbase/api/DemoPlayInfoBean;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

@@ -20,7 +20,7 @@
 
 .field private d:Landroid/widget/LinearLayout;
 
-.field private e:Lcom/huawei/appmarket/hj0;
+.field private e:Lcom/huawei/appmarket/ij0;
 
 .field private f:Ljava/lang/String;
 
@@ -64,11 +64,11 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/oz0;->d:Landroid/widget/LinearLayout;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oz0$a;->e(Lcom/huawei/appmarket/oz0$a;)Lcom/huawei/appmarket/hj0;
+    invoke-static {p1}, Lcom/huawei/appmarket/oz0$a;->e(Lcom/huawei/appmarket/oz0$a;)Lcom/huawei/appmarket/ij0;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/oz0;->e:Lcom/huawei/appmarket/hj0;
+    iput-object v0, p0, Lcom/huawei/appmarket/oz0;->e:Lcom/huawei/appmarket/ij0;
 
     invoke-static {p1}, Lcom/huawei/appmarket/oz0$a;->f(Lcom/huawei/appmarket/oz0$a;)Ljava/lang/String;
 
@@ -114,11 +114,11 @@
     return-object v0
 .end method
 
-.method public final b()Lcom/huawei/appmarket/hj0;
+.method public final b()Lcom/huawei/appmarket/ij0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/oz0;->e:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/oz0;->e:Lcom/huawei/appmarket/ij0;
 
     return-object v0
 .end method

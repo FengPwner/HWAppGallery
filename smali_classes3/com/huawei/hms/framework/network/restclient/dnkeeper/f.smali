@@ -500,7 +500,7 @@
     const-string p2, "DNKeeperManager parseResponse failed,UnknownHostException:"
 
     .line 5
-    invoke-static {p2, p3, v4}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p3, v4}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     :cond_1

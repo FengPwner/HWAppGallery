@@ -5,37 +5,37 @@
 
 # instance fields
 .field private accessToken:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "accessToken"
     .end annotation
 .end field
 
 .field private orderType:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "orderType"
     .end annotation
 .end field
 
 .field private pageSize:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "pageSize"
     .end annotation
 .end field
 
 .field private problemId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemId"
     .end annotation
 .end field
 
 .field private problemSourceCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemSourceCode"
     .end annotation
 .end field
 
 .field private startWith:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "startWith"
     .end annotation
 .end field

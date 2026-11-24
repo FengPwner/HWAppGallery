@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract getEssentialCallbackTaskStream()Lcom/huawei/appmarket/gw7;
+.method public abstract getEssentialCallbackTaskStream()Lcom/huawei/appmarket/mw7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw7<",
+            "Lcom/huawei/appmarket/mw7<",
             "Lcom/huawei/appgallery/essentialapp/base/api/EssentialCallbackBean;",
             ">;"
         }

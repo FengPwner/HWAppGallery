@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/view/View$OnClickListener;
+.implements Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction$b;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/cq2;
+.field final synthetic a:Lcom/huawei/appmarket/eq2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/cq2;)V
+.method constructor <init>(Lcom/huawei/appmarket/eq2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/bq2;->b:Lcom/huawei/appmarket/cq2;
+    iput-object p1, p0, Lcom/huawei/appmarket/bq2;->a:Lcom/huawei/appmarket/eq2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -24,19 +24,16 @@
 
 
 # virtual methods
-.method public final onClick(Landroid/view/View;)V
+.method public final a(Lcom/huawei/appmarket/na6;)V
     .registers 3
 
     .line 1
-    const-string p1, "ForumSectionDetailSegment"
+    if-eqz p1, :cond_0
 
-    const-string v0, "createLoadingController onClick, onLoadingRetry"
+    iget-object v0, p0, Lcom/huawei/appmarket/bq2;->a:Lcom/huawei/appmarket/eq2;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/eq2;->O(Lcom/huawei/appmarket/eq2;Lcom/huawei/appmarket/na6;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/bq2;->b:Lcom/huawei/appmarket/cq2;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/cq2;->R(Lcom/huawei/appmarket/cq2;)V
-
+    :cond_0
     return-void
 .end method

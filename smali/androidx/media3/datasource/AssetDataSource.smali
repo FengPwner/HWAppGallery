@@ -128,7 +128,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 10
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -138,14 +138,14 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p1, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v0, p1, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
     :try_end_0
     .catch Landroidx/media3/datasource/AssetDataSource$AssetDataSourceException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 2
     .line 3
-    iget-wide v1, p1, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v1, p1, Lcom/huawei/appmarket/m91;->f:J
 
     .line 4
     .line 5
@@ -242,7 +242,7 @@
     .line 46
     :cond_1
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     .line 47
     .line 48
@@ -279,7 +279,7 @@
 
     .line 64
     .line 65
-    iget-wide v0, p1, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/m91;->g:J
 
     .line 66
     .line 67
@@ -348,7 +348,7 @@
 
     .line 95
     .line 96
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     .line 97
     .line 98
@@ -690,7 +690,7 @@
     :goto_0
     iget-object v0, p0, Landroidx/media3/datasource/AssetDataSource;->g:Ljava/io/InputStream;
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
 

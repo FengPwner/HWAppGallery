@@ -65,7 +65,7 @@
 
     if-eqz v0, :cond_1
 
-    sget-object v5, Lcom/huawei/appmarket/hf6;->c:[I
+    sget-object v5, Lcom/huawei/appmarket/jf6;->c:[I
 
     move-object/from16 v6, p1
 
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

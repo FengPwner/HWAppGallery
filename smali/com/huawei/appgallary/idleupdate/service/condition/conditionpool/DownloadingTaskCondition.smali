@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s74;
+.implements Lcom/huawei/appmarket/v74;
 
 
 # direct methods
@@ -20,17 +20,17 @@
 .method public final execute()Z
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     const-string v1, "DownloadingTaskCondition"
 
-    invoke-virtual {v0, v1, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kv1;->g()Lcom/huawei/appmarket/kv1;
+    invoke-static {}, Lcom/huawei/appmarket/ov1;->g()Lcom/huawei/appmarket/ov1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/kv1;->l()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ov1;->l()Z
 
     move-result v2
 
@@ -40,23 +40,23 @@
 
     const-string v2, "end manager.....hispace has prior task"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "hasPriorTask"
 
     :goto_0
     sget-object v1, Lcom/huawei/appmarket/q80;->e:Lcom/huawei/appmarket/q80;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/r74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/u74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
 
     return v3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/kv1;->g()Lcom/huawei/appmarket/kv1;
+    invoke-static {}, Lcom/huawei/appmarket/ov1;->g()Lcom/huawei/appmarket/ov1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/kv1;->k()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ov1;->k()Z
 
     move-result v2
 
@@ -64,7 +64,7 @@
 
     const-string v2, "end manager.....hispace is downloading"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "hasDownloadingTask"
 

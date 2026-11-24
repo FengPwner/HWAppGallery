@@ -56,11 +56,11 @@
 
     if-nez p2, :cond_0
 
-    sget-object p2, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object p2, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string v2, "  CLOSE_PROTOCOL_TIPS_PAGE  "
 
-    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
@@ -79,11 +79,11 @@
 
     if-nez p1, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object p1, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     const-string p2, "  ACTION_LOCALE_CHANGED  "
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 

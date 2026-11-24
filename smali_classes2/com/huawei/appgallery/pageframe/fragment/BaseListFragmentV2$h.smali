@@ -80,17 +80,17 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ub3;->c()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/xb3;->c()V
 
     invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->C3(Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;)V
 
@@ -121,7 +121,7 @@
 
     move-result-wide v2
 
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     move-result-object v4
 
@@ -129,7 +129,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/ub3;->l(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;)V
+    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/xb3;->l(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;)V
 
     :goto_1
     add-int/lit8 v0, v0, 0x1
@@ -155,14 +155,14 @@
 
     const-string v0, "refresh store response exception"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ub3;->c()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/xb3;->c()V
 
     :cond_4
     invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->C3(Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;)V

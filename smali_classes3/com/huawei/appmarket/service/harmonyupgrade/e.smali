@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/es3;
+.field final synthetic b:Lcom/huawei/appmarket/gs3;
 
 .field final synthetic c:Z
 
@@ -15,11 +15,11 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/es3;ZLjava/util/List;)V
+.method constructor <init>(Lcom/huawei/appmarket/gs3;ZLjava/util/List;)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->b:Lcom/huawei/appmarket/es3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->b:Lcom/huawei/appmarket/gs3;
 
     iput-boolean p2, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->c:Z
 
@@ -56,7 +56,7 @@
 
     move-result p1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->b:Lcom/huawei/appmarket/es3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->b:Lcom/huawei/appmarket/gs3;
 
     if-eqz p1, :cond_0
 
@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/es3;->onSuccess(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/gs3;->onSuccess(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -92,22 +92,22 @@
 
     if-eqz p1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/l68;->d()Lcom/huawei/appmarket/l68;
+    invoke-static {}, Lcom/huawei/appmarket/q68;->d()Lcom/huawei/appmarket/q68;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/l68;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/q68;->b()V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/harmonyupgrade/e;->d:Ljava/util/List;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->u(Lcom/huawei/appmarket/es3;Ljava/util/List;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->u(Lcom/huawei/appmarket/gs3;Ljava/util/List;)V
 
     goto :goto_0
 
     :cond_2
     if-eqz v0, :cond_3
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/es3;->h()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/gs3;->h()V
 
     :cond_3
     :goto_0

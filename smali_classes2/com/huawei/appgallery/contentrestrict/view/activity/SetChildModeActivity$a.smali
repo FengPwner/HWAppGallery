@@ -69,7 +69,7 @@
 
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/ud3;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wd3;->a()Z
 
     .line 9
     .line 10
@@ -81,7 +81,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/tn1;->l()Lcom/huawei/appmarket/tn1;
+    invoke-static {}, Lcom/huawei/appmarket/wn1;->l()Lcom/huawei/appmarket/wn1;
 
     .line 15
     .line 16
@@ -94,7 +94,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/tn1;->p()Z
+    invoke-static {}, Lcom/huawei/appmarket/wn1;->p()Z
 
     .line 22
     .line 23
@@ -122,7 +122,7 @@
 
     .line 33
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/tn1;->l()Lcom/huawei/appmarket/tn1;
+    invoke-static {}, Lcom/huawei/appmarket/wn1;->l()Lcom/huawei/appmarket/wn1;
 
     .line 35
     .line 36
@@ -154,7 +154,7 @@
     const/4 v2, 0x2
 
     .line 50
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ai7;->i(ILandroid/content/Context;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/gi7;->i(ILandroid/content/Context;)V
 
     .line 51
     .line 52
@@ -168,7 +168,7 @@
 
     .line 57
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/tn1;->l()Lcom/huawei/appmarket/tn1;
+    invoke-static {}, Lcom/huawei/appmarket/wn1;->l()Lcom/huawei/appmarket/wn1;
 
     .line 58
     .line 59
@@ -200,7 +200,7 @@
     const/4 v1, 0x0
 
     .line 73
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ai7;->i(ILandroid/content/Context;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gi7;->i(ILandroid/content/Context;)V
 
     .line 74
     .line 75
@@ -288,7 +288,7 @@
 
     .line 117
     .line 118
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -297,7 +297,7 @@
 
     .line 122
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/tp0;->c()Lcom/huawei/appmarket/tp0;
+    invoke-static {}, Lcom/huawei/appmarket/up0;->c()Lcom/huawei/appmarket/up0;
 
     .line 123
     .line 124
@@ -305,7 +305,7 @@
     move-result-object p2
 
     .line 126
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/tp0;->k(Landroid/app/Activity;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/up0;->k(Landroid/app/Activity;)V
 
     .line 127
     .line 128
@@ -346,5 +346,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

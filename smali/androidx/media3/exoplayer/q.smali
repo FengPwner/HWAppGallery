@@ -12,30 +12,30 @@
 
 
 # virtual methods
-.method public abstract getAllocator()Lcom/huawei/appmarket/ek;
+.method public abstract getAllocator()Lcom/huawei/appmarket/dk;
 .end method
 
-.method public abstract getBackBufferDurationUs(Lcom/huawei/appmarket/t16;)J
+.method public abstract getBackBufferDurationUs(Lcom/huawei/appmarket/v16;)J
 .end method
 
-.method public abstract onPrepared(Lcom/huawei/appmarket/t16;)V
+.method public abstract onPrepared(Lcom/huawei/appmarket/v16;)V
 .end method
 
-.method public abstract onReleased(Lcom/huawei/appmarket/t16;)V
+.method public abstract onReleased(Lcom/huawei/appmarket/v16;)V
 .end method
 
-.method public abstract onStopped(Lcom/huawei/appmarket/t16;)V
+.method public abstract onStopped(Lcom/huawei/appmarket/v16;)V
 .end method
 
-.method public abstract onTracksSelected(Lcom/huawei/appmarket/t16;Lcom/huawei/appmarket/mz7;Landroidx/media3/exoplayer/source/k$b;[Landroidx/media3/exoplayer/h0;Lcom/huawei/appmarket/e28;[Landroidx/media3/exoplayer/trackselection/e;)V
+.method public abstract onTracksSelected(Lcom/huawei/appmarket/v16;Lcom/huawei/appmarket/rz7;Landroidx/media3/exoplayer/source/k$b;[Landroidx/media3/exoplayer/h0;Lcom/huawei/appmarket/j28;[Landroidx/media3/exoplayer/trackselection/e;)V
 .end method
 
-.method public abstract onTracksSelected([Landroidx/media3/exoplayer/h0;Lcom/huawei/appmarket/e28;[Landroidx/media3/exoplayer/trackselection/e;)V
+.method public abstract onTracksSelected([Landroidx/media3/exoplayer/h0;Lcom/huawei/appmarket/j28;[Landroidx/media3/exoplayer/trackselection/e;)V
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end method
 
-.method public abstract retainBackBufferFromKeyframe(Lcom/huawei/appmarket/t16;)Z
+.method public abstract retainBackBufferFromKeyframe(Lcom/huawei/appmarket/v16;)Z
 .end method
 
 .method public abstract shouldContinueLoading(Landroidx/media3/exoplayer/q$a;)Z

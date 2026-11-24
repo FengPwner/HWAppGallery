@@ -1,54 +1,35 @@
-.class public final synthetic Lcom/huawei/appmarket/fu1;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/fu1;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
 
-
-# instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/eu1$d;
-
-.field public final synthetic c:Lcom/huawei/appmarket/eu1;
-
-.field public final synthetic d:Lcom/huawei/appmarket/s85;
-
-.field public final synthetic e:Lcom/huawei/appmarket/go3;
+# static fields
+.field public static final a:Lcom/huawei/appmarket/fu1;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/eu1$d;Lcom/huawei/appmarket/eu1;Lcom/huawei/appmarket/s85;Lcom/huawei/appmarket/go3;)V
-    .registers 5
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/fu1;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/fu1;->b:Lcom/huawei/appmarket/eu1$d;
+    invoke-direct {v0}, Lcom/huawei/appmarket/fu1;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/fu1;->c:Lcom/huawei/appmarket/eu1;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/fu1;->d:Lcom/huawei/appmarket/s85;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/fu1;->e:Lcom/huawei/appmarket/go3;
+    sput-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final run()V
-    .registers 5
+.method private constructor <init>()V
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/fu1;->d:Lcom/huawei/appmarket/s85;
+    const-string v0, "DlFA"
 
-    iget-object v1, p0, Lcom/huawei/appmarket/fu1;->e:Lcom/huawei/appmarket/go3;
+    const/4 v1, 0x1
 
-    iget-object v2, p0, Lcom/huawei/appmarket/fu1;->b:Lcom/huawei/appmarket/eu1$d;
-
-    iget-object v3, p0, Lcom/huawei/appmarket/fu1;->c:Lcom/huawei/appmarket/eu1;
-
-    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/eu1$d;->a(Lcom/huawei/appmarket/eu1$d;Lcom/huawei/appmarket/eu1;Lcom/huawei/appmarket/s85;Lcom/huawei/appmarket/go3;)V
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
 
     return-void
 .end method

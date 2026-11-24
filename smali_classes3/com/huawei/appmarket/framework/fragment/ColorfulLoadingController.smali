@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vw4;
+.implements Lcom/huawei/appmarket/yw4;
 
 
 # annotations
@@ -203,7 +203,7 @@
     .registers 8
 
     .line 1
-    const v0, 0x7f0a1611
+    const v0, 0x7f0a1612
 
     .line 2
     .line 3
@@ -268,7 +268,7 @@
     move-result-object v3
 
     .line 34
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 35
     .line 36
@@ -288,7 +288,7 @@
     move-result-object v5
 
     .line 43
-    invoke-static {v3, v5}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v3, v5}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 44
     .line 45
@@ -302,7 +302,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-interface {v3, v5}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {v3, v5}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -467,7 +467,7 @@
 
     .line 135
     .line 136
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 137
     .line 138
@@ -730,8 +730,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final i()V
@@ -969,7 +967,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 109
     .line 110
@@ -991,7 +989,7 @@
 
     .line 119
     .line 120
-    const v1, 0x7f0a1715
+    const v1, 0x7f0a1716
 
     .line 121
     .line 122
@@ -1059,7 +1057,7 @@
     .line 156
     .line 157
     .line 158
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 159
     .line 160
@@ -1095,7 +1093,7 @@
 
     .line 175
     .line 176
-    invoke-static {p1, v5, v0}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p1, v5, v0}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 177
     .line 178
@@ -2524,68 +2522,6 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
 .method final k(IZ)V
@@ -2616,7 +2552,7 @@
 
     const-string v1, "ColorfulLoadingController"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/huawei/appmarket/framework/fragment/ColorfulLoadingController;->k:Z
 

@@ -24,7 +24,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 8
     .line 9
@@ -329,11 +329,11 @@
 
     .line 35
     :catch_0
-    sget-object v3, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v3, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     .line 36
     .line 37
-    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -490,13 +490,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p0, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string v0, "WishSharedPreference"
 
     const-string v1, "update cache failed."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -508,13 +508,13 @@
     .line 1
     if-nez p0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p0, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string v0, "WishSharedPreference"
 
     const-string v1, "update noticedId failed."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

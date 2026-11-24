@@ -16,7 +16,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroidx/databinding/c$a<",
-        "Lcom/huawei/appmarket/cp5;",
+        "Lcom/huawei/appmarket/dp5;",
         "Landroidx/databinding/l;",
         "Ljava/lang/Void;",
         ">;"
@@ -39,7 +39,7 @@
     .registers 4
 
     .line 1
-    check-cast p2, Lcom/huawei/appmarket/cp5;
+    check-cast p2, Lcom/huawei/appmarket/dp5;
 
     .line 2
     .line 3
@@ -344,4 +344,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

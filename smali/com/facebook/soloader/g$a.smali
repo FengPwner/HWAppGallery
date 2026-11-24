@@ -25,7 +25,7 @@
 
 .method public static fallocateIfSupported(Ljava/io/FileDescriptor;J)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/sr1;
+    .annotation build Lcom/huawei/appmarket/vr1;
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -82,7 +82,7 @@
 
 .method public static getSupportedAbis()[Ljava/lang/String;
     .registers 1
-    .annotation build Lcom/huawei/appmarket/sr1;
+    .annotation build Lcom/huawei/appmarket/vr1;
     .end annotation
 
     sget-object v0, Landroid/os/Build;->SUPPORTED_ABIS:[Ljava/lang/String;

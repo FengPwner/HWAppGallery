@@ -62,7 +62,7 @@
 
     invoke-direct {p3, p0, p0}, Lcom/huawei/appgallery/appcomment/ui/view/ReplyEditText$a;-><init>(Lcom/huawei/appgallery/appcomment/ui/view/ReplyEditText;Landroid/view/View;)V
 
-    invoke-direct {p1, p2, p3}, Lcom/huawei/appmarket/dv0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ml3;)V
+    invoke-direct {p1, p2, p3}, Lcom/huawei/appmarket/dv0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ol3;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/dv0;->e()V
 

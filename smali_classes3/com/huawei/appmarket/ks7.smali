@@ -1,245 +1,144 @@
-.class final Lcom/huawei/appmarket/ks7;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/ks7;
+.super Lcom/huawei/appmarket/x1;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/ta$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ta$a<",
-        "Lcom/huawei/appgallery/updatemanager/impl/fileinfo/dao/AppFileInfo;",
+        "Lcom/huawei/appmarket/x1<",
+        "Ljava/lang/Boolean;",
+        "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
 
 
-# instance fields
-.field final synthetic a:Ljava/util/List;
-
-.field final synthetic b:Lcom/huawei/appmarket/ls7;
-
-
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ls7;Ljava/util/List;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ks7;->b:Lcom/huawei/appmarket/ls7;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/ks7;->a:Ljava/util/List;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/x1;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/util/ArrayList;)V
-    .registers 7
+.method protected final k(Landroid/content/Context;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ks7;->a:Ljava/util/List;
+    check-cast p2, Ljava/lang/Boolean;
 
     .line 2
     .line 3
-    if-eqz p1, :cond_2
+    invoke-static {}, Lcom/huawei/appmarket/my5;->d()Lcom/huawei/appmarket/my5;
 
     .line 4
     .line 5
-    :try_start_0
-    new-instance v1, Ljava/util/HashMap;
-
     .line 6
+    move-result-object p1
+
     .line 7
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/my5;->f()V
 
     .line 8
     .line 9
     .line 10
-    move-result v2
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 11
-    invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
-
     .line 12
+    return-object p1
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
     .line 15
     .line 16
     .line 17
-    move-result-object v2
-
     .line 18
-    :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
     .line 19
     .line 20
     .line 21
-    move-result v3
-
     .line 22
-    if-eqz v3, :cond_0
-
     .line 23
     .line 24
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
     .line 25
     .line 26
     .line 27
-    move-result-object v3
-
     .line 28
-    check-cast v3, Lcom/huawei/appmarket/service/syncinstalledapps/InstalledAppInfo;
-
     .line 29
     .line 30
-    invoke-virtual {v3}, Lcom/huawei/appmarket/service/syncinstalledapps/InstalledAppInfo;->getPkgName()Ljava/lang/String;
-
     .line 31
     .line 32
     .line 33
-    move-result-object v4
-
     .line 34
-    invoke-virtual {v1, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 35
     .line 36
     .line 37
-    goto :goto_0
-
     .line 38
-    :catch_0
-    move-exception p1
-
     .line 39
-    goto :goto_2
-
     .line 40
-    :cond_0
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
     .line 41
     .line 42
     .line 43
-    move-result-object p1
-
     .line 44
-    :cond_1
-    :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
     .line 45
     .line 46
     .line 47
-    move-result v2
-
     .line 48
-    if-eqz v2, :cond_2
-
     .line 49
     .line 50
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
     .line 51
     .line 52
     .line 53
-    move-result-object v2
-
     .line 54
-    check-cast v2, Lcom/huawei/appgallery/updatemanager/impl/fileinfo/dao/AppFileInfo;
-
     .line 55
     .line 56
-    invoke-virtual {v2}, Lcom/huawei/appgallery/updatemanager/impl/fileinfo/dao/AppFileInfo;->e()Ljava/lang/String;
-
     .line 57
     .line 58
     .line 59
-    move-result-object v3
-
     .line 60
-    invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 61
     .line 62
     .line 63
-    move-result-object v3
-
     .line 64
-    check-cast v3, Lcom/huawei/appmarket/service/syncinstalledapps/InstalledAppInfo;
-
     .line 65
     .line 66
-    if-eqz v3, :cond_1
-
     .line 67
     .line 68
-    invoke-virtual {v2}, Lcom/huawei/appgallery/updatemanager/impl/fileinfo/dao/AppFileInfo;->b()Ljava/lang/String;
-
     .line 69
     .line 70
     .line 71
-    move-result-object v2
-
     .line 72
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/service/syncinstalledapps/InstalledAppInfo;->T(Ljava/lang/String;)V
-
     .line 73
     .line 74
     .line 75
-    goto :goto_1
-
     .line 76
-    :cond_2
-    iget-object p1, p0, Lcom/huawei/appmarket/ks7;->b:Lcom/huawei/appmarket/ls7;
-
     .line 77
     .line 78
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ls7;->a(Lcom/huawei/appmarket/ls7;Ljava/util/List;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
     .line 79
     .line 80
     .line 81
-    goto :goto_3
-
     .line 82
-    :goto_2
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 83
     .line 84
-    const-string v1, "Error in hash computation callback: "
-
     .line 85
     .line 86
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 87
     .line 88
     .line 89
-    const-string v1, "SyncInstalledAppsProcess"
-
     .line 90
     .line 91
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 92
     .line 93
     .line 94
-    :goto_3
-    return-void
     .line 95
     .line 96
     .line 97
@@ -261,4 +160,348 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+.end method
+
+.method protected final o()J
+    .registers 5
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-string v1, "GlobalConfig"
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/huawei/appmarket/gr6;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    const-class v1, Lcom/huawei/appmarket/pr3;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Lcom/huawei/appmarket/pr3;
+
+    .line 20
+    .line 21
+    if-eqz v0, :cond_0
+
+    .line 22
+    .line 23
+    new-instance v1, Lcom/huawei/appmarket/as6$b;
+
+    .line 24
+    .line 25
+    invoke-direct {v1}, Lcom/huawei/appmarket/as6$b;-><init>()V
+
+    .line 26
+    .line 27
+    .line 28
+    const/4 v2, 0x1
+
+    .line 29
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/tr2;->h(Lcom/huawei/appmarket/as6$b;ZLcom/huawei/appmarket/pr3;)Ljava/lang/Object;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v0
+
+    .line 33
+    check-cast v0, Lcom/huawei/appmarket/qz0;
+
+    .line 34
+    .line 35
+    const-wide/16 v1, 0x3c
+
+    .line 36
+    .line 37
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v1
+
+    .line 41
+    const-class v2, Ljava/lang/Long;
+
+    .line 42
+    .line 43
+    const-string v3, "PERMISSION.SYNC_MIN_INTERVAL"
+
+    .line 44
+    .line 45
+    invoke-interface {v0, v2, v3, v1}, Lcom/huawei/appmarket/qz0;->a(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qz0$a;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v0
+
+    .line 49
+    invoke-interface {v0}, Lcom/huawei/appmarket/qz0$a;->getValue()Ljava/lang/Object;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v0
+
+    .line 53
+    check-cast v0, Ljava/lang/Long;
+
+    .line 54
+    .line 55
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-wide v0
+
+    .line 59
+    const-wide/16 v2, 0x3e8
+
+    .line 60
+    .line 61
+    mul-long v0, v0, v2
+
+    .line 62
+    .line 63
+    return-wide v0
+
+    .line 64
+    :cond_0
+    const-wide/32 v0, 0xea60
+
+    .line 65
+    .line 66
+    .line 67
+    return-wide v0
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+.end method
+
+.method public final q()I
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x7
+
+    return v0
+.end method
+
+.method protected final s()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, "SyncAppPermissionConfigsTask"
+
+    return-object v0
+.end method
+
+.method protected final bridge synthetic t(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    check-cast p2, Ljava/lang/Boolean;
+
+    check-cast p3, Ljava/lang/Boolean;
+
+    return-void
+.end method
+
+.method protected final u(Landroid/content/Context;)Ljava/lang/Object;
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    return-object p1
 .end method

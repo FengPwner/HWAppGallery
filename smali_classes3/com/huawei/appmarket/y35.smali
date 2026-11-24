@@ -1,36 +1,33 @@
-.class public final Lcom/huawei/appmarket/y35;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/y35;
+.super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# instance fields
+.field final synthetic a:Lcom/huawei/appmarket/MarketActivity;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+# direct methods
+.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/appmarket/y35;->a:Lcom/huawei/appmarket/MarketActivity;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()V
-    .registers 3
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .registers 2
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/service/push/marketingnotice/MarketingNoticeReportReq;
+    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/push/marketingnotice/MarketingNoticeReportReq;-><init>()V
+    iget-object p1, p0, Lcom/huawei/appmarket/y35;->a:Lcom/huawei/appmarket/MarketActivity;
 
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/push/marketingnotice/MarketingNoticeReportReq;->T(I)V
-
-    new-instance v1, Lcom/huawei/appmarket/y35$a;
-
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/y35$a;-><init>(Lcom/huawei/appmarket/y35;)V
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1}, Lcom/huawei/appmarket/MarketActivity;->C4(Lcom/huawei/appmarket/MarketActivity;)V
 
     return-void
 .end method

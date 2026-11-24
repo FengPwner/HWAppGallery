@@ -23,25 +23,25 @@
     return-void
 .end method
 
-.method public static a(Landroid/media/AudioTrack;Lcom/huawei/appmarket/t16;)V
+.method public static a(Landroid/media/AudioTrack;Lcom/huawei/appmarket/v16;)V
     .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/t16;->a()Landroid/media/metrics/LogSessionId;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/v16;->a()Landroid/media/metrics/LogSessionId;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/hz;->i()Landroid/media/metrics/LogSessionId;
+    invoke-static {}, Lcom/huawei/appmarket/iz;->i()Landroid/media/metrics/LogSessionId;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/hz;->t(Landroid/media/AudioTrack;Landroid/media/metrics/LogSessionId;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/iz;->t(Landroid/media/AudioTrack;Landroid/media/metrics/LogSessionId;)V
 
     :cond_0
     return-void

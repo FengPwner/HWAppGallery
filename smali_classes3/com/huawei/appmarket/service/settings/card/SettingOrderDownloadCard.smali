@@ -34,7 +34,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingOrderDownloadCard;->B:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -53,7 +53,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/n28;->k()Lcom/huawei/appmarket/n28;
+    invoke-static {}, Lcom/huawei/appmarket/s28;->k()Lcom/huawei/appmarket/s28;
 
     .line 4
     .line 5
@@ -61,7 +61,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n28;->l()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s28;->l()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -175,7 +175,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -189,7 +188,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/bu0;->A()Z
+    invoke-static {}, Lcom/huawei/appmarket/kb1;->z()Z
 
     .line 5
     .line 6
@@ -205,7 +204,7 @@
 
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/n28;->k()Lcom/huawei/appmarket/n28;
+    invoke-static {}, Lcom/huawei/appmarket/s28;->k()Lcom/huawei/appmarket/s28;
 
     .line 13
     .line 14
@@ -213,7 +212,7 @@
     move-result-object v0
 
     .line 16
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n28;->l()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s28;->l()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -243,7 +242,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {}, Lcom/huawei/appmarket/fb7;->e()Lcom/huawei/appmarket/fb7;
+    invoke-static {}, Lcom/huawei/appmarket/kb7;->e()Lcom/huawei/appmarket/kb7;
 
     .line 32
     .line 33
@@ -251,7 +250,7 @@
     move-result-object p1
 
     .line 35
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fb7;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kb7;->f()I
 
     .line 36
     .line 37
@@ -290,7 +289,7 @@
 
     .line 53
     .line 54
-    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 55
     .line 56
@@ -382,7 +381,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -595,7 +593,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {}, Lcom/huawei/appmarket/n28;->k()Lcom/huawei/appmarket/n28;
+    invoke-static {}, Lcom/huawei/appmarket/s28;->k()Lcom/huawei/appmarket/s28;
 
     .line 109
     .line 110
@@ -608,7 +606,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-static {}, Lcom/huawei/appmarket/n28;->n()Z
+    invoke-static {}, Lcom/huawei/appmarket/s28;->n()Z
 
     .line 116
     .line 117
@@ -878,8 +876,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final m1()Z
@@ -945,7 +941,7 @@
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/bu0;->A()Z
+    invoke-static {}, Lcom/huawei/appmarket/kb1;->z()Z
 
     .line 22
     .line 23
@@ -966,7 +962,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/n28;->k()Lcom/huawei/appmarket/n28;
+    invoke-static {}, Lcom/huawei/appmarket/s28;->k()Lcom/huawei/appmarket/s28;
 
     .line 33
     .line 34
@@ -990,7 +986,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v0, v3, v1, v2}, Lcom/huawei/appmarket/n28;->u(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/n28$f;Z)V
+    invoke-virtual {p1, v0, v3, v1, v2}, Lcom/huawei/appmarket/s28;->u(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/s28$f;Z)V
 
     .line 45
     .line 46
@@ -1064,7 +1060,7 @@
     move-result-object v1
 
     .line 83
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -1108,7 +1104,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected p1()I

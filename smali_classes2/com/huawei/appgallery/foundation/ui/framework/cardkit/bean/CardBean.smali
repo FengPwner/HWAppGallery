@@ -9,11 +9,11 @@
 .field private componentData:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/listener/IComponentData;
 
 .field private detailId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
-.field private displayConfig:Lcom/huawei/appmarket/pn3;
+.field private displayConfig:Lcom/huawei/appmarket/rn3;
 
 .field private exposureAreaPercent:I
 
@@ -22,24 +22,24 @@
 .field private exposureVerticalPercent:I
 
 .field private gifIcon:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private hostLayoutName:Ljava/lang/String;
 
 .field private icon:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private installBtnStyle:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private intro:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -60,19 +60,19 @@
 .field private layoutName:Ljava/lang/String;
 
 .field private name:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private negativeFeedback:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private package_:Ljava/lang/String;
 
 .field private packingType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -280,16 +280,16 @@
     .end annotation
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/cd1;
+    const-class v0, Lcom/huawei/appmarket/ed1;
 
     return-object v0
 .end method
 
-.method public final X()Lcom/huawei/appmarket/pn3;
+.method public final X()Lcom/huawei/appmarket/rn3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->displayConfig:Lcom/huawei/appmarket/pn3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->displayConfig:Lcom/huawei/appmarket/rn3;
 
     return-object v0
 .end method
@@ -301,7 +301,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/pn3;",
+            "Lcom/huawei/appmarket/rn3;",
             ">;"
         }
     .end annotation
@@ -761,7 +761,7 @@
 
     .line 77
     .line 78
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 79
     .line 80
@@ -863,11 +863,11 @@
     return-void
 .end method
 
-.method public final y0(Lcom/huawei/appmarket/pn3;)V
+.method public final y0(Lcom/huawei/appmarket/rn3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->displayConfig:Lcom/huawei/appmarket/pn3;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->displayConfig:Lcom/huawei/appmarket/rn3;
 
     return-void
 .end method

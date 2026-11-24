@@ -12,41 +12,41 @@
 
 
 # instance fields
-.field private client:Lcom/huawei/appmarket/mn5;
+.field private client:Lcom/huawei/appmarket/nn5;
 
 .field private executor:Ljava/util/concurrent/Executor;
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;)V
+.method private constructor <init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsKit;->client:Lcom/huawei/appmarket/mn5;
+    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsKit;->client:Lcom/huawei/appmarket/nn5;
 
     iput-object p2, p0, Lcom/huawei/agconnect/https/HttpsKit;->executor:Ljava/util/concurrent/Executor;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;Lcom/huawei/agconnect/https/HttpsKit$1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;Lcom/huawei/agconnect/https/HttpsKit$1;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/https/HttpsKit;-><init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/agconnect/https/HttpsKit;-><init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public client()Lcom/huawei/appmarket/mn5;
+.method public client()Lcom/huawei/appmarket/nn5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit;->client:Lcom/huawei/appmarket/mn5;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit;->client:Lcom/huawei/appmarket/nn5;
 
     return-object v0
 .end method

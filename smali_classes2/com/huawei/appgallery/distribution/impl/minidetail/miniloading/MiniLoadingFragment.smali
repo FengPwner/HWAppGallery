@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private k0:Lcom/huawei/appmarket/q95;
+.field private k0:Lcom/huawei/appmarket/t95;
 
 
 # direct methods
@@ -25,11 +25,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/q95;
+    new-instance v0, Lcom/huawei/appmarket/t95;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/q95;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t95;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/q95;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/t95;
 
     return-void
 .end method
@@ -146,7 +146,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -163,7 +162,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->G1()Landroid/content/res/Resources;
 
@@ -215,17 +214,17 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setBackgroundColor(I)V
 
     :cond_1
-    iget-object p2, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/q95;
+    iget-object p2, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/t95;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/q95;->b(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/t95;->b(Landroid/view/View;)V
 
-    new-instance p3, Lcom/huawei/appmarket/y07;
+    new-instance p3, Lcom/huawei/appmarket/c17;
 
     const/16 v0, 0x9
 
-    invoke-direct {p3, p0, v0}, Lcom/huawei/appmarket/y07;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p3, p0, v0}, Lcom/huawei/appmarket/c17;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/q95;->c(Lcom/huawei/appmarket/y07;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/t95;->c(Lcom/huawei/appmarket/c17;)V
 
     return-object p1
 .end method
@@ -241,9 +240,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/q95;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/minidetail/miniloading/MiniLoadingFragment;->k0:Lcom/huawei/appmarket/t95;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q95;->d(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t95;->d(I)V
 
     return-void
 .end method

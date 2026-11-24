@@ -8,7 +8,7 @@
 
 .field private callerContext:Ljava/lang/String;
 
-.field private channelParams:Lcom/huawei/appmarket/sn0;
+.field private channelParams:Lcom/huawei/appmarket/tn0;
 
 .field private extraMap:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -25,7 +25,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
+            "Lcom/huawei/appmarket/rk2;",
             ">;"
         }
     .end annotation
@@ -77,11 +77,11 @@
     return-object v0
 .end method
 
-.method public final g()Lcom/huawei/appmarket/sn0;
+.method public final g()Lcom/huawei/appmarket/tn0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/api/FaDetailFragmentProtocol;->channelParams:Lcom/huawei/appmarket/sn0;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/api/FaDetailFragmentProtocol;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-object v0
 .end method
@@ -110,7 +110,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pk2;",
+            "Lcom/huawei/appmarket/rk2;",
             ">;"
         }
     .end annotation
@@ -193,11 +193,11 @@
     return-void
 .end method
 
-.method public final r(Lcom/huawei/appmarket/sn0;)V
+.method public final r(Lcom/huawei/appmarket/tn0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/api/FaDetailFragmentProtocol;->channelParams:Lcom/huawei/appmarket/sn0;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/api/FaDetailFragmentProtocol;->channelParams:Lcom/huawei/appmarket/tn0;
 
     return-void
 .end method

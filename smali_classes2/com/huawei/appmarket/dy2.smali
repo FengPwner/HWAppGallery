@@ -2,41 +2,140 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/gr3;
-
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/dy2$a;
+    }
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/gr3;
-.end annotation
+
+# instance fields
+.field private a:I
+
+.field private b:I
+
+.field private c:I
+
+.field private d:I
+
+.field private e:I
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 1
+    .registers 2
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Lcom/huawei/appmarket/dy2;->e:I
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final getFileName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-    .registers 4
+.method public static a()Lcom/huawei/appmarket/dy2;
+    .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/cy2;
+    invoke-static {}, Lcom/huawei/appmarket/dy2$a;->a()Lcom/huawei/appmarket/dy2;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/cy2;-><init>()V
+    move-result-object v0
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/cy2;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    return-object v0
+.end method
 
-    move-result-object p1
 
-    return-object p1
+# virtual methods
+.method public final b()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/dy2;->a:I
+
+    return v0
+.end method
+
+.method public final c()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/dy2;->b:I
+
+    return v0
+.end method
+
+.method public final d()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/dy2;->c:I
+
+    return v0
+.end method
+
+.method public final e()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/dy2;->d:I
+
+    return v0
+.end method
+
+.method public final f()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/dy2;->e:I
+
+    return v0
+.end method
+
+.method public final g(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/dy2;->a:I
+
+    return-void
+.end method
+
+.method public final h(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/dy2;->b:I
+
+    return-void
+.end method
+
+.method public final i(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/dy2;->c:I
+
+    return-void
+.end method
+
+.method public final j(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/dy2;->d:I
+
+    return-void
+.end method
+
+.method public final k(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/dy2;->e:I
+
+    return-void
 .end method

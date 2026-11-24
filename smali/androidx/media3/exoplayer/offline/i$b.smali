@@ -29,11 +29,11 @@
 # instance fields
 .field public final b:J
 
-.field public final c:Lcom/huawei/appmarket/l91;
+.field public final c:Lcom/huawei/appmarket/m91;
 
 
 # direct methods
-.method public constructor <init>(JLcom/huawei/appmarket/l91;)V
+.method public constructor <init>(JLcom/huawei/appmarket/m91;)V
     .registers 4
 
     .line 1
@@ -41,7 +41,7 @@
 
     iput-wide p1, p0, Landroidx/media3/exoplayer/offline/i$b;->b:J
 
-    iput-object p3, p0, Landroidx/media3/exoplayer/offline/i$b;->c:Lcom/huawei/appmarket/l91;
+    iput-object p3, p0, Landroidx/media3/exoplayer/offline/i$b;->c:Lcom/huawei/appmarket/m91;
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     .line 4
     .line 5
-    sget p1, Lcom/huawei/appmarket/ge8;->a:I
+    sget p1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 6
     .line 7

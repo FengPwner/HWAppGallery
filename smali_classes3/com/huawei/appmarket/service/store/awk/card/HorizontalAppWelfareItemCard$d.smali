@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i04;
+.implements Lcom/huawei/appmarket/k04;
 
 
 # annotations
@@ -42,7 +42,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/ak0;",
+            "Lcom/huawei/appmarket/bk0;",
             ">;"
         }
     .end annotation
@@ -62,7 +62,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareItemCardBean;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareGiftItemCardBean;Lcom/huawei/appmarket/ak0;Landroid/content/Context;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareItemCardBean;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareGiftItemCardBean;Lcom/huawei/appmarket/bk0;Landroid/content/Context;)V
     .registers 6
 
     .line 1
@@ -145,7 +145,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/m66;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/o66;->c()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -173,7 +173,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -195,7 +195,7 @@
 
     .line 43
     :goto_0
-    invoke-static {p1, v4, v1}, Lcom/huawei/appmarket/yv;->a(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v4, v1}, Lcom/huawei/appmarket/zv;->a(ILjava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -231,7 +231,7 @@
     move-object v4, v1
 
     .line 59
-    check-cast v4, Lcom/huawei/appmarket/ak0;
+    check-cast v4, Lcom/huawei/appmarket/bk0;
 
     .line 60
     .line 61
@@ -291,7 +291,7 @@
     move v3, p1
 
     .line 87
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppWelfareItemCard;->Z1(ILcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareGiftItemCardBean;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareItemCardBean;Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppWelfareItemCard;)V
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppWelfareItemCard;->Z1(ILcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareGiftItemCardBean;Lcom/huawei/appmarket/service/store/awk/bean/HorizontalAppWelfareItemCardBean;Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppWelfareItemCard;)V
 
     .line 88
     .line 89
@@ -321,5 +321,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

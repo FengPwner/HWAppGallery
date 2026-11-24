@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/sk0;",
+            "Lcom/huawei/appmarket/tk0;",
             ">;"
         }
     .end annotation
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/sk0;)V
+.method private constructor <init>(Lcom/huawei/appmarket/tk0;)V
     .registers 3
 
     .line 1
@@ -45,11 +45,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/sk0;Lcom/huawei/appmarket/service/settings/view/fragment/SettingsFragment$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/tk0;Lcom/huawei/appmarket/service/settings/view/fragment/SettingsFragment$a;)V
     .registers 3
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/settings/view/fragment/SettingsFragment$c;-><init>(Lcom/huawei/appmarket/sk0;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/settings/view/fragment/SettingsFragment$c;-><init>(Lcom/huawei/appmarket/tk0;)V
 
     return-void
 .end method
@@ -67,7 +67,7 @@
 
     const-string v0, "notifyDataSetChanged adapterWeakReference is null!"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -76,13 +76,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/sk0;
+    check-cast v0, Lcom/huawei/appmarket/tk0;
 
     if-nez v0, :cond_1
 
     const-string v0, "notifyDataSetChanged adapter is null"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -97,7 +97,7 @@
     :catch_0
     const-string v0, "notifyDataSetChanged IllegalStateException!"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

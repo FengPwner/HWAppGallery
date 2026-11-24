@@ -4,14 +4,14 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "JGWTabFragment"
     protocol = Lcom/huawei/appgallery/forum/base/api/IJGWTabProtocol;
 .end annotation
 
 
 # instance fields
-.field protected V2:Lcom/huawei/appmarket/qr2;
+.field protected V2:Lcom/huawei/appmarket/sr2;
 
 .field private W2:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
@@ -22,11 +22,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/forum/base/ui/ForumFragment;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p0}, Lcom/huawei/appmarket/sr2;->c(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/sr2;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
     new-instance v0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment$a;
 
@@ -135,7 +135,7 @@
 
     .line 33
     .line 34
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -276,7 +276,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic w6(Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
@@ -310,7 +309,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 5
     .line 6
@@ -322,7 +321,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 11
     .line 12
@@ -462,7 +461,7 @@
 
     move-result-object v0
 
-    const-class v1, Lcom/huawei/appmarket/fr2;
+    const-class v1, Lcom/huawei/appmarket/hr2;
 
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
@@ -470,9 +469,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -528,7 +527,7 @@
 
     new-instance v0, Landroid/content/IntentFilter;
 
-    sget-object v1, Lcom/huawei/appmarket/fl4;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/il4;->a:Ljava/lang/String;
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -544,13 +543,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->W2:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     return-void
 .end method

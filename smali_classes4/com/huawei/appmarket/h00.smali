@@ -28,20 +28,20 @@
 
     sput-object v0, Lcom/huawei/appmarket/h00;->d:Lcom/huawei/appmarket/h00;
 
-    new-instance v0, Lcom/huawei/appmarket/em4;
+    new-instance v0, Lcom/huawei/appmarket/hm4;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Lcom/huawei/appmarket/em4;-><init>(Lcom/huawei/appmarket/rr1;ILcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1, v2, v1}, Lcom/huawei/appmarket/hm4;-><init>(Lcom/huawei/appmarket/ur1;ILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public abstract authenticate(Lcom/huawei/appmarket/sy6;Lcom/huawei/appmarket/vu6;)Lcom/huawei/appmarket/gr6;
+.method public abstract authenticate(Lcom/huawei/appmarket/wy6;Lcom/huawei/appmarket/zu6;)Lcom/huawei/appmarket/jr6;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

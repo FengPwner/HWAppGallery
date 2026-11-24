@@ -19,7 +19,7 @@
 
 .field public b:J
 
-.field public c:Lcom/huawei/appmarket/f28$a;
+.field public c:Lcom/huawei/appmarket/k28$a;
 
 
 # direct methods

@@ -80,7 +80,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelJumpUrlInfo;->url:Ljava/lang/String;
 
-    const-string v1, "wx_channel_jump_url"
+    const-string/jumbo v1, "wx_channel_jump_url"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -100,7 +100,7 @@
 
     invoke-super {p0, p1}, Lcom/tencent/mm/opensdk/modelbiz/WXChannelBaseJumpInfo;->unserialize(Landroid/os/Bundle;)V
 
-    const-string v0, "wx_channel_jump_url"
+    const-string/jumbo v0, "wx_channel_jump_url"
 
     invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 

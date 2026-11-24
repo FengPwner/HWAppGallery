@@ -166,9 +166,9 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/huawei/appmarket/am4;
+    new-instance v2, Lcom/huawei/appmarket/dm4;
 
-    invoke-direct {v2, p0, v1, v0, p1}, Lcom/huawei/appmarket/am4;-><init>(Lcom/koushikdutta/quack/JSValue;Lcom/koushikdutta/quack/JSValue;Lcom/koushikdutta/quack/JSValue;Ljava/lang/Class;)V
+    invoke-direct {v2, p0, v1, v0, p1}, Lcom/huawei/appmarket/dm4;-><init>(Lcom/koushikdutta/quack/JSValue;Lcom/koushikdutta/quack/JSValue;Lcom/koushikdutta/quack/JSValue;Ljava/lang/Class;)V
 
     return-object v2
 .end method

@@ -4,11 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;)Ljava/util/HashMap;
-.end method
-
-.method public abstract b(Landroid/content/Context;Ljava/lang/String;)V
-.end method
-
-.method public abstract c(Landroid/content/Context;)Ljava/util/HashMap;
+.method public abstract a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)Z
 .end method

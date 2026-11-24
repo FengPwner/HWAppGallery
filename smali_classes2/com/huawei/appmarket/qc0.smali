@@ -10,11 +10,11 @@
 
 .field private c:I
 
-.field private d:Lcom/huawei/appmarket/u06;
+.field private d:Lcom/huawei/appmarket/w06;
 
-.field private e:[Lcom/huawei/appmarket/v28;
+.field private e:[Lcom/huawei/appmarket/b38;
 
-.field private f:Lcom/huawei/appmarket/sr6;
+.field private f:Lcom/huawei/appmarket/vr6;
 
 .field private g:Ljava/lang/String;
 
@@ -24,7 +24,7 @@
 
 .field private j:Z
 
-.field private k:Lcom/huawei/appmarket/uo5;
+.field private k:Lcom/huawei/appmarket/vo5;
 
 
 # direct methods
@@ -40,15 +40,15 @@
 
     iput v0, p0, Lcom/huawei/appmarket/qc0;->c:I
 
-    sget-object v0, Lcom/huawei/appmarket/u06;->c:Lcom/huawei/appmarket/u06;
+    sget-object v0, Lcom/huawei/appmarket/w06;->c:Lcom/huawei/appmarket/w06;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/u06;
+    iput-object v0, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/w06;
 
-    new-instance v0, Lcom/huawei/appmarket/oa4;
+    new-instance v0, Lcom/huawei/appmarket/qa4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/oa4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qa4;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/sr6;
+    iput-object v0, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/vr6;
 
     const/4 v0, 0x1
 
@@ -68,20 +68,20 @@
     return v0
 .end method
 
-.method public final b()Lcom/huawei/appmarket/uo5;
+.method public final b()Lcom/huawei/appmarket/vo5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->k:Lcom/huawei/appmarket/uo5;
+    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->k:Lcom/huawei/appmarket/vo5;
 
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/u06;
+.method public final c()Lcom/huawei/appmarket/w06;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/u06;
+    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/w06;
 
     return-object v0
 .end method
@@ -95,35 +95,35 @@
     return-object v0
 .end method
 
-.method public final e()Lcom/huawei/appmarket/sr6;
+.method public final e()Lcom/huawei/appmarket/vr6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/sr6;
+    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/vr6;
 
     return-object v0
 .end method
 
-.method public final f()[Lcom/huawei/appmarket/v28;
+.method public final f()[Lcom/huawei/appmarket/b38;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->e:[Lcom/huawei/appmarket/v28;
+    iget-object v0, p0, Lcom/huawei/appmarket/qc0;->e:[Lcom/huawei/appmarket/b38;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, [Lcom/huawei/appmarket/v28;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcom/huawei/appmarket/b38;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/huawei/appmarket/v28;
+    check-cast v0, [Lcom/huawei/appmarket/b38;
 
     return-object v0
 
     :cond_0
     const/4 v0, 0x0
 
-    new-array v0, v0, [Lcom/huawei/appmarket/v28;
+    new-array v0, v0, [Lcom/huawei/appmarket/b38;
 
     return-object v0
 .end method
@@ -182,11 +182,11 @@
     return-void
 .end method
 
-.method public final m(Lcom/huawei/appmarket/uo5;)V
+.method public final m(Lcom/huawei/appmarket/vo5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->k:Lcom/huawei/appmarket/uo5;
+    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->k:Lcom/huawei/appmarket/vo5;
 
     return-void
 .end method
@@ -209,11 +209,11 @@
     return-void
 .end method
 
-.method public final p(Lcom/huawei/appmarket/u06;)V
+.method public final p(Lcom/huawei/appmarket/w06;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/u06;
+    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->d:Lcom/huawei/appmarket/w06;
 
     return-void
 .end method
@@ -227,11 +227,11 @@
     return-void
 .end method
 
-.method public final r(Lcom/huawei/appmarket/sr6;)V
+.method public final r(Lcom/huawei/appmarket/vr6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/sr6;
+    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->f:Lcom/huawei/appmarket/vr6;
 
     return-void
 .end method
@@ -245,17 +245,17 @@
     return-void
 .end method
 
-.method public final varargs t([Lcom/huawei/appmarket/v28;)V
+.method public final varargs t([Lcom/huawei/appmarket/b38;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p1}, [Lcom/huawei/appmarket/v28;->clone()Ljava/lang/Object;
+    invoke-virtual {p1}, [Lcom/huawei/appmarket/b38;->clone()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, [Lcom/huawei/appmarket/v28;
+    check-cast p1, [Lcom/huawei/appmarket/b38;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->e:[Lcom/huawei/appmarket/v28;
+    iput-object p1, p0, Lcom/huawei/appmarket/qc0;->e:[Lcom/huawei/appmarket/b38;
 
     return-void
 .end method

@@ -107,7 +107,7 @@
 
     const v0, 0x7f13066e
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->L:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->L:[I
 
     const v4, 0x7f13066e
 
@@ -131,7 +131,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -220,9 +220,9 @@
     goto :goto_0
 
     :cond_3
-    new-instance p3, Lcom/huawei/appmarket/q45;
+    new-instance p3, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {p3}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {p3}, Lcom/huawei/appmarket/t45;-><init>()V
 
     if-eqz p2, :cond_4
 
@@ -237,17 +237,17 @@
 
     move-result-object p2
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     move-result p1
 
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
-    invoke-static {p0, p3}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, p3}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
     return-void
@@ -364,7 +364,7 @@
 
     invoke-super {p0}, Landroidx/appcompat/widget/Toolbar;->onAttachedToWindow()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/s45;->c(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/v45;->c(Landroid/view/View;)V
 
     return-void
 .end method
@@ -402,7 +402,7 @@
     .line 14
     .line 15
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/b18;->c(Landroidx/appcompat/widget/Toolbar;)Landroid/widget/TextView;
+    invoke-static {p0}, Lcom/huawei/appmarket/g18;->c(Landroidx/appcompat/widget/Toolbar;)Landroid/widget/TextView;
 
     .line 16
     .line 17
@@ -410,7 +410,7 @@
     move-result-object p1
 
     .line 19
-    invoke-static {p0}, Lcom/huawei/appmarket/b18;->a(Landroidx/appcompat/widget/Toolbar;)Landroid/widget/TextView;
+    invoke-static {p0}, Lcom/huawei/appmarket/g18;->a(Landroidx/appcompat/widget/Toolbar;)Landroid/widget/TextView;
 
     .line 20
     .line 21
@@ -645,7 +645,7 @@
     .line 132
     :cond_6
     :goto_1
-    sget p1, Lcom/huawei/appmarket/b18;->b:I
+    sget p1, Lcom/huawei/appmarket/g18;->b:I
 
     .line 133
     .line 134
@@ -1532,7 +1532,7 @@
 
     invoke-super {p0, p1}, Landroid/view/ViewGroup;->setElevation(F)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/s45;->b(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/v45;->b(Landroid/view/View;F)V
 
     return-void
 .end method

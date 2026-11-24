@@ -3,4 +3,4 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/cp3;
+.implements Lcom/huawei/appmarket/ep3;

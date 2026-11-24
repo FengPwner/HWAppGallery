@@ -41,7 +41,7 @@
 
     const/16 v4, 0xc
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v3
 

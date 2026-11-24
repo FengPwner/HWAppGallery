@@ -121,7 +121,7 @@
 
     iget-object v0, v9, Lcom/huawei/hianalytics/framework/t;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/gz6;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

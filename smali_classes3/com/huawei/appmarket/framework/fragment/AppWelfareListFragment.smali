@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private t3:Lcom/huawei/appmarket/d44;
+.field private t3:Lcom/huawei/appmarket/f44;
 
 
 # direct methods
@@ -22,11 +22,11 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/zv;
+    new-instance v0, Lcom/huawei/appmarket/aw;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zv;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/aw;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/w81;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->h1:Lcom/huawei/appmarket/x81;
 
     return-void
 .end method
@@ -37,13 +37,13 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->b2(Landroid/app/Activity;)V
 
-    instance-of v0, p1, Lcom/huawei/appmarket/d44;
+    instance-of v0, p1, Lcom/huawei/appmarket/f44;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/d44;
+    check-cast p1, Lcom/huawei/appmarket/f44;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/fragment/AppWelfareListFragment;->t3:Lcom/huawei/appmarket/d44;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/fragment/AppWelfareListFragment;->t3:Lcom/huawei/appmarket/f44;
 
     :cond_0
     return-void
@@ -71,21 +71,21 @@
     return-void
 .end method
 
-.method protected final v4(Lcom/huawei/appmarket/v34;)V
+.method protected final v4(Lcom/huawei/appmarket/x34;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->v4(Lcom/huawei/appmarket/v34;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->v4(Lcom/huawei/appmarket/x34;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/AppWelfareListFragment;->t3:Lcom/huawei/appmarket/d44;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/AppWelfareListFragment;->t3:Lcom/huawei/appmarket/f44;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/v34;->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/x34;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/d44;->c(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/f44;->c(Ljava/lang/String;)V
 
     :cond_0
     return-void

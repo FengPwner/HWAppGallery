@@ -34,7 +34,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -45,7 +45,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -76,9 +76,9 @@
     return-object p1
 
     :cond_0
-    new-instance p2, Lcom/huawei/appmarket/l99;
+    new-instance p2, Lcom/huawei/appmarket/r99;
 
-    invoke-direct {p2}, Lcom/huawei/appmarket/l99;-><init>()V
+    invoke-direct {p2}, Lcom/huawei/appmarket/r99;-><init>()V
 
     const-string v0, "id"
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/l99;->d(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/r99;->d(Ljava/lang/String;)V
 
     const-string v0, "blurRadius"
 
@@ -96,7 +96,7 @@
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/l99;->c(I)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/r99;->c(I)V
 
     const-string v0, "topLeftRadius"
 
@@ -110,7 +110,7 @@
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/l99;->h(F)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/r99;->h(F)V
 
     const-string v0, "topRightRadius"
 
@@ -122,7 +122,7 @@
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/l99;->j(F)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/r99;->j(F)V
 
     const-string v0, "bottomLeftRadius"
 
@@ -134,7 +134,7 @@
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/l99;->b(F)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/r99;->b(F)V
 
     const-string v0, "bottomRightRadius"
 
@@ -146,7 +146,7 @@
 
     move-result p1
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/l99;->f(F)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/r99;->f(F)V
 
     new-instance p1, Lcom/huawei/quickcard/framework/value/QuickCardValue$ObjectValue;
 
@@ -176,13 +176,13 @@
 
     move-result-object p2
 
-    instance-of p3, p2, Lcom/huawei/appmarket/l99;
+    instance-of p3, p2, Lcom/huawei/appmarket/r99;
 
     if-eqz p3, :cond_1
 
-    check-cast p2, Lcom/huawei/appmarket/l99;
+    check-cast p2, Lcom/huawei/appmarket/r99;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/l99;->l()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/r99;->l()Ljava/lang/String;
 
     move-result-object p3
 
@@ -197,7 +197,7 @@
     return-void
 
     :cond_0
-    invoke-interface {p1, p2}, Lcom/huawei/quickcard/framework/blur/Blurable;->doBlur(Lcom/huawei/appmarket/l99;)V
+    invoke-interface {p1, p2}, Lcom/huawei/quickcard/framework/blur/Blurable;->doBlur(Lcom/huawei/appmarket/r99;)V
 
     return-void
 

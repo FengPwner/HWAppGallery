@@ -54,7 +54,7 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/hms/network/httpclient/Callback;-><init>()V
 
@@ -149,11 +149,11 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
-    const/16 v2, 0x12
+    const/16 v2, 0x14
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -171,7 +171,7 @@
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -202,11 +202,11 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
-    const/16 v2, 0x11
+    const/16 v2, 0x13
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -224,7 +224,7 @@
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/huawei/phoneservice/faq/base/network/FaqNewCallback;->doResult(Ljava/lang/String;)V
 
@@ -248,11 +248,11 @@
 
     const-string v0, "submit"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "throwable"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     invoke-direct {p0, p2}, Lcom/huawei/phoneservice/faq/base/network/FaqNewCallback;->onFailureCallback(Ljava/lang/Throwable;)V
@@ -295,11 +295,11 @@
     .line 1
     const-string v0, "submit"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "response"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/hms/network/httpclient/Response;->getBody()Ljava/lang/Object;
 
@@ -404,7 +404,7 @@
     :cond_3
     const-string p1, "null cannot be cast to non-null type kotlin.String"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -418,7 +418,7 @@
 .end method
 
 .method public abstract onResult(Ljava/lang/Throwable;Ljava/lang/Object;)V
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

@@ -1,49 +1,35 @@
 .class public final Lcom/huawei/appmarket/kn1;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
 # static fields
-.field private static final a:Z
+.field public static final a:Lcom/huawei/appmarket/kn1;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 2
+    .registers 1
 
     .line 1
-    const-string v0, "ro.build.characteristics"
+    new-instance v0, Lcom/huawei/appmarket/kn1;
 
-    const-string v1, ""
+    invoke-direct {v0}, Lcom/huawei/appmarket/kn1;-><init>()V
 
-    invoke-static {v0, v1}, Lcom/huawei/android/os/SystemPropertiesEx;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "tablet"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    sput-boolean v0, Lcom/huawei/appmarket/kn1;->a:Z
+    sput-object v0, Lcom/huawei/appmarket/kn1;->a:Lcom/huawei/appmarket/kn1;
 
     return-void
 .end method
 
 .method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a()Z
-    .registers 1
+    .registers 3
 
     .line 1
-    sget-boolean v0, Lcom/huawei/appmarket/kn1;->a:Z
+    const-string v0, "Dev"
 
-    return v0
+    const/4 v1, 0x1
+
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
+
+    return-void
 .end method

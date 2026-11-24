@@ -1,5 +1,5 @@
 .class public Lcom/huawei/flexiblelayout/css/action/impl/CheckedAction;
-.super Lcom/huawei/appmarket/dg0;
+.super Lcom/huawei/appmarket/eg0;
 .source "SourceFile"
 
 
@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dg0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/eg0;-><init>()V
 
     return-void
 .end method

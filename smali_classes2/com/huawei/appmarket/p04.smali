@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+.method public abstract a(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 .end method

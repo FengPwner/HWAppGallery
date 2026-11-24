@@ -46,17 +46,17 @@
     .line 1
     invoke-static {p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v0, Lcom/huawei/appmarket/ay4;
+    new-instance v0, Lcom/huawei/appmarket/dy4;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/ay4;-><init>(Ljava/util/concurrent/locks/StampedLock;I)V
+    invoke-direct {v0, p2, v1}, Lcom/huawei/appmarket/dy4;-><init>(Ljava/util/concurrent/locks/StampedLock;I)V
 
-    new-instance v1, Lcom/huawei/appmarket/ay4;
+    new-instance v1, Lcom/huawei/appmarket/dy4;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p2, v2}, Lcom/huawei/appmarket/ay4;-><init>(Ljava/util/concurrent/locks/StampedLock;I)V
+    invoke-direct {v1, p2, v2}, Lcom/huawei/appmarket/dy4;-><init>(Ljava/util/concurrent/locks/StampedLock;I)V
 
     invoke-direct {p0, p1, p2, v0, v1}, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$LockVisitor;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/Supplier;Ljava/util/function/Supplier;)V
 

@@ -84,7 +84,7 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/huawei/appmarket/hf6;->e:[I
+    sget-object v3, Lcom/huawei/appmarket/jf6;->e:[I
 
     invoke-virtual {v2, p1, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -419,7 +419,7 @@
 
     .line 52
     .line 53
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/bu0;->t(Ljava/lang/IllegalArgumentException;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kb1;->w(Ljava/lang/IllegalArgumentException;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -477,7 +477,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setBounceEnable(Z)V

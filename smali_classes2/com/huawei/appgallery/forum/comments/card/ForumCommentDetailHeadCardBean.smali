@@ -19,7 +19,7 @@
 .field private moreComment_:I
 
 .field private post:Lcom/huawei/appgallery/forum/base/card/bean/Post;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

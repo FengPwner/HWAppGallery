@@ -9,7 +9,7 @@
 
 # instance fields
 .field private callerAppSigns_:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
@@ -23,7 +23,7 @@
 .end field
 
 .field private developerId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -50,7 +50,42 @@
 
 
 # virtual methods
-.method public final T(Ljava/util/List;)V
+.method public final T()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignRequestBean;->callerAppSigns_:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final U()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignRequestBean;->developerId_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final V()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmSignRequestBean;->pkgName_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final W(Ljava/util/List;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -67,7 +102,7 @@
     return-void
 .end method
 
-.method public final U(Ljava/lang/String;)V
+.method public final X(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -76,7 +111,7 @@
     return-void
 .end method
 
-.method public final V(Ljava/lang/String;)V
+.method public final Y(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -97,7 +132,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->g(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -113,7 +148,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15

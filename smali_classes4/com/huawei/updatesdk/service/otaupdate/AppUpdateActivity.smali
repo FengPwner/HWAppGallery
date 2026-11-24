@@ -376,7 +376,7 @@
 
     invoke-virtual {v2, v3, v0, v4}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
-    const-string v2, "window"
+    const-string/jumbo v2, "window"
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -861,7 +861,7 @@
 
     move-result-object v1
 
-    const-string v4, "version_textview"
+    const-string/jumbo v4, "version_textview"
 
     invoke-static {p0, v4}, Lcom/huawei/updatesdk/service/util/c;->a(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -1153,7 +1153,7 @@
 
     move-result-object v2
 
-    const-string v3, "version"
+    const-string/jumbo v3, "version"
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

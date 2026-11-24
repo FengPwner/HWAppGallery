@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/w86;
+.field private final a:Lcom/huawei/appmarket/y86;
 
 .field private final b:Z
 
@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/w86;Z[I[Lcom/google/protobuf/a0;Ljava/lang/Object;)V
+.method constructor <init>(Lcom/huawei/appmarket/y86;Z[I[Lcom/google/protobuf/a0;Ljava/lang/Object;)V
     .registers 6
 
     .line 1
@@ -36,7 +36,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/protobuf/y1;->a:Lcom/huawei/appmarket/w86;
+    iput-object p1, p0, Lcom/google/protobuf/y1;->a:Lcom/huawei/appmarket/y86;
 
     .line 5
     .line 6
@@ -1004,11 +1004,11 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/w86;
+.method public final c()Lcom/huawei/appmarket/y86;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/protobuf/y1;->a:Lcom/huawei/appmarket/w86;
+    iget-object v0, p0, Lcom/google/protobuf/y1;->a:Lcom/huawei/appmarket/y86;
 
     return-object v0
 .end method

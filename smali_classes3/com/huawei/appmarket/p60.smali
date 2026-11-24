@@ -11,13 +11,13 @@
 
 .field public final synthetic c:Landroid/app/Activity;
 
-.field public final synthetic d:Lcom/huawei/appmarket/gt$c;
+.field public final synthetic d:Lcom/huawei/appmarket/ht$c;
 
 .field public final synthetic e:Ljava/util/List;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/q60;Landroid/app/Activity;Lcom/huawei/appmarket/gt$c;Ljava/util/List;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/q60;Landroid/app/Activity;Lcom/huawei/appmarket/ht$c;Ljava/util/List;)V
     .registers 5
 
     .line 1
@@ -27,7 +27,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/p60;->c:Landroid/app/Activity;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/p60;->d:Lcom/huawei/appmarket/gt$c;
+    iput-object p3, p0, Lcom/huawei/appmarket/p60;->d:Lcom/huawei/appmarket/ht$c;
 
     iput-object p4, p0, Lcom/huawei/appmarket/p60;->e:Ljava/util/List;
 
@@ -40,7 +40,7 @@
     .registers 5
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/p60;->d:Lcom/huawei/appmarket/gt$c;
+    iget-object p1, p0, Lcom/huawei/appmarket/p60;->d:Lcom/huawei/appmarket/ht$c;
 
     iget-object p2, p0, Lcom/huawei/appmarket/p60;->e:Ljava/util/List;
 
@@ -48,7 +48,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/p60;->c:Landroid/app/Activity;
 
-    invoke-static {v0, v1, p1, p2}, Lcom/huawei/appmarket/q60;->a(Lcom/huawei/appmarket/q60;Landroid/app/Activity;Lcom/huawei/appmarket/gt$c;Ljava/util/List;)V
+    invoke-static {v0, v1, p1, p2}, Lcom/huawei/appmarket/q60;->a(Lcom/huawei/appmarket/q60;Landroid/app/Activity;Lcom/huawei/appmarket/ht$c;Ljava/util/List;)V
 
     return-void
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
-.method public abstract getMsgSetting()Lcom/huawei/appmarket/nd0;
+.method public abstract getMsgSetting()Lcom/huawei/appmarket/od0;
 .end method
 
-.method public abstract setMsgSetting(Lcom/huawei/appmarket/nd0;)V
+.method public abstract setMsgSetting(Lcom/huawei/appmarket/od0;)V
 .end method

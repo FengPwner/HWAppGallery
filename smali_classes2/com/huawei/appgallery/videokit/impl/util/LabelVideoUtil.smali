@@ -16,10 +16,10 @@
 
 .field private static final WISE_VIDEO_KEY:Ljava/lang/String; = "wisevideo"
 
-.field private static final instance$delegate:Lcom/huawei/appmarket/bt4;
+.field private static final instance$delegate:Lcom/huawei/appmarket/et4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/bt4<",
+            "Lcom/huawei/appmarket/et4<",
             "Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;",
             ">;"
         }
@@ -39,19 +39,19 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;->Companion:Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil$Companion;
 
-    sget-object v0, Lcom/huawei/appmarket/ot4;->b:Lcom/huawei/appmarket/ot4;
+    sget-object v0, Lcom/huawei/appmarket/rt4;->b:Lcom/huawei/appmarket/rt4;
 
     sget-object v1, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil$Companion$instance$2;->INSTANCE:Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil$Companion$instance$2;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gt4;->b(Lcom/huawei/appmarket/ot4;Lcom/huawei/appmarket/os2;)Lcom/huawei/appmarket/bt4;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jt4;->b(Lcom/huawei/appmarket/rt4;Lcom/huawei/appmarket/rs2;)Lcom/huawei/appmarket/et4;
 
     move-result-object v0
 
-    sput-object v0, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sput-object v0, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-void
 .end method
@@ -64,11 +64,11 @@
     return-void
 .end method
 
-.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/bt4;
+.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/et4;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sget-object v0, Lcom/huawei/appgallery/videokit/impl/util/LabelVideoUtil;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-object v0
 .end method

@@ -11,11 +11,11 @@
 
 .field public final synthetic c:Ljava/lang/String;
 
-.field public final synthetic d:Lcom/huawei/appmarket/wz6;
+.field public final synthetic d:Lcom/huawei/appmarket/a07;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$c;Ljava/lang/String;Lcom/huawei/appmarket/wz6;)V
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment$c;Ljava/lang/String;Lcom/huawei/appmarket/a07;)V
     .registers 4
 
     .line 1
@@ -25,7 +25,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/f;->c:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/f;->d:Lcom/huawei/appmarket/wz6;
+    iput-object p3, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/f;->d:Lcom/huawei/appmarket/a07;
 
     return-void
 .end method
@@ -48,11 +48,11 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/f;->d:Lcom/huawei/appmarket/wz6;
+    iget-object v2, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/f;->d:Lcom/huawei/appmarket/a07;
 
     .line 8
     .line 9
-    invoke-static {v0, v1, v2}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->J7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;Ljava/lang/String;Lcom/huawei/appmarket/wz6;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;->J7(Lcom/huawei/appgallery/detail/detailservice/fragment/NewDetailFlowFragment;Ljava/lang/String;Lcom/huawei/appmarket/a07;)V
 
     .line 10
     .line 11

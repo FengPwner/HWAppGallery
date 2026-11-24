@@ -258,7 +258,7 @@
     .line 98
     .line 99
     :goto_2
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -273,5 +273,4 @@
     .line 106
     :goto_3
     return-void
-    .line 107
 .end method

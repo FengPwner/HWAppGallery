@@ -390,7 +390,7 @@
     .registers 12
 
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/xe3;->b()Lcom/huawei/appmarket/xe3;
+    invoke-static {}, Lcom/huawei/appmarket/ze3;->b()Lcom/huawei/appmarket/ze3;
 
     move-result-object v0
 
@@ -474,7 +474,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-virtual {v0, v6}, Lcom/huawei/appmarket/xe3;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v6}, Lcom/huawei/appmarket/ze3;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 

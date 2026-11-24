@@ -242,7 +242,7 @@
     const/4 p0, 0x1
 
     :goto_1
-    invoke-static {p0}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {p0}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     new-instance p0, Landroidx/media3/exoplayer/video/PlaceholderSurface$b;
 

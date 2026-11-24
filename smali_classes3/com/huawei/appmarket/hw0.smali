@@ -12,15 +12,15 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ga5;
+    new-instance v0, Lcom/huawei/appmarket/ja5;
 
     const/16 v1, 0x1b
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ga5;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ja5;-><init>(I)V
 
-    const-class v1, Lcom/huawei/appmarket/hk0;
+    const-class v1, Lcom/huawei/appmarket/ik0;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/lt4;->a(Ljava/lang/Class;Ljava/lang/Runnable;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ot4;->a(Ljava/lang/Class;Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -37,9 +37,9 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/hk0;->f(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/ik0;->f(Ljava/lang/Class;Ljava/lang/String;)V
 
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/hk0;->g(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/ik0;->g(Ljava/lang/Class;Ljava/lang/String;)V
 
     return-void
 .end method

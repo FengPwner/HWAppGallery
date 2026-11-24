@@ -18,19 +18,19 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/ic2;)Z
+.method final a(Lcom/huawei/appmarket/lc2;)Z
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ic2<",
+            "Lcom/huawei/appmarket/lc2<",
             "Lcom/huawei/flexiblelayout/data/b;",
             ">;)Z"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/b;->c(Lcom/huawei/appmarket/ic2;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/flexiblelayout/data/b;->c(Lcom/huawei/appmarket/lc2;)V
 
     .line 2
     .line 3
@@ -148,7 +148,7 @@
 
     .line 56
     .line 57
-    invoke-interface {p1}, Lcom/huawei/appmarket/ic2;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/huawei/appmarket/lc2;->get()Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -200,7 +200,7 @@
 
     .line 80
     .line 81
-    invoke-interface {p1}, Lcom/huawei/appmarket/ic2;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/huawei/appmarket/lc2;->get()Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -272,7 +272,7 @@
 
     .line 114
     .line 115
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 116
     .line 117
@@ -511,8 +511,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final addChild(Lcom/huawei/flexiblelayout/data/b;)V
@@ -698,15 +696,14 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method final b(Lcom/huawei/appmarket/ic2;)V
+.method final b(Lcom/huawei/appmarket/lc2;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ic2<",
+            "Lcom/huawei/appmarket/lc2<",
             "Lcom/huawei/flexiblelayout/data/b;",
             ">;)V"
         }

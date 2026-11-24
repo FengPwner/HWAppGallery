@@ -49,15 +49,15 @@
 
     const-string v1, "DownloadProxy"
 
-    const-class v2, Lcom/huawei/appmarket/mo3;
+    const-class v2, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/mo3;
+    check-cast v1, Lcom/huawei/appmarket/oo3;
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/mo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/oo3;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     :cond_0
     return-void

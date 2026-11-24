@@ -14,7 +14,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lcom/huawei/agconnect/https/Adapter<",
-        "Lcom/huawei/appmarket/xu6;",
+        "Lcom/huawei/appmarket/bv6;",
         "TT;>;"
     }
 .end annotation
@@ -51,12 +51,12 @@
 
 
 # virtual methods
-.method public a(Lcom/huawei/appmarket/xu6;)Ljava/lang/Object;
+.method public a(Lcom/huawei/appmarket/bv6;)Ljava/lang/Object;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/xu6;",
+            "Lcom/huawei/appmarket/bv6;",
             ")TT;"
         }
     .end annotation
@@ -70,7 +70,7 @@
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xu6;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv6;->w()Ljava/lang/String;
 
     move-result-object p1
 
@@ -142,9 +142,9 @@
         }
     .end annotation
 
-    check-cast p1, Lcom/huawei/appmarket/xu6;
+    check-cast p1, Lcom/huawei/appmarket/bv6;
 
-    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/JsonResponseAdapter;->a(Lcom/huawei/appmarket/xu6;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcom/huawei/agconnect/https/adapter/JsonResponseAdapter;->a(Lcom/huawei/appmarket/bv6;)Ljava/lang/Object;
 
     move-result-object p1
 

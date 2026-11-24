@@ -63,14 +63,14 @@
     return-object v0
 .end method
 
-.method public static with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+.method public static with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Object;",
             ">;"
         }
@@ -87,14 +87,14 @@
 
     const-class v3, Ljava/lang/Object;
 
-    invoke-direct {v0, p0, v3, v1, v2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+    invoke-direct {v0, p0, v3, v1, v2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static with(Ljava/lang/String;Ljava/lang/Class;)Lcom/huawei/appmarket/zd5;
+.method public static with(Ljava/lang/String;Ljava/lang/Class;)Lcom/huawei/appmarket/ce5;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -104,7 +104,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/Class<",
             "TT;>;)",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "TT;>;"
         }
     .end annotation
@@ -118,14 +118,14 @@
 
     sget-object v2, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;->NORMAL:Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;
 
-    invoke-direct {v0, p0, p1, v1, v2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+    invoke-direct {v0, p0, p1, v1, v2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static with(Ljava/lang/String;Ljava/lang/Class;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+.method public static with(Ljava/lang/String;Ljava/lang/Class;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -137,7 +137,7 @@
             "TT;>;",
             "Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;",
             ")",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "TT;>;"
         }
     .end annotation
@@ -149,14 +149,14 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, v1, p2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+    invoke-direct {v0, p0, p1, v1, p2}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static with(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+.method public static with(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -168,7 +168,7 @@
             "TT;>;Z",
             "Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;",
             ")",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "TT;>;"
         }
     .end annotation
@@ -178,14 +178,14 @@
 
     move-result-object v0
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+    invoke-direct {v0, p0, p1, p2, p3}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/zd5;
+.method private withInfo(Ljava/lang/String;Ljava/lang/Class;ZLcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)Lcom/huawei/appmarket/ce5;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -197,7 +197,7 @@
             "TT;>;Z",
             "Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;",
             ")",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "TT;>;"
         }
     .end annotation
@@ -260,7 +260,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/zd5;
+    check-cast p1, Lcom/huawei/appmarket/ce5;
 
     return-object p1
 .end method

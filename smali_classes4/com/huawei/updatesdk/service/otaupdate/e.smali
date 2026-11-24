@@ -197,7 +197,7 @@
 
     move-result-object v2
 
-    const-string v3, "wd_cno"
+    const-string/jumbo v3, "wd_cno"
 
     const-string v4, "string"
 

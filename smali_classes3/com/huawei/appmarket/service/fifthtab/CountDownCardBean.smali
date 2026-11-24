@@ -5,31 +5,31 @@
 
 # instance fields
 .field s:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "parentNumber"
     .end annotation
 .end field
 
 .field t:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "imgUrl"
     .end annotation
 .end field
 
 .field u:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "name"
     .end annotation
 .end field
 
 .field v:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "fontColor"
     .end annotation
 .end field
 
 .field w:Lcom/huawei/appmarket/service/fifthtab/EffectBean;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "effect"
     .end annotation
 .end field

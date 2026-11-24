@@ -4,15 +4,15 @@
 
 
 # instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/j49;
+.field public final synthetic b:Lcom/huawei/appmarket/p49;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/j49;)V
+.method public constructor <init>(Lcom/huawei/appmarket/p49;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lohos/ohos/ohos/ohos/ohos/e;->b:Lcom/huawei/appmarket/j49;
+    iput-object p1, p0, Lohos/ohos/ohos/ohos/ohos/e;->b:Lcom/huawei/appmarket/p49;
 
     invoke-direct {p0}, Lohos/ohos/ohos/ohos/ohos/p$a;-><init>()V
 
@@ -25,7 +25,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lohos/ohos/ohos/ohos/ohos/e;->b:Lcom/huawei/appmarket/j49;
+    iget-object v0, p0, Lohos/ohos/ohos/ohos/ohos/e;->b:Lcom/huawei/appmarket/p49;
 
     .line 2
     .line 3
@@ -107,7 +107,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/j49;->b(Lcom/huawei/appmarket/j49;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/p49;->b(Lcom/huawei/appmarket/p49;I)V
 
     .line 45
     .line 46
@@ -115,7 +115,7 @@
     const/4 p1, 0x1
 
     .line 48
-    iput-boolean p1, v0, Lcom/huawei/appmarket/j49;->k:Z
+    iput-boolean p1, v0, Lcom/huawei/appmarket/p49;->k:Z
 
     .line 49
     .line 50
@@ -129,7 +129,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/j49;->b(Lcom/huawei/appmarket/j49;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/p49;->b(Lcom/huawei/appmarket/p49;I)V
 
     .line 55
     .line 56
@@ -139,7 +139,7 @@
 
     .line 58
     :cond_2
-    invoke-virtual {v0}, Lcom/huawei/appmarket/j49;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/p49;->d()V
 
     .line 59
     .line 60
@@ -356,8 +356,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

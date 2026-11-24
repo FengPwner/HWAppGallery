@@ -58,7 +58,7 @@
     .end annotation
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 2
     .line 3
@@ -131,7 +131,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0}, Lcom/huawei/appmarket/f95;->h(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/i95;->h(Ljava/lang/String;)I
 
     .line 37
     .line 38
@@ -152,7 +152,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-static {v0}, Lcom/huawei/appmarket/ge8;->H(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/le8;->H(I)Ljava/lang/String;
 
     .line 48
     .line 49
@@ -177,7 +177,7 @@
 
     .line 59
     .line 60
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/cy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/fy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62

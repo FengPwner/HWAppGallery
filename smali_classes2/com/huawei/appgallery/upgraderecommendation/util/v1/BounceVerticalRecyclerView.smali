@@ -21,10 +21,6 @@
 
 
 # instance fields
-.field protected L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
-
-.field protected M1:Z
-
 .field private N1:F
 
 .field private O1:F
@@ -32,6 +28,10 @@
 .field private P1:Landroid/view/animation/Interpolator;
 
 .field private Q1:Z
+
+.field protected x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+
+.field protected y1:Z
 
 
 # direct methods
@@ -42,11 +42,11 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     const/4 v1, 0x0
 
@@ -75,11 +75,11 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     const/4 v1, 0x0
 
@@ -108,11 +108,11 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 p3, 0x0
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     const/4 v0, 0x0
 
@@ -161,7 +161,7 @@
     move-result-object v3
 
     .line 11
-    sget-object v4, Lcom/huawei/appmarket/df6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/ff6;->a:[I
 
     .line 12
     .line 13
@@ -181,7 +181,7 @@
     move-result p1
 
     .line 21
-    iput-boolean p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iput-boolean p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -209,7 +209,7 @@
 
     .line 30
     :try_start_1
-    sget-object v3, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object v3, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 31
     .line 32
@@ -247,7 +247,7 @@
     move-result-object p1
 
     .line 50
-    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -282,7 +282,7 @@
     .line 63
     .line 64
     .line 65
-    iget-boolean p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iget-boolean p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     .line 66
     .line 67
@@ -299,7 +299,7 @@
     .line 72
     .line 73
     .line 74
-    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 75
     .line 76
@@ -335,7 +335,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private L(Z)V
@@ -371,7 +370,7 @@
 
     .line 3
     .line 4
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 5
     .line 6
@@ -383,7 +382,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -862,7 +861,7 @@
 
     .line 5
     .line 6
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 7
     .line 8
@@ -870,7 +869,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -957,7 +956,7 @@
     .line 46
     .line 47
     .line 48
-    iget-boolean v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iget-boolean v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     .line 49
     .line 50
@@ -965,7 +964,7 @@
 
     .line 51
     .line 52
-    iget-object v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 53
     .line 54
@@ -997,7 +996,7 @@
     move-exception p1
 
     .line 65
-    sget-object v2, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object v2, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 66
     .line 67
@@ -1009,7 +1008,7 @@
     move-result-object p1
 
     .line 71
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -1047,7 +1046,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1065,7 +1063,7 @@
 
     .line 5
     .line 6
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 7
     .line 8
@@ -1073,7 +1071,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -1161,7 +1159,7 @@
     .line 47
     .line 48
     :try_start_0
-    iget-boolean v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->M1:Z
+    iget-boolean v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->y1:Z
 
     .line 49
     .line 50
@@ -1169,7 +1167,7 @@
 
     .line 51
     .line 52
-    iget-object v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->L1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v2, p0, Lcom/huawei/appgallery/upgraderecommendation/util/v1/BounceVerticalRecyclerView;->x1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 53
     .line 54
@@ -1210,7 +1208,7 @@
     move-exception p1
 
     .line 69
-    sget-object v2, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object v2, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     .line 70
     .line 71
@@ -1248,7 +1246,7 @@
     move-result-object p1
 
     .line 89
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -1268,7 +1266,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setUnInterceptOnBottom(Z)V

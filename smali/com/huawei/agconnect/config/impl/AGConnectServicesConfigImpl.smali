@@ -73,7 +73,6 @@
 .method private static a(Ljava/lang/String;)Ljava/lang/String;
     .registers 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -102,13 +101,8 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 2
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/tr2;->j(Ljava/lang/String;ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -118,7 +112,7 @@
 .method private a()V
     .registers 5
 
-    .line 3
+    .line 6
     const-string v0, "AGC_ConfigImpl"
 
     const-string v1, "initConfigReader"

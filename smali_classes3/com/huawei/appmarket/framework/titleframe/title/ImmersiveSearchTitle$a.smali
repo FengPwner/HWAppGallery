@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle$a;->b:Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -36,11 +36,11 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle$a;->b:Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;->a(Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;->a(Lcom/huawei/appmarket/framework/titleframe/title/ImmersiveSearchTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/a44;->i2()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/c44;->i2()V
 
     return-void
 .end method

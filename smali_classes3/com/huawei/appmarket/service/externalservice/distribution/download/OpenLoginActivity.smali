@@ -26,7 +26,7 @@
 
     const-string v1, "OpenLoginActivity, onPostExecute"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     const/4 p1, 0x1
 
     .line 5
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 6
     .line 7
@@ -59,7 +59,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -71,7 +71,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 20
     .line 21
@@ -79,7 +79,7 @@
     move-result-object p1
 
     .line 23
-    new-instance v0, Lcom/huawei/appmarket/wz5;
+    new-instance v0, Lcom/huawei/appmarket/yz5;
 
     .line 24
     .line 25
@@ -87,12 +87,12 @@
 
     .line 26
     .line 27
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 31
     .line 32
@@ -179,5 +179,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

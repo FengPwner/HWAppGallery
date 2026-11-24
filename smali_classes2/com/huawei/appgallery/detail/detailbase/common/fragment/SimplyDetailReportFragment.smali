@@ -38,7 +38,7 @@
 
 .field private E3:Ljava/lang/String;
 
-.field private F3:Lcom/huawei/appmarket/gf1;
+.field private F3:Lcom/huawei/appmarket/if1;
 
 .field private G3:Ljava/lang/String;
 
@@ -118,7 +118,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->z3:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v0
 
@@ -136,13 +136,13 @@
 
     iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->x3:Ljava/util/ArrayList;
 
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     move-object v1, v0
 
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;-><init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/gf1;)V
+    invoke-direct/range {v1 .. v7}, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;-><init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/if1;)V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method
@@ -151,15 +151,15 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/gf1;
+    new-instance v0, Lcom/huawei/appmarket/if1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gf1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/if1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     const v1, 0x7f0a0e2b
 
@@ -167,22 +167,22 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gf1;->h(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/if1;->h(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     new-instance v0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$c;
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$c;-><init>(Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gf1;->e(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/if1;->e(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/if1;->o(I)V
 
     return-void
 .end method
@@ -224,7 +224,7 @@
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->E3:Ljava/lang/String;
 
     :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     move-result-object v0
 
@@ -297,7 +297,7 @@
     move-result-object p3
 
     .line 14
-    invoke-static {p3}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 15
     .line 16
@@ -315,7 +315,7 @@
     move-result-object p3
 
     .line 24
-    invoke-static {p3}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 25
     .line 26
@@ -469,7 +469,7 @@
 
     .line 103
     .line 104
-    const p3, 0x7f0a160d
+    const p3, 0x7f0a160e
 
     .line 105
     .line 106
@@ -572,7 +572,7 @@
 
     .line 158
     .line 159
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 160
     .line 161
@@ -867,7 +867,7 @@
     const/4 v0, 0x0
 
     .line 42
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 43
     .line 44
@@ -875,7 +875,7 @@
     move-result-object p1
 
     .line 46
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 47
     .line 48
@@ -1072,7 +1072,7 @@
 
     .line 147
     .line 148
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 149
     .line 150
@@ -1123,19 +1123,19 @@
 
     .line 174
     .line 175
-    iget-object v8, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/gf1;
+    iget-object v8, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->F3:Lcom/huawei/appmarket/if1;
 
     .line 176
     .line 177
     move-object v2, p1
 
     .line 178
-    invoke-direct/range {v2 .. v8}, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;-><init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/gf1;)V
+    invoke-direct/range {v2 .. v8}, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment$d;-><init>(Landroid/app/Activity;Landroid/widget/ListView;Lcom/huawei/appgallery/detail/detailbase/common/adapter/SimplyDetailReportAdapter;Ljava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/if1;)V
 
     .line 179
     .line 180
     .line 181
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 182
     .line 183
@@ -1292,7 +1292,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/fragment/SimplyDetailReportFragment;->y3:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

@@ -11,14 +11,14 @@
 
 .field final synthetic c:Ljava/lang/String;
 
-.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;
+.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;ILjava/lang/String;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;ILjava/lang/String;)V
     .registers 4
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/e;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/e;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;
 
     iput p2, p0, Lcom/huawei/appmarket/service/webview/js/e;->b:I
 
@@ -34,9 +34,9 @@
 .method public final run()V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/e;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/e;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     iget-object v1, v1, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
 
@@ -46,7 +46,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;->a:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

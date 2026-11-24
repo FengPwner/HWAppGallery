@@ -179,13 +179,13 @@
     array-length v3, v3
 
     :goto_1
-    new-instance v5, Lcom/huawei/appmarket/pv5;
+    new-instance v5, Lcom/huawei/appmarket/rv5;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    invoke-direct {v5, v4, v3}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v5, v4, v3}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -213,13 +213,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/pv5;
+    check-cast v1, Lcom/huawei/appmarket/rv5;
 
     const-string v2, "this[\'"
 
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, v1, Lcom/huawei/appmarket/pv5;->a:Ljava/lang/Object;
+    iget-object v2, v1, Lcom/huawei/appmarket/rv5;->a:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
 
@@ -229,7 +229,7 @@
 
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, v1, Lcom/huawei/appmarket/pv5;->b:Ljava/lang/Object;
+    iget-object v2, v1, Lcom/huawei/appmarket/rv5;->b:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/Integer;
 
@@ -243,11 +243,11 @@
 
     invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v3, "{ return $Export."
+    const-string/jumbo v3, "{ return $Export."
 
     invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, v1, Lcom/huawei/appmarket/pv5;->a:Ljava/lang/Object;
+    iget-object v1, v1, Lcom/huawei/appmarket/rv5;->a:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v1, "}"
+    const-string/jumbo v1, "}"
 
     invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

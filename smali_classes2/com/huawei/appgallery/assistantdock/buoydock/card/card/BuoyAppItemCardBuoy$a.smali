@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy$a;->b:Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyAppItemCardBuoy;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

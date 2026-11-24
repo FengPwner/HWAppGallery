@@ -179,7 +179,7 @@
 
     move-result-object v2
 
-    const-string v4, "wechatId"
+    const-string/jumbo v4, "wechatId"
 
     invoke-interface {v2, v4}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -191,7 +191,7 @@
 
     move-result-object v2
 
-    const-string v4, "weiboId"
+    const-string/jumbo v4, "weiboId"
 
     invoke-interface {v2, v4}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 

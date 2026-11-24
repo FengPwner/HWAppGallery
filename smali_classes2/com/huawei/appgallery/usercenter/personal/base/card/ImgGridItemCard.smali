@@ -282,7 +282,7 @@
 
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/el6;->v()Lcom/huawei/appmarket/el6;
+    invoke-static {}, Lcom/huawei/appmarket/gl6;->v()Lcom/huawei/appmarket/gl6;
 
     .line 38
     .line 39
@@ -290,7 +290,7 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/el6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gl6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
 
     .line 42
     .line 43
@@ -384,7 +384,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final C1()V
@@ -397,11 +396,11 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v2, "refresherMoreRedDot: mNeedShowMore:false"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -450,7 +449,7 @@
 
     check-cast v3, Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/af8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/ff8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -538,37 +537,6 @@
     goto/16 :goto_2
 
     :pswitch_0
-    invoke-static {v3}, Lcom/huawei/appmarket/rs;->f(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_8
-
-    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :pswitch_1
     invoke-static {v3}, Lcom/huawei/appmarket/ss;->f(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
 
     move-result v3
@@ -579,7 +547,7 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -595,86 +563,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    :pswitch_2
-    invoke-static {}, Lcom/huawei/appmarket/ms8;->e()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_6
-
-    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_6
-    :pswitch_3
-    invoke-static {}, Lcom/huawei/appmarket/bl6;->b()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_7
-
-    invoke-static {}, Lcom/huawei/appmarket/de5;->e()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_7
-
-    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_7
-    :goto_2
-    invoke-static {}, Lcom/huawei/appmarket/el6;->v()Lcom/huawei/appmarket/el6;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v3}, Lcom/huawei/appmarket/el6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
+    :pswitch_1
+    invoke-static {v3}, Lcom/huawei/appmarket/ts;->f(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
 
     move-result v3
 
@@ -684,7 +578,7 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -700,7 +594,112 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :pswitch_2
+    invoke-static {}, Lcom/huawei/appmarket/ss8;->e()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_6
+
+    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_6
+    :pswitch_3
+    invoke-static {}, Lcom/huawei/appmarket/dl6;->b()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_7
+
+    invoke-static {}, Lcom/huawei/appmarket/ge5;->e()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_7
+
+    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_7
+    :goto_2
+    invoke-static {}, Lcom/huawei/appmarket/gl6;->v()Lcom/huawei/appmarket/gl6;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Lcom/huawei/appmarket/gl6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_8
+
+    iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v6}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->A1()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -710,11 +709,11 @@
     goto/16 :goto_0
 
     :cond_9
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v2, "refresherMoreRedDot: GONE"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/ImgGridItemCard;->H:Landroid/widget/ImageView;
 
@@ -726,11 +725,11 @@
 
     :cond_a
     :goto_3
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v2, "refresherMoreRedDot: itemCardList isEmpty"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -817,7 +816,7 @@
     move-result-object p1
 
     .line 33
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 34
     .line 35
@@ -1185,13 +1184,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "ImgGridItemCard"
 
     const-string v1, "bindCard, mContext is null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 
@@ -1274,7 +1273,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/el6;->v()Lcom/huawei/appmarket/el6;
+    invoke-static {}, Lcom/huawei/appmarket/gl6;->v()Lcom/huawei/appmarket/gl6;
 
     .line 14
     .line 15
@@ -1282,7 +1281,7 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/el6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/gl6;->x(Lcom/huawei/appgallery/usercenter/personal/api/ClientEntranceInfo;)Z
 
     .line 18
     .line 19
@@ -1294,7 +1293,7 @@
 
     .line 22
     .line 23
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 24
     .line 25
@@ -1336,7 +1335,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1487,7 +1486,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/af8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ff8;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -1511,7 +1510,7 @@
 
     .line 24
     .line 25
-    invoke-static {}, Lcom/huawei/appmarket/xf4;->b()Lcom/huawei/appmarket/xf4;
+    invoke-static {}, Lcom/huawei/appmarket/zf4;->b()Lcom/huawei/appmarket/zf4;
 
     .line 26
     .line 27
@@ -1538,7 +1537,7 @@
 
     .line 36
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xf4;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zf4;->c(Z)V
 
     .line 37
     .line 38
@@ -1595,7 +1594,7 @@
 
     .line 64
     .line 65
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 66
     .line 67
@@ -1603,7 +1602,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -1665,7 +1664,7 @@
 
     .line 97
     .line 98
-    invoke-static {}, Lcom/huawei/appmarket/el6;->v()Lcom/huawei/appmarket/el6;
+    invoke-static {}, Lcom/huawei/appmarket/gl6;->v()Lcom/huawei/appmarket/gl6;
 
     .line 99
     .line 100
@@ -1697,7 +1696,7 @@
     move-result-wide v5
 
     .line 114
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/el6;->w(JJLjava/lang/String;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/gl6;->w(JJLjava/lang/String;)V
 
     .line 115
     .line 116
@@ -1706,7 +1705,7 @@
 
     .line 118
     :cond_5
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 119
     .line 120
@@ -1714,7 +1713,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
     .line 124
@@ -1899,13 +1898,13 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/usercenter/personal/base/protocol/CommonlyUsedServiceActivityProtocol;->e(Lcom/huawei/appgallery/usercenter/personal/base/protocol/CommonlyUsedServiceActivityProtocol$Request;)V
 
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     const-string v2, "commonly.used.service.activity"
 
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object v0
 
@@ -1913,7 +1912,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/BaseGridItemCard;->w:Ljava/lang/String;
 
@@ -1941,17 +1940,17 @@
 
     invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/e10;->b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/BaseGridItemCard;->B:Lcom/huawei/appgallery/usercenter/personal/api/BaseGridCardBean;
 
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/gp3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/ip3;->d(ILcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     return-void
 .end method

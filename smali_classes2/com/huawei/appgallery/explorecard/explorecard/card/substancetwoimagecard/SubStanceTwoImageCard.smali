@@ -55,7 +55,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result p1
 
@@ -63,7 +63,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result p1
 
@@ -439,7 +439,7 @@
 
     .line 147
     .line 148
-    invoke-static {}, Lcom/huawei/appmarket/al0;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->g()I
 
     .line 149
     .line 150
@@ -484,7 +484,7 @@
     move-result-object v4
 
     .line 171
-    invoke-static {v4}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 172
     .line 173
@@ -496,7 +496,7 @@
 
     .line 176
     .line 177
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 178
     .line 179
@@ -511,7 +511,7 @@
 
     .line 183
     .line 184
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 185
     .line 186
@@ -615,7 +615,7 @@
 
     .line 231
     .line 232
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 233
     .line 234
@@ -635,7 +635,7 @@
 
     .line 241
     :cond_9
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 242
     .line 243
@@ -647,11 +647,11 @@
 
     .line 246
     .line 247
-    check-cast v4, Lcom/huawei/appmarket/dr6;
+    check-cast v4, Lcom/huawei/appmarket/gr6;
 
     .line 248
     .line 249
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 250
     .line 251
@@ -659,11 +659,11 @@
     move-result-object v4
 
     .line 253
-    const-class v5, Lcom/huawei/appmarket/vs3;
+    const-class v5, Lcom/huawei/appmarket/xs3;
 
     .line 254
     .line 255
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 256
     .line 257
@@ -671,7 +671,7 @@
     move-result-object v4
 
     .line 259
-    check-cast v4, Lcom/huawei/appmarket/vs3;
+    check-cast v4, Lcom/huawei/appmarket/xs3;
 
     .line 260
     .line 261
@@ -680,7 +680,7 @@
     .line 262
     .line 263
     .line 264
-    invoke-static {v3, v5}, Lcom/huawei/appmarket/ej2;->f(Landroid/widget/ImageView;I)Lcom/huawei/appmarket/o94$a;
+    invoke-static {v3, v5}, Lcom/huawei/appmarket/tr2;->f(Landroid/widget/ImageView;I)Lcom/huawei/appmarket/q94$a;
 
     .line 265
     .line 266
@@ -688,7 +688,7 @@
     move-result-object v3
 
     .line 268
-    invoke-static {v3, v4, v0}, Lcom/huawei/appmarket/ej2;->y(Lcom/huawei/appmarket/o94$a;Lcom/huawei/appmarket/vs3;Ljava/lang/String;)V
+    invoke-static {v3, v4, v0}, Lcom/huawei/appmarket/tr2;->u(Lcom/huawei/appmarket/q94$a;Lcom/huawei/appmarket/xs3;Ljava/lang/String;)V
 
     .line 269
     .line 270
@@ -1257,11 +1257,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -1456,5 +1451,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

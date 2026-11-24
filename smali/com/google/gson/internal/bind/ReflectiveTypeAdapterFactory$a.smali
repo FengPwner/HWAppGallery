@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method abstract a(Lcom/huawei/appmarket/gp4;I[Ljava/lang/Object;)V
+.method abstract a(Lcom/huawei/appmarket/jp4;I[Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -52,7 +52,7 @@
     .end annotation
 .end method
 
-.method abstract b(Lcom/huawei/appmarket/gp4;Ljava/lang/Object;)V
+.method abstract b(Lcom/huawei/appmarket/jp4;Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -61,7 +61,7 @@
     .end annotation
 .end method
 
-.method abstract c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method abstract c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,

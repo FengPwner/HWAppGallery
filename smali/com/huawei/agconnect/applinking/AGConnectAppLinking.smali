@@ -156,27 +156,27 @@
 
 
 # virtual methods
-.method public abstract getAppLinking(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method public abstract getAppLinking(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/hv7;
+.method public abstract getAppLinking(Landroid/app/Activity;Landroid/content/Intent;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             "Landroid/content/Intent;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }
@@ -186,14 +186,14 @@
     .end annotation
 .end method
 
-.method public abstract getAppLinking(Landroid/app/Activity;Landroid/net/Uri;)Lcom/huawei/appmarket/hv7;
+.method public abstract getAppLinking(Landroid/app/Activity;Landroid/net/Uri;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             "Landroid/net/Uri;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ResolvedLinkData;",
             ">;"
         }

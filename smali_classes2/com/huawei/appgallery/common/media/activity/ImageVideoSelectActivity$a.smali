@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -61,7 +61,7 @@
 .method public final run()V
     .registers 6
 
-    invoke-static {}, Lcom/huawei/appmarket/wy7;->f()Lcom/huawei/appmarket/wy7;
+    invoke-static {}, Lcom/huawei/appmarket/bz7;->f()Lcom/huawei/appmarket/bz7;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     iget-object v4, p0, Lcom/huawei/appgallery/common/media/activity/ImageVideoSelectActivity$a;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v4, v2, v3}, Lcom/huawei/appmarket/wy7;->i(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v4, v2, v3}, Lcom/huawei/appmarket/bz7;->i(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/common/media/activity/ImageVideoSelectActivity$a;->e:Ljava/lang/ref/WeakReference;
 

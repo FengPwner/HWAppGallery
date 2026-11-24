@@ -89,7 +89,7 @@
 
     .line 29
     .line 30
-    invoke-static {p0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -258,7 +258,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static getDatabasePath(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -429,7 +428,7 @@
 
     .line 44
     .line 45
-    invoke-static {p0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -441,7 +440,7 @@
 
     .line 50
     .line 51
-    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, p1}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 52
     .line 53
@@ -573,7 +572,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static getFileStoragePath(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -647,7 +645,7 @@
 
     .line 29
     .line 30
-    invoke-static {p0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -816,5 +814,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

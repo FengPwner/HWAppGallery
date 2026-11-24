@@ -879,7 +879,7 @@
     const-string v0, "ECI number not in valid range from 0..811799, but was "
 
     .line 5
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

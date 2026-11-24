@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ux5$b;
+.implements Lcom/huawei/appmarket/wx5$b;
 
 
 # instance fields
@@ -140,7 +140,7 @@
 
     .line 49
     .line 50
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -192,7 +192,7 @@
 
     .line 75
     .line 76
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -226,5 +226,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

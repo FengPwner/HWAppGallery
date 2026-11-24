@@ -34,7 +34,7 @@
 
     const-string v1, "startupData is not null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -50,15 +50,15 @@
 
     invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/framework/MainActivityBase;->i1(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)Z
 
-    invoke-static {}, Lcom/huawei/appmarket/e13;->c()Lcom/huawei/appmarket/e13;
+    invoke-static {}, Lcom/huawei/appmarket/h13;->c()Lcom/huawei/appmarket/h13;
 
     move-result-object v0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/e13;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/h13;->a(I)V
 
     return-void
 .end method

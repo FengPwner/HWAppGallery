@@ -1,114 +1,149 @@
-.class public final Lcom/huawei/appmarket/ro7;
+.class final Lcom/huawei/appmarket/ro7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/s00;
+
+
+# instance fields
+.field public final a:Ljava/lang/String;
+
 
 # direct methods
-.method private constructor <init>()V
+.method private constructor <init>(Ljava/lang/String;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/lang/UnsupportedOperationException;
+    iput-object p1, p0, Lcom/huawei/appmarket/ro7;->a:Ljava/lang/String;
 
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
-
-    throw v0
+    return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/gp4;)Lcom/huawei/appmarket/mo4;
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/gson/JsonParseException;
-        }
-    .end annotation
+.method public static a(Lcom/huawei/appmarket/cw5;)Lcom/huawei/appmarket/ro7;
+    .registers 4
 
     .line 1
-    :try_start_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/gp4;->l0()Lcom/huawei/appmarket/np4;
-    :try_end_0
-    .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_4
-    .catch Lcom/google/gson/stream/MalformedJsonException; {:try_start_0 .. :try_end_0} :catch_2
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
+    new-instance v0, Lcom/huawei/appmarket/ro7;
 
-    const/4 v0, 0x0
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->a()I
 
-    :try_start_1
-    sget-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->B:Lcom/google/gson/TypeAdapter;
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
 
-    invoke-virtual {v1, p0}, Lcom/google/gson/TypeAdapter;->b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+    .line 7
+    sget-object v2, Lcom/huawei/appmarket/uo0;->c:Ljava/nio/charset/Charset;
 
+    .line 8
+    .line 9
+    invoke-virtual {p0, v1, v2}, Lcom/huawei/appmarket/cw5;->y(ILjava/nio/charset/Charset;)Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/mo4;
-    :try_end_1
-    .catch Ljava/io/EOFException; {:try_start_1 .. :try_end_1} :catch_3
-    .catch Lcom/google/gson/stream/MalformedJsonException; {:try_start_1 .. :try_end_1} :catch_2
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
+    .line 13
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/ro7;-><init>(Ljava/lang/String;)V
 
-    return-object p0
+    .line 14
+    .line 15
+    .line 16
+    return-object v0
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+.end method
 
-    :catch_0
-    move-exception p0
 
-    goto :goto_0
+# virtual methods
+.method public final getType()I
+    .registers 2
 
-    :catch_1
-    move-exception p0
+    .line 1
+    const v0, 0x6e727473
 
-    goto :goto_1
-
-    :catch_2
-    move-exception p0
-
-    goto :goto_2
-
-    :catch_3
-    move-exception p0
-
-    goto :goto_3
-
-    :goto_0
-    new-instance v0, Lcom/google/gson/JsonSyntaxException;
-
-    invoke-direct {v0, p0}, Lcom/google/gson/JsonSyntaxException;-><init>(Ljava/lang/Throwable;)V
-
-    throw v0
-
-    :goto_1
-    new-instance v0, Lcom/google/gson/JsonIOException;
-
-    invoke-direct {v0, p0}, Lcom/google/gson/JsonIOException;-><init>(Ljava/lang/Throwable;)V
-
-    throw v0
-
-    :goto_2
-    new-instance v0, Lcom/google/gson/JsonSyntaxException;
-
-    invoke-direct {v0, p0}, Lcom/google/gson/JsonSyntaxException;-><init>(Ljava/lang/Throwable;)V
-
-    throw v0
-
-    :catch_4
-    move-exception p0
-
-    const/4 v0, 0x1
-
-    :goto_3
-    if-eqz v0, :cond_0
-
-    sget-object p0, Lcom/huawei/appmarket/uo4;->b:Lcom/huawei/appmarket/uo4;
-
-    return-object p0
-
-    :cond_0
-    new-instance v0, Lcom/google/gson/JsonSyntaxException;
-
-    invoke-direct {v0, p0}, Lcom/google/gson/JsonSyntaxException;-><init>(Ljava/lang/Throwable;)V
-
-    throw v0
+    return v0
 .end method

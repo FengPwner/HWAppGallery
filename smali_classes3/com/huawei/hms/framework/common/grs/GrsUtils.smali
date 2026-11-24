@@ -56,7 +56,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
@@ -86,7 +86,7 @@
 
     .line 27
     :cond_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -244,7 +244,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static isGRSSchema(Ljava/lang/String;)Z

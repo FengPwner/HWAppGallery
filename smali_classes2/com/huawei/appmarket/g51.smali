@@ -34,13 +34,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object p0, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     const-string v0, "CpuUtil"
 
     const-string v1, "readUsage(CpuMessage msg)#close input IOException"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -81,7 +81,7 @@
 
     .line 15
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object v1, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     .line 16
     .line 17
@@ -93,7 +93,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -278,7 +278,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     :try_start_3
-    invoke-static {v4}, Lcom/huawei/appmarket/tf0;->d(Ljava/io/BufferedReader;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/uf0;->d(Ljava/io/BufferedReader;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -462,7 +462,7 @@
 
     :goto_2
     :try_start_5
-    sget-object v4, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object v4, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     const-string v5, "CpuUtil"
 
@@ -480,7 +480,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v4, v5, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -515,13 +515,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object p0, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     const-string v0, "CpuUtil"
 
     const-string v1, "readUsage(CpuMessage msg) with IOException"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -542,13 +542,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/mj7;->a:Lcom/huawei/appmarket/mj7;
+    sget-object p0, Lcom/huawei/appmarket/sj7;->a:Lcom/huawei/appmarket/sj7;
 
     const-string v0, "CpuUtil"
 
     const-string v1, "readUsage(CpuMessage msg)#close reader with IOException\uff01"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

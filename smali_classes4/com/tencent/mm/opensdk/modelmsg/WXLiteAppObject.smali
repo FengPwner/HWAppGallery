@@ -46,7 +46,7 @@
 
     const-string v0, "MicroMsg.SDK.WXLiteAppObject"
 
-    const-string v1, "userName is null"
+    const-string/jumbo v1, "userName is null"
 
     invoke-static {v0, v1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
 

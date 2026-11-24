@@ -39,7 +39,7 @@
 
     const-string v2, "AgGuardUploadTask"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appmarket/gf;->d:Lcom/huawei/appmarket/ff;
 
@@ -53,7 +53,7 @@
 
     invoke-virtual {v3, v4}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/f12;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/j12;->a()Z
 
     move-result v3
 
@@ -63,7 +63,7 @@
 
     const-string v3, "The user turned off the switch."
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v4, :cond_0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nf5;
+.implements Lcom/huawei/appmarket/qf5;
 
 
 # annotations
@@ -21,7 +21,7 @@
 
 .field private d:I
 
-.field private e:Lcom/huawei/appmarket/of5;
+.field private e:Lcom/huawei/appmarket/rf5;
 
 .field private f:I
 
@@ -493,12 +493,12 @@
 
     if-nez v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v3, "invalid child view."
 
     :goto_0
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
@@ -513,7 +513,7 @@
 
     if-nez v0, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v3, "invalid local visible rect."
 
@@ -527,22 +527,22 @@
     return v0
 .end method
 
-.method private getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+.method private getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/of5;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/rf5;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/of5;
+    new-instance v0, Lcom/huawei/appmarket/rf5;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/of5;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/rf5;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/of5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/rf5;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/of5;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->e:Lcom/huawei/appmarket/rf5;
 
     return-object v0
 .end method
@@ -569,7 +569,7 @@
 
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 10
     .line 11
@@ -577,7 +577,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -606,7 +606,7 @@
 
     .line 26
     .line 27
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 28
     .line 29
@@ -614,7 +614,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -644,7 +644,7 @@
 
     .line 45
     .line 46
-    sget-object v0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 47
     .line 48
@@ -652,7 +652,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -701,14 +701,14 @@
     move-result-object v2
 
     .line 73
-    new-instance v3, Lcom/huawei/appmarket/dj8;
+    new-instance v3, Lcom/huawei/appmarket/jj8;
 
     .line 74
     .line 75
     const/4 v4, 0x1
 
     .line 76
-    invoke-direct {v3, p0, v4, v2}, Lcom/huawei/appmarket/dj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v3, p0, v4, v2}, Lcom/huawei/appmarket/jj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 77
     .line 78
@@ -781,7 +781,7 @@
     move-exception v0
 
     .line 114
-    sget-object v2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 115
     .line 116
@@ -819,7 +819,7 @@
     move-result-object v0
 
     .line 134
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 135
     .line 136
@@ -983,11 +983,11 @@
 .method public final dispatchNestedFling(FFZ)Z
     .registers 5
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/of5;->a(FFZ)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/rf5;->a(FFZ)Z
 
     move-result p1
 
@@ -997,11 +997,11 @@
 .method public final dispatchNestedPreFling(FF)Z
     .registers 4
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/of5;->b(FF)Z
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/rf5;->b(FF)Z
 
     move-result p1
 
@@ -1012,7 +1012,7 @@
     .registers 11
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     .line 2
     .line 3
@@ -1035,7 +1035,7 @@
     move-object v4, p4
 
     .line 10
-    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/of5;->c(II[I[II)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/rf5;->c(II[I[II)Z
 
     .line 11
     .line 12
@@ -1664,7 +1664,7 @@
 .method public final dispatchNestedScroll(IIII[I)Z
     .registers 12
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     move-result-object v0
 
@@ -1678,7 +1678,7 @@
 
     move-object v5, p5
 
-    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/of5;->e(IIII[I)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/rf5;->e(IIII[I)Z
 
     move-result p1
 
@@ -1689,7 +1689,7 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     .line 2
     .line 3
@@ -1700,7 +1700,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/of5;->i(I)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rf5;->i(I)Z
 
     .line 7
     .line 8
@@ -1841,11 +1841,11 @@
 .method public final isNestedScrollingEnabled()Z
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/of5;->j()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rf5;->j()Z
 
     move-result v0
 
@@ -2182,11 +2182,11 @@
 .method public setNestedScrollingEnabled(Z)V
     .registers 3
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/of5;->k(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/rf5;->k(Z)V
 
     return-void
 .end method
@@ -2203,7 +2203,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     .line 2
     .line 3
@@ -2214,7 +2214,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/of5;->l(II)Z
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/rf5;->l(II)Z
 
     .line 7
     .line 8
@@ -2319,14 +2319,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final stopNestedScroll()V
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/of5;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/animator/NestedFrameLayout;->getScrollingChildHelper()Lcom/huawei/appmarket/rf5;
 
     .line 2
     .line 3
@@ -2337,7 +2336,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/of5;->m(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/rf5;->m(I)V
 
     .line 7
     .line 8

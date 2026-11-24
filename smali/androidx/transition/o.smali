@@ -32,7 +32,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/qe3;->p(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/se3;->p(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
 
     .line 8
     .line 9
@@ -143,7 +143,7 @@
     .line 58
     .line 59
     :try_start_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/qe3;->p(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/se3;->p(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
 

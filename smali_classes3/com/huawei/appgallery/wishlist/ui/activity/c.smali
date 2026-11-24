@@ -40,35 +40,35 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/activity/c;->c:Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/ks8;
+    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/qs8;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/ks8;
+    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/qs8;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ks8;->r()Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qs8;->r()Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/huawei/appmarket/kv3;
+    instance-of v0, v0, Lcom/huawei/appmarket/mv3;
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/ks8;
+    invoke-static {p1}, Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;->C3(Lcom/huawei/appgallery/wishlist/ui/activity/WishActivity;)Lcom/huawei/appmarket/qs8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ks8;->r()Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qs8;->r()Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/kv3;
+    check-cast p1, Lcom/huawei/appmarket/mv3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/kv3;->n1()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/mv3;->n1()V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/activity/c;->b:Landroid/widget/PopupMenu;

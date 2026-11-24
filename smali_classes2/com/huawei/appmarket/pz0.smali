@@ -22,13 +22,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v0, "parentView is null"
 
     const-string v1, "ConfigCardUtil"
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -255,7 +255,7 @@
 
     .line 63
     :goto_3
-    invoke-virtual {p0}, Lcom/huawei/appmarket/oz0;->b()Lcom/huawei/appmarket/hj0;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/oz0;->b()Lcom/huawei/appmarket/ij0;
 
     .line 64
     .line 65
@@ -287,7 +287,7 @@
     move-result-object v1
 
     .line 79
-    invoke-static {v1}, Lcom/huawei/appmarket/hk0;->j(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ik0;->j(Ljava/lang/String;)I
 
     .line 80
     .line 81
@@ -295,7 +295,7 @@
     move-result v1
 
     .line 83
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 84
     .line 85
@@ -319,7 +319,7 @@
     move-result-object v1
 
     .line 95
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/p40;->w(Lcom/huawei/appmarket/z54;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/p40;->w(Lcom/huawei/appmarket/c64;)V
 
     .line 96
     .line 97
@@ -358,12 +358,12 @@
     move-result-object v1
 
     .line 116
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/o2;->o(Lcom/huawei/appmarket/z54;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/o2;->o(Lcom/huawei/appmarket/c64;)V
 
     .line 117
     .line 118
     .line 119
-    invoke-virtual {p0}, Lcom/huawei/appmarket/oz0;->b()Lcom/huawei/appmarket/hj0;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/oz0;->b()Lcom/huawei/appmarket/ij0;
 
     .line 120
     .line 121
@@ -379,7 +379,7 @@
     move-result-object v2
 
     .line 127
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 128
     .line 129

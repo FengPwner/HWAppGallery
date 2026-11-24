@@ -112,7 +112,7 @@
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->q(Ljava/lang/Object;)Landroid/view/ContentInfo;
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->q(Ljava/lang/Object;)Landroid/view/ContentInfo;
 
     move-result-object v0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/flexiblelayout/services/exposure/impl/g;-><init>(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/l52;Lcom/huawei/appmarket/g52;)V
+    value = Lcom/huawei/flexiblelayout/services/exposure/impl/g;-><init>(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/p52;Lcom/huawei/appmarket/k52;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

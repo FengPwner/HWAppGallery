@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()Lcom/huawei/appmarket/d66;
+.method public abstract onContinue()V
 .end method

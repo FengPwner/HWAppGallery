@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/nl1;
-.super Lcom/huawei/appgallery/detail/detailbase/basecard/detaildesc/DetailDescBean;
+.super Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;
 .source "SourceFile"
 
 
@@ -8,9 +8,20 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detaildesc/DetailDescBean;-><init>()V
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detaildesc/DetailDescBean;->e4()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailpinnedcard/DetailPinnedBean;-><init>()V
 
     return-void
+.end method
+
+
+# virtual methods
+.method public final d()Ljava/util/ArrayList;
+    .registers 2
+
+    .line 1
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    return-object v0
 .end method

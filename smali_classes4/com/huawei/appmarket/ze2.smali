@@ -3,48 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lorg/apache/commons/lang3/function/FailableDoubleSupplier;
+.implements Lorg/apache/commons/lang3/function/FailableRunnable;
 
 
 # instance fields
-.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableDoubleBinaryOperator;
+.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
 
 .field public final synthetic b:D
 
-.field public final synthetic c:D
-
 
 # direct methods
-.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableDoubleBinaryOperator;DD)V
-    .registers 6
+.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableDoubleConsumer;D)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ze2;->a:Lorg/apache/commons/lang3/function/FailableDoubleBinaryOperator;
+    iput-object p1, p0, Lcom/huawei/appmarket/ze2;->a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
 
     iput-wide p2, p0, Lcom/huawei/appmarket/ze2;->b:D
-
-    iput-wide p4, p0, Lcom/huawei/appmarket/ze2;->c:D
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final getAsDouble()D
-    .registers 6
+.method public final run()V
+    .registers 4
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/ze2;->b:D
+    iget-object v0, p0, Lcom/huawei/appmarket/ze2;->a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
 
-    iget-wide v2, p0, Lcom/huawei/appmarket/ze2;->c:D
+    iget-wide v1, p0, Lcom/huawei/appmarket/ze2;->b:D
 
-    iget-object v4, p0, Lcom/huawei/appmarket/ze2;->a:Lorg/apache/commons/lang3/function/FailableDoubleBinaryOperator;
+    invoke-static {v0, v1, v2}, Lorg/apache/commons/lang3/function/Failable;->t(Lorg/apache/commons/lang3/function/FailableDoubleConsumer;D)V
 
-    invoke-static {v4, v0, v1, v2, v3}, Lorg/apache/commons/lang3/function/Failable;->k(Lorg/apache/commons/lang3/function/FailableDoubleBinaryOperator;DD)D
-
-    move-result-wide v0
-
-    return-wide v0
+    return-void
 .end method

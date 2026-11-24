@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uo5;
+.implements Lcom/huawei/appmarket/vo5;
 
 
 # annotations
@@ -103,7 +103,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {p1}, Lcom/huawei/appmarket/sp1;->b(Ljava/lang/Runnable;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vp1;->b(Ljava/lang/Runnable;)V
 
     .line 26
     .line 27
@@ -222,5 +222,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

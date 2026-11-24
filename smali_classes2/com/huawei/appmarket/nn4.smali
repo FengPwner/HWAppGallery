@@ -1,40 +1,32 @@
 .class public final Lcom/huawei/appmarket/nn4;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/ln4;
-
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
-
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/ln4;
-.end annotation
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final setDomainId(Ljava/lang/String;)V
-    .registers 3
+.method protected final b()V
+    .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/jn4;->b()Lcom/huawei/appmarket/jn4;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/jn4;->c(Ljava/lang/String;)V
-
     return-void
+.end method
+
+.method protected final c()Lcom/huawei/appmarket/dn;
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    return-object v0
 .end method

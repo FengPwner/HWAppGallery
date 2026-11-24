@@ -169,7 +169,7 @@
 
     move-object/from16 v1, p1
 
-    invoke-static {v1, v7, v8, v9}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {v1, v7, v8, v9}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object v1
 
@@ -213,7 +213,7 @@
 
     iput-object v1, v0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->B:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$ExtendedFloatingActionButtonBehavior;
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->p:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->p:[I
 
     const v5, 0x7f130627
 
@@ -225,31 +225,31 @@
 
     move/from16 v4, p3
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
     const/4 v2, 0x4
 
-    invoke-static {v14, v1, v2}, Lcom/huawei/appmarket/nb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/nb5;
+    invoke-static {v14, v1, v2}, Lcom/huawei/appmarket/qb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/qb5;
 
     move-result-object v2
 
     const/4 v3, 0x3
 
-    invoke-static {v14, v1, v3}, Lcom/huawei/appmarket/nb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/nb5;
+    invoke-static {v14, v1, v3}, Lcom/huawei/appmarket/qb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/qb5;
 
     move-result-object v3
 
     const/4 v4, 0x2
 
-    invoke-static {v14, v1, v4}, Lcom/huawei/appmarket/nb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/nb5;
+    invoke-static {v14, v1, v4}, Lcom/huawei/appmarket/qb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/qb5;
 
     move-result-object v4
 
     const/4 v5, 0x5
 
-    invoke-static {v14, v1, v5}, Lcom/huawei/appmarket/nb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/nb5;
+    invoke-static {v14, v1, v5}, Lcom/huawei/appmarket/qb5;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/huawei/appmarket/qb5;
 
     move-result-object v5
 
@@ -261,13 +261,13 @@
 
     iput v6, v0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->y:I
 
-    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/ei8;->y(Landroid/view/View;)I
+    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/ki8;->y(Landroid/view/View;)I
 
     move-result v6
 
     iput v6, v0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->z:I
 
-    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/ei8;->x(Landroid/view/View;)I
+    invoke-static/range {p0 .. p0}, Lcom/huawei/appmarket/ki8;->x(Landroid/view/View;)I
 
     move-result v6
 
@@ -297,29 +297,29 @@
 
     iput-object v9, v0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->u:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;
 
-    invoke-virtual {v11, v2}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v11, v2}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
-    invoke-virtual {v12, v3}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v12, v3}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
-    invoke-virtual {v15, v4}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v15, v4}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
-    invoke-virtual {v9, v5}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v9, v5}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
-    sget-object v1, Lcom/huawei/appmarket/nb7;->m:Lcom/huawei/appmarket/fn6;
+    sget-object v1, Lcom/huawei/appmarket/sb7;->m:Lcom/huawei/appmarket/in6;
 
     const v2, 0x7f130627
 
-    invoke-static {v14, v7, v8, v2, v1}, Lcom/huawei/appmarket/nb7;->d(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/m41;)Lcom/huawei/appmarket/nb7$b;
+    invoke-static {v14, v7, v8, v2, v1}, Lcom/huawei/appmarket/sb7;->d(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/m41;)Lcom/huawei/appmarket/sb7$b;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb7$b;->m()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sb7$b;->m()Lcom/huawei/appmarket/sb7;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/google/android/material/button/MaterialButton;->setShapeAppearanceModel(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/button/MaterialButton;->setShapeAppearanceModel(Lcom/huawei/appmarket/sb7;)V
 
     .line 3
     invoke-virtual/range {p0 .. p0}, Landroid/widget/TextView;->getTextColors()Landroid/content/res/ColorStateList;
@@ -645,7 +645,7 @@
 
     .line 8
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 9
     .line 10
@@ -981,11 +981,11 @@
 
     if-gez v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->y(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->y(Landroid/view/View;)I
 
     move-result v0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->x(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->x(Landroid/view/View;)I
 
     move-result v1
 
@@ -1005,52 +1005,52 @@
     return v0
 .end method
 
-.method public getExtendMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getExtendMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->v:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;
 
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getHideMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getHideMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->x:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$h;
 
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getShowMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getShowMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->w:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$j;
 
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getShrinkMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getShrinkMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->u:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;
 
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/b;->l()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
@@ -1111,13 +1111,13 @@
     return-void
 .end method
 
-.method public setExtendMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setExtendMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->v:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1129,11 +1129,11 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/nb5;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/qb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/qb5;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setExtendMotionSpec(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setExtendMotionSpec(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1172,13 +1172,13 @@
     return-void
 .end method
 
-.method public setHideMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setHideMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->x:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$h;
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1190,11 +1190,11 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/nb5;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/qb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/qb5;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setHideMotionSpec(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setHideMotionSpec(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1212,13 +1212,13 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->y(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->y(Landroid/view/View;)I
 
     move-result p1
 
     iput p1, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->z:I
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->x(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->x(Landroid/view/View;)I
 
     move-result p1
 
@@ -1249,13 +1249,13 @@
     return-void
 .end method
 
-.method public setShowMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setShowMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->w:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$j;
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1267,22 +1267,22 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/nb5;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/qb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/qb5;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setShowMotionSpec(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setShowMotionSpec(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
 
-.method public setShrinkMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setShrinkMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->u:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/floatingactionbutton/b;->m(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method
@@ -1294,11 +1294,11 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/nb5;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/qb5;->b(ILandroid/content/Context;)Lcom/huawei/appmarket/qb5;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setShrinkMotionSpec(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->setShrinkMotionSpec(Lcom/huawei/appmarket/qb5;)V
 
     return-void
 .end method

@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private appDetailBean:Lcom/huawei/appmarket/zp;
+.field private appDetailBean:Lcom/huawei/appmarket/yp;
 
 .field private isDarkImmerseMode:Z
 
@@ -35,11 +35,11 @@
 
 
 # virtual methods
-.method public final B0()Lcom/huawei/appmarket/zp;
+.method public final B0()Lcom/huawei/appmarket/yp;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/api/NewDetailFlowFragmentProtocol$Request;->appDetailBean:Lcom/huawei/appmarket/zp;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/api/NewDetailFlowFragmentProtocol$Request;->appDetailBean:Lcom/huawei/appmarket/yp;
 
     return-object v0
 .end method
@@ -71,11 +71,11 @@
     return v0
 .end method
 
-.method public final F0(Lcom/huawei/appmarket/zp;)V
+.method public final F0(Lcom/huawei/appmarket/yp;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/api/NewDetailFlowFragmentProtocol$Request;->appDetailBean:Lcom/huawei/appmarket/zp;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/api/NewDetailFlowFragmentProtocol$Request;->appDetailBean:Lcom/huawei/appmarket/yp;
 
     return-void
 .end method

@@ -74,7 +74,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 18
     .line 19

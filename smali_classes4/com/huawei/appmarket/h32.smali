@@ -4,42 +4,17 @@
 
 
 # virtual methods
-.method public abstract findEventSource(Ljava/lang/String;)Lcom/huawei/appmarket/g32;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Lcom/huawei/appmarket/g32;",
-            ">(",
-            "Ljava/lang/String;",
-            ")TT;"
-        }
-    .end annotation
+.method public abstract publish(Ljava/lang/String;Ljava/lang/Object;)V
 .end method
 
-.method public abstract register(Ljava/lang/String;Lcom/huawei/appmarket/g32;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Lcom/huawei/appmarket/g32;",
-            ">(",
-            "Ljava/lang/String;",
-            "TT;)V"
-        }
-    .end annotation
+.method public abstract publish(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 .end method
 
-.method public abstract register(Ljava/lang/String;Ljava/lang/Class;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/g32;",
-            ">;)V"
-        }
-    .end annotation
+.method public abstract subscribe(Ljava/lang/String;Lcom/huawei/appmarket/w22;)I
 .end method
 
-.method public abstract unregister(Ljava/lang/String;)V
+.method public abstract subscribe(Ljava/lang/String;Ljava/lang/Object;Lcom/huawei/appmarket/w22;)I
+.end method
+
+.method public abstract unsubscribe(I)V
 .end method

@@ -20,7 +20,9 @@
 
 .field public static final enum e:Lcom/huawei/appmarket/bw2;
 
-.field private static final synthetic f:[Lcom/huawei/appmarket/bw2;
+.field public static final enum f:Lcom/huawei/appmarket/bw2;
+
+.field private static final synthetic g:[Lcom/huawei/appmarket/bw2;
 
 
 # instance fields
@@ -29,7 +31,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 7
+    .registers 9
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/bw2;
@@ -44,7 +46,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/bw2;
 
-    const-string v3, "OPEN"
+    const-string v3, "BALANCE_MODE"
 
     const/4 v4, 0x1
 
@@ -54,7 +56,7 @@
 
     new-instance v3, Lcom/huawei/appmarket/bw2;
 
-    const-string v5, "CLOSE"
+    const-string v5, "PERFOR_MODE"
 
     const/4 v6, 0x2
 
@@ -62,17 +64,29 @@
 
     sput-object v3, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
 
-    const/4 v5, 0x3
+    new-instance v5, Lcom/huawei/appmarket/bw2;
 
-    new-array v5, v5, [Lcom/huawei/appmarket/bw2;
+    const-string v7, "POWER_SAVE_MODE"
 
-    aput-object v0, v5, v2
+    const/4 v8, 0x3
 
-    aput-object v1, v5, v4
+    invoke-direct {v5, v7, v8, v8}, Lcom/huawei/appmarket/bw2;-><init>(Ljava/lang/String;II)V
 
-    aput-object v3, v5, v6
+    sput-object v5, Lcom/huawei/appmarket/bw2;->f:Lcom/huawei/appmarket/bw2;
 
-    sput-object v5, Lcom/huawei/appmarket/bw2;->f:[Lcom/huawei/appmarket/bw2;
+    const/4 v7, 0x4
+
+    new-array v7, v7, [Lcom/huawei/appmarket/bw2;
+
+    aput-object v0, v7, v2
+
+    aput-object v1, v7, v4
+
+    aput-object v3, v7, v6
+
+    aput-object v5, v7, v8
+
+    sput-object v7, Lcom/huawei/appmarket/bw2;->g:[Lcom/huawei/appmarket/bw2;
 
     return-void
 .end method
@@ -146,7 +160,7 @@
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bw2;->f:[Lcom/huawei/appmarket/bw2;
+    sget-object v0, Lcom/huawei/appmarket/bw2;->g:[Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v0}, [Lcom/huawei/appmarket/bw2;->clone()Ljava/lang/Object;
 

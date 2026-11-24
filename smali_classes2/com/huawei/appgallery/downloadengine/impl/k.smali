@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bo3;
+.implements Lcom/huawei/appmarket/do3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/bo3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/do3;
 .end annotation
 
 
@@ -132,7 +132,7 @@
 
     .line 10
     .line 11
-    sget-object v1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     .line 12
     .line 13
@@ -166,7 +166,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -249,7 +249,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final h(Z)V
@@ -446,7 +445,7 @@
     .line 137
 .end method
 
-.method public final l(Lcom/huawei/appmarket/ip1;)V
+.method public final l(Lcom/huawei/appmarket/lp1;)V
     .registers 3
 
     .line 1
@@ -454,7 +453,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->H(Lcom/huawei/appmarket/ip1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->H(Lcom/huawei/appmarket/lp1;)V
 
     return-void
 .end method
@@ -626,7 +625,7 @@
     .line 137
 .end method
 
-.method public final n(Lcom/huawei/appmarket/hu1;)V
+.method public final n(Lcom/huawei/appmarket/lu1;)V
     .registers 3
 
     .line 1
@@ -634,7 +633,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->K(Lcom/huawei/appmarket/hu1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->K(Lcom/huawei/appmarket/lu1;)V
 
     return-void
 .end method
@@ -665,7 +664,7 @@
     return-void
 .end method
 
-.method public final q(Lcom/huawei/appmarket/wt1;)V
+.method public final q(Lcom/huawei/appmarket/au1;)V
     .registers 3
 
     .line 1
@@ -673,16 +672,16 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->I(Lcom/huawei/appmarket/wt1;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/impl/q;->I(Lcom/huawei/appmarket/au1;)V
 
     return-void
 .end method
 
-.method public final r()Lcom/huawei/appmarket/t85;
+.method public final r()Lcom/huawei/appmarket/w85;
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bz7;->a()Lcom/huawei/appmarket/t85;
+    invoke-static {}, Lcom/huawei/appmarket/gz7;->a()Lcom/huawei/appmarket/w85;
 
     .line 2
     .line 3
@@ -838,7 +837,7 @@
     return-void
 .end method
 
-.method public final t(Lcom/huawei/appmarket/cm0;)V
+.method public final t(Lcom/huawei/appmarket/dm0;)V
     .registers 3
 
     .line 1
@@ -855,7 +854,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/huawei/appgallery/downloadengine/impl/f;->e(Lcom/huawei/appmarket/cm0;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/downloadengine/impl/f;->e(Lcom/huawei/appmarket/dm0;)V
 
     .line 9
     .line 10
@@ -956,5 +955,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

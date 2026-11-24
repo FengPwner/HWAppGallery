@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sw4;
+.implements Lcom/huawei/appmarket/vw4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;->f(Lcom/huawei/appmarket/uc2;Lcom/huawei/appmarket/qb2;)V
+    value = Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;->f(Lcom/huawei/appmarket/xc2;Lcom/huawei/appmarket/tb2;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,17 +20,17 @@
 # instance fields
 .field final synthetic a:Lcom/huawei/flexiblelayout/data/FLNodeData;
 
-.field final synthetic b:Lcom/huawei/appmarket/qb2;
+.field final synthetic b:Lcom/huawei/appmarket/tb2;
 
 .field final synthetic c:Lcom/huawei/flexiblelayout/data/d;
 
-.field final synthetic d:Lcom/huawei/appmarket/uc2;
+.field final synthetic d:Lcom/huawei/appmarket/xc2;
 
 .field final synthetic e:Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/qb2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/uc2;)V
+.method constructor <init>(Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/tb2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/xc2;)V
     .registers 6
 
     .line 1
@@ -38,11 +38,11 @@
 
     iput-object p2, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->a:Lcom/huawei/flexiblelayout/data/FLNodeData;
 
-    iput-object p3, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->b:Lcom/huawei/appmarket/qb2;
+    iput-object p3, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->b:Lcom/huawei/appmarket/tb2;
 
     iput-object p4, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->c:Lcom/huawei/flexiblelayout/data/d;
 
-    iput-object p5, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->d:Lcom/huawei/appmarket/uc2;
+    iput-object p5, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->d:Lcom/huawei/appmarket/xc2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,7 +63,7 @@
 
     invoke-virtual {v0}, Lcom/huawei/flexiblelayout/data/b;->update()V
 
-    iget-object v1, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->b:Lcom/huawei/appmarket/qb2;
+    iget-object v1, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->b:Lcom/huawei/appmarket/tb2;
 
     if-eqz v1, :cond_0
 
@@ -71,7 +71,7 @@
 
     const/4 v3, 0x0
 
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/ib2;->optBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/lb2;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v1
 
@@ -82,9 +82,9 @@
 
     invoke-virtual {v1, v0}, Lcom/huawei/flexiblelayout/data/d;->removeData(Lcom/huawei/flexiblelayout/data/FLNodeData;)V
 
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->d:Lcom/huawei/appmarket/uc2;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/services/loadmore/LoadMoreTaskHandler$a;->d:Lcom/huawei/appmarket/xc2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uc2;->getDataSource()Lcom/huawei/flexiblelayout/data/e;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xc2;->getDataSource()Lcom/huawei/flexiblelayout/data/e;
 
     move-result-object v0
 

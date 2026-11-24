@@ -21,7 +21,7 @@
     .registers 7
 
     .line 1
-    const-string v0, "verify: certificate is : "
+    const-string/jumbo v0, "verify: certificate is : "
 
     const-string v1, "BrowserCompatHV"
 
@@ -40,10 +40,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    const-string p1, "verify: session is null"
+    const-string/jumbo p1, "verify: session is null"
 
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -75,9 +75,9 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/pz8;->a(Ljava/lang/String;Ljava/security/cert/X509Certificate;Z)V
+    invoke-static {p1, v2, p2}, Lcom/huawei/appmarket/vz8;->a(Ljava/lang/String;ZLjava/security/cert/X509Certificate;)V
     :try_end_0
     .catch Ljavax/net/ssl/SSLException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -108,7 +108,7 @@
 
     :cond_2
     :goto_1
-    const-string p1, "verify: hostname is null or empty"
+    const-string/jumbo p1, "verify: hostname is null or empty"
 
     goto :goto_0
 .end method

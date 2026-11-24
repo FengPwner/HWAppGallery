@@ -113,7 +113,7 @@
 
     .line 25
     .line 26
-    invoke-static {v2, p2, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p2, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -121,7 +121,7 @@
     move-result-object p2
 
     .line 30
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/om5;->g(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ci7;->l(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 31
     .line 32

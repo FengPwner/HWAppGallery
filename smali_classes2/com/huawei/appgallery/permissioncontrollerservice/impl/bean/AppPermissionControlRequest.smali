@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
 # instance fields
 .field private apps:Ljava/util/ArrayList;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -66,7 +66,7 @@
 .method private constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     const/4 v0, 0x0
 
@@ -129,7 +129,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {p1}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     .line 22
     .line 23
@@ -263,7 +263,7 @@
     move-result-object v5
 
     .line 89
-    invoke-static {v5}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {v5}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     .line 90
     .line 91
@@ -295,7 +295,7 @@
     .line 102
     .line 103
     .line 104
-    invoke-static {v3}, Lcom/huawei/appmarket/du5;->e(Landroid/content/pm/PackageInfo;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/fu5;->e(Landroid/content/pm/PackageInfo;)I
 
     .line 105
     .line 106
@@ -568,7 +568,7 @@
     .line 320
 .end method
 
-.method public static a0(ZLandroid/content/pm/PackageInfo;ILcom/huawei/appmarket/uy5;)Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
+.method public static a0(ZLandroid/content/pm/PackageInfo;ILcom/huawei/appmarket/wy5;)Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
     .registers 9
 
     .line 1
@@ -688,7 +688,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-static {p1}, Lcom/huawei/appmarket/du5;->e(Landroid/content/pm/PackageInfo;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/fu5;->e(Landroid/content/pm/PackageInfo;)I
 
     .line 63
     .line 64
@@ -705,7 +705,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {p3}, Lcom/huawei/appmarket/uy5;->b()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/wy5;->b()Ljava/lang/String;
 
     .line 72
     .line 73
@@ -718,7 +718,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-virtual {p3}, Lcom/huawei/appmarket/uy5;->d()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/wy5;->d()Ljava/lang/String;
 
     .line 79
     .line 80
@@ -731,7 +731,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-virtual {p3}, Lcom/huawei/appmarket/uy5;->a()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/wy5;->a()Ljava/lang/String;
 
     .line 86
     .line 87
@@ -744,7 +744,7 @@
     .line 90
     .line 91
     .line 92
-    invoke-virtual {p3}, Lcom/huawei/appmarket/uy5;->c()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/wy5;->c()Ljava/lang/String;
 
     .line 93
     .line 94

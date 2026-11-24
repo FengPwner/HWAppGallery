@@ -88,7 +88,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/share/qq/activity/QQShareActivity;->h:Lcom/huawei/appmarket/tw7;
+    iget-object v0, p0, Lcom/huawei/appgallery/share/qq/activity/QQShareActivity;->h:Lcom/huawei/appmarket/zw7;
 
     const-string v1, "QQShareZoneActivity"
 
@@ -97,7 +97,7 @@
     :try_start_0
     iget-object v2, p0, Lcom/huawei/appgallery/share/qq/activity/QQShareActivity;->i:Landroid/os/Bundle;
 
-    invoke-virtual {v0, p0, v2, p0}, Lcom/huawei/appmarket/tw7;->m(Landroid/app/Activity;Landroid/os/Bundle;Lcom/huawei/appmarket/t44;)V
+    invoke-virtual {v0, p0, v2, p0}, Lcom/huawei/appmarket/zw7;->m(Landroid/app/Activity;Landroid/os/Bundle;Lcom/huawei/appmarket/w44;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/share/qq/activity/QQShareActivity;->l3()V
     :try_end_0
@@ -108,11 +108,11 @@
     :catch_0
     move-exception v0
 
-    sget-object v2, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v2, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v3, "error when share to qqzone."
 
-    invoke-virtual {v2, v1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v1, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
@@ -120,11 +120,11 @@
     goto :goto_1
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v2, "qqzone mTencent is null."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -147,13 +147,13 @@
 
     invoke-super {p0, p1}, Lcom/huawei/appmarket/support/emui/permission/BasePermissionActivity;->onCreate(Landroid/os/Bundle;)V
 
-    sget-object p1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v0, "QQShareZoneActivity"
 
     const-string v1, "onCreate: QQZone"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

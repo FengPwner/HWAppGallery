@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/z90;
-.super Lcom/huawei/appmarket/ts5;
+.super Lcom/huawei/appmarket/vs5;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ts5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/vs5;-><init>()V
 
     return-void
 .end method

@@ -135,13 +135,13 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object p2
 
     const v0, 0x7f1201ea
 
-    invoke-interface {p2, v0}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {p2, v0}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
@@ -157,11 +157,11 @@
 
     move-result-object p2
 
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-static {p1, v1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameServiceActivity;->H3(Lcom/huawei/appmarket/service/settings/view/activity/SettingGameServiceActivity;Ljava/lang/String;)V
 
@@ -174,11 +174,11 @@
 
     move-result-object p2
 
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-static {p1, v1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameServiceActivity;->H3(Lcom/huawei/appmarket/service/settings/view/activity/SettingGameServiceActivity;Ljava/lang/String;)V
 

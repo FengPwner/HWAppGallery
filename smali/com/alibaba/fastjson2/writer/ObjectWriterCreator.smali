@@ -4520,7 +4520,7 @@
 
     invoke-direct/range {v19 .. v19}, Ljava/util/TreeMap;-><init>()V
 
-    new-instance v9, Lcom/huawei/appmarket/tm5;
+    new-instance v9, Lcom/huawei/appmarket/um5;
 
     const/16 v20, 0x0
 
@@ -4546,7 +4546,7 @@
 
     move/from16 v10, v20
 
-    invoke-direct/range {v1 .. v10}, Lcom/huawei/appmarket/tm5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Ljava/lang/Class;JLcom/alibaba/fastjson2/writer/ObjectWriterProvider;Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/util/TreeMap;I)V
+    invoke-direct/range {v1 .. v10}, Lcom/huawei/appmarket/um5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Ljava/lang/Class;JLcom/alibaba/fastjson2/writer/ObjectWriterProvider;Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/util/TreeMap;I)V
 
     invoke-static {v0, v11}, Lcom/alibaba/fastjson2/util/BeanUtils;->declaredFields(Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Consumer;)V
 
@@ -4566,7 +4566,7 @@
     :cond_4
     invoke-direct/range {v19 .. v19}, Ljava/util/TreeMap;-><init>()V
 
-    new-instance v9, Lcom/huawei/appmarket/tm5;
+    new-instance v9, Lcom/huawei/appmarket/um5;
 
     const/16 v20, 0x1
 
@@ -4590,7 +4590,7 @@
 
     move/from16 v10, v20
 
-    invoke-direct/range {v1 .. v10}, Lcom/huawei/appmarket/tm5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Ljava/lang/Class;JLcom/alibaba/fastjson2/writer/ObjectWriterProvider;Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/util/TreeMap;I)V
+    invoke-direct/range {v1 .. v10}, Lcom/huawei/appmarket/um5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;Ljava/lang/Class;JLcom/alibaba/fastjson2/writer/ObjectWriterProvider;Lcom/alibaba/fastjson2/codec/BeanInfo;Ljava/util/TreeMap;I)V
 
     invoke-static {v0, v15}, Lcom/alibaba/fastjson2/util/BeanUtils;->declaredFields(Ljava/lang/Class;Lcom/alibaba/fastjson2/function/Consumer;)V
 
@@ -4600,7 +4600,7 @@
 
     iget-boolean v15, v12, Lcom/alibaba/fastjson2/codec/BeanInfo;->kotlin:Z
 
-    new-instance v9, Lcom/huawei/appmarket/tm5;
+    new-instance v9, Lcom/huawei/appmarket/um5;
 
     move-object v1, v9
 
@@ -4614,7 +4614,7 @@
 
     move-object/from16 v9, v19
 
-    invoke-direct/range {v1 .. v9}, Lcom/huawei/appmarket/tm5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;JLcom/alibaba/fastjson2/codec/BeanInfo;Lcom/alibaba/fastjson2/writer/ObjectWriterProvider;Ljava/lang/Class;Ljava/util/TreeMap;)V
+    invoke-direct/range {v1 .. v9}, Lcom/huawei/appmarket/um5;-><init>(Lcom/alibaba/fastjson2/writer/ObjectWriterCreator;Lcom/alibaba/fastjson2/codec/FieldInfo;JLcom/alibaba/fastjson2/codec/BeanInfo;Lcom/alibaba/fastjson2/writer/ObjectWriterProvider;Ljava/lang/Class;Ljava/util/TreeMap;)V
 
     invoke-static {v0, v10, v15, v11}, Lcom/alibaba/fastjson2/util/BeanUtils;->getters(Ljava/lang/Class;Ljava/lang/Class;ZLcom/alibaba/fastjson2/function/Consumer;)V
 

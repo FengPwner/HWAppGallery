@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/r64;
+.field private b:Lcom/huawei/appmarket/u64;
 
 
 # direct methods
@@ -41,7 +41,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/view/ExposureRelativeLayout;->b:Lcom/huawei/appmarket/r64;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/view/ExposureRelativeLayout;->b:Lcom/huawei/appmarket/u64;
 
     .line 2
     .line 3
@@ -164,14 +164,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public setWindowVisibilityListener(Lcom/huawei/appmarket/r64;)V
+.method public setWindowVisibilityListener(Lcom/huawei/appmarket/u64;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/view/ExposureRelativeLayout;->b:Lcom/huawei/appmarket/r64;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/view/ExposureRelativeLayout;->b:Lcom/huawei/appmarket/u64;
 
     return-void
 .end method

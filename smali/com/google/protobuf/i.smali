@@ -862,6 +862,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public abstract e()I
@@ -969,13 +970,13 @@
     .end annotation
 .end method
 
-.method public abstract w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+.method public abstract w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
             "Lcom/google/protobuf/b1;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TT;>;",
             "Lcom/google/protobuf/v;",
             ")TT;"

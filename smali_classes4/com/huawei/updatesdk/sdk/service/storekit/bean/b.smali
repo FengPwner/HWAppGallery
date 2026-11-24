@@ -56,7 +56,7 @@
 
     .line 11
     .line 12
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -267,23 +267,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private formatJsonStr(Ljava/lang/StringBuilder;)V
@@ -697,7 +680,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 86
     .line 87
@@ -900,10 +883,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private mapFromJson(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
@@ -1094,7 +1073,7 @@
 
     .line 91
     .line 92
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 93
     .line 94
@@ -1290,10 +1269,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private mapToJson(Ljava/util/Map;)Ljava/lang/String;
@@ -1312,153 +1287,153 @@
 
     .line 6
     .line 7
-    const-string p1, "{}"
+    const-string/jumbo p1, "{}"
 
     .line 8
     .line 9
+    .line 10
     return-object p1
 
-    .line 10
+    .line 11
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 11
     .line 12
-    const-string v1, "{"
-
     .line 13
-    .line 14
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string/jumbo v1, "{"
 
+    .line 14
     .line 15
     .line 16
-    .line 17
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 17
     .line 18
     .line 19
+    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
     .line 20
+    .line 21
+    .line 22
     move-result-object p1
 
-    .line 21
+    .line 23
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
-    .line 22
-    .line 23
     .line 24
+    .line 25
+    .line 26
     move-result-object p1
 
-    .line 25
+    .line 27
     :cond_1
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 26
-    .line 27
     .line 28
+    .line 29
+    .line 30
     move-result-object v1
 
-    .line 29
-    check-cast v1, Ljava/util/Map$Entry;
-
-    .line 30
     .line 31
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    check-cast v1, Ljava/util/Map$Entry;
 
     .line 32
     .line 33
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
     .line 34
+    .line 35
+    .line 36
     move-result-object v2
 
-    .line 35
-    check-cast v2, Ljava/lang/String;
-
-    .line 36
     .line 37
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    check-cast v2, Ljava/lang/String;
 
     .line 38
     .line 39
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
     .line 40
+    .line 41
+    .line 42
     move-result-object v1
 
-    .line 41
+    .line 43
     invoke-direct {p0, v1}, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b;->valueToJson(Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 42
-    .line 43
     .line 44
+    .line 45
+    .line 46
     move-result-object v1
 
-    .line 45
-    if-eqz v1, :cond_2
-
-    .line 46
     .line 47
-    const-string v3, "\""
+    if-eqz v1, :cond_2
 
     .line 48
     .line 49
-    const-string v4, "\":"
+    const-string v3, "\""
 
     .line 50
     .line 51
-    invoke-static {v0, v3, v2, v4, v1}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    const-string v4, "\":"
 
     .line 52
     .line 53
+    invoke-static {v0, v3, v2, v4, v1}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
     .line 54
+    .line 55
+    .line 56
     :cond_2
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 55
-    .line 56
     .line 57
+    .line 58
+    .line 59
     move-result v2
 
-    .line 58
-    if-eqz v2, :cond_3
-
-    .line 59
     .line 60
-    if-eqz v1, :cond_1
+    if-eqz v2, :cond_3
 
     .line 61
     .line 62
-    const/16 v1, 0x2c
+    if-eqz v1, :cond_1
 
     .line 63
     .line 64
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    const/16 v1, 0x2c
 
     .line 65
     .line 66
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
     .line 67
+    .line 68
+    .line 69
     goto :goto_0
 
-    .line 68
-    :cond_3
-    const-string p1, "}"
-
-    .line 69
     .line 70
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :cond_3
+    const-string/jumbo p1, "}"
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
     .line 76
-    move-result-object p1
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 77
-    return-object p1
     .line 78
     .line 79
+    move-result-object p1
+
     .line 80
+    return-object p1
     .line 81
     .line 82
     .line 83
@@ -1560,23 +1535,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private processValueError(Ljava/lang/reflect/Field;Ljava/lang/Object;)V
@@ -1924,7 +1882,7 @@
 
     .line 51
     .line 52
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -1977,7 +1935,7 @@
 
     .line 76
     .line 77
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -2450,49 +2408,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method private valueToJson(Ljava/lang/Object;)Ljava/lang/String;
@@ -2715,7 +2630,7 @@
     const/4 v5, 0x1
 
     .line 57
-    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 58
     .line 59
@@ -2941,23 +2856,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected listToJson(Ljava/util/List;)Ljava/lang/String;
@@ -2988,7 +2886,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -3203,23 +3101,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public toJson()Ljava/lang/String;
@@ -3257,211 +3138,211 @@
 
     .line 15
     :cond_0
-    const-string v1, "{"
+    const-string/jumbo v1, "{"
 
     .line 16
     .line 17
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 18
+    invoke-static {v1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 19
     .line 20
+    .line 21
     move-result-object v1
 
-    .line 21
+    .line 22
     const/4 v2, 0x0
 
-    .line 22
+    .line 23
     const/4 v3, 0x0
 
-    .line 23
+    .line 24
     :goto_0
     array-length v4, v0
 
-    .line 24
+    .line 25
     if-ge v3, v4, :cond_4
 
-    .line 25
     .line 26
+    .line 27
     new-instance v4, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b$a;
 
-    .line 27
     .line 28
+    .line 29
     aget-object v5, v0, v3
 
-    .line 29
     .line 30
+    .line 31
     invoke-direct {v4, v5}, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b$a;-><init>(Ljava/lang/reflect/Field;)V
 
-    .line 31
     .line 32
     .line 33
+    .line 34
     invoke-static {v4}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     aget-object v4, v0, v3
 
-    .line 37
     .line 38
+    .line 39
     invoke-virtual {v4}, Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     move-result-object v4
 
-    .line 42
+    .line 43
     aget-object v5, v0, v3
 
-    .line 43
     .line 44
+    .line 45
     const-class v6, Lcom/huawei/updatesdk/service/appmgr/bean/SDKNetTransmission;
 
-    .line 45
     .line 46
+    .line 47
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Field;->isAnnotationPresent(Ljava/lang/Class;)Z
 
-    .line 47
     .line 48
     .line 49
-    move-result v5
-
     .line 50
-    const-string v6, "_"
+    move-result v5
 
     .line 51
+    const-string v6, "_"
+
     .line 52
+    .line 53
     if-nez v5, :cond_1
 
-    .line 53
     .line 54
+    .line 55
     if-eqz v4, :cond_3
 
-    .line 55
     .line 56
+    .line 57
     invoke-virtual {v4, v6}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     move-result v5
 
-    .line 60
+    .line 61
     if-nez v5, :cond_1
 
-    .line 61
     .line 62
+    .line 63
     goto :goto_1
 
-    .line 63
+    .line 64
     :cond_1
     invoke-virtual {v4, v6}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 64
     .line 65
     .line 66
+    .line 67
     move-result v5
 
-    .line 67
+    .line 68
     if-eqz v5, :cond_2
 
-    .line 68
     .line 69
+    .line 70
     const/4 v5, 0x1
 
-    .line 70
-    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
-
     .line 71
+    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
+
     .line 72
     .line 73
+    .line 74
     move-result-object v4
 
-    .line 74
+    .line 75
     :cond_2
     aget-object v5, v0, v3
 
-    .line 75
     .line 76
+    .line 77
     invoke-virtual {v5, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 77
     .line 78
     .line 79
-    move-result-object v5
-
     .line 80
-    invoke-direct {p0, v5}, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b;->valueToJson(Ljava/lang/Object;)Ljava/lang/String;
+    move-result-object v5
 
     .line 81
+    invoke-direct {p0, v5}, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b;->valueToJson(Ljava/lang/Object;)Ljava/lang/String;
+
     .line 82
     .line 83
+    .line 84
     move-result-object v5
 
-    .line 84
+    .line 85
     if-eqz v5, :cond_3
 
-    .line 85
     .line 86
+    .line 87
     const-string v6, "\""
 
-    .line 87
     .line 88
+    .line 89
     const-string v7, "\":"
 
-    .line 89
     .line 90
-    invoke-static {v1, v6, v4, v7, v5}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
     .line 91
+    invoke-static {v1, v6, v4, v7, v5}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
     .line 92
     .line 93
+    .line 94
     const/16 v4, 0x2c
 
-    .line 94
     .line 95
+    .line 96
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 96
     .line 97
     .line 98
+    .line 99
     :cond_3
     :goto_1
     add-int/lit8 v3, v3, 0x1
 
-    .line 99
     .line 100
+    .line 101
     goto :goto_0
 
-    .line 101
+    .line 102
     :cond_4
     invoke-direct {p0, v1}, Lcom/huawei/updatesdk/sdk/service/storekit/bean/b;->formatJsonStr(Ljava/lang/StringBuilder;)V
 
-    .line 102
     .line 103
     .line 104
-    const-string v0, "}"
-
     .line 105
-    .line 106
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string/jumbo v0, "}"
 
+    .line 106
     .line 107
     .line 108
-    .line 109
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 109
     .line 110
     .line 111
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 112
+    .line 113
+    .line 114
     move-result-object v0
 
-    .line 113
-    return-object v0
-    .line 114
     .line 115
+    return-object v0
     .line 116
     .line 117
     .line 118
@@ -3655,4 +3536,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

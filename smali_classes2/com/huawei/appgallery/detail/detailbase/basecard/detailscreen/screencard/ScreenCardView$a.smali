@@ -46,7 +46,7 @@
 
     if-eq p1, p2, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->a(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->b(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)Landroid/os/Handler;
 
     move-result-object p1
 
@@ -60,10 +60,10 @@
 
     invoke-direct {p1, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->b(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;Landroid/os/Handler;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;Landroid/os/Handler;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->a(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->b(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)Landroid/os/Handler;
 
     move-result-object p1
 
@@ -76,7 +76,7 @@
     return-void
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->d(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)V
 
     return-void
 .end method

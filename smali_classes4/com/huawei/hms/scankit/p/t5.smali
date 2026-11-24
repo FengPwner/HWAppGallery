@@ -92,7 +92,7 @@
 
     const/16 v4, 0x200
 
-    invoke-static {p2, v1, v2, v4}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {p2, v1, v2, v4}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result p2
 
@@ -231,7 +231,7 @@
     const-string v0, "Requested row is outside the image: "
 
     .line 2
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

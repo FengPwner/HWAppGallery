@@ -26,15 +26,15 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->e()I
 
     move-result v1
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->d()I
 
     move-result v2
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     move-result v3
 
@@ -49,7 +49,7 @@
     :cond_0
     const/4 v5, 0x1
 
-    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v3
 
@@ -139,15 +139,15 @@
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 9
 
     .line 1
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     iput-wide v0, p0, Lcom/huawei/appmarket/o2;->c:J
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->b()Ljava/lang/String;
 
     move-result-object p2
 
@@ -164,7 +164,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object p1
 
@@ -192,7 +192,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 

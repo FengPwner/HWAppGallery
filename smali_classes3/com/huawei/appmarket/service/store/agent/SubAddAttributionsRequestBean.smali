@@ -9,7 +9,7 @@
         paramType = .enum Lcom/huawei/appgallery/serverreqkit/api/annotiation/ModifyType;->ADD:Lcom/huawei/appgallery/serverreqkit/api/annotiation/ModifyType;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -18,7 +18,7 @@
         paramType = .enum Lcom/huawei/appgallery/serverreqkit/api/annotiation/ModifyType;->ADD:Lcom/huawei/appgallery/serverreqkit/api/annotiation/ModifyType;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -35,15 +35,15 @@
 
     const-string v0, "UpgradeRecommendation"
 
-    const-class v1, Lcom/huawei/appmarket/m54;
+    const-class v1, Lcom/huawei/appmarket/p54;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/m54;
+    check-cast v0, Lcom/huawei/appmarket/p54;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/m54;->d()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/p54;->d()Ljava/lang/String;
 
     move-result-object v0
 

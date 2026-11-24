@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->Y()Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic c:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$e;->c:Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$e;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$e;->b:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,12 +79,12 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/z84;->w(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/tr2;->C(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
-    sput v0, Lcom/huawei/appmarket/wu;->d:I
+    sput v0, Lcom/huawei/appmarket/xu;->d:I
 
     .line 15
     .line 16
@@ -104,7 +104,7 @@
     const/4 v1, 0x0
 
     .line 23
-    iget-object v2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$e;->b:Lcom/huawei/appmarket/nv7;
+    iget-object v2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d$e;->b:Lcom/huawei/appmarket/tv7;
 
     .line 24
     .line 25
@@ -112,7 +112,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 28
     .line 29
@@ -133,12 +133,12 @@
 
     .line 36
     .line 37
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 41
     .line 42
@@ -151,7 +151,7 @@
 
     .line 45
     .line 46
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -168,7 +168,7 @@
     move-result-object p1
 
     .line 55
-    invoke-static {}, Lcom/huawei/appmarket/bn0;->b()Lcom/huawei/appmarket/bn0;
+    invoke-static {}, Lcom/huawei/appmarket/cn0;->b()Lcom/huawei/appmarket/cn0;
 
     .line 56
     .line 57
@@ -176,17 +176,17 @@
     move-result-object p2
 
     .line 59
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/bn0;->c(Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameParamInfo;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/cn0;->c(Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameParamInfo;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-static {}, Lcom/huawei/appmarket/cs0;->a()Lcom/huawei/appmarket/cs0;
+    invoke-static {}, Lcom/huawei/appmarket/ds0;->a()Lcom/huawei/appmarket/ds0;
 
     .line 66
     .line 67
@@ -207,7 +207,7 @@
     .line 74
     .line 75
     .line 76
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 77
     .line 78
@@ -303,5 +303,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

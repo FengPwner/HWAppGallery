@@ -37,7 +37,7 @@
 .method public final onInfo(Lcom/huawei/cloudgame/sdk/HuaweiCloudGame;ILjava/lang/String;)V
     .registers 6
 
-    invoke-static {p2}, Lcom/huawei/appmarket/x22;->a(I)Lcom/huawei/appmarket/w22;
+    invoke-static {p2}, Lcom/huawei/appmarket/b32;->a(I)Lcom/huawei/appmarket/a32;
 
     move-result-object p1
 
@@ -52,7 +52,7 @@
 
     invoke-direct {v0, v1, p2}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$k;-><init>(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;I)V
 
-    invoke-virtual {p1, v1, p3, v0}, Lcom/huawei/appmarket/w22;->b(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;Ljava/lang/String;Lcom/huawei/appmarket/k04;)V
+    invoke-virtual {p1, v1, p3, v0}, Lcom/huawei/appmarket/a32;->b(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;Ljava/lang/String;Lcom/huawei/appmarket/m04;)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     const-string v1, "CloudGamePlayActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -137,7 +137,7 @@
 
     const-string p2, "CloudGamePlayActivity"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$f;->a:Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
 

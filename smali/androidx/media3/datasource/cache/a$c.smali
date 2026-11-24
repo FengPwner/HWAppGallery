@@ -22,7 +22,7 @@
 
 .field private b:Landroidx/media3/datasource/a$a;
 
-.field private c:Lcom/huawei/appmarket/a91$a;
+.field private c:Lcom/huawei/appmarket/b91$a;
 
 .field private d:Lcom/huawei/appmarket/jb0;
 
@@ -45,7 +45,7 @@
 
     iput-object v0, p0, Landroidx/media3/datasource/cache/a$c;->b:Landroidx/media3/datasource/a$a;
 
-    sget-object v0, Lcom/huawei/appmarket/tg0;->q1:Lcom/huawei/appmarket/jb0;
+    sget-object v0, Lcom/huawei/appmarket/ug0;->u1:Lcom/huawei/appmarket/jb0;
 
     iput-object v0, p0, Landroidx/media3/datasource/cache/a$c;->d:Lcom/huawei/appmarket/jb0;
 
@@ -81,7 +81,7 @@
 
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/media3/datasource/cache/a$c;->c:Lcom/huawei/appmarket/a91$a;
+    iget-object v0, p0, Landroidx/media3/datasource/cache/a$c;->c:Lcom/huawei/appmarket/b91$a;
 
     .line 14
     .line 15
@@ -89,7 +89,7 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Lcom/huawei/appmarket/a91$a;->a()Landroidx/media3/datasource/cache/CacheDataSink;
+    invoke-interface {v0}, Lcom/huawei/appmarket/b91$a;->a()Landroidx/media3/datasource/cache/CacheDataSink;
 
     .line 18
     .line 19
@@ -180,7 +180,7 @@
     move v8, p3
 
     .line 55
-    invoke-direct/range {v0 .. v10}, Landroidx/media3/datasource/cache/a;-><init>(Landroidx/media3/datasource/cache/Cache;Landroidx/media3/datasource/a;Landroidx/media3/datasource/a;Lcom/huawei/appmarket/a91;Lcom/huawei/appmarket/tg0;ILandroidx/media3/common/PriorityTaskManager;ILandroidx/media3/datasource/cache/a$b;Landroidx/media3/datasource/cache/a$a;)V
+    invoke-direct/range {v0 .. v10}, Landroidx/media3/datasource/cache/a;-><init>(Landroidx/media3/datasource/cache/Cache;Landroidx/media3/datasource/a;Landroidx/media3/datasource/a;Lcom/huawei/appmarket/b91;Lcom/huawei/appmarket/ug0;ILandroidx/media3/common/PriorityTaskManager;ILandroidx/media3/datasource/cache/a$b;Landroidx/media3/datasource/cache/a$a;)V
 
     .line 56
     .line 57
@@ -411,6 +411,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -626,6 +633,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final d()Landroidx/media3/datasource/cache/Cache;
@@ -668,7 +676,7 @@
     .registers 2
 
     .line 1
-    iput-object p1, p0, Landroidx/media3/datasource/cache/a$c;->c:Lcom/huawei/appmarket/a91$a;
+    iput-object p1, p0, Landroidx/media3/datasource/cache/a$c;->c:Lcom/huawei/appmarket/b91$a;
 
     const/4 p1, 0x0
 

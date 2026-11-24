@@ -671,7 +671,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {p1, v0, v5}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v5}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -718,7 +718,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -857,7 +856,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -945,7 +944,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public onBridgeActivityDestroy()V

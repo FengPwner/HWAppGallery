@@ -22,18 +22,18 @@
 
 
 # direct methods
-.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/ym5;)V
+.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/zm5;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/m$d;-><init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/ym5;)V
+    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/m$d;-><init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/zm5;)V
 
     return-void
 .end method

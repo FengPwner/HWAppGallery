@@ -38,7 +38,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v0, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -54,11 +54,11 @@
 
     const-string v2, "UpdateManagerFragment"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment$a;->k:Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;
 
-    invoke-static {v1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->H7(Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;)Lcom/huawei/appmarket/ba8;
+    invoke-static {v1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->H7(Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;)Lcom/huawei/appmarket/ga8;
 
     move-result-object v3
 
@@ -116,7 +116,7 @@
     goto/16 :goto_3
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_8
 
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -261,7 +261,7 @@
     move-result-object p1
 
     :goto_5
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->P5()V
 

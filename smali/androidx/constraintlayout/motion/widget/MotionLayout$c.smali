@@ -1,5 +1,5 @@
 .class final Landroidx/constraintlayout/motion/widget/MotionLayout$c;
-.super Lcom/huawei/appmarket/lb5;
+.super Lcom/huawei/appmarket/ob5;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$c;->d:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/lb5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ob5;-><init>()V
 
     const/4 p1, 0x0
 

@@ -73,12 +73,12 @@
     .registers 4
 
     .line 1
-    const v0, 0x7f0a16cf
+    const v0, 0x7f0a16d0
 
     .line 2
     .line 3
     .line 4
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 5
     .line 6
@@ -207,5 +207,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

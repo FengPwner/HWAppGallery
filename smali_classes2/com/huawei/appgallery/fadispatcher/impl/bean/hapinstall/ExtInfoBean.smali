@@ -5,7 +5,7 @@
 
 # instance fields
 .field private replaceWant:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "ohos.extra.param.key.replace_want"
     .end annotation
 .end field

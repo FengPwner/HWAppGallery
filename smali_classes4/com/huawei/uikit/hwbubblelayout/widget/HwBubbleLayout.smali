@@ -124,7 +124,7 @@
     const v0, 0x7f1302fb
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -161,7 +161,7 @@
 
     invoke-virtual {p0, v0}, Landroid/view/View;->setWillNotDraw(Z)V
 
-    sget-object v4, Lcom/huawei/appmarket/rf6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/tf6;->a:[I
 
     const v5, 0x7f130449
 
@@ -1985,10 +1985,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -2315,23 +2311,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setArrowPosition(I)V

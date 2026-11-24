@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/timepicker/f$b;
-.super Lcom/huawei/appmarket/sx7;
+.super Lcom/huawei/appmarket/xx7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/timepicker/f$b;->b:Lcom/google/android/material/timepicker/f;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/sx7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/xx7;-><init>()V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/o56$b;
+.implements Lcom/huawei/appmarket/q56$b;
 
 
 # annotations
@@ -44,7 +44,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher$e;->a:Lcom/huawei/appgallery/assistantdock/base/service/BuoyServiceDispatcher;
 
-    iget-object v3, v2, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v3, v2, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     if-eqz v3, :cond_0
 
@@ -63,11 +63,11 @@
 
     move-result-object p1
 
-    iget-object v3, v2, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v3, v2, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     iget-object v2, v2, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mReqId:Ljava/lang/String;
 
-    invoke-interface {v3, v2, p1}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v3, v2, p1}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
@@ -91,7 +91,7 @@
     goto :goto_1
 
     :goto_0
-    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_2
 

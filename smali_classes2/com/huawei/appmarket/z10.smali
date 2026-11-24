@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pi3;
+.implements Lcom/huawei/appmarket/ri3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/pi3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/ri3;
 .end annotation
 
 
@@ -36,7 +36,7 @@
     .registers 15
 
     .line 1
-    invoke-static {p3}, Lcom/huawei/appmarket/rm4;->s([I)V
+    invoke-static {p3}, Lcom/huawei/appmarket/um4;->s([I)V
 
     .line 2
     .line 3
@@ -150,7 +150,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1, v2, v4}, Lcom/huawei/appmarket/um4;->c(Landroid/content/Context;I[J)V
+    invoke-static {p1, v2, v4}, Lcom/huawei/appmarket/xm4;->c(Landroid/content/Context;I[J)V
 
     .line 55
     .line 56
@@ -454,15 +454,15 @@
     return-void
 .end method
 
-.method public final f(Landroid/content/Context;Lcom/huawei/appmarket/vm4;)Z
+.method public final f(Landroid/content/Context;Lcom/huawei/appmarket/ym4;)Z
     .registers 12
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vm4;->d()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ym4;->d()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -472,7 +472,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vm4;->d()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ym4;->d()Ljava/util/List;
 
     move-result-object v0
 
@@ -482,7 +482,7 @@
 
     new-array v0, v0, [J
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vm4;->d()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ym4;->d()Ljava/util/List;
 
     move-result-object v3
 
@@ -518,7 +518,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p2, Lcom/huawei/appmarket/vm4;->j:Landroid/os/PersistableBundle;
+    iget-object v0, p2, Lcom/huawei/appmarket/ym4;->j:Landroid/os/PersistableBundle;
 
     if-eqz v0, :cond_1
 
@@ -568,12 +568,12 @@
 
     const-string v0, "tasks is null, can not do schedule job!"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_4
-    invoke-static {p1, p2, v0, v2}, Lcom/huawei/appmarket/um4;->b(Landroid/content/Context;Lcom/huawei/appmarket/vm4;[J[Ljava/lang/String;)Z
+    invoke-static {p1, p2, v0, v2}, Lcom/huawei/appmarket/xm4;->b(Landroid/content/Context;Lcom/huawei/appmarket/ym4;[J[Ljava/lang/String;)Z
 
     move-result p1
 
@@ -607,7 +607,7 @@
             "Landroid/os/Bundle;",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/w64;",
+            "Lcom/huawei/appmarket/z64;",
             ">;[",
             "Ljava/lang/Class<",
             "+",

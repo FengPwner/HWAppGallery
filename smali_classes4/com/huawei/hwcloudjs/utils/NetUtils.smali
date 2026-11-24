@@ -110,7 +110,7 @@
     return-object v0
 
     :cond_2
-    const-string v0, "wifi"
+    const-string/jumbo v0, "wifi"
 
     return-object v0
 
@@ -119,6 +119,8 @@
     const-string v0, "none"
 
     return-object v0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1

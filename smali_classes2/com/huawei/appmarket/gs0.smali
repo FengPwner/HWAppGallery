@@ -2,25 +2,17 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/bl3;
 
-# static fields
-.field private static a:Lcom/huawei/appmarket/gs0;
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/bl3;
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/gs0;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/gs0;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/gs0;->a:Lcom/huawei/appmarket/gs0;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
@@ -29,11 +21,77 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/gs0;
-    .registers 1
+
+# virtual methods
+.method public final startCloudGame(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 10
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gs0;->a:Lcom/huawei/appmarket/gs0;
+    const/4 v4, 0x0
 
-    return-object v0
+    const/4 v5, 0x0
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    move-object v3, p3
+
+    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/gs0;->startCloudGame(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V
+
+    return-void
+.end method
+
+.method public final startCloudGame(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+    .registers 15
+
+    .line 2
+    new-instance v7, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
+
+    move-object v0, v7
+
+    move-object v1, p3
+
+    move-object v2, p2
+
+    move-object v3, p1
+
+    move-object v4, p4
+
+    move v5, p5
+
+    move v6, p6
+
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;II)V
+
+    invoke-virtual {v7}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->k0()V
+
+    return-void
+.end method
+
+.method public final startCloudGame(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V
+    .registers 13
+
+    .line 3
+    new-instance v6, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;
+
+    move-object v0, v6
+
+    move-object v1, p3
+
+    move-object v2, p2
+
+    move-object v3, p1
+
+    move v4, p4
+
+    move v5, p5
+
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;ZZ)V
+
+    invoke-virtual {v6}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/d;->k0()V
+
+    return-void
 .end method

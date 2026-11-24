@@ -31,7 +31,7 @@
     .line 5
     .line 6
     .line 7
-    sget-object p1, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/de3;
+    sget-object p1, Lcom/huawei/uikit/hwadvancednumberpicker/widget/g;->a:Lcom/huawei/appmarket/fe3;
 
     .line 8
     .line 9
@@ -311,8 +311,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

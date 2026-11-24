@@ -46,11 +46,11 @@
 .method static constructor <clinit>()V
     .registers 20
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 v1, 0x19
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     sput-object v0, Lcom/alibaba/fastjson2/reader/ObjectReaderImplMap;->ENUM_MAP_BUILDER:Lcom/alibaba/fastjson2/function/Function;
 
@@ -457,7 +457,7 @@
 
     .line 109
     :cond_6
-    new-instance v1, Lcom/huawei/appmarket/im5;
+    new-instance v1, Lcom/huawei/appmarket/km5;
 
     .line 110
     .line 111
@@ -465,7 +465,7 @@
 
     .line 112
     .line 113
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     .line 114
     .line 115
@@ -480,7 +480,7 @@
 
     .line 119
     :cond_7
-    new-instance v1, Lcom/huawei/appmarket/im5;
+    new-instance v1, Lcom/huawei/appmarket/km5;
 
     .line 120
     .line 121
@@ -488,7 +488,7 @@
 
     .line 122
     .line 123
-    invoke-direct {v1, v4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v1, v4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     .line 124
     .line 125
@@ -772,7 +772,7 @@
 
     .line 251
     :cond_e
-    const-string v10, "com.huawei.appmarket.l02"
+    const-string v10, "com.huawei.appmarket.p02"
 
     .line 252
     .line 253
@@ -872,7 +872,7 @@
 
     .line 293
     .line 294
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 295
     .line 296
@@ -927,7 +927,7 @@
 
     .line 318
     .line 319
-    new-instance v3, Lcom/huawei/appmarket/im5;
+    new-instance v3, Lcom/huawei/appmarket/km5;
 
     .line 320
     .line 321
@@ -935,7 +935,7 @@
 
     .line 322
     .line 323
-    invoke-direct {v3, v7}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v3, v7}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     .line 324
     .line 325

@@ -141,7 +141,7 @@
     move-exception v3
 
     .line 54
-    sget-object v4, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v4, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 55
     .line 56
@@ -157,7 +157,7 @@
     move-result-object v3
 
     .line 62
-    invoke-virtual {v4, v5, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v5, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -214,7 +214,7 @@
 
     .line 88
     .line 89
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 90
     .line 91
@@ -243,7 +243,7 @@
     move-result-object v1
 
     .line 104
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
@@ -349,7 +349,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private static b(Ljava/lang/String;Ljava/lang/String;Z)Landroid/text/SpannableString;
@@ -417,7 +416,7 @@
 
     .line 31
     .line 32
-    invoke-static {p0, v2, p1}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v2, p1}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -434,7 +433,7 @@
     .line 39
     .line 40
     .line 41
-    sget-object p1, Lcom/huawei/appmarket/ki5;->b:Landroid/text/style/StrikethroughSpan;
+    sget-object p1, Lcom/huawei/appmarket/mi5;->b:Landroid/text/style/StrikethroughSpan;
 
     .line 42
     .line 43
@@ -468,7 +467,7 @@
 
     .line 58
     :cond_0
-    invoke-static {p1, v2, p0}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v2, p0}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 59
     .line 60
@@ -485,7 +484,7 @@
     .line 65
     .line 66
     .line 67
-    sget-object v2, Lcom/huawei/appmarket/ki5;->b:Landroid/text/style/StrikethroughSpan;
+    sget-object v2, Lcom/huawei/appmarket/mi5;->b:Landroid/text/style/StrikethroughSpan;
 
     .line 68
     .line 69

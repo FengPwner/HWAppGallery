@@ -206,7 +206,7 @@
     move-result p2
 
     .line 93
-    invoke-static {p1, p2, p2}, Lcom/huawei/appmarket/pm7;->b(Landroidx/fragment/app/FragmentActivity;II)V
+    invoke-static {p1, p2, p2}, Lcom/huawei/appmarket/vm7;->b(Landroidx/fragment/app/FragmentActivity;II)V
 
     .line 94
     .line 95
@@ -249,7 +249,7 @@
 
     .line 115
     .line 116
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 117
     .line 118
@@ -273,7 +273,7 @@
 
     .line 127
     .line 128
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     .line 129
     .line 130
@@ -296,7 +296,7 @@
 
     .line 138
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 139
     .line 140
@@ -308,7 +308,7 @@
 
     .line 143
     .line 144
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     .line 145
     .line 146

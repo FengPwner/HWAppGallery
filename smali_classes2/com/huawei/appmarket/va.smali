@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic c:Lcom/huawei/appmarket/wa;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/wa;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appmarket/wa;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/va;->c:Lcom/huawei/appmarket/wa;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/va;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/appmarket/va;->b:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,7 +52,7 @@
 
     const-string v1, "AgFlowListLoadService"
 
-    iget-object v2, p0, Lcom/huawei/appmarket/va;->b:Lcom/huawei/appmarket/nv7;
+    iget-object v2, p0, Lcom/huawei/appmarket/va;->b:Lcom/huawei/appmarket/tv7;
 
     if-eqz v0, :cond_1
 
@@ -92,7 +92,7 @@
     invoke-direct {p1, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     :goto_0
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string p2, "parse data error"
 
@@ -131,7 +131,7 @@
 
     invoke-virtual {p1, v0, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
@@ -139,17 +139,17 @@
     goto :goto_2
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string p2, "IllegalAccessException"
 
     :goto_1
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
     :catch_2
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string p2, "JSONException"
 

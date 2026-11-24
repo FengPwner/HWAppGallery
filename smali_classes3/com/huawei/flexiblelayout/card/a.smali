@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s22;
+.implements Lcom/huawei/appmarket/w22;
 
 
 # instance fields
@@ -23,23 +23,23 @@
 
 
 # virtual methods
-.method public final call(Lcom/huawei/appmarket/s22$a;)V
+.method public final call(Lcom/huawei/appmarket/w22$a;)V
     .registers 8
 
     .line 1
     if-eqz p1, :cond_8
 
-    const-class v0, Lcom/huawei/appmarket/g75$a;
+    const-class v0, Lcom/huawei/appmarket/j75$a;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/s22$a;->getPayload(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/w22$a;->getPayload(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/g75$a;
+    check-cast p1, Lcom/huawei/appmarket/j75$a;
 
     if-eqz p1, :cond_8
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/g75$a;->getMethod()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/j75$a;->getMethod()Ljava/lang/String;
 
     move-result-object v0
 
@@ -136,7 +136,7 @@
     const/4 v3, 0x0
 
     :goto_0
-    const-class v0, Lcom/huawei/appmarket/gz8;
+    const-class v0, Lcom/huawei/appmarket/mz8;
 
     const-string v1, "config"
 
@@ -144,7 +144,7 @@
 
     packed-switch v3, :pswitch_data_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/g75$a;->onNotImplemented()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/j75$a;->onNotImplemented()Ljava/lang/Object;
 
     goto/16 :goto_1
 
@@ -153,7 +153,7 @@
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
@@ -162,7 +162,7 @@
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
@@ -171,63 +171,63 @@
 
     const-class v5, Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;
 
-    invoke-virtual {p1, v3, v5}, Lcom/huawei/appmarket/g75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v3, v5}, Lcom/huawei/appmarket/j75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/g75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/j75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/gz8;
+    check-cast v0, Lcom/huawei/appmarket/mz8;
 
     if-eqz v3, :cond_5
 
     if-eqz v0, :cond_5
 
-    invoke-static {v4, v3, v0}, Lcom/huawei/flexiblelayout/card/IndicatorCard;->l(Lcom/huawei/flexiblelayout/card/IndicatorCard;Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;Lcom/huawei/appmarket/gz8;)V
+    invoke-static {v4, v3, v0}, Lcom/huawei/flexiblelayout/card/IndicatorCard;->l(Lcom/huawei/flexiblelayout/card/IndicatorCard;Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;Lcom/huawei/appmarket/mz8;)V
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     :cond_5
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     :pswitch_3
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/g75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/j75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/gz8;
+    check-cast v0, Lcom/huawei/appmarket/mz8;
 
     if-eqz v0, :cond_6
 
-    invoke-static {v4, v0}, Lcom/huawei/flexiblelayout/card/IndicatorCard;->k(Lcom/huawei/flexiblelayout/card/IndicatorCard;Lcom/huawei/appmarket/gz8;)V
+    invoke-static {v4, v0}, Lcom/huawei/flexiblelayout/card/IndicatorCard;->k(Lcom/huawei/flexiblelayout/card/IndicatorCard;Lcom/huawei/appmarket/mz8;)V
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     :cond_6
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     :pswitch_4
-    invoke-virtual {v4}, Lcom/huawei/appmarket/oa2;->d()Lcom/huawei/flexiblelayout/data/b;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ra2;->d()Lcom/huawei/flexiblelayout/data/b;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
 
     const-class v3, Ljava/lang/Integer;
 
-    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/g75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v1, v3}, Lcom/huawei/appmarket/j75$a;->getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -251,14 +251,14 @@
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onSuccess([Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     :cond_7
     new-array v0, v2, [Ljava/lang/Object;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/j75$a;->onError([Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_8
     :goto_1

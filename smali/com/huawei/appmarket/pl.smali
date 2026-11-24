@@ -7,8 +7,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/x20<",
-        "Ljava/lang/Integer;",
-        "Ljava/lang/Integer;",
+        "Ljava/lang/Float;",
+        "Ljava/lang/Float;",
         ">;"
     }
 .end annotation
@@ -21,8 +21,8 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
-            "Ljava/lang/Integer;",
+            "Lcom/huawei/appmarket/jr4<",
+            "Ljava/lang/Float;",
             ">;>;)V"
         }
     .end annotation
@@ -41,18 +41,18 @@
         value = {
             "()",
             "Lcom/huawei/appmarket/d40<",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
+            "Ljava/lang/Float;",
+            "Ljava/lang/Float;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/du0;
+    new-instance v0, Lcom/huawei/appmarket/fm2;
 
     iget-object v1, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/du0;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/fm2;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method

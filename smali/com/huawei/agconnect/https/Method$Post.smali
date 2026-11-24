@@ -64,7 +64,7 @@
 
 
 # virtual methods
-.method public create()Lcom/huawei/appmarket/gr6$a;
+.method public create()Lcom/huawei/appmarket/jr6$a;
     .registers 4
 
     .line 1
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/jr6$a;
 
     move-result-object v0
 
@@ -99,9 +99,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/lr6;
+    check-cast v1, Lcom/huawei/appmarket/or6;
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/agconnect/https/Method$Post;->createBody(Lcom/huawei/appmarket/gr6$a;Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/agconnect/https/Method$Post;->createBody(Lcom/huawei/appmarket/jr6$a;Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/jr6$a;
 
     move-result-object v0
 
@@ -131,7 +131,7 @@
     throw v1
 .end method
 
-.method public createBody(Lcom/huawei/appmarket/gr6$a;Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/gr6$a;
+.method public createBody(Lcom/huawei/appmarket/jr6$a;Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/jr6$a;
     .registers 4
 
     .line 1
@@ -144,7 +144,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -153,7 +153,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/lr6;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/or6;)V
 
     .line 12
     .line 13

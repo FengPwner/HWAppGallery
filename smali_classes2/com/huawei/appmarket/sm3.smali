@@ -3,10 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
-# annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/wc1;
-.end annotation
+# virtual methods
+.method public abstract L1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/gn3;)V
+.end method
+
+.method public abstract n1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+.end method

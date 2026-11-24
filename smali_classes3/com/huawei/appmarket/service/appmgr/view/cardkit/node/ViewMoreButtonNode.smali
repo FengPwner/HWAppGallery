@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/z27;->a(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/e37;->a(Landroid/content/Context;Landroid/view/View;)V
 
     new-instance v2, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/ViewMoreButtonCard;
 

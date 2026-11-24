@@ -45,7 +45,7 @@
 
     const-string v0, "imageView onClick"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/settings/view/widget/TagsAdapter$a;->c:Lcom/huawei/appmarket/service/settings/view/widget/TagsAdapter;
 

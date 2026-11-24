@@ -56,11 +56,11 @@
     .line 1
     iget-object p1, p0, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction$b;->b:Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$500(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$500(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object v0
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/xp5;->b(Lcom/huawei/appmarket/c72$b;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Z
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/yp5;->b(Lcom/huawei/appmarket/g72$b;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Z
 
     move-result p2
 
@@ -68,7 +68,7 @@
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->cancelTask()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$600(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;->access$600(Lcom/huawei/appmarket/service/externalapi/actions/ExtPublicAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p2
 
@@ -76,7 +76,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/xp5;->c(Ljava/lang/String;Lcom/huawei/appmarket/c72$b;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/yp5;->c(Ljava/lang/String;Lcom/huawei/appmarket/g72$b;)V
 
     :cond_0
     return-void

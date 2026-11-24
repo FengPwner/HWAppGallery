@@ -33,7 +33,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/yf3;->a(Landroid/content/Context;)I
 
     move-result p0
 
@@ -71,7 +71,7 @@
 
     check-cast p0, Landroid/app/Activity;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->z(Landroid/app/Activity;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/et6;->z(Landroid/app/Activity;)Z
 
     move-result p0
 

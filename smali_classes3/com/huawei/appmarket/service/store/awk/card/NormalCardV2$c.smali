@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private k:Lcom/huawei/appmarket/sa2;
+.field private k:Lcom/huawei/appmarket/va2;
 
 .field private l:Lcom/huawei/flexiblelayout/data/d;
 
@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;)V
+.method public constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;)V
     .registers 4
 
     .line 1
@@ -31,7 +31,7 @@
 
     invoke-direct {p0}, Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->k:Lcom/huawei/appmarket/sa2;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->k:Lcom/huawei/appmarket/va2;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->l:Lcom/huawei/flexiblelayout/data/d;
 
@@ -99,7 +99,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -119,7 +119,7 @@
 
     if-eqz p2, :cond_4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result p2
 
@@ -139,7 +139,7 @@
 
     if-eqz p2, :cond_4
 
-    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     if-eqz p2, :cond_2
 
@@ -150,20 +150,20 @@
     if-nez p2, :cond_3
 
     :cond_2
-    new-instance p2, Lcom/huawei/appmarket/oc6;
+    new-instance p2, Lcom/huawei/appmarket/qc6;
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/oc6;-><init>(Lcom/huawei/appmarket/qb2;)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/qc6;-><init>(Lcom/huawei/appmarket/tb2;)V
 
-    iput-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iput-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->v(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)V
 
     :cond_3
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->Q()V
 
-    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->m(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)Lcom/huawei/appgallery/pageframe/v2/service/bean/QCardBaseDistCardBean;
 
@@ -173,31 +173,31 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/oc6;->o(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/qc6;->o(Ljava/lang/String;)V
 
-    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->w(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)I
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/oc6;->u(I)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/qc6;->u(I)V
 
-    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object p2, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->x(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)Z
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/oc6;->s(Z)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/qc6;->s(Z)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->n(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;
 
     move-result-object p2
 
-    iget-object v0, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object v0, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->G(Lcom/huawei/appmarket/oc6;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/service/store/awk/bean/NormalCardV2CardBean;->G(Lcom/huawei/appmarket/qc6;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->u(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;
 
@@ -213,13 +213,13 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->k:Lcom/huawei/appmarket/sa2;
+    iget-object v4, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->k:Lcom/huawei/appmarket/va2;
 
-    iget-object v5, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object v5, p1, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     iget-object v6, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;->l:Lcom/huawei/flexiblelayout/data/d;
 
-    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;->queryServerInteractData(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/sa2;Lcom/huawei/appmarket/oc6;Lcom/huawei/flexiblelayout/data/d;)V
+    invoke-virtual/range {v1 .. v6}, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;->queryServerInteractData(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/va2;Lcom/huawei/appmarket/qc6;Lcom/huawei/flexiblelayout/data/d;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->o(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2$c;
 
@@ -231,7 +231,7 @@
 
     if-eqz p2, :cond_4
 
-    invoke-static {p2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p2
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->p(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;)V
 

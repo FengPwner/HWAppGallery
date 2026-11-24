@@ -149,11 +149,11 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/huawei/appmarket/rq0;
+    new-instance v0, Lcom/huawei/appmarket/sq0;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/rq0;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/sq0;-><init>(I)V
 
     return-object v0
 .end method
@@ -186,7 +186,7 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/qo7;
+    new-instance v0, Lcom/huawei/appmarket/vo7;
 
     .line 2
     .line 3
@@ -498,6 +498,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public finisher()Ljava/util/function/Function;
@@ -511,11 +531,11 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/huawei/appmarket/v12;
+    new-instance v0, Lcom/huawei/appmarket/z12;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/v12;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/z12;-><init>(Ljava/lang/Object;I)V
 
     return-object v0
 .end method
@@ -531,11 +551,11 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/huawei/appmarket/ch6;
+    new-instance v0, Lcom/huawei/appmarket/eh6;
 
     const/4 v1, 0x7
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     return-object v0
 .end method

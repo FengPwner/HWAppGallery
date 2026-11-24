@@ -48,56 +48,56 @@
 
     .line 6
     .line 7
-    const-string v2, "|"
+    const-string/jumbo v2, "|"
 
     .line 8
     .line 9
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 10
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 11
     .line 12
+    .line 13
     move-result-object v0
 
-    .line 13
+    .line 14
     invoke-static {p1}, Lcom/huawei/hms/utils/Util;->getAppId(Landroid/content/Context;)Ljava/lang/String;
 
-    .line 14
     .line 15
     .line 16
-    move-result-object p1
-
     .line 17
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 18
-    .line 19
-    .line 20
-    const-string p1, "|61300303|"
-
-    .line 21
-    .line 22
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 19
+    .line 20
+    .line 21
+    const-string/jumbo p1, "|61300304|"
+
+    .line 22
     .line 23
     .line 24
-    .line 25
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 25
     .line 26
     .line 27
-    .line 28
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 28
     .line 29
     .line 30
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 31
+    .line 32
+    .line 33
     move-result-object p1
 
-    .line 32
-    return-object p1
-    .line 33
     .line 34
+    return-object p1
     .line 35
     .line 36
     .line 37
@@ -336,10 +336,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/support/hianalytics/HiAnalyticsUtil;
@@ -498,7 +494,7 @@
 
     const-string p0, "baseVersion"
 
-    const-string v1, "6.13.0.303"
+    const-string v1, "6.13.0.304"
 
     invoke-virtual {v0, p0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -638,7 +634,7 @@
 
     const-string p0, "baseVersion"
 
-    const-string v1, "6.13.0.303"
+    const-string v1, "6.13.0.304"
 
     invoke-virtual {v0, p0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -734,9 +730,9 @@
     invoke-virtual {v0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    const-string p1, "version"
+    const-string/jumbo p1, "version"
 
-    const-string p2, "6.13.0.303"
+    const-string p2, "6.13.0.304"
 
     invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -833,7 +829,7 @@
 
     const-string p1, "baseVersion"
 
-    const-string v1, "6.13.0.303"
+    const-string v1, "6.13.0.304"
 
     invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -941,7 +937,7 @@
 
     const-string p1, "baseVersion"
 
-    const-string v1, "6.13.0.303"
+    const-string v1, "6.13.0.304"
 
     invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

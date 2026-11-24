@@ -204,7 +204,7 @@
     move-result v3
 
     .line 55
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/rw1;->a(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/vw1;->a(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 56
     .line 57
@@ -228,7 +228,7 @@
     move-result-object v2
 
     .line 67
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/rw1;->a(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/vw1;->a(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 68
     .line 69

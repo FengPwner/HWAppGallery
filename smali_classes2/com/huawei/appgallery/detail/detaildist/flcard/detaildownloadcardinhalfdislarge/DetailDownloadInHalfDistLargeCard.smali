@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private r:Lcom/huawei/appmarket/jk1;
+.field private r:Lcom/huawei/appmarket/mk1;
 
 .field private s:Landroid/view/View;
 
@@ -29,7 +29,7 @@
 
 
 # virtual methods
-.method protected final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
@@ -51,11 +51,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->s:Landroid/view/View;
 
-    new-instance v0, Lcom/huawei/appmarket/jk1;
+    new-instance v0, Lcom/huawei/appmarket/mk1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jk1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/mk1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->s:Landroid/view/View;
 
@@ -69,11 +69,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->t:Landroid/widget/LinearLayout;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/gk1;->h(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/jk1;->h(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object p1
 
@@ -106,7 +106,7 @@
 
     const-string v0, "02"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -116,17 +116,17 @@
     .registers 4
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/mq1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/pq1;
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v0, "DetailDownloadInDistLargeCard"
 
     const-string v1, "viewModel is null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -175,41 +175,41 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gk1;->g(Ljava/util/ArrayList;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/jk1;->g(Ljava/util/ArrayList;)Z
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/mq1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/pq1;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mq1;->a0()Lcom/huawei/appmarket/zp;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zp;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1;->a0()Lcom/huawei/appmarket/yp;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gk1;->l(Ljava/lang/String;)V
-
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
-
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/mq1;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mq1;->a0()Lcom/huawei/appmarket/zp;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yp;->g()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zp;->d()Ljava/lang/String;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/jk1;->l(Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
+
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/pq1;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1;->a0()Lcom/huawei/appmarket/yp;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gk1;->j(Ljava/lang/String;)V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yp;->d()Ljava/lang/String;
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/jk1;
+    move-result-object v0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/mq1;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/jk1;->j(Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->r:Lcom/huawei/appmarket/mk1;
+
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/BaseDownloadFLCard;->q:Lcom/huawei/appmarket/pq1;
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/view/a;->l()Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
@@ -217,7 +217,7 @@
 
     iget v0, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->detailType_:I
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gk1;->k(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/jk1;->k(I)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/flcard/detaildownloadcardinhalfdislarge/DetailDownloadInHalfDistLargeCard;->v:Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;
 

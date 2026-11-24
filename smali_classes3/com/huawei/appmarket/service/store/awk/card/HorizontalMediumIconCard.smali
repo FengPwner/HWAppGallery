@@ -22,7 +22,7 @@
     .registers 8
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/rb3;
+    new-instance v6, Lcom/huawei/appmarket/ub3;
 
     .line 2
     .line 3
@@ -30,11 +30,11 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v2, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 6
     .line 7
-    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 8
     .line 9
@@ -48,12 +48,12 @@
     move-object v4, p0
 
     .line 13
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/rb3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/ub3;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     .line 14
     .line 15
     .line 16
-    iput-object v6, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/sb3;
+    iput-object v6, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/vb3;
 
     .line 17
     .line 18
@@ -244,7 +244,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 20
     .line 21
@@ -252,7 +252,7 @@
     move-result v0
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
     .line 24
     .line 25
@@ -267,11 +267,11 @@
     sub-int/2addr v1, v0
 
     .line 30
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 31
     .line 32
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tb3;->c(I)V
 
     .line 33
     .line 34
@@ -301,7 +301,7 @@
     move-result v1
 
     .line 48
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     .line 49
     .line 50
@@ -487,7 +487,7 @@
     move-result-object v0
 
     .line 32
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 33
     .line 34
@@ -568,7 +568,7 @@
 
     .line 71
     .line 72
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 73
     .line 74
@@ -928,8 +928,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final X1(Landroid/view/View;)V

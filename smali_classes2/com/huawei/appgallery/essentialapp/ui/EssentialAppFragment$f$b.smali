@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/du4;
+.implements Lcom/huawei/appmarket/gu4;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
     new-instance v0, Landroidx/lifecycle/k;
 
-    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/du4;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/gu4;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f$b;->x:Landroidx/lifecycle/k;
 
@@ -63,7 +63,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f$b$b;-><init>(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f$b;Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f;)V
 
-    invoke-virtual {p2, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p2, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     return-void
 .end method
@@ -94,7 +94,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1, p0}, Landroidx/lifecycle/k;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, p0}, Landroidx/lifecycle/k;->c(Lcom/huawei/appmarket/fu4;)V
 
     .line 14
     .line 15
@@ -190,7 +190,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static B(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f$b;)V
@@ -269,7 +268,7 @@
 
     .line 38
     .line 39
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/g83;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/j83;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -286,7 +285,7 @@
     move-result-object v3
 
     .line 48
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 49
     .line 50
@@ -610,7 +609,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -704,7 +703,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic D(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$f$b;)Landroidx/lifecycle/k;
@@ -737,7 +735,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/k;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/k;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 6
     .line 7
@@ -845,7 +843,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 

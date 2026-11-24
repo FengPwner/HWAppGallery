@@ -58,7 +58,7 @@
 
     .line 19
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 20
     .line 21
@@ -66,7 +66,7 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {v2}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 24
     .line 25
@@ -142,7 +142,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 61
     .line 62
@@ -268,7 +268,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 7
     .line 8
@@ -304,11 +304,11 @@
     sub-int/2addr v0, v1
 
     .line 24
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 25
     .line 26
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->c(I)V
 
     .line 27
     .line 28
@@ -359,7 +359,7 @@
 
     .line 52
     :goto_0
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     .line 53
     .line 54
@@ -508,7 +508,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -543,7 +543,7 @@
 
     mul-int v2, v2, p2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result p1
 

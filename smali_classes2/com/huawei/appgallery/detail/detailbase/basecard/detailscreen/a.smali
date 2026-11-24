@@ -37,7 +37,7 @@
 
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 9
     .line 10
@@ -48,7 +48,7 @@
     const/4 v0, 0x1
 
     .line 13
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 14
     .line 15
@@ -202,13 +202,12 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object p1
 
@@ -218,7 +217,7 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pl0;->A(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ql0;->A(I)V
 
     return-void
 .end method

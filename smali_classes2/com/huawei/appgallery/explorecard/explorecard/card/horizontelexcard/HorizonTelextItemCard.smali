@@ -62,7 +62,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 14
     .line 15
@@ -74,7 +74,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 20
     .line 21
@@ -82,7 +82,7 @@
     move-result v2
 
     .line 23
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 24
     .line 25
@@ -180,7 +180,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final x1()I

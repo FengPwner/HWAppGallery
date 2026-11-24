@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -50,7 +50,7 @@
 
     const-string p2, "view is null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -73,11 +73,11 @@
 
     if-ne p2, p3, :cond_1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/pt1;->q(Landroid/view/View;Z)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/tt1;->q(Landroid/view/View;Z)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->l3(Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v5
 
@@ -87,7 +87,7 @@
 
     const/4 p3, 0x3
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/nw0;->b(ILcom/huawei/appmarket/wu1;)V
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/nw0;->b(ILcom/huawei/appmarket/av1;)V
 
     invoke-static {}, Lcom/huawei/appmarket/service/thirdappdl/k;->g()Lcom/huawei/appmarket/service/thirdappdl/k;
 
@@ -123,13 +123,13 @@
 
     invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/service/thirdappdl/k;->d(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Ljava/lang/Class;IZII)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pt1;->m(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/tt1;->m(Landroid/view/View;)Z
 
     move-result p1
 
     const-string p2, "click_download"
 
-    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/p28;->b(ILjava/lang/String;Z)V
+    invoke-static {v0, p2, p1}, Lcom/huawei/appmarket/v28;->b(ILjava/lang/String;Z)V
 
     goto :goto_0
 
@@ -138,17 +138,17 @@
 
     if-ne p2, p3, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pt1;->m(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/tt1;->m(Landroid/view/View;)Z
 
     move-result p2
 
     const-string p3, "click_wlan_or_close"
 
-    invoke-static {v0, p3, p2}, Lcom/huawei/appmarket/p28;->b(ILjava/lang/String;Z)V
+    invoke-static {v0, p3, p2}, Lcom/huawei/appmarket/v28;->b(ILjava/lang/String;Z)V
 
     const/4 p2, 0x0
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/pt1;->q(Landroid/view/View;Z)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/tt1;->q(Landroid/view/View;Z)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity$m;->b:Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 

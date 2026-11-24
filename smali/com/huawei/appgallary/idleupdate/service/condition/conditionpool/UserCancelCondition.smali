@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s74;
+.implements Lcom/huawei/appmarket/v74;
 
 
 # direct methods
@@ -21,7 +21,7 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/b94;->v()Lcom/huawei/appmarket/b94;
+    invoke-static {}, Lcom/huawei/appmarket/d94;->v()Lcom/huawei/appmarket/d94;
 
     .line 2
     .line 3
@@ -55,7 +55,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/u74;->f()Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {}, Lcom/huawei/appmarket/x74;->f()Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 20
     .line 21
@@ -74,7 +74,7 @@
 
     .line 27
     .line 28
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     .line 29
     .line 30
@@ -82,7 +82,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -149,12 +149,12 @@
 
     .line 65
     .line 66
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/r74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/u74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
 
     .line 67
     .line 68
     .line 69
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     .line 70
     .line 71
@@ -162,7 +162,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     .line 75
@@ -232,4 +232,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

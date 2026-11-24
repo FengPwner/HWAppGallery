@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/wr7;
+.annotation runtime Lcom/huawei/appmarket/cs7;
 .end annotation
 
 

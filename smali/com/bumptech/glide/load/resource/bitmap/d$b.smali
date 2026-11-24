@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nr5$b;
+.implements Lcom/huawei/appmarket/pr5$b;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/nr5$b<",
+        "Lcom/huawei/appmarket/pr5$b<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -384,4 +384,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

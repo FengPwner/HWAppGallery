@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/wq3;
+.field private a:Lcom/huawei/appmarket/yq3;
 
 .field private b:I
 
@@ -23,7 +23,7 @@
 
 .field private d:I
 
-.field private e:Lcom/huawei/appmarket/s85;
+.field private e:Lcom/huawei/appmarket/v85;
 
 
 # direct methods
@@ -46,11 +46,11 @@
     return v0
 .end method
 
-.method public final b()Lcom/huawei/appmarket/s85;
+.method public final b()Lcom/huawei/appmarket/v85;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/w90$a;->e:Lcom/huawei/appmarket/s85;
+    iget-object v0, p0, Lcom/huawei/appmarket/w90$a;->e:Lcom/huawei/appmarket/v85;
 
     return-object v0
 .end method
@@ -73,11 +73,11 @@
     return v0
 .end method
 
-.method public final e()Lcom/huawei/appmarket/wq3;
+.method public final e()Lcom/huawei/appmarket/yq3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/w90$a;->a:Lcom/huawei/appmarket/wq3;
+    iget-object v0, p0, Lcom/huawei/appmarket/w90$a;->a:Lcom/huawei/appmarket/yq3;
 
     return-object v0
 .end method
@@ -91,11 +91,11 @@
     return-void
 .end method
 
-.method public final g(Lcom/huawei/appmarket/s85;)V
+.method public final g(Lcom/huawei/appmarket/v85;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w90$a;->e:Lcom/huawei/appmarket/s85;
+    iput-object p1, p0, Lcom/huawei/appmarket/w90$a;->e:Lcom/huawei/appmarket/v85;
 
     return-void
 .end method
@@ -118,11 +118,11 @@
     return-void
 .end method
 
-.method public final j(Lcom/huawei/appmarket/wq3;)V
+.method public final j(Lcom/huawei/appmarket/yq3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w90$a;->a:Lcom/huawei/appmarket/wq3;
+    iput-object p1, p0, Lcom/huawei/appmarket/w90$a;->a:Lcom/huawei/appmarket/yq3;
 
     return-void
 .end method

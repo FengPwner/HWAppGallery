@@ -97,7 +97,7 @@
 
     iget-object v2, p0, Lcom/huawei/hms/update/ui/SilentUpdateWizard;->a:Landroid/content/BroadcastReceiver;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/xj5;->o(Landroid/app/Activity;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/zj5;->o(Landroid/app/Activity;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     goto :goto_0
 
@@ -184,7 +184,7 @@
     const-string v1, "SilentUpdateWizard"
 
     .line 3
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v0, 0x3
 
@@ -296,7 +296,7 @@
 
     invoke-virtual {v4, v5, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    const-string v5, "versioncode"
+    const-string/jumbo v5, "versioncode"
 
     iget v6, p0, Lcom/huawei/hms/update/ui/AbsUpdateWizard;->mClientVersionCode:I
 
@@ -536,7 +536,7 @@
     const-string v1, "SilentUpdateWizard"
 
     .line 3
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v0, 0x4e20
 
@@ -615,7 +615,7 @@
     const-string v2, "SilentUpdateWizard"
 
     .line 2
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     if-eqz v0, :cond_5
 
@@ -772,7 +772,7 @@
     const-string v1, "SilentUpdateWizard"
 
     .line 12
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_2
     return-void

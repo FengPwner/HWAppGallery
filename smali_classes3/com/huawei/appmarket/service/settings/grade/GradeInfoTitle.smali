@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gi7;->t(Landroid/view/MenuItem;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/mi7;->t(Landroid/view/MenuItem;Ljava/lang/String;)V
 
     :cond_0
     iget-boolean p1, p0, Lcom/huawei/appmarket/service/settings/grade/GradeInfoTitle;->p:Z

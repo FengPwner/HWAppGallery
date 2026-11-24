@@ -16,7 +16,7 @@
     return-void
 .end method
 
-.method static synthetic I0(Lcom/huawei/appmarket/service/webview/delegate/ProtocolWebviewDelegate;)Z
+.method static synthetic J0(Lcom/huawei/appmarket/service/webview/delegate/ProtocolWebviewDelegate;)Z
     .registers 1
 
     .line 1
@@ -27,7 +27,7 @@
     return p0
 .end method
 
-.method static synthetic J0(Lcom/huawei/appmarket/service/webview/delegate/ProtocolWebviewDelegate;)Landroid/content/Context;
+.method static synthetic K0(Lcom/huawei/appmarket/service/webview/delegate/ProtocolWebviewDelegate;)Landroid/content/Context;
     .registers 1
 
     .line 1
@@ -60,7 +60,7 @@
     return-void
 .end method
 
-.method public final c0()V
+.method public final d0()V
     .registers 1
 
     .line 1
@@ -90,7 +90,7 @@
     return-void
 .end method
 
-.method protected final m0(Ljava/lang/String;)V
+.method protected final n0(Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -123,7 +123,7 @@
     move-result-object p1
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->m0(Ljava/lang/String;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->n0(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -140,7 +140,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 6
     .line 7
@@ -348,10 +348,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method protected final w0()Landroid/webkit/WebViewClient;
+.method protected final x0()Landroid/webkit/WebViewClient;
     .registers 2
 
     .line 1

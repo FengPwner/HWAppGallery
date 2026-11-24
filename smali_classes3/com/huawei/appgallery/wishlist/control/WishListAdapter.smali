@@ -77,7 +77,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v2, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -97,7 +97,7 @@
 
     const-string v3, "WishListAdapter"
 
-    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-wide v2, v0
 
@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -189,7 +189,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p1}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -304,7 +304,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private getWishList()Ljava/util/List;
@@ -463,13 +462,13 @@
 
     const/16 v5, 0x8
 
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v4
 
     iget-object v6, p0, Lcom/huawei/appgallery/wishlist/control/WishListAdapter;->mActivity:Landroid/app/Activity;
 
-    invoke-static {v6, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v6, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v6
 
@@ -483,7 +482,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v4
 
@@ -511,7 +510,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/wishlist/control/WishListAdapter;->mActivity:Landroid/app/Activity;
 
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -676,7 +675,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;-><init>(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$a;)V
 
-    const v1, 0x7f0a18f7
+    const v1, 0x7f0a18f8
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -684,7 +683,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a18f9
+    const v2, 0x7f0a18fa
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -692,7 +691,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0a18fc
+    const v3, 0x7f0a18fd    # 1.835632E38f
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -700,7 +699,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0a18cb
+    const v4, 0x7f0a18cc
 
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -740,7 +739,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -763,7 +762,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -837,7 +836,7 @@
 
     if-ne p3, p1, :cond_0
 
-    const p1, 0x7f0a18e0
+    const p1, 0x7f0a18e1
 
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

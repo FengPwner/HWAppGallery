@@ -10,7 +10,7 @@
 
 .field private s:Lcom/huawei/uikit/phone/hwradiobutton/widget/HwRadioButton;
 
-.field t:Lcom/huawei/appmarket/zn5;
+.field t:Lcom/huawei/appmarket/ao5;
 
 
 # direct methods
@@ -23,7 +23,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity$a;-><init>(Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity;->t:Lcom/huawei/appmarket/zn5;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity;->t:Lcom/huawei/appmarket/ao5;
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 32
     .line 33
@@ -153,7 +153,7 @@
 
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/fb7;->e()Lcom/huawei/appmarket/fb7;
+    invoke-static {}, Lcom/huawei/appmarket/kb7;->e()Lcom/huawei/appmarket/kb7;
 
     .line 57
     .line 58
@@ -161,7 +161,7 @@
     move-result-object p1
 
     .line 60
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fb7;->d()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kb7;->d()Z
 
     .line 61
     .line 62
@@ -215,11 +215,11 @@
 
     .line 84
     .line 85
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity;->t:Lcom/huawei/appmarket/zn5;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingGameSpeedUpActivity;->t:Lcom/huawei/appmarket/ao5;
 
     .line 86
     .line 87
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/zn5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/ao5;)V
 
     .line 88
     .line 89
@@ -241,7 +241,7 @@
 
     .line 98
     .line 99
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 100
     .line 101
@@ -511,8 +511,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

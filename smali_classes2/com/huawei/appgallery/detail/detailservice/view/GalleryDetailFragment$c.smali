@@ -157,7 +157,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/lu7;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/ru7;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -202,9 +202,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/kj8;
+    check-cast v1, Lcom/huawei/appmarket/qj8;
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/kj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/qj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     goto :goto_1
 

@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -212,7 +211,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     .line 11
     .line 12
@@ -225,12 +224,12 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {v0}, Lcom/huawei/appmarket/zf5;->j(Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/cg5;->j(Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     .line 21
     .line 22
@@ -241,7 +240,7 @@
     const/4 v0, 0x1
 
     .line 25
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zf5;->o(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/cg5;->o(Z)V
 
     .line 26
     .line 27
@@ -341,5 +340,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

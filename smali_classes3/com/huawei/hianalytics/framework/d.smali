@@ -699,7 +699,7 @@
 
     .line 294
     .line 295
-    invoke-static {v10}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v10}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     .line 296
     .line 297
@@ -882,7 +882,7 @@
 
     .line 383
     .line 384
-    invoke-static {v2, v4, v7, v0, v5}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v4, v7, v0, v5}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 385
     .line 386
@@ -936,7 +936,7 @@
 
     .line 412
     .line 413
-    invoke-static {v4, v6, v7, v0, v5}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v4, v6, v7, v0, v5}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 414
     .line 415

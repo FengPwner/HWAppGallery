@@ -99,7 +99,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, p0}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -273,5 +273,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

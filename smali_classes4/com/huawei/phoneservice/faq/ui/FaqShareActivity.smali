@@ -68,11 +68,11 @@
 
     invoke-virtual {v0, p1, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const-string p1, "wechatId"
+    const-string/jumbo p1, "wechatId"
 
     invoke-virtual {v0, p1, p5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const-string p1, "weiboId"
+    const-string/jumbo p1, "weiboId"
 
     invoke-virtual {v0, p1, p6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -496,106 +496,106 @@
     .line 34
     .line 35
     .line 36
-    const-string v1, "wechatId"
+    const-string/jumbo v1, "wechatId"
 
     .line 37
     .line 38
+    .line 39
     invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     move-result-object v1
 
-    .line 42
+    .line 43
     iput-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->i:Ljava/lang/String;
 
-    .line 43
     .line 44
-    const-string v1, "weiboId"
-
     .line 45
-    .line 46
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    const-string/jumbo v1, "weiboId"
 
+    .line 46
     .line 47
     .line 48
-    .line 49
-    const-string v1, "picId"
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
+    .line 49
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    const-string v1, "picId"
 
     .line 52
     .line 53
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
     .line 54
+    .line 55
+    .line 56
     move-result-object v1
 
-    .line 55
-    iput-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->j:Ljava/lang/String;
-
-    .line 56
     .line 57
-    const-string v1, "totadescriptionl"
+    iput-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->j:Ljava/lang/String;
 
     .line 58
     .line 59
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    const-string v1, "totadescriptionl"
 
     .line 60
     .line 61
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
     .line 62
+    .line 63
+    .line 64
     move-result-object v0
 
-    .line 63
+    .line 65
     iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->k:Ljava/lang/String;
 
-    .line 64
-    .line 65
+    .line 66
+    .line 67
     :cond_0
     const/4 v0, 0x1
 
-    .line 66
+    .line 68
     invoke-virtual {p0, v0}, Landroid/app/Activity;->requestWindowFeature(I)Z
 
-    .line 67
-    .line 68
     .line 69
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
     .line 70
     .line 71
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+
     .line 72
+    .line 73
+    .line 74
     move-result-object v0
 
-    .line 73
-    const/high16 v1, 0x4000000
-
-    .line 74
     .line 75
-    invoke-virtual {v0, v1}, Landroid/view/Window;->addFlags(I)V
+    const/high16 v1, 0x4000000
 
     .line 76
     .line 77
-    .line 78
-    sget v0, Lcom/huawei/phoneservice/faq/R$layout;->faq_sdk_share_layout:I
+    invoke-virtual {v0, v1}, Landroid/view/Window;->addFlags(I)V
 
+    .line 78
     .line 79
     .line 80
-    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V
+    sget v0, Lcom/huawei/phoneservice/faq/R$layout;->faq_sdk_share_layout:I
 
     .line 81
     .line 82
-    .line 83
-    invoke-super {p0, p1}, Lcom/huawei/phoneservice/faq/FaqBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
+    .line 83
     .line 84
     .line 85
+    invoke-super {p0, p1}, Lcom/huawei/phoneservice/faq/FaqBaseActivity;->onCreate(Landroid/os/Bundle;)V
+
     .line 86
-    return-void
     .line 87
     .line 88
+    return-void
     .line 89
     .line 90
     .line 91
@@ -689,23 +689,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected final onDestroy()V

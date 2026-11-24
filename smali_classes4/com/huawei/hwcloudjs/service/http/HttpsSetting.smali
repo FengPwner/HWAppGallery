@@ -37,7 +37,7 @@
     .line 8
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     .line 9
     .line 10
@@ -102,7 +102,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -346,8 +346,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

@@ -31,21 +31,21 @@
 
     if-nez v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "findMorePrivacy context is null"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     :try_start_0
-    sget-object v2, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v2, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v3, "findMorePrivacy "
 
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Landroid/content/Intent;
 
@@ -59,7 +59,7 @@
 
     const-string v4, "com.huawei.dataprivacycenter.MainActivity"
 
-    invoke-static {v4}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -76,11 +76,11 @@
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "findMorePrivacy error"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -91,7 +91,7 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v0
 
@@ -105,7 +105,7 @@
     const-string v0, "white"
 
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v2, "getBackgroundMode: "
 
@@ -115,7 +115,7 @@
 
     const-string v3, "HwHiAppPrivacyJs"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -127,7 +127,7 @@
 
     sget-object v0, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
-    sget-object v1, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v1, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -143,7 +143,7 @@
 
     const-string v3, "HwHiAppPrivacyJs"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -188,11 +188,11 @@
     move-result-object v0
 
     .line 9
-    sget v1, Lcom/huawei/appmarket/b76;->b:I
+    sget v1, Lcom/huawei/appmarket/d76;->b:I
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     .line 12
     .line 13
@@ -200,7 +200,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ky1;->b()I
 
     .line 16
     .line 17
@@ -216,7 +216,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0}, Lcom/huawei/appmarket/b76;->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/d76;->a(Landroid/content/Context;)Z
 
     .line 24
     .line 25
@@ -228,7 +228,7 @@
 
     .line 28
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 30
     .line 31

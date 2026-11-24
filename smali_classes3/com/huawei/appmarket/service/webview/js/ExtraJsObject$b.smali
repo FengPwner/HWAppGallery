@@ -39,9 +39,9 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject$b;->b:Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/tt3;->g()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/vt3;->g()V
 
     return-void
 .end method

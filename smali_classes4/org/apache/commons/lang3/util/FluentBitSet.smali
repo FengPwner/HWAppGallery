@@ -548,7 +548,7 @@
 
     iget-object v0, p0, Lorg/apache/commons/lang3/util/FluentBitSet;->bitSet:Ljava/util/BitSet;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/t12;->m(Ljava/util/BitSet;)Ljava/util/stream/IntStream;
+    invoke-static {v0}, Lcom/huawei/appmarket/x12;->m(Ljava/util/BitSet;)Ljava/util/stream/IntStream;
 
     move-result-object v0
 

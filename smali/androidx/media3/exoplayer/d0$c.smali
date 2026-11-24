@@ -58,13 +58,13 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/mz7;
+.method public final a()Lcom/huawei/appmarket/rz7;
     .registers 2
 
     .line 1
     iget-object v0, p0, Landroidx/media3/exoplayer/d0$c;->a:Landroidx/media3/exoplayer/source/i;
 
-    invoke-virtual {v0}, Landroidx/media3/exoplayer/source/i;->M()Lcom/huawei/appmarket/mz7;
+    invoke-virtual {v0}, Landroidx/media3/exoplayer/source/i;->M()Lcom/huawei/appmarket/rz7;
 
     move-result-object v0
 

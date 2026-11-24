@@ -130,7 +130,7 @@
 
     iget-object v0, p0, Lcom/koushikdutta/quack/JSValue$1;->current:Lcom/koushikdutta/quack/JSValue;
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     invoke-virtual {v0, v1}, Lcom/koushikdutta/quack/JSValue;->get(Ljava/lang/Object;)Lcom/koushikdutta/quack/JSValue;
 

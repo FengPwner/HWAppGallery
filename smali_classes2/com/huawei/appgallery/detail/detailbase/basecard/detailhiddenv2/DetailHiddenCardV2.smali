@@ -133,7 +133,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final y1(Landroid/view/View;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailhidden/DetailHiddenCard;
@@ -248,5 +247,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

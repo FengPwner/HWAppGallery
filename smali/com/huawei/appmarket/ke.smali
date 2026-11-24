@@ -3,15 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
 .field public final synthetic b:Ljava/lang/String;
 
 .field public final synthetic c:Z
-
-.field public final synthetic d:Z
 
 
 # direct methods
@@ -23,9 +21,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/ke;->b:Ljava/lang/String;
 
-    iput-boolean p2, p0, Lcom/huawei/appmarket/ke;->c:Z
-
-    iput-boolean p3, p0, Lcom/huawei/appmarket/ke;->d:Z
+    iput-boolean p3, p0, Lcom/huawei/appmarket/ke;->c:Z
 
     return-void
 .end method
@@ -33,7 +29,7 @@
 
 # virtual methods
 .method public final run()V
-    .registers 4
+    .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/ke;->b:Ljava/lang/String;
@@ -44,16 +40,14 @@
 
     .line 4
     .line 5
-    iget-boolean v2, p0, Lcom/huawei/appmarket/ke;->d:Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/er;->b(Ljava/lang/String;Z)V
 
     .line 6
     .line 7
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fr;->a(Ljava/lang/String;ZZ)V
-
     .line 8
+    return-void
     .line 9
     .line 10
-    return-void
     .line 11
     .line 12
     .line 13
@@ -179,4 +173,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

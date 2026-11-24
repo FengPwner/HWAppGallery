@@ -193,7 +193,7 @@
 
     if-nez v0, :cond_2
 
-    const-class v0, Lcom/huawei/appmarket/gw;
+    const-class v0, Lcom/huawei/appmarket/hw;
 
     monitor-enter v0
 

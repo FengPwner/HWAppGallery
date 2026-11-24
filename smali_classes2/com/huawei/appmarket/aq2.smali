@@ -3,19 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/view/View$OnClickListener;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/cq2;
+.field final synthetic b:Lcom/huawei/appmarket/eq2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/cq2;)V
+.method constructor <init>(Lcom/huawei/appmarket/eq2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/aq2;->b:Lcom/huawei/appmarket/cq2;
+    iput-object p1, p0, Lcom/huawei/appmarket/aq2;->b:Lcom/huawei/appmarket/eq2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -24,21 +24,13 @@
 
 
 # virtual methods
-.method public final run()V
-    .registers 3
+.method public final onClick(Landroid/view/View;)V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/aq2;->b:Lcom/huawei/appmarket/cq2;
+    iget-object p1, p0, Lcom/huawei/appmarket/aq2;->b:Lcom/huawei/appmarket/eq2;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/cq2;->Q(Lcom/huawei/appmarket/cq2;)Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSubHead;
-
-    move-result-object v1
-
-    invoke-static {v0}, Lcom/huawei/appmarket/cq2;->P(Lcom/huawei/appmarket/cq2;)I
-
-    move-result v0
-
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/forum/section/view/widget/SectionDetailSubHead;->g(I)Lcom/huawei/appgallery/forum/base/card/bean/Options$OptionItem;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq2;->G(Lcom/huawei/appmarket/eq2;)V
 
     return-void
 .end method

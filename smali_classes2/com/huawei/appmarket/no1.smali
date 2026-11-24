@@ -1,92 +1,119 @@
 .class public final Lcom/huawei/appmarket/no1;
-.super Lcom/huawei/appmarket/ld7;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field private static volatile b:Lcom/huawei/appmarket/no1;
+.field private static a:Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/huawei/appmarket/mn3;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method private constructor <init>(Ljava/lang/String;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public static declared-synchronized v()Lcom/huawei/appmarket/no1;
-    .registers 4
+.method public static a()Lcom/huawei/appmarket/mn3;
+    .registers 5
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/no1;
+    const-string v0, "DialogConfigFactory"
 
-    monitor-enter v0
+    sget-object v1, Lcom/huawei/appmarket/no1;->a:Ljava/lang/Class;
+
+    if-eqz v1, :cond_0
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/no1;->b:Lcom/huawei/appmarket/no1;
+    invoke-virtual {v1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
-    if-nez v1, :cond_1
+    move-result-object v1
 
-    const-class v1, Lcom/huawei/appmarket/no1;
-
-    monitor-enter v1
+    check-cast v1, Lcom/huawei/appmarket/mn3;
     :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
-    :try_start_1
-    sget-object v2, Lcom/huawei/appmarket/no1;->b:Lcom/huawei/appmarket/no1;
+    goto :goto_4
 
-    if-nez v2, :cond_0
-
-    new-instance v2, Lcom/huawei/appmarket/no1;
-
-    const-string v3, "jointmessage_notify_switch"
-
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/no1;-><init>(Ljava/lang/String;)V
-
-    sput-object v2, Lcom/huawei/appmarket/no1;->b:Lcom/huawei/appmarket/no1;
+    :catch_0
+    move-exception v1
 
     goto :goto_0
 
-    :catchall_0
-    move-exception v2
+    :catch_1
+    move-exception v1
+
+    goto :goto_2
+
+    :goto_0
+    sget-object v2, Lcom/huawei/appmarket/q;->a:Lcom/huawei/appmarket/q;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "IllegalAccessException: "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    :goto_1
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_3
+
+    :goto_2
+    sget-object v2, Lcom/huawei/appmarket/q;->a:Lcom/huawei/appmarket/q;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "InstantiationException: "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_0
-    :goto_0
-    monitor-exit v1
+    :goto_3
+    const/4 v1, 0x0
 
-    goto :goto_2
+    :goto_4
+    if-nez v1, :cond_1
 
-    :goto_1
-    monitor-exit v1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    new-instance v1, Lcom/huawei/appmarket/rd1;
 
-    :try_start_2
-    throw v2
-
-    :catchall_1
-    move-exception v1
-
-    goto :goto_3
+    invoke-direct {v1}, Lcom/huawei/appmarket/rd1;-><init>()V
 
     :cond_1
-    :goto_2
-    sget-object v1, Lcom/huawei/appmarket/no1;->b:Lcom/huawei/appmarket/no1;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    monitor-exit v0
-
     return-object v1
+.end method
 
-    :goto_3
-    monitor-exit v0
+.method public static b()V
+    .registers 1
 
-    throw v1
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/mo1;
+
+    sput-object v0, Lcom/huawei/appmarket/no1;->a:Ljava/lang/Class;
+
+    return-void
 .end method

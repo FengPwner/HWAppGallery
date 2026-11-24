@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/cards/card/n;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/forum/cards/card/n;->b:Z
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

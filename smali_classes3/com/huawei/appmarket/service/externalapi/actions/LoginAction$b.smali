@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -53,19 +53,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -79,7 +79,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
 
     invoke-direct {v0, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -110,9 +110,9 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -126,18 +126,18 @@
 
     if-ne v0, v2, :cond_1
 
-    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$200(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$200(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
     const/16 v0, 0x2711
 
-    invoke-interface {p1, v0, v3}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {p1, v0, v3}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -151,20 +151,20 @@
 
     if-ne p1, v0, :cond_2
 
-    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$300(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$300(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
-    invoke-interface {p1, v1, v3}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {p1, v1, v3}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     :cond_2
     :goto_0
-    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
     :goto_1
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 
@@ -172,15 +172,15 @@
     :goto_2
     const-string p1, "onComplete, login task is failed"
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$000(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$000(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
-    invoke-interface {p1, v1, v3}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {p1, v1, v3}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
-    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v4}, Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/LoginAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 

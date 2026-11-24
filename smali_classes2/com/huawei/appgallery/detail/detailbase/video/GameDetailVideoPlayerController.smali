@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xg8;
+.implements Lcom/huawei/appmarket/dh8;
 
 
 # instance fields
@@ -64,7 +64,7 @@
     return-void
 .end method
 
-.method private static g(Landroid/view/View;I)V
+.method private static i(Landroid/view/View;I)V
     .registers 2
 
     .line 1
@@ -324,11 +324,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->h:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->f:Landroid/widget/ImageView;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     const/4 p1, 0x0
 
@@ -343,7 +343,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->f:Landroid/widget/ImageView;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     :cond_2
     :goto_0
@@ -495,23 +495,23 @@
     :pswitch_1
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->h:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g:Landroid/widget/ImageView;
 
     :goto_0
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     goto :goto_2
 
     :pswitch_2
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->f:Landroid/widget/ImageView;
 
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->h:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v0}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->g(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appgallery/detail/detailbase/video/GameDetailVideoPlayerController;->i(Landroid/view/View;I)V
 
     goto :goto_2
 
@@ -685,7 +685,7 @@
     return-object v0
 .end method
 
-.method public setShareListener(Lcom/huawei/appmarket/nh8;)V
+.method public setShareListener(Lcom/huawei/appmarket/th8;)V
     .registers 2
 
     .line 1

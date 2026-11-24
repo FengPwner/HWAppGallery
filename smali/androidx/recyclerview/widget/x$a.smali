@@ -15,7 +15,7 @@
 
 
 # static fields
-.field static d:Lcom/huawei/appmarket/m26;
+.field static d:Lcom/huawei/appmarket/o26;
 
 
 # instance fields
@@ -30,13 +30,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/m26;
+    new-instance v0, Lcom/huawei/appmarket/o26;
 
     const/16 v1, 0x14
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/m26;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/o26;-><init>(I)V
 
-    sput-object v0, Landroidx/recyclerview/widget/x$a;->d:Lcom/huawei/appmarket/m26;
+    sput-object v0, Landroidx/recyclerview/widget/x$a;->d:Lcom/huawei/appmarket/o26;
 
     return-void
 .end method
@@ -53,9 +53,9 @@
     .registers 1
 
     .line 1
-    sget-object v0, Landroidx/recyclerview/widget/x$a;->d:Lcom/huawei/appmarket/m26;
+    sget-object v0, Landroidx/recyclerview/widget/x$a;->d:Lcom/huawei/appmarket/o26;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/m26;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
 
     move-result-object v0
 

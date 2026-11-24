@@ -69,7 +69,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 19
     .line 20
@@ -2040,7 +2040,7 @@
     .line 1454
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -2055,7 +2055,7 @@
     :cond_0
     new-instance v1, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard$a;-><init>(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2070,7 +2070,7 @@
 
     aget-object v1, v1, v0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -2795,7 +2795,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard;->y:Landroid/widget/TextView;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v2
 
@@ -2803,7 +2803,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AppListWithTitleCard;->z:Landroid/widget/TextView;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v2
 

@@ -60,7 +60,7 @@
 
     .line 12
     .line 13
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 14
     .line 15
@@ -68,7 +68,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -77,7 +77,7 @@
 
     .line 21
     :cond_0
-    sget-object v2, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v2, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 22
     .line 23
@@ -111,7 +111,7 @@
     move-result-object v3
 
     .line 39
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -132,7 +132,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {}, Lcom/huawei/appmarket/t25;->a()Lcom/huawei/appmarket/t25;
+    invoke-static {}, Lcom/huawei/appmarket/w25;->a()Lcom/huawei/appmarket/w25;
 
     .line 51
     .line 52
@@ -148,7 +148,7 @@
     move-result-object v1
 
     .line 58
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/t25;->b(Landroid/content/Context;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/w25;->b(Landroid/content/Context;)V
 
     .line 59
     .line 60
@@ -281,7 +281,7 @@
 
     .line 120
     .line 121
-    invoke-static {p1}, Lcom/huawei/appmarket/gg5$d;->b(I)Lcom/huawei/appmarket/gg5$d;
+    invoke-static {p1}, Lcom/huawei/appmarket/jg5$d;->b(I)Lcom/huawei/appmarket/jg5$d;
 
     .line 122
     .line 123
@@ -289,7 +289,7 @@
     move-result-object p1
 
     .line 125
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->S7(Lcom/huawei/appmarket/gg5$d;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->S7(Lcom/huawei/appmarket/jg5$d;)Z
 
     .line 126
     .line 127
@@ -374,7 +374,7 @@
     move-result-object p1
 
     .line 167
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     .line 169

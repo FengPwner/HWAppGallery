@@ -49,7 +49,7 @@
 .method public abstract b()V
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/ol;)V
+.method public abstract c(Lcom/huawei/appmarket/nl;)V
 .end method
 
 .method abstract d()V

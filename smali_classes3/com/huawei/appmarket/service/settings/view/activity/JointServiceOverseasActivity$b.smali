@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -128,21 +128,21 @@
     :cond_3
     invoke-static {v0}, Lcom/huawei/appmarket/service/settings/view/activity/JointServiceOverseasActivity;->D3(Lcom/huawei/appmarket/service/settings/view/activity/JointServiceOverseasActivity;)V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ww4;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Lcom/huawei/appmarket/ww4;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/zw4;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Lcom/huawei/appmarket/zw4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ww4;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zw4;->c()Ljava/lang/String;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :goto_0
     return-void

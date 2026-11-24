@@ -94,7 +94,7 @@
     :catch_0
     move-exception v3
 
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v3, 0x0
 
@@ -140,7 +140,7 @@
     :catch_1
     move-exception v2
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const-string v0, ""
 
@@ -148,7 +148,7 @@
     iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/jxs/BaseBuoyRequestBean;->clientVersionName_:Ljava/lang/String;
 
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -170,7 +170,7 @@
     .line 5
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->setServiceType_(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->e()Ljava/lang/String;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/jxs/BaseBuoyRequestBean;->appId_:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -239,17 +239,17 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/bv2;->c()Lcom/huawei/appmarket/bv2;
+    invoke-static {}, Lcom/huawei/appmarket/ev2;->c()Lcom/huawei/appmarket/ev2;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bv2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/zu2;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ev2;->b(Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/cv2;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/zu2;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cv2;->a()Ljava/lang/String;
 
     move-result-object p1
 

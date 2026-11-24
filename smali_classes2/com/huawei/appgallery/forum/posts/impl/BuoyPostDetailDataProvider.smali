@@ -14,13 +14,13 @@
 
 
 # virtual methods
-.method public final g(JIILjava/util/ArrayList;Ljava/lang/String;)Lcom/huawei/appmarket/hj0;
+.method public final g(JIILjava/util/ArrayList;Ljava/lang/String;)Lcom/huawei/appmarket/ij0;
     .registers 14
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->e:Landroid/content/Context;
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     move-result-object v4
 
@@ -40,14 +40,14 @@
 
     const-string p2, "CardDataProvider"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
     return-object p1
 
     :cond_0
-    new-instance p3, Lcom/huawei/appmarket/ke0;
+    new-instance p3, Lcom/huawei/appmarket/le0;
 
     move-object v1, p3
 
@@ -57,9 +57,9 @@
 
     move-object v6, p5
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/ke0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/le0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
 
-    invoke-virtual {p3, p6}, Lcom/huawei/appmarket/hj0;->D(Ljava/lang/String;)V
+    invoke-virtual {p3, p6}, Lcom/huawei/appmarket/ij0;->D(Ljava/lang/String;)V
 
     return-object p3
 .end method

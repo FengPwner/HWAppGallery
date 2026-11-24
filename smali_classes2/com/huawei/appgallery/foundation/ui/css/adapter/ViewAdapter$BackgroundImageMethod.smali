@@ -139,9 +139,9 @@
     invoke-direct {p2, p3}, Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;-><init>(Lcom/huawei/appgallery/foundation/ui/css/adapter/param/GeneratorCallBack;)V
 
     :goto_2
-    sget-object p3, Lcom/huawei/appmarket/dp1;->b:Lcom/huawei/appmarket/dp1;
+    sget-object p3, Lcom/huawei/appmarket/gp1;->b:Lcom/huawei/appmarket/gp1;
 
-    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, p3}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -151,7 +151,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/bumptech/glide/h;->g(Lcom/huawei/appmarket/dv7;)V
+    invoke-virtual {p1, p2}, Lcom/bumptech/glide/h;->g(Lcom/huawei/appmarket/jv7;)V
 
     return-void
 .end method

@@ -2,35 +2,17 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/ps3;
 
-# static fields
-.field private static final a:Ljava/util/HashMap;
 
-.field private static final b:Ljava/util/HashMap;
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/ps3;
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 2
-
-    .line 1
-    new-instance v0, Ljava/util/HashMap;
-
-    const/16 v1, 0x80
-
-    invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
-
-    sput-object v0, Lcom/huawei/appmarket/ob3;->a:Ljava/util/HashMap;
-
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
-
-    sput-object v0, Lcom/huawei/appmarket/ob3;->b:Ljava/util/HashMap;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
@@ -39,57 +21,138 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Ljava/lang/Class;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/y1;",
-            ">;"
-        }
-    .end annotation
+
+# virtual methods
+.method public final j(Landroid/content/Context;)V
+    .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ob3;->a:Ljava/util/HashMap;
+    invoke-static {p1}, Lcom/huawei/appmarket/ib2;->d(Landroid/content/Context;)Lcom/huawei/appmarket/ib2;
 
-    invoke-virtual {v0, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
 
-    move-result-object p0
+    .line 5
+    const/4 v0, 0x0
 
-    check-cast p0, Ljava/lang/Class;
+    .line 6
+    const-class v1, Lcom/huawei/appmarket/vc2;
 
-    return-object p0
-.end method
+    .line 7
+    .line 8
+    const/4 v2, 0x0
 
-.method public static b(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/y1;",
-            ">;",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)V"
-        }
-    .end annotation
+    .line 9
+    invoke-virtual {p1, v1, v0, v2}, Lcom/huawei/appmarket/ib2;->e(Ljava/lang/Class;Lcom/huawei/flexiblelayout/services/ServiceTokenProvider;Z)Ljava/lang/Object;
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/ob3;->a:Ljava/util/HashMap;
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
 
-    invoke-virtual {v0, p0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .line 13
+    check-cast p1, Lcom/huawei/appmarket/vc2;
 
-    sget-object p1, Lcom/huawei/appmarket/ob3;->b:Ljava/util/HashMap;
+    .line 14
+    .line 15
+    invoke-static {}, Lcom/huawei/appmarket/oz6;->b()Lcom/huawei/appmarket/oz6;
 
-    invoke-virtual {p1, p0, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
 
+    .line 19
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/vc2;->b(Lcom/huawei/appmarket/oz6;)V
+
+    .line 20
+    .line 21
+    .line 22
     return-void
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
 .end method

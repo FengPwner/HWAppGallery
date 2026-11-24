@@ -53,7 +53,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/k78;->b()Lcom/huawei/appmarket/k78;
+    invoke-static {}, Lcom/huawei/appmarket/p78;->b()Lcom/huawei/appmarket/p78;
 
     move-result-object p1
 
@@ -61,15 +61,15 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/k78;->d(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/p78;->d(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e93;->f()Lcom/huawei/appmarket/e93;
+    invoke-static {}, Lcom/huawei/appmarket/h93;->f()Lcom/huawei/appmarket/h93;
 
     move-result-object p1
 
     iget-object v0, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->packageName:Ljava/lang/String;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/e93;->j(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/h93;->j(Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appgallery/agguard/business/service/AgGuardAppUninstallService;->b()Ljava/util/ArrayList;
 
@@ -90,11 +90,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/v78;
+    check-cast v0, Lcom/huawei/appmarket/a88;
 
     iget-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->packageName:Ljava/lang/String;
 
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/v78;->D0(Ljava/lang/String;)V
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/a88;->D0(Ljava/lang/String;)V
 
     goto :goto_0
 

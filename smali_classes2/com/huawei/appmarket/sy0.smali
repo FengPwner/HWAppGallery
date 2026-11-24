@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/jt4;
+.annotation runtime Lcom/huawei/appmarket/mt4;
     value = Lcom/huawei/appmarket/sy0$a;
 .end annotation
 
@@ -54,7 +54,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/lt4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ot4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -169,7 +169,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static b(Ljava/lang/String;)Ljava/lang/Class;
@@ -224,7 +223,7 @@
 
     .line 3
     .line 4
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/lt4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ot4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -400,7 +399,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public static d(Ljava/lang/Class;Ljava/lang/String;)V
@@ -414,7 +412,7 @@
 
     .line 3
     .line 4
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/lt4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ot4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -590,5 +588,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -34,7 +34,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -45,7 +45,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/h69;
+    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/n69;
 
     move-result-object p1
 
@@ -104,12 +104,12 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/h69;->g(Lorg/json/JSONObject;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/n69;->g(Lorg/json/JSONObject;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/h69;->k()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/n69;->k()V
 
     :goto_0
     return-void

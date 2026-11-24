@@ -100,7 +100,7 @@
     const-string v0, "ReaderStrategy"
 
     .line 1
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :cond_0
     const/4 p1, 0x0

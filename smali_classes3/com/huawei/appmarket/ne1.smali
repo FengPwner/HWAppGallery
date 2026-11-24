@@ -1,31 +1,27 @@
 .class public final Lcom/huawei/appmarket/ne1;
-.super Lcom/huawei/appmarket/r30;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/zq3;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/r30;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;Z)V
-    .registers 4
+.method public final D0()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    const p1, 0x7f12086d
+    const/4 v0, 0x0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/s03;->b(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/s03;->n(Ljava/lang/String;Z)V
-
-    return-void
+    return-object v0
 .end method

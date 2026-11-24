@@ -77,7 +77,7 @@
 
     move-result-object v2
 
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/bq4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/eq4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     :cond_0
     return-void

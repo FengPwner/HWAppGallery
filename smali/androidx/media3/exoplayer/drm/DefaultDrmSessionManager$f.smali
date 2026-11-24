@@ -55,7 +55,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {v0}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     .line 7
     .line 8
@@ -71,7 +71,7 @@
     const/4 v0, 0x0
 
     .line 14
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/jb4;->o(I)Lcom/huawei/appmarket/i88;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/lb4;->o(I)Lcom/huawei/appmarket/n88;
 
     .line 15
     .line 16
@@ -215,6 +215,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final b(Ljava/lang/Exception;Z)V
@@ -232,7 +233,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static {v0}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     .line 7
     .line 8
@@ -248,7 +249,7 @@
     const/4 v0, 0x0
 
     .line 14
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/jb4;->o(I)Lcom/huawei/appmarket/i88;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/lb4;->o(I)Lcom/huawei/appmarket/n88;
 
     .line 15
     .line 16

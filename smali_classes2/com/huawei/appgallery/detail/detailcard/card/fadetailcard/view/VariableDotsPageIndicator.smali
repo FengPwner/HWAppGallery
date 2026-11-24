@@ -184,16 +184,16 @@
 
     if-nez p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string p2, "init failed, the attrs is null"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object v3, Lcom/huawei/appmarket/se6;->a:[I
+    sget-object v3, Lcom/huawei/appmarket/ue6;->a:[I
 
     const/4 v4, 0x0
 
@@ -299,7 +299,7 @@
     move-exception p1
 
     :try_start_1
-    sget-object p3, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p3, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -315,7 +315,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p3, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1110,7 +1110,7 @@
     const/4 v6, 0x1
 
     .line 65
-    invoke-static {p1, v6, v5, v2}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p1, v6, v5, v2}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     .line 66
     .line 67
@@ -1256,7 +1256,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public setViewPager(Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;)V

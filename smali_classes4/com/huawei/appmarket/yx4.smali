@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Supplier;
+.implements Ljava/util/function/Function;
 
 
 # instance fields
-.field public final synthetic b:I
+.field public final synthetic a:I
 
-.field public final synthetic c:Ljava/util/concurrent/locks/ReadWriteLock;
+.field public final synthetic b:Ljava/lang/String;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/util/concurrent/locks/ReadWriteLock;I)V
+.method public synthetic constructor <init>(Ljava/lang/String;I)V
     .registers 3
 
     .line 1
@@ -22,11 +22,11 @@
     .line 2
     .line 3
     .line 4
-    iput p2, p0, Lcom/huawei/appmarket/yx4;->b:I
+    iput p2, p0, Lcom/huawei/appmarket/yx4;->a:I
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/yx4;->c:Ljava/util/concurrent/locks/ReadWriteLock;
+    iput-object p1, p0, Lcom/huawei/appmarket/yx4;->b:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -295,62 +295,52 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .registers 2
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/yx4;->b:I
+    iget v0, p0, Lcom/huawei/appmarket/yx4;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->c:Ljava/util/concurrent/locks/ReadWriteLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->b:Ljava/lang/String;
 
-    invoke-interface {v0}, Ljava/util/concurrent/locks/ReadWriteLock;->writeLock()Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/lang/ThreadGroup;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/ThreadUtils;->a(Ljava/lang/String;Ljava/lang/ThreadGroup;)Ljava/util/stream/Stream;
 
-    return-object v0
+    move-result-object p1
+
+    return-object p1
 
     :pswitch_0
-    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->c:Ljava/util/concurrent/locks/ReadWriteLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->b:Ljava/lang/String;
 
-    invoke-interface {v0}, Ljava/util/concurrent/locks/ReadWriteLock;->readLock()Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/lang/String;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/LocaleUtils;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
-    return-object v0
+    move-result-object p1
+
+    return-object p1
 
     :pswitch_1
-    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->c:Ljava/util/concurrent/locks/ReadWriteLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->b:Ljava/lang/String;
 
-    invoke-interface {v0}, Ljava/util/concurrent/locks/ReadWriteLock;->writeLock()Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/lang/String;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/LocaleUtils;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
-    return-object v0
+    move-result-object p1
 
-    :pswitch_2
-    iget-object v0, p0, Lcom/huawei/appmarket/yx4;->c:Ljava/util/concurrent/locks/ReadWriteLock;
-
-    invoke-interface {v0}, Ljava/util/concurrent/locks/ReadWriteLock;->readLock()Ljava/util/concurrent/locks/Lock;
-
-    move-result-object v0
-
-    return-object v0
-
-    nop
+    return-object p1
 
     :pswitch_data_0
     .packed-switch 0x0
-        :pswitch_2
         :pswitch_1
         :pswitch_0
     .end packed-switch

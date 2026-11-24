@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     int-to-long v1, v1
 
@@ -89,7 +89,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -117,7 +117,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/gz7;->a(IIII)Z
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/lz7;->a(IIII)Z
 
     .line 10
     .line 11
@@ -298,7 +298,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static c()Lcom/huawei/appmarket/m80;

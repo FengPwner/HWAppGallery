@@ -61,7 +61,7 @@
     move-result-object v2
 
     :cond_0
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appgallery/search/ui/card/HistorySearchCardV2;
 

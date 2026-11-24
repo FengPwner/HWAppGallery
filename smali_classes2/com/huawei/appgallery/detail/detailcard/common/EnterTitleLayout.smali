@@ -68,7 +68,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
 
-    const v0, 0x7f0a180b
+    const v0, 0x7f0a180c
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/EnterTitleLayout;->d:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a16f5
+    const v0, 0x7f0a16f6
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/EnterTitleLayout;->b:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a16f4
+    const v0, 0x7f0a16f5
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/EnterTitleLayout;->c:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/jj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/mj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -167,7 +167,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/EnterTitleLayout;->b:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/jj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/mj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
 
     return-void
 .end method

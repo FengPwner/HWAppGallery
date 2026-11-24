@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public final K1(Ljava/lang/String;Lcom/huawei/appmarket/rr0;)V
+.method public final K1(Ljava/lang/String;Lcom/huawei/appmarket/sr0;)V
     .registers 6
 
     .line 1
@@ -106,7 +106,7 @@
     throw p1
 .end method
 
-.method public final Z1(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/q74;)V
+.method public final Z1(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/t74;)V
     .registers 7
 
     .line 1

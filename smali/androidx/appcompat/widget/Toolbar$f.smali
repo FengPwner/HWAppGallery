@@ -62,13 +62,13 @@
 
     iget-object v1, v0, Landroidx/appcompat/widget/Toolbar;->j:Landroid/view/View;
 
-    instance-of v2, v1, Lcom/huawei/appmarket/et0;
+    instance-of v2, v1, Lcom/huawei/appmarket/ft0;
 
     if-eqz v2, :cond_0
 
-    check-cast v1, Lcom/huawei/appmarket/et0;
+    check-cast v1, Lcom/huawei/appmarket/ft0;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/et0;->f()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/ft0;->f()V
 
     :cond_0
     iget-object v1, v0, Landroidx/appcompat/widget/Toolbar;->j:Landroid/view/View;
@@ -218,13 +218,13 @@
 
     iget-object p1, v0, Landroidx/appcompat/widget/Toolbar;->j:Landroid/view/View;
 
-    instance-of v2, p1, Lcom/huawei/appmarket/et0;
+    instance-of v2, p1, Lcom/huawei/appmarket/ft0;
 
     if-eqz v2, :cond_4
 
-    check-cast p1, Lcom/huawei/appmarket/et0;
+    check-cast p1, Lcom/huawei/appmarket/ft0;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/et0;->b()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/ft0;->b()V
 
     :cond_4
     invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->C()V

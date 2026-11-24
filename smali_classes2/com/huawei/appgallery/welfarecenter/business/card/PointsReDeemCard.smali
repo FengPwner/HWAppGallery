@@ -12,7 +12,7 @@
 
 .field private D:Lcom/huawei/appgallery/welfarecenter/business/cardbean/PointsReDeemCardBean;
 
-.field private E:Lcom/huawei/appmarket/ak0;
+.field private E:Lcom/huawei/appmarket/bk0;
 
 .field private F:Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;
 
@@ -273,11 +273,11 @@
     move-result v5
 
     .line 89
-    iget-object v6, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/f52;
+    iget-object v6, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/j52;
 
     .line 90
     .line 91
-    invoke-virtual {v6}, Lcom/huawei/appmarket/f52;->h()V
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j52;->h()V
 
     .line 92
     .line 93
@@ -287,11 +287,11 @@
     .line 95
     .line 96
     .line 97
-    iget-object v6, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/f52;
+    iget-object v6, v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->s:Lcom/huawei/appmarket/j52;
 
     .line 98
     .line 99
-    invoke-virtual {v6}, Lcom/huawei/appmarket/f52;->p()V
+    invoke-virtual {v6}, Lcom/huawei/appmarket/j52;->p()V
 
     .line 100
     .line 101
@@ -426,7 +426,7 @@
     .line 162
     .line 163
     .line 164
-    invoke-static {v4}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 165
     .line 166
@@ -442,7 +442,7 @@
     const/4 v15, 0x2
 
     .line 172
-    invoke-static {v4, v14, v15, v13}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v4, v14, v15, v13}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 173
     .line 174
@@ -465,7 +465,7 @@
     sub-int/2addr v13, v2
 
     .line 183
-    invoke-static {v4}, Lcom/huawei/appmarket/lh6;->a(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/nh6;->a(Landroid/content/Context;)I
 
     .line 184
     .line 185
@@ -547,11 +547,11 @@
     .line 223
     .line 224
     .line 225
-    iget-object v11, v0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->E:Lcom/huawei/appmarket/ak0;
+    iget-object v11, v0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->E:Lcom/huawei/appmarket/bk0;
 
     .line 226
     .line 227
-    invoke-virtual {v12, v11}, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v12, v11}, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 228
     .line 229
@@ -1058,22 +1058,17 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->E:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->E:Lcom/huawei/appmarket/bk0;
 
     new-instance v0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard$a;
 
-    invoke-direct {v0, p0, p1, p0}, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard$a;-><init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v0, p0, p1, p0}, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard$a;-><init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsReDeemCard;->y:Landroid/view/ViewGroup;
 

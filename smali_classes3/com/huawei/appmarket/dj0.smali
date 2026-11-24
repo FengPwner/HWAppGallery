@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract c(Lcom/huawei/appmarket/cj0;)V
+.method public abstract a(Lcom/huawei/appmarket/jk8;)V
 .end method
 
-.method public abstract h(Lcom/huawei/appmarket/cj0;)V
+.method public abstract b(Lcom/huawei/appmarket/jk8;)V
 .end method

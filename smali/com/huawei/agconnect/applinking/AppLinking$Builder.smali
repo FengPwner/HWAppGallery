@@ -161,12 +161,12 @@
     return-object v1
 .end method
 
-.method public buildShortAppLinking()Lcom/huawei/appmarket/hv7;
+.method public buildShortAppLinking()Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ShortAppLinking;",
             ">;"
         }
@@ -175,21 +175,21 @@
     .line 1
     sget-object v0, Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;->SHORT:Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/applinking/AppLinking$Builder;->buildShortAppLinking(Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/applinking/AppLinking$Builder;->buildShortAppLinking(Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public buildShortAppLinking(Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;)Lcom/huawei/appmarket/hv7;
+.method public buildShortAppLinking(Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/agconnect/applinking/ShortAppLinking$LENGTH;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/applinking/ShortAppLinking;",
             ">;"
         }
@@ -235,7 +235,7 @@
 
     iget-object v0, p0, Lcom/huawei/agconnect/applinking/AppLinking$Builder;->builderParameters:Lorg/json/JSONObject;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;->k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;->k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

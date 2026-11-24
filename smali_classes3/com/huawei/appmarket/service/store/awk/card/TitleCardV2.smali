@@ -49,7 +49,7 @@
     move-result-object v0
 
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     .line 15
     .line 16
@@ -96,7 +96,7 @@
 
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 38
     .line 39
@@ -108,11 +108,11 @@
 
     .line 42
     .line 43
-    check-cast v2, Lcom/huawei/appmarket/dr6;
+    check-cast v2, Lcom/huawei/appmarket/gr6;
 
     .line 44
     .line 45
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 46
     .line 47
@@ -120,11 +120,11 @@
     move-result-object v2
 
     .line 49
-    const-class v3, Lcom/huawei/appmarket/vs3;
+    const-class v3, Lcom/huawei/appmarket/xs3;
 
     .line 50
     .line 51
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -132,7 +132,7 @@
     move-result-object v2
 
     .line 55
-    check-cast v2, Lcom/huawei/appmarket/vs3;
+    check-cast v2, Lcom/huawei/appmarket/xs3;
 
     .line 56
     .line 57
@@ -204,11 +204,11 @@
     .line 91
     .line 92
     .line 93
-    new-instance v3, Lcom/huawei/appmarket/o94$a;
+    new-instance v3, Lcom/huawei/appmarket/q94$a;
 
     .line 94
     .line 95
-    invoke-direct {v3}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 96
     .line 97
@@ -217,7 +217,7 @@
 
     .line 99
     .line 100
-    invoke-static {v3, v4, v1, v3}, Lcom/huawei/appmarket/bq6;->n(Lcom/huawei/appmarket/o94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/o94$a;)Lcom/huawei/appmarket/o94;
+    invoke-static {v3, v4, v1, v3}, Lcom/huawei/appmarket/eq6;->n(Lcom/huawei/appmarket/q94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/q94$a;)Lcom/huawei/appmarket/q94;
 
     .line 101
     .line 102
@@ -225,7 +225,7 @@
     move-result-object v1
 
     .line 104
-    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 105
     .line 106
@@ -493,17 +493,15 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/p40$a;
 
-    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v0, p1, p0}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/TitleCardV2;->x:Landroid/view/View;
 
@@ -516,7 +514,7 @@
     .registers 3
 
     .line 1
-    const v0, 0x7f0a18ae
+    const v0, 0x7f0a18af
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -526,7 +524,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/TitleCardV2;->y:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a18ad
+    const v0, 0x7f0a18ae
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -534,7 +532,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0a18ab
+    const v0, 0x7f0a18ac
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -542,7 +540,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v0, 0x7f0a18ac
+    const v0, 0x7f0a18ad
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -550,7 +548,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/TitleCardV2;->x:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 

@@ -57,19 +57,19 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard$b;->a:Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->Q1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)Lcom/huawei/appmarket/nk1;
+    invoke-static {p2}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->Q1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)Lcom/huawei/appmarket/qk1;
 
     move-result-object v0
 
     if-eqz p1, :cond_4
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->g()Ljava/lang/String;
 
     move-result-object v1
 
@@ -82,13 +82,13 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->n()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->n()Z
 
     move-result p1
 
     if-nez p1, :cond_4
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->m()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->m()Z
 
     move-result p1
 
@@ -126,13 +126,13 @@
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->j()V
 
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string p2, "DetailInformationFlowCard"
 
     const-string v0, "installDelay: cancel broadcast received, animations cancelled"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_0

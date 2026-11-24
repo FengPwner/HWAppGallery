@@ -62,7 +62,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 14
     .line 15
@@ -218,5 +218,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

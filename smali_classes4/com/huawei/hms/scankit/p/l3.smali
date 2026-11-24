@@ -45,7 +45,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const-string p0, "wifi"
+    const-string/jumbo p0, "wifi"
 
     goto :goto_1
 
@@ -131,8 +131,6 @@
     const-string p0, "Unknown"
 
     return-object p0
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1

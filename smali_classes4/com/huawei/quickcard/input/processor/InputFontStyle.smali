@@ -61,7 +61,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -489,10 +489,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public bridge synthetic setProperty(Landroid/view/View;Ljava/lang/String;Lcom/huawei/quickcard/framework/value/QuickCardValue;)V
@@ -885,7 +881,7 @@
     const/4 v3, 0x0
 
     :goto_8
-    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/d56;->e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/f56;->e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     move-result-object p2
 
@@ -1164,7 +1160,7 @@
     goto :goto_12
 
     :cond_2a
-    invoke-static {p3}, Lcom/huawei/appmarket/d56;->a(Landroid/graphics/Typeface;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/f56;->a(Landroid/graphics/Typeface;)I
 
     move-result v0
 
@@ -1176,7 +1172,7 @@
     const/4 v3, 0x0
 
     :goto_11
-    invoke-static {p3, v0, v3}, Lcom/huawei/appmarket/d56;->e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p3, v0, v3}, Lcom/huawei/appmarket/f56;->e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     move-result-object p2
 

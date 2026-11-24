@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/BannerDownloadCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/BannerDownloadCard$b;->b:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -39,7 +39,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     .line 2
     .line 3
@@ -79,7 +79,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1, v2, p1, p1}, Lcom/huawei/appmarket/yj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ll0;)Z
+    invoke-static {v0, v1, v2, p1, p1}, Lcom/huawei/appmarket/zj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ml0;)Z
 
     .line 22
     .line 23
@@ -175,5 +175,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

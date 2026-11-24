@@ -335,7 +335,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -352,7 +352,7 @@
 
     .line 39
     .line 40
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -498,7 +498,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static empty(I)Lcom/huawei/hms/common/data/DataHolder;
@@ -1256,7 +1255,7 @@
 
     .line 117
     .line 118
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 119
     .line 120

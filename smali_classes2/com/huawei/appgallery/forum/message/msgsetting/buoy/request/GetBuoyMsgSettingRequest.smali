@@ -13,7 +13,7 @@
 
     invoke-direct {p0}, Lcom/huawei/appmarket/s3;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {p1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object p1
 

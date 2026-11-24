@@ -11,27 +11,27 @@
 
 # instance fields
 .field private clientVersionCode:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private clientVersionName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private directory:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private domainId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private timeZone:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -63,7 +63,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -71,11 +71,11 @@
     move-result-object v0
 
     .line 17
-    sget v1, Lcom/huawei/appmarket/dn1;->i:I
+    sget v1, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 18
     .line 19
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->c(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->c(Landroid/content/Context;)I
 
     .line 20
     .line 21
@@ -87,7 +87,7 @@
 
     .line 24
     .line 25
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     .line 26
     .line 27
@@ -95,7 +95,7 @@
     move-result-object v0
 
     .line 29
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->d(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->d(Landroid/content/Context;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -107,7 +107,7 @@
 
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -140,7 +140,7 @@
 
     .line 51
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/jn4;->b()Lcom/huawei/appmarket/jn4;
+    invoke-static {}, Lcom/huawei/appmarket/mn4;->b()Lcom/huawei/appmarket/mn4;
 
     .line 53
     .line 54
@@ -148,7 +148,7 @@
     move-result-object v0
 
     .line 56
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jn4;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/mn4;->a()Ljava/lang/String;
 
     .line 57
     .line 58

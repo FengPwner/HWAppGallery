@@ -32,7 +32,7 @@
 
     invoke-direct {v1, v2, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mr8;->P(Landroid/view/LayoutInflater;)Lcom/huawei/appmarket/mr8;
+    invoke-static {v0}, Lcom/huawei/appmarket/sr8;->P(Landroid/view/LayoutInflater;)Lcom/huawei/appmarket/sr8;
 
     move-result-object v0
 
@@ -40,7 +40,7 @@
 
     invoke-direct {v2, p2}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceHostAppCard;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceHostAppCard;->B1(Lcom/huawei/appmarket/mr8;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/service/store/awk/card/SubstanceHostAppCard;->B1(Lcom/huawei/appmarket/sr8;)V
 
     invoke-virtual {p0, v2}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 

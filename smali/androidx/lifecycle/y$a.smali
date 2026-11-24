@@ -40,7 +40,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y$a$b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y$a$b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Landroidx/lifecycle/y$a;->e:Landroidx/lifecycle/y$a$b;
 
@@ -72,7 +72,7 @@
     .line 2
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -110,12 +110,12 @@
     return-void
 .end method
 
-.method private final h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ni8;
+.method private final h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ti8;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;",
@@ -129,7 +129,7 @@
 
     .line 2
     .line 3
-    const-class v1, Lcom/huawei/appmarket/ml;
+    const-class v1, Lcom/huawei/appmarket/ll;
 
     .line 4
     .line 5
@@ -188,7 +188,7 @@
     move-result-object p2
 
     .line 31
-    check-cast p2, Lcom/huawei/appmarket/ni8;
+    check-cast p2, Lcom/huawei/appmarket/ti8;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
@@ -201,7 +201,7 @@
 
     .line 34
     .line 35
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -242,7 +242,7 @@
 
     .line 48
     .line 49
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 50
     .line 51
@@ -263,7 +263,7 @@
 
     .line 58
     .line 59
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 60
     .line 61
@@ -284,7 +284,7 @@
 
     .line 68
     .line 69
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 70
     .line 71
@@ -305,7 +305,7 @@
 
     .line 78
     .line 79
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 80
     .line 81
@@ -322,7 +322,7 @@
 
     .line 87
     :cond_0
-    sget-object p2, Lcom/huawei/appmarket/eq4;->a:Lcom/huawei/appmarket/eq4;
+    sget-object p2, Lcom/huawei/appmarket/hq4;->a:Lcom/huawei/appmarket/hq4;
 
     .line 88
     .line 89
@@ -331,7 +331,7 @@
     .line 90
     .line 91
     .line 92
-    invoke-static {p1}, Lcom/huawei/appmarket/eq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {p1}, Lcom/huawei/appmarket/hq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 93
     .line 94
@@ -399,12 +399,12 @@
 
 
 # virtual methods
-.method public final b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public final b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -416,7 +416,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-direct {p0, p1, v0}, Landroidx/lifecycle/y$a;->h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ni8;
+    invoke-direct {p0, p1, v0}, Landroidx/lifecycle/y$a;->h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
@@ -432,7 +432,7 @@
     throw p1
 .end method
 
-.method public final c(Ljava/lang/Class;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public final c(Ljava/lang/Class;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
     .registers 4
 
     .line 1
@@ -444,7 +444,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/y$a;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/y$a;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 6
     .line 7
@@ -460,7 +460,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/yd5;->b(Lcom/huawei/appmarket/w51$b;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/be5;->b(Lcom/huawei/appmarket/w51$b;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -476,7 +476,7 @@
 
     .line 19
     .line 20
-    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/y$a;->h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ni8;
+    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/y$a;->h(Ljava/lang/Class;Landroid/app/Application;)Lcom/huawei/appmarket/ti8;
 
     .line 21
     .line 22
@@ -488,7 +488,7 @@
 
     .line 25
     :cond_1
-    const-class p2, Lcom/huawei/appmarket/ml;
+    const-class p2, Lcom/huawei/appmarket/ll;
 
     .line 26
     .line 27
@@ -504,7 +504,7 @@
 
     .line 32
     .line 33
-    sget-object p2, Lcom/huawei/appmarket/eq4;->a:Lcom/huawei/appmarket/eq4;
+    sget-object p2, Lcom/huawei/appmarket/hq4;->a:Lcom/huawei/appmarket/hq4;
 
     .line 34
     .line 35
@@ -513,7 +513,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {p1}, Lcom/huawei/appmarket/eq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {p1}, Lcom/huawei/appmarket/hq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 39
     .line 40

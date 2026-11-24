@@ -80,7 +80,7 @@
 
     iput-boolean v1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->o:Z
 
-    sget-object v1, Lcom/huawei/appmarket/pe6;->c:[I
+    sget-object v1, Lcom/huawei/appmarket/re6;->c:[I
 
     const/4 v2, 0x0
 
@@ -287,12 +287,12 @@
     move-result-object v1
 
     :goto_3
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     goto :goto_4
 
     :cond_6
-    invoke-static {p0, v2}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v2}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     :goto_4
     return-void
@@ -449,6 +449,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final c()Z
@@ -618,6 +619,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final d(Landroidx/appcompat/view/menu/f;)V

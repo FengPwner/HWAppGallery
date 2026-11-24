@@ -1,31 +1,35 @@
 .class public final Lcom/huawei/appmarket/nv1;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
-# instance fields
-.field a:I
+# static fields
+.field public static final a:Lcom/huawei/appmarket/nv1;
 
 
 # direct methods
-.method public constructor <init>(I)V
-    .registers 2
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/nv1;
 
-    iput p1, p0, Lcom/huawei/appmarket/nv1;->a:I
+    invoke-direct {v0}, Lcom/huawei/appmarket/nv1;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/nv1;->a:Lcom/huawei/appmarket/nv1;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a()I
-    .registers 2
+.method private constructor <init>()V
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/nv1;->a:I
+    const-string v0, "DlP"
 
-    return v0
+    const/4 v1, 0x1
+
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
+
+    return-void
 .end method

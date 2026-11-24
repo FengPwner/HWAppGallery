@@ -63,7 +63,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -79,7 +79,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 12
     .line 13
@@ -99,7 +99,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 22
     .line 23
@@ -111,7 +111,7 @@
 
     .line 26
     .line 27
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 28
     .line 29
@@ -126,7 +126,7 @@
 
     .line 33
     .line 34
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 35
     .line 36
@@ -366,15 +366,15 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/CommentReferenceView;->f:Landroid/widget/TextView;
 
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     const v1, 0x61a86
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->b()I
 
     move-result v0
 
@@ -435,7 +435,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 6
     .line 7
@@ -511,7 +511,7 @@
 
     .line 41
     .line 42
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 43
     .line 44
@@ -520,7 +520,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 48
     .line 49
@@ -528,7 +528,7 @@
     move-result-object v0
 
     .line 51
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->b()I
 
     .line 52
     .line 53
@@ -855,21 +855,21 @@
     .registers 6
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/fl0$b;
+    new-instance v0, Lcom/huawei/appmarket/gl0$b;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/fl0$b;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gl0$b;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/CommentReferenceView;->h:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fl0$b;->o(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gl0$b;->o(Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fl0$b;->m()Lcom/huawei/appmarket/fl0;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gl0$b;->m()Lcom/huawei/appmarket/gl0;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/CommentReferenceView;->d:Landroid/content/Context;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/el0;->a(Landroid/content/Context;Lcom/huawei/appmarket/fl0;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/fl0;->a(Landroid/content/Context;Lcom/huawei/appmarket/gl0;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/user/usercenter/widget/CommentReferenceView;->h:Ljava/lang/String;
 
@@ -879,7 +879,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/td8;->a()Lcom/huawei/appmarket/td8;
+    invoke-static {}, Lcom/huawei/appmarket/yd8;->a()Lcom/huawei/appmarket/yd8;
 
     move-result-object v0
 
@@ -893,7 +893,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v1, v2, v0, v3}, Lcom/huawei/appmarket/td8;->c(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v2, v0, v3}, Lcom/huawei/appmarket/yd8;->c(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
 
@@ -905,7 +905,7 @@
     if-nez v0, :cond_1
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/td8;->a()Lcom/huawei/appmarket/td8;
+    invoke-static {}, Lcom/huawei/appmarket/yd8;->a()Lcom/huawei/appmarket/yd8;
 
     move-result-object v0
 
@@ -917,7 +917,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/td8;->c(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/yd8;->c(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_1
 
@@ -975,7 +975,7 @@
 
     .line 10
     .line 11
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 12
     .line 13
@@ -984,7 +984,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 17
     .line 18
@@ -992,7 +992,7 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->b()I
 
     .line 21
     .line 22
@@ -1161,5 +1161,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

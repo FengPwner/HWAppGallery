@@ -18,7 +18,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/zk1;->b()Lcom/huawei/appmarket/zk1;
+    invoke-static {}, Lcom/huawei/appmarket/cl1;->b()Lcom/huawei/appmarket/cl1;
 
     move-result-object v0
 
@@ -26,7 +26,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zk1;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cl1;->c(Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->T0(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 

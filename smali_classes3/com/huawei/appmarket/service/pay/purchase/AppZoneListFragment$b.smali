@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment$b;
-.super Lcom/huawei/appmarket/sk0;
+.super Lcom/huawei/appmarket/tk0;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment;->H3(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)Lcom/huawei/appmarket/sk0;
+    value = Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment;->H3(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)Lcom/huawei/appmarket/tk0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment$b;->v:Lcom/huawei/appmarket/service/pay/purchase/AppZoneListFragment;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/sk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/tk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     return-void
 .end method
@@ -34,9 +34,9 @@
 .method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
     .registers 3
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/tk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/sk0;->getItemCount()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/tk0;->getItemCount()I
 
     move-result p1
 
@@ -44,7 +44,7 @@
 
     if-ne p1, p2, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appmarket/sk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
+    iget-object p1, p0, Lcom/huawei/appmarket/tk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->r()Z
 

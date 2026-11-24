@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final D:Lcom/huawei/appmarket/of5;
+.field private final D:Lcom/huawei/appmarket/rf5;
 
 .field private E:I
 
@@ -46,11 +46,11 @@
 
     iput p1, p0, Lcom/huawei/appgallery/aguikit/widget/scrollview/HeadNestedScrollView;->F:I
 
-    new-instance p1, Lcom/huawei/appmarket/of5;
+    new-instance p1, Lcom/huawei/appmarket/rf5;
 
-    invoke-direct {p1, p0}, Lcom/huawei/appmarket/of5;-><init>(Landroid/view/View;)V
+    invoke-direct {p1, p0}, Lcom/huawei/appmarket/rf5;-><init>(Landroid/view/View;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/aguikit/widget/scrollview/HeadNestedScrollView;->D:Lcom/huawei/appmarket/of5;
+    iput-object p1, p0, Lcom/huawei/appgallery/aguikit/widget/scrollview/HeadNestedScrollView;->D:Lcom/huawei/appmarket/rf5;
 
     return-void
 .end method
@@ -88,7 +88,7 @@
 
     sub-int v6, p1, v4
 
-    iget-object v2, p0, Lcom/huawei/appgallery/aguikit/widget/scrollview/HeadNestedScrollView;->D:Lcom/huawei/appmarket/of5;
+    iget-object v2, p0, Lcom/huawei/appgallery/aguikit/widget/scrollview/HeadNestedScrollView;->D:Lcom/huawei/appmarket/rf5;
 
     if-eqz v2, :cond_1
 
@@ -102,7 +102,7 @@
 
     move-object v9, p3
 
-    invoke-virtual/range {v2 .. v9}, Lcom/huawei/appmarket/of5;->d(IIII[II[I)V
+    invoke-virtual/range {v2 .. v9}, Lcom/huawei/appmarket/rf5;->d(IIII[II[I)V
 
     :cond_1
     return-void

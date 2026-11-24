@@ -100,7 +100,7 @@
     .line 33
     .line 34
     .line 35
-    const v2, 0x7f0a180b
+    const v2, 0x7f0a180c
 
     .line 36
     .line 37
@@ -285,7 +285,7 @@
 
     .line 127
     :cond_3
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     .line 128
     .line 129
@@ -297,7 +297,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 134
     .line 135

@@ -1,5 +1,5 @@
-.class public final Lcom/huawei/appmarket/ll4;
-.super Lcom/huawei/appmarket/il4;
+.class public Lcom/huawei/appmarket/ll4;
+.super Lcom/huawei/appgallery/serverreqkit/api/bean/BaseResponseBean;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/il4;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseResponseBean;-><init>()V
 
     return-void
 .end method

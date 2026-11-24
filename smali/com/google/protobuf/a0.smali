@@ -20,7 +20,7 @@
 # instance fields
 .field private final b:Ljava/lang/reflect/Field;
 
-.field private final c:Lcom/huawei/appmarket/hj2;
+.field private final c:Lcom/huawei/appmarket/jj2;
 
 .field private final d:Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
@@ -60,14 +60,14 @@
 
 
 # direct methods
-.method private constructor <init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+.method private constructor <init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
     .registers 14
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/reflect/Field;",
             "I",
-            "Lcom/huawei/appmarket/hj2;",
+            "Lcom/huawei/appmarket/jj2;",
             "Ljava/lang/Class<",
             "*>;",
             "Ljava/lang/reflect/Field;",
@@ -87,7 +87,7 @@
 
     iput-object p1, p0, Lcom/google/protobuf/a0;->b:Ljava/lang/reflect/Field;
 
-    iput-object p3, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/hj2;
+    iput-object p3, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/jj2;
 
     iput-object p4, p0, Lcom/google/protobuf/a0;->d:Ljava/lang/Class;
 
@@ -134,7 +134,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -230,7 +230,7 @@
     .line 95
 .end method
 
-.method public static b(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+.method public static b(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
     .registers 22
 
     .line 1
@@ -326,7 +326,7 @@
 
     .line 42
     .line 43
-    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 44
     .line 45
@@ -343,7 +343,7 @@
 
     .line 50
     .line 51
-    invoke-static {v1, v6}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v6}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 52
     .line 53
@@ -840,7 +840,7 @@
     .line 512
 .end method
 
-.method public static c(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Z)Lcom/google/protobuf/a0;
+.method public static c(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Z)Lcom/google/protobuf/a0;
     .registers 19
 
     .line 1
@@ -865,7 +865,7 @@
 
     .line 11
     .line 12
-    sget-object v0, Lcom/huawei/appmarket/hj2;->F:Lcom/huawei/appmarket/hj2;
+    sget-object v0, Lcom/huawei/appmarket/jj2;->F:Lcom/huawei/appmarket/jj2;
 
     .line 13
     .line 14
@@ -873,7 +873,7 @@
 
     .line 15
     .line 16
-    sget-object v0, Lcom/huawei/appmarket/hj2;->b0:Lcom/huawei/appmarket/hj2;
+    sget-object v0, Lcom/huawei/appmarket/jj2;->b0:Lcom/huawei/appmarket/jj2;
 
     .line 17
     .line 18
@@ -930,7 +930,7 @@
 
     .line 38
     .line 39
-    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 40
     .line 41
@@ -1412,7 +1412,7 @@
     .line 489
 .end method
 
-.method public static d(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+.method public static d(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
     .registers 19
 
     .line 1
@@ -1478,7 +1478,7 @@
 
     .line 26
     .line 27
-    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 28
     .line 29
@@ -1954,7 +1954,7 @@
     .line 489
 .end method
 
-.method public static e(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+.method public static e(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
     .registers 22
 
     .line 1
@@ -2050,7 +2050,7 @@
 
     .line 42
     .line 43
-    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 44
     .line 45
@@ -2067,7 +2067,7 @@
 
     .line 50
     .line 51
-    invoke-static {v1, v6}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v6}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 52
     .line 53
@@ -2589,7 +2589,7 @@
 
     .line 11
     .line 12
-    sget-object v4, Lcom/huawei/appmarket/hj2;->c0:Lcom/huawei/appmarket/hj2;
+    sget-object v4, Lcom/huawei/appmarket/jj2;->c0:Lcom/huawei/appmarket/jj2;
 
     .line 13
     .line 14
@@ -2635,7 +2635,7 @@
 
     .line 29
     .line 30
-    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 31
     .line 32
@@ -3117,12 +3117,12 @@
     .line 489
 .end method
 
-.method public static g(ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/m1;Ljava/lang/Class;ZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+.method public static g(ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/m1;Ljava/lang/Class;ZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
     .registers 21
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lcom/huawei/appmarket/hj2;",
+            "Lcom/huawei/appmarket/jj2;",
             "Lcom/google/protobuf/m1;",
             "Ljava/lang/Class<",
             "*>;Z",
@@ -3146,7 +3146,7 @@
 
     .line 7
     .line 8
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/hj2;->e()Z
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/jj2;->e()Z
 
     .line 9
     .line 10
@@ -3209,7 +3209,7 @@
 
     .line 34
     .line 35
-    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 36
     .line 37
@@ -4387,7 +4387,7 @@
     .line 1170
 .end method
 
-.method public static h(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
+.method public static h(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
     .registers 19
 
     .line 1
@@ -4412,7 +4412,7 @@
 
     .line 11
     .line 12
-    sget-object v0, Lcom/huawei/appmarket/hj2;->F:Lcom/huawei/appmarket/hj2;
+    sget-object v0, Lcom/huawei/appmarket/jj2;->F:Lcom/huawei/appmarket/jj2;
 
     .line 13
     .line 14
@@ -4420,7 +4420,7 @@
 
     .line 15
     .line 16
-    sget-object v0, Lcom/huawei/appmarket/hj2;->b0:Lcom/huawei/appmarket/hj2;
+    sget-object v0, Lcom/huawei/appmarket/jj2;->b0:Lcom/huawei/appmarket/jj2;
 
     .line 17
     .line 18
@@ -4477,7 +4477,7 @@
 
     .line 38
     .line 39
-    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v0 .. v13}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 40
     .line 41
@@ -4959,7 +4959,7 @@
     .line 489
 .end method
 
-.method public static i(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
+.method public static i(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
     .registers 20
 
     .line 1
@@ -5026,7 +5026,7 @@
 
     .line 27
     .line 28
-    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 29
     .line 30
@@ -5936,14 +5936,14 @@
     .line 924
 .end method
 
-.method public static j(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;)Lcom/google/protobuf/a0;
+.method public static j(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;)Lcom/google/protobuf/a0;
     .registers 19
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/reflect/Field;",
             "I",
-            "Lcom/huawei/appmarket/hj2;",
+            "Lcom/huawei/appmarket/jj2;",
             "Ljava/lang/Class<",
             "*>;)",
             "Lcom/google/protobuf/a0;"
@@ -6021,7 +6021,7 @@
 
     .line 30
     .line 31
-    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
+    invoke-direct/range {v1 .. v14}, Lcom/google/protobuf/a0;-><init>(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLcom/google/protobuf/m1;Ljava/lang/Class;Ljava/lang/Object;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)V
 
     .line 32
     .line 33
@@ -6698,7 +6698,7 @@
     .line 1
     sget-object v0, Lcom/google/protobuf/a0$a;->a:[I
 
-    iget-object v1, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/hj2;
+    iget-object v1, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/jj2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -6776,11 +6776,11 @@
     return v0
 .end method
 
-.method public final z()Lcom/huawei/appmarket/hj2;
+.method public final z()Lcom/huawei/appmarket/jj2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/hj2;
+    iget-object v0, p0, Lcom/google/protobuf/a0;->c:Lcom/huawei/appmarket/jj2;
 
     return-object v0
 .end method

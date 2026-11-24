@@ -1,34 +1,59 @@
 .class public final Lcom/huawei/appmarket/jh7;
-.super Lcom/huawei/appmarket/ts5;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+
+# instance fields
+.field private a:I
+
+.field private b:Z
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ts5;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final A()Ljava/lang/String;
+.method public final a()I
     .registers 2
 
     .line 1
-    const-string v0, "text/plain"
+    iget v0, p0, Lcom/huawei/appmarket/jh7;->a:I
 
-    return-object v0
+    return v0
 .end method
 
-.method public final f()Ljava/lang/String;
+.method public final b()Z
     .registers 2
 
     .line 1
-    const-string v0, "com.snapchat.android"
+    iget-boolean v0, p0, Lcom/huawei/appmarket/jh7;->b:Z
 
-    return-object v0
+    return v0
+.end method
+
+.method public final c(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/jh7;->a:I
+
+    return-void
+.end method
+
+.method public final d()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/jh7;->b:Z
+
+    return-void
 .end method

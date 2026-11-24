@@ -34,11 +34,11 @@
 
     iget-object v0, v0, Lcom/huawei/appgallery/forum/posts/card/d;->a:Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;
 
-    new-instance v1, Lcom/huawei/appmarket/kj2;
+    new-instance v1, Lcom/huawei/appmarket/mj2;
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/posts/card/c;->b:Ljava/io/File;
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/kj2;-><init>(Ljava/io/File;)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/mj2;-><init>(Ljava/io/File;)V
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/base/image/ForumPostImageView;->setImage(Lcom/huawei/appmarket/ca0;)V
 

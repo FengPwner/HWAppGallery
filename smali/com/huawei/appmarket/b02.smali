@@ -1,248 +1,141 @@
-.class public abstract Lcom/huawei/appmarket/b02;
-.super Landroid/text/style/ReplacementSpan;
+.class final Lcom/huawei/appmarket/b02;
+.super Landroid/text/Editable$Factory;
 .source "SourceFile"
 
 
-# instance fields
-.field private final b:Landroid/graphics/Paint$FontMetricsInt;
+# static fields
+.field private static final a:Ljava/lang/Object;
 
-.field private final c:Landroidx/emoji2/text/p;
+.field private static volatile b:Landroid/text/Editable$Factory;
 
-.field private d:S
-
-.field private e:F
+.field private static c:Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/Class<",
+            "*>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Landroidx/emoji2/text/p;)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
+    new-instance v0, Ljava/lang/Object;
 
-    .line 2
-    .line 3
-    .line 4
-    new-instance v0, Landroid/graphics/Paint$FontMetricsInt;
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
-    .line 6
-    invoke-direct {v0}, Landroid/graphics/Paint$FontMetricsInt;-><init>()V
+    sput-object v0, Lcom/huawei/appmarket/b02;->a:Ljava/lang/Object;
 
-    .line 7
-    .line 8
-    .line 9
-    iput-object v0, p0, Lcom/huawei/appmarket/b02;->b:Landroid/graphics/Paint$FontMetricsInt;
-
-    .line 10
-    .line 11
-    const/4 v0, -0x1
-
-    .line 12
-    iput-short v0, p0, Lcom/huawei/appmarket/b02;->d:S
-
-    .line 13
-    .line 14
-    const/high16 v0, 0x3f800000    # 1.0f
-
-    .line 15
-    .line 16
-    iput v0, p0, Lcom/huawei/appmarket/b02;->e:F
-
-    .line 17
-    .line 18
-    if-eqz p1, :cond_0
-
-    .line 19
-    .line 20
-    iput-object p1, p0, Lcom/huawei/appmarket/b02;->c:Landroidx/emoji2/text/p;
-
-    .line 21
-    .line 22
     return-void
-
-    .line 23
-    :cond_0
-    new-instance p1, Ljava/lang/NullPointerException;
-
-    .line 24
-    .line 25
-    const-string v0, "rasterizer cannot be null"
-
-    .line 26
-    .line 27
-    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    throw p1
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
 .end method
 
+.method private constructor <init>()V
+    .registers 4
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "PrivateApi"
+        }
+    .end annotation
 
-# virtual methods
-.method public final a()Landroidx/emoji2/text/p;
+    .line 1
+    invoke-direct {p0}, Landroid/text/Editable$Factory;-><init>()V
+
+    :try_start_0
+    const-string v0, "android.text.DynamicLayout$ChangeWatcher"
+
+    const-class v1, Lcom/huawei/appmarket/b02;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v2, v1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/b02;->c:Ljava/lang/Class;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    return-void
+.end method
+
+.method public static getInstance()Landroid/text/Editable$Factory;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b02;->c:Landroidx/emoji2/text/p;
+    sget-object v0, Lcom/huawei/appmarket/b02;->b:Landroid/text/Editable$Factory;
+
+    if-nez v0, :cond_1
+
+    sget-object v0, Lcom/huawei/appmarket/b02;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/b02;->b:Landroid/text/Editable$Factory;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/b02;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/b02;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/b02;->b:Landroid/text/Editable$Factory;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/b02;->b:Landroid/text/Editable$Factory;
 
     return-object v0
 .end method
 
-.method final b()I
-    .registers 2
+
+# virtual methods
+.method public final newEditable(Ljava/lang/CharSequence;)Landroid/text/Editable;
+    .registers 3
 
     .line 1
-    iget-short v0, p0, Lcom/huawei/appmarket/b02;->d:S
+    sget-object v0, Lcom/huawei/appmarket/b02;->c:Ljava/lang/Class;
 
-    return v0
-.end method
+    if-eqz v0, :cond_0
 
-.method public final getSize(Landroid/graphics/Paint;Ljava/lang/CharSequence;IILandroid/graphics/Paint$FontMetricsInt;)I
-    .registers 6
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Landroid/annotation/SuppressLint;
-            value = {
-                "UnknownNullness"
-            }
-        .end annotation
-    .end param
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/wi7;->c(Ljava/lang/Class;Ljava/lang/CharSequence;)Lcom/huawei/appmarket/wi7;
 
-    .line 1
-    iget-object p2, p0, Lcom/huawei/appmarket/b02;->b:Landroid/graphics/Paint$FontMetricsInt;
+    move-result-object p1
 
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->getFontMetricsInt(Landroid/graphics/Paint$FontMetricsInt;)I
-
-    iget p1, p2, Landroid/graphics/Paint$FontMetricsInt;->descent:I
-
-    iget p3, p2, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
-
-    sub-int/2addr p1, p3
-
-    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
-
-    move-result p1
-
-    int-to-float p1, p1
-
-    const/high16 p3, 0x3f800000    # 1.0f
-
-    mul-float p1, p1, p3
-
-    iget-object p3, p0, Lcom/huawei/appmarket/b02;->c:Landroidx/emoji2/text/p;
-
-    invoke-virtual {p3}, Landroidx/emoji2/text/p;->e()I
-
-    move-result p4
-
-    int-to-float p4, p4
-
-    div-float/2addr p1, p4
-
-    iput p1, p0, Lcom/huawei/appmarket/b02;->e:F
-
-    invoke-virtual {p3}, Landroidx/emoji2/text/p;->e()I
-
-    invoke-virtual {p3}, Landroidx/emoji2/text/p;->i()I
-
-    move-result p1
-
-    int-to-float p1, p1
-
-    iget p3, p0, Lcom/huawei/appmarket/b02;->e:F
-
-    mul-float p1, p1, p3
-
-    float-to-int p1, p1
-
-    int-to-short p1, p1
-
-    iput-short p1, p0, Lcom/huawei/appmarket/b02;->d:S
-
-    if-eqz p5, :cond_0
-
-    iget p3, p2, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
-
-    iput p3, p5, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
-
-    iget p3, p2, Landroid/graphics/Paint$FontMetricsInt;->descent:I
-
-    iput p3, p5, Landroid/graphics/Paint$FontMetricsInt;->descent:I
-
-    iget p3, p2, Landroid/graphics/Paint$FontMetricsInt;->top:I
-
-    iput p3, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
-
-    iget p2, p2, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
-
-    iput p2, p5, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
+    return-object p1
 
     :cond_0
-    return p1
+    invoke-super {p0, p1}, Landroid/text/Editable$Factory;->newEditable(Ljava/lang/CharSequence;)Landroid/text/Editable;
+
+    move-result-object p1
+
+    return-object p1
 .end method

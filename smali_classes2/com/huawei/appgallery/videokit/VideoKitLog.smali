@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/videokit/VideoKitLog;
-.super Lcom/huawei/appmarket/gy4;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
 
     return-void
 .end method

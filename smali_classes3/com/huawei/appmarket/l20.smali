@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/l20;
-.super Lcom/huawei/appmarket/ws1;
+.super Lcom/huawei/appmarket/zs1;
 .source "SourceFile"
 
 
@@ -14,7 +14,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/l20;->a:Lcom/huawei/appmarket/m20;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ws1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/zs1;-><init>()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
     .registers 3
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/ws1;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/zs1;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     const-class p1, Landroid/widget/Button;
 
@@ -56,7 +56,7 @@
 
     const-string v0, "TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -79,7 +79,7 @@
 
     const-string v0, "TYPE_VIEW_ACCESSIBILITY_FOCUSED"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -92,7 +92,7 @@
     invoke-interface {v0}, Lcom/huawei/appmarket/d30$c;->a()V
 
     :cond_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/ws1;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/zs1;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     return-void
 .end method

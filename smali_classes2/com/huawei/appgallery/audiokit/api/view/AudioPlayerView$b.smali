@@ -49,7 +49,7 @@
 
     iget-object p3, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView$b;->b:Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;
 
-    invoke-static {p3}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/gz;
+    invoke-static {p3}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hz;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p2, v0, p1, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->R(Lcom/huawei/appmarket/gz;IZ)V
+    invoke-virtual {p2, v0, p1, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->R(Lcom/huawei/appmarket/hz;IZ)V
 
     invoke-static {p3}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->h(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
 
@@ -82,7 +82,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView$b;->b:Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;
 
-    invoke-static {v1}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/gz;
+    invoke-static {v1}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hz;
 
     move-result-object v2
 
@@ -92,7 +92,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual {v0, v2, p1, v3}, Lcom/huawei/appgallery/audiokit/impl/a;->R(Lcom/huawei/appmarket/gz;IZ)V
+    invoke-virtual {v0, v2, p1, v3}, Lcom/huawei/appgallery/audiokit/impl/a;->R(Lcom/huawei/appmarket/hz;IZ)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->h(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
 

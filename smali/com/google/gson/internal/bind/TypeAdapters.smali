@@ -12,25 +12,25 @@
 
 
 # static fields
-.field public static final A:Lcom/huawei/appmarket/h58;
+.field public static final A:Lcom/huawei/appmarket/n58;
 
 .field public static final B:Lcom/google/gson/TypeAdapter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/google/gson/TypeAdapter<",
-            "Lcom/huawei/appmarket/mo4;",
+            "Lcom/huawei/appmarket/po4;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final C:Lcom/huawei/appmarket/h58;
+.field public static final C:Lcom/huawei/appmarket/n58;
 
-.field public static final D:Lcom/huawei/appmarket/h58;
+.field public static final D:Lcom/huawei/appmarket/n58;
 
-.field public static final a:Lcom/huawei/appmarket/h58;
+.field public static final a:Lcom/huawei/appmarket/n58;
 
-.field public static final b:Lcom/huawei/appmarket/h58;
+.field public static final b:Lcom/huawei/appmarket/n58;
 
 .field public static final c:Lcom/google/gson/TypeAdapter;
     .annotation system Ldalvik/annotation/Signature;
@@ -42,19 +42,19 @@
     .end annotation
 .end field
 
-.field public static final d:Lcom/huawei/appmarket/h58;
+.field public static final d:Lcom/huawei/appmarket/n58;
 
-.field public static final e:Lcom/huawei/appmarket/h58;
+.field public static final e:Lcom/huawei/appmarket/n58;
 
-.field public static final f:Lcom/huawei/appmarket/h58;
+.field public static final f:Lcom/huawei/appmarket/n58;
 
-.field public static final g:Lcom/huawei/appmarket/h58;
+.field public static final g:Lcom/huawei/appmarket/n58;
 
-.field public static final h:Lcom/huawei/appmarket/h58;
+.field public static final h:Lcom/huawei/appmarket/n58;
 
-.field public static final i:Lcom/huawei/appmarket/h58;
+.field public static final i:Lcom/huawei/appmarket/n58;
 
-.field public static final j:Lcom/huawei/appmarket/h58;
+.field public static final j:Lcom/huawei/appmarket/n58;
 
 .field public static final k:Lcom/google/gson/TypeAdapter;
     .annotation system Ldalvik/annotation/Signature;
@@ -86,7 +86,7 @@
     .end annotation
 .end field
 
-.field public static final n:Lcom/huawei/appmarket/h58;
+.field public static final n:Lcom/huawei/appmarket/n58;
 
 .field public static final o:Lcom/google/gson/TypeAdapter;
     .annotation system Ldalvik/annotation/Signature;
@@ -112,29 +112,29 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/google/gson/TypeAdapter<",
-            "Lcom/huawei/appmarket/at4;",
+            "Lcom/huawei/appmarket/dt4;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final r:Lcom/huawei/appmarket/h58;
+.field public static final r:Lcom/huawei/appmarket/n58;
 
-.field public static final s:Lcom/huawei/appmarket/h58;
+.field public static final s:Lcom/huawei/appmarket/n58;
 
-.field public static final t:Lcom/huawei/appmarket/h58;
+.field public static final t:Lcom/huawei/appmarket/n58;
 
-.field public static final u:Lcom/huawei/appmarket/h58;
+.field public static final u:Lcom/huawei/appmarket/n58;
 
-.field public static final v:Lcom/huawei/appmarket/h58;
+.field public static final v:Lcom/huawei/appmarket/n58;
 
-.field public static final w:Lcom/huawei/appmarket/h58;
+.field public static final w:Lcom/huawei/appmarket/n58;
 
-.field public static final x:Lcom/huawei/appmarket/h58;
+.field public static final x:Lcom/huawei/appmarket/n58;
 
-.field public static final y:Lcom/huawei/appmarket/h58;
+.field public static final y:Lcom/huawei/appmarket/n58;
 
-.field public static final z:Lcom/huawei/appmarket/h58;
+.field public static final z:Lcom/huawei/appmarket/n58;
 
 
 # direct methods
@@ -172,7 +172,7 @@
     .line 15
     .line 16
     .line 17
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/n58;
 
     .line 18
     .line 19
@@ -206,7 +206,7 @@
     .line 33
     .line 34
     .line 35
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->b:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->b:Lcom/huawei/appmarket/n58;
 
     .line 36
     .line 37
@@ -249,7 +249,7 @@
     .line 56
     .line 57
     .line 58
-    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->d:Lcom/huawei/appmarket/h58;
+    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->d:Lcom/huawei/appmarket/n58;
 
     .line 59
     .line 60
@@ -279,7 +279,7 @@
     .line 72
     .line 73
     .line 74
-    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->e:Lcom/huawei/appmarket/h58;
+    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->e:Lcom/huawei/appmarket/n58;
 
     .line 75
     .line 76
@@ -309,7 +309,7 @@
     .line 88
     .line 89
     .line 90
-    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->f:Lcom/huawei/appmarket/h58;
+    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->f:Lcom/huawei/appmarket/n58;
 
     .line 91
     .line 92
@@ -339,7 +339,7 @@
     .line 104
     .line 105
     .line 106
-    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->g:Lcom/huawei/appmarket/h58;
+    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->g:Lcom/huawei/appmarket/n58;
 
     .line 107
     .line 108
@@ -373,7 +373,7 @@
     .line 122
     .line 123
     .line 124
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->h:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->h:Lcom/huawei/appmarket/n58;
 
     .line 125
     .line 126
@@ -407,7 +407,7 @@
     .line 140
     .line 141
     .line 142
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->i:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->i:Lcom/huawei/appmarket/n58;
 
     .line 143
     .line 144
@@ -441,7 +441,7 @@
     .line 158
     .line 159
     .line 160
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->j:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->j:Lcom/huawei/appmarket/n58;
 
     .line 161
     .line 162
@@ -510,7 +510,7 @@
     .line 195
     .line 196
     .line 197
-    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->n:Lcom/huawei/appmarket/h58;
+    sput-object v2, Lcom/google/gson/internal/bind/TypeAdapters;->n:Lcom/huawei/appmarket/n58;
 
     .line 198
     .line 199
@@ -575,7 +575,7 @@
     .line 230
     .line 231
     .line 232
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->r:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->r:Lcom/huawei/appmarket/n58;
 
     .line 233
     .line 234
@@ -601,7 +601,7 @@
     .line 244
     .line 245
     .line 246
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->s:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->s:Lcom/huawei/appmarket/n58;
 
     .line 247
     .line 248
@@ -627,7 +627,7 @@
     .line 258
     .line 259
     .line 260
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->t:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->t:Lcom/huawei/appmarket/n58;
 
     .line 261
     .line 262
@@ -653,7 +653,7 @@
     .line 272
     .line 273
     .line 274
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->u:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->u:Lcom/huawei/appmarket/n58;
 
     .line 275
     .line 276
@@ -679,7 +679,7 @@
     .line 286
     .line 287
     .line 288
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->v:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->v:Lcom/huawei/appmarket/n58;
 
     .line 289
     .line 290
@@ -705,7 +705,7 @@
     .line 300
     .line 301
     .line 302
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->w:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->w:Lcom/huawei/appmarket/n58;
 
     .line 303
     .line 304
@@ -731,7 +731,7 @@
     .line 314
     .line 315
     .line 316
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->x:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->x:Lcom/huawei/appmarket/n58;
 
     .line 317
     .line 318
@@ -765,7 +765,7 @@
     .line 332
     .line 333
     .line 334
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->y:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->y:Lcom/huawei/appmarket/n58;
 
     .line 335
     .line 336
@@ -795,7 +795,7 @@
     .line 348
     .line 349
     .line 350
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->z:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->z:Lcom/huawei/appmarket/n58;
 
     .line 351
     .line 352
@@ -821,7 +821,7 @@
     .line 362
     .line 363
     .line 364
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->A:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->A:Lcom/huawei/appmarket/n58;
 
     .line 365
     .line 366
@@ -842,7 +842,7 @@
 
     .line 374
     .line 375
-    const-class v2, Lcom/huawei/appmarket/mo4;
+    const-class v2, Lcom/huawei/appmarket/po4;
 
     .line 376
     .line 377
@@ -851,7 +851,7 @@
     .line 378
     .line 379
     .line 380
-    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->C:Lcom/huawei/appmarket/h58;
+    sput-object v1, Lcom/google/gson/internal/bind/TypeAdapters;->C:Lcom/huawei/appmarket/n58;
 
     .line 381
     .line 382
@@ -864,7 +864,7 @@
     .line 385
     .line 386
     .line 387
-    sput-object v0, Lcom/google/gson/internal/bind/TypeAdapters;->D:Lcom/huawei/appmarket/h58;
+    sput-object v0, Lcom/google/gson/internal/bind/TypeAdapters;->D:Lcom/huawei/appmarket/n58;
 
     .line 388
     .line 389
@@ -1276,7 +1276,7 @@
     throw v0
 .end method
 
-.method public static a(Lcom/google/gson/reflect/TypeToken;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/h58;
+.method public static a(Lcom/google/gson/reflect/TypeToken;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/n58;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1287,7 +1287,7 @@
             "TTT;>;",
             "Lcom/google/gson/TypeAdapter<",
             "TTT;>;)",
-            "Lcom/huawei/appmarket/h58;"
+            "Lcom/huawei/appmarket/n58;"
         }
     .end annotation
 
@@ -1299,7 +1299,7 @@
     return-object v0
 .end method
 
-.method public static b(Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/h58;
+.method public static b(Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/n58;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1310,7 +1310,7 @@
             "TTT;>;",
             "Lcom/google/gson/TypeAdapter<",
             "TTT;>;)",
-            "Lcom/huawei/appmarket/h58;"
+            "Lcom/huawei/appmarket/n58;"
         }
     .end annotation
 
@@ -1322,7 +1322,7 @@
     return-object v0
 .end method
 
-.method public static c(Ljava/lang/Class;Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/h58;
+.method public static c(Ljava/lang/Class;Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/huawei/appmarket/n58;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1335,7 +1335,7 @@
             "TTT;>;",
             "Lcom/google/gson/TypeAdapter<",
             "-TTT;>;)",
-            "Lcom/huawei/appmarket/h58;"
+            "Lcom/huawei/appmarket/n58;"
         }
     .end annotation
 

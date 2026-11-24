@@ -2,7 +2,5 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# virtual methods
-.method public abstract initWithDelegate(Lcom/huawei/appmarket/k64;)V
-.end method
+# interfaces
+.implements Ljava/io/Serializable;

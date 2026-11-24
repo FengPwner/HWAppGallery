@@ -4,15 +4,15 @@
 
 
 # instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/j49;
+.field public final synthetic b:Lcom/huawei/appmarket/p49;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/j49;)V
+.method public constructor <init>(Lcom/huawei/appmarket/p49;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lohos/ohos/ohos/ohos/ohos/d;->b:Lcom/huawei/appmarket/j49;
+    iput-object p1, p0, Lohos/ohos/ohos/ohos/ohos/d;->b:Lcom/huawei/appmarket/p49;
 
     invoke-direct {p0}, Lohos/ohos/ohos/ohos/ohos/p$a;-><init>()V
 
@@ -25,7 +25,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lohos/ohos/ohos/ohos/ohos/d;->b:Lcom/huawei/appmarket/j49;
+    iget-object v0, p0, Lohos/ohos/ohos/ohos/ohos/d;->b:Lcom/huawei/appmarket/p49;
 
     .line 2
     .line 3
@@ -107,7 +107,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/j49;->b(Lcom/huawei/appmarket/j49;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/p49;->b(Lcom/huawei/appmarket/p49;I)V
 
     .line 45
     .line 46
@@ -115,7 +115,7 @@
     const/4 p1, 0x1
 
     .line 48
-    iput-boolean p1, v0, Lcom/huawei/appmarket/j49;->k:Z
+    iput-boolean p1, v0, Lcom/huawei/appmarket/p49;->k:Z
 
     .line 49
     .line 50
@@ -129,7 +129,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/j49;->b(Lcom/huawei/appmarket/j49;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/p49;->b(Lcom/huawei/appmarket/p49;I)V
 
     .line 55
     .line 56
@@ -139,7 +139,7 @@
 
     .line 58
     :cond_2
-    iget-object p1, v0, Lcom/huawei/appmarket/pb9;->d:Ljava/lang/ref/WeakReference;
+    iget-object p1, v0, Lcom/huawei/appmarket/wb9;->d:Ljava/lang/ref/WeakReference;
 
     .line 59
     .line 60
@@ -158,7 +158,7 @@
     const/4 p1, 0x0
 
     .line 67
-    iput-boolean p1, v0, Lcom/huawei/appmarket/j49;->j:Z
+    iput-boolean p1, v0, Lcom/huawei/appmarket/p49;->j:Z
 
     .line 68
     .line 69
@@ -166,7 +166,7 @@
 
     .line 70
     .line 71
-    iget-object p2, v0, Lcom/huawei/appmarket/pb9;->d:Ljava/lang/ref/WeakReference;
+    iget-object p2, v0, Lcom/huawei/appmarket/wb9;->d:Ljava/lang/ref/WeakReference;
 
     .line 72
     .line 73
@@ -182,15 +182,15 @@
 
     .line 78
     .line 79
-    iget-object v1, v0, Lcom/huawei/appmarket/j49;->g:Lohos/ohos/ohos/ohos/ohos/a;
+    iget-object v1, v0, Lcom/huawei/appmarket/p49;->g:Lohos/ohos/ohos/ohos/ohos/a;
 
     .line 80
     .line 81
-    iget-object v2, v0, Lcom/huawei/appmarket/j49;->f:Landroid/content/Intent;
+    iget-object v2, v0, Lcom/huawei/appmarket/p49;->f:Landroid/content/Intent;
 
     .line 82
     .line 83
-    iget v3, v0, Lcom/huawei/appmarket/j49;->h:I
+    iget v3, v0, Lcom/huawei/appmarket/p49;->h:I
 
     .line 84
     .line 85
@@ -205,7 +205,7 @@
     .line 90
     .line 91
     :cond_3
-    iget-object p1, v0, Lcom/huawei/appmarket/j49;->z:Landroid/app/AlertDialog;
+    iget-object p1, v0, Lcom/huawei/appmarket/p49;->z:Landroid/app/AlertDialog;
 
     .line 92
     .line 93
@@ -391,8 +391,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

@@ -6,7 +6,7 @@
 # instance fields
 .field private n:Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;
 
-.field protected o:Lcom/huawei/appmarket/du4;
+.field protected o:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -14,7 +14,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
@@ -139,11 +139,11 @@
 
     move-result-object v2
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hk0;->j(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ik0;->j(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hk0;->e(I)Ljava/lang/Class;
+    invoke-static {v1}, Lcom/huawei/appmarket/ik0;->e(I)Ljava/lang/Class;
 
     move-result-object v1
 
@@ -179,7 +179,7 @@
 
     const v0, 0x7f0a018f
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     :cond_0
     return-void
@@ -234,11 +234,11 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->o:Lcom/huawei/appmarket/du4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->o:Lcom/huawei/appmarket/gu4;
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/y1;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/y1;->Y(Lcom/huawei/appmarket/gu4;)V
 
     .line 22
     .line 23
@@ -458,21 +458,20 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->b()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -488,13 +487,13 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 11
     .line 12
@@ -661,19 +660,18 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->o:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/HorizonHomeNode;->o:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
 
-.method public s(Lcom/huawei/appmarket/ak0;)V
+.method public s(Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -725,7 +723,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v2, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v2, p1, v1}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     .line 24
     .line 25
@@ -756,7 +754,7 @@
     .line 38
     .line 39
     :cond_1
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->l2(Lcom/huawei/appmarket/bk0;)V
 
     .line 40
     .line 41
@@ -839,7 +837,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public x()Ljava/util/ArrayList;

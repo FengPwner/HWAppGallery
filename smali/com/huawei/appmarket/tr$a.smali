@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/tr$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -35,7 +35,7 @@
     .registers 5
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     new-instance v0, Ljava/lang/ref/WeakReference;
 
@@ -78,7 +78,7 @@
 
     const-string v2, "RiskItemClickListener"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/tr$a;->b:Ljava/lang/ref/WeakReference;
 
@@ -90,7 +90,7 @@
 
     const-string v0, "click risk item, but context is null!"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -181,11 +181,11 @@
 
     invoke-virtual {p1, v2}, Lcom/huawei/appgallery/agguard/business/ui/protocol/AgGuardRiskDetailProtocol;->b(Lcom/huawei/appgallery/agguard/business/ui/protocol/AgGuardRiskDetailProtocol$Request;)V
 
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     const-string v2, "agguard.risk.detail.activity"
 
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
@@ -193,7 +193,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -203,7 +203,7 @@
 
     check-cast v0, Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     return-void
 .end method

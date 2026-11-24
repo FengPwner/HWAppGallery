@@ -1,50 +1,22 @@
-.class public final synthetic Lcom/huawei/appmarket/lr7;
+.class public interface abstract Lcom/huawei/appmarket/lr7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/f21;
 
-
-# instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/mr7;
-
-.field public final synthetic c:J
-
-.field public final synthetic d:I
+# static fields
+.field public static final a:Lcom/huawei/appmarket/lr7;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/mr7;JI)V
-    .registers 5
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/lr7$a;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/lr7;->b:Lcom/huawei/appmarket/mr7;
+    invoke-direct {v0}, Lcom/huawei/appmarket/lr7$a;-><init>()V
 
-    iput-wide p2, p0, Lcom/huawei/appmarket/lr7;->c:J
-
-    iput p4, p0, Lcom/huawei/appmarket/lr7;->d:I
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .registers 6
-
-    .line 1
-    check-cast p1, Lcom/huawei/appmarket/h61;
-
-    iget-object v0, p0, Lcom/huawei/appmarket/lr7;->b:Lcom/huawei/appmarket/mr7;
-
-    iget-wide v1, p0, Lcom/huawei/appmarket/lr7;->c:J
-
-    iget v3, p0, Lcom/huawei/appmarket/lr7;->d:I
-
-    invoke-static {v0, v1, v2, v3, p1}, Lcom/huawei/appmarket/mr7;->g(Lcom/huawei/appmarket/mr7;JILcom/huawei/appmarket/h61;)V
+    sput-object v0, Lcom/huawei/appmarket/lr7;->a:Lcom/huawei/appmarket/lr7;
 
     return-void
 .end method

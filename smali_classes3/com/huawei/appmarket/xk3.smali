@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a()V
+.method public abstract a(Landroid/content/Context;)V
 .end method

@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field protected l:Lcom/huawei/appmarket/ak0;
+.field protected l:Lcom/huawei/appmarket/bk0;
 
 .field private m:I
 
@@ -454,11 +454,11 @@
     .line 195
     .line 196
     :cond_a
-    iget-object v1, v0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iget-object v1, v0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 197
     .line 198
-    invoke-virtual {v0, v1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 199
     .line 200
@@ -629,29 +629,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method protected abstract K(Z)Lcom/huawei/gamebox/service/welfare/campaign/card/BaseCampaignCard;
@@ -685,7 +662,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v0
 
@@ -743,7 +720,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_2
     const v2, 0x7f0a0b3a
@@ -770,7 +747,7 @@
 
     if-eqz v3, :cond_3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/huawei/gamebox/service/common/cardkit/node/BaseGsNode;->H()Z
@@ -1109,7 +1086,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
@@ -1121,17 +1097,17 @@
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 10
 
     .line 1
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     iput-wide v0, p0, Lcom/huawei/appmarket/o2;->c:J
 
     iget-object p2, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     move-result p2
 
@@ -1162,7 +1138,7 @@
 
     check-cast v2, Lcom/huawei/gamebox/service/welfare/common/card/AbsWithTitleCard;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object p1
 
@@ -1188,7 +1164,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v5
 
@@ -1227,11 +1203,11 @@
     return-void
 .end method
 
-.method public s(Lcom/huawei/appmarket/ak0;)V
+.method public s(Lcom/huawei/appmarket/bk0;)V
     .registers 11
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -1286,7 +1262,7 @@
     move-result-object v4
 
     .line 26
-    invoke-virtual {v4, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v4, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 27
     .line 28
@@ -1339,7 +1315,7 @@
 
     .line 50
     .line 51
-    invoke-direct {v8, p1, v6, v1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v8, p1, v6, v1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 52
     .line 53
@@ -1423,5 +1399,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

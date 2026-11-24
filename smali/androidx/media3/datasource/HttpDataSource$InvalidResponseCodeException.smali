@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public constructor <init>(ILjava/lang/String;Ljava/io/IOException;Ljava/util/Map;Lcom/huawei/appmarket/l91;[B)V
+.method public constructor <init>(ILjava/lang/String;Ljava/io/IOException;Ljava/util/Map;Lcom/huawei/appmarket/m91;[B)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +43,7 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;>;",
-            "Lcom/huawei/appmarket/l91;",
+            "Lcom/huawei/appmarket/m91;",
             "[B)V"
         }
     .end annotation
@@ -53,7 +53,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -77,7 +77,7 @@
     move-object v3, p5
 
     .line 13
-    invoke-direct/range {v0 .. v5}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Ljava/io/IOException;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct/range {v0 .. v5}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Ljava/io/IOException;Lcom/huawei/appmarket/m91;II)V
 
     .line 14
     .line 15

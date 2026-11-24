@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public b:Lcom/huawei/appmarket/m64;
+.field public b:Lcom/huawei/appmarket/p64;
 
 .field private c:Landroid/os/CountDownTimer;
 
@@ -26,7 +26,7 @@
 .method public abstract b()V
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/m64;Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/huawei/appgallery/welfarecenter/business/showpopup/BasePopUpActivityInfo;)Landroid/view/View;
+.method public abstract c(Lcom/huawei/appmarket/p64;Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/huawei/appgallery/welfarecenter/business/showpopup/BasePopUpActivityInfo;)Landroid/view/View;
 .end method
 
 .method public abstract d()V

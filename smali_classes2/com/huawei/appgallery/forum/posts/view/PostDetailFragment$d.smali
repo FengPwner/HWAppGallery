@@ -66,7 +66,7 @@
 
     const-string v1, "PostDetailFragment"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "forum.comments.list.refresh"
 
@@ -76,11 +76,11 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/pl0;->f()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ql0;->f()V
 
     const-string p2, "notify_type"
 

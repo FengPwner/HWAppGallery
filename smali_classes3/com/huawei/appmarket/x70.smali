@@ -40,7 +40,7 @@
 
     invoke-direct {v3, v5}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/jz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-static {p0, v3}, Lcom/huawei/appmarket/kz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     move-result-object p0
 
@@ -139,7 +139,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v2, v1, Lcom/huawei/appmarket/u70;->a:Z
 
@@ -160,7 +160,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 .end method

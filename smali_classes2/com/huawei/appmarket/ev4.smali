@@ -1,80 +1,125 @@
 .class public final Lcom/huawei/appmarket/ev4;
-.super Lcom/huawei/appmarket/q68;
+.super Landroid/text/style/ImageSpan;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Landroid/graphics/drawable/Drawable;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/q68;-><init>()V
+    invoke-direct {p0, p1}, Landroid/text/style/ImageSpan;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lcom/huawei/appmarket/yh7;
-    .registers 5
+.method public final draw(Landroid/graphics/Canvas;Ljava/lang/CharSequence;IIFIIILandroid/graphics/Paint;)V
+    .registers 11
+
+    invoke-virtual {p9}, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+
+    move-result-object p2
+
+    invoke-virtual {p0}, Landroid/text/style/DynamicDrawableSpan;->getDrawable()Landroid/graphics/drawable/Drawable;
+
+    move-result-object p3
+
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
+
+    sub-int p4, p8, p6
+
+    invoke-virtual {p3}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+
+    move-result-object p9
+
+    iget p9, p9, Landroid/graphics/Rect;->bottom:I
+
+    const/4 v0, 0x2
 
     .line 1
-    const-string v0, "\\[((?i)link)=([0-9a-zA-Z]{1}_\\d+)\\](.*?)\\[\\/((?i)link)\\]"
+    invoke-static {p4, p9, v0, p6}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
-    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    move-result p4
 
-    move-result-object v0
+    sub-int/2addr p8, p7
 
-    invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    .line 2
+    iget p7, p2, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
 
-    move-result-object p1
+    if-le p8, p7, :cond_0
 
-    invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
+    iget p2, p2, Landroid/graphics/Paint$FontMetricsInt;->descent:I
 
-    move-result v0
+    sub-int p7, p4, p2
 
-    if-eqz v0, :cond_0
+    if-le p7, p6, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/dv4;
-
-    invoke-virtual {p1}, Ljava/util/regex/Matcher;->start()I
-
-    move-result v1
-
-    invoke-virtual {p1}, Ljava/util/regex/Matcher;->end()I
-
-    move-result v2
-
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/dv4;-><init>(II)V
-
-    const/4 v1, 0x2
-
-    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v1, "_"
-
-    invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v1, 0x0
-
-    aget-object v1, p1, v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dv4;->g(Ljava/lang/String;)V
-
-    const/4 v1, 0x1
-
-    aget-object p1, p1, v1
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dv4;->f(Ljava/lang/String;)V
-
-    return-object v0
+    sub-int/2addr p4, p2
 
     :cond_0
-    const/4 p1, 0x0
+    int-to-float p2, p4
 
-    return-object p1
+    invoke-virtual {p1, p5, p2}, Landroid/graphics/Canvas;->translate(FF)V
+
+    invoke-virtual {p3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
+
+    return-void
+.end method
+
+.method public final getSize(Landroid/graphics/Paint;Ljava/lang/CharSequence;IILandroid/graphics/Paint$FontMetricsInt;)I
+    .registers 6
+
+    .line 1
+    invoke-virtual {p0}, Landroid/text/style/DynamicDrawableSpan;->getDrawable()Landroid/graphics/drawable/Drawable;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+
+    move-result-object p2
+
+    if-eqz p5, :cond_0
+
+    invoke-virtual {p1}, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+
+    move-result-object p1
+
+    iget p3, p1, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
+
+    iget p1, p1, Landroid/graphics/Paint$FontMetricsInt;->top:I
+
+    sub-int/2addr p3, p1
+
+    iget p1, p2, Landroid/graphics/Rect;->bottom:I
+
+    iget p4, p2, Landroid/graphics/Rect;->top:I
+
+    sub-int/2addr p1, p4
+
+    div-int/lit8 p1, p1, 0x2
+
+    div-int/lit8 p3, p3, 0x4
+
+    sub-int p4, p1, p3
+
+    add-int/2addr p1, p3
+
+    neg-int p1, p1
+
+    iput p1, p5, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
+
+    iput p1, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
+
+    iput p4, p5, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
+
+    iput p4, p5, Landroid/graphics/Paint$FontMetricsInt;->descent:I
+
+    :cond_0
+    iget p1, p2, Landroid/graphics/Rect;->right:I
+
+    return p1
 .end method

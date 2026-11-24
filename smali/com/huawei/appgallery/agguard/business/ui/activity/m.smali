@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agguard/business/ui/activity/m;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/activity/m;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->c()Lcom/huawei/appmarket/ya6;
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->c()Lcom/huawei/appmarket/ab6;
 
     move-result-object p1
 
@@ -43,7 +43,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ya6;->f(I)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ab6;->f(I)V
 
     const-string p1, "1"
 
@@ -53,7 +53,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->c()Lcom/huawei/appmarket/ya6;
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->c()Lcom/huawei/appmarket/ab6;
 
     move-result-object p1
 
@@ -61,7 +61,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ya6;->f(I)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ab6;->f(I)V
 
     const-string p1, "0"
 

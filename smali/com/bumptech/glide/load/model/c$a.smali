@@ -73,12 +73,12 @@
     return-void
 .end method
 
-.method public final d(Lcom/huawei/appmarket/s66;Lcom/huawei/appmarket/i81$a;)V
+.method public final d(Lcom/huawei/appmarket/u66;Lcom/huawei/appmarket/i81$a;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/s66;",
+            "Lcom/huawei/appmarket/u66;",
             "Lcom/huawei/appmarket/i81$a<",
             "-",
             "Ljava/nio/ByteBuffer;",
@@ -90,7 +90,7 @@
     :try_start_0
     iget-object p1, p0, Lcom/bumptech/glide/load/model/c$a;->b:Ljava/io/File;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pf0;->a(Ljava/io/File;)Ljava/nio/MappedByteBuffer;
+    invoke-static {p1}, Lcom/huawei/appmarket/qf0;->a(Ljava/io/File;)Ljava/nio/MappedByteBuffer;
 
     move-result-object p1
 
@@ -124,11 +124,11 @@
     return-void
 .end method
 
-.method public final e()Lcom/huawei/appmarket/d91;
+.method public final e()Lcom/huawei/appmarket/e91;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/d91;->b:Lcom/huawei/appmarket/d91;
+    sget-object v0, Lcom/huawei/appmarket/e91;->b:Lcom/huawei/appmarket/e91;
 
     return-object v0
 .end method

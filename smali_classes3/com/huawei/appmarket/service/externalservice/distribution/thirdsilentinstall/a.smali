@@ -526,8 +526,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public static b(Landroid/content/Context;I)Z
@@ -655,7 +653,7 @@
 
     .line 57
     .line 58
-    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -774,5 +772,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

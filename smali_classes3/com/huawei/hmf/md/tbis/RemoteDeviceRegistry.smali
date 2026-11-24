@@ -27,7 +27,7 @@
 
     const-string v0, "IRemoteDevicePackageManager"
 
-    const-class v1, Lcom/huawei/appmarket/sz3;
+    const-class v1, Lcom/huawei/appmarket/uz3;
 
     const/4 v2, 0x0
 
@@ -35,7 +35,7 @@
 
     const-string v0, "IRemoteDeviceCacheManager"
 
-    const-class v1, Lcom/huawei/appmarket/qz3;
+    const-class v1, Lcom/huawei/appmarket/sz3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

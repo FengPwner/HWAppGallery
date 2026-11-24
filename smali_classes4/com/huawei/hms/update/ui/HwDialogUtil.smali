@@ -62,7 +62,7 @@
     const-string v1, "HwDialogUtil"
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
@@ -111,7 +111,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/jm7;->a(ILandroid/content/Context;)I
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/pm7;->a(ILandroid/content/Context;)I
 
     move-result p0
 

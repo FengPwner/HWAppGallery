@@ -1,238 +1,198 @@
-.class public final Lcom/huawei/appmarket/se8;
+.class final Lcom/huawei/appmarket/se8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/k65$b;
+
+
+# instance fields
+.field final synthetic b:Ljava/lang/String;
+
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/se8;->b:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;JZ)Ljava/lang/String;
-    .registers 13
+
+# virtual methods
+.method public final a(Lcom/huawei/appmarket/k65$c;)V
+    .registers 5
 
     .line 1
-    const-wide/16 v0, 0x0
+    if-eqz p1, :cond_0
 
-    const-string v2, ""
+    .line 2
+    .line 3
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    cmp-long v3, p1, v0
+    .line 4
+    .line 5
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    if-gtz v3, :cond_0
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Lcom/huawei/appmarket/se8;->b:Ljava/lang/String;
 
-    return-object v2
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, "_"
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {p1}, Lcom/huawei/appmarket/k65$c;->a()J
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-wide v1
+
+    .line 22
+    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p1
+
+    .line 26
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v0
+
+    .line 37
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v0
+
+    .line 41
+    sget v1, Lcom/huawei/appmarket/gn1;->i:I
+
+    .line 42
+    .line 43
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->d(Landroid/content/Context;)Ljava/lang/String;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object v0
+
+    .line 47
+    const-string v1, "error_code"
+
+    .line 48
+    .line 49
+    const-string v2, "versionName"
+
+    .line 50
+    .line 51
+    invoke-static {v1, p1, v2, v0}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object p1
+
+    .line 55
+    const-string v0, "operationType"
+
+    .line 56
+    .line 57
+    const-string v1, "3"
+
+    .line 58
+    .line 59
+    invoke-virtual {p1, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 60
+    .line 61
+    .line 62
+    const-string v0, "014"
+
+    .line 63
+    .line 64
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/d73;->e(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
+    .line 65
+    .line 66
+    .line 67
     :cond_0
-    if-eqz p0, :cond_5
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    if-nez v0, :cond_1
-
-    goto/16 :goto_1
-
-    :cond_1
-    const-wide/16 v0, 0x3e8
-
-    div-long/2addr p1, v0
-
-    long-to-int p2, p1
-
-    rem-int/lit8 p1, p2, 0x3c
-
-    div-int/lit8 v0, p2, 0x3c
-
-    rem-int/lit8 v0, v0, 0x3c
-
-    div-int/lit16 p2, p2, 0xe10
-
-    const v1, 0x7f1000ac
-
-    const v2, 0x7f1000ab
-
-    const/4 v3, 0x2
-
-    const/4 v4, 0x0
-
-    const/4 v5, 0x1
-
-    if-lez p2, :cond_3
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v6
-
-    new-array v7, v5, [Ljava/lang/Object;
-
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v8
-
-    aput-object v8, v7, v4
-
-    const v8, 0x7f1000aa
-
-    invoke-virtual {v6, v8, p2, v7}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v6
-
-    new-array v7, v5, [Ljava/lang/Object;
-
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v8
-
-    aput-object v8, v7, v4
-
-    invoke-virtual {v6, v2, v0, v7}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v2
-
-    new-array v6, v5, [Ljava/lang/Object;
-
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v7
-
-    aput-object v7, v6, v4
-
-    invoke-virtual {v2, v1, p1, v6}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v1, 0x3
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p0
-
-    if-eqz p3, :cond_2
-
-    new-array p3, v1, [Ljava/lang/Object;
-
-    aput-object p2, p3, v4
-
-    aput-object v0, p3, v5
-
-    aput-object p1, p3, v3
-
-    const p1, 0x7f120ea0
-
-    invoke-virtual {p0, p1, p3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_2
-    new-array p3, v1, [Ljava/lang/Object;
-
-    aput-object p2, p3, v4
-
-    aput-object v0, p3, v5
-
-    aput-object p1, p3, v3
-
-    const p1, 0x7f120ea8
-
-    invoke-virtual {p0, p1, p3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_3
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p2
-
-    new-array v6, v5, [Ljava/lang/Object;
-
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v7
-
-    aput-object v7, v6, v4
-
-    invoke-virtual {p2, v2, v0, v6}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    new-array v2, v5, [Ljava/lang/Object;
-
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v6
-
-    aput-object v6, v2, v4
-
-    invoke-virtual {v0, v1, p1, v2}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p0
-
-    if-eqz p3, :cond_4
-
-    new-array p3, v3, [Ljava/lang/Object;
-
-    aput-object p2, p3, v4
-
-    aput-object p1, p3, v5
-
-    const p1, 0x7f120e9f
-
-    invoke-virtual {p0, p1, p3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_4
-    new-array p3, v3, [Ljava/lang/Object;
-
-    aput-object p2, p3, v4
-
-    aput-object p1, p3, v5
-
-    const p1, 0x7f120ea7
-
-    invoke-virtual {p0, p1, p3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p0
-
-    :goto_0
-    return-object p0
-
-    :cond_5
-    :goto_1
-    sget-object p0, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
-
-    const-string p1, "Utils"
-
-    const-string p2, "context or resources is null"
-
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v2
+    return-void
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
 .end method

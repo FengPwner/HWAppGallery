@@ -191,7 +191,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private y1()V
@@ -212,9 +211,9 @@
 
     new-instance v1, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;
 
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;-><init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;Lcom/huawei/appmarket/xn6;)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy$a;-><init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;Lcom/huawei/appmarket/ao6;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/xn6;Lcom/huawei/appmarket/ty0$b;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/ao6;Lcom/huawei/appmarket/ty0$b;)V
 
     return-void
 .end method
@@ -347,7 +346,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -368,11 +366,11 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cf0;->X0()Lcom/huawei/appmarket/cd0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/df0;->X0()Lcom/huawei/appmarket/cd0;
 
     move-result-object p1
 
@@ -391,7 +389,7 @@
 
     const-string v0, "buoyBridge == null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object p0
@@ -401,9 +399,9 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->p:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->p:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -446,7 +444,7 @@
     :catch_0
     const-string v1, "startActivity error"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/NetOptimizationEnterCardBuoy;->E:Landroid/content/Context;
@@ -455,16 +453,16 @@
 
     const-string v1, "context == null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->L2(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->M2(Landroid/content/Context;)V
 
     :goto_1
     const-string v0, "CLICK"

@@ -70,7 +70,7 @@
 
     .line 16
     .line 17
-    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/ReceiverInfoAddView;->k:Lcom/huawei/appmarket/jd8;
+    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/ReceiverInfoAddView;->k:Lcom/huawei/appmarket/od8;
 
     .line 18
     .line 19
@@ -103,7 +103,7 @@
     const/4 v1, 0x0
 
     .line 33
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     .line 34
     .line 35
@@ -111,7 +111,7 @@
     move-result-object p1
 
     .line 37
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 38
     .line 39
@@ -187,7 +187,7 @@
     .line 73
     .line 74
     .line 75
-    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/ReceiverInfoAddView;->k:Lcom/huawei/appmarket/jd8;
+    iget-object p1, v0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/widget/ReceiverInfoAddView;->k:Lcom/huawei/appmarket/od8;
 
     .line 76
     .line 77
@@ -311,7 +311,7 @@
 
     .line 138
     .line 139
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     .line 141
@@ -527,6 +527,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

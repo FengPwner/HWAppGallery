@@ -419,7 +419,7 @@
 
     .line 4
     .line 5
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/or2;->d(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/qr2;->d(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -557,7 +557,7 @@
 
     .line 73
     .line 74
-    invoke-static {p4, p2, v0, p3}, Lcom/huawei/appmarket/ej2;->n(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p4, p2, v0, p3}, Lcom/huawei/appmarket/tr2;->l(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 75
     .line 76

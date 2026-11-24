@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
+.method public abstract a(Lcom/huawei/appmarket/zu0;Lcom/huawei/appmarket/g72$b;)V
 .end method

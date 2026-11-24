@@ -244,7 +244,7 @@
     move-result-object v2
 
     .line 90
-    check-cast v2, Lcom/huawei/appmarket/ml1;
+    check-cast v2, Lcom/huawei/appmarket/pl1;
 
     .line 91
     .line 92
@@ -276,7 +276,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -293,7 +292,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCard;->z:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a1700
+    const v0, 0x7f0a1701
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -315,7 +314,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCard;->z:Landroid/widget/LinearLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCard;->B:Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCard$a;
 
@@ -354,7 +353,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailprivacyscenecard/DetailPrivacySceneCard;->y:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v3, Lcom/huawei/appmarket/ji7;
+    new-instance v3, Lcom/huawei/appmarket/pi7;
 
     iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -362,7 +361,7 @@
 
     const/4 v5, 0x0
 
-    invoke-direct {v3, v4, v0, v5}, Lcom/huawei/appmarket/ji7;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v3, v4, v0, v5}, Lcom/huawei/appmarket/pi7;-><init>(Landroid/content/Context;IZ)V
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$o;)V
 

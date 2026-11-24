@@ -88,7 +88,7 @@
     .line 25
     .line 26
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 27
     .line 28
@@ -110,7 +110,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-static {p1, p1, v1}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, v1}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -192,5 +192,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

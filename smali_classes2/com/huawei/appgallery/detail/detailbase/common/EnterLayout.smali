@@ -42,7 +42,7 @@
 
     if-eqz p2, :cond_1
 
-    sget-object v1, Lcom/huawei/appmarket/re6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/te6;->b:[I
 
     .line 2
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -75,7 +75,7 @@
     move-exception v1
 
     :try_start_1
-    sget-object v2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string v3, "EnterLayout"
 
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -207,7 +207,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->i:Landroid/view/View;
 
-    const v0, 0x7f0a189a
+    const v0, 0x7f0a189b
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -582,7 +582,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result v0
 
@@ -590,7 +590,7 @@
 
     move-result v1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     move-result p1
 
@@ -604,7 +604,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v0
 
@@ -612,7 +612,7 @@
 
     move-result v1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result p1
 
@@ -767,7 +767,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->c:Landroid/widget/TextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/jj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/mj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -898,7 +898,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->b:Landroid/widget/TextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/jj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/mj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
 
     return-void
 .end method

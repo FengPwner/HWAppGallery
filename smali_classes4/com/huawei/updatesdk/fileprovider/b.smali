@@ -217,7 +217,7 @@
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "wisedist: Failed to find configured root that contains"
+    const-string/jumbo v0, "wisedist: Failed to find configured root that contains"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -315,7 +315,7 @@
     :cond_0
     new-instance p1, Ljava/lang/SecurityException;
 
-    const-string v0, "wisedist: Resolved path jumped beyond configured root"
+    const-string/jumbo v0, "wisedist: Resolved path jumped beyond configured root"
 
     invoke-direct {p1, v0}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
 
@@ -324,7 +324,7 @@
     :catch_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "wisedist: Failed to resolve canonical path for"
+    const-string/jumbo v0, "wisedist: Failed to resolve canonical path for"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -333,7 +333,7 @@
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "wisedist: Not a standard path"
+    const-string/jumbo v0, "wisedist: Not a standard path"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -342,7 +342,7 @@
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string v0, "wisedist: Unable to find configured root for"
+    const-string/jumbo v0, "wisedist: Unable to find configured root for"
 
     invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -360,7 +360,7 @@
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 2
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -405,7 +405,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string p2, "wisedist Name must not be empty"
+    const-string/jumbo p2, "wisedist Name must not be empty"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

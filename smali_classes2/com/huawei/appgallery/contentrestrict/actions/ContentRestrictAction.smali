@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/contentrestrict/actions/ContentRestrictAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 # interfaces
@@ -19,11 +19,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     const/4 p1, -0x1
 
@@ -51,7 +51,7 @@
 
     const-string v2, "ContentRestrictAction"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appmarket/j31$a;
 
@@ -67,15 +67,15 @@
 
     invoke-virtual {v0, p1}, Lcom/huawei/appmarket/j31$a;->c(Z)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/j31;->b(Lcom/huawei/appmarket/j31$a;)Lcom/huawei/appmarket/cn5;
+    invoke-static {v0}, Lcom/huawei/appmarket/j31;->b(Lcom/huawei/appmarket/j31$a;)Lcom/huawei/appmarket/dn5;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/c72$b;->P0(Lcom/huawei/appmarket/cn5;I)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/g72$b;->P0(Lcom/huawei/appmarket/dn5;I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -240,9 +240,9 @@
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -281,7 +281,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/contentrestrict/actions/ContentRestrictAction;->packageName:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/j48;->a(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/p48;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -319,7 +319,7 @@
 
     const-string v2, "ContentRestrictAction"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/v2;->f()Lcom/huawei/appmarket/v2;
 
@@ -347,7 +347,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -359,25 +359,25 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object p1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 17
     .line 18
-    invoke-interface {p1, p2, p3}, Lcom/huawei/appmarket/c72$b;->setResult(ILandroid/content/Intent;)V
+    invoke-interface {p1, p2, p3}, Lcom/huawei/appmarket/g72$b;->setResult(ILandroid/content/Intent;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object p1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object p1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 22
     .line 23
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     .line 24
     .line 25

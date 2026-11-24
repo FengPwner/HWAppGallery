@@ -6,7 +6,7 @@
 # instance fields
 .field protected l:Landroid/view/LayoutInflater;
 
-.field private m:Lcom/huawei/appmarket/du4;
+.field private m:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -127,11 +127,11 @@
 
     .line 9
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/node/BaseSettingNode;->m:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/node/BaseSettingNode;->m:Lcom/huawei/appmarket/gu4;
 
     .line 10
     .line 11
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/y1;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/y1;->Y(Lcom/huawei/appmarket/gu4;)V
 
     .line 12
     .line 13
@@ -387,14 +387,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/node/BaseSettingNode;->m:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/node/BaseSettingNode;->m:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

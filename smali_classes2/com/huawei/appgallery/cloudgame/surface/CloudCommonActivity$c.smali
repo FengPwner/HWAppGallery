@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -80,29 +80,29 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/fh3;
+    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/hh3;
 
     move-result-object p2
 
     if-eqz p2, :cond_2
 
-    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/fh3;
+    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/hh3;
 
     move-result-object p2
 
     const-string p3, "mobileTrafficDialog"
 
-    invoke-interface {p2, p1, p3}, Lcom/huawei/appmarket/fh3;->j(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {p2, p1, p3}, Lcom/huawei/appmarket/hh3;->j(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/fh3;
+    invoke-static {}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->a3()Lcom/huawei/appmarket/hh3;
 
     move-result-object p2
 
-    invoke-interface {p2, p3}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p2, p3}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->Z2(Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;)V
 
@@ -110,7 +110,7 @@
 
     const-string p2, "click to dismiss mobile traffic dialog"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     return-void

@@ -1,12 +1,12 @@
 .class public final Lcom/huawei/appmarket/ja0;
-.super Lcom/huawei/appmarket/bb4;
+.super Lcom/huawei/appmarket/db4;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/bb4<",
+        "Lcom/huawei/appmarket/db4<",
         "Landroid/graphics/Bitmap;",
         ">;"
     }
@@ -18,7 +18,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/bb4;-><init>(Landroid/widget/ImageView;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/db4;-><init>(Landroid/widget/ImageView;)V
 
     return-void
 .end method
@@ -29,7 +29,7 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/bb4;-><init>(Landroid/widget/ImageView;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/db4;-><init>(Landroid/widget/ImageView;Z)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Lcom/huawei/appmarket/oj8;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/huawei/appmarket/uj8;->b:Landroid/view/View;
 
     .line 4
     .line 5

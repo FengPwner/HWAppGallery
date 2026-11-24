@@ -31,7 +31,7 @@
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    invoke-static {}, Lcom/huawei/appmarket/oobe/app/f;->a()Lcom/huawei/appmarket/lw7;
+    invoke-static {}, Lcom/huawei/appmarket/oobe/app/f;->a()Lcom/huawei/appmarket/rw7;
 
     move-result-object v1
 
@@ -39,20 +39,20 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v1, "OOBE"
 
     const-string v2, "gen json object failed!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

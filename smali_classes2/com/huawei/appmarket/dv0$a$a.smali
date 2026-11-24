@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/dv0$a;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appmarket/dv0$a;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,11 +43,11 @@
 
     iget-object v0, v0, Lcom/huawei/appmarket/dv0$a;->b:Lcom/huawei/appmarket/dv0;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/dv0;->a(Lcom/huawei/appmarket/dv0;)Lcom/huawei/appmarket/ml3;
+    invoke-static {v0}, Lcom/huawei/appmarket/dv0;->a(Lcom/huawei/appmarket/dv0;)Lcom/huawei/appmarket/ol3;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ml3;->N()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ol3;->N()V
 
     return-void
 .end method

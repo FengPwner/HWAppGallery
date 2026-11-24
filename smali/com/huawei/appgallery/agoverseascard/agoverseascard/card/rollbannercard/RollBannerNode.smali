@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/du4;
+.field private n:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -84,9 +84,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerNode;->n:Lcom/huawei/appmarket/du4;
+    iget-object v2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerNode;->n:Lcom/huawei/appmarket/gu4;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
@@ -101,11 +101,11 @@
     return p1
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerNode;->n:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerNode;->n:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
@@ -337,4 +337,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

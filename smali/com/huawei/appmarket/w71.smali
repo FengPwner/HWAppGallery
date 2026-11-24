@@ -138,7 +138,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appmarket/w71$b;-><init>(Lcom/huawei/appmarket/w71$a;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/p58;->b()Ljava/lang/reflect/Type;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/v58;->b()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
@@ -189,14 +189,14 @@
 
     .line 20
     :cond_0
-    new-instance v2, Lcom/huawei/appmarket/qt4;
+    new-instance v2, Lcom/huawei/appmarket/tt4;
 
     .line 21
     .line 22
     const/4 v3, 0x3
 
     .line 23
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
     .line 24
     .line 25

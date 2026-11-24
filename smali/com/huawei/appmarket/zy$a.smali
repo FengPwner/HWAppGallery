@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/zy$a;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/zy;
 .source "SourceFile"
 
 
@@ -9,175 +9,172 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1a
+    accessFlags = 0x18
     name = "a"
 .end annotation
 
 
 # instance fields
-.field public final a:I
+.field public final b:J
 
-.field public b:I
+.field public final c:Ljava/util/ArrayList;
 
-.field public c:I
-
-.field public d:J
-
-.field private final e:Z
-
-.field private final f:Lcom/huawei/appmarket/aw5;
-
-.field private final g:Lcom/huawei/appmarket/aw5;
-
-.field private h:I
-
-.field private i:I
+.field public final d:Ljava/util/ArrayList;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/aw5;Lcom/huawei/appmarket/aw5;Z)V
+.method public constructor <init>(IJ)V
     .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroidx/media3/common/ParserException;
-        }
-    .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/zy;-><init>(I)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/zy$a;->g:Lcom/huawei/appmarket/aw5;
+    iput-wide p2, p0, Lcom/huawei/appmarket/zy$a;->b:J
 
-    iput-object p2, p0, Lcom/huawei/appmarket/zy$a;->f:Lcom/huawei/appmarket/aw5;
+    new-instance p1, Ljava/util/ArrayList;
 
-    iput-boolean p3, p0, Lcom/huawei/appmarket/zy$a;->e:Z
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    const/16 p3, 0xc
+    iput-object p1, p0, Lcom/huawei/appmarket/zy$a;->c:Ljava/util/ArrayList;
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/aw5;->M(I)V
+    new-instance p1, Ljava/util/ArrayList;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/aw5;->E()I
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    move-result p2
-
-    iput p2, p0, Lcom/huawei/appmarket/zy$a;->a:I
-
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/aw5;->M(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aw5;->E()I
-
-    move-result p2
-
-    iput p2, p0, Lcom/huawei/appmarket/zy$a;->i:I
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aw5;->l()I
-
-    move-result p1
-
-    const/4 p2, 0x1
-
-    if-ne p1, p2, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p2, 0x0
-
-    :goto_0
-    const-string p1, "first_chunk must be 1"
-
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/c82;->a(Ljava/lang/String;Z)V
-
-    const/4 p1, -0x1
-
-    iput p1, p0, Lcom/huawei/appmarket/zy$a;->b:I
+    iput-object p1, p0, Lcom/huawei/appmarket/zy$a;->d:Ljava/util/ArrayList;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Z
-    .registers 5
+.method public final c(I)Lcom/huawei/appmarket/zy$a;
+    .registers 7
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/zy$a;->b:I
+    iget-object v0, p0, Lcom/huawei/appmarket/zy$a;->d:Ljava/util/ArrayList;
 
-    const/4 v1, 0x1
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
-    add-int/2addr v0, v1
+    move-result v1
 
-    iput v0, p0, Lcom/huawei/appmarket/zy$a;->b:I
+    const/4 v2, 0x0
 
-    iget v2, p0, Lcom/huawei/appmarket/zy$a;->a:I
+    :goto_0
+    if-ge v2, v1, :cond_1
 
-    if-ne v0, v2, :cond_0
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    const/4 v0, 0x0
+    move-result-object v3
 
-    return v0
+    check-cast v3, Lcom/huawei/appmarket/zy$a;
+
+    iget v4, v3, Lcom/huawei/appmarket/zy;->a:I
+
+    if-ne v4, p1, :cond_0
+
+    return-object v3
 
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appmarket/zy$a;->e:Z
-
-    iget-object v2, p0, Lcom/huawei/appmarket/zy$a;->f:Lcom/huawei/appmarket/aw5;
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/aw5;->F()J
-
-    move-result-wide v2
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v2}, Lcom/huawei/appmarket/aw5;->C()J
+    const/4 p1, 0x0
 
-    move-result-wide v2
+    return-object p1
+.end method
+
+.method public final d(I)Lcom/huawei/appmarket/zy$b;
+    .registers 7
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zy$a;->c:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    const/4 v2, 0x0
 
     :goto_0
-    iput-wide v2, p0, Lcom/huawei/appmarket/zy$a;->d:J
+    if-ge v2, v1, :cond_1
 
-    iget v0, p0, Lcom/huawei/appmarket/zy$a;->b:I
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    iget v2, p0, Lcom/huawei/appmarket/zy$a;->h:I
+    move-result-object v3
 
-    if-ne v0, v2, :cond_3
+    check-cast v3, Lcom/huawei/appmarket/zy$b;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/zy$a;->g:Lcom/huawei/appmarket/aw5;
+    iget v4, v3, Lcom/huawei/appmarket/zy;->a:I
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/aw5;->E()I
+    if-ne v4, p1, :cond_0
 
-    move-result v2
+    return-object v3
 
-    iput v2, p0, Lcom/huawei/appmarket/zy$a;->c:I
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
 
-    const/4 v2, 0x4
+    goto :goto_0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/aw5;->N(I)V
+    :cond_1
+    const/4 p1, 0x0
 
-    iget v2, p0, Lcom/huawei/appmarket/zy$a;->i:I
+    return-object p1
+.end method
 
-    sub-int/2addr v2, v1
+.method public final toString()Ljava/lang/String;
+    .registers 3
 
-    iput v2, p0, Lcom/huawei/appmarket/zy$a;->i:I
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    if-lez v2, :cond_2
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/aw5;->E()I
+    iget v1, p0, Lcom/huawei/appmarket/zy;->a:I
 
-    move-result v0
+    invoke-static {v1}, Lcom/huawei/appmarket/zy;->a(I)Ljava/lang/String;
 
-    sub-int/2addr v0, v1
+    move-result-object v1
 
-    goto :goto_1
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    :cond_2
-    const/4 v0, -0x1
+    const-string v1, " leaves: "
 
-    :goto_1
-    iput v0, p0, Lcom/huawei/appmarket/zy$a;->h:I
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    :cond_3
-    return v1
+    iget-object v1, p0, Lcom/huawei/appmarket/zy$a;->c:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->toArray()[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, " containers: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zy$a;->d:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->toArray()[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

@@ -33,7 +33,7 @@
 
     iget-object p2, p0, Lcom/huawei/jmessage/sources/b;->a:Lcom/huawei/jmessage/sources/BroadcastSource;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/g32;->fire(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/k32;->fire(Ljava/lang/Object;)V
 
     return-void
 .end method

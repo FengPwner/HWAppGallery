@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vl3;
+.implements Lcom/huawei/appmarket/xl3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/vl3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/xl3;
 .end annotation
 
 
@@ -33,7 +33,7 @@
     return-void
 .end method
 
-.method private static a()Lcom/huawei/appmarket/wl3;
+.method private static a()Lcom/huawei/appmarket/yl3;
     .registers 3
 
     .line 1
@@ -53,11 +53,11 @@
 
     const-string v2, "ConsentManager entry store"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/nn7;
+    new-instance v0, Lcom/huawei/appmarket/tn7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nn7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tn7;-><init>()V
 
     goto :goto_0
 
@@ -66,7 +66,7 @@
 
     const-string v2, "ConsentManager entry consentSdk"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appmarket/u01;
 
@@ -93,12 +93,12 @@
     const-string v3, "ConsentManager is disabled::Can not execute next process"
 
     :goto_0
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -115,7 +115,7 @@
 
     const-class v3, Lcom/huawei/appgallery/contentrestrict/api/IContentRestrictionAgent;
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -138,7 +138,7 @@
 
     const-string v1, "ConsentManager:Execute Next Process"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -147,14 +147,14 @@
 
 
 # virtual methods
-.method public final declared-synchronized asyncQueryConsent(Lcom/huawei/appmarket/r01;)Lcom/huawei/appmarket/hv7;
+.method public final declared-synchronized asyncQueryConsent(Lcom/huawei/appmarket/r01;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/r01;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/v01;",
             ">;"
         }
@@ -175,11 +175,11 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/o01;->a()Lcom/huawei/appmarket/wl3;
+    invoke-static {}, Lcom/huawei/appmarket/o01;->a()Lcom/huawei/appmarket/yl3;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/wl3;->asyncQueryConsent(Lcom/huawei/appmarket/r01;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/yl3;->asyncQueryConsent(Lcom/huawei/appmarket/r01;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -197,13 +197,13 @@
     :cond_1
     :goto_0
     :try_start_1
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/s01;->e(Lcom/huawei/appmarket/nv7;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/s01;->e(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_1
@@ -219,14 +219,14 @@
     throw p1
 .end method
 
-.method public final declared-synchronized asyncSignConsent(Lcom/huawei/appmarket/w01;)Lcom/huawei/appmarket/hv7;
+.method public final declared-synchronized asyncSignConsent(Lcom/huawei/appmarket/w01;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/w01;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/v01;",
             ">;"
         }
@@ -247,11 +247,11 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/o01;->a()Lcom/huawei/appmarket/wl3;
+    invoke-static {}, Lcom/huawei/appmarket/o01;->a()Lcom/huawei/appmarket/yl3;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/wl3;->asyncSignConsent(Lcom/huawei/appmarket/w01;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/yl3;->asyncSignConsent(Lcom/huawei/appmarket/w01;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0
@@ -269,13 +269,13 @@
     :cond_1
     :goto_0
     :try_start_1
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/s01;->e(Lcom/huawei/appmarket/nv7;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/s01;->e(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_1
@@ -291,12 +291,12 @@
     throw p1
 .end method
 
-.method public final declared-synchronized asyncSupportCode()Lcom/huawei/appmarket/hv7;
+.method public final declared-synchronized asyncSupportCode()Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -306,9 +306,9 @@
     monitor-enter p0
 
     :try_start_0
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/o01;->getSupportCode()I
 
@@ -324,13 +324,13 @@
 
     const-string v2, "consentSupportCode:ask consentSdk supported msg ?"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appmarket/u01;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/u01;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/u01;->a()Lcom/huawei/appmarket/hv7;
+    invoke-static {}, Lcom/huawei/appmarket/u01;->a()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_0
@@ -351,9 +351,9 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_1
@@ -379,7 +379,7 @@
 
     const-string v2, "disableConsent"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -438,7 +438,7 @@
 
     const-string v3, "ConsentManagerImpl"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method

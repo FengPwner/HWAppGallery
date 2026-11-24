@@ -330,7 +330,7 @@
 
     move-result-object v7
 
-    new-instance v8, Lcom/huawei/appmarket/tx8;
+    new-instance v8, Lcom/huawei/appmarket/zx8;
 
     move-object p1, v8
 
@@ -342,7 +342,7 @@
 
     move-wide/from16 p5, p10
 
-    invoke-direct/range {p1 .. p6}, Lcom/huawei/appmarket/tx8;-><init>(Lcom/huawei/hms/network/file/a/j/a/b;[DIJ)V
+    invoke-direct/range {p1 .. p6}, Lcom/huawei/appmarket/zx8;-><init>(Lcom/huawei/hms/network/file/a/j/a/b;[DIJ)V
 
     invoke-interface {v7, v8}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
 
@@ -1408,7 +1408,7 @@
     const-string v7, ",mobileNum:"
 
     .line 6
-    invoke-static {v5, v2, v6, v3, v7}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v2, v6, v3, v7}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 

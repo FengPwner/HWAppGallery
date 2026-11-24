@@ -46,7 +46,7 @@
     .registers 7
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x1d
 

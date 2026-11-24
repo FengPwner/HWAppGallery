@@ -138,7 +138,7 @@
     move-result-object p3
 
     .line 40
-    invoke-static {p0, p3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -171,7 +171,7 @@
 
     .line 56
     .line 57
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -199,188 +199,182 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
+    const-string p3, "ActivityGuidePopManager"
 
     .line 70
     .line 71
-    .line 72
-    move-result-object p3
+    const-string v0, "launchPopActivity cachedPopWindow set, starting activity"
 
+    .line 72
     .line 73
-    invoke-static {p3}, Lcom/huawei/appmarket/service/popwindow/a;->f(Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    const-string p3, "ActivityGuidePopManager"
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
     .line 77
     .line 78
-    const-string v0, "launchPopActivity saveShownId done, cachedPopWindow set, starting activity"
-
     .line 79
+    move-result-object p3
+
     .line 80
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
 
     .line 81
     .line 82
     .line 83
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+    move-result-object p3
 
     .line 84
+    new-instance v0, Lcom/huawei/appmarket/dn5;
+
     .line 85
     .line 86
-    move-result-object p3
-
-    .line 87
-    invoke-virtual {p3}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    .line 88
-    .line 89
-    .line 90
-    move-result-object p3
-
-    .line 91
-    new-instance v0, Lcom/huawei/appmarket/cn5;
-
-    .line 92
-    .line 93
     const-string v1, "pop.window.activity"
 
-    .line 94
-    .line 95
+    .line 87
+    .line 88
     const/4 v2, 0x0
 
+    .line 89
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
+
+    .line 90
+    .line 91
+    .line 92
+    invoke-virtual {v0, p3}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    .line 93
+    .line 94
+    .line 95
+    move-result-object v1
+
     .line 96
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    const/high16 v2, 0x10000000
 
     .line 97
     .line 98
-    .line 99
-    invoke-virtual {v0, p3}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
-
-    .line 100
-    .line 101
-    .line 102
-    move-result-object v1
-
-    .line 103
-    const/high16 v2, 0x10000000
-
-    .line 104
-    .line 105
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 106
-    .line 107
-    .line 108
+    .line 99
+    .line 100
+    .line 101
     const-string v2, "activityGuidePop"
 
-    .line 109
-    .line 110
+    .line 102
+    .line 103
     const/4 v3, 0x1
 
-    .line 111
+    .line 104
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 112
-    .line 113
-    .line 114
+    .line 105
+    .line 106
+    .line 107
     const-string v2, "activityGuidePopWindowId"
 
+    .line 108
+    .line 109
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
+
+    .line 110
+    .line 111
+    .line 112
+    move-result-object v3
+
+    .line 113
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 114
     .line 115
     .line 116
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->T()Ljava/lang/String;
+    const-string v2, "activityGuidePopImgUrl"
 
     .line 117
     .line 118
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getImgUrl()Ljava/lang/String;
+
     .line 119
+    .line 120
+    .line 121
     move-result-object v3
 
-    .line 120
+    .line 122
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 121
-    .line 122
     .line 123
-    const-string v2, "activityGuidePopImgUrl"
-
     .line 124
     .line 125
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getImgUrl()Ljava/lang/String;
+    const-string v2, "activityGuidePopDetailId"
 
     .line 126
     .line 127
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+
     .line 128
-    move-result-object v3
-
     .line 129
-    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
     .line 130
-    .line 131
-    .line 132
-    const-string v2, "activityGuidePopDetailId"
+    move-result-object p1
 
+    .line 131
+    invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 132
     .line 133
     .line 134
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/popwindow/QueryDualPopWindowResponse$PopWindow;->getDetailId()Ljava/lang/String;
+    const-string p1, "activityGuidePopPageUri"
 
     .line 135
     .line 136
+    invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
     .line 137
-    move-result-object p1
-
     .line 138
-    invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
     .line 139
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+
     .line 140
     .line 141
-    const-string p1, "activityGuidePopPageUri"
-
     .line 142
+    move-result-object p1
+
     .line 143
-    invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 144
     .line 145
     .line 146
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 147
     .line 148
     .line 149
-    move-result-object p1
-
-    .line 150
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 151
-    .line 152
-    .line 153
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
-
-    .line 154
-    .line 155
-    .line 156
     monitor-exit p0
 
-    .line 157
+    .line 150
     :goto_0
     return-void
 
-    .line 158
+    .line 151
     :catchall_0
     move-exception p1
 
-    .line 159
+    .line 152
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 160
+    .line 153
     throw p1
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
     .line 161
     .line 162
     .line 163
@@ -1148,7 +1142,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 29
     .line 30
@@ -1315,149 +1309,7 @@
     return-object v0
 .end method
 
-.method private static f(Ljava/lang/String;)V
-    .registers 10
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "saveShownId popWindowId="
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "ActivityGuidePopManager"
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
-
-    move-result-object v0
-
-    const-string v1, ""
-
-    const-string v2, "activity_guide_pop_shown_ids"
-
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/j50;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v1, Ljava/util/ArrayList;
-
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v3
-
-    const/4 v4, 0x0
-
-    const-string v5, ","
-
-    if-nez v3, :cond_1
-
-    invoke-virtual {v0, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object v0
-
-    array-length v3, v0
-
-    const/4 v6, 0x0
-
-    :goto_0
-    if-ge v6, v3, :cond_1
-
-    aget-object v7, v0, v6
-
-    invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v8
-
-    if-nez v8, :cond_0
-
-    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v8
-
-    if-nez v8, :cond_0
-
-    invoke-virtual {v1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    :cond_0
-    add-int/lit8 v6, v6, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    invoke-virtual {v1, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    :goto_1
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-
-    move-result p0
-
-    const/16 v0, 0x32
-
-    if-le p0, v0, :cond_2
-
-    invoke-virtual {v1, v4}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
-
-    goto :goto_1
-
-    :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
-
-    move-result-object p0
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_3
-
-    :goto_2
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/CharSequence;
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
-
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_3
-
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
-
-    goto :goto_2
-
-    :cond_3
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v2, v0}, Lcom/huawei/appmarket/j50;->n(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static g(Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo;Ljava/lang/String;II)V
+.method public static f(Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo;Ljava/lang/String;II)V
     .registers 8
 
     .line 1
@@ -1473,7 +1325,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, p1, v1, p2, v2}, Lcom/huawei/appmarket/z84;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v1, p2, v2}, Lcom/huawei/appmarket/kk4;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     .line 9
@@ -1503,7 +1355,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, p3, v1}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, p3, v1}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 24
     .line 25
@@ -1521,7 +1373,7 @@
     .line 31
     .line 32
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -1645,7 +1497,7 @@
     move-result-object p0
 
     .line 92
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 93
     .line 94
@@ -1782,7 +1634,7 @@
     move-result-object p3
 
     .line 156
-    invoke-static {v1, p3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
     .line 158
@@ -1824,7 +1676,7 @@
     .line 178
     .line 179
     .line 180
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 181
     .line 182

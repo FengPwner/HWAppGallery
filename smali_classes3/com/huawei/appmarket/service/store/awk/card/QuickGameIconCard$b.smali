@@ -97,11 +97,11 @@
 
     .line 21
     .line 22
-    iget-object p1, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/nb3;
+    iget-object p1, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/qb3;
 
     .line 23
     .line 24
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 25
     .line 26
@@ -229,11 +229,11 @@
     move-result-object p2
 
     .line 87
-    iget-object v1, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/nb3;
+    iget-object v1, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/qb3;
 
     .line 88
     .line 89
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 90
     .line 91
@@ -246,11 +246,11 @@
     .line 94
     .line 95
     .line 96
-    iget-object p2, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/qb3;
 
     .line 97
     .line 98
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 99
     .line 100
@@ -263,11 +263,11 @@
     .line 103
     .line 104
     .line 105
-    iget-object p2, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->F:Lcom/huawei/appmarket/qb3;
 
     .line 106
     .line 107
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->k()I
 
     .line 108
     .line 109
@@ -356,7 +356,7 @@
 
     .line 152
     .line 153
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 154
     .line 155
@@ -402,7 +402,7 @@
     .line 174
     .line 175
     .line 176
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/z84;->t(Landroid/content/Context;II)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/kk4;->v(Landroid/content/Context;II)V
 
     .line 177
     .line 178
@@ -1077,23 +1077,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

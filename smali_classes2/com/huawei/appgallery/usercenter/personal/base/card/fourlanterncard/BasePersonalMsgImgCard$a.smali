@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ks3;
+.implements Lcom/huawei/appmarket/ms3;
 
 
 # annotations
@@ -68,7 +68,7 @@
 
     check-cast p1, Lcom/huawei/hms/support/api/sns/UserUnreadMsgCountResult;
 
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -88,7 +88,7 @@
 
     const-string v3, "BasePersonalMsgImgCard"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/hms/support/api/sns/UserUnreadMsgCountResult;->getCount()I
 

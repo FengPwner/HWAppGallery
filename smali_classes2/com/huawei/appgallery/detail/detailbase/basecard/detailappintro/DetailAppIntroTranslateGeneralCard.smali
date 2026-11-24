@@ -8,7 +8,7 @@
 
 .field private L:Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;
 
-.field private M:Lcom/huawei/appmarket/u15;
+.field private M:Lcom/huawei/appmarket/x15;
 
 
 # direct methods
@@ -29,11 +29,11 @@
     return-object p0
 .end method
 
-.method static synthetic H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;)Lcom/huawei/appmarket/u15;
+.method static synthetic H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;)Lcom/huawei/appmarket/x15;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/u15;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/x15;
 
     return-object p0
 .end method
@@ -55,11 +55,11 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailprize/DetailDescGeneralCardEx;->E1(Landroid/view/View;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailprize/DetailDescGeneralCardEx;
 
-    new-instance v0, Lcom/huawei/appmarket/u15;
+    new-instance v0, Lcom/huawei/appmarket/x15;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/u15;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/x15;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/u15;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/x15;
 
     const v0, 0x7f0a060d
 
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object v1
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object v1
 
@@ -144,7 +144,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->K:Ljava/lang/String;
 
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -162,15 +162,15 @@
 
     const-string v1, "DetailAppIntroTranslateGeneralCard"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/u15;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->M:Lcom/huawei/appmarket/x15;
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->K:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->L:Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/u15;->e(Ljava/lang/String;Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x15;->e(Ljava/lang/String;Lcom/huawei/appgallery/detail/detailbase/common/RenderMachineImageView;)V
 
     :cond_0
     return-void

@@ -1,5 +1,5 @@
 .class Lcom/huawei/appgallery/cloudgame/gamedist/https/GetCloudGameBaseResponse;
-.super Lcom/huawei/appmarket/xf0;
+.super Lcom/huawei/appmarket/yf0;
 .source "SourceFile"
 
 # interfaces
@@ -12,13 +12,13 @@
 
 # instance fields
 .field private cgCtrlInfo_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private cgParams_:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameParamInfo;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -26,13 +26,13 @@
 .field private cgQueueInfo_:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameQueueInfo;
 
 .field private cgResourceInfo_:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameResourceInfo;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private cgSdkSoInfos_:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
@@ -52,7 +52,7 @@
 .method constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/xf0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/yf0;-><init>()V
 
     return-void
 .end method

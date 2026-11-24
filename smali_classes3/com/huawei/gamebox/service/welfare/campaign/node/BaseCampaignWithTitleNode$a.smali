@@ -1,5 +1,5 @@
 .class final Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode$a;
-.super Lcom/huawei/appmarket/bo5;
+.super Lcom/huawei/appmarket/co5;
 .source "SourceFile"
 
 
@@ -19,11 +19,11 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+.method constructor <init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/bo5;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/co5;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     iput-object p2, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode$a;->e:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
@@ -35,7 +35,7 @@
 .method public final onClick(Landroid/view/View;)V
     .registers 4
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/bo5;->onClick(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/co5;->onClick(Landroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode$a;->e:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/vq8;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/br8;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

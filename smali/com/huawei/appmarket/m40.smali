@@ -134,7 +134,7 @@
 
     if-lt v2, v3, :cond_0
 
-    invoke-static {v1, p0, p1}, Lcom/huawei/appmarket/jz;->u(Landroid/animation/Animator$AnimatorListener;Landroid/animation/Animator;Z)V
+    invoke-static {v1, p0, p1}, Lcom/huawei/appmarket/kz;->u(Landroid/animation/Animator$AnimatorListener;Landroid/animation/Animator;Z)V
 
     goto :goto_0
 
@@ -269,7 +269,7 @@
 
     if-lt v2, v3, :cond_0
 
-    invoke-static {v1, p0, p1}, Lcom/huawei/appmarket/jz;->D(Landroid/animation/Animator$AnimatorListener;Landroid/animation/Animator;Z)V
+    invoke-static {v1, p0, p1}, Lcom/huawei/appmarket/kz;->D(Landroid/animation/Animator$AnimatorListener;Landroid/animation/Animator;Z)V
 
     goto :goto_0
 

@@ -322,7 +322,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_11 .. :try_end_11} :catch_11
 
     :catch_11
-    invoke-static {}, Lcom/huawei/appmarket/jm4;->values()[Lcom/huawei/appmarket/jm4;
+    invoke-static {}, Lcom/huawei/appmarket/mm4;->values()[Lcom/huawei/appmarket/mm4;
 
     move-result-object v9
 
@@ -333,7 +333,7 @@
     sput-object v9, Lcom/google/protobuf/n$a;->b:[I
 
     :try_start_12
-    sget-object v10, Lcom/huawei/appmarket/jm4;->h:Lcom/huawei/appmarket/jm4;
+    sget-object v10, Lcom/huawei/appmarket/mm4;->h:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
@@ -347,7 +347,7 @@
     :try_start_13
     sget-object v9, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v10, Lcom/huawei/appmarket/jm4;->j:Lcom/huawei/appmarket/jm4;
+    sget-object v10, Lcom/huawei/appmarket/mm4;->j:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
@@ -361,7 +361,7 @@
     :try_start_14
     sget-object v9, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v10, Lcom/huawei/appmarket/jm4;->g:Lcom/huawei/appmarket/jm4;
+    sget-object v10, Lcom/huawei/appmarket/mm4;->g:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
@@ -375,7 +375,7 @@
     :try_start_15
     sget-object v9, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v10, Lcom/huawei/appmarket/jm4;->f:Lcom/huawei/appmarket/jm4;
+    sget-object v10, Lcom/huawei/appmarket/mm4;->f:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
@@ -389,7 +389,7 @@
     :try_start_16
     sget-object v3, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v9, Lcom/huawei/appmarket/jm4;->k:Lcom/huawei/appmarket/jm4;
+    sget-object v9, Lcom/huawei/appmarket/mm4;->k:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v9}, Ljava/lang/Enum;->ordinal()I
 
@@ -403,7 +403,7 @@
     :try_start_17
     sget-object v3, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v4, Lcom/huawei/appmarket/jm4;->d:Lcom/huawei/appmarket/jm4;
+    sget-object v4, Lcom/huawei/appmarket/mm4;->d:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -417,7 +417,7 @@
     :try_start_18
     sget-object v3, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v4, Lcom/huawei/appmarket/jm4;->e:Lcom/huawei/appmarket/jm4;
+    sget-object v4, Lcom/huawei/appmarket/mm4;->e:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -431,7 +431,7 @@
     :try_start_19
     sget-object v3, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v4, Lcom/huawei/appmarket/jm4;->i:Lcom/huawei/appmarket/jm4;
+    sget-object v4, Lcom/huawei/appmarket/mm4;->i:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -445,7 +445,7 @@
     :try_start_1a
     sget-object v3, Lcom/google/protobuf/n$a;->b:[I
 
-    sget-object v4, Lcom/huawei/appmarket/jm4;->l:Lcom/huawei/appmarket/jm4;
+    sget-object v4, Lcom/huawei/appmarket/mm4;->l:Lcom/huawei/appmarket/mm4;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 

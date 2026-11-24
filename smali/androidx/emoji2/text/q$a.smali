@@ -29,7 +29,7 @@
     .registers 2
 
     .line 1
-    instance-of p1, p1, Lcom/huawei/appmarket/e56;
+    instance-of p1, p1, Lcom/huawei/appmarket/g56;
 
     return p1
 .end method

@@ -342,7 +342,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->d(Ljava/lang/String;II)I
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kb1;->d(Ljava/lang/String;II)I
 
     .line 8
     .line 9

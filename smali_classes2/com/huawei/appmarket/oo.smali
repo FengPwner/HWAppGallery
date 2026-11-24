@@ -19,7 +19,7 @@
     .registers 2
 
     .line 1
-    const-string v0, "AppBit32UpdateFirstFilter"
+    const-string v0, "AppBit32UpdateSameVersionFilter"
 
     return-object v0
 .end method
@@ -28,7 +28,7 @@
     .registers 3
 
     .line 1
-    const/4 v0, 0x4
+    const/4 v0, 0x5
 
     if-ne p1, v0, :cond_0
 

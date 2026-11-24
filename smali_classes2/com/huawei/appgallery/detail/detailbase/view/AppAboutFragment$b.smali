@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/u15$b;
+.implements Lcom/huawei/appmarket/x15$b;
 
 
 # annotations
@@ -38,7 +38,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/om5;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->C()Z
 
     .line 2
     .line 3
@@ -67,7 +67,7 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -76,12 +76,12 @@
 
     .line 20
     :cond_0
-    invoke-static {v1, p1}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->p6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;I)V
+    invoke-static {v1, p1}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->q6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->q6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;)V
+    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;->r6(Lcom/huawei/appgallery/detail/detailbase/view/AppAboutFragment;)V
 
     .line 24
     .line 25
@@ -167,5 +167,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

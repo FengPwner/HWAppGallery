@@ -557,11 +557,11 @@
 
     .line 15
     .line 16
-    check-cast v0, Lcom/huawei/appmarket/gb1;
+    check-cast v0, Lcom/huawei/appmarket/hb1;
 
     .line 17
     .line 18
-    invoke-static {v2, v1, v0}, Landroidx/media3/exoplayer/video/h$a;->b(Landroidx/media3/exoplayer/video/h$a;Landroidx/media3/common/a;Lcom/huawei/appmarket/gb1;)V
+    invoke-static {v2, v1, v0}, Landroidx/media3/exoplayer/video/h$a;->b(Landroidx/media3/exoplayer/video/h$a;Landroidx/media3/common/a;Lcom/huawei/appmarket/hb1;)V
 
     .line 19
     .line 20
@@ -697,4 +697,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

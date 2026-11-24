@@ -108,7 +108,7 @@
 
     const/4 v1, 0x1
 
-    const-string v2, "x86"
+    const-string/jumbo v2, "x86"
 
     const-string v3, "X86"
 

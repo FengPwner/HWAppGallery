@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ml3;
+.implements Lcom/huawei/appmarket/ol3;
 
 
 # annotations
@@ -131,7 +131,7 @@
 
     invoke-direct/range {v5 .. v10}, Lcom/huawei/appgallery/appcomment/impl/bean/VoteReqBean;-><init>(ILjava/lang/String;IILjava/lang/String;)V
 
-    new-instance v2, Lcom/huawei/appmarket/nw;
+    new-instance v2, Lcom/huawei/appmarket/ow;
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/appcomment/impl/bean/UserReplyInfoCardBean;->a4()Lcom/huawei/appgallery/appcomment/impl/bean/UserReplyInfoCardBean$ReviewReply;
 
@@ -147,9 +147,9 @@
 
     move-result-object v4
 
-    invoke-direct {v2, v0, v4, v3}, Lcom/huawei/appmarket/nw;-><init>(Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-direct {v2, v0, v4, v3}, Lcom/huawei/appmarket/ow;-><init>(Ljava/lang/String;Landroid/content/Context;I)V
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 

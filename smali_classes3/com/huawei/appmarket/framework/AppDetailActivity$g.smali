@@ -89,17 +89,17 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/AppDetailActivity;->I3(Lcom/huawei/appmarket/framework/AppDetailActivity;)Lcom/huawei/appmarket/s85;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/AppDetailActivity;->I3(Lcom/huawei/appmarket/framework/AppDetailActivity;)Lcom/huawei/appmarket/v85;
 
     move-result-object v1
 
     const-string v2, "callServerTaskTime"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->d(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->d(Ljava/lang/String;)V
 
     const-string v2, "activityOnComplete"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->n(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->n(Ljava/lang/String;)Z
 
     new-instance v1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
 
@@ -109,11 +109,11 @@
 
     invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/framework/AppDetailActivity;->i1(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)Z
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/AppDetailActivity;->I3(Lcom/huawei/appmarket/framework/AppDetailActivity;)Lcom/huawei/appmarket/s85;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/AppDetailActivity;->I3(Lcom/huawei/appmarket/framework/AppDetailActivity;)Lcom/huawei/appmarket/v85;
 
     move-result-object p1
 
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/s85;->d(Ljava/lang/String;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/v85;->d(Ljava/lang/String;)V
 
     :cond_0
     return-void

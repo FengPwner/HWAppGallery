@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/eu2;
+.field private final b:Lcom/huawei/appmarket/hu2;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/eu2;)V
+.method public constructor <init>(Lcom/huawei/appmarket/hu2;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/GBoxDownloadButtonDelegate$b;->b:Lcom/huawei/appmarket/eu2;
+    iput-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/GBoxDownloadButtonDelegate$b;->b:Lcom/huawei/appmarket/hu2;
 
     return-void
 .end method
@@ -38,21 +38,21 @@
 .method public final onDismiss(Landroid/content/DialogInterface;)V
     .registers 3
 
-    iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/GBoxDownloadButtonDelegate$b;->b:Lcom/huawei/appmarket/eu2;
+    iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/GBoxDownloadButtonDelegate$b;->b:Lcom/huawei/appmarket/hu2;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yv1;->c()Lcom/huawei/appmarket/xk3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cw1;->c()Lcom/huawei/appmarket/zk3;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xk3;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/zk3;->a()V
 
     :cond_0
     return-void

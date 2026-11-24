@@ -1,332 +1,82 @@
 .class public final Lcom/huawei/appmarket/je9;
-.super Lcom/huawei/appmarket/y39;
+.super Lcom/huawei/appmarket/ba9;
 .source "SourceFile"
 
 
-# instance fields
-.field private b:[I
-
-.field private c:[Lcom/huawei/appmarket/f58;
-
-.field private d:[Lcom/huawei/appmarket/y75;
-
-
 # direct methods
-.method public constructor <init>([Lcom/huawei/appmarket/b09;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/y39;-><init>([Lcom/huawei/appmarket/b09;)V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ba9;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/jb9;)Ljava/lang/Object;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            "E:",
-            "Lcom/huawei/bohr/api/exception/BohrException;",
-            ">(",
-            "Lcom/huawei/appmarket/jb9<",
-            "TR;TE;>;)TR;^TE;"
-        }
-    .end annotation
-
+.method public final c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
+    .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
         }
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lcom/huawei/appmarket/jb9;->t(Lcom/huawei/appmarket/je9;)Ljava/lang/Object;
+    iget-object v0, p0, Lcom/huawei/appmarket/ba9;->a:Lcom/huawei/appmarket/ch9;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ch9;->c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ra9;->a(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p0, Lcom/huawei/appmarket/ba9;->b:Lcom/huawei/appmarket/ch9;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ch9;->c(Lcom/huawei/appmarket/y52;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ra9;->a(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    :goto_1
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final f([I)V
+.method public final e(Lcom/huawei/appmarket/y52;)Ljava/lang/String;
     .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+        }
+    .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/je9;->b:[I
+    const-string p1, "or"
 
-    return-void
-.end method
-
-.method public final g([Lcom/huawei/appmarket/y75;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/je9;->d:[Lcom/huawei/appmarket/y75;
-
-    return-void
-.end method
-
-.method public final h([Lcom/huawei/appmarket/f58;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/je9;->c:[Lcom/huawei/appmarket/f58;
-
-    return-void
-.end method
-
-.method public final i()[I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/je9;->b:[I
-
-    return-object v0
-.end method
-
-.method public final j()[Lcom/huawei/appmarket/f58;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/je9;->c:[Lcom/huawei/appmarket/f58;
-
-    return-object v0
-.end method
-
-.method public final k()[Lcom/huawei/appmarket/y75;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/je9;->d:[Lcom/huawei/appmarket/y75;
-
-    return-object v0
-.end method
-
-.method public final toString()Ljava/lang/String;
-    .registers 5
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    .line 2
-    .line 3
-    const-string v1, "("
-
-    .line 4
-    .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    const-string v1, ""
-
-    .line 9
-    .line 10
-    const/4 v2, 0x0
-
-    .line 11
-    :goto_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/y39;->c()I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v3
-
-    .line 15
-    shr-int/lit8 v3, v3, 0x1
-
-    .line 16
-    .line 17
-    if-ge v2, v3, :cond_0
-
-    .line 18
-    .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 20
-    .line 21
-    .line 22
-    shl-int/lit8 v1, v2, 0x1
-
-    .line 23
-    .line 24
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/y39;->d(I)Lcom/huawei/appmarket/b09;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object v3
-
-    .line 28
-    check-cast v3, Lcom/huawei/appmarket/s79;
-
-    .line 29
-    .line 30
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 31
-    .line 32
-    .line 33
-    add-int/lit8 v1, v1, 0x1
-
-    .line 34
-    .line 35
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/y39;->d(I)Lcom/huawei/appmarket/b09;
-
-    .line 36
-    .line 37
-    .line 38
-    move-result-object v1
-
-    .line 39
-    check-cast v1, Lcom/huawei/appmarket/fy8;
-
-    .line 40
-    .line 41
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 42
-    .line 43
-    .line 44
-    add-int/lit8 v2, v2, 0x1
-
-    .line 45
-    .line 46
-    const-string v1, ","
-
-    .line 47
-    .line 48
-    goto :goto_0
-
-    .line 49
-    :cond_0
-    const-string v1, ")"
-
-    .line 50
-    .line 51
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 52
-    .line 53
-    .line 54
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 55
-    .line 56
-    .line 57
-    move-result-object v0
-
-    .line 58
-    return-object v0
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
+    return-object p1
 .end method

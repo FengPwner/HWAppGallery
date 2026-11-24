@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Collection;
-.implements Lcom/huawei/appmarket/kq4;
+.implements Lcom/huawei/appmarket/nq4;
 
 
 # annotations
@@ -16,7 +16,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Collection<",
         "TE;>;",
-        "Lcom/huawei/appmarket/kq4;"
+        "Lcom/huawei/appmarket/nq4;"
     }
 .end annotation
 
@@ -121,7 +121,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -149,7 +149,7 @@
     .line 1
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/lang/Iterable;
 
@@ -522,6 +522,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z
@@ -596,7 +616,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/sz8;->f0(Ljava/util/Collection;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcom/huawei/appmarket/yz8;->f0(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -616,9 +636,9 @@
     .line 2
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/sz8;->g0(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/yz8;->g0(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -643,7 +663,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/kt0;->m(Ljava/lang/Iterable;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/qs2;I)Ljava/lang/String;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/lt0;->m(Ljava/lang/Iterable;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/ts2;I)Ljava/lang/String;
 
     move-result-object v0
 

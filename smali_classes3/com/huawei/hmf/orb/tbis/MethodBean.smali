@@ -35,23 +35,23 @@
 
     iput v1, p0, Lcom/huawei/hmf/orb/tbis/MethodBean;->paramLength:I
 
-    const-class v1, Lcom/huawei/appmarket/xe5;
+    const-class v1, Lcom/huawei/appmarket/af5;
 
     invoke-virtual {p1, v1}, Ljava/lang/reflect/Method;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/xe5;
+    check-cast v1, Lcom/huawei/appmarket/af5;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/xe5;->value()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/af5;->value()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/xe5;->value()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/af5;->value()Ljava/lang/String;
 
     move-result-object v2
 
@@ -65,7 +65,7 @@
 
     iput p1, p0, Lcom/huawei/hmf/orb/tbis/MethodBean;->isNamed:I
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/xe5;->value()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/af5;->value()Ljava/lang/String;
 
     move-result-object p1
 

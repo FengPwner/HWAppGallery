@@ -59,13 +59,13 @@
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/uc1;
+    new-instance v1, Lcom/huawei/appmarket/wc1;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/uc1;-><init>(Landroid/os/Handler;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/wc1;-><init>(Landroid/os/Handler;)V
 
     iget-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$k;->b:Landroid/media/AudioTrack$StreamEventCallback;
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ky0;->p(Landroid/media/AudioTrack;Lcom/huawei/appmarket/uc1;Landroid/media/AudioTrack$StreamEventCallback;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ky0;->p(Landroid/media/AudioTrack;Lcom/huawei/appmarket/wc1;Landroid/media/AudioTrack$StreamEventCallback;)V
 
     return-void
 .end method

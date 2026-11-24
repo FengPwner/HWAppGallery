@@ -145,7 +145,7 @@
     :cond_0
     iget v3, p0, Landroidx/recyclerview/widget/k$f;->m:F
 
-    invoke-static {v2, v1, v3, v1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v1, v3, v1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v1
 
@@ -174,7 +174,7 @@
     :cond_1
     iget v0, p0, Landroidx/recyclerview/widget/k$f;->m:F
 
-    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v1, v0, v1}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 

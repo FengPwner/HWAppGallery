@@ -25,7 +25,7 @@
 
     const-string v0, "idlerecordtitlecard"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hk0;->j(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ik0;->j(Ljava/lang/String;)I
 
     move-result v0
 
@@ -37,7 +37,7 @@
 
     const-string v0, "idlerecordcard"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hk0;->j(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ik0;->j(Ljava/lang/String;)I
 
     move-result v0
 

@@ -25,7 +25,7 @@
 .method public final registry()V
     .registers 4
 
-    const-class v0, Lcom/huawei/appmarket/d32;
+    const-class v0, Lcom/huawei/appmarket/h32;
 
     const-string v1, "mq"
 
@@ -33,7 +33,7 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
-    const-class v0, Lcom/huawei/appmarket/h32;
+    const-class v0, Lcom/huawei/appmarket/l32;
 
     const/4 v1, 0x0
 

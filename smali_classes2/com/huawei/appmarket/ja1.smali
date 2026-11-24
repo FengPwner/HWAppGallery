@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/ja1;
-.super Lcom/huawei/appmarket/ri3$a;
+.super Lcom/huawei/appmarket/ti3$a;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ri3$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ti3$a;-><init>()V
 
     return-void
 .end method
@@ -35,16 +35,16 @@
     .line 7
     .line 8
     .line 9
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 10
     .line 11
-    const-string p2, "removeProtectedDir failed: "
+    const-string p2, "removeProtectedFile failed: "
 
     .line 12
     .line 13
     :goto_0
-    invoke-static {p2, p3, p1, v1}, Lcom/huawei/appmarket/om5;->r(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/fu5;Ljava/lang/String;)V
+    invoke-static {p2, p3, p1, v1}, Lcom/huawei/appmarket/uq5;->s(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/hu5;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -62,11 +62,11 @@
     .line 20
     .line 21
     .line 22
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 23
     .line 24
-    const-string p2, "removeProtectedDir success: "
+    const-string p2, "removeProtectedFile success: "
 
     .line 25
     .line 26

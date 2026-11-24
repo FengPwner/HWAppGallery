@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity;->handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+    value = Lcom/huawei/gamebox/service/welfare/gift/activity/CaptchaTransferActivity;->handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -62,12 +62,12 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    new-instance p1, Lcom/huawei/appmarket/vz2;
+    new-instance p1, Lcom/huawei/appmarket/yz2;
 
     .line 9
     .line 10
@@ -86,7 +86,7 @@
     const/4 v2, 0x1
 
     .line 17
-    invoke-direct {p1, v1, v2}, Lcom/huawei/appmarket/vz2;-><init>(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;Z)V
+    invoke-direct {p1, v1, v2}, Lcom/huawei/appmarket/yz2;-><init>(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;Z)V
 
     .line 18
     .line 19
@@ -150,7 +150,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/vz2;->c(ILandroid/content/Context;)V
+    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/yz2;->c(ILandroid/content/Context;)V
 
     .line 52
     .line 53
@@ -164,7 +164,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/s03;->m(IZ)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/v03;->m(IZ)V
 
     .line 59
     .line 60
@@ -173,7 +173,7 @@
 
     .line 62
     :cond_1
-    invoke-virtual {p1, v0, p2, v1}, Lcom/huawei/appmarket/vz2;->a(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GetGiftExchangeResponse;Lcom/huawei/gamebox/service/welfare/gift/bean/PlayerRoleInfo;)V
+    invoke-virtual {p1, v0, p2, v1}, Lcom/huawei/appmarket/yz2;->a(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GetGiftExchangeResponse;Lcom/huawei/gamebox/service/welfare/gift/bean/PlayerRoleInfo;)V
 
     .line 63
     .line 64
@@ -182,7 +182,7 @@
 
     .line 66
     :cond_2
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/vz2;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/yz2;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     .line 67
     .line 68
@@ -296,5 +296,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

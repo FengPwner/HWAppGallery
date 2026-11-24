@@ -146,7 +146,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/w68;->B(Landroid/content/Context;F)I
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/b78;->B(Landroid/content/Context;F)I
 
     move-result v0
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     invoke-virtual {p0}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->getPercentage()Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
@@ -216,24 +216,24 @@
     return-void
 .end method
 
-.method public getDownloadButtonStyle()Lcom/huawei/appmarket/ek1;
+.method public getDownloadButtonStyle()Lcom/huawei/appmarket/hk1;
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/rd1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonStyle:Lcom/huawei/appmarket/td1;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/ek1;
+    instance-of v1, v0, Lcom/huawei/appmarket/hk1;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/ek1;
+    check-cast v0, Lcom/huawei/appmarket/hk1;
 
     return-object v0
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/ek1;
+    new-instance v0, Lcom/huawei/appmarket/hk1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ek1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hk1;-><init>()V
 
     return-object v0
 .end method
@@ -286,7 +286,7 @@
 
     .line 22
     .line 23
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 24
     .line 25
@@ -298,7 +298,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -390,14 +390,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public refreshStatus()Lcom/huawei/appmarket/dt1;
+.method public refreshStatus()Lcom/huawei/appmarket/gt1;
     .registers 12
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     .line 2
     .line 3

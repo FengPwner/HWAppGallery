@@ -81,13 +81,13 @@
 
     const-class v1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-interface {v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     move-result-object v0
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard$b;-><init>(Lcom/huawei/appmarket/service/store/awk/card/PurchaseHistoryCard;)V
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/gw7;->a(Lcom/huawei/appmarket/xm5;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/mw7;->a(Lcom/huawei/appmarket/ym5;)V
 
     invoke-static {}, Lcom/huawei/appmarket/zc0;->d()Lcom/huawei/appmarket/zc0;
 

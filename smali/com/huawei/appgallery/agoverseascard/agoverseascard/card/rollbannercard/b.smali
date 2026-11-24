@@ -50,7 +50,7 @@
 
     move-result v3
 
-    invoke-static {p2, v0, v1, v2, v3}, Lcom/huawei/appmarket/je8;->a(Landroid/view/MotionEvent;Landroid/content/Context;Lcom/huawei/uikit/hwviewpager/widget/HwPagerAdapter;Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;I)Z
+    invoke-static {p2, v0, v1, v2, v3}, Lcom/huawei/appmarket/oe8;->a(Landroid/view/MotionEvent;Landroid/content/Context;Lcom/huawei/uikit/hwviewpager/widget/HwPagerAdapter;Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;I)Z
 
     move-result v0
 

@@ -39,7 +39,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->d(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/fs;->a(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 12
     .line 13
@@ -172,5 +172,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

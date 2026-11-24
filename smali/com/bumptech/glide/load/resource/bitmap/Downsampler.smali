@@ -12,30 +12,30 @@
 
 
 # static fields
-.field public static final ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/nr5;
+.field public static final ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final DECODE_FORMAT:Lcom/huawei/appmarket/nr5;
+.field public static final DECODE_FORMAT:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "Lcom/bumptech/glide/load/DecodeFormat;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final DOWNSAMPLE_STRATEGY:Lcom/huawei/appmarket/nr5;
+.field public static final DOWNSAMPLE_STRATEGY:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "Lcom/bumptech/glide/load/resource/bitmap/a;",
             ">;"
         }
@@ -47,10 +47,10 @@
 
 .field private static final EMPTY_CALLBACKS:Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;
 
-.field public static final FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/nr5;
+.field public static final FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
+            "Lcom/huawei/appmarket/pr5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -79,11 +79,11 @@
     .end annotation
 .end field
 
-.field public static final PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/nr5;
+.field public static final PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/pr5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nr5<",
-            "Lcom/huawei/appmarket/k56;",
+            "Lcom/huawei/appmarket/pr5<",
+            "Lcom/huawei/appmarket/m56;",
             ">;"
         }
     .end annotation
@@ -107,11 +107,11 @@
 # instance fields
 .field private final bitmapPool:Lcom/huawei/appmarket/ka0;
 
-.field private final byteArrayPool:Lcom/huawei/appmarket/hx;
+.field private final byteArrayPool:Lcom/huawei/appmarket/ix;
 
 .field private final displayMetrics:Landroid/util/DisplayMetrics;
 
-.field private final hardwareConfigState:Lcom/huawei/appmarket/t43;
+.field private final hardwareConfigState:Lcom/huawei/appmarket/w43;
 
 .field private final parsers:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -137,7 +137,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/nr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/nr5;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/pr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/pr5;
 
     .line 6
     .line 7
@@ -145,7 +145,7 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/nr5;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/pr5;
 
     .line 10
     .line 11
@@ -153,7 +153,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/nr5;->d(Ljava/lang/String;)Lcom/huawei/appmarket/nr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/pr5;->d(Ljava/lang/String;)Lcom/huawei/appmarket/pr5;
 
     .line 14
     .line 15
@@ -161,15 +161,15 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/nr5;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/pr5;
 
     .line 18
     .line 19
-    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/nr5;
+    sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/pr5;
 
     .line 20
     .line 21
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DOWNSAMPLE_STRATEGY:Lcom/huawei/appmarket/nr5;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DOWNSAMPLE_STRATEGY:Lcom/huawei/appmarket/pr5;
 
     .line 22
     .line 23
@@ -181,7 +181,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/nr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/nr5;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/pr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/pr5;
 
     .line 28
     .line 29
@@ -189,7 +189,7 @@
     move-result-object v1
 
     .line 31
-    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/nr5;
+    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/pr5;
 
     .line 32
     .line 33
@@ -197,7 +197,7 @@
 
     .line 34
     .line 35
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/nr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/nr5;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/pr5;->c(Ljava/lang/Object;Ljava/lang/String;)Lcom/huawei/appmarket/pr5;
 
     .line 36
     .line 37
@@ -205,7 +205,7 @@
     move-result-object v0
 
     .line 39
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/nr5;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/pr5;
 
     .line 40
     .line 41
@@ -299,7 +299,7 @@
 
     .line 86
     .line 87
-    sget v0, Lcom/huawei/appmarket/ie8;->d:I
+    sget v0, Lcom/huawei/appmarket/ne8;->d:I
 
     .line 88
     .line 89
@@ -358,9 +358,10 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public constructor <init>(Ljava/util/List;Landroid/util/DisplayMetrics;Lcom/huawei/appmarket/ka0;Lcom/huawei/appmarket/hx;)V
+.method public constructor <init>(Ljava/util/List;Landroid/util/DisplayMetrics;Lcom/huawei/appmarket/ka0;Lcom/huawei/appmarket/ix;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -370,7 +371,7 @@
             ">;",
             "Landroid/util/DisplayMetrics;",
             "Lcom/huawei/appmarket/ka0;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")V"
         }
     .end annotation
@@ -381,7 +382,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/t43;->a()Lcom/huawei/appmarket/t43;
+    invoke-static {}, Lcom/huawei/appmarket/w43;->a()Lcom/huawei/appmarket/w43;
 
     .line 5
     .line 6
@@ -389,7 +390,7 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->hardwareConfigState:Lcom/huawei/appmarket/t43;
+    iput-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->hardwareConfigState:Lcom/huawei/appmarket/w43;
 
     .line 9
     .line 10
@@ -421,7 +422,7 @@
 
     .line 23
     .line 24
-    iput-object p4, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iput-object p4, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
     .line 25
     .line 26
@@ -952,11 +953,11 @@
     .registers 9
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->hardwareConfigState:Lcom/huawei/appmarket/t43;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->hardwareConfigState:Lcom/huawei/appmarket/w43;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p6, p7, p3, p4}, Lcom/huawei/appmarket/t43;->c(IIZZ)Z
+    invoke-virtual {v0, p6, p7, p3, p4}, Lcom/huawei/appmarket/w43;->c(IIZZ)Z
 
     .line 4
     .line 5
@@ -968,7 +969,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/nm4;->f()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Lcom/huawei/appmarket/qm4;->f()Landroid/graphics/Bitmap$Config;
 
     .line 10
     .line 11
@@ -1932,7 +1933,7 @@
     move-object/from16 v14, v16
 
     .line 1
-    invoke-static {v1, v11, v14, v13, v7}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v11, v14, v13, v7}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -1941,11 +1942,11 @@
     move/from16 v11, p5
 
     .line 2
-    invoke-static {v1, v11, v7, v4, v14}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v11, v7, v4, v14}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     const-string v4, "], power of two scaled: ["
 
-    invoke-static {v1, v5, v4, v2, v14}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v5, v4, v2, v14}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 3
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -2032,7 +2033,7 @@
     const-string v1, "], target: ["
 
     .line 4
-    invoke-static {v2, v11, v14, v13, v1}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v11, v14, v13, v1}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 5
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -2090,17 +2091,17 @@
     return-void
 .end method
 
-.method private decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+.method private decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
     .registers 21
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/bumptech/glide/load/resource/bitmap/b;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             "Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -2117,13 +2118,13 @@
 
     move-object/from16 v0, p4
 
-    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
     const/high16 v2, 0x10000
 
     const-class v3, [B
 
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/hx;->d(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/ix;->d(ILjava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2137,9 +2138,9 @@
 
     iput-object v13, v14, Landroid/graphics/BitmapFactory$Options;->inTempStorage:[B
 
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->DECODE_FORMAT:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2147,19 +2148,19 @@
 
     check-cast v5, Lcom/bumptech/glide/load/DecodeFormat;
 
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->PREFERRED_COLOR_SPACE:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v1
 
     move-object v6, v1
 
-    check-cast v6, Lcom/huawei/appmarket/k56;
+    check-cast v6, Lcom/huawei/appmarket/m56;
 
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/a;->f:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2167,9 +2168,9 @@
 
     check-cast v4, Lcom/bumptech/glide/load/resource/bitmap/a;
 
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2179,15 +2180,15 @@
 
     move-result v10
 
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/nr5;
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->ALLOW_HARDWARE_CONFIG:Lcom/huawei/appmarket/pr5;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tr5;->c(Lcom/huawei/appmarket/nr5;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vr5;->c(Lcom/huawei/appmarket/pr5;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2224,7 +2225,7 @@
     move-object/from16 v11, p5
 
     :try_start_0
-    invoke-direct/range {v1 .. v11}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decodeFromWrappedStreams(Lcom/bumptech/glide/load/resource/bitmap/b;Landroid/graphics/BitmapFactory$Options;Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/bumptech/glide/load/DecodeFormat;Lcom/huawei/appmarket/k56;ZIIZLcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Landroid/graphics/Bitmap;
+    invoke-direct/range {v1 .. v11}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decodeFromWrappedStreams(Lcom/bumptech/glide/load/resource/bitmap/b;Landroid/graphics/BitmapFactory$Options;Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/bumptech/glide/load/DecodeFormat;Lcom/huawei/appmarket/m56;ZIIZLcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -2238,9 +2239,9 @@
 
     invoke-static {v14}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->releaseOptions(Landroid/graphics/BitmapFactory$Options;)V
 
-    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-interface {v1, v13}, Lcom/huawei/appmarket/hx;->put(Ljava/lang/Object;)V
+    invoke-interface {v1, v13}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
 
     return-object v0
 
@@ -2249,14 +2250,14 @@
 
     invoke-static {v14}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->releaseOptions(Landroid/graphics/BitmapFactory$Options;)V
 
-    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v1, v12, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-interface {v1, v13}, Lcom/huawei/appmarket/hx;->put(Ljava/lang/Object;)V
+    invoke-interface {v1, v13}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
 
     throw v0
 .end method
 
-.method private decodeFromWrappedStreams(Lcom/bumptech/glide/load/resource/bitmap/b;Landroid/graphics/BitmapFactory$Options;Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/bumptech/glide/load/DecodeFormat;Lcom/huawei/appmarket/k56;ZIIZLcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Landroid/graphics/Bitmap;
+.method private decodeFromWrappedStreams(Lcom/bumptech/glide/load/resource/bitmap/b;Landroid/graphics/BitmapFactory$Options;Lcom/bumptech/glide/load/resource/bitmap/a;Lcom/bumptech/glide/load/DecodeFormat;Lcom/huawei/appmarket/m56;ZIIZLcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Landroid/graphics/Bitmap;
     .registers 39
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -2274,7 +2275,7 @@
 
     move-object/from16 v4, p10
 
-    sget v0, Lcom/huawei/appmarket/uy4;->b:I
+    sget v0, Lcom/huawei/appmarket/xy4;->b:I
 
     .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J
@@ -2320,7 +2321,7 @@
 
     move-result v14
 
-    sget v9, Lcom/huawei/appmarket/x28;->e:I
+    sget v9, Lcom/huawei/appmarket/d38;->e:I
 
     packed-switch v14, :pswitch_data_0
 
@@ -2580,14 +2581,14 @@
     const-string v9, "] for source ["
 
     .line 3
-    invoke-static {v5, v2, v7, v3, v9}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v2, v7, v3, v9}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 
     const-string v9, "], sampleSize: "
 
     .line 4
-    invoke-static {v5, v11, v7, v10, v9}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v5, v11, v7, v10, v9}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 5
     invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -2643,43 +2644,43 @@
 
     if-lt v0, v1, :cond_c
 
-    sget-object v0, Lcom/huawei/appmarket/k56;->b:Lcom/huawei/appmarket/k56;
+    sget-object v0, Lcom/huawei/appmarket/m56;->b:Lcom/huawei/appmarket/m56;
 
     if-ne v13, v0, :cond_b
 
-    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/jz;->g(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
+    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/kz;->g(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
     if-eqz v0, :cond_b
 
-    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/jz;->g(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
+    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/kz;->g(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jz;->B(Landroid/graphics/ColorSpace;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/kz;->B(Landroid/graphics/ColorSpace;)Z
 
     move-result v0
 
     if-eqz v0, :cond_b
 
-    invoke-static {}, Lcom/huawei/appmarket/jz;->f()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, Lcom/huawei/appmarket/kz;->f()Landroid/graphics/ColorSpace$Named;
 
     move-result-object v0
 
     goto :goto_9
 
     :cond_b
-    invoke-static {}, Lcom/huawei/appmarket/jz;->C()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, Lcom/huawei/appmarket/kz;->C()Landroid/graphics/ColorSpace$Named;
 
     move-result-object v0
 
     :goto_9
-    invoke-static {v0}, Lcom/huawei/appmarket/jz;->h(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {v0}, Lcom/huawei/appmarket/kz;->h(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
-    invoke-static {v14, v0}, Lcom/huawei/appmarket/jz;->y(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
+    invoke-static {v14, v0}, Lcom/huawei/appmarket/kz;->y(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
 
     goto :goto_a
 
@@ -2688,15 +2689,15 @@
 
     if-lt v0, v1, :cond_d
 
-    invoke-static {}, Lcom/huawei/appmarket/jz;->C()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, Lcom/huawei/appmarket/kz;->C()Landroid/graphics/ColorSpace$Named;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jz;->h(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {v0}, Lcom/huawei/appmarket/kz;->h(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
-    invoke-static {v14, v0}, Lcom/huawei/appmarket/jz;->y(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
+    invoke-static {v14, v0}, Lcom/huawei/appmarket/kz;->y(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
 
     :cond_d
     :goto_a
@@ -2747,7 +2748,7 @@
 
     move/from16 v2, v26
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/x28;->h(Lcom/huawei/appmarket/ka0;Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/d38;->h(Lcom/huawei/appmarket/ka0;Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -2820,7 +2821,7 @@
 
     iget-object v3, p1, Landroid/graphics/BitmapFactory$Options;->outMimeType:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/x28;->g()Ljava/util/concurrent/locks/Lock;
+    invoke-static {}, Lcom/huawei/appmarket/d38;->g()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v4
 
@@ -2834,7 +2835,7 @@
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {}, Lcom/huawei/appmarket/x28;->g()Ljava/util/concurrent/locks/Lock;
+    invoke-static {}, Lcom/huawei/appmarket/d38;->g()Ljava/util/concurrent/locks/Lock;
 
     move-result-object p1
 
@@ -2888,7 +2889,7 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    invoke-static {}, Lcom/huawei/appmarket/x28;->g()Ljava/util/concurrent/locks/Lock;
+    invoke-static {}, Lcom/huawei/appmarket/d38;->g()Ljava/util/concurrent/locks/Lock;
 
     move-result-object p1
 
@@ -2906,7 +2907,7 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/x28;->g()Ljava/util/concurrent/locks/Lock;
+    invoke-static {}, Lcom/huawei/appmarket/d38;->g()Ljava/util/concurrent/locks/Lock;
 
     move-result-object p1
 
@@ -3210,7 +3211,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, p4, v1, p0, v2}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p4, v1, p0, v2}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 17
     .line 18
@@ -3255,7 +3256,7 @@
 
     .line 40
     .line 41
-    invoke-static {v0, p0, p1, p5, v2}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p0, p1, p5, v2}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 42
     .line 43
@@ -3358,7 +3359,7 @@
     .line 96
     .line 97
     .line 98
-    invoke-static {p7, p8}, Lcom/huawei/appmarket/uy4;->a(J)D
+    invoke-static {p7, p8}, Lcom/huawei/appmarket/xy4;->a(J)D
 
     .line 99
     .line 100
@@ -3507,7 +3508,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, p1, v2, p2, v3}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2, p2, v3}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 10
     .line 11
@@ -4504,11 +4505,11 @@
 
     if-lt v3, v4, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jz;->x(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/kz;->x(Landroid/graphics/BitmapFactory$Options;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/fw1;->m(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/jw1;->m(Landroid/graphics/BitmapFactory$Options;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/fw1;->t(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/jw1;->t(Landroid/graphics/BitmapFactory$Options;)V
 
     :cond_0
     iput v1, p0, Landroid/graphics/BitmapFactory$Options;->outWidth:I
@@ -4551,7 +4552,7 @@
 
     iget-object v0, p0, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    invoke-static {}, Lcom/huawei/appmarket/nm4;->f()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Lcom/huawei/appmarket/qm4;->f()Landroid/graphics/Bitmap$Config;
 
     move-result-object v1
 
@@ -4560,7 +4561,7 @@
     return-void
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/jz;->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap$Config;
+    invoke-static {p0}, Lcom/huawei/appmarket/kz;->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap$Config;
 
     move-result-object v0
 
@@ -4594,16 +4595,16 @@
 
 
 # virtual methods
-.method public decode(Landroid/os/ParcelFileDescriptor;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public decode(Landroid/os/ParcelFileDescriptor;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/os/ParcelFileDescriptor;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -4620,9 +4621,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->parsers:Ljava/util/List;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$e;-><init>(Landroid/os/ParcelFileDescriptor;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$e;-><init>(Landroid/os/ParcelFileDescriptor;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
 
     sget-object v5, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->EMPTY_CALLBACKS:Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;
 
@@ -4634,23 +4635,23 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public decode(Ljava/io/InputStream;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public decode(Ljava/io/InputStream;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/io/InputStream;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -4675,24 +4676,24 @@
 
     move-object v4, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Ljava/io/InputStream;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-virtual/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Ljava/io/InputStream;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public decode(Ljava/io/InputStream;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+.method public decode(Ljava/io/InputStream;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
     .registers 12
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/io/InputStream;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             "Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -4709,9 +4710,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->parsers:Ljava/util/List;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$d;-><init>(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$d;-><init>(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
 
     move-object v0, p0
 
@@ -4723,23 +4724,23 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public decode(Ljava/nio/ByteBuffer;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+.method public decode(Ljava/nio/ByteBuffer;IILcom/huawei/appmarket/vr5;)Lcom/huawei/appmarket/gu6;
     .registers 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/nio/ByteBuffer;",
             "II",
-            "Lcom/huawei/appmarket/tr5;",
+            "Lcom/huawei/appmarket/vr5;",
             ")",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "Landroid/graphics/Bitmap;",
             ">;"
         }
@@ -4756,9 +4757,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->parsers:Ljava/util/List;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$b;-><init>(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$b;-><init>(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
 
     sget-object v5, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->EMPTY_CALLBACKS:Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;
 
@@ -4770,14 +4771,14 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method decode(Ljava/io/File;IILcom/huawei/appmarket/tr5;)V
+.method decode(Ljava/io/File;IILcom/huawei/appmarket/vr5;)V
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -4790,9 +4791,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->parsers:Ljava/util/List;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$c;-><init>(Ljava/io/File;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$c;-><init>(Ljava/io/File;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
 
     sget-object v5, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->EMPTY_CALLBACKS:Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;
 
@@ -4804,12 +4805,12 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     return-void
 .end method
 
-.method decode([BIILcom/huawei/appmarket/tr5;)V
+.method decode([BIILcom/huawei/appmarket/vr5;)V
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -4822,9 +4823,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->parsers:Ljava/util/List;
 
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/hx;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->byteArrayPool:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$a;-><init>([BLjava/util/List;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v1, p1, v0, v2}, Lcom/bumptech/glide/load/resource/bitmap/b$a;-><init>([BLjava/util/List;Lcom/huawei/appmarket/ix;)V
 
     sget-object v5, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->EMPTY_CALLBACKS:Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;
 
@@ -4836,7 +4837,7 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/tr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/cu6;
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/resource/bitmap/Downsampler;->decode(Lcom/bumptech/glide/load/resource/bitmap/b;IILcom/huawei/appmarket/vr5;Lcom/bumptech/glide/load/resource/bitmap/Downsampler$b;)Lcom/huawei/appmarket/gu6;
 
     return-void
 .end method

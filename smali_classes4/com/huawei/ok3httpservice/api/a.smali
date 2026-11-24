@@ -3,27 +3,27 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gd3;
+.implements Lcom/huawei/appmarket/id3;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/vu6;
+.field final synthetic a:Lcom/huawei/appmarket/zu6;
 
-.field final synthetic b:Lcom/huawei/appmarket/xu6;
+.field final synthetic b:Lcom/huawei/appmarket/bv6;
 
-.field final synthetic c:Lcom/huawei/appmarket/fd3;
+.field final synthetic c:Lcom/huawei/appmarket/hd3;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/vu6;Lcom/huawei/appmarket/xu6;Lcom/huawei/appmarket/fd3;Lcom/huawei/appmarket/eh0;)V
+.method constructor <init>(Lcom/huawei/appmarket/zu6;Lcom/huawei/appmarket/bv6;Lcom/huawei/appmarket/hd3;Lcom/huawei/appmarket/fh0;)V
     .registers 5
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/vu6;
+    iput-object p1, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/zu6;
 
-    iput-object p2, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/xu6;
+    iput-object p2, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/bv6;
 
-    iput-object p3, p0, Lcom/huawei/ok3httpservice/api/a;->c:Lcom/huawei/appmarket/fd3;
+    iput-object p3, p0, Lcom/huawei/ok3httpservice/api/a;->c:Lcom/huawei/appmarket/hd3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,11 +36,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/xu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/bv6;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xu6;->v()Lcom/huawei/appmarket/mc0;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bv6;->v()Lcom/huawei/appmarket/mc0;
 
     .line 4
     .line 5
@@ -354,6 +354,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final a()Ljava/lang/String;
@@ -366,9 +386,9 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/xu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/bv6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xu6;->w()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bv6;->w()Ljava/lang/String;
 
     move-result-object v0
     :try_end_0
@@ -385,7 +405,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/huawei/ok3httpservice/api/a;->c:Lcom/huawei/appmarket/fd3;
+    iget-object v2, p0, Lcom/huawei/ok3httpservice/api/a;->c:Lcom/huawei/appmarket/hd3;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -405,7 +425,7 @@
 
     const-string v2, "Ok3HttpService"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Lcom/huawei/serverrequest/api/service/HttpException;
 
@@ -420,9 +440,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/xu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->b:Lcom/huawei/appmarket/bv6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xu6;->t()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bv6;->t()J
 
     move-result-wide v0
 
@@ -433,9 +453,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->w()I
 
     move-result v0
 
@@ -446,9 +466,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->C()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->C()Ljava/lang/String;
 
     move-result-object v0
 
@@ -471,26 +491,26 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iget-object v1, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/vu6;
+    iget-object v1, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vu6;->A()Lcom/huawei/appmarket/m63;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zu6;->A()Lcom/huawei/appmarket/p63;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
     :goto_0
-    invoke-virtual {v1}, Lcom/huawei/appmarket/m63;->size()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/p63;->size()I
 
     move-result v3
 
     if-ge v2, v3, :cond_0
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/m63;->c(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/p63;->c(I)Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/m63;->f(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/p63;->f(I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -507,17 +527,17 @@
 .method public final url()Ljava/lang/String;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/vu6;
+    iget-object v0, p0, Lcom/huawei/ok3httpservice/api/a;->a:Lcom/huawei/appmarket/zu6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->H()Lcom/huawei/appmarket/gr6;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6;->i()Lcom/huawei/appmarket/id3;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->H()Lcom/huawei/appmarket/jr6;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3;->o()Ljava/net/URL;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6;->i()Lcom/huawei/appmarket/kd3;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kd3;->o()Ljava/net/URL;
 
     move-result-object v0
 

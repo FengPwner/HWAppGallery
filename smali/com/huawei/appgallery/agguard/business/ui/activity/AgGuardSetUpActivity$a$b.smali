@@ -45,7 +45,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;
 
-    invoke-static {}, Lcom/huawei/appmarket/f12;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/j12;->a()Z
 
     move-result v0
 

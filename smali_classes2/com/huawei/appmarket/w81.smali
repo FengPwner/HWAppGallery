@@ -1,763 +1,824 @@
-.class public Lcom/huawei/appmarket/w81;
+.class public final synthetic Lcom/huawei/appmarket/w81;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Ljava/lang/Object;
+
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method private f(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;Z)V
-    .registers 11
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .registers 3
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/appmarket/w81;->j(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-interface {p3}, Lcom/huawei/appmarket/v34;->getLayout()Ljava/util/List;
+    .line 2
+    .line 3
+    .line 4
+    iput p2, p0, Lcom/huawei/appmarket/w81;->b:I
 
-    move-result-object v0
+    .line 5
+    .line 6
+    iput-object p1, p0, Lcom/huawei/appmarket/w81;->c:Ljava/lang/Object;
 
-    invoke-interface {p3}, Lcom/huawei/appmarket/v34;->getLayoutData()Ljava/util/List;
-
-    move-result-object v1
-
-    invoke-interface {p3}, Lcom/huawei/appmarket/v34;->getCss()Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;->parse(Lorg/json/JSONObject;)Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
-
-    move-result-object v2
-
-    iput-object v2, p1, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->b:Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
-
-    invoke-interface {p3}, Lcom/huawei/appmarket/v34;->getResponseType()Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean$b;
-
-    move-result-object v2
-
-    sget-object v3, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean$b;->d:Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean$b;
-
-    const/4 v4, 0x0
-
-    const/4 v5, 0x1
-
-    if-ne v2, v3, :cond_0
-
-    const/4 v2, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v2, 0x0
-
-    :goto_0
-    invoke-virtual {p1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->p(Z)V
-
-    invoke-interface {p2}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
-
-    move-result v2
-
-    add-int/2addr v2, v5
-
-    iput v2, p1, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->c:I
-
-    invoke-interface {p2}, Lcom/huawei/appmarket/u34;->getUri()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {p0, p1, v0, v2}, Lcom/huawei/appmarket/w81;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Ljava/util/List;Ljava/lang/String;)V
-
-    invoke-virtual {p0, p1, v1}, Lcom/huawei/appmarket/w81;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Ljava/util/List;)I
-
-    move-result v0
-
-    invoke-virtual {p0, p1, p2, v0}, Lcom/huawei/appmarket/w81;->g(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;I)V
-
-    invoke-interface {p3}, Lcom/huawei/appmarket/v34;->getHasNextPage()I
-
-    move-result p3
-
-    if-nez p3, :cond_1
-
-    invoke-virtual {p1, v4}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->B(Z)V
-
-    goto :goto_1
-
-    :cond_1
-    invoke-virtual {p1, v5}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->B(Z)V
-
-    :goto_1
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/w81;->h(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;)V
-
-    if-eqz p4, :cond_3
-
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
-
-    move-result-object p2
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object p3
-
-    if-eq p2, p3, :cond_2
-
-    new-instance p2, Landroid/os/Handler;
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object p3
-
-    invoke-direct {p2, p3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    new-instance p3, Lcom/huawei/appmarket/wl0;
-
-    const/16 p4, 0x1d
-
-    invoke-direct {p3, p1, p4}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
-
-    invoke-virtual {p2, p3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    goto :goto_2
-
-    :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->t()V
-
-    :cond_3
-    :goto_2
+    .line 7
+    .line 8
     return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
 .end method
 
 
 # virtual methods
-.method protected final a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Ljava/util/List;)I
-    .registers 19
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;>;)I"
-        }
-    .end annotation
+.method public final run()V
+    .registers 5
 
     .line 1
-    move-object/from16 v0, p0
+    iget v0, p0, Lcom/huawei/appmarket/w81;->b:I
 
     .line 2
     .line 3
-    move-object/from16 v1, p1
+    iget-object v1, p0, Lcom/huawei/appmarket/w81;->c:Ljava/lang/Object;
 
     .line 4
     .line 5
-    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    packed-switch v0, :pswitch_data_0
 
     .line 6
     .line 7
     .line 8
-    move-result v2
+    check-cast v1, Lcom/huawei/appmarket/kv1;
 
     .line 9
-    const/4 v3, 0x0
-
     .line 10
-    const-string v4, "DataProviderCreator"
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 11
     .line 12
-    if-eqz v2, :cond_0
-
     .line 13
-    .line 14
-    const-string v1, "analyseLayoutDatas, layoutdatas is empty"
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
+    .line 14
     .line 15
     .line 16
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    move-result-object v0
 
     .line 17
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
     .line 18
     .line 19
-    return v3
-
     .line 20
-    :cond_0
-    invoke-interface/range {p2 .. p2}, Ljava/util/List;->size()I
+    move-result-object v0
 
     .line 21
+    new-instance v1, Ljava/lang/StringBuilder;
+
     .line 22
     .line 23
-    move-result v2
+    const-string v2, "package:"
 
     .line 24
-    const/4 v5, 0x0
-
     .line 25
-    :goto_0
-    if-ge v3, v2, :cond_8
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
-    move-object/from16 v6, p2
-
     .line 28
-    .line 29
-    invoke-interface {v6, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
+    .line 29
     .line 30
     .line 31
+    move-result-object v2
+
     .line 32
-    move-result-object v7
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
-    check-cast v7, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;
-
     .line 34
     .line 35
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->a0()J
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 36
     .line 37
     .line 38
-    move-result-wide v8
+    move-result-object v1
 
     .line 39
-    invoke-virtual {v1, v8, v9}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/hj0;
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 40
     .line 41
     .line 42
-    move-result-object v10
+    move-result-object v1
 
     .line 43
-    if-nez v10, :cond_1
+    new-instance v2, Landroid/content/Intent;
 
     .line 44
     .line 45
-    const-string v7, "analyseLayoutDatas, cardChunk == null"
+    const-string v3, "android.settings.MANAGE_UNKNOWN_APP_SOURCES"
 
     .line 46
     .line 47
-    :goto_1
-    invoke-static {v4, v7}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     .line 48
     .line 49
     .line 50
-    goto/16 :goto_6
+    const/high16 v1, 0x10000000
 
     .line 51
     .line 52
-    :cond_1
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->g0()I
+    invoke-virtual {v2, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     .line 53
     .line 54
     .line 55
-    move-result v11
+    invoke-virtual {v0, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     .line 56
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/hj0;->B(I)V
-
     .line 57
     .line 58
+    return-void
+
     .line 59
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->h0()I
+    :pswitch_0
+    check-cast v1, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 60
     .line 61
+    invoke-static {v1}, Lcom/huawei/appmarket/mw0;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+
     .line 62
-    move-result v11
-
     .line 63
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/hj0;->C(I)V
-
     .line 64
-    .line 65
-    .line 66
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->X()I
+    return-void
 
+    .line 65
+    :pswitch_1
+    check-cast v1, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/UpdatedRecordDetailCard;
+
+    .line 66
     .line 67
+    invoke-static {v1}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/UpdatedRecordDetailCard;->y1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/UpdatedRecordDetailCard;)V
+
     .line 68
     .line 69
-    move-result v11
-
     .line 70
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/hj0;->x(I)V
+    return-void
 
     .line 71
+    :pswitch_2
+    check-cast v1, Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;
+
     .line 72
     .line 73
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->h0()I
+    invoke-static {v1}, Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;->a(Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;)V
 
     .line 74
     .line 75
     .line 76
-    move-result v11
+    return-void
 
     .line 77
-    const/4 v12, 0x1
+    :pswitch_3
+    check-cast v1, Lcom/huawei/appmarket/qj6;
 
     .line 78
-    if-ne v11, v12, :cond_2
-
     .line 79
-    .line 80
-    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->C()V
+    invoke-static {v1}, Lcom/huawei/appmarket/qj6;->a(Lcom/huawei/appmarket/qj6;)V
 
+    .line 80
     .line 81
     .line 82
+    return-void
+
     .line 83
-    :cond_2
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->V()Ljava/util/List;
+    :pswitch_4
+    check-cast v1, Lcom/huawei/appmarket/framework/fragment/TransitionListFragment;
 
     .line 84
     .line 85
+    invoke-static {v1}, Lcom/huawei/appmarket/framework/fragment/TransitionListFragment;->G7(Lcom/huawei/appmarket/framework/fragment/TransitionListFragment;)V
+
     .line 86
-    move-result-object v11
-
     .line 87
-    if-nez v11, :cond_3
-
     .line 88
+    return-void
+
     .line 89
-    new-instance v7, Ljava/lang/StringBuilder;
+    :pswitch_5
+    check-cast v1, Lcom/huawei/appmarket/k73;
 
     .line 90
     .line 91
-    const-string v10, "analyseLayoutDatas, dataList == null, layoutId:"
+    invoke-static {v1}, Lcom/huawei/appmarket/k73;->c(Lcom/huawei/appmarket/k73;)V
 
     .line 92
     .line 93
-    invoke-direct {v7, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 94
-    .line 95
-    .line 96
-    invoke-virtual {v7, v8, v9}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    return-void
 
+    .line 95
+    :pswitch_6
+    check-cast v1, Lcom/huawei/appgallery/videokit/impl/WiseVideoTVCardController;
+
+    .line 96
     .line 97
+    invoke-static {v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoTVCardController;->a(Lcom/huawei/appgallery/videokit/impl/WiseVideoTVCardController;)V
+
     .line 98
     .line 99
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 100
-    .line 101
-    .line 102
-    move-result-object v7
+    return-void
 
+    .line 101
+    :pswitch_7
+    check-cast v1, Lcom/huawei/appgallery/videokit/impl/WiseVideoSteamController;
+
+    .line 102
     .line 103
-    goto :goto_1
+    invoke-static {v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSteamController;->a(Lcom/huawei/appgallery/videokit/impl/WiseVideoSteamController;)V
 
     .line 104
-    :cond_3
-    invoke-interface {v11}, Ljava/util/List;->size()I
-
     .line 105
     .line 106
+    return-void
+
     .line 107
-    move-result v8
+    :pswitch_8
+    check-cast v1, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;
 
     .line 108
-    invoke-interface {v11, v8}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;
-
     .line 109
+    invoke-static {v1}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;->a(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewBase;)V
+
     .line 110
     .line 111
-    move-result-object v8
-
     .line 112
-    :goto_2
-    invoke-interface {v8}, Ljava/util/ListIterator;->hasPrevious()Z
+    return-void
 
     .line 113
+    :pswitch_9
+    check-cast v1, Lcom/huawei/appgallery/upgraderecommendation/ui/v3/UpgradeRecommendV3Activity;
+
     .line 114
     .line 115
-    move-result v9
+    invoke-static {v1}, Lcom/huawei/appgallery/upgraderecommendation/ui/v3/UpgradeRecommendV3Activity;->C3(Lcom/huawei/appgallery/upgraderecommendation/ui/v3/UpgradeRecommendV3Activity;)V
 
     .line 116
-    if-eqz v9, :cond_6
-
     .line 117
     .line 118
-    iget-object v9, v10, Lcom/huawei/appmarket/hj0;->a:Lcom/huawei/appmarket/o2;
+    return-void
 
     .line 119
-    .line 120
-    invoke-virtual {v9}, Lcom/huawei/appmarket/o2;->h()I
+    :pswitch_a
+    check-cast v1, Lcom/huawei/appgallery/upgraderecommendation/ui/v3/RecommendV3AppItemView;
 
+    .line 120
     .line 121
+    invoke-static {v1}, Lcom/huawei/appgallery/upgraderecommendation/ui/v3/RecommendV3AppItemView;->a(Lcom/huawei/appgallery/upgraderecommendation/ui/v3/RecommendV3AppItemView;)V
+
     .line 122
     .line 123
-    move-result v9
-
     .line 124
-    if-eqz v9, :cond_6
+    return-void
 
     .line 125
-    .line 126
-    invoke-interface {v11}, Ljava/util/List;->size()I
+    :pswitch_b
+    check-cast v1, Ljava/util/List;
 
+    .line 126
     .line 127
+    invoke-static {}, Lcom/huawei/appmarket/l86;->b()Lcom/huawei/appmarket/l86;
+
     .line 128
     .line 129
-    move-result v9
-
     .line 130
-    iget-object v12, v10, Lcom/huawei/appmarket/hj0;->a:Lcom/huawei/appmarket/o2;
+    move-result-object v0
 
     .line 131
-    .line 132
-    invoke-virtual {v12}, Lcom/huawei/appmarket/o2;->h()I
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/l86;->d(Ljava/util/List;)V
 
+    .line 132
     .line 133
     .line 134
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
+
     .line 135
-    move-result v12
-
     .line 136
-    div-int/2addr v9, v12
-
     .line 137
-    iget v12, v10, Lcom/huawei/appmarket/hj0;->b:I
+    move-result v0
 
     .line 138
+    if-eqz v0, :cond_0
+
     .line 139
-    if-lt v9, v12, :cond_6
-
     .line 140
-    .line 141
-    invoke-interface {v8}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
+    sget-object v0, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
+    .line 141
     .line 142
+    new-instance v2, Ljava/lang/StringBuilder;
+
     .line 143
     .line 144
-    move-result-object v9
+    const-string v3, "refreshProfileUpgradeCache success, size:"
 
     .line 145
-    check-cast v9, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
-
     .line 146
-    .line 147
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->a0()J
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 147
     .line 148
     .line 149
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
     .line 150
-    move-result-wide v12
-
     .line 151
-    invoke-virtual {v7}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;->c0()Ljava/lang/String;
-
     .line 152
+    move-result v1
+
     .line 153
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 154
-    move-result-object v14
-
     .line 155
-    :try_start_0
-    invoke-virtual {v9, v14}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->H0(Ljava/lang/String;)V
-
     .line 156
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 157
     .line 158
-    invoke-static {v12, v13}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
-
     .line 159
-    .line 160
-    .line 161
-    move-result-object v15
+    move-result-object v1
 
+    .line 160
+    const-string v2, "UpdateDataManagerImpl"
+
+    .line 161
     .line 162
-    invoke-virtual {v9, v15}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->G0(Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     .line 164
     .line 165
-    goto :goto_3
+    :cond_0
+    return-void
 
     .line 166
-    :catch_0
-    new-instance v15, Ljava/lang/StringBuilder;
+    :pswitch_c
+    check-cast v1, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormaltipscard/InstallConfirmNormalTipsCard;
 
     .line 167
     .line 168
-    const-string v6, "setLayoutData error\uff0clayoutId = "
+    invoke-static {v1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormaltipscard/InstallConfirmNormalTipsCard;->n1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormaltipscard/InstallConfirmNormalTipsCard;)V
 
     .line 169
     .line 170
-    invoke-direct {v15, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 171
-    .line 172
-    .line 173
-    invoke-virtual {v15, v12, v13}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    return-void
 
+    .line 172
+    :pswitch_d
+    check-cast v1, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalhiddencard/InstallConfirmNormalHiddenCard;
+
+    .line 173
     .line 174
+    invoke-static {v1}, Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalhiddencard/InstallConfirmNormalHiddenCard;->m1(Lcom/huawei/appgallery/systeminstalldistservice/riskcheck/ui/card/installconfirmnormalhiddencard/InstallConfirmNormalHiddenCard;)V
+
     .line 175
     .line 176
-    const-string v6, ", layoutName = "
-
     .line 177
+    return-void
+
     .line 178
-    invoke-virtual {v15, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :pswitch_e
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     .line 179
     .line 180
+    const/4 v0, 0x0
+
     .line 181
-    invoke-virtual {v15, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;->setInterceptScrollOnBottom(Z)V
 
     .line 182
     .line 183
     .line 184
-    invoke-virtual {v15}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    return-void
 
     .line 185
+    :pswitch_f
+    check-cast v1, Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;
+
     .line 186
     .line 187
-    move-result-object v6
+    invoke-static {v1}, Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;->b(Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;)V
 
     .line 188
-    invoke-static {v4, v6}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 189
     .line 190
+    return-void
+
     .line 191
-    :goto_3
-    invoke-virtual {v9}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->U()Ljava/lang/String;
+    :pswitch_10
+    check-cast v1, Lcom/huawei/appgallery/search/ui/card/shrink/SearchAppShrinkControl;
 
     .line 192
     .line 193
+    invoke-static {v1}, Lcom/huawei/appgallery/search/ui/card/shrink/SearchAppShrinkControl;->m1(Lcom/huawei/appgallery/search/ui/card/shrink/SearchAppShrinkControl;)V
+
     .line 194
-    move-result-object v6
-
     .line 195
-    invoke-virtual {v10, v6}, Lcom/huawei/appmarket/hj0;->n(Ljava/lang/String;)Z
-
     .line 196
-    .line 197
-    .line 198
-    move-result v6
+    return-void
 
+    .line 197
+    :pswitch_11
+    check-cast v1, Lcom/huawei/appgallery/search/ui/card/TrialModeSearchEmptyCard;
+
+    .line 198
     .line 199
-    const-string v12, ", cardId = "
+    invoke-static {v1}, Lcom/huawei/appgallery/search/ui/card/TrialModeSearchEmptyCard;->m1(Lcom/huawei/appgallery/search/ui/card/TrialModeSearchEmptyCard;)V
 
     .line 200
     .line 201
-    const/16 v13, 0x20
-
     .line 202
+    return-void
+
     .line 203
-    if-eqz v6, :cond_4
+    :pswitch_12
+    check-cast v1, Lcom/huawei/appgallery/search/ui/card/Search16To9ImageCard;
 
     .line 204
     .line 205
-    invoke-interface {v8}, Ljava/util/ListIterator;->remove()V
+    invoke-static {v1}, Lcom/huawei/appgallery/search/ui/card/Search16To9ImageCard;->m1(Lcom/huawei/appgallery/search/ui/card/Search16To9ImageCard;)V
 
     .line 206
     .line 207
     .line 208
-    new-instance v6, Ljava/lang/StringBuilder;
+    return-void
 
     .line 209
-    .line 210
-    invoke-direct {v6, v13}, Ljava/lang/StringBuilder;-><init>(I)V
+    :pswitch_13
+    check-cast v1, Lcom/huawei/appmarket/um8;
 
+    .line 210
     .line 211
+    invoke-static {v1}, Lcom/huawei/appmarket/um8;->d(Lcom/huawei/appmarket/um8;)V
+
     .line 212
     .line 213
-    const-string v13, "filter, node isDuplicate = "
-
     .line 214
+    return-void
+
     .line 215
-    :goto_4
-    invoke-virtual {v6, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :pswitch_14
+    check-cast v1, Lcom/huawei/appgallery/purchasehistory/ui/widget/ToolBarIcon;
 
     .line 216
     .line 217
-    .line 218
-    invoke-virtual {v9}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-static {v1}, Lcom/huawei/appgallery/purchasehistory/ui/widget/ToolBarIcon;->a(Lcom/huawei/appgallery/purchasehistory/ui/widget/ToolBarIcon;)V
 
+    .line 218
     .line 219
     .line 220
+    return-void
+
     .line 221
-    move-result-object v13
+    :pswitch_15
+    check-cast v1, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSystemDialogActivity;
 
     .line 222
-    invoke-virtual {v13}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
-
     .line 223
+    invoke-static {v1}, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSystemDialogActivity;->C3(Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSystemDialogActivity;)V
+
     .line 224
     .line 225
-    move-result-object v13
-
     .line 226
-    invoke-virtual {v6, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    return-void
 
     .line 227
+    :pswitch_16
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/ToolBarIcon;
+
     .line 228
     .line 229
-    invoke-virtual {v6, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/ToolBarIcon;->a(Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/ToolBarIcon;)V
 
     .line 230
     .line 231
     .line 232
-    invoke-virtual {v9}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->U()Ljava/lang/String;
+    return-void
 
     .line 233
+    :pswitch_17
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;
+
     .line 234
     .line 235
-    move-result-object v9
+    invoke-static {v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;)V
 
     .line 236
-    invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 237
     .line 238
+    return-void
+
     .line 239
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    :pswitch_18
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/ContainSubtabVerticalMultiTabsFragment;
 
     .line 240
     .line 241
+    invoke-static {v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/ContainSubtabVerticalMultiTabsFragment;->O7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/ContainSubtabVerticalMultiTabsFragment;)V
+
     .line 242
-    move-result-object v6
-
     .line 243
-    invoke-static {v4, v6}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 244
-    .line 245
-    .line 246
-    goto :goto_5
+    return-void
 
+    .line 245
+    :pswitch_19
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d$a;
+
+    .line 246
     .line 247
-    :cond_4
-    invoke-virtual {v0, v7}, Lcom/huawei/appmarket/w81;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;)I
+    invoke-static {v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->j(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d$a;)V
 
     .line 248
     .line 249
     .line 250
-    move-result v6
+    return-void
 
     .line 251
-    invoke-virtual {v9, v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->T(I)Z
+    :pswitch_1a
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/SimpleListFragment;
 
     .line 252
     .line 253
+    invoke-static {v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/SimpleListFragment;->E7(Lcom/huawei/appgallery/foundation/ui/framework/fragment/SimpleListFragment;)V
+
     .line 254
-    move-result v6
-
     .line 255
-    if-eqz v6, :cond_5
-
     .line 256
+    return-void
+
     .line 257
-    invoke-interface {v8}, Ljava/util/ListIterator;->remove()V
+    :pswitch_1b
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/widget/AgHwIconSubTabWidget$a;
 
     .line 258
     .line 259
-    .line 260
-    new-instance v6, Ljava/lang/StringBuilder;
+    invoke-virtual {v1}, Landroid/view/View;->requestLayout()V
 
+    .line 260
     .line 261
     .line 262
-    invoke-direct {v6, v13}, Ljava/lang/StringBuilder;-><init>(I)V
+    return-void
 
     .line 263
+    :pswitch_1c
+    check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
+
     .line 264
     .line 265
-    const-string v13, "filter, bean: "
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->t()V
 
     .line 266
     .line 267
-    goto :goto_4
-
     .line 268
-    :cond_5
-    invoke-virtual {v0, v10, v9}, Lcom/huawei/appmarket/w81;->k(Lcom/huawei/appmarket/hj0;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    return-void
 
     .line 269
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1c
+        :pswitch_1b
+        :pswitch_1a
+        :pswitch_19
+        :pswitch_18
+        :pswitch_17
+        :pswitch_16
+        :pswitch_15
+        :pswitch_14
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
     .line 270
     .line 271
-    :goto_5
-    move-object/from16 v6, p2
-
     .line 272
     .line 273
-    goto/16 :goto_2
-
     .line 274
     .line 275
-    :cond_6
-    invoke-virtual {v0, v11}, Lcom/huawei/appmarket/w81;->m(Ljava/util/List;)Ljava/util/List;
-
     .line 276
     .line 277
     .line 278
-    move-result-object v6
-
     .line 279
-    add-int/lit8 v7, v2, -0x1
-
     .line 280
     .line 281
-    if-ne v3, v7, :cond_7
-
     .line 282
     .line 283
-    invoke-virtual {v0, v1, v10, v6}, Lcom/huawei/appmarket/w81;->l(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/hj0;Ljava/util/List;)V
-
     .line 284
     .line 285
     .line 286
-    :cond_7
-    invoke-interface {v6}, Ljava/util/List;->size()I
-
     .line 287
     .line 288
     .line 289
-    move-result v7
-
     .line 290
-    add-int/2addr v7, v5
-
     .line 291
-    invoke-virtual {v10, v6}, Lcom/huawei/appmarket/hj0;->F(Ljava/util/List;)V
-
     .line 292
     .line 293
     .line 294
-    move v5, v7
-
     .line 295
-    :goto_6
-    add-int/lit8 v3, v3, 0x1
-
     .line 296
     .line 297
-    goto/16 :goto_0
-
     .line 298
     .line 299
-    :cond_8
-    const-string v1, "analyseLayoutDatas, receive new layoutdata, size: "
-
     .line 300
     .line 301
-    invoke-static {v1, v5, v4}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
-
     .line 302
     .line 303
     .line 304
-    return v5
     .line 305
     .line 306
     .line 307
@@ -1045,597 +1106,11 @@
     .line 589
     .line 590
     .line 591
-.end method
-
-.method protected b(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Ljava/util/List;Ljava/lang/String;)V
-    .registers 9
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;",
-            ">;",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    const-string v1, "DataProviderCreator"
-
-    .line 6
-    .line 7
-    if-nez v0, :cond_4
-
-    .line 8
-    .line 9
-    if-nez p1, :cond_0
-
-    .line 10
-    .line 11
-    goto :goto_1
-
-    .line 12
-    :cond_0
-    const/16 v0, 0x20
-
-    .line 13
-    .line 14
-    const-string v2, "analyseLayouts, already hava layout size = "
-
-    .line 15
-    .line 16
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v0
-
-    .line 20
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->l()I
-
-    .line 21
-    .line 22
-    .line 23
-    move-result v2
-
-    .line 24
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    .line 25
-    .line 26
-    .line 27
-    const-string v2, ", receive new layout size: "
-
-    .line 28
-    .line 29
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 30
-    .line 31
-    .line 32
-    invoke-interface {p2}, Ljava/util/List;->size()I
-
-    .line 33
-    .line 34
-    .line 35
-    move-result v2
-
-    .line 36
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    .line 37
-    .line 38
-    .line 39
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object v0
-
-    .line 43
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 44
-    .line 45
-    .line 46
-    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object p2
-
-    .line 50
-    :goto_0
-    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 51
-    .line 52
-    .line 53
-    move-result v0
-
-    .line 54
-    if-eqz v0, :cond_3
-
-    .line 55
-    .line 56
-    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 57
-    .line 58
-    .line 59
-    move-result-object v0
-
-    .line 60
-    check-cast v0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;
-
-    .line 61
-    .line 62
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->V()Ljava/lang/String;
-
-    .line 63
-    .line 64
-    .line 65
-    move-result-object v2
-
-    .line 66
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->T()I
-
-    .line 67
-    .line 68
-    .line 69
-    move-result v3
-
-    .line 70
-    const/4 v4, -0x1
-
-    .line 71
-    if-ne v3, v4, :cond_1
-
-    .line 72
-    .line 73
-    const-string v0, "analyseLayouts, unsupport card: "
-
-    .line 74
-    .line 75
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/om5;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 76
-    .line 77
-    .line 78
-    goto :goto_0
-
-    .line 79
-    :cond_1
-    invoke-virtual {p0, p1, v0, p3}, Lcom/huawei/appmarket/w81;->i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;Ljava/lang/String;)Lcom/huawei/appmarket/hj0;
-
-    .line 80
-    .line 81
-    .line 82
-    move-result-object v3
-
-    .line 83
-    if-eqz v3, :cond_2
-
-    .line 84
-    .line 85
-    iget-object v4, p1, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->b:Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;
-
-    .line 86
-    .line 87
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->getCssSelector()Ljava/lang/String;
-
-    .line 88
-    .line 89
-    .line 90
-    move-result-object v0
-
-    .line 91
-    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/hj0;->t(Lcom/huawei/appgallery/foundation/ui/css/CSSStyleSheet;Ljava/lang/String;)V
-
-    .line 92
-    .line 93
-    .line 94
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/hj0;->u(Ljava/lang/String;)V
-
-    .line 95
-    .line 96
-    .line 97
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->o()Ljava/lang/String;
-
-    .line 98
-    .line 99
-    .line 100
-    move-result-object v0
-
-    .line 101
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/hj0;->A(Ljava/lang/String;)V
-
-    .line 102
-    .line 103
-    .line 104
-    goto :goto_0
-
-    .line 105
-    :cond_2
-    const-string v0, "analyseLayouts, cardChunk == null"
-
-    .line 106
-    .line 107
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 108
-    .line 109
-    .line 110
-    goto :goto_0
-
-    .line 111
-    :cond_3
-    return-void
-
-    .line 112
-    :cond_4
-    :goto_1
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    .line 113
-    .line 114
-    const-string p3, "analyseLayouts, provider = "
-
-    .line 115
-    .line 116
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 117
-    .line 118
-    .line 119
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 120
-    .line 121
-    .line 122
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 123
-    .line 124
-    .line 125
-    move-result-object p1
-
-    .line 126
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 127
-    .line 128
-    .line 129
-    return-void
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-.end method
-
-.method protected c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData;)I
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$LayoutData<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)I"
-        }
-    .end annotation
-
-    .line 1
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;Z)V
-    .registers 5
-
-    .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/w81;->f(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;Z)V
-
-    return-void
-.end method
-
-.method public final e(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;Z)V
-    .registers 5
-
-    .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/w81;->f(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;Z)V
-
-    return-void
-.end method
-
-.method protected g(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;I)V
-    .registers 4
-
-    .line 1
-    return-void
-.end method
-
-.method protected h(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method protected i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;Ljava/lang/String;)Lcom/huawei/appmarket/hj0;
-    .registers 11
-
-    .line 1
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->U()J
-
-    move-result-wide v1
-
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->T()I
-
-    move-result v3
-
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$Layout;->W()I
-
-    move-result v4
-
-    const/4 v5, 0x0
-
-    move-object v0, p1
-
-    move-object v6, p3
-
-    invoke-virtual/range {v0 .. v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->b(JIILjava/util/ArrayList;Ljava/lang/String;)Lcom/huawei/appmarket/hj0;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method protected j(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)V
-    .registers 4
-
-    .line 1
-    return-void
-.end method
-
-.method protected k(Lcom/huawei/appmarket/hj0;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method protected l(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/hj0;Ljava/util/List;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;",
-            "Lcom/huawei/appmarket/hj0;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 1
-    return-void
-.end method
-
-.method protected m(Ljava/util/List;)Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    return-object p1
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
 .end method

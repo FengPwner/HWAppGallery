@@ -1,362 +1,386 @@
-.class public interface abstract Lcom/huawei/appmarket/jb9;
+.class public final Lcom/huawei/appmarket/jb9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "E:",
-        "Lcom/huawei/bohr/api/exception/BohrException;",
-        ">",
-        "Ljava/lang/Object;"
+        Lcom/huawei/appmarket/jb9$a;
     }
 .end annotation
 
 
+# instance fields
+.field private final a:Ljava/util/HashMap;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/jb9;->a:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method public static b(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/ez1;
+    .registers 3
+
+    .line 1
+    const-string v0, "CellElement"
+
+    invoke-virtual {p0, v0}, Lcom/huawei/flexiblelayout/data/b;->getTag(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/ha9;
+
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/ha9;-><init>(Lcom/huawei/flexiblelayout/data/b;)V
+
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/flexiblelayout/data/b;->setTag(Ljava/lang/String;Ljava/lang/Object;)V
+
+    :cond_0
+    check-cast v1, Lcom/huawei/appmarket/ez1;
+
+    return-object v1
+.end method
+
+.method public static c()Lcom/huawei/appmarket/jb9;
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/jb9$a;->a()Lcom/huawei/appmarket/jb9;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+
 # virtual methods
-.method public abstract a()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
-
-.method public abstract a(Lcom/huawei/appmarket/zd9;)Ljava/lang/Object;
+.method public final a(Lcom/huawei/appmarket/sa2;)Lcom/huawei/appmarket/ez1;
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/zd9;",
-            ")TR;^TE;"
+            "Lcom/huawei/appmarket/sa2<",
+            "*>;)",
+            "Lcom/huawei/appmarket/ez1<",
+            "Lcom/huawei/flexiblelayout/data/b;",
+            ">;"
         }
     .end annotation
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jb9;->a:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/ez1;
+
+    if-eqz p1, :cond_0
+
+    return-object p1
+
+    :cond_0
+    const-string p1, "ElementManager"
+
+    const-string v0, "get element from cell failed, missing data"
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance p1, Lcom/huawei/appmarket/xa9;
+
+    invoke-direct {p1}, Lcom/huawei/appmarket/xa9;-><init>()V
+
+    return-object p1
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/od9;)Ljava/lang/Object;
+.method public final d(Lcom/huawei/appmarket/sa2;Z)V
+    .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/od9;",
-            ")TR;^TE;"
+            "Lcom/huawei/appmarket/sa2<",
+            "*>;Z)V"
         }
     .end annotation
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/jb9;->a:Ljava/util/HashMap;
 
-.method public abstract c(Lcom/huawei/appmarket/bd9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/bd9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 2
+    .line 3
+    if-eqz p2, :cond_3
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 4
+    .line 5
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
-.method public abstract d(Lcom/huawei/appmarket/mc9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/mc9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 6
+    .line 7
+    .line 8
+    move-result p2
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 9
+    if-eqz p2, :cond_0
 
-.method public abstract e(Lcom/huawei/appmarket/n59;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/n59;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 10
+    .line 11
+    goto :goto_0
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 12
+    :cond_0
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getData()Lcom/huawei/appmarket/ta2;
 
-.method public abstract f(Lcom/huawei/appmarket/dc9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/dc9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p2
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 16
+    instance-of v1, p2, Lcom/huawei/flexiblelayout/data/b;
 
-.method public abstract g(Lcom/huawei/appmarket/ov8;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/ov8;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 17
+    .line 18
+    if-nez v1, :cond_1
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 19
+    .line 20
+    const-string p1, "ElementManager"
 
-.method public abstract h(Lcom/huawei/appmarket/qb9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/qb9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 21
+    .line 22
+    const-string p2, "onCellReady ignored, missing data"
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 23
+    .line 24
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
-.method public abstract i(Lcom/huawei/appmarket/q89;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/q89;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 25
+    .line 26
+    .line 27
+    goto :goto_0
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 28
+    :cond_1
+    check-cast p2, Lcom/huawei/flexiblelayout/data/b;
 
-.method public abstract j(Lcom/huawei/appmarket/fy8;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/fy8;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 29
+    .line 30
+    invoke-static {p2}, Lcom/huawei/appmarket/jb9;->b(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/ez1;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v1
 
-.method public abstract k(Lcom/huawei/appmarket/tg9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/tg9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 34
+    instance-of v2, v1, Lcom/huawei/appmarket/ha9;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 35
+    .line 36
+    if-eqz v2, :cond_4
 
-.method public abstract l(Lcom/huawei/appmarket/bb9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/bb9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 37
+    .line 38
+    check-cast v1, Lcom/huawei/appmarket/ha9;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 39
+    .line 40
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ha9;->b()Lcom/huawei/appmarket/sa2;
 
-.method public abstract m(Lcom/huawei/appmarket/s79;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/s79;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v2
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 44
+    if-eqz v2, :cond_2
 
-.method public abstract n(Lcom/huawei/appmarket/lg9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/lg9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 45
+    .line 46
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ha9;->b()Lcom/huawei/appmarket/sa2;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v2
 
-.method public abstract o(Lcom/huawei/appmarket/zf9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/zf9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 50
+    if-eq v2, p1, :cond_2
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 51
+    .line 52
+    new-instance v1, Lcom/huawei/appmarket/ha9;
 
-.method public abstract p(Lcom/huawei/appmarket/cf9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/cf9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 53
+    .line 54
+    invoke-direct {v1, p2}, Lcom/huawei/appmarket/ha9;-><init>(Lcom/huawei/flexiblelayout/data/b;)V
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 55
+    .line 56
+    .line 57
+    const-string v2, "CellElement"
 
-.method public abstract q(Lcom/huawei/appmarket/ve9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/ve9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 58
+    .line 59
+    invoke-virtual {p2, v2, v1}, Lcom/huawei/flexiblelayout/data/b;->setTag(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 60
+    .line 61
+    .line 62
+    :cond_2
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ha9;->c(Lcom/huawei/appmarket/sa2;)V
 
-.method public abstract r(Lcom/huawei/appmarket/pa9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/pa9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 63
+    .line 64
+    .line 65
+    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 66
+    .line 67
+    .line 68
+    sget p1, Lcom/huawei/appmarket/iy4;->c:I
 
-.method public abstract s(Lcom/huawei/appmarket/q69;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/q69;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 69
+    .line 70
+    goto :goto_0
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 71
+    :cond_3
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-.method public abstract t(Lcom/huawei/appmarket/je9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/je9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 72
+    .line 73
+    .line 74
+    move-result-object p1
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
-.end method
+    .line 75
+    check-cast p1, Lcom/huawei/appmarket/ez1;
 
-.method public abstract u(Lcom/huawei/appmarket/nf9;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/nf9;",
-            ")TR;^TE;"
-        }
-    .end annotation
+    .line 76
+    .line 77
+    instance-of p2, p1, Lcom/huawei/appmarket/ha9;
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/bohr/api/exception/BohrException;
-        }
-    .end annotation
+    .line 78
+    .line 79
+    if-eqz p2, :cond_4
+
+    .line 80
+    .line 81
+    sget p2, Lcom/huawei/appmarket/iy4;->c:I
+
+    .line 82
+    .line 83
+    check-cast p1, Lcom/huawei/appmarket/ha9;
+
+    .line 84
+    .line 85
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ha9;->d()V
+
+    .line 86
+    .line 87
+    .line 88
+    :cond_4
+    :goto_0
+    return-void
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method

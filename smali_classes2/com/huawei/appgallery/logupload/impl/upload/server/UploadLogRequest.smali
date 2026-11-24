@@ -9,34 +9,34 @@
 
 # instance fields
 .field private appId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private desc:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private logId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private logfileName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -102,7 +102,7 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/yd3;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ae3;->a()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -129,7 +129,7 @@
 
     .line 18
     :cond_0
-    invoke-static {v1}, Lcom/huawei/appmarket/bz6;->a(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/fz6;->a(Ljava/lang/String;)[B
 
     .line 19
     .line 20
@@ -137,7 +137,7 @@
     move-result-object v1
 
     .line 22
-    invoke-static {v1}, Lcom/huawei/appmarket/z33;->a([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c43;->a([B)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -254,7 +254,7 @@
 
     .line 76
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/xy4;->a:Lcom/huawei/appmarket/xy4;
+    sget-object v1, Lcom/huawei/appmarket/az4;->a:Lcom/huawei/appmarket/az4;
 
     .line 77
     .line 78
@@ -266,7 +266,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84

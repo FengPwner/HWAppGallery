@@ -913,7 +913,7 @@
 
     .line 260
     .line 261
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 262
     .line 263
@@ -1293,11 +1293,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/huawei/appgallery/autoparcelable/a;

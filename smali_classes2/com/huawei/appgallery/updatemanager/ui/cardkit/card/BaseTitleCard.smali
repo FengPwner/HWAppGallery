@@ -26,9 +26,9 @@
     .registers 3
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
-    const v0, 0x7f0a1755
+    const v0, 0x7f0a1756
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -38,7 +38,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/BaseTitleCard;->x:Landroid/widget/TextView;
 
-    const v0, 0x7f0a160f
+    const v0, 0x7f0a1610
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/updatemanager/ui/cardkit/card/BaseTitleCard;->y:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a1740
+    const v0, 0x7f0a1741
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

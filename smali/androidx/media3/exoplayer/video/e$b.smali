@@ -51,17 +51,17 @@
     :goto_0
     if-eqz p0, :cond_2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/nm4;->y(Landroid/view/Display;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/qm4;->y(Landroid/view/Display;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->c(Landroid/view/Display;)Landroid/view/Display$HdrCapabilities;
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->c(Landroid/view/Display;)Landroid/view/Display$HdrCapabilities;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->y(Landroid/view/Display$HdrCapabilities;)[I
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->y(Landroid/view/Display$HdrCapabilities;)[I
 
     move-result-object p0
 

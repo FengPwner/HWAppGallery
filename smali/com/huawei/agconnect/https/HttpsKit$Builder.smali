@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field client:Lcom/huawei/appmarket/mn5;
+.field client:Lcom/huawei/appmarket/nn5;
 
 .field executor:Ljava/util/concurrent/Executor;
 
@@ -34,15 +34,15 @@
 .method public build()Lcom/huawei/agconnect/https/HttpsKit;
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/mn5;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/nn5;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/mn5;
+    new-instance v0, Lcom/huawei/appmarket/nn5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/mn5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nn5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/mn5;
+    iput-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/nn5;
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->executor:Ljava/util/concurrent/Executor;
@@ -60,22 +60,22 @@
     :cond_1
     new-instance v0, Lcom/huawei/agconnect/https/HttpsKit;
 
-    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/mn5;
+    iget-object v1, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/nn5;
 
     iget-object v2, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->executor:Ljava/util/concurrent/Executor;
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/agconnect/https/HttpsKit;-><init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;Lcom/huawei/agconnect/https/HttpsKit$1;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/agconnect/https/HttpsKit;-><init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;Lcom/huawei/agconnect/https/HttpsKit$1;)V
 
     return-object v0
 .end method
 
-.method public client(Lcom/huawei/appmarket/mn5;)Lcom/huawei/agconnect/https/HttpsKit$Builder;
+.method public client(Lcom/huawei/appmarket/nn5;)Lcom/huawei/agconnect/https/HttpsKit$Builder;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/mn5;
+    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsKit$Builder;->client:Lcom/huawei/appmarket/nn5;
 
     return-object p0
 .end method

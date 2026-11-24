@@ -11,7 +11,7 @@
 .field private changeSmallWidth:I
 
 .field private screen:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/zn1;->j()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/co1;->j()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -59,7 +59,7 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/huawei/appmarket/jj7;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/pj7;->e()Landroid/content/Context;
 
     .line 18
     .line 19
@@ -67,7 +67,7 @@
     move-result-object v1
 
     .line 21
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->j(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->j(Landroid/content/Context;)I
 
     .line 22
     .line 23
@@ -212,7 +212,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pj7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/vj7;->b()Ljava/lang/String;
 
     move-result-object v1
 

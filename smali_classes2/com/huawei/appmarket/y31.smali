@@ -6,7 +6,7 @@
 # instance fields
 .field private a:Landroid/app/Activity;
 
-.field private b:Lcom/huawei/appmarket/fk;
+.field private b:Lcom/huawei/appmarket/ek;
 
 
 # direct methods
@@ -18,7 +18,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/fk;
+    iput-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/ek;
 
     iput-object p1, p0, Lcom/huawei/appmarket/y31;->a:Landroid/app/Activity;
 
@@ -101,7 +101,7 @@
     move-result-object v1
 
     .line 26
-    invoke-static {v1}, Lcom/huawei/appmarket/tx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-static {v1}, Lcom/huawei/appmarket/wx2;->c(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 27
     .line 28
@@ -127,7 +127,7 @@
     move-exception v1
 
     .line 36
-    sget-object v3, Lcom/huawei/appmarket/ev5;->a:Lcom/huawei/appmarket/ev5;
+    sget-object v3, Lcom/huawei/appmarket/gv5;->a:Lcom/huawei/appmarket/gv5;
 
     .line 37
     .line 38
@@ -169,22 +169,22 @@
 
     .line 57
     .line 58
-    invoke-virtual {v3, v4, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60
     .line 61
     :goto_0
-    new-instance v1, Lcom/huawei/appmarket/h75;
+    new-instance v1, Lcom/huawei/appmarket/k75;
 
     .line 62
     .line 63
-    invoke-direct {v1}, Lcom/huawei/appmarket/h75;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/k75;-><init>()V
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/h75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/k75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -272,11 +272,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/fk;
+    iget-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/ek;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fk;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ek;->a()V
 
     :cond_0
     return-void
@@ -294,13 +294,13 @@
 
     if-eqz p1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/fk;
+    new-instance v0, Lcom/huawei/appmarket/ek;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/fk;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ek;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/fk;
+    iput-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/ek;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/fk;->b(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ek;->b(Landroid/os/Bundle;)V
 
     :cond_0
     return-void
@@ -310,7 +310,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/fk;
+    iget-object v0, p0, Lcom/huawei/appmarket/y31;->b:Lcom/huawei/appmarket/ek;
 
     if-eqz v0, :cond_0
 
@@ -318,7 +318,7 @@
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fk;->c(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ek;->c(Landroid/os/Bundle;)V
 
     const-string v0, "Uikit:allocatorState"
 

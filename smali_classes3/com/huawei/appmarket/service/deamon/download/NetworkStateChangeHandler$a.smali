@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/gg5$d;->values()[Lcom/huawei/appmarket/gg5$d;
+    invoke-static {}, Lcom/huawei/appmarket/jg5$d;->values()[Lcom/huawei/appmarket/jg5$d;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appmarket/service/deamon/download/NetworkStateChangeHandler$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/gg5$d;->d:Lcom/huawei/appmarket/gg5$d;
+    sget-object v1, Lcom/huawei/appmarket/jg5$d;->d:Lcom/huawei/appmarket/jg5$d;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/service/deamon/download/NetworkStateChangeHandler$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/gg5$d;->e:Lcom/huawei/appmarket/gg5$d;
+    sget-object v1, Lcom/huawei/appmarket/jg5$d;->e:Lcom/huawei/appmarket/jg5$d;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

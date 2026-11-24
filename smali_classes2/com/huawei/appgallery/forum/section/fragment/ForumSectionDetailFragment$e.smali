@@ -73,11 +73,11 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/e36;->b()Lcom/huawei/appmarket/e36;
+    invoke-static {}, Lcom/huawei/appmarket/g36;->b()Lcom/huawei/appmarket/g36;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/e36;->e(J)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/g36;->e(J)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -90,7 +90,7 @@
 
     const-string v0, "SECTION_POST_READ_ACTION error"
 
-    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     :cond_0
     :goto_0

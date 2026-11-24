@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/rn7;->D(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/et6;->D(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Z
 
     move-result p1
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/rn7;->A(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/et6;->A(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Z
 
     move-result p1
 
@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1, p2, p3}, Lcom/huawei/appmarket/rn7;->f(Ljava/util/stream/Stream;Ljava/util/function/Supplier;Ljava/util/function/BiConsumer;Ljava/util/function/BiConsumer;)Ljava/lang/Object;
+    invoke-static {v0, p1, p2, p3}, Lcom/huawei/appmarket/et6;->e(Ljava/util/stream/Stream;Ljava/util/function/Supplier;Ljava/util/function/BiConsumer;Ljava/util/function/BiConsumer;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/le3;->l(Ljava/util/stream/Stream;Ljava/util/stream/Collector;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ne3;->l(Ljava/util/stream/Stream;Ljava/util/stream/Collector;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -212,7 +212,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ur4;->u(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xr4;->u(Ljava/util/stream/Stream;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
 
     move-result-object p1
 
@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/rn7;->x(Ljava/util/stream/Stream;Ljava/util/function/Consumer;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/et6;->x(Ljava/util/stream/Stream;Ljava/util/function/Consumer;)V
 
     return-void
 .end method
@@ -282,7 +282,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/rn7;->t(Ljava/util/stream/Stream;Ljava/util/function/Function;)Ljava/util/stream/Stream;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/et6;->u(Ljava/util/stream/Stream;Ljava/util/function/Function;)Ljava/util/stream/Stream;
 
     move-result-object p1
 
@@ -307,7 +307,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/rn7;->e(Ljava/util/stream/Stream;Ljava/lang/Object;Ljava/util/function/BinaryOperator;)Ljava/lang/Object;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/et6;->d(Ljava/util/stream/Stream;Ljava/lang/Object;Ljava/util/function/BinaryOperator;)Ljava/lang/Object;
 
     move-result-object p1
 

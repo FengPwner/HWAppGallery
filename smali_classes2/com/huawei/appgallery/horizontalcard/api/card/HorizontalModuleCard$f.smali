@@ -123,7 +123,7 @@
 
     move-result v5
 
-    sget-object v6, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v6, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -155,7 +155,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v6, v4, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, -0x1
 
@@ -173,11 +173,11 @@
 
     if-gt v1, v0, :cond_4
 
-    iget-object v0, v2, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/sb3;
+    iget-object v0, v2, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/vb3;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sb3;->o(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vb3;->o(Z)V
 
     goto :goto_1
 
@@ -189,20 +189,20 @@
     goto :goto_1
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v0, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     const-string v1, "The weakModuleCard findItemPosition error."
 
-    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v0, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     const-string v1, "The Card had Detached to the window. "
 
-    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     invoke-static {v2}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->D1(Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;)V

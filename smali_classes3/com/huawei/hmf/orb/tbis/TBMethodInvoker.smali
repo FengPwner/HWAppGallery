@@ -169,13 +169,13 @@
 
     aget-object v9, v6, v8
 
-    instance-of v10, v9, Lcom/huawei/appmarket/ve5;
+    instance-of v10, v9, Lcom/huawei/appmarket/ye5;
 
     if-eqz v10, :cond_0
 
-    check-cast v9, Lcom/huawei/appmarket/ve5;
+    check-cast v9, Lcom/huawei/appmarket/ye5;
 
-    invoke-interface {v9}, Lcom/huawei/appmarket/ve5;->value()Ljava/lang/String;
+    invoke-interface {v9}, Lcom/huawei/appmarket/ye5;->value()Ljava/lang/String;
 
     move-result-object v9
 

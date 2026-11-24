@@ -32,7 +32,7 @@
 
     const-string v0, "createLoadingController onClick, onLoadingRetry"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/j40;->b:Lcom/huawei/appmarket/k40;
 

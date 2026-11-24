@@ -2,95 +2,91 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/zn3;
 
-
-# instance fields
-.field private a:Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;
+# static fields
+.field private static a:Ljava/util/ArrayList;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;)V
-    .registers 2
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Ljava/util/ArrayList;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/zf;->a:Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/zf;->a:Ljava/util/ArrayList;
 
     return-void
 .end method
 
+.method private constructor <init>()V
+    .registers 1
 
-# virtual methods
-.method public final a()Lcom/huawei/appmarket/qs1;
-    .registers 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static declared-synchronized a()Ljava/util/ArrayList;
+    .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/qs1$b;
+    const-class v0, Lcom/huawei/appmarket/zf;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/qs1$b;-><init>()V
+    monitor-enter v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/zf;->a:Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/zf;->a:Ljava/util/ArrayList;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->downUrl_:Ljava/lang/String;
+    monitor-exit v0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->C(Ljava/lang/String;)V
+    return-object v1
 
-    iget-wide v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->size_:J
+    :catchall_0
+    move-exception v1
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/qs1$b;->y(J)V
+    monitor-exit v0
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->sha256_:Ljava/lang/String;
+    throw v1
+.end method
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->w(Ljava/lang/String;)V
+.method public static declared-synchronized b(Ljava/util/List;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;",
+            ">;)V"
+        }
+    .end annotation
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->name_:Ljava/lang/String;
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/zf;
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->q(Ljava/lang/String;)V
+    monitor-enter v0
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->pkgName_:Ljava/lang/String;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/zf;->a:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->s(Ljava/lang/String;)V
+    invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->appId_:Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->c(Ljava/lang/String;)V
+    monitor-exit v0
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->icon_:Ljava/lang/String;
+    return-void
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->j(Ljava/lang/String;)V
+    :catchall_0
+    move-exception p0
 
-    iget-object v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->detailId_:Ljava/lang/String;
+    monitor-exit v0
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->f(Ljava/lang/String;)V
-
-    iget-wide v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->versionCode_:J
-
-    long-to-int v3, v2
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/qs1$b;->D(I)V
-
-    const-string v2, "AGwebNotify=1"
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->h(Ljava/lang/String;)V
-
-    iget v2, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->mapple_:I
-
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/qs1$b;->n(I)V
-
-    iget v1, v1, Lcom/huawei/appmarket/service/agweb/bean/AgWebAppInfoBean;->packingType_:I
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qs1$b;->t(I)V
-
-    const/4 v1, 0x1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qs1$b;->i(I)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qs1$b;->a()Lcom/huawei/appmarket/qs1;
-
-    move-result-object v0
-
-    return-object v0
+    throw p0
 .end method

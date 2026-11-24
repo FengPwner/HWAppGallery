@@ -50,7 +50,7 @@
         value = {
             "Landroid/util/SparseArray<",
             "Ljava/util/Map<",
-            "Lcom/huawei/appmarket/e28;",
+            "Lcom/huawei/appmarket/j28;",
             "Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$e;",
             ">;>;"
         }
@@ -326,7 +326,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/jb4;->p()Lcom/huawei/appmarket/jb4;
+    invoke-static {}, Lcom/huawei/appmarket/lb4;->p()Lcom/huawei/appmarket/lb4;
 
     move-result-object v1
 
@@ -334,12 +334,12 @@
 
     .line 5
     :cond_0
-    sget v3, Lcom/huawei/appmarket/jb4;->d:I
+    sget v3, Lcom/huawei/appmarket/lb4;->d:I
 
     .line 6
-    new-instance v3, Lcom/huawei/appmarket/jb4$a;
+    new-instance v3, Lcom/huawei/appmarket/lb4$a;
 
-    invoke-direct {v3}, Lcom/huawei/appmarket/jb4$a;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/lb4$a;-><init>()V
 
     const/4 v4, 0x0
 
@@ -361,18 +361,18 @@
     invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 9
-    invoke-static {v5}, Lcom/huawei/appmarket/e28;->a(Landroid/os/Bundle;)Lcom/huawei/appmarket/e28;
+    invoke-static {v5}, Lcom/huawei/appmarket/j28;->a(Landroid/os/Bundle;)Lcom/huawei/appmarket/j28;
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/jb4$a;->i(Ljava/lang/Object;)V
+    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/lb4$a;->i(Ljava/lang/Object;)V
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v3}, Lcom/huawei/appmarket/jb4$a;->j()Lcom/huawei/appmarket/jb4;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/lb4$a;->j()Lcom/huawei/appmarket/lb4;
 
     move-result-object v1
 
@@ -464,7 +464,7 @@
 
     move-result-object v6
 
-    check-cast v6, Lcom/huawei/appmarket/e28;
+    check-cast v6, Lcom/huawei/appmarket/j28;
 
     invoke-virtual {v3, v4}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -500,7 +500,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v7}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v7}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 

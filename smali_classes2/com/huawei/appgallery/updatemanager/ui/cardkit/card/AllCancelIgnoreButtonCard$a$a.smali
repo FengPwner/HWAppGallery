@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/aa8;->c(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/fa8;->c(Landroid/content/Context;)V
 
     :cond_0
     return-void

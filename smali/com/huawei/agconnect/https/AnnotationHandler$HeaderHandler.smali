@@ -17,7 +17,7 @@
     value = {
         "Lcom/huawei/agconnect/https/AnnotationHandler<",
         "Lcom/huawei/agconnect/https/annotation/Header;",
-        "Lcom/huawei/appmarket/gr6$a;",
+        "Lcom/huawei/appmarket/jr6$a;",
         ">;"
     }
 .end annotation
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/gr6$a;)Lcom/huawei/appmarket/gr6$a;
+.method public a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/jr6$a;)Lcom/huawei/appmarket/jr6$a;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,9 +43,9 @@
             ">(",
             "Ljava/lang/reflect/Field;",
             "TRequestBean;",
-            "Lcom/huawei/appmarket/gr6$a;",
+            "Lcom/huawei/appmarket/jr6$a;",
             ")",
-            "Lcom/huawei/appmarket/gr6$a;"
+            "Lcom/huawei/appmarket/jr6$a;"
         }
     .end annotation
 
@@ -110,7 +110,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/gr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/jr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-object p3
@@ -147,9 +147,9 @@
     .registers 4
 
     .line 2
-    check-cast p3, Lcom/huawei/appmarket/gr6$a;
+    check-cast p3, Lcom/huawei/appmarket/jr6$a;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/gr6$a;)Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/agconnect/https/AnnotationHandler$HeaderHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/jr6$a;)Lcom/huawei/appmarket/jr6$a;
 
     move-result-object p1
 

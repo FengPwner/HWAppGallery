@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/jmessage/sources/PackageInstallSource;->onInitialize(Lcom/huawei/appmarket/g32$a;)V
+    value = Lcom/huawei/jmessage/sources/PackageInstallSource;->onInitialize(Lcom/huawei/appmarket/k32$a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -224,7 +224,7 @@
 
     .line 83
     .line 84
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -234,7 +234,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/g32;->fire(Ljava/lang/Object;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/k32;->fire(Ljava/lang/Object;)V
 
     .line 90
     .line 91
@@ -422,8 +422,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

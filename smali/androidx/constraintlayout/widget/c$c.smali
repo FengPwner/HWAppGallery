@@ -186,7 +186,7 @@
     .registers 11
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/wf6;->r:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->r:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -373,7 +373,7 @@
     goto :goto_3
 
     :cond_3
-    sget-object v4, Lcom/huawei/appmarket/iy1;->c:[Ljava/lang/String;
+    sget-object v4, Lcom/huawei/appmarket/my1;->c:[Ljava/lang/String;
 
     invoke-virtual {p1, v3, v1}, Landroid/content/res/TypedArray;->getInteger(II)I
 

@@ -190,7 +190,7 @@
     .line 76
     :cond_2
     :goto_1
-    sget-object p0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 77
     .line 78
@@ -202,7 +202,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -231,7 +231,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic n1(Lcom/huawei/appgallery/search/ui/card/TrialModeSearchEmptyCard;)Landroid/content/Context;
@@ -351,15 +350,15 @@
     .line 44
     .line 45
     .line 46
-    new-instance v0, Lcom/huawei/appmarket/lf;
+    new-instance v0, Lcom/huawei/appmarket/w81;
 
     .line 47
     .line 48
-    const/16 v1, 0x9
+    const/16 v1, 0xb
 
     .line 49
     .line 50
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     .line 51
     .line 52
@@ -421,10 +420,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1

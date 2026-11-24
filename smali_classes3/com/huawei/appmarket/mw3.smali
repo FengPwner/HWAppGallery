@@ -2,5 +2,7 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/zj3;
+
+# virtual methods
+.method public abstract a(Landroid/content/Context;)V
+.end method

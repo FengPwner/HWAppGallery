@@ -232,7 +232,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -259,7 +258,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/fy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/iy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -367,7 +366,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public varargs error([Ljava/lang/Object;)V
@@ -392,7 +390,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/fy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/iy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -500,7 +498,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public varargs info([Ljava/lang/Object;)V
@@ -525,7 +522,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/fy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/iy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -633,7 +630,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public varargs log([Ljava/lang/Object;)V
@@ -658,7 +654,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/fy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/iy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -766,7 +762,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public varargs warn([Ljava/lang/Object;)V
@@ -791,7 +786,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/fy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/huawei/appmarket/iy4;->e(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -899,5 +894,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -64,7 +64,7 @@
     :cond_0
     iget-object v1, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;->g:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;
 
-    invoke-interface {v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()Landroid/view/ViewGroup$LayoutParams;
+    invoke-interface {v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->c()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v2
 
@@ -72,7 +72,7 @@
 
     iput v2, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    invoke-interface {v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()Landroid/view/ViewGroup$LayoutParams;
+    invoke-interface {v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->c()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -111,7 +111,7 @@
     :cond_0
     iget-object v2, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$g;->g:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;
 
-    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()Landroid/view/ViewGroup$LayoutParams;
+    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->c()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
 
@@ -119,7 +119,7 @@
 
     iput v3, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()Landroid/view/ViewGroup$LayoutParams;
+    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->c()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
 
@@ -127,7 +127,7 @@
 
     iput v3, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->e()I
+    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()I
 
     move-result v1
 
@@ -135,7 +135,7 @@
 
     move-result v3
 
-    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->b()I
+    invoke-interface {v2}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->a()I
 
     move-result v2
 
@@ -143,7 +143,7 @@
 
     move-result v4
 
-    invoke-static {v0, v1, v3, v2, v4}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {v0, v1, v3, v2, v4}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     invoke-virtual {v0}, Landroid/view/View;->requestLayout()V
 
@@ -218,13 +218,13 @@
     .registers 12
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/material/floatingactionbutton/b;->j()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {p0}, Lcom/google/android/material/floatingactionbutton/b;->j()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
     const-string v1, "width"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->h(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->h(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -240,7 +240,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     move-result-object v2
 
@@ -256,7 +256,7 @@
 
     aput v10, v9, v7
 
-    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->c()I
+    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->b()I
 
     move-result v10
 
@@ -266,18 +266,18 @@
 
     invoke-virtual {v8, v9}, Landroid/animation/PropertyValuesHolder;->setFloatValues([F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     :cond_0
     const-string v1, "height"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->h(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->h(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     move-result-object v2
 
@@ -293,7 +293,7 @@
 
     aput v10, v9, v7
 
-    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->a()I
+    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->getHeight()I
 
     move-result v10
 
@@ -303,18 +303,18 @@
 
     invoke-virtual {v8, v9}, Landroid/animation/PropertyValuesHolder;->setFloatValues([F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     :cond_1
     const-string v1, "paddingStart"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->h(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->h(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     move-result-object v2
 
@@ -322,7 +322,7 @@
 
     new-array v9, v6, [F
 
-    invoke-static {v4}, Lcom/huawei/appmarket/ei8;->y(Landroid/view/View;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/ki8;->y(Landroid/view/View;)I
 
     move-result v10
 
@@ -330,7 +330,7 @@
 
     aput v10, v9, v7
 
-    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->e()I
+    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->d()I
 
     move-result v10
 
@@ -340,18 +340,18 @@
 
     invoke-virtual {v8, v9}, Landroid/animation/PropertyValuesHolder;->setFloatValues([F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     :cond_2
     const-string v1, "paddingEnd"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->h(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->h(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     move-result-object v2
 
@@ -359,7 +359,7 @@
 
     new-array v9, v6, [F
 
-    invoke-static {v4}, Lcom/huawei/appmarket/ei8;->x(Landroid/view/View;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/ki8;->x(Landroid/view/View;)I
 
     move-result v4
 
@@ -367,7 +367,7 @@
 
     aput v4, v9, v7
 
-    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->b()I
+    invoke-interface {v3}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$k;->a()I
 
     move-result v3
 
@@ -377,18 +377,18 @@
 
     invoke-virtual {v8, v9}, Landroid/animation/PropertyValuesHolder;->setFloatValues([F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     :cond_3
     const-string v1, "labelOpacity"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->h(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->h(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_6
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb5;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     move-result-object v2
 
@@ -426,10 +426,10 @@
 
     invoke-virtual {v4, v6}, Landroid/animation/PropertyValuesHolder;->setFloatValues([F)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/nb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/qb5;->i(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     :cond_6
-    invoke-virtual {p0, v0}, Lcom/google/android/material/floatingactionbutton/b;->i(Lcom/huawei/appmarket/nb5;)Landroid/animation/AnimatorSet;
+    invoke-virtual {p0, v0}, Lcom/google/android/material/floatingactionbutton/b;->i(Lcom/huawei/appmarket/qb5;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
 

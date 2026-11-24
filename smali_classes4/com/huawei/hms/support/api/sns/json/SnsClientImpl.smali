@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/sx8;->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/yx8;->a(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -142,7 +142,7 @@
 
 
 # virtual methods
-.method public addFriend(Lcom/huawei/hms/support/api/entity/sns/internal/AddFriendReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public addFriend(Lcom/huawei/hms/support/api/entity/sns/internal/AddFriendReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -150,7 +150,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/AddFriendReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/AddFriendResp;",
             ">;"
         }
@@ -175,7 +175,7 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/sx8;->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/yx8;->a(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -213,7 +213,7 @@
     return-void
 .end method
 
-.method public followPublicUser(Lcom/huawei/hms/support/api/entity/sns/internal/FollowPublicUserReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public followPublicUser(Lcom/huawei/hms/support/api/entity/sns/internal/FollowPublicUserReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -221,7 +221,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/FollowPublicUserReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/FollowPublicUserResp;",
             ">;"
         }
@@ -246,21 +246,21 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getFriendList(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getFriendList(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/GetFriendListResp;",
             ">;"
         }
@@ -281,14 +281,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getFriendSelectorIntent(Lcom/huawei/hms/support/api/entity/sns/internal/FriendSelectorIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getFriendSelectorIntent(Lcom/huawei/hms/support/api/entity/sns/internal/FriendSelectorIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -296,7 +296,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/FriendSelectorIntentReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/json/SnsOutIntent;",
             ">;"
         }
@@ -321,21 +321,21 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getGroupCreatorIntent(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getGroupCreatorIntent(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/json/SnsOutIntent;",
             ">;"
         }
@@ -356,14 +356,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getGroupList(Lcom/huawei/hms/support/api/entity/sns/internal/GroupListReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getGroupList(Lcom/huawei/hms/support/api/entity/sns/internal/GroupListReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -371,7 +371,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/GroupListReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/GetGroupListResp;",
             ">;"
         }
@@ -396,14 +396,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getGroupMemList(Lcom/huawei/hms/support/api/entity/sns/internal/GroupMemListReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getGroupMemList(Lcom/huawei/hms/support/api/entity/sns/internal/GroupMemListReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -411,7 +411,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/GroupMemListReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/GetGroupMemListResp;",
             ">;"
         }
@@ -436,14 +436,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getGroupSelectorIntent(Lcom/huawei/hms/support/api/entity/sns/internal/GroupSelectorIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getGroupSelectorIntent(Lcom/huawei/hms/support/api/entity/sns/internal/GroupSelectorIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -451,7 +451,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/GroupSelectorIntentReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/json/SnsOutIntent;",
             ">;"
         }
@@ -476,21 +476,21 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getIMStatus(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getIMStatus(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/GetIMStatusResp;",
             ">;"
         }
@@ -511,14 +511,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getUiIntent(Lcom/huawei/hms/support/api/entity/sns/internal/UiIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getUiIntent(Lcom/huawei/hms/support/api/entity/sns/internal/UiIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -526,7 +526,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/UiIntentReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/json/SnsOutIntent;",
             ">;"
         }
@@ -551,21 +551,21 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getUnreadMsgCount(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getUnreadMsgCount(Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/UnreadMsg;",
             ">;"
         }
@@ -586,14 +586,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getUserCount(Lcom/huawei/hms/support/api/entity/sns/internal/UserUnreadMsgReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getUserCount(Lcom/huawei/hms/support/api/entity/sns/internal/UserUnreadMsgReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -601,7 +601,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/UserUnreadMsgReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/UserUnreadMsg;",
             ">;"
         }
@@ -626,14 +626,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getUserData(Lcom/huawei/hms/support/api/entity/sns/internal/UserDataReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public getUserData(Lcom/huawei/hms/support/api/entity/sns/internal/UserDataReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -641,7 +641,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/UserDataReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/UserDataResp;",
             ">;"
         }
@@ -666,14 +666,14 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public searchUser(Lcom/huawei/hms/support/api/entity/sns/internal/UserSearchReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public searchUser(Lcom/huawei/hms/support/api/entity/sns/internal/UserSearchReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -681,7 +681,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/UserSearchReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/internal/UserSearchResp;",
             ">;"
         }
@@ -708,14 +708,14 @@
 
     invoke-direct {p0, v1, v0}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public sendMsgIntent(Lcom/huawei/hms/support/api/entity/sns/internal/SnsSendMsgIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/hv7;
+.method public sendMsgIntent(Lcom/huawei/hms/support/api/entity/sns/internal/SnsSendMsgIntentReq;Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -723,7 +723,7 @@
             "Lcom/huawei/hms/support/api/entity/sns/internal/SnsSendMsgIntentReq;",
             "Lcom/huawei/hms/support/api/sns/json/SnsClient$Callback;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/sns/json/SnsOutIntent;",
             ">;"
         }
@@ -748,7 +748,7 @@
 
     invoke-direct {p0, v2, v1}, Lcom/huawei/hms/support/api/sns/json/SnsClientImpl;->a(Lcom/huawei/hms/common/internal/TaskApiCall;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

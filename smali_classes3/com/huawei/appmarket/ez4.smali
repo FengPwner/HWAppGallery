@@ -2,12 +2,9 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/py4;
-
 
 # direct methods
-.method public constructor <init>()V
+.method private constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -15,42 +12,42 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-    .registers 6
+.method public static a(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    if-nez p4, :cond_0
+    if-nez p1, :cond_0
 
-    :goto_0
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->println(ILjava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_1
+    return-void
 
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    const-string v0, "CAWARENESS_CLIENT_"
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-virtual {v0, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p0
 
-    const/16 p3, 0xa
+    invoke-static {p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    return-void
+.end method
 
-    invoke-static {p4}, Landroid/util/Log;->getStackTraceString(Ljava/lang/Throwable;)Ljava/lang/String;
+.method public static b(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
 
-    move-result-object p3
+    .line 1
+    if-nez p1, :cond_0
 
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    return-void
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    :cond_0
+    const-string v0, "CAWARENESS_CLIENT_"
 
-    move-result-object p3
+    invoke-virtual {v0, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    goto :goto_0
+    move-result-object p0
 
-    :goto_1
+    invoke-static {p0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     return-void
 .end method

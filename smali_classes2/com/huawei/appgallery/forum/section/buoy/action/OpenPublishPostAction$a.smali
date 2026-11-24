@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -47,19 +47,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -69,7 +69,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -232,7 +232,7 @@
     invoke-virtual {p1, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     :try_start_0
-    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1100(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1100(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object v0
 
@@ -265,30 +265,30 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_0
     const-string p1, "check user task failed"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1200(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1200(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     goto :goto_1
 
     :cond_1
     const-string p1, "task failed"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1300(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v2}, Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;->access$1300(Lcom/huawei/appgallery/forum/section/buoy/action/OpenPublishPostAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 

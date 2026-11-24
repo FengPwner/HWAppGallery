@@ -174,7 +174,7 @@
     return-void
 .end method
 
-.method public final p2(Lcom/huawei/appmarket/bp;)V
+.method public final p2(Lcom/huawei/appmarket/ap;)V
     .registers 6
 
     .line 1
@@ -222,7 +222,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 25
     .line 26
@@ -249,7 +249,7 @@
 
     .line 36
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 37
     .line 38
@@ -280,7 +280,7 @@
 
     .line 49
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->d()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->d()I
 
     .line 50
     .line 51
@@ -304,7 +304,7 @@
 
     .line 60
     :cond_3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->d()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->d()I
 
     .line 61
     .line 62
@@ -335,7 +335,7 @@
 
     .line 73
     :goto_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->f()I
 
     .line 74
     .line 75
@@ -348,7 +348,7 @@
     .line 78
     .line 79
     .line 80
-    invoke-virtual {p1}, Lcom/huawei/appmarket/bp;->d()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ap;->d()I
 
     .line 81
     .line 82
@@ -397,5 +397,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

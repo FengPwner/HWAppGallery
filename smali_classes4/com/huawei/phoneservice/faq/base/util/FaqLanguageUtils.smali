@@ -14,7 +14,7 @@
 
 .method public static changeAppLanguage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/res/Configuration;)Landroid/content/Context;
     .registers 9
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -63,13 +63,13 @@
 
     if-lt v2, v3, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/r58;->n()V
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->t()V
 
     new-array v2, v4, [Ljava/util/Locale;
 
     aput-object v0, v2, v1
 
-    invoke-static {v2}, Lcom/huawei/appmarket/r58;->d([Ljava/util/Locale;)Landroid/os/LocaleList;
+    invoke-static {v2}, Lcom/huawei/appmarket/fq7;->f([Ljava/util/Locale;)Landroid/os/LocaleList;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
 .method public static getLanguage()Ljava/lang/String;
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -154,7 +154,7 @@
     move-result-object v1
 
     .line 24
-    invoke-static {v1}, Lcom/huawei/appmarket/rr5;->h(Landroid/os/LocaleList;)Ljava/util/Locale;
+    invoke-static {v1}, Lcom/huawei/appmarket/et6;->f(Landroid/os/LocaleList;)Ljava/util/Locale;
 
     .line 25
     .line 26
@@ -477,11 +477,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static getSystemCountry()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -502,7 +522,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/rr5;->h(Landroid/os/LocaleList;)Ljava/util/Locale;
+    invoke-static {v0}, Lcom/huawei/appmarket/et6;->f(Landroid/os/LocaleList;)Ljava/util/Locale;
 
     move-result-object v0
 

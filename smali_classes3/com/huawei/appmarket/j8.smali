@@ -23,10 +23,10 @@
     .end annotation
 .end field
 
-.field private b:Lcom/huawei/appmarket/z16;
+.field private b:Lcom/huawei/appmarket/b26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/z16<",
+            "Lcom/huawei/appmarket/b26<",
             "TT;>;"
         }
     .end annotation
@@ -78,13 +78,13 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/z16;
+    new-instance v0, Lcom/huawei/appmarket/b26;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/z16;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/b26;-><init>(Ljava/lang/Class;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/j8;->b:Lcom/huawei/appmarket/z16;
+    iput-object v0, p0, Lcom/huawei/appmarket/j8;->b:Lcom/huawei/appmarket/b26;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/z16;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b26;->get()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -118,13 +118,13 @@
     return-void
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/r57;->a(Landroid/content/Intent;)Lcom/huawei/appmarket/r57;
+    invoke-static {p1}, Lcom/huawei/appmarket/w57;->a(Landroid/content/Intent;)Lcom/huawei/appmarket/w57;
 
     move-result-object p1
 
     const-string v0, "__ResultClassname__"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/r57;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/w57;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -146,9 +146,9 @@
 
     if-eqz v1, :cond_2
 
-    new-instance v1, Lcom/huawei/appmarket/z16;
+    new-instance v1, Lcom/huawei/appmarket/b26;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/z16;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/b26;-><init>(Ljava/lang/Class;)V
 
     goto :goto_0
 
@@ -167,23 +167,23 @@
     :goto_0
     const-string v0, "__Result__"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/r57;->b(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/w57;->b(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/i75;
+    new-instance v0, Lcom/huawei/appmarket/l75;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/i75;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/l75;-><init>()V
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/i75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/l75;->b(Ljava/lang/Object;Landroid/os/Bundle;)Ljava/lang/Object;
 
-    instance-of p1, v1, Lcom/huawei/appmarket/z16;
+    instance-of p1, v1, Lcom/huawei/appmarket/b26;
 
     if-eqz p1, :cond_3
 
-    check-cast v1, Lcom/huawei/appmarket/z16;
+    check-cast v1, Lcom/huawei/appmarket/b26;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/z16;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/b26;->get()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -282,7 +282,7 @@
     return-object v0
 
     :cond_0
-    iget-object v2, p0, Lcom/huawei/appmarket/j8;->b:Lcom/huawei/appmarket/z16;
+    iget-object v2, p0, Lcom/huawei/appmarket/j8;->b:Lcom/huawei/appmarket/b26;
 
     if-nez v2, :cond_1
 
@@ -298,15 +298,15 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    new-instance v2, Lcom/huawei/appmarket/i75;
+    new-instance v2, Lcom/huawei/appmarket/l75;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/i75;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/l75;-><init>()V
 
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/i75;->c(Ljava/lang/Object;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/l75;->c(Ljava/lang/Object;Landroid/os/Bundle;)Landroid/os/Bundle;
 
     const-string v1, "__Result__"
 

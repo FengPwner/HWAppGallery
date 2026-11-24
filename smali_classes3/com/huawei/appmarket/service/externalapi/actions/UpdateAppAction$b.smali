@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xk3;
+.implements Lcom/huawei/appmarket/zk3;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/ns1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    value = Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->downloadTask(Lcom/huawei/appmarket/qs1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,11 +40,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction$b;->a:Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;->access$100(Lcom/huawei/appmarket/service/externalapi/actions/UpdateAppAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method

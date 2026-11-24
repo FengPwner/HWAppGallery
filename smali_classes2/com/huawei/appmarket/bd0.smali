@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jj3;
+.implements Lcom/huawei/appmarket/lj3;
 
 
 # static fields
@@ -63,7 +63,7 @@
 
 
 # virtual methods
-.method public final E2(Ljava/lang/String;)V
+.method public final F2(Ljava/lang/String;)V
     .registers 2
 
     .line 1

@@ -347,248 +347,248 @@
     move-result-object v3
 
     .line 110
-    const-string v4, "yunAddress"
+    const-string/jumbo v4, "yunAddress"
 
     .line 111
     .line 112
+    .line 113
     invoke-interface {p1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 113
     .line 114
     .line 115
+    .line 116
     :cond_4
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 116
     .line 117
     .line 118
+    .line 119
     move-result-object p1
 
-    .line 119
+    .line 120
     invoke-interface {p1}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->apply()I
 
-    .line 120
     .line 121
     .line 122
+    .line 123
     iget-object p1, p0, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->a:Landroid/app/Application;
 
-    .line 123
     .line 124
+    .line 125
     if-eqz p1, :cond_5
 
-    .line 125
     .line 126
+    .line 127
     invoke-virtual {v0}, Lcom/huawei/phoneservice/faq/base/entity/FaqSdkServiceUrlResponse$ServiceUrl;->b()Ljava/lang/String;
 
-    .line 127
     .line 128
     .line 129
+    .line 130
     move-result-object v3
 
-    .line 130
+    .line 131
     invoke-static {p1, v3}, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils;->a(Landroid/app/Application;Ljava/lang/String;)V
 
-    .line 131
     .line 132
     .line 133
+    .line 134
     :cond_5
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 134
     .line 135
     .line 136
-    move-result-object p1
-
     .line 137
-    const-string v3, "useOldDomain"
+    move-result-object p1
 
     .line 138
-    .line 139
-    invoke-interface {p1, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+    const-string/jumbo v3, "useOldDomain"
 
+    .line 139
     .line 140
     .line 141
+    invoke-interface {p1, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+
     .line 142
+    .line 143
+    .line 144
     move-result-object p1
 
-    .line 143
+    .line 145
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 144
-    .line 145
     .line 146
+    .line 147
+    .line 148
     move-result p1
 
-    .line 147
-    if-eqz p1, :cond_6
-
-    .line 148
     .line 149
-    invoke-virtual {v0}, Lcom/huawei/phoneservice/faq/base/entity/FaqSdkServiceUrlResponse$ServiceUrl;->c()Ljava/lang/String;
+    if-eqz p1, :cond_6
 
     .line 150
     .line 151
+    invoke-virtual {v0}, Lcom/huawei/phoneservice/faq/base/entity/FaqSdkServiceUrlResponse$ServiceUrl;->c()Ljava/lang/String;
+
     .line 152
+    .line 153
+    .line 154
     move-result-object p1
 
-    .line 153
+    .line 155
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 154
-    .line 155
     .line 156
+    .line 157
+    .line 158
     move-result p1
 
-    .line 157
+    .line 159
     goto :goto_1
 
-    .line 158
+    .line 160
     :cond_6
     invoke-virtual {v0}, Lcom/huawei/phoneservice/faq/base/entity/FaqSdkServiceUrlResponse$ServiceUrl;->d()Ljava/lang/String;
 
-    .line 159
-    .line 160
     .line 161
+    .line 162
+    .line 163
     move-result-object p1
 
-    .line 162
+    .line 164
     goto :goto_0
 
-    .line 163
+    .line 165
     :goto_1
     xor-int/lit8 p1, p1, 0x1
 
-    .line 164
-    .line 165
+    .line 166
+    .line 167
     goto :goto_2
 
-    .line 166
+    .line 168
     :cond_7
     const/4 p1, 0x0
 
-    .line 167
+    .line 169
     :goto_2
     invoke-static {}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
 
-    .line 168
-    .line 169
     .line 170
+    .line 171
+    .line 172
     move-result-object v0
 
-    .line 171
-    const-string v3, "isDeepLink"
-
-    .line 172
     .line 173
-    invoke-interface {v0, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "isDeepLink"
 
     .line 174
     .line 175
+    invoke-interface {v0, v3}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
+
     .line 176
+    .line 177
+    .line 178
     move-result-object v0
 
-    .line 177
+    .line 179
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 178
-    .line 179
     .line 180
+    .line 181
+    .line 182
     move-result v0
 
-    .line 181
-    if-nez v0, :cond_9
-
-    .line 182
     .line 183
-    if-eqz p1, :cond_8
+    if-nez v0, :cond_9
 
     .line 184
     .line 185
-    invoke-direct {p0, p2}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->e(Ljava/lang/String;)V
+    if-eqz p1, :cond_8
 
     .line 186
     .line 187
+    invoke-direct {p0, p2}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->e(Ljava/lang/String;)V
+
     .line 188
+    .line 189
+    .line 190
     goto :goto_3
 
-    .line 189
+    .line 191
     :cond_8
     sget-object p1, Lcom/huawei/phoneservice/faq/base/b;->f:Lcom/huawei/phoneservice/faq/base/b;
 
-    .line 190
-    .line 191
-    iput-object p1, p0, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->c:Lcom/huawei/phoneservice/faq/base/b;
-
     .line 192
     .line 193
-    new-instance p1, Ljava/lang/StringBuilder;
+    iput-object p1, p0, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->c:Lcom/huawei/phoneservice/faq/base/b;
 
     .line 194
     .line 195
-    const-string v0, "no address in countryCode:"
+    new-instance p1, Ljava/lang/StringBuilder;
 
     .line 196
     .line 197
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v0, "no address in countryCode:"
 
     .line 198
     .line 199
-    .line 200
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 200
     .line 201
     .line 202
-    .line 203
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 203
     .line 204
     .line 205
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 206
+    .line 207
+    .line 208
     move-result-object p1
 
-    .line 207
+    .line 209
     const/4 p2, -0x1
 
-    .line 208
+    .line 210
     invoke-virtual {p0, p2, p1}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->onSdkInit(ILjava/lang/String;)V
 
-    .line 209
-    .line 210
     .line 211
-    const-string p0, "SDK_ERROR"
-
     .line 212
     .line 213
-    invoke-static {p0, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->print(Ljava/lang/String;Ljava/lang/String;)V
+    const-string p0, "SDK_ERROR"
 
     .line 214
     .line 215
+    invoke-static {p0, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->print(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 216
+    .line 217
+    .line 218
     goto :goto_3
 
-    .line 217
+    .line 219
     :cond_9
     sget-object p1, Lcom/huawei/phoneservice/faq/base/b;->l:Lcom/huawei/phoneservice/faq/base/b;
 
-    .line 218
-    .line 219
-    iput-object p1, p0, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->c:Lcom/huawei/phoneservice/faq/base/b;
-
     .line 220
     .line 221
-    const/4 p1, 0x0
+    iput-object p1, p0, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->c:Lcom/huawei/phoneservice/faq/base/b;
 
     .line 222
+    .line 223
+    const/4 p1, 0x0
+
+    .line 224
     invoke-virtual {p0, v2, p1}, Lcom/huawei/phoneservice/faq/base/util/FaqSdk;->onSdkInit(ILjava/lang/String;)V
 
-    .line 223
-    .line 224
     .line 225
-    :goto_3
-    return-void
     .line 226
     .line 227
+    :goto_3
+    return-void
     .line 228
     .line 229
     .line 230
@@ -873,49 +873,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method static synthetic d(Lcom/huawei/phoneservice/faq/base/util/FaqSdk;Ljava/lang/String;)V
@@ -1118,7 +1075,7 @@
 
 .method public static getISdk()Lcom/huawei/phoneservice/faq/base/util/ISdk;
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1434,11 +1391,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static getSdk()Lcom/huawei/phoneservice/faq/base/util/Sdk;
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1723,61 +1700,61 @@
     .line 29
     .line 30
     .line 31
-    const-string v1, "yunAddress"
+    const-string/jumbo v1, "yunAddress"
 
     .line 32
     .line 33
+    .line 34
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     const-string v1, "grsCcpcAddress"
 
-    .line 37
     .line 38
+    .line 39
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     const-string v1, "grsSgwAddress"
 
-    .line 42
     .line 43
+    .line 44
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 44
     .line 45
     .line 46
+    .line 47
     const-string v1, "grsLogserviceAddress"
 
-    .line 47
     .line 48
+    .line 49
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 49
     .line 50
     .line 51
+    .line 52
     const-string v1, "grsDmpaAddress"
 
-    .line 52
     .line 53
+    .line 54
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 54
     .line 55
     .line 56
+    .line 57
     invoke-virtual {v0, v2}, Lcom/google/gson/Gson;->h(Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     move-result-object v0
 
-    .line 60
-    return-object v0
     .line 61
+    return-object v0
     .line 62
     .line 63
     .line 64
@@ -2025,6 +2002,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final getMapOnSaveInstance()Ljava/lang/String;
@@ -3186,23 +3183,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final declared-synchronized saveSdk(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/phoneservice/faq/base/util/Sdk;

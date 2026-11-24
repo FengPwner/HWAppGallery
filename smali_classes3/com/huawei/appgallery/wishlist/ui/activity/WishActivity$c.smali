@@ -29,7 +29,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/ks8;",
+            "Lcom/huawei/appmarket/qs8;",
             ">;"
         }
     .end annotation
@@ -37,7 +37,7 @@
 
 
 # direct methods
-.method constructor <init>(Landroid/widget/RelativeLayout;Lcom/huawei/appmarket/ks8;)V
+.method constructor <init>(Landroid/widget/RelativeLayout;Lcom/huawei/appmarket/qs8;)V
     .registers 4
 
     .line 1
@@ -91,7 +91,7 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Lcom/huawei/appmarket/ks8;
+    check-cast v0, Lcom/huawei/appmarket/qs8;
 
     .line 14
     .line 15
@@ -99,7 +99,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ks8;->r()Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qs8;->r()Landroidx/fragment/app/Fragment;
 
     .line 18
     .line 19
@@ -120,7 +120,7 @@
     .line 26
     .line 27
     :goto_0
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -220,7 +220,7 @@
 
     .line 76
     .line 77
-    invoke-static {v3, v0, v2}, Lcom/huawei/appmarket/bu0;->v(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v3, v0, v2}, Lcom/huawei/appmarket/kd0;->w(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 78
     .line 79
@@ -287,5 +287,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -4,11 +4,8 @@
 
 
 # virtual methods
-.method public abstract onDestroy()V
+.method public abstract a(Lcom/huawei/appmarket/eu4;)V
 .end method
 
-.method public abstract onStart()V
-.end method
-
-.method public abstract onStop()V
+.method public abstract b(Lcom/huawei/appmarket/eu4;)V
 .end method

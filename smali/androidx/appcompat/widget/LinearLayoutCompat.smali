@@ -114,7 +114,7 @@
 
     iput v3, p0, Landroidx/appcompat/widget/LinearLayoutCompat;->mGravity:I
 
-    sget-object v6, Lcom/huawei/appmarket/pe6;->p:[I
+    sget-object v6, Lcom/huawei/appmarket/re6;->p:[I
 
     invoke-static {p1, p2, v6, p3, v2}, Landroidx/appcompat/widget/e0;->v(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/e0;
 
@@ -132,7 +132,7 @@
 
     move v9, p3
 
-    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     invoke-virtual {v3, v0, v1}, Landroidx/appcompat/widget/e0;->k(II)I
 
@@ -1435,7 +1435,7 @@
     const/4 v5, 0x2
 
     .line 106
-    invoke-static {v3, v4, v5, v2}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v3, v4, v5, v2}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 107
     .line 108
@@ -1492,6 +1492,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getBaselineAlignedChildIndex()I
@@ -1895,7 +1896,7 @@
 
     .line 91
     .line 92
-    invoke-static {v3, v4, v5, v2}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v3, v4, v5, v2}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 93
     .line 94
@@ -2239,7 +2240,7 @@
     const/4 v12, -0x1
 
     .line 248
-    invoke-static {v10, v5, v11, v8}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v10, v5, v11, v8}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 249
     .line 250
@@ -2742,7 +2743,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, v2, v12, v0}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v1, v2, v12, v0}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 70
     .line 71
@@ -2914,7 +2915,7 @@
 
     .line 145
     :cond_5
-    invoke-static {v9, v4, v12, v7}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v9, v4, v12, v7}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 146
     .line 147

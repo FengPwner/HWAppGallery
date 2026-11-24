@@ -37,10 +37,10 @@
     .end annotation
 .end field
 
-.field final c:Lcom/huawei/appmarket/xv4;
+.field final c:Lcom/huawei/appmarket/aw4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/xv4<",
+            "Lcom/huawei/appmarket/aw4<",
             "+TV;>;"
         }
     .end annotation
@@ -48,14 +48,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/j4;Lcom/huawei/appmarket/xv4;)V
+.method constructor <init>(Lcom/huawei/appmarket/j4;Lcom/huawei/appmarket/aw4;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/j4<",
             "TV;>;",
-            "Lcom/huawei/appmarket/xv4<",
+            "Lcom/huawei/appmarket/aw4<",
             "+TV;>;)V"
         }
     .end annotation
@@ -65,7 +65,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/j4$g;->b:Lcom/huawei/appmarket/j4;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/j4$g;->c:Lcom/huawei/appmarket/xv4;
+    iput-object p2, p0, Lcom/huawei/appmarket/j4$g;->c:Lcom/huawei/appmarket/aw4;
 
     return-void
 .end method
@@ -85,9 +85,9 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/j4$g;->c:Lcom/huawei/appmarket/xv4;
+    iget-object v0, p0, Lcom/huawei/appmarket/j4$g;->c:Lcom/huawei/appmarket/aw4;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/j4;->f(Lcom/huawei/appmarket/xv4;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/j4;->f(Lcom/huawei/appmarket/aw4;)Ljava/lang/Object;
 
     move-result-object v0
 

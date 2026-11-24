@@ -191,7 +191,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/pe6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/re6;->a:[I
 
     iget-object v1, p0, Lcom/huawei/appmarket/y6;->a:Landroid/content/Context;
 

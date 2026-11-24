@@ -296,7 +296,7 @@
 
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string v1, "weixin://sendreq?appid="
+    const-string/jumbo v1, "weixin://sendreq?appid="
 
     invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -392,7 +392,7 @@
 
     if-eqz v1, :cond_1
 
-    const-string v1, "wording"
+    const-string/jumbo v1, "wording"
 
     :try_start_2
     move-object v2, p1
@@ -422,7 +422,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string v1, "username"
+    const-string/jumbo v1, "username"
 
     :try_start_4
     move-object v2, p1
@@ -606,692 +606,692 @@
     move-result-object p1
 
     .line 27
-    const-string v3, "wx_internal_resptype"
+    const-string/jumbo v3, "wx_internal_resptype"
 
     .line 28
     .line 29
+    .line 30
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 30
     .line 31
     .line 32
+    .line 33
     move-result-object v3
 
-    .line 33
+    .line 34
     new-instance v4, Ljava/lang/StringBuilder;
 
-    .line 34
     .line 35
+    .line 36
     invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 36
     .line 37
     .line 38
+    .line 39
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 42
     .line 43
     .line 44
+    .line 45
     move-result-object v0
 
-    .line 45
+    .line 46
     invoke-static {v2, v0}, Lcom/tencent/mm/opensdk/utils/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 46
     .line 47
     .line 48
+    .line 49
     invoke-static {v3}, Lcom/tencent/mm/opensdk/utils/b;->b(Ljava/lang/String;)Z
 
-    .line 49
     .line 50
     .line 51
+    .line 52
     move-result v0
 
-    .line 52
+    .line 53
     if-eqz v0, :cond_0
 
-    .line 53
     .line 54
+    .line 55
     const-string p1, "handleWxInternalRespType fail, respType is null"
 
-    .line 55
     .line 56
+    .line 57
     invoke-static {v2, p1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     return v1
 
-    .line 60
+    .line 61
     :catch_0
     move-exception p1
 
-    .line 61
+    .line 62
     goto/16 :goto_1
 
-    .line 62
     .line 63
+    .line 64
     :cond_0
     const-string v0, "subscribemessage"
 
-    .line 64
     .line 65
+    .line 66
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 66
     .line 67
     .line 68
+    .line 69
     move-result v0
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 69
+    .line 70
     const-string v4, "openid"
 
-    .line 70
     .line 71
+    .line 72
     const/4 v5, 0x1
 
-    .line 72
+    .line 73
     const-string v6, "ret"
 
-    .line 73
     .line 74
+    .line 75
     if-eqz v0, :cond_2
 
-    .line 75
     .line 76
+    .line 77
     :try_start_1
     new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;
 
-    .line 77
     .line 78
+    .line 79
     invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;-><init>()V
 
-    .line 79
     .line 80
     .line 81
+    .line 82
     invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 82
     .line 83
     .line 84
+    .line 85
     move-result-object v3
 
-    .line 85
+    .line 86
     if-eqz v3, :cond_1
 
-    .line 86
     .line 87
+    .line 88
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
-    .line 88
     .line 89
     .line 90
+    .line 91
     move-result v6
 
-    .line 91
+    .line 92
     if-lez v6, :cond_1
 
-    .line 92
     .line 93
+    .line 94
     invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
 
-    .line 94
     .line 95
     .line 96
+    .line 97
     move-result v3
 
-    .line 97
+    .line 98
     iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
-    .line 98
     .line 99
+    .line 100
     :cond_1
     invoke-virtual {p1, v4}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 100
     .line 101
     .line 102
-    move-result-object v3
-
     .line 103
-    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->openId:Ljava/lang/String;
+    move-result-object v3
 
     .line 104
+    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->openId:Ljava/lang/String;
+
     .line 105
+    .line 106
     const-string v3, "template_id"
 
-    .line 106
     .line 107
+    .line 108
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 108
     .line 109
     .line 110
-    move-result-object v3
-
     .line 111
-    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;->templateID:Ljava/lang/String;
+    move-result-object v3
 
     .line 112
+    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;->templateID:Ljava/lang/String;
+
     .line 113
+    .line 114
     const-string v3, "scene"
 
-    .line 114
     .line 115
+    .line 116
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 116
     .line 117
     .line 118
-    move-result-object v3
-
     .line 119
-    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+    move-result-object v3
 
     .line 120
+    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+
     .line 121
     .line 122
+    .line 123
     move-result v3
 
-    .line 123
+    .line 124
     iput v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;->scene:I
 
-    .line 124
     .line 125
+    .line 126
     const-string v3, "action"
 
-    .line 126
     .line 127
+    .line 128
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 128
     .line 129
     .line 130
+    .line 131
     move-result-object v3
 
-    .line 131
+    .line 132
     iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;->action:Ljava/lang/String;
 
-    .line 132
     .line 133
+    .line 134
     const-string v3, "reserved"
 
-    .line 134
     .line 135
+    .line 136
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 136
     .line 137
     .line 138
+    .line 139
     move-result-object p1
 
-    .line 139
+    .line 140
     iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMessage$Resp;->reserved:Ljava/lang/String;
 
-    .line 140
     .line 141
+    .line 142
     invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
 
-    .line 142
     .line 143
     .line 144
+    .line 145
     return v5
 
-    .line 145
+    .line 146
     :cond_2
     const-string v0, "invoice_auth_insert"
 
-    .line 146
     .line 147
+    .line 148
     invoke-virtual {v3, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 148
     .line 149
     .line 150
+    .line 151
     move-result v0
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 151
-    const-string v7, "wx_order_id"
-
     .line 152
-    .line 153
-    if-eqz v0, :cond_4
+    const-string/jumbo v7, "wx_order_id"
 
+    .line 153
     .line 154
     .line 155
-    :try_start_2
-    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;
+    if-eqz v0, :cond_4
 
     .line 156
     .line 157
-    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;-><init>()V
+    :try_start_2
+    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;
 
     .line 158
     .line 159
-    .line 160
-    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;-><init>()V
 
+    .line 160
     .line 161
     .line 162
+    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 163
+    .line 164
+    .line 165
     move-result-object v3
 
-    .line 164
-    if-eqz v3, :cond_3
-
-    .line 165
     .line 166
-    invoke-virtual {v3}, Ljava/lang/String;->length()I
+    if-eqz v3, :cond_3
 
     .line 167
     .line 168
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
     .line 169
+    .line 170
+    .line 171
     move-result v4
 
-    .line 170
-    if-lez v4, :cond_3
-
-    .line 171
     .line 172
-    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+    if-lez v4, :cond_3
 
     .line 173
     .line 174
+    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+
     .line 175
+    .line 176
+    .line 177
     move-result v3
 
-    .line 176
-    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
-
-    .line 177
     .line 178
-    :cond_3
-    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
     .line 179
     .line 180
+    :cond_3
+    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 181
+    .line 182
+    .line 183
     move-result-object p1
 
-    .line 182
-    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;->wxOrderId:Ljava/lang/String;
-
-    .line 183
     .line 184
-    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXInvoiceAuthInsert$Resp;->wxOrderId:Ljava/lang/String;
 
     .line 185
     .line 186
+    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+
     .line 187
+    .line 188
+    .line 189
     return v5
 
-    .line 188
+    .line 190
     :cond_4
     const-string v0, "payinsurance"
 
-    .line 189
-    .line 190
-    invoke-virtual {v3, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
     .line 191
     .line 192
+    invoke-virtual {v3, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
     .line 193
+    .line 194
+    .line 195
     move-result v0
 
-    .line 194
-    if-eqz v0, :cond_6
-
-    .line 195
     .line 196
-    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;
+    if-eqz v0, :cond_6
 
     .line 197
     .line 198
-    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;-><init>()V
+    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;
 
     .line 199
     .line 200
-    .line 201
-    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;-><init>()V
 
+    .line 201
     .line 202
     .line 203
+    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 204
+    .line 205
+    .line 206
     move-result-object v3
 
-    .line 205
-    if-eqz v3, :cond_5
-
-    .line 206
     .line 207
-    invoke-virtual {v3}, Ljava/lang/String;->length()I
+    if-eqz v3, :cond_5
 
     .line 208
     .line 209
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
     .line 210
+    .line 211
+    .line 212
     move-result v4
 
-    .line 211
-    if-lez v4, :cond_5
-
-    .line 212
     .line 213
-    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+    if-lez v4, :cond_5
 
     .line 214
     .line 215
+    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+
     .line 216
+    .line 217
+    .line 218
     move-result v3
 
-    .line 217
-    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
-
-    .line 218
     .line 219
-    :cond_5
-    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
     .line 220
     .line 221
+    :cond_5
+    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 222
+    .line 223
+    .line 224
     move-result-object p1
 
-    .line 223
-    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;->wxOrderId:Ljava/lang/String;
-
-    .line 224
     .line 225
-    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXPayInsurance$Resp;->wxOrderId:Ljava/lang/String;
 
     .line 226
     .line 227
+    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+
     .line 228
+    .line 229
+    .line 230
     return v5
 
-    .line 229
+    .line 231
     :cond_6
     const-string v0, "nontaxpay"
 
-    .line 230
-    .line 231
-    invoke-virtual {v3, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
     .line 232
     .line 233
+    invoke-virtual {v3, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
     .line 234
+    .line 235
+    .line 236
     move-result v0
 
-    .line 235
-    if-eqz v0, :cond_8
-
-    .line 236
     .line 237
-    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;
+    if-eqz v0, :cond_8
 
     .line 238
     .line 239
-    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;-><init>()V
+    new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;
 
     .line 240
     .line 241
-    .line 242
-    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;-><init>()V
 
+    .line 242
     .line 243
     .line 244
+    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 245
+    .line 246
+    .line 247
     move-result-object v3
 
-    .line 246
-    if-eqz v3, :cond_7
-
-    .line 247
     .line 248
-    invoke-virtual {v3}, Ljava/lang/String;->length()I
+    if-eqz v3, :cond_7
 
     .line 249
     .line 250
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
     .line 251
+    .line 252
+    .line 253
     move-result v4
 
-    .line 252
-    if-lez v4, :cond_7
-
-    .line 253
     .line 254
-    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+    if-lez v4, :cond_7
 
     .line 255
     .line 256
+    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+
     .line 257
+    .line 258
+    .line 259
     move-result v3
 
-    .line 258
-    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
-
-    .line 259
     .line 260
-    :cond_7
-    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
     .line 261
     .line 262
+    :cond_7
+    invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 263
+    .line 264
+    .line 265
     move-result-object p1
 
-    .line 264
-    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;->wxOrderId:Ljava/lang/String;
-
-    .line 265
     .line 266
-    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+    iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbiz/WXNontaxPay$Resp;->wxOrderId:Ljava/lang/String;
 
     .line 267
     .line 268
+    invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
+
     .line 269
+    .line 270
+    .line 271
     return v5
 
-    .line 270
+    .line 272
     :cond_8
     const-string v0, "subscribeminiprogrammsg"
 
-    .line 271
-    .line 272
-    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 273
     .line 274
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 275
+    .line 276
+    .line 277
     move-result v0
 
-    .line 276
-    if-nez v0, :cond_a
-
-    .line 277
     .line 278
-    const-string v0, "5"
+    if-nez v0, :cond_a
 
     .line 279
     .line 280
-    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v0, "5"
 
     .line 281
     .line 282
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 283
+    .line 284
+    .line 285
     move-result v0
 
-    .line 284
+    .line 286
     if-eqz v0, :cond_9
 
-    .line 285
-    .line 286
+    .line 287
+    .line 288
     goto :goto_0
 
-    .line 287
+    .line 289
     :cond_9
     const-string p1, "this open sdk version not support the request type"
 
-    .line 288
-    .line 289
-    invoke-static {v2, p1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 290
     .line 291
+    invoke-static {v2, p1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 292
+    .line 293
+    .line 294
     goto :goto_2
 
-    .line 293
+    .line 295
     :cond_a
     :goto_0
     new-instance v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;
 
-    .line 294
-    .line 295
-    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;-><init>()V
-
     .line 296
     .line 297
-    .line 298
-    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v0}, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;-><init>()V
 
+    .line 298
     .line 299
     .line 300
+    invoke-virtual {p1, v6}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 301
+    .line 302
+    .line 303
     move-result-object v3
 
-    .line 302
-    if-eqz v3, :cond_b
-
-    .line 303
     .line 304
-    invoke-virtual {v3}, Ljava/lang/String;->length()I
+    if-eqz v3, :cond_b
 
     .line 305
     .line 306
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
     .line 307
+    .line 308
+    .line 309
     move-result v6
 
-    .line 308
-    if-lez v6, :cond_b
-
-    .line 309
     .line 310
-    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+    if-lez v6, :cond_b
 
     .line 311
     .line 312
+    invoke-static {v3, v1}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
+
     .line 313
+    .line 314
+    .line 315
     move-result v3
 
-    .line 314
-    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
-
-    .line 315
     .line 316
-    :cond_b
-    invoke-virtual {p1, v4}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    iput v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
     .line 317
     .line 318
+    :cond_b
+    invoke-virtual {p1, v4}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 319
+    .line 320
+    .line 321
     move-result-object v3
 
-    .line 320
-    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->openId:Ljava/lang/String;
-
-    .line 321
     .line 322
-    const-string v3, "unionid"
+    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->openId:Ljava/lang/String;
 
     .line 323
     .line 324
-    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "unionid"
 
     .line 325
     .line 326
+    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 327
+    .line 328
+    .line 329
     move-result-object v3
 
-    .line 328
-    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;->unionId:Ljava/lang/String;
-
-    .line 329
     .line 330
-    const-string v3, "nickname"
+    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;->unionId:Ljava/lang/String;
 
     .line 331
     .line 332
-    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "nickname"
 
     .line 333
     .line 334
+    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 335
+    .line 336
+    .line 337
     move-result-object v3
 
-    .line 336
-    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;->nickname:Ljava/lang/String;
-
-    .line 337
     .line 338
-    const-string v3, "errmsg"
+    iput-object v3, v0, Lcom/tencent/mm/opensdk/modelbiz/SubscribeMiniProgramMsg$Resp;->nickname:Ljava/lang/String;
 
     .line 339
     .line 340
-    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "errmsg"
 
     .line 341
     .line 342
+    invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
+
     .line 343
+    .line 344
+    .line 345
     move-result-object p1
 
-    .line 344
+    .line 346
     iput-object p1, v0, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errStr:Ljava/lang/String;
 
-    .line 345
-    .line 346
+    .line 347
+    .line 348
     invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 347
-    .line 348
     .line 349
+    .line 350
+    .line 351
     return v5
 
-    .line 350
+    .line 352
     :goto_1
     new-instance p2, Ljava/lang/StringBuilder;
 
-    .line 351
-    .line 352
-    const-string v0, "handleWxInternalRespType fail, ex = "
-
     .line 353
     .line 354
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v0, "handleWxInternalRespType fail, ex = "
 
     .line 355
     .line 356
-    .line 357
-    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 357
     .line 358
     .line 359
+    invoke-static {p1, p2, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 360
-    :goto_2
-    return v1
     .line 361
     .line 362
+    :goto_2
+    return v1
     .line 363
     .line 364
     .line 365
@@ -2569,7 +2569,7 @@
     .line 74
     .line 75
     .line 76
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -2816,6 +2816,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private sendAddCardToWX(Landroid/content/Context;Landroid/os/Bundle;)Z
@@ -3574,7 +3594,7 @@
 
     .line 30
     .line 31
-    invoke-static {v4, v5, v6}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5, v6}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 32
     .line 33
@@ -3843,10 +3863,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private sendLaunchWXMiniprogramWithToken(Landroid/content/Context;Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Z
@@ -4192,7 +4208,7 @@
 
     .line 49
     .line 50
-    invoke-static {v4, p2, v2}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, p2, v2}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -4440,10 +4456,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private sendOpenCustomerServiceChat(Landroid/content/Context;Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Z
@@ -4810,7 +4822,7 @@
     .line 73
     .line 74
     .line 75
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -5077,10 +5089,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private sendPreloadWXMiniProgramEnvironment(Landroid/content/Context;Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Z
@@ -5183,7 +5191,7 @@
 
     .line 27
     .line 28
-    invoke-static {v4, v5, v6}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5, v6}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -5455,10 +5463,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private sendQRCodePayReq(Landroid/content/Context;Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Z
@@ -5861,7 +5865,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -5947,60 +5951,60 @@
 
     .line 114
     .line 115
-    const-string v1, "wxSdkVersion = "
+    const-string/jumbo v1, "wxSdkVersion = "
 
     .line 116
     .line 117
+    .line 118
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 118
     .line 119
     .line 120
+    .line 121
     iget v1, p0, Lcom/tencent/mm/opensdk/openapi/BaseWXApiImplV10;->wxSdkVersion:I
 
-    .line 121
     .line 122
+    .line 123
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 123
     .line 124
     .line 125
+    .line 126
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 126
     .line 127
     .line 128
+    .line 129
     move-result-object v0
 
-    .line 129
+    .line 130
     invoke-static {v3, v0}, Lcom/tencent/mm/opensdk/utils/Log;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 130
     .line 131
     .line 132
+    .line 133
     iget v0, p0, Lcom/tencent/mm/opensdk/openapi/BaseWXApiImplV10;->wxSdkVersion:I
 
-    .line 133
     .line 134
+    .line 135
     return v0
 
-    .line 135
+    .line 136
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    .line 136
     .line 137
+    .line 138
     const-string v1, "getWXAppSupportAPI fail, WXMsgImpl has been detached"
 
-    .line 138
     .line 139
+    .line 140
     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    .line 140
     .line 141
     .line 142
-    throw v0
     .line 143
+    throw v0
     .line 144
     .line 145
     .line 146
@@ -6166,6 +6170,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public handleIntent(Landroid/content/Intent;Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;)Z
@@ -7162,455 +7186,453 @@
 
     .line 494
     .line 495
-    const-string v8, "wx_internal_resptype"
+    const-string/jumbo v8, "wx_internal_resptype"
 
     .line 496
     .line 497
+    .line 498
     invoke-virtual {p1, v8}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 498
     .line 499
     .line 500
+    .line 501
     move-result v8
 
-    .line 501
+    .line 502
     if-eqz v8, :cond_3
 
-    .line 502
     .line 503
+    .line 504
     invoke-direct {p0, p1, p2}, Lcom/tencent/mm/opensdk/openapi/BaseWXApiImplV10;->handleWxInternalRespType(Ljava/lang/String;Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;)Z
 
-    .line 504
     .line 505
     .line 506
+    .line 507
     move-result p1
 
-    .line 507
+    .line 508
     new-instance p2, Ljava/lang/StringBuilder;
 
-    .line 508
     .line 509
+    .line 510
     invoke-direct {p2, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 510
     .line 511
     .line 512
+    .line 513
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    .line 513
     .line 514
     .line 515
+    .line 516
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 516
     .line 517
     .line 518
+    .line 519
     move-result-object p2
 
-    .line 519
+    .line 520
     invoke-static {v1, p2}, Lcom/tencent/mm/opensdk/utils/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 520
     .line 521
     .line 522
+    .line 523
     return p1
 
-    .line 523
+    .line 524
     :cond_3
     if-eqz p1, :cond_7
 
-    .line 524
     .line 525
+    .line 526
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 526
     .line 527
     .line 528
+    .line 529
     move-result v5
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 529
+    .line 530
     if-eqz v5, :cond_7
 
-    .line 530
     .line 531
+    .line 532
     :try_start_1
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    .line 532
     .line 533
     .line 534
+    .line 535
     move-result-object v5
 
-    .line 535
+    .line 536
     if-eqz v5, :cond_6
 
-    .line 536
     .line 537
+    .line 538
     invoke-virtual {v5}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
-    .line 538
     .line 539
     .line 540
+    .line 541
     move-result-object v8
 
-    .line 541
+    .line 542
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 542
     .line 543
     .line 544
-    move-result v0
-
     .line 545
-    if-eqz v0, :cond_6
+    move-result v0
 
     .line 546
+    if-eqz v0, :cond_6
+
     .line 547
+    .line 548
     new-instance p1, Lcom/tencent/mm/opensdk/modelbiz/WXOpenBusinessWebview$Resp;
 
-    .line 548
     .line 549
+    .line 550
     invoke-direct {p1}, Lcom/tencent/mm/opensdk/modelbiz/WXOpenBusinessWebview$Resp;-><init>()V
 
-    .line 550
     .line 551
     .line 552
+    .line 553
     const-string v0, "ret"
 
-    .line 553
     .line 554
+    .line 555
     invoke-virtual {v5, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 555
     .line 556
     .line 557
+    .line 558
     move-result-object v0
 
-    .line 558
+    .line 559
     if-eqz v0, :cond_4
 
-    .line 559
     .line 560
+    .line 561
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
-    .line 561
     .line 562
     .line 563
+    .line 564
     move-result v4
 
-    .line 564
+    .line 565
     if-lez v4, :cond_4
 
-    .line 565
     .line 566
+    .line 567
     invoke-static {v0, v7}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
 
-    .line 567
     .line 568
     .line 569
+    .line 570
     move-result v0
 
-    .line 570
+    .line 571
     iput v0, p1, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errCode:I
 
-    .line 571
     .line 572
+    .line 573
     goto :goto_0
 
-    .line 573
+    .line 574
     :catch_1
     move-exception p1
 
-    .line 574
+    .line 575
     goto :goto_1
 
-    .line 575
+    .line 576
     :cond_4
     :goto_0
     const-string v0, "resultInfo"
 
-    .line 576
     .line 577
+    .line 578
     invoke-virtual {v5, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 578
     .line 579
     .line 580
-    move-result-object v0
-
     .line 581
-    iput-object v0, p1, Lcom/tencent/mm/opensdk/modelbiz/WXOpenBusinessWebview$Resp;->resultInfo:Ljava/lang/String;
+    move-result-object v0
 
     .line 582
+    iput-object v0, p1, Lcom/tencent/mm/opensdk/modelbiz/WXOpenBusinessWebview$Resp;->resultInfo:Ljava/lang/String;
+
     .line 583
+    .line 584
     const-string v0, "errmsg"
 
-    .line 584
     .line 585
+    .line 586
     invoke-virtual {v5, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 586
     .line 587
     .line 588
-    move-result-object v0
-
     .line 589
-    iput-object v0, p1, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errStr:Ljava/lang/String;
+    move-result-object v0
 
     .line 590
+    iput-object v0, p1, Lcom/tencent/mm/opensdk/modelbase/BaseResp;->errStr:Ljava/lang/String;
+
     .line 591
+    .line 592
     const-string v0, "type"
 
-    .line 592
     .line 593
+    .line 594
     invoke-virtual {v5, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 594
     .line 595
     .line 596
+    .line 597
     move-result-object v0
 
-    .line 597
+    .line 598
     if-eqz v0, :cond_5
 
-    .line 598
     .line 599
+    .line 600
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
-    .line 600
     .line 601
     .line 602
+    .line 603
     move-result v4
 
-    .line 603
+    .line 604
     if-lez v4, :cond_5
 
-    .line 604
     .line 605
+    .line 606
     invoke-static {v0, v7}, Lcom/tencent/mm/opensdk/utils/b;->a(Ljava/lang/String;I)I
 
-    .line 606
     .line 607
     .line 608
+    .line 609
     move-result v0
 
-    .line 609
+    .line 610
     iput v0, p1, Lcom/tencent/mm/opensdk/modelbiz/WXOpenBusinessWebview$Resp;->businessType:I
 
-    .line 610
     .line 611
+    .line 612
     :cond_5
     invoke-interface {p2, p1}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
 
-    .line 612
     .line 613
     .line 614
+    .line 615
     return v6
 
-    .line 615
+    .line 616
     :cond_6
     invoke-virtual {v4, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 616
     .line 617
     .line 618
+    .line 619
     move-result-object p1
 
-    .line 619
+    .line 620
     invoke-static {v1, p1}, Lcom/tencent/mm/opensdk/utils/Log;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 620
     .line 621
     .line 622
+    .line 623
     goto :goto_2
 
-    .line 623
+    .line 624
     :goto_1
     :try_start_2
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 624
     .line 625
+    .line 626
     invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 626
     .line 627
     .line 628
+    .line 629
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 629
     .line 630
     .line 631
-    move-result-object p1
-
     .line 632
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 633
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 634
     .line 635
+    .line 636
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 636
     .line 637
     .line 638
+    .line 639
     move-result-object p1
 
-    .line 639
+    .line 640
     invoke-static {v1, p1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 640
     .line 641
     .line 642
+    .line 643
     :cond_7
     :goto_2
     invoke-interface {p2, v2}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onReq(Lcom/tencent/mm/opensdk/modelbase/BaseReq;)V
 
-    .line 643
     .line 644
     .line 645
+    .line 646
     return v6
 
-    .line 646
+    .line 647
     :pswitch_1d
     new-instance v0, Lcom/tencent/mm/opensdk/modelmsg/GetMessageFromWX$Req;
 
-    .line 647
     .line 648
+    .line 649
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
-    .line 649
     .line 650
     .line 651
+    .line 652
     move-result-object p1
 
-    .line 652
+    .line 653
     invoke-direct {v0, p1}, Lcom/tencent/mm/opensdk/modelmsg/GetMessageFromWX$Req;-><init>(Landroid/os/Bundle;)V
 
-    .line 653
     .line 654
     .line 655
+    .line 656
     invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onReq(Lcom/tencent/mm/opensdk/modelbase/BaseReq;)V
 
-    .line 656
     .line 657
     .line 658
+    .line 659
     return v6
 
-    .line 659
+    .line 660
     :pswitch_1e
     new-instance v0, Lcom/tencent/mm/opensdk/modelmsg/SendMessageToWX$Resp;
 
-    .line 660
     .line 661
+    .line 662
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
-    .line 662
     .line 663
     .line 664
+    .line 665
     move-result-object p1
 
-    .line 665
+    .line 666
     invoke-direct {v0, p1}, Lcom/tencent/mm/opensdk/modelmsg/SendMessageToWX$Resp;-><init>(Landroid/os/Bundle;)V
 
-    .line 666
     .line 667
     .line 668
+    .line 669
     invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
 
-    .line 669
     .line 670
     .line 671
+    .line 672
     return v6
 
-    .line 672
+    .line 673
     :pswitch_1f
     new-instance v0, Lcom/tencent/mm/opensdk/modelmsg/SendAuth$Resp;
 
-    .line 673
     .line 674
+    .line 675
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
-    .line 675
     .line 676
     .line 677
+    .line 678
     move-result-object p1
 
-    .line 678
+    .line 679
     invoke-direct {v0, p1}, Lcom/tencent/mm/opensdk/modelmsg/SendAuth$Resp;-><init>(Landroid/os/Bundle;)V
 
-    .line 679
     .line 680
     .line 681
+    .line 682
     invoke-interface {p2, v0}, Lcom/tencent/mm/opensdk/openapi/IWXAPIEventHandler;->onResp(Lcom/tencent/mm/opensdk/modelbase/BaseResp;)V
 
-    .line 682
     .line 683
     .line 684
+    .line 685
     return v6
 
-    .line 685
+    .line 686
     :cond_8
     :goto_3
     const-string p1, "invalid argument"
 
-    .line 686
     .line 687
+    .line 688
     invoke-static {v1, p1}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 688
     .line 689
     .line 690
+    .line 691
     return v7
 
-    .line 691
+    .line 692
     :cond_9
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    .line 692
     .line 693
+    .line 694
     const-string p2, "handleIntent fail, WXMsgImpl has been detached"
 
-    .line 694
     .line 695
+    .line 696
     invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    .line 696
     .line 697
     .line 698
+    .line 699
     throw p1
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 699
+    .line 700
     :goto_4
     new-instance p2, Ljava/lang/StringBuilder;
 
-    .line 700
     .line 701
+    .line 702
     const-string v0, "handleIntent fail, ex = "
 
-    .line 702
     .line 703
+    .line 704
     invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 704
     .line 705
     .line 706
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 707
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 708
     .line 709
+    .line 710
     :goto_5
     return v7
-
-    .line 710
-    nop
 
     .line 711
     :pswitch_data_0
@@ -8505,7 +8527,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -8780,6 +8802,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public registerApp(Ljava/lang/String;)Z
@@ -8894,7 +8936,7 @@
 
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "weixin://registerapp?appid="
+    const-string/jumbo v1, "weixin://registerapp?appid="
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -9645,7 +9687,7 @@
     const-string v8, "@app"
 
     .line 2
-    invoke-static {v6, v7, v8}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v7, v8}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -9702,7 +9744,7 @@
     const-string v8, ".html"
 
     .line 4
-    invoke-static {v7, v6, v8}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7, v6, v8}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -9870,7 +9912,7 @@
 
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "weixin://sendresp?appid="
+    const-string/jumbo v1, "weixin://sendresp?appid="
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -10039,7 +10081,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "weixin://unregisterapp?appid="
+    const-string/jumbo v2, "weixin://unregisterapp?appid="
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

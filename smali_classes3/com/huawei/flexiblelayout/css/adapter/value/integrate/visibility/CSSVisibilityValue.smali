@@ -4,20 +4,20 @@
 
 
 # instance fields
-.field private displayGetter:Lcom/huawei/appmarket/u09;
+.field private displayGetter:Lcom/huawei/appmarket/a19;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/u09<",
+            "Lcom/huawei/appmarket/a19<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private visibilityGetter:Lcom/huawei/appmarket/u09;
+.field private visibilityGetter:Lcom/huawei/appmarket/a19;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/u09<",
+            "Lcom/huawei/appmarket/a19<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -39,13 +39,13 @@
 .method public getVisibility()I
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->displayGetter:Lcom/huawei/appmarket/u09;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->displayGetter:Lcom/huawei/appmarket/a19;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/a19;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -57,11 +57,11 @@
     move-object v0, v1
 
     :goto_0
-    iget-object v2, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->visibilityGetter:Lcom/huawei/appmarket/u09;
+    iget-object v2, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->visibilityGetter:Lcom/huawei/appmarket/a19;
 
     if-eqz v2, :cond_1
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    invoke-interface {v2}, Lcom/huawei/appmarket/a19;->get()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -121,11 +121,11 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ea9;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/a19;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->displayGetter:Lcom/huawei/appmarket/u09;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->displayGetter:Lcom/huawei/appmarket/a19;
 
     return-void
 .end method
@@ -135,11 +135,11 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ea9;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/a19;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->visibilityGetter:Lcom/huawei/appmarket/u09;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/visibility/CSSVisibilityValue;->visibilityGetter:Lcom/huawei/appmarket/a19;
 
     return-void
 .end method

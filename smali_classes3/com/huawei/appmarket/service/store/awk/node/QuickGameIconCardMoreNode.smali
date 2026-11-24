@@ -91,7 +91,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 39
     .line 40
@@ -242,5 +242,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

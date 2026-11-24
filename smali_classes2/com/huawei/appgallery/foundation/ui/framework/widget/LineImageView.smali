@@ -70,7 +70,7 @@
 
     if-eqz v0, :cond_5
 
-    sget-object v3, Lcom/huawei/appmarket/hf6;->g:[I
+    sget-object v3, Lcom/huawei/appmarket/jf6;->g:[I
 
     const/4 v5, 0x0
 
@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -970,7 +970,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setCornerRadiusDimen(I)V
@@ -1047,7 +1046,7 @@
     move-result p1
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 10
     .line 11
@@ -1217,7 +1216,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setTopRightBorderRadius(I)V
@@ -1240,7 +1238,7 @@
     move-result p1
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 10
     .line 11
@@ -1410,7 +1408,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setTouchEffectDrawable(I)V

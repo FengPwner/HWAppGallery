@@ -27,7 +27,7 @@
 
 
 # virtual methods
-.method public final a(ILcom/huawei/appmarket/ty3;)V
+.method public final a(ILcom/huawei/appmarket/vy3;)V
     .registers 6
 
     .line 1
@@ -42,7 +42,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     .line 7
     .line 8
@@ -64,12 +64,12 @@
 
     .line 16
     .line 17
-    invoke-interface {p2, v0, p1}, Lcom/huawei/appmarket/ty3;->b(Landroid/app/Activity;Lcom/huawei/appmarket/uy3;)V
+    invoke-interface {p2, v0, p1}, Lcom/huawei/appmarket/vy3;->b(Landroid/app/Activity;Lcom/huawei/appmarket/wy3;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/kq2;->v()Lcom/huawei/appmarket/kq2;
+    invoke-static {}, Lcom/huawei/appmarket/mq2;->v()Lcom/huawei/appmarket/mq2;
 
     .line 21
     .line 22
@@ -236,5 +236,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

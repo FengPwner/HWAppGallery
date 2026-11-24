@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     invoke-virtual {p0}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->getPercentage()Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
@@ -200,9 +200,9 @@
 
     const/4 v1, 0x0
 
-    check-cast v0, Lcom/huawei/appmarket/co6;
+    check-cast v0, Lcom/huawei/appmarket/fo6;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/co6;->t(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fo6;->t(Z)V
 
     :cond_0
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->onClick(Landroid/view/View;)V
@@ -297,15 +297,15 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v0, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     const-string v1, "RemoteDeviceDetailDownloadButton"
 
     const-string v2, "cancel download"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/vj3;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->buttonDelegate:Lcom/huawei/appmarket/xj3;
 
     instance-of v1, v0, Lcom/huawei/appgallery/remotedevice/api/download/RemoteDeviceDetailDownloadBtnDelegate;
 

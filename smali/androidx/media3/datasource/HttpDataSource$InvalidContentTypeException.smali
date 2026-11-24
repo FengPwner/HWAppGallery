@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;)V
     .registers 5
 
     .line 1
@@ -23,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -38,7 +38,7 @@
     const/4 v1, 0x1
 
     .line 10
-    invoke-direct {p0, p1, p2, v0, v1}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/l91;II)V
+    invoke-direct {p0, p1, p2, v0, v1}, Landroidx/media3/datasource/HttpDataSource$HttpDataSourceException;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/m91;II)V
 
     .line 11
     .line 12

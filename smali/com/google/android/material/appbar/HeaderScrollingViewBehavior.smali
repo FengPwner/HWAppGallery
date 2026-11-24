@@ -140,23 +140,23 @@
 
     if-lez p5, :cond_1
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->getLastWindowInsets()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->getLastWindowInsets()Lcom/huawei/appmarket/tq8;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->l()I
 
     move-result v4
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->i()I
 
     move-result v3
 
@@ -356,7 +356,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-virtual/range {p1 .. p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->getLastWindowInsets()Lcom/huawei/appmarket/nq8;
+    invoke-virtual/range {p1 .. p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->getLastWindowInsets()Lcom/huawei/appmarket/tq8;
 
     .line 69
     .line 70
@@ -368,7 +368,7 @@
 
     .line 73
     .line 74
-    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static/range {p1 .. p1}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 75
     .line 76
@@ -380,7 +380,7 @@
 
     .line 79
     .line 80
-    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static/range {p2 .. p2}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 81
     .line 82
@@ -396,7 +396,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {v4}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/tq8;->j()I
 
     .line 89
     .line 90
@@ -415,7 +415,7 @@
 
     .line 96
     .line 97
-    invoke-virtual {v4}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/tq8;->k()I
 
     .line 98
     .line 99
@@ -484,7 +484,7 @@
 
     .line 128
     .line 129
-    invoke-static/range {v9 .. v14}, Lcom/huawei/appmarket/p23;->a(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
+    invoke-static/range {v9 .. v14}, Lcom/huawei/appmarket/s23;->a(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
 
     .line 130
     .line 131
@@ -684,6 +684,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method abstract w(Ljava/util/ArrayList;)Lcom/google/android/material/appbar/AppBarLayout;
@@ -714,7 +721,7 @@
 
     float-to-int p1, p1
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/c55;->a(III)I
 
     move-result v1
 

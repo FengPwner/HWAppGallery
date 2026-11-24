@@ -39,9 +39,9 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/i$a;->b:Lcom/bumptech/glide/i;
 
-    iget-object v1, v0, Lcom/bumptech/glide/i;->d:Lcom/huawei/appmarket/yt4;
+    iget-object v1, v0, Lcom/bumptech/glide/i;->d:Lcom/huawei/appmarket/bu4;
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/yt4;->a(Lcom/huawei/appmarket/bu4;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/bu4;->a(Lcom/huawei/appmarket/eu4;)V
 
     return-void
 .end method

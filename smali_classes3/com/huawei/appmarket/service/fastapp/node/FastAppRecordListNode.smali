@@ -24,9 +24,9 @@
 
     const-string v0, "createChildNode"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance p2, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
     move-result-object p1
 
@@ -94,7 +94,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mh2;->i(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ph2;->i(Z)V
 
     return p1
 .end method
@@ -103,7 +103,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
     move-result-object v0
 
@@ -111,7 +111,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mh2;->i(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ph2;->i(Z)V
 
     return-void
 .end method

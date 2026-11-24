@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # instance fields
 .field public roamActivity:Lcom/huawei/appmarket/s8;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "roam.activity"
     .end annotation
 .end field

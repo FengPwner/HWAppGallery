@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->refreshRightMenus([Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->failCallback(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic b:Ljava/util/List;
+.field final synthetic b:Ljava/lang/String;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/util/List;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
     .registers 3
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->b:Ljava/util/List;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->b:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,13 +43,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->b:Ljava/util/List;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$i0;->b:Ljava/lang/String;
 
-    check-cast v0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->C0(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
     return-void
 .end method

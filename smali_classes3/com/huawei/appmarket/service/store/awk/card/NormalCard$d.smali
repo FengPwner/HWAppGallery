@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/jz3;
+.field private b:Lcom/huawei/appmarket/lz3;
 
 .field private c:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -28,7 +28,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/jz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;J)V
+.method private constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/lz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;J)V
     .registers 6
 
     .line 1
@@ -36,7 +36,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;->b:Lcom/huawei/appmarket/jz3;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;->b:Lcom/huawei/appmarket/lz3;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;->c:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -45,11 +45,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/jz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;JLcom/huawei/appmarket/service/store/awk/card/o;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/lz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;JLcom/huawei/appmarket/service/store/awk/card/o;)V
     .registers 7
 
     .line 2
-    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/jz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;J)V
+    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;Lcom/huawei/appmarket/lz3;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;J)V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
 
     .line 10
     .line 11
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -209,7 +209,7 @@
     move-result-object p2
 
     .line 68
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -230,7 +230,7 @@
 
     .line 78
     .line 79
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -239,7 +239,7 @@
 
     .line 83
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 84
     .line 85
@@ -256,7 +256,7 @@
     .line 90
     .line 91
     :goto_0
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -273,7 +273,7 @@
     move-result-object p2
 
     .line 99
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->getUri_()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -313,7 +313,7 @@
     move-result-object p2
 
     .line 119
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/xi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/zi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
 
     .line 120
     .line 121
@@ -341,7 +341,7 @@
     move-result-object p2
 
     .line 132
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/xi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/zi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
 
     .line 133
     .line 134
@@ -361,7 +361,7 @@
     move-result-object p2
 
     .line 142
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/xi4;->a(Ljava/lang/String;Ljava/util/List;)Z
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/zi4;->a(Ljava/lang/String;Ljava/util/List;)Z
 
     .line 143
     .line 144
@@ -384,7 +384,7 @@
     const/4 p2, 0x2
 
     .line 152
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/xi4;->b(ILjava/util/List;)Z
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/zi4;->b(ILjava/util/List;)Z
 
     .line 153
     .line 154
@@ -408,7 +408,7 @@
 
     .line 162
     :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 163
     .line 164
@@ -429,12 +429,12 @@
     .line 171
     .line 172
     .line 173
-    invoke-static {p2}, Lcom/huawei/appmarket/q42;->n(Ljava/lang/String;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/u42;->n(Ljava/lang/String;)V
 
     .line 174
     .line 175
     .line 176
-    invoke-static {}, Lcom/huawei/appmarket/xi4;->g()Lcom/huawei/appmarket/xi4;
+    invoke-static {}, Lcom/huawei/appmarket/zi4;->g()Lcom/huawei/appmarket/zi4;
 
     .line 177
     .line 178
@@ -450,12 +450,12 @@
     move-result-object p2
 
     .line 184
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/xi4;->l(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/zi4;->l(Ljava/lang/String;)V
 
     .line 185
     .line 186
     .line 187
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 188
     .line 189
@@ -468,7 +468,7 @@
     .line 192
     .line 193
     .line 194
-    invoke-static {}, Lcom/huawei/appmarket/q42;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/u42;->f()I
 
     .line 195
     .line 196
@@ -483,7 +483,7 @@
 
     .line 200
     .line 201
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 202
     .line 203
@@ -512,7 +512,7 @@
     .line 214
     .line 215
     .line 216
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/q42;->l(ILjava/lang/String;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/u42;->l(ILjava/lang/String;)V
 
     .line 217
     .line 218
@@ -557,7 +557,7 @@
     .line 238
     .line 239
     .line 240
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;->b:Lcom/huawei/appmarket/jz3;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCard$d;->b:Lcom/huawei/appmarket/lz3;
 
     .line 241
     .line 242
@@ -565,7 +565,7 @@
 
     .line 243
     .line 244
-    invoke-interface {p1}, Lcom/huawei/appmarket/jz3;->l0()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/lz3;->l0()V
 
     .line 245
     .line 246
@@ -580,7 +580,7 @@
 
     .line 249
     .line 250
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 251
     .line 252
@@ -1177,23 +1177,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

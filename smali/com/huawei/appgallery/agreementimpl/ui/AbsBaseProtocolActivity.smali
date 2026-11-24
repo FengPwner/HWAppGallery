@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ay3;
+.implements Lcom/huawei/appmarket/cy3;
 
 
 # static fields
@@ -23,9 +23,9 @@
 
 .field protected h:Z
 
-.field protected i:Lcom/huawei/appmarket/h96;
+.field protected i:Lcom/huawei/appmarket/j96;
 
-.field protected j:Lcom/huawei/appmarket/ay3$a;
+.field protected j:Lcom/huawei/appmarket/cy3$a;
 
 
 # direct methods
@@ -77,7 +77,7 @@
 
     move-result v1
 
-    sget-object v2, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v2, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -105,7 +105,7 @@
 
     const-string v0, "AbsBaseProtocolActivity"
 
-    invoke-virtual {v2, v0, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 .end method
@@ -129,7 +129,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gj;->a:Lcom/huawei/appmarket/gj;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->a3()Ljava/lang/String;
 
@@ -147,50 +147,50 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/ch5;->a:Lcom/huawei/appmarket/ch5$a;
+    sget-object v0, Lcom/huawei/appmarket/fh5;->a:Lcom/huawei/appmarket/fh5$a;
 
     iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->d:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ch5$a;->b(Ljava/lang/String;Z)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/fh5$a;->b(Ljava/lang/String;Z)V
 
     if-eqz p1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/sj4;->a:Lcom/huawei/appmarket/sj4$a;
+    sget-object v0, Lcom/huawei/appmarket/uj4;->a:Lcom/huawei/appmarket/uj4$a;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/sj4$a;->a()Lcom/huawei/appmarket/lt3;
+    invoke-static {}, Lcom/huawei/appmarket/uj4$a;->a()Lcom/huawei/appmarket/nt3;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/vg3;->a:Lcom/huawei/appmarket/vg3$a;
+    sget-object v1, Lcom/huawei/appmarket/xg3;->a:Lcom/huawei/appmarket/xg3$a;
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/vg3$a;->a()Lcom/huawei/appmarket/vg3$a$a;
+    invoke-static {}, Lcom/huawei/appmarket/xg3$a;->a()Lcom/huawei/appmarket/xg3$a$a;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/xg3;->i(Lcom/huawei/appmarket/vg3;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/zg3;->i(Lcom/huawei/appmarket/xg3;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/sj4$a;->b()Lcom/huawei/appmarket/mt3;
+    invoke-static {}, Lcom/huawei/appmarket/uj4$a;->b()Lcom/huawei/appmarket/ot3;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/mt3;->j()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ot3;->j()V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/u96;->a()Lcom/huawei/appmarket/u96;
+    invoke-static {}, Lcom/huawei/appmarket/w96;->a()Lcom/huawei/appmarket/w96;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->g:Ljava/lang/String;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->Z2()Lcom/huawei/appmarket/h96$a;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->Z2()Lcom/huawei/appmarket/j96$a;
 
     move-result-object v2
 
@@ -198,24 +198,24 @@
 
     move-result v2
 
-    invoke-virtual {v0, v2, v1, p1}, Lcom/huawei/appmarket/u96;->b(ILjava/lang/String;Z)V
+    invoke-virtual {v0, v2, v1, p1}, Lcom/huawei/appmarket/w96;->b(ILjava/lang/String;Z)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
 
-.method protected abstract Z2()Lcom/huawei/appmarket/h96$a;
+.method protected abstract Z2()Lcom/huawei/appmarket/j96$a;
 .end method
 
 .method protected abstract a3()Ljava/lang/String;
 .end method
 
-.method public final c3(Lcom/huawei/appmarket/ay3$a;)V
+.method public final c3(Lcom/huawei/appmarket/cy3$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->j:Lcom/huawei/appmarket/ay3$a;
+    iput-object p1, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->j:Lcom/huawei/appmarket/cy3$a;
 
     return-void
 .end method
@@ -245,11 +245,11 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/agreementimpl/view/activity/AbstractBaseActivity;->onDestroy()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->i:Lcom/huawei/appmarket/h96;
+    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->i:Lcom/huawei/appmarket/j96;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/h96;->a(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/j96;->a(Landroid/app/Activity;)V
 
     :cond_0
     invoke-virtual {p0}, Landroid/app/Activity;->getTaskId()I
@@ -270,11 +270,11 @@
 .method public final onKeyUp(ILandroid/view/KeyEvent;)Z
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->j:Lcom/huawei/appmarket/ay3$a;
+    iget-object v0, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->j:Lcom/huawei/appmarket/cy3$a;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ay3$a;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/cy3$a;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -320,13 +320,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/u96;->a()Lcom/huawei/appmarket/u96;
+    invoke-static {}, Lcom/huawei/appmarket/w96;->a()Lcom/huawei/appmarket/w96;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/agreementimpl/ui/AbsBaseProtocolActivity;->g:Ljava/lang/String;
 
-    sget-object v2, Lcom/huawei/appmarket/h96$a;->b:Lcom/huawei/appmarket/h96$a;
+    sget-object v2, Lcom/huawei/appmarket/j96$a;->b:Lcom/huawei/appmarket/j96$a;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
@@ -334,7 +334,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v2, v1, v3}, Lcom/huawei/appmarket/u96;->b(ILjava/lang/String;Z)V
+    invoke-virtual {v0, v2, v1, v3}, Lcom/huawei/appmarket/w96;->b(ILjava/lang/String;Z)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 

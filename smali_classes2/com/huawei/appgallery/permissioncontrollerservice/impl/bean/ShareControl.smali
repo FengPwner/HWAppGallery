@@ -20,7 +20,7 @@
 
 # instance fields
 .field private actions:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -33,7 +33,7 @@
 .end field
 
 .field private disallowPkgs:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -46,12 +46,12 @@
 .end field
 
 .field private shareType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private sortApps:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -339,7 +339,7 @@
 
     iget-object v4, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->actions:Ljava/util/List;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v3
 
@@ -347,7 +347,7 @@
 
     iget-object v5, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->sortApps:Ljava/util/List;
 
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v4
 
@@ -355,7 +355,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->disallowPkgs:Ljava/util/List;
 
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result p1
 
@@ -391,7 +391,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->actions:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -399,9 +399,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->actions:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
+    new-instance v2, Lcom/huawei/appmarket/wv4$a;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/wv4$a;-><init>()V
 
     invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -418,7 +418,7 @@
     :cond_0
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->sortApps:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -426,9 +426,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->sortApps:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
+    new-instance v2, Lcom/huawei/appmarket/wv4$a;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/wv4$a;-><init>()V
 
     invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -445,7 +445,7 @@
     :cond_1
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->disallowPkgs:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -453,9 +453,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareControl;->disallowPkgs:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
+    new-instance v2, Lcom/huawei/appmarket/wv4$a;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/wv4$a;-><init>()V
 
     invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 

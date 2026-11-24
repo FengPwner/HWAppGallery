@@ -56,198 +56,16 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->x()V
 
     return-void
 .end method
 
-.method public static synthetic b(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;)V
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_5
-
-    .line 4
-    .line 5
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
-    .line 6
-    .line 7
-    if-nez v1, :cond_0
-
-    .line 8
-    .line 9
-    goto :goto_0
-
-    .line 10
-    :cond_0
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$p;
-
-    .line 11
-    .line 12
-    .line 13
-    move-result-object v0
-
-    .line 14
-    instance-of v1, v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
-
-    .line 15
-    .line 16
-    if-nez v1, :cond_1
-
-    .line 17
-    .line 18
-    goto :goto_0
-
-    .line 19
-    :cond_1
-    check-cast v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
-
-    .line 20
-    .line 21
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->q()I
-
-    .line 22
-    .line 23
-    .line 24
-    move-result v0
-
-    .line 25
-    if-gtz v0, :cond_2
-
-    .line 26
-    .line 27
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 28
-    .line 29
-    new-instance v1, Lcom/huawei/appmarket/zb3;
-
-    .line 30
-    .line 31
-    const/4 v2, 0x2
-
-    .line 32
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/zb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;I)V
-
-    .line 33
-    .line 34
-    .line 35
-    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 36
-    .line 37
-    .line 38
-    goto :goto_0
-
-    .line 39
-    :cond_2
-    const/4 v1, 0x1
-
-    .line 40
-    const/4 v2, 0x0
-
-    .line 41
-    if-gt v0, v1, :cond_4
-
-    .line 42
-    .line 43
-    iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
-    .line 44
-    .line 45
-    if-eqz v0, :cond_3
-
-    .line 46
-    .line 47
-    goto :goto_0
-
-    .line 48
-    :cond_3
-    iput-boolean v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
-    .line 49
-    .line 50
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l()V
-
-    .line 51
-    .line 52
-    .line 53
-    goto :goto_0
-
-    .line 54
-    :cond_4
-    iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
-    .line 55
-    .line 56
-    if-eqz v0, :cond_3
-
-    .line 57
-    .line 58
-    :cond_5
-    :goto_0
-    return-void
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-.end method
-
-.method public static synthetic c(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+.method public static synthetic b(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->p(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
 
     .line 2
     .line 3
@@ -412,11 +230,523 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public static d(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
-    .registers 5
+.method public static synthetic c(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+.end method
+
+.method public static synthetic d(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+.end method
+
+.method public static synthetic e(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+.end method
+
+.method public static synthetic f(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -443,251 +773,41 @@
 
     .line 12
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
     .line 13
     .line 14
-    const-string v1, "doExpandLayout enter, tabsExpanded="
+    if-eqz v0, :cond_1
 
     .line 15
     .line 16
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    goto :goto_0
 
     .line 17
+    :cond_1
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
+
     .line 18
     .line 19
-    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
     .line 20
+    move-result p1
+
     .line 21
-    const-string v2, "HorizontalWrapTabsController"
+    if-lez p1, :cond_2
 
     .line 22
     .line 23
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    const/4 v0, 0x0
 
     .line 24
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w(II)V
+
     .line 25
     .line 26
-    iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
     .line 27
-    .line 28
-    if-nez v0, :cond_1
-
-    .line 29
-    .line 30
-    goto :goto_0
-
-    .line 31
-    :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 32
-    .line 33
-    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object v0
-
-    .line 37
-    check-cast v0, Landroid/widget/RelativeLayout$LayoutParams;
-
-    .line 38
-    .line 39
-    const/16 v1, 0x10
-
-    .line 40
-    .line 41
-    const/4 v2, 0x0
-
-    .line 42
-    invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
-
-    .line 43
-    .line 44
-    .line 45
-    const/16 v1, 0x15
-
-    .line 46
-    .line 47
-    const/4 v2, -0x1
-
-    .line 48
-    invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
-
-    .line 49
-    .line 50
-    .line 51
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 52
-    .line 53
-    invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 54
-    .line 55
-    .line 56
-    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()V
-
-    .line 57
-    .line 58
-    .line 59
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 60
-    .line 61
-    new-instance v1, Lcom/huawei/appmarket/yb3;
-
-    .line 62
-    .line 63
-    const/4 v2, 0x2
-
-    .line 64
-    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/yb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
-
-    .line 65
-    .line 66
-    .line 67
-    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 68
-    .line 69
-    .line 70
     :cond_2
     :goto_0
     return-void
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-.end method
-
-.method public static synthetic e(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->p(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
     .line 28
     .line 29
     .line 30
@@ -824,10 +944,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public static f(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+.method public static g(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
     .registers 5
 
     .line 1
@@ -867,7 +986,7 @@
 
     .line 17
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()I
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
 
     .line 18
     .line 19
@@ -895,7 +1014,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()I
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
 
     .line 32
     .line 33
@@ -994,7 +1113,7 @@
     const/4 v0, 0x0
 
     .line 78
-    invoke-direct {p0, v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->v(II)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w(II)V
 
     .line 79
     .line 80
@@ -1084,209 +1203,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
-.end method
-
-.method public static synthetic g(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_2
-
-    .line 4
-    .line 5
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
-    .line 6
-    .line 7
-    if-eqz v0, :cond_2
-
-    .line 8
-    .line 9
-    if-nez p1, :cond_0
-
-    .line 10
-    .line 11
-    goto :goto_0
-
-    .line 12
-    :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
-
-    .line 13
-    .line 14
-    if-eqz v0, :cond_1
-
-    .line 15
-    .line 16
-    goto :goto_0
-
-    .line 17
-    :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()I
-
-    .line 18
-    .line 19
-    .line 20
-    move-result p1
-
-    .line 21
-    if-lez p1, :cond_2
-
-    .line 22
-    .line 23
-    const/4 v0, 0x0
-
-    .line 24
-    invoke-direct {p0, v0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->v(II)V
-
-    .line 25
-    .line 26
-    .line 27
-    :cond_2
-    :goto_0
-    return-void
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
 .end method
 
 .method static synthetic h(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;)Landroidx/recyclerview/widget/RecyclerView;
@@ -1302,7 +1218,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->n(Landroid/content/Context;)I
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->o(Landroid/content/Context;)I
 
     move-result p0
 
@@ -1313,7 +1229,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->x()V
 
     return-void
 .end method
@@ -1327,7 +1243,127 @@
     return-object p0
 .end method
 
-.method private n(Landroid/content/Context;)I
+.method private l(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;III)V
+    .registers 8
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v0, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
+
+    if-eqz v0, :cond_3
+
+    if-nez p1, :cond_0
+
+    goto :goto_2
+
+    :cond_0
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object p1
+
+    iget p1, p1, Landroid/util/DisplayMetrics;->density:F
+
+    const/high16 v0, 0x41e00000    # 28.0f
+
+    mul-float p1, p1, v0
+
+    float-to-int p1, p1
+
+    add-int/lit8 p3, p3, 0x8
+
+    const/4 v0, 0x0
+
+    if-lt p3, p1, :cond_1
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 p1, 0x0
+
+    :goto_0
+    iget-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {p3}, Landroid/view/View;->getPaddingTop()I
+
+    move-result p3
+
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v1}, Landroid/view/View;->getPaddingBottom()I
+
+    move-result v1
+
+    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v2
+
+    if-nez p1, :cond_2
+
+    add-int/lit8 p1, p2, 0x1
+
+    mul-int p1, p1, p4
+
+    add-int/2addr p1, p3
+
+    add-int/2addr p1, v1
+
+    iput p1, v2, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    goto :goto_1
+
+    :cond_2
+    add-int/lit8 p1, p2, -0x1
+
+    invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
+
+    move-result p1
+
+    invoke-static {p2, p4, p3, v1}, Lcom/huawei/appmarket/ci7;->d(IIII)I
+
+    move-result p2
+
+    iput p2, v2, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    move p2, p1
+
+    :goto_1
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {p1, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    invoke-direct {p0, p2, p4}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w(II)V
+
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->d:Landroid/view/View;
+
+    if-eqz p1, :cond_3
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
+
+    :cond_3
+    :goto_2
+    return-void
+.end method
+
+.method private o(Landroid/content/Context;)I
     .registers 10
 
     .line 1
@@ -1393,7 +1429,7 @@
     goto :goto_3
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v1
 
@@ -1519,21 +1555,21 @@
     return p1
 .end method
 
-.method private p(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
-    .registers 8
+.method private q(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;)V
+    .registers 6
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_4
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_4
 
     if-nez p1, :cond_0
 
-    goto/16 :goto_4
+    goto :goto_0
 
     :cond_0
     iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
@@ -1545,178 +1581,82 @@
     :cond_1
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->t(Z)V
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()I
-
-    move-result v1
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
-
-    move-result-object v2
-
-    if-eqz v2, :cond_2
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;->getItemCount()I
-
-    move-result v2
-
-    goto :goto_0
-
-    :cond_2
-    const/4 v2, 0x0
-
-    :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->o()I
-
-    move-result v3
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->r(Z)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
 
-    move-result v4
+    move-result v1
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->q()I
-
-    move-result v5
-
-    if-gtz v1, :cond_3
+    if-gtz v1, :cond_2
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v1, Lcom/huawei/appmarket/yb3;
+    new-instance v1, Lcom/huawei/appmarket/bc3;
 
     const/4 v2, 0x4
 
-    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/yb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
+    return-void
+
+    :cond_2
+    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v2}, Landroid/view/View;->getWidth()I
+
+    move-result v2
+
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v3}, Landroid/view/View;->getPaddingLeft()I
+
+    move-result v3
+
+    sub-int/2addr v2, v3
+
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v3}, Landroid/view/View;->getPaddingEnd()I
+
+    move-result v3
+
+    sub-int/2addr v2, v3
+
+    invoke-virtual {p1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->c(I)[I
+
+    move-result-object v2
+
+    aget v0, v2, v0
+
+    if-gtz v0, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    new-instance v1, Lcom/huawei/appmarket/bc3;
+
+    const/4 v2, 0x5
+
+    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 
     :cond_3
-    const/4 p1, 0x1
+    const/4 v3, 0x1
 
-    if-gt v3, p1, :cond_5
+    aget v2, v2, v3
 
-    if-le v2, p1, :cond_5
-
-    if-le v5, p1, :cond_4
-
-    move v3, v5
-
-    goto :goto_1
+    invoke-direct {p0, p1, v0, v2, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;III)V
 
     :cond_4
-    return-void
-
-    :cond_5
-    :goto_1
-    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
-    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
-
-    move-result-object v2
-
-    iget v2, v2, Landroid/util/DisplayMetrics;->density:F
-
-    const/high16 v5, 0x41e00000    # 28.0f
-
-    mul-float v2, v2, v5
-
-    float-to-int v2, v2
-
-    add-int/lit8 v4, v4, 0x8
-
-    if-lt v4, v2, :cond_6
-
-    goto :goto_2
-
-    :cond_6
-    const/4 p1, 0x0
-
-    :goto_2
-    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-virtual {v2}, Landroid/view/View;->getPaddingTop()I
-
-    move-result v2
-
-    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-virtual {v4}, Landroid/view/View;->getPaddingBottom()I
-
-    move-result v4
-
-    iget-object v5, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-virtual {v5}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
-    move-result-object v5
-
-    if-nez p1, :cond_7
-
-    add-int/lit8 p1, v3, 0x1
-
-    mul-int p1, p1, v1
-
-    add-int/2addr p1, v2
-
-    add-int/2addr p1, v4
-
-    iput p1, v5, Landroid/view/ViewGroup$LayoutParams;->height:I
-
-    goto :goto_3
-
-    :cond_7
-    add-int/lit8 p1, v3, -0x1
-
-    invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
-
-    move-result p1
-
-    invoke-static {v3, v1, v2, v4}, Lcom/huawei/appmarket/om5;->b(IIII)I
-
-    move-result v2
-
-    iput v2, v5, Landroid/view/ViewGroup$LayoutParams;->height:I
-
-    move v3, p1
-
-    :goto_3
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-virtual {p1, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    invoke-direct {p0, v3, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->v(II)V
-
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->d:Landroid/view/View;
-
-    if-eqz p1, :cond_8
-
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    :cond_8
-    :goto_4
+    :goto_0
     return-void
 .end method
 
-.method private r()V
+.method private s()V
     .registers 6
 
     .line 1
@@ -1785,7 +1725,7 @@
     return-void
 .end method
 
-.method private v(II)V
+.method private w(II)V
     .registers 6
 
     .line 1
@@ -1909,13 +1849,13 @@
     return-void
 .end method
 
-.method private w()V
-    .registers 7
+.method private x()V
+    .registers 6
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
-    if-eqz v0, :cond_f
+    if-eqz v0, :cond_c
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -1928,31 +1868,15 @@
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+
+    move-result-object v1
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->q()I
-
-    move-result v0
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v0, 0x0
-
-    :goto_0
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_2
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     move-result-object v1
 
@@ -1960,25 +1884,65 @@
 
     move-result v1
 
-    goto :goto_1
+    goto :goto_0
 
-    :cond_2
+    :cond_1
     const/4 v1, 0x0
 
-    :goto_1
+    :goto_0
+    instance-of v3, v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
+
+    if-eqz v3, :cond_2
+
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
     move-result v3
 
+    if-lez v3, :cond_2
+
+    iget v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
+
+    if-ltz v3, :cond_2
+
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v3}, Landroid/view/View;->getWidth()I
+
+    move-result v3
+
+    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingLeft()I
+
+    move-result v4
+
+    sub-int/2addr v3, v4
+
+    iget v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
+
+    sub-int/2addr v3, v4
+
+    check-cast v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
+
+    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->c(I)[I
+
+    move-result-object v0
+
+    aget v0, v0, v2
+
+    goto :goto_1
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :goto_1
+    const/4 v3, 0x1
+
     const/16 v4, 0x8
 
-    const/4 v5, 0x1
-
-    if-gtz v3, :cond_5
-
-    if-gt v0, v5, :cond_5
+    if-gtz v0, :cond_5
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
@@ -1991,13 +1955,15 @@
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
-    if-le v1, v5, :cond_4
+    if-le v1, v3, :cond_4
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v1, Lcom/huawei/appmarket/zb3;
+    new-instance v1, Lcom/huawei/appmarket/w81;
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/zb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;I)V
+    const/4 v2, 0x5
+
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -2005,50 +1971,23 @@
     return-void
 
     :cond_5
-    if-gtz v0, :cond_8
-
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
-    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
-
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->d:Landroid/view/View;
-
-    if-eqz v0, :cond_6
-
-    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
-
-    :cond_6
-    if-le v1, v5, :cond_7
-
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
-    new-instance v1, Lcom/huawei/appmarket/zb3;
-
-    invoke-direct {v1, p0, v5}, Lcom/huawei/appmarket/zb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;I)V
-
-    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    :cond_7
-    return-void
-
-    :cond_8
-    if-le v0, v5, :cond_9
+    if-le v0, v3, :cond_6
 
     goto :goto_2
 
-    :cond_9
-    const/4 v5, 0x0
+    :cond_6
+    const/4 v3, 0x0
 
     :goto_2
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
-    if-eqz v5, :cond_a
+    if-eqz v3, :cond_7
 
     const/4 v1, 0x0
 
     goto :goto_3
 
-    :cond_a
+    :cond_7
     const/16 v1, 0x8
 
     :goto_3
@@ -2056,50 +1995,50 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->d:Landroid/view/View;
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_9
 
-    if-eqz v5, :cond_b
+    if-eqz v3, :cond_8
 
     const/4 v4, 0x0
 
-    :cond_b
+    :cond_8
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
-    :cond_c
+    :cond_9
     iget-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
-    if-nez v5, :cond_e
+    if-nez v3, :cond_b
 
-    if-eqz v0, :cond_d
+    if-eqz v0, :cond_a
 
     return-void
 
-    :cond_d
+    :cond_a
     iput-boolean v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l()V
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->m()V
 
     return-void
 
-    :cond_e
-    if-eqz v0, :cond_d
+    :cond_b
+    if-eqz v0, :cond_a
 
-    :cond_f
+    :cond_c
     :goto_4
     return-void
 .end method
 
 
 # virtual methods
-.method public final l()V
-    .registers 12
+.method public final m()V
+    .registers 15
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_11
 
     .line 4
     .line 5
@@ -2150,7 +2089,7 @@
     xor-int/2addr v1, v2
 
     .line 26
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->t(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->r(Z)V
 
     .line 27
     .line 28
@@ -2159,334 +2098,334 @@
 
     .line 30
     .line 31
-    const/4 v3, -0x2
+    const/16 v3, 0x10
 
     .line 32
-    if-nez v1, :cond_d
-
     .line 33
-    .line 34
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    const/16 v4, 0x15
 
+    .line 34
     .line 35
+    const/4 v5, -0x1
+
     .line 36
-    const/4 v4, 0x0
+    const/4 v6, -0x2
 
     .line 37
-    if-eqz v1, :cond_c
+    const-string v7, "HorizontalWrapTabsController"
 
     .line 38
     .line 39
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
+    const/4 v8, 0x0
 
     .line 40
+    if-nez v1, :cond_d
+
     .line 41
+    .line 42
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    .line 43
+    .line 44
     if-eqz v1, :cond_c
 
-    .line 42
-    .line 43
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    .line 44
     .line 45
-    const-string v5, "doCollapseLayout enter, tabsExpanded="
-
     .line 46
-    .line 47
-    invoke-direct {v1, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
+    .line 47
     .line 48
+    if-eqz v1, :cond_c
+
     .line 49
     .line 50
-    iget-boolean v5, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
+    new-instance v1, Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
-    const-string v6, "HorizontalWrapTabsController"
+    const-string v9, "doCollapseLayout enter, tabsExpanded="
 
     .line 53
     .line 54
-    invoke-static {v1, v5, v6}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-direct {v1, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 55
     .line 56
     .line 57
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    iget-boolean v9, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
 
     .line 58
     .line 59
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
+    invoke-static {v1, v9, v7}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()I
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 63
     .line 64
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
+
     .line 65
-    move-result v1
-
     .line 66
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->q()I
-
     .line 67
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
+
     .line 68
     .line 69
-    move-result v5
-
     .line 70
-    invoke-virtual {v0, v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->t(Z)V
+    move-result v1
 
     .line 71
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->o()I
+
     .line 72
     .line 73
-    iget-object v7, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 74
+    move-result v9
+
     .line 75
-    invoke-virtual {v7}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0, v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->r(Z)V
 
     .line 76
     .line 77
     .line 78
-    move-result-object v7
+    iget-object v10, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 79
-    iput v3, v7, Landroid/view/ViewGroup$LayoutParams;->height:I
-
     .line 80
-    .line 81
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    invoke-virtual {v10}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
+    .line 81
     .line 82
     .line 83
-    invoke-virtual {v3, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    move-result-object v10
 
     .line 84
+    iput v6, v10, Landroid/view/ViewGroup$LayoutParams;->height:I
+
     .line 85
     .line 86
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 87
     .line 88
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
+    invoke-virtual {v6, v10}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 89
     .line 90
     .line 91
-    if-le v5, v2, :cond_3
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 92
     .line 93
-    iget v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
 
     .line 94
     .line 95
-    if-ltz v3, :cond_3
-
     .line 96
+    if-le v9, v2, :cond_3
+
     .line 97
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
-
     .line 98
-    .line 99
-    invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
+    iget v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
 
+    .line 99
     .line 100
+    if-ltz v6, :cond_3
+
     .line 101
     .line 102
-    move-result-object v3
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
     .line 103
-    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
     .line 104
+    invoke-virtual {v6}, Landroid/view/View;->getContext()Landroid/content/Context;
+
     .line 105
     .line 106
-    move-result-object v3
-
     .line 107
-    invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    move-result-object v6
 
     .line 108
+    invoke-virtual {v6}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
     .line 109
     .line 110
-    move-result-object v3
-
     .line 111
-    iget v3, v3, Landroid/util/DisplayMetrics;->density:F
+    move-result-object v6
 
     .line 112
-    .line 113
-    const/high16 v7, 0x41e00000    # 28.0f
+    invoke-virtual {v6}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
+    .line 113
     .line 114
     .line 115
-    mul-float v3, v3, v7
+    move-result-object v6
 
     .line 116
-    .line 117
-    float-to-int v3, v3
+    iget v6, v6, Landroid/util/DisplayMetrics;->density:F
 
+    .line 117
     .line 118
-    iget v7, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
+    const/high16 v10, 0x41e00000    # 28.0f
 
     .line 119
     .line 120
-    add-int/2addr v7, v3
+    mul-float v6, v6, v10
 
     .line 121
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 122
+    float-to-int v6, v6
+
     .line 123
-    invoke-virtual {v3}, Landroid/view/View;->getPaddingEnd()I
+    iget v10, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->f:I
 
     .line 124
     .line 125
+    add-int/2addr v10, v6
+
     .line 126
-    move-result v3
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 127
-    if-ne v3, v7, :cond_2
-
     .line 128
-    .line 129
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    invoke-virtual {v6}, Landroid/view/View;->getPaddingEnd()I
 
+    .line 129
     .line 130
     .line 131
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView;->getClipToPadding()Z
+    move-result v6
 
     .line 132
+    if-ne v6, v10, :cond_2
+
     .line 133
     .line 134
-    move-result v3
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 135
-    if-eqz v3, :cond_4
-
     .line 136
-    .line 137
-    :cond_2
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView;->getClipToPadding()Z
 
+    .line 137
     .line 138
     .line 139
-    invoke-virtual {v3, v4}, Landroidx/recyclerview/widget/RecyclerView;->setClipToPadding(Z)V
+    move-result v6
 
     .line 140
+    if-eqz v6, :cond_4
+
     .line 141
     .line 142
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    :cond_2
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 143
     .line 144
-    invoke-virtual {v3}, Landroid/view/View;->getPaddingStart()I
+    invoke-virtual {v6, v8}, Landroidx/recyclerview/widget/RecyclerView;->setClipToPadding(Z)V
 
     .line 145
     .line 146
     .line 147
-    move-result v8
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 148
-    iget-object v9, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 149
-    .line 150
-    invoke-virtual {v9}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {v6}, Landroid/view/View;->getPaddingStart()I
 
+    .line 150
     .line 151
     .line 152
+    move-result v11
+
     .line 153
-    move-result v9
+    iget-object v12, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 154
-    iget-object v10, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 155
-    .line 156
-    invoke-virtual {v10}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {v12}, Landroid/view/View;->getPaddingTop()I
 
+    .line 156
     .line 157
     .line 158
+    move-result v12
+
     .line 159
-    move-result v10
+    iget-object v13, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 160
-    invoke-virtual {v3, v8, v9, v7, v10}, Landroid/view/View;->setPaddingRelative(IIII)V
-
     .line 161
+    invoke-virtual {v13}, Landroid/view/View;->getPaddingBottom()I
+
     .line 162
     .line 163
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 164
+    move-result v13
+
     .line 165
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
+    invoke-virtual {v6, v11, v12, v10, v13}, Landroid/view/View;->setPaddingRelative(IIII)V
 
     .line 166
     .line 167
     .line 168
-    goto :goto_0
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 169
-    :cond_3
-    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()V
-
     .line 170
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
+
     .line 171
     .line 172
-    :cond_4
-    :goto_0
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 173
+    goto :goto_0
+
     .line 174
-    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    :cond_3
+    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->s()V
 
     .line 175
     .line 176
     .line 177
-    move-result-object v3
+    :cond_4
+    :goto_0
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 178
-    check-cast v3, Landroid/widget/RelativeLayout$LayoutParams;
-
     .line 179
+    invoke-virtual {v6}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
     .line 180
-    const/4 v7, -0x1
-
     .line 181
-    const/16 v8, 0x15
-
     .line 182
+    move-result-object v6
+
     .line 183
-    const/16 v9, 0x10
+    check-cast v6, Landroid/widget/RelativeLayout$LayoutParams;
 
     .line 184
     .line 185
-    invoke-virtual {v3, v9, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
+    invoke-virtual {v6, v3, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     .line 186
     .line 187
     .line 188
-    invoke-virtual {v3, v8, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
+    invoke-virtual {v6, v4, v5}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     .line 189
     .line 190
     .line 191
-    iget-object v7, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 192
     .line 193
-    invoke-virtual {v7, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v3, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 194
     .line 195
     .line 196
-    if-le v5, v2, :cond_5
+    if-le v9, v2, :cond_5
 
     .line 197
     .line 198
@@ -2502,11 +2441,11 @@
 
     .line 201
     .line 202
-    const-string v7, "doCollapseLayout set arrow visibility, showArrow="
+    const-string v4, "doCollapseLayout set arrow visibility, showArrow="
 
     .line 203
     .line 204
-    invoke-direct {v3, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 205
     .line 206
@@ -2516,16 +2455,16 @@
     .line 208
     .line 209
     .line 210
-    const-string v7, ", totalRows="
+    const-string v4, ", totalRows="
 
     .line 211
     .line 212
-    invoke-virtual {v3, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 213
     .line 214
     .line 215
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 216
     .line 217
@@ -2538,7 +2477,7 @@
     move-result-object v3
 
     .line 222
-    invoke-static {v6, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 223
     .line 224
@@ -2547,7 +2486,7 @@
 
     .line 226
     .line 227
-    const/16 v5, 0x8
+    const/16 v4, 0x8
 
     .line 228
     .line 229
@@ -2555,19 +2494,19 @@
 
     .line 230
     .line 231
-    const/4 v6, 0x0
+    const/4 v5, 0x0
 
     .line 232
     goto :goto_2
 
     .line 233
     :cond_6
-    const/16 v6, 0x8
+    const/16 v5, 0x8
 
     .line 234
     .line 235
     :goto_2
-    invoke-virtual {v3, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
 
     .line 236
     .line 237
@@ -2584,11 +2523,11 @@
 
     .line 243
     .line 244
-    const/4 v5, 0x0
+    const/4 v4, 0x0
 
     .line 245
     :cond_7
-    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
     .line 246
     .line 247
@@ -2602,7 +2541,7 @@
 
     .line 251
     .line 252
-    invoke-direct {p0, v4, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->v(II)V
+    invoke-direct {p0, v8, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w(II)V
 
     .line 253
     .line 254
@@ -2619,14 +2558,14 @@
 
     .line 259
     .line 260
-    new-instance v2, Lcom/huawei/appmarket/yb3;
+    new-instance v2, Lcom/huawei/appmarket/bc3;
 
     .line 261
     .line 262
     const/4 v3, 0x3
 
     .line 263
-    invoke-direct {v2, p0, v0, v3}, Lcom/huawei/appmarket/yb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+    invoke-direct {v2, p0, v0, v3}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
 
     .line 264
     .line 265
@@ -2638,7 +2577,7 @@
     .line 269
     :cond_a
     :goto_3
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     .line 270
     .line 271
@@ -2650,7 +2589,7 @@
 
     .line 274
     .line 275
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     .line 276
     .line 277
@@ -2729,11 +2668,11 @@
 
     .line 312
     .line 313
-    new-instance v2, Lcom/huawei/appmarket/yb3;
+    new-instance v2, Lcom/huawei/appmarket/bc3;
 
     .line 314
     .line 315
-    invoke-direct {v2, p0, v0, v4}, Lcom/huawei/appmarket/yb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+    invoke-direct {v2, p0, v0, v8}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
 
     .line 316
     .line 317
@@ -2743,178 +2682,273 @@
     .line 319
     .line 320
     .line 321
-    goto :goto_5
+    goto/16 :goto_5
 
     .line 322
+    .line 323
     :cond_d
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 323
     .line 324
+    .line 325
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
 
-    .line 325
     .line 326
     .line 327
+    .line 328
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 328
     .line 329
+    .line 330
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
-    .line 330
     .line 331
     .line 332
+    .line 333
     move-result-object v1
 
-    .line 333
-    iput v3, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
-
     .line 334
+    iput v6, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
+
     .line 335
-    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 336
-    .line 337
-    invoke-virtual {v3, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
+    .line 337
     .line 338
+    invoke-virtual {v6, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
     .line 339
     .line 340
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 341
-    .line 342
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-
-    .line 343
-    .line 344
-    .line 345
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
-    .line 346
-    .line 347
+    .line 342
+    .line 343
     invoke-virtual {v1, v2}, Landroid/view/View;->setSelected(Z)V
 
+    .line 344
+    .line 345
+    .line 346
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    .line 347
     .line 348
+    if-eqz v1, :cond_11
+
     .line 349
     .line 350
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->c:Landroid/view/View;
 
     .line 351
     .line 352
-    new-instance v3, Lcom/huawei/appmarket/yb3;
+    if-eqz v1, :cond_11
 
     .line 353
     .line 354
-    invoke-direct {v3, p0, v0, v2}, Lcom/huawei/appmarket/yb3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+    new-instance v1, Ljava/lang/StringBuilder;
 
     .line 355
     .line 356
-    .line 357
-    invoke-virtual {v1, v3}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+    const-string v6, "doExpandLayout enter, tabsExpanded="
 
+    .line 357
     .line 358
+    invoke-direct {v1, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 359
     .line 360
-    :cond_e
-    :goto_5
-    return-void
     .line 361
+    iget-boolean v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
+
     .line 362
     .line 363
+    invoke-static {v1, v6, v7}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+
     .line 364
     .line 365
     .line 366
+    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->e:Z
+
     .line 367
     .line 368
+    if-nez v1, :cond_e
+
     .line 369
     .line 370
+    goto :goto_5
+
     .line 371
+    :cond_e
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 372
     .line 373
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
     .line 374
     .line 375
     .line 376
+    move-result-object v1
+
     .line 377
+    check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
+
     .line 378
     .line 379
+    invoke-virtual {v1, v3, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
+
     .line 380
     .line 381
     .line 382
+    invoke-virtual {v1, v4, v5}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
+
     .line 383
     .line 384
     .line 385
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 386
     .line 387
+    invoke-virtual {v3, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
     .line 388
     .line 389
     .line 390
+    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->s()V
+
     .line 391
     .line 392
     .line 393
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->n()I
+
     .line 394
     .line 395
     .line 396
+    move-result v1
+
     .line 397
+    if-gtz v1, :cond_f
+
     .line 398
     .line 399
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 400
     .line 401
+    new-instance v3, Lcom/huawei/appmarket/bc3;
+
     .line 402
     .line 403
+    invoke-direct {v3, p0, v0, v2}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+
     .line 404
     .line 405
     .line 406
+    invoke-virtual {v1, v3}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
     .line 407
     .line 408
     .line 409
+    goto :goto_5
+
     .line 410
+    :cond_f
+    iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 411
     .line 412
+    invoke-virtual {v3}, Landroid/view/View;->getWidth()I
+
     .line 413
     .line 414
     .line 415
+    move-result v3
+
     .line 416
+    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 417
     .line 418
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingLeft()I
+
     .line 419
     .line 420
     .line 421
+    move-result v4
+
     .line 422
+    sub-int/2addr v3, v4
+
     .line 423
+    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 424
     .line 425
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingEnd()I
+
     .line 426
     .line 427
     .line 428
+    move-result v4
+
     .line 429
+    sub-int/2addr v3, v4
+
     .line 430
+    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->c(I)[I
+
     .line 431
     .line 432
     .line 433
+    move-result-object v3
+
     .line 434
+    aget v4, v3, v8
+
     .line 435
     .line 436
+    if-gtz v4, :cond_10
+
     .line 437
     .line 438
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
+
     .line 439
     .line 440
+    new-instance v2, Lcom/huawei/appmarket/bc3;
+
     .line 441
     .line 442
+    const/4 v3, 0x2
+
     .line 443
+    invoke-direct {v2, p0, v0, v3}, Lcom/huawei/appmarket/bc3;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;I)V
+
     .line 444
     .line 445
     .line 446
+    invoke-virtual {v1, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
     .line 447
     .line 448
     .line 449
+    goto :goto_5
+
     .line 450
+    :cond_10
+    aget v2, v3, v2
+
     .line 451
     .line 452
+    invoke-direct {p0, v0, v4, v2, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->l(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;III)V
+
     .line 453
     .line 454
     .line 455
+    :cond_11
+    :goto_5
+    return-void
     .line 456
     .line 457
     .line 458
@@ -3058,18 +3092,9 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
-.method public final m(Landroid/view/View;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c$d;)V
+.method public final n(Landroid/view/View;Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c$d;)V
     .registers 7
 
     .line 1
@@ -3182,7 +3207,7 @@
 
     .line 57
     :cond_0
-    new-instance v1, Lcom/huawei/appmarket/y07;
+    new-instance v1, Lcom/huawei/appmarket/c17;
 
     .line 58
     .line 59
@@ -3190,7 +3215,7 @@
 
     .line 60
     .line 61
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/y07;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/c17;-><init>(Ljava/lang/Object;I)V
 
     .line 62
     .line 63
@@ -3208,14 +3233,14 @@
 
     .line 70
     .line 71
-    new-instance v1, Lcom/huawei/appmarket/x07;
+    new-instance v1, Lcom/huawei/appmarket/b17;
 
     .line 72
     .line 73
     const/4 v2, 0x3
 
     .line 74
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/x07;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/b17;-><init>(I)V
 
     .line 75
     .line 76
@@ -3227,7 +3252,7 @@
     .line 80
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->w(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->w(Landroid/content/Context;)Z
 
     .line 81
     .line 82
@@ -3266,7 +3291,7 @@
 
     .line 98
     .line 99
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 100
     .line 101
@@ -3274,7 +3299,7 @@
     move-result v2
 
     .line 103
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     .line 104
     .line 105
@@ -3313,7 +3338,7 @@
 
     .line 122
     .line 123
-    invoke-virtual {p1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->t(Z)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->r(Z)V
 
     .line 124
     .line 125
@@ -3442,7 +3467,7 @@
     .line 185
     .line 186
     .line 187
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->n(Landroid/content/Context;)I
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->o(Landroid/content/Context;)I
 
     .line 188
     .line 189
@@ -3860,20 +3885,13 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
-.method public final o()V
+.method public final p()V
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     move-result-object v0
 
@@ -3881,7 +3899,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;->n(Lcom/huawei/appmarket/cd5;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;->n(Lcom/huawei/appmarket/fd5;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -3904,7 +3922,7 @@
     return-void
 .end method
 
-.method public final q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+.method public final r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
     .registers 2
 
     .line 1
@@ -3925,7 +3943,7 @@
     return-object v0
 .end method
 
-.method public final s(I)V
+.method public final t(I)V
     .registers 4
 
     .line 1
@@ -3974,7 +3992,7 @@
     return-void
 .end method
 
-.method public final t(Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
+.method public final u(Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
     .registers 3
 
     .line 1
@@ -3987,11 +4005,11 @@
     return-void
 .end method
 
-.method public final u(ILjava/util/ArrayList;)V
+.method public final v(ILjava/util/ArrayList;)V
     .registers 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->q()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->r()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/HorizontalWrapTabsAdapter;
 
     move-result-object v0
 
@@ -4002,28 +4020,40 @@
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->b:Landroid/view/View;
 
-    if-eqz p1, :cond_2
+    if-eqz p1, :cond_4
 
-    invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
+    const/4 p1, 0x0
+
+    const/4 v0, 0x1
+
+    if-eqz p2, :cond_2
+
+    invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p2
 
-    if-eqz p2, :cond_1
-
-    const/4 p2, 0x4
+    if-gt p2, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const/4 p2, 0x0
-
-    :goto_0
-    invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
+    const/4 v0, 0x0
 
     :cond_2
+    :goto_0
+    iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->b:Landroid/view/View;
+
+    if-eqz v0, :cond_3
+
+    const/4 p1, 0x4
+
+    :cond_3
+    invoke-virtual {p2, p1}, Landroid/view/View;->setVisibility(I)V
+
+    :cond_4
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_5
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$p;
 
@@ -4031,7 +4061,7 @@
 
     instance-of p1, p1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_5
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->a:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -4041,7 +4071,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->r()V
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/FlowLayoutManager;->p()V
 
     new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/d;
 
@@ -4059,8 +4089,8 @@
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
 
-    :cond_3
-    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->w()V
+    :cond_5
+    invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/c;->x()V
 
     return-void
 .end method

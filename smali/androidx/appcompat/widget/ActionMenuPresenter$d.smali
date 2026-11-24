@@ -49,7 +49,7 @@
 
     move-result-object p2
 
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     new-instance p2, Landroidx/appcompat/widget/ActionMenuPresenter$d$a;
 

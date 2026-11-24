@@ -159,7 +159,7 @@
     move-result-object v1
 
     .line 32
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 33
     .line 34
@@ -175,7 +175,7 @@
     move-result-object v2
 
     .line 40
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 41
     .line 42
@@ -215,7 +215,7 @@
     move-result-object v2
 
     .line 60
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 61
     .line 62
@@ -261,7 +261,7 @@
     move-result-object v2
 
     .line 82
-    invoke-static {v2}, Lcom/huawei/appmarket/ve8;->c(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/af8;->c(Landroid/content/Context;)I
 
     .line 83
     .line 84
@@ -922,7 +922,7 @@
 
     .line 415
     .line 416
-    invoke-static {v1, v14, v1, v10}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v14, v1, v10}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 417
     .line 418
@@ -981,7 +981,7 @@
     const/4 v5, 0x2
 
     .line 444
-    invoke-static {v1, v5, v1, v10}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v5, v1, v10}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 445
     .line 446
@@ -1006,7 +1006,7 @@
 
     .line 455
     .line 456
-    invoke-static {v1, v3, v1, v10}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v3, v1, v10}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 457
     .line 458
@@ -1289,9 +1289,4 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method

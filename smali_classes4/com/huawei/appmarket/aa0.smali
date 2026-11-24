@@ -12,15 +12,15 @@
     return-void
 .end method
 
-.method public static a(IB)Z
+.method public static a(BI)Z
     .registers 6
 
     .line 1
-    int-to-long v0, p1
+    int-to-long v0, p0
 
     const-wide/16 v2, 0x1
 
-    shl-long p0, v2, p0
+    shl-long p0, v2, p1
 
     and-long/2addr p0, v0
 
@@ -41,13 +41,13 @@
     return p0
 .end method
 
-.method public static b(IB)B
+.method public static b(BI)B
     .registers 3
 
     .line 1
     const/4 v0, 0x1
 
-    shl-int p0, v0, p0
+    shl-int p1, v0, p1
 
     or-int/2addr p0, p1
 
@@ -56,15 +56,15 @@
     return p0
 .end method
 
-.method public static c(IB)B
+.method public static c(BI)B
     .registers 3
 
     .line 1
     const/4 v0, 0x1
 
-    shl-int p0, v0, p0
+    shl-int p1, v0, p1
 
-    not-int p0, p0
+    not-int p1, p1
 
     and-int/2addr p0, p1
 

@@ -330,7 +330,7 @@
 
     .line 15
     .line 16
-    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v1, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -346,7 +346,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -474,6 +474,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V

@@ -36,11 +36,11 @@
 
     iput v0, p0, Lcom/huawei/appmarket/service/appprocess/AppProcessService;->b:I
 
-    new-instance v0, Lcom/huawei/appmarket/te5;
+    new-instance v0, Lcom/huawei/appmarket/we5;
 
     const-string v1, "AppProcessService"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/te5;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/we5;-><init>(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -105,7 +105,7 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -186,7 +186,7 @@
     .line 54
     .line 55
     :cond_1
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/le7;->b(Landroid/content/Context;Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/qe7;->b(Landroid/content/Context;Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 56
     .line 57
@@ -231,7 +231,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-static {p1}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {p1}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     .line 79
     .line 80
@@ -355,7 +355,7 @@
     move-result-object p1
 
     .line 141
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 142
     .line 143
@@ -376,7 +376,7 @@
 
     .line 150
     .line 151
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
     .line 153
@@ -414,7 +414,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static b(Lcom/huawei/appmarket/service/appprocess/AppProcessService;Ljava/lang/String;Z)I
@@ -429,7 +428,7 @@
 
     .line 4
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 5
     .line 6
@@ -467,7 +466,7 @@
     move-result-object v0
 
     .line 24
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -520,7 +519,7 @@
 
     .line 47
     .line 48
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -538,7 +537,7 @@
     .line 54
     :cond_1
     :try_start_1
-    invoke-static {p0}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     .line 55
     .line 56
@@ -558,7 +557,7 @@
 
     .line 63
     .line 64
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -632,7 +631,7 @@
 
     .line 91
     .line 92
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -683,7 +682,7 @@
     move-result-object p2
 
     .line 117
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -960,29 +959,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method static c(Ljava/lang/String;Ljava/lang/String;ZLcom/huawei/appmarket/service/appprocess/AppProcessService;)V
@@ -1034,7 +1010,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -1048,7 +1024,7 @@
     .line 29
     .line 30
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 31
     .line 32
@@ -1060,11 +1036,11 @@
 
     .line 35
     .line 36
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 37
     .line 38
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 39
     .line 40
@@ -1072,11 +1048,11 @@
     move-result-object v0
 
     .line 42
-    const-class v1, Lcom/huawei/appmarket/v64;
+    const-class v1, Lcom/huawei/appmarket/y64;
 
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -1084,11 +1060,11 @@
     move-result-object v0
 
     .line 48
-    check-cast v0, Lcom/huawei/appmarket/v64;
+    check-cast v0, Lcom/huawei/appmarket/y64;
 
     .line 49
     .line 50
-    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/v64;->n(Ljava/lang/String;ILjava/lang/String;)I
+    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/y64;->n(Ljava/lang/String;ILjava/lang/String;)I
 
     .line 51
     .line 52
@@ -2053,7 +2029,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic e(Lcom/huawei/appmarket/service/appprocess/AppProcessService;)Ljava/lang/Object;
@@ -2098,17 +2073,17 @@
 
     const-class p2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-interface {p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {p1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     move-result-object p1
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/gw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/aq1;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/mw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/dq1;
 
     const/4 p1, 0x0
 
@@ -2153,7 +2128,7 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -2176,7 +2151,7 @@
 
     .line 11
     .line 12
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -2241,7 +2216,7 @@
 
     .line 43
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/ml5;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/ol5;->b()Z
 
     .line 44
     .line 45
@@ -2265,7 +2240,7 @@
     move-result-object v0
 
     .line 55
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -2290,7 +2265,7 @@
     move-result-object v3
 
     .line 67
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/bu5;->c(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/du5;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 68
     .line 69
@@ -2314,7 +2289,7 @@
     move-result-object v0
 
     .line 79
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -2371,7 +2346,7 @@
     move-result-object v0
 
     .line 106
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 107
     .line 108
@@ -2393,7 +2368,7 @@
     move-result-object v1
 
     .line 116
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -2407,7 +2382,7 @@
 
     .line 121
     .line 122
-    invoke-static {v3, v0, v2}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0, v2}, Lcom/huawei/appmarket/kk4;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
     .line 124
@@ -2532,7 +2507,7 @@
     const/4 v1, 0x0
 
     .line 37
-    invoke-static {p0, v0, p0, v1}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {p0, v0, p0, v1}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -2614,7 +2589,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private static j(Ljava/lang/String;Ljava/util/ArrayList;)V
@@ -2957,7 +2931,7 @@
     .line 157
     .line 158
     .line 159
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 160
     .line 161
@@ -2975,7 +2949,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private static k(Ljava/util/List;)Ljava/util/ArrayList;
@@ -3070,7 +3043,7 @@
 
     const-string v1, "AppProcessor created"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0}, Lcom/huawei/secure/android/common/activity/SafeService;->onCreate()V
 
@@ -3086,7 +3059,7 @@
 
     const-string v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -3102,7 +3075,7 @@
 
     const-string v1, "onStartCommand..."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -3128,7 +3101,7 @@
 
     check-cast v3, Landroid/app/NotificationManager;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v2, Landroid/app/Notification$Builder;
@@ -3149,7 +3122,7 @@
 
     const-string v3, "startForeground..."
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 

@@ -164,7 +164,7 @@
 
     .line 73
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     .line 74
     .line 75
@@ -172,7 +172,7 @@
     move-result-object p1
 
     .line 77
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aj6;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cj6;->f()I
 
     .line 78
     .line 79
@@ -181,7 +181,7 @@
 
     .line 81
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 82
     .line 83
@@ -201,7 +201,7 @@
 
     .line 90
     .line 91
-    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 92
     .line 93
@@ -244,17 +244,16 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/aj6;->k(I)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/cj6;->k(I)V
 
     return-void
 .end method

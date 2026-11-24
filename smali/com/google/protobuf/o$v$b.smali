@@ -400,6 +400,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final addRepeatedField(Lcom/google/protobuf/Descriptors$f;Ljava/lang/Object;)Lcom/google/protobuf/g0$b;
@@ -1694,11 +1695,11 @@
 
     .line 133
     :cond_8
-    sget-object v1, Lcom/google/protobuf/o$v$c;->g:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$v$c;->g:Lcom/huawei/appmarket/iw5;
 
     .line 134
     .line 135
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 136
     .line 137
@@ -2582,6 +2583,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final bridge synthetic mergeFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/a$a;

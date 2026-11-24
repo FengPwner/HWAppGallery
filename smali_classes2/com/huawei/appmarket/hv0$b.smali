@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yj0$a;
+.implements Lcom/huawei/appmarket/zj0$a;
 
 
 # annotations
@@ -46,7 +46,7 @@
     return-void
 .end method
 
-.method public final b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
+.method public final b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ml0;)V
     .registers 4
 
     .line 1

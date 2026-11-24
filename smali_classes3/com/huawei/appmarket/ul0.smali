@@ -1,154 +1,83 @@
 .class public final Lcom/huawei/appmarket/ul0;
-.super Lcom/huawei/appmarket/kq1;
+.super Lcom/huawei/appmarket/mq1;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;",
-        ">",
-        "Lcom/huawei/appmarket/kq1;"
-    }
-.end annotation
-
-
 # instance fields
-.field private p:I
-
-.field private q:I
-
-.field private r:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "TT;>;"
-        }
-    .end annotation
-.end field
-
-.field private s:I
-
-.field private t:I
+.field private t:Z
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 2
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/nq1;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/nq1<",
+            "+",
+            "Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;",
+            ">;",
+            "Lcom/huawei/appmarket/tb3;",
+            "Lcom/huawei/appmarket/vb3$c;",
+            "Z)V"
+        }
+    .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/kq1;-><init>()V
+    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/mq1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nq1;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
-    const/4 v0, -0x1
+    const/4 p1, 0x1
 
-    iput v0, p0, Lcom/huawei/appmarket/ul0;->q:I
+    iput-boolean p1, p0, Lcom/huawei/appmarket/ul0;->t:Z
 
+    instance-of p3, p2, Lcom/huawei/appmarket/vl0;
+
+    if-eqz p3, :cond_1
+
+    check-cast p2, Lcom/huawei/appmarket/vl0;
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/vl0;->D()I
+
+    move-result p2
+
+    const/4 p3, 0x2
+
+    if-eq p2, p3, :cond_0
+
+    if-ne p2, p1, :cond_1
+
+    :cond_0
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/huawei/appmarket/ul0;->t:Z
+
+    :cond_1
     return-void
 .end method
 
 
 # virtual methods
-.method public final D()I
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
+    .registers 3
+
+    .line 1
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/wb3;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    move-result-object p1
+
+    iget-boolean p2, p0, Lcom/huawei/appmarket/ul0;->t:Z
+
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$d0;->setIsRecyclable(Z)V
+
+    return-object p1
+.end method
+
+.method public final u()Z
     .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ul0;->s:I
+    iget-boolean v0, p0, Lcom/huawei/appmarket/ul0;->t:Z
 
     return v0
-.end method
-
-.method public final E()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ul0;->t:I
-
-    return v0
-.end method
-
-.method public final F()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ul0;->p:I
-
-    return v0
-.end method
-
-.method public final G()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/ul0;->q:I
-
-    return v0
-.end method
-
-.method public final H()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "TT;>;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ul0;->r:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final I(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/ul0;->s:I
-
-    return-void
-.end method
-
-.method public final J(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/ul0;->t:I
-
-    return-void
-.end method
-
-.method public final K(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/ul0;->p:I
-
-    return-void
-.end method
-
-.method public final L(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/ul0;->q:I
-
-    return-void
-.end method
-
-.method public final M(Ljava/util/List;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "TT;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ul0;->r:Ljava/util/List;
-
-    return-void
 .end method

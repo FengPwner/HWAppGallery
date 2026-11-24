@@ -39,7 +39,7 @@
 
     .line 9
     .line 10
-    const v1, 0x7f0a1896
+    const v1, 0x7f0a1897
 
     .line 11
     .line 12
@@ -60,11 +60,11 @@
 
     .line 20
     .line 21
-    new-instance v2, Lcom/huawei/appmarket/tf7;
+    new-instance v2, Lcom/huawei/appmarket/yf7;
 
     .line 22
     .line 23
-    invoke-direct {v2, v0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v2, v0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 24
     .line 25
@@ -164,7 +164,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final N()V

@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Ljava/lang/Boolean;",
         ">;"
     }
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
@@ -56,7 +56,7 @@
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/ui/c$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/appcomment/ui/c$a;-><init>(Lcom/huawei/appgallery/appcomment/ui/c;Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/appcomment/ui/c$a;-><init>(Lcom/huawei/appgallery/appcomment/ui/c;Lcom/huawei/appmarket/nv7;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

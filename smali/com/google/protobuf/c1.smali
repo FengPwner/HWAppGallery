@@ -1250,7 +1250,7 @@
     const/4 v7, 0x4
 
     .line 214
-    invoke-static {v9, v7, v8}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v9, v7, v8}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 215
     .line 216
@@ -1392,7 +1392,7 @@
     const/4 v14, 0x3
 
     .line 282
-    invoke-static {v9, v14, v8}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v9, v14, v8}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 283
     .line 284
@@ -1785,7 +1785,7 @@
 
     .line 466
     .line 467
-    invoke-interface {v13}, Lcom/huawei/appmarket/r75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
+    invoke-interface {v13}, Lcom/huawei/appmarket/u75;->getDefaultInstanceForType()Lcom/google/protobuf/b1;
 
     .line 468
     .line 469
@@ -1959,7 +1959,7 @@
 
     .line 550
     .line 551
-    invoke-static {v5, v6, v7}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v6, v7}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 552
     .line 553
@@ -3078,7 +3078,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5

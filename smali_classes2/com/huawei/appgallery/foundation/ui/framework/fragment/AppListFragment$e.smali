@@ -73,7 +73,7 @@
 
     const-string v3, "CachedResRunnable onResponse"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->o7(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 

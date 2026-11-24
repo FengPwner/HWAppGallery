@@ -28,10 +28,10 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/w28;
+.field private final a:Lcom/huawei/appmarket/c38;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/w28<",
+            "Lcom/huawei/appmarket/c38<",
             "TT;>;"
         }
     .end annotation
@@ -41,12 +41,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;Lcom/huawei/appmarket/w28;)V
+.method constructor <init>(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;Lcom/huawei/appmarket/c38;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/w28<",
+            "Lcom/huawei/appmarket/c38<",
             "TT;>;)V"
         }
     .end annotation
@@ -56,7 +56,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iput-object p2, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
     return-void
 .end method
@@ -67,11 +67,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
     iget-object v1, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->b:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/w28;->a(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c38;->a(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
 
     return-void
 .end method
@@ -80,11 +80,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
     iget-object v1, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->b:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/w28;->b(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c38;->b(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
 
     return-void
 .end method
@@ -98,9 +98,9 @@
 
     check-cast p1, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;
 
-    iget-object p1, p1, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iget-object p1, p1, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
-    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
     invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -122,7 +122,7 @@
 .method public final hashCode()I
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/w28;
+    iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton$c;->a:Lcom/huawei/appmarket/c38;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 

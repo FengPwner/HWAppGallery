@@ -96,7 +96,7 @@
     return-object p0
 
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 

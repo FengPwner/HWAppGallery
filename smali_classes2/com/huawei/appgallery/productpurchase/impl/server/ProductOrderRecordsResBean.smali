@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/productpurchase/impl/server/ProductOrderRecordsResBean;
-.super Lcom/huawei/appmarket/a86;
+.super Lcom/huawei/appmarket/c86;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 .field private hasNext_:I
 
 .field private productOrderInfo_:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
@@ -33,7 +33,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/a86;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/c86;-><init>()V
 
     return-void
 .end method

@@ -73,7 +73,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "webView getUrl isEmpty"
+    const-string/jumbo v0, "webView getUrl isEmpty"
 
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->p()V
+    value = Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->r()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -53,13 +53,13 @@
     invoke-interface {p2}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController$VideoEventListener;->doRelease()V
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->g(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/ih8;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->i(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Lcom/huawei/appmarket/oh8;
 
     move-result-object p1
 

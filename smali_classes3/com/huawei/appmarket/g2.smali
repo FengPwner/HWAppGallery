@@ -41,7 +41,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
+    invoke-static {}, Lcom/huawei/appmarket/e06;->d()Lcom/huawei/appmarket/e06;
 
     .line 14
     .line 15
@@ -57,7 +57,7 @@
     move-result-object v2
 
     .line 21
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/c06;->q(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/u30;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/e06;->q(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/u30;)V
 
     .line 22
     .line 23

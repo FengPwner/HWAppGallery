@@ -16,18 +16,18 @@
 
 # instance fields
 .field private appBits:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private fSha2_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private installationFree:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 .field private oldVersion_:Ljava/lang/String;
 
 .field private package_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -56,14 +56,14 @@
 .field private pkgChannelId_:Ljava/lang/String;
 
 .field private pkgMode:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private sSha2_:Ljava/lang/String;
 
 .field private shellApkVer:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -144,34 +144,34 @@
 
     move-result-object v1
 
-    const-class v2, Lcom/huawei/appmarket/yh3;
+    const-class v2, Lcom/huawei/appmarket/ai3;
 
     const-string v3, "DeviceInstallationInfos"
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/yh3;
+    check-cast v4, Lcom/huawei/appmarket/ai3;
 
     iget-object v5, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->package_:Ljava/lang/String;
 
-    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/yh3;->o(Landroid/content/Context;Ljava/lang/String;)J
+    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/ai3;->o(Landroid/content/Context;Ljava/lang/String;)J
 
     move-result-wide v4
 
     iput-wide v4, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->shellApkVer:J
 
     .line 2
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/yh3;
+    check-cast v4, Lcom/huawei/appmarket/ai3;
 
     iget-object v5, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->package_:Ljava/lang/String;
 
-    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/yh3;->n(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/yh3$a;
+    invoke-interface {v4, v1, v5}, Lcom/huawei/appmarket/ai3;->n(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/ai3$a;
 
     move-result-object v1
 
@@ -179,7 +179,7 @@
 
     if-nez v1, :cond_1
 
-    sget-object v1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -201,7 +201,7 @@
 
     const-string v6, "UpgradeRequest"
 
-    invoke-virtual {v1, v6, v5}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v6, v5}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const/4 v5, 0x1
@@ -238,7 +238,7 @@
 
     iget-object v6, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->package_:Ljava/lang/String;
 
-    invoke-static {v6, v1}, Lcom/huawei/appmarket/y43;->c(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v6, v1}, Lcom/huawei/appmarket/b53;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -256,7 +256,7 @@
     iput v5, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->pkgMode:I
 
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/du5;->e(Landroid/content/pm/PackageInfo;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/fu5;->e(Landroid/content/pm/PackageInfo;)I
 
     move-result v1
 
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/tf0;->c(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/uf0;->c(Ljava/lang/String;)[B
 
     move-result-object v1
 
@@ -338,15 +338,15 @@
     iput v0, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->maple_:I
 
     .line 7
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/yh3;
+    check-cast v0, Lcom/huawei/appmarket/ai3;
 
     iget-object v1, p0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$Param;->package_:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/yh3;->l(Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ai3;->l(Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v0
 
@@ -447,19 +447,19 @@
     .registers 7
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string p2, "UpgradeRequest"
 
     const-string v0, "appFileInfos is null"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

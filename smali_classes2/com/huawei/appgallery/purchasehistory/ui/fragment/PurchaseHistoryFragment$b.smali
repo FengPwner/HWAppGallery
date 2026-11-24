@@ -59,7 +59,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/qa6;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/sa6;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/purchasehistory/ui/fragment/PurchaseHistoryFragment;->J7(Lcom/huawei/appgallery/purchasehistory/ui/fragment/PurchaseHistoryFragment;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/qa6;->d(Landroid/app/Activity;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/sa6;->d(Landroid/app/Activity;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/purchasehistory/ui/fragment/PurchaseHistoryFragment;->O()Z
 
@@ -124,13 +124,13 @@
 
     :cond_3
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/sa6;->a:Lcom/huawei/appmarket/sa6;
+    sget-object v0, Lcom/huawei/appmarket/ua6;->a:Lcom/huawei/appmarket/ua6;
 
     const-string v1, "PurchaseHistoryFragment"
 
     const-string v2, "no data"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

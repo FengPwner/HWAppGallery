@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/lt;->h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
+    value = Lcom/huawei/appmarket/lt;->onCancel(Landroid/content/DialogInterface;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,15 @@
 
 
 # instance fields
-.field final synthetic b:Landroid/app/Activity;
-
-.field final synthetic c:Lcom/huawei/appmarket/lt;
+.field final synthetic b:Lcom/huawei/appmarket/lt;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/lt;Landroid/app/Activity;)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/lt;)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/lt$a;->c:Lcom/huawei/appmarket/lt;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/lt$a;->b:Landroid/app/Activity;
+    iput-object p1, p0, Lcom/huawei/appmarket/lt$a;->b:Lcom/huawei/appmarket/lt;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,30 +36,26 @@
 
 # virtual methods
 .method public final run()V
-    .registers 5
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lt$a;->c:Lcom/huawei/appmarket/lt;
+    iget-object v0, p0, Lcom/huawei/appmarket/lt$a;->b:Lcom/huawei/appmarket/lt;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/gt;
+    iget-object v1, v0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/ht;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/gt;->d(Lcom/huawei/appmarket/gt;)Lcom/huawei/appmarket/gt$d;
+    invoke-static {v1}, Lcom/huawei/appmarket/ht;->d(Lcom/huawei/appmarket/ht;)Lcom/huawei/appmarket/ht$d;
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/huawei/appmarket/lt;->b:Ljava/util/ArrayList;
+    iget-object v2, v0, Lcom/huawei/appmarket/lt;->b:Landroid/content/Context;
 
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-static {v2}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
 
-    move-result v2
+    invoke-interface {v1}, Lcom/huawei/appmarket/ht$d;->j()V
 
-    iget-object v3, p0, Lcom/huawei/appmarket/lt$a;->b:Landroid/app/Activity;
+    iget-object v0, v0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/ht;
 
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/gt$d;->k(ILandroid/content/Context;)V
-
-    iget-object v0, v0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/gt;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/gt;->c(Lcom/huawei/appmarket/gt;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ht;->c(Lcom/huawei/appmarket/ht;)V
 
     return-void
 .end method

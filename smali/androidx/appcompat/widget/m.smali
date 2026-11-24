@@ -55,7 +55,7 @@
 
     move-result-object p0
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/ei8;->V(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/ki8;->V(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -93,7 +93,7 @@
 
     move-result-object p0
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/ei8;->V(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/ki8;->V(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
 
     const/4 p0, 0x1
 

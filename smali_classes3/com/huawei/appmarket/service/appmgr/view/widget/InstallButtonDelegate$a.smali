@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/vu;->values()[Lcom/huawei/appmarket/vu;
+    invoke-static {}, Lcom/huawei/appmarket/wu;->values()[Lcom/huawei/appmarket/wu;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/vu;->e:Lcom/huawei/appmarket/vu;
+    sget-object v1, Lcom/huawei/appmarket/wu;->e:Lcom/huawei/appmarket/wu;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/vu;->f:Lcom/huawei/appmarket/vu;
+    sget-object v1, Lcom/huawei/appmarket/wu;->f:Lcom/huawei/appmarket/wu;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/vu;->h:Lcom/huawei/appmarket/vu;
+    sget-object v1, Lcom/huawei/appmarket/wu;->h:Lcom/huawei/appmarket/wu;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/appmarket/service/appmgr/view/widget/InstallButtonDelegate$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/vu;->i:Lcom/huawei/appmarket/vu;
+    sget-object v1, Lcom/huawei/appmarket/wu;->i:Lcom/huawei/appmarket/wu;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

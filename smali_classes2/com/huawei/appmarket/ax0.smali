@@ -40,7 +40,7 @@
 
 .field private r:Ljava/lang/String;
 
-.field private s:Lcom/huawei/appmarket/nu7;
+.field private s:Lcom/huawei/appmarket/tu7;
 
 .field private t:Z
 
@@ -86,9 +86,9 @@
 
     iput-object v1, p0, Lcom/huawei/appmarket/ax0;->r:Ljava/lang/String;
 
-    sget-object v1, Lcom/huawei/appmarket/nu7;->b:Lcom/huawei/appmarket/nu7;
+    sget-object v1, Lcom/huawei/appmarket/tu7;->b:Lcom/huawei/appmarket/tu7;
 
-    iput-object v1, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/nu7;
+    iput-object v1, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/tu7;
 
     iput-boolean v0, p0, Lcom/huawei/appmarket/ax0;->v:Z
 
@@ -289,11 +289,11 @@
     return-void
 .end method
 
-.method public final U(Lcom/huawei/appmarket/nu7;)V
+.method public final U(Lcom/huawei/appmarket/tu7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/nu7;
+    iput-object p1, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/tu7;
 
     return-void
 .end method
@@ -479,11 +479,11 @@
     return-object v0
 .end method
 
-.method public final o()Lcom/huawei/appmarket/nu7;
+.method public final o()Lcom/huawei/appmarket/tu7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/nu7;
+    iget-object v0, p0, Lcom/huawei/appmarket/ax0;->s:Lcom/huawei/appmarket/tu7;
 
     return-object v0
 .end method

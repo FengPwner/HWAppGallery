@@ -282,6 +282,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;

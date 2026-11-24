@@ -65,7 +65,7 @@
 
     .line 22
     .line 23
-    sget-object v1, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v1, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     .line 24
     .line 25
@@ -81,7 +81,7 @@
     move-result-object p0
 
     .line 31
-    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -159,14 +159,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static c(I)Lcom/huawei/appgallery/remotedevice/exception/RemoteDeviceException;
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ho6;->a:Lcom/huawei/appmarket/ho6;
+    sget-object v0, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -182,7 +181,7 @@
 
     const-string v2, "RemoteDeviceException"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appgallery/remotedevice/exception/RemoteDeviceException;
 

@@ -26,7 +26,7 @@
         }
     .end annotation
 
-    invoke-static {}, Lcom/huawei/appmarket/jj5;->g()Ljava/util/Optional;
+    invoke-static {}, Lcom/huawei/appmarket/lj5;->h()Ljava/util/Optional;
 
     move-result-object p0
 

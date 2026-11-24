@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/xv0;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appmarket/xv0;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/hv7;
+.field final synthetic b:Lcom/huawei/appmarket/nv7;
 
 .field final synthetic c:Lcom/huawei/appmarket/xv0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/xv0;Lcom/huawei/appmarket/hv7;)V
+.method constructor <init>(Lcom/huawei/appmarket/xv0;Lcom/huawei/appmarket/nv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/xv0$a;->c:Lcom/huawei/appmarket/xv0;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/xv0$a;->b:Lcom/huawei/appmarket/hv7;
+    iput-object p2, p0, Lcom/huawei/appmarket/xv0$a;->b:Lcom/huawei/appmarket/nv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,9 +43,9 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/xv0$a;->b:Lcom/huawei/appmarket/hv7;
+    iget-object v0, p0, Lcom/huawei/appmarket/xv0$a;->b:Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -68,13 +68,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v0, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v2, "CommentViewControl"
 
     const-string v3, "Check hasEnoughPlayDuration result: false."
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object v0, v1, Lcom/huawei/appmarket/xv0;->c:Lcom/huawei/appmarket/yv0;

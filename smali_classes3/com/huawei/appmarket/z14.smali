@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/gg1;
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/hg1;
 .end annotation
 
 
 # virtual methods
-.method public abstract e2()V
+.method public abstract v2()V
 .end method

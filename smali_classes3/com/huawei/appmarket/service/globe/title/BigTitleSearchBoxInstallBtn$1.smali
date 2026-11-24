@@ -1,5 +1,5 @@
 .class Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxInstallBtn$1;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxInstallBtn$1;->this$0:Lcom/huawei/appmarket/service/globe/title/BigTitleSearchBoxInstallBtn;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,7 +34,7 @@
 .method public onSingleClick(Landroid/view/View;)V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/rg4;->b()Lcom/huawei/appmarket/rg4;
+    invoke-static {}, Lcom/huawei/appmarket/tg4;->b()Lcom/huawei/appmarket/tg4;
 
     move-result-object p1
 
@@ -54,7 +54,7 @@
 
     const-string p1, "install_click"
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/rg4;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/BaseTitleBean;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/tg4;->c(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/BaseTitleBean;Ljava/lang/String;)V
 
     new-instance p1, Landroid/content/Intent;
 
@@ -68,11 +68,11 @@
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/c06;->d()Lcom/huawei/appmarket/c06;
+    invoke-static {}, Lcom/huawei/appmarket/e06;->d()Lcom/huawei/appmarket/e06;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/c06;->m()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/e06;->m()Z
 
     move-result v0
 

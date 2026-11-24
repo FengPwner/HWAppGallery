@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment$a;
-.super Lcom/huawei/appmarket/lf7;
+.super Lcom/huawei/appmarket/qf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment$a;->b:Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/lf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/qf7;-><init>()V
 
     return-void
 .end method

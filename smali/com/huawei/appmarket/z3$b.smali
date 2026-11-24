@@ -39,11 +39,11 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/hb4;
+    new-instance v0, Lcom/huawei/appmarket/jb4;
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/hb4;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/jb4;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 4
     .line 5

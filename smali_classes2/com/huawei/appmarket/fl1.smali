@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic b:I
 
-.field public final synthetic c:Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;
+.field public final synthetic c:Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;I)V
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;I)V
     .registers 3
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/fl1;->c:Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;
+    iput-object p1, p0, Lcom/huawei/appmarket/fl1;->c:Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;
 
     .line 7
     .line 8
@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -197,16 +196,21 @@
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/fl1;->b:I
 
-    iget-object v1, p0, Lcom/huawei/appmarket/fl1;->c:Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;
+    iget-object v1, p0, Lcom/huawei/appmarket/fl1;->c:Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->P1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)V
+    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->a(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)V
 
     return-void
 
     :pswitch_0
-    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;->O1(Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/DetailInformationFlowCard;)V
+    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->d(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)V
+
+    return-void
+
+    :pswitch_1
+    invoke-static {v1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->b(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)V
 
     return-void
 
@@ -214,6 +218,7 @@
 
     :pswitch_data_0
     .packed-switch 0x0
+        :pswitch_1
         :pswitch_0
     .end packed-switch
 .end method

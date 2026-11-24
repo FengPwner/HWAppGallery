@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "UserHomeTypeFragment"
     protocol = Lcom/huawei/appgallery/forum/user/api/IUserHomePageProtocol;
 .end annotation
@@ -63,7 +63,7 @@
 
     new-array v1, v1, [Landroid/view/View;
 
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/w68;->F(Landroidx/fragment/app/FragmentActivity;Landroid/view/View;[Landroid/view/View;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b78;->F(Landroidx/fragment/app/FragmentActivity;Landroid/view/View;[Landroid/view/View;)V
 
     :cond_0
     return-void
@@ -73,9 +73,9 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 

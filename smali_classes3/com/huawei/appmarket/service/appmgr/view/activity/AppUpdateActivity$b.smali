@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/xy5;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/zy5;",
         ">;"
     }
 .end annotation
@@ -46,19 +46,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/xy5;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/zy5;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -68,18 +68,18 @@
 
     const-string p1, "result is null!!!"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/xy5;
+    check-cast v0, Lcom/huawei/appmarket/zy5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zy5;->a()[I
 
     move-result-object v0
 
@@ -91,18 +91,18 @@
 
     const-string p1, "result grant results size less 1"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/xy5;
+    check-cast p1, Lcom/huawei/appmarket/zy5;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xy5;->a()[I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zy5;->a()[I
 
     move-result-object p1
 
@@ -114,13 +114,13 @@
 
     const-string v1, "DeviceInstallationInfos"
 
-    const-class v3, Lcom/huawei/appmarket/lh3;
+    const-class v3, Lcom/huawei/appmarket/nh3;
 
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/lh3;
+    check-cast v1, Lcom/huawei/appmarket/nh3;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -136,7 +136,7 @@
 
     invoke-direct {v4, v5}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUpdateActivity$c;-><init>(Lcom/huawei/appmarket/service/appmgr/view/activity/AppUpdateActivity$a;)V
 
-    invoke-interface {v1, v3, v4}, Lcom/huawei/appmarket/lh3;->b(Landroid/content/Context;Lcom/huawei/appmarket/wc4;)I
+    invoke-interface {v1, v3, v4}, Lcom/huawei/appmarket/nh3;->b(Landroid/content/Context;Lcom/huawei/appmarket/yc4;)I
 
     :cond_2
     if-nez p1, :cond_3
@@ -147,9 +147,9 @@
     const/4 v2, 0x0
 
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/tf4$a;->e:Lcom/huawei/appmarket/tf4$a;
+    sget-object p1, Lcom/huawei/appmarket/vf4$a;->e:Lcom/huawei/appmarket/vf4$a;
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/tf4;->a(ILcom/huawei/appmarket/tf4$a;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/vf4;->a(ILcom/huawei/appmarket/vf4$a;)V
 
     return-void
 .end method

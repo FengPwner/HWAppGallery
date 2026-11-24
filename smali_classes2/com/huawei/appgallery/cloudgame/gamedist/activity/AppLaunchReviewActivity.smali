@@ -43,7 +43,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -88,7 +88,7 @@
     .line 28
     .line 29
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/os0;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ps0;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -213,7 +213,7 @@
 
     .line 86
     .line 87
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/os0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ps0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -226,7 +226,7 @@
     move-result-object v0
 
     .line 94
-    new-instance v1, Lcom/huawei/appmarket/lq7;
+    new-instance v1, Lcom/huawei/appmarket/rq7;
 
     .line 95
     .line 96
@@ -238,12 +238,12 @@
     move-result v2
 
     .line 100
-    invoke-direct {v1, v0, p1, v2}, Lcom/huawei/appmarket/lq7;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/cloudgame/gamedist/api/ICloudGameAppLaunchReviewProtocol;I)V
+    invoke-direct {v1, v0, p1, v2}, Lcom/huawei/appmarket/rq7;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/cloudgame/gamedist/api/ICloudGameAppLaunchReviewProtocol;I)V
 
     .line 101
     .line 102
     .line 103
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lq7;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/rq7;->a()V
 
     .line 104
     .line 105

@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
-.method public abstract getAppDetailBean()Lcom/huawei/appmarket/zp;
+.method public abstract getAppDetailBean()Lcom/huawei/appmarket/yp;
 .end method
 
 .method public abstract getCommand()J
@@ -16,7 +16,7 @@
 .method public abstract getUri()Ljava/lang/String;
 .end method
 
-.method public abstract setAppDetailBean(Lcom/huawei/appmarket/zp;)V
+.method public abstract setAppDetailBean(Lcom/huawei/appmarket/yp;)V
 .end method
 
 .method public abstract setCommand(J)V

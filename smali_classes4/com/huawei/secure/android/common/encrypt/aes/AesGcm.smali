@@ -86,7 +86,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -138,7 +138,7 @@
 
     .line 56
     .line 57
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -168,7 +168,7 @@
     .line 70
     .line 71
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -650,49 +650,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method private static b(Ljava/lang/String;)Ljava/lang/String;
@@ -729,7 +686,7 @@
 
     const-string v0, "IV is invalid."
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, ""
 
@@ -773,12 +730,12 @@
 
     const-string p0, "decrypt 1 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
@@ -791,7 +748,7 @@
 
     const-string p0, "GCM decrypt 1 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -852,16 +809,16 @@
 
     const-string p0, "decrypt 3 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    invoke-static {p2}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p2}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p2
 
@@ -874,7 +831,7 @@
 
     const-string p0, "GCM decrypt 3 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -888,7 +845,7 @@
 
     const-string p0, "GCM decrypt 3 iv error: iv length less than 12 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -939,7 +896,7 @@
 
     const-string p0, "GCM decrypt 2 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -954,7 +911,7 @@
     const-string p0, "decrypt 2 build version not higher than 19"
 
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -1043,7 +1000,7 @@
     return-object v2
 
     :cond_7
-    invoke-static {v3}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v3}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v3
 
@@ -1055,7 +1012,7 @@
 
     invoke-virtual {p1, v4, v0, v3}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
@@ -1133,7 +1090,7 @@
 
     const-string p0, "GCM decrypt 4 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -1159,7 +1116,7 @@
 
     const-string p0, "GCM decrypt 4 iv error: iv length less than 12 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -1174,13 +1131,13 @@
     const-string p0, "decrypt 4 build version not higher than 19"
 
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_5
     :try_start_0
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
@@ -1262,7 +1219,7 @@
 
     const-string p0, "GCM decrypt 7 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -1291,7 +1248,7 @@
     :goto_0
     const-string v3, "getIV error: bt length less than 12 bytes."
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array v3, v2, [B
 
@@ -1303,7 +1260,7 @@
     const-string p0, "get iv from content error."
 
     .line 16
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -1338,7 +1295,7 @@
     :goto_2
     const-string p0, "get content error, because bt length is less than 12"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array v1, v2, [B
 
@@ -1393,7 +1350,7 @@
 
     const-string p0, "GCM decrypt 6 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -1423,7 +1380,7 @@
 
     const-string p0, "GCM decrypt 6 iv error: iv length less than 12 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -1440,7 +1397,7 @@
     const-string p0, "decrypt 6 build version not higher than 19"
 
     :goto_0
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -1577,7 +1534,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v1
 
@@ -1587,11 +1544,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1606,7 +1563,7 @@
 
     const-string p1, " gcm cipherText data missing colon"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_2
@@ -1637,7 +1594,7 @@
 
     const-string p1, "UnsupportedEncodingException"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, ""
 
@@ -1735,7 +1692,7 @@
     move-result-object v2
 
     .line 41
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -1893,7 +1850,7 @@
 
     .line 110
     .line 111
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -2065,10 +2022,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static encrypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -2108,12 +2061,12 @@
 
     const-string p0, "encrypt 1 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
@@ -2126,7 +2079,7 @@
 
     const-string p0, "GCM encrypt key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2187,16 +2140,16 @@
 
     const-string p0, "encrypt 3 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    invoke-static {p2}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p2}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p2
 
@@ -2209,7 +2162,7 @@
 
     const-string p0, "GCM encrypt 3 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2223,7 +2176,7 @@
 
     const-string p0, "GCM encrypt 3 iv error: iv length less than 12 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2274,7 +2227,7 @@
 
     const-string p0, "GCM encrypt 2 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2288,14 +2241,14 @@
 
     const-string p0, "encrypt 2 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_3
     const/16 v0, 0xc
 
-    invoke-static {v0}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v0}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v0
 
@@ -2312,16 +2265,16 @@
     goto :goto_0
 
     :cond_4
-    invoke-static {v0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
     .line 8
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -2370,7 +2323,7 @@
 
     const-string p0, "GCM encrypt 4 key error: key length less than 16 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2396,7 +2349,7 @@
 
     const-string p0, "GCM encrypt 4 iv error: iv length less than 12 bytes."
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2410,7 +2363,7 @@
 
     const-string p0, "encrypt 4 build version not higher than 19"
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
@@ -2419,7 +2372,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -2468,7 +2421,7 @@
 
     const-string p0, "GCM encrypt 7 key error: key length less than 16 bytes."
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v2, [B
 
@@ -2478,7 +2431,7 @@
     const/16 v0, 0xc
 
     .line 19
-    invoke-static {v0}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v0}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v0
 
@@ -2552,7 +2505,7 @@
 
     const-string p0, "GCM encrypt 6 key error: key length less than 16 bytes."
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v3, [B
 
@@ -2582,7 +2535,7 @@
 
     const-string p0, "GCM encrypt 6 iv error: iv length less than 12 bytes."
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v3, [B
 
@@ -2598,7 +2551,7 @@
 
     const-string p0, "encrypt 6 build version not higher than 19"
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array p0, v3, [B
 
@@ -2661,7 +2614,7 @@
 
     move-result-object p0
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/oz8;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/uz8;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 

@@ -208,7 +208,7 @@
 
     .line 89
     .line 90
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->D(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->D(Landroid/content/Context;)I
 
     .line 91
     .line 92
@@ -220,7 +220,7 @@
 
     .line 95
     .line 96
-    invoke-static {p0}, Lcom/huawei/appmarket/hs2;->D(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ks2;->D(Landroid/content/Context;)I
 
     .line 97
     .line 98
@@ -233,7 +233,7 @@
     .line 101
     .line 102
     :try_start_0
-    invoke-static {v5}, Lcom/huawei/appmarket/l85;->m(Landroid/telephony/TelephonyManager;)Landroid/telephony/ServiceState;
+    invoke-static {v5}, Lcom/huawei/appmarket/o85;->m(Landroid/telephony/TelephonyManager;)Landroid/telephony/ServiceState;
 
     .line 103
     .line 104
@@ -439,23 +439,6 @@
     .end packed-switch
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static getNetworkType(Landroid/content/Context;)Ljava/lang/String;
@@ -509,7 +492,7 @@
 
     if-ne p0, v1, :cond_3
 
-    const-string p0, "wifi"
+    const-string/jumbo p0, "wifi"
 
     return-object p0
 

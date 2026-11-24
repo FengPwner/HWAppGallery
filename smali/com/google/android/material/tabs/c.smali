@@ -81,7 +81,7 @@
 
     .line 32
     .line 33
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     .line 34
     .line 35
@@ -315,7 +315,7 @@
 
     float-to-int v0, v0
 
-    invoke-static {p4, p3, v0}, Lcom/huawei/appmarket/mm;->c(FII)I
+    invoke-static {p4, p3, v0}, Lcom/huawei/appmarket/lm;->c(FII)I
 
     move-result p3
 
@@ -333,7 +333,7 @@
 
     float-to-int p1, p1
 
-    invoke-static {p4, p2, p1}, Lcom/huawei/appmarket/mm;->c(FII)I
+    invoke-static {p4, p2, p1}, Lcom/huawei/appmarket/lm;->c(FII)I
 
     move-result p1
 

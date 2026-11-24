@@ -21,7 +21,7 @@
     return-void
 .end method
 
-.method public static a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)I
+.method public static a(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)I
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -43,9 +43,9 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/vk6;
+    new-instance v0, Lcom/huawei/appmarket/xk6;
 
-    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
     move-object p0, v0
 
@@ -56,7 +56,7 @@
 
     new-instance v0, Lcom/bumptech/glide/load/d;
 
-    invoke-direct {v0, p0, p2}, Lcom/bumptech/glide/load/d;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p0, p2}, Lcom/bumptech/glide/load/d;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
     invoke-static {p1, v0}, Lcom/bumptech/glide/load/b;->d(Ljava/util/List;Lcom/bumptech/glide/load/b$d;)I
 
@@ -65,7 +65,7 @@
     return p0
 .end method
 
-.method public static b(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/hx;)I
+.method public static b(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/ix;)I
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -83,7 +83,7 @@
     :cond_0
     new-instance v0, Lcom/bumptech/glide/load/c;
 
-    invoke-direct {v0, p0, p2}, Lcom/bumptech/glide/load/c;-><init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p0, p2}, Lcom/bumptech/glide/load/c;-><init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/ix;)V
 
     invoke-static {p1, v0}, Lcom/bumptech/glide/load/b;->d(Ljava/util/List;Lcom/bumptech/glide/load/b$d;)I
 
@@ -92,7 +92,7 @@
     return p0
 .end method
 
-.method public static c(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)I
+.method public static c(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)I
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -101,7 +101,7 @@
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
             "Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")I"
         }
     .end annotation
@@ -115,7 +115,7 @@
     .line 1
     new-instance v0, Lcom/bumptech/glide/load/b$c;
 
-    invoke-direct {v0, p1, p2}, Lcom/bumptech/glide/load/b$c;-><init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p1, p2}, Lcom/bumptech/glide/load/b$c;-><init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)V
 
     invoke-static {p0, v0}, Lcom/bumptech/glide/load/b;->d(Ljava/util/List;Lcom/bumptech/glide/load/b$d;)I
 
@@ -178,7 +178,7 @@
     return v2
 .end method
 
-.method public static e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+.method public static e(Ljava/io/InputStream;Ljava/util/List;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -200,9 +200,9 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/vk6;
+    new-instance v0, Lcom/huawei/appmarket/xk6;
 
-    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
     move-object p0, v0
 
@@ -222,7 +222,7 @@
     return-object p0
 .end method
 
-.method public static f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+.method public static f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -231,7 +231,7 @@
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
             "Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")",
             "Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;"
         }
@@ -246,7 +246,7 @@
     .line 1
     new-instance v0, Lcom/bumptech/glide/load/b$b;
 
-    invoke-direct {v0, p1, p2}, Lcom/bumptech/glide/load/b$b;-><init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p1, p2}, Lcom/bumptech/glide/load/b$b;-><init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)V
 
     invoke-static {p0, v0}, Lcom/bumptech/glide/load/b;->h(Ljava/util/List;Lcom/bumptech/glide/load/b$e;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 

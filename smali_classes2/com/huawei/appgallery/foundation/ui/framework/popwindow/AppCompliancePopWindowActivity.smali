@@ -40,7 +40,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->d(Landroid/content/Context;Ljava/util/ArrayList;)Lcom/huawei/appmarket/np;
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->d(Landroid/content/Context;Ljava/util/ArrayList;)Lcom/huawei/appmarket/mp;
 
     .line 6
     .line 7
@@ -48,7 +48,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/np;->p()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mp;->p()Landroid/view/View;
 
     .line 10
     .line 11
@@ -60,7 +60,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/np;->r()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/mp;->r()V
 
     .line 16
     .line 17
@@ -158,7 +158,7 @@
 
     .line 62
     .line 63
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -204,7 +204,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -238,7 +237,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     const p1, 0x1020002
 
@@ -298,7 +297,7 @@
 
     const-string v0, " Exception e"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

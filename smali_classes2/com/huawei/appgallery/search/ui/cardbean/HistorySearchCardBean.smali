@@ -34,7 +34,7 @@
 
     const-string v0, "${keyword}"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
     .registers 9
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -82,7 +82,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -152,7 +152,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/huawei/appmarket/gp7;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/lp7;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -171,11 +171,11 @@
     goto :goto_1
 
     :catch_0
-    sget-object v3, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v3, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v4, "detailId replaceAll error."
 
-    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -184,11 +184,11 @@
 
     :cond_2
     :goto_2
-    sget-object v2, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v2, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v3, "setList, item info error."
 
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -201,11 +201,11 @@
     :goto_3
     iput-object p2, p0, Lcom/huawei/appgallery/search/ui/cardbean/HistorySearchCardBean;->historyList:Ljava/util/List;
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string p2, " originList or detailId is empty."
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

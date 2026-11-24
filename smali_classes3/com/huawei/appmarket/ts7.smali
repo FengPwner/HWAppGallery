@@ -1,185 +1,393 @@
-.class public final synthetic Lcom/huawei/appmarket/ts7;
+.class public final Lcom/huawei/appmarket/ts7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/content/DialogInterface$OnKeyListener;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ts7$b;
+    }
+.end annotation
+
+
+# static fields
+.field private static final b:Ljava/lang/Object;
+
+.field private static volatile c:Lcom/huawei/appmarket/ts7;
 
 
 # instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/us7;
-
-.field public final synthetic c:Lcom/huawei/appmarket/fh3;
+.field private a:Lcom/huawei/appmarket/s87;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/us7;Lcom/huawei/appmarket/fh3;)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ts7;->b:Lcom/huawei/appmarket/us7;
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/fh3;
+    sput-object v0, Lcom/huawei/appmarket/ts7;->b:Ljava/lang/Object;
 
     return-void
 .end method
 
+.method private constructor <init>()V
+    .registers 1
 
-# virtual methods
-.method public final onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
-    .registers 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static declared-synchronized a()Lcom/huawei/appmarket/ts7;
+    .registers 3
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/ts7;->b:Lcom/huawei/appmarket/us7;
+    const-class v0, Lcom/huawei/appmarket/ts7;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/ts7;
+
+    if-nez v1, :cond_1
+
+    sget-object v1, Lcom/huawei/appmarket/ts7;->b:Ljava/lang/Object;
+
+    monitor-enter v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    :try_start_1
+    sget-object v2, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/ts7;
+
+    if-nez v2, :cond_0
+
+    new-instance v2, Lcom/huawei/appmarket/ts7;
+
+    invoke-direct {v2}, Lcom/huawei/appmarket/ts7;-><init>()V
+
+    sput-object v2, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/ts7;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v2
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v1
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :try_start_2
+    throw v2
+
+    :catchall_1
+    move-exception v1
+
+    goto :goto_3
+
+    :cond_1
+    :goto_2
+    sget-object v1, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/ts7;
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_3
+    monitor-exit v0
+
+    throw v1
+.end method
+
+
+# virtual methods
+.method public final b(Z)V
+    .registers 8
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/service/atomicservice/bean/SyncRuleConfigReqBean;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-direct {v0}, Lcom/huawei/appmarket/service/atomicservice/bean/SyncRuleConfigReqBean;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    const/4 p1, 0x4
+    invoke-static {}, Lcom/huawei/appmarket/py1;->c()Lcom/huawei/appmarket/py1;
 
     .line 7
-    const/4 p3, 0x0
-
     .line 8
-    if-ne p2, p1, :cond_0
-
     .line 9
+    move-result-object v1
+
     .line 10
-    invoke-static {p3}, Lcom/huawei/appmarket/bb7;->a(Z)V
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 11
     .line 12
     .line 13
-    const-string p1, "BlockingDialog"
+    invoke-static {}, Lcom/huawei/appmarket/py1;->b()Ljava/lang/String;
 
     .line 14
     .line 15
-    iget-object p2, p0, Lcom/huawei/appmarket/ts7;->c:Lcom/huawei/appmarket/fh3;
-
     .line 16
+    move-result-object v1
+
     .line 17
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 18
     .line 19
     .line 20
-    :cond_0
-    return p3
+    move-result v2
+
     .line 21
+    const-string v3, "SyncRuleConfigController"
+
     .line 22
     .line 23
+    const-string v4, ""
+
     .line 24
     .line 25
+    if-nez v2, :cond_0
+
     .line 26
     .line 27
+    :try_start_0
+    new-instance v2, Lorg/json/JSONObject;
+
     .line 28
     .line 29
+    invoke-direct {v2, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
     .line 30
     .line 31
     .line 32
+    const-string v1, "configVersion"
+
     .line 33
     .line 34
+    invoke-virtual {v2, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
     .line 35
     .line 36
     .line 37
+    move-result-object v1
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
     .line 38
+    :try_start_1
+    const-string v5, "engineVersion"
+
     .line 39
     .line 40
+    invoke-virtual {v2, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
     .line 41
     .line 42
     .line 43
+    move-result-object v2
+    :try_end_1
+    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_1
+
     .line 44
+    goto :goto_0
+
     .line 45
+    :catch_0
+    move-object v1, v4
+
     .line 46
+    :catch_1
+    const-string v2, "syncRuleConfig JSONException"
+
     .line 47
     .line 48
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 49
     .line 50
     .line 51
+    move-object v2, v4
+
     .line 52
+    goto :goto_0
+
     .line 53
+    :cond_0
+    move-object v1, v4
+
     .line 54
+    move-object v2, v1
+
     .line 55
+    :goto_0
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
     .line 56
     .line 57
     .line 58
+    move-result v5
+
     .line 59
+    if-eqz v5, :cond_1
+
     .line 60
     .line 61
+    const-string p1, "engineVersion empty"
+
     .line 62
     .line 63
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 64
     .line 65
     .line 66
+    return-void
+
     .line 67
+    :cond_1
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/service/atomicservice/bean/SyncRuleConfigReqBean;->U(Ljava/lang/String;)V
+
     .line 68
     .line 69
     .line 70
+    if-eqz p1, :cond_2
+
     .line 71
     .line 72
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/service/atomicservice/bean/SyncRuleConfigReqBean;->T(Ljava/lang/String;)V
+
     .line 73
     .line 74
     .line 75
+    goto :goto_1
+
     .line 76
+    :cond_2
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/atomicservice/bean/SyncRuleConfigReqBean;->T(Ljava/lang/String;)V
+
     .line 77
     .line 78
     .line 79
+    move-object v4, v1
+
     .line 80
+    :goto_1
+    new-instance v1, Ljava/lang/StringBuilder;
+
     .line 81
     .line 82
+    const-string v2, "syncRuleConfig sceneExperiencesVersionUpdate:"
+
     .line 83
     .line 84
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 85
     .line 86
     .line 87
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
     .line 88
     .line 89
     .line 90
+    const-string v2, " configVersion:"
+
     .line 91
     .line 92
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 93
     .line 94
     .line 95
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 96
     .line 97
     .line 98
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 99
     .line 100
     .line 101
+    move-result-object v1
+
     .line 102
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 103
     .line 104
     .line 105
+    iget-object v1, p0, Lcom/huawei/appmarket/ts7;->a:Lcom/huawei/appmarket/s87;
+
     .line 106
     .line 107
+    invoke-static {}, Lcom/huawei/appmarket/f87;->c()Lcom/huawei/appmarket/f87;
+
     .line 108
     .line 109
     .line 110
+    move-result-object v2
+
     .line 111
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/f87;->g(Lcom/huawei/appmarket/s87;)Z
+
     .line 112
     .line 113
     .line 114
+    move-result v1
+
     .line 115
+    if-eqz v1, :cond_3
+
     .line 116
     .line 117
+    new-instance v1, Lcom/huawei/appmarket/ts7$b;
+
     .line 118
     .line 119
+    const/4 v2, 0x0
+
     .line 120
+    invoke-direct {v1, v4, p1, v2}, Lcom/huawei/appmarket/ts7$b;-><init>(Ljava/lang/String;ZLcom/huawei/appmarket/ts7$a;)V
+
     .line 121
     .line 122
     .line 123
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
+
     .line 124
     .line 125
     .line 126
+    move-result-object p1
+
     .line 127
+    iput-object p1, p0, Lcom/huawei/appmarket/ts7;->a:Lcom/huawei/appmarket/s87;
+
     .line 128
     .line 129
+    :cond_3
+    return-void
     .line 130
     .line 131
     .line 132
@@ -401,43 +609,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

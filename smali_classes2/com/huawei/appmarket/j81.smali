@@ -143,11 +143,11 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
+    sget-object p1, Lcom/huawei/appmarket/pb3;->a:Lcom/huawei/appmarket/pb3;
 
     const-string p2, "addUniqueId pageUri empty"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -170,7 +170,7 @@
 
     invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object p2, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
+    sget-object p2, Lcom/huawei/appmarket/pb3;->a:Lcom/huawei/appmarket/pb3;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -184,7 +184,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -200,13 +200,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
+    sget-object p1, Lcom/huawei/appmarket/pb3;->a:Lcom/huawei/appmarket/pb3;
 
     const-string p2, "DataFilter"
 
     const-string p3, "isDuplicateUniqueId pageUri empty"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -249,11 +249,11 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
+    sget-object p1, Lcom/huawei/appmarket/pb3;->a:Lcom/huawei/appmarket/pb3;
 
     const-string p2, "remove pageUri empty"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -268,7 +268,7 @@
 
     invoke-interface {p2, p3}, Ljava/util/Set;->removeAll(Ljava/util/Collection;)Z
 
-    sget-object p3, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
+    sget-object p3, Lcom/huawei/appmarket/pb3;->a:Lcom/huawei/appmarket/pb3;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p3, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p2}, Ljava/util/Set;->isEmpty()Z
 
@@ -306,7 +306,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p3, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void

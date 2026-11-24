@@ -41,7 +41,7 @@
 
     const-class v1, Lcom/huawei/appgallery/jsonkit/api/JsonBean;
 
-    invoke-static {v1, v0}, Lcom/huawei/appgallery/datastorage/database/AbsDatabase;->insertExtendTypeProcess(Ljava/lang/Class;Lcom/huawei/appmarket/s44;)V
+    invoke-static {v1, v0}, Lcom/huawei/appgallery/datastorage/database/AbsDatabase;->insertExtendTypeProcess(Ljava/lang/Class;Lcom/huawei/appmarket/v44;)V
 
     const-string v0, "JsonBean"
 
@@ -211,7 +211,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v0, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v1, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -231,7 +231,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -279,13 +279,13 @@
 
     aget-object v3, p0, v2
 
-    instance-of v4, v3, Lcom/huawei/appmarket/dj2;
+    instance-of v4, v3, Lcom/huawei/appmarket/gj2;
 
     if-eqz v4, :cond_3
 
-    check-cast v3, Lcom/huawei/appmarket/dj2;
+    check-cast v3, Lcom/huawei/appmarket/gj2;
 
-    invoke-interface {v3}, Lcom/huawei/appmarket/dj2;->print()Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
+    invoke-interface {v3}, Lcom/huawei/appmarket/gj2;->print()Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
 
     move-result-object v0
 
@@ -375,7 +375,7 @@
 
     if-nez v3, :cond_1
 
-    sget-object v3, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v3, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v4, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -401,7 +401,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v3, v4, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -435,7 +435,7 @@
 
     if-nez p1, :cond_1
 
-    const-class p1, Lcom/huawei/appmarket/sg5;
+    const-class p1, Lcom/huawei/appmarket/vg5;
 
     invoke-virtual {p2, p1}, Ljava/lang/reflect/Field;->isAnnotationPresent(Ljava/lang/Class;)Z
 
@@ -524,13 +524,13 @@
 
     aget-object v4, p0, v3
 
-    instance-of v5, v4, Lcom/huawei/appmarket/gj2;
+    instance-of v5, v4, Lcom/huawei/appmarket/ij2;
 
     if-eqz v5, :cond_2
 
-    check-cast v4, Lcom/huawei/appmarket/gj2;
+    check-cast v4, Lcom/huawei/appmarket/ij2;
 
-    invoke-interface {v4}, Lcom/huawei/appmarket/gj2;->security()Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
+    invoke-interface {v4}, Lcom/huawei/appmarket/ij2;->security()Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
 
     move-result-object v4
 
@@ -572,7 +572,7 @@
 
     if-nez p1, :cond_1
 
-    const-class p1, Lcom/huawei/appmarket/sg5;
+    const-class p1, Lcom/huawei/appmarket/vg5;
 
     invoke-virtual {p2, p1}, Ljava/lang/reflect/Field;->isAnnotationPresent(Ljava/lang/Class;)Z
 
@@ -684,13 +684,13 @@
 
     if-nez v9, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object p1, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object p2, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
     const-string v0, "listFromJsonV2 jsonArray is empty"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v7
 
@@ -742,13 +742,13 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/huawei/appgallery/jsonkit/api/JsonBean$a;-><init>(Lcom/huawei/appgallery/jsonkit/api/JsonBean;Ljava/util/List;Ljava/lang/Class;Ljava/lang/Object;ILjava/util/concurrent/CountDownLatch;)V
 
-    invoke-static {v12}, Lcom/huawei/appmarket/lp4;->a(Ljava/lang/Runnable;)Z
+    invoke-static {v12}, Lcom/huawei/appmarket/op4;->a(Ljava/lang/Runnable;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v0, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v1, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -762,7 +762,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -786,7 +786,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -808,15 +808,15 @@
 
     if-nez v0, :cond_4
 
-    sget-object v0, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v0, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v1, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
     const-string v2, "listFromJsonV2 timeout,switch to listFromJson"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/lp4;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/op4;->b()V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->getListFromJson(Ljava/lang/Class;Ljava/lang/Object;)Ljava/util/List;
 
@@ -861,15 +861,15 @@
     return-object v7
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v0, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v1, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
     const-string v2, "listFromJsonV2 InterruptedException,switch to listFromJson"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/lp4;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/op4;->b()V
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->getListFromJson(Ljava/lang/Class;Ljava/lang/Object;)Ljava/util/List;
 
@@ -887,7 +887,7 @@
         }
     .end annotation
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1067,7 +1067,7 @@
 
     .line 55
     :cond_1
-    sget-object v2, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v2, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     .line 56
     .line 57
@@ -1123,7 +1123,7 @@
     move-result-object v3
 
     .line 85
-    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -1144,7 +1144,7 @@
 
     .line 93
     .line 94
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 95
     .line 96
@@ -1229,7 +1229,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private mapToJson(Ljava/lang/StringBuilder;Ljava/util/Map;Z)V
@@ -1349,7 +1348,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1, v2, v1, v3}, Lcom/huawei/appmarket/bq6;->D(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v2, v1, v3}, Lcom/huawei/appmarket/eq6;->C(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -1979,7 +1978,7 @@
     goto/16 :goto_0
 
     :goto_1
-    sget-object p2, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object p2, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v0, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -2000,12 +1999,12 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
     :goto_3
-    sget-object p2, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object p2, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v0, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -2179,7 +2178,7 @@
 
     .line 64
     .line 65
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 66
     .line 67
@@ -2232,7 +2231,7 @@
 
     .line 89
     .line 90
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     .line 91
     .line 92
@@ -2609,7 +2608,7 @@
     goto :goto_0
 
     :catch_0
-    sget-object p2, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object p2, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object p3, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
@@ -2629,7 +2628,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_7
     :goto_2
@@ -2663,7 +2662,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v1}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 8
     .line 9
@@ -2773,7 +2772,7 @@
 
     .line 57
     .line 58
-    check-cast v8, Lcom/huawei/appmarket/hm5;
+    check-cast v8, Lcom/huawei/appmarket/jm5;
 
     .line 59
     .line 60
@@ -2782,11 +2781,11 @@
     .line 61
     .line 62
     .line 63
-    sget v9, Lcom/huawei/appmarket/n87;->z:I
+    sget v9, Lcom/huawei/appmarket/s87;->z:I
 
     .line 64
     .line 65
-    iget-object v8, v8, Lcom/huawei/appmarket/hm5;->b:Ljava/util/List;
+    iget-object v8, v8, Lcom/huawei/appmarket/jm5;->b:Ljava/util/List;
 
     .line 66
     .line 67
@@ -2802,7 +2801,7 @@
 
     .line 72
     .line 73
-    sget-object v6, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v6, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     .line 74
     .line 75
@@ -2836,7 +2835,7 @@
     move-result-object v7
 
     .line 91
-    invoke-virtual {v6, v8, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v8, v7}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -2901,7 +2900,7 @@
     move-result-object v9
 
     .line 122
-    invoke-static {v6}, Lcom/huawei/appmarket/wl6;->b(Ljava/lang/reflect/Field;)Ljava/lang/Class;
+    invoke-static {v6}, Lcom/huawei/appmarket/zl6;->b(Ljava/lang/reflect/Field;)Ljava/lang/Class;
 
     .line 123
     .line 124
@@ -2960,7 +2959,7 @@
 
     .line 142
     :catch_4
-    sget-object v8, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v8, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     .line 143
     .line 144
@@ -3025,7 +3024,7 @@
     move-result-object v7
 
     .line 177
-    invoke-virtual {v8, v9, v7}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v8, v9, v7}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 178
     .line 179
@@ -3040,7 +3039,7 @@
 
     .line 184
     :goto_2
-    sget-object v9, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v9, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     .line 185
     .line 186
@@ -3118,7 +3117,7 @@
     move-result-object v7
 
     .line 226
-    invoke-virtual {v9, v10, v7}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v9, v10, v7}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 227
     .line 228
@@ -3189,11 +3188,11 @@
     return-object v0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v1, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     sget-object v2, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->TAG:Ljava/lang/String;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -3225,7 +3224,7 @@
 
     .line 6
     .line 7
-    const-class v0, Lcom/huawei/appmarket/ap4;
+    const-class v0, Lcom/huawei/appmarket/dp4;
 
     .line 8
     .line 9
@@ -3241,7 +3240,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/ho4;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/ko4;->a()Z
 
     .line 16
     .line 17
@@ -3285,7 +3284,7 @@
 
     .line 34
     .line 35
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -3429,7 +3428,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public setIgnore(Lcom/huawei/appgallery/jsonkit/api/JsonBean$b;)V
@@ -3458,7 +3456,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v0}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 6
     .line 7
@@ -3629,7 +3627,7 @@
     .line 84
     .line 85
     :goto_1
-    invoke-static {p1, v11, v6, v9, v4}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v11, v6, v9, v4}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -3657,7 +3655,7 @@
 
     .line 98
     .line 99
-    invoke-static {p1, v11, v6, v4}, Lcom/huawei/appmarket/bq6;->D(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v11, v6, v4}, Lcom/huawei/appmarket/eq6;->C(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -3883,7 +3881,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v0}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     move-result-object v0
 
@@ -3958,7 +3956,7 @@
     const-string v7, "\":"
 
     .line 2
-    invoke-static {p1, v6, v5, v7}, Lcom/huawei/appmarket/bq6;->D(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v6, v5, v7}, Lcom/huawei/appmarket/eq6;->C(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, v4, v2}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->valueToJson(Ljava/lang/StringBuilder;Ljava/lang/Object;Z)V

@@ -75,7 +75,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -259,7 +259,7 @@
 
     .line 12
     .line 13
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -269,7 +269,7 @@
     .line 17
     .line 18
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/lg4;->d()Lcom/huawei/appmarket/lg4;
+    invoke-static {}, Lcom/huawei/appmarket/ng4;->d()Lcom/huawei/appmarket/ng4;
 
     .line 19
     .line 20
@@ -277,7 +277,7 @@
     move-result-object v1
 
     .line 22
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lg4;->c()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ng4;->c()Ljava/util/ArrayList;
 
     .line 23
     .line 24
@@ -331,7 +331,7 @@
     move-result-object v4
 
     .line 50
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -484,7 +484,7 @@
     move-result-object v10
 
     .line 126
-    invoke-static {v2, v10}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v10}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -955,7 +955,7 @@
     .line 377
     .line 378
     .line 379
-    invoke-static {v8, v9}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v8, v9}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 380
     .line 381
@@ -984,7 +984,7 @@
 
     .line 393
     .line 394
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 395
     .line 396

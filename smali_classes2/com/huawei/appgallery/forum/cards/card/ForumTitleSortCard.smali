@@ -11,9 +11,9 @@
 
 .field private B:Lcom/huawei/appgallery/forum/cards/widget/SortSpinner;
 
-.field protected C:Lcom/huawei/appmarket/t24;
+.field protected C:Lcom/huawei/appmarket/v24;
 
-.field private D:Lcom/huawei/appmarket/u24;
+.field private D:Lcom/huawei/appmarket/w24;
 
 .field private E:Z
 
@@ -44,9 +44,9 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/u24;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/w24;
 
     const/4 v0, -0x1
 
@@ -54,24 +54,24 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->w:Landroid/content/Context;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/t24;
+    instance-of v0, p1, Lcom/huawei/appmarket/v24;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lcom/huawei/appmarket/t24;
+    check-cast v0, Lcom/huawei/appmarket/v24;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
     :cond_0
-    instance-of v0, p1, Lcom/huawei/appmarket/u24;
+    instance-of v0, p1, Lcom/huawei/appmarket/w24;
 
     if-eqz v0, :cond_1
 
-    check-cast p1, Lcom/huawei/appmarket/u24;
+    check-cast p1, Lcom/huawei/appmarket/w24;
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/u24;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/w24;
 
     :cond_1
     return-void
@@ -103,7 +103,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 14
     .line 15
@@ -111,7 +111,7 @@
     move-result-object p0
 
     .line 17
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 18
     .line 19
@@ -203,7 +203,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic p1(Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;)Z
@@ -259,7 +258,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 19
     .line 20
@@ -267,7 +266,7 @@
     move-result-object p0
 
     .line 22
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 23
     .line 24
@@ -411,7 +410,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -448,7 +446,7 @@
 
     .line 13
     .line 14
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/u24;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->D:Lcom/huawei/appmarket/w24;
 
     .line 15
     .line 16
@@ -462,7 +460,7 @@
 
     .line 19
     .line 20
-    invoke-interface {v2}, Lcom/huawei/appmarket/u24;->getSourceType()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/w24;->getSourceType()I
 
     .line 21
     .line 22
@@ -474,7 +472,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v2}, Lcom/huawei/appmarket/u24;->X()I
+    invoke-interface {v2}, Lcom/huawei/appmarket/w24;->X()I
 
     .line 27
     .line 28
@@ -593,7 +591,7 @@
     move-result-object v0
 
     .line 86
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 87
     .line 88
@@ -804,7 +802,7 @@
     .line 188
     .line 189
     .line 190
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
     .line 191
     .line 192
@@ -812,7 +810,7 @@
 
     .line 193
     .line 194
-    invoke-interface {v0}, Lcom/huawei/appmarket/t24;->y()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/v24;->y()I
 
     .line 195
     .line 196
@@ -1416,11 +1414,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -1453,7 +1446,7 @@
 
     const v0, 0x7f0a14c3
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     :cond_0
     const v0, 0x7f0a12e6

@@ -167,7 +167,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final T()Lcom/huawei/appgallery/detail/detailbase/card/appdetailopawardcard/AppDetailOpawardCard;

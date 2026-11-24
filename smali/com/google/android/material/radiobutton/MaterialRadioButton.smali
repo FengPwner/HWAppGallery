@@ -94,7 +94,7 @@
     .line 3
     const v0, 0x7f130624
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -104,7 +104,7 @@
 
     move-result-object p1
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->G:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->G:[I
 
     const v4, 0x7f130624
 
@@ -118,7 +118,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -128,7 +128,7 @@
 
     if-eqz p3, :cond_0
 
-    invoke-static {p1, p2, v6}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v6}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -157,41 +157,41 @@
 
     const v0, 0x7f0400f8
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v0
 
     const v1, 0x7f040106
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v1
 
     const v2, 0x7f040116
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v2
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    invoke-static {v3, v2, v0}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v3, v2, v0}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v0
 
     const v3, 0x3f0a3d71    # 0.54f
 
-    invoke-static {v3, v2, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v3, v2, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v3
 
     const v4, 0x3ec28f5c    # 0.38f
 
-    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v5
 
-    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result v1
 

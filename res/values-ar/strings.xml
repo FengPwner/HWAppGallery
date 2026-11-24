@@ -276,7 +276,7 @@
     <string name="agguard_top3_result_tab_full_marks">لا توجد مشكلة</string>
     <string name="agguard_under_security_control">معزول</string>
     <string name="agguard_uninstall">إزالة التثبيت الآن</string>
-    <string name="agguard_uninstall_app">هل تريد إزالة تثبيت %s؟</string>
+    <string name="agguard_uninstall_app">هل تريد إزالة تثبيت تطبيق %s؟</string>
     <string name="agguard_uninstall_apps_batch">هل تريد إزالة تثبيت التطبيقات المحددة، بما فيها تطبيق %s؟</string>
     <string name="agguard_uninstall_btn">إزالة التثبيت</string>
     <string name="agguard_uninstall_fail">تعذرت إزالة التثبيت</string>

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gt6;
+.implements Lcom/huawei/appmarket/kt6;
 
 
 # annotations
@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method private d(Lcom/huawei/appmarket/wz6;)Z
+.method private d(Lcom/huawei/appmarket/a07;)Z
     .registers 5
 
     .line 1
@@ -39,7 +39,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->g(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->g(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 4
     .line 5
@@ -59,7 +59,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wz6;->g(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/a07;->g(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 14
     .line 15
@@ -82,7 +82,7 @@
     const/4 v1, 0x0
 
     .line 24
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/wz6;->e(Ljava/lang/String;I)I
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/a07;->e(Ljava/lang/String;I)I
 
     .line 25
     .line 26
@@ -111,7 +111,7 @@
     .line 37
     .line 38
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -120,7 +120,7 @@
 
     .line 42
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/mt6;->a()Lcom/huawei/appmarket/mt6;
+    invoke-static {}, Lcom/huawei/appmarket/qt6;->a()Lcom/huawei/appmarket/qt6;
 
     .line 43
     .line 44
@@ -140,7 +140,7 @@
     move-result v2
 
     .line 52
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/mt6;->b(I)Lcom/huawei/appmarket/c04;
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/qt6;->b(I)Lcom/huawei/appmarket/e04;
 
     .line 53
     .line 54
@@ -164,7 +164,7 @@
 
     .line 62
     .line 63
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/c04;->c(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Z
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/e04;->c(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Z
 
     .line 64
     .line 65
@@ -220,7 +220,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -241,7 +240,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/mt6;->a()Lcom/huawei/appmarket/mt6;
+    invoke-static {}, Lcom/huawei/appmarket/qt6;->a()Lcom/huawei/appmarket/qt6;
 
     .line 8
     .line 9
@@ -261,7 +260,7 @@
     move-result v1
 
     .line 17
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mt6;->b(I)Lcom/huawei/appmarket/c04;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qt6;->b(I)Lcom/huawei/appmarket/e04;
 
     .line 18
     .line 19
@@ -281,7 +280,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -294,7 +293,7 @@
 
     .line 32
     .line 33
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c04;->b(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/e04;->b(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
 
     .line 34
     .line 35
@@ -442,12 +441,12 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/ot6;->h(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/st6;->h(I)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/mt6;->a()Lcom/huawei/appmarket/mt6;
+    invoke-static {}, Lcom/huawei/appmarket/qt6;->a()Lcom/huawei/appmarket/qt6;
 
     .line 7
     .line 8
@@ -467,7 +466,7 @@
     move-result v1
 
     .line 16
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mt6;->b(I)Lcom/huawei/appmarket/c04;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qt6;->b(I)Lcom/huawei/appmarket/e04;
 
     .line 17
     .line 18
@@ -487,7 +486,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -500,7 +499,7 @@
 
     .line 31
     .line 32
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c04;->b(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/e04;->b(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
 
     .line 33
     .line 34
@@ -646,7 +645,7 @@
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->d:I
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ot6;->b(I)Lcom/huawei/appmarket/yq3;
+    invoke-static {v0}, Lcom/huawei/appmarket/st6;->b(I)Lcom/huawei/appmarket/ar3;
 
     move-result-object v0
 
@@ -654,21 +653,21 @@
 
     const/16 v1, 0x2712
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/yq3;->onResult(I)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ar3;->onResult(I)V
 
     iget v0, p0, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->d:I
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ot6;->h(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/st6;->h(I)V
 
     :cond_0
     return-void
 .end method
 
-.method protected final handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+.method protected final handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/qi0;->SUCCESS:Lcom/huawei/appmarket/qi0;
+    sget-object v0, Lcom/huawei/appmarket/ri0;->SUCCESS:Lcom/huawei/appmarket/ri0;
 
     const-string v1, "GeeTestReserveTransferActivity"
 
@@ -686,7 +685,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->e()V
 
@@ -701,14 +700,14 @@
 
     const-string p1, "validate is null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->e()V
 
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/mt6;->a()Lcom/huawei/appmarket/mt6;
+    invoke-static {}, Lcom/huawei/appmarket/qt6;->a()Lcom/huawei/appmarket/qt6;
 
     move-result-object p1
 
@@ -718,7 +717,7 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/mt6;->b(I)Lcom/huawei/appmarket/c04;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qt6;->b(I)Lcom/huawei/appmarket/e04;
 
     move-result-object p1
 
@@ -726,7 +725,7 @@
 
     const-string p1, "not found reserveProcessor"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->e()V
 
@@ -735,7 +734,7 @@
     :cond_2
     iget-object v0, p0, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->c:Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/c04;->a(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/e04;->a(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;
 
     move-result-object v0
 
@@ -764,7 +763,7 @@
     invoke-virtual {v0, v2}, Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;->X(I)V
 
     :cond_3
-    invoke-static {p0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v2
 
@@ -849,13 +848,13 @@
 
     iget p2, p0, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->d:I
 
-    invoke-static {p2}, Lcom/huawei/appmarket/ot6;->b(I)Lcom/huawei/appmarket/yq3;
+    invoke-static {p2}, Lcom/huawei/appmarket/st6;->b(I)Lcom/huawei/appmarket/ar3;
 
     move-result-object p2
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->c:Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;
 
-    invoke-interface {p1, p0, v1, p2}, Lcom/huawei/appmarket/c04;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+    invoke-interface {p1, p0, v1, p2}, Lcom/huawei/appmarket/e04;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
 
     move-result-object p1
 
@@ -863,14 +862,14 @@
 
     invoke-direct {p2, p0, p1}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity$a;-><init>(Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 
     :catch_0
     const-string p1, "NumberFormatException:CaptchaType is not int"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -891,7 +890,7 @@
 
     const-string p1, "getIntent() == null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
@@ -908,16 +907,16 @@
 
     const-string v1, "extras == null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :cond_1
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
-    invoke-direct {p0, v1}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->d(Lcom/huawei/appmarket/wz6;)Z
+    invoke-direct {p0, v1}, Lcom/huawei/appmarket/service/reserve/activity/CaptchaReserveTransferActivity;->d(Lcom/huawei/appmarket/a07;)Z
 
     move-result p1
 
@@ -932,7 +931,7 @@
     :catch_0
     const-string p1, "getExtras error"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 

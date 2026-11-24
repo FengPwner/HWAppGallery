@@ -4,23 +4,20 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/n87;)Z
+.method public abstract A0()Ljava/lang/String;
 .end method
 
-.method public abstract b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+.method public abstract K()Ljava/lang/String;
 .end method
 
-.method public abstract c()V
+.method public abstract P0()Z
 .end method
 
-.method public abstract clearCache()V
+.method public abstract Q()V
 .end method
 
-.method public abstract d(I)Z
+.method public abstract p1()Z
 .end method
 
-.method public abstract e(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
-.end method
-
-.method public abstract f(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/q87;
+.method public abstract t0()V
 .end method

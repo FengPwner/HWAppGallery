@@ -35,12 +35,12 @@
 
 
 # virtual methods
-.method protected a(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
+.method protected a(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/hms/iap/entity/ScanRedeemCodeResult;",
             ">;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
@@ -78,7 +78,7 @@
 
     invoke-direct {p3, p2}, Lcom/huawei/hms/iap/entity/ScanRedeemCodeResult;-><init>(Landroid/content/Intent;)V
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -99,7 +99,7 @@
 
     invoke-direct {p2, p3}, Lcom/huawei/hms/iap/IapApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-void

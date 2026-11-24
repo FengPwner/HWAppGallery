@@ -1452,7 +1452,7 @@
 
     invoke-direct {v1, v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;-><init>(Landroid/os/StrictMode$ThreadPolicy;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/jz;->m(Landroid/os/StrictMode$ThreadPolicy$Builder;)Landroid/os/StrictMode$ThreadPolicy$Builder;
+    invoke-static {v1}, Lcom/huawei/appmarket/kz;->m(Landroid/os/StrictMode$ThreadPolicy$Builder;)Landroid/os/StrictMode$ThreadPolicy$Builder;
 
     move-result-object v1
 
@@ -1542,7 +1542,7 @@
 
     invoke-direct {v1, v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;-><init>(Landroid/os/StrictMode$ThreadPolicy;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/jz;->m(Landroid/os/StrictMode$ThreadPolicy$Builder;)Landroid/os/StrictMode$ThreadPolicy$Builder;
+    invoke-static {v1}, Lcom/huawei/appmarket/kz;->m(Landroid/os/StrictMode$ThreadPolicy$Builder;)Landroid/os/StrictMode$ThreadPolicy$Builder;
 
     move-result-object v1
 

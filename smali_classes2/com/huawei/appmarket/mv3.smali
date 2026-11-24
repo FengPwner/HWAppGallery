@@ -2,5 +2,7 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/cp3;
+
+# virtual methods
+.method public abstract n1()V
+.end method

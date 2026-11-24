@@ -2,22 +2,30 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/m14;
-
 
 # virtual methods
-.method public abstract c(Landroid/os/Bundle;)V
-.end method
-
-.method public abstract onDestroy()V
-.end method
-
-.method public abstract onRequestPermissionsResult(I[Ljava/lang/String;[I)V
-    .annotation build Landroid/annotation/TargetApi;
-        value = 0x17
+.method public abstract a(Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareConfirmRequest;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareConfirmRequest;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
     .end annotation
 .end method
 
-.method public abstract onSaveInstanceState(Landroid/os/Bundle;)V
+.method public abstract b(Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareRequest;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareRequest;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;",
+            ">;"
+        }
+    .end annotation
 .end method

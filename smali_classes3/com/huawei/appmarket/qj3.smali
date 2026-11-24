@@ -2,48 +2,46 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
-
 
 # virtual methods
-.method public abstract G0(Landroid/content/Context;Ljava/lang/Class;Lcom/huawei/hmf/services/ui/e;)V
+.method public abstract A(Landroid/content/Context;)V
 .end method
 
-.method public abstract H0(Landroid/content/Context;Ljava/lang/Class;Landroid/content/Intent;Z)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ljava/lang/Class<",
-            "*>;",
-            "Landroid/content/Intent;",
-            "Z)V"
-        }
-    .end annotation
+.method public abstract isEmpty()Z
 .end method
 
-.method public abstract X0()Lcom/huawei/appmarket/cd0;
+.method public abstract m(Landroid/content/Context;Lcom/huawei/appmarket/ze0;Landroid/os/Bundle;)I
 .end method
 
-.method public abstract Z1(Landroid/content/Context;Ljava/lang/Class;Lcom/huawei/appmarket/cn5;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ljava/lang/Class<",
-            "*>;",
-            "Lcom/huawei/appmarket/cn5;",
-            ")V"
-        }
-    .end annotation
+.method public abstract p(Landroid/content/Context;Lcom/huawei/appmarket/ie0;)V
 .end method
 
-.method public abstract m(Landroid/content/Context;Lcom/huawei/appmarket/ye0;Landroid/os/Bundle;)V
+.method public abstract q(Lcom/huawei/appmarket/mj3;)V
 .end method
 
-.method public abstract p(Landroid/content/Context;Lcom/huawei/appmarket/he0;)V
+.method public abstract r(Z)V
 .end method
 
-.method public abstract u1(Landroid/content/Context;Landroid/content/Intent;)V
+.method public abstract s(Landroid/content/Context;Lcom/huawei/appmarket/ie0;)V
+.end method
+
+.method public abstract t(Landroid/content/Context;)V
+.end method
+
+.method public abstract u(Lcom/huawei/appmarket/ie0$a;)Z
+.end method
+
+.method public abstract v(Landroid/content/Context;)V
+.end method
+
+.method public abstract w(Landroid/content/Context;)V
+.end method
+
+.method public abstract x(Landroid/content/Context;)V
+.end method
+
+.method public abstract y(Z)V
+.end method
+
+.method public abstract z(Landroid/content/Context;Lcom/huawei/appmarket/ie0;)V
 .end method

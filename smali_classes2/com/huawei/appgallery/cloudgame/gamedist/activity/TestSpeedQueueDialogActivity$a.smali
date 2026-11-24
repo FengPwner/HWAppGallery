@@ -38,11 +38,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ag0;->j(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bg0;->j(Z)V
 
     return-void
 .end method

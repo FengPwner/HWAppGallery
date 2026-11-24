@@ -38,7 +38,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v0
 
@@ -199,7 +199,7 @@
 
     .line 66
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 67
     .line 68
@@ -475,11 +475,11 @@
 
     .line 204
     :cond_3
-    iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 205
     .line 206
-    invoke-virtual {p0, p1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignColumnNode;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignColumnNode;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 207
     .line 208
@@ -642,40 +642,17 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method protected final K(Z)Lcom/huawei/gamebox/service/welfare/campaign/card/BaseCampaignCard;
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ci0;
+    new-instance v0, Lcom/huawei/appmarket/di0;
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/ci0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/di0;-><init>(Landroid/content/Context;Z)V
 
     return-object v0
 .end method
@@ -745,7 +722,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_1
     return-object v0
@@ -763,7 +740,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 6
     .line 7
@@ -783,7 +760,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1, p3, p2}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, p3, p2}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 16
     .line 17
@@ -1154,36 +1131,13 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 12
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -1238,7 +1192,7 @@
     move-result-object v4
 
     .line 26
-    invoke-virtual {v4, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v4, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 27
     .line 28
@@ -1388,5 +1342,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

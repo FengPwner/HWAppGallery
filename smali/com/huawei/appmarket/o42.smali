@@ -3,21 +3,21 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aw4$a;
+.implements Lcom/huawei/appmarket/dw4$a;
 
 
 # instance fields
-.field public final synthetic b:F
+.field public final synthetic b:I
 
 
 # direct methods
-.method public synthetic constructor <init>(F)V
+.method public synthetic constructor <init>(I)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lcom/huawei/appmarket/o42;->b:F
+    iput p1, p0, Lcom/huawei/appmarket/o42;->b:I
 
     return-void
 .end method
@@ -28,15 +28,15 @@
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/s16$d;
+    check-cast p1, Lcom/huawei/appmarket/u16$d;
 
     .line 2
     .line 3
-    iget v0, p0, Lcom/huawei/appmarket/o42;->b:F
+    iget v0, p0, Lcom/huawei/appmarket/o42;->b:I
 
     .line 4
     .line 5
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/s16$d;->onVolumeChanged(F)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/u16$d;->onRepeatModeChanged(I)V
 
     .line 6
     .line 7

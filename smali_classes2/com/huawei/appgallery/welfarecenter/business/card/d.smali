@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/welfarecenter/business/card/d;
-.super Lcom/huawei/appmarket/ep0;
+.super Lcom/huawei/appmarket/fp0;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     iput-object p2, p0, Lcom/huawei/appgallery/welfarecenter/business/card/d;->b:Lcom/huawei/appgallery/welfarecenter/business/cardbean/PointsReDeemItemBean;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ep0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fp0;-><init>()V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 29
     .line 30
@@ -164,5 +164,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

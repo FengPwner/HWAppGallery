@@ -44,12 +44,12 @@
     return-void
 .end method
 
-.method public getTokens()Lcom/huawei/appmarket/hv7;
+.method public getTokens()Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }
@@ -60,19 +60,19 @@
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/huawei/agconnect/CustomAuthProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/agconnect/CustomAuthProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getTokens(Z)Lcom/huawei/appmarket/hv7;
+.method public getTokens(Z)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }
@@ -81,7 +81,7 @@
     .line 2
     iget-object v0, p0, Lcom/huawei/agconnect/core/impl/AGConnectInstanceImpl$4;->a:Lcom/huawei/agconnect/CustomAuthProvider;
 
-    invoke-interface {v0, p1}, Lcom/huawei/agconnect/CustomAuthProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, p1}, Lcom/huawei/agconnect/CustomAuthProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

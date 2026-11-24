@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/l34;
+.implements Lcom/huawei/appmarket/n34;
 
 
 # annotations
@@ -18,7 +18,7 @@
         "Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment<",
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/l34;"
+        "Lcom/huawei/appmarket/n34;"
     }
 .end annotation
 

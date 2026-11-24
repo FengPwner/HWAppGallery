@@ -1,8 +1,54 @@
-.class public interface abstract Lcom/huawei/appmarket/j96;
+.class public abstract Lcom/huawei/appmarket/j96;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/j96$a;
+    }
+.end annotation
+
+
+# instance fields
+.field protected a:Lcom/huawei/appmarket/cy3;
+
+.field protected b:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/huawei/appmarket/cy3;Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/j96;->a:Lcom/huawei/appmarket/cy3;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/j96;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+
 # virtual methods
-.method public abstract a(Z)V
+.method public abstract a(Landroid/app/Activity;)V
+.end method
+
+.method protected final b(Z)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/j96;->a:Lcom/huawei/appmarket/cy3;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/cy3;->N2(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public abstract c(Landroid/app/Activity;)V
 .end method

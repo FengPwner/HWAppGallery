@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/hj4;
+.implements Lcom/huawei/appmarket/jj4;
 
 
 # instance fields
@@ -29,13 +29,13 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/b;->a:Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/kt3;
+    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/mt3;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/kt3;
+    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/mt3;
 
     move-result-object v1
 
@@ -43,7 +43,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/kt3;->X1(ILcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/mt3;->X1(ILcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
 
     :cond_0
     return-void
@@ -55,7 +55,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/b;->a:Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/kt3;
+    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/mt3;
 
     move-result-object v1
 
@@ -71,7 +71,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/kt3;
+    invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->y6(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Lcom/huawei/appmarket/mt3;
 
     move-result-object p2
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    invoke-interface {p2, v1, v0, p1}, Lcom/huawei/appmarket/kt3;->q1(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/service/interactive/bean/InteractiveRequest;)V
+    invoke-interface {p2, v1, v0, p1}, Lcom/huawei/appmarket/mt3;->q1(Ljava/lang/String;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appmarket/service/interactive/bean/InteractiveRequest;)V
 
     :cond_0
     return-void

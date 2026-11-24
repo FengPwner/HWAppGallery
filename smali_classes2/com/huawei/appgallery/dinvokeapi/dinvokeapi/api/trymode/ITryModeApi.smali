@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract isShowCrossLinePrice(Lcom/huawei/appmarket/ib2;)Z
+.method public abstract isShowCrossLinePrice(Lcom/huawei/appmarket/lb2;)Z
 .end method

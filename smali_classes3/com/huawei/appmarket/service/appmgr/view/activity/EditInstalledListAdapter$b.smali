@@ -17,7 +17,7 @@
 # instance fields
 .field private a:Landroid/view/View;
 
-.field private b:Lcom/huawei/appmarket/v26;
+.field private b:Lcom/huawei/appmarket/x26;
 
 .field private c:Landroid/widget/CheckBox;
 
@@ -29,11 +29,11 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/v26;
+    new-instance v0, Lcom/huawei/appmarket/x26;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/v26;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/x26;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/EditInstalledListAdapter$b;->b:Lcom/huawei/appmarket/v26;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/EditInstalledListAdapter$b;->b:Lcom/huawei/appmarket/x26;
 
     return-void
 .end method
@@ -67,11 +67,11 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/v26;
+.method public final c()Lcom/huawei/appmarket/x26;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/EditInstalledListAdapter$b;->b:Lcom/huawei/appmarket/v26;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/EditInstalledListAdapter$b;->b:Lcom/huawei/appmarket/x26;
 
     return-object v0
 .end method

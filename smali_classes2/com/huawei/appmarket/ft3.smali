@@ -4,8 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/c71;)V
+.method public abstract notifyObserver(ILcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 .end method
 
-.method public abstract b(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/MatrixCursor;
+.method public abstract registerObserver(Ljava/lang/String;Lcom/huawei/appmarket/et3;)V
+.end method
+
+.method public abstract unRegisterObserver(Ljava/lang/String;)V
 .end method

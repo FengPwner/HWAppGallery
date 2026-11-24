@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # annotations
@@ -44,7 +44,7 @@
 
     const-string v1, "InitFinishCallback onFinished "
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardActivity$a;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardActivity;
 

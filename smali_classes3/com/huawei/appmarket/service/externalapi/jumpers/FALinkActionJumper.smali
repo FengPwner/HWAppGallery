@@ -1,14 +1,14 @@
 .class public abstract Lcom/huawei/appmarket/service/externalapi/jumpers/FALinkActionJumper;
-.super Lcom/huawei/appmarket/x54;
+.super Lcom/huawei/appmarket/a64;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+.method public constructor <init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/x54;-><init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/a64;-><init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
 
     return-void
 .end method
@@ -17,11 +17,11 @@
     .registers 2
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/x54;->c:Lcom/huawei/appmarket/np3;
+    iget-object p0, p0, Lcom/huawei/appmarket/a64;->c:Lcom/huawei/appmarket/pp3;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/np3;->dailyReport(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/pp3;->dailyReport(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -195,7 +195,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -206,19 +205,19 @@
     .line 1
     const-string v0, "DeviceKit"
 
-    const-class v1, Lcom/huawei/appmarket/cs3;
+    const-class v1, Lcom/huawei/appmarket/es3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/cs3;
+    check-cast v0, Lcom/huawei/appmarket/es3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/cs3;->f()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/es3;->f()Z
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/x54;->a:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/a64;->a:Lcom/huawei/appmarket/g72$b;
 
     if-nez v0, :cond_0
 
@@ -226,16 +225,16 @@
 
     const-string v2, "not harmony device, return"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/x54;->b:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/huawei/appmarket/a64;->b:Landroid/net/Uri;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/x54;->a(Landroid/net/Uri;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/a64;->a(Landroid/net/Uri;)Z
 
     move-result v2
 
@@ -246,17 +245,17 @@
     :cond_1
     const-string v2, "Distribution"
 
-    const-class v3, Lcom/huawei/appmarket/jm3;
+    const-class v3, Lcom/huawei/appmarket/lm3;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/jm3;
+    check-cast v2, Lcom/huawei/appmarket/lm3;
 
     new-instance v3, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v4
 
@@ -268,29 +267,29 @@
 
     move-result-object v4
 
-    new-instance v5, Lcom/huawei/appmarket/jm3$a;
+    new-instance v5, Lcom/huawei/appmarket/lm3$a;
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/externalapi/jumpers/FALinkActionJumper;->l()I
 
     move-result v6
 
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/jm3$a;-><init>(I)V
+    invoke-direct {v5, v6}, Lcom/huawei/appmarket/lm3$a;-><init>(I)V
 
-    iput-object v0, v5, Lcom/huawei/appmarket/jm3$a;->b:Landroid/net/Uri;
+    iput-object v0, v5, Lcom/huawei/appmarket/lm3$a;->b:Landroid/net/Uri;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getCallerPkg()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getCallerPkg()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, v5, Lcom/huawei/appmarket/jm3$a;->c:Ljava/lang/String;
+    iput-object v0, v5, Lcom/huawei/appmarket/lm3$a;->c:Ljava/lang/String;
 
-    new-instance v0, Lcom/huawei/appmarket/wz5;
+    new-instance v0, Lcom/huawei/appmarket/yz5;
 
     const/16 v6, 0x10
 
-    invoke-direct {v0, p0, v6}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v6}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
-    iput-object v0, v5, Lcom/huawei/appmarket/jm3$a;->f:Lcom/huawei/appmarket/wz5;
+    iput-object v0, v5, Lcom/huawei/appmarket/lm3$a;->f:Lcom/huawei/appmarket/yz5;
 
     if-eqz v4, :cond_2
 
@@ -300,7 +299,7 @@
 
     check-cast v4, Ljava/util/HashMap;
 
-    iput-object v4, v5, Lcom/huawei/appmarket/jm3$a;->h:Ljava/util/HashMap;
+    iput-object v4, v5, Lcom/huawei/appmarket/lm3$a;->h:Ljava/util/HashMap;
 
     :cond_2
     const-string v0, "background_to_finish"
@@ -311,18 +310,18 @@
 
     move-result v0
 
-    iput v0, v5, Lcom/huawei/appmarket/jm3$a;->i:I
+    iput v0, v5, Lcom/huawei/appmarket/lm3$a;->i:I
 
-    invoke-interface {v2, v5}, Lcom/huawei/appmarket/jm3;->F0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+    invoke-interface {v2, v5}, Lcom/huawei/appmarket/lm3;->F0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/x54;->g(Lcom/huawei/appmarket/cn5;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/a64;->g(Lcom/huawei/appmarket/dn5;)V
 
     :cond_3
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method

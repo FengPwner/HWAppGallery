@@ -1,48 +1,40 @@
-.class public final Lcom/huawei/appmarket/r03;
+.class public final synthetic Lcom/huawei/appmarket/r03;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vk3;
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a(Landroid/content/Context;)V
-    .registers 5
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
-    const-string v1, "myaward_activity"
-
     .line 4
-    .line 5
-    const/4 v2, 0x0
+    iput p2, p0, Lcom/huawei/appmarket/r03;->b:I
 
+    .line 5
     .line 6
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    iput-object p1, p0, Lcom/huawei/appmarket/r03;->c:Ljava/lang/Object;
 
     .line 7
     .line 8
+    return-void
     .line 9
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/vw7;->m(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
-
     .line 10
     .line 11
     .line 12
-    return-void
     .line 13
     .line 14
     .line 15
@@ -146,4 +138,96 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .registers 4
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/r03;->b:I
+
+    iget-object v1, p0, Lcom/huawei/appmarket/r03;->c:Ljava/lang/Object;
+
+    packed-switch v0, :pswitch_data_0
+
+    check-cast v1, Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;
+
+    invoke-static {v1, p1}, Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;->b(Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;Landroid/view/View;)V
+
+    return-void
+
+    :pswitch_0
+    check-cast v1, Lcom/huawei/appmarket/s03;
+
+    invoke-static {v1}, Lcom/huawei/appmarket/s03;->a(Lcom/huawei/appmarket/s03;)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
 .end method

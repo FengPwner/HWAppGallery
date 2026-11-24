@@ -29,7 +29,7 @@
 
     const v1, 0x7f0602e5
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pb9;->a(I)I
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wb9;->a(I)I
 
     move-result v0
 

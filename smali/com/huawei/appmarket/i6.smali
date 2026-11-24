@@ -7,10 +7,10 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
+.annotation runtime Lcom/huawei/appmarket/ym;
     alias = "apitest"
     uri = Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 .end annotation
@@ -27,14 +27,14 @@
 
 
 # virtual methods
-.method public final checkAccountConsistency(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final checkAccountConsistency(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -43,29 +43,29 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<Boolean>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final checkAccountLogin(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -74,29 +74,29 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<Boolean>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final checkAccountServiceCountry(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -105,17 +105,17 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<String>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method public final getAccountDisplayControl()Lcom/huawei/appmarket/fg3;
+.method public final getAccountDisplayControl()Lcom/huawei/appmarket/hg3;
     .registers 2
 
     .line 1
@@ -136,7 +136,7 @@
     return-object v0
 .end method
 
-.method public final getAccountInterceptor()Lcom/huawei/appmarket/gg3;
+.method public final getAccountInterceptor()Lcom/huawei/appmarket/ig3;
     .registers 2
 
     .line 1
@@ -145,14 +145,14 @@
     return-object v0
 .end method
 
-.method public final getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/e00;",
             ">;"
         }
@@ -161,56 +161,56 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<AuthAccount>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final getLoginResult()Lcom/huawei/appmarket/gw7;
+.method public final getLoginResult()Lcom/huawei/appmarket/mw7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw7<",
+            "Lcom/huawei/appmarket/mw7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/lw7;
+    new-instance v0, Lcom/huawei/appmarket/rw7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/lw7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/rw7;-><init>()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/lw7;->c()Lcom/huawei/appmarket/kw7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rw7;->c()Lcom/huawei/appmarket/qw7;
 
     move-result-object v0
 
     const-string v1, "TaskStreamSource<LoginResultBean>().taskStream"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method public final getSession(Landroid/content/Context;Z)Lcom/huawei/appmarket/hv7;
+.method public final getSession(Landroid/content/Context;Z)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/account/userauth/api/session/ISession;",
             ">;"
         }
@@ -219,17 +219,17 @@
     .line 1
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string p2, "TaskCompletionSource<ISession>().task"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -243,21 +243,21 @@
     return v0
 .end method
 
-.method public final initWithParam(Lcom/huawei/appmarket/qr0;)V
+.method public final initWithParam(Lcom/huawei/appmarket/rr0;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final launchAccountCenter(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -266,29 +266,29 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<Void>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final launchAccountDetail(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final launchAccountDetail(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -299,12 +299,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v0, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 7
     .line 8
@@ -316,7 +316,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/s93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/s93;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/v93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/v93;
 
     .line 13
     .line 14
@@ -345,16 +345,16 @@
 
     .line 26
     .line 27
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
     .line 28
     .line 29
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     .line 30
     .line 31
     .line 32
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     .line 33
     .line 34
@@ -362,7 +362,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -433,14 +433,14 @@
     .line 95
 .end method
 
-.method public final launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final launchPasswordVerification(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -451,12 +451,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v0, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 7
     .line 8
@@ -468,7 +468,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/s93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/s93;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/v93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/v93;
 
     .line 13
     .line 14
@@ -497,16 +497,16 @@
 
     .line 26
     .line 27
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
     .line 28
     .line 29
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     .line 30
     .line 31
     .line 32
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     .line 33
     .line 34
@@ -514,7 +514,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -585,14 +585,14 @@
     .line 95
 .end method
 
-.method public final launchPasswordVerificationV2(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final launchPasswordVerificationV2(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -603,12 +603,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v0, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 7
     .line 8
@@ -620,7 +620,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/s93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/s93;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/v93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/v93;
 
     .line 13
     .line 14
@@ -649,16 +649,16 @@
 
     .line 26
     .line 27
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
     .line 28
     .line 29
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     .line 30
     .line 31
     .line 32
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     .line 33
     .line 34
@@ -666,7 +666,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -737,14 +737,14 @@
     .line 95
 .end method
 
-.method public final launchSecurePhoneBind(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final launchSecurePhoneBind(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -755,12 +755,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object v0, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 7
     .line 8
@@ -772,7 +772,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/s93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/s93;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/v93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/v93;
 
     .line 13
     .line 14
@@ -801,16 +801,16 @@
 
     .line 26
     .line 27
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
     .line 28
     .line 29
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     .line 30
     .line 31
     .line 32
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     .line 33
     .line 34
@@ -818,7 +818,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -889,7 +889,7 @@
     .line 95
 .end method
 
-.method public final launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/hv7;
+.method public final launchServiceCountryChange(Landroid/content/Context;Ljava/util/List;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -898,7 +898,7 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -909,7 +909,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -918,12 +918,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    sget-object p2, Lcom/huawei/appmarket/s93;->j:Lcom/huawei/appmarket/s93$a;
+    sget-object p2, Lcom/huawei/appmarket/v93;->j:Lcom/huawei/appmarket/v93$a;
 
     .line 12
     .line 13
@@ -935,7 +935,7 @@
     const/4 p2, 0x0
 
     .line 17
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/s93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/s93;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/v93$a;->a(Landroid/content/Context;Z)Lcom/huawei/appmarket/v93;
 
     .line 18
     .line 19
@@ -964,16 +964,16 @@
 
     .line 31
     .line 32
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
     .line 33
     .line 34
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     .line 35
     .line 36
     .line 37
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     .line 38
     .line 39
@@ -981,7 +981,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -1102,14 +1102,14 @@
     .line 150
 .end method
 
-.method public final login(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final login(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -1118,22 +1118,22 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<Void>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+.method public final login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1141,7 +1141,7 @@
             "Landroid/content/Context;",
             "Lcom/huawei/appgallery/accountkit/api/LoginParam;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;"
         }
@@ -1150,33 +1150,33 @@
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "loginParam"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string p2, "TaskCompletionSource<LoginResultBean>().task"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final logout(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public final logout(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -1185,17 +1185,17 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/nv7;
+    new-instance p1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    iget-object p1, p1, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    iget-object p1, p1, Lcom/huawei/appmarket/tv7;->task:Lcom/huawei/appmarket/d99;
 
     const-string v0, "TaskCompletionSource<Void>().task"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -1207,14 +1207,14 @@
     return-void
 .end method
 
-.method public final setAccountDisplayControl(Lcom/huawei/appmarket/fg3;)V
+.method public final setAccountDisplayControl(Lcom/huawei/appmarket/hg3;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final setAccountInterceptor(Lcom/huawei/appmarket/gg3;)V
+.method public final setAccountInterceptor(Lcom/huawei/appmarket/ig3;)V
     .registers 2
 
     .line 1

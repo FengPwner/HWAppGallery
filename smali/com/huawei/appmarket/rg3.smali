@@ -4,22 +4,17 @@
 
 
 # virtual methods
-.method public abstract A(Ljava/lang/String;)V
+.method public abstract a()Lcom/huawei/appmarket/xc;
 .end method
 
-.method public abstract E0()V
+.method public abstract b(ILjava/lang/String;)Z
 .end method
 
-.method public abstract Y1(ILjava/util/List;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
+.method public abstract c(I)Z
 .end method
 
-.method public abstract w1(Ljava/lang/String;)V
+.method public abstract d()V
+.end method
+
+.method public abstract e(I)Lcom/huawei/appmarket/cd;
 .end method

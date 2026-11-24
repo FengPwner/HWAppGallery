@@ -13,8 +13,8 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
+.method public abstract a(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/cache/a$b;)V
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/sq4;)Ljava/io/File;
+.method public abstract b(Lcom/huawei/appmarket/vq4;)Ljava/io/File;
 .end method

@@ -148,7 +148,7 @@
 
     aput-object v0, v2, v10
 
-    invoke-static {}, Lcom/huawei/appmarket/oq8;->g()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/uq8;->g()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -458,7 +458,7 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/gi7;->o(Landroid/app/KeyguardManager;Landroid/app/Activity;Landroid/app/KeyguardManager$KeyguardDismissCallback;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/mi7;->o(Landroid/app/KeyguardManager;Landroid/app/Activity;Landroid/app/KeyguardManager$KeyguardDismissCallback;)V
 
     :cond_2
     return-void
@@ -973,23 +973,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static i(Landroid/content/Context;)Z
@@ -1069,7 +1052,7 @@
 
     .line 34
     :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/jm7;->w(Landroid/app/KeyguardManager;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/pm7;->w(Landroid/app/KeyguardManager;)Z
 
     .line 35
     .line 36
@@ -1278,21 +1261,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

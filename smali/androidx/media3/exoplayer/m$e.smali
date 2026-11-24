@@ -20,7 +20,7 @@
 # instance fields
 .field private final a:Ljava/lang/Object;
 
-.field private b:Lcom/huawei/appmarket/mz7;
+.field private b:Lcom/huawei/appmarket/rz7;
 
 
 # direct methods
@@ -31,31 +31,31 @@
 
     iput-object p1, p0, Landroidx/media3/exoplayer/m$e;->a:Ljava/lang/Object;
 
-    invoke-virtual {p2}, Landroidx/media3/exoplayer/source/i;->M()Lcom/huawei/appmarket/mz7;
+    invoke-virtual {p2}, Landroidx/media3/exoplayer/source/i;->M()Lcom/huawei/appmarket/rz7;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/mz7;
+    iput-object p1, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/rz7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/mz7;
+.method public final a()Lcom/huawei/appmarket/rz7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/mz7;
+    iget-object v0, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/rz7;
 
     return-object v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/mz7;)V
+.method public final b(Lcom/huawei/appmarket/rz7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/mz7;
+    iput-object p1, p0, Landroidx/media3/exoplayer/m$e;->b:Lcom/huawei/appmarket/rz7;
 
     return-void
 .end method

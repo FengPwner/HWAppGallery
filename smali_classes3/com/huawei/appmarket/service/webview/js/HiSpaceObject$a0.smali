@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lr3;
+.implements Lcom/huawei/appmarket/dm3;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->isCreateShortcut(Ljava/lang/String;Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->createShortcut(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,49 +38,18 @@
 
 
 # virtual methods
-.method public final a(Z)V
-    .registers 5
+.method public final onResult(Ljava/lang/String;)V
+    .registers 4
 
-    .line 1
-    if-eqz p1, :cond_0
-
-    const-string p1, "1"
-
-    goto :goto_0
-
-    :cond_0
-    const-string p1, "0"
-
-    :goto_0
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a0;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mHandler:Landroid/os/Handler;
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a0$a;
 
-    const-string v2, "javascript:window."
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a0$a;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a0;Ljava/lang/String;)V
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a0;->a:Ljava/lang/String;
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v2, "(\'"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "\');"
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method

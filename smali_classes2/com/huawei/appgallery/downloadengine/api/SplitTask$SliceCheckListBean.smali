@@ -45,7 +45,7 @@
     .line 1
     const-string v0, "fromJsonStr error : "
 
-    invoke-static {p0}, Lcom/huawei/appmarket/gp7;->h(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/lp7;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -95,28 +95,28 @@
     goto :goto_1
 
     :catch_4
-    sget-object p0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object p0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     sget-object v0, Lcom/huawei/appgallery/downloadengine/api/SplitTask$SliceCheckListBean;->TAG:Ljava/lang/String;
 
     const-string v1, "fromJsonStr json error."
 
     :goto_0
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
     :goto_1
-    sget-object v1, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object v1, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     sget-object v3, Lcom/huawei/appgallery/downloadengine/api/SplitTask$SliceCheckListBean;->TAG:Ljava/lang/String;
 
-    invoke-virtual {v1, v3, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v3, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_2
 
     :cond_0
-    sget-object p0, Lcom/huawei/appmarket/ut1;->a:Lcom/huawei/appmarket/ut1;
+    sget-object p0, Lcom/huawei/appmarket/yt1;->a:Lcom/huawei/appmarket/yt1;
 
     sget-object v0, Lcom/huawei/appgallery/downloadengine/api/SplitTask$SliceCheckListBean;->TAG:Ljava/lang/String;
 

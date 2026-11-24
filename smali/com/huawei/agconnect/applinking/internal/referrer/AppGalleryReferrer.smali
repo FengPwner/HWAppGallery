@@ -134,14 +134,14 @@
 
 
 # virtual methods
-.method public getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -152,7 +152,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/huawei/agconnect/applinking/internal/referrer/AppGalleryReferrer$1;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/AppGalleryReferrer;Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

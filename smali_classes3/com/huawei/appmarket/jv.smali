@@ -1,58 +1,44 @@
-.class public final Lcom/huawei/appmarket/jv;
-.super Lcom/huawei/appmarket/v26;
+.class public final synthetic Lcom/huawei/appmarket/jv;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Landroid/widget/TextView$OnEditorActionListener;
 
 
 # instance fields
-.field private f:Landroid/widget/TextView;
+.field public final synthetic b:Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;
 
-.field private g:Landroid/widget/TextView;
+.field public final synthetic c:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/v26;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/jv;->b:Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/jv;->c:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final k()Landroid/widget/TextView;
-    .registers 2
+.method public final onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jv;->g:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/huawei/appmarket/jv;->b:Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;
 
-    return-object v0
-.end method
+    iget-object v0, p0, Lcom/huawei/appmarket/jv;->c:Ljava/lang/String;
 
-.method public final l()Landroid/widget/TextView;
-    .registers 2
+    invoke-static {p1, v0, p2, p3}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;->C3(Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;Ljava/lang/String;ILandroid/view/KeyEvent;)Z
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jv;->f:Landroid/widget/TextView;
+    move-result p1
 
-    return-object v0
-.end method
-
-.method public final m(Landroid/widget/TextView;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/jv;->g:Landroid/widget/TextView;
-
-    return-void
-.end method
-
-.method public final n(Landroid/widget/TextView;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/jv;->f:Landroid/widget/TextView;
-
-    return-void
+    return p1
 .end method

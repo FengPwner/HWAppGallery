@@ -6,7 +6,7 @@
 # instance fields
 .field private final a:Landroid/widget/TextView;
 
-.field private final b:Lcom/huawei/appmarket/c02;
+.field private final b:Lcom/huawei/appmarket/g02;
 
 
 # direct methods
@@ -17,13 +17,13 @@
 
     iput-object p1, p0, Landroidx/appcompat/widget/i;->a:Landroid/widget/TextView;
 
-    new-instance v0, Lcom/huawei/appmarket/c02;
+    new-instance v0, Lcom/huawei/appmarket/g02;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/c02;-><init>(Landroid/widget/TextView;Z)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/g02;-><init>(Landroid/widget/TextView;Z)V
 
-    iput-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iput-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
     return-void
 .end method
@@ -34,9 +34,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c02;->a([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g02;->a([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
 
     move-result-object p1
 
@@ -47,9 +47,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/c02;->b()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g02;->b()Z
 
     move-result v0
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/pe6;->j:[I
+    sget-object v1, Lcom/huawei/appmarket/re6;->j:[I
 
     const/4 v2, 0x0
 
@@ -116,9 +116,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c02;->c(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g02;->c(Z)V
 
     return-void
 .end method
@@ -127,9 +127,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c02;->d(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g02;->d(Z)V
 
     return-void
 .end method
@@ -138,9 +138,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/c02;
+    iget-object v0, p0, Landroidx/appcompat/widget/i;->b:Lcom/huawei/appmarket/g02;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c02;->e(Landroidx/appcompat/text/AllCapsTransformationMethod;)Landroid/text/method/TransformationMethod;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g02;->e(Landroidx/appcompat/text/AllCapsTransformationMethod;)Landroid/text/method/TransformationMethod;
 
     move-result-object p1
 

@@ -1,65 +1,69 @@
-.class final Lcom/huawei/appmarket/qh2;
-.super Lcom/huawei/appmarket/rf7;
+.class public final Lcom/huawei/appmarket/qh2;
+.super Landroid/os/Handler;
 .source "SourceFile"
 
 
 # instance fields
-.field final synthetic b:Landroid/content/Context;
-
-.field final synthetic c:I
-
-.field final synthetic d:Lcom/huawei/appmarket/rh2;
+.field private a:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/rh2;Landroid/content/Context;I)V
-    .registers 4
+.method public constructor <init>(Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;)V
+    .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qh2;->d:Lcom/huawei/appmarket/rh2;
+    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/qh2;->b:Landroid/content/Context;
+    new-instance v0, Ljava/lang/ref/WeakReference;
 
-    iput p3, p0, Lcom/huawei/appmarket/qh2;->c:I
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    iput-object v0, p0, Lcom/huawei/appmarket/qh2;->a:Ljava/lang/ref/WeakReference;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onSingleClick(Landroid/view/View;)V
+.method public final handleMessage(Landroid/os/Message;)V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/mh2;->c()Lcom/huawei/appmarket/mh2;
+    iget-object v0, p0, Lcom/huawei/appmarket/qh2;->a:Ljava/lang/ref/WeakReference;
 
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/huawei/appmarket/qh2;->d:Lcom/huawei/appmarket/rh2;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/rh2;->j(Lcom/huawei/appmarket/rh2;)Ljava/util/ArrayList;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    iget v1, p0, Lcom/huawei/appmarket/qh2;->c:I
+    check-cast v0, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;
 
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    if-nez v0, :cond_0
 
-    move-result-object v0
+    const-string p1, "FastAppViewHandler"
 
-    check-cast v0, Lcom/huawei/appmarket/hh2;
+    const-string v0, "view is null"
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hh2;->c()Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    move-result-object v0
+    return-void
 
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    :cond_0
+    iget p1, p1, Landroid/os/Message;->what:I
 
-    iget-object p1, p0, Lcom/huawei/appmarket/qh2;->b:Landroid/content/Context;
+    const/4 v1, 0x1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/mh2;->f(Landroid/content/Context;Ljava/lang/String;)V
+    if-ne p1, v1, :cond_1
 
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/fastapp/card/FastAppRecordListCard;->n1()V
+
+    :cond_1
     return-void
 .end method

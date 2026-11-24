@@ -26,7 +26,7 @@
 .method static constructor <clinit>()V
     .registers 6
 
-    invoke-static {}, Lcom/huawei/appmarket/u02;->values()[Lcom/huawei/appmarket/u02;
+    invoke-static {}, Lcom/huawei/appmarket/y02;->values()[Lcom/huawei/appmarket/y02;
 
     move-result-object v0
 
@@ -39,7 +39,7 @@
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lcom/huawei/appmarket/u02;->b:Lcom/huawei/appmarket/u02;
+    sget-object v2, Lcom/huawei/appmarket/y02;->b:Lcom/huawei/appmarket/y02;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
@@ -55,7 +55,7 @@
     :try_start_1
     sget-object v2, Lcom/bumptech/glide/load/engine/h$a;->c:[I
 
-    sget-object v3, Lcom/huawei/appmarket/u02;->c:Lcom/huawei/appmarket/u02;
+    sget-object v3, Lcom/huawei/appmarket/y02;->c:Lcom/huawei/appmarket/y02;
 
     invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 

@@ -447,7 +447,7 @@
 
     invoke-direct {v2, p0, p1, p2, p3}, Lorg/apache/commons/lang3/time/e;-><init>(Ljava/util/TimeZone;ZILjava/util/Locale;)V
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/t12;->g(Ljava/util/concurrent/ConcurrentMap;Ljava/lang/Object;Lorg/apache/commons/lang3/time/e;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/x12;->g(Ljava/util/concurrent/ConcurrentMap;Ljava/lang/Object;Lorg/apache/commons/lang3/time/e;)Ljava/lang/Object;
 
     move-result-object p0
 

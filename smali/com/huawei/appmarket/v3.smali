@@ -1,5 +1,5 @@
 .class public abstract Lcom/huawei/appmarket/v3;
-.super Lcom/huawei/appmarket/g88;
+.super Lcom/huawei/appmarket/l88;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/g88<",
+        "Lcom/huawei/appmarket/l88<",
         "TT;>;"
     }
 .end annotation
@@ -41,7 +41,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/g88;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/l88;-><init>()V
 
     sget-object v0, Lcom/huawei/appmarket/v3$a;->c:Lcom/huawei/appmarket/v3$a;
 
@@ -272,6 +272,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final next()Ljava/lang/Object;

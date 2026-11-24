@@ -248,7 +248,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic b(Lcom/huawei/appmarket/g50;)Ljava/lang/ref/WeakReference;
@@ -508,7 +507,7 @@
 
     .line 107
     .line 108
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -769,29 +768,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public e()V
@@ -800,27 +776,27 @@
     .line 1
     const-string v0, "UserInfoKit"
 
-    const-class v1, Lcom/huawei/appmarket/q54;
+    const-class v1, Lcom/huawei/appmarket/t54;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/q54;
+    check-cast v0, Lcom/huawei/appmarket/t54;
 
     const-string v1, "push"
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/q54;->a(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/t54;->a(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/wz5;
+    new-instance v1, Lcom/huawei/appmarket/yz5;
 
     const/16 v2, 0x18
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -850,7 +826,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appmarket/g50$a;-><init>(Lcom/huawei/appmarket/g50;)V
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

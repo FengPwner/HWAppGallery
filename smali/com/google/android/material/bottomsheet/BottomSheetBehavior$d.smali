@@ -108,7 +108,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->c:Ljava/lang/Runnable;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     const/4 p1, 0x1
 

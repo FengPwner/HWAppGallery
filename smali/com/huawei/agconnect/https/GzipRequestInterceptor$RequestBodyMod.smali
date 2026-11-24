@@ -1,5 +1,5 @@
 .class Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;
-.super Lcom/huawei/appmarket/lr6;
+.super Lcom/huawei/appmarket/or6;
 .source "SourceFile"
 
 
@@ -15,13 +15,13 @@
 
 
 # instance fields
-.field public a:Lcom/huawei/appmarket/lr6;
+.field public a:Lcom/huawei/appmarket/or6;
 
 .field public b:Lcom/huawei/appmarket/ic0;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/lr6;)V
+.method public constructor <init>(Lcom/huawei/appmarket/or6;)V
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -30,13 +30,13 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/lr6;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/or6;-><init>()V
 
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->b:Lcom/huawei/appmarket/ic0;
 
-    iput-object p1, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->a:Lcom/huawei/appmarket/lr6;
+    iput-object p1, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->a:Lcom/huawei/appmarket/or6;
 
     new-instance v0, Lcom/huawei/appmarket/ic0;
 
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->b:Lcom/huawei/appmarket/ic0;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/lr6;->writeTo(Lcom/huawei/appmarket/lc0;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/or6;->writeTo(Lcom/huawei/appmarket/lc0;)V
 
     return-void
 .end method
@@ -63,13 +63,13 @@
     return-wide v0
 .end method
 
-.method public contentType()Lcom/huawei/appmarket/a65;
+.method public contentType()Lcom/huawei/appmarket/d65;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->a:Lcom/huawei/appmarket/lr6;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->a:Lcom/huawei/appmarket/or6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/lr6;->contentType()Lcom/huawei/appmarket/a65;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/or6;->contentType()Lcom/huawei/appmarket/d65;
 
     move-result-object v0
 
@@ -87,11 +87,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;->b:Lcom/huawei/appmarket/ic0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ic0;->F()Lcom/huawei/appmarket/sf0;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ic0;->F()Lcom/huawei/appmarket/tf0;
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lc0;->c0(Lcom/huawei/appmarket/sf0;)Lcom/huawei/appmarket/lc0;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lc0;->c0(Lcom/huawei/appmarket/tf0;)Lcom/huawei/appmarket/lc0;
 
     return-void
 .end method

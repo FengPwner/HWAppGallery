@@ -31,7 +31,7 @@
     .registers 8
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/yr4;
+    new-instance v6, Lcom/huawei/appmarket/bs4;
 
     .line 2
     .line 3
@@ -62,7 +62,7 @@
     move-object v0, v6
 
     .line 16
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/yr4;-><init>(Landroid/content/Context;IIZZ)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/bs4;-><init>(Landroid/content/Context;IIZZ)V
 
     .line 17
     .line 18
@@ -205,7 +205,7 @@
 
     .line 2
     .line 3
-    sget v1, Lcom/huawei/appmarket/af8;->a:I
+    sget v1, Lcom/huawei/appmarket/ff8;->a:I
 
     .line 4
     .line 5

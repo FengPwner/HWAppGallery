@@ -53,7 +53,7 @@
 
     if-lt v2, v3, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/oq8;->a(Landroid/app/ActivityManager$RunningTaskInfo;)Landroid/app/ActivityManager$TaskDescription;
+    invoke-static {v1}, Lcom/huawei/appmarket/uq8;->a(Landroid/app/ActivityManager$RunningTaskInfo;)Landroid/app/ActivityManager$TaskDescription;
 
     move-result-object v1
 

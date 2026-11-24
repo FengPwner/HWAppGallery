@@ -4,11 +4,5 @@
 
 
 # virtual methods
-.method public abstract i0(Z)V
-.end method
-
-.method public abstract u2()V
-.end method
-
-.method public abstract w(Z)V
+.method public abstract onRefresh()V
 .end method

@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -85,7 +85,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     .line 5
     .line 6
@@ -202,7 +202,7 @@
 
     .line 66
     .line 67
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 68
     .line 69
@@ -218,7 +218,7 @@
 
     .line 74
     .line 75
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 76
     .line 77
@@ -238,7 +238,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 86
     .line 87
@@ -250,7 +250,7 @@
 
     .line 90
     .line 91
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b37;->F(ILandroid/view/View;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/g37;->F(ILandroid/view/View;)V
 
     .line 92
     .line 93
@@ -278,7 +278,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final y1()Landroid/widget/ImageView;

@@ -12,11 +12,11 @@
     return-void
 .end method
 
-.method public static final a(Lcom/huawei/appmarket/cr6;)V
+.method public static final a(Lcom/huawei/appmarket/fr6;)V
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/en;->b()Lcom/huawei/appmarket/en$b;
+    invoke-static {}, Lcom/huawei/appmarket/dn;->b()Lcom/huawei/appmarket/dn$b;
 
     .line 2
     .line 3
@@ -24,11 +24,11 @@
     move-result-object v0
 
     .line 5
-    const-class v1, Lcom/huawei/appmarket/lo1;
+    const-class v1, Lcom/huawei/appmarket/oo1;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dn$b;->a(Ljava/lang/Class;)V
 
     .line 8
     .line 9
@@ -37,39 +37,39 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dn$b;->a(Ljava/lang/Class;)V
 
     .line 13
     .line 14
     .line 15
-    const-class v1, Lcom/huawei/appmarket/wo0;
+    const-class v1, Lcom/huawei/appmarket/xo0;
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dn$b;->a(Ljava/lang/Class;)V
 
     .line 18
     .line 19
     .line 20
-    const-class v1, Lcom/huawei/appmarket/gr2;
+    const-class v1, Lcom/huawei/appmarket/ir2;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dn$b;->a(Ljava/lang/Class;)V
 
     .line 23
     .line 24
     .line 25
-    const-class v1, Lcom/huawei/appmarket/xo0;
+    const-class v1, Lcom/huawei/appmarket/yo0;
 
     .line 26
     .line 27
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dn$b;->a(Ljava/lang/Class;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Lcom/huawei/appmarket/en$b;->f()Lcom/huawei/appmarket/en;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dn$b;->f()Lcom/huawei/appmarket/dn;
 
     .line 31
     .line 32
@@ -86,14 +86,14 @@
     .line 37
     .line 38
     .line 39
-    new-instance v2, Lcom/huawei/appmarket/ka5;
+    new-instance v2, Lcom/huawei/appmarket/na5;
 
     .line 40
     .line 41
     const/4 v3, 0x1
 
     .line 42
-    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/ka5;-><init>(Lcom/huawei/appmarket/ja5;I)V
+    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/na5;-><init>(Lcom/huawei/appmarket/ma5;I)V
 
     .line 43
     .line 44
@@ -102,7 +102,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/ka5;->e(Lcom/huawei/appmarket/cr6;Ljava/lang/String;Lcom/huawei/appmarket/en;)V
+    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/na5;->e(Lcom/huawei/appmarket/fr6;Ljava/lang/String;Lcom/huawei/appmarket/dn;)V
 
     .line 48
     .line 49
@@ -172,5 +172,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

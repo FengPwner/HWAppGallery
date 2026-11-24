@@ -232,7 +232,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private static d(Lcom/huawei/appgallery/search/ui/fragment/SearchResultFragment;Ljava/lang/String;)V
@@ -356,7 +355,7 @@
 
     .line 57
     .line 58
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 59
     .line 60
@@ -371,7 +370,7 @@
     const/4 v0, 0x1
 
     .line 65
-    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 66
     .line 67
@@ -468,7 +467,7 @@
     move-result-object p1
 
     .line 112
-    instance-of p1, p1, Lcom/huawei/appmarket/sk0;
+    instance-of p1, p1, Lcom/huawei/appmarket/tk0;
 
     .line 113
     .line 114
@@ -496,7 +495,7 @@
     move-result-object p1
 
     .line 125
-    instance-of p1, p1, Lcom/huawei/appmarket/sk0;
+    instance-of p1, p1, Lcom/huawei/appmarket/tk0;
 
     .line 126
     .line 127
@@ -516,7 +515,7 @@
     move-object v0, p0
 
     .line 134
-    check-cast v0, Lcom/huawei/appmarket/sk0;
+    check-cast v0, Lcom/huawei/appmarket/tk0;
 
     .line 135
     .line 136
@@ -534,7 +533,7 @@
 
     .line 142
     :cond_5
-    sget-object p0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 143
     .line 144
@@ -542,7 +541,7 @@
 
     .line 145
     .line 146
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 147
     .line 148
@@ -554,7 +553,7 @@
     .line 150
     :cond_7
     :goto_3
-    sget-object p0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 151
     .line 152
@@ -562,7 +561,7 @@
 
     .line 153
     .line 154
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     .line 156
@@ -574,7 +573,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -603,11 +601,11 @@
 
     if-eq p1, v2, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "onReceiveMsg, not run on main thread."
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/os/Handler;
 
@@ -642,7 +640,7 @@
 
     :cond_2
     :goto_0
-    sget-object v2, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v2, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -668,7 +666,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

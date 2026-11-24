@@ -56,7 +56,7 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,7 +85,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -359,10 +359,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private final b(Ljava/lang/Throwable;)V
@@ -389,11 +385,11 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
-    const/16 v2, 0xf
+    const/16 v2, 0x11
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -447,11 +443,11 @@
 
     const-string v0, "submit"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "throwable"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     invoke-direct {p0, p2}, Lcom/huawei/phoneservice/faq/base/network/FaqCallback;->b(Ljava/lang/Throwable;)V
@@ -484,7 +480,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -493,7 +489,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -531,7 +527,7 @@
     move-result p2
 
     .line 27
-    const/16 v0, 0x10
+    const/16 v0, 0x12
 
     .line 28
     .line 29
@@ -674,11 +670,11 @@
 
     .line 93
     .line 94
-    new-instance p2, Lcom/huawei/appmarket/q92;
+    new-instance p2, Lcom/huawei/appmarket/st1;
 
     .line 95
     .line 96
-    invoke-direct {p2, p0, v0, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {p2, p0, v0, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 97
     .line 98
@@ -745,7 +741,7 @@
 
     .line 128
     .line 129
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -782,11 +778,11 @@
 
     .line 145
     .line 146
-    new-instance p2, Lcom/huawei/appmarket/q92;
+    new-instance p2, Lcom/huawei/appmarket/st1;
 
     .line 147
     .line 148
-    invoke-direct {p2, p0, v0, v1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {p2, p0, v0, v1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 149
     .line 150
@@ -928,14 +924,10 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public abstract onResult(Ljava/lang/Throwable;Ljava/lang/Object;)V
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

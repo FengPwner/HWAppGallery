@@ -20,7 +20,7 @@
 
 # instance fields
 .field private expandAppList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -33,7 +33,7 @@
 .end field
 
 .field private shrinkAppList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -46,7 +46,7 @@
 .end field
 
 .field private shrinkTitleInfo:Lcom/huawei/appgallery/search/ui/cardbean/SearchAppCardBean$SearchShrinkTitleInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -109,7 +109,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 12
     .line 13
@@ -192,7 +192,7 @@
     .line 50
     :cond_1
     :goto_1
-    sget-object v2, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v2, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 51
     .line 52
@@ -204,7 +204,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58

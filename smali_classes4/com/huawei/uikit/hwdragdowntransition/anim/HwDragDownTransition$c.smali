@@ -65,7 +65,7 @@
 
     invoke-static {p1, v0, v0}, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;FF)V
 
-    invoke-static {p1}, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ce3;
+    invoke-static {p1}, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ee3;
 
     return-void
 .end method
@@ -81,7 +81,7 @@
 
     iget-object p1, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition$c;->a:Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;
 
-    invoke-static {p1}, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ce3;
+    invoke-static {p1}, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ee3;
 
     return-void
 .end method

@@ -90,7 +90,7 @@
 
     .line 24
     .line 25
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -141,7 +141,7 @@
     move-result-object p1
 
     .line 52
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -190,7 +190,7 @@
 
     .line 75
     .line 76
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -271,7 +271,7 @@
     move-result-object v1
 
     .line 118
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -337,7 +337,7 @@
     .line 147
     .line 148
     .line 149
-    invoke-static {p2, v5, v2}, Lcom/huawei/appmarket/om5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p2, v5, v2}, Lcom/huawei/appmarket/uq5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 150
     .line 151
@@ -358,7 +358,7 @@
     move-result-object v5
 
     .line 159
-    invoke-static {v5}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v5}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 160
     .line 161
@@ -432,7 +432,7 @@
 
     .line 194
     :cond_4
-    invoke-static {p2}, Lcom/huawei/appmarket/js;->d(Lcom/huawei/appmarket/service/externalservice/distribution/appmapping/response/AppMappingNetResponse;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/ks;->d(Lcom/huawei/appmarket/service/externalservice/distribution/appmapping/response/AppMappingNetResponse;)V
 
     .line 195
     .line 196
@@ -441,7 +441,7 @@
 
     .line 198
     .line 199
-    invoke-static {p2}, Lcom/huawei/appmarket/js;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/ks;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 200
     .line 201
@@ -519,7 +519,7 @@
     move-result-object p2
 
     .line 240
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -542,7 +542,7 @@
     .line 248
     .line 249
     .line 250
-    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/om5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/uq5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 251
     .line 252
@@ -562,7 +562,7 @@
 
     .line 258
     .line 259
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 260
     .line 261
@@ -1158,23 +1158,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

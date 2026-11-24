@@ -18,21 +18,21 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/vk6;
+.field private final a:Lcom/huawei/appmarket/xk6;
 
-.field private final b:Lcom/huawei/appmarket/j32;
+.field private final b:Lcom/huawei/appmarket/n32;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/vk6;Lcom/huawei/appmarket/j32;)V
+.method constructor <init>(Lcom/huawei/appmarket/xk6;Lcom/huawei/appmarket/n32;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->a:Lcom/huawei/appmarket/vk6;
+    iput-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->a:Lcom/huawei/appmarket/xk6;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->b:Lcom/huawei/appmarket/j32;
+    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->b:Lcom/huawei/appmarket/n32;
 
     return-void
 .end method
@@ -48,9 +48,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->b:Lcom/huawei/appmarket/j32;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->b:Lcom/huawei/appmarket/n32;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/j32;->s()Ljava/io/IOException;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n32;->s()Ljava/io/IOException;
 
     move-result-object v0
 
@@ -71,9 +71,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->a:Lcom/huawei/appmarket/vk6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c$a;->a:Lcom/huawei/appmarket/xk6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->s()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->s()V
 
     return-void
 .end method

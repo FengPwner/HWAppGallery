@@ -514,7 +514,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5
@@ -808,10 +808,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static synthetic lambda$append$1ad24c91$1([C)[Ljava/lang/Character;
@@ -1340,13 +1336,13 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p2}, Lorg/apache/commons/lang3/builder/f;-><init>(IB)V
+    invoke-direct {v0, p2, v1}, Lorg/apache/commons/lang3/builder/f;-><init>(BI)V
 
     new-instance p2, Lorg/apache/commons/lang3/builder/f;
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, v1, p3}, Lorg/apache/commons/lang3/builder/f;-><init>(IB)V
+    invoke-direct {p2, p3, v1}, Lorg/apache/commons/lang3/builder/f;-><init>(BI)V
 
     const-class p3, Ljava/lang/Byte;
 
@@ -1871,13 +1867,13 @@
 
     move-result-object p2
 
-    new-instance v0, Lcom/huawei/appmarket/w12;
+    new-instance v0, Lcom/huawei/appmarket/a22;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/w12;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/a22;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/qu0;->y(Ljava/util/List;Lcom/huawei/appmarket/w12;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/qu0;->y(Ljava/util/List;Lcom/huawei/appmarket/a22;)V
 
     return-object p0
 .end method
@@ -1908,13 +1904,13 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p2}, Lorg/apache/commons/lang3/builder/m;-><init>(IS)V
+    invoke-direct {v0, p2, v1}, Lorg/apache/commons/lang3/builder/m;-><init>(SI)V
 
     new-instance p2, Lorg/apache/commons/lang3/builder/m;
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, v1, p3}, Lorg/apache/commons/lang3/builder/m;-><init>(IS)V
+    invoke-direct {p2, p3, v1}, Lorg/apache/commons/lang3/builder/m;-><init>(SI)V
 
     const-class p3, Ljava/lang/Short;
 

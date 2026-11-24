@@ -12,15 +12,28 @@
     .registers 1
 
     .line 1
-    const v0, 0x7f0402bb
+    const/4 v0, 0x7
 
-    filled-new-array {v0}, [I
+    new-array v0, v0, [I
 
-    move-result-object v0
+    fill-array-data v0, :array_0
 
     sput-object v0, Lcom/huawei/appmarket/tg6;->a:[I
 
     return-void
+
+    nop
+
+    :array_0
+    .array-data 4
+        0x10100c4
+        0x7f0403c0
+        0x7f0403c1
+        0x7f04040f
+        0x7f040410
+        0x7f040411
+        0x7f040413
+    .end array-data
 .end method
 
 .method private constructor <init>()V

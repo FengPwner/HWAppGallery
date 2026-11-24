@@ -79,7 +79,7 @@
     .line 18
     .line 19
     :goto_0
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -112,7 +112,7 @@
 
     .line 34
     :cond_1
-    sget v2, Lcom/huawei/appmarket/eq1;->d:I
+    sget v2, Lcom/huawei/appmarket/hq1;->d:I
 
     .line 35
     .line 36
@@ -164,7 +164,7 @@
 
     .line 59
     .line 60
-    invoke-static {v3, v1, v4, v0}, Lcom/huawei/appmarket/ej2;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v1, v4, v0}, Lcom/huawei/appmarket/kb1;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -185,7 +185,7 @@
     move-result-object v1
 
     .line 71
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73

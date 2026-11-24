@@ -57,7 +57,7 @@
 
     const-string v2, "upLoad failed, stop it"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/ff$a;->c:Ljava/util/List;
 
@@ -104,7 +104,7 @@
 
     const-string v1, "No more retries."
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -137,7 +137,7 @@
 
     const-string v1, "The retry task has been scheduled."
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -254,7 +254,7 @@
 
     .line 56
     .line 57
-    invoke-static {v4, v0, v1, v6}, Lcom/huawei/appmarket/z84;->q(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v0, v1, v6}, Lcom/huawei/appmarket/kk4;->r(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     .line 58
     .line 59
@@ -266,7 +266,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -360,4 +360,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/il5;->n()Z
+    invoke-static {}, Lcom/huawei/appmarket/kl5;->n()Z
 
     move-result v1
 

@@ -9,135 +9,57 @@
 # instance fields
 .field public final synthetic b:I
 
-.field public final synthetic c:Lcom/huawei/appmarket/d17;
-
-.field public final synthetic d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/d17;I)V
-    .registers 4
+.method public synthetic constructor <init>(I)V
+    .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput p3, p0, Lcom/huawei/appmarket/b17;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/b17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/b17;->c:Lcom/huawei/appmarket/d17;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/d17;Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;I)V
-    .registers 4
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput p3, p0, Lcom/huawei/appmarket/b17;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/b17;->c:Lcom/huawei/appmarket/d17;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/b17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onClick(Landroid/view/View;)V
-    .registers 5
-
-    .line 1
-    iget p1, p0, Lcom/huawei/appmarket/b17;->b:I
 
     .line 2
     .line 3
-    const-string v0, "this$0"
-
     .line 4
+    iput p1, p0, Lcom/huawei/appmarket/b17;->b:I
+
     .line 5
-    iget-object v1, p0, Lcom/huawei/appmarket/b17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
-
     .line 6
+    return-void
     .line 7
-    iget-object v2, p0, Lcom/huawei/appmarket/b17;->c:Lcom/huawei/appmarket/d17;
-
     .line 8
     .line 9
-    packed-switch p1, :pswitch_data_0
-
     .line 10
     .line 11
     .line 12
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d17;->F()V
-
     .line 16
     .line 17
     .line 18
-    return-void
-
     .line 19
-    :pswitch_0
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/d17;->C(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/d17;)V
-
     .line 20
     .line 21
     .line 22
-    return-void
-
     .line 23
-    :pswitch_1
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/d17;->E(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/d17;)V
-
     .line 24
     .line 25
     .line 26
-    return-void
-
     .line 27
-    :pswitch_2
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d17;->F()V
-
     .line 31
     .line 32
     .line 33
-    return-void
-
     .line 34
-    :pswitch_3
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d17;->F()V
-
     .line 38
     .line 39
     .line 40
-    return-void
-
     .line 41
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
     .line 42
     .line 43
     .line 44
@@ -192,4 +114,50 @@
     .line 93
     .line 94
     .line 95
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .registers 2
+
+    .line 1
+    iget p1, p0, Lcom/huawei/appmarket/b17;->b:I
+
+    packed-switch p1, :pswitch_data_0
+
+    sget-object p1, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;->n:Ljava/lang/Long;
+
+    :pswitch_0
+    return-void
+
+    :pswitch_1
+    sget p1, Lcom/huawei/appmarket/h17;->G:I
+
+    return-void
+
+    :pswitch_2
+    sget p1, Lcom/huawei/appmarket/h17;->G:I
+
+    return-void
+
+    :pswitch_3
+    sget p1, Lcom/huawei/appmarket/d17;->D:I
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+    .end packed-switch
 .end method

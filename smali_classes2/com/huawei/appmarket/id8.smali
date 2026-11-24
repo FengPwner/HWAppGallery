@@ -1,46 +1,95 @@
 .class public final Lcom/huawei/appmarket/id8;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/pu7;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/userinfo/IUserInfoApi;
 
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
-
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/userinfo/IUserInfoApi;
-.end annotation
+# instance fields
+.field private t:Landroid/app/Activity;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Landroid/app/Activity;Landroidx/fragment/app/FragmentManager;Ljava/util/List;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/app/Activity;",
+            "Landroidx/fragment/app/FragmentManager;",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/lu7;",
+            ">;)V"
+        }
+    .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/pu7;-><init>(Landroid/app/Activity;Landroidx/fragment/app/FragmentManager;Ljava/util/List;)V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/id8;->t:Landroid/app/Activity;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final getUserName()Ljava/lang/String;
-    .registers 2
+.method protected final s(Lcom/huawei/appmarket/ax0;)Landroidx/fragment/app/Fragment;
+    .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/r54;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ax0;->s()Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    move-result-object p1
 
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appmarket/r54;
-
-    invoke-interface {v0}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/userinfo/IUserInfoApi;->getUserName()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v0
 
-    return-object v0
+    const-string v1, "User"
+
+    check-cast v0, Lcom/huawei/appmarket/gr6;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
+
+    move-result-object v0
+
+    const-string v1, "forumUserFollowFragment"
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/hmf/services/ui/e;->b()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/huawei/appgallery/forum/user/api/IUserFollowProtocol;
+
+    invoke-interface {v1, p1}, Lcom/huawei/appgallery/forum/base/api/IJGWTabProtocol;->setUri(Ljava/lang/String;)V
+
+    const/4 p1, 0x1
+
+    invoke-interface {v1, p1}, Lcom/huawei/appgallery/forum/user/api/IUserFollowProtocol;->setIgnoreTitle(Z)V
+
+    invoke-interface {v1, p1}, Lcom/huawei/appgallery/forum/base/api/IJGWTabProtocol;->setIsDelayShowLoading(Z)V
+
+    invoke-static {}, Lcom/huawei/hmf/services/ui/c;->b()Lcom/huawei/hmf/services/ui/c;
+
+    move-result-object p1
+
+    iget-object v1, p0, Lcom/huawei/appmarket/id8;->t:Landroid/app/Activity;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v1, v0}, Lcom/huawei/hmf/services/ui/c;->a(Landroid/content/Context;Lcom/huawei/hmf/services/ui/e;)Lcom/huawei/hmf/services/ui/b;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/huawei/appmarket/sr2;->d(Lcom/huawei/hmf/services/ui/b;)Lcom/huawei/appmarket/sr2;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ez6;->a()Landroidx/fragment/app/Fragment;
+
+    move-result-object p1
+
+    return-object p1
 .end method

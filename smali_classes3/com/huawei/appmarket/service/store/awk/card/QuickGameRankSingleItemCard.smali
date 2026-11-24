@@ -294,16 +294,15 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameRankSingleItemCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameRankSingleItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameRankSingleItemCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameRankSingleItemCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameRankSingleItemCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -449,7 +448,7 @@
 
     .line 47
     :cond_2
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 48
     .line 49

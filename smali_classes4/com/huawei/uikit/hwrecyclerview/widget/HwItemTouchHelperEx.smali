@@ -150,7 +150,7 @@
 
 .field n:I
 
-.field o:Lcom/huawei/appmarket/vx2;
+.field o:Lcom/huawei/appmarket/yx2;
 
 .field final p:Ljava/lang/Runnable;
 
@@ -1835,7 +1835,7 @@
 
     iget-object v3, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v3
 
@@ -1886,7 +1886,7 @@
 
     iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p1
 
@@ -1930,7 +1930,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 
@@ -2254,7 +2254,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->N:Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/of1;->z(Ljava/lang/Object;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/qf1;->z(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -2262,11 +2262,11 @@
 
     iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/of1;->l(Ljava/lang/Object;)Landroid/view/View$OnUnhandledKeyEventListener;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf1;->l(Ljava/lang/Object;)Landroid/view/View$OnUnhandledKeyEventListener;
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/of1;->C(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View$OnUnhandledKeyEventListener;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/qf1;->C(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View$OnUnhandledKeyEventListener;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
@@ -2360,7 +2360,7 @@
 
     iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->C:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$bxac;
 
-    new-instance v0, Lcom/huawei/appmarket/vx2;
+    new-instance v0, Lcom/huawei/appmarket/yx2;
 
     iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -2370,9 +2370,9 @@
 
     iget-object v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->C:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$bxac;
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/vx2;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/yx2;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
-    iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/vx2;
+    iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/yx2;
 
     return-void
 .end method
@@ -2474,7 +2474,7 @@
     iput-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->C:Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$bxac;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/vx2;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/yx2;
 
     if-eqz v0, :cond_1
 
@@ -2482,7 +2482,7 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    iput-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/vx2;
+    iput-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->o:Lcom/huawei/appmarket/yx2;
 
     :cond_1
     return-void
@@ -2596,11 +2596,11 @@
     return-void
 
     :cond_2
-    new-instance v1, Lcom/huawei/appmarket/q29;
+    new-instance v1, Lcom/huawei/appmarket/w29;
 
     const/16 v2, 0xc
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     check-cast v0, Lcom/huawei/uikit/hwrecyclerview/widget/HwLinearLayoutManager;
 
@@ -2685,17 +2685,17 @@
 
     if-lt v0, v1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/fi8;
+    new-instance v0, Lcom/huawei/appmarket/li8;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/fi8;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/li8;-><init>(Ljava/lang/Object;I)V
 
     iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->N:Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/of1;->w(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View$OnUnhandledKeyEventListener;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/qf1;->w(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View$OnUnhandledKeyEventListener;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->k:Landroidx/recyclerview/widget/RecyclerView;
@@ -4393,11 +4393,11 @@
 
     iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx;->A:Landroid/animation/ValueAnimator;
 
-    new-instance v2, Lcom/huawei/appmarket/rm;
+    new-instance v2, Lcom/huawei/appmarket/qm;
 
     const/4 v3, 0x4
 
-    invoke-direct {v2, p0, v3}, Lcom/huawei/appmarket/rm;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v2, p0, v3}, Lcom/huawei/appmarket/qm;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 

@@ -37,7 +37,7 @@
 
     const-string v1, "openSDK_LOG.SecureWebView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/hz6;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-boolean v0, Lcom/tencent/open/c/d;->b:Z
 
@@ -84,7 +84,7 @@
     return p1
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/sx8;->a:Ljava/lang/String;
 
     goto :goto_0
 
@@ -117,7 +117,7 @@
 
     const-string v1, "-->create input connection, is edit: false"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroid/webkit/WebView;->onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
 
@@ -135,7 +135,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/dz6;->h(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/hz6;->h(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -145,13 +145,13 @@
 
     sput-boolean v1, Lcom/tencent/open/c/d;->b:Z
 
-    new-instance v1, Lcom/huawei/appmarket/mx8;
+    new-instance v1, Lcom/huawei/appmarket/sx8;
 
     invoke-super {p0, p1}, Landroid/webkit/WebView;->onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
 
     move-result-object p1
 
-    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/mx8;-><init>(Landroid/view/inputmethod/InputConnection;Z)V
+    invoke-direct {v1, p1, v0}, Lcom/huawei/appmarket/sx8;-><init>(Landroid/view/inputmethod/InputConnection;Z)V
 
     return-object v1
 
@@ -180,7 +180,7 @@
 
     const-string v1, "openSDK_LOG.SecureWebView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/hz6;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-boolean v0, Lcom/tencent/open/c/d;->b:Z
 
@@ -227,7 +227,7 @@
     return p1
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/sx8;->a:Ljava/lang/String;
 
     goto :goto_0
 

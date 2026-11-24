@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lo3;
+.implements Lcom/huawei/appmarket/no3;
 
 
 # static fields
@@ -32,7 +32,7 @@
     return-void
 .end method
 
-.method public static b(ILcom/huawei/appmarket/wu1;)V
+.method public static b(ILcom/huawei/appmarket/av1;)V
     .registers 3
 
     .line 1
@@ -78,11 +78,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/wu1;
+    check-cast p1, Lcom/huawei/appmarket/av1;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/wu1;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/av1;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     :cond_0
     return-void

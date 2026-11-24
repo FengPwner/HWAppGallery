@@ -37,11 +37,11 @@
 .method public final onClick(Landroid/view/View;)V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uk5;->p()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wk5;->p()Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -49,11 +49,11 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->j()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->j()Ljava/util/ArrayList;
 
     move-result-object v0
 

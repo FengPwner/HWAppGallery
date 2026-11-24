@@ -76,7 +76,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p1, p2, v0, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, v0, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    sget-object v1, Lcom/huawei/appmarket/ie6;->X:[I
+    sget-object v1, Lcom/huawei/appmarket/ke6;->X:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -106,7 +106,7 @@
 
     int-to-float v1, v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/ei8;->m0(Landroid/view/View;F)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/ki8;->m0(Landroid/view/View;F)V
 
     :cond_0
     const/4 v1, 0x2
@@ -129,7 +129,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -145,7 +145,7 @@
 
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
 
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/tj8;->g(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/zj8;->g(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p1
 
@@ -213,17 +213,17 @@
     const v0, 0x7f040116
 
     .line 3
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v0
 
     const v1, 0x7f040106
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/f45;->b(ILandroid/view/View;)I
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/i45;->b(ILandroid/view/View;)I
 
     move-result v1
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     move-result p1
 
@@ -251,7 +251,7 @@
 
     .line 5
     :goto_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     :cond_2
     return-void
@@ -361,7 +361,7 @@
     invoke-virtual {v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->m()V
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->c0(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->c0(Landroid/view/View;)V
 
     return-void
 .end method
@@ -532,6 +532,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onLayout(ZIIII)V

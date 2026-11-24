@@ -125,7 +125,7 @@
 
     const-string v0, "not same version clean flag"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p0}, Lcom/huawei/appmarket/k51;->b(Landroid/content/Context;)V
 
@@ -139,11 +139,11 @@
     .registers 4
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/dn1;->i:I
+    sget v0, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 2
     .line 3
-    invoke-static {p0}, Lcom/huawei/appmarket/qw7;->c(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ww7;->c(Landroid/content/Context;)I
 
     .line 4
     .line 5
@@ -278,7 +278,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -363,7 +362,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -376,7 +375,7 @@
 
     .line 42
     .line 43
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -454,7 +453,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/service/crashescape/bean/CrashRecordBean;
@@ -479,7 +477,7 @@
 
     const-string p1, "crashRecordValue empty"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -507,7 +505,7 @@
     :catch_0
     const-string p1, "getCrashRecord exception"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v0

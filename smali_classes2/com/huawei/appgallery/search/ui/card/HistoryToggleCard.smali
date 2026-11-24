@@ -10,7 +10,7 @@
 
 .field private C:Lcom/huawei/appgallery/foundation/ui/framework/widget/MultiLineLabelLayout;
 
-.field private D:Lcom/huawei/appmarket/ak0;
+.field private D:Lcom/huawei/appmarket/bk0;
 
 .field private E:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -245,14 +245,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method static synthetic y1(Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;)Lcom/huawei/appmarket/ak0;
+.method static synthetic y1(Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;)Lcom/huawei/appmarket/bk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->D:Lcom/huawei/appmarket/ak0;
+    iget-object p0, p0, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->D:Lcom/huawei/appmarket/bk0;
 
     return-object p0
 .end method
@@ -293,7 +292,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/d47;->r()Lcom/huawei/appmarket/d47;
+    invoke-static {}, Lcom/huawei/appmarket/i47;->r()Lcom/huawei/appmarket/i47;
 
     .line 12
     .line 13
@@ -310,7 +309,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v1}, Lcom/huawei/appmarket/d47;->t(I)Ljava/util/List;
+    invoke-static {v1}, Lcom/huawei/appmarket/i47;->t(I)Ljava/util/List;
 
     .line 21
     .line 22
@@ -340,7 +339,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 37
     .line 38
@@ -756,11 +755,11 @@
     .line 260
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->D:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->D:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -906,7 +905,7 @@
     move-result-object v0
 
     .line 72
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 73
     .line 74
@@ -949,5 +948,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

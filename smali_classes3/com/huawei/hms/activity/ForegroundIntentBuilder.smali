@@ -38,7 +38,7 @@
 
     iput-object p1, p0, Lcom/huawei/hms/activity/ForegroundIntentBuilder;->b:Lcom/huawei/hms/common/internal/RequestHeader;
 
-    const v0, 0x3a75e4f
+    const v0, 0x3a75e50
 
     invoke-virtual {p1, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setSdkVersion(I)V
 
@@ -239,7 +239,7 @@
 
     .line 69
     .line 70
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72

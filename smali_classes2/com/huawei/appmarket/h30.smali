@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -199,7 +198,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/h30;->c:Lcom/huawei/appgallery/pageframe/fragment/multitabs/BaseContainSubtabVerticalMultiTabsFragmentV2;
 
-    invoke-static {v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/BaseContainSubtabVerticalMultiTabsFragmentV2;->B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/BaseContainSubtabVerticalMultiTabsFragmentV2;)V
+    invoke-static {v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/BaseContainSubtabVerticalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/BaseContainSubtabVerticalMultiTabsFragmentV2;)V
 
     return-void
 .end method

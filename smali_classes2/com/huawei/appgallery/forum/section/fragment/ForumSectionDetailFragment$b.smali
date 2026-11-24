@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/ma6;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/oa6;",
         ">;"
     }
 .end annotation
@@ -43,31 +43,31 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/ma6;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/oa6;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/ma6;
+    check-cast p1, Lcom/huawei/appmarket/oa6;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ma6;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/oa6;->b()I
 
     move-result v0
 
@@ -75,7 +75,7 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ma6;->a()Lcom/huawei/appmarket/la6;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/oa6;->a()Lcom/huawei/appmarket/na6;
 
     move-result-object p1
 
@@ -97,13 +97,13 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/i08;->h()V
 
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;->j3(Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;Lcom/huawei/appmarket/la6;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;->j3(Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;Lcom/huawei/appmarket/na6;)V
 
     :cond_0
     return-void

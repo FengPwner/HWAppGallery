@@ -58,7 +58,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -164,5 +164,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -31,7 +31,7 @@
 
 .field private checkBoxText:Ljava/lang/String;
 
-.field private dialog:Lcom/huawei/appmarket/q24;
+.field private dialog:Lcom/huawei/appmarket/s24;
 
 .field private isChecked:Z
 
@@ -54,7 +54,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->Companion:Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$Companion;
 
@@ -168,7 +168,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -180,11 +180,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -192,11 +192,11 @@
     move-result-object v0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/q24;
+    const-class v1, Lcom/huawei/appmarket/s24;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -204,11 +204,11 @@
     move-result-object v0
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/q24;
+    check-cast v0, Lcom/huawei/appmarket/s24;
 
     .line 20
     .line 21
-    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 22
     .line 23
@@ -267,7 +267,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/ip7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/np7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -292,7 +292,7 @@
 
     .line 57
     .line 58
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->k(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->k(Landroid/content/Context;)Z
 
     .line 59
     .line 60
@@ -372,7 +372,7 @@
 
     .line 93
     .line 94
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/ip7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/np7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 95
     .line 96
@@ -386,7 +386,7 @@
     .line 99
     .line 100
     :cond_6
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 101
     .line 102
@@ -398,13 +398,13 @@
 
     .line 105
     .line 106
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 107
     .line 108
     .line 109
     :cond_7
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 110
     .line 111
@@ -416,7 +416,7 @@
 
     .line 114
     .line 115
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/q24;->k(Ljava/lang/String;)Lcom/huawei/appmarket/wo0;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/s24;->k(Ljava/lang/String;)Lcom/huawei/appmarket/xo0;
 
     .line 116
     .line 117
@@ -446,7 +446,7 @@
 
     .line 129
     .line 130
-    iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 131
     .line 132
@@ -457,7 +457,7 @@
     const/4 v2, -0x2
 
     .line 135
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 136
     .line 137
@@ -487,7 +487,7 @@
 
     .line 149
     .line 150
-    iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 151
     .line 152
@@ -498,13 +498,13 @@
     const/4 v2, -0x1
 
     .line 155
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 156
     .line 157
     .line 158
     :cond_a
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 159
     .line 160
@@ -524,13 +524,13 @@
     .line 166
     .line 167
     .line 168
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->u(Landroid/content/DialogInterface$OnKeyListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->u(Landroid/content/DialogInterface$OnKeyListener;)Lcom/huawei/appmarket/w7;
 
     .line 169
     .line 170
     .line 171
     :cond_b
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 172
     .line 173
@@ -541,22 +541,22 @@
 
     .line 175
     .line 176
-    new-instance v2, Lcom/huawei/appmarket/om1;
+    new-instance v2, Lcom/huawei/appmarket/rm1;
 
     .line 177
     .line 178
-    invoke-direct {v2, v1}, Lcom/huawei/appmarket/om1;-><init>(I)V
+    invoke-direct {v2, v1}, Lcom/huawei/appmarket/rm1;-><init>(I)V
 
     .line 179
     .line 180
     .line 181
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
 
     .line 182
     .line 183
     .line 184
     :cond_c
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 185
     .line 186
@@ -564,25 +564,25 @@
 
     .line 187
     .line 188
-    new-instance v2, Lcom/huawei/appmarket/yx;
+    new-instance v2, Lcom/huawei/appmarket/zx;
 
     .line 189
     .line 190
     const/4 v3, 0x2
 
     .line 191
-    invoke-direct {v2, p0, v3}, Lcom/huawei/appmarket/yx;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v2, p0, v3}, Lcom/huawei/appmarket/zx;-><init>(Ljava/lang/Object;I)V
 
     .line 192
     .line 193
     .line 194
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
 
     .line 195
     .line 196
     .line 197
     :cond_d
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 198
     .line 199
@@ -590,22 +590,22 @@
 
     .line 200
     .line 201
-    new-instance v2, Lcom/huawei/appmarket/z52;
+    new-instance v2, Lcom/huawei/appmarket/d62;
 
     .line 202
     .line 203
-    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/z52;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/d62;-><init>(Ljava/lang/Object;I)V
 
     .line 204
     .line 205
     .line 206
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/q24;->e(Landroid/widget/CompoundButton$OnCheckedChangeListener;)Lcom/huawei/appmarket/wo0;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/s24;->e(Landroid/widget/CompoundButton$OnCheckedChangeListener;)Lcom/huawei/appmarket/xo0;
 
     .line 207
     .line 208
     .line 209
     :cond_e
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     .line 210
     .line 211
@@ -613,19 +613,19 @@
 
     .line 212
     .line 213
-    new-instance v1, Lcom/huawei/appmarket/q29;
+    new-instance v1, Lcom/huawei/appmarket/w29;
 
     .line 214
     .line 215
     const/4 v2, 0x6
 
     .line 216
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     .line 217
     .line 218
     .line 219
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 220
     .line 221
@@ -1008,15 +1008,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private static final initView$lambda-4(Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
@@ -1024,19 +1015,19 @@
 
     const-string p1, "this$0"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x4
 
     if-ne p2, p1, :cond_2
 
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     if-eqz p1, :cond_0
 
     const-string p2, "video.clickStartPlay"
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     :cond_0
     sget-object p1, Lcom/huawei/appgallery/videokit/VideoKitLog;->LOG:Lcom/huawei/appgallery/videokit/VideoKitLog;
@@ -1045,7 +1036,7 @@
 
     const-string p3, "OnKeyDown callBack onCancel"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->callBack:Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$EduVideoNetChangeCallBack;
 
@@ -1073,7 +1064,7 @@
 
     const-string v1, "dialog dismiss"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->Companion:Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$Companion;
 
@@ -1089,7 +1080,7 @@
 
     const-string p1, "this$0"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -1112,7 +1103,7 @@
 
     const-string v0, "VideoNetChangeDialog cancel to play"
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1122,7 +1113,7 @@
 
     const-string p1, "this$0"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->isChecked:Z
 
@@ -1134,7 +1125,7 @@
 
     const-string p1, "this$0"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x2
 
@@ -1174,7 +1165,7 @@
 
     const-string p3, "callBack continuePlaying"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->callBack:Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$EduVideoNetChangeCallBack;
 
@@ -1211,7 +1202,7 @@
 
     const-string p1, "VideoNetChangeDialog cancel to play"
 
-    invoke-virtual {p0, p2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_0
@@ -1254,7 +1245,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/ip7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/np7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1274,7 +1265,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/ip7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/np7;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1287,14 +1278,14 @@
 .method public final show()V
     .registers 6
 
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     if-nez v0, :cond_0
 
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->initView()V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     if-eqz v0, :cond_4
 
@@ -1310,7 +1301,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, v3}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v0, v3}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1323,15 +1314,15 @@
 
     const-string v4, "dialog show"
 
-    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->dialog:Lcom/huawei/appmarket/s24;
 
     if-eqz v0, :cond_2
 
     iget-object v2, p0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->mContext:Landroid/content/Context;
 
-    invoke-interface {v0, v2, v3}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v2, v3}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_2
     sget-object v0, Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog;->Companion:Lcom/huawei/appgallery/videokit/impl/view/VideoNetChangeDialog$Companion;
@@ -1346,7 +1337,7 @@
 
     const-string v1, "dialog is showing"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_1

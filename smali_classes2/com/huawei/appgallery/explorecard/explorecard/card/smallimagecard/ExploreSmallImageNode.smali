@@ -92,7 +92,7 @@
 
     .line 4
     .line 5
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 6
     .line 7
@@ -104,7 +104,7 @@
 
     .line 10
     .line 11
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 12
     .line 13
@@ -207,7 +207,7 @@
 
     .line 62
     .line 63
-    invoke-static {p2, p1, v5}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {p2, p1, v5}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 64
     .line 65
@@ -338,7 +338,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public h()I
@@ -347,7 +346,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/z42;->a(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/d52;->a(Landroid/content/Context;)I
 
     move-result v0
 
@@ -393,11 +392,11 @@
     return-void
 .end method
 
-.method public p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 6
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/explorecard/explorecard/card/smallimagecard/ExploreSmallImageNode;->q:Landroid/view/ViewGroup;
 

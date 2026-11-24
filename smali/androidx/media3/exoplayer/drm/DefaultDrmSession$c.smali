@@ -85,11 +85,11 @@
     return v5
 
     :cond_1
-    new-instance v4, Lcom/huawei/appmarket/lw4;
+    new-instance v4, Lcom/huawei/appmarket/ow4;
 
     iget-wide v10, v3, Landroidx/media3/exoplayer/drm/DefaultDrmSession$d;->a:J
 
-    iget-object v12, v2, Landroidx/media3/exoplayer/drm/MediaDrmCallbackException;->b:Lcom/huawei/appmarket/l91;
+    iget-object v12, v2, Landroidx/media3/exoplayer/drm/MediaDrmCallbackException;->b:Lcom/huawei/appmarket/m91;
 
     iget-object v13, v2, Landroidx/media3/exoplayer/drm/MediaDrmCallbackException;->c:Landroid/net/Uri;
 
@@ -113,11 +113,11 @@
 
     move-wide/from16 v19, v6
 
-    invoke-direct/range {v9 .. v20}, Lcom/huawei/appmarket/lw4;-><init>(JLcom/huawei/appmarket/l91;Landroid/net/Uri;Ljava/util/Map;JJJ)V
+    invoke-direct/range {v9 .. v20}, Lcom/huawei/appmarket/ow4;-><init>(JLcom/huawei/appmarket/m91;Landroid/net/Uri;Ljava/util/Map;JJJ)V
 
-    new-instance v6, Lcom/huawei/appmarket/p55;
+    new-instance v6, Lcom/huawei/appmarket/s55;
 
-    invoke-direct {v6, v8}, Lcom/huawei/appmarket/p55;-><init>(I)V
+    invoke-direct {v6, v8}, Lcom/huawei/appmarket/s55;-><init>(I)V
 
     invoke-virtual/range {p2 .. p2}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -157,7 +157,7 @@
 
     iget v3, v3, Landroidx/media3/exoplayer/drm/DefaultDrmSession$d;->e:I
 
-    invoke-direct {v8, v4, v6, v2, v3}, Landroidx/media3/exoplayer/upstream/d$c;-><init>(Lcom/huawei/appmarket/lw4;Lcom/huawei/appmarket/p55;Ljava/io/IOException;I)V
+    invoke-direct {v8, v4, v6, v2, v3}, Landroidx/media3/exoplayer/upstream/d$c;-><init>(Lcom/huawei/appmarket/ow4;Lcom/huawei/appmarket/s55;Ljava/io/IOException;I)V
 
     invoke-interface {v7, v8}, Landroidx/media3/exoplayer/upstream/d;->a(Landroidx/media3/exoplayer/upstream/d$c;)J
 
@@ -330,7 +330,7 @@
 
     const-string v3, "Key/provisioning request produced an unexpected exception. Not retrying."
 
-    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/cy4;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_2
 

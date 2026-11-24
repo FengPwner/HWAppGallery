@@ -97,7 +97,7 @@
 
     invoke-virtual {p1, p2, p2, p2, p2}, Landroid/view/View;->setPadding(IIII)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     return-void
 .end method
@@ -158,11 +158,11 @@
 
     move-result v2
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v3
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     move-result v4
 
@@ -172,7 +172,7 @@
 
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v0
 
@@ -186,7 +186,7 @@
     .registers 10
 
     .line 1
-    new-instance v7, Lcom/huawei/appmarket/y37;
+    new-instance v7, Lcom/huawei/appmarket/d47;
 
     .line 2
     .line 3
@@ -194,7 +194,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 6
     .line 7
@@ -216,12 +216,12 @@
     move v2, p1
 
     .line 15
-    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/y37;-><init>(Landroid/content/Context;ZIZJ)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/d47;-><init>(Landroid/content/Context;ZIZJ)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v7}, Lcom/huawei/appmarket/uz2;->v1()V
+    invoke-virtual {v7}, Lcom/huawei/appmarket/xz2;->v1()V
 
     .line 19
     .line 20
@@ -320,7 +320,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final Q()Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;
@@ -440,7 +439,7 @@
     move-result-object v5
 
     .line 44
-    instance-of v6, v5, Lcom/huawei/appmarket/y37;
+    instance-of v6, v5, Lcom/huawei/appmarket/d47;
 
     .line 45
     .line 46
@@ -468,7 +467,7 @@
 
     .line 56
     :cond_2
-    invoke-static {v6}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v6}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     .line 57
     .line 58

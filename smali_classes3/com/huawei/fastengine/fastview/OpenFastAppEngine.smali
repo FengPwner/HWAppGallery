@@ -429,7 +429,7 @@
 
     .line 88
     .line 89
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 90
     .line 91
@@ -759,8 +759,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public static getInstance()Lcom/huawei/fastengine/fastview/OpenFastAppEngine;

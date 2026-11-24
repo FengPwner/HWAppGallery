@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vj3;
+.implements Lcom/huawei/appmarket/xj3;
 
 
 # direct methods
@@ -17,18 +17,18 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
     .registers 2
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/om7;
+    new-instance p1, Lcom/huawei/appmarket/um7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/om7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/um7;-><init>()V
 
     return-object p1
 .end method
 
-.method public final b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/nx3;Lcom/huawei/appmarket/dt1;)Z
+.method public final b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/px3;Lcom/huawei/appmarket/gt1;)Z
     .registers 5
 
     .line 1
@@ -37,25 +37,25 @@
     return p1
 .end method
 
-.method public final c(II)Lcom/huawei/appmarket/rd1;
+.method public final c(II)Lcom/huawei/appmarket/td1;
     .registers 3
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/rd1;
+    new-instance p1, Lcom/huawei/appmarket/td1;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/rd1;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/td1;-><init>()V
 
     return-object p1
 .end method
 
-.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
     .registers 4
 
     .line 1
     return-void
 .end method
 
-.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
     .registers 5
 
     .line 1
@@ -64,13 +64,13 @@
     return-object p1
 .end method
 
-.method public final f()Lcom/huawei/appmarket/rd1;
+.method public final f()Lcom/huawei/appmarket/td1;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/rd1;
+    new-instance v0, Lcom/huawei/appmarket/td1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/rd1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/td1;-><init>()V
 
     return-object v0
 .end method

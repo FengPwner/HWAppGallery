@@ -1,469 +1,414 @@
-.class public abstract Lcom/huawei/appmarket/lj8;
-.super Lcom/huawei/appmarket/uj7;
+.class public final Lcom/huawei/appmarket/lj8;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/lj8$b;,
-        Lcom/huawei/appmarket/lj8$a;,
-        Lcom/huawei/appmarket/lj8$c;,
-        Lcom/huawei/appmarket/lj8$h;,
-        Lcom/huawei/appmarket/lj8$i;,
-        Lcom/huawei/appmarket/lj8$j;,
-        Lcom/huawei/appmarket/lj8$e;,
-        Lcom/huawei/appmarket/lj8$f;,
-        Lcom/huawei/appmarket/lj8$d;,
-        Lcom/huawei/appmarket/lj8$k;,
-        Lcom/huawei/appmarket/lj8$l;,
-        Lcom/huawei/appmarket/lj8$m;,
-        Lcom/huawei/appmarket/lj8$n;,
-        Lcom/huawei/appmarket/lj8$o;,
-        Lcom/huawei/appmarket/lj8$g;
+        Lcom/huawei/appmarket/lj8$a;
     }
 .end annotation
 
 
+# instance fields
+.field private final a:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Landroid/view/View;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Landroid/view/View;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/uj7;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
 
     return-void
 .end method
 
-.method public static e(Ljava/lang/String;)Lcom/huawei/appmarket/lj8;
+
+# virtual methods
+.method public final a(F)V
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
 
-    move-result v0
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    const/4 v1, -0x1
+    move-result-object v0
 
-    sparse-switch v0, :sswitch_data_0
+    check-cast v0, Landroid/view/View;
 
-    goto/16 :goto_0
+    if-eqz v0, :cond_0
 
-    :sswitch_0
-    const-string v0, "waveOffset"
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result-object v0
 
-    move-result p0
-
-    if-nez p0, :cond_0
-
-    goto/16 :goto_0
+    invoke-virtual {v0, p1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     :cond_0
-    const/16 v1, 0xf
+    return-void
+.end method
 
-    goto/16 :goto_0
+.method public final b()V
+    .registers 2
 
-    :sswitch_1
-    const-string v0, "alpha"
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    move-result p0
+    move-result-object v0
 
-    if-nez p0, :cond_1
+    check-cast v0, Landroid/view/View;
 
-    goto/16 :goto_0
+    if-eqz v0, :cond_0
 
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->cancel()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final c()J
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->getDuration()J
+
+    move-result-wide v0
+
+    return-wide v0
+
+    :cond_0
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+.end method
+
+.method public final d(J)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final e(Landroid/view/animation/Interpolator;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final f(Lcom/huawei/appmarket/nj8;)V
+    .registers 5
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, Landroid/view/View;
+
+    .line 8
+    .line 9
+    if-eqz v0, :cond_1
+
+    .line 10
+    .line 11
+    if-eqz p1, :cond_0
+
+    .line 12
+    .line 13
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v1
+
+    .line 17
+    new-instance v2, Lcom/huawei/appmarket/kj8;
+
+    .line 18
+    .line 19
+    invoke-direct {v2, p0, p1, v0}, Lcom/huawei/appmarket/kj8;-><init>(Lcom/huawei/appmarket/lj8;Lcom/huawei/appmarket/nj8;Landroid/view/View;)V
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    .line 23
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_0
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p1
+
+    .line 30
+    const/4 v0, 0x0
+
+    .line 31
+    invoke-virtual {p1, v0}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    .line 32
+    .line 33
+    .line 34
     :cond_1
-    const/16 v1, 0xe
+    :goto_0
+    return-void
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+.end method
 
-    goto/16 :goto_0
+.method public final g(J)V
+    .registers 4
 
-    :sswitch_2
-    const-string v0, "transitionPathRotate"
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    move-result p0
+    move-result-object v0
 
-    if-nez p0, :cond_2
+    check-cast v0, Landroid/view/View;
 
-    goto/16 :goto_0
+    if-eqz v0, :cond_0
 
-    :cond_2
-    const/16 v1, 0xd
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
-    goto/16 :goto_0
+    move-result-object v0
 
-    :sswitch_3
-    const-string v0, "elevation"
+    invoke-virtual {v0, p1, p2}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    :cond_0
+    return-void
+.end method
 
-    move-result p0
+.method public final h(Lcom/huawei/appmarket/pj8;)V
+    .registers 5
 
-    if-nez p0, :cond_3
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
 
-    goto/16 :goto_0
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    :cond_3
-    const/16 v1, 0xc
+    move-result-object v0
 
-    goto/16 :goto_0
+    check-cast v0, Landroid/view/View;
 
-    :sswitch_4
-    const-string v0, "rotation"
+    if-eqz v0, :cond_1
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    if-eqz p1, :cond_0
 
-    move-result p0
+    new-instance v1, Lcom/huawei/appmarket/jj8;
 
-    if-nez p0, :cond_4
+    const/4 v2, 0x0
 
-    goto/16 :goto_0
-
-    :cond_4
-    const/16 v1, 0xb
-
-    goto/16 :goto_0
-
-    :sswitch_5
-    const-string v0, "transformPivotY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_5
-
-    goto/16 :goto_0
-
-    :cond_5
-    const/16 v1, 0xa
-
-    goto/16 :goto_0
-
-    :sswitch_6
-    const-string v0, "transformPivotX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_6
-
-    goto/16 :goto_0
-
-    :cond_6
-    const/16 v1, 0x9
-
-    goto/16 :goto_0
-
-    :sswitch_7
-    const-string v0, "waveVariesBy"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    goto/16 :goto_0
-
-    :cond_7
-    const/16 v1, 0x8
-
-    goto/16 :goto_0
-
-    :sswitch_8
-    const-string v0, "scaleY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_8
-
-    goto :goto_0
-
-    :cond_8
-    const/4 v1, 0x7
+    invoke-direct {v1, p1, v2, v0}, Lcom/huawei/appmarket/jj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     goto :goto_0
 
-    :sswitch_9
-    const-string v0, "scaleX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_9
-
-    goto :goto_0
-
-    :cond_9
-    const/4 v1, 0x6
-
-    goto :goto_0
-
-    :sswitch_a
-    const-string v0, "progress"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_a
-
-    goto :goto_0
-
-    :cond_a
-    const/4 v1, 0x5
-
-    goto :goto_0
-
-    :sswitch_b
-    const-string v0, "translationZ"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_b
-
-    goto :goto_0
-
-    :cond_b
-    const/4 v1, 0x4
-
-    goto :goto_0
-
-    :sswitch_c
-    const-string v0, "translationY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_c
-
-    goto :goto_0
-
-    :cond_c
-    const/4 v1, 0x3
-
-    goto :goto_0
-
-    :sswitch_d
-    const-string v0, "translationX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_d
-
-    goto :goto_0
-
-    :cond_d
-    const/4 v1, 0x2
-
-    goto :goto_0
-
-    :sswitch_e
-    const-string v0, "rotationY"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_e
-
-    goto :goto_0
-
-    :cond_e
-    const/4 v1, 0x1
-
-    goto :goto_0
-
-    :sswitch_f
-    const-string v0, "rotationX"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_f
-
-    goto :goto_0
-
-    :cond_f
+    :cond_0
     const/4 v1, 0x0
 
     :goto_0
-    packed-switch v1, :pswitch_data_0
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
-    const/4 p0, 0x0
+    move-result-object p1
 
-    return-object p0
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/lj8$a;->a(Landroid/view/ViewPropertyAnimator;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/view/ViewPropertyAnimator;
 
-    :pswitch_0
-    new-instance p0, Lcom/huawei/appmarket/lj8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_1
-    new-instance p0, Lcom/huawei/appmarket/lj8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_2
-    new-instance p0, Lcom/huawei/appmarket/lj8$d;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$d;-><init>()V
-
-    return-object p0
-
-    :pswitch_3
-    new-instance p0, Lcom/huawei/appmarket/lj8$c;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$c;-><init>()V
-
-    return-object p0
-
-    :pswitch_4
-    new-instance p0, Lcom/huawei/appmarket/lj8$h;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$h;-><init>()V
-
-    return-object p0
-
-    :pswitch_5
-    new-instance p0, Lcom/huawei/appmarket/lj8$f;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$f;-><init>()V
-
-    return-object p0
-
-    :pswitch_6
-    new-instance p0, Lcom/huawei/appmarket/lj8$e;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$e;-><init>()V
-
-    return-object p0
-
-    :pswitch_7
-    new-instance p0, Lcom/huawei/appmarket/lj8$a;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$a;-><init>()V
-
-    return-object p0
-
-    :pswitch_8
-    new-instance p0, Lcom/huawei/appmarket/lj8$l;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$l;-><init>()V
-
-    return-object p0
-
-    :pswitch_9
-    new-instance p0, Lcom/huawei/appmarket/lj8$k;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$k;-><init>()V
-
-    return-object p0
-
-    :pswitch_a
-    new-instance p0, Lcom/huawei/appmarket/lj8$g;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$g;-><init>()V
-
-    return-object p0
-
-    :pswitch_b
-    new-instance p0, Lcom/huawei/appmarket/lj8$o;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$o;-><init>()V
-
-    return-object p0
-
-    :pswitch_c
-    new-instance p0, Lcom/huawei/appmarket/lj8$n;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$n;-><init>()V
-
-    return-object p0
-
-    :pswitch_d
-    new-instance p0, Lcom/huawei/appmarket/lj8$m;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$m;-><init>()V
-
-    return-object p0
-
-    :pswitch_e
-    new-instance p0, Lcom/huawei/appmarket/lj8$j;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$j;-><init>()V
-
-    return-object p0
-
-    :pswitch_f
-    new-instance p0, Lcom/huawei/appmarket/lj8$i;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8$i;-><init>()V
-
-    return-object p0
-
-    :sswitch_data_0
-    .sparse-switch
-        -0x4a771f66 -> :sswitch_f
-        -0x4a771f65 -> :sswitch_e
-        -0x490b9c39 -> :sswitch_d
-        -0x490b9c38 -> :sswitch_c
-        -0x490b9c37 -> :sswitch_b
-        -0x3bab3dd3 -> :sswitch_a
-        -0x3621dfb2 -> :sswitch_9
-        -0x3621dfb1 -> :sswitch_8
-        -0x2f893320 -> :sswitch_7
-        -0x2d5a2d1e -> :sswitch_6
-        -0x2d5a2d1d -> :sswitch_5
-        -0x266f082 -> :sswitch_4
-        -0x42d1a3 -> :sswitch_3
-        0x2382115 -> :sswitch_2
-        0x589b15e -> :sswitch_1
-        0x94e04ec -> :sswitch_0
-    .end sparse-switch
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_f
-        :pswitch_e
-        :pswitch_d
-        :pswitch_c
-        :pswitch_b
-        :pswitch_a
-        :pswitch_9
-        :pswitch_8
-        :pswitch_7
-        :pswitch_6
-        :pswitch_5
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
+    :cond_1
+    return-void
 .end method
 
+.method public final i()V
+    .registers 2
 
-# virtual methods
-.method public abstract f(Landroid/view/View;F)V
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final j(F)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lj8;->a:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
+
+    :cond_0
+    return-void
 .end method

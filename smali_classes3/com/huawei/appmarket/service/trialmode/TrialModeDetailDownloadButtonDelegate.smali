@@ -12,11 +12,11 @@
     return-void
 .end method
 
-.method public static synthetic S(Lcom/huawei/appmarket/service/trialmode/TrialModeDetailDownloadButtonDelegate;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+.method public static synthetic S(Lcom/huawei/appmarket/service/trialmode/TrialModeDetailDownloadButtonDelegate;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
     .registers 4
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 
     .line 2
     .line 3
@@ -886,7 +886,7 @@
 
 
 # virtual methods
-.method protected final G(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;I)Lcom/huawei/appmarket/om7;
+.method protected final G(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;I)Lcom/huawei/appmarket/um7;
     .registers 4
 
     .line 1
@@ -901,7 +901,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->G(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;I)Lcom/huawei/appmarket/om7;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->G(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;I)Lcom/huawei/appmarket/um7;
 
     move-result-object p1
 
@@ -909,18 +909,18 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/dt1;->e:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->e:Lcom/huawei/appmarket/gt1;
 
     const p2, 0x7f120410
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/dt1;I)Lcom/huawei/appmarket/om7;
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/gt1;I)Lcom/huawei/appmarket/um7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+.method public final d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
     .registers 11
 
     .line 1
@@ -932,13 +932,13 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/b48;->e(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Landroid/app/Activity;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/h48;->e(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Landroid/app/Activity;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/zg5;
+    new-instance v0, Lcom/huawei/appmarket/ch5;
 
     const/16 v6, 0xa
 
@@ -952,14 +952,14 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/zg5;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/ch5;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/b48;->f(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/zg5;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/h48;->f(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appmarket/ch5;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 
     :goto_0
     return-void

@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->c:Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -39,13 +39,13 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     const/4 v1, 0x0
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard$a;->c:Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     invoke-virtual {v2}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/fj4;->h(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/hj4;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -81,13 +81,13 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/fj4;->d()Lcom/huawei/appmarket/fj4;
+    invoke-static {}, Lcom/huawei/appmarket/hj4;->d()Lcom/huawei/appmarket/hj4;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/fj4;->a(Landroid/app/Activity;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/hj4;->a(Landroid/app/Activity;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;

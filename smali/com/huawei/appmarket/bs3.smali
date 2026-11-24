@@ -2,25 +2,23 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/bs3$a;
+    }
+.end annotation
+
 
 # virtual methods
-.method public abstract a()V
-.end method
-
-.method public abstract b(Ljava/lang/String;IIII)V
-.end method
-
-.method public abstract c()Z
-.end method
-
-.method public abstract release()V
-.end method
-
-.method public abstract reset()V
-.end method
-
-.method public abstract start()V
-.end method
-
-.method public abstract stop()V
+.method public abstract Y1(Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
 .end method

@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h37;
+.implements Lcom/huawei/appmarket/m37;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "app_webview_fragment"
     protocol = Lcom/huawei/appgallery/agwebview/api/ui/IAppDetailWebViewFragmentProtocol;
 .end annotation
@@ -43,7 +43,7 @@
 
     .line 7
     :cond_0
-    sget v1, Lcom/huawei/appmarket/ei8;->h:I
+    sget v1, Lcom/huawei/appmarket/ki8;->h:I
 
     .line 8
     .line 9

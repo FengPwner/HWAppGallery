@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tn3;
+.implements Lcom/huawei/appmarket/vn3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "large_webview_fragment"
     protocol = Lcom/huawei/appgallery/distribution/impl/webview/protoco/ILargeWebViewFragmentProtocol;
 .end annotation
@@ -37,25 +37,25 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/xq1;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/ar1;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xq1;->n(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ar1;->n(Z)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/xq1;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/ar1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xq1;->j()Lcom/huawei/appmarket/xk1;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ar1;->j()Lcom/huawei/appmarket/al1;
 
     move-result-object v0
 
     const/4 v1, 0x4
 
-    invoke-static {v0, v1, v1}, Lcom/huawei/appmarket/h90;->G(Lcom/huawei/appmarket/xk1;II)V
+    invoke-static {v0, v1, v1}, Lcom/huawei/appmarket/h90;->G(Lcom/huawei/appmarket/al1;II)V
 
     return-void
 .end method
@@ -64,13 +64,13 @@
     .registers 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/xq1;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->g3()Lcom/huawei/appmarket/ar1;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xq1;->n(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ar1;->n(Z)V
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/distribution/impl/webview/view/FullWebViewFragment;->d2(Landroid/os/Bundle;)V
 

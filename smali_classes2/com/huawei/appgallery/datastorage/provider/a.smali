@@ -9,7 +9,7 @@
         value = {
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/dy6;",
+            "Lcom/huawei/appmarket/hy6;",
             ">;"
         }
     .end annotation
@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/huawei/appmarket/dy6;)V
+.method public final a(Ljava/lang/String;Lcom/huawei/appmarket/hy6;)V
     .registers 6
 
     .line 1
@@ -47,7 +47,7 @@
 
     if-eqz v1, :cond_0
 
-    sget-object p2, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p2, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "config has been added:"
 
@@ -55,7 +55,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/m91;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/n91;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -66,16 +66,16 @@
 
     if-eqz v1, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "error name,Name must not be empty"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
-    iget-object v1, p2, Lcom/huawei/appmarket/dy6;->b:Ljava/lang/String;
+    iget-object v1, p2, Lcom/huawei/appmarket/hy6;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -83,23 +83,23 @@
 
     if-eqz v1, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "error rootConfig"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_2
     :try_start_0
-    iget-object v1, p2, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v1, p2, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getCanonicalFile()Ljava/io/File;
 
     move-result-object v1
 
-    iput-object v1, p2, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iput-object v1, p2, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -108,11 +108,11 @@
     return-void
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "error rootFile"
 
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/dy6;
+    check-cast v0, Lcom/huawei/appmarket/hy6;
 
     const/4 v1, 0x0
 
@@ -165,19 +165,19 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "Unable to find configured root for"
 
     :goto_0
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 
     :cond_0
     new-instance v3, Ljava/io/File;
 
-    iget-object v4, v0, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v4, v0, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     invoke-direct {v3, v4, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
@@ -192,7 +192,7 @@
 
     move-result-object v3
 
-    iget-object v4, v0, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v4, v0, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     invoke-virtual {v4}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -204,7 +204,7 @@
 
     if-nez v3, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "Resolved path jumped beyond configured root"
 
@@ -215,7 +215,7 @@
 
     move-result-object v3
 
-    iget-object v0, v0, Lcom/huawei/appmarket/dy6;->b:Ljava/lang/String;
+    iget-object v0, v0, Lcom/huawei/appmarket/hy6;->b:Ljava/lang/String;
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
@@ -223,7 +223,7 @@
 
     if-nez v0, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "Resolved path error suffix"
 
@@ -233,7 +233,7 @@
     return-object p1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string v0, "error uriPath,Failed to resolve canonical path for"
 
@@ -319,11 +319,11 @@
     move-result-object v5
 
     .line 35
-    check-cast v5, Lcom/huawei/appmarket/dy6;
+    check-cast v5, Lcom/huawei/appmarket/hy6;
 
     .line 36
     .line 37
-    iget-object v6, v5, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v6, v5, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     .line 38
     .line 39
@@ -347,7 +347,7 @@
 
     .line 48
     .line 49
-    iget-object v5, v5, Lcom/huawei/appmarket/dy6;->b:Ljava/lang/String;
+    iget-object v5, v5, Lcom/huawei/appmarket/hy6;->b:Ljava/lang/String;
 
     .line 50
     .line 51
@@ -383,11 +383,11 @@
     move-result-object v6
 
     .line 67
-    check-cast v6, Lcom/huawei/appmarket/dy6;
+    check-cast v6, Lcom/huawei/appmarket/hy6;
 
     .line 68
     .line 69
-    iget-object v6, v6, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v6, v6, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     .line 70
     .line 71
@@ -423,7 +423,7 @@
 
     .line 84
     .line 85
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 86
     .line 87
@@ -431,7 +431,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -448,11 +448,11 @@
     move-result-object v0
 
     .line 97
-    check-cast v0, Lcom/huawei/appmarket/dy6;
+    check-cast v0, Lcom/huawei/appmarket/hy6;
 
     .line 98
     .line 99
-    iget-object v0, v0, Lcom/huawei/appmarket/dy6;->a:Ljava/io/File;
+    iget-object v0, v0, Lcom/huawei/appmarket/hy6;->a:Ljava/io/File;
 
     .line 100
     .line 101
@@ -662,7 +662,7 @@
 
     .line 204
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     .line 205
     .line 206
@@ -670,7 +670,7 @@
 
     .line 207
     .line 208
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/m91;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/n91;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 209
     .line 210
@@ -1049,11 +1049,4 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method

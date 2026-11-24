@@ -19,7 +19,7 @@
 
     iput-boolean p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/applistwithtitlecard/AGOHorizontalItemCard;->C:Z
 
-    sget-object p1, Lcom/huawei/appmarket/dt1;->b:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->b:Lcom/huawei/appmarket/gt1;
 
     return-void
 .end method
@@ -229,7 +229,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     .line 91
     .line 92
@@ -310,7 +310,7 @@
 
     .line 127
     .line 128
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
     .line 130

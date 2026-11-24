@@ -19,14 +19,14 @@
 .field private appIntro_:Ljava/lang/String;
 
 .field private corpComplianceInfo:Lcom/huawei/appgallery/detail/detailcard/card/appdetailaboutcard/DetailAboutBean$CorpComplianceInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private name_:Ljava/lang/String;
 
 .field private tagList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -39,7 +39,7 @@
 .end field
 
 .field private versionName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

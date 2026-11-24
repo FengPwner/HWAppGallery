@@ -1,114 +1,35 @@
-.class public abstract Lcom/huawei/appmarket/c52;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/c52;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/a77;
 
 
 # static fields
-.field protected static final TAG:Ljava/lang/String; = "ExportComponentChecker"
-
-
-# instance fields
-.field protected context:Landroid/content/Context;
-
-.field protected taskListener:Lcom/huawei/appmarket/e77;
+.field public static final a:Lcom/huawei/appmarket/c52;
 
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/c52;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/c52;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/c52;->a:Lcom/huawei/appmarket/c52;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public check(Lcom/huawei/appmarket/e77;)V
-    .registers 2
+.method private constructor <init>()V
+    .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/c52;->taskListener:Lcom/huawei/appmarket/e77;
+    const-string v0, "ECard"
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->doCheck()V
+    const/4 v1, 0x1
+
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
 
     return-void
-.end method
-
-.method public checkFailed()V
-    .registers 4
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/f77;->a:Lcom/huawei/appmarket/f77;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "check failed:"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-interface {p0}, Lcom/huawei/appmarket/a77;->getName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "ExportComponentChecker"
-
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/c52;->taskListener:Lcom/huawei/appmarket/e77;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/e77;->a()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public checkSuccess()V
-    .registers 4
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/f77;->a:Lcom/huawei/appmarket/f77;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "check success:"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-interface {p0}, Lcom/huawei/appmarket/a77;->getName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "ExportComponentChecker"
-
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/c52;->taskListener:Lcom/huawei/appmarket/e77;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/e77;->onContinue()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public abstract doCheck()V
 .end method

@@ -2,99 +2,139 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/c37;
 
-
-# static fields
-.field private static final b:Lcom/huawei/appmarket/lw8;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/lw8$b;,
+        Lcom/huawei/appmarket/lw8$d;,
+        Lcom/huawei/appmarket/lw8$c;,
+        Lcom/huawei/appmarket/lw8$e;,
+        Lcom/huawei/appmarket/lw8$a;
+    }
+.end annotation
 
 
 # instance fields
-.field private final a:Ljava/util/HashMap;
+.field private a:Lcom/huawei/appmarket/lw8$d;
+
+.field private b:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/lw8;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/lw8;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/lw8;->b:Lcom/huawei/appmarket/lw8;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/util/HashMap;
+    new-instance v0, Lcom/huawei/appmarket/lw8$b;
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/lw8$b;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/lw8;->a:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/huawei/appmarket/lw8;->a:Lcom/huawei/appmarket/lw8$d;
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/lw8;->b:Z
 
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/lw8;
-    .registers 1
+.method static synthetic b(Lcom/huawei/appmarket/lw8;)V
+    .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lw8;->b:Lcom/huawei/appmarket/lw8;
+    const/4 v0, 0x0
 
-    return-object v0
+    iput-boolean v0, p0, Lcom/huawei/appmarket/lw8;->b:Z
+
+    return-void
+.end method
+
+.method static synthetic c(Lcom/huawei/appmarket/lw8;Lcom/huawei/appmarket/lw8$d;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/lw8;->a:Lcom/huawei/appmarket/lw8$d;
+
+    return-void
 .end method
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/w04;)V
-    .registers 5
+.method public final a(Lorg/json/JSONObject;)Lorg/json/JSONObject;
+    .registers 8
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lw8;->a:Ljava/util/HashMap;
+    new-instance v0, Lcom/huawei/appmarket/lw8$c;
 
-    invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+    new-instance v1, Lorg/json/JSONObject;
 
-    move-result-object v0
+    invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/lw8$c;-><init>(Lorg/json/JSONObject;)V
 
-    move-result-object v0
+    invoke-virtual {p1}, Lorg/json/JSONObject;->names()Lorg/json/JSONArray;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_2
+
+    const/4 v2, 0x0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
 
-    move-result v1
+    move-result v3
 
-    if-eqz v1, :cond_0
+    if-ge v2, v3, :cond_2
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lorg/json/JSONArray;->optString(I)Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v3
 
-    check-cast v1, Ljava/util/Map$Entry;
+    invoke-virtual {p1, v3}, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    move-result-object v4
 
-    move-result-object v2
+    iget-object v5, p0, Lcom/huawei/appmarket/lw8;->a:Lcom/huawei/appmarket/lw8$d;
 
-    check-cast v2, Ljava/lang/String;
+    invoke-interface {v5, v0, v3, v4, p1}, Lcom/huawei/appmarket/lw8$d;->b(Lcom/huawei/appmarket/lw8$e;Ljava/lang/String;Ljava/lang/Object;Lorg/json/JSONObject;)Z
 
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    move-result v5
 
-    move-result-object v1
+    if-eqz v5, :cond_0
 
-    invoke-interface {p1, v2, v1}, Lcom/huawei/appmarket/w04;->set(Ljava/lang/String;Ljava/lang/Object;)V
+    goto :goto_1
+
+    :cond_0
+    iget-boolean v5, p0, Lcom/huawei/appmarket/lw8;->b:Z
+
+    if-eqz v5, :cond_1
+
+    instance-of v5, v4, Lorg/json/JSONObject;
+
+    if-eqz v5, :cond_1
+
+    check-cast v4, Lorg/json/JSONObject;
+
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/lw8;->a(Lorg/json/JSONObject;)Lorg/json/JSONObject;
+
+    move-result-object v4
+
+    :cond_1
+    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/lw8$c;->put(Ljava/lang/String;Ljava/lang/Object;)V
+
+    :goto_1
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    :cond_0
-    return-void
+    :cond_2
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw8$c;->a()Lorg/json/JSONObject;
+
+    move-result-object p1
+
+    return-object p1
 .end method

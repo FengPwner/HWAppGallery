@@ -1,83 +1,42 @@
 .class public final Lcom/huawei/appmarket/tl0;
-.super Lcom/huawei/appmarket/jq1;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# instance fields
-.field private t:Z
-
-
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/kq1;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
-    .registers 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/kq1<",
-            "+",
-            "Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;",
-            ">;",
-            "Lcom/huawei/appmarket/qb3;",
-            "Lcom/huawei/appmarket/sb3$c;",
-            "Z)V"
-        }
-    .end annotation
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/jq1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/kq1;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 p1, 0x1
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/tl0;->t:Z
-
-    instance-of p3, p2, Lcom/huawei/appmarket/ul0;
-
-    if-eqz p3, :cond_1
-
-    check-cast p2, Lcom/huawei/appmarket/ul0;
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ul0;->D()I
-
-    move-result p2
-
-    const/4 p3, 0x2
-
-    if-eq p2, p3, :cond_0
-
-    if-ne p2, p1, :cond_1
-
-    :cond_0
-    const/4 p1, 0x0
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/tl0;->t:Z
-
-    :cond_1
     return-void
 .end method
 
-
-# virtual methods
-.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
-    .registers 3
+.method public static final a(Lcom/huawei/appmarket/fr6;)V
+    .registers 5
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/tb3;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
+    invoke-static {}, Lcom/huawei/appmarket/dn;->b()Lcom/huawei/appmarket/dn$b;
 
-    move-result-object p1
+    move-result-object v0
 
-    iget-boolean p2, p0, Lcom/huawei/appmarket/tl0;->t:Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dn$b;->f()Lcom/huawei/appmarket/dn;
 
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$d0;->setIsRecyclable(Z)V
+    move-result-object v0
 
-    return-object p1
-.end method
+    new-instance v1, Lcom/huawei/appmarket/sl0;
 
-.method public final u()Z
-    .registers 2
+    invoke-direct {v1}, Lcom/huawei/appmarket/sl0;-><init>()V
 
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/tl0;->t:Z
+    new-instance v2, Lcom/huawei/appmarket/na5;
 
-    return v0
+    const/4 v3, 0x1
+
+    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/na5;-><init>(Lcom/huawei/appmarket/ma5;I)V
+
+    const-string v1, "Cards"
+
+    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/na5;->e(Lcom/huawei/appmarket/fr6;Ljava/lang/String;Lcom/huawei/appmarket/dn;)V
+
+    return-void
 .end method

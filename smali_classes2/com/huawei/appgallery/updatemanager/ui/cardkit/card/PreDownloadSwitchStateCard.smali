@@ -36,7 +36,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/du5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/fu5;->a()Z
 
     .line 2
     .line 3
@@ -88,11 +88,11 @@
 
     .line 25
     .line 26
-    const-class v1, Lcom/huawei/appmarket/d54;
+    const-class v1, Lcom/huawei/appmarket/g54;
 
     .line 27
     .line 28
-    invoke-static {v1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -100,11 +100,11 @@
     move-result-object v1
 
     .line 32
-    check-cast v1, Lcom/huawei/appmarket/d54;
+    check-cast v1, Lcom/huawei/appmarket/g54;
 
     .line 33
     .line 34
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/d54;->D(Landroid/content/Context;)Z
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/g54;->D(Landroid/content/Context;)Z
 
     .line 35
     .line 36
@@ -164,7 +164,7 @@
     .line 62
     .line 63
     .line 64
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 65
     .line 66
@@ -215,10 +215,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
@@ -271,7 +270,7 @@
 
     .line 22
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/du5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/fu5;->a()Z
 
     .line 24
     .line 25
@@ -303,11 +302,11 @@
 
     .line 37
     .line 38
-    const-class v1, Lcom/huawei/appmarket/d54;
+    const-class v1, Lcom/huawei/appmarket/g54;
 
     .line 39
     .line 40
-    invoke-static {v1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -315,11 +314,11 @@
     move-result-object v1
 
     .line 44
-    check-cast v1, Lcom/huawei/appmarket/d54;
+    check-cast v1, Lcom/huawei/appmarket/g54;
 
     .line 45
     .line 46
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/d54;->D(Landroid/content/Context;)Z
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/g54;->D(Landroid/content/Context;)Z
 
     .line 47
     .line 48
@@ -401,5 +400,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

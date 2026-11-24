@@ -43,11 +43,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/BannerDownloadCard$c$a;->b:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->h:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->h:Lcom/huawei/appmarket/gt1;
 
     const/4 v2, 0x0
 
@@ -63,11 +63,11 @@
     goto :goto_1
 
     :cond_0
-    sget-object v1, Lcom/huawei/appmarket/dt1;->e:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->e:Lcom/huawei/appmarket/gt1;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     if-eq v0, v1, :cond_1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eh3;
+.implements Lcom/huawei/appmarket/gh3;
 
 
 # instance fields
@@ -146,5 +146,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

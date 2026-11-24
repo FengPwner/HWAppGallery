@@ -43,23 +43,23 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public a(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -150,7 +150,7 @@
 
     check-cast v3, Lcom/huawei/agconnect/applinking/ReferrerProvider;
 
-    invoke-virtual {p0, p1, v5, v3}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, p1, v5, v3}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v3
 
@@ -163,24 +163,24 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->allOf(Ljava/util/Collection;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->allOf(Ljava/util/Collection;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance v1, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$1;
 
-    invoke-direct {v1, p0, v2, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$1;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Ljava/util/Map;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v1, p0, v2, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$1;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Ljava/util/Map;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/hv7;
+.method public a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -189,39 +189,39 @@
             "Ljava/lang/String;",
             "Lcom/huawei/agconnect/applinking/ReferrerProvider;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     if-eqz p3, :cond_0
 
-    invoke-interface {p3, p1}, Lcom/huawei/agconnect/applinking/ReferrerProvider;->getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p3, p1}, Lcom/huawei/agconnect/applinking/ReferrerProvider;->getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance p3, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;
 
-    invoke-direct {p3, p0, v0, p2}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/nv7;Ljava/lang/String;)V
+    invoke-direct {p3, p0, v0, p2}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/tv7;Ljava/lang/String;)V
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     new-instance p2, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$2;
 
-    invoke-direct {p2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$2;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p2, p0, v0}, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$2;-><init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

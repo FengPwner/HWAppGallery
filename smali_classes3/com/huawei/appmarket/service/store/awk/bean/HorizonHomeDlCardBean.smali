@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mx3;
+.implements Lcom/huawei/appmarket/ox3;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Lcom/huawei/appmarket/service/store/awk/bean/BaseHorizontalCardBean<",
         "Lcom/huawei/appgallery/foundation/card/gamereserve/bean/OrderAppCardBean;",
         ">;",
-        "Lcom/huawei/appmarket/mx3;"
+        "Lcom/huawei/appmarket/ox3;"
     }
 .end annotation
 
@@ -39,7 +39,7 @@
 .field private logUri_:Ljava/lang/String;
 
 .field private subTitle:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -67,7 +67,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/HorizonHomeDlCardBean;->list_:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -104,7 +104,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/pn3;",
+            "Lcom/huawei/appmarket/rn3;",
             ">;"
         }
     .end annotation
@@ -121,7 +121,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/HorizonHomeDlCardBean;->list_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -215,13 +215,13 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->n()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->n()I
 
     move-result v2
 
     add-int/2addr v2, v1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->i(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->i(Landroid/content/Context;)I
 
     move-result v0
 

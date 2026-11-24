@@ -59,7 +59,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/bk6;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/dk6;->e()V
 
     .line 13
     .line 14
@@ -156,7 +156,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onAnimationRepeat(Landroid/view/animation/Animation;)V

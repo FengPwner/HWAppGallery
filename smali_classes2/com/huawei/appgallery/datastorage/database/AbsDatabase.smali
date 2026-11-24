@@ -18,7 +18,7 @@
     return-void
 .end method
 
-.method public static insertExtendTypeProcess(Ljava/lang/Class;Lcom/huawei/appmarket/s44;)V
+.method public static insertExtendTypeProcess(Ljava/lang/Class;Lcom/huawei/appmarket/v44;)V
     .registers 3
 
     .line 1
@@ -52,7 +52,7 @@
             "Ljava/util/List<",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/f91;",
+            "Lcom/huawei/appmarket/g91;",
             ">;>;"
         }
     .end annotation

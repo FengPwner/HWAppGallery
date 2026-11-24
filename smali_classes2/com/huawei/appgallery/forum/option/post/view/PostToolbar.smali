@@ -92,7 +92,7 @@
 
     if-eqz p2, :cond_0
 
-    sget-object v2, Lcom/huawei/appmarket/xe6;->b:[I
+    sget-object v2, Lcom/huawei/appmarket/ze6;->b:[I
 
     invoke-virtual {p1, p2, v2, v1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -249,7 +249,7 @@
 
     move-result v0
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
@@ -257,7 +257,7 @@
 
     const/16 p2, 0x18
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p2
 
@@ -275,7 +275,7 @@
 
     iput-object v2, p0, Lcom/huawei/appgallery/forum/option/post/view/PostToolbar;->c:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     new-instance p2, Lcom/huawei/appgallery/forum/option/post/view/PostToolbar$a;
 
@@ -326,7 +326,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 

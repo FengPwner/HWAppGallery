@@ -1,134 +1,329 @@
-.class public final Lcom/huawei/appmarket/jw1;
+.class public final synthetic Lcom/huawei/appmarket/jw1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ku6;
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ku6<",
-        "Landroid/graphics/drawable/Drawable;",
-        "[B>;"
-    }
-.end annotation
-
-
-# instance fields
-.field private final a:Lcom/huawei/appmarket/ka0;
-
-.field private final b:Lcom/huawei/appmarket/ku6;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/ku6<",
-            "Landroid/graphics/Bitmap;",
-            "[B>;"
-        }
-    .end annotation
-.end field
-
-.field private final c:Lcom/huawei/appmarket/ku6;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/ku6<",
-            "Lcom/huawei/appmarket/gz2;",
-            "[B>;"
-        }
-    .end annotation
-.end field
-
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/ka0;Lcom/huawei/appmarket/ku6;Lcom/huawei/appmarket/ku6;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/ka0;",
-            "Lcom/huawei/appmarket/ku6<",
-            "Landroid/graphics/Bitmap;",
-            "[B>;",
-            "Lcom/huawei/appmarket/ku6<",
-            "Lcom/huawei/appmarket/gz2;",
-            "[B>;)V"
-        }
-    .end annotation
+.method public static bridge synthetic A()Ljava/time/temporal/ChronoUnit;
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->DAYS:Ljava/time/temporal/ChronoUnit;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/jw1;->a:Lcom/huawei/appmarket/ka0;
+    return-object v0
+.end method
 
-    iput-object p2, p0, Lcom/huawei/appmarket/jw1;->b:Lcom/huawei/appmarket/ku6;
+.method public static bridge synthetic B(Ljava/nio/file/attribute/DosFileAttributes;)Z
+    .registers 1
 
-    iput-object p3, p0, Lcom/huawei/appmarket/jw1;->c:Lcom/huawei/appmarket/ku6;
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/attribute/DosFileAttributes;->isArchive()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic C()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->NANOS:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic D()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->MICROS:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic a(Ljava/time/Duration;)I
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Ljava/time/Duration;->getNano()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static synthetic b(Landroid/content/Context;)Landroid/app/Notification$Builder;
+    .registers 3
+
+    .line 1
+    new-instance v0, Landroid/app/Notification$Builder;
+
+    const-string v1, "DrmSignService"
+
+    invoke-direct {v0, p0, v1}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static synthetic c()Landroid/app/NotificationChannel;
+    .registers 4
+
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
+
+    const-string v1, "DrmSignService"
+
+    const-string v2, "DrmSignServiceChannel"
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic d()Ljava/lang/Class;
+    .registers 1
+
+    .line 1
+    const-class v0, Ljava/nio/file/attribute/PosixFileAttributeView;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic e(Lcom/huawei/appmarket/f22;)Ljava/lang/ThreadLocal;
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Ljava/lang/ThreadLocal;->withInitial(Ljava/util/function/Supplier;)Ljava/lang/ThreadLocal;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic f()Ljava/nio/file/LinkOption;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/nio/file/LinkOption;->NOFOLLOW_LINKS:Ljava/nio/file/LinkOption;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic g()Ljava/time/Duration;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/Duration;->ZERO:Ljava/time/Duration;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic h(JLjava/time/temporal/ChronoUnit;)Ljava/time/Duration;
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Ljava/time/Duration;->of(JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic i(Ljava/lang/Object;)Ljava/time/Duration;
+    .registers 1
+
+    .line 1
+    check-cast p0, Ljava/time/Duration;
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic j(Ljava/time/temporal/Temporal;Ljava/time/Instant;)Ljava/time/Duration;
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Ljava/time/Duration;->between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic k()Ljava/time/Instant;
+    .registers 1
+
+    .line 1
+    invoke-static {}, Ljava/time/Instant;->now()Ljava/time/Instant;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic l()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->MILLIS:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic m(Landroid/graphics/BitmapFactory$Options;)V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->outColorSpace:Landroid/graphics/ColorSpace;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/cu6;Lcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
-    .registers 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/cu6<",
-            "Landroid/graphics/drawable/Drawable;",
-            ">;",
-            "Lcom/huawei/appmarket/tr5;",
-            ")",
-            "Lcom/huawei/appmarket/cu6<",
-            "[B>;"
-        }
-    .end annotation
+.method public static bridge synthetic n(Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    .registers 2
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->get()Ljava/lang/Object;
+    const/16 v0, 0xc3
 
-    move-result-object v0
+    invoke-virtual {p0, v0}, Landroid/content/Intent;->removeFlags(I)V
 
-    check-cast v0, Landroid/graphics/drawable/Drawable;
+    return-void
+.end method
 
-    instance-of v1, v0, Landroid/graphics/drawable/BitmapDrawable;
+.method public static bridge synthetic o(Ljava/nio/file/attribute/DosFileAttributes;)Z
+    .registers 1
 
-    if-eqz v1, :cond_0
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/attribute/DosFileAttributes;->isReadOnly()Z
 
-    check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
+    move-result p0
 
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    return p0
+.end method
 
-    move-result-object p1
+.method public static bridge synthetic p(Ljava/time/Duration;)Z
+    .registers 1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/jw1;->a:Lcom/huawei/appmarket/ka0;
+    .line 1
+    invoke-virtual {p0}, Ljava/time/Duration;->isNegative()Z
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ma0;->c(Landroid/graphics/Bitmap;Lcom/huawei/appmarket/ka0;)Lcom/huawei/appmarket/ma0;
+    move-result p0
 
-    move-result-object p1
+    return p0
+.end method
 
-    iget-object v0, p0, Lcom/huawei/appmarket/jw1;->b:Lcom/huawei/appmarket/ku6;
+.method public static synthetic q(Landroid/content/Context;)Landroid/app/Notification$Builder;
+    .registers 3
 
-    :goto_0
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ku6;->a(Lcom/huawei/appmarket/cu6;Lcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+    .line 1
+    new-instance v0, Landroid/app/Notification$Builder;
 
-    move-result-object p1
+    const-string v1, "DynamicCoreService"
 
-    return-object p1
+    invoke-direct {v0, p0, v1}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    :cond_0
-    instance-of v0, v0, Lcom/huawei/appmarket/gz2;
+    return-object v0
+.end method
 
-    if-eqz v0, :cond_1
+.method public static synthetic r()Landroid/app/NotificationChannel;
+    .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/jw1;->c:Lcom/huawei/appmarket/ku6;
+    .line 1
+    new-instance v0, Landroid/app/NotificationChannel;
 
-    goto :goto_0
+    const-string v1, "DynamicCoreService"
 
-    :cond_1
-    const/4 p1, 0x0
+    const-string v2, "DynamicCoreServiceChannel"
 
-    return-object p1
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic s()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->SECONDS:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic t(Landroid/graphics/BitmapFactory$Options;)V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->outConfig:Landroid/graphics/Bitmap$Config;
+
+    return-void
+.end method
+
+.method public static bridge synthetic u(Ljava/nio/file/attribute/DosFileAttributes;)Z
+    .registers 1
+
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/attribute/DosFileAttributes;->isHidden()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic v(Ljava/time/Duration;)Z
+    .registers 1
+
+    .line 1
+    invoke-virtual {p0}, Ljava/time/Duration;->isZero()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic w()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->MINUTES:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic x(Ljava/nio/file/attribute/DosFileAttributes;)Z
+    .registers 1
+
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/attribute/DosFileAttributes;->isSystem()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static bridge synthetic y()Ljava/time/temporal/ChronoUnit;
+    .registers 1
+
+    .line 1
+    sget-object v0, Ljava/time/temporal/ChronoUnit;->HOURS:Ljava/time/temporal/ChronoUnit;
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic z(Ljava/nio/file/attribute/DosFileAttributes;)Z
+    .registers 1
+
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/attribute/DosFileAttributes;->isDirectory()Z
+
+    move-result p0
+
+    return p0
 .end method

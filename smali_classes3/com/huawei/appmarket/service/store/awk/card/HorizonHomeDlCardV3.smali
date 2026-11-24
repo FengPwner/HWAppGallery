@@ -43,7 +43,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -51,13 +51,13 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     move-result v0
 
@@ -185,7 +185,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 32
     .line 33
@@ -193,7 +193,7 @@
     move-result v0
 
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
     .line 36
     .line 37
@@ -208,11 +208,11 @@
     sub-int/2addr v1, v0
 
     .line 42
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb3;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tb3;->c(I)V
 
     .line 45
     .line 46
@@ -225,7 +225,7 @@
     move-result v1
 
     .line 51
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb3;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tb3;->d(I)V
 
     .line 52
     .line 53
@@ -389,7 +389,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -446,7 +446,7 @@
 
     mul-int v0, v0, p2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result p1
 
@@ -484,7 +484,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/b00;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/fs;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 14
     .line 15
@@ -505,7 +505,7 @@
     const/4 v2, 0x0
 
     .line 24
-    invoke-static {v0, v1, p1, v2}, Lcom/huawei/appmarket/ej2;->v(Landroid/content/Context;ILandroid/widget/TextView;I)V
+    invoke-static {v0, v1, p1, v2}, Lcom/huawei/appmarket/tr2;->t(Landroid/content/Context;ILandroid/widget/TextView;I)V
 
     .line 25
     .line 26
@@ -599,5 +599,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

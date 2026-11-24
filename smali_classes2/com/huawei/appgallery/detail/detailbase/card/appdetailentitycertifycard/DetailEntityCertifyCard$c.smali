@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailentitycertifycard/DetailEntityCertifyCard$c;->u:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a1698
+    const v0, 0x7f0a1699
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailentitycertifycard/DetailEntityCertifyCard$c;->v:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a1668
+    const v0, 0x7f0a1669
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailentitycertifycard/DetailEntityCertifyCard$c;->w:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a169c
+    const v0, 0x7f0a169d
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

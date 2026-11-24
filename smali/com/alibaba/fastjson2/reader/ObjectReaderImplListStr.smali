@@ -558,11 +558,11 @@
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 p4, 0x11
 
-    invoke-direct {v0, p4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, p4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     goto/16 :goto_2
 
@@ -575,11 +575,11 @@
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 p4, 0x12
 
-    invoke-direct {v0, p4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, p4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     goto :goto_2
 
@@ -592,11 +592,11 @@
 
     invoke-direct {p2}, Ljava/util/LinkedHashSet;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 p4, 0x13
 
-    invoke-direct {v0, p4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, p4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     goto :goto_2
 
@@ -609,11 +609,11 @@
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 p4, 0x14
 
-    invoke-direct {v0, p4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, p4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     goto :goto_2
 
@@ -626,11 +626,11 @@
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/im5;
+    new-instance v0, Lcom/huawei/appmarket/km5;
 
     const/16 p4, 0x15
 
-    invoke-direct {v0, p4}, Lcom/huawei/appmarket/im5;-><init>(I)V
+    invoke-direct {v0, p4}, Lcom/huawei/appmarket/km5;-><init>(I)V
 
     goto :goto_2
 
@@ -715,7 +715,7 @@
     :cond_e
     if-eqz v0, :cond_f
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/im5;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/km5;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

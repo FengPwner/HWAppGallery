@@ -36,7 +36,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ok0;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/pk0;->a()I
 
     move-result v0
 
@@ -119,7 +119,7 @@
 
     .line 34
     .line 35
-    invoke-static {v2, p1, v4}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v2, p1, v4}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 36
     .line 37
@@ -287,5 +287,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

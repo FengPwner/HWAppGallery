@@ -172,7 +172,7 @@
 
     .line 47
     .line 48
-    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 49
     .line 50
@@ -254,7 +254,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static log(Ljava/lang/String;)V
@@ -269,7 +268,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -397,5 +396,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

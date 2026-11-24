@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zn5;
+.implements Lcom/huawei/appmarket/ao5;
 
 
 # annotations
@@ -48,7 +48,7 @@
 
     const-string p2, "group.getCheckedRadioButtonId() != checkedId"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -79,7 +79,7 @@
 
     const-string v0, "01"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-static {p1, v2}, Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;->E3(Lcom/huawei/appmarket/service/settings/view/activity/SettingsVideoAutoPlayActivity;I)V
@@ -107,7 +107,7 @@
 
     const-string v0, "02"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -134,7 +134,7 @@
 
     const-string v0, "03"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x2
 
@@ -150,11 +150,11 @@
 
     invoke-virtual {p2, p1, v2}, Lcom/huawei/appgallery/videokit/impl/util/PlayUtil;->setVideoSettingStatus(Landroid/content/Context;I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object p1
 
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/pl0;->H(I)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ql0;->H(I)V
 
     return-void
 .end method

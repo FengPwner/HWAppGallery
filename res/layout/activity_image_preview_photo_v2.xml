@@ -59,20 +59,39 @@
         android:layout_width="fill_parent"
         android:layout_height="@dimen/screen_card_top_scrim_title_height"
         android:importantForAccessibility="no" />
-    <FrameLayout
+    <LinearLayout
         android:layout_gravity="top"
+        android:orientation="vertical"
         android:id="@id/title_bar_layout"
         android:layout_width="fill_parent"
-        android:layout_height="56.0dip"
-        android:layout_marginStart="@dimen/appgallery_card_elements_margin_l">
-        <ImageView
-            android:layout_gravity="start|center"
-            android:id="@id/close_imageview"
-            android:tag="css/.widget"
-            android:background="@drawable/aguikit_ic_public_back"
-            android:layout_width="@dimen/search_icon_landscape_width"
-            android:layout_height="@dimen/search_icon_landscape_width" />
-    </FrameLayout>
+        android:layout_height="wrap_content">
+        <View
+            android:id="@id/title_status_bar"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height">
+            <RelativeLayout
+                android:gravity="center"
+                android:id="@id/rl_close"
+                android:layout_width="48.0dip"
+                android:layout_height="@dimen/appgallery_hwtoolbar_height"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_s"
+                android:layout_marginEnd="@dimen/margin_s"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:id="@id/close_imageview"
+                    android:tag="css/.widget"
+                    android:background="@drawable/aguikit_ic_public_back"
+                    android:layout_width="@dimen/search_icon_landscape_width"
+                    android:layout_height="@dimen/search_icon_landscape_width"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
     <com.huawei.appgallery.detail.detailbase.basecard.detailscreen.screencard.ScreenCardView
         android:layout_gravity="bottom"
         android:id="@id/screen_card_view"

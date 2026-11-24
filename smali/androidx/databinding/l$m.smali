@@ -65,7 +65,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/du4;)V
+.method public final a(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1

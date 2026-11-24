@@ -16,15 +16,15 @@
     .registers 3
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/hg3;
+    const-class v0, Lcom/huawei/appmarket/jg3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/hg3;
+    check-cast v0, Lcom/huawei/appmarket/jg3;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/hg3;->p2(Landroid/content/Context;Z)V
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/jg3;->q2(Landroid/content/Context;Z)V
 
     return-void
 .end method
@@ -33,15 +33,15 @@
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/hg3;
+    const-class v0, Lcom/huawei/appmarket/jg3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/hg3;
+    check-cast v0, Lcom/huawei/appmarket/jg3;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/hg3;->c0(Landroid/content/Context;)V
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/jg3;->c0(Landroid/content/Context;)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sh7;
+.implements Lcom/huawei/appmarket/xh7;
 
 
 # annotations
@@ -29,7 +29,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qb0$b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qb0$b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appmarket/qb0;->a:Lcom/huawei/appmarket/qb0$b;
 
@@ -381,6 +381,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final b(Ljavax/net/ssl/SSLSocket;)Z
@@ -389,7 +409,7 @@
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of p1, p1, Lorg/bouncycastle/jsse/BCSSLSocket;
 
@@ -402,7 +422,7 @@
     .line 1
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lorg/bouncycastle/jsse/BCSSLSocket;
 
@@ -417,7 +437,7 @@
     :cond_0
     const-string v0, ""
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -438,7 +458,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -621,23 +641,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final e(Ljavax/net/ssl/SSLSocketFactory;)Z
@@ -648,7 +651,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -831,23 +834,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final f(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
@@ -859,7 +845,7 @@
             "Ljava/lang/String;",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/a96;",
+            "Lcom/huawei/appmarket/c96;",
             ">;)V"
         }
     .end annotation
@@ -867,11 +853,11 @@
     .line 1
     const-string p2, "sslSocket"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "protocols"
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appmarket/qb0;->b(Ljavax/net/ssl/SSLSocket;)Z
 
@@ -885,11 +871,11 @@
 
     move-result-object p2
 
-    sget-object v0, Lcom/huawei/appmarket/m16;->Companion:Lcom/huawei/appmarket/m16$a;
+    sget-object v0, Lcom/huawei/appmarket/o16;->Companion:Lcom/huawei/appmarket/o16$a;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p3}, Lcom/huawei/appmarket/m16$a;->a(Ljava/util/List;)Ljava/util/ArrayList;
+    invoke-static {p3}, Lcom/huawei/appmarket/o16$a;->a(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object p3
 

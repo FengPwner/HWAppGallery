@@ -683,11 +683,11 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/uh5;
+    new-instance v0, Lcom/huawei/appmarket/pr;
 
-    const/16 v1, 0xc
+    const/16 v1, 0xe
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 

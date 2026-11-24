@@ -74,7 +74,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/w68;->B(Landroid/content/Context;F)I
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/b78;->B(Landroid/content/Context;F)I
 
     move-result v2
 
@@ -143,9 +143,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
-    sget-object v1, Lcom/huawei/appmarket/dt1;->l:Lcom/huawei/appmarket/dt1;
+    sget-object v1, Lcom/huawei/appmarket/gt1;->l:Lcom/huawei/appmarket/gt1;
 
     if-ne v0, v1, :cond_0
 

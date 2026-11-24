@@ -92,17 +92,17 @@
 
     iput-object p1, p0, Lcom/huawei/hiai/awareness/client/FenceState;->f:Landroid/os/Bundle;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/t12;->k(Landroid/os/Bundle;)Ljava/util/Optional;
+    invoke-static {p1}, Lcom/huawei/appmarket/x12;->k(Landroid/os/Bundle;)Ljava/util/Optional;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/vi1;
+    new-instance v0, Lcom/huawei/appmarket/yi1;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/vi1;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/yi1;-><init>(Ljava/lang/Object;I)V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/t12;->x(Ljava/util/Optional;Lcom/huawei/appmarket/vi1;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/x12;->x(Ljava/util/Optional;Lcom/huawei/appmarket/yi1;)V
 
     return-void
 .end method
@@ -244,7 +244,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

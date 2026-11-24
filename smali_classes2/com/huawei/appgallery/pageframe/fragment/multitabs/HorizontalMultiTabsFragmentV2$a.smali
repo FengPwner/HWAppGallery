@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->E6(I)V
+    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->F6(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,23 +40,23 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2$a;->c0:Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->D6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p2
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->D6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
     invoke-virtual {p2, v0}, Landroid/view/View;->sendAccessibilityEvent(I)V
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;->C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/HorizontalMultiTabsFragmentV2;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
 

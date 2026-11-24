@@ -1,24 +1,24 @@
 .class final Lcom/huawei/appgallery/forum/option/vote/adapter/d;
-.super Lcom/huawei/appmarket/lf7;
+.super Lcom/huawei/appmarket/qf7;
 .source "SourceFile"
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/qk8;
+.field final synthetic b:Lcom/huawei/appmarket/wk8;
 
 .field final synthetic c:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/qk8;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/wk8;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/d;->c:Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/d;->b:Lcom/huawei/appmarket/qk8;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/d;->b:Lcom/huawei/appmarket/wk8;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/lf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/qf7;-><init>()V
 
     return-void
 .end method
@@ -36,11 +36,11 @@
 
     move-result-object p1
 
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/d;->b:Lcom/huawei/appmarket/qk8;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/d;->b:Lcom/huawei/appmarket/wk8;
 
-    iget-object v2, v1, Lcom/huawei/appmarket/qk8;->f:Ljava/lang/String;
+    iget-object v2, v1, Lcom/huawei/appmarket/wk8;->f:Ljava/lang/String;
 
-    iput-object p1, v1, Lcom/huawei/appmarket/qk8;->f:Ljava/lang/String;
+    iput-object p1, v1, Lcom/huawei/appmarket/wk8;->f:Ljava/lang/String;
 
     invoke-static {p1}, Lcom/huawei/appmarket/z50;->c(Ljava/lang/String;)Z
 

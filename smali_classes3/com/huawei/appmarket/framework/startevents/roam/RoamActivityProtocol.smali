@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # instance fields
-.field private roamFragment:Lcom/huawei/appmarket/pr2;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+.field private roamFragment:Lcom/huawei/appmarket/rr2;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "roam.fragment"
     .end annotation
 .end field
@@ -25,11 +25,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/pr2;
+.method public final a()Lcom/huawei/appmarket/rr2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/startevents/roam/RoamActivityProtocol;->roamFragment:Lcom/huawei/appmarket/pr2;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/startevents/roam/RoamActivityProtocol;->roamFragment:Lcom/huawei/appmarket/rr2;
 
     return-object v0
 .end method

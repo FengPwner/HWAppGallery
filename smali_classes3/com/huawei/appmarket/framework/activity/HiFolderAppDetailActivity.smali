@@ -31,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -68,7 +68,7 @@
 
     .line 26
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
 
     .line 27
     .line 28
@@ -167,5 +167,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dv7;
+.implements Lcom/huawei/appmarket/jv7;
 
 
 # annotations
@@ -13,7 +13,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/dv7<",
+        "Lcom/huawei/appmarket/jv7<",
         "TT;>;"
     }
 .end annotation
@@ -24,7 +24,7 @@
 
 .field private final c:I
 
-.field private d:Lcom/huawei/appmarket/hr6;
+.field private d:Lcom/huawei/appmarket/kr6;
 
 
 # direct methods
@@ -44,7 +44,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ie8;->k(II)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ne8;->k(II)Z
 
     move-result v0
 
@@ -64,7 +64,7 @@
     const-string v2, " and height: "
 
     .line 2
-    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -76,16 +76,16 @@
 
 
 # virtual methods
-.method public final getRequest()Lcom/huawei/appmarket/hr6;
+.method public final getRequest()Lcom/huawei/appmarket/kr6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/w61;->d:Lcom/huawei/appmarket/hr6;
+    iget-object v0, p0, Lcom/huawei/appmarket/w61;->d:Lcom/huawei/appmarket/kr6;
 
     return-object v0
 .end method
 
-.method public final getSize(Lcom/huawei/appmarket/pg7;)V
+.method public final getSize(Lcom/huawei/appmarket/ug7;)V
     .registers 4
 
     .line 1
@@ -93,7 +93,7 @@
 
     iget v1, p0, Lcom/huawei/appmarket/w61;->c:I
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/pg7;->c(II)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ug7;->c(II)V
 
     return-void
 .end method
@@ -133,18 +133,18 @@
     return-void
 .end method
 
-.method public final removeCallback(Lcom/huawei/appmarket/pg7;)V
+.method public final removeCallback(Lcom/huawei/appmarket/ug7;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final setRequest(Lcom/huawei/appmarket/hr6;)V
+.method public final setRequest(Lcom/huawei/appmarket/kr6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w61;->d:Lcom/huawei/appmarket/hr6;
+    iput-object p1, p0, Lcom/huawei/appmarket/w61;->d:Lcom/huawei/appmarket/kr6;
 
     return-void
 .end method

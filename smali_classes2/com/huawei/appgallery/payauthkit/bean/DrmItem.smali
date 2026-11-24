@@ -5,7 +5,7 @@
 
 # instance fields
 .field private accountId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -13,7 +13,7 @@
 .field private algorithmType_:I
 
 .field private developerId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -21,13 +21,13 @@
 .field private drmSignType_:I
 
 .field private drmSign_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private payDeviceId_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -97,6 +97,60 @@
     return-object v0
 .end method
 
+.method public final Y(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->accountId_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final Z(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->algorithmType_:I
+
+    return-void
+.end method
+
+.method public final a0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->developerId_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final c0(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->drmSignType_:I
+
+    return-void
+.end method
+
+.method public final e0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->drmSign_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final g0(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->payDeviceId_:Ljava/lang/String;
+
+    return-void
+.end method
+
 .method public final getPkg_()Ljava/lang/String;
     .registers 2
 
@@ -111,4 +165,20 @@
     iget-wide v0, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->ts_:J
 
     return-wide v0
+.end method
+
+.method public final setPkg_(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->pkg_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setTs_(J)V
+    .registers 3
+
+    iput-wide p1, p0, Lcom/huawei/appgallery/payauthkit/bean/DrmItem;->ts_:J
+
+    return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -42,9 +42,9 @@
 
     if-ne p3, p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    sget-object p2, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object p2, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     new-instance p3, Lcom/huawei/appmarket/sr;
 
@@ -58,7 +58,7 @@
 
     invoke-direct {p3, v0, v1, v2}, Lcom/huawei/appmarket/sr;-><init>(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardAppInterceptActivity;Ljava/util/ArrayList;I)V
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardAppInterceptActivity;->L3()V
 

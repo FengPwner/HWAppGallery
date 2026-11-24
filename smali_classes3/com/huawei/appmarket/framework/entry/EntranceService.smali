@@ -45,7 +45,7 @@
 
     const-string v0, "onBind"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appmarket/framework/entry/EntranceCheckTask;
 
@@ -75,21 +75,21 @@
     .line 2
     .line 3
     .line 4
-    sget v0, Lcom/huawei/appmarket/wl2;->b:I
+    sget v0, Lcom/huawei/appmarket/yl2;->b:I
 
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/g83;->j()V
+    invoke-static {}, Lcom/huawei/appmarket/j83;->j()V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/hz4;->l()V
+    invoke-static {}, Lcom/huawei/appmarket/kz4;->l()V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p0}, Lcom/huawei/appmarket/zm7;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/fn7;->b(Landroid/content/Context;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -105,12 +105,12 @@
 
     .line 19
     .line 20
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/g83;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/j83;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/x36;->c()Lcom/huawei/appmarket/x36;
+    invoke-static {}, Lcom/huawei/appmarket/z36;->c()Lcom/huawei/appmarket/z36;
 
     .line 24
     .line 25
@@ -122,7 +122,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/x36;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/z36;->a(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -274,7 +274,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -300,7 +300,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/na3;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->i()Z
 
     .line 20
     .line 21
@@ -344,7 +344,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {}, Lcom/huawei/appmarket/x36;->c()Lcom/huawei/appmarket/x36;
+    invoke-static {}, Lcom/huawei/appmarket/z36;->c()Lcom/huawei/appmarket/z36;
 
     .line 40
     .line 41
@@ -356,7 +356,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/x36;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/z36;->e(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -487,7 +487,7 @@
 
     const-string v1, "onUnbind"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Lcom/huawei/secure/android/common/activity/SafeService;->onUnbind(Landroid/content/Intent;)Z
 

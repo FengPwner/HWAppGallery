@@ -100,12 +100,12 @@
 
     .line 26
     .line 27
-    invoke-static {v1, v3, v4}, Lcom/huawei/appmarket/z84;->w(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v3, v4}, Lcom/huawei/appmarket/tr2;->C(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {v0}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->M3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/dl3;
+    invoke-static {v0}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->M3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/fl3;
 
     .line 31
     .line 32
@@ -117,7 +117,7 @@
 
     .line 35
     .line 36
-    invoke-interface {v1, v4, v3}, Lcom/huawei/appmarket/dl3;->pauseDownload(Ljava/lang/String;I)V
+    invoke-interface {v1, v4, v3}, Lcom/huawei/appmarket/fl3;->pauseDownload(Ljava/lang/String;I)V
 
     .line 37
     .line 38

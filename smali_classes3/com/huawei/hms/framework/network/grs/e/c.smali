@@ -175,7 +175,7 @@
 
     .line 69
     .line 70
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 71
     .line 72
@@ -305,7 +305,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private a(Landroid/content/Context;)V

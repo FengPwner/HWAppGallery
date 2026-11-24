@@ -65,13 +65,13 @@
 
     if-eqz v0, :cond_0
 
-    const-class v0, Lcom/huawei/appmarket/an3;
+    const-class v0, Lcom/huawei/appmarket/cn3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/an3;
+    check-cast v0, Lcom/huawei/appmarket/cn3;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/an3;->O(Landroid/app/Activity;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/cn3;->O(Landroid/app/Activity;)V
 
     :cond_0
     return-void

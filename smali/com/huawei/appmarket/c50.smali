@@ -71,7 +71,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     iget-object v1, p0, Lcom/huawei/appmarket/c50;->b:Ljava/lang/String;
 
@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -111,13 +111,13 @@
 
     if-eqz v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     iget-object v1, p0, Lcom/huawei/appmarket/c50;->b:Ljava/lang/String;
 
     const-string v2, "clear records failed! recordKey is empty!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -167,13 +167,13 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object p1, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     iget-object p2, p0, Lcom/huawei/appmarket/c50;->b:Ljava/lang/String;
 
     const-string v0, "delete recode failed! recordKey is empty or record is null!"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -244,7 +244,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     iget-object v1, p0, Lcom/huawei/appmarket/c50;->b:Ljava/lang/String;
 
@@ -264,7 +264,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     new-instance p1, Ljava/util/ArrayList;
@@ -305,13 +305,13 @@
     return-void
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object p1, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     iget-object p2, p0, Lcom/huawei/appmarket/c50;->b:Ljava/lang/String;
 
     const-string p3, "save recode failed! recordKey is empty or record is null!"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

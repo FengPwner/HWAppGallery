@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/e;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/e;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/titleframe/title/e;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->c(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->c(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v1
 
@@ -35,7 +35,7 @@
 
     const-string v0, "iTitleDataChangedListener is null, illegal"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -62,9 +62,9 @@
 
     move-result-object v2
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/ad7;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/fd7;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->f(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->f(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object p1
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/a44;->F2(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/c44;->F2(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
 
     :cond_1
     return-void

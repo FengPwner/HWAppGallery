@@ -1,0 +1,23 @@
+.class Lorg/bouncycastle/crypto/signers/slhdsa/NodeEntry;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field final nodeHeight:I
+
+.field final nodeValue:[B
+
+
+# direct methods
+.method constructor <init>([BI)V
+    .registers 3
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lorg/bouncycastle/crypto/signers/slhdsa/NodeEntry;->nodeValue:[B
+
+    iput p2, p0, Lorg/bouncycastle/crypto/signers/slhdsa/NodeEntry;->nodeHeight:I
+
+    return-void
+.end method

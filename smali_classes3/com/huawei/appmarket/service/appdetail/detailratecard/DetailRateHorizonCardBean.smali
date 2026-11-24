@@ -52,7 +52,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/appdetail/detailratecard/DetailRateHorizonCardBean;->list_:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -89,7 +89,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/pn3;",
+            "Lcom/huawei/appmarket/rn3;",
             ">;"
         }
     .end annotation
@@ -104,7 +104,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     .line 2
     .line 3
@@ -112,7 +112,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     .line 6
     .line 7
@@ -172,7 +172,7 @@
     move-result v1
 
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/w68;->n()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->n()I
 
     .line 36
     .line 37
@@ -183,7 +183,7 @@
     add-int/2addr v2, v1
 
     .line 40
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->i(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->i(Landroid/content/Context;)I
 
     .line 41
     .line 42

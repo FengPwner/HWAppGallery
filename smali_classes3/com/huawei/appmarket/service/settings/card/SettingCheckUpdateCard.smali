@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bz2;
+.implements Lcom/huawei/appmarket/ez2;
 
 
 # annotations
@@ -25,7 +25,7 @@
 
 .field private D:Landroid/widget/ImageView;
 
-.field private E:Lcom/huawei/appmarket/du4;
+.field private E:Lcom/huawei/appmarket/gu4;
 
 .field private y:I
 
@@ -52,7 +52,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;->z:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object p1
 
@@ -69,7 +69,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -84,7 +84,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/hp0;->d()Lcom/huawei/appmarket/hp0;
+    invoke-static {}, Lcom/huawei/appmarket/ip0;->d()Lcom/huawei/appmarket/ip0;
 
     .line 11
     .line 12
@@ -163,7 +163,7 @@
 
     .line 49
     .line 50
-    new-instance v2, Lcom/huawei/appmarket/hp0;
+    new-instance v2, Lcom/huawei/appmarket/ip0;
 
     .line 51
     .line 52
@@ -179,12 +179,12 @@
     .line 56
     .line 57
     .line 58
-    invoke-direct {v2, v0, v3}, Lcom/huawei/appmarket/hp0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/hp0$b;)V
+    invoke-direct {v2, v0, v3}, Lcom/huawei/appmarket/ip0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ip0$b;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-static {v2}, Lcom/huawei/appmarket/hp0;->g(Lcom/huawei/appmarket/hp0;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/ip0;->g(Lcom/huawei/appmarket/ip0;)V
 
     .line 62
     .line 63
@@ -198,7 +198,7 @@
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/hp0;->f(Lcom/huawei/appmarket/hp0$c;)V
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ip0;->f(Lcom/huawei/appmarket/ip0$c;)V
 
     .line 70
     .line 71
@@ -230,7 +230,7 @@
     .line 84
     .line 85
     :goto_0
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     .line 86
     .line 87
@@ -238,7 +238,7 @@
     move-result-object p0
 
     .line 89
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 90
     .line 91
@@ -268,7 +268,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic o1(Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;)I
@@ -428,7 +427,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -565,7 +563,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
@@ -619,7 +616,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/nv;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    invoke-static {p1}, Lcom/huawei/appmarket/ov;->d(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 
     .line 27
     .line 28
@@ -634,7 +631,7 @@
 
     .line 32
     .line 33
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 34
     .line 35
@@ -700,7 +697,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -768,14 +765,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Y(Lcom/huawei/appmarket/du4;)V
+.method public final Y(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;->E:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;->E:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
@@ -786,7 +782,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
-    invoke-static {}, Lcom/huawei/appmarket/xa8;->d()Lcom/huawei/appmarket/xa8;
+    invoke-static {}, Lcom/huawei/appmarket/cb8;->d()Lcom/huawei/appmarket/cb8;
 
     move-result-object v0
 
@@ -838,11 +834,11 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;->E:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard;->E:Lcom/huawei/appmarket/gu4;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p1
 
@@ -852,7 +848,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard$c;-><init>(Lcom/huawei/appmarket/service/settings/card/SettingCheckUpdateCard$a;)V
 
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_0
     return-object p0

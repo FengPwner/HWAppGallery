@@ -62,11 +62,11 @@
 
     .line 4
     .line 5
-    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     .line 6
     .line 7
-    iget-object v4, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/qb3;
+    iget-object v4, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->B:Lcom/huawei/appmarket/tb3;
 
     .line 8
     .line 9
@@ -83,12 +83,12 @@
     move-object v5, p0
 
     .line 14
-    invoke-direct/range {v0 .. v6}, Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard$a;-><init>(Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/sb3$c;Z)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard$a;-><init>(Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appmarket/vb3$c;Z)V
 
     .line 15
     .line 16
     .line 17
-    iput-object v7, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/sb3;
+    iput-object v7, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->w:Lcom/huawei/appmarket/vb3;
 
     .line 18
     .line 19
@@ -245,11 +245,11 @@
 
     if-eqz v0, :cond_6
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     check-cast p1, Lcom/huawei/appgallery/forum/cards/bean/ForumFeedRecommendCardBean;
 
@@ -273,7 +273,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;->U:Landroid/view/View;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendCard;->T:Landroid/view/ViewStub;
@@ -344,7 +344,7 @@
 
     const/16 v1, 0xca
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -400,7 +400,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ro2;->b(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/to2;->b(Landroid/content/Context;Landroid/view/View;)V
 
     :cond_6
     return-void
@@ -414,7 +414,7 @@
 
     const v0, 0x7f0a018f
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a092a
 
@@ -449,7 +449,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 10
     .line 11
@@ -461,7 +461,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 16
     .line 17
@@ -469,7 +469,7 @@
     move-result v2
 
     .line 19
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 20
     .line 21
@@ -510,11 +510,11 @@
     move-result v0
 
     .line 39
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumHorizonCard;->O:Lcom/huawei/appmarket/ma3;
 
     .line 40
     .line 41
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 42
     .line 43
@@ -526,7 +526,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 48
     .line 49
@@ -549,7 +549,7 @@
 
     .line 57
     .line 58
-    invoke-static {v1}, Lcom/huawei/appmarket/ro2;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/to2;->a(Landroid/content/Context;)I
 
     .line 59
     .line 60
@@ -561,7 +561,7 @@
 
     .line 63
     .line 64
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 65
     .line 66

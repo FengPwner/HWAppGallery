@@ -1,20 +1,39 @@
-.class public interface abstract Lcom/huawei/appmarket/ym;
+.class public interface abstract annotation Lcom/huawei/appmarket/ym;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lcom/huawei/appmarket/ym;
+        alias = ""
+    .end subannotation
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
 
 # virtual methods
-.method public abstract a()V
+.method public abstract alias()Ljava/lang/String;
 .end method
 
-.method public abstract getAppID()Ljava/lang/String;
-.end method
-
-.method public abstract getPackageName()Ljava/lang/String;
-.end method
-
-.method public abstract getService()Lcom/huawei/appmarket/bg3;
-.end method
-
-.method public abstract isConnected()Z
+.method public abstract uri()Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/Class<",
+            "*>;"
+        }
+    .end annotation
 .end method

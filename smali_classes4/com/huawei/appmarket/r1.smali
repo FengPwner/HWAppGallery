@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/j82;)V
+.method public static a(Landroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/n82;)V
     .registers 6
 
     .line 1
@@ -116,11 +116,11 @@
 
     .line 51
     .line 52
-    new-instance v2, Lcom/huawei/appmarket/m99;
+    new-instance v2, Lcom/huawei/appmarket/s99;
 
     .line 53
     .line 54
-    invoke-direct {v2, v0, p1, p0, p2}, Lcom/huawei/appmarket/m99;-><init>(Lohos/ohos/ohos/ohos/ohos/g;Landroid/content/Intent;Landroid/content/Context;Landroid/content/ServiceConnection;)V
+    invoke-direct {v2, v0, p1, p0, p2}, Lcom/huawei/appmarket/s99;-><init>(Lohos/ohos/ohos/ohos/ohos/g;Landroid/content/Intent;Landroid/content/Context;Landroid/content/ServiceConnection;)V
 
     .line 55
     .line 56
@@ -137,7 +137,7 @@
     const/4 p1, 0x0
 
     .line 63
-    invoke-direct {p0, p1}, Lohos/ohos/ohos/ohos/ohos/g$b;-><init>(Lcom/huawei/appmarket/w39;)V
+    invoke-direct {p0, p1}, Lohos/ohos/ohos/ohos/ohos/g$b;-><init>(Lcom/huawei/appmarket/c49;)V
 
     .line 64
     .line 65
@@ -611,49 +611,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public static b(Landroid/content/Context;Landroid/content/Intent;)V
@@ -764,11 +721,11 @@
 
     .line 53
     .line 54
-    new-instance v3, Lcom/huawei/appmarket/w39;
+    new-instance v3, Lcom/huawei/appmarket/c49;
 
     .line 55
     .line 56
-    invoke-direct {v3, v0, v1, p0, v2}, Lcom/huawei/appmarket/w39;-><init>(Lohos/ohos/ohos/ohos/ohos/g;Landroid/content/Intent;Landroid/content/Context;I)V
+    invoke-direct {v3, v0, v1, p0, v2}, Lcom/huawei/appmarket/c49;-><init>(Lohos/ohos/ohos/ohos/ohos/g;Landroid/content/Intent;Landroid/content/Context;I)V
 
     .line 57
     .line 58
@@ -785,7 +742,7 @@
     const/4 v0, 0x0
 
     .line 65
-    invoke-direct {p0, v0}, Lohos/ohos/ohos/ohos/ohos/g$b;-><init>(Lcom/huawei/appmarket/w39;)V
+    invoke-direct {p0, v0}, Lohos/ohos/ohos/ohos/ohos/g$b;-><init>(Lcom/huawei/appmarket/c49;)V
 
     .line 66
     .line 67
@@ -1057,8 +1014,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

@@ -266,7 +266,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private b()V
@@ -325,11 +324,11 @@
     iput-object v0, p0, Lcom/huawei/appgallery/aguikit/widget/toolbar/AppGalleryToolbarLayout;->c:Ljava/util/ArrayList;
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/wl0;
+    new-instance v0, Lcom/huawei/appmarket/xl0;
 
-    const/16 v1, 0xa
+    const/16 v1, 0xb
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -1296,11 +1295,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method protected final onConfigurationChanged(Landroid/content/res/Configuration;)V

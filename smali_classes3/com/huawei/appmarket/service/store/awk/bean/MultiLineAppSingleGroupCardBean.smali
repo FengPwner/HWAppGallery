@@ -20,9 +20,9 @@
 
 
 # instance fields
-.field private cssLink:Lcom/huawei/appmarket/gg0;
+.field private cssLink:Lcom/huawei/appmarket/hg0;
 
-.field private cssRule:Lcom/huawei/appmarket/jg0;
+.field private cssRule:Lcom/huawei/appmarket/kg0;
 
 .field private list_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -61,20 +61,20 @@
     return v0
 .end method
 
-.method public final B2(Lcom/huawei/appmarket/gg0;)V
+.method public final B2(Lcom/huawei/appmarket/hg0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssLink:Lcom/huawei/appmarket/gg0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssLink:Lcom/huawei/appmarket/hg0;
 
     return-void
 .end method
 
-.method public final C2(Lcom/huawei/appmarket/jg0;)V
+.method public final C2(Lcom/huawei/appmarket/kg0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssRule:Lcom/huawei/appmarket/jg0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssRule:Lcom/huawei/appmarket/kg0;
 
     return-void
 .end method
@@ -251,7 +251,7 @@
     move-result-object p1
 
     .line 66
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 67
     .line 68
@@ -304,7 +304,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final T0()Ljava/util/List;
@@ -325,20 +324,20 @@
     return v0
 .end method
 
-.method public final w2()Lcom/huawei/appmarket/gg0;
+.method public final w2()Lcom/huawei/appmarket/hg0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssLink:Lcom/huawei/appmarket/gg0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssLink:Lcom/huawei/appmarket/hg0;
 
     return-object v0
 .end method
 
-.method public final x2()Lcom/huawei/appmarket/jg0;
+.method public final x2()Lcom/huawei/appmarket/kg0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssRule:Lcom/huawei/appmarket/jg0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->cssRule:Lcom/huawei/appmarket/kg0;
 
     return-object v0
 .end method

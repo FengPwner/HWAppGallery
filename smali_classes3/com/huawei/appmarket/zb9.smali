@@ -1,46 +1,126 @@
-.class public interface abstract Lcom/huawei/appmarket/zb9;
+.class public final Lcom/huawei/appmarket/zb9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/w75;
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+# instance fields
+.field private final b:Ljava/lang/String;
+
+.field private final c:[Ljava/lang/Object;
+
+.field private final d:Lcom/huawei/appmarket/lx;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;[Ljava/lang/Object;Lcom/huawei/appmarket/lx;)V
+    .registers 4
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/zb9;->b:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/zb9;->c:[Ljava/lang/Object;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/zb9;->d:Lcom/huawei/appmarket/lx;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract a()Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "+",
-            "Lcom/huawei/appmarket/zb9<",
-            "TT;>;>;"
-        }
-    .end annotation
+.method public final get(I)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb9;->c:[Ljava/lang/Object;
+
+    aget-object p1, v0, p1
+
+    return-object p1
 .end method
 
-.method public abstract get()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
+.method public final get(II)Ljava/lang/Object;
+    .registers 4
+
+    .line 2
+    iget-object v0, p0, Lcom/huawei/appmarket/zb9;->d:Lcom/huawei/appmarket/lx;
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/c22;->h()Lcom/huawei/appmarket/wf8;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/l79;
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/l79;->a(II)Ljava/lang/Object;
+
+    move-result-object p1
+
+    instance-of p2, p1, Lcom/huawei/appmarket/lx$c;
+
+    if-eqz p2, :cond_0
+
+    move-object p2, p1
+
+    check-cast p2, Lcom/huawei/appmarket/lx$c;
+
+    invoke-virtual {p2, p0}, Lcom/huawei/appmarket/lx$c;->b(Lcom/huawei/appmarket/w75;)V
+
+    :cond_0
+    return-object p1
 .end method
 
-.method public abstract getParent()Lcom/huawei/appmarket/zb9;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/zb9<",
-            "TT;>;"
-        }
-    .end annotation
+.method public final set(ILjava/lang/Object;)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb9;->c:[Ljava/lang/Object;
+
+    aput-object p2, v0, p1
+
+    return-void
+.end method
+
+.method public final size()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb9;->c:[Ljava/lang/Object;
+
+    array-length v0, v0
+
+    return v0
+.end method
+
+.method public final slice(II)Lcom/huawei/appmarket/w75;
+    .registers 5
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/zb9;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zb9;->c:[Ljava/lang/Object;
+
+    invoke-static {v1, p1, p2}, Ljava/util/Arrays;->copyOfRange([Ljava/lang/Object;II)[Ljava/lang/Object;
+
+    move-result-object p1
+
+    iget-object p2, p0, Lcom/huawei/appmarket/zb9;->d:Lcom/huawei/appmarket/lx;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zb9;->b:Ljava/lang/String;
+
+    invoke-direct {v0, v1, p1, p2}, Lcom/huawei/appmarket/zb9;-><init>(Ljava/lang/String;[Ljava/lang/Object;Lcom/huawei/appmarket/lx;)V
+
+    return-object v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb9;->b:Ljava/lang/String;
+
+    return-object v0
 .end method

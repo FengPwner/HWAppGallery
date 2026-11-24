@@ -14,7 +14,7 @@
     .line 1
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;ILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;ILcom/huawei/appmarket/id1;)V
     .registers 5
 
     .line 2

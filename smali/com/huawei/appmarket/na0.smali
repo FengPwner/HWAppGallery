@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/v28;
+.implements Lcom/huawei/appmarket/b38;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/v28<",
+        "Lcom/huawei/appmarket/b38<",
         "Landroid/graphics/Bitmap;",
         ">;"
     }
@@ -28,11 +28,11 @@
 
 
 # virtual methods
-.method public final b(Lcom/bumptech/glide/d;Lcom/huawei/appmarket/cu6;II)Lcom/huawei/appmarket/cu6;
+.method public final b(Lcom/bumptech/glide/d;Lcom/huawei/appmarket/gu6;II)Lcom/huawei/appmarket/gu6;
     .registers 7
 
     .line 1
-    invoke-static {p3, p4}, Lcom/huawei/appmarket/ie8;->k(II)Z
+    invoke-static {p3, p4}, Lcom/huawei/appmarket/ne8;->k(II)Z
 
     move-result v0
 
@@ -46,7 +46,7 @@
 
     move-result-object p1
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/cu6;->get()Ljava/lang/Object;
+    invoke-interface {p2}, Lcom/huawei/appmarket/gu6;->get()Ljava/lang/Object;
 
     move-result-object v0
 

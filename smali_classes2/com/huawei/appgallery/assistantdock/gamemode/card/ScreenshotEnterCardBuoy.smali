@@ -86,9 +86,9 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->m:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->m:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -99,13 +99,13 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/cf0;->M2(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/df0;->N2(Landroid/content/Context;)V
 
     const-string v0, "CLICK"
 

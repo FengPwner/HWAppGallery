@@ -1,5 +1,5 @@
 .class public Lcom/huawei/flexiblelayout/css/action/impl/focus/FocusAction;
-.super Lcom/huawei/appmarket/dg0;
+.super Lcom/huawei/appmarket/eg0;
 .source "SourceFile"
 
 # interfaces
@@ -10,7 +10,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dg0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/eg0;-><init>()V
 
     return-void
 .end method
@@ -32,7 +32,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/dg0;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/huawei/appmarket/eg0;->a:Landroid/view/View;
 
     .line 2
     .line 3
@@ -52,7 +52,7 @@
 
     .line 10
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/dg0;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/huawei/appmarket/eg0;->a:Landroid/view/View;
 
     .line 11
     .line 12
@@ -86,7 +86,7 @@
     .line 26
     .line 27
     .line 28
-    iget-object v0, p0, Lcom/huawei/appmarket/dg0;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/huawei/appmarket/eg0;->a:Landroid/view/View;
 
     .line 29
     .line 30
@@ -234,9 +234,9 @@
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/dg0;->e()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/eg0;->e()V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/dg0;->f()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/eg0;->f()V
 
     return-void
 .end method
@@ -245,9 +245,9 @@
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/dg0;->j()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/eg0;->j()V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/dg0;->k()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/eg0;->k()V
 
     return-void
 .end method

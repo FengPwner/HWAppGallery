@@ -157,12 +157,12 @@
     .line 61
     :cond_0
     :goto_2
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 62
     .line 63
     .line 64
-    invoke-static {v3}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 65
     .line 66
@@ -216,7 +216,7 @@
 
     .line 82
     .line 83
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -587,12 +587,12 @@
 
     .line 260
     :goto_b
-    invoke-static {v1}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 261
     .line 262
     .line 263
-    invoke-static {v3}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     .line 264
     .line 265
@@ -966,11 +966,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method static synthetic q(Lcom/huawei/appgallery/forum/option/post/adapter/EmojiVpAdapter;)Lcom/huawei/appgallery/forum/option/post/adapter/EmojiVpAdapter$b;

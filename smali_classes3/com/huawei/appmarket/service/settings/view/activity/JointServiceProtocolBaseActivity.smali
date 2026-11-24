@@ -36,15 +36,15 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/foundation/ui/support/widget/ClickSpan;-><init>(Landroid/content/Context;)V
 
-    new-instance v2, Lcom/huawei/appmarket/d26$b;
+    new-instance v2, Lcom/huawei/appmarket/f26$b;
 
-    invoke-direct {v2, p0, p3}, Lcom/huawei/appmarket/d26$b;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v2, p0, p3}, Lcom/huawei/appmarket/f26$b;-><init>(Landroid/content/Context;I)V
 
     iget p3, p0, Lcom/huawei/appmarket/service/settings/view/activity/JointServiceProtocolBaseActivity;->q:I
 
-    invoke-virtual {v2, p3}, Lcom/huawei/appmarket/d26$b;->f(I)V
+    invoke-virtual {v2, p3}, Lcom/huawei/appmarket/f26$b;->f(I)V
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d26$b;->g()Lcom/huawei/appmarket/d26;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/f26$b;->g()Lcom/huawei/appmarket/f26;
 
     move-result-object p3
 
@@ -207,5 +207,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

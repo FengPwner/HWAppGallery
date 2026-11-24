@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/protobuf/q;->getParserForType()Lcom/huawei/appmarket/gw5;
+    value = Lcom/google/protobuf/q;->getParserForType()Lcom/huawei/appmarket/iw5;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

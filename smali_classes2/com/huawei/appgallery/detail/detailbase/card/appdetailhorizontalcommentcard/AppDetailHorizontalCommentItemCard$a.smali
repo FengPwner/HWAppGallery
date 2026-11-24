@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCardBean;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCard$a;->b:Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCardBean;
 
@@ -34,9 +34,9 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 4
 
-    new-instance v0, Lcom/huawei/appmarket/vc8;
+    new-instance v0, Lcom/huawei/appmarket/ad8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/vc8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ad8;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCard$a;->b:Lcom/huawei/appgallery/detail/detailbase/card/appdetailhorizontalcommentcard/AppDetailHorizontalCommentItemCardBean;
 
@@ -44,21 +44,21 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/vc8;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ad8;->b(Ljava/lang/String;)V
 
-    const-class v1, Lcom/huawei/appmarket/vm3;
+    const-class v1, Lcom/huawei/appmarket/xm3;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/vm3;
+    check-cast v1, Lcom/huawei/appmarket/xm3;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/vm3;->q1(Landroid/content/Context;Lcom/huawei/appmarket/vc8;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/xm3;->r1(Landroid/content/Context;Lcom/huawei/appmarket/ad8;)V
 
     return-void
 .end method

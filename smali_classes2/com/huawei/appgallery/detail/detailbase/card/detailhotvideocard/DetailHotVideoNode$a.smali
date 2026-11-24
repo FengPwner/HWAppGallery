@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;->s(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;->s(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoCard;)V
+.method constructor <init>(Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoCard;)V
     .registers 5
 
     .line 1
@@ -29,7 +29,7 @@
 
     iput-object p4, p0, Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoNode$a;->d:Lcom/huawei/appgallery/detail/detailbase/card/detailhotvideocard/DetailHotVideoCard;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     return-void
 .end method
@@ -61,11 +61,11 @@
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class v1, Lcom/huawei/appgallery/detail/detailbase/view/a;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     const-string v1, "1230700101"
 
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/kj1;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/nj1;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     return-void

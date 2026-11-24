@@ -64,7 +64,7 @@
     const-string p2, "mOnClickListener"
 
     .line 3
-    invoke-static {p1, p2, p0}, Lcom/huawei/appmarket/se3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, p2, p0}, Lcom/huawei/appmarket/ue3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

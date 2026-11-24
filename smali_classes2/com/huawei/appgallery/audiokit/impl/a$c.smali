@@ -50,7 +50,7 @@
     .registers 6
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 2
     .line 3
@@ -62,7 +62,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -133,7 +133,7 @@
     move-result-object p2
 
     .line 42
-    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->d(Lcom/huawei/appgallery/audiokit/impl/a;)Lcom/huawei/appmarket/fi3;
+    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->d(Lcom/huawei/appgallery/audiokit/impl/a;)Lcom/huawei/appmarket/hi3;
 
     .line 43
     .line 44
@@ -141,12 +141,12 @@
     move-result-object v1
 
     .line 46
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/g3;->g(Lcom/huawei/appmarket/fi3;)V
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/g3;->g(Lcom/huawei/appmarket/hi3;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->e(Lcom/huawei/appgallery/audiokit/impl/a;)Lcom/huawei/appmarket/gz;
+    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->e(Lcom/huawei/appgallery/audiokit/impl/a;)Lcom/huawei/appmarket/hz;
 
     .line 50
     .line 51
@@ -154,7 +154,7 @@
     move-result-object p2
 
     .line 53
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/hz;)V
     :try_end_0
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -168,7 +168,7 @@
     move-exception p1
 
     .line 58
-    sget-object p2, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p2, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 59
     .line 60
@@ -206,7 +206,7 @@
     move-result-object p1
 
     .line 78
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -296,13 +296,12 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onServiceDisconnected(Landroid/content/ComponentName;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -318,7 +317,7 @@
 
     const-string v1, "AudioPlayerManager"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/a$c;->b:Ljava/lang/ref/WeakReference;
 

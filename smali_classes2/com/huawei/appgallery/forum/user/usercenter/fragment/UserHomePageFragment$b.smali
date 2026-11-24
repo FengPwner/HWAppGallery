@@ -76,7 +76,7 @@
 
     const-string p2, "no follow data"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -86,19 +86,19 @@
     return-void
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;->f3(Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;)Lcom/huawei/appmarket/p54;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;->f3(Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;)Lcom/huawei/appmarket/s54;
 
     move-result-object p2
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/p54;->a(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/lang/String;
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/s54;->a(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;->f3(Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;)Lcom/huawei/appmarket/p54;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;->f3(Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomePageFragment;)Lcom/huawei/appmarket/s54;
 
     move-result-object v1
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/p54;->d(Lcom/huawei/secure/android/common/intent/SafeIntent;)I
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/s54;->d(Lcom/huawei/secure/android/common/intent/SafeIntent;)I
 
     move-result p1
 

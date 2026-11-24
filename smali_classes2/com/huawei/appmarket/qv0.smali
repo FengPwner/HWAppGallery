@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/rv0;Ljava/lang/String;)V
+.method public static a(Lcom/huawei/appmarket/sk4;Lcom/huawei/appmarket/rv0;Ljava/lang/String;)V
     .registers 6
 
     .line 1
@@ -32,7 +32,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     move-result v1
 
@@ -52,7 +52,7 @@
 
     invoke-virtual {v0, v1, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/jx0;->a(Lcom/huawei/appmarket/pk4;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/jx0;->a(Lcom/huawei/appmarket/sk4;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -66,7 +66,7 @@
 
     const-string p0, "1250100102"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

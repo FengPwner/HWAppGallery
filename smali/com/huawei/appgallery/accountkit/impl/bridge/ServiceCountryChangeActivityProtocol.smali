@@ -39,7 +39,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/ServiceCountryChangeActivityProtocol$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/accountkit/impl/bridge/ServiceCountryChangeActivityProtocol$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     .line 5
     .line 6
@@ -48,7 +48,7 @@
 
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
+    sget-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->k:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
 
     .line 10
     .line 11
@@ -57,7 +57,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->g3()Ljava/util/LinkedHashMap;
+    invoke-static {}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h3()Ljava/util/LinkedHashMap;
 
     .line 15
     .line 16
@@ -193,6 +193,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public constructor <init>()V
@@ -231,7 +232,7 @@
 
     const-string v3, "serialize exception"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -292,7 +293,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26

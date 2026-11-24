@@ -1,670 +1,957 @@
 .class public final Lcom/huawei/appmarket/aj7;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/b30;
 .source "SourceFile"
 
 
-# instance fields
-.field private a:Landroid/app/Activity;
-
-.field private b:Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;
-
-.field private c:Lcom/huawei/appmarket/a44;
-
-
 # direct methods
-.method public constructor <init>(Landroid/app/Activity;Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/b30;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/aj7;->a:Landroid/app/Activity;
+    const-string v0, "SpecialTimeAppsUpdateTask"
 
-    iput-object p2, p0, Lcom/huawei/appmarket/aj7;->b:Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;
+    iput-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Z
-    .registers 13
+.method protected final o()J
+    .registers 3
 
     .line 1
-    const-string v0, "SpinnerCtrl"
+    const-wide/32 v0, 0x6ddd00
+
+    return-wide v0
+.end method
+
+.method protected final s()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    const-string v0, "SpecialTimeAppsUpdateTask"
+
+    return-object v0
+.end method
+
+.method protected final bridge synthetic u(Landroid/content/Context;)Ljava/lang/Object;
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/aj7;->z(Landroid/content/Context;)Lcom/huawei/appmarket/b30$a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method protected final y(Ljava/util/List;Ljava/util/List;)Z
+    .registers 3
+
+    .line 1
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result p1
+
+    if-lez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method protected final z(Landroid/content/Context;)Lcom/huawei/appmarket/b30$a;
+    .registers 15
+
+    .line 1
+    const-string v0, "2"
 
     .line 2
     .line 3
-    const/4 v1, 0x0
+    invoke-static {v0}, Lcom/huawei/appmarket/jj5;->d(Ljava/lang/String;)V
 
     .line 4
-    iget-object v2, p0, Lcom/huawei/appmarket/aj7;->b:Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;
-
     .line 5
     .line 6
-    if-nez v2, :cond_0
+    invoke-static {p1}, Lcom/huawei/appmarket/zi7;->a(Landroid/content/Context;)Z
 
     .line 7
     .line 8
-    const-string v2, "initSpinner: the spinner title is null!"
-
     .line 9
+    move-result v1
+
     .line 10
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v2, "update"
 
     .line 11
     .line 12
-    .line 13
-    return v1
+    if-eqz v1, :cond_0
 
+    .line 13
     .line 14
-    :cond_0
-    invoke-virtual {v2}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->c()Ljava/util/Collection;
+    iget-object p1, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
 
     .line 15
     .line 16
-    .line 17
-    move-result-object v3
+    const-string v0, "do not check app update, task had complete once."
 
+    .line 17
     .line 18
-    if-eqz v3, :cond_9
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
-    invoke-virtual {v2}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->c()Ljava/util/Collection;
-
     .line 21
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 22
     .line 23
-    move-result-object v3
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 24
-    invoke-interface {v3}, Ljava/util/Collection;->size()I
-
     .line 25
     .line 26
-    .line 27
-    move-result v3
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
 
+    .line 27
     .line 28
-    if-gtz v3, :cond_1
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
-    goto/16 :goto_6
-
     .line 31
-    .line 32
-    :cond_1
-    invoke-virtual {v2}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->c()Ljava/util/Collection;
+    const-string v0, "#taskExecuted"
 
+    .line 32
     .line 33
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 34
     .line 35
-    move-result-object v3
-
     .line 36
-    invoke-interface {v3}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 37
     .line 38
     .line 39
-    move-result-object v3
+    move-result-object p1
 
     .line 40
-    const/4 v4, 0x0
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
-    :cond_2
-    :goto_0
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
-
     .line 42
     .line 43
-    .line 44
-    move-result v5
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
 
+    .line 44
     .line 45
-    if-eqz v5, :cond_8
+    return-object p1
 
     .line 46
-    .line 47
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
+    .line 47
     .line 48
     .line 49
-    .line 50
-    move-result-object v5
+    new-instance v1, Ljava/util/LinkedHashMap;
 
+    .line 50
     .line 51
-    check-cast v5, Lcom/huawei/appmarket/bj7;
+    invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 52
     .line 53
-    const/4 v6, 0x1
-
     .line 54
-    if-nez v5, :cond_3
+    invoke-static {}, Lcom/huawei/appmarket/y98;->e0()Z
 
     .line 55
     .line 56
-    const-string v7, "createSpinner: the spinner ctrl item is null or empty!"
-
     .line 57
+    move-result v3
+
     .line 58
-    :goto_1
-    invoke-static {v0, v7}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v4, "1"
 
     .line 59
     .line 60
-    .line 61
-    const/4 v7, 0x0
+    if-eqz v3, :cond_1
 
+    .line 61
     .line 62
-    goto :goto_3
+    move-object v3, v0
 
     .line 63
-    :cond_3
-    invoke-virtual {v5}, Lcom/huawei/appmarket/bj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
+    goto :goto_0
 
     .line 64
-    .line 65
-    .line 66
-    move-result-object v7
+    :cond_1
+    move-object v3, v4
 
+    .line 65
+    :goto_0
+    const-string v5, "updateStatus"
+
+    .line 66
     .line 67
-    invoke-static {v7}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;->isInfoEmpty(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)Z
+    invoke-virtual {v1, v5, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 68
     .line 69
     .line 70
-    move-result v7
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 71
-    if-eqz v7, :cond_4
-
     .line 72
     .line 73
-    const-string v7, "createSpinner: the spinner info is null or empty!"
+    move-result-object v3
 
     .line 74
+    invoke-virtual {v3}, Lcom/huawei/appmarket/bb7;->x()Z
+
     .line 75
-    goto :goto_1
-
     .line 76
-    :cond_4
-    invoke-virtual {v5}, Lcom/huawei/appmarket/bj7;->d()Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;
-
     .line 77
-    .line 78
-    .line 79
-    move-result-object v7
+    move-result v3
 
+    .line 78
+    if-eqz v3, :cond_2
+
+    .line 79
     .line 80
-    invoke-virtual {v5}, Lcom/huawei/appmarket/bj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
+    move-object v3, v4
 
     .line 81
+    goto :goto_1
+
     .line 82
+    :cond_2
+    move-object v3, v0
+
     .line 83
-    move-result-object v8
+    :goto_1
+    const-string v5, "pushStatus"
 
     .line 84
-    invoke-virtual {v8}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;->getSpinnerList_()Ljava/util/List;
-
     .line 85
+    invoke-virtual {v1, v5, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 86
     .line 87
-    move-result-object v9
-
     .line 88
-    new-instance v10, Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
     .line 89
     .line 90
-    invoke-direct {v10}, Ljava/util/ArrayList;-><init>()V
-
     .line 91
-    .line 92
-    .line 93
-    invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    move-result-object v3
 
+    .line 92
+    invoke-virtual {v3}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    .line 93
     .line 94
     .line 95
+    move-result-object v3
+
     .line 96
-    move-result-object v9
+    invoke-static {v3}, Lcom/huawei/appmarket/pj5;->b(Landroid/content/Context;)Lcom/huawei/appmarket/pj5;
 
     .line 97
-    :goto_2
-    invoke-interface {v9}, Ljava/util/Iterator;->hasNext()Z
-
     .line 98
     .line 99
+    move-result-object v3
+
     .line 100
-    move-result v11
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pj5;->a()Z
 
     .line 101
-    if-eqz v11, :cond_5
-
     .line 102
     .line 103
-    invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result v3
 
     .line 104
+    if-eqz v3, :cond_3
+
     .line 105
     .line 106
-    move-result-object v11
+    move-object v3, v4
 
     .line 107
-    check-cast v11, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerItem;
+    goto :goto_2
 
     .line 108
+    :cond_3
+    move-object v3, v0
+
     .line 109
-    invoke-virtual {v11}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerItem;->getName_()Ljava/lang/String;
+    :goto_2
+    const-string v5, "notifyStatus"
 
     .line 110
     .line 111
+    invoke-virtual {v1, v5, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 112
-    move-result-object v11
-
     .line 113
-    invoke-virtual {v10, v11}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 114
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
+
     .line 115
     .line 116
-    goto :goto_2
-
     .line 117
-    :cond_5
-    new-instance v9, Lcom/huawei/appmarket/framework/widget/spinner/SpinnerAdapter;
+    move-result-object v3
 
     .line 118
-    .line 119
-    iget-object v11, p0, Lcom/huawei/appmarket/aj7;->a:Landroid/app/Activity;
+    const-string v5, "switchMarketingNotice"
 
+    .line 119
     .line 120
+    const/4 v6, 0x1
+
     .line 121
-    invoke-direct {v9, v11, v10}, Lcom/huawei/appmarket/framework/widget/spinner/SpinnerAdapter;-><init>(Landroid/content/Context;Ljava/util/List;)V
+    invoke-virtual {v3, v5, v6}, Lcom/huawei/appmarket/j50;->d(Ljava/lang/String;Z)Z
 
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v7, v9}, Lcom/huawei/uikit/hwspinner/widget/HwSpinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
+    move-result v3
 
     .line 125
+    if-eqz v3, :cond_4
+
     .line 126
     .line 127
-    invoke-virtual {v5, v9}, Lcom/huawei/appmarket/bj7;->f(Lcom/huawei/appmarket/framework/widget/spinner/SpinnerAdapter;)V
+    move-object v0, v4
 
     .line 128
+    :cond_4
+    const-string v3, "marketingStatus"
+
     .line 129
     .line 130
-    new-instance v9, Lcom/huawei/appmarket/cj7;
+    invoke-virtual {v1, v3, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 131
     .line 132
-    iget-object v10, p0, Lcom/huawei/appmarket/aj7;->c:Lcom/huawei/appmarket/a44;
-
     .line 133
-    .line 134
-    invoke-direct {v9, v11, v2, v8, v10}, Lcom/huawei/appmarket/cj7;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Lcom/huawei/appmarket/a44;)V
+    const-string v0, "1010600202"
 
+    .line 134
     .line 135
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
     .line 136
     .line 137
-    invoke-virtual {v7, v9}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
-
     .line 138
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
     .line 139
     .line 140
-    invoke-virtual {v7, v9}, Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;->setExtendClick(Lcom/huawei/appmarket/yi7;)V
-
     .line 141
-    .line 142
-    .line 143
-    invoke-virtual {v5, v9}, Lcom/huawei/appmarket/bj7;->e(Lcom/huawei/appmarket/cj7;)V
+    move-result-wide v0
 
+    .line 142
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    .line 143
     .line 144
     .line 145
+    move-result-object v3
+
     .line 146
-    const/4 v7, 0x1
+    const/16 v4, 0xb
 
     .line 147
-    :goto_3
-    if-nez v4, :cond_7
-
     .line 148
+    const/16 v5, 0x8
+
     .line 149
-    if-eqz v7, :cond_6
-
     .line 150
+    invoke-virtual {v3, v4, v5}, Ljava/util/Calendar;->set(II)V
+
     .line 151
-    goto :goto_4
-
     .line 152
-    :cond_6
-    const/4 v4, 0x0
-
     .line 153
-    goto :goto_5
+    const/16 v7, 0xc
 
     .line 154
-    :cond_7
-    :goto_4
-    const/4 v4, 0x1
-
     .line 155
-    :goto_5
-    if-nez v7, :cond_2
+    const/4 v8, 0x0
 
     .line 156
-    .line 157
-    invoke-virtual {v5}, Lcom/huawei/appmarket/bj7;->d()Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;
+    invoke-virtual {v3, v7, v8}, Ljava/util/Calendar;->set(II)V
 
+    .line 157
     .line 158
     .line 159
-    .line 160
-    move-result-object v5
+    const/16 v9, 0xd
 
+    .line 160
     .line 161
-    if-eqz v5, :cond_2
+    invoke-virtual {v3, v9, v8}, Ljava/util/Calendar;->set(II)V
 
     .line 162
     .line 163
-    const/16 v6, 0x8
-
     .line 164
-    .line 165
-    invoke-virtual {v5, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v3}, Ljava/util/Calendar;->getTimeInMillis()J
 
+    .line 165
     .line 166
     .line 167
+    move-result-wide v10
+
     .line 168
-    goto :goto_0
+    sub-long/2addr v0, v10
 
     .line 169
-    :cond_8
-    return v4
+    const-wide/16 v10, 0x0
 
     .line 170
-    :cond_9
-    :goto_6
-    const-string v2, "initSpinner: the spinner ctrl item list is null or empty!"
-
     .line 171
-    .line 172
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    cmp-long v3, v0, v10
 
+    .line 172
     .line 173
+    if-ltz v3, :cond_b
+
     .line 174
     .line 175
-    return v1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
     .line 176
     .line 177
     .line 178
+    move-result-wide v0
+
     .line 179
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
     .line 180
     .line 181
     .line 182
+    move-result-object v3
+
     .line 183
+    const/16 v12, 0x16
+
     .line 184
     .line 185
+    invoke-virtual {v3, v4, v12}, Ljava/util/Calendar;->set(II)V
+
     .line 186
     .line 187
     .line 188
+    invoke-virtual {v3, v7, v8}, Ljava/util/Calendar;->set(II)V
+
     .line 189
     .line 190
     .line 191
+    invoke-virtual {v3, v9, v8}, Ljava/util/Calendar;->set(II)V
+
     .line 192
     .line 193
     .line 194
+    invoke-virtual {v3}, Ljava/util/Calendar;->getTimeInMillis()J
+
     .line 195
     .line 196
     .line 197
+    move-result-wide v3
+
     .line 198
+    sub-long/2addr v0, v3
+
     .line 199
+    cmp-long v3, v0, v10
+
     .line 200
     .line 201
+    if-lez v3, :cond_5
+
     .line 202
     .line 203
+    goto/16 :goto_4
+
     .line 204
     .line 205
+    :cond_5
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
+
     .line 206
     .line 207
     .line 208
+    invoke-static {}, Lcom/huawei/appmarket/y98;->e0()Z
+
     .line 209
     .line 210
     .line 211
+    move-result v0
+
     .line 212
+    if-eqz v0, :cond_6
+
     .line 213
     .line 214
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 215
     .line 216
+    const-string v1, "do not check key app update,Update Do Not Disturb is open."
+
     .line 217
     .line 218
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 219
     .line 220
     .line 221
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
+
     .line 222
     .line 223
     .line 224
+    const-string v0, "UpdateManager"
+
     .line 225
     .line 226
+    const/16 v1, 0x3fc
+
     .line 227
     .line 228
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/ak5;->b(Landroid/content/Context;ILjava/lang/String;)V
+
     .line 229
     .line 230
     .line 231
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 232
     .line 233
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 234
     .line 235
     .line 236
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 237
     .line 238
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 239
     .line 240
     .line 241
+    const-string v0, "#notDisturb"
+
     .line 242
     .line 243
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 244
     .line 245
     .line 246
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 247
     .line 248
     .line 249
+    move-result-object p1
+
     .line 250
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 251
     .line 252
     .line 253
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
+
     .line 254
     .line 255
+    return-object p1
+
     .line 256
+    :cond_6
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
+
     .line 257
     .line 258
     .line 259
+    move-result p1
+
     .line 260
+    if-nez p1, :cond_7
+
     .line 261
     .line 262
+    iget-object p1, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 263
     .line 264
+    const-string v0, "no network."
+
     .line 265
     .line 266
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 267
     .line 268
     .line 269
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 270
     .line 271
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 272
     .line 273
     .line 274
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 275
     .line 276
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 277
     .line 278
     .line 279
+    const-string v0, "#noNetwork"
+
     .line 280
     .line 281
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 282
     .line 283
     .line 284
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 285
     .line 286
     .line 287
+    move-result-object p1
+
     .line 288
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 289
     .line 290
     .line 291
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
+
     .line 292
     .line 293
+    return-object p1
+
     .line 294
+    :cond_7
+    invoke-static {}, Lcom/huawei/appmarket/z91;->a()Ljava/lang/String;
+
     .line 295
     .line 296
     .line 297
+    move-result-object p1
+
     .line 298
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
+
     .line 299
     .line 300
     .line 301
+    invoke-static {p1}, Lcom/huawei/appmarket/y98;->P(Ljava/lang/String;)I
+
     .line 302
     .line 303
     .line 304
+    move-result p1
+
     .line 305
+    if-lez p1, :cond_8
+
     .line 306
     .line 307
+    iget-object p1, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 308
     .line 309
+    const-string v0, "do not check app update,today update notify size up to max size."
+
     .line 310
     .line 311
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 312
     .line 313
     .line 314
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 315
     .line 316
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 317
     .line 318
     .line 319
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 320
     .line 321
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 322
     .line 323
     .line 324
+    const-string v0, "#notificationHadSend"
+
     .line 325
     .line 326
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 327
     .line 328
     .line 329
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 330
     .line 331
     .line 332
+    move-result-object p1
+
     .line 333
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 334
     .line 335
     .line 336
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
+
     .line 337
     .line 338
+    return-object p1
+
     .line 339
+    :cond_8
+    new-instance p1, Ljava/security/SecureRandom;
+
     .line 340
     .line 341
+    invoke-direct {p1}, Ljava/security/SecureRandom;-><init>()V
+
     .line 342
     .line 343
     .line 344
+    const/4 v0, 0x7
+
     .line 345
+    const/16 v1, 0x39
+
     .line 346
     .line 347
+    const/4 v3, 0x3
+
     .line 348
+    invoke-static {v0, v1, v5, v3}, Lcom/huawei/appmarket/lz7;->a(IIII)Z
+
     .line 349
     .line 350
     .line 351
+    move-result v0
+
     .line 352
+    if-eqz v0, :cond_9
+
     .line 353
     .line 354
+    const/4 v0, 0x2
+
     .line 355
+    invoke-virtual {p1, v0}, Ljava/util/Random;->nextInt(I)I
+
     .line 356
     .line 357
     .line 358
+    move-result p1
+
     .line 359
+    if-ne p1, v6, :cond_a
+
     .line 360
     .line 361
+    goto :goto_3
+
     .line 362
+    :cond_9
+    const/4 v0, 0x5
+
     .line 363
+    invoke-static {v5, v3, v5, v0}, Lcom/huawei/appmarket/lz7;->a(IIII)Z
+
     .line 364
     .line 365
     .line 366
+    move-result v0
+
     .line 367
+    if-eqz v0, :cond_a
+
     .line 368
     .line 369
+    invoke-virtual {p1, v3}, Ljava/util/Random;->nextInt(I)I
+
     .line 370
     .line 371
     .line 372
+    move-result p1
+
     .line 373
+    if-le p1, v6, :cond_a
+
     .line 374
     .line 375
+    :goto_3
+    iget-object p1, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 376
     .line 377
+    const-string v0, "task is skipped"
+
     .line 378
     .line 379
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 380
     .line 381
     .line 382
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 383
     .line 384
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 385
     .line 386
     .line 387
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 388
     .line 389
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 390
     .line 391
     .line 392
+    const-string v0, "#abandonTaskMorning"
+
     .line 393
     .line 394
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 395
     .line 396
     .line 397
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 398
     .line 399
     .line 400
+    move-result-object p1
+
     .line 401
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 402
     .line 403
     .line 404
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
+
     .line 405
     .line 406
+    return-object p1
+
     .line 407
+    :cond_a
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->c:Lcom/huawei/appmarket/b30$a;
+
     .line 408
     .line 409
+    return-object p1
+
     .line 410
+    :cond_b
+    :goto_4
+    iget-object p1, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 411
     .line 412
+    const-string v0, "do not check app update, time has not reach 08:00 or over 22:00"
+
     .line 413
     .line 414
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 415
     .line 416
     .line 417
+    new-instance p1, Ljava/lang/StringBuilder;
+
     .line 418
     .line 419
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 420
     .line 421
     .line 422
+    iget-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
+
     .line 423
     .line 424
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 425
     .line 426
     .line 427
+    const-string v0, "#notBetween8_22"
+
     .line 428
     .line 429
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 430
     .line 431
     .line 432
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 433
     .line 434
     .line 435
+    move-result-object p1
+
     .line 436
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jj5;->c(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 437
     .line 438
     .line 439
+    sget-object p1, Lcom/huawei/appmarket/b30$a;->b:Lcom/huawei/appmarket/b30$a;
+
     .line 440
     .line 441
+    return-object p1
     .line 442
     .line 443
     .line 444
@@ -1189,282 +1476,465 @@
     .line 963
     .line 964
     .line 965
-.end method
-
-.method public final b(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Ljava/lang/String;)V
-    .registers 6
-
-    .line 1
-    invoke-static {p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;->isInfoEmpty(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)Z
-
-    move-result v0
-
-    const-string v1, "SpinnerCtrl"
-
-    if-eqz v0, :cond_0
-
-    const-string p1, "refreshAdapter: the spinner info is null or empty!"
-
-    :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/aj7;->b:Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;
-
-    if-nez v0, :cond_1
-
-    const-string p1, "refreshAdapter: title is null!"
-
-    goto :goto_0
-
-    :cond_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->d()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    const-string p1, "refreshAdapter: position is out of index bounds!"
-
-    goto :goto_0
-
-    :cond_2
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b(Ljava/lang/String;)Lcom/huawei/appmarket/bj7;
-
-    move-result-object v0
-
-    if-nez v0, :cond_3
-
-    const-string p1, "refreshAdapter: control item is null, key: "
-
-    :goto_1
-    invoke-virtual {p1, p2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bj7;->b()Lcom/huawei/appmarket/framework/widget/spinner/SpinnerAdapter;
-
-    move-result-object v0
-
-    if-nez v0, :cond_4
-
-    const-string p1, "refreshAdapter: adapter is null, key: "
-
-    goto :goto_1
-
-    :cond_4
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;->getSpinnerList_()Ljava/util/List;
-
-    move-result-object p1
-
-    invoke-virtual {v0}, Landroid/widget/ArrayAdapter;->clear()V
-
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :goto_2
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_5
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerItem;
-
-    invoke-virtual {p2}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerItem;->getName_()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {v0, p2}, Landroid/widget/ArrayAdapter;->add(Ljava/lang/Object;)V
-
-    goto :goto_2
-
-    :cond_5
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-
-    return-void
-.end method
-
-.method public final c(Lcom/huawei/appmarket/a44;)V
-    .registers 5
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/aj7;->c:Lcom/huawei/appmarket/a44;
-
-    .line 2
-    .line 3
-    iget-object v0, p0, Lcom/huawei/appmarket/aj7;->b:Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;
-
-    .line 4
-    .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    const-string p1, "SpinnerCtrl"
-
-    .line 8
-    .line 9
-    const-string v0, "refreshChangeListener error: title is null"
-
-    .line 10
-    .line 11
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 12
-    .line 13
-    .line 14
-    goto :goto_1
-
-    .line 15
-    :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->c()Ljava/util/Collection;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object v0
-
-    .line 19
-    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object v0
-
-    .line 23
-    :cond_1
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 24
-    .line 25
-    .line 26
-    move-result v1
-
-    .line 27
-    if-eqz v1, :cond_2
-
-    .line 28
-    .line 29
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 30
-    .line 31
-    .line 32
-    move-result-object v1
-
-    .line 33
-    check-cast v1, Lcom/huawei/appmarket/bj7;
-
-    .line 34
-    .line 35
-    invoke-virtual {v1}, Lcom/huawei/appmarket/bj7;->a()Lcom/huawei/appmarket/cj7;
-
-    .line 36
-    .line 37
-    .line 38
-    move-result-object v2
-
-    .line 39
-    if-eqz v2, :cond_1
-
-    .line 40
-    .line 41
-    invoke-virtual {v1}, Lcom/huawei/appmarket/bj7;->a()Lcom/huawei/appmarket/cj7;
-
-    .line 42
-    .line 43
-    .line 44
-    move-result-object v1
-
-    .line 45
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/cj7;->b(Lcom/huawei/appmarket/a44;)V
-
-    .line 46
-    .line 47
-    .line 48
-    goto :goto_0
-
-    .line 49
-    :cond_2
-    :goto_1
-    return-void
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
+    .line 1129
+    .line 1130
+    .line 1131
+    .line 1132
+    .line 1133
+    .line 1134
+    .line 1135
+    .line 1136
+    .line 1137
+    .line 1138
+    .line 1139
+    .line 1140
+    .line 1141
+    .line 1142
+    .line 1143
+    .line 1144
+    .line 1145
+    .line 1146
+    .line 1147
+    .line 1148
+    .line 1149
+    .line 1150
+    .line 1151
+    .line 1152
+    .line 1153
+    .line 1154
+    .line 1155
+    .line 1156
+    .line 1157
+    .line 1158
+    .line 1159
+    .line 1160
+    .line 1161
+    .line 1162
+    .line 1163
+    .line 1164
+    .line 1165
+    .line 1166
+    .line 1167
+    .line 1168
+    .line 1169
+    .line 1170
+    .line 1171
+    .line 1172
+    .line 1173
+    .line 1174
+    .line 1175
+    .line 1176
+    .line 1177
+    .line 1178
+    .line 1179
+    .line 1180
+    .line 1181
+    .line 1182
+    .line 1183
+    .line 1184
+    .line 1185
+    .line 1186
+    .line 1187
+    .line 1188
+    .line 1189
+    .line 1190
+    .line 1191
+    .line 1192
+    .line 1193
+    .line 1194
+    .line 1195
+    .line 1196
+    .line 1197
+    .line 1198
+    .line 1199
+    .line 1200
+    .line 1201
+    .line 1202
+    .line 1203
+    .line 1204
+    .line 1205
+    .line 1206
+    .line 1207
+    .line 1208
+    .line 1209
+    .line 1210
+    .line 1211
+    .line 1212
+    .line 1213
+    .line 1214
+    .line 1215
+    .line 1216
+    .line 1217
+    .line 1218
+    .line 1219
+    .line 1220
+    .line 1221
+    .line 1222
+    .line 1223
+    .line 1224
+    .line 1225
+    .line 1226
+    .line 1227
+    .line 1228
+    .line 1229
+    .line 1230
+    .line 1231
+    .line 1232
+    .line 1233
+    .line 1234
+    .line 1235
+    .line 1236
+    .line 1237
+    .line 1238
+    .line 1239
+    .line 1240
+    .line 1241
+    .line 1242
+    .line 1243
+    .line 1244
+    .line 1245
+    .line 1246
+    .line 1247
+    .line 1248
+    .line 1249
+    .line 1250
+    .line 1251
+    .line 1252
+    .line 1253
+    .line 1254
+    .line 1255
+    .line 1256
+    .line 1257
+    .line 1258
+    .line 1259
+    .line 1260
+    .line 1261
+    .line 1262
+    .line 1263
+    .line 1264
+    .line 1265
+    .line 1266
+    .line 1267
+    .line 1268
+    .line 1269
+    .line 1270
+    .line 1271
+    .line 1272
+    .line 1273
+    .line 1274
+    .line 1275
+    .line 1276
+    .line 1277
+    .line 1278
+    .line 1279
+    .line 1280
+    .line 1281
+    .line 1282
+    .line 1283
+    .line 1284
+    .line 1285
+    .line 1286
+    .line 1287
+    .line 1288
+    .line 1289
+    .line 1290
+    .line 1291
+    .line 1292
+    .line 1293
+    .line 1294
+    .line 1295
+    .line 1296
+    .line 1297
+    .line 1298
+    .line 1299
+    .line 1300
+    .line 1301
+    .line 1302
+    .line 1303
+    .line 1304
+    .line 1305
+    .line 1306
+    .line 1307
+    .line 1308
+    .line 1309
+    .line 1310
+    .line 1311
+    .line 1312
+    .line 1313
+    .line 1314
+    .line 1315
+    .line 1316
+    .line 1317
+    .line 1318
+    .line 1319
+    .line 1320
+    .line 1321
+    .line 1322
+    .line 1323
+    .line 1324
+    .line 1325
+    .line 1326
+    .line 1327
+    .line 1328
+    .line 1329
+    .line 1330
+    .line 1331
+    .line 1332
+    .line 1333
+    .line 1334
+    .line 1335
+    .line 1336
+    .line 1337
+    .line 1338
+    .line 1339
+    .line 1340
+    .line 1341
+    .line 1342
+    .line 1343
+    .line 1344
+    .line 1345
+    .line 1346
+    .line 1347
+    .line 1348
+    .line 1349
+    .line 1350
+    .line 1351
+    .line 1352
+    .line 1353
+    .line 1354
+    .line 1355
+    .line 1356
+    .line 1357
+    .line 1358
+    .line 1359
+    .line 1360
+    .line 1361
+    .line 1362
+    .line 1363
+    .line 1364
+    .line 1365
+    .line 1366
+    .line 1367
+    .line 1368
+    .line 1369
+    .line 1370
+    .line 1371
+    .line 1372
+    .line 1373
+    .line 1374
+    .line 1375
+    .line 1376
+    .line 1377
+    .line 1378
+    .line 1379
+    .line 1380
+    .line 1381
+    .line 1382
+    .line 1383
+    .line 1384
+    .line 1385
+    .line 1386
+    .line 1387
+    .line 1388
+    .line 1389
+    .line 1390
+    .line 1391
+    .line 1392
+    .line 1393
+    .line 1394
+    .line 1395
+    .line 1396
+    .line 1397
+    .line 1398
+    .line 1399
+    .line 1400
+    .line 1401
+    .line 1402
+    .line 1403
+    .line 1404
+    .line 1405
+    .line 1406
+    .line 1407
+    .line 1408
+    .line 1409
+    .line 1410
+    .line 1411
+    .line 1412
+    .line 1413
+    .line 1414
+    .line 1415
+    .line 1416
+    .line 1417
+    .line 1418
+    .line 1419
+    .line 1420
+    .line 1421
+    .line 1422
+    .line 1423
+    .line 1424
+    .line 1425
+    .line 1426
 .end method

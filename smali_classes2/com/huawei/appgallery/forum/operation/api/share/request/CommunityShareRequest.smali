@@ -31,22 +31,22 @@
 
 # instance fields
 .field private dataId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private dataType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private shareMode:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private sharePlugin:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -55,11 +55,11 @@
 .method public constructor <init>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/to2;->c()Lcom/huawei/appmarket/p71;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vo2;->c()Lcom/huawei/appmarket/p71;
 
     move-result-object v0
 
@@ -81,7 +81,7 @@
     return-object v0
 .end method
 
-.method public final c0(Ljava/lang/String;)V
+.method public final a0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -90,7 +90,7 @@
     return-void
 .end method
 
-.method public final e0(I)V
+.method public final c0(I)V
     .registers 2
 
     .line 1
@@ -99,7 +99,7 @@
     return-void
 .end method
 
-.method public final g0(I)V
+.method public final e0(I)V
     .registers 2
 
     .line 1
@@ -108,7 +108,7 @@
     return-void
 .end method
 
-.method public final h0(I)V
+.method public final g0(I)V
     .registers 2
 
     .line 1

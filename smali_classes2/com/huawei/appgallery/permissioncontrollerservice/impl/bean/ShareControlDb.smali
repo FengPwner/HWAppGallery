@@ -5,7 +5,7 @@
 
 # instance fields
 .field private actions:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ListStringTypeProcess;
     .end annotation
 
@@ -19,7 +19,7 @@
 .end field
 
 .field private disallowPkgs:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ListStringTypeProcess;
     .end annotation
 
@@ -33,12 +33,12 @@
 .end field
 
 .field private shareType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private sortApps:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ShareAppTypeProcess;
     .end annotation
 

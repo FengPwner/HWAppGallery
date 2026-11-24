@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "forumDetailFragment"
     protocol = Lcom/huawei/appgallery/forum/forum/api/IForumDetailProtocol;
 .end annotation
@@ -13,7 +13,7 @@
 # instance fields
 .field private X2:Landroidx/fragment/app/FragmentActivity;
 
-.field private Y2:Lcom/huawei/appmarket/vo2;
+.field private Y2:Lcom/huawei/appmarket/xo2;
 
 
 # direct methods
@@ -31,9 +31,9 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/qr2;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/ui/JGWTabFragment;->V2:Lcom/huawei/appmarket/sr2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/az6;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ez6;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -68,13 +68,13 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumDetailFragment;->X2:Landroidx/fragment/app/FragmentActivity;
 
-    new-instance p2, Lcom/huawei/appmarket/vo2;
+    new-instance p2, Lcom/huawei/appmarket/xo2;
 
     iget-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->I0:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
-    invoke-direct {p2, p1, p3}, Lcom/huawei/appmarket/vo2;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-direct {p2, p1, p3}, Lcom/huawei/appmarket/xo2;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumDetailFragment;->Y2:Lcom/huawei/appmarket/vo2;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumDetailFragment;->Y2:Lcom/huawei/appmarket/xo2;
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->H0:Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
@@ -293,11 +293,11 @@
 
     .line 102
     .line 103
-    iget-object p2, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumDetailFragment;->Y2:Lcom/huawei/appmarket/vo2;
+    iget-object p2, p0, Lcom/huawei/appgallery/forum/forum/fragment/ForumDetailFragment;->Y2:Lcom/huawei/appmarket/xo2;
 
     .line 104
     .line 105
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/vo2;->C(Ljava/util/List;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/xo2;->C(Ljava/util/List;)V
 
     .line 106
     .line 107
@@ -361,5 +361,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

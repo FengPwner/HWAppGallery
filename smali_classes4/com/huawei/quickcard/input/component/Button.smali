@@ -59,7 +59,7 @@
 
     invoke-direct {v0}, Lcom/huawei/quickcard/input/processor/ButtonValue;-><init>()V
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)V
 
@@ -95,9 +95,9 @@
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/kz8;
+    new-instance v0, Lcom/huawei/appmarket/qz8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/kz8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qz8;-><init>()V
 
     const-string v1, "change"
 

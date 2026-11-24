@@ -21,7 +21,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/a57;",
+        "Lcom/huawei/appmarket/f57;",
         ">;",
         "Ljava/io/Serializable;"
     }
@@ -56,19 +56,19 @@
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/a57;
+    check-cast p1, Lcom/huawei/appmarket/f57;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/a57;
+    check-cast p2, Lcom/huawei/appmarket/f57;
 
     .line 4
     .line 5
-    iget p2, p2, Lcom/huawei/appmarket/a57;->b:I
+    iget p2, p2, Lcom/huawei/appmarket/f57;->b:I
 
     .line 6
     .line 7
-    iget p1, p1, Lcom/huawei/appmarket/a57;->b:I
+    iget p1, p1, Lcom/huawei/appmarket/f57;->b:I
 
     .line 8
     .line 9
@@ -229,5 +229,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

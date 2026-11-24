@@ -3,25 +3,24 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/po5;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
-        "Ljava/lang/Void;",
-        ">;"
-    }
-.end annotation
+# instance fields
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
+
+.field final synthetic c:Lcom/huawei/appmarket/vl8;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/pl8;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/vl8;Lcom/huawei/appmarket/tv7;)V
+    .registers 3
 
     .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/wl8;->c:Lcom/huawei/appmarket/vl8;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/wl8;->b:Lcom/huawei/appmarket/tv7;
+
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,11 +28,17 @@
 
 
 # virtual methods
-.method public final bridge synthetic onSuccess(Ljava/lang/Object;)V
-    .registers 2
+.method public final onFailure(Ljava/lang/Exception;)V
+    .registers 3
 
     .line 1
-    check-cast p1, Ljava/lang/Void;
+    iget-object v0, p0, Lcom/huawei/appmarket/wl8;->c:Lcom/huawei/appmarket/vl8;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/vl8;->k(Lcom/huawei/appmarket/vl8;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/wl8;->b:Lcom/huawei/appmarket/tv7;
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 .end method

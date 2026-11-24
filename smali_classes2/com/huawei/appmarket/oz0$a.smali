@@ -23,7 +23,7 @@
 
 .field private d:Landroid/widget/LinearLayout;
 
-.field private e:Lcom/huawei/appmarket/hj0;
+.field private e:Lcom/huawei/appmarket/ij0;
 
 .field private f:Ljava/lang/String;
 
@@ -81,11 +81,11 @@
     return-object p0
 .end method
 
-.method static synthetic e(Lcom/huawei/appmarket/oz0$a;)Lcom/huawei/appmarket/hj0;
+.method static synthetic e(Lcom/huawei/appmarket/oz0$a;)Lcom/huawei/appmarket/ij0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/oz0$a;->e:Lcom/huawei/appmarket/hj0;
+    iget-object p0, p0, Lcom/huawei/appmarket/oz0$a;->e:Lcom/huawei/appmarket/ij0;
 
     return-object p0
 .end method
@@ -137,11 +137,11 @@
 
 
 # virtual methods
-.method public final k(Lcom/huawei/appmarket/hj0;)V
+.method public final k(Lcom/huawei/appmarket/ij0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/oz0$a;->e:Lcom/huawei/appmarket/hj0;
+    iput-object p1, p0, Lcom/huawei/appmarket/oz0$a;->e:Lcom/huawei/appmarket/ij0;
 
     return-void
 .end method

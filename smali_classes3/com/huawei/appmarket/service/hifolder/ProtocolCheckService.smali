@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/xx3;
+.field private b:Lcom/huawei/appmarket/zx3;
 
 .field private c:Lcom/huawei/appmarket/service/hifolder/e;
 
@@ -32,20 +32,20 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/xx3;
+.method static synthetic a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/zx3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/xx3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/zx3;
 
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;Lcom/huawei/appmarket/xx3;)V
+.method static synthetic b(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;Lcom/huawei/appmarket/zx3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/xx3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/zx3;
 
     return-void
 .end method
@@ -89,12 +89,12 @@
 
     .line 19
     .line 20
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/xx3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/zx3;
 
     .line 24
     .line 25
@@ -129,11 +129,11 @@
     .line 40
     .line 41
     :try_start_0
-    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/xx3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->b:Lcom/huawei/appmarket/zx3;
 
     .line 42
     .line 43
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/xx3;->onResult(Ljava/util/HashMap;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/zx3;->onResult(Ljava/util/HashMap;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -148,7 +148,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -278,7 +278,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -290,7 +289,7 @@
 
     const-string v0, "onBind service"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->c:Lcom/huawei/appmarket/service/hifolder/e;
 
@@ -323,7 +322,7 @@
 
     const-string v1, "ProtocolCheckService onStartCommand"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -331,7 +330,7 @@
 
     if-lt v1, v2, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/xj5;->b()Landroid/app/NotificationChannel;
+    invoke-static {}, Lcom/huawei/appmarket/zj5;->b()Landroid/app/NotificationChannel;
 
     move-result-object v2
 
@@ -349,7 +348,7 @@
 
     check-cast v3, Landroid/app/NotificationManager;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v2, Landroid/app/Notification$Builder;
@@ -358,7 +357,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/xj5;->a(Landroid/content/Context;)Landroid/app/Notification$Builder;
+    invoke-static {v2}, Lcom/huawei/appmarket/zj5;->a(Landroid/content/Context;)Landroid/app/Notification$Builder;
 
     move-result-object v2
 
@@ -370,7 +369,7 @@
 
     const-string v3, "ProtocolCheckService startForeground"
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v0, 0x22
 
@@ -380,7 +379,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/vg5;->x(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;Landroid/app/Notification;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yg5;->x(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;Landroid/app/Notification;)V
 
     goto :goto_0
 

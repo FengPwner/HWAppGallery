@@ -157,13 +157,13 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string p2, "ServiceVerifyKit"
 
     const-string v0, "error input certSignerKey and certChainKey"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-object p0
@@ -238,13 +238,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input propertyName"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -422,11 +422,11 @@
     .line 82
     .line 83
     :cond_0
-    new-instance v2, Lcom/huawei/appmarket/o69;
+    new-instance v2, Lcom/huawei/appmarket/u69;
 
     .line 84
     .line 85
-    invoke-direct {v2}, Lcom/huawei/appmarket/o69;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/u69;-><init>()V
 
     .line 86
     .line 87
@@ -470,11 +470,11 @@
     move-result-object v4
 
     .line 107
-    check-cast v4, Lcom/huawei/appmarket/m59;
+    check-cast v4, Lcom/huawei/appmarket/s59;
 
     .line 108
     .line 109
-    invoke-virtual {v4}, Lcom/huawei/appmarket/m59;->d()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/s59;->d()I
 
     .line 110
     .line 111
@@ -553,11 +553,11 @@
     move-result-object v4
 
     .line 146
-    check-cast v4, Lcom/huawei/appmarket/m59;
+    check-cast v4, Lcom/huawei/appmarket/s59;
 
     .line 147
     .line 148
-    invoke-virtual {v4}, Lcom/huawei/appmarket/m59;->c()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/s59;->c()I
 
     .line 149
     .line 150
@@ -636,11 +636,11 @@
     move-result-object v4
 
     .line 185
-    check-cast v4, Lcom/huawei/appmarket/m59;
+    check-cast v4, Lcom/huawei/appmarket/s59;
 
     .line 186
     .line 187
-    invoke-virtual {v4}, Lcom/huawei/appmarket/m59;->a()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/s59;->a()I
 
     .line 188
     .line 189
@@ -721,11 +721,11 @@
     move-result-object v6
 
     .line 225
-    check-cast v6, Lcom/huawei/appmarket/m59;
+    check-cast v6, Lcom/huawei/appmarket/s59;
 
     .line 226
     .line 227
-    invoke-virtual {v6}, Lcom/huawei/appmarket/m59;->b()I
+    invoke-virtual {v6}, Lcom/huawei/appmarket/s59;->b()I
 
     .line 228
     .line 229
@@ -742,7 +742,7 @@
     .line 234
     .line 235
     .line 236
-    invoke-virtual {v6}, Lcom/huawei/appmarket/m59;->b()I
+    invoke-virtual {v6}, Lcom/huawei/appmarket/s59;->b()I
 
     .line 237
     .line 238
@@ -760,7 +760,7 @@
 
     .line 244
     :cond_a
-    invoke-virtual {v6}, Lcom/huawei/appmarket/m59;->b()I
+    invoke-virtual {v6}, Lcom/huawei/appmarket/s59;->b()I
 
     .line 245
     .line 246
@@ -776,7 +776,7 @@
 
     .line 251
     :cond_b
-    sget-object v6, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object v6, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     .line 252
     .line 253
@@ -788,7 +788,7 @@
 
     .line 256
     .line 257
-    invoke-virtual {v6, v7, v8}, Lcom/huawei/appmarket/r79;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v7, v8}, Lcom/huawei/appmarket/x79;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 258
     .line 259
@@ -859,11 +859,11 @@
     move-result-object v2
 
     .line 290
-    check-cast v2, Lcom/huawei/appmarket/m59;
+    check-cast v2, Lcom/huawei/appmarket/s59;
 
     .line 291
     .line 292
-    invoke-virtual {v2}, Lcom/huawei/appmarket/m59;->f()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/s59;->f()I
 
     .line 293
     .line 294
@@ -875,7 +875,7 @@
 
     .line 297
     .line 298
-    invoke-virtual {v2}, Lcom/huawei/appmarket/m59;->f()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/s59;->f()I
 
     .line 299
     .line 300
@@ -883,7 +883,7 @@
     move-result v4
 
     .line 302
-    invoke-virtual {v2}, Lcom/huawei/appmarket/m59;->e()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/s59;->e()Ljava/lang/String;
 
     .line 303
     .line 304
@@ -1196,15 +1196,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public setCN(Ljava/lang/String;)Lcom/huawei/appgallery/serviceverifykit/api/ServiceVerifyKit$Builder;
@@ -1216,13 +1207,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input CN"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1242,13 +1233,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input chain key"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1268,13 +1259,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input signer key"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1301,13 +1292,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string p2, "ServiceVerifyKit"
 
     const-string v0, "error input conditions"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object p0
@@ -1342,13 +1333,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input propertyKey"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1368,13 +1359,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input OU"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1394,13 +1385,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object v0, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v1, "ServiceVerifyKit"
 
     const-string v2, "error input template"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iput-object p1, p0, Lcom/huawei/appgallery/serviceverifykit/api/ServiceVerifyKit$Builder;->r:Ljava/lang/String;
@@ -1426,13 +1417,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v0, "ServiceVerifyKit"
 
     const-string v1, "error input preferred package name"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1460,11 +1451,11 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string v1, "error input intent"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1474,11 +1465,11 @@
     :goto_0
     if-nez p2, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/r79;->b:Lcom/huawei/appmarket/r79;
+    sget-object p1, Lcom/huawei/appmarket/x79;->b:Lcom/huawei/appmarket/x79;
 
     const-string p2, "error input type"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/r79;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/x79;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

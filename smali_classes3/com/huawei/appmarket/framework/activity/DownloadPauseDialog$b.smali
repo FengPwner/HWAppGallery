@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -98,7 +98,7 @@
     move-result-object p2
 
     .line 30
-    invoke-static {p2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 31
     .line 32
@@ -106,7 +106,7 @@
     move-result-object p2
 
     .line 34
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 35
     .line 36
@@ -115,11 +115,11 @@
 
     .line 38
     .line 39
-    const-class p2, Lcom/huawei/appmarket/mo3;
+    const-class p2, Lcom/huawei/appmarket/oo3;
 
     .line 40
     .line 41
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -127,7 +127,7 @@
     move-result-object p1
 
     .line 45
-    check-cast p1, Lcom/huawei/appmarket/mo3;
+    check-cast p1, Lcom/huawei/appmarket/oo3;
 
     .line 46
     .line 47
@@ -143,7 +143,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/mo3;->L(Lcom/huawei/appmarket/rv7;)I
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/oo3;->L(Lcom/huawei/appmarket/xv7;)I
 
     .line 54
     .line 55
@@ -460,27 +460,4 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method

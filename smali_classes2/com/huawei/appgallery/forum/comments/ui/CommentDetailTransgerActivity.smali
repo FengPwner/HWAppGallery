@@ -38,7 +38,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -50,11 +50,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -66,7 +66,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     .line 16
     .line 17
@@ -234,7 +234,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic z3(Lcom/huawei/appgallery/forum/comments/ui/CommentDetailTransgerActivity;Lcom/huawei/appgallery/forum/comments/api/ICommentDetailProtocol;)V
@@ -348,7 +347,7 @@
 
     .line 50
     .line 51
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -363,7 +362,7 @@
 
     .line 58
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 59
     .line 60
@@ -400,7 +399,7 @@
     move-result-object p1
 
     .line 77
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -432,7 +431,7 @@
     const/4 v1, 0x0
 
     .line 92
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/l36;->a(Landroid/content/Context;IZ)Z
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/n36;->a(Landroid/content/Context;IZ)Z
 
     .line 93
     .line 94
@@ -448,7 +447,7 @@
 
     .line 99
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 100
     .line 101
@@ -460,11 +459,11 @@
 
     .line 104
     .line 105
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 106
     .line 107
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 108
     .line 109
@@ -472,11 +471,11 @@
     move-result-object v0
 
     .line 111
-    const-class v1, Lcom/huawei/appmarket/o54;
+    const-class v1, Lcom/huawei/appmarket/r54;
 
     .line 112
     .line 113
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -484,7 +483,7 @@
     move-result-object v0
 
     .line 117
-    check-cast v0, Lcom/huawei/appmarket/o54;
+    check-cast v0, Lcom/huawei/appmarket/r54;
 
     .line 118
     .line 119
@@ -492,7 +491,7 @@
 
     .line 120
     .line 121
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/o54;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/r54;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 122
     .line 123
@@ -509,7 +508,7 @@
     .line 128
     .line 129
     .line 130
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 131
     .line 132

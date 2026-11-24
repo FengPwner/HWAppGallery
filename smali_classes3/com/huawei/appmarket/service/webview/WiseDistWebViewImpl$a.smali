@@ -35,11 +35,11 @@
     .registers 4
 
     .line 1
-    sget p1, Lcom/huawei/appmarket/rs1;->b:I
+    sget p1, Lcom/huawei/appmarket/us1;->b:I
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -103,7 +103,7 @@
 
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/ol8;->a()Lcom/huawei/appmarket/ol8;
+    invoke-static {}, Lcom/huawei/appmarket/ul8;->a()Lcom/huawei/appmarket/ul8;
 
     .line 36
     .line 37
@@ -124,7 +124,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {v0}, Lcom/huawei/appmarket/ol8;->b(Ljava/lang/String;)Lcom/huawei/appmarket/service/reserve/game/bean/WarmUpPageInfo;
+    invoke-static {v0}, Lcom/huawei/appmarket/ul8;->b(Ljava/lang/String;)Lcom/huawei/appmarket/service/reserve/game/bean/WarmUpPageInfo;
 
     .line 47
     .line 48
@@ -268,5 +268,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

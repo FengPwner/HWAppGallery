@@ -27,7 +27,7 @@
 
     const-string v0, "IResIgnoreFields"
 
-    const-class v1, Lcom/huawei/appmarket/xz3;
+    const-class v1, Lcom/huawei/appmarket/zz3;
 
     const/4 v2, 0x0
 
@@ -41,13 +41,13 @@
 
     const-string v0, "IServerAgent"
 
-    const-class v1, Lcom/huawei/appmarket/n14;
+    const-class v1, Lcom/huawei/appmarket/p14;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IServerIntercept"
 
-    const-class v1, Lcom/huawei/appmarket/o14;
+    const-class v1, Lcom/huawei/appmarket/q14;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

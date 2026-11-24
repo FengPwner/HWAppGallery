@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pr7;
+.implements Lcom/huawei/appmarket/vr7;
 
 
 # instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/j28;
+.field public final synthetic b:Landroidx/media3/exoplayer/q;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/j28;I)V
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/q;I)V
     .registers 3
 
     .line 1
@@ -20,7 +20,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/huawei/appmarket/h42;->b:Lcom/huawei/appmarket/j28;
+    iput-object p1, p0, Lcom/huawei/appmarket/h42;->b:Landroidx/media3/exoplayer/q;
 
     .line 5
     .line 6
@@ -177,7 +177,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/h42;->b:Lcom/huawei/appmarket/j28;
+    iget-object v0, p0, Lcom/huawei/appmarket/h42;->b:Landroidx/media3/exoplayer/q;
 
     return-object v0
 .end method

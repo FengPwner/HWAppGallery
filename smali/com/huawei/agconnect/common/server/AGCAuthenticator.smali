@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public authenticate(Lcom/huawei/appmarket/sy6;Lcom/huawei/appmarket/vu6;)Lcom/huawei/appmarket/gr6;
+.method public authenticate(Lcom/huawei/appmarket/wy6;Lcom/huawei/appmarket/zu6;)Lcom/huawei/appmarket/jr6;
     .registers 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -90,7 +90,7 @@
     move-result-object v2
 
     .line 25
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 26
     .line 27
@@ -110,7 +110,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p2}, Lcom/huawei/appmarket/vu6;->H()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zu6;->H()Lcom/huawei/appmarket/jr6;
 
     .line 36
     .line 37
@@ -123,11 +123,11 @@
     .line 40
     .line 41
     .line 42
-    new-instance v3, Lcom/huawei/appmarket/gr6$a;
+    new-instance v3, Lcom/huawei/appmarket/jr6$a;
 
     .line 43
     .line 44
-    invoke-direct {v3, p2}, Lcom/huawei/appmarket/gr6$a;-><init>(Lcom/huawei/appmarket/gr6;)V
+    invoke-direct {v3, p2}, Lcom/huawei/appmarket/jr6$a;-><init>(Lcom/huawei/appmarket/jr6;)V
 
     .line 45
     .line 46
@@ -213,7 +213,7 @@
 
     .line 87
     .line 88
-    invoke-interface {v2, v6}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v2, v6}, Lcom/huawei/agconnect/core/service/auth/CredentialsProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     .line 89
     .line 90
@@ -226,7 +226,7 @@
 
     .line 93
     .line 94
-    invoke-static {v2, v4, v5, v7}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-static {v2, v4, v5, v7}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -246,7 +246,7 @@
     move-result-object v2
 
     .line 104
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/gr6$a;->f(Ljava/lang/String;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/jr6$a;->f(Ljava/lang/String;)V
 
     .line 105
     .line 106
@@ -273,7 +273,7 @@
     move-result-object v1
 
     .line 119
-    invoke-virtual {v3, v0, v1}, Lcom/huawei/appmarket/gr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v0, v1}, Lcom/huawei/appmarket/jr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_1
@@ -406,7 +406,7 @@
 
     .line 177
     .line 178
-    invoke-interface {p2, v6}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p2, v6}, Lcom/huawei/agconnect/core/service/auth/AuthProvider;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     .line 179
     .line 180
@@ -419,7 +419,7 @@
 
     .line 183
     .line 184
-    invoke-static {p2, v4, v5, v0}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-static {p2, v4, v5, v0}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     .line 185
     .line 186
@@ -431,7 +431,7 @@
 
     .line 189
     .line 190
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/gr6$a;->f(Ljava/lang/String;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/jr6$a;->f(Ljava/lang/String;)V
 
     .line 191
     .line 192
@@ -444,7 +444,7 @@
     move-result-object p2
 
     .line 197
-    invoke-virtual {v3, p1, p2}, Lcom/huawei/appmarket/gr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, p1, p2}, Lcom/huawei/appmarket/jr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_1 .. :try_end_1} :catch_5
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_4
@@ -518,7 +518,7 @@
     .line 225
     .line 226
     :goto_3
-    invoke-virtual {v3}, Lcom/huawei/appmarket/gr6$a;->b()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/jr6$a;->b()Lcom/huawei/appmarket/jr6;
 
     .line 227
     .line 228

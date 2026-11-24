@@ -1,83 +1,214 @@
-.class public final Lcom/huawei/appmarket/qj4$b;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/qj4$b;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/Comparator;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/qj4;->l()Ljava/lang/Long;
+    value = Lcom/huawei/appmarket/qj4;-><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
+    accessFlags = 0x18
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Comparator;"
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/rs2<",
+        "Lcom/huawei/appmarket/p14;",
+        ">;"
     }
 .end annotation
 
 
+# static fields
+.field public static final b:Lcom/huawei/appmarket/qj4$b;
+
+
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/qj4$b;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/qj4$b;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/qj4$b;->b:Lcom/huawei/appmarket/qj4$b;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+.method public final invoke()Ljava/lang/Object;
     .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;TT;)I"
-        }
-    .end annotation
 
     .line 1
-    check-cast p1, Ljava/util/Map$Entry;
+    sget-object v0, Lcom/huawei/appmarket/s93;->a:Lcom/huawei/appmarket/s93;
 
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    move-result-object p1
+    .line 4
+    .line 5
+    .line 6
+    const-class v0, Lcom/huawei/appmarket/p14;
 
-    check-cast p1, Lcom/huawei/appmarket/ov5;
+    .line 7
+    .line 8
+    const-string v1, "ServerReqKit"
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ov5;->c()Ljava/lang/Object;
+    .line 9
+    .line 10
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/s93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
-    move-result-object p1
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
 
-    check-cast p1, Ljava/lang/Comparable;
+    .line 14
+    check-cast v0, Lcom/huawei/appmarket/p14;
 
-    check-cast p2, Ljava/util/Map$Entry;
-
-    invoke-interface {p2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Lcom/huawei/appmarket/ov5;
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ov5;->c()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Ljava/lang/Comparable;
-
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/vx0;->a(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
-
-    move-result p1
-
-    return p1
+    .line 15
+    .line 16
+    return-object v0
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
 .end method

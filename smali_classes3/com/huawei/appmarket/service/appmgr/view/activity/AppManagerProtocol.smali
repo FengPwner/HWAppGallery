@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # annotations
@@ -15,8 +15,8 @@
 
 
 # instance fields
-.field private installMgrFragment:Lcom/huawei/appmarket/pr2;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+.field private installMgrFragment:Lcom/huawei/appmarket/rr2;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "installmgr.installed.fragment"
     .end annotation
 .end field
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/cn5;
+.method public final a()Lcom/huawei/appmarket/dn5;
     .registers 3
 
     .line 1
@@ -58,11 +58,11 @@
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol$Request;->u(I)V
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     const-string v1, "installmgr.activity"
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object v0
 .end method
@@ -76,7 +76,7 @@
     return-object v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/cn5;
+.method public final c()Lcom/huawei/appmarket/dn5;
     .registers 3
 
     .line 1
@@ -89,11 +89,11 @@
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol$Request;->u(I)V
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     const-string v1, "updatemgr.activity"
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     return-object v0
 .end method

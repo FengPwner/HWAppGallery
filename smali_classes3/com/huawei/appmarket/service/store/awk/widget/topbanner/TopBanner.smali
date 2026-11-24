@@ -58,11 +58,11 @@
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/topbanner/TopBanner;->i:Landroid/content/Context;
 
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {p3}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result p3
 
@@ -270,7 +270,7 @@
 
     .line 99
     .line 100
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     .line 101
     .line 102
@@ -367,7 +367,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final b()V
@@ -779,7 +778,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -1282,8 +1281,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected setPromotionSignView(I)V
@@ -1321,7 +1318,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -1821,8 +1818,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public setRightView2(F)V

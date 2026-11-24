@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/cards/card/b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/b;->b:Lcom/huawei/appgallery/forum/cards/card/ForumFeedRecommendItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

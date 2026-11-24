@@ -82,7 +82,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -104,7 +104,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 

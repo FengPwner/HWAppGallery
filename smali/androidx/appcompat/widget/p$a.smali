@@ -1,5 +1,5 @@
 .class final Landroidx/appcompat/widget/p$a;
-.super Lcom/huawei/appmarket/nu6$e;
+.super Lcom/huawei/appmarket/ru6$e;
 .source "SourceFile"
 
 
@@ -36,7 +36,7 @@
 
     iput-object p4, p0, Landroidx/appcompat/widget/p$a;->c:Ljava/lang/ref/WeakReference;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/nu6$e;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ru6$e;-><init>()V
 
     return-void
 .end method

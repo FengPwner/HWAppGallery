@@ -308,7 +308,7 @@
 
     const-string v0, "com.huawei.android.app.ActionBarEx"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/by6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/fy6;->getClassPath(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -336,15 +336,15 @@
     :try_start_0
     const-string p0, "DeviceInstallationInfos"
 
-    const-class v2, Lcom/huawei/appmarket/yh3;
+    const-class v2, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/yh3;
+    check-cast p0, Lcom/huawei/appmarket/ai3;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/yh3;->m()Ljava/util/ArrayList;
+    invoke-interface {p0}, Lcom/huawei/appmarket/ai3;->m()Ljava/util/ArrayList;
 
     move-result-object p0
     :try_end_0

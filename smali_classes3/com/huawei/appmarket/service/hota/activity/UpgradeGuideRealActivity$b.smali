@@ -41,25 +41,25 @@
     .registers 3
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/wl2;->b:I
+    sget v0, Lcom/huawei/appmarket/yl2;->b:I
 
     invoke-static {}, Lcom/huawei/appmarket/uw0;->a()V
 
-    invoke-static {}, Lcom/huawei/appmarket/a83;->q()Lcom/huawei/appmarket/a83;
+    invoke-static {}, Lcom/huawei/appmarket/d83;->q()Lcom/huawei/appmarket/d83;
 
     move-result-object v0
 
     const-string v1, "1010900301"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a83;->r(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/d83;->r(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/a83;->q()Lcom/huawei/appmarket/a83;
+    invoke-static {}, Lcom/huawei/appmarket/d83;->q()Lcom/huawei/appmarket/d83;
 
     move-result-object v0
 
     const-string v1, "1010900302"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a83;->r(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/d83;->r(Ljava/lang/String;)V
 
     return-void
 .end method

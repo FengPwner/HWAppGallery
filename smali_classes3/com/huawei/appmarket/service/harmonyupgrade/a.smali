@@ -45,7 +45,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12

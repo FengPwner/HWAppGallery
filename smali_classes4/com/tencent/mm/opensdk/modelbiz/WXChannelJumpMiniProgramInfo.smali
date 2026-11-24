@@ -86,13 +86,13 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelJumpMiniProgramInfo;->username:Ljava/lang/String;
 
-    const-string v1, "wx_channel_jump_mini_program_username"
+    const-string/jumbo v1, "wx_channel_jump_mini_program_username"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelJumpMiniProgramInfo;->path:Ljava/lang/String;
 
-    const-string v1, "wx_channel_jump_mini_program_path"
+    const-string/jumbo v1, "wx_channel_jump_mini_program_path"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -112,7 +112,7 @@
 
     invoke-super {p0, p1}, Lcom/tencent/mm/opensdk/modelbiz/WXChannelBaseJumpInfo;->unserialize(Landroid/os/Bundle;)V
 
-    const-string v0, "wx_channel_jump_mini_program_username"
+    const-string/jumbo v0, "wx_channel_jump_mini_program_username"
 
     invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -120,7 +120,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelJumpMiniProgramInfo;->username:Ljava/lang/String;
 
-    const-string v0, "wx_channel_jump_mini_program_path"
+    const-string/jumbo v0, "wx_channel_jump_mini_program_path"
 
     invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 

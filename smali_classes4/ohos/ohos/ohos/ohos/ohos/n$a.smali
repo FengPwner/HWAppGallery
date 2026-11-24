@@ -116,11 +116,11 @@
 
     .line 42
     .line 43
-    iget-object p2, p1, Lcom/huawei/appmarket/pb9;->c:Landroid/app/Activity;
+    iget-object p2, p1, Lcom/huawei/appmarket/wb9;->c:Landroid/app/Activity;
 
     .line 44
     .line 45
-    new-instance v0, Lcom/huawei/appmarket/ue9;
+    new-instance v0, Lcom/huawei/appmarket/bf9;
 
     .line 46
     .line 47
@@ -129,7 +129,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/ue9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/bf9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
 
     .line 51
     .line 52
@@ -149,11 +149,11 @@
 
     .line 58
     .line 59
-    iget-object p2, p1, Lcom/huawei/appmarket/pb9;->c:Landroid/app/Activity;
+    iget-object p2, p1, Lcom/huawei/appmarket/wb9;->c:Landroid/app/Activity;
 
     .line 60
     .line 61
-    new-instance v0, Lcom/huawei/appmarket/ue9;
+    new-instance v0, Lcom/huawei/appmarket/bf9;
 
     .line 62
     .line 63
@@ -162,7 +162,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/ue9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/bf9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
 
     .line 67
     .line 68
@@ -195,7 +195,7 @@
 
     .line 80
     .line 81
-    iget-object p2, p1, Lcom/huawei/appmarket/pb9;->d:Ljava/lang/ref/WeakReference;
+    iget-object p2, p1, Lcom/huawei/appmarket/wb9;->d:Ljava/lang/ref/WeakReference;
 
     .line 82
     .line 83
@@ -215,7 +215,7 @@
 
     .line 90
     .line 91
-    iget-object v0, p1, Lcom/huawei/appmarket/pb9;->d:Ljava/lang/ref/WeakReference;
+    iget-object v0, p1, Lcom/huawei/appmarket/wb9;->d:Ljava/lang/ref/WeakReference;
 
     .line 92
     .line 93
@@ -416,8 +416,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

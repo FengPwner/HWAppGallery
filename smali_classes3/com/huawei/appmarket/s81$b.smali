@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/fb2;Lcom/huawei/appmarket/s81;)V
+.method private constructor <init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/ib2;Lcom/huawei/appmarket/s81;)V
     .registers 4
 
     .line 1
@@ -24,11 +24,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/fb2;Lcom/huawei/appmarket/s81;Lcom/huawei/appmarket/s81$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/ib2;Lcom/huawei/appmarket/s81;Lcom/huawei/appmarket/s81$a;)V
     .registers 5
 
     .line 2
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/s81$b;-><init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/fb2;Lcom/huawei/appmarket/s81;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/s81$b;-><init>(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/ib2;Lcom/huawei/appmarket/s81;)V
 
     return-void
 .end method

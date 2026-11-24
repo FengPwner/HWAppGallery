@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ur7;
+.implements Lcom/huawei/appmarket/as7;
 
 
 # instance fields
@@ -195,7 +195,7 @@
     return-object v0
 .end method
 
-.method public final b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/ur7;
+.method public final b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/as7;
     .registers 3
 
     .line 1
@@ -621,7 +621,7 @@
 
     iget v1, p0, Landroidx/appcompat/view/menu/f;->m:I
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -1532,12 +1532,12 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/f;->setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/f;->setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
 
     return-object p0
 .end method
 
-.method public final setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+.method public final setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
     .registers 3
 
     .line 2
@@ -1998,12 +1998,12 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/f;->setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/f;->setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
 
     return-object p0
 .end method
 
-.method public final setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+.method public final setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
     .registers 3
 
     .line 2

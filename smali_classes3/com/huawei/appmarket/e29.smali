@@ -1,43 +1,23 @@
 .class public final Lcom/huawei/appmarket/e29;
-.super Lcom/huawei/appmarket/jj0;
+.super Ljava/util/ArrayList;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/util/List;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    alias = "ArrayList"
+    uri = Ljava/util/List;
+.end annotation
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/jj0;-><init>()V
+    invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
     return-void
-.end method
-
-
-# virtual methods
-.method public final a()Ljava/lang/Class;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/service/fifthtab/CountTimerCard;
-
-    return-object v0
-.end method
-
-.method public final b()Ljava/lang/Class;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/service/fifthtab/CountDownCardBean;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    const-string v0, "com.huawei.appgallery.counttimercard"
-
-    return-object v0
 .end method

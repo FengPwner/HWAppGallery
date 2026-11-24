@@ -393,7 +393,7 @@
 
     :cond_4
     :goto_1
-    const-class v1, Lcom/huawei/appmarket/gm4;
+    const-class v1, Lcom/huawei/appmarket/jm4;
 
     invoke-virtual {v1, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
@@ -406,9 +406,9 @@
 
     iget-object v2, p0, Lcom/huawei/jslite/JavaObjectV2;->target:Ljava/lang/Object;
 
-    check-cast v2, Lcom/huawei/appmarket/gm4;
+    check-cast v2, Lcom/huawei/appmarket/jm4;
 
-    invoke-interface {v2, p1}, Lcom/huawei/appmarket/gm4;->getFieldValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-interface {v2, p1}, Lcom/huawei/appmarket/jm4;->getFieldValue(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -426,11 +426,11 @@
     :cond_5
     sget-object v1, Lcom/huawei/jslite/JavaObjectV2;->javaObjectSyntheticProperties:Lcom/koushikdutta/quack/Memoize;
 
-    new-instance v2, Lcom/huawei/appmarket/jm5;
+    new-instance v2, Lcom/huawei/appmarket/lm5;
 
     const/16 v3, 0x15
 
-    invoke-direct {v2, v3, p0, v0, p1}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, p0, v0, p1}, Lcom/huawei/appmarket/lm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     const/4 v0, 0x2
 
@@ -755,7 +755,7 @@
     return p1
 
     :cond_1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
 
     move-result p1
 

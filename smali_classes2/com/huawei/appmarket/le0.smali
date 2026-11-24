@@ -1,37 +1,57 @@
 .class public final Lcom/huawei/appmarket/le0;
-.super Lcom/huawei/appmarket/m36;
+.super Lcom/huawei/appmarket/ij0;
 .source "SourceFile"
 
 
+# instance fields
+.field private q:Lcom/huawei/appmarket/v24;
+
+
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(JLcom/huawei/appmarket/o2;I)V
+    .registers 5
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/m36;-><init>()V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/ij0;-><init>(JLcom/huawei/appmarket/o2;I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Lcom/huawei/appmarket/o2;",
+            "I",
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 2
+    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/ij0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final b(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)Ljava/util/HashMap;
-    .registers 4
+.method public final G()Lcom/huawei/appmarket/v24;
+    .registers 2
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/m36;->b(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/huawei/appmarket/le0;->q:Lcom/huawei/appmarket/v24;
 
-    move-result-object p1
+    return-object v0
+.end method
 
-    invoke-static {}, Lcom/huawei/appmarket/ue0;->c()Lcom/huawei/appmarket/ue0;
+.method public final H(Lcom/huawei/appmarket/v24;)V
+    .registers 2
 
-    move-result-object p3
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/le0;->q:Lcom/huawei/appmarket/v24;
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/ue0;->b(Ljava/lang/String;)Lcom/huawei/appmarket/qo8;
-
-    move-result-object p2
-
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/qo8;->a(Ljava/util/HashMap;)V
-
-    return-object p1
+    return-void
 .end method

@@ -35,7 +35,7 @@
 
     const-string v0, "IBindOobeCardView"
 
-    const-class v1, Lcom/huawei/appmarket/fj3;
+    const-class v1, Lcom/huawei/appmarket/hj3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

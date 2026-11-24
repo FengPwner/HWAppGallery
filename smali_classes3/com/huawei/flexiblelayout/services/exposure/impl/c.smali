@@ -53,7 +53,7 @@
 
     .line 9
     .line 10
-    iget-object v1, v0, Lcom/huawei/flexiblelayout/services/exposure/impl/e;->a:Lcom/huawei/appmarket/ck8;
+    iget-object v1, v0, Lcom/huawei/flexiblelayout/services/exposure/impl/e;->a:Lcom/huawei/appmarket/ik8;
 
     .line 11
     .line 12
@@ -61,7 +61,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ck8;->a(Landroid/view/View;)I
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ik8;->a(Landroid/view/View;)I
 
     .line 15
     .line 16
@@ -90,7 +90,7 @@
 
     .line 28
     .line 29
-    invoke-static {v1}, Lcom/huawei/appmarket/nj8;->b(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/tj8;->b(Ljava/lang/String;)I
 
     .line 30
     .line 31

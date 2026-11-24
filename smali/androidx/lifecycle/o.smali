@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/du4;
+.implements Lcom/huawei/appmarket/gu4;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 .field private final g:Landroidx/lifecycle/k;
 
-.field private final h:Lcom/huawei/appmarket/wl0;
+.field private final h:Lcom/huawei/appmarket/xl0;
 
 .field private final i:Landroidx/lifecycle/o$d;
 
@@ -47,7 +47,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/o$b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/o$b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Landroidx/lifecycle/o;->j:Landroidx/lifecycle/o$b;
 
@@ -73,15 +73,15 @@
 
     new-instance v1, Landroidx/lifecycle/k;
 
-    invoke-direct {v1, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/du4;)V
+    invoke-direct {v1, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/gu4;)V
 
     iput-object v1, p0, Landroidx/lifecycle/o;->g:Landroidx/lifecycle/k;
 
-    new-instance v1, Lcom/huawei/appmarket/wl0;
+    new-instance v1, Lcom/huawei/appmarket/xl0;
 
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
-    iput-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/wl0;
+    iput-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/xl0;
 
     new-instance v0, Landroidx/lifecycle/o$d;
 
@@ -100,7 +100,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -261,9 +261,9 @@
 
     iget-object v0, p0, Landroidx/lifecycle/o;->f:Landroid/os/Handler;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
-    iget-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/wl0;
+    iget-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/xl0;
 
     const-wide/16 v2, 0x2bc
 
@@ -306,9 +306,9 @@
     :cond_0
     iget-object v0, p0, Landroidx/lifecycle/o;->f:Landroid/os/Handler;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
-    iget-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/wl0;
+    iget-object v1, p0, Landroidx/lifecycle/o;->h:Lcom/huawei/appmarket/xl0;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
@@ -511,6 +511,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getLifecycle()Landroidx/lifecycle/h;
@@ -527,7 +528,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -547,7 +548,7 @@
 
     const-string v0, "null cannot be cast to non-null type android.app.Application"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroid/app/Application;
 

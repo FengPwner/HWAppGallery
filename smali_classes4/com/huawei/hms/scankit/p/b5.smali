@@ -260,7 +260,7 @@
 
     move-result p2
 
-    invoke-static {p1, p2, v0, p0}, Lcom/huawei/appmarket/bu0;->c(IIII)I
+    invoke-static {p1, p2, v0, p0}, Lcom/huawei/appmarket/kd0;->c(IIII)I
 
     move-result p0
 

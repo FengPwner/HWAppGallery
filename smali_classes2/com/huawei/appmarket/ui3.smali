@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract e1(Z)V
+.method public abstract a(Landroid/content/Context;)V
 .end method
 
-.method public abstract i0()V
+.method public abstract b(Landroid/content/Context;ILcom/huawei/appmarket/a82;)V
 .end method
 
-.method public abstract q0()Lcom/huawei/appmarket/cq4;
+.method public abstract c(Landroid/content/Context;)I
 .end method

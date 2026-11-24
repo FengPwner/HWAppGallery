@@ -15,19 +15,19 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;-><init>(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/qm6;->e()Lcom/huawei/appmarket/qm6;
+    invoke-static {}, Lcom/huawei/appmarket/tm6;->e()Lcom/huawei/appmarket/tm6;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/va7;
+    new-instance v0, Lcom/huawei/appmarket/ab7;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/va7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/ab7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
 
     const-string v1, "SettingFACard"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/qm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/va7;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/tm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/ab7;)V
 
     return-void
 .end method
@@ -152,14 +152,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private q1()V
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ga2;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/ja2;->d()I
 
     move-result v0
 
@@ -455,7 +454,7 @@
     .line 97
     .line 98
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 99
     .line 100
@@ -740,8 +739,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final m1()Z

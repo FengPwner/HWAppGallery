@@ -70,7 +70,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     .line 10
     .line 11
@@ -78,12 +78,12 @@
     move-result-object p3
 
     .line 13
-    invoke-direct {p0, p3}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;-><init>(Lcom/huawei/appmarket/b04;)V
+    invoke-direct {p0, p3}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;-><init>(Lcom/huawei/appmarket/d04;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {p1, p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+    invoke-static {p1, p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
 
     .line 17
     .line 18
@@ -986,7 +986,7 @@
     return-object v0
 .end method
 
-.method public static e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+.method public static e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -1010,7 +1010,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kd0;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -1024,7 +1024,7 @@
 
     .line 17
     .line 18
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/yq3;->onResult(I)V
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/ar3;->onResult(I)V
 
     .line 19
     .line 20
@@ -1184,7 +1184,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static f(Landroid/content/Context;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;Z)V
@@ -1209,7 +1208,7 @@
     move-result-object p0
 
     :goto_1
-    invoke-static {p0}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -1228,7 +1227,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/lt6;->d()Lcom/huawei/appmarket/lt6;
+    invoke-static {}, Lcom/huawei/appmarket/pt6;->d()Lcom/huawei/appmarket/pt6;
 
     move-result-object p0
 
@@ -1238,7 +1237,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/lt6;->h(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/pt6;->h(Ljava/util/List;)V
 
     goto :goto_3
 
@@ -1279,7 +1278,7 @@
 
     const-string p1, "GameReserveManager"
 
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -1351,7 +1350,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/kh6;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/mh6;->d()I
 
     .line 10
     .line 11
@@ -1406,7 +1405,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->j(Ljava/util/List;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/lp7;->j(Ljava/util/List;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1419,7 +1418,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 44
     .line 45
@@ -1493,7 +1492,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static i()Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
@@ -1518,20 +1516,20 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->j(Ljava/util/List;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/lp7;->j(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/reserve/game/bean/GetOrderedAppsReq;->V(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {v0}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static k(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+.method public static k(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
     .registers 4
 
     .line 1
@@ -1550,12 +1548,12 @@
     const-string p0, "packageName isEmpty."
 
     :goto_0
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
 
     return-void
 
@@ -1565,11 +1563,11 @@
     goto :goto_0
 .end method
 
-.method private static l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+.method private static l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
     .registers 15
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/mt6;->a()Lcom/huawei/appmarket/mt6;
+    invoke-static {}, Lcom/huawei/appmarket/qt6;->a()Lcom/huawei/appmarket/qt6;
 
     .line 2
     .line 3
@@ -1585,7 +1583,7 @@
     move-result v1
 
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mt6;->b(I)Lcom/huawei/appmarket/c04;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qt6;->b(I)Lcom/huawei/appmarket/e04;
 
     .line 10
     .line 11
@@ -1601,7 +1599,7 @@
 
     .line 16
     .line 17
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -1610,7 +1608,7 @@
 
     .line 21
     :cond_0
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/c04;->c(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Z
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/e04;->c(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Z
 
     .line 22
     .line 23
@@ -1626,7 +1624,7 @@
 
     .line 28
     .line 29
-    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/yq3;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->e(Lcom/huawei/appmarket/ar3;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -1635,7 +1633,7 @@
 
     .line 33
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->c0()Lcom/huawei/appmarket/dr5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->c0()Lcom/huawei/appmarket/fr5;
 
     .line 34
     .line 35
@@ -1647,7 +1645,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->c0()Lcom/huawei/appmarket/dr5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->c0()Lcom/huawei/appmarket/fr5;
 
     .line 40
     .line 41
@@ -1655,13 +1653,13 @@
     move-result-object v1
 
     .line 43
-    invoke-interface {v1}, Lcom/huawei/appmarket/dr5;->b()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/fr5;->b()V
 
     .line 44
     .line 45
     .line 46
     :cond_2
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/c04;->a(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/e04;->a(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;
 
     .line 47
     .line 48
@@ -1726,7 +1724,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-static {}, Lcom/huawei/appmarket/kh6;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/mh6;->d()I
 
     .line 82
     .line 83
@@ -1788,7 +1786,7 @@
     move-result-object v2
 
     .line 110
-    invoke-static {v2}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 111
     .line 112
@@ -2185,11 +2183,11 @@
     .line 293
     .line 294
     .line 295
-    const-class v2, Lcom/huawei/appmarket/gv3;
+    const-class v2, Lcom/huawei/appmarket/iv3;
 
     .line 296
     .line 297
-    invoke-static {v2}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v2}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 298
     .line 299
@@ -2197,11 +2195,11 @@
     move-result-object v2
 
     .line 301
-    check-cast v2, Lcom/huawei/appmarket/gv3;
+    check-cast v2, Lcom/huawei/appmarket/iv3;
 
     .line 302
     .line 303
-    invoke-interface {v2}, Lcom/huawei/appmarket/gv3;->getOaid()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/huawei/appmarket/iv3;->getOaid()Ljava/lang/String;
 
     .line 304
     .line 305
@@ -2214,7 +2212,7 @@
     .line 308
     .line 309
     .line 310
-    invoke-interface {v0, p0, p1, p2}, Lcom/huawei/appmarket/c04;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+    invoke-interface {v0, p0, p1, p2}, Lcom/huawei/appmarket/e04;->d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
 
     .line 311
     .line 312
@@ -2222,7 +2220,7 @@
     move-result-object p0
 
     .line 314
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 315
     .line 316
@@ -2277,36 +2275,13 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method private m(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
     .registers 6
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 2
     .line 3
@@ -2326,7 +2301,7 @@
     const/4 v0, 0x0
 
     .line 11
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/z84;->t(Landroid/content/Context;II)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kk4;->v(Landroid/content/Context;II)V
 
     .line 12
     .line 13
@@ -2370,7 +2345,7 @@
 
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 33
     .line 34
@@ -2400,7 +2375,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/b04;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;->h0()Lcom/huawei/appmarket/d04;
 
     .line 48
     .line 49
@@ -2408,12 +2383,12 @@
     move-result-object v1
 
     .line 51
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;-><init>(Lcom/huawei/appmarket/b04;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$e;-><init>(Lcom/huawei/appmarket/d04;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager;->l(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
 
     .line 55
     .line 56
@@ -2422,7 +2397,7 @@
 
     .line 58
     :cond_2
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->m(Z)Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
     .line 59
     .line 60
@@ -2438,7 +2413,7 @@
 
     .line 65
     .line 66
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -2450,7 +2425,7 @@
 
     .line 71
     .line 72
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 73
     .line 74
@@ -2467,7 +2442,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 82
     .line 83
@@ -2564,14 +2539,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private n(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -2583,11 +2557,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -2595,11 +2569,11 @@
     move-result-object v0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -2607,7 +2581,7 @@
     move-result-object v0
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 20
     .line 21
@@ -2632,7 +2606,7 @@
     move-result-object v1
 
     .line 32
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 33
     .line 34
@@ -2653,7 +2627,7 @@
     const/4 v2, -0x1
 
     .line 43
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 44
     .line 45
@@ -2674,7 +2648,7 @@
     const/4 v2, -0x2
 
     .line 54
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 55
     .line 56
@@ -2691,7 +2665,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 64
     .line 65
@@ -2705,24 +2679,24 @@
     .line 69
     .line 70
     .line 71
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
 
     .line 72
     .line 73
     .line 74
-    new-instance v1, Lcom/huawei/appmarket/yx;
+    new-instance v1, Lcom/huawei/appmarket/zx;
 
     .line 75
     .line 76
     const/4 v2, 0x5
 
     .line 77
-    invoke-direct {v1, p2, v2}, Lcom/huawei/appmarket/yx;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p2, v2}, Lcom/huawei/appmarket/zx;-><init>(Ljava/lang/Object;I)V
 
     .line 78
     .line 79
     .line 80
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
 
     .line 81
     .line 82
@@ -2732,7 +2706,7 @@
     .line 84
     .line 85
     .line 86
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->G(I)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->G(I)Lcom/huawei/appmarket/w7;
 
     .line 87
     .line 88
@@ -2749,7 +2723,7 @@
     .line 93
     .line 94
     .line 95
-    iput-object v1, v0, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/jo5;
+    iput-object v1, v0, Lcom/huawei/appmarket/w7;->k:Lcom/huawei/appmarket/ko5;
 
     .line 96
     .line 97
@@ -2757,7 +2731,7 @@
 
     .line 98
     .line 99
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -2839,7 +2813,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -2859,7 +2832,7 @@
 
     const-string p2, "cancelReserve() failed, context or reserve param is null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -2879,7 +2852,7 @@
 
     const-string p2, "reserve() failed, context or reserve param is null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

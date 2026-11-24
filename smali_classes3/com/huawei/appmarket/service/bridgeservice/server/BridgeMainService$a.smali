@@ -38,7 +38,7 @@
 
     const-string v1, "server handleMessage"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -79,7 +79,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService$a;->a:Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->a(Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;)Lcom/huawei/appmarket/m85;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->a(Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;)Lcom/huawei/appmarket/p85;
 
     move-result-object p1
 
@@ -87,7 +87,7 @@
 
     invoke-direct {v3, p0, v1, v0}, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService$a$a;-><init>(Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService$a;Ljava/lang/String;Landroid/os/Messenger;)V
 
-    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/m85;->a(Lcom/huawei/appmarket/service/bridgeservice/server/DataHolder;Lcom/huawei/appmarket/pu3;)V
+    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/p85;->a(Lcom/huawei/appmarket/service/bridgeservice/server/DataHolder;Lcom/huawei/appmarket/ru3;)V
 
     :goto_0
     return-void

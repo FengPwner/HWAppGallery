@@ -22,7 +22,7 @@
 
 .field final synthetic b:Ljava/util/List;
 
-.field final synthetic c:Lcom/huawei/appmarket/lw7;
+.field final synthetic c:Lcom/huawei/appmarket/rw7;
 
 .field final synthetic d:Ljava/util/List;
 
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/hc;ILjava/util/List;Lcom/huawei/appmarket/lw7;Ljava/util/List;)V
+.method constructor <init>(Lcom/huawei/appmarket/hc;ILjava/util/List;Lcom/huawei/appmarket/rw7;Ljava/util/List;)V
     .registers 6
 
     .line 1
@@ -40,7 +40,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/ic;->b:Ljava/util/List;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/ic;->c:Lcom/huawei/appmarket/lw7;
+    iput-object p4, p0, Lcom/huawei/appmarket/ic;->c:Lcom/huawei/appmarket/rw7;
 
     iput-object p5, p0, Lcom/huawei/appmarket/ic;->d:Ljava/util/List;
 
@@ -61,13 +61,13 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/ic;->b:Ljava/util/List;
 
-    iget-object v3, p0, Lcom/huawei/appmarket/ic;->c:Lcom/huawei/appmarket/lw7;
+    iget-object v3, p0, Lcom/huawei/appmarket/ic;->c:Lcom/huawei/appmarket/rw7;
 
     iget-object v4, p0, Lcom/huawei/appmarket/ic;->d:Ljava/util/List;
 
     move-object v5, p1
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/hc;->b(Lcom/huawei/appmarket/hc;ILjava/util/List;Lcom/huawei/appmarket/lw7;Ljava/util/List;Ljava/util/ArrayList;)V
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/hc;->b(Lcom/huawei/appmarket/hc;ILjava/util/List;Lcom/huawei/appmarket/rw7;Ljava/util/List;Ljava/util/ArrayList;)V
 
     return-void
 .end method

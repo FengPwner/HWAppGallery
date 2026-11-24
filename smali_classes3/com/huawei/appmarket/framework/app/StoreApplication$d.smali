@@ -56,7 +56,7 @@
 
     check-cast p2, Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse;
 
-    sget-object p1, Lcom/huawei/appmarket/c87;->a:Lcom/huawei/appmarket/c87;
+    sget-object p1, Lcom/huawei/appmarket/h87;->a:Lcom/huawei/appmarket/h87;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -76,9 +76,9 @@
 
     const-string v1, "StoreApplication"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object p1
 
@@ -86,7 +86,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/on1;->o(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/rn1;->o(Ljava/lang/String;)V
 
     :cond_0
     return-void

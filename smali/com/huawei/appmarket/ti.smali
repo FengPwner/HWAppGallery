@@ -1,18 +1,18 @@
 .class final Lcom/huawei/appmarket/ti;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
-        "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
+        "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -42,7 +42,7 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -53,54 +53,72 @@
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;
+    check-cast p1, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;
 
     .line 2
     .line 3
-    const-string v0, "it"
+    const-string v0, "item"
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementStatusData;->clear()V
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getType()Lcom/huawei/appmarket/pj;
 
     .line 9
     .line 10
     .line 11
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getServiceCountry()Ljava/lang/String;
 
     .line 12
     .line 13
-    return-object p1
     .line 14
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getSigningEntity()Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;
+
     .line 15
     .line 16
     .line 17
+    const/4 v0, 0x0
+
     .line 18
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLanguage(Ljava/lang/String;)V
+
     .line 19
     .line 20
     .line 21
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setSignedVersion(Ljava/lang/Long;)V
+
     .line 22
     .line 23
     .line 24
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLatestVersion(Ljava/lang/Long;)V
+
     .line 25
     .line 26
     .line 27
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLocalSignTime(Ljava/lang/Long;)V
+
     .line 28
     .line 29
     .line 30
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setUserIdHash(Ljava/lang/String;)V
+
     .line 31
     .line 32
     .line 33
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setCloudSignTime(Ljava/lang/Long;)V
+
     .line 34
     .line 35
     .line 36
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
+
     .line 37
     .line 38
+    return-object p1
     .line 39
     .line 40
     .line 41

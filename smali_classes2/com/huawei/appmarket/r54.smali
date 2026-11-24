@@ -2,12 +2,20 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/userinfo/IUserInfoApi;
-.implements Lcom/huawei/appmarket/ih3;
 
+# virtual methods
+.method public abstract a(ILandroid/content/Context;)Lcom/huawei/appmarket/nv7;
+.end method
 
-# annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/yg1;
-.end annotation
+.method public abstract b(Landroid/content/Context;IZ)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "IZ)",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end method

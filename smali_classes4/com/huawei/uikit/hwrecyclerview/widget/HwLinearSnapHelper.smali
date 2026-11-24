@@ -574,7 +574,7 @@
 
     neg-int p3, p2
 
-    invoke-static {p1, p3, p2}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p1, p3, p2}, Lcom/huawei/appmarket/c55;->a(III)I
 
     move-result p1
 

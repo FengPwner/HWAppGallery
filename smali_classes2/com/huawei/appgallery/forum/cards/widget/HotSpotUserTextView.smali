@@ -261,7 +261,7 @@
 
     .line 67
     .line 68
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 69
     .line 70
@@ -278,7 +278,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {v5, v6, v4}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v5, v6, v4}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 78
     .line 79

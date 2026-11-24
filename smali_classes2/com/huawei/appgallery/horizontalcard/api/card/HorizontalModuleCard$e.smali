@@ -67,7 +67,7 @@
 
     iget-object v1, v0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->v:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -106,7 +106,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v4}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v5
 
@@ -121,7 +121,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -130,7 +130,7 @@
     invoke-virtual {v3, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_4
-    invoke-static {v4}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -145,11 +145,11 @@
 
     invoke-virtual {p1, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->a0(Ljava/util/ArrayList;)V
 
-    iget-object p2, v0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/nb3;
+    iget-object p2, v0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->x:Lcom/huawei/appmarket/qb3;
 
     if-eqz p2, :cond_6
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->j()J
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->j()J
 
     move-result-wide v0
 
@@ -216,7 +216,7 @@
     :catch_0
     move-exception v1
 
-    sget-object v2, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v2, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -236,7 +236,7 @@
 
     const-string v3, "HorizontalModuleCard"
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -291,7 +291,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v0, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -311,7 +311,7 @@
 
     const-string v2, "HorizontalModuleCard"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 .end method

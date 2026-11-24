@@ -12,17 +12,17 @@
 
 
 # instance fields
-.field protected final a:Lcom/huawei/appmarket/f28;
+.field protected final a:Lcom/huawei/appmarket/k28;
 
 
 # direct methods
-.method protected constructor <init>(Lcom/huawei/appmarket/f28;)V
+.method protected constructor <init>(Lcom/huawei/appmarket/k28;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/media3/extractor/flv/TagPayloadReader;->a:Lcom/huawei/appmarket/f28;
+    iput-object p1, p0, Landroidx/media3/extractor/flv/TagPayloadReader;->a:Lcom/huawei/appmarket/k28;
 
     return-void
 .end method

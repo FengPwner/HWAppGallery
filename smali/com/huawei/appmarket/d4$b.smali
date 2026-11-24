@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/d4$b;->b:Lcom/huawei/appmarket/d4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hd5;->clear()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/kd5;->clear()V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/d4$b;->b:Lcom/huawei/appmarket/d4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hd5;->size()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/kd5;->size()I
 
     move-result v0
 

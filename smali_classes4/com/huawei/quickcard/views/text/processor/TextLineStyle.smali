@@ -57,7 +57,7 @@
     move-result v1
 
     .line 14
-    const-class v2, Lcom/huawei/appmarket/la9;
+    const-class v2, Lcom/huawei/appmarket/sa9;
 
     .line 15
     .line 16
@@ -342,10 +342,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
@@ -354,7 +350,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->a(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -365,7 +361,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -497,7 +493,7 @@
 
     const-string p1, "TextLineStyle"
 
-    const-string p2, "value of lines is illegal!"
+    const-string/jumbo p2, "value of lines is illegal!"
 
     invoke-static {p1, p2}, Lcom/huawei/quickcard/base/log/CardLogUtils;->w(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -596,7 +592,7 @@
     goto :goto_4
 
     :cond_9
-    invoke-static {v0}, Lcom/huawei/quickcard/views/text/utils/TextStyleUtils;->getLineHeightSpan(I)Lcom/huawei/appmarket/la9;
+    invoke-static {v0}, Lcom/huawei/quickcard/views/text/utils/TextStyleUtils;->getLineHeightSpan(I)Lcom/huawei/appmarket/sa9;
 
     move-result-object p3
 

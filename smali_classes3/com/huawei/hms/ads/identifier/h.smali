@@ -1248,7 +1248,7 @@
     move-result-object p0
 
     .line 2
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1269,7 +1269,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/e53;->k()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->k()Ljava/security/SecureRandom;
 
     move-result-object v0
 
@@ -1512,7 +1512,7 @@
     invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 2
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :cond_1
     return-object v2

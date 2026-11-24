@@ -83,7 +83,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;-><init>(Landroid/content/Context;)V
 
-    new-instance v1, Lcom/huawei/appmarket/il1;
+    new-instance v1, Lcom/huawei/appmarket/ll1;
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
@@ -91,17 +91,17 @@
 
     move-result v2
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/il1;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ll1;-><init>(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/xl0;->v()Lcom/huawei/appmarket/xl0;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/xl0;->w()Ljava/util/ArrayList;
+    invoke-static {}, Lcom/huawei/appmarket/yl0;->v()Lcom/huawei/appmarket/yl0;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/il1;->n(Ljava/util/ArrayList;)V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/yl0;->w()Ljava/util/ArrayList;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ll1;->n(Ljava/util/ArrayList;)V
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->titleBean:Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/BaseTitleBean;
 
@@ -115,7 +115,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v2, v3, v1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->g(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/il1;)V
+    invoke-virtual {v0, v2, v3, v1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailKeywordSearchView;->g(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/ll1;)V
 
     iget-object v1, p0, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->i:Landroid/widget/FrameLayout;
 

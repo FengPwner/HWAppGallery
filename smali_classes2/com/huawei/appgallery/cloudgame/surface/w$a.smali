@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/cloudgame/surface/w;->f(Landroid/app/Activity;Lcom/huawei/appmarket/k04;)V
+    value = Lcom/huawei/appgallery/cloudgame/surface/w;->f(Landroid/app/Activity;Lcom/huawei/appmarket/m04;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,15 +15,15 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/k04;
+.field final synthetic b:Lcom/huawei/appmarket/m04;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/k04;)V
+.method constructor <init>(Lcom/huawei/appgallery/cloudgame/surface/w;Lcom/huawei/appmarket/m04;)V
     .registers 3
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/surface/w$a;->b:Lcom/huawei/appmarket/k04;
+    iput-object p2, p0, Lcom/huawei/appgallery/cloudgame/surface/w$a;->b:Lcom/huawei/appmarket/m04;
 
     invoke-direct {p0}, Lcom/huawei/appgallery/cloudgame/surface/w$c;-><init>()V
 
@@ -49,7 +49,7 @@
 
     const-string v0, ""
 
-    iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/surface/w$a;->b:Lcom/huawei/appmarket/k04;
+    iget-object v1, p0, Lcom/huawei/appgallery/cloudgame/surface/w$a;->b:Lcom/huawei/appmarket/m04;
 
     check-cast v1, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity$k;
 

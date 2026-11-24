@@ -86,7 +86,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/dynamiccore/impl/taskbuilder/DownloadTaskBuilder;->mPkgName:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/iu5;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ku5;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

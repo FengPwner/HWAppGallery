@@ -124,11 +124,11 @@
     return-void
 .end method
 
-.method public setData(Lcom/huawei/appmarket/gz;)V
+.method public setData(Lcom/huawei/appmarket/hz;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->setData(Lcom/huawei/appmarket/gz;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AbstractAudioPlayerFloatView;->setData(Lcom/huawei/appmarket/hz;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/audiokit/impl/ui/floatview/AudioPlayerFloatButton;->e()V
 

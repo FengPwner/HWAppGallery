@@ -12,12 +12,12 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/nv7;)V
+.method public static a(Lcom/huawei/appmarket/tv7;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
@@ -40,14 +40,14 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     :cond_0
     new-instance v1, Lcom/huawei/appmarket/xb$a;
 
-    invoke-direct {v1, v0, p0}, Lcom/huawei/appmarket/xb$a;-><init>(ILcom/huawei/appmarket/nv7;)V
+    invoke-direct {v1, v0, p0}, Lcom/huawei/appmarket/xb$a;-><init>(ILcom/huawei/appmarket/tv7;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v1}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

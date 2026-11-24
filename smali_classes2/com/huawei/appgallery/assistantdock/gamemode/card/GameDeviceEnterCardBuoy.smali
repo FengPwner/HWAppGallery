@@ -30,9 +30,9 @@
 
     new-instance v1, Lcom/huawei/appgallery/assistantdock/gamemode/card/GameDeviceEnterCardBuoy$a;
 
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/GameDeviceEnterCardBuoy$a;-><init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/GameDeviceEnterCardBuoy;Lcom/huawei/appmarket/xn6;)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/GameDeviceEnterCardBuoy$a;-><init>(Lcom/huawei/appgallery/assistantdock/gamemode/card/GameDeviceEnterCardBuoy;Lcom/huawei/appmarket/ao6;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/xn6;Lcom/huawei/appmarket/ty0$b;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ty0;->c(Lcom/huawei/appmarket/ao6;Lcom/huawei/appmarket/ty0$b;)V
 
     return-void
 .end method
@@ -167,7 +167,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -195,9 +194,9 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->j:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->j:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -212,13 +211,13 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyBaseEnterCard;->s1(Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/dw2;
+    new-instance v0, Lcom/huawei/appmarket/gw2;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/dw2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gw2;-><init>()V
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dw2;->d(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gw2;->d(Landroid/content/Context;)V
 
     return-void
 .end method

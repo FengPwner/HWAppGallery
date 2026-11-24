@@ -41,7 +41,7 @@
 
 
 # virtual methods
-.method public create()Lcom/huawei/appmarket/gr6$a;
+.method public create()Lcom/huawei/appmarket/jr6$a;
     .registers 2
 
     .line 1
@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/jr6$a;
 
     move-result-object v0
 

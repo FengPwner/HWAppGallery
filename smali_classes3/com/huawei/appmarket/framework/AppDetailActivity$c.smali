@@ -38,7 +38,7 @@
 
     const-string v0, "onTransitionEnd set decorView alpha 0 "
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/AppDetailActivity$c;->a:Lcom/huawei/appmarket/framework/AppDetailActivity;
 

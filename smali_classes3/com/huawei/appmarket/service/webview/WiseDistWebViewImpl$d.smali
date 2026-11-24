@@ -55,7 +55,7 @@
 
     const-string v0, "notify share success"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p2, Lcom/huawei/appmarket/service/webview/base/jssdk/nativemessage/ShareResultNativeMessage;
 

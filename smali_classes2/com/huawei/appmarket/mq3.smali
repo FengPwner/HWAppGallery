@@ -3,20 +3,32 @@
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/wo2;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/mq3$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<REQ:",
+        "Ljava/lang/Object;",
+        "RSP:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
-# direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/wo2;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/wo2;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
-
-    return-void
+# virtual methods
+.method public abstract a(Ljava/lang/Object;Lcom/huawei/appmarket/mq3$a;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TREQ;",
+            "Lcom/huawei/appmarket/mq3$a;",
+            ")V"
+        }
+    .end annotation
 .end method

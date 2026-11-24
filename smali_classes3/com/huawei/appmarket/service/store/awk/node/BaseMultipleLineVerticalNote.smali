@@ -179,7 +179,7 @@
     move-result-object p1
 
     .line 64
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 65
     .line 66
@@ -299,7 +299,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public x()Ljava/util/ArrayList;
@@ -426,7 +425,7 @@
 
     .line 52
     :cond_2
-    invoke-static {v7}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     .line 53
     .line 54
@@ -442,7 +441,7 @@
 
     .line 59
     :cond_3
-    invoke-static {v6}, Lcom/huawei/appmarket/o52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/huawei/appmarket/s52;->b(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)Ljava/lang/String;
 
     .line 60
     .line 61

@@ -89,11 +89,11 @@
     return v0
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/qv5;->b(Landroid/graphics/Bitmap;)Lcom/huawei/appmarket/qv5;
+    invoke-static {p0}, Lcom/huawei/appmarket/sv5;->b(Landroid/graphics/Bitmap;)Lcom/huawei/appmarket/sv5;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/qv5;->c()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/sv5;->c()Ljava/util/List;
 
     move-result-object p0
 
@@ -110,9 +110,9 @@
 
     invoke-direct {v1, p0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    new-instance p0, Lcom/huawei/appmarket/yr7;
+    new-instance p0, Lcom/huawei/appmarket/es7;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/yr7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/es7;-><init>()V
 
     invoke-static {v1, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -128,9 +128,9 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/qv5$a;
+    check-cast p0, Lcom/huawei/appmarket/sv5$a;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/qv5$a;->c()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/sv5$a;->c()I
 
     move-result p0
 

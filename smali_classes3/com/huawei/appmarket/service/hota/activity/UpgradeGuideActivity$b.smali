@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zn5;
+.implements Lcom/huawei/appmarket/ao5;
 
 
 # annotations
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/fh3;
+.field private b:Lcom/huawei/appmarket/hh3;
 
 .field private c:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;
 
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;Lcom/huawei/appmarket/fh3;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;)V
+.method public constructor <init>(Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;Lcom/huawei/appmarket/hh3;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;)V
     .registers 6
 
     .line 1
@@ -38,7 +38,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->b:Lcom/huawei/appmarket/fh3;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->b:Lcom/huawei/appmarket/hh3;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->c:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;
 
@@ -65,12 +65,12 @@
 
     const-string p1, "group.getCheckedRadioButtonId() != checkedId"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->b:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->b:Lcom/huawei/appmarket/g54$a;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->c:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;
 
@@ -84,7 +84,7 @@
 
     if-ne v1, p2, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->d:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->d:Lcom/huawei/appmarket/g54$a;
 
     goto :goto_0
 
@@ -101,7 +101,7 @@
 
     if-ne v1, p2, :cond_2
 
-    sget-object p1, Lcom/huawei/appmarket/d54$a;->c:Lcom/huawei/appmarket/d54$a;
+    sget-object p1, Lcom/huawei/appmarket/g54$a;->c:Lcom/huawei/appmarket/g54$a;
 
     goto :goto_0
 
@@ -115,13 +115,13 @@
     invoke-virtual {p2}, Landroid/view/View;->getId()I
 
     :goto_0
-    iget-object p2, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->b:Lcom/huawei/appmarket/fh3;
+    iget-object p2, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->b:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {p2, v0}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p2, v0}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity$b;->f:Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;->l3(Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;Lcom/huawei/appmarket/d54$a;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;->l3(Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;Lcom/huawei/appmarket/g54$a;)V
 
     invoke-static {p2}, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;->m3(Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideActivity;)V
 

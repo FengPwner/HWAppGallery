@@ -34,37 +34,37 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "moduleCode"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "moduleName"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "moduleLinkAddress"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "openLinkType"
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "isLink"
     .end annotation
 .end field
 
 .field private g:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "subModuleList"
     .end annotation
 
@@ -78,7 +78,7 @@
 .end field
 
 .field private h:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "appName"
     .end annotation
 .end field
@@ -242,7 +242,7 @@
 
 .method public getLinkAddress()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/base/entity/ModuleConfigResponse$ModuleListBean;->d:Ljava/lang/String;
@@ -252,7 +252,7 @@
 
 .method public getModuleCode()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/base/entity/ModuleConfigResponse$ModuleListBean;->b:Ljava/lang/String;
@@ -262,7 +262,7 @@
 
 .method public getOpenType()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/base/entity/ModuleConfigResponse$ModuleListBean;->e:Ljava/lang/String;

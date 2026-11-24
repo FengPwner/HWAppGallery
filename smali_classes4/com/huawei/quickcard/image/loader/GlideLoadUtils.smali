@@ -35,11 +35,11 @@
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/i19;
+    new-instance v0, Lcom/huawei/appmarket/o19;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/i19;-><init>(Lcom/huawei/quickcard/views/image/extension/ClipRect;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/o19;-><init>(Lcom/huawei/quickcard/views/image/extension/ClipRect;)V
 
-    invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -61,9 +61,9 @@
 
     if-eqz p0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/dp1;->d:Lcom/huawei/appmarket/dp1;
+    sget-object p0, Lcom/huawei/appmarket/gp1;->d:Lcom/huawei/appmarket/gp1;
 
-    invoke-virtual {p1, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -73,9 +73,9 @@
     return-object p0
 
     :cond_0
-    sget-object p0, Lcom/huawei/appmarket/dp1;->a:Lcom/huawei/appmarket/dp1;
+    sget-object p0, Lcom/huawei/appmarket/gp1;->a:Lcom/huawei/appmarket/gp1;
 
-    invoke-virtual {p1, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, p0}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p0
 
@@ -114,7 +114,7 @@
     .registers 6
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->getPlaceHolder()Lcom/huawei/appmarket/pv5;
+    invoke-virtual {p1}, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->getPlaceHolder()Lcom/huawei/appmarket/rv5;
 
     move-result-object p1
 
@@ -125,7 +125,7 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    iget-object v0, p1, Lcom/huawei/appmarket/pv5;->a:Ljava/lang/Object;
+    iget-object v0, p1, Lcom/huawei/appmarket/rv5;->a:Ljava/lang/Object;
 
     if-eqz v0, :cond_1
 
@@ -169,7 +169,7 @@
     return-object p0
 
     :cond_1
-    iget-object p0, p1, Lcom/huawei/appmarket/pv5;->b:Ljava/lang/Object;
+    iget-object p0, p1, Lcom/huawei/appmarket/rv5;->b:Ljava/lang/Object;
 
     check-cast p0, Landroid/graphics/drawable/Drawable;
 
@@ -212,9 +212,9 @@
 
     if-lez p0, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/dp1;->c:Lcom/huawei/appmarket/dp1;
+    sget-object v1, Lcom/huawei/appmarket/gp1;->c:Lcom/huawei/appmarket/gp1;
 
-    invoke-virtual {p1, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {p1, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     move-result-object p1
 
@@ -289,9 +289,9 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/jz8;
+    new-instance v0, Lcom/huawei/appmarket/pz8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jz8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/pz8;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/views/image/ImageConfig;->setAppResProvider(Lcom/huawei/quickcard/views/image/extension/IAppResProvider;)V
 
@@ -1093,6 +1093,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public static loadImageId(Landroid/content/Context;ILcom/huawei/quickcard/views/image/extension/ImageOptions;Landroid/widget/ImageView;Z)V
@@ -1796,7 +1916,7 @@
 
     invoke-direct {p1, p2}, Lcom/huawei/quickcard/image/listener/DrawableListener;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/sr6;)Lcom/bumptech/glide/h;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/vr6;)Lcom/bumptech/glide/h;
 
     move-result-object p0
 

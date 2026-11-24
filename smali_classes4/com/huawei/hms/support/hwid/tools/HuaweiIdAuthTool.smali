@@ -163,7 +163,7 @@
 
     invoke-direct {v3, v2}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
-    invoke-interface {p0}, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthService;->silentSignIn()Lcom/huawei/appmarket/hv7;
+    invoke-interface {p0}, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthService;->silentSignIn()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -171,13 +171,13 @@
 
     invoke-direct {v4, v0, v3}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$3;-><init>(Lcom/huawei/hms/hwid/t;Ljava/util/concurrent/CountDownLatch;)V
 
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     new-instance v4, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$4;
 
     invoke-direct {v4, v0, v3}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$4;-><init>(Lcom/huawei/hms/hwid/t;Ljava/util/concurrent/CountDownLatch;)V
 
-    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     const/4 p0, 0x0
 
@@ -519,11 +519,11 @@
 
     invoke-direct {p0, v2, v0, v1}, Lcom/huawei/hms/hwid/aa;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, p0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool;->a(Lcom/huawei/appmarket/hv7;)V
+    invoke-static {p0}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool;->a(Lcom/huawei/appmarket/nv7;)V
 
     return-void
 
@@ -546,12 +546,12 @@
     throw p0
 .end method
 
-.method private static a(Lcom/huawei/appmarket/hv7;)V
+.method private static a(Lcom/huawei/appmarket/nv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;)V"
         }
@@ -580,15 +580,15 @@
 
     invoke-direct {v3, v0, v2}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$2;-><init>(Ljava/util/concurrent/CountDownLatch;Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$a;)V
 
-    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v3}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v3
 
     new-instance v4, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;
 
-    invoke-direct {v4, p0, v0, v2}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;-><init>(Lcom/huawei/appmarket/hv7;Ljava/util/concurrent/CountDownLatch;Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$a;)V
+    invoke-direct {v4, p0, v0, v2}, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;-><init>(Lcom/huawei/appmarket/nv7;Ljava/util/concurrent/CountDownLatch;Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$a;)V
 
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     const/16 p0, 0x8
 

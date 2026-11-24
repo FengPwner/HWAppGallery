@@ -22,7 +22,7 @@
 
 .field private final c:Landroidx/media3/exoplayer/offline/f;
 
-.field private final d:Lcom/huawei/appmarket/yu1;
+.field private final d:Lcom/huawei/appmarket/cv1;
 
 .field private final e:Z
 
@@ -38,7 +38,7 @@
 
 
 # direct methods
-.method private constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/yu1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;)V
+.method private constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/cv1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;)V
     .registers 7
 
     .line 1
@@ -48,7 +48,7 @@
 
     iput-object p2, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->c:Landroidx/media3/exoplayer/offline/f;
 
-    iput-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/yu1;
+    iput-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/cv1;
 
     iput-boolean p4, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->e:Z
 
@@ -63,11 +63,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/yu1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;Landroidx/media3/exoplayer/offline/DownloadManager$a;)V
+.method synthetic constructor <init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/cv1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;Landroidx/media3/exoplayer/offline/DownloadManager$a;)V
     .registers 8
 
     .line 2
-    invoke-direct/range {p0 .. p6}, Landroidx/media3/exoplayer/offline/DownloadManager$d;-><init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/yu1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;)V
+    invoke-direct/range {p0 .. p6}, Landroidx/media3/exoplayer/offline/DownloadManager$d;-><init>(Landroidx/media3/exoplayer/offline/DownloadRequest;Landroidx/media3/exoplayer/offline/f;Lcom/huawei/appmarket/cv1;ZILandroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;)V
 
     return-void
 .end method
@@ -143,13 +143,13 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/yu1;
+    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/cv1;
 
-    iput-wide p3, v0, Lcom/huawei/appmarket/yu1;->a:J
+    iput-wide p3, v0, Lcom/huawei/appmarket/cv1;->a:J
 
-    iget-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/yu1;
+    iget-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/cv1;
 
-    iput p5, p3, Lcom/huawei/appmarket/yu1;->b:F
+    iput p5, p3, Lcom/huawei/appmarket/cv1;->b:F
 
     iget-wide p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->j:J
 
@@ -269,11 +269,11 @@
 
     .line 31
     .line 32
-    iget-object v5, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/yu1;
+    iget-object v5, p0, Landroidx/media3/exoplayer/offline/DownloadManager$d;->d:Lcom/huawei/appmarket/cv1;
 
     .line 33
     .line 34
-    iget-wide v5, v5, Lcom/huawei/appmarket/yu1;->a:J
+    iget-wide v5, v5, Lcom/huawei/appmarket/cv1;->a:J
 
     .line 35
     .line 36
@@ -441,4 +441,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

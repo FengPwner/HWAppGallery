@@ -2,269 +2,229 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+
+
+# instance fields
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Landroid/content/Context;",
+            ">;"
+        }
+    .end annotation
+.end field
+
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Ljava/lang/String;Landroid/content/Context;)V
+    .registers 3
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/ai1;->b:Ljava/lang/String;
+
+    new-instance p1, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/ai1;->c:Ljava/lang/ref/WeakReference;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/ph1;)Lcom/huawei/appmarket/hv7;
-    .registers 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/ph1;",
-            ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Ljava/lang/Boolean;",
-            ">;"
-        }
-    .end annotation
+.method public final m2(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    return-void
+.end method
 
-    .line 2
-    .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+.method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
+    .registers 4
 
-    .line 4
-    .line 5
-    .line 6
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    .line 1
+    const/4 p1, 0x0
 
-    .line 7
-    .line 8
-    .line 9
-    move-result-object v1
+    return p1
+.end method
 
-    .line 10
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+.method public final z0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 7
 
-    .line 11
-    .line 12
-    .line 13
-    invoke-static {}, Lcom/huawei/appmarket/to2;->b()Landroid/content/Context;
+    .line 1
+    iget-object p1, p0, Lcom/huawei/appmarket/ai1;->c:Ljava/lang/ref/WeakReference;
 
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v1
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    .line 17
-    invoke-static {v1}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
-
-    .line 18
-    .line 19
-    .line 20
-    move-result v1
-
-    .line 21
-    if-nez v1, :cond_0
-
-    .line 22
-    .line 23
-    const p2, 0x7f120b3b
-
-    .line 24
-    .line 25
-    .line 26
-    const/4 v1, 0x0
-
-    .line 27
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ej2;->u(Landroid/content/Context;II)V
-
-    .line 28
-    .line 29
-    .line 30
-    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    .line 31
-    .line 32
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
-
-    .line 33
-    .line 34
-    .line 35
-    :goto_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
-
-    .line 36
-    .line 37
-    .line 38
     move-result-object p1
 
-    .line 39
-    return-object p1
+    check-cast p1, Landroid/content/Context;
 
-    .line 40
+    if-nez p1, :cond_0
+
+    return-void
+
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    instance-of v0, p2, Lcom/huawei/appgallery/appcomment/impl/bean/DeleteReplyResBean;
 
-    .line 41
-    .line 42
-    .line 43
-    move-result-object v1
+    if-eqz v0, :cond_7
 
-    .line 44
-    const-string v2, "User"
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
 
-    .line 45
-    .line 46
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    move-result v0
 
-    .line 47
-    .line 48
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    if-nez v0, :cond_7
 
-    .line 49
-    .line 50
-    .line 51
-    move-result-object v1
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
 
-    .line 52
-    const-class v2, Lcom/huawei/appmarket/o54;
+    move-result v0
 
-    .line 53
-    .line 54
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    const-string v1, "DeleteReplyStoreCallBack"
 
-    .line 55
-    .line 56
-    .line 57
-    move-result-object v1
+    if-nez v0, :cond_1
 
-    .line 58
-    check-cast v1, Lcom/huawei/appmarket/o54;
+    const p2, 0x7f12025e
 
-    .line 59
-    .line 60
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-string v2, "com.huawei.appmarket.service.broadcast.ReplyDeleted"
+
+    invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const-string v2, "ACTION_PARAM_REPLY_DEL_TYPE_REPLYID"
+
+    iget-object v3, p0, Lcom/huawei/appmarket/ai1;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
+
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
+
+    const-string v0, "delete comment success!"
+
+    :goto_0
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_2
+
+    :cond_1
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result v0
+
+    const/4 v2, -0x1
+
+    const v3, 0x7f12025d
+
+    if-ne v0, v2, :cond_3
+
+    :cond_2
+    invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result v0
+
+    const/4 v2, 0x2
+
+    if-ne v0, v2, :cond_4
+
+    invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
+
+    const-string v0, "delete comment ST fail"
+
+    goto :goto_0
+
+    :cond_4
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result v0
+
     const/4 v2, 0x1
 
-    .line 61
-    invoke-interface {v1, v2, p1}, Lcom/huawei/appmarket/o54;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    if-ne v0, v2, :cond_5
 
-    .line 62
-    .line 63
-    .line 64
-    move-result-object v1
+    invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
-    .line 65
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->uiThread()Ljava/util/concurrent/Executor;
+    move-result-object p2
 
-    .line 66
-    .line 67
-    .line 68
-    move-result-object v2
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
-    .line 69
-    new-instance v3, Lcom/huawei/appmarket/ai1$a;
+    const-string v0, "delete comment IT fail"
 
-    .line 70
-    .line 71
-    invoke-direct {v3, p0, p1, p2, v0}, Lcom/huawei/appmarket/ai1$a;-><init>(Lcom/huawei/appmarket/ai1;Landroid/content/Context;Lcom/huawei/appmarket/ph1;Lcom/huawei/appmarket/nv7;)V
-
-    .line 72
-    .line 73
-    .line 74
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
-
-    .line 75
-    .line 76
-    .line 77
     goto :goto_0
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
+
+    :cond_5
+    const v0, 0x61a9e
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result v1
+
+    if-ne v0, v1, :cond_6
+
+    const p2, 0x7f120220
+
+    :goto_1
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    goto :goto_2
+
+    :cond_6
+    const v0, 0x61a9d
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result p2
+
+    if-ne v0, p2, :cond_2
+
+    const p2, 0x7f120203
+
+    goto :goto_1
+
+    :cond_7
+    const p2, 0x7f120511
+
+    goto :goto_1
+
+    :goto_2
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_8
+
+    invoke-static {p2}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
+
+    :cond_8
+    return-void
 .end method

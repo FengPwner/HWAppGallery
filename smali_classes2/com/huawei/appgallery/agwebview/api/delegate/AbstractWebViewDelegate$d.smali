@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$d;
-.super Lcom/huawei/appmarket/as5;
+.super Lcom/huawei/appmarket/cs5;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate$d;->j:Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/as5;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/cs5;-><init>(Landroid/content/Context;I)V
 
     const/4 p1, -0x1
 
@@ -83,7 +83,7 @@
 
     const-string v1, "exit web view full screen failed."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

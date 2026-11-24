@@ -20,15 +20,15 @@
 # instance fields
 .field final synthetic b:Ljava/lang/String;
 
-.field final synthetic c:Lcom/huawei/appmarket/t91;
+.field final synthetic c:Lcom/huawei/appmarket/u91;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/t91;Ljava/lang/String;)V
+.method constructor <init>(Lcom/huawei/appmarket/u91;Ljava/lang/String;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/s91;->c:Lcom/huawei/appmarket/t91;
+    iput-object p1, p0, Lcom/huawei/appmarket/s91;->c:Lcom/huawei/appmarket/u91;
 
     iput-object p2, p0, Lcom/huawei/appmarket/s91;->b:Ljava/lang/String;
 
@@ -48,11 +48,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/s91;->c:Lcom/huawei/appmarket/t91;
+    iget-object v0, p0, Lcom/huawei/appmarket/s91;->c:Lcom/huawei/appmarket/u91;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/t91;->a(Lcom/huawei/appmarket/t91;)Lcom/huawei/appgallery/datastorage/database/GeneralConfigDao;
+    invoke-static {v0}, Lcom/huawei/appmarket/u91;->a(Lcom/huawei/appmarket/u91;)Lcom/huawei/appgallery/datastorage/database/GeneralConfigDao;
 
     .line 4
     .line 5
@@ -64,7 +64,7 @@
 
     .line 8
     .line 9
-    const-string v2, "defaultAllowPermissions"
+    const-string v2, "dataVersion"
 
     .line 10
     .line 11

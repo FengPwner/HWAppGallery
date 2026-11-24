@@ -1,119 +1,190 @@
 .class public final Lcom/huawei/appmarket/xy1;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ta6;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/yj0$a;
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ta6;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+.method public final a(Ljava/util/List;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appgallery/purchasehistory/api/bean/PurchaseInfoBean;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ex5;->f()Lcom/huawei/appmarket/ex5;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ex5;->a(Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method public final b(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Z)V
     .registers 6
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
+    new-instance v0, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;
 
-    move-result-object p2
+    invoke-direct {v0}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;-><init>()V
 
-    if-nez p2, :cond_0
+    new-instance v1, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;
 
-    return-void
+    invoke-direct {v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;-><init>()V
 
-    :cond_0
-    const-string v0, "310501"
-
-    const-string v1, "EducationCenter|"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v0, "activity"
-
-    invoke-virtual {p2, v0}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/app/ActivityManager;
-
-    invoke-static {}, Lcom/huawei/appmarket/hd4;->e()I
-
-    move-result v1
-
-    const/4 v2, -0x1
-
-    if-eq v1, v2, :cond_1
-
-    if-eqz v0, :cond_1
-
-    invoke-static {}, Lcom/huawei/appmarket/hd4;->e()I
-
-    move-result p1
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->d(Ljava/lang/String;)V
 
     const/4 p2, 0x1
 
-    invoke-virtual {v0, p1, p2}, Landroid/app/ActivityManager;->moveTaskToFront(II)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->e(I)V
+
+    invoke-virtual {v1, p3}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->f(Z)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;->c(Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;)V
+
+    new-instance p2, Lcom/huawei/appmarket/dn5;
+
+    const-string p3, "apptraceedit.activity"
+
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
+
+    :try_start_0
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+
+    move-result-object p3
+
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const/16 p3, 0x3ea
+
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ls4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/dn5;I)Lcom/huawei/appmarket/tv6;
+    :try_end_0
+    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    :cond_1
-    new-instance v0, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;
+    :catch_0
+    move-exception p1
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;-><init>()V
+    new-instance p2, Ljava/lang/StringBuilder;
 
-    new-instance v1, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;
+    const-string p3, "ActivityNotFoundException :"
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;-><init>()V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2}, Landroid/app/Activity;->getTaskId()I
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    move-result p2
+    move-result-object p1
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;->c(I)V
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;->b()V
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol;->b(Lcom/huawei/appmarket/service/config/protocol/AppLaunchProtocol$Request;)V
+    move-result-object p1
 
-    new-instance p2, Lcom/huawei/appmarket/cn5;
+    const-string p2, "EditHistoryDispatcher"
 
-    const-string v1, "educenter.activity"
-
-    invoke-direct {p2, v1, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/cn5;->b(Landroid/content/Context;)Landroid/content/Intent;
-
-    move-result-object v0
-
-    const v1, 0x10008000
-
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
 .end method
 
-.method public final synthetic b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/ll0;)V
-    .registers 4
+.method public final c(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;Z)V
+    .registers 6
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/b00;->a(Lcom/huawei/appmarket/yj0$a;Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    new-instance v0, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;-><init>()V
+
+    new-instance v1, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;-><init>()V
+
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->d(Ljava/lang/String;)V
+
+    const/4 p2, 0x0
+
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->e(I)V
+
+    invoke-virtual {v1, p3}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;->f(Z)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol;->c(Lcom/huawei/appmarket/service/pay/purchase/view/AppTraceEditActivityProtocol$Request;)V
+
+    new-instance p2, Lcom/huawei/appmarket/dn5;
+
+    const-string p3, "apptraceedit.activity"
+
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
+
+    :try_start_0
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+
+    move-result-object p3
+
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const/16 p3, 0x3ea
+
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ls4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/dn5;I)Lcom/huawei/appmarket/tv6;
+    :try_end_0
+    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    const-string p3, "ActivityNotFoundException :"
+
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string p2, "EditHistoryDispatcher"
+
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ex5;->f()Lcom/huawei/appmarket/ex5;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ex5;->j(Ljava/lang/String;)V
 
     return-void
 .end method

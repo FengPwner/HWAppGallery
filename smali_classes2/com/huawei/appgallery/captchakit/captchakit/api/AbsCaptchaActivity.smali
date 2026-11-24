@@ -84,23 +84,23 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v3, "bundle == null"
 
     :goto_0
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_0
-    new-instance v3, Lcom/huawei/appmarket/wz6;
+    new-instance v3, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v3, v0}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v3, v0}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string v0, "homeCountry"
 
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
 
     const-string v0, "initBean"
 
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/wz6;->g(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/a07;->g(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object v0
 
@@ -116,7 +116,7 @@
 
     if-nez v3, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v3, "INIT_BEAN invalid"
 
@@ -180,7 +180,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/vi0;->a(Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/wi0;->a(Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
@@ -231,7 +231,7 @@
 
     :cond_4
     :goto_1
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v3, "url invalid !"
 
@@ -239,7 +239,7 @@
 
     :cond_5
     :goto_2
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v3, "param check failed !"
 
@@ -1041,15 +1041,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private startCaptchaTest()V
@@ -1074,19 +1065,19 @@
     goto :goto_1
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v1, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v2, "startCaptchaTest, Exception"
 
     :goto_0
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_1
 
     :catch_1
-    sget-object v1, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v1, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v2, "captcha init with  IllegalArgument"
 
@@ -1098,7 +1089,7 @@
 
 
 # virtual methods
-.method protected abstract handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+.method protected abstract handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -1116,11 +1107,11 @@
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/wl0;
+    new-instance v0, Lcom/huawei/appmarket/xl0;
 
-    const/16 v1, 0xb
+    const/16 v1, 0xc
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -1131,7 +1122,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     .line 2
     .line 3
@@ -1143,7 +1134,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -1203,19 +1194,19 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
     .line 42
-    sget-object p1, Lcom/huawei/appmarket/qi0;->FAILED:Lcom/huawei/appmarket/qi0;
+    sget-object p1, Lcom/huawei/appmarket/ri0;->FAILED:Lcom/huawei/appmarket/ri0;
 
     .line 43
     .line 44
     const/4 v0, 0x0
 
     .line 45
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/qi0;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appgallery/captchakit/captchakit/api/AbsCaptchaActivity;->handleDialogResult(Lcom/huawei/appmarket/ri0;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1233,7 +1224,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -1263,7 +1254,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 71
     .line 72
@@ -1284,7 +1275,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     .line 83
@@ -1301,7 +1292,7 @@
 
     .line 88
     .line 89
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ej2;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/tr2;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -1322,7 +1313,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected onDestroy()V
@@ -1339,13 +1329,13 @@
     invoke-virtual {v0}, Lcom/huawei/csc/captcha/HuaweiCaptcha;->destroy()V
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/si0;->a:Lcom/huawei/appmarket/si0;
+    sget-object v0, Lcom/huawei/appmarket/ti0;->a:Lcom/huawei/appmarket/ti0;
 
     const-string v1, "CaptchaBaseActivity"
 
     const-string v2, "destroy"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 

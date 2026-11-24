@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/nv7;)V
+    value = Lcom/huawei/agconnect/common/server/BackendServiceImpl;->b(Ljava/lang/Exception;Lcom/huawei/agconnect/common/api/BackendService$Options;Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/appmarket/tv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appmarket/tv7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p1, p0, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;->a:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,9 +38,9 @@
 .method public onFailure(Ljava/lang/Exception;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/common/server/BackendServiceImpl$9;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 .end method

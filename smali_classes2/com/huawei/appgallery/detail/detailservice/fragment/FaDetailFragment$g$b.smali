@@ -37,23 +37,23 @@
 .method public final run()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v0, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string v1, "FaDetailFragment"
 
     const-string v2, "install failed"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v0, 0x6a
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$g$b;->b:Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->O6(I)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->P6(I)V
 
     const/4 v0, 0x2
 
-    invoke-static {v1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->C6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
+    invoke-static {v1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->D6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
 
     return-void
 .end method

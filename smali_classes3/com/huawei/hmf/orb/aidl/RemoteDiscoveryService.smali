@@ -3,18 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ej3;
+.implements Lcom/huawei/appmarket/gj3;
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/np6;
+.field private b:Lcom/huawei/appmarket/qp6;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/e75;->a()Lcom/huawei/appmarket/e75;
+    invoke-static {}, Lcom/huawei/appmarket/h75;->a()Lcom/huawei/appmarket/h75;
 
     move-result-object v0
 
@@ -22,27 +22,27 @@
 
     const-class v2, Lcom/huawei/appmarket/wz0;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/e75;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/h75;->c(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e75;->a()Lcom/huawei/appmarket/e75;
+    invoke-static {}, Lcom/huawei/appmarket/h75;->a()Lcom/huawei/appmarket/h75;
 
     move-result-object v0
 
     const-string v1, "InvokeService"
 
-    const-class v2, Lcom/huawei/appmarket/lk4;
+    const-class v2, Lcom/huawei/appmarket/ok4;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/e75;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/h75;->c(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e75;->a()Lcom/huawei/appmarket/e75;
+    invoke-static {}, Lcom/huawei/appmarket/h75;->a()Lcom/huawei/appmarket/h75;
 
     move-result-object v0
 
     const-string v1, "DisconnectService"
 
-    const-class v2, Lcom/huawei/appmarket/cp1;
+    const-class v2, Lcom/huawei/appmarket/fp1;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/e75;->c(Ljava/lang/String;Ljava/lang/Class;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/h75;->c(Ljava/lang/String;Ljava/lang/Class;)V
 
     return-void
 .end method
@@ -52,11 +52,11 @@
 
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/np6;
+    new-instance v0, Lcom/huawei/appmarket/qp6;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/np6;-><init>(Lcom/huawei/appmarket/ej3;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qp6;-><init>(Lcom/huawei/appmarket/gj3;)V
 
-    iput-object v0, p0, Lcom/huawei/hmf/orb/aidl/RemoteDiscoveryService;->b:Lcom/huawei/appmarket/np6;
+    iput-object v0, p0, Lcom/huawei/hmf/orb/aidl/RemoteDiscoveryService;->b:Lcom/huawei/appmarket/qp6;
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .registers 2
 
-    iget-object p1, p0, Lcom/huawei/hmf/orb/aidl/RemoteDiscoveryService;->b:Lcom/huawei/appmarket/np6;
+    iget-object p1, p0, Lcom/huawei/hmf/orb/aidl/RemoteDiscoveryService;->b:Lcom/huawei/appmarket/qp6;
 
     return-object p1
 .end method
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gw;->c(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/hw;->c(Landroid/content/Context;)V
 
     invoke-virtual {p0}, Landroid/app/Service;->getApplication()Landroid/app/Application;
 
@@ -91,7 +91,7 @@
 
     invoke-static {v0}, Lcom/huawei/appmarket/a8;->a(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/d52;->c()Lcom/huawei/appmarket/d52;
+    invoke-static {}, Lcom/huawei/appmarket/h52;->c()Lcom/huawei/appmarket/h52;
 
     move-result-object v0
 
@@ -99,7 +99,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/d52;->a(Ljava/util/Set;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/h52;->a(Ljava/util/Set;)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -49,17 +49,17 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment$c;->b:Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;->o6(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;)Lcom/huawei/appmarket/mq1;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;->p6(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;)Lcom/huawei/appmarket/pq1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/mq1;->i0()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pq1;->i0()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;->p6(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;->q6(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;)V
 
     :cond_0
     return-void

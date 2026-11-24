@@ -2,151 +2,104 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/y25;
 
-# static fields
-.field private static final a:Ljava/util/LinkedHashMap;
+
+# instance fields
+.field private final b:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>(Ljava/util/Map;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/xy8;->b:Ljava/util/Map;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public get(Ljava/lang/String;)Ljava/lang/Object;
     .registers 3
 
     .line 1
-    new-instance v0, Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Lcom/huawei/appmarket/xy8;->b:Ljava/util/Map;
 
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    sput-object v0, Lcom/huawei/appmarket/xy8;->a:Ljava/util/LinkedHashMap;
+    move-result-object p1
 
-    const-class v1, Landroidx/recyclerview/widget/GridLayoutManager;
-
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/huawei/appmarket/z09;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/z09;-><init>()V
-
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-class v1, Landroidx/recyclerview/widget/LinearLayoutManager;
-
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/huawei/appmarket/p49;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/p49;-><init>()V
-
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-class v1, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;
-
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/huawei/appmarket/y69;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/y69;-><init>()V
-
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-class v1, Lcom/huawei/appmarket/ws4;
-
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/huawei/appmarket/c39;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/c39;-><init>()V
-
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-void
+    return-object p1
 .end method
 
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a(Landroidx/recyclerview/widget/RecyclerView;)Lcom/huawei/appmarket/jb2;
-    .registers 6
+.method public isEmpty()Z
+    .registers 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$p;
+    iget-object v0, p0, Lcom/huawei/appmarket/xy8;->b:Ljava/util/Map;
+
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public keys()[Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/xy8;->b:Ljava/util/Map;
+
+    invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/xy8;->a:Ljava/util/LinkedHashMap;
+    const/4 v1, 0x0
 
-    const/4 v2, 0x0
+    new-array v1, v1, [Ljava/lang/String;
 
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-interface {v0, v1}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    :goto_0
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    check-cast v0, [Ljava/lang/String;
 
-    move-result-object v3
+    return-object v0
+.end method
 
-    const-class v4, Landroidx/recyclerview/widget/RecyclerView$p;
+.method public size()I
+    .registers 2
 
-    invoke-virtual {v4}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/xy8;->b:Ljava/util/Map;
 
-    move-result-object v4
+    invoke-interface {v0}, Ljava/util/Map;->size()I
 
-    invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
 
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    invoke-virtual {v1, v3}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/huawei/appmarket/jb2;
-
-    if-nez v2, :cond_0
-
-    invoke-virtual {v0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
-
-    move-result-object v0
-
-    goto :goto_0
-
-    :cond_0
-    if-nez v2, :cond_1
-
-    instance-of p0, p0, Lcom/huawei/appmarket/ws4;
-
-    if-eqz p0, :cond_1
-
-    const-class p0, Lcom/huawei/appmarket/ws4;
-
-    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v1, p0}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    move-object v2, p0
-
-    check-cast v2, Lcom/huawei/appmarket/jb2;
-
-    :cond_1
-    return-object v2
+    return v0
 .end method

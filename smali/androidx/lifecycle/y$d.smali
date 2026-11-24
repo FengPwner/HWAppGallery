@@ -28,7 +28,7 @@
 
 .field private static b:Landroidx/lifecycle/y$d;
 
-.field public static final c:Lcom/huawei/appmarket/qi8$a;
+.field public static final c:Lcom/huawei/appmarket/wi8$a;
 
 
 # direct methods
@@ -39,13 +39,13 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y$d$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y$d$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Landroidx/lifecycle/y$d;->a:Landroidx/lifecycle/y$d$a;
 
-    sget-object v0, Lcom/huawei/appmarket/qi8$a;->a:Lcom/huawei/appmarket/qi8$a;
+    sget-object v0, Lcom/huawei/appmarket/wi8$a;->a:Lcom/huawei/appmarket/wi8$a;
 
-    sput-object v0, Landroidx/lifecycle/y$d;->c:Lcom/huawei/appmarket/qi8$a;
+    sput-object v0, Landroidx/lifecycle/y$d;->c:Lcom/huawei/appmarket/wi8$a;
 
     return-void
 .end method
@@ -78,27 +78,27 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/pq0;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public final a(Lcom/huawei/appmarket/qq0;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
     .registers 3
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/sz8;->T(Lcom/huawei/appmarket/pq0;)Ljava/lang/Class;
+    invoke-static {p1}, Lcom/huawei/appmarket/yz8;->T(Lcom/huawei/appmarket/qq0;)Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/y$d;->c(Ljava/lang/Class;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/y$d;->c(Ljava/lang/Class;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -106,22 +106,22 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/eq4;->a:Lcom/huawei/appmarket/eq4;
+    sget-object v0, Lcom/huawei/appmarket/hq4;->a:Lcom/huawei/appmarket/hq4;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/eq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-static {p1}, Lcom/huawei/appmarket/hq4;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public c(Ljava/lang/Class;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public c(Ljava/lang/Class;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
     .registers 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/y$d;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/y$d;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 

@@ -81,7 +81,7 @@
 
     .line 6
     .line 7
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 8
     .line 9
@@ -89,7 +89,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -118,7 +118,7 @@
 
     .line 24
     .line 25
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 26
     .line 27
@@ -126,7 +126,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -261,7 +261,7 @@
 
     .line 91
     .line 92
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 93
     .line 94
@@ -270,7 +270,7 @@
     .line 95
     .line 96
     :goto_3
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 97
     .line 98
@@ -317,7 +317,7 @@
     .line 118
     .line 119
     .line 120
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 121
     .line 122
@@ -457,7 +457,7 @@
     .line 189
     .line 190
     .line 191
-    invoke-static {v7}, Lcom/huawei/appmarket/b00;->i(I)Ljava/lang/String;
+    invoke-static {v7}, Lcom/huawei/appmarket/kd0;->h(I)Ljava/lang/String;
 
     .line 192
     .line 193
@@ -571,7 +571,7 @@
 
     .line 248
     .line 249
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 250
     .line 251
@@ -580,7 +580,7 @@
     .line 252
     .line 253
     :goto_5
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 254
     .line 255
@@ -682,7 +682,7 @@
     .line 302
     .line 303
     .line 304
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 305
     .line 306
@@ -1059,11 +1059,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final a0(I)V
@@ -1114,13 +1109,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "QuickSearchTextCard"
 
     const-string v1, "getKeyword, bean is null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -1166,13 +1161,13 @@
 
     if-nez v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "QuickSearchTextCard"
 
     const-string v3, "isSupportToDetail, bean is error."
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -1270,12 +1265,12 @@
 
     if-nez v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "setTextWordHolderFlagName, get rightFlagContainer error."
 
     :goto_0
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1301,7 +1296,7 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->l1(Landroid/view/View;I)V
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "setTextWordHolderFlagName, no flagView."
 
@@ -1342,7 +1337,7 @@
 
     .line 8
     .line 9
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 10
     .line 11
@@ -1350,7 +1345,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1383,7 +1378,7 @@
 
     .line 28
     .line 29
-    invoke-static {v3, p1, v0, v2}, Lcom/huawei/appmarket/ve8;->i(IILjava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1, v0, v2}, Lcom/huawei/appmarket/af8;->i(IILjava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -1408,7 +1403,7 @@
 
     .line 41
     .line 42
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 43
     .line 44
@@ -1416,7 +1411,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -1425,11 +1420,11 @@
 
     .line 50
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/pq1$a;
+    new-instance v0, Lcom/huawei/appmarket/sq1$a;
 
     .line 51
     .line 52
-    invoke-direct {v0}, Lcom/huawei/appmarket/pq1$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/sq1$a;-><init>()V
 
     .line 53
     .line 54
@@ -1437,7 +1432,7 @@
     const/4 v1, 0x2
 
     .line 56
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pq1$a;->r(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sq1$a;->r(I)V
 
     .line 57
     .line 58
@@ -1446,22 +1441,22 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pq1$a;->m(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sq1$a;->m(Ljava/lang/String;)V
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/pq1$a;->s(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/sq1$a;->s(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pq1$a;->o(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sq1$a;->o(I)V
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sq1$a;->a()V
 
     .line 71
     .line 72
@@ -1557,5 +1552,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

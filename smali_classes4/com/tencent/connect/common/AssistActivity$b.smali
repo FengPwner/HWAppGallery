@@ -45,7 +45,7 @@
 
     const-string v2, "onActivityResult finish delay"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 

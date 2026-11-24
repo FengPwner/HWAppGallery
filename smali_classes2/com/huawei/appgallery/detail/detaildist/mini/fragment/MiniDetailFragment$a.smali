@@ -36,11 +36,11 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment$a;->a:Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment;->O7(Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment;)Lcom/huawei/appmarket/dt1;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment;->O7(Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailFragment;)Lcom/huawei/appmarket/gt1;
 
     move-result-object p2
 
-    sget-object v0, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object v0, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -56,21 +56,21 @@
 
     const-string v2, "MiniDetailFragment"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->q:Lcom/huawei/appmarket/dt1;
-
-    if-eq p2, v0, :cond_3
-
-    sget-object v0, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->q:Lcom/huawei/appmarket/gt1;
 
     if-eq p2, v0, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->i:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     if-eq p2, v0, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->j:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->i:Lcom/huawei/appmarket/gt1;
+
+    if-eq p2, v0, :cond_3
+
+    sget-object v0, Lcom/huawei/appmarket/gt1;->j:Lcom/huawei/appmarket/gt1;
 
     if-ne p2, v0, :cond_0
 
@@ -83,11 +83,11 @@
 
     if-nez v0, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->n:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->n:Lcom/huawei/appmarket/gt1;
 
     if-eq p2, v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->k:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->k:Lcom/huawei/appmarket/gt1;
 
     if-ne p2, v0, :cond_2
 
@@ -103,7 +103,7 @@
     :goto_0
     iget-object p1, p1, Lcom/huawei/appgallery/detail/detaildist/mini/fragment/MiniDetailAbstractFragment;->u3:Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/dt1;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailDownloadButton;->refreshStatus()Lcom/huawei/appmarket/gt1;
 
     return-void
 .end method

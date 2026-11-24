@@ -6,7 +6,7 @@
 # static fields
 .field private static applicationContext:Landroid/content/Context; = null
 
-.field private static localBroadcastManager:Lcom/huawei/appmarket/bx4; = null
+.field private static localBroadcastManager:Lcom/huawei/appmarket/ex4; = null
 
 .field private static showAuthDlg:Z = true
 
@@ -28,11 +28,11 @@
     return-object v0
 .end method
 
-.method public static getLocalBroadcastManager()Lcom/huawei/appmarket/bx4;
+.method public static getLocalBroadcastManager()Lcom/huawei/appmarket/ex4;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/hwcloudjs/app/SdkApplication;->localBroadcastManager:Lcom/huawei/appmarket/bx4;
+    sget-object v0, Lcom/huawei/hwcloudjs/app/SdkApplication;->localBroadcastManager:Lcom/huawei/appmarket/ex4;
 
     return-object v0
 .end method
@@ -54,11 +54,11 @@
 
     sput-object p0, Lcom/huawei/hwcloudjs/app/SdkApplication;->applicationContext:Landroid/content/Context;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p0
 
-    sput-object p0, Lcom/huawei/hwcloudjs/app/SdkApplication;->localBroadcastManager:Lcom/huawei/appmarket/bx4;
+    sput-object p0, Lcom/huawei/hwcloudjs/app/SdkApplication;->localBroadcastManager:Lcom/huawei/appmarket/ex4;
 
     return-void
 .end method

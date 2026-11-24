@@ -43,7 +43,7 @@
 
     const-string v0, "BannerAbsCard"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -146,7 +146,7 @@
 
     const-string v0, "sendAccessibilityEventUnchecked: TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->T1()V
 
@@ -161,7 +161,7 @@
 
     const-string v0, "sendAccessibilityEventUnchecked: TYPE_VIEW_ACCESSIBILITY_FOCUSED"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->U1()V
 

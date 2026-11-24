@@ -79,15 +79,15 @@
     move-result p1
 
     :try_start_0
-    new-instance v5, Lcom/huawei/appmarket/a52$b;
+    new-instance v5, Lcom/huawei/appmarket/e52$b;
 
-    invoke-direct {v5}, Lcom/huawei/appmarket/a52$b;-><init>()V
+    invoke-direct {v5}, Lcom/huawei/appmarket/e52$b;-><init>()V
 
     iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/a52$b;->n(Landroid/content/Context;)V
+    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/e52$b;->n(Landroid/content/Context;)V
 
-    invoke-virtual {v5, v1}, Lcom/huawei/appmarket/a52$b;->j(Ljava/lang/String;)V
+    invoke-virtual {v5, v1}, Lcom/huawei/appmarket/e52$b;->j(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -95,31 +95,31 @@
 
     check-cast v1, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
 
-    invoke-virtual {v5, v1}, Lcom/huawei/appmarket/a52$b;->m(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
+    invoke-virtual {v5, v1}, Lcom/huawei/appmarket/e52$b;->m(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
 
-    invoke-virtual {v5, v0}, Lcom/huawei/appmarket/a52$b;->o(Ljava/lang/String;)V
+    invoke-virtual {v5, v0}, Lcom/huawei/appmarket/e52$b;->o(Ljava/lang/String;)V
 
-    invoke-virtual {v5, v2}, Lcom/huawei/appmarket/a52$b;->q(Ljava/lang/String;)V
+    invoke-virtual {v5, v2}, Lcom/huawei/appmarket/e52$b;->q(Ljava/lang/String;)V
 
-    invoke-virtual {v5, v3}, Lcom/huawei/appmarket/a52$b;->l(Ljava/lang/String;)V
+    invoke-virtual {v5, v3}, Lcom/huawei/appmarket/e52$b;->l(Ljava/lang/String;)V
 
-    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/a52$b;->k(Ljava/lang/String;)V
+    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/e52$b;->k(Ljava/lang/String;)V
 
-    invoke-virtual {v5, p1}, Lcom/huawei/appmarket/a52$b;->p(I)V
+    invoke-virtual {v5, p1}, Lcom/huawei/appmarket/e52$b;->p(I)V
 
-    invoke-virtual {v5}, Lcom/huawei/appmarket/a52$b;->i()Lcom/huawei/appmarket/a52;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/e52$b;->i()Lcom/huawei/appmarket/e52;
 
     move-result-object p1
 
-    const-class v0, Lcom/huawei/appmarket/fp3;
+    const-class v0, Lcom/huawei/appmarket/hp3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/fp3;
+    check-cast v0, Lcom/huawei/appmarket/hp3;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fp3;->M1(Lcom/huawei/appmarket/a52;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hp3;->N1(Lcom/huawei/appmarket/e52;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -128,7 +128,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/y42;->a:Lcom/huawei/appmarket/y42;
+    sget-object v0, Lcom/huawei/appmarket/c52;->a:Lcom/huawei/appmarket/c52;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -148,13 +148,13 @@
 
     const-string v1, "ContentAreaPictureTextCard"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/q34;
+.implements Lcom/huawei/appmarket/s34;
 
 
 # annotations
@@ -101,7 +101,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -142,7 +142,7 @@
 
     .line 38
     .line 39
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -258,16 +258,7 @@
     .line 137
 .end method
 
-.method public final X()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->uri_:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final Y(Ljava/lang/String;)V
+.method public final X(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -276,7 +267,7 @@
     return-void
 .end method
 
-.method public final Z(I)V
+.method public final Y(I)V
     .registers 2
 
     .line 1
@@ -285,11 +276,19 @@
     return-void
 .end method
 
-.method public final a0(Ljava/lang/String;)V
+.method public final Z(Ljava/lang/String;)V
     .registers 2
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->uri_:Ljava/lang/String;
 
     return-void
+.end method
+
+.method public final getUri_()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/base/api/request/JGWTabDetailRequest;->uri_:Ljava/lang/String;
+
+    return-object v0
 .end method

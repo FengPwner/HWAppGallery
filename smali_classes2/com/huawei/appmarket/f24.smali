@@ -4,5 +4,8 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+.method public abstract a()I
+.end method
+
+.method public abstract n()Ljava/lang/String;
 .end method

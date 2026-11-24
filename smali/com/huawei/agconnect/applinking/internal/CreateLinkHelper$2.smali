@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;->k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;->k(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/agconnect/applinking/internal/server/CreateLinkResponse;",
         ">;"
     }
@@ -27,19 +27,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->b:Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper;
 
-    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,14 +69,14 @@
 
     invoke-direct {v0, v1, p1}, Lcom/huawei/agconnect/applinking/internal/ShortAppLinkingImpl;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/CreateLinkHelper$2;->a:Lcom/huawei/appmarket/tv7;
 
     new-instance v1, Lcom/huawei/agconnect/applinking/AppLinkingException;
 
@@ -90,7 +90,7 @@
 
     invoke-direct {v1, v2, p1}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 .end method

@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/progressindicator/a$c;
-.super Lcom/huawei/appmarket/ol;
+.super Lcom/huawei/appmarket/nl;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/progressindicator/a$c;->a:Lcom/google/android/material/progressindicator/a;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ol;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/nl;-><init>()V
 
     return-void
 .end method

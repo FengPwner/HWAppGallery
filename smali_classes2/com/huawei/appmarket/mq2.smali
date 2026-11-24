@@ -1,46 +1,62 @@
 .class public final Lcom/huawei/appmarket/mq2;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/rq3;
 
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
-
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/rq3;
-.end annotation
+# static fields
+.field private static b:Lcom/huawei/appmarket/mq2;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method private constructor <init>()V
+    .registers 2
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    const-string v0, "ForumSpV1"
+
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final parseLongToString(J)Ljava/lang/String;
-    .registers 4
+.method public static declared-synchronized v()Lcom/huawei/appmarket/mq2;
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+    const-class v0, Lcom/huawei/appmarket/mq2;
 
-    move-result-object v0
+    monitor-enter v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/mq2;->b:Lcom/huawei/appmarket/mq2;
 
-    move-result-object v0
+    if-nez v1, :cond_0
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/ho2;->d(Landroid/content/Context;J)Ljava/lang/String;
+    new-instance v1, Lcom/huawei/appmarket/mq2;
 
-    move-result-object p1
+    invoke-direct {v1}, Lcom/huawei/appmarket/mq2;-><init>()V
 
-    return-object p1
+    sput-object v1, Lcom/huawei/appmarket/mq2;->b:Lcom/huawei/appmarket/mq2;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object v1, Lcom/huawei/appmarket/mq2;->b:Lcom/huawei/appmarket/mq2;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_1
+    monitor-exit v0
+
+    throw v1
 .end method

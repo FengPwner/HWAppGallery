@@ -1,18 +1,18 @@
 .class final Lcom/huawei/appgallery/agguard/business/ui/activity/j;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
         "Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -87,7 +87,7 @@
 
     .line 22
     .line 23
-    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/if1;
 
     .line 24
     .line 25
@@ -99,7 +99,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gf1;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/if1;->b()V
 
     .line 30
     .line 31
@@ -142,7 +142,7 @@
 
     .line 51
     :cond_0
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -151,7 +151,7 @@
 
     .line 55
     :cond_1
-    invoke-static {v5}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -160,7 +160,7 @@
 
     .line 59
     :cond_2
-    invoke-static {v6}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -173,7 +173,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 66
     .line 67
@@ -185,7 +185,7 @@
 
     .line 70
     .line 71
-    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/if1;
 
     .line 72
     .line 73
@@ -197,7 +197,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gf1;->j()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/if1;->j()V
 
     .line 78
     .line 79
@@ -241,7 +241,7 @@
 
     .line 99
     :cond_4
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -250,7 +250,7 @@
 
     .line 103
     :cond_5
-    invoke-static {v5}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -259,7 +259,7 @@
 
     .line 107
     :cond_6
-    invoke-static {v6}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -276,7 +276,7 @@
 
     .line 114
     .line 115
-    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/gf1;
+    invoke-static {v7}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;->E3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;)Lcom/huawei/appmarket/if1;
 
     .line 116
     .line 117
@@ -288,7 +288,7 @@
 
     .line 120
     .line 121
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gf1;->j()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/if1;->j()V
 
     .line 122
     .line 123
@@ -326,7 +326,7 @@
 
     .line 140
     :cond_8
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 141
     .line 142
@@ -335,7 +335,7 @@
 
     .line 144
     :cond_9
-    invoke-static {v5}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v5}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 145
     .line 146
@@ -344,7 +344,7 @@
 
     .line 148
     :cond_a
-    invoke-static {v6}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 149
     .line 150
@@ -354,7 +354,7 @@
     .line 152
     :cond_b
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 153
     .line 154

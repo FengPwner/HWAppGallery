@@ -29,11 +29,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/oobe/activity/m;->a:Lcom/huawei/appmarket/oobe/activity/OOBEAppPermissionActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEAppPermissionActivity;->D3(Lcom/huawei/appmarket/oobe/activity/OOBEAppPermissionActivity;)Lcom/huawei/appmarket/al5;
+    invoke-static {v0}, Lcom/huawei/appmarket/oobe/activity/OOBEAppPermissionActivity;->D3(Lcom/huawei/appmarket/oobe/activity/OOBEAppPermissionActivity;)Lcom/huawei/appmarket/cl5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/al5;->k()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cl5;->k()V
 
     return-void
 .end method

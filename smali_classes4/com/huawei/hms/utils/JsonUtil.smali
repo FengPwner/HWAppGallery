@@ -380,7 +380,7 @@
     const-string v4, "_list_item_"
 
     .line 5
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -544,7 +544,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "writeByte failed : "
+    const-string/jumbo v2, "writeByte failed : "
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

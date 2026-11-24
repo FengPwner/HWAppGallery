@@ -90,7 +90,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/t03;
+    check-cast v4, Lcom/huawei/appmarket/w03;
 
     if-nez v4, :cond_3
 
@@ -132,7 +132,7 @@
 
     invoke-virtual {v5, v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->G0(Ljava/lang/String;)V
 
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/t03;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/w03;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     invoke-virtual {v4}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -152,7 +152,7 @@
 
     iget-object v5, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftCard;->w:Landroid/content/Context;
 
-    invoke-static {v5}, Lcom/huawei/appmarket/s03;->e(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/huawei/appmarket/v03;->e(Landroid/content/Context;)Z
 
     move-result v5
 

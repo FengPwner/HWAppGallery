@@ -19,7 +19,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agguard/business/notification/NotificationClearReceiver$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agguard/business/notification/NotificationClearReceiver$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -46,7 +46,7 @@
     const-string v0, "intent is null!"
 
     :goto_0
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

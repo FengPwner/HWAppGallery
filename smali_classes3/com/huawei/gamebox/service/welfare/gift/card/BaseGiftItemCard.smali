@@ -14,7 +14,7 @@
     .end annotation
 .end field
 
-.field private B:Lcom/huawei/appmarket/ja3;
+.field private B:Lcom/huawei/appmarket/ma3;
 
 .field protected C:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;
 
@@ -87,7 +87,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->z:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -391,14 +391,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public D1(Lcom/huawei/appmarket/ja3;)V
+.method public D1(Lcom/huawei/appmarket/ma3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->B:Lcom/huawei/appmarket/ja3;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->B:Lcom/huawei/appmarket/ma3;
 
     return-void
 .end method
@@ -433,7 +432,7 @@
     :cond_1
     iget-object v2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->z:Ljava/util/List;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -602,7 +601,7 @@
 
     .line 64
     .line 65
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 66
     .line 67
@@ -800,7 +799,7 @@
 
     .line 157
     :goto_6
-    iget-object v1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->B:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->B:Lcom/huawei/appmarket/ma3;
 
     .line 158
     .line 159
@@ -808,7 +807,7 @@
 
     .line 160
     .line 161
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ja3;->a(Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetailInfo;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ma3;->a(Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetailInfo;)V
 
     .line 162
     .line 163
@@ -852,7 +851,7 @@
 
     .line 183
     .line 184
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 185
     .line 186
@@ -901,7 +900,7 @@
 
     .line 209
     .line 210
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 211
     .line 212
@@ -1701,7 +1700,7 @@
     .line 965
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -1719,11 +1718,11 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->D:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     return-void
@@ -1861,7 +1860,7 @@
 
     .line 66
     .line 67
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 68
     .line 69
@@ -1869,7 +1868,7 @@
     move-result v2
 
     .line 71
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 72
     .line 73
@@ -1935,7 +1934,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final v1()V
@@ -1946,7 +1944,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 4
     .line 5
@@ -1970,7 +1968,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -2014,7 +2012,7 @@
 
     .line 33
     .line 34
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 35
     .line 36
@@ -2134,7 +2132,7 @@
 
     .line 91
     .line 92
-    invoke-static {v6}, Lcom/huawei/appmarket/xh8;->h(Landroid/view/View;)I
+    invoke-static {v6}, Lcom/huawei/appmarket/di8;->h(Landroid/view/View;)I
 
     .line 93
     .line 94

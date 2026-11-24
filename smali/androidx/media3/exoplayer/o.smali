@@ -53,13 +53,13 @@
     if-eqz v1, :cond_1
 
     :cond_0
-    invoke-static {v0}, Landroidx/media3/exoplayer/p;->k(Landroidx/media3/exoplayer/p;)Lcom/huawei/appmarket/n43;
+    invoke-static {v0}, Landroidx/media3/exoplayer/p;->k(Landroidx/media3/exoplayer/p;)Lcom/huawei/appmarket/q43;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/n43;->j(I)Z
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/q43;->j(I)Z
 
     :cond_1
     return-void

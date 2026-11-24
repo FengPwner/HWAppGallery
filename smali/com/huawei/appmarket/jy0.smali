@@ -218,7 +218,7 @@
 
     .line 90
     :cond_2
-    invoke-static {p0, p2, v0, p1}, Lcom/huawei/appmarket/f23;->a(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/content/res/XmlResourceParser;)Landroid/graphics/Shader;
+    invoke-static {p0, p2, v0, p1}, Lcom/huawei/appmarket/i23;->a(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/content/res/XmlResourceParser;)Landroid/graphics/Shader;
 
     .line 91
     .line 92
@@ -431,6 +431,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static b(I)Lcom/huawei/appmarket/jy0;

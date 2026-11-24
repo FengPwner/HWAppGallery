@@ -1,76 +1,62 @@
-.class public abstract Lcom/huawei/appmarket/v99;
-.super Lcom/huawei/appmarket/wg9;
+.class public final Lcom/huawei/appmarket/v99;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sd9;
+.implements Lcom/huawei/appmarket/x31;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/x31<",
+        "Ljava/lang/Void;",
+        "Ljava/util/List<",
+        "Lcom/huawei/appmarket/nv7<",
+        "*>;>;>;"
+    }
+.end annotation
 
 
 # instance fields
-.field protected a:Lcom/huawei/appmarket/vg9;
-
-.field protected b:Lcom/huawei/appmarket/vg9;
+.field public final synthetic a:Ljava/util/Collection;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Ljava/util/Collection;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/wg9;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/v99;->a:Ljava/util/Collection;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/vg9;)V
-    .registers 2
+.method public final then(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
+    .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
-
-    .line 2
-    iput-object p1, p0, Lcom/huawei/appmarket/v99;->a:Lcom/huawei/appmarket/vg9;
-
-    return-void
-.end method
-
-.method public final a()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/v99;->a:Lcom/huawei/appmarket/vg9;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/v99;->b:Lcom/huawei/appmarket/vg9;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public final d(Lcom/huawei/appmarket/vg9;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+            Ljava/lang/Exception;
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/v99;->b:Lcom/huawei/appmarket/vg9;
+    new-instance p1, Ljava/util/ArrayList;
 
-    return-void
+    iget-object v0, p0, Lcom/huawei/appmarket/v99;->a:Ljava/util/Collection;
+
+    invoke-interface {v0}, Ljava/util/Collection;->size()I
+
+    move-result v1
+
+    invoke-direct {p1, v1}, Ljava/util/ArrayList;-><init>(I)V
+
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    return-object p1
 .end method

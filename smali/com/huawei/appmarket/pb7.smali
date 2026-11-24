@@ -2,409 +2,466 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/nw5;
-.implements Lcom/huawei/appmarket/d40$b;
-.implements Lcom/huawei/appmarket/br4;
+
+# static fields
+.field private static final i:[I
+
+.field private static final j:[F
+
+.field private static final k:[I
+
+.field private static final l:[F
 
 
 # instance fields
-.field private final a:Landroid/graphics/Path;
+.field private final a:Landroid/graphics/Paint;
 
-.field private final b:Ljava/lang/String;
+.field private final b:Landroid/graphics/Paint;
 
-.field private final c:Z
+.field private final c:Landroid/graphics/Paint;
 
-.field private final d:Lcom/airbnb/lottie/h;
+.field private d:I
 
-.field private final e:Lcom/huawei/appmarket/wb7;
+.field private e:I
 
-.field private f:Z
+.field private f:I
 
-.field private final g:Lcom/huawei/appmarket/ez0;
+.field private final g:Landroid/graphics/Path;
+
+.field private h:Landroid/graphics/Paint;
 
 
 # direct methods
-.method public constructor <init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/g40;Lcom/huawei/appmarket/bc7;)V
-    .registers 5
+.method static constructor <clinit>()V
+    .registers 2
 
     .line 1
+    const/4 v0, 0x3
+
+    new-array v1, v0, [I
+
+    sput-object v1, Lcom/huawei/appmarket/pb7;->i:[I
+
+    new-array v0, v0, [F
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/huawei/appmarket/pb7;->j:[F
+
+    const/4 v0, 0x4
+
+    new-array v1, v0, [I
+
+    sput-object v1, Lcom/huawei/appmarket/pb7;->k:[I
+
+    new-array v0, v0, [F
+
+    fill-array-data v0, :array_1
+
+    sput-object v0, Lcom/huawei/appmarket/pb7;->l:[F
+
+    return-void
+
+    nop
+
+    :array_0
+    .array-data 4
+        0x0
+        0x3f000000    # 0.5f
+        0x3f800000    # 1.0f
+    .end array-data
+
+    :array_1
+    .array-data 4
+        0x0
+        0x0
+        0x3f000000    # 0.5f
+        0x3f800000    # 1.0f
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    const/high16 v0, -0x1000000
+
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/pb7;-><init>(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(I)V
+    .registers 4
+
+    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->a:Landroid/graphics/Path;
+    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->g:Landroid/graphics/Path;
 
-    new-instance v0, Lcom/huawei/appmarket/ez0;
+    new-instance v0, Landroid/graphics/Paint;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ez0;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->g:Lcom/huawei/appmarket/ez0;
+    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->h:Landroid/graphics/Paint;
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/bc7;->b()Ljava/lang/String;
+    new-instance v1, Landroid/graphics/Paint;
 
-    move-result-object v0
+    invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->b:Ljava/lang/String;
+    iput-object v1, p0, Lcom/huawei/appmarket/pb7;->a:Landroid/graphics/Paint;
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/bc7;->d()Z
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/pb7;->d(I)V
 
-    move-result v0
+    const/4 p1, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/pb7;->c:Z
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/pb7;->d:Lcom/airbnb/lottie/h;
+    new-instance p1, Landroid/graphics/Paint;
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/bc7;->c()Lcom/huawei/appmarket/xl;
+    const/4 v0, 0x4
 
-    move-result-object p1
+    invoke-direct {p1, v0}, Landroid/graphics/Paint;-><init>(I)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xl;->d()Lcom/huawei/appmarket/wb7;
+    iput-object p1, p0, Lcom/huawei/appmarket/pb7;->b:Landroid/graphics/Paint;
 
-    move-result-object p1
+    sget-object v0, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/pb7;->e:Lcom/huawei/appmarket/wb7;
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+    new-instance v0, Landroid/graphics/Paint;
 
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+    invoke-direct {v0, p1}, Landroid/graphics/Paint;-><init>(Landroid/graphics/Paint;)V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/pb7;->c:Landroid/graphics/Paint;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()V
-    .registers 2
+.method public final a(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Landroid/graphics/RectF;IFF)V
+    .registers 24
 
     .line 1
-    const/4 v0, 0x0
+    move-object/from16 v0, p0
 
-    .line 2
-    iput-boolean v0, p0, Lcom/huawei/appmarket/pb7;->f:Z
+    move-object/from16 v7, p1
 
-    .line 3
-    .line 4
-    iget-object v0, p0, Lcom/huawei/appmarket/pb7;->d:Lcom/airbnb/lottie/h;
+    move-object/from16 v2, p3
 
-    .line 5
-    .line 6
-    invoke-virtual {v0}, Lcom/airbnb/lottie/h;->invalidateSelf()V
+    move/from16 v1, p4
 
-    .line 7
-    .line 8
-    .line 9
-    return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-.end method
-
-.method public final b(Ljava/util/List;Ljava/util/List;)V
-    .registers 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/k21;",
-            ">;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/k21;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 1
-    const/4 p2, 0x0
-
-    const/4 v0, 0x0
-
-    :goto_0
-    move-object v1, p1
-
-    check-cast v1, Ljava/util/ArrayList;
-
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-
-    move-result v2
-
-    if-ge v0, v2, :cond_3
-
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/huawei/appmarket/k21;
-
-    instance-of v2, v1, Lcom/huawei/appmarket/d48;
-
-    if-eqz v2, :cond_0
-
-    move-object v2, v1
-
-    check-cast v2, Lcom/huawei/appmarket/d48;
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/d48;->k()Lcom/huawei/appmarket/gc7$a;
-
-    move-result-object v3
-
-    sget-object v4, Lcom/huawei/appmarket/gc7$a;->b:Lcom/huawei/appmarket/gc7$a;
-
-    if-ne v3, v4, :cond_0
-
-    iget-object v1, p0, Lcom/huawei/appmarket/pb7;->g:Lcom/huawei/appmarket/ez0;
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ez0;->a(Lcom/huawei/appmarket/d48;)V
-
-    invoke-virtual {v2, p0}, Lcom/huawei/appmarket/d48;->c(Lcom/huawei/appmarket/d40$b;)V
-
-    goto :goto_1
-
-    :cond_0
-    instance-of v2, v1, Lcom/huawei/appmarket/yb7;
-
-    if-eqz v2, :cond_2
-
-    if-nez p2, :cond_1
-
-    new-instance p2, Ljava/util/ArrayList;
-
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
-
-    :cond_1
-    check-cast v1, Lcom/huawei/appmarket/yb7;
-
-    invoke-interface {p2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_2
-    :goto_1
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_0
-
-    :cond_3
-    iget-object p1, p0, Lcom/huawei/appmarket/pb7;->e:Lcom/huawei/appmarket/wb7;
-
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wb7;->o(Ljava/util/ArrayList;)V
-
-    return-void
-.end method
-
-.method public final c(Lcom/huawei/appmarket/m15;Ljava/lang/Object;)V
-    .registers 4
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/h15;->P:Landroid/graphics/Path;
-
-    if-ne p2, v0, :cond_0
-
-    iget-object p2, p0, Lcom/huawei/appmarket/pb7;->e:Lcom/huawei/appmarket/wb7;
-
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/d40;->n(Lcom/huawei/appmarket/m15;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final d(Lcom/huawei/appmarket/zq4;ILjava/util/ArrayList;Lcom/huawei/appmarket/zq4;)V
-    .registers 5
-
-    .line 1
-    invoke-static {p1, p2, p3, p4, p0}, Lcom/huawei/appmarket/s95;->f(Lcom/huawei/appmarket/zq4;ILjava/util/ArrayList;Lcom/huawei/appmarket/zq4;Lcom/huawei/appmarket/br4;)V
-
-    return-void
-.end method
-
-.method public final e()Landroid/graphics/Path;
-    .registers 5
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/pb7;->f:Z
-
-    iget-object v1, p0, Lcom/huawei/appmarket/pb7;->e:Lcom/huawei/appmarket/wb7;
-
-    iget-object v2, p0, Lcom/huawei/appmarket/pb7;->a:Landroid/graphics/Path;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/d40;->j()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return-object v2
-
-    :cond_0
-    invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
-
-    iget-boolean v0, p0, Lcom/huawei/appmarket/pb7;->c:Z
+    move/from16 v4, p6
 
     const/4 v3, 0x1
 
-    if-eqz v0, :cond_1
+    const/4 v5, 0x0
 
-    iput-boolean v3, p0, Lcom/huawei/appmarket/pb7;->f:Z
+    const/4 v6, 0x0
 
-    return-object v2
+    cmpg-float v8, v4, v6
+
+    if-gez v8, :cond_0
+
+    const/4 v8, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v8, 0x0
+
+    :goto_0
+    iget-object v9, v0, Lcom/huawei/appmarket/pb7;->g:Landroid/graphics/Path;
+
+    sget-object v14, Lcom/huawei/appmarket/pb7;->k:[I
+
+    const/4 v10, 0x3
+
+    const/4 v11, 0x2
+
+    if-eqz v8, :cond_1
+
+    aput v5, v14, v5
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->f:I
+
+    aput v5, v14, v3
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->e:I
+
+    aput v5, v14, v11
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->d:I
+
+    aput v5, v14, v10
+
+    move/from16 v15, p5
+
+    goto :goto_1
 
     :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+    invoke-virtual {v9}, Landroid/graphics/Path;->rewind()V
 
-    move-result-object v0
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->centerX()F
 
-    check-cast v0, Landroid/graphics/Path;
+    move-result v12
 
-    if-nez v0, :cond_2
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->centerY()F
 
-    return-object v2
+    move-result v13
+
+    invoke-virtual {v9, v12, v13}, Landroid/graphics/Path;->moveTo(FF)V
+
+    move/from16 v15, p5
+
+    invoke-virtual {v9, v2, v15, v4}, Landroid/graphics/Path;->arcTo(Landroid/graphics/RectF;FF)V
+
+    invoke-virtual {v9}, Landroid/graphics/Path;->close()V
+
+    neg-int v12, v1
+
+    int-to-float v12, v12
+
+    invoke-virtual {v2, v12, v12}, Landroid/graphics/RectF;->inset(FF)V
+
+    aput v5, v14, v5
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->d:I
+
+    aput v5, v14, v3
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->e:I
+
+    aput v5, v14, v11
+
+    iget v5, v0, Lcom/huawei/appmarket/pb7;->f:I
+
+    aput v5, v14, v10
+
+    :goto_1
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->width()F
+
+    move-result v5
+
+    const/high16 v10, 0x40000000    # 2.0f
+
+    div-float v13, v5, v10
+
+    cmpg-float v5, v13, v6
+
+    if-gtz v5, :cond_2
+
+    return-void
 
     :cond_2
-    invoke-virtual {v2, v0}, Landroid/graphics/Path;->set(Landroid/graphics/Path;)V
+    int-to-float v1, v1
 
-    sget-object v0, Landroid/graphics/Path$FillType;->EVEN_ODD:Landroid/graphics/Path$FillType;
+    div-float/2addr v1, v13
 
-    invoke-virtual {v2, v0}, Landroid/graphics/Path;->setFillType(Landroid/graphics/Path$FillType;)V
+    const/high16 v5, 0x3f800000    # 1.0f
 
-    iget-object v0, p0, Lcom/huawei/appmarket/pb7;->g:Lcom/huawei/appmarket/ez0;
+    sub-float v1, v5, v1
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ez0;->b(Landroid/graphics/Path;)V
+    sub-float v6, v5, v1
 
-    iput-boolean v3, p0, Lcom/huawei/appmarket/pb7;->f:Z
+    div-float/2addr v6, v10
 
-    return-object v2
+    add-float/2addr v6, v1
+
+    sget-object v16, Lcom/huawei/appmarket/pb7;->l:[F
+
+    aput v1, v16, v3
+
+    aput v6, v16, v11
+
+    new-instance v1, Landroid/graphics/RadialGradient;
+
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->centerX()F
+
+    move-result v11
+
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->centerY()F
+
+    move-result v12
+
+    sget-object v3, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
+
+    move-object v10, v1
+
+    move-object/from16 v15, v16
+
+    move-object/from16 v16, v3
+
+    invoke-direct/range {v10 .. v16}, Landroid/graphics/RadialGradient;-><init>(FFF[I[FLandroid/graphics/Shader$TileMode;)V
+
+    iget-object v6, v0, Lcom/huawei/appmarket/pb7;->b:Landroid/graphics/Paint;
+
+    invoke-virtual {v6, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
+
+    invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
+
+    invoke-virtual/range {p1 .. p2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
+
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->height()F
+
+    move-result v1
+
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/RectF;->width()F
+
+    move-result v3
+
+    div-float/2addr v1, v3
+
+    invoke-virtual {v7, v5, v1}, Landroid/graphics/Canvas;->scale(FF)V
+
+    if-nez v8, :cond_3
+
+    sget-object v1, Landroid/graphics/Region$Op;->DIFFERENCE:Landroid/graphics/Region$Op;
+
+    invoke-virtual {v7, v9, v1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;Landroid/graphics/Region$Op;)Z
+
+    iget-object v1, v0, Lcom/huawei/appmarket/pb7;->h:Landroid/graphics/Paint;
+
+    invoke-virtual {v7, v9, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
+
+    :cond_3
+    const/4 v5, 0x1
+
+    move-object/from16 v1, p1
+
+    move-object/from16 v2, p3
+
+    move/from16 v3, p5
+
+    move/from16 v4, p6
+
+    invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
+
+    invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
+
+    return-void
 .end method
 
-.method public final getName()Ljava/lang/String;
+.method public final b(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Landroid/graphics/RectF;I)V
+    .registers 14
+
+    .line 1
+    iget v0, p3, Landroid/graphics/RectF;->bottom:F
+
+    int-to-float v1, p4
+
+    add-float/2addr v0, v1
+
+    iput v0, p3, Landroid/graphics/RectF;->bottom:F
+
+    neg-int p4, p4
+
+    int-to-float p4, p4
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p3, v0, p4}, Landroid/graphics/RectF;->offset(FF)V
+
+    sget-object v6, Lcom/huawei/appmarket/pb7;->i:[I
+
+    const/4 p4, 0x0
+
+    iget v0, p0, Lcom/huawei/appmarket/pb7;->f:I
+
+    aput v0, v6, p4
+
+    const/4 p4, 0x1
+
+    iget v0, p0, Lcom/huawei/appmarket/pb7;->e:I
+
+    aput v0, v6, p4
+
+    const/4 p4, 0x2
+
+    iget v0, p0, Lcom/huawei/appmarket/pb7;->d:I
+
+    aput v0, v6, p4
+
+    iget-object p4, p0, Lcom/huawei/appmarket/pb7;->c:Landroid/graphics/Paint;
+
+    new-instance v0, Landroid/graphics/LinearGradient;
+
+    iget v4, p3, Landroid/graphics/RectF;->left:F
+
+    iget v3, p3, Landroid/graphics/RectF;->top:F
+
+    iget v5, p3, Landroid/graphics/RectF;->bottom:F
+
+    sget-object v7, Lcom/huawei/appmarket/pb7;->j:[F
+
+    sget-object v8, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
+
+    move-object v1, v0
+
+    move v2, v4
+
+    invoke-direct/range {v1 .. v8}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
+
+    invoke-virtual {p4, v0}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
+
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
+
+    invoke-virtual {p1, p2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
+
+    invoke-virtual {p1, p3, p4}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
+
+    return-void
+.end method
+
+.method public final c()Landroid/graphics/Paint;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pb7;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/pb7;->a:Landroid/graphics/Paint;
 
     return-object v0
+.end method
+
+.method public final d(I)V
+    .registers 3
+
+    .line 1
+    const/16 v0, 0x44
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/mu0;->f(II)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/pb7;->d:I
+
+    const/16 v0, 0x14
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/mu0;->f(II)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/huawei/appmarket/pb7;->e:I
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/mu0;->f(II)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/huawei/appmarket/pb7;->f:I
+
+    iget-object p1, p0, Lcom/huawei/appmarket/pb7;->a:Landroid/graphics/Paint;
+
+    iget v0, p0, Lcom/huawei/appmarket/pb7;->d:I
+
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
+
+    return-void
 .end method

@@ -23,7 +23,7 @@
     if-eqz p1, :cond_0
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -98,13 +98,8 @@
 
     move-result-object p1
 
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 3
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ci7;->k(Ljava/io/IOException;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -116,6 +111,7 @@
 
     move-object v2, v6
 
+    .line 4
     invoke-static/range {v1 .. v6}, Lcom/huawei/wisesecurity/ucs_credential/g;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;JLjava/lang/String;)Lcom/huawei/wisesecurity/ucs/common/exception/UcsException;
 
     move-result-object p0
@@ -196,14 +192,14 @@
 
     if-nez v4, :cond_1
 
-    .line 6
-    invoke-static {v2}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    .line 11
+    invoke-static {v2}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
+    .line 12
     :try_start_1
     new-instance v4, Ljava/io/File;
 
@@ -280,7 +276,7 @@
 
     :cond_2
     :goto_2
-    const-string p0, "verify jws error, "
+    const-string/jumbo p0, "verify jws error, "
 
     invoke-static {p0}, Lcom/huawei/wisesecurity/ucs_credential/a;->a(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

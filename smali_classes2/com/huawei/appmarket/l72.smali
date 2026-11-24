@@ -1,78 +1,134 @@
-.class public final synthetic Lcom/huawei/appmarket/l72;
+.class public final Lcom/huawei/appmarket/l72;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/content/DialogInterface$OnCancelListener;
-
-
-# instance fields
-.field public final synthetic b:I
-
 
 # direct methods
-.method public synthetic constructor <init>(I)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    .registers 5
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    const-string v0, "cType"
 
     .line 2
     .line 3
-    .line 4
-    iput p1, p0, Lcom/huawei/appmarket/l72;->b:I
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
 
+    .line 4
     .line 5
     .line 6
-    return-void
+    move-result-object v1
+
     .line 7
+    const/4 v2, 0x0
+
     .line 8
+    invoke-static {v2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
     .line 9
     .line 10
     .line 11
+    move-result-object v3
+
     .line 12
+    invoke-static {v1, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
     .line 13
     .line 14
     .line 15
+    move-result v1
+
     .line 16
+    if-eqz v1, :cond_0
+
     .line 17
     .line 18
+    const-string v1, "submitType"
+
     .line 19
     .line 20
+    invoke-virtual {p0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
+
     .line 21
     .line 22
     .line 23
+    move-result-object v1
+
     .line 24
+    const/16 v3, 0xa
+
     .line 25
     .line 26
+    invoke-static {v3}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
     .line 27
     .line 28
     .line 29
+    move-result-object v3
+
     .line 30
+    invoke-static {v1, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
     .line 31
     .line 32
     .line 33
+    move-result v1
+
     .line 34
+    if-eqz v1, :cond_0
+
     .line 35
     .line 36
+    goto :goto_0
+
     .line 37
+    :cond_0
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
+
     .line 38
     .line 39
     .line 40
+    move-result-object p0
+
     .line 41
+    const/16 v0, 0x13
+
     .line 42
     .line 43
+    invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
     .line 44
     .line 45
     .line 46
+    move-result-object v0
+
     .line 47
+    invoke-static {p0, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
     .line 48
     .line 49
     .line 50
+    move-result p0
+
     .line 51
+    if-eqz p0, :cond_1
+
     .line 52
     .line 53
+    :goto_0
+    const/4 v2, 0x1
+
     .line 54
+    :cond_1
+    return v2
     .line 55
     .line 56
     .line 57
@@ -125,38 +181,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
-.end method
-
-
-# virtual methods
-.method public final onCancel(Landroid/content/DialogInterface;)V
-    .registers 2
-
-    .line 1
-    iget p1, p0, Lcom/huawei/appmarket/l72;->b:I
-
-    packed-switch p1, :pswitch_data_0
-
-    invoke-static {}, Lcom/huawei/appmarket/g03;->a()V
-
-    return-void
-
-    :pswitch_0
-    invoke-static {}, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;->C3()V
-
-    return-void
-
-    :pswitch_1
-    invoke-static {}, Lcom/huawei/appgallery/webviewlite/dldmgr/view/ExternalDownloadManagerActivity;->D3()V
-
-    return-void
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
 .end method

@@ -1,57 +1,41 @@
 .class final Lcom/huawei/appmarket/t35;
-.super Ljava/lang/Object;
+.super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/bv5$a;
+
+# instance fields
+.field final synthetic a:Landroid/view/View;
+
+.field final synthetic b:Lcom/huawei/appmarket/MarketActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;Landroid/view/View;)V
+    .registers 3
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/t35;->b:Lcom/huawei/appmarket/MarketActivity;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/t35;->a:Landroid/view/View;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Ljava/lang/String;)V
-    .registers 6
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .registers 3
 
-    .line 1
-    const-string v0, "AgGuard"
+    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    const-string v1, "AgGuardActivity"
+    iget-object p1, p0, Lcom/huawei/appmarket/t35;->b:Lcom/huawei/appmarket/MarketActivity;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o93;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-static {p1}, Lcom/huawei/appmarket/MarketActivity;->C4(Lcom/huawei/appmarket/MarketActivity;)V
 
-    move-result-object v0
+    iget-object v0, p0, Lcom/huawei/appmarket/t35;->a:Landroid/view/View;
 
-    new-instance v1, Landroid/content/Intent;
-
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
-
-    const/high16 v2, 0x30000000
-
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    const-string v2, "extra_browse_task_id"
-
-    invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-static {}, Lcom/huawei/hmf/services/ui/c;->b()Lcom/huawei/hmf/services/ui/c;
-
-    move-result-object p2
-
-    new-instance v2, Lcom/huawei/secure/android/common/intent/SafeIntent;
-
-    invoke-direct {v2, v1}, Lcom/huawei/secure/android/common/intent/SafeIntent;-><init>(Landroid/content/Intent;)V
-
-    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p1, v0, v2}, Lcom/huawei/hmf/services/ui/c;->e(Landroid/content/Context;Lcom/huawei/hmf/services/ui/e;Landroid/content/Intent;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/MarketActivity;->D4(Lcom/huawei/appmarket/MarketActivity;Landroid/view/View;)V
 
     return-void
 .end method

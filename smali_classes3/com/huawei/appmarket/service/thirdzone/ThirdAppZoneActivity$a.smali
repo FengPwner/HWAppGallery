@@ -136,7 +136,7 @@
     move-result-object p1
 
     .line 52
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 53
     .line 54
@@ -293,7 +293,7 @@
 
     .line 129
     .line 130
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     .line 132
@@ -387,7 +387,7 @@
     move-result-object v0
 
     .line 174
-    invoke-static {p1, v1, p2, v0}, Lcom/huawei/appmarket/ux7;->a(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, v1, p2, v0}, Lcom/huawei/appmarket/zx7;->a(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 175
     .line 176
@@ -1062,23 +1062,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

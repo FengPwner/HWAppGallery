@@ -176,7 +176,7 @@
     long-to-double v2, v2
 
     .line 58
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 59
     .line 60

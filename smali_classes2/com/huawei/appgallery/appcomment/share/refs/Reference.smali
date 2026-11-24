@@ -98,11 +98,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/rl6;->c()Lcom/huawei/appmarket/rl6;
+    invoke-static {}, Lcom/huawei/appmarket/ul6;->c()Lcom/huawei/appmarket/ul6;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/rl6;->a(Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;)Ljava/lang/Long;
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ul6;->a(Lcom/huawei/appgallery/forum/operation/api/share/request/CommunityShareResponse;)Ljava/lang/Long;
 
     move-result-object v0
 

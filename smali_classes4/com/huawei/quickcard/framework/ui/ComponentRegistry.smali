@@ -84,9 +84,9 @@
 
     invoke-static {v0}, Lcom/huawei/quickcard/framework/ui/ComponentRegistry;->registerVirtualView(Lcom/huawei/quickcard/framework/IVirtualView;)V
 
-    new-instance v0, Lcom/huawei/appmarket/zw8;
+    new-instance v0, Lcom/huawei/appmarket/fx8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zw8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/fx8;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/quickcard/framework/ui/ComponentRegistry;->registerVirtualView(Lcom/huawei/quickcard/framework/IVirtualView;)V
 
@@ -373,23 +373,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static registerVirtualView(Lcom/huawei/quickcard/framework/IVirtualView;)V
@@ -601,23 +584,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static registers(Lcom/huawei/quickcard/framework/ui/Component;)V
@@ -853,21 +819,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

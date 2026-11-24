@@ -1,53 +1,202 @@
 .class final Lcom/huawei/appmarket/wc6;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field final synthetic b:Z
-
-.field final synthetic c:Ljava/lang/String;
-
-.field final synthetic d:Lcom/huawei/appmarket/tc6$d;
+.field final synthetic b:Lcom/huawei/appmarket/vc6;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/tc6$d;ZLjava/lang/String;)V
-    .registers 4
+.method constructor <init>(Lcom/huawei/appmarket/vc6;)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/wc6;->d:Lcom/huawei/appmarket/tc6$d;
+    iput-object p1, p0, Lcom/huawei/appmarket/wc6;->b:Lcom/huawei/appmarket/vc6;
 
-    iput-boolean p2, p0, Lcom/huawei/appmarket/wc6;->b:Z
-
-    iput-object p3, p0, Lcom/huawei/appmarket/wc6;->c:Ljava/lang/String;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 3
+.method public final onSingleClick(Landroid/view/View;)V
+    .registers 5
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/wc6;->b:Z
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
+    .line 2
+    .line 3
+    const-string v0, "QQFriendsShare"
+
+    .line 4
+    .line 5
+    const-string v1, "click share to QQ friend !"
+
+    .line 6
+    .line 7
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object p1, p0, Lcom/huawei/appmarket/wc6;->b:Lcom/huawei/appmarket/vc6;
+
+    .line 11
+    .line 12
+    invoke-static {p1}, Lcom/huawei/appmarket/vc6;->t(Lcom/huawei/appmarket/vc6;)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v0
+
+    .line 16
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wc6;->d:Lcom/huawei/appmarket/tc6$d;
-
-    iget-object v0, v0, Lcom/huawei/appmarket/tc6$d;->a:Lcom/huawei/appmarket/tc6;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/wc6;->c:Ljava/lang/String;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/tc6;->F(Lcom/huawei/appmarket/tc6;Ljava/lang/String;)V
-
-    :cond_0
+    .line 17
+    .line 18
     return-void
+
+    .line 19
+    :cond_0
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-static {p1}, Lcom/huawei/appmarket/vc6;->v(Lcom/huawei/appmarket/vc6;)Lcom/huawei/appmarket/e24;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    check-cast v0, Lcom/huawei/appgallery/share/fragment/ShareFragment;
+
+    .line 27
+    .line 28
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v0
+
+    .line 32
+    const/16 v1, 0xc0
+
+    .line 33
+    .line 34
+    const-string v2, "com.tencent.mobileqq"
+
+    .line 35
+    .line 36
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v0
+
+    .line 40
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/vc6;->w(Lcom/huawei/appmarket/vc6;Landroid/content/pm/PackageInfo;)Z
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v0
+
+    .line 44
+    if-eqz v0, :cond_1
+
+    .line 45
+    .line 46
+    return-void
+
+    .line 47
+    :cond_1
+    invoke-static {p1}, Lcom/huawei/appmarket/vc6;->x(Lcom/huawei/appmarket/vc6;)Z
+
+    .line 48
+    .line 49
+    .line 50
+    move-result v0
+
+    .line 51
+    if-nez v0, :cond_2
+
+    .line 52
+    .line 53
+    return-void
+
+    .line 54
+    :cond_2
+    invoke-static {p1}, Lcom/huawei/appmarket/vc6;->y(Lcom/huawei/appmarket/vc6;)Z
+
+    .line 55
+    .line 56
+    .line 57
+    move-result v0
+
+    .line 58
+    if-eqz v0, :cond_3
+
+    .line 59
+    .line 60
+    return-void
+
+    .line 61
+    :cond_3
+    invoke-static {p1}, Lcom/huawei/appmarket/vc6;->z(Lcom/huawei/appmarket/vc6;)V
+
+    .line 62
+    .line 63
+    .line 64
+    return-void
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
 .end method

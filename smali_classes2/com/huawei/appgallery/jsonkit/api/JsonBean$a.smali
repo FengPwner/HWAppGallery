@@ -107,7 +107,7 @@
 
     if-nez v4, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v0, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     invoke-static {}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->access$100()Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     const-string v4, "valueFromJson obj is null"
 
-    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_2
@@ -164,7 +164,7 @@
 
     if-nez v5, :cond_1
 
-    sget-object v5, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v5, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     invoke-static {}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->access$100()Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v5, v6, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v6, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_3
     .catch Ljava/lang/InstantiationException; {:try_start_1 .. :try_end_1} :catch_2
@@ -223,7 +223,7 @@
 
     :goto_1
     :try_start_3
-    sget-object v3, Lcom/huawei/appmarket/qo4;->a:Lcom/huawei/appmarket/qo4;
+    sget-object v3, Lcom/huawei/appmarket/to4;->a:Lcom/huawei/appmarket/to4;
 
     invoke-static {}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;->access$100()Ljava/lang/String;
 
@@ -243,7 +243,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 

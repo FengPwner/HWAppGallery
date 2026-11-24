@@ -12,9 +12,9 @@
     .registers 2
 
     .line 1
-    const v0, 0x7f040078
+    const v0, 0x7f0405ea
 
-    const v1, 0x7f040704
+    const v1, 0x7f040708
 
     filled-new-array {v0, v1}, [I
 

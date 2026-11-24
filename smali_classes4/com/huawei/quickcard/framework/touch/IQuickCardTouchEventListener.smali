@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract onTouch(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/d99;)Z
+.method public abstract onTouch(Landroid/view/View;Landroid/view/View;Lcom/huawei/appmarket/j99;)Z
 .end method

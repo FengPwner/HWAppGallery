@@ -45,7 +45,7 @@
 
     .line 8
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 9
     .line 10
@@ -69,7 +69,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
 
     .line 20
     .line 21
@@ -81,7 +81,7 @@
 
     .line 24
     .line 25
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
     .line 26
     .line 27
@@ -89,7 +89,7 @@
     move-result v3
 
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->a()I
 
     .line 30
     .line 31
@@ -113,7 +113,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 42
     .line 43

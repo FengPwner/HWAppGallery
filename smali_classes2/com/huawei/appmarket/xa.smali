@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gb2;
+.implements Lcom/huawei/appmarket/jb2;
 
 
 # direct methods
@@ -29,31 +29,31 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/q23;
+    new-instance v0, Lcom/huawei/appmarket/t23;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t23;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     :cond_0
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/uc2;Lcom/huawei/page/flowlist/FlowListData;)Lcom/huawei/appmarket/sm2;
+.method public final b(Lcom/huawei/appmarket/xc2;Lcom/huawei/page/flowlist/FlowListData;)Lcom/huawei/appmarket/um2;
     .registers 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getLayoutView()Lcom/huawei/appmarket/zs4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getLayoutView()Lcom/huawei/appmarket/ct4;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getLayoutView()Lcom/huawei/appmarket/zs4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getLayoutView()Lcom/huawei/appmarket/ct4;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/zs4;->getView()Landroid/view/View;
+    invoke-interface {p1}, Lcom/huawei/appmarket/ct4;->getView()Landroid/view/View;
 
     move-result-object p1
 
@@ -73,13 +73,13 @@
 
     move-result-object p1
 
-    instance-of v0, p1, Lcom/huawei/appmarket/sm2;
+    instance-of v0, p1, Lcom/huawei/appmarket/um2;
 
     if-eqz v0, :cond_1
 
-    check-cast p1, Lcom/huawei/appmarket/sm2;
+    check-cast p1, Lcom/huawei/appmarket/um2;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sm2;->p()Lcom/huawei/flexiblelayout/data/e;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/um2;->p()Lcom/huawei/flexiblelayout/data/e;
 
     move-result-object v0
 
@@ -89,37 +89,37 @@
 
     if-ne v0, v1, :cond_1
 
-    sget-object p2, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p2, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "data not change"
 
     const-string v1, "AgFlowListService"
 
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sm2;->r()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/um2;->r()V
 
     return-object p1
 
     :cond_1
-    new-instance p1, Lcom/huawei/appmarket/sm2;
+    new-instance p1, Lcom/huawei/appmarket/um2;
 
     invoke-virtual {p2}, Lcom/huawei/flexiblelayout/data/ChildDataSourceNodeData;->getDataSource()Lcom/huawei/flexiblelayout/data/e;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/huawei/appmarket/sm2;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
+    invoke-direct {p1, p2}, Lcom/huawei/appmarket/um2;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
 
     return-object p1
 .end method
 
-.method public final c(Lcom/huawei/appmarket/sa2;)Lcom/huawei/appgallery/pageframe/v2/service/flowlist/AgFlowlistRecyclerView;
+.method public final c(Lcom/huawei/appmarket/va2;)Lcom/huawei/appgallery/pageframe/v2/service/flowlist/AgFlowlistRecyclerView;
     .registers 4
 
     .line 1
     new-instance v0, Lcom/huawei/appgallery/pageframe/v2/service/flowlist/AgFlowlistRecyclerView;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 

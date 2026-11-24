@@ -16,21 +16,21 @@
 
 
 # virtual methods
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 3
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/ke0;
+    instance-of v0, p1, Lcom/huawei/appmarket/le0;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/ke0;
+    check-cast p1, Lcom/huawei/appmarket/le0;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ke0;->G()Lcom/huawei/appmarket/t24;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/le0;->G()Lcom/huawei/appmarket/v24;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/t24;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/card/ForumTitleSortCard;->C:Lcom/huawei/appmarket/v24;
 
     :cond_0
     return-void

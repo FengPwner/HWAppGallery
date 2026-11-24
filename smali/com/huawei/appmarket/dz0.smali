@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/dz0;
-.super Lcom/huawei/appmarket/zr5;
+.super Lcom/huawei/appmarket/bs5;
 .source "SourceFile"
 
 # interfaces
@@ -12,7 +12,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/zr5<",
+        "Lcom/huawei/appmarket/bs5<",
         "TT;>;",
         "Ljava/io/Serializable;"
     }
@@ -49,13 +49,13 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/zr5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/bs5;-><init>()V
 
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/util/Comparator;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/wk4;->i(Ljava/lang/Iterable;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/zk4;->i(Ljava/lang/Iterable;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -79,7 +79,7 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/zr5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/bs5;-><init>()V
 
     const/4 v0, 0x2
 
@@ -222,7 +222,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -346,4 +346,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

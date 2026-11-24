@@ -52,7 +52,7 @@
 
     const-string p2, "StartupReqCallback has call back"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction$c;->b:Lcom/huawei/appmarket/service/externalapi/actions/DepartGuideAction;
 

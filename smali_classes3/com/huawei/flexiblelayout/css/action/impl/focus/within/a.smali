@@ -81,7 +81,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1}, Lcom/huawei/appmarket/nj8;->b(Ljava/lang/String;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/tj8;->b(Ljava/lang/String;)I
 
     .line 18
     .line 19
@@ -246,7 +246,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static c(Landroid/view/View;)Lcom/huawei/flexiblelayout/css/action/impl/focus/within/FocusWithInAction;
@@ -302,7 +301,7 @@
 
     const-class v1, Lcom/huawei/flexiblelayout/css/action/impl/focus/within/c;
 
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/nj8;->a(Landroid/view/View;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/tj8;->a(Landroid/view/View;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 

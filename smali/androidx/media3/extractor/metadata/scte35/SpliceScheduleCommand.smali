@@ -120,11 +120,11 @@
     return-void
 .end method
 
-.method static a(Lcom/huawei/appmarket/aw5;)Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand;
+.method static a(Lcom/huawei/appmarket/cw5;)Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand;
     .registers 5
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->A()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/cw5;->A()I
 
     move-result v0
 
@@ -137,7 +137,7 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    invoke-static {p0}, Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand$c;->b(Lcom/huawei/appmarket/aw5;)Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand$c;
+    invoke-static {p0}, Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand$c;->b(Lcom/huawei/appmarket/cw5;)Landroidx/media3/extractor/metadata/scte35/SpliceScheduleCommand$c;
 
     move-result-object v3
 

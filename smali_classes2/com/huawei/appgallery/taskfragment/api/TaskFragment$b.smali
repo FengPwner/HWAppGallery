@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/n87;",
+            "Lcom/huawei/appmarket/s87;",
             ">;"
         }
     .end annotation
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/n87;)V
+.method public constructor <init>(Lcom/huawei/appmarket/s87;)V
     .registers 3
 
     .line 1
@@ -56,12 +56,12 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object v0, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string v2, "Block run, dismiss, serverTask is null"
 
     :goto_0
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -70,11 +70,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/n87;
+    check-cast v0, Lcom/huawei/appmarket/s87;
 
     if-nez v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object v0, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string v2, "Block run, dismiss, task is null"
 
@@ -89,7 +89,7 @@
 
     if-eq v1, v2, :cond_2
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n87;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s87;->f()V
 
     :cond_2
     return-void

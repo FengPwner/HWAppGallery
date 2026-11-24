@@ -1,57 +1,51 @@
 .class final Lcom/huawei/appmarket/nr2;
-.super Ljava/lang/Object;
+.super Landroidx/fragment/app/FragmentManager$k;
 .source "SourceFile"
-
-# interfaces
-.implements Landroidx/lifecycle/j;
 
 
 # instance fields
-.field final synthetic b:Landroid/os/Handler;
+.field final synthetic a:Landroidx/fragment/app/Fragment;
 
-.field final synthetic c:Ljava/lang/Runnable;
+.field final synthetic b:Landroid/widget/FrameLayout;
+
+.field final synthetic c:Lcom/huawei/appmarket/mr2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/kr2;Landroid/os/Handler;Ljava/lang/Runnable;)V
+.method constructor <init>(Lcom/huawei/appmarket/mr2;Landroidx/fragment/app/Fragment;Landroid/widget/FrameLayout;)V
     .registers 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/nr2;->b:Landroid/os/Handler;
+    iput-object p1, p0, Lcom/huawei/appmarket/nr2;->c:Lcom/huawei/appmarket/mr2;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/nr2;->c:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcom/huawei/appmarket/nr2;->a:Landroidx/fragment/app/Fragment;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p3, p0, Lcom/huawei/appmarket/nr2;->b:Landroid/widget/FrameLayout;
+
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentManager$k;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
-    .registers 4
+.method public final b(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/view/View;)V
+    .registers 5
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/h$a;->ON_DESTROY:Landroidx/lifecycle/h$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/nr2;->a:Landroidx/fragment/app/Fragment;
 
     if-ne p2, v0, :cond_0
 
-    iget-object p2, p0, Lcom/huawei/appmarket/nr2;->b:Landroid/os/Handler;
+    invoke-virtual {p1, p0}, Landroidx/fragment/app/FragmentManager;->Y0(Landroidx/fragment/app/FragmentManager$k;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/nr2;->c:Ljava/lang/Runnable;
+    iget-object p1, p0, Lcom/huawei/appmarket/nr2;->c:Lcom/huawei/appmarket/mr2;
 
-    invoke-virtual {p2, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    iget-object p1, p0, Lcom/huawei/appmarket/nr2;->b:Landroid/widget/FrameLayout;
 
-    move-result-object p1
-
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/mr2;->j(Landroid/view/View;Landroid/widget/FrameLayout;)V
 
     :cond_0
     return-void

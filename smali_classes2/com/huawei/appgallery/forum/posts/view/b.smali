@@ -66,7 +66,7 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 17
     .line 18
@@ -111,21 +111,21 @@
 
     .line 37
     .line 38
-    new-instance v2, Lcom/huawei/appmarket/wb8;
+    new-instance v2, Lcom/huawei/appmarket/bc8;
 
     .line 39
     .line 40
-    invoke-direct {v2, p2}, Lcom/huawei/appmarket/wb8;-><init>(Lcom/huawei/appgallery/common/media/api/OriginalMediaBean;)V
+    invoke-direct {v2, p2}, Lcom/huawei/appmarket/bc8;-><init>(Lcom/huawei/appgallery/common/media/api/OriginalMediaBean;)V
 
     .line 41
     .line 42
     .line 43
-    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->J3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/wb8;)V
+    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->J3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/bc8;)V
 
     .line 44
     .line 45
     .line 46
-    invoke-static {}, Lcom/huawei/appmarket/br0;->d()Lcom/huawei/appmarket/br0;
+    invoke-static {}, Lcom/huawei/appmarket/cr0;->d()Lcom/huawei/appmarket/cr0;
 
     .line 47
     .line 48
@@ -133,7 +133,7 @@
     move-result-object v3
 
     .line 50
-    invoke-virtual {v2}, Lcom/huawei/appmarket/wb8;->a()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/bc8;->a()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -146,12 +146,12 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {v4}, Lcom/huawei/appmarket/br0;->b(Ljava/lang/String;)V
+    invoke-static {v4}, Lcom/huawei/appmarket/cr0;->b(Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->K3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/wb8;)V
+    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->K3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/bc8;)V
 
     .line 61
     .line 62
@@ -164,7 +164,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->N3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/wb8;)V
+    invoke-static {v1, v2}, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;->N3(Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;Lcom/huawei/appmarket/bc8;)V
 
     .line 68
     .line 69
@@ -237,7 +237,7 @@
     move-result-object p2
 
     .line 106
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -252,7 +252,7 @@
 
     .line 111
     .line 112
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     .line 114
@@ -307,5 +307,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

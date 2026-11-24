@@ -72,13 +72,13 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;->c(Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;)V
 
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     const-string v2, "my.assets.list.activity"
 
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object v0
 
@@ -88,7 +88,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     return-void
 .end method
@@ -188,9 +188,9 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     :cond_1
-    new-instance v1, Lcom/huawei/appmarket/tf7;
+    new-instance v1, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     const v2, 0x7f0a1135
 
@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/xb5;->a(Landroid/content/Context;Landroid/widget/TextView;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ac5;->a(Landroid/content/Context;Landroid/widget/TextView;)V
 
     return-void
 .end method
@@ -228,9 +228,9 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     const v1, 0x7f0a1140
 
@@ -246,7 +246,7 @@
 .method private isSetRedDotVisible(Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;)Z
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     move-result v0
 
@@ -268,22 +268,22 @@
 
     if-eq p1, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xz5;->a()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zz5;->a()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xz5;->c()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zz5;->c()Z
 
     move-result p1
 
@@ -301,11 +301,11 @@
 .method private refreshAssetsRed()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
 
     move-result-object v0
 
@@ -319,7 +319,7 @@
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -333,7 +333,7 @@
     :cond_0
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -457,7 +457,7 @@
     const-string v1, "activityUri|my_home_page"
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -472,7 +472,7 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/PersonalHeaderViewV2;->refreshAssetsRed()V
 
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     move-result v0
 
@@ -514,7 +514,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/q37;->a()Lcom/huawei/appmarket/q37;
+    invoke-static {}, Lcom/huawei/appmarket/v37;->a()Lcom/huawei/appmarket/v37;
 
     move-result-object v1
 
@@ -524,7 +524,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/q37;->b(Landroid/content/Context;Landroid/view/View;Landroid/view/View;)V
+    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/v37;->b(Landroid/content/Context;Landroid/view/View;Landroid/view/View;)V
 
     goto :goto_1
 

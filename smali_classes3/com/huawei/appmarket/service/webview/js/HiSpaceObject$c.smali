@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/b04;
+.implements Lcom/huawei/appmarket/d04;
 
 
 # annotations
@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public final F1()V
+.method public final G1()V
     .registers 4
 
     .line 1
@@ -100,7 +100,7 @@
 
     const-string p2, "batch reserve need geetest"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

@@ -4,47 +4,18 @@
 
 
 # virtual methods
-.method public abstract b()J
-.end method
-
-.method public abstract c()Ljava/util/Map;
+.method public abstract supply(Lcom/huawei/flexiblelayout/data/a;Lcom/huawei/flexiblelayout/data/g$c;Lcom/huawei/flexiblelayout/data/FLNodeData;)Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
+            "(",
+            "Lcom/huawei/flexiblelayout/data/a;",
+            "Lcom/huawei/flexiblelayout/data/g$c;",
+            "Lcom/huawei/flexiblelayout/data/FLNodeData;",
+            ")",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/huawei/flexiblelayout/data/b;",
             ">;"
         }
     .end annotation
-.end method
-
-.method public abstract d()I
-.end method
-
-.method public abstract e()Ljava/lang/String;
-.end method
-
-.method public abstract f()Ljava/lang/String;
-.end method
-
-.method public abstract g()Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getAppId()Ljava/lang/String;
-.end method
-
-.method public abstract getClientVersion()Ljava/lang/String;
-.end method
-
-.method public abstract getServiceCountry()Ljava/lang/String;
 .end method

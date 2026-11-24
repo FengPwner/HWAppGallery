@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Ljava/lang/String;)V
+.method public abstract k1(Z)V
 .end method

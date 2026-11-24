@@ -4,17 +4,20 @@
 
 
 # virtual methods
-.method public abstract getFragment(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentProtocol;)Landroidx/fragment/app/Fragment;
+.method public abstract a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Landroid/content/DialogInterface$OnClickListener;)Z
 .end method
 
-.method public abstract jumpMyAssetPage(Landroid/app/Activity;)V
+.method public abstract b(Landroid/app/Activity;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 .end method
 
-.method public abstract openHiCloud(Landroid/content/Context;)V
+.method public abstract c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 .end method
 
-.method public abstract personalInfoChanged(Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;)V
+.method public abstract d(Landroid/content/Context;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 .end method
 
-.method public abstract refreshItem(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;Lcom/huawei/appmarket/u30;)V
+.method public abstract e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
+.end method
+
+.method public abstract f(Landroid/content/Context;Ljava/lang/String;)V
 .end method

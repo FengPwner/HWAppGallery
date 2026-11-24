@@ -1,115 +1,191 @@
-.class final Lcom/huawei/appmarket/bv1;
+.class public final Lcom/huawei/appmarket/bv1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/a70$a;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/bv1$a;
+    }
+.end annotation
+
+
+# static fields
+.field private static volatile c:Lcom/huawei/appmarket/bv1;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/fv1;
+.field private final a:Landroid/util/SparseArray;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/util/SparseArray<",
+            "Lcom/huawei/appmarket/bv1$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final b:Ljava/lang/Object;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/fv1;)V
+.method private constructor <init>()V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/bv1;->a:Lcom/huawei/appmarket/fv1;
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    new-instance v0, Landroid/util/SparseArray;
+
+    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/bv1;->a:Landroid/util/SparseArray;
+
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/bv1;->b:Ljava/lang/Object;
+
     return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/bv1;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/bv1;->c:Lcom/huawei/appmarket/bv1;
+
+    if-nez v0, :cond_1
+
+    const-class v0, Lcom/huawei/appmarket/bv1;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/bv1;->c:Lcom/huawei/appmarket/bv1;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/bv1;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/bv1;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/bv1;->c:Lcom/huawei/appmarket/bv1;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/bv1;->c:Lcom/huawei/appmarket/bv1;
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()V
-    .registers 1
+.method public final b(I)Lcom/huawei/appmarket/no3;
+    .registers 4
 
     .line 1
-    return-void
-.end method
+    iget-object v0, p0, Lcom/huawei/appmarket/bv1;->b:Ljava/lang/Object;
 
-.method public final b(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-    .registers 5
+    monitor-enter v0
 
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/fv1;->s()Lcom/huawei/appmarket/fv1;
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/bv1;->a:Landroid/util/SparseArray;
 
-    move-result-object v0
+    invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->L()J
+    move-result-object p1
 
-    move-result-wide v1
+    check-cast p1, Lcom/huawei/appmarket/bv1$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/fv1;->b0(J)Z
+    if-eqz p1, :cond_0
 
-    move-result p1
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv1$a;->a()Lcom/huawei/appmarket/no3;
 
-    return p1
-.end method
+    move-result-object p1
 
-.method public final c(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
-    .registers 2
+    monitor-exit v0
 
-    .line 1
-    return-void
-.end method
+    return-object p1
 
-.method public final d(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-    .registers 5
+    :catchall_0
+    move-exception p1
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bv1;->a:Lcom/huawei/appmarket/fv1;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const/4 v1, 0x0
-
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/fv1;->J(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Z)Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    invoke-static {p1}, Lcom/huawei/appmarket/h72;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    invoke-static {p1}, Lcom/huawei/appmarket/fv1;->F(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_1
+    goto :goto_0
 
     :cond_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/fv1;->c(Lcom/huawei/appmarket/fv1;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    monitor-exit v0
 
-    move-result v0
+    const/4 p1, 0x0
 
-    if-eqz v0, :cond_1
+    return-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
+    :goto_0
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    move-result v0
+    throw p1
+.end method
 
-    const/16 v2, 0x8
+.method public final c(ILjava/lang/Class;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/huawei/appmarket/no3;",
+            ">;)V"
+        }
+    .end annotation
 
-    if-eq v0, v2, :cond_1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/bv1;->b:Ljava/lang/Object;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
+    monitor-enter v0
 
-    move-result p1
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/bv1;->a:Landroid/util/SparseArray;
 
-    const/4 v0, 0x3
+    new-instance v2, Lcom/huawei/appmarket/bv1$a;
 
-    if-eq p1, v0, :cond_1
+    invoke-direct {v2, p2}, Lcom/huawei/appmarket/bv1$a;-><init>(Ljava/lang/Class;)V
 
-    const/4 v1, 0x1
+    invoke-virtual {v1, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    :cond_1
-    return v1
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p1
 .end method

@@ -108,7 +108,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -151,7 +151,7 @@
     move-result-object v3
 
     .line 40
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -280,5 +280,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

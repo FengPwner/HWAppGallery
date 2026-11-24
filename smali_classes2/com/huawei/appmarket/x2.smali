@@ -16,7 +16,7 @@
 # instance fields
 .field private h:Z
 
-.field private i:Lcom/huawei/appmarket/n87;
+.field private i:Lcom/huawei/appmarket/s87;
 
 .field private j:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -100,11 +100,11 @@
     return-void
 .end method
 
-.method public final F(Lcom/huawei/appmarket/n87;)V
+.method public final F(Lcom/huawei/appmarket/s87;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/n87;
+    iput-object p1, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/s87;
 
     return-void
 .end method
@@ -121,7 +121,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/n87;
+    iget-object v0, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/s87;
 
     .line 6
     .line 7
@@ -129,7 +129,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n87;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s87;->f()V
 
     .line 10
     .line 11
@@ -382,7 +382,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final x()V
@@ -460,7 +459,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->d(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->d(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 39
     .line 40
@@ -468,7 +467,7 @@
     move-result-object v0
 
     .line 42
-    iput-object v0, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/n87;
+    iput-object v0, p0, Lcom/huawei/appmarket/x2;->i:Lcom/huawei/appmarket/s87;
 
     .line 43
     .line 44

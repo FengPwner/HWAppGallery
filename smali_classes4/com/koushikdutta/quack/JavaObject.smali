@@ -86,11 +86,11 @@
 
     sget-object v0, Lcom/koushikdutta/quack/QuackContext;->javaObjectFields:Lcom/koushikdutta/quack/Memoize;
 
-    new-instance v1, Lcom/huawei/appmarket/fm4;
+    new-instance v1, Lcom/huawei/appmarket/im4;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, p2, p1, v2}, Lcom/huawei/appmarket/fm4;-><init>(Lcom/koushikdutta/quack/JavaObject;Ljava/lang/Class;Ljava/lang/String;I)V
+    invoke-direct {v1, p0, p2, p1, v2}, Lcom/huawei/appmarket/im4;-><init>(Lcom/koushikdutta/quack/JavaObject;Ljava/lang/Class;Ljava/lang/String;I)V
 
     invoke-virtual {p2}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
@@ -843,7 +843,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->b(Lcom/koushikdutta/quack/QuackObject;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->b(Lcom/koushikdutta/quack/QuackObject;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -918,11 +918,11 @@
     :cond_3
     sget-object v2, Lcom/koushikdutta/quack/QuackContext;->javaObjectConstructorCandidates:Lcom/koushikdutta/quack/Memoize;
 
-    new-instance v4, Lcom/huawei/appmarket/mh4;
+    new-instance v4, Lcom/huawei/appmarket/oh4;
 
     const/16 v6, 0x11
 
-    invoke-direct {v4, v1, v6, v0}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v4, v1, v6, v0}, Lcom/huawei/appmarket/oh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     iget-object v6, p0, Lcom/koushikdutta/quack/JavaObject;->target:Ljava/lang/Object;
 
@@ -1425,7 +1425,7 @@
     throw v0
 
     :cond_5
-    const-class v1, Lcom/huawei/appmarket/gm4;
+    const-class v1, Lcom/huawei/appmarket/jm4;
 
     invoke-virtual {v1, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
@@ -1435,12 +1435,12 @@
 
     iget-object v1, p0, Lcom/koushikdutta/quack/JavaObject;->target:Ljava/lang/Object;
 
-    check-cast v1, Lcom/huawei/appmarket/gm4;
+    check-cast v1, Lcom/huawei/appmarket/jm4;
 
     :try_start_3
     iget-object v2, p0, Lcom/koushikdutta/quack/JavaObject;->quackContext:Lcom/koushikdutta/quack/QuackContext;
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/gm4;->getFieldValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/jm4;->getFieldValue(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1499,11 +1499,11 @@
     :cond_7
     sget-object v1, Lcom/koushikdutta/quack/QuackContext;->javaObjectMethods:Lcom/koushikdutta/quack/Memoize;
 
-    new-instance v2, Lcom/huawei/appmarket/fm4;
+    new-instance v2, Lcom/huawei/appmarket/im4;
 
     const/4 v3, 0x1
 
-    invoke-direct {v2, p0, v0, p1, v3}, Lcom/huawei/appmarket/fm4;-><init>(Lcom/koushikdutta/quack/JavaObject;Ljava/lang/Class;Ljava/lang/String;I)V
+    invoke-direct {v2, p0, v0, p1, v3}, Lcom/huawei/appmarket/im4;-><init>(Lcom/koushikdutta/quack/JavaObject;Ljava/lang/Class;Ljava/lang/String;I)V
 
     invoke-virtual {v0}, Ljava/lang/Class;->getMethods()[Ljava/lang/reflect/Method;
 
@@ -1549,7 +1549,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1735,7 +1735,7 @@
     nop
 
     :cond_2
-    const-class v1, Lcom/huawei/appmarket/gm4;
+    const-class v1, Lcom/huawei/appmarket/jm4;
 
     invoke-virtual {v1, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
@@ -1745,7 +1745,7 @@
 
     iget-object v1, p0, Lcom/koushikdutta/quack/JavaObject;->target:Ljava/lang/Object;
 
-    check-cast v1, Lcom/huawei/appmarket/gm4;
+    check-cast v1, Lcom/huawei/appmarket/jm4;
 
     :try_start_2
     iget-object v3, p0, Lcom/koushikdutta/quack/JavaObject;->quackContext:Lcom/koushikdutta/quack/QuackContext;
@@ -1754,7 +1754,7 @@
 
     move-result-object v3
 
-    invoke-interface {v1, p1, v3}, Lcom/huawei/appmarket/gm4;->setFieldValue(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-interface {v1, p1, v3}, Lcom/huawei/appmarket/jm4;->setFieldValue(Ljava/lang/String;Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/lang/NoSuchFieldException; {:try_start_2 .. :try_end_2} :catch_2
 

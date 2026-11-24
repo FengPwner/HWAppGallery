@@ -65,11 +65,11 @@
     :goto_0
     if-nez v5, :cond_1
 
-    sget-object v5, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object v5, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v6, "DeviceIPTask interrupted"
 
-    invoke-virtual {v5, v0, v6}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v0, v6}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->c(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)V
 
@@ -82,40 +82,40 @@
 
     invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->f(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)V
 
-    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->g(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/eo1;
+    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->g(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/ho1;
 
     move-result-object v5
 
-    invoke-virtual {v5, v3, v6}, Lcom/huawei/appmarket/eo1;->m(II)V
+    invoke-virtual {v5, v3, v6}, Lcom/huawei/appmarket/ho1;->m(II)V
 
-    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->h(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/eo1;
+    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->h(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/ho1;
 
     move-result-object v5
 
-    invoke-virtual {v5, v2, v6}, Lcom/huawei/appmarket/eo1;->m(II)V
+    invoke-virtual {v5, v2, v6}, Lcom/huawei/appmarket/ho1;->m(II)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_1
 
     :catch_0
-    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->i(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/eo1;
+    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->i(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/ho1;
 
     move-result-object v5
 
-    invoke-virtual {v5, v3, v4}, Lcom/huawei/appmarket/eo1;->m(II)V
+    invoke-virtual {v5, v3, v4}, Lcom/huawei/appmarket/ho1;->m(II)V
 
-    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->j(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/eo1;
+    invoke-static {v1}, Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;->j(Lcom/huawei/appgallery/netdiagnosekit/tasks/deviceip/b;)Lcom/huawei/appmarket/ho1;
 
     move-result-object v1
 
-    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/eo1;->m(II)V
+    invoke-virtual {v1, v2, v4}, Lcom/huawei/appmarket/ho1;->m(II)V
 
-    sget-object v1, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object v1, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v2, "timeout monitor interrupted, all tasks finished ahead of limit"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

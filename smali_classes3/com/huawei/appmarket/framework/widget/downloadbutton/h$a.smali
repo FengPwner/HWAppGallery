@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
         ">;"
     }
@@ -126,7 +126,7 @@
     move-result-object v0
 
     .line 32
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 33
     .line 34
@@ -138,7 +138,7 @@
 
     .line 37
     .line 38
-    invoke-static {}, Lcom/huawei/appmarket/aw1;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/ew1;->a()V
 
     .line 39
     .line 40
@@ -147,7 +147,7 @@
 
     .line 42
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 43
     .line 44
@@ -160,7 +160,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/up1;->a(Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/xp1;->a(Lcom/huawei/appmarket/np1;)V
 
     .line 50
     .line 51
@@ -229,5 +229,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

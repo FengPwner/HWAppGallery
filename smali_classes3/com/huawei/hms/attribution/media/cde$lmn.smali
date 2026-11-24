@@ -144,7 +144,7 @@
 
     .line 16
     .line 17
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bu0;->n(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/kd0;->o(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -264,5 +264,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

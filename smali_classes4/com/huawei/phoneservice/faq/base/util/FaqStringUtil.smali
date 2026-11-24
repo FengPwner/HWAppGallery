@@ -14,7 +14,7 @@
 
 .method public static isEmpty(Ljava/lang/CharSequence;)Z
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

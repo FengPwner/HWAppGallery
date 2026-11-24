@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract d()Lcom/caverock/androidsvg/g$b1;
+.method public abstract c()Lcom/caverock/androidsvg/g$b1;
 .end method

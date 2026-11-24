@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -37,7 +37,7 @@
 
     const-string p1, "The User has agreed to log in"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/appmarket/service/account/GuideLogin;->a(Lcom/huawei/appmarket/service/account/GuideLogin;)V
 
@@ -50,13 +50,13 @@
 
     const-string p1, "The User has disagreed to log in"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/service/account/GuideLogin;->c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/xr3;
+    invoke-static {p2}, Lcom/huawei/appmarket/service/account/GuideLogin;->c(Lcom/huawei/appmarket/service/account/GuideLogin;)Lcom/huawei/appmarket/zr3;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xr3;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/zr3;->a()V
 
     :cond_1
     :goto_0

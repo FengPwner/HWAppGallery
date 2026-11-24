@@ -1,373 +1,412 @@
-.class final Lcom/huawei/appmarket/j26;
+.class public final Lcom/huawei/appmarket/j26;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/pw5;
+.implements Lcom/huawei/appmarket/d40$b;
+.implements Lcom/huawei/appmarket/er4;
 
-# static fields
-.field private static final a:Lcom/huawei/appmarket/fp4$a;
+
+# instance fields
+.field private final a:Landroid/graphics/Path;
+
+.field private final b:Landroid/graphics/Path;
+
+.field private final c:Landroid/graphics/PathMeasure;
+
+.field private final d:[F
+
+.field private final e:Ljava/lang/String;
+
+.field private final f:Lcom/airbnb/lottie/h;
+
+.field private final g:Lcom/huawei/appmarket/k26$a;
+
+.field private final h:Z
+
+.field private final i:Z
+
+.field private final j:Lcom/huawei/appmarket/fm2;
+
+.field private final k:Lcom/huawei/appmarket/d40;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/d40<",
+            "*",
+            "Landroid/graphics/PointF;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final l:Lcom/huawei/appmarket/fm2;
+
+.field private final m:Lcom/huawei/appmarket/fm2;
+
+.field private final n:Lcom/huawei/appmarket/fm2;
+
+.field private final o:Lcom/huawei/appmarket/fm2;
+
+.field private final p:Lcom/huawei/appmarket/fm2;
+
+.field private final q:Lcom/huawei/appmarket/ez0;
+
+.field private r:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/g40;Lcom/huawei/appmarket/k26;)V
     .registers 11
 
     .line 1
-    const-string v0, "nm"
-
-    const-string v1, "sy"
-
-    const-string v2, "pt"
-
-    const-string v3, "p"
-
-    const-string v4, "r"
-
-    const-string v5, "or"
-
-    const-string v6, "os"
-
-    const-string v7, "ir"
-
-    const-string v8, "is"
-
-    const-string v9, "hd"
-
-    const-string v10, "d"
-
-    filled-new-array/range {v0 .. v10}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/fp4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/fp4$a;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/j26;->a:Lcom/huawei/appmarket/fp4$a;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    new-instance v0, Landroid/graphics/Path;
+
+    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j26;->a:Landroid/graphics/Path;
+
+    new-instance v0, Landroid/graphics/Path;
+
+    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j26;->b:Landroid/graphics/Path;
+
+    new-instance v0, Landroid/graphics/PathMeasure;
+
+    invoke-direct {v0}, Landroid/graphics/PathMeasure;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j26;->c:Landroid/graphics/PathMeasure;
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [F
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j26;->d:[F
+
+    new-instance v0, Lcom/huawei/appmarket/ez0;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/ez0;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j26;->q:Lcom/huawei/appmarket/ez0;
+
+    iput-object p1, p0, Lcom/huawei/appmarket/j26;->f:Lcom/airbnb/lottie/h;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->d()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/appmarket/j26;->e:Ljava/lang/String;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->j()Lcom/huawei/appmarket/k26$a;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/appmarket/j26;->g:Lcom/huawei/appmarket/k26$a;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->k()Z
+
+    move-result v0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/j26;->h:Z
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->l()Z
+
+    move-result v0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/j26;->i:Z
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->g()Lcom/huawei/appmarket/pl;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v0
+
+    move-object v1, v0
+
+    check-cast v1, Lcom/huawei/appmarket/fm2;
+
+    iput-object v1, p0, Lcom/huawei/appmarket/j26;->j:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->h()Lcom/huawei/appmarket/dm;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/huawei/appmarket/dm;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/huawei/appmarket/j26;->k:Lcom/huawei/appmarket/d40;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->i()Lcom/huawei/appmarket/pl;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v2
+
+    move-object v3, v2
+
+    check-cast v3, Lcom/huawei/appmarket/fm2;
+
+    iput-object v3, p0, Lcom/huawei/appmarket/j26;->l:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->e()Lcom/huawei/appmarket/pl;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v3
+
+    move-object v4, v3
+
+    check-cast v4, Lcom/huawei/appmarket/fm2;
+
+    iput-object v4, p0, Lcom/huawei/appmarket/j26;->n:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->f()Lcom/huawei/appmarket/pl;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v4
+
+    move-object v5, v4
+
+    check-cast v5, Lcom/huawei/appmarket/fm2;
+
+    iput-object v5, p0, Lcom/huawei/appmarket/j26;->p:Lcom/huawei/appmarket/fm2;
+
+    sget-object v5, Lcom/huawei/appmarket/k26$a;->c:Lcom/huawei/appmarket/k26$a;
+
+    if-ne p1, v5, :cond_0
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->b()Lcom/huawei/appmarket/pl;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/huawei/appmarket/fm2;
+
+    iput-object v6, p0, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/k26;->c()Lcom/huawei/appmarket/pl;
+
+    move-result-object p3
+
+    invoke-virtual {p3}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object p3
+
+    check-cast p3, Lcom/huawei/appmarket/fm2;
+
+    :goto_0
+    iput-object p3, p0, Lcom/huawei/appmarket/j26;->o:Lcom/huawei/appmarket/fm2;
+
+    goto :goto_1
+
+    :cond_0
+    const/4 p3, 0x0
+
+    iput-object p3, p0, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    goto :goto_0
+
+    :goto_1
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    invoke-virtual {p2, v2}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    invoke-virtual {p2, v3}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    invoke-virtual {p2, v4}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    if-ne p1, v5, :cond_1
+
+    iget-object p3, p0, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    iget-object p3, p0, Lcom/huawei/appmarket/j26;->o:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/g40;->j(Lcom/huawei/appmarket/d40;)V
+
+    :cond_1
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    invoke-virtual {v2, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    invoke-virtual {v3, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    invoke-virtual {v4, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    if-ne p1, v5, :cond_2
+
+    iget-object p1, p0, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    iget-object p1, p0, Lcom/huawei/appmarket/j26;->o:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/d40;->a(Lcom/huawei/appmarket/d40$b;)V
+
+    :cond_2
     return-void
 .end method
 
-.method static a(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;I)Lcom/huawei/appmarket/i26;
-    .registers 22
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+
+# virtual methods
+.method public final a()V
+    .registers 2
 
     .line 1
-    move-object/from16 v0, p0
+    const/4 v0, 0x0
 
     .line 2
+    iput-boolean v0, p0, Lcom/huawei/appmarket/j26;->r:Z
+
     .line 3
-    move-object/from16 v1, p1
-
     .line 4
-    .line 5
-    const/4 v2, 0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/j26;->f:Lcom/airbnb/lottie/h;
 
+    .line 5
     .line 6
-    const/4 v3, 0x0
+    invoke-virtual {v0}, Lcom/airbnb/lottie/h;->invalidateSelf()V
 
     .line 7
-    const/4 v4, 0x3
-
     .line 8
-    move/from16 v5, p2
-
     .line 9
+    return-void
     .line 10
-    if-ne v5, v4, :cond_0
-
     .line 11
     .line 12
-    const/4 v5, 0x1
-
     .line 13
-    goto :goto_0
-
     .line 14
-    :cond_0
-    const/4 v5, 0x0
-
     .line 15
-    :goto_0
-    const/4 v6, 0x0
-
     .line 16
-    move/from16 v18, v5
-
     .line 17
     .line 18
-    move-object v8, v6
-
     .line 19
-    move-object v9, v8
-
     .line 20
-    move-object v10, v9
-
     .line 21
-    move-object v11, v10
-
     .line 22
-    move-object v12, v11
-
     .line 23
-    move-object v13, v12
-
     .line 24
-    move-object v14, v13
-
     .line 25
-    move-object v15, v14
-
     .line 26
-    move-object/from16 v16, v15
-
     .line 27
     .line 28
-    const/16 v17, 0x0
-
     .line 29
     .line 30
-    :goto_1
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->x()Z
-
     .line 31
     .line 32
     .line 33
-    move-result v5
-
     .line 34
-    if-eqz v5, :cond_2
-
     .line 35
     .line 36
-    sget-object v5, Lcom/huawei/appmarket/j26;->a:Lcom/huawei/appmarket/fp4$a;
-
     .line 37
     .line 38
-    invoke-virtual {v0, v5}, Lcom/huawei/appmarket/fp4;->G(Lcom/huawei/appmarket/fp4$a;)I
-
     .line 39
     .line 40
     .line 41
-    move-result v5
-
     .line 42
-    packed-switch v5, :pswitch_data_0
-
     .line 43
     .line 44
     .line 45
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->H()V
-
     .line 46
     .line 47
     .line 48
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->I()V
-
     .line 49
     .line 50
     .line 51
-    goto :goto_1
-
     .line 52
-    :pswitch_0
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->A()I
-
     .line 53
     .line 54
     .line 55
-    move-result v5
-
     .line 56
-    if-ne v5, v4, :cond_1
-
     .line 57
     .line 58
-    const/16 v18, 0x1
-
     .line 59
     .line 60
-    goto :goto_1
-
     .line 61
-    :cond_1
-    const/16 v18, 0x0
-
     .line 62
     .line 63
-    goto :goto_1
-
     .line 64
-    :pswitch_1
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->y()Z
-
     .line 65
     .line 66
     .line 67
-    move-result v17
-
     .line 68
-    goto :goto_1
-
     .line 69
-    :pswitch_2
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 70
     .line 71
     .line 72
-    move-result-object v15
-
     .line 73
-    goto :goto_1
-
     .line 74
-    :pswitch_3
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 75
     .line 76
     .line 77
-    move-result-object v13
-
     .line 78
-    goto :goto_1
-
     .line 79
-    :pswitch_4
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 80
     .line 81
     .line 82
-    move-result-object v16
-
     .line 83
-    goto :goto_1
-
     .line 84
-    :pswitch_5
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 85
     .line 86
     .line 87
-    move-result-object v14
-
     .line 88
-    goto :goto_1
-
     .line 89
-    :pswitch_6
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 90
     .line 91
     .line 92
-    move-result-object v12
-
     .line 93
-    goto :goto_1
-
     .line 94
-    :pswitch_7
-    invoke-static/range {p0 .. p1}, Lcom/huawei/appmarket/ul;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;)Lcom/huawei/appmarket/em;
-
     .line 95
     .line 96
     .line 97
-    move-result-object v11
-
     .line 98
-    goto :goto_1
-
     .line 99
-    :pswitch_8
-    invoke-static {v0, v1, v3}, Lcom/huawei/appmarket/fm;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;Z)Lcom/huawei/appmarket/ql;
-
     .line 100
     .line 101
     .line 102
-    move-result-object v10
-
     .line 103
-    goto :goto_1
-
     .line 104
-    :pswitch_9
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->A()I
-
     .line 105
     .line 106
     .line 107
-    move-result v5
-
     .line 108
-    invoke-static {v5}, Lcom/huawei/appmarket/i26$a;->a(I)Lcom/huawei/appmarket/i26$a;
-
     .line 109
     .line 110
     .line 111
-    move-result-object v9
-
     .line 112
-    goto :goto_1
-
     .line 113
-    :pswitch_a
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/fp4;->C()Ljava/lang/String;
-
     .line 114
     .line 115
     .line 116
-    move-result-object v8
-
     .line 117
-    goto :goto_1
-
     .line 118
-    :cond_2
-    new-instance v0, Lcom/huawei/appmarket/i26;
-
     .line 119
     .line 120
-    move-object v7, v0
-
     .line 121
-    invoke-direct/range {v7 .. v18}, Lcom/huawei/appmarket/i26;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/i26$a;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/em;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/ql;ZZ)V
-
     .line 122
     .line 123
     .line 124
-    return-object v0
-
     .line 125
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_a
-        :pswitch_9
-        :pswitch_8
-        :pswitch_7
-        :pswitch_6
-        :pswitch_5
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
     .line 126
     .line 127
     .line 128
@@ -379,151 +418,1245 @@
     .line 134
     .line 135
     .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
+.end method
+
+.method public final b(Ljava/util/List;Ljava/util/List;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/k21;",
+            ">;",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/k21;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    const/4 p2, 0x0
+
+    :goto_0
+    move-object v0, p1
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    if-ge p2, v1, :cond_1
+
+    invoke-virtual {v0, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/k21;
+
+    instance-of v1, v0, Lcom/huawei/appmarket/j48;
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Lcom/huawei/appmarket/j48;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/j48;->k()Lcom/huawei/appmarket/lc7$a;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/huawei/appmarket/lc7$a;->b:Lcom/huawei/appmarket/lc7$a;
+
+    if-ne v1, v2, :cond_0
+
+    iget-object v1, p0, Lcom/huawei/appmarket/j26;->q:Lcom/huawei/appmarket/ez0;
+
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ez0;->a(Lcom/huawei/appmarket/j48;)V
+
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/j48;->c(Lcom/huawei/appmarket/d40$b;)V
+
+    :cond_0
+    add-int/lit8 p2, p2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method public final c(Lcom/huawei/appmarket/p15;Ljava/lang/Object;)V
+    .registers 4
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/k15;->w:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_0
+
+    iget-object p2, p0, Lcom/huawei/appmarket/j26;->j:Lcom/huawei/appmarket/fm2;
+
+    :goto_0
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/d40;->n(Lcom/huawei/appmarket/p15;)V
+
+    goto :goto_2
+
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/k15;->x:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_1
+
+    iget-object p2, p0, Lcom/huawei/appmarket/j26;->l:Lcom/huawei/appmarket/fm2;
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v0, Lcom/huawei/appmarket/k15;->n:Landroid/graphics/PointF;
+
+    if-ne p2, v0, :cond_2
+
+    iget-object p2, p0, Lcom/huawei/appmarket/j26;->k:Lcom/huawei/appmarket/d40;
+
+    goto :goto_0
+
+    :cond_2
+    sget-object v0, Lcom/huawei/appmarket/k15;->y:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    if-eqz v0, :cond_3
+
+    :goto_1
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/d40;->n(Lcom/huawei/appmarket/p15;)V
+
+    goto :goto_2
+
+    :cond_3
+    sget-object v0, Lcom/huawei/appmarket/k15;->z:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_4
+
+    iget-object p2, p0, Lcom/huawei/appmarket/j26;->n:Lcom/huawei/appmarket/fm2;
+
+    goto :goto_0
+
+    :cond_4
+    sget-object v0, Lcom/huawei/appmarket/k15;->A:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_5
+
+    iget-object v0, p0, Lcom/huawei/appmarket/j26;->o:Lcom/huawei/appmarket/fm2;
+
+    if-eqz v0, :cond_5
+
+    goto :goto_1
+
+    :cond_5
+    sget-object v0, Lcom/huawei/appmarket/k15;->B:Ljava/lang/Float;
+
+    if-ne p2, v0, :cond_6
+
+    iget-object p2, p0, Lcom/huawei/appmarket/j26;->p:Lcom/huawei/appmarket/fm2;
+
+    goto :goto_0
+
+    :cond_6
+    :goto_2
+    return-void
+.end method
+
+.method public final d(Lcom/huawei/appmarket/cr4;ILjava/util/ArrayList;Lcom/huawei/appmarket/cr4;)V
+    .registers 5
+
+    .line 1
+    invoke-static {p1, p2, p3, p4, p0}, Lcom/huawei/appmarket/v95;->f(Lcom/huawei/appmarket/cr4;ILjava/util/ArrayList;Lcom/huawei/appmarket/cr4;Lcom/huawei/appmarket/er4;)V
+
+    return-void
+.end method
+
+.method public final e()Landroid/graphics/Path;
+    .registers 42
+
+    move-object/from16 v0, p0
+
+    iget-boolean v1, v0, Lcom/huawei/appmarket/j26;->r:Z
+
+    iget-object v9, v0, Lcom/huawei/appmarket/j26;->a:Landroid/graphics/Path;
+
+    if-eqz v1, :cond_0
+
+    return-object v9
+
+    :cond_0
+    invoke-virtual {v9}, Landroid/graphics/Path;->reset()V
+
+    iget-boolean v1, v0, Lcom/huawei/appmarket/j26;->h:Z
+
+    const/4 v10, 0x1
+
+    if-eqz v1, :cond_1
+
+    iput-boolean v10, v0, Lcom/huawei/appmarket/j26;->r:Z
+
+    return-object v9
+
+    :cond_1
+    sget-object v1, Lcom/huawei/appmarket/j26$a;->a:[I
+
+    iget-object v2, v0, Lcom/huawei/appmarket/j26;->g:Lcom/huawei/appmarket/k26$a;
+
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v2
+
+    aget v1, v1, v2
+
+    iget-object v11, v0, Lcom/huawei/appmarket/j26;->k:Lcom/huawei/appmarket/d40;
+
+    const/16 v16, 0x0
+
+    iget-object v2, v0, Lcom/huawei/appmarket/j26;->n:Lcom/huawei/appmarket/fm2;
+
+    const/high16 v3, 0x42c80000    # 100.0f
+
+    iget-object v4, v0, Lcom/huawei/appmarket/j26;->p:Lcom/huawei/appmarket/fm2;
+
+    const-wide v5, 0x401921fb54442d18L    # 6.283185307179586
+
+    const-wide v17, 0x4056800000000000L    # 90.0
+
+    const-wide/16 v19, 0x0
+
+    iget-object v7, v0, Lcom/huawei/appmarket/j26;->l:Lcom/huawei/appmarket/fm2;
+
+    iget-object v8, v0, Lcom/huawei/appmarket/j26;->j:Lcom/huawei/appmarket/fm2;
+
+    if-eq v1, v10, :cond_8
+
+    const/4 v10, 0x2
+
+    if-eq v1, v10, :cond_2
+
+    goto/16 :goto_14
+
+    .line 1
+    :cond_2
+    invoke-virtual {v8}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Float;
+
+    invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
+
+    move-result v1
+
+    float-to-double v14, v1
+
+    invoke-static {v14, v15}, Ljava/lang/Math;->floor(D)D
+
+    move-result-wide v14
+
+    double-to-int v1, v14
+
+    if-nez v7, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    invoke-virtual {v7}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Ljava/lang/Float;
+
+    invoke-virtual {v7}, Ljava/lang/Float;->floatValue()F
+
+    move-result v7
+
+    float-to-double v7, v7
+
+    move-wide/from16 v19, v7
+
+    :goto_0
+    sub-double v19, v19, v17
+
+    invoke-static/range {v19 .. v20}, Ljava/lang/Math;->toRadians(D)D
+
+    move-result-wide v7
+
+    int-to-double v14, v1
+
+    div-double/2addr v5, v14
+
+    double-to-float v1, v5
+
+    invoke-virtual {v4}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/Float;
+
+    invoke-virtual {v4}, Ljava/lang/Float;->floatValue()F
+
+    move-result v4
+
+    div-float v10, v4, v3
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+
+    move-result v6
+
+    float-to-double v4, v6
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v2
+
+    mul-double v2, v2, v4
+
+    double-to-float v2, v2
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v17
+
+    mul-double v12, v17, v4
+
+    double-to-float v3, v12
+
+    invoke-virtual {v9, v2, v3}, Landroid/graphics/Path;->moveTo(FF)V
+
+    float-to-double v12, v1
+
+    add-double/2addr v7, v12
+
+    invoke-static {v14, v15}, Ljava/lang/Math;->ceil(D)D
+
+    move-result-wide v14
+
+    move-wide/from16 v17, v7
+
+    const/4 v1, 0x0
+
+    :goto_1
+    int-to-double v7, v1
+
+    cmpg-double v19, v7, v14
+
+    if-gez v19, :cond_7
+
+    invoke-static/range {v17 .. v18}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v19
+
+    move-object/from16 v26, v11
+
+    move-wide/from16 v27, v12
+
+    mul-double v11, v19, v4
+
+    double-to-float v11, v11
+
+    invoke-static/range {v17 .. v18}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v12
+
+    mul-double v12, v12, v4
+
+    double-to-float v12, v12
+
+    cmpl-float v13, v10, v16
+
+    if-eqz v13, :cond_5
+
+    move-wide/from16 v19, v4
+
+    float-to-double v4, v3
+
+    move v13, v1
+
+    float-to-double v0, v2
+
+    invoke-static {v4, v5, v0, v1}, Ljava/lang/Math;->atan2(DD)D
+
+    move-result-wide v0
+
+    const-wide v4, 0x3ff921fb54442d18L    # 1.5707963267948966
+
+    sub-double/2addr v0, v4
+
+    double-to-float v0, v0
+
+    float-to-double v0, v0
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v4
+
+    double-to-float v4, v4
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v0
+
+    double-to-float v0, v0
+
+    move v5, v2
+
+    float-to-double v1, v12
+
+    move/from16 v36, v12
+
+    move/from16 v37, v13
+
+    float-to-double v12, v11
+
+    invoke-static {v1, v2, v12, v13}, Ljava/lang/Math;->atan2(DD)D
+
+    move-result-wide v1
+
+    const-wide v12, 0x3ff921fb54442d18L    # 1.5707963267948966
+
+    sub-double/2addr v1, v12
+
+    double-to-float v1, v1
+
+    float-to-double v1, v1
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v12
+
+    double-to-float v12, v12
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v1
+
+    double-to-float v1, v1
+
+    mul-float v2, v6, v10
+
+    const/high16 v13, 0x3e800000    # 0.25f
+
+    mul-float v2, v2, v13
+
+    mul-float v4, v4, v2
+
+    mul-float v0, v0, v2
+
+    mul-float v12, v12, v2
+
+    mul-float v2, v2, v1
+
+    const-wide/high16 v22, 0x3ff0000000000000L    # 1.0
+
+    sub-double v29, v14, v22
+
+    cmpl-double v1, v7, v29
+
+    if-nez v1, :cond_4
+
+    move-object/from16 v1, p0
+
+    iget-object v7, v1, Lcom/huawei/appmarket/j26;->b:Landroid/graphics/Path;
+
+    invoke-virtual {v7}, Landroid/graphics/Path;->reset()V
+
+    invoke-virtual {v7, v5, v3}, Landroid/graphics/Path;->moveTo(FF)V
+
+    sub-float v4, v5, v4
+
+    sub-float v0, v3, v0
+
+    add-float v5, v11, v12
+
+    add-float v8, v36, v2
+
+    move-object/from16 v29, v7
+
+    move/from16 v30, v4
+
+    move/from16 v31, v0
+
+    move/from16 v32, v5
+
+    move/from16 v33, v8
+
+    move/from16 v34, v11
+
+    move/from16 v35, v36
+
+    invoke-virtual/range {v29 .. v35}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
+
+    iget-object v2, v1, Lcom/huawei/appmarket/j26;->c:Landroid/graphics/PathMeasure;
+
+    const/4 v12, 0x0
+
+    invoke-virtual {v2, v7, v12}, Landroid/graphics/PathMeasure;->setPath(Landroid/graphics/Path;Z)V
+
+    invoke-virtual {v2}, Landroid/graphics/PathMeasure;->getLength()F
+
+    move-result v3
+
+    const v7, 0x3f7ff972    # 0.9999f
+
+    mul-float v3, v3, v7
+
+    const/4 v7, 0x0
+
+    iget-object v13, v1, Lcom/huawei/appmarket/j26;->d:[F
+
+    invoke-virtual {v2, v3, v13, v7}, Landroid/graphics/PathMeasure;->getPosTan(F[F[F)Z
+
+    aget v7, v13, v12
+
+    const/4 v2, 0x1
+
+    aget v13, v13, v2
+
+    move-object v2, v9
+
+    move v3, v4
+
+    move v4, v0
+
+    move/from16 v21, v6
+
+    move v6, v8
+
+    const/16 v29, 0x0
+
+    move v8, v13
+
+    :goto_2
+    invoke-virtual/range {v2 .. v8}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
+
+    goto :goto_3
+
+    :cond_4
+    const/16 v29, 0x0
+
+    move-object/from16 v1, p0
+
+    move/from16 v21, v6
+
+    sub-float v4, v5, v4
+
+    sub-float v0, v3, v0
+
+    add-float v5, v11, v12
+
+    add-float v6, v36, v2
+
+    move-object v2, v9
+
+    move v3, v4
+
+    move v4, v0
+
+    move v7, v11
+
+    move/from16 v8, v36
+
+    goto :goto_2
+
+    :goto_3
+    move/from16 v0, v36
+
+    goto :goto_4
+
+    :cond_5
+    move/from16 v37, v1
+
+    move-wide/from16 v19, v4
+
+    move/from16 v21, v6
+
+    move/from16 v36, v12
+
+    const-wide/high16 v2, 0x3ff0000000000000L    # 1.0
+
+    const/16 v29, 0x0
+
+    move-object v1, v0
+
+    sub-double v4, v14, v2
+
+    cmpl-double v0, v7, v4
+
+    if-nez v0, :cond_6
+
+    move/from16 v0, v36
+
+    goto :goto_5
+
+    :cond_6
+    move/from16 v0, v36
+
+    invoke-virtual {v9, v11, v0}, Landroid/graphics/Path;->lineTo(FF)V
+
+    :goto_4
+    add-double v17, v17, v27
+
+    :goto_5
+    add-int/lit8 v2, v37, 0x1
+
+    move v3, v0
+
+    move-object v0, v1
+
+    move v1, v2
+
+    move v2, v11
+
+    move-wide/from16 v4, v19
+
+    move/from16 v6, v21
+
+    move-object/from16 v11, v26
+
+    move-wide/from16 v12, v27
+
+    goto/16 :goto_1
+
+    :cond_7
+    move-object v1, v0
+
+    move-object/from16 v26, v11
+
+    invoke-virtual/range {v26 .. v26}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/graphics/PointF;
+
+    iget v2, v0, Landroid/graphics/PointF;->x:F
+
+    iget v0, v0, Landroid/graphics/PointF;->y:F
+
+    invoke-virtual {v9, v2, v0}, Landroid/graphics/Path;->offset(FF)V
+
+    invoke-virtual {v9}, Landroid/graphics/Path;->close()V
+
+    goto/16 :goto_14
+
+    :cond_8
+    move-object v1, v0
+
+    move-object/from16 v26, v11
+
+    const/16 v29, 0x0
+
+    .line 2
+    invoke-virtual {v8}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Float;
+
+    invoke-virtual {v0}, Ljava/lang/Float;->floatValue()F
+
+    move-result v0
+
+    if-nez v7, :cond_9
+
+    goto :goto_6
+
+    :cond_9
+    invoke-virtual {v7}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Ljava/lang/Float;
+
+    invoke-virtual {v7}, Ljava/lang/Float;->floatValue()F
+
+    move-result v7
+
+    float-to-double v7, v7
+
+    move-wide/from16 v19, v7
+
+    :goto_6
+    sub-double v19, v19, v17
+
+    invoke-static/range {v19 .. v20}, Ljava/lang/Math;->toRadians(D)D
+
+    move-result-wide v7
+
+    float-to-double v10, v0
+
+    div-double/2addr v5, v10
+
+    double-to-float v5, v5
+
+    iget-boolean v6, v1, Lcom/huawei/appmarket/j26;->i:Z
+
+    if-eqz v6, :cond_a
+
+    const/high16 v6, -0x40800000    # -1.0f
+
+    mul-float v5, v5, v6
+
+    :cond_a
+    move v12, v5
+
+    const/high16 v13, 0x40000000    # 2.0f
+
+    div-float v14, v12, v13
+
+    float-to-int v5, v0
+
+    int-to-float v5, v5
+
+    sub-float/2addr v0, v5
+
+    cmpl-float v15, v0, v16
+
+    if-eqz v15, :cond_b
+
+    const/high16 v5, 0x3f800000    # 1.0f
+
+    sub-float/2addr v5, v0
+
+    mul-float v5, v5, v14
+
+    float-to-double v5, v5
+
+    add-double/2addr v7, v5
+
+    :cond_b
+    invoke-virtual {v2}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+
+    move-result v6
+
+    iget-object v2, v1, Lcom/huawei/appmarket/j26;->m:Lcom/huawei/appmarket/fm2;
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+
+    move-result v5
+
+    iget-object v2, v1, Lcom/huawei/appmarket/j26;->o:Lcom/huawei/appmarket/fm2;
+
+    if-eqz v2, :cond_c
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+
+    move-result v2
+
+    div-float/2addr v2, v3
+
+    move/from16 v17, v2
+
+    goto :goto_7
+
+    :cond_c
+    const/16 v17, 0x0
+
+    :goto_7
+    if-eqz v4, :cond_d
+
+    invoke-virtual {v4}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+
+    move-result v2
+
+    div-float/2addr v2, v3
+
+    move/from16 v18, v2
+
+    goto :goto_8
+
+    :cond_d
+    const/16 v18, 0x0
+
+    :goto_8
+    if-eqz v15, :cond_e
+
+    invoke-static {v6, v5, v0, v5}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
+
+    move-result v2
+
+    float-to-double v3, v2
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v19
+
+    move/from16 v27, v14
+
+    mul-double v13, v19, v3
+
+    double-to-float v13, v13
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v19
+
+    mul-double v3, v3, v19
+
+    double-to-float v3, v3
+
+    invoke-virtual {v9, v13, v3}, Landroid/graphics/Path;->moveTo(FF)V
+
+    mul-float v4, v12, v0
+
+    const/high16 v14, 0x40000000    # 2.0f
+
+    div-float/2addr v4, v14
+
+    move v14, v2
+
+    move/from16 v19, v3
+
+    float-to-double v2, v4
+
+    add-double/2addr v7, v2
+
+    move v2, v13
+
+    move v13, v14
+
+    move/from16 v3, v19
+
+    move/from16 v14, v27
+
+    goto :goto_9
+
+    :cond_e
+    move/from16 v27, v14
+
+    float-to-double v2, v6
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v13
+
+    mul-double v13, v13, v2
+
+    double-to-float v13, v13
+
+    invoke-static {v7, v8}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v19
+
+    mul-double v2, v2, v19
+
+    double-to-float v3, v2
+
+    invoke-virtual {v9, v13, v3}, Landroid/graphics/Path;->moveTo(FF)V
+
+    move v4, v3
+
+    move/from16 v14, v27
+
+    float-to-double v2, v14
+
+    add-double/2addr v7, v2
+
+    move v3, v4
+
+    move v2, v13
+
+    const/4 v13, 0x0
+
+    :goto_9
+    invoke-static {v10, v11}, Ljava/lang/Math;->ceil(D)D
+
+    move-result-wide v10
+
+    const-wide/high16 v19, 0x4000000000000000L    # 2.0
+
+    mul-double v10, v10, v19
+
+    move-wide/from16 v27, v7
+
+    const/4 v8, 0x0
+
+    move v7, v5
+
+    :goto_a
+    int-to-double v4, v8
+
+    cmpg-double v30, v4, v10
+
+    if-gez v30, :cond_1a
+
+    if-eqz v29, :cond_f
+
+    move/from16 v30, v6
+
+    goto :goto_b
+
+    :cond_f
+    move/from16 v30, v7
+
+    :goto_b
+    cmpl-float v31, v13, v16
+
+    if-eqz v31, :cond_10
+
+    sub-double v32, v10, v19
+
+    cmpl-double v34, v4, v32
+
+    if-nez v34, :cond_10
+
+    mul-float v32, v12, v0
+
+    const/high16 v21, 0x40000000    # 2.0f
+
+    div-float v32, v32, v21
+
+    move/from16 v40, v32
+
+    move/from16 v32, v12
+
+    move/from16 v12, v40
+
+    goto :goto_c
+
+    :cond_10
+    const/high16 v21, 0x40000000    # 2.0f
+
+    move/from16 v32, v12
+
+    move v12, v14
+
+    :goto_c
+    if-eqz v31, :cond_11
+
+    const-wide/high16 v22, 0x3ff0000000000000L    # 1.0
+
+    sub-double v33, v10, v22
+
+    cmpl-double v31, v4, v33
+
+    if-nez v31, :cond_11
+
+    move/from16 v31, v6
+
+    move/from16 v30, v7
+
+    move v6, v13
+
+    goto :goto_d
+
+    :cond_11
+    move/from16 v31, v6
+
+    move/from16 v6, v30
+
+    move/from16 v30, v7
+
+    :goto_d
+    float-to-double v6, v6
+
+    invoke-static/range {v27 .. v28}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v33
+
+    move/from16 v36, v13
+
+    move/from16 v35, v14
+
+    mul-double v13, v33, v6
+
+    double-to-float v13, v13
+
+    invoke-static/range {v27 .. v28}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v33
+
+    mul-double v6, v6, v33
+
+    double-to-float v14, v6
+
+    cmpl-float v6, v17, v16
+
+    if-nez v6, :cond_12
+
+    cmpl-float v6, v18, v16
+
+    if-nez v6, :cond_12
+
+    invoke-virtual {v9, v13, v14}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move/from16 v1, v30
+
+    move/from16 v30, v31
+
+    const-wide/high16 v22, 0x3ff0000000000000L    # 1.0
+
+    const-wide v24, 0x3ff921fb54442d18L    # 1.5707963267948966
+
+    move/from16 v31, v8
+
+    goto/16 :goto_13
+
+    :cond_12
+    float-to-double v6, v3
+
+    move/from16 v33, v3
+
+    move-wide/from16 v37, v4
+
+    float-to-double v3, v2
+
+    invoke-static {v6, v7, v3, v4}, Ljava/lang/Math;->atan2(DD)D
+
+    move-result-wide v3
+
+    const-wide v24, 0x3ff921fb54442d18L    # 1.5707963267948966
+
+    sub-double v3, v3, v24
+
+    double-to-float v3, v3
+
+    float-to-double v3, v3
+
+    invoke-static {v3, v4}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v5
+
+    double-to-float v5, v5
+
+    invoke-static {v3, v4}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v3
+
+    double-to-float v3, v3
+
+    float-to-double v6, v14
+
+    move v4, v2
+
+    float-to-double v1, v13
+
+    invoke-static {v6, v7, v1, v2}, Ljava/lang/Math;->atan2(DD)D
+
+    move-result-wide v1
+
+    sub-double v1, v1, v24
+
+    double-to-float v1, v1
+
+    float-to-double v1, v1
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v6
+
+    double-to-float v6, v6
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->sin(D)D
+
+    move-result-wide v1
+
+    double-to-float v1, v1
+
+    if-eqz v29, :cond_13
+
+    move/from16 v2, v17
+
+    goto :goto_e
+
+    :cond_13
+    move/from16 v2, v18
+
+    :goto_e
+    if-eqz v29, :cond_14
+
+    move/from16 v7, v18
+
+    goto :goto_f
+
+    :cond_14
+    move/from16 v7, v17
+
+    :goto_f
+    if-eqz v29, :cond_15
+
+    move/from16 v34, v30
+
+    goto :goto_10
+
+    :cond_15
+    move/from16 v34, v31
+
+    :goto_10
+    if-eqz v29, :cond_16
+
+    move/from16 v39, v31
+
+    goto :goto_11
+
+    :cond_16
+    move/from16 v39, v30
+
+    :goto_11
+    mul-float v34, v34, v2
+
+    const v2, 0x3ef4e26d    # 0.47829f
+
+    mul-float v34, v34, v2
+
+    mul-float v5, v5, v34
+
+    mul-float v34, v34, v3
+
+    mul-float v39, v39, v7
+
+    mul-float v39, v39, v2
+
+    mul-float v6, v6, v39
+
+    mul-float v39, v39, v1
+
+    if-eqz v15, :cond_17
+
+    if-nez v8, :cond_18
+
+    mul-float v5, v5, v0
+
+    mul-float v34, v34, v0
+
+    :cond_17
+    const-wide/high16 v22, 0x3ff0000000000000L    # 1.0
+
+    goto :goto_12
+
+    :cond_18
+    const-wide/high16 v22, 0x3ff0000000000000L    # 1.0
+
+    sub-double v1, v10, v22
+
+    cmpl-double v3, v37, v1
+
+    if-nez v3, :cond_19
+
+    mul-float v6, v6, v0
+
+    mul-float v39, v39, v0
+
+    :cond_19
+    :goto_12
+    sub-float v3, v4, v5
+
+    sub-float v4, v33, v34
+
+    add-float v5, v13, v6
+
+    add-float v6, v14, v39
+
+    move-object v2, v9
+
+    move/from16 v1, v30
+
+    move/from16 v30, v31
+
+    move v7, v13
+
+    move/from16 v31, v8
+
+    move v8, v14
+
+    invoke-virtual/range {v2 .. v8}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
+
+    :goto_13
+    float-to-double v2, v12
+
+    add-double v27, v27, v2
+
+    xor-int/lit8 v29, v29, 0x1
+
+    add-int/lit8 v8, v31, 0x1
+
+    move v7, v1
+
+    move v2, v13
+
+    move v3, v14
+
+    move/from16 v6, v30
+
+    move/from16 v12, v32
+
+    move/from16 v14, v35
+
+    move/from16 v13, v36
+
+    move-object/from16 v1, p0
+
+    goto/16 :goto_a
+
+    :cond_1a
+    invoke-virtual/range {v26 .. v26}, Lcom/huawei/appmarket/d40;->g()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/graphics/PointF;
+
+    iget v1, v0, Landroid/graphics/PointF;->x:F
+
+    iget v0, v0, Landroid/graphics/PointF;->y:F
+
+    invoke-virtual {v9, v1, v0}, Landroid/graphics/Path;->offset(FF)V
+
+    invoke-virtual {v9}, Landroid/graphics/Path;->close()V
+
+    .line 3
+    :goto_14
+    invoke-virtual {v9}, Landroid/graphics/Path;->close()V
+
+    move-object/from16 v0, p0
+
+    iget-object v1, v0, Lcom/huawei/appmarket/j26;->q:Lcom/huawei/appmarket/ez0;
+
+    invoke-virtual {v1, v9}, Lcom/huawei/appmarket/ez0;->b(Landroid/graphics/Path;)V
+
+    const/4 v1, 0x1
+
+    iput-boolean v1, v0, Lcom/huawei/appmarket/j26;->r:Z
+
+    return-object v9
+.end method
+
+.method public final getName()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/j26;->e:Ljava/lang/String;
+
+    return-object v0
 .end method

@@ -103,7 +103,7 @@
 
     const-string v0, "string"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
@@ -150,7 +150,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/kz;->c(Landroid/content/Context;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     move-result-object v3
 
@@ -204,7 +204,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
@@ -481,7 +481,7 @@
 
     const-string v2, "VideoKitUtil"
 
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return v0

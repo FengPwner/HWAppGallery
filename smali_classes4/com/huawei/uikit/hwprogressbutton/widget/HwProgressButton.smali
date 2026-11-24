@@ -216,7 +216,7 @@
     .line 4
     sget v0, Lcom/huawei/uikit/hwprogressbutton/R$style;->Theme_Emui_HwProgressButton:I
 
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p0
 
@@ -501,7 +501,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->q(Landroid/widget/FrameLayout;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->q(Landroid/widget/FrameLayout;)V
 
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -663,7 +663,7 @@
     const/high16 p1, 0x3f800000    # 1.0f
 
     :goto_0
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/je3;->a(Landroid/view/View;F)Landroid/animation/AnimatorSet;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/le3;->a(Landroid/view/View;F)Landroid/animation/AnimatorSet;
 
     move-result-object p1
 
@@ -716,7 +716,7 @@
 
     const-class v2, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/se3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/ue3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -733,7 +733,7 @@
 
     const-string v1, "mVisualProgress"
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/se3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/ue3;->c(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -794,17 +794,17 @@
 
     const/4 v0, 0x3
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/wf3;->b(Landroid/content/Context;I)I
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yf3;->b(Landroid/content/Context;I)I
 
     move-result v0
 
     const-class v1, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/wf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/yf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/wf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/yf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -849,7 +849,7 @@
 
     const-string v5, "android.os.SystemProperties"
 
-    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
@@ -879,7 +879,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

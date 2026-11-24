@@ -541,7 +541,7 @@
     .line 152
     .line 153
     .line 154
-    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v4, v5, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 155
     .line 156
@@ -668,10 +668,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private doRequest(Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PassContext;Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$IHttpCheckCallback;)V
@@ -785,7 +781,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -968,23 +964,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private storeCheckResp(Ljava/lang/String;Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;)V
@@ -1140,7 +1119,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -1342,10 +1321,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private storeIfNecessary(Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;)V
@@ -1581,252 +1556,252 @@
 
     .line 48
     .line 49
-    const-string p2, "wait_time"
+    const-string/jumbo p2, "wait_time"
 
     .line 50
     .line 51
+    .line 52
     const-wide/16 v5, 0x0
 
-    .line 52
     .line 53
+    .line 54
     invoke-virtual {p1, p2, v5, v6}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
-    .line 54
     .line 55
     .line 56
+    .line 57
     move-result-wide v7
 
-    .line 57
+    .line 58
     iput-wide v7, v1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->userWaitTimeMs:J
 
-    .line 58
     .line 59
+    .line 60
     const-string p2, "interval"
 
-    .line 60
     .line 61
+    .line 62
     invoke-virtual {p1, p2, v5, v6}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
-    .line 62
     .line 63
     .line 64
+    .line 65
     move-result-wide v5
 
-    .line 65
+    .line 66
     iput-wide v5, v1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->nextRequestIntervalSecond:J
 
-    .line 66
     .line 67
+    .line 68
     const-string p2, "buffer"
 
-    .line 68
     .line 69
+    .line 70
     invoke-virtual {p1, p2, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 70
     .line 71
     .line 72
+    .line 73
     move-result-object p2
 
-    .line 73
+    .line 74
     iput-object p2, v1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->buffer:Ljava/lang/String;
 
-    .line 74
     .line 75
+    .line 76
     const-string p2, "rules"
 
-    .line 76
     .line 77
+    .line 78
     invoke-virtual {p1, p2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
-    .line 78
     .line 79
     .line 80
+    .line 81
     move-result-object p1
 
-    .line 81
+    .line 82
     if-eqz p1, :cond_3
 
-    .line 82
     .line 83
+    .line 84
     const/4 p2, 0x0
 
-    .line 84
+    .line 85
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
-    .line 85
     .line 86
     .line 87
+    .line 88
     move-result v5
 
-    .line 88
+    .line 89
     if-ge p2, v5, :cond_3
 
-    .line 89
     .line 90
+    .line 91
     invoke-virtual {p1, p2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
-    .line 91
     .line 92
     .line 93
-    move-result-object v5
-
     .line 94
-    new-instance v6, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;
+    move-result-object v5
 
     .line 95
+    new-instance v6, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;
+
     .line 96
+    .line 97
     invoke-direct {v6, v2}, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;-><init>(Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$1;)V
 
-    .line 97
     .line 98
     .line 99
+    .line 100
     const-string v7, "host"
 
-    .line 100
     .line 101
+    .line 102
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 102
     .line 103
     .line 104
+    .line 105
     move-result-object v7
 
-    .line 105
+    .line 106
     iput-object v7, v6, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;->host:Ljava/lang/String;
 
-    .line 106
     .line 107
+    .line 108
     const-string v7, "querys"
 
-    .line 108
     .line 109
+    .line 110
     invoke-virtual {v5, v7}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
-    .line 110
     .line 111
     .line 112
+    .line 113
     move-result-object v5
 
-    .line 113
+    .line 114
     if-eqz v5, :cond_2
 
-    .line 114
     .line 115
+    .line 116
     const/4 v7, 0x0
 
-    .line 116
+    .line 117
     :goto_1
     invoke-virtual {v5}, Lorg/json/JSONArray;->length()I
 
-    .line 117
     .line 118
     .line 119
-    move-result v8
-
     .line 120
-    if-ge v7, v8, :cond_2
+    move-result v8
 
     .line 121
+    if-ge v7, v8, :cond_2
+
     .line 122
+    .line 123
     invoke-virtual {v5, v7, v0}, Lorg/json/JSONArray;->optString(ILjava/lang/String;)Ljava/lang/String;
 
-    .line 123
     .line 124
     .line 125
+    .line 126
     move-result-object v8
 
-    .line 126
+    .line 127
     invoke-static {v8}, Lcom/tencent/mm/opensdk/utils/b;->b(Ljava/lang/String;)Z
 
-    .line 127
     .line 128
     .line 129
+    .line 130
     move-result v8
 
-    .line 130
+    .line 131
     if-nez v8, :cond_1
 
-    .line 131
     .line 132
+    .line 133
     iget-object v8, v6, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;->mustQueryKey:Ljava/util/List;
 
-    .line 133
     .line 134
+    .line 135
     invoke-virtual {v5, v7, v0}, Lorg/json/JSONArray;->optString(ILjava/lang/String;)Ljava/lang/String;
 
-    .line 135
     .line 136
     .line 137
+    .line 138
     move-result-object v9
 
-    .line 138
+    .line 139
     invoke-interface {v8, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 139
     .line 140
     .line 141
+    .line 142
     goto :goto_2
 
-    .line 142
+    .line 143
     :catch_0
     move-exception p1
 
-    .line 143
+    .line 144
     goto :goto_3
 
-    .line 144
+    .line 145
     :cond_1
     :goto_2
     add-int/lit8 v7, v7, 0x1
 
-    .line 145
     .line 146
+    .line 147
     goto :goto_1
 
-    .line 147
+    .line 148
     :cond_2
     iget-object v5, v1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->urlRuleList:Ljava/util/List;
 
-    .line 148
     .line 149
+    .line 150
     invoke-interface {v5, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 150
     .line 151
     .line 152
+    .line 153
     add-int/lit8 p2, p2, 0x1
 
-    .line 153
     .line 154
+    .line 155
     goto :goto_0
 
-    .line 155
+    .line 156
     :goto_3
     new-instance p2, Ljava/lang/StringBuilder;
 
-    .line 156
     .line 157
+    .line 158
     const-string v0, "coverJson2ShareRule fail, ex = "
 
-    .line 158
     .line 159
+    .line 160
     invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 160
     .line 161
     .line 162
-    invoke-static {p1, p2, v3}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 163
+    invoke-static {p1, p2, v3}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 164
     .line 165
+    .line 166
     :cond_3
     return-object v1
-    .line 166
     .line 167
     .line 168
     .line 169
@@ -1933,10 +1908,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method protected cookStoreJson(Ljava/lang/String;Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;)Ljava/lang/String;
@@ -2134,7 +2105,7 @@
 
     .line 82
     .line 83
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -2328,10 +2299,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method protected covertShareRule2Json(Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;)Ljava/lang/String;
@@ -2394,240 +2361,240 @@
     .line 23
     .line 24
     .line 25
-    const-string v2, "wait_time"
+    const-string/jumbo v2, "wait_time"
 
     .line 26
     .line 27
+    .line 28
     :try_start_3
     iget-wide v3, p1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->userWaitTimeMs:J
 
-    .line 28
     .line 29
+    .line 30
     invoke-virtual {v1, v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
-    .line 30
     .line 31
     .line 32
+    .line 33
     const-string v2, "interval"
 
-    .line 33
     .line 34
+    .line 35
     :try_start_4
     iget-wide v3, p1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->nextRequestIntervalSecond:J
 
-    .line 35
     .line 36
+    .line 37
     invoke-virtual {v1, v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 
-    .line 37
     .line 38
     .line 39
+    .line 40
     const-string v2, "buffer"
 
-    .line 40
     .line 41
+    .line 42
     :try_start_5
     iget-object v3, p1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->buffer:Ljava/lang/String;
 
-    .line 42
     .line 43
+    .line 44
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
-    .line 44
     .line 45
     .line 46
+    .line 47
     move-result v3
 
-    .line 47
+    .line 48
     const/16 v4, 0x40
 
-    .line 48
     .line 49
+    .line 50
     if-le v3, v4, :cond_1
 
-    .line 50
     .line 51
+    .line 52
     move-object v3, v0
 
-    .line 52
+    .line 53
     goto :goto_0
 
-    .line 53
+    .line 54
     :cond_1
     iget-object v3, p1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->buffer:Ljava/lang/String;
 
-    .line 54
     .line 55
+    .line 56
     :goto_0
     invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 56
     .line 57
     .line 58
+    .line 59
     new-instance v2, Lorg/json/JSONArray;
 
-    .line 59
     .line 60
+    .line 61
     invoke-direct {v2}, Lorg/json/JSONArray;-><init>()V
 
-    .line 61
     .line 62
     .line 63
+    .line 64
     iget-object p1, p1, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$PromiseShareRule;->urlRuleList:Ljava/util/List;
 
-    .line 64
     .line 65
+    .line 66
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 66
     .line 67
     .line 68
+    .line 69
     move-result-object p1
 
-    .line 69
+    .line 70
     :goto_1
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 70
     .line 71
     .line 72
+    .line 73
     move-result v3
 
-    .line 73
+    .line 74
     if-eqz v3, :cond_2
 
-    .line 74
     .line 75
+    .line 76
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 76
     .line 77
     .line 78
+    .line 79
     move-result-object v3
 
-    .line 79
+    .line 80
     check-cast v3, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;
 
-    .line 80
     .line 81
+    .line 82
     new-instance v4, Lorg/json/JSONObject;
 
-    .line 82
     .line 83
+    .line 84
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
 
-    .line 84
     .line 85
     .line 86
+    .line 87
     const-string v5, "host"
 
-    .line 87
     .line 88
+    .line 89
     :try_start_6
     iget-object v6, v3, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;->host:Ljava/lang/String;
 
-    .line 89
     .line 90
+    .line 91
     invoke-virtual {v4, v5, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_0
 
-    .line 91
     .line 92
     .line 93
+    .line 94
     const-string v5, "querys"
 
-    .line 94
     .line 95
+    .line 96
     :try_start_7
     new-instance v6, Lorg/json/JSONArray;
 
-    .line 96
     .line 97
+    .line 98
     iget-object v3, v3, Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$UrlRule;->mustQueryKey:Ljava/util/List;
 
-    .line 98
     .line 99
+    .line 100
     invoke-direct {v6, v3}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
 
-    .line 100
     .line 101
     .line 102
+    .line 103
     invoke-virtual {v4, v5, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 103
     .line 104
     .line 105
+    .line 106
     invoke-virtual {v2, v4}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
 
-    .line 106
     .line 107
     .line 108
+    .line 109
     goto :goto_1
 
-    .line 109
+    .line 110
     :catch_0
     move-exception p1
 
-    .line 110
+    .line 111
     goto :goto_2
 
-    .line 111
+    .line 112
     :cond_2
     const-string p1, "rules"
 
-    .line 112
     .line 113
+    .line 114
     invoke-virtual {v1, p1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 114
     .line 115
     .line 116
+    .line 117
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
-    .line 117
     .line 118
     .line 119
+    .line 120
     move-result-object v0
     :try_end_7
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_0
 
-    .line 120
+    .line 121
     goto :goto_3
 
-    .line 121
+    .line 122
     :goto_2
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 122
     .line 123
+    .line 124
     const-string v2, "covertShareRule2Json fail, ex = "
 
-    .line 124
     .line 125
+    .line 126
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 126
     .line 127
     .line 128
+    .line 129
     const-string v2, "MicroMsg.SDK.WXAPiSecurityHelper"
 
-    .line 129
     .line 130
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 131
+    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 132
     .line 133
+    .line 134
     :goto_3
     return-object v0
-    .line 134
     .line 135
     .line 136
     .line 137
@@ -2675,23 +2642,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public doExtraSecurityCheck(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/opensdk/openapi/WXAPiSecurityHelper$ISecurityCheck;)I
@@ -3028,7 +2978,7 @@
 
     .line 163
     .line 164
-    invoke-static {p3, p2, v3}, Lcom/huawei/appmarket/ej2;->o(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3, p2, v3}, Lcom/huawei/appmarket/tr2;->n(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 165
     .line 166
@@ -3688,6 +3638,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public extractMayNeedDoSecurityCheckUrl(Ljava/lang/String;Lcom/tencent/mm/opensdk/modelbase/BaseReq;)Ljava/lang/String;
@@ -3737,7 +3807,7 @@
 
     if-eqz p2, :cond_2
 
-    const-string p1, "webpageUrl empty, don\'t need check."
+    const-string/jumbo p1, "webpageUrl empty, don\'t need check."
 
     invoke-static {v0, p1}, Lcom/tencent/mm/opensdk/utils/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -3994,7 +4064,7 @@
     .line 111
     .line 112
     .line 113
-    invoke-static {p1, v0, v3}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v3}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 114
     .line 115
@@ -4066,23 +4136,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected postHttpRequest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuffer;
@@ -4461,7 +4514,7 @@
     .line 190
     .line 191
     .line 192
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 193
     .line 194
@@ -4784,47 +4837,4 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method

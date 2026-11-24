@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lj4;
+.implements Lcom/huawei/appmarket/nj4;
 
 
 # instance fields
@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public intercept(Lcom/huawei/appmarket/lj4$a;)Lcom/huawei/appmarket/vu6;
+.method public intercept(Lcom/huawei/appmarket/nj4$a;)Lcom/huawei/appmarket/zu6;
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -34,16 +34,16 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/lj4$a;->request()Lcom/huawei/appmarket/gr6;
+    invoke-interface {p1}, Lcom/huawei/appmarket/nj4$a;->request()Lcom/huawei/appmarket/jr6;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lj4$a;->a(Lcom/huawei/appmarket/gr6;)Lcom/huawei/appmarket/vu6;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/nj4$a;->a(Lcom/huawei/appmarket/jr6;)Lcom/huawei/appmarket/zu6;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vu6;->B()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zu6;->B()Z
 
     move-result v2
 

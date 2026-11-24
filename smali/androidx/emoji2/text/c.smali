@@ -168,7 +168,7 @@
     move-result-object p2
 
     .line 54
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/mv5;->a(Landroid/text/TextPaint;Ljava/lang/String;)Z
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ov5;->a(Landroid/text/TextPaint;Ljava/lang/String;)Z
 
     .line 55
     .line 56

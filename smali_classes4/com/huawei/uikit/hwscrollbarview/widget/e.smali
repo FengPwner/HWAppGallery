@@ -44,7 +44,7 @@
 
     .line 13
     :cond_1
-    invoke-static {}, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->getHwScrollBindImpl()Lcom/huawei/appmarket/ve3;
+    invoke-static {}, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->getHwScrollBindImpl()Lcom/huawei/appmarket/xe3;
 
     .line 14
     .line 15
@@ -52,7 +52,7 @@
     move-result-object v0
 
     .line 17
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/ve3;->a(Landroid/widget/ListView;Lcom/huawei/uikit/phone/hwscrollbarview/widget/HwScrollbarView;)V
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/xe3;->a(Landroid/widget/ListView;Lcom/huawei/uikit/phone/hwscrollbarview/widget/HwScrollbarView;)V
 
     .line 18
     .line 19
@@ -80,7 +80,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p1, v0}, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->setHwOverScrollProxy(Lcom/huawei/appmarket/pe3;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->setHwOverScrollProxy(Lcom/huawei/appmarket/re3;)V
 
     .line 34
     .line 35
@@ -97,7 +97,7 @@
 
     .line 41
     .line 42
-    instance-of v0, p0, Lcom/huawei/appmarket/ue3;
+    instance-of v0, p0, Lcom/huawei/appmarket/we3;
 
     .line 43
     .line 44
@@ -105,14 +105,14 @@
 
     .line 45
     .line 46
-    check-cast p0, Lcom/huawei/appmarket/ue3;
+    check-cast p0, Lcom/huawei/appmarket/we3;
 
     .line 47
     .line 48
     const/4 v0, 0x1
 
     .line 49
-    invoke-interface {p0, p1, v0}, Lcom/huawei/appmarket/ue3;->addSharedView(Landroid/view/View;I)V
+    invoke-interface {p0, p1, v0}, Lcom/huawei/appmarket/we3;->addSharedView(Landroid/view/View;I)V
 
     .line 50
     .line 51
@@ -340,8 +340,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

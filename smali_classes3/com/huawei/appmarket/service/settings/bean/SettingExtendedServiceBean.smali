@@ -34,15 +34,15 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/l96;->b()Lcom/huawei/appmarket/l96;
+    invoke-static {}, Lcom/huawei/appmarket/n96;->b()Lcom/huawei/appmarket/n96;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l96;->a()Lcom/huawei/appmarket/bj;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/n96;->a()Lcom/huawei/appmarket/aj;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bj;->s()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/aj;->s()Z
 
     move-result v0
 

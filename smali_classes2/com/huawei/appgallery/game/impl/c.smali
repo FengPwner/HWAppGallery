@@ -431,7 +431,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/e91;)J
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/f91;)J
 
     goto :goto_0
 
@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, p1, v4, v0}, Lcom/huawei/appmarket/b71;->g(Lcom/huawei/appmarket/e91;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v1, p1, v4, v0}, Lcom/huawei/appmarket/b71;->g(Lcom/huawei/appmarket/f91;Ljava/lang/String;[Ljava/lang/String;)I
 
     :goto_0
     return-void

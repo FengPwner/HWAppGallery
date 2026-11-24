@@ -57,13 +57,13 @@
 
     if-ne p1, v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    sget-object p1, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
     const-string v1, "FAReminderActivity"
 
     const-string v2, "onSheetStateChanged: COLLAPSED"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;->finish()V
 

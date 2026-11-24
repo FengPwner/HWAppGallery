@@ -108,7 +108,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -141,7 +141,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -208,7 +208,7 @@
 
     .line 65
     .line 66
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
     .line 68
@@ -287,5 +287,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

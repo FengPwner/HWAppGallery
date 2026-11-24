@@ -119,11 +119,11 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/xy;->c(Landroid/security/keystore/KeyGenParameterSpec$Builder;[B)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/yy;->c(Landroid/security/keystore/KeyGenParameterSpec$Builder;[B)Landroid/security/keystore/KeyGenParameterSpec$Builder;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gb9;->h(Landroid/security/keystore/KeyGenParameterSpec$Builder;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    invoke-static {p1}, Lcom/huawei/appmarket/nb9;->h(Landroid/security/keystore/KeyGenParameterSpec$Builder;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
 
     move-result-object p1
 
@@ -143,7 +143,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/gb9;->d(Landroid/security/keystore/KeyGenParameterSpec$Builder;[Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/nb9;->d(Landroid/security/keystore/KeyGenParameterSpec$Builder;[Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
 
     move-result-object p1
 
@@ -157,7 +157,7 @@
 
     aput-object v2, v1, v5
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/gb9;->i(Landroid/security/keystore/KeyGenParameterSpec$Builder;[Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/nb9;->i(Landroid/security/keystore/KeyGenParameterSpec$Builder;[Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
 
     move-result-object p1
 

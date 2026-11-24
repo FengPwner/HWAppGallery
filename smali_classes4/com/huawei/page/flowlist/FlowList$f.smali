@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ow4;
+.implements Lcom/huawei/appmarket/rw4;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/sw4;)V
+.method public final a(Lcom/huawei/appmarket/vw4;)V
     .registers 5
 
     .line 1
@@ -77,12 +77,12 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/page/exception/FLPageException;-><init>(ILjava/lang/String;)V
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/sw4;->b(Ljava/lang/Exception;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/vw4;->b(Ljava/lang/Exception;)V
 
     return-void
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->k(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->k(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
@@ -90,7 +90,7 @@
 
     invoke-direct {v2, p1, v0}, Lcom/huawei/page/flowlist/d;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

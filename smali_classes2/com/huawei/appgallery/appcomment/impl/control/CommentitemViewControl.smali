@@ -26,7 +26,7 @@
     return-void
 .end method
 
-.method private static a(Landroid/app/Activity;)Lcom/huawei/appmarket/fh3;
+.method private static a(Landroid/app/Activity;)Lcom/huawei/appmarket/hh3;
     .registers 4
 
     .line 1
@@ -43,7 +43,7 @@
     move-result-object v0
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 9
     .line 10
@@ -55,11 +55,11 @@
 
     .line 13
     .line 14
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 15
     .line 16
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 17
     .line 18
@@ -67,11 +67,11 @@
     move-result-object v1
 
     .line 20
-    const-class v2, Lcom/huawei/appmarket/fh3;
+    const-class v2, Lcom/huawei/appmarket/hh3;
 
     .line 21
     .line 22
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -79,7 +79,7 @@
     move-result-object v1
 
     .line 26
-    check-cast v1, Lcom/huawei/appmarket/fh3;
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
     .line 27
     .line 28
@@ -96,7 +96,7 @@
     move-result-object p0
 
     .line 35
-    invoke-interface {v1, p0}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v1, p0}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 36
     .line 37
@@ -104,7 +104,7 @@
     const/4 p0, -0x1
 
     .line 39
-    invoke-interface {v1, p0, v0}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, p0, v0}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 40
     .line 41
@@ -174,16 +174,15 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static f(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/app/Activity;)V
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ja6;
+    new-instance v0, Lcom/huawei/appmarket/la6;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ja6;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/la6;-><init>()V
 
     new-instance v1, Lcom/huawei/appmarket/zu0$b;
 
@@ -253,7 +252,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/ja6;->a(Landroid/app/Activity;Lcom/huawei/appmarket/zu0;)V
+    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/la6;->a(Landroid/app/Activity;Lcom/huawei/appmarket/zu0;)V
 
     return-void
 .end method
@@ -262,7 +261,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -274,11 +273,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -290,7 +289,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     .line 16
     .line 17
@@ -509,7 +508,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -518,7 +516,7 @@
     .registers 7
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p1}, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v0
 
@@ -526,11 +524,11 @@
 
     invoke-direct {v1, p0, p4, p2, p3}, Lcom/huawei/appgallery/appcomment/impl/control/a;-><init>(Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     const-string p2, "dialog"
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -539,7 +537,7 @@
     .registers 14
 
     .line 1
-    invoke-static {p5}, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/fh3;
+    invoke-static {p5}, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a(Landroid/app/Activity;)Lcom/huawei/appmarket/hh3;
 
     move-result-object v0
 
@@ -559,11 +557,11 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl$a;-><init>(Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v0, v7}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v7}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     const-string p1, "deleteComment"
 
-    invoke-interface {v0, p5, p1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, p5, p1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -628,7 +626,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/appcomment/impl/bean/VoteReqBean;-><init>(ILjava/lang/String;IILjava/lang/String;)V
 
-    new-instance v1, Lcom/huawei/appmarket/ow;
+    new-instance v1, Lcom/huawei/appmarket/pw;
 
     iget-object v2, p0, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a:Landroid/content/Context;
 
@@ -636,9 +634,9 @@
 
     move-result v3
 
-    invoke-direct {v1, p1, v2, v7, v3}, Lcom/huawei/appmarket/ow;-><init>(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/content/Context;II)V
+    invoke-direct {v1, p1, v2, v7, v3}, Lcom/huawei/appmarket/pw;-><init>(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/content/Context;II)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 
@@ -711,7 +709,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/appcomment/impl/bean/VoteReqBean;-><init>(ILjava/lang/String;IILjava/lang/String;)V
 
-    new-instance v1, Lcom/huawei/appmarket/bq1;
+    new-instance v1, Lcom/huawei/appmarket/eq1;
 
     iget-object v2, p0, Lcom/huawei/appgallery/appcomment/impl/control/CommentitemViewControl;->a:Landroid/content/Context;
 
@@ -719,9 +717,9 @@
 
     move-result v3
 
-    invoke-direct {v1, p1, v2, v7, v3}, Lcom/huawei/appmarket/bq1;-><init>(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/content/Context;II)V
+    invoke-direct {v1, p1, v2, v7, v3}, Lcom/huawei/appmarket/eq1;-><init>(Lcom/huawei/appgallery/appcomment/impl/bean/CommentCardBean$MyCommentCardBean;Landroid/content/Context;II)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 

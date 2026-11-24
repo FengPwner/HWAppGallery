@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86$a;
+.implements Lcom/huawei/appmarket/b96$a;
 
 
 # annotations
@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oh4;",
+            "Lcom/huawei/appmarket/qh4;",
             ">;"
         }
     .end annotation
@@ -46,7 +46,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oh4;",
+            "Lcom/huawei/appmarket/qh4;",
             ">;"
         }
     .end annotation
@@ -63,7 +63,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oh4;",
+            "Lcom/huawei/appmarket/qh4;",
             ">;)V"
         }
     .end annotation

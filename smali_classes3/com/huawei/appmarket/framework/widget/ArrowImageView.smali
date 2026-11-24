@@ -146,7 +146,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/ArrowImageView;->b:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -154,7 +154,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/ArrowImageView;->c:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

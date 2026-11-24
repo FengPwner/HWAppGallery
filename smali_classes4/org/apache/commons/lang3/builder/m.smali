@@ -14,7 +14,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(IS)V
+.method public synthetic constructor <init>(SI)V
     .registers 3
 
     .line 1
@@ -23,11 +23,11 @@
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lorg/apache/commons/lang3/builder/m;->b:I
+    iput p2, p0, Lorg/apache/commons/lang3/builder/m;->b:I
 
     .line 5
     .line 6
-    iput-short p2, p0, Lorg/apache/commons/lang3/builder/m;->c:S
+    iput-short p1, p0, Lorg/apache/commons/lang3/builder/m;->c:S
 
     .line 7
     .line 8
@@ -296,10 +296,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 

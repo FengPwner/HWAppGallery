@@ -11,12 +11,12 @@
 
 # instance fields
 .field private agdProSdkVer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private agdSdkVer:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -29,13 +29,13 @@
 .field private channelId_:Ljava/lang/String;
 
 .field private contextIntent_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->NOPRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 .end field
 
 .field private mcc_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -43,26 +43,26 @@
 .field private mediaId_:Ljava/lang/String;
 
 .field private mediaPersonalize:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private referrer_:Ljava/lang/String;
 
 .field private renderingPlatformVer:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private roamingTime_:J
 
 .field private slotId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private userProfile_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->NOPRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 .end field
@@ -82,7 +82,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setVer_(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
 
     iput-wide v0, p0, Lcom/huawei/appgallery/distribution/impl/msgchannel/hiboard/bean/RecommendCardRequest;->roamingTime_:J
 
-    invoke-static {}, Lcom/huawei/appmarket/if3;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/kf3;->a()Ljava/lang/String;
 
     move-result-object v0
 

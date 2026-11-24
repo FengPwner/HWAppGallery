@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment$d;
-.super Lcom/huawei/appmarket/wi8;
+.super Lcom/huawei/appmarket/cj8;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment$d;->b:Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/wi8;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/cj8;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     return-void
 .end method
@@ -36,7 +36,7 @@
 .method public final onFragmentSelected(I)V
     .registers 7
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/wi8;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/cj8;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -50,20 +50,20 @@
 
     if-eq v1, v0, :cond_1
 
-    instance-of v3, v1, Lcom/huawei/appmarket/do5;
+    instance-of v3, v1, Lcom/huawei/appmarket/eo5;
 
     if-eqz v3, :cond_0
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/do5;->H0()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/eo5;->H0()V
 
     :cond_0
     move-object v1, v0
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/do5;->Z0(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/eo5;->Z0(I)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment$d;->a:Landroidx/fragment/app/Fragment;
 

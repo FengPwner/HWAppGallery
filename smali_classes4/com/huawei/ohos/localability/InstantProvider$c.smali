@@ -52,7 +52,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string v1, "user form animation is "
+    const-string/jumbo v1, "user form animation is "
 
     invoke-static {v1}, Lcom/huawei/ohos/localability/base/form/d;->d(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

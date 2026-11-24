@@ -155,6 +155,12 @@
 
 .field private screenCardLayoutListener:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
+.field private screenCardOverlayDrawable:Landroid/graphics/drawable/Drawable;
+
+.field private screenCardOverlayHeight:I
+
+.field private screenCardOverlayView:Landroid/view/View;
+
 .field private screenCardView:Landroid/view/View;
 
 .field private screenOverlayDrawable:Landroid/graphics/drawable/Drawable;
@@ -180,7 +186,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->Companion:Lcom/huawei/appgallery/videokit/api/WiseVideoView$Companion;
 
@@ -199,7 +205,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -213,7 +219,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -224,7 +230,7 @@
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -238,7 +244,7 @@
 
     move-object v3, p2
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -249,7 +255,7 @@
     .line 3
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -386,7 +392,7 @@
 
     const-string p2, "context.obtainStyledAttr\u2026s, R.styleable.WiseVideo)"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget p2, Lcom/huawei/appgallery/videokit/R$styleable;->WiseVideo_view_type:I
 
@@ -496,7 +502,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcom/huawei/appmarket/id1;)V
     .registers 6
 
     .line 4
@@ -895,10 +901,10 @@
     return p0
 .end method
 
-.method public static final synthetic access$updateScreenCardVisibility(Lcom/huawei/appgallery/videokit/api/WiseVideoView;Z)V
+.method public static final synthetic access$updateScreenCardVisibility(Lcom/huawei/appgallery/videokit/api/WiseVideoView;I)V
     .registers 2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->updateScreenCardVisibility(Z)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->updateScreenCardVisibility(I)V
 
     return-void
 .end method
@@ -922,7 +928,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mMediaPlayer:Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;
 
@@ -937,7 +943,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mMediaPlayer:Lcom/huawei/appgallery/videokit/impl/player/base/AbstractPlayer;
 
@@ -1008,8 +1014,192 @@
     return-void
 .end method
 
+.method private final addScreenCardOverlayToContent(Landroid/view/ViewGroup;)V
+    .registers 9
+
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayDrawable:Landroid/graphics/drawable/Drawable;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    iget v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayHeight:I
+
+    if-gtz v1, :cond_1
+
+    return-void
+
+    :cond_1
+    iget-object v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez v1, :cond_2
+
+    new-instance v1, Landroid/view/View;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+
+    const/4 v2, 0x2
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->setImportantForAccessibility(I)V
+
+    iput-object v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    :cond_2
+    iget-object v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez v1, :cond_3
+
+    return-void
+
+    :cond_3
+    const/4 v2, 0x0
+
+    :try_start_0
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v3
+
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v3
+
+    const/16 v4, 0x50
+
+    if-nez v3, :cond_6
+
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v3
+
+    instance-of v5, v3, Landroid/view/ViewGroup;
+
+    if-eqz v5, :cond_4
+
+    check-cast v3, Landroid/view/ViewGroup;
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    goto :goto_3
+
+    :cond_4
+    move-object v3, v2
+
+    :goto_0
+    if-eqz v3, :cond_5
+
+    invoke-virtual {v3, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+
+    :cond_5
+    new-instance v3, Landroid/widget/FrameLayout$LayoutParams;
+
+    iget v5, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayHeight:I
+
+    const/4 v6, -0x1
+
+    invoke-direct {v3, v6, v5, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
+
+    invoke-virtual {p1, v1, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    goto :goto_2
+
+    :cond_6
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object p1
+
+    instance-of v3, p1, Landroid/widget/FrameLayout$LayoutParams;
+
+    if-eqz v3, :cond_7
+
+    check-cast p1, Landroid/widget/FrameLayout$LayoutParams;
+
+    goto :goto_1
+
+    :cond_7
+    move-object p1, v2
+
+    :goto_1
+    if-eqz p1, :cond_8
+
+    iget v3, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayHeight:I
+
+    iput v3, p1, Landroid/widget/FrameLayout$LayoutParams;->height:I
+
+    iput v4, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
+
+    invoke-virtual {v1, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    :cond_8
+    :goto_2
+    invoke-virtual {v1, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    const/4 p1, 0x0
+
+    invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_4
+
+    :goto_3
+    sget-object v0, Lcom/huawei/appgallery/videokit/VideoKitLog;->LOG:Lcom/huawei/appgallery/videokit/VideoKitLog;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "addScreenCardOverlayToContent failed: "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v3, "WiseVideoView"
+
+    invoke-virtual {v0, v3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object p1
+
+    instance-of v0, p1, Landroid/view/ViewGroup;
+
+    if-eqz v0, :cond_9
+
+    move-object v2, p1
+
+    check-cast v2, Landroid/view/ViewGroup;
+
+    :cond_9
+    if-eqz v2, :cond_a
+
+    invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+
+    :cond_a
+    const/16 p1, 0x8
+
+    invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_4
+    return-void
+.end method
+
 .method private final addScreenCardViewToContent(Landroid/view/ViewGroup;)V
-    .registers 8
+    .registers 10
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardView:Landroid/view/View;
 
@@ -1020,24 +1210,27 @@
     :cond_0
     iget-boolean v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mIsPortraitVideo:Z
 
-    const/4 v2, 0x0
+    const/16 v2, 0x8
 
     const/4 v3, 0x0
 
-    if-nez v1, :cond_5
+    const/4 v4, 0x0
+
+    if-nez v1, :cond_a
 
     iget-boolean v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mIsLandscapeOnEnter:Z
 
     if-eqz v1, :cond_1
 
-    goto :goto_0
+    goto/16 :goto_4
 
     :cond_1
+    :try_start_0
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1047,43 +1240,84 @@
 
     move-result-object v1
 
-    instance-of v4, v1, Landroid/view/ViewGroup;
+    instance-of v5, v1, Landroid/view/ViewGroup;
 
-    if-eqz v4, :cond_2
+    if-eqz v5, :cond_2
 
-    move-object v2, v1
+    check-cast v1, Landroid/view/ViewGroup;
 
-    check-cast v2, Landroid/view/ViewGroup;
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    goto :goto_2
 
     :cond_2
-    if-eqz v2, :cond_3
+    move-object v1, v3
 
-    invoke-virtual {v2, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    :goto_0
+    if-eqz v1, :cond_3
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_3
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
-    const/4 v2, -0x2
+    const/4 v5, -0x2
 
-    const/16 v4, 0x50
+    const/16 v6, 0x50
 
-    const/4 v5, -0x1
+    const/4 v7, -0x1
 
-    invoke-direct {v1, v5, v2, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
+    invoke-direct {v1, v7, v5, v6}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
 
     invoke-virtual {p1, v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_4
-    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
-    iput-boolean v3, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardControlShown:Z
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->registerScreenCardLayoutListener(Landroid/view/View;)V
+    if-nez p1, :cond_5
 
-    return-void
+    goto :goto_1
 
     :cond_5
-    :goto_0
+    invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_1
+    iput-boolean v4, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardControlShown:Z
+
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->registerScreenCardLayoutListener(Landroid/view/View;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_3
+
+    :goto_2
+    sget-object v1, Lcom/huawei/appgallery/videokit/VideoKitLog;->LOG:Lcom/huawei/appgallery/videokit/VideoKitLog;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    const-string v6, "addScreenCardViewToContent failed: "
+
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v5, "WiseVideoView"
+
+    invoke-virtual {v1, v5, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object p1
@@ -1092,36 +1326,76 @@
 
     if-eqz v1, :cond_6
 
-    move-object v2, p1
+    move-object v3, p1
 
-    check-cast v2, Landroid/view/ViewGroup;
+    check-cast v3, Landroid/view/ViewGroup;
 
     :cond_6
-    if-eqz v2, :cond_7
+    if-eqz v3, :cond_7
 
-    invoke-virtual {v2, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    invoke-virtual {v3, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_7
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
 
     if-eqz p1, :cond_8
 
-    invoke-virtual {p1, v3}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
+    invoke-virtual {p1, v4}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
 
     :cond_8
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez p1, :cond_9
+
+    goto :goto_3
+
+    :cond_9
+    invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_3
+    return-void
+
+    :cond_a
+    :goto_4
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object p1
+
+    instance-of v1, p1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_b
+
+    move-object v3, p1
+
+    check-cast v3, Landroid/view/ViewGroup;
+
+    :cond_b
+    if-eqz v3, :cond_c
+
+    invoke-virtual {v3, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+
+    :cond_c
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
+
+    if-eqz p1, :cond_d
+
+    invoke-virtual {p1, v4}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
+
+    :cond_d
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez p1, :cond_e
+
+    goto :goto_5
+
+    :cond_e
+    invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_5
     return-void
 .end method
 
-.method public static synthetic b(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->registerScreenCardLayoutListener$lambda-5(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
-
-    return-void
-.end method
-
-.method public static synthetic c(Lcom/huawei/appgallery/videokit/api/WiseVideoView;II)V
+.method public static synthetic b(Lcom/huawei/appgallery/videokit/api/WiseVideoView;II)V
     .registers 3
 
     .line 1
@@ -1130,7 +1404,7 @@
     return-void
 .end method
 
-.method public static synthetic d(ILcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+.method public static synthetic c(ILcom/huawei/appgallery/videokit/api/WiseVideoView;)V
     .registers 2
 
     .line 1
@@ -1139,14 +1413,23 @@
     return-void
 .end method
 
+.method public static synthetic d(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->registerScreenCardLayoutListener$lambda-7(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+
+    return-void
+.end method
+
 .method private final doOnErrorEvent(II)V
     .registers 5
 
-    new-instance v0, Lcom/huawei/appmarket/ar8;
+    new-instance v0, Lcom/huawei/appmarket/gr8;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, p2, v1}, Lcom/huawei/appmarket/ar8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;III)V
+    invoke-direct {v0, p0, p1, p2, v1}, Lcom/huawei/appmarket/gr8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;III)V
 
     invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -1158,7 +1441,7 @@
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Lcom/huawei/appgallery/videokit/VideoKitLog;->LOG:Lcom/huawei/appgallery/videokit/VideoKitLog;
 
@@ -1178,7 +1461,7 @@
 
     const-string v2, "WiseVideoView"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->saveProgress()V
 
@@ -1243,7 +1526,7 @@
     :cond_2
     const-string v0, "state_changed"
 
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
@@ -1273,7 +1556,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/huawei/appgallery/videokit/impl/eventbus/StateInfoMessage;-><init>(Ljava/lang/String;IILjava/lang/String;I)V
 
-    invoke-virtual {v0, v7}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v7}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;->getInstance()Lcom/huawei/appgallery/videokit/impl/trigger/VideoStateTrigger;
 
@@ -1328,13 +1611,13 @@
 
     const-string v3, "enterFullScreen"
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mContext:Landroid/content/Context;
 
     const-string v2, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -1462,7 +1745,7 @@
     :goto_3
     const-string v7, "null cannot be cast to non-null type android.view.ViewGroup"
 
-    invoke-static {v5, v7}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v5, Landroid/view/ViewGroup;
 
@@ -1573,6 +1856,8 @@
 
     invoke-virtual {v2, v3, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
+    invoke-direct {p0, v2}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->addScreenCardOverlayToContent(Landroid/view/ViewGroup;)V
+
     invoke-direct {p0, v2}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->addScreenCardViewToContent(Landroid/view/ViewGroup;)V
 
     iput v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mCurrentViewState:I
@@ -1679,7 +1964,7 @@
 
     const-string v2, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -1738,7 +2023,7 @@
     :cond_6
     const-string v2, "null cannot be cast to non-null type android.view.ViewGroup"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Landroid/view/ViewGroup;
 
@@ -1787,7 +2072,7 @@
 
     const-string v2, "exitFullScreen false"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1810,13 +2095,13 @@
 
     const-string v2, "exitFullScreen"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mContext:Landroid/content/Context;
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -1894,6 +2179,8 @@
     :cond_6
     invoke-direct {p0, v2}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->removeScreenCardViewFromContent(Landroid/view/ViewGroup;)V
 
+    invoke-direct {p0, v2}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->removeScreenCardOverlayFromContent(Landroid/view/ViewGroup;)V
+
     iget-object v2, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mPlayerContainer:Lcom/huawei/appgallery/videokit/impl/util/DragFrameLayout;
 
     if-eqz v2, :cond_7
@@ -1916,7 +2203,11 @@
 
     if-eq v2, v1, :cond_9
 
-    if-nez v2, :cond_b
+    if-eqz v2, :cond_9
+
+    const/4 v3, 0x6
+
+    if-ne v2, v3, :cond_b
 
     :cond_9
     invoke-static {}, Lcom/huawei/appgallery/videokit/api/VideoEntireManager;->isLockActivityPortrait()Z
@@ -2014,7 +2305,7 @@
     :cond_3
     const-string v2, "null cannot be cast to non-null type android.view.ViewGroup"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Landroid/view/ViewGroup;
 
@@ -2055,7 +2346,7 @@
 
     const-string v2, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Landroid/app/Activity;
 
@@ -2076,7 +2367,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -2118,7 +2409,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -2138,7 +2429,7 @@
 
     const-string v2, "null cannot be cast to non-null type android.graphics.drawable.ColorDrawable"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Landroid/graphics/drawable/ColorDrawable;
 
@@ -2176,7 +2467,7 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.Float"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/lang/Float;
 
@@ -2427,7 +2718,7 @@
 
     new-instance v1, Landroid/widget/FrameLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-direct {v1, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
@@ -2547,7 +2838,7 @@
     :cond_8
     const-string v0, "null cannot be cast to non-null type android.view.ViewGroup"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Landroid/view/ViewGroup;
 
@@ -2779,7 +3070,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -2793,7 +3084,7 @@
 
     if-lt v1, v4, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/r58;->r(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/fq7;->z(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -3010,7 +3301,7 @@
 
     const-string v2, "mute play error"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -3119,7 +3410,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -3140,7 +3431,7 @@
 
     const-string v1, "null cannot be cast to non-null type androidx.activity.ComponentActivity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroidx/activity/ComponentActivity;
 
@@ -3152,7 +3443,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_1
     return-void
@@ -3179,9 +3470,9 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/cr8;
+    new-instance v0, Lcom/huawei/appmarket/ir8;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/cr8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/ir8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardLayoutListener:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
@@ -3199,12 +3490,12 @@
     return-void
 .end method
 
-.method private static final registerScreenCardLayoutListener$lambda-5(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
+.method private static final registerScreenCardLayoutListener$lambda-7(Lcom/huawei/appgallery/videokit/api/WiseVideoView;)V
     .registers 5
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardView:Landroid/view/View;
 
@@ -3376,6 +3667,32 @@
     return-void
 .end method
 
+.method private final removeScreenCardOverlayFromContent(Landroid/view/ViewGroup;)V
+    .registers 4
+
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+
+    :cond_1
+    return-void
+.end method
+
 .method private final removeScreenCardViewFromContent(Landroid/view/ViewGroup;)V
     .registers 4
 
@@ -3390,7 +3707,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3599,7 +3916,7 @@
     :cond_2
     const-string v1, "null cannot be cast to non-null type android.view.ViewGroup"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v2, Landroid/view/ViewGroup;
 
@@ -3614,7 +3931,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mPlayerContainer:Lcom/huawei/appgallery/videokit/impl/util/DragFrameLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/view/View;->requestLayout()V
 
@@ -3802,7 +4119,7 @@
 
     const-string v2, "error"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_1
@@ -3814,9 +4131,9 @@
 
     iput p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mCurrentPlayState:I
 
-    new-instance v0, Lcom/huawei/appmarket/br8;
+    new-instance v0, Lcom/huawei/appmarket/hr8;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/br8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;I)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/hr8;-><init>(Lcom/huawei/appgallery/videokit/api/WiseVideoView;I)V
 
     invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -3828,7 +4145,7 @@
 
     const-string v0, "this$0"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setPlayState(I)V
 
@@ -3879,7 +4196,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -3891,7 +4208,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -3900,7 +4217,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/zd5;
+    invoke-static {v0}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus;->with(Ljava/lang/String;)Lcom/huawei/appmarket/ce5;
 
     .line 31
     .line 32
@@ -3921,7 +4238,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 42
     .line 43
@@ -4059,7 +4376,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private final setBackGroundColor()V
@@ -4079,7 +4395,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -4103,7 +4419,7 @@
 
     const-string v2, "null cannot be cast to non-null type android.graphics.drawable.ColorDrawable"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Landroid/graphics/drawable/ColorDrawable;
 
@@ -4464,7 +4780,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->startInPlaybackState()V
 
@@ -4488,7 +4804,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
@@ -4591,7 +4907,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -4700,7 +5016,7 @@
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -4784,7 +5100,7 @@
 
     const-string v2, "unmute play error"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -4817,81 +5133,131 @@
     return-void
 .end method
 
-.method private final updateScreenCardVisibility(Z)V
+.method private final updateScreenCardVisibility(I)V
     .registers 7
 
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardView:Landroid/view/View;
+    const/16 v0, 0x5a
 
-    if-nez v0, :cond_0
+    const/4 v1, 0x0
 
-    return-void
+    if-eq p1, v0, :cond_1
 
-    :cond_0
-    iget v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mCurrentViewState:I
+    const/16 v0, 0x10e
 
-    const/16 v2, 0xb
-
-    const/16 v3, 0x8
-
-    const/4 v4, 0x0
-
-    if-eq v1, v2, :cond_2
-
-    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
-
-    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
-
-    if-eqz p1, :cond_1
-
-    invoke-virtual {p1, v4}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
-
-    :cond_1
-    return-void
-
-    :cond_2
-    iget-boolean v1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mIsPortraitVideo:Z
-
-    if-nez v1, :cond_4
-
-    if-eqz p1, :cond_3
+    if-ne p1, v0, :cond_0
 
     goto :goto_0
 
+    :cond_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    :goto_1
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardView:Landroid/view/View;
+
+    if-nez v0, :cond_2
+
+    return-void
+
+    :cond_2
+    iget v2, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mCurrentViewState:I
+
+    const/16 v3, 0xb
+
+    const/16 v4, 0x8
+
+    if-eq v2, v3, :cond_5
+
+    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez p1, :cond_3
+
+    goto :goto_2
+
     :cond_3
+    invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_2
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
+
+    if-eqz p1, :cond_4
+
+    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
+
+    :cond_4
+    return-void
+
+    :cond_5
+    iget-boolean v2, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mIsPortraitVideo:Z
+
+    if-nez v2, :cond_8
+
+    if-eqz p1, :cond_6
+
+    goto :goto_4
+
+    :cond_6
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->getContentView()Landroid/view/ViewGroup;
 
     move-result-object p1
 
-    if-eqz p1, :cond_5
+    if-eqz p1, :cond_a
 
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
-    if-eqz p1, :cond_5
+    if-eqz p1, :cond_a
 
-    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez p1, :cond_7
+
+    goto :goto_3
+
+    :cond_7
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_3
     invoke-direct {p0, v0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->registerScreenCardLayoutListener(Landroid/view/View;)V
 
-    goto :goto_1
+    goto :goto_6
 
-    :cond_4
-    :goto_0
-    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
+    :cond_8
+    :goto_4
+    invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayView:Landroid/view/View;
+
+    if-nez p1, :cond_9
+
+    goto :goto_5
+
+    :cond_9
+    invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_5
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
 
-    if-eqz p1, :cond_5
+    if-eqz p1, :cond_a
 
-    invoke-virtual {p1, v4}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;->setFullScreenControlBottomMargin(I)V
 
-    :cond_5
-    :goto_1
+    :cond_a
+    :goto_6
     return-void
 .end method
 
@@ -4957,7 +5323,7 @@
 
     const-string v1, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/app/Activity;
 
@@ -4967,7 +5333,7 @@
 
     if-lt v1, v2, :cond_4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/r58;->r(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/fq7;->z(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -4996,7 +5362,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -5082,7 +5448,7 @@
 
     const-string v0, "msg"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
@@ -5090,7 +5456,7 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.Float"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/lang/Float;
 
@@ -5123,7 +5489,7 @@
 
     mul-float v1, v1, p1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/u45;->a(F)I
+    invoke-static {v1}, Lcom/huawei/appmarket/x45;->a(F)I
 
     move-result p1
 
@@ -5138,7 +5504,7 @@
 
     const-string v0, "null cannot be cast to non-null type android.app.Activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroid/app/Activity;
 
@@ -5332,7 +5698,7 @@
 
     const-string p1, "event"
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->mController:Lcom/huawei/appgallery/videokit/impl/controller/BaseVideoController;
 
@@ -5348,17 +5714,17 @@
     return p1
 .end method
 
-.method public onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 4
 
     .line 1
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "event"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of p1, p1, Landroidx/activity/ComponentActivity;
 
@@ -5395,7 +5761,7 @@
 
     const-string p2, "wisVideoViewList.iterator()"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -5462,7 +5828,7 @@
 
     const-string v0, "baseInfo"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/videokit/api/VideoBaseInfo;->getMediaUrl()Ljava/lang/String;
 
@@ -5600,6 +5966,16 @@
     return-void
 .end method
 
+.method public final setScreenCardOverlay(Landroid/graphics/drawable/Drawable;I)V
+    .registers 3
+
+    iput-object p1, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayDrawable:Landroid/graphics/drawable/Drawable;
+
+    iput p2, p0, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->screenCardOverlayHeight:I
+
+    return-void
+.end method
+
 .method public final setScreenCardVideoInfo(ZZ)V
     .registers 3
 
@@ -5637,7 +6013,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView$setScreenCardView$1;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->setScreenOrientationListener$VideoKit_release(Lcom/huawei/appmarket/qs2;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appgallery/videokit/impl/WiseVideoCardController;->setScreenOrientationListener$VideoKit_release(Lcom/huawei/appmarket/ts2;)V
 
     :cond_1
     if-eqz p2, :cond_3

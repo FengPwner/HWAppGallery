@@ -12,108 +12,79 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)V
-    .registers 4
+.method public static final a(Lcom/huawei/appmarket/fr6;)V
+    .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    const-class v0, Lcom/huawei/appmarket/gn4;
 
     .line 2
     .line 3
+    invoke-static {v0}, Lcom/huawei/appmarket/kk4;->h(Ljava/lang/Class;)Lcom/huawei/appmarket/dn;
+
     .line 4
+    .line 5
+    .line 6
     move-result-object v0
 
-    .line 5
-    const-string v1, "JointReqKit"
-
-    .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    new-instance v1, Lcom/huawei/appmarket/fn4;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-direct {v1}, Lcom/huawei/appmarket/fn4;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    move-result-object v0
+    new-instance v2, Lcom/huawei/appmarket/na5;
 
     .line 13
-    const-string v1, "JointReqKitConfig"
-
     .line 14
+    const/4 v3, 0x1
+
     .line 15
-    if-nez v0, :cond_0
+    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/na5;-><init>(Lcom/huawei/appmarket/ma5;I)V
 
     .line 16
     .line 17
-    const-string p0, "JointReqKit module is null"
-
     .line 18
-    .line 19
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v1, "JointMessage"
 
+    .line 19
     .line 20
+    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/na5;->e(Lcom/huawei/appmarket/fr6;Ljava/lang/String;Lcom/huawei/appmarket/dn;)V
+
     .line 21
     .line 22
-    goto :goto_0
-
     .line 23
-    :cond_0
-    const-class v2, Lcom/huawei/appmarket/ln4;
-
+    return-void
     .line 24
     .line 25
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
-
     .line 26
     .line 27
     .line 28
-    move-result-object v0
-
     .line 29
-    check-cast v0, Lcom/huawei/appmarket/ln4;
-
     .line 30
     .line 31
-    if-nez v0, :cond_1
-
     .line 32
     .line 33
-    const-string p0, "JointReqKitModule is null"
-
     .line 34
     .line 35
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 36
     .line 37
     .line 38
-    goto :goto_0
-
     .line 39
-    :cond_1
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/ln4;->setDomainId(Ljava/lang/String;)V
-
     .line 40
     .line 41
     .line 42
-    :goto_0
-    const-class p0, Lcom/huawei/appgallery/jointreqkit/api/bean/WiseJointDetailResponse;
-
     .line 43
     .line 44
-    const-string v0, "client.gs.getTabDetail"
-
     .line 45
     .line 46
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
-
     .line 47
     .line 48
     .line 49
-    return-void
     .line 50
     .line 51
     .line 52
@@ -179,5 +150,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

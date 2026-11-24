@@ -237,11 +237,11 @@
 
     iput-object p1, p0, Lcom/huawei/hms/network/embedded/ua;->e:Ljava/lang/String;
 
-    new-instance p1, Lcom/huawei/appmarket/uh5;
+    new-instance p1, Lcom/huawei/appmarket/pr;
 
-    const/16 p2, 0xa
+    const/16 p2, 0xc
 
-    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     iput-object p1, p0, Lcom/huawei/hms/network/embedded/ua;->h:Ljava/lang/Runnable;
 
@@ -283,7 +283,7 @@
 .method private declared-synchronized a(Lcom/huawei/hms/network/embedded/eb;I)Z
     .registers 10
 
-    .line 22
+    .line 31
     monitor-enter p0
 
     :try_start_0
@@ -1083,26 +1083,16 @@
     :cond_1
     new-instance p2, Ljava/net/ProtocolException;
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    const-string v1, "Expected \'Sec-WebSocket-Accept\' header value \'"
 
-    const-string v3, "Expected \'Sec-WebSocket-Accept\' header value \'"
+    const-string v3, "\' but was \'"
 
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v0, "\' but was \'"
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 8
+    invoke-static {v1, v0, v3, p1, v2}, Lcom/huawei/appmarket/kk4;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
+    .line 9
     invoke-direct {p2, p1}, Ljava/net/ProtocolException;-><init>(Ljava/lang/String;)V
 
     throw p2
@@ -1112,12 +1102,12 @@
 
     const-string p2, "Expected \'Upgrade\' header value \'websocket\' but was \'"
 
-    .line 8
-    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .line 10
+    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 9
+    .line 11
     invoke-direct {p1, p2}, Ljava/net/ProtocolException;-><init>(Ljava/lang/String;)V
 
     throw p1
@@ -1127,12 +1117,12 @@
 
     const-string p2, "Expected \'Connection\' header value \'Upgrade\' but was \'"
 
-    .line 10
-    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .line 12
+    invoke-static {p2, v0, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 11
+    .line 13
     invoke-direct {p1, p2}, Ljava/net/ProtocolException;-><init>(Ljava/lang/String;)V
 
     throw p1
@@ -1180,7 +1170,7 @@
         .end annotation
     .end param
 
-    .line 17
+    .line 26
     monitor-enter p0
 
     :try_start_0
@@ -1277,7 +1267,7 @@
         }
     .end annotation
 
-    .line 18
+    .line 27
     iget-object v0, p0, Lcom/huawei/hms/network/embedded/ua;->b:Lcom/huawei/hms/network/embedded/a8;
 
     invoke-virtual {v0, p0, p1}, Lcom/huawei/hms/network/embedded/a8;->onMessage(Lcom/huawei/hms/network/embedded/z7;Ljava/lang/String;)V
@@ -1293,7 +1283,7 @@
         }
     .end annotation
 
-    .line 19
+    .line 28
     monitor-enter p0
 
     :try_start_0
@@ -1407,7 +1397,7 @@
 .method public a(ILjava/lang/String;)Z
     .registers 5
 
-    .line 20
+    .line 29
     const-wide/32 v0, 0xea60
 
     invoke-virtual {p0, p1, p2, v0, v1}, Lcom/huawei/hms/network/embedded/ua;->a(ILjava/lang/String;J)Z
@@ -1420,7 +1410,7 @@
 .method public declared-synchronized a(ILjava/lang/String;J)Z
     .registers 12
 
-    .line 21
+    .line 30
     const-string v0, "reason.size() > 123: "
 
     monitor-enter p0
@@ -2472,7 +2462,7 @@
 
     .line 54
     .line 55
-    invoke-static {v2, v1, v4}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v1, v4}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     .line 56
     .line 57

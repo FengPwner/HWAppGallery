@@ -6,11 +6,11 @@
 # instance fields
 .field private a:Landroid/content/Context;
 
-.field private b:Lcom/huawei/appmarket/dk5;
+.field private b:Lcom/huawei/appmarket/fk5;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/dk5;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/fk5;)V
     .registers 3
 
     .line 1
@@ -18,7 +18,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/s40;->a:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iput-object p2, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     return-void
 .end method
@@ -29,7 +29,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     const/4 v1, 0x0
 
@@ -46,29 +46,29 @@
 
     invoke-direct {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     invoke-virtual {v2, v1}, Landroidx/core/app/NotificationCompat$Builder;->m(Ljava/lang/CharSequence;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dk5;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk5;->a()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;->l(Ljava/lang/CharSequence;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dk5;->d()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk5;->d()Z
 
     move-result v0
 
     invoke-virtual {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;->f(Z)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -76,11 +76,11 @@
 
     invoke-virtual {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;->w(Z)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object v0
 
@@ -104,19 +104,19 @@
 
     move-result-object v4
 
-    invoke-interface {v0, v1, v3, v4}, Lcom/huawei/appmarket/d04;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-interface {v0, v1, v3, v4}, Lcom/huawei/appmarket/f04;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {v2, v0}, Landroidx/core/app/NotificationCompat$Builder;->A(I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v0, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/dk5;->b()Landroid/content/Intent;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/fk5;->b()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -124,19 +124,19 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/s40;->a:Landroid/content/Context;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v1, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/dk5;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/fk5;->c()I
 
     move-result v1
 
-    iget-object v3, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v3, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/dk5;->b()Landroid/content/Intent;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/fk5;->b()Landroid/content/Intent;
 
     move-result-object v3
 
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->a()I
 
     move-result v4
 
@@ -164,9 +164,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/dk5;
+    iget-object v1, p0, Lcom/huawei/appmarket/s40;->b:Lcom/huawei/appmarket/fk5;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/dk5;->c()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/fk5;->c()I
 
     move-result v1
 
@@ -174,7 +174,7 @@
 
     const-string v3, "BaseNotification"
 
-    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/yj5;->f(Landroid/content/Context;Ljava/lang/String;ILandroidx/core/app/NotificationCompat$Builder;)V
+    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/ak5;->f(Landroid/content/Context;Ljava/lang/String;ILandroidx/core/app/NotificationCompat$Builder;)V
 
     :cond_0
     return-void

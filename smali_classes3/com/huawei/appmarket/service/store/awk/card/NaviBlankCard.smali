@@ -95,7 +95,7 @@
     move-result v1
 
     .line 37
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     .line 38
     .line 39
@@ -112,7 +112,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/z84;->f(Landroid/content/Context;II)I
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/kk4;->f(Landroid/content/Context;II)I
 
     .line 47
     .line 48
@@ -169,7 +169,7 @@
 
     .line 73
     .line 74
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     .line 75
     .line 76
@@ -223,7 +223,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

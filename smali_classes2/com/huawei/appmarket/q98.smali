@@ -1,109 +1,105 @@
-.class public final synthetic Lcom/huawei/appmarket/q98;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/q98;
+.super Lcom/huawei/appmarket/j50;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ao5;
 
+# static fields
+.field private static final b:Ljava/lang/Object;
 
-# instance fields
-.field public final synthetic b:I
-
-.field public final synthetic c:Ljava/lang/String;
-
-.field public final synthetic d:Ljava/lang/Object;
-
-.field public final synthetic e:Ljava/lang/Object;
-
-.field public final synthetic f:Ljava/lang/Object;
+.field private static volatile c:Lcom/huawei/appmarket/q98;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;Lcom/huawei/appmarket/h54;Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;)V
-    .registers 6
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Ljava/lang/Object;
 
-    const/4 v0, 0x0
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput v0, p0, Lcom/huawei/appmarket/q98;->b:I
-
-    iput-object p1, p0, Lcom/huawei/appmarket/q98;->d:Ljava/lang/Object;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/q98;->e:Ljava/lang/Object;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/q98;->f:Ljava/lang/Object;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/q98;->c:Ljava/lang/String;
+    sput-object v0, Lcom/huawei/appmarket/q98;->b:Ljava/lang/Object;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/n28;Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;Ljava/lang/String;Lcom/huawei/appmarket/n28$f;)V
-    .registers 6
+.method private constructor <init>()V
+    .registers 4
 
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/j50;-><init>()V
 
-    const/4 v0, 0x1
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
-    iput v0, p0, Lcom/huawei/appmarket/q98;->b:I
+    move-result-object v0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/q98;->d:Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/q98;->e:Ljava/lang/Object;
+    move-result-object v0
 
-    iput-object p3, p0, Lcom/huawei/appmarket/q98;->c:Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/q98;->f:Ljava/lang/Object;
+    move-result-object v0
+
+    const-string v1, "UpdateFilterReason"
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 7
+.method public static q()Lcom/huawei/appmarket/q98;
+    .registers 2
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/q98;->c:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/q98;->c:Lcom/huawei/appmarket/q98;
 
-    iget p2, p0, Lcom/huawei/appmarket/q98;->b:I
+    if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/q98;->f:Ljava/lang/Object;
+    sget-object v0, Lcom/huawei/appmarket/q98;->b:Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/q98;->e:Ljava/lang/Object;
+    monitor-enter v0
 
-    iget-object v2, p0, Lcom/huawei/appmarket/q98;->d:Ljava/lang/Object;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/q98;->c:Lcom/huawei/appmarket/q98;
 
-    packed-switch p2, :pswitch_data_0
+    if-nez v1, :cond_0
 
-    check-cast v2, Lcom/huawei/appmarket/n28;
+    new-instance v1, Lcom/huawei/appmarket/q98;
 
-    check-cast v1, Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;
+    invoke-direct {v1}, Lcom/huawei/appmarket/q98;-><init>()V
 
-    check-cast v0, Lcom/huawei/appmarket/n28$f;
+    sput-object v1, Lcom/huawei/appmarket/q98;->c:Lcom/huawei/appmarket/q98;
 
-    invoke-static {v2, v1, p1, v0, p3}, Lcom/huawei/appmarket/n28;->a(Lcom/huawei/appmarket/n28;Lcom/huawei/uikit/hwadvancednumberpicker/widget/HwAdvancedNumberPicker;Ljava/lang/String;Lcom/huawei/appmarket/n28$f;I)V
+    goto :goto_0
 
-    return-void
+    :catchall_0
+    move-exception v1
 
-    :pswitch_0
-    check-cast v2, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;
+    goto :goto_1
 
-    check-cast v1, Lcom/huawei/appmarket/h54;
+    :cond_0
+    :goto_0
+    monitor-exit v0
 
-    check-cast v0, Landroidx/fragment/app/FragmentActivity;
+    goto :goto_2
 
-    invoke-static {v2, v1, v0, p1, p3}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;->G7(Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment;Lcom/huawei/appmarket/h54;Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;I)V
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    return-void
+    throw v1
 
-    nop
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/q98;->c:Lcom/huawei/appmarket/q98;
 
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
+    return-object v0
 .end method

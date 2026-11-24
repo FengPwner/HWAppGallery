@@ -640,7 +640,7 @@
     if-ne v2, v3, :cond_4
 
     .line 6
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -802,7 +802,7 @@
     const-string v5, "/"
 
     .line 13
-    invoke-static {v1, v5, v4}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v5, v4}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -2071,7 +2071,7 @@
     iget-object p1, p0, Lcom/huawei/hms/network/embedded/t2;->u:Ljava/util/List;
 
     .line 28
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -2528,7 +2528,7 @@
     const/4 v3, 0x1
 
     .line 1
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object v0
 

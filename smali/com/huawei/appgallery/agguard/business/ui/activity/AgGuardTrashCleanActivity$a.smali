@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardTrashCleanActivity$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardTrashCleanActivity$a;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardTrashCleanActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -81,7 +81,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {v1}, Lcom/huawei/appmarket/ci7;->g(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ii7;->g(I)V
 
     .line 26
     .line 27
@@ -94,7 +94,7 @@
     move-result-object p1
 
     .line 32
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->d()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->e()V
 
     .line 33
     .line 34
@@ -102,7 +102,7 @@
     const/4 p1, 0x2
 
     .line 36
-    invoke-static {p1}, Lcom/huawei/appmarket/fi7;->c(I)V
+    invoke-static {p1}, Lcom/huawei/appmarket/li7;->c(I)V
 
     .line 37
     .line 38
@@ -120,7 +120,7 @@
 
     .line 45
     .line 46
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/fi7;->d(JLjava/util/TimerTask;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/li7;->d(JLjava/util/TimerTask;)V
 
     .line 47
     .line 48
@@ -142,7 +142,7 @@
 
     .line 57
     :cond_0
-    const v0, 0x7f0a171c
+    const v0, 0x7f0a171d
 
     .line 58
     .line 59
@@ -160,7 +160,7 @@
 
     .line 66
     .line 67
-    invoke-static {}, Lcom/huawei/appmarket/ec;->a()Lcom/huawei/appmarket/pg3;
+    invoke-static {}, Lcom/huawei/appmarket/ec;->a()Lcom/huawei/appmarket/rg3;
 
     .line 68
     .line 69
@@ -168,7 +168,7 @@
     move-result-object v0
 
     .line 71
-    invoke-interface {v0}, Lcom/huawei/appmarket/pg3;->d()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/rg3;->d()V
 
     .line 72
     .line 73
@@ -190,7 +190,7 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 84
     .line 85
@@ -221,7 +221,7 @@
     .line 97
     .line 98
     .line 99
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/fi7;->b(ILandroid/content/Context;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/li7;->b(ILandroid/content/Context;)V
 
     .line 100
     .line 101

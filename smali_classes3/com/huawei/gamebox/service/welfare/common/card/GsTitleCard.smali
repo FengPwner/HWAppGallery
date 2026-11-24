@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -71,7 +71,7 @@
 
     const/4 v0, 0x2
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     goto :goto_0
 
@@ -90,15 +90,15 @@
     return-void
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/w23;
+    new-instance v0, Lcom/huawei/appmarket/z23;
 
     const/4 v1, 0x6
 
-    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/w23;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/z23;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->w:Landroid/widget/TextView;
 
@@ -143,7 +143,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     :cond_0
     const v0, 0x7f0a0b36

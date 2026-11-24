@@ -1,5 +1,5 @@
 .class public final Landroidx/lifecycle/o$c$a;
-.super Lcom/huawei/appmarket/g02;
+.super Lcom/huawei/appmarket/k02;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Landroidx/lifecycle/o$c$a;->this$0:Landroidx/lifecycle/o;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/g02;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/k02;-><init>()V
 
     return-void
 .end method
@@ -36,7 +36,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Landroidx/lifecycle/o$c$a;->this$0:Landroidx/lifecycle/o;
 
@@ -50,7 +50,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Landroidx/lifecycle/o$c$a;->this$0:Landroidx/lifecycle/o;
 

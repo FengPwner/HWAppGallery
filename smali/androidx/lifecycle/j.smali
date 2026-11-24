@@ -3,9 +3,9 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/cu4;
+.implements Lcom/huawei/appmarket/fu4;
 
 
 # virtual methods
-.method public abstract onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public abstract onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
 .end method

@@ -93,7 +93,7 @@
     .line 27
     .line 28
     .line 29
-    sget-object p1, Lcom/huawei/appmarket/qp1;->a:Lcom/huawei/appmarket/np1;
+    sget-object p1, Lcom/huawei/appmarket/tp1;->a:Lcom/huawei/appmarket/qp1;
 
     .line 30
     .line 31
@@ -114,7 +114,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/np1;->a(Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/qp1;->a(Lcom/huawei/appmarket/np1;)V
 
     .line 41
     .line 42
@@ -194,5 +194,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

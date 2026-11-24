@@ -195,7 +195,7 @@
 
     .line 36
     :cond_0
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 37
     .line 38

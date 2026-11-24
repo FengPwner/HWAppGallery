@@ -4,8 +4,6 @@
 
 
 # instance fields
-.field private G1:I
-
 .field private i1:Landroid/widget/LinearLayout;
 
 .field private j1:I
@@ -15,6 +13,8 @@
 .field private l1:I
 
 .field private m1:I
+
+.field private n1:I
 
 
 # direct methods
@@ -36,7 +36,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->l1:I
 
-    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->G1:I
+    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->n1:I
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 
     iput p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->l1:I
 
-    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->G1:I
+    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->n1:I
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 .method public getHeadBottomHeight()I
     .registers 3
 
-    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->G1:I
+    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->n1:I
 
     invoke-static {}, Lcom/huawei/appmarket/e80;->l()I
 
@@ -107,7 +107,7 @@
 
     iput p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->m1:I
 
-    invoke-static {}, Lcom/huawei/appmarket/zl0;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/am0;->a()Z
 
     move-result p2
 
@@ -125,7 +125,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     move-result p2
 
@@ -145,7 +145,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->n(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->n(Landroid/content/Context;)I
 
     move-result p2
 
@@ -213,7 +213,7 @@
 .method public setHeadBottomHeight(I)V
     .registers 2
 
-    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->G1:I
+    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/NestedViewPager;->n1:I
 
     return-void
 .end method

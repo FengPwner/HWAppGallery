@@ -140,7 +140,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "validate key failed, try to remove the key entry for alias:"
+    const-string/jumbo v2, "validate key failed, try to remove the key entry for alias:"
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -581,7 +581,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -846,6 +846,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected validateCrypto(Lcom/huawei/wisesecurity/kfs/crypto/cipher/KfsCipher;)V
@@ -897,7 +917,7 @@
     :cond_0
     new-instance p1, Lcom/huawei/wisesecurity/kfs/exception/KfsKeyStoreException;
 
-    const-string v0, "validate crypto key get bad result"
+    const-string/jumbo v0, "validate crypto key get bad result"
 
     invoke-direct {p1, v0}, Lcom/huawei/wisesecurity/kfs/exception/KfsKeyStoreException;-><init>(Ljava/lang/String;)V
 
@@ -965,7 +985,7 @@
     :cond_0
     new-instance p1, Lcom/huawei/wisesecurity/kfs/exception/KfsKeyStoreException;
 
-    const-string v0, "validate sign key get bad result"
+    const-string/jumbo v0, "validate sign key get bad result"
 
     invoke-direct {p1, v0}, Lcom/huawei/wisesecurity/kfs/exception/KfsKeyStoreException;-><init>(Ljava/lang/String;)V
 

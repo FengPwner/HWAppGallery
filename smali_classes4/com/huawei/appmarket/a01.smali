@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final delegate:Lcom/huawei/appmarket/di6;
+.field private final delegate:Lcom/huawei/appmarket/fi6;
 
 
 # direct methods
@@ -29,11 +29,11 @@
     .line 2
     const-string v0, "timeUnit"
 
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/huawei/appmarket/di6;
+    new-instance v0, Lcom/huawei/appmarket/fi6;
 
-    sget-object v2, Lcom/huawei/appmarket/ew7;->i:Lcom/huawei/appmarket/ew7;
+    sget-object v2, Lcom/huawei/appmarket/kw7;->i:Lcom/huawei/appmarket/kw7;
 
     move-object v1, v0
 
@@ -43,35 +43,35 @@
 
     move-object v6, p4
 
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/di6;-><init>(Lcom/huawei/appmarket/ew7;IJLjava/util/concurrent/TimeUnit;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/fi6;-><init>(Lcom/huawei/appmarket/kw7;IJLjava/util/concurrent/TimeUnit;)V
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/a01;-><init>(Lcom/huawei/appmarket/di6;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/a01;-><init>(Lcom/huawei/appmarket/fi6;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/di6;)V
+.method public constructor <init>(Lcom/huawei/appmarket/fi6;)V
     .registers 3
 
     .line 3
     const-string v0, "delegate"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/a01;->delegate:Lcom/huawei/appmarket/di6;
+    iput-object p1, p0, Lcom/huawei/appmarket/a01;->delegate:Lcom/huawei/appmarket/fi6;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/di6;
+.method public final a()Lcom/huawei/appmarket/fi6;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a01;->delegate:Lcom/huawei/appmarket/di6;
+    iget-object v0, p0, Lcom/huawei/appmarket/a01;->delegate:Lcom/huawei/appmarket/fi6;
 
     return-object v0
 .end method

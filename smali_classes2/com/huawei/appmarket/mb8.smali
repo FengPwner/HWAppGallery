@@ -2,15 +2,6 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/m54;
-
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/m54;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -21,40 +12,11 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/sm4;)V
+.method private static a()Ljava/lang/Object;
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appgallery/upgraderecommendation/impl/UpgradeRecommendManger;->setJobEndCallBack(Lcom/huawei/appmarket/sm4;)V
-
-    return-void
-.end method
-
-.method public final b(III)V
-    .registers 4
-
-    .line 1
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ke8;->a(III)V
-
-    return-void
-.end method
-
-.method public final c()V
-    .registers 1
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bk6;->f()V
-
-    return-void
-.end method
-
-.method public final d()Ljava/lang/String;
-    .registers 8
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -62,202 +24,132 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+    const-string v1, "UpdateManager"
 
     .line 6
     .line 7
-    .line 8
-    move-result-object v0
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
+    .line 8
     .line 9
-    const-string v1, "UpgradeRecommendation"
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
-    const/4 v2, 0x0
-
     .line 12
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    move-result-object v0
 
     .line 13
+    if-eqz v0, :cond_0
+
     .line 14
     .line 15
-    move-result-object v0
+    const-class v1, Lcom/huawei/appmarket/h54;
 
     .line 16
-    const-string v1, "beforeUpgradeVersion"
-
     .line 17
-    .line 18
-    const-string v2, ""
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
+    .line 18
     .line 19
     .line 20
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 21
-    .line 22
-    .line 23
     move-result-object v0
 
+    .line 21
+    return-object v0
+
+    .line 22
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    .line 23
     .line 24
-    sget-object v1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    const-string v1, "please register the UpdateManager module"
 
     .line 25
     .line 26
-    new-instance v3, Ljava/lang/StringBuilder;
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
-    const-string v4, " readVersion [ "
-
     .line 29
+    throw v0
     .line 30
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 34
     .line 35
     .line 36
-    const-string v4, " ]"
-
     .line 37
     .line 38
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 42
     .line 43
     .line 44
-    move-result-object v3
-
     .line 45
-    const-string v4, "UpgradeRecommendUtil"
-
     .line 46
     .line 47
-    invoke-virtual {v1, v4, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 48
     .line 49
     .line 50
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 51
     .line 52
     .line 53
-    move-result v3
-
     .line 54
-    if-eqz v3, :cond_0
-
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/ke8;->c()Ljava/lang/String;
-
     .line 57
     .line 58
     .line 59
-    move-result-object v3
-
     .line 60
-    invoke-static {v3}, Lcom/huawei/appmarket/ke8;->f(Ljava/lang/String;)V
-
     .line 61
     .line 62
     .line 63
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ke8;->c()Ljava/lang/String;
-
     .line 64
     .line 65
     .line 66
-    move-result-object v3
-
     .line 67
-    new-instance v5, Ljava/lang/StringBuilder;
-
     .line 68
     .line 69
-    const-string v6, "BeforeUpgradeVersion oldVersion [ "
-
     .line 70
     .line 71
-    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 72
     .line 73
     .line 74
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 75
     .line 76
     .line 77
-    const-string v6, " ]  newVersion [ "
-
     .line 78
     .line 79
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 80
     .line 81
     .line 82
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 83
     .line 84
     .line 85
-    const-string v6, " ] "
-
     .line 86
     .line 87
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 88
     .line 89
     .line 90
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 91
     .line 92
     .line 93
-    move-result-object v5
-
     .line 94
-    invoke-virtual {v1, v4, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 95
     .line 96
     .line 97
-    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 98
     .line 99
     .line 100
-    move-result v1
-
     .line 101
-    if-eqz v1, :cond_1
-
     .line 102
     .line 103
-    goto :goto_0
-
     .line 104
-    :cond_1
-    move-object v2, v0
-
     .line 105
-    :goto_0
-    return-object v2
     .line 106
     .line 107
     .line 108
@@ -290,4 +182,158 @@
     .line 135
     .line 136
     .line 137
+.end method
+
+.method public static b(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+    .registers 3
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/mb8;->a()Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Lcom/huawei/appmarket/h54;
+
+    .line 6
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    invoke-interface {v0, v1, p0, v1}, Lcom/huawei/appmarket/h54;->f(ILjava/lang/String;Z)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    if-eqz v0, :cond_0
+
+    .line 13
+    .line 14
+    return-object v0
+
+    .line 15
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/mb8;->a()Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Lcom/huawei/appmarket/h54;
+
+    .line 20
+    .line 21
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/h54;->y(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    if-eqz v0, :cond_1
+
+    .line 26
+    .line 27
+    return-object v0
+
+    .line 28
+    :cond_1
+    invoke-static {}, Lcom/huawei/appmarket/mb8;->a()Ljava/lang/Object;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v0
+
+    .line 32
+    check-cast v0, Lcom/huawei/appmarket/h54;
+
+    .line 33
+    .line 34
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/h54;->I(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p0
+
+    .line 38
+    return-object p0
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
 .end method

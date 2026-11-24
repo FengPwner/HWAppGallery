@@ -1704,7 +1704,7 @@
     int-to-long v6, p1
 
     .line 117
-    invoke-static {v5, p2, v6, v7}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {v5, p2, v6, v7}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     .line 118
     .line 119

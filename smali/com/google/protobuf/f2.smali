@@ -306,11 +306,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/at8;->b:Lcom/huawei/appmarket/at8;
+    sget-object v0, Lcom/huawei/appmarket/gt8;->b:Lcom/huawei/appmarket/gt8;
 
     .line 5
     .line 6
-    sget-object v1, Lcom/huawei/appmarket/at8;->c:Lcom/huawei/appmarket/at8;
+    sget-object v1, Lcom/huawei/appmarket/gt8;->c:Lcom/huawei/appmarket/gt8;
 
     .line 7
     .line 8
@@ -754,7 +754,7 @@
     return-object v0
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
 
     .line 1
@@ -839,11 +839,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/at8;->b:Lcom/huawei/appmarket/at8;
+    sget-object v0, Lcom/huawei/appmarket/gt8;->b:Lcom/huawei/appmarket/gt8;
 
     .line 5
     .line 6
-    sget-object v1, Lcom/huawei/appmarket/at8;->c:Lcom/huawei/appmarket/at8;
+    sget-object v1, Lcom/huawei/appmarket/gt8;->c:Lcom/huawei/appmarket/gt8;
 
     .line 7
     .line 8
@@ -1453,6 +1453,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toBuilder()Lcom/google/protobuf/b1$a;
@@ -1600,6 +1601,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toByteArray()[B
@@ -1786,6 +1788,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toByteString()Lcom/google/protobuf/h;
@@ -1963,6 +1966,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -2116,6 +2120,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final writeTo(Lcom/google/protobuf/CodedOutputStream;)V

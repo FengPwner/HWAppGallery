@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -47,13 +47,13 @@
 
     iget p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/e;->b:I
 
-    invoke-static {p1, p2}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/qk8;
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/wk8;
 
     move-result-object p3
 
     iget v0, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/e;->c:I
 
-    iput v0, p3, Lcom/huawei/appmarket/qk8;->g:I
+    iput v0, p3, Lcom/huawei/appmarket/wk8;->g:I
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/e;->d:Landroid/widget/NumberPicker;
 
@@ -61,7 +61,7 @@
 
     move-result v0
 
-    iput v0, p3, Lcom/huawei/appmarket/qk8;->h:I
+    iput v0, p3, Lcom/huawei/appmarket/wk8;->h:I
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$h;->notifyItemChanged(I)V
 

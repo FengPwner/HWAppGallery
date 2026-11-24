@@ -54,7 +54,7 @@
 
     const-string v2, "CloudGameDynamicLoader"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -70,21 +70,21 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/qz6;
+    new-instance v1, Lcom/huawei/appmarket/uz6;
 
     iget-object v2, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/a;->c:Landroid/content/Context;
 
-    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/qz6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v0}, Lcom/huawei/appmarket/uz6;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     new-instance v2, Lcom/huawei/appgallery/cloudgame/gamedist/manager/a$a;
 
     invoke-direct {v2, p0, v0}, Lcom/huawei/appgallery/cloudgame/gamedist/manager/a$a;-><init>(Lcom/huawei/appgallery/cloudgame/gamedist/manager/a;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qz6;->j(Lcom/huawei/appmarket/pz6;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/uz6;->j(Lcom/huawei/appmarket/tz6;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/a;->e:Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/qz6;->l(Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/uz6;->l(Lcom/huawei/cloudgame/agentsdk/CloudGameInfo;)V
 
     return-void
 .end method

@@ -91,7 +91,7 @@
 
 .field private u:Landroid/content/Intent;
 
-.field private v:Lcom/huawei/appmarket/wq3;
+.field private v:Lcom/huawei/appmarket/yq3;
 
 
 # direct methods
@@ -399,11 +399,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->u:Landroid/content/Intent;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->n(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;)Lcom/huawei/appmarket/wq3;
+    invoke-static {p1}, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->n(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;)Lcom/huawei/appmarket/yq3;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/wq3;
+    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/yq3;
 
     return-void
 .end method
@@ -506,11 +506,11 @@
     return v0
 .end method
 
-.method public final l()Lcom/huawei/appmarket/wq3;
+.method public final l()Lcom/huawei/appmarket/yq3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/wq3;
+    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/yq3;
 
     return-object v0
 .end method
@@ -739,7 +739,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/wq3;
+    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean;->v:Lcom/huawei/appmarket/yq3;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

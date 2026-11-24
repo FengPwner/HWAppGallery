@@ -66,9 +66,9 @@
     .registers 6
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ev2;
+    new-instance v0, Lcom/huawei/appmarket/hv2;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ev2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hv2;-><init>()V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -76,11 +76,11 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/ev2;->f(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/hv2;->f(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ev2;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hv2;->e(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v0, p3}, Lcom/huawei/appmarket/ev2;->d(Z)V
+    invoke-virtual {v0, p3}, Lcom/huawei/appmarket/hv2;->d(Z)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/gamedetailaboutcard/GameDetailAboutCard;->y:Ljava/util/ArrayList;
 
@@ -330,7 +330,7 @@
     move-result-wide v4
 
     .line 106
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/pe8;->c(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/ue8;->c(J)Ljava/lang/String;
 
     .line 107
     .line 108
@@ -419,7 +419,7 @@
     move-result-object v2
 
     .line 152
-    invoke-static {v0}, Lcom/huawei/appmarket/gs5;->b(Lcom/huawei/appgallery/detail/detailbase/card/gamedetailaboutcard/GameDetailAboutBean$AppInfo;)Ljava/lang/CharSequence;
+    invoke-static {v0}, Lcom/huawei/appmarket/is5;->b(Lcom/huawei/appgallery/detail/detailbase/card/gamedetailaboutcard/GameDetailAboutBean$AppInfo;)Ljava/lang/CharSequence;
 
     .line 153
     .line 154
@@ -652,7 +652,7 @@
 
     iput-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/card/gamedetailaboutcard/GameDetailAboutCard;->z:Landroid/view/View;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     const v2, 0x7f0a0b3a
 
@@ -733,9 +733,9 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/gamedetailaboutcard/GameDetailAboutCard;->B:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 

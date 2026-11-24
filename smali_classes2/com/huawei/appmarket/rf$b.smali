@@ -27,19 +27,17 @@
 
 .field public static final enum c:Lcom/huawei/appmarket/rf$b;
 
-.field public static final enum d:Lcom/huawei/appmarket/rf$b;
-
-.field private static final synthetic e:[Lcom/huawei/appmarket/rf$b;
+.field private static final synthetic d:[Lcom/huawei/appmarket/rf$b;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 7
+    .registers 5
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/rf$b;
 
-    const-string v1, "PENDING"
+    const-string v1, "CONCURRENT"
 
     const/4 v2, 0x0
 
@@ -49,7 +47,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/rf$b;
 
-    const-string v3, "RUNNING"
+    const-string v3, "SERIAL"
 
     const/4 v4, 0x1
 
@@ -57,27 +55,15 @@
 
     sput-object v1, Lcom/huawei/appmarket/rf$b;->c:Lcom/huawei/appmarket/rf$b;
 
-    new-instance v3, Lcom/huawei/appmarket/rf$b;
+    const/4 v3, 0x2
 
-    const-string v5, "FINISHED"
+    new-array v3, v3, [Lcom/huawei/appmarket/rf$b;
 
-    const/4 v6, 0x2
+    aput-object v0, v3, v2
 
-    invoke-direct {v3, v5, v6}, Lcom/huawei/appmarket/rf$b;-><init>(Ljava/lang/String;I)V
+    aput-object v1, v3, v4
 
-    sput-object v3, Lcom/huawei/appmarket/rf$b;->d:Lcom/huawei/appmarket/rf$b;
-
-    const/4 v5, 0x3
-
-    new-array v5, v5, [Lcom/huawei/appmarket/rf$b;
-
-    aput-object v0, v5, v2
-
-    aput-object v1, v5, v4
-
-    aput-object v3, v5, v6
-
-    sput-object v5, Lcom/huawei/appmarket/rf$b;->e:[Lcom/huawei/appmarket/rf$b;
+    sput-object v3, Lcom/huawei/appmarket/rf$b;->d:[Lcom/huawei/appmarket/rf$b;
 
     return-void
 .end method
@@ -115,7 +101,7 @@
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/rf$b;->e:[Lcom/huawei/appmarket/rf$b;
+    sget-object v0, Lcom/huawei/appmarket/rf$b;->d:[Lcom/huawei/appmarket/rf$b;
 
     invoke-virtual {v0}, [Lcom/huawei/appmarket/rf$b;->clone()Ljava/lang/Object;
 

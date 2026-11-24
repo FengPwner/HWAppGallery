@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ou3;
+.implements Lcom/huawei/appmarket/qu3;
 
 
 # annotations
@@ -16,7 +16,7 @@
 
 # instance fields
 .field private displayInfoFlag:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -207,7 +207,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/essentialapp/base/api/EssentialAppDataBean;->topApps_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -215,7 +215,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/essentialapp/base/api/EssentialAppDataBean;->latelyUsedApps_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -241,7 +241,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/b00;->i(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/kd0;->h(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -460,7 +460,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/essentialapp/base/api/EssentialAppDataBean;->latelyUsedApps_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -476,7 +476,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/essentialapp/base/api/EssentialAppDataBean;->topApps_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

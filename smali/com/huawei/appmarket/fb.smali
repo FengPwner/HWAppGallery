@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/ld7;
+.field private static a:Lcom/huawei/appmarket/qd7;
 
 
 # direct methods
@@ -12,13 +12,13 @@
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ld7;
+    new-instance v0, Lcom/huawei/appmarket/qd7;
 
     const-string v1, "AgGuard"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/ld7;
+    sput-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/qd7;
 
     return-void
 .end method
@@ -35,7 +35,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/qd7;
 
     .line 2
     .line 3
@@ -231,13 +231,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static b(I)V
     .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_unknown_app_collected_num"
 
@@ -250,7 +251,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appmarket/fb;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "key_last_unknown_app_collect_time"
 

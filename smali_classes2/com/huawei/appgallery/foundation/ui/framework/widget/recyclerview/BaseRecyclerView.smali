@@ -12,29 +12,29 @@
 
 
 # instance fields
-.field private L1:Ljava/util/ArrayList;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private M1:Ljava/util/ArrayList;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
-            ">;"
-        }
-    .end annotation
-.end field
-
 .field private N1:Landroidx/recyclerview/widget/RecyclerView$h;
 
 .field private O1:I
+
+.field private x1:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/huawei/appmarket/nl2;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private y1:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/huawei/appmarket/nl2;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
@@ -47,13 +47,13 @@
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 1
     new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/a;
@@ -74,13 +74,13 @@
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 2
     new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/a;
@@ -101,13 +101,13 @@
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 3
     new-instance p1, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/a;
@@ -228,7 +228,7 @@
 
     .line 39
     .line 40
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -299,7 +299,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private notifyDataSetChanged()V
@@ -341,7 +340,7 @@
 
     const-string v1, "BaseRecyclerView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -399,20 +398,20 @@
     .line 18
     .line 19
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/ll2;
+    new-instance v0, Lcom/huawei/appmarket/nl2;
 
     .line 20
     .line 21
-    invoke-direct {v0}, Lcom/huawei/appmarket/ll2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nl2;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, v0, Lcom/huawei/appmarket/ll2;->a:Landroid/view/View;
+    iput-object p1, v0, Lcom/huawei/appmarket/nl2;->a:Landroid/view/View;
 
     .line 25
     .line 26
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     .line 27
     .line 28
@@ -428,7 +427,7 @@
 
     .line 33
     .line 34
-    iput v1, v0, Lcom/huawei/appmarket/ll2;->b:I
+    iput v1, v0, Lcom/huawei/appmarket/nl2;->b:I
 
     .line 35
     .line 36
@@ -453,11 +452,11 @@
 
     .line 46
     .line 47
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 48
     .line 49
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     .line 50
     .line 51
@@ -531,7 +530,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final O(Landroid/view/View;)V
@@ -575,20 +573,20 @@
     .line 18
     .line 19
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/ll2;
+    new-instance v0, Lcom/huawei/appmarket/nl2;
 
     .line 20
     .line 21
-    invoke-direct {v0}, Lcom/huawei/appmarket/ll2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nl2;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, v0, Lcom/huawei/appmarket/ll2;->a:Landroid/view/View;
+    iput-object p1, v0, Lcom/huawei/appmarket/nl2;->a:Landroid/view/View;
 
     .line 25
     .line 26
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 27
     .line 28
@@ -604,7 +602,7 @@
 
     .line 33
     .line 34
-    iput v1, v0, Lcom/huawei/appmarket/ll2;->b:I
+    iput v1, v0, Lcom/huawei/appmarket/nl2;->b:I
 
     .line 35
     .line 36
@@ -629,11 +627,11 @@
 
     .line 46
     .line 47
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     .line 48
     .line 49
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     .line 50
     .line 51
@@ -707,7 +705,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public P(Landroidx/recyclerview/widget/RecyclerView$h;Ljava/util/ArrayList;Ljava/util/ArrayList;)Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/b;
@@ -717,10 +714,10 @@
             "(",
             "Landroidx/recyclerview/widget/RecyclerView$h;",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
+            "Lcom/huawei/appmarket/nl2;",
             ">;",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
+            "Lcom/huawei/appmarket/nl2;",
             ">;)",
             "Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/b;"
         }
@@ -738,7 +735,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -753,7 +750,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -768,7 +765,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -812,11 +809,11 @@
     move-result-object v3
 
     .line 21
-    check-cast v3, Lcom/huawei/appmarket/ll2;
+    check-cast v3, Lcom/huawei/appmarket/nl2;
 
     .line 22
     .line 23
-    iget-object v3, v3, Lcom/huawei/appmarket/ll2;->a:Landroid/view/View;
+    iget-object v3, v3, Lcom/huawei/appmarket/nl2;->a:Landroid/view/View;
 
     .line 24
     .line 25
@@ -932,13 +929,12 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public getFooterCount()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -950,7 +946,7 @@
 .method public getHeaderCount()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -1009,7 +1005,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -1154,9 +1150,9 @@
 
     :cond_1
     :goto_1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->M1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->y1:Ljava/util/ArrayList;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->L1:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->x1:Ljava/util/ArrayList;
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/BaseRecyclerView;->P(Landroidx/recyclerview/widget/RecyclerView$h;Ljava/util/ArrayList;Ljava/util/ArrayList;)Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/b;
 

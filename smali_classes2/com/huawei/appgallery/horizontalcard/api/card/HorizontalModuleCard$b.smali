@@ -83,13 +83,13 @@
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/qp1;->a:Lcom/huawei/appmarket/np1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->a:Lcom/huawei/appmarket/qp1;
 
     new-instance v1, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard$b$a;
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard$b$a;-><init>(Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard$b;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/np1;->a(Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qp1;->a(Lcom/huawei/appmarket/np1;)V
 
     return-void
 .end method

@@ -201,7 +201,7 @@
     const-string v10, ",end:"
 
     .line 4
-    invoke-static {v7, v1, v2, v10}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v7, v1, v2, v10}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v7
 
@@ -231,7 +231,7 @@
     if-ltz v10, :cond_0
 
     .line 6
-    invoke-static {v12, v1, v2, v7}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v12, v1, v2, v7}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v10
 
@@ -490,9 +490,9 @@
 
     move-result-object v3
 
-    new-instance v4, Lcom/huawei/appmarket/fv8;
+    new-instance v4, Lcom/huawei/appmarket/lv8;
 
-    invoke-direct {v4, v0, v9, v1}, Lcom/huawei/appmarket/fv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v4, v0, v9, v1}, Lcom/huawei/appmarket/lv8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-interface {v3, v4}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
 
@@ -644,7 +644,7 @@
     const-string v1, ", hostStr="
 
     .line 17
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -653,7 +653,7 @@
     const-string v2, "]"
 
     .line 18
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -695,7 +695,7 @@
     const-string v1, " package= "
 
     .line 20
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -739,7 +739,7 @@
     const-string p3, "httpErrorcode:"
 
     .line 22
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p3
 
@@ -762,7 +762,7 @@
     const-string p1, " download failed,response null, hostStr="
 
     .line 24
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -816,7 +816,7 @@
     const-string v5, "readStream use targeFtSize as buffer size:"
 
     .line 42
-    invoke-static {v5, v9, v10}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v5, v9, v10}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v5
 
@@ -876,7 +876,7 @@
     const-string v8, " byte/s,readLength:"
 
     .line 44
-    invoke-static {v7, v6, v8, v5}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v7, v6, v8, v5}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     move-result-object v6
 
@@ -1531,7 +1531,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1610,7 +1610,7 @@
     const-string v3, "="
 
     .line 3
-    invoke-static {v0, p2, v3, v1, v2}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2, v3, v1, v2}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 

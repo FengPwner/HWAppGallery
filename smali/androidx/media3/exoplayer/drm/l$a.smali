@@ -27,18 +27,18 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/hz;->z(Landroid/media/MediaDrm;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/iz;->z(Landroid/media/MediaDrm;Ljava/lang/String;)Z
 
     move-result p0
 
     return p0
 .end method
 
-.method public static b(Landroid/media/MediaDrm;[BLcom/huawei/appmarket/t16;)V
+.method public static b(Landroid/media/MediaDrm;[BLcom/huawei/appmarket/v16;)V
     .registers 4
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/t16;->a()Landroid/media/metrics/LogSessionId;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/v16;->a()Landroid/media/metrics/LogSessionId;
 
     .line 2
     .line 3
@@ -46,7 +46,7 @@
     move-result-object p2
 
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/hz;->i()Landroid/media/metrics/LogSessionId;
+    invoke-static {}, Lcom/huawei/appmarket/iz;->i()Landroid/media/metrics/LogSessionId;
 
     .line 6
     .line 7
@@ -54,7 +54,7 @@
     move-result-object v0
 
     .line 9
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/hz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/iz;->A(Landroid/media/metrics/LogSessionId;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -66,7 +66,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/hz;->g(Landroid/media/MediaDrm;[B)Landroid/media/MediaDrm$PlaybackComponent;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/iz;->g(Landroid/media/MediaDrm;[B)Landroid/media/MediaDrm$PlaybackComponent;
 
     .line 16
     .line 17
@@ -79,7 +79,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p0}, Lcom/huawei/appmarket/hz;->h(Ljava/lang/Object;)Landroid/media/MediaDrm$PlaybackComponent;
+    invoke-static {p0}, Lcom/huawei/appmarket/iz;->h(Ljava/lang/Object;)Landroid/media/MediaDrm$PlaybackComponent;
 
     .line 23
     .line 24
@@ -87,7 +87,7 @@
     move-result-object p0
 
     .line 26
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/hz;->u(Landroid/media/MediaDrm$PlaybackComponent;Landroid/media/metrics/LogSessionId;)V
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/iz;->u(Landroid/media/MediaDrm$PlaybackComponent;Landroid/media/metrics/LogSessionId;)V
 
     .line 27
     .line 28
@@ -348,4 +348,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

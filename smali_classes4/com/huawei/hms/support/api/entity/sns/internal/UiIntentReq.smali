@@ -69,52 +69,52 @@
 
     .line 2
     .line 3
-    const-string v1, "{\'type\':"
+    const-string/jumbo v1, "{\'type\':"
 
     .line 4
     .line 5
+    .line 6
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 6
     .line 7
     .line 8
+    .line 9
     iget v1, p0, Lcom/huawei/hms/support/api/entity/sns/internal/UiIntentReq;->type:I
 
-    .line 9
     .line 10
+    .line 11
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 11
     .line 12
     .line 13
+    .line 14
     const-string v1, ",\'param\':"
 
-    .line 14
     .line 15
+    .line 16
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     .line 17
     .line 18
+    .line 19
     iget-wide v1, p0, Lcom/huawei/hms/support/api/entity/sns/internal/UiIntentReq;->param:J
 
-    .line 19
     .line 20
-    const-string v3, "}"
-
     .line 21
-    .line 22
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/z84;->q(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    const-string/jumbo v3, "}"
 
+    .line 22
     .line 23
     .line 24
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/kk4;->r(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+
     .line 25
+    .line 26
+    .line 27
     move-result-object v0
 
-    .line 26
-    return-object v0
-    .line 27
     .line 28
+    return-object v0
     .line 29
     .line 30
     .line 31
@@ -395,4 +395,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

@@ -42,7 +42,7 @@
     const v0, 0x7f130319
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -55,14 +55,14 @@
 
     if-lt p1, v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->u(Landroid/widget/ToggleButton;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->u(Landroid/widget/ToggleButton;)V
 
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/qg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/sg6;->a:[I
 
     const v1, 0x7f13055e
 
@@ -211,7 +211,7 @@
     .line 17
     .line 18
     :goto_0
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/je3;->a(Landroid/view/View;F)Landroid/animation/AnimatorSet;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/le3;->a(Landroid/view/View;F)Landroid/animation/AnimatorSet;
 
     .line 19
     .line 20
@@ -381,23 +381,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setFocusPathColor(I)V

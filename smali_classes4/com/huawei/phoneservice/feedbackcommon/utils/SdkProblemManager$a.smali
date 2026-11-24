@@ -1,5 +1,5 @@
 .class final Lcom/huawei/phoneservice/feedbackcommon/utils/SdkProblemManager$a;
-.super Lcom/huawei/appmarket/kf7;
+.super Lcom/huawei/appmarket/pf7;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/kf7<",
+        "Lcom/huawei/appmarket/pf7<",
         "Ljava/io/File;",
         ">;"
     }
@@ -52,14 +52,14 @@
 
     iput-object p6, p0, Lcom/huawei/phoneservice/feedbackcommon/utils/SdkProblemManager$a;->f:Ljava/lang/String;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/kf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/pf7;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public final onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 12
 
     .line 1
@@ -407,8 +407,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

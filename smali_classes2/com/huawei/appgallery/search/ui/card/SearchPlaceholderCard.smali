@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -48,7 +48,7 @@
 
     new-instance v1, Lcom/huawei/appgallery/search/ui/card/SearchPlaceholderCard$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/search/ui/card/SearchPlaceholderCard$a;-><init>(Lcom/huawei/appgallery/search/ui/card/SearchPlaceholderCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/search/ui/card/SearchPlaceholderCard$a;-><init>(Lcom/huawei/appgallery/search/ui/card/SearchPlaceholderCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

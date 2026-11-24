@@ -338,7 +338,7 @@
 
     if-eq p3, p4, :cond_2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p3
 
@@ -355,7 +355,7 @@
     if-eq p3, p5, :cond_2
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p3
 
@@ -557,7 +557,7 @@
 
     if-eq p1, v2, :cond_2
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v3
 
@@ -572,7 +572,7 @@
     if-eq v0, v3, :cond_2
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "TT;>;"
     }
 .end annotation
@@ -42,10 +42,10 @@
 
 .field private volatile mObserverType:Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;
 
-.field private observer:Lcom/huawei/appmarket/ym5;
+.field private observer:Lcom/huawei/appmarket/zm5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;"
         }
     .end annotation
@@ -53,12 +53,12 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/ym5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)V
+.method private constructor <init>(Lcom/huawei/appmarket/zm5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;",
             "Ljava/lang/String;",
             "Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData<",
@@ -71,7 +71,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;->observer:Lcom/huawei/appmarket/ym5;
+    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;->observer:Lcom/huawei/appmarket/zm5;
 
     iput-object p3, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;->liveData:Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;
 
@@ -88,11 +88,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/ym5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/zm5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$1;)V
     .registers 6
 
     .line 2
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/ym5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;-><init>(Lcom/huawei/appmarket/zm5;Ljava/lang/String;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$BusLiveData;Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverType;)V
 
     return-void
 .end method
@@ -131,11 +131,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;->observer:Lcom/huawei/appmarket/ym5;
+    iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/eventbus/LiveDataEventBus$ObserverWrapper;->observer:Lcom/huawei/appmarket/zm5;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ym5;->onChanged(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/zm5;->onChanged(Ljava/lang/Object;)V
 
     :cond_0
     return-void

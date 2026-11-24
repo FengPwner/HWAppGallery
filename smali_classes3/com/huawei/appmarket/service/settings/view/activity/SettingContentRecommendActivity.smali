@@ -29,16 +29,16 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/huawei/appmarket/sk0;
+    new-instance v0, Lcom/huawei/appmarket/tk0;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/sk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/tk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sk0;->getItemCount()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tk0;->getItemCount()I
 
     .line 10
     .line 11
@@ -54,7 +54,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/sk0;->s(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tk0;->s(I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -239,7 +239,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -251,13 +250,13 @@
 
     const-string v1, "onBackPressed"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/sj6;->c()Lcom/huawei/appmarket/sj6;
+    invoke-static {}, Lcom/huawei/appmarket/uj6;->c()Lcom/huawei/appmarket/uj6;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sj6;->e()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/uj6;->e()V
 
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity;->onBackPressed()V
 
@@ -276,7 +275,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -353,11 +352,11 @@
 
     .line 47
     .line 48
-    sget-object p1, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
     .line 49
     .line 50
-    sget-object v0, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v0, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     .line 51
     .line 52
@@ -374,7 +373,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     .line 60
     .line 61
@@ -432,5 +431,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

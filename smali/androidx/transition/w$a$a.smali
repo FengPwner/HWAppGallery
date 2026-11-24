@@ -15,19 +15,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/gx;
+.field final synthetic a:Lcom/huawei/appmarket/hx;
 
 .field final synthetic b:Landroidx/transition/w$a;
 
 
 # direct methods
-.method constructor <init>(Landroidx/transition/w$a;Lcom/huawei/appmarket/gx;)V
+.method constructor <init>(Landroidx/transition/w$a;Lcom/huawei/appmarket/hx;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Landroidx/transition/w$a$a;->b:Landroidx/transition/w$a;
 
-    iput-object p2, p0, Landroidx/transition/w$a$a;->a:Lcom/huawei/appmarket/gx;
+    iput-object p2, p0, Landroidx/transition/w$a$a;->a:Lcom/huawei/appmarket/hx;
 
     invoke-direct {p0}, Landroidx/transition/v;-><init>()V
 
@@ -51,11 +51,11 @@
     const/4 v1, 0x0
 
     .line 6
-    iget-object v2, p0, Landroidx/transition/w$a$a;->a:Lcom/huawei/appmarket/gx;
+    iget-object v2, p0, Landroidx/transition/w$a$a;->a:Lcom/huawei/appmarket/hx;
 
     .line 7
     .line 8
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/ue7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10

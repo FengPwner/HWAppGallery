@@ -32,7 +32,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/fh3;",
+            "Lcom/huawei/appmarket/hh3;",
             ">;"
         }
     .end annotation
@@ -42,7 +42,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/fh3;)V
+.method private constructor <init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/hh3;)V
     .registers 4
 
     .line 1
@@ -65,11 +65,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/fh3;Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/hh3;Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment$a;)V
     .registers 5
 
     .line 2
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment$g;-><init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/fh3;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment$g;-><init>(Lcom/huawei/appmarket/service/thirdupdate/UpdateSdkFragment;Landroid/app/Activity;Lcom/huawei/appmarket/hh3;)V
 
     return-void
 .end method
@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fh3;
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
@@ -126,7 +126,7 @@
 
     const-string v2, "updateOTADialog"
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -137,7 +137,7 @@
 
     const-string v2, "UpdateDialog is not show after 600ms, so finish the activity."
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 

@@ -34,16 +34,16 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pl0;->A(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ql0;->A(I)V
 
     return-void
 .end method
 
-.method protected final j2(Lcom/huawei/appmarket/sb3;Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;)V
+.method protected final j2(Lcom/huawei/appmarket/vb3;Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;)V
     .registers 4
 
     .line 1
@@ -70,7 +70,7 @@
 
     .line 4
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 5
     .line 6
@@ -78,7 +78,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/pl0;->v(Landroid/view/ViewGroup;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ql0;->v(Landroid/view/ViewGroup;)Z
 
     .line 9
     .line 10
@@ -110,7 +110,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 24
     .line 25
@@ -127,7 +127,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 33
     .line 34
@@ -135,7 +135,7 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 37
     .line 38
@@ -218,5 +218,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

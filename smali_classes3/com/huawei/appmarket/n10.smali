@@ -24,7 +24,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -35,18 +35,18 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->f()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->f()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public static b(Lcom/huawei/appmarket/yi3;)V
+.method public static b(Lcom/huawei/appmarket/aj3;)V
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -55,7 +55,7 @@
     return-void
 
     :cond_0
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/oi3;->o(Lcom/huawei/appmarket/yi3;)V
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/qi3;->o(Lcom/huawei/appmarket/aj3;)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->a()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->a()I
 
     move-result v0
 
@@ -86,7 +86,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->a()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->a()I
 
     move-result v0
 
@@ -108,7 +108,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -119,7 +119,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->l()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->l()I
 
     move-result v0
 
@@ -130,7 +130,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->z()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->z()J
 
     move-result-wide v0
 
@@ -152,7 +152,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -163,18 +163,18 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->b()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->b()J
 
     move-result-wide v0
 
     return-wide v0
 .end method
 
-.method private static h()Lcom/huawei/appmarket/oi3;
+.method private static h()Lcom/huawei/appmarket/qi3;
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -186,11 +186,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -210,7 +210,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -222,11 +222,11 @@
 
     .line 24
     :cond_0
-    const-class v2, Lcom/huawei/appmarket/oi3;
+    const-class v2, Lcom/huawei/appmarket/qi3;
 
     .line 25
     .line 26
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -234,7 +234,7 @@
     move-result-object v0
 
     .line 30
-    check-cast v0, Lcom/huawei/appmarket/oi3;
+    check-cast v0, Lcom/huawei/appmarket/qi3;
 
     .line 31
     .line 32
@@ -246,7 +246,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -395,7 +395,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -406,7 +406,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->u()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->u()J
 
     move-result-wide v0
 
@@ -417,7 +417,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -428,7 +428,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->i()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->i()J
 
     move-result-wide v0
 
@@ -439,7 +439,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -450,7 +450,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->q()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->q()I
 
     move-result v0
 
@@ -461,7 +461,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -472,7 +472,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->q()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->q()I
 
     move-result v0
 
@@ -483,7 +483,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -494,7 +494,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->t()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->t()I
 
     move-result v0
 
@@ -505,7 +505,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -516,7 +516,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->n()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->n()J
 
     move-result-wide v0
 
@@ -527,7 +527,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -538,7 +538,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->G()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->G()J
 
     move-result-wide v0
 
@@ -549,7 +549,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -560,7 +560,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->D()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->D()I
 
     move-result v0
 
@@ -571,7 +571,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/oi3;
+    invoke-static {}, Lcom/huawei/appmarket/n10;->h()Lcom/huawei/appmarket/qi3;
 
     move-result-object v0
 
@@ -582,7 +582,7 @@
     return v0
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->E()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/qi3;->E()Z
 
     move-result v0
 

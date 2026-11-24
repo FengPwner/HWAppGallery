@@ -50,7 +50,7 @@
 
     sub-int/2addr v0, v2
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->S(ILandroid/view/View;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->S(ILandroid/view/View;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getLeft()I
 
@@ -62,7 +62,7 @@
 
     rsub-int/lit8 v0, v0, 0x0
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->R(ILandroid/view/View;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->R(ILandroid/view/View;)V
 
     return-void
 .end method

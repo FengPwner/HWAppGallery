@@ -15,7 +15,7 @@
         value = {
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/gf0;",
+            "Lcom/huawei/appmarket/hf0;",
             ">;"
         }
     .end annotation
@@ -120,7 +120,7 @@
         value = {
             "()",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/gf0;",
+            "Lcom/huawei/appmarket/hf0;",
             ">;"
         }
     .end annotation
@@ -139,7 +139,7 @@
     return-object v0
 .end method
 
-.method public final d(Ljava/lang/String;Lcom/huawei/appmarket/gf0;)V
+.method public final d(Ljava/lang/String;Lcom/huawei/appmarket/hf0;)V
     .registers 4
 
     .line 1

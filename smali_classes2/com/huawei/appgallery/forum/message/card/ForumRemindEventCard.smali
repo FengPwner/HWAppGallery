@@ -121,7 +121,7 @@
     move-result-object v0
 
     .line 35
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 36
     .line 37
@@ -198,7 +198,7 @@
 
     .line 73
     .line 74
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 75
     .line 76
@@ -215,7 +215,7 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/om5;->c(Landroid/content/Context;II)I
+    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/uq5;->c(Landroid/content/Context;II)I
 
     .line 84
     .line 85
@@ -235,7 +235,7 @@
     const/4 v6, 0x2
 
     .line 93
-    invoke-static {v4, v5, v6, v3}, Lcom/huawei/appmarket/vw7;->e(Landroid/content/Context;III)I
+    invoke-static {v4, v5, v6, v3}, Lcom/huawei/appmarket/ci7;->e(Landroid/content/Context;III)I
 
     .line 94
     .line 95
@@ -586,7 +586,7 @@
 
     .line 50
     .line 51
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 52
     .line 53
@@ -606,7 +606,7 @@
     const/4 v2, 0x2
 
     .line 61
-    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 62
     .line 63
@@ -626,7 +626,7 @@
     const/4 v2, 0x3
 
     .line 71
-    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/ej2;->c(Landroid/content/Context;III)I
+    invoke-static {v0, v1, v2, p1}, Lcom/huawei/appmarket/kb1;->c(Landroid/content/Context;III)I
 
     .line 72
     .line 73
@@ -642,7 +642,7 @@
 
     .line 78
     .line 79
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 80
     .line 81
@@ -680,5 +680,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

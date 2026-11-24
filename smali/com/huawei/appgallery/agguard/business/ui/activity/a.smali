@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -55,7 +55,7 @@
     move-result v0
 
     .line 15
-    sget-object v2, Lcom/huawei/appmarket/e88;->a:Lcom/huawei/appmarket/e88$a;
+    sget-object v2, Lcom/huawei/appmarket/j88;->a:Lcom/huawei/appmarket/j88$a;
 
     .line 16
     .line 17
@@ -64,7 +64,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/e88$a;->a(I)Ljava/util/ArrayList;
+    invoke-static {v0}, Lcom/huawei/appmarket/j88$a;->a(I)Ljava/util/ArrayList;
 
     .line 21
     .line 22
@@ -186,4 +186,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

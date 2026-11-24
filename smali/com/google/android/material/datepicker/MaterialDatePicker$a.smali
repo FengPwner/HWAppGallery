@@ -58,11 +58,11 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/m45;
+    check-cast v1, Lcom/huawei/appmarket/p45;
 
     invoke-virtual {p1}, Lcom/google/android/material/datepicker/MaterialDatePicker;->A3()Ljava/lang/Object;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/m45;->a()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/p45;->a()V
 
     goto :goto_0
 

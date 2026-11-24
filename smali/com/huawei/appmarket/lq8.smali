@@ -1,370 +1,157 @@
 .class public Lcom/huawei/appmarket/lq8;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/k11;
 .source "SourceFile"
-
-# interfaces
-.implements Landroid/view/Window$Callback;
-
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/lq8$a;,
-        Lcom/huawei/appmarket/lq8$b;,
-        Lcom/huawei/appmarket/lq8$c;
-    }
-.end annotation
 
 
 # instance fields
-.field final b:Landroid/view/Window$Callback;
+.field public w0:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/huawei/appmarket/k11;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/Window$Callback;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/k11;-><init>()V
 
-    if-eqz p1, :cond_0
+    new-instance v0, Ljava/util/ArrayList;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
 
     return-void
+.end method
 
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
+.method public constructor <init>(II)V
+    .registers 3
 
-    const-string v0, "Window callback may not be null"
+    .line 2
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/k11;-><init>(II)V
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    new-instance p1, Ljava/util/ArrayList;
 
-    throw p1
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
+
+    return-void
+.end method
+
+.method public constructor <init>(IIII)V
+    .registers 5
+
+    .line 3
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/k11;-><init>(IIII)V
+
+    new-instance p1, Ljava/util/ArrayList;
+
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
+
+    return-void
 .end method
 
 
 # virtual methods
-.method public final a()Landroid/view/Window$Callback;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    return-object v0
-.end method
-
-.method public final dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public dispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final dispatchTouchEvent(Landroid/view/MotionEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final dispatchTrackballEvent(Landroid/view/MotionEvent;)Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->dispatchTrackballEvent(Landroid/view/MotionEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final onActionModeFinished(Landroid/view/ActionMode;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeFinished(Landroid/view/ActionMode;)V
-
-    return-void
-.end method
-
-.method public final onActionModeStarted(Landroid/view/ActionMode;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeStarted(Landroid/view/ActionMode;)V
-
-    return-void
-.end method
-
-.method public final onAttachedToWindow()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onAttachedToWindow()V
-
-    return-void
-.end method
-
-.method public onContentChanged()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onContentChanged()V
-
-    return-void
-.end method
-
-.method public onCreatePanelMenu(ILandroid/view/Menu;)Z
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onCreatePanelMenu(ILandroid/view/Menu;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public onCreatePanelView(I)Landroid/view/View;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onCreatePanelView(I)Landroid/view/View;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public final onDetachedFromWindow()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onDetachedFromWindow()V
-
-    return-void
-.end method
-
-.method public final onMenuItemSelected(ILandroid/view/MenuItem;)Z
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onMenuItemSelected(ILandroid/view/MenuItem;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public onMenuOpened(ILandroid/view/Menu;)Z
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onMenuOpened(ILandroid/view/Menu;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public onPanelClosed(ILandroid/view/Menu;)V
-    .registers 4
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onPanelClosed(ILandroid/view/Menu;)V
-
-    return-void
-.end method
-
-.method public final onPointerCaptureChanged(Z)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/lq8$c;->a(Landroid/view/Window$Callback;Z)V
-
-    return-void
-.end method
-
-.method public onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
+.method public X0()V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
+    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
 
-    invoke-interface {v0, p1, p2, p3}, Landroid/view/Window$Callback;->onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public onProvideKeyboardShortcuts(Ljava/util/List;Landroid/view/Menu;I)V
-    .registers 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Landroid/view/KeyboardShortcutGroup;",
-            ">;",
-            "Landroid/view/Menu;",
-            "I)V"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-static {v0, p1, p2, p3}, Lcom/huawei/appmarket/lq8$b;->a(Landroid/view/Window$Callback;Ljava/util/List;Landroid/view/Menu;I)V
+    if-nez v0, :cond_0
 
     return-void
-.end method
 
-.method public final onSearchRequested()Z
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onSearchRequested()Z
+    :cond_0
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v0
 
-    return v0
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_2
+
+    iget-object v2, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/huawei/appmarket/k11;
+
+    instance-of v3, v2, Lcom/huawei/appmarket/lq8;
+
+    if-eqz v3, :cond_1
+
+    check-cast v2, Lcom/huawei/appmarket/lq8;
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/lq8;->X0()V
+
+    :cond_1
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    return-void
 .end method
 
-.method public final onSearchRequested(Landroid/view/SearchEvent;)Z
-    .registers 3
-
-    .line 2
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/lq8$a;->a(Landroid/view/Window$Callback;Landroid/view/SearchEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
-    .registers 3
+.method public i0()V
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
+    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
 
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    invoke-super {p0}, Lcom/huawei/appmarket/k11;->i0()V
 
     return-void
 .end method
 
-.method public final onWindowFocusChanged(Z)V
-    .registers 3
+.method public final l0(Lcom/huawei/appmarket/pg0;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/k11;->l0(Lcom/huawei/appmarket/pg0;)V
 
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowFocusChanged(Z)V
+    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
 
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_0
+
+    iget-object v2, p0, Lcom/huawei/appmarket/lq8;->w0:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/huawei/appmarket/k11;
+
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/k11;->l0(Lcom/huawei/appmarket/pg0;)V
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
     return-void
-.end method
-
-.method public onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-    .registers 4
-
-    .line 2
-    iget-object v0, p0, Lcom/huawei/appmarket/lq8;->b:Landroid/view/Window$Callback;
-
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/lq8$a;->b(Landroid/view/Window$Callback;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-
-    move-result-object p1
-
-    return-object p1
 .end method

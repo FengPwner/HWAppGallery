@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
@@ -32,7 +32,7 @@
 .end method
 
 .method public abstract getHotWordFragment()Lcom/huawei/hmf/services/ui/e;
-    .annotation runtime Lcom/huawei/appmarket/bd4;
+    .annotation runtime Lcom/huawei/appmarket/dd4;
         value = "HotWord"
     .end annotation
 .end method

@@ -27,7 +27,7 @@
 
     const-string v0, "IAgdsFA"
 
-    const-class v1, Lcom/huawei/appmarket/ug3;
+    const-class v1, Lcom/huawei/appmarket/wg3;
 
     const/4 v2, 0x0
 
@@ -35,49 +35,49 @@
 
     const-string v0, "IFASetting"
 
-    const-class v1, Lcom/huawei/appmarket/wp3;
+    const-class v1, Lcom/huawei/appmarket/yp3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IOperateFA"
 
-    const-class v1, Lcom/huawei/appmarket/wv3;
+    const-class v1, Lcom/huawei/appmarket/yv3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IDownloadFA"
 
-    const-class v1, Lcom/huawei/appmarket/eo3;
+    const-class v1, Lcom/huawei/appmarket/go3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IFaDataProvider"
 
-    const-class v1, Lcom/huawei/appmarket/yp3;
+    const-class v1, Lcom/huawei/appmarket/aq3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IPrepareFa"
 
-    const-class v1, Lcom/huawei/appmarket/ox3;
+    const-class v1, Lcom/huawei/appmarket/qx3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IFADataStateProxy"
 
-    const-class v1, Lcom/huawei/appmarket/qp3;
+    const-class v1, Lcom/huawei/appmarket/sp3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IInstallStatusObserverTrigger"
 
-    const-class v1, Lcom/huawei/appmarket/dt3;
+    const-class v1, Lcom/huawei/appmarket/ft3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IFAConfigsInit"
 
-    const-class v1, Lcom/huawei/appmarket/pp3;
+    const-class v1, Lcom/huawei/appmarket/rp3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

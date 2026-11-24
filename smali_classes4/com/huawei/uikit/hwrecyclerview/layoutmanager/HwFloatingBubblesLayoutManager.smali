@@ -519,9 +519,9 @@
 
     iget-object p2, p0, Lcom/huawei/uikit/hwrecyclerview/layoutmanager/HwFloatingBubblesLayoutManager;->r:Landroid/animation/ValueAnimator;
 
-    new-instance v0, Lcom/huawei/appmarket/rt6;
+    new-instance v0, Lcom/huawei/appmarket/vt6;
 
-    invoke-direct {v0, p1, p3, v1}, Lcom/huawei/appmarket/rt6;-><init>(Landroid/view/View;II)V
+    invoke-direct {v0, p1, p3, v1}, Lcom/huawei/appmarket/vt6;-><init>(Landroid/view/View;II)V
 
     invoke-virtual {p2, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 

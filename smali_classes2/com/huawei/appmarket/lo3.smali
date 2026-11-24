@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(ILcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+.method public abstract S()Ljava/lang/String;
 .end method

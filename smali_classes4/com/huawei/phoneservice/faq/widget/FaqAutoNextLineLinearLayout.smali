@@ -25,10 +25,10 @@
     .end annotation
 .end field
 
-.field private d:Lcom/huawei/appmarket/o26;
+.field private d:Lcom/huawei/appmarket/q26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/o26<",
+            "Lcom/huawei/appmarket/q26<",
             "Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout$b;",
             ">;"
         }
@@ -73,13 +73,13 @@
 
     iput-object p3, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->c:Ljava/util/LinkedHashSet;
 
-    new-instance p3, Lcom/huawei/appmarket/o26;
+    new-instance p3, Lcom/huawei/appmarket/q26;
 
     const/16 v0, 0xa
 
-    invoke-direct {p3, v0}, Lcom/huawei/appmarket/o26;-><init>(I)V
+    invoke-direct {p3, v0}, Lcom/huawei/appmarket/q26;-><init>(I)V
 
-    iput-object p3, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/o26;
+    iput-object p3, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/q26;
 
     new-instance p3, Ljava/util/ArrayList;
 
@@ -131,9 +131,9 @@
 .method private getWarpLine()Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout$b;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/o26;
+    iget-object v0, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/q26;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/o26;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/q26;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1347,11 +1347,11 @@
     .line 128
     .line 129
     :try_start_0
-    iget-object v9, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/o26;
+    iget-object v9, p0, Lcom/huawei/phoneservice/faq/widget/FaqAutoNextLineLinearLayout;->d:Lcom/huawei/appmarket/q26;
 
     .line 130
     .line 131
-    invoke-virtual {v9, v8}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v8}, Lcom/huawei/appmarket/q26;->a(Ljava/lang/Object;)Z
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

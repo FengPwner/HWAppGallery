@@ -89,7 +89,7 @@
 
     iget v2, v2, Landroid/util/TypedValue;->resourceId:I
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 

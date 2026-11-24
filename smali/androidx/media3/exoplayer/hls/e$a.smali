@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/l91;Landroidx/media3/common/a;ILjava/lang/Object;[B)V
+.method public constructor <init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/m91;Landroidx/media3/common/a;ILjava/lang/Object;[B)V
     .registers 15
 
     .line 1
@@ -39,7 +39,7 @@
 
     move-object v7, p6
 
-    invoke-direct/range {v0 .. v7}, Lcom/huawei/appmarket/f81;-><init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/l91;ILandroidx/media3/common/a;ILjava/lang/Object;[B)V
+    invoke-direct/range {v0 .. v7}, Lcom/huawei/appmarket/f81;-><init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/m91;ILandroidx/media3/common/a;ILjava/lang/Object;[B)V
 
     return-void
 .end method

@@ -21,14 +21,14 @@
 
     if-nez p0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/le3;->q()Ljava/util/stream/IntStream;
+    invoke-static {}, Lcom/huawei/appmarket/ne3;->q()Ljava/util/stream/IntStream;
 
     move-result-object p0
 
     goto :goto_0
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/le3;->u([I)Ljava/util/stream/IntStream;
+    invoke-static {p0}, Lcom/huawei/appmarket/ne3;->u([I)Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -39,7 +39,7 @@
 .method public static range(I)Ljava/util/stream/IntStream;
     .registers 1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/le3;->D(I)Ljava/util/stream/IntStream;
+    invoke-static {p0}, Lcom/huawei/appmarket/ne3;->D(I)Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -49,7 +49,7 @@
 .method public static rangeClosed(I)Ljava/util/stream/IntStream;
     .registers 1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/le3;->r(I)Ljava/util/stream/IntStream;
+    invoke-static {p0}, Lcom/huawei/appmarket/ne3;->r(I)Ljava/util/stream/IntStream;
 
     move-result-object p0
 

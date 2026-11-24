@@ -138,7 +138,7 @@
     const-string p2, "ResourcesUtils"
 
     .line 2
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 

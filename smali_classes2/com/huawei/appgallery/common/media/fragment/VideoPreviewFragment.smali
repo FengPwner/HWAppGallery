@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ah8$b;
+.implements Lcom/huawei/appmarket/gh8$b;
 
 
 # instance fields
@@ -13,7 +13,7 @@
 
 .field private f0:Landroid/widget/ImageView;
 
-.field private g0:Lcom/huawei/appmarket/ah8;
+.field private g0:Lcom/huawei/appmarket/gh8;
 
 
 # direct methods
@@ -39,13 +39,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     const-string v0, "VideoPreviewFragment"
 
     const-string v1, "fragment param is empty."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -109,7 +109,7 @@
 
     .line 14
     .line 15
-    sget-object p3, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p3, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 16
     .line 17
@@ -117,7 +117,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p3, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -126,7 +126,7 @@
 
     .line 23
     :cond_0
-    const p3, 0x7f0a17f8
+    const p3, 0x7f0a17f9
 
     .line 24
     .line 25
@@ -270,7 +270,7 @@
     .line 82
     :goto_1
     :try_start_5
-    sget-object v0, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object v0, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 83
     .line 84
@@ -278,7 +278,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, p2, v1, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p2, v1, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
@@ -289,7 +289,7 @@
 
     .line 90
     :goto_2
-    sget-object v0, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object v0, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 91
     .line 92
@@ -327,7 +327,7 @@
     move-result-object p3
 
     .line 110
-    invoke-virtual {v0, p2, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p2, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     .line 112
@@ -337,7 +337,7 @@
 
     .line 114
     .line 115
-    sget-object p3, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p3, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     .line 116
     .line 117
@@ -345,7 +345,7 @@
 
     .line 118
     .line 119
-    invoke-virtual {p3, p2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, p2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 120
     .line 121
@@ -354,11 +354,11 @@
 
     .line 123
     :cond_1
-    new-instance p2, Lcom/huawei/appmarket/ah8;
+    new-instance p2, Lcom/huawei/appmarket/gh8;
 
     .line 124
     .line 125
-    invoke-direct {p2, p1}, Lcom/huawei/appmarket/ah8;-><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {p2, p1}, Lcom/huawei/appmarket/gh8;-><init>(Landroid/view/ViewGroup;)V
 
     .line 126
     .line 127
@@ -367,12 +367,12 @@
 
     .line 129
     .line 130
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/ah8;->n(Landroid/widget/VideoView;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/gh8;->n(Landroid/widget/VideoView;)V
 
     .line 131
     .line 132
     .line 133
-    invoke-virtual {p2, p0}, Lcom/huawei/appmarket/ah8;->o(Lcom/huawei/appmarket/ah8$b;)V
+    invoke-virtual {p2, p0}, Lcom/huawei/appmarket/gh8;->o(Lcom/huawei/appmarket/gh8$b;)V
 
     .line 134
     .line 135
@@ -381,12 +381,12 @@
 
     .line 137
     .line 138
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/ah8;->k(Ljava/lang/String;)V
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/gh8;->k(Ljava/lang/String;)V
 
     .line 139
     .line 140
     .line 141
-    iput-object p2, p0, Lcom/huawei/appgallery/common/media/fragment/VideoPreviewFragment;->g0:Lcom/huawei/appmarket/ah8;
+    iput-object p2, p0, Lcom/huawei/appgallery/common/media/fragment/VideoPreviewFragment;->g0:Lcom/huawei/appmarket/gh8;
 
     .line 142
     .line 143
@@ -593,11 +593,11 @@
     .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->q2()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/common/media/fragment/VideoPreviewFragment;->g0:Lcom/huawei/appmarket/ah8;
+    iget-object v0, p0, Lcom/huawei/appgallery/common/media/fragment/VideoPreviewFragment;->g0:Lcom/huawei/appmarket/gh8;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ah8;->q()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gh8;->q()V
 
     :cond_0
     return-void

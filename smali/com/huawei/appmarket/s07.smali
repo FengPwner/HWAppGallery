@@ -1,315 +1,64 @@
-.class public final Lcom/huawei/appmarket/s07;
+.class public final synthetic Lcom/huawei/appmarket/s07;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/og3;
+.implements Landroid/view/View$OnClickListener;
 
 
 # instance fields
-.field private a:I
+.field public final synthetic b:I
 
-.field private b:I
-
-.field private c:Ljava/lang/String;
+.field public final synthetic c:Lcom/huawei/appmarket/v07;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 7
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/v07;I)V
+    .registers 3
 
     .line 1
-    const/4 v1, 0x0
-
-    const/4 v2, 0x0
-
-    const/4 v3, 0x0
-
-    const/4 v4, 0x7
-
-    const/4 v5, 0x0
-
-    move-object v0, p0
-
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/s07;-><init>(IILjava/lang/String;ILcom/huawei/appmarket/gd1;)V
-
-    return-void
-.end method
-
-.method public constructor <init>(IILjava/lang/String;)V
-    .registers 5
-
-    .line 2
-    const-string v0, "timeRange"
-
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lcom/huawei/appmarket/s07;->a:I
-
-    iput p2, p0, Lcom/huawei/appmarket/s07;->b:I
-
-    iput-object p3, p0, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(IILjava/lang/String;ILcom/huawei/appmarket/gd1;)V
-    .registers 7
-
-    .line 3
-    and-int/lit8 p5, p4, 0x1
-
-    const/4 v0, 0x0
-
-    if-eqz p5, :cond_0
-
-    const/4 p1, 0x0
-
-    :cond_0
-    and-int/lit8 p5, p4, 0x2
-
-    if-eqz p5, :cond_1
-
-    const/4 p2, 0x0
-
-    :cond_1
-    and-int/lit8 p4, p4, 0x4
-
-    if-eqz p4, :cond_2
-
-    const-string p3, ""
-
-    :cond_2
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/s07;-><init>(IILjava/lang/String;)V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a(Landroid/content/Context;)I
-    .registers 3
-
-    .line 1
-    const-string v0, "context"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {p1}, Lcom/huawei/appgallery/aguikit/device/HwConfigurationUtils;->isAgeAdaptMode(Landroid/content/Context;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const p1, 0x7f0d00b4
-
-    goto :goto_0
-
-    :cond_0
-    const p1, 0x7f0d00cc
-
-    :goto_0
-    return p1
-.end method
-
-.method public final b()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/s07;->a:I
-
-    return v0
-.end method
-
-.method public final c()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/s07;->b:I
-
-    return v0
-.end method
-
-.method public final d(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/s07;->a:I
-
-    return-void
-.end method
-
-.method public final e(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/s07;->b:I
-
-    return-void
-.end method
-
-.method public final equals(Ljava/lang/Object;)Z
-    .registers 6
-
-    .line 1
-    const/4 v0, 0x1
-
-    if-ne p0, p1, :cond_0
-
-    return v0
-
-    :cond_0
-    instance-of v1, p1, Lcom/huawei/appmarket/s07;
-
-    const/4 v2, 0x0
-
-    if-nez v1, :cond_1
-
-    return v2
-
-    :cond_1
-    check-cast p1, Lcom/huawei/appmarket/s07;
-
-    iget v1, p0, Lcom/huawei/appmarket/s07;->a:I
-
-    iget v3, p1, Lcom/huawei/appmarket/s07;->a:I
-
-    if-eq v1, v3, :cond_2
-
-    return v2
-
-    :cond_2
-    iget v1, p0, Lcom/huawei/appmarket/s07;->b:I
-
-    iget v3, p1, Lcom/huawei/appmarket/s07;->b:I
-
-    if-eq v1, v3, :cond_3
-
-    return v2
-
-    :cond_3
-    iget-object v1, p0, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
-    iget-object p1, p1, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_4
-
-    return v2
-
-    :cond_4
-    return v0
-.end method
-
-.method public final f(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final hashCode()I
-    .registers 3
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/s07;->a:I
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget v1, p0, Lcom/huawei/appmarket/s07;->b:I
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v1, v0
-
-    return v1
-.end method
-
-.method public final toString()Ljava/lang/String;
-    .registers 4
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 2
     .line 3
-    const-string v1, "SafetyReportOverViewItem(allAppsSize="
-
     .line 4
-    .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    iput p2, p0, Lcom/huawei/appmarket/s07;->b:I
 
+    .line 5
     .line 6
+    iput-object p1, p0, Lcom/huawei/appmarket/s07;->c:Lcom/huawei/appmarket/v07;
+
     .line 7
     .line 8
-    iget v1, p0, Lcom/huawei/appmarket/s07;->a:I
-
+    return-void
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 11
     .line 12
     .line 13
-    const-string v1, ", riskAppSize="
-
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Lcom/huawei/appmarket/s07;->b:I
-
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 21
     .line 22
     .line 23
-    const-string v1, ", timeRange="
-
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Lcom/huawei/appmarket/s07;->c:Ljava/lang/String;
-
     .line 29
     .line 30
-    const/16 v2, 0x29
-
     .line 31
     .line 32
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->m(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
-
     .line 33
     .line 34
     .line 35
-    move-result-object v0
-
     .line 36
-    return-object v0
     .line 37
     .line 38
     .line 39
@@ -409,4 +158,54 @@
     .line 133
     .line 134
     .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .registers 3
+
+    .line 1
+    iget p1, p0, Lcom/huawei/appmarket/s07;->b:I
+
+    iget-object v0, p0, Lcom/huawei/appmarket/s07;->c:Lcom/huawei/appmarket/v07;
+
+    packed-switch p1, :pswitch_data_0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/v07;->E(Lcom/huawei/appmarket/v07;)V
+
+    return-void
+
+    :pswitch_0
+    invoke-static {v0}, Lcom/huawei/appmarket/v07;->G(Lcom/huawei/appmarket/v07;)V
+
+    return-void
+
+    :pswitch_1
+    invoke-static {v0}, Lcom/huawei/appmarket/v07;->C(Lcom/huawei/appmarket/v07;)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
 .end method

@@ -8,7 +8,7 @@
 
 .field private currGroupName:Ljava/lang/String;
 
-.field protected iLoadImageListener:Lcom/huawei/appmarket/du3;
+.field protected iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
 .field protected inflater:Landroid/view/LayoutInflater;
 
@@ -53,7 +53,7 @@
     .end annotation
 .end field
 
-.field private thumbnailManager:Lcom/huawei/appmarket/wy7;
+.field private thumbnailManager:Lcom/huawei/appmarket/bz7;
 
 
 # direct methods
@@ -125,7 +125,7 @@
 
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/wy7;->f()Lcom/huawei/appmarket/wy7;
+    invoke-static {}, Lcom/huawei/appmarket/bz7;->f()Lcom/huawei/appmarket/bz7;
 
     .line 36
     .line 37
@@ -133,11 +133,11 @@
     move-result-object v0
 
     .line 39
-    iput-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/wy7;
+    iput-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/bz7;
 
     .line 40
     .line 41
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wy7;->g()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bz7;->g()Ljava/util/ArrayList;
 
     .line 42
     .line 43
@@ -149,7 +149,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1}, Lcom/huawei/appmarket/gy1;->a(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p1}, Lcom/huawei/appmarket/ky1;->a(Landroid/content/Context;)Landroid/content/Context;
 
     .line 48
     .line 49
@@ -219,7 +219,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -306,9 +305,9 @@
 .method public initOriginalImgBeanMap()V
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/wy7;
+    iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/bz7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wy7;->h()Ljava/util/HashMap;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bz7;->h()Ljava/util/HashMap;
 
     move-result-object v0
 
@@ -334,7 +333,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->originalBeanList:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -395,9 +394,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/wy7;
+    iget-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->thumbnailManager:Lcom/huawei/appmarket/bz7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wy7;->g()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bz7;->g()Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -425,11 +424,11 @@
     return-void
 .end method
 
-.method public setILoadImageListener(Lcom/huawei/appmarket/du3;)V
+.method public setILoadImageListener(Lcom/huawei/appmarket/fu3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/du3;
+    iput-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
     return-void
 .end method

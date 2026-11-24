@@ -56,7 +56,7 @@
 
     iput-boolean v0, p0, Lcom/google/android/material/internal/ScrimInsetsFrameLayout;->f:Z
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->S:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->S:[I
 
     const v5, 0x7f13041f
 
@@ -70,7 +70,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
@@ -88,14 +88,14 @@
 
     invoke-direct {p1, p0}, Lcom/google/android/material/internal/ScrimInsetsFrameLayout$a;-><init>(Lcom/google/android/material/internal/ScrimInsetsFrameLayout;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->r0(Landroid/view/View;Lcom/huawei/appmarket/qn5;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->r0(Landroid/view/View;Lcom/huawei/appmarket/rn5;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected a(Lcom/huawei/appmarket/nq8;)V
+.method protected a(Lcom/huawei/appmarket/tq8;)V
     .registers 2
 
     .line 1

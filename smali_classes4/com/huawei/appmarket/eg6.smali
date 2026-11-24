@@ -9,30 +9,24 @@
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 1
+    .registers 4
 
     .line 1
-    const/16 v0, 0x8
+    const v0, 0x7f0402e8
 
-    new-array v0, v0, [I
+    const v1, 0x7f0402e9
 
-    fill-array-data v0, :array_0
+    const v2, 0x7f0402e2
+
+    const v3, 0x7f0402e3
+
+    filled-new-array {v2, v3, v0, v1}, [I
+
+    move-result-object v0
 
     sput-object v0, Lcom/huawei/appmarket/eg6;->a:[I
 
     return-void
-
-    :array_0
-    .array-data 4
-        0x7f0402ac
-        0x7f0402f6
-        0x7f0402f7
-        0x7f0402f9
-        0x7f0402fa
-        0x7f0402fb
-        0x7f0402fc
-        0x7f04031b
-    .end array-data
 .end method
 
 .method private constructor <init>()V

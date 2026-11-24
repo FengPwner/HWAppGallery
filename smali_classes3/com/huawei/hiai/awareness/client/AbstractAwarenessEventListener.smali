@@ -28,7 +28,7 @@
 
     const-string v0, "receive bind request"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/hiai/awareness/client/AbstractAwarenessEventListener$a;
 

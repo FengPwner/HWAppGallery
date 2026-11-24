@@ -43,13 +43,13 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject$d;->c:Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;
 
-    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
 
     check-cast v1, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->y0(Landroid/webkit/WebView;)Z
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->z0(Landroid/webkit/WebView;)Z
 
     move-result v0
 
@@ -59,20 +59,20 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/te0;->g()Lcom/huawei/appmarket/te0;
+    invoke-static {}, Lcom/huawei/appmarket/ue0;->g()Lcom/huawei/appmarket/ue0;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/te0;->h(ILjava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ue0;->h(ILjava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     :goto_0
     return-void

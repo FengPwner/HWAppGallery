@@ -4,18 +4,7 @@
 
 
 # direct methods
-.method public static bridge synthetic A(Ljava/lang/Object;Landroid/os/LocaleList;)Z
-    .registers 2
-
-    .line 1
-    invoke-virtual {p1, p0}, Landroid/os/LocaleList;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static bridge synthetic B(Ljava/util/stream/IntStream;Lcom/huawei/appmarket/lx;)Z
+.method public static bridge synthetic A(Ljava/util/stream/IntStream;Lcom/huawei/appmarket/mx;)Z
     .registers 2
 
     .line 1
@@ -26,7 +15,7 @@
     return p0
 .end method
 
-.method public static bridge synthetic C(Ljava/util/stream/Stream;Lcom/huawei/appmarket/wm;)Z
+.method public static bridge synthetic B(Ljava/util/stream/Stream;Lcom/huawei/appmarket/vm;)Z
     .registers 2
 
     .line 1
@@ -37,7 +26,7 @@
     return p0
 .end method
 
-.method public static bridge synthetic D(Ljava/lang/Object;)Z
+.method public static bridge synthetic C(Ljava/lang/Object;)Z
     .registers 1
 
     .line 1
@@ -253,7 +242,7 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic t(Ljava/util/stream/Stream;Lcom/huawei/appmarket/wm;)Ljava/util/stream/Stream;
+.method public static bridge synthetic t(Ljava/util/stream/Stream;Lcom/huawei/appmarket/vm;)Ljava/util/stream/Stream;
     .registers 2
 
     .line 1
@@ -291,16 +280,7 @@
     return-void
 .end method
 
-.method public static bridge synthetic x([Ljava/lang/Object;Ljava/util/function/IntFunction;)V
-    .registers 2
-
-    .line 1
-    invoke-static {p0, p1}, Ljava/util/Arrays;->setAll([Ljava/lang/Object;Ljava/util/function/IntFunction;)V
-
-    return-void
-.end method
-
-.method public static bridge synthetic y(Landroid/security/NetworkSecurityPolicy;Ljava/lang/String;)Z
+.method public static bridge synthetic x(Landroid/security/NetworkSecurityPolicy;Ljava/lang/String;)Z
     .registers 2
 
     .line 1
@@ -311,11 +291,22 @@
     return p0
 .end method
 
-.method public static bridge synthetic z(Ljava/lang/Object;)Z
+.method public static bridge synthetic y(Ljava/lang/Object;)Z
     .registers 1
 
     .line 1
     instance-of p0, p0, Ljava/util/concurrent/atomic/LongAdder;
+
+    return p0
+.end method
+
+.method public static bridge synthetic z(Ljava/lang/Object;Landroid/os/LocaleList;)Z
+    .registers 2
+
+    .line 1
+    invoke-virtual {p1, p0}, Landroid/os/LocaleList;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
 
     return p0
 .end method

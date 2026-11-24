@@ -6,7 +6,7 @@
 # instance fields
 .field private a:Landroid/content/Context;
 
-.field private b:Lcom/huawei/appmarket/yh3;
+.field private b:Lcom/huawei/appmarket/ai3;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/yh3;
+    iput-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/ai3;
 
     iput-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->a:Landroid/content/Context;
 
@@ -30,7 +30,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/yh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/ai3;
 
     const-string v1, "AppStatusManager"
 
@@ -38,22 +38,22 @@
 
     const-string v0, "DeviceInstallationInfos"
 
-    const-class v2, Lcom/huawei/appmarket/yh3;
+    const-class v2, Lcom/huawei/appmarket/ai3;
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/yh3;
+    check-cast v0, Lcom/huawei/appmarket/ai3;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/yh3;
+    iput-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/ai3;
 
     const-string v0, "iAppStatusManager init."
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/yh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/ai3;
 
     const/4 v2, 0x0
 
@@ -62,7 +62,7 @@
     const-string p1, "iAppStatusManager is null."
 
     :goto_0
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -87,9 +87,9 @@
     goto :goto_0
 
     :cond_3
-    iget-object v3, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/yh3;
+    iget-object v3, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/AppStatusManager;->b:Lcom/huawei/appmarket/ai3;
 
-    invoke-interface {v3, v0, p1}, Lcom/huawei/appmarket/yh3;->g(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-interface {v3, v0, p1}, Lcom/huawei/appmarket/ai3;->g(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v0
 
@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x6
 

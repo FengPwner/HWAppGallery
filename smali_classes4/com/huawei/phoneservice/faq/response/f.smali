@@ -4,32 +4,32 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/yo4;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+.field private a:Lcom/huawei/appmarket/bp4;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "hits"
     .end annotation
 .end field
 
 .field private b:Ljava/lang/Object;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "_shards"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "took"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "timed_out"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "sid"
     .end annotation
 .end field
@@ -46,11 +46,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/yo4;
+.method public final a()Lcom/huawei/appmarket/bp4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/phoneservice/faq/response/f;->a:Lcom/huawei/appmarket/yo4;
+    iget-object v0, p0, Lcom/huawei/phoneservice/faq/response/f;->a:Lcom/huawei/appmarket/bp4;
 
     return-object v0
 .end method

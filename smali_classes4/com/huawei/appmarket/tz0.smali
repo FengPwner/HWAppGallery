@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lj4;
+.implements Lcom/huawei/appmarket/nj4;
 
 
 # static fields
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final intercept(Lcom/huawei/appmarket/lj4$a;)Lcom/huawei/appmarket/vu6;
+.method public final intercept(Lcom/huawei/appmarket/nj4$a;)Lcom/huawei/appmarket/zu6;
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -43,13 +43,13 @@
     .end annotation
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/ei6;
+    check-cast p1, Lcom/huawei/appmarket/gi6;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ei6;->d()Lcom/huawei/appmarket/zh6;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gi6;->d()Lcom/huawei/appmarket/bi6;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zh6;->p(Lcom/huawei/appmarket/ei6;)Lcom/huawei/appmarket/n32;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bi6;->p(Lcom/huawei/appmarket/gi6;)Lcom/huawei/appmarket/r32;
 
     move-result-object v0
 
@@ -59,15 +59,15 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p1, v3, v0, v1, v2}, Lcom/huawei/appmarket/ei6;->c(Lcom/huawei/appmarket/ei6;ILcom/huawei/appmarket/n32;Lcom/huawei/appmarket/gr6;I)Lcom/huawei/appmarket/ei6;
+    invoke-static {p1, v3, v0, v1, v2}, Lcom/huawei/appmarket/gi6;->c(Lcom/huawei/appmarket/gi6;ILcom/huawei/appmarket/r32;Lcom/huawei/appmarket/jr6;I)Lcom/huawei/appmarket/gi6;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ei6;->h()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gi6;->h()Lcom/huawei/appmarket/jr6;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ei6;->a(Lcom/huawei/appmarket/gr6;)Lcom/huawei/appmarket/vu6;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gi6;->a(Lcom/huawei/appmarket/jr6;)Lcom/huawei/appmarket/zu6;
 
     move-result-object p1
 

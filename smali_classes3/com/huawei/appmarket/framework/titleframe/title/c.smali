@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/c;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/c;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/titleframe/title/c;->b:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->t(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->t(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v0
 
@@ -35,16 +35,16 @@
 
     const-string v0, "iTitleDataChangedListener is null, illegal"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->u(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {p1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->u(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/a44;->i2()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/c44;->i2()V
 
     return-void
 .end method

@@ -3,23 +3,23 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/x69;
+.implements Lcom/huawei/appmarket/d79;
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/qb2;
+.field private final a:Lcom/huawei/appmarket/tb2;
 
 .field private b:Lcom/huawei/flexiblelayout/data/i;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/qb2;)V
+.method public constructor <init>(Lcom/huawei/appmarket/tb2;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/g81;->a:Lcom/huawei/appmarket/qb2;
+    iput-object p1, p0, Lcom/huawei/appmarket/g81;->a:Lcom/huawei/appmarket/tb2;
 
     return-void
 .end method
@@ -46,25 +46,25 @@
     return-object p1
 
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/w09;
+    new-instance v0, Lcom/huawei/appmarket/c19;
 
-    invoke-virtual {p2}, Lcom/huawei/flexiblelayout/data/a;->m()Lcom/huawei/appmarket/qb2;
+    invoke-virtual {p2}, Lcom/huawei/flexiblelayout/data/a;->m()Lcom/huawei/appmarket/tb2;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/huawei/appmarket/g81;->a:Lcom/huawei/appmarket/qb2;
+    iget-object v2, p0, Lcom/huawei/appmarket/g81;->a:Lcom/huawei/appmarket/tb2;
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/w09;-><init>(Lcom/huawei/appmarket/v25;Lcom/huawei/appmarket/v25;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/c19;-><init>(Lcom/huawei/appmarket/y25;Lcom/huawei/appmarket/y25;)V
 
     new-instance v1, Lcom/huawei/flexiblelayout/data/a$a;
 
     invoke-direct {v1, p2}, Lcom/huawei/flexiblelayout/data/a$a;-><init>(Lcom/huawei/flexiblelayout/data/a;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/vp4;->e(Ljava/lang/Object;)Lcom/huawei/appmarket/qb2;
+    invoke-static {v0}, Lcom/huawei/appmarket/yp4;->e(Ljava/lang/Object;)Lcom/huawei/appmarket/tb2;
 
     move-result-object p2
 
-    invoke-virtual {v1, p2}, Lcom/huawei/flexiblelayout/data/a$a;->b(Lcom/huawei/appmarket/qb2;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/flexiblelayout/data/a$a;->b(Lcom/huawei/appmarket/tb2;)V
 
     invoke-virtual {v1}, Lcom/huawei/flexiblelayout/data/a$a;->a()Lcom/huawei/flexiblelayout/data/a;
 

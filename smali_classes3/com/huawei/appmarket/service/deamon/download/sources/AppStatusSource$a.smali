@@ -51,11 +51,11 @@
     move-result-object p1
 
     .line 8
-    sget v0, Lcom/huawei/appmarket/rs1;->b:I
+    sget v0, Lcom/huawei/appmarket/us1;->b:I
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->b()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -75,7 +75,7 @@
 
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -96,7 +96,7 @@
     .line 29
     .line 30
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
     .line 31
     .line 32
@@ -108,7 +108,7 @@
     move-result-object p2
 
     .line 36
-    invoke-direct {v0, p2}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p2}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     .line 37
     .line 38
@@ -117,7 +117,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -169,7 +169,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -187,7 +187,7 @@
 
     .line 78
     .line 79
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 80
     .line 81
@@ -211,7 +211,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/g32;->fire(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/k32;->fire(Ljava/lang/Object;)V
 
     .line 92
     .line 93
@@ -298,5 +298,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

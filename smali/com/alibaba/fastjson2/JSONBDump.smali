@@ -2279,7 +2279,7 @@
 
     .line 201
     .line 202
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 203
     .line 204
@@ -2622,7 +2622,7 @@
 
     .line 29
     .line 30
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -3641,7 +3641,7 @@
 
     .line 111
     .line 112
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 113
     .line 114
@@ -3671,6 +3671,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method readReference()Ljava/lang/String;

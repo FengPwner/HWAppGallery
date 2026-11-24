@@ -47,7 +47,7 @@
 
     .line 9
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 10
     .line 11
@@ -59,11 +59,11 @@
 
     .line 14
     .line 15
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 18
     .line 19
@@ -71,11 +71,11 @@
     move-result-object v0
 
     .line 21
-    const-class v1, Lcom/huawei/appmarket/on3;
+    const-class v1, Lcom/huawei/appmarket/qn3;
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -83,7 +83,7 @@
     move-result-object v0
 
     .line 27
-    check-cast v0, Lcom/huawei/appmarket/on3;
+    check-cast v0, Lcom/huawei/appmarket/qn3;
 
     .line 28
     .line 29
@@ -91,7 +91,7 @@
 
     .line 30
     .line 31
-    invoke-interface {v0}, Lcom/huawei/appmarket/on3;->getDisplayConfig()Lcom/huawei/appmarket/xp1;
+    invoke-interface {v0}, Lcom/huawei/appmarket/qn3;->getDisplayConfig()Lcom/huawei/appmarket/aq1;
 
     .line 32
     .line 33
@@ -99,7 +99,7 @@
     move-result-object v0
 
     .line 35
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xp1;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/aq1;->b()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -481,7 +481,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz5;->a:Lcom/huawei/appmarket/lz5;
+    sget-object v0, Lcom/huawei/appmarket/nz5;->a:Lcom/huawei/appmarket/nz5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -503,7 +503,7 @@
 
     const-string v2, "VerticalSearchTextCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-nez p1, :cond_0
 

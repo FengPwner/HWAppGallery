@@ -66,7 +66,7 @@
 
     iput v1, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/cf0;->X2(Landroid/content/Context;Lcom/huawei/appmarket/he0;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/df0;->Y2(Landroid/content/Context;Lcom/huawei/appmarket/ie0;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/buoydock/uikit/window/MainWindow;->z(Lcom/huawei/appgallery/assistantdock/buoydock/uikit/window/MainWindow;)Landroid/widget/LinearLayout;
 

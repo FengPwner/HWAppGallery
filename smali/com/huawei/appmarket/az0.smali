@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pr7;
+.implements Lcom/huawei/appmarket/vr7;
 
 
 # virtual methods
@@ -84,7 +84,7 @@
     .line 35
     .line 36
     .line 37
-    check-cast v0, Lcom/huawei/appmarket/fh8$a;
+    check-cast v0, Lcom/huawei/appmarket/lh8$a;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -196,4 +196,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

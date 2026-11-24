@@ -23,14 +23,14 @@
 
 
 # instance fields
-.field final a:Lcom/huawei/appmarket/sq4;
+.field final a:Lcom/huawei/appmarket/vq4;
 
 .field final b:Z
 
-.field c:Lcom/huawei/appmarket/cu6;
+.field c:Lcom/huawei/appmarket/gu6;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "*>;"
         }
     .end annotation
@@ -38,12 +38,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/o;Ljava/lang/ref/ReferenceQueue;Z)V
+.method constructor <init>(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/o;Ljava/lang/ref/ReferenceQueue;Z)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Lcom/bumptech/glide/load/engine/o<",
             "*>;",
             "Ljava/lang/ref/ReferenceQueue<",
@@ -63,7 +63,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/a$c;->a:Lcom/huawei/appmarket/sq4;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/a$c;->a:Lcom/huawei/appmarket/vq4;
 
     .line 7
     .line 8
@@ -83,7 +83,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p2}, Lcom/bumptech/glide/load/engine/o;->c()Lcom/huawei/appmarket/cu6;
+    invoke-virtual {p2}, Lcom/bumptech/glide/load/engine/o;->c()Lcom/huawei/appmarket/gu6;
 
     .line 17
     .line 18
@@ -91,7 +91,7 @@
     move-result-object p1
 
     .line 20
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     .line 21
     .line 22
@@ -104,7 +104,7 @@
 
     .line 25
     :goto_0
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/a$c;->c:Lcom/huawei/appmarket/cu6;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/a$c;->c:Lcom/huawei/appmarket/gu6;
 
     .line 26
     .line 27

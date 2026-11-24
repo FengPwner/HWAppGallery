@@ -5,7 +5,7 @@
 
 # instance fields
 .field private privilegedRight:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/PrivilegedRight;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

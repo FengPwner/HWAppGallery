@@ -3,23 +3,23 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Landroid/content/DialogInterface$OnCancelListener;
 
 
 # instance fields
-.field final synthetic b:Ljava/util/ArrayList;
+.field final synthetic b:Landroid/content/Context;
 
-.field final synthetic c:Lcom/huawei/appmarket/gt;
+.field final synthetic c:Lcom/huawei/appmarket/ht;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/gt;Ljava/util/ArrayList;)V
+.method constructor <init>(Lcom/huawei/appmarket/ht;Landroid/content/Context;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/gt;
+    iput-object p1, p0, Lcom/huawei/appmarket/lt;->c:Lcom/huawei/appmarket/ht;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/lt;->b:Ljava/util/ArrayList;
+    iput-object p2, p0, Lcom/huawei/appmarket/lt;->b:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,61 +28,29 @@
 
 
 # virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 5
+.method public final onCancel(Landroid/content/DialogInterface;)V
+    .registers 3
 
     .line 1
-    const/4 p2, -0x1
+    const-string p1, "AppPermissionManager"
 
-    const-string v0, "AppPermissionManager"
+    const-string v0, "cancel the PermissionDialog"
 
-    if-ne p3, p2, :cond_0
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string p2, "agree the PermissionDialog"
-
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance p2, Landroid/os/Handler;
+    new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
-    move-result-object p3
+    move-result-object v0
 
-    invoke-direct {p2, p3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance p3, Lcom/huawei/appmarket/lt$a;
+    new-instance v0, Lcom/huawei/appmarket/lt$a;
 
-    invoke-direct {p3, p0, p1}, Lcom/huawei/appmarket/lt$a;-><init>(Lcom/huawei/appmarket/lt;Landroid/app/Activity;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/lt$a;-><init>(Lcom/huawei/appmarket/lt;)V
 
-    :goto_0
-    invoke-virtual {p2, p3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    goto :goto_1
-
-    :cond_0
-    const/4 p2, -0x2
-
-    if-ne p3, p2, :cond_1
-
-    const-string p2, "disagree the PermissionDialog"
-
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance p2, Landroid/os/Handler;
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object p3
-
-    invoke-direct {p2, p3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    new-instance p3, Lcom/huawei/appmarket/lt$b;
-
-    invoke-direct {p3, p0, p1}, Lcom/huawei/appmarket/lt$b;-><init>(Lcom/huawei/appmarket/lt;Landroid/app/Activity;)V
-
-    goto :goto_0
-
-    :cond_1
-    :goto_1
     return-void
 .end method

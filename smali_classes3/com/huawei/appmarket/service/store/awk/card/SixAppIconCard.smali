@@ -6,7 +6,7 @@
 # instance fields
 .field private A:Landroid/widget/LinearLayout;
 
-.field private B:Lcom/huawei/appmarket/ak0;
+.field private B:Lcom/huawei/appmarket/bk0;
 
 .field private C:Landroid/widget/HorizontalScrollView;
 
@@ -175,11 +175,11 @@
     .line 35
     .line 36
     .line 37
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;->B:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;->B:Lcom/huawei/appmarket/bk0;
 
     .line 38
     .line 39
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 40
     .line 41
@@ -264,7 +264,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic y1(Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;)I
@@ -342,7 +341,7 @@
 
     if-nez v4, :cond_0
 
-    invoke-static {v3}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v3
 
@@ -478,7 +477,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->j()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->j()I
 
     .line 55
     .line 56
@@ -513,7 +512,7 @@
 
     .line 70
     .line 71
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 72
     .line 73
@@ -2215,79 +2214,17 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;->B:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;->B:Lcom/huawei/appmarket/bk0;
 
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard$b;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard$b;-><init>(Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard$b;-><init>(Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/SixAppIconCard;->y:Landroid/view/View;
 

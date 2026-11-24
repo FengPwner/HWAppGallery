@@ -255,7 +255,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final h()I
@@ -267,7 +266,7 @@
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -302,7 +301,7 @@
     move-result-object v0
 
     .line 16
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 17
     .line 18
@@ -396,5 +395,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

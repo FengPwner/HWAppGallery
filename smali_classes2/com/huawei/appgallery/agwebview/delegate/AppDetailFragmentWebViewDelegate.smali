@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq$a;
+.implements Lcom/huawei/appmarket/jq$a;
 
 
 # instance fields
@@ -42,11 +42,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->N:Lcom/huawei/appmarket/e64;
+    iget-object v0, p0, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->N:Lcom/huawei/appmarket/h64;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/e64;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/h64;->c()V
 
     const-string v0, " hispace_detail"
 
@@ -60,7 +60,7 @@
     return-object v0
 .end method
 
-.method public final I0()Ljava/util/HashMap;
+.method public final J0()Ljava/util/HashMap;
     .registers 6
 
     .line 1
@@ -180,7 +180,7 @@
     .line 56
     :cond_1
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 57
     .line 58
@@ -200,7 +200,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -219,7 +219,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v3, v0, v4, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v3, v0, v4, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 75
     .line 76
@@ -497,7 +497,7 @@
     .line 137
 .end method
 
-.method public final V(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
+.method public final W(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
     .registers 4
 
     .line 1
@@ -540,20 +540,20 @@
     :cond_0
     iget-object p2, p0, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->q:Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->V(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->W(Landroid/content/Context;Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;)V
 
     return-void
 .end method
 
-.method protected final q0()Lcom/huawei/appmarket/m36;
+.method protected final r0()Lcom/huawei/appmarket/o36;
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/kq;
+    new-instance v0, Lcom/huawei/appmarket/jq;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/kq;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/jq;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/kq;->f(Lcom/huawei/appmarket/kq$a;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/jq;->f(Lcom/huawei/appmarket/jq$a;)V
 
     return-object v0
 .end method

@@ -2,22 +2,27 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/eo5;
 
+# static fields
+.field private static a:Lcom/huawei/appmarket/t76;
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
-        ">;"
-    }
-.end annotation
+.field private static final b:Ljava/lang/Object;
 
 
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/t76;->b:Ljava/lang/Object;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -26,123 +31,44 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
-    .registers 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
-            ">;)V"
-        }
-    .end annotation
+.method public static a()Lcom/huawei/appmarket/t76;
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/uv5;->b()V
+    sget-object v0, Lcom/huawei/appmarket/t76;->b:Ljava/lang/Object;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    monitor-enter v0
 
-    move-result v0
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/t76;->a:Lcom/huawei/appmarket/t76;
 
-    const/16 v1, -0x2ee3
+    if-nez v1, :cond_0
 
-    const/4 v2, 0x5
+    new-instance v1, Lcom/huawei/appmarket/t76;
 
-    const/16 v3, 0x8
+    invoke-direct {v1}, Lcom/huawei/appmarket/t76;-><init>()V
 
-    const-string v4, "ProductPurchaseAccountObserver"
+    sput-object v1, Lcom/huawei/appmarket/t76;->a:Lcom/huawei/appmarket/t76;
 
-    if-eqz v0, :cond_3
+    goto :goto_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
+    :catchall_0
+    move-exception v1
 
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->getResultCode()I
-
-    move-result v0
-
-    const/16 v5, 0x66
-
-    if-ne v0, v5, :cond_1
-
-    sget-object p1, Lcom/huawei/appmarket/x76;->a:Lcom/huawei/appmarket/x76;
-
-    const-string v0, "login success"
-
-    invoke-virtual {p1, v4, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/y76;->r()V
-
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/y76;->e()V
-
-    goto :goto_0
-
-    :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/api/LoginResultBean;->getResultCode()I
-
-    move-result p1
-
-    const/16 v0, 0x65
-
-    if-ne p1, v0, :cond_2
-
-    sget-object p1, Lcom/huawei/appmarket/x76;->a:Lcom/huawei/appmarket/x76;
-
-    const-string v0, "login failed"
-
-    invoke-virtual {p1, v4, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
-
-    move-result-object p1
-
-    invoke-virtual {p1, v3, v2, v1}, Lcom/huawei/appmarket/y76;->l(III)V
-
-    :cond_2
     :goto_0
-    return-void
+    sget-object v1, Lcom/huawei/appmarket/t76;->a:Lcom/huawei/appmarket/t76;
 
-    :cond_3
+    monitor-exit v0
+
+    return-object v1
+
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/x76;->a:Lcom/huawei/appmarket/x76;
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const-string v0, "onComplete, login task is failed"
-
-    invoke-virtual {p1, v4, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/y76;->j()Lcom/huawei/appmarket/y76;
-
-    move-result-object p1
-
-    invoke-virtual {p1, v3, v2, v1}, Lcom/huawei/appmarket/y76;->l(III)V
-
-    return-void
+    throw v1
 .end method

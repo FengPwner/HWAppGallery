@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -42,11 +42,11 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/qz1;->c()Lcom/huawei/appmarket/qz1;
+    invoke-static {}, Lcom/huawei/appmarket/uz1;->c()Lcom/huawei/appmarket/uz1;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qz1;->b()Lcom/huawei/appmarket/zo3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/uz1;->b()Lcom/huawei/appmarket/bp3;
 
     move-result-object p1
 
@@ -54,7 +54,7 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/ui/EmergencyOpsActivity$a;->c:Ljava/lang/String;
 
-    invoke-interface {p1, p3, p2}, Lcom/huawei/appmarket/zo3;->a(ILjava/lang/String;)V
+    invoke-interface {p1, p3, p2}, Lcom/huawei/appmarket/bp3;->a(ILjava/lang/String;)V
 
     :cond_0
     const/4 p1, -0x1
@@ -65,13 +65,13 @@
 
     if-eqz p2, :cond_2
 
-    new-instance p1, Lcom/huawei/appmarket/iz1;
+    new-instance p1, Lcom/huawei/appmarket/mz1;
 
     invoke-static {p2}, Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/ui/EmergencyOpsActivity;->C3(Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/ui/EmergencyOpsActivity;)Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/api/EmergencyParameter;
 
     move-result-object p3
 
-    invoke-direct {p1, p2, p3}, Lcom/huawei/appmarket/iz1;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/api/EmergencyParameter;)V
+    invoke-direct {p1, p2, p3}, Lcom/huawei/appmarket/mz1;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/emergencyrecovery/emergencyrecovery/api/EmergencyParameter;)V
 
     const/4 p3, 0x0
 

@@ -96,7 +96,7 @@
     const v2, 0x3edb645a    # 0.4285f
 
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result p1
 

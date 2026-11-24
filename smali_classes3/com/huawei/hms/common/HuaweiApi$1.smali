@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hms/common/HuaweiApi;->disconnectService()Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/hms/common/HuaweiApi;->disconnectService()Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic a:Lcom/huawei/hms/common/HuaweiApi;
 
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic c:Lcom/huawei/hms/common/HuaweiApi;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/appmarket/tv7;)V
     .registers 4
 
     .line 1
@@ -34,7 +34,7 @@
 
     iput-object p2, p0, Lcom/huawei/hms/common/HuaweiApi$1;->a:Lcom/huawei/hms/common/HuaweiApi;
 
-    iput-object p3, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p3, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,9 +50,9 @@
 
     iget-object v1, p0, Lcom/huawei/hms/common/HuaweiApi$1;->a:Lcom/huawei/hms/common/HuaweiApi;
 
-    iget-object v2, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lcom/huawei/appmarket/nv7;
+    iget-object v2, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lcom/huawei/appmarket/tv7;
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;->a(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/appmarket/nv7;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;->a(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method

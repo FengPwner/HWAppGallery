@@ -100,11 +100,11 @@
 
     .line 23
     .line 24
-    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 25
     .line 26
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 27
     .line 28
@@ -138,11 +138,11 @@
 
     .line 41
     .line 42
-    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 43
     .line 44
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ja3;->g()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ma3;->g()I
 
     .line 45
     .line 46
@@ -156,11 +156,11 @@
     .line 50
     .line 51
     :cond_1
-    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object p2, v1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 52
     .line 53
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ja3;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ma3;->k()I
 
     .line 54
     .line 55
@@ -283,7 +283,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -298,7 +297,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 6
     .line 7
@@ -470,5 +469,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -1,0 +1,26 @@
+.class public Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyPairGeneratorSpi$NTRUPlus864;
+.super Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyPairGeneratorSpi;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyPairGeneratorSpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "NTRUPlus864"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    sget-object v0, Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;->ntruplus_kem_864:Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;
+
+    invoke-direct {p0, v0}, Lorg/bouncycastle/pqc/jcajce/provider/ntruplus/NTRUPlusKeyPairGeneratorSpi;-><init>(Lorg/bouncycastle/pqc/crypto/ntruplus/NTRUPlusParameters;)V
+
+    return-void
+.end method

@@ -47,13 +47,13 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/hs2;->v(Ljava/lang/Object;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ks2;->v(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->l(Ljava/lang/Object;)Landroid/util/ArraySet;
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->l(Ljava/lang/Object;)Landroid/util/ArraySet;
 
     move-result-object p0
 

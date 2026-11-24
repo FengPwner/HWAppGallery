@@ -1058,7 +1058,7 @@
 
     .line 31
     .line 32
-    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p0, v3}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -1221,7 +1221,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static getRawType(Ljava/lang/reflect/Type;)Ljava/lang/Class;

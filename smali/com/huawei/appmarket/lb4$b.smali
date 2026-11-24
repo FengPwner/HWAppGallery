@@ -1,9 +1,6 @@
 .class final Lcom/huawei/appmarket/lb4$b;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/t3;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/io/Serializable;
 
 
 # annotations
@@ -12,42 +9,71 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
+    accessFlags = 0x8
     name = "b"
 .end annotation
 
-
-# static fields
-.field private static final serialVersionUID:J
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/huawei/appmarket/t3<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # instance fields
-.field final b:[Ljava/lang/Object;
+.field private final d:Lcom/huawei/appmarket/lb4;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/lb4<",
+            "TE;>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>([Ljava/lang/Object;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/lb4;I)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/lb4<",
+            "TE;>;I)V"
+        }
+    .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
-    iput-object p1, p0, Lcom/huawei/appmarket/lb4$b;->b:[Ljava/lang/Object;
+    move-result v0
+
+    invoke-direct {p0, v0, p2}, Lcom/huawei/appmarket/t3;-><init>(II)V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/lb4$b;->d:Lcom/huawei/appmarket/lb4;
 
     return-void
 .end method
 
 
 # virtual methods
-.method readResolve()Ljava/lang/Object;
-    .registers 2
+.method protected final b(I)Ljava/lang/Object;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)TE;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/lb4$b;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcom/huawei/appmarket/lb4$b;->d:Lcom/huawei/appmarket/lb4;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lb4;->o([Ljava/lang/Object;)Lcom/huawei/appmarket/lb4;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object p1
 
-    return-object v0
+    return-object p1
 .end method

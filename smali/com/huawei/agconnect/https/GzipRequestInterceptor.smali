@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lj4;
+.implements Lcom/huawei/appmarket/nj4;
 
 
 # annotations
@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/lr6;
+.method public final a(Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/or6;
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -37,23 +37,23 @@
     .line 1
     new-instance v0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;
 
-    invoke-direct {v0, p1}, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;-><init>(Lcom/huawei/appmarket/lr6;)V
+    invoke-direct {v0, p1}, Lcom/huawei/agconnect/https/GzipRequestInterceptor$RequestBodyMod;-><init>(Lcom/huawei/appmarket/or6;)V
 
     return-object v0
 .end method
 
-.method public final b(Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/lr6;
+.method public final b(Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/or6;
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/agconnect/https/GzipRequestInterceptor$GzipRequestBody;
 
-    invoke-direct {v0, p1}, Lcom/huawei/agconnect/https/GzipRequestInterceptor$GzipRequestBody;-><init>(Lcom/huawei/appmarket/lr6;)V
+    invoke-direct {v0, p1}, Lcom/huawei/agconnect/https/GzipRequestInterceptor$GzipRequestBody;-><init>(Lcom/huawei/appmarket/or6;)V
 
     return-object v0
 .end method
 
-.method public intercept(Lcom/huawei/appmarket/lj4$a;)Lcom/huawei/appmarket/vu6;
+.method public intercept(Lcom/huawei/appmarket/nj4$a;)Lcom/huawei/appmarket/zu6;
     .registers 6
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -62,7 +62,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/lj4$a;->request()Lcom/huawei/appmarket/gr6;
+    invoke-interface {p1}, Lcom/huawei/appmarket/nj4$a;->request()Lcom/huawei/appmarket/jr6;
 
     .line 2
     .line 3
@@ -74,7 +74,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jr6;->d(Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -86,7 +86,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6;->a()Lcom/huawei/appmarket/lr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6;->a()Lcom/huawei/appmarket/or6;
 
     .line 14
     .line 15
@@ -102,11 +102,11 @@
 
     .line 20
     :cond_0
-    new-instance v2, Lcom/huawei/appmarket/gr6$a;
+    new-instance v2, Lcom/huawei/appmarket/jr6$a;
 
     .line 21
     .line 22
-    invoke-direct {v2, v0}, Lcom/huawei/appmarket/gr6$a;-><init>(Lcom/huawei/appmarket/gr6;)V
+    invoke-direct {v2, v0}, Lcom/huawei/appmarket/jr6$a;-><init>(Lcom/huawei/appmarket/jr6;)V
 
     .line 23
     .line 24
@@ -115,12 +115,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gr6$a;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jr6$a;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6;->h()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -128,7 +128,7 @@
     move-result-object v1
 
     .line 34
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6;->a()Lcom/huawei/appmarket/lr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6;->a()Lcom/huawei/appmarket/or6;
 
     .line 35
     .line 36
@@ -136,7 +136,7 @@
     move-result-object v0
 
     .line 38
-    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/https/GzipRequestInterceptor;->b(Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/lr6;
+    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/https/GzipRequestInterceptor;->b(Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/or6;
 
     .line 39
     .line 40
@@ -144,7 +144,7 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/https/GzipRequestInterceptor;->a(Lcom/huawei/appmarket/lr6;)Lcom/huawei/appmarket/lr6;
+    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/https/GzipRequestInterceptor;->a(Lcom/huawei/appmarket/or6;)Lcom/huawei/appmarket/or6;
 
     .line 43
     .line 44
@@ -152,12 +152,12 @@
     move-result-object v0
 
     .line 46
-    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/gr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/lr6;)V
+    invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/jr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/or6;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gr6$a;->b()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/jr6$a;->b()Lcom/huawei/appmarket/jr6;
 
     .line 50
     .line 51
@@ -165,7 +165,7 @@
     move-result-object v0
 
     .line 53
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lj4$a;->a(Lcom/huawei/appmarket/gr6;)Lcom/huawei/appmarket/vu6;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/nj4$a;->a(Lcom/huawei/appmarket/jr6;)Lcom/huawei/appmarket/zu6;
 
     .line 54
     .line 55
@@ -178,7 +178,7 @@
     .line 58
     :cond_1
     :goto_0
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lj4$a;->a(Lcom/huawei/appmarket/gr6;)Lcom/huawei/appmarket/vu6;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/nj4$a;->a(Lcom/huawei/appmarket/jr6;)Lcom/huawei/appmarket/zu6;
 
     .line 59
     .line 60

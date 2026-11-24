@@ -4,20 +4,14 @@
 
 
 # virtual methods
-.method public abstract close()V
+.method public abstract a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 .end method
 
-.method public abstract o(Ljava/lang/String;Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyRequest;Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;)Lcom/huawei/appmarket/gw7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyRequest;",
-            "Lcom/huawei/gamebox/plugin/gameservice/bean/GameInfo;",
-            ")",
-            "Lcom/huawei/appmarket/gw7<",
-            "Lcom/huawei/appgallery/assistantdock/buoydock/uikit/remote/RemoteBuoyCallback;",
-            ">;"
-        }
-    .end annotation
+.method public abstract b()Z
+.end method
+
+.method public abstract c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)V
+.end method
+
+.method public abstract d()V
 .end method

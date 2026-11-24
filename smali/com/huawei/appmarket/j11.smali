@@ -36,7 +36,7 @@
 
 .field h:I
 
-.field i:Lcom/huawei/appmarket/wh7;
+.field i:Lcom/huawei/appmarket/bi7;
 
 
 # direct methods
@@ -135,7 +135,7 @@
     return v0
 .end method
 
-.method public final c(ILcom/huawei/appmarket/hq8;Ljava/util/ArrayList;)V
+.method public final c(ILcom/huawei/appmarket/nq8;Ljava/util/ArrayList;)V
     .registers 6
 
     .line 1
@@ -162,7 +162,7 @@
 
     iget-object v1, v1, Lcom/huawei/appmarket/j11;->d:Lcom/huawei/appmarket/k11;
 
-    invoke-static {v1, p1, p3, p2}, Lcom/huawei/appmarket/a33;->a(Lcom/huawei/appmarket/k11;ILjava/util/ArrayList;Lcom/huawei/appmarket/hq8;)Lcom/huawei/appmarket/hq8;
+    invoke-static {v1, p1, p3, p2}, Lcom/huawei/appmarket/d33;->a(Lcom/huawei/appmarket/k11;ILjava/util/ArrayList;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
 
     goto :goto_0
 
@@ -317,11 +317,11 @@
     .end packed-switch
 .end method
 
-.method public final h()Lcom/huawei/appmarket/wh7;
+.method public final h()Lcom/huawei/appmarket/bi7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/wh7;
+    iget-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/bi7;
 
     return-object v0
 .end method
@@ -546,7 +546,7 @@
     const/4 v1, 0x1
 
     :goto_2
-    instance-of v3, v3, Lcom/huawei/appmarket/m33;
+    instance-of v3, v3, Lcom/huawei/appmarket/p33;
 
     if-eqz v3, :cond_b
 
@@ -586,7 +586,7 @@
     const/4 v1, 0x1
 
     :goto_4
-    instance-of v3, v3, Lcom/huawei/appmarket/m33;
+    instance-of v3, v3, Lcom/huawei/appmarket/p33;
 
     if-eqz v3, :cond_10
 
@@ -689,24 +689,24 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/wh7;
+    iget-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/bi7;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/wh7;
+    new-instance v0, Lcom/huawei/appmarket/bi7;
 
-    sget-object v1, Lcom/huawei/appmarket/wh7$a;->b:Lcom/huawei/appmarket/wh7$a;
+    sget-object v1, Lcom/huawei/appmarket/bi7$a;->b:Lcom/huawei/appmarket/bi7$a;
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/wh7;-><init>(Lcom/huawei/appmarket/wh7$a;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/bi7;-><init>(Lcom/huawei/appmarket/bi7$a;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/wh7;
+    iput-object v0, p0, Lcom/huawei/appmarket/j11;->i:Lcom/huawei/appmarket/bi7;
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wh7;->c()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bi7;->c()V
 
     :goto_0
     return-void

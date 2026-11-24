@@ -14,7 +14,7 @@
 # instance fields
 .field private final b:Lcom/huawei/appgallery/audiokit/impl/AudioPlayService$a;
 
-.field private c:Lcom/huawei/appmarket/b42;
+.field private c:Lcom/huawei/appmarket/f42;
 
 
 # direct methods
@@ -36,7 +36,7 @@
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/b42;
+    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/f42;
 
     return-object p0
 .end method
@@ -46,13 +46,13 @@
 .method public final onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v0, "AudioPlayService"
 
     const-string v1, "onBind"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->b:Lcom/huawei/appgallery/audiokit/impl/AudioPlayService$a;
 
@@ -63,7 +63,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 2
     .line 3
@@ -75,7 +75,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -85,25 +85,25 @@
     .line 11
     .line 12
     .line 13
-    new-instance v0, Lcom/huawei/appmarket/c42;
+    new-instance v0, Lcom/huawei/appmarket/g42;
 
     .line 14
     .line 15
-    invoke-direct {v0}, Lcom/huawei/appmarket/c42;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/g42;-><init>()V
 
     .line 16
     .line 17
     .line 18
-    new-instance v0, Lcom/huawei/appmarket/b42;
+    new-instance v0, Lcom/huawei/appmarket/f42;
 
     .line 19
     .line 20
-    invoke-direct {v0}, Lcom/huawei/appmarket/b42;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/f42;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/b42;
+    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/f42;
 
     .line 24
     .line 25
@@ -225,27 +225,27 @@
 .method public final onDestroy()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPlayService"
 
     const-string v2, "onDestroy"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Landroid/app/Service;->stopForeground(Z)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/b42;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/f42;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b42;->O()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/f42;->O()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/b42;
+    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/AudioPlayService;->c:Lcom/huawei/appmarket/f42;
 
     :cond_0
     invoke-super {p0}, Lcom/huawei/secure/android/common/activity/SafeService;->onDestroy()V
@@ -256,19 +256,19 @@
 .method public final onStartCommand(Landroid/content/Intent;II)I
     .registers 7
 
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPlayService"
 
     const-string v2, "onStartCommand"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appgallery/audiokit/impl/a;->v()Lcom/huawei/appgallery/audiokit/impl/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/gz;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/hz;
 
     move-result-object v0
 
@@ -276,7 +276,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/audiokit/impl/notification/c;->k(Lcom/huawei/appmarket/gz;)Landroid/app/Notification;
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/audiokit/impl/notification/c;->k(Lcom/huawei/appmarket/hz;)Landroid/app/Notification;
 
     move-result-object v0
 

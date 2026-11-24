@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceCard$a;->b:Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -34,13 +34,13 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v0, "QuickServiceCard"
 
     const-string v1, "click item"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceCard$a;->b:Lcom/huawei/appgallery/detail/detailcard/card/quickservicecard/QuickServiceCard;
 

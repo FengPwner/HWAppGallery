@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 
@@ -23,7 +23,7 @@
 
 .method public static destroy(Landroid/content/Context;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0
@@ -45,7 +45,7 @@
 
 .method public static init(Landroid/content/Context;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0

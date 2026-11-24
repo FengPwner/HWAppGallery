@@ -42,7 +42,7 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v3, Lcom/huawei/appgallery/search/ui/card/TrialModeSearchEmptyCard;
 

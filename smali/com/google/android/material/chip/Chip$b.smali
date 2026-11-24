@@ -39,17 +39,17 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip$b;->b:Lcom/google/android/material/chip/Chip;
 
-    invoke-static {v0}, Lcom/google/android/material/chip/Chip;->c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/e45$a;
+    invoke-static {v0}, Lcom/google/android/material/chip/Chip;->c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/h45$a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/google/android/material/chip/Chip;->c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/e45$a;
+    invoke-static {v0}, Lcom/google/android/material/chip/Chip;->c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/h45$a;
 
     move-result-object v1
 
-    invoke-interface {v1, v0, p2}, Lcom/huawei/appmarket/e45$a;->a(Lcom/google/android/material/chip/Chip;Z)V
+    invoke-interface {v1, v0, p2}, Lcom/huawei/appmarket/h45$a;->a(Lcom/google/android/material/chip/Chip;Z)V
 
     :cond_0
     invoke-static {v0}, Lcom/google/android/material/chip/Chip;->d(Lcom/google/android/material/chip/Chip;)Landroid/widget/CompoundButton$OnCheckedChangeListener;

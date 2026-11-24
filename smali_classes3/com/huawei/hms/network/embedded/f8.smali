@@ -157,11 +157,11 @@
 
     sput-object v2, Lcom/huawei/hms/network/embedded/f8;->i:Ljava/util/TimeZone;
 
-    new-instance v2, Lcom/huawei/appmarket/qt4;
+    new-instance v2, Lcom/huawei/appmarket/tt4;
 
     const/16 v4, 0x14
 
-    invoke-direct {v2, v4}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {v2, v4}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
     sput-object v2, Lcom/huawei/hms/network/embedded/f8;->j:Ljava/util/Comparator;
 
@@ -340,7 +340,7 @@
     const-string p2, " too small."
 
     .line 4
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -361,7 +361,7 @@
     const-string p2, " too large."
 
     .line 6
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -385,7 +385,7 @@
     const-string p2, " < 0"
 
     .line 8
-    invoke-static {p0, p2}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -499,7 +499,7 @@
 
     .line 16
     :cond_1
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -614,7 +614,7 @@
     const-string v2, "\'"
 
     .line 22
-    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1268,11 +1268,11 @@
     .registers 4
 
     .line 39
-    new-instance v0, Lcom/huawei/appmarket/w69;
+    new-instance v0, Lcom/huawei/appmarket/c79;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p0, p1}, Lcom/huawei/appmarket/w69;-><init>(ILjava/lang/String;Z)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/c79;-><init>(Ljava/lang/String;ZI)V
 
     return-object v0
 .end method

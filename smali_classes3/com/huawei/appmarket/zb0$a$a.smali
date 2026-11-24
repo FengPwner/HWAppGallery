@@ -61,7 +61,7 @@
 
     const-string v1, "BridgeMainBinderHandler"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/os/Messenger;
 
@@ -86,7 +86,7 @@
 
     const-string v0, " onServiceDisconnected"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/zb0$a$a;->b:Lcom/huawei/appmarket/zb0$a;
 

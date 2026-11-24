@@ -78,7 +78,7 @@
     .registers 12
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/l92;->a:Lcom/huawei/appmarket/l92;
+    sget-object v0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
     .line 2
     .line 3
@@ -90,7 +90,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -103,7 +103,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -206,7 +206,7 @@
 
     .line 64
     .line 65
-    new-instance v7, Lcom/huawei/appmarket/kk7;
+    new-instance v7, Lcom/huawei/appmarket/qk7;
 
     .line 66
     .line 67
@@ -243,7 +243,7 @@
     move-object v1, v7
 
     .line 84
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/kk7;-><init>(FFFFF)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/qk7;-><init>(FFFFF)V
 
     .line 85
     .line 86
@@ -274,14 +274,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final c(Landroid/view/View;)V
     .registers 12
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/l92;->a:Lcom/huawei/appmarket/l92;
+    sget-object v0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
     .line 2
     .line 3
@@ -293,7 +292,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -306,7 +305,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -447,5 +446,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

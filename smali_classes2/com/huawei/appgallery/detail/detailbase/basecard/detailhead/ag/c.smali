@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/huawei/appmarket/ui3;
+    instance-of v0, v0, Lcom/huawei/appmarket/wi3;
 
     if-eqz v0, :cond_0
 
@@ -40,11 +40,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ui3;
+    check-cast v0, Lcom/huawei/appmarket/wi3;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/ui3;->e1(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/wi3;->e1(Z)V
 
     :cond_0
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;->C1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/ag/DetailHeadAgCard;)Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;

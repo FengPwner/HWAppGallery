@@ -1891,7 +1891,7 @@
     <string name="hiapp_trial_mode_privacy_first_content_all">በሁሉም የAppGallery ባህሪያት ለመደሰት በ%1$s፣ %2$s እና %3$s መስማማት አለብዎት።</string>
     <string name="hiapp_trial_mode_privacy_merge_content">ሙሉ ሁነታ የ%1$s ግንኙነት እና የመተግበሪያ ዝርዝር ፈቃድ ያስፈልገዋል። የሚከተሉትን ማንበብ እና መስቀል/ማስተላለፍ ሊኖርበት ይችላል፦ ምስሎች እና ቪዲዮዎች፣ ስለእርስዎ መሳሪያ፣ መለያ፣ አውታረ መረብ፣ ግብይቶች፣ የመተግበሪያ አጠቃቀም፣ የተጫኑ መተግበሪያዎች እና እውቂያዎች መረጃና እንዲሁም እርስዎ በንቃት የሚሰቅሉት ሌላ መረጃ። ይህ የመተግበሪያ ውርዶችን፣ ጭነቶችን፣ ዝማኔዎችን እና ሌሎች ተዛማጅ አገልግሎቶችን ለማቅረብ ነው። %2$s</string>
     <string name="hiapp_trial_mode_privacy_second_content">በሁሉም የAppGallery ባህሪያት ለመደሰት ሙሉ ሁነታን ይጠቀሙ። ሙሉ ሁነታን በመጠቀም በ%1$s፣ %2$s፣ %3$s እንደሚስማሙ እና የተጨማሪ-እሴት አገልግሎቶችን ስራ እንደሚያስጀምሩ ያመለክታሉ።</string>
-    <string name="hiapp_trial_mode_privacy_second_content_no_permission_desc">በሁሉም የAppGallery ባህሪያት ለመደሰት ሙሉ ሁነታን ይጠቀሙ። ሙሉ ሁነታን በመጠቀም በ%1$s፣ %2$s እና የተጨማሪ-እሴት አገልግሎቶችን ስራ ለማስጀመር እንደሚስማሙ ያመለክታሉ።</string>
+    <string name="hiapp_trial_mode_privacy_second_content_no_permission_desc">በሁሉም የAppGallery ባህሪያት ለመደሰት ሙሉ ሁነታን ይጠቀሙ። ሙሉ ሁነታን በመጠቀም በ%1$s፣ %2$s መስማማትዎን እና የተጨማሪ-እሴት አገልግሎቶችን ስራ ለማስጀመር እንደሚስማሙ ያመለክታሉ።</string>
     <string name="hiapp_trial_mode_privacy_second_content_other_brand">በሁሉም የAppGallery ባህሪያት ለመደሰት ሙሉ ሁነታን ይጠቀሙ። ሙሉ ሁነታን በመጠቀምዎ በ%1$s እና %2$s መስማማትዎን ያመለክታሉ።</string>
     <string name="hiapp_trial_mode_privacy_second_description_trialmode">መሠረታዊ ሁነታ የሚያቀርበው እንደ የመተግበሪያ ፍለጋዎች እና የወረዱ ያሉ መሠረታዊ የAppGallery ባህሪያት መዳረሻ ብቻ ነው። %1$s። ይህ ሁነታ የ%2$s ግንኙነት ያስፈልገዋል። በዚህ ሁነታ ውስጥ በመቀጠልዎ በእነዚህ ደንቦች ይስማማሉ።</string>
     <string name="hiapp_trial_mode_value_added_services">ሙሉ ሁነታን ለመጠቀም ከመረጡ ተሞክሮዎን ለማሻሻል ከእርስዎ ፈቃድ ጋር %1$s እንዲሁም ስራ ይጀምራል።</string>

@@ -48,7 +48,7 @@
     move-result v1
 
     .line 11
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 12
     .line 13
@@ -56,7 +56,7 @@
     move-result v2
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 16
     .line 17
@@ -456,7 +456,7 @@
 
     .line 213
     .line 214
-    invoke-static {v0, p1, v3}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v0, p1, v3}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 215
     .line 216
@@ -1133,25 +1133,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public final h()I
@@ -1173,17 +1154,17 @@
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 7
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
@@ -1195,19 +1176,19 @@
 
     if-le v0, v1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
-    new-instance v2, Lcom/huawei/appmarket/qt4;
+    new-instance v2, Lcom/huawei/appmarket/tt4;
 
     const/16 v3, 0x10
 
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {v2, v3}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
     invoke-static {v0, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
@@ -1221,7 +1202,7 @@
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/service/store/awk/bean/PlatformBean;->R4()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
@@ -1241,14 +1222,14 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
     invoke-static {v0, v2, v1}, Ljava/util/Collections;->swap(Ljava/util/List;II)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

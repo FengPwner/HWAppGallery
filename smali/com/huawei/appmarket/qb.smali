@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/lw7;
+.field final synthetic b:Lcom/huawei/appmarket/rw7;
 
 .field final synthetic c:Lcom/huawei/appmarket/rb;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/rb;Lcom/huawei/appmarket/lw7;)V
+.method constructor <init>(Lcom/huawei/appmarket/rb;Lcom/huawei/appmarket/rw7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/qb;->c:Lcom/huawei/appmarket/rb;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/qb;->b:Lcom/huawei/appmarket/lw7;
+    iput-object p2, p0, Lcom/huawei/appmarket/qb;->b:Lcom/huawei/appmarket/rw7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -34,9 +34,9 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/qb;->c:Lcom/huawei/appmarket/rb;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/qb;->b:Lcom/huawei/appmarket/lw7;
+    iget-object v1, p0, Lcom/huawei/appmarket/qb;->b:Lcom/huawei/appmarket/rw7;
 
-    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/rb;->b(Lcom/huawei/appmarket/rb;Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;Lcom/huawei/appmarket/lw7;)V
+    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/rb;->b(Lcom/huawei/appmarket/rb;Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;Lcom/huawei/appmarket/rw7;)V
 
     return-void
 .end method

@@ -115,7 +115,7 @@
 
     const-string v2, "ActivityUtil"
 
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 

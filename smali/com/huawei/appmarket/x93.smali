@@ -1,30 +1,30 @@
 .class final Lcom/huawei/appmarket/x93;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/et2;
+.implements Lcom/huawei/appmarket/ht2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/et2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ht2<",
         "Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;",
-        "Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/Void;",
+            "Lcom/huawei/appmarket/tv7<",
+            "Lcom/huawei/appmarket/e3$b;",
             ">;"
         }
     .end annotation
@@ -32,23 +32,23 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appmarket/tv7;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/Void;",
+            "Lcom/huawei/appmarket/tv7<",
+            "Lcom/huawei/appmarket/e3$b;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/x93;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p1, p0, Lcom/huawei/appmarket/x93;->b:Lcom/huawei/appmarket/tv7;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -56,14 +56,14 @@
 
 # virtual methods
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 4
+    .registers 6
 
     .line 1
     check-cast p1, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol;
+    check-cast p2, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol;
 
     .line 4
     .line 5
@@ -71,7 +71,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -80,12 +80,12 @@
 
     .line 11
     .line 12
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p2}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol;->h()Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol$Response;
+    invoke-virtual {p2}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol;->h()Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;
 
     .line 16
     .line 17
@@ -97,69 +97,71 @@
 
     .line 20
     .line 21
-    new-instance p1, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol$Response;
+    new-instance p1, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;
 
     .line 22
     .line 23
-    invoke-direct {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol$Response;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;-><init>()V
 
     .line 24
     .line 25
     .line 26
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol$Response;->b()Z
+    new-instance p2, Lcom/huawei/appmarket/e3$b;
 
     .line 27
     .line 28
+    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;->c()Z
+
     .line 29
-    move-result p2
-
     .line 30
-    iget-object v0, p0, Lcom/huawei/appmarket/x93;->b:Lcom/huawei/appmarket/nv7;
-
     .line 31
+    move-result v0
+
     .line 32
-    if-eqz p2, :cond_1
+    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;->a()Ljava/lang/String;
 
     .line 33
     .line 34
-    const/4 p1, 0x0
-
     .line 35
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    move-result-object v1
 
     .line 36
+    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;->d()Ljava/lang/String;
+
     .line 37
     .line 38
-    goto :goto_0
-
     .line 39
-    :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/BindSecurePhoneActivityProtocol$Response;->a()Lcom/huawei/appgallery/account/base/api/AccountException;
+    move-result-object v2
 
     .line 40
+    invoke-virtual {p1}, Lcom/huawei/appgallery/accountkit/impl/bridge/LoginActivityProtocol$Response;->b()Ljava/lang/Integer;
+
     .line 41
     .line 42
+    .line 43
     move-result-object p1
 
-    .line 43
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
-
     .line 44
+    invoke-direct {p2, v0, v1, v2, p1}, Lcom/huawei/appmarket/e3$b;-><init>(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+
     .line 45
     .line 46
-    :goto_0
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
-
     .line 47
+    iget-object p1, p0, Lcom/huawei/appmarket/x93;->b:Lcom/huawei/appmarket/tv7;
+
     .line 48
-    return-object p1
     .line 49
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
+
     .line 50
     .line 51
     .line 52
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
+
     .line 53
     .line 54
+    return-object p1
     .line 55
     .line 56
     .line 57

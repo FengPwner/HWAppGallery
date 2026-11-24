@@ -9,17 +9,17 @@
 # instance fields
 .field final synthetic b:Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;
 
-.field final synthetic c:Lcom/huawei/appmarket/f07;
+.field final synthetic c:Lcom/huawei/appmarket/j07;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;Lcom/huawei/appmarket/f07;)V
+.method constructor <init>(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;Lcom/huawei/appmarket/j07;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->b:Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->c:Lcom/huawei/appmarket/f07;
+    iput-object p2, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->c:Lcom/huawei/appmarket/j07;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -34,23 +34,23 @@
     .line 1
     const-string v0, "req"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "resp"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->b:Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;
 
     invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->o(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->l(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->l(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/s87;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/n87;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s87;->f()V
 
     :cond_0
     invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->n(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Z
@@ -65,14 +65,14 @@
 
     const-string v0, "prePostResult dropped: ViewModel already destroyed"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
     instance-of v0, p2, Lcom/huawei/appgallery/foundation/store/bean/batchappdetail/BatchAppDetailResponse;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->c:Lcom/huawei/appmarket/f07;
+    iget-object v1, p0, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/a;->c:Lcom/huawei/appmarket/j07;
 
     if-eqz v0, :cond_2
 
@@ -92,7 +92,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/zs1;->d()Lcom/huawei/appmarket/zs1;
+    invoke-static {}, Lcom/huawei/appmarket/ct1;->d()Lcom/huawei/appmarket/ct1;
 
     move-result-object p2
 
@@ -102,32 +102,32 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/zs1;->e(Ljava/util/List;Z)V
+    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/ct1;->e(Ljava/util/List;Z)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->k(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/zd5;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->k(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p2
 
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->j(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/zd5;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->j(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
     sget-object p2, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b$c;->a:Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b$c;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_2
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->k(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/zd5;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->k(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/ce5;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->j(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/zd5;
+    invoke-static {p1}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;->j(Lcom/huawei/appgallery/agguard/business/ui/viewmodel/AgGuardSafetyReportViewModel;)Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
@@ -139,7 +139,7 @@
 
     invoke-direct {v0, p2}, Lcom/huawei/appgallery/agguard/business/ui/viewmodel/b$a;-><init>(I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     :goto_0
     return-void
@@ -160,11 +160,11 @@
     .line 1
     const-string v0, "req"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "resp"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

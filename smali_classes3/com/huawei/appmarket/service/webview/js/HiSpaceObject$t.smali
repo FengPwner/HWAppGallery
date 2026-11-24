@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pb1$a;
+.implements Lcom/huawei/appmarket/rb1$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->showJumpWarningDialog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->deeplinkToAppByToast(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,22 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Ljava/lang/String;
+.field final synthetic b:Lcom/huawei/appmarket/cq4;
 
-.field final synthetic c:Ljava/lang/String;
-
-.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+.field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 4
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lcom/huawei/appmarket/cq4;)V
+    .registers 3
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->b:Ljava/lang/String;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->c:Ljava/lang/String;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->b:Lcom/huawei/appmarket/cq4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,34 +45,24 @@
     .line 1
     const-string v0, "HiSpaceObject"
 
-    const-string v1, "showJumpWarningDialog: user cancelled"
+    const-string v1, " click cancel"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->c:Ljava/lang/String;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$2000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public final h2()V
-    .registers 3
+    .registers 4
 
     .line 1
-    const-string v0, "HiSpaceObject"
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->b:Lcom/huawei/appmarket/cq4;
 
-    const-string v1, "showJumpWarningDialog: user confirmed"
+    const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$t;->b:Ljava/lang/String;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$2000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
+    invoke-static {v2, v0, v1, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$1900(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lcom/huawei/appmarket/cq4;Lcom/huawei/appmarket/mm3;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -102,7 +102,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->u(Landroid/app/Activity;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->u(Landroid/app/Activity;)Z
 
     move-result v1
 

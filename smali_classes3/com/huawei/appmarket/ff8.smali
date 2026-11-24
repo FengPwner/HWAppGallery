@@ -1,29 +1,25 @@
-.class final Lcom/huawei/appmarket/ff8;
+.class public abstract Lcom/huawei/appmarket/ff8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field static final a:Ljava/util/concurrent/atomic/AtomicLong;
+.field public static final synthetic a:I
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 3
+    .registers 1
 
     .line 1
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
+    const-string v0, "^[0-9]{5,15}$"
 
-    const-wide/16 v1, 0x0
-
-    invoke-direct {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
-
-    sput-object v0, Lcom/huawei/appmarket/ff8;->a:Ljava/util/concurrent/atomic/AtomicLong;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     return-void
 .end method
 
-.method constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -31,85 +27,110 @@
     return-void
 .end method
 
-.method static a(Lcom/koushikdutta/quack/JavaScriptObject;)J
-    .registers 4
+.method public static a(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)Ljava/lang/String;
+    .registers 3
 
     .line 1
-    const-string v0, "__VM_REVISION__"
+    if-eqz p0, :cond_4
 
-    invoke-virtual {p0, v0}, Lcom/koushikdutta/quack/JavaScriptObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
 
-    move-result-object p0
+    move-result-object v0
 
-    instance-of v0, p0, Ljava/lang/Number;
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Ljava/lang/Number;
-
-    invoke-virtual {p0}, Ljava/lang/Number;->longValue()J
-
-    move-result-wide v0
-
-    return-wide v0
+    goto :goto_0
 
     :cond_0
-    instance-of v0, p0, Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
 
-    const-wide/16 v1, 0x0
+    move-result-object v0
+
+    const-string v1, "deeplink|"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
 
     if-eqz v0, :cond_1
 
-    :try_start_0
-    check-cast p0, Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
 
-    invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    move-result-object p0
 
-    move-result-wide v0
-    :try_end_0
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
+    return-object p0
 
-    return-wide v0
-
-    :catch_0
     :cond_1
-    return-wide v1
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "html|"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_2
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "?"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v0
+
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getDetailId_()Ljava/lang/String;
+
+    move-result-object p0
+
+    if-ltz v0, :cond_3
+
+    const/4 v1, 0x0
+
+    invoke-static {p0, v1, v0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_3
+    return-object p0
+
+    :cond_4
+    :goto_0
+    const-string p0, ""
+
+    return-object p0
 .end method
 
-.method static b(Lcom/koushikdutta/quack/JavaScriptObject;)V
-    .registers 7
+.method public static b()Z
+    .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ff8;->a:Ljava/util/concurrent/atomic/AtomicLong;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicLong;->incrementAndGet()J
-
-    move-result-wide v0
-
-    const-wide/32 v2, 0x7fffffff
-
-    const-string v4, "__VM_REVISION__"
-
-    cmp-long v5, v0, v2
-
-    if-gtz v5, :cond_0
-
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
     move-result-object v0
 
-    :goto_0
-    invoke-virtual {p0, v4, v0}, Lcom/koushikdutta/quack/JavaScriptObject;->set(Ljava/lang/String;Ljava/lang/Object;)Z
-
-    goto :goto_1
-
-    :cond_0
-    invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
 
     move-result-object v0
 
-    goto :goto_0
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
-    :goto_1
-    return-void
+    move-result v0
+
+    return v0
 .end method

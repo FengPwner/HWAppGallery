@@ -48,7 +48,7 @@
 
     const/16 v1, 0x18
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -245,7 +245,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static synthetic b(Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/ToolBarIcon;)Z
@@ -383,7 +382,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic c(Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/ToolBarIcon;)Landroid/widget/RelativeLayout;
@@ -536,7 +534,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private f(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -703,7 +700,7 @@
 
     .line 86
     .line 87
-    sget-object v2, Lcom/huawei/appmarket/hf6;->d:[I
+    sget-object v2, Lcom/huawei/appmarket/jf6;->d:[I
 
     .line 88
     .line 89
@@ -783,11 +780,11 @@
 
     .line 124
     .line 125
-    check-cast p2, Lcom/huawei/appmarket/y08;
+    check-cast p2, Lcom/huawei/appmarket/d18;
 
     .line 126
     .line 127
-    invoke-virtual {p2, v0, v4}, Lcom/huawei/appmarket/y08;->a(Lcom/huawei/uikit/hwtextview/widget/HwTextView;Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/b$a;)V
+    invoke-virtual {p2, v0, v4}, Lcom/huawei/appmarket/d18;->a(Lcom/huawei/uikit/hwtextview/widget/HwTextView;Lcom/huawei/appgallery/foundation/ui/framework/widget/toolbar/b$a;)V
 
     .line 128
     .line 129
@@ -836,7 +833,7 @@
 
     .line 147
     .line 148
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     .line 149
     .line 150
@@ -865,14 +862,14 @@
 
     .line 162
     :cond_5
-    new-instance p1, Lcom/huawei/appmarket/lf;
+    new-instance p1, Lcom/huawei/appmarket/w81;
 
     .line 163
     .line 164
-    const/4 p2, 0x4
+    const/4 p2, 0x6
 
     .line 165
-    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     .line 166
     .line 167
@@ -882,14 +879,14 @@
     .line 169
     .line 170
     .line 171
-    new-instance p1, Lcom/huawei/appmarket/xq;
+    new-instance p1, Lcom/huawei/appmarket/wq;
 
     .line 172
     .line 173
     const/4 p2, 0x1
 
     .line 174
-    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/xq;-><init>(Landroid/widget/LinearLayout;I)V
+    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/wq;-><init>(Landroid/widget/LinearLayout;I)V
 
     .line 175
     .line 176
@@ -1305,13 +1302,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method private g()V
@@ -1616,7 +1606,7 @@
     move-result-object v0
 
     .line 150
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     .line 151
     .line 152
@@ -1640,7 +1630,7 @@
 
     .line 161
     .line 162
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 163
     .line 164
@@ -2136,15 +2126,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -2230,14 +2211,14 @@
     .line 2
     .line 3
     .line 4
-    new-instance p1, Lcom/huawei/appmarket/lf;
+    new-instance p1, Lcom/huawei/appmarket/w81;
 
     .line 5
     .line 6
-    const/4 v0, 0x4
+    const/4 v0, 0x6
 
     .line 7
-    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     .line 8
     .line 9
@@ -2341,7 +2322,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final performViewClick()V

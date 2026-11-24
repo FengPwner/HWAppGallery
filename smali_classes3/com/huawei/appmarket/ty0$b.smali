@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/kp6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
+.method public abstract a(Lcom/huawei/appmarket/np6;Lcom/huawei/hmf/orb/exception/ConnectRemoteException;)V
 .end method

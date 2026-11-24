@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jt3;
+.implements Lcom/huawei/appmarket/lt3;
 
 
 # static fields
@@ -45,7 +45,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/NormalMultipleLineVerticalCardBean;->list_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

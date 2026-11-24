@@ -42,11 +42,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ge8;->A(Ljava/lang/String;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/le8;->A(Ljava/lang/String;)I
 
     move-result p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ge8;->z(I)I
+    invoke-static {p0}, Lcom/huawei/appmarket/le8;->z(I)I
 
     move-result p0
 

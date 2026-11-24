@@ -88,7 +88,7 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/uz2;
+    check-cast v3, Lcom/huawei/appmarket/xz2;
 
     if-nez v3, :cond_3
 
@@ -126,7 +126,7 @@
 
     invoke-virtual {v5, v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->G0(Ljava/lang/String;)V
 
-    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/uz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/xz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     const v3, 0x7f0a0807
 

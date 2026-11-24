@@ -146,7 +146,7 @@
     move-result-object p1
 
     .line 41
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -172,7 +172,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p1}, Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity;->m3()Lcom/huawei/appmarket/np3;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity;->m3()Lcom/huawei/appmarket/pp3;
 
     .line 54
     .line 55
@@ -184,7 +184,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0}, Lcom/huawei/appmarket/np3;->onTimeout()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pp3;->onTimeout()Z
 
     .line 60
     .line 61
@@ -238,7 +238,7 @@
     move-result-object p1
 
     .line 84
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -273,5 +273,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

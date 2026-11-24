@@ -14,7 +14,7 @@
     .end annotation
 .end field
 
-.field private Z:Lcom/huawei/appmarket/hj0;
+.field private Z:Lcom/huawei/appmarket/ij0;
 
 
 # direct methods
@@ -52,11 +52,11 @@
     return v0
 .end method
 
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/hj0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/ij0;
 
     return-void
 .end method
@@ -96,11 +96,11 @@
 
     .line 14
     .line 15
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/hj0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/ij0;
 
     .line 16
     .line 17
-    instance-of v2, v1, Lcom/huawei/appmarket/ij0;
+    instance-of v2, v1, Lcom/huawei/appmarket/jj0;
 
     .line 18
     .line 19
@@ -108,11 +108,11 @@
 
     .line 20
     .line 21
-    check-cast v1, Lcom/huawei/appmarket/ij0;
+    check-cast v1, Lcom/huawei/appmarket/jj0;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ij0;->I()Lcom/huawei/appmarket/jg0;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/jj0;->I()Lcom/huawei/appmarket/kg0;
 
     .line 24
     .line 25
@@ -120,15 +120,15 @@
     move-result-object v1
 
     .line 27
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/hj0;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppCardV2;->Z:Lcom/huawei/appmarket/ij0;
 
     .line 28
     .line 29
-    check-cast v2, Lcom/huawei/appmarket/ij0;
+    check-cast v2, Lcom/huawei/appmarket/jj0;
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ij0;->H()Lcom/huawei/appmarket/gg0;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/jj0;->H()Lcom/huawei/appmarket/hg0;
 
     .line 32
     .line 33
@@ -151,7 +151,7 @@
 
     .line 39
     .line 40
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 41
     .line 42
@@ -194,7 +194,7 @@
     move-result-object v3
 
     .line 61
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 62
     .line 63
@@ -323,17 +323,17 @@
     .line 123
     .line 124
     .line 125
-    invoke-virtual {v7, v1}, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->C2(Lcom/huawei/appmarket/jg0;)V
+    invoke-virtual {v7, v1}, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->C2(Lcom/huawei/appmarket/kg0;)V
 
     .line 126
     .line 127
     .line 128
-    invoke-virtual {v7, v2}, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->B2(Lcom/huawei/appmarket/gg0;)V
+    invoke-virtual {v7, v2}, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppSingleGroupCardBean;->B2(Lcom/huawei/appmarket/hg0;)V
 
     .line 129
     .line 130
     .line 131
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 132
     .line 133
@@ -341,7 +341,7 @@
     move-result v8
 
     .line 135
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 136
     .line 137
@@ -378,7 +378,7 @@
 
     .line 151
     .line 152
-    invoke-static {v8}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v8}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 153
     .line 154
@@ -390,7 +390,7 @@
 
     .line 157
     .line 158
-    invoke-static {v10}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v10}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     .line 159
     .line 160
@@ -480,7 +480,7 @@
 
     .line 198
     .line 199
-    invoke-static {v8}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v8}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 200
     .line 201
@@ -492,7 +492,7 @@
 
     .line 204
     .line 205
-    invoke-static {v10}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v10}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     .line 206
     .line 207
@@ -624,7 +624,7 @@
 
     .line 263
     .line 264
-    invoke-static {v8}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v8}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 265
     .line 266
@@ -636,7 +636,7 @@
 
     .line 269
     .line 270
-    invoke-static {v10}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v10}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     .line 271
     .line 272
@@ -770,7 +770,7 @@
 
     .line 329
     .line 330
-    invoke-static {v10, v8, v9}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v10, v8, v9}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 331
     .line 332
@@ -915,7 +915,7 @@
     move-result-object v8
 
     .line 404
-    invoke-static {v8}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v8}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 405
     .line 406
@@ -986,7 +986,7 @@
 
     .line 437
     .line 438
-    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 439
     .line 440
@@ -2010,68 +2010,6 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
 .method public final a2()Z

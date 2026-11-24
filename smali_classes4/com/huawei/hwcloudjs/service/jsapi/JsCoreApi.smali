@@ -257,11 +257,11 @@
 
     invoke-virtual {v0, v4, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    const-string v2, "versionName"
+    const-string/jumbo v2, "versionName"
 
     invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    const-string v2, "versionCode"
+    const-string/jumbo v2, "versionCode"
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -749,7 +749,7 @@
 
     .line 47
     .line 48
-    invoke-static {v4}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v4}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 49
     .line 50
@@ -1049,10 +1049,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public showDialog(Lcom/huawei/hwcloudjs/service/jsapi/JsCoreApi$DialogReq;Lcom/huawei/hwcloudjs/core/JsCallback;)V

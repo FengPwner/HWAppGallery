@@ -25,11 +25,11 @@
 
 
 # virtual methods
-.method public final T()V
+.method public final U()V
     .registers 1
 
     .line 1
-    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->T()V
+    invoke-super {p0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->U()V
 
     invoke-static {}, Lcom/huawei/appmarket/service/distribution/emergencyoperations/actions/ReportLogAction;->d()V
 

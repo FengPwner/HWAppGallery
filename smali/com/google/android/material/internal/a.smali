@@ -514,11 +514,11 @@
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/nq8;)V
+.method public final b(Lcom/huawei/appmarket/tq8;)V
     .registers 6
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 2
     .line 3
@@ -607,7 +607,7 @@
     move-result v1
 
     .line 43
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->i()I
 
     .line 44
     .line 45
@@ -624,7 +624,7 @@
 
     .line 51
     .line 52
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->d(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->d(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     .line 53
     .line 54

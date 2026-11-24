@@ -83,7 +83,7 @@
 
     .line 17
     .line 18
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 19
     .line 20
@@ -99,7 +99,7 @@
 
     .line 25
     .line 26
-    invoke-static {p2}, Lcom/huawei/appmarket/ag;->b(Ljava/util/List;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/zf;->b(Ljava/util/List;)V
 
     .line 27
     .line 28
@@ -124,7 +124,7 @@
 
     .line 38
     .line 39
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/eg;->c(Landroid/content/Context;Ljava/util/List;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/dg;->c(Landroid/content/Context;Ljava/util/List;)V
 
     .line 40
     .line 41
@@ -133,7 +133,7 @@
 
     .line 43
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/cg;->a()Lcom/huawei/appmarket/cg;
+    invoke-static {}, Lcom/huawei/appmarket/bg;->a()Lcom/huawei/appmarket/bg;
 
     .line 44
     .line 45
@@ -146,7 +146,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {p1}, Lcom/huawei/appmarket/cg;->c(Ljava/util/List;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/bg;->c(Ljava/util/List;)V
 
     .line 51
     .line 52
@@ -215,7 +215,7 @@
 
     .line 85
     .line 86
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 87
     .line 88
@@ -308,7 +308,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I

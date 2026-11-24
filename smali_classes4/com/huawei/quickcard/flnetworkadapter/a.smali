@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/g87;
+.implements Lcom/huawei/appmarket/l87;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 .field private e:Ljava/lang/String;
 
-.field private f:Lcom/huawei/appmarket/g87$a;
+.field private f:Lcom/huawei/appmarket/l87$a;
 
 .field private g:Ljava/lang/String;
 
@@ -63,11 +63,11 @@
     return-void
 .end method
 
-.method static synthetic f(Lcom/huawei/quickcard/flnetworkadapter/a;Lcom/huawei/appmarket/g87$a;)V
+.method static synthetic f(Lcom/huawei/quickcard/flnetworkadapter/a;Lcom/huawei/appmarket/l87$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/flnetworkadapter/a;->f:Lcom/huawei/appmarket/g87$a;
+    iput-object p1, p0, Lcom/huawei/quickcard/flnetworkadapter/a;->f:Lcom/huawei/appmarket/l87$a;
 
     return-void
 .end method
@@ -203,11 +203,11 @@
     return-object v0
 .end method
 
-.method public final getRequestType()Lcom/huawei/appmarket/g87$a;
+.method public final getRequestType()Lcom/huawei/appmarket/l87$a;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/flnetworkadapter/a;->f:Lcom/huawei/appmarket/g87$a;
+    iget-object v0, p0, Lcom/huawei/quickcard/flnetworkadapter/a;->f:Lcom/huawei/appmarket/l87$a;
 
     return-object v0
 .end method

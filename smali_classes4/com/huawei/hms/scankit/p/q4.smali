@@ -82,7 +82,7 @@
     const/4 v1, 0x2
 
     .line 4
-    invoke-static {v0, p3, p1, v1}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    invoke-static {v0, p3, p1, v1}, Lcom/huawei/appmarket/kk4;->e(IIII)I
 
     move-result v1
 

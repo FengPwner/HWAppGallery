@@ -8,7 +8,7 @@
 
 .field private final B:Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
 
-.field private C:Lcom/huawei/appmarket/rf7;
+.field private C:Lcom/huawei/appmarket/wf7;
 
 .field protected y:Landroid/view/View;
 
@@ -31,7 +31,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard$b;-><init>(Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;->C:Lcom/huawei/appmarket/rf7;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;->C:Lcom/huawei/appmarket/wf7;
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 29
     .line 30
@@ -190,7 +190,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic p1(Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;)Landroid/content/Context;
@@ -219,7 +218,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -243,7 +242,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/k43;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/n43;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -263,7 +262,7 @@
     move-result-object v1
 
     .line 25
-    invoke-static {v1}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 26
     .line 27
@@ -274,7 +273,7 @@
     const/4 v2, 0x1
 
     .line 30
-    invoke-static {v1, v2, v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->e0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    invoke-static {v1, v2, v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->c0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
     .line 31
     .line 32
@@ -355,7 +354,7 @@
 
     .line 71
     .line 72
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 73
     .line 74
@@ -376,7 +375,7 @@
     const/4 v1, 0x0
 
     .line 82
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     .line 83
     .line 84
@@ -384,7 +383,7 @@
     move-result-object p0
 
     .line 86
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 87
     .line 88
@@ -416,7 +415,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -494,7 +492,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->B(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->B(Landroid/view/View;)V
 
     .line 34
     .line 35
@@ -529,7 +527,7 @@
 
     .line 51
     .line 52
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;->C:Lcom/huawei/appmarket/rf7;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutShareAppCard;->C:Lcom/huawei/appmarket/wf7;
 
     .line 53
     .line 54
@@ -633,5 +631,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

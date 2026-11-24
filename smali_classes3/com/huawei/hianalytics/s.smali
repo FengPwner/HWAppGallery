@@ -129,7 +129,7 @@
 
     :cond_1
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/e53;->i()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->i()Ljava/lang/String;
 
     move-result-object p0
     :try_end_0

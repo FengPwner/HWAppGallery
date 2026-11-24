@@ -16,7 +16,7 @@
 
 .field private b:[I
 
-.field private c:Lcom/huawei/appmarket/pp;
+.field private c:Lcom/huawei/appmarket/op;
 
 .field private d:Landroid/view/View;
 
@@ -92,7 +92,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -139,7 +139,7 @@
 
     .line 30
     .line 31
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -234,22 +234,21 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final d(Landroid/content/Context;Ljava/util/ArrayList;)Lcom/huawei/appmarket/np;
+.method public final d(Landroid/content/Context;Ljava/util/ArrayList;)Lcom/huawei/appmarket/mp;
     .registers 6
 
     .line 1
     if-eqz p1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/np;
+    new-instance v0, Lcom/huawei/appmarket/mp;
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->d:Landroid/view/View;
 
-    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->c:Lcom/huawei/appmarket/pp;
+    iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->c:Lcom/huawei/appmarket/op;
 
-    invoke-direct {v0, p1, p2, v1, v2}, Lcom/huawei/appmarket/np;-><init>(Landroid/content/Context;Ljava/util/List;Landroid/view/View;Lcom/huawei/appmarket/pp;)V
+    invoke-direct {v0, p1, p2, v1, v2}, Lcom/huawei/appmarket/mp;-><init>(Landroid/content/Context;Ljava/util/List;Landroid/view/View;Lcom/huawei/appmarket/op;)V
 
     return-object v0
 
@@ -258,7 +257,7 @@
 
     const-string p2, "context is null or PopupView is showing."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -272,7 +271,7 @@
             "(",
             "Landroid/content/Context;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/jp;",
+            "Lcom/huawei/appmarket/ip;",
             ">;)V"
         }
     .end annotation
@@ -327,7 +326,7 @@
     :catch_0
     const-string p1, "start AppCompliancePopWindowActivity occur error!"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -336,18 +335,18 @@
     :goto_1
     const-string p1, "context is null or cardBean is null."
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final f(Landroid/content/Context;Ljava/util/ArrayList;Landroid/widget/ImageView;Lcom/huawei/appmarket/pp;)V
+.method public final f(Landroid/content/Context;Ljava/util/ArrayList;Landroid/widget/ImageView;Lcom/huawei/appmarket/op;)V
     .registers 5
 
     .line 1
     iput-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->d:Landroid/view/View;
 
-    iput-object p4, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->c:Lcom/huawei/appmarket/pp;
+    iput-object p4, p0, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->c:Lcom/huawei/appmarket/op;
 
     invoke-virtual {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/popwindow/a;->e(Landroid/content/Context;Ljava/util/List;)V
 
@@ -371,7 +370,7 @@
 
     const-string p2, "appComlianceBeanList is null or popup is showing."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

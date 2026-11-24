@@ -52,7 +52,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/RecommendRankingCard$c;->v:Lcom/huawei/uikit/hwimageview/widget/HwImageView;
 
-    const v0, 0x7f0a1663
+    const v0, 0x7f0a1664
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic z(Lcom/huawei/appgallery/upgraderecommendation/ui/RecommendRankingCard$c;)Lcom/huawei/uikit/hwimageview/widget/HwImageView;
@@ -266,7 +265,7 @@
     .line 14
     .line 15
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     .line 16
     .line 17
@@ -279,7 +278,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p5, p1}, Lcom/huawei/appmarket/zf5;->g(Ljava/lang/String;Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)Z
+    invoke-static {p5, p1}, Lcom/huawei/appmarket/cg5;->g(Ljava/lang/String;Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)Z
 
     .line 23
     .line 24
@@ -292,7 +291,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 30
     .line 31
@@ -304,11 +303,11 @@
 
     .line 34
     .line 35
-    check-cast p5, Lcom/huawei/appmarket/dr6;
+    check-cast p5, Lcom/huawei/appmarket/gr6;
 
     .line 36
     .line 37
-    invoke-virtual {p5, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p5, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 38
     .line 39
@@ -316,11 +315,11 @@
     move-result-object p5
 
     .line 41
-    const-class v0, Lcom/huawei/appmarket/vs3;
+    const-class v0, Lcom/huawei/appmarket/xs3;
 
     .line 42
     .line 43
-    invoke-virtual {p5, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p5, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -328,7 +327,7 @@
     move-result-object p5
 
     .line 47
-    check-cast p5, Lcom/huawei/appmarket/vs3;
+    check-cast p5, Lcom/huawei/appmarket/xs3;
 
     .line 48
     .line 49
@@ -340,11 +339,11 @@
     move-result-object v0
 
     .line 53
-    new-instance v3, Lcom/huawei/appmarket/o94$a;
+    new-instance v3, Lcom/huawei/appmarket/q94$a;
 
     .line 54
     .line 55
-    invoke-direct {v3}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 56
     .line 57
@@ -353,7 +352,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 61
     .line 62
@@ -363,21 +362,21 @@
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/o94$a;->v(I)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/q94$a;->v(I)V
 
     .line 67
     .line 68
     .line 69
-    new-instance v4, Lcom/huawei/appmarket/o94;
+    new-instance v4, Lcom/huawei/appmarket/q94;
 
     .line 70
     .line 71
-    invoke-direct {v4, v3}, Lcom/huawei/appmarket/o94;-><init>(Lcom/huawei/appmarket/o94$a;)V
+    invoke-direct {v4, v3}, Lcom/huawei/appmarket/q94;-><init>(Lcom/huawei/appmarket/q94$a;)V
 
     .line 72
     .line 73
     .line 74
-    invoke-interface {p5, v0, v4}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {p5, v0, v4}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 75
     .line 76

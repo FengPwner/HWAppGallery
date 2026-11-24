@@ -4,11 +4,11 @@
 
 
 # static fields
-.field private static final B:Landroid/util/SparseIntArray;
+.field private static final A:Landroid/util/SparseIntArray;
 
 
 # instance fields
-.field private A:J
+.field private z:J
 
 
 # direct methods
@@ -20,21 +20,21 @@
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/gc4;->B:Landroid/util/SparseIntArray;
+    sput-object v0, Lcom/huawei/appmarket/gc4;->A:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0c59
+    const v1, 0x7f0a0319
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a15ea
+    const v1, 0x7f0a0347
 
     const/4 v2, 0x2
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a1217
+    const v1, 0x7f0a15ea
 
     const/4 v2, 0x3
 
@@ -46,12 +46,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0a07b7
-
-    const/4 v2, 0x5
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
     return-void
 .end method
 
@@ -59,9 +53,9 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/gc4;->B:Landroid/util/SparseIntArray;
+    sget-object v0, Lcom/huawei/appmarket/gc4;->A:Landroid/util/SparseIntArray;
 
-    const/4 v1, 0x6
+    const/4 v1, 0x5
 
     const/4 v2, 0x0
 
@@ -75,33 +69,33 @@
 .end method
 
 .method private constructor <init>(Lcom/huawei/appmarket/b81;Landroid/view/View;[Ljava/lang/Object;)V
-    .registers 13
+    .registers 12
 
     const/4 v3, 0x0
-
-    const/4 v0, 0x4
-
-    aget-object v0, p3, v0
-
-    move-object v4, v0
-
-    check-cast v4, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
-
-    const/4 v0, 0x5
-
-    aget-object v0, p3, v0
-
-    move-object v5, v0
-
-    check-cast v5, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     const/4 v0, 0x1
 
     aget-object v0, p3, v0
 
+    move-object v4, v0
+
+    check-cast v4, Landroid/widget/ImageView;
+
+    const/4 v0, 0x2
+
+    aget-object v0, p3, v0
+
+    move-object v5, v0
+
+    check-cast v5, Landroid/widget/ImageView;
+
+    const/4 v0, 0x4
+
+    aget-object v0, p3, v0
+
     move-object v6, v0
 
-    check-cast v6, Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;
+    check-cast v6, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
     const/4 v0, 0x3
 
@@ -111,25 +105,17 @@
 
     check-cast v7, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
-    const/4 v0, 0x2
-
-    aget-object v0, p3, v0
-
-    move-object v8, v0
-
-    check-cast v8, Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
-
     move-object v0, p0
 
     move-object v1, p1
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v8}, Lcom/huawei/appmarket/fc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/appgallery/foundation/ui/framework/widget/LineImageView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;)V
+    invoke-direct/range {v0 .. v7}, Lcom/huawei/appmarket/fc4;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/ImageView;Landroid/widget/ImageView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;)V
 
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->A:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->z:J
 
     const/4 p1, 0x0
 
@@ -181,7 +167,7 @@
     const-wide/16 v0, 0x0
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->A:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->z:J
 
     monitor-exit p0
 
@@ -204,7 +190,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-wide v0, p0, Lcom/huawei/appmarket/gc4;->A:J
+    iget-wide v0, p0, Lcom/huawei/appmarket/gc4;->z:J
 
     const-wide/16 v2, 0x0
 
@@ -247,7 +233,7 @@
     const-wide/16 v0, 0x1
 
     :try_start_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->A:J
+    iput-wide v0, p0, Lcom/huawei/appmarket/gc4;->z:J
 
     monitor-exit p0
     :try_end_0

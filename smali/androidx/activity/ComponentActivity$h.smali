@@ -17,7 +17,7 @@
 # instance fields
 .field a:Ljava/lang/Object;
 
-.field b:Lcom/huawei/appmarket/ri8;
+.field b:Lcom/huawei/appmarket/xi8;
 
 
 # direct methods

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;->refreshView(Ljava/lang/String;Lcom/huawei/appmarket/oc6;)V
+    value = Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;->refreshView(Ljava/lang/String;Lcom/huawei/appmarket/qc6;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/oc6;
+.field final synthetic b:Lcom/huawei/appmarket/qc6;
 
 .field final synthetic c:Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;Lcom/huawei/appmarket/oc6;)V
+.method constructor <init>(Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;Lcom/huawei/appmarket/qc6;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$a;->c:Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$a;->b:Lcom/huawei/appmarket/oc6;
+    iput-object p2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$a;->b:Lcom/huawei/appmarket/qc6;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -42,9 +42,9 @@
 .method public final run()V
     .registers 7
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$a;->b:Lcom/huawei/appmarket/oc6;
+    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/app/InteractRecomAppView$a;->b:Lcom/huawei/appmarket/qc6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/oc6;->c()Lcom/huawei/appmarket/sa2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qc6;->c()Lcom/huawei/appmarket/va2;
 
     move-result-object v1
 
@@ -52,11 +52,11 @@
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/oc6;->c()Lcom/huawei/appmarket/sa2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qc6;->c()Lcom/huawei/appmarket/va2;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sa2;->getFLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/va2;->getFLayout()Lcom/huawei/appmarket/xc2;
 
     move-result-object v1
 
@@ -65,15 +65,15 @@
     goto :goto_2
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/oc6;->c()Lcom/huawei/appmarket/sa2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qc6;->c()Lcom/huawei/appmarket/va2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sa2;->getFLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/va2;->getFLayout()Lcom/huawei/appmarket/xc2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uc2;->getView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xc2;->getView()Landroid/view/View;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
 
     const-string v4, "refreshView smoothScrollBy"
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -134,7 +134,7 @@
     const-string v0, "rootRectF or expandRectF or listView is null"
 
     :goto_1
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

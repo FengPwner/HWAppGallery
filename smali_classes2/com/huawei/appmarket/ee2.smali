@@ -3,39 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/ee2$b;
-    }
-.end annotation
-
-
-# instance fields
-.field private a:Ljava/lang/String;
-
-.field private b:Ljava/lang/String;
-
-.field private c:Lcom/huawei/appmarket/sn0;
-
-.field private d:Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
-
-.field private e:Ljava/lang/String;
-
-.field private f:Ljava/lang/String;
-
-.field private g:Ljava/lang/String;
-
-.field private h:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
+# static fields
+.field private static volatile a:Lcom/huawei/appmarket/ee2;
 
 
 # direct methods
@@ -47,166 +16,79 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/ee2$a;)V
+.method public static a()Lcom/huawei/appmarket/ee2;
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ee2;-><init>()V
+    sget-object v0, Lcom/huawei/appmarket/ee2;->a:Lcom/huawei/appmarket/ee2;
 
-    return-void
-.end method
+    if-nez v0, :cond_1
 
-.method static synthetic a(Lcom/huawei/appmarket/ee2;Ljava/lang/String;)V
-    .registers 2
+    const-class v0, Lcom/huawei/appmarket/ee2;
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->e:Ljava/lang/String;
+    monitor-enter v0
 
-    return-void
-.end method
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/ee2;->a:Lcom/huawei/appmarket/ee2;
 
-.method static synthetic b(Lcom/huawei/appmarket/ee2;Ljava/lang/String;)V
-    .registers 2
+    if-nez v1, :cond_0
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->a:Ljava/lang/String;
+    new-instance v1, Lcom/huawei/appmarket/ee2;
 
-    return-void
-.end method
+    invoke-direct {v1}, Lcom/huawei/appmarket/ee2;-><init>()V
 
-.method static synthetic c(Lcom/huawei/appmarket/ee2;Ljava/lang/String;)V
-    .registers 2
+    sput-object v1, Lcom/huawei/appmarket/ee2;->a:Lcom/huawei/appmarket/ee2;
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->f:Ljava/lang/String;
+    goto :goto_0
 
-    return-void
-.end method
+    :catchall_0
+    move-exception v1
 
-.method static synthetic d(Lcom/huawei/appmarket/ee2;Ljava/lang/String;)V
-    .registers 2
+    goto :goto_1
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->g:Ljava/lang/String;
+    :cond_0
+    :goto_0
+    monitor-exit v0
 
-    return-void
-.end method
+    goto :goto_2
 
-.method static synthetic e(Lcom/huawei/appmarket/ee2;Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;)V
-    .registers 2
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->d:Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
+    throw v1
 
-    return-void
-.end method
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/ee2;->a:Lcom/huawei/appmarket/ee2;
 
-.method static synthetic f(Lcom/huawei/appmarket/ee2;Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method static synthetic g(Lcom/huawei/appmarket/ee2;Lcom/huawei/appmarket/sn0;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->c:Lcom/huawei/appmarket/sn0;
-
-    return-void
-.end method
-
-.method static synthetic h(Lcom/huawei/appmarket/ee2;Ljava/util/HashMap;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ee2;->h:Ljava/util/HashMap;
-
-    return-void
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final i()Ljava/lang/String;
-    .registers 2
+.method public final b(Ljava/util/LinkedHashMap;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->g:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
-    return-object v0
-.end method
+    const-string v1, "FaPanelPresenter"
 
-.method public final j()Ljava/lang/String;
-    .registers 2
+    const-string v2, "panelReport"
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->a:Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    return-object v0
-.end method
+    new-instance v0, Lcom/huawei/appmarket/de2;
 
-.method public final k()Lcom/huawei/appmarket/sn0;
-    .registers 2
+    const/4 v1, 0x2
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->c:Lcom/huawei/appmarket/sn0;
+    const-string v2, "1540200101"
 
-    return-object v0
-.end method
+    invoke-direct {v0, p0, v1, v2, p1}, Lcom/huawei/appmarket/de2;-><init>(Lcom/huawei/appmarket/ee2;ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
-.method public final l()Ljava/lang/String;
-    .registers 2
+    invoke-static {v0}, Lcom/huawei/appmarket/y66;->a(Ljava/lang/Runnable;)V
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final m()Ljava/util/HashMap;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->h:Ljava/util/HashMap;
-
-    return-object v0
-.end method
-
-.method public final n()Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->d:Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
-
-    return-object v0
-.end method
-
-.method public final o()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->e:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final p()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ee2;->f:Ljava/lang/String;
-
-    return-object v0
+    return-void
 .end method

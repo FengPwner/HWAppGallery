@@ -104,7 +104,7 @@
 
     .line 37
     :cond_2
-    invoke-static {v1}, Lcom/huawei/appmarket/cs1;->a(Ljava/io/File;)Lcom/huawei/appmarket/cs1;
+    invoke-static {v1}, Lcom/huawei/appmarket/fs1;->a(Ljava/io/File;)Lcom/huawei/appmarket/fs1;
 
     .line 38
     .line 39
@@ -120,7 +120,7 @@
 
     .line 43
     .line 44
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/cs1;->b(Landroid/content/Context;Landroid/net/Uri;)Lcom/huawei/appmarket/cs1;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/fs1;->b(Landroid/content/Context;Landroid/net/Uri;)Lcom/huawei/appmarket/fs1;
 
     .line 45
     .line 46
@@ -137,7 +137,7 @@
 
     .line 51
     :cond_4
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cs1;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/fs1;->c()Ljava/lang/String;
 
     .line 52
     .line 53
@@ -198,7 +198,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final b(Landroid/net/Uri;)Landroid/os/ParcelFileDescriptor;

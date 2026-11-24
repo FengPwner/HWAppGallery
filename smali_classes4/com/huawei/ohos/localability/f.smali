@@ -61,7 +61,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/bo2;Lcom/huawei/appmarket/sw8;)V
+.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/do2;Lcom/huawei/appmarket/yw8;)V
     .registers 6
 
     .line 3
@@ -175,15 +175,15 @@
 
     .line 46
     :pswitch_1
-    check-cast v4, Lcom/huawei/appmarket/bo2;
+    check-cast v4, Lcom/huawei/appmarket/do2;
 
     .line 47
     .line 48
-    check-cast v3, Lcom/huawei/appmarket/sw8;
+    check-cast v3, Lcom/huawei/appmarket/yw8;
 
     .line 49
     .line 50
-    invoke-static {v1, v2, v4, v3}, Lcom/huawei/ohos/localability/g;->c(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/bo2;Lcom/huawei/appmarket/sw8;)V
+    invoke-static {v1, v2, v4, v3}, Lcom/huawei/ohos/localability/g;->c(Lcom/huawei/ohos/localability/g;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/do2;Lcom/huawei/appmarket/yw8;)V
 
     .line 51
     .line 52
@@ -452,4 +452,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

@@ -54,7 +54,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -410,7 +410,7 @@
 
     const-string p2, "surfaceTexture"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p2, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->mSurfaceTexture:Landroid/graphics/SurfaceTexture;
 
@@ -440,7 +440,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p0, p2}, Landroid/view/TextureView;->setSurfaceTexture(Landroid/graphics/SurfaceTexture;)V
 
@@ -454,7 +454,7 @@
 
     const-string v0, "surface"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->mSurfaceTexture:Landroid/graphics/SurfaceTexture;
 
@@ -476,7 +476,7 @@
 
     const-string p2, "surface"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -486,7 +486,7 @@
 
     const-string v0, "surface"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -534,9 +534,19 @@
 
     if-eqz v0, :cond_0
 
+    :goto_0
     invoke-virtual {p0, v0}, Landroid/view/TextureView;->setTransform(Landroid/graphics/Matrix;)V
 
+    goto :goto_1
+
     :cond_0
+    new-instance v0, Landroid/graphics/Matrix;
+
+    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
+
+    goto :goto_0
+
+    :goto_1
     return-void
 .end method
 
@@ -582,7 +592,7 @@
 
     const-string v0, "surfaceCallBack"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->surfaceCallBack:Lcom/huawei/appgallery/videokit/impl/render/SurfaceCallBack;
 
@@ -604,11 +614,11 @@
 
     iget v0, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->videoWidth:I
 
-    if-eq v0, p1, :cond_1
+    if-eq v0, p1, :cond_2
 
     iget v0, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->videoHeight:I
 
-    if-eq v0, p2, :cond_1
+    if-eq v0, p2, :cond_2
 
     iput p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->videoWidth:I
 
@@ -616,7 +626,7 @@
 
     iget-boolean p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->isCenterCrop:Z
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
@@ -630,20 +640,35 @@
 
     iput p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->viewHeight:I
 
+    iget-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->matrix:Landroid/graphics/Matrix;
+
+    if-nez p1, :cond_0
+
     invoke-virtual {p0}, Landroid/view/View;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->matrix:Landroid/graphics/Matrix;
 
+    :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->updateTextureViewSize()V
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/render/TextureRenderView;->matrix:Landroid/graphics/Matrix;
+
+    new-instance p1, Landroid/graphics/Matrix;
+
+    invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
+
+    invoke-virtual {p0, p1}, Landroid/view/TextureView;->setTransform(Landroid/graphics/Matrix;)V
+
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
 
-    :cond_1
+    :cond_2
     :goto_0
     return-void
 .end method
@@ -673,7 +698,7 @@
 
     const-string v2, "TextureRenderView"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

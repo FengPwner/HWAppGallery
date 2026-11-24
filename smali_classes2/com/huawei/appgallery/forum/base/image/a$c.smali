@@ -144,7 +144,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/base/image/a$c;->j:Ljava/lang/String;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bp2;->l(Ljava/lang/String;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/dp2;->l(Ljava/lang/String;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -159,7 +159,7 @@
     const-string v1, "loadBlockTask, doInBackground error"
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -273,7 +273,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     .line 49
     .line 50
@@ -385,13 +385,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appgallery/forum/base/image/a;->c()Lcom/huawei/appmarket/o26;
+    invoke-static {}, Lcom/huawei/appgallery/forum/base/image/a;->c()Lcom/huawei/appmarket/q26;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/huawei/appgallery/forum/base/image/a$c;->g:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/o26;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/q26;->a(Ljava/lang/Object;)Z
 
     iput-object v1, p0, Lcom/huawei/appgallery/forum/base/image/a$c;->g:Landroid/graphics/Bitmap;
 

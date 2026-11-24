@@ -32,7 +32,7 @@
 # instance fields
 .field public final b:I
 
-.field public final c:Lcom/huawei/appmarket/d28;
+.field public final c:Lcom/huawei/appmarket/i28;
 
 .field public final d:I
 
@@ -40,7 +40,7 @@
 
 
 # direct methods
-.method public constructor <init>(ILcom/huawei/appmarket/d28;I)V
+.method public constructor <init>(ILcom/huawei/appmarket/i28;I)V
     .registers 4
 
     .line 1
@@ -48,11 +48,11 @@
 
     iput p1, p0, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;->b:I
 
-    iput-object p2, p0, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;->c:Lcom/huawei/appmarket/d28;
+    iput-object p2, p0, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;->c:Lcom/huawei/appmarket/i28;
 
     iput p3, p0, Landroidx/media3/exoplayer/trackselection/DefaultTrackSelector$h;->d:I
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/d28;->b(I)Landroidx/media3/common/a;
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/i28;->b(I)Landroidx/media3/common/a;
 
     move-result-object p1
 

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/hx;
+.field private final a:Lcom/huawei/appmarket/ix;
 
 .field private final b:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -34,7 +34,7 @@
 
 
 # direct methods
-.method constructor <init>(Landroid/os/ParcelFileDescriptor;Ljava/util/List;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Landroid/os/ParcelFileDescriptor;Ljava/util/List;Lcom/huawei/appmarket/ix;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +43,7 @@
             "Ljava/util/List<",
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")V"
         }
     .end annotation
@@ -62,7 +62,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/hx;
+    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/ix;
 
     .line 9
     .line 10
@@ -366,6 +366,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -416,11 +423,11 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->c:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/ix;
 
     iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->b:Ljava/util/List;
 
-    invoke-static {v2, v0, v1}, Lcom/bumptech/glide/load/b;->c(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v2, v0, v1}, Lcom/bumptech/glide/load/b;->c(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)I
 
     move-result v0
 
@@ -438,11 +445,11 @@
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->c:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->a:Lcom/huawei/appmarket/ix;
 
     iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$e;->b:Ljava/util/List;
 
-    invoke-static {v2, v0, v1}, Lcom/bumptech/glide/load/b;->f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-static {v2, v0, v1}, Lcom/bumptech/glide/load/b;->f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object v0
 

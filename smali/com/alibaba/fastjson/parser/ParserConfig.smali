@@ -2178,7 +2178,7 @@
     if-eqz v20, :cond_32
 
     .line 3
-    invoke-static {v10, v8}, Lcom/huawei/appmarket/vw7;->c(Ljava/lang/String;I)C
+    invoke-static {v10, v8}, Lcom/huawei/appmarket/ci7;->c(Ljava/lang/String;I)C
 
     move-result v6
 
@@ -2489,12 +2489,12 @@
     new-instance v3, Lcom/alibaba/fastjson/JSONException;
 
     .line 5
-    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     .line 6
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->g(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ci7;->l(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2608,12 +2608,12 @@
     new-instance v3, Lcom/alibaba/fastjson/JSONException;
 
     .line 8
-    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     .line 9
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->g(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ci7;->l(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2856,12 +2856,12 @@
     new-instance v3, Lcom/alibaba/fastjson/JSONException;
 
     .line 11
-    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8, v0, v6}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     .line 12
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->g(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ci7;->l(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v0
 

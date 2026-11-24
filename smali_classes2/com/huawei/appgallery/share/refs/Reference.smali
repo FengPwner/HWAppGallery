@@ -107,11 +107,11 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ql6;->d()Lcom/huawei/appmarket/ql6;
+    invoke-static {}, Lcom/huawei/appmarket/tl6;->d()Lcom/huawei/appmarket/tl6;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ql6;->a(Ljava/lang/Object;)Ljava/lang/Long;
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/tl6;->a(Ljava/lang/Object;)Ljava/lang/Long;
 
     move-result-object v0
 

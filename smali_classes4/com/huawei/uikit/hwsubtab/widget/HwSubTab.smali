@@ -6,7 +6,7 @@
 # instance fields
 .field private a:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
 
-.field private b:Lcom/huawei/appmarket/jf3;
+.field private b:Lcom/huawei/appmarket/lf3;
 
 .field private c:I
 
@@ -35,23 +35,23 @@
     .line 2
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;)V
+.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;)V
     .registers 5
 
     .line 3
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;Ljava/lang/Object;)V
+.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;Ljava/lang/Object;)V
     .registers 11
 
     .line 4
@@ -67,12 +67,12 @@
 
     move-object v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;Ljava/lang/Object;)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;Ljava/lang/Object;)V
+.method public constructor <init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;Ljava/lang/Object;)V
     .registers 7
 
     .line 5
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->a:Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;
 
-    iput-object p4, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b:Lcom/huawei/appmarket/jf3;
+    iput-object p4, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b:Lcom/huawei/appmarket/lf3;
 
     iput-object p5, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->e:Ljava/lang/Object;
 
@@ -125,7 +125,7 @@
     .line 6
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0, p3}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/jf3;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, p2, v0, p3}, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;-><init>(Lcom/huawei/uikit/hwsubtab/widget/HwSubTabWidget;Ljava/lang/CharSequence;Lcom/huawei/appmarket/lf3;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -226,11 +226,11 @@
 
 
 # virtual methods
-.method public final b()Lcom/huawei/appmarket/jf3;
+.method public final b()Lcom/huawei/appmarket/lf3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b:Lcom/huawei/appmarket/jf3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwsubtab/widget/HwSubTab;->b:Lcom/huawei/appmarket/lf3;
 
     return-object v0
 .end method
@@ -595,8 +595,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

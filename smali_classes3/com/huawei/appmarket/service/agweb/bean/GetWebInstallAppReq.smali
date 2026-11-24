@@ -9,7 +9,7 @@
 
 # instance fields
 .field private deviceSpecParams_:Lcom/huawei/appgallery/devicekit/api/DeviceSpec;
-    .annotation runtime Lcom/huawei/appmarket/dj2;
+    .annotation runtime Lcom/huawei/appmarket/gj2;
         print = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;->NOPRINTABLE:Lcom/huawei/appgallery/jsonkit/api/annotation/PrintLevel;
     .end annotation
 .end field

@@ -114,7 +114,7 @@
 
     const-string v3, "removeAllCookie exception"
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     invoke-virtual {v1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->g()V
@@ -127,7 +127,7 @@
 
     const-string v1, "AccountResultRunnale context or delegate null"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

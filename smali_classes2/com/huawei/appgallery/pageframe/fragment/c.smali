@@ -28,13 +28,13 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/c;->b:Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
 
-    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->b3:Lcom/huawei/appmarket/s85;
+    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->b3:Lcom/huawei/appmarket/v85;
 
     const-string v2, "loadingTime"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->n(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->n(Ljava/lang/String;)Z
 
-    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v1, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     if-eqz v1, :cond_0
 
@@ -44,7 +44,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->G1:Landroid/widget/FrameLayout;
+    iget-object v0, v0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->n1:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 

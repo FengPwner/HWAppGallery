@@ -10,7 +10,7 @@
 # instance fields
 .field private b:Ljava/lang/String;
 
-.field private final c:Lcom/huawei/appmarket/yl4;
+.field private final c:Lcom/huawei/appmarket/bm4;
 
 .field private final d:Ljava/util/HashMap;
 
@@ -52,11 +52,11 @@
 
     iput-boolean v0, p0, Lcom/huawei/appmarket/jz0;->h:Z
 
-    new-instance v0, Lcom/huawei/appmarket/yl4;
+    new-instance v0, Lcom/huawei/appmarket/bm4;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/yl4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/bm4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/yl4;
+    iput-object v0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/bm4;
 
     return-void
 .end method
@@ -65,11 +65,11 @@
     .registers 2
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/yl4;
+    iget-object p0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/bm4;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/huawei/appmarket/yl4;->a()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/bm4;->a()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -247,7 +247,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private b()Ljava/lang/Object;
@@ -266,234 +265,234 @@
     .line 5
     .line 6
     .line 7
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
     .line 8
     .line 9
-    const/4 v2, 0x6
+    const/16 v2, 0x8
 
     .line 10
-    invoke-direct {v1, p0, v2, v0}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
-
     .line 11
+    invoke-direct {v1, p0, v2, v0}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
     .line 12
     .line 13
+    .line 14
     new-instance v2, Ljava/util/HashSet;
 
-    .line 14
     .line 15
+    .line 16
     invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
 
-    .line 16
     .line 17
     .line 18
+    .line 19
     new-instance v3, Ljava/util/HashMap;
 
-    .line 19
     .line 20
+    .line 21
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
-    .line 21
     .line 22
     .line 23
+    .line 24
     iget-object v4, p0, Lcom/huawei/appmarket/jz0;->d:Ljava/util/HashMap;
 
-    .line 24
     .line 25
+    .line 26
     invoke-virtual {v4}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
-    .line 26
     .line 27
     .line 28
-    move-result-object v5
-
     .line 29
-    invoke-interface {v5}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    move-result-object v5
 
     .line 30
+    invoke-interface {v5}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
     .line 31
     .line 32
+    .line 33
     move-result-object v5
 
-    .line 33
+    .line 34
     :goto_0
     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     move-result v6
 
-    .line 37
+    .line 38
     if-eqz v6, :cond_0
 
-    .line 38
     .line 39
+    .line 40
     invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 40
     .line 41
     .line 42
-    move-result-object v6
-
     .line 43
-    check-cast v6, Ljava/util/Map$Entry;
+    move-result-object v6
 
     .line 44
+    check-cast v6, Ljava/util/Map$Entry;
+
     .line 45
+    .line 46
     new-instance v7, Lcom/huawei/appmarket/iz0;
 
-    .line 46
     .line 47
+    .line 48
     invoke-direct {v7, v2, v6}, Lcom/huawei/appmarket/iz0;-><init>(Ljava/util/HashSet;Ljava/util/Map$Entry;)V
 
-    .line 48
     .line 49
     .line 50
+    .line 51
     invoke-interface {v6}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     move-result-object v8
 
-    .line 54
-    check-cast v8, Lcom/huawei/appmarket/xl8;
-
     .line 55
+    check-cast v8, Lcom/huawei/appmarket/dm8;
+
     .line 56
+    .line 57
     invoke-interface {v8, v7}, Lcom/huawei/appmarket/z71;->addListener(Lcom/huawei/appmarket/z71$a;)V
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     invoke-interface {v6}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
-    .line 60
     .line 61
     .line 62
+    .line 63
     move-result-object v6
 
-    .line 63
+    .line 64
     check-cast v6, Ljava/lang/Integer;
 
-    .line 64
     .line 65
+    .line 66
     invoke-virtual {v3, v6, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 66
     .line 67
     .line 68
+    .line 69
     goto :goto_0
 
-    .line 69
-    :cond_0
-    invoke-virtual {v1}, Lcom/huawei/appmarket/q92;->run()V
-
     .line 70
+    :cond_0
+    invoke-virtual {v1}, Lcom/huawei/appmarket/st1;->run()V
+
     .line 71
     .line 72
+    .line 73
     invoke-virtual {v4}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
-    .line 73
     .line 74
     .line 75
-    move-result-object v1
-
     .line 76
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    move-result-object v1
 
     .line 77
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
     .line 78
     .line 79
+    .line 80
     move-result-object v1
 
-    .line 80
+    .line 81
     :cond_1
     :goto_1
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 81
     .line 82
     .line 83
+    .line 84
     move-result v4
 
-    .line 84
+    .line 85
     if-eqz v4, :cond_2
 
-    .line 85
     .line 86
+    .line 87
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 87
     .line 88
     .line 89
-    move-result-object v4
-
     .line 90
-    check-cast v4, Ljava/util/Map$Entry;
+    move-result-object v4
 
     .line 91
+    check-cast v4, Ljava/util/Map$Entry;
+
     .line 92
+    .line 93
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
-    .line 93
     .line 94
     .line 95
-    move-result-object v5
-
     .line 96
-    invoke-virtual {v3, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v5
 
     .line 97
+    invoke-virtual {v3, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
     .line 98
     .line 99
+    .line 100
     move-result-object v5
 
-    .line 100
+    .line 101
     check-cast v5, Lcom/huawei/appmarket/z71$a;
 
-    .line 101
     .line 102
+    .line 103
     if-eqz v5, :cond_1
 
-    .line 103
     .line 104
+    .line 105
     invoke-interface {v4}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
-    .line 105
     .line 106
     .line 107
+    .line 108
     move-result-object v4
 
-    .line 108
-    check-cast v4, Lcom/huawei/appmarket/xl8;
-
     .line 109
+    check-cast v4, Lcom/huawei/appmarket/dm8;
+
     .line 110
+    .line 111
     invoke-interface {v4, v5}, Lcom/huawei/appmarket/z71;->removeListener(Lcom/huawei/appmarket/z71$a;)V
 
-    .line 111
     .line 112
     .line 113
+    .line 114
     goto :goto_1
 
-    .line 114
+    .line 115
     :cond_2
     iput-object v2, p0, Lcom/huawei/appmarket/jz0;->f:Ljava/util/HashSet;
 
-    .line 115
     .line 116
+    .line 117
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
-    .line 117
     .line 118
     .line 119
+    .line 120
     move-result-object v0
 
-    .line 120
-    return-object v0
     .line 121
+    return-object v0
     .line 122
     .line 123
     .line 124
@@ -624,11 +623,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/yl4;
+    iget-object v0, p0, Lcom/huawei/appmarket/jz0;->c:Lcom/huawei/appmarket/bm4;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/yl4;->b(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bm4;->b(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -772,7 +771,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final g(Ljava/lang/String;)V
@@ -784,7 +782,7 @@
     return-void
 .end method
 
-.method public final h(Lcom/huawei/appmarket/xl8;)V
+.method public final h(Lcom/huawei/appmarket/dm8;)V
     .registers 5
 
     .line 1
@@ -818,7 +816,7 @@
     return-void
 .end method
 
-.method public final i(Lcom/huawei/appmarket/xl8;)V
+.method public final i(Lcom/huawei/appmarket/dm8;)V
     .registers 4
 
     .line 1
@@ -843,7 +841,7 @@
     .registers 5
 
     .line 1
-    instance-of p3, p1, Lcom/huawei/appmarket/xl8;
+    instance-of p3, p1, Lcom/huawei/appmarket/dm8;
 
     .line 2
     .line 3

@@ -2,156 +2,56 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/AutoCloseable;
-
 
 # instance fields
-.field private b:Ljava/io/FileOutputStream;
+.field private final a:Ljava/lang/String;
 
-.field private c:Ljava/io/OutputStreamWriter;
-
-.field private d:Ljava/io/BufferedWriter;
+.field private final b:Lcom/huawei/quickcard/watcher/Watcher;
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/File;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/ohos/localability/FormException;
-        }
-    .end annotation
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/quickcard/watcher/Watcher;)V
+    .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    :try_start_0
-    new-instance v0, Ljava/io/FileOutputStream;
+    iput-object p1, p0, Lcom/huawei/appmarket/yc9;->a:Ljava/lang/String;
 
-    invoke-direct {v0, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/yc9;->b:Ljava/io/FileOutputStream;
-
-    new-instance p1, Ljava/io/OutputStreamWriter;
-
-    const-string v1, "UTF-8"
-
-    invoke-direct {p1, v0, v1}, Ljava/io/OutputStreamWriter;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/yc9;->c:Ljava/io/OutputStreamWriter;
-
-    new-instance v0, Ljava/io/BufferedWriter;
-
-    invoke-direct {v0, p1}, Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/yc9;->d:Ljava/io/BufferedWriter;
-    :try_end_0
-    .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-void
-
-    :catch_0
-    new-instance p1, Lcom/huawei/ohos/localability/FormException;
-
-    sget-object v0, Lcom/huawei/ohos/localability/FormException$a;->p:Lcom/huawei/ohos/localability/FormException$a;
-
-    const-string v1, "create CacheWriter failed"
-
-    invoke-direct {p1, v0, v1}, Lcom/huawei/ohos/localability/FormException;-><init>(Lcom/huawei/ohos/localability/FormException$a;Ljava/lang/String;)V
-
-    throw p1
-.end method
-
-.method public constructor <init>(Ljava/io/File;Ljava/lang/String;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/ohos/localability/FormException;
-        }
-    .end annotation
-
-    .line 2
-    new-instance v0, Ljava/io/File;
-
-    invoke-direct {v0, p1, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/yc9;-><init>(Ljava/io/File;)V
+    iput-object p2, p0, Lcom/huawei/appmarket/yc9;->b:Lcom/huawei/quickcard/watcher/Watcher;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final close()V
+.method public final a(Lcom/huawei/quickcard/CardContext;)Z
     .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/ohos/localability/FormException;
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->d:Ljava/io/BufferedWriter;
+    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->b:Lcom/huawei/quickcard/watcher/Watcher;
 
-    :try_start_0
-    invoke-virtual {v0}, Ljava/io/BufferedWriter;->flush()V
+    if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Ljava/io/BufferedWriter;->close()V
+    invoke-virtual {v0}, Lcom/huawei/quickcard/watcher/Watcher;->get()Ljava/lang/Object;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->c:Ljava/io/OutputStreamWriter;
+    move-result-object p1
 
-    invoke-virtual {v0}, Ljava/io/OutputStreamWriter;->close()V
+    goto :goto_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->b:Ljava/io/FileOutputStream;
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->a:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/io/FileOutputStream;->close()V
-    :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+    const/4 v1, 0x0
 
-    return-void
+    invoke-interface {p1, v0, v1}, Lcom/huawei/quickcard/CardContext;->executeExpr(Ljava/lang/String;Z)Ljava/lang/Object;
 
-    :catch_0
-    new-instance v0, Lcom/huawei/ohos/localability/FormException;
+    move-result-object p1
 
-    sget-object v1, Lcom/huawei/ohos/localability/FormException$a;->p:Lcom/huawei/ohos/localability/FormException$a;
+    :goto_0
+    invoke-static {p1}, Lcom/huawei/quickcard/utils/ExpressionUtils;->isTrue(Ljava/lang/Object;)Z
 
-    const-string v2, "close CacheWriter failed"
+    move-result p1
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/ohos/localability/FormException;-><init>(Lcom/huawei/ohos/localability/FormException$a;Ljava/lang/String;)V
-
-    throw v0
-.end method
-
-.method public final d(Ljava/lang/String;)V
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/ohos/localability/FormException;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/yc9;->d:Ljava/io/BufferedWriter;
-
-    :try_start_0
-    invoke-virtual {v0, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Ljava/io/BufferedWriter;->newLine()V
-    :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-void
-
-    :catch_0
-    new-instance p1, Lcom/huawei/ohos/localability/FormException;
-
-    sget-object v0, Lcom/huawei/ohos/localability/FormException$a;->p:Lcom/huawei/ohos/localability/FormException$a;
-
-    const-string v1, "writeLine failed"
-
-    invoke-direct {p1, v0, v1}, Lcom/huawei/ohos/localability/FormException;-><init>(Lcom/huawei/ohos/localability/FormException$a;Ljava/lang/String;)V
-
-    throw p1
+    return p1
 .end method

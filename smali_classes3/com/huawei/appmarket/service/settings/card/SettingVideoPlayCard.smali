@@ -28,23 +28,23 @@
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getUserId()Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingVideoPlayCard;->B:Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/qm6;->e()Lcom/huawei/appmarket/qm6;
+    invoke-static {}, Lcom/huawei/appmarket/tm6;->e()Lcom/huawei/appmarket/tm6;
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/va7;
+    new-instance v0, Lcom/huawei/appmarket/ab7;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/va7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/ab7;-><init>(Lcom/huawei/appmarket/service/settings/card/BaseSettingCard;I)V
 
     const-string v1, "SettingVideoPlayCard"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/qm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/va7;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/tm6;->i(Ljava/lang/String;Lcom/huawei/appmarket/ab7;)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 5
     .line 6
@@ -71,7 +71,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->p()I
 
     .line 12
     .line 13
@@ -181,7 +181,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private o1(I)V
@@ -221,7 +220,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ju;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ku;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -283,13 +282,13 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     move-result-object p1
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->p()I
 
     move-result p1
 

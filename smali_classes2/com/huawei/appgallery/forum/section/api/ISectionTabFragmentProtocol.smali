@@ -19,7 +19,7 @@
 .method public abstract getSupportNetworkCache()Z
 .end method
 
-.method public abstract getTabStyle()Lcom/huawei/appmarket/nu7;
+.method public abstract getTabStyle()Lcom/huawei/appmarket/tu7;
 .end method
 
 .method public abstract setFragmentID(I)V
@@ -34,5 +34,5 @@
 .method public abstract setSupportNetworkCache(Z)V
 .end method
 
-.method public abstract setTabStyle(Lcom/huawei/appmarket/nu7;)V
+.method public abstract setTabStyle(Lcom/huawei/appmarket/tu7;)V
 .end method

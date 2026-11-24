@@ -1,4 +1,4 @@
-.class public final Lcom/huawei/appmarket/ol2$a;
+.class final synthetic Lcom/huawei/appmarket/ol2$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,20 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "a"
+    accessFlags = 0x1008
+    name = null
 .end annotation
-
-
-# instance fields
-.field public a:J
-
-
-# direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method

@@ -36,11 +36,11 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 4
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/pt1;->g(Lcom/huawei/appmarket/du4;)Landroid/app/Activity;
+    invoke-static {p1}, Lcom/huawei/appmarket/tt1;->g(Lcom/huawei/appmarket/gu4;)Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -85,7 +85,7 @@
 
     .line 22
     .line 23
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {p2}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 24
     .line 25
@@ -258,5 +258,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

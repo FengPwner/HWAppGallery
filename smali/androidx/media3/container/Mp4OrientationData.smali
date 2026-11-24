@@ -69,7 +69,7 @@
     :goto_1
     const-string v1, "Unsupported orientation"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/hy;->b(ZLjava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/iy;->b(ZLjava/lang/String;)V
 
     iput p1, p0, Landroidx/media3/container/Mp4OrientationData;->b:I
 

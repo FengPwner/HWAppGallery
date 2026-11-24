@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ws3;
+.implements Lcom/huawei/appmarket/ys3;
 
 
 # annotations
@@ -35,16 +35,16 @@
     return-void
 .end method
 
-.method static synthetic D6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
+.method static synthetic E6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
     .registers 1
 
     .line 1
-    iget-boolean p0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K1:Z
+    iget-boolean p0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->v1:Z
 
     return p0
 .end method
 
-.method static synthetic E6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
+.method static synthetic F6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Z
     .registers 1
 
     .line 1
@@ -55,7 +55,7 @@
     return p0
 .end method
 
-.method static synthetic F6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+.method static synthetic G6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
     .registers 1
 
     .line 1
@@ -64,7 +64,7 @@
     return-object p0
 .end method
 
-.method private G6()Z
+.method private H6()Z
     .registers 5
 
     .line 1
@@ -98,7 +98,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -114,14 +114,14 @@
 
     const-string v3, "FloatTabFragmentV2"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method
 
 
 # virtual methods
-.method protected final B6()Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;
+.method protected final C6()Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;
     .registers 3
 
     .line 1
@@ -154,7 +154,7 @@
 
     move-result v0
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G6()Z
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->H6()Z
 
     move-result v1
 
@@ -163,13 +163,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "FloatTabFragmentV2"
 
     const-string v1, "checkImmerseFragmentType mNestedScrollLayout == null "
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -183,15 +183,15 @@
 
     move-result-object p1
 
-    new-instance p2, Lcom/huawei/appmarket/ul1;
+    new-instance p2, Lcom/huawei/appmarket/xl1;
 
     iget-object p3, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->j1:Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K0:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
 
-    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/ul1;-><init>(Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
+    invoke-direct {p2, p3, v0}, Lcom/huawei/appmarket/xl1;-><init>(Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/g04;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setResponseProcessor(Lcom/huawei/appmarket/i04;)V
 
     return-object p1
 .end method
@@ -234,7 +234,7 @@
     return p1
 
     :cond_0
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G6()Z
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->H6()Z
 
     move-result p1
 
@@ -288,7 +288,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 15
     .line 16
@@ -296,7 +296,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 19
     .line 20
@@ -308,7 +308,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 25
     .line 26
@@ -443,7 +443,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/f14;
+    check-cast v0, Lcom/huawei/appmarket/h14;
 
     :goto_0
     if-eqz v0, :cond_1
@@ -452,7 +452,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->setAnimationListener(Lcom/huawei/appmarket/f14;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->setAnimationListener(Lcom/huawei/appmarket/h14;)V
 
     :cond_1
     return-void
@@ -471,13 +471,13 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v1, "FloatTabFragmentV2"
 
     const-string v2, "refreshImmersiveStatusBar mNestedScrollLayout == null "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -513,7 +513,7 @@
     :goto_0
     iput-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G3:Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;
 
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -539,7 +539,7 @@
 
     const-string v2, "FloatTabFragmentV2"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G3:Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;
 
@@ -553,7 +553,7 @@
 
     move-result v1
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->G6()Z
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->H6()Z
 
     move-result v2
 
@@ -589,17 +589,17 @@
     return-void
 .end method
 
-.method protected final n6(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+.method protected final o6(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v1, "FloatTabFragmentV2"
 
     const-string v2, "updateProvider"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K0:Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;
 
@@ -674,7 +674,7 @@
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->v1:Z
 
     .line 5
     .line 6
@@ -694,7 +694,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 15
     .line 16
@@ -709,7 +709,7 @@
     const/4 v2, 0x1
 
     .line 21
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 22
     .line 23
@@ -878,7 +878,7 @@
 
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 9
     .line 10
@@ -890,7 +890,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 15
     .line 16
@@ -1019,7 +1019,7 @@
     .line 137
 .end method
 
-.method public final u6()I
+.method public final v6()I
     .registers 2
 
     .line 1
@@ -1028,11 +1028,11 @@
     return v0
 .end method
 
-.method protected final bridge synthetic w6()Lcom/huawei/appmarket/bd5;
+.method protected final bridge synthetic x6()Lcom/huawei/appmarket/ed5;
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->B6()Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/FloatTabFragmentV2;->C6()Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;
 
     move-result-object v0
 

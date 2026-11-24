@@ -3,23 +3,27 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/Comparator;
+.implements Ljava/lang/Runnable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Comparator<",
-        "Lcom/huawei/appmarket/oa5$b;",
-        ">;"
-    }
-.end annotation
+# instance fields
+.field final synthetic b:Ljava/lang/CharSequence;
+
+.field final synthetic c:I
+
+.field final synthetic d:Lcom/huawei/appmarket/m08;
 
 
 # direct methods
-.method constructor <init>()V
-    .registers 1
+.method constructor <init>(Lcom/huawei/appmarket/m08;Ljava/lang/CharSequence;I)V
+    .registers 4
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/n08;->d:Lcom/huawei/appmarket/m08;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/n08;->b:Ljava/lang/CharSequence;
+
+    iput p3, p0, Lcom/huawei/appmarket/n08;->c:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,226 +32,105 @@
 
 
 # virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .registers 6
+.method public final run()V
+    .registers 7
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/oa5$b;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
-    .line 2
-    .line 3
-    check-cast p2, Lcom/huawei/appmarket/oa5$b;
+    move-result-object v0
 
-    .line 4
-    .line 5
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->b()I
 
-    .line 6
-    .line 7
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    move-result v0
 
-    .line 8
-    .line 9
-    .line 10
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oa5$b;->a()Ljava/lang/String;
+    const/16 v1, 0x11
 
-    .line 11
-    .line 12
-    .line 13
-    move-result-object v1
+    iget v2, p0, Lcom/huawei/appmarket/n08;->c:I
 
-    .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v3, "Toast"
 
-    .line 15
-    .line 16
-    .line 17
-    const/16 v1, 0x3a
+    iget-object v4, p0, Lcom/huawei/appmarket/n08;->b:Ljava/lang/CharSequence;
 
-    .line 18
-    .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    iget-object v5, p0, Lcom/huawei/appmarket/n08;->d:Lcom/huawei/appmarket/m08;
 
-    .line 20
-    .line 21
-    .line 22
-    invoke-virtual {p1}, Lcom/huawei/appmarket/oa5$b;->b()Ljava/lang/String;
+    if-ge v0, v1, :cond_1
 
-    .line 23
-    .line 24
-    .line 25
-    move-result-object p1
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
-    .line 26
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
-    .line 27
-    .line 28
-    .line 29
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
-    .line 30
-    .line 31
-    .line 32
-    move-result-object p1
+    move-result v0
 
-    .line 33
-    new-instance v0, Ljava/lang/StringBuilder;
+    const/16 v1, 0x21
 
-    .line 34
-    .line 35
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    if-ge v0, v1, :cond_1
 
-    .line 36
-    .line 37
-    .line 38
-    invoke-virtual {p2}, Lcom/huawei/appmarket/oa5$b;->a()Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/m08;->a(Lcom/huawei/appmarket/m08;)Landroid/widget/Toast;
 
-    .line 39
-    .line 40
-    .line 41
-    move-result-object v2
+    move-result-object v0
 
-    .line 42
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz v0, :cond_0
 
-    .line 43
-    .line 44
-    .line 45
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
-    .line 46
-    .line 47
-    .line 48
-    invoke-virtual {p2}, Lcom/huawei/appmarket/oa5$b;->b()Ljava/lang/String;
+    const-string v1, "mToast is not null, reset the last"
 
-    .line 49
-    .line 50
-    .line 51
-    move-result-object p2
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 52
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5}, Lcom/huawei/appmarket/m08;->a(Lcom/huawei/appmarket/m08;)Landroid/widget/Toast;
 
-    .line 53
-    .line 54
-    .line 55
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v0
 
-    .line 56
-    .line 57
-    .line 58
-    move-result-object p2
+    invoke-virtual {v0, v4}, Landroid/widget/Toast;->setText(Ljava/lang/CharSequence;)V
 
-    .line 59
-    invoke-virtual {p1, p2}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+    goto :goto_1
 
-    .line 60
-    .line 61
-    .line 62
-    move-result p1
+    :cond_0
+    :goto_0
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
-    .line 63
-    return p1
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ky1;->a(Landroid/content/Context;)Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0, v4, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-static {v5, v0}, Lcom/huawei/appmarket/m08;->b(Lcom/huawei/appmarket/m08;Landroid/widget/Toast;)V
+
+    goto :goto_1
+
+    :cond_1
+    invoke-static {v5}, Lcom/huawei/appmarket/m08;->a(Lcom/huawei/appmarket/m08;)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
+
+    const-string v1, "mToast is not null, cancel the last"
+
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v5}, Lcom/huawei/appmarket/m08;->a(Lcom/huawei/appmarket/m08;)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->cancel()V
+
+    goto :goto_0
+
+    :goto_1
+    return-void
 .end method

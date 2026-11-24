@@ -124,7 +124,7 @@
 
     const/4 v5, 0x2
 
-    invoke-static {v4, v5, v0, v2}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v4, v5, v0, v2}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v0
 
@@ -136,7 +136,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     const/4 v3, 0x1
 
@@ -148,7 +148,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v0, v2, v1}, Lcom/huawei/appgallery/videokit/impl/WiseVideoSmallCardController;->resetIconLayout(Landroid/widget/ImageView;Z)V
 

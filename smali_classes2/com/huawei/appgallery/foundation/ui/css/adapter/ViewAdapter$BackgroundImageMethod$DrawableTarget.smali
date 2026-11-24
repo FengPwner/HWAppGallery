@@ -1,5 +1,5 @@
 .class Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;
-.super Lcom/huawei/appmarket/kf7;
+.super Lcom/huawei/appmarket/pf7;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/kf7<",
+        "Lcom/huawei/appmarket/pf7<",
         "Landroid/graphics/drawable/Drawable;",
         ">;"
     }
@@ -31,7 +31,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/kf7;-><init>(II)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/pf7;-><init>(II)V
 
     iput-object p3, p0, Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;->callBack:Lcom/huawei/appgallery/foundation/ui/css/adapter/param/GeneratorCallBack;
 
@@ -42,7 +42,7 @@
     .registers 2
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/kf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/pf7;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;->callBack:Lcom/huawei/appgallery/foundation/ui/css/adapter/param/GeneratorCallBack;
 
@@ -51,13 +51,13 @@
 
 
 # virtual methods
-.method public onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/huawei/appmarket/c38;)V
+.method public onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/huawei/appmarket/i38;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/drawable/Drawable;",
-            "Lcom/huawei/appmarket/c38<",
+            "Lcom/huawei/appmarket/i38<",
             "-",
             "Landroid/graphics/drawable/Drawable;",
             ">;)V"
@@ -72,13 +72,13 @@
     return-void
 .end method
 
-.method public bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/c38;)V
+.method public bridge synthetic onResourceReady(Ljava/lang/Object;Lcom/huawei/appmarket/i38;)V
     .registers 3
 
     .line 2
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;->onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/huawei/appmarket/c38;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/css/adapter/ViewAdapter$BackgroundImageMethod$DrawableTarget;->onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/huawei/appmarket/i38;)V
 
     return-void
 .end method

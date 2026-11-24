@@ -24,11 +24,11 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/sn8;->d()Lcom/huawei/appmarket/ro8;
+    invoke-static {}, Lcom/huawei/appmarket/yn8;->d()Lcom/huawei/appmarket/xo8;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ro8;->getDropDataProvider()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
+    invoke-interface {v0}, Lcom/huawei/appmarket/xo8;->getDropDataProvider()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
     move-result-object v0
 

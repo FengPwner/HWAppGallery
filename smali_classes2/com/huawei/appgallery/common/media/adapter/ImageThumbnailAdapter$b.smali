@@ -125,23 +125,23 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/du3;
+    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du3;->e2()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/fu3;->e2()V
 
     :cond_2
     return-void
 
     :cond_3
-    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/du3;
+    iget-object p1, v0, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
     if-eqz p1, :cond_4
 
     iget v0, p0, Lcom/huawei/appgallery/common/media/adapter/ImageThumbnailAdapter$b;->d:I
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/du3;->c2(I)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fu3;->c2(I)V
 
     :cond_4
     return-void

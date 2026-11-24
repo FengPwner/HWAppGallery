@@ -63,7 +63,7 @@
 
     const/4 v2, 0x4
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/v42;->D(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/z42;->D(II)V
 
     return-void
 .end method

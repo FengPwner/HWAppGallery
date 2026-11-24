@@ -239,7 +239,7 @@
 
     .line 11
     .line 12
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -247,7 +247,7 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/om5;->g(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ci7;->l(Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -447,7 +447,7 @@
     throw v1
 .end method
 
-.method private static g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/hj2;
+.method private static g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/jj2;
     .registers 4
 
     .line 1
@@ -494,7 +494,7 @@
 
     if-nez v0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->h:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->h:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -505,12 +505,12 @@
 
     if-eqz p0, :cond_1
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->Q:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->Q:Lcom/huawei/appmarket/jj2;
 
     goto :goto_0
 
     :cond_1
-    sget-object p0, Lcom/huawei/appmarket/hj2;->z:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->z:Lcom/huawei/appmarket/jj2;
 
     :goto_0
     return-object p0
@@ -522,7 +522,7 @@
 
     if-nez v0, :cond_2
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->p:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->p:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -533,12 +533,12 @@
 
     if-eqz p0, :cond_3
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->V:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->V:Lcom/huawei/appmarket/jj2;
 
     goto :goto_1
 
     :cond_3
-    sget-object p0, Lcom/huawei/appmarket/hj2;->H:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->H:Lcom/huawei/appmarket/jj2;
 
     :goto_1
     return-object p0
@@ -550,12 +550,12 @@
 
     if-eqz p0, :cond_4
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->E:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->E:Lcom/huawei/appmarket/jj2;
 
     goto :goto_2
 
     :cond_4
-    sget-object p0, Lcom/huawei/appmarket/hj2;->m:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->m:Lcom/huawei/appmarket/jj2;
 
     :goto_2
     return-object p0
@@ -567,7 +567,7 @@
 
     if-nez v0, :cond_5
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->u:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->u:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -578,12 +578,12 @@
 
     if-eqz p0, :cond_6
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->a0:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->a0:Lcom/huawei/appmarket/jj2;
 
     goto :goto_3
 
     :cond_6
-    sget-object p0, Lcom/huawei/appmarket/hj2;->M:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->M:Lcom/huawei/appmarket/jj2;
 
     :goto_3
     return-object p0
@@ -595,7 +595,7 @@
 
     if-nez v0, :cond_7
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->t:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->t:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -606,12 +606,12 @@
 
     if-eqz p0, :cond_8
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->Z:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->Z:Lcom/huawei/appmarket/jj2;
 
     goto :goto_4
 
     :cond_8
-    sget-object p0, Lcom/huawei/appmarket/hj2;->L:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->L:Lcom/huawei/appmarket/jj2;
 
     :goto_4
     return-object p0
@@ -623,7 +623,7 @@
 
     if-nez v0, :cond_9
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->s:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->s:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -634,12 +634,12 @@
 
     if-eqz p0, :cond_a
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->Y:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->Y:Lcom/huawei/appmarket/jj2;
 
     goto :goto_5
 
     :cond_a
-    sget-object p0, Lcom/huawei/appmarket/hj2;->K:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->K:Lcom/huawei/appmarket/jj2;
 
     :goto_5
     return-object p0
@@ -651,7 +651,7 @@
 
     if-nez v0, :cond_b
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->r:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->r:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -662,12 +662,12 @@
 
     if-eqz p0, :cond_c
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->X:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->X:Lcom/huawei/appmarket/jj2;
 
     goto :goto_6
 
     :cond_c
-    sget-object p0, Lcom/huawei/appmarket/hj2;->J:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->J:Lcom/huawei/appmarket/jj2;
 
     :goto_6
     return-object p0
@@ -679,7 +679,7 @@
 
     if-eqz v0, :cond_d
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->c0:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->c0:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -690,12 +690,12 @@
 
     if-eqz p0, :cond_e
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->F:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->F:Lcom/huawei/appmarket/jj2;
 
     goto :goto_7
 
     :cond_e
-    sget-object p0, Lcom/huawei/appmarket/hj2;->n:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->n:Lcom/huawei/appmarket/jj2;
 
     :goto_7
     return-object p0
@@ -707,7 +707,7 @@
 
     if-nez v0, :cond_f
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->g:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->g:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -718,12 +718,12 @@
 
     if-eqz p0, :cond_10
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->P:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->P:Lcom/huawei/appmarket/jj2;
 
     goto :goto_8
 
     :cond_10
-    sget-object p0, Lcom/huawei/appmarket/hj2;->y:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->y:Lcom/huawei/appmarket/jj2;
 
     :goto_8
     return-object p0
@@ -735,7 +735,7 @@
 
     if-nez v0, :cond_11
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->i:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->i:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -746,12 +746,12 @@
 
     if-eqz p0, :cond_12
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->R:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->R:Lcom/huawei/appmarket/jj2;
 
     goto :goto_9
 
     :cond_12
-    sget-object p0, Lcom/huawei/appmarket/hj2;->A:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->A:Lcom/huawei/appmarket/jj2;
 
     :goto_9
     return-object p0
@@ -763,12 +763,12 @@
 
     if-eqz p0, :cond_13
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->b0:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->b0:Lcom/huawei/appmarket/jj2;
 
     goto :goto_a
 
     :cond_13
-    sget-object p0, Lcom/huawei/appmarket/hj2;->v:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->v:Lcom/huawei/appmarket/jj2;
 
     :goto_a
     return-object p0
@@ -780,7 +780,7 @@
 
     if-nez v0, :cond_14
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->f:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->f:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -791,12 +791,12 @@
 
     if-eqz p0, :cond_15
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->O:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->O:Lcom/huawei/appmarket/jj2;
 
     goto :goto_b
 
     :cond_15
-    sget-object p0, Lcom/huawei/appmarket/hj2;->x:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->x:Lcom/huawei/appmarket/jj2;
 
     :goto_b
     return-object p0
@@ -808,7 +808,7 @@
 
     if-nez v0, :cond_16
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->j:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->j:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -819,12 +819,12 @@
 
     if-eqz p0, :cond_17
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->S:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->S:Lcom/huawei/appmarket/jj2;
 
     goto :goto_c
 
     :cond_17
-    sget-object p0, Lcom/huawei/appmarket/hj2;->B:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->B:Lcom/huawei/appmarket/jj2;
 
     :goto_c
     return-object p0
@@ -836,7 +836,7 @@
 
     if-nez v0, :cond_18
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->k:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->k:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -847,12 +847,12 @@
 
     if-eqz p0, :cond_19
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->T:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->T:Lcom/huawei/appmarket/jj2;
 
     goto :goto_d
 
     :cond_19
-    sget-object p0, Lcom/huawei/appmarket/hj2;->C:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->C:Lcom/huawei/appmarket/jj2;
 
     :goto_d
     return-object p0
@@ -864,7 +864,7 @@
 
     if-nez v0, :cond_1a
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->q:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->q:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -875,12 +875,12 @@
 
     if-eqz p0, :cond_1b
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->W:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->W:Lcom/huawei/appmarket/jj2;
 
     goto :goto_e
 
     :cond_1b
-    sget-object p0, Lcom/huawei/appmarket/hj2;->I:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->I:Lcom/huawei/appmarket/jj2;
 
     :goto_e
     return-object p0
@@ -892,7 +892,7 @@
 
     if-nez v0, :cond_1c
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->e:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->e:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -903,12 +903,12 @@
 
     if-eqz p0, :cond_1d
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->N:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->N:Lcom/huawei/appmarket/jj2;
 
     goto :goto_f
 
     :cond_1d
-    sget-object p0, Lcom/huawei/appmarket/hj2;->w:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->w:Lcom/huawei/appmarket/jj2;
 
     :goto_f
     return-object p0
@@ -920,12 +920,12 @@
 
     if-eqz p0, :cond_1e
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->G:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->G:Lcom/huawei/appmarket/jj2;
 
     goto :goto_10
 
     :cond_1e
-    sget-object p0, Lcom/huawei/appmarket/hj2;->o:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->o:Lcom/huawei/appmarket/jj2;
 
     :goto_10
     return-object p0
@@ -937,7 +937,7 @@
 
     if-nez v0, :cond_1f
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->l:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->l:Lcom/huawei/appmarket/jj2;
 
     return-object p0
 
@@ -948,12 +948,12 @@
 
     if-eqz p0, :cond_20
 
-    sget-object p0, Lcom/huawei/appmarket/hj2;->U:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->U:Lcom/huawei/appmarket/jj2;
 
     goto :goto_11
 
     :cond_20
-    sget-object p0, Lcom/huawei/appmarket/hj2;->D:Lcom/huawei/appmarket/hj2;
+    sget-object p0, Lcom/huawei/appmarket/jj2;->D:Lcom/huawei/appmarket/jj2;
 
     :goto_11
     return-object p0
@@ -1348,7 +1348,7 @@
 
     .line 63
     .line 64
-    sget-object v3, Lcom/huawei/appmarket/w86;->d:Lcom/huawei/appmarket/w86;
+    sget-object v3, Lcom/huawei/appmarket/y86;->d:Lcom/huawei/appmarket/y86;
 
     .line 65
     .line 66
@@ -1395,7 +1395,7 @@
 
     .line 87
     :cond_1
-    sget-object v3, Lcom/huawei/appmarket/w86;->c:Lcom/huawei/appmarket/w86;
+    sget-object v3, Lcom/huawei/appmarket/y86;->c:Lcom/huawei/appmarket/y86;
 
     .line 88
     .line 89
@@ -1403,12 +1403,12 @@
 
     .line 90
     :cond_2
-    sget-object v3, Lcom/huawei/appmarket/w86;->b:Lcom/huawei/appmarket/w86;
+    sget-object v3, Lcom/huawei/appmarket/y86;->b:Lcom/huawei/appmarket/y86;
 
     .line 91
     .line 92
     :goto_0
-    invoke-virtual {v4, v3}, Lcom/google/protobuf/y1$a;->f(Lcom/huawei/appmarket/w86;)V
+    invoke-virtual {v4, v3}, Lcom/google/protobuf/y1$a;->f(Lcom/huawei/appmarket/y86;)V
 
     .line 93
     .line 94
@@ -1571,7 +1571,7 @@
     move-result-object v16
 
     .line 170
-    invoke-static {v11}, Lcom/google/protobuf/n;->g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/hj2;
+    invoke-static {v11}, Lcom/google/protobuf/n;->g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/jj2;
 
     .line 171
     .line 172
@@ -1583,7 +1583,7 @@
 
     .line 175
     .line 176
-    invoke-virtual {v13}, Lcom/huawei/appmarket/hj2;->a()Lcom/huawei/appmarket/jm4;
+    invoke-virtual {v13}, Lcom/huawei/appmarket/jj2;->a()Lcom/huawei/appmarket/mm4;
 
     .line 177
     .line 178
@@ -1826,7 +1826,7 @@
 
     .line 284
     .line 285
-    invoke-static/range {v12 .. v17}, Lcom/google/protobuf/a0;->g(ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/m1;Ljava/lang/Class;ZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+    invoke-static/range {v12 .. v17}, Lcom/google/protobuf/a0;->g(ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/m1;Ljava/lang/Class;ZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
 
     .line 286
     .line 287
@@ -1963,7 +1963,7 @@
     move-result-object v12
 
     .line 349
-    invoke-static {v7, v12, v6}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7, v12, v6}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 350
     .line 351
@@ -1987,7 +1987,7 @@
     move-result v12
 
     .line 361
-    invoke-static {v11}, Lcom/google/protobuf/n;->g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/hj2;
+    invoke-static {v11}, Lcom/google/protobuf/n;->g(Lcom/google/protobuf/Descriptors$f;)Lcom/huawei/appmarket/jj2;
 
     .line 362
     .line 363
@@ -2601,7 +2601,7 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 650
-    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->j(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/Class;)Lcom/google/protobuf/a0;
+    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->j(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/Class;)Lcom/google/protobuf/a0;
 
     .line 651
     .line 652
@@ -2677,7 +2677,7 @@
     move-result-object v11
 
     .line 686
-    invoke-static {v13, v11, v1}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v13, v11, v1}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 687
     .line 688
@@ -2693,7 +2693,7 @@
     move-result-object v1
 
     .line 694
-    invoke-static {v6, v12, v7, v3, v1}, Lcom/google/protobuf/a0;->i(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
+    invoke-static {v6, v12, v7, v3, v1}, Lcom/google/protobuf/a0;->i(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/i0$e;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
 
     .line 695
     .line 696
@@ -2734,7 +2734,7 @@
     move-result-object v11
 
     .line 714
-    invoke-static {v3, v11, v1}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v11, v1}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 715
     .line 716
@@ -2750,7 +2750,7 @@
     move-result-object v1
 
     .line 722
-    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->h(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
+    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->h(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;)Lcom/google/protobuf/a0;
 
     .line 723
     .line 724
@@ -2769,7 +2769,7 @@
 
     .line 729
     .line 730
-    invoke-static {v6, v12, v7, v3}, Lcom/google/protobuf/a0;->d(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Lcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+    invoke-static {v6, v12, v7, v3}, Lcom/google/protobuf/a0;->d(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Lcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
 
     .line 731
     .line 732
@@ -2785,7 +2785,7 @@
 
     .line 736
     .line 737
-    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->c(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Z)Lcom/google/protobuf/a0;
+    invoke-static {v6, v12, v7, v1}, Lcom/google/protobuf/a0;->c(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Z)Lcom/google/protobuf/a0;
 
     .line 738
     .line 739
@@ -2838,7 +2838,7 @@
 
     .line 760
     .line 761
-    invoke-static {v9, v10, v15}, Lcom/huawei/appmarket/z84;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v9, v10, v15}, Lcom/huawei/appmarket/kk4;->m(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     .line 762
     .line 763
@@ -2892,7 +2892,7 @@
 
     .line 785
     .line 786
-    invoke-static/range {v11 .. v17}, Lcom/google/protobuf/a0;->e(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+    invoke-static/range {v11 .. v17}, Lcom/google/protobuf/a0;->e(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
 
     .line 787
     .line 788
@@ -2929,7 +2929,7 @@
 
     .line 801
     .line 802
-    invoke-static/range {v11 .. v17}, Lcom/google/protobuf/a0;->b(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/hj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
+    invoke-static/range {v11 .. v17}, Lcom/google/protobuf/a0;->b(Ljava/lang/reflect/Field;ILcom/huawei/appmarket/jj2;Ljava/lang/reflect/Field;IZLcom/google/protobuf/i0$e;)Lcom/google/protobuf/a0;
 
     .line 803
     .line 804

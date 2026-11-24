@@ -3,1371 +3,6830 @@
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/kw4$b;
+    }
+.end annotation
+
+
 # static fields
-.field private static final a:[Ljava/lang/String;
+.field private static volatile h:Lcom/huawei/appmarket/kw4;
+
+
+# instance fields
+.field private volatile a:Z
+
+.field private b:Landroid/content/Context;
+
+.field private final c:Ljava/util/LinkedList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/LinkedList<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final d:Ljava/util/LinkedList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/LinkedList<",
+            "Lcom/huawei/appmarket/kw4$b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private e:Lcom/huawei/appmarket/lw4;
+
+.field private f:Z
+
+.field private final g:Ljava/util/HashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Landroid/util/Pair<",
+            "Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;",
+            "Lcom/huawei/appmarket/hw4;",
+            ">;>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 8
+.method private constructor <init>()V
+    .registers 2
 
     .line 1
-    const-string v0, "SHORTCUT|com.huawei.appmarket"
-
-    const-string v1, "WIDGET|com.huawei.appmarket"
-
-    const-string v2, "APPGALLERY_FA|com.huawei.harmonyupdater"
-
-    const-string v3, "WISEMARKETING|com.huawei.android.pushagent"
-
-    const-string v4, "NATIVENOTIFICATION|com.huawei.appmarket"
-
-    const-string v5, "CALLTYPE_EMPTY|com.huawei.appmarket"
-
-    const-string v6, "LIVE_VIEW|com.huawei.appmarket"
-
-    const-string v7, "SCENE.MANUAL_UPDATE"
-
-    filled-new-array/range {v0 .. v7}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/kw4;->a:[Ljava/lang/String;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    new-instance v0, Ljava/util/LinkedList;
+
+    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    new-instance v0, Ljava/util/LinkedList;
+
+    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    new-instance v0, Lcom/huawei/appmarket/lw4;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/lw4;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-    .registers 19
+.method private a(Landroidx/core/app/NotificationCompat$Builder;Landroid/app/PendingIntent;)V
+    .registers 6
 
     .line 1
-    move-object/from16 v0, p0
+    if-eqz p2, :cond_1
 
     .line 2
     .line 3
-    const/4 v1, 0x0
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 4
-    const-string v2, "LiveViewCondition"
-
     .line 5
+    const/16 v1, 0x17
+
     .line 6
-    if-nez v0, :cond_0
-
     .line 7
-    .line 8
-    const-string v0, "task is null, not use live view"
+    if-ge v0, v1, :cond_0
 
+    .line 8
     .line 9
+    goto :goto_0
+
     .line 10
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
 
     .line 11
     .line 12
+    invoke-static {v0}, Lcom/huawei/appmarket/ks2;->z(Landroid/content/Context;)Landroid/graphics/drawable/Icon;
+
     .line 13
-    return v1
-
     .line 14
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
-
     .line 15
-    .line 16
-    .line 17
-    move-result-object v3
+    move-result-object v0
 
+    .line 16
+    new-instance v1, Landroidx/core/app/c$a;
+
+    .line 17
     .line 18
-    invoke-virtual {v3}, Lcom/huawei/appmarket/gy1;->b()I
+    invoke-static {v0}, Landroidx/core/graphics/drawable/IconCompat;->b(Landroid/graphics/drawable/Icon;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 19
     .line 20
     .line 21
-    move-result v3
+    move-result-object v0
 
     .line 22
-    const/16 v4, 0x1f
+    const-string v2, ""
 
     .line 23
     .line 24
-    const/4 v5, 0x1
+    invoke-direct {v1, v0, v2, p2}, Landroidx/core/app/c$a;-><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
     .line 25
-    if-lt v3, v4, :cond_1
-
     .line 26
     .line 27
-    const/4 v4, 0x1
+    invoke-virtual {v1}, Landroidx/core/app/c$a;->a()Landroidx/core/app/c;
 
     .line 28
-    goto :goto_0
-
     .line 29
-    :cond_1
-    const/4 v4, 0x0
-
     .line 30
-    :goto_0
-    new-instance v6, Ljava/lang/StringBuilder;
+    move-result-object p2
 
     .line 31
+    iget-object p1, p1, Landroidx/core/app/NotificationCompat$Builder;->b:Ljava/util/ArrayList;
+
     .line 32
-    const-string v7, "isHarmonyOs4OrAbove: emuiVersion="
-
     .line 33
-    .line 34
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
+    .line 34
     .line 35
     .line 36
+    :cond_1
+    :goto_0
+    return-void
     .line 37
-    invoke-virtual {v6, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 38
     .line 39
     .line 40
-    const-string v3, ", result="
-
     .line 41
     .line 42
-    invoke-virtual {v6, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 49
     .line 50
     .line 51
-    move-result-object v3
-
     .line 52
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 53
     .line 54
     .line 55
-    if-nez v4, :cond_2
-
     .line 56
     .line 57
-    const-string v0, "condition 1 fail: not HarmonyOS 4+"
-
     .line 58
     .line 59
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 60
     .line 61
     .line 62
-    return v1
-
     .line 63
-    :cond_2
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
-
     .line 64
     .line 65
     .line 66
-    move-result v3
-
     .line 67
-    const/4 v4, 0x2
-
     .line 68
-    if-eqz v3, :cond_4
-
     .line 69
     .line 70
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
-
     .line 71
     .line 72
     .line 73
-    move-result v3
-
     .line 74
-    if-eq v3, v4, :cond_4
-
     .line 75
     .line 76
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+.end method
+
+.method private b()Z
+    .registers 4
+
+    .line 1
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x18
+
+    const/4 v2, 0x1
+
+    if-lt v0, v1, :cond_1
+
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    const-string v1, "notification"
+
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/NotificationManager;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lj5;->o(Landroid/app/NotificationManager;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x0
+
+    :goto_0
+    return v2
+
+    :catch_0
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "areNotificationsEnabled: method not available"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_1
+    return v2
+.end method
+
+.method private i()V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    if-nez v0, :cond_0
+
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "ensureInitialized: auto init with ApplicationWrapper context"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public static k()Lcom/huawei/appmarket/kw4;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/kw4;->h:Lcom/huawei/appmarket/kw4;
+
+    if-nez v0, :cond_1
+
+    const-class v0, Lcom/huawei/appmarket/kw4;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/kw4;->h:Lcom/huawei/appmarket/kw4;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/kw4;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/kw4;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/kw4;->h:Lcom/huawei/appmarket/kw4;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/kw4;->h:Lcom/huawei/appmarket/kw4;
+
+    return-object v0
+.end method
+
+.method private n(Lcom/huawei/appmarket/hw4;)Z
+    .registers 7
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    if-eqz v1, :cond_0
+
+    return v2
+
+    :cond_0
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_1
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    invoke-virtual {v3, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/util/Pair;
+
+    const/4 v3, 0x0
+
+    if-nez v1, :cond_2
+
+    return v3
+
+    :cond_2
+    iget-object v1, v1, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    if-eqz p1, :cond_3
+
+    if-eq p1, v1, :cond_1
+
+    return v3
+
+    :cond_3
+    sget-object v4, Lcom/huawei/appmarket/hw4;->c:Lcom/huawei/appmarket/hw4;
+
+    if-eq v1, v4, :cond_1
+
+    sget-object v4, Lcom/huawei/appmarket/hw4;->d:Lcom/huawei/appmarket/hw4;
+
+    if-eq v1, v4, :cond_1
+
+    return v3
+
+    :cond_4
+    return v2
+.end method
+
+.method private o(Ljava/lang/String;)Z
+    .registers 5
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    return v1
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_1
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/huawei/appmarket/kw4$b;
+
+    iget-object v2, v2, Lcom/huawei/appmarket/kw4$b;->a:Ljava/lang/String;
+
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_2
+    return v1
+.end method
+
+.method private u()V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->h()V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kw4;->f:Z
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "resetInternalState: state reset after notification dismissed"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method private v(Lcom/huawei/appmarket/gw4;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
+    .registers 8
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->e(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->d(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->c(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 14
+    .line 15
+    invoke-static {v3}, Lcom/huawei/appmarket/iw4;->a(Landroid/content/Context;)Landroidx/core/app/NotificationCompat$Builder;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v3
+
+    .line 19
+    invoke-virtual {v3, v0}, Landroidx/core/app/NotificationCompat$Builder;->m(Ljava/lang/CharSequence;)V
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-virtual {v3, v1}, Landroidx/core/app/NotificationCompat$Builder;->l(Ljava/lang/CharSequence;)V
+
+    .line 23
+    .line 24
+    .line 25
+    if-nez p2, :cond_0
+
+    .line 26
+    .line 27
+    const-string p2, "LiveNotificationManager"
+
+    .line 28
+    .line 29
+    const-string v0, "getAppDetailPendingIntent: task is null"
+
+    .line 30
+    .line 31
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 32
+    .line 33
+    .line 34
+    const/4 p2, 0x0
+
+    .line 35
+    goto :goto_0
+
+    .line 36
+    :cond_0
+    invoke-virtual {p2}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p2
+
+    .line 40
+    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/kw4;->j(Ljava/lang/String;)Landroid/app/PendingIntent;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object p2
+
+    .line 44
+    :goto_0
+    invoke-virtual {v3, p2}, Landroidx/core/app/NotificationCompat$Builder;->k(Landroid/app/PendingIntent;)V
+
+    .line 45
+    .line 46
+    .line 47
+    iget-boolean v0, p1, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 48
+    .line 49
+    if-nez v0, :cond_1
+
+    .line 50
+    .line 51
+    const-string v0, "FAILED"
+
+    .line 52
+    .line 53
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 54
+    .line 55
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result p1
+
+    .line 59
+    if-eqz p1, :cond_1
+
+    .line 60
+    .line 61
+    const/4 p1, 0x1
+
+    .line 62
+    goto :goto_1
+
+    .line 63
+    :cond_1
+    const/4 p1, 0x0
+
+    .line 64
+    :goto_1
+    invoke-virtual {v3, p1}, Landroidx/core/app/NotificationCompat$Builder;->f(Z)V
+
+    .line 65
+    .line 66
+    .line 67
+    invoke-direct {p0, v3, p2}, Lcom/huawei/appmarket/kw4;->a(Landroidx/core/app/NotificationCompat$Builder;Landroid/app/PendingIntent;)V
+
+    .line 68
+    .line 69
+    .line 70
+    new-instance p1, Landroid/os/Bundle;
+
+    .line 71
+    .line 72
+    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+
+    .line 73
+    .line 74
+    .line 75
+    iget-object p2, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 76
+    .line 77
+    invoke-static {p1, p3, v2, p2}, Lcom/huawei/appmarket/iw4;->b(Landroid/os/Bundle;ILjava/lang/String;Landroid/content/Context;)V
+
+    .line 78
+    .line 79
+    .line 80
+    iget-object p2, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 81
+    .line 82
+    invoke-static {p2, v3, p1}, Lcom/huawei/appmarket/ak5;->d(Landroid/content/Context;Landroidx/core/app/NotificationCompat$Builder;Landroid/os/Bundle;)V
+
+    .line 83
+    .line 84
+    .line 85
+    return-void
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+.end method
+
+.method private x()V
+    .registers 8
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    if-eqz v1, :cond_0
+
+    .line 8
+    .line 9
+    return-void
+
+    .line 10
+    :cond_0
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v1
+
+    .line 14
+    invoke-virtual {v0}, Ljava/util/LinkedList;->getLast()Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    check-cast v0, Lcom/huawei/appmarket/kw4$b;
+
+    .line 19
+    .line 20
+    new-instance v2, Lcom/huawei/appmarket/gw4;
+
+    .line 21
+    .line 22
+    invoke-direct {v2}, Lcom/huawei/appmarket/gw4;-><init>()V
+
+    .line 23
+    .line 24
+    .line 25
+    const-string v3, "PAUSED"
+
+    .line 26
+    .line 27
+    iput-object v3, v2, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 28
+    .line 29
+    const/4 v3, 0x1
+
+    .line 30
+    if-le v1, v3, :cond_1
+
+    .line 31
+    .line 32
+    iput v1, v2, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 33
+    .line 34
+    iput v1, v2, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 35
+    .line 36
+    iput-boolean v3, v2, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 37
+    .line 38
+    iget-object v4, v0, Lcom/huawei/appmarket/kw4$b;->b:Ljava/lang/String;
+
+    .line 39
+    .line 40
+    iput-object v4, v2, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 41
+    .line 42
+    goto :goto_0
+
+    .line 43
+    :cond_1
+    iput v3, v2, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 44
+    .line 45
+    iput v3, v2, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 46
+    .line 47
+    const/4 v4, 0x0
+
+    .line 48
+    iput-boolean v4, v2, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 49
+    .line 50
+    iget-object v4, v0, Lcom/huawei/appmarket/kw4$b;->b:Ljava/lang/String;
+
+    .line 51
+    .line 52
+    iput-object v4, v2, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 53
+    .line 54
+    iget v4, v0, Lcom/huawei/appmarket/kw4$b;->c:I
+
+    .line 55
+    .line 56
+    iput v4, v2, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 57
+    .line 58
+    :goto_0
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/kw4;->e(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v4
+
+    .line 62
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/kw4;->d(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v5
+
+    .line 66
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/kw4;->c(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 67
+    .line 68
+    .line 69
+    move-result-object v2
+
+    .line 70
+    iget-object v6, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 71
+    .line 72
+    invoke-static {v6}, Lcom/huawei/appmarket/iw4;->a(Landroid/content/Context;)Landroidx/core/app/NotificationCompat$Builder;
+
+    .line 73
+    .line 74
+    .line 75
+    move-result-object v6
+
+    .line 76
+    invoke-virtual {v6, v4}, Landroidx/core/app/NotificationCompat$Builder;->m(Ljava/lang/CharSequence;)V
 
     .line 77
     .line 78
     .line 79
-    move-result v3
+    invoke-virtual {v6, v5}, Landroidx/core/app/NotificationCompat$Builder;->l(Ljava/lang/CharSequence;)V
 
     .line 80
-    const/16 v6, 0x8
-
     .line 81
     .line 82
-    if-eq v3, v6, :cond_4
+    iget-object v4, v0, Lcom/huawei/appmarket/kw4$b;->a:Ljava/lang/String;
 
     .line 83
     .line 84
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
+    invoke-virtual {p0, v4}, Lcom/huawei/appmarket/kw4;->j(Ljava/lang/String;)Landroid/app/PendingIntent;
 
     .line 85
     .line 86
     .line 87
-    move-result v3
+    move-result-object v4
 
     .line 88
-    const/16 v6, 0xb
+    invoke-virtual {v6, v4}, Landroidx/core/app/NotificationCompat$Builder;->k(Landroid/app/PendingIntent;)V
 
     .line 89
     .line 90
-    if-ne v3, v6, :cond_3
-
     .line 91
+    invoke-direct {p0, v6, v4}, Lcom/huawei/appmarket/kw4;->a(Landroidx/core/app/NotificationCompat$Builder;Landroid/app/PendingIntent;)V
+
     .line 92
-    goto :goto_1
-
     .line 93
-    :cond_3
-    const-string v0, "condition 2 fail: live view experience not matched"
-
     .line 94
-    .line 95
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    new-instance v4, Landroid/os/Bundle;
 
+    .line 95
     .line 96
+    invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
+
     .line 97
     .line 98
-    return v1
-
     .line 99
-    :cond_4
-    :goto_1
-    new-instance v3, Lcom/huawei/appmarket/xr6$b;
+    iget-object v5, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
 
     .line 100
     .line 101
-    invoke-direct {v3}, Lcom/huawei/appmarket/xr6$b;-><init>()V
+    invoke-static {v4, v3, v2, v5}, Lcom/huawei/appmarket/iw4;->b(Landroid/os/Bundle;ILjava/lang/String;Landroid/content/Context;)V
 
     .line 102
     .line 103
     .line 104
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
 
     .line 105
     .line 106
+    invoke-static {v2, v6, v4}, Lcom/huawei/appmarket/ak5;->d(Landroid/content/Context;Landroidx/core/app/NotificationCompat$Builder;Landroid/os/Bundle;)V
+
     .line 107
-    move-result v6
-
     .line 108
-    invoke-virtual {v3, v6}, Lcom/huawei/appmarket/xr6$b;->f(I)V
-
     .line 109
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
     .line 110
     .line 111
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-virtual {v2, p0}, Lcom/huawei/appmarket/lw4;->p(Lcom/huawei/appmarket/kw4;)V
 
     .line 112
     .line 113
     .line 114
-    move-result-object v6
+    new-instance v2, Ljava/lang/StringBuilder;
 
     .line 115
-    invoke-virtual {v3, v6}, Lcom/huawei/appmarket/xr6$b;->e(Ljava/lang/String;)V
-
     .line 116
+    const-string v3, "showPausedAppFromQueue: pausedCount="
+
     .line 117
     .line 118
-    invoke-virtual {v3, v5}, Lcom/huawei/appmarket/xr6$b;->b(Z)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v3}, Lcom/huawei/appmarket/xr6$b;->a()Lcom/huawei/appmarket/xr6;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
     .line 124
-    move-result-object v3
+    const-string v1, ", lastPackageName="
 
     .line 125
-    const-class v6, Lcom/huawei/appmarket/nr3;
+    .line 126
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 127
+    .line 128
+    .line 129
+    iget-object v0, v0, Lcom/huawei/appmarket/kw4$b;->a:Ljava/lang/String;
+
+    .line 130
+    .line 131
+    const-string v1, "LiveNotificationManager"
+
+    .line 132
+    .line 133
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/uq5;->v(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 134
+    .line 135
+    .line 136
+    return-void
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+.end method
+
+
+# virtual methods
+.method public final c(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+    .registers 11
+
+    .line 1
+    iget-boolean v0, p1, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 2
+    .line 3
+    const v1, 0x7f120f4f
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v2, 0x1
+
+    .line 7
+    const/4 v3, 0x0
+
+    .line 8
+    const-string v4, "PAUSED"
+
+    .line 9
+    .line 10
+    const-string v5, "INSTALLED"
+
+    .line 11
+    .line 12
+    const v6, 0x7f120b4e
+
+    .line 13
+    .line 14
+    .line 15
+    const-string v7, "FAILED"
+
+    .line 16
+    .line 17
+    if-eqz v0, :cond_4
+
+    .line 18
+    .line 19
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    invoke-virtual {v7, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v0
+
+    .line 25
+    if-eqz v0, :cond_0
+
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 28
+    .line 29
+    invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    goto :goto_1
+
+    .line 34
+    :cond_0
+    const-string v0, "ALL_INSTALLED"
+
+    .line 35
+    .line 36
+    iget-object v6, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v0
+
+    .line 42
+    if-nez v0, :cond_3
+
+    .line 43
+    .line 44
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 45
+    .line 46
+    invoke-virtual {v5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v0
+
+    .line 50
+    if-eqz v0, :cond_1
+
+    .line 51
+    .line 52
+    goto :goto_0
+
+    .line 53
+    :cond_1
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 54
+    .line 55
+    invoke-virtual {v4, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    if-eqz v0, :cond_2
+
+    .line 60
+    .line 61
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 62
+    .line 63
+    const v0, 0x7f120f53
+
+    .line 64
+    .line 65
+    .line 66
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 67
+    .line 68
+    .line 69
+    move-result-object p1
+
+    .line 70
+    goto :goto_1
+
+    .line 71
+    :cond_2
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 72
+    .line 73
+    const/4 v1, 0x2
+
+    .line 74
+    new-array v1, v1, [Ljava/lang/Object;
+
+    .line 75
+    .line 76
+    iget v4, p1, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 77
+    .line 78
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object v4
+
+    .line 82
+    aput-object v4, v1, v3
+
+    .line 83
+    .line 84
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 85
+    .line 86
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p1
+
+    .line 90
+    aput-object p1, v1, v2
+
+    .line 91
+    .line 92
+    const p1, 0x7f120f51
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 96
+    .line 97
+    .line 98
+    move-result-object p1
+
+    .line 99
+    goto :goto_1
+
+    .line 100
+    :cond_3
+    :goto_0
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 101
+    .line 102
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 103
+    .line 104
+    .line 105
+    move-result-object p1
+
+    .line 106
+    :goto_1
+    return-object p1
+
+    .line 107
+    :cond_4
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 108
+    .line 109
+    const-string v8, "DOWNLOADING"
+
+    .line 110
+    .line 111
+    invoke-virtual {v8, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 112
+    .line 113
+    .line 114
+    move-result v0
+
+    .line 115
+    if-eqz v0, :cond_5
+
+    .line 116
+    .line 117
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 118
+    .line 119
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
+
+    .line 120
+    .line 121
+    .line 122
+    move-result-object p1
+
+    .line 123
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 124
+    .line 125
+    new-array v1, v2, [Ljava/lang/Object;
 
     .line 126
     .line 127
-    const-string v7, "GlobalConfig"
+    aput-object p1, v1, v3
 
     .line 128
     .line 129
-    invoke-static {v6, v7}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    const p1, 0x7f120f4d
 
     .line 130
     .line 131
     .line 132
-    move-result-object v8
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 133
-    check-cast v8, Lcom/huawei/appmarket/nr3;
-
     .line 134
     .line 135
-    invoke-interface {v8, v3}, Lcom/huawei/appmarket/nr3;->a(Lcom/huawei/appmarket/xr6;)Lcom/huawei/appmarket/hv7;
+    move-result-object p1
 
     .line 136
-    .line 137
-    .line 138
-    move-result-object v3
+    goto :goto_2
 
+    .line 137
+    :cond_5
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 138
     .line 139
-    if-eqz v3, :cond_20
+    invoke-virtual {v4, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 140
     .line 141
-    invoke-virtual {v3}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
     .line 142
-    .line 143
-    .line 144
-    move-result-object v8
+    move-result v0
 
+    .line 143
+    if-eqz v0, :cond_6
+
+    .line 144
     .line 145
-    if-nez v8, :cond_5
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->e:I
 
     .line 146
     .line 147
-    goto/16 :goto_13
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
 
     .line 148
     .line 149
-    :cond_5
-    invoke-virtual {v3}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
     .line 150
-    .line 151
-    .line 152
-    move-result-object v3
+    move-result-object p1
 
+    .line 151
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 152
     .line 153
-    check-cast v3, Lcom/huawei/appmarket/qz0;
+    new-array v1, v2, [Ljava/lang/Object;
 
     .line 154
     .line 155
-    sget-object v8, Lcom/huawei/appmarket/kw4;->a:[Ljava/lang/String;
+    aput-object p1, v1, v3
 
     .line 156
     .line 157
-    const-class v9, [Ljava/lang/String;
+    const p1, 0x7f120f50
 
     .line 158
     .line 159
-    const-string v10, "DOWNLOAD.LIVE_VIEW_EXPERIENCE"
-
     .line 160
-    .line 161
-    invoke-interface {v3, v9, v10, v8}, Lcom/huawei/appmarket/qz0;->a(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qz0$a;
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
+    .line 161
     .line 162
     .line 163
+    move-result-object p1
+
     .line 164
-    move-result-object v3
+    goto :goto_2
 
     .line 165
-    invoke-interface {v3}, Lcom/huawei/appmarket/qz0$a;->getValue()Ljava/lang/Object;
+    :cond_6
+    const-string v0, "INSTALLING"
 
     .line 166
     .line 167
-    .line 168
-    move-result-object v3
+    iget-object v2, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
 
+    .line 168
     .line 169
-    check-cast v3, [Ljava/lang/String;
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 170
     .line 171
-    if-eqz v3, :cond_1f
-
     .line 172
+    move-result v0
+
     .line 173
-    array-length v11, v3
+    if-eqz v0, :cond_7
 
     .line 174
-    if-nez v11, :cond_6
-
     .line 175
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
     .line 176
-    goto/16 :goto_12
-
     .line 177
-    .line 178
-    :cond_6
-    const-string v11, "callType"
+    const v0, 0x7f120a48
 
+    .line 178
     .line 179
     .line 180
-    invoke-virtual {v0, v11}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     .line 181
     .line 182
     .line 183
-    move-result-object v11
+    move-result-object p1
 
     .line 184
-    const-string v12, "callerPkg"
+    goto :goto_2
+
+    .line 185
+    :cond_7
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 186
+    .line 187
+    invoke-virtual {v5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 188
+    .line 189
+    .line 190
+    move-result v0
+
+    .line 191
+    if-eqz v0, :cond_8
+
+    .line 192
+    .line 193
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 194
+    .line 195
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 196
+    .line 197
+    .line 198
+    move-result-object p1
+
+    .line 199
+    goto :goto_2
+
+    .line 200
+    :cond_8
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 201
+    .line 202
+    invoke-virtual {v7, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 203
+    .line 204
+    .line 205
+    move-result p1
+
+    .line 206
+    if-eqz p1, :cond_9
+
+    .line 207
+    .line 208
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 209
+    .line 210
+    invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 211
+    .line 212
+    .line 213
+    move-result-object p1
+
+    .line 214
+    goto :goto_2
+
+    .line 215
+    :cond_9
+    const-string p1, ""
+
+    .line 216
+    .line 217
+    :goto_2
+    return-object p1
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+.end method
+
+.method public final d(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+    .registers 6
+
+    .line 1
+    iget-boolean v0, p1, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 2
+    .line 3
+    const-string v1, ""
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_5
+
+    .line 6
+    .line 7
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    const-string v2, "FAILED"
+
+    .line 10
+    .line 11
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v0
+
+    .line 15
+    if-eqz v0, :cond_0
+
+    .line 16
+    .line 17
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 18
+    .line 19
+    if-eqz p1, :cond_4
+
+    .line 20
+    .line 21
+    :goto_0
+    move-object v1, p1
+
+    .line 22
+    goto :goto_2
+
+    .line 23
+    :cond_0
+    const-string v0, "ALL_INSTALLED"
+
+    .line 24
+    .line 25
+    iget-object v2, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 26
+    .line 27
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 28
+    .line 29
+    .line 30
+    move-result v0
+
+    .line 31
+    if-nez v0, :cond_3
+
+    .line 32
+    .line 33
+    const-string v0, "INSTALLED"
+
+    .line 34
+    .line 35
+    iget-object v2, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 36
+    .line 37
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v0
+
+    .line 41
+    if-eqz v0, :cond_1
+
+    .line 42
+    .line 43
+    goto :goto_1
+
+    .line 44
+    :cond_1
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 45
+    .line 46
+    if-eqz v0, :cond_2
+
+    .line 47
+    .line 48
+    move-object v1, v0
+
+    .line 49
+    :cond_2
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 50
+    .line 51
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object v0
+
+    .line 55
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 56
+    .line 57
+    const/4 v2, 0x2
+
+    .line 58
+    new-array v2, v2, [Ljava/lang/Object;
+
+    .line 59
+    .line 60
+    const/4 v3, 0x0
+
+    .line 61
+    aput-object v1, v2, v3
+
+    .line 62
+    .line 63
+    const/4 v1, 0x1
+
+    .line 64
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object v3
+
+    .line 68
+    aput-object v3, v2, v1
+
+    .line 69
+    .line 70
+    const v1, 0x7f1000b6
+
+    .line 71
+    .line 72
+    .line 73
+    invoke-virtual {v0, v1, p1, v2}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 74
+    .line 75
+    .line 76
+    move-result-object v1
+
+    .line 77
+    goto :goto_2
+
+    .line 78
+    :cond_3
+    :goto_1
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 79
+    .line 80
+    if-eqz p1, :cond_4
+
+    .line 81
+    .line 82
+    goto :goto_0
+
+    .line 83
+    :cond_4
+    :goto_2
+    return-object v1
+
+    .line 84
+    :cond_5
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 85
+    .line 86
+    if-eqz p1, :cond_6
+
+    .line 87
+    .line 88
+    move-object v1, p1
+
+    .line 89
+    :cond_6
+    return-object v1
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+.end method
+
+.method public final e(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+    .registers 11
+
+    .line 1
+    iget-boolean v0, p1, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 2
+    .line 3
+    const v1, 0x7f120f4f
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v2, 0x1
+
+    .line 7
+    const/4 v3, 0x0
+
+    .line 8
+    const-string v4, "PAUSED"
+
+    .line 9
+    .line 10
+    const-string v5, "INSTALLED"
+
+    .line 11
+    .line 12
+    const v6, 0x7f120b4e
+
+    .line 13
+    .line 14
+    .line 15
+    const-string v7, "FAILED"
+
+    .line 16
+    .line 17
+    if-eqz v0, :cond_4
+
+    .line 18
+    .line 19
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    invoke-virtual {v7, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v0
+
+    .line 25
+    if-eqz v0, :cond_0
+
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 28
+    .line 29
+    invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    goto :goto_1
+
+    .line 34
+    :cond_0
+    const-string v0, "ALL_INSTALLED"
+
+    .line 35
+    .line 36
+    iget-object v6, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v0
+
+    .line 42
+    if-nez v0, :cond_3
+
+    .line 43
+    .line 44
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 45
+    .line 46
+    invoke-virtual {v5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v0
+
+    .line 50
+    if-eqz v0, :cond_1
+
+    .line 51
+    .line 52
+    goto :goto_0
+
+    .line 53
+    :cond_1
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 54
+    .line 55
+    invoke-virtual {v4, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    if-eqz v0, :cond_2
+
+    .line 60
+    .line 61
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 62
+    .line 63
+    const v0, 0x7f120f53
+
+    .line 64
+    .line 65
+    .line 66
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 67
+    .line 68
+    .line 69
+    move-result-object p1
+
+    .line 70
+    goto :goto_1
+
+    .line 71
+    :cond_2
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 72
+    .line 73
+    const/4 v1, 0x2
+
+    .line 74
+    new-array v1, v1, [Ljava/lang/Object;
+
+    .line 75
+    .line 76
+    iget v4, p1, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 77
+    .line 78
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object v4
+
+    .line 82
+    aput-object v4, v1, v3
+
+    .line 83
+    .line 84
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 85
+    .line 86
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p1
+
+    .line 90
+    aput-object p1, v1, v2
+
+    .line 91
+    .line 92
+    const p1, 0x7f120f52
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 96
+    .line 97
+    .line 98
+    move-result-object p1
+
+    .line 99
+    goto :goto_1
+
+    .line 100
+    :cond_3
+    :goto_0
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 101
+    .line 102
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 103
+    .line 104
+    .line 105
+    move-result-object p1
+
+    .line 106
+    :goto_1
+    return-object p1
+
+    .line 107
+    :cond_4
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 108
+    .line 109
+    const-string v8, "DOWNLOADING"
+
+    .line 110
+    .line 111
+    invoke-virtual {v8, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 112
+    .line 113
+    .line 114
+    move-result v0
+
+    .line 115
+    if-eqz v0, :cond_5
+
+    .line 116
+    .line 117
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 118
+    .line 119
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
+
+    .line 120
+    .line 121
+    .line 122
+    move-result-object p1
+
+    .line 123
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 124
+    .line 125
+    new-array v1, v2, [Ljava/lang/Object;
+
+    .line 126
+    .line 127
+    aput-object p1, v1, v3
+
+    .line 128
+    .line 129
+    const p1, 0x7f120f4e
+
+    .line 130
+    .line 131
+    .line 132
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 133
+    .line 134
+    .line 135
+    move-result-object p1
+
+    .line 136
+    goto :goto_2
+
+    .line 137
+    :cond_5
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 138
+    .line 139
+    invoke-virtual {v4, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 140
+    .line 141
+    .line 142
+    move-result v0
+
+    .line 143
+    if-eqz v0, :cond_6
+
+    .line 144
+    .line 145
+    iget p1, p1, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 146
+    .line 147
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->b(I)Ljava/lang/String;
+
+    .line 148
+    .line 149
+    .line 150
+    move-result-object p1
+
+    .line 151
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 152
+    .line 153
+    new-array v1, v2, [Ljava/lang/Object;
+
+    .line 154
+    .line 155
+    aput-object p1, v1, v3
+
+    .line 156
+    .line 157
+    const p1, 0x7f120f50
+
+    .line 158
+    .line 159
+    .line 160
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 161
+    .line 162
+    .line 163
+    move-result-object p1
+
+    .line 164
+    goto :goto_2
+
+    .line 165
+    :cond_6
+    const-string v0, "INSTALLING"
+
+    .line 166
+    .line 167
+    iget-object v2, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 168
+    .line 169
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 170
+    .line 171
+    .line 172
+    move-result v0
+
+    .line 173
+    if-eqz v0, :cond_7
+
+    .line 174
+    .line 175
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 176
+    .line 177
+    const v0, 0x7f120a48
+
+    .line 178
+    .line 179
+    .line 180
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 181
+    .line 182
+    .line 183
+    move-result-object p1
+
+    .line 184
+    goto :goto_2
+
+    .line 185
+    :cond_7
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 186
+    .line 187
+    invoke-virtual {v5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 188
+    .line 189
+    .line 190
+    move-result v0
+
+    .line 191
+    if-eqz v0, :cond_8
+
+    .line 192
+    .line 193
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 194
+    .line 195
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 196
+    .line 197
+    .line 198
+    move-result-object p1
+
+    .line 199
+    goto :goto_2
+
+    .line 200
+    :cond_8
+    iget-object v0, p1, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 201
+    .line 202
+    invoke-virtual {v7, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 203
+    .line 204
+    .line 205
+    move-result v0
+
+    .line 206
+    if-eqz v0, :cond_9
+
+    .line 207
+    .line 208
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 209
+    .line 210
+    invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 211
+    .line 212
+    .line 213
+    move-result-object p1
+
+    .line 214
+    goto :goto_2
+
+    .line 215
+    :cond_9
+    iget-object p1, p1, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 216
+    .line 217
+    if-eqz p1, :cond_a
+
+    .line 218
+    .line 219
+    goto :goto_2
+
+    .line 220
+    :cond_a
+    const-string p1, ""
+
+    .line 221
+    .line 222
+    :goto_2
+    return-object p1
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+.end method
+
+.method public final declared-synchronized f()V
+    .registers 4
+
+    .line 1
+    const-string v0, "cancelStale: queue not empty, n="
+
+    monitor-enter p0
+
+    :try_start_0
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->i()V
+
+    iget-boolean v1, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    if-eqz v1, :cond_0
+
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "cancelStale: created, skip"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    goto/16 :goto_1
+
+    :cond_0
+    :try_start_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->p()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "cancelStale: not active, skip"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :cond_1
+    :try_start_2
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    invoke-virtual {v1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    invoke-virtual {v1}, Ljava/util/HashMap;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->i()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "cancelStale: has scheduled tasks, skip"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :cond_3
+    :try_start_3
+    const-string v0, "LiveNotificationManager"
+
+    const-string v1, "cancelStale: cancel directly"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ak5;->a(Landroid/content/Context;)V
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :cond_4
+    :goto_0
+    :try_start_4
+    const-string v1, "LiveNotificationManager"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", p="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", i="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_4
+    .catchall {:try_start_4 .. :try_end_4} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :goto_1
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final declared-synchronized g(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    .registers 10
+
+    .line 1
+    const-string v0, "createLiveNotification: success, isMultiApp="
+
+    .line 2
+    .line 3
+    monitor-enter p0
+
+    .line 4
+    :try_start_0
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->i()V
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v1
+
+    .line 11
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->C()Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v2
+
+    .line 15
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 16
+    .line 17
+    invoke-virtual {v3, v1}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v3
+
+    .line 21
+    if-nez v3, :cond_0
+
+    .line 22
+    .line 23
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 24
+    .line 25
+    invoke-virtual {v3, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+
+    .line 26
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :catchall_0
+    move-exception p1
+
+    .line 30
+    goto/16 :goto_3
+
+    .line 31
+    .line 32
+    :cond_0
+    :goto_0
+    iget-boolean v3, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 33
+    .line 34
+    if-eqz v3, :cond_2
+
+    .line 35
+    .line 36
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->p()Z
+
+    .line 37
+    .line 38
+    .line 39
+    move-result v3
+
+    .line 40
+    if-nez v3, :cond_1
+
+    .line 41
+    .line 42
+    const-string v3, "LiveNotificationManager"
+
+    .line 43
+    .line 44
+    const-string v4, "createLiveNotification: notification dismissed, reset and recreate"
+
+    .line 45
+    .line 46
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->u()V
+
+    .line 50
+    .line 51
+    .line 52
+    goto :goto_1
+
+    .line 53
+    :cond_1
+    const-string p1, "LiveNotificationManager"
+
+    .line 54
+    .line 55
+    const-string v0, "createLiveNotification: already created, skip"
+
+    .line 56
+    .line 57
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 58
+    .line 59
+    .line 60
+    monitor-exit p0
+
+    .line 61
+    return-void
+
+    .line 62
+    :cond_2
+    :goto_1
+    :try_start_1
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v3
+
+    .line 66
+    invoke-virtual {v3}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->g()Z
+
+    .line 67
+    .line 68
+    .line 69
+    move-result v3
+
+    .line 70
+    if-eqz v3, :cond_3
+
+    .line 71
+    .line 72
+    const-string p1, "LiveNotificationManager"
+
+    .line 73
+    .line 74
+    const-string v0, "createLiveNotification: child process, skip"
+
+    .line 75
+    .line 76
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 77
+    .line 78
+    .line 79
+    monitor-exit p0
+
+    .line 80
+    return-void
+
+    .line 81
+    :cond_3
+    :try_start_2
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->b()Z
+
+    .line 82
+    .line 83
+    .line 84
+    move-result v3
+
+    .line 85
+    if-nez v3, :cond_4
+
+    .line 86
+    .line 87
+    const-string p1, "LiveNotificationManager"
+
+    .line 88
+    .line 89
+    const-string v0, "createLiveNotification: notifications not enabled, skip"
+
+    .line 90
+    .line 91
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 92
+    .line 93
+    .line 94
+    monitor-exit p0
+
+    .line 95
+    return-void
+
+    .line 96
+    :cond_4
+    :try_start_3
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 97
+    .line 98
+    invoke-virtual {v3}, Ljava/util/LinkedList;->size()I
+
+    .line 99
+    .line 100
+    .line 101
+    move-result v3
+
+    .line 102
+    const/4 v4, 0x0
+
+    .line 103
+    const/4 v5, 0x1
+
+    .line 104
+    if-le v3, v5, :cond_5
+
+    .line 105
+    .line 106
+    const/4 v3, 0x1
+
+    .line 107
+    goto :goto_2
+
+    .line 108
+    :cond_5
+    const/4 v3, 0x0
+
+    .line 109
+    :goto_2
+    new-instance v6, Lcom/huawei/appmarket/gw4;
+
+    .line 110
+    .line 111
+    invoke-direct {v6}, Lcom/huawei/appmarket/gw4;-><init>()V
+
+    .line 112
+    .line 113
+    .line 114
+    iget-object v7, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 115
+    .line 116
+    invoke-virtual {v7}, Ljava/util/LinkedList;->size()I
+
+    .line 117
+    .line 118
+    .line 119
+    move-result v7
+
+    .line 120
+    iput v7, v6, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 121
+    .line 122
+    iget-object v7, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 123
+    .line 124
+    invoke-virtual {v7, v1}, Ljava/util/LinkedList;->indexOf(Ljava/lang/Object;)I
+
+    .line 125
+    .line 126
+    .line 127
+    move-result v1
+
+    .line 128
+    add-int/2addr v1, v5
+
+    .line 129
+    iput v1, v6, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 130
+    .line 131
+    iput-boolean v3, v6, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 132
+    .line 133
+    iput-object v2, v6, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 134
+    .line 135
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->G()I
+
+    .line 136
+    .line 137
+    .line 138
+    move-result v1
+
+    .line 139
+    iput v1, v6, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 140
+    .line 141
+    const-string v1, "DOWNLOADING"
+
+    .line 142
+    .line 143
+    iput-object v1, v6, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 144
+    .line 145
+    invoke-direct {p0, v6, p1, v4}, Lcom/huawei/appmarket/kw4;->v(Lcom/huawei/appmarket/gw4;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
+
+    .line 146
+    .line 147
+    .line 148
+    sget p1, Lcom/huawei/appmarket/ij5;->b:I
+
+    .line 149
+    .line 150
+    new-instance p1, Ljava/util/LinkedHashMap;
+
+    .line 151
+    .line 152
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 153
+    .line 154
+    .line 155
+    const-string v1, "1010600204"
+
+    .line 156
+    .line 157
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+
+    .line 158
+    .line 159
+    .line 160
+    iput-boolean v5, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 161
+    .line 162
+    iput-boolean v4, p0, Lcom/huawei/appmarket/kw4;->f:Z
+
+    .line 163
+    .line 164
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 165
+    .line 166
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lw4;->h()V
+
+    .line 167
+    .line 168
+    .line 169
+    const-string p1, "LiveNotificationManager"
+
+    .line 170
+    .line 171
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 172
+    .line 173
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 174
+    .line 175
+    .line 176
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 177
+    .line 178
+    .line 179
+    const-string v0, ", queueSize="
+
+    .line 180
+    .line 181
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 182
+    .line 183
+    .line 184
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
 
     .line 185
     .line 186
-    invoke-virtual {v0, v12}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->q(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
     .line 187
     .line 188
     .line 189
-    move-result-object v12
+    move-result v0
 
     .line 190
-    const-string v13, "isLiveViewExperienceEnabled: taskCallType="
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 191
     .line 192
-    const-string v14, ", taskCallerPkg="
-
     .line 193
-    .line 194
-    const-string v15, ", configArray.length="
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 194
     .line 195
     .line 196
-    invoke-static {v13, v11, v14, v12, v15}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 197
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
     .line 198
     .line 199
-    move-result-object v13
-
     .line 200
-    array-length v14, v3
+    monitor-exit p0
 
     .line 201
-    invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    return-void
+
+    .line 202
+    :goto_3
+    monitor-exit p0
+
+    .line 203
+    throw p1
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+.end method
+
+.method public final h()V
+    .registers 5
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->i()V
+
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    const-string v1, "LiveNotificationManager"
+
+    if-nez v0, :cond_0
+
+    const-string v0, "endLiveNotification: not created, skip"
+
+    :goto_0
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->h()V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/iw4;->a(Landroid/content/Context;)Landroidx/core/app/NotificationCompat$Builder;
+
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x0
+
+    invoke-static {v0, v2, v3, v3}, Lcom/huawei/appmarket/iw4;->b(Landroid/os/Bundle;ILjava/lang/String;Landroid/content/Context;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ak5;->a(Landroid/content/Context;)V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kw4;->f:Z
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    const-string v0, "endLiveNotification: success"
+
+    goto :goto_0
+.end method
+
+.method public final j(Ljava/lang/String;)Landroid/app/PendingIntent;
+    .registers 8
+
+    .line 1
+    const-string v0, "LiveNotificationManager"
+
+    .line 2
+    .line 3
+    if-nez p1, :cond_0
+
+    .line 4
+    .line 5
+    const-string p1, "getAppDetailPendingIntent: packageName is null"
+
+    .line 6
+    .line 7
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    const/4 p1, 0x0
+
+    .line 11
+    return-object p1
+
+    .line 12
+    :cond_0
+    const-string v1, "store://appgallery.huawei.com/app/detail"
+
+    .line 13
+    .line 14
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v1
+
+    .line 18
+    invoke-virtual {v1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    const-string v2, "id"
+
+    .line 23
+    .line 24
+    invoke-virtual {v1, v2, p1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v1
+
+    .line 28
+    const-string v2, "channelId"
+
+    .line 29
+    .line 30
+    const-string v3, "INSTALL_LIVE_VIEW"
+
+    .line 31
+    .line 32
+    invoke-virtual {v1, v2, v3}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v1
+
+    .line 36
+    const-string v2, "callType"
+
+    .line 37
+    .line 38
+    const-string v4, "LIVE_VIEW"
+
+    .line 39
+    .line 40
+    invoke-virtual {v1, v2, v4}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v1
+
+    .line 44
+    invoke-virtual {v1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v1
+
+    .line 48
+    new-instance v2, Landroid/content/Intent;
+
+    .line 49
+    .line 50
+    const-string v4, "android.intent.action.VIEW"
+
+    .line 51
+    .line 52
+    invoke-direct {v2, v4, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
+    .line 53
+    .line 54
+    .line 55
+    const/high16 v4, 0x14000000
+
+    .line 56
+    .line 57
+    invoke-virtual {v2, v4}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    .line 58
+    .line 59
+    .line 60
+    invoke-static {v2}, Lcom/huawei/appmarket/ao3;->a(Landroid/content/Intent;)V
+
+    .line 61
+    .line 62
+    .line 63
+    const-string v4, "jump_from_notification"
+
+    .line 64
+    .line 65
+    const/4 v5, 0x1
+
+    .line 66
+    invoke-virtual {v2, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+
+    .line 67
+    .line 68
+    .line 69
+    const-string v4, "notification_type"
+
+    .line 70
+    .line 71
+    invoke-virtual {v2, v4, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 72
+    .line 73
+    .line 74
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 75
+    .line 76
+    const v4, 0x1350062
+
+    .line 77
+    .line 78
+    .line 79
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->a()I
+
+    .line 80
+    .line 81
+    .line 82
+    move-result v5
+
+    .line 83
+    invoke-static {v3, v4, v2, v5}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    .line 84
+    .line 85
+    .line 86
+    move-result-object v2
+
+    .line 87
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 88
+    .line 89
+    const-string v4, "getAppDetailPendingIntent: packageName="
+
+    .line 90
+    .line 91
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 92
+    .line 93
+    .line 94
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 95
+    .line 96
+    .line 97
+    const-string p1, ", uri="
+
+    .line 98
+    .line 99
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 100
+    .line 101
+    .line 102
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 103
+    .line 104
+    .line 105
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 106
+    .line 107
+    .line 108
+    move-result-object p1
+
+    .line 109
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 110
+    .line 111
+    .line 112
+    return-object v2
+    .line 113
+    .line 114
+.end method
+
+.method public final l()V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v0
+
+    const-string v1, "LiveNotificationManager"
+
+    if-nez v0, :cond_0
+
+    const-string v0, "handleAllInstallCompleteWithPauseQueue: show paused app from queue"
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
+
+    goto :goto_0
+
+    :cond_0
+    const-string v0, "handleAllInstallCompleteWithPauseQueue: no paused apps, end notification"
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
+
+    :goto_0
+    return-void
+.end method
+
+.method public final m()V
+    .registers 7
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    const-string v0, "LiveNotificationManager"
+
+    .line 6
+    .line 7
+    const-string v1, "handleBatchPauseRefresh: not created, skip"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v0
+
+    .line 19
+    if-eqz v0, :cond_1
+
+    .line 20
+    .line 21
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+
+    .line 25
+    :cond_1
+    const-string v0, "DownloadProxy"
+
+    .line 26
+    .line 27
+    const-class v1, Lcom/huawei/appmarket/oo3;
+
+    .line 28
+    .line 29
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v0
+
+    .line 33
+    check-cast v0, Lcom/huawei/appmarket/oo3;
+
+    .line 34
+    .line 35
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 36
+    .line 37
+    invoke-virtual {v1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v1
+
+    .line 41
+    const/4 v2, 0x0
+
+    .line 42
+    move-object v3, v2
+
+    .line 43
+    :cond_2
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result v4
+
+    .line 47
+    if-eqz v4, :cond_4
+
+    .line 48
+    .line 49
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v4
+
+    .line 53
+    check-cast v4, Ljava/lang/String;
+
+    .line 54
+    .line 55
+    const/4 v5, 0x0
+
+    .line 56
+    new-array v5, v5, [I
+
+    .line 57
+    .line 58
+    invoke-interface {v0, v4, v5}, Lcom/huawei/appmarket/oo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v5
+
+    .line 62
+    if-eqz v5, :cond_3
+
+    .line 63
+    .line 64
+    move-object v2, v5
+
+    .line 65
+    goto :goto_1
+
+    .line 66
+    :cond_3
+    if-nez v3, :cond_2
+
+    .line 67
+    .line 68
+    iget-object v5, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    .line 69
+    .line 70
+    invoke-virtual {v5, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object v4
+
+    .line 74
+    check-cast v4, Landroid/util/Pair;
+
+    .line 75
+    .line 76
+    if-eqz v4, :cond_2
+
+    .line 77
+    .line 78
+    move-object v3, v4
+
+    .line 79
+    goto :goto_0
+
+    .line 80
+    :cond_4
+    :goto_1
+    if-eqz v2, :cond_5
+
+    .line 81
+    .line 82
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/kw4;->y(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+
+    .line 83
+    .line 84
+    .line 85
+    goto :goto_2
+
+    .line 86
+    :cond_5
+    if-eqz v3, :cond_6
+
+    .line 87
+    .line 88
+    iget-object v0, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
+
+    .line 89
+    .line 90
+    check-cast v0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
+    .line 91
+    .line 92
+    iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 93
+    .line 94
+    check-cast v1, Lcom/huawei/appmarket/hw4;
+
+    .line 95
+    .line 96
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/kw4;->z(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/hw4;)V
+
+    .line 97
+    .line 98
+    .line 99
+    goto :goto_2
+
+    .line 100
+    :cond_6
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 101
+    .line 102
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 103
+    .line 104
+    .line 105
+    move-result v0
+
+    .line 106
+    if-nez v0, :cond_7
+
+    .line 107
+    .line 108
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
+
+    .line 109
+    .line 110
+    .line 111
+    goto :goto_2
+
+    .line 112
+    :cond_7
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
+
+    .line 113
+    .line 114
+    .line 115
+    :goto_2
+    return-void
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+.end method
+
+.method public final p()Z
+    .registers 10
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 2
+    .line 3
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 4
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    const/16 v3, 0x17
+
+    .line 7
+    .line 8
+    const/4 v4, 0x0
+
+    .line 9
+    if-ge v1, v3, :cond_0
+
+    .line 10
+    .line 11
+    goto :goto_3
+
+    .line 12
+    :cond_0
+    const-string v1, "NotificationUtil"
+
+    .line 13
+    .line 14
+    if-nez v0, :cond_1
+
+    .line 15
+    .line 16
+    const-string v0, "getActiveLiveNotification context is null"
+
+    .line 17
+    .line 18
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    goto :goto_3
+
+    .line 22
+    :cond_1
+    :try_start_0
+    const-string v3, "notification"
+
+    .line 23
+    .line 24
+    invoke-virtual {v0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    check-cast v0, Landroid/app/NotificationManager;
+
+    .line 29
+    .line 30
+    if-eqz v0, :cond_3
+
+    .line 31
+    .line 32
+    invoke-static {v0}, Lcom/huawei/appmarket/gj5;->B(Landroid/app/NotificationManager;)[Landroid/service/notification/StatusBarNotification;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    if-eqz v0, :cond_3
+
+    .line 37
+    .line 38
+    array-length v3, v0
+
+    .line 39
+    const/4 v5, 0x0
+
+    .line 40
+    :goto_0
+    if-ge v5, v3, :cond_3
+
+    .line 41
+    .line 42
+    aget-object v6, v0, v5
+
+    .line 43
+    .line 44
+    invoke-virtual {v6}, Landroid/service/notification/StatusBarNotification;->getId()I
+
+    .line 45
+    .line 46
+    .line 47
+    move-result v7
+
+    .line 48
+    const v8, 0x1350062
+
+    .line 49
+    .line 50
+    .line 51
+    if-ne v7, v8, :cond_2
+
+    .line 52
+    .line 53
+    invoke-virtual {v6}, Landroid/service/notification/StatusBarNotification;->getNotification()Landroid/app/Notification;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object v4
+    :try_end_0
+    .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 57
+    goto :goto_3
+
+    .line 58
+    :catch_0
+    move-exception v0
+
+    .line 59
+    goto :goto_1
+
+    .line 60
+    :catch_1
+    move-exception v0
+
+    .line 61
+    goto :goto_2
+
+    .line 62
+    :cond_2
+    add-int/lit8 v5, v5, 0x1
+
+    .line 63
+    .line 64
+    goto :goto_0
+
+    .line 65
+    :goto_1
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 66
+    .line 67
+    const-string v5, "getActiveLiveNotification exception: "
+
+    .line 68
+    .line 69
+    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 70
+    .line 71
+    .line 72
+    invoke-static {v0, v3, v1}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
+    .line 73
+    .line 74
+    .line 75
+    goto :goto_3
+
+    .line 76
+    :goto_2
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 77
+    .line 78
+    const-string v5, "getActiveLiveNotification SecurityException: "
+
+    .line 79
+    .line 80
+    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    .line 84
+    .line 85
+    .line 86
+    move-result-object v0
+
+    .line 87
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 88
+    .line 89
+    .line 90
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 91
+    .line 92
+    .line 93
+    move-result-object v0
+
+    .line 94
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 95
+    .line 96
+    .line 97
+    :cond_3
+    :goto_3
+    if-eqz v4, :cond_4
+
+    .line 98
+    .line 99
+    const/4 v2, 0x1
+
+    .line 100
+    :cond_4
+    return v2
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+.end method
+
+.method public final q(Ljava/lang/String;)Z
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v0, p1}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/kw4;->o(Ljava/lang/String;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    :goto_1
+    return p1
+.end method
+
+.method public final r(Ljava/lang/String;)V
+    .registers 9
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    return-void
+
+    .line 8
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, p1}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v1
+
+    .line 17
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 18
+    .line 19
+    if-eqz v1, :cond_1
+
+    .line 20
+    .line 21
+    goto :goto_0
+
+    .line 22
+    :cond_1
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 23
+    .line 24
+    const/16 v3, 0x18
+
+    .line 25
+    .line 26
+    if-lt v1, v3, :cond_2
+
+    .line 27
+    .line 28
+    new-instance v1, Lcom/huawei/appmarket/jw4;
+
+    .line 29
+    .line 30
+    invoke-direct {v1, p1}, Lcom/huawei/appmarket/jw4;-><init>(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-virtual {v2, v1}, Ljava/util/LinkedList;->removeIf(Ljava/util/function/Predicate;)Z
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_2
+    :goto_0
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    .line 37
+    .line 38
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    .line 41
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 42
+    .line 43
+    const-string v4, "onDownloadTaskRemoved: removed "
+
+    .line 44
+    .line 45
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 49
+    .line 50
+    .line 51
+    const-string p1, ", notificationQueueSize="
+
+    .line 52
+    .line 53
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    .line 57
+    .line 58
+    .line 59
+    move-result p1
+
+    .line 60
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 61
+    .line 62
+    .line 63
+    const-string p1, ", pauseQueueSize="
+
+    .line 64
+    .line 65
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 66
+    .line 67
+    .line 68
+    invoke-virtual {v2}, Ljava/util/LinkedList;->size()I
+
+    .line 69
+    .line 70
+    .line 71
+    move-result p1
+
+    .line 72
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 73
+    .line 74
+    .line 75
+    const-string p1, ", installMapSize="
+
+    .line 76
+    .line 77
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 78
+    .line 79
+    .line 80
+    invoke-virtual {v1}, Ljava/util/HashMap;->size()I
+
+    .line 81
+    .line 82
+    .line 83
+    move-result p1
+
+    .line 84
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 85
+    .line 86
+    .line 87
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object p1
+
+    .line 91
+    const-string v3, "LiveNotificationManager"
+
+    .line 92
+    .line 93
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 94
+    .line 95
+    .line 96
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 97
+    .line 98
+    .line 99
+    move-result p1
+
+    .line 100
+    if-eqz p1, :cond_3
+
+    .line 101
+    .line 102
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 103
+    .line 104
+    .line 105
+    move-result p1
+
+    .line 106
+    if-eqz p1, :cond_3
+
+    .line 107
+    .line 108
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
+
+    .line 109
+    .line 110
+    .line 111
+    return-void
+
+    .line 112
+    :cond_3
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 113
+    .line 114
+    .line 115
+    move-result p1
+
+    .line 116
+    if-nez p1, :cond_8
+
+    .line 117
+    .line 118
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 119
+    .line 120
+    .line 121
+    move-result p1
+
+    .line 122
+    if-eqz p1, :cond_4
+
+    .line 123
+    .line 124
+    goto :goto_1
+
+    .line 125
+    :cond_4
+    const-string p1, "DownloadProxy"
+
+    .line 126
+    .line 127
+    const-class v4, Lcom/huawei/appmarket/oo3;
+
+    .line 128
+    .line 129
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 130
+    .line 131
+    .line 132
+    move-result-object p1
+
+    .line 133
+    check-cast p1, Lcom/huawei/appmarket/oo3;
+
+    .line 134
+    .line 135
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    .line 136
+    .line 137
+    .line 138
+    move-result-object v4
+
+    .line 139
+    :cond_5
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 140
+    .line 141
+    .line 142
+    move-result v5
+
+    .line 143
+    if-eqz v5, :cond_7
+
+    .line 144
+    .line 145
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 146
+    .line 147
+    .line 148
+    move-result-object v5
+
+    .line 149
+    check-cast v5, Ljava/lang/String;
+
+    .line 150
+    .line 151
+    invoke-virtual {v1, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 152
+    .line 153
+    .line 154
+    move-result-object v6
+
+    .line 155
+    check-cast v6, Landroid/util/Pair;
+
+    .line 156
+    .line 157
+    if-eqz v6, :cond_6
+
+    .line 158
+    .line 159
+    iget-object v5, v6, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 160
+    .line 161
+    sget-object v6, Lcom/huawei/appmarket/hw4;->c:Lcom/huawei/appmarket/hw4;
+
+    .line 162
+    .line 163
+    if-eq v5, v6, :cond_5
+
+    .line 164
+    .line 165
+    sget-object v6, Lcom/huawei/appmarket/hw4;->d:Lcom/huawei/appmarket/hw4;
+
+    .line 166
+    .line 167
+    if-eq v5, v6, :cond_5
+
+    .line 168
+    .line 169
+    goto :goto_2
+
+    .line 170
+    :cond_6
+    const/4 v6, 0x0
+
+    .line 171
+    new-array v6, v6, [I
+
+    .line 172
+    .line 173
+    invoke-interface {p1, v5, v6}, Lcom/huawei/appmarket/oo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
+    .line 174
+    .line 175
+    .line 176
+    move-result-object v5
+
+    .line 177
+    if-eqz v5, :cond_5
+
+    .line 178
+    .line 179
+    goto :goto_2
+
+    .line 180
+    :cond_7
+    :goto_1
+    const-string p1, "onDownloadTaskRemoved: all remaining apps terminal or displayed, end"
+
+    .line 181
+    .line 182
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 183
+    .line 184
+    .line 185
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
+
+    .line 186
+    .line 187
+    .line 188
+    return-void
+
+    .line 189
+    :cond_8
+    :goto_2
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 190
+    .line 191
+    .line 192
+    move-result p1
+
+    .line 193
+    if-nez p1, :cond_9
+
+    .line 194
+    .line 195
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 196
+    .line 197
+    .line 198
+    move-result p1
+
+    .line 199
+    if-eqz p1, :cond_9
+
+    .line 200
+    .line 201
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
 
     .line 202
     .line 203
     .line 204
-    invoke-virtual {v13}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
+    :cond_9
+    return-void
     .line 205
     .line 206
     .line 207
-    move-result-object v13
-
     .line 208
-    invoke-static {v2, v13}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 209
     .line 210
     .line 211
-    invoke-static {v11}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 212
     .line 213
     .line 214
-    move-result v13
-
     .line 215
-    const-string v14, "null"
-
     .line 216
     .line 217
-    if-nez v13, :cond_7
-
     .line 218
     .line 219
-    invoke-virtual {v14, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+.end method
+
+.method public final s()V
+    .registers 3
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    const-string v1, "LiveNotificationManager"
+
+    if-nez v0, :cond_0
+
+    const-string v0, "onLiveNotificationClicked: not created, skip"
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->i()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "onLiveNotificationClicked: no pending terminal state task, skip"
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_1
+    const-string v0, "onLiveNotificationClicked: advance to next by triggering scheduled task now"
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->q()V
+
+    return-void
+.end method
+
+.method public final t(Ljava/lang/String;)V
+    .registers 13
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    iget-object v1, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    .line 6
+    .line 7
+    const-string v2, "LiveNotificationManager"
+
+    .line 8
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    .line 11
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    .line 14
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 15
+    .line 16
+    const-string v3, "refreshLiveNotification: remove displayed pkg="
+
+    .line 17
+    .line 18
+    invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 22
+    .line 23
+    .line 24
+    const-string p1, " from installMap, remaining="
+
+    .line 25
+    .line 26
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {v1}, Ljava/util/HashMap;->size()I
+
+    .line 30
+    .line 31
+    .line 32
+    move-result p1
+
+    .line 33
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p1
+
+    .line 40
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 41
+    .line 42
+    .line 43
+    :cond_0
+    invoke-virtual {v1}, Ljava/util/HashMap;->isEmpty()Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result p1
+
+    .line 47
+    if-nez p1, :cond_2
+
+    .line 48
+    .line 49
+    invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object p1
+
+    .line 53
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object p1
+
+    .line 57
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object p1
+
+    .line 61
+    check-cast p1, Ljava/lang/String;
+
+    .line 62
+    .line 63
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 64
+    .line 65
+    .line 66
+    move-result-object v0
+
+    .line 67
+    check-cast v0, Landroid/util/Pair;
+
+    .line 68
+    .line 69
+    if-eqz v0, :cond_2
+
+    .line 70
+    .line 71
+    iget-object v1, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 72
+    .line 73
+    sget-object v3, Lcom/huawei/appmarket/hw4;->b:Lcom/huawei/appmarket/hw4;
+
+    .line 74
+    .line 75
+    if-ne v1, v3, :cond_1
+
+    .line 76
+    .line 77
+    const-string p1, "refreshLiveNotification: next is INSTALLING, skip and wait for progress callback"
+
+    .line 78
+    .line 79
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 80
+    .line 81
+    .line 82
+    return-void
+
+    .line 83
+    :cond_1
+    const-string v1, "refreshLiveNotification: show next from installMap, pkg="
+
+    .line 84
+    .line 85
+    const-string v3, ", state="
+
+    .line 86
+    .line 87
+    invoke-static {v1, p1, v3}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object p1
+
+    .line 91
+    iget-object v1, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 92
+    .line 93
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 94
+    .line 95
+    .line 96
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 97
+    .line 98
+    .line 99
+    move-result-object p1
+
+    .line 100
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 101
+    .line 102
+    .line 103
+    iget-object p1, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
+
+    .line 104
+    .line 105
+    check-cast p1, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
+    .line 106
+    .line 107
+    iget-object v0, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 108
+    .line 109
+    check-cast v0, Lcom/huawei/appmarket/hw4;
+
+    .line 110
+    .line 111
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/kw4;->z(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/hw4;)V
+
+    .line 112
+    .line 113
+    .line 114
+    return-void
+
+    .line 115
+    :cond_2
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 116
+    .line 117
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 118
+    .line 119
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 120
+    .line 121
+    .line 122
+    move-result v3
+
+    .line 123
+    const/4 v4, 0x0
+
+    .line 124
+    if-nez v3, :cond_8
+
+    .line 125
+    .line 126
+    const-string v3, "DownloadProxy"
+
+    .line 127
+    .line 128
+    const-class v5, Lcom/huawei/appmarket/oo3;
+
+    .line 129
+    .line 130
+    invoke-static {v5, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 131
+    .line 132
+    .line 133
+    move-result-object v3
+
+    .line 134
+    check-cast v3, Lcom/huawei/appmarket/oo3;
+
+    .line 135
+    .line 136
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    .line 137
+    .line 138
+    .line 139
+    move-result-object v5
+
+    .line 140
+    :cond_3
+    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 141
+    .line 142
+    .line 143
+    move-result v6
+
+    .line 144
+    const/4 v7, 0x1
+
+    .line 145
+    const/4 v8, 0x0
+
+    .line 146
+    if-eqz v6, :cond_4
+
+    .line 147
+    .line 148
+    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 149
+    .line 150
+    .line 151
+    move-result-object v6
+
+    .line 152
+    check-cast v6, Ljava/lang/String;
+
+    .line 153
+    .line 154
+    new-array v9, v8, [I
+
+    .line 155
+    .line 156
+    invoke-interface {v3, v6, v9}, Lcom/huawei/appmarket/oo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+
+    .line 157
+    .line 158
+    .line 159
+    move-result-object v6
+
+    .line 160
+    if-eqz v6, :cond_3
+
+    .line 161
+    .line 162
+    invoke-virtual {v6}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->Q()I
+
+    .line 163
+    .line 164
+    .line 165
+    move-result v9
+
+    .line 166
+    const/4 v10, 0x2
+
+    .line 167
+    if-ne v9, v10, :cond_3
+
+    .line 168
+    .line 169
+    move-object v4, v6
+
+    .line 170
+    const/4 v3, 0x1
+
+    .line 171
+    goto :goto_0
+
+    .line 172
+    :cond_4
+    const/4 v3, 0x0
+
+    .line 173
+    :goto_0
+    if-nez v3, :cond_6
+
+    .line 174
+    .line 175
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    .line 176
+    .line 177
+    .line 178
+    move-result-object v5
+
+    .line 179
+    :cond_5
+    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 180
+    .line 181
+    .line 182
+    move-result v6
+
+    .line 183
+    if-eqz v6, :cond_6
+
+    .line 184
+    .line 185
+    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 186
+    .line 187
+    .line 188
+    move-result-object v6
+
+    .line 189
+    check-cast v6, Ljava/lang/String;
+
+    .line 190
+    .line 191
+    invoke-virtual {v1, v6}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 192
+    .line 193
+    .line 194
+    move-result-object v6
+
+    .line 195
+    check-cast v6, Landroid/util/Pair;
+
+    .line 196
+    .line 197
+    if-eqz v6, :cond_5
+
+    .line 198
+    .line 199
+    iget-object v6, v6, Landroid/util/Pair;->second:Ljava/lang/Object;
+
+    .line 200
+    .line 201
+    sget-object v9, Lcom/huawei/appmarket/hw4;->b:Lcom/huawei/appmarket/hw4;
+
+    .line 202
+    .line 203
+    if-ne v6, v9, :cond_5
+
+    .line 204
+    .line 205
+    goto :goto_1
+
+    .line 206
+    :cond_6
+    const/4 v7, 0x0
+
+    .line 207
+    :goto_1
+    if-nez v3, :cond_8
+
+    .line 208
+    .line 209
+    if-nez v7, :cond_8
+
+    .line 210
+    .line 211
+    const-string v1, "refreshLiveNotification: no downloading app, clear notificationQueue"
+
+    .line 212
+    .line 213
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 214
+    .line 215
+    .line 216
+    invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
+
+    .line 217
+    .line 218
+    .line 219
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     .line 220
     .line 221
     .line 222
-    move-result v13
+    move-result p1
 
     .line 223
-    if-eqz v13, :cond_8
+    if-nez p1, :cond_7
 
     .line 224
     .line 225
-    :cond_7
-    const-string v11, "CALLTYPE_EMPTY"
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
 
     .line 226
     .line 227
-    :cond_8
-    invoke-static {v12}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 228
+    return-void
+
     .line 229
+    :cond_7
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
+
     .line 230
-    move-result v13
-
     .line 231
-    if-nez v13, :cond_9
-
     .line 232
+    return-void
+
     .line 233
-    invoke-virtual {v14, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    :cond_8
+    if-nez v4, :cond_a
 
     .line 234
     .line 235
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
+
     .line 236
-    move-result v13
-
     .line 237
-    if-eqz v13, :cond_a
-
     .line 238
+    move-result v0
+
     .line 239
-    :cond_9
-    invoke-static {}, Lcom/huawei/appmarket/ej2;->i()Ljava/lang/String;
+    if-eqz v0, :cond_a
 
     .line 240
     .line 241
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
     .line 242
-    move-result-object v12
-
     .line 243
-    :cond_a
-    array-length v13, v3
-
     .line 244
-    const/4 v14, 0x0
+    move-result p1
 
     .line 245
-    :goto_2
-    if-ge v14, v13, :cond_1e
+    if-nez p1, :cond_9
 
     .line 246
     .line 247
-    aget-object v15, v3, v14
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->x()V
 
     .line 248
     .line 249
-    invoke-static {v15}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 250
+    return-void
+
     .line 251
+    :cond_9
+    invoke-virtual {v1}, Ljava/util/HashMap;->isEmpty()Z
+
     .line 252
-    move-result v16
-
     .line 253
-    if-eqz v16, :cond_b
-
     .line 254
+    move-result p1
+
     .line 255
-    move-object/from16 v17, v3
+    if-eqz p1, :cond_a
 
     .line 256
     .line 257
-    const/4 v1, 0x1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->h()V
 
     .line 258
-    const/4 v3, 0x2
-
     .line 259
-    goto/16 :goto_10
-
     .line 260
+    :cond_a
+    return-void
     .line 261
-    :cond_b
-    const-string v1, "\\|"
-
     .line 262
     .line 263
-    invoke-virtual {v15, v1, v4}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
-
     .line 264
     .line 265
     .line 266
-    move-result-object v1
-
     .line 267
-    array-length v4, v1
-
     .line 268
-    if-lt v4, v5, :cond_c
-
     .line 269
     .line 270
-    const/4 v4, 0x0
-
     .line 271
-    aget-object v16, v1, v4
-
     .line 272
     .line 273
-    invoke-static/range {v16 .. v16}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 274
     .line 275
     .line 276
-    move-result v16
-
     .line 277
-    if-eqz v16, :cond_d
-
     .line 278
     .line 279
-    :cond_c
-    move-object/from16 v17, v3
-
     .line 280
     .line 281
-    const/4 v1, 0x1
-
     .line 282
-    const/4 v3, 0x2
-
     .line 283
-    goto/16 :goto_f
-
     .line 284
     .line 285
-    :cond_d
-    aget-object v5, v1, v4
-
     .line 286
     .line 287
-    array-length v4, v1
-
     .line 288
-    move-object/from16 v17, v3
-
     .line 289
     .line 290
-    const/4 v3, 0x2
-
     .line 291
-    if-ne v4, v3, :cond_e
-
     .line 292
     .line 293
-    const/4 v4, 0x1
-
     .line 294
-    aget-object v1, v1, v4
-
     .line 295
     .line 296
-    goto :goto_3
-
     .line 297
-    :cond_e
-    const-string v1, ""
-
     .line 298
     .line 299
-    :goto_3
-    invoke-static {v11, v5}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
-
     .line 300
     .line 301
     .line 302
-    move-result v4
-
     .line 303
-    if-eqz v4, :cond_f
-
     .line 304
     .line 305
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 306
     .line 307
     .line 308
-    move-result v4
-
     .line 309
-    if-nez v4, :cond_10
-
     .line 310
     .line 311
-    invoke-static {v12, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
-
     .line 312
     .line 313
     .line 314
-    move-result v1
-
     .line 315
-    if-eqz v1, :cond_f
-
     .line 316
     .line 317
-    goto :goto_4
-
     .line 318
-    :cond_f
-    const/4 v1, 0x1
-
     .line 319
-    goto/16 :goto_10
-
     .line 320
     .line 321
-    :cond_10
-    :goto_4
-    const-string v1, "isLiveViewExperienceEnabled: matched configItem="
-
     .line 322
     .line 323
-    invoke-virtual {v1, v15}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
     .line 324
     .line 325
     .line 326
-    move-result-object v1
-
     .line 327
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 328
     .line 329
     .line 330
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
-
     .line 331
     .line 332
     .line 333
-    move-result-object v1
-
     .line 334
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
     .line 335
     .line 336
     .line 337
-    move-result v3
-
     .line 338
-    if-eqz v3, :cond_11
-
     .line 339
     .line 340
-    const-string v1, "isUpdateScene: packageName is empty, not update scene"
-
     .line 341
     .line 342
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 343
     .line 344
     .line 345
-    goto/16 :goto_c
-
     .line 346
     .line 347
-    :cond_11
-    const/16 v3, 0xc0
-
     .line 348
     .line 349
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
-
     .line 350
-    .line 351
-    .line 352
+.end method
+
+.method public final w(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    .registers 5
+
+    .line 1
+    const/4 v0, 0x0
+
+    if-nez p1, :cond_0
+
+    return v0
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    invoke-virtual {v2, v1}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    if-eqz v1, :cond_1
+
+    return v2
+
+    :cond_1
+    invoke-static {p1}, Lcom/huawei/appmarket/nw4;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    return v2
+
+    :cond_2
+    return v0
+.end method
+
+.method public final y(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    .registers 12
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->i()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 5
+    .line 6
+    const-string v1, "LiveNotificationManager"
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->p()Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    if-nez v0, :cond_0
+
+    .line 15
+    .line 16
+    const-string p1, "updateLiveNotification: notification dismissed, reset state"
+
+    .line 17
+    .line 18
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->u()V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+
+    .line 25
+    :cond_0
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 26
+    .line 27
+    if-nez v0, :cond_2
+
+    .line 28
+    .line 29
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->f:Z
+
+    .line 30
+    .line 31
+    if-nez v0, :cond_1
+
+    .line 32
+    .line 33
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->b()Z
+
+    .line 34
+    .line 35
+    .line 36
+    move-result v0
+
+    .line 37
+    if-eqz v0, :cond_1
+
+    .line 38
+    .line 39
+    const-string v0, "updateLiveNotification: not created but notifications enabled, create now"
+
+    .line 40
+    .line 41
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->g(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+
+    .line 45
+    .line 46
+    .line 47
+    return-void
+
+    .line 48
+    :cond_1
+    const-string p1, "updateLiveNotification: not created, skip"
+
+    .line 49
+    .line 50
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 51
+    .line 52
+    .line 53
+    return-void
+
+    .line 54
+    :cond_2
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v0
+
+    .line 58
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 59
+    .line 60
+    .line 61
+    move-result v2
+
+    .line 62
+    if-nez v2, :cond_16
+
+    .line 63
+    .line 64
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 65
+    .line 66
+    invoke-virtual {v2, v0}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
+
+    .line 67
+    .line 68
+    .line 69
+    move-result v2
+
+    .line 70
+    if-nez v2, :cond_3
+
+    .line 71
+    .line 72
+    goto/16 :goto_8
+
+    .line 73
+    .line 74
+    :cond_3
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->Q()I
+
+    .line 75
+    .line 76
+    .line 77
+    move-result v2
+
+    .line 78
+    const/4 v3, 0x4
+
+    .line 79
+    const-string v4, "INSTALLING"
+
+    .line 80
+    .line 81
+    const-string v5, "FAILED"
+
+    .line 82
+    .line 83
+    const-string v6, "PAUSED"
+
+    .line 84
+    .line 85
+    if-eq v2, v3, :cond_6
+
+    .line 86
+    .line 87
+    const/4 v3, 0x5
+
+    .line 88
+    if-eq v2, v3, :cond_5
+
+    .line 89
+    .line 90
+    const/4 v3, 0x6
+
+    .line 91
+    if-eq v2, v3, :cond_4
+
+    .line 92
+    .line 93
+    const-string v2, "DOWNLOADING"
+
+    .line 94
+    .line 95
+    goto :goto_0
+
+    .line 96
+    :cond_4
+    move-object v2, v6
+
+    .line 97
+    goto :goto_0
+
+    .line 98
+    :cond_5
+    move-object v2, v5
+
+    .line 99
+    goto :goto_0
+
+    .line 100
+    :cond_6
+    move-object v2, v4
+
+    .line 101
+    :goto_0
+    invoke-virtual {v4, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 102
+    .line 103
+    .line 104
+    move-result v3
+
+    .line 105
+    if-eqz v3, :cond_7
+
+    .line 106
+    .line 107
+    sget-object v3, Lcom/huawei/appmarket/hw4;->b:Lcom/huawei/appmarket/hw4;
+
+    .line 108
+    .line 109
+    new-instance v4, Landroid/util/Pair;
+
+    .line 110
+    .line 111
+    invoke-direct {v4, p1, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 112
+    .line 113
+    .line 114
+    :goto_1
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    .line 115
+    .line 116
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 117
+    .line 118
+    .line 119
+    move-result-object v7
+
+    .line 120
+    invoke-virtual {v3, v7, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 121
+    .line 122
+    .line 123
+    goto :goto_2
+
+    .line 124
+    :cond_7
+    invoke-virtual {v5, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 125
+    .line 126
+    .line 127
+    move-result v3
+
+    .line 128
+    if-eqz v3, :cond_8
+
+    .line 129
+    .line 130
+    sget-object v3, Lcom/huawei/appmarket/hw4;->d:Lcom/huawei/appmarket/hw4;
+
+    .line 131
+    .line 132
+    new-instance v4, Landroid/util/Pair;
+
+    .line 133
+    .line 134
+    invoke-direct {v4, p1, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 135
+    .line 136
+    .line 137
+    goto :goto_1
+
+    .line 138
+    :cond_8
+    :goto_2
+    invoke-virtual {v6, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 139
+    .line 140
+    .line 141
+    move-result v3
+
+    .line 142
+    if-eqz v3, :cond_b
+
+    .line 143
+    .line 144
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 145
+    .line 146
+    invoke-virtual {v2, v0}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
+
+    .line 147
+    .line 148
+    .line 149
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/kw4;->o(Ljava/lang/String;)Z
+
+    .line 150
+    .line 151
+    .line 152
+    move-result v2
+
+    .line 153
+    if-nez v2, :cond_9
+
+    .line 154
+    .line 155
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 156
+    .line 157
+    new-instance v3, Lcom/huawei/appmarket/kw4$b;
+
+    .line 158
+    .line 159
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->C()Ljava/lang/String;
+
+    .line 160
+    .line 161
+    .line 162
+    move-result-object v4
+
+    .line 163
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->G()I
+
+    .line 164
+    .line 165
+    .line 166
+    move-result p1
+
+    .line 167
+    invoke-direct {v3, v0, v4, p1}, Lcom/huawei/appmarket/kw4$b;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 168
+    .line 169
+    .line 170
+    invoke-virtual {v2, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+
+    .line 171
+    .line 172
+    .line 173
+    :cond_9
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    .line 174
+    .line 175
+    const-string v0, "updateLiveNotification: paused, moved to pauseQueue, notificationQueueSize="
+
+    .line 176
+    .line 177
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 178
+    .line 179
+    .line 180
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 181
+    .line 182
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    .line 183
+    .line 184
+    .line 185
+    move-result v0
+
+    .line 186
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 187
+    .line 188
+    .line 189
+    const-string v0, ", pauseQueueSize="
+
+    .line 190
+    .line 191
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 192
+    .line 193
+    .line 194
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 195
+    .line 196
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    .line 197
+    .line 198
+    .line 199
+    move-result v0
+
+    .line 200
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 201
+    .line 202
+    .line 203
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 204
+    .line 205
+    .line 206
+    move-result-object p1
+
+    .line 207
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 208
+    .line 209
+    .line 210
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 211
+    .line 212
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lw4;->i()Z
+
+    .line 213
+    .line 214
+    .line 215
+    move-result p1
+
+    .line 216
+    if-eqz p1, :cond_a
+
+    .line 217
+    .line 218
+    const-string p1, "updateLiveNotification: paused, has scheduled tasks, skip display update"
+
+    .line 219
+    .line 220
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 221
+    .line 222
+    .line 223
+    return-void
+
+    .line 224
+    :cond_a
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 225
+    .line 226
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/lw4;->k(Lcom/huawei/appmarket/kw4;)V
+
+    .line 227
+    .line 228
+    .line 229
+    return-void
+
+    .line 230
+    :cond_b
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 231
+    .line 232
+    invoke-virtual {v3}, Lcom/huawei/appmarket/lw4;->i()Z
+
+    .line 233
+    .line 234
+    .line 235
+    move-result v3
+
+    .line 236
+    if-eqz v3, :cond_c
+
+    .line 237
+    .line 238
+    const-string p1, "updateLiveNotification: has pending scheduled task, skip"
+
+    .line 239
+    .line 240
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 241
+    .line 242
+    .line 243
+    return-void
+
+    .line 244
+    :cond_c
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 245
+    .line 246
+    invoke-virtual {v3}, Lcom/huawei/appmarket/lw4;->h()V
+
+    .line 247
+    .line 248
+    .line 249
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 250
+    .line 251
+    invoke-virtual {v3}, Ljava/util/LinkedList;->size()I
+
+    .line 252
+    .line 253
+    .line 254
+    move-result v3
+
+    .line 255
+    const/4 v4, 0x0
+
+    .line 256
+    const/4 v7, 0x1
+
+    .line 257
+    if-le v3, v7, :cond_d
+
+    .line 258
+    .line 259
+    const/4 v8, 0x1
+
+    .line 260
+    goto :goto_3
+
+    .line 261
+    :cond_d
+    const/4 v8, 0x0
+
+    .line 262
+    :goto_3
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 263
+    .line 264
+    .line 265
+    move-result v9
+
+    .line 266
+    if-nez v9, :cond_e
+
+    .line 267
+    .line 268
+    iget-object v4, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 269
+    .line 270
+    invoke-virtual {v4, v0}, Ljava/util/LinkedList;->indexOf(Ljava/lang/Object;)I
+
+    .line 271
+    .line 272
+    .line 273
+    move-result v4
+
+    .line 274
+    add-int/2addr v4, v7
+
+    .line 275
+    :cond_e
+    new-instance v9, Lcom/huawei/appmarket/gw4;
+
+    .line 276
+    .line 277
+    invoke-direct {v9}, Lcom/huawei/appmarket/gw4;-><init>()V
+
+    .line 278
+    .line 279
+    .line 280
+    iput v3, v9, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 281
+    .line 282
+    iput v4, v9, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 283
+    .line 284
+    iput-boolean v8, v9, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 285
+    .line 286
+    invoke-virtual {v6, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 287
+    .line 288
+    .line 289
+    move-result v3
+
+    .line 290
+    if-nez v3, :cond_10
+
+    .line 291
+    .line 292
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 293
+    .line 294
+    .line 295
+    move-result v3
+
+    .line 296
+    if-eqz v3, :cond_f
+
+    .line 297
+    .line 298
+    goto :goto_4
+
+    .line 299
+    :cond_f
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 300
+    .line 301
+    const/16 v4, 0x18
+
+    .line 302
+    .line 303
+    if-lt v3, v4, :cond_10
+
+    .line 304
+    .line 305
+    iget-object v3, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 306
+    .line 307
+    new-instance v4, Lcom/huawei/appmarket/jw4;
+
+    .line 308
+    .line 309
+    invoke-direct {v4, v0}, Lcom/huawei/appmarket/jw4;-><init>(Ljava/lang/String;)V
+
+    .line 310
+    .line 311
+    .line 312
+    invoke-virtual {v3, v4}, Ljava/util/LinkedList;->removeIf(Ljava/util/function/Predicate;)Z
+
+    .line 313
+    .line 314
+    .line 315
+    :cond_10
+    :goto_4
+    iget-boolean v3, v9, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 316
+    .line 317
+    if-nez v3, :cond_11
+
+    .line 318
+    .line 319
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->C()Ljava/lang/String;
+
+    .line 320
+    .line 321
+    .line 322
     move-result-object v3
 
-    .line 353
+    .line 323
+    iput-object v3, v9, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 324
+    .line 325
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->G()I
+
+    .line 326
+    .line 327
+    .line 328
+    move-result v3
+
+    .line 329
+    iput v3, v9, Lcom/huawei/appmarket/gw4;->e:I
+
+    .line 330
+    .line 331
+    :goto_5
+    iput-object v2, v9, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 332
+    .line 333
+    goto :goto_6
+
+    .line 334
+    :cond_11
     if-eqz v3, :cond_12
 
-    .line 354
-    .line 355
-    const/4 v3, 0x1
+    .line 335
+    .line 336
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->C()Ljava/lang/String;
 
-    .line 356
+    .line 337
+    .line 338
+    .line 339
+    move-result-object v3
+
+    .line 340
+    iput-object v3, v9, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 341
+    .line 342
     goto :goto_5
 
-    .line 357
+    .line 343
     :cond_12
-    const/4 v3, 0x0
+    const-string v2, "UNKNOWN"
 
+    .line 344
+    .line 345
+    goto :goto_5
+
+    .line 346
+    :goto_6
+    iget v2, v9, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 347
+    .line 348
+    if-gtz v2, :cond_13
+
+    .line 349
+    .line 350
+    const-string p1, "updateLiveNotification: no active tasks, skip"
+
+    .line 351
+    .line 352
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 353
+    .line 354
+    .line 355
+    return-void
+
+    .line 356
+    :cond_13
+    invoke-direct {p0, v9, p1, v7}, Lcom/huawei/appmarket/kw4;->v(Lcom/huawei/appmarket/gw4;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
+
+    .line 357
     .line 358
-    :goto_5
-    new-instance v4, Ljava/lang/StringBuilder;
-
     .line 359
+    iget-object p1, v9, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
     .line 360
-    const-string v5, "isUpdateScene: packageName="
-
     .line 361
-    .line 362
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v6, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 362
     .line 363
     .line 364
+    move-result p1
+
     .line 365
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz p1, :cond_14
 
     .line 366
     .line 367
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
     .line 368
-    const-string v1, ", isInstalled="
-
     .line 369
-    .line 370
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/lw4;->p(Lcom/huawei/appmarket/kw4;)V
 
+    .line 370
     .line 371
     .line 372
+    goto :goto_7
+
     .line 373
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    :cond_14
+    iget-object p1, v9, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
 
     .line 374
     .line 375
-    .line 376
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v5, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 376
     .line 377
     .line 378
+    move-result p1
+
     .line 379
-    move-result-object v1
+    if-eqz p1, :cond_15
 
     .line 380
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 381
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
     .line 382
     .line 383
-    if-eqz v3, :cond_19
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/lw4;->l(Lcom/huawei/appmarket/kw4;Ljava/lang/String;)V
 
     .line 384
     .line 385
-    new-instance v1, Lcom/huawei/appmarket/xr6$b;
-
     .line 386
-    .line 387
-    invoke-direct {v1}, Lcom/huawei/appmarket/xr6$b;-><init>()V
+    :cond_15
+    :goto_7
+    new-instance p1, Ljava/lang/StringBuilder;
 
+    .line 387
     .line 388
+    const-string v0, "updateLiveNotification: success, state="
+
     .line 389
     .line 390
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 391
     .line 392
     .line 393
-    move-result v3
+    iget-object v0, v9, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
 
     .line 394
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/xr6$b;->f(I)V
-
     .line 395
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 396
     .line 397
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
-
     .line 398
+    const-string v0, ", queueSize="
+
     .line 399
     .line 400
-    move-result-object v3
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 401
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/xr6$b;->e(Ljava/lang/String;)V
-
     .line 402
     .line 403
-    .line 404
-    const/4 v3, 0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
 
+    .line 404
     .line 405
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/xr6$b;->b(Z)V
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
     .line 406
     .line 407
     .line 408
-    invoke-virtual {v1}, Lcom/huawei/appmarket/xr6$b;->a()Lcom/huawei/appmarket/xr6;
+    move-result v0
 
     .line 409
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 410
     .line 411
-    move-result-object v1
-
     .line 412
-    invoke-static {v6, v7}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 413
     .line 414
     .line 415
-    move-result-object v3
+    move-result-object p1
 
     .line 416
-    check-cast v3, Lcom/huawei/appmarket/nr3;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 417
     .line 418
-    invoke-interface {v3, v1}, Lcom/huawei/appmarket/nr3;->a(Lcom/huawei/appmarket/xr6;)Lcom/huawei/appmarket/hv7;
-
     .line 419
-    .line 420
-    .line 421
-    move-result-object v1
+    return-void
 
+    .line 420
+    :cond_16
+    :goto_8
+    const-string p1, "updateLiveNotification: package not in queue, skip"
+
+    .line 421
     .line 422
-    if-eqz v1, :cond_18
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 423
     .line 424
-    invoke-virtual {v1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
     .line 425
+    return-void
     .line 426
     .line 427
-    move-result-object v3
-
     .line 428
-    if-nez v3, :cond_13
-
     .line 429
     .line 430
-    goto :goto_9
-
     .line 431
-    :cond_13
-    invoke-virtual {v1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
-
     .line 432
     .line 433
     .line 434
-    move-result-object v1
-
     .line 435
-    check-cast v1, Lcom/huawei/appmarket/qz0;
-
     .line 436
     .line 437
-    invoke-interface {v1, v9, v10, v8}, Lcom/huawei/appmarket/qz0;->a(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qz0$a;
-
     .line 438
     .line 439
     .line 440
-    move-result-object v1
-
     .line 441
-    invoke-interface {v1}, Lcom/huawei/appmarket/qz0$a;->getValue()Ljava/lang/Object;
-
     .line 442
     .line 443
     .line 444
-    move-result-object v1
-
     .line 445
-    check-cast v1, [Ljava/lang/String;
-
     .line 446
     .line 447
-    if-eqz v1, :cond_17
-
     .line 448
     .line 449
-    array-length v3, v1
-
     .line 450
-    if-nez v3, :cond_14
-
     .line 451
     .line 452
-    goto :goto_8
-
     .line 453
-    :cond_14
-    array-length v3, v1
-
     .line 454
-    const/4 v4, 0x0
-
     .line 455
-    :goto_6
-    if-ge v4, v3, :cond_16
-
     .line 456
     .line 457
-    aget-object v5, v1, v4
-
     .line 458
     .line 459
-    const-string v6, "SCENE.MANUAL_UPDATE"
-
     .line 460
     .line 461
-    invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 462
     .line 463
     .line 464
-    move-result v5
-
     .line 465
-    if-eqz v5, :cond_15
-
     .line 466
     .line 467
-    const-string v1, "isManualUpdateSceneEnabled: SCENE.MANUAL_UPDATE found in config"
-
     .line 468
     .line 469
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 470
     .line 471
     .line 472
-    goto :goto_c
-
     .line 473
-    :cond_15
-    add-int/lit8 v4, v4, 0x1
-
     .line 474
     .line 475
-    goto :goto_6
-
     .line 476
-    :cond_16
-    const-string v0, "isManualUpdateSceneEnabled: SCENE.MANUAL_UPDATE not found in config, disabled"
-
     .line 477
     .line 478
-    :goto_7
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 479
     .line 480
     .line 481
-    goto :goto_a
-
     .line 482
-    :cond_17
-    :goto_8
-    const-string v0, "isManualUpdateSceneEnabled: config array is empty, disabled"
-
     .line 483
     .line 484
-    goto :goto_7
-
     .line 485
-    :cond_18
-    :goto_9
-    const-string v0, "isManualUpdateSceneEnabled: fetchAppConfig failed, default to disabled"
-
     .line 486
     .line 487
-    goto :goto_7
-
     .line 488
-    :goto_a
-    const-string v0, "condition fail: update scene but SCENE.MANUAL_UPDATE not in config"
-
     .line 489
     .line 490
-    :goto_b
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 491
     .line 492
     .line 493
-    const/4 v0, 0x0
-
     .line 494
-    return v0
-
     .line 495
-    :cond_19
-    :goto_c
-    const-class v1, Lcom/huawei/appmarket/mo3;
-
     .line 496
     .line 497
-    const-string v3, "DownloadProxy"
-
     .line 498
     .line 499
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-
     .line 500
     .line 501
     .line 502
-    move-result-object v4
-
     .line 503
-    check-cast v4, Lcom/huawei/appmarket/mo3;
-
     .line 504
     .line 505
-    invoke-interface {v4, v0}, Lcom/huawei/appmarket/mo3;->j(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-
     .line 506
     .line 507
     .line 508
-    move-result v4
-
     .line 509
-    if-eqz v4, :cond_1a
-
     .line 510
     .line 511
-    const-string v0, "isAndroidApp: ctype no-install harmony app"
-
     .line 512
     .line 513
-    :goto_d
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 514
     .line 515
     .line 516
-    goto :goto_e
-
     .line 517
-    :cond_1a
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-
     .line 518
     .line 519
     .line 520
-    move-result-object v1
-
     .line 521
-    check-cast v1, Lcom/huawei/appmarket/mo3;
-
     .line 522
     .line 523
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/mo3;->N(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
-
     .line 524
     .line 525
     .line 526
-    move-result v1
-
     .line 527
-    if-eqz v1, :cond_1b
-
     .line 528
     .line 529
-    const-string v0, "isAndroidApp: FA download task"
-
     .line 530
     .line 531
-    goto :goto_d
-
     .line 532
-    :cond_1b
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->F()I
-
     .line 533
     .line 534
     .line 535
-    move-result v1
-
     .line 536
-    const/16 v3, 0xa
-
     .line 537
     .line 538
-    if-ne v1, v3, :cond_1c
-
     .line 539
     .line 540
-    const-string v0, "isAndroidApp: Double Upgrade Single Pre-Download"
-
     .line 541
     .line 542
-    goto :goto_d
-
     .line 543
-    :goto_e
-    const-string v0, "condition 4 fail: not Android app"
-
     .line 544
     .line 545
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 546
     .line 547
     .line 548
-    const/4 v1, 0x0
-
     .line 549
-    return v1
-
     .line 550
-    :cond_1c
-    const/4 v1, 0x0
-
     .line 551
-    invoke-static {}, Lcom/huawei/appmarket/uj5;->a()Z
-
     .line 552
     .line 553
     .line 554
-    move-result v3
-
     .line 555
-    const-string v4, "isNotificationEnabled: "
-
     .line 556
     .line 557
-    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/z84;->z(Ljava/lang/String;ZLjava/lang/String;)V
-
     .line 558
     .line 559
     .line 560
-    if-nez v3, :cond_1d
-
     .line 561
     .line 562
-    const-string v0, "condition 6 fail: notification disabled"
-
     .line 563
     .line 564
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 565
     .line 566
     .line 567
-    return v1
-
     .line 568
-    :cond_1d
-    new-instance v1, Ljava/lang/StringBuilder;
-
     .line 569
     .line 570
-    const-string v3, "all conditions met, use live view for "
-
     .line 571
     .line 572
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 573
     .line 574
     .line 575
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
-
     .line 576
     .line 577
     .line 578
-    move-result-object v0
-
     .line 579
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 580
     .line 581
     .line 582
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 583
     .line 584
     .line 585
-    move-result-object v0
-
     .line 586
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 587
     .line 588
     .line 589
-    const/4 v1, 0x1
-
     .line 590
-    return v1
-
     .line 591
-    :goto_f
-    const-string v4, "isLiveViewExperienceEnabled: invalid config item: "
-
     .line 592
     .line 593
-    invoke-virtual {v4, v15}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
     .line 594
     .line 595
     .line 596
-    move-result-object v4
-
     .line 597
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 598
     .line 599
     .line 600
-    :goto_10
-    add-int/lit8 v14, v14, 0x1
-
     .line 601
     .line 602
-    move-object/from16 v3, v17
-
     .line 603
     .line 604
-    const/4 v1, 0x0
-
     .line 605
-    const/4 v4, 0x2
-
     .line 606
-    const/4 v5, 0x1
-
     .line 607
-    goto/16 :goto_2
-
     .line 608
     .line 609
-    :cond_1e
-    const-string v0, "isLiveViewExperienceEnabled: no match found, disabled"
-
     .line 610
     .line 611
-    :goto_11
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 612
     .line 613
     .line 614
-    goto :goto_14
-
     .line 615
-    :cond_1f
-    :goto_12
-    const-string v0, "isLiveViewExperienceEnabled: config array is empty, disabled"
-
     .line 616
     .line 617
-    goto :goto_11
-
     .line 618
-    :cond_20
-    :goto_13
-    const-string v0, "fetchAppConfig failed, default to disabled"
-
     .line 619
     .line 620
-    goto :goto_11
-
     .line 621
-    :goto_14
-    const-string v0, "condition 3 fail: live view experience not matched"
-
     .line 622
     .line 623
-    goto/16 :goto_b
     .line 624
     .line 625
     .line 626
@@ -2171,66 +7630,1263 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
+.end method
+
+.method public final z(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appmarket/hw4;)V
+    .registers 14
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->i()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 5
+    .line 6
+    const-string v1, "LiveNotificationManager"
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    invoke-virtual {p0}, Lcom/huawei/appmarket/kw4;->p()Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    if-nez v0, :cond_0
+
+    .line 15
+    .line 16
+    const-string p1, "updateLiveNotificationInstallState: notification dismissed, reset state"
+
+    .line 17
+    .line 18
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->u()V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+
+    .line 25
+    :cond_0
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->a:Z
+
+    .line 26
+    .line 27
+    if-nez v0, :cond_2
+
+    .line 28
+    .line 29
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kw4;->f:Z
+
+    .line 30
+    .line 31
+    if-nez v0, :cond_1
+
+    .line 32
+    .line 33
+    invoke-direct {p0}, Lcom/huawei/appmarket/kw4;->b()Z
+
+    .line 34
+    .line 35
+    .line 36
+    move-result v0
+
+    .line 37
+    if-eqz v0, :cond_1
+
+    .line 38
+    .line 39
+    const-string v0, "updateLiveNotificationInstallState: not created but notifications enabled, create now"
+
+    .line 40
+    .line 41
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->g(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+
+    .line 45
+    .line 46
+    .line 47
+    goto :goto_0
+
+    .line 48
+    :cond_1
+    const-string p1, "updateLiveNotificationInstallState: not created, skip"
+
+    .line 49
+    .line 50
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 51
+    .line 52
+    .line 53
+    return-void
+
+    .line 54
+    :cond_2
+    :goto_0
+    new-instance v0, Landroid/util/Pair;
+
+    .line 55
+    .line 56
+    invoke-direct {v0, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 57
+    .line 58
+    .line 59
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->g:Ljava/util/HashMap;
+
+    .line 60
+    .line 61
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v3
+
+    .line 65
+    invoke-virtual {v2, v3, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    .line 68
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 69
+    .line 70
+    invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
+
+    .line 71
+    .line 72
+    .line 73
+    move-result v0
+
+    .line 74
+    const/4 v2, 0x1
+
+    .line 75
+    if-le v0, v2, :cond_3
+
+    .line 76
+    .line 77
+    sget-object v0, Lcom/huawei/appmarket/hw4;->b:Lcom/huawei/appmarket/hw4;
+
+    .line 78
+    .line 79
+    if-ne p2, v0, :cond_3
+
+    .line 80
+    .line 81
+    const-string p1, "updateLiveNotificationInstallState: multi-app installing, skip"
+
+    .line 82
+    .line 83
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 84
+    .line 85
+    .line 86
+    return-void
+
+    .line 87
+    :cond_3
+    iget-object v0, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 88
+    .line 89
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lw4;->h()V
+
+    .line 90
+    .line 91
+    .line 92
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 93
+    .line 94
+    .line 95
+    move-result-object v0
+
+    .line 96
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->C()Ljava/lang/String;
+
+    .line 97
+    .line 98
+    .line 99
+    move-result-object v3
+
+    .line 100
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    .line 101
+    .line 102
+    const-string v5, "updateLiveNotificationInstallState: packageName="
+
+    .line 103
+    .line 104
+    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 105
+    .line 106
+    .line 107
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 108
+    .line 109
+    .line 110
+    const-string v5, " appName="
+
+    .line 111
+    .line 112
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 113
+    .line 114
+    .line 115
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 116
+    .line 117
+    .line 118
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 119
+    .line 120
+    .line 121
+    move-result-object v4
+
+    .line 122
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 123
+    .line 124
+    .line 125
+    iget-object v4, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 126
+    .line 127
+    invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
+
+    .line 128
+    .line 129
+    .line 130
+    move-result v4
+
+    .line 131
+    if-gtz v4, :cond_4
+
+    .line 132
+    .line 133
+    const/4 v4, 0x1
+
+    .line 134
+    :cond_4
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 135
+    .line 136
+    .line 137
+    move-result v5
+
+    .line 138
+    const/4 v6, 0x0
+
+    .line 139
+    if-nez v5, :cond_5
+
+    .line 140
+    .line 141
+    iget-object v5, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 142
+    .line 143
+    invoke-virtual {v5, v0}, Ljava/util/LinkedList;->indexOf(Ljava/lang/Object;)I
+
+    .line 144
+    .line 145
+    .line 146
+    move-result v5
+
+    .line 147
+    add-int/2addr v5, v2
+
+    .line 148
+    goto :goto_1
+
+    .line 149
+    :cond_5
+    const/4 v5, 0x0
+
+    .line 150
+    :goto_1
+    new-instance v7, Lcom/huawei/appmarket/gw4;
+
+    .line 151
+    .line 152
+    invoke-direct {v7}, Lcom/huawei/appmarket/gw4;-><init>()V
+
+    .line 153
+    .line 154
+    .line 155
+    iput v4, v7, Lcom/huawei/appmarket/gw4;->a:I
+
+    .line 156
+    .line 157
+    iput v5, v7, Lcom/huawei/appmarket/gw4;->b:I
+
+    .line 158
+    .line 159
+    if-le v4, v2, :cond_6
+
+    .line 160
+    .line 161
+    const/4 v4, 0x1
+
+    .line 162
+    goto :goto_2
+
+    .line 163
+    :cond_6
+    const/4 v4, 0x0
+
+    .line 164
+    :goto_2
+    iput-boolean v4, v7, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 165
+    .line 166
+    iput-object v3, v7, Lcom/huawei/appmarket/gw4;->d:Ljava/lang/String;
+
+    .line 167
+    .line 168
+    const-string v3, "INSTALLED"
+
+    .line 169
+    .line 170
+    const-string v4, "FAILED"
+
+    .line 171
+    .line 172
+    const-string v5, "UNKNOWN"
+
+    .line 173
+    .line 174
+    if-nez p2, :cond_7
+
+    .line 175
+    .line 176
+    goto :goto_3
+
+    .line 177
+    :cond_7
+    sget-object v8, Lcom/huawei/appmarket/kw4$a;->a:[I
+
+    .line 178
+    .line 179
+    invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
+
+    .line 180
+    .line 181
+    .line 182
+    move-result v9
+
+    .line 183
+    aget v8, v8, v9
+
+    .line 184
+    .line 185
+    if-eq v8, v2, :cond_a
+
+    .line 186
+    .line 187
+    const/4 v9, 0x2
+
+    .line 188
+    if-eq v8, v9, :cond_9
+
+    .line 189
+    .line 190
+    const/4 v9, 0x3
+
+    .line 191
+    if-eq v8, v9, :cond_8
+
+    .line 192
+    .line 193
+    goto :goto_3
+
+    .line 194
+    :cond_8
+    move-object v5, v4
+
+    .line 195
+    goto :goto_3
+
+    .line 196
+    :cond_9
+    move-object v5, v3
+
+    .line 197
+    goto :goto_3
+
+    .line 198
+    :cond_a
+    const-string v5, "INSTALLING"
+
+    .line 199
+    .line 200
+    :goto_3
+    iput-object v5, v7, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 201
+    .line 202
+    invoke-virtual {p0, v7}, Lcom/huawei/appmarket/kw4;->e(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 203
+    .line 204
+    .line 205
+    move-result-object v5
+
+    .line 206
+    invoke-virtual {p0, v7}, Lcom/huawei/appmarket/kw4;->d(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 207
+    .line 208
+    .line 209
+    move-result-object v8
+
+    .line 210
+    invoke-virtual {p0, v7}, Lcom/huawei/appmarket/kw4;->c(Lcom/huawei/appmarket/gw4;)Ljava/lang/String;
+
+    .line 211
+    .line 212
+    .line 213
+    move-result-object v9
+
+    .line 214
+    iget-object v10, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 215
+    .line 216
+    invoke-static {v10}, Lcom/huawei/appmarket/iw4;->a(Landroid/content/Context;)Landroidx/core/app/NotificationCompat$Builder;
+
+    .line 217
+    .line 218
+    .line 219
+    move-result-object v10
+
+    .line 220
+    invoke-virtual {v10, v5}, Landroidx/core/app/NotificationCompat$Builder;->m(Ljava/lang/CharSequence;)V
+
+    .line 221
+    .line 222
+    .line 223
+    invoke-virtual {v10, v8}, Landroidx/core/app/NotificationCompat$Builder;->l(Ljava/lang/CharSequence;)V
+
+    .line 224
+    .line 225
+    .line 226
+    invoke-virtual {p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    .line 227
+    .line 228
+    .line 229
+    move-result-object p1
+
+    .line 230
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kw4;->j(Ljava/lang/String;)Landroid/app/PendingIntent;
+
+    .line 231
+    .line 232
+    .line 233
+    move-result-object p1
+
+    .line 234
+    invoke-virtual {v10, p1}, Landroidx/core/app/NotificationCompat$Builder;->k(Landroid/app/PendingIntent;)V
+
+    .line 235
+    .line 236
+    .line 237
+    iget-boolean v5, v7, Lcom/huawei/appmarket/gw4;->c:Z
+
+    .line 238
+    .line 239
+    if-nez v5, :cond_c
+
+    .line 240
+    .line 241
+    iget-object v5, v7, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 242
+    .line 243
+    invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 244
+    .line 245
+    .line 246
+    move-result v5
+
+    .line 247
+    if-nez v5, :cond_b
+
+    .line 248
+    .line 249
+    iget-object v5, v7, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 250
+    .line 251
+    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 252
+    .line 253
+    .line 254
+    move-result v5
+
+    .line 255
+    if-eqz v5, :cond_c
+
+    .line 256
+    .line 257
+    :cond_b
+    const/4 v6, 0x1
+
+    .line 258
+    :cond_c
+    invoke-virtual {v10, v6}, Landroidx/core/app/NotificationCompat$Builder;->f(Z)V
+
+    .line 259
+    .line 260
+    .line 261
+    invoke-direct {p0, v10, p1}, Lcom/huawei/appmarket/kw4;->a(Landroidx/core/app/NotificationCompat$Builder;Landroid/app/PendingIntent;)V
+
+    .line 262
+    .line 263
+    .line 264
+    new-instance p1, Landroid/os/Bundle;
+
+    .line 265
+    .line 266
+    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+
+    .line 267
+    .line 268
+    .line 269
+    iget-object v5, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 270
+    .line 271
+    invoke-static {p1, v2, v9, v5}, Lcom/huawei/appmarket/iw4;->b(Landroid/os/Bundle;ILjava/lang/String;Landroid/content/Context;)V
+
+    .line 272
+    .line 273
+    .line 274
+    iget-object v2, p0, Lcom/huawei/appmarket/kw4;->b:Landroid/content/Context;
+
+    .line 275
+    .line 276
+    invoke-static {v2, v10, p1}, Lcom/huawei/appmarket/ak5;->d(Landroid/content/Context;Landroidx/core/app/NotificationCompat$Builder;Landroid/os/Bundle;)V
+
+    .line 277
+    .line 278
+    .line 279
+    iget-object p1, v7, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 280
+    .line 281
+    invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 282
+    .line 283
+    .line 284
+    move-result p1
+
+    .line 285
+    if-eqz p1, :cond_f
+
+    .line 286
+    .line 287
+    sget-object p1, Lcom/huawei/appmarket/hw4;->c:Lcom/huawei/appmarket/hw4;
+
+    .line 288
+    .line 289
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/kw4;->n(Lcom/huawei/appmarket/hw4;)Z
+
+    .line 290
+    .line 291
+    .line 292
+    move-result p1
+
+    .line 293
+    if-eqz p1, :cond_e
+
+    .line 294
+    .line 295
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 296
+    .line 297
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 298
+    .line 299
+    .line 300
+    move-result p1
+
+    .line 301
+    if-nez p1, :cond_d
+
+    .line 302
+    .line 303
+    goto :goto_4
+
+    .line 304
+    :cond_d
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 305
+    .line 306
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/lw4;->m(Lcom/huawei/appmarket/kw4;Ljava/lang/String;)V
+
+    .line 307
+    .line 308
+    .line 309
+    goto :goto_5
+
+    .line 310
+    :cond_e
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 311
+    .line 312
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/lw4;->o(Lcom/huawei/appmarket/kw4;Ljava/lang/String;)V
+
+    .line 313
+    .line 314
+    .line 315
+    goto :goto_5
+
+    .line 316
+    :cond_f
+    iget-object p1, v7, Lcom/huawei/appmarket/gw4;->f:Ljava/lang/String;
+
+    .line 317
+    .line 318
+    invoke-virtual {v4, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 319
+    .line 320
+    .line 321
+    move-result p1
+
+    .line 322
+    if-eqz p1, :cond_12
+
+    .line 323
+    .line 324
+    const/4 p1, 0x0
+
+    .line 325
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/kw4;->n(Lcom/huawei/appmarket/hw4;)Z
+
+    .line 326
+    .line 327
+    .line 328
+    move-result p1
+
+    .line 329
+    if-eqz p1, :cond_11
+
+    .line 330
+    .line 331
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 332
+    .line 333
+    invoke-virtual {p1}, Ljava/util/LinkedList;->clear()V
+
+    .line 334
+    .line 335
+    .line 336
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->d:Ljava/util/LinkedList;
+
+    .line 337
+    .line 338
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    .line 339
+    .line 340
+    .line 341
+    move-result p1
+
+    .line 342
+    if-nez p1, :cond_10
+
+    .line 343
+    .line 344
+    :goto_4
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 345
+    .line 346
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/lw4;->j(Lcom/huawei/appmarket/kw4;)V
+
+    .line 347
+    .line 348
+    .line 349
+    goto :goto_5
+
+    .line 350
+    :cond_10
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 351
+    .line 352
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/lw4;->l(Lcom/huawei/appmarket/kw4;Ljava/lang/String;)V
+
+    .line 353
+    .line 354
+    .line 355
+    goto :goto_5
+
+    .line 356
+    :cond_11
+    iget-object p1, p0, Lcom/huawei/appmarket/kw4;->e:Lcom/huawei/appmarket/lw4;
+
+    .line 357
+    .line 358
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appmarket/lw4;->n(Lcom/huawei/appmarket/kw4;Ljava/lang/String;)V
+
+    .line 359
+    .line 360
+    .line 361
+    :cond_12
+    :goto_5
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    .line 362
+    .line 363
+    const-string v0, "updateLiveNotificationInstallState: success, installState="
+
+    .line 364
+    .line 365
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 366
+    .line 367
+    .line 368
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 369
+    .line 370
+    .line 371
+    const-string p2, ", queueSize="
+
+    .line 372
+    .line 373
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 374
+    .line 375
+    .line 376
+    iget-object p2, p0, Lcom/huawei/appmarket/kw4;->c:Ljava/util/LinkedList;
+
+    .line 377
+    .line 378
+    invoke-virtual {p2}, Ljava/util/LinkedList;->size()I
+
+    .line 379
+    .line 380
+    .line 381
+    move-result p2
+
+    .line 382
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 383
+    .line 384
+    .line 385
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 386
+    .line 387
+    .line 388
+    move-result-object p1
+
+    .line 389
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 390
+    .line 391
+    .line 392
+    return-void
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
+    .line 565
+    .line 566
+    .line 567
+    .line 568
+    .line 569
+    .line 570
+    .line 571
+    .line 572
+    .line 573
+    .line 574
+    .line 575
+    .line 576
+    .line 577
+    .line 578
+    .line 579
+    .line 580
+    .line 581
+    .line 582
+    .line 583
+    .line 584
+    .line 585
+    .line 586
+    .line 587
+    .line 588
+    .line 589
+    .line 590
+    .line 591
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
+    .line 599
+    .line 600
+    .line 601
+    .line 602
+    .line 603
+    .line 604
+    .line 605
+    .line 606
+    .line 607
+    .line 608
+    .line 609
+    .line 610
+    .line 611
+    .line 612
+    .line 613
+    .line 614
+    .line 615
+    .line 616
+    .line 617
+    .line 618
+    .line 619
+    .line 620
+    .line 621
+    .line 622
+    .line 623
+    .line 624
+    .line 625
+    .line 626
+    .line 627
+    .line 628
+    .line 629
+    .line 630
+    .line 631
+    .line 632
+    .line 633
+    .line 634
+    .line 635
+    .line 636
+    .line 637
+    .line 638
+    .line 639
+    .line 640
+    .line 641
+    .line 642
+    .line 643
+    .line 644
+    .line 645
+    .line 646
+    .line 647
+    .line 648
+    .line 649
+    .line 650
+    .line 651
+    .line 652
+    .line 653
+    .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
+    .line 721
+    .line 722
+    .line 723
+    .line 724
+    .line 725
+    .line 726
+    .line 727
+    .line 728
+    .line 729
+    .line 730
+    .line 731
+    .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
 .end method

@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -100,7 +100,7 @@
     return-void
 .end method
 
-.method public final c0()V
+.method public final d0()V
     .registers 1
 
     .line 1
@@ -130,11 +130,11 @@
     return-void
 .end method
 
-.method protected final m0(Ljava/lang/String;)V
+.method protected final n0(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->m0(Ljava/lang/String;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->n0(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 

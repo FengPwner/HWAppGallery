@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :cond_0
     return-void

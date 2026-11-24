@@ -1,69 +1,119 @@
-.class final Lcom/huawei/appmarket/ug5;
-.super Landroid/telephony/TelephonyCallback;
+.class public final Lcom/huawei/appmarket/ug5;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
-# interfaces
-.implements Landroid/telephony/TelephonyCallback$DisplayInfoListener;
-
-
-# instance fields
-.field private final a:Lcom/huawei/appmarket/tg5;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/tg5;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0}, Landroid/telephony/TelephonyCallback;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ug5;->a:Lcom/huawei/appmarket/tg5;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final onDisplayInfoChanged(Landroid/telephony/TelephonyDisplayInfo;)V
-    .registers 4
+.method public static a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    .registers 8
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/e5;->b(Landroid/telephony/TelephonyDisplayInfo;)I
+    invoke-static {}, Lcom/huawei/appmarket/z98;->a()Lcom/huawei/appmarket/z98;
 
-    move-result p1
+    move-result-object v0
 
-    const/4 v0, 0x3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    const/4 v1, 0x5
+    invoke-static {}, Lcom/huawei/appmarket/z98;->b()Lcom/huawei/appmarket/g54$a;
 
-    if-eq p1, v0, :cond_1
+    move-result-object v0
 
-    const/4 v0, 0x4
+    invoke-static {p0}, Lcom/huawei/appmarket/bg5;->a(Landroid/content/Context;)I
 
-    if-eq p1, v0, :cond_1
+    move-result v1
 
-    if-ne p1, v1, :cond_0
+    sget-object v2, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "checkNetworkTypeWithAutoUpdateStatus# netType = "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "NetworkStatusChecker"
+
+    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    sget-object v3, Lcom/huawei/appmarket/g54$a;->c:Lcom/huawei/appmarket/g54$a;
+
+    invoke-virtual {v3, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    const-string v5, "#"
+
+    if-eqz v3, :cond_0
+
+    const/4 v3, 0x1
+
+    if-eq v1, v3, :cond_0
+
+    const-string p0, "checkNetworkTypeWithAutoUpdateStatus# network is not wifi."
+
+    invoke-virtual {v2, v4, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/StringBuilder;
+
+    const-string v0, "noWifi#"
+
+    invoke-direct {p0, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    :goto_0
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    sget-object v3, Lcom/huawei/appmarket/g54$a;->d:Lcom/huawei/appmarket/g54$a;
+
+    invoke-virtual {v3, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_1
+
+    const-string p0, "checkNetworkTypeWithAutoUpdateStatus# network is not available."
+
+    invoke-virtual {v2, v4, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/StringBuilder;
+
+    const-string v0, "noNetwork#"
+
+    invoke-direct {p0, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     goto :goto_0
 
-    :cond_0
-    const/4 p1, 0x0
-
-    goto :goto_1
-
     :cond_1
-    :goto_0
-    const/4 p1, 0x1
+    const-string p0, ""
 
-    :goto_1
-    iget-object v0, p0, Lcom/huawei/appmarket/ug5;->a:Lcom/huawei/appmarket/tg5;
-
-    if-eqz p1, :cond_2
-
-    const/16 v1, 0xa
-
-    :cond_2
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/tg5;->a(Lcom/huawei/appmarket/tg5;I)V
-
-    return-void
+    return-object p0
 .end method

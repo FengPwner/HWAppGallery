@@ -3,30 +3,337 @@
 .source "SourceFile"
 
 
-# instance fields
-.field public final a:Lcom/huawei/appmarket/pl;
+# static fields
+.field private static final a:Lcom/huawei/appmarket/ip4$a;
 
-.field public final b:Lcom/huawei/appmarket/pl;
-
-.field public final c:Lcom/huawei/appmarket/ql;
-
-.field public final d:Lcom/huawei/appmarket/ql;
+.field private static final b:Lcom/huawei/appmarket/ip4$a;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/pl;Lcom/huawei/appmarket/pl;Lcom/huawei/appmarket/ql;Lcom/huawei/appmarket/ql;)V
-    .registers 5
+.method static constructor <clinit>()V
+    .registers 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    const-string v0, "a"
 
-    iput-object p1, p0, Lcom/huawei/appmarket/am;->a:Lcom/huawei/appmarket/pl;
+    filled-new-array {v0}, [Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/am;->b:Lcom/huawei/appmarket/pl;
+    move-result-object v0
 
-    iput-object p3, p0, Lcom/huawei/appmarket/am;->c:Lcom/huawei/appmarket/ql;
+    invoke-static {v0}, Lcom/huawei/appmarket/ip4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/ip4$a;
 
-    iput-object p4, p0, Lcom/huawei/appmarket/am;->d:Lcom/huawei/appmarket/ql;
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/am;->a:Lcom/huawei/appmarket/ip4$a;
+
+    const-string v0, "sw"
+
+    const-string v1, "t"
+
+    const-string v2, "fc"
+
+    const-string v3, "sc"
+
+    filled-new-array {v2, v3, v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ip4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/ip4$a;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/am;->b:Lcom/huawei/appmarket/ip4$a;
 
     return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;)Lcom/huawei/appmarket/zl;
+    .registers 10
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->t()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    move-object v1, v0
+
+    .line 6
+    :goto_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->x()Z
+
+    .line 7
+    .line 8
+    .line 9
+    move-result v2
+
+    .line 10
+    if-eqz v2, :cond_6
+
+    .line 11
+    .line 12
+    sget-object v2, Lcom/huawei/appmarket/am;->a:Lcom/huawei/appmarket/ip4$a;
+
+    .line 13
+    .line 14
+    invoke-virtual {p0, v2}, Lcom/huawei/appmarket/ip4;->G(Lcom/huawei/appmarket/ip4$a;)I
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v2
+
+    .line 18
+    if-eqz v2, :cond_0
+
+    .line 19
+    .line 20
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->H()V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->I()V
+
+    .line 24
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->t()V
+
+    .line 28
+    .line 29
+    .line 30
+    move-object v1, v0
+
+    .line 31
+    move-object v2, v1
+
+    .line 32
+    move-object v3, v2
+
+    .line 33
+    move-object v4, v3
+
+    .line 34
+    :goto_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->x()Z
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v5
+
+    .line 38
+    if-eqz v5, :cond_5
+
+    .line 39
+    .line 40
+    sget-object v5, Lcom/huawei/appmarket/am;->b:Lcom/huawei/appmarket/ip4$a;
+
+    .line 41
+    .line 42
+    invoke-virtual {p0, v5}, Lcom/huawei/appmarket/ip4;->G(Lcom/huawei/appmarket/ip4$a;)I
+
+    .line 43
+    .line 44
+    .line 45
+    move-result v5
+
+    .line 46
+    if-eqz v5, :cond_4
+
+    .line 47
+    .line 48
+    const/4 v6, 0x1
+
+    .line 49
+    if-eq v5, v6, :cond_3
+
+    .line 50
+    .line 51
+    const/4 v7, 0x2
+
+    .line 52
+    if-eq v5, v7, :cond_2
+
+    .line 53
+    .line 54
+    const/4 v7, 0x3
+
+    .line 55
+    if-eq v5, v7, :cond_1
+
+    .line 56
+    .line 57
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->H()V
+
+    .line 58
+    .line 59
+    .line 60
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->I()V
+
+    .line 61
+    .line 62
+    .line 63
+    goto :goto_1
+
+    .line 64
+    :cond_1
+    invoke-static {p0, p1, v6}, Lcom/huawei/appmarket/em;->b(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;Z)Lcom/huawei/appmarket/pl;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object v4
+
+    .line 68
+    goto :goto_1
+
+    .line 69
+    :cond_2
+    invoke-static {p0, p1, v6}, Lcom/huawei/appmarket/em;->b(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;Z)Lcom/huawei/appmarket/pl;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v3
+
+    .line 73
+    goto :goto_1
+
+    .line 74
+    :cond_3
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/em;->a(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;)Lcom/huawei/appmarket/ol;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object v2
+
+    .line 78
+    goto :goto_1
+
+    .line 79
+    :cond_4
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/em;->a(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;)Lcom/huawei/appmarket/ol;
+
+    .line 80
+    .line 81
+    .line 82
+    move-result-object v1
+
+    .line 83
+    goto :goto_1
+
+    .line 84
+    :cond_5
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->v()V
+
+    .line 85
+    .line 86
+    .line 87
+    new-instance v5, Lcom/huawei/appmarket/zl;
+
+    .line 88
+    .line 89
+    invoke-direct {v5, v1, v2, v3, v4}, Lcom/huawei/appmarket/zl;-><init>(Lcom/huawei/appmarket/ol;Lcom/huawei/appmarket/ol;Lcom/huawei/appmarket/pl;Lcom/huawei/appmarket/pl;)V
+
+    .line 90
+    .line 91
+    .line 92
+    move-object v1, v5
+
+    .line 93
+    goto :goto_0
+
+    .line 94
+    :cond_6
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->v()V
+
+    .line 95
+    .line 96
+    .line 97
+    if-nez v1, :cond_7
+
+    .line 98
+    .line 99
+    new-instance p0, Lcom/huawei/appmarket/zl;
+
+    .line 100
+    .line 101
+    invoke-direct {p0, v0, v0, v0, v0}, Lcom/huawei/appmarket/zl;-><init>(Lcom/huawei/appmarket/ol;Lcom/huawei/appmarket/ol;Lcom/huawei/appmarket/pl;Lcom/huawei/appmarket/pl;)V
+
+    .line 102
+    .line 103
+    .line 104
+    return-object p0
+
+    .line 105
+    :cond_7
+    return-object v1
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
 .end method

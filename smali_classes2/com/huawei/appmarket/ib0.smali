@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/ib0;
-.super Lcom/huawei/appmarket/q68;
+.super Lcom/huawei/appmarket/v68;
 .source "SourceFile"
 
 
@@ -8,14 +8,14 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/q68;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/v68;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lcom/huawei/appmarket/yh7;
+.method public final a(Ljava/lang/String;)Lcom/huawei/appmarket/ei7;
     .registers 4
 
     .line 1

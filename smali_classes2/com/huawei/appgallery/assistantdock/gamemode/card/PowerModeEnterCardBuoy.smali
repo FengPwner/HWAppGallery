@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private E:Lcom/huawei/appmarket/yv2;
+.field private E:Lcom/huawei/appmarket/bw2;
 
 .field private F:Ljava/lang/String;
 
@@ -15,14 +15,14 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyBaseEnterCard;-><init>(Landroid/content/Context;)V
 
-    sget-object p1, Lcom/huawei/appmarket/yv2;->f:Lcom/huawei/appmarket/yv2;
+    sget-object p1, Lcom/huawei/appmarket/bw2;->f:Lcom/huawei/appmarket/bw2;
 
-    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
     return-void
 .end method
 
-.method private x1(Lcom/huawei/appmarket/yv2;)V
+.method private x1(Lcom/huawei/appmarket/bw2;)V
     .registers 4
 
     .line 1
@@ -60,7 +60,7 @@
 
     const-string v0, "PowerModeEnterCardBuoy"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -130,13 +130,13 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyBaseEnterCard;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ew2;->d()Lcom/huawei/appmarket/yv2;
+    invoke-static {}, Lcom/huawei/appmarket/hw2;->d()Lcom/huawei/appmarket/bw2;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->x1(Lcom/huawei/appmarket/yv2;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->x1(Lcom/huawei/appmarket/bw2;)V
 
     return-void
 .end method
@@ -145,9 +145,9 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->d:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->d:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
     .line 1
     sget-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy$a;->a:[I
 
-    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -188,7 +188,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -196,30 +196,30 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/yv2;->d:Lcom/huawei/appmarket/yv2;
+    sget-object v0, Lcom/huawei/appmarket/bw2;->d:Lcom/huawei/appmarket/bw2;
 
     :goto_0
-    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
     goto :goto_1
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/yv2;->e:Lcom/huawei/appmarket/yv2;
+    sget-object v0, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
 
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/huawei/appmarket/yv2;->f:Lcom/huawei/appmarket/yv2;
+    sget-object v0, Lcom/huawei/appmarket/bw2;->f:Lcom/huawei/appmarket/bw2;
 
     goto :goto_0
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
@@ -231,7 +231,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iget-object v1, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -239,16 +239,16 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->x1(Lcom/huawei/appmarket/yv2;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->x1(Lcom/huawei/appmarket/bw2;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/yv2;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/gamemode/card/PowerModeEnterCardBuoy;->E:Lcom/huawei/appmarket/bw2;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ew2;->o(Lcom/huawei/appmarket/yv2;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/hw2;->o(Lcom/huawei/appmarket/bw2;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/assistantdock/gamemode/card/BuoyBaseEnterCard;->t1()V
 

@@ -13,12 +13,12 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/y02;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/c12;->e()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     .line 5
     .line 6
@@ -52,7 +52,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/bu0;->r(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/kb1;->u(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -221,21 +221,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

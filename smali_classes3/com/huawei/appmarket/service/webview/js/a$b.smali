@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -74,7 +74,7 @@
 
     .line 13
     .line 14
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/fk2;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/hk2;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -164,7 +164,7 @@
 
     .line 55
     :goto_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -186,11 +186,11 @@
 
     .line 63
     .line 64
-    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;
+    check-cast v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;
 
     .line 65
     .line 66
-    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v1, v0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;->b:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     .line 67
     .line 68
@@ -202,7 +202,7 @@
 
     .line 71
     .line 72
-    invoke-direct {v4, v0, v3, v2}, Lcom/huawei/appmarket/service/webview/js/e;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$q;ILjava/lang/String;)V
+    invoke-direct {v4, v0, v3, v2}, Lcom/huawei/appmarket/service/webview/js/e;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$r;ILjava/lang/String;)V
 
     .line 73
     .line 74

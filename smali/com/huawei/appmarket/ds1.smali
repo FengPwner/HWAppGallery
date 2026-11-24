@@ -1,10 +1,46 @@
-.class final Lcom/huawei/appmarket/ds1;
+.class public final Lcom/huawei/appmarket/ds1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ds1$a;
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/String;
+
+.field public b:Ljava/lang/String;
+
+.field public c:F
+
+.field public d:Lcom/huawei/appmarket/ds1$a;
+
+.field public e:I
+
+.field public f:F
+
+.field public g:F
+
+.field public h:I
+
+.field public i:I
+
+.field public j:F
+
+.field public k:Z
+
+.field public l:Landroid/graphics/PointF;
+
+.field public m:Landroid/graphics/PointF;
+
+
 # direct methods
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -12,284 +48,217 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
-    .registers 11
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;FLcom/huawei/appmarket/ds1$a;IFFIIFZLandroid/graphics/PointF;Landroid/graphics/PointF;)V
+    .registers 14
 
     .line 1
-    const-string v0, "_display_name"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/ds1;->a:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/ds1;->b:Ljava/lang/String;
+
+    iput p3, p0, Lcom/huawei/appmarket/ds1;->c:F
+
+    iput-object p4, p0, Lcom/huawei/appmarket/ds1;->d:Lcom/huawei/appmarket/ds1$a;
+
+    iput p5, p0, Lcom/huawei/appmarket/ds1;->e:I
+
+    iput p6, p0, Lcom/huawei/appmarket/ds1;->f:F
+
+    iput p7, p0, Lcom/huawei/appmarket/ds1;->g:F
+
+    iput p8, p0, Lcom/huawei/appmarket/ds1;->h:I
+
+    iput p9, p0, Lcom/huawei/appmarket/ds1;->i:I
+
+    iput p10, p0, Lcom/huawei/appmarket/ds1;->j:F
+
+    iput-boolean p11, p0, Lcom/huawei/appmarket/ds1;->k:Z
+
+    iput-object p12, p0, Lcom/huawei/appmarket/ds1;->l:Landroid/graphics/PointF;
+
+    iput-object p13, p0, Lcom/huawei/appmarket/ds1;->m:Landroid/graphics/PointF;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final hashCode()I
+    .registers 8
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ds1;->a:Ljava/lang/String;
 
     .line 2
     .line 3
-    const-string v1, "Failed query: "
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
     .line 6
-    .line 7
-    .line 8
-    move-result-object v2
+    move-result v0
 
+    .line 7
+    const/16 v1, 0x1f
+
+    .line 8
     .line 9
-    const/4 p0, 0x0
+    mul-int/lit8 v0, v0, 0x1f
 
     .line 10
-    :try_start_0
-    filled-new-array {v0}, [Ljava/lang/String;
-
     .line 11
+    iget-object v2, p0, Lcom/huawei/appmarket/ds1;->b:Ljava/lang/String;
+
     .line 12
     .line 13
-    move-result-object v4
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/kb1;->d(Ljava/lang/String;II)I
 
     .line 14
-    const/4 v5, 0x0
-
     .line 15
-    const/4 v6, 0x0
-
     .line 16
-    const/4 v7, 0x0
+    move-result v0
 
     .line 17
-    move-object v3, p1
+    int-to-float v0, v0
 
     .line 18
-    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    iget v2, p0, Lcom/huawei/appmarket/ds1;->c:F
 
     .line 19
     .line 20
+    add-float/2addr v0, v2
+
     .line 21
-    move-result-object p1
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_3
-    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+    float-to-int v0, v0
 
     .line 22
-    :try_start_1
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
+    mul-int/lit8 v0, v0, 0x1f
 
     .line 23
     .line 24
-    .line 25
-    move-result v0
+    iget-object v2, p0, Lcom/huawei/appmarket/ds1;->d:Lcom/huawei/appmarket/ds1$a;
 
+    .line 25
     .line 26
-    if-eqz v0, :cond_0
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     .line 27
     .line 28
-    const/4 v0, 0x0
-
     .line 29
-    invoke-interface {p1, v0}, Landroid/database/Cursor;->isNull(I)Z
-
-    .line 30
-    .line 31
-    .line 32
     move-result v2
 
+    .line 30
+    add-int/2addr v2, v0
+
+    .line 31
+    mul-int/lit8 v2, v2, 0x1f
+
+    .line 32
     .line 33
-    if-nez v2, :cond_0
+    iget v0, p0, Lcom/huawei/appmarket/ds1;->e:I
 
     .line 34
     .line 35
-    invoke-interface {p1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    add-int/2addr v2, v0
 
     .line 36
+    iget v0, p0, Lcom/huawei/appmarket/ds1;->f:F
+
     .line 37
     .line 38
-    move-result-object p0
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     .line 39
-    check-cast p1, Landroid/database/Cursor;
-
     .line 40
     .line 41
-    :try_start_2
-    invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
-    :try_end_2
-    .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_2} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_5
+    move-result v0
 
     .line 42
-    .line 43
-    .line 44
-    goto :goto_1
+    int-to-long v3, v0
 
+    .line 43
+    mul-int/lit8 v2, v2, 0x1f
+
+    .line 44
     .line 45
-    :catch_0
-    move-exception p0
+    const/16 v0, 0x20
 
     .line 46
-    throw p0
-
     .line 47
-    :catchall_0
-    move-exception p0
+    ushr-long v5, v3, v0
 
     .line 48
-    goto :goto_2
-
     .line 49
-    :catch_1
-    move-exception v0
+    xor-long/2addr v3, v5
 
     .line 50
-    goto :goto_0
+    long-to-int v0, v3
 
     .line 51
-    :cond_0
-    check-cast p1, Landroid/database/Cursor;
+    add-int/2addr v2, v0
 
     .line 52
-    .line 53
-    :try_start_3
-    invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
-    :try_end_3
-    .catch Ljava/lang/RuntimeException; {:try_start_3 .. :try_end_3} :catch_2
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_5
+    mul-int/lit8 v2, v2, 0x1f
 
+    .line 53
     .line 54
+    iget v0, p0, Lcom/huawei/appmarket/ds1;->h:I
+
     .line 55
     .line 56
-    goto :goto_1
+    add-int/2addr v2, v0
 
     .line 57
-    :catch_2
-    move-exception p0
-
+    return v2
     .line 58
-    throw p0
-
     .line 59
-    :catchall_1
-    move-exception p1
-
     .line 60
-    move-object v8, p1
-
     .line 61
-    move-object p1, p0
-
     .line 62
-    move-object p0, v8
-
     .line 63
-    goto :goto_2
-
     .line 64
-    :catch_3
-    move-exception v0
-
     .line 65
-    move-object p1, p0
-
     .line 66
-    :goto_0
-    :try_start_4
-    const-string v2, "DocumentFile"
-
     .line 67
     .line 68
-    new-instance v3, Ljava/lang/StringBuilder;
-
     .line 69
     .line 70
-    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
     .line 74
     .line 75
     .line 76
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 77
     .line 78
     .line 79
-    move-result-object v0
-
     .line 80
-    invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-    :try_end_4
-    .catchall {:try_start_4 .. :try_end_4} :catchall_0
-
     .line 81
     .line 82
     .line 83
-    check-cast p1, Landroid/database/Cursor;
-
     .line 84
     .line 85
-    if-eqz p1, :cond_1
-
     .line 86
     .line 87
-    :try_start_5
-    invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
-    :try_end_5
-    .catch Ljava/lang/RuntimeException; {:try_start_5 .. :try_end_5} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_5
-
     .line 88
     .line 89
     .line 90
-    goto :goto_1
-
     .line 91
-    :catch_4
-    move-exception p0
-
     .line 92
-    throw p0
-
     .line 93
-    :catch_5
-    :cond_1
-    :goto_1
-    return-object p0
-
     .line 94
-    :goto_2
-    check-cast p1, Landroid/database/Cursor;
-
     .line 95
     .line 96
-    if-eqz p1, :cond_2
-
     .line 97
     .line 98
-    :try_start_6
-    invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
-    :try_end_6
-    .catch Ljava/lang/RuntimeException; {:try_start_6 .. :try_end_6} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_7
-
     .line 99
     .line 100
     .line 101
-    goto :goto_3
-
     .line 102
-    :catch_6
-    move-exception p0
-
     .line 103
-    throw p0
-
     .line 104
-    :catch_7
-    :cond_2
-    :goto_3
-    throw p0
     .line 105
     .line 106
     .line 107
@@ -322,18 +291,4 @@
     .line 134
     .line 135
     .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
 .end method

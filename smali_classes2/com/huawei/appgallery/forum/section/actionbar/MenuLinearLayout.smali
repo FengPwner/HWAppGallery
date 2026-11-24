@@ -70,7 +70,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/l65;)V
+.method public final a(Lcom/huawei/appmarket/o65;)V
     .registers 3
 
     .line 1
@@ -102,9 +102,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/l65;
+    check-cast v2, Lcom/huawei/appmarket/o65;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/l65;->g()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/o65;->g()V
 
     goto :goto_0
 
@@ -137,9 +137,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/l65;
+    check-cast v1, Lcom/huawei/appmarket/o65;
 
-    invoke-virtual {v1, p1, p2}, Lcom/huawei/appmarket/l65;->h(FI)V
+    invoke-virtual {v1, p1, p2}, Lcom/huawei/appmarket/o65;->h(FI)V
 
     goto :goto_0
 

@@ -21,7 +21,7 @@
 
 .field private final c:Landroid/view/View;
 
-.field private d:Lcom/huawei/appmarket/qk8;
+.field private d:Lcom/huawei/appmarket/wk8;
 
 .field private final e:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -114,7 +114,7 @@
 
     const-wide/high16 v1, 0x4000000000000000L    # 2.0
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     move-result-object v1
 
@@ -184,7 +184,7 @@
 
     move-result p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -193,11 +193,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/qk8;
+.method static synthetic a(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Lcom/huawei/appmarket/wk8;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/qk8;
+    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/wk8;
 
     return-object p0
 .end method
@@ -1004,11 +1004,11 @@
     move-result-object v1
 
     .line 7
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/qk8;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/wk8;
 
     .line 8
     .line 9
-    iget-object v2, v2, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v2, v2, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -1225,7 +1225,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic i(Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;)Ljava/util/HashMap;
@@ -1347,7 +1346,7 @@
 
     move-result v6
 
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -1365,9 +1364,9 @@
 
     invoke-virtual {v4, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v5, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/qk8;
+    iget-object v5, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/wk8;
 
-    iget-object v5, v5, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v5, v5, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v5}, Ljava/util/ArrayList;->size()I
 
@@ -1423,7 +1422,7 @@
 
     int-to-double v9, v1
 
-    invoke-static {v9, v10}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v9, v10}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1700,9 +1699,9 @@
 
     iget-object v6, v5, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView$e;->a:Landroid/widget/ImageView;
 
-    iget-object v7, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/qk8;
+    iget-object v7, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/wk8;
 
-    iget-object v7, v7, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v7, v7, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v7}, Ljava/util/ArrayList;->size()I
 
@@ -1734,7 +1733,7 @@
 
     int-to-double v8, v8
 
-    invoke-static {v8, v9}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v8, v9}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     move-result-object v8
 
@@ -1769,17 +1768,17 @@
 
 
 # virtual methods
-.method public setData(Lcom/huawei/appmarket/qk8;)V
+.method public setData(Lcom/huawei/appmarket/wk8;)V
     .registers 7
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/qk8;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->d:Lcom/huawei/appmarket/wk8;
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/vote/view/VoteOptionsView;->b:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    iget-object v1, p1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v1, p1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -1806,7 +1805,7 @@
     const/4 v1, 0x0
 
     :goto_1
-    iget-object v2, p1, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    iget-object v2, p1, Lcom/huawei/appmarket/wk8;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 

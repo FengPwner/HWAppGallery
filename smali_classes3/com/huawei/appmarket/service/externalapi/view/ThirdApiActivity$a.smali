@@ -20,11 +20,11 @@
 # instance fields
 .field protected b:Ljava/lang/String;
 
-.field protected c:Lcom/huawei/appmarket/c72$b;
+.field protected c:Lcom/huawei/appmarket/g72$b;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/g72$b;)V
     .registers 3
 
     .line 1
@@ -32,7 +32,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity$a;->b:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity$a;->c:Lcom/huawei/appmarket/c72$b;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity$a;->c:Lcom/huawei/appmarket/g72$b;
 
     return-void
 .end method

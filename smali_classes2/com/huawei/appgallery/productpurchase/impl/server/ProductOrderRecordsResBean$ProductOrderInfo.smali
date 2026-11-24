@@ -38,7 +38,7 @@
 .field private validEndTime_:J
 
 .field private validStartTime:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

@@ -39,7 +39,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->o(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Landroid/widget/RelativeLayout;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->q(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;)Landroid/widget/RelativeLayout;
 
     move-result-object v1
 
@@ -65,7 +65,7 @@
 
     const/4 v6, 0x1
 
-    invoke-static {v0, v4, v5, v6}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->n(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
+    invoke-static {v0, v4, v5, v6}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->p(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
 
     move-result-object v4
 
@@ -81,7 +81,7 @@
 
     move-result-wide v7
 
-    invoke-static {v0, v7, v8, v5}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->n(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
+    invoke-static {v0, v7, v8, v5}, Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;->p(Lcom/huawei/appgallery/detail/detailbase/video/AppDetailVideoPlayerController;JZ)Ljava/lang/String;
 
     move-result-object v0
 

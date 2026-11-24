@@ -73,13 +73,13 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p1, p2, v0, v1}, Lcom/huawei/appmarket/t58;->b(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, p2, v0, v1}, Lcom/huawei/appmarket/y58;->b(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    invoke-static {p2}, Lcom/huawei/appmarket/rw5;->d(Ljava/lang/String;)Landroid/graphics/Path;
+    invoke-static {p2}, Lcom/huawei/appmarket/tw5;->d(Ljava/lang/String;)Landroid/graphics/Path;
 
     move-result-object p2
 

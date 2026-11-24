@@ -269,7 +269,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/t12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
+    invoke-static {v0}, Lcom/huawei/appmarket/x12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
 
     .line 8
     .line 9
@@ -286,7 +286,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o85;->l(Ljava/util/stream/Stream;Lorg/apache/commons/lang3/concurrent/a;)Ljava/util/stream/IntStream;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r85;->l(Ljava/util/stream/Stream;Lorg/apache/commons/lang3/concurrent/a;)Ljava/util/stream/IntStream;
 
     .line 17
     .line 18
@@ -294,7 +294,7 @@
     move-result-object v0
 
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/o85;->c(Ljava/util/stream/IntStream;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/r85;->c(Ljava/util/stream/IntStream;)I
 
     .line 21
     .line 22
@@ -589,6 +589,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected bridge synthetic initialize()Ljava/lang/Object;
@@ -637,11 +657,11 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/huawei/appmarket/nc5;
+    new-instance v3, Lcom/huawei/appmarket/qc5;
 
-    invoke-direct {v3, v1}, Lcom/huawei/appmarket/nc5;-><init>(Ljava/util/concurrent/ExecutorService;)V
+    invoke-direct {v3, v1}, Lcom/huawei/appmarket/qc5;-><init>(Ljava/util/concurrent/ExecutorService;)V
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/o85;->v(Ljava/util/Collection;Lcom/huawei/appmarket/nc5;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r85;->v(Ljava/util/Collection;Lcom/huawei/appmarket/qc5;)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -651,11 +671,11 @@
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
-    new-instance v3, Lcom/huawei/appmarket/oc5;
+    new-instance v3, Lcom/huawei/appmarket/rc5;
 
-    invoke-direct {v3, v1, v2}, Lcom/huawei/appmarket/oc5;-><init>(Ljava/util/HashMap;Ljava/util/HashMap;)V
+    invoke-direct {v3, v1, v2}, Lcom/huawei/appmarket/rc5;-><init>(Ljava/util/HashMap;Ljava/util/HashMap;)V
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/o85;->w(Ljava/util/HashMap;Lcom/huawei/appmarket/oc5;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/r85;->w(Ljava/util/HashMap;Lcom/huawei/appmarket/rc5;)V
 
     new-instance v3, Lorg/apache/commons/lang3/concurrent/MultiBackgroundInitializer$MultiBackgroundInitializerResults;
 
@@ -715,7 +735,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Lcom/huawei/appmarket/t12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
+    invoke-static {v0}, Lcom/huawei/appmarket/x12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
 
     .line 18
     .line 19
@@ -723,7 +743,7 @@
     move-result-object v0
 
     .line 21
-    new-instance v1, Lcom/huawei/appmarket/pc5;
+    new-instance v1, Lcom/huawei/appmarket/sc5;
 
     .line 22
     .line 23
@@ -732,7 +752,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o85;->B(Ljava/util/stream/Stream;Lcom/huawei/appmarket/pc5;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r85;->B(Ljava/util/stream/Stream;Lcom/huawei/appmarket/sc5;)Z
 
     .line 27
     .line 28
@@ -1019,4 +1039,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

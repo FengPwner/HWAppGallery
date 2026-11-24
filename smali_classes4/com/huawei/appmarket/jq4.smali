@@ -3,8 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gq4;
-.implements Lcom/huawei/appmarket/at2;
+.implements Lcom/huawei/appmarket/iq4;
 
 
 # annotations
@@ -14,25 +13,70 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/gq4<",
-        "TR;>;",
-        "Lcom/huawei/appmarket/at2<",
-        "TR;>;"
+        "Lcom/huawei/appmarket/iq4;"
     }
 .end annotation
 
 
 # virtual methods
-.method public abstract isExternal()Z
+.method public varargs abstract call([Ljava/lang/Object;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "([",
+            "Ljava/lang/Object;",
+            ")TR;"
+        }
+    .end annotation
 .end method
 
-.method public abstract isInfix()Z
+.method public abstract callBy(Ljava/util/Map;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Lcom/huawei/appmarket/pq4;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)TR;"
+        }
+    .end annotation
 .end method
 
-.method public abstract isInline()Z
+.method public abstract getParameters()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/pq4;",
+            ">;"
+        }
+    .end annotation
 .end method
 
-.method public abstract isOperator()Z
+.method public abstract getReturnType()Lcom/huawei/appmarket/qq4;
+.end method
+
+.method public abstract getTypeParameters()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getVisibility()Lcom/huawei/appmarket/rq4;
+.end method
+
+.method public abstract isAbstract()Z
+.end method
+
+.method public abstract isFinal()Z
+.end method
+
+.method public abstract isOpen()Z
 .end method
 
 .method public abstract isSuspend()Z

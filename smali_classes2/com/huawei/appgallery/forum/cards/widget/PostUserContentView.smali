@@ -17,7 +17,7 @@
 
 .field private f:Lcom/huawei/appgallery/forum/cards/widget/NickNameFakeView;
 
-.field private g:Lcom/huawei/appmarket/xc8;
+.field private g:Lcom/huawei/appmarket/cd8;
 
 .field private h:Landroid/view/View;
 
@@ -67,11 +67,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;)Lcom/huawei/appmarket/xc8;
+.method static synthetic a(Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;)Lcom/huawei/appmarket/cd8;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;->g:Lcom/huawei/appmarket/xc8;
+    iget-object p0, p0, Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;->g:Lcom/huawei/appmarket/cd8;
 
     return-object p0
 .end method
@@ -230,7 +230,7 @@
 
     .line 74
     .line 75
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 76
     .line 77
@@ -250,7 +250,7 @@
 
     .line 84
     .line 85
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 86
     .line 87
@@ -646,7 +646,7 @@
 
     const/16 v1, 0x28
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -704,7 +704,7 @@
     move-result-object v4
 
     .line 14
-    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/bp2;->k(Landroid/content/Context;Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v3, v4}, Lcom/huawei/appmarket/dp2;->k(Landroid/content/Context;Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -753,7 +753,7 @@
 
     .line 38
     .line 39
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/h36;->d(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/PostTime;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j36;->d(Landroid/content/Context;Lcom/huawei/appgallery/forum/base/card/bean/PostTime;)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -1433,13 +1433,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public getRootView()Landroid/view/View;
@@ -1490,11 +1483,11 @@
     return-void
 .end method
 
-.method public setUserContentClickLisenter(Lcom/huawei/appmarket/xc8;)V
+.method public setUserContentClickLisenter(Lcom/huawei/appmarket/cd8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;->g:Lcom/huawei/appmarket/xc8;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/cards/widget/PostUserContentView;->g:Lcom/huawei/appmarket/cd8;
 
     return-void
 .end method

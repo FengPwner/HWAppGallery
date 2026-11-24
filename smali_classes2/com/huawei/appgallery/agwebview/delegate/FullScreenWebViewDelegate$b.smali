@@ -38,17 +38,17 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate$b;->c:Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;->I0(Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;)Lcom/huawei/appmarket/ho8;
+    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;->J0(Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;)Lcom/huawei/appmarket/no8;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;->J0(Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;)Lcom/huawei/appmarket/ho8;
+    invoke-static {v0}, Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;->K0(Lcom/huawei/appgallery/agwebview/delegate/FullScreenWebViewDelegate;)Lcom/huawei/appmarket/no8;
 
     move-result-object v0
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ho8;->e(Landroid/webkit/WebView;Ljava/lang/String;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/no8;->e(Landroid/webkit/WebView;Ljava/lang/String;)V
 
     :cond_0
     return-void

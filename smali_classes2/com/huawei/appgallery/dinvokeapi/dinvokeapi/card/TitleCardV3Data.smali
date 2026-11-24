@@ -5,31 +5,31 @@
 
 # instance fields
 .field s:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "name"
     .end annotation
 .end field
 
 .field t:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "subTitle"
     .end annotation
 .end field
 
 .field u:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "detailId"
     .end annotation
 .end field
 
 .field v:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "isHalfRoundCorner"
     .end annotation
 .end field
 
 .field w:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "isShowHeadBlank"
     .end annotation
 .end field

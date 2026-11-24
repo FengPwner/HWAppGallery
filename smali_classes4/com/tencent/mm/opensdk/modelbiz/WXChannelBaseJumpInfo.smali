@@ -65,13 +65,13 @@
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelBaseJumpInfo;->wording:Ljava/lang/String;
 
-    const-string v1, "wx_channel_jump_base_wording"
+    const-string/jumbo v1, "wx_channel_jump_base_wording"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelBaseJumpInfo;->extra:Ljava/lang/String;
 
-    const-string v1, "wx_channel_jump_base_extra"
+    const-string/jumbo v1, "wx_channel_jump_base_extra"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -81,7 +81,7 @@
 .method public unserialize(Landroid/os/Bundle;)V
     .registers 3
 
-    const-string v0, "wx_channel_jump_base_wording"
+    const-string/jumbo v0, "wx_channel_jump_base_wording"
 
     invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/opensdk/modelbiz/WXChannelBaseJumpInfo;->wording:Ljava/lang/String;
 
-    const-string v0, "wx_channel_jump_base_extra"
+    const-string/jumbo v0, "wx_channel_jump_base_extra"
 
     invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 

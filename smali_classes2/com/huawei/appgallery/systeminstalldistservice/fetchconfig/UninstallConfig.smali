@@ -99,7 +99,7 @@
     move-result-object v1
 
     .line 12
-    sget v2, Lcom/huawei/appmarket/vi2;->d:I
+    sget v2, Lcom/huawei/appmarket/yi2;->d:I
 
     .line 13
     .line 14
@@ -243,5 +243,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

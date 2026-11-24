@@ -16,7 +16,7 @@
 
     const-string v0, "generatedAdapters"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -27,21 +27,21 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 6
 
     .line 1
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "event"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance p1, Lcom/huawei/appmarket/i85;
+    new-instance p1, Lcom/huawei/appmarket/l85;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/i85;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/l85;-><init>()V
 
     iget-object p1, p0, Landroidx/lifecycle/b;->b:[Landroidx/lifecycle/d;
 

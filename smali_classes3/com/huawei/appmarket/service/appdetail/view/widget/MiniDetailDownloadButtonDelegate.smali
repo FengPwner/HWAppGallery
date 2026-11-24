@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method protected final M(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)Ljava/lang/CharSequence;
+.method protected final M(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)Ljava/lang/CharSequence;
     .registers 5
 
     .line 1
@@ -22,7 +22,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/dt1;->i:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->i:Lcom/huawei/appmarket/gt1;
 
     if-ne p2, v0, :cond_1
 

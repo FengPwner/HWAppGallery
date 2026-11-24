@@ -12,13 +12,13 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/huawei/appmarket/qu4;)Ljava/lang/String;
+.method public static a(Landroid/content/Context;Lcom/huawei/appmarket/tu4;)Ljava/lang/String;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/qu4<",
+            "Lcom/huawei/appmarket/tu4<",
             "Lcom/huawei/appmarket/c80;",
             ">;)",
             "Ljava/lang/String;"
@@ -43,7 +43,7 @@
     .line 8
     .line 9
     :goto_0
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -82,7 +82,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qu4;->a()Ljava/util/LinkedList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tu4;->a()Ljava/util/LinkedList;
 
     .line 29
     .line 30
@@ -154,7 +154,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-static {p0}, Lcom/huawei/appmarket/zn1;->g(Landroid/content/Context;)Landroid/util/DisplayMetrics;
+    invoke-static {p0}, Lcom/huawei/appmarket/co1;->g(Landroid/content/Context;)Landroid/util/DisplayMetrics;
 
     .line 64
     .line 65
@@ -337,5 +337,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

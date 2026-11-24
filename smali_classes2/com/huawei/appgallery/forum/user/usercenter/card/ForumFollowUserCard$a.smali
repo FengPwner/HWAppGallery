@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/p54$a;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/s54$a;",
         ">;"
     }
 .end annotation
@@ -43,19 +43,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/p54$a;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/s54$a;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -65,13 +65,13 @@
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/p54$a;
+    check-cast v0, Lcom/huawei/appmarket/s54$a;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/p54$a;->b()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/s54$a;->b()I
 
     move-result v0
 
@@ -81,7 +81,7 @@
 
     const-string v3, "follow action success"
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/huawei/appgallery/forum/user/usercenter/card/ForumFollowUserCard;->o1(Lcom/huawei/appgallery/forum/user/usercenter/card/ForumFollowUserCard;)I
 
@@ -89,13 +89,13 @@
 
     invoke-static {v2, v0}, Lcom/huawei/appgallery/forum/user/usercenter/card/ForumFollowUserCard;->p1(Lcom/huawei/appgallery/forum/user/usercenter/card/ForumFollowUserCard;I)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/p54$a;
+    check-cast p1, Lcom/huawei/appmarket/s54$a;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/p54$a;->a()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/s54$a;->a()I
 
     move-result p1
 

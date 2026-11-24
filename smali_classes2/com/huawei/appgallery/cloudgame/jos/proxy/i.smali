@@ -90,7 +90,7 @@
     .line 15
     .line 16
     :goto_0
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -161,7 +161,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     .line 53
     .line 54
@@ -178,12 +178,12 @@
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p1, v7, v8}, Lcom/huawei/appmarket/j75;->b(Lcom/huawei/hms/core/aidl/IMessageEntity;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {p1, v7, v8}, Lcom/huawei/appmarket/m75;->b(Lcom/huawei/hms/core/aidl/IMessageEntity;Landroid/os/Bundle;)Landroid/os/Bundle;
 
     .line 62
     .line 63
     .line 64
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     .line 65
     .line 66
@@ -200,7 +200,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p1, v0, v8}, Lcom/huawei/appmarket/so4;->a(Lorg/json/JSONObject;Landroid/os/Bundle;)Lorg/json/JSONObject;
+    invoke-virtual {p1, v0, v8}, Lcom/huawei/appmarket/vo4;->a(Lorg/json/JSONObject;Landroid/os/Bundle;)Lorg/json/JSONObject;
 
     .line 74
     .line 75
@@ -260,5 +260,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

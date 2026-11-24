@@ -24,7 +24,7 @@
 
 .field final c:Lcom/google/android/material/progressindicator/b;
 
-.field d:Lcom/huawei/appmarket/nm;
+.field d:Lcom/huawei/appmarket/mm;
 
 .field private e:Landroid/animation/ValueAnimator;
 
@@ -73,11 +73,11 @@
 
     iput-object p2, p0, Lcom/google/android/material/progressindicator/j;->c:Lcom/google/android/material/progressindicator/b;
 
-    new-instance p1, Lcom/huawei/appmarket/nm;
+    new-instance p1, Lcom/huawei/appmarket/mm;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nm;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/mm;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/nm;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/mm;
 
     const/16 p1, 0xff
 
@@ -135,7 +135,7 @@
     move-result-object v0
 
     .line 23
-    check-cast v0, Lcom/huawei/appmarket/ol;
+    check-cast v0, Lcom/huawei/appmarket/nl;
 
     .line 24
     .line 25
@@ -277,11 +277,11 @@
     move-result-object v0
 
     .line 23
-    check-cast v0, Lcom/huawei/appmarket/ol;
+    check-cast v0, Lcom/huawei/appmarket/nl;
 
     .line 24
     .line 25
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ol;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nl;->a()V
 
     .line 26
     .line 27
@@ -521,6 +521,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public e()V
@@ -608,7 +609,7 @@
     return v0
 .end method
 
-.method public h(Lcom/huawei/appmarket/ol;)V
+.method public h(Lcom/huawei/appmarket/nl;)V
     .registers 3
 
     .line 1
@@ -691,7 +692,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/nm;
+    iget-object v0, p0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/mm;
 
     .line 2
     .line 3
@@ -1012,6 +1013,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method k(ZZZ)Z
@@ -1067,7 +1075,7 @@
 
     .line 25
     .line 26
-    sget-object v5, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v5, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     .line 27
     .line 28
@@ -1175,7 +1183,7 @@
 
     .line 79
     .line 80
-    sget-object v1, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v1, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     .line 81
     .line 82
@@ -1553,9 +1561,16 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
-.method public l(Lcom/huawei/appmarket/ol;)Z
+.method public l(Lcom/huawei/appmarket/nl;)Z
     .registers 3
 
     .line 1

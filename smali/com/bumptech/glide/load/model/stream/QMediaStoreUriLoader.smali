@@ -119,7 +119,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/huawei/appmarket/z55;->a(Landroid/net/Uri;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/c65;->a(Landroid/net/Uri;)Z
 
     .line 10
     .line 11
@@ -222,7 +222,7 @@
     .line 95
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 16
 
     .line 1
@@ -237,11 +237,11 @@
 
     .line 5
     .line 6
-    new-instance v9, Lcom/huawei/appmarket/yl5;
+    new-instance v9, Lcom/huawei/appmarket/am5;
 
     .line 7
     .line 8
-    invoke-direct {v9, v4}, Lcom/huawei/appmarket/yl5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v9, v4}, Lcom/huawei/appmarket/am5;-><init>(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -278,12 +278,12 @@
     move-object v7, p4
 
     .line 25
-    invoke-direct/range {v0 .. v8}, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;-><init>(Landroid/content/Context;Lcom/bumptech/glide/load/model/g;Lcom/bumptech/glide/load/model/g;Landroid/net/Uri;IILcom/huawei/appmarket/tr5;Ljava/lang/Class;)V
+    invoke-direct/range {v0 .. v8}, Lcom/bumptech/glide/load/model/stream/QMediaStoreUriLoader$b;-><init>(Landroid/content/Context;Lcom/bumptech/glide/load/model/g;Lcom/bumptech/glide/load/model/g;Landroid/net/Uri;IILcom/huawei/appmarket/vr5;Ljava/lang/Class;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-direct {p1, v9, v10}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/sq4;Lcom/huawei/appmarket/i81;)V
+    invoke-direct {p1, v9, v10}, Lcom/bumptech/glide/load/model/g$a;-><init>(Lcom/huawei/appmarket/vq4;Lcom/huawei/appmarket/i81;)V
 
     .line 29
     .line 30

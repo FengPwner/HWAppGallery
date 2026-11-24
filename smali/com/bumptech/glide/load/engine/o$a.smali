@@ -15,11 +15,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/o;)V
+.method public abstract a(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/o;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Lcom/bumptech/glide/load/engine/o<",
             "*>;)V"
         }

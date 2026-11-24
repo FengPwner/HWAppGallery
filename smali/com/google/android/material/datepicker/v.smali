@@ -225,7 +225,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/r58;->a(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/fq7;->c(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
 
     .line 4
     .line 5
@@ -233,7 +233,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/r58;->b()Landroid/icu/util/TimeZone;
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->d()Landroid/icu/util/TimeZone;
 
     .line 8
     .line 9
@@ -241,7 +241,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->o(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->u(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
 
     .line 12
     .line 13
@@ -341,7 +341,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/r58;->a(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/fq7;->c(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
 
     .line 4
     .line 5
@@ -349,7 +349,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/r58;->b()Landroid/icu/util/TimeZone;
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->d()Landroid/icu/util/TimeZone;
 
     .line 8
     .line 9
@@ -357,7 +357,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->o(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->u(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
 
     .line 12
     .line 13
@@ -1170,6 +1170,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method static j(Landroid/content/res/Resources;Ljava/text/SimpleDateFormat;)Ljava/lang/String;
@@ -1426,6 +1427,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method static l(Ljava/util/Calendar;)Ljava/util/Calendar;
@@ -1564,7 +1566,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/r58;->a(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/fq7;->c(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
 
     .line 4
     .line 5
@@ -1572,7 +1574,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/r58;->b()Landroid/icu/util/TimeZone;
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->d()Landroid/icu/util/TimeZone;
 
     .line 8
     .line 9
@@ -1580,7 +1582,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->o(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->u(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
 
     .line 12
     .line 13
@@ -1680,7 +1682,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/r58;->a(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/fq7;->c(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
 
     .line 4
     .line 5
@@ -1688,7 +1690,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/r58;->b()Landroid/icu/util/TimeZone;
+    invoke-static {}, Lcom/huawei/appmarket/fq7;->d()Landroid/icu/util/TimeZone;
 
     .line 8
     .line 9
@@ -1696,7 +1698,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->o(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->u(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
 
     .line 12
     .line 13

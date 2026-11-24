@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fd3;
+.implements Lcom/huawei/appmarket/hd3;
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/g87;
+.field private final a:Lcom/huawei/appmarket/l87;
 
 .field private final b:Ljava/lang/String;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/g87;)V
+.method constructor <init>(Lcom/huawei/appmarket/l87;)V
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -24,10 +24,10 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iput-object p1, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
     :try_start_0
-    invoke-interface {p1}, Lcom/huawei/appmarket/g87;->d()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/l87;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     const-string v0, "ServerRequest"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/serverrequest/api/service/HttpException;
 
@@ -77,11 +77,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/g87;
+.method public final a()Lcom/huawei/appmarket/l87;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
     return-object v0
 .end method
@@ -97,9 +97,9 @@
 .method public final contentType()Ljava/lang/String;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/g87;->c()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/l87;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -118,9 +118,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/g87;->getHeaders()Ljava/util/Map;
+    invoke-interface {v0}, Lcom/huawei/appmarket/l87;->getHeaders()Ljava/util/Map;
 
     move-result-object v0
 
@@ -130,9 +130,9 @@
 .method public final method()Ljava/lang/String;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/g87;->method()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/l87;->method()Ljava/lang/String;
 
     move-result-object v0
 
@@ -148,7 +148,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v1, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -160,7 +160,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/g87;->getId()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/huawei/appmarket/l87;->getId()Ljava/lang/String;
 
     move-result-object v1
 
@@ -180,9 +180,9 @@
 .method public final url()Ljava/lang/String;
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/g87;
+    iget-object v0, p0, Lcom/huawei/serverrequest/b;->a:Lcom/huawei/appmarket/l87;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/g87;->getUrl()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/l87;->getUrl()Ljava/lang/String;
 
     move-result-object v0
 

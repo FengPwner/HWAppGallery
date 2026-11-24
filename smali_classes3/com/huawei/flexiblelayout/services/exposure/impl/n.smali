@@ -15,5 +15,5 @@
 .method public abstract getBoundFLayout()Lcom/huawei/flexiblelayout/services/exposure/impl/n$a;
 .end method
 
-.method public abstract getFLayout()Lcom/huawei/appmarket/uc2;
+.method public abstract getFLayout()Lcom/huawei/appmarket/xc2;
 .end method

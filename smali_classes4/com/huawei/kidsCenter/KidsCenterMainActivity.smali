@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private k0:J
+.field private l0:J
 
 
 # direct methods
@@ -31,17 +31,17 @@
     return-object v0
 .end method
 
-.method public final E4()Lcom/huawei/appmarket/lm0;
+.method public final E4()Lcom/huawei/appmarket/mm0;
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/lm0;
+    new-instance v0, Lcom/huawei/appmarket/mm0;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/lm0;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/mm0;-><init>()V
 
     const v1, 0x7f080849
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lm0;->e(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mm0;->e(I)V
 
     const v1, 0x7f120a8a
 
@@ -49,15 +49,15 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lm0;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mm0;->h(Ljava/lang/String;)V
 
     const-string v1, "appmarket.kidsCenter"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lm0;->f(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mm0;->f(Ljava/lang/String;)V
 
     const-string v1, "com.huawei.kidsCenter.intent.action.KidsCenterActivity"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lm0;->g(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mm0;->g(Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -143,14 +143,14 @@
 
     const-string v1, "currentActivity is KidsCenterMainActivity, do not renewTaskID"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     const/16 v0, 0x11
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->n(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->n(I)V
 
     return-void
 .end method
@@ -165,7 +165,7 @@
 
     const/16 v2, 0x11
 
-    invoke-static {v2, p0, v0, v1}, Lcom/huawei/appmarket/hd4;->o(ILandroid/app/Activity;ILjava/lang/String;)V
+    invoke-static {v2, p0, v0, v1}, Lcom/huawei/appmarket/jd4;->o(ILandroid/app/Activity;ILjava/lang/String;)V
 
     return-void
 .end method
@@ -184,7 +184,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -223,7 +223,7 @@
 
     const-string p2, "310301"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0
@@ -234,7 +234,7 @@
     .registers 6
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/kidsCenter/KidsCenterMainActivity;->k0:J
+    iget-wide v0, p0, Lcom/huawei/kidsCenter/KidsCenterMainActivity;->l0:J
 
     .line 2
     .line 3
@@ -261,7 +261,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -433,23 +433,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -459,7 +442,7 @@
 
     const-string v1, "onCreate"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Lcom/huawei/edukids/AbstractEduKidsMainActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -467,7 +450,7 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lcom/huawei/kidsCenter/KidsCenterMainActivity;->k0:J
+    iput-wide v0, p0, Lcom/huawei/kidsCenter/KidsCenterMainActivity;->l0:J
 
     return-void
 .end method
@@ -491,11 +474,11 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     goto :goto_1
 

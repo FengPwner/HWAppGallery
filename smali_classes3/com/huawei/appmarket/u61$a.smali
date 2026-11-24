@@ -56,13 +56,13 @@
 
     if-eqz v1, :cond_7
 
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, p2}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, p2}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string p2, "tab_id"
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -74,7 +74,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/lu7;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/ru7;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -86,11 +86,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/lu7;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/huawei/appmarket/ru7;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {p2}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -123,7 +123,7 @@
 
     const-string p1, "show_tag"
 
-    invoke-virtual {v1, p1, v3}, Lcom/huawei/appmarket/wz6;->c(Ljava/lang/String;Z)Z
+    invoke-virtual {v1, p1, v3}, Lcom/huawei/appmarket/a07;->c(Ljava/lang/String;Z)Z
 
     move-result p1
 
@@ -159,11 +159,11 @@
 
     if-eqz v1, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/g25;->e()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/j25;->e()Z
 
     move-result v1
 
@@ -180,11 +180,11 @@
 
     if-eqz v1, :cond_4
 
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/g25;->b()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/j25;->b()Z
 
     move-result v1
 
@@ -201,11 +201,11 @@
 
     if-eqz p2, :cond_5
 
-    invoke-static {}, Lcom/huawei/appmarket/g25;->a()Lcom/huawei/appmarket/g25;
+    invoke-static {}, Lcom/huawei/appmarket/j25;->a()Lcom/huawei/appmarket/j25;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/g25;->c()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/j25;->c()Z
 
     move-result p2
 
@@ -234,7 +234,7 @@
 
     const-string p1, "num_red_badge"
 
-    invoke-virtual {v1, p1, v3}, Lcom/huawei/appmarket/wz6;->e(Ljava/lang/String;I)I
+    invoke-virtual {v1, p1, v3}, Lcom/huawei/appmarket/a07;->e(Ljava/lang/String;I)I
 
     move-result p1
 

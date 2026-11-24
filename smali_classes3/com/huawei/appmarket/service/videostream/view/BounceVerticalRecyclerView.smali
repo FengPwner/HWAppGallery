@@ -23,20 +23,6 @@
 
 
 # instance fields
-.field protected G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
-
-.field protected H1:Z
-
-.field private I1:F
-
-.field private J1:F
-
-.field private K1:Z
-
-.field private L1:Z
-
-.field private M1:Landroid/view/animation/Interpolator;
-
 .field private N1:Z
 
 .field private O1:Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$d;
@@ -51,6 +37,20 @@
 
 .field private T1:F
 
+.field protected n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+
+.field protected o1:Z
+
+.field private s1:F
+
+.field private t1:F
+
+.field private v1:Z
+
+.field private x1:Z
+
+.field private y1:Landroid/view/animation/Interpolator;
+
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -60,21 +60,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->N1:Z
 
@@ -97,7 +97,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$b;-><init>(Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$a;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->M1:Landroid/view/animation/Interpolator;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->y1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -109,21 +109,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     iput-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->N1:Z
 
@@ -146,7 +146,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$b;-><init>(Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->M1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->y1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -158,21 +158,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 p3, 0x0
 
-    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
-    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
-    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     iput-boolean p3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->N1:Z
 
@@ -195,7 +195,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$b;-><init>(Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->M1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->y1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -227,7 +227,7 @@
     move-result-object v3
 
     .line 11
-    sget-object v4, Lcom/huawei/appmarket/if6;->b:[I
+    sget-object v4, Lcom/huawei/appmarket/kf6;->b:[I
 
     .line 12
     .line 13
@@ -247,7 +247,7 @@
     move-result p1
 
     .line 21
-    iput-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iput-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -309,7 +309,7 @@
     move-result-object p1
 
     .line 48
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -344,7 +344,7 @@
     .line 61
     .line 62
     .line 63
-    iget-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iget-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     .line 64
     .line 65
@@ -361,7 +361,7 @@
     .line 70
     .line 71
     .line 72
-    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 73
     .line 74
@@ -407,7 +407,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private setLastItemTips(Landroid/view/MotionEvent;)V
@@ -458,7 +457,7 @@
 
     if-nez v0, :cond_2
 
-    iput-boolean v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iput-boolean v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     goto :goto_0
 
@@ -473,13 +472,13 @@
 
     if-ne p1, v3, :cond_3
 
-    iget-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iget-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     if-eqz p1, :cond_3
 
     const/4 p1, 0x0
 
-    iput-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->L1:Z
+    iput-boolean p1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->x1:Z
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -491,7 +490,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->j(Ljava/lang/CharSequence;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->j(Ljava/lang/CharSequence;)V
 
     :cond_3
     return-void
@@ -557,7 +556,7 @@
     move-result v0
 
     .line 22
-    iget v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iget v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
     .line 23
     .line 24
@@ -595,7 +594,7 @@
     move-result v0
 
     .line 40
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
     .line 41
     .line 42
@@ -607,11 +606,11 @@
     move-result v0
 
     .line 46
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
     .line 47
     .line 48
-    iput-boolean v2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean v2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
     .line 49
     .line 50
@@ -661,7 +660,7 @@
     move-result v0
 
     .line 72
-    iget v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iget v3, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
     .line 73
     .line 74
@@ -687,7 +686,7 @@
     move-result v3
 
     .line 84
-    iget v4, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iget v4, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
     .line 85
     .line 86
@@ -735,7 +734,7 @@
     .line 106
     .line 107
     :cond_3
-    iput-boolean v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean v1, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
     .line 108
     .line 109
@@ -751,7 +750,7 @@
 
     .line 114
     :cond_4
-    iput-boolean v2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iput-boolean v2, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
     .line 115
     .line 116
@@ -792,7 +791,7 @@
     move-result v0
 
     .line 134
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->s1:F
 
     .line 135
     .line 136
@@ -804,7 +803,7 @@
     move-result v0
 
     .line 140
-    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->t1:F
 
     .line 141
     .line 142
@@ -1025,8 +1024,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final isBottom()Z
@@ -1077,7 +1074,7 @@
     .registers 4
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
     .line 2
     .line 3
@@ -1114,7 +1111,7 @@
     .line 18
     .line 19
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     .line 20
     .line 21
@@ -1122,7 +1119,7 @@
 
     .line 22
     .line 23
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 24
     .line 25
@@ -1166,7 +1163,7 @@
     move-result-object p1
 
     .line 42
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 43
     .line 44
@@ -1243,7 +1240,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onScrollStateChanged(I)V
@@ -1428,14 +1424,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 4
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->v1:Z
 
     .line 2
     .line 3
@@ -1483,7 +1478,7 @@
     .line 23
     .line 24
     .line 25
-    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->o1:Z
 
     .line 26
     .line 27
@@ -1491,7 +1486,7 @@
 
     .line 28
     .line 29
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     .line 30
     .line 31
@@ -1549,7 +1544,7 @@
 
     .line 54
     .line 55
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/bu0;->t(Ljava/lang/IllegalArgumentException;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kb1;->w(Ljava/lang/IllegalArgumentException;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -1613,7 +1608,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setEnableLoad(Z)V
@@ -1665,7 +1659,7 @@
 .method public final smoothScrollBy(II)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->M1:Landroid/view/animation/Interpolator;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/videostream/view/BounceVerticalRecyclerView;->y1:Landroid/view/animation/Interpolator;
 
     invoke-super {p0, p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollBy(IILandroid/view/animation/Interpolator;)V
 

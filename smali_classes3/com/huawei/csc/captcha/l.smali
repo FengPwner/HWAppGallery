@@ -31,11 +31,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/u59;
+    new-instance v1, Lcom/huawei/appmarket/a69;
 
     iget-object v2, p0, Lcom/huawei/csc/captcha/l;->a:Lcom/huawei/csc/captcha/n$a;
 
-    invoke-direct {v1, v2, p1, p2}, Lcom/huawei/appmarket/u59;-><init>(Lcom/huawei/csc/captcha/n$a;ILjava/lang/String;)V
+    invoke-direct {v1, v2, p1, p2}, Lcom/huawei/appmarket/a69;-><init>(Lcom/huawei/csc/captcha/n$a;ILjava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

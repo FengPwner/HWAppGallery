@@ -75,7 +75,7 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic d(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/pf1;)Landroid/graphics/Bitmap;
+.method public static bridge synthetic d(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/rf1;)Landroid/graphics/Bitmap;
     .registers 2
 
     .line 1
@@ -115,7 +115,7 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic h(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/pf1;)Landroid/graphics/drawable/Drawable;
+.method public static bridge synthetic h(Landroid/graphics/ImageDecoder$Source;Lcom/huawei/appmarket/rf1;)Landroid/graphics/drawable/Drawable;
     .registers 2
 
     .line 1

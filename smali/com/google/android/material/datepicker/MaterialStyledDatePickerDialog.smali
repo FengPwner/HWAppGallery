@@ -67,11 +67,11 @@
 
     const p4, 0x7f040116
 
-    invoke-static {p2, p4, p3}, Lcom/huawei/appmarket/d45;->b(Landroid/content/Context;ILjava/lang/String;)I
+    invoke-static {p2, p4, p3}, Lcom/huawei/appmarket/g45;->b(Landroid/content/Context;ILjava/lang/String;)I
 
     move-result p2
 
-    new-instance v1, Lcom/huawei/appmarket/q45;
+    new-instance v1, Lcom/huawei/appmarket/t45;
 
     const/4 p3, 0x0
 
@@ -79,15 +79,15 @@
 
     const p5, 0x7f1301df
 
-    invoke-direct {v1, p1, p3, p4, p5}, Lcom/huawei/appmarket/q45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {v1, p1, p3, p4, p5}, Lcom/huawei/appmarket/t45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     invoke-static {p2}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     move-result-object p2
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
-    invoke-static {p1, p4, p5}, Lcom/huawei/appmarket/l45;->a(Landroid/content/Context;II)Landroid/graphics/Rect;
+    invoke-static {p1, p4, p5}, Lcom/huawei/appmarket/o45;->a(Landroid/content/Context;II)Landroid/graphics/Rect;
 
     move-result-object p1
 
@@ -159,11 +159,11 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/rd4;
+    new-instance v0, Lcom/huawei/appmarket/td4;
 
     iget-object v1, p0, Lcom/google/android/material/datepicker/MaterialStyledDatePickerDialog;->c:Landroid/graphics/Rect;
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/rd4;-><init>(Landroid/app/Dialog;Landroid/graphics/Rect;)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/td4;-><init>(Landroid/app/Dialog;Landroid/graphics/Rect;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 

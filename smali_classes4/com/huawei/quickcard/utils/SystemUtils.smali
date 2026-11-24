@@ -318,9 +318,9 @@
 
     if-eqz v1, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/gc9;
+    new-instance v0, Lcom/huawei/appmarket/nc9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gc9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nc9;-><init>()V
 
     :goto_0
     sput-object v0, Lcom/huawei/quickcard/utils/SystemUtils;->a:Lcom/huawei/quickcard/framework/configuration/device/IManufacturerDeviceInfo;
@@ -336,16 +336,16 @@
 
     if-eqz v1, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/ib9;
+    new-instance v0, Lcom/huawei/appmarket/pb9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ib9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/pb9;-><init>()V
 
     goto :goto_0
 
     :cond_1
-    new-instance v1, Lcom/huawei/appmarket/y59;
+    new-instance v1, Lcom/huawei/appmarket/e69;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/y59;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/e69;-><init>(Ljava/lang/String;)V
 
     sput-object v1, Lcom/huawei/quickcard/utils/SystemUtils;->a:Lcom/huawei/quickcard/framework/configuration/device/IManufacturerDeviceInfo;
 
@@ -613,7 +613,7 @@
 .method public static systemPropertiesGet(Ljava/lang/String;)Ljava/lang/String;
     .registers 9
 
-    const-string v0, "utils"
+    const-string/jumbo v0, "utils"
 
     const/4 v1, 0x0
 

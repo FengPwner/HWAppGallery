@@ -35,11 +35,11 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/q;->a:Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->D3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;)Lcom/huawei/appmarket/d54$a;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->D3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;)Lcom/huawei/appmarket/g54$a;
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/d54$a;->c:Lcom/huawei/appmarket/d54$a;
+    sget-object v0, Lcom/huawei/appmarket/g54$a;->c:Lcom/huawei/appmarket/g54$a;
 
     const/4 v1, 0x1
 

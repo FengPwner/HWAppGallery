@@ -2,6 +2,18 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/zv3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/fg7;
+.end annotation
+
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/zv3;
+.end annotation
+
 
 # direct methods
 .method public constructor <init>()V
@@ -12,84 +24,199 @@
     return-void
 .end method
 
-.method public static a(I)Ljava/lang/String;
-    .registers 3
+
+# virtual methods
+.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/sh1;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    :try_start_0
-    sget-object v0, Lcom/huawei/appmarket/hf8;->a:Lcom/huawei/appgallery/base/simopt/a;
+    new-instance v0, Lcom/huawei/appmarket/gi1;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/if8;->c(I)Ljava/lang/String;
+    invoke-direct {v0}, Lcom/huawei/appmarket/gi1;-><init>()V
 
-    move-result-object p0
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/gi1;->a(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
 
-    return-object p0
+    move-result-object p1
 
-    :catch_0
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "Exception when calling \'VSim.V_SIM_API.getNetworkOperator("
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p0, ")\'."
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v0, "OperatorWrapper"
-
-    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    const-string p0, ""
-
-    return-object p0
+    return-object p1
 .end method
 
-.method public static b(I)Z
+.method public final b(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/sh1;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/di1;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/di1;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/di1;->a(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final c(Landroid/content/Context;Lcom/huawei/appmarket/bi2;)Lcom/huawei/appmarket/qw7;
+    .registers 4
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/fi2;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/fi2;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/fi2;->b(Landroid/content/Context;Lcom/huawei/appmarket/bi2;)Lcom/huawei/appmarket/qw7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final d(Landroid/content/Context;Lcom/huawei/appmarket/pu4;I)Lcom/huawei/appmarket/qw7;
+    .registers 5
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/su4;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/su4;-><init>()V
+
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/su4;->b(Landroid/content/Context;Lcom/huawei/appmarket/pu4;I)Lcom/huawei/appmarket/qw7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final e(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/sh1;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/th1;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/th1;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/th1;->a(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final f(Landroid/content/Context;Lcom/huawei/appmarket/ub6;)Lcom/huawei/appmarket/nv7;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/ub6;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/pb6;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/pb6;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/pb6;->a(Landroid/content/Context;Lcom/huawei/appmarket/ub6;)Lcom/huawei/appmarket/nv7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final g(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/sh1;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/xh1;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/xh1;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/xh1;->a(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final h(Landroid/content/Context;Lcom/huawei/appmarket/pq6;)V
     .registers 3
 
     .line 1
-    :try_start_0
-    sget-object v0, Lcom/huawei/appmarket/hf8;->a:Lcom/huawei/appgallery/base/simopt/a;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/xq6;->a(Landroid/content/Context;Lcom/huawei/appmarket/pq6;)V
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/if8;->b(I)Z
+    return-void
+.end method
 
-    move-result p0
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+.method public final i(Landroid/content/Context;Lcom/huawei/appmarket/zm2;I)Lcom/huawei/appmarket/nv7;
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/huawei/appmarket/zm2;",
+            "I)",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
 
-    return p0
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/bn2;
 
-    :catch_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-direct {v0}, Lcom/huawei/appmarket/bn2;-><init>()V
 
-    const-string v1, "Exception when calling \'VSim.V_SIM_API.hasIccCard("
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/bn2;->a(Landroid/content/Context;Lcom/huawei/appmarket/zm2;I)Lcom/huawei/appmarket/nv7;
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    move-result-object p1
 
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p0, ")\'."
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v0, "OperatorWrapper"
-
-    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    const/4 p0, 0x0
-
-    return p0
+    return-object p1
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jo5;
+.implements Lcom/huawei/appmarket/ko5;
 
 
 # annotations
@@ -62,7 +62,7 @@
 
     const v2, 0x7f120caf
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 

@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentListCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentListCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentListCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentListCard$b;->b:Lcom/huawei/appgallery/appcomment/ui/detailcomment/DetailCommentListCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

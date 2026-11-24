@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ss3;
+.implements Lcom/huawei/appmarket/s74;
 
 
 # direct methods
@@ -17,16 +17,34 @@
 
 
 # virtual methods
-.method public final U0(I)V
-    .registers 2
+.method public final a()Z
+    .registers 3
 
     .line 1
-    return-void
-.end method
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
-.method public final Z0(IIILjava/lang/String;)V
-    .registers 5
+    move-result-object v0
 
-    .line 1
-    return-void
+    const v1, 0x2ff858c
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g43;->b(ILandroid/content/Context;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, "DefaultIdentityKitFilterImpl"
+
+    const-string v1, "hms version invalid"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return v0
 .end method

@@ -4,21 +4,21 @@
 
 
 # instance fields
-.field private final a:F
+.field private final a:D
 
-.field private final b:F
+.field private final b:D
 
 
 # direct methods
-.method public constructor <init>(FF)V
-    .registers 3
+.method public constructor <init>(DD)V
+    .registers 5
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lcom/huawei/appmarket/bs0;->a:F
+    iput-wide p1, p0, Lcom/huawei/appmarket/bs0;->a:D
 
-    iput p2, p0, Lcom/huawei/appmarket/bs0;->b:F
+    iput-wide p3, p0, Lcom/huawei/appmarket/bs0;->b:D
 
     return-void
 .end method
@@ -26,7 +26,7 @@
 
 # virtual methods
 .method public final equals(Ljava/lang/Object;)Z
-    .registers 6
+    .registers 11
 
     .line 1
     instance-of v0, p1, Lcom/huawei/appmarket/bs0;
@@ -37,42 +37,42 @@
 
     .line 4
     .line 5
-    iget v0, p0, Lcom/huawei/appmarket/bs0;->a:F
+    iget-wide v0, p0, Lcom/huawei/appmarket/bs0;->a:D
 
     .line 6
     .line 7
-    iget v1, p0, Lcom/huawei/appmarket/bs0;->b:F
+    iget-wide v2, p0, Lcom/huawei/appmarket/bs0;->b:D
 
     .line 8
     .line 9
-    cmpg-float v2, v0, v1
+    cmpg-double v4, v0, v2
 
     .line 10
     .line 11
-    if-lez v2, :cond_0
+    if-lez v4, :cond_0
 
     .line 12
     .line 13
-    move-object v2, p1
+    move-object v4, p1
 
     .line 14
-    check-cast v2, Lcom/huawei/appmarket/bs0;
+    check-cast v4, Lcom/huawei/appmarket/bs0;
 
     .line 15
     .line 16
-    iget v3, v2, Lcom/huawei/appmarket/bs0;->a:F
+    iget-wide v5, v4, Lcom/huawei/appmarket/bs0;->a:D
 
     .line 17
     .line 18
-    iget v2, v2, Lcom/huawei/appmarket/bs0;->b:F
+    iget-wide v7, v4, Lcom/huawei/appmarket/bs0;->b:D
 
     .line 19
     .line 20
-    cmpg-float v2, v3, v2
+    cmpg-double v4, v5, v7
 
     .line 21
     .line 22
-    if-lez v2, :cond_0
+    if-lez v4, :cond_0
 
     .line 23
     .line 24
@@ -84,23 +84,23 @@
 
     .line 26
     .line 27
-    iget v2, p1, Lcom/huawei/appmarket/bs0;->a:F
+    iget-wide v4, p1, Lcom/huawei/appmarket/bs0;->a:D
 
     .line 28
     .line 29
-    cmpg-float v0, v0, v2
+    cmpg-double v6, v0, v4
 
     .line 30
     .line 31
-    if-nez v0, :cond_1
+    if-nez v6, :cond_1
 
     .line 32
     .line 33
-    iget p1, p1, Lcom/huawei/appmarket/bs0;->b:F
+    iget-wide v0, p1, Lcom/huawei/appmarket/bs0;->b:D
 
     .line 34
     .line 35
-    cmpg-float p1, v1, p1
+    cmpg-double p1, v2, v0
 
     .line 36
     .line 37
@@ -260,42 +260,25 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final hashCode()I
-    .registers 4
+    .registers 8
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/bs0;->b:F
+    iget-wide v0, p0, Lcom/huawei/appmarket/bs0;->b:D
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/huawei/appmarket/bs0;->a:F
+    iget-wide v2, p0, Lcom/huawei/appmarket/bs0;->a:D
 
     .line 4
     .line 5
-    cmpg-float v2, v1, v0
+    cmpg-double v4, v2, v0
 
     .line 6
     .line 7
-    if-lez v2, :cond_0
+    if-lez v4, :cond_0
 
     .line 8
     .line 9
@@ -306,42 +289,56 @@
 
     .line 11
     :cond_0
-    invoke-static {v1}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {v2, v3}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     .line 12
     .line 13
     .line 14
-    move-result v1
+    move-result-wide v2
 
     .line 15
-    mul-int/lit8 v1, v1, 0x1f
+    const/16 v4, 0x20
 
     .line 16
     .line 17
-    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+    ushr-long v5, v2, v4
 
     .line 18
     .line 19
+    xor-long/2addr v2, v5
+
     .line 20
-    move-result v0
+    long-to-int v3, v2
 
     .line 21
-    add-int/2addr v0, v1
+    mul-int/lit8 v3, v3, 0x1f
 
     .line 22
-    :goto_0
-    return v0
     .line 23
+    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToLongBits(D)J
+
     .line 24
     .line 25
     .line 26
+    move-result-wide v0
+
     .line 27
+    ushr-long v4, v0, v4
+
     .line 28
     .line 29
+    xor-long/2addr v0, v4
+
     .line 30
+    long-to-int v1, v0
+
     .line 31
+    add-int v0, v3, v1
+
     .line 32
     .line 33
+    :goto_0
+    return v0
     .line 34
     .line 35
     .line 36
@@ -617,27 +614,47 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final toString()Ljava/lang/String;
-    .registers 3
+    .registers 4
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget v1, p0, Lcom/huawei/appmarket/bs0;->a:F
+    iget-wide v1, p0, Lcom/huawei/appmarket/bs0;->a:D
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     const-string v1, ".."
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lcom/huawei/appmarket/bs0;->b:F
+    iget-wide v1, p0, Lcom/huawei/appmarket/bs0;->b:D
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

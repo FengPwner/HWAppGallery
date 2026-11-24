@@ -9,13 +9,13 @@
 
 # instance fields
 .field private certs4SignVerify_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private extend:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
     .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/rv6;
+    const-class v0, Lcom/huawei/appmarket/vv6;
 
     .line 2
     .line 3
@@ -41,7 +41,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -204,7 +204,7 @@
 
     invoke-virtual {v0, p0}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->setServiceType_(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result p0
 
@@ -262,7 +262,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/e43;->k()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/h43;->k()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -287,7 +287,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ox6;->x(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/sx6;->x(ILjava/lang/String;)V
 
     .line 27
     .line 28

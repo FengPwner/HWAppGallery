@@ -269,7 +269,7 @@
 
     move-result-object p2
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_2
@@ -278,21 +278,21 @@
     .line 5
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    instance-of p2, p1, Lcom/huawei/appmarket/du4;
+    instance-of p2, p1, Lcom/huawei/appmarket/gu4;
 
     if-eqz p2, :cond_2
 
-    check-cast p1, Lcom/huawei/appmarket/du4;
+    check-cast p1, Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p2
 
     new-instance p3, Lcom/huawei/appmarket/service/store/awk/widget/carouse/a;
 
-    invoke-direct {p3, p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/a;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;Lcom/huawei/appmarket/du4;)V
+    invoke-direct {p3, p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/a;-><init>(Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;Lcom/huawei/appmarket/gu4;)V
 
-    invoke-virtual {p2, p3}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p2, p3}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_2
     return-void
@@ -506,7 +506,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static synthetic c(Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;)Landroidx/recyclerview/widget/RecyclerView$j;

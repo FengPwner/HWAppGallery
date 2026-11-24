@@ -40,7 +40,7 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->e()I
 
     .line 6
     .line 7
@@ -48,7 +48,7 @@
     move-result v0
 
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->d()I
 
     .line 10
     .line 11
@@ -56,7 +56,7 @@
     move-result v1
 
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->f()I
 
     .line 14
     .line 15
@@ -64,7 +64,7 @@
     move-result v2
 
     .line 17
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->c()I
 
     .line 18
     .line 19
@@ -72,7 +72,7 @@
     move-result v3
 
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     .line 22
     .line 23
@@ -300,7 +300,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
@@ -312,7 +311,7 @@
     return v0
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
@@ -360,7 +359,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 22
     .line 23
@@ -461,5 +460,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

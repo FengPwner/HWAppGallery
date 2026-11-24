@@ -9,7 +9,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object p1, Lcom/huawei/appmarket/nc2;->b:Lcom/huawei/appmarket/nc2;
+    sget-object p1, Lcom/huawei/appmarket/qc2;->b:Lcom/huawei/appmarket/qc2;
 
     return-void
 .end method

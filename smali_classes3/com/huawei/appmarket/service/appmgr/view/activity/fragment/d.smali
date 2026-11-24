@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # instance fields
@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/huawei/appmarket/hz3;
+    instance-of v0, v0, Lcom/huawei/appmarket/jz3;
 
     if-eqz v0, :cond_0
 
@@ -41,16 +41,16 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/hz3;
+    check-cast p1, Lcom/huawei/appmarket/jz3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hz3;->g0()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/jz3;->g0()V
 
     :cond_0
     const-string p1, "AppInstallFragmentBase"
 
     const-string v0, "Refresh All App"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

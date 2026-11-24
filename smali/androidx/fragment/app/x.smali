@@ -70,7 +70,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ei8;->x0(Landroid/view/View;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ki8;->x0(Landroid/view/View;Ljava/lang/String;)V
 
     iget-object v1, p0, Landroidx/fragment/app/x;->e:Ljava/util/ArrayList;
 
@@ -88,7 +88,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/ei8;->x0(Landroid/view/View;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ki8;->x0(Landroid/view/View;Ljava/lang/String;)V
 
     add-int/lit8 v0, v0, 0x1
 

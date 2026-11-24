@@ -29,10 +29,10 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/gr4;
+.field private final a:Lcom/huawei/appmarket/jr4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TT;>;"
         }
     .end annotation
@@ -49,7 +49,7 @@
             "(",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TT;>;>;)V"
         }
     .end annotation
@@ -67,9 +67,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/gr4;
+    check-cast p1, Lcom/huawei/appmarket/jr4;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/gr4;
+    iput-object p1, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/jr4;
 
     return-void
 .end method
@@ -98,18 +98,18 @@
     return p1
 .end method
 
-.method public final b()Lcom/huawei/appmarket/gr4;
+.method public final b()Lcom/huawei/appmarket/jr4;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TT;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/gr4;
+    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/jr4;
 
     return-object v0
 .end method
@@ -118,9 +118,9 @@
     .registers 2
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/gr4;
+    iget-object p1, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/jr4;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gr4;->h()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jr4;->h()Z
 
     move-result p1
 
@@ -133,9 +133,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/gr4;
+    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/jr4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->e()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->e()F
 
     move-result v0
 
@@ -146,9 +146,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/gr4;
+    iget-object v0, p0, Lcom/huawei/appmarket/d40$f;->a:Lcom/huawei/appmarket/jr4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->b()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->b()F
 
     move-result v0
 

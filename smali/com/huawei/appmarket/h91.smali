@@ -1,212 +1,41 @@
-.class public final Lcom/huawei/appmarket/h91;
-.super Ljava/io/InputStream;
+.class public final synthetic Lcom/huawei/appmarket/h91;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# instance fields
-.field private final b:Landroidx/media3/datasource/a;
-
-.field private final c:Lcom/huawei/appmarket/l91;
-
-.field private final d:[B
-
-.field private e:Z
-
-.field private f:Z
-
-
-# direct methods
-.method public constructor <init>(Landroidx/media3/datasource/a;Lcom/huawei/appmarket/l91;)V
-    .registers 4
-
-    .line 1
-    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
-
-    const/4 v0, 0x0
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/h91;->e:Z
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/h91;->f:Z
-
-    iput-object p1, p0, Lcom/huawei/appmarket/h91;->b:Landroidx/media3/datasource/a;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/h91;->c:Lcom/huawei/appmarket/l91;
-
-    const/4 p1, 0x1
-
-    new-array p1, p1, [B
-
-    iput-object p1, p0, Lcom/huawei/appmarket/h91;->d:[B
-
-    return-void
-.end method
+# interfaces
+.implements Lcom/huawei/appmarket/vr7;
 
 
 # virtual methods
-.method public final close()V
+.method public final get()Ljava/lang/Object;
     .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/h91;->f:Z
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/h91;->b:Landroidx/media3/datasource/a;
-
-    invoke-interface {v0}, Landroidx/media3/datasource/a;->close()V
-
-    const/4 v0, 0x1
-
-    iput-boolean v0, p0, Lcom/huawei/appmarket/h91;->f:Z
-
-    :cond_0
-    return-void
-.end method
-
-.method public final read()I
-    .registers 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    iget-object v0, p0, Lcom/huawei/appmarket/h91;->d:[B
-
-    .line 1
-    array-length v1, v0
-
-    const/4 v2, 0x0
-
-    invoke-virtual {p0, v0, v2, v1}, Lcom/huawei/appmarket/h91;->read([BII)I
-
-    move-result v1
-
-    const/4 v3, -0x1
-
-    if-ne v1, v3, :cond_0
-
-    goto :goto_0
-
-    .line 2
-    :cond_0
-    aget-byte v0, v0, v2
-
-    and-int/lit16 v3, v0, 0xff
-
-    :goto_0
-    return v3
-.end method
-
-.method public final read([B)I
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 3
-    array-length v0, p1
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, p1, v1, v0}, Lcom/huawei/appmarket/h91;->read([BII)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final read([BII)I
-    .registers 7
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    iget-boolean v0, p0, Lcom/huawei/appmarket/h91;->f:Z
-
-    const/4 v1, 0x1
-
-    xor-int/2addr v0, v1
-
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->d(Z)V
-
-    iget-boolean v0, p0, Lcom/huawei/appmarket/h91;->e:Z
-
-    iget-object v2, p0, Lcom/huawei/appmarket/h91;->b:Landroidx/media3/datasource/a;
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/h91;->c:Lcom/huawei/appmarket/l91;
-
-    .line 4
-    invoke-interface {v2, v0}, Landroidx/media3/datasource/a;->open(Lcom/huawei/appmarket/l91;)J
-
-    iput-boolean v1, p0, Lcom/huawei/appmarket/h91;->e:Z
-
-    .line 5
-    :cond_0
-    invoke-interface {v2, p1, p2, p3}, Lcom/huawei/appmarket/y81;->read([BII)I
-
-    move-result p1
-
-    const/4 p2, -0x1
-
-    if-ne p1, p2, :cond_1
-
-    return p2
-
-    :cond_1
-    return p1
-.end method
-
-.method public final s()V
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/h91;->e:Z
+    sget-object v0, Landroidx/media3/datasource/DataSourceBitmapLoader;->b:Lcom/huawei/appmarket/vr7;
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
+    invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appmarket/h91;->b:Landroidx/media3/datasource/a;
-
     .line 6
+    move-result-object v0
+
     .line 7
-    iget-object v1, p0, Lcom/huawei/appmarket/h91;->c:Lcom/huawei/appmarket/l91;
+    invoke-static {v0}, Lcom/huawei/appmarket/hb5;->b(Ljava/util/concurrent/ExecutorService;)Lcom/huawei/appmarket/ew4;
 
     .line 8
     .line 9
-    invoke-interface {v0, v1}, Landroidx/media3/datasource/a;->open(Lcom/huawei/appmarket/l91;)J
-
     .line 10
+    move-result-object v0
+
     .line 11
+    return-object v0
     .line 12
-    const/4 v0, 0x1
-
     .line 13
-    iput-boolean v0, p0, Lcom/huawei/appmarket/h91;->e:Z
-
     .line 14
     .line 15
-    :cond_0
-    return-void
     .line 16
     .line 17
     .line 18
@@ -327,4 +156,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

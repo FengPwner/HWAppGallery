@@ -160,7 +160,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -214,7 +214,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bu0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/kd0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 46
     .line 47
@@ -300,7 +300,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bu0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/kd0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 86
     .line 87

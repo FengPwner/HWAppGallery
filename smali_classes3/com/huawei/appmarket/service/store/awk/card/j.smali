@@ -1,24 +1,24 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/j;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/store/awk/card/DynamicOrderAppCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/DynamicOrderAppCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/DynamicOrderAppCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->c:Lcom/huawei/appmarket/service/store/awk/card/DynamicOrderAppCard;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -32,9 +32,9 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->c:Lcom/huawei/appmarket/service/store/awk/card/DynamicOrderAppCard;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/j;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method

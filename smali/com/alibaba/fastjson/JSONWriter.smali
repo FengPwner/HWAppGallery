@@ -158,7 +158,7 @@
 
     .line 11
     .line 12
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -320,6 +320,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private endStructure()V

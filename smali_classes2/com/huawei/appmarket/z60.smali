@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/z60;
-.super Lcom/huawei/appmarket/ld7;
+.super Lcom/huawei/appmarket/qd7;
 .source "SourceFile"
 
 
@@ -29,7 +29,7 @@
     .line 1
     const-string v0, "BatchGamesCheck"
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method

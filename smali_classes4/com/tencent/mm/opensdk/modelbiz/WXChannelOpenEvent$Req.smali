@@ -60,7 +60,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "username is null"
+    const-string/jumbo v0, "username is null"
 
     :goto_0
     invoke-static {v2, v0}, Lcom/tencent/mm/opensdk/utils/Log;->e(Ljava/lang/String;Ljava/lang/String;)V
@@ -78,7 +78,7 @@
 
     if-le v0, v3, :cond_1
 
-    const-string v0, "username exceeds the limit"
+    const-string/jumbo v0, "username exceeds the limit"
 
     goto :goto_0
 

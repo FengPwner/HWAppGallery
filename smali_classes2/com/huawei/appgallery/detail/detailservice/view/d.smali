@@ -25,17 +25,17 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/view/d;->a:Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;->Y4(Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;)Lcom/huawei/appmarket/j38;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;->Y4(Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;)Lcom/huawei/appmarket/p38;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/j38;->k()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/p38;->k()Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
-    sget-object p2, Lcom/huawei/appmarket/j38$a;->d:Ljava/lang/Integer;
+    sget-object p2, Lcom/huawei/appmarket/p38$a;->d:Ljava/lang/Integer;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -65,11 +65,11 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/a;->c:Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/d92;
+    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/h92;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/d92;->q()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/h92;->q()Ljava/util/List;
 
     move-result-object v1
 
@@ -81,11 +81,11 @@
 
     if-ge p1, v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/d92;
+    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/h92;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/d92;->q()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/h92;->q()Ljava/util/List;
 
     move-result-object v1
 
@@ -119,11 +119,11 @@
 
     invoke-static {v0, p1}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->K3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;I)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/d92;
+    invoke-static {v0}, Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;->B3(Lcom/huawei/appgallery/downloadfa/impl/ui/abilityform/AbilityFormFragment;)Lcom/huawei/appmarket/h92;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/d92;->w(I)Z
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/h92;->w(I)Z
 
     move-result p1
 

@@ -24,7 +24,7 @@
 .method static constructor <clinit>()V
     .registers 6
 
-    invoke-static {}, Lcom/huawei/appmarket/s66;->values()[Lcom/huawei/appmarket/s66;
+    invoke-static {}, Lcom/huawei/appmarket/u66;->values()[Lcom/huawei/appmarket/u66;
 
     move-result-object v0
 
@@ -37,7 +37,7 @@
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lcom/huawei/appmarket/s66;->e:Lcom/huawei/appmarket/s66;
+    sget-object v2, Lcom/huawei/appmarket/u66;->e:Lcom/huawei/appmarket/u66;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
@@ -53,7 +53,7 @@
     :try_start_1
     sget-object v2, Lcom/bumptech/glide/h$a;->b:[I
 
-    sget-object v3, Lcom/huawei/appmarket/s66;->d:Lcom/huawei/appmarket/s66;
+    sget-object v3, Lcom/huawei/appmarket/u66;->d:Lcom/huawei/appmarket/u66;
 
     invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
@@ -69,7 +69,7 @@
     :try_start_2
     sget-object v3, Lcom/bumptech/glide/h$a;->b:[I
 
-    sget-object v4, Lcom/huawei/appmarket/s66;->c:Lcom/huawei/appmarket/s66;
+    sget-object v4, Lcom/huawei/appmarket/u66;->c:Lcom/huawei/appmarket/u66;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -85,7 +85,7 @@
     :try_start_3
     sget-object v4, Lcom/bumptech/glide/h$a;->b:[I
 
-    sget-object v5, Lcom/huawei/appmarket/s66;->b:Lcom/huawei/appmarket/s66;
+    sget-object v5, Lcom/huawei/appmarket/u66;->b:Lcom/huawei/appmarket/u66;
 
     invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
 

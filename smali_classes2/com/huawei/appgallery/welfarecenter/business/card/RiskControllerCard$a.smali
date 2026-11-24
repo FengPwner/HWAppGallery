@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -46,11 +46,11 @@
 
     if-eqz p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string p2, "PermissionDialogClick, no activity"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -61,11 +61,11 @@
 
     if-ne p2, p3, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     const-string p2, "unauthorize by user"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;->n1(Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;)V
 
@@ -74,21 +74,21 @@
     :cond_1
     const-string p2, "Permission"
 
-    const-class p3, Lcom/huawei/appmarket/sw3;
+    const-class p3, Lcom/huawei/appmarket/uw3;
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/sw3;
+    check-cast p2, Lcom/huawei/appmarket/uw3;
 
     new-instance p3, Ljava/util/HashMap;
 
     invoke-direct {p3}, Ljava/util/HashMap;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/zy5;
+    new-instance v0, Lcom/huawei/appmarket/bz5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zy5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bz5;-><init>()V
 
     const-string v2, "android.permission.READ_PHONE_STATE"
 
@@ -102,15 +102,15 @@
 
     const/16 v0, 0x86
 
-    invoke-interface {p2, p1, p3, v0}, Lcom/huawei/appmarket/sw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p2, p1, p3, v0}, Lcom/huawei/appmarket/uw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
-    invoke-static {v1}, Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;->o1(Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;)Lcom/huawei/appmarket/wz5;
+    invoke-static {v1}, Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;->o1(Lcom/huawei/appgallery/welfarecenter/business/card/RiskControllerCard;)Lcom/huawei/appmarket/yz5;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     :cond_2
     return-void

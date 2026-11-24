@@ -1,5 +1,5 @@
 .class final Landroidx/appcompat/app/r$b;
-.super Lcom/huawei/appmarket/ij8;
+.super Lcom/huawei/appmarket/oj8;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Landroidx/appcompat/app/r$b;->a:Landroidx/appcompat/app/r;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ij8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/oj8;-><init>()V
 
     return-void
 .end method
@@ -39,7 +39,7 @@
 
     iget-object v0, p0, Landroidx/appcompat/app/r$b;->a:Landroidx/appcompat/app/r;
 
-    iput-object p1, v0, Landroidx/appcompat/app/r;->s:Lcom/huawei/appmarket/gj8;
+    iput-object p1, v0, Landroidx/appcompat/app/r;->s:Lcom/huawei/appmarket/mj8;
 
     iget-object p1, v0, Landroidx/appcompat/app/r;->d:Landroidx/appcompat/widget/ActionBarContainer;
 

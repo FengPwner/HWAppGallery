@@ -100,7 +100,7 @@
     iget-object p1, p0, Lcom/huawei/appmarket/service/installresult/dao/AppPrivilegedRight;->packageName_:Ljava/lang/String;
 
     .line 2
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/eq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p1
 
@@ -362,7 +362,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final c()J
@@ -403,7 +402,7 @@
 .method public final toString()Ljava/lang/String;
     .registers 2
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

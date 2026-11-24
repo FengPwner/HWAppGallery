@@ -16,15 +16,15 @@
 
 
 # virtual methods
-.method public M(Landroid/content/Context;)Lcom/huawei/appmarket/us8;
+.method public M(Landroid/content/Context;)Lcom/huawei/appmarket/at8;
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/us8;
+    new-instance v0, Lcom/huawei/appmarket/at8;
 
     const-string v1, "wordlistcard"
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/us8;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/at8;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -53,11 +53,11 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcard/WordListNode;->M(Landroid/content/Context;)Lcom/huawei/appmarket/us8;
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/detail/detailcard/card/wordlistcard/WordListNode;->M(Landroid/content/Context;)Lcom/huawei/appmarket/at8;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/us8;->y1(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/at8;->y1(Landroid/view/View;)V
 
     invoke-virtual {p0, v0}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 

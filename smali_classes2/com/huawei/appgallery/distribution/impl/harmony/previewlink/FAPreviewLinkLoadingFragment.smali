@@ -6,7 +6,7 @@
 # instance fields
 .field private q0:Lcom/huawei/appmarket/i9;
 
-.field private r0:Lcom/huawei/appmarket/jq5;
+.field private r0:Lcom/huawei/appmarket/kq5;
 
 .field private s0:Z
 
@@ -38,9 +38,9 @@
 
     if-nez v0, :cond_0
 
-    const-class v0, Lcom/huawei/appmarket/o92;
+    const-class v0, Lcom/huawei/appmarket/s92;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
@@ -58,13 +58,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FAPreviewLinkLoadingFragment"
 
     const-string v2, "agdsLinkAddFaToDesk"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->q0:Lcom/huawei/appmarket/i9;
 
@@ -87,7 +87,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->q0:Lcom/huawei/appmarket/i9;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xt1;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bu1;->a()V
 
     return-void
 .end method
@@ -96,19 +96,19 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FAPreviewLinkLoadingFragment"
 
     const-string v2, "agdsLinkOpenFa"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/kq5;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/jq5;
+    new-instance v0, Lcom/huawei/appmarket/kq5;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -118,14 +118,14 @@
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/jq5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/kq5;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/jq5;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/kq5;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/kq5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xt1;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bu1;->a()V
 
     return-void
 .end method
@@ -210,14 +210,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xt1;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bu1;->b()V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/jq5;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/previewlink/FAPreviewLinkLoadingFragment;->r0:Lcom/huawei/appmarket/kq5;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xt1;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bu1;->b()V
 
     :cond_1
     return-void

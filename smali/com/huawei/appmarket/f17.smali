@@ -1,59 +1,195 @@
-.class public final Lcom/huawei/appmarket/f17;
-.super Lcom/huawei/appmarket/a60;
+.class public final synthetic Lcom/huawei/appmarket/f17;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
 
 
 # instance fields
-.field private u:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+.field public final synthetic b:I
+
+.field public final synthetic c:Lcom/huawei/appmarket/h17;
+
+.field public final synthetic d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Landroid/view/View;)V
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/h17;I)V
     .registers 4
 
     .line 1
-    const-string v0, "context"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    iput p3, p0, Lcom/huawei/appmarket/f17;->b:I
 
-    const-string p1, "itemView"
+    iput-object p1, p0, Lcom/huawei/appmarket/f17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    iput-object p2, p0, Lcom/huawei/appmarket/f17;->c:Lcom/huawei/appmarket/h17;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/a60;-><init>(Landroid/view/View;)V
+    return-void
+.end method
 
-    const p1, 0x7f0a0b3f
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/h17;Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;I)V
+    .registers 4
 
-    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p1
+    iput p3, p0, Lcom/huawei/appmarket/f17;->b:I
 
-    check-cast p1, Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iput-object p1, p0, Lcom/huawei/appmarket/f17;->c:Lcom/huawei/appmarket/h17;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/f17;->u:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iput-object p2, p0, Lcom/huawei/appmarket/f17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final y(Lcom/huawei/appmarket/e17;)V
-    .registers 3
+.method public final onClick(Landroid/view/View;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/f17;->u:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
+    iget p1, p0, Lcom/huawei/appmarket/f17;->b:I
 
-    if-nez v0, :cond_0
+    .line 2
+    .line 3
+    const-string v0, "this$0"
 
-    goto :goto_0
+    .line 4
+    .line 5
+    iget-object v1, p0, Lcom/huawei/appmarket/f17;->d:Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;
 
-    :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/e17;->b()Ljava/lang/String;
+    .line 6
+    .line 7
+    iget-object v2, p0, Lcom/huawei/appmarket/f17;->c:Lcom/huawei/appmarket/h17;
 
-    move-result-object p1
+    .line 8
+    .line 9
+    packed-switch p1, :pswitch_data_0
 
-    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    :goto_0
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v2}, Lcom/huawei/appmarket/h17;->F()V
+
+    .line 16
+    .line 17
+    .line 18
     return-void
+
+    .line 19
+    :pswitch_0
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/h17;->C(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/h17;)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-void
+
+    .line 23
+    :pswitch_1
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/h17;->E(Lcom/huawei/appgallery/agguard/api/bean/AgGuardAppHealthInfo;Lcom/huawei/appmarket/h17;)V
+
+    .line 24
+    .line 25
+    .line 26
+    return-void
+
+    .line 27
+    :pswitch_2
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-virtual {v2}, Lcom/huawei/appmarket/h17;->F()V
+
+    .line 31
+    .line 32
+    .line 33
+    return-void
+
+    .line 34
+    :pswitch_3
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v2}, Lcom/huawei/appmarket/h17;->F()V
+
+    .line 38
+    .line 39
+    .line 40
+    return-void
+
+    .line 41
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method

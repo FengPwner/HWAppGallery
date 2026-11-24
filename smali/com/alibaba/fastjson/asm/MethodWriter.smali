@@ -158,7 +158,7 @@
 
     iget v3, p0, Lcom/alibaba/fastjson/asm/MethodWriter;->exceptionCount:I
 
-    invoke-static {v3, v2, v1, v0}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v3, v2, v1, v0}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v0
 

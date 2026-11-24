@@ -1,13 +1,12 @@
 .class final Lcom/huawei/appmarket/ld5;
-.super Lcom/huawei/appmarket/kd5$b;
+.super Lcom/huawei/appmarket/nd5$c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/kd5$b<",
-        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/nd5$c<",
         "Ljava/lang/Object;",
         ">;"
     }
@@ -17,27 +16,23 @@
 # instance fields
 .field final synthetic a:I
 
-.field final synthetic b:Lcom/huawei/appmarket/kd5$c;
-
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/kd5$c;I)V
-    .registers 3
+.method constructor <init>(I)V
+    .registers 2
 
     .line 1
-    iput p2, p0, Lcom/huawei/appmarket/ld5;->a:I
+    iput p1, p0, Lcom/huawei/appmarket/ld5;->a:I
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ld5;->b:Lcom/huawei/appmarket/kd5$c;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/kd5$b;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/nd5$c;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final b()Lcom/huawei/appmarket/qv4;
-    .registers 4
+.method final b()Ljava/util/Map;
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -45,47 +40,39 @@
             "V:",
             "Ljava/lang/Object;",
             ">()",
-            "Lcom/huawei/appmarket/qv4<",
-            "TK;TV;>;"
+            "Ljava/util/Map<",
+            "TK;",
+            "Ljava/util/Collection<",
+            "TV;>;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ld5;->b:Lcom/huawei/appmarket/kd5$c;
+    new-instance v0, Lcom/huawei/appmarket/px0;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kd5$c;->b()Ljava/util/Map;
+    iget v1, p0, Lcom/huawei/appmarket/ld5;->a:I
 
     .line 4
     .line 5
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/px0;-><init>(I)V
+
     .line 6
-    move-result-object v0
-
     .line 7
-    new-instance v1, Lcom/huawei/appmarket/kd5$a;
-
     .line 8
+    return-object v0
     .line 9
-    iget v2, p0, Lcom/huawei/appmarket/ld5;->a:I
-
     .line 10
     .line 11
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/kd5$a;-><init>(I)V
-
     .line 12
     .line 13
     .line 14
-    new-instance v2, Lcom/huawei/appmarket/md5;
-
     .line 15
     .line 16
-    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/md5;-><init>(Ljava/util/Map;Lcom/huawei/appmarket/pr7;)V
-
     .line 17
     .line 18
     .line 19
-    return-object v2
     .line 20
     .line 21
     .line 22
@@ -202,4 +189,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

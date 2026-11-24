@@ -205,7 +205,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -427,7 +426,7 @@
 
     .line 84
     .line 85
-    invoke-static {p1, v3, p2, v4, v0}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v3, p2, v4, v0}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 86
     .line 87
@@ -1112,7 +1111,7 @@
 
     .line 51
     .line 52
-    invoke-static {v4, v5, v6, v3, v7}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v4, v5, v6, v3, v7}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 53
     .line 54

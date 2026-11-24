@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/og8;
+.field private final b:Lcom/huawei/appmarket/tg8;
 
 
 # direct methods
@@ -53,22 +53,22 @@
 
     invoke-direct {v0, p1}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;)V
 
-    invoke-virtual {v0}, Landroidx/versionedparcelable/a;->s()Lcom/huawei/appmarket/og8;
+    invoke-virtual {v0}, Landroidx/versionedparcelable/a;->s()Lcom/huawei/appmarket/tg8;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/og8;
+    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/tg8;
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/og8;)V
+.method public constructor <init>(Lcom/huawei/appmarket/tg8;)V
     .registers 2
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/og8;
+    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/tg8;
 
     return-void
 .end method
@@ -90,9 +90,9 @@
 
     invoke-direct {p2, p1}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;)V
 
-    iget-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/og8;
+    iget-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->b:Lcom/huawei/appmarket/tg8;
 
-    invoke-virtual {p2, p1}, Landroidx/versionedparcelable/a;->I(Lcom/huawei/appmarket/og8;)V
+    invoke-virtual {p2, p1}, Landroidx/versionedparcelable/a;->I(Lcom/huawei/appmarket/tg8;)V
 
     return-void
 .end method

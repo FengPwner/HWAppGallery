@@ -3,7 +3,24 @@
 .source "SourceFile"
 
 
+# static fields
+.field private static a:Lcom/huawei/appmarket/aj;
+
+
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/m02;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/m02;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/dj;->a:Lcom/huawei/appmarket/aj;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -12,99 +29,57 @@
     return-void
 .end method
 
-.method public static a()Ljava/lang/String;
+.method public static a()Lcom/huawei/appmarket/aj;
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ej;->a()Lcom/huawei/appmarket/bj;
+    sget-object v0, Lcom/huawei/appmarket/dj;->a:Lcom/huawei/appmarket/aj;
 
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bj;->n()Ljava/lang/String;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    const-string v0, ""
-
-    :cond_0
     return-object v0
 .end method
 
-.method public static b()I
-    .registers 1
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ej;->a()Lcom/huawei/appmarket/bj;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bj;->o()I
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static c()Z
+.method public static b(Lcom/huawei/appmarket/aj;)V
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
+    if-eqz p0, :cond_0
 
-    move-result-object v0
+    sput-object p0, Lcom/huawei/appmarket/dj;->a:Lcom/huawei/appmarket/aj;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->isChildAccount()Z
+    new-instance v0, Lcom/huawei/appmarket/yi;
 
-    move-result v0
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/yi;-><init>(Lcom/huawei/appmarket/aj;)V
 
-    const/4 v1, 0x0
+    const-string p0, "AgreementDataCompat"
 
-    if-nez v0, :cond_0
+    const-class v1, Lcom/huawei/appmarket/ah3;
 
-    return v1
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/huawei/appmarket/ah3;
+
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-interface {p0, v1, v0}, Lcom/huawei/appmarket/ah3;->h(Landroid/content/Context;Lcom/huawei/appmarket/yi;)V
+
+    sget-object p0, Lcom/huawei/appmarket/uj4;->a:Lcom/huawei/appmarket/uj4$a;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {}, Lcom/huawei/appmarket/uj4$a;->a()Lcom/huawei/appmarket/nt3;
+
+    move-result-object p0
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/zg3;->h(Lcom/huawei/appmarket/yi;)V
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getHomeCountry()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v2, "CN"
-
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getHomeCountry()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    :cond_1
-    const/4 v1, 0x1
-
-    :cond_2
-    return v1
+    return-void
 .end method

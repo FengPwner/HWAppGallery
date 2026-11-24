@@ -2,7 +2,12 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/qcard/IQCardOpenReportApi;
+.implements Lcom/huawei/appmarket/kh3;
 
-# virtual methods
-.method public abstract a(Ljava/lang/String;Lcom/huawei/appmarket/id6;)V
-.end method
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/ye1;
+.end annotation

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lr3;
+.implements Lcom/huawei/appmarket/nr3;
 
 
 # annotations
@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/lr3;",
+            "Lcom/huawei/appmarket/nr3;",
             ">;"
         }
     .end annotation
@@ -36,7 +36,7 @@
         value = {
             "(",
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/lr3;",
+            "Lcom/huawei/appmarket/nr3;",
             ">;)V"
         }
     .end annotation
@@ -71,7 +71,7 @@
 
     const-string v2, "CreateShortcutUtil"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/t51$c;->a:Ljava/lang/ref/WeakReference;
 
@@ -79,11 +79,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/lr3;
+    check-cast v0, Lcom/huawei/appmarket/nr3;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/lr3;->a(Z)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/nr3;->a(Z)V
 
     :cond_0
     return-void

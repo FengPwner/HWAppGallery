@@ -42,7 +42,7 @@
 
     check-cast p0, Ljavax/net/ssl/HttpsURLConnection;
 
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     move-result-object v0
 
@@ -52,9 +52,9 @@
 
     invoke-virtual {p0, p1}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
-    new-instance p1, Lcom/huawei/appmarket/so7;
+    new-instance p1, Lcom/huawei/appmarket/xo7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     invoke-virtual {p0, p1}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
 
@@ -80,7 +80,7 @@
     return-void
 
     :cond_0
-    const-string v1, "x-traceId"
+    const-string/jumbo v1, "x-traceId"
 
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

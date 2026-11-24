@@ -574,7 +574,7 @@
     const-string v4, "Enter onConnectionResult, connect to server result: "
 
     .line 6
-    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v4, v2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 7
     sget-object v1, Lcom/huawei/hms/support/api/client/Status;->SUCCESS:Lcom/huawei/hms/support/api/client/Status;
@@ -800,7 +800,7 @@
     const-string v2, "HuaweiApiClientImpl"
 
     .line 2
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_0
 
@@ -1596,7 +1596,7 @@
 
     const/4 v0, 0x0
 
-    const-string v1, "6.13.0.303"
+    const-string v1, "6.13.0.304"
 
     invoke-static {p0, v0, v1}, Lcom/huawei/hms/support/api/core/ConnectService;->getNotice(Lcom/huawei/hms/support/api/client/ApiClient;ILjava/lang/String;)Lcom/huawei/hms/support/api/client/PendingResult;
 
@@ -1702,7 +1702,7 @@
 
     move-result-object v3
 
-    const v4, 0x3a75e4f
+    const v4, 0x3a75e50
 
     invoke-direct {p1, p3, v2, v4, v3}, Lcom/huawei/hms/core/aidl/RequestHeader;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
@@ -1951,7 +1951,7 @@
 .method public connect(Landroid/app/Activity;)V
     .registers 7
 
-    const-string v0, "====== HMSSDK version: 61300303 ======"
+    const-string v0, "====== HMSSDK version: 61300304 ======"
 
     const-string v1, "HuaweiApiClientImpl"
 
@@ -1966,7 +1966,7 @@
     const-string v2, "Enter connect, Connection Status: "
 
     .line 2
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v2, 0x3
 
@@ -2054,7 +2054,7 @@
     const-string v0, "In connect, isHuaweiMobileServicesAvailable result: "
 
     .line 4
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/hms/api/HuaweiApiClientImpl;->b:Landroid/content/Context;
 
@@ -2106,7 +2106,7 @@
     .registers 4
 
     .line 1
-    const-string v0, "====== HMSSDK version: 61300303 ======"
+    const-string v0, "====== HMSSDK version: 61300304 ======"
 
     .line 2
     .line 3
@@ -2135,7 +2135,7 @@
 
     .line 15
     .line 16
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 17
     .line 18
@@ -2404,7 +2404,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 12
     .line 13
@@ -3444,7 +3444,7 @@
 
     .line 99
     .line 100
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 101
     .line 102

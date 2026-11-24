@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uk;
+.implements Lcom/huawei/appmarket/tk;
 
 
 # instance fields
@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/p22;)V
+.method public final a(Lcom/huawei/appmarket/t22;)V
     .registers 3
 
     .line 1
@@ -47,7 +47,7 @@
     if-eqz v0, :cond_0
 
     :try_start_0
-    invoke-virtual {v0, p1}, Lcom/huawei/flexiblelayout/b;->a(Lcom/huawei/appmarket/p22;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/flexiblelayout/b;->a(Lcom/huawei/appmarket/t22;)V
     :try_end_0
     .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
 

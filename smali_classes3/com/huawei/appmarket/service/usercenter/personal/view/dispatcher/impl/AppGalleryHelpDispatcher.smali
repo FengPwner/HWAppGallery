@@ -29,7 +29,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 7
     .line 8
@@ -53,7 +53,7 @@
 
     .line 17
     .line 18
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/m77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/r77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -92,7 +92,7 @@
 
     .line 38
     .line 39
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/xo8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/dp8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -170,5 +170,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

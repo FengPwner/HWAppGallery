@@ -81,11 +81,11 @@
     move-result-object v1
 
     .line 24
-    check-cast v1, Lcom/huawei/appmarket/f18;
+    check-cast v1, Lcom/huawei/appmarket/k18;
 
     .line 25
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/tj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
+    invoke-static {p1}, Lcom/huawei/appmarket/zj8;->d(Landroid/view/View;)Landroid/view/ViewGroup;
 
     .line 27
     .line 28
@@ -93,7 +93,7 @@
     move-result-object v2
 
     .line 30
-    invoke-static {v2}, Lcom/huawei/appmarket/tj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/vi8;
+    invoke-static {v2}, Lcom/huawei/appmarket/zj8;->e(Landroid/view/View;)Lcom/huawei/appmarket/bj8;
 
     .line 31
     .line 32
@@ -101,7 +101,7 @@
     move-result-object v2
 
     .line 34
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/vi8;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/bj8;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 35
     .line 36

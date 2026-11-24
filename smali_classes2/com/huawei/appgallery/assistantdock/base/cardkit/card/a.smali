@@ -126,7 +126,7 @@
     move-result v1
 
     .line 47
-    iget-object v2, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 48
     .line 49
@@ -142,12 +142,12 @@
     move-result v3
 
     .line 55
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ja3;->p(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ma3;->p(I)V
 
     .line 56
     .line 57
     .line 58
-    iget-object v2, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 59
     .line 60
@@ -163,7 +163,7 @@
     move-result v3
 
     .line 66
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ja3;->o(I)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ma3;->o(I)V
 
     .line 67
     .line 68
@@ -185,11 +185,11 @@
     .line 76
     .line 77
     .line 78
-    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 79
     .line 80
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->e()I
 
     .line 81
     .line 82
@@ -206,11 +206,11 @@
 
     .line 88
     :cond_3
-    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 89
     .line 90
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->e()I
 
     .line 91
     .line 92
@@ -223,11 +223,11 @@
     .line 95
     .line 96
     .line 97
-    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p1, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     .line 98
     .line 99
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->f()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->f()I
 
     .line 100
     .line 101
@@ -302,5 +302,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

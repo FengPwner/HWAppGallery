@@ -33,7 +33,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/la6;Z)V
+.method public constructor <init>(Lcom/huawei/appmarket/na6;Z)V
     .registers 5
 
     .line 1
@@ -45,19 +45,19 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->g:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->f()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->a:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->i()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->b:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -67,14 +67,14 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->b()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->d:Ljava/lang/String;
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->j()Ljava/lang/String;
 
     move-result-object v0
 
@@ -84,14 +84,14 @@
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->j()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->g:Ljava/lang/String;
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -99,7 +99,7 @@
 
     if-eqz p2, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->h()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->h()J
 
     move-result-wide v0
 
@@ -118,7 +118,7 @@
     goto :goto_0
 
     :goto_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->e()I
 
     move-result p1
 
@@ -163,7 +163,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/option/post/bean/PublishPostReq$a;->f:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {v1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object v1
 

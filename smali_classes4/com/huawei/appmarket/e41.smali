@@ -33,11 +33,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/id3;Ljava/util/List;)V
+.method public abstract a(Lcom/huawei/appmarket/kd3;Ljava/util/List;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/id3;",
+            "Lcom/huawei/appmarket/kd3;",
             "Ljava/util/List<",
             "Lcom/huawei/appmarket/d41;",
             ">;)V"
@@ -45,5 +45,5 @@
     .end annotation
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/id3;)Lcom/huawei/appmarket/k02;
+.method public abstract b(Lcom/huawei/appmarket/kd3;)Lcom/huawei/appmarket/o02;
 .end method

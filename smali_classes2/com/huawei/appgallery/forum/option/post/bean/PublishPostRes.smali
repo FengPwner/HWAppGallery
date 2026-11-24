@@ -1,11 +1,11 @@
 .class public Lcom/huawei/appgallery/forum/option/post/bean/PublishPostRes;
-.super Lcom/huawei/appmarket/il4;
+.super Lcom/huawei/appmarket/ll4;
 .source "SourceFile"
 
 
 # instance fields
 .field private shareEntrance:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -16,7 +16,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/il4;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ll4;-><init>()V
 
     const/4 v0, 0x0
 

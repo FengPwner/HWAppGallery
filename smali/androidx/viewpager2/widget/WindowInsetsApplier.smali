@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # direct methods
@@ -15,13 +15,13 @@
     return-void
 .end method
 
-.method private consumeAllInsets(Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method private consumeAllInsets(Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/nq8;->b:Lcom/huawei/appmarket/nq8;
+    sget-object v0, Lcom/huawei/appmarket/tq8;->b:Lcom/huawei/appmarket/tq8;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nq8;->u()Landroid/view/WindowInsets;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tq8;->u()Landroid/view/WindowInsets;
 
     move-result-object v1
 
@@ -30,11 +30,11 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->c()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->c()Lcom/huawei/appmarket/tq8;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->b()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->b()Lcom/huawei/appmarket/tq8;
 
     move-result-object p1
 
@@ -71,7 +71,7 @@
 
     invoke-direct {v0}, Landroidx/viewpager2/widget/WindowInsetsApplier;-><init>()V
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->r0(Landroid/view/View;Lcom/huawei/appmarket/qn5;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->r0(Landroid/view/View;Lcom/huawei/appmarket/rn5;)V
 
     const/4 p0, 0x1
 
@@ -80,17 +80,17 @@
 
 
 # virtual methods
-.method public onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 7
 
     .line 1
     check-cast p1, Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->T(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->T(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->p()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->p()Z
 
     move-result v0
 
@@ -114,18 +114,18 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/huawei/appmarket/nq8;
+    new-instance v3, Lcom/huawei/appmarket/tq8;
 
-    invoke-direct {v3, p2}, Lcom/huawei/appmarket/nq8;-><init>(Lcom/huawei/appmarket/nq8;)V
+    invoke-direct {v3, p2}, Lcom/huawei/appmarket/tq8;-><init>(Lcom/huawei/appmarket/tq8;)V
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ei8;->d(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/ki8;->d(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
     :cond_1
-    invoke-direct {p0, p2}, Landroidx/viewpager2/widget/WindowInsetsApplier;->consumeAllInsets(Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-direct {p0, p2}, Landroidx/viewpager2/widget/WindowInsetsApplier;->consumeAllInsets(Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     move-result-object p1
 

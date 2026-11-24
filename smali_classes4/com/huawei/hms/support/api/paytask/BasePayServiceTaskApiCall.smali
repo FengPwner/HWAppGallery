@@ -56,7 +56,7 @@
 
 
 # virtual methods
-.method protected dealException(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;)V
+.method protected dealException(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;)V
     .registers 7
 
     .line 1
@@ -107,7 +107,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -200,7 +200,7 @@
     .line 72
     .line 73
     :goto_0
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     .line 74
     .line 75
@@ -426,17 +426,13 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method protected abstract dealSuccess(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
+.method protected abstract dealSuccess(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TV;>;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
@@ -445,25 +441,25 @@
     .end annotation
 .end method
 
-.method protected bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method protected bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 5
 
     .line 1
     check-cast p1, Lcom/huawei/hms/common/internal/HmsClient;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->doExecute(Lcom/huawei/hms/common/internal/HmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->doExecute(Lcom/huawei/hms/common/internal/HmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
 
-.method protected doExecute(Lcom/huawei/hms/common/internal/HmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method protected doExecute(Lcom/huawei/hms/common/internal/HmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TU;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "TV;>;)V"
         }
     .end annotation
@@ -487,7 +483,7 @@
 
     invoke-direct {p1, p2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
@@ -540,12 +536,12 @@
 
     if-nez p1, :cond_3
 
-    invoke-virtual {p0, p4, p2, p3}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->dealSuccess(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
+    invoke-virtual {p0, p4, p2, p3}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->dealSuccess(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p0, p4, p2}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->dealException(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;)V
+    invoke-virtual {p0, p4, p2}, Lcom/huawei/hms/support/api/paytask/BasePayServiceTaskApiCall;->dealException(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;)V
 
     :goto_0
     return-void

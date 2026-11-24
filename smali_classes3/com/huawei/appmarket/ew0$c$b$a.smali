@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xr3;
+.implements Lcom/huawei/appmarket/zr3;
 
 
 # annotations
@@ -43,13 +43,13 @@
 
     const-string v1, "guidLoginFailed, exit"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/ew0$c$b$a;->a:Lcom/huawei/appmarket/ew0$c$b;
 
     iget-object v0, v0, Lcom/huawei/appmarket/ew0$c$b;->b:Lcom/huawei/appmarket/ew0$c;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/by3;
+    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/dy3;
 
     move-result-object v0
 
@@ -57,7 +57,7 @@
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/by3;->b(II)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/dy3;->b(II)V
 
     return-void
 .end method
@@ -70,7 +70,7 @@
 
     const-string v1, "guidLoginSuccessful, sign the agreement again"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/ew0$c$b$a;->a:Lcom/huawei/appmarket/ew0$c$b;
 
@@ -84,11 +84,11 @@
 
     iget-object v0, v0, Lcom/huawei/appmarket/ew0$c$b;->b:Lcom/huawei/appmarket/ew0$c;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/by3;
+    invoke-static {v0}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/dy3;
 
     move-result-object v0
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/ew0;->y(Lcom/huawei/appmarket/ew0;Landroid/content/Context;Lcom/huawei/appmarket/by3;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/ew0;->y(Lcom/huawei/appmarket/ew0;Landroid/content/Context;Lcom/huawei/appmarket/dy3;)V
 
     return-void
 .end method

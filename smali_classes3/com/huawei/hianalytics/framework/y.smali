@@ -107,11 +107,11 @@
     :cond_1
     iget-object v2, p0, Lcom/huawei/hianalytics/framework/y;->e:Ljava/util/ArrayList;
 
-    new-instance v3, Lcom/huawei/appmarket/qt4;
+    new-instance v3, Lcom/huawei/appmarket/tt4;
 
     const/16 v4, 0x12
 
-    invoke-direct {v3, v4}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {v3, v4}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
     invoke-static {v2, v3}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -228,7 +228,7 @@
     const-string v2, "_send_retry_flag"
 
     .line 3
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -305,7 +305,7 @@
 
     const/16 v1, 0x10
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v1
 

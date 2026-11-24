@@ -100,7 +100,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;->list_:Ljava/util/List;
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/uv4;->c(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/xv4;->c(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v0
 

@@ -45,7 +45,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/il5;->a(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/kl5;->a(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -131,7 +131,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p0}, Lcom/huawei/appmarket/il5;->d(Landroid/content/Context;)Ljava/util/LinkedHashMap;
+    invoke-static {p0}, Lcom/huawei/appmarket/kl5;->d(Landroid/content/Context;)Ljava/util/LinkedHashMap;
 
     .line 30
     .line 31
@@ -143,12 +143,12 @@
 
     .line 34
     .line 35
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ok5;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/qk5;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 36
     .line 37
     .line 38
-    sget-object p0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 39
     .line 40
@@ -160,7 +160,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -233,7 +233,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static c(Lcom/huawei/appmarket/oobe/app/OOBEStartupGuideService;)V
@@ -263,13 +262,13 @@
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
-    sget-object p0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     const-string v0, "OOBE"
 
     const-string v1, "Aura.notifyPrimaryFlowSkipped"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -338,7 +337,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {p0}, Lcom/huawei/appmarket/il5;->d(Landroid/content/Context;)Ljava/util/LinkedHashMap;
+    invoke-static {p0}, Lcom/huawei/appmarket/kl5;->d(Landroid/content/Context;)Ljava/util/LinkedHashMap;
 
     .line 33
     .line 34
@@ -350,12 +349,12 @@
 
     .line 37
     .line 38
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ok5;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/qk5;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 39
     .line 40
     .line 41
-    sget-object p0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object p0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 42
     .line 43
@@ -367,7 +366,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -437,5 +436,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -128,12 +128,12 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 48
     .line 49
     .line 50
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     .line 51
     .line 52
@@ -158,12 +158,12 @@
     .line 61
     .line 62
     .line 63
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/zf5;->i(Ljava/lang/String;Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/cg5;->i(Ljava/lang/String;Lcom/huawei/appgallery/upgraderecommendation/bean/RecommendSelectItemBean;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     .line 67
     .line 68
@@ -174,7 +174,7 @@
     const/4 v0, 0x1
 
     .line 71
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zf5;->o(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/cg5;->o(Z)V
 
     .line 72
     .line 73
@@ -212,5 +212,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

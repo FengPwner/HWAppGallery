@@ -78,11 +78,11 @@
 
     new-instance v1, Lcom/huawei/quickcard/framework/condition/ConditionalData;
 
-    invoke-virtual {p1}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getForCondition()Lcom/huawei/appmarket/r99;
+    invoke-virtual {p1}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getForCondition()Lcom/huawei/appmarket/x99;
 
     move-result-object v2
 
-    invoke-virtual {p1}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getIfCondition()Lcom/huawei/appmarket/rc9;
+    invoke-virtual {p1}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getIfCondition()Lcom/huawei/appmarket/yc9;
 
     move-result-object v3
 
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    invoke-direct {v1, v2, v3, p1}, Lcom/huawei/quickcard/framework/condition/ConditionalData;-><init>(Lcom/huawei/appmarket/r99;Lcom/huawei/appmarket/rc9;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, p1}, Lcom/huawei/quickcard/framework/condition/ConditionalData;-><init>(Lcom/huawei/appmarket/x99;Lcom/huawei/appmarket/yc9;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Ljava/lang/Object;->hashCode()I
 
@@ -407,7 +407,7 @@
     const-string v3, ""
 
     :goto_1
-    invoke-virtual {v2}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getForCondition()Lcom/huawei/appmarket/r99;
+    invoke-virtual {v2}, Lcom/huawei/quickcard/views/list/ListItemCondition;->getForCondition()Lcom/huawei/appmarket/x99;
 
     move-result-object v5
 
@@ -425,7 +425,7 @@
 
     if-eqz v6, :cond_1
 
-    invoke-static {v5, p2, v3}, Lcom/huawei/quickcard/utils/ExpressionUtils;->computeForChains(Lcom/huawei/appmarket/r99;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, p2, v3}, Lcom/huawei/quickcard/utils/ExpressionUtils;->computeForChains(Lcom/huawei/appmarket/x99;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -444,7 +444,7 @@
 
     move-result-object p2
 
-    invoke-static {v5, v0, p2, v3}, Lcom/huawei/quickcard/utils/ExpressionUtils;->computeForChains(Lcom/huawei/appmarket/r99;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v0, p2, v3}, Lcom/huawei/quickcard/utils/ExpressionUtils;->computeForChains(Lcom/huawei/appmarket/x99;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 

@@ -1,35 +1,66 @@
-.class public final Lcom/huawei/appmarket/xx1;
-.super Lcom/huawei/appmarket/gy4;
+.class final Lcom/huawei/appmarket/xx1;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# static fields
-.field public static final a:Lcom/huawei/appmarket/xx1;
+# interfaces
+.implements Lcom/huawei/appmarket/ka7$a;
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method constructor <init>()V
     .registers 1
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/xx1;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/xx1;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method private constructor <init>()V
-    .registers 3
+
+# virtual methods
+.method public final a(Lcom/huawei/appgallery/dynamiccore/impl/Session;)V
+    .registers 5
 
     .line 1
-    const-string v0, "DC"
+    invoke-virtual {p1}, Lcom/huawei/appgallery/dynamiccore/impl/Session;->isStartInstall()Z
 
-    const/4 v1, 0x1
+    move-result v0
 
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Lcom/huawei/appmarket/ej5;->c()Lcom/huawei/appmarket/ej5;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/dynamiccore/impl/Session;->getSessionId()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ej5;->a(I)V
+
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/zm;->b()Lcom/huawei/appmarket/uu1;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/dynamiccore/impl/Session;->getDownloadId()J
+
+    move-result-wide v1
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/uu1;->a(J)V
+
+    invoke-static {}, Lcom/huawei/appmarket/zm;->c()Lcom/huawei/appmarket/xf4;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/dynamiccore/impl/Session;->getInstallId()J
+
+    move-result-wide v1
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/dynamiccore/impl/Session;->getPkgName()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, v1, v2, p1}, Lcom/huawei/appmarket/xf4;->a(JLjava/lang/String;)V
 
     return-void
 .end method

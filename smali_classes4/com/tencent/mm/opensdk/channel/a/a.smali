@@ -41,7 +41,7 @@
     const-string v0, "MicroMsg.IntentUtil"
 
     .line 1
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return p2
@@ -114,7 +114,7 @@
     invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_1
     const/4 p0, 0x0
@@ -165,7 +165,7 @@
     const-string v1, "MicroMsg.IntentUtil"
 
     .line 11
-    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -217,7 +217,7 @@
     const-string v3, ".permission.MM_MESSAGE"
 
     .line 16
-    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

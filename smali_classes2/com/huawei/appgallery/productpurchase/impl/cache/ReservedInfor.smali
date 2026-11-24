@@ -16,7 +16,7 @@
 .field private goodsInfo_:Ljava/lang/String;
 
 .field private orderPurchaseExtensionInformation:Lcom/huawei/appgallery/productpurchase/impl/cache/ReservedInfor$OrderPurchaseExtensionInformation;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

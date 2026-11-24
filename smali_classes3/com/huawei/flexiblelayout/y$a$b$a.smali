@@ -59,7 +59,7 @@
     int-to-float p1, p1
 
     .line 8
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 9
     .line 10
@@ -93,7 +93,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -189,7 +189,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 

@@ -38,7 +38,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/om5;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->C()Z
 
     .line 2
     .line 3
@@ -180,5 +180,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -159,7 +159,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final newArray(I)[Ljava/lang/Object;
@@ -282,5 +281,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

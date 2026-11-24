@@ -30,7 +30,7 @@
 
     const-string v0, "cancel progressDialog"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/externalapi/view/b;->b:Lcom/huawei/appmarket/service/externalapi/view/ThirdApiActivity;
 

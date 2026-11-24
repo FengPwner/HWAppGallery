@@ -269,7 +269,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public setSoftInputMeasureLister(Lcom/huawei/appgallery/forum/option/post/view/SoftInputMeasureLayout$a;)V

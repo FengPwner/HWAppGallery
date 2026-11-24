@@ -4,10 +4,10 @@
 
 # interfaces
 .implements Lcom/huawei/appgallery/forum/section/fragment/ForumSectionDetailFragment$c;
-.implements Lcom/huawei/appmarket/yo5;
+.implements Lcom/huawei/appmarket/zo5;
 .implements Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment$f;
 .implements Landroid/view/View$OnClickListener;
-.implements Lcom/huawei/appmarket/rn5;
+.implements Lcom/huawei/appmarket/sn5;
 
 
 # annotations
@@ -182,12 +182,12 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p2}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {}, Lcom/huawei/appmarket/pm7;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/vm7;->e()Z
 
     .line 43
     .line 44
@@ -202,7 +202,7 @@
     const/4 v2, 0x1
 
     .line 49
-    invoke-static {p2, v2}, Lcom/huawei/appmarket/pm7;->g(Landroid/view/Window;I)V
+    invoke-static {p2, v2}, Lcom/huawei/appmarket/vm7;->g(Landroid/view/Window;I)V
 
     .line 50
     .line 51
@@ -260,7 +260,7 @@
     .line 77
     .line 78
     :cond_3
-    invoke-static {}, Lcom/huawei/appmarket/p65;->b()Lcom/huawei/appmarket/p65;
+    invoke-static {}, Lcom/huawei/appmarket/s65;->b()Lcom/huawei/appmarket/s65;
 
     .line 79
     .line 80
@@ -288,7 +288,7 @@
 
     .line 91
     .line 92
-    invoke-virtual {p2, v1, v2, v3, p1}, Lcom/huawei/appmarket/p65;->a(Lcom/huawei/appgallery/forum/section/actionbar/MenuLinearLayout;ZII)Ljava/util/ArrayList;
+    invoke-virtual {p2, v1, v2, v3, p1}, Lcom/huawei/appmarket/s65;->a(Lcom/huawei/appgallery/forum/section/actionbar/MenuLinearLayout;ZII)Ljava/util/ArrayList;
 
     .line 93
     .line 94
@@ -341,11 +341,11 @@
     move-result-object p2
 
     .line 118
-    check-cast p2, Lcom/huawei/appmarket/l65;
+    check-cast p2, Lcom/huawei/appmarket/o65;
 
     .line 119
     .line 120
-    instance-of v1, p2, Lcom/huawei/appmarket/cv2;
+    instance-of v1, p2, Lcom/huawei/appmarket/fv2;
 
     .line 121
     .line 122
@@ -353,7 +353,7 @@
 
     .line 123
     .line 124
-    invoke-virtual {p2}, Lcom/huawei/appmarket/l65;->e()Landroid/widget/ImageView;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/o65;->e()Landroid/widget/ImageView;
 
     .line 125
     .line 126
@@ -924,13 +924,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final g()V
@@ -991,7 +984,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 11
     .line 12
@@ -1086,7 +1079,7 @@
 
     .line 59
     .line 60
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 61
     .line 62
@@ -1112,7 +1105,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->setBackClickListener(Lcom/huawei/appmarket/rn5;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/section/actionbar/SectionActionBar;->setBackClickListener(Lcom/huawei/appmarket/sn5;)V
 
     .line 75
     .line 76
@@ -1139,7 +1132,7 @@
     .line 87
     .line 88
     .line 89
-    const v0, 0x7f0a1609
+    const v0, 0x7f0a160a
 
     .line 90
     .line 91
@@ -1428,7 +1421,7 @@
 
     .line 237
     .line 238
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 239
     .line 240
@@ -1441,7 +1434,7 @@
     move-result-object p1
 
     .line 245
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 246
     .line 247
@@ -1454,7 +1447,7 @@
     .line 250
     .line 251
     .line 252
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     .line 253
     .line 254
@@ -1575,7 +1568,7 @@
 
     .line 314
     .line 315
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 316
     .line 317
@@ -1946,11 +1939,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method protected final onDestroy()V
@@ -2148,7 +2136,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final r2(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
@@ -2188,7 +2175,7 @@
 
     const-string v1, "ForumSectionDetailActivity"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/section/impl/ForumSectionDetailActivity;->A:Ljava/util/Map;
 

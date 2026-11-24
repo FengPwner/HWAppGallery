@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/v57;
+.implements Lcom/huawei/appmarket/a67;
 
 
 # instance fields
@@ -38,13 +38,13 @@
     return-void
 .end method
 
-.method public constructor <init>(JJLcom/huawei/appmarket/ub5$a;Z)V
+.method public constructor <init>(JJLcom/huawei/appmarket/xb5$a;Z)V
     .registers 15
 
     .line 2
-    iget v5, p5, Lcom/huawei/appmarket/ub5$a;->f:I
+    iget v5, p5, Lcom/huawei/appmarket/xb5$a;->f:I
 
-    iget v6, p5, Lcom/huawei/appmarket/ub5$a;->c:I
+    iget v6, p5, Lcom/huawei/appmarket/xb5$a;->c:I
 
     move-object v0, p0
 

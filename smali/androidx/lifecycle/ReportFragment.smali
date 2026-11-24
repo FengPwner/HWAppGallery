@@ -29,7 +29,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/ReportFragment$b;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/ReportFragment$b;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Landroidx/lifecycle/ReportFragment;->c:Landroidx/lifecycle/ReportFragment$b;
 
@@ -60,7 +60,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v1, Landroidx/lifecycle/ReportFragment;->c:Landroidx/lifecycle/ReportFragment$b;
 
@@ -377,6 +377,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final onStart()V
@@ -531,6 +532,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final onStop()V

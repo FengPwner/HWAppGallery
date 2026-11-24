@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/BannerV9Card$a;
-.super Lcom/huawei/appmarket/js1;
+.super Lcom/huawei/appmarket/ms1;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/BannerV9Card$a;->h:Lcom/huawei/appmarket/service/store/awk/card/BannerV9Card;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/js1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/ms1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/widget/topbanner/DotsViewPager;)V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/js1;->c(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ms1;->c(I)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/BannerV9Card$a;->h:Lcom/huawei/appmarket/service/store/awk/card/BannerV9Card;
 

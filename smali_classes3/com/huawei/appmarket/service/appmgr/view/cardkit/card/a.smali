@@ -36,15 +36,15 @@
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lcom/huawei/appmarket/vu;->b:Lcom/huawei/appmarket/vu;
+    sget-object v0, Lcom/huawei/appmarket/wu;->b:Lcom/huawei/appmarket/wu;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;->z1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;)Lcom/huawei/appmarket/nw3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;->z1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;)Lcom/huawei/appmarket/pw3;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;->z1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;)Lcom/huawei/appmarket/nw3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;->z1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledItemCard;)Lcom/huawei/appmarket/pw3;
 
     move-result-object v1
 
@@ -56,7 +56,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/nw3;->c(Ljava/lang/String;)Lcom/huawei/appmarket/vu;
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/pw3;->c(Ljava/lang/String;)Lcom/huawei/appmarket/wu;
 
     move-result-object v1
 

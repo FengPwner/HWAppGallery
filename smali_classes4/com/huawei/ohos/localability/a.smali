@@ -15,7 +15,7 @@
 
 .field public final synthetic e:Lcom/huawei/ohos/localability/Form;
 
-.field public final synthetic f:Lcom/huawei/appmarket/bo2;
+.field public final synthetic f:Lcom/huawei/appmarket/do2;
 
 .field public final synthetic g:Landroid/content/Context;
 
@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Landroid/widget/FrameLayout;Landroid/view/View;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/bo2;Landroid/content/Context;Landroid/view/View;)V
+.method public synthetic constructor <init>(Lcom/huawei/ohos/localability/g;Landroid/widget/FrameLayout;Landroid/view/View;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/do2;Landroid/content/Context;Landroid/view/View;)V
     .registers 8
 
     .line 1
@@ -37,7 +37,7 @@
 
     iput-object p4, p0, Lcom/huawei/ohos/localability/a;->e:Lcom/huawei/ohos/localability/Form;
 
-    iput-object p5, p0, Lcom/huawei/ohos/localability/a;->f:Lcom/huawei/appmarket/bo2;
+    iput-object p5, p0, Lcom/huawei/ohos/localability/a;->f:Lcom/huawei/appmarket/do2;
 
     iput-object p6, p0, Lcom/huawei/ohos/localability/a;->g:Landroid/content/Context;
 
@@ -60,13 +60,13 @@
 
     iget-object v3, p0, Lcom/huawei/ohos/localability/a;->e:Lcom/huawei/ohos/localability/Form;
 
-    iget-object v4, p0, Lcom/huawei/ohos/localability/a;->f:Lcom/huawei/appmarket/bo2;
+    iget-object v4, p0, Lcom/huawei/ohos/localability/a;->f:Lcom/huawei/appmarket/do2;
 
     iget-object v5, p0, Lcom/huawei/ohos/localability/a;->g:Landroid/content/Context;
 
     iget-object v6, p0, Lcom/huawei/ohos/localability/a;->h:Landroid/view/View;
 
-    invoke-static/range {v0 .. v6}, Lcom/huawei/ohos/localability/g;->g(Lcom/huawei/ohos/localability/g;Landroid/widget/FrameLayout;Landroid/view/View;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/bo2;Landroid/content/Context;Landroid/view/View;)V
+    invoke-static/range {v0 .. v6}, Lcom/huawei/ohos/localability/g;->g(Lcom/huawei/ohos/localability/g;Landroid/widget/FrameLayout;Landroid/view/View;Lcom/huawei/ohos/localability/Form;Lcom/huawei/appmarket/do2;Landroid/content/Context;Landroid/view/View;)V
 
     return-void
 .end method

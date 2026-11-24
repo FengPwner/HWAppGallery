@@ -85,7 +85,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -280,7 +280,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V

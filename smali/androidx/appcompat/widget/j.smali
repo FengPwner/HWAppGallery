@@ -31,13 +31,13 @@
 
     if-eqz p2, :cond_1
 
-    instance-of p2, p0, Lcom/huawei/appmarket/ns8;
+    instance-of p2, p0, Lcom/huawei/appmarket/ts8;
 
     if-eqz p2, :cond_0
 
-    check-cast p0, Lcom/huawei/appmarket/ns8;
+    check-cast p0, Lcom/huawei/appmarket/ts8;
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/ns8;->a()Ljava/lang/CharSequence;
+    invoke-interface {p0}, Lcom/huawei/appmarket/ts8;->a()Ljava/lang/CharSequence;
 
     move-result-object p0
 

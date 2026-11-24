@@ -79,7 +79,7 @@
     const-string v3, "hianalytics_"
 
     .line 3
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -164,19 +164,19 @@
     .registers 10
 
     .line 10
-    invoke-static {p1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    invoke-static {p2}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p2}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p2
 
-    invoke-static {p3}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p3}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p3
 
-    invoke-static {p4}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p4}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p4
 
@@ -248,7 +248,7 @@
     const-string v2, "hianalytics_"
 
     .line 1
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -270,7 +270,7 @@
     :cond_0
     const/16 p1, 0x80
 
-    invoke-static {p1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -517,25 +517,25 @@
 
     const/16 v1, 0x80
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v6
 
     invoke-direct {p0, v5, v6}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-direct {p0, v4, v5}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v4
 
     invoke-direct {p0, v3, v4}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -579,17 +579,17 @@
 
     move-result-object v0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v1
 
     const/16 v2, 0x10
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kt5;->c([BI[C)[B
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/mt5;->c([C[BI)[B
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object v0
 

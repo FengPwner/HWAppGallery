@@ -8,7 +8,7 @@
 
 .field private b:Ljava/lang/Boolean;
 
-.field private c:Lcom/huawei/appmarket/mn5;
+.field private c:Lcom/huawei/appmarket/nn5;
 
 
 # direct methods
@@ -64,11 +64,11 @@
 
     invoke-direct {v1, p1, v0, v2}, Lcom/huawei/agconnect/common/server/ClientImpl;-><init>(Landroid/content/Context;Ljava/util/List;Z)V
 
-    invoke-virtual {v1}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/mn5;
+    invoke-virtual {v1}, Lcom/huawei/agconnect/common/server/ClientImpl;->a()Lcom/huawei/appmarket/nn5;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/agconnect/common/server/UrlInterceptorClient;->c:Lcom/huawei/appmarket/mn5;
+    iput-object p1, p0, Lcom/huawei/agconnect/common/server/UrlInterceptorClient;->c:Lcom/huawei/appmarket/nn5;
 
     return-void
 .end method
@@ -93,11 +93,11 @@
     return-object v0
 .end method
 
-.method public b()Lcom/huawei/appmarket/mn5;
+.method public b()Lcom/huawei/appmarket/nn5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/common/server/UrlInterceptorClient;->c:Lcom/huawei/appmarket/mn5;
+    iget-object v0, p0, Lcom/huawei/agconnect/common/server/UrlInterceptorClient;->c:Lcom/huawei/appmarket/nn5;
 
     return-object v0
 .end method

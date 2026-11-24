@@ -35,7 +35,7 @@
     .registers 2
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 2
     .line 3
@@ -198,6 +198,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public varargs constructor <init>(I[I)V
@@ -296,7 +297,7 @@
 
     .line 27
     :goto_0
-    invoke-static {v1}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v1}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 28
     .line 29

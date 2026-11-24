@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/widget/DetailDescriptionView;->b:Lcom/huawei/appgallery/wishlist/widget/EditTextWithListView;
 
-    const v0, 0x7f0a18c9
+    const v0, 0x7f0a18ca
 
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

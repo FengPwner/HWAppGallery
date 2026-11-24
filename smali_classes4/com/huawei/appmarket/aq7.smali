@@ -1,70 +1,76 @@
-.class public final synthetic Lcom/huawei/appmarket/aq7;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/aq7;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Lcom/huawei/appmarket/ts2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
+        "Lcom/huawei/appmarket/ki4;",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields
-.field public final synthetic a:Lcom/huawei/appmarket/cq7;
-
-.field public final synthetic b:Lorg/jsoup/nodes/Element;
+.field final synthetic b:Ljava/lang/CharSequence;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/cq7;Lorg/jsoup/nodes/Element;)V
-    .registers 3
+.method constructor <init>(Ljava/lang/CharSequence;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/aq7;->b:Ljava/lang/CharSequence;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/aq7;->a:Lcom/huawei/appmarket/cq7;
+    const/4 p1, 0x1
 
-    iput-object p2, p0, Lcom/huawei/appmarket/aq7;->b:Lorg/jsoup/nodes/Element;
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 4
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/aq7;->a:Lcom/huawei/appmarket/cq7;
+    check-cast p1, Lcom/huawei/appmarket/ki4;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/aq7;->b:Lorg/jsoup/nodes/Element;
+    const-string v0, "it"
 
     .line 4
     .line 5
-    check-cast p1, Lorg/jsoup/nodes/Element;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
-    iget-object v0, v0, Lcom/huawei/appmarket/cq7;->a:Lcom/huawei/appmarket/o22;
-
     .line 8
-    .line 9
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/o22;->b(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
+    iget-object v0, p0, Lcom/huawei/appmarket/aq7;->b:Ljava/lang/CharSequence;
 
+    .line 9
     .line 10
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/bq7;->m(Ljava/lang/CharSequence;Lcom/huawei/appmarket/ki4;)Ljava/lang/String;
+
     .line 11
     .line 12
-    move-result p1
-
     .line 13
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 14
-    .line 15
-    .line 16
     move-result-object p1
 
-    .line 17
+    .line 14
     return-object p1
+    .line 15
+    .line 16
+    .line 17
     .line 18
     .line 19
     .line 20
@@ -229,21 +235,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

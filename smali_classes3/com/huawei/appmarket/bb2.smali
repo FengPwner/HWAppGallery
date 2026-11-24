@@ -1,113 +1,175 @@
-.class public final Lcom/huawei/appmarket/bb2;
+.class public abstract Lcom/huawei/appmarket/bb2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/pi5;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/bb2$b;,
+        Lcom/huawei/appmarket/bb2$a;
+    }
+.end annotation
 
 
-# instance fields
-.field private final a:Ljava/lang/Class;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/sb2;",
-            ">;"
-        }
-    .end annotation
-.end field
+# static fields
+.field private static a:Lcom/huawei/appmarket/bb2;
 
-.field private b:Ljava/lang/Class;
+.field private static final b:Landroid/util/ArrayMap;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Class;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/sb2;",
-            ">;)V"
-        }
-    .end annotation
+.method static constructor <clinit>()V
+    .registers 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    new-instance v0, Landroid/util/ArrayMap;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/bb2;->a:Ljava/lang/Class;
+    invoke-direct {v0}, Landroid/util/ArrayMap;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/bb2;->b:Landroid/util/ArrayMap;
 
     return-void
 .end method
 
+.method public constructor <init>()V
+    .registers 1
 
-# virtual methods
-.method public final a()Lcom/huawei/appmarket/sb2;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Lcom/huawei/appmarket/sb2;",
-            ">()TT;"
-        }
-    .end annotation
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static synthetic a()Landroid/util/ArrayMap;
+    .registers 1
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb2;->a:Ljava/lang/Class;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/xl5;->a(Ljava/lang/Class;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appmarket/sb2;
+    sget-object v0, Lcom/huawei/appmarket/bb2;->b:Landroid/util/ArrayMap;
 
     return-object v0
 .end method
 
-.method public final b(Ljava/lang/String;)Lcom/huawei/flexiblelayout/data/FLNodeData;
-    .registers 3
+.method static synthetic b(Lcom/huawei/appmarket/s81;)V
+    .registers 1
+
+    .line 1
+    sput-object p0, Lcom/huawei/appmarket/bb2;->a:Lcom/huawei/appmarket/bb2;
+
+    return-void
+.end method
+
+.method public static builder(Lcom/huawei/appmarket/ib2;)Lcom/huawei/appmarket/bb2$a;
+    .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
-            "Lcom/huawei/flexiblelayout/data/FLNodeData;",
-            ">(",
-            "Ljava/lang/String;",
-            ")TT;"
+            "(",
+            "Lcom/huawei/appmarket/ib2;",
+            ")",
+            "Lcom/huawei/appmarket/bb2$a<",
+            "+",
+            "Lcom/huawei/appmarket/bb2;",
+            ">;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb2;->b:Ljava/lang/Class;
+    new-instance v0, Lcom/huawei/appmarket/bb2$a;
 
-    if-nez v0, :cond_0
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/bb2$a;-><init>(Lcom/huawei/appmarket/ib2;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/bb2;->a:Ljava/lang/Class;
+    return-object v0
+.end method
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ly8;->a(Ljava/lang/Class;)Ljava/lang/Class;
+.method public static getDefault()Lcom/huawei/appmarket/bb2;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/bb2;->a:Lcom/huawei/appmarket/bb2;
+
+    return-object v0
+.end method
+
+.method public static getDefault(Lcom/huawei/appmarket/xc2;)Lcom/huawei/appmarket/bb2;
+    .registers 3
+
+    .line 2
+    if-nez p0, :cond_0
+
+    sget-object p0, Lcom/huawei/appmarket/bb2;->a:Lcom/huawei/appmarket/bb2;
+
+    return-object p0
+
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/xc2;->getServiceToken()Lcom/huawei/appmarket/uw8;
+
+    move-result-object p0
+
+    :cond_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/uw8;->b()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/bb2;->b:Ljava/lang/Class;
+    sget-object v1, Lcom/huawei/appmarket/bb2;->b:Landroid/util/ArrayMap;
 
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/bb2;->b:Ljava/lang/Class;
+    invoke-virtual {v1, v0}, Landroid/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-nez v0, :cond_1
+    move-result-object v0
 
-    const-class v0, Lcom/huawei/flexiblelayout/data/FLNodeData;
+    check-cast v0, Lcom/huawei/appmarket/bb2;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/bb2;->b:Ljava/lang/Class;
+    if-eqz v0, :cond_2
 
-    :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb2;->b:Ljava/lang/Class;
+    return-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/xl5;->b(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+    :cond_2
+    invoke-virtual {p0}, Lcom/huawei/appmarket/uw8;->a()Lcom/huawei/appmarket/uw8;
 
-    move-result-object p1
+    move-result-object p0
 
-    check-cast p1, Lcom/huawei/flexiblelayout/data/FLNodeData;
+    if-nez p0, :cond_1
 
-    return-object p1
+    sget-object p0, Lcom/huawei/appmarket/bb2;->a:Lcom/huawei/appmarket/bb2;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public abstract parse(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/db2;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract parse(Lorg/json/JSONArray;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/json/JSONArray;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/db2;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract parse(Lorg/json/JSONObject;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/json/JSONObject;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/db2;",
+            ">;"
+        }
+    .end annotation
 .end method

@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
+.annotation runtime Lcom/huawei/appmarket/ym;
     uri = Lcom/huawei/appgallery/account/userauth/api/IAuthProvider;
 .end annotation
 
@@ -27,78 +27,78 @@
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;Lcom/huawei/appmarket/nv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+.method static synthetic access$000(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;Lcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->setRes(Lcom/huawei/appmarket/nv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->setRes(Lcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 
     return-void
 .end method
 
-.method static synthetic access$100(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method static synthetic access$100(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
 
-.method private getTokenTask(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;)Lcom/huawei/appmarket/hv7;
+.method private getTokenTask(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;)Lcom/huawei/appmarket/nv7;
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/account/userauth/api/token/IToken;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    invoke-static {}, Lcom/huawei/appmarket/b87;->a()Lcom/huawei/appmarket/b87;
+    invoke-static {}, Lcom/huawei/appmarket/g87;->a()Lcom/huawei/appmarket/g87;
 
     move-result-object v3
 
     new-instance v4, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$a;
 
-    invoke-direct {v4, p0, v1, v2, v0}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$a;-><init>(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;JLcom/huawei/appmarket/nv7;)V
+    invoke-direct {v4, p0, v1, v2, v0}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$a;-><init>(Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;JLcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v3, p1, v4}, Lcom/huawei/appmarket/b87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
+    invoke-virtual {v3, p1, v4}, Lcom/huawei/appmarket/g87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method private handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Integer;",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/appgallery/account/userauth/api/token/IToken;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     move-result-object v0
 
@@ -106,9 +106,9 @@
 
     const/16 v2, 0x33
 
-    invoke-interface {v0, v1, v2, p2}, Lcom/huawei/appmarket/eg3;->a(IILjava/lang/String;)V
+    invoke-interface {v0, v1, v2, p2}, Lcom/huawei/appmarket/gg3;->a(IILjava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/eg3;
+    invoke-static {}, Lcom/huawei/appmarket/o5;->a()Lcom/huawei/appmarket/gg3;
 
     move-result-object v0
 
@@ -116,23 +116,23 @@
 
     const-string v2, "hmslite.loginWithAuthCode"
 
-    invoke-interface {v0, v1, v2, p1, p2}, Lcom/huawei/appmarket/eg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2, p1, p2}, Lcom/huawei/appmarket/gg3;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appgallery/account/base/api/AccountException;
 
     invoke-direct {v0, p1, p2}, Lcom/huawei/appgallery/account/base/api/AccountException;-><init>(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 .end method
 
-.method private refreshUserInfo(Lcom/huawei/appmarket/nv7;Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;)V
+.method private refreshUserInfo(Lcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/appgallery/account/userauth/api/token/IToken;",
             ">;",
             "Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;",
@@ -149,7 +149,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/sd8;->a(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp$UserInfoByAuthCode;Z)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/xd8;->a(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp$UserInfoByAuthCode;Z)V
 
     goto :goto_0
 
@@ -158,7 +158,7 @@
 
     const-string v0, "the server return userInfo is empty"
 
-    invoke-direct {p0, p2, v0, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p2, v0, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     sget-object p1, Lcom/huawei/appmarket/n6;->a:Lcom/huawei/appmarket/n6;
 
@@ -166,18 +166,18 @@
 
     const-string v0, "The userInfo returned by the server is empty."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
 .end method
 
-.method private setRes(Lcom/huawei/appmarket/nv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+.method private setRes(Lcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/appgallery/account/userauth/api/token/IToken;",
             ">;",
             "Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;",
@@ -200,7 +200,7 @@
 
     const-string v2, "AuthProvider"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;->getSessionId()Ljava/lang/String;
 
@@ -290,29 +290,29 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appmarket/o6;->M(I)V
 
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->refreshUserInfo(Lcom/huawei/appmarket/nv7;Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->refreshUserInfo(Lcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeRsp;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ia7;->b()Lcom/huawei/appmarket/ia7;
+    invoke-static {}, Lcom/huawei/appmarket/na7;->b()Lcom/huawei/appmarket/na7;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/ia7;->b()Lcom/huawei/appmarket/ia7;
+    invoke-static {}, Lcom/huawei/appmarket/na7;->b()Lcom/huawei/appmarket/na7;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/ha7;->b:Lcom/huawei/appmarket/ha7;
+    sget-object v1, Lcom/huawei/appmarket/ma7;->b:Lcom/huawei/appmarket/ma7;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ia7;->d(Lcom/huawei/appmarket/ha7;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/na7;->d(Lcom/huawei/appmarket/ma7;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/ea7;->a()Lcom/huawei/appmarket/ea7;
+    invoke-static {}, Lcom/huawei/appmarket/ja7;->a()Lcom/huawei/appmarket/ja7;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ea7;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ja7;->b()V
 
-    invoke-static {}, Lcom/huawei/appmarket/u08;->b()Lcom/huawei/appmarket/u08;
+    invoke-static {}, Lcom/huawei/appmarket/z08;->b()Lcom/huawei/appmarket/z08;
 
     move-result-object v0
 
@@ -320,15 +320,15 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/u08;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/z08;->e(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/u08;->b()Lcom/huawei/appmarket/u08;
+    invoke-static {}, Lcom/huawei/appmarket/z08;->b()Lcom/huawei/appmarket/z08;
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/s08$a;->b:Lcom/huawei/appmarket/s08$a;
+    sget-object v1, Lcom/huawei/appmarket/x08$a;->b:Lcom/huawei/appmarket/x08$a;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/u08;->f(Lcom/huawei/appmarket/s08$a;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/z08;->f(Lcom/huawei/appmarket/x08$a;)V
 
     new-instance v0, Lcom/huawei/appgallery/account/userauth/impl/token/Token;
 
@@ -342,13 +342,13 @@
 
     invoke-direct {v0, v1, p2}, Lcom/huawei/appgallery/account/userauth/impl/token/Token;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/p08;->b()Lcom/huawei/appmarket/p08;
+    invoke-static {}, Lcom/huawei/appmarket/u08;->b()Lcom/huawei/appmarket/u08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p08;->c()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/u08;->c()V
 
     goto :goto_0
 
@@ -357,11 +357,11 @@
 
     const-string v1, "the server return sessionId is empty"
 
-    invoke-direct {p0, p2, v1, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p2, v1, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     const-string p1, "[login]:the server return seesionId is empty"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -400,7 +400,7 @@
 
     move-result-object p2
 
-    invoke-direct {p0, p2, v0, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p2, v0, p1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->handleError(Ljava/lang/Integer;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     :goto_0
     return-void
@@ -448,7 +448,7 @@
     return-object v0
 .end method
 
-.method public signInWithCode(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+.method public signInWithCode(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -457,7 +457,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/account/userauth/api/token/IToken;",
             ">;"
         }
@@ -480,7 +480,7 @@
 
     const-string v2, "AuthProvider"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -492,7 +492,7 @@
 
     const-string p1, "[signInWithCode]:authCode is empty"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appgallery/account/base/api/AccountException;
 
@@ -500,7 +500,7 @@
 
     invoke-direct {p1, v3, p2}, Lcom/huawei/appgallery/account/base/api/AccountException;-><init>(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -515,7 +515,7 @@
 
     const-string p1, "[signInWithCode]:clientId is empty"
 
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appgallery/account/base/api/AccountException;
 
@@ -523,7 +523,7 @@
 
     invoke-direct {p1, v3, p2}, Lcom/huawei/appgallery/account/base/api/AccountException;-><init>(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/nw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1}, Lcom/huawei/appmarket/tw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -536,7 +536,7 @@
 
     invoke-virtual {v0, p2}, Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;->U(Ljava/lang/String;)V
 
-    invoke-static {p3}, Lcom/huawei/appmarket/ja7;->c(Ljava/lang/String;)I
+    invoke-static {p3}, Lcom/huawei/appmarket/oa7;->c(Ljava/lang/String;)I
 
     move-result p2
 
@@ -548,19 +548,19 @@
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;->T(Ljava/lang/String;)V
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->getTokenTask(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;)Lcom/huawei/appmarket/hv7;
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider;->getTokenTask(Lcom/huawei/appgallery/account/userauth/impl/store/login/LoginWithAuthCodeReq;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public signOut()Lcom/huawei/appmarket/hv7;
+.method public signOut()Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -573,7 +573,7 @@
 
     const-string v2, "account sign out"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/o6;->w()Lcom/huawei/appmarket/o6;
 
@@ -591,7 +591,7 @@
 
     const-string v2, "[signOut]:the cache sessionId is empty"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appgallery/account/base/api/AccountException;
 
@@ -601,7 +601,7 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/appgallery/account/base/api/AccountException;-><init>(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->fromException(Ljava/lang/Exception;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -614,21 +614,21 @@
 
     invoke-virtual {v0, v2}, Lcom/huawei/appgallery/account/userauth/impl/store/logout/LogoutReqBean;->setSessionId(Ljava/lang/String;)V
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/b87;->a()Lcom/huawei/appmarket/b87;
+    invoke-static {}, Lcom/huawei/appmarket/g87;->a()Lcom/huawei/appmarket/g87;
 
     move-result-object v2
 
     new-instance v3, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$b;
 
-    invoke-direct {v3, v1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$b;-><init>(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v3, v1}, Lcom/huawei/appgallery/account/userauth/impl/AuthProvider$b;-><init>(Lcom/huawei/appmarket/tv7;)V
 
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/b87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/g87;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 

@@ -431,7 +431,7 @@
 
     .line 161
     :cond_0
-    sget-object v3, Lcom/huawei/appmarket/iy1;->c:[Ljava/lang/String;
+    sget-object v3, Lcom/huawei/appmarket/my1;->c:[Ljava/lang/String;
 
     .line 162
     .line 163

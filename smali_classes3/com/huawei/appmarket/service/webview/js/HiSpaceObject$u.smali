@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lcom/huawei/appmarket/rb1$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->callJsCallback(Ljava/lang/String;)V
+    value = Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->showJumpWarningDialog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,16 +20,20 @@
 # instance fields
 .field final synthetic b:Ljava/lang/String;
 
-.field final synthetic c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+.field final synthetic c:Ljava/lang/String;
+
+.field final synthetic d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 4
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     iput-object p2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->c:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,32 +42,40 @@
 
 
 # virtual methods
-.method public final run()V
-    .registers 4
+.method public final H()V
+    .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    .line 1
+    const-string v0, "HiSpaceObject"
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mWebView:Landroid/webkit/WebView;
+    const-string v1, "showJumpWarningDialog: user cancelled"
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v2, "javascript:window."
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->c:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->b:Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$2000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    return-void
+.end method
 
-    const-string v2, "();"
+.method public final h2()V
+    .registers 3
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 1
+    const-string v0, "HiSpaceObject"
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    const-string v1, "showJumpWarningDialog: user confirmed"
 
-    move-result-object v1
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+    iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$u;->b:Ljava/lang/String;
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->access$2000(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Ljava/lang/String;)V
 
     return-void
 .end method

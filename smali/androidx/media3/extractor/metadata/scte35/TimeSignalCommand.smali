@@ -56,15 +56,15 @@
     return-void
 .end method
 
-.method static a(Lcom/huawei/appmarket/aw5;JLcom/huawei/appmarket/pz7;)Landroidx/media3/extractor/metadata/scte35/TimeSignalCommand;
+.method static a(Lcom/huawei/appmarket/cw5;JLcom/huawei/appmarket/uz7;)Landroidx/media3/extractor/metadata/scte35/TimeSignalCommand;
     .registers 5
 
     .line 1
-    invoke-static {p1, p2, p0}, Landroidx/media3/extractor/metadata/scte35/TimeSignalCommand;->b(JLcom/huawei/appmarket/aw5;)J
+    invoke-static {p1, p2, p0}, Landroidx/media3/extractor/metadata/scte35/TimeSignalCommand;->b(JLcom/huawei/appmarket/cw5;)J
 
     move-result-wide p0
 
-    invoke-virtual {p3, p0, p1}, Lcom/huawei/appmarket/pz7;->b(J)J
+    invoke-virtual {p3, p0, p1}, Lcom/huawei/appmarket/uz7;->b(J)J
 
     move-result-wide p2
 
@@ -75,11 +75,11 @@
     return-object v0
 .end method
 
-.method static b(JLcom/huawei/appmarket/aw5;)J
+.method static b(JLcom/huawei/appmarket/cw5;)J
     .registers 10
 
     .line 1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/aw5;->A()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->A()I
 
     move-result v0
 
@@ -103,7 +103,7 @@
 
     shl-long/2addr v0, v2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/aw5;->C()J
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->C()J
 
     move-result-wide v2
 
@@ -169,7 +169,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/z84;->q(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/kk4;->r(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -287,6 +287,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V

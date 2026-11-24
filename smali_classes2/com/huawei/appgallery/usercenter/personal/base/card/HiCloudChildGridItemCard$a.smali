@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kr3;
+.implements Lcom/huawei/appmarket/mr3;
 
 
 # annotations
@@ -59,7 +59,7 @@
 
     .line 11
     .line 12
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 13
     .line 14
@@ -71,7 +71,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -173,14 +173,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final b(Ljava/lang/String;)V
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -196,7 +195,7 @@
 
     const-string v1, "HiCloudChildGridItemCard"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

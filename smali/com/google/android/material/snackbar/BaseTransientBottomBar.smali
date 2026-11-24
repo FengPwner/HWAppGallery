@@ -122,7 +122,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->b:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tx7;->a(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yx7;->a(Landroid/content/Context;)V
 
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -191,9 +191,9 @@
 
     const/4 p3, 0x1
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ei8;->g0(Landroid/view/View;I)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/ki8;->g0(Landroid/view/View;I)V
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->setFitsSystemWindows(Z)V
@@ -203,13 +203,13 @@
 
     invoke-direct {p3, p0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar$c;-><init>(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ei8;->r0(Landroid/view/View;Lcom/huawei/appmarket/qn5;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/ki8;->r0(Landroid/view/View;Lcom/huawei/appmarket/rn5;)V
 
     new-instance p3, Lcom/google/android/material/snackbar/BaseTransientBottomBar$d;
 
     invoke-direct {p3, p0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar$d;-><init>(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     const-string p2, "accessibility"
 
@@ -425,7 +425,7 @@
     move-result-object v1
 
     .line 14
-    sget-object v2, Lcom/huawei/appmarket/mm;->a:Landroid/view/animation/LinearInterpolator;
+    sget-object v2, Lcom/huawei/appmarket/lm;->a:Landroid/view/animation/LinearInterpolator;
 
     .line 15
     .line 16
@@ -465,7 +465,7 @@
     move-result-object v2
 
     .line 36
-    sget-object v3, Lcom/huawei/appmarket/mm;->d:Lcom/huawei/appmarket/yu4;
+    sget-object v3, Lcom/huawei/appmarket/lm;->d:Lcom/huawei/appmarket/bv4;
 
     .line 37
     .line 38
@@ -660,7 +660,7 @@
     .line 37
     .line 38
     .line 39
-    sget-object v2, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v2, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     .line 40
     .line 41
@@ -1003,6 +1003,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private r()V
@@ -1265,6 +1266,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
@@ -1361,7 +1363,7 @@
     move-result-object v0
 
     .line 43
-    sget-object v1, Lcom/huawei/appmarket/mm;->a:Landroid/view/animation/LinearInterpolator;
+    sget-object v1, Lcom/huawei/appmarket/lm;->a:Landroid/view/animation/LinearInterpolator;
 
     .line 44
     .line 45
@@ -1477,7 +1479,7 @@
     .line 101
     .line 102
     .line 103
-    sget-object v1, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v1, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     .line 104
     .line 105
@@ -1774,7 +1776,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/oq8;->o(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Lcom/huawei/appmarket/uq8;->o(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     move-result-object v0
 
@@ -1943,7 +1945,7 @@
     .line 53
     .line 54
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 55
     .line 56
@@ -2040,4 +2042,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

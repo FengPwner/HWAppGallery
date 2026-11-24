@@ -3,18 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/lp5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # instance fields
 .field public final synthetic b:Lcom/huawei/appmarket/service/thirdappdl/k;
 
-.field public final synthetic c:Lcom/huawei/appmarket/iu1$a;
+.field public final synthetic c:Lcom/huawei/appmarket/mu1$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/thirdappdl/k;Lcom/huawei/appmarket/iu1$a;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/thirdappdl/k;Lcom/huawei/appmarket/mu1$a;)V
     .registers 3
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/iu1$a;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/mu1$a;
 
     .line 7
     .line 8
@@ -198,7 +198,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -209,9 +208,9 @@
     .line 1
     iget-object p1, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->b:Lcom/huawei/appmarket/service/thirdappdl/k;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/iu1$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/mu1$a;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/service/thirdappdl/k;->a(Lcom/huawei/appmarket/service/thirdappdl/k;Lcom/huawei/appmarket/iu1$a;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/service/thirdappdl/k;->a(Lcom/huawei/appmarket/service/thirdappdl/k;Lcom/huawei/appmarket/mu1$a;)V
 
     return-void
 .end method
@@ -237,7 +236,7 @@
     .line 8
     .line 9
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/iu1$a;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/thirdappdl/j;->c:Lcom/huawei/appmarket/mu1$a;
 
     .line 10
     .line 11
@@ -249,7 +248,7 @@
 
     .line 14
     .line 15
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/iu1$a;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/mu1$a;->a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     .line 16
     .line 17
@@ -357,5 +356,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -755,7 +755,7 @@
     .end annotation
 
     .line 16
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->a(Ljava/time/Duration;)J
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->a(Ljava/time/Duration;)J
 
     move-result-wide v0
 
@@ -998,7 +998,7 @@
 
     iget v0, p0, Lcom/huawei/hms/network/embedded/q7$c;->y:I
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->a(Ljava/time/Duration;)J
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->a(Ljava/time/Duration;)J
 
     move-result-wide v1
 
@@ -1038,7 +1038,7 @@
     const-string v2, " ms)"
 
     .line 4
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1267,7 +1267,7 @@
     iget p2, p0, Lcom/huawei/hms/network/embedded/q7$c;->C:I
 
     .line 1
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1288,7 +1288,7 @@
     iget p2, p0, Lcom/huawei/hms/network/embedded/q7$c;->C:I
 
     .line 3
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1308,7 +1308,7 @@
     .end annotation
 
     .line 8
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->a(Ljava/time/Duration;)J
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->a(Ljava/time/Duration;)J
 
     move-result-wide v0
 
@@ -1372,7 +1372,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->a(Ljava/time/Duration;)J
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->a(Ljava/time/Duration;)J
 
     move-result-wide v0
 
@@ -1410,7 +1410,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Lcom/huawei/appmarket/gi7;->a(Ljava/time/Duration;)J
+    invoke-static {p1}, Lcom/huawei/appmarket/mi7;->a(Ljava/time/Duration;)J
 
     move-result-wide v0
 

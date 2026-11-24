@@ -61,11 +61,11 @@
     move-result-object p1
 
     .line 24
-    sget-object v0, Lcom/huawei/appmarket/bw2;->c:Lcom/huawei/appmarket/bw2;
+    sget-object v0, Lcom/huawei/appmarket/ew2;->c:Lcom/huawei/appmarket/ew2;
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bw2;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ew2;->a()I
 
     .line 27
     .line 28
@@ -85,7 +85,7 @@
     move-result p1
 
     .line 36
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 37
     .line 38
@@ -105,13 +105,13 @@
 
     .line 45
     .line 46
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/bw2;->b(I)Lcom/huawei/appmarket/bw2;
+    invoke-static {p1}, Lcom/huawei/appmarket/ew2;->b(I)Lcom/huawei/appmarket/ew2;
 
     .line 50
     .line 51
@@ -119,7 +119,7 @@
     move-result-object p1
 
     .line 53
-    sget-object v0, Lcom/huawei/appmarket/bw2;->d:Lcom/huawei/appmarket/bw2;
+    sget-object v0, Lcom/huawei/appmarket/ew2;->d:Lcom/huawei/appmarket/ew2;
 
     .line 54
     .line 55
@@ -201,16 +201,15 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method final p1()Ljava/lang/String;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vv2;->l:Lcom/huawei/appmarket/vv2;
+    sget-object v0, Lcom/huawei/appmarket/yv2;->l:Lcom/huawei/appmarket/yv2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vv2;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yv2;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -274,7 +273,7 @@
 
     .line 27
     .line 28
-    sget-object v0, Lcom/huawei/appmarket/bw2;->d:Lcom/huawei/appmarket/bw2;
+    sget-object v0, Lcom/huawei/appmarket/ew2;->d:Lcom/huawei/appmarket/ew2;
 
     .line 29
     .line 30
@@ -282,12 +281,12 @@
 
     .line 31
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/bw2;->e:Lcom/huawei/appmarket/bw2;
+    sget-object v0, Lcom/huawei/appmarket/ew2;->e:Lcom/huawei/appmarket/ew2;
 
     .line 32
     .line 33
     :goto_1
-    invoke-static {v0}, Lcom/huawei/appmarket/ew2;->q(Lcom/huawei/appmarket/bw2;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/hw2;->q(Lcom/huawei/appmarket/ew2;)V
 
     .line 34
     .line 35

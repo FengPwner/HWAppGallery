@@ -24,5 +24,5 @@
 
 
 # virtual methods
-.method public abstract j(Lcom/huawei/appmarket/d28;[II)Ljava/util/List;
+.method public abstract j(Lcom/huawei/appmarket/i28;[II)Ljava/util/List;
 .end method

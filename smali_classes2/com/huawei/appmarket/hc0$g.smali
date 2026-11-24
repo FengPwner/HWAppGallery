@@ -92,7 +92,7 @@
 
     const-string v3, "BubbleTips"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/hc0;->j(Lcom/huawei/appmarket/hc0;)Z
 

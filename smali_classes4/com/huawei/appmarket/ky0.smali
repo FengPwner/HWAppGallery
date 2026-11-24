@@ -197,7 +197,7 @@
     return-void
 .end method
 
-.method public static bridge synthetic p(Landroid/media/AudioTrack;Lcom/huawei/appmarket/uc1;Landroid/media/AudioTrack$StreamEventCallback;)V
+.method public static bridge synthetic p(Landroid/media/AudioTrack;Lcom/huawei/appmarket/wc1;Landroid/media/AudioTrack$StreamEventCallback;)V
     .registers 3
 
     .line 1

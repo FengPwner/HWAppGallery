@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/ok0;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/pk0;->a()I
 
     .line 4
     .line 5
@@ -98,7 +98,7 @@
 
     .line 29
     .line 30
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 31
     .line 32
@@ -106,7 +106,7 @@
     move-result v4
 
     .line 34
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 35
     .line 36
@@ -129,7 +129,7 @@
 
     .line 44
     .line 45
-    invoke-static {v2, p1, p2}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v2, p1, p2}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 46
     .line 47
@@ -290,5 +290,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

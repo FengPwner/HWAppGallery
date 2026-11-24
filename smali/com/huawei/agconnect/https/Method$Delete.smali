@@ -66,7 +66,7 @@
 
 
 # virtual methods
-.method public create()Lcom/huawei/appmarket/gr6$a;
+.method public create()Lcom/huawei/appmarket/jr6$a;
     .registers 5
 
     .line 1
@@ -82,7 +82,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/https/RequestFactory;->a()Lcom/huawei/appmarket/jr6$a;
 
     .line 8
     .line 9
@@ -143,11 +143,11 @@
     move-result-object v1
 
     .line 36
-    check-cast v1, Lcom/huawei/appmarket/lr6;
+    check-cast v1, Lcom/huawei/appmarket/or6;
 
     .line 37
     .line 38
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/lr6;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/or6;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -180,11 +180,11 @@
     .line 50
     .line 51
     .line 52
-    sget-object v1, Lcom/huawei/appmarket/le8;->d:Lcom/huawei/appmarket/kr6;
+    sget-object v1, Lcom/huawei/appmarket/qe8;->d:Lcom/huawei/appmarket/nr6;
 
     .line 53
     .line 54
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/lr6;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/or6;)V
 
     .line 55
     .line 56
@@ -269,4 +269,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

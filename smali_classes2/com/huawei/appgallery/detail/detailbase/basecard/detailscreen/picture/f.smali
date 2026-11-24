@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private volatile a:Lcom/huawei/appmarket/y64;
+.field private volatile a:Lcom/huawei/appmarket/b74;
 
 
 # direct methods
@@ -44,15 +44,15 @@
 
 
 # virtual methods
-.method public final b()Lcom/huawei/appmarket/y64;
+.method public final b()Lcom/huawei/appmarket/b74;
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/y64;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/b74;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/y64;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/b74;
 
     return-object v0
 
@@ -66,11 +66,11 @@
     throw v0
 .end method
 
-.method public final c(Lcom/huawei/appmarket/ev8;)V
+.method public final c(Lcom/huawei/appmarket/kv8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/y64;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->a:Lcom/huawei/appmarket/b74;
 
     return-void
 .end method

@@ -127,7 +127,7 @@
 
     const-string p1, "newInstance appInfo fail , key is invalid"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -315,7 +315,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final hashCode()I

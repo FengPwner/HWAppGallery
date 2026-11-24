@@ -36,19 +36,19 @@
     return-void
 .end method
 
-.method public static final a(Lcom/huawei/appmarket/ni8;Lcom/huawei/appmarket/a27;Landroidx/lifecycle/h;)V
+.method public static final a(Lcom/huawei/appmarket/ti8;Lcom/huawei/appmarket/e27;Landroidx/lifecycle/h;)V
     .registers 4
 
     .line 1
     const-string v0, "registry"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "lifecycle"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ni8;->g()Ljava/lang/AutoCloseable;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ti8;->g()Ljava/lang/AutoCloseable;
 
     move-result-object p0
 
@@ -62,23 +62,23 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0, p2, p1}, Landroidx/lifecycle/s;->a(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+    invoke-virtual {p0, p2, p1}, Landroidx/lifecycle/s;->a(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
 
     sget-object p0, Landroidx/lifecycle/f;->a:Landroidx/lifecycle/f;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p2, p1}, Landroidx/lifecycle/f;->c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+    invoke-static {p2, p1}, Landroidx/lifecycle/f;->c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
 
     :cond_0
     return-void
 .end method
 
-.method public static final b(Lcom/huawei/appmarket/a27;Landroidx/lifecycle/h;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/s;
+.method public static final b(Lcom/huawei/appmarket/e27;Landroidx/lifecycle/h;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/s;
     .registers 6
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/a27;->b(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/e27;->b(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -94,18 +94,18 @@
 
     invoke-direct {v0, p2, p3}, Landroidx/lifecycle/s;-><init>(Ljava/lang/String;Landroidx/lifecycle/q;)V
 
-    invoke-virtual {v0, p1, p0}, Landroidx/lifecycle/s;->a(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+    invoke-virtual {v0, p1, p0}, Landroidx/lifecycle/s;->a(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
 
     sget-object p2, Landroidx/lifecycle/f;->a:Landroidx/lifecycle/f;
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, p0}, Landroidx/lifecycle/f;->c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+    invoke-static {p1, p0}, Landroidx/lifecycle/f;->c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
 
     return-object v0
 .end method
 
-.method private static c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+.method private static c(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
     .registers 4
 
     .line 1
@@ -130,15 +130,15 @@
     :cond_0
     new-instance v0, Landroidx/lifecycle/g;
 
-    invoke-direct {v0, p0, p1}, Landroidx/lifecycle/g;-><init>(Landroidx/lifecycle/h;Lcom/huawei/appmarket/a27;)V
+    invoke-direct {v0, p0, p1}, Landroidx/lifecycle/g;-><init>(Landroidx/lifecycle/h;Lcom/huawei/appmarket/e27;)V
 
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/a27;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e27;->h()V
 
     :goto_1
     return-void

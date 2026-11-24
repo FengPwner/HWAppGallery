@@ -2,25 +2,10 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/appmarket/r67;
 
 
 # virtual methods
-.method public abstract iterator()Ljava/util/Iterator;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "TT;>;"
-        }
-    .end annotation
+.method public abstract a()V
 .end method

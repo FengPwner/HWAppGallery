@@ -21,7 +21,7 @@
 .method public abstract f()J
 .end method
 
-.method public abstract h([Landroidx/media3/exoplayer/trackselection/e;[Z[Lcom/huawei/appmarket/m17;[ZJ)J
+.method public abstract h([Landroidx/media3/exoplayer/trackselection/e;[Z[Lcom/huawei/appmarket/q17;[ZJ)J
 .end method
 
 .method public abstract i()V
@@ -32,13 +32,13 @@
     .end annotation
 .end method
 
-.method public abstract k(JLcom/huawei/appmarket/t57;)J
+.method public abstract k(JLcom/huawei/appmarket/y57;)J
 .end method
 
 .method public abstract m(Landroidx/media3/exoplayer/source/j$a;J)V
 .end method
 
-.method public abstract n()Lcom/huawei/appmarket/e28;
+.method public abstract n()Lcom/huawei/appmarket/j28;
 .end method
 
 .method public abstract s(JZ)V

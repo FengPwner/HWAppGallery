@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s44;
+.implements Lcom/huawei/appmarket/v44;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/s44<",
+        "Lcom/huawei/appmarket/v44<",
         "Ljava/util/List<",
         "Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/ShareApp;",
         ">;>;"
@@ -31,7 +31,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/tv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/wv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -90,7 +90,7 @@
 
 
 # virtual methods
-.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/f91;Ljava/lang/reflect/Field;)V
+.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/g91;Ljava/lang/reflect/Field;)V
     .registers 7
 
     .line 1
@@ -166,13 +166,13 @@
     goto :goto_2
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
+    sget-object p1, Lcom/huawei/appmarket/ky5;->a:Lcom/huawei/appmarket/ky5;
 
     const-string p2, "ShareAppTypeProcess"
 
     const-string p3, "put value failed:IllegalAccessException"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     return-void

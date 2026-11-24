@@ -53,7 +53,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/export/check/RootChecker$b;->b:Lcom/huawei/appmarket/service/export/check/RootChecker;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     return-void
 .end method

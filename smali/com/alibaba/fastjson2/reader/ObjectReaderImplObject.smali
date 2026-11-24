@@ -121,7 +121,7 @@
     const-string p2, "No suitable ObjectReader found for"
 
     .line 3
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 

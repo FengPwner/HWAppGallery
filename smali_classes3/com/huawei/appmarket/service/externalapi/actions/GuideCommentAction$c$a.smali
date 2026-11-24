@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/id6;
+.implements Lcom/huawei/appmarket/kd6;
 
 
 # annotations
@@ -100,19 +100,19 @@
 
     const-string p3, "AppComment"
 
-    const-class v1, Lcom/huawei/appmarket/ll3;
+    const-class v1, Lcom/huawei/appmarket/nl3;
 
-    invoke-static {v1, p3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, p3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
 
-    check-cast p3, Lcom/huawei/appmarket/ll3;
+    check-cast p3, Lcom/huawei/appmarket/nl3;
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$302(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;Lcom/huawei/appmarket/ll3;)Lcom/huawei/appmarket/ll3;
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$302(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;Lcom/huawei/appmarket/nl3;)Lcom/huawei/appmarket/nl3;
 
     iget-object p1, p1, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction$c;->b:Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$300(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/ll3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$300(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/nl3;
 
     move-result-object p2
 
@@ -120,11 +120,11 @@
 
     move-result-object p3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;->access$400(Lcom/huawei/appmarket/service/externalapi/actions/GuideCommentAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
-    invoke-interface {p2, p3, p1}, Lcom/huawei/appmarket/ll3;->a(Lcom/huawei/appmarket/zu0;Lcom/huawei/appmarket/c72$b;)V
+    invoke-interface {p2, p3, p1}, Lcom/huawei/appmarket/nl3;->a(Lcom/huawei/appmarket/zu0;Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method

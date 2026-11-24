@@ -54,13 +54,13 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/sb6;
+    check-cast p1, Lcom/huawei/appmarket/ub6;
 
     if-eqz p1, :cond_0
 
     iget-object p2, p0, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment$d;->a:Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;
 
-    invoke-static {p2, p1}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->B6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;Lcom/huawei/appmarket/sb6;)V
+    invoke-static {p2, p1}, Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;->B6(Lcom/huawei/appgallery/forum/message/fragment/MessageDetailFragment;Lcom/huawei/appmarket/ub6;)V
 
     :cond_0
     return-void

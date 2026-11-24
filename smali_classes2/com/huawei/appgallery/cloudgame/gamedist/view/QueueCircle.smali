@@ -213,7 +213,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/xj5;->u(Landroid/widget/TextView;II)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/zj5;->u(Landroid/widget/TextView;II)V
 
     .line 43
     .line 44
@@ -376,7 +376,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic f(Lcom/huawei/appgallery/cloudgame/gamedist/view/QueueCircle;)I
@@ -1309,15 +1308,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -1334,7 +1324,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -1509,11 +1499,11 @@
     .line 90
     .line 91
     .line 92
-    new-instance v1, Lcom/huawei/appmarket/uh2;
+    new-instance v1, Lcom/huawei/appmarket/xh2;
 
     .line 93
     .line 94
-    invoke-direct {v1}, Lcom/huawei/appmarket/uh2;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/xh2;-><init>()V
 
     .line 95
     .line 96
@@ -1641,7 +1631,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method protected final onMeasure(II)V
@@ -1755,7 +1744,7 @@
 
     iget v5, p0, Lcom/huawei/appgallery/cloudgame/gamedist/view/QueueCircle;->c:I
 
-    invoke-static {p1, v0, v5}, Lcom/huawei/appmarket/xj5;->u(Landroid/widget/TextView;II)V
+    invoke-static {p1, v0, v5}, Lcom/huawei/appmarket/zj5;->u(Landroid/widget/TextView;II)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/view/QueueCircle;->j:Landroid/widget/TextView;

@@ -26,7 +26,7 @@
     .registers 5
 
     .line 1
-    instance-of v0, p0, Lcom/huawei/appmarket/jc2;
+    instance-of v0, p0, Lcom/huawei/appmarket/mc2;
 
     .line 2
     .line 3
@@ -34,11 +34,11 @@
 
     .line 4
     .line 5
-    check-cast p0, Lcom/huawei/appmarket/jc2;
+    check-cast p0, Lcom/huawei/appmarket/mc2;
 
     .line 6
     .line 7
-    invoke-interface {p0, p2, p3, p1}, Lcom/huawei/appmarket/jc2;->supply(Lcom/huawei/flexiblelayout/data/a;Lcom/huawei/flexiblelayout/data/g$c;Lcom/huawei/flexiblelayout/data/FLNodeData;)Ljava/util/List;
+    invoke-interface {p0, p2, p3, p1}, Lcom/huawei/appmarket/mc2;->supply(Lcom/huawei/flexiblelayout/data/a;Lcom/huawei/flexiblelayout/data/g$c;Lcom/huawei/flexiblelayout/data/FLNodeData;)Ljava/util/List;
 
     .line 8
     .line 9
@@ -959,7 +959,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/oc2;->c(Ljava/lang/String;)Lcom/huawei/flexiblelayout/data/g$b;
+    invoke-static {p0}, Lcom/huawei/appmarket/rc2;->c(Ljava/lang/String;)Lcom/huawei/flexiblelayout/data/g$b;
 
     move-result-object v0
 

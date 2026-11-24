@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86$a;
+.implements Lcom/huawei/appmarket/b96$a;
 
 
 # annotations
@@ -131,7 +131,7 @@
     .line 1
     iput-object p2, p0, Lcom/huawei/appgallery/detail/detaildist/mini/protocol/AppDetailFragmentProtocol$Request;->bottomBean:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/m52;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;I)V
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/q52;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;I)V
 
     return-void
 .end method

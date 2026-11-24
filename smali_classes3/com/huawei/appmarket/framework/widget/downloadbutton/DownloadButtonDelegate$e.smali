@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -60,9 +60,9 @@
 
     if-ne p3, p1, :cond_0
 
-    new-instance p1, Lcom/huawei/appmarket/qw2;
+    new-instance p1, Lcom/huawei/appmarket/tw2;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/qw2;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/tw2;-><init>()V
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$e;->d:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
@@ -78,7 +78,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$e;->b:Landroid/content/Context;
 
-    invoke-static {v0, p2, p1, p3}, Lcom/huawei/appmarket/qw2;->b(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$f;)V
+    invoke-static {v0, p2, p1, p3}, Lcom/huawei/appmarket/tw2;->b(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate$f;)V
 
     :cond_0
     return-void

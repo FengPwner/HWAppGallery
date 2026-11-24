@@ -942,607 +942,609 @@
     long-to-int v15, v14
 
     .line 240
-    mul-int/lit8 v14, v15, 0x5
+    const/4 v14, 0x5
 
     .line 241
+    const/4 v6, 0x2
+
     .line 242
-    add-int/lit8 v14, v14, 0x2
+    const/16 v8, 0x99
 
     .line 243
     .line 244
-    div-int/lit16 v14, v14, 0x99
+    invoke-static {v15, v14, v6, v8}, Lcom/huawei/appmarket/uq5;->b(IIII)I
 
     .line 245
     .line 246
-    add-int/lit8 v16, v14, 0x2
-
     .line 247
+    move-result v6
+
     .line 248
-    rem-int/lit8 v16, v16, 0xc
+    add-int/lit8 v8, v6, 0x2
 
     .line 249
     .line 250
-    const/4 v6, 0x1
+    rem-int/lit8 v8, v8, 0xc
 
     .line 251
-    add-int/lit8 v16, v16, 0x1
-
     .line 252
+    const/4 v14, 0x1
+
     .line 253
-    mul-int/lit16 v8, v14, 0x132
+    add-int/lit8 v16, v8, 0x1
 
     .line 254
     .line 255
-    add-int/lit8 v8, v8, 0x5
+    mul-int/lit16 v8, v6, 0x132
 
     .line 256
     .line 257
-    div-int/lit8 v8, v8, 0xa
+    add-int/lit8 v8, v8, 0x5
 
     .line 258
     .line 259
-    sub-int/2addr v15, v8
+    div-int/lit8 v8, v8, 0xa
 
     .line 260
-    add-int/2addr v6, v15
-
     .line 261
-    div-int/lit8 v14, v14, 0xa
+    sub-int/2addr v15, v8
 
     .line 262
+    add-int/2addr v14, v15
+
     .line 263
-    int-to-long v14, v14
+    div-int/lit8 v6, v6, 0xa
 
     .line 264
-    add-long/2addr v12, v14
-
     .line 265
-    invoke-static {v12, v13}, Lcom/alibaba/fastjson2/time/LocalDateTime;->checkYear(J)I
+    int-to-long v10, v6
 
     .line 266
+    add-long/2addr v12, v10
+
     .line 267
+    invoke-static {v12, v13}, Lcom/alibaba/fastjson2/time/LocalDateTime;->checkYear(J)I
+
     .line 268
-    move-result v12
-
     .line 269
-    int-to-long v7, v7
-
     .line 270
-    cmp-long v13, v7, v10
+    move-result v6
 
     .line 271
+    int-to-long v7, v7
+
     .line 272
-    if-ltz v13, :cond_14
+    const-wide/16 v10, 0x0
 
     .line 273
     .line 274
-    const-wide/32 v10, 0x1517f
+    cmp-long v12, v7, v10
 
     .line 275
     .line 276
+    if-ltz v12, :cond_14
+
     .line 277
-    cmp-long v13, v7, v10
-
     .line 278
-    .line 279
-    if-gtz v13, :cond_14
+    const-wide/32 v10, 0x1517f
 
+    .line 279
     .line 280
     .line 281
-    const-wide/16 v10, 0xe10
+    cmp-long v12, v7, v10
 
     .line 282
     .line 283
-    div-long v10, v7, v10
+    if-gtz v12, :cond_14
 
     .line 284
     .line 285
-    long-to-int v11, v10
+    const-wide/16 v10, 0xe10
 
     .line 286
-    mul-int/lit16 v10, v11, 0xe10
-
     .line 287
-    .line 288
-    int-to-long v13, v10
+    div-long v10, v7, v10
 
+    .line 288
     .line 289
-    sub-long/2addr v7, v13
+    long-to-int v11, v10
 
     .line 290
-    const-wide/16 v13, 0x3c
+    mul-int/lit16 v10, v11, 0xe10
 
     .line 291
     .line 292
-    div-long v13, v7, v13
+    int-to-long v12, v10
 
     .line 293
+    sub-long/2addr v7, v12
+
     .line 294
-    long-to-int v10, v13
+    const-wide/16 v12, 0x3c
 
     .line 295
-    mul-int/lit8 v13, v10, 0x3c
-
     .line 296
-    .line 297
-    int-to-long v13, v13
+    div-long v12, v7, v12
 
+    .line 297
     .line 298
-    sub-long/2addr v7, v13
+    long-to-int v10, v12
 
     .line 299
-    long-to-int v7, v7
+    mul-int/lit8 v12, v10, 0x3c
 
     .line 300
-    if-ltz v12, :cond_e
-
     .line 301
+    int-to-long v12, v12
+
     .line 302
-    const/16 v8, 0x270f
+    sub-long/2addr v7, v12
 
     .line 303
+    long-to-int v7, v7
+
     .line 304
-    if-gt v12, v8, :cond_e
+    if-ltz v6, :cond_e
 
     .line 305
     .line 306
-    iget-boolean v5, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatyyyyMMddhhmmss14:Z
+    const/16 v8, 0x270f
 
     .line 307
     .line 308
-    if-eqz v5, :cond_b
+    if-gt v6, v8, :cond_e
 
     .line 309
     .line 310
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+    iget-boolean v5, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatyyyyMMddhhmmss14:Z
 
     .line 311
     .line 312
+    if-eqz v5, :cond_b
+
     .line 313
+    .line 314
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
+    .line 315
+    .line 316
+    .line 317
     move-object/from16 v1, p1
 
-    .line 314
-    .line 315
-    move v2, v12
-
-    .line 316
-    move/from16 v3, v16
-
-    .line 317
     .line 318
-    move v4, v6
-
     .line 319
-    move v5, v11
+    move v2, v6
 
     .line 320
-    move v6, v10
+    move/from16 v3, v16
 
     .line 321
-    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime14(IIIIII)V
-
     .line 322
+    move v4, v14
+
     .line 323
+    move v5, v11
+
     .line 324
-    return-void
+    move v6, v10
 
     .line 325
-    :cond_b
-    if-eqz v9, :cond_c
+    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime14(IIIIII)V
 
     .line 326
     .line 327
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
-
     .line 328
-    .line 329
-    .line 330
-    move-object/from16 v1, p1
-
-    .line 331
-    .line 332
-    move v2, v12
-
-    .line 333
-    move/from16 v3, v16
-
-    .line 334
-    .line 335
-    move v4, v6
-
-    .line 336
-    move v5, v11
-
-    .line 337
-    move v6, v10
-
-    .line 338
-    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime19(IIIIII)V
-
-    .line 339
-    .line 340
-    .line 341
     return-void
 
+    .line 329
+    :cond_b
+    if-eqz v9, :cond_c
+
+    .line 330
+    .line 331
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
+    .line 332
+    .line 333
+    .line 334
+    move-object/from16 v1, p1
+
+    .line 335
+    .line 336
+    move v2, v6
+
+    .line 337
+    move/from16 v3, v16
+
+    .line 338
+    .line 339
+    move v4, v14
+
+    .line 340
+    move v5, v11
+
+    .line 341
+    move v6, v10
+
     .line 342
-    :cond_c
-    const-wide/16 v8, 0x3e8
+    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime19(IIIIII)V
 
     .line 343
     .line 344
+    .line 345
+    return-void
+
+    .line 346
+    :cond_c
+    const-wide/16 v8, 0x3e8
+
+    .line 347
+    .line 348
     invoke-static {v2, v3, v8, v9}, Lcom/alibaba/fastjson2/util/IOUtils;->floorMod(JJ)J
 
-    .line 345
-    .line 346
-    .line 347
-    move-result-wide v8
-
-    .line 348
-    long-to-int v8, v8
-
     .line 349
-    if-eqz v8, :cond_d
-
     .line 350
     .line 351
-    invoke-static/range {p2 .. p3}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
+    move-result-wide v8
 
     .line 352
-    .line 353
-    .line 354
-    move-result-object v2
+    long-to-int v8, v8
 
+    .line 353
+    if-eqz v8, :cond_d
+
+    .line 354
     .line 355
-    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getZoneId()Lcom/alibaba/fastjson2/time/ZoneId;
+    invoke-static/range {p2 .. p3}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
 
     .line 356
     .line 357
     .line 358
-    move-result-object v3
+    move-result-object v2
 
     .line 359
-    invoke-virtual {v3, v2}, Lcom/alibaba/fastjson2/time/ZoneId;->getOffsetTotalSeconds(Lcom/alibaba/fastjson2/time/Instant;)I
+    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getZoneId()Lcom/alibaba/fastjson2/time/ZoneId;
 
     .line 360
     .line 361
     .line 362
-    move-result v9
+    move-result-object v3
 
     .line 363
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+    invoke-virtual {v3, v2}, Lcom/alibaba/fastjson2/time/ZoneId;->getOffsetTotalSeconds(Lcom/alibaba/fastjson2/time/Instant;)I
 
     .line 364
     .line 365
     .line 366
-    const/4 v13, 0x0
+    move-result v9
 
     .line 367
-    move-object/from16 v1, p1
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
 
     .line 368
     .line 369
-    move v2, v12
-
     .line 370
-    move/from16 v3, v16
+    const/4 v12, 0x0
 
     .line 371
-    .line 372
-    move v4, v6
+    move-object/from16 v1, p1
 
+    .line 372
     .line 373
-    move v5, v11
+    move v2, v6
 
     .line 374
-    move v6, v10
+    move/from16 v3, v16
 
     .line 375
-    move v10, v13
-
     .line 376
-    invoke-virtual/range {v1 .. v10}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTimeISO8601(IIIIIIIIZ)V
+    move v4, v14
 
     .line 377
+    move v5, v11
+
     .line 378
+    move v6, v10
+
     .line 379
-    return-void
+    move v10, v12
 
     .line 380
-    :cond_d
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+    invoke-virtual/range {v1 .. v10}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTimeISO8601(IIIIIIIIZ)V
 
     .line 381
     .line 382
     .line 383
-    move-object/from16 v1, p1
-
-    .line 384
-    .line 385
-    move v2, v12
-
-    .line 386
-    move/from16 v3, v16
-
-    .line 387
-    .line 388
-    move v4, v6
-
-    .line 389
-    move v5, v11
-
-    .line 390
-    move v6, v10
-
-    .line 391
-    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime19(IIIIII)V
-
-    .line 392
-    .line 393
-    .line 394
     return-void
 
-    .line 395
-    :cond_e
+    .line 384
+    :cond_d
     invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
+    .line 385
+    .line 386
+    .line 387
+    move-object/from16 v1, p1
+
+    .line 388
+    .line 389
+    move v2, v6
+
+    .line 390
+    move/from16 v3, v16
+
+    .line 391
+    .line 392
+    move v4, v14
+
+    .line 393
+    move v5, v11
+
+    .line 394
+    move v6, v10
+
+    .line 395
+    invoke-virtual/range {v1 .. v7}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTime19(IIIIII)V
 
     .line 396
     .line 397
     .line 398
-    invoke-static/range {p2 .. p3}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
+    return-void
 
     .line 399
+    :cond_e
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
     .line 400
     .line 401
-    move-result-object v6
-
     .line 402
-    invoke-static {v6, v5}, Lcom/alibaba/fastjson2/time/ZonedDateTime;->ofInstant(Lcom/alibaba/fastjson2/time/Instant;Lcom/alibaba/fastjson2/time/ZoneId;)Lcom/alibaba/fastjson2/time/ZonedDateTime;
+    invoke-static/range {p2 .. p3}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
 
     .line 403
     .line 404
     .line 405
-    move-result-object v5
+    move-result-object v6
 
     .line 406
-    iget-boolean v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatISO8601:Z
+    invoke-static {v6, v5}, Lcom/alibaba/fastjson2/time/ZonedDateTime;->ofInstant(Lcom/alibaba/fastjson2/time/Instant;Lcom/alibaba/fastjson2/time/ZoneId;)Lcom/alibaba/fastjson2/time/ZonedDateTime;
 
     .line 407
     .line 408
-    if-nez v6, :cond_f
-
     .line 409
+    move-result-object v5
+
     .line 410
-    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->isDateFormatISO8601()Z
+    iget-boolean v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatISO8601:Z
 
     .line 411
     .line 412
-    .line 413
-    move-result v6
+    if-nez v6, :cond_f
 
+    .line 413
     .line 414
-    if-eqz v6, :cond_10
+    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->isDateFormatISO8601()Z
 
     .line 415
     .line 416
-    iget-object v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriter;->format:Ljava/lang/String;
-
     .line 417
+    move-result v6
+
     .line 418
-    if-nez v6, :cond_10
+    if-eqz v6, :cond_10
 
     .line 419
     .line 420
-    :cond_f
-    iget-object v6, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->dateTime:Lcom/alibaba/fastjson2/time/LocalDateTime;
+    iget-object v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriter;->format:Ljava/lang/String;
 
     .line 421
     .line 422
-    iget-object v7, v6, Lcom/alibaba/fastjson2/time/LocalDateTime;->date:Lcom/alibaba/fastjson2/time/LocalDate;
+    if-nez v6, :cond_10
 
     .line 423
     .line 424
-    iget v9, v7, Lcom/alibaba/fastjson2/time/LocalDate;->year:I
+    :cond_f
+    iget-object v6, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->dateTime:Lcom/alibaba/fastjson2/time/LocalDateTime;
 
     .line 425
     .line 426
-    if-ltz v9, :cond_10
+    iget-object v7, v6, Lcom/alibaba/fastjson2/time/LocalDateTime;->date:Lcom/alibaba/fastjson2/time/LocalDate;
 
     .line 427
     .line 428
-    const/16 v8, 0x270f
+    iget v9, v7, Lcom/alibaba/fastjson2/time/LocalDate;->year:I
 
     .line 429
     .line 430
-    if-gt v9, v8, :cond_10
+    if-ltz v9, :cond_10
 
     .line 431
     .line 432
-    iget-short v3, v7, Lcom/alibaba/fastjson2/time/LocalDate;->monthValue:S
+    const/16 v8, 0x270f
 
     .line 433
     .line 434
-    iget-short v4, v7, Lcom/alibaba/fastjson2/time/LocalDate;->dayOfMonth:S
+    if-gt v9, v8, :cond_10
 
     .line 435
     .line 436
-    iget-object v2, v6, Lcom/alibaba/fastjson2/time/LocalDateTime;->time:Lcom/alibaba/fastjson2/time/LocalTime;
+    iget-short v3, v7, Lcom/alibaba/fastjson2/time/LocalDate;->monthValue:S
 
     .line 437
     .line 438
-    iget-byte v6, v2, Lcom/alibaba/fastjson2/time/LocalTime;->hour:B
+    iget-short v4, v7, Lcom/alibaba/fastjson2/time/LocalDate;->dayOfMonth:S
 
     .line 439
     .line 440
-    iget-byte v7, v2, Lcom/alibaba/fastjson2/time/LocalTime;->minute:B
+    iget-object v2, v6, Lcom/alibaba/fastjson2/time/LocalDateTime;->time:Lcom/alibaba/fastjson2/time/LocalTime;
 
     .line 441
     .line 442
-    iget-byte v8, v2, Lcom/alibaba/fastjson2/time/LocalTime;->second:B
+    iget-byte v6, v2, Lcom/alibaba/fastjson2/time/LocalTime;->hour:B
 
     .line 443
     .line 444
-    iget v2, v2, Lcom/alibaba/fastjson2/time/LocalTime;->nano:I
+    iget-byte v7, v2, Lcom/alibaba/fastjson2/time/LocalTime;->minute:B
 
     .line 445
     .line 446
-    const v10, 0xf4240
+    iget-byte v8, v2, Lcom/alibaba/fastjson2/time/LocalTime;->second:B
 
     .line 447
     .line 448
+    iget v2, v2, Lcom/alibaba/fastjson2/time/LocalTime;->nano:I
+
     .line 449
-    div-int v10, v2, v10
-
     .line 450
-    .line 451
-    iget v11, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->offsetSeconds:I
+    const v10, 0xf4240
 
+    .line 451
     .line 452
     .line 453
-    const/4 v12, 0x1
+    div-int v10, v2, v10
 
     .line 454
-    move-object/from16 v1, p1
-
     .line 455
-    .line 456
-    move v2, v9
+    iget v11, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->offsetSeconds:I
 
+    .line 456
     .line 457
-    move v5, v6
+    const/4 v12, 0x1
 
     .line 458
-    move v6, v7
+    move-object/from16 v1, p1
 
     .line 459
-    move v7, v8
-
     .line 460
-    move v8, v10
+    move v2, v9
 
     .line 461
-    move v9, v11
+    move v5, v6
 
     .line 462
-    move v10, v12
+    move v6, v7
 
     .line 463
-    invoke-virtual/range {v1 .. v10}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTimeISO8601(IIIIIIIIZ)V
+    move v7, v8
 
     .line 464
+    move v8, v10
+
     .line 465
+    move v9, v11
+
     .line 466
-    return-void
+    move v10, v12
 
     .line 467
-    :cond_10
-    iget-boolean v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatyyyyMMdd8:Z
+    invoke-virtual/range {v1 .. v10}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateTimeISO8601(IIIIIIIIZ)V
 
     .line 468
     .line 469
-    if-eqz v6, :cond_11
-
     .line 470
+    return-void
+
     .line 471
-    iget-object v5, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->dateTime:Lcom/alibaba/fastjson2/time/LocalDateTime;
+    :cond_10
+    iget-boolean v6, v0, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->formatyyyyMMdd8:Z
 
     .line 472
     .line 473
-    iget-object v5, v5, Lcom/alibaba/fastjson2/time/LocalDateTime;->date:Lcom/alibaba/fastjson2/time/LocalDate;
+    if-eqz v6, :cond_11
 
     .line 474
     .line 475
-    iget v6, v5, Lcom/alibaba/fastjson2/time/LocalDate;->year:I
+    iget-object v5, v5, Lcom/alibaba/fastjson2/time/ZonedDateTime;->dateTime:Lcom/alibaba/fastjson2/time/LocalDateTime;
 
     .line 476
     .line 477
-    if-ltz v6, :cond_11
+    iget-object v5, v5, Lcom/alibaba/fastjson2/time/LocalDateTime;->date:Lcom/alibaba/fastjson2/time/LocalDate;
 
     .line 478
     .line 479
-    const/16 v7, 0x270f
+    iget v6, v5, Lcom/alibaba/fastjson2/time/LocalDate;->year:I
 
     .line 480
     .line 481
-    if-gt v6, v7, :cond_11
+    if-ltz v6, :cond_11
 
     .line 482
     .line 483
-    iget-short v2, v5, Lcom/alibaba/fastjson2/time/LocalDate;->monthValue:S
+    const/16 v7, 0x270f
 
     .line 484
     .line 485
-    iget-short v3, v5, Lcom/alibaba/fastjson2/time/LocalDate;->dayOfMonth:S
+    if-gt v6, v7, :cond_11
 
     .line 486
     .line 487
-    invoke-virtual {v1, v6, v2, v3}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateYYYMMDD8(III)V
+    iget-short v2, v5, Lcom/alibaba/fastjson2/time/LocalDate;->monthValue:S
 
     .line 488
     .line 489
-    .line 490
-    return-void
+    iget-short v3, v5, Lcom/alibaba/fastjson2/time/LocalDate;->dayOfMonth:S
 
+    .line 490
     .line 491
-    :cond_11
-    invoke-virtual/range {p0 .. p0}, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->getFormatter()Lcom/alibaba/fastjson2/time/DateTimeFormatter;
+    invoke-virtual {v1, v6, v2, v3}, Lcom/alibaba/fastjson2/JSONWriter;->writeDateYYYMMDD8(III)V
 
     .line 492
     .line 493
     .line 494
-    move-result-object v5
+    return-void
 
     .line 495
-    if-nez v5, :cond_12
+    :cond_11
+    invoke-virtual/range {p0 .. p0}, Lcom/alibaba/fastjson2/writer/FieldWriterDate;->getFormatter()Lcom/alibaba/fastjson2/time/DateTimeFormatter;
 
     .line 496
     .line 497
-    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getDateFormatter()Lcom/alibaba/fastjson2/time/DateTimeFormatter;
-
     .line 498
-    .line 499
-    .line 500
     move-result-object v5
 
+    .line 499
+    if-nez v5, :cond_12
+
+    .line 500
     .line 501
-    :cond_12
-    new-instance v4, Ljava/util/Date;
+    invoke-virtual {v4}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getDateFormatter()Lcom/alibaba/fastjson2/time/DateTimeFormatter;
 
     .line 502
     .line 503
+    .line 504
+    move-result-object v5
+
+    .line 505
+    :cond_12
+    new-instance v4, Ljava/util/Date;
+
+    .line 506
+    .line 507
     invoke-direct {v4, v2, v3}, Ljava/util/Date;-><init>(J)V
 
-    .line 504
-    .line 505
-    .line 506
-    if-eqz v5, :cond_13
-
-    .line 507
     .line 508
-    invoke-virtual {v5, v4}, Lcom/alibaba/fastjson2/time/DateTimeFormatter;->format(Ljava/util/Date;)Ljava/lang/String;
-
     .line 509
     .line 510
-    .line 511
-    move-result-object v2
+    if-eqz v5, :cond_13
 
+    .line 511
     .line 512
-    goto :goto_5
+    invoke-virtual {v5, v4}, Lcom/alibaba/fastjson2/time/DateTimeFormatter;->format(Ljava/util/Date;)Ljava/lang/String;
 
     .line 513
+    .line 514
+    .line 515
+    move-result-object v2
+
+    .line 516
+    goto :goto_5
+
+    .line 517
     :cond_13
     iget-object v2, v1, Lcom/alibaba/fastjson2/JSONWriter;->context:Lcom/alibaba/fastjson2/JSONWriter$Context;
 
-    .line 514
-    .line 515
-    invoke-virtual {v2}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getZoneId()Lcom/alibaba/fastjson2/time/ZoneId;
-
-    .line 516
-    .line 517
     .line 518
-    move-result-object v2
-
     .line 519
-    invoke-static {v4, v2}, Lcom/alibaba/fastjson2/util/DateUtils;->formatYMDHMS19(Ljava/util/Date;Lcom/alibaba/fastjson2/time/ZoneId;)Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/alibaba/fastjson2/JSONWriter$Context;->getZoneId()Lcom/alibaba/fastjson2/time/ZoneId;
 
     .line 520
     .line 521
@@ -1550,79 +1552,83 @@
     move-result-object v2
 
     .line 523
-    :goto_5
-    invoke-virtual {v1, v2}, Lcom/alibaba/fastjson2/JSONWriter;->writeString(Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/alibaba/fastjson2/util/DateUtils;->formatYMDHMS19(Ljava/util/Date;Lcom/alibaba/fastjson2/time/ZoneId;)Ljava/lang/String;
 
     .line 524
     .line 525
     .line 526
-    return-void
+    move-result-object v2
 
     .line 527
-    :cond_14
-    new-instance v1, Lcom/alibaba/fastjson2/time/DateTimeException;
+    :goto_5
+    invoke-virtual {v1, v2}, Lcom/alibaba/fastjson2/JSONWriter;->writeString(Ljava/lang/String;)V
 
     .line 528
     .line 529
-    const-string v2, "Invalid secondOfDay "
-
     .line 530
+    return-void
+
     .line 531
-    invoke-static {v2, v7, v8}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    :cond_14
+    new-instance v1, Lcom/alibaba/fastjson2/time/DateTimeException;
 
     .line 532
     .line 533
-    .line 534
-    move-result-object v2
+    const-string v2, "Invalid secondOfDay "
 
+    .line 534
     .line 535
-    invoke-direct {v1, v2}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
+    invoke-static {v2, v7, v8}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 536
     .line 537
     .line 538
-    throw v1
+    move-result-object v2
 
     .line 539
-    :cond_15
-    :goto_6
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+    invoke-direct {v1, v2}, Lcom/alibaba/fastjson2/time/DateTimeException;-><init>(Ljava/lang/String;)V
 
     .line 540
     .line 541
     .line 542
-    invoke-virtual/range {p1 .. p3}, Lcom/alibaba/fastjson2/JSONWriter;->writeInt64(J)V
+    throw v1
 
     .line 543
+    :cond_15
+    :goto_6
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
     .line 544
     .line 545
-    return-void
-
     .line 546
-    :cond_16
-    :goto_7
-    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+    invoke-virtual/range {p1 .. p3}, Lcom/alibaba/fastjson2/JSONWriter;->writeInt64(J)V
 
     .line 547
     .line 548
     .line 549
-    const-wide/16 v4, 0x3e8
+    return-void
 
     .line 550
+    :cond_16
+    :goto_7
+    invoke-virtual/range {p0 .. p1}, Lcom/alibaba/fastjson2/writer/FieldWriter;->writeFieldName(Lcom/alibaba/fastjson2/JSONWriter;)V
+
     .line 551
-    div-long/2addr v2, v4
-
     .line 552
-    invoke-virtual {v1, v2, v3}, Lcom/alibaba/fastjson2/JSONWriter;->writeInt64(J)V
-
     .line 553
+    const-wide/16 v4, 0x3e8
+
     .line 554
     .line 555
-    return-void
+    div-long/2addr v2, v4
+
     .line 556
+    invoke-virtual {v1, v2, v3}, Lcom/alibaba/fastjson2/JSONWriter;->writeInt64(J)V
+
     .line 557
     .line 558
     .line 559
+    return-void
     .line 560
     .line 561
     .line 562

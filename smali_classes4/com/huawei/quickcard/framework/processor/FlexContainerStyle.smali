@@ -243,7 +243,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/t86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/v86;->b(Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)Z
 
     move-result v0
 
@@ -510,7 +510,7 @@
     goto :goto_2
 
     :cond_c
-    const-string p3, "wrap"
+    const-string/jumbo p3, "wrap"
 
     invoke-virtual {p3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -523,7 +523,7 @@
     goto :goto_2
 
     :cond_d
-    const-string p3, "wrap-reverse"
+    const-string/jumbo p3, "wrap-reverse"
 
     invoke-virtual {p3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

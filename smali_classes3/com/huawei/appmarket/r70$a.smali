@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wu1;
+.implements Lcom/huawei/appmarket/av1;
 
 
 # annotations
@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -183,13 +183,13 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/js;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ks;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;->r(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/qr1;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/tr1;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;)V
 
     :cond_1
     return-void
@@ -198,7 +198,7 @@
     :goto_0
     const-string p1, "getSplitTaskList or splitTask is empty"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

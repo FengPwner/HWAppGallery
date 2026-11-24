@@ -95,7 +95,7 @@
     return v0
 
     :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
 
     move-result-object v1
 

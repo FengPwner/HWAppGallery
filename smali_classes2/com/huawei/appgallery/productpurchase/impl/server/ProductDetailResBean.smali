@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/productpurchase/impl/server/ProductDetailResBean;
-.super Lcom/huawei/appmarket/a86;
+.super Lcom/huawei/appmarket/c86;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/a86;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/c86;-><init>()V
 
     return-void
 .end method

@@ -25,14 +25,14 @@
 .method public abstract clearVirusAppInfo(Ljava/lang/String;Z)Z
 .end method
 
-.method public abstract excuteCloudVerify(Ljava/util/List;Lcom/huawei/appmarket/xm5;)V
+.method public abstract excuteCloudVerify(Ljava/util/List;Lcom/huawei/appmarket/ym5;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
             "Lcom/huawei/appgallery/agguard/api/bean/AgGuardPkgInfo;",
             ">;",
-            "Lcom/huawei/appmarket/xm5<",
+            "Lcom/huawei/appmarket/ym5<",
             "Ljava/util/List<",
             "Lcom/huawei/appgallery/agguard/api/bean/AgGuardVirusInfo;",
             ">;>;)V"
@@ -43,11 +43,11 @@
 .method public abstract excuteTimingDetectionTask()V
 .end method
 
-.method public abstract getAgGuardConfig()Lcom/huawei/appmarket/hv7;
+.method public abstract getAgGuardConfig()Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -85,7 +85,7 @@
 .method public abstract registerListener()V
 .end method
 
-.method public abstract registerWorkExecuteCallback(Lcom/huawei/appmarket/x64;)V
+.method public abstract registerWorkExecuteCallback(Lcom/huawei/appmarket/a74;)V
 .end method
 
 .method public abstract reportRuntimeRecordInfo(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
@@ -127,7 +127,7 @@
 .method public abstract sendAgGuardNotification()V
 .end method
 
-.method public abstract setDependencyImpl(Lcom/huawei/appmarket/pg3;)V
+.method public abstract setDependencyImpl(Lcom/huawei/appmarket/rg3;)V
 .end method
 
 .method public abstract setInstallManagerUri(Ljava/lang/String;)V

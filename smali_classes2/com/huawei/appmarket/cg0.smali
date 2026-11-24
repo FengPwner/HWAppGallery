@@ -3,28 +3,30 @@
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/cg0$b;
+    }
+.end annotation
+
+
 # static fields
-.field private static final d:Lcom/huawei/appmarket/cg0;
-
-
-# instance fields
-.field private a:Z
-
-.field private b:Z
-
-.field private c:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;
+.field private static final a:Lcom/huawei/appmarket/cg0$b;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 1
+    .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/cg0;
+    new-instance v0, Lcom/huawei/appmarket/cg0$b;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/cg0;-><init>()V
+    const/4 v1, 0x0
 
-    sput-object v0, Lcom/huawei/appmarket/cg0;->d:Lcom/huawei/appmarket/cg0;
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/cg0$b;-><init>(Lcom/huawei/appmarket/cg0$a;)V
+
+    sput-object v0, Lcom/huawei/appmarket/cg0;->a:Lcom/huawei/appmarket/cg0$b;
 
     return-void
 .end method
@@ -37,67 +39,46 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/cg0;
-    .registers 1
+.method public static a(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cg0;->d:Lcom/huawei/appmarket/cg0;
+    sget-object v0, Lcom/huawei/appmarket/cg0;->a:Lcom/huawei/appmarket/cg0$b;
 
-    return-object v0
-.end method
-
-
-# virtual methods
-.method public final b()Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/cg0;->c:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;
-
-    return-object v0
-.end method
-
-.method public final c()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/cg0;->a:Z
-
-    return v0
-.end method
-
-.method public final d()Z
-    .registers 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/cg0;->b:Z
-
-    return v0
-.end method
-
-.method public final e(Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/cg0;->c:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameAppInfo;
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final f(Z)V
-    .registers 2
+.method public static b(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    iput-boolean p1, p0, Lcom/huawei/appmarket/cg0;->a:Z
+    sget-object v0, Lcom/huawei/appmarket/cg0;->a:Lcom/huawei/appmarket/cg0$b;
+
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final g(Z)V
-    .registers 2
+.method public static c(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    iput-boolean p1, p0, Lcom/huawei/appmarket/cg0;->b:Z
+    sget-object v0, Lcom/huawei/appmarket/cg0;->a:Lcom/huawei/appmarket/cg0$b;
+
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static d(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/cg0;->a:Lcom/huawei/appmarket/cg0$b;
+
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

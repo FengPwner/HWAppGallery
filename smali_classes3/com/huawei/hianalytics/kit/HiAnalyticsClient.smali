@@ -4,13 +4,13 @@
 
 
 # virtual methods
-.method public abstract getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/hv7;
+.method public abstract getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hianalytics/i0;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hianalytics/t0;",
             ">;"
         }

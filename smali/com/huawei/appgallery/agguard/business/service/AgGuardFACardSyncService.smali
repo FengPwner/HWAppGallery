@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/qg3$a;
+.field private final b:Lcom/huawei/appmarket/sg3$a;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService$a;-><init>(Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;->b:Lcom/huawei/appmarket/qg3$a;
+    iput-object v0, p0, Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;->b:Lcom/huawei/appmarket/sg3$a;
 
     return-void
 .end method
@@ -33,9 +33,9 @@
 
     const-string v1, "onBind"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;->b:Lcom/huawei/appmarket/qg3$a;
+    iget-object p1, p0, Lcom/huawei/appgallery/agguard/business/service/AgGuardFACardSyncService;->b:Lcom/huawei/appmarket/sg3$a;
 
     return-object p1
 .end method
@@ -68,7 +68,7 @@
 
     const-string v2, "onStartCommand..."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -94,7 +94,7 @@
 
     check-cast v4, Landroid/app/NotificationManager;
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v3, Landroid/app/Notification$Builder;
@@ -115,7 +115,7 @@
 
     const-string v4, "startForeground..."
 
-    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 

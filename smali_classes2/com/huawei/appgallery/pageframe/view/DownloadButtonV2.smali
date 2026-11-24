@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aq6;
+.implements Lcom/huawei/appmarket/dq6;
 
 
 # direct methods
@@ -40,11 +40,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/mg0;)Z
+.method public final a(Lcom/huawei/appmarket/ng0;)Z
     .registers 4
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mg0;->a()Lcom/huawei/appmarket/jg0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ng0;->a()Lcom/huawei/appmarket/kg0;
 
     move-result-object p1
 
@@ -57,7 +57,7 @@
     :cond_0
     const-string v1, "color"
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/jg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/kg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
 
     move-result-object p1
 

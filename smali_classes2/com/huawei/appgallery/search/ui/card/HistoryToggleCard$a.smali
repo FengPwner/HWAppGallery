@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard$a;->b:Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/d47;->r()Lcom/huawei/appmarket/d47;
+    invoke-static {}, Lcom/huawei/appmarket/i47;->r()Lcom/huawei/appmarket/i47;
 
     move-result-object v0
 
@@ -54,13 +54,13 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/d47;->q(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/i47;->q(I)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->B1(Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;)Ljava/util/List;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

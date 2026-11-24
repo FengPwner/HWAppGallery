@@ -447,7 +447,7 @@
 
     check-cast v4, Lcom/alibaba/fastjson2/filter/NameFilter;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/ke5;->a(Lcom/alibaba/fastjson2/filter/NameFilter;Lcom/alibaba/fastjson2/filter/NameFilter;)Lcom/alibaba/fastjson2/filter/NameFilter;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/ne5;->a(Lcom/alibaba/fastjson2/filter/NameFilter;Lcom/alibaba/fastjson2/filter/NameFilter;)Lcom/alibaba/fastjson2/filter/NameFilter;
 
     move-result-object v3
 
@@ -477,7 +477,7 @@
 
     check-cast v4, Lcom/alibaba/fastjson2/filter/ValueFilter;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/pf8;->a(Lcom/alibaba/fastjson2/filter/ValueFilter;Lcom/alibaba/fastjson2/filter/ValueFilter;)Lcom/alibaba/fastjson2/filter/ValueFilter;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/uf8;->a(Lcom/alibaba/fastjson2/filter/ValueFilter;Lcom/alibaba/fastjson2/filter/ValueFilter;)Lcom/alibaba/fastjson2/filter/ValueFilter;
 
     move-result-object v3
 

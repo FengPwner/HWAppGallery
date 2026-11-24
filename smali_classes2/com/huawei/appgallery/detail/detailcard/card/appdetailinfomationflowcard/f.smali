@@ -17,24 +17,24 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n$c;Z)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n$c;Z)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;",
-            "Lcom/huawei/appmarket/qb3;",
+            "Lcom/huawei/appmarket/tb3;",
             "Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n$c;",
             "Z)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct/range {p0 .. p5}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/nb3;Lcom/huawei/appmarket/qb3;Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n$c;Z)V
+    invoke-direct/range {p0 .. p5}, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qb3;Lcom/huawei/appmarket/tb3;Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfomationflowcard/n$c;Z)V
 
     new-instance p1, Ljava/util/ArrayList;
 

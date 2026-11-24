@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/search/ui/card/HistorySearchCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard$a;->b:Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/d47;->r()Lcom/huawei/appmarket/d47;
+    invoke-static {}, Lcom/huawei/appmarket/i47;->r()Lcom/huawei/appmarket/i47;
 
     move-result-object v0
 
@@ -54,11 +54,11 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/d47;->q(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/i47;->q(I)V
 
     iget-object v0, p1, Lcom/huawei/appgallery/search/ui/card/d;->x:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -71,13 +71,13 @@
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
     :cond_0
-    iget-object v0, p1, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/n47;
+    iget-object v0, p1, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->z:Lcom/huawei/appmarket/s47;
 
     if-eqz v0, :cond_1
 
     iget-object v1, p1, Lcom/huawei/appgallery/search/ui/card/d;->x:Ljava/util/List;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/n47;->s(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/s47;->s(Ljava/util/List;)V
 
     :cond_1
     invoke-virtual {p1}, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->I1()V

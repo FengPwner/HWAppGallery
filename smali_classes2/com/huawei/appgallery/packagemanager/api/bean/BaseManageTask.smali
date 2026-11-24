@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public b:Lcom/huawei/appmarket/yv3;
+.field public b:Lcom/huawei/appmarket/aw3;
 
 .field public c:Landroid/os/Handler;
 

@@ -14,7 +14,7 @@
 # instance fields
 .field private a:I
 
-.field private b:I
+.field private b:Lcom/huawei/appmarket/dt6;
 
 .field private c:Ljava/lang/String;
 
@@ -22,7 +22,7 @@
 
 
 # direct methods
-.method constructor <init>(IILjava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(ILcom/huawei/appmarket/dt6;Ljava/lang/String;Ljava/lang/String;)V
     .registers 5
 
     .line 1
@@ -30,7 +30,7 @@
 
     iput p1, p0, Lcom/huawei/appmarket/qt8;->a:I
 
-    iput p2, p0, Lcom/huawei/appmarket/qt8;->b:I
+    iput-object p2, p0, Lcom/huawei/appmarket/qt8;->b:Lcom/huawei/appmarket/dt6;
 
     iput-object p3, p0, Lcom/huawei/appmarket/qt8;->c:Ljava/lang/String;
 
@@ -56,15 +56,6 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/qt8;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/qt8;->c:Ljava/lang/String;
 
     return-object v0
@@ -78,7 +69,7 @@
 
     .line 2
     .line 3
-    const-string v1, "XmlElementEndTag(nsRef="
+    const-string v1, "XmlCData(dataRef="
 
     .line 4
     .line 5
@@ -96,7 +87,7 @@
     .line 11
     .line 12
     .line 13
-    const-string v1, ", nameRef="
+    const-string v1, ", typedData="
 
     .line 14
     .line 15
@@ -105,16 +96,16 @@
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Lcom/huawei/appmarket/qt8;->b:I
+    iget-object v1, p0, Lcom/huawei/appmarket/qt8;->b:Lcom/huawei/appmarket/dt6;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    const-string v1, ", namespace="
+    const-string v1, ", data="
 
     .line 24
     .line 25
@@ -132,7 +123,7 @@
     .line 31
     .line 32
     .line 33
-    const-string v1, ", name="
+    const-string v1, ", value="
 
     .line 34
     .line 35
@@ -149,7 +140,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 43
     .line 44

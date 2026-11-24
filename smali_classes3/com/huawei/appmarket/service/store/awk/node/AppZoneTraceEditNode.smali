@@ -78,7 +78,7 @@
     return p1
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 7
 
     .line 1
@@ -129,7 +129,7 @@
     const/4 v4, 0x5
 
     .line 23
-    invoke-direct {v3, p1, v1, v4}, Lcom/huawei/appmarket/service/store/awk/node/AppZoneTraceEditNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v3, p1, v1, v4}, Lcom/huawei/appmarket/service/store/awk/node/AppZoneTraceEditNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 24
     .line 25
@@ -231,5 +231,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

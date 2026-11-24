@@ -21,13 +21,13 @@
 
     move-result-object p1
 
-    new-instance p2, Lcom/huawei/appmarket/gf5;
+    new-instance p2, Lcom/huawei/appmarket/jf5;
 
     invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->n()Landroid/content/Context;
 
     move-result-object p3
 
-    invoke-direct {p2, p3, p0, p1}, Lcom/huawei/appmarket/gf5;-><init>(Landroid/content/Context;Lcom/google/android/material/internal/NavigationMenu;Landroidx/appcompat/view/menu/f;)V
+    invoke-direct {p2, p3, p0, p1}, Lcom/huawei/appmarket/jf5;-><init>(Landroid/content/Context;Lcom/google/android/material/internal/NavigationMenu;Landroidx/appcompat/view/menu/f;)V
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/f;->s(Landroidx/appcompat/view/menu/n;)V
 

@@ -99,7 +99,7 @@
     move-result-object v1
 
     .line 14
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     .line 15
     .line 16

@@ -3,169 +3,134 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/a52$b;
-    }
-.end annotation
-
-
-# instance fields
-.field private a:Landroid/content/Context;
-
-.field private b:Ljava/lang/String;
-
-.field private c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
-
-.field private d:Ljava/lang/String;
-
-.field private e:Ljava/lang/String;
-
-.field private f:Ljava/lang/String;
-
-.field private g:Ljava/lang/String;
-
-.field private h:I
-
-
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/a52$b;)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->a(Lcom/huawei/appmarket/a52$b;)Landroid/content/Context;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->a:Landroid/content/Context;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->b(Lcom/huawei/appmarket/a52$b;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->c(Lcom/huawei/appmarket/a52$b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->b:Ljava/lang/String;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->d(Lcom/huawei/appmarket/a52$b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->d:Ljava/lang/String;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->e(Lcom/huawei/appmarket/a52$b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->e:Ljava/lang/String;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->f(Lcom/huawei/appmarket/a52$b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->f:Ljava/lang/String;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->g(Lcom/huawei/appmarket/a52$b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a52;->g:Ljava/lang/String;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/a52$b;->h(Lcom/huawei/appmarket/a52$b;)I
-
-    move-result p1
-
-    iput p1, p0, Lcom/huawei/appmarket/a52;->h:I
-
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/a52$b;Lcom/huawei/appmarket/a52$a;)V
+.method public static a()V
     .registers 3
 
-    .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/a52;-><init>(Lcom/huawei/appmarket/a52$b;)V
+    .line 1
+    const-string v0, "explorebigimagecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/bigimagecard/ExploreBigImageNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/bigimagecard/ExploreBigImageCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "substancetwoimagecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/explorecard/explorecard/card/substancetwoimagecard/SubStanceTwoImageNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "contentareapicturetext"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/contentareapicturetextcard/ContentAreaPictureTextNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/contentareapicturetextcard/ContentAreaPictureTextCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "exploresmallimagecard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/smallimagecard/ExploreSmallImageNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/smallimagecard/ExploreSmallImageCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "teletextlistcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/telextlistcard/TeletextListCardNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/telextlistcard/TeletextListCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "realtimercmtelextcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/RealtimercmtelexNode;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/HorizonTelextCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
+
+    const-string v0, "horizontelextcard"
+
+    invoke-static {v0}, Lcom/huawei/appmarket/lk0;->a(Ljava/lang/String;)Lcom/huawei/appmarket/lk0;
+
+    move-result-object v0
+
+    const-class v2, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/HorizonTelextCardNode;
+
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/lk0;->f(Ljava/lang/Class;)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->e(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/HorizonTelextItemCard;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->d(Ljava/lang/Class;)V
+
+    const-class v1, Lcom/huawei/appgallery/explorecard/explorecard/card/horizontelexcard/HorizonTelextItemCardBean;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/lk0;->c(Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lk0;->b()V
 
     return-void
-.end method
-
-
-# virtual methods
-.method public final a()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final b()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->g:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->f:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final d()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
-
-    return-object v0
-.end method
-
-.method public final e()Landroid/content/Context;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->a:Landroid/content/Context;
-
-    return-object v0
-.end method
-
-.method public final f()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final g()I
-    .registers 2
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/a52;->h:I
-
-    return v0
-.end method
-
-.method public final h()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a52;->e:Ljava/lang/String;
-
-    return-object v0
 .end method

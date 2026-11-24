@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->O3(Lcom/huawei/appmarket/wb8;)V
+    value = Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->O3(Lcom/huawei/appmarket/bc8;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
-        "Lcom/huawei/appmarket/wb8;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Lcom/huawei/appmarket/bc8;",
         ">;"
     }
 .end annotation
@@ -43,19 +43,19 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appmarket/wb8;",
+            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/bc8;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v0
 
@@ -69,23 +69,23 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/wb8;
+    check-cast p1, Lcom/huawei/appmarket/bc8;
 
     const-string v1, "UpdateCommentActivity"
 
     if-eqz p1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->F3(Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;)Lcom/huawei/appmarket/wb8;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->F3(Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;)Lcom/huawei/appmarket/bc8;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->m()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->m()Ljava/lang/String;
 
     move-result-object v2
 
@@ -95,15 +95,15 @@
 
     if-nez v2, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->m()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->m()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->F3(Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;)Lcom/huawei/appmarket/wb8;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->F3(Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;)Lcom/huawei/appmarket/bc8;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/wb8;->m()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/bc8;->m()Ljava/lang/String;
 
     move-result-object v3
 
@@ -113,7 +113,7 @@
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wb8;->l()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bc8;->l()I
 
     move-result p1
 
@@ -128,7 +128,7 @@
     :cond_0
     const-string p1, "upload image failed"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const p1, 0x7f120712
 
@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     :goto_0
     invoke-static {v0}, Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;->H3(Lcom/huawei/appgallery/forum/option/comment/view/UpdateCommentActivity;)V
@@ -146,7 +146,7 @@
     :cond_1
     const-string p1, "imageData or resultData null"
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

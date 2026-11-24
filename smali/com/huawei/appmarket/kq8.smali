@@ -1,71 +1,193 @@
 .class public final Lcom/huawei/appmarket/kq8;
-.super Lcom/huawei/appmarket/c94;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
+.method private constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/c94;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method protected final s()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    const-string v0, "WifiConnectIdleUpdateTask"
-
-    return-object v0
-.end method
-
-.method protected final bridge synthetic u(Landroid/content/Context;)Ljava/lang/Object;
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
+.method public static a(Landroidx/media3/exoplayer/drm/DrmSession;)Landroid/util/Pair;
+    .registers 7
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Ljava/lang/InterruptedException;
+            "(",
+            "Landroidx/media3/exoplayer/drm/DrmSession;",
+            ")",
+            "Landroid/util/Pair<",
+            "Ljava/lang/Long;",
+            "Ljava/lang/Long;",
+            ">;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/kq8;->z(Landroid/content/Context;)Ljava/lang/Boolean;
+    invoke-interface {p0}, Landroidx/media3/exoplayer/drm/DrmSession;->f()Ljava/util/Map;
 
-    move-result-object p1
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
 
-    return-object p1
-.end method
+    .line 5
+    if-nez p0, :cond_0
 
-.method protected final z(Landroid/content/Context;)Ljava/lang/Boolean;
-    .registers 4
+    .line 6
+    .line 7
+    const/4 p0, 0x0
 
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/u84;->a()Z
+    .line 8
+    return-object p0
 
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    sget-object p1, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
-
-    const-string v0, "WifiConnectIdleUpdateTask"
-
-    const-string v1, "net work status is abnormal!"
-
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    return-object p1
-
+    .line 9
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/c94;->z(Landroid/content/Context;)Ljava/lang/Boolean;
+    new-instance v0, Landroid/util/Pair;
 
-    move-result-object p1
+    .line 10
+    .line 11
+    const-string v1, "LicenseDurationRemaining"
 
-    return-object p1
+    .line 12
+    .line 13
+    const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    :try_start_0
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    check-cast v1, Ljava/lang/String;
+
+    .line 23
+    .line 24
+    if-eqz v1, :cond_1
+
+    .line 25
+    .line 26
+    invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-wide v4
+    :try_end_0
+    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 30
+    goto :goto_0
+
+    .line 31
+    :catch_0
+    :cond_1
+    move-wide v4, v2
+
+    .line 32
+    :goto_0
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v1
+
+    .line 36
+    const-string v4, "PlaybackDurationRemaining"
+
+    .line 37
+    .line 38
+    :try_start_1
+    invoke-interface {p0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object p0
+
+    .line 42
+    check-cast p0, Ljava/lang/String;
+
+    .line 43
+    .line 44
+    if-eqz p0, :cond_2
+
+    .line 45
+    .line 46
+    invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-wide v2
+    :try_end_1
+    .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_1
+
+    .line 50
+    :catch_1
+    :cond_2
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object p0
+
+    .line 54
+    invoke-direct {v0, v1, p0}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 55
+    .line 56
+    .line 57
+    return-object v0
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method

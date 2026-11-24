@@ -23,7 +23,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/eh4$a;->values()[Lcom/huawei/appmarket/eh4$a;
+    invoke-static {}, Lcom/huawei/appmarket/gh4$a;->values()[Lcom/huawei/appmarket/gh4$a;
 
     move-result-object v0
 
@@ -34,7 +34,7 @@
     sput-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->c:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->c:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -50,7 +50,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->h:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->h:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -66,7 +66,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->i:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->i:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -82,7 +82,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->j:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->j:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -98,7 +98,7 @@
     :try_start_4
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->d:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->d:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -114,7 +114,7 @@
     :try_start_5
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->b:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->b:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -130,7 +130,7 @@
     :try_start_6
     sget-object v0, Lcom/huawei/appmarket/h2$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/eh4$a;->f:Lcom/huawei/appmarket/eh4$a;
+    sget-object v1, Lcom/huawei/appmarket/gh4$a;->f:Lcom/huawei/appmarket/gh4$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

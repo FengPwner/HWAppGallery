@@ -4,23 +4,23 @@
 
 
 # virtual methods
-.method public abstract addOnPictureInPictureModeChangedListener(Lcom/huawei/appmarket/h21;)V
+.method public abstract addOnMultiWindowModeChangedListener(Lcom/huawei/appmarket/h21;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/h21<",
-            "Lcom/huawei/appmarket/x06;",
+            "Lcom/huawei/appmarket/id5;",
             ">;)V"
         }
     .end annotation
 .end method
 
-.method public abstract removeOnPictureInPictureModeChangedListener(Lcom/huawei/appmarket/h21;)V
+.method public abstract removeOnMultiWindowModeChangedListener(Lcom/huawei/appmarket/h21;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appmarket/h21<",
-            "Lcom/huawei/appmarket/x06;",
+            "Lcom/huawei/appmarket/id5;",
             ">;)V"
         }
     .end annotation

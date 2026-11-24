@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/search/ui/card/e;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/e;->b:Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     invoke-virtual {v1, p1}, Lcom/huawei/appgallery/search/ui/cardbean/HistoryToggleCardBean;->Y3(I)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->y1(Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;->y1(Lcom/huawei/appgallery/search/ui/card/HistoryToggleCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object p1
 
     const/4 v1, 0x7
 
-    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {p1, v1, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     :cond_1
     :goto_0

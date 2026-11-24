@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/vr0;
+.field private final a:Lcom/huawei/appmarket/wr0;
 
 .field private b:Z
 
@@ -14,20 +14,20 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vr0;->a:Lcom/huawei/appmarket/ws7;
+    sget-object v0, Lcom/huawei/appmarket/wr0;->a:Lcom/huawei/appmarket/ct7;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/mz0;-><init>(Lcom/huawei/appmarket/vr0;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/mz0;-><init>(Lcom/huawei/appmarket/wr0;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/vr0;)V
+.method public constructor <init>(Lcom/huawei/appmarket/wr0;)V
     .registers 2
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/vr0;
+    iput-object p1, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/wr0;
 
     return-void
 .end method
@@ -106,9 +106,9 @@
 
     :cond_0
     :try_start_1
-    iget-object v0, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/vr0;
+    iget-object v0, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/wr0;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/vr0;->e()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/wr0;->e()J
 
     move-result-wide v0
 
@@ -136,9 +136,9 @@
 
     invoke-virtual {p0, v0, v1}, Ljava/lang/Object;->wait(J)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/vr0;
+    iget-object v0, p0, Lcom/huawei/appmarket/mz0;->a:Lcom/huawei/appmarket/wr0;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/vr0;->e()J
+    invoke-interface {v0}, Lcom/huawei/appmarket/wr0;->e()J
 
     move-result-wide v0
 

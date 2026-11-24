@@ -648,6 +648,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method static synthetic E3(Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;)V
@@ -980,7 +1000,7 @@
 
     move-result-object p1
 
-    const-string p2, "wechatId"
+    const-string/jumbo p2, "wechatId"
 
     invoke-interface {p1, p2}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -992,7 +1012,7 @@
 
     move-result-object p1
 
-    const-string p2, "weiboId"
+    const-string/jumbo p2, "weiboId"
 
     invoke-interface {p1, p2}, Lcom/huawei/phoneservice/faq/base/util/Sdk;->getSdk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1361,23 +1381,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic j3(Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;I)V
@@ -1723,23 +1726,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic z3(Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;)Landroid/widget/LinearLayout;
@@ -2243,23 +2229,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected final a3()V
@@ -3001,84 +2970,84 @@
 
     .line 187
     .line 188
-    const-string v1, "wechatId"
+    const-string/jumbo v1, "wechatId"
 
     .line 189
     .line 190
+    .line 191
     invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 191
     .line 192
     .line 193
-    move-result-object v0
-
     .line 194
-    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->E:Ljava/lang/String;
+    move-result-object v0
 
     .line 195
+    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->E:Ljava/lang/String;
+
     .line 196
+    .line 197
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->J:Landroid/content/Intent;
 
-    .line 197
     .line 198
-    const-string v1, "weiboId"
-
     .line 199
-    .line 200
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    const-string/jumbo v1, "weiboId"
 
+    .line 200
     .line 201
     .line 202
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
     .line 203
+    .line 204
+    .line 205
     move-result-object v0
 
-    .line 204
-    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->F:Ljava/lang/String;
-
-    .line 205
     .line 206
-    iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->J:Landroid/content/Intent;
+    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->F:Ljava/lang/String;
 
     .line 207
     .line 208
-    const-string v1, "picId"
+    iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->J:Landroid/content/Intent;
 
     .line 209
     .line 210
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    const-string v1, "picId"
 
     .line 211
     .line 212
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
     .line 213
+    .line 214
+    .line 215
     move-result-object v0
 
-    .line 214
-    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->G:Ljava/lang/String;
-
-    .line 215
     .line 216
-    :cond_0
-    new-instance v0, Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;
+    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->G:Ljava/lang/String;
 
     .line 217
     .line 218
-    invoke-direct {v0, p0}, Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;-><init>(Landroid/content/Context;)V
+    :cond_0
+    new-instance v0, Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;
 
     .line 219
     .line 220
-    .line 221
-    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->A:Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;
+    invoke-direct {v0, p0}, Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;-><init>(Landroid/content/Context;)V
 
+    .line 221
     .line 222
     .line 223
-    invoke-super {p0, p1}, Lcom/huawei/phoneservice/faq/FaqBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    iput-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqSecondaryListActivity;->A:Lcom/huawei/phoneservice/faq/widget/FaqNoMoreDrawable;
 
     .line 224
     .line 225
+    invoke-super {p0, p1}, Lcom/huawei/phoneservice/faq/FaqBaseActivity;->onCreate(Landroid/os/Bundle;)V
+
     .line 226
-    return-void
     .line 227
     .line 228
+    return-void
     .line 229
     .line 230
     .line 231
@@ -4005,65 +3974,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method protected final onDestroy()V

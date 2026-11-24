@@ -4,11 +4,5 @@
 
 
 # virtual methods
-.method public abstract B()Lcom/huawei/appmarket/f14;
-.end method
-
-.method public abstract L0()V
-.end method
-
-.method public abstract j1(Lcom/huawei/appmarket/f14;)V
+.method public abstract a(I)V
 .end method

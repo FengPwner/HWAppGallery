@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/updatemanager/ui/fragment/b;
-.super Lcom/huawei/appmarket/sk0;
+.super Lcom/huawei/appmarket/tk0;
 .source "SourceFile"
 
 
@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
     .registers 3
 
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/sk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/tk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     return-void
 .end method
@@ -19,7 +19,7 @@
 
     iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    const v1, 0x7f0a1738
+    const v1, 0x7f0a1739
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -27,20 +27,20 @@
 
     if-nez v0, :cond_0
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/tk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
     return-void
 
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appmarket/sk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
+    iget-object v1, p0, Lcom/huawei/appmarket/tk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/hj0;
+    invoke-virtual {v1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/ij0;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v1
 
@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -77,7 +77,7 @@
 
     :cond_2
     :goto_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/tk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
     return-void
 .end method

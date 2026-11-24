@@ -22,7 +22,7 @@
 
 # instance fields
 .field private corpComplianceInfo:Lcom/huawei/appgallery/detail/detailcard/appdetailcompliancecard/DetailComplianceBean$CorpComplianceInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

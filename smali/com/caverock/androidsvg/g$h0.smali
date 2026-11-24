@@ -89,24 +89,7 @@
 
 
 # virtual methods
-.method public final a()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/caverock/androidsvg/g$n0;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/caverock/androidsvg/g$h0;->i:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final b()Ljava/util/Set;
+.method public final a()Ljava/util/Set;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -123,7 +106,7 @@
     return-object v0
 .end method
 
-.method public final c()Ljava/lang/String;
+.method public final b()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -132,7 +115,7 @@
     return-object v0
 .end method
 
-.method public final e(Ljava/util/HashSet;)V
+.method public final d(Ljava/util/HashSet;)V
     .registers 2
 
     .line 1
@@ -141,7 +124,7 @@
     return-void
 .end method
 
-.method public final f()Ljava/util/Set;
+.method public final e()Ljava/util/Set;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -158,14 +141,14 @@
     return-object v0
 .end method
 
-.method public final g(Ljava/util/HashSet;)V
+.method public final f(Ljava/util/HashSet;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public h(Lcom/caverock/androidsvg/g$n0;)V
+.method public g(Lcom/caverock/androidsvg/g$n0;)V
     .registers 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -181,7 +164,23 @@
     return-void
 .end method
 
-.method public final i(Ljava/util/HashSet;)V
+.method public final getChildren()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/caverock/androidsvg/g$n0;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/caverock/androidsvg/g$h0;->i:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final h(Ljava/util/HashSet;)V
     .registers 2
 
     .line 1
@@ -190,7 +189,7 @@
     return-void
 .end method
 
-.method public final j(Ljava/lang/String;)V
+.method public final i(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -199,7 +198,7 @@
     return-void
 .end method
 
-.method public final k(Ljava/util/HashSet;)V
+.method public final j(Ljava/util/HashSet;)V
     .registers 2
 
     .line 1
@@ -208,7 +207,7 @@
     return-void
 .end method
 
-.method public final m()Ljava/util/Set;
+.method public final l()Ljava/util/Set;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -225,7 +224,7 @@
     return-object v0
 .end method
 
-.method public final n()Ljava/util/Set;
+.method public final m()Ljava/util/Set;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 .method public final run()V
     .registers 3
 
-    sget-object v0, Lcom/huawei/appmarket/qz5;->a:Lcom/huawei/appmarket/qz5;
+    sget-object v0, Lcom/huawei/appmarket/sz5;->a:Lcom/huawei/appmarket/sz5;
 
     iget-object v1, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/g;->c:Lcom/huawei/appmarket/framework/widget/downloadbutton/h$a;
 
@@ -38,7 +38,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/qz5;->c(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/x89;
+    invoke-static {v1}, Lcom/huawei/appmarket/sz5;->c(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/d99;
 
     move-result-object v0
 
@@ -46,13 +46,13 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/g$a;-><init>(Lcom/huawei/appmarket/framework/widget/downloadbutton/g;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/x89;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/d99;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
 
     new-instance v1, Lcom/huawei/appmarket/framework/widget/downloadbutton/g$b;
 
     invoke-direct {v1, p0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/g$b;-><init>(Lcom/huawei/appmarket/framework/widget/downloadbutton/g;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/x89;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/d99;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

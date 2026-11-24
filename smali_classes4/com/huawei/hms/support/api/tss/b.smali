@@ -88,14 +88,14 @@
 
 
 # virtual methods
-.method public dataExport(Lcom/huawei/hms/support/api/entity/tss/DataExportRequ;)Lcom/huawei/appmarket/hv7;
+.method public dataExport(Lcom/huawei/hms/support/api/entity/tss/DataExportRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/DataExportRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/DataExportResp;",
             ">;"
         }
@@ -122,21 +122,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/b;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public dataImport(Lcom/huawei/hms/support/api/entity/tss/DataImportRequ;)Lcom/huawei/appmarket/hv7;
+.method public dataImport(Lcom/huawei/hms/support/api/entity/tss/DataImportRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/DataImportRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/DataImportResp;",
             ">;"
         }
@@ -163,21 +163,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/c;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public decryptData(Lcom/huawei/hms/support/api/entity/tss/DecryptDataRequ;)Lcom/huawei/appmarket/hv7;
+.method public decryptData(Lcom/huawei/hms/support/api/entity/tss/DecryptDataRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/DecryptDataRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/DecryptDataResp;",
             ">;"
         }
@@ -202,21 +202,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/d;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public decryptKek(Lcom/huawei/hms/support/api/entity/tss/DecryptKekRequ;)Lcom/huawei/appmarket/hv7;
+.method public decryptKek(Lcom/huawei/hms/support/api/entity/tss/DecryptKekRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/DecryptKekRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/DecryptKekResp;",
             ">;"
         }
@@ -241,21 +241,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/e;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public ecdh(Lcom/huawei/hms/support/api/entity/tss/EcdhRequ;)Lcom/huawei/appmarket/hv7;
+.method public ecdh(Lcom/huawei/hms/support/api/entity/tss/EcdhRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/EcdhRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/EcdhResp;",
             ">;"
         }
@@ -282,21 +282,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/g;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public ecdhForKd(Lcom/huawei/hms/support/api/entity/tss/EcdhForKdRequ;)Lcom/huawei/appmarket/hv7;
+.method public ecdhForKd(Lcom/huawei/hms/support/api/entity/tss/EcdhForKdRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/EcdhForKdRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/EcdhForKdResp;",
             ">;"
         }
@@ -323,21 +323,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/f;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public encryptData(Lcom/huawei/hms/support/api/entity/tss/EncryptDataRequ;)Lcom/huawei/appmarket/hv7;
+.method public encryptData(Lcom/huawei/hms/support/api/entity/tss/EncryptDataRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/EncryptDataRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/EncryptDataResp;",
             ">;"
         }
@@ -362,21 +362,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/h;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public enrollCert(Lcom/huawei/hms/support/api/entity/tss/EnrollCertRequ;)Lcom/huawei/appmarket/hv7;
+.method public enrollCert(Lcom/huawei/hms/support/api/entity/tss/EnrollCertRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/EnrollCertRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/EnrollCertResp;",
             ">;"
         }
@@ -401,21 +401,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/i;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public generateKey(Lcom/huawei/hms/support/api/entity/tss/GenerateKeyRequ;)Lcom/huawei/appmarket/hv7;
+.method public generateKey(Lcom/huawei/hms/support/api/entity/tss/GenerateKeyRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GenerateKeyRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GenerateKeyResp;",
             ">;"
         }
@@ -442,7 +442,7 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/j;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -457,14 +457,14 @@
     return v0
 .end method
 
-.method public getAttestCertChain(Lcom/huawei/hms/support/api/entity/tss/GetAttestCertChainRequ;)Lcom/huawei/appmarket/hv7;
+.method public getAttestCertChain(Lcom/huawei/hms/support/api/entity/tss/GetAttestCertChainRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetAttestCertChainRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetAttestCertChainResp;",
             ">;"
         }
@@ -489,21 +489,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/k;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getCertificationKey(Lcom/huawei/hms/support/api/entity/tss/GetCertificationKeyRequ;)Lcom/huawei/appmarket/hv7;
+.method public getCertificationKey(Lcom/huawei/hms/support/api/entity/tss/GetCertificationKeyRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetCertificationKeyRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetCertificationKeyResp;",
             ">;"
         }
@@ -528,21 +528,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/l;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getCertifiedCredential(Lcom/huawei/hms/support/api/entity/tss/GetCertifiedCredentialRequ;)Lcom/huawei/appmarket/hv7;
+.method public getCertifiedCredential(Lcom/huawei/hms/support/api/entity/tss/GetCertifiedCredentialRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetCertifiedCredentialRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetCertifiedCredentialResp;",
             ">;"
         }
@@ -567,21 +567,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/m;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getDeviceId(Lcom/huawei/hms/support/api/entity/tss/GetDeviceIdRequ;)Lcom/huawei/appmarket/hv7;
+.method public getDeviceId(Lcom/huawei/hms/support/api/entity/tss/GetDeviceIdRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetDeviceIdRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetDeviceIdResp;",
             ">;"
         }
@@ -606,21 +606,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/n;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getHuksTaAvaliable(Lcom/huawei/hms/support/api/entity/tss/GetHuksTaAvailableRequ;)Lcom/huawei/appmarket/hv7;
+.method public getHuksTaAvaliable(Lcom/huawei/hms/support/api/entity/tss/GetHuksTaAvailableRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetHuksTaAvailableRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetHuksTaAvailableResp;",
             ">;"
         }
@@ -645,21 +645,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/o;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getKeyInfo(Lcom/huawei/hms/support/api/entity/tss/GetKeyInfoRequ;)Lcom/huawei/appmarket/hv7;
+.method public getKeyInfo(Lcom/huawei/hms/support/api/entity/tss/GetKeyInfoRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetKeyInfoRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetKeyInfoResp;",
             ">;"
         }
@@ -686,21 +686,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/p;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getKeyVersion(Lcom/huawei/hms/support/api/entity/tss/GetKeyVersionRequ;)Lcom/huawei/appmarket/hv7;
+.method public getKeyVersion(Lcom/huawei/hms/support/api/entity/tss/GetKeyVersionRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetKeyVersionRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetKeyVersionResp;",
             ">;"
         }
@@ -725,21 +725,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/q;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getPublicKey(Lcom/huawei/hms/support/api/entity/tss/GetPublicKeyRequ;)Lcom/huawei/appmarket/hv7;
+.method public getPublicKey(Lcom/huawei/hms/support/api/entity/tss/GetPublicKeyRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetPublicKeyRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetPublicKeyResp;",
             ">;"
         }
@@ -766,21 +766,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/r;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getServiceCertChain(Lcom/huawei/hms/support/api/entity/tss/GetServiceCertChainRequ;)Lcom/huawei/appmarket/hv7;
+.method public getServiceCertChain(Lcom/huawei/hms/support/api/entity/tss/GetServiceCertChainRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetServiceCertChainRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetServiceCertChainResp;",
             ">;"
         }
@@ -805,21 +805,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/s;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public getTaVersion(Lcom/huawei/hms/support/api/entity/tss/GetTaVersionRequ;)Lcom/huawei/appmarket/hv7;
+.method public getTaVersion(Lcom/huawei/hms/support/api/entity/tss/GetTaVersionRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/GetTaVersionRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/GetTaVersionResp;",
             ">;"
         }
@@ -844,21 +844,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/t;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public hasKey(Lcom/huawei/hms/support/api/entity/tss/HasKeyRequ;)Lcom/huawei/appmarket/hv7;
+.method public hasKey(Lcom/huawei/hms/support/api/entity/tss/HasKeyRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/HasKeyRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/HasKeyResp;",
             ">;"
         }
@@ -885,21 +885,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/u;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public keyDerivation(Lcom/huawei/hms/support/api/entity/tss/KeyDerivationRequ;)Lcom/huawei/appmarket/hv7;
+.method public keyDerivation(Lcom/huawei/hms/support/api/entity/tss/KeyDerivationRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/KeyDerivationRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/KeyDerivationResp;",
             ">;"
         }
@@ -926,21 +926,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/v;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public keyExport(Lcom/huawei/hms/support/api/entity/tss/KeyExportRequ;)Lcom/huawei/appmarket/hv7;
+.method public keyExport(Lcom/huawei/hms/support/api/entity/tss/KeyExportRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/KeyExportRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/KeyExportResp;",
             ">;"
         }
@@ -967,21 +967,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/w;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public keyImport(Lcom/huawei/hms/support/api/entity/tss/KeyImportRequ;)Lcom/huawei/appmarket/hv7;
+.method public keyImport(Lcom/huawei/hms/support/api/entity/tss/KeyImportRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/KeyImportRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/KeyImportResp;",
             ">;"
         }
@@ -1008,21 +1008,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/x;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public removeKey(Lcom/huawei/hms/support/api/entity/tss/RemoveKeyRequ;)Lcom/huawei/appmarket/hv7;
+.method public removeKey(Lcom/huawei/hms/support/api/entity/tss/RemoveKeyRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/RemoveKeyRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/RemoveKeyResp;",
             ">;"
         }
@@ -1049,21 +1049,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/z;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public signData(Lcom/huawei/hms/support/api/entity/tss/SignDataRequ;)Lcom/huawei/appmarket/hv7;
+.method public signData(Lcom/huawei/hms/support/api/entity/tss/SignDataRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/SignDataRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/SignDataResp;",
             ">;"
         }
@@ -1088,21 +1088,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/a0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public supportKms(Lcom/huawei/hms/support/api/entity/tss/SupportKmsRequ;)Lcom/huawei/appmarket/hv7;
+.method public supportKms(Lcom/huawei/hms/support/api/entity/tss/SupportKmsRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/SupportKmsRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/SupportKmsResp;",
             ">;"
         }
@@ -1129,21 +1129,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/b0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public supportMk(Lcom/huawei/hms/support/api/entity/tss/SupportMkRequ;)Lcom/huawei/appmarket/hv7;
+.method public supportMk(Lcom/huawei/hms/support/api/entity/tss/SupportMkRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/SupportMkRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/SupportMkResp;",
             ">;"
         }
@@ -1170,21 +1170,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/c0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public sysIntegrity(Lcom/huawei/hms/support/api/entity/tss/SysIntegrityRequ;)Lcom/huawei/appmarket/hv7;
+.method public sysIntegrity(Lcom/huawei/hms/support/api/entity/tss/SysIntegrityRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/SysIntegrityRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/SysIntegrityResp;",
             ">;"
         }
@@ -1209,21 +1209,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/d0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public transformEncryptData(Lcom/huawei/hms/support/api/entity/tss/TransformEncryptDataRequ;)Lcom/huawei/appmarket/hv7;
+.method public transformEncryptData(Lcom/huawei/hms/support/api/entity/tss/TransformEncryptDataRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/TransformEncryptDataRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/TransformEncryptDataResp;",
             ">;"
         }
@@ -1248,21 +1248,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/e0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public updateKeyComponent(Lcom/huawei/hms/support/api/entity/tss/UpdateKeyComponentRequ;)Lcom/huawei/appmarket/hv7;
+.method public updateKeyComponent(Lcom/huawei/hms/support/api/entity/tss/UpdateKeyComponentRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/UpdateKeyComponentRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/UpdateKeyComponentResp;",
             ">;"
         }
@@ -1287,21 +1287,21 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/f0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public verifySignature(Lcom/huawei/hms/support/api/entity/tss/VerifySignatureRequ;)Lcom/huawei/appmarket/hv7;
+.method public verifySignature(Lcom/huawei/hms/support/api/entity/tss/VerifySignatureRequ;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/support/api/entity/tss/VerifySignatureRequ;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/support/api/entity/tss/VerifySignatureResp;",
             ">;"
         }
@@ -1326,7 +1326,7 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/huawei/hms/support/api/tss/callback/g0;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

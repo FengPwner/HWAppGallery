@@ -1,9 +1,6 @@
 .class final Lcom/huawei/appmarket/gm$c;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/hm7$a;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/fu6;
 
 
 # annotations
@@ -12,129 +9,227 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1a
+    accessFlags = 0x8
     name = "c"
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/fu6<",
-        "Ljava/io/InputStream;",
-        "Landroid/graphics/drawable/Drawable;",
-        ">;"
-    }
 .end annotation
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/gm;
+.field J:Lcom/huawei/appmarket/o05;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/o05<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field K:Lcom/huawei/appmarket/yi7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/yi7<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/gm;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/gm$c;Lcom/huawei/appmarket/gm;Landroid/content/res/Resources;)V
+    .registers 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/hm7$a;-><init>(Lcom/huawei/appmarket/hm7$a;Lcom/huawei/appmarket/hm7;Landroid/content/res/Resources;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/gm$c;->a:Lcom/huawei/appmarket/gm;
+    if-eqz p1, :cond_0
 
+    iget-object p2, p1, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    iget-object p1, p1, Lcom/huawei/appmarket/gm$c;->K:Lcom/huawei/appmarket/yi7;
+
+    :goto_0
+    iput-object p1, p0, Lcom/huawei/appmarket/gm$c;->K:Lcom/huawei/appmarket/yi7;
+
+    goto :goto_1
+
+    :cond_0
+    new-instance p1, Lcom/huawei/appmarket/o05;
+
+    invoke-direct {p1}, Lcom/huawei/appmarket/o05;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    new-instance p1, Lcom/huawei/appmarket/yi7;
+
+    invoke-direct {p1}, Lcom/huawei/appmarket/yi7;-><init>()V
+
+    goto :goto_0
+
+    :goto_1
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
-    .registers 6
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method final k()V
+    .registers 2
 
     .line 1
-    check-cast p1, Ljava/io/InputStream;
+    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o05;->c()Lcom/huawei/appmarket/o05;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->K:Lcom/huawei/appmarket/yi7;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yi7;->c()Lcom/huawei/appmarket/yi7;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/gm$c;->K:Lcom/huawei/appmarket/yi7;
+
+    return-void
+.end method
+
+.method final m(IILandroid/graphics/drawable/Drawable;Z)I
+    .registers 21
+
+    .line 1
+    move-object/from16 v0, p0
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/pf0;->b(Ljava/io/InputStream;)Ljava/nio/ByteBuffer;
+    move-object/from16 v1, p3
 
     .line 4
     .line 5
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ow1$c;->a(Landroid/graphics/drawable/Drawable;)I
+
     .line 6
-    move-result-object p1
-
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/c5;->f(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
-
     .line 8
-    .line 9
-    .line 10
-    move-result-object p1
+    move-result v1
 
+    .line 9
+    move/from16 v2, p1
+
+    .line 10
     .line 11
-    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->a:Lcom/huawei/appmarket/gm;
+    int-to-long v2, v2
 
     .line 12
-    .line 13
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/16 v4, 0x20
 
+    .line 13
     .line 14
+    shl-long v5, v2, v4
+
     .line 15
     .line 16
-    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/gm;->b(Landroid/graphics/ImageDecoder$Source;IILcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
+    move/from16 v7, p2
 
     .line 17
     .line 18
+    int-to-long v7, v7
+
     .line 19
-    move-result-object p1
+    or-long/2addr v5, v7
 
     .line 20
-    return-object p1
+    if-eqz p4, :cond_0
+
     .line 21
     .line 22
+    const-wide v9, 0x200000000L
+
     .line 23
     .line 24
     .line 25
     .line 26
     .line 27
+    goto :goto_0
+
     .line 28
+    :cond_0
+    const-wide/16 v9, 0x0
+
     .line 29
     .line 30
+    :goto_0
+    iget-object v11, v0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
     .line 31
     .line 32
+    int-to-long v12, v1
+
     .line 33
+    or-long v14, v12, v9
+
     .line 34
     .line 35
+    invoke-static {v14, v15}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
     .line 36
     .line 37
     .line 38
+    move-result-object v14
+
     .line 39
+    invoke-virtual {v11, v5, v6, v14}, Lcom/huawei/appmarket/o05;->a(JLjava/lang/Long;)V
+
     .line 40
     .line 41
     .line 42
+    if-eqz p4, :cond_1
+
     .line 43
     .line 44
+    shl-long v4, v7, v4
+
     .line 45
     .line 46
+    or-long/2addr v2, v4
+
     .line 47
+    iget-object v4, v0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
     .line 48
     .line 49
+    const-wide v5, 0x100000000L
+
     .line 50
     .line 51
     .line 52
     .line 53
     .line 54
+    or-long/2addr v5, v12
+
     .line 55
+    or-long/2addr v5, v9
+
     .line 56
+    invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
     .line 57
     .line 58
     .line 59
+    move-result-object v5
+
     .line 60
+    invoke-virtual {v4, v2, v3, v5}, Lcom/huawei/appmarket/o05;->a(JLjava/lang/Long;)V
+
     .line 61
     .line 62
     .line 63
+    :cond_1
+    return v1
     .line 64
     .line 65
     .line 66
@@ -563,49 +658,66 @@
     .line 489
 .end method
 
-.method public final b(Ljava/lang/Object;Lcom/huawei/appmarket/tr5;)Z
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method final n(II)I
+    .registers 6
 
     .line 1
-    check-cast p1, Ljava/io/InputStream;
+    int-to-long v0, p1
 
     .line 2
-    .line 3
-    iget-object p2, p0, Lcom/huawei/appmarket/gm$c;->a:Lcom/huawei/appmarket/gm;
+    const/16 p1, 0x20
 
+    .line 3
     .line 4
+    shl-long/2addr v0, p1
+
     .line 5
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/gm;->c(Ljava/io/InputStream;)Z
+    int-to-long p1, p2
 
     .line 6
-    .line 7
-    .line 8
-    move-result p1
+    or-long/2addr p1, v0
 
+    .line 7
+    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    .line 8
     .line 9
-    return p1
+    const-wide/16 v1, -0x1
+
     .line 10
     .line 11
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
     .line 12
     .line 13
     .line 14
+    move-result-object v1
+
     .line 15
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/o05;->e(JLjava/lang/Long;)Ljava/lang/Object;
+
     .line 16
     .line 17
     .line 18
+    move-result-object p1
+
     .line 19
+    check-cast p1, Ljava/lang/Long;
+
     .line 20
     .line 21
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
     .line 22
     .line 23
     .line 24
+    move-result-wide p1
+
     .line 25
+    long-to-int p2, p1
+
     .line 26
+    return p2
     .line 27
     .line 28
     .line 29
@@ -620,6 +732,434 @@
     .line 38
     .line 39
     .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+.end method
+
+.method public final newDrawable()Landroid/graphics/drawable/Drawable;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/gm;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/gm;-><init>(Lcom/huawei/appmarket/gm$c;Landroid/content/res/Resources;)V
+
+    return-object v0
+.end method
+
+.method public final newDrawable(Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
+    .registers 3
+
+    .line 2
+    new-instance v0, Lcom/huawei/appmarket/gm;
+
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/gm;-><init>(Lcom/huawei/appmarket/gm$c;Landroid/content/res/Resources;)V
+
+    return-object v0
+.end method
+
+.method final o(II)Z
+    .registers 6
+
+    .line 1
+    int-to-long v0, p1
+
+    .line 2
+    const/16 p1, 0x20
+
+    .line 3
+    .line 4
+    shl-long/2addr v0, p1
+
+    .line 5
+    int-to-long p1, p2
+
+    .line 6
+    or-long/2addr p1, v0
+
+    .line 7
+    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    .line 8
+    .line 9
+    const-wide/16 v1, -0x1
+
+    .line 10
+    .line 11
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/o05;->e(JLjava/lang/Long;)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    check-cast p1, Ljava/lang/Long;
+
+    .line 20
+    .line 21
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-wide p1
+
+    .line 25
+    const-wide v0, 0x100000000L
+
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    and-long/2addr p1, v0
+
+    .line 31
+    const-wide/16 v0, 0x0
+
+    .line 32
+    .line 33
+    cmp-long v2, p1, v0
+
+    .line 34
+    .line 35
+    if-eqz v2, :cond_0
+
+    .line 36
+    .line 37
+    const/4 p1, 0x1
+
+    .line 38
+    goto :goto_0
+
+    .line 39
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 40
+    :goto_0
+    return p1
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+.end method
+
+.method final p(II)Z
+    .registers 6
+
+    .line 1
+    int-to-long v0, p1
+
+    .line 2
+    const/16 p1, 0x20
+
+    .line 3
+    .line 4
+    shl-long/2addr v0, p1
+
+    .line 5
+    int-to-long p1, p2
+
+    .line 6
+    or-long/2addr p1, v0
+
+    .line 7
+    iget-object v0, p0, Lcom/huawei/appmarket/gm$c;->J:Lcom/huawei/appmarket/o05;
+
+    .line 8
+    .line 9
+    const-wide/16 v1, -0x1
+
+    .line 10
+    .line 11
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/o05;->e(JLjava/lang/Long;)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    check-cast p1, Ljava/lang/Long;
+
+    .line 20
+    .line 21
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-wide p1
+
+    .line 25
+    const-wide v0, 0x200000000L
+
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    and-long/2addr p1, v0
+
+    .line 31
+    const-wide/16 v0, 0x0
+
+    .line 32
+    .line 33
+    cmp-long v2, p1, v0
+
+    .line 34
+    .line 35
+    if-eqz v2, :cond_0
+
+    .line 36
+    .line 37
+    const/4 p1, 0x1
+
+    .line 38
+    goto :goto_0
+
+    .line 39
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 40
+    :goto_0
+    return p1
     .line 41
     .line 42
     .line 43

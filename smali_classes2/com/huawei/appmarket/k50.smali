@@ -14,7 +14,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/un;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/tn;->e()Landroid/content/Context;
 
     move-result-object v0
 
@@ -86,13 +86,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/vn;->a:Lcom/huawei/appmarket/vn;
+    sget-object p1, Lcom/huawei/appmarket/un;->a:Lcom/huawei/appmarket/un;
 
     const-string v0, "putString error!!key:last_date"
 
     const-string v1, "BaseSharedPreferences"
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

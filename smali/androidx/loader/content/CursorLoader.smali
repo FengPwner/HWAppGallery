@@ -36,7 +36,7 @@
 
 .field r:Landroid/database/Cursor;
 
-.field s:Lcom/huawei/appmarket/mi0;
+.field s:Lcom/huawei/appmarket/ni0;
 
 
 # direct methods
@@ -342,6 +342,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final h()V
@@ -512,6 +513,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final i()V
@@ -655,6 +657,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final o()V
@@ -664,11 +667,11 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/mi0;
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/ni0;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mi0;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ni0;->a()V
 
     goto :goto_0
 
@@ -707,16 +710,16 @@
 
     .line 5
     .line 6
-    new-instance v0, Lcom/huawei/appmarket/mi0;
+    new-instance v0, Lcom/huawei/appmarket/ni0;
 
     .line 7
     .line 8
-    invoke-direct {v0}, Lcom/huawei/appmarket/mi0;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ni0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/mi0;
+    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/ni0;
 
     .line 12
     .line 13
@@ -761,11 +764,11 @@
 
     .line 30
     .line 31
-    iget-object v8, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/mi0;
+    iget-object v8, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/ni0;
 
     .line 32
     .line 33
-    invoke-static/range {v2 .. v8}, Lcom/huawei/appmarket/x21;->a(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/mi0;)Landroid/database/Cursor;
+    invoke-static/range {v2 .. v8}, Lcom/huawei/appmarket/x21;->a(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/ni0;)Landroid/database/Cursor;
 
     .line 34
     .line 35
@@ -828,7 +831,7 @@
 
     .line 56
     :try_start_4
-    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/mi0;
+    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/ni0;
 
     .line 57
     .line 58
@@ -862,7 +865,7 @@
 
     .line 66
     :try_start_6
-    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/mi0;
+    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->s:Lcom/huawei/appmarket/ni0;
 
     .line 67
     .line 68
@@ -968,6 +971,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final r(Ljava/lang/Object;)V

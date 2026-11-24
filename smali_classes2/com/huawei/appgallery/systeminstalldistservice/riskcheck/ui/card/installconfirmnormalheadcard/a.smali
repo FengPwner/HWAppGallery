@@ -29,7 +29,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/q72;->b(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/u72;->b(Landroid/content/Context;)V
 
     return-void
 .end method

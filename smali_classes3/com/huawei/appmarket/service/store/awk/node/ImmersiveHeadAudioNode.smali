@@ -42,13 +42,13 @@
 
     const v1, 0x7f0a0cce
 
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->r(Landroid/content/Context;)I
 
     move-result v2
 

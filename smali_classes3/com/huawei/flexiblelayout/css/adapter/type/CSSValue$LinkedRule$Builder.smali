@@ -15,13 +15,13 @@
 
 
 # instance fields
-.field private mCSSRule:Lcom/huawei/appmarket/jg0;
+.field private mCSSRule:Lcom/huawei/appmarket/kg0;
 
 .field private mSelectExpr:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/jg0;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/kg0;)V
     .registers 3
 
     .line 1
@@ -29,7 +29,7 @@
 
     iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule$Builder;->mSelectExpr:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule$Builder;->mCSSRule:Lcom/huawei/appmarket/jg0;
+    iput-object p2, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule$Builder;->mCSSRule:Lcom/huawei/appmarket/kg0;
 
     return-void
 .end method
@@ -49,9 +49,9 @@
 
     invoke-static {v0, v1}, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->access$102(Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;Ljava/lang/String;)Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule$Builder;->mCSSRule:Lcom/huawei/appmarket/jg0;
+    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule$Builder;->mCSSRule:Lcom/huawei/appmarket/kg0;
 
-    invoke-static {v0, v1}, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->access$202(Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;Lcom/huawei/appmarket/jg0;)Lcom/huawei/appmarket/jg0;
+    invoke-static {v0, v1}, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->access$202(Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;Lcom/huawei/appmarket/kg0;)Lcom/huawei/appmarket/kg0;
 
     return-object v0
 .end method

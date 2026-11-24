@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field b:Lcom/huawei/appmarket/by3;
+.field b:Lcom/huawei/appmarket/dy3;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/by3;)V
+.method public constructor <init>(Lcom/huawei/appmarket/dy3;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/ew0$b;->b:Lcom/huawei/appmarket/by3;
+    iput-object p1, p0, Lcom/huawei/appmarket/ew0$b;->b:Lcom/huawei/appmarket/dy3;
 
     return-void
 .end method
@@ -43,9 +43,9 @@
 
     const/4 v0, 0x0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/ew0$b;->b:Lcom/huawei/appmarket/by3;
+    iget-object v1, p0, Lcom/huawei/appmarket/ew0$b;->b:Lcom/huawei/appmarket/dy3;
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/by3;->b(II)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/dy3;->b(II)V
 
     return-void
 .end method

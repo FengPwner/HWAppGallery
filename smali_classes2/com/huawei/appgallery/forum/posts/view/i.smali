@@ -40,7 +40,7 @@
 
     const-string v0, "PostDetailActivity"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/posts/view/i;->b:Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;
 

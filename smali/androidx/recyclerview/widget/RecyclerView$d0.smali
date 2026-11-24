@@ -520,7 +520,7 @@
 
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->J(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->J(Landroid/view/View;)Z
 
     move-result v0
 
@@ -900,7 +900,7 @@
     :cond_0
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->r(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->r(Landroid/view/View;)I
 
     move-result v0
 
@@ -971,7 +971,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -2129,6 +2129,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final w()Z

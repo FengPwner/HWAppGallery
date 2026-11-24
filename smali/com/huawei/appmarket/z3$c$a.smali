@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/z3$c$a;
-.super Lcom/huawei/appmarket/z25;
+.super Lcom/huawei/appmarket/c35;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/z25<",
+        "Lcom/huawei/appmarket/c35<",
         "TK;",
         "Ljava/util/Collection<",
         "TV;>;>;"
@@ -34,7 +34,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/z3$c$a;->b:Lcom/huawei/appmarket/z3$c;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/z25;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/c35;-><init>()V
 
     return-void
 .end method

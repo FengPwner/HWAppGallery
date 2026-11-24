@@ -19,7 +19,7 @@
         value = {
             "Ljava/lang/ThreadLocal<",
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Landroid/view/ViewGroup;",
             "Ljava/util/ArrayList<",
             "Landroidx/transition/Transition;",
@@ -69,13 +69,13 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/gx;
+    new-instance v0, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hx;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/gx;
+    new-instance v0, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hx;-><init>()V
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 10
     .line 11
@@ -134,7 +134,7 @@
     move-result-object p0
 
     .line 26
-    invoke-static {}, Landroidx/transition/w;->b()Lcom/huawei/appmarket/gx;
+    invoke-static {}, Landroidx/transition/w;->b()Lcom/huawei/appmarket/hx;
 
     .line 27
     .line 28
@@ -145,7 +145,7 @@
     const/4 v1, 0x0
 
     .line 31
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/ue7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -228,7 +228,7 @@
     .line 70
     .line 71
     :cond_2
-    const v0, 0x7f0a1641
+    const v0, 0x7f0a1642
 
     .line 72
     .line 73
@@ -241,7 +241,7 @@
     move-result-object v2
 
     .line 78
-    check-cast v2, Lcom/huawei/appmarket/l27;
+    check-cast v2, Lcom/huawei/appmarket/p27;
 
     .line 79
     .line 80
@@ -249,7 +249,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v2}, Lcom/huawei/appmarket/l27;->a()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/p27;->a()V
 
     .line 83
     .line 84
@@ -340,12 +340,12 @@
     .line 150
 .end method
 
-.method static b()Lcom/huawei/appmarket/gx;
+.method static b()Lcom/huawei/appmarket/hx;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Landroid/view/ViewGroup;",
             "Ljava/util/ArrayList<",
             "Landroidx/transition/Transition;",
@@ -368,16 +368,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/gx;
+    check-cast v1, Lcom/huawei/appmarket/hx;
 
     if-eqz v1, :cond_0
 
     return-object v1
 
     :cond_0
-    new-instance v1, Lcom/huawei/appmarket/gx;
+    new-instance v1, Lcom/huawei/appmarket/hx;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/gx;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/hx;-><init>()V
 
     new-instance v2, Ljava/lang/ref/WeakReference;
 

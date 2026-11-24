@@ -4,11 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(J)Lcom/huawei/appmarket/jb4;
+.method public abstract a(J)Lcom/huawei/appmarket/lb4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J)",
-            "Lcom/huawei/appmarket/jb4<",
+            "Lcom/huawei/appmarket/lb4<",
             "Lcom/huawei/appmarket/c61;",
             ">;"
         }

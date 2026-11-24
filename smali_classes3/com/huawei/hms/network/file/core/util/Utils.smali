@@ -277,7 +277,7 @@
 
     .line 7
     .line 8
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -450,7 +450,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static checkReadableStream(I)Z
@@ -1394,7 +1393,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -1555,7 +1554,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static isBlank(Ljava/lang/String;)Z

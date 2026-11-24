@@ -163,7 +163,7 @@
 
     const-string v1, "UserSession clear."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -532,7 +532,7 @@
 .method public isChildAccount()Z
     .registers 6
 
-    invoke-static {}, Lcom/huawei/appmarket/c33;->a()Lcom/huawei/appmarket/tr3;
+    invoke-static {}, Lcom/huawei/appmarket/f33;->a()Lcom/huawei/appmarket/vr3;
 
     move-result-object v0
 
@@ -544,11 +544,11 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-interface {v0, v4}, Lcom/huawei/appmarket/tr3;->b(Ljava/lang/String;)I
+    invoke-interface {v0, v4}, Lcom/huawei/appmarket/vr3;->b(Ljava/lang/String;)I
 
     move-result v0
 
@@ -628,7 +628,7 @@
 
     const-string v1, "loadCache"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p1, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->isLoginSuccessful_:Z
 
@@ -755,7 +755,7 @@
 
     const-string v1, "can not obtainAuthorization IllegalAccessException"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const/4 v0, 0x0
@@ -860,7 +860,7 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->setLoginSuccessful(Z)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/xd8;->a(Lcom/huawei/appgallery/foundation/account/bean/UserSession;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ce8;->a(Lcom/huawei/appgallery/foundation/account/bean/UserSession;)V
 
     :cond_2
     return-void
@@ -873,7 +873,7 @@
 
     const-string v1, "UserSession reset."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -943,7 +943,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->A(Landroid/content/Intent;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->A(Landroid/content/Intent;)V
 
     .line 11
     .line 12
@@ -1042,7 +1042,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setHomeCountryTimestamp(Ljava/lang/String;)V
@@ -1135,7 +1134,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
@@ -1241,7 +1240,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setUnionId(Ljava/lang/String;)V
@@ -1272,7 +1270,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/fs;->p(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 10
     .line 11
@@ -1373,7 +1371,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setUserBirthDate(Ljava/lang/String;)V

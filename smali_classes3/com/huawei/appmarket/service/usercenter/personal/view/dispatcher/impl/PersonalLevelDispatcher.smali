@@ -18,21 +18,21 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yz5;->h()Lcom/huawei/appmarket/yz5;
+    invoke-static {}, Lcom/huawei/appmarket/a06;->h()Lcom/huawei/appmarket/a06;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yz5;->g()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/GrowthInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/a06;->g()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/GrowthInfo;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/yz5;->h()Lcom/huawei/appmarket/yz5;
+    invoke-static {}, Lcom/huawei/appmarket/a06;->h()Lcom/huawei/appmarket/a06;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yz5;->g()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/GrowthInfo;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/a06;->g()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/GrowthInfo;
 
     move-result-object p1
 
@@ -50,7 +50,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/BaseLoginDispatcher;->a:Landroid/content/Context;
 
-    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/xo8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, p1}, Lcom/huawei/appmarket/dp8;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

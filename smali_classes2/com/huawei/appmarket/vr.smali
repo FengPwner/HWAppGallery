@@ -36,7 +36,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/aa1;->y()Lcom/huawei/appmarket/aa1;
+    invoke-static {}, Lcom/huawei/appmarket/ba1;->y()Lcom/huawei/appmarket/ba1;
 
     .line 5
     .line 6
@@ -288,7 +288,7 @@
 
     invoke-virtual {v2, v1, v0}, Lcom/huawei/appmarket/b71;->b(Ljava/lang/String;[Ljava/lang/String;)I
 
-    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/e91;)J
+    invoke-virtual {v2, p1}, Lcom/huawei/appmarket/b71;->c(Lcom/huawei/appmarket/f91;)J
 
     move-result-wide v0
 

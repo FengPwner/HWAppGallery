@@ -46,7 +46,7 @@
     const-string v2, "remote service connected "
 
     :try_start_0
-    sget-object v3, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v3, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -62,13 +62,13 @@
 
     move-result-object p1
 
-    invoke-virtual {v3, v0, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p2}, Lcom/huawei/appmarket/gw3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/gw3;
+    invoke-static {p2}, Lcom/huawei/appmarket/iw3$a;->o(Landroid/os/IBinder;)Lcom/huawei/appmarket/iw3;
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/aa;->a(Lcom/huawei/appmarket/aa;Lcom/huawei/appmarket/gw3;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/aa;->a(Lcom/huawei/appmarket/aa;Lcom/huawei/appmarket/iw3;)V
 
     new-instance p1, Lcom/huawei/appmarket/aa$d;
 
@@ -90,7 +90,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p2
 
@@ -98,7 +98,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     const/4 p1, 0x1
 
@@ -111,7 +111,7 @@
     :catchall_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p2, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -127,7 +127,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -141,26 +141,26 @@
     .registers 6
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     const-string v0, "AdsInstallServiceManager"
 
     const-string v1, "remote service disconnected"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/aa$a;->b:Lcom/huawei/appmarket/aa;
 
     const/4 v1, 0x0
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/aa;->a(Lcom/huawei/appmarket/aa;Lcom/huawei/appmarket/gw3;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/aa;->a(Lcom/huawei/appmarket/aa;Lcom/huawei/appmarket/iw3;)V
 
     :try_start_0
     invoke-static {p1}, Lcom/huawei/appmarket/aa;->d(Lcom/huawei/appmarket/aa;)Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v2}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v2
 
@@ -168,7 +168,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     invoke-static {p1, v1}, Lcom/huawei/appmarket/aa;->c(Lcom/huawei/appmarket/aa;Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;)V
     :try_end_0
@@ -179,7 +179,7 @@
     :catch_0
     move-exception v1
 
-    sget-object v2, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v2, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -195,7 +195,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const/4 v0, 0x0

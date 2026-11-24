@@ -242,7 +242,7 @@
 
     .line 88
     .line 89
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/e57;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appgallery/forum/base/card/ForumCard;
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j57;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appgallery/forum/base/card/ForumCard;
 
     .line 90
     .line 91
@@ -456,7 +456,7 @@
 
     .line 191
     .line 192
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 193
     .line 194
@@ -921,13 +921,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 

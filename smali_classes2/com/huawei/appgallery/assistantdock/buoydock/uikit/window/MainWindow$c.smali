@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/c58$a;
+    check-cast p1, Lcom/huawei/appmarket/i58$a;
 
     iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/buoydock/uikit/window/MainWindow$c;->a:Lcom/huawei/appgallery/assistantdock/buoydock/uikit/window/MainWindow;
 
@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c58$a;->c()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i58$a;->c()F
 
     move-result v2
 
@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c58$a;->d()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i58$a;->d()F
 
     move-result v2
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c58$a;->c()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i58$a;->c()F
 
     move-result v1
 
@@ -105,7 +105,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c58$a;->d()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i58$a;->d()F
 
     move-result p1
 
@@ -117,7 +117,7 @@
 
     const-string v0, "onAnimationUpdate"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field protected a:Lcom/huawei/appmarket/hw5;
+.field protected a:Lcom/huawei/appmarket/jw5;
 
 
 # direct methods
@@ -40,7 +40,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     .line 9
@@ -48,11 +48,11 @@
     move-result-object p1
 
     .line 11
-    iget-object v1, p0, Lcom/huawei/appmarket/gw0;->a:Lcom/huawei/appmarket/hw5;
+    iget-object v1, p0, Lcom/huawei/appmarket/gw0;->a:Lcom/huawei/appmarket/jw5;
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Lcom/huawei/appmarket/hw5;->s()J
+    invoke-virtual {v1}, Lcom/huawei/appmarket/jw5;->s()J
 
     .line 14
     .line 15
@@ -162,5 +162,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

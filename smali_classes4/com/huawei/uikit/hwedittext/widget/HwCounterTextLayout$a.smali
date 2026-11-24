@@ -70,7 +70,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     const/4 v0, 0x0
 

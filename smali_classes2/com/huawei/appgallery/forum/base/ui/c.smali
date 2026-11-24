@@ -162,7 +162,7 @@
     move-result-object p1
 
     .line 41
-    invoke-static {p1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {p1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     .line 42
     .line 43
@@ -186,7 +186,7 @@
 
     .line 52
     .line 53
-    sget-object p1, Lcom/huawei/appmarket/tq3;->a:Lcom/huawei/appmarket/tq3;
+    sget-object p1, Lcom/huawei/appmarket/vq3;->a:Lcom/huawei/appmarket/vq3;
 
     .line 54
     .line 55
@@ -198,7 +198,7 @@
     move-result-object v0
 
     .line 59
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/tq3;->b(Lcom/huawei/appgallery/forum/base/card/bean/UserProfile;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/vq3;->b(Lcom/huawei/appgallery/forum/base/card/bean/UserProfile;)V
 
     .line 60
     .line 61
@@ -269,7 +269,7 @@
 
     .line 93
     .line 94
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -286,14 +286,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final c(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {p1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object p1
 

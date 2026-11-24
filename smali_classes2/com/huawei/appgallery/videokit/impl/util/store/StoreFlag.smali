@@ -31,7 +31,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag;->Companion:Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag$Companion;
 
@@ -87,7 +87,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag;->sp:Landroid/content/SharedPreferences;
 
@@ -121,7 +121,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag;->sp:Landroid/content/SharedPreferences;
@@ -179,7 +179,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag;->sp:Landroid/content/SharedPreferences;
@@ -218,7 +218,7 @@
 
     const-string p2, "BaseSharedPref"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/dy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_1

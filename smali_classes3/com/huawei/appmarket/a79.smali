@@ -1,95 +1,97 @@
-.class public final Lcom/huawei/appmarket/a79;
+.class public final synthetic Lcom/huawei/appmarket/a79;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static final a(Lcom/huawei/appmarket/cr6;)V
-    .registers 5
+.method public static synthetic a(Ljava/lang/String;)Ljava/util/List;
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/net/UnknownHostException;
+        }
+    .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/en;->b()Lcom/huawei/appmarket/en$b;
+    if-eqz p0, :cond_0
 
     .line 2
     .line 3
+    :try_start_0
+    invoke-static {p0}, Ljava/net/InetAddress;->getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;
+
     .line 4
+    .line 5
+    .line 6
     move-result-object v0
 
-    .line 5
-    const-class v1, Lcom/huawei/appmarket/im7;
-
-    .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 8
     .line 9
     .line 10
-    const-class v1, Lcom/huawei/appmarket/gm7;
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 11
+    return-object p0
+
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    :catch_0
+    move-exception v0
 
     .line 13
+    new-instance v1, Ljava/net/UnknownHostException;
+
     .line 14
     .line 15
-    const-class v1, Lcom/huawei/appmarket/xd2;
+    const-string v2, "Broken system behaviour for dns lookup of "
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en$b;->a(Ljava/lang/Class;)V
+    invoke-virtual {v2, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0}, Lcom/huawei/appmarket/en$b;->f()Lcom/huawei/appmarket/en;
+    move-result-object p0
 
     .line 21
+    invoke-direct {v1, p0}, Ljava/net/UnknownHostException;-><init>(Ljava/lang/String;)V
+
     .line 22
     .line 23
-    move-result-object v0
-
     .line 24
-    new-instance v1, Lcom/huawei/appmarket/yd2;
+    invoke-virtual {v1, v0}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 25
     .line 26
-    invoke-direct {v1}, Lcom/huawei/appmarket/yd2;-><init>()V
-
     .line 27
+    throw v1
+
     .line 28
+    :cond_0
+    new-instance p0, Ljava/net/UnknownHostException;
+
     .line 29
-    new-instance v2, Lcom/huawei/appmarket/ka5;
-
     .line 30
-    .line 31
-    const/4 v3, 0x5
+    const-string v0, "hostname == null"
 
+    .line 31
     .line 32
-    invoke-direct {v2, v1, v3}, Lcom/huawei/appmarket/ka5;-><init>(Lcom/huawei/appmarket/ja5;I)V
+    invoke-direct {p0, v0}, Ljava/net/UnknownHostException;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    const-string v1, "fadownload"
-
+    throw p0
     .line 36
     .line 37
-    invoke-virtual {v2, p0, v1, v0}, Lcom/huawei/appmarket/ka5;->e(Lcom/huawei/appmarket/cr6;Ljava/lang/String;Lcom/huawei/appmarket/en;)V
-
     .line 38
     .line 39
     .line 40
-    return-void
     .line 41
     .line 42
     .line 43
@@ -164,5 +166,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

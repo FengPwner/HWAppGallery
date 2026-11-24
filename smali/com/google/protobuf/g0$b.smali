@@ -839,6 +839,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getUnknownFields()Lcom/google/protobuf/f2;
@@ -997,6 +998,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public hasField(Lcom/google/protobuf/Descriptors$f;)Z
@@ -1200,7 +1202,7 @@
 
     check-cast v2, Lcom/google/protobuf/y0;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     move-result v2
 
@@ -1221,7 +1223,7 @@
 
     check-cast v1, Lcom/google/protobuf/y0;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     move-result v1
 

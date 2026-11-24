@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # instance fields
@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 6
 
     .line 1
@@ -54,7 +54,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, p2, v2}, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;-><init>(Landroid/view/View;Lcom/huawei/appmarket/nq8;Lcom/google/android/material/bottomsheet/d;)V
+    invoke-direct {v0, v1, p2, v2}, Lcom/google/android/material/bottomsheet/BottomSheetDialog$b;-><init>(Landroid/view/View;Lcom/huawei/appmarket/tq8;Lcom/google/android/material/bottomsheet/d;)V
 
     invoke-static {p1, v0}, Lcom/google/android/material/bottomsheet/BottomSheetDialog;->g(Lcom/google/android/material/bottomsheet/BottomSheetDialog;Lcom/google/android/material/bottomsheet/BottomSheetBehavior$c;)V
 

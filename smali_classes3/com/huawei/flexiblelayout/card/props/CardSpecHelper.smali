@@ -150,7 +150,7 @@
 
     iget v2, p0, Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;->c:I
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/flexiblelayout/card/props/b;->a(II)Lcom/huawei/appmarket/wo1;
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/flexiblelayout/card/props/b;->a(II)Lcom/huawei/appmarket/zo1;
 
     move-result-object p1
 
@@ -163,14 +163,14 @@
 
     if-ne v1, v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wo1;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zo1;->c()I
 
     move-result p1
 
     return p1
 
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wo1;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zo1;->a()I
 
     move-result p1
 
@@ -186,7 +186,7 @@
     return v0
 .end method
 
-.method public final c(Lcom/huawei/flexiblelayout/card/props/b;)Lcom/huawei/appmarket/wo1;
+.method public final c(Lcom/huawei/flexiblelayout/card/props/b;)Lcom/huawei/appmarket/zo1;
     .registers 4
 
     .line 1
@@ -201,7 +201,7 @@
 
     iget v1, p0, Lcom/huawei/flexiblelayout/card/props/CardSpecHelper;->c:I
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/flexiblelayout/card/props/b;->a(II)Lcom/huawei/appmarket/wo1;
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/flexiblelayout/card/props/b;->a(II)Lcom/huawei/appmarket/zo1;
 
     move-result-object p1
 
@@ -536,5 +536,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

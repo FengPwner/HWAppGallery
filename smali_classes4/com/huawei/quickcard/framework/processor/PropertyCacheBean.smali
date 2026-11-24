@@ -35,7 +35,7 @@
 
 .field private k:[F
 
-.field private l:Lcom/huawei/appmarket/ef9;
+.field private l:Lcom/huawei/appmarket/lf9;
 
 .field private m:Lcom/huawei/quickcard/framework/condition/ConditionalData;
 
@@ -67,9 +67,9 @@
 
 .field private s:Lcom/huawei/quickcard/utils/FullScreenImpl;
 
-.field private t:Lcom/huawei/appmarket/i69;
+.field private t:Lcom/huawei/appmarket/o69;
 
-.field private u:Lcom/huawei/appmarket/h69;
+.field private u:Lcom/huawei/appmarket/n69;
 
 .field private v:Lcom/huawei/quickcard/framework/animation/QAnimatorSet;
 
@@ -190,22 +190,22 @@
     return-object p1
 .end method
 
-.method public getBackgroundImageStyle()Lcom/huawei/appmarket/i69;
+.method public getBackgroundImageStyle()Lcom/huawei/appmarket/o69;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/i69;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/o69;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/i69;
+    new-instance v0, Lcom/huawei/appmarket/o69;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/i69;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/o69;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/i69;
+    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/o69;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/i69;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->t:Lcom/huawei/appmarket/o69;
 
     return-object v0
 .end method
@@ -234,11 +234,11 @@
     return-object v0
 .end method
 
-.method public getConditionChildren()Lcom/huawei/appmarket/ef9;
+.method public getConditionChildren()Lcom/huawei/appmarket/lf9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/ef9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/lf9;
 
     return-object v0
 .end method
@@ -355,22 +355,22 @@
     return-object p1
 .end method
 
-.method public getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/h69;
+.method public getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/n69;
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/h69;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/n69;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/h69;
+    new-instance v0, Lcom/huawei/appmarket/n69;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/h69;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/n69;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/h69;
+    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/n69;
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/h69;
+    iget-object p1, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->u:Lcom/huawei/appmarket/n69;
 
     return-object p1
 .end method
@@ -516,22 +516,22 @@
     return v0
 .end method
 
-.method public obtainConditionChildren()Lcom/huawei/appmarket/ef9;
+.method public obtainConditionChildren()Lcom/huawei/appmarket/lf9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/ef9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/lf9;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/ef9;
+    new-instance v0, Lcom/huawei/appmarket/lf9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ef9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/lf9;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/ef9;
+    iput-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/lf9;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/ef9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->l:Lcom/huawei/appmarket/lf9;
 
     return-object v0
 .end method

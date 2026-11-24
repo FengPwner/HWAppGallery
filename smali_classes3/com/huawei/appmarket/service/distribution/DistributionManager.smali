@@ -83,7 +83,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/ng;->l(Lcom/huawei/appmarket/ng$b;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/mg;->l(Lcom/huawei/appmarket/mg$b;)V
 
     .line 8
     .line 9
@@ -97,7 +97,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/br1;->d()Lcom/huawei/appmarket/br1;
+    invoke-static {}, Lcom/huawei/appmarket/er1;->d()Lcom/huawei/appmarket/er1;
 
     .line 16
     .line 17
@@ -105,7 +105,7 @@
     move-result-object p0
 
     .line 19
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/br1;->e(Lcom/huawei/appmarket/vn3;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/er1;->e(Lcom/huawei/appmarket/xn3;)V
 
     .line 20
     .line 21
@@ -203,5 +203,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

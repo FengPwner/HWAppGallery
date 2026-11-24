@@ -2,13 +2,21 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
-
 
 # virtual methods
-.method public abstract K1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/en3;)V
+.method public abstract a()Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
 .end method
 
-.method public abstract n1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract b()Landroid/content/Intent;
+.end method
+
+.method public abstract c()Ljava/lang/String;
 .end method

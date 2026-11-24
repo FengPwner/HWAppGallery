@@ -60,7 +60,7 @@
 
     const-string v6, "alpha"
 
-    invoke-static {v1, v3, v6, v5}, Lcom/huawei/appmarket/rz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {v1, v3, v6, v5}, Lcom/huawei/appmarket/tz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
@@ -80,7 +80,7 @@
 
     const-string v7, "scaleX"
 
-    invoke-static {v1, v3, v7, v5}, Lcom/huawei/appmarket/rz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {v1, v3, v7, v5}, Lcom/huawei/appmarket/tz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
@@ -100,7 +100,7 @@
 
     const-string v7, "scaleY"
 
-    invoke-static {v1, v3, v7, v5}, Lcom/huawei/appmarket/rz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {v1, v3, v7, v5}, Lcom/huawei/appmarket/tz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
@@ -118,7 +118,7 @@
 
     fill-array-data v5, :array_3
 
-    invoke-static {v1, v3, v6, v5}, Lcom/huawei/appmarket/rz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {v1, v3, v6, v5}, Lcom/huawei/appmarket/tz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
@@ -150,7 +150,7 @@
 
     const-string v0, "translationX"
 
-    invoke-static {v3, v5, v0, v4}, Lcom/huawei/appmarket/rz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {v3, v5, v0, v4}, Lcom/huawei/appmarket/tz5;->a(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v0
 

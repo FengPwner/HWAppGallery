@@ -95,7 +95,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->P(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->P(Landroid/view/View;)Z
 
     .line 6
     .line 7
@@ -108,7 +108,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->K(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->K(Landroid/view/View;)Z
 
     .line 13
     .line 14
@@ -121,7 +121,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->i(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->i(Landroid/view/View;)Ljava/lang/CharSequence;
 
     .line 20
     .line 21
@@ -134,7 +134,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->B(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->B(Landroid/view/View;)Ljava/lang/CharSequence;
 
     .line 27
     .line 28

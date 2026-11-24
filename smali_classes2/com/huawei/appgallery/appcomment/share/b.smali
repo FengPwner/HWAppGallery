@@ -44,7 +44,7 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/appcomment/share/b;->b:Ljava/lang/String;
 
-    invoke-static {v1, v3, v0, v2}, Lcom/huawei/appmarket/bp2;->e(Landroid/widget/ImageView;Ljava/lang/String;Lcom/huawei/appgallery/appcomment/share/PictureShareFragment$a;I)V
+    invoke-static {v1, v3, v0, v2}, Lcom/huawei/appmarket/dp2;->e(Landroid/widget/ImageView;Ljava/lang/String;Lcom/huawei/appgallery/appcomment/share/PictureShareFragment$a;I)V
 
     return-void
 .end method

@@ -90,7 +90,7 @@
     move-result p1
 
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/cs0;->a()Lcom/huawei/appmarket/cs0;
+    invoke-static {}, Lcom/huawei/appmarket/ds0;->a()Lcom/huawei/appmarket/ds0;
 
     .line 29
     .line 30
@@ -103,7 +103,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     .line 36
     .line 37
@@ -134,7 +134,7 @@
 
     .line 48
     .line 49
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -211,7 +211,7 @@
 
     .line 85
     .line 86
-    invoke-static {}, Lcom/huawei/appmarket/ag0;->b()Lcom/huawei/appmarket/ag0;
+    invoke-static {}, Lcom/huawei/appmarket/bg0;->b()Lcom/huawei/appmarket/bg0;
 
     .line 87
     .line 88
@@ -219,7 +219,7 @@
     move-result-object p1
 
     .line 90
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ag0;->c()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bg0;->c()V
 
     .line 91
     .line 92
@@ -261,5 +261,4 @@
         :pswitch_0
     .end packed-switch
     .line 106
-    .line 107
 .end method

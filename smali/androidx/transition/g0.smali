@@ -32,7 +32,7 @@
     if-eqz v0, :cond_0
 
     :try_start_0
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/huawei/appmarket/vg5;->s(Landroid/view/View;IIII)V
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/huawei/appmarket/yg5;->s(Landroid/view/View;IIII)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
 

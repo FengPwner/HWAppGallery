@@ -9,7 +9,7 @@
         value = {
             "Ljava/util/Map<",
             "Ljava/lang/reflect/Type;",
-            "Lcom/huawei/appmarket/ai4<",
+            "Lcom/huawei/appmarket/ci4<",
             "*>;>;"
         }
     .end annotation
@@ -21,7 +21,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/zl6;",
+            "Lcom/huawei/appmarket/cm6;",
             ">;"
         }
     .end annotation
@@ -36,10 +36,10 @@
             "(",
             "Ljava/util/Map<",
             "Ljava/lang/reflect/Type;",
-            "Lcom/huawei/appmarket/ai4<",
+            "Lcom/huawei/appmarket/ci4<",
             "*>;>;Z",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/zl6;",
+            "Lcom/huawei/appmarket/cm6;",
             ">;)V"
         }
     .end annotation
@@ -115,7 +115,7 @@
 
     const-string p0, "r8-abstract-class"
 
-    invoke-static {p0}, Lcom/huawei/appmarket/f48;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/l48;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -135,7 +135,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/wl5;
+.method public final b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/yl5;
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -144,7 +144,7 @@
             ">(",
             "Lcom/google/gson/reflect/TypeToken<",
             "TT;>;)",
-            "Lcom/huawei/appmarket/wl5<",
+            "Lcom/huawei/appmarket/yl5<",
             "TT;>;"
         }
     .end annotation
@@ -178,7 +178,7 @@
     move-result-object v2
 
     .line 15
-    check-cast v2, Lcom/huawei/appmarket/ai4;
+    check-cast v2, Lcom/huawei/appmarket/ci4;
 
     .line 16
     .line 17
@@ -190,7 +190,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p1, p0, v2, v0}, Lcom/huawei/appmarket/x11$a;-><init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ai4;Ljava/lang/reflect/Type;)V
+    invoke-direct {p1, p0, v2, v0}, Lcom/huawei/appmarket/x11$a;-><init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ci4;Ljava/lang/reflect/Type;)V
 
     .line 22
     .line 23
@@ -207,7 +207,7 @@
     move-result-object v1
 
     .line 29
-    check-cast v1, Lcom/huawei/appmarket/ai4;
+    check-cast v1, Lcom/huawei/appmarket/ci4;
 
     .line 30
     .line 31
@@ -219,7 +219,7 @@
 
     .line 34
     .line 35
-    invoke-direct {p1, p0, v1, v0}, Lcom/huawei/appmarket/x11$b;-><init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ai4;Ljava/lang/reflect/Type;)V
+    invoke-direct {p1, p0, v1, v0}, Lcom/huawei/appmarket/x11$b;-><init>(Lcom/huawei/appmarket/x11;Lcom/huawei/appmarket/ci4;Ljava/lang/reflect/Type;)V
 
     .line 36
     .line 37
@@ -297,7 +297,7 @@
 
     .line 69
     .line 70
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/am6;->b(Ljava/lang/Class;Ljava/util/List;)Lcom/huawei/appmarket/zl6$a;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/dm6;->b(Ljava/lang/Class;Ljava/util/List;)Lcom/huawei/appmarket/cm6$a;
 
     .line 71
     .line 72
@@ -351,7 +351,7 @@
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 93
-    sget-object v5, Lcom/huawei/appmarket/zl6$a;->b:Lcom/huawei/appmarket/zl6$a;
+    sget-object v5, Lcom/huawei/appmarket/cm6$a;->b:Lcom/huawei/appmarket/cm6$a;
 
     .line 94
     .line 95
@@ -359,11 +359,11 @@
 
     .line 96
     .line 97
-    sget-object v6, Lcom/huawei/appmarket/am6$b;->a:Lcom/huawei/appmarket/am6$b;
+    sget-object v6, Lcom/huawei/appmarket/dm6$b;->a:Lcom/huawei/appmarket/dm6$b;
 
     .line 98
     .line 99
-    invoke-virtual {v6, v2, v3}, Lcom/huawei/appmarket/am6$b;->a(Ljava/lang/Object;Ljava/lang/reflect/AccessibleObject;)Z
+    invoke-virtual {v6, v2, v3}, Lcom/huawei/appmarket/dm6$b;->a(Ljava/lang/Object;Ljava/lang/reflect/AccessibleObject;)Z
 
     .line 100
     .line 101
@@ -375,7 +375,7 @@
 
     .line 104
     .line 105
-    sget-object v6, Lcom/huawei/appmarket/zl6$a;->e:Lcom/huawei/appmarket/zl6$a;
+    sget-object v6, Lcom/huawei/appmarket/cm6$a;->e:Lcom/huawei/appmarket/cm6$a;
 
     .line 106
     .line 107
@@ -407,514 +407,525 @@
 
     .line 120
     :cond_6
-    new-instance v3, Ljava/lang/StringBuilder;
+    const-string v3, "Unable to invoke no-args constructor of "
 
     .line 121
     .line 122
-    const-string v5, "Unable to invoke no-args constructor of "
+    const-string v5, "; constructor is not accessible and ReflectionAccessFilter does not permit making it accessible. Register an InstanceCreator or a TypeAdapter for this type, change the visibility of the constructor or adjust the access filter."
 
     .line 123
     .line 124
-    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-static {v3, p1, v5}, Lcom/huawei/appmarket/uq5;->j(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
 
     .line 125
     .line 126
     .line 127
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    move-result-object v3
 
     .line 128
+    new-instance v5, Lcom/huawei/appmarket/b21;
+
     .line 129
     .line 130
-    const-string v5, "; constructor is not accessible and ReflectionAccessFilter does not permit making it accessible. Register an InstanceCreator or a TypeAdapter for this type, change the visibility of the constructor or adjust the access filter."
+    invoke-direct {v5, v3}, Lcom/huawei/appmarket/b21;-><init>(Ljava/lang/String;)V
 
     .line 131
     .line 132
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 133
-    .line 134
-    .line 135
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 136
-    .line 137
-    .line 138
-    move-result-object v3
-
-    .line 139
-    new-instance v5, Lcom/huawei/appmarket/b21;
-
-    .line 140
-    .line 141
-    invoke-direct {v5, v3}, Lcom/huawei/appmarket/b21;-><init>(Ljava/lang/String;)V
-
-    .line 142
-    .line 143
-    .line 144
     goto :goto_3
 
-    .line 145
+    .line 134
     :cond_7
     :goto_2
     if-ne v1, v5, :cond_8
 
-    .line 146
-    .line 147
-    invoke-static {v3}, Lcom/huawei/appmarket/cm6;->k(Ljava/lang/reflect/Constructor;)Ljava/lang/String;
+    .line 135
+    .line 136
+    invoke-static {v3}, Lcom/huawei/appmarket/fm6;->k(Ljava/lang/reflect/Constructor;)Ljava/lang/String;
 
-    .line 148
-    .line 149
-    .line 150
+    .line 137
+    .line 138
+    .line 139
     move-result-object v5
 
-    .line 151
+    .line 140
     if-eqz v5, :cond_8
 
-    .line 152
-    .line 153
+    .line 141
+    .line 142
     new-instance v3, Lcom/huawei/appmarket/c21;
 
-    .line 154
-    .line 155
+    .line 143
+    .line 144
     invoke-direct {v3, v5}, Lcom/huawei/appmarket/c21;-><init>(Ljava/lang/String;)V
 
-    .line 156
-    .line 157
-    .line 158
+    .line 145
+    .line 146
+    .line 147
     move-object v5, v3
 
-    .line 159
+    .line 148
     goto :goto_3
 
-    .line 160
+    .line 149
     :cond_8
     new-instance v5, Lcom/huawei/appmarket/d21;
 
+    .line 150
+    .line 151
+    invoke-direct {v5, v3}, Lcom/huawei/appmarket/d21;-><init>(Ljava/lang/reflect/Constructor;)V
+
+    .line 152
+    .line 153
+    .line 154
+    goto :goto_3
+
+    .line 155
+    :catch_0
+    nop
+
+    .line 156
+    goto :goto_1
+
+    .line 157
+    :goto_3
+    if-eqz v5, :cond_9
+
+    .line 158
+    .line 159
+    return-object v5
+
+    .line 160
+    :cond_9
+    const-class v3, Ljava/util/Collection;
+
     .line 161
     .line 162
-    invoke-direct {v5, v3}, Lcom/huawei/appmarket/d21;-><init>(Ljava/lang/reflect/Constructor;)V
+    invoke-virtual {v3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 163
     .line 164
     .line 165
-    goto :goto_3
+    move-result v3
 
     .line 166
-    :catch_0
-    nop
+    if-eqz v3, :cond_d
 
     .line 167
-    goto :goto_1
-
     .line 168
-    :goto_3
-    if-eqz v5, :cond_9
+    const-class v0, Ljava/util/SortedSet;
 
     .line 169
     .line 170
-    return-object v5
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 171
-    :cond_9
-    const-class v3, Ljava/util/Collection;
-
     .line 172
     .line 173
-    invoke-virtual {v3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    move-result v0
 
     .line 174
+    if-eqz v0, :cond_a
+
     .line 175
     .line 176
-    move-result v3
+    new-instance v2, Lcom/huawei/appmarket/n11;
 
     .line 177
-    if-eqz v3, :cond_d
-
     .line 178
-    .line 179
-    const-class v0, Ljava/util/SortedSet;
+    invoke-direct {v2}, Lcom/huawei/appmarket/n11;-><init>()V
 
+    .line 179
     .line 180
     .line 181
-    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    goto/16 :goto_4
 
     .line 182
     .line 183
-    .line 184
-    move-result v0
-
-    .line 185
-    if-eqz v0, :cond_a
-
-    .line 186
-    .line 187
-    new-instance v2, Lcom/huawei/appmarket/n11;
-
-    .line 188
-    .line 189
-    invoke-direct {v2}, Lcom/huawei/appmarket/n11;-><init>()V
-
-    .line 190
-    .line 191
-    .line 192
-    goto/16 :goto_4
-
-    .line 193
-    .line 194
     :cond_a
     const-class v0, Ljava/util/Set;
 
+    .line 184
+    .line 185
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+
+    .line 186
+    .line 187
+    .line 188
+    move-result v0
+
+    .line 189
+    if-eqz v0, :cond_b
+
+    .line 190
+    .line 191
+    new-instance v2, Lcom/huawei/appmarket/o11;
+
+    .line 192
+    .line 193
+    invoke-direct {v2}, Lcom/huawei/appmarket/o11;-><init>()V
+
+    .line 194
     .line 195
     .line 196
-    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    goto/16 :goto_4
 
     .line 197
     .line 198
-    .line 199
-    move-result v0
-
-    .line 200
-    if-eqz v0, :cond_b
-
-    .line 201
-    .line 202
-    new-instance v2, Lcom/huawei/appmarket/o11;
-
-    .line 203
-    .line 204
-    invoke-direct {v2}, Lcom/huawei/appmarket/o11;-><init>()V
-
-    .line 205
-    .line 206
-    .line 207
-    goto/16 :goto_4
-
-    .line 208
-    .line 209
     :cond_b
     const-class v0, Ljava/util/Queue;
 
-    .line 210
-    .line 211
+    .line 199
+    .line 200
     invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 212
-    .line 213
-    .line 214
+    .line 201
+    .line 202
+    .line 203
     move-result v0
 
-    .line 215
+    .line 204
     if-eqz v0, :cond_c
 
-    .line 216
-    .line 217
+    .line 205
+    .line 206
     new-instance v2, Lcom/huawei/appmarket/p11;
 
-    .line 218
-    .line 219
+    .line 207
+    .line 208
     invoke-direct {v2}, Lcom/huawei/appmarket/p11;-><init>()V
 
-    .line 220
-    .line 221
-    .line 222
+    .line 209
+    .line 210
+    .line 211
     goto :goto_4
 
-    .line 223
+    .line 212
     :cond_c
     new-instance v2, Lcom/huawei/appmarket/q11;
 
-    .line 224
-    .line 225
+    .line 213
+    .line 214
     invoke-direct {v2}, Lcom/huawei/appmarket/q11;-><init>()V
 
-    .line 226
-    .line 227
-    .line 228
+    .line 215
+    .line 216
+    .line 217
     goto :goto_4
 
-    .line 229
+    .line 218
     :cond_d
     const-class v3, Ljava/util/Map;
 
-    .line 230
-    .line 231
+    .line 219
+    .line 220
     invoke-virtual {v3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 232
-    .line 233
-    .line 234
+    .line 221
+    .line 222
+    .line 223
     move-result v3
 
-    .line 235
+    .line 224
     if-eqz v3, :cond_12
 
-    .line 236
-    .line 237
+    .line 225
+    .line 226
     const-class v2, Ljava/util/concurrent/ConcurrentNavigableMap;
 
-    .line 238
-    .line 239
+    .line 227
+    .line 228
     invoke-virtual {v2, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 240
-    .line 241
-    .line 242
+    .line 229
+    .line 230
+    .line 231
     move-result v2
 
-    .line 243
+    .line 232
     if-eqz v2, :cond_e
 
-    .line 244
-    .line 245
+    .line 233
+    .line 234
     new-instance v2, Lcom/huawei/appmarket/r11;
 
-    .line 246
-    .line 247
+    .line 235
+    .line 236
     invoke-direct {v2}, Lcom/huawei/appmarket/r11;-><init>()V
 
-    .line 248
-    .line 249
-    .line 250
+    .line 237
+    .line 238
+    .line 239
     goto :goto_4
 
-    .line 251
+    .line 240
     :cond_e
     const-class v2, Ljava/util/concurrent/ConcurrentMap;
 
-    .line 252
-    .line 253
+    .line 241
+    .line 242
     invoke-virtual {v2, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 254
-    .line 255
-    .line 256
+    .line 243
+    .line 244
+    .line 245
     move-result v2
 
-    .line 257
+    .line 246
     if-eqz v2, :cond_f
 
-    .line 258
-    .line 259
+    .line 247
+    .line 248
     new-instance v2, Lcom/huawei/appmarket/s11;
 
-    .line 260
-    .line 261
+    .line 249
+    .line 250
     invoke-direct {v2}, Lcom/huawei/appmarket/s11;-><init>()V
 
-    .line 262
-    .line 263
-    .line 264
+    .line 251
+    .line 252
+    .line 253
     goto :goto_4
 
-    .line 265
+    .line 254
     :cond_f
     const-class v2, Ljava/util/SortedMap;
 
-    .line 266
-    .line 267
+    .line 255
+    .line 256
     invoke-virtual {v2, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 268
-    .line 269
-    .line 270
+    .line 257
+    .line 258
+    .line 259
     move-result v2
 
-    .line 271
+    .line 260
     if-eqz v2, :cond_10
 
-    .line 272
-    .line 273
+    .line 261
+    .line 262
     new-instance v2, Lcom/huawei/appmarket/t11;
 
-    .line 274
-    .line 275
+    .line 263
+    .line 264
     invoke-direct {v2}, Lcom/huawei/appmarket/t11;-><init>()V
 
-    .line 276
-    .line 277
-    .line 278
+    .line 265
+    .line 266
+    .line 267
     goto :goto_4
 
-    .line 279
+    .line 268
     :cond_10
     instance-of v2, v0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 280
-    .line 281
+    .line 269
+    .line 270
     if-eqz v2, :cond_11
 
-    .line 282
-    .line 283
+    .line 271
+    .line 272
     check-cast v0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 284
-    .line 285
+    .line 273
+    .line 274
     invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
 
-    .line 286
-    .line 287
-    .line 288
+    .line 275
+    .line 276
+    .line 277
     move-result-object v0
 
-    .line 289
+    .line 278
     aget-object v0, v0, v4
 
-    .line 290
-    .line 291
+    .line 279
+    .line 280
     invoke-static {v0}, Lcom/google/gson/reflect/TypeToken;->get(Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken;
 
-    .line 292
-    .line 293
-    .line 294
+    .line 281
+    .line 282
+    .line 283
     move-result-object v0
 
-    .line 295
+    .line 284
     invoke-virtual {v0}, Lcom/google/gson/reflect/TypeToken;->getRawType()Ljava/lang/Class;
 
-    .line 296
-    .line 297
-    .line 298
+    .line 285
+    .line 286
+    .line 287
     move-result-object v0
 
-    .line 299
+    .line 288
     const-class v2, Ljava/lang/String;
 
-    .line 300
-    .line 301
+    .line 289
+    .line 290
     invoke-virtual {v2, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
-    .line 302
-    .line 303
-    .line 304
+    .line 291
+    .line 292
+    .line 293
     move-result v0
 
-    .line 305
+    .line 294
     if-nez v0, :cond_11
 
-    .line 306
-    .line 307
+    .line 295
+    .line 296
     new-instance v2, Lcom/huawei/appmarket/u11;
 
-    .line 308
-    .line 309
+    .line 297
+    .line 298
     invoke-direct {v2}, Lcom/huawei/appmarket/u11;-><init>()V
 
-    .line 310
-    .line 311
-    .line 312
+    .line 299
+    .line 300
+    .line 301
     goto :goto_4
 
-    .line 313
+    .line 302
     :cond_11
     new-instance v2, Lcom/huawei/appmarket/v11;
 
-    .line 314
-    .line 315
+    .line 303
+    .line 304
     invoke-direct {v2}, Lcom/huawei/appmarket/v11;-><init>()V
 
-    .line 316
-    .line 317
-    .line 318
+    .line 305
+    .line 306
+    .line 307
     :cond_12
     :goto_4
     if-eqz v2, :cond_13
 
-    .line 319
-    .line 320
+    .line 308
+    .line 309
     return-object v2
 
-    .line 321
+    .line 310
     :cond_13
     invoke-static {p1}, Lcom/huawei/appmarket/x11;->a(Ljava/lang/Class;)Ljava/lang/String;
 
-    .line 322
-    .line 323
-    .line 324
+    .line 311
+    .line 312
+    .line 313
     move-result-object v0
 
-    .line 325
+    .line 314
     if-eqz v0, :cond_14
 
-    .line 326
-    .line 327
+    .line 315
+    .line 316
     new-instance p1, Lcom/huawei/appmarket/x11$c;
 
-    .line 328
-    .line 329
+    .line 317
+    .line 318
     invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/x11$c;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/String;)V
 
-    .line 330
-    .line 331
-    .line 332
+    .line 319
+    .line 320
+    .line 321
     return-object p1
 
-    .line 333
+    .line 322
     :cond_14
-    sget-object v0, Lcom/huawei/appmarket/zl6$a;->b:Lcom/huawei/appmarket/zl6$a;
+    sget-object v0, Lcom/huawei/appmarket/cm6$a;->b:Lcom/huawei/appmarket/cm6$a;
 
-    .line 334
-    .line 335
+    .line 323
+    .line 324
     const-string v2, "Unable to create instance of "
 
-    .line 336
-    .line 337
+    .line 325
+    .line 326
     if-ne v1, v0, :cond_17
 
-    .line 338
-    .line 339
+    .line 327
+    .line 328
     iget-boolean v0, p0, Lcom/huawei/appmarket/x11;->b:Z
 
-    .line 340
-    .line 341
+    .line 329
+    .line 330
     if-eqz v0, :cond_15
 
-    .line 342
-    .line 343
+    .line 331
+    .line 332
     new-instance v0, Lcom/huawei/appmarket/w11;
 
-    .line 344
-    .line 345
+    .line 333
+    .line 334
     invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/w11;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/Class;)V
 
-    .line 346
-    .line 347
-    .line 348
+    .line 335
+    .line 336
+    .line 337
     goto :goto_5
 
-    .line 349
+    .line 338
     :cond_15
-    new-instance v0, Ljava/lang/StringBuilder;
+    const-string v0, "; usage of JDK Unsafe is disabled. Registering an InstanceCreator or a TypeAdapter for this type, adding a no-args constructor, or enabling usage of JDK Unsafe may fix this problem."
+
+    .line 339
+    .line 340
+    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/uq5;->j(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 341
+    .line 342
+    .line 343
+    move-result-object v0
+
+    .line 344
+    invoke-virtual {p1}, Ljava/lang/Class;->getDeclaredConstructors()[Ljava/lang/reflect/Constructor;
+
+    .line 345
+    .line 346
+    .line 347
+    move-result-object p1
+
+    .line 348
+    array-length p1, p1
+
+    .line 349
+    if-nez p1, :cond_16
 
     .line 350
     .line 351
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string p1, " Or adjust your R8 configuration to keep the no-args constructor of the class."
 
     .line 352
     .line 353
-    .line 354
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
+    .line 354
     .line 355
     .line 356
+    move-result-object v0
+
     .line 357
-    const-string v1, "; usage of JDK Unsafe is disabled. Registering an InstanceCreator or a TypeAdapter for this type, adding a no-args constructor, or enabling usage of JDK Unsafe may fix this problem."
+    :cond_16
+    new-instance p1, Lcom/huawei/appmarket/y11;
 
     .line 358
     .line 359
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/y11;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/String;)V
 
     .line 360
     .line 361
     .line 362
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-object v0, p1
 
     .line 363
-    .line 364
-    .line 365
-    move-result-object v0
+    :goto_5
+    return-object v0
 
+    .line 364
+    :cond_17
+    const-string v0, "; ReflectionAccessFilter does not permit using reflection or Unsafe. Register an InstanceCreator or a TypeAdapter for this type or adjust the access filter to allow using reflection."
+
+    .line 365
     .line 366
-    invoke-virtual {p1}, Ljava/lang/Class;->getDeclaredConstructors()[Ljava/lang/reflect/Constructor;
+    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/uq5;->j(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
 
     .line 367
     .line 368
@@ -922,84 +933,49 @@
     move-result-object p1
 
     .line 370
-    array-length p1, p1
+    new-instance v0, Lcom/huawei/appmarket/x11$d;
 
     .line 371
-    if-nez p1, :cond_16
-
     .line 372
-    .line 373
-    const-string p1, " Or adjust your R8 configuration to keep the no-args constructor of the class."
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/x11$d;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/String;)V
 
+    .line 373
     .line 374
     .line 375
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
+    return-object v0
     .line 376
     .line 377
     .line 378
-    move-result-object v0
-
     .line 379
-    :cond_16
-    new-instance p1, Lcom/huawei/appmarket/y11;
-
     .line 380
     .line 381
-    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/y11;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/String;)V
-
     .line 382
     .line 383
     .line 384
-    move-object v0, p1
-
     .line 385
-    :goto_5
-    return-object v0
-
     .line 386
-    :cond_17
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 387
     .line 388
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
     .line 389
     .line 390
     .line 391
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
     .line 392
     .line 393
     .line 394
-    const-string p1, "; ReflectionAccessFilter does not permit using reflection or Unsafe. Register an InstanceCreator or a TypeAdapter for this type or adjust the access filter to allow using reflection."
-
     .line 395
     .line 396
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 397
     .line 398
     .line 399
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 400
     .line 401
     .line 402
-    move-result-object p1
-
     .line 403
-    new-instance v0, Lcom/huawei/appmarket/x11$d;
-
     .line 404
     .line 405
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/x11$d;-><init>(Lcom/huawei/appmarket/x11;Ljava/lang/String;)V
-
     .line 406
     .line 407
     .line 408
-    return-object v0
     .line 409
     .line 410
     .line 411

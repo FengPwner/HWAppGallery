@@ -45,7 +45,7 @@
 
     const-string v0, "type"
 
-    const-string v1, "value"
+    const-string/jumbo v1, "value"
 
     const-string v2, "_id"
 
@@ -142,104 +142,104 @@
     move-result v1
 
     .line 28
-    const-string v2, "value"
+    const-string/jumbo v2, "value"
 
     .line 29
     .line 30
+    .line 31
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
-    .line 31
     .line 32
     .line 33
+    .line 34
     move-result v2
 
-    .line 34
+    .line 35
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 35
     .line 36
     .line 37
+    .line 38
     move-result v3
 
-    .line 38
+    .line 39
     if-eqz v3, :cond_1
 
-    .line 39
     .line 40
+    .line 41
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getInt(I)I
 
-    .line 41
     .line 42
     .line 43
+    .line 44
     move-result v1
 
-    .line 44
+    .line 45
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
-    .line 45
     .line 46
     .line 47
+    .line 48
     move-result-object v2
 
-    .line 48
+    .line 49
     invoke-static {v1, v2}, Lcom/tencent/mm/opensdk/channel/a/a;->a(ILjava/lang/String;)Ljava/lang/Object;
 
-    .line 49
     .line 50
     .line 51
+    .line 52
     move-result-object v1
 
-    .line 52
+    .line 53
     goto :goto_0
 
-    .line 53
+    .line 54
     :catch_0
     move-exception p1
 
-    .line 54
+    .line 55
     goto :goto_1
 
-    .line 55
+    .line 56
     :cond_1
     move-object v1, v0
 
-    .line 56
+    .line 57
     :goto_0
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     return-object v1
 
-    .line 60
+    .line 61
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 61
     .line 62
+    .line 63
     const-string v2, "getValue exception:"
 
-    .line 63
     .line 64
+    .line 65
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 65
     .line 66
     .line 67
+    .line 68
     const-string v2, "MicroMsg.SDK.SharedPreferences"
 
-    .line 68
     .line 69
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 70
+    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 71
     .line 72
-    return-object v0
     .line 73
+    return-object v0
     .line 74
     .line 75
     .line 76
@@ -348,23 +348,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 
@@ -487,126 +470,126 @@
     move-result v2
 
     .line 30
-    const-string v3, "value"
+    const-string/jumbo v3, "value"
 
     .line 31
     .line 32
+    .line 33
     invoke-interface {v0, v3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
-    .line 33
     .line 34
     .line 35
+    .line 36
     move-result v3
 
-    .line 36
+    .line 37
     :goto_0
     invoke-interface {v0}, Landroid/database/Cursor;->moveToNext()Z
 
-    .line 37
     .line 38
     .line 39
-    move-result v4
-
     .line 40
-    if-eqz v4, :cond_1
+    move-result v4
 
     .line 41
+    if-eqz v4, :cond_1
+
     .line 42
+    .line 43
     invoke-interface {v0, v2}, Landroid/database/Cursor;->getInt(I)I
 
-    .line 43
     .line 44
     .line 45
+    .line 46
     move-result v4
 
-    .line 46
+    .line 47
     invoke-interface {v0, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     move-result-object v5
 
-    .line 50
+    .line 51
     invoke-static {v4, v5}, Lcom/tencent/mm/opensdk/channel/a/a;->a(ILjava/lang/String;)Ljava/lang/Object;
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     move-result-object v4
 
-    .line 54
+    .line 55
     iget-object v5, p0, Lcom/tencent/mm/opensdk/openapi/MMSharedPreferences;->values:Ljava/util/HashMap;
 
-    .line 55
     .line 56
+    .line 57
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     move-result-object v6
 
-    .line 60
+    .line 61
     invoke-virtual {v5, v6, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 61
     .line 62
     .line 63
+    .line 64
     goto :goto_0
 
-    .line 64
+    .line 65
     :catch_0
     move-exception v0
 
-    .line 65
+    .line 66
     goto :goto_1
 
-    .line 66
+    .line 67
     :cond_1
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    .line 67
     .line 68
     .line 69
+    .line 70
     iget-object v0, p0, Lcom/tencent/mm/opensdk/openapi/MMSharedPreferences;->values:Ljava/util/HashMap;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 70
     .line 71
+    .line 72
     return-object v0
 
-    .line 72
+    .line 73
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 73
     .line 74
+    .line 75
     const-string v2, "getAll exception:"
 
-    .line 75
     .line 76
+    .line 77
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 77
     .line 78
     .line 79
+    .line 80
     const-string v2, "MicroMsg.SDK.SharedPreferences"
 
-    .line 80
     .line 81
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
-
     .line 82
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+
     .line 83
     .line 84
+    .line 85
     iget-object v0, p0, Lcom/tencent/mm/opensdk/openapi/MMSharedPreferences;->values:Ljava/util/HashMap;
 
-    .line 85
     .line 86
-    return-object v0
     .line 87
+    return-object v0
     .line 88
     .line 89
     .line 90
@@ -828,6 +811,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public getBoolean(Ljava/lang/String;Z)Z

@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/j00;
-.super Lcom/huawei/appmarket/sk0;
+.super Lcom/huawei/appmarket/tk0;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/sk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/tk0;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     return-void
 .end method
@@ -19,11 +19,11 @@
     .registers 6
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/sk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/tk0;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/sk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
+    iget-object v0, p0, Lcom/huawei/appmarket/tk0;->l:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/hj0;
+    invoke-virtual {v0, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/ij0;
 
     move-result-object p2
 
@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/hj0;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ij0;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
 
     const-string v0, "horizonsearchdlcardv3"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/hj0;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ij0;->b()Ljava/lang/String;
 
     move-result-object p2
 
@@ -95,7 +95,7 @@
 
     const/16 v0, 0x8
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 

@@ -63,11 +63,11 @@
 
     if-eqz p1, :cond_4
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_4
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     invoke-static {v1}, Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;->F7(Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;)Lcom/huawei/appmarket/jv0;
 
@@ -79,7 +79,7 @@
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/jv0;->e(Lcom/huawei/appmarket/bp;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/jv0;->e(Lcom/huawei/appmarket/ap;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -88,12 +88,12 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v1, "ACTION_COMMENT_APPROVED error!!"
 
     :goto_0
-    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto/16 :goto_1
 
@@ -119,11 +119,11 @@
 
     if-eqz p1, :cond_4
 
-    instance-of p2, p1, Lcom/huawei/appmarket/bp;
+    instance-of p2, p1, Lcom/huawei/appmarket/ap;
 
     if-eqz p2, :cond_4
 
-    check-cast p1, Lcom/huawei/appmarket/bp;
+    check-cast p1, Lcom/huawei/appmarket/ap;
 
     invoke-static {v1}, Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;->F7(Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;)Lcom/huawei/appmarket/jv0;
 
@@ -135,7 +135,7 @@
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/jv0;->e(Lcom/huawei/appmarket/bp;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/jv0;->e(Lcom/huawei/appmarket/ap;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -144,7 +144,7 @@
     :catch_1
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v1, "ACTION_COMMENT_DISS error!!"
 
@@ -195,7 +195,7 @@
     :catch_2
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     const-string v1, "ACTION_COMMENT_REPLY_ADDED error!!!"
 
@@ -263,7 +263,7 @@
 
     move-result-object p1
 
-    sget-object p2, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p2, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -277,7 +277,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v1, p1}, Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;->J7(Lcom/huawei/appgallery/appcomment/ui/MyCommentListFragment;Ljava/lang/String;)V
 

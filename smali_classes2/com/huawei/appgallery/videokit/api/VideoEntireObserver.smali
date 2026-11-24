@@ -14,10 +14,10 @@
 # static fields
 .field public static final Companion:Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion;
 
-.field private static final instance$delegate:Lcom/huawei/appmarket/bt4;
+.field private static final instance$delegate:Lcom/huawei/appmarket/et4;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/bt4<",
+            "Lcom/huawei/appmarket/et4<",
             "Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;",
             ">;"
         }
@@ -112,19 +112,19 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->Companion:Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion;
 
-    sget-object v0, Lcom/huawei/appmarket/ot4;->b:Lcom/huawei/appmarket/ot4;
+    sget-object v0, Lcom/huawei/appmarket/rt4;->b:Lcom/huawei/appmarket/rt4;
 
     sget-object v1, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion$instance$2;->INSTANCE:Lcom/huawei/appgallery/videokit/api/VideoEntireObserver$Companion$instance$2;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gt4;->b(Lcom/huawei/appmarket/ot4;Lcom/huawei/appmarket/os2;)Lcom/huawei/appmarket/bt4;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jt4;->b(Lcom/huawei/appmarket/rt4;Lcom/huawei/appmarket/rs2;)Lcom/huawei/appmarket/et4;
 
     move-result-object v0
 
-    sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sput-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-void
 .end method
@@ -179,11 +179,11 @@
     return-void
 .end method
 
-.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/bt4;
+.method public static final synthetic access$getInstance$delegate$cp()Lcom/huawei/appmarket/et4;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->instance$delegate:Lcom/huawei/appmarket/bt4;
+    sget-object v0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->instance$delegate:Lcom/huawei/appmarket/et4;
 
     return-object v0
 .end method
@@ -463,7 +463,7 @@
 
     const-string v0, "errorCode"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/api/VideoEntireObserver;->errorCodeMap:Ljava/util/Map;
 

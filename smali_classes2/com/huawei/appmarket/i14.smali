@@ -3,14 +3,12 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/i14$a;
-    }
-.end annotation
-
-
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/tz6;)V
+.method public abstract B()Lcom/huawei/appmarket/h14;
+.end method
+
+.method public abstract L0()V
+.end method
+
+.method public abstract j1(Lcom/huawei/appmarket/h14;)V
 .end method

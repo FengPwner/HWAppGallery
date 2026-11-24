@@ -706,7 +706,7 @@
     goto :goto_2
 
     :cond_4
-    const-string v2, "x^"
+    const-string/jumbo v2, "x^"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

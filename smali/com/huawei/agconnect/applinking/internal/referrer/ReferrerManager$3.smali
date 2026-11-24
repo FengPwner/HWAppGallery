@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;->a(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/agconnect/applinking/ReferrerProvider;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Ljava/lang/String;
 
@@ -35,13 +35,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/nv7;Ljava/lang/String;)V
+.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;Lcom/huawei/appmarket/tv7;Ljava/lang/String;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->c:Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager;
 
-    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/tv7;
 
     iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->b:Ljava/lang/String;
 
@@ -69,14 +69,14 @@
 
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/tv7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ReferrerManager$3;->a:Lcom/huawei/appmarket/tv7;
 
     new-instance v0, Lcom/huawei/agconnect/applinking/AppLinkingException;
 
@@ -98,7 +98,7 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-void

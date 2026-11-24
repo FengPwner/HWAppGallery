@@ -98,7 +98,7 @@
     .line 1
     const-string v0, "View "
 
-    sget-object v1, Lcom/huawei/appmarket/pe6;->k:[I
+    sget-object v1, Lcom/huawei/appmarket/re6;->k:[I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 

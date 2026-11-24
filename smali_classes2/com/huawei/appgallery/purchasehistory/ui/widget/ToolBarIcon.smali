@@ -48,7 +48,7 @@
 
     const/16 v1, 0x18
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -245,7 +245,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static synthetic b(Lcom/huawei/appgallery/purchasehistory/ui/widget/ToolBarIcon;)Z
@@ -383,7 +382,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic c(Lcom/huawei/appgallery/purchasehistory/ui/widget/ToolBarIcon;)Landroid/widget/RelativeLayout;
@@ -536,7 +534,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private f(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -706,7 +703,7 @@
 
     .line 87
     .line 88
-    sget-object v3, Lcom/huawei/appmarket/cf6;->a:[I
+    sget-object v3, Lcom/huawei/appmarket/ef6;->a:[I
 
     .line 89
     .line 90
@@ -872,7 +869,7 @@
 
     .line 167
     .line 168
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 169
     .line 170
@@ -1081,7 +1078,7 @@
 
     .line 272
     .line 273
-    invoke-static {v0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     .line 274
     .line 275
@@ -1110,40 +1107,40 @@
 
     .line 287
     :cond_8
-    new-instance p1, Lcom/huawei/appmarket/lf;
+    new-instance p1, Lcom/huawei/appmarket/w81;
 
     .line 288
     .line 289
-    const/4 p2, 0x6
+    const/16 p2, 0x8
 
     .line 290
-    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
-
     .line 291
+    invoke-direct {p1, p0, p2}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
+
     .line 292
     .line 293
+    .line 294
     invoke-virtual {p0, p1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 294
     .line 295
     .line 296
-    new-instance p1, Lcom/huawei/appmarket/xq;
-
     .line 297
-    .line 298
-    invoke-direct {p1, p0, v2}, Lcom/huawei/appmarket/xq;-><init>(Landroid/widget/LinearLayout;I)V
+    new-instance p1, Lcom/huawei/appmarket/wq;
 
+    .line 298
     .line 299
+    invoke-direct {p1, p0, v2}, Lcom/huawei/appmarket/wq;-><init>(Landroid/widget/LinearLayout;I)V
+
     .line 300
     .line 301
+    .line 302
     invoke-virtual {p0, p1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    .line 302
     .line 303
     .line 304
+    .line 305
     :goto_4
     return-void
-    .line 305
     .line 306
     .line 307
     .line 308
@@ -1423,13 +1420,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method private g()V
@@ -1734,7 +1724,7 @@
     move-result-object v0
 
     .line 150
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     .line 151
     .line 152
@@ -1758,7 +1748,7 @@
 
     .line 161
     .line 162
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 163
     .line 164
@@ -2254,15 +2244,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -2348,25 +2329,25 @@
     .line 2
     .line 3
     .line 4
-    new-instance p1, Lcom/huawei/appmarket/lf;
+    new-instance p1, Lcom/huawei/appmarket/w81;
 
     .line 5
     .line 6
-    const/4 v0, 0x6
+    const/16 v0, 0x8
 
     .line 7
-    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
-
     .line 8
+    invoke-direct {p1, p0, v0}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
+
     .line 9
     .line 10
+    .line 11
     invoke-virtual {p0, p1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 11
     .line 12
     .line 13
-    return-void
     .line 14
+    return-void
     .line 15
     .line 16
     .line 17
@@ -2459,7 +2440,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final performViewClick()V

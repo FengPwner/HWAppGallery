@@ -58,7 +58,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 16
     .line 17
@@ -115,7 +115,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 47
     .line 48
@@ -250,7 +250,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 19
     .line 20
@@ -262,7 +262,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 25
     .line 26
@@ -390,7 +390,7 @@
 
     if-lt v0, v1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/fw1;->r()Landroid/app/NotificationChannel;
+    invoke-static {}, Lcom/huawei/appmarket/jw1;->r()Landroid/app/NotificationChannel;
 
     move-result-object v1
 
@@ -408,7 +408,7 @@
 
     check-cast v2, Landroid/app/NotificationManager;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v1, Landroid/app/Notification$Builder;
@@ -417,7 +417,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/fw1;->q(Landroid/content/Context;)Landroid/app/Notification$Builder;
+    invoke-static {v1}, Lcom/huawei/appmarket/jw1;->q(Landroid/content/Context;)Landroid/app/Notification$Builder;
 
     move-result-object v1
 

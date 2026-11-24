@@ -143,7 +143,7 @@
     .line 1
     if-eqz p2, :cond_b
 
-    sget-object v0, Lcom/huawei/appmarket/wf6;->s:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->s:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -371,7 +371,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ab1;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/bb1;->a()Ljava/lang/String;
 
     move-result-object v2
 

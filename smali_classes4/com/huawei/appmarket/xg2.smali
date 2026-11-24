@@ -4,8 +4,8 @@
 
 
 # direct methods
-.method public static synthetic a(Ljava/lang/Object;Ljava/lang/Object;)I
-    .registers 2
+.method public static synthetic a(Ljava/lang/Object;)Z
+    .registers 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -18,24 +18,22 @@
     return p0
 .end method
 
-.method public static b()Lorg/apache/commons/lang3/function/FailableToIntBiFunction;
+.method public static b()Lorg/apache/commons/lang3/function/FailableToBooleanFunction;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
-            "U:",
-            "Ljava/lang/Object;",
             "E:",
             "Ljava/lang/Throwable;",
             ">()",
-            "Lorg/apache/commons/lang3/function/FailableToIntBiFunction<",
-            "TT;TU;TE;>;"
+            "Lorg/apache/commons/lang3/function/FailableToBooleanFunction<",
+            "TT;TE;>;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableToIntBiFunction;->NOP:Lorg/apache/commons/lang3/function/FailableToIntBiFunction;
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableToBooleanFunction;->NOP:Lorg/apache/commons/lang3/function/FailableToBooleanFunction;
 
     return-object v0
 .end method

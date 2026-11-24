@@ -58,7 +58,7 @@
 
     new-instance v0, Lcom/huawei/wearengine/auth/Permission;
 
-    const-string v1, "wear_user_status"
+    const-string/jumbo v1, "wear_user_status"
 
     invoke-direct {v0, v1}, Lcom/huawei/wearengine/auth/Permission;-><init>(Ljava/lang/String;)V
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gw5;
+.implements Lcom/huawei/appmarket/iw5;
 
 
 # annotations
@@ -13,7 +13,7 @@
         "Lcom/google/protobuf/b1;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/gw5<",
+        "Lcom/huawei/appmarket/iw5<",
         "TMessageType;>;"
     }
 .end annotation
@@ -60,7 +60,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     move-result v0
 
@@ -303,7 +303,7 @@
     .end annotation
 
     .line 4
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -422,7 +422,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -907,7 +907,7 @@
 
     move-result-object p1
 
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -949,7 +949,7 @@
     .line 3
     sget-object v0, Lcom/google/protobuf/c;->EMPTY_REGISTRY:Lcom/google/protobuf/v;
 
-    invoke-interface {p0, p1, v0}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, v0}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1006,7 +1006,7 @@
 
     move-result-object p1
 
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -1105,7 +1105,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {p0, p1, p4}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p4}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p2
 

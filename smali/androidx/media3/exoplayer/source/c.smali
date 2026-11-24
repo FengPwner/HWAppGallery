@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/mz7;)V
+.method public final a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/rz7;)V
     .registers 4
 
     .line 1
@@ -40,7 +40,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, p2}, Landroidx/media3/exoplayer/source/d;->G(Ljava/lang/Object;Lcom/huawei/appmarket/mz7;)V
+    invoke-virtual {p1, v0, p2}, Landroidx/media3/exoplayer/source/d;->G(Ljava/lang/Object;Lcom/huawei/appmarket/rz7;)V
 
     .line 6
     .line 7

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/forum/forum/activity/b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/activity/b;->b:Lcom/huawei/appgallery/forum/forum/activity/ForumCommonActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -37,7 +37,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 9
     .line 10
@@ -49,11 +49,11 @@
 
     .line 13
     .line 14
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 17
     .line 18
@@ -61,11 +61,11 @@
     move-result-object v0
 
     .line 20
-    const-class v1, Lcom/huawei/appmarket/c14;
+    const-class v1, Lcom/huawei/appmarket/e14;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -73,14 +73,14 @@
     move-result-object v0
 
     .line 26
-    check-cast v0, Lcom/huawei/appmarket/c14;
+    check-cast v0, Lcom/huawei/appmarket/e14;
 
     .line 27
     .line 28
     const/4 v1, 0x0
 
     .line 29
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/c14;->a(Landroid/content/Context;Z)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/e14;->a(Landroid/content/Context;Z)V
 
     .line 30
     .line 31
@@ -160,5 +160,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

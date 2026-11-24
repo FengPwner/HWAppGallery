@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aa5;
+.implements Lcom/huawei/appmarket/da5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/aa5<",
+        "Lcom/huawei/appmarket/da5<",
         "Landroid/net/Uri;",
         "Ljava/io/InputStream;",
         ">;"
@@ -62,7 +62,7 @@
     .line 1
     new-instance v0, Lcom/bumptech/glide/load/model/p;
 
-    const-class v1, Lcom/huawei/appmarket/c13;
+    const-class v1, Lcom/huawei/appmarket/f13;
 
     const-class v2, Ljava/io/InputStream;
 

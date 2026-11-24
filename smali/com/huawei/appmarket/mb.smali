@@ -28,7 +28,7 @@
 
     const-string v1, "1200400102"
 
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     const-string v1, "1210900101"
 
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     const-string v2, "1200200105"
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -427,7 +427,7 @@
 
     const-string p1, "1200400401"
 
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/mb;->j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -797,7 +797,7 @@
 
     const-string p2, "report param is error!"
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -832,7 +832,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -971,11 +971,11 @@
     .registers 8
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/do4;
+    new-instance v0, Lcom/huawei/appmarket/go4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/do4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/go4;-><init>()V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -1002,13 +1002,13 @@
 
     check-cast v1, Lcom/huawei/appgallery/agguard/business/bean/db/AgGuardVirusInfoDb;
 
-    new-instance v4, Lcom/huawei/appmarket/yo4;
+    new-instance v4, Lcom/huawei/appmarket/bp4;
 
-    invoke-direct {v4}, Lcom/huawei/appmarket/yo4;-><init>()V
+    invoke-direct {v4}, Lcom/huawei/appmarket/bp4;-><init>()V
 
     iget-object v5, v1, Lcom/huawei/appgallery/agguard/business/bean/db/AgGuardVirusInfoDb;->appPkgName:Ljava/lang/String;
 
-    invoke-virtual {v4, v3, v5}, Lcom/huawei/appmarket/yo4;->h(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v3, v5}, Lcom/huawei/appmarket/bp4;->h(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v1, v1, Lcom/huawei/appgallery/agguard/business/bean/db/AgGuardVirusInfoDb;->virusRiskType:I
 
@@ -1016,14 +1016,14 @@
 
     move-result-object v1
 
-    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/yo4;->g(Ljava/lang/String;Ljava/lang/Number;)V
+    invoke-virtual {v4, v2, v1}, Lcom/huawei/appmarket/bp4;->g(Ljava/lang/String;Ljava/lang/Number;)V
 
-    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/do4;->f(Lcom/huawei/appmarket/mo4;)V
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/go4;->f(Lcom/huawei/appmarket/po4;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p0
 
@@ -1046,15 +1046,15 @@
 
     check-cast p1, Lcom/huawei/appgallery/agguard/business/bean/db/AgGuardUnknownApp;
 
-    new-instance v1, Lcom/huawei/appmarket/yo4;
+    new-instance v1, Lcom/huawei/appmarket/bp4;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/yo4;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/bp4;-><init>()V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/agguard/business/bean/db/AgGuardUnknownApp;->c()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/yo4;->h(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, p1}, Lcom/huawei/appmarket/bp4;->h(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 p1, 0x65
 
@@ -1062,9 +1062,9 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/yo4;->g(Ljava/lang/String;Ljava/lang/Number;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/bp4;->g(Ljava/lang/String;Ljava/lang/Number;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/do4;->f(Lcom/huawei/appmarket/mo4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/go4;->f(Lcom/huawei/appmarket/po4;)V
 
     goto :goto_1
 
@@ -1075,7 +1075,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mo4;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/po4;->toString()Ljava/lang/String;
 
     move-result-object p1
 
@@ -1123,7 +1123,7 @@
 
     const-string v2, "1200400601"
 
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1343,27 +1343,62 @@
     return-void
 .end method
 
-.method public static j0(I)V
-    .registers 3
+.method private static j0(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    .registers 7
 
     .line 1
-    const-string v0, "type"
+    new-instance v0, Ljava/util/LinkedHashMap;
 
-    filled-new-array {v0}, [Ljava/lang/String;
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    move-result-object v0
+    array-length v1, p1
 
-    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    array-length v2, p2
 
-    move-result-object p0
+    if-eq v1, v2, :cond_0
 
-    filled-new-array {p0}, [Ljava/lang/String;
+    sget-object p0, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
 
-    move-result-object p0
+    const-string p1, "AgGuardBiReporter"
 
-    const-string v1, "1060200201"
+    const-string p2, "report param is error!"
 
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    array-length v2, p1
+
+    if-ge v1, v2, :cond_2
+
+    aget-object v2, p1, v1
+
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    goto :goto_1
+
+    :cond_1
+    aget-object v2, p1, v1
+
+    aget-object v3, p2, v1
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :goto_1
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -1393,7 +1428,59 @@
     return-void
 .end method
 
-.method public static k0(ILjava/lang/String;)V
+.method public static k0(I)V
+    .registers 3
+
+    .line 1
+    const-string v0, "type"
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    filled-new-array {p0}, [Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "1060200201"
+
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static l(ILjava/lang/String;)V
+    .registers 4
+
+    .line 1
+    const-string v0, "packageName"
+
+    const-string v1, "riskType"
+
+    filled-new-array {v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    filled-new-array {p1, p0}, [Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string p1, "1200400404"
+
+    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static l0(ILjava/lang/String;)V
     .registers 4
 
     .line 1
@@ -1430,15 +1517,17 @@
     return-void
 .end method
 
-.method public static l(ILjava/lang/String;)V
-    .registers 4
+.method public static m(IILjava/lang/String;)V
+    .registers 6
 
     .line 1
-    const-string v0, "packageName"
+    const-string v0, "riskType"
 
-    const-string v1, "riskType"
+    const-string v1, "type"
 
-    filled-new-array {v0, v1}, [Ljava/lang/String;
+    const-string v2, "packageName"
+
+    filled-new-array {v2, v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
 
@@ -1446,18 +1535,22 @@
 
     move-result-object p0
 
-    filled-new-array {p1, p0}, [Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    filled-new-array {p2, p0, p1}, [Ljava/lang/String;
 
     move-result-object p0
 
-    const-string p1, "1200400404"
+    const-string p1, "1200400402"
 
     invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static l0(Ljava/lang/String;)V
+.method public static m0(Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -1473,7 +1566,7 @@
 
     const-string v1, "report uninstall monitor package name is null"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1537,56 +1630,6 @@
     return-void
 .end method
 
-.method public static m(IILjava/lang/String;)V
-    .registers 6
-
-    .line 1
-    const-string v0, "riskType"
-
-    const-string v1, "type"
-
-    const-string v2, "packageName"
-
-    filled-new-array {v2, v0, v1}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    filled-new-array {p2, p0, p1}, [Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string p1, "1200400402"
-
-    invoke-static {p1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static m0()V
-    .registers 3
-
-    .line 1
-    const/4 v0, 0x0
-
-    new-array v1, v0, [Ljava/lang/String;
-
-    new-array v0, v0, [Ljava/lang/String;
-
-    const-string v2, "1200700301"
-
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
-
-    return-void
-.end method
-
 .method public static n()V
     .registers 3
 
@@ -1604,7 +1647,41 @@
     return-void
 .end method
 
-.method public static n0(Ljava/util/Set;Ljava/util/Set;)V
+.method public static n0()V
+    .registers 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    new-array v1, v0, [Ljava/lang/String;
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v2, "1200700301"
+
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static o()V
+    .registers 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    new-array v1, v0, [Ljava/lang/String;
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v2, "1200400902"
+
+    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static o0(Ljava/util/Set;Ljava/util/Set;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1633,7 +1710,7 @@
 
     const-string p1, "before size equal after size"
 
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1668,7 +1745,7 @@
 
     const-string p0, "1200700202"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 
@@ -1677,45 +1754,7 @@
 
     const-string p1, "before and after are null"
 
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static o()V
-    .registers 3
-
-    .line 1
-    const/4 v0, 0x0
-
-    new-array v1, v0, [Ljava/lang/String;
-
-    new-array v0, v0, [Ljava/lang/String;
-
-    const-string v2, "1200400902"
-
-    invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static o0(Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    const-string v0, "usageInfo"
-
-    filled-new-array {v0}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    filled-new-array {p0}, [Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v1, "1201000105"
-
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1733,6 +1772,27 @@
     const-string v2, "1200400802"
 
     invoke-static {v2, v1, v0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static p0(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    const-string v0, "usageInfo"
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    filled-new-array {p0}, [Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "1201000105"
+
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/mb;->a(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1931,7 +1991,7 @@
 
     const-string p0, "1200700201"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 
@@ -1943,7 +2003,7 @@
 
     const-string v1, "unusedApps is null"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

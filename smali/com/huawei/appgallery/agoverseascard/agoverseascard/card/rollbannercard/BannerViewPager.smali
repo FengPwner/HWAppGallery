@@ -4,8 +4,6 @@
 
 
 # instance fields
-.field private G1:I
-
 .field private i1:Z
 
 .field private j1:I
@@ -15,6 +13,8 @@
 .field private l1:I
 
 .field private m1:I
+
+.field private n1:I
 
 
 # direct methods
@@ -54,7 +54,7 @@
 
     iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;->l1:I
 
-    sget-object v1, Lcom/huawei/appmarket/hf6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/jf6;->b:[I
 
     invoke-virtual {p1, p2, v1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -87,7 +87,7 @@
 
     const-string v1, "clickCardPos  ev is null"
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 
@@ -96,7 +96,7 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v1
 
@@ -167,7 +167,7 @@
     move-result-object v0
 
     .line 10
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->z(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->z(Landroid/content/Context;)Z
 
     .line 11
     .line 12
@@ -187,7 +187,7 @@
     move-result-object v0
 
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 21
     .line 22
@@ -203,7 +203,7 @@
     move-result-object v1
 
     .line 28
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     .line 29
     .line 30
@@ -247,7 +247,7 @@
 
     .line 49
     .line 50
-    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;->G1:I
+    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;->n1:I
 
     .line 51
     .line 52
@@ -282,7 +282,7 @@
     .line 67
     .line 68
     .line 69
-    iget v1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;->G1:I
+    iget v1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/BannerViewPager;->n1:I
 
     .line 70
     .line 71
@@ -290,7 +290,7 @@
 
     .line 72
     .line 73
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->r(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 74
     .line 75
@@ -356,6 +356,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
@@ -367,7 +368,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -391,7 +392,7 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v3
 
@@ -520,7 +521,7 @@
 
     const-string v3, "dispatchTouchEvent layoutParams error."
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -698,7 +699,7 @@
 
     const-string v1, "rootView is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 

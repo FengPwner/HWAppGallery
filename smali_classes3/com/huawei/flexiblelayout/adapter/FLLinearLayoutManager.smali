@@ -48,7 +48,7 @@
 
     const-string p2, "onLayoutChildren exception"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/fy4;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/iy4;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -26,13 +26,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private g:Lcom/huawei/appmarket/cd5;
+.field private g:Lcom/huawei/appmarket/fd5;
 
 
 # direct methods
@@ -62,7 +62,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -185,7 +185,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static k(Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;I)V
@@ -209,7 +208,7 @@
     .line 8
     .line 9
     .line 10
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/cd5;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/fd5;
 
     .line 11
     .line 12
@@ -217,16 +216,16 @@
 
     .line 13
     .line 14
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/cd5;->s0(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/fd5;->s0(I)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/cd5;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/fd5;
 
     .line 18
     .line 19
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/cd5;->o(I)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/fd5;->o(I)V
 
     .line 20
     .line 21
@@ -235,7 +234,7 @@
 
     .line 23
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/cd5;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/fd5;
 
     .line 24
     .line 25
@@ -243,7 +242,7 @@
 
     .line 26
     .line 27
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/cd5;->V0(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fd5;->V0(I)V
 
     .line 28
     .line 29
@@ -386,7 +385,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static l(Landroid/widget/ToggleButton;)V
@@ -508,7 +506,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -587,9 +584,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/fu7;
+    check-cast v0, Lcom/huawei/appmarket/lu7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fu7;->y()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lu7;->y()Ljava/lang/String;
 
     move-result-object v0
 
@@ -924,7 +921,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -944,14 +940,14 @@
     .line 6
     .line 7
     .line 8
-    new-instance v1, Lcom/huawei/appmarket/lf;
+    new-instance v1, Lcom/huawei/appmarket/w81;
 
     .line 9
     .line 10
-    const/4 v2, 0x2
+    const/4 v2, 0x3
 
     .line 11
-    invoke-direct {v1, p1, v2}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p1, v2}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     .line 12
     .line 13
@@ -1053,7 +1049,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final p(Ljava/util/ArrayList;)V
@@ -1062,7 +1057,7 @@
         value = {
             "(",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;)V"
         }
     .end annotation
@@ -1083,11 +1078,11 @@
     return-void
 .end method
 
-.method public final q(Lcom/huawei/appmarket/cd5;)V
+.method public final q(Lcom/huawei/appmarket/fd5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/cd5;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/horizontal/d;->g:Lcom/huawei/appmarket/fd5;
 
     return-void
 .end method

@@ -37,7 +37,7 @@
 .method public final run()V
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     move-result-object v0
 
@@ -47,9 +47,9 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/cf0;->Y0(Landroid/content/Context;Z)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/df0;->Y0(Landroid/content/Context;Z)V
 
-    iget-object v0, v1, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v0, v1, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     if-eqz v0, :cond_0
 
@@ -60,7 +60,7 @@
 
     invoke-direct {v0, v3, v2}, Lcom/huawei/appgallery/assistantdock/base/service/bean/BuoyResponse;-><init>(ILjava/lang/String;)V
 
-    iget-object v1, v1, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ck3;
+    iget-object v1, v1, Lcom/huawei/appgallery/assistantdock/base/service/BaseGameServiceDispatcher;->mCallback:Lcom/huawei/appmarket/ek3;
 
     const-string v2, "finishBuoyDialog"
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ck3;->R1(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/ek3;->R1(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -81,7 +81,7 @@
 
     const-string v2, "send the finish result to sdk failed"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0

@@ -9,7 +9,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/store/awk/node/SmallHorizontalAppListNode;-><init>(Landroid/content/Context;)V
 
@@ -27,7 +27,7 @@
     return v0
 .end method
 
-.method protected final T(Lcom/huawei/appmarket/ej4;)V
+.method protected final T(Lcom/huawei/appmarket/gj4;)V
     .registers 2
 
     .line 1

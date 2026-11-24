@@ -4,14 +4,14 @@
 
 
 # virtual methods
-.method public abstract openFa(Lcom/huawei/appmarket/ib2;)V
+.method public abstract openFa(Lcom/huawei/appmarket/lb2;)V
 .end method
 
-.method public abstract openFa(Lcom/huawei/appmarket/ib2;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract openFa(Lcom/huawei/appmarket/lb2;Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.method public abstract openFastApp(Lcom/huawei/appmarket/ib2;)V
+.method public abstract openFastApp(Lcom/huawei/appmarket/lb2;)V
 .end method
 
-.method public abstract openFastApp(Lcom/huawei/appmarket/ib2;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract openFastApp(Lcom/huawei/appmarket/lb2;Ljava/lang/String;Ljava/lang/String;)V
 .end method

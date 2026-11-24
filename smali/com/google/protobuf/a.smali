@@ -1124,6 +1124,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getInitializationErrorString()Ljava/lang/String;
@@ -1458,7 +1459,7 @@
 
     .line 104
     .line 105
-    invoke-interface {v3}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v3}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 106
     .line 107
@@ -1478,7 +1479,7 @@
 
     .line 113
     .line 114
-    invoke-interface {v1}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 115
     .line 116
@@ -1512,6 +1513,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public bridge synthetic newBuilderForType()Lcom/google/protobuf/b1$a;
@@ -1699,6 +1701,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -1850,6 +1853,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public writeTo(Lcom/google/protobuf/CodedOutputStream;)V

@@ -63,7 +63,7 @@
 
     if-nez v1, :cond_1
 
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -81,15 +81,15 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/ax3;
+    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/cx3;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/ax3;
+    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/cx3;
 
     move-result-object v1
 
@@ -110,19 +110,19 @@
     goto :goto_0
 
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v3, "onScrollStateChanged isHeaderVisible false"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/ax3;
+    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/cx3;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/ax3;
+    invoke-static {v0}, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/cx3;
 
     move-result-object v0
 

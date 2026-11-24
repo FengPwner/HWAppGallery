@@ -39,9 +39,9 @@
 
 .field public static final HMS_JSON_VERSION_MIN:I = 0x1c9c380
 
-.field public static final HMS_SDK_VERSION_CODE:I = 0x3a75e4f
+.field public static final HMS_SDK_VERSION_CODE:I = 0x3a75e50
 
-.field public static final HMS_SDK_VERSION_NAME:Ljava/lang/String; = "6.13.0.303"
+.field public static final HMS_SDK_VERSION_NAME:Ljava/lang/String; = "6.13.0.304"
 
 .field public static final HMS_VERSION_CODE_GAME:I = 0x138d9d8
 
@@ -192,7 +192,7 @@
 
     .line 48
     .line 49
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     .line 50
     .line 51
@@ -379,7 +379,7 @@
 
 
 # virtual methods
-.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lcom/huawei/appmarket/hv7;
+.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -387,14 +387,14 @@
             "*>;[",
             "Lcom/huawei/hms/common/HuaweiApi<",
             "*>;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lcom/huawei/appmarket/hv7;
+.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -402,7 +402,7 @@
             "[",
             "Lcom/huawei/hms/common/api/HuaweiApiCallable;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -424,13 +424,13 @@
 .method public abstract getErrorString(I)Ljava/lang/String;
 .end method
 
-.method public abstract getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method public abstract getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }

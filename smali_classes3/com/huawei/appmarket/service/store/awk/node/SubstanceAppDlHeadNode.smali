@@ -36,7 +36,7 @@
 
     const v0, 0x7f0a1524
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     const v0, 0x7f0a1523
 
@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->r(Landroid/content/Context;)I
 
     move-result v2
 

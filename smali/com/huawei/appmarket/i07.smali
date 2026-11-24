@@ -1,19 +1,35 @@
 .class public final Lcom/huawei/appmarket/i07;
-.super Ljava/lang/Object;
+.super Landroidx/recyclerview/widget/RecyclerView$h;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/og3;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/i07$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroidx/recyclerview/widget/RecyclerView$h<",
+        "Landroidx/recyclerview/widget/RecyclerView$d0;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields
-.field private final a:Ljava/lang/String;
+.field private final e:Landroid/content/Context;
 
-.field private final b:Ljava/util/List;
+.field private final f:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity$b;
+
+.field private g:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appgallery/agguard/business/bean/db/HistoryScanApps;",
+            "+",
+            "Lcom/huawei/appmarket/qg3;",
             ">;"
         }
     .end annotation
@@ -21,180 +37,575 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Ljava/util/List;)V
+.method static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/i07$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/i07$a;-><init>(Lcom/huawei/appmarket/id1;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity$b;)V
     .registers 4
+
+    .line 1
+    const-string v0, "context"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$h;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object p1, p0, Lcom/huawei/appmarket/i07;->e:Landroid/content/Context;
+
+    .line 10
+    .line 11
+    iput-object p2, p0, Lcom/huawei/appmarket/i07;->f:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity$b;
+
+    .line 12
+    .line 13
+    sget-object p1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
+
+    .line 14
+    .line 15
+    iput-object p1, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    .line 16
+    .line 17
+    return-void
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+.end method
+
+
+# virtual methods
+.method public final getItemCount()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final getItemViewType(I)I
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/qg3;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->e:Landroid/content/Context;
+
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/qg3;->a(Landroid/content/Context;)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final j(Ljava/util/List;)V
+    .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/huawei/appgallery/agguard/business/bean/db/HistoryScanApps;",
+            "+",
+            "Lcom/huawei/appmarket/qg3;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    const-string v0, "title"
+    iput-object p1, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "apps"
-
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$h;->notifyDataSetChanged()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Landroid/content/Context;)I
-    .registers 3
-
-    .line 1
-    const-string v0, "context"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const p1, 0x7f0d00ca
-
-    return p1
-.end method
-
-.method public final b()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/agguard/business/bean/db/HistoryScanApps;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final equals(Ljava/lang/Object;)Z
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
     .registers 6
 
     .line 1
-    const/4 v0, 0x1
+    const-string v0, "holder"
 
-    if-ne p0, p1, :cond_0
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    return v0
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
 
-    :cond_0
-    instance-of v1, p1, Lcom/huawei/appmarket/i07;
-
-    const/4 v2, 0x0
-
-    if-nez v1, :cond_1
-
-    return v2
-
-    :cond_1
-    check-cast p1, Lcom/huawei/appmarket/i07;
-
-    iget-object v1, p1, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
-
-    iget-object v3, p0, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
-
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_2
-
-    return v2
-
-    :cond_2
-    iget-object v1, p0, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
-
-    iget-object p1, p1, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
-
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_3
-
-    return v2
-
-    :cond_3
-    return v0
-.end method
-
-.method public final hashCode()I
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
-
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
-    mul-int/lit8 v0, v0, 0x1f
+    if-ge p2, v0, :cond_9
 
-    iget-object v1, p0, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
+    if-gez p2, :cond_0
 
-    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+    goto/16 :goto_1
 
-    move-result v1
+    :cond_0
+    instance-of v0, p1, Lcom/huawei/appmarket/d17;
 
-    add-int/2addr v1, v0
+    if-eqz v0, :cond_1
 
-    return v1
-.end method
+    check-cast p1, Lcom/huawei/appmarket/d17;
 
-.method public final toString()Ljava/lang/String;
-    .registers 3
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
 
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    const-string v1, "SafetyReportDetailListItem(title="
+    move-result-object p2
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportRecentInstallItem"
 
-    iget-object v1, p0, Lcom/huawei/appmarket/i07;->a:Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    check-cast p2, Lcom/huawei/appmarket/y07;
 
-    const-string v1, ", apps="
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/d17;->z(Lcom/huawei/appmarket/y07;)V
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    goto/16 :goto_1
 
-    iget-object v1, p0, Lcom/huawei/appmarket/i07;->b:Ljava/util/List;
+    :cond_1
+    instance-of v0, p1, Lcom/huawei/appmarket/j17;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    if-eqz v0, :cond_2
 
-    const/16 v1, 0x29
+    check-cast p1, Lcom/huawei/appmarket/j17;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportSubHeaderItem"
+
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lcom/huawei/appmarket/i17;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/j17;->y(Lcom/huawei/appmarket/i17;)V
+
+    goto/16 :goto_1
+
+    :cond_2
+    instance-of v0, p1, Lcom/huawei/appmarket/x07;
+
+    if-eqz v0, :cond_3
+
+    check-cast p1, Lcom/huawei/appmarket/x07;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportOverViewItem"
+
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lcom/huawei/appmarket/w07;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/x07;->y(Lcom/huawei/appmarket/w07;)V
+
+    goto/16 :goto_1
+
+    :cond_3
+    instance-of v0, p1, Lcom/huawei/appmarket/p07;
+
+    if-eqz v0, :cond_4
+
+    check-cast p1, Lcom/huawei/appmarket/p07;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportDetailItem"
+
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lcom/huawei/appmarket/k07;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/p07;->z(Lcom/huawei/appmarket/k07;)V
+
+    goto :goto_1
+
+    :cond_4
+    instance-of v0, p1, Lcom/huawei/appmarket/n07;
+
+    if-eqz v0, :cond_6
+
+    check-cast p1, Lcom/huawei/appmarket/n07;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
+    const-string v1, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportDetailListItem"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lcom/huawei/appmarket/m07;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    sub-int/2addr v1, v2
+
+    if-ne p2, v1, :cond_5
+
+    goto :goto_0
+
+    :cond_5
+    const/4 v2, 0x0
+
+    :goto_0
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/n07;->y(Lcom/huawei/appmarket/m07;Z)V
+
+    goto :goto_1
+
+    :cond_6
+    instance-of v0, p1, Lcom/huawei/appmarket/n17;
+
+    if-eqz v0, :cond_7
+
+    check-cast p1, Lcom/huawei/appmarket/n17;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportUnusedAppItem"
+
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lcom/huawei/appmarket/m17;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/n17;->z(Lcom/huawei/appmarket/m17;)V
+
+    goto :goto_1
+
+    :cond_7
+    instance-of v0, p1, Lcom/huawei/appmarket/l17;
+
+    if-eqz v0, :cond_8
+
+    check-cast p1, Lcom/huawei/appmarket/l17;
+
+    iget-object v0, p0, Lcom/huawei/appmarket/i07;->g:Ljava/util/List;
+
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.SafetyReportSubtitleItem"
+
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lcom/huawei/appmarket/k17;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/l17;->y(Lcom/huawei/appmarket/k17;)V
+
+    goto :goto_1
+
+    :cond_8
+    sget-object p1, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
+
+    const-string p2, "SafetyReportAdapter"
+
+    const-string v0, "unknown view holder type"
+
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_9
+    :goto_1
+    return-void
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
+    .registers 6
+
+    .line 1
+    const-string v0, "parent"
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    const-string v0, "from(parent.context).inf\u2026(viewType, parent, false)"
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lcom/huawei/appmarket/a60;
+
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a60;-><init>(Landroid/view/View;)V
+
+    const v1, 0x7f0d00cc
+
+    iget-object v2, p0, Lcom/huawei/appmarket/i07;->e:Landroid/content/Context;
+
+    if-ne p2, v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const v1, 0x7f0d00b4
+
+    if-ne p2, v1, :cond_1
+
+    :goto_0
+    new-instance v0, Lcom/huawei/appmarket/x07;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/x07;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_1
+    const v1, 0x7f0d00c9
+
+    if-ne p2, v1, :cond_2
+
+    new-instance v0, Lcom/huawei/appmarket/p07;
+
+    iget-object p2, p0, Lcom/huawei/appmarket/i07;->f:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity$b;
+
+    invoke-direct {v0, v2, p1, p2}, Lcom/huawei/appmarket/p07;-><init>(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity$b;)V
+
+    goto :goto_1
+
+    :cond_2
+    const v1, 0x7f0d00ca
+
+    if-ne p2, v1, :cond_3
+
+    new-instance v0, Lcom/huawei/appmarket/n07;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/n07;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_3
+    const v1, 0x7f0d00d2
+
+    if-ne p2, v1, :cond_4
+
+    new-instance v0, Lcom/huawei/appmarket/n17;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/n17;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_4
+    const v1, 0x7f0d00cd
+
+    if-ne p2, v1, :cond_5
+
+    new-instance v0, Lcom/huawei/appmarket/l17;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/l17;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_5
+    const v1, 0x7f0d00ce
+
+    if-ne p2, v1, :cond_6
+
+    new-instance v0, Lcom/huawei/appmarket/d17;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/d17;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_6
+    const v1, 0x7f0d00d1
+
+    if-ne p2, v1, :cond_7
+
+    new-instance v0, Lcom/huawei/appmarket/j17;
+
+    invoke-direct {v0, v2, p1}, Lcom/huawei/appmarket/j17;-><init>(Landroid/content/Context;Landroid/view/View;)V
+
+    :cond_7
+    :goto_1
     return-object v0
 .end method

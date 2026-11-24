@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const p2, 0x7f0a12e3
 
@@ -112,11 +112,11 @@
 
     invoke-virtual {p2, p0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
-    new-instance p2, Lcom/huawei/appmarket/tf7;
+    new-instance p2, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {p2, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {p2, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -232,7 +232,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     return-void
 
@@ -285,7 +285,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -315,7 +315,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/appcomment/ui/view/PublishReplyView;->b:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -327,7 +327,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     return-void
 
@@ -356,7 +356,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/appcomment/ui/view/PublishReplyView$a;-><init>(Lcom/huawei/appgallery/appcomment/ui/view/PublishReplyView;)V
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/dv0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ml3;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/dv0;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/ol3;)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/dv0;->e()V
 
@@ -424,7 +424,7 @@
 
     move-result p1
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

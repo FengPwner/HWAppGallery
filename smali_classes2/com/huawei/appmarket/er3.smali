@@ -2,16 +2,19 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ih3;
-
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/bf1;
-    value = Lcom/huawei/appmarket/me1;
-.end annotation
-
 
 # virtual methods
-.method public abstract c2()J
+.method public abstract a()V
+.end method
+
+.method public abstract b(Lcom/huawei/appmarket/ww2;)V
+.end method
+
+.method public abstract c()V
+.end method
+
+.method public abstract d()V
+.end method
+
+.method public abstract init()V
 .end method

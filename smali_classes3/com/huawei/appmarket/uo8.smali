@@ -1,91 +1,130 @@
 .class public final Lcom/huawei/appmarket/uo8;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/y40;
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:Ljava/util/ArrayList;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/y40<",
+        "Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 5
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    new-instance v0, Ljava/util/ArrayList;
+    invoke-direct {p0}, Lcom/huawei/appmarket/y40;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Z
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final b()Z
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final c()V
+    .registers 1
+
+    .line 1
+    return-void
+.end method
+
+.method public final h()I
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/y40;->a:Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    iget-object v0, v0, Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;->param_:Lcom/huawei/appgallery/push/api/bean/BasePushParamBean;
 
     .line 4
     .line 5
-    .line 6
-    sput-object v0, Lcom/huawei/appmarket/uo8;->a:Ljava/util/ArrayList;
+    if-eqz v0, :cond_0
 
+    .line 6
     .line 7
+    move-object v1, v0
+
     .line 8
-    const-string v1, "serviceType="
+    check-cast v1, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;
 
     .line 9
     .line 10
-    const-string v2, "sign="
+    iget-object v1, v1, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;->url_:Ljava/lang/String;
 
     .line 11
     .line 12
-    const-string v3, "hcrId="
+    if-eqz v1, :cond_0
 
     .line 13
     .line 14
-    const-string v4, "devicetype="
+    check-cast v0, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/vw7;->q(Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    iget-object v0, v0, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;->url_:Ljava/lang/String;
 
     .line 17
     .line 18
-    .line 19
-    const-string v1, "clientPackage="
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
+    .line 19
     .line 20
     .line 21
-    const-string v2, "thirdId="
+    move-result v0
 
     .line 22
+    return v0
+
     .line 23
-    const-string v3, "token="
+    :cond_0
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 24
     .line 25
-    const-string v4, "iv="
-
     .line 26
+    move-result-wide v0
+
     .line 27
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/vw7;->q(Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    long-to-int v1, v0
 
     .line 28
+    return v1
     .line 29
     .line 30
-    const-string v1, "terminalType="
-
     .line 31
     .line 32
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 33
     .line 34
     .line 35
-    const-string v1, "userId="
-
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 38
     .line 39
     .line 40
-    return-void
     .line 41
     .line 42
     .line 43
@@ -212,445 +251,275 @@
     .line 164
 .end method
 
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a(Landroid/content/Context;)V
-    .registers 2
-
-    .line 1
-    :try_start_0
-    invoke-static {p0}, Landroid/webkit/CookieSyncManager;->createInstance(Landroid/content/Context;)Landroid/webkit/CookieSyncManager;
-
-    invoke-static {}, Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/webkit/CookieManager;->removeAllCookie()V
-
-    invoke-static {}, Landroid/webkit/CookieSyncManager;->getInstance()Landroid/webkit/CookieSyncManager;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/webkit/CookieSyncManager;->sync()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    const-string p0, "WebViewUtil"
-
-    const-string v0, "clearCookie exception."
-
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    return-void
-.end method
-
-.method public static b(Ljava/lang/String;)Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string p0, ""
-
-    return-object p0
-
-    :cond_0
-    const-string v0, "?"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
-    move-result v0
-
-    const/4 v1, -0x1
-
-    if-ne v0, v1, :cond_1
-
-    return-object p0
-
-    :cond_1
-    const/4 v1, 0x0
-
-    invoke-static {p0, v1, v0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static c(Ljava/lang/String;)Ljava/lang/String;
-    .registers 5
-
-    .line 1
-    const-string v0, "share url param is empty ? "
-
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    const/4 v2, 0x0
-
-    const-string v3, "WebViewUtil"
-
-    if-eqz v1, :cond_0
-
-    const-string p0, "uri is null."
-
-    invoke-static {v3, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v2
-
-    :cond_0
-    :try_start_0
-    invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object p0
-
-    const-string v1, "shareUrl"
-
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/b07;->a(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object p0
-
-    :catch_0
-    const-string p0, "parserParamUrl exception."
-
-    invoke-static {v3, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v2
-.end method
-
-.method public static d(Ljava/lang/String;)Ljava/lang/String;
+.method public final i(Landroid/content/Context;)V
     .registers 10
 
     .line 1
-    const/4 v0, 0x0
+    const-string v0, "WebViewMsgHandler"
 
     .line 2
-    if-nez p0, :cond_0
-
     .line 3
-    .line 4
-    return-object v0
+    const-string v1, "WebViewMsgHandler execute"
 
+    .line 4
     .line 5
-    :cond_0
-    const-string v1, "?"
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
-    invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
     .line 8
+    iget-object v1, p0, Lcom/huawei/appmarket/y40;->a:Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;
+
     .line 9
     .line 10
-    move-result v2
+    iget-object v1, v1, Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;->param_:Lcom/huawei/appgallery/push/api/bean/BasePushParamBean;
 
     .line 11
-    const/4 v3, 0x0
-
     .line 12
-    if-lez v2, :cond_1
+    if-nez v1, :cond_0
 
     .line 13
     .line 14
-    invoke-static {p0, v3, v2}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+    const-string p1, "error, pushBean.param is null"
 
     .line 15
     .line 16
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 17
-    move-result-object v0
-
     .line 18
-    add-int/lit8 v2, v2, 0x1
-
     .line 19
+    return-void
+
     .line 20
-    invoke-static {p0, v2}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;I)Ljava/lang/String;
+    :cond_0
+    check-cast v1, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;
 
     .line 21
     .line 22
-    .line 23
-    move-result-object v2
+    iget-object v1, v1, Lcom/huawei/appmarket/service/push/bean/WebViewMsgParamBean;->url_:Ljava/lang/String;
 
+    .line 23
     .line 24
-    move-object v8, v2
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 25
-    move-object v2, v0
-
     .line 26
-    move-object v0, v8
-
     .line 27
-    goto :goto_0
+    move-result v2
 
     .line 28
-    :cond_1
-    move-object v2, p0
+    if-eqz v2, :cond_1
 
     .line 29
-    :goto_0
-    if-nez v0, :cond_2
-
     .line 30
-    .line 31
-    return-object p0
+    const-string p1, "error, wapUrl is empty"
 
+    .line 31
     .line 32
-    :cond_2
-    const-string p0, "&"
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
-    invoke-virtual {v0, p0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
     .line 35
-    .line 36
-    .line 37
-    move-result-object p0
+    return-void
 
+    .line 36
+    :cond_1
+    const-string v0, "http://"
+
+    .line 37
     .line 38
-    new-instance v0, Ljava/util/ArrayList;
+    invoke-virtual {v1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 39
     .line 40
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
     .line 41
-    .line 42
-    .line 43
-    const/4 v4, 0x0
+    move-result v2
 
+    .line 42
+    if-nez v2, :cond_2
+
+    .line 43
     .line 44
-    :goto_1
-    array-length v5, p0
+    const-string v2, "https://"
 
     .line 45
-    if-ge v4, v5, :cond_7
-
     .line 46
-    .line 47
-    aget-object v5, p0, v4
+    invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
+    .line 47
     .line 48
     .line 49
-    if-eqz v5, :cond_6
+    move-result v2
 
     .line 50
+    if-nez v2, :cond_2
+
     .line 51
-    const-string v6, ""
-
     .line 52
-    .line 53
-    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
+    .line 53
     .line 54
     .line 55
+    move-result-object v1
+
     .line 56
-    move-result v5
+    :cond_2
+    invoke-static {v1}, Lcom/huawei/appmarket/hc6;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 57
-    if-eqz v5, :cond_3
-
     .line 58
     .line 59
-    goto :goto_2
+    move-result-object v0
 
     .line 60
-    :cond_3
-    aget-object v5, p0, v4
+    const-string v1, "source="
 
     .line 61
     .line 62
-    sget-object v6, Lcom/huawei/appmarket/uo8;->a:Ljava/util/ArrayList;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 63
     .line 64
-    invoke-virtual {v6}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
     .line 65
-    .line 66
-    .line 67
-    move-result-object v6
+    move-result-object v0
 
+    .line 66
+    iget-object v1, p0, Lcom/huawei/appmarket/y40;->a:Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;
+
+    .line 67
     .line 68
-    :cond_4
-    invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
+    iget-object v1, v1, Lcom/huawei/appgallery/push/api/bean/BasePushMsgBean;->sessionID_:Ljava/lang/String;
 
     .line 69
     .line 70
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 71
-    move-result v7
-
     .line 72
-    if-eqz v7, :cond_5
-
     .line 73
-    .line 74
-    invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 74
     .line 75
     .line 76
+    move-result-object v0
+
     .line 77
-    move-result-object v7
+    new-instance v1, Ljava/lang/StringBuilder;
 
     .line 78
-    check-cast v7, Ljava/lang/String;
-
     .line 79
-    .line 80
-    invoke-virtual {v5, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
+    .line 80
     .line 81
     .line 82
+    invoke-static {v0}, Lcom/huawei/appmarket/hc6;->b(Ljava/lang/String;)Ljava/lang/String;
+
     .line 83
-    move-result v7
-
     .line 84
-    if-eqz v7, :cond_4
-
     .line 85
+    move-result-object v0
+
     .line 86
-    goto :goto_2
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 87
-    :cond_5
-    aget-object v5, p0, v4
-
     .line 88
     .line 89
-    invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-static {}, Lcom/huawei/appmarket/hc6;->a()Ljava/lang/String;
 
     .line 90
     .line 91
     .line 92
-    :cond_6
-    :goto_2
-    add-int/lit8 v4, v4, 0x1
+    move-result-object v0
 
     .line 93
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 94
-    goto :goto_1
-
     .line 95
-    :cond_7
-    new-instance p0, Ljava/lang/StringBuilder;
-
     .line 96
-    .line 97
-    invoke-direct {p0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    .line 97
     .line 98
     .line 99
+    move-result-object v5
+
     .line 100
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 101
     .line 102
     .line 103
-    move-result v2
+    move-result-object v0
 
     .line 104
-    if-lez v2, :cond_9
+    const-string v1, "AGWebView"
 
     .line 105
     .line 106
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 107
     .line 108
-    .line 109
-    :goto_3
-    if-ge v3, v2, :cond_9
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
+    .line 109
     .line 110
     .line 111
-    invoke-virtual {v0, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move-result-object v0
 
     .line 112
+    const-class v1, Lcom/huawei/appgallery/agwebview/api/IWebViewLauncher;
+
     .line 113
     .line 114
-    move-result-object v1
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 115
-    check-cast v1, Ljava/lang/String;
-
     .line 116
     .line 117
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 118
+    move-object v2, v0
+
     .line 119
+    check-cast v2, Lcom/huawei/appgallery/agwebview/api/IWebViewLauncher;
+
     .line 120
-    add-int/lit8 v1, v2, -0x1
-
     .line 121
-    .line 122
-    if-eq v3, v1, :cond_8
+    const-string v4, "internal_webview"
 
+    .line 122
     .line 123
+    const/4 v6, 0x1
+
     .line 124
-    const/16 v1, 0x26
+    const/high16 v7, 0x14000000
 
     .line 125
     .line 126
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    move-object v3, p1
 
     .line 127
+    invoke-interface/range {v2 .. v7}, Lcom/huawei/appgallery/agwebview/api/IWebViewLauncher;->startWebViewActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZI)V
+
     .line 128
     .line 129
-    :cond_8
-    add-int/lit8 v3, v3, 0x1
-
     .line 130
+    return-void
     .line 131
-    goto :goto_3
-
     .line 132
-    :cond_9
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 133
     .line 134
     .line 135
-    move-result-object p0
-
     .line 136
-    return-object p0
     .line 137
     .line 138
     .line 139
@@ -865,6 +734,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

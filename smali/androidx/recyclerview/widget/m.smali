@@ -3,11 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uk4;
+.implements Lcom/huawei/appmarket/xk4;
 
 
 # static fields
-.field static final a:Lcom/huawei/appmarket/uk4;
+.field static final a:Lcom/huawei/appmarket/xk4;
 
 
 # direct methods
@@ -18,7 +18,7 @@
 
     invoke-direct {v0}, Landroidx/recyclerview/widget/m;-><init>()V
 
-    sput-object v0, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sput-object v0, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     return-void
 .end method
@@ -52,7 +52,7 @@
 
     move-result v1
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/ei8;->m0(Landroid/view/View;F)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/ki8;->m0(Landroid/view/View;F)V
 
     :cond_0
     const/4 v1, 0x0
@@ -93,7 +93,7 @@
 
     .line 11
     .line 12
-    invoke-static {p3}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {p3}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     .line 13
     .line 14
@@ -144,7 +144,7 @@
 
     .line 35
     :cond_0
-    invoke-static {v2}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {v2}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     .line 36
     .line 37
@@ -180,7 +180,7 @@
     add-float/2addr v0, p2
 
     .line 50
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ei8;->m0(Landroid/view/View;F)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/ki8;->m0(Landroid/view/View;F)V
 
     .line 51
     .line 52

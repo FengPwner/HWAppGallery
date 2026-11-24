@@ -101,7 +101,7 @@
     goto :goto_2
 
     :cond_1
-    const-string v3, "x5c"
+    const-string/jumbo v3, "x5c"
 
     invoke-virtual {v1, v3, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 

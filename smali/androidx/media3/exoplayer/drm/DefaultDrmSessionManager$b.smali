@@ -53,11 +53,11 @@
 
     iput-object v0, p0, Landroidx/media3/exoplayer/drm/DefaultDrmSessionManager$b;->a:Ljava/util/HashMap;
 
-    sget-object v0, Lcom/huawei/appmarket/vf0;->d:Ljava/util/UUID;
+    sget-object v0, Lcom/huawei/appmarket/wf0;->d:Ljava/util/UUID;
 
     iput-object v0, p0, Landroidx/media3/exoplayer/drm/DefaultDrmSessionManager$b;->b:Ljava/util/UUID;
 
-    sget-object v0, Landroidx/media3/exoplayer/drm/l;->d:Lcom/huawei/appmarket/ej2;
+    sget-object v0, Landroidx/media3/exoplayer/drm/l;->d:Lcom/huawei/appmarket/tr2;
 
     iput-object v0, p0, Landroidx/media3/exoplayer/drm/DefaultDrmSessionManager$b;->c:Landroidx/media3/exoplayer/drm/j$c;
 
@@ -167,7 +167,7 @@
 
     :cond_1
     :goto_1
-    invoke-static {v5}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v5}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     add-int/lit8 v2, v2, 0x1
 
@@ -189,7 +189,7 @@
     .registers 3
 
     .line 1
-    sget-object v0, Landroidx/media3/exoplayer/drm/l;->d:Lcom/huawei/appmarket/ej2;
+    sget-object v0, Landroidx/media3/exoplayer/drm/l;->d:Lcom/huawei/appmarket/tr2;
 
     .line 2
     .line 3

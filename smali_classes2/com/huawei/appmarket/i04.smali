@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract onResult(I)V
+.method public abstract r(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
 .end method

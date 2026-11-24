@@ -1,167 +1,92 @@
-.class final Lcom/huawei/appmarket/na7;
-.super Lcom/huawei/appmarket/oa7$d;
+.class public final Lcom/huawei/appmarket/na7;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "Lcom/huawei/appmarket/oa7$d<",
-        "Ljava/lang/Object;",
-        ">;"
+        Lcom/huawei/appmarket/na7$a;
     }
 .end annotation
 
 
-# instance fields
-.field final synthetic b:Ljava/util/Set;
+# static fields
+.field public static final b:Lcom/huawei/appmarket/na7$a;
 
-.field final synthetic c:Ljava/util/Set;
+.field private static final c:Lcom/huawei/appmarket/na7;
+
+
+# instance fields
+.field private a:Lcom/huawei/appmarket/ma7;
 
 
 # direct methods
-.method constructor <init>(Ljava/util/Set;Ljava/util/Set;)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/na7;->b:Ljava/util/Set;
+    new-instance v0, Lcom/huawei/appmarket/na7$a;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/na7;->c:Ljava/util/Set;
+    const/4 v1, 0x0
 
-    const/4 p1, 0x0
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/na7$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/oa7$d;-><init>(Lcom/huawei/appmarket/ma7;)V
+    sput-object v0, Lcom/huawei/appmarket/na7;->b:Lcom/huawei/appmarket/na7$a;
+
+    new-instance v0, Lcom/huawei/appmarket/na7;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/na7;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/na7;->c:Lcom/huawei/appmarket/na7;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final b()Lcom/huawei/appmarket/g88;
+.method private constructor <init>()V
     .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/g88<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/na7$a;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/na7$a;-><init>(Lcom/huawei/appmarket/na7;)V
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    return-void
+.end method
+
+.method public static final synthetic a()Lcom/huawei/appmarket/na7;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/na7;->c:Lcom/huawei/appmarket/na7;
 
     return-object v0
 .end method
 
-.method public final contains(Ljava/lang/Object;)Z
-    .registers 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Ljavax/annotation/CheckForNull;
-        .end annotation
-    .end param
+.method public static final b()Lcom/huawei/appmarket/na7;
+    .registers 1
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->b:Ljava/util/Set;
-
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->c:Ljava/util/Set;
-
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    return p1
-.end method
-
-.method public final containsAll(Ljava/util/Collection;)Z
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Collection<",
-            "*>;)Z"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->b:Ljava/util/Set;
-
-    invoke-interface {v0, p1}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->c:Ljava/util/Set;
-
-    invoke-interface {v0, p1}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    return p1
-.end method
-
-.method public final isEmpty()Z
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->c:Ljava/util/Set;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/na7;->b:Ljava/util/Set;
-
-    invoke-static {v0, v1}, Ljava/util/Collections;->disjoint(Ljava/util/Collection;Ljava/util/Collection;)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public final iterator()Ljava/util/Iterator;
-    .registers 2
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/na7$a;
+    sget-object v0, Lcom/huawei/appmarket/na7;->b:Lcom/huawei/appmarket/na7$a;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/na7$a;-><init>(Lcom/huawei/appmarket/na7;)V
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
     .line 6
-    return-object v0
+    invoke-static {}, Lcom/huawei/appmarket/na7;->a()Lcom/huawei/appmarket/na7;
+
     .line 7
     .line 8
     .line 9
+    move-result-object v0
+
     .line 10
+    return-object v0
     .line 11
     .line 12
     .line 13
@@ -287,44 +212,25 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final size()I
-    .registers 5
+
+# virtual methods
+.method public final c()Lcom/huawei/appmarket/ma7;
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/na7;->b:Ljava/util/Set;
+    iget-object v0, p0, Lcom/huawei/appmarket/na7;->a:Lcom/huawei/appmarket/ma7;
 
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    return-object v0
+.end method
 
-    move-result-object v0
+.method public final d(Lcom/huawei/appmarket/ma7;)V
+    .registers 2
 
-    const/4 v1, 0x0
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/na7;->a:Lcom/huawei/appmarket/ma7;
 
-    :cond_0
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_1
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v2
-
-    iget-object v3, p0, Lcom/huawei/appmarket/na7;->c:Ljava/util/Set;
-
-    invoke-interface {v3, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    return v1
+    return-void
 .end method

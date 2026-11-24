@@ -3069,7 +3069,7 @@
     const/4 v10, 0x1
 
     .line 6
-    invoke-static {v1, v10, v7, v9}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {v1, v10, v7, v9}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     move-result v7
 
@@ -3447,7 +3447,7 @@
     iput-object v1, p0, Lcom/huawei/hms/scankit/p/t4;->a:Lcom/huawei/hms/scankit/p/j;
 
     .line 9
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 

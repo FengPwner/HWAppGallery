@@ -18,15 +18,15 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/fg4;->p()Lcom/huawei/appmarket/fg4;
+    invoke-static {}, Lcom/huawei/appmarket/hg4;->p()Lcom/huawei/appmarket/hg4;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg4;->n()Lcom/huawei/appmarket/fg4$d;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hg4;->n()Lcom/huawei/appmarket/hg4$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fg4$d;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hg4$d;->c()I
 
     move-result v0
 
@@ -51,19 +51,19 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/fs;->f()Lcom/huawei/appmarket/fs;
+    invoke-static {}, Lcom/huawei/appmarket/gs;->f()Lcom/huawei/appmarket/gs;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->I0:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fs;->k(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gs;->k(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/fs;->f()Lcom/huawei/appmarket/fs;
+    invoke-static {}, Lcom/huawei/appmarket/gs;->f()Lcom/huawei/appmarket/gs;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fs;->g()Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gs;->g()Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;
 
     move-result-object v0
 
@@ -74,27 +74,27 @@
     :cond_1
     iget-object v1, v0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;->a:Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;
 
-    instance-of v2, v1, Lcom/huawei/appmarket/u34;
+    instance-of v2, v1, Lcom/huawei/appmarket/w34;
 
     if-eqz v2, :cond_3
 
     iget-object v0, v0, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;->b:Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
-    instance-of v2, v0, Lcom/huawei/appmarket/v34;
+    instance-of v2, v0, Lcom/huawei/appmarket/x34;
 
     if-eqz v2, :cond_3
 
     move-object v2, v0
 
-    check-cast v2, Lcom/huawei/appmarket/v34;
+    check-cast v2, Lcom/huawei/appmarket/x34;
 
-    check-cast v1, Lcom/huawei/appmarket/u34;
+    check-cast v1, Lcom/huawei/appmarket/w34;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/u34;->getReqPageNum()I
+    invoke-interface {v1}, Lcom/huawei/appmarket/w34;->getReqPageNum()I
 
     move-result v3
 
-    invoke-interface {v2, v3}, Lcom/huawei/appmarket/v34;->setPageNum(I)V
+    invoke-interface {v2, v3}, Lcom/huawei/appmarket/x34;->setPageNum(I)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
 
@@ -110,9 +110,9 @@
 
     if-eqz v2, :cond_3
 
-    check-cast v0, Lcom/huawei/appmarket/v34;
+    check-cast v0, Lcom/huawei/appmarket/x34;
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;->L7(Lcom/huawei/appmarket/u34;Lcom/huawei/appmarket/v34;)V
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;->L7(Lcom/huawei/appmarket/w34;Lcom/huawei/appmarket/x34;)V
 
     goto :goto_0
 
@@ -128,13 +128,13 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/fs;->f()Lcom/huawei/appmarket/fs;
+    invoke-static {}, Lcom/huawei/appmarket/gs;->f()Lcom/huawei/appmarket/gs;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->I0:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/fs;->l(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gs;->l(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;->K7()V
 
@@ -164,7 +164,7 @@
     .line 8
     .line 9
     .line 10
-    sget-object v3, Lcom/huawei/appmarket/tq8;->c:Ljava/lang/String;
+    sget-object v3, Lcom/huawei/appmarket/zq8;->c:Ljava/lang/String;
 
     .line 11
     .line 12
@@ -182,7 +182,7 @@
     .line 18
     .line 19
     .line 20
-    sget-object v3, Lcom/huawei/appmarket/tq8;->b:Ljava/lang/String;
+    sget-object v3, Lcom/huawei/appmarket/zq8;->b:Ljava/lang/String;
 
     .line 21
     .line 22
@@ -217,7 +217,7 @@
     move-result-object v3
 
     .line 38
-    invoke-static {v3}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v3}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 39
     .line 40
@@ -225,7 +225,7 @@
     move-result-object v3
 
     .line 42
-    invoke-virtual {v3, v1, v2}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v3, v1, v2}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -252,7 +252,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -267,11 +267,11 @@
     .line 60
     .line 61
     .line 62
-    sget v3, Lcom/huawei/appmarket/rs1;->b:I
+    sget v3, Lcom/huawei/appmarket/us1;->b:I
 
     .line 63
     .line 64
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 65
     .line 66
@@ -284,7 +284,7 @@
     .line 69
     .line 70
     .line 71
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->b()Ljava/lang/String;
 
     .line 72
     .line 73
@@ -318,7 +318,7 @@
     move-result-object v3
 
     .line 88
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->a()Ljava/lang/String;
 
     .line 89
     .line 90
@@ -353,7 +353,7 @@
     .line 102
     .line 103
     .line 104
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/ej2;->z(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/kb1;->B(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 105
     .line 106
@@ -459,13 +459,13 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/fs;->f()Lcom/huawei/appmarket/fs;
+    invoke-static {}, Lcom/huawei/appmarket/gs;->f()Lcom/huawei/appmarket/gs;
 
     move-result-object v0
 
     const-string v1, "appInstalling_key"
 
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/fs;->n(Ljava/lang/String;Lcom/huawei/appmarket/fs$a;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gs;->n(Ljava/lang/String;Lcom/huawei/appmarket/gs$a;)V
 
     invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;->f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 

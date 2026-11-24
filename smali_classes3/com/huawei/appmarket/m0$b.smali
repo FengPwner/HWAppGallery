@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/m0$b;
-.super Lcom/huawei/appmarket/uz3$a;
+.super Lcom/huawei/appmarket/wz3$a;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/m0$b;->c:Lcom/huawei/appmarket/m0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/uz3$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wz3$a;-><init>()V
 
     return-void
 .end method

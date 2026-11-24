@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/game/impl/a;
-.super Lcom/huawei/appmarket/mz6;
+.super Lcom/huawei/appmarket/qz6;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, p1, v1, v2, v0}, Lcom/huawei/appmarket/mz6;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
+    invoke-direct {p0, p1, v1, v2, v0}, Lcom/huawei/appmarket/qz6;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     iput-object v2, p0, Lcom/huawei/appgallery/game/impl/a;->d:Landroid/database/sqlite/SQLiteDatabase;
 
@@ -45,7 +45,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v0, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object v0, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -65,7 +65,7 @@
 
     const-string v1, "GameResourceDbHelper"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -140,16 +140,16 @@
 
     if-nez v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v0, "modifyTableName, mDb is null."
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/mz6;->t(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/qz6;->t(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -181,11 +181,11 @@
     return-void
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v0, "alter table error!"
 
-    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/database/SQLException;
 
@@ -252,7 +252,7 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p2, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -269,17 +269,17 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
     :catch_1
     :try_start_2
-    sget-object p2, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p2, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v2, "GameResourceDbHelper initTables error. "
 
-    invoke-virtual {p2, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -293,7 +293,7 @@
     :catch_2
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p2, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -315,7 +315,7 @@
     :catch_3
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object v2, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -331,7 +331,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_4
     throw p2
@@ -352,11 +352,11 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v0, "executeSQL, mDb is null."
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -369,11 +369,11 @@
     return-void
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v0, "GameResourceDbHelper executeSQL error ] "
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/database/SQLException;
 
@@ -403,7 +403,7 @@
 
     .line 6
     .line 7
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     .line 8
     .line 9
@@ -411,7 +411,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -427,7 +427,7 @@
 
     .line 18
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/mz6;->t(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/qz6;->t(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -447,7 +447,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -504,7 +504,7 @@
     .line 52
     :catch_0
     :try_start_1
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     .line 53
     .line 54
@@ -512,7 +512,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -588,7 +588,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final z(Ljava/lang/String;)Z
@@ -606,18 +605,18 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xw2;->a:Lcom/huawei/appmarket/xw2;
+    sget-object p1, Lcom/huawei/appmarket/ax2;->a:Lcom/huawei/appmarket/ax2;
 
     const-string v0, "GameResourceDbHelper"
 
     const-string v2, "isTableExist, mDb is null."
 
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/mz6;->t(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/qz6;->t(Ljava/lang/String;)Z
 
     move-result v0
 

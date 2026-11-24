@@ -20,7 +20,7 @@
 
 # instance fields
 .field private defaultAllowPermissions:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -33,7 +33,7 @@
 .end field
 
 .field private defaultDisallowPermissions:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -46,7 +46,7 @@
 .end field
 
 .field private disallowPermissionSources:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -59,12 +59,12 @@
 .end field
 
 .field private displayReason:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private forbiddenDefaultAppTypes:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -77,7 +77,7 @@
 .end field
 
 .field private permissionControl:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -90,7 +90,7 @@
 .end field
 
 .field private pkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -264,6 +264,34 @@
     iput-object p0, v0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->signs:Ljava/util/List;
 
     return-object v0
+.end method
+
+.method private static h0(Ljava/util/List;)I
+    .registers 2
+
+    .line 1
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_0
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0, p0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    new-instance p0, Lcom/huawei/appmarket/wv4$a;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/wv4$a;-><init>()V
+
+    invoke-static {v0, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->hashCode()I
+
+    move-result p0
+
+    return p0
 .end method
 
 
@@ -462,7 +490,7 @@
 
     iget-object v4, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->permissionControl:Ljava/util/List;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v3
 
@@ -472,7 +500,7 @@
 
     iget-object v4, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->forbiddenDefaultAppTypes:Ljava/util/List;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v3
 
@@ -490,7 +518,7 @@
 
     iget-object v5, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->defaultAllowPermissions:Ljava/util/List;
 
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result v4
 
@@ -500,7 +528,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->signs:Ljava/util/List;
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/tv4;->b(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/wv4;->b(Ljava/util/List;Ljava/util/List;)Z
 
     move-result p1
 
@@ -559,47 +587,31 @@
 .end method
 
 .method public final hashCode()I
-    .registers 4
+    .registers 3
 
     iget-object v0, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->pkgName:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-static {v0}, Ljava/util/Objects;->hashCode(Ljava/lang/Object;)I
 
     move-result v0
-
-    iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->permissionControl:Ljava/util/List;
-
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
-
-    invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
     mul-int/lit8 v0, v0, 0x1f
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->permissionControl:Ljava/util/List;
 
-    invoke-interface {v1}, Ljava/util/List;->hashCode()I
+    invoke-static {v1}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->h0(Ljava/util/List;)I
 
     move-result v1
 
-    add-int/2addr v1, v0
+    add-int/2addr v0, v1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->forbiddenDefaultAppTypes:Ljava/util/List;
+    mul-int/lit8 v0, v0, 0x1f
 
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
+    iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->forbiddenDefaultAppTypes:Ljava/util/List;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
+    invoke-static {v1}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->h0(Ljava/util/List;)I
 
-    invoke-static {v0, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
-
-    mul-int/lit8 v1, v1, 0x1f
-
-    iget-object v0, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->forbiddenDefaultAppTypes:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->hashCode()I
-
-    move-result v0
+    move-result v1
 
     add-int/2addr v0, v1
 
@@ -609,39 +621,23 @@
 
     add-int/2addr v0, v1
 
-    iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->defaultAllowPermissions:Ljava/util/List;
-
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
-
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
-
-    invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
-
     mul-int/lit8 v0, v0, 0x1f
 
     iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->defaultAllowPermissions:Ljava/util/List;
 
-    invoke-interface {v1}, Ljava/util/List;->hashCode()I
+    invoke-static {v1}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->h0(Ljava/util/List;)I
 
     move-result v1
 
-    add-int/2addr v1, v0
+    add-int/2addr v0, v1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->signs:Ljava/util/List;
+    mul-int/lit8 v0, v0, 0x1f
 
-    new-instance v2, Lcom/huawei/appmarket/tv4$a;
+    iget-object v1, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->signs:Ljava/util/List;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/tv4$a;-><init>()V
+    invoke-static {v1}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->h0(Ljava/util/List;)I
 
-    invoke-static {v0, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
-
-    mul-int/lit8 v1, v1, 0x1f
-
-    iget-object v0, p0, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControl;->signs:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->hashCode()I
-
-    move-result v0
+    move-result v1
 
     add-int/2addr v0, v1
 

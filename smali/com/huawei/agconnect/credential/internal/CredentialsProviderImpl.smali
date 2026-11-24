@@ -113,21 +113,21 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/nv7;)V
+.method static synthetic a(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/tv7;)V
     .registers 2
 
     .line 4
-    invoke-direct {p0, p1}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p1}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method
 
-.method private a(Lcom/huawei/appmarket/nv7;)V
+.method private a(Lcom/huawei/appmarket/tv7;)V
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;)V"
         }
@@ -159,7 +159,7 @@
     invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     :goto_0
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     return-void
 
@@ -211,19 +211,19 @@
 
     const-class v5, Lcom/huawei/agconnect/credential/internal/ClientAuthResponse;
 
-    invoke-static {v1, v3, v5, v4}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v1, v3, v5, v4}, Lcom/huawei/agconnect/common/api/BackendService;->sendRequest(Lcom/huawei/agconnect/common/api/BaseRequest;ILjava/lang/Class;Lcom/huawei/agconnect/common/api/BackendService$Options;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/huawei/appmarket/tv7;->immediate()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/huawei/appmarket/zv7;->immediate()Ljava/util/concurrent/Executor;
 
     move-result-object v3
 
     new-instance v4, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;
 
-    invoke-direct {v4, p0, p1, v2}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;-><init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/nv7;Ljava/util/concurrent/CountDownLatch;)V
+    invoke-direct {v4, p0, p1, v2}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$2;-><init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;Lcom/huawei/appmarket/tv7;Ljava/util/concurrent/CountDownLatch;)V
 
-    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     :try_start_0
     sget-object p1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -328,12 +328,12 @@
 
 
 # virtual methods
-.method public getTokens()Lcom/huawei/appmarket/hv7;
+.method public getTokens()Lcom/huawei/appmarket/nv7;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }
@@ -342,28 +342,28 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->getTokens(Z)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->getTokens(Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getTokens(Z)Lcom/huawei/appmarket/hv7;
+.method public getTokens(Z)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/core/service/auth/Token;",
             ">;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     invoke-direct {p0, p1}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->a(Z)Z
 
@@ -373,7 +373,7 @@
 
     iget-object p1, p0, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;->c:Lcom/huawei/agconnect/credential/internal/CredentialInfo;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -382,12 +382,12 @@
 
     new-instance v2, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$1;
 
-    invoke-direct {v2, p0, p1, v0}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$1;-><init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;ZLcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, p1, v0}, Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl$1;-><init>(Lcom/huawei/agconnect/credential/internal/CredentialsProviderImpl;ZLcom/huawei/appmarket/tv7;)V
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     :goto_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

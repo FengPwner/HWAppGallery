@@ -15,7 +15,7 @@
 
 # instance fields
 .field private keyNotifyShowedList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -31,22 +31,22 @@
 .end field
 
 .field private notifyShowedList:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private packageList:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private packageVersionList:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private type:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -82,7 +82,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 2
     .line 3
@@ -328,7 +328,7 @@
 
     .line 125
     .line 126
-    invoke-static {}, Lcom/huawei/appmarket/pf7;->a()Lcom/huawei/appmarket/pf7;
+    invoke-static {}, Lcom/huawei/appmarket/uf7;->a()Lcom/huawei/appmarket/uf7;
 
     .line 127
     .line 128
@@ -336,7 +336,7 @@
     move-result-object v7
 
     .line 130
-    invoke-virtual {v7}, Lcom/huawei/appmarket/pf7;->d()Ljava/util/ArrayList;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/uf7;->d()Ljava/util/ArrayList;
 
     .line 131
     .line 132
@@ -349,7 +349,7 @@
     .line 135
     .line 136
     .line 137
-    invoke-static {v4}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 138
     .line 139
@@ -480,7 +480,7 @@
 
     .line 199
     .line 200
-    sget-object v9, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v9, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 201
     .line 202
@@ -518,7 +518,7 @@
     move-result-object v10
 
     .line 220
-    invoke-virtual {v9, v5, v10}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v9, v5, v10}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 221
     .line 222
@@ -630,7 +630,7 @@
 
     .line 272
     :catchall_0
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 273
     .line 274
@@ -638,7 +638,7 @@
 
     .line 275
     .line 276
-    invoke-virtual {p1, v5, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v5, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 277
     .line 278
@@ -999,11 +999,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final setType(I)V

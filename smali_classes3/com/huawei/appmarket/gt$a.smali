@@ -1,11 +1,14 @@
 .class final Lcom/huawei/appmarket/gt$a;
-.super Landroid/os/Handler;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/ko5;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/huawei/appmarket/gt;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/huawei/appmarket/gt;-><init>(Landroid/content/Context;Ljava/util/ArrayList;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,171 +18,167 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/gt;
+.field final synthetic b:Ljava/util/ArrayList;
+
+.field final synthetic c:Lcom/huawei/appmarket/gt;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/gt;Landroid/os/Looper;)V
+.method constructor <init>(Lcom/huawei/appmarket/gt;Ljava/util/ArrayList;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/gt$a;->a:Lcom/huawei/appmarket/gt;
+    iput-object p1, p0, Lcom/huawei/appmarket/gt$a;->c:Lcom/huawei/appmarket/gt;
 
-    invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    iput-object p2, p0, Lcom/huawei/appmarket/gt$a;->b:Ljava/util/ArrayList;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final handleMessage(Landroid/os/Message;)V
-    .registers 4
+.method public final c(Landroid/view/View;)V
+    .registers 6
 
     .line 1
-    iget p1, p1, Landroid/os/Message;->what:I
+    iget-object v0, p0, Lcom/huawei/appmarket/gt$a;->c:Lcom/huawei/appmarket/gt;
 
     .line 2
     .line 3
-    const/4 v0, 0x1
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
-    if-ne p1, v0, :cond_0
-
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/huawei/appmarket/gt$a;->a:Lcom/huawei/appmarket/gt;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/huawei/appmarket/gt;->a(Lcom/huawei/appmarket/gt;)Landroid/app/ProgressDialog;
-
     .line 9
-    .line 10
-    .line 11
     move-result-object v0
 
+    .line 10
+    iget-object v1, p0, Lcom/huawei/appmarket/gt$a;->b:Ljava/util/ArrayList;
+
+    .line 11
     .line 12
-    if-eqz v0, :cond_0
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/huawei/appmarket/gt;->a(Lcom/huawei/appmarket/gt;)Landroid/app/ProgressDialog;
-
     .line 15
+    move-result v2
+
     .line 16
+    const/4 v3, 0x1
+
     .line 17
-    move-result-object v0
+    if-le v2, v3, :cond_0
 
     .line 18
-    invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
-
     .line 19
+    const v2, 0x7f0a032d
+
     .line 20
     .line 21
-    move-result v0
-
     .line 22
-    if-nez v0, :cond_0
+    invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 23
     .line 24
-    invoke-static {p1}, Lcom/huawei/appmarket/gt;->a(Lcom/huawei/appmarket/gt;)Landroid/app/ProgressDialog;
-
     .line 25
-    .line 26
-    .line 27
-    move-result-object v0
+    move-result-object p1
 
+    .line 26
+    check-cast p1, Landroid/widget/ExpandableListView;
+
+    .line 27
     .line 28
-    invoke-virtual {v0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
+    new-instance v2, Lcom/huawei/appmarket/k60;
 
     .line 29
     .line 30
+    invoke-static {v0}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
+
     .line 31
+    .line 32
+    .line 33
     move-result-object v0
 
-    .line 32
-    invoke-static {v0}, Lcom/huawei/appmarket/w8;->d(Landroid/content/Context;)Z
-
-    .line 33
     .line 34
+    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/k60;-><init>(Landroid/content/Context;Ljava/util/ArrayList;)V
+
     .line 35
-    move-result v0
-
     .line 36
-    if-nez v0, :cond_0
-
     .line 37
-    .line 38
-    :try_start_0
-    invoke-static {p1}, Lcom/huawei/appmarket/gt;->a(Lcom/huawei/appmarket/gt;)Landroid/app/ProgressDialog;
+    invoke-virtual {p1, v2}, Landroid/widget/ExpandableListView;->setAdapter(Landroid/widget/ExpandableListAdapter;)V
 
+    .line 38
     .line 39
     .line 40
-    .line 41
-    move-result-object v0
-
-    .line 42
-    invoke-virtual {v0}, Landroid/app/Dialog;->show()V
-
-    .line 43
-    .line 44
-    .line 45
-    invoke-static {p1}, Lcom/huawei/appmarket/gt;->a(Lcom/huawei/appmarket/gt;)Landroid/app/ProgressDialog;
-
-    .line 46
-    .line 47
-    .line 48
-    move-result-object p1
-
-    .line 49
-    invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
-
-    .line 50
-    .line 51
-    .line 52
-    move-result-object p1
-
-    .line 53
-    invoke-static {p1}, Lcom/huawei/appgallery/aguikit/device/CutoutUtils;->setFullScreenWindowLayoutInDisplayCutout(Landroid/view/Window;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 54
-    .line 55
-    .line 56
     goto :goto_0
 
+    .line 41
+    :cond_0
+    const v2, 0x7f0a110e
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p1
+
+    .line 48
+    check-cast p1, Landroid/widget/ListView;
+
+    .line 49
+    .line 50
+    new-instance v2, Lcom/huawei/appmarket/service/apppermission/view/PermissionAdapter;
+
+    .line 51
+    .line 52
+    invoke-static {v0}, Lcom/huawei/appmarket/w8;->b(Landroid/content/Context;)Landroid/app/Activity;
+
+    .line 53
+    .line 54
+    .line 55
+    move-result-object v0
+
+    .line 56
+    const/4 v3, 0x0
+
     .line 57
-    :catch_0
-    move-exception p1
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 58
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 59
     .line 60
-    const-string v1, "handleMessage, ex = "
+    move-result-object v1
 
     .line 61
-    .line 62
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    check-cast v1, Lcom/huawei/appmarket/service/apppermission/bean/SingleAppPermissionInfo;
 
+    .line 62
     .line 63
+    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/service/apppermission/view/PermissionAdapter;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/apppermission/bean/SingleAppPermissionInfo;)V
+
     .line 64
     .line 65
-    const-string v1, "AppPermissionManager"
-
     .line 66
-    .line 67
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-virtual {p1, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
+    .line 67
     .line 68
     .line 69
-    .line 70
-    :cond_0
     :goto_0
     return-void
+    .line 70
     .line 71
     .line 72
     .line 73
@@ -224,5 +223,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

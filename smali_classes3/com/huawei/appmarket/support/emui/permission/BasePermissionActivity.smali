@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/z86;",
+        "Lcom/huawei/appmarket/b96;",
         ">",
         "Lcom/huawei/appmarket/framework/activity/SecureActivity<",
         "TT;>;"
@@ -60,11 +60,11 @@
     .line 2
     .line 3
     .line 4
-    const-class v0, Lcom/huawei/appmarket/mr0;
+    const-class v0, Lcom/huawei/appmarket/nr0;
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -72,11 +72,11 @@
     move-result-object v0
 
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/mr0;
+    check-cast v0, Lcom/huawei/appmarket/nr0;
 
     .line 11
     .line 12
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/mr0;->h2(Landroid/content/Context;)Z
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/nr0;->i2(Landroid/content/Context;)Z
 
     .line 13
     .line 14
@@ -115,7 +115,7 @@
 
     .line 31
     .line 32
-    invoke-static {p0}, Lcom/huawei/appmarket/ak4;->a(Landroid/content/Context;)Lcom/huawei/appmarket/zj4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ck4;->a(Landroid/content/Context;)Lcom/huawei/appmarket/bk4;
 
     .line 33
     .line 34
@@ -127,7 +127,7 @@
 
     .line 37
     .line 38
-    invoke-interface {p1}, Lcom/huawei/appmarket/zj4;->needInterruption()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/bk4;->needInterruption()Z
 
     .line 39
     .line 40
@@ -148,12 +148,12 @@
     .line 47
     .line 48
     .line 49
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/zj4;->setListener(Lcom/huawei/appmarket/zj4$a;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/bk4;->setListener(Lcom/huawei/appmarket/bk4$a;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-interface {p1}, Lcom/huawei/appmarket/zj4;->doInterruption()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/bk4;->doInterruption()V
 
     .line 53
     .line 54
@@ -194,7 +194,7 @@
 
     .line 69
     .line 70
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ej2;->C(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/tr2;->y(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 71
     .line 72
@@ -243,5 +243,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

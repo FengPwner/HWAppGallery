@@ -63,7 +63,7 @@
 
     const/16 v0, 0x12
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -104,7 +104,7 @@
 
     const/16 p2, 0x12
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -145,7 +145,7 @@
 
     const/16 p2, 0x12
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -262,7 +262,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -340,7 +340,7 @@
 
     .line 84
     .line 85
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/uu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/xu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
 
     .line 86
     .line 87
@@ -357,7 +357,7 @@
 
     .line 92
     .line 93
-    invoke-static {v4, p0}, Lcom/huawei/appmarket/uu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
+    invoke-static {v4, p0}, Lcom/huawei/appmarket/xu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
 
     .line 94
     .line 95
@@ -419,7 +419,7 @@
     .line 121
     .line 122
     :goto_1
-    invoke-static {v4}, Lcom/huawei/appmarket/uu4;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/xu4;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 123
     .line 124
@@ -453,7 +453,7 @@
 
     .line 138
     :cond_7
-    invoke-static {v4, v5, v4, v3}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v4, v5, v4, v3}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 139
     .line 140
@@ -512,7 +512,7 @@
     sub-int/2addr v6, v8
 
     .line 166
-    invoke-static {p0, v6}, Lcom/huawei/appmarket/uu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
+    invoke-static {p0, v6}, Lcom/huawei/appmarket/xu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
 
     .line 167
     .line 168
@@ -538,7 +538,7 @@
     move-result-object v4
 
     .line 180
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/uu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/xu4;->b(ILandroid/widget/TextView;)Ljava/lang/String;
 
     .line 181
     .line 182
@@ -586,7 +586,7 @@
 
     .line 203
     .line 204
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 205
     .line 206
@@ -995,15 +995,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -1087,7 +1078,7 @@
     const-string p1, "2"
 
     :goto_2
-    invoke-static {p1}, Lcom/huawei/appmarket/nz5;->f(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/pz5;->f(Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -1130,13 +1121,13 @@
     :catch_0
     move-exception p1
 
-    sget-object p2, Lcom/huawei/appmarket/lz5;->a:Lcom/huawei/appmarket/lz5;
+    sget-object p2, Lcom/huawei/appmarket/nz5;->a:Lcom/huawei/appmarket/nz5;
 
     const-string v0, "SearchFoldingTextView"
 
     const-string v1, "onMeasure error"
 
-    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     :goto_0

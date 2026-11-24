@@ -2,143 +2,124 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/hwcloudjs/api/ValidateWhiteListListener;
+
+# static fields
+.field public static final a:Lcom/huawei/appgallery/base/simopt/a;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final validate(Ljava/lang/String;Ljava/lang/String;)Z
-    .registers 6
+.method static constructor <clinit>()V
+    .registers 2
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
-    .line 4
-    move-result v0
+    const/16 v1, 0x1d
 
+    .line 4
     .line 5
-    const/4 v1, 0x0
+    if-lt v0, v1, :cond_0
 
     .line 6
-    if-eqz v0, :cond_0
-
     .line 7
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
     .line 8
-    return v1
-
     .line 9
-    :cond_0
-    sget v0, Lcom/huawei/appmarket/jn8;->e:I
-
     .line 10
+    move-result-object v0
+
     .line 11
-    const-string v0, "^(https://)"
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
 
     .line 12
     .line 13
-    const/4 v2, 0x2
-
     .line 14
-    invoke-static {v0, v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
+    move-result-object v0
 
     .line 15
+    new-instance v1, Lcom/huawei/appgallery/base/simopt/QImpl;
+
     .line 16
     .line 17
-    move-result-object v0
+    invoke-direct {v1, v0}, Lcom/huawei/appgallery/base/simopt/QImpl;-><init>(Landroid/content/Context;)V
 
     .line 18
-    invoke-virtual {v0, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-
     .line 19
     .line 20
+    goto :goto_0
+
     .line 21
-    move-result-object v0
+    :cond_0
+    const/16 v1, 0x17
 
     .line 22
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
-
     .line 23
+    if-lt v0, v1, :cond_1
+
     .line 24
     .line 25
-    move-result v0
+    new-instance v1, Lcom/huawei/appgallery/base/simopt/c;
 
     .line 26
-    if-nez v0, :cond_1
-
     .line 27
-    .line 28
-    sget-object p1, Lcom/huawei/appmarket/k0;->a:Lcom/huawei/appmarket/k0;
+    invoke-direct {v1}, Lcom/huawei/appgallery/base/simopt/c;-><init>()V
 
+    .line 28
     .line 29
     .line 30
-    new-instance v0, Ljava/lang/StringBuilder;
+    goto :goto_0
 
     .line 31
+    :cond_1
+    const/16 v1, 0x16
+
     .line 32
-    const-string v2, "http url:"
-
     .line 33
-    .line 34
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    if-lt v0, v1, :cond_2
 
+    .line 34
     .line 35
+    invoke-static {}, Lcom/huawei/appgallery/base/simopt/b;->d()Lcom/huawei/appgallery/base/simopt/a;
+
     .line 36
     .line 37
-    invoke-static {p2}, Lcom/huawei/appmarket/uo8;->b(Ljava/lang/String;)Ljava/lang/String;
-
     .line 38
+    move-result-object v1
+
     .line 39
+    goto :goto_0
+
     .line 40
-    move-result-object p2
+    :cond_2
+    new-instance v1, Lcom/huawei/appgallery/base/simopt/a;
 
     .line 41
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 42
+    invoke-direct {v1}, Lcom/huawei/appgallery/base/simopt/a;-><init>()V
+
     .line 43
     .line 44
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 45
+    :goto_0
+    sput-object v1, Lcom/huawei/appmarket/mf8;->a:Lcom/huawei/appgallery/base/simopt/a;
+
     .line 46
     .line 47
-    move-result-object p2
-
+    return-void
     .line 48
-    const-string v0, "ValidateWhiteUrlImp"
-
     .line 49
     .line 50
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 51
     .line 52
     .line 53
-    return v1
-
     .line 54
-    :cond_1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/jn8;->q(Ljava/lang/String;Ljava/lang/String;)Z
-
     .line 55
     .line 56
     .line 57
-    move-result p1
-
     .line 58
-    return p1
     .line 59
     .line 60
     .line 61
@@ -218,31 +199,12 @@
     .line 135
     .line 136
     .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
 .end method

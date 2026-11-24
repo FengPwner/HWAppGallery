@@ -10,7 +10,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/eq;Landroid/app/Activity;Landroid/transition/Transition;)V
+.method constructor <init>(Lcom/huawei/appmarket/dq;Landroid/app/Activity;Landroid/transition/Transition;)V
     .registers 4
 
     .line 1
@@ -43,7 +43,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/cq;->b:Landroid/transition/Transition;
 
-    invoke-virtual {p1, v0}, Landroid/view/Window;->setEnterTransition(Landroid/transition/Transition;)V
+    invoke-virtual {p1, v0}, Landroid/view/Window;->setReenterTransition(Landroid/transition/Transition;)V
 
     :cond_0
     return-void

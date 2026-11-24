@@ -8,7 +8,7 @@
 
 .field private b:Ljava/lang/String;
 
-.field private c:Lcom/huawei/appmarket/uc2;
+.field private c:Lcom/huawei/appmarket/xc2;
 
 .field private d:Landroid/content/Context;
 
@@ -42,11 +42,11 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/uc2;)V
+.method final a(Lcom/huawei/appmarket/xc2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->c:Lcom/huawei/appmarket/uc2;
+    iput-object p1, p0, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->c:Lcom/huawei/appmarket/xc2;
 
     return-void
 .end method
@@ -85,11 +85,11 @@
     return-object v0
 .end method
 
-.method protected getLayout()Lcom/huawei/appmarket/uc2;
+.method protected getLayout()Lcom/huawei/appmarket/xc2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->c:Lcom/huawei/appmarket/uc2;
+    iget-object v0, p0, Lcom/huawei/page/flowlist/FLFlowListBundleLoader;->c:Lcom/huawei/appmarket/xc2;
 
     return-object v0
 .end method

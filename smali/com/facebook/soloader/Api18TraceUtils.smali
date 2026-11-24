@@ -8,7 +8,7 @@
     value = 0x12
 .end annotation
 
-.annotation build Lcom/huawei/appmarket/sr1;
+.annotation build Lcom/huawei/appmarket/vr1;
 .end annotation
 
 

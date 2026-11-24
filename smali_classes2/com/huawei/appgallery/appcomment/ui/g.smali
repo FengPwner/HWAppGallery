@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -99,7 +99,7 @@
 
     .line 34
     .line 35
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 36
     .line 37
@@ -111,7 +111,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -120,7 +120,7 @@
 
     .line 45
     :cond_0
-    invoke-static {v4}, Lcom/huawei/appmarket/pn1;->c(Landroid/content/Context;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/sn1;->c(Landroid/content/Context;)Z
 
     .line 46
     .line 47
@@ -145,7 +145,7 @@
     move-result-object p1
 
     .line 58
-    invoke-static {p1}, Lcom/huawei/appmarket/vu2;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/yu2;->a(Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -163,7 +163,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-static {v4}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 68
     .line 69
@@ -176,7 +176,7 @@
     .line 72
     .line 73
     .line 74
-    new-instance p1, Lcom/huawei/appmarket/th1;
+    new-instance p1, Lcom/huawei/appmarket/wh1;
 
     .line 75
     .line 76
@@ -186,12 +186,12 @@
     move-object v0, p1
 
     .line 78
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/th1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/wh1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;I)V
 
     .line 79
     .line 80
     .line 81
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 82
     .line 83

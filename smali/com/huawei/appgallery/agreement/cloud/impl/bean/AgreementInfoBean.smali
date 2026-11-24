@@ -5,22 +5,22 @@
 
 # instance fields
 .field private agrType:Ljava/lang/Integer;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private branchId:Ljava/lang/Integer;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private country:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private greyKeyWordList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -32,7 +32,7 @@
     .end annotation
 .end field
 
-.field private signType:Lcom/huawei/appmarket/qj$a;
+.field private signType:Lcom/huawei/appmarket/pj$a;
 
 
 # direct methods
@@ -73,11 +73,11 @@
     return-void
 .end method
 
-.method public final W(Lcom/huawei/appmarket/qj$a;)V
+.method public final W(Lcom/huawei/appmarket/pj$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/agreement/cloud/impl/bean/AgreementInfoBean;->signType:Lcom/huawei/appmarket/qj$a;
+    iput-object p1, p0, Lcom/huawei/appgallery/agreement/cloud/impl/bean/AgreementInfoBean;->signType:Lcom/huawei/appmarket/pj$a;
 
     return-void
 .end method

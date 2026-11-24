@@ -118,7 +118,7 @@
 
     .line 25
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 26
     .line 27
@@ -147,7 +147,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {v1}, Lcom/huawei/appmarket/q42;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/u42;->c(Ljava/lang/String;)Z
 
     .line 41
     .line 42
@@ -159,7 +159,7 @@
 
     .line 45
     .line 46
-    invoke-static {}, Lcom/huawei/appmarket/s47;->b()Lcom/huawei/appmarket/i14$a;
+    invoke-static {}, Lcom/huawei/appmarket/x47;->b()Lcom/huawei/appmarket/k14$a;
 
     .line 47
     .line 48
@@ -174,7 +174,7 @@
 
     .line 52
     .line 53
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/i14$a;->c(ZLcom/huawei/appmarket/n30;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/k14$a;->c(ZLcom/huawei/appmarket/n30;)V
 
     .line 54
     .line 55
@@ -196,7 +196,7 @@
 
     .line 64
     .line 65
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 66
     .line 67
@@ -208,7 +208,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -235,7 +235,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 86
     .line 87
@@ -243,7 +243,7 @@
     move-result-object p1
 
     .line 89
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 90
     .line 91
@@ -265,5 +265,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

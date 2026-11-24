@@ -145,7 +145,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 17
     .line 18
@@ -197,7 +197,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getShowMotionSpec()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getShowMotionSpec()Lcom/huawei/appmarket/qb5;
 
     .line 43
     .line 44
@@ -220,7 +220,7 @@
     .line 53
     .line 54
     :cond_0
-    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getHideMotionSpec()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getHideMotionSpec()Lcom/huawei/appmarket/qb5;
 
     .line 55
     .line 56
@@ -275,11 +275,11 @@
     .line 82
     .line 83
     .line 84
-    iget-object v1, p2, Lcom/google/android/material/bottomappbar/BottomAppBar;->r0:Lcom/huawei/appmarket/w28;
+    iget-object v1, p2, Lcom/google/android/material/bottomappbar/BottomAppBar;->r0:Lcom/huawei/appmarket/c38;
 
     .line 85
     .line 86
-    invoke-virtual {v0, v1}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->g(Lcom/huawei/appmarket/w28;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->g(Lcom/huawei/appmarket/c38;)V
 
     .line 87
     .line 88
@@ -489,6 +489,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final p(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;Landroid/view/View;II)Z

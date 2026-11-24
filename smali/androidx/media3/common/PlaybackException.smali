@@ -28,7 +28,7 @@
     .registers 2
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 2
     .line 3
@@ -215,6 +215,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected constructor <init>(Landroid/os/Bundle;)V
@@ -373,7 +374,7 @@
 
     sget-object v4, Landroid/os/Bundle;->EMPTY:Landroid/os/Bundle;
 
-    sget-object v0, Lcom/huawei/appmarket/vr0;->a:Lcom/huawei/appmarket/ws7;
+    sget-object v0, Lcom/huawei/appmarket/wr0;->a:Lcom/huawei/appmarket/ct7;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -399,7 +400,7 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;ILandroid/os/Bundle;)V
     .registers 13
 
-    sget-object v0, Lcom/huawei/appmarket/vr0;->a:Lcom/huawei/appmarket/ws7;
+    sget-object v0, Lcom/huawei/appmarket/wr0;->a:Lcom/huawei/appmarket/ct7;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 

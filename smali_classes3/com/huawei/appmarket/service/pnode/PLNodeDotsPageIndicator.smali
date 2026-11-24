@@ -79,7 +79,7 @@
 
     const-string v1, "onAttachedToWindow"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     const-string v1, "onDetachedFromWindow"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicator;->onDetachedFromWindow()V
 

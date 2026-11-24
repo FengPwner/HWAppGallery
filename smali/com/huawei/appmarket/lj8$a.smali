@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/lj8$a;
-.super Lcom/huawei/appmarket/lj8;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -15,26 +15,21 @@
 
 
 # direct methods
-.method constructor <init>()V
+.method private constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/lj8;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final f(Landroid/view/View;F)V
-    .registers 3
+.method static a(Landroid/view/ViewPropertyAnimator;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/view/ViewPropertyAnimator;
+    .registers 2
 
     .line 1
-    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/uj7;->a(F)F
+    invoke-virtual {p0, p1}, Landroid/view/ViewPropertyAnimator;->setUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/view/ViewPropertyAnimator;
 
-    move-result p2
+    move-result-object p0
 
-    invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
-
-    return-void
+    return-object p0
 .end method

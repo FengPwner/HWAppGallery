@@ -1,35 +1,65 @@
-.class public final Lcom/huawei/appmarket/lh2;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/lh2;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
-# static fields
-.field private static a:Z = false
+# instance fields
+.field final synthetic b:Landroid/content/Context;
+
+.field final synthetic c:I
+
+.field final synthetic d:Lcom/huawei/appmarket/mh2;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Lcom/huawei/appmarket/mh2;Landroid/content/Context;I)V
+    .registers 4
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/lh2;->d:Lcom/huawei/appmarket/mh2;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/lh2;->b:Landroid/content/Context;
+
+    iput p3, p0, Lcom/huawei/appmarket/lh2;->c:I
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
 
-.method public static a()Z
-    .registers 1
+
+# virtual methods
+.method public final onSingleClick(Landroid/view/View;)V
+    .registers 4
 
     .line 1
-    sget-boolean v0, Lcom/huawei/appmarket/lh2;->a:Z
+    invoke-static {}, Lcom/huawei/appmarket/ph2;->c()Lcom/huawei/appmarket/ph2;
 
-    return v0
-.end method
+    move-result-object p1
 
-.method public static b(Z)V
-    .registers 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lh2;->d:Lcom/huawei/appmarket/mh2;
 
-    .line 1
-    sput-boolean p0, Lcom/huawei/appmarket/lh2;->a:Z
+    invoke-static {v0}, Lcom/huawei/appmarket/mh2;->j(Lcom/huawei/appmarket/mh2;)Ljava/util/List;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/huawei/appmarket/lh2;->c:I
+
+    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/kh2;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kh2;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iget-object p1, p0, Lcom/huawei/appmarket/lh2;->b:Landroid/content/Context;
+
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ph2;->f(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

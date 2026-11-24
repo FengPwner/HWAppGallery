@@ -7,5 +7,5 @@
 .method public abstract downloadFa(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
 .end method
 
-.method public abstract downloadFaForJs(Lcom/huawei/appmarket/ib2;)V
+.method public abstract downloadFaForJs(Lcom/huawei/appmarket/lb2;)V
 .end method

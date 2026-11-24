@@ -95,7 +95,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -121,114 +121,114 @@
     const/4 v3, 0x0
 
     .line 33
-    const-string v4, "\u5fae\u4fe1"
+    const-string/jumbo v4, "\u5fae\u4fe1"
 
     .line 34
     .line 35
+    .line 36
     aput-object v4, v2, v3
 
-    .line 36
     .line 37
+    .line 38
     const-string v4, "Share in %1$s"
 
-    .line 38
     .line 39
+    .line 40
     invoke-static {v0, v4, v2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     move-result-object v0
 
-    .line 43
+    .line 44
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
-    .line 44
     .line 45
     .line 46
+    .line 47
     move-result-object v2
 
-    .line 47
+    .line 48
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 48
     .line 49
+    .line 50
     invoke-static {v7}, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->j3(Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;)Ljava/lang/String;
 
-    .line 50
     .line 51
     .line 52
+    .line 53
     move-result-object v4
 
-    .line 53
+    .line 54
     aput-object v4, v1, v3
 
-    .line 54
     .line 55
+    .line 56
     const-string v3, "%1$s"
 
-    .line 56
     .line 57
+    .line 58
     invoke-static {v2, v3, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 58
     .line 59
     .line 60
+    .line 61
     move-result-object v1
 
-    .line 61
+    .line 62
     invoke-static {p1, v0, v1}, Lcom/huawei/phoneservice/faq/base/tracker/FaqTrack;->event(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 62
     .line 63
     .line 64
+    .line 65
     iget-object v0, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity$a;->b:Ljava/lang/String;
 
-    .line 65
     .line 66
+    .line 67
     iget-object v1, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity$a;->c:Lcom/tencent/mm/opensdk/openapi/IWXAPI;
 
-    .line 67
     .line 68
+    .line 69
     invoke-static {v7}, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->j3(Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;)Ljava/lang/String;
 
-    .line 69
     .line 70
     .line 71
+    .line 72
     move-result-object v3
 
-    .line 72
+    .line 73
     iget-object v4, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity$a;->d:Ljava/lang/String;
 
-    .line 73
     .line 74
+    .line 75
     invoke-static {v7}, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->k3(Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;)Ljava/lang/String;
 
-    .line 75
     .line 76
     .line 77
+    .line 78
     move-result-object v5
 
-    .line 78
+    .line 79
     iget-object v6, p0, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity$a;->e:[B
 
-    .line 79
     .line 80
+    .line 81
     move-object v2, v7
 
-    .line 81
+    .line 82
     invoke-static/range {v0 .. v6}, Lcom/huawei/phoneservice/faq/utils/d;->i(Ljava/lang/String;Lcom/tencent/mm/opensdk/openapi/IWXAPI;Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
 
-    .line 82
     .line 83
     .line 84
+    .line 85
     invoke-static {v7}, Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;->l3(Lcom/huawei/phoneservice/faq/ui/FaqShareActivity;)V
 
-    .line 85
     .line 86
     .line 87
-    return-void
     .line 88
+    return-void
     .line 89
     .line 90
     .line 91
@@ -322,21 +322,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

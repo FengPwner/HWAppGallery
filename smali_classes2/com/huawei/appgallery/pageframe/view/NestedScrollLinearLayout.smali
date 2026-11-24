@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static final A:Lcom/huawei/appmarket/mf5;
+.field private static final A:Lcom/huawei/appmarket/pf5;
 
 .field public static final synthetic B:I
 
@@ -22,7 +22,7 @@
 
 .field private g:I
 
-.field private h:Lcom/huawei/appmarket/ad5;
+.field private h:Lcom/huawei/appmarket/dd5;
 
 .field private i:Landroid/view/View;
 
@@ -48,7 +48,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/f14;",
+            "Lcom/huawei/appmarket/h14;",
             ">;"
         }
     .end annotation
@@ -73,13 +73,13 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/mf5;
+    new-instance v0, Lcom/huawei/appmarket/pf5;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/mf5;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pf5;-><init>(I)V
 
-    sput-object v0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->A:Lcom/huawei/appmarket/mf5;
+    sput-object v0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->A:Lcom/huawei/appmarket/pf5;
 
     return-void
 .end method
@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    sget-object p3, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->A:Lcom/huawei/appmarket/mf5;
+    sget-object p3, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->A:Lcom/huawei/appmarket/pf5;
 
     invoke-direct {p1, p2, p3}, Landroid/widget/OverScroller;-><init>(Landroid/content/Context;Landroid/view/animation/Interpolator;)V
 
@@ -418,7 +418,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic f(Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;I)V
@@ -466,7 +465,7 @@
     iput-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->f:Landroidx/viewpager2/widget/ViewPager2;
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/dd5;
 
     if-nez v0, :cond_2
 
@@ -476,13 +475,13 @@
 
     move-result-object v0
 
-    instance-of v2, v0, Lcom/huawei/appmarket/ad5;
+    instance-of v2, v0, Lcom/huawei/appmarket/dd5;
 
     if-eqz v2, :cond_2
 
-    check-cast v0, Lcom/huawei/appmarket/ad5;
+    check-cast v0, Lcom/huawei/appmarket/dd5;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/ad5;
+    iput-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/dd5;
 
     :cond_2
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->e:Landroidx/recyclerview/widget/RecyclerView;
@@ -504,7 +503,7 @@
     return-object v0
 
     :cond_3
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->h:Lcom/huawei/appmarket/dd5;
 
     iget-object v2, p0, Lcom/huawei/appgallery/pageframe/view/NestedScrollLinearLayout;->f:Landroidx/viewpager2/widget/ViewPager2;
 
@@ -516,7 +515,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -1071,7 +1070,7 @@
     .line 188
     :cond_e
     :goto_7
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 189
     .line 190
@@ -1083,7 +1082,7 @@
 
     .line 193
     .line 194
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 195
     .line 196
@@ -1270,7 +1269,7 @@
 
     .line 30
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 31
     .line 32
@@ -1282,7 +1281,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/pl0;->A(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ql0;->A(I)V
 
     .line 37
     .line 38
@@ -1335,7 +1334,7 @@
 
     .line 60
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 62
     .line 63
@@ -1348,7 +1347,7 @@
     .line 66
     .line 67
     :goto_0
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 68
     .line 69
@@ -1370,7 +1369,7 @@
     .line 76
     .line 77
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 78
     .line 79
@@ -1386,7 +1385,7 @@
 
     .line 84
     :cond_6
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 85
     .line 86
@@ -1398,7 +1397,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/pl0;->h(Landroid/view/ViewGroup;Z)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/ql0;->h(Landroid/view/ViewGroup;Z)V
 
     .line 91
     .line 92
@@ -1408,7 +1407,7 @@
     .line 94
     :cond_7
     :goto_2
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 95
     .line 96
@@ -1420,7 +1419,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
     .line 102
@@ -1430,7 +1429,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private s(Z)V
@@ -1443,12 +1441,12 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "notifyScrollingUp animationListener is null, no animation"
 
     :goto_0
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1457,18 +1455,18 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/f14;
+    check-cast v0, Lcom/huawei/appmarket/h14;
 
     if-nez v0, :cond_1
 
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "notifyScrollingUp its reference is null, no animation"
 
     goto :goto_0
 
     :cond_1
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/f14;->B0(Z)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/h14;->B0(Z)V
 
     return-void
 .end method
@@ -1712,7 +1710,7 @@
     .line 52
     .line 53
     .line 54
-    sget-object v1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 55
     .line 56
@@ -1724,7 +1722,7 @@
     move-result-object v0
 
     .line 60
-    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -1733,7 +1731,7 @@
 
     .line 64
     :cond_0
-    sget v2, Lcom/huawei/appmarket/fb4;->f:I
+    sget v2, Lcom/huawei/appmarket/hb4;->f:I
 
     .line 65
     .line 66
@@ -1749,7 +1747,7 @@
     move-result-object v4
 
     .line 72
-    invoke-static {v4}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     .line 73
     .line 74
@@ -2472,13 +2470,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method protected final onFinishInflate()V
@@ -2600,7 +2591,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->q0(Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->q0(Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
 
     .line 62
     .line 63
@@ -3157,7 +3148,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method protected final onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -3330,7 +3320,7 @@
     return-void
 .end method
 
-.method public setAnimationListener(Lcom/huawei/appmarket/f14;)V
+.method public setAnimationListener(Lcom/huawei/appmarket/h14;)V
     .registers 3
 
     .line 1

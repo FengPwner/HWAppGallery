@@ -37,11 +37,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/u53;->t()Lcom/huawei/appmarket/u53;
+    invoke-static {}, Lcom/huawei/appmarket/x53;->t()Lcom/huawei/appmarket/x53;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/u53;->u()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/x53;->u()Ljava/lang/String;
 
     move-result-object v0
 

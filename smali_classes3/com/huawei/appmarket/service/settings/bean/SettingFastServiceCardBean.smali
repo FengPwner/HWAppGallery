@@ -24,21 +24,21 @@
     .line 1
     const-string p1, "DownloadFA"
 
-    const-class v0, Lcom/huawei/appmarket/wp3;
+    const-class v0, Lcom/huawei/appmarket/yp3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/wp3;
+    check-cast p1, Lcom/huawei/appmarket/yp3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/wp3;->isSupportPromoteFA()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/yp3;->isSupportPromoteFA()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ri1;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/ui1;->a()Z
 
     move-result p1
 
@@ -47,15 +47,15 @@
     :cond_0
     const-string p1, "DeviceKit"
 
-    const-class v0, Lcom/huawei/appmarket/hh3;
+    const-class v0, Lcom/huawei/appmarket/jh3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/hh3;
+    check-cast p1, Lcom/huawei/appmarket/jh3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hh3;->a()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/jh3;->a()Z
 
     move-result p1
 

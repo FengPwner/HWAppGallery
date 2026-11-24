@@ -82,7 +82,7 @@
 
     const/4 v1, 0x1
 
-    new-array v1, v1, [Lcom/huawei/appmarket/r32;
+    new-array v1, v1, [Lcom/huawei/appmarket/v32;
 
     new-instance v2, Lcom/huawei/hwcloudjs/core/ClassExclusion;
 
@@ -92,7 +92,7 @@
 
     aput-object v2, v1, v3
 
-    invoke-virtual {v0, v1}, Lcom/google/gson/a;->c([Lcom/huawei/appmarket/r32;)V
+    invoke-virtual {v0, v1}, Lcom/google/gson/a;->c([Lcom/huawei/appmarket/v32;)V
 
     invoke-virtual {v0}, Lcom/google/gson/a;->a()Lcom/google/gson/Gson;
 

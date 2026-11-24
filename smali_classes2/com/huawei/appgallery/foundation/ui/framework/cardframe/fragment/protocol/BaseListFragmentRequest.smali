@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r34;
+.implements Lcom/huawei/appmarket/t34;
 
 
 # instance fields
@@ -83,7 +83,7 @@
     .end annotation
 .end field
 
-.field private tabStyle:Lcom/huawei/appmarket/nu7;
+.field private tabStyle:Lcom/huawei/appmarket/tu7;
 
 .field private tabTitleSelectColorAtmospherePic:Lcom/huawei/appgallery/serverreqkit/api/bean/startup/StartupResponse$TabInfo$TabTitleSelectColor;
 
@@ -118,9 +118,9 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->isSelected:Z
 
-    sget-object v1, Lcom/huawei/appmarket/nu7;->b:Lcom/huawei/appmarket/nu7;
+    sget-object v1, Lcom/huawei/appmarket/tu7;->b:Lcom/huawei/appmarket/tu7;
 
-    iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/nu7;
+    iput-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/tu7;
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->isOverScrollEnable:Z
 
@@ -399,7 +399,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ax0;->o()Lcom/huawei/appmarket/nu7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ax0;->o()Lcom/huawei/appmarket/tu7;
 
     .line 82
     .line 83
@@ -407,7 +407,7 @@
     move-result-object v0
 
     .line 85
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/nu7;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/tu7;
 
     .line 86
     .line 87
@@ -1007,11 +1007,11 @@
     return-object v0
 .end method
 
-.method public final l0(Lcom/huawei/appmarket/nu7;)V
+.method public final l0(Lcom/huawei/appmarket/tu7;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/nu7;
+    iput-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/tu7;
 
     return-void
 .end method
@@ -1159,11 +1159,11 @@
     return-object v0
 .end method
 
-.method public final w()Lcom/huawei/appmarket/nu7;
+.method public final w()Lcom/huawei/appmarket/tu7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/nu7;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->tabStyle:Lcom/huawei/appmarket/tu7;
 
     return-object v0
 .end method

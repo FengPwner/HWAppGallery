@@ -84,7 +84,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lcom/huawei/appmarket/yj0;->d()Lcom/huawei/appmarket/yj0;
+    invoke-static {}, Lcom/huawei/appmarket/zj0;->d()Lcom/huawei/appmarket/zj0;
 
     .line 28
     .line 29
@@ -103,7 +103,7 @@
     const/4 v2, 0x0
 
     .line 36
-    invoke-static {p1, v0, v2, v1, v1}, Lcom/huawei/appmarket/yj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ll0;)Z
+    invoke-static {p1, v0, v2, v1, v1}, Lcom/huawei/appmarket/zj0;->c(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;ILjava/lang/String;Lcom/huawei/appmarket/ml0;)Z
 
     .line 37
     .line 38
@@ -120,7 +120,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/ej2;->u(Landroid/content/Context;II)V
+    invoke-static {p1, v0, v2}, Lcom/huawei/appmarket/kb1;->q(Landroid/content/Context;II)V
 
     .line 46
     .line 47
@@ -185,5 +185,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

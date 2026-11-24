@@ -39,7 +39,7 @@
 
 .field private flag:I
 
-.field private freeInstallCallback:Lcom/huawei/appmarket/wq3;
+.field private freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
 .field private isOpenHarmony:Z
 
@@ -79,11 +79,11 @@
     return-object p0
 .end method
 
-.method static synthetic access$1000(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;)Lcom/huawei/appmarket/wq3;
+.method static synthetic access$1000(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;)Lcom/huawei/appmarket/yq3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->freeInstallCallback:Lcom/huawei/appmarket/wq3;
+    iget-object p0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
     return-object p0
 .end method
@@ -216,11 +216,11 @@
     return-object p0
 .end method
 
-.method public setIFreeInstallCallback(Lcom/huawei/appmarket/wq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
+.method public setIFreeInstallCallback(Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->freeInstallCallback:Lcom/huawei/appmarket/wq3;
+    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
     return-object p0
 .end method

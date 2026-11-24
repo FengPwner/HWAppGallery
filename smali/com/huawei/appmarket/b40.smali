@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lcom/huawei/appmarket/k26;",
+        "Lcom/huawei/appmarket/m26;",
         ">",
         "Ljava/lang/Object;"
     }
@@ -28,7 +28,7 @@
     .line 2
     .line 3
     .line 4
-    sget v0, Lcom/huawei/appmarket/ie8;->d:I
+    sget v0, Lcom/huawei/appmarket/ne8;->d:I
 
     .line 5
     .line 6
@@ -170,11 +170,12 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 
 # virtual methods
-.method abstract a()Lcom/huawei/appmarket/k26;
+.method abstract a()Lcom/huawei/appmarket/m26;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()TT;"
@@ -182,7 +183,7 @@
     .end annotation
 .end method
 
-.method final b()Lcom/huawei/appmarket/k26;
+.method final b()Lcom/huawei/appmarket/m26;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -197,11 +198,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/k26;
+    check-cast v0, Lcom/huawei/appmarket/m26;
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/b40;->a()Lcom/huawei/appmarket/k26;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/b40;->a()Lcom/huawei/appmarket/m26;
 
     move-result-object v0
 
@@ -209,7 +210,7 @@
     return-object v0
 .end method
 
-.method public final c(Lcom/huawei/appmarket/k26;)V
+.method public final c(Lcom/huawei/appmarket/m26;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {

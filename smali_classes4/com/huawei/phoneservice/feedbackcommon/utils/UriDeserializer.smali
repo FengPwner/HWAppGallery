@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lo4;
+.implements Lcom/huawei/appmarket/oo4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/lo4<",
+        "Lcom/huawei/appmarket/oo4<",
         "Landroid/net/Uri;",
         ">;"
     }
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public deserialize(Lcom/huawei/appmarket/mo4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/ko4;)Landroid/net/Uri;
+.method public deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Landroid/net/Uri;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -37,7 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mo4;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/po4;->e()Ljava/lang/String;
 
     move-result-object p1
 
@@ -48,7 +48,7 @@
     return-object p1
 .end method
 
-.method public bridge synthetic deserialize(Lcom/huawei/appmarket/mo4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/ko4;)Ljava/lang/Object;
+.method public bridge synthetic deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Ljava/lang/Object;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -57,7 +57,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/phoneservice/feedbackcommon/utils/UriDeserializer;->deserialize(Lcom/huawei/appmarket/mo4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/ko4;)Landroid/net/Uri;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/phoneservice/feedbackcommon/utils/UriDeserializer;->deserialize(Lcom/huawei/appmarket/po4;Ljava/lang/reflect/Type;Lcom/huawei/appmarket/no4;)Landroid/net/Uri;
 
     move-result-object p1
 

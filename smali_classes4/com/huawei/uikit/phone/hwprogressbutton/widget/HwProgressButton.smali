@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/qe3;->o(ILandroid/widget/ProgressBar;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/se3;->o(ILandroid/widget/ProgressBar;)V
 
     :cond_0
     invoke-super {p0, p1, p2}, Lcom/huawei/uikit/hwprogressbutton/widget/HwProgressButton;->onMeasure(II)V

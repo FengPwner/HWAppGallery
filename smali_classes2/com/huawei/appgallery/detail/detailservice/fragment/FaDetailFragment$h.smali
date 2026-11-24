@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/d34;
+.implements Lcom/huawei/appmarket/f34;
 
 
 # annotations
@@ -71,7 +71,7 @@
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -93,37 +93,37 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-class p1, Lcom/huawei/appmarket/mo3;
+    const-class p1, Lcom/huawei/appmarket/oo3;
 
     const-string v0, "DownloadProxy"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/mo3;
+    check-cast v1, Lcom/huawei/appmarket/oo3;
 
     const/4 v3, 0x0
 
     new-array v3, v3, [I
 
-    invoke-interface {v1, v4, v3}, Lcom/huawei/appmarket/mo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-interface {v1, v4, v3}, Lcom/huawei/appmarket/oo3;->p(Ljava/lang/String;[I)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v1
 
     iget-object v3, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$h;->d:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
-    invoke-static {v2, v3, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->u6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-static {v2, v3, v1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->v6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/mo3;
+    check-cast p1, Lcom/huawei/appmarket/oo3;
 
-    invoke-interface {p1, v4}, Lcom/huawei/appmarket/mo3;->t(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-interface {p1, v4}, Lcom/huawei/appmarket/oo3;->t(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object p1
 
@@ -137,19 +137,19 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->w6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->x6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Ljava/lang/String;)V
 
     const-string p1, "DownloadFA"
 
-    const-class v0, Lcom/huawei/appmarket/dt3;
+    const-class v0, Lcom/huawei/appmarket/ft3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/dt3;
+    check-cast p1, Lcom/huawei/appmarket/ft3;
 
-    invoke-static {v2}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->v6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->w6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -159,16 +159,16 @@
 
     invoke-direct {v1, v2, v3}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$g;-><init>(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$a;)V
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/dt3;->registerObserver(Ljava/lang/String;Lcom/huawei/appmarket/ct3;)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ft3;->registerObserver(Ljava/lang/String;Lcom/huawei/appmarket/et3;)V
 
     goto :goto_0
 
     :cond_0
     const/16 p1, 0x66
 
-    invoke-virtual {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->O6(I)V
+    invoke-virtual {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->P6(I)V
 
-    sget-object p1, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object p1, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -182,11 +182,11 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x2
 
-    invoke-static {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->C6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
+    invoke-static {v2, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->D6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
 
     :cond_1
     :goto_0

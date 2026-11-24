@@ -29,23 +29,23 @@
 
     invoke-virtual {p1, p0}, Lcom/koushikdutta/quack/QuackContext;->setReferrer(Ljava/lang/Object;)V
 
-    sget-object p2, Lcom/huawei/appmarket/dm4;->c:Lcom/koushikdutta/quack/QuackCoercion;
+    sget-object p2, Lcom/huawei/appmarket/gm4;->c:Lcom/koushikdutta/quack/QuackCoercion;
 
-    const-class v0, Lcom/huawei/appmarket/dm4;
-
-    invoke-virtual {p1, v0, p2}, Lcom/koushikdutta/quack/QuackContext;->putJavaScriptToJavaCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
-
-    sget-object p2, Lcom/huawei/appmarket/bm4;->c:Lcom/koushikdutta/quack/QuackCoercion;
-
-    const-class v0, Lcom/huawei/appmarket/bm4;
+    const-class v0, Lcom/huawei/appmarket/gm4;
 
     invoke-virtual {p1, v0, p2}, Lcom/koushikdutta/quack/QuackContext;->putJavaScriptToJavaCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance p2, Lcom/huawei/appmarket/rl4;
+    sget-object p2, Lcom/huawei/appmarket/em4;->c:Lcom/koushikdutta/quack/QuackCoercion;
+
+    const-class v0, Lcom/huawei/appmarket/em4;
+
+    invoke-virtual {p1, v0, p2}, Lcom/koushikdutta/quack/QuackContext;->putJavaScriptToJavaCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
+
+    new-instance p2, Lcom/huawei/appmarket/ul4;
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v0, Ljava/lang/String;
 
@@ -53,19 +53,19 @@
 
     sget-object p2, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
-    new-instance v0, Lcom/huawei/appmarket/rl4;
+    new-instance v0, Lcom/huawei/appmarket/ul4;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p1, p2, v0}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance p2, Lcom/huawei/appmarket/rl4;
+    new-instance p2, Lcom/huawei/appmarket/ul4;
 
     const/4 v0, 0x2
 
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v0, Ljava/lang/Integer;
 
@@ -73,19 +73,19 @@
 
     sget-object p2, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
-    new-instance v0, Lcom/huawei/appmarket/rl4;
+    new-instance v0, Lcom/huawei/appmarket/ul4;
 
     const/4 v1, 0x3
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     invoke-virtual {p1, p2, v0}, Lcom/koushikdutta/quack/QuackContext;->putJavaToJavaScriptCoercion(Ljava/lang/Class;Lcom/koushikdutta/quack/QuackCoercion;)V
 
-    new-instance p2, Lcom/huawei/appmarket/rl4;
+    new-instance p2, Lcom/huawei/appmarket/ul4;
 
     const/4 v0, 0x4
 
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/rl4;-><init>(I)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/ul4;-><init>(I)V
 
     const-class v0, Ljava/lang/Boolean;
 
@@ -416,13 +416,33 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
-.method public final b(Lcom/huawei/appmarket/d37;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/i37;)Ljava/lang/Object;
     .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/d37;
+    const-class v0, Lcom/huawei/appmarket/i37;
 
     iget-object v1, p0, Lcom/huawei/jslite/a;->b:Lcom/koushikdutta/quack/QuackContext;
 
@@ -690,23 +710,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final h()Ljava/util/HashMap;
@@ -1058,19 +1061,15 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method public final k(Lcom/huawei/appmarket/dt0;)V
+.method public final k(Lcom/huawei/appmarket/et0;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/jslite/a;->b:Lcom/koushikdutta/quack/QuackContext;
 
-    invoke-virtual {v0, p1}, Lcom/koushikdutta/quack/QuackContext;->setCoerceJavaScriptToJava(Lcom/huawei/appmarket/dt0;)V
+    invoke-virtual {v0, p1}, Lcom/koushikdutta/quack/QuackContext;->setCoerceJavaScriptToJava(Lcom/huawei/appmarket/et0;)V
 
     return-void
 .end method

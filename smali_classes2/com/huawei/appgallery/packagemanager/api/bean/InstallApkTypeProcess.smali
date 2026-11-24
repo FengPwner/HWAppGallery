@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s44;
+.implements Lcom/huawei/appmarket/v44;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/s44<",
+        "Lcom/huawei/appmarket/v44<",
         "Ljava/util/List<",
         "Lcom/huawei/appgallery/packagemanager/api/bean/b$c;",
         ">;>;"
@@ -90,7 +90,7 @@
 
 
 # virtual methods
-.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/f91;Ljava/lang/reflect/Field;)V
+.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/g91;Ljava/lang/reflect/Field;)V
     .registers 6
 
     .line 1
@@ -166,13 +166,13 @@
     goto :goto_2
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "InstallApkTypeProcess"
 
     const-string p3, "put value failed:IllegalAccessException"
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/m91;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/n91;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     return-void

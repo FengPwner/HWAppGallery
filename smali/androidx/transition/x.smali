@@ -513,7 +513,7 @@
     .line 219
     .line 220
     .line 221
-    invoke-static {v0}, Lcom/huawei/appmarket/d56;->d(Landroid/graphics/Picture;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/huawei/appmarket/f56;->d(Landroid/graphics/Picture;)Landroid/graphics/Bitmap;
 
     .line 222
     .line 223
@@ -636,4 +636,11 @@
     .line 282
     return-object v8
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

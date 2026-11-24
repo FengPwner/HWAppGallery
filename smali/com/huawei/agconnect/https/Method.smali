@@ -44,5 +44,5 @@
 
 
 # virtual methods
-.method public abstract create()Lcom/huawei/appmarket/gr6$a;
+.method public abstract create()Lcom/huawei/appmarket/jr6$a;
 .end method

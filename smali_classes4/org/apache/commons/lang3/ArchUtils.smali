@@ -91,7 +91,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -351,10 +351,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private static varargs addProcessors(Lorg/apache/commons/lang3/arch/Processor;[Ljava/lang/String;)V
@@ -614,7 +610,7 @@
 
     invoke-direct {v0, v1, v2}, Lorg/apache/commons/lang3/arch/Processor;-><init>(Lorg/apache/commons/lang3/arch/Processor$Arch;Lorg/apache/commons/lang3/arch/Processor$Type;)V
 
-    const-string v3, "x86"
+    const-string/jumbo v3, "x86"
 
     const-string v4, "i386"
 
@@ -650,7 +646,7 @@
 
     const-string v2, "universal"
 
-    const-string v3, "x86_64"
+    const-string/jumbo v3, "x86_64"
 
     const-string v4, "amd64"
 

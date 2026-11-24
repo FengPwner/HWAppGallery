@@ -43,7 +43,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/zm2;->a:Ljava/lang/String;
+    sget-object v0, Lcom/huawei/appmarket/bn2;->a:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

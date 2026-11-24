@@ -51,13 +51,13 @@
 
     const-string v0, "receive broadcast, refresh view"
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/huawei/appmarket/cc;->a()Lcom/huawei/appmarket/cc;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->d()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->e()V
 
     return-void
 
@@ -67,7 +67,7 @@
 
     const-string v0, "action not match !"
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

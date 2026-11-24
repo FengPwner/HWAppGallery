@@ -429,7 +429,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/oq8;->i(Landroid/view/Window;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/uq8;->i(Landroid/view/Window;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

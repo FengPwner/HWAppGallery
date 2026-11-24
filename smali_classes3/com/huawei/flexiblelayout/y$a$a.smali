@@ -108,7 +108,7 @@
 
     .line 30
     .line 31
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/r59;->a(Landroid/content/Context;F)I
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/x59;->a(Landroid/content/Context;F)I
 
     .line 32
     .line 33
@@ -143,7 +143,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -193,7 +193,7 @@
     .line 68
     .line 69
     .line 70
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 71
     .line 72
@@ -244,7 +244,7 @@
     .line 91
     .line 92
     .line 93
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/b00;->x(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/kd0;->C(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 94
     .line 95

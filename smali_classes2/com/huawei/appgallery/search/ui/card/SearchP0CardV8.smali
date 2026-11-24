@@ -32,13 +32,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "SearchP0CardV8"
 
     const-string v1, "setMemo, no memo TextView."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -91,13 +91,13 @@
 
     if-nez v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "SearchP0CardV8"
 
     const-string v2, "!SearchP0CardBean "
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -130,13 +130,13 @@
 
     move-result-object v3
 
-    new-instance v4, Lcom/huawei/appmarket/ay1;
+    new-instance v4, Lcom/huawei/appmarket/ey1;
 
     iget-object v5, p0, Lcom/huawei/appgallery/search/ui/card/SearchP0CardV8;->A:Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;
 
-    invoke-direct {v4, v1, v3, v5}, Lcom/huawei/appmarket/ay1;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;)V
+    invoke-direct {v4, v1, v3, v5}, Lcom/huawei/appmarket/ey1;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;Lcom/huawei/appgallery/foundation/card/base/normal/bean/NormalCardBean;Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;)V
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/ay1;->s()I
+    invoke-virtual {v4}, Lcom/huawei/appmarket/ey1;->s()I
 
     move-result v1
 
@@ -163,17 +163,17 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchP0Card;->y:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/ay1;->D(Landroid/widget/TextView;)V
+    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/ey1;->D(Landroid/widget/TextView;)V
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchP0CardV8;->B:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/ay1;->B(Landroid/widget/TextView;)V
+    invoke-virtual {v4, v1}, Lcom/huawei/appmarket/ey1;->B(Landroid/widget/TextView;)V
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->u1()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ay1;->G(Ljava/lang/String;)V
+    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ey1;->G(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchP0CardV8;->D:Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;
 
@@ -183,11 +183,11 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchP0CardV8;->D:Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;
 
-    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ay1;->K(Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;)V
+    invoke-virtual {v4, v0}, Lcom/huawei/appmarket/ey1;->K(Lcom/huawei/appmarket/service/appdetail/view/widget/DynamicLinearLayout;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/sx1;->e(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/ay1;)V
+    invoke-static {v0, v2, v4}, Lcom/huawei/appmarket/wx1;->e(Landroid/content/Context;Landroid/widget/LinearLayout;Lcom/huawei/appmarket/ey1;)V
 
     :goto_1
     return-void

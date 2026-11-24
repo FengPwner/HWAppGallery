@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/y81;
+.implements Lcom/huawei/appmarket/z81;
 
 
 # annotations
@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract addTransferListener(Lcom/huawei/appmarket/s28;)V
+.method public abstract addTransferListener(Lcom/huawei/appmarket/y28;)V
 .end method
 
 .method public abstract close()V
@@ -42,7 +42,7 @@
 .method public abstract getUri()Landroid/net/Uri;
 .end method
 
-.method public abstract open(Lcom/huawei/appmarket/l91;)J
+.method public abstract open(Lcom/huawei/appmarket/m91;)J
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r32;
+.implements Lcom/huawei/appmarket/v32;
 
 
 # direct methods
@@ -53,7 +53,7 @@
     return p1
 .end method
 
-.method public shouldSkipField(Lcom/huawei/appmarket/zi2;)Z
+.method public shouldSkipField(Lcom/huawei/appmarket/cj2;)Z
     .registers 2
 
     .line 1

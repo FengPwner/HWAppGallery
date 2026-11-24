@@ -52,7 +52,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/z27;->a(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/e37;->a(Landroid/content/Context;Landroid/view/View;)V
 
     new-instance v2, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/AppInstalledTitleCard;
 

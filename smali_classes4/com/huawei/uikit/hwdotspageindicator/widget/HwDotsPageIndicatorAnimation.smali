@@ -49,7 +49,7 @@
 
 .field private g:Landroid/animation/ValueAnimator;
 
-.field private h:Lcom/huawei/appmarket/ik7;
+.field private h:Lcom/huawei/appmarket/ok7;
 
 .field private final i:Ljava/util/concurrent/ConcurrentHashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -474,10 +474,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static f(Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;Landroid/animation/Animator;F)V
@@ -1075,49 +1071,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 
@@ -1767,49 +1720,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public final c(Landroid/animation/Animator;Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$AnimationStateListener;)V
@@ -2071,27 +1981,27 @@
 
     move-result v0
 
-    new-instance v1, Lcom/huawei/appmarket/jm2;
+    new-instance v1, Lcom/huawei/appmarket/lm2;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/jm2;-><init>(F)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/lm2;-><init>(F)V
 
-    new-instance v0, Lcom/huawei/appmarket/ik7;
+    new-instance v0, Lcom/huawei/appmarket/ok7;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ik7;-><init>(Lcom/huawei/appmarket/jm2;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ok7;-><init>(Lcom/huawei/appmarket/lm2;)V
 
-    iput-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iput-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
     invoke-virtual {p2}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;->n()F
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object v1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
     new-instance v2, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$b;
 
     invoke-direct {v2, p0, p2, p1}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$b;-><init>(Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;Z)V
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nx1;->c(Lcom/huawei/appmarket/nx1$r;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/rx1;->c(Lcom/huawei/appmarket/rx1$r;)V
 
     invoke-virtual {p2}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;->j()Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$AnimationStateListener;
 
@@ -2099,40 +2009,40 @@
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
     new-instance v1, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$c;
 
     invoke-direct {v1, p0, p2}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$c;-><init>(Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;)V
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nx1;->b(Lcom/huawei/appmarket/nx1$q;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/rx1;->b(Lcom/huawei/appmarket/rx1$q;)V
 
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/jk7;
+    new-instance p1, Lcom/huawei/appmarket/pk7;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/jk7;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/pk7;-><init>()V
 
     invoke-virtual {p2}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;->c()F
 
     move-result v1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/jk7;->c(F)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/pk7;->c(F)V
 
     invoke-virtual {p2}, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation$Options;->k()F
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/jk7;->e(F)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/pk7;->e(F)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/jk7;->d(F)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/pk7;->d(F)V
 
-    iget-object p2, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object p2, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ik7;->l(Lcom/huawei/appmarket/jk7;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ok7;->l(Lcom/huawei/appmarket/pk7;)V
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ik7;->n()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ok7;->n()V
 
     return-void
 .end method
@@ -2710,11 +2620,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nx1;->g()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rx1;->g()Z
 
     move-result v0
 
@@ -2838,9 +2748,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ik7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwdotspageindicator/widget/HwDotsPageIndicatorAnimation;->h:Lcom/huawei/appmarket/ok7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nx1;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rx1;->d()V
 
     :cond_0
     return-void

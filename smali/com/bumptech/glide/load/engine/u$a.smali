@@ -39,9 +39,9 @@
 
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    check-cast p1, Lcom/huawei/appmarket/cu6;
+    check-cast p1, Lcom/huawei/appmarket/gu6;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->b()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu6;->b()V
 
     return v1
 

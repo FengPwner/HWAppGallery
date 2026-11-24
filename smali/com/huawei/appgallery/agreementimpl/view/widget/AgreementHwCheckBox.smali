@@ -13,7 +13,7 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/uikit/hwcheckbox/widget/HwCheckBox;-><init>(Landroid/content/Context;)V
 
-    sget-object v0, Lcom/huawei/appmarket/le6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/ne6;->a:[I
 
     const/4 v1, 0x0
 
@@ -40,7 +40,7 @@
 
     invoke-direct {p0, p1, p2}, Lcom/huawei/uikit/hwcheckbox/widget/HwCheckBox;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    sget-object v0, Lcom/huawei/appmarket/le6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/ne6;->a:[I
 
     const/4 v1, 0x0
 
@@ -65,7 +65,7 @@
 
     invoke-direct {p0, p1, p2, p3}, Lcom/huawei/uikit/hwcheckbox/widget/HwCheckBox;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object v0, Lcom/huawei/appmarket/le6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/ne6;->a:[I
 
     const/4 v1, 0x0
 

@@ -64,7 +64,7 @@
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
+    invoke-static {}, Lcom/huawei/appmarket/k06;->i()Lcom/huawei/appmarket/k06;
 
     .line 22
     .line 23
@@ -85,12 +85,12 @@
 
     .line 31
     .line 32
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/i06;->k(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/k06;->k(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
+    invoke-static {}, Lcom/huawei/appmarket/k06;->i()Lcom/huawei/appmarket/k06;
 
     .line 36
     .line 37
@@ -107,7 +107,7 @@
 
     .line 43
     .line 44
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/i06;->k(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/k06;->k(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -124,7 +124,7 @@
 
     .line 51
     .line 52
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -238,5 +238,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

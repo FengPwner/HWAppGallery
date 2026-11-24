@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq3$a;
+.implements Lcom/huawei/appmarket/mq3$a;
 
 
 # annotations
@@ -19,9 +19,9 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kq3$a<",
+        "Lcom/huawei/appmarket/mq3$a<",
         "Lcom/huawei/appgallery/forum/message/msgsetting/buoy/request/UpdateBuoyMsgSettingRequest;",
-        "Lcom/huawei/appmarket/a98;",
+        "Lcom/huawei/appmarket/f98;",
         ">;"
     }
 .end annotation
@@ -56,7 +56,7 @@
 
     .line 2
     .line 3
-    check-cast p2, Lcom/huawei/appmarket/a98;
+    check-cast p2, Lcom/huawei/appmarket/f98;
 
     .line 4
     .line 5
@@ -225,7 +225,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -234,7 +233,7 @@
     .line 1
     check-cast p1, Lcom/huawei/appgallery/forum/message/msgsetting/buoy/request/UpdateBuoyMsgSettingRequest;
 
-    check-cast p2, Lcom/huawei/appmarket/a98;
+    check-cast p2, Lcom/huawei/appmarket/f98;
 
     return-void
 .end method

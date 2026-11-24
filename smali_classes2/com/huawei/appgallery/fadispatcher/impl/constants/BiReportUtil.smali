@@ -188,7 +188,7 @@
 
     .line 75
     .line 76
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->B(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kb1;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 77
     .line 78
@@ -207,7 +207,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->B(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kb1;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 86
     .line 87
@@ -295,7 +295,7 @@
 
     const-string v0, "formEvents is null"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, -0x1
 
@@ -461,9 +461,9 @@
 
     const/4 v4, 0x1
 
-    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v4, v3, v2}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->h()Z
 
     move-result v3
 
@@ -515,7 +515,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     goto/16 :goto_0
 
@@ -523,19 +523,19 @@
     return v1
 .end method
 
-.method public static c(Lcom/huawei/appmarket/s85;Lcom/huawei/appmarket/wq5;)V
+.method public static c(Lcom/huawei/appmarket/v85;Lcom/huawei/appmarket/yq5;)V
     .registers 4
 
     .line 1
     if-eqz p0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/wq5;->d:Lcom/huawei/appmarket/wq5;
+    sget-object v0, Lcom/huawei/appmarket/yq5;->d:Lcom/huawei/appmarket/yq5;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wq5;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yq5;->a()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wq5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq5;->a()I
 
     move-result v1
 
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wq5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq5;->a()I
 
     move-result v0
 
@@ -554,17 +554,17 @@
 
     const-string v1, "errorCode"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/s85;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/v85;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "errorMessage"
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wq5;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yq5;->b()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/s85;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/v85;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/s85;->e()Ljava/util/LinkedHashMap;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/v85;->e()Ljava/util/LinkedHashMap;
 
     move-result-object p0
 
@@ -574,13 +574,13 @@
 
     :cond_1
     :goto_0
-    sget-object p0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string p1, "BiReportUtil"
 
     const-string v0, "addErrorData helper is null or openResult is ok!"
 
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -610,13 +610,13 @@
 
     const-string v0, "freeInstall"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/s85;->k(Ljava/util/HashMap;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/v85;->k(Ljava/util/HashMap;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
     const-string v1, "2370300201"
 
-    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

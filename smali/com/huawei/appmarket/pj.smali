@@ -12,501 +12,176 @@
 
 
 # instance fields
-.field private a:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pj$a;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private final a:I
 
-.field private b:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private final b:I
 
-.field private c:Ljava/lang/String;
-
-.field private d:Ljava/lang/String;
-
-.field private e:Ljava/lang/String;
-
-.field private f:Ljava/lang/String;
-
-.field private g:Ljava/lang/String;
-
-.field private h:Ljava/lang/String;
-
-.field private i:Ljava/lang/String;
-
-.field private j:Landroid/graphics/drawable/Drawable;
-
-.field private k:Ljava/lang/String;
-
-.field private l:Ljava/lang/String;
-
-.field private m:Ljava/lang/String;
-
-.field private n:Ljava/lang/String;
-
-.field private o:Landroid/graphics/drawable/Drawable;
-
-.field private p:Ljava/lang/String;
-
-.field private q:Ljava/lang/String;
-
-.field private r:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/xx5;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private s:Lcom/huawei/appmarket/lo2;
-
-.field private t:Ljava/lang/String;
-
-.field private u:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private v:Ljava/lang/String;
+.field private final c:Lcom/huawei/appmarket/pj$a;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/CharSequence;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/lang/CharSequence;",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/pj$a;",
-            ">;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
+.method public constructor <init>(IILcom/huawei/appmarket/pj$a;)V
+    .registers 5
 
     .line 1
+    const-string v0, "type"
+
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p3, p0, Lcom/huawei/appmarket/pj;->a:Ljava/util/List;
+    iput p1, p0, Lcom/huawei/appmarket/pj;->a:I
 
-    iput-object p4, p0, Lcom/huawei/appmarket/pj;->b:Ljava/util/List;
+    iput p2, p0, Lcom/huawei/appmarket/pj;->b:I
 
-    iput-object p5, p0, Lcom/huawei/appmarket/pj;->c:Ljava/lang/String;
-
-    iput-object p6, p0, Lcom/huawei/appmarket/pj;->d:Ljava/lang/String;
+    iput-object p3, p0, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final A(Landroid/graphics/drawable/Drawable;)V
+.method public final a()I
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->j:Landroid/graphics/drawable/Drawable;
+    iget v0, p0, Lcom/huawei/appmarket/pj;->b:I
 
-    return-void
+    return v0
 .end method
 
-.method public final B(Ljava/lang/String;)V
+.method public final b()I
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->n:Ljava/lang/String;
+    iget v0, p0, Lcom/huawei/appmarket/pj;->a:I
 
-    return-void
+    return v0
 .end method
 
-.method public final C(Ljava/lang/String;)V
+.method public final c()Lcom/huawei/appmarket/pj$a;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->p:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final D(Ljava/util/ArrayList;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->r:Ljava/util/List;
-
-    return-void
-.end method
-
-.method public final E(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->f:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final F(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->q:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final G(Ljava/util/ArrayList;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->u:Ljava/util/List;
-
-    return-void
-.end method
-
-.method public final H(Landroid/graphics/drawable/Drawable;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->o:Landroid/graphics/drawable/Drawable;
-
-    return-void
-.end method
-
-.method public final I(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->g:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final J(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->i:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final K(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->h:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final L(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->d:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final M()V
-    .registers 2
-
-    .line 1
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/huawei/appmarket/pj;->t:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final N(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->k:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final a()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->v:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
 
     return-object v0
 .end method
 
-.method public final b()Ljava/lang/String;
-    .registers 2
+.method public final equals(Ljava/lang/Object;)Z
+    .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->c:Ljava/lang/String;
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/huawei/appmarket/pj;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/huawei/appmarket/pj;
+
+    iget v1, p1, Lcom/huawei/appmarket/pj;->a:I
+
+    iget v3, p0, Lcom/huawei/appmarket/pj;->a:I
+
+    if-eq v3, v1, :cond_2
+
+    return v2
+
+    :cond_2
+    iget v1, p0, Lcom/huawei/appmarket/pj;->b:I
+
+    iget v3, p1, Lcom/huawei/appmarket/pj;->b:I
+
+    if-eq v1, v3, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
+
+    iget-object p1, p1, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
+
+    if-eq v1, p1, :cond_4
+
+    return v2
+
+    :cond_4
+    return v0
+.end method
+
+.method public final hashCode()I
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/pj;->a:I
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget v1, p0, Lcom/huawei/appmarket/pj;->b:I
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v1, v0
+
+    return v1
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "AgreementType(id="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v1, p0, Lcom/huawei/appmarket/pj;->a:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", branchId="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcom/huawei/appmarket/pj;->b:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", type="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/pj;->c:Lcom/huawei/appmarket/pj$a;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x29
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
 
     return-object v0
-.end method
-
-.method public final c()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->l:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final d()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->e:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final e()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->m:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final f()Lcom/huawei/appmarket/lo2;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->s:Lcom/huawei/appmarket/lo2;
-
-    return-object v0
-.end method
-
-.method public final g()Landroid/graphics/drawable/Drawable;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->j:Landroid/graphics/drawable/Drawable;
-
-    return-object v0
-.end method
-
-.method public final h()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->n:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final i()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->p:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final j()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/xx5;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->r:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final k()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->f:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final l()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->q:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final m()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->u:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final n()Landroid/graphics/drawable/Drawable;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->o:Landroid/graphics/drawable/Drawable;
-
-    return-object v0
-.end method
-
-.method public final o()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->g:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final p()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->i:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final q()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->h:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final r()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->d:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final s()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->t:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final t()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pj;->k:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final u(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->v:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final v(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final w(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->l:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final x(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->e:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final y(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->m:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final z(Lcom/huawei/appmarket/lo2;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pj;->s:Lcom/huawei/appmarket/lo2;
-
-    return-void
 .end method

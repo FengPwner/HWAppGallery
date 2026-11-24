@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/export/check/RootChecker;
-.super Lcom/huawei/appmarket/b52;
+.super Lcom/huawei/appmarket/f52;
 .source "SourceFile"
 
 
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field private dialog:Lcom/huawei/appmarket/fh3;
+.field private dialog:Lcom/huawei/appmarket/hh3;
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/b52;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/f52;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iput-object p1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -56,11 +56,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -68,11 +68,11 @@
     move-result-object v0
 
     .line 13
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -80,15 +80,15 @@
     move-result-object v0
 
     .line 19
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 20
     .line 21
-    iput-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
     .line 22
     .line 23
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 24
     .line 25
@@ -105,7 +105,7 @@
     move-result-object v1
 
     .line 32
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 33
     .line 34
@@ -113,7 +113,7 @@
     move-result-object v0
 
     .line 36
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 37
     .line 38
@@ -130,7 +130,7 @@
     move-result-object v1
 
     .line 45
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 46
     .line 47
@@ -138,7 +138,7 @@
     move-result-object v0
 
     .line 49
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 50
     .line 51
@@ -158,7 +158,7 @@
     const/4 v2, -0x1
 
     .line 59
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 60
     .line 61
@@ -166,7 +166,7 @@
     move-result-object v0
 
     .line 63
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 64
     .line 65
@@ -191,7 +191,7 @@
     .line 74
     .line 75
     .line 76
-    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
     .line 77
     .line 78
@@ -204,12 +204,12 @@
     .line 81
     .line 82
     .line 83
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 84
     .line 85
     .line 86
-    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
     .line 87
     .line 88
@@ -225,16 +225,16 @@
     .line 92
     .line 93
     .line 94
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->m(Landroid/content/DialogInterface$OnCancelListener;)Lcom/huawei/appmarket/w7;
 
     .line 95
     .line 96
     .line 97
-    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
     .line 98
     .line 99
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 100
     .line 101
@@ -242,7 +242,7 @@
 
     .line 102
     .line 103
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -317,7 +317,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ey6;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/iy6;->c()Z
 
     move-result v0
 
@@ -327,14 +327,14 @@
 
     const-string v1, "phone OS was rooted, show dailog to confirm"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/export/check/RootChecker;->showOSRootedTipDialog()V
 
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     return-void
 .end method
@@ -352,22 +352,22 @@
 
     const-string v0, "RootChecker"
 
-    invoke-super {p0}, Lcom/huawei/appmarket/b52;->onDestroy()V
+    invoke-super {p0}, Lcom/huawei/appmarket/f52;->onDestroy()V
 
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/fh3;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/export/check/RootChecker;->dialog:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -376,7 +376,7 @@
     :catch_0
     const-string v1, "onDestroy dialog dismiss error"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0

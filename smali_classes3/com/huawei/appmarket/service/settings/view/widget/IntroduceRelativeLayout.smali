@@ -82,7 +82,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/widget/IntroduceRelativeLayout;->b:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     move-result v0
 

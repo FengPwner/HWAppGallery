@@ -8,7 +8,7 @@
 
 .field private c:Landroid/widget/TextView;
 
-.field private d:Lcom/huawei/appmarket/b36;
+.field private d:Lcom/huawei/appmarket/d36;
 
 .field private e:Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result p2
 
@@ -126,11 +126,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;)Lcom/huawei/appmarket/b36;
+.method static synthetic a(Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;)Lcom/huawei/appmarket/d36;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/b36;
+    iget-object p0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/d36;
 
     return-object p0
 .end method
@@ -156,7 +156,7 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -191,7 +191,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/z84;->j(Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;Ljava/lang/String;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;)Lcom/huawei/appmarket/cn5;
+    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/kk4;->i(Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;Ljava/lang/String;Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol;)Lcom/huawei/appmarket/dn5;
 
     .line 29
     .line 30
@@ -199,7 +199,7 @@
     move-result-object p1
 
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     .line 33
     .line 34
@@ -216,7 +216,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 42
     .line 43
@@ -342,7 +342,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic c(Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;)Landroid/content/Context;
@@ -360,7 +359,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->f:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v1
 
@@ -370,7 +369,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 
@@ -380,7 +379,7 @@
 
     const/16 v3, 0x8
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -390,7 +389,7 @@
 
     const/16 v3, 0x18
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -404,7 +403,7 @@
 
     if-lt p1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result p1
 
@@ -433,11 +432,11 @@
 
 
 # virtual methods
-.method public getLinkData()Lcom/huawei/appmarket/b36;
+.method public getLinkData()Lcom/huawei/appmarket/d36;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/b36;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/d36;
 
     return-object v0
 .end method
@@ -455,11 +454,11 @@
 
     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/b36;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/d36;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b36;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/d36;->b()Ljava/lang/String;
 
     move-result-object p1
 
@@ -469,11 +468,11 @@
     return-void
 .end method
 
-.method public setCardLinkDate(Lcom/huawei/appmarket/b36;)V
+.method public setCardLinkDate(Lcom/huawei/appmarket/d36;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/b36;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->d:Lcom/huawei/appmarket/d36;
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/PostCardLinkView;->c:Landroid/widget/TextView;
 
@@ -482,7 +481,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b36;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/d36;->b()Ljava/lang/String;
 
     move-result-object p1
 

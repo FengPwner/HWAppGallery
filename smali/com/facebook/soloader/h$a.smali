@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/facebook/soloader/h;->h(Lcom/huawei/appmarket/rj2;I[B)Z
+    value = Lcom/facebook/soloader/h;->h(Lcom/huawei/appmarket/tj2;I[B)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,13 +26,13 @@
 
 .field final synthetic e:Ljava/io/File;
 
-.field final synthetic f:Lcom/huawei/appmarket/rj2;
+.field final synthetic f:Lcom/huawei/appmarket/tj2;
 
 .field final synthetic g:Lcom/facebook/soloader/h;
 
 
 # direct methods
-.method constructor <init>(Lcom/facebook/soloader/h;Ljava/io/File;[BLcom/facebook/soloader/h$c;Ljava/io/File;Lcom/huawei/appmarket/rj2;)V
+.method constructor <init>(Lcom/facebook/soloader/h;Ljava/io/File;[BLcom/facebook/soloader/h$c;Ljava/io/File;Lcom/huawei/appmarket/tj2;)V
     .registers 7
 
     .line 1
@@ -46,7 +46,7 @@
 
     iput-object p5, p0, Lcom/facebook/soloader/h$a;->e:Ljava/io/File;
 
-    iput-object p6, p0, Lcom/facebook/soloader/h$a;->f:Lcom/huawei/appmarket/rj2;
+    iput-object p6, p0, Lcom/facebook/soloader/h$a;->f:Lcom/huawei/appmarket/tj2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -59,7 +59,7 @@
     .registers 11
 
     .line 1
-    iget-object v0, p0, Lcom/facebook/soloader/h$a;->f:Lcom/huawei/appmarket/rj2;
+    iget-object v0, p0, Lcom/facebook/soloader/h$a;->f:Lcom/huawei/appmarket/tj2;
 
     .line 2
     .line 3
@@ -311,7 +311,7 @@
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v0}, Lcom/huawei/appmarket/rj2;->close()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tj2;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_0
 
@@ -460,7 +460,7 @@
     .line 177
     .line 178
     .line 179
-    invoke-virtual {v0}, Lcom/huawei/appmarket/rj2;->close()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tj2;->close()V
 
     .line 180
     .line 181

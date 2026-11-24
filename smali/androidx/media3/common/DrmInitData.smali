@@ -79,7 +79,7 @@
 
     check-cast p1, [Landroidx/media3/common/DrmInitData$SchemeData;
 
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     iput-object p1, p0, Landroidx/media3/common/DrmInitData;->b:[Landroidx/media3/common/DrmInitData$SchemeData;
 
@@ -483,7 +483,7 @@
     .line 1
     iget-object v0, p0, Landroidx/media3/common/DrmInitData;->d:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -526,7 +526,7 @@
 
     .line 4
     .line 5
-    sget-object v0, Lcom/huawei/appmarket/vf0;->a:Ljava/util/UUID;
+    sget-object v0, Lcom/huawei/appmarket/wf0;->a:Ljava/util/UUID;
 
     .line 6
     .line 7
@@ -762,7 +762,7 @@
 
     .line 20
     :goto_1
-    invoke-static {v3}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v3}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     .line 21
     .line 22
@@ -775,7 +775,7 @@
 
     .line 26
     :cond_2
-    sget v2, Lcom/huawei/appmarket/ge8;->a:I
+    sget v2, Lcom/huawei/appmarket/le8;->a:I
 
     .line 27
     .line 28
@@ -914,7 +914,7 @@
 
     iget-object v3, p1, Landroidx/media3/common/DrmInitData;->d:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 

@@ -3,8 +3,24 @@
 .source "SourceFile"
 
 
+# instance fields
+.field private a:J
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/String;
+
+.field private d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/String;
+
+.field private g:Ljava/lang/String;
+
+
 # direct methods
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -12,260 +28,211 @@
     return-void
 .end method
 
-.method public static synthetic a(Landroid/content/Intent;)V
-    .registers 1
-
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/x92;->d(Landroid/content/Intent;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-.end method
-
-.method public static b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/p82;Ljava/lang/String;)Landroid/content/Intent;
-    .registers 8
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v0
-
-    new-instance v1, Landroid/content/Intent;
-
-    const-class v2, Lcom/huawei/appgallery/downloadfa/impl/ui/fareminder/FAReminderActivity;
-
-    invoke-direct {v1, v0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    const-string v0, "APP_NAME"
-
-    invoke-virtual {v1, v0, p0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string p0, "APP_PACKAGE_NAME"
-
-    invoke-virtual {v1, p0, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string p0, "APP_DETAIL_ID"
-
-    invoke-virtual {v1, p0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string p0, "REMINDER_SCENE_KEY"
-
-    invoke-virtual {v1, p0, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    new-instance p0, Landroid/os/Bundle;
-
-    invoke-direct {p0}, Landroid/os/Bundle;-><init>()V
-
-    invoke-virtual {p3}, Lcom/huawei/appmarket/p82;->a()Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;
-
-    move-result-object p1
-
-    const-string p2, "FA_CARD_INFO"
-
-    invoke-virtual {p0, p2, p1}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
-
-    const-string p1, "RELATED_FA_INFO"
-
-    invoke-virtual {p3}, Lcom/huawei/appmarket/p82;->b()Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
-
-    move-result-object p2
-
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
-
-    invoke-virtual {v1, p0}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
-
-    return-object v1
-.end method
-
-.method public static c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/p82;Ljava/lang/String;)V
+.method public constructor <init>(JLjava/lang/String;Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;)V
     .registers 5
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/x92;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/p82;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    iput-wide p1, p0, Lcom/huawei/appmarket/x92;->a:J
 
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    iput-object p3, p0, Lcom/huawei/appmarket/x92;->b:Ljava/lang/String;
+
+    invoke-virtual {p4}, Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;->getPkg()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    iput-object p1, p0, Lcom/huawei/appmarket/x92;->c:Ljava/lang/String;
 
-    move-result-object p2
+    invoke-virtual {p4}, Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;->getModuleName()Ljava/lang/String;
 
-    if-eq p1, p2, :cond_0
+    move-result-object p1
 
-    new-instance p1, Landroid/os/Handler;
+    iput-object p1, p0, Lcom/huawei/appmarket/x92;->d:Ljava/lang/String;
 
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-virtual {p4}, Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;->getAbilityName()Ljava/lang/String;
 
-    move-result-object p2
+    move-result-object p1
 
-    invoke-direct {p1, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    iput-object p1, p0, Lcom/huawei/appmarket/x92;->e:Ljava/lang/String;
 
-    new-instance p2, Lcom/huawei/appmarket/wl0;
+    invoke-virtual {p4}, Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;->V()Ljava/lang/String;
 
-    const/16 p3, 0x1a
+    move-result-object p1
 
-    invoke-direct {p2, p0, p3}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    iput-object p1, p0, Lcom/huawei/appmarket/x92;->f:Ljava/lang/String;
 
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p4}, Lcom/huawei/appgallery/downloadfa/impl/store/response/FACardInfo;->U()Ljava/lang/String;
 
-    goto :goto_0
+    move-result-object p1
 
-    :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/x92;->d(Landroid/content/Intent;)V
+    iput-object p1, p0, Lcom/huawei/appmarket/x92;->g:Ljava/lang/String;
 
-    :goto_0
     return-void
 .end method
 
-.method private static d(Landroid/content/Intent;)V
-    .registers 4
+
+# virtual methods
+.method public final a()Z
+    .registers 8
 
     .line 1
-    invoke-static {}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->j3()Landroid/app/Activity;
+    const-wide/16 v0, 0x0
 
-    move-result-object v0
+    const/4 v2, 0x0
+
+    const-string v3, "FARecordBean"
+
+    iget-wide v4, p0, Lcom/huawei/appmarket/x92;->a:J
+
+    cmp-long v6, v4, v0
+
+    if-eqz v6, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->b:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->c:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+    goto :goto_2
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->d:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->e:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->f:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    iget-object v0, p0, Lcom/huawei/appmarket/x92;->g:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
 
     goto :goto_0
 
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/bu1;->a:Lcom/huawei/appmarket/bu1;
+    :cond_1
+    const/4 v0, 0x1
 
-    const-string v1, "FAReminderUtil"
+    return v0
 
-    const-string v2, "current activity is null, use application to start activity"
+    :cond_2
+    :goto_0
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v1, "invalid params of FARecordBean(moduleName,abilityName,formName,dimension),recheck it."
 
-    const/high16 v0, 0x10000000
+    :goto_1
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    return v2
 
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+    :cond_3
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/fu1;->a:Lcom/huawei/appmarket/fu1;
 
-    move-result-object v0
+    const-string v1, "invalid params of FARecordBean(timeStamp,hostPackageName,bundleName),recheck it."
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+    goto :goto_1
+.end method
 
-    move-result-object v0
+.method public final toString()Ljava/lang/String;
+    .registers 5
 
-    invoke-virtual {v0, p0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    .line 1
+    new-instance v0, Lorg/json/JSONObject;
+
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+
+    :try_start_0
+    const-string v1, "timeStamp"
+
+    iget-wide v2, p0, Lcom/huawei/appmarket/x92;->a:J
+
+    invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
+
+    const-string v1, "hostPackageName"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "bundleName"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->c:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "moduleName"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->d:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "abilityName"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->e:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "formName"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->f:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "dimension"
+
+    iget-object v2, p0, Lcom/huawei/appmarket/x92;->g:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    const-string v1, "FARecordBean"
+
+    const-string v2, "toString json exception."
+
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    return-void
+    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

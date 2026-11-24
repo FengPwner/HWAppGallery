@@ -8,10 +8,10 @@
 
 .field private final b:[F
 
-.field private final c:Lcom/huawei/appmarket/lz7;
+.field private final c:Lcom/huawei/appmarket/qz7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/lz7<",
+            "Lcom/huawei/appmarket/qz7<",
             "[F>;"
         }
     .end annotation
@@ -36,11 +36,11 @@
 
     iput-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->b:[F
 
-    new-instance v0, Lcom/huawei/appmarket/lz7;
+    new-instance v0, Lcom/huawei/appmarket/qz7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/lz7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qz7;-><init>()V
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/lz7;
+    iput-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/qz7;
 
     return-void
 .end method
@@ -257,11 +257,11 @@
     .registers 12
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/lz7;
+    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/qz7;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/lz7;->g(J)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/qz7;->g(J)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -515,9 +515,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/lz7;
+    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/qz7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/lz7;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qz7;->b()V
 
     const/4 v0, 0x0
 
@@ -530,9 +530,9 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/lz7;
+    iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/a;->c:Lcom/huawei/appmarket/qz7;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/lz7;->a(JLjava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/qz7;->a(JLjava/lang/Object;)V
 
     return-void
 .end method

@@ -42,7 +42,7 @@
     .line 3
     const/4 v0, 0x0
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->y:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->y:[I
 
     const v5, 0x7f1303d8
 
@@ -70,7 +70,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -571,6 +571,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onMeasure(II)V

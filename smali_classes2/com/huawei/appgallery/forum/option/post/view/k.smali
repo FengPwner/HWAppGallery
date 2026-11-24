@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tp5;
+.implements Lcom/huawei/appmarket/up5;
 
 
 # instance fields

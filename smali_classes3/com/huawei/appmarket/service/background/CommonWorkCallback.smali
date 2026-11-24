@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/w64;
+.implements Lcom/huawei/appmarket/z64;
 
 
 # static fields
@@ -44,15 +44,15 @@
 
     const-string v0, "BgWorkExternalCallback"
 
-    const-class v1, Lcom/huawei/appmarket/lw3;
+    const-class v1, Lcom/huawei/appmarket/nw3;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/lw3;
+    check-cast v1, Lcom/huawei/appmarket/nw3;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/lw3;->k()J
+    invoke-interface {v1}, Lcom/huawei/appmarket/nw3;->k()J
 
     move-result-wide v1
 
@@ -80,7 +80,7 @@
     goto :goto_1
 
     :catch_0
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v7
 
@@ -88,13 +88,13 @@
 
     const-string v7, "wait for packageservice InterruptedException"
 
-    invoke-static {v0, v7}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v7}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_1
     sub-long/2addr v3, v5
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v5
 
@@ -112,7 +112,7 @@
 
     move-result-object v5
 
-    invoke-static {v0, v5}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -122,12 +122,12 @@
 
 
 # virtual methods
-.method public isWorkExecutable(Lcom/huawei/appmarket/wz6;Lcom/huawei/appmarket/x1;)Z
+.method public isWorkExecutable(Lcom/huawei/appmarket/a07;Lcom/huawei/appmarket/x1;)Z
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/wz6;",
+            "Lcom/huawei/appmarket/a07;",
             "Lcom/huawei/appmarket/x1<",
             "**>;)Z"
         }
@@ -147,15 +147,15 @@
     return p1
 .end method
 
-.method public onBeginWork(Lcom/huawei/appmarket/wz6;)Z
+.method public onBeginWork(Lcom/huawei/appmarket/a07;)Z
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/aa1;->y()Lcom/huawei/appmarket/aa1;
+    invoke-static {}, Lcom/huawei/appmarket/ba1;->y()Lcom/huawei/appmarket/ba1;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mz6;->s()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qz6;->s()V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/background/CommonWorkCallback;->waitTaskFinish()V
 
@@ -164,15 +164,15 @@
     return p1
 .end method
 
-.method public onEndWork(Lcom/huawei/appmarket/wz6;)V
+.method public onEndWork(Lcom/huawei/appmarket/a07;)V
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/aa1;->y()Lcom/huawei/appmarket/aa1;
+    invoke-static {}, Lcom/huawei/appmarket/ba1;->y()Lcom/huawei/appmarket/ba1;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mz6;->v()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qz6;->v()V
 
     return-void
 .end method

@@ -117,7 +117,7 @@
     const-string v1, "HuaweiApiAvailabilityImpl"
 
     .line 2
-    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -311,7 +311,7 @@
     const-string v2, "HuaweiApiAvailabilityImpl"
 
     .line 11
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -413,7 +413,7 @@
 
 
 # virtual methods
-.method public varargs checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lcom/huawei/appmarket/hv7;
+.method public varargs checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -422,18 +422,18 @@
             "*>;[",
             "Lcom/huawei/hms/common/HuaweiApi<",
             "*>;)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -495,7 +495,7 @@
     return-object v0
 .end method
 
-.method public varargs checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lcom/huawei/appmarket/hv7;
+.method public varargs checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -504,18 +504,18 @@
             "[",
             "Lcom/huawei/hms/common/api/HuaweiApiCallable;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lcom/huawei/appmarket/nv7;
+    new-instance v0, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tv7;-><init>()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -727,7 +727,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
@@ -843,17 +843,16 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method public getHuaweiServicesReady(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -864,17 +863,17 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lcom/huawei/appmarket/nv7;
+    new-array v0, v0, [Lcom/huawei/appmarket/tv7;
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v1
 
@@ -906,7 +905,7 @@
 
     new-instance v2, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;
 
-    invoke-direct {v2, p0, v0}, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;-><init>(Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;[Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, v0}, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl$a;-><init>(Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;[Lcom/huawei/appmarket/tv7;)V
 
     const-string v0, "CALLBACK_METHOD"
 
@@ -965,7 +964,7 @@
 
     invoke-direct {v0}, Lcom/huawei/hms/common/api/AvailabilityException;-><init>()V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-object v1
@@ -979,7 +978,7 @@
     const-string v1, "HuaweiApiAvailabilityImpl"
 
     .line 1
-    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1093,7 +1092,7 @@
     const-string v1, "HuaweiApiAvailabilityImpl"
 
     .line 8
-    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -1203,7 +1202,7 @@
     const-string v1, "HuaweiApiAvailabilityImpl"
 
     .line 1
-    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1, p2}, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;->getResolveErrorIntent(Landroid/app/Activity;I)Landroid/content/Intent;
@@ -1237,7 +1236,7 @@
     const-string v1, "HuaweiApiAvailabilityImpl"
 
     .line 8
-    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p2, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 9
     invoke-virtual {p0, p1, p2}, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;->getResolveErrorIntent(Landroid/content/Context;I)Landroid/content/Intent;
@@ -1465,14 +1464,14 @@
     const-string v1, "Enter resolveError, param pendingIntent is not null. and.errorCode: "
 
     .line 2
-    invoke-static {v1, p2, v0}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p2, v0}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
     const-string p4, "Enter resolveError, param pendingIntent is  null. get pendingIntent from error code.and.errorCode: "
 
-    invoke-static {p4, p2, v0}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p4, p2, v0}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 3
     invoke-virtual {p0, p1, p2}, Lcom/huawei/hms/api/HuaweiApiAvailabilityImpl;->getResolveErrorPendingIntent(Landroid/app/Activity;I)Landroid/app/PendingIntent;
@@ -1485,7 +1484,7 @@
     const-string v1, "In resolveError, start pendingIntent.errorCode: "
 
     .line 4
-    invoke-static {v1, p2, v0}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p2, v0}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 5
     :try_start_0

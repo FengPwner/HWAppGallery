@@ -264,19 +264,19 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/zy6;->from(Landroid/content/Intent;)Lcom/huawei/appmarket/zy6;
+    invoke-static {v0}, Lcom/huawei/appmarket/dz6;->from(Landroid/content/Intent;)Lcom/huawei/appmarket/dz6;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zy6;->isExternalModule()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dz6;->isExternalModule()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zy6;->getTargetContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dz6;->getTargetContext()Landroid/content/Context;
 
     move-result-object v0
 

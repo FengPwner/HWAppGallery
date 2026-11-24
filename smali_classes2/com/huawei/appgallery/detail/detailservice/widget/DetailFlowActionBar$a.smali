@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailservice/widget/DetailFlowActionBar$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/widget/DetailFlowActionBar$a;->b:Lcom/huawei/appgallery/detail/detailservice/widget/DetailFlowActionBar;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

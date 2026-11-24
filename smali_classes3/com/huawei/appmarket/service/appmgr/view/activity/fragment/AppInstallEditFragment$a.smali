@@ -38,7 +38,7 @@
 
     move-result-object p1
 
-    sget-object p2, Lcom/huawei/appmarket/tq8;->a:Ljava/lang/String;
+    sget-object p2, Lcom/huawei/appmarket/zq8;->a:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -56,7 +56,7 @@
     goto :goto_1
 
     :cond_0
-    sget-object p2, Lcom/huawei/appmarket/tq8;->c:Ljava/lang/String;
+    sget-object p2, Lcom/huawei/appmarket/zq8;->c:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -67,7 +67,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object p2, Lcom/huawei/appmarket/tq8;->b:Ljava/lang/String;
+    sget-object p2, Lcom/huawei/appmarket/zq8;->b:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

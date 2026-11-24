@@ -54,15 +54,15 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     const v1, 0x61a8d
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->c()I
 
     move-result v0
 
@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     return-void
 

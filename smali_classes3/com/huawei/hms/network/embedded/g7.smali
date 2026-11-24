@@ -40,11 +40,11 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/q29;
+    new-instance v0, Lcom/huawei/appmarket/w29;
 
     const/4 v1, 0x4
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/q29;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/w29;-><init>(Ljava/lang/Object;I)V
 
     return-object v0
 .end method

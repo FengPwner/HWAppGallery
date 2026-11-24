@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/util/List<",
         "Lcom/huawei/appgallery/search/ui/bean/InteractiveRecomm;",
         ">;>;"
@@ -102,7 +102,7 @@
 
     .line 21
     .line 22
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 23
     .line 24
@@ -111,7 +111,7 @@
     .line 25
     .line 26
     :goto_0
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -120,7 +120,7 @@
 
     .line 30
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 31
     .line 32
@@ -128,7 +128,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -143,7 +143,7 @@
     .line 41
     :cond_2
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 42
     .line 43
@@ -216,5 +216,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

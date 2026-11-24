@@ -88,11 +88,11 @@
 
     invoke-virtual {v0, p0}, Lcom/huawei/appgallery/downloadproxy/api/bean/AppStatus;->Y(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/av;->c()Lcom/huawei/appmarket/av;
+    invoke-static {}, Lcom/huawei/appmarket/bv;->c()Lcom/huawei/appmarket/bv;
 
     move-result-object p0
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/av;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/FullAppStatus;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bv;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/FullAppStatus;)V
 
     return-void
 .end method
@@ -139,7 +139,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/huawei/appmarket/js;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/huawei/appmarket/ks;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -261,9 +261,9 @@
     move-object v6, v2
 
     :goto_4
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v6}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     goto :goto_0
 
@@ -284,7 +284,7 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
@@ -311,13 +311,13 @@
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v6}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     return v3
 
@@ -325,9 +325,9 @@
     move-exception p0
 
     :goto_7
-    invoke-static {v2}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v6}, Lcom/huawei/appmarket/fk2;->a(Ljava/io/Closeable;)V
+    invoke-static {v6}, Lcom/huawei/appmarket/hk2;->a(Ljava/io/Closeable;)V
 
     throw p0
 
@@ -345,9 +345,9 @@
 
     const-string v1, "registerDownloadListener CommonDownloadProcessor start"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/xu1;->a()Lcom/huawei/appmarket/xu1;
+    invoke-static {}, Lcom/huawei/appmarket/bv1;->a()Lcom/huawei/appmarket/bv1;
 
     move-result-object v0
 
@@ -355,13 +355,13 @@
 
     const/16 v2, 0xa
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/xu1;->c(ILjava/lang/Class;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/bv1;->c(ILjava/lang/Class;)V
 
     new-instance v0, Lcom/huawei/appmarket/r70$a;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/r70$a;-><init>()V
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/nw0;->b(ILcom/huawei/appmarket/wu1;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/nw0;->b(ILcom/huawei/appmarket/av1;)V
 
     return-void
 .end method

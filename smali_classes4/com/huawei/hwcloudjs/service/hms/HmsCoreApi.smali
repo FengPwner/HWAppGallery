@@ -93,7 +93,7 @@
 
     invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    const-string p1, "webview is null"
+    const-string/jumbo p1, "webview is null"
 
     invoke-virtual {p2, p1}, Lcom/huawei/hwcloudjs/core/JsCallback;->failure(Ljava/lang/String;)V
 

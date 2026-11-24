@@ -41,15 +41,15 @@
     :cond_0
     const-string p1, "DeviceKit"
 
-    const-class v1, Lcom/huawei/appmarket/hh3;
+    const-class v1, Lcom/huawei/appmarket/jh3;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/hh3;
+    check-cast p1, Lcom/huawei/appmarket/jh3;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hh3;->a()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/jh3;->a()Z
 
     move-result p1
 
@@ -58,15 +58,15 @@
     return v0
 
     :cond_1
-    const-class p1, Lcom/huawei/appmarket/p74;
+    const-class p1, Lcom/huawei/appmarket/s74;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/p74;
+    check-cast p1, Lcom/huawei/appmarket/s74;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/p74;->a()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/s74;->a()Z
 
     move-result p1
 

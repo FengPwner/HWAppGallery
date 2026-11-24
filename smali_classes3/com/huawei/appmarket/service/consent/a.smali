@@ -46,13 +46,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -60,7 +60,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/appmarket/service/consent/a$a;-><init>(Lcom/huawei/appmarket/service/consent/a$c;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     :cond_0
     return-void
@@ -92,13 +92,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/s71;->g()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
@@ -106,7 +106,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/appmarket/service/consent/a$b;-><init>(Lcom/huawei/appmarket/service/consent/a$c;)V
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 

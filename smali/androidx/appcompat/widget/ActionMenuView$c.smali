@@ -58,11 +58,11 @@
 
     .line 10
     .line 11
-    iget-object v0, p1, Landroidx/appcompat/widget/Toolbar;->H:Lcom/huawei/appmarket/t65;
+    iget-object v0, p1, Landroidx/appcompat/widget/Toolbar;->H:Lcom/huawei/appmarket/w65;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/t65;->g(Landroid/view/MenuItem;)Z
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/w65;->g(Landroid/view/MenuItem;)Z
 
     .line 14
     .line 15

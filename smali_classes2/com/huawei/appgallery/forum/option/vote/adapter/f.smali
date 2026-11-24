@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/fh3;
+.field final synthetic a:Lcom/huawei/appmarket/hh3;
 
 .field final synthetic b:I
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/fh3;I)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;Lcom/huawei/appmarket/hh3;I)V
     .registers 4
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/f;->a:Lcom/huawei/appmarket/fh3;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/f;->a:Lcom/huawei/appmarket/hh3;
 
     iput p3, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/f;->b:I
 
@@ -59,7 +59,7 @@
 
     int-to-double v1, p3
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     move-result-object v1
 
@@ -71,9 +71,9 @@
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/f;->a:Lcom/huawei/appmarket/fh3;
+    iget-object p2, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/f;->a:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     :cond_1
     return-void

@@ -48,7 +48,7 @@
 
     const-string v0, "onReceiveMsg, not run on main thread."
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/os/Handler;
 

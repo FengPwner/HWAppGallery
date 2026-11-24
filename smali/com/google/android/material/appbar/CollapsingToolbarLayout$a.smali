@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 5
 
     .line 1
@@ -47,7 +47,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->q(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->q(Landroid/view/View;)Z
 
     .line 7
     .line 8
@@ -70,11 +70,11 @@
 
     .line 15
     :goto_0
-    iget-object v1, p1, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iget-object v1, p1, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/wm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/xm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -86,7 +86,7 @@
 
     .line 22
     .line 23
-    iput-object v0, p1, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/nq8;
+    iput-object v0, p1, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->z:Lcom/huawei/appmarket/tq8;
 
     .line 24
     .line 25
@@ -96,7 +96,7 @@
     .line 27
     .line 28
     :cond_1
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->c()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->c()Lcom/huawei/appmarket/tq8;
 
     .line 29
     .line 30

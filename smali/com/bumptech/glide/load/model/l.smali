@@ -67,14 +67,14 @@
     return-void
 .end method
 
-.method public static c(Landroid/content/Context;)Lcom/huawei/appmarket/aa5;
+.method public static c(Landroid/content/Context;)Lcom/huawei/appmarket/da5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/aa5<",
+            "Lcom/huawei/appmarket/da5<",
             "Landroid/net/Uri;",
             "Landroid/content/res/AssetFileDescriptor;",
             ">;"
@@ -89,14 +89,14 @@
     return-object v0
 .end method
 
-.method public static d(Landroid/content/Context;)Lcom/huawei/appmarket/aa5;
+.method public static d(Landroid/content/Context;)Lcom/huawei/appmarket/da5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/aa5<",
+            "Lcom/huawei/appmarket/da5<",
             "Landroid/net/Uri;",
             "Ljava/io/InputStream;",
             ">;"
@@ -252,7 +252,7 @@
     .line 95
 .end method
 
-.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+.method public final b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
     .registers 13
 
     .line 1
@@ -396,7 +396,7 @@
     move-result-object v0
 
     .line 68
-    invoke-interface {v2, v0, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v2, v0, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     .line 69
     .line 70
@@ -592,7 +592,7 @@
     move-result-object p1
 
     .line 165
-    invoke-interface {v2, p1, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/tr5;)Lcom/bumptech/glide/load/model/g$a;
+    invoke-interface {v2, p1, p2, p3, p4}, Lcom/bumptech/glide/load/model/g;->b(Ljava/lang/Object;IILcom/huawei/appmarket/vr5;)Lcom/bumptech/glide/load/model/g$a;
 
     .line 166
     .line 167

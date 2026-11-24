@@ -238,7 +238,7 @@
     const-string v10, ",fileListSize:"
 
     .line 2
-    invoke-static {v9, v7, v10}, Lcom/huawei/appmarket/bq6;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v9, v7, v10}, Lcom/huawei/appmarket/eq6;->x(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v7
 
@@ -286,7 +286,7 @@
     const-string v8, "no FileEntity for:"
 
     .line 4
-    invoke-static {v8, v7}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8, v7}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -302,7 +302,7 @@
     const-string p1, "upload filesize:"
 
     .line 6
-    invoke-static {p1, v5, v6}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p1, v5, v6}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 

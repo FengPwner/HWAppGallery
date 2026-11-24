@@ -72,7 +72,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -164,7 +164,7 @@
 
     .line 50
     :cond_3
-    invoke-static {v1}, Lcom/huawei/appmarket/s03;->g(I)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/v03;->g(I)Z
 
     .line 51
     .line 52

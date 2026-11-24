@@ -361,11 +361,11 @@
 
     move-result-object v1
 
-    new-instance v3, Lcom/huawei/appmarket/p69;
+    new-instance v3, Lcom/huawei/appmarket/v69;
 
     const/4 v4, 0x0
 
-    invoke-direct {v3, v1, v4}, Lcom/huawei/appmarket/p69;-><init>(Ljava/lang/reflect/Method;I)V
+    invoke-direct {v3, v1, v4}, Lcom/huawei/appmarket/v69;-><init>(Ljava/lang/reflect/Method;I)V
 
     invoke-static {v3}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
 
@@ -395,9 +395,9 @@
 
     invoke-virtual {v1, v3, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v2, Lcom/huawei/appmarket/p69;
+    new-instance v2, Lcom/huawei/appmarket/v69;
 
-    invoke-direct {v2, v1, v6}, Lcom/huawei/appmarket/p69;-><init>(Ljava/lang/reflect/Method;I)V
+    invoke-direct {v2, v1, v6}, Lcom/huawei/appmarket/v69;-><init>(Ljava/lang/reflect/Method;I)V
 
     invoke-static {v2}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
     :try_end_0

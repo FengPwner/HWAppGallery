@@ -667,7 +667,7 @@
 
     .line 208
     .line 209
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     .line 210
     .line 211
@@ -1230,7 +1230,7 @@
 
     const-string v2, "type-token-raw"
 
-    invoke-static {v2}, Lcom/huawei/appmarket/f48;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/l48;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1775,7 +1775,7 @@
 
     const-string p0, "typetoken-type-variable"
 
-    invoke-static {p0}, Lcom/huawei/appmarket/f48;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/l48;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

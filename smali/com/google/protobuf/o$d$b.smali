@@ -390,6 +390,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private d()Lcom/google/protobuf/s1;
@@ -798,6 +799,7 @@
     .line 134
     .line 135
     return-object v0
+    .line 136
 .end method
 
 .method public final addRepeatedField(Lcom/google/protobuf/Descriptors$f;Ljava/lang/Object;)Lcom/google/protobuf/g0$b;
@@ -1311,7 +1313,7 @@
 
     .line 63
     .line 64
-    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v2, v3}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 65
     .line 66
@@ -1346,11 +1348,11 @@
 
     .line 81
     :cond_4
-    sget-object v1, Lcom/google/protobuf/o$d$c;->g:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$d$c;->g:Lcom/huawei/appmarket/iw5;
 
     .line 82
     .line 83
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 84
     .line 85
@@ -1473,11 +1475,11 @@
     .line 142
     .line 143
     :cond_8
-    sget-object v1, Lcom/google/protobuf/o$f;->h:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$f;->h:Lcom/huawei/appmarket/iw5;
 
     .line 144
     .line 145
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 146
     .line 147
@@ -2930,7 +2932,7 @@
 
     .line 398
     .line 399
-    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/nt4;)V
+    invoke-direct {v0, v1}, Lcom/google/protobuf/l0;-><init>(Lcom/huawei/appmarket/qt4;)V
 
     .line 400
     .line 401
@@ -4312,6 +4314,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final bridge synthetic mergeFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/a$a;

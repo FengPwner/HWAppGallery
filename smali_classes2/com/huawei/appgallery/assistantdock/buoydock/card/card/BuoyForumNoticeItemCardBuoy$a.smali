@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy$a;->b:Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const-string v1, "detailId is empty"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -73,7 +73,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/md0;->a()Lcom/huawei/appmarket/md0;
+    invoke-static {}, Lcom/huawei/appmarket/nd0;->a()Lcom/huawei/appmarket/nd0;
 
     move-result-object v0
 
@@ -91,12 +91,12 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/md0;->e(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/nd0;->e(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/md0;->a()Lcom/huawei/appmarket/md0;
+    invoke-static {}, Lcom/huawei/appmarket/nd0;->a()Lcom/huawei/appmarket/nd0;
 
     move-result-object v0
 
@@ -114,7 +114,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/md0;->d(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/nd0;->d(Landroid/content/Context;Ljava/lang/String;)V
 
     :goto_0
     invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;->v1(Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;

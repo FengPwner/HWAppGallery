@@ -26,13 +26,13 @@
 .method public final run()V
     .registers 3
 
-    new-instance v0, Lcom/huawei/appmarket/ww7;
+    new-instance v0, Lcom/huawei/appmarket/bx7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ww7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bx7;-><init>()V
 
     iget v1, p0, Lcom/huawei/appgallery/cloudgame/gamedist/manager/f;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ww7;->gameAuthFailedTips(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx7;->gameAuthFailedTips(I)V
 
     return-void
 .end method

@@ -38,7 +38,7 @@
     const/4 v0, 0x2
 
     .line 11
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v0, p0, v1}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -66,7 +66,7 @@
     const/4 v0, 0x1
 
     .line 24
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, v0, p0, v1}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -154,11 +154,10 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public static b(ILandroid/widget/TextView;)Ljava/lang/String;
-    .registers 6
+.method public static b(ILandroid/widget/TextView;Ljava/lang/String;)Ljava/lang/String;
+    .registers 7
 
     .line 1
     const-string v0, ""
@@ -233,7 +232,7 @@
 
     move-result p0
 
-    invoke-virtual {v2, v1, p0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-static {v2, v1, p0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object p0
     :try_end_0
@@ -242,27 +241,72 @@
     return-object p0
 
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    const-string v1, "getLineString error"
 
-    const-string v2, "getLineString catch an exception:"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v1, "LineStringUtils"
-
-    invoke-virtual {p1, v1, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v1, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-object v0
+.end method
+
+.method public static c(Landroid/widget/TextView;I)Ljava/lang/String;
+    .registers 6
+
+    .line 1
+    const-string v0, ""
+
+    if-gtz p1, :cond_0
+
+    return-object v0
+
+    :cond_0
+    invoke-virtual {p0}, Landroid/widget/TextView;->getLineCount()I
+
+    move-result v1
+
+    if-gtz v1, :cond_1
+
+    return-object v0
+
+    :cond_1
+    invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_2
+
+    return-object v0
+
+    :cond_2
+    if-le p1, v1, :cond_3
+
+    move p1, v1
+
+    :cond_3
+    add-int/lit8 p1, p1, -0x1
+
+    invoke-virtual {p0}, Landroid/widget/TextView;->getLayout()Landroid/text/Layout;
+
+    move-result-object p0
+
+    invoke-virtual {p0, p1}, Landroid/text/Layout;->getLineEnd(I)I
+
+    move-result p0
+
+    const/4 p1, 0x0
+
+    invoke-static {v2, p1, p0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
 .end method

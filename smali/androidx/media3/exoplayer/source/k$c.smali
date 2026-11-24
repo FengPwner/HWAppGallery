@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/mz7;)V
+.method public abstract a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/rz7;)V
 .end method

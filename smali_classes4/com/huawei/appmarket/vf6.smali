@@ -6,37 +6,55 @@
 # static fields
 .field public static final a:[I
 
-.field public static final b:[I
-
-.field public static final c:[I
-
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 2
+    .registers 1
 
     .line 1
-    const v0, 0x7f0402b7
+    const/16 v0, 0x1e
 
-    filled-new-array {v0}, [I
+    new-array v0, v0, [I
 
-    move-result-object v1
+    fill-array-data v0, :array_0
 
-    sput-object v1, Lcom/huawei/appmarket/vf6;->a:[I
-
-    filled-new-array {v0}, [I
-
-    move-result-object v1
-
-    sput-object v1, Lcom/huawei/appmarket/vf6;->b:[I
-
-    filled-new-array {v0}, [I
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/vf6;->c:[I
+    sput-object v0, Lcom/huawei/appmarket/vf6;->a:[I
 
     return-void
+
+    :array_0
+    .array-data 4
+        0x7f04026f
+        0x7f040270
+        0x7f040272
+        0x7f040278
+        0x7f04027b
+        0x7f04027c
+        0x7f04027d
+        0x7f04027e
+        0x7f040295
+        0x7f040296
+        0x7f040297
+        0x7f040298
+        0x7f040299
+        0x7f04029a
+        0x7f04029b
+        0x7f04029c
+        0x7f04029d
+        0x7f04029e
+        0x7f04029f
+        0x7f0402a0
+        0x7f0402a1
+        0x7f0402a2
+        0x7f0402a3
+        0x7f0402a4
+        0x7f0402a5
+        0x7f0402a6
+        0x7f0402a7
+        0x7f0402a8
+        0x7f0402a9
+        0x7f0403c8
+    .end array-data
 .end method
 
 .method private constructor <init>()V

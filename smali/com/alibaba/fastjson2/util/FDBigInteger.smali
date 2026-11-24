@@ -527,7 +527,7 @@
 .end method
 
 .method private static mult([II[II[I)V
-    .registers 21
+    .registers 25
 
     .line 3
     move/from16 v0, p3
@@ -551,47 +551,53 @@
 
     const-wide/16 v8, 0x0
 
-    const/4 v10, 0x0
+    move-wide v14, v8
+
+    const/4 v12, 0x0
 
     :goto_1
-    if-ge v10, v0, :cond_0
+    if-ge v12, v0, :cond_0
 
-    add-int v11, v3, v10
+    add-int v16, v3, v12
 
-    aget v12, p4, v11
+    aget v8, p4, v16
 
-    int-to-long v12, v12
+    int-to-long v8, v8
 
-    and-long/2addr v12, v6
+    and-long v17, v8, v6
 
-    aget v14, p2, v10
+    aget v8, p2, v12
 
-    int-to-long v14, v14
+    int-to-long v8, v8
 
-    and-long/2addr v14, v6
+    and-long v10, v8, v6
 
-    mul-long v14, v14, v4
+    move-wide v8, v4
 
-    add-long/2addr v14, v12
+    move/from16 v19, v12
 
-    add-long/2addr v14, v8
+    move-wide/from16 v12, v17
 
-    long-to-int v8, v14
+    invoke-static/range {v8 .. v15}, Lcom/huawei/appmarket/kb1;->e(JJJJ)J
 
-    aput v8, p4, v11
+    move-result-wide v8
 
-    const/16 v8, 0x20
+    long-to-int v10, v8
 
-    ushr-long v8, v14, v8
+    aput v10, p4, v16
 
-    add-int/lit8 v10, v10, 0x1
+    const/16 v10, 0x20
+
+    ushr-long v14, v8, v10
+
+    add-int/lit8 v12, v19, 0x1
 
     goto :goto_1
 
     :cond_0
     add-int v4, v3, v0
 
-    long-to-int v5, v8
+    long-to-int v5, v14
 
     aput v5, p4, v4
 
@@ -732,7 +738,7 @@
 .end method
 
 .method public static valueOfMulPow52(JII)Lcom/alibaba/fastjson2/util/FDBigInteger;
-    .registers 20
+    .registers 28
 
     move-wide/from16 v0, p0
 
@@ -917,46 +923,44 @@
 
     const/4 v7, 0x0
 
-    const-wide/16 v13, 0x0
+    const-wide/16 v8, 0x0
 
     :goto_4
     if-ge v7, v6, :cond_5
 
     add-int/lit8 v1, v7, 0x1
 
-    aget v8, v12, v1
+    aget v13, v12, v1
 
-    int-to-long v8, v8
+    int-to-long v13, v13
 
-    and-long/2addr v8, v10
+    and-long v20, v13, v10
 
     aget v7, v2, v7
 
-    move-object v15, v2
+    int-to-long v13, v7
 
-    int-to-long v2, v7
+    and-long v18, v13, v10
 
-    and-long/2addr v2, v10
+    move-wide/from16 v16, v4
 
-    mul-long v2, v2, v4
+    move-wide/from16 v22, v8
 
-    add-long/2addr v2, v8
+    invoke-static/range {v16 .. v23}, Lcom/huawei/appmarket/kb1;->e(JJJJ)J
 
-    add-long/2addr v2, v13
+    move-result-wide v7
 
-    long-to-int v7, v2
+    long-to-int v9, v7
 
-    aput v7, v12, v1
+    aput v9, v12, v1
 
-    const/16 v7, 0x20
+    const/16 v9, 0x20
 
-    ushr-long v13, v2, v7
+    ushr-long/2addr v7, v9
 
-    move/from16 v3, p3
+    move-wide v8, v7
 
     move v7, v1
-
-    move-object v2, v15
 
     goto :goto_4
 
@@ -965,7 +969,7 @@
 
     add-int/2addr v6, v1
 
-    long-to-int v1, v13
+    long-to-int v1, v8
 
     aput v1, v12, v6
 
@@ -976,18 +980,14 @@
 
     invoke-direct {v1, v12, v0}, Lcom/alibaba/fastjson2/util/FDBigInteger;-><init>([II)V
 
-    move/from16 v2, p3
-
-    invoke-virtual {v1, v2}, Lcom/alibaba/fastjson2/util/FDBigInteger;->leftShift(I)Lcom/alibaba/fastjson2/util/FDBigInteger;
+    invoke-virtual {v1, v3}, Lcom/alibaba/fastjson2/util/FDBigInteger;->leftShift(I)Lcom/alibaba/fastjson2/util/FDBigInteger;
 
     move-result-object v0
 
     return-object v0
 
     :cond_7
-    move v2, v3
-
-    if-eqz v2, :cond_9
+    if-eqz v3, :cond_9
 
     new-instance v2, Lcom/alibaba/fastjson2/util/FDBigInteger;
 

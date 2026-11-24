@@ -211,13 +211,13 @@
 
     mul-float v5, v5, v0
 
-    invoke-static {v3, v1, v5, v6}, Lcom/huawei/appmarket/b00;->b(FFFF)F
+    invoke-static {v3, v1, v5, v6}, Lcom/huawei/appmarket/kd0;->b(FFFF)F
 
     move-result v7
 
     mul-float v2, v2, v1
 
-    invoke-static {v0, v4, v2, v6}, Lcom/huawei/appmarket/b00;->b(FFFF)F
+    invoke-static {v0, v4, v2, v6}, Lcom/huawei/appmarket/kd0;->b(FFFF)F
 
     move-result v8
 

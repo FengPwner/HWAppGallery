@@ -89,11 +89,11 @@
 
     .line 15
     .line 16
-    const-class v0, Lcom/huawei/appmarket/lz3;
+    const-class v0, Lcom/huawei/appmarket/nz3;
 
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -101,14 +101,14 @@
     move-result-object v0
 
     .line 22
-    check-cast v0, Lcom/huawei/appmarket/lz3;
+    check-cast v0, Lcom/huawei/appmarket/nz3;
 
     .line 23
     .line 24
     const/4 v1, 0x1
 
     .line 25
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/lz3;->y(Z)I
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/nz3;->y(Z)I
 
     .line 26
     .line 27
@@ -220,5 +220,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

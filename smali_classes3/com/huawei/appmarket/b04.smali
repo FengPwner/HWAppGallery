@@ -4,11 +4,8 @@
 
 
 # virtual methods
-.method public abstract F1()V
+.method public abstract a()V
 .end method
 
-.method public abstract Y0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-.end method
-
-.method public abstract l0()V
+.method public abstract b()V
 .end method

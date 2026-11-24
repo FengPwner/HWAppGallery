@@ -5,7 +5,7 @@
 
 # instance fields
 .field private a:Lcom/huawei/phoneservice/faq/response/f;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "data"
     .end annotation
 .end field

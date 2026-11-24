@@ -59,7 +59,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -202,5 +202,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

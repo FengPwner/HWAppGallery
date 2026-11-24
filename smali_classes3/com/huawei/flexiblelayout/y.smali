@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/db2;
+.implements Lcom/huawei/appmarket/gb2;
 
 
 # annotations
@@ -580,7 +580,7 @@
 
     .line 266
     .line 267
-    invoke-static {p1}, Lcom/huawei/appmarket/gb9;->b(Landroid/view/View;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1}, Lcom/huawei/appmarket/nb9;->b(Landroid/view/View;)Landroid/graphics/drawable/Drawable;
 
     .line 268
     .line 269
@@ -612,7 +612,7 @@
 
     .line 280
     .line 281
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gb9;->g(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb9;->g(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     .line 282
     .line 283
@@ -1180,25 +1180,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public final b(Landroid/view/View;)V
@@ -1274,7 +1255,7 @@
 
     .line 33
     .line 34
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gb9;->g(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/nb9;->g(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     .line 35
     .line 36
@@ -1359,5 +1340,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -1951,7 +1951,6 @@
 .method public writeDate(Lcom/alibaba/fastjson2/JSONWriter;ZJ)V
     .registers 31
 
-    .line 2
     move-object/from16 v0, p1
 
     move-wide/from16 v1, p3
@@ -1990,11 +1989,11 @@
 
     move-result-object v5
 
+    if-nez v5, :cond_5
+
     invoke-static/range {p3 .. p4}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
 
     move-result-object v1
-
-    if-nez v5, :cond_5
 
     iget-wide v2, v1, Lcom/alibaba/fastjson2/time/Instant;->epochSecond:J
 
@@ -2115,14 +2114,20 @@
 
     long-to-int v1, v3
 
-    mul-int/lit8 v3, v1, 0x5
+    const/4 v3, 0x5
 
-    add-int/lit8 v3, v3, 0x2
+    const/4 v4, 0x2
 
-    div-int/lit16 v3, v3, 0x99
+    const/16 v7, 0x99
+
+    .line 2
+    invoke-static {v1, v3, v4, v7}, Lcom/huawei/appmarket/uq5;->b(IIII)I
+
+    move-result v3
 
     add-int/lit8 v4, v3, 0x2
 
+    .line 3
     rem-int/lit8 v4, v4, 0xc
 
     add-int/lit8 v4, v4, 0x1
@@ -2197,6 +2202,10 @@
     goto :goto_1
 
     :cond_5
+    invoke-static/range {p3 .. p4}, Lcom/alibaba/fastjson2/time/Instant;->ofEpochMilli(J)Lcom/alibaba/fastjson2/time/Instant;
+
+    move-result-object v1
+
     invoke-static {v1, v4}, Lcom/alibaba/fastjson2/time/ZonedDateTime;->ofInstant(Lcom/alibaba/fastjson2/time/Instant;Lcom/alibaba/fastjson2/time/ZoneId;)Lcom/alibaba/fastjson2/time/ZonedDateTime;
 
     move-result-object v1
@@ -2301,7 +2310,7 @@
 .method public writeDate(Lcom/alibaba/fastjson2/JSONWriter;ZLjava/util/Date;)V
     .registers 6
 
-    .line 3
+    .line 5
     if-nez p3, :cond_1
 
     if-eqz p2, :cond_0

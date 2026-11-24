@@ -4,14 +4,5 @@
 
 
 # virtual methods
-.method public abstract getMaxHeight()I
-.end method
-
-.method public abstract getMinHeight()I
-.end method
-
-.method public abstract getNormalDownHeight()I
-.end method
-
-.method public abstract layoutItemByRate(F)V
+.method public abstract setScrollDownListener(Lcom/huawei/appmarket/a14;)V
 .end method

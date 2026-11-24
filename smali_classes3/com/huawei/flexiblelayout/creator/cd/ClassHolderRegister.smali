@@ -12,93 +12,93 @@
     return-void
 .end method
 
-.method public static register(Lcom/huawei/appmarket/tk3;)V
+.method public static register(Lcom/huawei/appmarket/vk3;)V
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/b29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/b29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/c29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/c29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
     new-instance v0, Lcom/huawei/appmarket/h29;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/h29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
     new-instance v0, Lcom/huawei/appmarket/i29;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/i29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/j29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/j29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/g29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/g29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/d29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/d29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/e29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/e29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/o29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/o29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
-
-    new-instance v0, Lcom/huawei/appmarket/f29;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/f29;-><init>()V
-
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
     new-instance v0, Lcom/huawei/appmarket/n29;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/n29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
-    new-instance v0, Lcom/huawei/appmarket/k29;
+    new-instance v0, Lcom/huawei/appmarket/o29;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/k29;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/o29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/p29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/p29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/j29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/j29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/r29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/r29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/q29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/q29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
     new-instance v0, Lcom/huawei/appmarket/l29;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/l29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/s29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/s29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/t29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/t29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/k29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/k29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
     new-instance v0, Lcom/huawei/appmarket/m29;
 
     invoke-direct {v0}, Lcom/huawei/appmarket/m29;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/huawei/appmarket/tk3;->a(Lcom/huawei/appmarket/jj0;)V
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
+
+    new-instance v0, Lcom/huawei/appmarket/u29;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/u29;-><init>()V
+
+    invoke-interface {p0, v0}, Lcom/huawei/appmarket/vk3;->a(Lcom/huawei/appmarket/kj0;)V
 
     return-void
 .end method

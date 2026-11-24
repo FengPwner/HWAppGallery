@@ -20,7 +20,7 @@
 
 
 # instance fields
-.field private f:Lcom/huawei/appmarket/q24;
+.field private f:Lcom/huawei/appmarket/s24;
 
 .field private g:Ljava/lang/String;
 
@@ -43,11 +43,11 @@
     .line 2
     .line 3
     .line 4
-    const-class v0, Lcom/huawei/appmarket/ss3;
+    const-class v0, Lcom/huawei/appmarket/us3;
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -55,16 +55,16 @@
     move-result-object v0
 
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/ss3;
+    check-cast v0, Lcom/huawei/appmarket/us3;
 
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/t98;->y()Lcom/huawei/appmarket/d54$a;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->y()Lcom/huawei/appmarket/g54$a;
 
     .line 16
     .line 17
@@ -80,7 +80,7 @@
     move-result v1
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/xh;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wh;->a()Z
 
     .line 24
     .line 25
@@ -95,7 +95,7 @@
     const/4 v4, 0x5
 
     .line 30
-    invoke-interface {v0, v4, v1, v2, v3}, Lcom/huawei/appmarket/ss3;->Z0(IIILjava/lang/String;)V
+    invoke-interface {v0, v4, v1, v2, v3}, Lcom/huawei/appmarket/us3;->Z0(IIILjava/lang/String;)V
 
     .line 31
     .line 32
@@ -186,7 +186,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static h3(Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;)V
@@ -311,7 +310,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private i3(Ljava/lang/String;)V
@@ -324,7 +322,7 @@
 
     const-string v1, "HomeCountry"
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -345,7 +343,7 @@
     invoke-virtual {v0, v1, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -364,7 +362,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -390,7 +388,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 20
     .line 21
@@ -402,11 +400,11 @@
 
     .line 24
     .line 25
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 26
     .line 27
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 28
     .line 29
@@ -414,11 +412,11 @@
     move-result-object p1
 
     .line 31
-    const-class v2, Lcom/huawei/appmarket/q24;
+    const-class v2, Lcom/huawei/appmarket/s24;
 
     .line 32
     .line 33
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -426,11 +424,11 @@
     move-result-object p1
 
     .line 37
-    check-cast p1, Lcom/huawei/appmarket/q24;
+    check-cast p1, Lcom/huawei/appmarket/s24;
 
     .line 38
     .line 39
-    iput-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 40
     .line 41
@@ -447,7 +445,7 @@
     move-result-object v2
 
     .line 48
-    invoke-static {v2}, Lcom/huawei/appmarket/ju;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/huawei/appmarket/ku;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -455,12 +453,12 @@
     move-result-object v2
 
     .line 52
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/fh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 53
     .line 54
     .line 55
-    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 56
     .line 57
@@ -476,7 +474,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/q24;->e(Landroid/widget/CompoundButton$OnCheckedChangeListener;)Lcom/huawei/appmarket/wo0;
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/s24;->e(Landroid/widget/CompoundButton$OnCheckedChangeListener;)Lcom/huawei/appmarket/xo0;
 
     .line 64
     .line 65
@@ -489,7 +487,7 @@
     move-result-object p1
 
     .line 70
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     .line 71
     .line 72
@@ -506,7 +504,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     .line 80
     .line 81
@@ -534,7 +532,7 @@
     move-result-object p1
 
     .line 93
-    invoke-static {p1}, Lcom/huawei/appmarket/ju;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ku;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 94
     .line 95
@@ -542,11 +540,11 @@
     move-result-object p1
 
     .line 97
-    iget-object v1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 98
     .line 99
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 100
     .line 101
@@ -577,31 +575,31 @@
     move-result-object v1
 
     .line 116
-    iget-object v2, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 117
     .line 118
     const/4 v3, -0x1
 
     .line 119
-    invoke-interface {v2, v3, p1}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v2, v3, p1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 120
     .line 121
     .line 122
-    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 123
     .line 124
     const/4 v2, -0x2
 
     .line 125
-    invoke-interface {p1, v2, v1}, Lcom/huawei/appmarket/fh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p1, v2, v1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
     .line 126
     .line 127
     .line 128
-    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 129
     .line 130
@@ -614,12 +612,12 @@
     .line 133
     .line 134
     .line 135
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 136
     .line 137
     .line 138
-    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 139
     .line 140
@@ -632,21 +630,21 @@
     .line 143
     .line 144
     .line 145
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/fh3;->u(Landroid/content/DialogInterface$OnKeyListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/hh3;->u(Landroid/content/DialogInterface$OnKeyListener;)Lcom/huawei/appmarket/w7;
 
     .line 146
     .line 147
     .line 148
-    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     .line 149
     .line 150
-    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 151
     .line 152
     .line 153
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 154
     .line 155
@@ -869,20 +867,18 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final onDestroy()V
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/q24;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->f:Lcom/huawei/appmarket/s24;
 
     :cond_0
     invoke-super {p0}, Lcom/huawei/appmarket/framework/activity/SecureActivity;->onDestroy()V

@@ -38,13 +38,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v1, "PayAgent"
 
     const-string v2, "Owned order,not found"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/payauthkit/pay/app/control/d$c;->a:Lcom/huawei/appgallery/payauthkit/pay/app/control/d;
 
@@ -57,13 +57,13 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww5;->a:Lcom/huawei/appmarket/ww5;
+    sget-object v0, Lcom/huawei/appmarket/yw5;->a:Lcom/huawei/appmarket/yw5;
 
     const-string v1, "PayAgent"
 
     const-string v2, "onQueried Owned order"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p1, Lcom/huawei/appgallery/payauthkit/pay/app/control/IAPWrapper$f;->b:Ljava/lang/String;
 

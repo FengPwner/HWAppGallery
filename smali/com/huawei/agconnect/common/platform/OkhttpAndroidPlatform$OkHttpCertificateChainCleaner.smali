@@ -1,5 +1,5 @@
 .class final Lcom/huawei/agconnect/common/platform/OkhttpAndroidPlatform$OkHttpCertificateChainCleaner;
-.super Lcom/huawei/appmarket/wm0;
+.super Lcom/huawei/appmarket/xm0;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 .method constructor <init>(Ljava/lang/Object;Ljava/lang/reflect/Method;)V
     .registers 3
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/wm0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/xm0;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/agconnect/common/platform/OkhttpAndroidPlatform$OkHttpCertificateChainCleaner;->a:Ljava/lang/Object;
 

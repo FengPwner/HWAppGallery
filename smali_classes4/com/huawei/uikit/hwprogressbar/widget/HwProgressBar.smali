@@ -87,7 +87,7 @@
 
 .field private l:Ljava/lang/reflect/Field;
 
-.field private m:Lcom/huawei/appmarket/fe3$a;
+.field private m:Lcom/huawei/appmarket/he3$a;
 
 .field protected mFillColor:I
 
@@ -176,7 +176,7 @@
 
     const-class v0, Ljava/lang/Float;
 
-    const-string v1, "visual_progress"
+    const-string/jumbo v1, "visual_progress"
 
     invoke-direct {p1, p0, v0, v1}, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar$c;-><init>(Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;Ljava/lang/Class;Ljava/lang/String;)V
 
@@ -395,7 +395,7 @@
     .line 5
     const v0, 0x7f13030b
 
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p0
 
@@ -593,7 +593,7 @@
 
     aput-object p1, v2, p2
 
-    invoke-static {p0, v1, v2}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v1, v2}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_5
     return-void
@@ -618,7 +618,7 @@
 
     if-lt v0, v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->c(Landroid/widget/ProgressBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->c(Landroid/widget/ProgressBar;)I
 
     move-result v0
 
@@ -791,7 +791,7 @@
     .registers 6
 
     .line 12
-    sget-object v0, Lcom/huawei/appmarket/gg6;->c:[I
+    sget-object v0, Lcom/huawei/appmarket/ig6;->c:[I
 
     const v1, 0x7f1304ee
 
@@ -849,7 +849,7 @@
 
     if-lt v0, v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->c(Landroid/widget/ProgressBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->c(Landroid/widget/ProgressBar;)I
 
     move-result v0
 
@@ -901,7 +901,7 @@
     .registers 7
 
     .line 2
-    sget-object v0, Lcom/huawei/appmarket/gg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/ig6;->a:[I
 
     const v1, 0x7f1304ee
 
@@ -929,19 +929,19 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/fe3$a;->g(Landroid/content/Context;Landroid/util/AttributeSet;I)Lcom/huawei/appmarket/fe3$a;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/he3$a;->g(Landroid/content/Context;Landroid/util/AttributeSet;I)Lcom/huawei/appmarket/he3$a;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_0
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/fe3$a;->f(Landroid/content/Context;Landroid/util/AttributeSet;I)Lcom/huawei/appmarket/fe3$a;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/he3$a;->f(Landroid/content/Context;Landroid/util/AttributeSet;I)Lcom/huawei/appmarket/he3$a;
 
     move-result-object p1
 
     :goto_0
-    iput-object p1, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->m:Lcom/huawei/appmarket/fe3$a;
+    iput-object p1, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->m:Lcom/huawei/appmarket/he3$a;
 
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -982,7 +982,7 @@
 
     const-string v3, "android.widget.ProgressBar"
 
-    invoke-static {v1, v3, v0}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v1, v3, v0}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
@@ -1125,7 +1125,7 @@
     .registers 6
 
     .line 2
-    sget-object v0, Lcom/huawei/appmarket/gg6;->b:[I
+    sget-object v0, Lcom/huawei/appmarket/ig6;->b:[I
 
     const v1, 0x7f1304ee
 
@@ -1197,7 +1197,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/e53;->c(Landroid/widget/ProgressBar;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/h53;->c(Landroid/widget/ProgressBar;)I
 
     move-result v0
 
@@ -1470,17 +1470,17 @@
 
     const/16 v0, 0xf
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/wf3;->b(Landroid/content/Context;I)I
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/yf3;->b(Landroid/content/Context;I)I
 
     move-result v0
 
     const-class v1, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/wf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/yf3;->c(Ljava/lang/Class;I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/wf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/yf3;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1525,7 +1525,7 @@
 
     const-string v5, "android.os.SystemProperties"
 
-    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/se3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v4, v5, v0}, Lcom/huawei/appmarket/ue3;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
@@ -1555,7 +1555,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/se3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v0, v3}, Lcom/huawei/appmarket/ue3;->d(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1642,7 +1642,7 @@
 
     iget v0, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->mFillColor:I
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->m:Lcom/huawei/appmarket/fe3$a;
+    iget-object v1, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->m:Lcom/huawei/appmarket/he3$a;
 
     invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -1654,7 +1654,7 @@
 
     iget v3, p0, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->n:I
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/cf3;->d(ILcom/huawei/appmarket/fe3$a;Landroid/util/DisplayMetrics;I)Lcom/huawei/appmarket/cf3;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/ef3;->d(ILcom/huawei/appmarket/he3$a;Landroid/util/DisplayMetrics;I)Lcom/huawei/appmarket/ef3;
 
     move-result-object v0
 
@@ -1744,7 +1744,7 @@
     :try_start_1
     invoke-direct {p0, p1, p2, p3}, Lcom/huawei/uikit/hwprogressbar/widget/HwProgressBar;->b(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object v0, Lcom/huawei/appmarket/gg6;->c:[I
+    sget-object v0, Lcom/huawei/appmarket/ig6;->c:[I
 
     const v1, 0x7f1304ee
 

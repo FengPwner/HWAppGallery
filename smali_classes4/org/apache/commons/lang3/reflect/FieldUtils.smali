@@ -363,25 +363,25 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/le3;->v(Ljava/util/List;)Ljava/util/stream/Stream;
+    invoke-static {p0}, Lcom/huawei/appmarket/ne3;->v(Ljava/util/List;)Ljava/util/stream/Stream;
 
     move-result-object p0
 
-    new-instance v0, Lcom/huawei/appmarket/ij2;
+    new-instance v0, Lcom/huawei/appmarket/kj2;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/ij2;-><init>(ILjava/lang/Class;)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/kj2;-><init>(Ljava/lang/Class;I)V
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/t12;->p(Ljava/util/stream/Stream;Lcom/huawei/appmarket/ij2;)Ljava/util/stream/Stream;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/x12;->p(Ljava/util/stream/Stream;Lcom/huawei/appmarket/kj2;)Ljava/util/stream/Stream;
 
     move-result-object p0
 
-    invoke-static {}, Lcom/huawei/appmarket/le3;->p()Ljava/util/stream/Collector;
+    invoke-static {}, Lcom/huawei/appmarket/ne3;->p()Ljava/util/stream/Collector;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/le3;->l(Ljava/util/stream/Stream;Ljava/util/stream/Collector;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ne3;->l(Ljava/util/stream/Stream;Ljava/util/stream/Collector;)Ljava/lang/Object;
 
     move-result-object p0
 

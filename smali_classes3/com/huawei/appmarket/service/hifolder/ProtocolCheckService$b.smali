@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService$b;
-.super Lcom/huawei/appmarket/zi5;
+.super Lcom/huawei/appmarket/bj5;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService$b;->d:Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/zi5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/bj5;-><init>()V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zi5;->b(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/bj5;->b(Landroid/app/Activity;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService$b;->d:Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;
 
@@ -60,7 +60,7 @@
     .registers 7
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zi5;->c(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/bj5;->c(Landroid/app/Activity;)V
 
     .line 2
     .line 3
@@ -73,7 +73,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -82,7 +82,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/xx3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/zx3;
 
     .line 14
     .line 15
@@ -148,7 +148,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->b()I
 
     .line 48
     .line 49
@@ -183,7 +183,7 @@
     .line 64
     .line 65
     :try_start_0
-    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/xx3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/zx3;
 
     .line 66
     .line 67
@@ -191,7 +191,7 @@
     move-result-object v0
 
     .line 69
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/xx3;->onResult(Ljava/util/HashMap;)V
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/zx3;->onResult(Ljava/util/HashMap;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -206,7 +206,7 @@
 
     .line 74
     .line 75
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -250,14 +250,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final d(Landroid/app/Activity;)V
     .registers 7
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zi5;->d(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/bj5;->d(Landroid/app/Activity;)V
 
     .line 2
     .line 3
@@ -270,7 +269,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -279,7 +278,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/xx3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/zx3;
 
     .line 14
     .line 15
@@ -348,7 +347,7 @@
     const/4 v3, 0x0
 
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->b()I
 
     .line 49
     .line 50
@@ -383,7 +382,7 @@
     .line 65
     .line 66
     :try_start_0
-    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/xx3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;->a(Lcom/huawei/appmarket/service/hifolder/ProtocolCheckService;)Lcom/huawei/appmarket/zx3;
 
     .line 67
     .line 68
@@ -391,7 +390,7 @@
     move-result-object v0
 
     .line 70
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/xx3;->onResult(Ljava/util/HashMap;)V
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/zx3;->onResult(Ljava/util/HashMap;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -406,7 +405,7 @@
 
     .line 75
     .line 76
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -449,5 +448,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

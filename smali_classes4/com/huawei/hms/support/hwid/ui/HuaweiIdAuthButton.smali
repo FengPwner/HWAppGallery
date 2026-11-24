@@ -292,11 +292,9 @@
 
     float-to-int v3, v3
 
-    add-int/2addr v3, p1
+    invoke-static {v3, p1, p2, v2}, Lcom/huawei/appmarket/eq6;->G(IIII)I
 
-    add-int/2addr v3, p2
-
-    add-int/2addr v3, v2
+    move-result v3
 
     const/4 v4, 0x0
 
@@ -479,7 +477,7 @@
 
     move-result-object v2
 
-    sget-object v4, Lcom/huawei/appmarket/je6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/le6;->a:[I
 
     invoke-virtual {v2, p1, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

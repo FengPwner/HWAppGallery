@@ -250,11 +250,11 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -770,7 +770,7 @@
 
     .line 157
     .line 158
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/w68;->G(Landroid/content/Context;Landroid/widget/EditText;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/b78;->G(Landroid/content/Context;Landroid/widget/EditText;)V
 
     .line 159
     .line 160
@@ -1223,15 +1223,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final S1()V

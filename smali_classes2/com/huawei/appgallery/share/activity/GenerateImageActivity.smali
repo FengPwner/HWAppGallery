@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/sw6;
-.implements Lcom/huawei/appmarket/v06;
+.implements Lcom/huawei/appmarket/ww6;
+.implements Lcom/huawei/appmarket/x06;
 
 
 # annotations
@@ -13,8 +13,8 @@
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity<",
         "Lcom/huawei/appgallery/share/protocol/ShareProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/sw6;",
-        "Lcom/huawei/appmarket/v06;"
+        "Lcom/huawei/appmarket/ww6;",
+        "Lcom/huawei/appmarket/x06;"
     }
 .end annotation
 
@@ -24,13 +24,13 @@
 
 
 # instance fields
-.field private q:Lcom/huawei/appmarket/kc7;
+.field private q:Lcom/huawei/appmarket/pc7;
 
 .field private r:Landroid/view/View;
 
 .field private s:Landroidx/fragment/app/Fragment;
 
-.field private t:Lcom/huawei/appmarket/u17;
+.field private t:Lcom/huawei/appmarket/y17;
 
 
 # direct methods
@@ -42,11 +42,11 @@
     return-void
 .end method
 
-.method static synthetic C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/u17;
+.method static synthetic C3(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)Lcom/huawei/appmarket/y17;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/u17;
+    iget-object p0, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/y17;
 
     return-object p0
 .end method
@@ -74,7 +74,7 @@
 
     .line 9
     .line 10
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     .line 11
     .line 12
@@ -82,7 +82,7 @@
     move-result v0
 
     .line 14
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 15
     .line 16
@@ -93,7 +93,7 @@
     sub-int/2addr v0, v1
 
     .line 19
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     .line 20
     .line 21
@@ -101,7 +101,7 @@
     move-result v1
 
     .line 23
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     .line 24
     .line 25
@@ -207,14 +207,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final H2(Lcom/huawei/appmarket/u17;)V
+.method public final H2(Lcom/huawei/appmarket/y17;)V
     .registers 5
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/u17;
+    iput-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/y17;
 
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -226,37 +225,37 @@
 
     if-ge p1, v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/hs2;->d(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ks2;->d(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     const-string v0, "GenerateImageActivity"
 
     const-string v1, "Storage Permission checked"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "Permission"
 
-    const-class v0, Lcom/huawei/appmarket/sw3;
+    const-class v0, Lcom/huawei/appmarket/uw3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/sw3;
+    check-cast p1, Lcom/huawei/appmarket/uw3;
 
-    new-instance v0, Lcom/huawei/appmarket/zy5;
+    new-instance v0, Lcom/huawei/appmarket/bz5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zy5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bz5;-><init>()V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zy5;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bz5;->c(Z)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -268,7 +267,7 @@
 
     const/16 v0, 0x10
 
-    invoke-interface {p1, p0, v1, v0}, Lcom/huawei/appmarket/sw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, p0, v1, v0}, Lcom/huawei/appmarket/uw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -276,16 +275,16 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/share/activity/GenerateImageActivity$a;-><init>(Lcom/huawei/appgallery/share/activity/GenerateImageActivity;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/u17;
+    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->t:Lcom/huawei/appmarket/y17;
 
-    check-cast p1, Lcom/huawei/appmarket/r17;
+    check-cast p1, Lcom/huawei/appmarket/v17;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/r17;->v()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/v17;->v()V
 
     return-void
 .end method
@@ -297,14 +296,14 @@
     return-void
 .end method
 
-.method public final R1(Lcom/huawei/appmarket/y06;)V
+.method public final R1(Lcom/huawei/appmarket/a16;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method public final X0(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/sw6;)V
+.method public final X0(Lcom/huawei/appmarket/sk4;Lcom/huawei/appmarket/ww6;)V
     .registers 5
 
     .line 1
@@ -327,13 +326,13 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->s:Landroidx/fragment/app/Fragment;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/w06;
+    instance-of v1, v0, Lcom/huawei/appmarket/y06;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/w06;
+    check-cast v0, Lcom/huawei/appmarket/y06;
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/w06;->D(Lcom/huawei/appmarket/pk4;Lcom/huawei/appmarket/sw6;)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/y06;->D(Lcom/huawei/appmarket/sk4;Lcom/huawei/appmarket/ww6;)V
 
     :cond_1
     return-void
@@ -391,7 +390,7 @@
     move-exception p1
 
     .line 23
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v0, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 24
     .line 25
@@ -407,7 +406,7 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -486,7 +485,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final j()V
@@ -551,7 +549,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 31
     .line 32
@@ -587,7 +585,7 @@
 
     .line 47
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ql6;->d()Lcom/huawei/appmarket/ql6;
+    invoke-static {}, Lcom/huawei/appmarket/tl6;->d()Lcom/huawei/appmarket/tl6;
 
     .line 48
     .line 49
@@ -619,7 +617,7 @@
     move-result-object v2
 
     .line 63
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ql6;->c(Ljava/lang/Long;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/tl6;->c(Ljava/lang/Long;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -627,7 +625,7 @@
     move-result-object v1
 
     .line 67
-    instance-of v2, v1, Lcom/huawei/appmarket/kc7;
+    instance-of v2, v1, Lcom/huawei/appmarket/pc7;
 
     .line 68
     .line 69
@@ -635,16 +633,16 @@
 
     .line 70
     .line 71
-    check-cast v1, Lcom/huawei/appmarket/kc7;
+    check-cast v1, Lcom/huawei/appmarket/pc7;
 
     .line 72
     .line 73
-    iput-object v1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->q:Lcom/huawei/appmarket/kc7;
+    iput-object v1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->q:Lcom/huawei/appmarket/pc7;
 
     .line 74
     .line 75
     :cond_1
-    new-instance v1, Lcom/huawei/appmarket/cn5;
+    new-instance v1, Lcom/huawei/appmarket/dn5;
 
     .line 76
     .line 77
@@ -652,12 +650,12 @@
 
     .line 78
     .line 79
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 80
     .line 81
     .line 82
-    invoke-static {v1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {v1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 83
     .line 84
@@ -706,7 +704,7 @@
     move-exception p1
 
     .line 105
-    sget-object v1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object v1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 106
     .line 107
@@ -718,17 +716,17 @@
     move-result-object p1
 
     .line 111
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 112
     .line 113
     .line 114
     :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->q:Lcom/huawei/appmarket/kc7;
+    iget-object p1, p0, Lcom/huawei/appgallery/share/activity/GenerateImageActivity;->q:Lcom/huawei/appmarket/pc7;
 
     .line 115
     .line 116
-    instance-of v0, p1, Lcom/huawei/appmarket/tw6;
+    instance-of v0, p1, Lcom/huawei/appmarket/xw6;
 
     .line 117
     .line 118
@@ -736,11 +734,11 @@
 
     .line 119
     .line 120
-    check-cast p1, Lcom/huawei/appmarket/tw6;
+    check-cast p1, Lcom/huawei/appmarket/xw6;
 
     .line 121
     .line 122
-    invoke-interface {p1, p0}, Lcom/huawei/appmarket/tw6;->d(Lcom/huawei/appmarket/sw6;)V
+    invoke-interface {p1, p0}, Lcom/huawei/appmarket/xw6;->d(Lcom/huawei/appmarket/ww6;)V
 
     .line 123
     .line 124
@@ -751,7 +749,7 @@
     .line 126
     :cond_3
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
+    sget-object p1, Lcom/huawei/appmarket/ed7;->a:Lcom/huawei/appmarket/ed7;
 
     .line 127
     .line 128
@@ -759,7 +757,7 @@
 
     .line 129
     .line 130
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     .line 132

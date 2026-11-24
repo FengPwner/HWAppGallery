@@ -15,13 +15,13 @@
 
 
 # instance fields
-.field private u:Lcom/huawei/appmarket/k47;
+.field private u:Lcom/huawei/appmarket/p47;
 
 .field private v:Landroid/view/View;
 
 
 # direct methods
-.method private constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/ot3;)V
+.method private constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/qt3;)V
     .registers 6
 
     .line 1
@@ -29,37 +29,37 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->v:Landroid/view/View;
 
-    new-instance v0, Lcom/huawei/appmarket/k47;
+    new-instance v0, Lcom/huawei/appmarket/p47;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p3}, Lcom/huawei/appmarket/k47;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/ot3;)V
+    invoke-direct {v0, v1, p3}, Lcom/huawei/appmarket/p47;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qt3;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->u:Lcom/huawei/appmarket/k47;
+    iput-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->u:Lcom/huawei/appmarket/p47;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/k47;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/p47;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/k47;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/p47;->Z(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/ot3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
+.method synthetic constructor <init>(Landroid/view/View;Lcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/qt3;Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$a;)V
     .registers 5
 
     .line 2
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/ak0;Lcom/huawei/appmarket/ot3;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;-><init>(Landroid/view/View;Lcom/huawei/appmarket/bk0;Lcom/huawei/appmarket/qt3;)V
 
     return-void
 .end method
 
-.method static synthetic y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/k47;
+.method static synthetic y(Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;)Lcom/huawei/appmarket/p47;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->u:Lcom/huawei/appmarket/k47;
+    iget-object p0, p0, Lcom/huawei/appgallery/search/ui/card/SearchNecessaryAppCardV1$e;->u:Lcom/huawei/appmarket/p47;
 
     return-object p0
 .end method

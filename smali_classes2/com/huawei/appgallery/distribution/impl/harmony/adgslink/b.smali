@@ -48,7 +48,7 @@
     .line 11
     .line 12
     .line 13
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     .line 14
     .line 15
@@ -67,7 +67,7 @@
     const/4 v1, 0x0
 
     .line 22
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/n82;->a(Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;Z)Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/r82;->a(Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;Z)Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol;
 
     .line 23
     .line 24
@@ -79,12 +79,12 @@
 
     .line 27
     .line 28
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cn5;->a()Landroid/content/Intent;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dn5;->a()Landroid/content/Intent;
 
     .line 32
     .line 33
@@ -92,12 +92,12 @@
     move-result-object p0
 
     .line 35
-    invoke-static {p0}, Lcom/huawei/appmarket/yn3;->a(Landroid/content/Intent;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ao3;->a(Landroid/content/Intent;)V
 
     .line 36
     .line 37
     .line 38
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     .line 39
     .line 40
@@ -110,7 +110,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
 
     .line 46
     .line 47
@@ -252,5 +252,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

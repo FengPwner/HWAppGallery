@@ -1040,7 +1040,7 @@
     .line 345
 .end method
 
-.method public final b(Lcom/huawei/appmarket/ij5;)V
+.method public final b(Lcom/huawei/appmarket/kj5;)V
     .registers 11
 
     .line 1
@@ -1161,7 +1161,7 @@
 
     .line 54
     .line 55
-    invoke-static {}, Lcom/huawei/appmarket/o85;->m()V
+    invoke-static {}, Lcom/huawei/appmarket/r85;->m()V
 
     .line 56
     .line 57
@@ -1183,7 +1183,7 @@
     move-result-object v0
 
     .line 67
-    invoke-static {v0}, Lcom/huawei/appmarket/of1;->d(Landroid/app/Person;)Landroid/app/Notification$MessagingStyle;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf1;->d(Landroid/app/Person;)Landroid/app/Notification$MessagingStyle;
 
     .line 68
     .line 69
@@ -1195,7 +1195,7 @@
 
     .line 72
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/o85;->m()V
+    invoke-static {}, Lcom/huawei/appmarket/r85;->m()V
 
     .line 73
     .line 74
@@ -1208,7 +1208,7 @@
 
     .line 78
     .line 79
-    invoke-static {v0}, Lcom/huawei/appmarket/o85;->g(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
+    invoke-static {v0}, Lcom/huawei/appmarket/r85;->g(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
 
     .line 80
     .line 81
@@ -1258,7 +1258,7 @@
     move-result-object v3
 
     .line 103
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/o85;->s(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/r85;->s(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
 
     .line 104
     .line 105
@@ -1324,7 +1324,7 @@
     move-result-object v3
 
     .line 135
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/l85;->u(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/o85;->u(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$MessagingStyle$Message;)V
 
     .line 136
     .line 137
@@ -1362,7 +1362,7 @@
 
     .line 152
     .line 153
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/o85;->t(Landroid/app/Notification$MessagingStyle;Ljava/lang/CharSequence;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/r85;->t(Landroid/app/Notification$MessagingStyle;Ljava/lang/CharSequence;)V
 
     .line 154
     .line 155
@@ -1388,7 +1388,7 @@
     move-result v1
 
     .line 166
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/of1;->r(Landroid/app/Notification$MessagingStyle;Z)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/qf1;->r(Landroid/app/Notification$MessagingStyle;Z)V
 
     .line 167
     .line 168
@@ -1406,7 +1406,7 @@
     move-result-object p1
 
     .line 175
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o85;->r(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$Builder;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r85;->r(Landroid/app/Notification$MessagingStyle;Landroid/app/Notification$Builder;)V
 
     .line 176
     .line 177
@@ -1507,7 +1507,7 @@
 
     .line 221
     .line 222
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/b00;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/kd0;->g(Ljava/util/ArrayList;I)Ljava/lang/Object;
 
     .line 223
     .line 224

@@ -1,78 +1,68 @@
-.class public final Lcom/huawei/appmarket/pq2;
+.class final Lcom/huawei/appmarket/pq2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/vq3;
+
+
+# instance fields
+.field b:Z
+
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/pq2;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/pq2;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;)V
-    .registers 4
+.method constructor <init>()V
+    .registers 2
 
     .line 1
-    if-eqz p0, :cond_0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/nl0$b;
+    const/4 v0, 0x0
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nl0$b;-><init>()V
+    iput-boolean v0, p0, Lcom/huawei/appmarket/pq2;->b:Z
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->Z()Ljava/lang/String;
+    return-void
+.end method
 
-    move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->u(Ljava/lang/String;)V
+# virtual methods
+.method public final a()Z
+    .registers 2
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->U()Ljava/lang/String;
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/pq2;->b:Z
 
-    move-result-object v1
+    return v0
+.end method
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->v(Ljava/lang/String;)V
+.method public final b(Lcom/huawei/appgallery/forum/base/card/bean/UserProfile;)V
+    .registers 3
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->a0()Ljava/lang/String;
+    .line 1
+    if-eqz p1, :cond_0
 
-    move-result-object v1
+    const-string v0, "1"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->w(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->W()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->r(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->X()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->s(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->Y()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nl0$b;->t(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/VideoInfo;->T()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/forum/base/card/bean/UserProfile;->T()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nl0$b;->n(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nl0$b;->l()Lcom/huawei/appmarket/nl0;
+    move-result p1
 
-    move-result-object p1
-
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/pl0;->G(Lcom/huawei/appmarket/nl0;Ljava/lang/String;)V
+    iput-boolean p1, p0, Lcom/huawei/appmarket/pq2;->b:Z
 
     :cond_0
     return-void

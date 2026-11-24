@@ -6,7 +6,7 @@
 # instance fields
 .field protected y:Lcom/huawei/appmarket/service/settings/view/widget/EnterLayout;
 
-.field private z:Lcom/huawei/appmarket/rf7;
+.field private z:Lcom/huawei/appmarket/wf7;
 
 
 # direct methods
@@ -19,7 +19,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard$a;-><init>(Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;->z:Lcom/huawei/appmarket/rf7;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;->z:Lcom/huawei/appmarket/wf7;
 
     return-void
 .end method
@@ -67,7 +67,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;->y:Lcom/huawei/appmarket/service/settings/view/widget/EnterLayout;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;->z:Lcom/huawei/appmarket/rf7;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutHotlineCard;->z:Lcom/huawei/appmarket/wf7;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

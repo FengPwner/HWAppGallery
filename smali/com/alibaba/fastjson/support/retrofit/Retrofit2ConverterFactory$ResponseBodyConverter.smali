@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lretrofit2/Converter<",
-        "Lcom/huawei/appmarket/xu6;",
+        "Lcom/huawei/appmarket/bv6;",
         "TT;>;"
     }
 .end annotation
@@ -50,12 +50,12 @@
 
 
 # virtual methods
-.method public convert(Lcom/huawei/appmarket/xu6;)Ljava/lang/Object;
+.method public convert(Lcom/huawei/appmarket/bv6;)Ljava/lang/Object;
     .registers 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/xu6;",
+            "Lcom/huawei/appmarket/bv6;",
             ")TT;"
         }
     .end annotation
@@ -70,7 +70,7 @@
     const-string v0, "JSON parse error: "
 
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xu6;->s()[B
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv6;->s()[B
 
     move-result-object v1
 
@@ -125,7 +125,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xu6;->close()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv6;->close()V
 
     return-object v0
 
@@ -161,7 +161,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xu6;->close()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv6;->close()V
 
     throw v0
 .end method
@@ -175,9 +175,9 @@
     .end annotation
 
     .line 2
-    check-cast p1, Lcom/huawei/appmarket/xu6;
+    check-cast p1, Lcom/huawei/appmarket/bv6;
 
-    invoke-virtual {p0, p1}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory$ResponseBodyConverter;->convert(Lcom/huawei/appmarket/xu6;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcom/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory$ResponseBodyConverter;->convert(Lcom/huawei/appmarket/bv6;)Ljava/lang/Object;
 
     move-result-object p1
 

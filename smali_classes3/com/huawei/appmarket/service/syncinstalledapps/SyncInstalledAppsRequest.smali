@@ -13,7 +13,7 @@
 
 # instance fields
 .field private installedAppList:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -226,7 +226,7 @@
 
     .line 78
     .line 79
-    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 80
     .line 81
@@ -346,5 +346,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

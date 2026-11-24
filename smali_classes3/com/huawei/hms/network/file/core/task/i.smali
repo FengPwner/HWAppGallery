@@ -266,7 +266,7 @@
     const-string v3, "concurrent_task_num"
 
     .line 4
-    invoke-static {v1, v0, v2, p1, v3}, Lcom/huawei/appmarket/ej2;->r(ILjava/util/LinkedHashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, p1, v3}, Lcom/huawei/appmarket/tr2;->q(ILjava/util/LinkedHashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     return-object v0
 .end method
@@ -910,11 +910,11 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/huawei/hms/network/file/core/a;->a(J)V
 
-    new-instance v1, Lcom/huawei/appmarket/xz;
+    new-instance v1, Lcom/huawei/appmarket/yz;
 
-    const/16 v3, 0x13
+    const/16 v3, 0x14
 
-    invoke-direct {v1, v3, p0, p1, v0}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v3, p0, p1, v0}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/hms/network/file/core/task/i;->a(Ljava/lang/Runnable;)V
 
@@ -1748,11 +1748,11 @@
 
     if-eqz p3, :cond_2
 
-    new-instance p3, Lcom/huawei/appmarket/xz;
+    new-instance p3, Lcom/huawei/appmarket/yz;
 
-    const/16 v0, 0x14
+    const/16 v0, 0x15
 
-    invoke-direct {p3, v0, p0, p1, v6}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p3, v0, p0, p1, v6}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p0, p3}, Lcom/huawei/hms/network/file/core/task/i;->a(Ljava/lang/Runnable;)V
 
@@ -1944,11 +1944,11 @@
 
     invoke-interface {v1, v2, v3}, Lcom/huawei/hms/network/file/core/task/c;->b(Lcom/huawei/hms/network/file/api/Request;Lcom/huawei/hms/network/file/core/task/e$a;)V
 
-    new-instance v1, Lcom/huawei/appmarket/q92;
+    new-instance v1, Lcom/huawei/appmarket/st1;
 
-    const/16 v2, 0xd
+    const/16 v2, 0xf
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {p0, v1}, Lcom/huawei/hms/network/file/core/task/i;->a(Ljava/lang/Runnable;)V
 
@@ -2506,7 +2506,7 @@
     const-string v0, "onFileLengthUpdated fileSize:"
 
     .line 26
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3070,7 +3070,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/huawei/hms/network/file/core/a;->a(J)V
 
-    new-instance v0, Lcom/huawei/appmarket/y55;
+    new-instance v0, Lcom/huawei/appmarket/b65;
 
     const/4 v7, 0x6
 
@@ -3080,7 +3080,7 @@
 
     move-object v5, p1
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/y55;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/b65;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
     invoke-virtual {p0, v0}, Lcom/huawei/hms/network/file/core/task/i;->a(Ljava/lang/Runnable;)V
 
@@ -3319,11 +3319,11 @@
 
     move-result-object v0
 
-    new-instance v3, Lcom/huawei/appmarket/q92;
+    new-instance v3, Lcom/huawei/appmarket/st1;
 
-    const/16 v7, 0xc
+    const/16 v7, 0xe
 
-    invoke-direct {v3, p0, v7, v5}, Lcom/huawei/appmarket/q92;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v3, p0, v7, v5}, Lcom/huawei/appmarket/st1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {p0, v3}, Lcom/huawei/hms/network/file/core/task/i;->a(Ljava/lang/Runnable;)V
 

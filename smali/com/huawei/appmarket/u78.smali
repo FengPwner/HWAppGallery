@@ -2,9 +2,6 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/wa2;
-
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
@@ -14,476 +11,471 @@
 .end annotation
 
 
-# instance fields
-.field private final a:Ljava/lang/String;
+# static fields
+.field public static final a:Lcom/huawei/appmarket/u78;
 
-.field private final b:Ljava/lang/String;
+.field private static b:Lcom/huawei/appmarket/hh3;
+
+.field private static c:Landroid/app/AlertDialog;
 
 
 # direct methods
 .method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/u78;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/u78;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/u78;->a:Lcom/huawei/appmarket/u78;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()V
     .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/u78$a;
+    sget-object v0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
 
-    const/4 v1, 0x0
+    if-eqz v0, :cond_0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/u78$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-virtual {v0}, Landroid/app/Dialog;->getOwnerActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/huawei/appmarket/w8;->d(Landroid/content/Context;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
+
+    :cond_0
+    const/4 v0, 0x0
+
+    sput-object v0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
-    .registers 3
+.method public static b(Ljava/lang/String;Landroid/app/Activity;Ljava/util/HashMap;Lcom/huawei/appmarket/z44;)V
+    .registers 8
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/u78;->a:Ljava/lang/String;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/u78;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
-    .registers 3
-
-    .line 1
-    return-object p2
-.end method
-
-.method public final b(Lcom/huawei/appmarket/p81;Lcom/huawei/appmarket/p81;)Lcom/huawei/appmarket/p81;
-    .registers 15
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
+    const-string v0, "tag"
 
     .line 2
     .line 3
-    const-string v1, "UninstallRecommendDataDelegate"
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
-    const-string v2, "onParseNode"
-
     .line 6
-    .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v0, "activity"
 
+    .line 7
     .line 8
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 9
     .line 10
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
-
     .line 11
+    invoke-virtual {p2}, Ljava/util/HashMap;->size()I
+
     .line 12
     .line 13
-    move-result-object v2
-
     .line 14
-    const-string v3, "uninstallAppName"
+    move-result v0
 
     .line 15
+    if-eqz v0, :cond_6
+
     .line 16
-    iget-object v4, p0, Lcom/huawei/appmarket/u78;->a:Ljava/lang/String;
-
     .line 17
-    .line 18
-    invoke-interface {v2, v3, v4}, Lcom/huawei/appmarket/qb2;->put(Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qb2;
+    const-string v1, "{\n                activi\u2026          )\n            }"
 
+    .line 18
     .line 19
+    const/4 v2, 0x0
+
     .line 20
+    const/4 v3, 0x1
+
     .line 21
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
+    if-eq v0, v3, :cond_0
 
     .line 22
     .line 23
-    .line 24
-    move-result-object v2
+    new-array v0, v3, [Ljava/lang/Object;
 
+    .line 24
     .line 25
-    const-string v3, "packageName"
+    invoke-virtual {p2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     .line 26
     .line 27
-    iget-object v4, p0, Lcom/huawei/appmarket/u78;->b:Ljava/lang/String;
-
     .line 28
+    move-result-object v3
+
     .line 29
-    invoke-interface {v2, v3, v4}, Lcom/huawei/appmarket/qb2;->put(Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qb2;
+    invoke-interface {v3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
+    move-result-object v3
 
     .line 33
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
     .line 34
     .line 35
-    move-result-object v2
-
     .line 36
-    const-string v4, "detailId"
+    move-result-object v3
 
     .line 37
-    .line 38
-    invoke-interface {v2, v4}, Lcom/huawei/appmarket/qb2;->optString(Ljava/lang/String;)Ljava/lang/String;
+    check-cast v3, Ljava/util/Map$Entry;
 
+    .line 38
     .line 39
+    invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
     .line 40
     .line 41
-    move-result-object v2
-
     .line 42
-    const-string v4, "node.data.optString(KEY_DETAIL_ID)"
+    move-result-object v3
 
     .line 43
-    .line 44
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    check-cast v3, Ljava/lang/String;
 
+    .line 44
     .line 45
+    invoke-static {v3}, Lcom/huawei/appmarket/za;->a(Ljava/lang/String;)Ljava/lang/String;
+
     .line 46
     .line 47
-    const/4 v4, 0x6
-
     .line 48
-    const-string v5, "?"
+    move-result-object v3
 
     .line 49
-    .line 50
-    const/4 v6, 0x0
+    aput-object v3, v0, v2
 
+    .line 50
     .line 51
-    invoke-static {v2, v5, v6, v6, v4}, Lcom/huawei/appmarket/ip7;->t(Ljava/lang/CharSequence;Ljava/lang/String;IZI)I
+    const v2, 0x7f120177
 
     .line 52
     .line 53
     .line 54
-    move-result v4
+    invoke-virtual {p1, v2, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 55
-    const/4 v5, 0x1
-
     .line 56
-    add-int/2addr v4, v5
-
     .line 57
-    invoke-virtual {v2}, Ljava/lang/String;->length()I
+    move-result-object v0
 
     .line 58
+    :goto_0
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 59
     .line 60
-    move-result v7
-
     .line 61
-    invoke-static {v2, v4, v7}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+    goto :goto_1
 
     .line 62
+    :cond_0
+    new-array v0, v3, [Ljava/lang/Object;
+
     .line 63
     .line 64
-    move-result-object v2
+    invoke-virtual {p2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     .line 65
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
-
     .line 66
     .line 67
+    move-result-object v3
+
     .line 68
-    move-result-object v4
+    invoke-interface {v3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 69
-    const-string v7, "uriParam"
-
     .line 70
     .line 71
-    invoke-interface {v4, v7, v2}, Lcom/huawei/appmarket/qb2;->put(Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qb2;
+    move-result-object v3
 
     .line 72
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
     .line 73
     .line 74
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
-
     .line 75
-    .line 76
-    .line 77
-    move-result-object v2
+    move-result-object v3
 
+    .line 76
+    check-cast v3, Ljava/util/Map$Entry;
+
+    .line 77
     .line 78
-    const-string v4, "list"
+    invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 79
     .line 80
-    invoke-interface {v2, v4}, Lcom/huawei/appmarket/qb2;->optArray(Ljava/lang/String;)Lcom/huawei/appmarket/na2;
-
     .line 81
-    .line 82
-    .line 83
-    move-result-object v2
+    move-result-object v3
 
+    .line 82
+    check-cast v3, Ljava/lang/String;
+
+    .line 83
     .line 84
-    if-nez v2, :cond_0
+    invoke-static {v3}, Lcom/huawei/appmarket/za;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 85
     .line 86
-    const/4 p1, -0x1
-
     .line 87
-    invoke-static {p1}, Lcom/huawei/appmarket/mb;->c0(I)V
+    move-result-object v3
 
     .line 88
+    aput-object v3, v0, v2
+
     .line 89
     .line 90
-    const-string p1, "node listData is null!"
+    const v2, 0x7f120176
 
     .line 91
     .line 92
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 93
+    invoke-virtual {p1, v2, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
     .line 94
     .line 95
-    return-object p2
-
     .line 96
-    :cond_0
-    invoke-interface {v2}, Lcom/huawei/appmarket/na2;->size()I
+    move-result-object v0
 
     .line 97
-    .line 98
-    .line 99
-    move-result v7
+    goto :goto_0
 
+    .line 98
+    :goto_1
+    sget-object v1, Lcom/huawei/appmarket/u78;->b:Lcom/huawei/appmarket/hh3;
+
+    .line 99
     .line 100
-    invoke-static {v7}, Lcom/huawei/appmarket/mb;->c0(I)V
+    if-eqz v1, :cond_1
 
     .line 101
     .line 102
-    .line 103
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
+    invoke-static {p1}, Lcom/huawei/appmarket/w8;->d(Landroid/content/Context;)Z
 
+    .line 103
     .line 104
     .line 105
+    move-result v2
+
     .line 106
-    move-result-object v7
+    if-nez v2, :cond_1
 
     .line 107
-    const-string v8, "isInstalledFilter"
-
     .line 108
-    .line 109
-    invoke-interface {v7, v8, v6}, Lcom/huawei/appmarket/qb2;->optInt(Ljava/lang/String;I)I
+    invoke-interface {v1, p0}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
+    .line 109
     .line 110
     .line 111
+    move-result v2
+
     .line 112
-    move-result v7
+    if-eqz v2, :cond_1
 
     .line 113
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
-
     .line 114
+    invoke-interface {v1, p0}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
+
     .line 115
     .line 116
-    move-result-object p1
-
     .line 117
-    const-string v8, "isUpdatableFilter"
+    :cond_1
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 118
     .line 119
-    invoke-interface {p1, v8, v6}, Lcom/huawei/appmarket/qb2;->optInt(Ljava/lang/String;I)I
-
     .line 120
-    .line 121
-    .line 122
-    move-result p1
+    move-result-object v1
 
+    .line 121
+    const-string v2, "AGDialog"
+
+    .line 122
     .line 123
-    if-nez v7, :cond_1
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 124
     .line 125
-    if-nez p1, :cond_1
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 126
     .line 127
-    const-string p1, "don\'t need filterInstallAndUpdate"
-
     .line 128
+    move-result-object v1
+
     .line 129
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    const-class v2, Lcom/huawei/appmarket/hh3;
 
     .line 130
     .line 131
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+
     .line 132
-    return-object p2
-
     .line 133
-    :cond_1
-    new-instance v0, Lorg/json/JSONArray;
-
     .line 134
+    move-result-object v1
+
     .line 135
-    invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
     .line 136
     .line 137
-    .line 138
-    invoke-interface {v2}, Lcom/huawei/appmarket/na2;->size()I
+    sput-object v1, Lcom/huawei/appmarket/u78;->b:Lcom/huawei/appmarket/hh3;
 
+    .line 138
     .line 139
+    if-eqz v1, :cond_2
+
     .line 140
     .line 141
-    move-result v1
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 142
-    :goto_0
-    if-ge v6, v1, :cond_5
-
     .line 143
     .line 144
-    invoke-interface {v2, v6}, Lcom/huawei/appmarket/na2;->get(I)Ljava/lang/Object;
+    :cond_2
+    sget-object v0, Lcom/huawei/appmarket/u78;->b:Lcom/huawei/appmarket/hh3;
 
     .line 145
     .line 146
-    .line 147
-    move-result-object v8
+    if-eqz v0, :cond_3
 
+    .line 147
     .line 148
-    instance-of v9, v8, Lcom/huawei/appmarket/vo4;
+    const v1, 0x7f120178
 
     .line 149
     .line 150
-    if-eqz v9, :cond_3
-
     .line 151
+    invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
     .line 152
-    move-object v9, v8
-
     .line 153
-    check-cast v9, Lcom/huawei/appmarket/vo4;
-
     .line 154
+    move-result-object v1
+
     .line 155
-    invoke-virtual {v9, v3}, Lcom/huawei/appmarket/wo4;->optString(Ljava/lang/String;)Ljava/lang/String;
+    const/4 v2, -0x1
 
     .line 156
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+
     .line 157
     .line 158
-    move-result-object v9
-
     .line 159
-    const-string v10, "temp.optString(KEY_PACKAGE_NAME)"
+    :cond_3
+    sget-object v0, Lcom/huawei/appmarket/u78;->b:Lcom/huawei/appmarket/hh3;
 
     .line 160
     .line 161
-    invoke-static {v9, v10}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    if-eqz v0, :cond_4
 
     .line 162
     .line 163
+    new-instance v1, Lcom/huawei/appmarket/u78$a;
+
     .line 164
-    const-string v10, "DeviceInstallationInfos"
-
     .line 165
-    .line 166
-    const-class v11, Lcom/huawei/appmarket/yh3;
+    invoke-direct {v1, p2, p3}, Lcom/huawei/appmarket/u78$a;-><init>(Ljava/util/HashMap;Lcom/huawei/appmarket/z44;)V
 
+    .line 166
     .line 167
     .line 168
-    invoke-static {v11, v10}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 169
     .line 170
     .line 171
-    move-result-object v10
+    :cond_4
+    sget-object p2, Lcom/huawei/appmarket/u78;->b:Lcom/huawei/appmarket/hh3;
 
     .line 172
-    check-cast v10, Lcom/huawei/appmarket/yh3;
-
     .line 173
-    .line 174
-    invoke-static {v10, v9}, Lcom/huawei/appmarket/vw7;->f(Lcom/huawei/appmarket/yh3;Ljava/lang/String;)I
+    if-eqz p2, :cond_5
 
+    .line 174
     .line 175
+    invoke-interface {p2, p1, p0}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+
     .line 176
     .line 177
-    move-result v9
-
     .line 178
-    const/4 v10, 0x2
+    :cond_5
+    return-void
 
     .line 179
-    if-ne v7, v5, :cond_2
+    :cond_6
+    sget-object p0, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
 
     .line 180
     .line 181
-    if-eqz v9, :cond_4
+    const-string p1, "UninstallDialogManager"
 
     .line 182
     .line 183
-    if-ne v9, v10, :cond_2
+    const-string p2, "uninstall pkg size is zero"
 
     .line 184
     .line 185
-    goto :goto_1
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 186
-    :cond_2
-    if-ne p1, v10, :cond_3
-
     .line 187
     .line 188
-    const/4 v10, 0x3
-
+    return-void
     .line 189
-    if-eq v9, v10, :cond_4
-
     .line 190
     .line 191
-    const/4 v10, 0x4
-
     .line 192
-    if-ne v9, v10, :cond_3
-
     .line 193
     .line 194
-    goto :goto_1
-
     .line 195
-    :cond_3
-    invoke-virtual {v0, v8}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
-
     .line 196
     .line 197
     .line 198
-    :cond_4
-    :goto_1
-    add-int/lit8 v6, v6, 0x1
-
     .line 199
     .line 200
-    goto :goto_0
-
     .line 201
-    :cond_5
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p81;->i()Lcom/huawei/appmarket/qb2;
-
     .line 202
     .line 203
     .line 204
-    move-result-object p1
-
     .line 205
-    invoke-interface {p1, v4, v0}, Lcom/huawei/appmarket/qb2;->put(Ljava/lang/String;Ljava/lang/Object;)Lcom/huawei/appmarket/qb2;
-
     .line 206
     .line 207
     .line 208
-    return-object p2
     .line 209
     .line 210
     .line 211
@@ -765,246 +757,95 @@
     .line 487
     .line 488
     .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
-    .line 555
-    .line 556
-    .line 557
-    .line 558
-    .line 559
-    .line 560
-    .line 561
-    .line 562
-    .line 563
-    .line 564
-    .line 565
-    .line 566
-    .line 567
-    .line 568
-    .line 569
-    .line 570
-    .line 571
-    .line 572
-    .line 573
-    .line 574
-    .line 575
-    .line 576
-    .line 577
-    .line 578
-    .line 579
-    .line 580
-    .line 581
-    .line 582
-    .line 583
-    .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
-    .line 592
-    .line 593
-    .line 594
-    .line 595
-    .line 596
-    .line 597
-    .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
-    .line 608
-    .line 609
-    .line 610
-    .line 611
-    .line 612
-    .line 613
-    .line 614
-    .line 615
-    .line 616
-    .line 617
-    .line 618
-    .line 619
-    .line 620
-    .line 621
-    .line 622
-    .line 623
-    .line 624
-    .line 625
-    .line 626
-    .line 627
-    .line 628
-    .line 629
-    .line 630
-    .line 631
-    .line 632
-    .line 633
-    .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
-    .line 640
-    .line 641
-    .line 642
-    .line 643
-    .line 644
-    .line 645
-    .line 646
-    .line 647
-    .line 648
-    .line 649
-    .line 650
-    .line 651
-    .line 652
-    .line 653
-    .line 654
-    .line 655
-    .line 656
-    .line 657
-    .line 658
-    .line 659
-    .line 660
-    .line 661
-    .line 662
-    .line 663
-    .line 664
-    .line 665
-    .line 666
-    .line 667
-    .line 668
-    .line 669
-    .line 670
-    .line 671
-    .line 672
-    .line 673
-    .line 674
-    .line 675
-    .line 676
-    .line 677
-    .line 678
-    .line 679
-    .line 680
-    .line 681
-    .line 682
-    .line 683
-    .line 684
-    .line 685
-    .line 686
-    .line 687
-    .line 688
-    .line 689
-    .line 690
-    .line 691
-    .line 692
-    .line 693
-    .line 694
-    .line 695
-    .line 696
-    .line 697
-    .line 698
-    .line 699
-    .line 700
-    .line 701
-    .line 702
 .end method
 
-.method public final c(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/FLNodeData;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/FLNodeData;
+.method public static c(Landroidx/fragment/app/FragmentActivity;)V
     .registers 4
 
     .line 1
-    return-object p2
-.end method
+    if-nez p0, :cond_0
 
-.method public final d(Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/p81;)Lcom/huawei/flexiblelayout/data/d;
-    .registers 3
+    sget-object p0, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
 
-    .line 1
-    return-object p1
-.end method
+    const-string v0, "UninstallDialogManager"
 
-.method public final e()V
-    .registers 4
+    const-string v1, "activity not be null."
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/vc;->a:Lcom/huawei/appmarket/vc;
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v1, "UninstallRecommendDataDelegate"
+    return-void
 
-    const-string v2, "onParseNodeError"
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    if-eqz v0, :cond_1
 
+    invoke-virtual {v0}, Landroid/app/Dialog;->getOwnerActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/huawei/appmarket/w8;->d(Landroid/content/Context;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
+
+    :cond_1
+    invoke-static {p0}, Lcom/huawei/appmarket/ro1;->a(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    const v1, 0x7f0d00bb
+
+    const/4 v2, 0x0
+
+    invoke-static {p0, v1, v2}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0, p0}, Landroid/app/Dialog;->setOwnerActivity(Landroid/app/Activity;)V
+
+    :cond_2
+    sget-object p0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_3
+
+    invoke-virtual {p0, v0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
+
+    :cond_3
+    sget-object p0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
+
+    if-eqz p0, :cond_4
+
+    invoke-virtual {p0, v0}, Landroid/app/Dialog;->setCancelable(Z)V
+
+    :cond_4
+    sget-object p0, Lcom/huawei/appmarket/u78;->c:Landroid/app/AlertDialog;
+
+    if-eqz p0, :cond_5
+
+    invoke-virtual {p0}, Landroid/app/Dialog;->show()V
+
+    :cond_5
     return-void
 .end method

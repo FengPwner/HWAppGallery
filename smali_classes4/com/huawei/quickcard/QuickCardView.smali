@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lb9;->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/sb9;->a(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -309,150 +309,150 @@
     move-result-object p1
 
     .line 40
-    const-string v1, "yoga not loaded"
+    const-string/jumbo v1, "yoga not loaded"
 
     .line 41
     .line 42
+    .line 43
     invoke-virtual {p1, v1}, Lcom/huawei/quickcard/base/bi/CardReporter;->msg(Ljava/lang/String;)Lcom/huawei/quickcard/base/bi/CardReporter;
 
-    .line 43
     .line 44
     .line 45
+    .line 46
     move-result-object p1
 
-    .line 46
+    .line 47
     invoke-virtual {p1}, Lcom/huawei/quickcard/base/bi/CardReporter;->reportBindData()V
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     return v0
 
-    .line 50
+    .line 51
     :cond_0
     invoke-static {v2}, Lcom/huawei/quickcard/utils/IntervalTimerMethodUtil;->clearAllInterval(Lcom/huawei/quickcard/CardContext;)V
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     iget-object v2, p0, Lcom/huawei/quickcard/QuickCardView;->cardContext:Lcom/huawei/quickcard/CardContext;
 
-    .line 54
     .line 55
+    .line 56
     invoke-static {v2}, Lcom/huawei/quickcard/utils/IntervalTimerMethodUtil;->clearAllTimeout(Lcom/huawei/quickcard/CardContext;)V
 
-    .line 56
     .line 57
     .line 58
+    .line 59
     iget-object v2, p0, Lcom/huawei/quickcard/QuickCardView;->cardContext:Lcom/huawei/quickcard/CardContext;
 
-    .line 59
     .line 60
+    .line 61
     invoke-interface {v2, p1}, Lcom/huawei/quickcard/CardContext;->bindData(Lcom/huawei/quickcard/elexecutor/IQuickCardProvider;)I
 
-    .line 61
     .line 62
     .line 63
+    .line 64
     move-result p1
 
-    .line 64
+    .line 65
     if-nez p1, :cond_1
 
-    .line 65
     .line 66
+    .line 67
     const-string v2, "bind data success"
 
-    .line 67
     .line 68
+    .line 69
     goto :goto_0
 
-    .line 69
+    .line 70
     :cond_1
     const-string v2, "bind data fail"
 
-    .line 70
     .line 71
+    .line 72
     :goto_0
     invoke-virtual {v0}, Lcom/huawei/quickcard/base/bi/CardReporter;->end()Lcom/huawei/quickcard/base/bi/CardReporter;
 
-    .line 72
     .line 73
     .line 74
-    move-result-object v0
-
     .line 75
-    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/base/bi/CardReporter;->code(I)Lcom/huawei/quickcard/base/bi/CardReporter;
+    move-result-object v0
 
     .line 76
+    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/base/bi/CardReporter;->code(I)Lcom/huawei/quickcard/base/bi/CardReporter;
+
     .line 77
     .line 78
-    move-result-object v0
-
     .line 79
-    invoke-virtual {v0, v2}, Lcom/huawei/quickcard/base/bi/CardReporter;->msg(Ljava/lang/String;)Lcom/huawei/quickcard/base/bi/CardReporter;
+    move-result-object v0
 
     .line 80
+    invoke-virtual {v0, v2}, Lcom/huawei/quickcard/base/bi/CardReporter;->msg(Ljava/lang/String;)Lcom/huawei/quickcard/base/bi/CardReporter;
+
     .line 81
     .line 82
-    move-result-object v0
-
     .line 83
-    invoke-virtual {v0}, Lcom/huawei/quickcard/base/bi/CardReporter;->reportBindData()V
+    move-result-object v0
 
     .line 84
+    invoke-virtual {v0}, Lcom/huawei/quickcard/base/bi/CardReporter;->reportBindData()V
+
     .line 85
     .line 86
+    .line 87
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 87
     .line 88
+    .line 89
     const-string v2, "call bindData result:"
 
-    .line 89
     .line 90
+    .line 91
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 91
     .line 92
     .line 93
+    .line 94
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 94
     .line 95
     .line 96
+    .line 97
     const-string v2, " with url:"
 
-    .line 97
     .line 98
+    .line 99
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 99
     .line 100
     .line 101
+    .line 102
     iget-object v2, p0, Lcom/huawei/quickcard/QuickCardView;->c:Ljava/lang/String;
 
-    .line 102
     .line 103
+    .line 104
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 104
     .line 105
     .line 106
+    .line 107
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 107
     .line 108
     .line 109
+    .line 110
     move-result-object v0
 
-    .line 110
+    .line 111
     invoke-static {v1, v0}, Lcom/huawei/quickcard/base/log/CardLogUtils;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 111
     .line 112
     .line 113
-    return p1
     .line 114
+    return p1
     .line 115
     .line 116
     .line 117
@@ -520,31 +520,14 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected createCurrentContext()Lcom/huawei/quickcard/CardContext;
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/ax8;
+    new-instance v0, Lcom/huawei/appmarket/gx8;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/ax8;-><init>(Lcom/huawei/quickcard/QuickCardRoot;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/gx8;-><init>(Lcom/huawei/quickcard/QuickCardRoot;)V
 
     return-object v0
 .end method
@@ -611,7 +594,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, v2}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     .line 32
     .line 33
@@ -625,11 +608,11 @@
     .line 37
     .line 38
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/l89;->d:Lcom/huawei/appmarket/l89;
+    sget-object v0, Lcom/huawei/appmarket/r89;->d:Lcom/huawei/appmarket/r89;
 
     .line 39
     .line 40
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/l89;->d(Lcom/huawei/quickcard/QuickCardView;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r89;->d(Lcom/huawei/quickcard/QuickCardView;)V
 
     .line 41
     .line 42
@@ -936,6 +919,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1340,23 +1343,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method protected onAttachedToWindow()V
@@ -1380,7 +1366,7 @@
 
     .line 9
     .line 10
-    instance-of v1, v0, Lcom/huawei/appmarket/du4;
+    instance-of v1, v0, Lcom/huawei/appmarket/gu4;
 
     .line 11
     .line 12
@@ -1388,11 +1374,11 @@
 
     .line 13
     .line 14
-    check-cast v0, Lcom/huawei/appmarket/du4;
+    check-cast v0, Lcom/huawei/appmarket/gu4;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v0}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     .line 17
     .line 18
@@ -1438,17 +1424,17 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     .line 40
     .line 41
     .line 42
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/l89;->d:Lcom/huawei/appmarket/l89;
+    sget-object v0, Lcom/huawei/appmarket/r89;->d:Lcom/huawei/appmarket/r89;
 
     .line 43
     .line 44
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/l89;->a(Lcom/huawei/quickcard/QuickCardView;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/r89;->a(Lcom/huawei/quickcard/QuickCardView;)V
 
     .line 45
     .line 46
@@ -1715,6 +1701,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected onDestroy()V
@@ -1845,7 +1851,7 @@
 
     move-result-object p1
 
-    const-string p2, "yoga not loaded"
+    const-string/jumbo p2, "yoga not loaded"
 
     const/16 p3, 0x17
 
@@ -1940,7 +1946,7 @@
     return-void
 .end method
 
-.method public setLifecycleOwner(Lcom/huawei/appmarket/du4;)V
+.method public setLifecycleOwner(Lcom/huawei/appmarket/gu4;)V
     .registers 4
 
     .line 1
@@ -1952,10 +1958,10 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     :cond_0
-    invoke-interface {p1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object p1
 
@@ -2061,7 +2067,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v2}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
@@ -2234,21 +2240,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;
-.super Lcom/huawei/appmarket/b52;
+.super Lcom/huawei/appmarket/f52;
 .source "SourceFile"
 
 
@@ -23,9 +23,9 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/b52;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/f52;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/b52;->targetActivity:Landroid/app/Activity;
+    iput-object p1, p0, Lcom/huawei/appmarket/f52;->targetActivity:Landroid/app/Activity;
 
     return-void
 .end method
@@ -52,7 +52,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/z84;->C()Z
+    invoke-static {}, Lcom/huawei/appmarket/tr2;->A()Z
 
     .line 2
     .line 3
@@ -72,7 +72,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -86,7 +86,7 @@
 
     .line 18
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     .line 19
     .line 20
@@ -241,7 +241,7 @@
 .method private static msgKeyNotValid(Ljava/lang/String;Ljava/lang/String;)Z
     .registers 3
 
-    invoke-static {p0}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -268,7 +268,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 2
     .line 3
@@ -316,7 +316,7 @@
 
     .line 26
     .line 27
-    invoke-direct {v2, p0, p0}, Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker$a;-><init>(Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;Lcom/huawei/appmarket/b52;)V
+    invoke-direct {v2, p0, p0}, Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker$a;-><init>(Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;Lcom/huawei/appmarket/f52;)V
 
     .line 28
     .line 29
@@ -338,7 +338,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 40
     .line 41
@@ -480,7 +480,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 6
     .line 7
@@ -492,7 +492,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 12
     .line 13
@@ -664,15 +664,15 @@
 
     const-string v1, "check"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/f96;->d()Lcom/huawei/appmarket/f96;
+    invoke-static {}, Lcom/huawei/appmarket/h96;->d()Lcom/huawei/appmarket/h96;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/f96;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/h96;->f()Z
 
     move-result v1
 
@@ -680,7 +680,7 @@
 
     const-string v1, "check onAgree "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;->doCheckSuccess()V
 
@@ -691,11 +691,11 @@
 
     const-string v1, "check not agree"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/b52;->targetActivity:Landroid/app/Activity;
+    iget-object v1, p0, Lcom/huawei/appmarket/f52;->targetActivity:Landroid/app/Activity;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/uw7;->C(Landroid/app/Activity;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ax7;->C(Landroid/app/Activity;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -704,7 +704,7 @@
 .method protected doCheckSuccess()V
     .registers 1
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     return-void
 .end method
@@ -720,7 +720,7 @@
 .method public onDestroy()V
     .registers 1
 
-    invoke-super {p0}, Lcom/huawei/appmarket/b52;->onDestroy()V
+    invoke-super {p0}, Lcom/huawei/appmarket/f52;->onDestroy()V
 
     invoke-direct {p0}, Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;->unregisterProtocolReceiver()V
 
@@ -730,7 +730,7 @@
 .method protected queryContentRestriction()V
     .registers 1
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     return-void
 .end method

@@ -13,15 +13,15 @@
 
 .field public final synthetic d:Ljava/lang/Object;
 
-.field public final synthetic e:Lcom/huawei/appmarket/dv7;
+.field public final synthetic e:Lcom/huawei/appmarket/jv7;
 
-.field public final synthetic f:Lcom/huawei/appmarket/d91;
+.field public final synthetic f:Lcom/huawei/appmarket/e91;
 
 .field public final synthetic g:Z
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$d;Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)V
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$d;Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)V
     .registers 7
 
     .line 1
@@ -33,9 +33,9 @@
 
     iput-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->d:Ljava/lang/Object;
 
-    iput-object p4, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->e:Lcom/huawei/appmarket/dv7;
+    iput-object p4, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->e:Lcom/huawei/appmarket/jv7;
 
-    iput-object p5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->f:Lcom/huawei/appmarket/d91;
+    iput-object p5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->f:Lcom/huawei/appmarket/e91;
 
     iput-boolean p6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->g:Z
 
@@ -60,11 +60,11 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->e:Lcom/huawei/appmarket/dv7;
+    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->e:Lcom/huawei/appmarket/jv7;
 
     .line 8
     .line 9
-    iget-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->f:Lcom/huawei/appmarket/d91;
+    iget-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/f;->f:Lcom/huawei/appmarket/e91;
 
     .line 10
     .line 11
@@ -72,7 +72,7 @@
 
     .line 12
     .line 13
-    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$d;->onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$d;->onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)Z
 
     .line 14
     .line 15

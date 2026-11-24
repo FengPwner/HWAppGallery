@@ -6,7 +6,7 @@
 # instance fields
 .field protected a:Ljava/lang/Object;
 
-.field private b:Lcom/huawei/appmarket/tm2;
+.field private b:Lcom/huawei/appmarket/vm2;
 
 
 # direct methods
@@ -20,20 +20,20 @@
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/tm2;
+.method public final a()Lcom/huawei/appmarket/vm2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/p3;->b:Lcom/huawei/appmarket/tm2;
+    iget-object v0, p0, Lcom/huawei/appmarket/p3;->b:Lcom/huawei/appmarket/vm2;
 
     return-object v0
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tm2;)V
+.method public final c(Lcom/huawei/appmarket/vm2;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/p3;->b:Lcom/huawei/appmarket/tm2;
+    iput-object p1, p0, Lcom/huawei/appmarket/p3;->b:Lcom/huawei/appmarket/vm2;
 
     return-void
 .end method

@@ -49,7 +49,7 @@
 
     .line 9
     .line 10
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 11
     .line 12
@@ -57,7 +57,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -90,7 +90,7 @@
 
     .line 28
     .line 29
-    invoke-static {v2}, Lcom/huawei/appmarket/lh6;->a(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/nh6;->a(Landroid/content/Context;)I
 
     .line 30
     .line 31
@@ -98,7 +98,7 @@
     move-result v2
 
     .line 33
-    invoke-static {v2, v2, v0}, Lcom/huawei/appmarket/b37;->D(IILandroid/view/View;)V
+    invoke-static {v2, v2, v0}, Lcom/huawei/appmarket/g37;->D(IILandroid/view/View;)V
 
     .line 34
     .line 35
@@ -117,7 +117,7 @@
     move-result-object p1
 
     .line 42
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 43
     .line 44
@@ -129,7 +129,7 @@
 
     .line 47
     .line 48
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 49
     .line 50
@@ -137,7 +137,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -165,7 +165,7 @@
 
     .line 64
     .line 65
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 66
     .line 67
@@ -173,7 +173,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -232,7 +232,7 @@
 
     .line 97
     .line 98
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 99
     .line 100
@@ -240,7 +240,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     .line 104
@@ -481,7 +481,7 @@
     .line 260
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -494,7 +494,7 @@
     :cond_0
     new-instance v1, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard$a;-><init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard$a;-><init>(Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -523,7 +523,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard;->y:Landroid/view/View;
 
-    const v0, 0x7f0a16d4
+    const v0, 0x7f0a16d5
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -533,7 +533,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard;->x:Landroid/widget/TextView;
 
-    const v0, 0x7f0a1681
+    const v0, 0x7f0a1682
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointNumberCard;->z:Landroid/widget/TextView;
 
-    const v0, 0x7f0a1812
+    const v0, 0x7f0a1813
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

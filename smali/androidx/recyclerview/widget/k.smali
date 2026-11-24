@@ -26,7 +26,7 @@
 
 .field D0:Landroid/view/View;
 
-.field E0:Lcom/huawei/appmarket/vx2;
+.field E0:Lcom/huawei/appmarket/yx2;
 
 .field private F0:Landroidx/recyclerview/widget/k$e;
 
@@ -1391,7 +1391,7 @@
     .line 80
     .line 81
     :cond_3
-    iget-object v2, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/vx2;
+    iget-object v2, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/yx2;
 
     .line 82
     .line 83
@@ -1399,7 +1399,7 @@
 
     .line 84
     .line 85
-    iput-object v0, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/vx2;
+    iput-object v0, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/yx2;
 
     .line 86
     .line 87
@@ -1526,7 +1526,7 @@
 
     .line 150
     .line 151
-    new-instance p1, Lcom/huawei/appmarket/vx2;
+    new-instance p1, Lcom/huawei/appmarket/yx2;
 
     .line 152
     .line 153
@@ -1546,12 +1546,12 @@
 
     .line 160
     .line 161
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/vx2;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/yx2;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
     .line 162
     .line 163
     .line 164
-    iput-object p1, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/vx2;
+    iput-object p1, p0, Landroidx/recyclerview/widget/k;->E0:Lcom/huawei/appmarket/yx2;
 
     .line 165
     .line 166
@@ -2017,7 +2017,7 @@
     move-result p1
 
     .line 127
-    invoke-static {v1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 128
     .line 129
@@ -2298,6 +2298,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method final d(Landroidx/recyclerview/widget/RecyclerView$d0;Z)V
@@ -5313,7 +5320,7 @@
 
     .line 64
     .line 65
-    sget-object v2, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v2, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     .line 66
     .line 67
@@ -5404,7 +5411,7 @@
     const/4 v8, 0x1
 
     .line 109
-    sget-object v1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v1, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     .line 110
     .line 111
@@ -5600,6 +5607,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$a0;)V
@@ -5695,7 +5709,7 @@
 
     .line 43
     .line 44
-    sget-object v7, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v7, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     .line 45
     .line 46
@@ -5733,7 +5747,7 @@
     move-result p3
 
     .line 63
-    sget-object v4, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v4, Landroidx/recyclerview/widget/m;->a:Lcom/huawei/appmarket/xk4;
 
     .line 64
     .line 65
@@ -6001,6 +6015,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method final p(Landroidx/recyclerview/widget/RecyclerView$d0;I)V
@@ -6197,7 +6218,7 @@
 
     .line 86
     .line 87
-    invoke-static {v1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 88
     .line 89
@@ -6294,7 +6315,7 @@
 
     .line 131
     .line 132
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 133
     .line 134
@@ -6836,7 +6857,7 @@
     move-result v1
 
     .line 380
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 381
     .line 382

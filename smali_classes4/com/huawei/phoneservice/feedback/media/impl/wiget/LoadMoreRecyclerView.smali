@@ -13,9 +13,9 @@
 
 
 # instance fields
-.field private G1:I
+.field private n1:I
 
-.field private H1:I
+.field private o1:I
 
 
 # direct methods
@@ -60,13 +60,13 @@
 
     move-result v0
 
-    iput v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->G1:I
+    iput v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->n1:I
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->findLastVisibleItemPosition()I
 
     move-result p1
 
-    iput p1, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->H1:I
+    iput p1, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->o1:I
 
     goto :goto_1
 
@@ -89,7 +89,7 @@
 .method public getFirstVisiblePosition()I
     .registers 2
 
-    iget v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->G1:I
+    iget v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->n1:I
 
     return v0
 .end method
@@ -97,7 +97,7 @@
 .method public getLastVisiblePosition()I
     .registers 2
 
-    iget v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->H1:I
+    iget v0, p0, Lcom/huawei/phoneservice/feedback/media/impl/wiget/LoadMoreRecyclerView;->o1:I
 
     return v0
 .end method

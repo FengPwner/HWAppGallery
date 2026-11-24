@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/a;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/a;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;)Lcom/huawei/appmarket/u15;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;->H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailappintro/DetailAppIntroTranslateGeneralCard;)Lcom/huawei/appmarket/x15;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u15;->f(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/x15;->f(Landroid/content/Context;)V
 
     invoke-static {}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailprize/DetailDescGeneralCardEx;->F1()V
 

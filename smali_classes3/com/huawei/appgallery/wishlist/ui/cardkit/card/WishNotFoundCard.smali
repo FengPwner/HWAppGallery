@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -31,7 +31,7 @@
     :cond_0
     new-instance v0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishNotFoundCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishNotFoundCard$a;-><init>(Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishNotFoundCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishNotFoundCard$a;-><init>(Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishNotFoundCard;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -48,7 +48,7 @@
     .registers 10
 
     .line 1
-    const v0, 0x7f0a1904
+    const v0, 0x7f0a1905
 
     .line 2
     .line 3
@@ -260,5 +260,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

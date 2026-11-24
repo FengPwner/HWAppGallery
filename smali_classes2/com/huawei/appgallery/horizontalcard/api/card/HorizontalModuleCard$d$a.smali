@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -37,7 +37,7 @@
 .method public final run()V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v0, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -59,7 +59,7 @@
 
     const-string v3, "HorizontalModuleCard"
 
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard$d;->h(Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard$d;)Z
 

@@ -20,14 +20,14 @@
 
 # instance fields
 .field private agrInfo:Lcom/huawei/appgallery/agreement/cloud/impl/bean/QueryAgrReqBean;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private final serviceCountry:Ljava/lang/String;
 
 .field private version:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -40,7 +40,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agreement/cloud/impl/bean/GetAgreementVerReqBean$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/agreement/cloud/impl/bean/GetAgreementVerReqBean$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/agreement/cloud/impl/bean/GetAgreementVerReqBean;->Companion:Lcom/huawei/appgallery/agreement/cloud/impl/bean/GetAgreementVerReqBean$a;
 
@@ -48,7 +48,7 @@
 
     const-class v1, Lcom/huawei/appgallery/agreement/cloud/impl/bean/GetAgreementVerRspBean;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     const-string v0, "serviceCountry"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;-><init>()V
 
@@ -106,11 +106,11 @@
     move-result-object v0
 
     .line 12
-    sget v1, Lcom/huawei/appmarket/dn1;->i:I
+    sget v1, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 13
     .line 14
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->e(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->e(Landroid/content/Context;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -135,7 +135,7 @@
 
     .line 26
     .line 27
-    sget-object v1, Lcom/huawei/appmarket/sj4;->a:Lcom/huawei/appmarket/sj4$a;
+    sget-object v1, Lcom/huawei/appmarket/uj4;->a:Lcom/huawei/appmarket/uj4$a;
 
     .line 28
     .line 29
@@ -144,7 +144,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/sj4$a;->b()Lcom/huawei/appmarket/mt3;
+    invoke-static {}, Lcom/huawei/appmarket/uj4$a;->b()Lcom/huawei/appmarket/ot3;
 
     .line 33
     .line 34
@@ -152,7 +152,7 @@
     move-result-object v1
 
     .line 36
-    invoke-interface {v1}, Lcom/huawei/appmarket/yg3;->a()Lcom/huawei/appmarket/yg3$b;
+    invoke-interface {v1}, Lcom/huawei/appmarket/ah3;->a()Lcom/huawei/appmarket/ah3$b;
 
     .line 37
     .line 38
@@ -164,11 +164,11 @@
 
     .line 41
     .line 42
-    check-cast v1, Lcom/huawei/appmarket/zi;
+    check-cast v1, Lcom/huawei/appmarket/yi;
 
     .line 43
     .line 44
-    invoke-virtual {v1}, Lcom/huawei/appmarket/zi;->c()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yi;->c()Ljava/util/List;
 
     .line 45
     .line 46
@@ -222,11 +222,11 @@
     move-result-object v3
 
     .line 71
-    check-cast v3, Lcom/huawei/appmarket/qj;
+    check-cast v3, Lcom/huawei/appmarket/pj;
 
     .line 72
     .line 73
-    invoke-virtual {v3}, Lcom/huawei/appmarket/qj;->c()Lcom/huawei/appmarket/qj$a;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pj;->c()Lcom/huawei/appmarket/pj$a;
 
     .line 74
     .line 75
@@ -273,12 +273,12 @@
     .line 94
     .line 95
     .line 96
-    sget-object v5, Lcom/huawei/appmarket/qj$a;->c:Lcom/huawei/appmarket/qj$a;
+    sget-object v5, Lcom/huawei/appmarket/pj$a;->c:Lcom/huawei/appmarket/pj$a;
 
     .line 97
     .line 98
     :goto_1
-    invoke-virtual {v4, v5}, Lcom/huawei/appgallery/agreement/cloud/impl/bean/AgreementInfoBean;->W(Lcom/huawei/appmarket/qj$a;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appgallery/agreement/cloud/impl/bean/AgreementInfoBean;->W(Lcom/huawei/appmarket/pj$a;)V
 
     .line 99
     .line 100
@@ -292,7 +292,7 @@
     .line 104
     .line 105
     .line 106
-    invoke-virtual {v3}, Lcom/huawei/appmarket/qj;->b()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pj;->b()I
 
     .line 107
     .line 108
@@ -313,7 +313,7 @@
     .line 115
     .line 116
     .line 117
-    invoke-virtual {v3}, Lcom/huawei/appmarket/qj;->a()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/pj;->a()I
 
     .line 118
     .line 119
@@ -360,7 +360,7 @@
     .line 138
     .line 139
     .line 140
-    sget-object v5, Lcom/huawei/appmarket/qj$a;->b:Lcom/huawei/appmarket/qj$a;
+    sget-object v5, Lcom/huawei/appmarket/pj$a;->b:Lcom/huawei/appmarket/pj$a;
 
     .line 141
     .line 142

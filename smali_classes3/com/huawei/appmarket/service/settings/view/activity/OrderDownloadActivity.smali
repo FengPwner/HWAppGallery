@@ -12,7 +12,7 @@
 
 .field private t:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;
 
-.field u:Lcom/huawei/appmarket/zn5;
+.field u:Lcom/huawei/appmarket/ao5;
 
 
 # direct methods
@@ -25,7 +25,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity$a;-><init>(Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity;->u:Lcom/huawei/appmarket/zn5;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity;->u:Lcom/huawei/appmarket/ao5;
 
     return-void
 .end method
@@ -184,7 +184,7 @@
 
     .line 65
     .line 66
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 67
     .line 68
@@ -215,7 +215,7 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {}, Lcom/huawei/appmarket/fb7;->e()Lcom/huawei/appmarket/fb7;
+    invoke-static {}, Lcom/huawei/appmarket/kb7;->e()Lcom/huawei/appmarket/kb7;
 
     .line 84
     .line 85
@@ -223,7 +223,7 @@
     move-result-object p1
 
     .line 87
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fb7;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kb7;->f()I
 
     .line 88
     .line 89
@@ -257,7 +257,7 @@
 
     .line 102
     .line 103
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 104
     .line 105
@@ -272,7 +272,7 @@
     .line 109
     .line 110
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/vw7;->n(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->u(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
 
     .line 111
     .line 112
@@ -309,11 +309,11 @@
 
     .line 125
     .line 126
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity;->u:Lcom/huawei/appmarket/zn5;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/OrderDownloadActivity;->u:Lcom/huawei/appmarket/ao5;
 
     .line 127
     .line 128
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/zn5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/ao5;)V
 
     .line 129
     .line 130
@@ -550,8 +550,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

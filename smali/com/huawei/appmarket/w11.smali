@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wl5;
+.implements Lcom/huawei/appmarket/yl5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/wl5<",
+        "Lcom/huawei/appmarket/yl5<",
         "Ljava/lang/Object;",
         ">;"
     }
@@ -48,9 +48,9 @@
     iget-object v0, p0, Lcom/huawei/appmarket/w11;->a:Ljava/lang/Class;
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/r88;->a:Lcom/huawei/appmarket/r88;
+    sget-object v1, Lcom/huawei/appmarket/w88;->a:Lcom/huawei/appmarket/w88;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/r88;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/w88;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
     :try_end_0

@@ -35,25 +35,25 @@
 
     const-string v0, "ITokenProvider"
 
-    const-class v1, Lcom/huawei/appmarket/g44;
+    const-class v1, Lcom/huawei/appmarket/i44;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "ISessionProvider"
 
-    const-class v1, Lcom/huawei/appmarket/u14;
-
-    invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
-
-    const-string v0, "IUserInfoProvider"
-
-    const-class v1, Lcom/huawei/appmarket/s54;
+    const-class v1, Lcom/huawei/appmarket/w14;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IInternalSessionProvider"
 
-    const-class v1, Lcom/huawei/appmarket/nt3;
+    const-class v1, Lcom/huawei/appmarket/pt3;
+
+    invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+
+    const-string v0, "IUserInfoProvider"
+
+    const-class v1, Lcom/huawei/appmarket/v54;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

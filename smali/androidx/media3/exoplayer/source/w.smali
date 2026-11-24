@@ -117,7 +117,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     iput v3, p0, Landroidx/media3/exoplayer/source/w;->a:I
 
@@ -143,7 +143,7 @@
     const/4 v3, 0x1
 
     :cond_2
-    invoke-static {v3}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v3}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     if-ne v0, p1, :cond_3
 

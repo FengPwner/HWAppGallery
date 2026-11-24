@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/bl3;
+.implements Lcom/huawei/appmarket/dl3;
 
 
 # annotations
@@ -100,7 +100,7 @@
 
     .line 28
     .line 29
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -162,7 +162,7 @@
     .line 59
     .line 60
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/bx2;->c()Lcom/huawei/appmarket/bx2;
+    invoke-static {}, Lcom/huawei/appmarket/ex2;->c()Lcom/huawei/appmarket/ex2;
 
     .line 61
     .line 62
@@ -170,12 +170,12 @@
     move-result-object p1
 
     .line 64
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/bx2;->h(Ljava/lang/String;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ex2;->h(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-static {}, Lcom/huawei/appmarket/bx2;->c()Lcom/huawei/appmarket/bx2;
+    invoke-static {}, Lcom/huawei/appmarket/ex2;->c()Lcom/huawei/appmarket/ex2;
 
     .line 68
     .line 69
@@ -183,7 +183,7 @@
     move-result-object p1
 
     .line 71
-    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/bx2;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/ex2;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -291,7 +291,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final onDownloadFailed(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
@@ -374,7 +373,7 @@
 
     .line 39
     .line 40
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -443,7 +442,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onDownloadPaused(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
@@ -534,7 +532,7 @@
 
     .line 43
     .line 44
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -599,7 +597,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onDownloaded(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
@@ -623,7 +620,7 @@
 
     const-string v0, "CloudGamePlayActivity"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

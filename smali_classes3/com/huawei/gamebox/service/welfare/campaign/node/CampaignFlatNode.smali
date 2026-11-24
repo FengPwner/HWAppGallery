@@ -18,13 +18,13 @@
     .registers 4
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/di0;
+    new-instance p1, Lcom/huawei/appmarket/ei0;
 
     iget-object v0, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
     const/4 v1, 0x0
 
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/di0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/ei0;-><init>(Landroid/content/Context;Z)V
 
     return-object p1
 .end method
@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0a18c2
+    const v3, 0x7f0a18c3
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,11 +83,11 @@
 
     check-cast v3, Landroid/widget/LinearLayout;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v4
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v5
 
@@ -137,13 +137,13 @@
 
     move-result-object v9
 
-    new-instance v10, Lcom/huawei/appmarket/di0;
+    new-instance v10, Lcom/huawei/appmarket/ei0;
 
-    invoke-direct {v10, p2, v6}, Lcom/huawei/appmarket/di0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v10, p2, v6}, Lcom/huawei/appmarket/ei0;-><init>(Landroid/content/Context;Z)V
 
-    invoke-virtual {v10, v7}, Lcom/huawei/appmarket/di0;->t1(I)V
+    invoke-virtual {v10, v7}, Lcom/huawei/appmarket/ei0;->t1(I)V
 
-    invoke-virtual {v10, v9}, Lcom/huawei/appmarket/di0;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v10, v9}, Lcom/huawei/appmarket/ei0;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     invoke-virtual {p0, v10}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 

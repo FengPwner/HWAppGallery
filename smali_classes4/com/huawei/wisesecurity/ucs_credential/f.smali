@@ -108,7 +108,7 @@
     move-result-object p1
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -353,7 +353,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v7, "verify cert "
+    const-string/jumbo v7, "verify cert "
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -383,7 +383,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v7, "using "
+    const-string/jumbo v7, "using "
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -610,14 +610,14 @@
     .catch Ljava/security/SignatureException; {:try_start_2 .. :try_end_2} :catch_6
 
     :goto_7
-    const-string p1, "verify signature of c1 failed, exception "
+    const-string/jumbo p1, "verify signature of c1 failed, exception "
 
     invoke-static {p1}, Lcom/huawei/wisesecurity/ucs_credential/a;->a(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
     .line 7
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v10
 
@@ -651,14 +651,14 @@
     throw p0
 
     :goto_8
-    const-string p1, "verify cert chain failed , exception "
+    const-string/jumbo p1, "verify cert chain failed , exception "
 
     invoke-static {p1}, Lcom/huawei/wisesecurity/ucs_credential/a;->a(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
     .line 9
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/om5;->h(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/uq5;->f(Ljava/lang/Exception;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v10
 
@@ -680,7 +680,7 @@
     :cond_8
     new-instance p0, Lcom/huawei/wisesecurity/ucs/common/exception/UcsException;
 
-    const-string p1, "verify cert chain failed , certs is empty.."
+    const-string/jumbo p1, "verify cert chain failed , certs is empty.."
 
     invoke-direct {p0, v0, v1, p1}, Lcom/huawei/wisesecurity/ucs/common/exception/UcsException;-><init>(JLjava/lang/String;)V
 

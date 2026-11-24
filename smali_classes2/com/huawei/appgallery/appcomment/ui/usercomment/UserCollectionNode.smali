@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method public final M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/ak0;)V
+.method public final M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -26,7 +26,7 @@
 
     const/16 v2, 0x3ed
 
-    invoke-direct {v1, p2, p1, v2}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v1, p2, p1, v2}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

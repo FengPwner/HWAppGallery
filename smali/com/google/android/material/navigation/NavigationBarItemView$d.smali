@@ -50,7 +50,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {p2, v0, p1}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     .line 7
     .line 8

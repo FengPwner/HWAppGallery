@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/i04;
+.implements Lcom/huawei/appmarket/k04;
 
 
 # annotations
@@ -51,9 +51,9 @@
 
     const-string v1, "OpenForumMessageAction"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/n66;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/p66;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -84,12 +84,12 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction$ForumMsgRestoreCallback;->this$0:Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;->access$200(Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;->access$200(Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     goto :goto_2
 
@@ -117,7 +117,7 @@
     :cond_2
     iget-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction$ForumMsgRestoreCallback;->this$0:Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;->access$300(Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;->access$300(Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/OpenForumMessageAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 

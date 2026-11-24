@@ -1,5 +1,5 @@
 .class public abstract Lcom/google/protobuf/CodedOutputStream;
-.super Lcom/huawei/appmarket/qf0;
+.super Lcom/huawei/appmarket/rf0;
 .source "SourceFile"
 
 
@@ -55,7 +55,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/qf0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rf0;-><init>()V
 
     return-void
 .end method
@@ -1038,6 +1038,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public static l(II)I
@@ -2482,7 +2489,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0, p2}, Lcom/huawei/appmarket/qf0;->a([BII)V
+    invoke-virtual {p0, p1, v0, p2}, Lcom/huawei/appmarket/rf0;->a([BII)V
     :try_end_0
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
 

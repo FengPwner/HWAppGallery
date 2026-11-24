@@ -79,7 +79,7 @@
     move-result-object v0
 
     .line 22
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
@@ -284,7 +284,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private a(Lcom/huawei/hms/network/embedded/a$c;)V

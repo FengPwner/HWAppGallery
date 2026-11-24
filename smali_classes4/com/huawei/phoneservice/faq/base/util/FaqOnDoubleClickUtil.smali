@@ -14,7 +14,7 @@
 
 .method public static conClick(Landroid/view/View;)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-eqz p0, :cond_0

@@ -65,7 +65,7 @@
 
 .field private g:I
 
-.field private h:Lcom/huawei/appmarket/ef7;
+.field private h:Lcom/huawei/appmarket/jf7;
 
 .field private i:F
 
@@ -79,7 +79,7 @@
 
 .field private n:Lcom/huawei/appmarket/l61;
 
-.field private o:Lcom/huawei/appmarket/ff7;
+.field private o:Lcom/huawei/appmarket/kf7;
 
 .field private p:Landroid/util/SparseArray;
     .annotation system Ldalvik/annotation/Signature;
@@ -445,7 +445,7 @@
     return-object p1
 .end method
 
-.method private a(I)Lcom/huawei/appmarket/hf7;
+.method private a(I)Lcom/huawei/appmarket/mf7;
     .registers 3
 
     .line 6
@@ -455,11 +455,11 @@
 
     const/4 p1, 0x0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hf7;->setFixMode(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/mf7;->setFixMode(I)V
 
     const p1, 0x3e4ccccd    # 0.2f
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gf7;->setValueAccuracy(F)Lcom/huawei/appmarket/gf7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/lf7;->setValueAccuracy(F)Lcom/huawei/appmarket/lf7;
 
     return-object v0
 .end method
@@ -735,7 +735,7 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->d:I
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     if-eqz p1, :cond_1
 
@@ -759,9 +759,9 @@
 
     if-eq p1, v0, :cond_3
 
-    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ff7;->c()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kf7;->c()Z
 
     move-result p1
 
@@ -776,15 +776,15 @@
     invoke-virtual {p0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->relocate()V
 
     :cond_3
-    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ff7;->b()Lcom/huawei/appmarket/nk7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kf7;->b()Lcom/huawei/appmarket/tk7;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nk7;->cancel()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tk7;->cancel()V
 
     :cond_4
     return-void
@@ -906,26 +906,26 @@
     .registers 5
 
     .line 2
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ff7;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/kf7;->a()V
 
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->g:I
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ef7;->d()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/jf7;->d()I
 
     move-result v1
 
     :goto_0
     if-ge v0, v1, :cond_1
 
-    iget-object v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ef7;->c(I)Lcom/huawei/appmarket/nk7;
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/jf7;->c(I)Lcom/huawei/appmarket/tk7;
 
     move-result-object v2
 
@@ -936,7 +936,7 @@
     :cond_0
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/nk7;->resetValue(F)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/tk7;->resetValue(F)V
 
     :goto_1
     add-int/lit8 v0, v0, 0x1
@@ -955,24 +955,24 @@
     .registers 5
 
     .line 3
-    new-instance v0, Lcom/huawei/appmarket/ef7;
+    new-instance v0, Lcom/huawei/appmarket/jf7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ef7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/jf7;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iput-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
     const/4 v0, 0x0
 
     :goto_0
     if-ge v0, p1, :cond_0
 
-    invoke-direct {p0, v0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->a(I)Lcom/huawei/appmarket/hf7;
+    invoke-direct {p0, v0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->a(I)Lcom/huawei/appmarket/mf7;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/ef7;->g(Lcom/huawei/appmarket/hf7;)V
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/jf7;->g(Lcom/huawei/appmarket/mf7;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -991,9 +991,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ef7;->h()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/jf7;->h()I
 
     move-result v1
 
@@ -1022,13 +1022,13 @@
 
     sub-int/2addr v4, v5
 
-    iget-object v5, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v5, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/ef7;->c(I)Lcom/huawei/appmarket/nk7;
+    invoke-virtual {v5, v4}, Lcom/huawei/appmarket/jf7;->c(I)Lcom/huawei/appmarket/tk7;
 
     move-result-object v5
 
-    instance-of v6, v5, Lcom/huawei/appmarket/hf7;
+    instance-of v6, v5, Lcom/huawei/appmarket/mf7;
 
     if-nez v6, :cond_1
 
@@ -1039,7 +1039,7 @@
     const-string v7, ", isOverStartEdge = "
 
     .line 4
-    invoke-static {v5, v3, v6, v4, v7}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v3, v6, v4, v7}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -1057,9 +1057,9 @@
     goto :goto_2
 
     :cond_1
-    check-cast v5, Lcom/huawei/appmarket/hf7;
+    check-cast v5, Lcom/huawei/appmarket/mf7;
 
-    invoke-virtual {v5}, Lcom/huawei/appmarket/gf7;->getValue()F
+    invoke-virtual {v5}, Lcom/huawei/appmarket/lf7;->getValue()F
 
     move-result v3
 
@@ -1085,7 +1085,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v5, v4, v3}, Lcom/huawei/appmarket/gf7;->resetNode(FF)V
+    invoke-virtual {v5, v4, v3}, Lcom/huawei/appmarket/lf7;->resetNode(FF)V
 
     :goto_2
     add-int/lit8 v2, v2, 0x1
@@ -1169,11 +1169,11 @@
     return v0
 .end method
 
-.method static synthetic c(Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;)Lcom/huawei/appmarket/ef7;
+.method static synthetic c(Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;)Lcom/huawei/appmarket/jf7;
     .registers 1
 
     .line 2
-    iget-object p0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object p0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
     return-object p0
 .end method
@@ -1184,49 +1184,49 @@
     .line 3
     invoke-direct {p0, p1}, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->b(I)V
 
-    new-instance p1, Lcom/huawei/appmarket/ff7;
+    new-instance p1, Lcom/huawei/appmarket/kf7;
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/ef7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->h:Lcom/huawei/appmarket/jf7;
 
-    invoke-direct {p1, v0}, Lcom/huawei/appmarket/ff7;-><init>(Lcom/huawei/appmarket/hk7;)V
+    invoke-direct {p1, v0}, Lcom/huawei/appmarket/kf7;-><init>(Lcom/huawei/appmarket/nk7;)V
 
-    new-instance v0, Lcom/huawei/appmarket/vv5;
+    new-instance v0, Lcom/huawei/appmarket/xv5;
 
     iget v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->i:F
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/vv5;-><init>(F)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/xv5;-><init>(F)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ff7;->l(Lcom/huawei/appmarket/vv5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/kf7;->l(Lcom/huawei/appmarket/xv5;)V
 
-    new-instance v0, Lcom/huawei/appmarket/vv5;
+    new-instance v0, Lcom/huawei/appmarket/xv5;
 
     iget v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->j:F
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/vv5;-><init>(F)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/xv5;-><init>(F)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ff7;->h(Lcom/huawei/appmarket/vv5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/kf7;->h(Lcom/huawei/appmarket/xv5;)V
 
     iget v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->k:F
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ff7;->g(F)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/kf7;->g(F)V
 
     iget v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->l:F
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ff7;->f(F)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/kf7;->f(F)V
 
     iget v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->m:F
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ff7;->j(F)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/kf7;->j(F)V
 
     iget v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->r:I
 
     iget v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->s:I
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/ff7;->i(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/kf7;->i(II)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ff7;->n()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kf7;->n()V
 
-    iput-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iput-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     return-void
 .end method
@@ -1565,13 +1565,13 @@
     const/16 v0, 0x14
 
     :cond_2
-    new-instance v1, Lcom/huawei/appmarket/vv5;
+    new-instance v1, Lcom/huawei/appmarket/xv5;
 
     const/high16 v2, -0x40800000    # -1.0f
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/vv5;-><init>(F)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/xv5;-><init>(F)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/l61;->a(ILcom/huawei/appmarket/vv5;)Lcom/huawei/appmarket/l61;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/l61;->a(ILcom/huawei/appmarket/xv5;)Lcom/huawei/appmarket/l61;
 
     move-result-object v0
 
@@ -2197,7 +2197,7 @@
 .method protected initChain()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     if-nez v0, :cond_0
 
@@ -2373,7 +2373,7 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     if-eqz v0, :cond_2
 
@@ -2479,7 +2479,7 @@
     return-void
 
     :cond_1
-    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     if-nez p1, :cond_2
 
@@ -2505,13 +2505,13 @@
 
     iput p1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->g:I
 
-    iget-object p2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object p2, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     neg-int p1, p1
 
     int-to-float p1, p1
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ff7;->m(F)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/kf7;->m(F)V
 
     const/4 p1, 0x1
 
@@ -2531,7 +2531,7 @@
 
     iput-boolean v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->f:Z
 
-    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/ff7;
+    iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->o:Lcom/huawei/appmarket/kf7;
 
     iget v1, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->d:I
 
@@ -2539,7 +2539,7 @@
 
     sub-int/2addr v1, v2
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ff7;->e(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kf7;->e(I)V
 
     iget-object v0, p0, Lcom/huawei/uikit/hwrecyclerview/widget/HwChainAnimationHelper;->p:Landroid/util/SparseArray;
 

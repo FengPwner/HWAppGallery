@@ -106,13 +106,13 @@
 
     const/16 v4, 0xc
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
     iget-object v5, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->mContext:Landroid/content/Context;
 
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v4
 
@@ -134,7 +134,7 @@
 
     iget-object v4, p0, Lcom/huawei/appgallery/forum/posts/adapter/VoteOptionBaseAdapter;->mContext:Landroid/content/Context;
 
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -162,7 +162,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/forum/posts/adapter/PostOptionAdapter$c;
 
-    const v0, 0x7f0a1833
+    const v0, 0x7f0a1834
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -172,7 +172,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/PostOptionAdapter$c;->g:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a1838
+    const v0, 0x7f0a1839
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -182,7 +182,7 @@
 
     iput-object v0, p1, Lcom/huawei/appgallery/forum/posts/adapter/PostOptionAdapter$c;->i:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a1832
+    const v0, 0x7f0a1833
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

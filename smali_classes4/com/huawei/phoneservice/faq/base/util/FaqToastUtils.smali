@@ -14,7 +14,7 @@
 
 .method public static makeText(Landroid/content/Context;Ljava/lang/String;)V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0

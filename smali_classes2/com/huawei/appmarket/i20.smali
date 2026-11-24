@@ -156,7 +156,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -179,11 +179,11 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -221,7 +221,7 @@
 
     const-string v2, "BadgeSettingController"
 
-    invoke-virtual {p0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -235,7 +235,7 @@
     return v0
 .end method
 
-.method public static declared-synchronized c(Landroid/content/Context;ILcom/huawei/appmarket/w72;)V
+.method public static declared-synchronized c(Landroid/content/Context;ILcom/huawei/appmarket/a82;)V
     .registers 7
 
     .line 1
@@ -252,11 +252,11 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v2
 
@@ -266,7 +266,7 @@
 
     const-string v2, "content://com.hihonor.android.launcher.settings/badge/"
 
-    invoke-static {p0, p1, p2, v2}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/w72;Ljava/lang/String;)Z
+    invoke-static {p0, p1, p2, v2}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/a82;Ljava/lang/String;)Z
 
     move-result v2
 
@@ -274,7 +274,7 @@
 
     const-string v2, "content://com.huawei.android.launcher.settings/badge/"
 
-    invoke-static {p0, p1, p2, v2}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/w72;Ljava/lang/String;)Z
+    invoke-static {p0, p1, p2, v2}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/a82;Ljava/lang/String;)Z
 
     move-result p0
 
@@ -292,7 +292,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, p2, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -304,7 +304,7 @@
     :cond_0
     const-string v0, "content://com.huawei.android.launcher.settings/badge/"
 
-    invoke-static {p0, p1, p2, v0}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/w72;Ljava/lang/String;)Z
+    invoke-static {p0, p1, p2, v0}, Lcom/huawei/appmarket/i20;->e(Landroid/content/Context;ILcom/huawei/appmarket/a82;Ljava/lang/String;)Z
 
     goto :goto_0
 
@@ -545,7 +545,7 @@
     move-result-object p0
 
     .line 114
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -597,7 +597,7 @@
     move-result-object p0
 
     .line 139
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     .line 141
@@ -625,10 +625,9 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method private static e(Landroid/content/Context;ILcom/huawei/appmarket/w72;Ljava/lang/String;)Z
+.method private static e(Landroid/content/Context;ILcom/huawei/appmarket/a82;Ljava/lang/String;)Z
     .registers 10
 
     .line 1
@@ -640,7 +639,7 @@
 
     if-eqz p2, :cond_2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/w72;->getMainActivity()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/a82;->getMainActivity()Ljava/lang/String;
 
     move-result-object v3
 
@@ -667,7 +666,7 @@
 
     const-string v4, "class"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/w72;->getMainActivity()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/a82;->getMainActivity()Ljava/lang/String;
 
     move-result-object p2
 
@@ -712,7 +711,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -783,7 +782,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1, v2, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -792,7 +791,7 @@
 
     const-string p1, "can not set badge, IllegalArgumentException"
 
-    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     return v1
@@ -803,7 +802,7 @@
 
     const-string p1, "can not set badge, param is invalid"
 
-    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 .end method

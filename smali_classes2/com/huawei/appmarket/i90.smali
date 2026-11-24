@@ -52,7 +52,7 @@
     move-result-object v1
 
     .line 13
-    invoke-static {v1}, Lcom/huawei/appmarket/wl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+    invoke-static {v1}, Lcom/huawei/appmarket/zl6;->a(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
 
     .line 14
     .line 15
@@ -108,7 +108,7 @@
     move-result-object v6
 
     .line 39
-    invoke-static {v6}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 40
     .line 41
@@ -149,7 +149,7 @@
     move-result-object v7
 
     .line 58
-    invoke-static {v7}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 59
     .line 60
@@ -323,7 +323,7 @@
     .line 136
     :catch_0
     :try_start_1
-    sget-object v5, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v5, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 137
     .line 138
@@ -362,7 +362,7 @@
     move-result-object v6
 
     .line 157
-    invoke-virtual {v5, v8, v6}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v8, v6}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

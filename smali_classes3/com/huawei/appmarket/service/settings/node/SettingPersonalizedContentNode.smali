@@ -48,7 +48,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 16
     .line 17
@@ -259,5 +259,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

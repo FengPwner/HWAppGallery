@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/co;
+.implements Lcom/huawei/appmarket/bo;
 
 
 # instance fields

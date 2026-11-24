@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/s64;
+.field private b:Lcom/huawei/appmarket/v64;
 
 
 # direct methods
@@ -40,21 +40,21 @@
 .method public final onWindowVisibilityChanged(I)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureLinearLayout;->b:Lcom/huawei/appmarket/s64;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureLinearLayout;->b:Lcom/huawei/appmarket/v64;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/s64;->t(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/v64;->t(I)V
 
     :cond_0
     return-void
 .end method
 
-.method public setWindowVisibilityListener(Lcom/huawei/appmarket/s64;)V
+.method public setWindowVisibilityListener(Lcom/huawei/appmarket/v64;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureLinearLayout;->b:Lcom/huawei/appmarket/s64;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/view/ExposureLinearLayout;->b:Lcom/huawei/appmarket/v64;
 
     return-void
 .end method

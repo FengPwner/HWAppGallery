@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/sa2;Lcom/huawei/page/flowlist/FlowList;)V
+.method private constructor <init>(Lcom/huawei/appmarket/va2;Lcom/huawei/page/flowlist/FlowList;)V
     .registers 3
 
     .line 1
@@ -45,11 +45,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/sa2;Lcom/huawei/page/flowlist/FlowList;Lcom/huawei/page/flowlist/a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/va2;Lcom/huawei/page/flowlist/FlowList;Lcom/huawei/page/flowlist/a;)V
     .registers 4
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/huawei/page/flowlist/FlowList$b;-><init>(Lcom/huawei/appmarket/sa2;Lcom/huawei/page/flowlist/FlowList;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/page/flowlist/FlowList$b;-><init>(Lcom/huawei/appmarket/va2;Lcom/huawei/page/flowlist/FlowList;)V
 
     return-void
 .end method
@@ -77,7 +77,7 @@
     const-string p1, "flowList == null"
 
     :goto_0
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 
@@ -93,7 +93,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->o(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/uc2;
+    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->o(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/xc2;
 
     move-result-object v4
 
@@ -104,28 +104,28 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->q(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/gb2;
+    invoke-static {v0}, Lcom/huawei/page/flowlist/FlowList;->q(Lcom/huawei/page/flowlist/FlowList;)Lcom/huawei/appmarket/jb2;
 
     move-result-object v0
 
     if-nez v0, :cond_3
 
-    new-instance v0, Lcom/huawei/appmarket/bj0;
+    new-instance v0, Lcom/huawei/appmarket/cj0;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/bj0;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/cj0;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
 
     return-object v0
 
     :cond_3
-    invoke-interface {v0, v4, v3}, Lcom/huawei/appmarket/gb2;->b(Lcom/huawei/appmarket/uc2;Lcom/huawei/page/flowlist/FlowListData;)Lcom/huawei/appmarket/sm2;
+    invoke-interface {v0, v4, v3}, Lcom/huawei/appmarket/jb2;->b(Lcom/huawei/appmarket/xc2;Lcom/huawei/page/flowlist/FlowListData;)Lcom/huawei/appmarket/um2;
 
     move-result-object v0
 
     if-nez v0, :cond_4
 
-    new-instance v0, Lcom/huawei/appmarket/bj0;
+    new-instance v0, Lcom/huawei/appmarket/cj0;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/bj0;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/cj0;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
 
     :cond_4
     return-object v0

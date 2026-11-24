@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->c:Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -46,9 +46,9 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->c:Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->b:Lcom/huawei/appmarket/ak0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizontalHotTopicItemCard$a;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method

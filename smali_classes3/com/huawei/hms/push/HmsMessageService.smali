@@ -516,7 +516,7 @@
     const-string v6, ",subjectId:"
 
     .line 4
-    invoke-static {v4, p2, v5, v1, v6}, Lcom/huawei/appmarket/z84;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, p2, v5, v1, v6}, Lcom/huawei/appmarket/kk4;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -801,7 +801,7 @@
     const-string v2, ", transactionId: "
 
     .line 3
-    invoke-static {v0, p2, v1, p3, v2}, Lcom/huawei/appmarket/z84;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p2, v1, p3, v2}, Lcom/huawei/appmarket/kk4;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1372,7 +1372,7 @@
     .line 261
     .line 262
     .line 263
-    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v4}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 264
     .line 265
@@ -1484,8 +1484,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;

@@ -2,5 +2,10 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/io/Serializable;
+
+# virtual methods
+.method public abstract getDisplayConfig()Lcom/huawei/appmarket/wm8;
+.end method
+
+.method public abstract updateDisplayConfig(Ljava/lang/String;Ljava/lang/String;)V
+.end method

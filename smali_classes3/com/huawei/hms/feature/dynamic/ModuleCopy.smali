@@ -181,7 +181,7 @@
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 2
-    invoke-static {p2}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -278,7 +278,7 @@
     .registers 10
 
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -288,12 +288,12 @@
     const-string v2, "0"
 
     .line 9
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 10
-    invoke-static {v0, v1, p3}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, p3}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -333,11 +333,11 @@
 
     .line 12
     :cond_1
-    invoke-static {p1, v1, p4}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1, p4}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p0, v1, p3}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v1, p3}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -824,11 +824,11 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->b(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->b(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/rr5;->d(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p0}, Lcom/huawei/appmarket/tr5;->d(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object p0
 

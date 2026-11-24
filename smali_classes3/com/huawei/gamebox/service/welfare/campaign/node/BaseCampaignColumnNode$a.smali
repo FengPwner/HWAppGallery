@@ -43,13 +43,13 @@
 
     iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignColumnNode$a;->c:Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignColumnNode;
 
-    iget-object p1, p1, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p1, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignWithTitleNode;->l:Lcom/huawei/appmarket/bk0;
 
     const/4 v0, 0x0
 
     iget-object v1, p0, Lcom/huawei/gamebox/service/welfare/campaign/node/BaseCampaignColumnNode$a;->b:Lcom/huawei/gamebox/service/common/cardkit/card/BaseGsCard;
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     return-void
 .end method

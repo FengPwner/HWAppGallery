@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/ge1;J)Lcom/huawei/appmarket/r90$e;
+.method public abstract a(Lcom/huawei/appmarket/ie1;J)Lcom/huawei/appmarket/r90$e;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

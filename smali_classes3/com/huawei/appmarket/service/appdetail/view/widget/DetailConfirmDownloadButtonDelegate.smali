@@ -14,21 +14,21 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+.method public final a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
     .registers 4
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/om7;
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Lcom/huawei/appmarket/um7;
 
     move-result-object v0
 
-    instance-of v1, p1, Lcom/huawei/appmarket/hm6;
+    instance-of v1, p1, Lcom/huawei/appmarket/km6;
 
     if-eqz v1, :cond_5
 
-    check-cast p1, Lcom/huawei/appmarket/hm6;
+    check-cast p1, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/hm6;->F()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/km6;->F()I
 
     move-result p1
 
@@ -67,12 +67,12 @@
     if-ne p1, v1, :cond_5
 
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/dt1;->h:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->h:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f120a48
 
     :goto_0
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/dt1;I)Lcom/huawei/appmarket/om7;
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->H(Lcom/huawei/appmarket/gt1;I)Lcom/huawei/appmarket/um7;
 
     move-result-object p1
 
@@ -80,7 +80,7 @@
 
     :cond_3
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/dt1;->c:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->c:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f12040d
 
@@ -88,7 +88,7 @@
 
     :cond_4
     :goto_2
-    sget-object p1, Lcom/huawei/appmarket/dt1;->e:Lcom/huawei/appmarket/dt1;
+    sget-object p1, Lcom/huawei/appmarket/gt1;->e:Lcom/huawei/appmarket/gt1;
 
     const v0, 0x7f120410
 
@@ -98,34 +98,34 @@
     return-object v0
 .end method
 
-.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+.method public final e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
     .registers 8
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/dt1;->q:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->q:Lcom/huawei/appmarket/gt1;
 
     if-ne p2, v0, :cond_0
 
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    instance-of v0, p1, Lcom/huawei/appmarket/hm6;
+    instance-of v0, p1, Lcom/huawei/appmarket/km6;
 
     if-eqz v0, :cond_2
 
     move-object v0, p1
 
-    check-cast v0, Lcom/huawei/appmarket/hm6;
+    check-cast v0, Lcom/huawei/appmarket/km6;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hm6;->F()I
+    invoke-interface {v0}, Lcom/huawei/appmarket/km6;->F()I
 
     move-result v1
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hm6;->m()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/huawei/appmarket/km6;->m()Ljava/lang/String;
 
     move-result-object v0
 
@@ -149,7 +149,7 @@
     return-object v0
 
     :cond_2
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/service/appdetail/view/widget/DetailDownloadButtonDelegate;->e(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;Ljava/lang/CharSequence;Lcom/huawei/uikit/hwtextview/widget/HwTextView;)Ljava/lang/CharSequence;
 
     move-result-object p1
 

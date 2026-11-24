@@ -44,14 +44,14 @@
     .end annotation
 .end field
 
-.field static sSoFileLoader:Lcom/huawei/appmarket/ph7;
+.field static sSoFileLoader:Lcom/huawei/appmarket/uh7;
 
 .field private static sSoSources:[Lcom/facebook/soloader/f;
     .annotation runtime Ljavax/annotation/Nullable;
     .end annotation
 .end field
 
-.field private static sSystemLoadLibraryWrapper:Lcom/huawei/appmarket/bt7;
+.field private static sSystemLoadLibraryWrapper:Lcom/huawei/appmarket/ht7;
     .annotation runtime Ljavax/annotation/Nullable;
     .end annotation
 .end field
@@ -1281,7 +1281,7 @@
     .line 119
     .line 120
     .line 121
-    sput-object v7, Lcom/facebook/soloader/SoLoader;->sSoFileLoader:Lcom/huawei/appmarket/ph7;
+    sput-object v7, Lcom/facebook/soloader/SoLoader;->sSoFileLoader:Lcom/huawei/appmarket/uh7;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1307,6 +1307,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static c()V
@@ -1570,6 +1571,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static declared-synchronized d(ILjava/lang/String;)V

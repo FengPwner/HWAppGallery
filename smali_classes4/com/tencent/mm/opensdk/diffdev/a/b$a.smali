@@ -60,7 +60,7 @@
     :try_start_0
     new-instance v4, Ljava/lang/String;
 
-    const-string v5, "utf-8"
+    const-string/jumbo v5, "utf-8"
 
     invoke-direct {v4, p0, v5}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
     :try_end_0
@@ -156,7 +156,7 @@
 
     iput-object v4, v0, Lcom/tencent/mm/opensdk/diffdev/a/b$a;->e:[B
 
-    const-string v4, "uuid"
+    const-string/jumbo v4, "uuid"
 
     invoke-virtual {p0, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 

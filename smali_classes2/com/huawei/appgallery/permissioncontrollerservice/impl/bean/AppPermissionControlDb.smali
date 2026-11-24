@@ -5,7 +5,7 @@
 
 # instance fields
 .field private defaultAllowPermissions:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ListStringTypeProcess;
     .end annotation
 
@@ -19,12 +19,12 @@
 .end field
 
 .field private displayReason:I
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private forbiddenDefaultAppTypes:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ListStringTypeProcess;
     .end annotation
 
@@ -38,7 +38,7 @@
 .end field
 
 .field private permissionControl:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/PermissionControlTypeProcess;
     .end annotation
 
@@ -52,12 +52,12 @@
 .end field
 
 .field private pkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private signs:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
         getProcess = Lcom/huawei/appgallery/permissioncontrollerservice/impl/storage/process/ListStringTypeProcess;
     .end annotation
 

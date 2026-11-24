@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/no;
+.field private static a:Lcom/huawei/appmarket/mo;
 
 
 # direct methods
@@ -64,17 +64,17 @@
 
     .line 22
     .line 23
-    new-instance v0, Lcom/huawei/appmarket/vd2;
+    new-instance v0, Lcom/huawei/appmarket/yd2;
 
     .line 24
     .line 25
-    invoke-direct {v0}, Lcom/huawei/appmarket/vd2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/yd2;-><init>()V
 
     .line 26
     .line 27
     .line 28
     :goto_0
-    sput-object v0, Lcom/huawei/appmarket/e90;->a:Lcom/huawei/appmarket/no;
+    sput-object v0, Lcom/huawei/appmarket/e90;->a:Lcom/huawei/appmarket/mo;
 
     .line 29
     .line 30
@@ -110,11 +110,11 @@
 
     .line 44
     .line 45
-    new-instance v0, Lcom/huawei/appmarket/od6;
+    new-instance v0, Lcom/huawei/appmarket/qd6;
 
     .line 46
     .line 47
-    invoke-direct {v0}, Lcom/huawei/appmarket/od6;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/qd6;-><init>()V
 
     .line 48
     .line 49
@@ -123,11 +123,11 @@
 
     .line 51
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/no;
+    new-instance v0, Lcom/huawei/appmarket/mo;
 
     .line 52
     .line 53
-    invoke-direct {v0}, Lcom/huawei/appmarket/no;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/mo;-><init>()V
 
     .line 54
     .line 55
@@ -136,11 +136,11 @@
 
     .line 57
     :goto_1
-    sget-object v0, Lcom/huawei/appmarket/e90;->a:Lcom/huawei/appmarket/no;
+    sget-object v0, Lcom/huawei/appmarket/e90;->a:Lcom/huawei/appmarket/mo;
 
     .line 58
     .line 59
-    invoke-static {v0}, Lcom/huawei/appmarket/a73;->k(Lcom/huawei/appmarket/no;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/d73;->k(Lcom/huawei/appmarket/mo;)V
 
     .line 60
     .line 61
@@ -153,7 +153,7 @@
 
     .line 65
     .line 66
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
     .line 68

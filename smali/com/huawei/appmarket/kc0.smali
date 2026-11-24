@@ -8,24 +8,24 @@
 
 .field private c:[B
 
-.field private d:Lcom/huawei/appmarket/hx;
+.field private d:Lcom/huawei/appmarket/ix;
 
 .field private e:I
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/hx;)V
+.method public constructor <init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/ix;)V
     .registers 4
 
     .line 1
     const/high16 v0, 0x10000
 
-    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/appmarket/kc0;-><init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/hx;I)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/appmarket/kc0;-><init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/ix;I)V
 
     return-void
 .end method
 
-.method constructor <init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/hx;I)V
+.method constructor <init>(Ljava/io/OutputStream;Lcom/huawei/appmarket/ix;I)V
     .registers 4
 
     .line 2
@@ -33,11 +33,11 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/kc0;->b:Ljava/io/OutputStream;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/kc0;->d:Lcom/huawei/appmarket/hx;
+    iput-object p2, p0, Lcom/huawei/appmarket/kc0;->d:Lcom/huawei/appmarket/ix;
 
     const-class p1, [B
 
-    invoke-interface {p2, p3, p1}, Lcom/huawei/appmarket/hx;->d(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p2, p3, p1}, Lcom/huawei/appmarket/ix;->d(ILjava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -84,11 +84,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/huawei/appmarket/kc0;->d:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/huawei/appmarket/kc0;->d:Lcom/huawei/appmarket/ix;
 
     .line 14
     .line 15
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/hx;->put(Ljava/lang/Object;)V
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
 
     .line 16
     .line 17
@@ -223,6 +223,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final flush()V
@@ -386,6 +387,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final write(I)V

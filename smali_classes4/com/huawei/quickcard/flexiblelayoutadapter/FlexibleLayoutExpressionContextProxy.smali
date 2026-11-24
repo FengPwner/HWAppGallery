@@ -162,7 +162,7 @@
     .registers 4
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/ip3;->a(Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;Ljava/lang/String;Ljava/util/Collection;Ljava/util/Collection;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcom/huawei/appmarket/kp3;->a(Lcom/huawei/quickcard/elexecutor/IExpressionContextProxy;Ljava/lang/String;Ljava/util/Collection;Ljava/util/Collection;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -276,7 +276,7 @@
 
     invoke-virtual {p2, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v2, "}catch(err){};"
+    const-string/jumbo v2, "}catch(err){};"
 
     invoke-virtual {p2, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -365,7 +365,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/hp3;->c(Lcom/huawei/quickcard/elexecutor/IExpressionContext;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/jp3;->c(Lcom/huawei/quickcard/elexecutor/IExpressionContext;)I
 
     move-result v0
 

@@ -4,13 +4,13 @@
 
 
 # virtual methods
-.method public abstract getUserAddress(Lcom/huawei/hms/identity/entity/UserAddressRequest;)Lcom/huawei/appmarket/hv7;
+.method public abstract getUserAddress(Lcom/huawei/hms/identity/entity/UserAddressRequest;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/identity/entity/UserAddressRequest;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hms/identity/entity/GetUserAddressResult;",
             ">;"
         }

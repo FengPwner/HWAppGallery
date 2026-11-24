@@ -44,7 +44,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/hy;->f(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/iy;->f(Ljava/lang/Object;)V
 
     invoke-static {v0}, Landroidx/media3/exoplayer/video/e;->i1(Landroidx/media3/exoplayer/video/e;)V
 

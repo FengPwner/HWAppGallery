@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ge7;
+.implements Lcom/huawei/appmarket/le7;
 .implements Landroidx/appcompat/view/menu/j;
 .implements Landroid/widget/AdapterView$OnItemClickListener;
 

@@ -1,99 +1,92 @@
 .class public final Lcom/huawei/appmarket/yw2;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/x1;
 .source "SourceFile"
 
 
-# static fields
-.field private static final b:[B
-
-.field private static volatile c:Lcom/huawei/appmarket/yw2;
-
-
-# instance fields
-.field private a:Lcom/huawei/appmarket/cr3;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/x1<",
+        "Ljava/lang/Boolean;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    const/4 v0, 0x0
+    invoke-direct {p0}, Lcom/huawei/appmarket/x1;-><init>()V
 
-    new-array v0, v0, [B
+    const-string v0, "GameResourceJobTask"
 
-    sput-object v0, Lcom/huawei/appmarket/yw2;->b:[B
+    iput-object v0, p0, Lcom/huawei/appmarket/x1;->b:Ljava/lang/String;
 
     return-void
 .end method
 
-.method private constructor <init>()V
+
+# virtual methods
+.method protected final k(Landroid/content/Context;Ljava/lang/Object;)Ljava/lang/Object;
     .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    check-cast p2, Ljava/lang/Boolean;
 
     .line 2
     .line 3
-    .line 4
-    invoke-static {}, Lcom/huawei/appmarket/yw2;->b()Z
+    const-string p1, "GameResourceJobTask"
 
+    .line 4
     .line 5
+    const-string p2, "GameResourceJobTask execute"
+
     .line 6
     .line 7
-    move-result v0
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
-    if-eqz v0, :cond_0
-
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/bx2;->d()Lcom/huawei/appmarket/bx2;
 
     .line 11
     .line 12
     .line 13
-    move-result-object v0
+    move-result-object p1
 
     .line 14
-    const-string v1, "GameResourcePreLoad"
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bx2;->c()V
 
     .line 15
     .line 16
-    check-cast v0, Lcom/huawei/appmarket/dr6;
-
     .line 17
-    .line 18
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
+    .line 18
     .line 19
+    return-object p1
     .line 20
     .line 21
-    move-result-object v0
-
     .line 22
-    const-class v1, Lcom/huawei/appmarket/cr3;
-
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
-
     .line 25
     .line 26
     .line 27
-    move-result-object v0
-
     .line 28
-    check-cast v0, Lcom/huawei/appmarket/cr3;
-
     .line 29
     .line 30
-    iput-object v0, p0, Lcom/huawei/appmarket/yw2;->a:Lcom/huawei/appmarket/cr3;
-
     .line 31
     .line 32
-    :cond_0
-    return-void
     .line 33
     .line 34
     .line 35
@@ -226,147 +219,62 @@
     .line 162
     .line 163
     .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method
 
-.method private static b()Z
+.method public final p()I
     .registers 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x18
-
-    if-lt v0, v1, :cond_0
-
     const/4 v0, 0x1
 
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
     return v0
 .end method
 
-.method public static d()Lcom/huawei/appmarket/yw2;
+.method protected final s()Ljava/lang/String;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/yw2;->b:[B
+    const-string v0, "GameResourceJobTask"
 
-    monitor-enter v0
-
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/yw2;->c:Lcom/huawei/appmarket/yw2;
-
-    if-nez v1, :cond_0
-
-    new-instance v1, Lcom/huawei/appmarket/yw2;
-
-    invoke-direct {v1}, Lcom/huawei/appmarket/yw2;-><init>()V
-
-    sput-object v1, Lcom/huawei/appmarket/yw2;->c:Lcom/huawei/appmarket/yw2;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    sget-object v1, Lcom/huawei/appmarket/yw2;->c:Lcom/huawei/appmarket/yw2;
-
-    monitor-exit v0
-
-    return-object v1
-
-    :goto_1
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v1
+    return-object v0
 .end method
 
+.method protected final bridge synthetic t(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
 
-# virtual methods
-.method public final a()V
+    .line 1
+    check-cast p2, Ljava/lang/Boolean;
+
+    check-cast p3, Ljava/lang/Boolean;
+
+    return-void
+.end method
+
+.method protected final u(Landroid/content/Context;)Ljava/lang/Object;
     .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yw2;->b()Z
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/yw2;->a:Lcom/huawei/appmarket/cr3;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/cr3;->c()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final c()V
-    .registers 2
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yw2;->b()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/yw2;->a:Lcom/huawei/appmarket/cr3;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/cr3;->d()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final e()V
-    .registers 3
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yw2;->b()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/yw2;->a:Lcom/huawei/appmarket/cr3;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/cr3;->init()V
-
-    new-instance v1, Lcom/huawei/appmarket/tw2;
-
-    invoke-direct {v1}, Lcom/huawei/appmarket/tw2;-><init>()V
-
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/cr3;->b(Lcom/huawei/appmarket/tw2;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final f()V
-    .registers 2
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/yw2;->b()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/huawei/appmarket/yw2;->a:Lcom/huawei/appmarket/cr3;
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/cr3;->a()V
-
-    :cond_0
-    return-void
+    return-object p1
 .end method

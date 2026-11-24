@@ -56,11 +56,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/tg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
+    invoke-static {}, Lcom/huawei/appmarket/wg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/kf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
+    invoke-static {}, Lcom/huawei/appmarket/nf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
 
     move-result-object v1
 

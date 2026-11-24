@@ -15,14 +15,14 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/pq0;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public abstract a(Lcom/huawei/appmarket/qq0;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
 .end method
 
-.method public abstract b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public abstract b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -30,5 +30,5 @@
     .end annotation
 .end method
 
-.method public abstract c(Ljava/lang/Class;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public abstract c(Ljava/lang/Class;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
 .end method

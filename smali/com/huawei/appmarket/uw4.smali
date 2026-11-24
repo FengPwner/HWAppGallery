@@ -1,145 +1,241 @@
-.class final Lcom/huawei/appmarket/uw4;
-.super Lcom/huawei/appmarket/tw4;
+.class public final Lcom/huawei/appmarket/uw4;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/uw4$b;,
-        Lcom/huawei/appmarket/uw4$a;
-    }
-.end annotation
+# static fields
+.field private static final c:Lcom/bumptech/glide/load/engine/q;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/bumptech/glide/load/engine/q<",
+            "***>;"
+        }
+    .end annotation
+.end field
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/du4;
+.field private final a:Lcom/huawei/appmarket/hx;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/hx<",
+            "Lcom/huawei/appmarket/xc5;",
+            "Lcom/bumptech/glide/load/engine/q<",
+            "***>;>;"
+        }
+    .end annotation
+.end field
 
-.field private final b:Lcom/huawei/appmarket/uw4$b;
+.field private final b:Ljava/util/concurrent/atomic/AtomicReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/atomic/AtomicReference<",
+            "Lcom/huawei/appmarket/xc5;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ri8;)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 14
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/tw4;-><init>()V
+    new-instance v6, Lcom/bumptech/glide/load/engine/q;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/du4;
+    const-class v1, Ljava/lang/Object;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/uw4$b;->j(Lcom/huawei/appmarket/ri8;)Lcom/huawei/appmarket/uw4$b;
+    const-class v2, Ljava/lang/Object;
 
-    move-result-object p1
+    const-class v3, Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/uw4;->b:Lcom/huawei/appmarket/uw4$b;
+    new-instance v0, Lcom/bumptech/glide/load/engine/i;
+
+    const-class v8, Ljava/lang/Object;
+
+    const-class v9, Ljava/lang/Object;
+
+    const-class v10, Ljava/lang/Object;
+
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    move-result-object v11
+
+    new-instance v12, Lcom/huawei/appmarket/e88;
+
+    invoke-direct {v12}, Lcom/huawei/appmarket/e88;-><init>()V
+
+    const/4 v13, 0x0
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v13}, Lcom/bumptech/glide/load/engine/i;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;Lcom/huawei/appmarket/ou6;Lcom/huawei/appmarket/n26;)V
+
+    invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v4
+
+    const/4 v5, 0x0
+
+    move-object v0, v6
+
+    invoke-direct/range {v0 .. v5}, Lcom/bumptech/glide/load/engine/q;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;Lcom/huawei/appmarket/n26;)V
+
+    sput-object v6, Lcom/huawei/appmarket/uw4;->c:Lcom/bumptech/glide/load/engine/q;
 
     return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Lcom/huawei/appmarket/hx;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/hx;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/hx;
+
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/uw4;->b:Ljava/util/concurrent/atomic/AtomicReference;
+
+    return-void
+.end method
+
+.method public static b(Lcom/bumptech/glide/load/engine/q;)Z
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/uw4;->c:Lcom/bumptech/glide/load/engine/q;
+
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+.method public final a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)Lcom/bumptech/glide/load/engine/q;
     .registers 6
-    .annotation runtime Ljava/lang/Deprecated;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<Data:",
+            "Ljava/lang/Object;",
+            "TResource:",
+            "Ljava/lang/Object;",
+            "Transcode:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Class<",
+            "TData;>;",
+            "Ljava/lang/Class<",
+            "TTResource;>;",
+            "Ljava/lang/Class<",
+            "TTranscode;>;)",
+            "Lcom/bumptech/glide/load/engine/q<",
+            "TData;TTResource;TTranscode;>;"
+        }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/uw4;->b:Lcom/huawei/appmarket/uw4$b;
-
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/huawei/appmarket/uw4$b;->i(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public final c()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/uw4;->b:Lcom/huawei/appmarket/uw4$b;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uw4$b;->k()V
-
-    return-void
-.end method
-
-.method public final toString()Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    const/16 v0, 0x80
+    iget-object v0, p0, Lcom/huawei/appmarket/uw4;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
-    const-string v1, "LoaderManager{"
+    const/4 v1, 0x0
 
     .line 4
-    .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/b00;->k(ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 5
     .line 6
     .line 7
-    .line 8
     move-result-object v0
 
-    .line 9
-    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+    .line 8
+    check-cast v0, Lcom/huawei/appmarket/xc5;
 
+    .line 9
     .line 10
+    if-nez v0, :cond_0
+
     .line 11
     .line 12
-    move-result v1
+    new-instance v0, Lcom/huawei/appmarket/xc5;
 
     .line 13
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
-
     .line 14
+    invoke-direct {v0}, Lcom/huawei/appmarket/xc5;-><init>()V
+
     .line 15
     .line 16
-    move-result-object v1
-
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :cond_0
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/xc5;->a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)V
 
     .line 18
     .line 19
     .line 20
-    const-string v1, " in "
+    iget-object p1, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/hx;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    monitor-enter p1
 
     .line 23
+    :try_start_0
+    iget-object p2, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/hx;
+
     .line 24
     .line 25
-    iget-object v1, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/du4;
+    invoke-virtual {p2, v0, v1}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bb1;->a(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
-
     .line 28
-    .line 29
-    .line 30
-    const-string v1, "}}"
+    move-result-object p2
 
+    .line 29
+    check-cast p2, Lcom/bumptech/glide/load/engine/q;
+
+    .line 30
     .line 31
+    monitor-exit p1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
     .line 32
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iget-object p1, p0, Lcom/huawei/appmarket/uw4;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 33
     .line 34
-    .line 35
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
+    .line 35
     .line 36
     .line 37
+    return-object p2
+
     .line 38
-    move-result-object v0
+    :catchall_0
+    move-exception p2
 
     .line 39
-    return-object v0
+    :try_start_1
+    monitor-exit p1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
     .line 40
+    throw p2
     .line 41
     .line 42
     .line 43
@@ -235,4 +331,211 @@
     .line 133
     .line 134
     .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+.end method
+
+.method public final c(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/load/engine/q;)V
+    .registers 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Lcom/bumptech/glide/load/engine/q<",
+            "***>;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/hx;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/huawei/appmarket/uw4;->a:Lcom/huawei/appmarket/hx;
+
+    new-instance v2, Lcom/huawei/appmarket/xc5;
+
+    invoke-direct {v2, p1, p2, p3}, Lcom/huawei/appmarket/xc5;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)V
+
+    if-eqz p4, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p4, Lcom/huawei/appmarket/uw4;->c:Lcom/bumptech/glide/load/engine/q;
+
+    :goto_0
+    invoke-virtual {v1, v2, p4}, Lcom/huawei/appmarket/ze7;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p1
 .end method

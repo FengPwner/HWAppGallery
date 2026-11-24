@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public final b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -60,7 +60,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->l0()Lcom/huawei/appmarket/np4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->l0()Lcom/huawei/appmarket/qp4;
 
     .line 2
     .line 3
@@ -68,7 +68,7 @@
     move-result-object v0
 
     .line 5
-    sget-object v1, Lcom/huawei/appmarket/np4;->j:Lcom/huawei/appmarket/np4;
+    sget-object v1, Lcom/huawei/appmarket/qp4;->j:Lcom/huawei/appmarket/qp4;
 
     .line 6
     .line 7
@@ -76,7 +76,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->h0()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->h0()V
 
     .line 10
     .line 11
@@ -105,13 +105,13 @@
     .line 21
     .line 22
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->t()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->t()V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->D()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->D()Z
 
     .line 26
     .line 27
@@ -123,7 +123,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->d0()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->d0()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -147,7 +147,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->s0()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->s0()V
 
     .line 44
     .line 45
@@ -170,7 +170,7 @@
 
     .line 51
     :cond_1
-    invoke-virtual {p0, v0, p1, v2}, Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter;->f(Ljava/lang/Object;Lcom/huawei/appmarket/gp4;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;)V
+    invoke-virtual {p0, v0, p1, v2}, Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter;->f(Ljava/lang/Object;Lcom/huawei/appmarket/jp4;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -182,7 +182,7 @@
 
     .line 55
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gp4;->x()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/jp4;->x()V
 
     .line 56
     .line 57
@@ -199,7 +199,7 @@
 
     .line 63
     :goto_1
-    sget v0, Lcom/huawei/appmarket/cm6;->b:I
+    sget v0, Lcom/huawei/appmarket/fm6;->b:I
 
     .line 64
     .line 65
@@ -249,12 +249,12 @@
     .line 95
 .end method
 
-.method public final c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public final c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation
@@ -270,7 +270,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->E()Lcom/huawei/appmarket/tp4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->E()Lcom/huawei/appmarket/wp4;
 
     .line 4
     .line 5
@@ -279,7 +279,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->u()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->u()V
 
     .line 8
     .line 9
@@ -326,7 +326,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, p1, p2}, Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;->c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+    invoke-virtual {v1, p1, p2}, Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;->c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -344,7 +344,7 @@
 
     .line 36
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/tp4;->x()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wp4;->x()V
 
     .line 37
     .line 38
@@ -353,7 +353,7 @@
 
     .line 40
     :goto_1
-    sget p2, Lcom/huawei/appmarket/cm6;->b:I
+    sget p2, Lcom/huawei/appmarket/fm6;->b:I
 
     .line 41
     .line 42
@@ -490,11 +490,11 @@
     .end annotation
 .end method
 
-.method abstract f(Ljava/lang/Object;Lcom/huawei/appmarket/gp4;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;)V
+.method abstract f(Ljava/lang/Object;Lcom/huawei/appmarket/jp4;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TA;",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             "Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$a;",
             ")V"
         }

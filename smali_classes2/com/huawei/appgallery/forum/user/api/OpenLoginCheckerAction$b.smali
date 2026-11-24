@@ -43,7 +43,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction$b;->b:Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;->access$100(Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p1}, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;->access$100(Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p1
 

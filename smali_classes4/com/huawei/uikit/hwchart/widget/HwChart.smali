@@ -49,7 +49,7 @@
 
 .field private j:Z
 
-.field private k:Lcom/huawei/appmarket/kk7;
+.field private k:Lcom/huawei/appmarket/qk7;
 
 .field private l:J
 
@@ -119,7 +119,7 @@
     move-object/from16 v4, p1
 
     .line 3
-    invoke-static {v4, v2, v3}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {v4, v2, v3}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object v3
 
@@ -160,7 +160,7 @@
 
     const/4 v5, 0x0
 
-    iput-object v5, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iput-object v5, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     const/4 v6, 0x0
 
@@ -219,7 +219,7 @@
     invoke-virtual {v0, v12, v5}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_1
-    sget-object v5, Lcom/huawei/appmarket/tf6;->a:[I
+    sget-object v5, Lcom/huawei/appmarket/vf6;->a:[I
 
     const v10, 0x7f13046c
 
@@ -1412,7 +1412,7 @@
 
     .line 61
     .line 62
-    iget-object v6, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v6, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 63
     .line 64
@@ -1432,11 +1432,11 @@
     move-result v6
 
     .line 71
-    iget-object v7, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v7, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 72
     .line 73
-    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/kk7;->getInterpolation(F)F
+    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/qk7;->getInterpolation(F)F
 
     .line 74
     .line 75
@@ -1719,6 +1719,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method static synthetic h(Lcom/huawei/uikit/hwchart/widget/HwChart;)I
@@ -3902,23 +3922,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private m(II)Z
@@ -4415,7 +4418,7 @@
 
     .line 129
     .line 130
-    invoke-static {v0, v15, v1}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v15, v1}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
@@ -4634,7 +4637,7 @@
 
     .line 230
     .line 231
-    iget-object v0, v7, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v0, v7, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 232
     .line 233
@@ -4642,7 +4645,7 @@
 
     .line 234
     .line 235
-    new-instance v0, Lcom/huawei/appmarket/kk7;
+    new-instance v0, Lcom/huawei/appmarket/qk7;
 
     .line 236
     .line 237
@@ -4654,12 +4657,12 @@
 
     .line 240
     .line 241
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/kk7;-><init>(FF)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/qk7;-><init>(FF)V
 
     .line 242
     .line 243
     .line 244
-    iput-object v0, v7, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iput-object v0, v7, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 245
     .line 246
@@ -5168,6 +5171,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method protected final onDraw(Landroid/graphics/Canvas;)V
@@ -5280,7 +5403,7 @@
 
     .line 53
     .line 54
-    iget-object v2, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v2, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 55
     .line 56
@@ -5300,11 +5423,11 @@
     move-result v2
 
     .line 63
-    iget-object v3, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v3, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 64
     .line 65
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/kk7;->getInterpolation(F)F
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/qk7;->getInterpolation(F)F
 
     .line 66
     .line 67
@@ -5370,7 +5493,7 @@
     add-float/2addr v4, v6
 
     .line 95
-    iget-object v6, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v6, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 96
     .line 97
@@ -5393,11 +5516,11 @@
     move-result v6
 
     .line 105
-    iget-object v14, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object v14, v0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 106
     .line 107
-    invoke-virtual {v14, v6}, Lcom/huawei/appmarket/kk7;->getInterpolation(F)F
+    invoke-virtual {v14, v6}, Lcom/huawei/appmarket/qk7;->getInterpolation(F)F
 
     .line 108
     .line 109
@@ -7487,65 +7610,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method protected final onMeasure(II)V
@@ -8654,6 +8718,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public setAnimationEnabled(Z)V
@@ -8668,7 +8852,7 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iget-object p1, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 6
     .line 7
@@ -8676,7 +8860,7 @@
 
     .line 8
     .line 9
-    new-instance p1, Lcom/huawei/appmarket/kk7;
+    new-instance p1, Lcom/huawei/appmarket/qk7;
 
     .line 10
     .line 11
@@ -8688,12 +8872,12 @@
 
     .line 14
     .line 15
-    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/kk7;-><init>(FF)V
+    invoke-direct {p1, v0, v1}, Lcom/huawei/appmarket/qk7;-><init>(FF)V
 
     .line 16
     .line 17
     .line 18
-    iput-object p1, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/kk7;
+    iput-object p1, p0, Lcom/huawei/uikit/hwchart/widget/HwChart;->k:Lcom/huawei/appmarket/qk7;
 
     .line 19
     .line 20
@@ -8869,23 +9053,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public setAnimationListener(Lcom/huawei/uikit/hwchart/widget/HwChart$a;)V

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/yt3;
+.implements Lcom/huawei/appmarket/au3;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard<",
         "Lcom/huawei/appgallery/search/ui/cardbean/QuickSearchAppCardBean;",
         ">;",
-        "Lcom/huawei/appmarket/yt3;"
+        "Lcom/huawei/appmarket/au3;"
     }
 .end annotation
 
@@ -206,7 +206,7 @@
 
     .line 57
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 58
     .line 59
@@ -218,7 +218,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -283,7 +283,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

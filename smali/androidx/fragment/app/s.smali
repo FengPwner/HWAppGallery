@@ -188,6 +188,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>()V
@@ -198,12 +199,12 @@
     return-void
 .end method
 
-.method public static final a(Lcom/huawei/appmarket/gx;Ljava/lang/String;)Ljava/lang/String;
+.method public static final a(Lcom/huawei/appmarket/hx;Ljava/lang/String;)Ljava/lang/String;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;",
@@ -223,7 +224,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Lcom/huawei/appmarket/gx;->entrySet()Ljava/util/Set;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/hx;->entrySet()Ljava/util/Set;
 
     .line 7
     .line 8
@@ -273,7 +274,7 @@
     move-result-object v2
 
     .line 30
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -481,7 +482,7 @@
     .line 1
     const-string v0, "views"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/lang/Iterable;
 

@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/flexiblelayout/data/e;)Lcom/huawei/appmarket/rt7;
+.method public final a(Lcom/huawei/flexiblelayout/data/e;)Lcom/huawei/appmarket/xt7;
     .registers 5
 
     .line 1
@@ -65,28 +65,28 @@
     return-object v1
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/page/tabcontent/b;->d(Lcom/huawei/page/tabcontent/b;)Lcom/huawei/appmarket/tc2;
+    invoke-static {v0}, Lcom/huawei/page/tabcontent/b;->d(Lcom/huawei/page/tabcontent/b;)Lcom/huawei/appmarket/wc2;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sb2;->getData()Lcom/huawei/flexiblelayout/data/FLNodeData;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vb2;->getData()Lcom/huawei/flexiblelayout/data/FLNodeData;
 
     move-result-object v0
 
     check-cast v0, Lcom/huawei/page/tabcontent/TabContentData;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/tc2;->a()Lcom/huawei/appmarket/rt7;
+    invoke-interface {v2}, Lcom/huawei/appmarket/wc2;->a()Lcom/huawei/appmarket/xt7;
 
     move-result-object v1
 
     :cond_1
     if-nez v1, :cond_2
 
-    new-instance v1, Lcom/huawei/appmarket/ng1;
+    new-instance v1, Lcom/huawei/appmarket/pg1;
 
-    invoke-direct {v1, p1}, Lcom/huawei/appmarket/ng1;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
+    invoke-direct {v1, p1}, Lcom/huawei/appmarket/pg1;-><init>(Lcom/huawei/flexiblelayout/data/e;)V
 
     :cond_2
     return-object v1

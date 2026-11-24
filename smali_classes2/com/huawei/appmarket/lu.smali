@@ -1,428 +1,252 @@
 .class public final Lcom/huawei/appmarket/lu;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/b2;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/wh3;
 
+# static fields
+.field private static final a:Ljava/lang/Object;
 
-# annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/wh3;
-.end annotation
+.field private static b:Lcom/huawei/appmarket/lu;
 
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/lu;->a:Ljava/lang/Object;
 
     return-void
 .end method
 
-.method public static d(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;)V
+.method private constructor <init>(Landroid/content/Context;)V
+    .registers 4
+
+    .line 1
+    const-class v0, Lcom/huawei/appgallery/packagemanager/impl/storage/PmDataBase;
+
+    const-class v1, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
+
+    invoke-direct {p0, p1, v0, v1}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;)V
+
+    return-void
+.end method
+
+.method public static e(Landroid/content/Context;)Lcom/huawei/appmarket/lu;
     .registers 3
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ku;->e(Landroid/content/Context;)Lcom/huawei/appmarket/ku;
+    sget-object v0, Lcom/huawei/appmarket/lu;->a:Ljava/lang/Object;
 
-    move-result-object p0
+    monitor-enter v0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/b2;->acquireDB()V
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/lu;->b:Lcom/huawei/appmarket/lu;
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+    if-nez v1, :cond_0
 
-    move-result-object v0
+    new-instance v1, Lcom/huawei/appmarket/lu;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ku;->c(Ljava/lang/String;)Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/lu;-><init>(Landroid/content/Context;)V
 
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    invoke-virtual {p1}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ku;->a(Ljava/lang/String;)V
-
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ku;->f(Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;)V
+    sput-object v1, Lcom/huawei/appmarket/lu;->b:Lcom/huawei/appmarket/lu;
 
     goto :goto_0
 
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ku;->g(Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;)V
-
     :goto_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/b2;->releaseDB()V
+    sget-object p0, Lcom/huawei/appmarket/lu;->b:Lcom/huawei/appmarket/lu;
 
-    return-void
+    monitor-exit v0
+
+    return-object p0
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;)Ljava/util/HashMap;
-    .registers 5
-
-    .line 1
-    new-instance v0, Ljava/util/HashMap;
-
-    .line 2
-    .line 3
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/ku;->e(Landroid/content/Context;)Lcom/huawei/appmarket/ku;
-
-    .line 7
-    .line 8
-    .line 9
-    move-result-object p1
-
-    .line 10
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->acquireDB()V
-
-    .line 11
-    .line 12
-    .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ku;->d()Ljava/util/ArrayList;
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v1
-
-    .line 17
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->releaseDB()V
-
-    .line 18
-    .line 19
-    .line 20
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    .line 21
-    .line 22
-    .line 23
-    move-result p1
-
-    .line 24
-    if-eqz p1, :cond_0
-
-    .line 25
-    .line 26
-    return-object v0
-
-    .line 27
-    :cond_0
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    .line 28
-    .line 29
-    .line 30
-    move-result-object p1
-
-    .line 31
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 32
-    .line 33
-    .line 34
-    move-result v1
-
-    .line 35
-    if-eqz v1, :cond_2
-
-    .line 36
-    .line 37
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 38
-    .line 39
-    .line 40
-    move-result-object v1
-
-    .line 41
-    check-cast v1, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
-
-    .line 42
-    .line 43
-    if-nez v1, :cond_1
-
-    .line 44
-    .line 45
-    goto :goto_0
-
-    .line 46
-    :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object v2
-
-    .line 50
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 51
-    .line 52
-    .line 53
-    goto :goto_0
-
-    .line 54
-    :cond_2
-    return-object v0
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-.end method
-
-.method public final b(Landroid/content/Context;Ljava/lang/String;)V
+.method public final a(Ljava/lang/String;)V
     .registers 4
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/ku;->e(Landroid/content/Context;)Lcom/huawei/appmarket/ku;
+    iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
 
-    move-result-object v0
+    const-string v1, "pkgName=?"
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->acquireDB()V
-
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/ku;->a(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
-
-    invoke-static {p1}, Lcom/huawei/appmarket/jb7;->d(Landroid/content/Context;)Lcom/huawei/appmarket/jb7;
+    filled-new-array {p1}, [Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->acquireDB()V
-
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/jb7;->a(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->releaseDB()V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/c71;->b(Ljava/lang/String;[Ljava/lang/String;)I
 
     return-void
 .end method
 
-.method public final c(Landroid/content/Context;)Ljava/util/HashMap;
+.method public final b()V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/String;
+
+    const-string v2, ""
+
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/c71;->b(Ljava/lang/String;[Ljava/lang/String;)I
+
+    return-void
+.end method
+
+.method public final c(Ljava/lang/String;)Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
+    .registers 11
+
+    .line 1
+    const-string v0, "AppShaderDAO"
+
+    const/4 v1, 0x0
+
+    :try_start_0
+    iget-object v2, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
+
+    const-class v3, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
+
+    const-string v4, "pkgName=?"
+
+    filled-new-array {p1}, [Ljava/lang/String;
+
+    move-result-object v5
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const-string v8, "versionCode DESC"
+
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/c71;->h(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+
+    move-result v2
+
+    const/4 v3, 0x1
+
+    if-eq v2, v3, :cond_0
+
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
+
+    const-string v2, "app shader records zero or more than one error"
+
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object v1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
+
+    return-object p1
+
+    :catch_0
+    move-exception p1
+
+    sget-object v2, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
+
+    const-string v3, "query db error"
+
+    invoke-virtual {v2, v0, v3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-object v1
+.end method
+
+.method public final d()Ljava/util/ArrayList;
     .registers 5
 
     .line 1
-    new-instance v0, Ljava/util/HashMap;
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
 
-    .line 2
-    .line 3
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    const-class v1, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;
 
-    .line 4
-    .line 5
-    .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/jb7;->d(Landroid/content/Context;)Lcom/huawei/appmarket/jb7;
+    const-string v2, "pkgName DESC"
 
-    .line 7
-    .line 8
-    .line 9
-    move-result-object p1
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/c71;->g(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/ArrayList;
 
-    .line 10
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->acquireDB()V
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
-    .line 12
-    .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jb7;->c()Ljava/util/ArrayList;
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v1
-
-    .line 17
-    invoke-virtual {p1}, Lcom/huawei/appmarket/b2;->releaseDB()V
-
-    .line 18
-    .line 19
-    .line 20
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    .line 21
-    .line 22
-    .line 23
-    move-result p1
-
-    .line 24
-    if-eqz p1, :cond_0
-
-    .line 25
-    .line 26
     return-object v0
 
-    .line 27
-    :cond_0
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    :catch_0
+    move-exception v0
 
-    .line 28
-    .line 29
-    .line 30
-    move-result-object p1
+    sget-object v1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
-    .line 31
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    const-string v2, "AppShaderDAO"
 
-    .line 32
-    .line 33
-    .line 34
-    move-result v1
+    const-string v3, "query db error"
 
-    .line 35
-    if-eqz v1, :cond_2
+    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 36
-    .line 37
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    const/4 v0, 0x0
 
-    .line 38
-    .line 39
-    .line 40
+    return-object v0
+.end method
+
+.method public final f(Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/c71;->e(Lcom/huawei/appmarket/g91;)J
+
+    return-void
+.end method
+
+.method public final g(Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;)V
+    .registers 5
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/b2;->mDbHandler:Lcom/huawei/appmarket/c71;
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+
     move-result-object v1
 
-    .line 41
-    check-cast v1, Lcom/huawei/appgallery/packagemanager/api/bean/ShaderConfig;
+    filled-new-array {v1}, [Ljava/lang/String;
 
-    .line 42
-    .line 43
-    if-nez v1, :cond_1
+    move-result-object v1
 
-    .line 44
-    .line 45
-    goto :goto_0
+    const-string v2, "pkgName=?"
 
-    .line 46
-    :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appgallery/packagemanager/api/bean/AppShader;->c()Ljava/lang/String;
+    invoke-virtual {v0, p1, v2, v1}, Lcom/huawei/appmarket/c71;->i(Lcom/huawei/appmarket/g91;Ljava/lang/String;[Ljava/lang/String;)I
 
-    .line 47
-    .line 48
-    .line 49
-    move-result-object v2
-
-    .line 50
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 51
-    .line 52
-    .line 53
-    goto :goto_0
-
-    .line 54
-    :cond_2
-    return-object v0
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
+    return-void
 .end method

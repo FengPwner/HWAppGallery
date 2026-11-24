@@ -1,5 +1,5 @@
 .class public final Lcom/google/android/material/bottomappbar/e;
-.super Lcom/huawei/appmarket/sy1;
+.super Lcom/huawei/appmarket/wy1;
 .source "SourceFile"
 
 # interfaces
@@ -24,7 +24,7 @@
 .method public constructor <init>(FFF)V
     .registers 5
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/sy1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wy1;-><init>()V
 
     const/high16 v0, -0x40800000    # -1.0f
 
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public final b(FFFLcom/huawei/appmarket/ac7;)V
+.method public final b(FFFLcom/huawei/appmarket/fc7;)V
     .registers 28
 
     .line 1
@@ -65,7 +65,7 @@
 
     if-nez v4, :cond_0
 
-    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     return-void
 
@@ -94,7 +94,7 @@
 
     const/high16 v5, 0x3f800000    # 1.0f
 
-    invoke-static {v5, v2, v12, v4}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v5, v2, v12, v4}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v4
 
@@ -104,7 +104,7 @@
 
     if-ltz v5, :cond_1
 
-    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     return-void
 
@@ -205,7 +205,7 @@
 
     add-float v19, v3, v2
 
-    invoke-virtual {v9, v5, v10}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {v9, v5, v10}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     sub-float v3, v5, v13
 
@@ -223,7 +223,7 @@
 
     move/from16 v21, v8
 
-    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/ac7;->a(FFFFFF)V
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/fc7;->a(FFFFFF)V
 
     const/high16 v2, 0x43340000    # 180.0f
 
@@ -248,7 +248,7 @@
     :goto_3
     move-object/from16 v2, p4
 
-    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/ac7;->a(FFFFFF)V
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/fc7;->a(FFFFFF)V
 
     goto :goto_4
 
@@ -287,7 +287,7 @@
 
     move/from16 v8, v22
 
-    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/ac7;->a(FFFFFF)V
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/fc7;->a(FFFFFF)V
 
     add-float v5, v14, v12
 
@@ -301,7 +301,7 @@
 
     add-float/2addr v2, v15
 
-    invoke-virtual {v9, v3, v2}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {v9, v3, v2}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     iget v2, v0, Lcom/google/android/material/bottomappbar/e;->c:F
 
@@ -338,9 +338,9 @@
 
     move/from16 v8, v21
 
-    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/ac7;->a(FFFFFF)V
+    invoke-virtual/range {v2 .. v8}, Lcom/huawei/appmarket/fc7;->a(FFFFFF)V
 
-    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/ac7;->e(FF)V
+    invoke-virtual {v9, v1, v10}, Lcom/huawei/appmarket/fc7;->e(FF)V
 
     return-void
 .end method

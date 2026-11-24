@@ -91,7 +91,7 @@
 
     const v5, 0x3e4ccccd    # 0.2f
 
-    invoke-static {v2, v3, v4, v5, p1}, Lcom/huawei/appmarket/mm;->b(FFFFF)F
+    invoke-static {v2, v3, v4, v5, p1}, Lcom/huawei/appmarket/lm;->b(FFFFF)F
 
     move-result v2
 
@@ -101,7 +101,7 @@
 
     iget v2, p0, Lcom/google/android/material/floatingactionbutton/h$b;->d:F
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     move-result v1
 
@@ -111,7 +111,7 @@
 
     iget v1, p0, Lcom/google/android/material/floatingactionbutton/h$b;->e:F
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     move-result v1
 
@@ -121,13 +121,13 @@
 
     iget v2, p0, Lcom/google/android/material/floatingactionbutton/h$b;->g:F
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     move-result v4
 
     invoke-static {v0, v4}, Lcom/google/android/material/floatingactionbutton/h;->c(Lcom/google/android/material/floatingactionbutton/h;F)V
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/mm;->a(FFF)F
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/lm;->a(FFF)F
 
     move-result p1
 

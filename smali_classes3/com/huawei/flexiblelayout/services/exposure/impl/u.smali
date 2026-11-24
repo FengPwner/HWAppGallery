@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/cu4;
+.implements Lcom/huawei/appmarket/fu4;
 
 
 # instance fields
@@ -65,11 +65,11 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/ak8;
+    check-cast v2, Lcom/huawei/appmarket/gk8;
 
     const/4 v3, 0x0
 
-    invoke-interface {v2, v3}, Lcom/huawei/appmarket/ak8;->a(Z)V
+    invoke-interface {v2, v3}, Lcom/huawei/appmarket/gk8;->a(Z)V
 
     add-int/lit8 v1, v1, -0x1
 
@@ -110,9 +110,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/ak8;
+    check-cast v3, Lcom/huawei/appmarket/gk8;
 
-    invoke-interface {v3, v2}, Lcom/huawei/appmarket/ak8;->a(Z)V
+    invoke-interface {v3, v2}, Lcom/huawei/appmarket/gk8;->a(Z)V
 
     add-int/lit8 v1, v1, -0x1
 

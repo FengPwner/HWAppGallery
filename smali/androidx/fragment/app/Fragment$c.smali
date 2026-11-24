@@ -1,11 +1,11 @@
 .class final Landroidx/fragment/app/Fragment$c;
-.super Lcom/huawei/appmarket/dr2;
+.super Lcom/huawei/appmarket/fr2;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;->t1()Lcom/huawei/appmarket/dr2;
+    value = Landroidx/fragment/app/Fragment;->t1()Lcom/huawei/appmarket/fr2;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Landroidx/fragment/app/Fragment$c;->b:Landroidx/fragment/app/Fragment;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dr2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fr2;-><init>()V
 
     return-void
 .end method
@@ -71,7 +71,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ej2;->j(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/kb1;->h(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
 
     .line 19
     .line 20

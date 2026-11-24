@@ -26,7 +26,7 @@
 # direct methods
 .method public constructor <init>(Lcom/huawei/phoneservice/faq/base/util/FaqHandler$CallBack;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V

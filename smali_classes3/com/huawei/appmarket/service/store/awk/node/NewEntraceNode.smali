@@ -10,7 +10,7 @@
 # instance fields
 .field private n:Landroid/view/View;
 
-.field private o:Lcom/huawei/appmarket/ej4;
+.field private o:Lcom/huawei/appmarket/gj4;
 
 
 # direct methods
@@ -19,7 +19,7 @@
 
     new-instance v0, Landroid/widget/LinearLayout$LayoutParams;
 
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->b()I
 
     move-result v1
 
@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->h()I
 
     move-result v0
 
@@ -77,9 +77,9 @@
 
     if-nez p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;->C1(Lcom/huawei/appmarket/ej4;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/NewEntranceCard;->C1(Lcom/huawei/appmarket/gj4;)V
 
     :cond_0
     return-void
@@ -119,17 +119,17 @@
 
     iput-object v3, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->n:Landroid/view/View;
 
-    new-instance v3, Lcom/huawei/appmarket/ej4;
+    new-instance v3, Lcom/huawei/appmarket/gj4;
 
-    invoke-direct {v3}, Lcom/huawei/appmarket/ej4;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/gj4;-><init>()V
 
-    iput-object v3, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/ej4;
+    iput-object v3, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/ej4;->i(Landroid/view/View;)V
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/gj4;->i(Landroid/view/View;)V
 
-    iget-object v3, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object v3, p0, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->o:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/ej4;->o(Landroid/view/View;)V
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/gj4;->o(Landroid/view/View;)V
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/NewEntraceNode;->h()I
 
@@ -168,11 +168,11 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v0
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result p2
 
@@ -189,14 +189,14 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/oi5;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/qi5;->h()I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -204,7 +204,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->c()I
 
     move-result v0
 
@@ -228,7 +228,7 @@
 
     :cond_1
     :goto_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

@@ -75,7 +75,7 @@
 
     const v0, 0x7f0a04fa
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/search/ui/node/QuickSearchAppCombinedNodeV2;->H()Lcom/huawei/appgallery/search/ui/card/BaseCompositeCard;
 

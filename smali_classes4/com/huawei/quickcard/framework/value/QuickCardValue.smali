@@ -158,176 +158,176 @@
 
     .line 35
     .line 36
-    const-string v0, "}"
+    const-string/jumbo v0, "}"
 
     .line 37
     .line 38
+    .line 39
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     move-result v0
 
-    .line 42
+    .line 43
     if-eqz v0, :cond_2
 
-    .line 43
     .line 44
+    .line 45
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$ExpressionValue;
 
-    .line 45
     .line 46
+    .line 47
     invoke-static {p0}, Lcom/huawei/quickcard/watcher/Expression;->create(Ljava/lang/String;)Lcom/huawei/quickcard/watcher/Expression;
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     move-result-object p0
 
-    .line 50
+    .line 51
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$ExpressionValue;-><init>(Lcom/huawei/quickcard/watcher/Expression;)V
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     goto :goto_0
 
-    .line 54
+    .line 55
     :cond_2
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$StringValue;
 
-    .line 55
     .line 56
+    .line 57
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$StringValue;-><init>(Ljava/lang/String;)V
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     :goto_0
     return-object v0
 
-    .line 60
+    .line 61
     :cond_3
     instance-of v0, p0, Ljava/lang/Boolean;
 
-    .line 61
     .line 62
+    .line 63
     if-eqz v0, :cond_4
 
-    .line 63
     .line 64
+    .line 65
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$BooleanValue;
 
-    .line 65
     .line 66
+    .line 67
     check-cast p0, Ljava/lang/Boolean;
 
-    .line 67
     .line 68
+    .line 69
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 69
     .line 70
     .line 71
+    .line 72
     move-result p0
 
-    .line 72
+    .line 73
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$BooleanValue;-><init>(Z)V
 
-    .line 73
     .line 74
     .line 75
+    .line 76
     return-object v0
 
-    .line 76
+    .line 77
     :cond_4
     instance-of v0, p0, Lorg/json/JSONObject;
 
-    .line 77
     .line 78
+    .line 79
     if-eqz v0, :cond_5
 
-    .line 79
     .line 80
+    .line 81
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$JSONValue;
 
-    .line 81
     .line 82
+    .line 83
     check-cast p0, Lorg/json/JSONObject;
 
-    .line 83
     .line 84
+    .line 85
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$JSONValue;-><init>(Lorg/json/JSONObject;)V
 
-    .line 85
     .line 86
     .line 87
+    .line 88
     return-object v0
 
-    .line 88
+    .line 89
     :cond_5
     instance-of v0, p0, Lorg/json/JSONArray;
 
-    .line 89
     .line 90
+    .line 91
     if-eqz v0, :cond_6
 
-    .line 91
     .line 92
+    .line 93
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$JSONArrayValue;
 
-    .line 93
     .line 94
+    .line 95
     check-cast p0, Lorg/json/JSONArray;
 
-    .line 95
     .line 96
+    .line 97
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$JSONArrayValue;-><init>(Lorg/json/JSONArray;)V
 
-    .line 97
     .line 98
     .line 99
+    .line 100
     return-object v0
 
-    .line 100
+    .line 101
     :cond_6
     instance-of v0, p0, Lcom/huawei/quickcard/base/interfaces/CardDataObject;
 
-    .line 101
     .line 102
+    .line 103
     if-eqz v0, :cond_7
 
-    .line 103
     .line 104
+    .line 105
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$DataWrapperValue;
 
-    .line 105
     .line 106
+    .line 107
     check-cast p0, Lcom/huawei/quickcard/base/interfaces/CardDataObject;
 
-    .line 107
     .line 108
+    .line 109
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$DataWrapperValue;-><init>(Lcom/huawei/quickcard/base/interfaces/CardDataObject;)V
 
-    .line 109
     .line 110
     .line 111
+    .line 112
     return-object v0
 
-    .line 112
+    .line 113
     :cond_7
     new-instance v0, Lcom/huawei/quickcard/framework/value/QuickCardValue$ObjectValue;
 
-    .line 113
     .line 114
+    .line 115
     invoke-direct {v0, p0}, Lcom/huawei/quickcard/framework/value/QuickCardValue$ObjectValue;-><init>(Ljava/lang/Object;)V
 
-    .line 115
     .line 116
     .line 117
-    return-object v0
     .line 118
+    return-object v0
     .line 119
     .line 120
     .line 121
@@ -391,23 +391,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 

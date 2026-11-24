@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
     .registers 2
 
     .line 1
@@ -57,7 +57,7 @@
 
     const-class v0, Lcom/huawei/appgallery/videokit/impl/util/store/StoreFlag;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/yl6;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/pq0;
+    invoke-static {v0}, Lcom/huawei/appmarket/bm6;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/qq0;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     :cond_0
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

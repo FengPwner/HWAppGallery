@@ -207,13 +207,13 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/oc6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->B:Lcom/huawei/appmarket/qc6;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/oc6;->t(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qc6;->t(I)V
 
     :cond_0
     return-void

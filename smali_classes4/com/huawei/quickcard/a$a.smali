@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/ac9;->values()[Lcom/huawei/appmarket/ac9;
+    invoke-static {}, Lcom/huawei/appmarket/hc9;->values()[Lcom/huawei/appmarket/hc9;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/quickcard/a$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/ac9;->f:Lcom/huawei/appmarket/ac9;
+    sget-object v1, Lcom/huawei/appmarket/hc9;->f:Lcom/huawei/appmarket/hc9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/quickcard/a$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/ac9;->b:Lcom/huawei/appmarket/ac9;
+    sget-object v1, Lcom/huawei/appmarket/hc9;->b:Lcom/huawei/appmarket/hc9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/quickcard/a$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/ac9;->c:Lcom/huawei/appmarket/ac9;
+    sget-object v1, Lcom/huawei/appmarket/hc9;->c:Lcom/huawei/appmarket/hc9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -81,7 +81,7 @@
     :try_start_3
     sget-object v0, Lcom/huawei/quickcard/a$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/ac9;->d:Lcom/huawei/appmarket/ac9;
+    sget-object v1, Lcom/huawei/appmarket/hc9;->d:Lcom/huawei/appmarket/hc9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -97,7 +97,7 @@
     :try_start_4
     sget-object v0, Lcom/huawei/quickcard/a$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/ac9;->e:Lcom/huawei/appmarket/ac9;
+    sget-object v1, Lcom/huawei/appmarket/hc9;->e:Lcom/huawei/appmarket/hc9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

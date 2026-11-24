@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/u15$b;
+.implements Lcom/huawei/appmarket/x15$b;
 
 
 # annotations
@@ -38,7 +38,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/om5;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->C()Z
 
     .line 2
     .line 3
@@ -67,7 +67,7 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -177,5 +177,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

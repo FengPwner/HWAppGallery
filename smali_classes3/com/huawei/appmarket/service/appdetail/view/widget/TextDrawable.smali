@@ -713,8 +713,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method private b()V
@@ -964,7 +962,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final draw(Landroid/graphics/Canvas;)V
@@ -1150,7 +1147,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final getIntrinsicHeight()I
@@ -1383,7 +1379,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final setAlpha(I)V

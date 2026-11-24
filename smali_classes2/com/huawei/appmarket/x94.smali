@@ -6,9 +6,11 @@
 # instance fields
 .field private a:Ljava/lang/String;
 
-.field private b:Z
+.field private b:I
 
-.field private c:Z
+.field private c:I
+
+.field private d:I
 
 
 # direct methods
@@ -31,47 +33,65 @@
     return-object v0
 .end method
 
-.method public final b()Z
+.method public final b()I
     .registers 2
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/x94;->c:Z
+    iget v0, p0, Lcom/huawei/appmarket/x94;->b:I
 
     return v0
 .end method
 
-.method public final c()Z
+.method public final c()I
     .registers 2
 
     .line 1
-    iget-boolean v0, p0, Lcom/huawei/appmarket/x94;->b:Z
+    iget v0, p0, Lcom/huawei/appmarket/x94;->c:I
 
     return v0
 .end method
 
-.method public final d(Z)V
+.method public final d()I
     .registers 2
 
     .line 1
-    iput-boolean p1, p0, Lcom/huawei/appmarket/x94;->c:Z
+    iget v0, p0, Lcom/huawei/appmarket/x94;->d:I
 
-    return-void
+    return v0
 .end method
 
-.method public final e(Z)V
-    .registers 2
-
-    .line 1
-    iput-boolean p1, p0, Lcom/huawei/appmarket/x94;->b:Z
-
-    return-void
-.end method
-
-.method public final f(Ljava/lang/String;)V
+.method public final e(Ljava/lang/String;)V
     .registers 2
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/x94;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final f(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/x94;->b:I
+
+    return-void
+.end method
+
+.method public final g(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/x94;->c:I
+
+    return-void
+.end method
+
+.method public final h(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/x94;->d:I
 
     return-void
 .end method

@@ -59,7 +59,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/jm7;->o(Landroid/media/MediaExtractor;Landroid/media/MediaDataSource;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/pm7;->o(Landroid/media/MediaExtractor;Landroid/media/MediaDataSource;)V
 
     .line 9
     .line 10
@@ -223,7 +223,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/jm7;->p(Landroid/media/MediaMetadataRetriever;Landroid/media/MediaDataSource;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/pm7;->p(Landroid/media/MediaMetadataRetriever;Landroid/media/MediaDataSource;)V
 
     .line 9
     .line 10

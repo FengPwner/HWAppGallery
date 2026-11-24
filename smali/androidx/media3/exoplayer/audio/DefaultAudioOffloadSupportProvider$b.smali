@@ -27,7 +27,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/hz;->a(Landroid/media/AudioFormat;Landroid/media/AudioAttributes;)I
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/iz;->a(Landroid/media/AudioFormat;Landroid/media/AudioAttributes;)I
 
     move-result p0
 
@@ -42,7 +42,7 @@
 
     invoke-direct {p1}, Landroidx/media3/exoplayer/audio/d$b;-><init>()V
 
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x20
 

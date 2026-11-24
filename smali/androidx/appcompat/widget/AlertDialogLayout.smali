@@ -101,7 +101,7 @@
     .registers 4
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     move-result v0
 
@@ -458,7 +458,7 @@
 
     .line 142
     :cond_5
-    invoke-static {p4, v4, v5, p1}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {p4, v4, v5, p1}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 143
     .line 144
@@ -1367,7 +1367,7 @@
     move-result v9
 
     .line 35
-    const v11, 0x7f0a1625
+    const v11, 0x7f0a1626
 
     .line 36
     .line 37

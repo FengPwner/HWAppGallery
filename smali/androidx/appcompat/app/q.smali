@@ -124,7 +124,7 @@
 
     .line 21
     .line 22
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ay5;->a(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/cy5;->a(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 23
     .line 24
@@ -210,7 +210,7 @@
 
     .line 57
     .line 58
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ay5;->a(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/cy5;->a(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 59
     .line 60

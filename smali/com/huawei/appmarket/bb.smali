@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/bb;
-.super Lcom/huawei/appmarket/ni8;
+.super Lcom/huawei/appmarket/ti8;
 .source "SourceFile"
 
 
@@ -14,10 +14,10 @@
 # static fields
 .field public static final g:Lcom/huawei/appmarket/bb$a;
 
-.field private static final h:Lcom/huawei/appmarket/zd5;
+.field private static final h:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -26,30 +26,30 @@
 
 
 # instance fields
-.field private final c:Lcom/huawei/appmarket/zd5;
+.field private final c:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private final d:Lcom/huawei/appmarket/zd5;
+.field private final d:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Integer;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private final e:Lcom/huawei/appmarket/zd5;
+.field private final e:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
             "Lcom/huawei/appmarket/cb;",
@@ -70,11 +70,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/bb$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/bb$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appmarket/bb;->g:Lcom/huawei/appmarket/bb$a;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
     const/4 v1, -0x1
 
@@ -82,9 +82,9 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/zd5;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ce5;-><init>(Ljava/lang/Object;)V
 
-    sput-object v0, Lcom/huawei/appmarket/bb;->h:Lcom/huawei/appmarket/zd5;
+    sput-object v0, Lcom/huawei/appmarket/bb;->h:Lcom/huawei/appmarket/ce5;
 
     return-void
 .end method
@@ -93,34 +93,34 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ni8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ti8;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/ce5;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/ce5;
 
-    new-instance v0, Lcom/huawei/appmarket/zd5;
+    new-instance v0, Lcom/huawei/appmarket/ce5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zd5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ce5;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/zd5;
+    iput-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/ce5;
 
     return-void
 .end method
 
-.method public static final synthetic i()Lcom/huawei/appmarket/zd5;
+.method public static final synthetic i()Lcom/huawei/appmarket/ce5;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/bb;->h:Lcom/huawei/appmarket/zd5;
+    sget-object v0, Lcom/huawei/appmarket/bb;->h:Lcom/huawei/appmarket/ce5;
 
     return-object v0
 .end method
@@ -140,7 +140,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/ce5;
 
     invoke-virtual {v0}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
 
@@ -168,7 +168,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/ce5;
 
     invoke-virtual {v0}, Landroidx/lifecycle/m;->getValue()Ljava/lang/Object;
 
@@ -179,11 +179,11 @@
     return-object v0
 .end method
 
-.method public final m()Lcom/huawei/appmarket/zd5;
+.method public final m()Lcom/huawei/appmarket/ce5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/ce5;
 
     return-object v0
 .end method
@@ -192,9 +192,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->c:Lcom/huawei/appmarket/ce5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -212,13 +212,13 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->d:Lcom/huawei/appmarket/ce5;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -236,9 +236,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/bb;->e:Lcom/huawei/appmarket/ce5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

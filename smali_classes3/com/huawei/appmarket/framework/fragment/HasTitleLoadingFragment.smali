@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fu3;
+.implements Lcom/huawei/appmarket/hu3;
 .implements Landroid/view/View$OnClickListener;
 
 
@@ -99,7 +99,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p2, p2, p3}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p2, p2, p3}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -126,12 +126,12 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 54
     .line 55
     .line 56
-    const p2, 0x7f0a1609
+    const p2, 0x7f0a160a
 
     .line 57
     .line 58
@@ -476,29 +476,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public final onClick(Landroid/view/View;)V

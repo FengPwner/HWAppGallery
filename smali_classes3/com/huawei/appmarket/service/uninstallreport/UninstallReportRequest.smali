@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/vv6;
+.annotation runtime Lcom/huawei/appmarket/zv6;
 .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;

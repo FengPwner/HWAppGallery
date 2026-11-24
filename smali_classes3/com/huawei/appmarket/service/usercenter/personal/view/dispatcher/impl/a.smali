@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tm2;
+.implements Lcom/huawei/appmarket/vm2;
 
 
 # instance fields
@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/NetworkProcessor;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/tm2;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/p3;->c(Lcom/huawei/appmarket/vm2;)V
 
     const/4 v1, 0x0
 

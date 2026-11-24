@@ -35,15 +35,15 @@
 
     const-string v1, "onTransitionEnd setCanExecuteTransition true  "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/of;->a()Lcom/huawei/appmarket/of;
+    invoke-static {}, Lcom/huawei/appmarket/nf;->a()Lcom/huawei/appmarket/nf;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/of;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nf;->c(Z)V
 
     return-void
 .end method

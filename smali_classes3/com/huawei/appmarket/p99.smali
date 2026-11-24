@@ -1,62 +1,40 @@
 .class public final Lcom/huawei/appmarket/p99;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/vb2;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/x31;
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/x31<",
-        "Ljava/lang/Void;",
-        "Ljava/util/List<",
-        "Lcom/huawei/appmarket/hv7<",
-        "*>;>;>;"
-    }
-.end annotation
-
-
-# instance fields
-.field public final synthetic a:Ljava/util/Collection;
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/Collection;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/p99;->a:Ljava/util/Collection;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/vb2;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final then(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+.method public final build(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/FLNodeData;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
     .line 1
-    new-instance p1, Ljava/util/ArrayList;
+    new-instance p2, Landroid/view/View;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/p99;->a:Ljava/util/Collection;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
-    invoke-interface {v0}, Ljava/util/Collection;->size()I
+    move-result-object p1
 
-    move-result v1
+    invoke-direct {p2, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    invoke-direct {p1, v1}, Ljava/util/ArrayList;-><init>(I)V
+    return-object p2
+.end method
 
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+.method public final getType()Ljava/lang/String;
+    .registers 2
 
-    return-object p1
+    .line 1
+    const-string v0, "flNotExistentNode"
+
+    return-object v0
 .end method

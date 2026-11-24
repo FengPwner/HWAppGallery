@@ -63,7 +63,72 @@
 
 
 # virtual methods
-.method public final b(ILjava/util/List;)V
+.method public final b()Z
+    .registers 4
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/cc;->c:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    new-instance v1, Ljava/util/ArrayList;
+
+    iget-object v2, p0, Lcom/huawei/appmarket/cc;->a:Ljava/util/ArrayList;
+
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/huawei/appmarket/tg3;
+
+    instance-of v2, v1, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSafetyReportActivity;
+
+    if-nez v2, :cond_1
+
+    instance-of v1, v1, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardUninstallAppListActivity;
+
+    if-eqz v1, :cond_0
+
+    :cond_1
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    return v0
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v1
+.end method
+
+.method public final c(ILjava/util/List;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -105,9 +170,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/rg3;
+    check-cast v1, Lcom/huawei/appmarket/tg3;
 
-    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/rg3;->Y1(ILjava/util/List;)V
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/tg3;->Y1(ILjava/util/List;)V
 
     goto :goto_0
 
@@ -125,7 +190,7 @@
     throw p1
 .end method
 
-.method public final c(Ljava/lang/String;)V
+.method public final d(Ljava/lang/String;)V
     .registers 8
 
     .line 1
@@ -159,10 +224,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/rg3;
+    check-cast v1, Lcom/huawei/appmarket/tg3;
 
     :try_start_1
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/rg3;->A(Ljava/lang/String;)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/tg3;->A(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -191,7 +256,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -209,7 +274,7 @@
     throw p1
 .end method
 
-.method public final d()V
+.method public final e()V
     .registers 7
 
     .line 1
@@ -243,10 +308,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/rg3;
+    check-cast v1, Lcom/huawei/appmarket/tg3;
 
     :try_start_1
-    invoke-interface {v1}, Lcom/huawei/appmarket/rg3;->E0()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/tg3;->E0()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -275,7 +340,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -293,7 +358,7 @@
     throw v1
 .end method
 
-.method public final e(Lcom/huawei/appmarket/rg3;)V
+.method public final f(Lcom/huawei/appmarket/tg3;)V
     .registers 4
 
     .line 1
@@ -337,7 +402,7 @@
     throw p1
 .end method
 
-.method public final f(Lcom/huawei/appmarket/rg3;)V
+.method public final g(Lcom/huawei/appmarket/tg3;)V
     .registers 4
 
     .line 1
@@ -373,7 +438,7 @@
     throw p1
 .end method
 
-.method public final g(Ljava/lang/String;)V
+.method public final h(Ljava/lang/String;)V
     .registers 8
 
     .line 1
@@ -407,10 +472,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/rg3;
+    check-cast v1, Lcom/huawei/appmarket/tg3;
 
     :try_start_1
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/rg3;->w1(Ljava/lang/String;)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/tg3;->w1(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -439,7 +504,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

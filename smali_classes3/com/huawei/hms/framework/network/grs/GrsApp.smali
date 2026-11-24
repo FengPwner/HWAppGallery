@@ -139,7 +139,7 @@
 
     .line 12
     :cond_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -246,7 +246,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getIssueCountryCode(Landroid/content/Context;)Ljava/lang/String;

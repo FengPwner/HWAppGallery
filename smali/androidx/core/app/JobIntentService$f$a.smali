@@ -57,7 +57,7 @@
 
     iget-object v2, p0, Landroidx/core/app/JobIntentService$f$a;->a:Landroid/app/job/JobWorkItem;
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/nm4;->w(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/qm4;->w(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
 
     goto :goto_0
 
@@ -85,7 +85,7 @@
 
     iget-object v0, p0, Landroidx/core/app/JobIntentService$f$a;->a:Landroid/app/job/JobWorkItem;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/qm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     move-result-object v0
 

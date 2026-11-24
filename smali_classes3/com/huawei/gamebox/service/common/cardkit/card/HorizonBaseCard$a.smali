@@ -87,7 +87,7 @@
 
     move-result v0
 
-    iget-object v1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     invoke-static {p1}, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->r1(Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;)Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -97,9 +97,9 @@
 
     move-result v3
 
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ja3;->p(I)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ma3;->p(I)V
 
-    iget-object v1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     invoke-virtual {p1}, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->v1()Landroidx/recyclerview/widget/RecyclerView;
 
@@ -109,15 +109,15 @@
 
     move-result v3
 
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ja3;->o(I)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ma3;->o(I)V
 
     if-eqz v2, :cond_2
 
     invoke-virtual {p2, v0}, Lcom/huawei/gamebox/service/common/cardkit/bean/HorizonBaseBean;->setPosition(I)V
 
-    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ma3;->e()I
 
     move-result p1
 
@@ -126,17 +126,17 @@
     goto :goto_1
 
     :cond_2
-    iget-object v0, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object v0, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ja3;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ma3;->e()I
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/huawei/gamebox/service/common/cardkit/bean/HorizonBaseBean;->setOffset(I)V
 
-    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iget-object p1, p1, Lcom/huawei/gamebox/service/common/cardkit/card/HorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ja3;->f()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ma3;->f()I
 
     move-result p1
 

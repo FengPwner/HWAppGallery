@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/aj7;
+.field private b:Lcom/huawei/appmarket/gj7;
 
 .field private c:Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;
 
@@ -36,7 +36,7 @@
 
     const-string v1, "error: spinnerCtrlItemMap is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -81,9 +81,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/bj7;
+    check-cast v3, Lcom/huawei/appmarket/hj7;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/bj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/hj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
 
     move-result-object v3
 
@@ -97,9 +97,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/bj7;
+    check-cast v3, Lcom/huawei/appmarket/hj7;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/bj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/hj7;->c()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
 
     move-result-object v3
 
@@ -139,7 +139,7 @@
     return-object v0
 .end method
 
-.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/bj7;
+.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/hj7;
     .registers 3
 
     .line 1
@@ -156,7 +156,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/bj7;
+    check-cast p1, Lcom/huawei/appmarket/hj7;
 
     return-object p1
 .end method
@@ -167,7 +167,7 @@
         value = {
             "()",
             "Ljava/util/Collection<",
-            "Lcom/huawei/appmarket/bj7;",
+            "Lcom/huawei/appmarket/hj7;",
             ">;"
         }
     .end annotation
@@ -252,13 +252,13 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v1
 
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v3
 
@@ -302,7 +302,7 @@
 
     check-cast v1, Lcom/huawei/appmarket/support/widget/title/spinner/bean/SpinnerTitleBean;
 
-    new-instance v3, Lcom/huawei/appmarket/bj7;
+    new-instance v3, Lcom/huawei/appmarket/hj7;
 
     iget-object v4, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->c:Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;
 
@@ -310,9 +310,9 @@
 
     move-result-object v5
 
-    invoke-direct {v3, v4, v5}, Lcom/huawei/appmarket/bj7;-><init>(Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)V
+    invoke-direct {v3, v4, v5}, Lcom/huawei/appmarket/hj7;-><init>(Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)V
 
-    new-instance v4, Lcom/huawei/appmarket/bj7;
+    new-instance v4, Lcom/huawei/appmarket/hj7;
 
     iget-object v5, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->d:Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;
 
@@ -320,7 +320,7 @@
 
     move-result-object v1
 
-    invoke-direct {v4, v5, v1}, Lcom/huawei/appmarket/bj7;-><init>(Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)V
+    invoke-direct {v4, v5, v1}, Lcom/huawei/appmarket/hj7;-><init>(Lcom/huawei/appmarket/framework/widget/spinner/TitleSpinner;Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -338,15 +338,15 @@
 
     invoke-virtual {v1, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/aj7;
+    new-instance v1, Lcom/huawei/appmarket/gj7;
 
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
-    invoke-direct {v1, v3, p0}, Lcom/huawei/appmarket/aj7;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;)V
+    invoke-direct {v1, v3, p0}, Lcom/huawei/appmarket/gj7;-><init>(Landroid/app/Activity;Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;)V
 
-    iput-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/aj7;
+    iput-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/gj7;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/aj7;->a()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/gj7;->a()Z
 
     move-result v1
 
@@ -367,7 +367,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/aj7;
+    iget-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/gj7;
 
     if-eqz v1, :cond_0
 
@@ -379,9 +379,9 @@
 
     const-string v3, "key_left_spinner"
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/aj7;->b(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gj7;->b(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/aj7;
+    iget-object v1, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/gj7;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/support/widget/title/spinner/bean/SpinnerTitleBean;->U()Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;
 
@@ -389,7 +389,7 @@
 
     const-string v2, "key_right_spinner"
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/aj7;->b(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gj7;->b(Lcom/huawei/appgallery/foundation/ui/framework/titleframe/bean/SpinnerInfo;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -468,15 +468,15 @@
     return-void
 .end method
 
-.method public final setTitleDataChangedListener(Lcom/huawei/appmarket/a44;)V
+.method public final setTitleDataChangedListener(Lcom/huawei/appmarket/c44;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->setTitleDataChangedListener(Lcom/huawei/appmarket/a44;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->setTitleDataChangedListener(Lcom/huawei/appmarket/c44;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/aj7;
+    iget-object v0, p0, Lcom/huawei/appmarket/support/widget/title/spinner/SpinnerTitle;->b:Lcom/huawei/appmarket/gj7;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/aj7;->c(Lcom/huawei/appmarket/a44;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gj7;->c(Lcom/huawei/appmarket/c44;)V
 
     return-void
 .end method

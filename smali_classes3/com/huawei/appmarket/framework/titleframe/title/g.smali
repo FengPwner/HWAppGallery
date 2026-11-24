@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/framework/titleframe/title/g;
-.super Lcom/huawei/appmarket/w65;
+.super Lcom/huawei/appmarket/z65;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     iput-object p2, p0, Lcom/huawei/appmarket/framework/titleframe/title/g;->b:Landroid/view/MenuItem;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/w65;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/z65;-><init>()V
 
     return-void
 .end method
@@ -30,7 +30,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/framework/titleframe/title/g;->c:Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->g(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->g(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v1
 
@@ -64,9 +64,9 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/ad7;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/fd7;->a(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->j(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->j(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/a44;->F2(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/c44;->F2(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse$ShareInfo;)V
 
     goto :goto_0
 
@@ -85,7 +85,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->l(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/a44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->l(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Lcom/huawei/appmarket/c44;
 
     move-result-object v2
 
@@ -107,7 +107,7 @@
 
     const-string v1, "WiseDistBaseTitle"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

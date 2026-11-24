@@ -243,7 +243,7 @@
 
     .line 70
     .line 71
-    invoke-static {v2, v0, v1, v0}, Lcom/huawei/appmarket/z84;->e(IIII)I
+    invoke-static {v2, v0, v1, v0}, Lcom/huawei/appmarket/kk4;->e(IIII)I
 
     .line 72
     .line 73
@@ -322,7 +322,7 @@
     move-exception p1
 
     .line 111
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 112
     .line 113
@@ -334,7 +334,7 @@
 
     .line 116
     .line 117
-    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p2, v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 118
     .line 119
@@ -385,5 +385,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

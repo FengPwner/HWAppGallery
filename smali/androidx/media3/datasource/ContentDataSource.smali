@@ -230,7 +230,7 @@
     return-object v0
 .end method
 
-.method public final open(Lcom/huawei/appmarket/l91;)J
+.method public final open(Lcom/huawei/appmarket/m91;)J
     .registers 21
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -248,7 +248,7 @@
     const/16 v3, 0x7d0
 
     :try_start_0
-    iget-object v4, v0, Lcom/huawei/appmarket/l91;->a:Landroid/net/Uri;
+    iget-object v4, v0, Lcom/huawei/appmarket/m91;->a:Landroid/net/Uri;
 
     invoke-virtual {v4}, Landroid/net/Uri;->normalizeScheme()Landroid/net/Uri;
 
@@ -256,7 +256,7 @@
 
     iput-object v4, v1, Landroidx/media3/datasource/ContentDataSource;->f:Landroid/net/Uri;
 
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->j(Lcom/huawei/appmarket/m91;)V
 
     const-string v5, "content"
 
@@ -339,7 +339,7 @@
 
     const-wide/16 v10, -0x1
 
-    iget-wide v12, v0, Lcom/huawei/appmarket/l91;->f:J
+    iget-wide v12, v0, Lcom/huawei/appmarket/m91;->f:J
 
     cmp-long v14, v8, v10
 
@@ -434,7 +434,7 @@
     if-ltz v2, :cond_9
 
     :goto_2
-    iget-wide v2, v0, Lcom/huawei/appmarket/l91;->g:J
+    iget-wide v2, v0, Lcom/huawei/appmarket/m91;->g:J
 
     cmp-long v4, v2, v10
 
@@ -463,7 +463,7 @@
 
     iput-boolean v4, v1, Landroidx/media3/datasource/ContentDataSource;->j:Z
 
-    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/l91;)V
+    invoke-virtual/range {p0 .. p1}, Lcom/huawei/appmarket/i30;->k(Lcom/huawei/appmarket/m91;)V
 
     cmp-long v0, v2, v10
 
@@ -583,7 +583,7 @@
     :goto_0
     iget-object v0, p0, Landroidx/media3/datasource/ContentDataSource;->h:Ljava/io/FileInputStream;
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/FileInputStream;->read([BII)I
 

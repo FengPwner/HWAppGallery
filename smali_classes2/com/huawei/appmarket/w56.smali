@@ -4,74 +4,65 @@
 
 
 # instance fields
-.field private a:Landroid/content/Context;
+.field private a:I
 
-.field private b:I
+.field private b:Z
 
-.field private c:Lcom/huawei/appmarket/m56;
+.field private c:I
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(I)V
+    .registers 2
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lcom/huawei/appmarket/w56;->a:I
+
+    return-void
+.end method
+
+.method public constructor <init>(IZI)V
+    .registers 4
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lcom/huawei/appmarket/w56;->a:I
+
+    iput-boolean p2, p0, Lcom/huawei/appmarket/w56;->b:Z
+
+    iput p3, p0, Lcom/huawei/appmarket/w56;->c:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Landroid/content/Context;
+.method public final a()I
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/w56;->a:Landroid/content/Context;
+    iget v0, p0, Lcom/huawei/appmarket/w56;->a:I
 
-    return-object v0
+    return v0
 .end method
 
 .method public final b()I
     .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/w56;->b:I
+    iget v0, p0, Lcom/huawei/appmarket/w56;->c:I
 
     return v0
 .end method
 
-.method public final c()Lcom/huawei/appmarket/m56;
+.method public final c()Z
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/w56;->c:Lcom/huawei/appmarket/m56;
+    iget-boolean v0, p0, Lcom/huawei/appmarket/w56;->b:Z
 
-    return-object v0
-.end method
-
-.method public final d(Landroid/content/Context;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w56;->a:Landroid/content/Context;
-
-    return-void
-.end method
-
-.method public final e(I)V
-    .registers 2
-
-    .line 1
-    iput p1, p0, Lcom/huawei/appmarket/w56;->b:I
-
-    return-void
-.end method
-
-.method public final f(Lcom/huawei/appmarket/m56;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/w56;->c:Lcom/huawei/appmarket/m56;
-
-    return-void
+    return v0
 .end method

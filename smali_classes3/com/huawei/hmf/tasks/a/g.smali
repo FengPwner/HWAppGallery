@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/huawei/appmarket/t32;)V
+.method public static a(Landroid/app/Activity;Lcom/huawei/appmarket/x32;)V
     .registers 7
 
     .line 1
@@ -416,7 +416,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -455,11 +454,11 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/t32;
+    check-cast v2, Lcom/huawei/appmarket/x32;
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/t32;->cancel()V
+    invoke-interface {v2}, Lcom/huawei/appmarket/x32;->cancel()V
 
     goto :goto_0
 

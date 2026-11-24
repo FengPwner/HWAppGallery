@@ -4,11 +4,11 @@
 
 # interfaces
 .implements Landroid/os/Parcelable;
-.implements Lcom/huawei/appmarket/hm6;
+.implements Lcom/huawei/appmarket/km6;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/tj1;
+.annotation runtime Lcom/huawei/appmarket/wj1;
     name = "hide.card"
 .end annotation
 
@@ -43,19 +43,19 @@
 .field private accessId:Ljava/lang/String;
 
 .field private btnTipText:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private commentCount_:I
 
 .field private commentStatus:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private controlByteCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -70,12 +70,12 @@
 .field private forceLoginType:Z
 
 .field private forwardBtnTxt:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private forwardBtnType:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -114,12 +114,12 @@
 .field private shareType_:I
 
 .field private shareUri:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field public shellApkVer:J
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -1268,13 +1268,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 
@@ -2688,13 +2681,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final x4(I)V

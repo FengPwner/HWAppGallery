@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/tj1;
+.annotation runtime Lcom/huawei/appmarket/wj1;
     name = "head.card"
 .end annotation
 
@@ -15,34 +15,34 @@
 
 # instance fields
 .field private controlByteCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x8
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private detailId:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private iconColor:I
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x3
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private tipText:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x1
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

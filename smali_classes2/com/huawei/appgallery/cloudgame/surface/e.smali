@@ -54,7 +54,7 @@
 
     const-string p2, "CloudGamePlayActivity"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -66,7 +66,7 @@
 
     const-string v0, "surfaceCreated"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/e;->c:Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
 
@@ -145,7 +145,7 @@
 
     const-string v0, "surfaceDestroyed"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/e;->c:Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
 

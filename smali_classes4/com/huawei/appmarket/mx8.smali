@@ -1,162 +1,88 @@
 .class public final Lcom/huawei/appmarket/mx8;
-.super Landroid/view/inputmethod/InputConnectionWrapper;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# static fields
-.field public static a:Ljava/lang/String;
+# instance fields
+.field private final a:Ljava/util/LinkedHashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/LinkedHashMap<",
+            "Ljava/lang/Long;",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/inputmethod/InputConnection;Z)V
-    .registers 3
+.method public constructor <init>()V
+    .registers 2
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/view/inputmethod/InputConnectionWrapper;-><init>(Landroid/view/inputmethod/InputConnection;Z)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/mx8;->a:Ljava/util/LinkedHashMap;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final commitText(Ljava/lang/CharSequence;I)Z
+.method public final a(I)V
     .registers 5
 
     .line 1
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    if-ltz p1, :cond_1
 
-    move-result-object v0
+    const/4 v0, 0x6
 
-    sput-object v0, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
+    if-le p1, v0, :cond_0
 
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "-->commitText: "
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "openSDK_LOG.CaptureInputConnection"
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->h(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-super {p0, p1, p2}, Landroid/view/inputmethod/InputConnectionWrapper;->commitText(Ljava/lang/CharSequence;I)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final sendKeyEvent(Landroid/view/KeyEvent;)Z
-    .registers 5
-
-    .line 1
-    invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
-
-    move-result v0
-
-    const-string v1, "openSDK_LOG.CaptureInputConnection"
-
-    if-nez v0, :cond_0
-
-    const-string v0, "sendKeyEvent"
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Landroid/view/KeyEvent;->getUnicodeChar()I
-
-    move-result v0
-
-    int-to-char v0, v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v2, "s: "
-
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sget-object v2, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->b(Ljava/lang/String;Ljava/lang/String;)V
+    goto :goto_0
 
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    iget-object v0, p0, Lcom/huawei/appmarket/mx8;->a:Ljava/util/LinkedHashMap;
 
-    const-string v2, "-->sendKeyEvent: "
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    move-result-wide v1
 
-    sget-object v2, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-super {p0, p1}, Landroid/view/inputmethod/InputConnectionWrapper;->sendKeyEvent(Landroid/view/KeyEvent;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public final setComposingText(Ljava/lang/CharSequence;I)Z
-    .registers 5
-
-    .line 1
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/mx8;->a:Ljava/lang/String;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "-->setComposingText: "
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object p1
 
-    move-result-object v0
+    invoke-virtual {v0, v1, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v1, "openSDK_LOG.CaptureInputConnection"
+    :cond_1
+    :goto_0
+    return-void
+.end method
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/dz6;->h(Ljava/lang/String;Ljava/lang/String;)V
+.method public final b()Z
+    .registers 3
 
-    invoke-super {p0, p1, p2}, Landroid/view/inputmethod/InputConnectionWrapper;->setComposingText(Ljava/lang/CharSequence;I)Z
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/mx8;->a:Ljava/util/LinkedHashMap;
 
-    move-result p1
+    const/4 v1, 0x4
 
-    return p1
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/LinkedHashMap;->containsValue(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
 .end method

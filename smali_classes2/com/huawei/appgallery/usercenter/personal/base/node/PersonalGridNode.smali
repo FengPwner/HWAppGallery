@@ -28,7 +28,7 @@
     .registers 8
 
     .line 1
-    new-instance v6, Lcom/huawei/appmarket/yr4;
+    new-instance v6, Lcom/huawei/appmarket/bs4;
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
@@ -50,7 +50,7 @@
 
     move-object v0, v6
 
-    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/yr4;-><init>(Landroid/content/Context;IIZZ)V
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/bs4;-><init>(Landroid/content/Context;IIZZ)V
 
     return-object v6
 .end method
@@ -76,7 +76,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/af8;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/ff8;->b()Z
 
     move-result v0
 
@@ -123,7 +123,7 @@
 
     .line 13
     .line 14
-    sget v1, Lcom/huawei/appmarket/af8;->a:I
+    sget v1, Lcom/huawei/appmarket/ff8;->a:I
 
     .line 15
     .line 16
@@ -143,7 +143,7 @@
     move-result-object v1
 
     .line 24
-    invoke-static {v1}, Lcom/huawei/appmarket/w68;->y(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/b78;->y(Landroid/content/Context;)Z
 
     .line 25
     .line 26
@@ -162,7 +162,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 34
     .line 35
@@ -190,7 +190,7 @@
 
     .line 45
     .line 46
-    invoke-static {}, Lcom/huawei/appmarket/af8;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/ff8;->b()Z
 
     .line 47
     .line 48
@@ -362,7 +362,7 @@
 
     .line 7
     .line 8
-    sget v1, Lcom/huawei/appmarket/af8;->a:I
+    sget v1, Lcom/huawei/appmarket/ff8;->a:I
 
     .line 9
     .line 10

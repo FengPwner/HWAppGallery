@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/tx0;
-.super Lcom/huawei/appmarket/zr5;
+.super Lcom/huawei/appmarket/bs5;
 .source "SourceFile"
 
 # interfaces
@@ -12,7 +12,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/zr5<",
+        "Lcom/huawei/appmarket/bs5<",
         "TT;>;",
         "Ljava/io/Serializable;"
     }
@@ -46,7 +46,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/zr5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/bs5;-><init>()V
 
     .line 2
     .line 3

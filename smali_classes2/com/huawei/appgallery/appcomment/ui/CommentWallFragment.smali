@@ -51,20 +51,20 @@
     return-object p0
 .end method
 
-.method static synthetic F7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/sk0;
+.method static synthetic F7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/tk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J0:Lcom/huawei/appmarket/sk0;
+    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J0:Lcom/huawei/appmarket/tk0;
 
     return-object p0
 .end method
 
-.method static synthetic G7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/sk0;
+.method static synthetic G7(Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;)Lcom/huawei/appmarket/tk0;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J0:Lcom/huawei/appmarket/sk0;
+    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J0:Lcom/huawei/appmarket/tk0;
 
     return-object p0
 .end method
@@ -88,7 +88,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -101,7 +101,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 16
     .line 17
@@ -118,7 +118,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->G0(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/appcomment/request/JfasDetailReqBean;->F0(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -127,7 +127,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
 
     .line 30
     .line 31
@@ -266,7 +266,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d2(Landroid/os/Bundle;)V
@@ -355,7 +354,7 @@
 
     .line 23
     .line 24
-    invoke-static {p2}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {p2}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 25
     .line 26
@@ -371,7 +370,7 @@
     move-result-object p3
 
     .line 32
-    invoke-static {p3}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p3}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 33
     .line 34
@@ -383,7 +382,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {p3, v0, p2}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 39
     .line 40
@@ -686,13 +685,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/appcomment/ui/CommentWallFragment;->w3:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     :cond_0
     return-void
@@ -736,7 +735,7 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->L1:Landroid/view/LayoutInflater;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->x1:Landroid/view/LayoutInflater;
 
     const v1, 0x7f0d0192
 

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/permitapp/WebViewLiteDelegate;->registerExternalDownloadObserver(Ljava/lang/String;Lcom/huawei/appmarket/k64$a;)V
+    value = Lcom/huawei/appmarket/service/permitapp/WebViewLiteDelegate;->registerExternalDownloadObserver(Ljava/lang/String;Lcom/huawei/appmarket/n64$a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -65,9 +65,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/k64$a;
+    check-cast p2, Lcom/huawei/appmarket/n64$a;
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/k64$a;->onExternalDownloadChanged()V
+    invoke-interface {p2}, Lcom/huawei/appmarket/n64$a;->onExternalDownloadChanged()V
 
     goto :goto_0
 

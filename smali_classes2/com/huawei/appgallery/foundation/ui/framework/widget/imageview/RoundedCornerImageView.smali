@@ -24,7 +24,7 @@
 
 .field private g:I
 
-.field private h:Lcom/huawei/appmarket/dp1;
+.field private h:Lcom/huawei/appmarket/gp1;
 
 .field private i:I
 
@@ -58,9 +58,9 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object v0, Lcom/huawei/appmarket/dp1;->c:Lcom/huawei/appmarket/dp1;
+    sget-object v0, Lcom/huawei/appmarket/gp1;->c:Lcom/huawei/appmarket/gp1;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->h:Lcom/huawei/appmarket/dp1;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->h:Lcom/huawei/appmarket/gp1;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->c:Lcom/bumptech/glide/h;
 
-    sget-object v0, Lcom/huawei/appmarket/hf6;->g:[I
+    sget-object v0, Lcom/huawei/appmarket/jf6;->g:[I
 
     const/4 v1, 0x0
 
@@ -198,7 +198,7 @@
     .line 15
     .line 16
     .line 17
-    new-instance v0, Lcom/huawei/appmarket/hy1;
+    new-instance v0, Lcom/huawei/appmarket/ly1;
 
     .line 18
     .line 19
@@ -230,7 +230,7 @@
     int-to-float v5, v5
 
     .line 31
-    invoke-direct {v0, v2, v3, v4, v5}, Lcom/huawei/appmarket/hy1;-><init>(FFFF)V
+    invoke-direct {v0, v2, v3, v4, v5}, Lcom/huawei/appmarket/ly1;-><init>(FFFF)V
 
     .line 32
     .line 33
@@ -247,11 +247,11 @@
 
     .line 39
     .line 40
-    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->h:Lcom/huawei/appmarket/dp1;
+    iget-object v4, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->h:Lcom/huawei/appmarket/gp1;
 
     .line 41
     .line 42
-    invoke-virtual {v1, v4}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/dp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v1, v4}, Lcom/bumptech/glide/request/BaseRequestOptions;->diskCacheStrategy(Lcom/huawei/appmarket/gp1;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 43
     .line 44
@@ -270,15 +270,15 @@
     const/4 v2, 0x2
 
     .line 51
-    new-array v2, v2, [Lcom/huawei/appmarket/v28;
+    new-array v2, v2, [Lcom/huawei/appmarket/b38;
 
     .line 52
     .line 53
-    new-instance v3, Lcom/huawei/appmarket/mm0;
+    new-instance v3, Lcom/huawei/appmarket/nm0;
 
     .line 54
     .line 55
-    invoke-direct {v3}, Lcom/huawei/appmarket/mm0;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/nm0;-><init>()V
 
     .line 56
     .line 57
@@ -297,7 +297,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform([Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform([Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 65
     .line 66
@@ -319,7 +319,7 @@
 
     .line 74
     :cond_0
-    invoke-virtual {v1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/v28;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    invoke-virtual {v1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->transform(Lcom/huawei/appmarket/b38;)Lcom/bumptech/glide/request/BaseRequestOptions;
 
     .line 75
     .line 76
@@ -392,13 +392,13 @@
     .line 137
 .end method
 
-.method public final b(Lcom/huawei/appmarket/yb4;)V
+.method public final b(Lcom/huawei/appmarket/ac4;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/imageview/RoundedCornerImageView;->c:Lcom/bumptech/glide/h;
 
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/sr6;)Lcom/bumptech/glide/h;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/h;->i(Lcom/huawei/appmarket/vr6;)Lcom/bumptech/glide/h;
 
     return-void
 .end method

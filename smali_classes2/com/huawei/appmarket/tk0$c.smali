@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/tk0;->D()V
+    value = Lcom/huawei/appmarket/tk0;->g()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -49,13 +49,13 @@
     goto :goto_0
 
     :catch_0
-    move-exception v0
+    sget-object v0, Lcom/huawei/appmarket/jk0;->a:Lcom/huawei/appmarket/jk0;
 
-    const-string v1, "CardListAdapterV2"
+    const-string v1, "CardListAdapter"
 
-    const-string v2, "notifyDataChanged e: "
+    const-string v2, "notifyDataSetChanged IllegalStateException!"
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

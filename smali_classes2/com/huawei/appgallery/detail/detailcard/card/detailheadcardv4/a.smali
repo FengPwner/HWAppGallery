@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ff1;
+.implements Lcom/huawei/appmarket/hf1;
 
 
 # instance fields
@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method public final b0(Lcom/huawei/appmarket/du4;)V
+.method public final b0(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
@@ -34,7 +34,7 @@
     return-void
 .end method
 
-.method public final e(Lcom/huawei/appmarket/du4;)V
+.method public final e(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -42,7 +42,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -148,10 +148,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final onDestroy(Lcom/huawei/appmarket/du4;)V
+.method public final onDestroy(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
@@ -162,7 +161,7 @@
     return-void
 .end method
 
-.method public final onStart(Lcom/huawei/appmarket/du4;)V
+.method public final onStart(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -170,7 +169,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -276,10 +275,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final onStop(Lcom/huawei/appmarket/du4;)V
+.method public final onStop(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -287,7 +285,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -393,10 +391,9 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final z(Lcom/huawei/appmarket/du4;)V
+.method public final z(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
@@ -404,7 +401,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -510,5 +507,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -92,7 +92,7 @@
 
     const-string v0, "pushsmsBtn is null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -119,7 +119,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/us7;->c()Lcom/huawei/appmarket/us7;
+    invoke-static {}, Lcom/huawei/appmarket/at7;->c()Lcom/huawei/appmarket/at7;
 
     move-result-object v0
 
@@ -131,9 +131,9 @@
 
     const-string v2, "SettingMarketingNoticeCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/us7;->f(Ljava/lang/String;Lcom/huawei/appmarket/service/settings/card/l;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/at7;->f(Ljava/lang/String;Lcom/huawei/appmarket/service/settings/card/l;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -141,15 +141,15 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/za7;
+    new-instance v0, Lcom/huawei/appmarket/eb7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/za7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/eb7;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/wb6;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/yb6;
 
     invoke-virtual {v0, p0}, Lcom/huawei/appmarket/g50;->f(Lcom/huawei/appmarket/g50$b;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/wb6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/yb6;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/g50;->e()V
 
@@ -161,7 +161,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+    invoke-static {}, Lcom/huawei/appmarket/pk4;->v()Lcom/huawei/appmarket/pk4;
 
     move-result-object v0
 
@@ -169,21 +169,21 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/j50;->j(Ljava/lang/String;Z)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/wb6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/yb6;
 
     invoke-virtual {v0, p1}, Lcom/huawei/appmarket/g50;->g(I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/wb6;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/SettingPushSmsCardCard;->C:Lcom/huawei/appmarket/yb6;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/za7;
+    instance-of v1, v0, Lcom/huawei/appmarket/eb7;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/za7;
+    check-cast v0, Lcom/huawei/appmarket/eb7;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/za7;->h(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/eb7;->h(Z)V
 
     :cond_0
     return-void

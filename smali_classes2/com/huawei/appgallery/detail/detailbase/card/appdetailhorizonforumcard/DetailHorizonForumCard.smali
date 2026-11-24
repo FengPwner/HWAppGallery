@@ -33,7 +33,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 
@@ -41,7 +41,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/o66;->a(I)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/q66;->a(I)Z
 
     move-result v0
 
@@ -59,11 +59,11 @@
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     const-class v1, Lcom/huawei/appgallery/detail/detailbase/view/a;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 

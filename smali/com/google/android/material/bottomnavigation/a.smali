@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tj8$b;
+.implements Lcom/huawei/appmarket/zj8$b;
 
 
 # direct methods
@@ -17,15 +17,15 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View;Lcom/huawei/appmarket/nq8;Lcom/huawei/appmarket/tj8$c;)Lcom/huawei/appmarket/nq8;
+.method public final a(Landroid/view/View;Lcom/huawei/appmarket/tq8;Lcom/huawei/appmarket/zj8$c;)Lcom/huawei/appmarket/tq8;
     .registers 9
 
     .line 1
-    iget v0, p3, Lcom/huawei/appmarket/tj8$c;->d:I
+    iget v0, p3, Lcom/huawei/appmarket/zj8$c;->d:I
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->i()I
 
     .line 4
     .line 5
@@ -36,11 +36,11 @@
     add-int/2addr v1, v0
 
     .line 8
-    iput v1, p3, Lcom/huawei/appmarket/tj8$c;->d:I
+    iput v1, p3, Lcom/huawei/appmarket/zj8$c;->d:I
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 11
     .line 12
@@ -63,7 +63,7 @@
 
     .line 19
     :goto_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->j()I
 
     .line 20
     .line 21
@@ -71,7 +71,7 @@
     move-result v0
 
     .line 23
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->k()I
 
     .line 24
     .line 25
@@ -79,7 +79,7 @@
     move-result v2
 
     .line 27
-    iget v3, p3, Lcom/huawei/appmarket/tj8$c;->a:I
+    iget v3, p3, Lcom/huawei/appmarket/zj8$c;->a:I
 
     .line 28
     .line 29
@@ -101,11 +101,11 @@
     add-int/2addr v3, v4
 
     .line 35
-    iput v3, p3, Lcom/huawei/appmarket/tj8$c;->a:I
+    iput v3, p3, Lcom/huawei/appmarket/zj8$c;->a:I
 
     .line 36
     .line 37
-    iget v4, p3, Lcom/huawei/appmarket/tj8$c;->c:I
+    iget v4, p3, Lcom/huawei/appmarket/zj8$c;->c:I
 
     .line 38
     .line 39
@@ -124,19 +124,19 @@
     add-int/2addr v4, v0
 
     .line 44
-    iput v4, p3, Lcom/huawei/appmarket/tj8$c;->c:I
+    iput v4, p3, Lcom/huawei/appmarket/zj8$c;->c:I
 
     .line 45
     .line 46
-    iget v0, p3, Lcom/huawei/appmarket/tj8$c;->b:I
+    iget v0, p3, Lcom/huawei/appmarket/zj8$c;->b:I
 
     .line 47
     .line 48
-    iget p3, p3, Lcom/huawei/appmarket/tj8$c;->d:I
+    iget p3, p3, Lcom/huawei/appmarket/zj8$c;->d:I
 
     .line 49
     .line 50
-    invoke-static {p1, v3, v0, v4, p3}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {p1, v3, v0, v4, p3}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     .line 51
     .line 52
@@ -372,4 +372,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

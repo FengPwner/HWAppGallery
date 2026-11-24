@@ -50,7 +50,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Lcom/huawei/appmarket/kz5;->c(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/mz5;->c(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
 
     .line 16
     .line 17
@@ -69,7 +69,7 @@
     const/4 v2, 0x0
 
     .line 24
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 25
     .line 26

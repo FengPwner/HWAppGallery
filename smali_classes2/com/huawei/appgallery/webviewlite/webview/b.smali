@@ -34,13 +34,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/ao8;->a:Lcom/huawei/appmarket/ao8;
+    sget-object v0, Lcom/huawei/appmarket/go8;->a:Lcom/huawei/appmarket/go8;
 
     const-string v1, "WebViewLiteActivity"
 
     const-string v2, "Close downloadTips"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/huawei/appgallery/webviewlite/webview/WebViewLiteActivity;->C3(Lcom/huawei/appgallery/webviewlite/webview/WebViewLiteActivity;)Landroid/widget/LinearLayout;
 

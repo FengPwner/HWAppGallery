@@ -96,7 +96,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/tu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/wu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
 
     move-result-object v3
 

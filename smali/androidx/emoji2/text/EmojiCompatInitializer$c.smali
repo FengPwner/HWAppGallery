@@ -34,7 +34,7 @@
     :try_start_0
     const-string v0, "EmojiCompat.EmojiCompatInitializer.run"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
 
     invoke-static {}, Landroidx/emoji2/text/e;->h()Z
 
@@ -59,12 +59,12 @@
 
     :cond_0
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     return-void
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     throw v0
 .end method

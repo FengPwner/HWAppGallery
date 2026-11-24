@@ -1,0 +1,79 @@
+.class Lorg/bouncycastle/crypto/kems/mlkem/Reduce;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static barrettReduce(S)S
+    .registers 2
+
+    mul-int/lit16 v0, p0, 0x4ebf
+
+    shr-int/lit8 v0, v0, 0x1a
+
+    int-to-short v0, v0
+
+    mul-int/lit16 v0, v0, 0xd01
+
+    int-to-short v0, v0
+
+    sub-int/2addr p0, v0
+
+    int-to-short p0, p0
+
+    return p0
+.end method
+
+.method static checkModulus(S)I
+    .registers 1
+
+    add-int/lit16 p0, p0, -0xd01
+
+    return p0
+.end method
+
+.method static condSubQ(S)S
+    .registers 2
+
+    add-int/lit16 p0, p0, -0xd01
+
+    int-to-short p0, p0
+
+    shr-int/lit8 v0, p0, 0xf
+
+    and-int/lit16 v0, v0, 0xd01
+
+    add-int/2addr p0, v0
+
+    int-to-short p0, p0
+
+    return p0
+.end method
+
+.method static montgomeryReduce(I)S
+    .registers 2
+
+    const v0, 0xf301
+
+    mul-int v0, v0, p0
+
+    int-to-short v0, v0
+
+    mul-int/lit16 v0, v0, 0xd01
+
+    sub-int/2addr p0, v0
+
+    shr-int/lit8 p0, p0, 0x10
+
+    int-to-short p0, p0
+
+    return p0
+.end method

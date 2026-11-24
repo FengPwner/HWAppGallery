@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jt3;
+.implements Lcom/huawei/appmarket/lt3;
 
 
 # static fields
@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ej4;
+.field private b:Lcom/huawei/appmarket/gj4;
 
 .field private c:Ljava/lang/String;
 
@@ -218,7 +218,7 @@
 
     .line 40
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/s52;->b(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/w52;->b(Landroid/view/View;)Z
 
     .line 41
     .line 42
@@ -313,7 +313,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private b()V
@@ -346,9 +345,9 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->l()V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -365,9 +364,9 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->m()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->m()V
 
     :cond_2
     :goto_1
@@ -380,11 +379,11 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ej4;
+    new-instance v0, Lcom/huawei/appmarket/gj4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ej4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gj4;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iput-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -398,19 +397,19 @@
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/ej4;->i(Landroid/view/View;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/gj4;->i(Landroid/view/View;)V
 
     invoke-virtual {p0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/fk6;
+    new-instance v1, Lcom/huawei/appmarket/hk6;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/fk6;-><init>(Landroid/widget/LinearLayout;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/hk6;-><init>(Landroid/widget/LinearLayout;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
@@ -430,7 +429,7 @@
 .method public getInteractiveRecommResponse()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/fj4;->d()Lcom/huawei/appmarket/fj4;
+    invoke-static {}, Lcom/huawei/appmarket/hj4;->d()Lcom/huawei/appmarket/hj4;
 
     move-result-object v0
 
@@ -438,7 +437,7 @@
 
     iget-wide v2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->d:J
 
-    invoke-virtual {v0, v2, v3, v1}, Lcom/huawei/appmarket/fj4;->g(JLjava/lang/String;)Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
+    invoke-virtual {v0, v2, v3, v1}, Lcom/huawei/appmarket/hj4;->g(JLjava/lang/String;)Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
 
     move-result-object v0
 
@@ -563,11 +562,11 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
     .line 6
     .line 7
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/ej4;->n(Lcom/huawei/appmarket/jt3;)V
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/gj4;->n(Lcom/huawei/appmarket/lt3;)V
 
     .line 8
     .line 9
@@ -668,7 +667,7 @@
 
     .line 57
     .line 58
-    iget-object p2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object p2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
     .line 59
     .line 60
@@ -676,7 +675,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ej4;->o(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/gj4;->o(Landroid/view/View;)V
 
     .line 63
     .line 64
@@ -698,17 +697,17 @@
     .line 70
     .line 71
     :goto_0
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
     .line 74
     :goto_1
-    iget-object p1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->b:Lcom/huawei/appmarket/gj4;
 
     .line 75
     .line 76
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ej4;->q()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gj4;->q()V
 
     .line 77
     .line 78
@@ -809,7 +808,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public setInteractiveRecommResponse(Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;)V
@@ -817,7 +815,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/fj4;->d()Lcom/huawei/appmarket/fj4;
+    invoke-static {}, Lcom/huawei/appmarket/hj4;->d()Lcom/huawei/appmarket/hj4;
 
     move-result-object p1
 
@@ -825,12 +823,12 @@
 
     iget-wide v1, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->d:J
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/huawei/appmarket/fj4;->j(Ljava/lang/String;J)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/huawei/appmarket/hj4;->j(Ljava/lang/String;J)V
 
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/fj4;->d()Lcom/huawei/appmarket/fj4;
+    invoke-static {}, Lcom/huawei/appmarket/hj4;->d()Lcom/huawei/appmarket/hj4;
 
     move-result-object v0
 
@@ -838,7 +836,7 @@
 
     iget-wide v2, p0, Lcom/huawei/appmarket/wisedist/widget/component/interactrecom/word/InteractWordView;->d:J
 
-    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/huawei/appmarket/fj4;->c(Ljava/lang/String;JLcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;)V
+    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/huawei/appmarket/hj4;->c(Ljava/lang/String;JLcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;)V
 
     :goto_0
     return-void

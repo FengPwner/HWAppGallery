@@ -49,11 +49,11 @@
 
     new-instance v0, Lorg/apache/commons/lang3/RandomUtils;
 
-    new-instance v1, Lcom/huawei/appmarket/ch6;
+    new-instance v1, Lcom/huawei/appmarket/eh6;
 
     const/4 v2, 0x3
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     invoke-direct {v0, v1}, Lorg/apache/commons/lang3/RandomUtils;-><init>(Ljava/util/function/Supplier;)V
 
@@ -61,21 +61,21 @@
 
     new-instance v0, Lorg/apache/commons/lang3/RandomUtils;
 
-    new-instance v1, Lcom/huawei/appmarket/ch6;
+    new-instance v1, Lcom/huawei/appmarket/eh6;
 
     const/4 v2, 0x4
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     invoke-direct {v0, v1}, Lorg/apache/commons/lang3/RandomUtils;-><init>(Ljava/util/function/Supplier;)V
 
     sput-object v0, Lorg/apache/commons/lang3/RandomUtils;->SECURE:Lorg/apache/commons/lang3/RandomUtils;
 
-    new-instance v0, Lcom/huawei/appmarket/ch6;
+    new-instance v0, Lcom/huawei/appmarket/eh6;
 
     const/4 v1, 0x5
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/RandomUtils;->SECURE_STRONG_SUPPLIER:Ljava/util/function/Supplier;
 
@@ -85,13 +85,13 @@
 
     sput-object v1, Lorg/apache/commons/lang3/RandomUtils;->SECURE_STRONG:Lorg/apache/commons/lang3/RandomUtils;
 
-    new-instance v0, Lcom/huawei/appmarket/ch6;
+    new-instance v0, Lcom/huawei/appmarket/eh6;
 
     const/4 v1, 0x6
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ch6;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/eh6;-><init>(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xj5;->l(Lcom/huawei/appmarket/ch6;)Ljava/lang/ThreadLocal;
+    invoke-static {v0}, Lcom/huawei/appmarket/zj5;->l(Lcom/huawei/appmarket/eh6;)Ljava/lang/ThreadLocal;
 
     move-result-object v0
 
@@ -180,7 +180,7 @@
     .registers 2
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/e53;->k()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/h53;->k()Ljava/security/SecureRandom;
 
     move-result-object v0
     :try_end_0

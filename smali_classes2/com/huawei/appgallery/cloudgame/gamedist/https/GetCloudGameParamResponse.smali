@@ -1,11 +1,11 @@
 .class public Lcom/huawei/appgallery/cloudgame/gamedist/https/GetCloudGameParamResponse;
-.super Lcom/huawei/appmarket/xf0;
+.super Lcom/huawei/appmarket/yf0;
 .source "SourceFile"
 
 
 # instance fields
 .field private cgParams_:Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameParamInfo;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -17,7 +17,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/xf0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/yf0;-><init>()V
 
     return-void
 .end method

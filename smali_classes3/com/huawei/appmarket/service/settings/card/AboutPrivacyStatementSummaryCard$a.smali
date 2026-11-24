@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/AboutPrivacyStatementSummaryCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutPrivacyStatementSummaryCard$a;->b:Lcom/huawei/appmarket/service/settings/card/AboutPrivacyStatementSummaryCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const-string v1, "go website"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/settings/card/AboutPrivacyStatementSummaryCard$a;->b:Lcom/huawei/appmarket/service/settings/card/AboutPrivacyStatementSummaryCard;
 

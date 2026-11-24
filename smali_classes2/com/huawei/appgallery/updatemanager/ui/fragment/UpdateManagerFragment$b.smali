@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/sk0;",
+            "Lcom/huawei/appmarket/tk0;",
             ">;"
         }
     .end annotation
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/sk0;)V
+.method private constructor <init>(Lcom/huawei/appmarket/tk0;)V
     .registers 3
 
     .line 1
@@ -45,11 +45,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/sk0;Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/tk0;Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment$a;)V
     .registers 3
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment$b;-><init>(Lcom/huawei/appmarket/sk0;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/updatemanager/ui/fragment/UpdateManagerFragment$b;-><init>(Lcom/huawei/appmarket/tk0;)V
 
     return-void
 .end method
@@ -65,17 +65,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/sk0;
+    check-cast v0, Lcom/huawei/appmarket/tk0;
 
     const-string v1, "UpdateManagerFragment"
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v0, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string v2, "notifyDataSetChanged adapter is null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -88,11 +88,11 @@
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v0, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string v2, "notifyDataSetChanged IllegalStateException!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

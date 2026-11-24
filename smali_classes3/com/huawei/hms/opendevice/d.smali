@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->a([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -19,7 +19,7 @@
     .registers 1
 
     .line 2
-    invoke-static {p0}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 

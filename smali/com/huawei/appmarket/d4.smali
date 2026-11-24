@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/hd5;
+.implements Lcom/huawei/appmarket/kd5;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/hd5<",
+        "Lcom/huawei/appmarket/kd5<",
         "TK;TV;>;"
     }
 .end annotation
@@ -266,7 +266,7 @@
 
     .line 5
     :cond_0
-    instance-of v0, p1, Lcom/huawei/appmarket/hd5;
+    instance-of v0, p1, Lcom/huawei/appmarket/kd5;
 
     .line 6
     .line 7
@@ -274,11 +274,11 @@
 
     .line 8
     .line 9
-    check-cast p1, Lcom/huawei/appmarket/hd5;
+    check-cast p1, Lcom/huawei/appmarket/kd5;
 
     .line 10
     .line 11
-    invoke-interface {p0}, Lcom/huawei/appmarket/hd5;->b()Ljava/util/Map;
+    invoke-interface {p0}, Lcom/huawei/appmarket/kd5;->b()Ljava/util/Map;
 
     .line 12
     .line 13
@@ -286,7 +286,7 @@
     move-result-object v0
 
     .line 15
-    invoke-interface {p1}, Lcom/huawei/appmarket/hd5;->b()Ljava/util/Map;
+    invoke-interface {p1}, Lcom/huawei/appmarket/kd5;->b()Ljava/util/Map;
 
     .line 16
     .line 17
@@ -467,11 +467,11 @@
     move-result-object v0
 
     .line 9
-    new-instance v1, Lcom/huawei/appmarket/y25;
+    new-instance v1, Lcom/huawei/appmarket/b35;
 
     .line 10
     .line 11
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/y25;-><init>(Ljava/util/Iterator;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/b35;-><init>(Ljava/util/Iterator;)V
 
     .line 12
     .line 13
@@ -598,6 +598,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public keySet()Ljava/util/Set;
@@ -634,7 +635,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/hd5;->get(Ljava/lang/Object;)Ljava/util/Collection;
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/kd5;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
 

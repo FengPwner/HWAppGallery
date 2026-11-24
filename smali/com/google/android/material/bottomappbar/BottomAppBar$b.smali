@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/w28;
+.implements Lcom/huawei/appmarket/c38;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/w28<",
+        "Lcom/huawei/appmarket/c38<",
         "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
         ">;"
     }
@@ -96,7 +96,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/q45;
+    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/t45;
 
     .line 27
     .line 28
@@ -104,7 +104,7 @@
     move-result-object v0
 
     .line 30
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     .line 31
     .line 32
@@ -169,7 +169,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/q45;
+    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/t45;
 
     .line 63
     .line 64
@@ -177,13 +177,13 @@
     move-result-object v0
 
     .line 66
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     .line 67
     .line 68
     .line 69
     :cond_1
-    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/q45;
+    invoke-static {v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/t45;
 
     .line 70
     .line 71
@@ -212,7 +212,7 @@
 
     .line 83
     :cond_2
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/q45;->I(F)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/t45;->I(F)V
 
     .line 84
     .line 85
@@ -237,7 +237,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/q45;
+    invoke-static {v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/t45;
 
     .line 4
     .line 5
@@ -273,7 +273,7 @@
 
     .line 19
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->I(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->I(F)V
 
     .line 20
     .line 21

@@ -149,7 +149,7 @@
 
     invoke-virtual {v6, v7}, Lcom/huawei/hms/core/aidl/RequestHeader;->setPackageName(Ljava/lang/String;)V
 
-    const v7, 0x3a75e4f
+    const v7, 0x3a75e50
 
     invoke-virtual {v6, v7}, Lcom/huawei/hms/core/aidl/RequestHeader;->setSdkVersion(I)V
 

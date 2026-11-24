@@ -405,7 +405,7 @@
     const-string v3, ", method:"
 
     .line 7
-    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/bu0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/kd0;->y(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/updatesdk/sdk/service/storekit/b;->a:Lcom/huawei/updatesdk/sdk/service/storekit/bean/c;
 

@@ -3,16 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/Comparator;
+.implements Ljava/util/function/IntFunction;
 
 
 # instance fields
-.field public final synthetic b:I
+.field public final synthetic a:I
+
+.field public final synthetic b:Ljava/lang/Object;
 
 
 # direct methods
-.method public synthetic constructor <init>(I)V
-    .registers 2
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -20,13 +22,15 @@
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/huawei/appmarket/px;->b:I
+    iput p2, p0, Lcom/huawei/appmarket/px;->a:I
 
     .line 5
     .line 6
-    return-void
+    iput-object p1, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
     .line 7
     .line 8
+    return-void
     .line 9
     .line 10
     .line 11
@@ -217,52 +221,212 @@
     .line 196
     .line 197
     .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
 .end method
 
 
 # virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .registers 4
+.method public final apply(I)Ljava/lang/Object;
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/px;->b:I
+    iget v0, p0, Lcom/huawei/appmarket/px;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    check-cast p1, Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
 
-    check-cast p2, Ljava/lang/String;
+    check-cast v0, [Lorg/apache/commons/lang3/Functions$FailableRunnable;
 
-    invoke-virtual {p1, p2}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/Functions;->b([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)Lorg/apache/commons/lang3/function/FailableRunnable;
 
-    move-result p1
+    move-result-object p1
 
-    return p1
+    return-object p1
 
     :pswitch_0
-    check-cast p1, Ljava/lang/Class;
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
 
-    check-cast p2, Ljava/lang/Class;
+    check-cast v0, [Ljava/lang/Object;
 
-    invoke-static {p1, p2}, Lorg/apache/commons/lang3/ClassUtils;->e(Ljava/lang/Class;Ljava/lang/Class;)I
+    invoke-static {p1, v0}, Lorg/apache/commons/lang3/ClassUtils;->c(I[Ljava/lang/Object;)Ljava/lang/Class;
 
-    move-result p1
+    move-result-object p1
 
-    return p1
+    return-object p1
 
     :pswitch_1
-    check-cast p1, Ljava/lang/Comparable;
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
 
-    check-cast p2, Ljava/lang/Comparable;
+    check-cast v0, [S
 
-    invoke-interface {p1, p2}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/ArrayUtils;->o([SI)Ljava/lang/Short;
 
-    move-result p1
+    move-result-object p1
 
-    return p1
+    return-object p1
+
+    :pswitch_2
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [B
+
+    invoke-static {p1, v0}, Lorg/apache/commons/lang3/ArrayUtils;->r(I[B)Ljava/lang/Byte;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_3
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [D
+
+    invoke-static {p1, v0}, Lorg/apache/commons/lang3/ArrayUtils;->k(I[D)Ljava/lang/Double;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_4
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [I
+
+    invoke-static {p1, v0}, Lorg/apache/commons/lang3/ArrayUtils;->w(I[I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_5
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [F
+
+    invoke-static {p1, v0}, Lorg/apache/commons/lang3/ArrayUtils;->d(I[F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_6
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [C
+
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/ArrayUtils;->j([CI)Ljava/lang/Character;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_7
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [Z
+
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/ArrayUtils;->p([ZI)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_8
+    iget-object v0, p0, Lcom/huawei/appmarket/px;->b:Ljava/lang/Object;
+
+    check-cast v0, [J
+
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/ArrayUtils;->m([JI)Ljava/lang/Long;
+
+    move-result-object p1
+
+    return-object p1
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x0
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
         :pswitch_1
         :pswitch_0
     .end packed-switch

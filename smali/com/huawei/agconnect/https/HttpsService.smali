@@ -7,44 +7,44 @@
 
 
 # instance fields
-.field public a:Lcom/huawei/appmarket/mn5;
+.field public a:Lcom/huawei/appmarket/nn5;
 
 .field public b:Ljava/util/concurrent/Executor;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/mn5;Ljava/util/concurrent/Executor;)V
+.method public constructor <init>(Lcom/huawei/appmarket/nn5;Ljava/util/concurrent/Executor;)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsService;->a:Lcom/huawei/appmarket/mn5;
+    iput-object p1, p0, Lcom/huawei/agconnect/https/HttpsService;->a:Lcom/huawei/appmarket/nn5;
 
     iput-object p2, p0, Lcom/huawei/agconnect/https/HttpsService;->b:Ljava/util/concurrent/Executor;
 
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/agconnect/https/HttpsService;)Lcom/huawei/appmarket/mn5;
+.method public static synthetic a(Lcom/huawei/agconnect/https/HttpsService;)Lcom/huawei/appmarket/nn5;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/agconnect/https/HttpsService;->a:Lcom/huawei/appmarket/mn5;
+    iget-object p0, p0, Lcom/huawei/agconnect/https/HttpsService;->a:Lcom/huawei/appmarket/nn5;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/hv7;
+.method public execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/agconnect/https/Method;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/agconnect/https/HttpsResult;",
             ">;"
         }
@@ -57,7 +57,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/huawei/agconnect/https/HttpsService$1;-><init>(Lcom/huawei/agconnect/https/HttpsService;Lcom/huawei/agconnect/https/Method;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 

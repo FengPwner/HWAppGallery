@@ -260,7 +260,7 @@
 
     .line 99
     .line 100
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->a()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->a()Landroid/view/View$AccessibilityDelegate;
 
     .line 101
     .line 102
@@ -282,7 +282,7 @@
 
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     .line 111
     .line 112
@@ -350,7 +350,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -367,7 +366,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfobasecard/DetailInfoBaseCard;->z:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0a1896
+    const v0, 0x7f0a1897
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -389,9 +388,9 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailinfobasecard/DetailInfoBaseCard;->y:Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;
 
-    new-instance v1, Lcom/huawei/appmarket/tf7;
+    new-instance v1, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

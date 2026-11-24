@@ -45,23 +45,23 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/s47;->b()Lcom/huawei/appmarket/i14$a;
+    invoke-static {}, Lcom/huawei/appmarket/x47;->b()Lcom/huawei/appmarket/k14$a;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/i14$a;->m()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/k14$a;->m()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v2, "BaseSearchActivity"
 
     const-string v3, "RequestFocusRunnable requestEditFocus. "
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/search/ui/BaseSearchActivity;->L3(Lcom/huawei/appgallery/search/ui/BaseSearchActivity;)Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;
 

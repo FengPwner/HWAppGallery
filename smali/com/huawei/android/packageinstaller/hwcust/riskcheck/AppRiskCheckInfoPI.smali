@@ -100,7 +100,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appmarket/iu;)Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;
+.method public static a(Lcom/huawei/appmarket/ju;)Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;
     .registers 3
 
     .line 1
@@ -108,55 +108,55 @@
 
     invoke-direct {v0}, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;-><init>()V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->l()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->l()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mInstalledAppInfo:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->c()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->c()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mCallerInfo:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->A()Z
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->A()Z
 
     move-result v1
 
     iput-boolean v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->isRectified:Z
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->k()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->k()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mIPCStarter:Ljava/lang/String;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->m()I
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->m()I
 
     move-result v1
 
     iput v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mPureStatus:I
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->u()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mUninstalledAppInfo:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/AppInfo;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->s()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mStarter:Ljava/lang/String;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->o()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->o()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mReferrer:Ljava/lang/String;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->w()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/WashAppInfo;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->w()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/WashAppInfo;
 
     move-result-object v1
 
@@ -166,7 +166,7 @@
 
     iput-object v1, v0, Lcom/huawei/android/packageinstaller/hwcust/riskcheck/AppRiskCheckInfoPI;->mWashAppInfo:Lcom/huawei/android/packageinstaller/hwcust/riskcheck/WashAppInfoPI;
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/iu;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ju;->g()Lcom/huawei/appgallery/systeminstalldistservice/api/bean/InstallationControlResult;
 
     move-result-object p0
 

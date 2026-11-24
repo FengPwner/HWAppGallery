@@ -7,7 +7,7 @@
 .method public abstract destroy()V
 .end method
 
-.method public abstract dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ck3;)V
+.method public abstract dispatch(Landroid/content/Context;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;Lcom/huawei/appmarket/ek3;)V
 .end method
 
 .method public abstract onContinue()V

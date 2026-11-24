@@ -4,8 +4,5 @@
 
 
 # virtual methods
-.method public abstract getVisibility()I
-.end method
-
-.method public abstract setVisibility(I)V
+.method public abstract init()V
 .end method

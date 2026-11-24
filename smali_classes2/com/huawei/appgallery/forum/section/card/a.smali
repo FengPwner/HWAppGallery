@@ -38,7 +38,7 @@
 
     const-string v3, "ForumSectionEnterCard"
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/c05;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/f05;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
@@ -69,7 +69,7 @@
 
     invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/gp7;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/lp7;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
 
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/k66;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/m66;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
     const-string v0, "getGameBoxPackageName is null"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -123,7 +123,7 @@
     :catch_0
     const-string v0, "openForumByGameBox error"
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

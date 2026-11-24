@@ -101,7 +101,7 @@
 
     .line 2
     .line 3
-    sget-object v0, Lcom/huawei/appmarket/bl5;->a:Lcom/huawei/appmarket/bl5;
+    sget-object v0, Lcom/huawei/appmarket/dl5;->a:Lcom/huawei/appmarket/dl5;
 
     .line 4
     .line 5
@@ -113,7 +113,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -122,7 +122,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 15
     .line 16
@@ -193,7 +193,7 @@
     move-result-object v0
 
     .line 49
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 50
     .line 51
@@ -222,7 +222,7 @@
     move-result v2
 
     .line 63
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->k()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->k()Landroid/content/res/Resources;
 
     .line 64
     .line 65
@@ -233,7 +233,7 @@
     const/4 v4, 0x0
 
     .line 68
-    invoke-static {v4}, Lcom/huawei/appmarket/b37;->e(I)I
+    invoke-static {v4}, Lcom/huawei/appmarket/g37;->e(I)I
 
     .line 69
     .line 70
@@ -261,7 +261,7 @@
     sub-int/2addr v5, v6
 
     .line 82
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     .line 83
     .line 84
@@ -395,7 +395,7 @@
     move-result-object v2
 
     .line 141
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 142
     .line 143
@@ -463,7 +463,7 @@
     move-result-object v2
 
     .line 174
-    check-cast v2, Lcom/huawei/appmarket/fl5;
+    check-cast v2, Lcom/huawei/appmarket/hl5;
 
     .line 175
     .line 176
@@ -491,7 +491,7 @@
     move-result-object v2
 
     .line 187
-    check-cast v2, Lcom/huawei/appmarket/fl5;
+    check-cast v2, Lcom/huawei/appmarket/hl5;
 
     .line 188
     .line 189
@@ -515,7 +515,7 @@
     move-object v7, v11
 
     .line 197
-    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/fl5;->b(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity;IIILcom/huawei/appgallery/oobebase/api/OOBEAppDataBean$OOBEAppInfo;)Landroid/view/View;
+    invoke-virtual/range {v2 .. v7}, Lcom/huawei/appmarket/hl5;->b(Lcom/huawei/appmarket/oobe/activity/OOBEAppGalleryActivity;IIILcom/huawei/appgallery/oobebase/api/OOBEAppDataBean$OOBEAppInfo;)Landroid/view/View;
 
     .line 198
     .line 199
@@ -1214,25 +1214,6 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -1251,7 +1232,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 8
     .line 9
@@ -1289,7 +1270,7 @@
     move-result-object p2
 
     .line 24
-    check-cast p2, Lcom/huawei/appmarket/fl5;
+    check-cast p2, Lcom/huawei/appmarket/hl5;
 
     .line 25
     .line 26
@@ -1462,7 +1443,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -1589,7 +1569,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
@@ -1716,5 +1695,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

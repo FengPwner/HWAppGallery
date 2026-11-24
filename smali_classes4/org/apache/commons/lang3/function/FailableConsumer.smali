@@ -33,9 +33,9 @@
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/jf2;
+    new-instance v1, Lcom/huawei/appmarket/mf2;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/jf2;-><init>(Ljava/util/function/Function;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/mf2;-><init>(Ljava/util/function/Function;)V
 
     sput-object v1, Lorg/apache/commons/lang3/function/FailableConsumer;->NOP:Lorg/apache/commons/lang3/function/FailableConsumer;
 

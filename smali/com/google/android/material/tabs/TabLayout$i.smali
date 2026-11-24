@@ -60,7 +60,7 @@
 
     iget v2, p1, Lcom/google/android/material/tabs/TabLayout;->f:I
 
-    invoke-static {p0, p2, v2, v0, v1}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {p0, p2, v2, v0, v1}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     const/16 p2, 0x11
 
@@ -80,11 +80,11 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/x16;->b(Landroid/content/Context;)Lcom/huawei/appmarket/x16;
+    invoke-static {p1}, Lcom/huawei/appmarket/z16;->b(Landroid/content/Context;)Lcom/huawei/appmarket/z16;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->t0(Landroid/view/View;Lcom/huawei/appmarket/x16;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->t0(Landroid/view/View;Lcom/huawei/appmarket/z16;)V
 
     return-void
 .end method
@@ -490,6 +490,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private e()V
@@ -1639,7 +1640,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -1694,7 +1695,7 @@
 
     iget-object v3, v0, Lcom/google/android/material/tabs/TabLayout;->l:Landroid/content/res/ColorStateList;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/yw6;->a(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
+    invoke-static {v3}, Lcom/huawei/appmarket/cx6;->a(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
 
     move-result-object v3
 
@@ -1720,7 +1721,7 @@
     move-object p1, v4
 
     :cond_4
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
@@ -1876,7 +1877,7 @@
 
     move-result-object v6
 
-    invoke-static {v4, v6}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v4, v6}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     move-result v4
 
@@ -1892,13 +1893,13 @@
 
     if-eqz v2, :cond_9
 
-    invoke-static {p2}, Lcom/huawei/appmarket/j35;->a(Landroid/view/ViewGroup$MarginLayoutParams;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/m35;->a(Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     move-result v2
 
     if-eq v4, v2, :cond_a
 
-    invoke-static {p2, v4}, Lcom/huawei/appmarket/j35;->c(Landroid/view/ViewGroup$MarginLayoutParams;I)V
+    invoke-static {p2, v4}, Lcom/huawei/appmarket/m35;->c(Landroid/view/ViewGroup$MarginLayoutParams;I)V
 
     iput v5, p2, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
@@ -1916,7 +1917,7 @@
 
     iput v4, p2, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
-    invoke-static {p2, v5}, Lcom/huawei/appmarket/j35;->c(Landroid/view/ViewGroup$MarginLayoutParams;I)V
+    invoke-static {p2, v5}, Lcom/huawei/appmarket/m35;->c(Landroid/view/ViewGroup$MarginLayoutParams;I)V
 
     goto :goto_6
 
@@ -1945,7 +1946,7 @@
     move-object v3, v1
 
     :goto_8
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v3}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     :cond_d
     return-void
@@ -2127,7 +2128,7 @@
 
     .line 65
     .line 66
-    invoke-static {v1}, Lcom/huawei/appmarket/qx7;->b(Landroid/widget/TextView;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/vx7;->b(Landroid/widget/TextView;)I
 
     .line 67
     .line 68
@@ -2308,7 +2309,7 @@
 
     .line 154
     .line 155
-    invoke-static {v1}, Lcom/huawei/appmarket/qx7;->b(Landroid/widget/TextView;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/vx7;->b(Landroid/widget/TextView;)I
 
     .line 156
     .line 157
@@ -2333,7 +2334,7 @@
 
     .line 166
     .line 167
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     .line 168
     .line 169
@@ -3546,7 +3547,7 @@
 
     .line 78
     .line 79
-    invoke-static {v6}, Lcom/huawei/appmarket/qx7;->b(Landroid/widget/TextView;)I
+    invoke-static {v6}, Lcom/huawei/appmarket/vx7;->b(Landroid/widget/TextView;)I
 
     .line 80
     .line 81
@@ -4432,6 +4433,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public setSelected(Z)V

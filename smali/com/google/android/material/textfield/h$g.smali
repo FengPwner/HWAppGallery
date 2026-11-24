@@ -101,7 +101,7 @@
 
     .line 29
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 30
     .line 31

@@ -18,15 +18,15 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/a24;
+.field final synthetic b:Lcom/huawei/appmarket/c24;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;Lcom/huawei/appmarket/a24;)V
+.method constructor <init>(Lcom/huawei/appmarket/MarketActivity;Lcom/huawei/appmarket/c24;)V
     .registers 3
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/MarketActivity$c;->b:Lcom/huawei/appmarket/a24;
+    iput-object p2, p0, Lcom/huawei/appmarket/MarketActivity$c;->b:Lcom/huawei/appmarket/c24;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,7 +40,7 @@
 
     const-string v0, "MarketActivity"
 
-    iget-object v1, p0, Lcom/huawei/appmarket/MarketActivity$c;->b:Lcom/huawei/appmarket/a24;
+    iget-object v1, p0, Lcom/huawei/appmarket/MarketActivity$c;->b:Lcom/huawei/appmarket/c24;
 
     :try_start_0
     invoke-static {}, Lcom/huawei/appmarket/framework/app/StoreApplication;->getInstance()Lcom/huawei/appmarket/framework/app/StoreApplication;
@@ -51,7 +51,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/a24;->e(Landroid/content/Context;)V
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/c24;->e(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -62,7 +62,7 @@
 
     const-string v3, "MarketActivity iShaderBinInstaller.updateAppMarketShaderBin execute failed"
 
-    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v3, v2}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     :try_start_1
@@ -74,7 +74,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/a24;->f(Landroid/content/Context;)V
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/c24;->f(Landroid/content/Context;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -85,7 +85,7 @@
 
     const-string v2, "MarketActivity iShaderBinInstaller.clearHistoryShaderFiles execute failed"
 
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_1
     return-void

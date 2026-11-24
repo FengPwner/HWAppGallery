@@ -20,7 +20,7 @@
 
 .field private Z:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-.field protected a0:Lcom/huawei/appmarket/du4;
+.field protected a0:Lcom/huawei/appmarket/gu4;
 
 .field private b0:Lcom/huawei/appmarket/n30;
 
@@ -32,13 +32,13 @@
 
 .field private f0:Landroid/content/BroadcastReceiver;
 
-.field private g0:Lcom/huawei/appmarket/jz3;
+.field private g0:Lcom/huawei/appmarket/lz3;
 
 .field private h0:Landroid/view/View;
 
 .field private i0:Ljava/lang/String;
 
-.field private j0:Lcom/huawei/appmarket/hj0;
+.field private j0:Lcom/huawei/appmarket/ij0;
 
 .field private k0:Ljava/lang/String;
 
@@ -253,7 +253,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic H3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/framework/widget/ExpandableLayout;
@@ -349,7 +348,7 @@
     move-result v0
 
     .line 30
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 31
     .line 32
@@ -377,7 +376,7 @@
 
     .line 43
     .line 44
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -428,7 +427,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -499,7 +498,7 @@
 
     .line 103
     .line 104
-    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->z:Lcom/huawei/appmarket/ak0;
+    iget-object v3, p0, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->z:Lcom/huawei/appmarket/bk0;
 
     .line 105
     .line 106
@@ -507,17 +506,17 @@
 
     .line 107
     .line 108
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/o2;->s(Lcom/huawei/appmarket/bk0;)V
 
     .line 109
     .line 110
     .line 111
     :cond_4
-    new-instance v3, Lcom/huawei/appmarket/w81;
+    new-instance v3, Lcom/huawei/appmarket/x81;
 
     .line 112
     .line 113
-    invoke-direct {v3}, Lcom/huawei/appmarket/w81;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/x81;-><init>()V
 
     .line 114
     .line 115
@@ -550,12 +549,12 @@
     const/4 v7, 0x1
 
     .line 130
-    invoke-virtual {v3, v4, v5, v6, v7}, Lcom/huawei/appmarket/w81;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;Z)V
+    invoke-virtual {v3, v4, v5, v6, v7}, Lcom/huawei/appmarket/x81;->d(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailResponse;Z)V
 
     .line 131
     .line 132
     .line 133
-    invoke-virtual {v4, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/hj0;
+    invoke-virtual {v4, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->j(I)Lcom/huawei/appmarket/ij0;
 
     .line 134
     .line 135
@@ -563,7 +562,7 @@
     move-result-object v2
 
     .line 137
-    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/hj0;
+    iput-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/ij0;
 
     .line 138
     .line 139
@@ -571,7 +570,7 @@
 
     .line 140
     .line 141
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 142
     .line 143
@@ -589,7 +588,7 @@
 
     .line 149
     .line 150
-    instance-of v0, p1, Lcom/huawei/appmarket/yi4;
+    instance-of v0, p1, Lcom/huawei/appmarket/aj4;
 
     .line 151
     .line 152
@@ -597,11 +596,11 @@
 
     .line 153
     .line 154
-    check-cast p1, Lcom/huawei/appmarket/yi4;
+    check-cast p1, Lcom/huawei/appmarket/aj4;
 
     .line 155
     .line 156
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/yi4;->b(Landroid/view/ViewGroup;)V
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/aj4;->b(Landroid/view/ViewGroup;)V
 
     .line 157
     .line 158
@@ -799,8 +798,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method private static N3(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Z
@@ -834,7 +831,7 @@
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/xi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/zi4;->c(Ljava/util/List;[Ljava/lang/String;)Z
 
     move-result p1
 
@@ -843,12 +840,12 @@
     const-string p0, "HorizonSupDlRecommCard isInValidData normalcardrecommendverticalcard"
 
     :goto_0
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -866,7 +863,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p0
 
@@ -959,7 +956,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     move-result-object p1
 
@@ -971,7 +968,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/q42;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/u42;->c(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -983,7 +980,7 @@
 
     const-string p1, "HorizonSupDlRecommCard setViewExpandAnimation"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -992,7 +989,7 @@
     :goto_0
     const-string p1, "HorizonSupDlRecommCard setViewExpandAnimation error"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1177,7 +1174,7 @@
 
     .line 21
     .line 22
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/hj0;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/ij0;
 
     .line 23
     .line 24
@@ -1235,7 +1232,7 @@
     .line 51
     :cond_1
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 52
     .line 53
@@ -1248,7 +1245,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {}, Lcom/huawei/appmarket/q42;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/u42;->a()V
 
     .line 59
     .line 60
@@ -1307,7 +1304,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic t3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
@@ -1337,11 +1333,11 @@
     return p0
 .end method
 
-.method static synthetic w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/jz3;
+.method static synthetic w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/lz3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->g0:Lcom/huawei/appmarket/jz3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->g0:Lcom/huawei/appmarket/lz3;
 
     return-object p0
 .end method
@@ -1443,7 +1439,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -1460,7 +1456,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -1634,7 +1630,7 @@
 
     .line 101
     .line 102
-    new-instance v4, Lcom/huawei/appmarket/jp;
+    new-instance v4, Lcom/huawei/appmarket/ip;
 
     .line 103
     .line 104
@@ -1654,7 +1650,7 @@
     move-result-object v3
 
     .line 112
-    invoke-direct {v4, v5, v3}, Lcom/huawei/appmarket/jp;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v4, v5, v3}, Lcom/huawei/appmarket/ip;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     .line 114
@@ -1707,7 +1703,7 @@
     move-result-object v2
 
     .line 139
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     .line 141
@@ -1738,7 +1734,7 @@
 
     .line 153
     .line 154
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     .line 156
@@ -1937,8 +1933,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final M3()Lcom/huawei/appmarket/n30;
@@ -1958,7 +1952,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     move-result v0
 
@@ -1981,13 +1975,13 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->f0:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     :cond_0
     return-void
@@ -2001,7 +1995,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->b0:Lcom/huawei/appmarket/n30;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xi4;->j(Lcom/huawei/appmarket/n30;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/zi4;->j(Lcom/huawei/appmarket/n30;)V
 
     return-void
 .end method
@@ -2016,7 +2010,7 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->b0:Lcom/huawei/appmarket/n30;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/xi4;->k(ZLcom/huawei/appmarket/n30;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/zi4;->k(ZLcom/huawei/appmarket/n30;)V
 
     return-void
 .end method
@@ -2073,7 +2067,7 @@
 
     .line 23
     .line 24
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 25
     .line 26
@@ -2094,7 +2088,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {v2}, Lcom/huawei/appmarket/q42;->c(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/u42;->c(Ljava/lang/String;)Z
 
     .line 36
     .line 37
@@ -2121,7 +2115,7 @@
 
     .line 47
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/xi4;->g()Lcom/huawei/appmarket/xi4;
+    invoke-static {}, Lcom/huawei/appmarket/zi4;->g()Lcom/huawei/appmarket/zi4;
 
     .line 49
     .line 50
@@ -2129,7 +2123,7 @@
     move-result-object v2
 
     .line 52
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/xi4;->l(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/zi4;->l(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -2139,7 +2133,7 @@
     .line 56
     .line 57
     :goto_0
-    invoke-static {v4, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -2164,7 +2158,7 @@
 
     .line 68
     .line 69
-    invoke-static {}, Lcom/huawei/appmarket/xi4;->g()Lcom/huawei/appmarket/xi4;
+    invoke-static {}, Lcom/huawei/appmarket/zi4;->g()Lcom/huawei/appmarket/zi4;
 
     .line 70
     .line 71
@@ -2172,7 +2166,7 @@
     move-result-object v2
 
     .line 73
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/xi4;->l(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/zi4;->l(Ljava/lang/String;)V
 
     .line 74
     .line 75
@@ -2240,7 +2234,7 @@
 
     .line 104
     .line 105
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/hj0;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->j0:Lcom/huawei/appmarket/ij0;
 
     .line 106
     .line 107
@@ -2260,7 +2254,7 @@
 
     .line 114
     .line 115
-    invoke-virtual {v0, v2, v10}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-virtual {v0, v2, v10}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 116
     .line 117
@@ -2349,7 +2343,7 @@
 
     .line 161
     .line 162
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     .line 164
@@ -2402,7 +2396,7 @@
 
     .line 185
     .line 186
-    invoke-static {v2, v1, v4}, Lcom/huawei/appmarket/bu0;->u(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v2, v1, v4}, Lcom/huawei/appmarket/kb1;->x(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 187
     .line 188
@@ -2519,7 +2513,7 @@
 
     .line 245
     .line 246
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 247
     .line 248
@@ -2528,7 +2522,7 @@
 
     .line 250
     :cond_8
-    instance-of v1, v1, Lcom/huawei/appmarket/az3;
+    instance-of v1, v1, Lcom/huawei/appmarket/cz3;
 
     .line 251
     .line 252
@@ -2602,7 +2596,7 @@
 
     .line 287
     .line 288
-    invoke-static {v1}, Lcom/huawei/appmarket/xi4;->j(Lcom/huawei/appmarket/n30;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/zi4;->j(Lcom/huawei/appmarket/n30;)V
 
     .line 289
     .line 290
@@ -3853,75 +3847,13 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
-.method public final Y(Lcom/huawei/appmarket/du4;)V
+.method public final Y(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->a0:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->a0:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method
@@ -3967,7 +3899,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     move-result-object v0
 
@@ -3979,16 +3911,16 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/q42;->l(ILjava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/u42;->l(ILjava/lang/String;)V
 
     return-void
 .end method
 
-.method public final c0(Lcom/huawei/appmarket/jz3;)V
+.method public final c0(Lcom/huawei/appmarket/lz3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->g0:Lcom/huawei/appmarket/jz3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->g0:Lcom/huawei/appmarket/lz3;
 
     return-void
 .end method
@@ -4025,13 +3957,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->f0:Landroid/content/BroadcastReceiver;
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     new-instance v0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard$a;
 
@@ -4041,7 +3973,7 @@
 
     move-result-object v2
 
-    instance-of v2, v2, Lcom/huawei/appmarket/du4;
+    instance-of v2, v2, Lcom/huawei/appmarket/gu4;
 
     if-eqz v2, :cond_0
 
@@ -4049,24 +3981,24 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/du4;
+    check-cast v1, Lcom/huawei/appmarket/gu4;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->a0:Lcom/huawei/appmarket/du4;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->a0:Lcom/huawei/appmarket/gu4;
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/du4;->getLifecycle()Landroidx/lifecycle/h;
+    invoke-interface {v1}, Lcom/huawei/appmarket/gu4;->getLifecycle()Landroidx/lifecycle/h;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v1, v0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     goto :goto_0
 
@@ -4075,7 +4007,7 @@
 
     const-string v1, "card context is not instanceof LifecycleOwner"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     const v0, 0x7f0a0b09

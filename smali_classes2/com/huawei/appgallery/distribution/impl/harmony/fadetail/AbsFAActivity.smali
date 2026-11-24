@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/un3$a;
-.implements Lcom/huawei/appmarket/zo5;
+.implements Lcom/huawei/appmarket/wn3$a;
+.implements Lcom/huawei/appmarket/ap5;
 .implements Lcom/huawei/appmarket/e7;
 
 
@@ -16,9 +16,9 @@
         ">",
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity<",
         "TT;>;",
-        "Lcom/huawei/appmarket/un3$a<",
+        "Lcom/huawei/appmarket/wn3$a<",
         "TT;>;",
-        "Lcom/huawei/appmarket/zo5;",
+        "Lcom/huawei/appmarket/ap5;",
         "Lcom/huawei/appmarket/e7;"
     }
 .end annotation
@@ -47,7 +47,7 @@
 
 .field protected x:Landroid/view/View;
 
-.field protected y:Lcom/huawei/appmarket/s85;
+.field protected y:Lcom/huawei/appmarket/v85;
 
 
 # direct methods
@@ -56,11 +56,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/s85;
+    new-instance v0, Lcom/huawei/appmarket/v85;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/s85;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/v85;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/AbsFAActivity;->y:Lcom/huawei/appmarket/s85;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/AbsFAActivity;->y:Lcom/huawei/appmarket/v85;
 
     return-void
 .end method
@@ -134,7 +134,7 @@
     move-result-object v0
 
     .line 34
-    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 35
     .line 36
@@ -309,7 +309,7 @@
     return-object v0
 .end method
 
-.method public K2(ILcom/huawei/appmarket/gg0;Ljava/lang/String;)V
+.method public K2(ILcom/huawei/appmarket/hg0;Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -322,7 +322,7 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 2
     .line 3
@@ -506,7 +506,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 5
     .line 6
@@ -561,7 +561,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -661,7 +661,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 84
     .line 85
@@ -877,7 +877,7 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->onDestroy()V
 
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -895,7 +895,7 @@
 
     const-string v2, "AbsFAActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -920,7 +920,7 @@
     return-void
 .end method
 
-.method public final synthetic z1()Lcom/huawei/appmarket/oq1;
+.method public final synthetic z1()Lcom/huawei/appmarket/rq1;
     .registers 2
 
     .line 1

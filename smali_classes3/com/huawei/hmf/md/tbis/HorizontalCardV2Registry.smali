@@ -27,7 +27,7 @@
 
     const-string v0, "IHorizontalCardV2Init"
 
-    const-class v1, Lcom/huawei/appmarket/ns3;
+    const-class v1, Lcom/huawei/appmarket/ps3;
 
     const/4 v2, 0x0
 
@@ -35,7 +35,7 @@
 
     const-string v0, "IHorizontalCardV2Refresh"
 
-    const-class v1, Lcom/huawei/appmarket/os3;
+    const-class v1, Lcom/huawei/appmarket/qs3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

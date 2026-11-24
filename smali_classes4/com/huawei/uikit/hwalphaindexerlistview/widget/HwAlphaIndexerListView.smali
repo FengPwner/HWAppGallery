@@ -162,7 +162,7 @@
     const v0, 0x7f1302f9
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -259,7 +259,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lcom/huawei/appmarket/nf6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/pf6;->a:[I
 
     const v5, 0x7f13042c
 
@@ -433,13 +433,13 @@
 
     if-lt p3, v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/xe3;->b()Lcom/huawei/appmarket/xe3;
+    invoke-static {}, Lcom/huawei/appmarket/ze3;->b()Lcom/huawei/appmarket/ze3;
 
     move-result-object p3
 
     iget-object v1, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->m:Ljava/lang/String;
 
-    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/xe3;->a(Ljava/lang/String;)I
+    invoke-virtual {p3, v1}, Lcom/huawei/appmarket/ze3;->a(Ljava/lang/String;)I
 
     move-result p3
 
@@ -696,7 +696,7 @@
 
     if-le v2, v3, :cond_0
 
-    const-string v1, "\u2022"
+    const-string/jumbo v1, "\u2022"
 
     :cond_0
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -965,7 +965,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {v2, v0, v2, v1}, Lcom/huawei/appmarket/ow5;->a(FFFF)Landroid/view/animation/PathInterpolator;
+    invoke-static {v2, v0, v2, v1}, Lcom/huawei/appmarket/qw5;->a(FFFF)Landroid/view/animation/PathInterpolator;
 
     .line 83
     .line 84
@@ -1089,23 +1089,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private f(II)V
@@ -1221,7 +1204,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {v2, v0, v2, v1}, Lcom/huawei/appmarket/ow5;->a(FFFF)Landroid/view/animation/PathInterpolator;
+    invoke-static {v2, v0, v2, v1}, Lcom/huawei/appmarket/qw5;->a(FFFF)Landroid/view/animation/PathInterpolator;
 
     .line 55
     .line 56
@@ -1468,10 +1451,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method private g(Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;II)V
@@ -1486,7 +1465,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/yf3;->a(Landroid/content/Context;)I
 
     .line 6
     .line 7
@@ -2299,6 +2278,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method private getHighlightPos()I
@@ -2985,23 +3084,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic l(Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;)[Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView$c;
@@ -3426,6 +3508,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static s(Ljava/lang/String;Ljava/lang/String;)Z
@@ -3695,7 +3797,7 @@
     const/4 p1, 0x7
 
     .line 95
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/qf3;->c(ILandroid/view/View;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/sf3;->c(ILandroid/view/View;)V
 
     .line 96
     .line 97
@@ -3825,23 +3927,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public getFocusDrawable()Landroid/graphics/drawable/Drawable;
@@ -5902,7 +5987,7 @@
     add-int/2addr v10, v6
 
     .line 63
-    invoke-static {v0, v3, v8, v6}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v0, v3, v8, v6}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     .line 64
     .line 65
@@ -6253,106 +6338,106 @@
 
     .line 233
     .line 234
-    const-string v9, "\u5283"
+    const-string/jumbo v9, "\u5283"
 
     .line 235
     .line 236
+    .line 237
     const-string v10, ""
 
-    .line 237
     .line 238
+    .line 239
     invoke-virtual {v8, v9, v10}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
-    .line 239
     .line 240
     .line 241
+    .line 242
     move-result-object v8
 
-    .line 242
+    .line 243
     int-to-float v9, v2
 
-    .line 243
+    .line 244
     iget v10, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->e:I
 
-    .line 244
     .line 245
+    .line 246
     int-to-float v10, v10
 
-    .line 246
+    .line 247
     invoke-virtual {v6, v8}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
-    .line 247
     .line 248
     .line 249
+    .line 250
     move-result v11
 
-    .line 250
+    .line 251
     sub-float/2addr v10, v11
 
-    .line 251
+    .line 252
     div-float/2addr v10, v4
 
-    .line 252
+    .line 253
     add-float/2addr v10, v9
 
-    .line 253
+    .line 254
     invoke-virtual {v6}, Landroid/graphics/Paint;->getFontMetrics()Landroid/graphics/Paint$FontMetrics;
 
-    .line 254
     .line 255
     .line 256
+    .line 257
     move-result-object v9
 
-    .line 257
+    .line 258
     iget v11, v9, Landroid/graphics/Paint$FontMetrics;->ascent:F
 
-    .line 258
     .line 259
+    .line 260
     iget v9, v9, Landroid/graphics/Paint$FontMetrics;->descent:F
 
-    .line 260
     .line 261
+    .line 262
     add-float/2addr v11, v9
 
-    .line 262
+    .line 263
     div-float/2addr v11, v4
 
-    .line 263
+    .line 264
     int-to-float v7, v7
 
-    .line 264
+    .line 265
     iget v9, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->e:I
 
-    .line 265
     .line 266
+    .line 267
     int-to-float v9, v9
 
-    .line 267
+    .line 268
     div-float/2addr v9, v4
 
-    .line 268
+    .line 269
     add-float/2addr v9, v7
 
-    .line 269
+    .line 270
     sub-float/2addr v9, v11
 
-    .line 270
+    .line 271
     invoke-virtual {p1, v8, v10, v9, v6}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 271
     .line 272
     .line 273
+    .line 274
     add-int/lit8 v5, v5, 0x1
 
-    .line 274
     .line 275
+    .line 276
     goto/16 :goto_0
 
-    .line 276
     .line 277
+    .line 278
     :cond_8
     return-void
-    .line 278
     .line 279
     .line 280
     .line 281
@@ -7229,65 +7314,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public final onHoverEvent(Landroid/view/MotionEvent;)Z
@@ -7428,455 +7454,455 @@
 
     .line 36
     .line 37
-    const-string v6, "\u2022"
+    const-string/jumbo v6, "\u2022"
 
     .line 38
     .line 39
+    .line 40
     if-eq p1, v5, :cond_9
 
-    .line 40
     .line 41
+    .line 42
     const/16 v5, 0x14
 
-    .line 42
     .line 43
+    .line 44
     if-eq p1, v5, :cond_3
 
-    .line 44
     .line 45
+    .line 46
     goto/16 :goto_7
 
-    .line 46
     .line 47
+    .line 48
     :cond_3
     if-ne v2, v3, :cond_4
 
-    .line 48
     .line 49
+    .line 50
     goto :goto_3
 
-    .line 50
+    .line 51
     :cond_4
     :goto_0
     iget-object v5, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 51
     .line 52
+    .line 53
     invoke-interface {v5}, Ljava/util/List;->size()I
 
-    .line 53
     .line 54
     .line 55
+    .line 56
     move-result v5
 
-    .line 56
+    .line 57
     sub-int/2addr v5, v2
 
-    .line 57
+    .line 58
     if-ge v4, v5, :cond_8
 
-    .line 58
     .line 59
+    .line 60
     const/4 v5, 0x0
 
-    .line 60
+    .line 61
     :goto_1
     array-length v7, v1
 
-    .line 61
+    .line 62
     if-ge v5, v7, :cond_7
 
-    .line 62
     .line 63
+    .line 64
     iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 64
     .line 65
+    .line 66
     add-int v8, v2, v4
 
-    .line 66
     .line 67
+    .line 68
     invoke-interface {v7, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 68
     .line 69
     .line 70
+    .line 71
     move-result-object v7
 
-    .line 71
+    .line 72
     check-cast v7, Ljava/lang/String;
 
-    .line 72
     .line 73
+    .line 74
     aget-object v9, v1, v5
 
-    .line 74
     .line 75
+    .line 76
     invoke-virtual {v7, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 76
     .line 77
     .line 78
+    .line 79
     move-result v7
 
-    .line 79
+    .line 80
     if-eqz v7, :cond_5
 
-    .line 80
     .line 81
+    .line 82
     :goto_2
     move v3, v8
 
-    .line 82
+    .line 83
     goto :goto_3
 
-    .line 83
+    .line 84
     :cond_5
     iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 84
     .line 85
+    .line 86
     invoke-interface {v7, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 86
     .line 87
     .line 88
-    move-result-object v7
-
     .line 89
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result-object v7
 
     .line 90
+    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 91
     .line 92
-    move-result v7
-
     .line 93
-    if-eqz v7, :cond_6
+    move-result v7
 
     .line 94
+    if-eqz v7, :cond_6
+
     .line 95
+    .line 96
     add-int/lit8 v7, v8, 0x1
 
-    .line 96
     .line 97
+    .line 98
     iget-object v9, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 98
     .line 99
+    .line 100
     invoke-interface {v9}, Ljava/util/List;->size()I
 
-    .line 100
     .line 101
     .line 102
-    move-result v9
-
     .line 103
-    if-ge v7, v9, :cond_6
+    move-result v9
 
     .line 104
+    if-ge v7, v9, :cond_6
+
     .line 105
+    .line 106
     iget-object v9, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 106
     .line 107
+    .line 108
     add-int/lit8 v10, v8, -0x1
 
-    .line 108
     .line 109
+    .line 110
     invoke-interface {v9, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 110
     .line 111
     .line 112
+    .line 113
     move-result-object v9
 
-    .line 113
+    .line 114
     check-cast v9, Ljava/lang/String;
 
-    .line 114
     .line 115
+    .line 116
     aget-object v10, v1, v5
 
-    .line 116
     .line 117
+    .line 118
     invoke-virtual {v9, v10}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
-    .line 118
     .line 119
     .line 120
+    .line 121
     move-result v9
 
-    .line 121
+    .line 122
     if-gez v9, :cond_6
 
-    .line 122
     .line 123
+    .line 124
     iget-object v9, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 124
     .line 125
+    .line 126
     invoke-interface {v9, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 126
     .line 127
     .line 128
+    .line 129
     move-result-object v7
 
-    .line 129
+    .line 130
     check-cast v7, Ljava/lang/String;
 
-    .line 130
     .line 131
+    .line 132
     aget-object v9, v1, v5
 
-    .line 132
     .line 133
+    .line 134
     invoke-virtual {v7, v9}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
-    .line 134
     .line 135
     .line 136
+    .line 137
     move-result v7
 
-    .line 137
+    .line 138
     if-lez v7, :cond_6
 
-    .line 138
     .line 139
+    .line 140
     goto :goto_2
 
-    .line 140
+    .line 141
     :cond_6
     add-int/lit8 v5, v5, 0x1
 
-    .line 141
     .line 142
+    .line 143
     goto :goto_1
 
-    .line 143
+    .line 144
     :cond_7
     add-int/lit8 v4, v4, 0x1
 
-    .line 144
     .line 145
+    .line 146
     goto :goto_0
 
-    .line 146
+    .line 147
     :cond_8
     :goto_3
     invoke-direct {p0, v3}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->k(I)V
 
-    .line 147
     .line 148
     .line 149
+    .line 150
     goto :goto_7
 
-    .line 150
+    .line 151
     :cond_9
     if-ne v2, v3, :cond_a
 
-    .line 151
     .line 152
+    .line 153
     goto :goto_3
 
-    .line 153
+    .line 154
     :cond_a
     const/4 v0, 0x1
 
-    .line 154
+    .line 155
     :goto_4
     if-gt v0, v2, :cond_8
 
-    .line 155
     .line 156
+    .line 157
     array-length v5, v1
 
-    .line 157
+    .line 158
     sub-int/2addr v5, v4
 
-    .line 158
+    .line 159
     :goto_5
     if-ltz v5, :cond_d
 
-    .line 159
     .line 160
+    .line 161
     iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 161
     .line 162
+    .line 163
     sub-int v8, v2, v0
 
-    .line 163
     .line 164
+    .line 165
     invoke-interface {v7, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 165
     .line 166
     .line 167
+    .line 168
     move-result-object v7
 
-    .line 168
+    .line 169
     check-cast v7, Ljava/lang/String;
 
-    .line 169
     .line 170
+    .line 171
     aget-object v9, v1, v5
 
-    .line 171
     .line 172
+    .line 173
     invoke-virtual {v7, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 173
     .line 174
     .line 175
+    .line 176
     move-result v7
 
-    .line 176
+    .line 177
     if-eqz v7, :cond_b
 
-    .line 177
     .line 178
+    .line 179
     :goto_6
     goto :goto_2
 
-    .line 179
+    .line 180
     :cond_b
     iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 180
     .line 181
+    .line 182
     invoke-interface {v7, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 182
     .line 183
     .line 184
-    move-result-object v7
-
     .line 185
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result-object v7
 
     .line 186
+    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 187
     .line 188
-    move-result v7
-
     .line 189
-    if-eqz v7, :cond_c
+    move-result v7
 
     .line 190
+    if-eqz v7, :cond_c
+
     .line 191
+    .line 192
     add-int/lit8 v7, v8, -0x1
 
-    .line 192
     .line 193
+    .line 194
     if-ltz v7, :cond_c
 
-    .line 194
     .line 195
+    .line 196
     iget-object v9, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
 
-    .line 196
     .line 197
+    .line 198
     invoke-interface {v9, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 198
     .line 199
     .line 200
-    move-result-object v7
-
     .line 201
-    check-cast v7, Ljava/lang/String;
+    move-result-object v7
 
     .line 202
-    .line 203
-    aget-object v9, v1, v5
-
-    .line 204
-    .line 205
-    invoke-virtual {v7, v9}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
-
-    .line 206
-    .line 207
-    .line 208
-    move-result v7
-
-    .line 209
-    if-gez v7, :cond_c
-
-    .line 210
-    .line 211
-    iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
-
-    .line 212
-    .line 213
-    add-int/lit8 v9, v8, 0x1
-
-    .line 214
-    .line 215
-    invoke-interface {v7, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 216
-    .line 217
-    .line 218
-    move-result-object v7
-
-    .line 219
     check-cast v7, Ljava/lang/String;
 
-    .line 220
-    .line 221
+    .line 203
+    .line 204
     aget-object v9, v1, v5
 
-    .line 222
-    .line 223
+    .line 205
+    .line 206
     invoke-virtual {v7, v9}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
-    .line 224
-    .line 225
-    .line 226
+    .line 207
+    .line 208
+    .line 209
     move-result v7
 
+    .line 210
+    if-gez v7, :cond_c
+
+    .line 211
+    .line 212
+    iget-object v7, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->b:Ljava/util/ArrayList;
+
+    .line 213
+    .line 214
+    add-int/lit8 v9, v8, 0x1
+
+    .line 215
+    .line 216
+    invoke-interface {v7, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 217
+    .line 218
+    .line 219
+    move-result-object v7
+
+    .line 220
+    check-cast v7, Ljava/lang/String;
+
+    .line 221
+    .line 222
+    aget-object v9, v1, v5
+
+    .line 223
+    .line 224
+    invoke-virtual {v7, v9}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+
+    .line 225
+    .line 226
     .line 227
-    if-lez v7, :cond_c
+    move-result v7
 
     .line 228
+    if-lez v7, :cond_c
+
     .line 229
+    .line 230
     goto :goto_6
 
-    .line 230
+    .line 231
     :cond_c
     add-int/lit8 v5, v5, -0x1
 
-    .line 231
     .line 232
+    .line 233
     goto :goto_5
 
-    .line 233
+    .line 234
     :cond_d
     add-int/lit8 v0, v0, 0x1
 
-    .line 234
     .line 235
+    .line 236
     goto :goto_4
 
-    .line 236
+    .line 237
     :goto_7
     invoke-super {p0, p1, p2}, Landroid/view/View;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
-    .line 237
     .line 238
     .line 239
+    .line 240
     move-result p1
 
-    .line 240
+    .line 241
     return p1
 
-    .line 241
+    .line 242
     :cond_e
     :goto_8
     return v0
-    .line 242
     .line 243
     .line 244
     .line 245
@@ -7907,10 +7933,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onKeyUp(ILandroid/view/KeyEvent;)Z
@@ -8091,420 +8113,420 @@
     .line 30
     .line 31
     :cond_4
-    const-string v2, "\u2022"
+    const-string/jumbo v2, "\u2022"
 
     .line 32
     .line 33
+    .line 34
     invoke-virtual {p2, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     move-result v2
 
-    .line 37
+    .line 38
     if-nez v2, :cond_5
 
-    .line 38
     .line 39
+    .line 40
     invoke-static {p2, p3}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->s(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     move-result p1
 
-    .line 43
+    .line 44
     return p1
 
-    .line 44
+    .line 45
     :cond_5
     iget-object p2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->r:Ljava/util/ArrayList;
 
-    .line 45
     .line 46
+    .line 47
     invoke-virtual {p2}, Ljava/util/ArrayList;->clear()V
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     iget-boolean v2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->E:Z
 
-    .line 50
     .line 51
+    .line 52
     const-string v3, "#"
 
-    .line 52
     .line 53
+    .line 54
     if-nez v2, :cond_6
 
-    .line 54
     .line 55
+    .line 56
     invoke-virtual {p2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 56
     .line 57
     .line 58
+    .line 59
     :cond_6
     invoke-static {}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->d()Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;
 
-    .line 59
     .line 60
     .line 61
-    move-result-object v2
-
     .line 62
-    invoke-virtual {v2}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->h()Ljava/util/ArrayList;
+    move-result-object v2
 
     .line 63
+    invoke-virtual {v2}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->h()Ljava/util/ArrayList;
+
     .line 64
     .line 65
+    .line 66
     move-result-object v2
 
-    .line 66
+    .line 67
     invoke-static {}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->d()Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;
 
-    .line 67
     .line 68
     .line 69
+    .line 70
     const-string v4, "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 
-    .line 70
     .line 71
+    .line 72
     const-string v5, " "
 
-    .line 72
     .line 73
+    .line 74
     invoke-virtual {v4, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
-    .line 74
     .line 75
     .line 76
-    move-result-object v4
-
     .line 77
-    new-instance v6, Ljava/util/ArrayList;
+    move-result-object v4
 
     .line 78
+    new-instance v6, Ljava/util/ArrayList;
+
     .line 79
+    .line 80
     invoke-static {v4}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
-    .line 80
     .line 81
     .line 82
-    move-result-object v4
-
     .line 83
-    invoke-direct {v6, v4}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    move-result-object v4
 
     .line 84
+    invoke-direct {v6, v4}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
     .line 85
     .line 86
+    .line 87
     invoke-static {}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->d()Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;
 
-    .line 87
     .line 88
     .line 89
-    move-result-object v4
-
     .line 90
-    invoke-virtual {v4}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->f()Ljava/util/List;
+    move-result-object v4
 
     .line 91
+    invoke-virtual {v4}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->f()Ljava/util/List;
+
     .line 92
     .line 93
+    .line 94
     move-result-object v4
 
-    .line 94
+    .line 95
     invoke-direct {p0}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->getSizeNum()I
 
-    .line 95
     .line 96
     .line 97
+    .line 98
     move-result v7
 
-    .line 98
+    .line 99
     iget-boolean v8, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->A:Z
 
-    .line 99
     .line 100
+    .line 101
     const/16 v9, 0x1a
 
-    .line 101
     .line 102
+    .line 103
     const/16 v10, 0x12
 
-    .line 103
     .line 104
+    .line 105
     if-eqz v8, :cond_d
 
-    .line 105
     .line 106
+    .line 107
     iget-boolean v8, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->B:Z
 
-    .line 107
     .line 108
+    .line 109
     if-eqz v8, :cond_9
 
-    .line 109
     .line 110
+    .line 111
     if-lt v7, v9, :cond_7
 
-    .line 111
     .line 112
+    .line 113
     iget-boolean v6, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->C:Z
 
-    .line 113
     .line 114
+    .line 115
     if-eqz v6, :cond_7
 
-    .line 115
     .line 116
+    .line 117
     :goto_4
     invoke-virtual {p2, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 117
     .line 118
     .line 119
+    .line 120
     goto :goto_5
 
-    .line 120
+    .line 121
     :cond_7
     if-ne v7, v10, :cond_8
 
-    .line 121
     .line 122
+    .line 123
     goto :goto_4
 
-    .line 123
+    .line 124
     :cond_8
     invoke-static {v7, v2}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->l(ILjava/util/List;)Ljava/util/List;
 
-    .line 124
     .line 125
     .line 126
+    .line 127
     move-result-object v2
 
-    .line 127
+    .line 128
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 128
     .line 129
     .line 130
+    .line 131
     :goto_5
     iget-object v2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->n:Ljava/lang/String;
 
-    .line 131
     .line 132
+    .line 133
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 133
     .line 134
     .line 135
+    .line 136
     goto :goto_9
 
-    .line 136
+    .line 137
     :cond_9
     iget v2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->s:I
 
-    .line 137
     .line 138
+    .line 139
     if-ltz v2, :cond_a
 
-    .line 139
     .line 140
+    .line 141
     iget-object v4, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->l:[Ljava/lang/String;
 
-    .line 141
     .line 142
+    .line 143
     array-length v8, v4
 
-    .line 143
+    .line 144
     if-ge v2, v8, :cond_a
 
-    .line 144
     .line 145
+    .line 146
     aget-object v2, v4, v2
 
-    .line 146
     .line 147
+    .line 148
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 148
     .line 149
     .line 150
+    .line 151
     :cond_a
     if-lt v7, v9, :cond_b
 
-    .line 151
     .line 152
+    .line 153
     iget-boolean v2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->C:Z
 
-    .line 153
     .line 154
+    .line 155
     if-eqz v2, :cond_b
 
-    .line 155
     .line 156
+    .line 157
     :goto_6
     invoke-static {}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->j()Ljava/util/List;
 
-    .line 157
     .line 158
     .line 159
+    .line 160
     move-result-object v2
 
-    .line 160
+    .line 161
     :goto_7
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 161
     .line 162
     .line 163
+    .line 164
     goto :goto_9
 
-    .line 164
+    .line 165
     :cond_b
     if-ne v7, v10, :cond_c
 
-    .line 165
     .line 166
+    .line 167
     goto :goto_6
 
-    .line 167
+    .line 168
     :cond_c
     invoke-static {v7, v6}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->l(ILjava/util/List;)Ljava/util/List;
 
-    .line 168
     .line 169
     .line 170
+    .line 171
     move-result-object v2
 
-    .line 171
+    .line 172
     goto :goto_7
 
-    .line 172
+    .line 173
     :cond_d
     if-lt v7, v9, :cond_e
 
-    .line 173
     .line 174
+    .line 175
     iget-boolean v6, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->C:Z
 
-    .line 175
     .line 176
+    .line 177
     if-eqz v6, :cond_e
 
-    .line 177
     .line 178
+    .line 179
     :goto_8
     invoke-virtual {p2, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 179
     .line 180
     .line 181
+    .line 182
     goto :goto_9
 
-    .line 182
+    .line 183
     :cond_e
     if-ne v7, v10, :cond_f
 
-    .line 183
     .line 184
+    .line 185
     goto :goto_8
 
-    .line 185
+    .line 186
     :cond_f
     invoke-static {v7, v2}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexResourceManager;->l(ILjava/util/List;)Ljava/util/List;
 
-    .line 186
     .line 187
     .line 188
+    .line 189
     move-result-object v2
 
-    .line 189
+    .line 190
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 190
     .line 191
     .line 192
+    .line 193
     :goto_9
     iget-boolean v2, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->E:Z
 
-    .line 193
     .line 194
+    .line 195
     if-eqz v2, :cond_10
 
-    .line 195
     .line 196
+    .line 197
     invoke-virtual {p2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 197
     .line 198
     .line 199
+    .line 200
     :cond_10
     invoke-virtual {p2, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    .line 200
     .line 201
     .line 202
-    move-result-object p1
-
     .line 203
-    check-cast p1, Ljava/lang/String;
+    move-result-object p1
 
     .line 204
+    check-cast p1, Ljava/lang/String;
+
     .line 205
+    .line 206
     invoke-virtual {p1, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
-    .line 206
     .line 207
     .line 208
+    .line 209
     move-result-object p1
 
-    .line 209
+    .line 210
     array-length p2, p1
 
-    .line 210
+    .line 211
     const/4 v2, 0x0
 
-    .line 211
+    .line 212
     :goto_a
     if-ge v2, p2, :cond_12
 
-    .line 212
     .line 213
+    .line 214
     aget-object v3, p1, v2
 
-    .line 214
     .line 215
+    .line 216
     invoke-static {v3, p3}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwAlphaIndexerListView;->s(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 216
     .line 217
     .line 218
+    .line 219
     move-result v3
 
-    .line 219
+    .line 220
     if-eqz v3, :cond_11
 
-    .line 220
     .line 221
+    .line 222
     return v0
 
-    .line 222
+    .line 223
     :cond_11
     add-int/lit8 v2, v2, 0x1
 
-    .line 223
     .line 224
+    .line 225
     goto :goto_a
 
-    .line 225
+    .line 226
     :cond_12
     :goto_b
     return v1
-    .line 226
     .line 227
     .line 228
     .line 229
@@ -8790,49 +8812,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method public setFocusDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -9479,7 +9458,7 @@
 
     .line 145
     .line 146
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/of1;->v(Landroid/widget/TextView;I)V
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/qf1;->v(Landroid/widget/TextView;I)V
 
     .line 147
     .line 148
@@ -10630,63 +10609,4 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method

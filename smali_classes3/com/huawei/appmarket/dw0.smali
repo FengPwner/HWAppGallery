@@ -28,13 +28,13 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/za7;
+    new-instance v0, Lcom/huawei/appmarket/eb7;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/za7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/eb7;-><init>()V
 
     iget-boolean v1, p0, Lcom/huawei/appmarket/dw0;->b:Z
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/za7;->g(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/eb7;->g(I)V
 
     return-void
 .end method

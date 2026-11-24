@@ -150,7 +150,7 @@
     const-string v0, "parseDecimal error, field : "
 
     .line 2
-    invoke-static {v0, p3}, Lcom/huawei/appmarket/z84;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p3}, Lcom/huawei/appmarket/kk4;->o(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
 

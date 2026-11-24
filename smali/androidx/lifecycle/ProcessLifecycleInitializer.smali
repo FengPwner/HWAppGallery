@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ad4;
+.implements Lcom/huawei/appmarket/cd4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ad4<",
-        "Lcom/huawei/appmarket/du4;",
+        "Lcom/huawei/appmarket/cd4<",
+        "Lcom/huawei/appmarket/gu4;",
         ">;"
     }
 .end annotation
@@ -36,13 +36,13 @@
             "Ljava/util/List<",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/ad4<",
+            "Lcom/huawei/appmarket/cd4<",
             "*>;>;>;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v0, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 2
     .line 3
@@ -179,6 +179,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final create(Landroid/content/Context;)Ljava/lang/Object;
@@ -189,7 +190,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -206,7 +207,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14

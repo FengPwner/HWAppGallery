@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # instance fields
@@ -33,11 +33,11 @@
 
     if-ne p3, p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/t98;->E0(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/y98;->E0(Z)V
 
     invoke-static {p2}, Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;->g3(Lcom/huawei/appmarket/service/externalservice/update/ThirdUpdateRemindActivity;)V
 

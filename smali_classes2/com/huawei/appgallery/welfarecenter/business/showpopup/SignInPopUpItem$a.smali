@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$a;
-.super Lcom/huawei/appmarket/ep0;
+.super Lcom/huawei/appmarket/fp0;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem;->c(Lcom/huawei/appmarket/m64;Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/huawei/appgallery/welfarecenter/business/showpopup/BasePopUpActivityInfo;)Landroid/view/View;
+    value = Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem;->c(Lcom/huawei/appmarket/p64;Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Lcom/huawei/appgallery/welfarecenter/business/showpopup/BasePopUpActivityInfo;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$a;->b:Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ep0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fp0;-><init>()V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/ep0;->a(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/fp0;->a(Landroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$a;->b:Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem;
 

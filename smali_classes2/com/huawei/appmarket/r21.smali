@@ -10,5 +10,5 @@
 .method public abstract K0()I
 .end method
 
-.method public abstract k0()Lcom/huawei/appmarket/nk1;
+.method public abstract k0()Lcom/huawei/appmarket/qk1;
 .end method

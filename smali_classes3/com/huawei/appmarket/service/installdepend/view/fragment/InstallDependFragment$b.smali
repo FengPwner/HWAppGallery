@@ -72,7 +72,7 @@
     move-result-object p1
 
     :goto_0
-    check-cast p1, Lcom/huawei/appmarket/sk0;
+    check-cast p1, Lcom/huawei/appmarket/tk0;
 
     goto :goto_1
 
@@ -90,7 +90,7 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sk0;->getItemCount()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tk0;->getItemCount()I
 
     move-result p2
 

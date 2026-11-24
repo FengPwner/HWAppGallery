@@ -529,11 +529,9 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -555,11 +553,11 @@
     .registers 4
 
     .line 1
-    const v0, 0x7f0a18e4
+    const v0, 0x7f0a18e5
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
-    const v0, 0x7f0a18fb
+    const v0, 0x7f0a18fc
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +571,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setAllCaps(Z)V
 
-    const v0, 0x7f0a18f9
+    const v0, 0x7f0a18fa
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -583,7 +581,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishBaseInfoCard;->w:Landroid/widget/TextView;
 
-    const v0, 0x7f0a18fa
+    const v0, 0x7f0a18fb
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -593,7 +591,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishBaseInfoCard;->x:Landroid/widget/TextView;
 
-    const v0, 0x7f0a18f8
+    const v0, 0x7f0a18f9
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -603,7 +601,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishBaseInfoCard;->y:Landroid/widget/TextView;
 
-    const v0, 0x7f0a18f4
+    const v0, 0x7f0a18f5
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +611,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishBaseInfoCard;->z:Landroid/widget/TextView;
 
-    const v0, 0x7f0a18c7
+    const v0, 0x7f0a18c8
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -621,7 +619,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishBaseInfoCard;->B:Landroid/view/View;
 
-    const v0, 0x7f0a18d9
+    const v0, 0x7f0a18da
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

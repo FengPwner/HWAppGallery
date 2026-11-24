@@ -359,7 +359,7 @@
 
     new-instance v0, Lcom/huawei/hms/scankit/p/m0;
 
-    const-string v2, "windows-1250"
+    const-string/jumbo v2, "windows-1250"
 
     filled-new-array {v2}, [Ljava/lang/String;
 
@@ -375,7 +375,7 @@
 
     new-instance v0, Lcom/huawei/hms/scankit/p/m0;
 
-    const-string v2, "windows-1251"
+    const-string/jumbo v2, "windows-1251"
 
     filled-new-array {v2}, [Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     new-instance v0, Lcom/huawei/hms/scankit/p/m0;
 
-    const-string v2, "windows-1252"
+    const-string/jumbo v2, "windows-1252"
 
     filled-new-array {v2}, [Ljava/lang/String;
 
@@ -409,7 +409,7 @@
 
     new-instance v0, Lcom/huawei/hms/scankit/p/m0;
 
-    const-string v2, "windows-1256"
+    const-string/jumbo v2, "windows-1256"
 
     filled-new-array {v2}, [Ljava/lang/String;
 

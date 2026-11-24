@@ -162,7 +162,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static b(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;)Landroid/widget/TextView;
@@ -285,7 +284,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static c(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;)Landroid/widget/TextView;
@@ -408,7 +406,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static d(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;)Landroid/widget/TextView;
@@ -531,7 +528,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static e(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;Landroid/widget/TextView;)V
@@ -714,7 +710,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static f(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;Landroid/widget/TextView;)V
@@ -897,7 +892,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static g(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;Landroid/widget/TextView;)V
@@ -1080,7 +1074,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method static h(Lcom/huawei/appgallery/wishlist/control/WishListAdapter$b;Landroid/widget/TextView;)V
@@ -1263,5 +1256,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

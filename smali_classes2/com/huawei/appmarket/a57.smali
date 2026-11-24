@@ -1,238 +1,162 @@
 .class public final Lcom/huawei/appmarket/a57;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/qq1;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/qq1<",
+        "Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;",
+        ">;"
+    }
+.end annotation
+
+
 # instance fields
-.field a:I
-
-.field b:I
-
-.field public c:I
-
-.field public d:Lcom/huawei/appmarket/ju0;
-
-.field private e:Lcom/huawei/appmarket/jc3;
-
-.field private f:Lcom/huawei/appmarket/pt4;
+.field private g:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
 
 
 # direct methods
-.method public constructor <init>(III)V
-    .registers 4
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    add-int/lit8 p1, p1, -0x4
-
-    rem-int/lit8 p1, p1, 0x7
-
-    add-int/lit8 p1, p1, 0x4
-
-    int-to-short p1, p1
-
-    iput p1, p0, Lcom/huawei/appmarket/a57;->a:I
-
-    iput p2, p0, Lcom/huawei/appmarket/a57;->b:I
-
-    iput p3, p0, Lcom/huawei/appmarket/a57;->c:I
-
-    new-instance p1, Lcom/huawei/appmarket/jc3;
-
-    invoke-direct {p1, p3}, Lcom/huawei/appmarket/jc3;-><init>(I)V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/a57;->e()Ljava/lang/Boolean;
-
-    move-result-object p2
-
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_0
-
-    sget-object p1, Lcom/huawei/appmarket/ju0;->c:Lcom/huawei/appmarket/ju0;
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jc3;->a()F
-
-    move-result p1
-
-    float-to-int p1, p1
-
-    int-to-short p1, p1
-
-    invoke-static {p1}, Lcom/huawei/appmarket/ku0;->a(S)Lcom/huawei/appmarket/ju0;
-
-    move-result-object p1
-
-    :goto_0
-    iput-object p1, p0, Lcom/huawei/appmarket/a57;->d:Lcom/huawei/appmarket/ju0;
-
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/huawei/appmarket/a57;)V
+.method public constructor <init>(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;Lcom/huawei/appmarket/pq1;)V
     .registers 3
 
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iget v0, p1, Lcom/huawei/appmarket/a57;->a:I
-
-    iput v0, p0, Lcom/huawei/appmarket/a57;->a:I
-
-    iget v0, p1, Lcom/huawei/appmarket/a57;->b:I
-
-    iput v0, p0, Lcom/huawei/appmarket/a57;->b:I
-
-    iget v0, p1, Lcom/huawei/appmarket/a57;->c:I
-
-    iput v0, p0, Lcom/huawei/appmarket/a57;->c:I
-
-    iget-object v0, p1, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
-
-    iget-object v0, p1, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    iget-object p1, p1, Lcom/huawei/appmarket/a57;->d:Lcom/huawei/appmarket/ju0;
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a57;->d:Lcom/huawei/appmarket/ju0;
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/qq1;-><init>(Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;Lcom/huawei/appmarket/pq1;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method final a()S
-    .registers 3
+.method public final a()I
+    .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
+    iget-object v0, p0, Lcom/huawei/appmarket/qq1;->b:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jc3;->c()F
+    const/4 v1, 0x0
 
-    move-result v0
+    if-eqz v0, :cond_1
 
-    const/high16 v1, 0x42c80000    # 100.0f
-
-    mul-float v0, v0, v1
-
-    float-to-int v0, v0
-
-    int-to-short v0, v0
-
-    return v0
-.end method
-
-.method public final b()S
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jc3;->a()F
-
-    move-result v0
-
-    float-to-int v0, v0
-
-    int-to-short v0, v0
-
-    return v0
-.end method
-
-.method public final c()Lcom/huawei/appmarket/pt4;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
+    iget-object v0, p0, Lcom/huawei/appmarket/qq1;->c:Lcom/huawei/appmarket/pq1;
 
     if-nez v0, :cond_0
-
-    new-instance v0, Lcom/huawei/appmarket/pt4;
-
-    iget v1, p0, Lcom/huawei/appmarket/a57;->c:I
-
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pt4;-><init>(I)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    return-object v0
-.end method
-
-.method final d()S
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->e:Lcom/huawei/appmarket/jc3;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/jc3;->b()F
-
-    move-result v0
-
-    const/high16 v1, 0x42c80000    # 100.0f
-
-    mul-float v0, v0, v1
-
-    float-to-int v0, v0
-
-    int-to-short v0, v0
-
-    return v0
-.end method
-
-.method public final e()Ljava/lang/Boolean;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    if-nez v0, :cond_0
-
-    new-instance v0, Lcom/huawei/appmarket/pt4;
-
-    iget v1, p0, Lcom/huawei/appmarket/a57;->c:I
-
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pt4;-><init>(I)V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/a57;->f:Lcom/huawei/appmarket/pt4;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pt4;->a()F
-
-    move-result v0
-
-    const/high16 v1, 0x40e00000    # 7.0f
-
-    cmpg-float v0, v0, v1
-
-    if-gez v0, :cond_1
-
-    const/4 v0, 0x1
 
     goto :goto_0
 
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/qq1;->e:Lcom/huawei/appmarket/framework/widget/RoundCornerLayout;
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/framework/widget/RoundCornerLayout;->setRadius(I)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/a57;->g:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
+
+    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->f()V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/qq1;->f:Landroid/view/ViewGroup;
+
+    invoke-virtual {v0}, Landroid/view/View;->getPaddingLeft()I
+
+    move-result v2
+
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
+
+    move-result v3
+
+    iget-object v4, p0, Lcom/huawei/appmarket/qq1;->f:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingRight()I
+
+    move-result v4
+
+    iget-object v5, p0, Lcom/huawei/appmarket/qq1;->f:Landroid/view/ViewGroup;
+
+    invoke-virtual {v5}, Landroid/view/View;->getPaddingBottom()I
+
+    move-result v5
+
+    invoke-virtual {v0, v2, v3, v4, v5}, Landroid/view/View;->setPadding(IIII)V
+
     :cond_1
-    const/4 v0, 0x0
-
     :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    return v1
+.end method
 
-    move-result-object v0
+.method public final c(Landroid/view/ViewGroup;Lcom/huawei/appmarket/d7;)V
+    .registers 8
 
-    return-object v0
+    .line 1
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/qq1;->c(Landroid/view/ViewGroup;Lcom/huawei/appmarket/d7;)V
+
+    iget-object p1, p0, Lcom/huawei/appmarket/qq1;->b:Landroidx/fragment/app/FragmentActivity;
+
+    if-eqz p1, :cond_3
+
+    iget-object v0, p0, Lcom/huawei/appmarket/qq1;->c:Lcom/huawei/appmarket/pq1;
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v1, p0, Lcom/huawei/appmarket/qq1;->f:Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_2
+
+    new-instance v1, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
+
+    invoke-direct {v1, p1}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;-><init>(Landroid/content/Context;)V
+
+    iput-object v1, p0, Lcom/huawei/appmarket/a57;->g:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
+
+    iget-object p1, p0, Lcom/huawei/appmarket/qq1;->f:Landroid/view/ViewGroup;
+
+    new-instance v2, Landroid/view/ViewGroup$LayoutParams;
+
+    const/4 v3, -0x1
+
+    const/4 v4, -0x2
+
+    invoke-direct {v2, v3, v4}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {p1, v1, v3, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
+
+    instance-of p1, p2, Lcom/huawei/appmarket/q37;
+
+    if-eqz p1, :cond_1
+
+    iget-object p1, p0, Lcom/huawei/appmarket/a57;->g:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
+
+    check-cast p2, Lcom/huawei/appmarket/q37;
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->setActionBarListener(Lcom/huawei/appmarket/q37;)V
+
+    :cond_1
+    iget-object p1, p0, Lcom/huawei/appmarket/a57;->g:Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1;->B()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/widget/DetailSearchActionBar;->h(Ljava/lang/String;)V
+
+    :cond_2
+    iget-object p1, p0, Lcom/huawei/appmarket/qq1;->d:Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;
+
+    if-eqz p1, :cond_3
+
+    iget-object p2, p0, Lcom/huawei/appmarket/qq1;->a:Lcom/huawei/appgallery/detail/detaildist/large/fragment/DistLargeDetailFragment;
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->Y3()Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+
+    move-result-object p2
+
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appgallery/detail/detaildist/large/docking/DockingViewWrapperLayout;->c(Lcom/huawei/appmarket/pq1;Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;)V
+
+    :cond_3
+    :goto_0
+    return-void
 .end method

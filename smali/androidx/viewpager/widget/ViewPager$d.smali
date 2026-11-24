@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # annotations
@@ -42,11 +42,11 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 9
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->T(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->T(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     .line 2
     .line 3
@@ -54,7 +54,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->p()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->p()Z
 
     .line 6
     .line 7
@@ -70,7 +70,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->j()I
 
     .line 13
     .line 14
@@ -86,7 +86,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 21
     .line 22
@@ -98,7 +98,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->k()I
 
     .line 27
     .line 28
@@ -110,7 +110,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tq8;->i()I
 
     .line 33
     .line 34
@@ -150,7 +150,7 @@
     move-result-object v3
 
     .line 51
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/ei8;->d(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/ki8;->d(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
 
     .line 52
     .line 53
@@ -158,7 +158,7 @@
     move-result-object v3
 
     .line 55
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->j()I
 
     .line 56
     .line 57
@@ -182,7 +182,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->l()I
 
     .line 68
     .line 69
@@ -206,7 +206,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->k()I
 
     .line 80
     .line 81
@@ -230,7 +230,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8;->i()I
 
     .line 92
     .line 93
@@ -278,16 +278,16 @@
 
     .line 113
     .line 114
-    new-instance v3, Lcom/huawei/appmarket/nq8$b;
+    new-instance v3, Lcom/huawei/appmarket/tq8$b;
 
     .line 115
     .line 116
-    invoke-direct {v3, p1}, Lcom/huawei/appmarket/nq8$b;-><init>(Lcom/huawei/appmarket/nq8;)V
+    invoke-direct {v3, p1}, Lcom/huawei/appmarket/tq8$b;-><init>(Lcom/huawei/appmarket/tq8;)V
 
     .line 117
     .line 118
     .line 119
-    invoke-static {p2, v1, v2, v0}, Lcom/huawei/appmarket/sd4;->a(IIII)Lcom/huawei/appmarket/sd4;
+    invoke-static {p2, v1, v2, v0}, Lcom/huawei/appmarket/ud4;->a(IIII)Lcom/huawei/appmarket/ud4;
 
     .line 120
     .line 121
@@ -295,12 +295,12 @@
     move-result-object p1
 
     .line 123
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/nq8$b;->c(Lcom/huawei/appmarket/sd4;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/tq8$b;->c(Lcom/huawei/appmarket/ud4;)V
 
     .line 124
     .line 125
     .line 126
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nq8$b;->a()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/tq8$b;->a()Lcom/huawei/appmarket/tq8;
 
     .line 127
     .line 128

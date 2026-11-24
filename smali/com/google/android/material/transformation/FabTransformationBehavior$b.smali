@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field public a:Lcom/huawei/appmarket/nb5;
+.field public a:Lcom/huawei/appmarket/qb5;
 
-.field public b:Lcom/huawei/appmarket/z26;
+.field public b:Lcom/huawei/appmarket/b36;
 
 
 # direct methods

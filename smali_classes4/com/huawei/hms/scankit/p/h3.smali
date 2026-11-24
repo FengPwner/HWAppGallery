@@ -85,7 +85,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    const-string v1, "yyyyMMddHHmmss.SSS"
+    const-string/jumbo v1, "yyyyMMddHHmmss.SSS"
 
     if-eqz v0, :cond_0
 

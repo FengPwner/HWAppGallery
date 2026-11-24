@@ -20,14 +20,14 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/mi0;)Landroid/database/Cursor;
+.method public static a(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/ni0;)Landroid/database/Cursor;
     .registers 14
 
     .line 1
     if-eqz p6, :cond_0
 
     :try_start_0
-    invoke-virtual {p6}, Lcom/huawei/appmarket/mi0;->b()Ljava/lang/Object;
+    invoke-virtual {p6}, Lcom/huawei/appmarket/ni0;->b()Ljava/lang/Object;
 
     move-result-object p6
 

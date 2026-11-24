@@ -49,7 +49,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/os/Handler;Lcom/huawei/appmarket/ok;)V
+.method public final a(Landroid/os/Handler;Lcom/huawei/appmarket/nk;)V
     .registers 5
 
     .line 1
@@ -58,7 +58,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p2}, Landroidx/media3/exoplayer/upstream/b$a$a;->c(Lcom/huawei/appmarket/ok;)V
+    invoke-virtual {p0, p2}, Landroidx/media3/exoplayer/upstream/b$a$a;->c(Lcom/huawei/appmarket/nk;)V
 
     .line 5
     .line 6
@@ -273,7 +273,7 @@
     return-void
 .end method
 
-.method public final c(Lcom/huawei/appmarket/ok;)V
+.method public final c(Lcom/huawei/appmarket/nk;)V
     .registers 6
 
     .line 1

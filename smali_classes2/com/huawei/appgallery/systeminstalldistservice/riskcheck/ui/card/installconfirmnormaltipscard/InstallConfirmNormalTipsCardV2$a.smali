@@ -69,7 +69,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 20
     .line 21
@@ -82,7 +82,7 @@
     move-result-object v0
 
     .line 26
-    instance-of v0, v0, Lcom/huawei/appmarket/qn3;
+    instance-of v0, v0, Lcom/huawei/appmarket/sn3;
 
     .line 27
     .line 28
@@ -98,11 +98,11 @@
     move-result-object p1
 
     .line 34
-    check-cast p1, Lcom/huawei/appmarket/qn3;
+    check-cast p1, Lcom/huawei/appmarket/sn3;
 
     .line 35
     .line 36
-    invoke-interface {p1}, Lcom/huawei/appmarket/qn3;->J1()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/sn3;->J1()V
 
     .line 37
     .line 38
@@ -176,5 +176,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

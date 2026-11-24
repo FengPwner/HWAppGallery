@@ -79,7 +79,7 @@
     const/4 v1, 0x6
 
     .line 9
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 10
     .line 11
@@ -91,7 +91,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 16
     .line 17
@@ -169,7 +169,7 @@
     .line 49
     .line 50
     :goto_1
-    invoke-static {v5, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -269,7 +269,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public getAgEventBadgeDrawable()Lcom/huawei/uikit/hweventbadge/drawable/HwEventBadgeDrawable;

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/ga0;
-.super Lcom/huawei/appmarket/ka4;
+.super Lcom/huawei/appmarket/ma4;
 .source "SourceFile"
 
 
@@ -14,7 +14,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/ga0;->f:Lcom/huawei/appmarket/ha0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ka4;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma4;-><init>()V
 
     return-void
 .end method
@@ -27,7 +27,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/ga0;->f:Lcom/huawei/appmarket/ha0;
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ha0;->q(Lcom/huawei/appmarket/ha0;Lcom/huawei/appmarket/fb1;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/ha0;->q(Lcom/huawei/appmarket/ha0;Lcom/huawei/appmarket/gb1;)V
 
     return-void
 .end method

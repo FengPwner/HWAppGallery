@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$e0;Ljava/lang/String;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$f0;Ljava/lang/String;)V
     .registers 4
 
     .line 1
@@ -149,7 +149,7 @@
 
     .line 48
     .line 49
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -162,7 +162,7 @@
 
     .line 54
     .line 55
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -172,11 +172,11 @@
 
     .line 59
     :pswitch_0
-    check-cast v2, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$e0;
+    check-cast v2, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$f0;
 
     .line 60
     .line 61
-    iget-object v0, v2, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$e0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
+    iget-object v0, v2, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$f0;->c:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
     .line 62
     .line 63

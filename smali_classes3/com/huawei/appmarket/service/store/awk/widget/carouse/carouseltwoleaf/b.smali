@@ -29,21 +29,21 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/b;->a:Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;->X1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;)Lcom/huawei/appmarket/nb3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;->X1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;)Lcom/huawei/appmarket/qb3;
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/huawei/appmarket/ul0;
+    instance-of v1, v1, Lcom/huawei/appmarket/vl0;
 
     if-eqz v1, :cond_4
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;->X1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;)Lcom/huawei/appmarket/nb3;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;->X1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;)Lcom/huawei/appmarket/qb3;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/ul0;
+    check-cast v1, Lcom/huawei/appmarket/vl0;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v2
 
@@ -51,7 +51,7 @@
 
     if-ne v2, v3, :cond_0
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ul0;->J(I)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/vl0;->J(I)V
 
     :cond_0
     invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;->Y1(Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouseltwoleaf/HorizontalBilobaItemCardV2;)Lcom/huawei/appmarket/service/store/awk/widget/carouse/CarouselLayout;
@@ -70,7 +70,7 @@
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v4
 
@@ -84,11 +84,11 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ul0;->H()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/vl0;->H()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v3
 
@@ -99,7 +99,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ul0;->D()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/vl0;->D()I
 
     move-result v3
 
@@ -107,13 +107,13 @@
 
     if-ne v3, v4, :cond_2
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     move-result-object v2
 
     :cond_2
     :goto_0
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 

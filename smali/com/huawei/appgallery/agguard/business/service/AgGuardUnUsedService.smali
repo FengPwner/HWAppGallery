@@ -32,7 +32,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -50,7 +50,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {v1}, Lcom/huawei/appmarket/bk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
+    invoke-static {v1}, Lcom/huawei/appmarket/dk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
 
     .line 18
     .line 19
@@ -72,12 +72,12 @@
     const/4 v2, -0x1
 
     .line 25
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/bk5;->q(IILjava/util/LinkedHashMap;)V
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/dk5;->q(IILjava/util/LinkedHashMap;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lcom/huawei/appmarket/bk5;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/dk5;->b()V
 
     .line 29
     .line 30
@@ -107,7 +107,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bk5;->k(ILandroid/content/Context;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/dk5;->k(ILandroid/content/Context;)Z
 
     .line 45
     .line 46
@@ -119,7 +119,7 @@
 
     .line 49
     .line 50
-    invoke-static {v1}, Lcom/huawei/appmarket/bk5;->a(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/dk5;->a(I)V
 
     .line 51
     .line 52
@@ -136,7 +136,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60

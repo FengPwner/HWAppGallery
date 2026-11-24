@@ -28,11 +28,11 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/b;->b:Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/DetailDataCard;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/DetailDataCard;->C1(Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/DetailDataCard;)Lcom/huawei/appmarket/f52;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/DetailDataCard;->C1(Lcom/huawei/appgallery/detail/detailbase/card/appdetaildatacard/DetailDataCard;)Lcom/huawei/appmarket/j52;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/f52;->i()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/j52;->i()V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gd7;
+.implements Lcom/huawei/appmarket/ld7;
 
 
 # direct methods
@@ -65,7 +65,7 @@
     .registers 7
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/uc7;->a()Lcom/huawei/appmarket/uc7;
+    invoke-static {}, Lcom/huawei/appmarket/zc7;->a()Lcom/huawei/appmarket/zc7;
 
     .line 2
     .line 3
@@ -73,7 +73,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uc7;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zc7;->c()I
 
     .line 6
     .line 7
@@ -129,7 +129,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {p1, p1, v0}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, v0}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -211,7 +211,7 @@
     move-result-object p1
 
     .line 74
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->g(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 75
     .line 76
@@ -346,7 +346,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public getMoreShareContent(Landroid/content/Context;Lcom/huawei/appgallery/share/api/ShareBean;Landroid/content/pm/ActivityInfo;)Ljava/lang/String;
@@ -442,7 +441,7 @@
     move-result-object p2
 
     .line 44
-    invoke-static {p1, p1, v3}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, v3}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 45
     .line 46
@@ -519,7 +518,7 @@
 
     .line 81
     .line 82
-    invoke-static {p1, p1, v3}, Lcom/huawei/appmarket/bq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p1, p1, v3}, Lcom/huawei/appmarket/eq6;->p(Landroid/content/Context;Landroid/content/Context;I)Ljava/lang/String;
 
     .line 83
     .line 84
@@ -874,13 +873,13 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/xc7;->a()Lcom/huawei/appmarket/d24;
+    invoke-static {}, Lcom/huawei/appmarket/cd7;->a()Lcom/huawei/appmarket/f24;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-interface {p2}, Lcom/huawei/appmarket/d24;->n()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/huawei/appmarket/f24;->n()Ljava/lang/String;
 
     move-result-object p2
 
@@ -919,7 +918,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/ed7;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, p3, p4}, Lcom/huawei/appmarket/jd7;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -950,7 +949,7 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v1
 
@@ -1022,7 +1021,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/bq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/eq6;->i(ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 24
     .line 25
@@ -1051,7 +1050,7 @@
 
     .line 34
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 35
     .line 36
@@ -1102,7 +1101,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-static {}, Lcom/huawei/appmarket/z84;->g()Landroid/content/pm/PackageManager;
+    invoke-static {}, Lcom/huawei/appmarket/kk4;->g()Landroid/content/pm/PackageManager;
 
     .line 61
     .line 62
@@ -1389,7 +1388,7 @@
     .line 320
 .end method
 
-.method public registerReceiver(Landroid/content/BroadcastReceiver;Lcom/huawei/appmarket/c24;)V
+.method public registerReceiver(Landroid/content/BroadcastReceiver;Lcom/huawei/appmarket/e24;)V
     .registers 6
 
     .line 1
@@ -1397,7 +1396,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -1423,7 +1422,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -1578,7 +1577,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public sendShowDialogBroadcast(Landroid/content/Context;Lcom/huawei/appgallery/share/api/ShareBean;)V
@@ -1615,11 +1613,11 @@
 
     invoke-virtual {v0, v1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -1706,7 +1704,7 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1772,12 +1770,12 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public unregisterReceiver(Landroid/content/BroadcastReceiver;Lcom/huawei/appmarket/c24;)V
+.method public unregisterReceiver(Landroid/content/BroadcastReceiver;Lcom/huawei/appmarket/e24;)V
     .registers 4
 
     .line 1
@@ -1959,5 +1957,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/aa$c;
-.super Lcom/huawei/appmarket/hw3$a;
+.super Lcom/huawei/appmarket/jw3$a;
 .source "SourceFile"
 
 
@@ -23,7 +23,7 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/hw3$a;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/jw3$a;-><init>()V
 
     iput-object p1, p0, Lcom/huawei/appmarket/aa$c;->b:Lcom/huawei/appmarket/aa$b;
 

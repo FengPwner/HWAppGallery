@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/ow0;
-.super Lcom/huawei/appmarket/z82;
+.super Lcom/huawei/appmarket/d92;
 .source "SourceFile"
 
 
@@ -8,18 +8,18 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/z82;-><init>(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/d92;-><init>(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final b(Lcom/huawei/appmarket/qs1$b;)V
+.method protected final a(Lcom/huawei/appmarket/ts1$b;)V
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/z82;->b:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
+    iget-object v0, p0, Lcom/huawei/appmarket/d92;->b:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;->getModuleFileInfoList()Ljava/util/List;
 
@@ -27,12 +27,12 @@
 
     if-nez v0, :cond_0
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/z82;->b(Lcom/huawei/appmarket/qs1$b;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/d92;->a(Lcom/huawei/appmarket/ts1$b;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qs1$b;->o(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ts1$b;->o(Ljava/util/List;)V
 
     :goto_0
     return-void

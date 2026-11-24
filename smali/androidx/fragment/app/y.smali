@@ -67,7 +67,7 @@
 
     .line 19
     :cond_1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->C(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->C(Landroid/view/View;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -181,7 +181,7 @@
 
     .line 71
     :cond_4
-    invoke-static {v5}, Lcom/huawei/appmarket/ei8;->C(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/ki8;->C(Landroid/view/View;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -652,6 +652,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public abstract j(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -682,7 +683,7 @@
 .method public abstract o(Ljava/lang/Object;Landroid/graphics/Rect;)V
 .end method
 
-.method public p(Ljava/lang/Object;Lcom/huawei/appmarket/mi0;Ljava/lang/Runnable;)V
+.method public p(Ljava/lang/Object;Lcom/huawei/appmarket/ni0;Ljava/lang/Runnable;)V
     .registers 4
 
     .line 1
@@ -971,6 +972,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public abstract q(Ljava/lang/Object;Landroid/view/View;Ljava/util/ArrayList;)V

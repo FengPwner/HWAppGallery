@@ -56,13 +56,13 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -92,18 +92,18 @@
 
     const-string v2, "SearchAppListItemCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->Q:Lcom/huawei/appmarket/n30;
 
     if-eqz v0, :cond_2
 
-    iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->d0:Lcom/huawei/appmarket/i14$a;
+    iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->d0:Lcom/huawei/appmarket/k14$a;
 
     const/4 v2, 0x1
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/i14$a;->i(ZLcom/huawei/appmarket/n30;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/k14$a;->i(ZLcom/huawei/appmarket/n30;)V
 
     :cond_2
     return-void
@@ -139,13 +139,13 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -175,16 +175,16 @@
 
     const-string v2, "SearchAppListItemCard"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const/4 v0, 0x1
 
     iget-object v1, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->Q:Lcom/huawei/appmarket/n30;
 
-    iget-object v2, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->d0:Lcom/huawei/appmarket/i14$a;
+    iget-object v2, p0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->d0:Lcom/huawei/appmarket/k14$a;
 
-    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/i14$a;->c(ZLcom/huawei/appmarket/n30;)V
+    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/k14$a;->c(ZLcom/huawei/appmarket/n30;)V
 
     return-void
 

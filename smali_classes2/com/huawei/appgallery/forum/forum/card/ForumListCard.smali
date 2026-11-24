@@ -10,7 +10,7 @@
 
 .field protected x:Lcom/huawei/appgallery/forum/forum/adapter/ForumListAdapter;
 
-.field protected y:Lcom/huawei/appmarket/ak0;
+.field protected y:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -78,7 +78,7 @@
     .line 2
     .line 3
     .line 4
-    instance-of v0, p1, Lcom/huawei/appmarket/cp2;
+    instance-of v0, p1, Lcom/huawei/appmarket/ep2;
 
     .line 5
     .line 6
@@ -90,7 +90,7 @@
 
     .line 9
     :cond_0
-    check-cast p1, Lcom/huawei/appmarket/cp2;
+    check-cast p1, Lcom/huawei/appmarket/ep2;
 
     .line 10
     .line 11
@@ -102,7 +102,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 16
     .line 17
@@ -194,7 +194,7 @@
     move-result-object v0
 
     .line 61
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 62
     .line 63
@@ -501,11 +501,11 @@
     .line 260
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/card/ForumListCard;->y:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/card/ForumListCard;->y:Lcom/huawei/appmarket/bk0;
 
     .line 2
     .line 3
@@ -513,7 +513,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/forum/forum/card/ForumListCard$b;-><init>(Lcom/huawei/appgallery/forum/forum/card/ForumListCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/forum/forum/card/ForumListCard$b;-><init>(Lcom/huawei/appgallery/forum/forum/card/ForumListCard;Lcom/huawei/appmarket/bk0;)V
 
     .line 6
     .line 7
@@ -621,7 +621,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -638,7 +637,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 8
     .line 9
@@ -802,5 +801,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

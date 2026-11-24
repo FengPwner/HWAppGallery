@@ -7,15 +7,15 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/yj2;
+.field final synthetic a:Lcom/huawei/appmarket/ak2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ta;Lcom/huawei/appmarket/yj2;)V
+.method constructor <init>(Lcom/huawei/appmarket/ta;Lcom/huawei/appmarket/ak2;)V
     .registers 3
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appmarket/ra;->a:Lcom/huawei/appmarket/yj2;
+    iput-object p2, p0, Lcom/huawei/appmarket/ra;->a:Lcom/huawei/appmarket/ak2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,17 +40,17 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     const-string p2, "AgFileSha256Manager"
 
     const-string v0, "InterruptedException in prepare task"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/ra;->a:Lcom/huawei/appmarket/yj2;
+    iget-object p1, p0, Lcom/huawei/appmarket/ra;->a:Lcom/huawei/appmarket/ak2;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/yj2;->b()Lcom/huawei/appmarket/ta$a;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ak2;->b()Lcom/huawei/appmarket/ta$a;
 
     move-result-object p1
 

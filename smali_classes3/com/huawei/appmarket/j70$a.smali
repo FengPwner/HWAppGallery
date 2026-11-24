@@ -209,7 +209,7 @@
 
     .line 73
     .line 74
-    invoke-static {}, Lcom/huawei/appmarket/lg4;->d()Lcom/huawei/appmarket/lg4;
+    invoke-static {}, Lcom/huawei/appmarket/ng4;->d()Lcom/huawei/appmarket/ng4;
 
     .line 75
     .line 76
@@ -217,7 +217,7 @@
     move-result-object v3
 
     .line 78
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/lg4;->b(Lcom/huawei/appmarket/service/installresult/dao/InstallResultCache;)V
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/ng4;->b(Lcom/huawei/appmarket/service/installresult/dao/InstallResultCache;)V
 
     .line 79
     .line 80
@@ -238,7 +238,7 @@
     move-result-object v2
 
     .line 89
-    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/xr0;->y(Lcom/huawei/appgallery/foundation/store/bean/installresult/ReportInstallResultResBean;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/yr0;->y(Lcom/huawei/appgallery/foundation/store/bean/installresult/ReportInstallResultResBean;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -334,7 +334,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I

@@ -31,7 +31,7 @@
 
 # instance fields
 .field private b:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "data"
     .end annotation
 
@@ -86,7 +86,7 @@
 
 .method public getDataList()Ljava/util/List;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;

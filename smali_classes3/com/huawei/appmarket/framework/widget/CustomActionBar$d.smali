@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lp2$b;
+.implements Lcom/huawei/appmarket/np2$b;
 
 
 # annotations
@@ -77,26 +77,26 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    new-instance v1, Lcom/huawei/appmarket/g36;
+    new-instance v1, Lcom/huawei/appmarket/i36;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/g36;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/i36;-><init>()V
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/g36;->b(Lcom/huawei/appgallery/forum/posts/api/PostProfiles;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/i36;->b(Lcom/huawei/appgallery/forum/posts/api/PostProfiles;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->c(Lcom/huawei/appmarket/framework/widget/CustomActionBar;)Lcom/huawei/appmarket/b44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->c(Lcom/huawei/appmarket/framework/widget/CustomActionBar;)Lcom/huawei/appmarket/d44;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->c(Lcom/huawei/appmarket/framework/widget/CustomActionBar;)Lcom/huawei/appmarket/b44;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->c(Lcom/huawei/appmarket/framework/widget/CustomActionBar;)Lcom/huawei/appmarket/d44;
 
     move-result-object v2
 
-    invoke-interface {v2, v1}, Lcom/huawei/appmarket/b44;->d0(Lcom/huawei/appmarket/g36;)V
+    invoke-interface {v2, v1}, Lcom/huawei/appmarket/d44;->d0(Lcom/huawei/appmarket/i36;)V
 
     :cond_1
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->d(Lcom/huawei/appmarket/framework/widget/CustomActionBar;Lcom/huawei/appmarket/g36;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/framework/widget/CustomActionBar;->d(Lcom/huawei/appmarket/framework/widget/CustomActionBar;Lcom/huawei/appmarket/i36;)V
 
     :cond_2
     if-eqz p1, :cond_3

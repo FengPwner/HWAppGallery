@@ -77,7 +77,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/galleryappdetailintrocard/GalleryAppdetailIntroCard;->y:Landroid/widget/TextView;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gs5;->c(Lcom/huawei/appgallery/detail/detailbase/common/commonbean/BasePriceDescBean;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/huawei/appmarket/is5;->c(Lcom/huawei/appgallery/detail/detailbase/common/commonbean/BasePriceDescBean;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -93,7 +93,7 @@
     .line 1
     const v0, 0x7f0a152e
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 
@@ -127,15 +127,15 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/galleryappdetailintrocard/GalleryAppdetailIntroCard;->x:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/galleryappdetailintrocard/GalleryAppdetailIntroCard;->y:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/wi1;->b()Landroid/view/View$AccessibilityDelegate;
+    invoke-static {}, Lcom/huawei/appmarket/zi1;->b()Landroid/view/View$AccessibilityDelegate;
 
     move-result-object v0
 

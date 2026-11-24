@@ -161,7 +161,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -272,7 +271,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -294,9 +293,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/hj0;
+    check-cast v3, Lcom/huawei/appmarket/ij0;
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/hj0;->b()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/ij0;->b()Ljava/lang/String;
 
     move-result-object v3
 
@@ -314,9 +313,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/hj0;
+    check-cast v0, Lcom/huawei/appmarket/ij0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v0
 
@@ -408,7 +407,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -483,11 +482,11 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v1, Lcom/huawei/appmarket/uh5;
+    new-instance v1, Lcom/huawei/appmarket/pr;
 
-    const/4 v2, 0x4
+    const/4 v2, 0x6
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

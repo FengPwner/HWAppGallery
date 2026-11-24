@@ -111,7 +111,7 @@
     const-string v1, " and storage fail. Cause: "
 
     .line 2
-    invoke-static {p3, p4, v1}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3, p4, v1}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p3
 

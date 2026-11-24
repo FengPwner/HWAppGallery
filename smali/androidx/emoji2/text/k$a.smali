@@ -134,11 +134,11 @@
     .line 38
     .line 39
     .line 40
-    new-instance p1, Lcom/huawei/appmarket/e68;
+    new-instance p1, Lcom/huawei/appmarket/j68;
 
     .line 41
     .line 42
-    invoke-direct {p1, p4}, Lcom/huawei/appmarket/e68;-><init>(Landroidx/emoji2/text/p;)V
+    invoke-direct {p1, p4}, Lcom/huawei/appmarket/j68;-><init>(Landroidx/emoji2/text/p;)V
 
     .line 43
     .line 44

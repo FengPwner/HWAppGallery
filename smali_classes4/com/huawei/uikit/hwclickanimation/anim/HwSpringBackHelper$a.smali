@@ -1,5 +1,5 @@
 .class final Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper$a;
-.super Lcom/huawei/appmarket/mk7;
+.super Lcom/huawei/appmarket/sk7;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     const p1, 0x3a83126f    # 0.001f
 
-    invoke-direct {p0, p2, p3, p1}, Lcom/huawei/appmarket/mk7;-><init>(FFF)V
+    invoke-direct {p0, p2, p3, p1}, Lcom/huawei/appmarket/sk7;-><init>(FFF)V
 
     iput p4, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper$a;->k:F
 
@@ -40,17 +40,17 @@
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/mk7;->setValueThreshold(F)Lcom/huawei/appmarket/mk7;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/sk7;->setValueThreshold(F)Lcom/huawei/appmarket/sk7;
 
     const/4 p1, 0x0
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/mk7;->snap(F)Lcom/huawei/appmarket/mk7;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/sk7;->snap(F)Lcom/huawei/appmarket/sk7;
 
     sub-float/2addr p5, p4
 
     const-wide/16 p1, -0x1
 
-    invoke-virtual {p0, p5, p6, p1, p2}, Lcom/huawei/appmarket/mk7;->setEndPosition(FFJ)Lcom/huawei/appmarket/mk7;
+    invoke-virtual {p0, p5, p6, p1, p2}, Lcom/huawei/appmarket/sk7;->setEndPosition(FFJ)Lcom/huawei/appmarket/sk7;
 
     invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
@@ -98,13 +98,13 @@
 
     div-float/2addr v0, v1
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/mk7;->getVelocity(F)F
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/sk7;->getVelocity(F)F
 
     move-result v1
 
     iput v1, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper$a;->i:F
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/mk7;->getPosition(F)F
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/sk7;->getPosition(F)F
 
     move-result v0
 
@@ -118,13 +118,13 @@
 
     iget v2, p0, Lcom/huawei/uikit/hwclickanimation/anim/HwSpringBackHelper$a;->i:F
 
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/mk7;->isAtEquilibrium(FF)Z
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/sk7;->isAtEquilibrium(FF)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/q06;->getEndPosition()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/s06;->getEndPosition()F
 
     move-result v0
 

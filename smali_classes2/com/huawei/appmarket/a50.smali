@@ -39,7 +39,7 @@
     .end annotation
 .end field
 
-.field protected h:Lcom/huawei/appmarket/vq3;
+.field protected h:Lcom/huawei/appmarket/xq3;
 
 .field private i:Z
 
@@ -144,7 +144,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/vq3;
+    iget-object v0, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/xq3;
 
     if-eqz v0, :cond_0
 
@@ -154,9 +154,9 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/a50;->f:Lcom/huawei/appmarket/a50$b;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/vq3;
+    iget-object v1, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/xq3;
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/a50$b;->j(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/appmarket/vq3;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/a50$b;->j(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/appmarket/xq3;)V
 
     :cond_0
     return-void
@@ -197,7 +197,7 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 
-    instance-of v0, p1, Lcom/huawei/appmarket/q64;
+    instance-of v0, p1, Lcom/huawei/appmarket/t64;
 
     if-eqz v0, :cond_0
 
@@ -205,9 +205,9 @@
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/q64;
+    check-cast p1, Lcom/huawei/appmarket/t64;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a50$b;->h(Lcom/huawei/appmarket/q64;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a50$b;->h(Lcom/huawei/appmarket/t64;)V
 
     :cond_0
     return-void
@@ -219,7 +219,7 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 
-    instance-of v0, p1, Lcom/huawei/appmarket/q64;
+    instance-of v0, p1, Lcom/huawei/appmarket/t64;
 
     if-eqz v0, :cond_0
 
@@ -227,9 +227,9 @@
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/q64;
+    check-cast p1, Lcom/huawei/appmarket/t64;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a50$b;->i(Lcom/huawei/appmarket/q64;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/a50$b;->i(Lcom/huawei/appmarket/t64;)V
 
     :cond_0
     return-void
@@ -259,11 +259,11 @@
     return-void
 .end method
 
-.method public final q(Lcom/huawei/appmarket/vq3;)V
+.method public final q(Lcom/huawei/appmarket/xq3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/vq3;
+    iput-object p1, p0, Lcom/huawei/appmarket/a50;->h:Lcom/huawei/appmarket/xq3;
 
     return-void
 .end method

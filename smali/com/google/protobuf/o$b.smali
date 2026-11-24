@@ -28,10 +28,10 @@
 # static fields
 .field private static final n:Lcom/google/protobuf/o$b;
 
-.field public static final o:Lcom/huawei/appmarket/gw5;
+.field public static final o:Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/o$b;",
             ">;"
         }
@@ -140,7 +140,7 @@
 
     invoke-direct {v0}, Lcom/google/protobuf/o$b$a;-><init>()V
 
-    sput-object v0, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/gw5;
+    sput-object v0, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/iw5;
 
     return-void
 .end method
@@ -1280,19 +1280,19 @@
     return-object v1
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/o$b;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/google/protobuf/o$b;->o:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -2468,7 +2468,7 @@
     const/4 v3, 0x1
 
     .line 27
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 28
     .line 29
@@ -2519,7 +2519,7 @@
     const/4 v3, 0x2
 
     .line 51
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 52
     .line 53
@@ -2566,7 +2566,7 @@
     const/4 v3, 0x6
 
     .line 73
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 74
     .line 75
@@ -2613,7 +2613,7 @@
     const/4 v3, 0x3
 
     .line 95
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 96
     .line 97
@@ -2660,7 +2660,7 @@
     const/4 v3, 0x4
 
     .line 117
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 118
     .line 119
@@ -2707,7 +2707,7 @@
     const/4 v3, 0x5
 
     .line 139
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 140
     .line 141
@@ -2755,7 +2755,7 @@
 
     .line 161
     .line 162
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 163
     .line 164
@@ -2798,7 +2798,7 @@
     const/4 v3, 0x7
 
     .line 182
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 183
     .line 184
@@ -2850,7 +2850,7 @@
 
     .line 206
     .line 207
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 208
     .line 209
@@ -2898,7 +2898,7 @@
 
     .line 229
     .line 230
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/vw7;->d(IIII)I
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ci7;->A(IIII)I
 
     .line 231
     .line 232

@@ -21,7 +21,7 @@
 
     iget-object v1, v0, Landroidx/core/app/RemoteActionCompat;->a:Landroidx/core/graphics/drawable/IconCompat;
 
-    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/a;->t(Landroidx/core/graphics/drawable/IconCompat;)Lcom/huawei/appmarket/og8;
+    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/a;->t(Landroidx/core/graphics/drawable/IconCompat;)Lcom/huawei/appmarket/tg8;
 
     move-result-object v1
 

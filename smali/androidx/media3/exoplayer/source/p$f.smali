@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public final a:Lcom/huawei/appmarket/e28;
+.field public final a:Lcom/huawei/appmarket/j28;
 
 .field public final b:[Z
 
@@ -25,17 +25,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/e28;[Z)V
+.method public constructor <init>(Lcom/huawei/appmarket/j28;[Z)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/media3/exoplayer/source/p$f;->a:Lcom/huawei/appmarket/e28;
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/p$f;->a:Lcom/huawei/appmarket/j28;
 
     iput-object p2, p0, Landroidx/media3/exoplayer/source/p$f;->b:[Z
 
-    iget p1, p1, Lcom/huawei/appmarket/e28;->a:I
+    iget p1, p1, Lcom/huawei/appmarket/j28;->a:I
 
     new-array p2, p1, [Z
 

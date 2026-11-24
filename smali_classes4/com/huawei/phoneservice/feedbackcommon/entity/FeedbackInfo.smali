@@ -20,85 +20,85 @@
 
 # instance fields
 .field private b:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemId"
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "parentId"
     .end annotation
 .end field
 
 .field private d:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "childId"
     .end annotation
 .end field
 
 .field private e:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemDesc"
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "contact"
     .end annotation
 .end field
 
 .field private g:J
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "filesSize"
     .end annotation
 .end field
 
 .field private h:J
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "logsSize"
     .end annotation
 .end field
 
 .field private i:[Z
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "showLog"
     .end annotation
 .end field
 
 .field private j:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "flag"
     .end annotation
 .end field
 
 .field private k:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "srCode"
     .end annotation
 .end field
 
 .field private l:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "problemName"
     .end annotation
 .end field
 
 .field private m:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "zipFileName"
     .end annotation
 .end field
 
 .field private n:J
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "associatedId"
     .end annotation
 .end field
 
 .field private o:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "uniqueCode"
     .end annotation
 .end field
@@ -119,7 +119,7 @@
 
 .method public constructor <init>()V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -243,7 +243,7 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 8
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 3
@@ -272,7 +272,7 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 9
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 4
@@ -313,7 +313,7 @@
 
 .method public getAssociatedId()J
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-wide v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->n:J
@@ -323,7 +323,7 @@
 
 .method public getChildId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->d:Ljava/lang/String;
@@ -333,7 +333,7 @@
 
 .method public getContact()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->f:Ljava/lang/String;
@@ -343,7 +343,7 @@
 
 .method public getFilesSize()J
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-wide v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->g:J
@@ -353,7 +353,7 @@
 
 .method public getFlag()I
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->j:I
@@ -363,7 +363,7 @@
 
 .method public getLogsSize()J
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-wide v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->h:J
@@ -373,7 +373,7 @@
 
 .method public getParentId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->c:Ljava/lang/String;
@@ -383,7 +383,7 @@
 
 .method public getProblemDesc()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->e:Ljava/lang/String;
@@ -393,7 +393,7 @@
 
 .method public getProblemId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->b:Ljava/lang/String;
@@ -403,7 +403,7 @@
 
 .method public getProblemName()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->l:Ljava/lang/String;
@@ -413,7 +413,7 @@
 
 .method public getProblemType()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->d:Ljava/lang/String;
@@ -437,7 +437,7 @@
 
 .method public getShowLog()Z
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->i:[Z
@@ -451,7 +451,7 @@
 
 .method public getSrCode()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->k:Ljava/lang/String;
@@ -461,7 +461,7 @@
 
 .method public getUniqueCode()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->o:Ljava/lang/String;
@@ -471,7 +471,7 @@
 
 .method public getZipFileName()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->m:Ljava/lang/String;
@@ -481,7 +481,7 @@
 
 .method public setAssociatedId(J)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-wide p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->n:J
@@ -491,7 +491,7 @@
 
 .method public setChildId(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->d:Ljava/lang/String;
@@ -501,7 +501,7 @@
 
 .method public setContact(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->f:Ljava/lang/String;
@@ -511,7 +511,7 @@
 
 .method public setFilesSize(J)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-wide p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->g:J
@@ -521,7 +521,7 @@
 
 .method public setFlag(I)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->j:I
@@ -531,7 +531,7 @@
 
 .method public setLogsSize(J)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-wide p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->h:J
@@ -541,7 +541,7 @@
 
 .method public setParentId(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->c:Ljava/lang/String;
@@ -551,7 +551,7 @@
 
 .method public setProblemDesc(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->e:Ljava/lang/String;
@@ -561,7 +561,7 @@
 
 .method public setProblemId(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->b:Ljava/lang/String;
@@ -571,7 +571,7 @@
 
 .method public setProblemName(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->l:Ljava/lang/String;
@@ -581,7 +581,7 @@
 
 .method public setProblemType(Ljava/lang/String;Ljava/lang/String;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->c:Ljava/lang/String;
@@ -593,7 +593,7 @@
 
 .method public setShowLog(Z)V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->i:[Z
@@ -607,7 +607,7 @@
 
 .method public setSrCode(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->k:Ljava/lang/String;
@@ -617,7 +617,7 @@
 
 .method public setUniqueCode(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->o:Ljava/lang/String;
@@ -627,7 +627,7 @@
 
 .method public setZipFileName(Ljava/lang/String;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iput-object p1, p0, Lcom/huawei/phoneservice/feedbackcommon/entity/FeedbackInfo;->m:Ljava/lang/String;

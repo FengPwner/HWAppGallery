@@ -77,7 +77,7 @@
     return-void
 .end method
 
-.method private static e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/hx;)I
+.method private static e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/ix;)I
     .registers 9
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -232,7 +232,7 @@
 
     .line 68
     .line 69
-    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/hx;->d(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/ix;->d(ILjava/lang/Class;)Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -258,7 +258,7 @@
 
     .line 79
     :try_start_3
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/hx;->put(Ljava/lang/Object;)V
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
 
     .line 80
     .line 81
@@ -270,7 +270,7 @@
     move-exception p0
 
     .line 84
-    invoke-interface {p1, v2}, Lcom/huawei/appmarket/hx;->put(Ljava/lang/Object;)V
+    invoke-interface {p1, v2}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
 
     .line 85
     .line 86
@@ -1213,7 +1213,7 @@
 
     .line 92
     .line 93
-    invoke-static {p0, v0, v2, v1, v5}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, v0, v2, v1, v5}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 94
     .line 95
@@ -1908,7 +1908,7 @@
 
     .line 198
     .line 199
-    invoke-static {v9, v3, v10, v5, v11}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v9, v3, v10, v5, v11}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 200
     .line 201
@@ -3521,7 +3521,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/hx;)I
+.method public final a(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/ix;)I
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -3551,7 +3551,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, p2}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v0, p2}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/ix;)I
 
     .line 13
     .line 14
@@ -3835,7 +3835,7 @@
     .line 95
 .end method
 
-.method public final c(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)I
+.method public final c(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)I
     .registers 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -3865,7 +3865,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, p2}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v0, p2}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->e(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/huawei/appmarket/ix;)I
 
     .line 13
     .line 14

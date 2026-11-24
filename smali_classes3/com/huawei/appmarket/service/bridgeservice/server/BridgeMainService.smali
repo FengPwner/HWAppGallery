@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/m85;
+.field private final b:Lcom/huawei/appmarket/p85;
 
 .field private c:Landroid/os/Messenger;
 
@@ -23,11 +23,11 @@
 
     invoke-direct {p0}, Lcom/huawei/secure/android/common/activity/SafeService;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/m85;
+    new-instance v0, Lcom/huawei/appmarket/p85;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/m85;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/p85;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/m85;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/p85;
 
     new-instance v0, Landroid/os/Messenger;
 
@@ -46,11 +46,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;)Lcom/huawei/appmarket/m85;
+.method static synthetic a(Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;)Lcom/huawei/appmarket/p85;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/m85;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/p85;
 
     return-object p0
 .end method
@@ -62,15 +62,15 @@
 
     invoke-super {p0, p1}, Landroid/app/Service;->attachBaseContext(Landroid/content/Context;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/m85;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->b:Lcom/huawei/appmarket/p85;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/m85;->b(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/p85;->b(Landroid/content/Context;)V
 
     const-string p1, "BridgeMainService"
 
     const-string v0, "attachBaseContext"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     const-string v0, "BridgeMainService"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/bridgeservice/server/BridgeMainService;->c:Landroid/os/Messenger;
 
@@ -120,7 +120,7 @@
 
     const-string v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -132,7 +132,7 @@
 
     const-string v1, "onUnbind"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Lcom/huawei/secure/android/common/activity/SafeService;->onUnbind(Landroid/content/Intent;)Z
 

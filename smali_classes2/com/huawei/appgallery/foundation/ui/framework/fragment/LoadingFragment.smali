@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eu3;
+.implements Lcom/huawei/appmarket/gu3;
 
 
 # annotations
@@ -14,13 +14,13 @@
         ">",
         "Lcom/huawei/appgallery/taskfragment/api/TaskFragment<",
         "TT;>;",
-        "Lcom/huawei/appmarket/eu3;"
+        "Lcom/huawei/appmarket/gu3;"
     }
 .end annotation
 
 
 # instance fields
-.field protected k0:Lcom/huawei/appmarket/gf1;
+.field protected k0:Lcom/huawei/appmarket/if1;
 
 
 # direct methods
@@ -29,11 +29,11 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/gf1;
+    new-instance v0, Lcom/huawei/appmarket/if1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gf1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/if1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/gf1;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/if1;
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->s(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->s(Landroid/content/Context;)I
 
     move-result v1
 
@@ -127,9 +127,9 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/if1;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/gf1;->r(Ljava/lang/String;Z)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/if1;->r(Ljava/lang/String;Z)V
 
     return-void
 .end method
@@ -138,11 +138,11 @@
     .registers 4
 
     .line 1
-    iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/gf1;
+    iget-object p2, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/if1;
 
     const/4 v0, 0x1
 
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gf1;->q(IZ)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/if1;->q(IZ)V
 
     return-void
 .end method
@@ -161,7 +161,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->G1()Landroid/content/res/Resources;
 
@@ -217,7 +217,7 @@
 
     move-result-object p2
 
-    iget-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/gf1;
+    iget-object p3, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/if1;
 
     if-eqz p2, :cond_2
 
@@ -240,13 +240,13 @@
     invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     :cond_2
-    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/gf1;->h(Landroid/view/View;)V
+    invoke-virtual {p3, p1}, Lcom/huawei/appmarket/if1;->h(Landroid/view/View;)V
 
     new-instance p2, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment$a;
 
     invoke-direct {p2, p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment$a;-><init>(Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;)V
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/gf1;->e(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/if1;->e(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->A3(Landroid/view/View;)V
 
@@ -256,11 +256,11 @@
 .method public final setVisibility(I)V
     .registers 3
 
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/gf1;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/LoadingFragment;->k0:Lcom/huawei/appmarket/if1;
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/if1;->o(I)V
 
     return-void
 .end method
@@ -269,7 +269,7 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 2
     .line 3

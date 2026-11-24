@@ -133,7 +133,7 @@
 
     .line 47
     .line 48
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -263,7 +263,7 @@
     .line 1
     sget-object v0, Lcom/huawei/appmarket/j10;->a:Ljava/util/ArrayList;
 
-    const-class v1, Lcom/huawei/appmarket/ns4;
+    const-class v1, Lcom/huawei/appmarket/qs4;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mp5;
+.implements Lcom/huawei/appmarket/np5;
 
 
 # annotations
@@ -64,7 +64,7 @@
 
     const-string p2, "onTabIconGet mainActivityBase weakref null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

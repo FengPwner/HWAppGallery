@@ -18,17 +18,17 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/gz;
+.field private b:Lcom/huawei/appmarket/hz;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/gz;)V
+.method constructor <init>(Lcom/huawei/appmarket/hz;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/a$b;->b:Lcom/huawei/appmarket/gz;
+    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/impl/a$b;->b:Lcom/huawei/appmarket/hz;
 
     return-void
 .end method
@@ -59,13 +59,13 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/gz;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/hz;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     move-result-object v0
 
@@ -74,21 +74,21 @@
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->n()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->n()I
 
     move-result v1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/impl/a$b;->b:Lcom/huawei/appmarket/gz;
+    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/impl/a$b;->b:Lcom/huawei/appmarket/hz;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gz;->n()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/hz;->n()I
 
     move-result v2
 
@@ -121,7 +121,7 @@
     :cond_1
     check-cast p2, Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;
 
-    invoke-static {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;->T(Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;Lcom/huawei/appmarket/gz;)Ljava/util/ArrayList;
+    invoke-static {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;->T(Lcom/huawei/appgallery/audiokit/impl/bean/AudioPlayListResponse;Lcom/huawei/appmarket/hz;)Ljava/util/ArrayList;
 
     move-result-object p2
 
@@ -146,7 +146,7 @@
 
     :cond_3
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object p1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -176,7 +176,7 @@
 
     const-string v0, "AudioPlayerManager"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_1

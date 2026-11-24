@@ -29,73 +29,73 @@
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->c:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/u19;
+    new-instance v2, Lcom/huawei/appmarket/a29;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/u19;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/a29;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->n:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/r39;
+    new-instance v2, Lcom/huawei/appmarket/x39;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/r39;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/x39;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->f:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/i59;
+    new-instance v2, Lcom/huawei/appmarket/o59;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/i59;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/o59;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->i:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/z69;
+    new-instance v2, Lcom/huawei/appmarket/f79;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/z69;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/f79;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->p:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/z79;
+    new-instance v2, Lcom/huawei/appmarket/f89;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/z79;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/f89;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->o:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/w89;
+    new-instance v2, Lcom/huawei/appmarket/c99;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/w89;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/c99;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->r:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/n99;
+    new-instance v2, Lcom/huawei/appmarket/t99;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/n99;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/t99;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->k:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/sa9;
+    new-instance v2, Lcom/huawei/appmarket/za9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/sa9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/za9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->l:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/fb9;
+    new-instance v2, Lcom/huawei/appmarket/mb9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/fb9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/mb9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -117,9 +117,9 @@
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->m:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/pc9;
+    new-instance v2, Lcom/huawei/appmarket/wc9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/pc9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/wc9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -141,25 +141,25 @@
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->h:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/gf9;
+    new-instance v2, Lcom/huawei/appmarket/nf9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/gf9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/nf9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->d:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/qf9;
+    new-instance v2, Lcom/huawei/appmarket/xf9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/qf9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/xf9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     sget-object v1, Lcom/huawei/appgallery/autoparcelable/a;->q:Lcom/huawei/appgallery/autoparcelable/a;
 
-    new-instance v2, Lcom/huawei/appmarket/dg9;
+    new-instance v2, Lcom/huawei/appmarket/kg9;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/dg9;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/kg9;-><init>()V
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -233,11 +233,11 @@
     move-exception p1
 
     :try_start_3
-    sget-object v3, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object v3, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wz8;->a(Ljava/lang/Exception;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/c09;->a(Ljava/lang/Exception;)V
     :try_end_3
     .catch Ljava/lang/IllegalAccessException; {:try_start_3 .. :try_end_3} :catch_3
     .catch Ljava/lang/InstantiationException; {:try_start_3 .. :try_end_3} :catch_2
@@ -351,11 +351,11 @@
 
     move-object v4, v3
 
-    check-cast v4, Lcom/huawei/appmarket/da9;
+    check-cast v4, Lcom/huawei/appmarket/ka9;
 
     if-nez v4, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object p0, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -373,7 +373,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/wz8;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/c09;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -393,7 +393,7 @@
 
     move-object v9, p4
 
-    invoke-interface/range {v4 .. v9}, Lcom/huawei/appmarket/da9;->a(ILandroid/os/Parcel;Lcom/huawei/appgallery/coreservice/internal/support/parcelable/AutoParcelable;Ljava/lang/reflect/Field;Ljava/util/HashMap;)V
+    invoke-interface/range {v4 .. v9}, Lcom/huawei/appmarket/ka9;->a(ILandroid/os/Parcel;Lcom/huawei/appgallery/coreservice/internal/support/parcelable/AutoParcelable;Ljava/lang/reflect/Field;Ljava/util/HashMap;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -405,13 +405,13 @@
 
     :catch_0
     :try_start_1
-    sget-object p0, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object p0, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     const-string p1, "can not set field value"
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/wz8;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/c09;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -544,7 +544,7 @@
 
     .line 55
     .line 56
-    invoke-static {p1, v6, v2}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v6, v2}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
@@ -744,7 +744,7 @@
     move-result v5
 
     .line 156
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/gf9;->c(Landroid/os/Parcel;I)[Ljava/lang/String;
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/nf9;->c(Landroid/os/Parcel;I)[Ljava/lang/String;
 
     .line 157
     .line 158
@@ -871,7 +871,7 @@
 
     .line 214
     .line 215
-    sget-object v5, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object v5, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     .line 216
     .line 217
@@ -935,7 +935,7 @@
     .line 243
     .line 244
     :cond_7
-    sget-object v8, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object v8, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     .line 245
     .line 246
@@ -947,7 +947,7 @@
 
     .line 249
     .line 250
-    invoke-static {v9, v5, v10}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v9, v5, v10}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 251
     .line 252
@@ -1007,7 +1007,7 @@
 
     .line 281
     .line 282
-    invoke-static {v7, v5}, Lcom/huawei/appmarket/wz8;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v5}, Lcom/huawei/appmarket/c09;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 283
     .line 284
@@ -1044,7 +1044,7 @@
 
     .line 298
     .line 299
-    invoke-static {v0, v4, v1}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v4, v1}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 300
     .line 301
@@ -1094,7 +1094,7 @@
 
     .line 323
     .line 324
-    invoke-static {v0, v5, v1, v4}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v5, v1, v4}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 325
     .line 326
@@ -1128,7 +1128,7 @@
     .line 339
     .line 340
     .line 341
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/bu0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/kd0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 342
     .line 343
@@ -1378,13 +1378,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public static d(Lcom/huawei/appgallery/coreservice/internal/support/parcelable/AutoParcelable;Landroid/os/Parcel;I)V
@@ -1411,7 +1404,7 @@
 
     .line 10
     .line 11
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/sz8;->A(Landroid/os/Parcel;I)I
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/yz8;->A(Landroid/os/Parcel;I)I
 
     .line 12
     .line 13
@@ -1754,7 +1747,7 @@
     :catch_2
     :goto_4
     :try_start_3
-    sget-object v0, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object v0, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     .line 170
     .line 171
@@ -1794,7 +1787,7 @@
     .line 189
     .line 190
     .line 191
-    invoke-static {v9, v6}, Lcom/huawei/appmarket/wz8;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v6}, Lcom/huawei/appmarket/c09;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -1844,11 +1837,11 @@
 
     .line 212
     .line 213
-    new-instance v0, Lcom/huawei/appmarket/gf9;
+    new-instance v0, Lcom/huawei/appmarket/nf9;
 
     .line 214
     .line 215
-    invoke-direct {v0}, Lcom/huawei/appmarket/gf9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nf9;-><init>()V
 
     .line 216
     .line 217
@@ -1883,7 +1876,7 @@
 
     .line 231
     :cond_5
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/sz8;->A(Landroid/os/Parcel;I)I
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/yz8;->A(Landroid/os/Parcel;I)I
 
     .line 232
     .line 233
@@ -1896,7 +1889,7 @@
     .line 236
     .line 237
     .line 238
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/sz8;->m(Landroid/os/Parcel;I)V
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/yz8;->m(Landroid/os/Parcel;I)V
 
     .line 239
     .line 240
@@ -1963,7 +1956,7 @@
     move-object v11, v0
 
     .line 267
-    sget-object v0, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object v0, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     .line 268
     .line 269
@@ -1998,7 +1991,7 @@
     .line 284
     .line 285
     .line 286
-    invoke-static {v9, v11}, Lcom/huawei/appmarket/wz8;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v11}, Lcom/huawei/appmarket/c09;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 287
     .line 288
@@ -2036,7 +2029,7 @@
 
     .line 302
     :cond_8
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/sz8;->m(Landroid/os/Parcel;I)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/yz8;->m(Landroid/os/Parcel;I)V
 
     .line 303
     .line 304
@@ -2105,11 +2098,11 @@
 
     move-object v2, v1
 
-    check-cast v2, Lcom/huawei/appmarket/da9;
+    check-cast v2, Lcom/huawei/appmarket/ka9;
 
     if-nez v2, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/wz8;->a:Lcom/huawei/appmarket/wz8;
+    sget-object p0, Lcom/huawei/appmarket/c09;->a:Lcom/huawei/appmarket/c09;
 
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -2131,7 +2124,7 @@
 
     const-string p0, "SafeParcel"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/wz8;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/c09;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -2146,7 +2139,7 @@
 
     move v7, p3
 
-    invoke-interface/range {v2 .. v8}, Lcom/huawei/appmarket/da9;->b(Landroid/os/Parcel;Ljava/lang/reflect/Field;ILjava/lang/Object;IZ)V
+    invoke-interface/range {v2 .. v8}, Lcom/huawei/appmarket/ka9;->b(Landroid/os/Parcel;Ljava/lang/reflect/Field;ILjava/lang/Object;IZ)V
 
     :goto_0
     invoke-virtual {p2, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V

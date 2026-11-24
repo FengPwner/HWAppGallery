@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private G1:Z
+.field private n1:Z
 
-.field private H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+.field private o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
 
 # direct methods
@@ -18,11 +18,11 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iput-object v1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     invoke-direct {p0, p1, v1, v0}, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->a(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -37,11 +37,11 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iput-object v1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     invoke-direct {p0, p1, p2, v0}, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->a(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -56,11 +56,11 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iput-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->a(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -132,7 +132,7 @@
     .line 29
     .line 30
     .line 31
-    iput-object p3, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iput-object p3, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     .line 32
     .line 33
@@ -165,7 +165,7 @@
     .line 46
     .line 47
     .line 48
-    iget-object p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iget-object p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     .line 49
     .line 50
@@ -203,7 +203,7 @@
     move-result p3
 
     .line 68
-    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     .line 69
     .line 70
@@ -220,7 +220,7 @@
     .line 75
     .line 76
     .line 77
-    iget-object p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iget-object p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     .line 78
     .line 79
@@ -663,49 +663,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 
@@ -757,7 +714,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    iput-boolean p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iput-boolean p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     return-void
 .end method
@@ -773,7 +730,7 @@
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 3
 
-    iget-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iget-boolean v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     if-eqz v0, :cond_0
 
@@ -823,7 +780,7 @@
 .method public setColumnCount(I)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->H1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
+    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->o1:Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
     instance-of v1, v0, Lcom/huawei/phoneservice/feedback/widget/decortion/a;
 
@@ -851,7 +808,7 @@
 .method public setmDisableScroll(Z)V
     .registers 2
 
-    iput-boolean p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->G1:Z
+    iput-boolean p1, p0, Lcom/huawei/phoneservice/feedback/mvp/base/FeedbackCITListView;->n1:Z
 
     return-void
 .end method

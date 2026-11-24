@@ -3,74 +3,146 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq3;
+.implements Ljava/io/Serializable;
+.implements Ljava/util/Comparator;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
-
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/kq3;
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/en7$a;
+    }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<REQ:",
-        "Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;",
-        "RSP:",
-        "Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;",
-        ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kq3<",
-        "TREQ;TRSP;>;"
+        "Ljava/io/Serializable;",
+        "Ljava/util/Comparator<",
+        "Lcom/huawei/appmarket/en7;",
+        ">;"
     }
 .end annotation
 
 
+# static fields
+.field private static final serialVersionUID:J = 0x6be4800c53b5f63fL
+
+
+# instance fields
+.field private b:Ljava/lang/String;
+
+.field private c:J
+
+.field private d:J
+
+.field private e:Lcom/huawei/appmarket/en7$a;
+
+
 # direct methods
 .method public constructor <init>()V
-    .registers 1
+    .registers 3
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/en7;->b:Ljava/lang/String;
+
+    const-wide/16 v0, 0x0
+
+    iput-wide v0, p0, Lcom/huawei/appmarket/en7;->c:J
+
+    iput-wide v0, p0, Lcom/huawei/appmarket/en7;->d:J
+
+    sget-object v0, Lcom/huawei/appmarket/en7$a;->b:Lcom/huawei/appmarket/en7$a;
+
+    iput-object v0, p0, Lcom/huawei/appmarket/en7;->e:Lcom/huawei/appmarket/en7$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/Object;Lcom/huawei/appmarket/kq3$a;)V
-    .registers 4
+.method public final a()J
+    .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;
+    iget-wide v0, p0, Lcom/huawei/appmarket/en7;->c:J
+
+    return-wide v0
+.end method
+
+.method public final b()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/en7;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final c()Lcom/huawei/appmarket/en7$a;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/en7;->e:Lcom/huawei/appmarket/en7$a;
+
+    return-object v0
+.end method
+
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .registers 6
+
+    .line 1
+    check-cast p1, Lcom/huawei/appmarket/en7;
 
     .line 2
     .line 3
-    new-instance v0, Lcom/huawei/appmarket/dn7;
+    check-cast p2, Lcom/huawei/appmarket/en7;
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, p2}, Lcom/huawei/appmarket/dn7;-><init>(Lcom/huawei/appmarket/en7;Lcom/huawei/appmarket/kq3$a;)V
+    iget-wide v0, p1, Lcom/huawei/appmarket/en7;->c:J
 
     .line 6
     .line 7
-    .line 8
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    iget-wide p1, p2, Lcom/huawei/appmarket/en7;->c:J
 
+    .line 8
     .line 9
+    cmp-long v2, v0, p1
+
     .line 10
     .line 11
-    return-void
+    if-lez v2, :cond_0
+
     .line 12
     .line 13
+    const/4 p1, 0x1
+
     .line 14
+    goto :goto_0
+
     .line 15
+    :cond_0
+    if-gez v2, :cond_1
+
     .line 16
     .line 17
+    const/4 p1, -0x1
+
     .line 18
+    goto :goto_0
+
     .line 19
+    :cond_1
+    const/4 p1, 0x0
+
     .line 20
+    :goto_0
+    return p1
     .line 21
     .line 22
     .line 23
@@ -214,5 +286,93 @@
     .line 161
     .line 162
     .line 163
-    .line 164
+.end method
+
+.method public final d(J)V
+    .registers 3
+
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/en7;->c:J
+
+    return-void
+.end method
+
+.method public final e(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/en7;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final f(Lcom/huawei/appmarket/en7$a;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/en7;->e:Lcom/huawei/appmarket/en7$a;
+
+    return-void
+.end method
+
+.method public final g(J)V
+    .registers 3
+
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/en7;->d:J
+
+    return-void
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 4
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "StorageInfo[ storagePath = "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/huawei/appmarket/en7;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", totalSpace = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v1, p0, Lcom/huawei/appmarket/en7;->d:J
+
+    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", freeSpace = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v1, p0, Lcom/huawei/appmarket/en7;->c:J
+
+    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", storageType = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/en7;->e:Lcom/huawei/appmarket/en7$a;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

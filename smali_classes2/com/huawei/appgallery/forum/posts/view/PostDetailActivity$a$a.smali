@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity$a;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity$a;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,7 +47,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     iget-object v0, v0, Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity$a;->b:Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;
 

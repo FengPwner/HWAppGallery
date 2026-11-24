@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xm5;
+.implements Lcom/huawei/appmarket/ym5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/xm5<",
+        "Lcom/huawei/appmarket/ym5<",
         "Ljava/util/HashMap<",
         "Ljava/lang/String;",
         "Ljava/lang/String;",
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/aq1;)V
+.method public final a(Lcom/huawei/appmarket/dq1;)V
     .registers 4
 
     .line 1
@@ -53,11 +53,11 @@
 
     const-string v1, "getTotalUnReadMsg onSubscribe"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle$b;->a:Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->access$202(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;Lcom/huawei/appmarket/aq1;)Lcom/huawei/appmarket/aq1;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->access$202(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;Lcom/huawei/appmarket/dq1;)Lcom/huawei/appmarket/dq1;
 
     invoke-static {v0}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->access$300(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -69,11 +69,11 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->access$200(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;)Lcom/huawei/appmarket/aq1;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;->access$200(Lcom/huawei/appmarket/service/forum/ForumMsgSearchTitle;)Lcom/huawei/appmarket/dq1;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/dq1;->a()V
 
     :cond_0
     return-void
@@ -119,7 +119,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -170,7 +170,7 @@
     move-result-object v2
 
     .line 44
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -210,7 +210,7 @@
     .line 64
     .line 65
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 66
     .line 67
@@ -222,11 +222,11 @@
 
     .line 70
     .line 71
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 72
     .line 73
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 74
     .line 75
@@ -234,11 +234,11 @@
     move-result-object p1
 
     .line 77
-    const-class v0, Lcom/huawei/appmarket/ir3;
+    const-class v0, Lcom/huawei/appmarket/kr3;
 
     .line 78
     .line 79
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -246,11 +246,11 @@
     move-result-object p1
 
     .line 83
-    check-cast p1, Lcom/huawei/appmarket/ir3;
+    check-cast p1, Lcom/huawei/appmarket/kr3;
 
     .line 84
     .line 85
-    invoke-interface {p1}, Lcom/huawei/appmarket/ir3;->f()Lcom/huawei/appmarket/sq3;
+    invoke-interface {p1}, Lcom/huawei/appmarket/kr3;->f()Lcom/huawei/appmarket/uq3;
 
     .line 86
     .line 87
@@ -262,7 +262,7 @@
 
     .line 90
     .line 91
-    invoke-interface {p1}, Lcom/huawei/appmarket/sq3;->b()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/uq3;->b()I
 
     .line 92
     .line 93
@@ -306,7 +306,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onComplete()V
@@ -316,7 +315,7 @@
 
     const-string v1, "getTotalUnReadMsg onComplete"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -328,7 +327,7 @@
 
     const-string v0, "getTotalUnReadMsg onFailure"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

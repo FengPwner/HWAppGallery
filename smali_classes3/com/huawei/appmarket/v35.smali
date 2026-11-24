@@ -1,33 +1,61 @@
 .class final Lcom/huawei/appmarket/v35;
-.super Landroid/animation/AnimatorListenerAdapter;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/MarketActivity;
+.field final synthetic b:Lcom/huawei/appmarket/MarketActivity;
 
 
 # direct methods
 .method constructor <init>(Lcom/huawei/appmarket/MarketActivity;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/appmarket/v35;->a:Lcom/huawei/appmarket/MarketActivity;
+    iput-object p1, p0, Lcom/huawei/appmarket/v35;->b:Lcom/huawei/appmarket/MarketActivity;
 
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onAnimationEnd(Landroid/animation/Animator;)V
-    .registers 2
+.method public final run()V
+    .registers 4
 
-    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
+    iget-object v0, p0, Lcom/huawei/appmarket/v35;->b:Lcom/huawei/appmarket/MarketActivity;
 
-    iget-object p1, p0, Lcom/huawei/appmarket/v35;->a:Lcom/huawei/appmarket/MarketActivity;
+    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->B4(Lcom/huawei/appmarket/MarketActivity;)Landroid/widget/LinearLayout;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/MarketActivity;->K4(Lcom/huawei/appmarket/MarketActivity;)V
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    const-string v0, "MarketActivity"
+
+    const-string v1, "handleFocusState focusView null"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->B4(Lcom/huawei/appmarket/MarketActivity;)Landroid/widget/LinearLayout;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->setFocusable(Z)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/MarketActivity;->B4(Lcom/huawei/appmarket/MarketActivity;)Landroid/widget/LinearLayout;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
     return-void
 .end method

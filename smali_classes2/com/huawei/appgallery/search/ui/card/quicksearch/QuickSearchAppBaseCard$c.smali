@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/search/ui/card/quicksearch/QuickSearchAppBaseCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,13 +47,13 @@
 
     if-eqz v1, :cond_0
 
-    const-class v1, Lcom/huawei/appmarket/zq3;
+    const-class v1, Lcom/huawei/appmarket/br3;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/zq3;
+    check-cast v1, Lcom/huawei/appmarket/br3;
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
@@ -63,7 +63,7 @@
 
     const/4 v2, 0x1
 
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/zq3;->v2(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Z)V
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/br3;->w2(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Z)V
 
     :cond_0
     return-void

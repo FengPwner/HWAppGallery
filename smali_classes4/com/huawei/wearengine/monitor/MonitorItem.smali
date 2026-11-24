@@ -52,7 +52,7 @@
 
     new-instance v0, Lcom/huawei/wearengine/monitor/MonitorItem;
 
-    const-string v1, "wearStatus"
+    const-string/jumbo v1, "wearStatus"
 
     invoke-direct {v0, v1}, Lcom/huawei/wearengine/monitor/MonitorItem;-><init>(Ljava/lang/String;)V
 
@@ -108,7 +108,7 @@
 
     new-instance v0, Lcom/huawei/wearengine/monitor/MonitorItem;
 
-    const-string v1, "userAvailableKbytes"
+    const-string/jumbo v1, "userAvailableKbytes"
 
     invoke-direct {v0, v1}, Lcom/huawei/wearengine/monitor/MonitorItem;-><init>(Ljava/lang/String;)V
 

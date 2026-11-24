@@ -3,27 +3,12 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/yg3$b;,
-        Lcom/huawei/appmarket/yg3$a;
-    }
-.end annotation
-
-
 # virtual methods
-.method public abstract a()Lcom/huawei/appmarket/yg3$b;
+.method public abstract b(Landroid/app/Activity;)V
 .end method
 
-.method public abstract c()Lcom/huawei/appmarket/ke7;
+.method public abstract c(Landroid/app/Activity;)V
 .end method
 
-.method public abstract g(Ljava/lang/String;Lcom/huawei/appmarket/sj;)V
-.end method
-
-.method public abstract h(Landroid/content/Context;Lcom/huawei/appmarket/zi;)V
-.end method
-
-.method public abstract n(Lcom/huawei/appmarket/sj;)Z
+.method public abstract d(Landroid/app/Activity;)V
 .end method

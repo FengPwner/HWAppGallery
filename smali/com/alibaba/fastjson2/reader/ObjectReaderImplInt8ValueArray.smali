@@ -285,7 +285,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/om5;->i(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/uq5;->g(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -684,11 +684,11 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/df4;->l()Ljava/util/Base64$Decoder;
+    invoke-static {}, Lcom/huawei/appmarket/ff4;->l()Ljava/util/Base64$Decoder;
 
     move-result-object p2
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/df4;->q(Ljava/util/Base64$Decoder;Ljava/lang/String;)[B
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ff4;->q(Ljava/util/Base64$Decoder;Ljava/lang/String;)[B
 
     move-result-object p3
 

@@ -104,7 +104,7 @@
 
     if-lt v1, v2, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/of1;->m()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qf1;->m()Ljava/lang/String;
 
     move-result-object p0
     :try_end_0

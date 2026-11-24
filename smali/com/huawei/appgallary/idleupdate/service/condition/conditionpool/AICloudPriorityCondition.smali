@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s74;
+.implements Lcom/huawei/appmarket/v74;
 
 
 # direct methods
@@ -20,23 +20,23 @@
 .method public final execute()Z
     .registers 8
 
-    sget-object v0, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v0, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     const-string v1, "AICloudPriorityCondition"
 
-    invoke-virtual {v0, v1, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "DeviceKit"
 
-    const-class v3, Lcom/huawei/appmarket/em3;
+    const-class v3, Lcom/huawei/appmarket/gm3;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/em3;
+    check-cast v2, Lcom/huawei/appmarket/gm3;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/em3;->c()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/gm3;->c()Z
 
     move-result v2
 
@@ -46,12 +46,12 @@
 
     const-string v2, "DH update, no need check ai."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/u74;->f()Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {}, Lcom/huawei/appmarket/x74;->f()Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v2
 
@@ -59,12 +59,12 @@
 
     const-string v2, "AICloudPriorityCondition# task is null!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/u74;->g()Lcom/huawei/appmarket/ts3;
+    invoke-static {}, Lcom/huawei/appmarket/x74;->g()Lcom/huawei/appmarket/vs3;
 
     move-result-object v4
 
@@ -72,12 +72,12 @@
 
     const-string v2, "AICloudPriorityCondition# processObserver is null!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 
     :cond_2
-    invoke-interface {v4, v2}, Lcom/huawei/appmarket/ts3;->f(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
+    invoke-interface {v4, v2}, Lcom/huawei/appmarket/vs3;->f(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)Z
 
     move-result v5
 
@@ -99,7 +99,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0, v1, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -115,13 +115,13 @@
 
     sget-object v6, Lcom/huawei/appmarket/q80;->e:Lcom/huawei/appmarket/q80;
 
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/r74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/u74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
 
-    invoke-interface {v4}, Lcom/huawei/appmarket/ts3;->i()I
+    invoke-interface {v4}, Lcom/huawei/appmarket/vs3;->i()I
 
     move-result v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/u74;->d(I)I
+    invoke-static {v4}, Lcom/huawei/appmarket/x74;->d(I)I
 
     move-result v5
 
@@ -135,7 +135,7 @@
 
     move-result-object v3
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/u74;->p(Ljava/lang/Integer;Ljava/lang/Integer;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/x74;->p(Ljava/lang/Integer;Ljava/lang/Integer;)V
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -155,7 +155,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

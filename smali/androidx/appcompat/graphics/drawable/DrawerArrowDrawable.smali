@@ -131,7 +131,7 @@
     move-result-object p1
 
     .line 44
-    sget-object v3, Lcom/huawei/appmarket/pe6;->o:[I
+    sget-object v3, Lcom/huawei/appmarket/re6;->o:[I
 
     .line 45
     .line 46
@@ -591,7 +591,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p1, p0, v0, p0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {p1, p0, v0, p0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result p0
 

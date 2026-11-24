@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/forum/user/impl/permission/LoginChecker;
-.super Lcom/huawei/appmarket/c52;
+.super Lcom/huawei/appmarket/g52;
 .source "SourceFile"
 
 
@@ -25,9 +25,9 @@
     .registers 3
 
     .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/c52;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/g52;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iput-object p1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     iput-boolean p2, p0, Lcom/huawei/appgallery/forum/user/impl/permission/LoginChecker;->b:Z
 
@@ -92,7 +92,7 @@
 
     .line 16
     .line 17
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -104,7 +104,7 @@
 
     .line 22
     .line 23
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     .line 24
     .line 25
@@ -121,7 +121,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 33
     .line 34
@@ -255,14 +255,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic d(Lcom/huawei/appgallery/forum/user/impl/permission/LoginChecker;)Landroid/content/Context;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object p0, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     return-object p0
 .end method
@@ -281,7 +280,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -306,7 +305,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     .line 19
     .line 20
@@ -350,11 +349,11 @@
     .line 39
     .line 40
     .line 41
-    const-class v1, Lcom/huawei/appmarket/qj3;
+    const-class v1, Lcom/huawei/appmarket/sj3;
 
     .line 42
     .line 43
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -362,15 +361,15 @@
     move-result-object v1
 
     .line 47
-    check-cast v1, Lcom/huawei/appmarket/qj3;
+    check-cast v1, Lcom/huawei/appmarket/sj3;
 
     .line 48
     .line 49
-    iget-object v2, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v2, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 50
     .line 51
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/qj3;->u1(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/sj3;->v1(Landroid/content/Context;Landroid/content/Intent;)V
 
     .line 52
     .line 53
@@ -383,7 +382,7 @@
 
     .line 56
     .line 57
-    iget-object v1, p0, Lcom/huawei/appmarket/c52;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/huawei/appmarket/g52;->context:Landroid/content/Context;
 
     .line 58
     .line 59
@@ -401,7 +400,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/user/impl/permission/LoginPromptDialog;->a(Lcom/huawei/appmarket/ao5;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/forum/user/impl/permission/LoginPromptDialog;->a(Lcom/huawei/appmarket/bo5;)V
 
     .line 68
     .line 69

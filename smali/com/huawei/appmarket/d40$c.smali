@@ -61,12 +61,12 @@
     throw p1
 .end method
 
-.method public final b()Lcom/huawei/appmarket/gr4;
+.method public final b()Lcom/huawei/appmarket/jr4;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TT;>;"
         }
     .end annotation

@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 3
 
     .line 1
@@ -33,7 +33,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
 
     move-result-object v0
 
@@ -41,7 +41,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/textlist/DetailTextListGeneralCard;->y:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
 
     move-result-object p1
 
@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -244,9 +244,9 @@
     :cond_5
     invoke-virtual {v5, v1}, Lcom/huawei/appgallery/detail/detailbase/common/EnterLayout;->setArrowVisibility(I)V
 
-    new-instance v3, Lcom/huawei/appmarket/tf7;
+    new-instance v3, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v3, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v3, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {v5, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -324,7 +324,7 @@
 
     if-ne v1, v3, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/ll6;->a()Lcom/huawei/appmarket/ll6;
+    invoke-static {}, Lcom/huawei/appmarket/nl6;->a()Lcom/huawei/appmarket/nl6;
 
     move-result-object v1
 
@@ -342,7 +342,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v4, v0, v3}, Lcom/huawei/appmarket/ll6;->b(Landroid/content/Context;ILjava/lang/String;)Z
+    invoke-static {v4, v0, v3}, Lcom/huawei/appmarket/nl6;->b(Landroid/content/Context;ILjava/lang/String;)Z
 
     move-result v0
 
@@ -352,7 +352,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/bq4;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/eq4;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_1
     return-void

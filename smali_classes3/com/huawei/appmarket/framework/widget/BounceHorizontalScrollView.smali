@@ -115,7 +115,7 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/huawei/appmarket/hf6;->e:[I
+    sget-object v3, Lcom/huawei/appmarket/jf6;->e:[I
 
     invoke-virtual {v2, p1, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -170,7 +170,7 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -428,7 +428,7 @@
     move-result-object v4
 
     .line 71
-    invoke-static {v4}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v4}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 72
     .line 73
@@ -811,8 +811,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z

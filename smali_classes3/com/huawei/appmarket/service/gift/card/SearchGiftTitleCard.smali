@@ -209,16 +209,15 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard$a;-><init>(Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard$a;-><init>(Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/gift/card/SearchGiftTitleCard;->y:Landroid/widget/LinearLayout;
 

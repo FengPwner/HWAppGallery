@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wu1;
+.implements Lcom/huawei/appmarket/av1;
 
 
 # instance fields
@@ -60,7 +60,7 @@
 
     const-string v1, "BatchPreDownloadProcess"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -166,13 +166,13 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/js;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/ks;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;->r(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/qr1;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/tr1;->e(Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;)V
 
     :cond_0
     invoke-static {v2}, Lcom/huawei/appmarket/d70;->h(Lcom/huawei/appmarket/d70;)Z

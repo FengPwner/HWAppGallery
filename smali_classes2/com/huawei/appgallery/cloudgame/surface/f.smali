@@ -50,11 +50,11 @@
 
     const-string p2, "CloudGamePlayActivity"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/cloudgame/surface/f;->b:Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->O3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/v95;
+    invoke-static {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->O3(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;)Lcom/huawei/appmarket/y95;
 
     move-result-object p2
 
@@ -62,7 +62,7 @@
 
     move-result p1
 
-    invoke-virtual {p2, p4, p5, p1}, Lcom/huawei/appmarket/v95;->a(III)V
+    invoke-virtual {p2, p4, p5, p1}, Lcom/huawei/appmarket/y95;->a(III)V
 
     return-void
 .end method

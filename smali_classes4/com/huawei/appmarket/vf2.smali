@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+.method public static a(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 4
 
     .line 1
@@ -20,7 +20,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/uf2;-><init>(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;I)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/uf2;-><init>(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;I)V
 
     .line 8
     .line 9
@@ -288,13 +288,9 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method public static b(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
+.method public static b(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;)Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 4
 
     .line 1
@@ -310,7 +306,7 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/uf2;-><init>(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;I)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/huawei/appmarket/uf2;-><init>(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;I)V
 
     .line 8
     .line 9
@@ -578,14 +574,10 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
-.method public static synthetic c(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 3
+.method public static synthetic c(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;D)D
+    .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -593,23 +585,23 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p2}, Lorg/apache/commons/lang3/function/FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p2, p3}, Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;->applyAsDouble(D)D
 
     .line 2
     .line 3
     .line 4
-    move-result-object p0
+    move-result-wide p2
 
     .line 5
-    invoke-interface {p1, p0}, Lorg/apache/commons/lang3/function/FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p3}, Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;->applyAsDouble(D)D
 
     .line 6
     .line 7
     .line 8
-    move-result-object p0
+    move-result-wide p0
 
     .line 9
-    return-object p0
+    return-wide p0
     .line 10
     .line 11
     .line 12
@@ -1112,53 +1104,10 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method public static synthetic d(Lorg/apache/commons/lang3/function/FailableFunction;Lorg/apache/commons/lang3/function/FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 3
+.method public static synthetic d(Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;D)D
+    .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -1166,23 +1115,23 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1, p2}, Lorg/apache/commons/lang3/function/FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p3}, Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;->applyAsDouble(D)D
 
     .line 2
     .line 3
     .line 4
-    move-result-object p1
+    move-result-wide p1
 
     .line 5
-    invoke-interface {p0, p1}, Lorg/apache/commons/lang3/function/FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;->applyAsDouble(D)D
 
     .line 6
     .line 7
     .line 8
-    move-result-object p0
+    move-result-wide p0
 
     .line 9
-    return-object p0
+    return-wide p0
     .line 10
     .line 11
     .line 12
@@ -1685,102 +1634,35 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method public static e(Lorg/apache/commons/lang3/function/FailableFunction;)Lorg/apache/commons/lang3/function/FailableFunction;
-    .registers 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            "R:",
-            "Ljava/lang/Object;",
-            "E:",
-            "Ljava/lang/Throwable;",
-            ">(",
-            "Lorg/apache/commons/lang3/function/FailableFunction<",
-            "TT;TR;TE;>;)",
-            "Lorg/apache/commons/lang3/function/FailableFunction<",
-            "TT;TR;TE;>;"
-        }
-    .end annotation
-
-    .line 1
-    return-object p0
-.end method
-
-.method public static f()Lorg/apache/commons/lang3/function/FailableFunction;
+.method public static e()Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            "E:",
+            "<E:",
             "Ljava/lang/Throwable;",
             ">()",
-            "Lorg/apache/commons/lang3/function/FailableFunction<",
-            "TT;TT;TE;>;"
+            "Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator<",
+            "TE;>;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tf2;
+    new-instance v0, Lcom/huawei/appmarket/jb0;
 
     .line 2
     .line 3
-    const/4 v1, 0x0
+    const/16 v1, 0xa
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/tf2;-><init>(I)V
-
     .line 5
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/jb0;-><init>(I)V
+
     .line 6
     .line 7
-    return-object v0
     .line 8
+    return-object v0
     .line 9
     .line 10
     .line 11
@@ -2081,10 +1963,30 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
-.method public static synthetic g(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 1
+.method public static synthetic f(D)D
+    .registers 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -2092,11 +1994,11 @@
     .end annotation
 
     .line 1
-    return-object p0
+    return-wide p0
 .end method
 
-.method public static synthetic h(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 1
+.method public static synthetic g(D)D
+    .registers 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -2104,29 +2006,25 @@
     .end annotation
 
     .line 1
-    const/4 p0, 0x0
+    const-wide/16 p0, 0x0
 
-    return-object p0
+    return-wide p0
 .end method
 
-.method public static i()Lorg/apache/commons/lang3/function/FailableFunction;
+.method public static h()Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            "R:",
-            "Ljava/lang/Object;",
-            "E:",
+            "<E:",
             "Ljava/lang/Throwable;",
             ">()",
-            "Lorg/apache/commons/lang3/function/FailableFunction<",
-            "TT;TR;TE;>;"
+            "Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator<",
+            "TE;>;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableFunction;->NOP:Lorg/apache/commons/lang3/function/FailableFunction;
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;->NOP:Lorg/apache/commons/lang3/function/FailableDoubleUnaryOperator;
 
     return-object v0
 .end method

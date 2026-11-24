@@ -39,11 +39,11 @@
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/Fragment$b;->a:Landroidx/fragment/app/Fragment;
 
-    iget-object v1, v0, Landroidx/fragment/app/Fragment;->Y:Lcom/huawei/appmarket/b27;
+    iget-object v1, v0, Landroidx/fragment/app/Fragment;->Y:Lcom/huawei/appmarket/f27;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/b27;->b()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/f27;->b()V
 
-    invoke-static {v0}, Landroidx/lifecycle/t;->b(Lcom/huawei/appmarket/c27;)V
+    invoke-static {v0}, Landroidx/lifecycle/t;->b(Lcom/huawei/appmarket/g27;)V
 
     iget-object v1, v0, Landroidx/fragment/app/Fragment;->c:Landroid/os/Bundle;
 
@@ -61,9 +61,9 @@
     const/4 v1, 0x0
 
     :goto_0
-    iget-object v0, v0, Landroidx/fragment/app/Fragment;->Y:Lcom/huawei/appmarket/b27;
+    iget-object v0, v0, Landroidx/fragment/app/Fragment;->Y:Lcom/huawei/appmarket/f27;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/b27;->c(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/f27;->c(Landroid/os/Bundle;)V
 
     return-void
 .end method

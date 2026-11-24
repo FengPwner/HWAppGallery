@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract call()V
+.method public abstract a(Lcom/huawei/appmarket/jh7;)V
 .end method

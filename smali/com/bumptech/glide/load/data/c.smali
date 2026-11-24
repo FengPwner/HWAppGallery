@@ -24,25 +24,25 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/vk6;
+.field private final a:Lcom/huawei/appmarket/xk6;
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+.method public constructor <init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/vk6;
+    new-instance v0, Lcom/huawei/appmarket/xk6;
 
-    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
 
-    iput-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/vk6;
+    iput-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/xk6;
 
     const/high16 p1, 0x500000
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/vk6;->mark(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/xk6;->mark(I)V
 
     return-void
 .end method
@@ -53,9 +53,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/vk6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/xk6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->s()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->s()V
 
     return-void
 .end method
@@ -64,9 +64,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/vk6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/xk6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->t()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->t()V
 
     return-void
 .end method
@@ -80,11 +80,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/vk6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/xk6;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->reset()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->reset()V
 
     .line 4
     .line 5
@@ -219,9 +219,10 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final d()Lcom/huawei/appmarket/vk6;
+.method public final d()Lcom/huawei/appmarket/xk6;
     .registers 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -230,9 +231,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/vk6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/data/c;->a:Lcom/huawei/appmarket/xk6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vk6;->reset()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xk6;->reset()V
 
     return-object v0
 .end method

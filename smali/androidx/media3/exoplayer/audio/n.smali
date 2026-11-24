@@ -25,7 +25,7 @@
 
     invoke-direct {p0}, Landroidx/media3/common/audio/b;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/ge8;->f:[B
+    sget-object v0, Lcom/huawei/appmarket/le8;->f:[B
 
     iput-object v0, p0, Landroidx/media3/exoplayer/audio/n;->m:[B
 
@@ -219,7 +219,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5, v4}, Lcom/huawei/appmarket/ge8;->j(III)I
+    invoke-static {v0, v5, v4}, Lcom/huawei/appmarket/le8;->j(III)I
 
     move-result v4
 
@@ -229,7 +229,7 @@
 
     sub-int/2addr v0, v4
 
-    invoke-static {v0, v5, v2}, Lcom/huawei/appmarket/ge8;->j(III)I
+    invoke-static {v0, v5, v2}, Lcom/huawei/appmarket/le8;->j(III)I
 
     move-result v0
 
@@ -349,7 +349,7 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ge8;->f:[B
+    sget-object v0, Lcom/huawei/appmarket/le8;->f:[B
 
     iput-object v0, p0, Landroidx/media3/exoplayer/audio/n;->m:[B
 

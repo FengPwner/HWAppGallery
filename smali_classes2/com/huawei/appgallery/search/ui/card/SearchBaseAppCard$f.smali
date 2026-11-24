@@ -71,7 +71,7 @@
 
     check-cast v1, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;
 
-    invoke-virtual {v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->J1()Lcom/huawei/appmarket/sb3;
+    invoke-virtual {v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->J1()Lcom/huawei/appmarket/vb3;
 
     move-result-object v1
 
@@ -84,7 +84,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->E1(Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;)Lcom/huawei/appmarket/hj0;
+    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->E1(Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;)Lcom/huawei/appmarket/ij0;
 
     move-result-object v1
 
@@ -92,13 +92,13 @@
 
     iget-object v1, v0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->Q:Lcom/huawei/appmarket/n30;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->E1(Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;)Lcom/huawei/appmarket/hj0;
+    invoke-static {v0}, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->E1(Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;)Lcom/huawei/appmarket/ij0;
 
     move-result-object v2
 
     iget-object v3, v0, Lcom/huawei/appgallery/search/ui/card/SearchBaseAppCard;->g0:Lcom/huawei/appmarket/framework/widget/ExpandableLayout;
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     :cond_1
     :goto_0

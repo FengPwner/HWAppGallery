@@ -64,7 +64,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/oobe/activity/OOBEClickableSpan;->b:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ej5;->c(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/gj5;->c(Landroid/content/Context;)I
 
     move-result v0
 

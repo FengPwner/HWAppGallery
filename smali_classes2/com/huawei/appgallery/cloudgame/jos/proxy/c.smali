@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/mv2;
+.implements Lcom/huawei/appmarket/pv2;
 
 
 # instance fields
@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public final onResult(ILcom/huawei/appmarket/fx2;)V
+.method public final onResult(ILcom/huawei/appmarket/ix2;)V
     .registers 12
 
     .line 1
@@ -51,7 +51,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getGameAuthSign()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getGameAuthSign()Ljava/lang/String;
 
     move-result-object v4
 
@@ -59,7 +59,7 @@
 
     const-string p1, "game login first return, not full data. dropped"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -102,7 +102,7 @@
 
     const-string p1, "playerId"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getPlayerId()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getPlayerId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -110,7 +110,7 @@
 
     const-string p1, "playerSign"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getGameAuthSign()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getGameAuthSign()Ljava/lang/String;
 
     move-result-object v2
 
@@ -118,7 +118,7 @@
 
     const-string p1, "displayName"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getDisplayName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -126,7 +126,7 @@
 
     const-string p1, "playerLevel"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getPlayerLevel()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getPlayerLevel()Ljava/lang/Integer;
 
     move-result-object v2
 
@@ -134,7 +134,7 @@
 
     const-string p1, "ts"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/fx2;->getTs()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ix2;->getTs()Ljava/lang/String;
 
     move-result-object p2
 
@@ -153,7 +153,7 @@
 
     move-result-object p2
 
-    invoke-static {v3, p2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v5, v6, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
@@ -185,7 +185,7 @@
     :catch_0
     const-string p1, "handle result meet a exception"
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

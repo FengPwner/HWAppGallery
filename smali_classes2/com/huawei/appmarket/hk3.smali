@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract p0(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
+.method public abstract X0(Landroid/view/View;)V
 .end method

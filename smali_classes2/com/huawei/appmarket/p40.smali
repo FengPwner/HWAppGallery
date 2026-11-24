@@ -18,7 +18,7 @@
 
 .field private j:Z
 
-.field private k:Lcom/huawei/appmarket/z54;
+.field private k:Lcom/huawei/appmarket/c64;
 
 
 # direct methods
@@ -72,7 +72,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/p40;->k:Lcom/huawei/appmarket/z54;
+    iget-object v0, p0, Lcom/huawei/appmarket/p40;->k:Lcom/huawei/appmarket/c64;
 
     .line 2
     .line 3
@@ -115,7 +115,7 @@
 
     .line 20
     .line 21
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/z54;->Z1(ILjava/lang/String;)Landroid/view/View;
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/c64;->Z1(ILjava/lang/String;)Landroid/view/View;
 
     .line 22
     .line 23
@@ -264,7 +264,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public B()Lcom/huawei/appmarket/n30;
@@ -366,11 +365,11 @@
     return-void
 .end method
 
-.method public final w(Lcom/huawei/appmarket/z54;)V
+.method public final w(Lcom/huawei/appmarket/c64;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/p40;->k:Lcom/huawei/appmarket/z54;
+    iput-object p1, p0, Lcom/huawei/appmarket/p40;->k:Lcom/huawei/appmarket/c64;
 
     return-void
 .end method

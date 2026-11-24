@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ic2;
+.implements Lcom/huawei/appmarket/lc2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ic2<",
+        "Lcom/huawei/appmarket/lc2<",
         "Lcom/huawei/flexiblelayout/data/b;",
         ">;"
     }
@@ -18,10 +18,10 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ic2;
+.field private b:Lcom/huawei/appmarket/lc2;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/ic2<",
+            "Lcom/huawei/appmarket/lc2<",
             "Lcom/huawei/flexiblelayout/data/b;",
             ">;"
         }
@@ -40,19 +40,19 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/ic2;)V
+.method public final a(Lcom/huawei/appmarket/lc2;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ic2<",
+            "Lcom/huawei/appmarket/lc2<",
             "Lcom/huawei/flexiblelayout/data/b;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/ic2;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/lc2;
 
     return-void
 .end method
@@ -61,7 +61,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/ic2;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/lc2;
 
     .line 2
     .line 3
@@ -69,7 +69,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0}, Lcom/huawei/appmarket/ic2;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/lc2;->get()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -243,19 +243,19 @@
     .line 164
 .end method
 
-.method public final getParent()Lcom/huawei/appmarket/ic2;
+.method public final getParent()Lcom/huawei/appmarket/lc2;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/ic2<",
+            "Lcom/huawei/appmarket/lc2<",
             "Lcom/huawei/flexiblelayout/data/b;",
             ">;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/ic2;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/data/k;->b:Lcom/huawei/appmarket/lc2;
 
     return-object v0
 .end method

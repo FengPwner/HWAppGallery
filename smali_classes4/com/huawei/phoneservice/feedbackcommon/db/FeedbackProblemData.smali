@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;
@@ -42,7 +42,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData;->Companion:Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData$a;
 
@@ -84,7 +84,7 @@
 
     :cond_0
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object v0, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -201,7 +201,7 @@
     .line 38
     .line 39
     :cond_1
-    sget-object p0, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p0, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -363,23 +363,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private final isAdd(Ljava/lang/String;)Z
@@ -387,7 +370,7 @@
 
     sget-object v0, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData;->db:Landroid/database/sqlite/SQLiteDatabase;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     filled-new-array {p1}, [Ljava/lang/String;
 
@@ -445,7 +428,7 @@
 
     sget-object v0, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData;->db:Landroid/database/sqlite/SQLiteDatabase;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     filled-new-array {p1}, [Ljava/lang/String;
 
@@ -521,7 +504,7 @@
     move-object v2, v9
 
     :goto_1
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -560,7 +543,7 @@
 
     const-string v0, "db"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "create table if not exists table_feedback_problem(_id INTEGER primary key autoincrement,problemId String);"
 
@@ -599,7 +582,7 @@
 
     const-string v0, "data"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -617,7 +600,7 @@
 
     const-string v1, "data.problemId"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData;->isAdd(Ljava/lang/String;)Z
 
@@ -639,7 +622,7 @@
 
     sget-object p1, Lcom/huawei/phoneservice/feedbackcommon/db/FeedbackProblemData;->db:Landroid/database/sqlite/SQLiteDatabase;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     const-string v1, "table_feedback_problem"
 

@@ -5,7 +5,7 @@
 
 # instance fields
 .field private clientAdInfo:Lcom/huawei/appgallery/splashscreen/impl/server/SplashInquiryAdInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

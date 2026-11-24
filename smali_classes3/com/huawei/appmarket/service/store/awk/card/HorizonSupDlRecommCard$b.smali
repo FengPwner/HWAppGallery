@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/xi4;->d(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+    invoke-static {v0}, Lcom/huawei/appmarket/zi4;->d(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     move-result-object v0
 
@@ -288,7 +288,7 @@
 
     .line 46
     .line 47
-    sget v5, Lcom/huawei/appmarket/xi4;->g:I
+    sget v5, Lcom/huawei/appmarket/zi4;->g:I
 
     .line 48
     .line 49
@@ -513,7 +513,7 @@
 
     .line 146
     :cond_a
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     .line 147
     .line 148
@@ -526,7 +526,7 @@
     .line 151
     .line 152
     .line 153
-    invoke-static {v1}, Lcom/huawei/appmarket/q42;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/u42;->c(Ljava/lang/String;)Z
 
     .line 154
     .line 155
@@ -547,7 +547,7 @@
     move-result-object v1
 
     .line 163
-    invoke-static {v6, v1}, Lcom/huawei/appmarket/xi4;->k(ZLcom/huawei/appmarket/n30;)V
+    invoke-static {v6, v1}, Lcom/huawei/appmarket/zi4;->k(ZLcom/huawei/appmarket/n30;)V
 
     .line 164
     .line 165
@@ -557,7 +557,7 @@
     .line 167
     .line 168
     .line 169
-    invoke-static {}, Lcom/huawei/appmarket/xi4;->g()Lcom/huawei/appmarket/xi4;
+    invoke-static {}, Lcom/huawei/appmarket/zi4;->g()Lcom/huawei/appmarket/zi4;
 
     .line 170
     .line 171
@@ -565,7 +565,7 @@
     move-result-object p1
 
     .line 173
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/xi4;->l(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/zi4;->l(Ljava/lang/String;)V
 
     .line 174
     .line 175
@@ -747,6 +747,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

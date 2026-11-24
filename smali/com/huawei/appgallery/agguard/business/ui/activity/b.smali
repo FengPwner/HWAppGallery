@@ -55,7 +55,7 @@
     const-string v0, "activity not on screen"
 
     :goto_0
-    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -75,7 +75,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/mb;->m0()V
+    invoke-static {}, Lcom/huawei/appmarket/mb;->n0()V
 
     return-void
 

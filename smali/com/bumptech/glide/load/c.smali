@@ -9,11 +9,11 @@
 # instance fields
 .field final synthetic a:Ljava/nio/ByteBuffer;
 
-.field final synthetic b:Lcom/huawei/appmarket/hx;
+.field final synthetic b:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method constructor <init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/ix;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -24,7 +24,7 @@
     .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/c;->a:Ljava/nio/ByteBuffer;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/c;->b:Lcom/huawei/appmarket/hx;
+    iput-object p2, p0, Lcom/bumptech/glide/load/c;->b:Lcom/huawei/appmarket/ix;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,22 +45,22 @@
     iget-object v0, p0, Lcom/bumptech/glide/load/c;->a:Ljava/nio/ByteBuffer;
 
     :try_start_0
-    iget-object v1, p0, Lcom/bumptech/glide/load/c;->b:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/c;->b:Lcom/huawei/appmarket/ix;
 
-    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->a(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/hx;)I
+    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->a(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/ix;)I
 
     move-result p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     return p1
 
     :catchall_0
     move-exception p1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/pf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lcom/huawei/appmarket/qf0;->c(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     throw p1
 .end method

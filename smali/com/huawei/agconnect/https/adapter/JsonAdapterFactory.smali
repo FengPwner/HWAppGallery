@@ -23,7 +23,7 @@
             ">()",
             "Lcom/huawei/agconnect/https/Adapter<",
             "TF;",
-            "Lcom/huawei/appmarket/lr6;",
+            "Lcom/huawei/appmarket/or6;",
             ">;"
         }
     .end annotation
@@ -45,7 +45,7 @@
             "Ljava/lang/Class<",
             "TT;>;)",
             "Lcom/huawei/agconnect/https/Adapter<",
-            "Lcom/huawei/appmarket/xu6;",
+            "Lcom/huawei/appmarket/bv6;",
             "TT;>;"
         }
     .end annotation

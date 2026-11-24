@@ -151,7 +151,7 @@
     double-to-int v9, v1
 
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/mf;->a()Lcom/huawei/appmarket/vs3;
+    invoke-static {}, Lcom/huawei/appmarket/lf;->a()Lcom/huawei/appmarket/xs3;
 
     .line 62
     .line 63
@@ -237,16 +237,16 @@
     .line 102
     .line 103
     .line 104
-    new-instance v1, Lcom/huawei/appmarket/o94$a;
+    new-instance v1, Lcom/huawei/appmarket/q94$a;
 
     .line 105
     .line 106
-    invoke-direct {v1}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 107
     .line 108
     .line 109
-    invoke-virtual {v1, v8}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v1, v8}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 110
     .line 111
@@ -266,21 +266,21 @@
     .line 117
     .line 118
     .line 119
-    invoke-virtual {v1, v10}, Lcom/huawei/appmarket/o94$a;->o(Lcom/huawei/appmarket/uo5;)V
+    invoke-virtual {v1, v10}, Lcom/huawei/appmarket/q94$a;->o(Lcom/huawei/appmarket/vo5;)V
 
     .line 120
     .line 121
     .line 122
-    new-instance v2, Lcom/huawei/appmarket/o94;
+    new-instance v2, Lcom/huawei/appmarket/q94;
 
     .line 123
     .line 124
-    invoke-direct {v2, v1}, Lcom/huawei/appmarket/o94;-><init>(Lcom/huawei/appmarket/o94$a;)V
+    invoke-direct {v2, v1}, Lcom/huawei/appmarket/q94;-><init>(Lcom/huawei/appmarket/q94$a;)V
 
     .line 125
     .line 126
     .line 127
-    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {p1, v0, v2}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 128
     .line 129
@@ -508,8 +508,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method private getHuaziTitleUrl()Ljava/lang/String;
@@ -554,7 +552,7 @@
 
     const-string v0, "removeView Exception"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -660,7 +658,7 @@
 
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/titleframe/title/AbsTitle;->activity:Landroid/app/Activity;
 
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v3
 

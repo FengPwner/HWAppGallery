@@ -484,7 +484,7 @@
     const/4 p1, 0x6
 
     .line 201
-    invoke-static {p4, v5, p1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p4, v5, p1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 202
     .line 203

@@ -1,8 +1,14 @@
-.class public interface abstract Lcom/huawei/appmarket/rn3;
-.super Ljava/lang/Object;
+.class public abstract Lcom/huawei/appmarket/rn3;
+.super Lcom/huawei/appgallery/jsonkit/api/JsonBean;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract m()Z
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;-><init>()V
+
+    return-void
 .end method

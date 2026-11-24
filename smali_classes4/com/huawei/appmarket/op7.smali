@@ -1,5 +1,5 @@
 .class Lcom/huawei/appmarket/op7;
-.super Lcom/huawei/appmarket/np7;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -7,8 +7,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/np7;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

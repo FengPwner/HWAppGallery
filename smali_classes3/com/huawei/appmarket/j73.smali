@@ -1,91 +1,84 @@
 .class public final Lcom/huawei/appmarket/j73;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ai;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/j73$a;
+        Lcom/huawei/appmarket/j73$c;,
+        Lcom/huawei/appmarket/j73$b;
     }
 .end annotation
 
 
-# static fields
-.field private static b:Lcom/huawei/appmarket/j73;
-
-
-# instance fields
-.field private a:Lcom/huawei/appmarket/j73$a;
-
-
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Landroid/app/Activity;)V
+    .registers 2
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ai;-><init>(Landroid/app/Activity;)V
 
     return-void
 .end method
 
-.method public static declared-synchronized b()Lcom/huawei/appmarket/j73;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/j73;
-
-    monitor-enter v0
-
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/j73;->b:Lcom/huawei/appmarket/j73;
-
-    if-nez v1, :cond_0
-
-    new-instance v1, Lcom/huawei/appmarket/j73;
-
-    invoke-direct {v1}, Lcom/huawei/appmarket/j73;-><init>()V
-
-    sput-object v1, Lcom/huawei/appmarket/j73;->b:Lcom/huawei/appmarket/j73;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    sget-object v1, Lcom/huawei/appmarket/j73;->b:Lcom/huawei/appmarket/j73;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit v0
-
-    return-object v1
-
-    :goto_1
-    monitor-exit v0
-
-    throw v1
-.end method
-
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/j73$a;
-    .registers 2
+.method public final a(Lcom/huawei/appmarket/ai$a;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/j73;->a:Lcom/huawei/appmarket/j73$a;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
-    return-object v0
-.end method
+    move-result v0
 
-.method public final c(Lcom/huawei/appmarket/j73$a;)V
-    .registers 2
+    if-eqz v0, :cond_0
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/j73;->a:Lcom/huawei/appmarket/j73$a;
+    invoke-static {}, Lcom/huawei/appmarket/s13;->h()Lcom/huawei/appmarket/s13;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/huawei/appmarket/ai;->a:Landroid/app/Activity;
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/s13;->g(Landroid/app/Activity;Z)Lcom/huawei/appmarket/r83;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ax7;->s()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ai$a;->b()V
+
+    return-void
+
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/f33;->a()Lcom/huawei/appmarket/vr3;
+
+    move-result-object v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "AgreementCheckFlow"
+
+    const-string v1, "grsProcessor == null"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ai$a;->b()V
+
+    return-void
+
+    :cond_1
+    new-instance v1, Lcom/huawei/appmarket/j73$a;
+
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/j73$a;-><init>(Lcom/huawei/appmarket/j73;Lcom/huawei/appmarket/ai$a;)V
+
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/vr3;->f(Lcom/huawei/appmarket/yr3;)V
 
     return-void
 .end method

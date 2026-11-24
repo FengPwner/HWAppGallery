@@ -10,11 +10,11 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;)V
 
     invoke-virtual {p3}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
@@ -27,11 +27,11 @@
     return-void
 .end method
 
-.method public static synthetic b(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic b(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->lambda$complainAddInfo$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->lambda$complainAddInfo$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
     return-void
 .end method
 
-.method private checkComplain(Lcom/huawei/appmarket/op0;)V
+.method private checkComplain(Lcom/huawei/appmarket/pp0;)V
     .registers 4
 
     .line 1
@@ -57,7 +57,7 @@
 
     const/4 v0, 0x1
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     return-void
 
@@ -66,18 +66,18 @@
 
     const-string v1, "is not complain, request white list"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/q30;->requestWhiteList(Lcom/huawei/appmarket/op0;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/q30;->requestWhiteList(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
 
-.method public static synthetic d(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Lcom/huawei/appmarket/hv7;)V
+.method public static synthetic d(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Lcom/huawei/appmarket/nv7;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->lambda$refreshAccessToken$3(Lcom/huawei/appmarket/hv7;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->lambda$refreshAccessToken$3(Lcom/huawei/appmarket/nv7;)V
 
     return-void
 .end method
@@ -109,11 +109,11 @@
     return-void
 .end method
 
-.method private lambda$complainAddInfo$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+.method private lambda$complainAddInfo$0(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
     .registers 6
 
     .line 1
-    invoke-virtual {p3}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -145,7 +145,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -160,7 +160,7 @@
     .line 24
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     .line 25
     .line 26
@@ -168,7 +168,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->B()Lcom/huawei/appmarket/g64;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->B()Lcom/huawei/appmarket/j64;
 
     .line 29
     .line 30
@@ -188,7 +188,7 @@
     move-result-object v0
 
     .line 38
-    invoke-virtual {p3}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -213,7 +213,7 @@
     move-result-object p3
 
     .line 51
-    invoke-static {v1, p3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -243,7 +243,7 @@
 
     .line 63
     .line 64
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -551,29 +551,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method private synthetic lambda$complainAddInfo$1(Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;Z)V
@@ -585,7 +562,7 @@
 
     const-string p2, "checkComplain false"
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
@@ -598,7 +575,7 @@
 
     move-result-object v1
 
-    invoke-static {p3, v1}, Lcom/huawei/appmarket/yn4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p3, v1}, Lcom/huawei/appmarket/bo4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p3
 
@@ -606,7 +583,7 @@
 
     const-string p2, "atTask null"
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
@@ -617,7 +594,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/gy0;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
 
-    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p3, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -629,16 +606,16 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/gy0;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;Ljava/util/concurrent/CountDownLatch;[Ljava/lang/String;)V
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->checkComplain(Lcom/huawei/appmarket/op0;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->checkComplain(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
 
-.method private synthetic lambda$refreshAccessToken$3(Lcom/huawei/appmarket/hv7;)V
+.method private synthetic lambda$refreshAccessToken$3(Lcom/huawei/appmarket/nv7;)V
     .registers 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -654,7 +631,7 @@
 
     const-string v0, "accessToken null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -691,7 +668,7 @@
 
     const-string p1, "refreshAccessToken not form complainCenter"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -702,7 +679,7 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/yn4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/bo4;->a(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -710,7 +687,7 @@
 
     const-string p1, "atTask null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -719,7 +696,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/hy0;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method
@@ -731,7 +708,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/hy0;-><init>(Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;)V
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->checkComplain(Lcom/huawei/appmarket/op0;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/service/webview/js/additional/ComplainJSInterface;->checkComplain(Lcom/huawei/appmarket/pp0;)V
 
     return-void
 .end method
@@ -752,12 +729,12 @@
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     .line 9
     .line 10
@@ -772,7 +749,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -785,7 +762,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->B()Lcom/huawei/appmarket/g64;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;->B()Lcom/huawei/appmarket/j64;
 
     .line 22
     .line 23
@@ -805,7 +782,7 @@
 
     .line 30
     .line 31
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -834,15 +811,15 @@
 
     .line 44
     .line 45
-    new-instance v3, Lcom/huawei/appmarket/xz;
+    new-instance v3, Lcom/huawei/appmarket/yz;
 
     .line 46
     .line 47
-    const/16 v4, 0x11
+    const/16 v4, 0x12
 
     .line 48
     .line 49
-    invoke-direct {v3, v4, p0, v0, v1}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v3, v4, p0, v0, v1}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 50
     .line 51
@@ -982,7 +959,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     .line 2
     .line 3
@@ -1001,7 +978,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -1017,7 +994,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->s0()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->t0()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -1050,7 +1027,7 @@
 
     .line 33
     :cond_1
-    invoke-static {v2}, Lcom/huawei/appmarket/jn8;->i(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/pn8;->i(Ljava/lang/String;)Z
 
     .line 34
     .line 35
@@ -1198,15 +1175,15 @@
 
     const-string v1, "user refreshAccessToken"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/q30;->mHandler:Landroid/os/Handler;
 
-    new-instance v1, Lcom/huawei/appmarket/uh5;
+    new-instance v1, Lcom/huawei/appmarket/pr;
 
-    const/4 v2, 0x6
+    const/16 v2, 0x8
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/uh5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/pr;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

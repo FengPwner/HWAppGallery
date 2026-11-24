@@ -1,5 +1,5 @@
 .class final Lcom/huawei/qcardsupport/cards/QCardData$a;
-.super Lcom/huawei/appmarket/rj0;
+.super Lcom/huawei/appmarket/sj0;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
 .method protected constructor <init>(Lcom/huawei/flexiblelayout/data/b;)V
     .registers 2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/rj0;-><init>(Lcom/huawei/flexiblelayout/data/b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/sj0;-><init>(Lcom/huawei/flexiblelayout/data/b;)V
 
     return-void
 .end method
@@ -28,7 +28,7 @@
 .method public final getType()Ljava/lang/String;
     .registers 2
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/rj0;->d()Lcom/huawei/flexiblelayout/data/b;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/sj0;->c()Lcom/huawei/flexiblelayout/data/b;
 
     move-result-object v0
 

@@ -23,9 +23,9 @@
 
     const-string v2, "space clean trash file timeout"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/fi7;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/li7;->e()V
 
     invoke-static {}, Lcom/huawei/appmarket/cc;->a()Lcom/huawei/appmarket/cc;
 
@@ -35,7 +35,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
     return-void
 .end method

@@ -50,7 +50,7 @@
     move-result-object v0
 
     .line 7
-    sget v1, Lcom/huawei/appmarket/pe8;->d:I
+    sget v1, Lcom/huawei/appmarket/ue8;->d:I
 
     .line 8
     .line 9
@@ -150,7 +150,7 @@
     move-result-object v0
 
     .line 53
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55

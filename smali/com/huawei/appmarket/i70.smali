@@ -20,16 +20,16 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/i70$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/i70$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/qk4;I)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tk4;I)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/tc;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/qk4;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/tc;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tk4;I)V
 
     return-void
 .end method
@@ -42,7 +42,7 @@
     .line 1
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "BatchProcessItemsAdapter"
 
@@ -65,36 +65,36 @@
 
     move-result-object v1
 
-    instance-of v2, p1, Lcom/huawei/appmarket/f63;
+    instance-of v2, p1, Lcom/huawei/appmarket/i63;
 
     if-eqz v2, :cond_1
 
-    check-cast p1, Lcom/huawei/appmarket/f63;
+    check-cast p1, Lcom/huawei/appmarket/i63;
 
     const-string p2, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.AgGuardHeaderItem"
 
-    invoke-static {v1, p2}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/huawei/appmarket/qc;
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/f63;->y(Lcom/huawei/appmarket/qc;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/i63;->y(Lcom/huawei/appmarket/qc;)V
 
     goto :goto_0
 
     :cond_1
-    instance-of v2, p1, Lcom/huawei/appmarket/x23;
+    instance-of v2, p1, Lcom/huawei/appmarket/a33;
 
     if-eqz v2, :cond_2
 
-    check-cast p1, Lcom/huawei/appmarket/x23;
+    check-cast p1, Lcom/huawei/appmarket/a33;
 
     const-string v0, "null cannot be cast to non-null type com.huawei.appgallery.agguard.business.ui.bean.AgGuardGroupItem"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/huawei/appmarket/oc;
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/x23;->H(Lcom/huawei/appmarket/oc;I)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/a33;->H(Lcom/huawei/appmarket/oc;I)V
 
     goto :goto_0
 
@@ -103,7 +103,7 @@
 
     const-string p2, "onBindViewHolder unknown ViewHolder"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -114,7 +114,7 @@
 
     const-string p2, "out of bounds"
 
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -184,7 +184,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -198,7 +198,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 40
     .line 41
@@ -218,12 +218,12 @@
 
     .line 48
     .line 49
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
     .line 51
     .line 52
-    iget-object v0, p0, Lcom/huawei/appmarket/tc;->g:Lcom/huawei/appmarket/qk4;
+    iget-object v0, p0, Lcom/huawei/appmarket/tc;->g:Lcom/huawei/appmarket/tk4;
 
     .line 53
     .line 54
@@ -231,7 +231,7 @@
 
     .line 55
     .line 56
-    invoke-direct {p2, v1, p1, v0, v2}, Lcom/huawei/appmarket/g70;-><init>(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/qk4;I)V
+    invoke-direct {p2, v1, p1, v0, v2}, Lcom/huawei/appmarket/g70;-><init>(Landroid/content/Context;Landroid/view/View;Lcom/huawei/appmarket/tk4;I)V
 
     .line 57
     .line 58
@@ -275,7 +275,7 @@
     .line 76
     .line 77
     :goto_0
-    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, p2, p1, v0}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 78
     .line 79
@@ -283,11 +283,11 @@
     move-result-object p1
 
     .line 81
-    new-instance p2, Lcom/huawei/appmarket/f63;
+    new-instance p2, Lcom/huawei/appmarket/i63;
 
     .line 82
     .line 83
-    invoke-direct {p2, p1}, Lcom/huawei/appmarket/f63;-><init>(Landroid/view/View;)V
+    invoke-direct {p2, p1}, Lcom/huawei/appmarket/i63;-><init>(Landroid/view/View;)V
 
     .line 84
     .line 85
@@ -366,7 +366,7 @@
     .line 1
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 
@@ -388,7 +388,7 @@
     .line 1
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$h;->onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$d0;)V
 

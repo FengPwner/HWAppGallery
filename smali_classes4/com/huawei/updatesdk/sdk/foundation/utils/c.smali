@@ -364,31 +364,31 @@
 
     const-string v1, "android.software.file_based_encryption"
 
-    const-string v2, "v"
+    const-string/jumbo v2, "v"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "android.software.freeform_window_management"
 
-    const-string v2, "w"
+    const-string/jumbo v2, "w"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "android.software.home_screen"
 
-    const-string v2, "x"
+    const-string/jumbo v2, "x"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "android.software.input_methods"
 
-    const-string v2, "y"
+    const-string/jumbo v2, "y"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "android.software.ipsec_tunnels"
 
-    const-string v2, "z"
+    const-string/jumbo v2, "z"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

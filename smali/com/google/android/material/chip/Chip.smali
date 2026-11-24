@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/google/android/material/chip/b$a;
-.implements Lcom/huawei/appmarket/ic7;
-.implements Lcom/huawei/appmarket/e45;
+.implements Lcom/huawei/appmarket/nc7;
+.implements Lcom/huawei/appmarket/h45;
 
 
 # annotations
@@ -19,8 +19,8 @@
     value = {
         "Landroidx/appcompat/widget/AppCompatCheckBox;",
         "Lcom/google/android/material/chip/b$a;",
-        "Lcom/huawei/appmarket/ic7;",
-        "Lcom/huawei/appmarket/e45<",
+        "Lcom/huawei/appmarket/nc7;",
+        "Lcom/huawei/appmarket/h45<",
         "Lcom/google/android/material/chip/Chip;",
         ">;"
     }
@@ -46,10 +46,10 @@
 
 .field private j:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
-.field private k:Lcom/huawei/appmarket/e45$a;
+.field private k:Lcom/huawei/appmarket/h45$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/e45$a<",
+            "Lcom/huawei/appmarket/h45$a<",
             "Lcom/google/android/material/chip/Chip;",
             ">;"
         }
@@ -80,7 +80,7 @@
 
 .field private final w:Landroid/graphics/RectF;
 
-.field private final x:Lcom/huawei/appmarket/zw7;
+.field private final x:Lcom/huawei/appmarket/ex7;
 
 
 # direct methods
@@ -139,7 +139,7 @@
 
     const v0, 0x7f130619
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -161,7 +161,7 @@
 
     invoke-direct {p1, p0}, Lcom/google/android/material/chip/Chip$a;-><init>(Lcom/google/android/material/chip/Chip;)V
 
-    iput-object p1, p0, Lcom/google/android/material/chip/Chip;->x:Lcom/huawei/appmarket/zw7;
+    iput-object p1, p0, Lcom/google/android/material/chip/Chip;->x:Lcom/huawei/appmarket/ex7;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -279,7 +279,7 @@
 
     move-result-object v8
 
-    sget-object v9, Lcom/huawei/appmarket/ie6;->i:[I
+    sget-object v9, Lcom/huawei/appmarket/ke6;->i:[I
 
     const v4, 0x7f130619
 
@@ -296,7 +296,7 @@
     move v3, p3
 
     .line 5
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
@@ -314,7 +314,7 @@
 
     const/16 v2, 0x30
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     move-result v1
 
@@ -347,11 +347,11 @@
     .line 6
     invoke-virtual {p0, v8}, Lcom/google/android/material/chip/Chip;->setChipDrawable(Lcom/google/android/material/chip/b;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->o(Landroid/view/View;)F
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->o(Landroid/view/View;)F
 
     move-result v0
 
-    invoke-virtual {v8, v0}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v8, v0}, Lcom/huawei/appmarket/t45;->G(F)V
 
     const v4, 0x7f130619
 
@@ -365,7 +365,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -377,7 +377,7 @@
 
     const/4 p3, 0x2
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -455,7 +455,7 @@
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setMinHeight(I)V
 
     :cond_6
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p1
 
@@ -521,11 +521,11 @@
     return-object p0
 .end method
 
-.method static synthetic c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/e45$a;
+.method static synthetic c(Lcom/google/android/material/chip/Chip;)Lcom/huawei/appmarket/h45$a;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/google/android/material/chip/Chip;->k:Lcom/huawei/appmarket/e45$a;
+    iget-object p0, p0, Lcom/google/android/material/chip/Chip;->k:Lcom/huawei/appmarket/h45$a;
 
     return-object p0
 .end method
@@ -840,6 +840,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private getCloseIconTouchBoundsInt()Landroid/graphics/Rect;
@@ -872,7 +873,7 @@
     return-object v4
 .end method
 
-.method private getTextAppearance()Lcom/huawei/appmarket/xw7;
+.method private getTextAppearance()Lcom/huawei/appmarket/cx7;
     .registers 2
 
     .line 1
@@ -880,7 +881,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->B0()Lcom/huawei/appmarket/xw7;
+    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->B0()Lcom/huawei/appmarket/cx7;
 
     move-result-object v0
 
@@ -970,7 +971,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 24
     .line 25
@@ -990,7 +991,7 @@
     const/4 v0, 0x0
 
     .line 31
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 32
     .line 33
@@ -1102,6 +1103,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private p()V
@@ -1116,7 +1118,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/yw6;->b(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
+    invoke-static {v1}, Lcom/huawei/appmarket/cx6;->b(Landroid/content/res/ColorStateList;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -1136,7 +1138,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->h:Landroid/graphics/drawable/RippleDrawable;
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     invoke-direct {p0}, Lcom/google/android/material/chip/Chip;->q()V
 
@@ -1239,7 +1241,7 @@
 
     move-result v3
 
-    invoke-static {p0, v1, v2, v0, v3}, Lcom/huawei/appmarket/ei8;->s0(Landroid/view/View;IIII)V
+    invoke-static {p0, v1, v2, v0, v3}, Lcom/huawei/appmarket/ki8;->s0(Landroid/view/View;IIII)V
 
     :cond_2
     :goto_0
@@ -1265,7 +1267,7 @@
     iput-object v1, v0, Landroid/text/TextPaint;->drawableState:[I
 
     :cond_0
-    invoke-direct {p0}, Lcom/google/android/material/chip/Chip;->getTextAppearance()Lcom/huawei/appmarket/xw7;
+    invoke-direct {p0}, Lcom/google/android/material/chip/Chip;->getTextAppearance()Lcom/huawei/appmarket/cx7;
 
     move-result-object v1
 
@@ -1275,9 +1277,9 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/google/android/material/chip/Chip;->x:Lcom/huawei/appmarket/zw7;
+    iget-object v3, p0, Lcom/google/android/material/chip/Chip;->x:Lcom/huawei/appmarket/ex7;
 
-    invoke-virtual {v1, v2, v0, v3}, Lcom/huawei/appmarket/xw7;->l(Landroid/content/Context;Landroid/text/TextPaint;Lcom/huawei/appmarket/zw7;)V
+    invoke-virtual {v1, v2, v0, v3}, Lcom/huawei/appmarket/cx7;->l(Landroid/content/Context;Landroid/text/TextPaint;Lcom/huawei/appmarket/ex7;)V
 
     :cond_1
     return-void
@@ -1346,7 +1348,7 @@
     :cond_0
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->t:Lcom/google/android/material/chip/Chip$c;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/v42;->n(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/z42;->n(Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -1389,13 +1391,13 @@
     :cond_0
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->t:Lcom/google/android/material/chip/Chip$c;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/v42;->o(Landroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/z42;->o(Landroid/view/KeyEvent;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/v42;->q()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/z42;->q()I
 
     move-result v0
 
@@ -1672,6 +1674,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getAccessibilityClassName()Ljava/lang/CharSequence;
@@ -2161,7 +2164,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->t:Lcom/google/android/material/chip/Chip$c;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/v42;->q()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/z42;->q()I
 
     move-result v1
 
@@ -2169,7 +2172,7 @@
 
     if-eq v1, v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/v42;->p()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/z42;->p()I
 
     move-result v0
 
@@ -2191,7 +2194,7 @@
     return-void
 .end method
 
-.method public getHideMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getHideMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
@@ -2199,7 +2202,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->v0()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->v0()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
@@ -2272,20 +2275,20 @@
     return-object v0
 .end method
 
-.method public getShapeAppearanceModel()Lcom/huawei/appmarket/nb7;
+.method public getShapeAppearanceModel()Lcom/huawei/appmarket/sb7;
     .registers 2
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->f:Lcom/google/android/material/chip/b;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->getShapeAppearanceModel()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->getShapeAppearanceModel()Lcom/huawei/appmarket/sb7;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public getShowMotionSpec()Lcom/huawei/appmarket/nb5;
+.method public getShowMotionSpec()Lcom/huawei/appmarket/qb5;
     .registers 2
 
     .line 1
@@ -2293,7 +2296,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->z0()Lcom/huawei/appmarket/nb5;
+    invoke-virtual {v0}, Lcom/google/android/material/chip/b;->z0()Lcom/huawei/appmarket/qb5;
 
     move-result-object v0
 
@@ -2405,7 +2408,7 @@
     .line 26
     .line 27
     .line 28
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 29
     .line 30
@@ -2418,7 +2421,7 @@
 
     .line 34
     :cond_0
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 35
     .line 36
@@ -2526,7 +2529,7 @@
     .line 85
     .line 86
     .line 87
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 88
     .line 89
@@ -2539,7 +2542,7 @@
 
     .line 93
     :cond_3
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 94
     .line 95
@@ -2650,7 +2653,7 @@
 
     .line 142
     .line 143
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 144
     .line 145
@@ -2725,7 +2728,7 @@
 
     .line 178
     .line 179
-    sget p1, Lcom/huawei/appmarket/yw6;->f:I
+    sget p1, Lcom/huawei/appmarket/cx6;->f:I
 
     .line 180
     .line 181
@@ -2973,7 +2976,7 @@
 
     iget-object v1, p0, Lcom/google/android/material/chip/Chip;->t:Lcom/google/android/material/chip/Chip$c;
 
-    invoke-virtual {v1, v2, v2}, Lcom/huawei/appmarket/v42;->D(II)V
+    invoke-virtual {v1, v2, v2}, Lcom/huawei/appmarket/z42;->D(II)V
 
     :cond_1
     return v0
@@ -2986,7 +2989,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->f:Lcom/google/android/material/chip/b;
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/s45;->d(Landroid/view/View;Lcom/huawei/appmarket/q45;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/v45;->d(Landroid/view/View;Lcom/huawei/appmarket/t45;)V
 
     return-void
 .end method
@@ -3036,7 +3039,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->t:Lcom/google/android/material/chip/Chip$c;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/v42;->w(ZILandroid/graphics/Rect;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/z42;->w(ZILandroid/graphics/Rect;)V
 
     :cond_0
     return-void
@@ -3599,7 +3602,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/xy;->d(Landroid/content/Context;)Landroid/view/PointerIcon;
+    invoke-static {p1}, Lcom/huawei/appmarket/yy;->d(Landroid/content/Context;)Landroid/view/PointerIcon;
 
     move-result-object p1
 
@@ -4855,7 +4858,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
     :cond_0
     return-void
@@ -4930,7 +4933,7 @@
     return-void
 .end method
 
-.method public setHideMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setHideMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
@@ -4938,7 +4941,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->F1(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->F1(Lcom/huawei/appmarket/qb5;)V
 
     :cond_0
     return-void
@@ -5009,19 +5012,19 @@
     return-void
 .end method
 
-.method public setInternalOnCheckedChangeListener(Lcom/huawei/appmarket/e45$a;)V
+.method public setInternalOnCheckedChangeListener(Lcom/huawei/appmarket/h45$a;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/e45$a<",
+            "Lcom/huawei/appmarket/h45$a<",
             "Lcom/google/android/material/chip/Chip;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/material/chip/Chip;->k:Lcom/huawei/appmarket/e45$a;
+    iput-object p1, p0, Lcom/google/android/material/chip/Chip;->k:Lcom/huawei/appmarket/h45$a;
 
     return-void
 .end method
@@ -5184,18 +5187,18 @@
     return-void
 .end method
 
-.method public setShapeAppearanceModel(Lcom/huawei/appmarket/nb7;)V
+.method public setShapeAppearanceModel(Lcom/huawei/appmarket/sb7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->f:Lcom/google/android/material/chip/b;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->setShapeAppearanceModel(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->setShapeAppearanceModel(Lcom/huawei/appmarket/sb7;)V
 
     return-void
 .end method
 
-.method public setShowMotionSpec(Lcom/huawei/appmarket/nb5;)V
+.method public setShowMotionSpec(Lcom/huawei/appmarket/qb5;)V
     .registers 3
 
     .line 1
@@ -5203,7 +5206,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->P1(Lcom/huawei/appmarket/nb5;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->P1(Lcom/huawei/appmarket/qb5;)V
 
     :cond_0
     return-void
@@ -5318,7 +5321,7 @@
     return-void
 .end method
 
-.method public setTextAppearance(Lcom/huawei/appmarket/xw7;)V
+.method public setTextAppearance(Lcom/huawei/appmarket/cx7;)V
     .registers 3
 
     .line 3
@@ -5326,7 +5329,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->S1(Lcom/huawei/appmarket/xw7;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/chip/b;->S1(Lcom/huawei/appmarket/cx7;)V
 
     :cond_0
     invoke-direct {p0}, Lcom/google/android/material/chip/Chip;->r()V

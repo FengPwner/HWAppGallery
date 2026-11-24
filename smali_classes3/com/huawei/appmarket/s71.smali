@@ -158,12 +158,12 @@
     return-object p1
 .end method
 
-.method public final g()Lcom/huawei/appmarket/hv7;
+.method public final g()Lcom/huawei/appmarket/nv7;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appmarket/s71;",
             ">;"
         }
@@ -178,17 +178,17 @@
 
     check-cast v0, Lcom/huawei/hmf/orb/tbis/type/TaskRef;
 
-    new-instance v1, Lcom/huawei/appmarket/nv7;
+    new-instance v1, Lcom/huawei/appmarket/tv7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nv7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tv7;-><init>()V
 
     new-instance v2, Lcom/huawei/appmarket/s71$a;
 
-    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/s71$a;-><init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/s71$a;-><init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/tv7;)V
 
     invoke-virtual {v0, v2}, Lcom/huawei/hmf/orb/tbis/type/TaskRef;->addListener(Lcom/huawei/hmf/orb/tbis/result/TBResult$Callback;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nv7;->getTask()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/tv7;->getTask()Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -200,7 +200,7 @@
     return-object v0
 .end method
 
-.method public final h()Lcom/huawei/appmarket/kw7;
+.method public final h()Lcom/huawei/appmarket/qw7;
     .registers 4
 
     .line 1
@@ -212,17 +212,17 @@
 
     check-cast v0, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;
 
-    new-instance v1, Lcom/huawei/appmarket/lw7;
+    new-instance v1, Lcom/huawei/appmarket/rw7;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/lw7;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/rw7;-><init>()V
 
     new-instance v2, Lcom/huawei/appmarket/t71;
 
-    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/t71;-><init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/lw7;)V
+    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/t71;-><init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/rw7;)V
 
-    invoke-virtual {v0, v2}, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;->subscribe(Lcom/huawei/hmf/orb/tbis/result/TBResult$Callback;)Lcom/huawei/appmarket/aq1;
+    invoke-virtual {v0, v2}, Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;->subscribe(Lcom/huawei/hmf/orb/tbis/result/TBResult$Callback;)Lcom/huawei/appmarket/dq1;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lw7;->c()Lcom/huawei/appmarket/kw7;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/rw7;->c()Lcom/huawei/appmarket/qw7;
 
     move-result-object v0
 

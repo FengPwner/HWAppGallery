@@ -83,7 +83,7 @@
     :cond_1
     invoke-static {v0, v1}, Lcom/huawei/appmarket/service/recommendfa/card/FARecommendBodyCard;->p(Lcom/huawei/appmarket/service/recommendfa/card/FARecommendBodyCard;Z)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pa2;->isReady()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sa2;->isReady()Z
 
     move-result v1
 

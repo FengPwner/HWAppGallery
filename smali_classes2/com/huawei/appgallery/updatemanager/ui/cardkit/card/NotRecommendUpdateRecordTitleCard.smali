@@ -65,7 +65,7 @@
 
     .line 13
     .line 14
-    const-class v1, Lcom/huawei/appmarket/e54;
+    const-class v1, Lcom/huawei/appmarket/h54;
 
     .line 15
     .line 16
@@ -114,7 +114,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -122,11 +122,11 @@
     move-result-object v5
 
     .line 43
-    check-cast v5, Lcom/huawei/appmarket/e54;
+    check-cast v5, Lcom/huawei/appmarket/h54;
 
     .line 44
     .line 45
-    invoke-interface {v5, v3}, Lcom/huawei/appmarket/e54;->K(Z)I
+    invoke-interface {v5, v3}, Lcom/huawei/appmarket/h54;->K(Z)I
 
     .line 46
     .line 47
@@ -168,7 +168,7 @@
 
     .line 66
     :cond_0
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 67
     .line 68
@@ -180,7 +180,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {p1, v0, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -219,7 +219,7 @@
 
     .line 91
     .line 92
-    invoke-static {v1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 93
     .line 94
@@ -227,11 +227,11 @@
     move-result-object v0
 
     .line 96
-    check-cast v0, Lcom/huawei/appmarket/e54;
+    check-cast v0, Lcom/huawei/appmarket/h54;
 
     .line 97
     .line 98
-    invoke-interface {v0, v3, v3}, Lcom/huawei/appmarket/e54;->i(IZ)Ljava/util/ArrayList;
+    invoke-interface {v0, v3, v3}, Lcom/huawei/appmarket/h54;->i(IZ)Ljava/util/ArrayList;
 
     .line 99
     .line 100
@@ -239,7 +239,7 @@
     move-result-object v0
 
     .line 102
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 103
     .line 104
@@ -284,7 +284,7 @@
 
     .line 123
     .line 124
-    invoke-static {v1}, Lcom/huawei/appmarket/fz5;->c(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/hz5;->c(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 125
     .line 126
@@ -300,7 +300,7 @@
 
     .line 131
     :cond_2
-    invoke-static {v1}, Lcom/huawei/appmarket/gu2;->e(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/ju2;->e(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
 
     .line 132
     .line 133

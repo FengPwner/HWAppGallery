@@ -46,7 +46,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppCardBean;->list_:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -100,7 +100,7 @@
     :cond_2
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/bean/MultiLineAppCardBean;->list_:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p1
 

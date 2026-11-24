@@ -23,7 +23,7 @@
 .method public final run()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/fi7;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/li7;->e()V
 
     const v0, 0x7f120156
 
@@ -35,19 +35,19 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ci7;->g(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ii7;->g(I)V
 
     invoke-static {}, Lcom/huawei/appmarket/cc;->a()Lcom/huawei/appmarket/cc;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cc;->d()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cc;->e()V
 
     return-void
 .end method

@@ -1,21 +1,25 @@
-.class final Lcom/huawei/appmarket/yp2;
+.class public final Lcom/huawei/appmarket/yp2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/View$OnClickListener;
-
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/cq2;
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/Integer;
+
+.field private c:Ljava/lang/Integer;
+
+.field private d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/Integer;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/cq2;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->b:Lcom/huawei/appmarket/cq2;
+.method public constructor <init>()V
+    .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -24,13 +28,110 @@
 
 
 # virtual methods
-.method public final onClick(Landroid/view/View;)V
+.method public final a()Ljava/lang/Integer;
     .registers 2
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/yp2;->b:Lcom/huawei/appmarket/cq2;
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->f:Ljava/lang/Integer;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/cq2;->G(Lcom/huawei/appmarket/cq2;)V
+    return-object v0
+.end method
+
+.method public final b()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/lang/Integer;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->c:Ljava/lang/Integer;
+
+    return-object v0
+.end method
+
+.method public final d()Ljava/lang/Integer;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->b:Ljava/lang/Integer;
+
+    return-object v0
+.end method
+
+.method public final e()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->d:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final f()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/yp2;->e:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final g(Ljava/lang/Integer;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->f:Ljava/lang/Integer;
+
+    return-void
+.end method
+
+.method public final h(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final i(Ljava/lang/Integer;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->c:Ljava/lang/Integer;
+
+    return-void
+.end method
+
+.method public final j(Ljava/lang/Integer;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->b:Ljava/lang/Integer;
+
+    return-void
+.end method
+
+.method public final k(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->d:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/yp2;->e:Ljava/lang/String;
 
     return-void
 .end method

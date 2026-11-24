@@ -133,12 +133,12 @@
     return-void
 .end method
 
-.method protected final U1(Lcom/huawei/appmarket/nb3;)V
+.method protected final U1(Lcom/huawei/appmarket/qb3;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -150,14 +150,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/nb3;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/qb3;)V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->K:Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/nb3;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/qb3;)V
 
     :cond_1
     return-void
@@ -174,7 +174,7 @@
     return p0
 .end method
 
-.method public Z(Lcom/huawei/appmarket/ak0;)V
+.method public Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -192,16 +192,16 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->K:Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizonHomeDlItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppSmallItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/HorizontalAppSmallItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :goto_0
     return-void
@@ -225,11 +225,11 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     move-result v2
 
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v0
 

@@ -68,14 +68,14 @@
 
 
 # virtual methods
-.method public getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/hv7;
+.method public getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hianalytics/i0;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/hianalytics/t0;",
             ">;"
         }
@@ -109,7 +109,7 @@
 
     invoke-direct {v1, v2, p1}, Lcom/huawei/hianalytics/kit/HiAnalyticsTaskApiCall;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
     :try_end_0

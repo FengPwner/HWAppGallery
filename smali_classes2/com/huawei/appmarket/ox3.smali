@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract prepareFa(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;)Lcom/huawei/appmarket/en6;
+.method public abstract d()Ljava/util/ArrayList;
 .end method

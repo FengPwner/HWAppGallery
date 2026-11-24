@@ -32,7 +32,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/a;->c:Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->z6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->A6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     move-result-object v1
 
@@ -40,16 +40,16 @@
 
     if-nez v1, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v0, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     const-string v1, "listView is null"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->A6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->B6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    sget-object v0, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v0, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

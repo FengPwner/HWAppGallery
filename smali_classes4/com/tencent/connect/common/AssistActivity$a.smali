@@ -52,7 +52,7 @@
 
     const-string v1, "-->finish by timeout"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/dz6;->j(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/hz6;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 

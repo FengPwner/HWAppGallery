@@ -242,6 +242,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final b(I)V
@@ -431,7 +432,7 @@
 
     .line 80
     .line 81
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 82
     .line 83

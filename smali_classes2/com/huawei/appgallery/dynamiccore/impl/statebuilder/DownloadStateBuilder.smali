@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h34;
+.implements Lcom/huawei/appmarket/j34;
 .implements Lcom/huawei/appmarket/h81;
 
 
@@ -273,7 +273,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 

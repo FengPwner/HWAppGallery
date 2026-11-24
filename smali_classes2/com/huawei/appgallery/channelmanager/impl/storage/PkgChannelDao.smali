@@ -34,7 +34,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/ca1;)V
+.method public constructor <init>(Lcom/huawei/appmarket/da1;)V
     .registers 5
 
     .line 2
@@ -50,7 +50,7 @@
 
     const-class v2, Lcom/huawei/appgallery/channelmanager/impl/storage/PkgChannelDao$PkgChannel;
 
-    invoke-direct {p0, v0, v1, v2, p1}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/ca1;)V
+    invoke-direct {p0, v0, v1, v2, p1}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/da1;)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -141,7 +141,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appgallery/channelmanager/impl/storage/PkgChannelDao$a;-><init>(Lcom/huawei/appgallery/channelmanager/impl/storage/PkgChannelDao;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

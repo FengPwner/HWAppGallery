@@ -63,7 +63,7 @@
     .registers 11
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -83,17 +83,17 @@
 
     const-string v2, "SystemSessionInstallCallbackManager"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/pu5;->f()Lcom/huawei/appmarket/pu5;
+    invoke-static {}, Lcom/huawei/appmarket/ru5;->f()Lcom/huawei/appmarket/ru5;
 
     move-result-object v1
 
     const/4 v3, 0x2
 
-    new-array v3, v3, [Lcom/huawei/appmarket/i76;
+    new-array v3, v3, [Lcom/huawei/appmarket/k76;
 
-    sget-object v4, Lcom/huawei/appmarket/i76;->b:Lcom/huawei/appmarket/i76;
+    sget-object v4, Lcom/huawei/appmarket/k76;->b:Lcom/huawei/appmarket/k76;
 
     const/4 v5, 0x0
 
@@ -101,11 +101,11 @@
 
     const/4 v4, 0x1
 
-    sget-object v6, Lcom/huawei/appmarket/i76;->c:Lcom/huawei/appmarket/i76;
+    sget-object v6, Lcom/huawei/appmarket/k76;->c:Lcom/huawei/appmarket/k76;
 
     aput-object v6, v3, v4
 
-    invoke-virtual {v1, p2, v3}, Lcom/huawei/appmarket/pu5;->h(Ljava/lang/String;[Lcom/huawei/appmarket/i76;)Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
+    invoke-virtual {v1, p2, v3}, Lcom/huawei/appmarket/ru5;->h(Ljava/lang/String;[Lcom/huawei/appmarket/k76;)Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
 
     move-result-object v1
 
@@ -144,7 +144,7 @@
 
     move-wide v4, p0
 
-    invoke-static/range {v1 .. v7}, Lcom/huawei/appmarket/xa1;->a(Landroid/content/Context;Ljava/lang/String;IJIZ)V
+    invoke-static/range {v1 .. v7}, Lcom/huawei/appmarket/ya1;->a(Landroid/content/Context;Ljava/lang/String;IJIZ)V
 
     return-void
 
@@ -152,7 +152,7 @@
     :goto_0
     const-string p0, "system install session activity callback: task is consume!"
 
-    invoke-virtual {v0, v2, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -224,7 +224,7 @@
 
     .line 2
     .line 3
-    sget-object v1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 4
     .line 5
@@ -249,7 +249,7 @@
 
     .line 15
     .line 16
-    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/om5;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/fu5;Ljava/lang/String;)V
+    invoke-static {v2, v3, v1, v4}, Lcom/huawei/appmarket/uq5;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/hu5;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -306,7 +306,7 @@
 
     .line 44
     .line 45
-    invoke-static {p0}, Lcom/huawei/appmarket/rf4;->b(Ljava/lang/String;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/tf4;->b(Ljava/lang/String;)I
 
     .line 46
     .line 47
@@ -379,7 +379,7 @@
     move-result-object p1
 
     .line 81
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     .line 83
@@ -489,7 +489,7 @@
     move-result-object p0
 
     .line 137
-    invoke-virtual {v1, p2, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, p2, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 138
     .line 139
@@ -1372,7 +1372,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public static g(I)V
@@ -1427,7 +1426,7 @@
 
     sput-object v2, Lcom/huawei/appgallery/packagemanager/impl/install/process/a;->a:Landroid/os/Handler;
 
-    sget-object v2, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v2, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     const-string v3, "SystemSessionInstallCallbackManager"
 
@@ -1441,7 +1440,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v2, v3, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

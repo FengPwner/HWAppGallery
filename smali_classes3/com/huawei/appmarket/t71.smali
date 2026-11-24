@@ -7,19 +7,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/lw7;
+.field final synthetic a:Lcom/huawei/appmarket/rw7;
 
 .field final synthetic b:Lcom/huawei/appmarket/s71;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/lw7;)V
+.method constructor <init>(Lcom/huawei/appmarket/s71;Lcom/huawei/appmarket/rw7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/t71;->b:Lcom/huawei/appmarket/s71;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/lw7;
+    iput-object p2, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/rw7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,9 +36,9 @@
 
     invoke-direct {v0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/lw7;
+    iget-object p1, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/rw7;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/lw7;->e(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/rw7;->e(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -64,9 +64,9 @@
 
     invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/s71;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/lw7;
+    iget-object p1, p0, Lcom/huawei/appmarket/t71;->a:Lcom/huawei/appmarket/rw7;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/lw7;->f(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/rw7;->f(Ljava/lang/Object;)V
 
     return-void
 .end method

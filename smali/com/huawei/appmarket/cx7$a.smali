@@ -1,136 +1,81 @@
 .class final Lcom/huawei/appmarket/cx7$a;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ru6$e;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/cx7$c;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/huawei/appmarket/cx7;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/huawei/appmarket/cx7;->g(Landroid/content/Context;Lcom/huawei/appmarket/ex7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
-    name = "a"
+    accessFlags = 0x0
+    name = null
 .end annotation
 
 
-# static fields
-.field static final b:Lcom/huawei/appmarket/cx7$a;
-
-
 # instance fields
-.field private final a:Z
+.field final synthetic a:Lcom/huawei/appmarket/ex7;
+
+.field final synthetic b:Lcom/huawei/appmarket/cx7;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/cx7;Lcom/huawei/appmarket/ex7;)V
+    .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/cx7$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/cx7$a;->b:Lcom/huawei/appmarket/cx7;
 
-    const/4 v1, 0x1
+    iput-object p2, p0, Lcom/huawei/appmarket/cx7$a;->a:Lcom/huawei/appmarket/ex7;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/cx7$a;-><init>(Z)V
-
-    sput-object v0, Lcom/huawei/appmarket/cx7$a;->b:Lcom/huawei/appmarket/cx7$a;
-
-    return-void
-.end method
-
-.method private constructor <init>(Z)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-boolean p1, p0, Lcom/huawei/appmarket/cx7$a;->a:Z
+    invoke-direct {p0}, Lcom/huawei/appmarket/ru6$e;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/CharSequence;I)I
-    .registers 10
+.method public final c(I)V
+    .registers 3
 
     .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/cx7$a;->b:Lcom/huawei/appmarket/cx7;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/cx7;->c(Lcom/huawei/appmarket/cx7;)V
+
+    iget-object v0, p0, Lcom/huawei/appmarket/cx7$a;->a:Lcom/huawei/appmarket/ex7;
+
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ex7;->a(I)V
+
+    return-void
+.end method
+
+.method public final d(Landroid/graphics/Typeface;)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/cx7$a;->b:Lcom/huawei/appmarket/cx7;
+
+    iget v1, v0, Lcom/huawei/appmarket/cx7;->c:I
+
+    invoke-static {p1, v1}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/cx7;->b(Lcom/huawei/appmarket/cx7;Landroid/graphics/Typeface;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/cx7;->c(Lcom/huawei/appmarket/cx7;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/cx7;->a(Lcom/huawei/appmarket/cx7;)Landroid/graphics/Typeface;
+
+    move-result-object p1
+
     const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    iget-object v1, p0, Lcom/huawei/appmarket/cx7$a;->a:Lcom/huawei/appmarket/ex7;
 
-    const/4 v2, 0x0
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/ex7;->b(Landroid/graphics/Typeface;Z)V
 
-    :goto_0
-    const/4 v3, 0x2
-
-    iget-boolean v4, p0, Lcom/huawei/appmarket/cx7$a;->a:Z
-
-    if-ge v1, p2, :cond_5
-
-    invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
-
-    move-result v5
-
-    invoke-static {v5}, Ljava/lang/Character;->getDirectionality(C)B
-
-    move-result v5
-
-    sget-object v6, Lcom/huawei/appmarket/cx7;->a:Lcom/huawei/appmarket/bx7;
-
-    const/4 v6, 0x1
-
-    if-eqz v5, :cond_1
-
-    if-eq v5, v6, :cond_0
-
-    if-eq v5, v3, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    const/4 v3, 0x0
-
-    goto :goto_1
-
-    :cond_1
-    const/4 v3, 0x1
-
-    :goto_1
-    if-eqz v3, :cond_4
-
-    if-eq v3, v6, :cond_2
-
-    goto :goto_2
-
-    :cond_2
-    if-nez v4, :cond_3
-
-    return v6
-
-    :cond_3
-    const/4 v2, 0x1
-
-    goto :goto_2
-
-    :cond_4
-    if-eqz v4, :cond_3
-
-    return v0
-
-    :goto_2
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_5
-    if-eqz v2, :cond_6
-
-    return v4
-
-    :cond_6
-    return v3
+    return-void
 .end method

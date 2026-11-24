@@ -1,5 +1,5 @@
 .class final Lcom/huawei/gamebox/service/welfare/gift/card/a$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/a$a;->b:Lcom/huawei/gamebox/service/welfare/gift/card/a;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     move-result p1
 
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/s03;->a(ILandroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/v03;->a(ILandroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
 
     :cond_1
     :goto_0

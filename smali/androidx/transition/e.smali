@@ -80,7 +80,7 @@
 
     .line 19
     .line 20
-    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     .line 21
     .line 22
@@ -355,4 +355,11 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method

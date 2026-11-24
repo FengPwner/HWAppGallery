@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/huawei/appmarket/qq4;
+.annotation build Lcom/huawei/appmarket/tq4;
 .end annotation
 
 .annotation system Ldalvik/annotation/EnclosingClass;
@@ -26,7 +26,7 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Z)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
 # virtual methods
 .method public getId()Ljava/lang/String;
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-object v0, p0, Lcom/huawei/hms/ads/identifier/AdvertisingIdClient$Info;->advertisingId:Ljava/lang/String;
@@ -52,7 +52,7 @@
 
 .method public isLimitAdTrackingEnabled()Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget-boolean v0, p0, Lcom/huawei/hms/ads/identifier/AdvertisingIdClient$Info;->limitAdTrackingEnabled:Z

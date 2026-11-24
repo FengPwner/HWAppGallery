@@ -4,19 +4,9 @@
 
 
 # instance fields
-.field private a:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oi0;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field a:Ljava/lang/String;
 
-.field private b:Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
+.field b:Ljava/lang/String;
 
 
 # direct methods
@@ -43,29 +33,12 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pi0;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/huawei/appmarket/pi0;->a:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final c()Ljava/util/List;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/oi0;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pi0;->a:Ljava/util/List;
-
-    return-object v0
-.end method
-
-.method public final d(Ljava/lang/String;)V
+.method public final c(Ljava/lang/String;)V
     .registers 2
 
     .line 1
@@ -74,20 +47,11 @@
     return-void
 .end method
 
-.method public final e(Ljava/lang/String;)V
+.method public final d(Ljava/lang/String;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pi0;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final f(Ljava/util/ArrayList;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/pi0;->a:Ljava/util/List;
+    iput-object p1, p0, Lcom/huawei/appmarket/pi0;->a:Ljava/lang/String;
 
     return-void
 .end method

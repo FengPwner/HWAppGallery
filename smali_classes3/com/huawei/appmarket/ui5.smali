@@ -1,36 +1,18 @@
-.class public final synthetic Lcom/huawei/appmarket/ui5;
+.class public interface abstract annotation Lcom/huawei/appmarket/ui5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/service/store/awk/card/NormalCard;
+# annotations
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-
-# direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/ui5;->b:Lcom/huawei/appmarket/service/store/awk/card/NormalCard;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onStartDownload()V
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ui5;->b:Lcom/huawei/appmarket/service/store/awk/card/NormalCard;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/service/store/awk/card/NormalCard;->A1(Lcom/huawei/appmarket/service/store/awk/card/NormalCard;)V
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

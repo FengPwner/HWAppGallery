@@ -1,191 +1,144 @@
-.class final Lcom/huawei/appmarket/ri2;
+.class public final Lcom/huawei/appmarket/ri2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ri2$b;
+    }
+.end annotation
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
+.field private final a:I
 
-.field final synthetic c:Ljava/util/concurrent/CountDownLatch;
+.field private b:Ljava/lang/String;
 
-.field final synthetic d:Lcom/huawei/appmarket/si2;
+.field private c:I
+
+.field private d:J
+
+.field private e:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/si2;Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;Ljava/util/concurrent/CountDownLatch;)V
-    .registers 4
+.method private constructor <init>(I)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/ri2;->d:Lcom/huawei/appmarket/si2;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/ri2;->b:Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/ri2;->c:Ljava/util/concurrent/CountDownLatch;
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lcom/huawei/appmarket/ri2;->a:I
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(ILcom/huawei/appmarket/ri2$a;)V
+    .registers 3
+
+    .line 2
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ri2;-><init>(I)V
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/huawei/appmarket/ri2;Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ri2;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method static synthetic b(Lcom/huawei/appmarket/ri2;I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/ri2;->c:I
+
+    return-void
+.end method
+
+.method static synthetic c(Lcom/huawei/appmarket/ri2;J)V
+    .registers 3
+
+    .line 1
+    iput-wide p1, p0, Lcom/huawei/appmarket/ri2;->d:J
+
+    return-void
+.end method
+
+.method static synthetic d(Lcom/huawei/appmarket/ri2;Ljava/util/List;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ri2;->e:Ljava/util/List;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 9
+.method public final e()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/ri2;->b:Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;
+    iget-object v0, p0, Lcom/huawei/appmarket/ri2;->e:Ljava/util/List;
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;->U()Ljava/util/ArrayList;
+    return-object v0
+.end method
 
-    move-result-object v1
+.method public final f()I
+    .registers 2
 
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/ri2;->c:I
 
-    move-result v1
+    return v0
+.end method
 
-    int-to-long v1, v1
+.method public final g()J
+    .registers 3
 
-    const/4 v3, 0x0
+    .line 1
+    iget-wide v0, p0, Lcom/huawei/appmarket/ri2;->d:J
 
-    const-string v4, "FetchExtPermissionsManager"
+    return-wide v0
+.end method
 
-    const-wide/16 v5, 0x1
+.method public final h()Ljava/lang/String;
+    .registers 2
 
-    cmp-long v7, v1, v5
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ri2;->b:Ljava/lang/String;
 
-    if-nez v7, :cond_0
+    return-object v0
+.end method
 
-    invoke-static {}, Lcom/huawei/appmarket/wr6;->a()Lcom/huawei/appmarket/wr6;
+.method public final i()I
+    .registers 2
 
-    move-result-object v1
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/ri2;->a:I
 
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {}, Lcom/huawei/appmarket/wr6;->c()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;->U()Ljava/util/ArrayList;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    sget-object v0, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
-
-    const-string v1, "already had other request, register Observer!"
-
-    invoke-virtual {v0, v4, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/wr6;->a()Lcom/huawei/appmarket/wr6;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/huawei/appmarket/ri2$a;
-
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/ri2$a;-><init>(Lcom/huawei/appmarket/ri2;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wr6;->e(Lcom/huawei/appmarket/wz3;)V
-
-    goto :goto_1
-
-    :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;->U()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-
-    move-result v1
-
-    int-to-long v1, v1
-
-    cmp-long v7, v1, v5
-
-    if-nez v7, :cond_1
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/permissioncontrollerservice/impl/bean/AppPermissionControlRequest;->U()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/String;
-
-    sget-object v2, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v5, "register task\uff1a "
-
-    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/wr6;->a()Lcom/huawei/appmarket/wr6;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {v1}, Lcom/huawei/appmarket/wr6;->f(Ljava/lang/String;)V
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v1, 0x0
-
-    :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
-
-    move-result-object v2
-
-    iget-object v3, p0, Lcom/huawei/appmarket/ri2;->d:Lcom/huawei/appmarket/si2;
-
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/si2;->a(Lcom/huawei/appmarket/si2;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-
-    iget-object v3, p0, Lcom/huawei/appmarket/ri2;->c:Ljava/util/concurrent/CountDownLatch;
-
-    invoke-virtual {v3}, Ljava/util/concurrent/CountDownLatch;->countDown()V
-
-    sget-object v3, Lcom/huawei/appmarket/iy5;->a:Lcom/huawei/appmarket/iy5;
-
-    const-string v5, "oneself request,release countDown wait!"
-
-    invoke-virtual {v3, v4, v5}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/dt;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
-
-    if-eqz v1, :cond_2
-
-    invoke-static {}, Lcom/huawei/appmarket/wr6;->a()Lcom/huawei/appmarket/wr6;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {v1}, Lcom/huawei/appmarket/wr6;->h(Ljava/lang/String;)V
-
-    :cond_2
-    :goto_1
-    return-void
+    return v0
 .end method

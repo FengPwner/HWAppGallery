@@ -105,7 +105,7 @@
     iput-object p2, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->s:Landroid/graphics/Typeface;
 
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p2
 
@@ -257,7 +257,7 @@
 
     invoke-virtual {p0, v2, v3, v4, v5}, Landroid/view/View;->setPaddingRelative(IIII)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     goto :goto_6
 
@@ -290,7 +290,7 @@
     goto :goto_5
 
     :goto_6
-    const v1, 0x7f0a1769
+    const v1, 0x7f0a176a
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -298,7 +298,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->h:Landroid/view/View;
 
-    const v1, 0x7f0a176a
+    const v1, 0x7f0a176b
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -308,7 +308,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->i:Landroid/widget/ImageView;
 
-    const v1, 0x7f0a1773
+    const v1, 0x7f0a1774
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -318,7 +318,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->j:Landroid/widget/TextView;
 
-    const v1, 0x7f0a176c
+    const v1, 0x7f0a176d
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -328,7 +328,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateViewParent;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0a173d
+    const v1, 0x7f0a173e
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->k:Landroid/view/View;
 
-    const v1, 0x7f0a173e
+    const v1, 0x7f0a173f
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->l:Landroid/view/View;
 
-    const v1, 0x7f0a173f
+    const v1, 0x7f0a1740
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -352,7 +352,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->m:Landroid/view/View;
 
-    const v1, 0x7f0a1772
+    const v1, 0x7f0a1773
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -360,7 +360,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->n:Landroid/view/View;
 
-    const v1, 0x7f0a1770
+    const v1, 0x7f0a1771
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -368,7 +368,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->o:Landroid/view/View;
 
-    const v1, 0x7f0a1771
+    const v1, 0x7f0a1772
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -403,7 +403,7 @@
     const v1, 0x7f070140
 
     .line 7
-    invoke-static {p1, v1, p2, p3}, Lcom/huawei/appmarket/ej2;->v(Landroid/content/Context;ILandroid/widget/TextView;I)V
+    invoke-static {p1, v1, p2, p3}, Lcom/huawei/appmarket/tr2;->t(Landroid/content/Context;ILandroid/widget/TextView;I)V
 
     goto/16 :goto_7
 
@@ -411,13 +411,13 @@
     iget-object p2, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->h:Landroid/view/View;
 
     .line 8
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result p2
 
@@ -425,7 +425,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v1
 
@@ -435,7 +435,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     move-result v1
 
@@ -443,7 +443,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v2
 
@@ -475,7 +475,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->k:Landroid/view/View;
 
-    const v2, 0x7f0a173c
+    const v2, 0x7f0a173d
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result p2
 
@@ -535,13 +535,13 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     move-result p1
 
     iget-object v1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->p:Landroid/view/View;
 
-    invoke-static {p2, p1, v1}, Lcom/huawei/appmarket/b37;->D(IILandroid/view/View;)V
+    invoke-static {p2, p1, v1}, Lcom/huawei/appmarket/g37;->D(IILandroid/view/View;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/updatemanager/ui/widget/UpdateView;->h:Landroid/view/View;
 
@@ -627,7 +627,7 @@
 
     if-ne p2, p3, :cond_0
 
-    const p2, 0x7f0a175f
+    const p2, 0x7f0a1760
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -777,7 +777,7 @@
     move-result v1
 
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     .line 62
     .line 63
@@ -899,7 +899,7 @@
     .line 114
     .line 115
     .line 116
-    invoke-static {v9, v3}, Lcom/huawei/appmarket/aa8;->d(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Z)Lcom/huawei/appgallery/updatemanager/ui/cardkit/bean/UpdateRecordCardBean;
+    invoke-static {v9, v3}, Lcom/huawei/appmarket/fa8;->d(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;Z)Lcom/huawei/appgallery/updatemanager/ui/cardkit/bean/UpdateRecordCardBean;
 
     .line 117
     .line 118
@@ -1077,7 +1077,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -1175,7 +1175,7 @@
     .registers 6
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -1294,7 +1294,7 @@
     goto :goto_0
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 

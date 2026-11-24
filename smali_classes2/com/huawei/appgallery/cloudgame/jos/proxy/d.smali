@@ -245,7 +245,7 @@
     .line 92
     .line 93
     :goto_2
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -266,5 +266,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

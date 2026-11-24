@@ -24,7 +24,7 @@
 
 .field private d:[Ljava/lang/String;
 
-.field private e:Lcom/huawei/appmarket/fo8;
+.field private e:Lcom/huawei/appmarket/lo8;
 
 
 # direct methods
@@ -79,7 +79,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/d07;->a(Landroid/webkit/WebView;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/h07;->a(Landroid/webkit/WebView;)V
 
     const/4 v0, 0x0
 
@@ -109,7 +109,7 @@
     return-object v0
 .end method
 
-.method public getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+.method public getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
     .registers 2
 
     .line 1
@@ -255,7 +255,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/c05;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/f05;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -426,367 +426,367 @@
 
     .line 79
     .line 80
-    const-string p1, "whitelist is null"
+    const-string/jumbo p1, "whitelist is null"
 
     .line 81
     .line 82
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/c05;->e(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 83
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/f05;->e(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 84
     .line 85
+    .line 86
     goto/16 :goto_a
 
-    .line 86
     .line 87
+    .line 88
     :cond_9
     array-length v3, v0
 
-    .line 88
+    .line 89
     const/4 v5, 0x0
 
-    .line 89
+    .line 90
     :goto_6
     if-ge v5, v3, :cond_13
 
-    .line 90
     .line 91
+    .line 92
     aget-object v6, v0, v5
 
-    .line 92
     .line 93
+    .line 94
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 94
     .line 95
     .line 96
-    move-result v7
-
     .line 97
-    if-nez v7, :cond_12
+    move-result v7
 
     .line 98
+    if-nez v7, :cond_12
+
     .line 99
+    .line 100
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 100
     .line 101
     .line 102
+    .line 103
     move-result v7
 
-    .line 103
+    .line 104
     if-eqz v7, :cond_a
 
-    .line 104
     .line 105
+    .line 106
     goto/16 :goto_9
 
-    .line 106
     .line 107
+    .line 108
     :cond_a
     invoke-static {p1}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 108
     .line 109
     .line 110
+    .line 111
     move-result-object v7
 
-    .line 111
+    .line 112
     invoke-static {v6}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 112
     .line 113
     .line 114
+    .line 115
     move-result-object v8
 
-    .line 115
+    .line 116
     const-string v9, ".."
 
-    .line 116
     .line 117
+    .line 118
     invoke-virtual {v7, v9}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 118
     .line 119
     .line 120
+    .line 121
     move-result v10
 
-    .line 121
+    .line 122
     const-string v11, "url contains unsafe char"
 
-    .line 122
     .line 123
+    .line 124
     if-nez v10, :cond_11
 
-    .line 124
     .line 125
+    .line 126
     const-string v10, "@"
 
-    .line 126
     .line 127
+    .line 128
     invoke-virtual {v8, v10}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 128
     .line 129
     .line 130
+    .line 131
     move-result v12
 
-    .line 131
+    .line 132
     if-eqz v12, :cond_b
 
-    .line 132
     .line 133
+    .line 134
     goto :goto_8
 
-    .line 134
+    .line 135
     :cond_b
     invoke-virtual {p1, v9}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 135
     .line 136
     .line 137
-    move-result v9
-
     .line 138
-    if-nez v9, :cond_11
+    move-result v9
 
     .line 139
+    if-nez v9, :cond_11
+
     .line 140
+    .line 141
     invoke-virtual {p1, v10}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 141
     .line 142
     .line 143
+    .line 144
     move-result v9
 
-    .line 144
+    .line 145
     if-eqz v9, :cond_c
 
-    .line 145
     .line 146
+    .line 147
     goto :goto_8
 
-    .line 147
+    .line 148
     :cond_c
     invoke-virtual {v6, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 148
     .line 149
     .line 150
-    move-result v9
-
     .line 151
-    if-nez v9, :cond_10
+    move-result v9
 
     .line 152
-    .line 153
-    const-string v9, "?"
-
-    .line 154
-    .line 155
-    invoke-virtual {v6, v9}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    .line 156
-    .line 157
-    .line 158
-    move-result-object v9
-
-    .line 159
-    invoke-virtual {p1, v9}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    .line 160
-    .line 161
-    .line 162
-    move-result v9
-
-    .line 163
     if-nez v9, :cond_10
 
-    .line 164
-    .line 165
-    const-string v9, "#"
+    .line 153
+    .line 154
+    const-string v9, "?"
 
-    .line 166
-    .line 167
+    .line 155
+    .line 156
     invoke-virtual {v6, v9}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 168
-    .line 169
-    .line 170
+    .line 157
+    .line 158
+    .line 159
     move-result-object v9
 
-    .line 171
+    .line 160
     invoke-virtual {p1, v9}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
-    .line 172
-    .line 173
-    .line 174
+    .line 161
+    .line 162
+    .line 163
     move-result v9
 
+    .line 164
+    if-nez v9, :cond_10
+
+    .line 165
+    .line 166
+    const-string v9, "#"
+
+    .line 167
+    .line 168
+    invoke-virtual {v6, v9}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 169
+    .line 170
+    .line 171
+    move-result-object v9
+
+    .line 172
+    invoke-virtual {p1, v9}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    .line 173
+    .line 174
     .line 175
-    if-eqz v9, :cond_d
+    move-result v9
 
     .line 176
+    if-eqz v9, :cond_d
+
     .line 177
+    .line 178
     goto :goto_7
 
-    .line 178
+    .line 179
     :cond_d
     const-string v9, "/"
 
-    .line 179
     .line 180
+    .line 181
     invoke-virtual {v6, v9}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 181
     .line 182
     .line 183
+    .line 184
     move-result v9
 
-    .line 184
+    .line 185
     if-nez v9, :cond_e
 
-    .line 185
     .line 186
+    .line 187
     goto :goto_9
 
-    .line 187
+    .line 188
     :cond_e
     invoke-static {v8}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    .line 188
     .line 189
     .line 190
-    move-result-object v8
-
     .line 191
-    invoke-virtual {v8}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+    move-result-object v8
 
     .line 192
+    invoke-virtual {v8}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+
     .line 193
     .line 194
+    .line 195
     move-result-object v8
 
-    .line 195
+    .line 196
     invoke-static {v7}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    .line 196
     .line 197
     .line 198
-    move-result-object v7
-
     .line 199
-    invoke-virtual {v7}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+    move-result-object v7
 
     .line 200
+    invoke-virtual {v7}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+
     .line 201
     .line 202
+    .line 203
     move-result-object v7
 
-    .line 203
+    .line 204
     invoke-interface {v7}, Ljava/util/List;->size()I
 
-    .line 204
     .line 205
     .line 206
+    .line 207
     move-result v7
 
-    .line 207
+    .line 208
     invoke-interface {v8}, Ljava/util/List;->size()I
 
-    .line 208
     .line 209
     .line 210
+    .line 211
     move-result v8
 
-    .line 211
+    .line 212
     sub-int/2addr v7, v8
 
-    .line 212
+    .line 213
     if-eq v7, v2, :cond_f
 
-    .line 213
     .line 214
+    .line 215
     goto :goto_9
 
-    .line 215
+    .line 216
     :cond_f
     invoke-virtual {p1, v6}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
-    .line 216
     .line 217
     .line 218
+    .line 219
     move-result v6
 
-    .line 219
+    .line 220
     if-eqz v6, :cond_12
 
-    .line 220
     .line 221
+    .line 222
     :cond_10
     :goto_7
     const/4 v1, 0x1
 
-    .line 222
+    .line 223
     goto :goto_a
 
-    .line 223
+    .line 224
     :cond_11
     :goto_8
     invoke-static {v4, v11}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 224
     .line 225
     .line 226
+    .line 227
     :cond_12
     :goto_9
     add-int/lit8 v5, v5, 0x1
 
-    .line 227
     .line 228
+    .line 229
     goto/16 :goto_6
 
-    .line 229
     .line 230
+    .line 231
     :cond_13
     :goto_a
     return v1
 
-    .line 231
+    .line 232
     :cond_14
     if-eqz v3, :cond_15
 
-    .line 232
     .line 233
+    .line 234
     array-length v0, v3
 
-    .line 234
+    .line 235
     if-eqz v0, :cond_15
 
-    .line 235
     .line 236
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/jc8;->c(Ljava/lang/String;[Ljava/lang/String;)Z
-
     .line 237
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/oc8;->c(Ljava/lang/String;[Ljava/lang/String;)Z
+
     .line 238
     .line 239
-    move-result p1
-
     .line 240
-    return p1
+    move-result p1
 
     .line 241
-    :cond_15
-    invoke-static {p1, v4}, Lcom/huawei/appmarket/jc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
+    return p1
 
     .line 242
+    :cond_15
+    invoke-static {p1, v4}, Lcom/huawei/appmarket/oc8;->b(Ljava/lang/String;[Ljava/lang/String;)Z
+
     .line 243
     .line 244
+    .line 245
     move-result p1
 
-    .line 245
-    return p1
     .line 246
+    return p1
     .line 247
     .line 248
     .line 249
@@ -1695,65 +1695,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public loadDataWithBaseURL(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1796,7 +1737,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
 
     :goto_0
     return-void
@@ -1853,7 +1794,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
 
     :goto_1
     return-void
@@ -1915,7 +1856,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
 
     :goto_1
     return-void
@@ -1924,7 +1865,7 @@
 .method public final onCheckError(Landroid/webkit/WebView;Ljava/lang/String;)V
     .registers 4
 
-    invoke-static {p2}, Lcom/huawei/appmarket/c05;->f(Ljava/lang/String;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/f05;->f(Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->stopLoading()V
 
@@ -1943,7 +1884,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
 
     :goto_0
     return-void
@@ -1994,7 +1935,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/fo8;
+    invoke-virtual {p0}, Lcom/huawei/secure/android/common/webview/SafeWebView;->getWebViewLoadCallBack()Lcom/huawei/appmarket/lo8;
 
     :goto_1
     return-void
@@ -2040,7 +1981,7 @@
     return-void
 .end method
 
-.method public setWebViewLoadCallBack(Lcom/huawei/appmarket/fo8;)V
+.method public setWebViewLoadCallBack(Lcom/huawei/appmarket/lo8;)V
     .registers 2
 
     .line 1

@@ -526,14 +526,14 @@
 
     .line 2
     .line 3
-    new-instance v1, Lcom/huawei/appmarket/qj8;
+    new-instance v1, Lcom/huawei/appmarket/wj8;
 
     .line 4
     .line 5
     const/4 v2, 0x6
 
     .line 6
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/qj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/wj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 7
     .line 8
@@ -740,7 +740,7 @@
 
 
 # virtual methods
-.method public getCameraMotionListener()Lcom/huawei/appmarket/zh0;
+.method public getCameraMotionListener()Lcom/huawei/appmarket/ai0;
     .registers 2
 
     .line 1
@@ -749,7 +749,7 @@
     return-object v0
 .end method
 
-.method public getVideoFrameMetadataListener()Lcom/huawei/appmarket/eh8;
+.method public getVideoFrameMetadataListener()Lcom/huawei/appmarket/kh8;
     .registers 2
 
     .line 1
@@ -773,9 +773,9 @@
 
     iget-object v0, p0, Landroidx/media3/exoplayer/video/spherical/SphericalGLSurfaceView;->f:Landroid/os/Handler;
 
-    new-instance v1, Lcom/huawei/appmarket/xi7;
+    new-instance v1, Lcom/huawei/appmarket/dj7;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/xi7;-><init>(Landroidx/media3/exoplayer/video/spherical/SphericalGLSurfaceView;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/dj7;-><init>(Landroidx/media3/exoplayer/video/spherical/SphericalGLSurfaceView;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

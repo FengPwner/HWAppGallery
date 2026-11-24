@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/lv1;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
 
 
@@ -7,65 +7,32 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
-    .registers 5
+
+# virtual methods
+.method protected final b()V
+    .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
+    const-string v0, "permissions.activity"
 
-    move-result v0
+    const-class v1, Lcom/huawei/appgallery/downloadproxy/impl/permission/PermissionsActivity;
 
-    const/16 v1, 0x11
-
-    if-ne v0, v1, :cond_0
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->g()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    const-string v0, "dlType is  APP_SHADER_PROFILE_DOWNLOAD,pkgName ="
-
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string p1, "DownloadReport"
-
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/sy0;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     return-void
+.end method
 
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+.method protected final c()Lcom/huawei/appmarket/dn;
+    .registers 2
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    .line 1
+    const/4 v0, 0x0
 
-    new-instance v2, Lcom/huawei/appmarket/lv1$a;
-
-    invoke-direct {v2, p0, p1}, Lcom/huawei/appmarket/lv1$a;-><init>(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
-
-    return-void
+    return-object v0
 .end method

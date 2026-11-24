@@ -41,7 +41,7 @@
     return-void
 .end method
 
-.method public static getAction(Lcom/huawei/appmarket/c72$b;Ljava/lang/String;Lcom/huawei/secure/android/common/intent/SafeIntent;)Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;
+.method public static getAction(Lcom/huawei/appmarket/g72$b;Ljava/lang/String;Lcom/huawei/secure/android/common/intent/SafeIntent;)Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;
     .registers 11
 
     .line 1
@@ -78,7 +78,7 @@
     :try_start_0
     new-array v4, v2, [Ljava/lang/Class;
 
-    const-class v5, Lcom/huawei/appmarket/c72$b;
+    const-class v5, Lcom/huawei/appmarket/g72$b;
 
     const/4 v6, 0x0
 
@@ -138,7 +138,7 @@
     move-exception p0
 
     :goto_0
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-object v3
 .end method

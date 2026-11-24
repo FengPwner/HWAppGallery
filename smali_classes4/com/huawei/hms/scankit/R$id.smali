@@ -103,9 +103,9 @@
 
 .field public static final title_scan_level_two:I = 0x7f0a1606
 
-.field public static final top:I = 0x7f0a161a
+.field public static final top:I = 0x7f0a161b
 
-.field public static final viewfinderView:I = 0x7f0a181d
+.field public static final viewfinderView:I = 0x7f0a181e
 
 
 # direct methods

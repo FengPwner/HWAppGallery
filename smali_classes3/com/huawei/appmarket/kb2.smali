@@ -2,25 +2,52 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/kb2$b;,
-        Lcom/huawei/appmarket/kb2$a;
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/appmarket/sv4;
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/kb2$a;)V
+.method public abstract synthetic get(I)Ljava/lang/Object;
 .end method
 
-.method public abstract b()Lcom/huawei/appmarket/kb2$b;
+.method public abstract synthetic isEmpty()Z
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/kb2$a;)V
+.method public abstract optArray(I)Lcom/huawei/appmarket/kb2;
 .end method
 
-.method public abstract d()V
+.method public abstract optBoolean(I)Z
+.end method
+
+.method public abstract optBoolean(IZ)Z
+.end method
+
+.method public abstract optDouble(I)D
+.end method
+
+.method public abstract optDouble(ID)D
+.end method
+
+.method public abstract optInt(I)I
+.end method
+
+.method public abstract optInt(II)I
+.end method
+
+.method public abstract optLong(I)J
+.end method
+
+.method public abstract optLong(IJ)J
+.end method
+
+.method public abstract optMap(I)Lcom/huawei/appmarket/lb2;
+.end method
+
+.method public abstract optString(I)Ljava/lang/String;
+.end method
+
+.method public abstract optString(ILjava/lang/String;)Ljava/lang/String;
+.end method
+
+.method public abstract synthetic size()I
 .end method

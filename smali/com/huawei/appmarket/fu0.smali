@@ -56,7 +56,7 @@
     const-string v4, "antiquewhite"
 
     .line 1
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xff0001
 
@@ -72,7 +72,7 @@
     const-string v4, "aquamarine"
 
     .line 3
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v2, -0xf0001
 
@@ -83,7 +83,7 @@
     const-string v5, "beige"
 
     .line 4
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v2, -0x1b3c
 
@@ -93,7 +93,7 @@
 
     const-string v5, "black"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v2, -0x1433
 
@@ -103,7 +103,7 @@
 
     const-string v5, "blue"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x75d41e
 
@@ -113,7 +113,7 @@
 
     const-string v5, "brown"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x214779
 
@@ -123,7 +123,7 @@
 
     const-string v5, "cadetblue"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x800100
 
@@ -133,7 +133,7 @@
 
     const-string v5, "chocolate"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x80b0
 
@@ -143,7 +143,7 @@
 
     const-string v5, "cornflowerblue"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v2, -0x724
 
@@ -153,7 +153,7 @@
 
     const-string v5, "crimson"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const-string v2, "cyan"
 
@@ -162,7 +162,7 @@
     const-string v4, "darkblue"
 
     .line 5
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v1, -0xff7475
 
@@ -173,7 +173,7 @@
     const-string v4, "darkgoldenrod"
 
     .line 6
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x565657
 
@@ -189,7 +189,7 @@
     const-string v4, "darkgreen"
 
     .line 8
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const-string v2, "darkgrey"
 
@@ -197,7 +197,7 @@
 
     const-string v4, "darkkhaki"
 
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v1, -0x74ff75
 
@@ -208,7 +208,7 @@
     const-string v4, "darkolivegreen"
 
     .line 9
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v1, -0x7400
 
@@ -218,7 +218,7 @@
 
     const-string v4, "darkorchid"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/high16 v1, -0x750000
 
@@ -228,7 +228,7 @@
 
     const-string v4, "darksalmon"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x704371
 
@@ -238,7 +238,7 @@
 
     const-string v4, "darkslateblue"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xd0b0b1
 
@@ -268,7 +268,7 @@
     const-string v4, "darkviolet"
 
     .line 11
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v1, -0xeb6d
 
@@ -279,7 +279,7 @@
     const-string v4, "deepskyblue"
 
     .line 12
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x969697
 
@@ -309,7 +309,7 @@
     const-string v4, "firebrick"
 
     .line 14
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const/16 v1, -0x510
 
@@ -320,7 +320,7 @@
     const-string v4, "forestgreen"
 
     .line 15
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xff01
 
@@ -336,7 +336,7 @@
     const-string v4, "gainsboro"
 
     .line 17
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v2, -0x70701
 
@@ -347,7 +347,7 @@
     const-string v5, "gold"
 
     .line 18
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x255ae0
 
@@ -379,7 +379,7 @@
     const-string v6, "greenyellow"
 
     .line 20
-    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v3, v0, v4, v5, v6}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const-string v3, "grey"
 
@@ -388,7 +388,7 @@
     const-string v5, "honeydew"
 
     .line 21
-    invoke-static {v0, v3, v2, v4, v5}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v3, v2, v4, v5}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v2, -0x964c
 
@@ -399,7 +399,7 @@
     const-string v5, "indianred"
 
     .line 22
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0xb4ff7e
 
@@ -409,7 +409,7 @@
 
     const-string v5, "ivory"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0xf1974
 
@@ -419,7 +419,7 @@
 
     const-string v5, "lavender"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v2, -0xf0b
 
@@ -429,7 +429,7 @@
 
     const-string v5, "lawngreen"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v2, -0x533
 
@@ -439,7 +439,7 @@
 
     const-string v5, "lightblue"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0xf7f80
 
@@ -449,7 +449,7 @@
 
     const-string v5, "lightcyan"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x5052e
 
@@ -495,7 +495,7 @@
     const-string v5, "lightsalmon"
 
     .line 24
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0xdf4d56
 
@@ -505,7 +505,7 @@
 
     const-string v5, "lightskyblue"
 
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x887767
 
@@ -535,7 +535,7 @@
     const-string v5, "lightyellow"
 
     .line 26
-    invoke-static {v0, v3, v2, v4, v5}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v3, v2, v4, v5}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v2, -0xff0100
 
@@ -546,7 +546,7 @@
     const-string v5, "limegreen"
 
     .line 27
-    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v0, v3, v4, v5}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v2, -0x50f1a
 
@@ -572,7 +572,7 @@
     const-string v4, "mediumaquamarine"
 
     .line 29
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xffff33
 
@@ -582,7 +582,7 @@
 
     const-string v4, "mediumorchid"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x6c8f25
 
@@ -592,7 +592,7 @@
 
     const-string v4, "mediumseagreen"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x849712
 
@@ -602,7 +602,7 @@
 
     const-string v4, "mediumspringgreen"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xb72e34
 
@@ -612,7 +612,7 @@
 
     const-string v4, "mediumvioletred"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xe6e690
 
@@ -622,7 +622,7 @@
 
     const-string v4, "mintcream"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v1, -0x1b1f
 
@@ -632,7 +632,7 @@
 
     const-string v4, "moccasin"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v1, -0x2153
 
@@ -642,7 +642,7 @@
 
     const-string v4, "navy"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x20a1a
 
@@ -652,7 +652,7 @@
 
     const-string v4, "olive"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x9471dd
 
@@ -662,7 +662,7 @@
 
     const-string v4, "orange"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xbb00
 
@@ -672,7 +672,7 @@
 
     const-string v4, "orchid"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x111756
 
@@ -682,7 +682,7 @@
 
     const-string v4, "palegreen"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x501112
 
@@ -692,7 +692,7 @@
 
     const-string v4, "palevioletred"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/16 v1, -0x102b
 
@@ -702,7 +702,7 @@
 
     const-string v4, "peachpuff"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x327ac1
 
@@ -712,7 +712,7 @@
 
     const-string v4, "pink"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x225f23
 
@@ -722,7 +722,7 @@
 
     const-string v4, "powderblue"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x7fff80
 
@@ -732,7 +732,7 @@
 
     const-string v4, "rebeccapurple"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const/high16 v1, -0x10000
 
@@ -742,7 +742,7 @@
 
     const-string v4, "rosybrown"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xbe961f
 
@@ -752,7 +752,7 @@
 
     const-string v4, "saddlebrown"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x57f8e
 
@@ -762,7 +762,7 @@
 
     const-string v4, "sandybrown"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xd174a9
 
@@ -772,7 +772,7 @@
 
     const-string v4, "seashell"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x5fadd3
 
@@ -782,7 +782,7 @@
 
     const-string v4, "silver"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x783115
 
@@ -792,7 +792,7 @@
 
     const-string v4, "slateblue"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x8f7f70
 
@@ -822,7 +822,7 @@
     const-string v4, "springgreen"
 
     .line 31
-    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/bu0;->y(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
+    invoke-static {v0, v2, v1, v3, v4}, Lcom/huawei/appmarket/kd0;->B(Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/Integer;ILjava/lang/String;)V
 
     const v1, -0xb97d4c
 
@@ -833,7 +833,7 @@
     const-string v4, "tan"
 
     .line 32
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xff7f80
 
@@ -843,7 +843,7 @@
 
     const-string v4, "thistle"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x9cb9
 
@@ -853,7 +853,7 @@
 
     const-string v4, "transparent"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xbf1f30
 
@@ -863,7 +863,7 @@
 
     const-string v4, "violet"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xa214d
 
@@ -873,7 +873,7 @@
 
     const-string v4, "white"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0xa0a0b
 
@@ -883,7 +883,7 @@
 
     const-string v4, "yellow"
 
-    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2, v3, v4}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     const v1, -0x6532ce
 
@@ -925,7 +925,7 @@
     xor-int/2addr v0, v1
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 8
     .line 9
@@ -1385,7 +1385,7 @@
 
     .line 228
     .line 229
-    invoke-static {p0}, Lcom/huawei/appmarket/xx;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/yx;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 230
     .line 231

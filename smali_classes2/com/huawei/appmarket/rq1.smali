@@ -1,68 +1,76 @@
-.class final Lcom/huawei/appmarket/rq1;
+.class public final Lcom/huawei/appmarket/rq1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/kp1;
-
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/pq1$a;
+.field private a:Ljava/util/HashMap;
+
+.field private b:Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appgallery/distributionbase/api/VerificationResponse<",
+            "*>;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/pq1$a;)V
+.method public constructor <init>()V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/rq1;->b:Lcom/huawei/appmarket/pq1$a;
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/rq1;->a:Ljava/util/HashMap;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 5
+.method public final a()Ljava/util/HashMap;
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/rq1;->b:Lcom/huawei/appmarket/pq1$a;
+    iget-object v0, p0, Lcom/huawei/appmarket/rq1;->a:Ljava/util/HashMap;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->d()Ljava/lang/String;
+    return-object v0
+.end method
 
-    move-result-object v1
+.method public final b()Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appgallery/distributionbase/api/VerificationResponse<",
+            "*>;"
+        }
+    .end annotation
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->j()Ljava/lang/String;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/rq1;->b:Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    move-result-object v2
+    return-object v0
+.end method
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->f()I
+.method public final c(Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appgallery/distributionbase/api/VerificationResponse<",
+            "*>;)V"
+        }
+    .end annotation
 
-    move-result v3
-
-    invoke-static {v3, v1, v2}, Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;->T(ILjava/lang/String;Ljava/lang/String;)Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;
-
-    move-result-object v1
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->g()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;->V(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->c()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;->U(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/pq1$a;->e()Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/rq1;->b:Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
     return-void
 .end method

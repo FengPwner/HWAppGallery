@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/yh3$a;->values()[Lcom/huawei/appmarket/yh3$a;
+    invoke-static {}, Lcom/huawei/appmarket/ai3$a;->values()[Lcom/huawei/appmarket/ai3$a;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/yh3$a;->b:Lcom/huawei/appmarket/yh3$a;
+    sget-object v1, Lcom/huawei/appmarket/ai3$a;->b:Lcom/huawei/appmarket/ai3$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/yh3$a;->d:Lcom/huawei/appmarket/yh3$a;
+    sget-object v1, Lcom/huawei/appmarket/ai3$a;->d:Lcom/huawei/appmarket/ai3$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appgallery/updatemanager/api/UpgradeRequest$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/yh3$a;->e:Lcom/huawei/appmarket/yh3$a;
+    sget-object v1, Lcom/huawei/appmarket/ai3$a;->e:Lcom/huawei/appmarket/ai3$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

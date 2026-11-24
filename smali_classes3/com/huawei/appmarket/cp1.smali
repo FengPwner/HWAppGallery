@@ -1,77 +1,48 @@
-.class public final Lcom/huawei/appmarket/cp1;
-.super Lcom/huawei/appmarket/o0;
+.class public final synthetic Lcom/huawei/appmarket/cp1;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/cp1$b;,
-        Lcom/huawei/appmarket/cp1$a;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/huawei/appmarket/o0<",
-        "Lcom/huawei/appmarket/cp1$a;",
-        ">;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/o0;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method protected final a(Lcom/huawei/appmarket/ou3;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;I)V
     .registers 3
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/cp1$a;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
-    new-instance p1, Lcom/huawei/appmarket/cp1$b;
-
     .line 4
-    .line 5
-    invoke-direct {p1}, Lcom/huawei/appmarket/cp1$b;-><init>()V
+    iput p2, p0, Lcom/huawei/appmarket/cp1;->b:I
 
+    .line 5
     .line 6
+    iput-object p1, p0, Lcom/huawei/appmarket/cp1;->c:Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;
+
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/o0;->b:Lcom/huawei/appmarket/lr0;
-
+    return-void
     .line 9
     .line 10
-    iget-object v0, v0, Lcom/huawei/appmarket/lr0;->a:Ljava/lang/String;
-
     .line 11
     .line 12
-    invoke-static {v0}, Lcom/huawei/appmarket/pp6;->c(Ljava/lang/String;)V
-
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/huawei/appmarket/o0;->a:Lcom/huawei/appmarket/p0;
-
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/p0;->b(Lcom/huawei/appmarket/ou3;)V
-
     .line 18
     .line 19
     .line 20
-    return-void
     .line 21
     .line 22
     .line 23
@@ -167,4 +138,92 @@
     .line 113
     .line 114
     .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/cp1;->b:I
+
+    iget-object v1, p0, Lcom/huawei/appmarket/cp1;->c:Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;
+
+    packed-switch v0, :pswitch_data_0
+
+    invoke-static {v1}, Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;->e5(Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;)V
+
+    return-void
+
+    :pswitch_0
+    invoke-static {v1}, Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;->d5(Lcom/huawei/appmarket/service/distribution/deeplink/fulldetail/DisFullDetailActivity;)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
 .end method

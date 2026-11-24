@@ -332,6 +332,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private j(Lcom/google/protobuf/Descriptors$f;)V
@@ -790,6 +791,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getField(Lcom/google/protobuf/Descriptors$f;)Ljava/lang/Object;

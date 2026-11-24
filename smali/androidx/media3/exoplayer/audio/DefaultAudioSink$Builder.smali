@@ -19,7 +19,7 @@
 
 .field private b:Landroidx/media3/exoplayer/audio/a;
 
-.field private c:Lcom/huawei/appmarket/sz;
+.field private c:Lcom/huawei/appmarket/tz;
 
 .field private d:Z
 
@@ -93,11 +93,11 @@
     return-object p0
 .end method
 
-.method static synthetic c(Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;)Lcom/huawei/appmarket/sz;
+.method static synthetic c(Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;)Lcom/huawei/appmarket/tz;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/sz;
+    iget-object p0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/tz;
 
     return-object p0
 .end method
@@ -150,11 +150,11 @@
 
     xor-int/2addr v0, v1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->d(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->d(Z)V
 
     iput-boolean v1, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->f:Z
 
-    iget-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/sz;
+    iget-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/tz;
 
     if-nez v0, :cond_0
 
@@ -166,7 +166,7 @@
 
     invoke-direct {v0, v1}, Landroidx/media3/exoplayer/audio/DefaultAudioSink$f;-><init>([Landroidx/media3/common/audio/AudioProcessor;)V
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/sz;
+    iput-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/tz;
 
     :cond_0
     iget-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->h:Landroidx/media3/exoplayer/audio/DefaultAudioOffloadSupportProvider;
@@ -220,7 +220,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/sz;
+    iput-object v0, p0, Landroidx/media3/exoplayer/audio/DefaultAudioSink$Builder;->c:Lcom/huawei/appmarket/tz;
 
     .line 10
     .line 11

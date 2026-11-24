@@ -60,13 +60,13 @@
     return-void
 .end method
 
-.method public final refreshStatus()Lcom/huawei/appmarket/dt1;
+.method public final refreshStatus()Lcom/huawei/appmarket/gt1;
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/dt1;->y:Lcom/huawei/appmarket/dt1;
+    sget-object v0, Lcom/huawei/appmarket/gt1;->y:Lcom/huawei/appmarket/gt1;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/dt1;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;->status:Lcom/huawei/appmarket/gt1;
 
     return-object v0
 .end method
@@ -96,7 +96,7 @@
     return-void
 .end method
 
-.method public setButtonStyle(Lcom/huawei/appmarket/rd1;)V
+.method public setButtonStyle(Lcom/huawei/appmarket/td1;)V
     .registers 2
 
     .line 1
@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method protected setIsImmersionByStyle(Lcom/huawei/appmarket/eq7;)V
+.method protected setIsImmersionByStyle(Lcom/huawei/appmarket/kq7;)V
     .registers 2
 
     .line 1

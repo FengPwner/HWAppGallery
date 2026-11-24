@@ -56,11 +56,11 @@
     goto :goto_0
 
     :cond_0
-    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;
+    new-instance v1, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z0;
 
-    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$w0;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
+    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$z0;-><init>(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;Lorg/json/JSONObject;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->requestWhiteList(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$x0;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;->requestWhiteList(Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$a1;)V
 
     :goto_0
     return-void

@@ -49,7 +49,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->F(Landroid/view/View;)F
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->F(Landroid/view/View;)F
 
     .line 6
     .line 7
@@ -57,7 +57,7 @@
     move-result p1
 
     .line 9
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->F(Landroid/view/View;)F
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->F(Landroid/view/View;)F
 
     .line 10
     .line 11

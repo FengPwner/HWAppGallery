@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/service/store/awk/card/ProductListCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/ProductListCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/ProductListCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/ProductListCard$a;->b:Lcom/huawei/appmarket/service/store/awk/card/ProductListCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -46,7 +46,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/d86;->b()Lcom/huawei/appmarket/d86;
+    invoke-static {}, Lcom/huawei/appmarket/f86;->b()Lcom/huawei/appmarket/f86;
 
     move-result-object v1
 
@@ -56,7 +56,7 @@
 
     invoke-direct {v3, p1}, Lcom/huawei/appmarket/service/store/awk/card/ProductListCard$c;-><init>(Lcom/huawei/appmarket/service/store/awk/card/ProductListCard;)V
 
-    invoke-virtual {v1, v0, v2, v3}, Lcom/huawei/appmarket/d86;->e(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;Lcom/huawei/appmarket/ux3;)V
+    invoke-virtual {v1, v0, v2, v3}, Lcom/huawei/appmarket/f86;->e(Landroid/app/Activity;Lcom/huawei/appgallery/productpurchase/api/ProductDetailBean;Lcom/huawei/appmarket/wx3;)V
 
     :cond_0
     return-void

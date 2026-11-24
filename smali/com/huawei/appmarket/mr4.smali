@@ -1,16 +1,10 @@
-.class public final Lcom/huawei/appmarket/mr4;
+.class final Lcom/huawei/appmarket/mr4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/uy;
-
-.field private static volatile b:Lcom/huawei/appmarket/hg5;
-
-.field private static volatile c:Lcom/huawei/appmarket/cg5;
-
-.field public static final synthetic d:I
+.field static a:Lcom/huawei/appmarket/ip4$a;
 
 
 # direct methods
@@ -18,9 +12,17 @@
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/uy;->b:Lcom/huawei/appmarket/uy;
+    const-string v0, "k"
 
-    sput-object v0, Lcom/huawei/appmarket/mr4;->a:Lcom/huawei/appmarket/uy;
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/ip4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/ip4$a;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/mr4;->a:Lcom/huawei/appmarket/ip4$a;
 
     return-void
 .end method
@@ -33,123 +35,241 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/uy;
-    .registers 1
+.method static a(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;FLcom/huawei/appmarket/vf8;Z)Ljava/util/ArrayList;
+    .registers 14
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/mr4;->a:Lcom/huawei/appmarket/uy;
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->E()Lcom/huawei/appmarket/ip4$b;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/huawei/appmarket/ip4$b;->g:Lcom/huawei/appmarket/ip4$b;
+
+    if-ne v1, v2, :cond_0
+
+    const-string p0, "Lottie doesn\'t support expressions."
+
+    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/u05;->a(Ljava/lang/String;)V
+
+    return-object v0
+
+    :cond_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->t()V
+
+    :goto_0
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->x()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_5
+
+    sget-object v1, Lcom/huawei/appmarket/mr4;->a:Lcom/huawei/appmarket/ip4$a;
+
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/ip4;->G(Lcom/huawei/appmarket/ip4$a;)I
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->I()V
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->E()Lcom/huawei/appmarket/ip4$b;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/huawei/appmarket/ip4$b;->b:Lcom/huawei/appmarket/ip4$b;
+
+    if-ne v1, v2, :cond_4
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->s()V
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->E()Lcom/huawei/appmarket/ip4$b;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/huawei/appmarket/ip4$b;->h:Lcom/huawei/appmarket/ip4$b;
+
+    if-ne v1, v2, :cond_2
+
+    const/4 v7, 0x0
+
+    move-object v3, p0
+
+    move-object v4, p1
+
+    move v5, p2
+
+    move-object v6, p3
+
+    move v8, p4
+
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/lr4;->b(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;FLcom/huawei/appmarket/vf8;ZZ)Lcom/huawei/appmarket/jr4;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_2
+
+    :cond_2
+    :goto_1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->x()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_3
+
+    const/4 v6, 0x1
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move v4, p2
+
+    move-object v5, p3
+
+    move v7, p4
+
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/lr4;->b(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;FLcom/huawei/appmarket/vf8;ZZ)Lcom/huawei/appmarket/jr4;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_1
+
+    :cond_3
+    :goto_2
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->u()V
+
+    goto :goto_0
+
+    :cond_4
+    const/4 v6, 0x0
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move v4, p2
+
+    move-object v5, p3
+
+    move v7, p4
+
+    invoke-static/range {v2 .. v7}, Lcom/huawei/appmarket/lr4;->b(Lcom/huawei/appmarket/ip4;Lcom/huawei/appmarket/u05;FLcom/huawei/appmarket/vf8;ZZ)Lcom/huawei/appmarket/jr4;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_5
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ip4;->v()V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mr4;->b(Ljava/util/ArrayList;)V
 
     return-object v0
 .end method
 
-.method public static b(Landroid/content/Context;)Lcom/huawei/appmarket/cg5;
-    .registers 4
+.method public static b(Ljava/util/ArrayList;)V
+    .registers 6
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
 
-    move-result-object p0
+    move-result v0
 
-    sget-object v0, Lcom/huawei/appmarket/mr4;->c:Lcom/huawei/appmarket/cg5;
-
-    if-nez v0, :cond_1
-
-    const-class v1, Lcom/huawei/appmarket/cg5;
-
-    monitor-enter v1
-
-    :try_start_0
-    sget-object v0, Lcom/huawei/appmarket/mr4;->c:Lcom/huawei/appmarket/cg5;
-
-    if-nez v0, :cond_0
-
-    new-instance v0, Lcom/huawei/appmarket/cg5;
-
-    new-instance v2, Lcom/huawei/appmarket/lr4;
-
-    invoke-direct {v2, p0}, Lcom/huawei/appmarket/lr4;-><init>(Landroid/content/Context;)V
-
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/cg5;-><init>(Lcom/huawei/appmarket/e15;)V
-
-    sput-object v0, Lcom/huawei/appmarket/mr4;->c:Lcom/huawei/appmarket/cg5;
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception p0
-
-    goto :goto_1
+    const/4 v1, 0x0
 
     :cond_0
     :goto_0
-    monitor-exit v1
+    const/4 v2, 0x1
 
-    goto :goto_2
+    add-int/lit8 v3, v0, -0x1
 
-    :goto_1
-    monitor-exit v1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    if-ge v1, v3, :cond_1
 
-    throw p0
+    invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    :cond_1
-    :goto_2
-    return-object v0
-.end method
+    move-result-object v2
 
-.method public static c(Landroid/content/Context;)Lcom/huawei/appmarket/hg5;
-    .registers 4
+    check-cast v2, Lcom/huawei/appmarket/jr4;
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/mr4;->b:Lcom/huawei/appmarket/hg5;
+    add-int/lit8 v1, v1, 0x1
 
-    if-nez v0, :cond_1
+    invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    const-class v1, Lcom/huawei/appmarket/hg5;
+    move-result-object v3
 
-    monitor-enter v1
+    check-cast v3, Lcom/huawei/appmarket/jr4;
 
-    :try_start_0
-    sget-object v0, Lcom/huawei/appmarket/mr4;->b:Lcom/huawei/appmarket/hg5;
+    iget v4, v3, Lcom/huawei/appmarket/jr4;->g:F
 
-    if-nez v0, :cond_0
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-    new-instance v0, Lcom/huawei/appmarket/hg5;
+    move-result-object v4
 
-    invoke-static {p0}, Lcom/huawei/appmarket/mr4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/cg5;
+    iput-object v4, v2, Lcom/huawei/appmarket/jr4;->h:Ljava/lang/Float;
 
-    move-result-object p0
+    iget-object v4, v2, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
 
-    new-instance v2, Lcom/huawei/appmarket/if1;
+    if-nez v4, :cond_0
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/if1;-><init>()V
+    iget-object v3, v3, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
 
-    invoke-direct {v0, p0, v2}, Lcom/huawei/appmarket/hg5;-><init>(Lcom/huawei/appmarket/cg5;Lcom/huawei/appmarket/f15;)V
+    if-eqz v3, :cond_0
 
-    sput-object v0, Lcom/huawei/appmarket/mr4;->b:Lcom/huawei/appmarket/hg5;
+    iput-object v3, v2, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    instance-of v3, v2, Lcom/huawei/appmarket/rw5;
+
+    if-eqz v3, :cond_0
+
+    check-cast v2, Lcom/huawei/appmarket/rw5;
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/rw5;->i()V
 
     goto :goto_0
 
-    :catchall_0
-    move-exception p0
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    monitor-exit v1
-
-    goto :goto_2
-
-    :goto_1
-    monitor-exit v1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p0
-
     :cond_1
-    :goto_2
-    return-object v0
+    invoke-virtual {p0, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/jr4;
+
+    iget-object v1, v0, Lcom/huawei/appmarket/jr4;->b:Ljava/lang/Object;
+
+    if-eqz v1, :cond_2
+
+    iget-object v1, v0, Lcom/huawei/appmarket/jr4;->c:Ljava/lang/Object;
+
+    if-nez v1, :cond_3
+
+    :cond_2
+    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    if-le v1, v2, :cond_3
+
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    :cond_3
+    return-void
 .end method

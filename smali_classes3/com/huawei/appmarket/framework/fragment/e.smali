@@ -84,7 +84,7 @@
 
     move-result v0
 
-    invoke-static {p1, v2, v0}, Lcom/huawei/appmarket/tf;->a(Landroidx/viewpager2/widget/ViewPager2;IZ)V
+    invoke-static {p1, v2, v0}, Lcom/huawei/appmarket/sf;->a(Landroidx/viewpager2/widget/ViewPager2;IZ)V
 
     :cond_1
     return-void

@@ -24,7 +24,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ba8;->b()Lcom/huawei/appmarket/ba8;
+    invoke-static {}, Lcom/huawei/appmarket/ga8;->b()Lcom/huawei/appmarket/ga8;
 
     .line 2
     .line 3
@@ -32,7 +32,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ba8;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ga8;->l()V
 
     .line 6
     .line 7
@@ -71,7 +71,7 @@
 
     .line 25
     .line 26
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 27
     .line 28
@@ -79,7 +79,7 @@
     move-result-object v1
 
     .line 30
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     .line 31
     .line 32

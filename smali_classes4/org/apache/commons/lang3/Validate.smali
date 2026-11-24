@@ -1140,13 +1140,13 @@
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    new-instance v1, Lcom/huawei/appmarket/ps6;
+    new-instance v1, Lcom/huawei/appmarket/ss6;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, v2, p1, p2, v0}, Lcom/huawei/appmarket/ps6;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p1, p2, v0}, Lcom/huawei/appmarket/ss6;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/r58;->p(Ljava/lang/Iterable;Lcom/huawei/appmarket/ps6;)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/fq7;->v(Ljava/lang/Iterable;Lcom/huawei/appmarket/ss6;)V
 
     return-object p0
 .end method
@@ -1275,7 +1275,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     invoke-static {p0}, Lorg/apache/commons/lang3/StringUtils;->isBlank(Ljava/lang/CharSequence;)Z
 
@@ -1340,7 +1340,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
@@ -1405,7 +1405,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
@@ -1470,7 +1470,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
@@ -1535,7 +1535,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     array-length v0, p0
 
@@ -1640,7 +1640,7 @@
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/r58;->q(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/fq7;->w(Ljava/lang/Object;Ljava/util/function/Supplier;)V
 
     return-object p0
 .end method
@@ -1660,9 +1660,9 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/huawei/appmarket/jf8;
+    new-instance v0, Lcom/huawei/appmarket/of8;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/jf8;-><init>(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appmarket/of8;-><init>(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-object v0
 .end method

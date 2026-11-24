@@ -58,7 +58,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->K2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->K2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 4
     .line 5
@@ -66,7 +66,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 8
     .line 9
@@ -74,7 +74,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->J2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->J2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 12
     .line 13
@@ -82,7 +82,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 16
     .line 17
@@ -109,7 +109,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->M2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/sb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->M2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/vb3;
 
     .line 29
     .line 30
@@ -117,7 +117,7 @@
     move-result-object v0
 
     .line 32
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->L2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->L2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 33
     .line 34
@@ -125,7 +125,7 @@
     move-result-object v1
 
     .line 36
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 37
     .line 38
@@ -185,7 +185,7 @@
 
     .line 65
     .line 66
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->N2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->N2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 67
     .line 68
@@ -193,12 +193,12 @@
     move-result-object v0
 
     .line 70
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->O2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->O2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 74
     .line 75
@@ -219,7 +219,7 @@
     move-result-object p2
 
     .line 84
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 85
     .line 86
@@ -255,7 +255,7 @@
     move-result-object v3
 
     .line 102
-    invoke-static {v3}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 103
     .line 104
@@ -334,7 +334,7 @@
 
     .line 139
     :goto_0
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->y(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->y(Z)V
 
     .line 140
     .line 141
@@ -355,7 +355,7 @@
     move-result-object p2
 
     .line 150
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->r2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->r2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 151
     .line 152
@@ -363,7 +363,7 @@
     move-result-object v0
 
     .line 154
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->k()I
 
     .line 155
     .line 156
@@ -374,7 +374,7 @@
     sub-int/2addr v0, v2
 
     .line 159
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     .line 160
     .line 161
@@ -390,7 +390,7 @@
     move-result-object v0
 
     .line 167
-    invoke-virtual {v2, p2, v0}, Lcom/huawei/appmarket/ub3;->o(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, p2, v0}, Lcom/huawei/appmarket/xb3;->o(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     .line 169
@@ -432,7 +432,7 @@
     move-result-object p2
 
     .line 189
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->s2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->s2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 190
     .line 191
@@ -440,7 +440,7 @@
     move-result-object v0
 
     .line 193
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 194
     .line 195
@@ -461,7 +461,7 @@
     move-result-object p2
 
     .line 204
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->t2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->t2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 205
     .line 206
@@ -469,7 +469,7 @@
     move-result-object v0
 
     .line 208
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 209
     .line 210
@@ -490,7 +490,7 @@
     move-result-object p2
 
     .line 219
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->u2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->u2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 220
     .line 221
@@ -498,7 +498,7 @@
     move-result-object v0
 
     .line 223
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->k()I
 
     .line 224
     .line 225
@@ -511,7 +511,7 @@
     .line 228
     .line 229
     .line 230
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->v2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/nb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->v2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/qb3;
 
     .line 231
     .line 232
@@ -519,7 +519,7 @@
     move-result-object p2
 
     .line 234
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 235
     .line 236
@@ -527,7 +527,7 @@
     move-result-object p2
 
     .line 238
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 239
     .line 240
@@ -618,7 +618,7 @@
 
     .line 283
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->w2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/sb3;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;->w2(Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalCard;)Lcom/huawei/appmarket/vb3;
 
     .line 284
     .line 285
@@ -1192,23 +1192,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

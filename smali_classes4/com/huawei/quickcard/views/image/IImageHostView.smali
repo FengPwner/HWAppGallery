@@ -12,13 +12,13 @@
 .method public abstract enableCache(Z)V
 .end method
 
-.method public abstract getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method public abstract getPlaceHolder(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/String;",
             "Landroid/graphics/drawable/Drawable;",
             ">;"

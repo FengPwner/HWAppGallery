@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq3$a;
+.implements Lcom/huawei/appmarket/mq3$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kq3$a<",
+        "Lcom/huawei/appmarket/mq3$a<",
         "Lcom/huawei/appgallery/forum/message/msgsetting/launcher/request/UploadPushTokenRequest;",
         "Lcom/huawei/appgallery/forum/message/msgsetting/launcher/request/UploadPushTokenResponse;",
         ">;"
@@ -19,19 +19,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;Lcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/b;->b:Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/b;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/b;->a:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,7 +52,7 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/b;->a:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/b;->a:Lcom/huawei/appmarket/tv7;
 
     .line 6
     .line 7
@@ -107,7 +107,7 @@
     .line 31
     .line 32
     :goto_0
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     .line 33
     .line 34
@@ -251,7 +251,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;Ljava/lang/Object;)V

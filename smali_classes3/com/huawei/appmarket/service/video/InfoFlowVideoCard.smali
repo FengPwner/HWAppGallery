@@ -22,13 +22,13 @@
 
 
 # virtual methods
-.method protected final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
     invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -36,7 +36,7 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/appmarket/service/video/InfoFlowVideoCard$RatioConstraintLayout;-><init>(Landroid/content/Context;)V
 
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/video/VideoCard;->c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/video/VideoCard;->c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 

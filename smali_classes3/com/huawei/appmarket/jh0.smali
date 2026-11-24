@@ -3,19 +3,23 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/hh0;
+.field final synthetic b:Z
+
+.field final synthetic c:Lcom/huawei/appmarket/ih0;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/hh0;)V
-    .registers 2
+.method constructor <init>(Lcom/huawei/appmarket/ih0;Z)V
+    .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/jh0;->b:Lcom/huawei/appmarket/hh0;
+    iput-object p1, p0, Lcom/huawei/appmarket/jh0;->c:Lcom/huawei/appmarket/ih0;
+
+    iput-boolean p2, p0, Lcom/huawei/appmarket/jh0;->b:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -24,52 +28,41 @@
 
 
 # virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 6
+.method public final run()V
+    .registers 3
 
     .line 1
-    const/4 p2, -0x1
+    const-class v0, Lcom/huawei/appmarket/ur3;
 
-    const-string v0, "CallFrontFlow"
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/jh0;->b:Lcom/huawei/appmarket/hh0;
+    move-result-object v0
 
-    if-ne p3, p2, :cond_0
+    check-cast v0, Lcom/huawei/appmarket/ur3;
 
-    const-string p2, "showGuideLoginDialog\uff0c performConfirm"
+    invoke-interface {v0}, Lcom/huawei/appmarket/ur3;->a0()V
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    iget-boolean v0, p0, Lcom/huawei/appmarket/jh0;->b:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/p13;->h()Lcom/huawei/appmarket/p13;
+    iget-object v1, p0, Lcom/huawei/appmarket/jh0;->c:Lcom/huawei/appmarket/ih0;
 
-    move-result-object p2
+    if-eqz v0, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/o3;->h()Z
+    invoke-static {v1}, Lcom/huawei/appmarket/ih0;->s(Lcom/huawei/appmarket/ih0;)Landroid/app/Activity;
 
-    move-result p3
+    move-result-object v0
 
-    invoke-virtual {p2, p1, p3}, Lcom/huawei/appmarket/p13;->e(Landroid/app/Activity;Z)Lcom/huawei/appmarket/j83;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/o3;->n(Lcom/huawei/appmarket/o3;)V
-
-    invoke-static {v1}, Lcom/huawei/appmarket/hh0;->v(Lcom/huawei/appmarket/hh0;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ih0;->r(Lcom/huawei/appmarket/ih0;Landroid/app/Activity;)V
 
     goto :goto_0
 
     :cond_0
-    const/4 p1, -0x2
+    invoke-static {v1}, Lcom/huawei/appmarket/ih0;->t(Lcom/huawei/appmarket/ih0;)Landroid/app/Activity;
 
-    if-ne p3, p1, :cond_1
+    move-result-object v0
 
-    const-string p1, "showGuideLoginDialog\uff0c performCancel"
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ih0;->u(Lcom/huawei/appmarket/ih0;Landroid/app/Activity;)V
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {v1}, Lcom/huawei/appmarket/hh0;->w(Lcom/huawei/appmarket/hh0;)V
-
-    :cond_1
     :goto_0
     return-void
 .end method

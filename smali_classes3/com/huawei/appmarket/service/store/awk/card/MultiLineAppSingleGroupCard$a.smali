@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard$a;->d:Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;
 
-    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {p0, p2, p3}, Lcom/huawei/appmarket/p40$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     return-void
 .end method
@@ -175,5 +175,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

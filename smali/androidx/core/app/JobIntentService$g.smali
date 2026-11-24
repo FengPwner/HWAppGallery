@@ -69,7 +69,7 @@
     .registers 4
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/nm4;->d(Landroid/content/Intent;)Landroid/app/job/JobWorkItem;
+    invoke-static {p1}, Lcom/huawei/appmarket/qm4;->d(Landroid/content/Intent;)Landroid/app/job/JobWorkItem;
 
     move-result-object p1
 
@@ -77,7 +77,7 @@
 
     iget-object v1, p0, Landroidx/core/app/JobIntentService$g;->d:Landroid/app/job/JobInfo;
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/nm4;->x(Landroid/app/job/JobScheduler;Landroid/app/job/JobInfo;Landroid/app/job/JobWorkItem;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/qm4;->x(Landroid/app/job/JobScheduler;Landroid/app/job/JobInfo;Landroid/app/job/JobWorkItem;)V
 
     return-void
 .end method

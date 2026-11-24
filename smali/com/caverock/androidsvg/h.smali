@@ -1882,7 +1882,7 @@
 
     .line 472
     .line 473
-    invoke-virtual {p1}, Lcom/caverock/androidsvg/g$n0;->o()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/caverock/androidsvg/g$n0;->n()Ljava/lang/String;
 
     .line 474
     .line 475
@@ -2525,6 +2525,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private P(Lcom/caverock/androidsvg/g$f0;Lcom/caverock/androidsvg/g$b;Lcom/caverock/androidsvg/g$b;Lcom/caverock/androidsvg/e;)V
@@ -3658,7 +3659,7 @@
 
     check-cast v4, Lcom/caverock/androidsvg/g$g0;
 
-    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->c()Ljava/lang/String;
+    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->b()Ljava/lang/String;
 
     move-result-object v5
 
@@ -3667,7 +3668,7 @@
     goto :goto_9
 
     :cond_1b
-    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->b()Ljava/util/Set;
+    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->a()Ljava/util/Set;
 
     move-result-object v5
 
@@ -3688,7 +3689,7 @@
     goto :goto_9
 
     :cond_1c
-    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->f()Ljava/util/Set;
+    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->e()Ljava/util/Set;
 
     move-result-object v5
 
@@ -3855,7 +3856,7 @@
     goto/16 :goto_9
 
     :cond_1e
-    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->m()Ljava/util/Set;
+    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->l()Ljava/util/Set;
 
     move-result-object v5
 
@@ -3866,7 +3867,7 @@
     goto/16 :goto_9
 
     :cond_1f
-    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->n()Ljava/util/Set;
+    invoke-interface {v4}, Lcom/caverock/androidsvg/g$g0;->m()Ljava/util/Set;
 
     move-result-object v4
 
@@ -5442,7 +5443,7 @@
     .line 18
     .line 19
     :cond_0
-    invoke-interface {p1}, Lcom/caverock/androidsvg/g$j0;->a()Ljava/util/List;
+    invoke-interface {p1}, Lcom/caverock/androidsvg/g$j0;->getChildren()Ljava/util/List;
 
     .line 20
     .line 21
@@ -17375,7 +17376,7 @@
 
     .line 171
     :cond_9
-    invoke-virtual {v2}, Lcom/caverock/androidsvg/g$z0;->d()Lcom/caverock/androidsvg/g$b1;
+    invoke-virtual {v2}, Lcom/caverock/androidsvg/g$z0;->c()Lcom/caverock/androidsvg/g$b1;
 
     .line 172
     .line 173
@@ -17799,7 +17800,7 @@
 
     .line 365
     :cond_16
-    invoke-virtual {v2}, Lcom/caverock/androidsvg/g$v0;->d()Lcom/caverock/androidsvg/g$b1;
+    invoke-virtual {v2}, Lcom/caverock/androidsvg/g$v0;->c()Lcom/caverock/androidsvg/g$b1;
 
     .line 366
     .line 367
@@ -17914,7 +17915,7 @@
 
     .line 421
     .line 422
-    invoke-virtual {v1}, Lcom/caverock/androidsvg/g$u0;->d()Lcom/caverock/androidsvg/g$b1;
+    invoke-virtual {v1}, Lcom/caverock/androidsvg/g$u0;->c()Lcom/caverock/androidsvg/g$b1;
 
     .line 423
     .line 424

@@ -32,12 +32,12 @@
 
 
 # virtual methods
-.method final a(Lcom/huawei/appmarket/sq4;Z)Lcom/bumptech/glide/load/engine/k;
+.method final a(Lcom/huawei/appmarket/vq4;Z)Lcom/bumptech/glide/load/engine/k;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Z)",
             "Lcom/bumptech/glide/load/engine/k<",
             "*>;"
@@ -213,12 +213,12 @@
     .line 150
 .end method
 
-.method final b(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/k;)V
+.method final b(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/k;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Lcom/bumptech/glide/load/engine/k<",
             "*>;)V"
         }
@@ -393,12 +393,12 @@
     .line 150
 .end method
 
-.method final c(Lcom/huawei/appmarket/sq4;Lcom/bumptech/glide/load/engine/k;)V
+.method final c(Lcom/huawei/appmarket/vq4;Lcom/bumptech/glide/load/engine/k;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/vq4;",
             "Lcom/bumptech/glide/load/engine/k<",
             "*>;)V"
         }

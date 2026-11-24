@@ -47,7 +47,7 @@
 
     const v2, 0x7f0a1514
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v2, 0x7f0a0739
 
@@ -71,13 +71,13 @@
 
     check-cast v3, Landroid/widget/LinearLayout$LayoutParams;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v4
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v0
 
@@ -118,7 +118,7 @@
     const/4 p2, 0x0
 
     .line 14
-    invoke-static {p2, p2, p1}, Lcom/huawei/appmarket/b37;->D(IILandroid/view/View;)V
+    invoke-static {p2, p2, p1}, Lcom/huawei/appmarket/g37;->D(IILandroid/view/View;)V
 
     .line 15
     .line 16
@@ -273,5 +273,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

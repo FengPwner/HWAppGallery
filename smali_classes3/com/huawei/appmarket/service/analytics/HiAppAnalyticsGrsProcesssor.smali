@@ -212,7 +212,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -226,7 +225,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {v0}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -401,9 +400,9 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
     new-instance v2, Lcom/huawei/appmarket/zd;
 
@@ -411,7 +410,7 @@
 
     invoke-direct {v2, p0, v3, p1}, Lcom/huawei/appmarket/zd;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/up1;->b(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/kp1;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
 
     return-void
 

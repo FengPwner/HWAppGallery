@@ -88,7 +88,7 @@
 
     invoke-virtual {v0, p1, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-interface {p4}, Lcom/huawei/appmarket/h34;->build()Landroid/os/Bundle;
+    invoke-interface {p4}, Lcom/huawei/appmarket/j34;->build()Landroid/os/Bundle;
 
     move-result-object p1
 
@@ -98,7 +98,7 @@
 
     if-eqz p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -118,7 +118,7 @@
 
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-interface {p4}, Lcom/huawei/appmarket/h34;->build()Landroid/os/Bundle;
+    invoke-interface {p4}, Lcom/huawei/appmarket/j34;->build()Landroid/os/Bundle;
 
     move-result-object p2
 
@@ -134,7 +134,7 @@
 
     const-string p3, "BroadcastHelper"
 
-    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p3, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-direct {p0, v0}, Lcom/huawei/appmarket/ac0;->b(Landroid/content/Intent;)V
@@ -249,7 +249,7 @@
     const/4 v3, 0x0
 
     .line 54
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->b()I
 
     .line 55
     .line 56
@@ -274,7 +274,7 @@
     .line 65
     .line 66
     .line 67
-    sget-object v1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object v1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     .line 68
     .line 69
@@ -308,7 +308,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -334,7 +334,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final c(ILjava/util/ArrayList;Lcom/huawei/appgallery/dynamiccore/impl/statebuilder/DownloadStateBuilder;)V
@@ -403,17 +402,17 @@
     :cond_0
     const-string p1, "Bundle.state"
 
-    invoke-interface {p3}, Lcom/huawei/appmarket/h34;->build()Landroid/os/Bundle;
+    invoke-interface {p3}, Lcom/huawei/appmarket/j34;->build()Landroid/os/Bundle;
 
     move-result-object p2
 
     invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     const-string p2, "BroadcastHelper"
 
-    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/appmarket/ac0;->b(Landroid/content/Intent;)V
 
@@ -446,7 +445,7 @@
     return-void
 .end method
 
-.method public final g(ILcom/huawei/appmarket/yg4;)V
+.method public final g(ILcom/huawei/appmarket/ah4;)V
     .registers 6
 
     .line 1
@@ -480,17 +479,17 @@
 
     const-string p1, "Bundle.state"
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/yg4;->build()Landroid/os/Bundle;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ah4;->build()Landroid/os/Bundle;
 
     move-result-object p2
 
     invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     const-string p2, "BroadcastHelper"
 
-    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/appmarket/ac0;->b(Landroid/content/Intent;)V
 
@@ -535,18 +534,18 @@
 
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     const-string v1, "BroadcastHelper"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/appmarket/ac0;->b(Landroid/content/Intent;)V
 
     return-void
 .end method
 
-.method public final i(ILcom/huawei/appmarket/yg4;)V
+.method public final i(ILcom/huawei/appmarket/ah4;)V
     .registers 6
 
     .line 1
@@ -578,7 +577,7 @@
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/yg4;->build()Landroid/os/Bundle;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ah4;->build()Landroid/os/Bundle;
 
     move-result-object p1
 
@@ -586,7 +585,7 @@
 
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -594,7 +593,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/yg4;->build()Landroid/os/Bundle;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/ah4;->build()Landroid/os/Bundle;
 
     move-result-object p2
 
@@ -610,7 +609,7 @@
 
     const-string v1, "BroadcastHelper"
 
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/appmarket/ac0;->b(Landroid/content/Intent;)V
 

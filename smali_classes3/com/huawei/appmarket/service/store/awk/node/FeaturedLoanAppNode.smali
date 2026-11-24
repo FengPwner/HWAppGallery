@@ -28,7 +28,7 @@
 
     .line 4
     .line 5
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -166,7 +166,7 @@
     move-result v7
 
     .line 75
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     .line 76
     .line 77
@@ -225,7 +225,7 @@
 
     .line 100
     .line 101
-    invoke-static {p2, v6}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v6}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 102
     .line 103
@@ -257,16 +257,16 @@
 
     .line 116
     :goto_3
-    new-instance v7, Lcom/huawei/appmarket/ei2;
+    new-instance v7, Lcom/huawei/appmarket/hi2;
 
     .line 117
     .line 118
-    invoke-direct {v7, v3, v2}, Lcom/huawei/appmarket/ei2;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v7, v3, v2}, Lcom/huawei/appmarket/hi2;-><init>(Landroid/content/Context;Z)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/ei2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v7, v6}, Lcom/huawei/appmarket/hi2;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 122
     .line 123
@@ -331,7 +331,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
@@ -368,11 +367,11 @@
     return v2
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

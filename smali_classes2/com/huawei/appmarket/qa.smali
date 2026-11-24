@@ -72,7 +72,7 @@
     return p1
 .end method
 
-.method public final requestDataChanged(Lcom/huawei/appmarket/va2;)V
+.method public final requestDataChanged(Lcom/huawei/appmarket/ya2;)V
     .registers 4
 
     .line 1
@@ -90,7 +90,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/pa;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/pa;-><init>(Lcom/huawei/appmarket/qa;Lcom/huawei/appmarket/va2;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appmarket/pa;-><init>(Lcom/huawei/appmarket/qa;Lcom/huawei/appmarket/ya2;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -98,12 +98,12 @@
 
     const-string v0, "listview isComputingLayout, delay request"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/flexiblelayout/data/e;->requestDataChanged(Lcom/huawei/appmarket/va2;)V
+    invoke-super {p0, p1}, Lcom/huawei/flexiblelayout/data/e;->requestDataChanged(Lcom/huawei/appmarket/ya2;)V
 
     return-void
 .end method

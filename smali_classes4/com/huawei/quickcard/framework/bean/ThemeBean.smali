@@ -237,7 +237,7 @@
             "Ljava/lang/Integer;",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/sy8;",
+            "Lcom/huawei/appmarket/yy8;",
             ">;>;"
         }
     .end annotation

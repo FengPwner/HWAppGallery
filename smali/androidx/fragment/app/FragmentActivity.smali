@@ -50,7 +50,7 @@
 
     new-instance v0, Landroidx/lifecycle/k;
 
-    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/du4;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/gu4;)V
 
     iput-object v0, p0, Landroidx/fragment/app/FragmentActivity;->mFragmentLifecycleRegistry:Landroidx/lifecycle/k;
 
@@ -81,7 +81,7 @@
 
     new-instance p1, Landroidx/lifecycle/k;
 
-    invoke-direct {p1, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/du4;)V
+    invoke-direct {p1, p0}, Landroidx/lifecycle/k;-><init>(Lcom/huawei/appmarket/gu4;)V
 
     iput-object p1, p0, Landroidx/fragment/app/FragmentActivity;->mFragmentLifecycleRegistry:Landroidx/lifecycle/k;
 
@@ -135,7 +135,7 @@
 .method private init()V
     .registers 5
 
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Lcom/huawei/appmarket/a27;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Lcom/huawei/appmarket/e27;
 
     move-result-object v0
 
@@ -147,27 +147,27 @@
 
     const-string v3, "android:support:lifecycle"
 
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/a27;->g(Ljava/lang/String;Lcom/huawei/appmarket/a27$c;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/e27;->g(Ljava/lang/String;Lcom/huawei/appmarket/e27$c;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ar2;
+    new-instance v0, Lcom/huawei/appmarket/cr2;
 
-    invoke-direct {v0, v2, p0}, Lcom/huawei/appmarket/ar2;-><init>(ILandroidx/fragment/app/FragmentActivity;)V
+    invoke-direct {v0, v2, p0}, Lcom/huawei/appmarket/cr2;-><init>(ILandroidx/fragment/app/FragmentActivity;)V
 
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnConfigurationChangedListener(Lcom/huawei/appmarket/h21;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ar2;
+    new-instance v0, Lcom/huawei/appmarket/cr2;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/ar2;-><init>(ILandroidx/fragment/app/FragmentActivity;)V
+    invoke-direct {v0, v1, p0}, Lcom/huawei/appmarket/cr2;-><init>(ILandroidx/fragment/app/FragmentActivity;)V
 
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnNewIntentListener(Lcom/huawei/appmarket/h21;)V
 
-    new-instance v0, Lcom/huawei/appmarket/br2;
+    new-instance v0, Lcom/huawei/appmarket/dr2;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/br2;-><init>(Landroidx/fragment/app/FragmentActivity;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/dr2;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Lcom/huawei/appmarket/io5;)V
+    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Lcom/huawei/appmarket/jo5;)V
 
     return-void
 .end method
@@ -578,11 +578,11 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/tw4;->b(Lcom/huawei/appmarket/du4;)Lcom/huawei/appmarket/tw4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ww4;->b(Lcom/huawei/appmarket/gu4;)Lcom/huawei/appmarket/ww4;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, p2, p3, p4}, Lcom/huawei/appmarket/tw4;->a(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p2, p3, p4}, Lcom/huawei/appmarket/ww4;->a(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
     :cond_1
     iget-object v0, p0, Landroidx/fragment/app/FragmentActivity;->mFragments:Landroidx/fragment/app/h;
@@ -608,13 +608,13 @@
     return-object v0
 .end method
 
-.method public getSupportLoaderManager()Lcom/huawei/appmarket/tw4;
+.method public getSupportLoaderManager()Lcom/huawei/appmarket/ww4;
     .registers 2
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/tw4;->b(Lcom/huawei/appmarket/du4;)Lcom/huawei/appmarket/tw4;
+    invoke-static {p0}, Lcom/huawei/appmarket/ww4;->b(Lcom/huawei/appmarket/gu4;)Lcom/huawei/appmarket/ww4;
 
     move-result-object v0
 
@@ -927,20 +927,20 @@
     return-void
 .end method
 
-.method public setEnterSharedElementCallback(Lcom/huawei/appmarket/jd7;)V
+.method public setEnterSharedElementCallback(Lcom/huawei/appmarket/od7;)V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/t7;->l(Landroid/app/Activity;Lcom/huawei/appmarket/jd7;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/t7;->l(Landroid/app/Activity;Lcom/huawei/appmarket/od7;)V
 
     return-void
 .end method
 
-.method public setExitSharedElementCallback(Lcom/huawei/appmarket/jd7;)V
+.method public setExitSharedElementCallback(Lcom/huawei/appmarket/od7;)V
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/t7;->m(Landroid/app/Activity;Lcom/huawei/appmarket/jd7;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/t7;->m(Landroid/app/Activity;Lcom/huawei/appmarket/od7;)V
 
     return-void
 .end method
@@ -1224,7 +1224,7 @@
 
     .line 112
     .line 113
-    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/ej2;->j(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1, v3}, Lcom/huawei/appmarket/kb1;->h(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
 
     .line 114
     .line 115

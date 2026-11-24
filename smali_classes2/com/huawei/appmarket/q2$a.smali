@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pf;
+.implements Lcom/huawei/appmarket/of;
 
 
 # annotations
@@ -24,7 +24,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/q2;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/mi3;)V
+.method constructor <init>(Lcom/huawei/appmarket/q2;Landroid/graphics/Bitmap;Lcom/huawei/appmarket/oi3;)V
     .registers 4
 
     .line 1
@@ -504,7 +504,7 @@
 
     .line 215
     .line 216
-    invoke-static {v4, v3, v5, v7}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v4, v3, v5, v7}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 217
     .line 218
@@ -512,7 +512,7 @@
     move-result-object v4
 
     .line 220
-    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 221
     .line 222
@@ -529,7 +529,7 @@
 
     .line 227
     .line 228
-    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 229
     .line 230
@@ -921,13 +921,4 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method

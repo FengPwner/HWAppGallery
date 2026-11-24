@@ -6,7 +6,7 @@
 # instance fields
 .field private A:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-.field private B:Lcom/huawei/appmarket/rs7;
+.field private B:Lcom/huawei/appmarket/xs7;
 
 .field private x:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
@@ -25,7 +25,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard$a;-><init>(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;->B:Lcom/huawei/appmarket/rs7;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;->B:Lcom/huawei/appmarket/xs7;
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 26
     .line 27
@@ -172,7 +172,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic B1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;)Landroid/content/Context;
@@ -238,7 +237,7 @@
     move-result-wide v2
 
     .line 16
-    invoke-static {}, Lcom/huawei/appmarket/w17;->q()Lcom/huawei/appmarket/w17;
+    invoke-static {}, Lcom/huawei/appmarket/a27;->q()Lcom/huawei/appmarket/a27;
 
     .line 17
     .line 18
@@ -341,7 +340,7 @@
     move-result-object v0
 
     .line 71
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -355,7 +354,7 @@
 
     .line 76
     .line 77
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -490,7 +489,7 @@
     .line 18
     .line 19
     :goto_0
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/sj5;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/uj5;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -841,29 +840,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public static z1(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;)V
@@ -875,7 +851,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/uj5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wj5;->a()Z
 
     .line 5
     .line 6
@@ -924,7 +900,7 @@
     const/4 v0, 0x0
 
     .line 29
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 30
     .line 31
@@ -932,7 +908,7 @@
     move-result-object p0
 
     .line 33
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 34
     .line 35
@@ -941,7 +917,7 @@
 
     .line 37
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 38
     .line 39
@@ -953,11 +929,11 @@
 
     .line 42
     .line 43
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 46
     .line 47
@@ -965,11 +941,11 @@
     move-result-object v0
 
     .line 49
-    const-class v1, Lcom/huawei/appmarket/st3;
+    const-class v1, Lcom/huawei/appmarket/ut3;
 
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -977,7 +953,7 @@
     move-result-object v0
 
     .line 55
-    check-cast v0, Lcom/huawei/appmarket/st3;
+    check-cast v0, Lcom/huawei/appmarket/ut3;
 
     .line 56
     .line 57
@@ -985,11 +961,11 @@
 
     .line 58
     .line 59
-    iget-object p0, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;->B:Lcom/huawei/appmarket/rs7;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;->B:Lcom/huawei/appmarket/xs7;
 
     .line 60
     .line 61
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/st3;->e(Landroid/content/Context;Lcom/huawei/appmarket/rs7;)V
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/ut3;->g(Landroid/content/Context;Lcom/huawei/appmarket/xs7;)V
 
     .line 62
     .line 63
@@ -1046,7 +1022,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -1057,7 +1032,7 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appmarket/y1;->Q()V
 
-    invoke-static {}, Lcom/huawei/appmarket/uj5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wj5;->a()Z
 
     move-result v0
 
@@ -1089,7 +1064,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -1102,7 +1077,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1352,7 +1327,7 @@
 
     .line 140
     .line 141
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/z84;->z(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/kk4;->A(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 142
     .line 143
@@ -1403,7 +1378,7 @@
 
     .line 166
     .line 167
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     .line 169
@@ -1589,11 +1564,9 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
@@ -1612,7 +1585,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -1789,14 +1762,14 @@
 
     .line 97
     .line 98
-    new-instance v1, Lcom/huawei/appmarket/rj5;
+    new-instance v1, Lcom/huawei/appmarket/tj5;
 
     .line 99
     .line 100
     const/4 v2, 0x0
 
     .line 101
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/rj5;-><init>(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/tj5;-><init>(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;I)V
 
     .line 102
     .line 103
@@ -1810,14 +1783,14 @@
 
     .line 108
     .line 109
-    new-instance v1, Lcom/huawei/appmarket/rj5;
+    new-instance v1, Lcom/huawei/appmarket/tj5;
 
     .line 110
     .line 111
     const/4 v2, 0x1
 
     .line 112
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/rj5;-><init>(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/tj5;-><init>(Lcom/huawei/appmarket/service/appmgr/view/cardkit/card/NotificationSwitchCard;I)V
 
     .line 113
     .line 114
@@ -1827,7 +1800,7 @@
     .line 116
     .line 117
     .line 118
-    invoke-static {}, Lcom/huawei/appmarket/wj5;->b()Lcom/huawei/appmarket/wj5;
+    invoke-static {}, Lcom/huawei/appmarket/yj5;->b()Lcom/huawei/appmarket/yj5;
 
     .line 119
     .line 120
@@ -1835,7 +1808,7 @@
     move-result-object v0
 
     .line 122
-    new-instance v1, Lcom/huawei/appmarket/wz5;
+    new-instance v1, Lcom/huawei/appmarket/yz5;
 
     .line 123
     .line 124
@@ -1843,12 +1816,12 @@
 
     .line 125
     .line 126
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/wz5;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/yz5;-><init>(Ljava/lang/Object;I)V
 
     .line 127
     .line 128
     .line 129
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wj5;->c(Lcom/huawei/appmarket/wz5;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yj5;->c(Lcom/huawei/appmarket/yz5;)V
 
     .line 130
     .line 131
@@ -1892,7 +1865,7 @@
 
     .line 152
     .line 153
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 154
     .line 155
@@ -2094,6 +2067,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

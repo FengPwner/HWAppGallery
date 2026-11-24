@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tn3;
+.implements Lcom/huawei/appmarket/vn3;
 .implements Lcom/huawei/appmarket/e7;
 
 
@@ -13,7 +13,7 @@
         "Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2<",
         "Lcom/huawei/appgallery/distributionbase/ui/OffShelveProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/tn3;",
+        "Lcom/huawei/appmarket/vn3;",
         "Lcom/huawei/appmarket/e7;"
     }
 .end annotation
@@ -26,7 +26,7 @@
 
 .field private C3:Z
 
-.field private D3:Lcom/huawei/appmarket/d32;
+.field private D3:Lcom/huawei/appmarket/h32;
 
 .field private E3:I
 
@@ -46,26 +46,26 @@
     return-void
 .end method
 
-.method public static synthetic o6(Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;)V
+.method public static synthetic p6(Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;)V
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->q6()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->r6()V
 
     return-void
 .end method
 
-.method private q6()V
+.method private r6()V
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "OffShelveFragment"
 
     const-string v2, "sendMessageToQuickCard"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -77,7 +77,7 @@
 
     iget-boolean v1, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->B3:Z
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bn5;->a(Z)I
+    invoke-static {v1}, Lcom/huawei/appmarket/cn5;->a(Z)I
 
     move-result v1
 
@@ -91,26 +91,26 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->D3:Lcom/huawei/appmarket/d32;
+    iget-object v1, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->D3:Lcom/huawei/appmarket/h32;
 
     const-string v2, "Broadcast"
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/d32;->publish(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/h32;->publish(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method private r6()V
+.method private s6()V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "OffShelveFragment"
 
     const-string v2, "showFullModeByPosition"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->z1()Landroid/content/Context;
 
@@ -149,7 +149,7 @@
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->p()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->p()I
 
     move-result v2
 
@@ -236,13 +236,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "OffShelveFragment"
 
     const-string v2, "onFullMode"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->O1()Z
 
@@ -252,7 +252,7 @@
 
     const-string v2, "Not added when called onFullMode!"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -261,9 +261,9 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->B3:Z
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->r6()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->s6()V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->q6()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->r6()V
 
     return-void
 .end method
@@ -281,7 +281,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 2
     .line 3
@@ -293,7 +293,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -314,7 +314,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 19
     .line 20
@@ -374,7 +374,7 @@
 
     .line 47
     .line 48
-    invoke-static {v1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -392,7 +392,7 @@
     .line 56
     .line 57
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 58
     .line 59
@@ -404,11 +404,11 @@
 
     .line 62
     .line 63
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 64
     .line 65
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 66
     .line 67
@@ -420,11 +420,11 @@
 
     .line 70
     .line 71
-    const-class v2, Lcom/huawei/appmarket/d32;
+    const-class v2, Lcom/huawei/appmarket/h32;
 
     .line 72
     .line 73
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ea5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -432,11 +432,11 @@
     move-result-object v0
 
     .line 77
-    check-cast v0, Lcom/huawei/appmarket/d32;
+    check-cast v0, Lcom/huawei/appmarket/h32;
 
     .line 78
     .line 79
-    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->D3:Lcom/huawei/appmarket/d32;
+    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->D3:Lcom/huawei/appmarket/h32;
 
     .line 80
     .line 81
@@ -468,14 +468,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .registers 7
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     .line 2
     .line 3
@@ -487,7 +486,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -504,7 +503,7 @@
 
     .line 15
     .line 16
-    const p2, 0x7f0a1627
+    const p2, 0x7f0a1628
 
     .line 17
     .line 18
@@ -618,7 +617,7 @@
 
     .line 75
     .line 76
-    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->r6()V
+    invoke-direct {p0}, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->s6()V
 
     .line 77
     .line 78
@@ -631,7 +630,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -904,18 +903,18 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->h2()V
 
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "OffShelveFragment"
 
     const-string v2, "onDestroyView"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final p6()Z
+.method public final q6()Z
     .registers 2
 
     .line 1
@@ -930,21 +929,21 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->r2()V
 
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     const-string v1, "OffShelveFragment"
 
     const-string v2, "onResume"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/OffShelveFragment;->x3:Landroid/view/ViewGroup;
 
-    new-instance v1, Lcom/huawei/appmarket/wl0;
+    new-instance v1, Lcom/huawei/appmarket/xl0;
 
-    const/16 v2, 0x17
+    const/16 v2, 0x18
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/wl0;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
 
     const-wide/16 v2, 0x0
 

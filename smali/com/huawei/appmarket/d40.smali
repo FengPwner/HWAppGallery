@@ -42,10 +42,10 @@
 
 .field protected d:F
 
-.field protected e:Lcom/huawei/appmarket/m15;
+.field protected e:Lcom/huawei/appmarket/p15;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/m15<",
+            "Lcom/huawei/appmarket/p15<",
             "TA;>;"
         }
     .end annotation
@@ -72,7 +72,7 @@
             "(",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TK;>;>;)V"
         }
     .end annotation
@@ -254,22 +254,22 @@
     return-void
 .end method
 
-.method protected final b()Lcom/huawei/appmarket/gr4;
+.method protected final b()Lcom/huawei/appmarket/jr4;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TK;>;"
         }
     .end annotation
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/mr4;->d:I
+    sget v0, Lcom/huawei/appmarket/pr4;->d:I
 
     iget-object v0, p0, Lcom/huawei/appmarket/d40;->c:Lcom/huawei/appmarket/d40$d;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/d40$d;->b()Lcom/huawei/appmarket/gr4;
+    invoke-interface {v0}, Lcom/huawei/appmarket/d40$d;->b()Lcom/huawei/appmarket/jr4;
 
     move-result-object v0
 
@@ -311,19 +311,19 @@
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/gr4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/jr4;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->h()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->h()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    iget-object v0, v0, Lcom/huawei/appmarket/gr4;->d:Landroid/view/animation/Interpolator;
+    iget-object v0, v0, Lcom/huawei/appmarket/jr4;->d:Landroid/view/animation/Interpolator;
 
     if-nez v0, :cond_0
 
@@ -360,11 +360,11 @@
     return v1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/gr4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/jr4;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->h()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->h()Z
 
     move-result v2
 
@@ -375,17 +375,17 @@
     :cond_1
     iget v1, p0, Lcom/huawei/appmarket/d40;->d:F
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->e()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->e()F
 
     move-result v2
 
     sub-float/2addr v1, v2
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->b()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->b()F
 
     move-result v2
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->e()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->e()F
 
     move-result v0
 
@@ -418,7 +418,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/m15;
+    iget-object v1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/p15;
 
     if-nez v1, :cond_0
 
@@ -435,15 +435,15 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/gr4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/d40;->b()Lcom/huawei/appmarket/jr4;
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/huawei/appmarket/gr4;->e:Landroid/view/animation/Interpolator;
+    iget-object v2, v1, Lcom/huawei/appmarket/jr4;->e:Landroid/view/animation/Interpolator;
 
     if-eqz v2, :cond_1
 
-    iget-object v3, v1, Lcom/huawei/appmarket/gr4;->f:Landroid/view/animation/Interpolator;
+    iget-object v3, v1, Lcom/huawei/appmarket/jr4;->f:Landroid/view/animation/Interpolator;
 
     if-eqz v3, :cond_1
 
@@ -455,7 +455,7 @@
 
     move-result v3
 
-    invoke-virtual {p0, v1, v0, v2, v3}, Lcom/huawei/appmarket/d40;->i(Lcom/huawei/appmarket/gr4;FFF)Ljava/lang/Object;
+    invoke-virtual {p0, v1, v0, v2, v3}, Lcom/huawei/appmarket/d40;->i(Lcom/huawei/appmarket/jr4;FFF)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -466,7 +466,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/d40;->h(Lcom/huawei/appmarket/gr4;F)Ljava/lang/Object;
+    invoke-virtual {p0, v1, v0}, Lcom/huawei/appmarket/d40;->h(Lcom/huawei/appmarket/jr4;F)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -476,22 +476,22 @@
     return-object v0
 .end method
 
-.method abstract h(Lcom/huawei/appmarket/gr4;F)Ljava/lang/Object;
+.method abstract h(Lcom/huawei/appmarket/jr4;F)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TK;>;F)TA;"
         }
     .end annotation
 .end method
 
-.method protected i(Lcom/huawei/appmarket/gr4;FFF)Ljava/lang/Object;
+.method protected i(Lcom/huawei/appmarket/jr4;FFF)Ljava/lang/Object;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TK;>;FFF)TA;"
         }
     .end annotation
@@ -510,7 +510,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/m15;
+    iget-object v0, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/p15;
 
     if-eqz v0, :cond_0
 
@@ -529,7 +529,7 @@
     .registers 4
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/mr4;->d:I
+    sget v0, Lcom/huawei/appmarket/pr4;->d:I
 
     const/4 v0, 0x0
 
@@ -555,7 +555,7 @@
     goto :goto_0
 
     :cond_0
-    sget v0, Lcom/huawei/appmarket/mr4;->d:I
+    sget v0, Lcom/huawei/appmarket/pr4;->d:I
 
     return-void
 .end method
@@ -575,7 +575,7 @@
     .registers 6
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/mr4;->d:I
+    sget v0, Lcom/huawei/appmarket/pr4;->d:I
 
     .line 2
     .line 3
@@ -756,25 +756,25 @@
     .line 95
 .end method
 
-.method public final n(Lcom/huawei/appmarket/m15;)V
+.method public final n(Lcom/huawei/appmarket/p15;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/m15<",
+            "Lcom/huawei/appmarket/p15<",
             "TA;>;)V"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/m15;
+    iget-object v0, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/p15;
 
     if-eqz v0, :cond_0
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     :cond_0
-    iput-object p1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/m15;
+    iput-object p1, p0, Lcom/huawei/appmarket/d40;->e:Lcom/huawei/appmarket/p15;
 
     return-void
 .end method

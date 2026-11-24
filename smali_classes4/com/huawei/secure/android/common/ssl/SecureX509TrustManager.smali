@@ -62,7 +62,7 @@
     const-string v1, "SX509TM"
 
     .line 2
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -75,7 +75,7 @@
     :try_start_0
     const-string v2, "get bks not from assets"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;->c(Ljava/io/InputStream;)V
     :try_end_0
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -138,7 +138,7 @@
     :goto_2
     const-string v0, " get bks from assets "
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -290,7 +290,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     if-eqz p2, :cond_0
 
@@ -310,7 +310,7 @@
     move-exception p1
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     throw p1
 .end method
@@ -385,7 +385,7 @@
 
     const-string v0, "SX509TM"
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const-string p0, ""
@@ -402,7 +402,7 @@
 
     const-string v1, "loadSystemCA"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -510,7 +510,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -592,12 +592,12 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p1}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     return-void
 
     :goto_2
-    invoke-static {p1}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     throw v0
 .end method
@@ -709,7 +709,7 @@
 
     :cond_1
     :goto_2
-    invoke-static {p1}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     goto :goto_4
 
@@ -735,7 +735,7 @@
 
     move-result-object p2
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -747,7 +747,7 @@
     return-void
 
     :goto_5
-    invoke-static {p1}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     throw p2
 
@@ -775,7 +775,7 @@
 
     const-string v1, "checkClientTrusted: "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;->a:Ljava/util/ArrayList;
 
@@ -822,7 +822,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -894,7 +894,7 @@
 
     .line 27
     .line 28
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -1085,7 +1085,7 @@
     move-result-object v4
 
     .line 120
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 121
     .line 122
@@ -1148,7 +1148,7 @@
     move-result-object v5
 
     .line 153
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 154
     .line 155
@@ -1220,7 +1220,7 @@
     move-result-object v4
 
     .line 188
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/security/cert/CertificateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1279,7 +1279,7 @@
     move-result-object v5
 
     .line 218
-    invoke-static {v1, v5}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 219
     .line 220
@@ -1344,7 +1344,7 @@
     move-result-object p1
 
     .line 251
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 252
     .line 253
@@ -1379,10 +1379,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final e()[Ljava/security/cert/X509Certificate;
@@ -1474,7 +1470,7 @@
 
     const-string v1, "SX509TM"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

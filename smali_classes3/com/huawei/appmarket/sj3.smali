@@ -1,25 +1,49 @@
-.class final Lcom/huawei/appmarket/sj3;
-.super Lcom/huawei/appmarket/q58;
+.class public interface abstract Lcom/huawei/appmarket/sj3;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/huawei/appmarket/q58<",
-        "Lcom/huawei/appmarket/gw7<",
-        "Lcom/huawei/gameassistant/buoysettingmodule/BuoyResult;",
-        ">;>;"
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/appmarket/kh3;
 
 
-# direct methods
-.method constructor <init>(Lcom/huawei/appmarket/rj3$i;)V
-    .registers 2
+# virtual methods
+.method public abstract G0(Landroid/content/Context;Ljava/lang/Class;Lcom/huawei/hmf/services/ui/e;)V
+.end method
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/q58;-><init>()V
+.method public abstract H0(Landroid/content/Context;Ljava/lang/Class;Landroid/content/Intent;Z)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Landroid/content/Intent;",
+            "Z)V"
+        }
+    .end annotation
+.end method
 
-    return-void
+.method public abstract X0()Lcom/huawei/appmarket/cd0;
+.end method
+
+.method public abstract a2(Landroid/content/Context;Ljava/lang/Class;Lcom/huawei/appmarket/dn5;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Lcom/huawei/appmarket/dn5;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract m(Landroid/content/Context;Lcom/huawei/appmarket/ze0;Landroid/os/Bundle;)V
+.end method
+
+.method public abstract p(Landroid/content/Context;Lcom/huawei/appmarket/ie0;)V
+.end method
+
+.method public abstract v1(Landroid/content/Context;Landroid/content/Intent;)V
 .end method

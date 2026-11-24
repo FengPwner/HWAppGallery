@@ -144,7 +144,7 @@
     const/4 v2, 0x2
 
     .line 46
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 47
     .line 48
@@ -237,5 +237,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

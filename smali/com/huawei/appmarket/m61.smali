@@ -39,9 +39,9 @@
 
     if-eq p0, v2, :cond_1
 
-    new-instance p0, Lcom/huawei/appmarket/xu4;
+    new-instance p0, Lcom/huawei/appmarket/av4;
 
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/xu4;-><init>([D[[D)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/av4;-><init>([D[[D)V
 
     return-object p0
 
@@ -59,9 +59,9 @@
     return-object p0
 
     :cond_2
-    new-instance p0, Lcom/huawei/appmarket/bb5;
+    new-instance p0, Lcom/huawei/appmarket/eb5;
 
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/bb5;-><init>([D[[D)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/eb5;-><init>([D[[D)V
 
     return-object p0
 .end method

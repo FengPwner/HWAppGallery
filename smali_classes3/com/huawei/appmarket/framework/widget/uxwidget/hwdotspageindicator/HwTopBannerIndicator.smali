@@ -100,7 +100,7 @@
 
     iput-object v1, p0, Lcom/huawei/appmarket/framework/widget/uxwidget/hwdotspageindicator/HwTopBannerIndicator;->y:Ljava/lang/Runnable;
 
-    sget-object v1, Lcom/huawei/appmarket/hf6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/jf6;->b:[I
 
     invoke-virtual {p1, p2, v1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -273,11 +273,11 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     :cond_0
     const v0, 0x7f0706de
@@ -465,7 +465,7 @@
     move-result-object v2
 
     .line 51
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 52
     .line 53
@@ -509,7 +509,7 @@
     move-result-object v2
 
     .line 70
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 71
     .line 72
@@ -771,7 +771,7 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 2
     .line 3
@@ -1006,11 +1006,11 @@
     move-result-object v2
 
     .line 19
-    new-instance v3, Lcom/huawei/appmarket/uh2;
+    new-instance v3, Lcom/huawei/appmarket/xh2;
 
     .line 20
     .line 21
-    invoke-direct {v3}, Lcom/huawei/appmarket/uh2;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/xh2;-><init>()V
 
     .line 22
     .line 23
@@ -1059,7 +1059,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1132,7 +1132,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private setSelectedPage(I)V
@@ -1203,7 +1202,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/b00;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2, p1, v3}, Lcom/huawei/appmarket/fs;->s(Ljava/lang/StringBuilder;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 33
     .line 34
@@ -1229,7 +1228,7 @@
 
     .line 45
     .line 46
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -1300,7 +1299,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -1672,7 +1670,7 @@
 
     .line 10
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 11
     .line 12
@@ -1884,7 +1882,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -1968,7 +1966,7 @@
 
     .line 51
     .line 52
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -2064,7 +2062,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onMeasure(II)V

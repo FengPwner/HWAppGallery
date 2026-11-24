@@ -158,7 +158,7 @@
 
     .line 68
     :cond_3
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 69
     .line 70
@@ -215,7 +215,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final d(Landroid/view/ViewGroup;Landroid/view/ViewGroup;)Z
@@ -226,7 +225,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/ok0;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/pk0;->a()I
 
     .line 4
     .line 5
@@ -289,7 +288,7 @@
 
     .line 32
     .line 33
-    invoke-static {v4, p1, p2}, Lcom/huawei/appmarket/b00;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
+    invoke-static {v4, p1, p2}, Lcom/huawei/appmarket/fs;->n(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/widget/LinearLayout$LayoutParams;)V
 
     .line 34
     .line 35
@@ -311,16 +310,16 @@
 
     .line 43
     .line 44
-    new-instance v6, Lcom/huawei/appmarket/t03;
+    new-instance v6, Lcom/huawei/appmarket/w03;
 
     .line 45
     .line 46
-    invoke-direct {v6, v4, v2}, Lcom/huawei/appmarket/t03;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v6, v4, v2}, Lcom/huawei/appmarket/w03;-><init>(Landroid/content/Context;Z)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v6, v5}, Lcom/huawei/appmarket/t03;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
+    invoke-virtual {v6, v5}, Lcom/huawei/appmarket/w03;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
     .line 50
     .line 51
@@ -460,10 +459,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 10
 
     .line 1
@@ -471,7 +469,7 @@
 
     move-result v0
 
-    iget-wide v1, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v1, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     iput-wide v1, p0, Lcom/huawei/appmarket/o2;->c:J
 
@@ -486,14 +484,14 @@
 
     move-result-object v3
 
-    instance-of v4, v3, Lcom/huawei/appmarket/t03;
+    instance-of v4, v3, Lcom/huawei/appmarket/w03;
 
     if-nez v4, :cond_0
 
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v4
 

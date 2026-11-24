@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xc8;
+.implements Lcom/huawei/appmarket/cd8;
 
 
 # instance fields
@@ -108,7 +108,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/forum/message/widget/CommentReferenceView;->c:Lcom/huawei/appgallery/forum/message/widget/CommentReferenceUserView;
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/message/widget/CommentReferenceUserView;->setUserContentClickLisenter(Lcom/huawei/appmarket/xc8;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/forum/message/widget/CommentReferenceUserView;->setUserContentClickLisenter(Lcom/huawei/appmarket/cd8;)V
 
     new-instance v0, Lcom/huawei/appgallery/forum/message/widget/CommentReferenceView$a;
 
@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -224,7 +224,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -257,15 +257,15 @@
 
     invoke-direct {p0}, Lcom/huawei/appgallery/forum/message/widget/CommentReferenceView;->b()V
 
-    sget-object p2, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object p2, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     const v0, 0x61a8c
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zo2;->b()I
 
     move-result p2
 
@@ -401,11 +401,11 @@
     .registers 6
 
     .line 1
-    new-instance p1, Lcom/huawei/appmarket/fl0$b;
+    new-instance p1, Lcom/huawei/appmarket/gl0$b;
 
     .line 2
     .line 3
-    invoke-direct {p1}, Lcom/huawei/appmarket/fl0$b;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/gl0$b;-><init>()V
 
     .line 4
     .line 5
@@ -414,12 +414,12 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/fl0$b;->o(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gl0$b;->o(Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fl0$b;->m()Lcom/huawei/appmarket/fl0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gl0$b;->m()Lcom/huawei/appmarket/gl0;
 
     .line 12
     .line 13
@@ -431,7 +431,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/el0;->a(Landroid/content/Context;Lcom/huawei/appmarket/fl0;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/fl0;->a(Landroid/content/Context;Lcom/huawei/appmarket/gl0;)V
 
     .line 18
     .line 19
@@ -472,7 +472,7 @@
 
     .line 37
     .line 38
-    invoke-static {}, Lcom/huawei/appmarket/ms4;->a()Lcom/huawei/appmarket/ms4;
+    invoke-static {}, Lcom/huawei/appmarket/ps4;->a()Lcom/huawei/appmarket/ps4;
 
     .line 39
     .line 40
@@ -500,7 +500,7 @@
     const/4 p1, 0x0
 
     .line 52
-    invoke-static {v0, v1, p1, v2}, Lcom/huawei/appmarket/ms4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, p1, v2}, Lcom/huawei/appmarket/ps4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 53
     .line 54
@@ -529,7 +529,7 @@
 
     .line 65
     .line 66
-    invoke-static {}, Lcom/huawei/appmarket/ms4;->a()Lcom/huawei/appmarket/ms4;
+    invoke-static {}, Lcom/huawei/appmarket/ps4;->a()Lcom/huawei/appmarket/ps4;
 
     .line 67
     .line 68
@@ -554,7 +554,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ms4;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ps4;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -623,11 +623,11 @@
 
     .line 111
     .line 112
-    sget v1, Lcom/huawei/appmarket/ms4;->b:I
+    sget v1, Lcom/huawei/appmarket/ps4;->b:I
 
     .line 113
     .line 114
-    invoke-static {}, Lcom/huawei/appmarket/wo;->a()Lcom/huawei/appmarket/xo;
+    invoke-static {}, Lcom/huawei/appmarket/vo;->a()Lcom/huawei/appmarket/wo;
 
     .line 115
     .line 116
@@ -635,7 +635,7 @@
     move-result-object v1
 
     .line 118
-    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/xo;->e(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v1, p1, v0}, Lcom/huawei/appmarket/wo;->e(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -660,7 +660,7 @@
     .line 128
     .line 129
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/ms4;->a()Lcom/huawei/appmarket/ms4;
+    invoke-static {}, Lcom/huawei/appmarket/ps4;->a()Lcom/huawei/appmarket/ps4;
 
     .line 130
     .line 131
@@ -685,7 +685,7 @@
     .line 140
     .line 141
     .line 142
-    invoke-static {v1, v2, v0, v3}, Lcom/huawei/appmarket/ms4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v2, v0, v3}, Lcom/huawei/appmarket/ps4;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 143
     .line 144
@@ -869,7 +869,7 @@
 
     .line 10
     .line 11
-    sget-object v1, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v1, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 12
     .line 13
@@ -878,7 +878,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 17
     .line 18
@@ -886,7 +886,7 @@
     move-result-object v1
 
     .line 20
-    invoke-virtual {v1}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zo2;->b()I
 
     .line 21
     .line 22
@@ -1757,11 +1757,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public setUserContentMaxWidth(I)V

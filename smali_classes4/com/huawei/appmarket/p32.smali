@@ -1,932 +1,146 @@
 .class public final Lcom/huawei/appmarket/p32;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/q32;
 .source "SourceFile"
 
 
-# instance fields
-.field private final a:Lcom/huawei/appmarket/di6;
-
-.field private final b:Lcom/huawei/appmarket/q9;
-
-.field private final c:Lcom/huawei/appmarket/zh6;
-
-.field private final d:Lcom/huawei/appmarket/y22;
-
-.field private e:Lcom/huawei/appmarket/uy6$b;
-
-.field private f:Lcom/huawei/appmarket/uy6;
-
-.field private g:I
-
-.field private h:I
-
-.field private i:I
-
-.field private j:Lcom/huawei/appmarket/sy6;
-
-
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/di6;Lcom/huawei/appmarket/q9;Lcom/huawei/appmarket/zh6;Lcom/huawei/appmarket/y22;)V
-    .registers 6
+.method private constructor <init>()V
+    .registers 1
 
     .line 1
-    const-string v0, "connectionPool"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "address"
-
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "call"
-
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "eventListener"
-
-    invoke-static {p4, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
+    invoke-direct {p0}, Lcom/huawei/appmarket/q32;-><init>()V
 
     return-void
 .end method
 
-.method private final b(IIIZZI)Lcom/huawei/appmarket/ai6;
-    .registers 21
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    move-object v1, p0
-
-    :cond_0
-    :goto_0
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
+.method public static a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    .registers 3
 
     .line 1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->isCanceled()Z
-
-    move-result v0
-
-    if-nez v0, :cond_10
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    if-eqz v2, :cond_6
-
-    monitor-enter v2
-
-    :try_start_0
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ai6;->l()Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ai6;->v()Lcom/huawei/appmarket/sy6;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sy6;->a()Lcom/huawei/appmarket/q9;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q9;->l()Lcom/huawei/appmarket/id3;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/p32;->e(Lcom/huawei/appmarket/id3;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    move-object v0, v3
-
-    goto :goto_2
-
-    :catchall_0
-    move-exception v0
-
-    goto :goto_4
-
-    :cond_2
-    :goto_1
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->t()Ljava/net/Socket;
-
-    move-result-object v0
-
-    :goto_2
-    sget-object v4, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit v2
-
-    iget-object v4, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v4}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
-    move-result-object v4
-
-    if-eqz v4, :cond_4
-
-    if-nez v0, :cond_3
-
-    :goto_3
-    move/from16 v0, p5
-
-    goto/16 :goto_9
-
-    :cond_3
-    const-string v0, "Check failed."
-
-    new-instance v2, Ljava/lang/IllegalStateException;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {v2, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v2
-
-    :cond_4
-    if-eqz v0, :cond_5
-
-    invoke-static {v0}, Lcom/huawei/appmarket/le8;->e(Ljava/net/Socket;)V
-
-    :cond_5
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "call"
-
-    .line 2
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    goto :goto_5
-
-    .line 3
-    :goto_4
-    monitor-exit v2
-
-    throw v0
-
-    :cond_6
-    :goto_5
-    const/4 v0, 0x0
-
-    iput v0, v1, Lcom/huawei/appmarket/p32;->g:I
-
-    iput v0, v1, Lcom/huawei/appmarket/p32;->h:I
-
-    iput v0, v1, Lcom/huawei/appmarket/p32;->i:I
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    iget-object v4, v1, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    iget-object v5, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v2, v4, v5, v3, v0}, Lcom/huawei/appmarket/di6;->a(Lcom/huawei/appmarket/q9;Lcom/huawei/appmarket/zh6;Ljava/util/List;Z)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_7
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    iget-object v3, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    :goto_6
-    const-string v0, "call"
-
-    .line 4
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    goto :goto_3
-
-    :cond_7
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
-    if-eqz v2, :cond_8
-
-    iput-object v3, v1, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
-    :goto_7
-    move-object v4, v3
-
-    goto :goto_8
-
-    :cond_8
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->e:Lcom/huawei/appmarket/uy6$b;
-
-    if-eqz v2, :cond_9
-
-    .line 5
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6$b;->b()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_9
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->e:Lcom/huawei/appmarket/uy6$b;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uy6$b;->c()Lcom/huawei/appmarket/sy6;
-
-    move-result-object v2
-
-    goto :goto_7
-
-    :cond_9
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->f:Lcom/huawei/appmarket/uy6;
-
-    if-nez v2, :cond_a
-
-    new-instance v2, Lcom/huawei/appmarket/uy6;
-
-    iget-object v4, v1, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    iget-object v5, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v5}, Lcom/huawei/appmarket/zh6;->i()Lcom/huawei/appmarket/mn5;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Lcom/huawei/appmarket/mn5;->r()Lcom/huawei/appmarket/ty6;
-
-    move-result-object v5
-
-    iget-object v6, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    iget-object v7, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    invoke-direct {v2, v4, v5, v6, v7}, Lcom/huawei/appmarket/uy6;-><init>(Lcom/huawei/appmarket/q9;Lcom/huawei/appmarket/ty6;Lcom/huawei/appmarket/eh0;Lcom/huawei/appmarket/y22;)V
-
-    iput-object v2, v1, Lcom/huawei/appmarket/p32;->f:Lcom/huawei/appmarket/uy6;
-
-    :cond_a
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6;->b()Lcom/huawei/appmarket/uy6$b;
-
-    move-result-object v2
-
-    iput-object v2, v1, Lcom/huawei/appmarket/p32;->e:Lcom/huawei/appmarket/uy6$b;
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6$b;->a()Ljava/util/List;
-
-    move-result-object v4
-
-    iget-object v5, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v5}, Lcom/huawei/appmarket/zh6;->isCanceled()Z
-
-    move-result v5
-
-    if-nez v5, :cond_f
-
-    iget-object v5, v1, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    iget-object v6, v1, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    iget-object v7, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v5, v6, v7, v4, v0}, Lcom/huawei/appmarket/di6;->a(Lcom/huawei/appmarket/q9;Lcom/huawei/appmarket/zh6;Ljava/util/List;Z)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_b
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    iget-object v3, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    goto :goto_6
-
-    :cond_b
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6$b;->c()Lcom/huawei/appmarket/sy6;
-
-    move-result-object v2
-
-    :goto_8
-    new-instance v13, Lcom/huawei/appmarket/ai6;
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    invoke-direct {v13, v0, v2}, Lcom/huawei/appmarket/ai6;-><init>(Lcom/huawei/appmarket/di6;Lcom/huawei/appmarket/sy6;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0, v13}, Lcom/huawei/appmarket/zh6;->v(Lcom/huawei/appmarket/ai6;)V
-
-    :try_start_1
-    iget-object v11, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    iget-object v12, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    move-object v5, v13
-
-    move v6, p1
-
-    move/from16 v7, p2
-
-    move/from16 v8, p3
-
-    move/from16 v9, p6
-
-    move/from16 v10, p4
-
-    invoke-virtual/range {v5 .. v12}, Lcom/huawei/appmarket/ai6;->e(IIIIZLcom/huawei/appmarket/zh6;Lcom/huawei/appmarket/y22;)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_2
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/zh6;->v(Lcom/huawei/appmarket/ai6;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->i()Lcom/huawei/appmarket/mn5;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/mn5;->r()Lcom/huawei/appmarket/ty6;
-
-    move-result-object v0
-
-    invoke-virtual {v13}, Lcom/huawei/appmarket/ai6;->v()Lcom/huawei/appmarket/sy6;
-
-    move-result-object v3
-
-    invoke-virtual {v0, v3}, Lcom/huawei/appmarket/ty6;->a(Lcom/huawei/appmarket/sy6;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    iget-object v3, v1, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    iget-object v5, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    const/4 v6, 0x1
-
-    invoke-virtual {v0, v3, v5, v4, v6}, Lcom/huawei/appmarket/di6;->a(Lcom/huawei/appmarket/q9;Lcom/huawei/appmarket/zh6;Ljava/util/List;Z)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_c
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
-
-    iput-object v2, v1, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
-    invoke-virtual {v13}, Lcom/huawei/appmarket/ai6;->y()Ljava/net/Socket;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lcom/huawei/appmarket/le8;->e(Ljava/net/Socket;)V
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    iget-object v3, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v2, "call"
-
-    .line 6
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    move-object v2, v0
-
-    goto/16 :goto_3
-
-    .line 7
-    :cond_c
-    monitor-enter v13
-
-    :try_start_2
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->a:Lcom/huawei/appmarket/di6;
-
-    invoke-virtual {v0, v13}, Lcom/huawei/appmarket/di6;->e(Lcom/huawei/appmarket/ai6;)V
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0, v13}, Lcom/huawei/appmarket/zh6;->c(Lcom/huawei/appmarket/ai6;)V
-
-    sget-object v0, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    monitor-exit v13
-
-    iget-object v0, v1, Lcom/huawei/appmarket/p32;->d:Lcom/huawei/appmarket/y22;
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    const-string v0, "call"
-
-    .line 8
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    move/from16 v0, p5
-
-    move-object v2, v13
-
-    .line 9
-    :goto_9
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/ai6;->q(Z)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_d
-
-    return-object v2
-
-    :cond_d
-    invoke-virtual {v2}, Lcom/huawei/appmarket/ai6;->u()V
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
-    if-nez v2, :cond_0
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->e:Lcom/huawei/appmarket/uy6$b;
-
-    if-eqz v2, :cond_0
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6$b;->b()Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->f:Lcom/huawei/appmarket/uy6;
-
-    if-eqz v2, :cond_0
-
-    invoke-virtual {v2}, Lcom/huawei/appmarket/uy6;->a()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_e
-
-    goto/16 :goto_0
-
-    :cond_e
-    new-instance v0, Ljava/io/IOException;
-
-    const-string v2, "exhausted all routes"
-
-    invoke-direct {v0, v2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :catchall_1
-    move-exception v0
-
-    .line 10
-    monitor-exit v13
-
-    throw v0
-
-    :catchall_2
-    move-exception v0
-
-    iget-object v2, v1, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/zh6;->v(Lcom/huawei/appmarket/ai6;)V
-
-    throw v0
-
-    :cond_f
-    new-instance v0, Ljava/io/IOException;
-
-    const-string v2, "Canceled"
-
-    invoke-direct {v0, v2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_10
-    new-instance v0, Ljava/io/IOException;
-
-    const-string v2, "Canceled"
-
-    invoke-direct {v0, v2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-.end method
-
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/mn5;Lcom/huawei/appmarket/ei6;)Lcom/huawei/appmarket/o32;
-    .registers 11
-
-    .line 1
-    const-string v0, "client"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    :try_start_0
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ei6;->e()I
-
-    move-result v2
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ei6;->g()I
-
-    move-result v3
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ei6;->i()I
-
-    move-result v4
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mn5;->w()I
-
-    move-result v7
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mn5;->C()Z
-
-    move-result v5
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ei6;->h()Lcom/huawei/appmarket/gr6;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6;->h()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "GET"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v0
-
-    xor-int/lit8 v6, v0, 0x1
-
-    move-object v1, p0
-
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appmarket/p32;->b(IIIZZI)Lcom/huawei/appmarket/ai6;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ai6;->s(Lcom/huawei/appmarket/mn5;Lcom/huawei/appmarket/ei6;)Lcom/huawei/appmarket/o32;
-
-    move-result-object p1
-    :try_end_0
-    .catch Lokhttp3/internal/connection/RouteException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object p1
-
-    :catch_0
-    move-exception p1
-
-    goto :goto_0
-
-    :catch_1
-    move-exception p1
-
-    goto :goto_1
-
-    :goto_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/p32;->f(Ljava/io/IOException;)V
-
-    new-instance p2, Lokhttp3/internal/connection/RouteException;
-
-    invoke-direct {p2, p1}, Lokhttp3/internal/connection/RouteException;-><init>(Ljava/io/IOException;)V
-
-    throw p2
-
-    :goto_1
-    invoke-virtual {p1}, Lokhttp3/internal/connection/RouteException;->c()Ljava/io/IOException;
-
-    move-result-object p2
-
-    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/p32;->f(Ljava/io/IOException;)V
-
-    throw p1
-.end method
-
-.method public final c()Lcom/huawei/appmarket/q9;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    return-object v0
-.end method
-
-.method public final d()Z
-    .registers 6
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/p32;->g:I
+    const-string v0, "<this>"
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
-    iget v1, p0, Lcom/huawei/appmarket/p32;->h:I
-
     .line 6
+    const-string v0, "exception"
+
     .line 7
-    if-nez v1, :cond_0
-
     .line 8
-    .line 9
-    iget v1, p0, Lcom/huawei/appmarket/p32;->i:I
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 9
     .line 10
     .line 11
-    if-nez v1, :cond_0
+    if-eq p0, p1, :cond_0
 
     .line 12
     .line 13
-    const/4 v0, 0x0
+    sget-object v0, Lcom/huawei/appmarket/q16;->a:Lcom/huawei/appmarket/gl4;
 
     .line 14
-    return v0
-
     .line 15
-    :cond_0
-    iget-object v1, p0, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/fl4;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 16
     .line 17
-    const/4 v2, 0x1
-
     .line 18
-    if-eqz v1, :cond_1
-
+    :cond_0
+    return-void
     .line 19
     .line 20
-    return v2
-
     .line 21
-    :cond_1
-    const/4 v1, 0x0
-
     .line 22
-    if-gt v0, v2, :cond_6
-
     .line 23
     .line 24
-    iget v0, p0, Lcom/huawei/appmarket/p32;->h:I
-
     .line 25
     .line 26
-    if-gt v0, v2, :cond_6
-
     .line 27
     .line 28
-    iget v0, p0, Lcom/huawei/appmarket/p32;->i:I
-
     .line 29
     .line 30
-    if-lez v0, :cond_2
-
     .line 31
     .line 32
-    goto :goto_1
-
     .line 33
-    :cond_2
-    iget-object v0, p0, Lcom/huawei/appmarket/p32;->c:Lcom/huawei/appmarket/zh6;
-
     .line 34
     .line 35
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->j()Lcom/huawei/appmarket/ai6;
-
     .line 36
     .line 37
     .line 38
-    move-result-object v0
-
     .line 39
-    if-nez v0, :cond_3
-
     .line 40
     .line 41
-    goto :goto_1
-
     .line 42
-    :cond_3
-    monitor-enter v0
-
     .line 43
-    :try_start_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ai6;->m()I
-
     .line 44
     .line 45
     .line 46
-    move-result v3
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
     .line 47
-    if-eqz v3, :cond_4
-
     .line 48
     .line 49
-    :goto_0
-    monitor-exit v0
-
     .line 50
-    goto :goto_1
-
     .line 51
-    :cond_4
-    :try_start_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ai6;->v()Lcom/huawei/appmarket/sy6;
-
     .line 52
     .line 53
     .line 54
-    move-result-object v3
-
     .line 55
-    invoke-virtual {v3}, Lcom/huawei/appmarket/sy6;->a()Lcom/huawei/appmarket/q9;
-
     .line 56
     .line 57
     .line 58
-    move-result-object v3
-
     .line 59
-    invoke-virtual {v3}, Lcom/huawei/appmarket/q9;->l()Lcom/huawei/appmarket/id3;
-
     .line 60
     .line 61
     .line 62
-    move-result-object v3
-
     .line 63
-    iget-object v4, p0, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
     .line 64
     .line 65
-    invoke-virtual {v4}, Lcom/huawei/appmarket/q9;->l()Lcom/huawei/appmarket/id3;
-
     .line 66
     .line 67
     .line 68
-    move-result-object v4
-
     .line 69
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/le8;->b(Lcom/huawei/appmarket/id3;Lcom/huawei/appmarket/id3;)Z
-
     .line 70
     .line 71
     .line 72
-    move-result v3
-
     .line 73
-    if-nez v3, :cond_5
-
     .line 74
     .line 75
-    goto :goto_0
-
     .line 76
-    :cond_5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ai6;->v()Lcom/huawei/appmarket/sy6;
-
     .line 77
     .line 78
     .line 79
-    move-result-object v1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
     .line 80
-    goto :goto_0
-
     .line 81
-    :catchall_0
-    move-exception v1
-
     .line 82
-    monitor-exit v0
-
     .line 83
-    throw v1
-
     .line 84
-    :cond_6
-    :goto_1
-    if-eqz v1, :cond_7
-
     .line 85
     .line 86
-    iput-object v1, p0, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
     .line 87
     .line 88
-    return v2
-
     .line 89
-    :cond_7
-    iget-object v0, p0, Lcom/huawei/appmarket/p32;->e:Lcom/huawei/appmarket/uy6$b;
-
     .line 90
     .line 91
-    if-eqz v0, :cond_8
-
     .line 92
     .line 93
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uy6$b;->b()Z
-
     .line 94
     .line 95
     .line 96
-    move-result v0
-
     .line 97
-    if-ne v0, v2, :cond_8
-
     .line 98
     .line 99
-    return v2
-
     .line 100
-    :cond_8
-    iget-object v0, p0, Lcom/huawei/appmarket/p32;->f:Lcom/huawei/appmarket/uy6;
-
     .line 101
     .line 102
-    if-nez v0, :cond_9
-
     .line 103
     .line 104
-    return v2
-
     .line 105
-    :cond_9
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uy6;->a()Z
-
     .line 106
     .line 107
     .line 108
-    move-result v0
-
     .line 109
-    return v0
     .line 110
     .line 111
     .line 112
@@ -1090,147 +304,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-.end method
-
-.method public final e(Lcom/huawei/appmarket/id3;)Z
-    .registers 5
-
-    .line 1
-    const-string v0, "url"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/huawei/appmarket/p32;->b:Lcom/huawei/appmarket/q9;
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q9;->l()Lcom/huawei/appmarket/id3;
-
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/id3;->j()I
-
-    move-result v1
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3;->j()I
-
-    move-result v2
-
-    if-ne v1, v2, :cond_0
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/id3;->g()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/id3;->g()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/4 p1, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    return p1
-.end method
-
-.method public final f(Ljava/io/IOException;)V
-    .registers 4
-
-    .line 1
-    const-string v0, "e"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/p32;->j:Lcom/huawei/appmarket/sy6;
-
-    instance-of v0, p1, Lokhttp3/internal/http2/StreamResetException;
-
-    if-eqz v0, :cond_0
-
-    move-object v0, p1
-
-    check-cast v0, Lokhttp3/internal/http2/StreamResetException;
-
-    iget-object v0, v0, Lokhttp3/internal/http2/StreamResetException;->b:Lcom/huawei/appmarket/c22;
-
-    sget-object v1, Lcom/huawei/appmarket/c22;->h:Lcom/huawei/appmarket/c22;
-
-    if-ne v0, v1, :cond_0
-
-    iget p1, p0, Lcom/huawei/appmarket/p32;->g:I
-
-    add-int/lit8 p1, p1, 0x1
-
-    iput p1, p0, Lcom/huawei/appmarket/p32;->g:I
-
-    goto :goto_0
-
-    :cond_0
-    instance-of p1, p1, Lokhttp3/internal/http2/ConnectionShutdownException;
-
-    if-eqz p1, :cond_1
-
-    iget p1, p0, Lcom/huawei/appmarket/p32;->h:I
-
-    add-int/lit8 p1, p1, 0x1
-
-    iput p1, p0, Lcom/huawei/appmarket/p32;->h:I
-
-    goto :goto_0
-
-    :cond_1
-    iget p1, p0, Lcom/huawei/appmarket/p32;->i:I
-
-    add-int/lit8 p1, p1, 0x1
-
-    iput p1, p0, Lcom/huawei/appmarket/p32;->i:I
-
-    :goto_0
-    return-void
 .end method

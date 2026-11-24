@@ -1160,10 +1160,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static synthetic N3(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)Z
@@ -3016,65 +3012,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method static synthetic Y3(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)Landroid/widget/EditText;
@@ -4527,65 +4464,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method static synthetic j4(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)V
@@ -4948,23 +4826,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static v3(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)V
@@ -5192,23 +5053,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic w3(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)Landroid/widget/LinearLayout;
@@ -5429,23 +5273,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic y3(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;)Z
@@ -6060,23 +5887,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final U0(Lcom/huawei/phoneservice/feedback/utils/a;)V
@@ -6128,7 +5938,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v3, "zipCompressFinished  "
+    const-string/jumbo v3, "zipCompressFinished  "
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -6438,7 +6248,7 @@
     const-string v1, " "
 
     .line 4
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ej2;->o(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/tr2;->n(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -6706,344 +6516,344 @@
     move-result-object v3
 
     .line 43
-    const-string v5, "zh"
+    const-string/jumbo v5, "zh"
 
     .line 44
     .line 45
+    .line 46
     invoke-virtual {v5, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 46
     .line 47
     .line 48
+    .line 49
     move-result v5
 
-    .line 49
+    .line 50
     if-eqz v5, :cond_2
 
-    .line 50
     .line 51
+    .line 52
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
-    .line 52
     .line 53
     .line 54
-    move-result-object v3
-
     .line 55
-    invoke-virtual {v3}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
+    move-result-object v3
 
     .line 56
+    invoke-virtual {v3}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
+
     .line 57
     .line 58
+    .line 59
     move-result-object v3
 
-    .line 59
-    const-string v5, "zh-Hant"
-
     .line 60
-    .line 61
-    invoke-virtual {v3, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    const-string/jumbo v5, "zh-Hant"
 
+    .line 61
     .line 62
     .line 63
+    invoke-virtual {v3, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
     .line 64
+    .line 65
+    .line 66
     move-result v3
 
-    .line 65
-    if-eqz v3, :cond_1
-
-    .line 66
     .line 67
-    const-string v3, "zh-tw"
+    if-eqz v3, :cond_1
 
     .line 68
     .line 69
-    goto :goto_0
+    const-string/jumbo v3, "zh-tw"
 
     .line 70
-    :cond_1
-    const-string v3, "zh-cn"
-
     .line 71
     .line 72
+    goto :goto_0
+
+    .line 73
+    :cond_1
+    const-string/jumbo v3, "zh-cn"
+
+    .line 74
+    .line 75
+    .line 76
     :cond_2
     :goto_0
     sget-object v5, Lcom/huawei/phoneservice/feedbackcommon/utils/FeedbackCommonManager;->INSTANCE:Lcom/huawei/phoneservice/feedbackcommon/utils/FeedbackCommonManager;
 
-    .line 73
-    .line 74
-    new-instance v6, Lcom/huawei/phoneservice/feedback/ui/e0;
-
-    .line 75
-    .line 76
-    const-class v7, Lcom/huawei/phoneservice/feedbackcommon/entity/QueryIsoLanguageResponse;
-
     .line 77
     .line 78
-    invoke-direct {v6, p0, v7, p0}, Lcom/huawei/phoneservice/feedback/ui/e0;-><init>(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;Ljava/lang/Class;Landroid/app/Activity;)V
+    new-instance v6, Lcom/huawei/phoneservice/feedback/ui/e0;
 
     .line 79
     .line 80
-    .line 81
-    invoke-virtual {v5, p0, v3, v6}, Lcom/huawei/phoneservice/feedbackcommon/utils/FeedbackCommonManager;->queryIsoLanguage(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/hms/framework/network/restclient/hwhttp/Callback;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
+    const-class v7, Lcom/huawei/phoneservice/feedbackcommon/entity/QueryIsoLanguageResponse;
 
+    .line 81
     .line 82
+    invoke-direct {v6, p0, v7, p0}, Lcom/huawei/phoneservice/feedback/ui/e0;-><init>(Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;Ljava/lang/Class;Landroid/app/Activity;)V
+
     .line 83
     .line 84
+    .line 85
+    invoke-virtual {v5, p0, v3, v6}, Lcom/huawei/phoneservice/feedbackcommon/utils/FeedbackCommonManager;->queryIsoLanguage(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/hms/framework/network/restclient/hwhttp/Callback;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Submit;
+
+    .line 86
+    .line 87
+    .line 88
     goto :goto_2
 
-    .line 85
+    .line 89
     :cond_3
     :goto_1
     iget-object v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->C:Landroid/widget/TextView;
 
-    .line 86
-    .line 87
+    .line 90
+    .line 91
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 88
-    .line 89
-    .line 90
+    .line 92
+    .line 93
+    .line 94
     :goto_2
     invoke-static {p0}, Lcom/huawei/phoneservice/faq/base/util/FaqCommonUtils;->isConnectionAvailable(Landroid/content/Context;)Z
 
-    .line 91
-    .line 92
-    .line 93
-    move-result v3
-
-    .line 94
-    if-nez v3, :cond_4
-
     .line 95
     .line 96
-    sget-object v0, Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;->INTERNET_ERROR:Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;
-
     .line 97
+    move-result v3
+
     .line 98
-    invoke-virtual {p0, v0}, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->M0(Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;)V
+    if-nez v3, :cond_4
 
     .line 99
     .line 100
+    sget-object v0, Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;->INTERNET_ERROR:Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;
+
     .line 101
+    .line 102
+    invoke-virtual {p0, v0}, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->M0(Lcom/huawei/phoneservice/faq/base/constants/FaqConstants$FaqErrorCode;)V
+
+    .line 103
+    .line 104
+    .line 105
     return-void
 
-    .line 102
+    .line 106
     :cond_4
     :try_start_0
     const-string v3, "feedback"
 
-    .line 103
-    .line 104
+    .line 107
+    .line 108
     invoke-static {p0, v3}, Lcom/huawei/phoneservice/feedbackcommon/utils/AsCache;->get(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/phoneservice/feedbackcommon/utils/AsCache;
 
-    .line 105
-    .line 106
-    .line 107
+    .line 109
+    .line 110
+    .line 111
     move-result-object v3
 
-    .line 108
+    .line 112
     iput-object v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->g:Lcom/huawei/phoneservice/feedbackcommon/utils/AsCache;
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 109
-    .line 110
+    .line 113
+    .line 114
     goto :goto_4
 
-    .line 111
+    .line 115
     :catch_0
     move-exception v3
 
-    .line 112
+    .line 116
     goto :goto_3
 
-    .line 113
+    .line 117
     :catch_1
     move-exception v3
 
-    .line 114
+    .line 118
     :goto_3
     invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 115
-    .line 116
-    .line 117
-    move-result-object v3
-
-    .line 118
-    invoke-static {v1, v3}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->print(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
+    move-result-object v3
+
+    .line 122
+    invoke-static {v1, v3}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->print(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 123
+    .line 124
+    .line 125
     :goto_4
     new-instance v3, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    .line 122
-    .line 123
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
-
-    .line 124
-    .line 125
     .line 126
-    move-result-object v5
-
     .line 127
-    invoke-direct {v3, v5}, Lcom/huawei/secure/android/common/intent/SafeIntent;-><init>(Landroid/content/Intent;)V
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     .line 128
     .line 129
     .line 130
+    move-result-object v5
+
+    .line 131
+    invoke-direct {v3, v5}, Lcom/huawei/secure/android/common/intent/SafeIntent;-><init>(Landroid/content/Intent;)V
+
+    .line 132
+    .line 133
+    .line 134
     :try_start_1
     invoke-virtual {v3, v0}, Lcom/huawei/secure/android/common/intent/SafeIntent;->hasExtra(Ljava/lang/String;)Z
 
-    .line 131
-    .line 132
-    .line 133
-    move-result v5
-
-    .line 134
-    if-eqz v5, :cond_5
-
     .line 135
     .line 136
-    invoke-virtual {v3, v0}, Lcom/huawei/secure/android/common/intent/SafeIntent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
-
     .line 137
-    .line 138
-    .line 139
-    move-result-object v0
+    move-result v5
 
+    .line 138
+    if-eqz v5, :cond_5
+
+    .line 139
     .line 140
-    check-cast v0, Lcom/huawei/phoneservice/feedbackcommon/entity/ProblemInfo;
+    invoke-virtual {v3, v0}, Lcom/huawei/secure/android/common/intent/SafeIntent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 141
     .line 142
+    .line 143
+    move-result-object v0
+
+    .line 144
+    check-cast v0, Lcom/huawei/phoneservice/feedbackcommon/entity/ProblemInfo;
+
+    .line 145
+    .line 146
     goto :goto_5
 
-    .line 143
+    .line 147
     :catch_2
     move-exception v0
 
-    .line 144
+    .line 148
     goto :goto_6
 
-    .line 145
+    .line 149
     :cond_5
     const/4 v0, 0x0
 
-    .line 146
+    .line 150
     :goto_5
     invoke-direct {p0, v0}, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->I3(Lcom/huawei/phoneservice/feedbackcommon/entity/ProblemInfo;)V
 
-    .line 147
-    .line 148
-    .line 149
-    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->B:Landroid/widget/CheckBox;
-
-    .line 150
     .line 151
-    iget-boolean v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->J:Z
-
     .line 152
     .line 153
-    invoke-virtual {v0, v3}, Landroid/widget/CompoundButton;->setChecked(Z)V
+    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->B:Landroid/widget/CheckBox;
 
     .line 154
     .line 155
+    iget-boolean v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->J:Z
+
     .line 156
-    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->B:Landroid/widget/CheckBox;
-
     .line 157
-    .line 158
-    invoke-virtual {v0}, Landroid/widget/CompoundButton;->isChecked()Z
+    invoke-virtual {v0, v3}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
+    .line 158
     .line 159
     .line 160
-    .line 161
-    move-result v0
+    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->B:Landroid/widget/CheckBox;
 
+    .line 161
     .line 162
-    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->I:Z
+    invoke-virtual {v0}, Landroid/widget/CompoundButton;->isChecked()Z
 
     .line 163
     .line 164
-    iget-object v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->h:Lcom/huawei/phoneservice/feedback/entity/FeedbackBean;
-
     .line 165
+    move-result v0
+
     .line 166
-    invoke-virtual {v3, v0}, Lcom/huawei/phoneservice/feedback/entity/FeedbackBean;->setShowLog(Z)V
+    iput-boolean v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->I:Z
 
     .line 167
     .line 168
+    iget-object v3, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->h:Lcom/huawei/phoneservice/feedback/entity/FeedbackBean;
+
     .line 169
-    new-instance v0, Ljava/lang/StringBuilder;
-
     .line 170
-    .line 171
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/phoneservice/feedback/entity/FeedbackBean;->setShowLog(Z)V
 
+    .line 171
     .line 172
     .line 173
+    new-instance v0, Ljava/lang/StringBuilder;
+
     .line 174
-    iget-boolean v2, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->I:Z
-
     .line 175
-    .line 176
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 176
     .line 177
     .line 178
-    .line 179
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    iget-boolean v2, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->I:Z
 
+    .line 179
     .line 180
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
     .line 181
     .line 182
-    move-result-object v0
-
     .line 183
-    invoke-static {v1, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 184
     .line 185
     .line 186
-    goto :goto_7
+    move-result-object v0
 
     .line 187
-    :goto_6
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 188
     .line 189
     .line 190
-    move-result-object v0
+    goto :goto_7
 
     .line 191
-    invoke-static {v1, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :goto_6
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 192
     .line 193
     .line 194
-    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->H:Lcom/huawei/phoneservice/feedback/widget/FeedbackNoticeView;
+    move-result-object v0
 
     .line 195
-    .line 196
-    invoke-virtual {v0, v4}, Lcom/huawei/phoneservice/feedback/widget/FeedbackNoticeView;->setVisibility(I)V
+    invoke-static {v1, v0}, Lcom/huawei/phoneservice/faq/base/util/FaqLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
 
+    .line 196
     .line 197
     .line 198
+    iget-object v0, p0, Lcom/huawei/phoneservice/feedback/ui/ProblemSuggestActivity;->H:Lcom/huawei/phoneservice/feedback/widget/FeedbackNoticeView;
+
     .line 199
-    :goto_7
-    return-void
     .line 200
+    invoke-virtual {v0, v4}, Lcom/huawei/phoneservice/feedback/widget/FeedbackNoticeView;->setVisibility(I)V
+
     .line 201
     .line 202
     .line 203
+    :goto_7
+    return-void
     .line 204
     .line 205
     .line 206
@@ -7149,6 +6959,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final c()Lcom/huawei/phoneservice/feedback/entity/FeedbackBean;
@@ -8639,65 +8469,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method protected final c3()V
@@ -9048,6 +8819,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final d3()V
@@ -10271,6 +10062,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public onClick(Landroid/view/View;)V
@@ -10639,23 +10450,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -10689,11 +10483,11 @@
 
     .line 2
     .line 3
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
     .line 4
     .line 5
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     .line 6
     .line 7
@@ -10702,7 +10496,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wz6;->g(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a07;->g(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 11
     .line 12
@@ -10722,7 +10516,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wz6;->i(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a07;->i(Ljava/lang/String;)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -10813,7 +10607,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/wz6;->c(Ljava/lang/String;Z)Z
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/a07;->c(Ljava/lang/String;Z)Z
 
     .line 61
     .line 62
@@ -10944,23 +10738,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onFocusChange(Landroid/view/View;Z)V
@@ -11291,10 +11068,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final onPrepareOptionsMenu(Landroid/view/Menu;)Z
@@ -11705,4 +11478,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

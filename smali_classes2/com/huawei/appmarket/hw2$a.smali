@@ -1,0 +1,68 @@
+.class public final Lcom/huawei/appmarket/hw2$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/hw2;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field private a:Z
+
+.field private b:Lcom/huawei/appmarket/zv2;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/huawei/appmarket/zv2;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hw2$a;->b:Lcom/huawei/appmarket/zv2;
+
+    return-object v0
+.end method
+
+.method public final b()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/hw2$a;->a:Z
+
+    return v0
+.end method
+
+.method public final c(Z)V
+    .registers 2
+
+    .line 1
+    iput-boolean p1, p0, Lcom/huawei/appmarket/hw2$a;->a:Z
+
+    return-void
+.end method
+
+.method public final d(Lcom/huawei/appmarket/zv2;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/hw2$a;->b:Lcom/huawei/appmarket/zv2;
+
+    return-void
+.end method

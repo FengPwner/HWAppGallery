@@ -53,7 +53,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -160,7 +160,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -195,7 +194,7 @@
 
     .line 14
     .line 15
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bu0;->n(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/kd0;->o(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -307,5 +306,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -1,5 +1,5 @@
 .class Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;
-.super Lcom/huawei/appmarket/bd5;
+.super Lcom/huawei/appmarket/ed5;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/ju7;",
+            "Lcom/huawei/appmarket/pu7;",
             ">;"
         }
     .end annotation
@@ -66,7 +66,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
     .registers 3
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/bd5;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ed5;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     const/4 p1, 0x0
 
@@ -135,7 +135,7 @@
     return v0
 .end method
 
-.method public h(Lcom/huawei/appmarket/ju7;)V
+.method public h(Lcom/huawei/appmarket/pu7;)V
     .registers 3
 
     .line 1
@@ -573,7 +573,7 @@
     move-result-object p2
 
     .line 121
-    check-cast p2, Lcom/huawei/appmarket/ju7;
+    check-cast p2, Lcom/huawei/appmarket/pu7;
 
     .line 122
     .line 123
@@ -588,7 +588,7 @@
     add-int/2addr p1, v2
 
     .line 128
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ju7;->v(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/pu7;->v(I)Landroidx/fragment/app/Fragment;
 
     .line 129
     .line 130
@@ -596,7 +596,7 @@
     move-result-object p3
 
     .line 132
-    instance-of v0, p3, Lcom/huawei/appmarket/bu3;
+    instance-of v0, p3, Lcom/huawei/appmarket/du3;
 
     .line 133
     .line 134
@@ -615,7 +615,7 @@
     sub-int/2addr p1, v2
 
     .line 140
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ju7;->v(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/pu7;->v(I)Landroidx/fragment/app/Fragment;
 
     .line 141
     .line 142
@@ -623,7 +623,7 @@
     move-result-object p3
 
     .line 144
-    instance-of v0, p3, Lcom/huawei/appmarket/bu3;
+    instance-of v0, p3, Lcom/huawei/appmarket/du3;
 
     .line 145
     .line 146
@@ -632,11 +632,11 @@
     .line 147
     .line 148
     :goto_4
-    check-cast p3, Lcom/huawei/appmarket/bu3;
+    check-cast p3, Lcom/huawei/appmarket/du3;
 
     .line 149
     .line 150
-    invoke-interface {p3, v3}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {p3, v3}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     .line 151
     .line 152
@@ -645,7 +645,7 @@
 
     .line 154
     :cond_8
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/ju7;->C(I)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/pu7;->C(I)V
 
     .line 155
     .line 156
@@ -821,7 +821,7 @@
 .method public onPageSelected(I)V
     .registers 4
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/wi8;->onPageSelected(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/cj8;->onPageSelected(I)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;->e:Ljava/lang/ref/WeakReference;
 
@@ -858,7 +858,7 @@
     iput p1, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/b;->k:I
 
     :cond_1
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/bd5;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ed5;->getCurrentFragment(I)Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 
@@ -895,7 +895,7 @@
 
     const-string v0, "onSubTabSelected, baseListFragment == null"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     return-void

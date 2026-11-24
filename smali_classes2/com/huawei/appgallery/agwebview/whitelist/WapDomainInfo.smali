@@ -23,13 +23,13 @@
 
 # instance fields
 .field private domainName_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private domainUrl_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -273,7 +273,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -303,7 +302,7 @@
 
     iget-object p1, p1, Lcom/huawei/appgallery/agwebview/whitelist/WapDomainInfo;->domainUrl_:Ljava/lang/String;
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/gp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/lp7;->d(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -348,7 +347,7 @@
     const-string v3, "toString, IllegalArgumentException."
 
     :goto_0
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 

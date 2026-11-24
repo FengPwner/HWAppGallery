@@ -26,24 +26,24 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     const-string v1, "start system install type!"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/dg4;->a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/fg4;->a(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 
     goto :goto_0
 
     :cond_0
-    sget-object v6, Lcom/huawei/appmarket/vu;->b:Lcom/huawei/appmarket/vu;
+    sget-object v6, Lcom/huawei/appmarket/wu;->b:Lcom/huawei/appmarket/wu;
 
-    iput-object v6, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/vu;
+    iput-object v6, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->status:Lcom/huawei/appmarket/wu;
 
-    iget-object v0, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/i76;
+    iget-object v0, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->processType:Lcom/huawei/appmarket/k76;
 
-    sget-object v3, Lcom/huawei/appmarket/i76;->b:Lcom/huawei/appmarket/i76;
+    sget-object v3, Lcom/huawei/appmarket/k76;->b:Lcom/huawei/appmarket/k76;
 
     const/4 v4, 0x1
 
@@ -53,14 +53,14 @@
 
     if-ne v0, v4, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/pu5;->f()Lcom/huawei/appmarket/pu5;
+    invoke-static {}, Lcom/huawei/appmarket/ru5;->f()Lcom/huawei/appmarket/ru5;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/pu5;->r(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
+    invoke-virtual {v0, p0, p1}, Lcom/huawei/appmarket/ru5;->r(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;)V
 
     :cond_1
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -76,9 +76,9 @@
 
     move-result-object v5
 
-    invoke-virtual {v0, v2, v5}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v5}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/gu5;->b(Landroid/content/Context;)Lcom/huawei/appmarket/gu5;
+    invoke-static {p0}, Lcom/huawei/appmarket/iu5;->b(Landroid/content/Context;)Lcom/huawei/appmarket/iu5;
 
     move-result-object p0
 
@@ -92,13 +92,13 @@
 
     iget-wide v9, p1, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->taskId:J
 
-    new-array v11, v1, [Lcom/huawei/appmarket/i76;
+    new-array v11, v1, [Lcom/huawei/appmarket/k76;
 
     const/4 p1, 0x0
 
     aput-object v3, v11, p1
 
-    sget-object p1, Lcom/huawei/appmarket/i76;->c:Lcom/huawei/appmarket/i76;
+    sget-object p1, Lcom/huawei/appmarket/k76;->c:Lcom/huawei/appmarket/k76;
 
     aput-object p1, v11, v4
 
@@ -106,7 +106,7 @@
 
     move-object v4, v0
 
-    invoke-virtual/range {v3 .. v11}, Lcom/huawei/appmarket/gu5;->c(Ljava/lang/String;ILcom/huawei/appmarket/vu;IIJ[Lcom/huawei/appmarket/i76;)Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
+    invoke-virtual/range {v3 .. v11}, Lcom/huawei/appmarket/iu5;->c(Ljava/lang/String;ILcom/huawei/appmarket/wu;IIJ[Lcom/huawei/appmarket/k76;)Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
 
     :goto_0
     return-void

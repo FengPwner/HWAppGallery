@@ -9,9 +9,9 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/r99;
+.field private final a:Lcom/huawei/appmarket/x99;
 
-.field private final b:Lcom/huawei/appmarket/rc9;
+.field private final b:Lcom/huawei/appmarket/yc9;
 
 .field private final c:Lcom/huawei/quickcard/framework/bean/CardElement;
 
@@ -19,15 +19,15 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/r99;Lcom/huawei/appmarket/rc9;Lcom/huawei/quickcard/framework/bean/CardElement;I)V
+.method public constructor <init>(Lcom/huawei/appmarket/x99;Lcom/huawei/appmarket/yc9;Lcom/huawei/quickcard/framework/bean/CardElement;I)V
     .registers 5
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->a:Lcom/huawei/appmarket/r99;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->a:Lcom/huawei/appmarket/x99;
 
-    iput-object p2, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->b:Lcom/huawei/appmarket/rc9;
+    iput-object p2, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->b:Lcom/huawei/appmarket/yc9;
 
     iput-object p3, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->c:Lcom/huawei/quickcard/framework/bean/CardElement;
 
@@ -64,17 +64,17 @@
 
     move-result-object v3
 
-    new-instance v4, Lcom/huawei/appmarket/n39;
+    new-instance v4, Lcom/huawei/appmarket/t39;
 
-    invoke-direct {v4, p0}, Lcom/huawei/appmarket/n39;-><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {v4, p0}, Lcom/huawei/appmarket/t39;-><init>(Landroid/view/ViewGroup;)V
 
     invoke-interface {v0, v2, v3, v4}, Lcom/huawei/quickcard/watcher/IWatcherManager;->watchIfCondition(Ljava/lang/String;Lcom/huawei/quickcard/watcher/Expression;Lcom/huawei/quickcard/watcher/IWatchConditionCallback;)Lcom/huawei/quickcard/watcher/Watcher;
 
     move-result-object v2
 
-    new-instance v3, Lcom/huawei/appmarket/rc9;
+    new-instance v3, Lcom/huawei/appmarket/yc9;
 
-    invoke-direct {v3, p3, v2}, Lcom/huawei/appmarket/rc9;-><init>(Ljava/lang/String;Lcom/huawei/quickcard/watcher/Watcher;)V
+    invoke-direct {v3, p3, v2}, Lcom/huawei/appmarket/yc9;-><init>(Ljava/lang/String;Lcom/huawei/quickcard/watcher/Watcher;)V
 
     goto :goto_0
 
@@ -86,15 +86,15 @@
     :goto_0
     if-eqz p2, :cond_2
 
-    new-instance v1, Lcom/huawei/appmarket/r99;
+    new-instance v1, Lcom/huawei/appmarket/x99;
 
-    invoke-direct {v1, p2}, Lcom/huawei/appmarket/r99;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p2}, Lcom/huawei/appmarket/x99;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {p4}, Lcom/huawei/quickcard/framework/bean/CardElement;->getRef()Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/r99;->b()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/x99;->b()Ljava/lang/String;
 
     move-result-object p3
 
@@ -102,9 +102,9 @@
 
     move-result-object p3
 
-    new-instance v4, Lcom/huawei/appmarket/n39;
+    new-instance v4, Lcom/huawei/appmarket/t39;
 
-    invoke-direct {v4, p0}, Lcom/huawei/appmarket/n39;-><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {v4, p0}, Lcom/huawei/appmarket/t39;-><init>(Landroid/view/ViewGroup;)V
 
     invoke-interface {v0, p2, p3, v4}, Lcom/huawei/quickcard/watcher/IWatcherManager;->watcherForCondition(Ljava/lang/String;Lcom/huawei/quickcard/watcher/Expression;Lcom/huawei/quickcard/watcher/IWatchConditionCallback;)Lcom/huawei/quickcard/watcher/ForWatcher;
 
@@ -112,12 +112,12 @@
 
     invoke-virtual {p0, v2}, Lcom/huawei/quickcard/watcher/ForWatcher;->setIfWatcher(Lcom/huawei/quickcard/watcher/Watcher;)V
 
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/r99;->f(Lcom/huawei/quickcard/watcher/ForWatcher;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/x99;->f(Lcom/huawei/quickcard/watcher/ForWatcher;)V
 
     :cond_2
     new-instance p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;
 
-    invoke-direct {p0, v1, v3, p4, p1}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;-><init>(Lcom/huawei/appmarket/r99;Lcom/huawei/appmarket/rc9;Lcom/huawei/quickcard/framework/bean/CardElement;I)V
+    invoke-direct {p0, v1, v3, p4, p1}, Lcom/huawei/quickcard/framework/condition/ConditionalChild;-><init>(Lcom/huawei/appmarket/x99;Lcom/huawei/appmarket/yc9;Lcom/huawei/quickcard/framework/bean/CardElement;I)V
 
     return-object p0
 .end method
@@ -132,20 +132,20 @@
     return-object v0
 .end method
 
-.method public getForCondition()Lcom/huawei/appmarket/r99;
+.method public getForCondition()Lcom/huawei/appmarket/x99;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->a:Lcom/huawei/appmarket/r99;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->a:Lcom/huawei/appmarket/x99;
 
     return-object v0
 .end method
 
-.method public getIfCondition()Lcom/huawei/appmarket/rc9;
+.method public getIfCondition()Lcom/huawei/appmarket/yc9;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->b:Lcom/huawei/appmarket/rc9;
+    iget-object v0, p0, Lcom/huawei/quickcard/framework/condition/ConditionalChild;->b:Lcom/huawei/appmarket/yc9;
 
     return-object v0
 .end method

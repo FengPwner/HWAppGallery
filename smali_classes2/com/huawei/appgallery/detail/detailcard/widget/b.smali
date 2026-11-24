@@ -25,21 +25,21 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailcard/widget/b;->a:Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->h(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)Lcom/huawei/appmarket/nk1;
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;->h(Lcom/huawei/appgallery/detail/detailcard/widget/DetailInfoFlowDownloadView;)Lcom/huawei/appmarket/qk1;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nk1;->x(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qk1;->x(Z)V
 
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v0, "DetailInfoFlowDownloadView"
 
     const-string v1, "installDelay: download card fade-in completed"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

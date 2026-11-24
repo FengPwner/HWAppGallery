@@ -2,7 +2,12 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/vehicleowner/IVehicleOwnerServiceApi;
+.implements Lcom/huawei/appmarket/kh3;
 
-# virtual methods
-.method public abstract k1(Z)V
-.end method
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/ch1;
+.end annotation

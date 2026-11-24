@@ -5,7 +5,7 @@
 
 # instance fields
 .field private a:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "detailList"
     .end annotation
 
@@ -19,13 +19,13 @@
 .end field
 
 .field private b:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "curPage"
     .end annotation
 .end field
 
 .field private c:I
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "totalPage"
     .end annotation
 .end field

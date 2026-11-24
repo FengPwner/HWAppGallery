@@ -79,13 +79,13 @@
 .method private c(Ljavax/net/ssl/SSLSocket;)V
     .registers 3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oq8;->m(Ljavax/net/ssl/SSLSocket;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/uq8;->m(Ljavax/net/ssl/SSLSocket;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oq8;->l(Ljavax/net/ssl/SSLSocket;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/uq8;->l(Ljavax/net/ssl/SSLSocket;)V
 
     :cond_0
     return-void
@@ -192,7 +192,7 @@
 
     check-cast p3, [Ljava/lang/String;
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/oq8;->k(Ljavax/net/ssl/SSLParameters;[Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/uq8;->k(Ljavax/net/ssl/SSLParameters;[Ljava/lang/String;)V
 
     invoke-virtual {p1, p2}, Ljavax/net/ssl/SSLSocket;->setSSLParameters(Ljavax/net/ssl/SSLParameters;)V
     :try_end_0
@@ -220,7 +220,7 @@
     .annotation build Lorg/codehaus/mojo/animal_sniffer/IgnoreJRERequirement;
     .end annotation
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oq8;->h(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/uq8;->h(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
 
     move-result-object p1
 

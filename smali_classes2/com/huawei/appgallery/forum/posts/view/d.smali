@@ -1,13 +1,13 @@
 .class final Lcom/huawei/appgallery/forum/posts/view/d;
-.super Lcom/huawei/appmarket/cf7;
+.super Lcom/huawei/appmarket/hf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/cf7<",
-        "Lcom/huawei/appmarket/cr5;",
+        "Lcom/huawei/appmarket/hf7<",
+        "Lcom/huawei/appmarket/er5;",
         ">;"
     }
 .end annotation
@@ -23,7 +23,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/forum/posts/view/d;->a:Lcom/huawei/appgallery/forum/posts/view/PostDetailActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/cf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/hf7;-><init>()V
 
     return-void
 .end method
@@ -34,11 +34,11 @@
     .registers 5
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/cr5;
+    check-cast p1, Lcom/huawei/appmarket/er5;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cr5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/er5;->a()I
 
     .line 4
     .line 5
@@ -58,7 +58,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cr5;->b()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/er5;->b()Z
 
     .line 14
     .line 15
@@ -75,7 +75,7 @@
     .line 20
     .line 21
     :goto_0
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -84,7 +84,7 @@
 
     .line 25
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cr5;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/er5;->a()I
 
     .line 26
     .line 27
@@ -96,7 +96,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cr5;->b()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/er5;->b()Z
 
     .line 32
     .line 33
@@ -112,7 +112,7 @@
 
     .line 38
     .line 39
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -194,5 +194,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

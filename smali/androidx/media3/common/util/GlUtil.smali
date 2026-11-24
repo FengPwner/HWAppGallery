@@ -137,7 +137,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bu0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/kd0;->j(ILjava/lang/StringBuilder;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -269,6 +269,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public static c(Ljava/lang/String;Z)V
@@ -427,7 +428,7 @@
     .registers 6
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 2
     .line 3
@@ -458,7 +459,7 @@
 
     .line 14
     .line 15
-    sget-object v4, Lcom/huawei/appmarket/ge8;->c:Ljava/lang/String;
+    sget-object v4, Lcom/huawei/appmarket/le8;->c:Ljava/lang/String;
 
     .line 16
     .line 17
@@ -478,7 +479,7 @@
 
     .line 24
     .line 25
-    sget-object v4, Lcom/huawei/appmarket/ge8;->d:Ljava/lang/String;
+    sget-object v4, Lcom/huawei/appmarket/le8;->d:Ljava/lang/String;
 
     .line 26
     .line 27
@@ -767,4 +768,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

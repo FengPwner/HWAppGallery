@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bumptech/glide/load/b;->f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    value = Lcom/bumptech/glide/load/b;->f(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,11 +20,11 @@
 # instance fields
 .field final synthetic a:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 
-.field final synthetic b:Lcom/huawei/appmarket/hx;
+.field final synthetic b:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method constructor <init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/huawei/appmarket/ix;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -35,7 +35,7 @@
     .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/b$b;->a:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/b$b;->b:Lcom/huawei/appmarket/hx;
+    iput-object p2, p0, Lcom/bumptech/glide/load/b$b;->b:Lcom/huawei/appmarket/ix;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,7 +58,7 @@
     const/4 v1, 0x0
 
     :try_start_0
-    new-instance v2, Lcom/huawei/appmarket/vk6;
+    new-instance v2, Lcom/huawei/appmarket/xk6;
 
     new-instance v3, Ljava/io/FileInputStream;
 
@@ -72,9 +72,9 @@
 
     invoke-direct {v3, v4}, Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V
 
-    iget-object v4, p0, Lcom/bumptech/glide/load/b$b;->b:Lcom/huawei/appmarket/hx;
+    iget-object v4, p0, Lcom/bumptech/glide/load/b$b;->b:Lcom/huawei/appmarket/ix;
 
-    invoke-direct {v2, v3, v4}, Lcom/huawei/appmarket/vk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/hx;)V
+    invoke-direct {v2, v3, v4}, Lcom/huawei/appmarket/xk6;-><init>(Ljava/io/InputStream;Lcom/huawei/appmarket/ix;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -85,7 +85,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/vk6;->t()V
+    invoke-virtual {v2}, Lcom/huawei/appmarket/xk6;->t()V
 
     invoke-virtual {v0}, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;->a()Landroid/os/ParcelFileDescriptor;
 
@@ -104,7 +104,7 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vk6;->t()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xk6;->t()V
 
     :cond_0
     invoke-virtual {v0}, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;->a()Landroid/os/ParcelFileDescriptor;

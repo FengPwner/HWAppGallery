@@ -4,19 +4,19 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/tj1;
+.annotation runtime Lcom/huawei/appmarket/wj1;
     name = "head.card"
 .end annotation
 
 
 # instance fields
 .field private appPermission:Lcom/huawei/appgallery/detail/detailbase/api/DetailAboutBeanV3$AppPermission;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private appPrivacy:Lcom/huawei/appgallery/detail/detailbase/api/DetailAboutBeanV3$AppPrivacy;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

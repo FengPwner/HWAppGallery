@@ -136,7 +136,7 @@
     iput-object p1, p0, Lcom/huawei/hms/update/http/HttpRequestHelper;->a:Ljavax/net/ssl/HttpsURLConnection;
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     move-result-object p1
 
@@ -195,9 +195,9 @@
 
     iget-object p1, p0, Lcom/huawei/hms/update/http/HttpRequestHelper;->a:Ljavax/net/ssl/HttpsURLConnection;
 
-    new-instance p2, Lcom/huawei/appmarket/so7;
+    new-instance p2, Lcom/huawei/appmarket/xo7;
 
-    invoke-direct {p2}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {p2}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     invoke-virtual {p1, p2}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
     :try_end_0

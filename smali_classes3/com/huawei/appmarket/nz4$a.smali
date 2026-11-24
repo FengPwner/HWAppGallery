@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/nz4$a;
-.super Ljava/lang/Object;
+.super Landroid/os/Handler;
 .source "SourceFile"
 
 
@@ -9,27 +9,38 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
-    name = "a"
+    accessFlags = 0x0
+    name = null
 .end annotation
 
 
 # instance fields
-.field a:I
-
-.field b:I
+.field final synthetic a:Lcom/huawei/appmarket/nz4;
 
 
 # direct methods
-.method constructor <init>(II)V
-    .registers 3
+.method constructor <init>(Lcom/huawei/appmarket/nz4;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/nz4$a;->a:Lcom/huawei/appmarket/nz4;
 
-    iput p1, p0, Lcom/huawei/appmarket/nz4$a;->a:I
+    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    iput p2, p0, Lcom/huawei/appmarket/nz4$a;->b:I
+    return-void
+.end method
+
+
+# virtual methods
+.method public final handleMessage(Landroid/os/Message;)V
+    .registers 2
+
+    .line 1
+    invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
+
+    iget-object p1, p0, Lcom/huawei/appmarket/nz4$a;->a:Lcom/huawei/appmarket/nz4;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/nz4;->a(Lcom/huawei/appmarket/nz4;)V
 
     return-void
 .end method

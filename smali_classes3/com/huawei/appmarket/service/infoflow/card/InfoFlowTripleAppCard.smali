@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/service/infoflow/cards/card/BaseInfoFlowCard<",
-        "Lcom/huawei/appmarket/jc4;",
+        "Lcom/huawei/appmarket/lc4;",
         ">;"
     }
 .end annotation
@@ -230,7 +230,7 @@
 
     invoke-virtual {v4, v3}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->G0(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/yb4;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -310,7 +310,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
@@ -329,7 +329,7 @@
 
     check-cast v1, Lcom/huawei/appmarket/service/store/awk/card/NormalCard;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/NormalCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -343,7 +343,7 @@
     .registers 8
 
     .line 1
-    check-cast p1, Lcom/huawei/appmarket/jc4;
+    check-cast p1, Lcom/huawei/appmarket/lc4;
 
     .line 2
     .line 3
@@ -366,7 +366,7 @@
     const/4 v3, 0x0
 
     .line 12
-    iget-object v4, p1, Lcom/huawei/appmarket/jc4;->v:Landroid/view/View;
+    iget-object v4, p1, Lcom/huawei/appmarket/lc4;->v:Landroid/view/View;
 
     .line 13
     .line 14
@@ -374,7 +374,7 @@
 
     .line 15
     .line 16
-    iget-object v4, p1, Lcom/huawei/appmarket/jc4;->w:Landroid/view/View;
+    iget-object v4, p1, Lcom/huawei/appmarket/lc4;->w:Landroid/view/View;
 
     .line 17
     .line 18
@@ -388,7 +388,7 @@
     const/4 v4, 0x2
 
     .line 22
-    iget-object p1, p1, Lcom/huawei/appmarket/jc4;->x:Landroid/view/View;
+    iget-object p1, p1, Lcom/huawei/appmarket/lc4;->x:Landroid/view/View;
 
     .line 23
     .line 24
@@ -521,5 +521,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

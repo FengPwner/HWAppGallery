@@ -127,7 +127,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hk0;->b(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p1}, Lcom/huawei/appmarket/ik0;->b(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -144,7 +144,7 @@
     goto :goto_2
 
     :goto_1
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -178,7 +178,7 @@
 
     const-string v1, "LayoutDataMini"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_2

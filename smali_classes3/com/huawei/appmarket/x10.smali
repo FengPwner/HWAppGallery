@@ -10,7 +10,7 @@
 
 
 # instance fields
-.field private a:Lcom/huawei/appmarket/pi3;
+.field private a:Lcom/huawei/appmarket/ri3;
 
 
 # direct methods
@@ -36,7 +36,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 5
     .line 6
@@ -48,11 +48,11 @@
 
     .line 9
     .line 10
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 13
     .line 14
@@ -64,11 +64,11 @@
 
     .line 17
     .line 18
-    const-class v1, Lcom/huawei/appmarket/pi3;
+    const-class v1, Lcom/huawei/appmarket/ri3;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -76,11 +76,11 @@
     move-result-object v0
 
     .line 24
-    check-cast v0, Lcom/huawei/appmarket/pi3;
+    check-cast v0, Lcom/huawei/appmarket/ri3;
 
     .line 25
     .line 26
-    iput-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iput-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     .line 27
     .line 28
@@ -96,7 +96,7 @@
 
     .line 32
     .line 33
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -263,7 +263,7 @@
     move-result-object v0
 
     .line 10
-    iget-object v0, v0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, v0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     .line 11
     .line 12
@@ -279,7 +279,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -288,7 +288,7 @@
 
     .line 22
     :cond_0
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/pi3;->g(Ljava/lang/Class;)V
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/ri3;->g(Ljava/lang/Class;)V
 
     .line 23
     .line 24
@@ -384,7 +384,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static e()Ljava/util/ArrayList;
@@ -418,11 +417,11 @@
 
 
 # virtual methods
-.method public final b(Landroid/content/Context;Lcom/huawei/appmarket/vm4;)Z
+.method public final b(Landroid/content/Context;Lcom/huawei/appmarket/ym4;)Z
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -430,14 +429,14 @@
 
     const-string p2, "BackgroundTaskManager is null, loop on Background work error!!!"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
     return p1
 
     :cond_0
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/pi3;->f(Landroid/content/Context;Lcom/huawei/appmarket/vm4;)Z
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/ri3;->f(Landroid/content/Context;Lcom/huawei/appmarket/ym4;)Z
 
     move-result p1
 
@@ -460,7 +459,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -468,14 +467,14 @@
 
     const-string p2, "BackgroundTaskManager is null, execute background task error!!!"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     const-class v1, Lcom/huawei/appmarket/service/background/CommonWorkCallback;
 
-    invoke-interface {v0, p1, p2, v1, p3}, Lcom/huawei/appmarket/pi3;->h(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/Class;[Ljava/lang/Class;)V
+    invoke-interface {v0, p1, p2, v1, p3}, Lcom/huawei/appmarket/ri3;->h(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/Class;[Ljava/lang/Class;)V
 
     return-void
 .end method
@@ -484,7 +483,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     .line 2
     .line 3
@@ -500,7 +499,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -541,7 +540,7 @@
 
     .line 28
     .line 29
-    invoke-interface {v0, p1, p2, v2, v1}, Lcom/huawei/appmarket/pi3;->h(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/Class;[Ljava/lang/Class;)V
+    invoke-interface {v0, p1, p2, v2, v1}, Lcom/huawei/appmarket/ri3;->h(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/Class;[Ljava/lang/Class;)V
 
     .line 30
     .line 31
@@ -689,14 +688,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final varargs g(Landroid/content/Context;[I)V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -704,7 +702,7 @@
 
     const-string p2, "BackgroundTaskManager is null, loop on Background work error!!!"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -713,7 +711,7 @@
 
     invoke-direct {v1}, Lcom/huawei/appmarket/p50;-><init>()V
 
-    invoke-interface {v0, p1, v1, p2}, Lcom/huawei/appmarket/pi3;->b(Landroid/content/Context;Lcom/huawei/appmarket/p50;[I)V
+    invoke-interface {v0, p1, v1, p2}, Lcom/huawei/appmarket/ri3;->b(Landroid/content/Context;Lcom/huawei/appmarket/p50;[I)V
 
     return-void
 .end method
@@ -722,7 +720,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -730,12 +728,12 @@
 
     const-string v1, "BackgroundTaskManager is null, notify jobs error!!!"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/pi3;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ri3;->c()V
 
     return-void
 .end method
@@ -744,7 +742,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -752,12 +750,12 @@
 
     const-string v1, "BackgroundTaskManager is null, notify task finish error!!!"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/pi3;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ri3;->a()V
 
     return-void
 .end method
@@ -766,7 +764,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -774,12 +772,12 @@
 
     const-string v1, "BackgroundTaskManager is null, notify task wait error!!!"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/pi3;->e()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ri3;->e()V
 
     return-void
 .end method
@@ -788,7 +786,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/pi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/x10;->a:Lcom/huawei/appmarket/ri3;
 
     if-nez v0, :cond_0
 
@@ -796,12 +794,12 @@
 
     const-string v1, "BackgroundTaskManager is null, wait jobs error!!!"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_0
-    invoke-interface {v0}, Lcom/huawei/appmarket/pi3;->d()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ri3;->d()V
 
     return-void
 .end method

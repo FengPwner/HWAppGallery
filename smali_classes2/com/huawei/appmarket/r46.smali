@@ -1,13 +1,13 @@
-.class final Lcom/huawei/appmarket/r46;
+.class public final Lcom/huawei/appmarket/r46;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnCancelListener;
+.implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
 
 
 # direct methods
-.method constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -17,17 +17,49 @@
 
 
 # virtual methods
-.method public final onCancel(Landroid/content/DialogInterface;)V
+.method public final m2(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
     .registers 3
 
     .line 1
-    new-instance p1, Ljava/util/LinkedHashMap;
+    return-void
+.end method
 
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+.method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
+    .registers 4
 
-    const-string v0, "1010900306"
+    .line 1
+    const/4 p1, 0x0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    return p1
+.end method
+
+.method public final z0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 5
+
+    .line 1
+    check-cast p2, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadResultResponse;
+
+    sget-object p1, Lcom/huawei/appmarket/nv1;->a:Lcom/huawei/appmarket/nv1;
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "DownloadResultResponse rtnCode_:"
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result p2
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    const-string v0, "PreDownloadResultCallBack"
+
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

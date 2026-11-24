@@ -3,64 +3,142 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ku6;
+.implements Lcom/huawei/appmarket/iz2$a;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ku6<",
-        "Lcom/huawei/appmarket/gz2;",
-        "[B>;"
-    }
-.end annotation
+# instance fields
+.field private final a:Lcom/huawei/appmarket/ka0;
+
+.field private final b:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Lcom/huawei/appmarket/ka0;)V
+    .registers 3
 
+    .line 1
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/hz2;-><init>(Lcom/huawei/appmarket/ka0;Lcom/huawei/appmarket/ix;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/huawei/appmarket/ka0;Lcom/huawei/appmarket/ix;)V
+    .registers 3
+
+    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/hz2;->a:Lcom/huawei/appmarket/ka0;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/hz2;->b:Lcom/huawei/appmarket/ix;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/cu6;Lcom/huawei/appmarket/tr5;)Lcom/huawei/appmarket/cu6;
-    .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/cu6<",
-            "Lcom/huawei/appmarket/gz2;",
-            ">;",
-            "Lcom/huawei/appmarket/tr5;",
-            ")",
-            "Lcom/huawei/appmarket/cu6<",
-            "[B>;"
-        }
-    .end annotation
+.method public final a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    .registers 5
 
     .line 1
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->get()Ljava/lang/Object;
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->a:Lcom/huawei/appmarket/ka0;
+
+    invoke-interface {v0, p1, p2, p3}, Lcom/huawei/appmarket/ka0;->e(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/gz2;
+    return-object p1
+.end method
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz2;->b()Ljava/nio/ByteBuffer;
+.method public final b(I)[B
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->b:Lcom/huawei/appmarket/ix;
+
+    if-nez v0, :cond_0
+
+    new-array p1, p1, [B
+
+    return-object p1
+
+    :cond_0
+    const-class v1, [B
+
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/ix;->d(ILjava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    new-instance p2, Lcom/huawei/appmarket/uf0;
+    check-cast p1, [B
 
-    invoke-static {p1}, Lcom/huawei/appmarket/pf0;->d(Ljava/nio/ByteBuffer;)[B
+    return-object p1
+.end method
+
+.method public final c(I)[I
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->b:Lcom/huawei/appmarket/ix;
+
+    if-nez v0, :cond_0
+
+    new-array p1, p1, [I
+
+    return-object p1
+
+    :cond_0
+    const-class v1, [I
+
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/ix;->d(ILjava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Lcom/huawei/appmarket/uf0;-><init>([B)V
+    check-cast p1, [I
 
-    return-object p2
+    return-object p1
+.end method
+
+.method public final d(Landroid/graphics/Bitmap;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->a:Lcom/huawei/appmarket/ka0;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ka0;->a(Landroid/graphics/Bitmap;)V
+
+    return-void
+.end method
+
+.method public final e([B)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->b:Lcom/huawei/appmarket/ix;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final f([I)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/hz2;->b:Lcom/huawei/appmarket/ix;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ix;->put(Ljava/lang/Object;)V
+
+    return-void
 .end method

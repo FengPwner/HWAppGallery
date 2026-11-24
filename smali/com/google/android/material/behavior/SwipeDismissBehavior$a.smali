@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/behavior/SwipeDismissBehavior$a;
-.super Lcom/huawei/appmarket/ii8$c;
+.super Lcom/huawei/appmarket/oi8$c;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior$a;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ii8$c;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/oi8$c;-><init>()V
 
     const/4 p1, -0x1
 
@@ -43,7 +43,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 2
     .line 3
@@ -705,6 +705,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final j(Landroid/view/View;FF)V
@@ -747,7 +754,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     .line 18
     .line 19
@@ -937,7 +944,7 @@
 
     .line 98
     :goto_2
-    iget-object p2, v1, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iget-object p2, v1, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     .line 99
     .line 100
@@ -949,7 +956,7 @@
     move-result p3
 
     .line 104
-    invoke-virtual {p2, v2, p3}, Lcom/huawei/appmarket/ii8;->B(II)Z
+    invoke-virtual {p2, v2, p3}, Lcom/huawei/appmarket/oi8;->B(II)Z
 
     .line 105
     .line 106
@@ -970,7 +977,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 116
     .line 117
@@ -1154,6 +1161,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final k(ILandroid/view/View;)Z

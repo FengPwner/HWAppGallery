@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "UserHomeTabVoteFragment"
     protocol = Lcom/huawei/appgallery/forum/user/api/IUserHomePageProtocol;
 .end annotation

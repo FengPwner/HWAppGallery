@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aq6;
+.implements Lcom/huawei/appmarket/dq6;
 
 
 # instance fields
@@ -41,11 +41,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/mg0;)Z
+.method public final a(Lcom/huawei/appmarket/ng0;)Z
     .registers 4
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/mg0;->a()Lcom/huawei/appmarket/jg0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ng0;->a()Lcom/huawei/appmarket/kg0;
 
     move-result-object p1
 
@@ -58,7 +58,7 @@
     :cond_0
     const-string v1, "background-color"
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/jg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/kg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
 
     move-result-object p1
 
@@ -138,7 +138,7 @@
 
     .line 7
     :cond_0
-    instance-of v0, p1, Lcom/huawei/appmarket/gz2;
+    instance-of v0, p1, Lcom/huawei/appmarket/jz2;
 
     .line 8
     .line 9
@@ -327,7 +327,7 @@
 
     .line 87
     .line 88
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -373,5 +373,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

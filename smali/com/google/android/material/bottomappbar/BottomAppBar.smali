@@ -24,7 +24,7 @@
 
 .field private final W:I
 
-.field private final a0:Lcom/huawei/appmarket/q45;
+.field private final a0:Lcom/huawei/appmarket/t45;
 
 .field private b0:Landroid/animation/Animator;
 
@@ -58,10 +58,10 @@
 
 .field q0:Landroid/animation/AnimatorListenerAdapter;
 
-.field r0:Lcom/huawei/appmarket/w28;
+.field r0:Lcom/huawei/appmarket/c38;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/w28<",
+            "Lcom/huawei/appmarket/c38<",
             "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
             ">;"
         }
@@ -97,17 +97,17 @@
 
     const v0, 0x7f130603
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/Toolbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    new-instance p1, Lcom/huawei/appmarket/q45;
+    new-instance p1, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/t45;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iput-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
     const/4 v0, 0x0
 
@@ -129,13 +129,13 @@
 
     invoke-direct {v2, p0}, Lcom/google/android/material/bottomappbar/BottomAppBar$b;-><init>(Lcom/google/android/material/bottomappbar/BottomAppBar;)V
 
-    iput-object v2, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->r0:Lcom/huawei/appmarket/w28;
+    iput-object v2, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->r0:Lcom/huawei/appmarket/c38;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    sget-object v5, Lcom/huawei/appmarket/ie6;->e:[I
+    sget-object v5, Lcom/huawei/appmarket/ke6;->e:[I
 
     const v7, 0x7f130603
 
@@ -147,11 +147,11 @@
 
     move v6, p3
 
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object v3
 
-    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v2, v3, v0}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object v4
 
@@ -266,29 +266,29 @@
 
     invoke-direct {v0, v5, v6, v7}, Lcom/google/android/material/bottomappbar/e;-><init>(FFF)V
 
-    sget-object v3, Lcom/huawei/appmarket/nb7;->m:Lcom/huawei/appmarket/fn6;
+    sget-object v3, Lcom/huawei/appmarket/sb7;->m:Lcom/huawei/appmarket/in6;
 
     .line 3
-    new-instance v3, Lcom/huawei/appmarket/nb7$b;
+    new-instance v3, Lcom/huawei/appmarket/sb7$b;
 
-    invoke-direct {v3}, Lcom/huawei/appmarket/nb7$b;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/sb7$b;-><init>()V
 
     .line 4
-    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/nb7$b;->A(Lcom/google/android/material/bottomappbar/e;)V
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/sb7$b;->A(Lcom/google/android/material/bottomappbar/e;)V
 
-    invoke-virtual {v3}, Lcom/huawei/appmarket/nb7$b;->m()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/sb7$b;->m()Lcom/huawei/appmarket/sb7;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/q45;->setShapeAppearanceModel(Lcom/huawei/appmarket/nb7;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/t45;->setShapeAppearanceModel(Lcom/huawei/appmarket/sb7;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->P()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->P()V
 
     sget-object v0, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/q45;->K(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/t45;->K(Landroid/graphics/Paint$Style;)V
 
-    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {p1, v2}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
     int-to-float v0, v1
 
@@ -296,13 +296,13 @@
 
     invoke-static {p1, v4}, Landroidx/core/graphics/drawable/a;->n(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     new-instance p1, Lcom/google/android/material/bottomappbar/BottomAppBar$c;
 
     invoke-direct {p1, p0}, Lcom/google/android/material/bottomappbar/BottomAppBar$c;-><init>(Lcom/google/android/material/bottomappbar/BottomAppBar;)V
 
-    invoke-static {p0, p2, p3, p1}, Lcom/huawei/appmarket/tj8;->a(Landroid/view/View;Landroid/util/AttributeSet;ILcom/huawei/appmarket/tj8$b;)V
+    invoke-static {p0, p2, p3, p1}, Lcom/huawei/appmarket/zj8;->a(Landroid/view/View;Landroid/util/AttributeSet;ILcom/huawei/appmarket/zj8$b;)V
 
     return-void
 .end method
@@ -649,11 +649,11 @@
     return-object p0
 .end method
 
-.method static synthetic b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/q45;
+.method static synthetic b0(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/huawei/appmarket/t45;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
     return-object p0
 .end method
@@ -795,13 +795,13 @@
 .method private getTopEdgeTreatment()Lcom/google/android/material/bottomappbar/e;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->getShapeAppearanceModel()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->getShapeAppearanceModel()Lcom/huawei/appmarket/sb7;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb7;->j()Lcom/huawei/appmarket/sy1;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sb7;->j()Lcom/huawei/appmarket/wy1;
 
     move-result-object v0
 
@@ -905,7 +905,7 @@
     .registers 5
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->f(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->f(Landroid/view/View;)Z
 
     move-result v0
 
@@ -956,7 +956,7 @@
     .registers 12
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -2010,6 +2010,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private p0()V
@@ -2045,7 +2046,7 @@
     move-result-object v0
 
     .line 16
-    iget-object v1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
     .line 17
     .line 18
@@ -2093,7 +2094,7 @@
 
     .line 38
     :goto_0
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/q45;->I(F)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/t45;->I(F)V
 
     .line 39
     .line 40
@@ -2208,6 +2209,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private r0(Landroidx/appcompat/widget/ActionMenuView;IZZ)V
@@ -2236,9 +2238,9 @@
 .method public getBackgroundTint()Landroid/content/res/ColorStateList;
     .registers 2
 
-    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->x()Landroid/content/res/ColorStateList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->x()Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -2357,7 +2359,7 @@
     goto :goto_4
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/tj8;->f(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zj8;->f(Landroid/view/View;)Z
 
     move-result p2
 
@@ -2499,9 +2501,9 @@
 
     invoke-super {p0}, Landroidx/appcompat/widget/Toolbar;->onAttachedToWindow()V
 
-    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/s45;->d(Landroid/view/View;Lcom/huawei/appmarket/q45;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/v45;->d(Landroid/view/View;Lcom/huawei/appmarket/t45;)V
 
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -3555,9 +3557,9 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/material/bottomappbar/e;->m(F)V
 
-    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     :cond_0
     return-void
@@ -3566,7 +3568,7 @@
 .method public setBackgroundTint(Landroid/content/res/ColorStateList;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
     invoke-static {v0, p1}, Landroidx/core/graphics/drawable/a;->n(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
@@ -3590,9 +3592,9 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/material/bottomappbar/e;->i(F)V
 
-    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     invoke-direct {p0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->p0()V
 
@@ -3603,15 +3605,15 @@
 .method public setElevation(F)V
     .registers 3
 
-    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->G(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->G(F)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->u()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->u()I
 
     move-result p1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q45;->t()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t45;->t()I
 
     move-result v0
 
@@ -3661,7 +3663,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->M(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->M(Landroid/view/View;)Z
 
     .line 17
     .line 18
@@ -4118,9 +4120,9 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/material/bottomappbar/e;->j(F)V
 
-    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     :cond_0
     return-void
@@ -4143,9 +4145,9 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/material/bottomappbar/e;->k(F)V
 
-    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     :cond_0
     return-void
@@ -4168,9 +4170,9 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/material/bottomappbar/e;->l(F)V
 
-    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/q45;
+    iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar;->a0:Lcom/huawei/appmarket/t45;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/q45;->invalidateSelf()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t45;->invalidateSelf()V
 
     :cond_0
     return-void

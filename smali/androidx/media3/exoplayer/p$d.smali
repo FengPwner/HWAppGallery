@@ -128,7 +128,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v1}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v1}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     return-void
 

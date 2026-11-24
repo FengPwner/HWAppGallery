@@ -72,7 +72,7 @@
     move-result-object v1
 
     .line 19
-    check-cast v1, Lcom/huawei/appmarket/kj8;
+    check-cast v1, Lcom/huawei/appmarket/qj8;
 
     .line 20
     .line 21
@@ -85,7 +85,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/kj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-interface {v1, p1, v2}, Lcom/huawei/appmarket/qj8;->d(Landroid/content/Context;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     .line 27
     .line 28
@@ -228,5 +228,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

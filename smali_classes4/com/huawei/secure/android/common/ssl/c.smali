@@ -75,7 +75,7 @@
 
     const-string v1, "checkClientTrusted"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/secure/android/common/ssl/c;->b:Ljava/util/ArrayList;
 
@@ -119,7 +119,7 @@
 
     const-string v0, "WebViewX509TrustManger"
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/s39;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/y39;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p2, 0x0
 
@@ -178,7 +178,7 @@
     :try_start_0
     iget-object v2, p0, Lcom/huawei/secure/android/common/ssl/c;->a:Ljava/security/cert/X509Certificate;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/qz8;->a(Ljava/security/cert/X509Certificate;[Ljava/security/cert/X509Certificate;)Z
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/wz8;->a(Ljava/security/cert/X509Certificate;[Ljava/security/cert/X509Certificate;)Z
 
     move-result p2
     :try_end_0
@@ -233,7 +233,7 @@
     move-result-object v1
 
     :goto_3
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_9
 
@@ -373,7 +373,7 @@
 
     const-string v1, "WebViewX509TrustManger"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

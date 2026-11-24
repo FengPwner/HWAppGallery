@@ -1,4 +1,4 @@
-.class public Lcom/huawei/appmarket/at6;
+.class public final Lcom/huawei/appmarket/at6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,221 +6,287 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/at6$q;,
-        Lcom/huawei/appmarket/at6$o;,
-        Lcom/huawei/appmarket/at6$m;,
-        Lcom/huawei/appmarket/at6$n;,
-        Lcom/huawei/appmarket/at6$b;,
-        Lcom/huawei/appmarket/at6$c;,
-        Lcom/huawei/appmarket/at6$e;,
-        Lcom/huawei/appmarket/at6$k;,
-        Lcom/huawei/appmarket/at6$g;,
-        Lcom/huawei/appmarket/at6$j;,
-        Lcom/huawei/appmarket/at6$h;,
-        Lcom/huawei/appmarket/at6$i;,
-        Lcom/huawei/appmarket/at6$f;,
-        Lcom/huawei/appmarket/at6$r;,
-        Lcom/huawei/appmarket/at6$d;,
-        Lcom/huawei/appmarket/at6$p;,
-        Lcom/huawei/appmarket/at6$l;
+        Lcom/huawei/appmarket/at6$a;
     }
 .end annotation
 
 
-# static fields
-.field private static c:Ljava/util/HashMap;
-
-.field public static final synthetic d:I
-
-
 # instance fields
-.field private a:B
+.field private a:Lcom/huawei/appmarket/dq0;
 
-.field private b:I
+.field private b:S
+
+.field private c:B
+
+.field private d:S
+
+.field private e:I
+
+.field private f:[I
+
+.field private g:Ljava/lang/String;
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method constructor <init>(Lcom/huawei/appmarket/dq0;SBSI[ILjava/lang/String;)V
+    .registers 8
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/at6;->a:Lcom/huawei/appmarket/dq0;
+
+    iput-short p2, p0, Lcom/huawei/appmarket/at6;->b:S
+
+    iput-byte p3, p0, Lcom/huawei/appmarket/at6;->c:B
+
+    iput-short p4, p0, Lcom/huawei/appmarket/at6;->d:S
+
+    iput p5, p0, Lcom/huawei/appmarket/at6;->e:I
+
+    iput-object p6, p0, Lcom/huawei/appmarket/at6;->f:[I
+
+    iput-object p7, p0, Lcom/huawei/appmarket/at6;->g:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/at6$a;
     .registers 1
 
     .line 1
-    new-instance v0, Ljava/util/HashMap;
+    new-instance v0, Lcom/huawei/appmarket/at6$a;
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/at6$a;-><init>()V
 
-    sput-object v0, Lcom/huawei/appmarket/at6;->c:Ljava/util/HashMap;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(Lcom/huawei/appmarket/at6$a;)V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/at6;-><init>()V
-
-    return-void
-.end method
-
-.method private constructor <init>(SBBI)V
-    .registers 5
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-byte p3, p0, Lcom/huawei/appmarket/at6;->a:B
-
-    iput p4, p0, Lcom/huawei/appmarket/at6;->b:I
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(SBBILcom/huawei/appmarket/at6$a;)V
-    .registers 6
-
-    .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/at6;-><init>(SBBI)V
-
-    return-void
-.end method
-
-.method static c()V
-    .registers 4
-
-    .line 1
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/huawei/appmarket/at6;->c:Ljava/util/HashMap;
-
-    new-instance v2, Lcom/huawei/appmarket/zs6;
-
-    const/4 v3, 0x0
-
-    invoke-direct {v2, v3}, Lcom/huawei/appmarket/zs6;-><init>(I)V
-
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/rr5;->g(Ljava/util/HashMap;Ljava/lang/String;Lcom/huawei/appmarket/zs6;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/concurrent/atomic/AtomicInteger;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
-
-    return-void
-.end method
-
-.method static d()Z
-    .registers 2
-
-    .line 1
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/huawei/appmarket/at6;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/concurrent/atomic/AtomicInteger;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
-
-    move-result v0
-
-    const/4 v1, 0x5
-
-    if-le v0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method static e()V
-    .registers 2
-
-    .line 1
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/huawei/appmarket/at6;->c:Ljava/util/HashMap;
-
-    invoke-virtual {v1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/concurrent/atomic/AtomicInteger;
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
-
-    :cond_0
-    return-void
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()I
+.method public final b()S
     .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/at6;->b:I
+    iget-short v0, p0, Lcom/huawei/appmarket/at6;->b:S
 
     return v0
 .end method
 
-.method public final b()B
+.method public final c()Ljava/lang/String;
     .registers 2
 
     .line 1
-    iget-byte v0, p0, Lcom/huawei/appmarket/at6;->a:B
+    iget-object v0, p0, Lcom/huawei/appmarket/at6;->g:Ljava/lang/String;
 
-    return v0
+    return-object v0
 .end method
 
-.method public f(Lcom/huawei/appmarket/fs6;Ljava/util/Locale;)Ljava/lang/String;
-    .registers 3
+.method public final toString()Ljava/lang/String;
+    .registers 4
 
     .line 1
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string p2, "Not implemented"
+    .line 2
+    .line 3
+    const-string v1, "ResTableTypeSpec(chunkHeader="
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    throw p1
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Lcom/huawei/appmarket/at6;->a:Lcom/huawei/appmarket/dq0;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, ", id="
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget-short v1, p0, Lcom/huawei/appmarket/at6;->b:S
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    const-string v1, ", res0="
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    iget-byte v1, p0, Lcom/huawei/appmarket/at6;->c:B
+
+    .line 29
+    .line 30
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    const-string v1, ", res1="
+
+    .line 34
+    .line 35
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    .line 38
+    iget-short v1, p0, Lcom/huawei/appmarket/at6;->d:S
+
+    .line 39
+    .line 40
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    .line 43
+    const-string v1, ", entryCount="
+
+    .line 44
+    .line 45
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    iget v1, p0, Lcom/huawei/appmarket/at6;->e:I
+
+    .line 49
+    .line 50
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 51
+    .line 52
+    .line 53
+    const-string v1, ", entryFlags="
+
+    .line 54
+    .line 55
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 56
+    .line 57
+    .line 58
+    iget-object v1, p0, Lcom/huawei/appmarket/at6;->f:[I
+
+    .line 59
+    .line 60
+    invoke-static {v1}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object v1
+
+    .line 64
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 65
+    .line 66
+    .line 67
+    const-string v1, ", name="
+
+    .line 68
+    .line 69
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 70
+    .line 71
+    .line 72
+    iget-object v1, p0, Lcom/huawei/appmarket/at6;->g:Ljava/lang/String;
+
+    .line 73
+    .line 74
+    const-string v2, ")"
+
+    .line 75
+    .line 76
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object v0
+
+    .line 80
+    return-object v0
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
 .end method

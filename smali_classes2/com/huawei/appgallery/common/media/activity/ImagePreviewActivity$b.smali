@@ -64,11 +64,11 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/m94;
+    new-instance v0, Lcom/huawei/appmarket/o94;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/m94;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/o94;-><init>()V
 
     .line 4
     .line 5
@@ -108,7 +108,7 @@
     move-object v0, p1
 
     .line 23
-    check-cast v0, Lcom/huawei/appmarket/m94;
+    check-cast v0, Lcom/huawei/appmarket/o94;
 
     .line 24
     .line 25
@@ -209,5 +209,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

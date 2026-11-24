@@ -55,11 +55,11 @@
 
     .line 9
     .line 10
-    iget-object v1, v0, Lcom/huawei/appmarket/pb9;->c:Landroid/app/Activity;
+    iget-object v1, v0, Lcom/huawei/appmarket/wb9;->c:Landroid/app/Activity;
 
     .line 11
     .line 12
-    new-instance v2, Lcom/huawei/appmarket/ue9;
+    new-instance v2, Lcom/huawei/appmarket/bf9;
 
     .line 13
     .line 14
@@ -68,7 +68,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-direct {v2, v0, v3}, Lcom/huawei/appmarket/ue9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
+    invoke-direct {v2, v0, v3}, Lcom/huawei/appmarket/bf9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;I)V
 
     .line 18
     .line 19
@@ -364,4 +364,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

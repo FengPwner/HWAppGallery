@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/vu3;
+.implements Lcom/huawei/appmarket/xu3;
 
 
 # annotations
@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private O2:Lcom/huawei/appmarket/y04;
+.field private O2:Lcom/huawei/appmarket/a14;
 
-.field private P2:Lcom/huawei/appmarket/ax3;
+.field private P2:Lcom/huawei/appmarket/cx3;
 
 .field private Q2:I
 
@@ -72,11 +72,11 @@
     return-void
 .end method
 
-.method static synthetic a1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/y04;
+.method static synthetic a1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/a14;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->O2:Lcom/huawei/appmarket/y04;
+    iget-object p0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->O2:Lcom/huawei/appmarket/a14;
 
     return-object p0
 .end method
@@ -101,11 +101,11 @@
     return p0
 .end method
 
-.method static synthetic d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/ax3;
+.method static synthetic d1(Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;)Lcom/huawei/appmarket/cx3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/ax3;
+    iget-object p0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/cx3;
 
     return-object p0
 .end method
@@ -151,7 +151,7 @@
 
     .line 9
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/ax3;
+    iget-object v1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/cx3;
 
     .line 10
     .line 11
@@ -284,7 +284,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private j1()I
@@ -346,13 +345,13 @@
 
     if-nez v6, :cond_3
 
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v1, "NestedBottomRecyclerView"
 
     const-string v3, "first card not support animation"
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
@@ -388,13 +387,13 @@
 
     if-lez p1, :cond_1
 
-    instance-of v2, v0, Lcom/huawei/appmarket/aw3;
+    instance-of v2, v0, Lcom/huawei/appmarket/cw3;
 
     if-eqz v2, :cond_3
 
-    check-cast v0, Lcom/huawei/appmarket/aw3;
+    check-cast v0, Lcom/huawei/appmarket/cw3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aw3;->a()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/cw3;->a()Z
 
     move-result v0
 
@@ -412,13 +411,13 @@
     :cond_1
     if-gez p1, :cond_3
 
-    instance-of v2, v0, Lcom/huawei/appmarket/aw3;
+    instance-of v2, v0, Lcom/huawei/appmarket/cw3;
 
     if-eqz v2, :cond_3
 
-    check-cast v0, Lcom/huawei/appmarket/aw3;
+    check-cast v0, Lcom/huawei/appmarket/cw3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aw3;->b()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/cw3;->b()Z
 
     move-result v0
 
@@ -470,24 +469,24 @@
     return p1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "NestedBottomRecyclerView"
 
     const-string v1, "dispatchTouchEvent IllegalArgumentException."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public final h1(Lcom/huawei/appmarket/ax3;)V
+.method public final h1(Lcom/huawei/appmarket/cx3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/ax3;
+    iput-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/cx3;
 
     return-void
 .end method
@@ -513,7 +512,7 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/ax3;
+    iput-object v0, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->P2:Lcom/huawei/appmarket/cx3;
 
     return-void
 .end method
@@ -543,11 +542,11 @@
     return-void
 .end method
 
-.method public setScrollDownListener(Lcom/huawei/appmarket/y04;)V
+.method public setScrollDownListener(Lcom/huawei/appmarket/a14;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->O2:Lcom/huawei/appmarket/y04;
+    iput-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/view/widget/NestedBottomRecyclerView;->O2:Lcom/huawei/appmarket/a14;
 
     return-void
 .end method

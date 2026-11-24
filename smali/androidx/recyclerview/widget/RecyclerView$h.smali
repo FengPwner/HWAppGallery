@@ -145,7 +145,7 @@
 
     .line 33
     .line 34
-    invoke-static {v2}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -227,7 +227,7 @@
     .line 74
     .line 75
     :cond_4
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     .line 76
     .line 77
@@ -321,7 +321,7 @@
     :try_start_0
     const-string v0, "RV CreateView"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/p18;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/u18;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$h;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
 
@@ -339,7 +339,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     return-object p1
 
@@ -361,7 +361,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/p18;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/u18;->b()V
 
     throw p1
 .end method

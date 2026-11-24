@@ -27,7 +27,7 @@
 
     const-string v0, "IBiReport"
 
-    const-class v1, Lcom/huawei/appmarket/zi3;
+    const-class v1, Lcom/huawei/appmarket/bj3;
 
     const/4 v2, 0x0
 
@@ -35,13 +35,13 @@
 
     const-string v0, "IBiReportConfig"
 
-    const-class v1, Lcom/huawei/appmarket/bj3;
+    const-class v1, Lcom/huawei/appmarket/dj3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
     const-string v0, "IBiReportCache"
 
-    const-class v1, Lcom/huawei/appmarket/aj3;
+    const-class v1, Lcom/huawei/appmarket/cj3;
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

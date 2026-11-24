@@ -66,7 +66,7 @@
 
     const-string p1, "triggerFirstTabAutoRefresh: adapter is null"
 
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -79,20 +79,20 @@
 
     check-cast v0, Landroidx/fragment/app/Fragment;
 
-    instance-of v1, v0, Lcom/huawei/appmarket/li3;
+    instance-of v1, v0, Lcom/huawei/appmarket/ni3;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/huawei/appmarket/li3;
+    check-cast v0, Lcom/huawei/appmarket/ni3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/li3;->o0()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ni3;->o0()V
 
     goto :goto_0
 
     :cond_1
     const-string v0, "triggerFirstTabAutoRefresh: targetFragment is not YourFirstTabFragment"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object p1, p1, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->U0:Lcom/huawei/uikit/hwviewpager/widget/HwViewPager;

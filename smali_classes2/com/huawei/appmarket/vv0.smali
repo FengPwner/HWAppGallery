@@ -649,7 +649,7 @@
 
     .line 75
     :goto_0
-    sget-object v1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object v1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 76
     .line 77
@@ -661,7 +661,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v1, v3, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v3, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 82
     .line 83
@@ -729,7 +729,7 @@
     move-exception p0
 
     .line 112
-    sget-object p1, Lcom/huawei/appmarket/ap;->a:Lcom/huawei/appmarket/ap;
+    sget-object p1, Lcom/huawei/appmarket/zo;->a:Lcom/huawei/appmarket/zo;
 
     .line 113
     .line 114
@@ -737,7 +737,7 @@
 
     .line 115
     .line 116
-    invoke-virtual {p1, v3, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {p1, v3, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 117
     .line 118
@@ -788,5 +788,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

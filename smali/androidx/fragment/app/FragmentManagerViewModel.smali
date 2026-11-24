@@ -1,5 +1,5 @@
 .class final Landroidx/fragment/app/FragmentManagerViewModel;
-.super Lcom/huawei/appmarket/ni8;
+.super Lcom/huawei/appmarket/ti8;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
         value = {
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/ri8;",
+            "Lcom/huawei/appmarket/xi8;",
             ">;"
         }
     .end annotation
@@ -64,7 +64,7 @@
 .method constructor <init>(Z)V
     .registers 3
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ni8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ti8;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -158,11 +158,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ri8;
+    check-cast v0, Lcom/huawei/appmarket/xi8;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ri8;->a()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xi8;->a()V
 
     invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -170,7 +170,7 @@
     return-void
 .end method
 
-.method static o(Lcom/huawei/appmarket/ri8;)Landroidx/fragment/app/FragmentManagerViewModel;
+.method static o(Lcom/huawei/appmarket/xi8;)Landroidx/fragment/app/FragmentManagerViewModel;
     .registers 3
 
     .line 1
@@ -178,11 +178,11 @@
 
     sget-object v1, Landroidx/fragment/app/FragmentManagerViewModel;->h:Landroidx/lifecycle/y$c;
 
-    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/ri8;Landroidx/lifecycle/y$c;)V
+    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/xi8;Landroidx/lifecycle/y$c;)V
 
     const-class p0, Landroidx/fragment/app/FragmentManagerViewModel;
 
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p0
 
@@ -431,6 +431,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final hashCode()I
@@ -1058,7 +1059,7 @@
     return-object v0
 .end method
 
-.method final q(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/ri8;
+.method final q(Landroidx/fragment/app/Fragment;)Lcom/huawei/appmarket/xi8;
     .registers 4
 
     .line 1
@@ -1070,13 +1071,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/ri8;
+    check-cast v1, Lcom/huawei/appmarket/xi8;
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/ri8;
+    new-instance v1, Lcom/huawei/appmarket/xi8;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/ri8;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/xi8;-><init>()V
 
     iget-object p1, p1, Landroidx/fragment/app/Fragment;->g:Ljava/lang/String;
 

@@ -28,12 +28,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/id3;Ljava/util/List;)V
+.method public final a(Lcom/huawei/appmarket/kd3;Ljava/util/List;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/id3;",
+            "Lcom/huawei/appmarket/kd3;",
             "Ljava/util/List<",
             "Lcom/huawei/appmarket/d41;",
             ">;)V"
@@ -43,12 +43,12 @@
     .line 1
     const-string p2, "url"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public final b(Lcom/huawei/appmarket/id3;)Lcom/huawei/appmarket/k02;
+.method public final b(Lcom/huawei/appmarket/kd3;)Lcom/huawei/appmarket/o02;
     .registers 3
 
     .line 1
@@ -56,12 +56,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object p1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 7
     .line 8
@@ -239,21 +239,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

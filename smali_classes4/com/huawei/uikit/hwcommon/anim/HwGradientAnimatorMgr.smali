@@ -37,7 +37,7 @@
 # virtual methods
 .method protected setGradientValue(F)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     return-void

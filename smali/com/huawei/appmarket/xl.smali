@@ -1,69 +1,126 @@
 .class public final Lcom/huawei/appmarket/xl;
-.super Lcom/huawei/appmarket/x20;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/dm;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/x20<",
-        "Lcom/huawei/appmarket/qb7;",
-        "Landroid/graphics/Path;",
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/dm<",
+        "Landroid/graphics/PointF;",
+        "Landroid/graphics/PointF;",
         ">;"
     }
 .end annotation
 
 
+# instance fields
+.field private final a:Lcom/huawei/appmarket/pl;
+
+.field private final b:Lcom/huawei/appmarket/pl;
+
+
 # direct methods
-.method public constructor <init>(Ljava/util/List;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
-            "Lcom/huawei/appmarket/qb7;",
-            ">;>;)V"
-        }
-    .end annotation
+.method public constructor <init>(Lcom/huawei/appmarket/pl;Lcom/huawei/appmarket/pl;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/x20;-><init>(Ljava/util/List;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/xl;->a:Lcom/huawei/appmarket/pl;
+
+    iput-object p2, p0, Lcom/huawei/appmarket/xl;->b:Lcom/huawei/appmarket/pl;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final bridge synthetic a()Lcom/huawei/appmarket/d40;
-    .registers 2
+.method public final a()Lcom/huawei/appmarket/d40;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/d40<",
+            "Landroid/graphics/PointF;",
+            "Landroid/graphics/PointF;",
+            ">;"
+        }
+    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/xl;->d()Lcom/huawei/appmarket/wb7;
+    new-instance v0, Lcom/huawei/appmarket/dk7;
 
-    move-result-object v0
+    iget-object v1, p0, Lcom/huawei/appmarket/xl;->a:Lcom/huawei/appmarket/pl;
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/huawei/appmarket/xl;->b:Lcom/huawei/appmarket/pl;
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/pl;->a()Lcom/huawei/appmarket/d40;
+
+    move-result-object v2
+
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/dk7;-><init>(Lcom/huawei/appmarket/d40;Lcom/huawei/appmarket/d40;)V
 
     return-object v0
 .end method
 
 .method public final b()Ljava/util/List;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/jr4<",
+            "Landroid/graphics/PointF;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
+
+    const-string v1, "Cannot call getKeyframes on AnimatableSplitDimensionPathValue."
+
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public final c()Z
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
+    iget-object v0, p0, Lcom/huawei/appmarket/xl;->a:Lcom/huawei/appmarket/pl;
 
-    return-object v0
-.end method
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pl;->c()Z
 
-.method public final d()Lcom/huawei/appmarket/wb7;
-    .registers 3
+    move-result v0
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/wb7;
+    if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
+    iget-object v0, p0, Lcom/huawei/appmarket/xl;->b:Lcom/huawei/appmarket/pl;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb7;-><init>(Ljava/util/List;)V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pl;->c()Z
 
-    return-object v0
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
 .end method

@@ -1,69 +1,100 @@
-.class public interface abstract Lcom/huawei/appmarket/ho8;
+.class public final Lcom/huawei/appmarket/ho8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/ho8$b;
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:Lcom/huawei/appmarket/ho8$b;
+
+.field private static final c:Lcom/huawei/appmarket/et4;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/et4<",
+            "Lcom/huawei/appmarket/ho8;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private a:Lcom/huawei/appmarket/n64;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/ho8$b;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ho8$b;-><init>(Lcom/huawei/appmarket/id1;)V
+
+    sput-object v0, Lcom/huawei/appmarket/ho8;->b:Lcom/huawei/appmarket/ho8$b;
+
+    sget-object v0, Lcom/huawei/appmarket/ho8$a;->b:Lcom/huawei/appmarket/ho8$a;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/jt4;->a(Lcom/huawei/appmarket/rs2;)Lcom/huawei/appmarket/et4;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/ho8;->c:Lcom/huawei/appmarket/et4;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/id1;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ho8;-><init>()V
+
+    return-void
+.end method
+
+.method public static final synthetic a()Lcom/huawei/appmarket/et4;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/ho8;->c:Lcom/huawei/appmarket/et4;
+
+    return-object v0
+.end method
+
+
 # virtual methods
-.method public abstract a(Ljava/lang/String;)V
+.method public final b()Lcom/huawei/appmarket/n64;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/ho8;->a:Lcom/huawei/appmarket/n64;
+
+    return-object v0
 .end method
 
-.method public abstract b(Ljava/lang/String;Ljava/lang/String;)V
-.end method
+.method public final c(Lcom/huawei/appmarket/n64;)V
+    .registers 2
 
-.method public abstract c(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;)Z
-.end method
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/ho8;->a:Lcom/huawei/appmarket/n64;
 
-.method public abstract d()V
-.end method
-
-.method public abstract e(Landroid/webkit/WebView;Ljava/lang/String;)V
-.end method
-
-.method public abstract f(Lcom/huawei/appmarket/go8;)V
-.end method
-
-.method public abstract g(Landroid/content/Context;)Z
-.end method
-
-.method public abstract h(Landroid/widget/LinearLayout;Lcom/huawei/appmarket/lo8;)V
-.end method
-
-.method public abstract j(Lcom/huawei/appmarket/m36;)V
-.end method
-
-.method public abstract k(Landroid/content/Context;Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Landroid/webkit/WebView;",
-            "Ljava/lang/String;",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
-.end method
-
-.method public abstract l(Ljava/util/List;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract m(Lcom/huawei/appgallery/agwebview/api/delegate/AbstractWebViewDelegate;)V
-.end method
-
-.method public abstract n(Z)V
-.end method
-
-.method public abstract o(Landroid/webkit/WebView;)V
+    return-void
 .end method

@@ -5,7 +5,7 @@
 
 # instance fields
 .field public a:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/i77;
+    .annotation runtime Lcom/huawei/appmarket/n77;
         value = "listResult"
     .end annotation
 

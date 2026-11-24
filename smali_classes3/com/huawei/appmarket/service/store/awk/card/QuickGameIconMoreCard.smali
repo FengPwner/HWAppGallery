@@ -160,24 +160,23 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 5
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconCard;->I:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/ae6;
+    new-instance v1, Lcom/huawei/appmarket/ce6;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/ae6;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconMoreCard;Lcom/huawei/appmarket/ak0;I)V
+    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/ce6;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconMoreCard;Lcom/huawei/appmarket/bk0;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -186,11 +185,11 @@
 
     if-eqz v0, :cond_1
 
-    new-instance v1, Lcom/huawei/appmarket/ae6;
+    new-instance v1, Lcom/huawei/appmarket/ce6;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/ae6;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconMoreCard;Lcom/huawei/appmarket/ak0;I)V
+    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/ce6;-><init>(Lcom/huawei/appmarket/service/store/awk/card/QuickGameIconMoreCard;Lcom/huawei/appmarket/bk0;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

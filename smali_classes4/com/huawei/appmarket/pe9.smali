@@ -3,7 +3,26 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/quickcard/cardmanager/sha/SHA;
+.implements Lcom/huawei/quickcard/framework/processor/EventProcessor;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/pe9$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Landroid/view/View;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/huawei/quickcard/framework/processor/EventProcessor<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # direct methods
@@ -17,13 +36,41 @@
 
 
 # virtual methods
-.method public final sha256Encrypt(Ljava/lang/String;)Ljava/lang/String;
-    .registers 2
+.method public final applyEvent(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/cz6;->a(Ljava/lang/String;)Ljava/lang/String;
+    new-instance p2, Lcom/huawei/appmarket/pe9$a;
 
-    move-result-object p1
+    invoke-direct {p2, p3}, Lcom/huawei/appmarket/pe9$a;-><init>(Ljava/lang/String;)V
 
-    return-object p1
+    invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    return-void
+.end method
+
+.method public final cleanEvent(Landroid/view/View;Ljava/lang/String;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    return-void
 .end method

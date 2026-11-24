@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/search/ui/card/h;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/card/h;->b:Lcom/huawei/appgallery/search/ui/card/SafeAppDecorateItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -42,7 +42,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a(Landroid/content/Context;Ljava/lang/Class;)Lcom/huawei/appmarket/vj3;
+    invoke-static {v1, v0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a(Landroid/content/Context;Ljava/lang/Class;)Lcom/huawei/appmarket/xj3;
 
     move-result-object v0
 
@@ -60,9 +60,9 @@
 
     check-cast p1, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
 
-    sget-object v2, Lcom/huawei/appmarket/dt1;->y:Lcom/huawei/appmarket/dt1;
+    sget-object v2, Lcom/huawei/appmarket/gt1;->y:Lcom/huawei/appmarket/gt1;
 
-    invoke-interface {v0, v1, p1, v2}, Lcom/huawei/appmarket/vj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    invoke-interface {v0, v1, p1, v2}, Lcom/huawei/appmarket/xj3;->d(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 
     return-void
 .end method

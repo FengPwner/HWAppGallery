@@ -53,7 +53,7 @@
 
     iget-object v1, v0, Lcom/huawei/appgallery/search/ui/card/HistorySearchCard;->y:Lcom/huawei/uikit/hwrecyclerview/widget/HwRecyclerView;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -82,7 +82,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -169,13 +169,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object v1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v2, "HistorySearchCard"
 
     const-string v3, "findFirstVisibleItemPosition error."
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -234,13 +234,13 @@
     return-object p1
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "HistorySearchCard"
 
     const-string v1, "getViewByPosition error."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 .end method

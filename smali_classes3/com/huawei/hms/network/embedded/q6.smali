@@ -11,11 +11,11 @@
 .method public static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/ub1;
+    new-instance v0, Lcom/huawei/appmarket/wb1;
 
     const/16 v1, 0x16
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
     sput-object v0, Lcom/huawei/hms/network/embedded/q6;->a:Lcom/huawei/hms/network/embedded/q6;
 

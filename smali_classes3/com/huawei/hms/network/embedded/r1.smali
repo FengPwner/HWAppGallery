@@ -406,7 +406,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/appmarket/r58;->u(Landroid/os/UserManager;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/da9;->b(Landroid/os/UserManager;)Z
 
     move-result v0
 
@@ -542,7 +542,7 @@
     const-string v3, " exception: "
 
     .line 6
-    invoke-static {p1, v3}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v3}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 

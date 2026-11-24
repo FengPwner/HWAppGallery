@@ -718,10 +718,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static parse2float(FLjava/lang/String;)F
@@ -777,7 +773,7 @@
     const/4 p0, 0x1
 
     .line 2
-    invoke-static {p1, p0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p1, p0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object p0
 
@@ -804,7 +800,7 @@
     const/4 v0, 0x2
 
     .line 4
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1295,10 +1291,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static sp2FloatPx(FFF)F

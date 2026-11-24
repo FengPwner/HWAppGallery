@@ -285,7 +285,7 @@
 
     .line 107
     .line 108
-    invoke-static {v0, v1, v1}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v1, v1}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 109
     .line 110
@@ -342,7 +342,7 @@
 
     .line 132
     .line 133
-    invoke-static {v3, v7, v4, v0, v9}, Lcom/huawei/appmarket/vw7;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v7, v4, v0, v9}, Lcom/huawei/appmarket/ci7;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 134
     .line 135
@@ -350,7 +350,7 @@
     move-result-object v0
 
     .line 137
-    invoke-static {v0, p0, v2}, Lcom/huawei/appmarket/bu0;->m(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
+    invoke-static {v0, p0, v2}, Lcom/huawei/appmarket/kd0;->n(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;
 
     .line 138
     .line 139
@@ -639,8 +639,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public static parse(Ljava/lang/String;)Lcom/huawei/hms/network/base/common/MediaType;
@@ -869,7 +867,7 @@
 
     .line 106
     .line 107
-    invoke-static {v0, v5, v5}, Lcom/huawei/appmarket/vw7;->j(Ljava/lang/String;II)Ljava/lang/String;
+    invoke-static {v0, v5, v5}, Lcom/huawei/appmarket/ci7;->n(Ljava/lang/String;II)Ljava/lang/String;
 
     .line 108
     .line 109
@@ -1168,8 +1166,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 

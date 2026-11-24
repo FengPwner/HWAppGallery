@@ -124,13 +124,13 @@
     .registers 3
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/fs2;->b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/is2;->b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/fs2;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/huawei/appmarket/is2;->a(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -212,7 +212,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/agv2/DetailHeadAgCardV2;->w0:Landroid/view/View;
 
-    const v0, 0x7f0a1846
+    const v0, 0x7f0a1847
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -374,7 +374,7 @@
     move-exception v1
 
     .line 54
-    sget-object v5, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v5, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 55
     .line 56
@@ -386,7 +386,7 @@
     move-result-object v1
 
     .line 60
-    invoke-virtual {v5, v3, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v3, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -512,7 +512,7 @@
     move-exception v0
 
     .line 119
-    sget-object v5, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v5, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 120
     .line 121
@@ -524,7 +524,7 @@
     move-result-object v0
 
     .line 125
-    invoke-virtual {v5, v3, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v5, v3, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 126
     .line 127
@@ -545,7 +545,7 @@
 
     .line 134
     .line 135
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 136
     .line 137
@@ -1040,15 +1040,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final onClick(Landroid/view/View;)V
@@ -1066,25 +1057,25 @@
 
     const-string p1, "AgreementData"
 
-    const-class v0, Lcom/huawei/appmarket/yg3;
+    const-class v0, Lcom/huawei/appmarket/ah3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appmarket/yg3;
-
-    invoke-interface {p1}, Lcom/huawei/appmarket/yg3;->c()Lcom/huawei/appmarket/ke7;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/ke7;->b:Lcom/huawei/appmarket/ke7;
+    check-cast p1, Lcom/huawei/appmarket/ah3;
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/ah3;->c()Lcom/huawei/appmarket/pe7;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/huawei/appmarket/pe7;->b:Lcom/huawei/appmarket/pe7;
 
     if-ne p1, v0, :cond_0
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/a48;->c(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g48;->c(Landroid/content/Context;)V
 
     return-void
 
@@ -1113,7 +1104,7 @@
     :goto_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/rj1;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/uj1;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_2
     return-void

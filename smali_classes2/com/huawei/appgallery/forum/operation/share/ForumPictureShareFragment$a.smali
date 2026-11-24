@@ -68,7 +68,7 @@
 
     const-string v0, "ForumPictureShareFragment"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;->e3(Lcom/huawei/appgallery/forum/operation/share/ForumPictureShareFragment;)Z
 

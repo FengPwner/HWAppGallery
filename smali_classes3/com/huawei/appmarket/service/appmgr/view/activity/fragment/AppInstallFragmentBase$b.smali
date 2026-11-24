@@ -37,13 +37,13 @@
 .method public final run()V
     .registers 8
 
-    new-instance v0, Lcom/huawei/appmarket/zy5;
+    new-instance v0, Lcom/huawei/appmarket/bz5;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zy5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bz5;-><init>()V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zy5;->c(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bz5;->c(Z)V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -57,7 +57,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object v3
 
@@ -71,7 +71,7 @@
 
     const v6, 0x7f1201e9
 
-    invoke-interface {v3, v6}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {v3, v6}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -97,7 +97,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/zy5;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/bz5;->d(Ljava/lang/String;)V
 
     new-instance v2, Ljava/util/HashMap;
 
@@ -109,13 +109,13 @@
 
     const-string v0, "Permission"
 
-    const-class v3, Lcom/huawei/appmarket/sw3;
+    const-class v3, Lcom/huawei/appmarket/uw3;
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/sw3;
+    check-cast v0, Lcom/huawei/appmarket/uw3;
 
     iget-object v3, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase$b;->b:Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;
 
@@ -123,7 +123,7 @@
 
     move-result-object v4
 
-    invoke-interface {v0, v4, v2, v1}, Lcom/huawei/appmarket/sw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v4, v2, v1}, Lcom/huawei/appmarket/uw3;->a(Landroid/app/Activity;Ljava/util/HashMap;I)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     invoke-direct {v1, v3, v2}, Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase$d;-><init>(Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase;Lcom/huawei/appmarket/service/appmgr/view/activity/fragment/AppInstallFragmentBase$a;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

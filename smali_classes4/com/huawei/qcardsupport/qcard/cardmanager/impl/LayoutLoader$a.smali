@@ -17,11 +17,11 @@
 # instance fields
 .field public a:I
 
-.field public b:Lcom/huawei/appmarket/mk0;
+.field public b:Lcom/huawei/appmarket/nk0;
 
 
 # direct methods
-.method public constructor <init>(ILcom/huawei/appmarket/mk0;)V
+.method public constructor <init>(ILcom/huawei/appmarket/nk0;)V
     .registers 3
 
     .line 1
@@ -29,7 +29,7 @@
 
     iput p1, p0, Lcom/huawei/qcardsupport/qcard/cardmanager/impl/LayoutLoader$a;->a:I
 
-    iput-object p2, p0, Lcom/huawei/qcardsupport/qcard/cardmanager/impl/LayoutLoader$a;->b:Lcom/huawei/appmarket/mk0;
+    iput-object p2, p0, Lcom/huawei/qcardsupport/qcard/cardmanager/impl/LayoutLoader$a;->b:Lcom/huawei/appmarket/nk0;
 
     return-void
 .end method

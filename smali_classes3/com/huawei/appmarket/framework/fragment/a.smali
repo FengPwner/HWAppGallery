@@ -67,7 +67,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->o6(Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;->p6(Lcom/huawei/appmarket/framework/fragment/AppDiscoveryFragment;)V
 
     .line 14
     .line 15
@@ -172,5 +172,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

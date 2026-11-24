@@ -83,11 +83,11 @@
     goto :goto_0
 
     :cond_0
-    new-instance p4, Lcom/huawei/appmarket/ew;
+    new-instance p4, Lcom/huawei/appmarket/fw;
 
     const/4 p1, 0x0
 
-    invoke-direct {p4, p1}, Lcom/huawei/appmarket/ew;-><init>(I)V
+    invoke-direct {p4, p1}, Lcom/huawei/appmarket/fw;-><init>(I)V
 
     :goto_0
     iput-object p4, p0, Lorg/apache/commons/lang3/AppendableJoiner;->appender:Lorg/apache/commons/lang3/function/FailableBiConsumer;

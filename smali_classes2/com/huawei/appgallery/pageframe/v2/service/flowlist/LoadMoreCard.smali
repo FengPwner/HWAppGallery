@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/pageframe/v2/service/flowlist/LoadMoreCard;
-.super Lcom/huawei/appmarket/oa2;
+.super Lcom/huawei/appmarket/ra2;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/oa2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ra2;-><init>()V
 
     return-void
 .end method
@@ -26,13 +26,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object p1, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v0, "LoadMoreCard"
 
     const-string v1, "progressBar is null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -67,7 +67,7 @@
 
 
 # virtual methods
-.method public final c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method public final c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
@@ -78,7 +78,7 @@
     return-object p1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -119,7 +119,7 @@
     return-object p1
 .end method
 
-.method protected final g(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
+.method protected final g(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
     .registers 9
 
     .line 1
@@ -139,7 +139,7 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/sa2;->getTaskHandler(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/vv7;
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/va2;->getTaskHandler(Lcom/huawei/flexiblelayout/data/b;)Lcom/huawei/appmarket/bw7;
 
     .line 9
     .line 10
@@ -151,7 +151,7 @@
 
     .line 13
     .line 14
-    invoke-interface {p3}, Lcom/huawei/appmarket/vv7;->b()Z
+    invoke-interface {p3}, Lcom/huawei/appmarket/bw7;->b()Z
 
     .line 15
     .line 16
@@ -163,7 +163,7 @@
 
     .line 19
     .line 20
-    sget-object v0, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v0, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     .line 21
     .line 22
@@ -175,12 +175,12 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-interface {p3}, Lcom/huawei/appmarket/vv7;->getException()Ljava/lang/Exception;
+    invoke-interface {p3}, Lcom/huawei/appmarket/bw7;->getException()Ljava/lang/Exception;
 
     .line 30
     .line 31
@@ -234,7 +234,7 @@
     move-result-object v3
 
     .line 57
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -254,7 +254,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getFLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getFLayout()Lcom/huawei/appmarket/xc2;
 
     .line 68
     .line 69
@@ -266,7 +266,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getFLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getFLayout()Lcom/huawei/appmarket/xc2;
 
     .line 74
     .line 75
@@ -274,7 +274,7 @@
     move-result-object v0
 
     .line 77
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uc2;->getView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xc2;->getView()Landroid/view/View;
 
     .line 78
     .line 79
@@ -290,7 +290,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getFLayout()Lcom/huawei/appmarket/uc2;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getFLayout()Lcom/huawei/appmarket/xc2;
 
     .line 86
     .line 87
@@ -298,7 +298,7 @@
     move-result-object p1
 
     .line 89
-    invoke-virtual {p1}, Lcom/huawei/appmarket/uc2;->getView()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/xc2;->getView()Landroid/view/View;
 
     .line 90
     .line 91
@@ -330,7 +330,7 @@
     .line 103
     .line 104
     .line 105
-    invoke-interface {p3}, Lcom/huawei/appmarket/vv7;->c()V
+    invoke-interface {p3}, Lcom/huawei/appmarket/bw7;->c()V
 
     .line 106
     .line 107

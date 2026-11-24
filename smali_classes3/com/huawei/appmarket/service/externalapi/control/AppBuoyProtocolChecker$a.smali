@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/b52;",
+            "Lcom/huawei/appmarket/f52;",
             ">;"
         }
     .end annotation
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;Lcom/huawei/appmarket/b52;)V
+.method public constructor <init>(Lcom/huawei/appmarket/service/externalapi/control/AppBuoyProtocolChecker;Lcom/huawei/appmarket/f52;)V
     .registers 3
 
     .line 1
@@ -89,7 +89,7 @@
     move-result-object v0
 
     .line 11
-    check-cast v0, Lcom/huawei/appmarket/b52;
+    check-cast v0, Lcom/huawei/appmarket/f52;
 
     .line 12
     .line 13
@@ -114,7 +114,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/b00;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, v3}, Lcom/huawei/appmarket/fs;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -155,7 +155,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1, p2, v3}, Lcom/huawei/appmarket/z84;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2, v3}, Lcom/huawei/appmarket/kk4;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -188,7 +188,7 @@
 
     .line 60
     .line 61
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
     .line 63
@@ -222,12 +222,12 @@
 
     .line 77
     .line 78
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v0}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     .line 82
     .line 83
@@ -256,7 +256,7 @@
 
     .line 94
     .line 95
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     .line 97
@@ -274,7 +274,7 @@
 
     .line 103
     .line 104
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 105
     .line 106
@@ -349,5 +349,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

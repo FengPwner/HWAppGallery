@@ -44,13 +44,13 @@
     .registers 3
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->m(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->m(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -147,7 +147,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/gz;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/hz;
 
     .line 35
     .line 36
@@ -163,7 +163,7 @@
     move-result-object p2
 
     .line 42
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/notification/c;->r(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/notification/c;->r(Lcom/huawei/appmarket/hz;)V
 
     .line 43
     .line 44
@@ -264,7 +264,7 @@
     move-result-object p1
 
     .line 93
-    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/gz;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/audiokit/impl/a;->t()Lcom/huawei/appmarket/hz;
 
     .line 94
     .line 95
@@ -276,7 +276,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->t()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->t()Z
 
     .line 100
     .line 101
@@ -340,7 +340,7 @@
     move-result-object p2
 
     .line 133
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/hz;)V
 
     .line 134
     .line 135
@@ -385,5 +385,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

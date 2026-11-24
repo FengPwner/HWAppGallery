@@ -55,7 +55,7 @@
 
     iput-boolean v0, p0, Lcom/huawei/flexiblelayout/data/FLDNodeData;->t:Z
 
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getCssRule()Lcom/huawei/appmarket/jg0;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getCssRule()Lcom/huawei/appmarket/kg0;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
     :cond_1
     const-string v1, "top-docking-distance"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
 
     move-result-object v1
 
@@ -87,7 +87,7 @@
 
     const-string v1, "bottom-docking-distance"
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/kg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
 
     move-result-object v0
 

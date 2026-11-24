@@ -103,7 +103,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/huawei/appgallery/search/ui/node/SearchP0Node;->O()Lcom/huawei/appgallery/search/ui/card/SearchP0Card;

@@ -32,7 +32,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -65,7 +65,7 @@
     move-result v1
 
     .line 24
-    invoke-static {v2}, Lcom/huawei/appmarket/bk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
+    invoke-static {v2}, Lcom/huawei/appmarket/dk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
 
     .line 25
     .line 26
@@ -116,7 +116,7 @@
     const/4 v5, 0x5
 
     .line 47
-    invoke-static {v3, v4, v5, v1, p1}, Lcom/huawei/appmarket/bk5;->j(Landroid/content/Intent;ZIILjava/util/LinkedHashMap;)V
+    invoke-static {v3, v4, v5, v1, p1}, Lcom/huawei/appmarket/dk5;->j(Landroid/content/Intent;ZIILjava/util/LinkedHashMap;)V
 
     .line 48
     .line 49
@@ -130,12 +130,12 @@
     .line 53
     .line 54
     .line 55
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/si4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/ui4;->c(Landroid/content/Context;Landroid/content/Intent;)Z
 
     .line 56
     .line 57
     .line 58
-    invoke-static {}, Lcom/huawei/appmarket/bk5;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/dk5;->b()V
 
     .line 59
     .line 60
@@ -170,7 +170,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bk5;->k(ILandroid/content/Context;)Z
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/dk5;->k(ILandroid/content/Context;)Z
 
     .line 78
     .line 79
@@ -182,7 +182,7 @@
 
     .line 82
     .line 83
-    invoke-static {v1}, Lcom/huawei/appmarket/bk5;->a(I)V
+    invoke-static {v1}, Lcom/huawei/appmarket/dk5;->a(I)V
 
     .line 84
     .line 85
@@ -199,7 +199,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93

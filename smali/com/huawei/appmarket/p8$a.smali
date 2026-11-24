@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/p8;->g(Ljava/lang/String;Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/l8;Lcom/huawei/appmarket/k8;)Lcom/huawei/appmarket/o8;
+    value = Lcom/huawei/appmarket/p8;->g(Ljava/lang/String;Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/l8;Lcom/huawei/appmarket/k8;)Lcom/huawei/appmarket/o8;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -52,7 +52,7 @@
 
 
 # virtual methods
-.method public final onStateChanged(Lcom/huawei/appmarket/du4;Landroidx/lifecycle/h$a;)V
+.method public final onStateChanged(Lcom/huawei/appmarket/gu4;Landroidx/lifecycle/h$a;)V
     .registers 7
 
     .line 1

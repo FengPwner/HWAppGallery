@@ -1,11 +1,35 @@
-.class public interface abstract Lcom/huawei/appmarket/c27;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/c27;
+.super Lcom/huawei/appmarket/ti8;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/du4;
+
+# instance fields
+.field private final c:Ljava/util/LinkedHashMap;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ti8;-><init>()V
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/c27;->c:Ljava/util/LinkedHashMap;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract getSavedStateRegistry()Lcom/huawei/appmarket/a27;
+.method public final i()Ljava/util/LinkedHashMap;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/c27;->c:Ljava/util/LinkedHashMap;
+
+    return-object v0
 .end method

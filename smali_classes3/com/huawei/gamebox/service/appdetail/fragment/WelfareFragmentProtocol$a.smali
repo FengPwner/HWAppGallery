@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ol1;
+.implements Lcom/huawei/appmarket/rl1;
 
 
 # annotations
@@ -28,11 +28,11 @@
 
 
 # virtual methods
-.method public final p(Lcom/huawei/appmarket/jq;)V
+.method public final p(Lcom/huawei/appmarket/iq;)V
     .registers 4
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->j()Ljava/lang/String;
 
     move-result-object v0
 
@@ -42,7 +42,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->h0(Z)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->c()I
 
     move-result v0
 
@@ -52,19 +52,19 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->q0(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->i()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->n0(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->a()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/huawei/gamebox/framework/cardkit/fragment/CardListFragmentProtocol$Request;->G0(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->f()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->f()Ljava/lang/String;
 
     move-result-object v1
 
@@ -78,11 +78,11 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->N(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jq;->h()Lcom/huawei/appmarket/nu7;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iq;->h()Lcom/huawei/appmarket/tu7;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->l0(Lcom/huawei/appmarket/nu7;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/protocol/BaseListFragmentRequest;->l0(Lcom/huawei/appmarket/tu7;)V
 
     return-void
 .end method

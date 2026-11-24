@@ -39,13 +39,13 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/reserve/game/control/GameReserveManager$DownloadDismissListener;->b:Landroid/content/Context;
 
-    instance-of v0, p1, Lcom/huawei/appmarket/gt6;
+    instance-of v0, p1, Lcom/huawei/appmarket/kt6;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/gt6;
+    check-cast p1, Lcom/huawei/appmarket/kt6;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/gt6;->a()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/kt6;->a()V
 
     :cond_0
     return-void

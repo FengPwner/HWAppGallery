@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/chip/Chip$c;
-.super Lcom/huawei/appmarket/v42;
+.super Lcom/huawei/appmarket/z42;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/chip/Chip$c;->q:Lcom/google/android/material/chip/Chip;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/v42;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/z42;-><init>(Landroid/view/View;)V
 
     return-void
 .end method

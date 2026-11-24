@@ -558,7 +558,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string v0, "{"
+    const-string/jumbo v0, "{"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -566,7 +566,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "}"
+    const-string/jumbo v0, "}"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 

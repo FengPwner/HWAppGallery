@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field a:Lcom/huawei/appmarket/ii8;
+.field a:Lcom/huawei/appmarket/oi8;
 
 .field b:Lcom/google/android/material/behavior/SwipeDismissBehavior$b;
 
@@ -37,7 +37,7 @@
 
 .field g:F
 
-.field private final h:Lcom/huawei/appmarket/ii8$c;
+.field private final h:Lcom/huawei/appmarket/oi8$c;
 
 
 # direct methods
@@ -64,7 +64,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/material/behavior/SwipeDismissBehavior$a;-><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;)V
 
-    iput-object v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:Lcom/huawei/appmarket/ii8$c;
+    iput-object v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:Lcom/huawei/appmarket/oi8$c;
 
     return-void
 .end method
@@ -168,7 +168,7 @@
 
     .line 37
     .line 38
-    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     .line 39
     .line 40
@@ -176,11 +176,11 @@
 
     .line 41
     .line 42
-    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:Lcom/huawei/appmarket/ii8$c;
+    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:Lcom/huawei/appmarket/oi8$c;
 
     .line 43
     .line 44
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ii8;->i(Landroid/view/ViewGroup;Lcom/huawei/appmarket/ii8$c;)Lcom/huawei/appmarket/ii8;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/oi8;->i(Landroid/view/ViewGroup;Lcom/huawei/appmarket/oi8$c;)Lcom/huawei/appmarket/oi8;
 
     .line 45
     .line 46
@@ -188,16 +188,16 @@
     move-result-object p1
 
     .line 48
-    iput-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iput-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     .line 49
     .line 50
     :cond_2
-    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     .line 51
     .line 52
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/ii8;->C(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/oi8;->C(Landroid/view/MotionEvent;)Z
 
     .line 53
     .line 54
@@ -436,6 +436,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
@@ -449,7 +456,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/ei8;->r(Landroid/view/View;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/ki8;->r(Landroid/view/View;)I
 
     .line 2
     .line 3
@@ -464,7 +471,7 @@
     const/4 p1, 0x1
 
     .line 8
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 9
     .line 10
@@ -473,7 +480,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     .line 14
     .line 15
@@ -503,7 +510,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {p2, p1, p3}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     .line 30
     .line 31
@@ -763,6 +770,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final r(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -778,11 +792,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/ii8;->s(Landroid/view/MotionEvent;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/oi8;->s(Landroid/view/MotionEvent;)V
 
     const/4 p1, 0x1
 
@@ -958,6 +972,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final u(Lcom/google/android/material/behavior/SwipeDismissBehavior$b;)V
@@ -1124,6 +1139,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final w()V

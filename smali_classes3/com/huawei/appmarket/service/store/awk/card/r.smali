@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/sa2;
+.field final synthetic b:Lcom/huawei/appmarket/va2;
 
 .field final synthetic c:Lcom/huawei/flexiblelayout/data/d;
 
@@ -15,13 +15,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;)V
+.method constructor <init>(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->d:Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->b:Lcom/huawei/appmarket/sa2;
+    iput-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->b:Lcom/huawei/appmarket/va2;
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->c:Lcom/huawei/flexiblelayout/data/d;
 
@@ -43,13 +43,13 @@
 
     if-ne p1, p2, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->b:Lcom/huawei/appmarket/sa2;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->b:Lcom/huawei/appmarket/va2;
 
     iget-object p2, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->c:Lcom/huawei/flexiblelayout/data/d;
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/r;->d:Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->l(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;)V
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;->l(Lcom/huawei/appmarket/service/store/awk/card/NormalCardV2;Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;)V
 
     :cond_0
     const/4 p1, 0x0

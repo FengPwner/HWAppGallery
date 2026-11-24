@@ -174,11 +174,11 @@
     return-object v0
 
     :cond_4
-    new-instance p0, Lcom/huawei/appmarket/qt4;
+    new-instance p0, Lcom/huawei/appmarket/tt4;
 
     const/16 v1, 0x13
 
-    invoke-direct {p0, v1}, Lcom/huawei/appmarket/qt4;-><init>(I)V
+    invoke-direct {p0, v1}, Lcom/huawei/appmarket/tt4;-><init>(I)V
 
     invoke-static {v0, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 

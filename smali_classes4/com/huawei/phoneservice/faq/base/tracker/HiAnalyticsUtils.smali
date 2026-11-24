@@ -410,15 +410,11 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static trackEvent(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -817,15 +813,11 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public static trackSdkWebApi(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     new-instance v0, Lcom/huawei/phoneservice/faq/base/tracker/HiAnalyticsUtils$Builder;

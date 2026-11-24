@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/posts/card/ForumPopUpGuideCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/forum/posts/card/ForumPopUpGuideCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,7 +47,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 7
     .line 8
@@ -59,11 +59,11 @@
 
     .line 11
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 15
     .line 16
@@ -71,11 +71,11 @@
     move-result-object v0
 
     .line 18
-    const-class v1, Lcom/huawei/appmarket/h04;
+    const-class v1, Lcom/huawei/appmarket/j04;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -83,11 +83,11 @@
     move-result-object v0
 
     .line 24
-    check-cast v0, Lcom/huawei/appmarket/h04;
+    check-cast v0, Lcom/huawei/appmarket/j04;
 
     .line 25
     .line 26
-    new-instance v1, Lcom/huawei/appmarket/lv6;
+    new-instance v1, Lcom/huawei/appmarket/pv6;
 
     .line 27
     .line 28
@@ -134,7 +134,7 @@
     const/4 v5, 0x1
 
     .line 49
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/huawei/appmarket/lv6;-><init>(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Z)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/huawei/appmarket/pv6;-><init>(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Z)V
 
     .line 50
     .line 51
@@ -160,7 +160,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-interface {v0, v2, v1, p1, v5}, Lcom/huawei/appmarket/h04;->b(ILcom/huawei/appmarket/i04;Landroid/app/Activity;I)V
+    invoke-interface {v0, v2, v1, p1, v5}, Lcom/huawei/appmarket/j04;->b(ILcom/huawei/appmarket/k04;Landroid/app/Activity;I)V
 
     .line 64
     .line 65
@@ -206,5 +206,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

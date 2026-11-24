@@ -38,7 +38,7 @@
 
     move-result-object p0
 
-    const-string v1, "~"
+    const-string/jumbo v1, "~"
 
     const-string v2, "%7E"
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    const-string v1, "{"
+    const-string/jumbo v1, "{"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -269,7 +269,7 @@
 
     move-result-object p0
 
-    const-string v0, "}"
+    const-string/jumbo v0, "}"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 

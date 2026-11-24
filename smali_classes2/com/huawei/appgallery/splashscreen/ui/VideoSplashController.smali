@@ -498,7 +498,7 @@
     move-result v2
 
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/jj7;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/pj7;->e()Landroid/content/Context;
 
     .line 30
     .line 31
@@ -506,7 +506,7 @@
     move-result-object v3
 
     .line 33
-    invoke-static {v3}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 34
     .line 35
@@ -537,7 +537,7 @@
 
     .line 47
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/jj7;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/pj7;->e()Landroid/content/Context;
 
     .line 49
     .line 50
@@ -545,7 +545,7 @@
     move-result-object v4
 
     .line 52
-    invoke-static {v4}, Lcom/huawei/appmarket/w68;->q(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/b78;->q(Landroid/content/Context;)I
 
     .line 53
     .line 54
@@ -568,7 +568,7 @@
 
     .line 62
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/jj7;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/pj7;->e()Landroid/content/Context;
 
     .line 63
     .line 64
@@ -576,7 +576,7 @@
     move-result-object v2
 
     .line 66
-    invoke-static {v2}, Lcom/huawei/appmarket/w68;->u(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/b78;->u(Landroid/content/Context;)I
 
     .line 67
     .line 68
@@ -584,7 +584,7 @@
     move-result v2
 
     .line 70
-    invoke-static {}, Lcom/huawei/appmarket/jj7;->e()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/pj7;->e()Landroid/content/Context;
 
     .line 71
     .line 72
@@ -592,7 +592,7 @@
     move-result-object v5
 
     .line 74
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     .line 75
     .line 76
@@ -648,7 +648,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -687,7 +686,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a17f5
+    const v1, 0x7f0a17f6
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -928,7 +927,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setPlayState(I)V
@@ -1097,5 +1095,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

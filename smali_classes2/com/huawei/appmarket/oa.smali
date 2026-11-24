@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/db2;
+.implements Lcom/huawei/appmarket/gb2;
 
 
 # direct methods
@@ -41,7 +41,7 @@
 
     if-eqz v1, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v6
 
@@ -109,7 +109,7 @@
 
     if-eqz p2, :cond_5
 
-    invoke-static {}, Lcom/huawei/appmarket/pe8;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/ue8;->g()Z
 
     move-result v1
 

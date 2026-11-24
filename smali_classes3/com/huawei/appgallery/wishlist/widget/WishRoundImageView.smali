@@ -51,7 +51,7 @@
     if-eqz p2, :cond_6
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/ff6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/hf6;->a:[I
 
     const/4 v2, 0x0
 
@@ -175,7 +175,7 @@
     goto :goto_5
 
     :goto_4
-    sget-object p2, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object p2, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -195,7 +195,7 @@
 
     const-string p3, "RoundImageView"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     :goto_5
@@ -465,7 +465,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setRadius(I)V

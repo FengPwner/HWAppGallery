@@ -2,50 +2,24 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/me2$b;
 
-# static fields
-.field private static final a:Lcom/huawei/appmarket/ne2$a;
 
-.field private static final b:Lcom/huawei/appmarket/ne2$b;
-
-.field private static final c:Lcom/huawei/appmarket/ne2$c;
-
-.field private static final d:Lcom/huawei/appmarket/ne2$d;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/me2$b<",
+        "Ljava/util/List<",
+        "Ljava/lang/Object;",
+        ">;>;"
+    }
+.end annotation
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/ne2$a;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ne2$a;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ne2;->a:Lcom/huawei/appmarket/ne2$a;
-
-    new-instance v0, Lcom/huawei/appmarket/ne2$b;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ne2$b;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ne2;->b:Lcom/huawei/appmarket/ne2$b;
-
-    new-instance v0, Lcom/huawei/appmarket/ne2$c;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ne2$c;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ne2;->c:Lcom/huawei/appmarket/ne2$c;
-
-    new-instance v0, Lcom/huawei/appmarket/ne2$d;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ne2$d;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ne2;->d:Lcom/huawei/appmarket/ne2$d;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
+.method constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,109 +27,58 @@
     return-void
 .end method
 
-.method static a(IZ)Lcom/huawei/appmarket/me2;
-    .registers 5
+
+# virtual methods
+.method public final a()Ljava/lang/Object;
+    .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/ne2;->a:Lcom/huawei/appmarket/ne2$a;
+    new-instance v0, Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    sget-object v1, Lcom/huawei/appmarket/ne2;->b:Lcom/huawei/appmarket/ne2$b;
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
-    if-eqz p0, :cond_4
-
     .line 6
+    return-object v0
     .line 7
-    const/4 v2, 0x1
-
     .line 8
-    if-eq p0, v2, :cond_2
-
     .line 9
     .line 10
-    const/4 p1, 0x2
-
     .line 11
-    if-eq p0, p1, :cond_1
-
     .line 12
     .line 13
-    const/4 p1, 0x3
-
     .line 14
-    if-ne p0, p1, :cond_0
-
     .line 15
     .line 16
-    sget-object p0, Lcom/huawei/appmarket/ne2;->d:Lcom/huawei/appmarket/ne2$d;
-
     .line 17
     .line 18
-    return-object p0
-
     .line 19
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
-
     .line 20
     .line 21
-    const-string v0, "Invalid fade mode: "
-
     .line 22
     .line 23
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
-
     .line 24
     .line 25
     .line 26
-    move-result-object p0
-
     .line 27
-    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
     .line 28
     .line 29
     .line 30
-    throw p1
-
     .line 31
-    :cond_1
-    sget-object p0, Lcom/huawei/appmarket/ne2;->c:Lcom/huawei/appmarket/ne2$c;
-
     .line 32
     .line 33
-    return-object p0
-
     .line 34
-    :cond_2
-    if-eqz p1, :cond_3
-
     .line 35
     .line 36
-    move-object v0, v1
-
     .line 37
-    :cond_3
-    return-object v0
-
     .line 38
-    :cond_4
-    if-eqz p1, :cond_5
-
     .line 39
     .line 40
-    goto :goto_0
-
     .line 41
-    :cond_5
-    move-object v0, v1
-
     .line 42
-    :goto_0
-    return-object v0
     .line 43
     .line 44
     .line 45
@@ -250,18 +173,4 @@
     .line 134
     .line 135
     .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
 .end method

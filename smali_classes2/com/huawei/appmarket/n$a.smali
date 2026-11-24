@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/q52$a;
+.implements Lcom/huawei/appmarket/u52$a;
 
 
 # annotations
@@ -39,13 +39,13 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/i52;->a:Lcom/huawei/appmarket/i52;
+    sget-object v0, Lcom/huawei/appmarket/m52;->a:Lcom/huawei/appmarket/m52;
 
     const-string v1, "AGDExposureManager"
 
     const-string v2, "AgdProBucket time is up, uploading..."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/n$a;->a:Lcom/huawei/appmarket/n;
 

@@ -167,7 +167,7 @@
     const p1, 0x7f070137
 
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     move-result p1
 

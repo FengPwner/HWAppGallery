@@ -53,7 +53,7 @@
 
     iget-object p4, p0, Lcom/huawei/quickcard/views/list/QRecyclerView$d;->h0:Lcom/huawei/quickcard/views/list/QRecyclerView;
 
-    invoke-static {p4}, Lcom/huawei/quickcard/views/list/QRecyclerView;->d(Lcom/huawei/quickcard/views/list/QRecyclerView;)Lcom/huawei/appmarket/r09;
+    invoke-static {p4}, Lcom/huawei/quickcard/views/list/QRecyclerView;->d(Lcom/huawei/quickcard/views/list/QRecyclerView;)Lcom/huawei/appmarket/x09;
 
     move-result-object p4
 

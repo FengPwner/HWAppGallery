@@ -46,14 +46,14 @@
     return-void
 .end method
 
-.method public static start(Landroid/app/Activity;)Lcom/huawei/appmarket/hv7;
+.method public static start(Landroid/app/Activity;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -70,21 +70,21 @@
 
     invoke-direct {v0, p0, v1, v2, v3}, Lcom/huawei/hms/hwid/aj;-><init>(Landroid/app/Activity;Lcom/huawei/hms/api/Api;Lcom/huawei/hms/api/Api$ApiOptions$NoOptions;Lcom/huawei/hms/common/internal/AbstractClientBuilder;)V
 
-    invoke-virtual {v0}, Lcom/huawei/hms/hwid/aj;->a()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/hms/hwid/aj;->a()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static start(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public static start(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -101,14 +101,14 @@
 
     invoke-direct {v0, p0, v1, v2, v3}, Lcom/huawei/hms/hwid/aj;-><init>(Landroid/content/Context;Lcom/huawei/hms/api/Api;Lcom/huawei/hms/api/Api$ApiOptions$NoOptions;Lcom/huawei/hms/common/internal/AbstractClientBuilder;)V
 
-    invoke-virtual {v0}, Lcom/huawei/hms/hwid/aj;->a()Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0}, Lcom/huawei/hms/hwid/aj;->a()Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static startConsent(Landroid/app/Activity;Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+.method public static startConsent(Landroid/app/Activity;Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -116,7 +116,7 @@
             "Landroid/app/Activity;",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }
@@ -133,7 +133,7 @@
 
     invoke-direct {v0, p0, v1, v2, v3}, Lcom/huawei/hms/hwid/aj;-><init>(Landroid/app/Activity;Lcom/huawei/hms/api/Api;Lcom/huawei/hms/api/Api$ApiOptions$NoOptions;Lcom/huawei/hms/common/internal/AbstractClientBuilder;)V
 
-    invoke-virtual {v0, p1}, Lcom/huawei/hms/hwid/aj;->a(Ljava/lang/String;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, p1}, Lcom/huawei/hms/hwid/aj;->a(Ljava/lang/String;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 

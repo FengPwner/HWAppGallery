@@ -251,7 +251,7 @@
     const-string v5, ",totalFileSize:"
 
     .line 3
-    invoke-static {v1, v11, v12, v5}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v11, v12, v5}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -342,7 +342,7 @@
     const-string v1, "onProgress for error percent, currentTotalFinished:"
 
     .line 5
-    invoke-static {v1, v11, v12, v5}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v11, v12, v5}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -386,7 +386,7 @@
     const-string v3, ",lastReportSize:"
 
     .line 7
-    invoke-static {v1, v7, v8, v3}, Lcom/huawei/appmarket/bq6;->x(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v7, v8, v3}, Lcom/huawei/appmarket/eq6;->w(Ljava/lang/String;JLjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -741,7 +741,7 @@
     const-string p1, "getCurrentSize:"
 
     .line 1
-    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p1, v1, v2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 

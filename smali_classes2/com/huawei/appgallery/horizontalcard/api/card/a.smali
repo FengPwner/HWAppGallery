@@ -49,13 +49,13 @@
 
     if-gez p2, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object p1, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     const-string p2, "HorizontalModuleCard"
 
     const-string v0, "ignores calculation ItemExpose in limit time."
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

@@ -15,10 +15,10 @@
 
 
 # instance fields
-.field final b:Lcom/huawei/appmarket/ym5;
+.field final b:Lcom/huawei/appmarket/zm5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;"
         }
     .end annotation
@@ -32,12 +32,12 @@
 
 
 # direct methods
-.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/ym5;)V
+.method constructor <init>(Landroidx/lifecycle/m;Lcom/huawei/appmarket/zm5;)V
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/ym5<",
+            "Lcom/huawei/appmarket/zm5<",
             "-TT;>;)V"
         }
     .end annotation
@@ -51,7 +51,7 @@
 
     iput p1, p0, Landroidx/lifecycle/m$d;->d:I
 
-    iput-object p2, p0, Landroidx/lifecycle/m$d;->b:Lcom/huawei/appmarket/ym5;
+    iput-object p2, p0, Landroidx/lifecycle/m$d;->b:Lcom/huawei/appmarket/zm5;
 
     return-void
 .end method
@@ -102,7 +102,7 @@
     return-void
 .end method
 
-.method c(Lcom/huawei/appmarket/du4;)Z
+.method c(Lcom/huawei/appmarket/gu4;)Z
     .registers 2
 
     .line 1

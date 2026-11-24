@@ -9,18 +9,18 @@
 
 
 # static fields
-.field private static final b:Lcom/huawei/appmarket/mn5$a;
+.field private static final b:Lcom/huawei/appmarket/nn5$a;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .registers 1
 
-    new-instance v0, Lcom/huawei/appmarket/mn5$a;
+    new-instance v0, Lcom/huawei/appmarket/nn5$a;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/mn5$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nn5$a;-><init>()V
 
-    sput-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sput-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
     return-void
 .end method
@@ -35,7 +35,7 @@
     .line 3
     .line 4
     :try_start_0
-    sget-object p1, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object p1, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
     .line 5
     .line 6
@@ -47,7 +47,7 @@
     move-result-object v0
 
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/y02;->b()Ljava/security/SecureRandom;
+    invoke-static {}, Lcom/huawei/appmarket/c12;->b()Ljava/security/SecureRandom;
 
     .line 11
     .line 12
@@ -71,7 +71,7 @@
     move-result-object v1
 
     .line 22
-    invoke-static {v1}, Lcom/huawei/appmarket/o57;->a(Landroid/content/Context;)Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;
+    invoke-static {v1}, Lcom/huawei/appmarket/t57;->a(Landroid/content/Context;)Lcom/huawei/secure/android/common/ssl/SecureX509TrustManager;
 
     .line 23
     .line 24
@@ -79,21 +79,21 @@
     move-result-object v1
 
     .line 26
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/mn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/nn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
 
     .line 27
     .line 28
     .line 29
-    new-instance v0, Lcom/huawei/appmarket/so7;
+    new-instance v0, Lcom/huawei/appmarket/xo7;
 
     .line 30
     .line 31
-    invoke-direct {v0}, Lcom/huawei/appmarket/so7;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/xo7;-><init>()V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/mn5$a;->L(Ljavax/net/ssl/HostnameVerifier;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nn5$a;->L(Ljavax/net/ssl/HostnameVerifier;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -271,23 +271,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 
@@ -438,7 +421,7 @@
     move-result-object v0
 
     .line 67
-    instance-of v2, v0, Lcom/huawei/appmarket/lj4;
+    instance-of v2, v0, Lcom/huawei/appmarket/nj4;
 
     .line 68
     .line 69
@@ -446,7 +429,7 @@
 
     .line 70
     .line 71
-    check-cast v0, Lcom/huawei/appmarket/lj4;
+    check-cast v0, Lcom/huawei/appmarket/nj4;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -477,11 +460,11 @@
 
     .line 82
     .line 83
-    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mn5$a;->a(Lcom/huawei/appmarket/lj4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nn5$a;->a(Lcom/huawei/appmarket/nj4;)V
 
     .line 86
     .line 87
@@ -708,14 +691,34 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public connectTimeout(JLjava/util/concurrent/TimeUnit;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
 
     return-void
 .end method
@@ -723,9 +726,9 @@
 .method public readTimeout(JLjava/util/concurrent/TimeUnit;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
 
     return-void
 .end method
@@ -739,7 +742,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
     .line 2
     .line 3
@@ -748,20 +751,20 @@
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lcom/huawei/appmarket/mn5;
+    new-instance v1, Lcom/huawei/appmarket/nn5;
 
     .line 7
     .line 8
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/mn5;-><init>(Lcom/huawei/appmarket/mn5$a;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/nn5;-><init>(Lcom/huawei/appmarket/nn5$a;)V
 
     .line 9
     .line 10
     .line 11
-    new-instance v0, Lcom/huawei/appmarket/gr6$a;
+    new-instance v0, Lcom/huawei/appmarket/jr6$a;
 
     .line 12
     .line 13
-    invoke-direct {v0}, Lcom/huawei/appmarket/gr6$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/jr6$a;-><init>()V
 
     .line 14
     .line 15
@@ -827,7 +830,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/gr6$a;->f(Ljava/lang/String;)V
+    invoke-virtual {v0, v4}, Lcom/huawei/appmarket/jr6$a;->f(Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -856,7 +859,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v4, v3}, Lcom/huawei/appmarket/gr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v3}, Lcom/huawei/appmarket/jr6$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
     .line 63
@@ -918,7 +921,7 @@
 
     .line 88
     :cond_2
-    sget-object v5, Lcom/huawei/appmarket/a65;->c:Lcom/huawei/appmarket/a65$a;
+    sget-object v5, Lcom/huawei/appmarket/d65;->c:Lcom/huawei/appmarket/d65$a;
 
     .line 89
     .line 90
@@ -927,7 +930,7 @@
     .line 91
     .line 92
     .line 93
-    invoke-static {v2}, Lcom/huawei/appmarket/a65$a;->b(Ljava/lang/String;)Lcom/huawei/appmarket/a65;
+    invoke-static {v2}, Lcom/huawei/appmarket/d65$a;->b(Ljava/lang/String;)Lcom/huawei/appmarket/d65;
 
     .line 94
     .line 95
@@ -936,7 +939,7 @@
 
     .line 97
     :goto_1
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/lr6;->create(Lcom/huawei/appmarket/a65;[B)Lcom/huawei/appmarket/lr6;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/or6;->create(Lcom/huawei/appmarket/d65;[B)Lcom/huawei/appmarket/or6;
 
     .line 98
     .line 99
@@ -969,7 +972,7 @@
     move-result-object v3
 
     .line 111
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/gr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/lr6;)V
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/jr6$a;->e(Ljava/lang/String;Lcom/huawei/appmarket/or6;)V
 
     .line 112
     .line 113
@@ -982,12 +985,12 @@
     move-result-object p1
 
     .line 118
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gr6$a;->h(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/jr6$a;->h(Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6$a;->b()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6$a;->b()Lcom/huawei/appmarket/jr6;
 
     .line 122
     .line 123
@@ -995,19 +998,19 @@
     move-result-object p1
 
     .line 125
-    new-instance v0, Lcom/huawei/appmarket/zh6;
+    new-instance v0, Lcom/huawei/appmarket/bi6;
 
     .line 126
     .line 127
     const/4 v2, 0x0
 
     .line 128
-    invoke-direct {v0, v1, p1, v2}, Lcom/huawei/appmarket/zh6;-><init>(Lcom/huawei/appmarket/mn5;Lcom/huawei/appmarket/gr6;Z)V
+    invoke-direct {v0, v1, p1, v2}, Lcom/huawei/appmarket/bi6;-><init>(Lcom/huawei/appmarket/nn5;Lcom/huawei/appmarket/jr6;Z)V
 
     .line 129
     .line 130
     .line 131
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zh6;->g()Lcom/huawei/appmarket/vu6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bi6;->g()Lcom/huawei/appmarket/zu6;
 
     .line 132
     .line 133
@@ -1015,7 +1018,7 @@
     move-result-object p1
 
     .line 135
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 136
     .line 137
@@ -1035,7 +1038,7 @@
     move-result-object v0
 
     .line 145
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zu6;->w()I
 
     .line 146
     .line 147
@@ -1048,7 +1051,7 @@
     .line 150
     .line 151
     .line 152
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vu6;->C()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zu6;->C()Ljava/lang/String;
 
     .line 153
     .line 154
@@ -1061,7 +1064,7 @@
     .line 157
     .line 158
     .line 159
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vu6;->A()Lcom/huawei/appmarket/m63;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zu6;->A()Lcom/huawei/appmarket/p63;
 
     .line 160
     .line 161
@@ -1078,7 +1081,7 @@
     .line 166
     .line 167
     .line 168
-    invoke-virtual {v1}, Lcom/huawei/appmarket/m63;->size()I
+    invoke-virtual {v1}, Lcom/huawei/appmarket/p63;->size()I
 
     .line 169
     .line 170
@@ -1091,7 +1094,7 @@
 
     .line 173
     .line 174
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/m63;->c(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/p63;->c(I)Ljava/lang/String;
 
     .line 175
     .line 176
@@ -1099,7 +1102,7 @@
     move-result-object v5
 
     .line 178
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/m63;->f(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/p63;->f(I)Ljava/lang/String;
 
     .line 179
     .line 180
@@ -1125,7 +1128,7 @@
     .line 189
     .line 190
     .line 191
-    invoke-virtual {p1}, Lcom/huawei/appmarket/vu6;->s()Lcom/huawei/appmarket/xu6;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zu6;->s()Lcom/huawei/appmarket/bv6;
 
     .line 192
     .line 193
@@ -1133,7 +1136,7 @@
     move-result-object p1
 
     .line 195
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xu6;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bv6;->w()Ljava/lang/String;
 
     .line 196
     .line 197
@@ -2104,73 +2107,14 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public writeTimeout(JLjava/util/concurrent/TimeUnit;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/mn5$a;
+    sget-object v0, Lcom/huawei/quickcard/okhttp/CardOkHttpClient;->b:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
 
     return-void
 .end method

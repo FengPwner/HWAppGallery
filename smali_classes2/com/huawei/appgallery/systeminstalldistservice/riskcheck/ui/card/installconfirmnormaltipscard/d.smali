@@ -49,7 +49,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/ln1;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/on1;->b()Z
 
     .line 13
     .line 14
@@ -107,7 +107,7 @@
 
     .line 41
     .line 42
-    invoke-static {v3, v4, v2}, Lcom/huawei/appmarket/cb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+    invoke-static {v3, v4, v2}, Lcom/huawei/appmarket/eb6;->b(Ljava/lang/Class;Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -192,5 +192,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

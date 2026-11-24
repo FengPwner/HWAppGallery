@@ -64,7 +64,7 @@
 
     const-string v1, "CSSImageFactory"
 
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 p1, 0x0
@@ -77,7 +77,7 @@
 .method public create(Ljava/lang/String;)Lcom/huawei/appgallery/foundation/ui/css/adapter/type/CSSValue;
     .registers 3
 
-    invoke-static {p1}, Lcom/huawei/appmarket/gp7;->h(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/lp7;->h(Ljava/lang/String;)Z
 
     move-result v0
 

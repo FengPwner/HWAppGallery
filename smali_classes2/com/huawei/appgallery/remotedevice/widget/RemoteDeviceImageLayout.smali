@@ -109,9 +109,9 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$h;->setHasStableIds(Z)V
 
-    new-instance p1, Lcom/huawei/appmarket/q23;
+    new-instance p1, Lcom/huawei/appmarket/t23;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/t23;-><init>()V
 
     iget-object p2, p0, Lcom/huawei/appgallery/remotedevice/widget/RemoteDeviceImageLayout;->b:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
@@ -130,7 +130,7 @@
     :cond_1
     iget-object p2, p0, Lcom/huawei/appgallery/remotedevice/widget/RemoteDeviceImageLayout;->b:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     new-instance p1, Landroidx/recyclerview/widget/LinearLayoutManager;
 

@@ -30,11 +30,11 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/huawei/appmarket/hx;
+.field private final c:Lcom/huawei/appmarket/ix;
 
 
 # direct methods
-.method constructor <init>([BLjava/util/List;Lcom/huawei/appmarket/hx;)V
+.method constructor <init>([BLjava/util/List;Lcom/huawei/appmarket/ix;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -42,7 +42,7 @@
             "Ljava/util/List<",
             "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;",
-            "Lcom/huawei/appmarket/hx;",
+            "Lcom/huawei/appmarket/ix;",
             ")V"
         }
     .end annotation
@@ -54,7 +54,7 @@
 
     iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->b:Ljava/util/List;
 
-    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->c:Lcom/huawei/appmarket/hx;
+    iput-object p3, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->c:Lcom/huawei/appmarket/ix;
 
     return-void
 .end method
@@ -100,11 +100,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->c:Lcom/huawei/appmarket/hx;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->c:Lcom/huawei/appmarket/ix;
 
     iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/b$a;->b:Ljava/util/List;
 
-    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->b(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/hx;)I
+    invoke-static {v0, v2, v1}, Lcom/bumptech/glide/load/b;->b(Ljava/nio/ByteBuffer;Ljava/util/List;Lcom/huawei/appmarket/ix;)I
 
     move-result v0
 

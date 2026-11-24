@@ -1,18 +1,34 @@
-.class public interface abstract annotation Lcom/huawei/appmarket/ag7;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/ag7;
+.super Landroid/os/Handler;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/lang/annotation/Annotation;
 
 
 # annotations
-.annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
-.end annotation
-
-.annotation runtime Ljava/lang/annotation/Target;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+        Lcom/huawei/appmarket/ag7$b;
     }
 .end annotation
+
+
+# static fields
+.field public static final synthetic a:I
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/huawei/appmarket/ag7$a;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ag7;-><init>()V
+
+    return-void
+.end method

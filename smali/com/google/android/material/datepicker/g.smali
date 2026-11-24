@@ -195,13 +195,13 @@
 
     move-result-object v5
 
-    check-cast v5, Lcom/huawei/appmarket/pv5;
+    check-cast v5, Lcom/huawei/appmarket/rv5;
 
-    iget-object v6, v5, Lcom/huawei/appmarket/pv5;->a:Ljava/lang/Object;
+    iget-object v6, v5, Lcom/huawei/appmarket/rv5;->a:Ljava/lang/Object;
 
     if-eqz v6, :cond_1
 
-    iget-object v5, v5, Lcom/huawei/appmarket/pv5;->b:Ljava/lang/Object;
+    iget-object v5, v5, Lcom/huawei/appmarket/rv5;->b:Ljava/lang/Object;
 
     if-nez v5, :cond_2
 

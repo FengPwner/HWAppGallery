@@ -20,11 +20,11 @@
 # instance fields
 .field private b:Landroid/content/Context;
 
-.field private c:Lcom/huawei/appmarket/ck3;
+.field private c:Lcom/huawei/appmarket/ek3;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ck3;)V
+.method constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ek3;)V
     .registers 3
 
     .line 1
@@ -32,16 +32,16 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/jd0$a;->b:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/jd0$a;->c:Lcom/huawei/appmarket/ck3;
+    iput-object p2, p0, Lcom/huawei/appmarket/jd0$a;->c:Lcom/huawei/appmarket/ek3;
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ck3;
+.method static synthetic a(Lcom/huawei/appmarket/jd0$a;)Lcom/huawei/appmarket/ek3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/jd0$a;->c:Lcom/huawei/appmarket/ck3;
+    iget-object p0, p0, Lcom/huawei/appmarket/jd0$a;->c:Lcom/huawei/appmarket/ek3;
 
     return-object p0
 .end method
@@ -52,7 +52,7 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/cf0;->J2()Lcom/huawei/appmarket/cf0;
+    invoke-static {}, Lcom/huawei/appmarket/df0;->K2()Lcom/huawei/appmarket/df0;
 
     .line 2
     .line 3
@@ -60,7 +60,7 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Lcom/huawei/appmarket/vr1;
+    new-instance v1, Lcom/huawei/appmarket/yr1;
 
     .line 6
     .line 7
@@ -77,7 +77,7 @@
 
     .line 13
     .line 14
-    invoke-direct {v1, v3, v2}, Lcom/huawei/appmarket/vr1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/vr1$a;)V
+    invoke-direct {v1, v3, v2}, Lcom/huawei/appmarket/yr1;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/yr1$a;)V
 
     .line 15
     .line 16
@@ -85,7 +85,7 @@
     const/4 v2, 0x0
 
     .line 18
-    invoke-virtual {v0, v3, v1, v2}, Lcom/huawei/appmarket/cf0;->m(Landroid/content/Context;Lcom/huawei/appmarket/ye0;Landroid/os/Bundle;)V
+    invoke-virtual {v0, v3, v1, v2}, Lcom/huawei/appmarket/df0;->m(Landroid/content/Context;Lcom/huawei/appmarket/ze0;Landroid/os/Bundle;)V
 
     .line 19
     .line 20

@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    sget-object p3, Lcom/huawei/appmarket/me6;->c:[I
+    sget-object p3, Lcom/huawei/appmarket/oe6;->c:[I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -384,7 +384,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final onSizeChanged(IIII)V

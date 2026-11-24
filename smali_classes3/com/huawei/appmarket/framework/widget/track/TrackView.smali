@@ -51,7 +51,7 @@
 
     const/16 v1, 0xc
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -103,7 +103,7 @@
 
     invoke-virtual {p0, v0}, Landroid/view/View;->setClickable(Z)V
 
-    sget-object v1, Lcom/huawei/appmarket/if6;->a:[I
+    sget-object v1, Lcom/huawei/appmarket/kf6;->a:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -119,7 +119,7 @@
 
     const/16 v2, -0xc
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -133,7 +133,7 @@
 
     iput v2, p0, Lcom/huawei/appmarket/framework/widget/track/TrackView;->g:F
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -470,7 +470,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
     :array_1
     .array-data 4
         0x43480000    # 200.0f

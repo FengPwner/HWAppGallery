@@ -1,18 +1,18 @@
 .class final Lcom/huawei/appgallery/agguard/business/ui/activity/g;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qs2;
+.implements Lcom/huawei/appmarket/ts2;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/ts2<",
         "Ljava/lang/Boolean;",
-        "Lcom/huawei/appmarket/x78;",
+        "Lcom/huawei/appmarket/c88;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -144,7 +144,7 @@
 
     .line 49
     :cond_1
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -180,7 +180,7 @@
 
     .line 65
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+    sget-object p1, Lcom/huawei/appmarket/c88;->a:Lcom/huawei/appmarket/c88;
 
     .line 66
     .line 67
@@ -188,7 +188,7 @@
 
     .line 68
     :cond_3
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -197,7 +197,7 @@
 
     .line 72
     :cond_4
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 73
     .line 74

@@ -2,8 +2,15 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/uv3;
+
+# instance fields
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/String;
+
+.field private d:Ljava/lang/String;
 
 
 # direct methods
@@ -15,100 +22,57 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final t0(Landroid/content/Context;Lcom/huawei/appmarket/ee2;)V
-    .registers 6
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 5
 
     .line 1
-    instance-of v0, p1, Landroid/app/Activity;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    if-nez v0, :cond_0
+    iput-object p1, p0, Lcom/huawei/appmarket/lq5;->a:Ljava/lang/String;
 
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    iput-object p2, p0, Lcom/huawei/appmarket/lq5;->c:Ljava/lang/String;
 
-    const-string p2, "OpenFaDetailImpl"
+    iput-object p3, p0, Lcom/huawei/appmarket/lq5;->d:Ljava/lang/String;
 
-    const-string v0, "params is error"
-
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    iput-object p4, p0, Lcom/huawei/appmarket/lq5;->b:Ljava/lang/String;
 
     return-void
+.end method
 
-    :cond_0
-    check-cast p1, Landroid/app/Activity;
 
-    new-instance v0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol;
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .registers 2
 
-    invoke-direct {v0}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol;-><init>()V
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lq5;->c:Ljava/lang/String;
 
-    new-instance v1, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;
+    return-object v0
+.end method
 
-    invoke-direct {v1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;-><init>()V
+.method public final b()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->j()Ljava/lang/String;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lq5;->a:Ljava/lang/String;
 
-    move-result-object v2
+    return-object v0
+.end method
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->t2(Ljava/lang/String;)V
+.method public final c()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->k()Lcom/huawei/appmarket/sn0;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lq5;->b:Ljava/lang/String;
 
-    move-result-object v2
+    return-object v0
+.end method
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->U2(Lcom/huawei/appmarket/sn0;)V
+.method public final d()Ljava/lang/String;
+    .registers 2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->l()Ljava/lang/String;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/lq5;->d:Ljava/lang/String;
 
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->V2(Ljava/lang/String;)V
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->n()Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->W2(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;)V
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->o()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->m2(Ljava/lang/String;)V
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->p()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->X2(Ljava/lang/String;)V
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->i()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;->T2(Ljava/lang/String;)V
-
-    invoke-virtual {p2}, Lcom/huawei/appmarket/ee2;->m()Ljava/util/HashMap;
-
-    move-result-object p2
-
-    invoke-virtual {v1, p2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->J2(Ljava/util/HashMap;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol;->i(Lcom/huawei/appgallery/distributionbase/ui/protocol/FAPreviewOpenActivityProtocol$Request;)V
-
-    new-instance p2, Lcom/huawei/appmarket/cn5;
-
-    const-string v1, "fa.dist.preview.open"
-
-    invoke-direct {p2, v1, v0}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/is4;->c(Landroid/content/Context;Lcom/huawei/appmarket/cn5;)V
-
-    return-void
+    return-object v0
 .end method

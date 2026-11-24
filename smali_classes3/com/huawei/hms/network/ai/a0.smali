@@ -567,7 +567,7 @@
     const/4 p2, 0x1
 
     .line 4
-    invoke-static {p1, v0, p4, p2, p3}, Lcom/huawei/appmarket/bu0;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, v0, p4, p2, p3}, Lcom/huawei/appmarket/kd0;->s(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     return-object v0
 .end method
@@ -738,7 +738,7 @@
     const-string v6, ", domain:"
 
     .line 13
-    invoke-static {v2, v0, v3, v4, v6}, Lcom/huawei/appmarket/z84;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v0, v3, v4, v6}, Lcom/huawei/appmarket/kk4;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -749,7 +749,7 @@
     move/from16 v7, p4
 
     .line 14
-    invoke-static {v2, v5, v3, v7, v6}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v5, v3, v7, v6}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     move/from16 v8, p5
 

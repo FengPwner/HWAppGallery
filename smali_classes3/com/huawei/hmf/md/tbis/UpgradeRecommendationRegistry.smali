@@ -27,7 +27,7 @@
 
     const-string v0, "IUpgradeRecommend"
 
-    const-class v1, Lcom/huawei/appmarket/m54;
+    const-class v1, Lcom/huawei/appmarket/p54;
 
     const/4 v2, 0x0
 

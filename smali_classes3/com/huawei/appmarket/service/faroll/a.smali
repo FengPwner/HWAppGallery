@@ -42,9 +42,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/wz5;
+    check-cast p1, Lcom/huawei/appmarket/yz5;
 
-    iget-object p1, p1, Lcom/huawei/appmarket/wz5;->c:Ljava/lang/Object;
+    iget-object p1, p1, Lcom/huawei/appmarket/yz5;->c:Ljava/lang/Object;
 
     check-cast p1, Lcom/huawei/appmarket/service/recommendfa/card/FARecommendBodyCard;
 

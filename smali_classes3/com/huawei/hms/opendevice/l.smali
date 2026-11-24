@@ -396,7 +396,7 @@
     const/16 v6, 0x20
 
     .line 7
-    invoke-static {p3}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p3}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v5
 
@@ -417,7 +417,7 @@
 
     const/16 v4, 0x20
 
-    invoke-static {p3}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {p3}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v3
 
@@ -728,19 +728,19 @@
     :cond_2
     const/16 v1, 0x20
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v2
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v3
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v4
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v5
 
@@ -760,7 +760,7 @@
 
     move-result-object v9
 
-    invoke-static {v1}, Lcom/huawei/appmarket/y02;->c(I)[B
+    invoke-static {v1}, Lcom/huawei/appmarket/c12;->c(I)[B
 
     move-result-object v1
 
@@ -1048,12 +1048,12 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/huawei/hms/opendevice/l;->h()Lcom/huawei/appmarket/fy6;
+    invoke-static {}, Lcom/huawei/hms/opendevice/l;->h()Lcom/huawei/appmarket/jy6;
 
     move-result-object v2
 
     .line 4
-    invoke-virtual {v2}, Lcom/huawei/appmarket/fy6;->a()[B
+    invoke-virtual {v2}, Lcom/huawei/appmarket/jy6;->a()[B
 
     move-result-object v2
 
@@ -1119,7 +1119,7 @@
     const/16 v5, 0x20
 
     .line 8
-    invoke-static {v4}, Lcom/huawei/appmarket/w63;->b(Ljava/lang/String;)[B
+    invoke-static {v4}, Lcom/huawei/appmarket/z63;->b(Ljava/lang/String;)[B
 
     move-result-object v4
 
@@ -1218,7 +1218,7 @@
     return-object v0
 .end method
 
-.method private static h()Lcom/huawei/appmarket/fy6;
+.method private static h()Lcom/huawei/appmarket/jy6;
     .registers 4
 
     .line 1
@@ -1238,7 +1238,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/fy6;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/fy6;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/jy6;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/jy6;
 
     move-result-object v0
 

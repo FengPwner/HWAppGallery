@@ -35,7 +35,7 @@
 
     const-string v0, "media3.decoder"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/o55;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/r55;->a(Ljava/lang/String;)V
 
     return-void
 .end method

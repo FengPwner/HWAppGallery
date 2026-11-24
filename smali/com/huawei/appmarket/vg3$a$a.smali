@@ -1,4 +1,4 @@
-.class public final Lcom/huawei/appmarket/vg3$a$a;
+.class final Lcom/huawei/appmarket/vg3$a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,37 +12,78 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
+    accessFlags = 0xa
+    name = "a"
 .end annotation
 
 
-# direct methods
-.method constructor <init>()V
-    .registers 1
+# instance fields
+.field private b:Landroid/os/IBinder;
 
+
+# direct methods
+.method constructor <init>(Landroid/os/IBinder;)V
+    .registers 2
+
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/vg3$a$a;->b:Landroid/os/IBinder;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/vg3$c;)Lcom/huawei/appmarket/vg3$b;
-    .registers 4
+.method public final asBinder()Landroid/os/IBinder;
+    .registers 2
 
     .line 1
-    const-string v0, "result"
+    iget-object v0, p0, Lcom/huawei/appmarket/vg3$a$a;->b:Landroid/os/IBinder;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    new-instance p1, Lcom/huawei/appmarket/vg3$b$c;
+.method public final j1(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
 
-    const/4 v0, 0x0
+    .line 1
+    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+
+    move-result-object v0
+
+    :try_start_0
+    const-string v1, "com.huawei.appgallery.agd.service.IAgdService"
+
+    invoke-virtual {v0, v1}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/huawei/appmarket/vg3$a$a;->b:Landroid/os/IBinder;
+
+    const/4 p2, 0x0
 
     const/4 v1, 0x1
 
-    invoke-direct {p1, v0, v1, v0}, Lcom/huawei/appmarket/vg3$b$c;-><init>(Ljava/lang/Runnable;ILcom/huawei/appmarket/gd1;)V
+    invoke-interface {p1, v1, v0, p2, v1}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    return-object p1
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+
+    throw p1
 .end method

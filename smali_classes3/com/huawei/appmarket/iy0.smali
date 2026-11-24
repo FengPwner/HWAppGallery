@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s32;
+.implements Lcom/huawei/appmarket/w32;
 
 
 # direct methods
@@ -17,13 +17,13 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/xm5;)V
+.method public final a(Lcom/huawei/appmarket/ym5;)V
     .registers 2
 
     .line 1
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/xm5;->onComplete()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/ym5;->onComplete()V
 
     :cond_0
     return-void

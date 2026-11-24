@@ -211,12 +211,12 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v1, v2, v3}, Lcom/huawei/appgallery/markethomecountrysdk/api/HomeCountryApi;->getHomeCountry(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/hv7;
+    invoke-static {v1, v2, v3}, Lcom/huawei/appgallery/markethomecountrysdk/api/HomeCountryApi;->getHomeCountry(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object v2
 
     :try_start_0
-    invoke-static {v2}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;)Ljava/lang/Object;
+    invoke-static {v2}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;)Ljava/lang/Object;
 
     move-result-object v2
 

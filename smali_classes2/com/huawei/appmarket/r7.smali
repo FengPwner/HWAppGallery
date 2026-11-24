@@ -76,7 +76,7 @@
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/huawei/appmarket/l92;->a:Lcom/huawei/appmarket/l92;
+    sget-object v0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -92,7 +92,7 @@
 
     const-string v1, "ActivityCollector"
 
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/huawei/appmarket/l92;->a:Lcom/huawei/appmarket/l92;
+    sget-object v0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -121,7 +121,7 @@
 
     const-string v2, "ActivityCollector"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -182,7 +182,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v0, v2, p0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -213,7 +213,7 @@
 
     .line 11
     .line 12
-    sget-object p0, Lcom/huawei/appmarket/l92;->a:Lcom/huawei/appmarket/l92;
+    sget-object p0, Lcom/huawei/appmarket/p92;->a:Lcom/huawei/appmarket/p92;
 
     .line 13
     .line 14
@@ -225,12 +225,12 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/do2;->a()Lcom/huawei/appmarket/do2;
+    invoke-static {}, Lcom/huawei/appmarket/fo2;->a()Lcom/huawei/appmarket/fo2;
 
     .line 22
     .line 23
@@ -325,5 +325,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

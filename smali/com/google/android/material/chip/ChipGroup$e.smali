@@ -74,14 +74,14 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ei8;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/ki8;->f()I
 
     move-result v1
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setId(I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->c(Lcom/google/android/material/chip/ChipGroup;)Lcom/huawei/appmarket/pp0;
+    invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->c(Lcom/google/android/material/chip/ChipGroup;)Lcom/huawei/appmarket/qp0;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
 
     check-cast v1, Lcom/google/android/material/chip/Chip;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pp0;->e(Lcom/huawei/appmarket/e45;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qp0;->e(Lcom/huawei/appmarket/h45;)V
 
     :cond_1
     iget-object v0, p0, Lcom/google/android/material/chip/ChipGroup$e;->b:Landroid/view/ViewGroup$OnHierarchyChangeListener;
@@ -113,7 +113,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->c(Lcom/google/android/material/chip/ChipGroup;)Lcom/huawei/appmarket/pp0;
+    invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->c(Lcom/google/android/material/chip/ChipGroup;)Lcom/huawei/appmarket/qp0;
 
     move-result-object v0
 
@@ -121,7 +121,7 @@
 
     check-cast v1, Lcom/google/android/material/chip/Chip;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pp0;->k(Lcom/huawei/appmarket/e45;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qp0;->k(Lcom/huawei/appmarket/h45;)V
 
     :cond_0
     iget-object v0, p0, Lcom/google/android/material/chip/ChipGroup$e;->b:Landroid/view/ViewGroup$OnHierarchyChangeListener;

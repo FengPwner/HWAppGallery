@@ -9,16 +9,14 @@
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 3
+    .registers 2
 
     .line 1
-    const v0, 0x7f040416
+    const v0, 0x7f040152
 
-    const v1, 0x7f040417
+    const v1, 0x7f040649
 
-    const v2, 0x7f040415
-
-    filled-new-array {v2, v0, v1}, [I
+    filled-new-array {v0, v1}, [I
 
     move-result-object v0
 

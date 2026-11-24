@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/huawei/appmarket/fi0;
+    instance-of v1, v0, Lcom/huawei/appmarket/gi0;
 
     if-eqz v1, :cond_1
 
@@ -107,11 +107,11 @@
     .registers 4
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/fi0;
+    new-instance v0, Lcom/huawei/appmarket/gi0;
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/fi0;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/gi0;-><init>(Landroid/content/Context;Z)V
 
     return-object v0
 .end method

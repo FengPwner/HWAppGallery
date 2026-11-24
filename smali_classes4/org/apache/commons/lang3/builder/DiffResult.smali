@@ -275,13 +275,13 @@
 
     iget-object p1, p0, Lorg/apache/commons/lang3/builder/DiffResult;->diffList:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/w12;
+    new-instance v2, Lcom/huawei/appmarket/a22;
 
     const/4 v3, 0x2
 
-    invoke-direct {v2, v0, v3, v1}, Lcom/huawei/appmarket/w12;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v2, v0, v3, v1}, Lcom/huawei/appmarket/a22;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/qu0;->y(Ljava/util/List;Lcom/huawei/appmarket/w12;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/qu0;->y(Ljava/util/List;Lcom/huawei/appmarket/a22;)V
 
     iget-object p1, p0, Lorg/apache/commons/lang3/builder/DiffResult;->toStringFormat:Ljava/lang/String;
 

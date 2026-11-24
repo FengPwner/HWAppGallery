@@ -949,13 +949,20 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method private static c(Lcom/google/android/material/internal/CheckableImageButton;Landroid/view/View$OnLongClickListener;)V
     .registers 5
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->H(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->H(Landroid/view/View;)Z
 
     move-result v0
 
@@ -997,7 +1004,7 @@
     const/4 v2, 0x2
 
     :goto_1
-    invoke-static {p0, v2}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {p0, v2}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     return-void
 .end method

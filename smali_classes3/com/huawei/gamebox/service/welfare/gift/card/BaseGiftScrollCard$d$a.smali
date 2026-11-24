@@ -89,11 +89,11 @@
 
     iget-object p1, p1, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;->i:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;
 
-    invoke-static {p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->x1(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->x1(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d$a;->u:Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftItemCard;
 
@@ -245,7 +245,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
@@ -347,11 +347,11 @@
 
     move-result-object v3
 
-    invoke-static {}, Lcom/huawei/appmarket/ub3;->f()Lcom/huawei/appmarket/ub3;
+    invoke-static {}, Lcom/huawei/appmarket/xb3;->f()Lcom/huawei/appmarket/xb3;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/ub3;->i(Ljava/lang/String;)Z
+    invoke-virtual {v4, v3}, Lcom/huawei/appmarket/xb3;->i(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -560,7 +560,7 @@
     move-result-object v1
 
     .line 43
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 44
     .line 45

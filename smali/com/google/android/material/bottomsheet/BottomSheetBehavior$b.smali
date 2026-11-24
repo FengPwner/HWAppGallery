@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/bottomsheet/BottomSheetBehavior$b;
-.super Lcom/huawei/appmarket/ii8$c;
+.super Lcom/huawei/appmarket/oi8$c;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$b;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ii8$c;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/oi8$c;-><init>()V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
     iget p2, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->E:I
 
     :goto_0
-    invoke-static {p1, v0, p2}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p1, v0, p2}, Lcom/huawei/appmarket/c55;->a(III)I
 
     move-result p1
 
@@ -671,6 +671,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final k(ILandroid/view/View;)Z

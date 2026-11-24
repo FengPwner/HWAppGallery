@@ -21,11 +21,11 @@
 .method public abstract b()I
 .end method
 
-.method public abstract c()I
+.method public abstract c()Landroid/view/ViewGroup$LayoutParams;
 .end method
 
-.method public abstract d()Landroid/view/ViewGroup$LayoutParams;
+.method public abstract d()I
 .end method
 
-.method public abstract e()I
+.method public abstract getHeight()I
 .end method

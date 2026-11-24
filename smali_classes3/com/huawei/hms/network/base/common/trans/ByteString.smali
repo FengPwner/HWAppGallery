@@ -871,7 +871,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -1024,7 +1024,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -1801,7 +1800,7 @@
     const-string v1, ")"
 
     .line 2
-    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/bu0;->l(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v0, v1}, Lcom/huawei/appmarket/kd0;->m(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -2306,7 +2305,7 @@
 
     .line 150
     .line 151
-    invoke-static {v0, v1, v7}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v7}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 152
     .line 153

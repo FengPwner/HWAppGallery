@@ -73,7 +73,7 @@
     move-result-object p0
 
     .line 24
-    invoke-static {p0}, Lcom/huawei/appmarket/ew2;->h(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/hw2;->h(Ljava/lang/String;)Z
 
     .line 25
     .line 26
@@ -102,7 +102,7 @@
 
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 38
     .line 39
@@ -114,11 +114,11 @@
 
     .line 42
     .line 43
-    check-cast p0, Lcom/huawei/appmarket/dr6;
+    check-cast p0, Lcom/huawei/appmarket/gr6;
 
     .line 44
     .line 45
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 46
     .line 47
@@ -126,11 +126,11 @@
     move-result-object p0
 
     .line 49
-    const-class v1, Lcom/huawei/appmarket/hp2;
+    const-class v1, Lcom/huawei/appmarket/jp2;
 
     .line 50
     .line 51
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -138,11 +138,11 @@
     move-result-object p0
 
     .line 55
-    check-cast p0, Lcom/huawei/appmarket/hp2;
+    check-cast p0, Lcom/huawei/appmarket/jp2;
 
     .line 56
     .line 57
-    invoke-interface {p0}, Lcom/huawei/appmarket/hp2;->getDomainId()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/huawei/appmarket/jp2;->getDomainId()Ljava/lang/String;
 
     .line 58
     .line 59
@@ -198,5 +198,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

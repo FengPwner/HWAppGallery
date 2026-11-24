@@ -23,20 +23,6 @@
 
 
 # instance fields
-.field protected G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
-
-.field protected H1:Z
-
-.field private I1:F
-
-.field private J1:F
-
-.field private K1:Z
-
-.field private L1:Landroid/view/animation/Interpolator;
-
-.field private M1:Z
-
 .field private N1:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$d;
 
 .field private O1:Z
@@ -47,6 +33,20 @@
 
 .field private R1:I
 
+.field protected n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+
+.field protected o1:Z
+
+.field private s1:F
+
+.field private t1:F
+
+.field private v1:Z
+
+.field private x1:Landroid/view/animation/Interpolator;
+
+.field private y1:Z
+
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -56,21 +56,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->y1:Z
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->O1:Z
 
@@ -87,7 +87,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$a;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -99,21 +99,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->y1:Z
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->O1:Z
 
@@ -130,7 +130,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -142,21 +142,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 p3, 0x0
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->y1:Z
 
     iput-boolean p3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->O1:Z
 
@@ -173,7 +173,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -195,7 +195,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lcom/huawei/appmarket/bf6;->a:[I
+    sget-object v4, Lcom/huawei/appmarket/df6;->a:[I
 
     invoke-virtual {v3, p1, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -205,7 +205,7 @@
 
     move-result p1
 
-    iput-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -224,7 +224,7 @@
     move-exception p1
 
     :try_start_1
-    sget-object v3, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v3, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     const-string v4, "BounceHorizontalRecyclerView"
 
@@ -242,7 +242,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -262,7 +262,7 @@
     :goto_2
     invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setNestedScrollingEnabled(Z)V
 
-    iget-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz p1, :cond_2
 
@@ -270,7 +270,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     :cond_2
     return-void
@@ -318,7 +318,7 @@
     .line 12
     .line 13
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->M1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->y1:Z
 
     .line 14
     .line 15
@@ -337,7 +337,7 @@
     move-result-object v0
 
     .line 22
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 23
     .line 24
@@ -360,7 +360,7 @@
     move-result v0
 
     .line 33
-    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 34
     .line 35
@@ -396,7 +396,7 @@
     move-result-object v0
 
     .line 50
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 51
     .line 52
@@ -416,7 +416,7 @@
     move-result v0
 
     .line 60
-    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 61
     .line 62
@@ -452,7 +452,7 @@
     move-result v0
 
     .line 77
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
     .line 78
     .line 79
@@ -464,11 +464,11 @@
     move-result v0
 
     .line 83
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 84
     .line 85
-    iput-boolean v2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
     .line 86
     .line 87
@@ -518,7 +518,7 @@
     move-result v0
 
     .line 109
-    iget v3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iget v3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 110
     .line 111
@@ -544,7 +544,7 @@
     move-result v3
 
     .line 121
-    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iget v4, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
     .line 122
     .line 123
@@ -574,7 +574,7 @@
     move-result v0
 
     .line 135
-    iget v3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iget v3, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 136
     .line 137
@@ -604,7 +604,7 @@
 
     .line 148
     :cond_5
-    iput-boolean v2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v2, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
     .line 149
     .line 150
@@ -664,7 +664,7 @@
     .line 176
     .line 177
     :cond_7
-    iput-boolean v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
     .line 178
     .line 179
@@ -688,7 +688,7 @@
     move-result v0
 
     .line 188
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->s1:F
 
     .line 189
     .line 190
@@ -700,7 +700,7 @@
     move-result v0
 
     .line 194
-    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->t1:F
 
     .line 195
     .line 196
@@ -826,7 +826,7 @@
 .method public final onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 4
 
-    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
     if-eqz v0, :cond_0
 
@@ -845,11 +845,11 @@
     invoke-interface {v0, v1}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     if-eqz v0, :cond_1
 
@@ -944,7 +944,7 @@
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 5
 
-    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->v1:Z
 
     const/4 v1, 0x1
 
@@ -966,11 +966,11 @@
     :try_start_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
-    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     if-eqz v0, :cond_1
 
@@ -997,7 +997,7 @@
     return p1
 
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/jb3;->a:Lcom/huawei/appmarket/jb3;
+    sget-object v0, Lcom/huawei/appmarket/mb3;->a:Lcom/huawei/appmarket/mb3;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1017,7 +1017,7 @@
 
     const-string v1, "BounceHorizontalRecyclerView"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -1065,7 +1065,7 @@
 .method public setUnInterceptOnRight(Z)V
     .registers 2
 
-    iput-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean p1, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->y1:Z
 
     return-void
 .end method
@@ -1073,7 +1073,7 @@
 .method public final smoothScrollBy(II)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     invoke-super {p0, p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollBy(IILandroid/view/animation/Interpolator;)V
 

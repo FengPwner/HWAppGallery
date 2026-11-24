@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static getHomeCountry(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/hv7;
+.method public static getHomeCountry(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -20,14 +20,14 @@
             "Landroid/content/Context;",
             "Ljava/lang/String;",
             "Z)",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/px8;->a(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/hv7;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/vx8;->a(Landroid/content/Context;Ljava/lang/String;Z)Lcom/huawei/appmarket/nv7;
 
     move-result-object p0
 

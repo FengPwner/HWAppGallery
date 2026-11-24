@@ -184,6 +184,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>(ZLcom/google/protobuf/d2;)V
@@ -3531,7 +3532,7 @@
 
     .line 65
     .line 66
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     .line 67
     .line 68

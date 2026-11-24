@@ -71,7 +71,7 @@
     move-result-object p1
 
     .line 13
-    invoke-virtual {p1}, Lcom/huawei/phoneservice/faq/response/f;->a()Lcom/huawei/appmarket/yo4;
+    invoke-virtual {p1}, Lcom/huawei/phoneservice/faq/response/f;->a()Lcom/huawei/appmarket/bp4;
 
     .line 14
     .line 15
@@ -115,7 +115,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {v0, p1}, Lcom/huawei/phoneservice/faq/ui/FaqSearchActivity;->j3(Lcom/huawei/phoneservice/faq/ui/FaqSearchActivity;Lcom/huawei/appmarket/yo4;)V
+    invoke-static {v0, p1}, Lcom/huawei/phoneservice/faq/ui/FaqSearchActivity;->j3(Lcom/huawei/phoneservice/faq/ui/FaqSearchActivity;Lcom/huawei/appmarket/bp4;)V
 
     .line 36
     .line 37
@@ -365,8 +365,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

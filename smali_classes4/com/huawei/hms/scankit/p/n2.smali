@@ -833,7 +833,7 @@
     const-string v3, " and "
 
     .line 9
-    invoke-static {v2, v6, v3}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v6, v3}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1678,7 +1678,7 @@
 
     const/16 v5, 0xa
 
-    invoke-static {v4, v5, v2, v3}, Lcom/huawei/appmarket/om5;->b(IIII)I
+    invoke-static {v4, v5, v2, v3}, Lcom/huawei/appmarket/ci7;->d(IIII)I
 
     move-result v2
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nx8;
+.implements Lcom/huawei/appmarket/tx8;
 
 
 # instance fields
@@ -31,7 +31,7 @@
 
     const-string v0, "-->handleActionUri--common channel. "
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/dz6;->g(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/hz6;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/content/Intent;
 

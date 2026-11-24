@@ -3,15 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aw4$a;
+.implements Lcom/huawei/appmarket/dw4$a;
 
 
 # instance fields
 .field public final synthetic b:I
 
+.field public final synthetic c:Lcom/huawei/appmarket/pk$a;
+
+.field public final synthetic d:Lcom/huawei/appmarket/s55;
+
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/qk$a;II)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/pk$a;Lcom/huawei/appmarket/s55;I)V
     .registers 4
 
     .line 1
@@ -24,11 +28,15 @@
 
     .line 5
     .line 6
-    return-void
+    iput-object p1, p0, Lcom/huawei/appmarket/jc1;->c:Lcom/huawei/appmarket/pk$a;
+
     .line 7
     .line 8
+    iput-object p2, p0, Lcom/huawei/appmarket/jc1;->d:Lcom/huawei/appmarket/s55;
+
     .line 9
     .line 10
+    return-void
     .line 11
     .line 12
     .line 13
@@ -302,12 +310,19 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
 # virtual methods
 .method public final invoke(Ljava/lang/Object;)V
-    .registers 3
+    .registers 4
 
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/jc1;->b:I
@@ -319,82 +334,62 @@
     .line 4
     .line 5
     .line 6
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    check-cast p1, Lcom/huawei/appmarket/pk;
 
     .line 7
     .line 8
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->A()V
+    iget-object v0, p0, Lcom/huawei/appmarket/jc1;->c:Lcom/huawei/appmarket/pk$a;
 
     .line 9
     .line 10
-    .line 11
-    return-void
+    iget-object v1, p0, Lcom/huawei/appmarket/jc1;->d:Lcom/huawei/appmarket/s55;
 
+    .line 11
     .line 12
-    :pswitch_0
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/pk;->s(Lcom/huawei/appmarket/pk$a;Lcom/huawei/appmarket/s55;)V
 
     .line 13
     .line 14
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->R()V
-
     .line 15
-    .line 16
-    .line 17
     return-void
 
+    .line 16
+    :pswitch_0
+    check-cast p1, Lcom/huawei/appmarket/pk;
+
+    .line 17
     .line 18
-    :pswitch_1
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    invoke-interface {p1}, Lcom/huawei/appmarket/pk;->n()V
 
     .line 19
     .line 20
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->H()V
-
     .line 21
-    .line 22
-    .line 23
     return-void
 
-    .line 24
-    :pswitch_2
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    .line 22
+    nop
 
+    .line 23
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+    .line 24
     .line 25
     .line 26
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->C()V
-
     .line 27
     .line 28
     .line 29
-    return-void
-
     .line 30
-    :pswitch_3
-    check-cast p1, Lcom/huawei/appmarket/qk;
-
     .line 31
     .line 32
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->l()V
-
     .line 33
     .line 34
     .line 35
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->j()V
-
     .line 36
     .line 37
     .line 38
-    return-void
-
     .line 39
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
     .line 40
     .line 41
     .line 42

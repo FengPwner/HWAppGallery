@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/pi0;)V
+.method public final a(Lcom/huawei/appmarket/qi0;)V
     .registers 6
 
     .line 1
@@ -57,7 +57,7 @@
 
     invoke-direct {v1, v0}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;-><init>(Ljava/util/ArrayList;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pi0;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qi0;->a()Ljava/lang/String;
 
     move-result-object p1
 
@@ -69,7 +69,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->setTs_(J)V
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object p1
 
@@ -79,23 +79,23 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v0
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     return-void
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     const-string v0, "CapsuleDisplayExposure"
 
     const-string v1, "call addCapsuleDisplayExposure with null bean or null exposureDetailInfos"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
     return-void
 .end method
 
-.method public final c(Landroid/view/View;Lcom/huawei/appmarket/pi0;)V
+.method public final c(Landroid/view/View;Lcom/huawei/appmarket/qi0;)V
     .registers 7
 
     .line 1
@@ -138,13 +138,13 @@
 
     invoke-virtual {p1, v0, p2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    sget-object p1, Lcom/huawei/appmarket/zs7;->a:Lcom/huawei/appmarket/zs7;
+    sget-object p1, Lcom/huawei/appmarket/ft7;->a:Lcom/huawei/appmarket/ft7;
 
     const-string p2, "CapsuleDisplayExposure"
 
     const-string v0, "onItemExposed: detailId == null, should not be monitored"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -163,7 +163,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetailInfo;->a0(J)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/pi0;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qi0;->b()Ljava/lang/String;
 
     move-result-object p1
 

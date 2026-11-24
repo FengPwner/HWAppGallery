@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGPermissionItem;
-.super Lcom/huawei/appmarket/xf0;
+.super Lcom/huawei/appmarket/yf0;
 .source "SourceFile"
 
 # interfaces
@@ -20,7 +20,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/xf0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/yf0;-><init>()V
 
     const-string v0, ""
 

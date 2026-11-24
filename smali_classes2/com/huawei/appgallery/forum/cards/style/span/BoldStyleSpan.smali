@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/x24;
+.implements Lcom/huawei/appmarket/z24;
 
 
 # direct methods

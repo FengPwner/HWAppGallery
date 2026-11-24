@@ -58,7 +58,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/recommend/bannercard/a$b;->w:Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ej6;->a(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gj6;->a(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;)V
 
     return-void
 .end method

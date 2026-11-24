@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/floatingactionbutton/k$a;
-.super Lcom/huawei/appmarket/q45;
+.super Lcom/huawei/appmarket/t45;
 .source "SourceFile"
 
 
@@ -15,11 +15,11 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/nb7;)V
+.method constructor <init>(Lcom/huawei/appmarket/sb7;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/q45;-><init>(Lcom/huawei/appmarket/nb7;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/t45;-><init>(Lcom/huawei/appmarket/sb7;)V
 
     return-void
 .end method

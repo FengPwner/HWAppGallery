@@ -24,7 +24,7 @@
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$o;-><init>()V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -64,7 +64,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 15
     .line 16

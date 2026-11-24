@@ -19,7 +19,7 @@
 
 .field private b:I
 
-.field private c:Lcom/huawei/appmarket/bx7;
+.field private c:Lcom/huawei/appmarket/gx7;
 
 
 # direct methods
@@ -35,10 +35,10 @@
     sget v1, Lcom/huawei/appmarket/o90;->i:I
 
     .line 1
-    sget v1, Lcom/huawei/appmarket/ox7;->a:I
+    sget v1, Lcom/huawei/appmarket/tx7;->a:I
 
     .line 2
-    invoke-static {v0}, Lcom/huawei/appmarket/ox7$a;->a(Ljava/util/Locale;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/tx7$a;->a(Ljava/util/Locale;)I
 
     move-result v0
 
@@ -55,9 +55,9 @@
     iput-boolean v1, p0, Lcom/huawei/appmarket/o90$a;->a:Z
 
     .line 3
-    sget-object v0, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/bx7;
+    sget-object v0, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/gx7;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/bx7;
+    iput-object v0, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/gx7;
 
     const/4 v0, 0x2
 
@@ -74,10 +74,10 @@
     sget v0, Lcom/huawei/appmarket/o90;->i:I
 
     .line 4
-    sget v0, Lcom/huawei/appmarket/ox7;->a:I
+    sget v0, Lcom/huawei/appmarket/tx7;->a:I
 
     .line 5
-    invoke-static {p1}, Lcom/huawei/appmarket/ox7$a;->a(Ljava/util/Locale;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/tx7$a;->a(Ljava/util/Locale;)I
 
     move-result p1
 
@@ -94,9 +94,9 @@
     iput-boolean v0, p0, Lcom/huawei/appmarket/o90$a;->a:Z
 
     .line 6
-    sget-object p1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/bx7;
+    sget-object p1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/gx7;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/bx7;
+    iput-object p1, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/gx7;
 
     const/4 p1, 0x2
 
@@ -113,9 +113,9 @@
     iput-boolean p1, p0, Lcom/huawei/appmarket/o90$a;->a:Z
 
     .line 7
-    sget-object p1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/bx7;
+    sget-object p1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/gx7;
 
-    iput-object p1, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/bx7;
+    iput-object p1, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/gx7;
 
     const/4 p1, 0x2
 
@@ -141,11 +141,11 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/bx7;
+    iget-object v0, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/gx7;
 
     .line 7
     .line 8
-    sget-object v1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/bx7;
+    sget-object v1, Lcom/huawei/appmarket/o90;->d:Lcom/huawei/appmarket/gx7;
 
     .line 9
     .line 10
@@ -190,11 +190,11 @@
 
     .line 27
     .line 28
-    iget-object v3, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/bx7;
+    iget-object v3, p0, Lcom/huawei/appmarket/o90$a;->c:Lcom/huawei/appmarket/gx7;
 
     .line 29
     .line 30
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/o90;-><init>(ZILcom/huawei/appmarket/bx7;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/o90;-><init>(ZILcom/huawei/appmarket/gx7;)V
 
     .line 31
     .line 32
@@ -302,4 +302,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

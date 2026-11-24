@@ -221,7 +221,7 @@
     const-string v0, "Message length not in valid ranges: "
 
     .line 3
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/om5;->j(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/ci7;->m(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 

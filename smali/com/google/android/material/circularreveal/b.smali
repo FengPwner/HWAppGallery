@@ -659,7 +659,7 @@
     int-to-float v3, v3
 
     .line 37
-    invoke-static {v0, v2, v4, v3}, Lcom/huawei/appmarket/y45;->a(FFFF)F
+    invoke-static {v0, v2, v4, v3}, Lcom/huawei/appmarket/b55;->a(FFFF)F
 
     .line 38
     .line 39
@@ -765,6 +765,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final e()Z
@@ -949,6 +950,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final f(Landroid/graphics/drawable/Drawable;)V
@@ -1086,7 +1088,7 @@
     int-to-float v4, v4
 
     .line 49
-    invoke-static {v2, p1, v3, v4}, Lcom/huawei/appmarket/y45;->a(FFFF)F
+    invoke-static {v2, p1, v3, v4}, Lcom/huawei/appmarket/b55;->a(FFFF)F
 
     .line 50
     .line 51

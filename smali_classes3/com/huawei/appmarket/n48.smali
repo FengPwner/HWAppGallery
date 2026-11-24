@@ -17,64 +17,13 @@
 
 
 # virtual methods
-.method public final isShowCrossLinePrice(Lcom/huawei/appmarket/ib2;)Z
-    .registers 4
+.method public final N()Ljava/util/ArrayList;
+    .registers 2
 
     .line 1
-    const-string v0, "quickcard isShowCrossLinePrice"
+    new-instance v0, Ljava/util/ArrayList;
 
-    const-string v1, "TryModeDinvokeApiDelegate"
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
-
-    const/4 v0, 0x0
-
-    if-nez p1, :cond_0
-
-    const-string p1, "cardData is null."
-
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    return v0
-
-    :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/ys1;->a(Lcom/huawei/appmarket/ib2;)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
-
-    move-result-object p1
-
-    instance-of v1, p1, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
-
-    if-eqz v1, :cond_2
-
-    invoke-static {}, Lcom/huawei/appmarket/mj0;->b()Lcom/huawei/appmarket/mj0;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/mj0;->a()Lcom/huawei/appmarket/gk3;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_1
-
-    move-object v0, p1
-
-    check-cast v0, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
-
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/gk3;->b(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
-
-    move-result v0
-
-    :cond_1
-    check-cast p1, Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
-
-    invoke-static {p1}, Lcom/huawei/appmarket/ev;->d(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_2
-
-    const/4 v0, 0x1
-
-    :cond_2
-    return v0
+    return-object v0
 .end method

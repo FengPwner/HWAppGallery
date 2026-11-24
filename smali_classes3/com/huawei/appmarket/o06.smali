@@ -1,962 +1,550 @@
-.class public abstract Lcom/huawei/appmarket/o06;
+.class public final Lcom/huawei/appmarket/o06;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/animation/Interpolator;
-
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "<T:",
-        "Lcom/huawei/appmarket/o06<",
-        "TT;>;>",
-        "Ljava/lang/Object;",
-        "Landroid/view/animation/Interpolator;"
+        Lcom/huawei/appmarket/o06$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final c:F
+.field private static final c:Ljava/util/regex/Pattern;
 
-.field public static final d:F
+.field private static final d:Ljava/util/regex/Pattern;
 
-.field public static final e:F
+.field private static final e:Ljava/util/regex/Pattern;
 
-.field public static final f:F
+.field public static final synthetic f:I
 
 
 # instance fields
-.field private a:F
+.field private a:Z
 
-.field private b:Lcom/huawei/appmarket/q06;
+.field private b:I
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 5
+    .registers 1
 
     .line 1
-    new-instance v0, Ljava/math/BigDecimal;
+    const-string v0, "^(0086|086|86|)1([\\d]{10})$"
 
-    const-wide/high16 v1, 0x3ff0000000000000L    # 1.0
-
-    invoke-direct {v0, v1, v2}, Ljava/math/BigDecimal;-><init>(D)V
-
-    new-instance v3, Ljava/math/BigDecimal;
-
-    const-string v4, "10"
-
-    invoke-direct {v3, v4}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, v3}, Ljava/math/BigDecimal;->divide(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/math/BigDecimal;->floatValue()F
+    sput-object v0, Lcom/huawei/appmarket/o06;->c:Ljava/util/regex/Pattern;
 
-    move-result v0
+    const-string v0, "^[0-9[\'\\-\']]{4,50}$"
 
-    sput v0, Lcom/huawei/appmarket/o06;->c:F
-
-    new-instance v0, Ljava/math/BigDecimal;
-
-    invoke-direct {v0, v1, v2}, Ljava/math/BigDecimal;-><init>(D)V
-
-    new-instance v3, Ljava/math/BigDecimal;
-
-    const-string v4, "256"
-
-    invoke-direct {v3, v4}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, v3}, Ljava/math/BigDecimal;->divide(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/math/BigDecimal;->floatValue()F
+    sput-object v0, Lcom/huawei/appmarket/o06;->d:Ljava/util/regex/Pattern;
 
-    move-result v0
+    const-string v0, "^[0-9]{5,15}$"
 
-    sput v0, Lcom/huawei/appmarket/o06;->d:F
-
-    new-instance v0, Ljava/math/BigDecimal;
-
-    invoke-direct {v0, v1, v2}, Ljava/math/BigDecimal;-><init>(D)V
-
-    new-instance v3, Ljava/math/BigDecimal;
-
-    const-string v4, "500"
-
-    invoke-direct {v3, v4}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, v3}, Ljava/math/BigDecimal;->divide(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/math/BigDecimal;->floatValue()F
-
-    move-result v0
-
-    sput v0, Lcom/huawei/appmarket/o06;->e:F
-
-    new-instance v0, Ljava/math/BigDecimal;
-
-    invoke-direct {v0, v1, v2}, Ljava/math/BigDecimal;-><init>(D)V
-
-    new-instance v1, Ljava/math/BigDecimal;
-
-    const-string v2, "1000"
-
-    invoke-direct {v1, v2}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, v1}, Ljava/math/BigDecimal;->divide(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/math/BigDecimal;->floatValue()F
-
-    move-result v0
-
-    sput v0, Lcom/huawei/appmarket/o06;->f:F
+    sput-object v0, Lcom/huawei/appmarket/o06;->e:Ljava/util/regex/Pattern;
 
     return-void
 .end method
 
-.method constructor <init>(Lcom/huawei/appmarket/gm2;Lcom/huawei/appmarket/q06;)V
+.method public constructor <init>(I)V
     .registers 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<K:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/huawei/appmarket/gm2<",
-            "TK;>;",
-            "Lcom/huawei/appmarket/q06;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
+    const/4 v0, 0x1
 
-    sget-object p2, Lcom/huawei/appmarket/ox1;->t:Lcom/huawei/appmarket/ox1$t;
+    iput-boolean v0, p0, Lcom/huawei/appmarket/o06;->a:Z
 
-    if-eq p1, p2, :cond_4
+    iput p1, p0, Lcom/huawei/appmarket/o06;->b:I
 
-    sget-object p2, Lcom/huawei/appmarket/ox1;->u:Lcom/huawei/appmarket/ox1$t;
-
-    if-eq p1, p2, :cond_4
-
-    sget-object p2, Lcom/huawei/appmarket/ox1;->v:Lcom/huawei/appmarket/ox1$t;
-
-    if-ne p1, p2, :cond_0
-
-    goto :goto_2
-
-    :cond_0
-    sget-object p2, Lcom/huawei/appmarket/ox1;->x:Lcom/huawei/appmarket/ox1$t;
-
-    if-ne p1, p2, :cond_1
-
-    sget p1, Lcom/huawei/appmarket/o06;->d:F
-
-    :goto_0
-    iput p1, p0, Lcom/huawei/appmarket/o06;->a:F
-
-    goto :goto_3
-
-    :cond_1
-    sget-object p2, Lcom/huawei/appmarket/ox1;->r:Lcom/huawei/appmarket/ox1$t;
-
-    if-eq p1, p2, :cond_3
-
-    sget-object p2, Lcom/huawei/appmarket/ox1;->s:Lcom/huawei/appmarket/ox1$t;
-
-    if-ne p1, p2, :cond_2
-
-    goto :goto_1
-
-    :cond_2
-    const/high16 p1, 0x3f800000    # 1.0f
-
-    goto :goto_0
-
-    :cond_3
-    :goto_1
-    sget p1, Lcom/huawei/appmarket/o06;->e:F
-
-    goto :goto_0
-
-    :cond_4
-    :goto_2
-    sget p1, Lcom/huawei/appmarket/o06;->c:F
-
-    goto :goto_0
-
-    :goto_3
     return-void
 .end method
 
-.method constructor <init>(Lcom/huawei/appmarket/im2;Lcom/huawei/appmarket/q06;)V
-    .registers 4
+.method static synthetic a(Lcom/huawei/appmarket/o06;)Z
+    .registers 1
+
+    .line 1
+    iget-boolean p0, p0, Lcom/huawei/appmarket/o06;->a:Z
+
+    return p0
+.end method
+
+.method static synthetic b(Lcom/huawei/appmarket/o06;)V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appmarket/o06;->a:Z
+
+    return-void
+.end method
+
+.method static synthetic c(Lcom/huawei/appmarket/o06;)I
+    .registers 1
+
+    .line 1
+    iget p0, p0, Lcom/huawei/appmarket/o06;->b:I
+
+    return p0
+.end method
+
+.method public static d(Ljava/lang/String;)Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    invoke-static {p0}, Lcom/huawei/appmarket/lp7;->g(Ljava/lang/String;)Z
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 3
+    .line 4
+    move-result v0
 
-    iput-object p2, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
+    .line 5
+    const-string v1, ""
 
-    new-instance p2, Lcom/huawei/appmarket/o06$a;
+    .line 6
+    .line 7
+    if-eqz v0, :cond_0
 
-    const-string v0, "FloatValueHolder"
+    .line 8
+    .line 9
+    return-object v1
 
-    invoke-direct {p2, p0, v0, p1}, Lcom/huawei/appmarket/o06$a;-><init>(Lcom/huawei/appmarket/o06;Ljava/lang/String;Lcom/huawei/appmarket/im2;)V
+    .line 10
+    :cond_0
+    invoke-static {p0}, Lcom/huawei/appmarket/o06;->f(Ljava/lang/String;)Z
 
-    sget p1, Lcom/huawei/appmarket/o06;->f:F
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
 
-    iput p1, p0, Lcom/huawei/appmarket/o06;->a:F
+    .line 14
+    if-eqz v0, :cond_2
 
-    return-void
+    .line 15
+    .line 16
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v0
+
+    .line 20
+    if-eqz v0, :cond_1
+
+    .line 21
+    .line 22
+    goto :goto_0
+
+    .line 23
+    :cond_1
+    sget-object v0, Lcom/huawei/appmarket/o06;->e:Ljava/util/regex/Pattern;
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v0
+
+    .line 29
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->matches()Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v0
+
+    .line 33
+    if-eqz v0, :cond_3
+
+    .line 34
+    .line 35
+    const-string v0, "(\\d{3})\\d{4}(\\d{4})"
+
+    .line 36
+    .line 37
+    const-string v1, "$1****$2"
+
+    .line 38
+    .line 39
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v1
+
+    .line 43
+    goto :goto_0
+
+    .line 44
+    :cond_2
+    invoke-static {p0}, Lcom/huawei/appmarket/o06;->e(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v1
+
+    .line 48
+    :cond_3
+    :goto_0
+    return-object v1
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+.end method
+
+.method public static e(Ljava/lang/String;)Ljava/lang/String;
+    .registers 6
+
+    .line 1
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const-string v1, ""
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    return-object v1
+
+    .line 10
+    :cond_0
+    invoke-static {p0}, Lcom/huawei/appmarket/o06;->g(Ljava/lang/String;)Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    if-eqz v0, :cond_3
+
+    .line 15
+    .line 16
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v0
+
+    .line 20
+    const/16 v1, 0xa
+
+    .line 21
+    .line 22
+    const/4 v2, 0x4
+
+    .line 23
+    const/4 v3, 0x0
+
+    .line 24
+    if-ge v0, v1, :cond_1
+
+    .line 25
+    .line 26
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    const/4 v1, 0x1
+
+    .line 29
+    invoke-static {p0, v3, v1}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    const-string v1, "***"
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-virtual {p0, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object p0
+
+    .line 45
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v1
+
+    .line 52
+    goto :goto_1
+
+    .line 53
+    :cond_1
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    .line 54
+    .line 55
+    .line 56
+    move-result v0
+
+    .line 57
+    add-int/lit8 v0, v0, -0x7
+
+    .line 58
+    .line 59
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 60
+    .line 61
+    const/4 v4, 0x3
+
+    .line 62
+    invoke-static {p0, v3, v4}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;II)Ljava/lang/String;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v4
+
+    .line 66
+    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 67
+    .line 68
+    .line 69
+    :goto_0
+    if-ge v3, v0, :cond_2
+
+    .line 70
+    .line 71
+    const-string v4, "*"
+
+    .line 72
+    .line 73
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 74
+    .line 75
+    .line 76
+    add-int/lit8 v3, v3, 0x1
+
+    .line 77
+    .line 78
+    goto :goto_0
+
+    .line 79
+    :cond_2
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    .line 80
+    .line 81
+    .line 82
+    move-result v0
+
+    .line 83
+    sub-int/2addr v0, v2
+
+    .line 84
+    invoke-static {p0, v0}, Lcom/huawei/secure/android/common/util/SafeString;->substring(Ljava/lang/String;I)Ljava/lang/String;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object p0
+
+    .line 88
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 89
+    .line 90
+    .line 91
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 92
+    .line 93
+    .line 94
+    move-result-object v1
+
+    .line 95
+    :cond_3
+    :goto_1
+    return-object v1
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+.end method
+
+.method public static f(Ljava/lang/String;)Z
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/o06;->c:Ljava/util/regex/Pattern;
+
+    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/util/regex/Matcher;->matches()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static g(Ljava/lang/String;)Z
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/o06;->d:Ljava/util/regex/Pattern;
+
+    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/util/regex/Matcher;->matches()Z
+
+    move-result p0
+
+    return p0
 .end method
 
 
 # virtual methods
-.method protected a()F
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q06;->getEndPosition()F
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    iget-object v1, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    .line 8
-    .line 9
-    invoke-virtual {v1}, Lcom/huawei/appmarket/q06;->getStartPosition()F
-
-    .line 10
-    .line 11
-    .line 12
-    move-result v1
-
-    .line 13
-    sub-float/2addr v0, v1
-
-    .line 14
-    invoke-static {v0}, Ljava/lang/Math;->abs(F)F
-
-    .line 15
-    .line 16
-    .line 17
-    move-result v0
-
-    .line 18
-    return v0
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-.end method
-
-.method public final b()F
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q06;->getEstimatedDuration()F
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    return v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-.end method
-
-.method public final c()F
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q06;->getEndPosition()F
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    return v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-.end method
-
-.method public final d()Lcom/huawei/appmarket/q06;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Lcom/huawei/appmarket/q06;",
-            ">()TT;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    return-object v0
-.end method
-
-.method final e()F
-    .registers 3
-
-    .line 1
-    iget v0, p0, Lcom/huawei/appmarket/o06;->a:F
-
-    const/high16 v1, 0x3f400000    # 0.75f
-
-    mul-float v0, v0, v1
-
-    return v0
-.end method
-
-.method public final f(Lcom/huawei/appmarket/q06;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    return-void
-.end method
-
-.method public getInterpolation(F)F
+.method public final h(Landroid/widget/EditText;Ljava/lang/String;)V
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
+    new-instance v0, Lcom/huawei/appmarket/o06$a;
 
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/huawei/appmarket/q06;->getEstimatedDuration()F
+    invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/o06$a;-><init>(Lcom/huawei/appmarket/o06;Landroid/widget/EditText;Ljava/lang/String;)V
 
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 7
-    mul-float v0, v0, p1
-
-    .line 8
-    .line 9
-    const/high16 p1, 0x447a0000    # 1000.0f
-
-    .line 10
-    .line 11
-    div-float/2addr v0, p1
-
-    .line 12
-    iget-object p1, p0, Lcom/huawei/appmarket/o06;->b:Lcom/huawei/appmarket/q06;
-
-    .line 13
-    .line 14
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/q06;->getPosition(F)F
-
-    .line 15
-    .line 16
-    .line 17
-    move-result p1
-
-    .line 18
-    invoke-virtual {p0}, Lcom/huawei/appmarket/o06;->a()F
-
-    .line 19
-    .line 20
-    .line 21
-    move-result v0
-
-    .line 22
-    const/4 v1, 0x0
-
-    .line 23
-    cmpl-float v0, v0, v1
-
-    .line 24
-    .line 25
-    if-nez v0, :cond_0
-
-    .line 26
-    .line 27
-    goto :goto_0
-
-    .line 28
-    :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/o06;->a()F
-
-    .line 29
-    .line 30
-    .line 31
-    move-result v0
-
-    .line 32
-    div-float v1, p1, v0
-
-    .line 33
-    .line 34
-    :goto_0
-    return v1
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
+    return-void
 .end method

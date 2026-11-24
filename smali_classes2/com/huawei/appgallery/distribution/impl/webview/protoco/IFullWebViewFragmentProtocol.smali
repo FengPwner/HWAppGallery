@@ -7,8 +7,8 @@
 
 
 # virtual methods
-.method public abstract getData()Lcom/huawei/appmarket/g64;
+.method public abstract getData()Lcom/huawei/appmarket/j64;
 .end method
 
-.method public abstract setData(Lcom/huawei/appmarket/g64;)V
+.method public abstract setData(Lcom/huawei/appmarket/j64;)V
 .end method

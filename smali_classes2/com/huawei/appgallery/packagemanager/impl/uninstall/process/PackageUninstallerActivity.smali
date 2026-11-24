@@ -38,7 +38,7 @@
     .registers 10
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -60,7 +60,7 @@
 
     const-string v2, "PackageUninstallerActivity"
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -74,7 +74,7 @@
 
     const/4 v8, 0x4
 
-    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/za1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
+    invoke-static/range {v3 .. v8}, Lcom/huawei/appmarket/ab1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 5
     .line 6
@@ -100,7 +100,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v2, p2}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -112,7 +112,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -186,7 +186,7 @@
 
     .line 51
     .line 52
-    invoke-static {p3, v4, v5, v1, v2}, Lcom/huawei/appmarket/bu0;->w(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p3, v4, v5, v1, v2}, Lcom/huawei/appmarket/kd0;->x(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 53
     .line 54
@@ -204,7 +204,7 @@
     move-result-object p3
 
     .line 62
-    invoke-virtual {v0, v3, p3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, p3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -227,7 +227,7 @@
     const/4 p3, 0x0
 
     .line 73
-    invoke-static {p0, p3, p2}, Lcom/huawei/appmarket/au5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, p3, p2}, Lcom/huawei/appmarket/cu5;->a(Landroid/content/Context;ILjava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 74
     .line 75
@@ -259,11 +259,11 @@
 
     .line 85
     .line 86
-    const-class p2, Lcom/huawei/appmarket/lh3;
+    const-class p2, Lcom/huawei/appmarket/nh3;
 
     .line 87
     .line 88
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -271,7 +271,7 @@
     move-result-object p1
 
     .line 92
-    check-cast p1, Lcom/huawei/appmarket/lh3;
+    check-cast p1, Lcom/huawei/appmarket/nh3;
 
     .line 93
     .line 94
@@ -279,7 +279,7 @@
 
     .line 95
     .line 96
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/lh3;->g(Ljava/lang/String;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/nh3;->g(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -290,7 +290,7 @@
 
     .line 100
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 101
     .line 102
@@ -298,7 +298,7 @@
 
     .line 103
     .line 104
-    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 105
     .line 106
@@ -324,7 +324,7 @@
     const/4 v9, 0x4
 
     .line 116
-    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/za1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
+    invoke-static/range {v4 .. v9}, Lcom/huawei/appmarket/ab1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
 
     .line 117
     .line 118
@@ -567,7 +567,7 @@
     .line 13
     .line 14
     .line 15
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 16
     .line 17
@@ -575,7 +575,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -796,106 +796,110 @@
     .line 130
     .line 131
     .line 132
-    sget-object v1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    const/high16 v1, 0x10000
 
     .line 133
     .line 134
-    new-instance v2, Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 135
     .line 136
-    const-string v3, "onCreate packageName:"
-
     .line 137
-    .line 138
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    sget-object v1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
+    .line 138
     .line 139
+    new-instance v2, Ljava/lang/StringBuilder;
+
     .line 140
     .line 141
-    iget-object v3, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->d:Ljava/lang/String;
+    const-string v3, "onCreate packageName:"
 
     .line 142
     .line 143
-    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/om5;->t(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/fu5;Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 144
     .line 145
     .line 146
-    const/16 v0, 0x65
+    iget-object v3, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->d:Ljava/lang/String;
 
     .line 147
     .line 148
+    invoke-static {v2, v3, v1, v0}, Lcom/huawei/appmarket/uq5;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Lcom/huawei/appmarket/hu5;Ljava/lang/String;)V
+
+    .line 149
+    .line 150
+    .line 151
+    const/16 v0, 0x65
+
+    .line 152
+    .line 153
     :try_start_0
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 149
-    .line 150
-    .line 151
+    .line 154
+    .line 155
+    .line 156
     goto :goto_0
 
-    .line 152
+    .line 157
     :catch_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
-    .line 153
-    .line 154
-    .line 155
-    move-result-object v1
-
-    .line 156
-    iget-object v2, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->d:Ljava/lang/String;
-
-    .line 157
     .line 158
-    const v3, 0xf4241
-
     .line 159
     .line 160
+    move-result-object v1
+
     .line 161
-    iget-wide v4, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->g:J
+    iget-object v2, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->d:Ljava/lang/String;
 
     .line 162
     .line 163
-    const/4 v6, 0x5
+    const v3, 0xf4241
 
     .line 164
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/za1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
-
     .line 165
     .line 166
-    .line 167
-    :goto_0
-    sget-object p1, Lcom/huawei/appmarket/mu5;->c:Lcom/huawei/appmarket/dx0;
+    iget-wide v4, p0, Lcom/huawei/appgallery/packagemanager/impl/uninstall/process/PackageUninstallerActivity;->g:J
 
+    .line 167
     .line 168
+    const/4 v6, 0x5
+
     .line 169
-    if-eqz p1, :cond_2
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ab1;->a(Landroid/content/Context;Ljava/lang/String;IJI)V
 
     .line 170
     .line 171
-    invoke-virtual {p0}, Landroid/app/Activity;->getTaskId()I
-
     .line 172
+    :goto_0
+    sget-object p1, Lcom/huawei/appmarket/ou5;->c:Lcom/huawei/appmarket/dx0;
+
     .line 173
     .line 174
-    move-result p1
+    if-eqz p1, :cond_2
 
     .line 175
-    invoke-static {p1}, Lcom/huawei/appmarket/t8;->a(I)V
-
     .line 176
+    invoke-virtual {p0}, Landroid/app/Activity;->getTaskId()I
+
     .line 177
     .line 178
-    :cond_2
-    return-void
     .line 179
+    move-result p1
+
     .line 180
+    invoke-static {p1}, Lcom/huawei/appmarket/t8;->a(I)V
+
     .line 181
     .line 182
     .line 183
+    :cond_2
+    return-void
     .line 184
     .line 185
     .line 186
@@ -993,7 +997,7 @@
     .line 7
     .line 8
     .line 9
-    sget-object v0, Lcom/huawei/appmarket/mu5;->c:Lcom/huawei/appmarket/dx0;
+    sget-object v0, Lcom/huawei/appmarket/ou5;->c:Lcom/huawei/appmarket/dx0;
 
     .line 10
     .line 11
@@ -1015,7 +1019,7 @@
     .line 19
     .line 20
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v0, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 21
     .line 22
@@ -1053,7 +1057,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42

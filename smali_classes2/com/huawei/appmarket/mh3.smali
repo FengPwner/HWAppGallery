@@ -3,15 +3,32 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ih3;
+.implements Lcom/huawei/appmarket/kh3;
 
 
 # virtual methods
-.method public abstract B1()V
+.method public abstract B()V
 .end method
 
-.method public abstract o2(ILjava/lang/String;)V
+.method public abstract B0(Ljava/util/ArrayList;)V
 .end method
 
-.method public abstract y2(ILjava/lang/String;)V
+.method public abstract h0(Ljava/lang/String;)V
+.end method
+
+.method public abstract init(Landroid/app/Application;)V
+.end method
+
+.method public abstract u()Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract y1(Ljava/lang/String;Landroid/os/Handler;)V
 .end method

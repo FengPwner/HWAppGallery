@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction$b;
-.super Lcom/huawei/appmarket/zi5;
+.super Lcom/huawei/appmarket/bj5;
 .source "SourceFile"
 
 
@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/huawei/appmarket/c72$b;",
+            "Lcom/huawei/appmarket/g72$b;",
             ">;"
         }
     .end annotation
@@ -27,11 +27,11 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method private constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/zi5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/bj5;-><init>()V
 
     new-instance v0, Ljava/lang/ref/WeakReference;
 
@@ -42,11 +42,11 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction$a;)V
+.method synthetic constructor <init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction$a;)V
     .registers 3
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction$b;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/externalapi/actions/CheckProtocolWithUpdateAction$b;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/c72$b;
+    check-cast v0, Lcom/huawei/appmarket/g72$b;
 
     goto :goto_0
 
@@ -77,7 +77,7 @@
 
     const-string v0, "setResult, callback == NULL"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -92,9 +92,9 @@
     const/16 p1, 0x3ea
 
     :goto_1
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/c72$b;->setResult(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/g72$b;->setResult(I)V
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method
@@ -113,7 +113,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/z84;->z(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kk4;->A(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 6
     .line 7
@@ -227,7 +227,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final b(Landroid/app/Activity;)V
@@ -238,9 +237,9 @@
 
     const-string v1, "onSign agreement"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/zi5;->b(Landroid/app/Activity;)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/bj5;->b(Landroid/app/Activity;)V
 
     const/4 p1, 0x1
 

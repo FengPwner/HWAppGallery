@@ -35,7 +35,7 @@
 
     .line 5
     .line 6
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 7
     .line 8
@@ -44,7 +44,7 @@
     .line 9
     .line 10
     :goto_0
-    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -57,7 +57,7 @@
 
     .line 15
     .line 16
-    sget-object p1, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object p1, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 17
     .line 18
@@ -111,7 +111,7 @@
 
     .line 42
     .line 43
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 44
     .line 45
@@ -157,7 +157,7 @@
     float-to-int v2, v2
 
     .line 67
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 68
     .line 69
@@ -197,7 +197,7 @@
     float-to-int v2, v2
 
     .line 87
-    invoke-static {v5}, Lcom/huawei/appmarket/b37;->l(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/huawei/appmarket/g37;->l(Landroid/content/Context;)I
 
     .line 88
     .line 89
@@ -247,7 +247,7 @@
     .line 111
     .line 112
     .line 113
-    const v2, 0x7f0a1769
+    const v2, 0x7f0a176a
 
     .line 114
     .line 115
@@ -353,7 +353,7 @@
 
     .line 166
     :cond_2
-    sget-object v2, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v2, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 167
     .line 168
@@ -361,13 +361,13 @@
 
     .line 169
     .line 170
-    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     .line 172
     .line 173
     :goto_1
-    const v1, 0x7f0a1773
+    const v1, 0x7f0a1774
 
     .line 174
     .line 175
@@ -413,7 +413,7 @@
     .line 195
     .line 196
     .line 197
-    invoke-static {v1}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     .line 198
     .line 199
@@ -815,16 +815,9 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1

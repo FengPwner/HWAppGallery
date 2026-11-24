@@ -22,19 +22,19 @@
 
 
 # instance fields
-.field protected G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+.field protected n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
-.field protected H1:Z
+.field protected o1:Z
 
-.field private I1:F
+.field private s1:F
 
-.field private J1:F
+.field private t1:F
 
-.field private K1:Z
+.field private v1:Z
 
-.field private L1:Landroid/view/animation/Interpolator;
+.field private x1:Landroid/view/animation/Interpolator;
 
-.field private M1:Z
+.field private y1:Z
 
 
 # direct methods
@@ -45,21 +45,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->y1:Z
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->c(Landroid/util/AttributeSet;)V
 
@@ -68,7 +68,7 @@
 
     invoke-direct {v0, p1}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$a;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -80,21 +80,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v1, 0x0
 
-    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
-    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iput v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->y1:Z
 
     invoke-direct {p0, p2}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->c(Landroid/util/AttributeSet;)V
 
@@ -103,7 +103,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -115,21 +115,21 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     const/4 p3, 0x0
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
-    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean p3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->y1:Z
 
     invoke-direct {p0, p2}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->c(Landroid/util/AttributeSet;)V
 
@@ -138,7 +138,7 @@
 
     invoke-direct {p2, p1}, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$b;-><init>(Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView$a;)V
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -156,7 +156,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/huawei/appmarket/ve6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/xe6;->a:[I
 
     invoke-virtual {v1, p1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -168,7 +168,7 @@
 
     move-result p1
 
-    iput-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iput-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -191,7 +191,7 @@
 
     const-string v2, "init(AttributeSet attrs) "
 
-    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, v2, p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -209,7 +209,7 @@
 
     :cond_1
     :goto_2
-    iget-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz p1, :cond_2
 
@@ -217,7 +217,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appgallery/foundation/ui/framework/widget/a;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     :cond_2
     return-void
@@ -253,7 +253,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->M1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->y1:Z
 
     .line 13
     .line 14
@@ -272,7 +272,7 @@
     move-result-object v0
 
     .line 21
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 22
     .line 23
@@ -295,7 +295,7 @@
     move-result v0
 
     .line 32
-    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
     .line 33
     .line 34
@@ -331,7 +331,7 @@
     move-result-object v0
 
     .line 49
-    invoke-static {v0}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 50
     .line 51
@@ -351,7 +351,7 @@
     move-result v0
 
     .line 59
-    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
     .line 60
     .line 61
@@ -387,7 +387,7 @@
     move-result v0
 
     .line 76
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
     .line 77
     .line 78
@@ -399,11 +399,11 @@
     move-result v0
 
     .line 82
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
     .line 83
     .line 84
-    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
     .line 85
     .line 86
@@ -453,7 +453,7 @@
     move-result v0
 
     .line 108
-    iget v2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iget v2, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
     .line 109
     .line 110
@@ -479,7 +479,7 @@
     move-result v2
 
     .line 120
-    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iget v3, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
     .line 121
     .line 122
@@ -530,7 +530,7 @@
     .line 143
     .line 144
     :cond_5
-    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
     .line 145
     .line 146
@@ -546,7 +546,7 @@
 
     .line 151
     :cond_6
-    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iput-boolean v1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
     .line 152
     .line 153
@@ -587,7 +587,7 @@
     move-result v0
 
     .line 171
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->I1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->s1:F
 
     .line 172
     .line 173
@@ -599,7 +599,7 @@
     move-result v0
 
     .line 177
-    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->J1:F
+    iput v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->t1:F
 
     .line 178
     .line 179
@@ -740,7 +740,7 @@
 .method public final onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 4
 
-    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
     if-eqz v0, :cond_0
 
@@ -759,11 +759,11 @@
     invoke-interface {v0, v1}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
     :cond_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     if-eqz v0, :cond_1
 
@@ -817,7 +817,7 @@
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .registers 4
 
-    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->K1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->v1:Z
 
     const/4 v1, 0x1
 
@@ -837,11 +837,11 @@
 
     :cond_0
     :try_start_0
-    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->H1:Z
+    iget-boolean v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->o1:Z
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->G1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->n1:Lcom/huawei/appgallery/foundation/ui/framework/widget/a;
 
     if-eqz v0, :cond_1
 
@@ -872,7 +872,7 @@
 
     const-string v1, "onTouchEvent(MotionEvent ev)  "
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     const/4 p1, 0x0
 
@@ -894,7 +894,7 @@
 .method public setUnInterceptOnRight(Z)V
     .registers 2
 
-    iput-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->M1:Z
+    iput-boolean p1, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->y1:Z
 
     return-void
 .end method
@@ -902,7 +902,7 @@
 .method public final smoothScrollBy(II)V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->L1:Landroid/view/animation/Interpolator;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/forum/widget/BounceHorizontalRecyclerView;->x1:Landroid/view/animation/Interpolator;
 
     invoke-super {p0, p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollBy(IILandroid/view/animation/Interpolator;)V
 

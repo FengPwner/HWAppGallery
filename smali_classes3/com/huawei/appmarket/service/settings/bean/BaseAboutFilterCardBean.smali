@@ -9,7 +9,7 @@
 
 # instance fields
 .field protected isUseBrandCustFilter:Z
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
     .registers 3
 
     .line 1
-    sget-boolean p1, Lcom/huawei/appmarket/yd3;->f:Z
+    sget-boolean p1, Lcom/huawei/appmarket/ae3;->f:Z
 
     const/4 v0, 0x1
 
@@ -42,7 +42,7 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result p1
 

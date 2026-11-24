@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method private g(Z)V
+.method private i(Z)V
     .registers 4
 
     .line 1
@@ -262,10 +262,9 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method private h()Z
+.method private j()Z
     .registers 7
 
     .line 1
@@ -528,7 +527,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->h()Z
+    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->j()Z
 
     .line 14
     .line 15
@@ -546,7 +545,7 @@
     const/4 p1, 0x0
 
     .line 21
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->g(Z)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->i(Z)V
 
     .line 22
     .line 23
@@ -605,7 +604,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-direct {p0, v2}, Lcom/huawei/appmarket/service/video/VideoTopController;->g(Z)V
+    invoke-direct {p0, v2}, Lcom/huawei/appmarket/service/video/VideoTopController;->i(Z)V
 
     .line 51
     .line 52
@@ -683,7 +682,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onProgressChanged(Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;IZ)V
@@ -976,7 +974,7 @@
     .line 86
     .line 87
     :cond_4
-    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->h()Z
+    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->j()Z
 
     .line 88
     .line 89
@@ -984,7 +982,7 @@
     move-result p1
 
     .line 91
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->g(Z)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->i(Z)V
 
     .line 92
     .line 93
@@ -1086,7 +1084,7 @@
 
     .line 142
     :cond_6
-    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->h()Z
+    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->j()Z
 
     .line 143
     .line 144
@@ -1094,7 +1092,7 @@
     move-result p1
 
     .line 146
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->g(Z)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->i(Z)V
 
     .line 147
     .line 148
@@ -1306,8 +1304,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final setProgress()Ljava/lang/Integer;
@@ -1546,7 +1542,7 @@
 
     .line 68
     :goto_1
-    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->h()Z
+    invoke-direct {p0}, Lcom/huawei/appmarket/service/video/VideoTopController;->j()Z
 
     .line 69
     .line 70
@@ -1554,7 +1550,7 @@
     move-result p1
 
     .line 72
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->g(Z)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/video/VideoTopController;->i(Z)V
 
     .line 73
     .line 74
@@ -1599,5 +1595,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

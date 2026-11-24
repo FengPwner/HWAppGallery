@@ -5,43 +5,43 @@
 
 # instance fields
 .field private btnTipText:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x4
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private controlByteCode:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x8
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private forwardBtnTxt:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x6
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private forwardBtnType:I
-    .annotation runtime Lcom/huawei/appmarket/rk6;
+    .annotation runtime Lcom/huawei/appmarket/tk6;
         name = 0x7
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private washAppInfo:Lcom/huawei/appgallery/systeminstalldistservice/api/bean/WashAppInfo;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

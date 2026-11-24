@@ -1,9 +1,6 @@
-.class final Lcom/huawei/appmarket/pl8$c;
+.class public interface abstract Lcom/huawei/appmarket/pl8$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/oo5;
 
 
 # annotations
@@ -12,52 +9,11 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
+    accessFlags = 0x609
     name = "c"
 .end annotation
 
 
-# instance fields
-.field private b:Lcom/huawei/appmarket/nv7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/Boolean;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-
-# direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/nv7;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/nv7<",
-            "Ljava/lang/Boolean;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/pl8$c;->b:Lcom/huawei/appmarket/nv7;
-
-    return-void
-.end method
-
-
 # virtual methods
-.method public final onFailure(Ljava/lang/Exception;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/pl8$c;->b:Lcom/huawei/appmarket/nv7;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
-
-    return-void
+.method public abstract a()V
 .end method

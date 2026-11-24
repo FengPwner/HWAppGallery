@@ -1,38 +1,98 @@
-.class public final synthetic Lcom/huawei/appmarket/z08;
+.class public final Lcom/huawei/appmarket/z08;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/z08$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final d:Lcom/huawei/appmarket/z08$a;
+
+.field private static final e:Lcom/huawei/appmarket/z08;
 
 
 # instance fields
-.field public final synthetic b:I
+.field private a:Ljava/lang/String;
 
-.field public final synthetic c:Landroidx/appcompat/widget/Toolbar;
+.field private b:Lcom/huawei/appmarket/x08$a;
+
+.field private final c:Ljava/util/HashMap;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/appcompat/widget/Toolbar;I)V
-    .registers 3
+.method static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/z08$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/z08$a;-><init>(Lcom/huawei/appmarket/id1;)V
+
+    sput-object v0, Lcom/huawei/appmarket/z08;->d:Lcom/huawei/appmarket/z08$a;
+
+    new-instance v0, Lcom/huawei/appmarket/z08;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/z08;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/z08;->e:Lcom/huawei/appmarket/z08;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/z08;->c:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method public static final synthetic a()Lcom/huawei/appmarket/z08;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/z08;->e:Lcom/huawei/appmarket/z08;
+
+    return-object v0
+.end method
+
+.method public static final b()Lcom/huawei/appmarket/z08;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/z08;->d:Lcom/huawei/appmarket/z08$a;
+
     .line 2
     .line 3
-    .line 4
-    iput p2, p0, Lcom/huawei/appmarket/z08;->b:I
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
+    .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/z08;->c:Landroidx/appcompat/widget/Toolbar;
+    invoke-static {}, Lcom/huawei/appmarket/z08;->a()Lcom/huawei/appmarket/z08;
 
     .line 7
     .line 8
-    return-void
     .line 9
+    move-result-object v0
+
     .line 10
+    return-object v0
     .line 11
     .line 12
     .line 13
@@ -159,47 +219,63 @@
     .line 134
     .line 135
     .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .registers 3
+.method public final c()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/z08;->b:I
+    iget-object v0, p0, Lcom/huawei/appmarket/z08;->a:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/z08;->c:Landroidx/appcompat/widget/Toolbar;
+    return-object v0
+.end method
 
-    packed-switch v0, :pswitch_data_0
+.method public final d()Lcom/huawei/appmarket/x08$a;
+    .registers 2
 
-    invoke-virtual {v1}, Landroidx/appcompat/widget/Toolbar;->d()V
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/z08;->b:Lcom/huawei/appmarket/x08$a;
+
+    return-object v0
+.end method
+
+.method public final e(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/z08;->a:Ljava/lang/String;
 
     return-void
+.end method
 
-    :pswitch_0
-    invoke-virtual {v1}, Landroidx/appcompat/widget/Toolbar;->p()V
+.method public final f(Lcom/huawei/appmarket/x08$a;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/z08;->b:Lcom/huawei/appmarket/x08$a;
 
     return-void
+.end method
 
-    nop
+.method public final g()V
+    .registers 4
 
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-    .end packed-switch
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/z08;->c:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    const/4 v1, -0x2
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const-string v2, "userState"
+
+    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
 .end method

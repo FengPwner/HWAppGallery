@@ -28,7 +28,7 @@
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/huawei/appmarket/w30$a;-><init>(Landroid/view/View;Lcom/huawei/appmarket/w30;)V
 
-    const p2, 0x7f0a1615
+    const p2, 0x7f0a1616
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -49,7 +49,7 @@
 
     invoke-direct {p2}, Lcom/huawei/appgallery/search/ui/card/textcard/AbsKeywordItem$a;-><init>()V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     return-void
 .end method

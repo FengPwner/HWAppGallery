@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -44,7 +44,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 8
     .line 9
@@ -180,7 +180,7 @@
 
     .line 71
     .line 72
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -246,7 +246,7 @@
     move-result v2
 
     .line 106
-    invoke-static {}, Lcom/huawei/appmarket/w68;->j()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->j()I
 
     .line 107
     .line 108

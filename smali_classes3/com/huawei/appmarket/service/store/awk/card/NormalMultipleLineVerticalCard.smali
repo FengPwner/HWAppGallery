@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private E:Lcom/huawei/appmarket/ej4;
+.field private E:Lcom/huawei/appmarket/gj4;
 
 
 # direct methods
@@ -24,11 +24,11 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->J0()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->j()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->j()V
 
     :cond_0
     return-void
@@ -40,11 +40,11 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->T()V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->l()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->l()V
 
     :cond_0
     return-void
@@ -54,11 +54,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->m()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->m()V
 
     :cond_0
     invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U()V
@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public final V(Lcom/huawei/appmarket/hj0;)V
+.method public final V(Lcom/huawei/appmarket/ij0;)V
     .registers 4
 
     .line 1
@@ -91,7 +91,7 @@
 
     check-cast v1, Lcom/huawei/appgallery/foundation/card/base/card/BaseDistCard;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/y1;->V(Lcom/huawei/appmarket/hj0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/y1;->V(Lcom/huawei/appmarket/ij0;)V
 
     goto :goto_0
 
@@ -105,7 +105,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseMultipleLineVerticalCard;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
@@ -115,19 +115,19 @@
 
     check-cast p1, Lcom/huawei/appmarket/service/store/awk/bean/NormalMultipleLineVerticalCardBean;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ej4;->n(Lcom/huawei/appmarket/jt3;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gj4;->n(Lcom/huawei/appmarket/lt3;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ej4;->o(Landroid/view/View;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gj4;->o(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ej4;->q()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gj4;->q()V
 
     :cond_0
     return-void
@@ -137,13 +137,13 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ej4;
+    new-instance v0, Lcom/huawei/appmarket/gj4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ej4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gj4;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/ej4;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/NormalMultipleLineVerticalCard;->E:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ej4;->i(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gj4;->i(Landroid/view/View;)V
 
     invoke-super {p0, p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseMultipleLineVerticalCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
@@ -458,7 +458,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 
@@ -467,7 +467,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v2
 
@@ -485,7 +485,7 @@
 
     iget-object v2, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 

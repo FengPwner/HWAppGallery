@@ -457,7 +457,7 @@
     move-result-object v4
 
     .line 220
-    invoke-static {v4}, Lcom/huawei/appmarket/ve0;->a(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/we0;->a(Landroid/content/Context;)I
 
     .line 221
     .line 222
@@ -955,11 +955,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

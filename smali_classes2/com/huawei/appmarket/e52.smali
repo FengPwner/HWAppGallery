@@ -3,134 +3,169 @@
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/e52$b;
+    }
+.end annotation
 
+
+# instance fields
+.field private a:Landroid/content/Context;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+
+.field private d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:Ljava/lang/String;
+
+.field private g:Ljava/lang/String;
+
+.field private h:I
+
+
+# direct methods
+.method private constructor <init>(Lcom/huawei/appmarket/e52$b;)V
+    .registers 3
+
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->a(Lcom/huawei/appmarket/e52$b;)Landroid/content/Context;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->a:Landroid/content/Context;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->b(Lcom/huawei/appmarket/e52$b;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->c(Lcom/huawei/appmarket/e52$b;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->b:Ljava/lang/String;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->d(Lcom/huawei/appmarket/e52$b;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->d:Ljava/lang/String;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->e(Lcom/huawei/appmarket/e52$b;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->e:Ljava/lang/String;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->f(Lcom/huawei/appmarket/e52$b;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->f:Ljava/lang/String;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->g(Lcom/huawei/appmarket/e52$b;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e52;->g:Ljava/lang/String;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/e52$b;->h(Lcom/huawei/appmarket/e52$b;)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/huawei/appmarket/e52;->h:I
 
     return-void
 .end method
 
-.method public static a()V
-    .registers 4
+.method synthetic constructor <init>(Lcom/huawei/appmarket/e52$b;Lcom/huawei/appmarket/e52$a;)V
+    .registers 3
 
-    .line 1
-    new-instance v0, Ljava/util/LinkedHashMap;
-
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
-
-    invoke-static {}, Lcom/huawei/appmarket/lm7;->h()Lcom/huawei/appmarket/lm7;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->c()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "id"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->e()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "error"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->f()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "reason"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->g()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "result"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->d()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "code"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->j()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "type"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->i()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "info"
-
-    invoke-virtual {v0, v3, v2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/lm7;->k()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "name"
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 v1, 0x1
-
-    const-string v2, "2010300202"
-
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
-
-    invoke-static {}, Lcom/huawei/appmarket/lm7;->h()Lcom/huawei/appmarket/lm7;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/lm7;->b()V
+    .line 2
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/e52;-><init>(Lcom/huawei/appmarket/e52$b;)V
 
     return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final b()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->g:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->f:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final d()Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->c:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;
+
+    return-object v0
+.end method
+
+.method public final e()Landroid/content/Context;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->a:Landroid/content/Context;
+
+    return-object v0
+.end method
+
+.method public final f()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->d:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final g()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/e52;->h:I
+
+    return v0
+.end method
+
+.method public final h()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e52;->e:Ljava/lang/String;
+
+    return-object v0
 .end method

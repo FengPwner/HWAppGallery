@@ -5,43 +5,43 @@
 
 # instance fields
 .field private mDefaultItem:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "defaultItem"
     .end annotation
 .end field
 
 .field private mInteractionType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "interactionType"
     .end annotation
 .end field
 
 .field private mOffscreenPageLimit:I
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "offscreenPageLimit"
     .end annotation
 .end field
 
 .field private mOrientation:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "orientation"
     .end annotation
 .end field
 
 .field private mSmoothScroll:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "smoothScroll"
     .end annotation
 .end field
 
 .field private mSpringAnimationEnabled:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "springAnimationEnabled"
     .end annotation
 .end field
 
 .field private mSupportLoop:Z
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "supportLoop"
     .end annotation
 .end field

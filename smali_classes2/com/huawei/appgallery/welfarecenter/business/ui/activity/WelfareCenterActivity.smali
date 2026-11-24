@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ig3;
-.implements Lcom/huawei/appmarket/xo5;
+.implements Lcom/huawei/appmarket/kg3;
+.implements Lcom/huawei/appmarket/yo5;
 .implements Landroid/view/View$OnClickListener;
 .implements Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment$f;
 .implements Lcom/huawei/appgallery/taskfragment/api/TaskFragment$c;
@@ -16,8 +16,8 @@
         "Lcom/huawei/appgallery/foundation/ui/framework/activity/BaseActivity<",
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol;",
         ">;",
-        "Lcom/huawei/appmarket/ig3;",
-        "Lcom/huawei/appmarket/xo5;",
+        "Lcom/huawei/appmarket/kg3;",
+        "Lcom/huawei/appmarket/yo5;",
         "Landroid/view/View$OnClickListener;",
         "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment$f;",
         "Lcom/huawei/appgallery/taskfragment/api/TaskFragment$c;"
@@ -216,7 +216,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-static {p1}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 49
     .line 50
@@ -377,7 +377,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public onClick(Landroid/view/View;)V
@@ -436,7 +435,7 @@
 
     .line 27
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 28
     .line 29
@@ -448,7 +447,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -525,7 +524,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final onCreate(Landroid/os/Bundle;)V
@@ -568,7 +566,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 22
     .line 23
@@ -642,7 +640,7 @@
     .line 58
     .line 59
     :goto_0
-    const v0, 0x7f0a1611
+    const v0, 0x7f0a1612
 
     .line 60
     .line 61
@@ -659,7 +657,7 @@
 
     .line 67
     .line 68
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 69
     .line 70
@@ -721,7 +719,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->setActionbarClickListener(Lcom/huawei/appmarket/ig3;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appgallery/welfarecenter/business/ui/widget/actionbar/custom/WelfareCenterActionBar;->setActionbarClickListener(Lcom/huawei/appmarket/kg3;)V
 
     .line 103
     .line 104
@@ -794,7 +792,7 @@
 
     .line 137
     .line 138
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 139
     .line 140
@@ -814,7 +812,7 @@
 
     .line 147
     .line 148
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 149
     .line 150
@@ -823,7 +821,7 @@
     .line 151
     .line 152
     :goto_1
-    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
     .line 154
@@ -850,7 +848,7 @@
 
     .line 165
     .line 166
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 167
     .line 168
@@ -886,7 +884,7 @@
 
     .line 182
     .line 183
-    sget-object p1, Lcom/huawei/appmarket/xp8;->a:Lcom/huawei/appmarket/xp8;
+    sget-object p1, Lcom/huawei/appmarket/dq8;->a:Lcom/huawei/appmarket/dq8;
 
     .line 184
     .line 185
@@ -988,7 +986,7 @@
     .line 233
     .line 234
     .line 235
-    new-instance p1, Lcom/huawei/appmarket/cn5;
+    new-instance p1, Lcom/huawei/appmarket/dn5;
 
     .line 236
     .line 237
@@ -996,12 +994,12 @@
 
     .line 238
     .line 239
-    invoke-direct {p1, v2, v1}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {p1, v2, v1}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     .line 240
     .line 241
     .line 242
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->l(Lcom/huawei/appmarket/cn5;)Landroidx/fragment/app/Fragment;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->l(Lcom/huawei/appmarket/dn5;)Landroidx/fragment/app/Fragment;
 
     .line 243
     .line 244
@@ -1463,11 +1461,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final onRetainCustomNonConfigurationInstance()Ljava/lang/Object;
@@ -1530,13 +1523,13 @@
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/pu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/d04;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/tu6;->a(Landroid/content/Context;Landroid/content/res/Resources;)Lcom/huawei/appmarket/f04;
 
     move-result-object p1
 
     const v0, 0x7f1201e9
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/d04;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/f04;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1552,7 +1545,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0a160d
+    const v1, 0x7f0a160e
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

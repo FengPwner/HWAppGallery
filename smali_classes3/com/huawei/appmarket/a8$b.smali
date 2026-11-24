@@ -51,7 +51,7 @@
 
     invoke-direct {p2, v0}, Lcom/huawei/appmarket/u7;-><init>(Landroid/content/Intent;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/u7;->a()Lcom/huawei/appmarket/wh0;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/u7;->a()Lcom/huawei/appmarket/xh0;
 
     move-result-object p2
 
@@ -59,17 +59,17 @@
 
     invoke-virtual {p1}, Landroid/app/Activity;->getCallingActivity()Landroid/content/ComponentName;
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object p1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/wh0;->getModule()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/xh0;->getModule()Ljava/lang/String;
 
     move-result-object p2
 
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     :cond_0
     return-void

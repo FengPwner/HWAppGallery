@@ -43,7 +43,7 @@
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard$a;->c:Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v0
 
@@ -69,13 +69,13 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->setDetailId_(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;)Lcom/huawei/appmarket/ak0;
+    invoke-static {p1}, Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;->y1(Lcom/huawei/appmarket/service/store/awk/card/BaseApplistCard;)Lcom/huawei/appmarket/bk0;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    invoke-interface {v1, v2, p1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {v1, v2, p1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/y1;->O()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 

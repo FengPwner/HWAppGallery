@@ -6,17 +6,6 @@
 .implements Landroid/animation/TypeEvaluator;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/animation/TypeEvaluator<",
-        "Ljava/lang/Integer;",
-        ">;"
-    }
-.end annotation
-
-
 # static fields
 .field private static final a:Lcom/huawei/appmarket/ww;
 
@@ -43,15 +32,28 @@
     return-void
 .end method
 
-.method public static a(FLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
-    .registers 14
+.method public static a()Lcom/huawei/appmarket/ww;
+    .registers 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    sget-object v0, Lcom/huawei/appmarket/ww;->a:Lcom/huawei/appmarket/ww;
 
-    move-result p1
+    return-object v0
+.end method
 
-    shr-int/lit8 v0, p1, 0x18
+
+# virtual methods
+.method public final evaluate(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 15
+
+    .line 1
+    check-cast p2, Ljava/lang/Integer;
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result p2
+
+    shr-int/lit8 v0, p2, 0x18
 
     and-int/lit16 v0, v0, 0xff
 
@@ -61,7 +63,7 @@
 
     div-float/2addr v0, v1
 
-    shr-int/lit8 v2, p1, 0x10
+    shr-int/lit8 v2, p2, 0x10
 
     and-int/lit16 v2, v2, 0xff
 
@@ -69,7 +71,7 @@
 
     div-float/2addr v2, v1
 
-    shr-int/lit8 v3, p1, 0x8
+    shr-int/lit8 v3, p2, 0x8
 
     and-int/lit16 v3, v3, 0xff
 
@@ -77,17 +79,19 @@
 
     div-float/2addr v3, v1
 
-    and-int/lit16 p1, p1, 0xff
+    and-int/lit16 p2, p2, 0xff
 
-    int-to-float p1, p1
+    int-to-float p2, p2
 
-    div-float/2addr p1, v1
+    div-float/2addr p2, v1
 
-    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+    check-cast p3, Ljava/lang/Integer;
 
-    move-result p2
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
-    shr-int/lit8 v4, p2, 0x18
+    move-result p3
+
+    shr-int/lit8 v4, p3, 0x18
 
     and-int/lit16 v4, v4, 0xff
 
@@ -95,7 +99,7 @@
 
     div-float/2addr v4, v1
 
-    shr-int/lit8 v5, p2, 0x10
+    shr-int/lit8 v5, p3, 0x10
 
     and-int/lit16 v5, v5, 0xff
 
@@ -103,7 +107,7 @@
 
     div-float/2addr v5, v1
 
-    shr-int/lit8 v6, p2, 0x8
+    shr-int/lit8 v6, p3, 0x8
 
     and-int/lit16 v6, v6, 0xff
 
@@ -111,11 +115,11 @@
 
     div-float/2addr v6, v1
 
-    and-int/lit16 p2, p2, 0xff
+    and-int/lit16 p3, p3, 0xff
 
-    int-to-float p2, p2
+    int-to-float p3, p3
 
-    div-float/2addr p2, v1
+    div-float/2addr p3, v1
 
     float-to-double v7, v2
 
@@ -135,13 +139,13 @@
 
     double-to-float v3, v7
 
-    float-to-double v7, p1
+    float-to-double v7, p2
 
     invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v7
 
-    double-to-float p1, v7
+    double-to-float p2, v7
 
     float-to-double v7, v5
 
@@ -159,43 +163,43 @@
 
     double-to-float v6, v6
 
-    float-to-double v7, p2
+    float-to-double v7, p3
 
     invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v7
 
-    double-to-float p2, v7
+    double-to-float p3, v7
 
-    invoke-static {v4, v0, p0, v0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v4, v0, p1, v0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 
-    invoke-static {v5, v2, p0, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v5, v2, p1, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v2
 
-    invoke-static {v6, v3, p0, v3}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v6, v3, p1, v3}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v3
 
-    invoke-static {p2, p1, p0, p1}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {p3, p2, p1, p2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
-    move-result p0
+    move-result p1
 
     mul-float v0, v0, v1
 
-    float-to-double p1, v2
+    float-to-double p2, v2
 
     const-wide v4, 0x3fdd1745d1745d17L    # 0.45454545454545453
 
-    invoke-static {p1, p2, v4, v5}, Ljava/lang/Math;->pow(DD)D
+    invoke-static {p2, p3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
-    move-result-wide p1
+    move-result-wide p2
 
-    double-to-float p1, p1
+    double-to-float p2, p2
 
-    mul-float p1, p1, v1
+    mul-float p2, p2, v1
 
     float-to-double v2, v3
 
@@ -203,19 +207,19 @@
 
     move-result-wide v2
 
-    double-to-float p2, v2
+    double-to-float p3, v2
 
-    mul-float p2, p2, v1
+    mul-float p3, p3, v1
 
-    float-to-double v2, p0
+    float-to-double v2, p1
 
     invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v2
 
-    double-to-float p0, v2
+    double-to-float p1, v2
 
-    mul-float p0, p0, v1
+    mul-float p1, p1, v1
 
     invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
@@ -223,55 +227,29 @@
 
     shl-int/lit8 v0, v0, 0x18
 
-    invoke-static {p1}, Ljava/lang/Math;->round(F)I
-
-    move-result p1
-
-    shl-int/lit8 p1, p1, 0x10
-
-    or-int/2addr p1, v0
-
     invoke-static {p2}, Ljava/lang/Math;->round(F)I
 
     move-result p2
 
-    shl-int/lit8 p2, p2, 0x8
+    shl-int/lit8 p2, p2, 0x10
+
+    or-int/2addr p2, v0
+
+    invoke-static {p3}, Ljava/lang/Math;->round(F)I
+
+    move-result p3
+
+    shl-int/lit8 p3, p3, 0x8
+
+    or-int/2addr p2, p3
+
+    invoke-static {p1}, Ljava/lang/Math;->round(F)I
+
+    move-result p1
 
     or-int/2addr p1, p2
 
-    invoke-static {p0}, Ljava/lang/Math;->round(F)I
-
-    move-result p0
-
-    or-int/2addr p0, p1
-
-    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static b()Lcom/huawei/appmarket/ww;
-    .registers 1
-
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/ww;->a:Lcom/huawei/appmarket/ww;
-
-    return-object v0
-.end method
-
-
-# virtual methods
-.method public final bridge synthetic evaluate(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 4
-
-    .line 1
-    check-cast p2, Ljava/lang/Integer;
-
-    check-cast p3, Ljava/lang/Integer;
-
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/ww;->a(FLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 

@@ -47,19 +47,19 @@
 
     iget-object v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior$c;->d:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
-    iget-object v1, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/ii8;
+    iget-object v1, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->a:Lcom/huawei/appmarket/oi8;
 
     iget-object v2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior$c;->b:Landroid/view/View;
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ii8;->h()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/oi8;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     goto :goto_0
 

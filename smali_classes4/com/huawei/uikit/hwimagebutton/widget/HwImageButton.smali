@@ -36,7 +36,7 @@
     const v0, 0x7f13030a
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -47,7 +47,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/eg6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/gg6;->a:[I
 
     const/4 v1, 0x0
 

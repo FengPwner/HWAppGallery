@@ -3,39 +3,24 @@
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/p14;
-
-
-# direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/p14$a;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/p14$a;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/p14;->a:Lcom/huawei/appmarket/p14;
-
-    return-void
-.end method
-
-
 # virtual methods
-.method public abstract a(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Z
+.method public abstract a(Lcom/huawei/appmarket/s87;)Z
 .end method
 
-.method public abstract b(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)Lcom/huawei/appmarket/hv7;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;",
-            "Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;",
-            ")",
-            "Lcom/huawei/appmarket/hv7<",
-            "Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;",
-            ">;"
-        }
-    .end annotation
+.method public abstract b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
+.end method
+
+.method public abstract c()V
+.end method
+
+.method public abstract clearCache()V
+.end method
+
+.method public abstract d(I)Z
+.end method
+
+.method public abstract e(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+.end method
+
+.method public abstract f(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/v87;
 .end method

@@ -3,681 +3,584 @@
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:Ljava/util/regex/Pattern;
+# instance fields
+.field private a:Ljava/lang/String;
+
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:I
+
+.field private g:Z
+
+.field private h:I
+
+.field private i:Z
+
+.field private j:I
+
+.field private k:I
+
+.field private l:I
+
+.field private m:I
+
+.field private n:I
+
+.field private o:F
+
+.field private p:I
+
+.field private q:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 1
-
-    .line 1
-    const-string v0, "^NOTE([ \t].*)?$"
-
-    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/kp8;->a:Ljava/util/regex/Pattern;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a(Lcom/huawei/appmarket/aw5;)Ljava/util/regex/Matcher;
+.method public constructor <init>()V
     .registers 3
 
     .line 1
-    :cond_0
-    sget-object v0, Lcom/huawei/appmarket/to0;->c:Ljava/nio/charset/Charset;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/aw5;->n(Ljava/nio/charset/Charset;)Ljava/lang/String;
+    const-string v0, ""
 
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
+    iput-object v0, p0, Lcom/huawei/appmarket/kp8;->a:Ljava/lang/String;
 
-    .line 7
-    if-eqz v0, :cond_2
+    iput-object v0, p0, Lcom/huawei/appmarket/kp8;->b:Ljava/lang/String;
 
-    .line 8
-    .line 9
-    sget-object v1, Lcom/huawei/appmarket/kp8;->a:Ljava/util/regex/Pattern;
+    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
-    .line 10
-    .line 11
-    invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-
-    .line 12
-    .line 13
-    .line 14
     move-result-object v1
 
-    .line 15
-    invoke-virtual {v1}, Ljava/util/regex/Matcher;->matches()Z
+    iput-object v1, p0, Lcom/huawei/appmarket/kp8;->c:Ljava/util/Set;
 
-    .line 16
-    .line 17
-    .line 18
-    move-result v1
+    iput-object v0, p0, Lcom/huawei/appmarket/kp8;->d:Ljava/lang/String;
 
-    .line 19
-    if-eqz v1, :cond_1
+    const/4 v0, 0x0
 
-    .line 20
-    .line 21
-    :goto_0
-    sget-object v0, Lcom/huawei/appmarket/to0;->c:Ljava/nio/charset/Charset;
+    iput-object v0, p0, Lcom/huawei/appmarket/kp8;->e:Ljava/lang/String;
 
-    .line 22
-    .line 23
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/aw5;->n(Ljava/nio/charset/Charset;)Ljava/lang/String;
+    const/4 v0, 0x0
 
-    .line 24
-    .line 25
-    .line 26
-    move-result-object v0
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kp8;->g:Z
 
-    .line 27
-    if-eqz v0, :cond_0
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kp8;->i:Z
 
-    .line 28
-    .line 29
-    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
+    const/4 v1, -0x1
 
-    .line 30
-    .line 31
-    .line 32
-    move-result v0
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->j:I
 
-    .line 33
-    if-nez v0, :cond_0
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->k:I
 
-    .line 34
-    .line 35
-    goto :goto_0
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->l:I
 
-    .line 36
-    :cond_1
-    sget-object v1, Lcom/huawei/appmarket/gp8;->a:Ljava/util/regex/Pattern;
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->m:I
 
-    .line 37
-    .line 38
-    invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->n:I
 
-    .line 39
-    .line 40
-    .line 41
-    move-result-object v0
+    iput v1, p0, Lcom/huawei/appmarket/kp8;->p:I
 
-    .line 42
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;->matches()Z
+    iput-boolean v0, p0, Lcom/huawei/appmarket/kp8;->q:Z
 
-    .line 43
-    .line 44
-    .line 45
-    move-result v1
-
-    .line 46
-    if-eqz v1, :cond_0
-
-    .line 47
-    .line 48
-    return-object v0
-
-    .line 49
-    :cond_2
-    const/4 p0, 0x0
-
-    .line 50
-    return-object p0
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+    return-void
 .end method
 
-.method public static b(Lcom/huawei/appmarket/aw5;)Z
+.method private static B(IILjava/lang/String;Ljava/lang/String;)I
+    .registers 5
+
+    .line 1
+    invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    const/4 v0, -0x1
+
+    if-ne p0, v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p2, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_1
+
+    add-int v0, p0, p1
+
+    :cond_1
+    return v0
+
+    :cond_2
+    :goto_0
+    return p0
+.end method
+
+
+# virtual methods
+.method public final A()V
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 0x1
 
-    .line 2
-    .line 3
-    .line 4
-    sget-object v0, Lcom/huawei/appmarket/to0;->c:Ljava/nio/charset/Charset;
+    iput v0, p0, Lcom/huawei/appmarket/kp8;->k:I
 
-    .line 5
-    .line 6
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/aw5;->n(Ljava/nio/charset/Charset;)Ljava/lang/String;
-
-    .line 7
-    .line 8
-    .line 9
-    move-result-object p0
-
-    .line 10
-    if-eqz p0, :cond_0
-
-    .line 11
-    .line 12
-    const-string v0, "WEBVTT"
-
-    .line 13
-    .line 14
-    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    .line 15
-    .line 16
-    .line 17
-    move-result p0
-
-    .line 18
-    if-eqz p0, :cond_0
-
-    .line 19
-    .line 20
-    const/4 p0, 0x1
-
-    .line 21
-    goto :goto_0
-
-    .line 22
-    :cond_0
-    const/4 p0, 0x0
-
-    .line 23
-    :goto_0
-    return p0
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+    return-void
 .end method
 
-.method public static c(Ljava/lang/String;)F
+.method public final a()I
     .registers 3
-    .annotation system Ldalvik/annotation/Throws;
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kp8;->i:Z
+
+    if-eqz v0, :cond_0
+
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->h:I
+
+    return v0
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "Background color not defined."
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public final b()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kp8;->q:Z
+
+    return v0
+.end method
+
+.method public final c()I
+    .registers 3
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kp8;->g:Z
+
+    if-eqz v0, :cond_0
+
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->f:I
+
+    return v0
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "Font color not defined"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public final d()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->e:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final e()F
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->o:F
+
+    return v0
+.end method
+
+.method public final f()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->n:I
+
+    return v0
+.end method
+
+.method public final g()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->p:I
+
+    return v0
+.end method
+
+.method public final h(Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;Ljava/lang/String;)I
+    .registers 8
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Ljava/lang/NumberFormatException;
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")I"
         }
     .end annotation
 
     .line 1
-    const-string v0, "%"
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->a:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->b:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
 
-    add-int/lit8 v0, v0, -0x1
+    if-eqz v0, :cond_0
 
-    const/4 v1, 0x0
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->c:Ljava/util/Set;
 
-    invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
 
-    move-result-object p0
+    move-result v0
 
-    invoke-static {p0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+    if-eqz v0, :cond_0
 
-    move-result p0
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->d:Ljava/lang/String;
 
-    const/high16 v0, 0x42c80000    # 100.0f
+    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
-    div-float/2addr p0, v0
+    move-result v0
 
-    return p0
+    if-eqz v0, :cond_0
+
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    return p1
 
     :cond_0
-    new-instance p0, Ljava/lang/NumberFormatException;
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->a:Ljava/lang/String;
 
-    const-string v0, "Percentages must end with %"
+    const/high16 v1, 0x40000000    # 2.0f
 
-    invoke-direct {p0, v0}, Ljava/lang/NumberFormatException;-><init>(Ljava/lang/String;)V
+    const/4 v2, 0x0
 
-    throw p0
-.end method
+    invoke-static {v2, v1, v0, p1}, Lcom/huawei/appmarket/kp8;->B(IILjava/lang/String;Ljava/lang/String;)I
 
-.method public static d(Ljava/lang/String;)J
-    .registers 10
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/NumberFormatException;
-        }
-    .end annotation
+    move-result p1
 
-    .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    iget-object v0, p0, Lcom/huawei/appmarket/kp8;->b:Ljava/lang/String;
 
-    .line 2
-    .line 3
-    const-string v0, "\\."
-
-    .line 4
-    .line 5
     const/4 v1, 0x2
 
-    .line 6
-    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+    invoke-static {p1, v1, v0, p2}, Lcom/huawei/appmarket/kp8;->B(IILjava/lang/String;Ljava/lang/String;)I
 
-    .line 7
-    .line 8
-    .line 9
-    move-result-object p0
+    move-result p1
 
-    .line 10
-    const/4 v0, 0x0
+    iget-object p2, p0, Lcom/huawei/appmarket/kp8;->d:Ljava/lang/String;
 
-    .line 11
-    aget-object v2, p0, v0
+    const/4 v0, 0x4
 
-    .line 12
-    .line 13
-    const/4 v3, -0x1
+    invoke-static {p1, v0, p2, p4}, Lcom/huawei/appmarket/kp8;->B(IILjava/lang/String;Ljava/lang/String;)I
 
-    .line 14
-    const-string v4, ":"
+    move-result p1
 
-    .line 15
-    .line 16
-    invoke-virtual {v2, v4, v3}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+    const/4 p2, -0x1
 
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v2
+    if-eq p1, p2, :cond_2
 
-    .line 20
-    array-length v3, v2
+    iget-object p2, p0, Lcom/huawei/appmarket/kp8;->c:Ljava/util/Set;
 
-    .line 21
-    const-wide/16 v4, 0x0
+    invoke-interface {p3, p2}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
 
-    .line 22
-    .line 23
-    :goto_0
-    if-ge v0, v3, :cond_0
+    move-result p2
 
-    .line 24
-    .line 25
-    aget-object v6, v2, v0
+    if-nez p2, :cond_1
 
-    .line 26
-    .line 27
-    const-wide/16 v7, 0x3c
-
-    .line 28
-    .line 29
-    mul-long v4, v4, v7
-
-    .line 30
-    .line 31
-    invoke-static {v6}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
-
-    .line 32
-    .line 33
-    .line 34
-    move-result-wide v6
-
-    .line 35
-    add-long/2addr v4, v6
-
-    .line 36
-    add-int/lit8 v0, v0, 0x1
-
-    .line 37
-    .line 38
     goto :goto_0
 
-    .line 39
-    :cond_0
-    const-wide/16 v2, 0x3e8
-
-    .line 40
-    .line 41
-    mul-long v4, v4, v2
-
-    .line 42
-    .line 43
-    array-length v0, p0
-
-    .line 44
-    if-ne v0, v1, :cond_1
-
-    .line 45
-    .line 46
-    const/4 v0, 0x1
-
-    .line 47
-    aget-object p0, p0, v0
-
-    .line 48
-    .line 49
-    invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
-
-    .line 50
-    .line 51
-    .line 52
-    move-result-wide v0
-
-    .line 53
-    add-long/2addr v4, v0
-
-    .line 54
     :cond_1
-    mul-long v4, v4, v2
+    iget-object p2, p0, Lcom/huawei/appmarket/kp8;->c:Ljava/util/Set;
 
-    .line 55
-    .line 56
-    return-wide v4
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+    invoke-interface {p2}, Ljava/util/Set;->size()I
+
+    move-result p2
+
+    mul-int/lit8 p2, p2, 0x4
+
+    add-int/2addr p2, p1
+
+    return p2
+
+    :cond_2
+    :goto_0
+    return v2
 .end method
 
-.method public static e(Lcom/huawei/appmarket/aw5;)V
-    .registers 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroidx/media3/common/ParserException;
-        }
-    .end annotation
+.method public final i()I
+    .registers 5
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/aw5;->e()I
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->l:I
 
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
+    const/4 v1, -0x1
 
-    .line 5
-    invoke-static {p0}, Lcom/huawei/appmarket/kp8;->b(Lcom/huawei/appmarket/aw5;)Z
+    if-ne v0, v1, :cond_0
 
-    .line 6
-    .line 7
-    .line 8
-    move-result v1
+    iget v2, p0, Lcom/huawei/appmarket/kp8;->m:I
 
-    .line 9
-    if-eqz v1, :cond_0
+    if-ne v2, v1, :cond_0
 
-    .line 10
-    .line 11
-    return-void
+    return v1
 
-    .line 12
     :cond_0
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/aw5;->M(I)V
+    const/4 v1, 0x0
 
-    .line 13
-    .line 14
-    .line 15
-    new-instance v0, Ljava/lang/StringBuilder;
+    const/4 v2, 0x1
 
-    .line 16
-    .line 17
-    const-string v1, "Expected WEBVTT. Got "
+    if-ne v0, v2, :cond_1
 
-    .line 18
-    .line 19
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const/4 v0, 0x1
 
-    .line 20
-    .line 21
-    .line 22
-    sget-object v1, Lcom/huawei/appmarket/to0;->c:Ljava/nio/charset/Charset;
+    goto :goto_0
 
-    .line 23
-    .line 24
-    invoke-virtual {p0, v1}, Lcom/huawei/appmarket/aw5;->n(Ljava/nio/charset/Charset;)Ljava/lang/String;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object p0
-
-    .line 28
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 29
-    .line 30
-    .line 31
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 32
-    .line 33
-    .line 34
-    move-result-object p0
-
-    .line 35
+    :cond_1
     const/4 v0, 0x0
 
-    .line 36
-    invoke-static {p0, v0}, Landroidx/media3/common/ParserException;->a(Ljava/lang/String;Ljava/lang/RuntimeException;)Landroidx/media3/common/ParserException;
+    :goto_0
+    iget v3, p0, Lcom/huawei/appmarket/kp8;->m:I
 
-    .line 37
-    .line 38
-    .line 39
-    move-result-object p0
+    if-ne v3, v2, :cond_2
 
-    .line 40
-    throw p0
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+    const/4 v1, 0x2
+
+    :cond_2
+    or-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public final j()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kp8;->i:Z
+
+    return v0
+.end method
+
+.method public final k()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kp8;->g:Z
+
+    return v0
+.end method
+
+.method public final l()Z
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->j:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    return v1
+.end method
+
+.method public final m()Z
+    .registers 3
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/kp8;->k:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    return v1
+.end method
+
+.method public final n(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/kp8;->h:I
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lcom/huawei/appmarket/kp8;->i:Z
+
+    return-void
+.end method
+
+.method public final o()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/kp8;->l:I
+
+    return-void
+.end method
+
+.method public final p(Z)V
+    .registers 2
+
+    .line 1
+    iput-boolean p1, p0, Lcom/huawei/appmarket/kp8;->q:Z
+
+    return-void
+.end method
+
+.method public final q(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/kp8;->f:I
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lcom/huawei/appmarket/kp8;->g:Z
+
+    return-void
+.end method
+
+.method public final r(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    invoke-static {p1}, Lcom/huawei/appmarket/yx;->b(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/appmarket/kp8;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final s(F)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/kp8;->o:F
+
+    return-void
+.end method
+
+.method public final t(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/kp8;->n:I
+
+    return-void
+.end method
+
+.method public final u()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/huawei/appmarket/kp8;->m:I
+
+    return-void
+.end method
+
+.method public final v(I)V
+    .registers 2
+
+    .line 1
+    iput p1, p0, Lcom/huawei/appmarket/kp8;->p:I
+
+    return-void
+.end method
+
+.method public final w([Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    new-instance v0, Ljava/util/HashSet;
+
+    invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/kp8;->c:Ljava/util/Set;
+
+    return-void
+.end method
+
+.method public final x(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/kp8;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final y(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/kp8;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final z(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/kp8;->d:Ljava/lang/String;
+
+    return-void
 .end method

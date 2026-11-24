@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field protected w:Lcom/huawei/appmarket/ak0;
+.field protected w:Lcom/huawei/appmarket/bk0;
 
 .field private x:Ljava/util/ArrayList;
 
@@ -354,11 +354,11 @@
     .line 149
     .line 150
     .line 151
-    iget-object v9, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeCardBuoy;->w:Lcom/huawei/appmarket/ak0;
+    iget-object v9, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeCardBuoy;->w:Lcom/huawei/appmarket/bk0;
 
     .line 152
     .line 153
-    invoke-virtual {v7, v9}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v7, v9}, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeItemCardBuoy;->Z(Lcom/huawei/appmarket/bk0;)V
 
     .line 154
     .line 155
@@ -492,11 +492,11 @@
     .line 260
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeCardBuoy;->w:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/buoydock/card/card/BuoyForumNoticeCardBuoy;->w:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -613,7 +613,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onClick(Landroid/view/View;)V
@@ -631,7 +630,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/md0;->a()Lcom/huawei/appmarket/md0;
+    invoke-static {}, Lcom/huawei/appmarket/nd0;->a()Lcom/huawei/appmarket/nd0;
 
     move-result-object p1
 
@@ -645,7 +644,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/md0;->g(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/nd0;->g(Landroid/content/Context;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/y1;->b:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 

@@ -4,11 +4,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+.method public constructor <init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/externalapi/jumpers/HttpShareLinkActionJumperEx;-><init>(Lcom/huawei/appmarket/np3;Lcom/huawei/appmarket/c72$b;Landroid/net/Uri;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/externalapi/jumpers/HttpShareLinkActionJumperEx;-><init>(Lcom/huawei/appmarket/pp3;Lcom/huawei/appmarket/g72$b;Landroid/net/Uri;)V
 
     return-void
 .end method
@@ -62,11 +62,11 @@
 
     .line 20
     .line 21
-    const-class v0, Lcom/huawei/appmarket/jm3;
+    const-class v0, Lcom/huawei/appmarket/lm3;
 
     .line 22
     .line 23
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -74,39 +74,39 @@
     move-result-object p1
 
     .line 27
-    check-cast p1, Lcom/huawei/appmarket/jm3;
+    check-cast p1, Lcom/huawei/appmarket/lm3;
 
     .line 28
     .line 29
-    new-instance v0, Lcom/huawei/appmarket/jm3$a;
+    new-instance v0, Lcom/huawei/appmarket/lm3$a;
 
     .line 30
     .line 31
     const/4 v2, 0x3
 
     .line 32
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/jm3$a;-><init>(I)V
+    invoke-direct {v0, v2}, Lcom/huawei/appmarket/lm3$a;-><init>(I)V
 
     .line 33
     .line 34
     .line 35
-    iget-object v2, p0, Lcom/huawei/appmarket/x54;->b:Landroid/net/Uri;
+    iget-object v2, p0, Lcom/huawei/appmarket/a64;->b:Landroid/net/Uri;
 
     .line 36
     .line 37
-    iput-object v2, v0, Lcom/huawei/appmarket/jm3$a;->b:Landroid/net/Uri;
+    iput-object v2, v0, Lcom/huawei/appmarket/lm3$a;->b:Landroid/net/Uri;
 
     .line 38
     .line 39
-    iput-object p2, v0, Lcom/huawei/appmarket/jm3$a;->d:Ljava/lang/String;
+    iput-object p2, v0, Lcom/huawei/appmarket/lm3$a;->d:Ljava/lang/String;
 
     .line 40
     .line 41
-    iget-object p2, p0, Lcom/huawei/appmarket/x54;->a:Lcom/huawei/appmarket/c72$b;
+    iget-object p2, p0, Lcom/huawei/appmarket/a64;->a:Lcom/huawei/appmarket/g72$b;
 
     .line 42
     .line 43
-    invoke-interface {p2}, Lcom/huawei/appmarket/c72$b;->getCallerPkg()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/huawei/appmarket/g72$b;->getCallerPkg()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -114,15 +114,15 @@
     move-result-object v2
 
     .line 47
-    iput-object v2, v0, Lcom/huawei/appmarket/jm3$a;->c:Ljava/lang/String;
+    iput-object v2, v0, Lcom/huawei/appmarket/lm3$a;->c:Ljava/lang/String;
 
     .line 48
     .line 49
-    iput v1, v0, Lcom/huawei/appmarket/jm3$a;->g:I
+    iput v1, v0, Lcom/huawei/appmarket/lm3$a;->g:I
 
     .line 50
     .line 51
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/jm3;->F0(Lcom/huawei/appmarket/jm3$a;)Lcom/huawei/appmarket/cn5;
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/lm3;->F0(Lcom/huawei/appmarket/lm3$a;)Lcom/huawei/appmarket/dn5;
 
     .line 52
     .line 53
@@ -134,13 +134,13 @@
 
     .line 56
     .line 57
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/x54;->g(Lcom/huawei/appmarket/cn5;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/a64;->g(Lcom/huawei/appmarket/dn5;)V
 
     .line 58
     .line 59
     .line 60
     :cond_1
-    invoke-interface {p2}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {p2}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     .line 61
     .line 62
@@ -150,7 +150,7 @@
     .line 64
     :cond_2
     :goto_0
-    invoke-virtual {p0, v1, p1, p2}, Lcom/huawei/appmarket/x54;->h(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1, p2}, Lcom/huawei/appmarket/a64;->h(ILjava/lang/String;Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -263,5 +263,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

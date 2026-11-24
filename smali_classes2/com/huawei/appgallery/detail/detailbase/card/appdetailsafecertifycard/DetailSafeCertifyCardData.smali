@@ -44,7 +44,7 @@
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/qb2;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getData()Lcom/huawei/appmarket/tb2;
 
     move-result-object v1
 
@@ -55,14 +55,14 @@
     const-string v0, "getData is null"
 
     :goto_0
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
     const-string v3, "securityCertifyInfos"
 
-    invoke-interface {v1, v3}, Lcom/huawei/appmarket/qb2;->optArray(Ljava/lang/String;)Lcom/huawei/appmarket/na2;
+    invoke-interface {v1, v3}, Lcom/huawei/appmarket/tb2;->optArray(Ljava/lang/String;)Lcom/huawei/appmarket/qa2;
 
     move-result-object v1
 
@@ -73,7 +73,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-interface {v1}, Lcom/huawei/appmarket/na2;->size()I
+    invoke-interface {v1}, Lcom/huawei/appmarket/qa2;->size()I
 
     move-result v3
 
@@ -82,7 +82,7 @@
     :goto_1
     if-ge v4, v3, :cond_4
 
-    invoke-interface {v1, v4}, Lcom/huawei/appmarket/na2;->optMap(I)Lcom/huawei/appmarket/qb2;
+    invoke-interface {v1, v4}, Lcom/huawei/appmarket/qa2;->optMap(I)Lcom/huawei/appmarket/tb2;
 
     move-result-object v5
 
@@ -96,7 +96,7 @@
 
     invoke-direct {v6}, Lcom/huawei/appgallery/detail/detailbase/card/appdetailsafecertifycard/SecurityCertifyInfo;-><init>()V
 
-    invoke-static {v5, v6}, Lcom/huawei/appmarket/mp4;->h(Lcom/huawei/appmarket/ib2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
+    invoke-static {v5, v6}, Lcom/huawei/appmarket/pp4;->h(Lcom/huawei/appmarket/lb2;Lcom/huawei/appgallery/jsonkit/api/JsonBean;)V
 
     invoke-virtual {v0, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_0
@@ -107,7 +107,7 @@
     :catch_0
     const-string v5, "toObject JsonException "
 
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     add-int/lit8 v4, v4, 0x1

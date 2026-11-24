@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/ij;
-.super Lcom/huawei/appmarket/ja5;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -7,23 +7,38 @@
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ja5;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final b()V
-    .registers 2
+.method public static a(Landroid/app/Activity;)V
+    .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appgallery/aguikit/device/HwDisplaySafeInsetsUtils;->getInstance()Lcom/huawei/appgallery/aguikit/device/HwDisplaySafeInsetsUtils;
+    const-string v0, ""
 
-    move-result-object v0
+    invoke-static {p0}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
-    invoke-virtual {v0}, Lcom/huawei/appgallery/aguikit/device/HwDisplaySafeInsetsUtils;->startMonitorDisplaySafeInsets()V
+    move-result p0
+
+    const-string v1, "42"
+
+    invoke-static {p0, v1, v0}, Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;->T(ILjava/lang/String;Ljava/lang/String;)Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;
+
+    move-result-object p0
+
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-direct {v0}, Landroid/os/Handler;-><init>()V
+
+    new-instance v1, Lcom/huawei/appmarket/ij$a;
+
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/ij$a;-><init>(Lcom/huawei/appgallery/distreport/impl/oper/OperReportRequest;)V
+
+    const-wide/16 v2, 0x1388
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     return-void
 .end method

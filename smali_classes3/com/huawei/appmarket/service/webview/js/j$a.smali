@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -50,11 +50,11 @@
 
     iput-boolean v0, p1, Lcom/huawei/appmarket/service/webview/js/JsCommonHelper$c;->a:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/wa7;->J(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/bb7;->J(Z)V
 
     goto :goto_0
 
@@ -67,13 +67,13 @@
 
     iput-boolean v0, p1, Lcom/huawei/appmarket/service/webview/js/JsCommonHelper$c;->a:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wa7;->J(Z)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/bb7;->J(Z)V
 
     :cond_1
     :goto_0

@@ -1,22 +1,56 @@
-.class public final Lcom/huawei/appmarket/mv8;
-.super Lcom/huawei/appmarket/hy8;
+.class final Lcom/huawei/appmarket/mv8;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic b:Landroid/app/Dialog;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 5
+.method constructor <init>(Landroid/app/Dialog;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
     .line 1
-    const v0, 0x3f147ae1    # 0.58f
+    iput-object p1, p0, Lcom/huawei/appmarket/mv8;->b:Landroid/app/Dialog;
 
-    const/high16 v1, 0x3f800000    # 1.0f
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v2, 0x3ed70a3d    # 0.42f
+    return-void
+.end method
 
-    const/4 v3, 0x0
 
-    invoke-direct {p0, v2, v3, v0, v1}, Lcom/huawei/appmarket/hy8;-><init>(FFFF)V
+# virtual methods
+.method public final run()V
+    .registers 4
 
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appmarket/mv8;->b:Landroid/app/Dialog;
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    const-string v1, "openSDK_LOG.DialogUtils"
+
+    const-string v2, "dismiss dialog exception"
+
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/hz6;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :goto_0
     return-void
 .end method

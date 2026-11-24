@@ -38,7 +38,7 @@
     return-void
 .end method
 
-.method public static e3(Landroidx/fragment/app/FragmentActivity;Landroid/content/Intent;Lcom/huawei/appmarket/o53;)V
+.method public static e3(Landroidx/fragment/app/FragmentActivity;Landroid/content/Intent;Lcom/huawei/appmarket/r53;)V
     .registers 4
 
     .line 1
@@ -89,11 +89,11 @@
 
     if-eqz p1, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/o53;
+    check-cast p1, Lcom/huawei/appmarket/r53;
 
-    iget-object p1, p1, Lcom/huawei/appmarket/o53;->a:Lcom/huawei/appmarket/es3;
+    iget-object p1, p1, Lcom/huawei/appmarket/r53;->a:Lcom/huawei/appmarket/gs3;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->p(Lcom/huawei/appmarket/es3;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->p(Lcom/huawei/appmarket/gs3;)V
 
     const/4 p1, 0x0
 
@@ -169,7 +169,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -191,15 +191,15 @@
     .line 28
     .line 29
     .line 30
-    check-cast v0, Lcom/huawei/appmarket/o53;
+    check-cast v0, Lcom/huawei/appmarket/r53;
 
     .line 31
     .line 32
-    iget-object v0, v0, Lcom/huawei/appmarket/o53;->a:Lcom/huawei/appmarket/es3;
+    iget-object v0, v0, Lcom/huawei/appmarket/r53;->a:Lcom/huawei/appmarket/gs3;
 
     .line 33
     .line 34
-    invoke-static {v0}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->p(Lcom/huawei/appmarket/es3;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->p(Lcom/huawei/appmarket/gs3;)V
 
     .line 35
     .line 36
@@ -286,5 +286,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

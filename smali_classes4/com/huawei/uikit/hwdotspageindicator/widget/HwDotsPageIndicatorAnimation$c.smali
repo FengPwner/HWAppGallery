@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/nx1$q;
+.implements Lcom/huawei/appmarket/rx1$q;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/nx1;)V
+.method public final a(Lcom/huawei/appmarket/rx1;)V
     .registers 2
 
     .line 1

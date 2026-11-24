@@ -87,7 +87,7 @@
 
     .line 11
     .line 12
-    const v3, 0x7f0a1646
+    const v3, 0x7f0a1647
 
     .line 13
     .line 14
@@ -157,7 +157,7 @@
 
     .line 49
     .line 50
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ei8;->y0(Landroid/view/View;F)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/ki8;->y0(Landroid/view/View;F)V
 
     .line 51
     .line 52
@@ -264,7 +264,7 @@
 
     .line 107
     .line 108
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/ei8;->y0(Landroid/view/View;F)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/ki8;->y0(Landroid/view/View;F)V
 
     .line 109
     .line 110
@@ -551,7 +551,7 @@
     .line 10
     .line 11
     .line 12
-    const p1, 0x7f0a1646
+    const p1, 0x7f0a1647
 
     .line 13
     .line 14
@@ -600,7 +600,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ei8;->y0(Landroid/view/View;F)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ki8;->y0(Landroid/view/View;F)V
 
     .line 40
     .line 41
@@ -706,7 +706,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->y0(Landroid/view/View;F)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->y0(Landroid/view/View;F)V
 
     .line 13
     .line 14

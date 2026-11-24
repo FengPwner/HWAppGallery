@@ -239,7 +239,7 @@
 
     .line 78
     .line 79
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -422,7 +422,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$d0;
@@ -621,5 +620,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

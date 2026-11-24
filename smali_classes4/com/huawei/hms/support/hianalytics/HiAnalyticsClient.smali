@@ -123,7 +123,7 @@
 
     move-result-object p2
 
-    const-string p3, "version"
+    const-string/jumbo p3, "version"
 
     invoke-interface {p1, p3, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -277,7 +277,7 @@
 
     move-result-object p2
 
-    const-string p3, "version"
+    const-string/jumbo p3, "version"
 
     invoke-interface {p1, p3, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

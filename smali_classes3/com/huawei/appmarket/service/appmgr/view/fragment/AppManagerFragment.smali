@@ -20,7 +20,7 @@
 
 .field protected u3:Landroid/widget/LinearLayout;
 
-.field protected v3:Lcom/huawei/appmarket/bx4;
+.field protected v3:Lcom/huawei/appmarket/ex4;
 
 
 # direct methods
@@ -33,7 +33,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/huawei/appmarket/bq6;->o()Lcom/huawei/appmarket/bx4;
+    invoke-static {}, Lcom/huawei/appmarket/eq6;->o()Lcom/huawei/appmarket/ex4;
 
     .line 5
     .line 6
@@ -41,7 +41,7 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/fragment/AppManagerFragment;->v3:Lcom/huawei/appmarket/bx4;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/fragment/AppManagerFragment;->v3:Lcom/huawei/appmarket/ex4;
 
     .line 9
     .line 10
@@ -216,7 +216,7 @@
 
     const-string v1, "notifyDataSetChanged listView null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -235,7 +235,7 @@
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/huawei/appmarket/sk0;
+    instance-of v1, v0, Lcom/huawei/appmarket/tk0;
 
     if-eqz v1, :cond_1
 
@@ -248,7 +248,7 @@
 
     :cond_2
     :goto_0
-    check-cast v0, Lcom/huawei/appmarket/sk0;
+    check-cast v0, Lcom/huawei/appmarket/tk0;
 
     :goto_1
     if-eqz v0, :cond_3

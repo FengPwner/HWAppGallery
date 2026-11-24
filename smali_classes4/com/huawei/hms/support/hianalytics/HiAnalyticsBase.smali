@@ -80,7 +80,7 @@
 
     const-string p0, "baseVersion"
 
-    const-string p1, "6.13.0.303"
+    const-string p1, "6.13.0.304"
 
     invoke-virtual {v0, p0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

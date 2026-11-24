@@ -161,7 +161,7 @@
 
     .line 50
     .line 51
-    invoke-static {p1}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     .line 52
     .line 53
@@ -432,6 +432,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -646,11 +653,11 @@
     move-result-object v3
 
     .line 96
-    check-cast v3, Lcom/huawei/appmarket/pg7;
+    check-cast v3, Lcom/huawei/appmarket/ug7;
 
     .line 97
     .line 98
-    invoke-interface {v3, v2, v1}, Lcom/huawei/appmarket/pg7;->c(II)V
+    invoke-interface {v3, v2, v1}, Lcom/huawei/appmarket/ug7;->c(II)V
 
     .line 99
     .line 100
@@ -695,6 +702,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method final b()V
@@ -729,7 +737,7 @@
     return-void
 .end method
 
-.method final c(Lcom/huawei/appmarket/pg7;)V
+.method final c(Lcom/huawei/appmarket/ug7;)V
     .registers 7
 
     .line 1
@@ -938,7 +946,7 @@
     .line 97
     :cond_6
     :goto_1
-    invoke-interface {p1, v1, v2}, Lcom/huawei/appmarket/pg7;->c(II)V
+    invoke-interface {p1, v1, v2}, Lcom/huawei/appmarket/ug7;->c(II)V
 
     .line 98
     .line 99
@@ -1191,7 +1199,7 @@
     .line 345
 .end method
 
-.method final e(Lcom/huawei/appmarket/pg7;)V
+.method final e(Lcom/huawei/appmarket/ug7;)V
     .registers 3
 
     .line 1

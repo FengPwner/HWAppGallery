@@ -152,7 +152,7 @@
 
 .method public static autoFit(Landroid/content/Context;Ljava/lang/CharSequence;Landroid/text/TextPaint;FFFIF)F
     .registers 24
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     move-object/from16 v8, p2
@@ -611,23 +611,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private static c(Ljava/lang/String;)Ljava/lang/String;
@@ -754,7 +737,7 @@
 
 .method public static getScreenHeight(Landroid/content/Context;)I
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -771,42 +754,42 @@
 
     .line 7
     .line 8
-    const-string v1, "window"
+    const-string/jumbo v1, "window"
 
     .line 9
     .line 10
+    .line 11
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 11
     .line 12
     .line 13
-    move-result-object p0
-
     .line 14
-    check-cast p0, Landroid/view/WindowManager;
+    move-result-object p0
 
     .line 15
+    check-cast p0, Landroid/view/WindowManager;
+
     .line 16
+    .line 17
     invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 17
     .line 18
     .line 19
+    .line 20
     move-result-object p0
 
-    .line 20
+    .line 21
     invoke-virtual {p0, v0}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 21
     .line 22
     .line 23
+    .line 24
     :cond_0
     iget p0, v0, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 24
     .line 25
-    return p0
     .line 26
+    return p0
     .line 27
     .line 28
     .line 29
@@ -962,28 +945,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static getScreenWidth(Landroid/content/Context;)I
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1000,42 +966,42 @@
 
     .line 7
     .line 8
-    const-string v1, "window"
+    const-string/jumbo v1, "window"
 
     .line 9
     .line 10
+    .line 11
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 11
     .line 12
     .line 13
-    move-result-object p0
-
     .line 14
-    check-cast p0, Landroid/view/WindowManager;
+    move-result-object p0
 
     .line 15
+    check-cast p0, Landroid/view/WindowManager;
+
     .line 16
+    .line 17
     invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 17
     .line 18
     .line 19
+    .line 20
     move-result-object p0
 
-    .line 20
+    .line 21
     invoke-virtual {p0, v0}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 21
     .line 22
     .line 23
+    .line 24
     :cond_0
     iget p0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 24
     .line 25
-    return p0
     .line 26
+    return p0
     .line 27
     .line 28
     .line 29
@@ -1191,28 +1157,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static getScreenWidthHeight(Landroid/content/Context;)I
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Lcom/huawei/phoneservice/faq/base/util/FaqCommonUtils;->isScreenLandscape(Landroid/content/Context;)Z
@@ -1240,7 +1189,7 @@
 
 .method public static hideIme(Landroid/app/Activity;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -1286,7 +1235,7 @@
 
 .method public static isAboveEmui10()Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "10.0.0"
@@ -1310,7 +1259,7 @@
 
 .method public static isAboveEmui60()Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1646,11 +1595,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static isAboveEmui90()Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -1986,11 +1955,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static isConnectionAvailable(Landroid/content/Context;)Z
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0
@@ -2076,7 +2065,7 @@
 
 .method public static isEmpty(Ljava/util/Collection;)Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -2112,7 +2101,7 @@
 
 .method public static isEmui50OrLater()Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -2448,11 +2437,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static isPad()Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -2852,11 +2861,31 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static isScreenLandscape(Landroid/content/Context;)Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -2886,7 +2915,7 @@
 
 .method public static isServiceSdkActivityPage(Landroid/app/Activity;)Z
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const/4 v0, 0x0
@@ -2933,7 +2962,7 @@
 
 .method public static setAppearanceLightBars(Landroid/app/Activity;)V
     .registers 4
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -2965,11 +2994,11 @@
     move-result-object v1
 
     .line 15
-    new-instance v2, Lcom/huawei/appmarket/pq8;
+    new-instance v2, Lcom/huawei/appmarket/vq8;
 
     .line 16
     .line 17
-    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/pq8;-><init>(Landroid/view/Window;Landroid/view/View;)V
+    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/vq8;-><init>(Landroid/view/Window;Landroid/view/View;)V
 
     .line 18
     .line 19
@@ -2978,7 +3007,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v2, p0}, Lcom/huawei/appmarket/pq8;->a(Z)V
+    invoke-virtual {v2, p0}, Lcom/huawei/appmarket/vq8;->a(Z)V
 
     .line 23
     .line 24
@@ -3141,28 +3170,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static setTarget35Padding(Landroid/app/Activity;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0

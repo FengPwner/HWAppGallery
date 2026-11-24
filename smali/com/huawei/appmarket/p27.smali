@@ -1,174 +1,196 @@
 .class public final Lcom/huawei/appmarket/p27;
-.super Lcom/huawei/appmarket/iy1;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # instance fields
-.field d:D
-
-.field e:D
+.field private a:Landroid/view/ViewGroup;
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/String;)V
-    .registers 7
+.method public constructor <init>(Landroid/view/ViewGroup;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/iy1;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/iy1;->a:Ljava/lang/String;
+    iput-object p1, p0, Lcom/huawei/appmarket/p27;->a:Landroid/view/ViewGroup;
 
-    const/16 v0, 0x28
+    return-void
+.end method
 
-    invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(I)I
+.method private constructor <init>(Landroid/view/ViewGroup;ILandroid/content/Context;)V
+    .registers 4
 
-    move-result v0
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/16 v1, 0x2c
+    iput-object p1, p0, Lcom/huawei/appmarket/p27;->a:Landroid/view/ViewGroup;
 
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->indexOf(II)I
+    return-void
+.end method
 
-    move-result v2
+.method public constructor <init>(Landroid/view/ViewGroup;Landroid/view/View;)V
+    .registers 3
 
-    add-int/lit8 v0, v0, 0x1
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-virtual {p1, v0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
-
-    move-result-wide v3
-
-    iput-wide v3, p0, Lcom/huawei/appmarket/p27;->d:D
-
-    add-int/lit8 v2, v2, 0x1
-
-    invoke-virtual {p1, v1, v2}, Ljava/lang/String;->indexOf(II)I
-
-    move-result v0
-
-    invoke-virtual {p1, v2, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
-
-    move-result-wide v0
-
-    iput-wide v0, p0, Lcom/huawei/appmarket/p27;->e:D
+    iput-object p1, p0, Lcom/huawei/appmarket/p27;->a:Landroid/view/ViewGroup;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(D)D
-    .registers 13
+.method public final a()V
+    .registers 3
 
     .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/p27;->d:D
+    iget-object v0, p0, Lcom/huawei/appmarket/p27;->a:Landroid/view/ViewGroup;
 
-    iget-wide v2, p0, Lcom/huawei/appmarket/p27;->e:D
+    .line 2
+    .line 3
+    const v1, 0x7f0a1642
 
-    cmpg-double v4, p1, v2
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
-    if-gez v4, :cond_0
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
 
-    mul-double v4, v2, p1
+    .line 10
+    check-cast v0, Lcom/huawei/appmarket/p27;
 
-    sub-double/2addr v2, p1
-
-    mul-double v2, v2, v0
-
-    add-double/2addr v2, p1
-
-    div-double/2addr v4, v2
-
-    goto :goto_0
-
-    :cond_0
-    const-wide/high16 v4, 0x3ff0000000000000L    # 1.0
-
-    sub-double v6, v4, v2
-
-    sub-double v8, p1, v4
-
-    mul-double v8, v8, v6
-
-    sub-double/2addr v4, p1
-
-    sub-double/2addr v2, p1
-
-    mul-double v2, v2, v0
-
-    sub-double/2addr v4, v2
-
-    div-double v4, v8, v4
-
-    :goto_0
-    return-wide v4
-.end method
-
-.method public final b(D)D
-    .registers 13
-
-    .line 1
-    iget-wide v0, p0, Lcom/huawei/appmarket/p27;->d:D
-
-    iget-wide v2, p0, Lcom/huawei/appmarket/p27;->e:D
-
-    cmpg-double v4, p1, v2
-
-    if-gez v4, :cond_0
-
-    mul-double v4, v0, v2
-
-    mul-double v4, v4, v2
-
-    sub-double/2addr v2, p1
-
-    mul-double v2, v2, v0
-
-    add-double/2addr v2, p1
-
-    mul-double v2, v2, v2
-
-    div-double/2addr v4, v2
-
-    goto :goto_0
-
-    :cond_0
-    const-wide/high16 v4, 0x3ff0000000000000L    # 1.0
-
-    sub-double v6, v2, v4
-
-    mul-double v8, v6, v0
-
-    mul-double v8, v8, v6
-
-    neg-double v0, v0
-
-    sub-double/2addr v2, p1
-
-    mul-double v2, v2, v0
-
-    sub-double/2addr v2, p1
-
-    add-double/2addr v2, v4
-
-    mul-double v2, v2, v2
-
-    div-double v4, v8, v2
-
-    :goto_0
-    return-wide v4
+    .line 11
+    .line 12
+    return-void
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
 .end method

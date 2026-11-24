@@ -732,7 +732,7 @@
 
     if-lt v2, v3, :cond_1
 
-    invoke-static {p3, p4, p2}, Lcom/huawei/appmarket/hs2;->n(IILandroid/view/View;)V
+    invoke-static {p3, p4, p2}, Lcom/huawei/appmarket/ks2;->n(IILandroid/view/View;)V
 
     if-eqz v0, :cond_0
 
@@ -788,7 +788,7 @@
 
     invoke-direct {p2, p0, v0, v1}, Lcom/huawei/hms/update/ui/HwAlertController$2;-><init>(Lcom/huawei/hms/update/ui/HwAlertController;Landroid/view/View;Landroid/view/View;)V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hs2;->t(Landroid/widget/ScrollView;Landroid/view/View$OnScrollChangeListener;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ks2;->t(Landroid/widget/ScrollView;Landroid/view/View$OnScrollChangeListener;)V
 
     :cond_5
     iget-object p1, p0, Lcom/huawei/hms/update/ui/HwAlertController;->D:Landroid/widget/ScrollView;

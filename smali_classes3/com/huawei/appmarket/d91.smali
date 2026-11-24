@@ -1,0 +1,13 @@
+.class public interface abstract Lcom/huawei/appmarket/d91;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(IJ)Ljava/nio/ByteBuffer;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method

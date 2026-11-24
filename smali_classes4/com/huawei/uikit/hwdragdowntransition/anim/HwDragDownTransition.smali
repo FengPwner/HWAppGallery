@@ -56,7 +56,7 @@
 
 .field private J:Landroid/animation/PropertyValuesHolder;
 
-.field private K:Lcom/huawei/appmarket/ce3;
+.field private K:Lcom/huawei/appmarket/ee3;
 
 .field private a:Landroid/content/Context;
 
@@ -160,7 +160,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ce3;
+.method static synthetic a(Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;)Lcom/huawei/appmarket/ee3;
     .registers 1
 
     .line 1
@@ -641,7 +641,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->a:Landroid/content/Context;
 
-    const-string v1, "window"
+    const-string/jumbo v1, "window"
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -1437,7 +1437,7 @@
     return-void
 .end method
 
-.method public setDragDownAnimationListener(Lcom/huawei/appmarket/ce3;)V
+.method public setDragDownAnimationListener(Lcom/huawei/appmarket/ee3;)V
     .registers 2
 
     .line 1
@@ -1446,14 +1446,14 @@
 
 .method public setProgress(F)V
     .registers 9
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget v0, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->s:F
 
     const/4 v1, 0x0
 
-    invoke-static {v1, v0, p1, v0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, v0, p1, v0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 
@@ -1465,7 +1465,7 @@
 
     iget v2, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->n:F
 
-    invoke-static {v2, v0, p1, v0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v2, v0, p1, v0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 
@@ -1473,7 +1473,7 @@
 
     iget v3, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->o:F
 
-    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v2
 
@@ -1481,7 +1481,7 @@
 
     iget v4, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->i:F
 
-    invoke-static {v4, v3, p1, v3}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v4, v3, p1, v3}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v3
 
@@ -1605,14 +1605,14 @@
 
 .method public setResetProgress(F)V
     .registers 7
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     iget v0, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->s:F
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    invoke-static {v1, v0, p1, v0}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v1, v0, p1, v0}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v0
 
@@ -1624,7 +1624,7 @@
 
     iget v1, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->l:F
 
-    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v0, v1, p1, v0}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result v0
 
@@ -1632,7 +1632,7 @@
 
     iget v2, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->m:F
 
-    invoke-static {v1, v2, p1, v1}, Lcom/huawei/appmarket/z84;->d(FFFF)F
+    invoke-static {v1, v2, p1, v1}, Lcom/huawei/appmarket/kk4;->d(FFFF)F
 
     move-result v1
 
@@ -1640,7 +1640,7 @@
 
     iget v3, p0, Lcom/huawei/uikit/hwdragdowntransition/anim/HwDragDownTransition;->j:F
 
-    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/bu0;->b(FFFF)F
+    invoke-static {v3, v2, p1, v2}, Lcom/huawei/appmarket/kb1;->b(FFFF)F
 
     move-result v2
 

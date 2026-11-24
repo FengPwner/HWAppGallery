@@ -20,7 +20,7 @@
 
     move-result-wide v0
 
-    invoke-interface {p0}, Lcom/huawei/appmarket/h28;->length()I
+    invoke-interface {p0}, Lcom/huawei/appmarket/m28;->length()I
 
     move-result v2
 

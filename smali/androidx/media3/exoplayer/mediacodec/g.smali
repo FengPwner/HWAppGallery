@@ -42,7 +42,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     iput p1, p0, Landroidx/media3/exoplayer/mediacodec/g;->m:I
 
@@ -80,7 +80,7 @@
     xor-int/2addr v0, v1
 
     .line 7
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 8
     .line 9
@@ -96,7 +96,7 @@
     xor-int/2addr v0, v1
 
     .line 15
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 16
     .line 17
@@ -112,7 +112,7 @@
     xor-int/2addr v0, v1
 
     .line 23
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     .line 24
     .line 25

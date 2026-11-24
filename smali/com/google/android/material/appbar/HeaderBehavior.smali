@@ -91,7 +91,7 @@
 
     if-gt p1, p5, :cond_0
 
-    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {p3, p4, p5}, Lcom/huawei/appmarket/c55;->a(III)I
 
     move-result p2
 
@@ -590,6 +590,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public r(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -997,7 +1004,7 @@
 
     .line 183
     .line 184
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ei8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ki8;->X(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 185
     .line 186
@@ -1147,6 +1154,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method w(Landroid/view/View;)Z

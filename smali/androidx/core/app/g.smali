@@ -1014,7 +1014,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/ij5;)V
+.method public final b(Lcom/huawei/appmarket/kj5;)V
     .registers 4
 
     .line 1
@@ -1030,7 +1030,7 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/huawei/appmarket/o85;->e()Landroid/app/Notification$DecoratedCustomViewStyle;
+    invoke-static {}, Lcom/huawei/appmarket/r85;->e()Landroid/app/Notification$DecoratedCustomViewStyle;
 
     move-result-object v0
 
@@ -1222,6 +1222,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final j()Landroid/widget/RemoteViews;
@@ -1389,6 +1390,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final k()V
@@ -1547,4 +1549,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

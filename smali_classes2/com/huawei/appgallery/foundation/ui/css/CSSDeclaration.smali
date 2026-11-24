@@ -4,10 +4,10 @@
 
 
 # instance fields
-.field private item:Lcom/huawei/appmarket/gx;
+.field private item:Lcom/huawei/appmarket/hx;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gx<",
+            "Lcom/huawei/appmarket/hx<",
             "Ljava/lang/String;",
             "Lcom/huawei/appgallery/foundation/ui/css/adapter/type/CSSValue;",
             ">;"
@@ -22,13 +22,13 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/gx;
+    new-instance v0, Lcom/huawei/appmarket/hx;
 
     const/4 v1, 0x5
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/gx;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/hx;-><init>(I)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
     return-void
 .end method
@@ -74,9 +74,9 @@
 
     if-eqz p2, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ue7;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/ze7;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     return-void
@@ -85,9 +85,9 @@
 .method public getLength()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ue7;->size()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ze7;->size()I
 
     move-result v0
 
@@ -97,9 +97,9 @@
 .method public getPropertyName(I)Ljava/lang/String;
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ue7;->size()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ze7;->size()I
 
     move-result v0
 
@@ -116,9 +116,9 @@
     return-object p1
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ue7;->j(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ze7;->j(I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -140,14 +140,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/gx;
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/css/CSSDeclaration;->item:Lcom/huawei/appmarket/hx;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/ue7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -261,5 +261,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

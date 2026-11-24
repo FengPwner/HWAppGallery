@@ -32,13 +32,13 @@
 
     check-cast p0, Lcom/huawei/quickcard/base/interfaces/CardDataObject;
 
-    const-string v0, "useGrouping"
+    const-string/jumbo v0, "useGrouping"
 
     invoke-interface {p0, v0, v1}, Lcom/huawei/quickcard/base/interfaces/CardDataObject;->getBooleanValue(Ljava/lang/String;Z)Z
 
     move-result v0
 
-    sget-object v2, Lcom/huawei/appmarket/ng9;->b:Lcom/huawei/appmarket/ng9;
+    sget-object v2, Lcom/huawei/appmarket/ug9;->b:Lcom/huawei/appmarket/ug9;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
@@ -50,13 +50,13 @@
 
     move-result-object p0
 
-    const-class v3, Lcom/huawei/appmarket/ng9;
+    const-class v3, Lcom/huawei/appmarket/ug9;
 
     invoke-static {v3, p0, v2}, Lcom/huawei/quickcard/framework/parser/ParserHelper;->object2Enum(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Enum;)Ljava/lang/Enum;
 
     move-result-object p0
 
-    check-cast p0, Lcom/huawei/appmarket/ng9;
+    check-cast p0, Lcom/huawei/appmarket/ug9;
 
     sget-object v2, Lcom/huawei/quickcard/extension/format/FormatNumberUtils$a;->a:[I
 

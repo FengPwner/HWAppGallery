@@ -153,7 +153,7 @@
 
     invoke-virtual {v1, v5}, Lcom/huawei/appmarket/nd;->J(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
@@ -167,7 +167,7 @@
 
     invoke-virtual {v1, v6}, Lcom/huawei/appmarket/nd;->A(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/p57;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/u57;->c()Z
 
     move-result v0
 
@@ -234,7 +234,7 @@
 
     invoke-virtual {v1, v5}, Lcom/huawei/appmarket/nd;->A(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/p57;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/u57;->c()Z
 
     move-result v0
 
@@ -299,7 +299,7 @@
 
     invoke-virtual {v1, v5}, Lcom/huawei/appmarket/nd;->A(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/p57;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/u57;->c()Z
 
     move-result v0
 

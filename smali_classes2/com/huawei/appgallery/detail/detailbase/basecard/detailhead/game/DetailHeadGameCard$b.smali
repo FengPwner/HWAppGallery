@@ -39,11 +39,11 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard$b;->b:Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard;
 
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard;->D1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard;)Lcom/huawei/appmarket/f52;
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard;->D1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailhead/game/DetailHeadGameCard;)Lcom/huawei/appmarket/j52;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/f52;->i()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/j52;->i()V
 
     return-void
 .end method

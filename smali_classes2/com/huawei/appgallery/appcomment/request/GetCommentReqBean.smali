@@ -53,14 +53,14 @@
 
     const/16 v0, 0xc
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->V(I)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->U(I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final H0(Ljava/lang/Boolean;)V
+.method public final G0(Ljava/lang/Boolean;)V
     .registers 7
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -69,11 +69,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/er6;
+    new-instance v0, Lcom/huawei/appmarket/hr6;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/er6;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hr6;-><init>()V
 
     .line 4
     .line 5
@@ -161,7 +161,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -227,7 +227,7 @@
 
     .line 77
     .line 78
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
@@ -293,7 +293,7 @@
 
     .line 110
     .line 111
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 112
     .line 113
@@ -367,7 +367,7 @@
 
     .line 147
     .line 148
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 149
     .line 150
@@ -425,7 +425,7 @@
 
     .line 176
     .line 177
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 178
     .line 179
@@ -483,7 +483,7 @@
 
     .line 206
     :cond_5
-    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->X(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseDetailRequest;->W(Ljava/lang/String;)V
 
     .line 207
     .line 208
@@ -542,7 +542,7 @@
     .line 260
 .end method
 
-.method public final I0(I)V
+.method public final H0(I)V
     .registers 2
 
     .line 1
@@ -551,7 +551,7 @@
     return-void
 .end method
 
-.method public final J0()V
+.method public final I0()V
     .registers 2
 
     .line 1
@@ -562,7 +562,7 @@
     return-void
 .end method
 
-.method public final K0(I)V
+.method public final J0(I)V
     .registers 2
 
     .line 1
@@ -571,7 +571,7 @@
     return-void
 .end method
 
-.method public final L0(I)V
+.method public final K0(I)V
     .registers 2
 
     .line 1

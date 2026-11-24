@@ -4,10 +4,10 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
+.annotation runtime Lcom/huawei/appmarket/ym;
     uri = Lcom/huawei/appmarket/cw0;
 .end annotation
 

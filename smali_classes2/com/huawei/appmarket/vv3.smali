@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Landroid/os/Bundle;Lcom/huawei/appmarket/mj3;)V
+.method public abstract d(I)V
 .end method
 
-.method public abstract b(Landroid/content/Context;Landroid/os/Bundle;)V
+.method public abstract m0()V
 .end method

@@ -532,7 +532,7 @@
     const-string p3, ", code="
 
     .line 2
-    invoke-static {p1, v3, p3, v4}, Lcom/huawei/appmarket/z84;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, v3, p3, v4}, Lcom/huawei/appmarket/kk4;->n(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/mz7;IJ)V
+.method public constructor <init>(Lcom/huawei/appmarket/rz7;IJ)V
     .registers 5
 
     .line 1

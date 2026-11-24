@@ -45,7 +45,7 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/card/h;->c:Lcom/huawei/appgallery/forum/posts/card/ForumTopicCommentCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/forum/posts/card/ForumTopicCommentCard;->I1(Lcom/huawei/appgallery/forum/posts/card/ForumTopicCommentCardBean;)Lcom/huawei/appmarket/gw7;
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/forum/posts/card/ForumTopicCommentCard;->I1(Lcom/huawei/appgallery/forum/posts/card/ForumTopicCommentCardBean;)Lcom/huawei/appmarket/mw7;
 
     move-result-object p1
 
@@ -53,7 +53,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/forum/posts/card/h$a;-><init>(Lcom/huawei/appgallery/forum/posts/card/h;)V
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/gw7;->a(Lcom/huawei/appmarket/xm5;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/mw7;->a(Lcom/huawei/appmarket/ym5;)V
 
     :cond_1
     :goto_0

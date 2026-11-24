@@ -916,14 +916,14 @@
     return-object v0
 .end method
 
-.method protected static parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+.method protected static parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Ljava/io/InputStream;",
             ")TM;"
@@ -938,7 +938,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/gw5;->parseDelimitedFrom(Ljava/io/InputStream;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/iw5;->parseDelimitedFrom(Ljava/io/InputStream;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -958,14 +958,14 @@
     throw p0
 .end method
 
-.method protected static parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+.method protected static parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Ljava/io/InputStream;",
             "Lcom/google/protobuf/v;",
@@ -981,7 +981,7 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parseDelimitedFrom(Ljava/io/InputStream;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parseDelimitedFrom(Ljava/io/InputStream;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1001,14 +1001,14 @@
     throw p0
 .end method
 
-.method protected static parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
+.method protected static parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Lcom/google/protobuf/i;",
             ")TM;"
@@ -1023,7 +1023,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/i;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/i;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1043,14 +1043,14 @@
     throw p0
 .end method
 
-.method protected static parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+.method protected static parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Lcom/google/protobuf/i;",
             "Lcom/google/protobuf/v;",
@@ -1066,7 +1066,7 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1086,14 +1086,14 @@
     throw p0
 .end method
 
-.method protected static parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+.method protected static parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Ljava/io/InputStream;",
             ")TM;"
@@ -1108,7 +1108,7 @@
 
     .line 3
     :try_start_0
-    invoke-interface {p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/io/InputStream;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/io/InputStream;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1128,14 +1128,14 @@
     throw p0
 .end method
 
-.method protected static parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+.method protected static parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<M::",
             "Lcom/google/protobuf/y0;",
             ">(",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "TM;>;",
             "Ljava/io/InputStream;",
             "Lcom/google/protobuf/v;",
@@ -1151,7 +1151,7 @@
 
     .line 4
     :try_start_0
-    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/io/InputStream;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/io/InputStream;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1561,12 +1561,12 @@
     return-object p1
 .end method
 
-.method public getParserForType()Lcom/huawei/appmarket/gw5;
+.method public getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "+",
             "Lcom/google/protobuf/g0;",
             ">;"
@@ -1809,7 +1809,7 @@
 
     check-cast v2, Lcom/google/protobuf/y0;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     move-result v2
 
@@ -1830,7 +1830,7 @@
 
     check-cast v1, Lcom/google/protobuf/y0;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v1}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     move-result v1
 

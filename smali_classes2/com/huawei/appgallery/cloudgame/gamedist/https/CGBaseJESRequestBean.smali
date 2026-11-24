@@ -50,7 +50,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/huawei/appmarket/sv;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/tv;->e()I
 
     .line 14
     .line 15
@@ -141,7 +141,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -155,7 +155,7 @@
 
     .line 62
     .line 63
-    invoke-static {}, Lcom/huawei/appmarket/qw7;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ww7;->b()Ljava/lang/String;
 
     .line 64
     .line 65

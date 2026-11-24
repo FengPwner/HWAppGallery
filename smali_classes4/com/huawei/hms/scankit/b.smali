@@ -739,7 +739,7 @@
     :cond_2
     sget-object p1, Lcom/huawei/hms/scankit/b;->H:Ljava/lang/String;
 
-    const-string p2, "zoom not supported"
+    const-string/jumbo p2, "zoom not supported"
 
     invoke-static {p1, p2}, Lcom/huawei/hms/scankit/p/y3;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0

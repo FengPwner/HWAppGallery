@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/zd1;
+.field private final a:Lcom/huawei/appmarket/be1;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/zd1;)V
+.method public constructor <init>(Lcom/huawei/appmarket/be1;)V
     .registers 3
 
     .line 1
@@ -37,11 +37,11 @@
 
     .line 12
     .line 13
-    new-instance p1, Lcom/huawei/appmarket/be1;
+    new-instance p1, Lcom/huawei/appmarket/de1;
 
     .line 14
     .line 15
-    invoke-direct {p1}, Lcom/huawei/appmarket/be1;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/de1;-><init>()V
 
     .line 16
     .line 17
@@ -50,17 +50,17 @@
 
     .line 19
     :cond_1
-    new-instance p1, Lcom/huawei/appmarket/ae1;
+    new-instance p1, Lcom/huawei/appmarket/ce1;
 
     .line 20
     .line 21
-    invoke-direct {p1}, Lcom/huawei/appmarket/ae1;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/ce1;-><init>()V
 
     .line 22
     .line 23
     .line 24
     :goto_0
-    iput-object p1, p0, Landroidx/emoji2/text/b;->a:Lcom/huawei/appmarket/zd1;
+    iput-object p1, p0, Landroidx/emoji2/text/b;->a:Lcom/huawei/appmarket/be1;
 
     .line 25
     .line 26
@@ -154,7 +154,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/h56;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j56;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -172,11 +172,11 @@
     .line 15
     .line 16
     .line 17
-    iget-object v2, p0, Landroidx/emoji2/text/b;->a:Lcom/huawei/appmarket/zd1;
+    iget-object v2, p0, Landroidx/emoji2/text/b;->a:Lcom/huawei/appmarket/be1;
 
     .line 18
     .line 19
-    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/zd1;->c(Landroid/content/pm/PackageManager;Landroid/content/Intent;)Ljava/util/List;
+    invoke-virtual {v2, v0, v1}, Lcom/huawei/appmarket/be1;->c(Landroid/content/pm/PackageManager;Landroid/content/Intent;)Ljava/util/List;
 
     .line 20
     .line 21
@@ -220,7 +220,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/zd1;->a(Landroid/content/pm/ResolveInfo;)Landroid/content/pm/ProviderInfo;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/be1;->a(Landroid/content/pm/ResolveInfo;)Landroid/content/pm/ProviderInfo;
 
     .line 41
     .line 42
@@ -283,7 +283,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/zd1;->b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/be1;->b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;
 
     .line 67
     .line 68
@@ -344,7 +344,7 @@
     move-result-object v0
 
     .line 95
-    new-instance v2, Lcom/huawei/appmarket/kn2;
+    new-instance v2, Lcom/huawei/appmarket/mn2;
 
     .line 96
     .line 97
@@ -352,7 +352,7 @@
 
     .line 98
     .line 99
-    invoke-direct {v2, v1, v3, v5, v0}, Lcom/huawei/appmarket/kn2;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct {v2, v1, v3, v5, v0}, Lcom/huawei/appmarket/mn2;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -391,7 +391,7 @@
 
     .line 114
     .line 115
-    invoke-direct {v4, p1, v2}, Landroidx/emoji2/text/l;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/kn2;)V
+    invoke-direct {v4, p1, v2}, Landroidx/emoji2/text/l;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/mn2;)V
 
     .line 116
     .line 117

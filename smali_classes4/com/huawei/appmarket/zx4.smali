@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Supplier;
+.implements Ljava/util/function/Predicate;
 
 
 # instance fields
-.field public final synthetic b:I
+.field public final synthetic a:I
 
-.field public final synthetic c:Ljava/util/concurrent/locks/ReentrantLock;
+.field public final synthetic b:Ljava/lang/String;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/util/concurrent/locks/ReentrantLock;I)V
+.method public synthetic constructor <init>(Ljava/lang/String;I)V
     .registers 3
 
     .line 1
@@ -22,11 +22,11 @@
     .line 2
     .line 3
     .line 4
-    iput p2, p0, Lcom/huawei/appmarket/zx4;->b:I
+    iput p2, p0, Lcom/huawei/appmarket/zx4;->a:I
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/huawei/appmarket/zx4;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object p1, p0, Lcom/huawei/appmarket/zx4;->b:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -295,62 +295,52 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .registers 2
+.method public final test(Ljava/lang/Object;)Z
+    .registers 3
 
     .line 1
-    iget v0, p0, Lcom/huawei/appmarket/zx4;->b:I
+    iget v0, p0, Lcom/huawei/appmarket/zx4;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$ReentrantLockVisitor$Builder;->b(Ljava/util/concurrent/locks/ReentrantLock;)Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/lang/String;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/RuntimeEnvironment;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
-    return-object v0
+    move-result p1
+
+    return p1
 
     :pswitch_0
-    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$ReentrantLockVisitor$Builder;->a(Ljava/util/concurrent/locks/ReentrantLock;)Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/util/Locale;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/LocaleUtils;->c(Ljava/lang/String;Ljava/util/Locale;)Z
 
-    return-object v0
+    move-result p1
+
+    return p1
 
     :pswitch_1
-    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$ReentrantLockVisitor;->b(Ljava/util/concurrent/locks/ReentrantLock;)Ljava/util/concurrent/locks/Lock;
+    check-cast p1, Ljava/util/Locale;
 
-    move-result-object v0
+    invoke-static {v0, p1}, Lorg/apache/commons/lang3/LocaleUtils;->a(Ljava/lang/String;Ljava/util/Locale;)Z
 
-    return-object v0
+    move-result p1
 
-    :pswitch_2
-    iget-object v0, p0, Lcom/huawei/appmarket/zx4;->c:Ljava/util/concurrent/locks/ReentrantLock;
-
-    invoke-static {v0}, Lorg/apache/commons/lang3/concurrent/locks/LockingVisitors$ReentrantLockVisitor;->a(Ljava/util/concurrent/locks/ReentrantLock;)Ljava/util/concurrent/locks/Lock;
-
-    move-result-object v0
-
-    return-object v0
-
-    nop
+    return p1
 
     :pswitch_data_0
     .packed-switch 0x0
-        :pswitch_2
         :pswitch_1
         :pswitch_0
     .end packed-switch

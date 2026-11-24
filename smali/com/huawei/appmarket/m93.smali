@@ -3,28 +3,20 @@
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a()Landroidx/media3/exoplayer/upstream/e$a;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Landroidx/media3/exoplayer/upstream/e$a<",
-            "Lcom/huawei/appmarket/l93;",
-            ">;"
-        }
-    .end annotation
-.end method
+# static fields
+.field public static final a:Landroidx/media3/exoplayer/hls/c;
 
-.method public abstract b(Landroidx/media3/exoplayer/hls/playlist/d;Landroidx/media3/exoplayer/hls/playlist/c;)Landroidx/media3/exoplayer/upstream/e$a;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroidx/media3/exoplayer/hls/playlist/d;",
-            "Landroidx/media3/exoplayer/hls/playlist/c;",
-            ")",
-            "Landroidx/media3/exoplayer/upstream/e$a<",
-            "Lcom/huawei/appmarket/l93;",
-            ">;"
-        }
-    .end annotation
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Landroidx/media3/exoplayer/hls/c;
+
+    invoke-direct {v0}, Landroidx/media3/exoplayer/hls/c;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/m93;->a:Landroidx/media3/exoplayer/hls/c;
+
+    return-void
 .end method

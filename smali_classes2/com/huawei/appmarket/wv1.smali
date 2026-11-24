@@ -2,11 +2,32 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/po3;
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# static fields
+.field private static a:Lcom/huawei/appmarket/wv1;
+
+.field private static final b:Ljava/lang/Object;
 
 
 # direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/wv1;->b:Ljava/lang/Object;
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .registers 1
 
@@ -15,141 +36,47 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(Lcom/huawei/appmarket/qs1;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
-    .registers 4
+.method public static a()Lcom/huawei/appmarket/wv1;
+    .registers 2
 
     .line 1
-    new-instance v0, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    sget-object v0, Lcom/huawei/appmarket/wv1;->b:Ljava/lang/Object;
 
-    invoke-direct {v0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;-><init>()V
+    monitor-enter v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->a0()Ljava/lang/String;
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/wv1;->a:Lcom/huawei/appmarket/wv1;
 
-    move-result-object v1
+    if-nez v1, :cond_0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->M0(Ljava/lang/String;)V
+    new-instance v1, Lcom/huawei/appmarket/wv1;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->b0()I
+    invoke-direct {v1}, Lcom/huawei/appmarket/wv1;-><init>()V
 
-    move-result v1
+    sput-object v1, Lcom/huawei/appmarket/wv1;->a:Lcom/huawei/appmarket/wv1;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->N0(I)V
+    goto :goto_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->l0()I
+    :catchall_0
+    move-exception v1
 
-    move-result v1
+    goto :goto_1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->i1(I)V
+    :cond_0
+    :goto_0
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->k0()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->h1(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->K()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->o0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->Z()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->L0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->M()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->t0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->R()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->E0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->N()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->w0(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->i0()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->c1(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->n0()Z
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->p0(Z)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->j0()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->g1(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->O()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->y0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->d0()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->V0(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->W()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->K0(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->U()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->G0(I)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->S()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->F0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->m0()Z
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->m0(Z)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->I()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->l0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->P()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->A0(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qs1;->V()I
-
-    move-result p1
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->I0(I)V
+    sget-object v0, Lcom/huawei/appmarket/wv1;->a:Lcom/huawei/appmarket/wv1;
 
     return-object v0
+
+    :goto_1
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v1
 .end method

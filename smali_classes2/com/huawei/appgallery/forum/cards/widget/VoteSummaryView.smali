@@ -661,7 +661,7 @@
 
     .line 269
     :goto_7
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 270
     .line 271
@@ -673,11 +673,11 @@
 
     .line 274
     .line 275
-    check-cast v10, Lcom/huawei/appmarket/dr6;
+    check-cast v10, Lcom/huawei/appmarket/gr6;
 
     .line 276
     .line 277
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 278
     .line 279
@@ -685,11 +685,11 @@
     move-result-object v10
 
     .line 281
-    const-class v11, Lcom/huawei/appmarket/vs3;
+    const-class v11, Lcom/huawei/appmarket/xs3;
 
     .line 282
     .line 283
-    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v10, v11}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 284
     .line 285
@@ -697,20 +697,20 @@
     move-result-object v10
 
     .line 287
-    check-cast v10, Lcom/huawei/appmarket/vs3;
+    check-cast v10, Lcom/huawei/appmarket/xs3;
 
     .line 288
     .line 289
-    new-instance v11, Lcom/huawei/appmarket/o94$a;
+    new-instance v11, Lcom/huawei/appmarket/q94$a;
 
     .line 290
     .line 291
-    invoke-direct {v11}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v11}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 292
     .line 293
     .line 294
-    invoke-virtual {v11, v6}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v11, v6}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 295
     .line 296
@@ -720,21 +720,21 @@
     .line 298
     .line 299
     .line 300
-    invoke-virtual {v11, v6}, Lcom/huawei/appmarket/o94$a;->v(I)V
+    invoke-virtual {v11, v6}, Lcom/huawei/appmarket/q94$a;->v(I)V
 
     .line 301
     .line 302
     .line 303
-    new-instance v6, Lcom/huawei/appmarket/o94;
+    new-instance v6, Lcom/huawei/appmarket/q94;
 
     .line 304
     .line 305
-    invoke-direct {v6, v11}, Lcom/huawei/appmarket/o94;-><init>(Lcom/huawei/appmarket/o94$a;)V
+    invoke-direct {v6, v11}, Lcom/huawei/appmarket/q94;-><init>(Lcom/huawei/appmarket/q94$a;)V
 
     .line 306
     .line 307
     .line 308
-    invoke-interface {v10, v9, v6}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {v10, v9, v6}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 309
     .line 310
@@ -1115,7 +1115,7 @@
 
     .line 496
     .line 497
-    invoke-static {v6, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v6, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 498
     .line 499
@@ -1315,11 +1315,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method private setVoteSelectMode(Lcom/huawei/appgallery/forum/base/card/bean/VoteInfoBean;)V
@@ -1398,7 +1393,7 @@
 
     int-to-double v3, p1
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     move-result-object v3
 

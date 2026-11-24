@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/x0;->A(Ljava/lang/Object;Landroid/os/LocaleList;)Z
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/x0;->z(Ljava/lang/Object;Landroid/os/LocaleList;)Z
 
     move-result p0
 
@@ -51,7 +51,7 @@
     return-void
 .end method
 
-.method static b(Landroid/content/res/Configuration;)Lcom/huawei/appmarket/qx4;
+.method static b(Landroid/content/res/Configuration;)Lcom/huawei/appmarket/tx4;
     .registers 1
 
     .line 1
@@ -63,18 +63,18 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qx4;->b(Ljava/lang/String;)Lcom/huawei/appmarket/qx4;
+    invoke-static {p0}, Lcom/huawei/appmarket/tx4;->b(Ljava/lang/String;)Lcom/huawei/appmarket/tx4;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static c(Lcom/huawei/appmarket/qx4;)V
+.method public static c(Lcom/huawei/appmarket/tx4;)V
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/qx4;->g()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/tx4;->g()Ljava/lang/String;
 
     move-result-object p0
 
@@ -87,11 +87,11 @@
     return-void
 .end method
 
-.method static d(Landroid/content/res/Configuration;Lcom/huawei/appmarket/qx4;)V
+.method static d(Landroid/content/res/Configuration;Lcom/huawei/appmarket/tx4;)V
     .registers 2
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qx4;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/tx4;->g()Ljava/lang/String;
 
     move-result-object p1
 

@@ -25,11 +25,11 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/zr4;
+    new-instance v0, Lcom/huawei/appmarket/cs4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/zr4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/cs4;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/ap1;
+    iput-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->p0:Lcom/huawei/appmarket/dp1;
 
     invoke-super {p0, p1}, Lcom/huawei/appgallery/distributionbase/ui/DetailLoadingFragment;->d2(Landroid/os/Bundle;)V
 

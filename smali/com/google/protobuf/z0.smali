@@ -10,5 +10,5 @@
 .method public abstract b()Lcom/google/protobuf/b1;
 .end method
 
-.method public abstract c()Lcom/huawei/appmarket/w86;
+.method public abstract c()Lcom/huawei/appmarket/y86;
 .end method

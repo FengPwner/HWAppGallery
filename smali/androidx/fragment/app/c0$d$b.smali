@@ -162,7 +162,7 @@
     const/4 v1, 0x0
 
     .line 57
-    invoke-direct {v0, v1}, Landroidx/fragment/app/c0$d$b$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Landroidx/fragment/app/c0$d$b$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     .line 58
     .line 59
@@ -245,6 +245,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -298,7 +299,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

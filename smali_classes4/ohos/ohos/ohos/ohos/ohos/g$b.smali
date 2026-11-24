@@ -18,7 +18,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/w39;)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/c49;)V
     .registers 2
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

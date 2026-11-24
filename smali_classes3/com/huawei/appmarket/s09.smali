@@ -1,93 +1,142 @@
-.class public final Lcom/huawei/appmarket/s09;
-.super Lcom/huawei/appmarket/v99;
+.class final Lcom/huawei/appmarket/s09;
+.super Landroidx/recyclerview/widget/RecyclerView$t;
 .source "SourceFile"
 
 
+# instance fields
+.field final synthetic c0:Landroid/view/View;
+
+.field final synthetic d0:Lcom/huawei/appmarket/w09;
+
+
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Lcom/huawei/appmarket/w09;Landroid/view/View;)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/v99;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/s09;->d0:Lcom/huawei/appmarket/w09;
 
+    iput-object p2, p0, Lcom/huawei/appmarket/s09;->c0:Landroid/view/View;
+
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$t;-><init>()V
+
+    return-void
+.end method
+
+.method private a(Landroidx/recyclerview/widget/RecyclerView;)V
+    .registers 7
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/s09;->d0:Lcom/huawei/appmarket/w09;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/w09;->g(Lcom/huawei/appmarket/w09;)Lcom/huawei/appmarket/o99;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/vb2;->getData()Lcom/huawei/flexiblelayout/data/FLNodeData;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/huawei/flexiblelayout/data/FLDNodeData;
+
+    if-nez v1, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-virtual {v1}, Lcom/huawei/flexiblelayout/data/FLDNodeData;->m()Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {v1}, Lcom/huawei/flexiblelayout/data/FLDNodeData;->k()Ljava/lang/Integer;
+
+    move-result-object v1
+
+    if-nez v2, :cond_2
+
+    if-nez v1, :cond_2
+
+    return-void
+
+    :cond_2
+    iget-object v3, p0, Lcom/huawei/appmarket/s09;->c0:Landroid/view/View;
+
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/w09;->h(Landroid/view/View;Landroid/view/View;)Ljava/lang/Float;
+
+    move-result-object v4
+
+    if-nez v4, :cond_3
+
+    return-void
+
+    :cond_3
+    if-eqz v2, :cond_4
+
+    invoke-virtual {v4}, Ljava/lang/Float;->intValue()I
+
+    move-result p1
+
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    :goto_0
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/w09;->i(Lcom/huawei/appmarket/w09;II)V
+
+    goto :goto_1
+
+    :cond_4
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+
+    move-result p1
+
+    invoke-virtual {v4}, Ljava/lang/Float;->intValue()I
+
+    move-result v2
+
+    sub-int/2addr p1, v2
+
+    invoke-virtual {v3}, Landroid/view/View;->getHeight()I
+
+    move-result v2
+
+    sub-int/2addr p1, v2
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    goto :goto_0
+
+    :goto_1
     return-void
 .end method
 
 
 # virtual methods
-.method public final c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-    .registers 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
+.method public final onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
+    .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/v99;->a:Lcom/huawei/appmarket/vg9;
+    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$t;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/s09;->a(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/huawei/appmarket/v99;->b:Lcom/huawei/appmarket/vg9;
-
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/vg9;->c(Lcom/huawei/appmarket/u52;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    instance-of v1, v0, Ljava/lang/Number;
-
-    if-eqz v1, :cond_1
-
-    instance-of v1, p1, Ljava/lang/Number;
-
-    if-eqz v1, :cond_1
-
-    check-cast v0, Ljava/lang/Number;
-
-    check-cast p1, Ljava/lang/Number;
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o89;->c(Ljava/lang/Number;Ljava/lang/Number;)I
-
-    move-result p1
-
-    if-ltz p1, :cond_0
-
-    const/4 p1, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object p1
-
-    return-object p1
-
-    :cond_1
-    new-instance p1, Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-
-    const-string v0, "Expected Number to the left and right of \'>=\' operator."
-
-    invoke-direct {p1, v0}, Lcom/huawei/flexiblelayout/parser/expr/ExprException;-><init>(Ljava/lang/String;)V
-
-    throw p1
+    return-void
 .end method
 
-.method public final e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
+.method public final onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+    .registers 4
 
     .line 1
-    const-string p1, "greater equals"
+    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$t;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    return-object p1
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/s09;->a(Landroidx/recyclerview/widget/RecyclerView;)V
+
+    return-void
 .end method

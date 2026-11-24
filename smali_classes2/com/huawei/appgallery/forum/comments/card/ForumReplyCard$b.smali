@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,21 +15,21 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/ak0;
+.field final synthetic b:Lcom/huawei/appmarket/bk0;
 
 .field final synthetic c:Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;Lcom/huawei/appmarket/ak0;)V
+.method constructor <init>(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->c:Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->b:Lcom/huawei/appmarket/ak0;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->b:Lcom/huawei/appmarket/bk0;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -39,13 +39,13 @@
 .method public final onSingleClick(Landroid/view/View;)V
     .registers 4
 
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->b:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->b:Lcom/huawei/appmarket/bk0;
 
     const/4 v0, 0x0
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard$b;->c:Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;
 
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/ak0;->E(ILcom/huawei/appmarket/y1;)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/bk0;->E(ILcom/huawei/appmarket/y1;)V
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->s1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Lcom/huawei/appgallery/forum/base/card/bean/Reply;
 
@@ -80,15 +80,15 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object v0, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     const v1, 0x61a8d
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xo2;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zo2;->c()I
 
     move-result v0
 
@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     goto :goto_0
 

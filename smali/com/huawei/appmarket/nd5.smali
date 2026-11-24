@@ -1,144 +1,201 @@
-.class abstract Lcom/huawei/appmarket/nd5;
-.super Ljava/util/AbstractCollection;
+.class public abstract Lcom/huawei/appmarket/nd5;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/nd5$c;,
+        Lcom/huawei/appmarket/nd5$b;,
+        Lcom/huawei/appmarket/nd5$a;
+    }
+.end annotation
+
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<K:",
+        "<K0:",
         "Ljava/lang/Object;",
-        "V:",
+        "V0:",
         "Ljava/lang/Object;",
         ">",
-        "Ljava/util/AbstractCollection<",
-        "Ljava/util/Map$Entry<",
-        "TK;TV;>;>;"
+        "Ljava/lang/Object;"
     }
 .end annotation
 
 
 # direct methods
-.method constructor <init>()V
+.method private constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
+.method synthetic constructor <init>(Lcom/huawei/appmarket/ld5;)V
+    .registers 2
 
-# virtual methods
-.method abstract b()Lcom/huawei/appmarket/hd5;
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/nd5;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Lcom/huawei/appmarket/nd5$c;
+    .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/hd5<",
-            "TK;TV;>;"
+            "Lcom/huawei/appmarket/nd5$c<",
+            "Ljava/lang/Comparable;",
+            ">;"
         }
     .end annotation
-.end method
-
-.method public final clear()V
-    .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nd5;->b()Lcom/huawei/appmarket/hd5;
+    sget-object v0, Lcom/huawei/appmarket/gf5;->b:Lcom/huawei/appmarket/gf5;
 
-    move-result-object v0
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/hd5;->clear()V
+    .line 4
+    .line 5
+    .line 6
+    new-instance v1, Lcom/huawei/appmarket/md5;
 
-    return-void
-.end method
+    .line 7
+    .line 8
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/md5;-><init>(Ljava/util/Comparator;)V
 
-.method public final contains(Ljava/lang/Object;)Z
-    .registers 4
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Ljavax/annotation/CheckForNull;
-        .end annotation
-    .end param
-
-    .line 1
-    instance-of v0, p1, Ljava/util/Map$Entry;
-
-    if-eqz v0, :cond_0
-
-    check-cast p1, Ljava/util/Map$Entry;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nd5;->b()Lcom/huawei/appmarket/hd5;
-
-    move-result-object v0
-
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-
-    move-result-object v1
-
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/hd5;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    return p1
-
-    :cond_0
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final remove(Ljava/lang/Object;)Z
-    .registers 4
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Ljavax/annotation/CheckForNull;
-        .end annotation
-    .end param
-
-    .line 1
-    instance-of v0, p1, Ljava/util/Map$Entry;
-
-    if-eqz v0, :cond_0
-
-    check-cast p1, Ljava/util/Map$Entry;
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nd5;->b()Lcom/huawei/appmarket/hd5;
-
-    move-result-object v0
-
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-
-    move-result-object v1
-
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    invoke-interface {v0, v1, p1}, Lcom/huawei/appmarket/hd5;->remove(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    return p1
-
-    :cond_0
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final size()I
-    .registers 2
-
-    .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/nd5;->b()Lcom/huawei/appmarket/hd5;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Lcom/huawei/appmarket/hd5;->size()I
-
-    move-result v0
-
-    return v0
+    .line 9
+    .line 10
+    .line 11
+    return-object v1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
 .end method

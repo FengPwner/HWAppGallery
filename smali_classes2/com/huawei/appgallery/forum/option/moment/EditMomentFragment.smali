@@ -18,7 +18,7 @@
 # instance fields
 .field private d0:Landroidx/recyclerview/widget/RecyclerView;
 
-.field private e0:Lcom/huawei/appmarket/sa4;
+.field private e0:Lcom/huawei/appmarket/ua4;
 
 .field private f0:Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment$e;
 
@@ -26,7 +26,7 @@
 
 .field private h0:I
 
-.field private i0:Lcom/huawei/appmarket/la6;
+.field private i0:Lcom/huawei/appmarket/na6;
 
 
 # direct methods
@@ -90,11 +90,11 @@
     move-result v0
 
     .line 25
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 26
     .line 27
-    invoke-virtual {v2}, Lcom/huawei/appmarket/sa4;->p()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/ua4;->p()I
 
     .line 28
     .line 29
@@ -208,7 +208,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic f3(Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;)Landroid/widget/EditText;
@@ -273,7 +272,7 @@
     move-result-object v3
 
     .line 21
-    instance-of v3, v3, Lcom/huawei/appmarket/la6;
+    instance-of v3, v3, Lcom/huawei/appmarket/na6;
 
     .line 22
     .line 23
@@ -290,11 +289,11 @@
     move-result-object p1
 
     .line 29
-    check-cast p1, Lcom/huawei/appmarket/la6;
+    check-cast p1, Lcom/huawei/appmarket/na6;
 
     .line 30
     .line 31
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     .line 32
     .line 33
@@ -322,7 +321,7 @@
     move-result-object v3
 
     .line 44
-    instance-of v3, v3, Lcom/huawei/appmarket/la6;
+    instance-of v3, v3, Lcom/huawei/appmarket/na6;
 
     .line 45
     .line 46
@@ -335,7 +334,7 @@
     .line 49
     :cond_1
     :goto_1
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     .line 50
     .line 51
@@ -343,7 +342,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->d()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->d()Ljava/util/List;
 
     .line 54
     .line 55
@@ -351,7 +350,7 @@
     move-result-object p1
 
     .line 57
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 58
     .line 59
@@ -363,11 +362,11 @@
 
     .line 62
     .line 63
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     .line 64
     .line 65
-    invoke-virtual {p1}, Lcom/huawei/appmarket/la6;->d()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/na6;->d()Ljava/util/List;
 
     .line 66
     .line 67
@@ -405,7 +404,7 @@
     move-result-object v2
 
     .line 83
-    check-cast v2, Lcom/huawei/appmarket/j36;
+    check-cast v2, Lcom/huawei/appmarket/l36;
 
     .line 84
     .line 85
@@ -413,7 +412,7 @@
 
     .line 86
     .line 87
-    invoke-virtual {v2}, Lcom/huawei/appmarket/j36;->c()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/l36;->c()I
 
     .line 88
     .line 89
@@ -425,7 +424,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {v2}, Lcom/huawei/appmarket/j36;->d()Lcom/huawei/appmarket/wb8;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/l36;->d()Lcom/huawei/appmarket/bc8;
 
     .line 94
     .line 95
@@ -437,7 +436,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {v2}, Lcom/huawei/appmarket/j36;->d()Lcom/huawei/appmarket/wb8;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/l36;->d()Lcom/huawei/appmarket/bc8;
 
     .line 100
     .line 101
@@ -454,7 +453,7 @@
 
     .line 107
     :cond_3
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     .line 108
     .line 109
@@ -462,7 +461,7 @@
 
     .line 110
     .line 111
-    sget-object p1, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
+    sget-object p1, Lcom/huawei/appmarket/gp2;->a:Lcom/huawei/appmarket/gp2;
 
     .line 112
     .line 113
@@ -474,7 +473,7 @@
 
     .line 116
     .line 117
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -487,7 +486,7 @@
 
     .line 122
     .line 123
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 124
     .line 125
@@ -597,11 +596,11 @@
 
     .line 180
     .line 181
-    iget-object v5, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v5, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     .line 182
     .line 183
-    invoke-virtual {v5}, Lcom/huawei/appmarket/la6;->c()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/na6;->c()Ljava/lang/String;
 
     .line 184
     .line 185
@@ -714,7 +713,7 @@
     .line 240
     .line 241
     .line 242
-    new-instance v0, Lcom/huawei/appmarket/sa4;
+    new-instance v0, Lcom/huawei/appmarket/ua4;
 
     .line 243
     .line 244
@@ -730,12 +729,12 @@
 
     .line 249
     .line 250
-    invoke-direct {v0, v2, v3}, Lcom/huawei/appmarket/sa4;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, v2, v3}, Lcom/huawei/appmarket/ua4;-><init>(Landroid/content/Context;I)V
 
     .line 251
     .line 252
     .line 253
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 254
     .line 255
@@ -771,7 +770,7 @@
 
     .line 270
     .line 271
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 272
     .line 273
@@ -784,7 +783,7 @@
     .line 276
     .line 277
     .line 278
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/sa4;->s(Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment$e;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ua4;->s(Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment$e;)V
 
     .line 279
     .line 280
@@ -794,7 +793,7 @@
 
     .line 282
     .line 283
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 284
     .line 285
@@ -901,15 +900,15 @@
     .line 332
     .line 333
     .line 334
-    new-instance v0, Lcom/huawei/appmarket/s94;
+    new-instance v0, Lcom/huawei/appmarket/u94;
 
     .line 335
     .line 336
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 337
     .line 338
-    invoke-direct {v0, v2}, Lcom/huawei/appmarket/s94;-><init>(Lcom/huawei/appmarket/t94;)V
+    invoke-direct {v0, v2}, Lcom/huawei/appmarket/u94;-><init>(Lcom/huawei/appmarket/v94;)V
 
     .line 339
     .line 340
@@ -983,11 +982,11 @@
 
     .line 376
     :cond_a
-    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object p1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     .line 377
     .line 378
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/sa4;->r(Ljava/util/List;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ua4;->r(Ljava/util/List;)V
 
     .line 379
     .line 380
@@ -1257,11 +1256,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public final f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -1289,11 +1283,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/sa4;->n(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ua4;->n(Ljava/util/List;)V
 
     :cond_0
     return-void
@@ -1312,7 +1306,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     if-nez v0, :cond_0
 
@@ -1321,7 +1315,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sa4;->p()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ua4;->p()I
 
     move-result v0
 
@@ -1339,11 +1333,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sa4;->o()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ua4;->o()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -1357,11 +1351,11 @@
     return-object v0
 .end method
 
-.method public final l3()Lcom/huawei/appmarket/la6;
+.method public final l3()Lcom/huawei/appmarket/na6;
     .registers 8
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     if-eqz v0, :cond_2
 
@@ -1369,7 +1363,7 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     if-eqz v1, :cond_2
 
@@ -1381,9 +1375,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sa4;->o()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/ua4;->o()Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -1416,9 +1410,9 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/huawei/appmarket/wb8;
+    check-cast v4, Lcom/huawei/appmarket/bc8;
 
-    invoke-virtual {v4}, Lcom/huawei/appmarket/wb8;->c()J
+    invoke-virtual {v4}, Lcom/huawei/appmarket/bc8;->c()J
 
     move-result-wide v5
 
@@ -1428,9 +1422,9 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    new-instance v5, Lcom/huawei/appmarket/j36;
+    new-instance v5, Lcom/huawei/appmarket/l36;
 
-    invoke-direct {v5, v4}, Lcom/huawei/appmarket/j36;-><init>(Lcom/huawei/appmarket/wb8;)V
+    invoke-direct {v5, v4}, Lcom/huawei/appmarket/l36;-><init>(Lcom/huawei/appmarket/bc8;)V
 
     invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1446,24 +1440,24 @@
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
     :cond_1
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/la6;->o(Ljava/util/List;)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/na6;->o(Ljava/util/List;)V
 
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/la6;->n(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/na6;->n(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/la6;->m(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/na6;->m(Ljava/lang/String;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/la6;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->i0:Lcom/huawei/appmarket/na6;
 
     return-object v0
 .end method
@@ -1484,7 +1478,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
     if-eqz v2, :cond_1
 
@@ -1502,9 +1496,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/sa4;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->e0:Lcom/huawei/appmarket/ua4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sa4;->o()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ua4;->o()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -1721,7 +1715,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final t2(Landroid/os/Bundle;)V
@@ -1730,7 +1723,7 @@
     .line 1
     const-string v0, "EDIT_DATA"
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->l3()Lcom/huawei/appmarket/la6;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/forum/option/moment/EditMomentFragment;->l3()Lcom/huawei/appmarket/na6;
 
     move-result-object v1
 

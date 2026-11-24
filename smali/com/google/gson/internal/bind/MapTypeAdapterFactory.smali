@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h58;
+.implements Lcom/huawei/appmarket/n58;
 
 
 # annotations
@@ -186,7 +186,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v3, p2}, Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/wl5;
+    invoke-virtual {v3, p2}, Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/yl5;
 
     .line 62
     .line 63
@@ -215,7 +215,7 @@
     move-object v5, p1
 
     .line 74
-    invoke-direct/range {v3 .. v10}, Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter;-><init>(Lcom/google/gson/internal/bind/MapTypeAdapterFactory;Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Lcom/huawei/appmarket/wl5;)V
+    invoke-direct/range {v3 .. v10}, Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter;-><init>(Lcom/google/gson/internal/bind/MapTypeAdapterFactory;Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Lcom/huawei/appmarket/yl5;)V
 
     .line 75
     .line 76

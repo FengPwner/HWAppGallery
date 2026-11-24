@@ -141,7 +141,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/fy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 

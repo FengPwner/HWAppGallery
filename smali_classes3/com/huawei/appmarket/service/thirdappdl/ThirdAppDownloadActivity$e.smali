@@ -41,7 +41,7 @@
 
     const-string v1, "click key back, down dialog dismiss."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity$e;->b:Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;
 

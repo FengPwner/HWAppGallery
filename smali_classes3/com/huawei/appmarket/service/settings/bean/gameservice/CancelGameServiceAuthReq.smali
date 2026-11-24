@@ -72,7 +72,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {p0}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 26
     .line 27
@@ -80,7 +80,7 @@
     move-result-object p0
 
     .line 29
-    invoke-static {}, Lcom/huawei/appmarket/q27;->a()Lcom/huawei/appmarket/q27;
+    invoke-static {}, Lcom/huawei/appmarket/u27;->a()Lcom/huawei/appmarket/u27;
 
     .line 30
     .line 31
@@ -88,7 +88,7 @@
     move-result-object v1
 
     .line 33
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/q27;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/u27;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -195,5 +195,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

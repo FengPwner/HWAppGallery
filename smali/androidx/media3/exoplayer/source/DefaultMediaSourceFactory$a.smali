@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/d82;Lcom/huawei/appmarket/ir7$a;)V
+.method public constructor <init>(Lcom/huawei/appmarket/h82;Lcom/huawei/appmarket/or7$a;)V
     .registers 3
 
     .line 1

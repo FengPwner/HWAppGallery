@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/a26;
+.implements Lcom/huawei/appmarket/c26;
 
 
 # virtual methods
@@ -19,7 +19,7 @@
     .end annotation
 .end method
 
-.method public abstract getData()Lcom/huawei/appmarket/g64;
+.method public abstract getData()Lcom/huawei/appmarket/j64;
 .end method
 
 .method public abstract getMethod()Ljava/lang/String;
@@ -64,7 +64,7 @@
     .end annotation
 .end method
 
-.method public abstract setData(Lcom/huawei/appmarket/g64;)V
+.method public abstract setData(Lcom/huawei/appmarket/j64;)V
 .end method
 
 .method public abstract setForbidShowScreenShot(Z)V

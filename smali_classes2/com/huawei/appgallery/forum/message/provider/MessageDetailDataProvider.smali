@@ -14,7 +14,7 @@
 
 
 # virtual methods
-.method public final a(JIILjava/util/ArrayList;)Lcom/huawei/appmarket/hj0;
+.method public final a(JIILjava/util/ArrayList;)Lcom/huawei/appmarket/ij0;
     .registers 15
 
     .line 1
@@ -62,12 +62,12 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/hj0;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/ij0;
 
     .line 29
     .line 30
@@ -75,7 +75,7 @@
     move-result-object v0
 
     .line 32
-    instance-of v1, v0, Lcom/huawei/appmarket/n75;
+    instance-of v1, v0, Lcom/huawei/appmarket/q75;
 
     .line 33
     .line 34
@@ -86,7 +86,7 @@
 
     .line 36
     .line 37
-    check-cast v0, Lcom/huawei/appmarket/n75;
+    check-cast v0, Lcom/huawei/appmarket/q75;
 
     .line 38
     .line 39
@@ -106,7 +106,7 @@
 
     .line 44
     .line 45
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 46
     .line 47
@@ -122,7 +122,7 @@
 
     .line 52
     :cond_1
-    new-instance v0, Lcom/huawei/appmarket/n75;
+    new-instance v0, Lcom/huawei/appmarket/q75;
 
     .line 53
     .line 54
@@ -138,7 +138,7 @@
     move-object v8, p5
 
     .line 58
-    invoke-direct/range {v3 .. v8}, Lcom/huawei/appmarket/n75;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    invoke-direct/range {v3 .. v8}, Lcom/huawei/appmarket/q75;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
 
     .line 59
     .line 60
@@ -719,11 +719,11 @@
     .line 629
 .end method
 
-.method public final k(J)Lcom/huawei/appmarket/hj0;
+.method public final k(J)Lcom/huawei/appmarket/ij0;
     .registers 3
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/hj0;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->k(J)Lcom/huawei/appmarket/ij0;
 
     .line 2
     .line 3
@@ -731,7 +731,7 @@
     move-result-object p1
 
     .line 5
-    instance-of p2, p1, Lcom/huawei/appmarket/n75;
+    instance-of p2, p1, Lcom/huawei/appmarket/q75;
 
     .line 6
     .line 7
@@ -739,7 +739,7 @@
 
     .line 8
     .line 9
-    check-cast p1, Lcom/huawei/appmarket/n75;
+    check-cast p1, Lcom/huawei/appmarket/q75;
 
     .line 10
     .line 11
@@ -845,5 +845,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

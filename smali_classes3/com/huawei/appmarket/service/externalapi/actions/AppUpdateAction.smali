@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appmarket/service/externalapi/actions/AppUpdateAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -16,11 +16,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -40,9 +40,9 @@
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -58,19 +58,19 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object v0
 
     const-string v1, "updatingnotification"
 
-    iput-object v1, v0, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iput-object v1, v0, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
     const-string v3, "NATIVENOTIFICATION"
 
-    iput-object v3, v0, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iput-object v3, v0, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mk3;->c(Lcom/huawei/appmarket/sn0;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ok3;->c(Lcom/huawei/appmarket/tn0;)V
 
     invoke-static {v1}, Lcom/huawei/appmarket/j90;->a(Ljava/lang/String;)V
 
@@ -87,7 +87,7 @@
 
     const-string v1, "1011600101"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     new-instance v0, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol;
 
@@ -99,19 +99,19 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol$Request;->q(Z)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol;->c()Lcom/huawei/appmarket/cn5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppManagerProtocol;->c()Lcom/huawei/appmarket/dn5;
 
     move-result-object v0
 
     const/high16 v2, 0x24000000
 
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/c72$b;->a2(Lcom/huawei/appmarket/cn5;I)V
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/g72$b;->a2(Lcom/huawei/appmarket/dn5;I)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 .end method
@@ -121,9 +121,9 @@
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -143,13 +143,13 @@
 
     if-nez v1, :cond_3
 
-    new-instance v1, Lcom/huawei/appmarket/sn0;
+    new-instance v1, Lcom/huawei/appmarket/tn0;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/sn0;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/tn0;-><init>()V
 
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/c72$b;->k()Landroid/app/Activity;
+    invoke-interface {v2}, Lcom/huawei/appmarket/g72$b;->k()Landroid/app/Activity;
 
     move-result-object v2
 
@@ -171,7 +171,7 @@
 
     const-string v4, "AppUpdateAction"
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -179,14 +179,14 @@
 
     if-nez v3, :cond_0
 
-    iput-object v2, v1, Lcom/huawei/appmarket/sn0;->f:Ljava/lang/String;
+    iput-object v2, v1, Lcom/huawei/appmarket/tn0;->f:Ljava/lang/String;
 
     goto :goto_0
 
     :cond_0
     const-string v3, "thirdPartyPkg is empty"
 
-    iput-object v3, v1, Lcom/huawei/appmarket/sn0;->f:Ljava/lang/String;
+    iput-object v3, v1, Lcom/huawei/appmarket/tn0;->f:Ljava/lang/String;
 
     :goto_0
     const-string v3, "EXTRA_CALL_TYPE"
@@ -203,7 +203,7 @@
 
     const-string v0, "startFromShortcutUpdate"
 
-    iput-object v0, v1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iput-object v0, v1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
     goto :goto_2
 
@@ -230,18 +230,18 @@
 
     move-result-object v3
 
-    iput-object v2, v1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iput-object v2, v1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
     :goto_2
-    iput-object v3, v1, Lcom/huawei/appmarket/sn0;->c:Ljava/lang/String;
+    iput-object v3, v1, Lcom/huawei/appmarket/tn0;->c:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mk3;->c(Lcom/huawei/appmarket/sn0;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ok3;->c(Lcom/huawei/appmarket/tn0;)V
 
     const-string v0, "5"
 
-    iget-object v1, v1, Lcom/huawei/appmarket/sn0;->a:Ljava/lang/String;
+    iget-object v1, v1, Lcom/huawei/appmarket/tn0;->a:Ljava/lang/String;
 
-    invoke-virtual {p0, v0, v1, v3}, Lcom/huawei/appmarket/np3;->reportActionType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1, v3}, Lcom/huawei/appmarket/pp3;->reportActionType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     return-void

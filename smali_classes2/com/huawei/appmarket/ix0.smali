@@ -7,10 +7,10 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
+.annotation runtime Lcom/huawei/appmarket/ym;
     uri = Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonUtilsApi;
 .end annotation
 
@@ -42,7 +42,7 @@
     move-result-object p0
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     .line 9
     .line 10
@@ -50,7 +50,7 @@
     move-result-object p1
 
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 13
     .line 14
@@ -58,7 +58,7 @@
     move-result v0
 
     .line 16
-    invoke-interface {p1, v0, p0}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {p1, v0, p0}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -81,7 +81,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, v0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -222,7 +222,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private static b(Ljava/lang/String;)Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;
@@ -393,13 +392,13 @@
 
     const-string v1, "getExposureDetail json cast bean failed."
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_7
     :goto_1
     invoke-virtual {v8, v9}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->c0(Ljava/util/ArrayList;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result p0
 
@@ -414,7 +413,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/lx4;->a(D)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ox4;->a(D)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -524,22 +523,21 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final getRankNumStyleByPosition(I)Ljava/lang/String;
     .registers 3
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/jr3;
+    const-class v0, Lcom/huawei/appmarket/lr3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/jr3;
+    check-cast v0, Lcom/huawei/appmarket/lr3;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/jr3;->getRankNumStyleByPosition(I)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/lr3;->getRankNumStyleByPosition(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -550,7 +548,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/pe8;->c(J)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ue8;->c(J)Ljava/lang/String;
 
     move-result-object p1
 
@@ -561,11 +559,11 @@
     .registers 7
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/tp1;
+    new-instance v0, Lcom/huawei/appmarket/wp1;
 
-    sget-object v1, Lcom/huawei/appmarket/pp1;->b:Lcom/huawei/appmarket/pp1;
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
 
-    sget-object v2, Lcom/huawei/appmarket/op1;->c:Lcom/huawei/appmarket/op1;
+    sget-object v2, Lcom/huawei/appmarket/rp1;->c:Lcom/huawei/appmarket/rp1;
 
     new-instance v3, Lcom/huawei/appmarket/zd;
 
@@ -573,28 +571,28 @@
 
     invoke-direct {v3, p0, v4, p1}, Lcom/huawei/appmarket/zd;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/tp1;-><init>(Lcom/huawei/appmarket/pp1;Lcom/huawei/appmarket/op1;Lcom/huawei/appmarket/kp1;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/huawei/appmarket/wp1;-><init>(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/rp1;Lcom/huawei/appmarket/np1;)V
 
-    sget-object p1, Lcom/huawei/appmarket/qp1;->b:Lcom/huawei/appmarket/up1;
+    sget-object p1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/up1;->c(Lcom/huawei/appmarket/tp1;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/xp1;->c(Lcom/huawei/appmarket/wp1;)V
 
     return-void
 .end method
 
-.method public final skuJump(Lcom/huawei/appmarket/ib2;I)V
+.method public final skuJump(Lcom/huawei/appmarket/lb2;I)V
     .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/r24;
+    const-class v0, Lcom/huawei/appmarket/t24;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/r24;
+    check-cast v0, Lcom/huawei/appmarket/t24;
 
-    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/r24;->skuJump(Lcom/huawei/appmarket/ib2;I)V
+    invoke-interface {v0, p1, p2}, Lcom/huawei/appmarket/t24;->skuJump(Lcom/huawei/appmarket/lb2;I)V
 
     return-void
 .end method

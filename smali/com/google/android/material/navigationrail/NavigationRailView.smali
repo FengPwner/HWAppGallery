@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->O:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->O:[I
 
     const/4 v7, 0x0
 
@@ -86,7 +86,7 @@
 
     move v5, p4
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->g(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroidx/appcompat/widget/e0;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->g(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroidx/appcompat/widget/e0;
 
     move-result-object p2
 
@@ -208,7 +208,7 @@
 
     invoke-direct {p1, p0}, Lcom/google/android/material/navigationrail/a;-><init>(Lcom/google/android/material/navigationrail/NavigationRailView;)V
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/tj8;->b(Landroid/view/View;Lcom/huawei/appmarket/tj8$b;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/zj8;->b(Landroid/view/View;Lcom/huawei/appmarket/zj8$b;)V
 
     return-void
 .end method

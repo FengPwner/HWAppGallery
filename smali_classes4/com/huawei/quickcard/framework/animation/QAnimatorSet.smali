@@ -15,11 +15,11 @@
 # instance fields
 .field private a:Ljava/lang/String;
 
-.field private b:Lcom/huawei/appmarket/h69;
+.field private b:Lcom/huawei/appmarket/n69;
 
 .field private c:Landroid/animation/AnimatorSet;
 
-.field private d:Lcom/huawei/appmarket/y29;
+.field private d:Lcom/huawei/appmarket/e39;
 
 .field private e:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -76,11 +76,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/h69;
+    invoke-virtual {v0, p1}, Lcom/huawei/quickcard/framework/processor/PropertyCacheBean;->getQTransform(Landroid/view/View;)Lcom/huawei/appmarket/n69;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->b:Lcom/huawei/appmarket/h69;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->b:Lcom/huawei/appmarket/n69;
 
     new-instance p1, Landroid/animation/AnimatorSet;
 
@@ -88,9 +88,9 @@
 
     iput-object p1, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->c:Landroid/animation/AnimatorSet;
 
-    new-instance v0, Lcom/huawei/appmarket/ah9;
+    new-instance v0, Lcom/huawei/appmarket/hh9;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ah9;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hh9;-><init>()V
 
     invoke-virtual {p1, v0}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
@@ -103,11 +103,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/y29;
+.method static synthetic a(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/e39;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->d:Lcom/huawei/appmarket/y29;
+    iget-object p0, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->d:Lcom/huawei/appmarket/e39;
 
     return-object p0
 .end method
@@ -686,49 +686,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method static synthetic k(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Ljava/lang/ref/WeakReference;
@@ -951,23 +908,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic s(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Ljava/util/HashMap;
@@ -979,11 +919,11 @@
     return-object p0
 .end method
 
-.method static synthetic u(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/h69;
+.method static synthetic u(Lcom/huawei/quickcard/framework/animation/QAnimatorSet;)Lcom/huawei/appmarket/n69;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->b:Lcom/huawei/appmarket/h69;
+    iget-object p0, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->b:Lcom/huawei/appmarket/n69;
 
     return-object p0
 .end method
@@ -1032,11 +972,11 @@
     return-void
 .end method
 
-.method public final f(Lcom/huawei/appmarket/y29;)V
+.method public final f(Lcom/huawei/appmarket/e39;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->d:Lcom/huawei/appmarket/y29;
+    iput-object p1, p0, Lcom/huawei/quickcard/framework/animation/QAnimatorSet;->d:Lcom/huawei/appmarket/e39;
 
     return-void
 .end method

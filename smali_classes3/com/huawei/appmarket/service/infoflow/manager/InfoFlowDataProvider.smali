@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private p:Lcom/huawei/appmarket/hj0;
+.field private p:Lcom/huawei/appmarket/ij0;
 
-.field private q:Lcom/huawei/appmarket/hj0;
+.field private q:Lcom/huawei/appmarket/ij0;
 
 .field private r:Lcom/huawei/appmarket/service/infoflow/cards/bean/BaseInfoFlowCardBean;
 
@@ -25,7 +25,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/huawei/appmarket/hk0;->j(Ljava/lang/String;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ik0;->j(Ljava/lang/String;)I
 
     .line 7
     .line 8
@@ -77,7 +77,7 @@
 
     .line 33
     .line 34
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 35
     .line 36
@@ -85,7 +85,7 @@
     move-result-object v5
 
     .line 38
-    new-instance v0, Lcom/huawei/appmarket/hj0;
+    new-instance v0, Lcom/huawei/appmarket/ij0;
 
     .line 39
     .line 40
@@ -98,12 +98,12 @@
     move-wide v3, v8
 
     .line 43
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/hj0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/ij0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
 
     .line 44
     .line 45
     .line 46
-    iput-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/hj0;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/ij0;
 
     .line 47
     .line 48
@@ -144,7 +144,7 @@
 
     .line 68
     .line 69
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/hk0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ik0;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/o2;
 
     .line 70
     .line 71
@@ -152,7 +152,7 @@
     move-result-object v4
 
     .line 73
-    new-instance p1, Lcom/huawei/appmarket/hj0;
+    new-instance p1, Lcom/huawei/appmarket/ij0;
 
     .line 74
     .line 75
@@ -165,12 +165,12 @@
     move-wide v2, v8
 
     .line 78
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/hj0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/ij0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
 
     .line 79
     .line 80
     .line 81
-    iput-object p1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/hj0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/ij0;
 
     .line 82
     .line 83
@@ -206,7 +206,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -223,7 +222,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/hj0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/ij0;
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
@@ -235,7 +234,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/ij0;
 
     .line 2
     .line 3
@@ -273,7 +272,7 @@
     .line 19
     .line 20
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/ij0;
 
     .line 21
     .line 22
@@ -455,7 +454,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->d:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/hj0;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->p:Lcom/huawei/appmarket/ij0;
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -464,12 +463,12 @@
     return v0
 .end method
 
-.method public final N(Lcom/huawei/appmarket/hj0;Ljava/util/List;)V
+.method public final N(Lcom/huawei/appmarket/ij0;Ljava/util/List;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hj0;",
+            "Lcom/huawei/appmarket/ij0;",
             "Ljava/util/List<",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
             ">;)V"
@@ -506,7 +505,7 @@
     .line 14
     .line 15
     :cond_0
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/b00;->h(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/fs;->c(Ljava/util/List;I)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -685,7 +684,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final O()V
@@ -725,9 +723,9 @@
 
     move-result-object v6
 
-    check-cast v6, Lcom/huawei/appmarket/hj0;
+    check-cast v6, Lcom/huawei/appmarket/ij0;
 
-    invoke-static {v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->h(Lcom/huawei/appmarket/hj0;)I
+    invoke-static {v6}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;->h(Lcom/huawei/appmarket/ij0;)I
 
     move-result v7
 
@@ -740,7 +738,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object v1, v6, Lcom/huawei/appmarket/hj0;->a:Lcom/huawei/appmarket/o2;
+    iget-object v1, v6, Lcom/huawei/appmarket/ij0;->a:Lcom/huawei/appmarket/o2;
 
     invoke-virtual {v1}, Lcom/huawei/appmarket/o2;->h()I
 
@@ -756,7 +754,7 @@
 
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-virtual {v6}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {v6}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v5
 
@@ -766,13 +764,13 @@
 
     invoke-direct {v1, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    invoke-virtual {v6}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {v6}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v3
 
     invoke-interface {v3}, Ljava/util/List;->clear()V
 
-    invoke-virtual {v6}, Lcom/huawei/appmarket/hj0;->e()Ljava/util/List;
+    invoke-virtual {v6}, Lcom/huawei/appmarket/ij0;->e()Ljava/util/List;
 
     move-result-object v3
 
@@ -785,7 +783,7 @@
 
     invoke-virtual {v2, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->addAll(Ljava/util/Collection;)Z
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/hj0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/infoflow/manager/InfoFlowDataProvider;->q:Lcom/huawei/appmarket/ij0;
 
     invoke-virtual {v2, v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
@@ -813,9 +811,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/hj0;
+    check-cast v0, Lcom/huawei/appmarket/ij0;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/hj0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ij0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v0
 

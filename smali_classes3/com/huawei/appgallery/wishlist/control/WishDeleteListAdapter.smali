@@ -67,7 +67,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/wishlist/control/WishDeleteListAdapter;->wishList:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -327,7 +327,7 @@
 
     .line 115
     .line 116
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -390,7 +390,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private initWishInfoHolder(Landroid/view/View;)Lcom/huawei/appgallery/wishlist/control/WishDeleteListAdapter$b;
@@ -402,7 +401,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/appgallery/wishlist/control/WishDeleteListAdapter$b;-><init>(Lcom/huawei/appgallery/wishlist/control/WishDeleteListAdapter$a;)V
 
-    const v1, 0x7f0a1909
+    const v1, 0x7f0a190a
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -410,7 +409,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0a1907
+    const v2, 0x7f0a1908
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +485,7 @@
 
     iget-object p3, p0, Lcom/huawei/appgallery/wishlist/control/WishDeleteListAdapter;->wishList:Ljava/util/List;
 
-    const v0, 0x7f0a1906
+    const v0, 0x7f0a1907
 
     const/4 v1, 0x1
 

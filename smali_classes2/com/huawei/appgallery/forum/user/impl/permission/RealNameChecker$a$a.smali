@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/uy3;
+.implements Lcom/huawei/appmarket/wy3;
 
 
 # annotations
@@ -46,14 +46,14 @@
 
     iget-object p1, v1, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->c:Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkSuccess()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkSuccess()V
 
     goto :goto_0
 
     :cond_0
     iget-object p1, v1, Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker$a;->c:Lcom/huawei/appgallery/forum/user/impl/permission/RealNameChecker;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :goto_0
     return-void

@@ -97,16 +97,16 @@
 
     .line 21
     .line 22
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 23
     .line 24
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/nb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/qb3;->a(Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 25
     .line 26
     .line 27
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 28
     .line 29
@@ -122,7 +122,7 @@
     move-result v3
 
     .line 35
-    invoke-virtual {v0, v3, p2}, Lcom/huawei/appmarket/nb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
+    invoke-virtual {v0, v3, p2}, Lcom/huawei/appmarket/qb3;->q(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse;)V
 
     .line 36
     .line 37
@@ -155,7 +155,7 @@
     move-result-object v0
 
     .line 51
-    iget-object v3, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v3, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 52
     .line 53
@@ -167,7 +167,7 @@
     move-result p1
 
     .line 57
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/nb3;->l(I)Ljava/lang/String;
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/qb3;->l(I)Ljava/lang/String;
 
     .line 58
     .line 59
@@ -192,7 +192,7 @@
 
     .line 69
     .line 70
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 71
     .line 72
@@ -377,11 +377,11 @@
     move-result-object p2
 
     .line 159
-    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object v0, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 160
     .line 161
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nb3;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qb3;->g()Ljava/util/List;
 
     .line 162
     .line 163
@@ -394,11 +394,11 @@
     .line 166
     .line 167
     .line 168
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 169
     .line 170
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->o()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->o()Z
 
     .line 171
     .line 172
@@ -411,11 +411,11 @@
     .line 175
     .line 176
     .line 177
-    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/kq1;
+    iget-object p2, v1, Lcom/huawei/appmarket/service/store/awk/card/HorizontalYouMayLikeAppCard;->F:Lcom/huawei/appmarket/nq1;
 
     .line 178
     .line 179
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nb3;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/qb3;->k()I
 
     .line 180
     .line 181
@@ -504,7 +504,7 @@
 
     .line 224
     .line 225
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 226
     .line 227
@@ -1130,23 +1130,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

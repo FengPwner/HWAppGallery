@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/un3;
+.implements Lcom/huawei/appmarket/wn3;
 
 
 # annotations
@@ -13,7 +13,7 @@
         "Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/un3<",
+        "Lcom/huawei/appmarket/wn3<",
         "TT;>;"
     }
 .end annotation
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public synthetic b(Lcom/huawei/appmarket/oq1;)V
+.method public synthetic b(Lcom/huawei/appmarket/rq1;)V
     .registers 2
 
     .line 1
@@ -51,7 +51,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/i2;->l()Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_1
 
@@ -97,7 +97,7 @@
 
     const-string v1, "onDestroy invalid request."
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -106,7 +106,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bh;->h(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ah;->h(I)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->Z1()V
 

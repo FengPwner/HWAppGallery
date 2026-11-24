@@ -75,7 +75,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v3, v4, v5, v1, v2}, Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;->j(Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;Ljava/lang/String;Ljava/lang/String;Z)Lcom/huawei/appmarket/ab2;
+    invoke-virtual {v3, v4, v5, v1, v2}, Lcom/huawei/appgallery/pageframe/framework/PageDataProcessor;->j(Lcom/huawei/appgallery/pageframe/framework/CardDataProviderV2;Ljava/lang/String;Ljava/lang/String;Z)Lcom/huawei/appmarket/db2;
 
     .line 15
     .line 16
@@ -100,7 +100,7 @@
     .line 25
     .line 26
     .line 27
-    new-instance v3, Lcom/huawei/appmarket/xz;
+    new-instance v3, Lcom/huawei/appmarket/yz;
 
     .line 28
     .line 29
@@ -111,7 +111,7 @@
 
     .line 31
     .line 32
-    invoke-direct {v3, v4, v0, v1, v5}, Lcom/huawei/appmarket/xz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v3, v4, v0, v1, v5}, Lcom/huawei/appmarket/yz;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 33
     .line 34

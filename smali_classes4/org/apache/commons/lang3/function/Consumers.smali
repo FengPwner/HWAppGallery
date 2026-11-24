@@ -17,11 +17,11 @@
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v1, Lcom/huawei/appmarket/vi1;
+    new-instance v1, Lcom/huawei/appmarket/yi1;
 
     const/4 v2, 0x4
 
-    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/vi1;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/yi1;-><init>(Ljava/lang/Object;I)V
 
     sput-object v1, Lorg/apache/commons/lang3/function/Consumers;->NOP:Ljava/util/function/Consumer;
 

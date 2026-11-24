@@ -1,31 +1,40 @@
 .class public final Lcom/huawei/appmarket/q83;
-.super Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/ly3;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
-    .registers 4
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/webview/js/additional/VenusJSInterface;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final getVenusAppId()Ljava/lang/String;
-    .registers 3
+.method public final a()Z
+    .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mContext:Landroid/content/Context;
-
-    const v1, 0x7f120dae
-
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
 
     move-result-object v0
 
-    return-object v0
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->isUserPushOpen()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final b()V
+    .registers 1
+
+    .line 1
+    return-void
 .end method

@@ -11,13 +11,13 @@
 
 .field public final synthetic c:Lcom/huawei/appmarket/u81;
 
-.field public final synthetic d:Lcom/huawei/appmarket/x09;
+.field public final synthetic d:Lcom/huawei/appmarket/d19;
 
 .field public final synthetic e:Ljava/lang/Object;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/u81;Ljava/lang/Object;Lcom/huawei/appmarket/x09;I)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/u81;Ljava/lang/Object;Lcom/huawei/appmarket/d19;I)V
     .registers 5
 
     .line 1
@@ -38,7 +38,7 @@
 
     .line 9
     .line 10
-    iput-object p3, p0, Lcom/huawei/appmarket/t81;->d:Lcom/huawei/appmarket/x09;
+    iput-object p3, p0, Lcom/huawei/appmarket/t81;->d:Lcom/huawei/appmarket/d19;
 
     .line 11
     .line 12
@@ -905,7 +905,7 @@
     .line 1
     iget v0, p0, Lcom/huawei/appmarket/t81;->b:I
 
-    iget-object v1, p0, Lcom/huawei/appmarket/t81;->d:Lcom/huawei/appmarket/x09;
+    iget-object v1, p0, Lcom/huawei/appmarket/t81;->d:Lcom/huawei/appmarket/d19;
 
     iget-object v2, p0, Lcom/huawei/appmarket/t81;->c:Lcom/huawei/appmarket/u81;
 
@@ -915,14 +915,14 @@
 
     check-cast v3, Lorg/json/JSONArray;
 
-    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/u81;->e(Lcom/huawei/appmarket/u81;Lorg/json/JSONArray;Lcom/huawei/appmarket/x09;)V
+    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/u81;->e(Lcom/huawei/appmarket/u81;Lorg/json/JSONArray;Lcom/huawei/appmarket/d19;)V
 
     return-object v1
 
     :pswitch_0
     check-cast v3, Ljava/lang/String;
 
-    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/u81;->c(Lcom/huawei/appmarket/u81;Ljava/lang/String;Lcom/huawei/appmarket/x09;)V
+    invoke-static {v2, v3, v1}, Lcom/huawei/appmarket/u81;->c(Lcom/huawei/appmarket/u81;Ljava/lang/String;Lcom/huawei/appmarket/d19;)V
 
     return-object v1
 

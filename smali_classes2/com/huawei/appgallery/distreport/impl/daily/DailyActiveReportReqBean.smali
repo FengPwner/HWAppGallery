@@ -13,11 +13,11 @@
 .field private callerPkg_:Ljava/lang/String;
 
 .field private shareIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -216,11 +216,11 @@
 
     .line 18
     .line 19
-    sget p1, Lcom/huawei/appmarket/dn1;->i:I
+    sget p1, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 20
     .line 21
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->e(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->e(Landroid/content/Context;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -232,7 +232,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0}, Lcom/huawei/appmarket/qw7;->d(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ww7;->d(Landroid/content/Context;)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -244,7 +244,7 @@
 
     .line 32
     .line 33
-    invoke-static {}, Lcom/huawei/appmarket/mk3;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/ok3;->a()Lcom/huawei/appmarket/tn0;
 
     .line 34
     .line 35
@@ -252,7 +252,7 @@
     move-result-object p1
 
     .line 37
-    iget-object p1, p1, Lcom/huawei/appmarket/sn0;->h:Ljava/lang/String;
+    iget-object p1, p1, Lcom/huawei/appmarket/tn0;->h:Ljava/lang/String;
 
     .line 38
     .line 39
@@ -326,7 +326,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 

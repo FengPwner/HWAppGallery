@@ -24,7 +24,7 @@
 
 .field private J:Z
 
-.field private final K:Lcom/huawei/appmarket/rf7;
+.field private final K:Lcom/huawei/appmarket/wf7;
 
 .field private y:Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;
 
@@ -45,7 +45,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/gamebox/service/welfare/gift/card/a$a;-><init>(Lcom/huawei/gamebox/service/welfare/gift/card/a;)V
 
-    iput-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/a;->K:Lcom/huawei/appmarket/rf7;
+    iput-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/a;->K:Lcom/huawei/appmarket/wf7;
 
     iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftCard;->w:Landroid/content/Context;
 
@@ -102,7 +102,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/huawei/appmarket/s03;->f(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/v03;->f(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)Z
 
     .line 19
     .line 20
@@ -130,7 +130,7 @@
 
     .line 31
     .line 32
-    new-instance v0, Lcom/huawei/appmarket/gy2;
+    new-instance v0, Lcom/huawei/appmarket/jy2;
 
     .line 33
     .line 34
@@ -138,7 +138,7 @@
 
     .line 35
     .line 36
-    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/gy2;-><init>(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;I)V
+    invoke-direct {v0, v2, v1}, Lcom/huawei/appmarket/jy2;-><init>(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;I)V
 
     .line 37
     .line 38
@@ -150,7 +150,7 @@
     const/4 v3, 0x0
 
     .line 42
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy2;->f(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/PlayerRoleInfo;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy2;->f(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/PlayerRoleInfo;)V
 
     .line 43
     .line 44
@@ -178,11 +178,11 @@
 
     .line 54
     .line 55
-    new-instance v0, Lcom/huawei/appmarket/i03;
+    new-instance v0, Lcom/huawei/appmarket/l03;
 
     .line 56
     .line 57
-    invoke-direct {v0}, Lcom/huawei/appmarket/i03;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/l03;-><init>()V
 
     .line 58
     .line 59
@@ -195,7 +195,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {v0, v1, v2, v3}, Lcom/huawei/appmarket/i03;->a(ILandroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/huawei/appmarket/l03;->a(ILandroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
 
     .line 65
     .line 66
@@ -209,7 +209,7 @@
     const/4 v0, 0x4
 
     .line 70
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/j03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/m03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
 
     .line 71
     .line 72
@@ -226,7 +226,7 @@
 
     .line 77
     .line 78
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/j03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/m03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
 
     .line 79
     .line 80
@@ -239,7 +239,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/s03;->k(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/v03;->k(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
 
     .line 86
     .line 87
@@ -256,12 +256,12 @@
 
     .line 92
     .line 93
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/j03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/m03;->b(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;II)V
 
     .line 94
     .line 95
     .line 96
-    invoke-static {}, Lcom/huawei/appmarket/xu2;->b()Lcom/huawei/appmarket/xu2;
+    invoke-static {}, Lcom/huawei/appmarket/av2;->b()Lcom/huawei/appmarket/av2;
 
     .line 97
     .line 98
@@ -274,7 +274,7 @@
     .line 101
     .line 102
     .line 103
-    invoke-static {}, Lcom/huawei/appmarket/xu2;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/av2;->a()V
 
     .line 104
     .line 105
@@ -289,7 +289,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic x1(Lcom/huawei/gamebox/service/welfare/gift/card/a;)I
@@ -328,7 +327,7 @@
 
     .line 11
     .line 12
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 13
     .line 14
@@ -340,11 +339,11 @@
 
     .line 17
     .line 18
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 21
     .line 22
@@ -352,11 +351,11 @@
     move-result-object p1
 
     .line 24
-    const-class v0, Lcom/huawei/appmarket/vs3;
+    const-class v0, Lcom/huawei/appmarket/xs3;
 
     .line 25
     .line 26
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -364,7 +363,7 @@
     move-result-object p1
 
     .line 30
-    check-cast p1, Lcom/huawei/appmarket/vs3;
+    check-cast p1, Lcom/huawei/appmarket/xs3;
 
     .line 31
     .line 32
@@ -380,11 +379,11 @@
     move-result-object v0
 
     .line 38
-    new-instance v1, Lcom/huawei/appmarket/o94$a;
+    new-instance v1, Lcom/huawei/appmarket/q94$a;
 
     .line 39
     .line 40
-    invoke-direct {v1}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 41
     .line 42
@@ -398,7 +397,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-static {v1, v2, v3, v1}, Lcom/huawei/appmarket/bq6;->n(Lcom/huawei/appmarket/o94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/o94$a;)Lcom/huawei/appmarket/o94;
+    invoke-static {v1, v2, v3, v1}, Lcom/huawei/appmarket/eq6;->n(Lcom/huawei/appmarket/q94$a;Landroid/widget/ImageView;ILcom/huawei/appmarket/q94$a;)Lcom/huawei/appmarket/q94;
 
     .line 49
     .line 50
@@ -406,7 +405,7 @@
     move-result-object v1
 
     .line 52
-    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {p1, v0, v1}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 53
     .line 54
@@ -1025,7 +1024,7 @@
 
     .line 358
     .line 359
-    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/a;->K:Lcom/huawei/appmarket/rf7;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/a;->K:Lcom/huawei/appmarket/wf7;
 
     .line 360
     .line 361
@@ -1109,7 +1108,7 @@
     const/4 p1, 0x0
 
     .line 397
-    invoke-static {p1}, Lcom/huawei/appmarket/e43;->l(Lcom/huawei/appmarket/e43$b;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/h43;->l(Lcom/huawei/appmarket/h43$b;)V
 
     .line 398
     .line 399
@@ -2142,68 +2141,6 @@
     .line 1424
     .line 1425
     .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
 .end method
 
 .method public final g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

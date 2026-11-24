@@ -1,82 +1,90 @@
-.class public final Lcom/huawei/appmarket/qk8;
+.class final Lcom/huawei/appmarket/qk8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/io/Serializable;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        Lcom/huawei/appmarket/qk8$a;
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/fo5<",
+        "Ljava/lang/Boolean;",
+        ">;"
     }
 .end annotation
 
 
-# static fields
-.field private static final serialVersionUID:J = -0x6fb5fb32ca0c650bL
-
-
 # instance fields
-.field public b:I
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
-.field public c:I
-
-.field public final d:Ljava/util/ArrayList;
-
-.field public final e:Ljava/util/ArrayList;
-
-.field public f:Ljava/lang/String;
-
-.field public g:I
-
-.field public h:I
-
-.field public i:J
+.field final synthetic c:Lcom/huawei/appmarket/tk8;
 
 
 # direct methods
-.method public constructor <init>(I)V
+.method constructor <init>(Lcom/huawei/appmarket/tk8;Lcom/huawei/appmarket/tv7;)V
     .registers 3
 
     .line 1
-    const/4 v0, 0x0
+    iput-object p1, p0, Lcom/huawei/appmarket/qk8;->c:Lcom/huawei/appmarket/tk8;
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/qk8;-><init>(II)V
+    iput-object p2, p0, Lcom/huawei/appmarket/qk8;->b:Lcom/huawei/appmarket/tv7;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public constructor <init>(II)V
-    .registers 4
 
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+# virtual methods
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;)V"
+        }
+    .end annotation
 
-    new-instance v0, Ljava/util/ArrayList;
+    .line 1
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    move-result v0
 
-    iput-object v0, p0, Lcom/huawei/appmarket/qk8;->d:Ljava/util/ArrayList;
+    if-eqz v0, :cond_1
 
-    new-instance v0, Ljava/util/ArrayList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    move-result-object p1
 
-    iput-object v0, p0, Lcom/huawei/appmarket/qk8;->e:Ljava/util/ArrayList;
+    check-cast p1, Ljava/lang/Boolean;
 
-    const/4 v0, 0x0
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    iput v0, p0, Lcom/huawei/appmarket/qk8;->g:I
+    move-result p1
 
-    const/4 v0, 0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/qk8;->b:Lcom/huawei/appmarket/tv7;
 
-    iput v0, p0, Lcom/huawei/appmarket/qk8;->h:I
+    iget-object v1, p0, Lcom/huawei/appmarket/qk8;->c:Lcom/huawei/appmarket/tk8;
 
-    iput p1, p0, Lcom/huawei/appmarket/qk8;->b:I
+    if-eqz p1, :cond_0
 
-    iput p2, p0, Lcom/huawei/appmarket/qk8;->c:I
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/tk8;->a(Lcom/huawei/appmarket/tk8;Lcom/huawei/appmarket/tv7;)V
 
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x1
+
+    const/4 v2, 0x0
+
+    invoke-static {v1, p1, v0, v2}, Lcom/huawei/appmarket/tk8;->b(Lcom/huawei/appmarket/tk8;ILcom/huawei/appmarket/tv7;Lcom/huawei/appgallery/forum/option/post/bean/JoinVoteRes;)V
+
+    :cond_1
+    :goto_0
     return-void
 .end method

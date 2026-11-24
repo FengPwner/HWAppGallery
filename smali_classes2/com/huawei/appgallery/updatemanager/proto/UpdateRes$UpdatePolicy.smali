@@ -26,10 +26,10 @@
 # static fields
 .field private static final DEFAULT_INSTANCE:Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;
 
-.field private static final PARSER:Lcom/huawei/appmarket/gw5;
+.field private static final PARSER:Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;",
             ">;"
         }
@@ -65,7 +65,7 @@
 
     invoke-direct {v0}, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy$1;-><init>()V
 
-    sput-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sput-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-void
 .end method
@@ -308,11 +308,11 @@
     return-object p0
 .end method
 
-.method static synthetic access$23600()Lcom/huawei/appmarket/gw5;
+.method static synthetic access$23600()Lcom/huawei/appmarket/iw5;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -400,9 +400,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -420,9 +420,9 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseDelimitedWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -440,9 +440,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/h;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/h;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -460,9 +460,9 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Lcom/google/protobuf/h;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -480,9 +480,9 @@
     .end annotation
 
     .line 3
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -500,9 +500,9 @@
     .end annotation
 
     .line 4
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -520,9 +520,9 @@
     .end annotation
 
     .line 5
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -540,9 +540,9 @@
     .end annotation
 
     .line 6
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/gw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/g0;->parseWithIOException(Lcom/huawei/appmarket/iw5;Ljava/io/InputStream;Lcom/google/protobuf/v;)Lcom/google/protobuf/y0;
 
     move-result-object p0
 
@@ -560,9 +560,9 @@
     .end annotation
 
     .line 7
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/nio/ByteBuffer;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/nio/ByteBuffer;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -580,9 +580,9 @@
     .end annotation
 
     .line 8
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom(Ljava/nio/ByteBuffer;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom(Ljava/nio/ByteBuffer;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -600,9 +600,9 @@
     .end annotation
 
     .line 9
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0}, Lcom/huawei/appmarket/gw5;->parseFrom([B)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/iw5;->parseFrom([B)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -620,9 +620,9 @@
     .end annotation
 
     .line 10
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
-    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/gw5;->parseFrom([BLcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/iw5;->parseFrom([BLcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -631,19 +631,19 @@
     return-object p0
 .end method
 
-.method public static parser()Lcom/huawei/appmarket/gw5;
+.method public static parser()Lcom/huawei/appmarket/iw5;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -756,19 +756,19 @@
     return-object v0
 .end method
 
-.method public getParserForType()Lcom/huawei/appmarket/gw5;
+.method public getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;",
             ">;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/gw5;
+    sget-object v0, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdatePolicy;->PARSER:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method

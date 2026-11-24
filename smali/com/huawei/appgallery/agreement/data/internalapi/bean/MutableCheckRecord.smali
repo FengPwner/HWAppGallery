@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qk3;
+.implements Lcom/huawei/appmarket/sk3;
 
 
 # instance fields
@@ -39,7 +39,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p0}, Lcom/huawei/appmarket/qk3;->getTimeStamp()Ljava/lang/Long;
+    invoke-interface {p0}, Lcom/huawei/appmarket/sk3;->getTimeStamp()Ljava/lang/Long;
 
     .line 4
     .line 5
@@ -47,7 +47,7 @@
     move-result-object v1
 
     .line 7
-    invoke-interface {p0}, Lcom/huawei/appmarket/qk3;->getUserIdHash()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/huawei/appmarket/sk3;->getUserIdHash()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -55,7 +55,7 @@
     move-result-object v2
 
     .line 11
-    invoke-interface {p0}, Lcom/huawei/appmarket/qk3;->getServiceCountry()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/huawei/appmarket/sk3;->getServiceCountry()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -186,6 +186,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public getServiceCountry()Ljava/lang/String;

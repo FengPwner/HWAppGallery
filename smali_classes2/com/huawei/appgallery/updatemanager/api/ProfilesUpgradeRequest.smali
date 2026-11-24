@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/updatemanager/api/ProfilesUpgradeRequest;
-.super Lcom/huawei/appmarket/ln7;
+.super Lcom/huawei/appmarket/rn7;
 .source "SourceFile"
 
 
@@ -20,7 +20,7 @@
 
 # instance fields
 .field private appProfileInfos:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -186,7 +186,7 @@
 .method public constructor <init>()V
     .registers 2
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ln7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/rn7;-><init>()V
 
     const-string v0, "client.profileInfosUpgrade"
 
@@ -211,7 +211,7 @@
     .registers 12
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/tq;->d()Ljava/util/HashMap;
+    invoke-static {}, Lcom/huawei/appmarket/sq;->d()Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -282,7 +282,7 @@
     .line 34
     .line 35
     :goto_1
-    sget-object v2, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v2, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 36
     .line 37
@@ -290,7 +290,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -340,7 +340,7 @@
     .line 61
     .line 62
     :goto_2
-    sget-object v4, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v4, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 63
     .line 64
@@ -374,7 +374,7 @@
     move-result-object v2
 
     .line 80
-    invoke-virtual {v4, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v4, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -656,7 +656,7 @@
     .line 223
     .line 224
     :cond_8
-    sget-object v2, Lcom/huawei/appmarket/s98;->a:Lcom/huawei/appmarket/s98;
+    sget-object v2, Lcom/huawei/appmarket/x98;->a:Lcom/huawei/appmarket/x98;
 
     .line 225
     .line 226
@@ -694,7 +694,7 @@
     move-result-object v4
 
     .line 244
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 245
     .line 246

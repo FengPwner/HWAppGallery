@@ -38,7 +38,7 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object p3, Lcom/huawei/appmarket/oe6;->a:[I
+    sget-object p3, Lcom/huawei/appmarket/qe6;->a:[I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -48,7 +48,7 @@
 
     const/16 p3, 0x8
 
-    invoke-static {p3, p1}, Lcom/huawei/appmarket/sv;->a(ILandroid/content/Context;)I
+    invoke-static {p3, p1}, Lcom/huawei/appmarket/tv;->a(ILandroid/content/Context;)I
 
     move-result p1
 

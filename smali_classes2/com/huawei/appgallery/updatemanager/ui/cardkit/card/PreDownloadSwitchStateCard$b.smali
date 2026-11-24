@@ -40,15 +40,15 @@
 .method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .registers 5
 
-    new-instance v0, Lcom/huawei/appmarket/cq5;
+    new-instance v0, Lcom/huawei/appmarket/dq5;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/cq5;-><init>(Landroid/content/Context;Landroid/widget/CompoundButton;)V
+    invoke-direct {v0, v1, p1}, Lcom/huawei/appmarket/dq5;-><init>(Landroid/content/Context;Landroid/widget/CompoundButton;)V
 
-    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/cq5;->a(Z)V
+    invoke-virtual {v0, p2}, Lcom/huawei/appmarket/dq5;->a(Z)V
 
     return-void
 .end method

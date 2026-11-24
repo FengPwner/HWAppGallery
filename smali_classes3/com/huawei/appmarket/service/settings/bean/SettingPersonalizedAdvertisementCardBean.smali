@@ -37,17 +37,17 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/c33;->a()Lcom/huawei/appmarket/tr3;
+    invoke-static {}, Lcom/huawei/appmarket/f33;->a()Lcom/huawei/appmarket/vr3;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/tr3;->b(Ljava/lang/String;)I
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/vr3;->b(Ljava/lang/String;)I
 
     move-result v1
 
@@ -55,11 +55,11 @@
 
     if-eq v1, v2, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/tr3;->b(Ljava/lang/String;)I
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/vr3;->b(Ljava/lang/String;)I
 
     move-result p1
 

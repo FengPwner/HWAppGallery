@@ -156,11 +156,11 @@
 
     if-eqz v4, :cond_0
 
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
-    invoke-static {v1, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v1, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     :cond_0
     const/4 v5, 0x1
@@ -1380,49 +1380,6 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
 .method final b(ILcom/huawei/uikit/hwviewpager/widget/HwPagerAdapter;)V
@@ -1894,10 +1851,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method final c(Lcom/huawei/uikit/hwviewpager/widget/HwPagerAdapter;Lcom/huawei/uikit/hwviewpager/widget/HwPagerAdapter;)V
@@ -2619,10 +2572,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method public final requestLayout()V

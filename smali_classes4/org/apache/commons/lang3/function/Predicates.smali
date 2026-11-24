@@ -27,19 +27,19 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/ui1;
+    new-instance v0, Lcom/huawei/appmarket/xi1;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ui1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/xi1;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/function/Predicates;->TRUE:Ljava/util/function/Predicate;
 
-    new-instance v0, Lcom/huawei/appmarket/ui1;
+    new-instance v0, Lcom/huawei/appmarket/xi1;
 
     const/4 v1, 0x3
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ui1;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/xi1;-><init>(I)V
 
     sput-object v0, Lorg/apache/commons/lang3/function/Predicates;->FALSE:Ljava/util/function/Predicate;
 

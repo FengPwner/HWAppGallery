@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field final synthetic b:Lcom/huawei/appmarket/v94;
+.field final synthetic b:Lcom/huawei/appmarket/x94;
 
 .field final synthetic c:Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;Lcom/huawei/appmarket/v94;)V
+.method constructor <init>(Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;Lcom/huawei/appmarket/x94;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->c:Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->b:Lcom/huawei/appmarket/v94;
+    iput-object p2, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->b:Lcom/huawei/appmarket/x94;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,17 +44,17 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->c:Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;->access$600(Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;)Lcom/huawei/appmarket/du3;
+    invoke-static {p1}, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;->access$600(Lcom/huawei/appgallery/common/media/adapter/GroupAdapter;)Lcom/huawei/appmarket/fu3;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->b:Lcom/huawei/appmarket/v94;
+    iget-object v0, p0, Lcom/huawei/appgallery/common/media/adapter/GroupAdapter$a;->b:Lcom/huawei/appmarket/x94;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/v94;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/x94;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/du3;->m1(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fu3;->m1(Ljava/lang/String;)V
 
     return-void
 .end method

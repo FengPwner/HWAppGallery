@@ -14,13 +14,13 @@
 
 # instance fields
 .field private mHashes:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "hashes"
     .end annotation
 .end field
 
 .field private mPageIds:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "pageIds"
     .end annotation
 .end field

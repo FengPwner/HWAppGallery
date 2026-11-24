@@ -35,7 +35,7 @@
     const/4 v1, 0x3
 
     .line 3
-    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/l66;->b(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;Lcom/huawei/appgallery/search/ui/bean/OperationInfo;)V
+    invoke-static {v1, p1, v0}, Lcom/huawei/appmarket/n66;->b(ILcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;Lcom/huawei/appgallery/search/ui/bean/OperationInfo;)V
 
     .line 4
     .line 5
@@ -141,14 +141,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final F5()V
     .registers 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 2
     .line 3
@@ -176,7 +175,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 16
     .line 17
@@ -216,7 +215,7 @@
 
     .line 34
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 35
     .line 36
@@ -258,7 +257,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -351,7 +350,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -397,7 +396,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v1, p0, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->C2:I
 
@@ -421,7 +420,7 @@
 
     const-string v2, "onLoadingMore nextPageNum Illegal"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -462,7 +461,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/rl1;->a(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ul1;->a(I)V
 
     :cond_0
     invoke-super {p0, p1, p2, p3}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -504,7 +503,7 @@
 
     const-string v1, " getActivity() == null "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;

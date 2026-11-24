@@ -97,7 +97,7 @@
     const/4 v1, 0x0
 
     .line 5
-    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/bu0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-static {p1, v0, p1, v1}, Lcom/huawei/appmarket/kd0;->e(Landroid/view/ViewGroup;ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 6
     .line 7
@@ -207,7 +207,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final k(Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard$a$a;I)V

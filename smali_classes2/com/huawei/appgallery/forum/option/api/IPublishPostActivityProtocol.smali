@@ -13,7 +13,7 @@
 .method public abstract getIsUpdate()Z
 .end method
 
-.method public abstract getPublishData()Lcom/huawei/appmarket/la6;
+.method public abstract getPublishData()Lcom/huawei/appmarket/na6;
 .end method
 
 .method public abstract setFromBuoy(Z)V
@@ -22,5 +22,5 @@
 .method public abstract setIsUpdate(Z)V
 .end method
 
-.method public abstract setPublishData(Lcom/huawei/appmarket/la6;)V
+.method public abstract setPublishData(Lcom/huawei/appmarket/na6;)V
 .end method

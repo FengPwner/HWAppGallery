@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "msg_setting_fragment"
     protocol = Lcom/huawei/appgallery/forum/message/api/ILauncherMsgSwitchSettingProtocol;
 .end annotation
@@ -43,15 +43,15 @@
 
     if-eqz v2, :cond_0
 
-    new-instance v2, Lcom/huawei/appmarket/rs4;
+    new-instance v2, Lcom/huawei/appmarket/us4;
 
-    invoke-direct {v2, p1}, Lcom/huawei/appmarket/rs4;-><init>(Lcom/huawei/appgallery/forum/message/msgsetting/launcher/request/GetLauncherMsgSettingResponse;)V
+    invoke-direct {v2, p1}, Lcom/huawei/appmarket/us4;-><init>(Lcom/huawei/appgallery/forum/message/msgsetting/launcher/request/GetLauncherMsgSettingResponse;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->I0:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
     const v3, 0x7f11000a
 
-    invoke-virtual {v2, v1, p1, v3}, Lcom/huawei/appmarket/rs4;->createProvider(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;I)V
+    invoke-virtual {v2, v1, p1, v3}, Lcom/huawei/appmarket/us4;->createProvider(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;I)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->I0:Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;
 
@@ -216,7 +216,7 @@
     .line 51
     :cond_2
     :goto_0
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->V0:Lcom/huawei/appmarket/vw4;
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->V0:Lcom/huawei/appmarket/yw4;
 
     .line 52
     .line 53
@@ -224,7 +224,7 @@
 
     .line 54
     .line 55
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/vw4;->c(I)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/yw4;->c(I)V
 
     .line 56
     .line 57
@@ -342,5 +342,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

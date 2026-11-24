@@ -27,7 +27,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/of3;->b()Lcom/huawei/appmarket/of3;
+    invoke-static {}, Lcom/huawei/appmarket/qf3;->b()Lcom/huawei/appmarket/qf3;
 
     .line 2
     .line 3
@@ -39,7 +39,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/of3;->a(Lcom/huawei/appmarket/framework/widget/uxwidget/hwdotspageindicator/HwTopBannerIndicator;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qf3;->a(Lcom/huawei/appmarket/framework/widget/uxwidget/hwdotspageindicator/HwTopBannerIndicator;)V
 
     .line 8
     .line 9
@@ -153,14 +153,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onViewDetachedFromWindow(Landroid/view/View;)V
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/of3;->b()Lcom/huawei/appmarket/of3;
+    invoke-static {}, Lcom/huawei/appmarket/qf3;->b()Lcom/huawei/appmarket/qf3;
 
     .line 2
     .line 3
@@ -172,7 +171,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/of3;->c(Lcom/huawei/appmarket/framework/widget/uxwidget/hwdotspageindicator/HwTopBannerIndicator;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qf3;->c(Lcom/huawei/appmarket/framework/widget/uxwidget/hwdotspageindicator/HwTopBannerIndicator;)V
 
     .line 8
     .line 9
@@ -194,7 +193,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -292,5 +291,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

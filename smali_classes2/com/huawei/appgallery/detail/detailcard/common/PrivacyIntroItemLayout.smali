@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/PrivacyIntroItemLayout;->d:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0a16fe
+    const v0, 0x7f0a16ff
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -100,7 +100,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailcard/common/PrivacyIntroItemLayout;->e:Landroid/widget/LinearLayout;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     return-void
 .end method
@@ -176,7 +176,7 @@
 
     .line 31
     .line 32
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 33
     .line 34
@@ -188,11 +188,11 @@
 
     .line 37
     .line 38
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 39
     .line 40
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 41
     .line 42
@@ -200,11 +200,11 @@
     move-result-object v0
 
     .line 44
-    const-class v2, Lcom/huawei/appmarket/vs3;
+    const-class v2, Lcom/huawei/appmarket/xs3;
 
     .line 45
     .line 46
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -212,7 +212,7 @@
     move-result-object v0
 
     .line 50
-    check-cast v0, Lcom/huawei/appmarket/vs3;
+    check-cast v0, Lcom/huawei/appmarket/xs3;
 
     .line 51
     .line 52
@@ -224,16 +224,16 @@
     move-result-object v2
 
     .line 56
-    new-instance v3, Lcom/huawei/appmarket/o94$a;
+    new-instance v3, Lcom/huawei/appmarket/q94$a;
 
     .line 57
     .line 58
-    invoke-direct {v3}, Lcom/huawei/appmarket/o94$a;-><init>()V
+    invoke-direct {v3}, Lcom/huawei/appmarket/q94$a;-><init>()V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v3}, Lcom/huawei/appmarket/o94$a;->r()V
+    invoke-virtual {v3}, Lcom/huawei/appmarket/q94$a;->r()V
 
     .line 62
     .line 63
@@ -242,26 +242,26 @@
 
     .line 65
     .line 66
-    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/o94$a;->p(Landroid/widget/ImageView;)V
+    invoke-virtual {v3, v4}, Lcom/huawei/appmarket/q94$a;->p(Landroid/widget/ImageView;)V
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/o94$a;->x(Z)V
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/q94$a;->x(Z)V
 
     .line 70
     .line 71
     .line 72
-    new-instance v4, Lcom/huawei/appmarket/o94;
+    new-instance v4, Lcom/huawei/appmarket/q94;
 
     .line 73
     .line 74
-    invoke-direct {v4, v3}, Lcom/huawei/appmarket/o94;-><init>(Lcom/huawei/appmarket/o94$a;)V
+    invoke-direct {v4, v3}, Lcom/huawei/appmarket/q94;-><init>(Lcom/huawei/appmarket/q94$a;)V
 
     .line 75
     .line 76
     .line 77
-    invoke-interface {v0, v2, v4}, Lcom/huawei/appmarket/vs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/o94;)V
+    invoke-interface {v0, v2, v4}, Lcom/huawei/appmarket/xs3;->e(Ljava/lang/String;Lcom/huawei/appmarket/q94;)V
 
     .line 78
     .line 79
@@ -275,7 +275,7 @@
     move-result-object v0
 
     .line 84
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 85
     .line 86
@@ -562,7 +562,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/common/PrivacyIntroItemLayout;->c:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/jj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/mj1;->b(Landroid/widget/TextView;Ljava/lang/Object;)V
 
     return-void
 .end method

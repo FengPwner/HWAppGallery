@@ -75,7 +75,7 @@
 
     const-string v3, "eventCallTimesKeys"
 
-    const-string v4, "{}"
+    const-string/jumbo v4, "{}"
 
     invoke-virtual {v2, v3, v4}, Lcom/huawei/wisesecurity/kfs/util/SpUtil;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

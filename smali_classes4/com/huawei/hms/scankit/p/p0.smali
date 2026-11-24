@@ -2215,7 +2215,7 @@
 .method private a(Ljava/lang/StringBuilder;[I[IILcom/huawei/hms/scankit/p/r;Ljava/util/List;)V
     .registers 32
 
-    .line 3
+    .line 5
     move-object/from16 v0, p0
 
     move-object/from16 v1, p1
@@ -2518,7 +2518,7 @@
 .method private static a(Lcom/huawei/hms/scankit/p/r;II)Z
     .registers 4
 
-    .line 4
+    .line 6
     const/4 v0, 0x0
 
     invoke-virtual {p0, p1, p2, v0, v0}, Lcom/huawei/hms/scankit/p/r;->a(IIZZ)Z
@@ -2531,7 +2531,7 @@
 .method private static a(Lcom/huawei/hms/scankit/p/r;)[I
     .registers 14
 
-    .line 5
+    .line 7
     invoke-virtual {p0}, Lcom/huawei/hms/scankit/p/r;->d()I
 
     move-result v0
@@ -2666,7 +2666,7 @@
 .method private a(Ljava/lang/StringBuilder;[I)[I
     .registers 19
 
-    .line 6
+    .line 8
     move-object/from16 v0, p1
 
     const/4 v1, 0x0
@@ -3349,9 +3349,8 @@
 
 # virtual methods
 .method public a(ILcom/huawei/hms/scankit/p/r;Ljava/util/Map;)Lcom/huawei/hms/scankit/p/z5;
-    .registers 21
+    .registers 22
 
-    .line 2
     invoke-static/range {p2 .. p2}, Lcom/huawei/hms/scankit/p/p0;->a(Lcom/huawei/hms/scankit/p/r;)[I
 
     move-result-object v7
@@ -3366,7 +3365,9 @@
 
     sub-int/2addr v1, v0
 
-    div-int/lit8 v1, v1, 0xb
+    const/16 v10, 0xb
+
+    div-int/2addr v1, v10
 
     mul-int/lit8 v1, v1, 0xa
 
@@ -3397,15 +3398,15 @@
     move-object/from16 v5, p2
 
     :goto_0
-    const/4 v10, 0x2
+    const/4 v11, 0x2
 
-    aget v4, v7, v10
+    aget v4, v7, v11
 
-    new-instance v11, Ljava/util/ArrayList;
+    new-instance v12, Ljava/util/ArrayList;
 
     const/16 v0, 0x14
 
-    invoke-direct {v11, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {v12, v0}, Ljava/util/ArrayList;-><init>(I)V
 
     int-to-byte v1, v4
 
@@ -3413,13 +3414,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v11, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v12, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const/16 v12, 0x63
+    const/16 v13, 0x63
 
-    const/16 v13, 0x67
+    const/16 v14, 0x67
 
-    if-ne v4, v13, :cond_2
+    if-ne v4, v14, :cond_2
 
     const/16 v1, 0x65
 
@@ -3449,49 +3450,51 @@
     :goto_1
     if-eqz v1, :cond_b
 
-    new-instance v14, Ljava/lang/StringBuilder;
+    new-instance v15, Ljava/lang/StringBuilder;
 
-    invoke-direct {v14, v0}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v15, v0}, Ljava/lang/StringBuilder;-><init>(I)V
 
     const/4 v0, 0x7
 
-    new-array v15, v0, [I
+    new-array v6, v0, [I
 
     const/16 v16, 0x6
 
-    aput v1, v15, v16
+    aput v1, v6, v16
 
     move-object/from16 v0, p0
 
-    move-object v1, v14
+    move-object v1, v15
 
     move-object v2, v7
 
-    move-object v3, v15
+    move-object v3, v6
 
     move-object/from16 v5, p2
 
-    move-object v6, v11
+    move-object/from16 v17, v6
+
+    move-object v6, v12
 
     invoke-direct/range {v0 .. v6}, Lcom/huawei/hms/scankit/p/p0;->a(Ljava/lang/StringBuilder;[I[IILcom/huawei/hms/scankit/p/r;Ljava/util/List;)V
 
-    aget v0, v15, v8
+    aget v0, v17, v8
 
-    aget v1, v15, v9
+    aget v1, v17, v9
 
-    aget v2, v15, v10
+    aget v2, v17, v11
 
     const/4 v3, 0x3
 
-    aget v3, v15, v3
+    aget v3, v17, v3
 
     const/4 v4, 0x4
 
-    aget v4, v15, v4
+    aget v4, v17, v4
 
     const/4 v5, 0x5
 
-    aget v5, v15, v5
+    aget v5, v17, v5
 
     if-ne v5, v9, :cond_5
 
@@ -3503,7 +3506,7 @@
     const/4 v5, 0x0
 
     :goto_2
-    aget v6, v15, v16
+    aget v6, v17, v16
 
     sub-int/2addr v1, v0
 
@@ -3511,11 +3514,11 @@
 
     sub-int/2addr v3, v4
 
-    rem-int/2addr v3, v13
+    rem-int/2addr v3, v14
 
     if-ne v3, v2, :cond_a
 
-    invoke-virtual {v14}, Ljava/lang/StringBuilder;->length()I
+    invoke-virtual {v15}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
 
@@ -3525,12 +3528,12 @@
 
     if-eqz v5, :cond_7
 
-    if-ne v6, v12, :cond_6
+    if-ne v6, v13, :cond_6
 
     add-int/lit8 v3, v2, -0x2
 
     :goto_3
-    invoke-virtual {v14, v3, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
+    invoke-virtual {v15, v3, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
     goto :goto_4
 
@@ -3545,15 +3548,17 @@
 
     int-to-float v2, v2
 
-    mul-int/lit8 v1, v1, 0xd
+    const/16 v3, 0xd
 
-    div-int/lit8 v1, v1, 0xb
+    .line 2
+    invoke-static {v1, v3, v10, v0}, Lcom/huawei/appmarket/kk4;->D(IIII)I
 
-    add-int/2addr v1, v0
+    move-result v0
 
-    int-to-float v0, v1
+    int-to-float v0, v0
 
-    invoke-virtual {v11}, Ljava/util/ArrayList;->size()I
+    .line 3
+    invoke-virtual {v12}, Ljava/util/ArrayList;->size()I
 
     move-result v1
 
@@ -3564,7 +3569,7 @@
     :goto_5
     if-ge v4, v1, :cond_8
 
-    invoke-virtual {v11, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v12, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -3583,7 +3588,7 @@
     :cond_8
     new-instance v1, Lcom/huawei/hms/scankit/p/z5;
 
-    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v15}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v4
 
@@ -3599,7 +3604,7 @@
 
     invoke-direct {v2, v0, v6}, Lcom/huawei/hms/scankit/p/b6;-><init>(FF)V
 
-    new-array v0, v10, [Lcom/huawei/hms/scankit/p/b6;
+    new-array v0, v11, [Lcom/huawei/hms/scankit/p/b6;
 
     aput-object v5, v0, v8
 

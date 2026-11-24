@@ -12,9 +12,9 @@
 
 .field private t:Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;
 
-.field private u:Lcom/huawei/appmarket/d54$a;
+.field private u:Lcom/huawei/appmarket/g54$a;
 
-.field v:Lcom/huawei/appmarket/zn5;
+.field v:Lcom/huawei/appmarket/ao5;
 
 
 # direct methods
@@ -27,7 +27,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity$a;-><init>(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->v:Lcom/huawei/appmarket/zn5;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->v:Lcom/huawei/appmarket/ao5;
 
     return-void
 .end method
@@ -41,20 +41,20 @@
     return-object p0
 .end method
 
-.method static synthetic D3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;)Lcom/huawei/appmarket/d54$a;
+.method static synthetic D3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;)Lcom/huawei/appmarket/g54$a;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/d54$a;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/g54$a;
 
     return-object p0
 .end method
 
-.method static synthetic E3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;Lcom/huawei/appmarket/d54$a;)V
+.method static synthetic E3(Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;Lcom/huawei/appmarket/g54$a;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/d54$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/g54$a;
 
     return-void
 .end method
@@ -116,7 +116,7 @@
     .line 18
     .line 19
     .line 20
-    const p1, 0x7f0a188d
+    const p1, 0x7f0a188e
 
     .line 21
     .line 22
@@ -137,7 +137,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 32
     .line 33
@@ -267,12 +267,12 @@
     .line 97
     .line 98
     .line 99
-    invoke-static {}, Lcom/huawei/appmarket/t98;->m()Lcom/huawei/appmarket/t98;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->m()Lcom/huawei/appmarket/y98;
 
     .line 100
     .line 101
     .line 102
-    invoke-static {}, Lcom/huawei/appmarket/t98;->y()Lcom/huawei/appmarket/d54$a;
+    invoke-static {}, Lcom/huawei/appmarket/y98;->y()Lcom/huawei/appmarket/g54$a;
 
     .line 103
     .line 104
@@ -280,7 +280,7 @@
     move-result-object p1
 
     .line 106
-    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/d54$a;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->u:Lcom/huawei/appmarket/g54$a;
 
     .line 107
     .line 108
@@ -331,7 +331,7 @@
     .line 128
     .line 129
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/vw7;->n(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ci7;->u(Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioView;Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;)V
 
     .line 130
     .line 131
@@ -368,11 +368,11 @@
 
     .line 144
     .line 145
-    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->v:Lcom/huawei/appmarket/zn5;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/settings/view/activity/SettingAutoUpdateActivity;->v:Lcom/huawei/appmarket/ao5;
 
     .line 146
     .line 147
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/zn5;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/service/settings/view/widget/VerticalRadioViewGroup;->setOnCheckedChangeListener(Lcom/huawei/appmarket/ao5;)V
 
     .line 148
     .line 149
@@ -394,7 +394,7 @@
     .line 157
     .line 158
     .line 159
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ju;->d(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ku;->d(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 160
     .line 161
@@ -424,7 +424,7 @@
 
     .line 174
     .line 175
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 176
     .line 177
@@ -642,8 +642,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final onOptionsItemSelected(Landroid/view/MenuItem;)Z

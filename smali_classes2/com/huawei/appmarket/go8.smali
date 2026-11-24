@@ -1,20 +1,35 @@
-.class public interface abstract Lcom/huawei/appmarket/go8;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/go8;
+.super Lcom/huawei/appmarket/jy4;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a()Ljava/lang/String;
+# static fields
+.field public static final a:Lcom/huawei/appmarket/go8;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/go8;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/go8;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/go8;->a:Lcom/huawei/appmarket/go8;
+
+    return-void
 .end method
 
-.method public abstract c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-.end method
+.method private constructor <init>()V
+    .registers 3
 
-.method public abstract d(Ljava/lang/String;)V
-.end method
+    .line 1
+    const-string v0, "WebVL"
 
-.method public abstract e(I)V
-.end method
+    const/4 v1, 0x1
 
-.method public abstract h(Lcom/huawei/appmarket/rt3;)V
+    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/jy4;-><init>(Ljava/lang/String;I)V
+
+    return-void
 .end method

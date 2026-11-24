@@ -231,7 +231,7 @@
 
     iget-object v3, p1, Lcom/google/android/material/datepicker/CalendarConstraints;->e:Lcom/google/android/material/datepicker/Month;
 
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/wm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/xm5;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

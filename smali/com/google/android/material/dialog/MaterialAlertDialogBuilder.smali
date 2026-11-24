@@ -21,7 +21,7 @@
     const v0, 0x7f0404ee
 
     .line 2
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
 
     move-result-object v1
 
@@ -44,7 +44,7 @@
     const v5, 0x7f1301dc
 
     .line 3
-    invoke-static {p1, v3, v4, v5}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, v3, v4, v5}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object v6
 
@@ -63,7 +63,7 @@
     if-nez p2, :cond_3
 
     .line 4
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
 
     move-result-object p1
 
@@ -91,7 +91,7 @@
 
     move-result-object p2
 
-    invoke-static {p1, v4, v5}, Lcom/huawei/appmarket/l45;->a(Landroid/content/Context;II)Landroid/graphics/Rect;
+    invoke-static {p1, v4, v5}, Lcom/huawei/appmarket/o45;->a(Landroid/content/Context;II)Landroid/graphics/Rect;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -104,22 +104,22 @@
     const v1, 0x7f040116
 
     .line 6
-    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/d45;->b(Landroid/content/Context;ILjava/lang/String;)I
+    invoke-static {p1, v1, v0}, Lcom/huawei/appmarket/g45;->b(Landroid/content/Context;ILjava/lang/String;)I
 
     move-result v0
 
     .line 7
-    new-instance v1, Lcom/huawei/appmarket/q45;
+    new-instance v1, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {v1, p1, v3, v4, v5}, Lcom/huawei/appmarket/q45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {v1, p1, v3, v4, v5}, Lcom/huawei/appmarket/t45;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->B(Landroid/content/Context;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->B(Landroid/content/Context;)V
 
     invoke-static {v0}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -165,7 +165,7 @@
 
     if-ltz p1, :cond_4
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/q45;->E(F)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/t45;->E(F)V
 
     :cond_4
     return-void

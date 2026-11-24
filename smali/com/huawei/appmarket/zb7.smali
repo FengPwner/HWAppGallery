@@ -1,59 +1,137 @@
-.class final Lcom/huawei/appmarket/zb7;
-.super Lcom/huawei/appmarket/ac7$f;
+.class public final Lcom/huawei/appmarket/zb7;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/v21;
 
 
 # instance fields
-.field final synthetic b:Ljava/util/List;
+.field private final a:Ljava/lang/String;
 
-.field final synthetic c:Landroid/graphics/Matrix;
+.field private final b:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/v21;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final c:Z
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/ac7;Ljava/util/List;Landroid/graphics/Matrix;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/util/List;Z)V
     .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/v21;",
+            ">;Z)V"
+        }
+    .end annotation
 
     .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/zb7;->a:Ljava/lang/String;
+
     iput-object p2, p0, Lcom/huawei/appmarket/zb7;->b:Ljava/util/List;
 
-    iput-object p3, p0, Lcom/huawei/appmarket/zb7;->c:Landroid/graphics/Matrix;
-
-    invoke-direct {p0}, Lcom/huawei/appmarket/ac7$f;-><init>()V
+    iput-boolean p3, p0, Lcom/huawei/appmarket/zb7;->c:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/graphics/Matrix;Lcom/huawei/appmarket/kb7;ILandroid/graphics/Canvas;)V
-    .registers 7
+.method public final a(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/u05;Lcom/huawei/appmarket/g40;)Lcom/huawei/appmarket/k21;
+    .registers 5
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appmarket/zb7;->b:Ljava/util/List;
+    new-instance v0, Lcom/huawei/appmarket/p21;
 
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-direct {v0, p1, p3, p0, p2}, Lcom/huawei/appmarket/p21;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/g40;Lcom/huawei/appmarket/zb7;Lcom/huawei/appmarket/u05;)V
 
-    move-result-object p1
+    return-object v0
+.end method
 
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+.method public final b()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/v21;",
+            ">;"
+        }
+    .end annotation
 
-    move-result v0
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb7;->b:Ljava/util/List;
 
-    if-eqz v0, :cond_0
+    return-object v0
+.end method
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+.method public final c()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zb7;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final d()Z
+    .registers 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/zb7;->c:Z
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "ShapeGroup{name=\'"
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zb7;->a:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "\' Shapes: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zb7;->b:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->toArray()[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x7d
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ac7$f;
-
-    iget-object v1, p0, Lcom/huawei/appmarket/zb7;->c:Landroid/graphics/Matrix;
-
-    invoke-virtual {v0, v1, p2, p3, p4}, Lcom/huawei/appmarket/ac7$f;->a(Landroid/graphics/Matrix;Lcom/huawei/appmarket/kb7;ILandroid/graphics/Canvas;)V
-
-    goto :goto_0
-
-    :cond_0
-    return-void
+    return-object v0
 .end method

@@ -1,9 +1,9 @@
 .class final Lcom/huawei/appgallery/videokit/api/VideoEntireController$Companion$instance$2;
-.super Lcom/huawei/appmarket/tr4;
+.super Lcom/huawei/appmarket/wr4;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os2;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/tr4;",
-        "Lcom/huawei/appmarket/os2<",
+        "Lcom/huawei/appmarket/wr4;",
+        "Lcom/huawei/appmarket/rs2<",
         "Lcom/huawei/appgallery/videokit/api/VideoEntireController;",
         ">;"
     }
@@ -48,7 +48,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/wr4;-><init>(I)V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/api/VideoEntireController;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-object v0
 .end method

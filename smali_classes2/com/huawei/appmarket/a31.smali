@@ -31,7 +31,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 9
     .line 10
@@ -39,7 +39,7 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p1}, Lcom/huawei/appmarket/wa7;->z()Landroid/content/SharedPreferences;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/bb7;->z()Landroid/content/SharedPreferences;
 
     .line 13
     .line 14
@@ -128,7 +128,7 @@
 
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 57
     .line 58
@@ -186,5 +186,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

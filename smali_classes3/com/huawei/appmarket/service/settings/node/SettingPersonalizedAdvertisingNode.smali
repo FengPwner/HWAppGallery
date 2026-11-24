@@ -18,11 +18,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n96;->a()Lcom/huawei/appmarket/ah3;
+    invoke-static {}, Lcom/huawei/appmarket/p96;->a()Lcom/huawei/appmarket/ch3;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ah3;->x()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/ch3;->x()Z
 
     move-result v0
 
@@ -63,7 +63,7 @@
 
     const-string v0, "setPadding, view is null."
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

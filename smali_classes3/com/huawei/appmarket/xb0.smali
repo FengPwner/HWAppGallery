@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/gj3;
+.implements Lcom/huawei/appmarket/ij3;
 
 
 # instance fields
@@ -21,7 +21,7 @@
 
 
 # virtual methods
-.method public final X1()V
+.method public final Y1()V
     .registers 5
 
     .line 1
@@ -41,17 +41,17 @@
 
     move-result-object v1
 
-    const-class v2, Lcom/huawei/appmarket/hj3;
+    const-class v2, Lcom/huawei/appmarket/jj3;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v2}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/hj3;
+    check-cast v2, Lcom/huawei/appmarket/jj3;
 
     const/4 v3, 0x0
 
-    invoke-interface {v2, v1, v0, v3}, Lcom/huawei/appmarket/hj3;->H(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/e04;)V
+    invoke-interface {v2, v1, v0, v3}, Lcom/huawei/appmarket/jj3;->H(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/g04;)V
 
     return-void
 .end method

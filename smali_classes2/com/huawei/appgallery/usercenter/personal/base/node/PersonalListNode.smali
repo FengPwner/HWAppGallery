@@ -18,13 +18,13 @@
     .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/na3;->g()Z
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->g()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/zz5;
+    new-instance v0, Lcom/huawei/appmarket/b06;
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/usercenter/personal/base/node/PersonalListNode;->M()I
 
@@ -34,7 +34,7 @@
 
     iget-object v3, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/zz5;-><init>(Landroid/content/Context;II)V
+    invoke-direct {v0, v3, v1, v2}, Lcom/huawei/appmarket/b06;-><init>(Landroid/content/Context;II)V
 
     return-object v0
 

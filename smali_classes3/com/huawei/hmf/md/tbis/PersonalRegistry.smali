@@ -25,7 +25,7 @@
 .method protected registry()V
     .registers 4
 
-    const-class v0, Lcom/huawei/appmarket/zw3;
+    const-class v0, Lcom/huawei/appmarket/bx3;
 
     const/4 v1, 0x0
 

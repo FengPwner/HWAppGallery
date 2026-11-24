@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agguard/business/ui/activity/o;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/activity/o;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     move-result p1
 
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/f12;->b()Z
+    invoke-static {}, Lcom/huawei/appmarket/j12;->b()Z
 
     .line 12
     .line 13
@@ -56,7 +56,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1}, Lcom/huawei/appmarket/g12;->b(Z)V
+    invoke-static {p1}, Lcom/huawei/appmarket/k12;->b(Z)V
 
     .line 18
     .line 19
@@ -92,7 +92,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->d()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cc;->e()V
 
     .line 35
     .line 36

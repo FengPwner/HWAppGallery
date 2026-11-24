@@ -349,7 +349,7 @@
 
     sget-object p1, Lcom/huawei/uikit/hwrecyclerview/widget/HwRollbackRuleDetector;->l:Ljava/lang/String;
 
-    const-string v0, "view is null!"
+    const-string/jumbo v0, "view is null!"
 
     :goto_0
     invoke-static {p1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I

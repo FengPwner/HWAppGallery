@@ -75,7 +75,7 @@
     const-string v0, "transitionVisibilityMode"
 
     .line 2
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/t58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/y58;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result p2
 

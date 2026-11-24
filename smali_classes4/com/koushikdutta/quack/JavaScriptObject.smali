@@ -532,9 +532,9 @@
 .method public createInvocationHandler()Ljava/lang/reflect/InvocationHandler;
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/hm4;
+    new-instance v0, Lcom/huawei/appmarket/km4;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/hm4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/km4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;)V
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/quack/JavaScriptObject;->getWrappedInvocationHandler(Ljava/lang/reflect/InvocationHandler;)Ljava/lang/reflect/InvocationHandler;
 
@@ -727,11 +727,11 @@
 
     iget-object v0, p0, Lcom/koushikdutta/quack/JavaScriptObject;->quackContext:Lcom/koushikdutta/quack/QuackContext;
 
-    new-instance v1, Lcom/huawei/appmarket/im4;
+    new-instance v1, Lcom/huawei/appmarket/lm4;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/im4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;I)V
+    invoke-direct {v1, p0, p1, v2}, Lcom/huawei/appmarket/lm4;-><init>(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;I)V
 
     invoke-virtual {v0, p0, v1}, Lcom/koushikdutta/quack/QuackContext;->getWrappedInvocationHandler(Lcom/koushikdutta/quack/JavaScriptObject;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/reflect/InvocationHandler;
 
@@ -744,7 +744,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ed6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/gd6;->d(Lcom/koushikdutta/quack/QuackObject;Ljava/lang/Object;)Z
 
     move-result p1
 

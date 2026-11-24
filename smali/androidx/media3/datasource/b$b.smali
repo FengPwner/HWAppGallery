@@ -20,7 +20,7 @@
 # instance fields
 .field private final a:Landroidx/media3/datasource/HttpDataSource$c;
 
-.field private b:Lcom/huawei/appmarket/s28;
+.field private b:Lcom/huawei/appmarket/y28;
 
 .field private c:Ljava/lang/String;
 
@@ -80,13 +80,13 @@
 
     move-object v0, v10
 
-    invoke-direct/range {v0 .. v9}, Landroidx/media3/datasource/b;-><init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/i56;ZLandroidx/media3/datasource/b$a;)V
+    invoke-direct/range {v0 .. v9}, Landroidx/media3/datasource/b;-><init>(Ljava/lang/String;IIZZLandroidx/media3/datasource/HttpDataSource$c;Lcom/huawei/appmarket/k56;ZLandroidx/media3/datasource/b$a;)V
 
-    iget-object v0, p0, Landroidx/media3/datasource/b$b;->b:Lcom/huawei/appmarket/s28;
+    iget-object v0, p0, Landroidx/media3/datasource/b$b;->b:Lcom/huawei/appmarket/y28;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v10, v0}, Lcom/huawei/appmarket/i30;->addTransferListener(Lcom/huawei/appmarket/s28;)V
+    invoke-virtual {v10, v0}, Lcom/huawei/appmarket/i30;->addTransferListener(Lcom/huawei/appmarket/y28;)V
 
     :cond_0
     return-object v10
@@ -140,11 +140,11 @@
     return-void
 .end method
 
-.method public final f(Lcom/huawei/appmarket/s28;)V
+.method public final f(Lcom/huawei/appmarket/y28;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Landroidx/media3/datasource/b$b;->b:Lcom/huawei/appmarket/s28;
+    iput-object p1, p0, Landroidx/media3/datasource/b$b;->b:Lcom/huawei/appmarket/y28;
 
     return-void
 .end method

@@ -13,10 +13,10 @@
 
 
 # instance fields
-.field private horizontalAlign:Lcom/huawei/appmarket/u09;
+.field private horizontalAlign:Lcom/huawei/appmarket/a19;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/u09<",
+            "Lcom/huawei/appmarket/a19<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -34,10 +34,10 @@
     .end annotation
 .end field
 
-.field private verticalAlign:Lcom/huawei/appmarket/u09;
+.field private verticalAlign:Lcom/huawei/appmarket/a19;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/u09<",
+            "Lcom/huawei/appmarket/a19<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -144,11 +144,11 @@
 
     invoke-direct {v0}, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue$CSSAlign$Builder;-><init>()V
 
-    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->verticalAlign:Lcom/huawei/appmarket/u09;
+    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->verticalAlign:Lcom/huawei/appmarket/a19;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    invoke-interface {v1}, Lcom/huawei/appmarket/a19;->get()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -169,11 +169,11 @@
     invoke-virtual {v0, v1}, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue$CSSAlign$Builder;->vertical(Ljava/lang/Integer;)V
 
     :cond_0
-    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->horizontalAlign:Lcom/huawei/appmarket/u09;
+    iget-object v1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->horizontalAlign:Lcom/huawei/appmarket/a19;
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/u09;->get()Ljava/lang/Object;
+    invoke-interface {v1}, Lcom/huawei/appmarket/a19;->get()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -206,11 +206,11 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ea9;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/a19;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->horizontalAlign:Lcom/huawei/appmarket/u09;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->horizontalAlign:Lcom/huawei/appmarket/a19;
 
     return-void
 .end method
@@ -220,11 +220,11 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/x99;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/u09;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ea9;->a(Ljava/lang/Class;Ljava/lang/Object;)Lcom/huawei/appmarket/a19;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->verticalAlign:Lcom/huawei/appmarket/u09;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/value/integrate/align/CSSAlignValue;->verticalAlign:Lcom/huawei/appmarket/a19;
 
     return-void
 .end method

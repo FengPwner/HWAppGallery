@@ -51,11 +51,11 @@
     .line 6
     .line 7
     .line 8
-    sget p2, Lcom/huawei/appmarket/dn1;->i:I
+    sget p2, Lcom/huawei/appmarket/gn1;->i:I
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/huawei/appmarket/qw7;->c(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ww7;->c(Landroid/content/Context;)I
 
     .line 11
     .line 12
@@ -80,7 +80,7 @@
 
     .line 22
     .line 23
-    invoke-static {p2, v0, v1, v2, v0}, Lcom/huawei/appmarket/ej2;->t(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p2, v0, v1, v2, v0}, Lcom/huawei/appmarket/tr2;->s(ILjava/util/LinkedHashMap;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 24
     .line 25
@@ -238,5 +238,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

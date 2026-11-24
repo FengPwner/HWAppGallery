@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jt3;
+.implements Lcom/huawei/appmarket/lt3;
 
 
 # annotations
@@ -19,7 +19,7 @@
         "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
         ">",
         "Lcom/huawei/appgallery/horizontalcard/api/bean/HorizontalModuleCardBean;",
-        "Lcom/huawei/appmarket/jt3;"
+        "Lcom/huawei/appmarket/lt3;"
     }
 .end annotation
 

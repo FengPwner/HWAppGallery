@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcom/huawei/appmarket/z51;->i:Landroid/media/MediaCodec$CryptoInfo;
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v2, 0x18
 
@@ -178,7 +178,7 @@
 
     .line 30
     .line 31
-    sget p1, Lcom/huawei/appmarket/ge8;->a:I
+    sget p1, Lcom/huawei/appmarket/le8;->a:I
 
     .line 32
     .line 33

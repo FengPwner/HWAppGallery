@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private y:Lcom/huawei/appmarket/wb8;
+.field private y:Lcom/huawei/appmarket/bc8;
 
 
 # direct methods
@@ -41,20 +41,20 @@
 
 
 # virtual methods
-.method public getUploadImageData()Lcom/huawei/appmarket/wb8;
+.method public getUploadImageData()Lcom/huawei/appmarket/bc8;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DataImageView;->y:Lcom/huawei/appmarket/wb8;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/post/view/DataImageView;->y:Lcom/huawei/appmarket/bc8;
 
     return-object v0
 .end method
 
-.method public setUploadImageData(Lcom/huawei/appmarket/wb8;)V
+.method public setUploadImageData(Lcom/huawei/appmarket/bc8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DataImageView;->y:Lcom/huawei/appmarket/wb8;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/post/view/DataImageView;->y:Lcom/huawei/appmarket/bc8;
 
     return-void
 .end method

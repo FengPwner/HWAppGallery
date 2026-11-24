@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -54,7 +54,7 @@
 
     invoke-static {p1, p2}, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;->F3(Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;Z)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cb7;->a()Lcom/huawei/appmarket/cb7;
+    invoke-static {}, Lcom/huawei/appmarket/hb7;->a()Lcom/huawei/appmarket/hb7;
 
     move-result-object p1
 
@@ -66,7 +66,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/cb7;->c(Ljava/lang/Boolean;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/hb7;->c(Ljava/lang/Boolean;)V
 
     const-string p1, "0"
 
@@ -80,13 +80,13 @@
 
     const/4 p3, 0x0
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/cc;->b(ILjava/util/List;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/cc;->c(ILjava/util/List;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/k82;->e()Lcom/huawei/appmarket/k82;
+    invoke-static {}, Lcom/huawei/appmarket/o82;->e()Lcom/huawei/appmarket/o82;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/k82;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o82;->f()V
 
     goto :goto_0
 
@@ -107,7 +107,7 @@
 
     iget-object p1, p2, Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity$a;->b:Lcom/huawei/appgallery/agguard/business/ui/activity/AgGuardSetUpActivity;
 
-    invoke-static {}, Lcom/huawei/appmarket/f12;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/j12;->a()Z
 
     move-result p2
 

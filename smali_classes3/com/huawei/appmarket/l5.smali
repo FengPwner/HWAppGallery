@@ -62,7 +62,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/huawei/appmarket/om5;->f(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/huawei/appmarket/uq5;->e(I)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -124,7 +124,7 @@
     move-result-object v0
 
     .line 46
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -149,11 +149,11 @@
 
     .line 57
     .line 58
-    const-class p1, Lcom/huawei/appmarket/s24;
+    const-class p1, Lcom/huawei/appmarket/u24;
 
     .line 59
     .line 60
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -161,11 +161,11 @@
     move-result-object p1
 
     .line 64
-    check-cast p1, Lcom/huawei/appmarket/s24;
+    check-cast p1, Lcom/huawei/appmarket/u24;
 
     .line 65
     .line 66
-    invoke-interface {p1}, Lcom/huawei/appmarket/s24;->destroy()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/u24;->destroy()V
 
     .line 67
     .line 68
@@ -218,5 +218,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ur7;
+.implements Lcom/huawei/appmarket/as7;
 
 
 # instance fields
@@ -151,7 +151,7 @@
     return-object v0
 .end method
 
-.method public final b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/ur7;
+.method public final b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/as7;
     .registers 2
 
     .line 1
@@ -577,7 +577,7 @@
     return-object p0
 .end method
 
-.method public final setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+.method public final setContentDescription(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
     .registers 2
 
     .line 2
@@ -822,7 +822,7 @@
     return-object p0
 .end method
 
-.method public final setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/ur7;
+.method public final setTooltipText(Ljava/lang/CharSequence;)Lcom/huawei/appmarket/as7;
     .registers 2
 
     .line 2

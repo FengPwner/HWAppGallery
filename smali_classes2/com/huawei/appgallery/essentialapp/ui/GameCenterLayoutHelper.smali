@@ -48,7 +48,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/essentialapp/ui/LayoutHelper;->a:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v2
 

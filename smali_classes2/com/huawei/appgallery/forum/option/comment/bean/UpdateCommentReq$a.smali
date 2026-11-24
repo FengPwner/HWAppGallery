@@ -43,17 +43,17 @@
 
     iput-wide v0, p0, Lcom/huawei/appgallery/forum/option/comment/bean/UpdateCommentReq$a;->a:J
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ev0;->j()Lcom/huawei/appmarket/wb8;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ev0;->j()Lcom/huawei/appmarket/bc8;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ev0;->j()Lcom/huawei/appmarket/wb8;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ev0;->j()Lcom/huawei/appmarket/bc8;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/wb8;->c()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bc8;->c()J
 
     move-result-wide v0
 
@@ -143,7 +143,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/forum/option/comment/bean/UpdateCommentReq$a;->e:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/oq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
+    invoke-static {v1}, Lcom/huawei/appmarket/qq2;->a(Ljava/lang/String;)Lcom/huawei/appmarket/p71;
 
     move-result-object v1
 

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool;->a(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool;->a(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/hv7;
+.field final synthetic a:Lcom/huawei/appmarket/nv7;
 
 .field final synthetic b:Ljava/util/concurrent/CountDownLatch;
 
@@ -26,11 +26,11 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/hv7;Ljava/util/concurrent/CountDownLatch;Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$a;)V
+.method constructor <init>(Lcom/huawei/appmarket/nv7;Ljava/util/concurrent/CountDownLatch;Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$a;)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;->a:Lcom/huawei/appmarket/hv7;
+    iput-object p1, p0, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;->a:Lcom/huawei/appmarket/nv7;
 
     iput-object p2, p0, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;->b:Ljava/util/concurrent/CountDownLatch;
 
@@ -46,9 +46,9 @@
 .method public onFailure(Ljava/lang/Exception;)V
     .registers 5
 
-    iget-object p1, p0, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;->a:Lcom/huawei/appmarket/hv7;
+    iget-object p1, p0, Lcom/huawei/hms/support/hwid/tools/HuaweiIdAuthTool$1;->a:Lcom/huawei/appmarket/nv7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object p1
 

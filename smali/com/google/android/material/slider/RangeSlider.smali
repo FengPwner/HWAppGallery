@@ -55,7 +55,7 @@
 
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/material/slider/BaseSlider;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->R:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->R:[I
 
     const v4, 0x7f130650
 
@@ -69,7 +69,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
@@ -540,11 +540,11 @@
     return-void
 .end method
 
-.method public bridge synthetic setLabelFormatter(Lcom/huawei/appmarket/rr4;)V
+.method public bridge synthetic setLabelFormatter(Lcom/huawei/appmarket/ur4;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/google/android/material/slider/BaseSlider;->setLabelFormatter(Lcom/huawei/appmarket/rr4;)V
+    invoke-super {p0, p1}, Lcom/google/android/material/slider/BaseSlider;->setLabelFormatter(Lcom/huawei/appmarket/ur4;)V
 
     return-void
 .end method

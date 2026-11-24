@@ -173,7 +173,7 @@
 
     const-string v5, "BuoyHorizonHomeCardBuoy"
 
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -309,7 +309,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v4}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v4
 
@@ -324,7 +324,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -339,7 +339,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -402,7 +402,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/b00;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/fs;->m(Landroid/content/Context;ILandroid/widget/TextView;)V
 
     .line 23
     .line 24
@@ -490,7 +490,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final q1()V

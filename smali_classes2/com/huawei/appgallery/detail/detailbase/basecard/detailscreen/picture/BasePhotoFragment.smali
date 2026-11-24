@@ -16,7 +16,7 @@
 
 .field protected g0:Landroid/view/View;
 
-.field public h0:Lcom/huawei/appmarket/wo5;
+.field public h0:Lcom/huawei/appmarket/xo5;
 
 .field private i0:Z
 
@@ -257,7 +257,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private j3()V
@@ -413,11 +412,11 @@
 
     .line 75
     .line 76
-    new-instance v4, Lcom/huawei/appmarket/x94;
+    new-instance v4, Lcom/huawei/appmarket/z94;
 
     .line 77
     .line 78
-    invoke-direct {v4}, Lcom/huawei/appmarket/x94;-><init>()V
+    invoke-direct {v4}, Lcom/huawei/appmarket/z94;-><init>()V
 
     .line 79
     .line 80
@@ -426,7 +425,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/x94;->f(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/z94;->f(Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -435,7 +434,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/x94;->e(Z)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/z94;->e(Z)V
 
     .line 89
     .line 90
@@ -452,7 +451,7 @@
     move-result v5
 
     .line 97
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/x94;->d(Z)V
+    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/z94;->d(Z)V
 
     .line 98
     .line 99
@@ -461,7 +460,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->b()Lcom/huawei/appmarket/y64;
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->b()Lcom/huawei/appmarket/b74;
 
     .line 103
     .line 104
@@ -473,15 +472,15 @@
 
     .line 107
     .line 108
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/wo5;
+    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/xo5;
 
     .line 109
     .line 110
-    check-cast v5, Lcom/huawei/appmarket/ev8;
+    check-cast v5, Lcom/huawei/appmarket/kv8;
 
     .line 111
     .line 112
-    invoke-virtual {v5, v4, v6, v7}, Lcom/huawei/appmarket/ev8;->a(Lcom/huawei/appmarket/x94;Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;Lcom/huawei/appmarket/wo5;)V
+    invoke-virtual {v5, v4, v6, v7}, Lcom/huawei/appmarket/kv8;->a(Lcom/huawei/appmarket/z94;Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;Lcom/huawei/appmarket/xo5;)V
 
     .line 113
     .line 114
@@ -1099,15 +1098,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 
@@ -1158,7 +1148,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->b()Lcom/huawei/appmarket/y64;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/f;->b()Lcom/huawei/appmarket/b74;
 
     .line 7
     .line 8
@@ -1174,7 +1164,7 @@
     move-result-object v1
 
     .line 14
-    check-cast v0, Lcom/huawei/appmarket/ev8;
+    check-cast v0, Lcom/huawei/appmarket/kv8;
 
     .line 15
     .line 16
@@ -1331,7 +1321,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/wo5;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/xo5;
 
     .line 3
     .line 4
@@ -1415,7 +1405,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->setSmoothImageViewCallback(Lcom/huawei/appmarket/ih7;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->setSmoothImageViewCallback(Lcom/huawei/appmarket/nh7;)V
 
     .line 49
     .line 50
@@ -1676,7 +1666,7 @@
     .line 33
     .line 34
     .line 35
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/wo5;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/picture/BasePhotoFragment;->h0:Lcom/huawei/appmarket/xo5;
 
     .line 36
     .line 37
@@ -1688,7 +1678,7 @@
     move-result-object p1
 
     .line 41
-    instance-of p2, p1, Lcom/huawei/appmarket/ih7;
+    instance-of p2, p1, Lcom/huawei/appmarket/nh7;
 
     .line 42
     .line 43
@@ -1704,11 +1694,11 @@
 
     .line 48
     .line 49
-    check-cast p1, Lcom/huawei/appmarket/ih7;
+    check-cast p1, Lcom/huawei/appmarket/nh7;
 
     .line 50
     .line 51
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->setSmoothImageViewCallback(Lcom/huawei/appmarket/ih7;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/detail/detailbase/widget/SmoothImageView;->setSmoothImageViewCallback(Lcom/huawei/appmarket/nh7;)V
 
     .line 52
     .line 53
@@ -1826,7 +1816,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final x2(Landroid/os/Bundle;)V

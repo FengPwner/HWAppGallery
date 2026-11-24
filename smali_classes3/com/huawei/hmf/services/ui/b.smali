@@ -77,38 +77,38 @@
 
     if-eqz v2, :cond_2
 
-    new-instance v2, Lcom/huawei/appmarket/er2;
+    new-instance v2, Lcom/huawei/appmarket/gr2;
 
-    invoke-direct {v2, v1}, Lcom/huawei/appmarket/er2;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v2, v1}, Lcom/huawei/appmarket/gr2;-><init>(Landroid/os/Bundle;)V
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/er2;->a()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/gr2;->a()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/dr6;
+    check-cast v3, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     :cond_1
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    const-class v1, Lcom/huawei/appmarket/fr2;
+    const-class v1, Lcom/huawei/appmarket/hr2;
 
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/fr2;
+    check-cast v0, Lcom/huawei/appmarket/hr2;
 
-    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/er2;->b(Lcom/huawei/appmarket/fr2;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/gr2;->b(Lcom/huawei/appmarket/hr2;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -130,7 +130,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/hmf/services/ui/b;->a:Landroid/app/Fragment;
 
-    const-class v1, Lcom/huawei/appmarket/i24;
+    const-class v1, Lcom/huawei/appmarket/k24;
 
     invoke-virtual {v1, v0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 

@@ -46,7 +46,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ca1;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/da1;)V
     .registers 5
 
     .line 3
@@ -54,7 +54,7 @@
 
     const-class v1, Lcom/huawei/appmarket/support/storage/thirdappparams/ThirdAppParamsBean;
 
-    invoke-direct {p0, p1, v0, v1, p2}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/ca1;)V
+    invoke-direct {p0, p1, v0, v1, p2}, Lcom/huawei/appmarket/b2;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/Class;Lcom/huawei/appmarket/da1;)V
 
     return-void
 .end method
@@ -285,7 +285,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final d(Ljava/lang/String;Ljava/lang/String;)V
@@ -298,13 +297,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/m91;->b:Lcom/huawei/appmarket/m91;
+    sget-object p1, Lcom/huawei/appmarket/n91;->b:Lcom/huawei/appmarket/n91;
 
     const-string p2, "ThirdAppInitParamsDao"
 
     const-string v0, "key isEmpty"
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/m91;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/n91;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -313,7 +312,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/huawei/appmarket/support/storage/thirdappparams/ThirdAppParamsDao$a;-><init>(Lcom/huawei/appmarket/support/storage/thirdappparams/ThirdAppParamsDao;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v0}, Lcom/huawei/appmarket/tw7;->callInBackground(Ljava/util/concurrent/Callable;)Lcom/huawei/appmarket/nv7;
 
     return-void
 .end method

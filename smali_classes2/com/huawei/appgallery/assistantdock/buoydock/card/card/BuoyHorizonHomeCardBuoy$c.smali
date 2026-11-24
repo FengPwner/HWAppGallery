@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v1
 
@@ -190,7 +190,7 @@
 
     const-string v2, "BuoyHorizonHomeCardBuoy"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -269,7 +269,7 @@
 
     const-string v0, "BuoyHorizonHomeCardBuoy"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 .end method

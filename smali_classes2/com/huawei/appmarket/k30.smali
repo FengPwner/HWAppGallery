@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/k30;
-.super Lcom/huawei/appmarket/ja5;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ja5;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
@@ -19,7 +19,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/qo2;->e()V
+    invoke-static {}, Lcom/huawei/appmarket/so2;->e()V
 
     .line 2
     .line 3
@@ -32,12 +32,12 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/e87;->c(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j87;->c(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/zd8;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/ee8;->d()V
 
     .line 12
     .line 13

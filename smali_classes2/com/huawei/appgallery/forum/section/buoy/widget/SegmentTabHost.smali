@@ -34,9 +34,9 @@
 
 .field private f:Landroid/widget/TabHost$OnTabChangeListener;
 
-.field private g:Lcom/huawei/appmarket/b67;
+.field private g:Lcom/huawei/appmarket/g67;
 
-.field private h:Lcom/huawei/appmarket/k14;
+.field private h:Lcom/huawei/appmarket/m14;
 
 .field private i:Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;
 
@@ -122,11 +122,11 @@
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/k14;)V
+.method public final a(Landroid/content/Context;Lcom/huawei/appmarket/m14;)V
     .registers 9
 
     .line 1
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/k14;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/m14;
 
     .line 2
     .line 3
@@ -430,7 +430,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public getCurrentSegment()Lcom/huawei/appmarket/e50;
@@ -441,7 +440,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v0, v0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     return-object v0
 
@@ -497,7 +496,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -536,12 +535,12 @@
     move-result-object v0
 
     .line 38
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 42
     .line 43
@@ -553,7 +552,7 @@
 
     .line 46
     .line 47
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -656,7 +655,7 @@
     move-result-object v0
 
     .line 95
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     .line 97
@@ -673,7 +672,7 @@
 
     .line 103
     .line 104
-    iget-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 105
     .line 106
@@ -685,11 +684,11 @@
 
     .line 109
     .line 110
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 111
     .line 112
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/b67;->getItem(I)Lcom/huawei/appmarket/eq2;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/g67;->getItem(I)Lcom/huawei/appmarket/gq2;
 
     .line 113
     .line 114
@@ -697,7 +696,7 @@
     move-result-object v0
 
     .line 116
-    iput-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iput-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 117
     .line 118
@@ -714,7 +713,7 @@
     .line 123
     .line 124
     .line 125
-    iget-object v3, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v3, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 126
     .line 127
@@ -731,12 +730,12 @@
     move-result-object v0
 
     .line 134
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 135
     .line 136
     .line 137
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/k14;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/m14;
 
     .line 138
     .line 139
@@ -748,7 +747,7 @@
 
     .line 142
     .line 143
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
     .line 145
@@ -761,12 +760,12 @@
 
     .line 148
     .line 149
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
     .line 151
     .line 152
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/k14;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->h:Lcom/huawei/appmarket/m14;
 
     .line 153
     .line 154
@@ -774,26 +773,26 @@
 
     .line 155
     .line 156
-    iget-object v3, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v3, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 157
     .line 158
-    check-cast v0, Lcom/huawei/appmarket/y57;
+    check-cast v0, Lcom/huawei/appmarket/d67;
 
     .line 159
     .line 160
-    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/y57;->a(ILcom/huawei/appmarket/e50;)V
+    invoke-virtual {v0, v1, v3}, Lcom/huawei/appmarket/d67;->a(ILcom/huawei/appmarket/e50;)V
 
     .line 161
     .line 162
     .line 163
     :cond_4
     :goto_2
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 164
     .line 165
-    iget-object v1, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v1, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 166
     .line 167
@@ -809,12 +808,12 @@
 
     .line 172
     :cond_5
-    iget-object v4, v3, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v4, v3, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 173
     .line 174
     :goto_3
-    invoke-interface {v0, v2, v1, v4}, Lcom/huawei/appmarket/b67;->a(ILcom/huawei/appmarket/e50;Lcom/huawei/appmarket/e50;)V
+    invoke-interface {v0, v2, v1, v4}, Lcom/huawei/appmarket/g67;->a(ILcom/huawei/appmarket/e50;Lcom/huawei/appmarket/e50;)V
 
     .line 175
     .line 176
@@ -827,7 +826,7 @@
 
     .line 180
     .line 181
-    iget-object v0, v0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v0, v0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 182
     .line 183
@@ -835,13 +834,13 @@
 
     .line 184
     .line 185
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gq2;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/iq2;->h()V
 
     .line 186
     .line 187
     .line 188
     :cond_6
-    iget-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/eq2;
+    iget-object v0, v5, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost$a;->c:Lcom/huawei/appmarket/gq2;
 
     .line 189
     .line 190
@@ -849,7 +848,7 @@
 
     .line 191
     .line 192
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gq2;->g()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/iq2;->g()V
 
     .line 193
     .line 194
@@ -934,7 +933,7 @@
     .line 260
 .end method
 
-.method public setAdapter(Lcom/huawei/appmarket/b67;)V
+.method public setAdapter(Lcom/huawei/appmarket/g67;)V
     .registers 6
 
     .line 1
@@ -946,12 +945,12 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 9
     .line 10
@@ -963,7 +962,7 @@
 
     .line 13
     :cond_0
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 14
     .line 15
@@ -971,7 +970,7 @@
 
     .line 16
     .line 17
-    invoke-interface {p1}, Lcom/huawei/appmarket/b67;->getCount()I
+    invoke-interface {p1}, Lcom/huawei/appmarket/g67;->getCount()I
 
     .line 18
     .line 19
@@ -987,11 +986,11 @@
 
     .line 23
     .line 24
-    iget-object v1, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v1, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 25
     .line 26
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/b67;->b(I)Ljava/lang/String;
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/g67;->b(I)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -1007,11 +1006,11 @@
     move-result-object v1
 
     .line 34
-    iget-object v2, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/b67;
+    iget-object v2, p0, Lcom/huawei/appgallery/forum/section/buoy/widget/SegmentTabHost;->g:Lcom/huawei/appmarket/g67;
 
     .line 35
     .line 36
-    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/b67;->c(ILandroid/widget/TabHost$TabSpec;)Z
+    invoke-interface {v2, v0, v1}, Lcom/huawei/appmarket/g67;->c(ILandroid/widget/TabHost$TabSpec;)Z
 
     .line 37
     .line 38
@@ -1119,7 +1118,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V

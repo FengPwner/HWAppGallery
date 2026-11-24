@@ -25,7 +25,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/permitapp/permitappkit/displayconfig/bean/DisplayConfigReq$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/permitapp/permitappkit/displayconfig/bean/DisplayConfigReq$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/permitapp/permitappkit/displayconfig/bean/DisplayConfigReq;->Companion:Lcom/huawei/appgallery/permitapp/permitappkit/displayconfig/bean/DisplayConfigReq$a;
 

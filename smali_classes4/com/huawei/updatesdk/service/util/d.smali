@@ -346,7 +346,7 @@
 
     new-instance p0, Ljava/lang/StringBuilder;
 
-    const-string p2, "valid provider: "
+    const-string/jumbo p2, "valid provider: "
 
     invoke-direct {p0, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

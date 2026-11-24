@@ -25,11 +25,11 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/s03;->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/v03;->c(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/s03;->n(Ljava/lang/String;Z)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/v03;->n(Ljava/lang/String;Z)V
 
     return-void
 .end method

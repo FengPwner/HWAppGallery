@@ -3,25 +3,15 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<S:",
-        "Lcom/huawei/appmarket/e30;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
-
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/e30;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TS;)V"
-        }
-    .end annotation
+.method public abstract a(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Lcom/huawei/appmarket/service/reserve/game/bean/ReserveRequest;
 .end method
 
-.method public abstract getType()Ljava/lang/reflect/Type;
+.method public abstract b(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)V
+.end method
+
+.method public abstract c(Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;)Z
+.end method
+
+.method public abstract d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
 .end method

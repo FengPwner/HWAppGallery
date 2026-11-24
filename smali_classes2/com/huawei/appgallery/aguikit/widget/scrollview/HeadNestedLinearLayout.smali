@@ -61,7 +61,7 @@
 
     const-string v0, "child is null"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -170,7 +170,7 @@
     move-result-object v1
 
     .line 9
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 10
     .line 11
@@ -509,7 +509,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public setMatchParent(Z)V

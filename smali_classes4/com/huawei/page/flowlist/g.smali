@@ -45,7 +45,7 @@
     return-void
 .end method
 
-.method final b(Ljava/lang/String;Lcom/huawei/appmarket/hv7;)V
+.method final b(Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
     .registers 4
 
     .line 1

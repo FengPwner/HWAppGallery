@@ -32,7 +32,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/ej2;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/tr2;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     .line 10
     .line 11
@@ -78,7 +78,7 @@
     move-result-object p2
 
     .line 32
-    invoke-static {p2}, Lcom/huawei/appmarket/hj5;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/huawei/appmarket/jj5;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -445,7 +445,7 @@
     move-result-object p0
 
     .line 224
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 225
     .line 226
@@ -566,13 +566,13 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-class v1, Lcom/huawei/appmarket/d54;
+    const-class v1, Lcom/huawei/appmarket/g54;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/a43;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/huawei/appmarket/d43;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/d54;
+    check-cast v1, Lcom/huawei/appmarket/g54;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -580,7 +580,7 @@
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/d54;->y()Lcom/huawei/appmarket/d54$a;
+    invoke-interface {v1}, Lcom/huawei/appmarket/g54;->y()Lcom/huawei/appmarket/g54$a;
 
     move-result-object v1
 
@@ -596,7 +596,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/huawei/appmarket/xh;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wh;->a()Z
 
     move-result v1
 
@@ -651,7 +651,7 @@
     :cond_0
     const-string p0, "1010900301"
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/a73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method

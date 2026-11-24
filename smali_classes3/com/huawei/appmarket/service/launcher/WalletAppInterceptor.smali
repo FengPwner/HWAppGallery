@@ -46,7 +46,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 16
     .line 17
@@ -216,7 +216,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public interceptorResult(Ljava/lang/String;Landroid/content/Context;)V
@@ -228,11 +227,11 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/k97;->b()Lcom/huawei/appmarket/kw3;
+    invoke-static {}, Lcom/huawei/appmarket/p97;->b()Lcom/huawei/appmarket/mw3;
 
     move-result-object p1
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/kw3;->a(Landroid/content/Context;)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/mw3;->a(Landroid/content/Context;)V
 
     :cond_0
     return-void

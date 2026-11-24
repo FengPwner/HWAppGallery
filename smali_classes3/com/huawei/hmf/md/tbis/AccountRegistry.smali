@@ -25,7 +25,7 @@
 .method public final registry()V
     .registers 4
 
-    const/4 v0, 0x0
+    const-string v0, "apitest"
 
     const-string v1, "IAccountManager"
 
@@ -33,7 +33,7 @@
 
     invoke-virtual {p0, v1, v2, v0}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 
-    const-string v0, "apitest"
+    const/4 v0, 0x0
 
     invoke-virtual {p0, v1, v2, v0}, Lcom/huawei/hmf/orb/tbis/TBModuleRegistry;->add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
 

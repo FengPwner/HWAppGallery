@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -44,7 +44,7 @@
 
     iget-object p2, p0, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction$a;->b:Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;->access$000(Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;)Lcom/huawei/appmarket/c72$b;
+    invoke-static {p2}, Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;->access$000(Lcom/huawei/appgallery/forum/user/api/OpenLoginCheckerAction;)Lcom/huawei/appmarket/g72$b;
 
     move-result-object p2
 

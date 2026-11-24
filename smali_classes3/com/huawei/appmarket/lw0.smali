@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # instance fields
@@ -46,11 +46,11 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/lw0;->d:Lcom/huawei/appmarket/mw0;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/mw0;->b(Lcom/huawei/appmarket/mw0;)Lcom/huawei/appmarket/ov1;
+    invoke-static {v1}, Lcom/huawei/appmarket/mw0;->b(Lcom/huawei/appmarket/mw0;)Lcom/huawei/appmarket/sv1;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

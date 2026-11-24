@@ -57,7 +57,7 @@
     return-void
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->m(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->m(Landroid/view/View;)Landroid/graphics/Rect;
 
     move-result-object v1
 
@@ -213,7 +213,7 @@
     :cond_5
     iget-object p1, p3, Landroidx/transition/y;->b:Landroid/view/View;
 
-    invoke-static {p1, v2}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p1, v2}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     new-instance p2, Landroidx/transition/q;
 

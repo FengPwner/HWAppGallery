@@ -28,7 +28,7 @@
     const-string v0, "IntentUtils"
 
     .line 1
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     return p2
 .end method
@@ -57,7 +57,7 @@
     const-string v0, "IntentUtils"
 
     .line 6
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     return-wide p2
 .end method
@@ -86,7 +86,7 @@
     const-string v0, "IntentUtils"
 
     .line 11
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/b00;->u(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/fs;->v(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     const-string p0, ""
 

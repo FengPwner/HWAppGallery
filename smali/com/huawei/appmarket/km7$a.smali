@@ -1,5 +1,5 @@
-.class final Lcom/huawei/appmarket/km7$a;
-.super Ljava/lang/Exception;
+.class final synthetic Lcom/huawei/appmarket/km7$a;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -9,33 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x8
-    name = "a"
+    accessFlags = 0x1008
+    name = null
 .end annotation
-
-
-# direct methods
-.method constructor <init>(Ljava/lang/Throwable;)V
-    .registers 4
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "Error thrown initializing StaticLayout "
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {p0, v0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
-.end method

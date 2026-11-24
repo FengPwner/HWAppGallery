@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/aw2;->values()[Lcom/huawei/appmarket/aw2;
+    invoke-static {}, Lcom/huawei/appmarket/dw2;->values()[Lcom/huawei/appmarket/dw2;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/DeepDndEnterCardBuoy$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/aw2;->c:Lcom/huawei/appmarket/aw2;
+    sget-object v1, Lcom/huawei/appmarket/dw2;->c:Lcom/huawei/appmarket/dw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/DeepDndEnterCardBuoy$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/aw2;->d:Lcom/huawei/appmarket/aw2;
+    sget-object v1, Lcom/huawei/appmarket/dw2;->d:Lcom/huawei/appmarket/dw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appgallery/assistantdock/gamemode/card/DeepDndEnterCardBuoy$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/aw2;->e:Lcom/huawei/appmarket/aw2;
+    sget-object v1, Lcom/huawei/appmarket/dw2;->e:Lcom/huawei/appmarket/dw2;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

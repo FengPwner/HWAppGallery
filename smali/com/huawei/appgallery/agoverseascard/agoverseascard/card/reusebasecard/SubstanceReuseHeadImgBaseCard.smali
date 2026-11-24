@@ -368,7 +368,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wj8;->b(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ck8;->b(Landroid/view/View;)Z
 
     move-result p1
 
@@ -378,7 +378,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/wj8;->a(Landroid/view/View;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ck8;->a(Landroid/view/View;)Z
 
     move-result p1
 

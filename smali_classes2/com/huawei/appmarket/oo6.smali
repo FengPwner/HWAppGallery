@@ -1,240 +1,445 @@
-.class final Lcom/huawei/appmarket/oo6;
+.class public final synthetic Lcom/huawei/appmarket/oo6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ap6$a;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/vo6;
+.field public final synthetic b:Lcom/huawei/appmarket/so6;
 
-.field final synthetic b:Lcom/huawei/appmarket/fo6;
+.field public final synthetic c:I
 
-.field final synthetic c:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
+.field public final synthetic d:Ljava/lang/String;
 
-.field final synthetic d:I
+.field public final synthetic e:I
 
-.field final synthetic e:Lcom/huawei/appmarket/po6;
+.field public final synthetic f:Lcom/huawei/appmarket/yo6;
+
+.field public final synthetic g:Lcom/huawei/wearengine/device/Device;
+
+.field public final synthetic h:Lcom/huawei/appmarket/tv7;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/po6;Lcom/huawei/appmarket/vo6;Lcom/huawei/appmarket/fo6;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;I)V
-    .registers 6
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/so6;ILjava/lang/String;ILcom/huawei/appmarket/yo6;Lcom/huawei/wearengine/device/Device;Lcom/huawei/appmarket/tv7;)V
+    .registers 8
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/oo6;->e:Lcom/huawei/appmarket/po6;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/oo6;->a:Lcom/huawei/appmarket/vo6;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/oo6;->b:Lcom/huawei/appmarket/fo6;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/oo6;->c:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
-
-    iput p5, p0, Lcom/huawei/appmarket/oo6;->d:I
-
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/oo6;->b:Lcom/huawei/appmarket/so6;
+
+    iput p2, p0, Lcom/huawei/appmarket/oo6;->c:I
+
+    iput-object p3, p0, Lcom/huawei/appmarket/oo6;->d:Ljava/lang/String;
+
+    iput p4, p0, Lcom/huawei/appmarket/oo6;->e:I
+
+    iput-object p5, p0, Lcom/huawei/appmarket/oo6;->f:Lcom/huawei/appmarket/yo6;
+
+    iput-object p6, p0, Lcom/huawei/appmarket/oo6;->g:Lcom/huawei/wearengine/device/Device;
+
+    iput-object p7, p0, Lcom/huawei/appmarket/oo6;->h:Lcom/huawei/appmarket/tv7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onResult(I)V
-    .registers 9
+.method public final onSuccess(Ljava/lang/Object;)V
+    .registers 15
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/oo6;->c:Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;
+    iget v6, p0, Lcom/huawei/appmarket/oo6;->c:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/oo6;->b:Lcom/huawei/appmarket/fo6;
+    iget v7, p0, Lcom/huawei/appmarket/oo6;->e:I
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/huawei/appmarket/oo6;->a:Lcom/huawei/appmarket/vo6;
+    iget-object v8, p0, Lcom/huawei/appmarket/oo6;->g:Lcom/huawei/wearengine/device/Device;
 
     .line 6
     .line 7
-    iget-object v3, p0, Lcom/huawei/appmarket/oo6;->e:Lcom/huawei/appmarket/po6;
+    iget-object v9, p0, Lcom/huawei/appmarket/oo6;->h:Lcom/huawei/appmarket/tv7;
 
     .line 8
     .line 9
-    if-nez p1, :cond_0
+    check-cast p1, Ljava/lang/Boolean;
 
     .line 10
     .line 11
-    invoke-static {v3, v2, v1, v0}, Lcom/huawei/appmarket/po6;->l(Lcom/huawei/appmarket/po6;Lcom/huawei/appmarket/vo6;Lcom/huawei/appmarket/fo6;Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;)V
+    iget-object v10, p0, Lcom/huawei/appmarket/oo6;->b:Lcom/huawei/appmarket/so6;
 
     .line 12
     .line 13
+    invoke-virtual {v10}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 14
-    goto :goto_0
-
     .line 15
-    :cond_0
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fo6;->f()Lcom/huawei/appmarket/nv7;
-
     .line 16
+    invoke-static {}, Lcom/huawei/appmarket/fp6;->j()Lcom/huawei/appmarket/fp6;
+
     .line 17
     .line 18
-    move-result-object v4
-
     .line 19
-    new-instance v5, Lcom/huawei/appmarket/nv1;
+    move-result-object v0
 
     .line 20
+    iget-object v1, p0, Lcom/huawei/appmarket/oo6;->d:Ljava/lang/String;
+
     .line 21
-    const/16 v6, 0xf
-
     .line 22
-    .line 23
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/nv1;-><init>(I)V
+    invoke-virtual {v0, v6, v1}, Lcom/huawei/appmarket/fp6;->l(ILjava/lang/String;)Lcom/huawei/appgallery/remotedevice/download/RemoteDownloadTask;
 
+    .line 23
     .line 24
     .line 25
+    move-result-object v0
+
     .line 26
-    invoke-virtual {v4, v5}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    move-result p1
 
     .line 30
+    if-eqz p1, :cond_1
+
     .line 31
     .line 32
-    iget v2, p0, Lcom/huawei/appmarket/oo6;->d:I
+    if-eqz v0, :cond_1
 
     .line 33
     .line 34
-    invoke-static {v2}, Lcom/huawei/appmarket/xo6;->a(I)Lcom/huawei/appmarket/rz3;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/remotedevice/download/RemoteDownloadTask;->getStatus()I
 
     .line 35
     .line 36
     .line 37
-    move-result-object v2
+    move-result p1
 
     .line 38
-    invoke-interface {v2}, Lcom/huawei/appmarket/rz3;->b()Z
+    const/4 v0, 0x2
 
     .line 39
-    .line 40
-    .line 41
-    move-result v2
+    const/4 v2, 0x1
 
+    .line 40
+    if-eq p1, v0, :cond_0
+
+    .line 41
     .line 42
-    if-eqz v2, :cond_1
+    const/4 v0, 0x6
 
     .line 43
-    .line 44
-    invoke-static {v3}, Lcom/huawei/appmarket/po6;->i(Lcom/huawei/appmarket/po6;)Lcom/huawei/appmarket/xm1;
+    if-eq p1, v0, :cond_0
 
+    .line 44
     .line 45
+    if-eqz p1, :cond_0
+
     .line 46
     .line 47
-    move-result-object v2
+    if-ne p1, v2, :cond_2
 
     .line 48
-    invoke-virtual {v2}, Lcom/huawei/appmarket/xm1;->q()Landroid/content/Context;
-
     .line 49
+    :cond_0
+    new-instance p1, Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;
+
     .line 50
     .line 51
-    move-result-object v2
+    invoke-direct {p1}, Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;-><init>()V
 
     .line 52
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->a1()I
-
     .line 53
     .line 54
+    invoke-virtual {p1, v7}, Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;->W(I)V
+
     .line 55
-    move-result v0
-
     .line 56
-    invoke-virtual {v1}, Lcom/huawei/appmarket/fo6;->c()Lcom/huawei/wearengine/device/Device;
-
     .line 57
+    invoke-virtual {p1, v2}, Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;->V(I)V
+
     .line 58
     .line 59
-    move-result-object v1
-
     .line 60
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/vo6;->b(Landroid/content/Context;ILcom/huawei/wearengine/device/Device;)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;->setPackageName(Ljava/lang/String;)V
 
     .line 61
     .line 62
     .line 63
-    :cond_1
-    const/4 v0, -0x2
+    iget-object v11, p0, Lcom/huawei/appmarket/oo6;->f:Lcom/huawei/appmarket/yo6;
 
     .line 64
-    if-ne p1, v0, :cond_2
-
     .line 65
-    .line 66
-    new-instance p1, Landroid/content/Intent;
+    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
+    .line 66
     .line 67
     .line 68
-    const-string v0, "com.huawei.payauthkit.REGION_CHANGED"
+    invoke-static {v6}, Lcom/huawei/appmarket/ap6;->a(I)Lcom/huawei/appmarket/tz3;
 
     .line 69
     .line 70
-    invoke-direct {p1, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
     .line 71
-    .line 72
-    .line 73
-    invoke-static {v3}, Lcom/huawei/appmarket/po6;->i(Lcom/huawei/appmarket/po6;)Lcom/huawei/appmarket/xm1;
+    move-result-object v0
 
+    .line 72
+    invoke-interface {v0, p1, v8}, Lcom/huawei/appmarket/tz3;->f(Lcom/huawei/appgallery/remotedevice/remoteserver/operapp/CommandInfo;Lcom/huawei/wearengine/device/Device;)Lcom/huawei/appmarket/nv7;
+
+    .line 73
     .line 74
     .line 75
+    move-result-object p1
+
     .line 76
-    move-result-object v0
+    new-instance v12, Lcom/huawei/appmarket/xo6;
 
     .line 77
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xm1;->q()Landroid/content/Context;
-
     .line 78
+    move-object v0, v12
+
     .line 79
+    move-object v1, v10
+
     .line 80
-    move-result-object v0
+    move-object v2, v9
 
     .line 81
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    move-object v3, v11
 
     .line 82
+    move v4, v6
+
     .line 83
+    move-object v5, v8
+
     .line 84
-    move-result-object v0
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/xo6;-><init>(Lcom/huawei/appmarket/so6;Lcom/huawei/appmarket/tv7;Lcom/huawei/appmarket/yo6;ILcom/huawei/wearengine/device/Device;)V
 
     .line 85
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
-
     .line 86
     .line 87
+    invoke-virtual {p1, v12}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
+
     .line 88
-    :cond_2
-    :goto_0
-    return-void
     .line 89
     .line 90
+    move-result-object p1
+
     .line 91
+    new-instance v12, Lcom/huawei/appmarket/wo6;
+
     .line 92
     .line 93
+    move-object v0, v12
+
     .line 94
+    move v6, v7
+
     .line 95
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/wo6;-><init>(Lcom/huawei/appmarket/so6;Lcom/huawei/appmarket/tv7;Lcom/huawei/appmarket/yo6;ILcom/huawei/wearengine/device/Device;I)V
+
     .line 96
     .line 97
     .line 98
+    invoke-virtual {p1, v12}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
+
     .line 99
     .line 100
     .line 101
+    goto :goto_0
+
     .line 102
+    :cond_1
+    new-instance p1, Lcom/huawei/appmarket/rv1;
+
     .line 103
     .line 104
+    const/16 v0, 0xc
+
     .line 105
     .line 106
+    invoke-direct {p1, v0}, Lcom/huawei/appmarket/rv1;-><init>(I)V
+
     .line 107
+    .line 108
+    .line 109
+    invoke-virtual {v9, p1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
+
+    .line 110
+    .line 111
+    .line 112
+    invoke-static {}, Lcom/huawei/appmarket/fp6;->j()Lcom/huawei/appmarket/fp6;
+
+    .line 113
+    .line 114
+    .line 115
+    move-result-object p1
+
+    .line 116
+    invoke-virtual {p1, v6, v1}, Lcom/huawei/appmarket/fp6;->t(ILjava/lang/String;)V
+
+    .line 117
+    .line 118
+    .line 119
+    sget-object p1, Lcom/huawei/appmarket/ko6;->a:Lcom/huawei/appmarket/ko6;
+
+    .line 120
+    .line 121
+    const-string v0, "RemoteDeviceManager"
+
+    .line 122
+    .line 123
+    const-string v1, "Task not exist"
+
+    .line 124
+    .line 125
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 126
+    .line 127
+    .line 128
+    :cond_2
+    :goto_0
+    return-void
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
 .end method

@@ -168,13 +168,13 @@
 
     .line 60
     .line 61
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
     .line 63
     .line 64
     :goto_0
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/tw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/xw1;->b(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     .line 65
     .line 66
@@ -231,7 +231,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setImmersion(Z)V

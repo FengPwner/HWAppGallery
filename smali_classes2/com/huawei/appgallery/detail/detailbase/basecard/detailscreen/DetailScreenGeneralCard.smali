@@ -74,13 +74,13 @@
     .end annotation
 .end field
 
-.field private final R:Lcom/huawei/appmarket/rf7;
+.field private final R:Lcom/huawei/appmarket/wf7;
 
 .field private S:Ljava/util/ArrayList;
 
 .field private T:Ljava/util/HashMap;
 
-.field private U:Lcom/huawei/appmarket/vs3;
+.field private U:Lcom/huawei/appmarket/xs3;
 
 .field private V:Ljava/lang/String;
 
@@ -108,7 +108,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/om5;->a(I)I
+    invoke-static {p1}, Lcom/huawei/appmarket/uq5;->a(I)I
 
     .line 8
     .line 9
@@ -184,7 +184,7 @@
     .line 43
     .line 44
     .line 45
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->R:Lcom/huawei/appmarket/rf7;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->R:Lcom/huawei/appmarket/wf7;
 
     .line 46
     .line 47
@@ -214,7 +214,7 @@
 
     .line 60
     .line 61
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 62
     .line 63
@@ -226,11 +226,11 @@
 
     .line 66
     .line 67
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 68
     .line 69
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 70
     .line 71
@@ -238,11 +238,11 @@
     move-result-object p1
 
     .line 73
-    const-class v0, Lcom/huawei/appmarket/vs3;
+    const-class v0, Lcom/huawei/appmarket/xs3;
 
     .line 74
     .line 75
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 76
     .line 77
@@ -250,11 +250,11 @@
     move-result-object p1
 
     .line 79
-    check-cast p1, Lcom/huawei/appmarket/vs3;
+    check-cast p1, Lcom/huawei/appmarket/xs3;
 
     .line 80
     .line 81
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->U:Lcom/huawei/appmarket/vs3;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->U:Lcom/huawei/appmarket/xs3;
 
     .line 82
     .line 83
@@ -282,7 +282,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic A1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Z
@@ -433,7 +432,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic D1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Landroid/content/Context;
@@ -445,11 +443,11 @@
     return-object p0
 .end method
 
-.method static synthetic E1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Lcom/huawei/appmarket/vs3;
+.method static synthetic E1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Lcom/huawei/appmarket/xs3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->U:Lcom/huawei/appmarket/vs3;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->U:Lcom/huawei/appmarket/xs3;
 
     return-object p0
 .end method
@@ -472,11 +470,11 @@
     return-object p0
 .end method
 
-.method static synthetic H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Lcom/huawei/appmarket/rf7;
+.method static synthetic H1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Lcom/huawei/appmarket/wf7;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->R:Lcom/huawei/appmarket/rf7;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->R:Lcom/huawei/appmarket/wf7;
 
     return-object p0
 .end method
@@ -640,7 +638,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic J1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Ljava/util/HashMap;
@@ -741,7 +738,7 @@
 
     .line 29
     .line 30
-    sget p5, Lcom/huawei/appmarket/sj1;->a:I
+    sget p5, Lcom/huawei/appmarket/vj1;->a:I
 
     .line 31
     .line 32
@@ -791,7 +788,7 @@
     .line 52
     .line 53
     .line 54
-    sget p0, Lcom/huawei/appmarket/sj1;->a:I
+    sget p0, Lcom/huawei/appmarket/vj1;->a:I
 
     .line 55
     .line 56
@@ -874,7 +871,7 @@
 
     .line 95
     .line 96
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->w(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->w(Landroid/content/Context;)Z
 
     .line 97
     .line 98
@@ -890,7 +887,7 @@
 
     .line 103
     :cond_4
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     .line 104
     .line 105
@@ -898,7 +895,7 @@
     move-result p0
 
     .line 107
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/b37;->F(ILandroid/view/View;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/g37;->F(ILandroid/view/View;)V
 
     .line 108
     .line 109
@@ -921,7 +918,7 @@
 
     .line 117
     .line 118
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->w(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->w(Landroid/content/Context;)Z
 
     .line 119
     .line 120
@@ -937,7 +934,7 @@
 
     .line 125
     :cond_6
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->f(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->f(Landroid/content/Context;)I
 
     .line 126
     .line 127
@@ -945,7 +942,7 @@
     move-result p0
 
     .line 129
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/b37;->E(ILandroid/view/View;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/g37;->E(ILandroid/view/View;)V
 
     .line 130
     .line 131
@@ -1259,7 +1256,7 @@
 .end method
 
 .method static P1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;Landroid/graphics/drawable/BitmapDrawable;)V
-    .registers 5
+    .registers 6
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1295,227 +1292,275 @@
 
     .line 17
     .line 18
-    goto :goto_1
+    goto/16 :goto_1
 
     .line 19
+    .line 20
     :cond_0
     :try_start_0
     invoke-virtual {p2}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
 
-    .line 20
     .line 21
     .line 22
-    move-result-object v0
-
     .line 23
-    invoke-static {v0}, Lcom/huawei/appmarket/lu0;->b(Landroid/graphics/Bitmap;)I
+    move-result-object v0
 
     .line 24
+    invoke-static {v0}, Lcom/huawei/appmarket/lu0;->b(Landroid/graphics/Bitmap;)I
+
     .line 25
     .line 26
-    move-result v0
-
     .line 27
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->z(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;
+    move-result v0
 
     .line 28
-    .line 29
-    .line 30
-    move-result-object v1
-
-    .line 31
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->setMainColor(I)V
-
-    .line 32
-    .line 33
-    .line 34
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
-
-    .line 35
-    .line 36
-    .line 37
-    move-result-object v0
-
-    .line 38
-    if-eqz v0, :cond_2
-
-    .line 39
-    .line 40
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->A:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    .line 41
-    .line 42
-    invoke-static {v0}, Lcom/huawei/appmarket/t27;->a(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Z
-
-    .line 43
-    .line 44
-    .line 45
-    move-result v0
-
-    .line 46
-    if-eqz v0, :cond_1
-
-    .line 47
-    .line 48
-    invoke-direct {p0, p2}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->h2(Landroid/graphics/drawable/BitmapDrawable;)Landroid/graphics/drawable/BitmapDrawable;
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-object p0
-
-    .line 52
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
-
-    .line 53
-    .line 54
-    .line 55
-    move-result-object p2
-
-    .line 56
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->z(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;
 
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v1
+
+    .line 32
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->setMainColor(I)V
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v0
+
+    .line 39
+    if-eqz v0, :cond_2
+
+    .line 40
+    .line 41
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->A:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    .line 42
+    .line 43
+    invoke-static {v0}, Lcom/huawei/appmarket/x27;->a(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result v0
+
+    .line 47
+    if-eqz v0, :cond_1
+
+    .line 48
+    .line 49
+    invoke-direct {p0, p2}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->h2(Landroid/graphics/drawable/BitmapDrawable;)Landroid/graphics/drawable/BitmapDrawable;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v0
+
+    .line 53
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object v1
+
     .line 57
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->z(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;
+
     .line 58
     .line 59
-    move-result-object p1
-
     .line 60
-    invoke-virtual {p2, p1, p0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardView(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    move-result-object v2
 
     .line 61
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardView(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+
     .line 62
     .line 63
-    goto :goto_1
-
     .line 64
-    :catchall_0
-    move-exception p0
+    iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
     .line 65
-    goto :goto_0
-
     .line 66
-    :cond_1
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 67
     .line 68
     .line 69
-    move-result-object p0
+    move-result-object v0
 
     .line 70
-    const/4 p1, 0x0
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 71
-    invoke-virtual {p0, p1, p1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardView(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
     .line 72
     .line 73
+    move-result-object v0
+
     .line 74
-    goto :goto_1
+    iget v0, v0, Landroid/util/DisplayMetrics;->density:F
 
     .line 75
-    :goto_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
-
     .line 76
+    const/high16 v1, 0x43300000    # 176.0f
+
     .line 77
-    new-instance p2, Ljava/lang/StringBuilder;
-
     .line 78
+    mul-float v0, v0, v1
+
     .line 79
-    const-string v0, "applyScreenCardMainColor error "
-
     .line 80
-    .line 81
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const/high16 v1, 0x3f000000    # 0.5f
 
+    .line 81
     .line 82
+    add-float/2addr v0, v1
+
     .line 83
+    float-to-int v0, v0
+
     .line 84
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
     .line 85
     .line 86
+    invoke-virtual {p2}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+
     .line 87
-    move-result-object p0
-
     .line 88
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 89
-    .line 90
-    .line 91
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object p2
 
+    .line 90
+    iget-object p0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
+
+    .line 91
     .line 92
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
     .line 93
     .line 94
+    .line 95
     move-result-object p0
 
-    .line 95
-    const-string p2, "DetailScreenCard"
-
     .line 96
-    .line 97
-    invoke-virtual {p1, p2, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
+    .line 97
     .line 98
     .line 99
+    move-result-object p0
+
     .line 100
-    :cond_2
-    :goto_1
-    return-void
+    iget p0, p0, Landroid/util/DisplayMetrics;->widthPixels:I
+
     .line 101
     .line 102
+    invoke-static {v1, p2, p0, v0}, Lcom/huawei/appmarket/d37;->b(Landroid/content/Context;Landroid/graphics/Bitmap;II)Landroid/graphics/drawable/BitmapDrawable;
+
     .line 103
     .line 104
     .line 105
+    move-result-object p0
+
     .line 106
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 107
     .line 108
     .line 109
+    move-result-object p1
+
     .line 110
+    invoke-virtual {p1, p0, v0}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardOverlay(Landroid/graphics/drawable/Drawable;I)V
+
     .line 111
     .line 112
     .line 113
+    goto :goto_1
+
     .line 114
+    :catchall_0
+    move-exception p0
+
     .line 115
+    goto :goto_0
+
     .line 116
+    :cond_1
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 117
     .line 118
     .line 119
+    move-result-object p0
+
     .line 120
+    const/4 p2, 0x0
+
     .line 121
+    invoke-virtual {p0, p2, p2}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardView(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+
     .line 122
     .line 123
     .line 124
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;->F(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;)Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 125
     .line 126
     .line 127
+    move-result-object p0
+
     .line 128
+    const/4 p1, 0x0
+
     .line 129
+    invoke-virtual {p0, p2, p1}, Lcom/huawei/appgallery/videokit/api/WiseVideoView;->setScreenCardOverlay(Landroid/graphics/drawable/Drawable;I)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
     .line 130
     .line 131
     .line 132
+    goto :goto_1
+
     .line 133
+    :goto_0
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
+
     .line 134
     .line 135
+    new-instance p2, Ljava/lang/StringBuilder;
+
     .line 136
     .line 137
+    const-string v0, "applyScreenCardMainColor error "
+
     .line 138
     .line 139
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
     .line 140
     .line 141
     .line 142
+    const-string v0, "DetailScreenCard"
+
     .line 143
     .line 144
+    invoke-static {p0, p2, p1, v0}, Lcom/huawei/appmarket/eq6;->D(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lcom/huawei/appmarket/lj1;Ljava/lang/String;)V
+
     .line 145
     .line 146
     .line 147
+    :cond_2
+    :goto_1
+    return-void
     .line 148
     .line 149
     .line 150
@@ -1805,7 +1850,7 @@
     move-result-object v0
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     .line 24
     .line 25
@@ -1840,7 +1885,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     .line 40
     .line 41
@@ -1860,7 +1905,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->s(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->s(Landroid/content/Context;)I
 
     .line 50
     .line 51
@@ -1883,7 +1928,7 @@
 
     .line 59
     .line 60
-    invoke-static {p0}, Lcom/huawei/appmarket/b37;->s(Landroid/content/Context;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/g37;->s(Landroid/content/Context;)I
 
     .line 61
     .line 62
@@ -1997,7 +2042,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic Y1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)I
@@ -2062,11 +2106,11 @@
     .line 11
     .line 12
     .line 13
-    new-instance v0, Lcom/huawei/appmarket/q45;
+    new-instance v0, Lcom/huawei/appmarket/t45;
 
     .line 14
     .line 15
-    invoke-direct {v0}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t45;-><init>()V
 
     .line 16
     .line 17
@@ -2074,7 +2118,7 @@
     int-to-float p1, p1
 
     .line 19
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->E(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->E(F)V
 
     .line 20
     .line 21
@@ -2082,7 +2126,7 @@
     const/4 p1, 0x0
 
     .line 23
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->setTint(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->setTint(I)V
 
     .line 24
     .line 25
@@ -2116,7 +2160,7 @@
     move-result p1
 
     .line 41
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->S(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->S(F)V
 
     .line 42
     .line 43
@@ -2158,7 +2202,7 @@
     move-result-object p1
 
     .line 63
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->R(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->R(Landroid/content/res/ColorStateList;)V
 
     .line 64
     .line 65
@@ -2263,7 +2307,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic d2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;Landroid/widget/FrameLayout;Z)V
@@ -2344,7 +2387,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1, v4, v5}, Lcom/huawei/appmarket/y27;->c(Landroid/content/Context;Landroid/graphics/Bitmap;II)Landroid/graphics/drawable/BitmapDrawable;
+    invoke-static {v0, p1, v4, v5}, Lcom/huawei/appmarket/d37;->c(Landroid/content/Context;Landroid/graphics/Bitmap;II)Landroid/graphics/drawable/BitmapDrawable;
 
     move-result-object p1
 
@@ -2352,9 +2395,9 @@
 
     :cond_1
     :goto_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
-    invoke-virtual {p1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 
@@ -2518,7 +2561,7 @@
 
     .line 69
     :catch_0
-    sget-object p0, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p0, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 70
     .line 71
@@ -2530,7 +2573,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -2564,7 +2607,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private m2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$b;Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;Landroid/widget/FrameLayout;Z)V
@@ -2619,7 +2661,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1}, Lcom/huawei/appmarket/t27;->a(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/x27;->a(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Z
 
     .line 24
     .line 25
@@ -2639,7 +2681,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p2, p1, p3}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->d(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;Ljava/lang/String;)V
+    invoke-virtual {p2, p1, p3}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->e(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -2745,7 +2787,7 @@
     const/4 p2, 0x0
 
     .line 85
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/pm7;->h(Landroid/view/Window;I)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/vm7;->h(Landroid/view/Window;I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2759,7 +2801,7 @@
     move-exception p1
 
     .line 90
-    sget-object p2, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 91
     .line 92
@@ -2776,39 +2818,29 @@
     .line 97
     .line 98
     .line 99
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    const-string p4, "DetailScreenCard"
 
     .line 100
     .line 101
+    invoke-static {p1, p3, p2, p4}, Lcom/huawei/appmarket/eq6;->D(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lcom/huawei/appmarket/lj1;Ljava/lang/String;)V
+
     .line 102
-    move-result-object p1
-
     .line 103
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 104
-    .line 105
-    .line 106
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 107
-    .line 108
-    .line 109
-    move-result-object p1
-
-    .line 110
-    const-string p3, "DetailScreenCard"
-
-    .line 111
-    .line 112
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 113
-    .line 114
-    .line 115
     :cond_5
     :goto_0
     return-void
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
     .line 116
     .line 117
     .line 118
@@ -3494,7 +3526,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic y1(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)Ljava/util/ArrayList;
@@ -3552,7 +3583,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/appmarket/nk;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mk;->b()I
 
     move-result v1
 
@@ -3582,7 +3613,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -3639,7 +3670,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;->h0(J)V
 
-    invoke-static {}, Lcom/huawei/appmarket/s52;->e()Lcom/huawei/appmarket/gp3;
+    invoke-static {}, Lcom/huawei/appmarket/w52;->e()Lcom/huawei/appmarket/ip3;
 
     move-result-object v0
 
@@ -3649,11 +3680,11 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v2
 
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/gp3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/ip3;->b(ILcom/huawei/appgallery/exposureframe/exposureframe/api/bean/ExposureDetail;)V
 
     :cond_1
     return-void
@@ -3717,7 +3748,7 @@
     move-result-object p1
 
     .line 25
-    instance-of v1, p1, Lcom/huawei/appmarket/si8;
+    instance-of v1, p1, Lcom/huawei/appmarket/yi8;
 
     .line 26
     .line 27
@@ -3729,11 +3760,11 @@
 
     .line 30
     .line 31
-    check-cast p1, Lcom/huawei/appmarket/si8;
+    check-cast p1, Lcom/huawei/appmarket/yi8;
 
     .line 32
     .line 33
-    invoke-direct {v1, p1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {v1, p1}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
     .line 34
     .line 35
@@ -3742,7 +3773,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v1, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {v1, p1}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 39
     .line 40
@@ -3848,7 +3879,7 @@
     move-exception p1
 
     .line 89
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object v1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     .line 90
     .line 91
@@ -3865,1585 +3896,1585 @@
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-static {p1, v2, v1, v0}, Lcom/huawei/appmarket/eq6;->D(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lcom/huawei/appmarket/lj1;Ljava/lang/String;)V
 
     .line 99
     .line 100
     .line 101
-    move-result-object p1
+    const/4 p1, 0x0
 
     .line 102
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->A:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
     .line 103
     .line 104
-    .line 105
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 106
-    .line 107
-    .line 108
-    move-result-object p1
-
-    .line 109
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 110
-    .line 111
-    .line 112
-    const/4 p1, 0x0
-
-    .line 113
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->A:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
-
-    .line 114
-    .line 115
     :cond_2
     :goto_1
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 116
-    .line 117
+    .line 105
+    .line 106
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
-    .line 118
-    .line 119
-    .line 120
+    .line 107
+    .line 108
+    .line 109
     move-result-object p1
 
-    .line 121
+    .line 110
     const/4 v1, 0x1
 
-    .line 122
+    .line 111
     const/4 v2, 0x0
 
-    .line 123
+    .line 112
     if-eqz p1, :cond_3
 
-    .line 124
-    .line 125
+    .line 113
+    .line 114
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 126
-    .line 127
+    .line 115
+    .line 116
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
-    .line 128
-    .line 129
-    .line 130
+    .line 117
+    .line 118
+    .line 119
     move-result-object p1
 
-    .line 131
+    .line 120
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
-    .line 132
-    .line 133
-    .line 134
+    .line 121
+    .line 122
+    .line 123
     move-result p1
 
-    .line 135
+    .line 124
     if-nez p1, :cond_3
 
-    .line 136
-    .line 137
+    .line 125
+    .line 126
     const/4 p1, 0x1
 
-    .line 138
+    .line 127
     goto :goto_2
 
-    .line 139
+    .line 128
     :cond_3
     const/4 p1, 0x0
 
-    .line 140
+    .line 129
     :goto_2
     iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
 
-    .line 141
-    .line 142
+    .line 130
+    .line 131
     if-eqz p1, :cond_4
 
-    .line 143
-    .line 144
+    .line 132
+    .line 133
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 145
-    .line 146
+    .line 134
+    .line 135
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
-    .line 147
-    .line 148
-    .line 149
+    .line 136
+    .line 137
+    .line 138
     move-result-object p1
 
-    .line 150
+    .line 139
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 151
-    .line 152
-    .line 153
+    .line 140
+    .line 141
+    .line 142
     move-result-object p1
 
-    .line 154
+    .line 143
     check-cast p1, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;
 
-    .line 155
-    .line 156
+    .line 144
+    .line 145
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->getUrl_()Ljava/lang/String;
 
-    .line 157
-    .line 158
-    .line 159
+    .line 146
+    .line 147
+    .line 148
     move-result-object p1
 
-    .line 160
-    sget-object v3, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    .line 149
+    sget-object v3, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
-    .line 161
-    .line 162
+    .line 150
+    .line 151
     const-string v4, "Data contain screenShot"
 
-    .line 163
-    .line 164
-    invoke-virtual {v3, v0, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    .line 152
+    .line 153
+    invoke-virtual {v3, v0, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 165
-    .line 166
-    .line 167
+    .line 154
+    .line 155
+    .line 156
     goto :goto_3
 
-    .line 168
+    .line 157
     :cond_4
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 169
-    .line 170
+    .line 158
+    .line 159
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Y3()Ljava/util/ArrayList;
 
-    .line 171
-    .line 172
-    .line 173
+    .line 160
+    .line 161
+    .line 162
     move-result-object p1
 
-    .line 174
+    .line 163
     invoke-virtual {p1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    .line 175
-    .line 176
-    .line 177
+    .line 164
+    .line 165
+    .line 166
     move-result-object p1
 
-    .line 178
+    .line 167
     check-cast p1, Ljava/lang/String;
 
-    .line 179
-    .line 180
+    .line 168
+    .line 169
     :goto_3
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
-    .line 181
-    .line 182
+    .line 170
+    .line 171
     invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 183
-    .line 184
-    .line 185
+    .line 172
+    .line 173
+    .line 174
     move-result-object v0
 
-    .line 186
+    .line 175
     check-cast v0, Ljava/lang/String;
 
-    .line 187
-    .line 188
+    .line 176
+    .line 177
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 189
-    .line 190
-    .line 191
+    .line 178
+    .line 179
+    .line 180
     move-result v3
 
-    .line 192
+    .line 181
     if-nez v3, :cond_5
 
-    .line 193
-    .line 194
+    .line 182
+    .line 183
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 195
-    .line 196
-    .line 197
+    .line 184
+    .line 185
+    .line 186
     move-result v0
 
-    .line 198
+    .line 187
     if-eqz v0, :cond_5
 
-    .line 199
-    .line 200
+    .line 188
+    .line 189
     return-void
 
-    .line 201
+    .line 190
     :cond_5
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
-    .line 202
-    .line 203
+    .line 191
+    .line 192
     invoke-virtual {v0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+
+    .line 193
+    .line 194
+    .line 195
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
+
+    .line 196
+    .line 197
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
+
+    .line 198
+    .line 199
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/q52;->b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
+
+    .line 200
+    .line 201
+    .line 202
+    move-result-object p1
+
+    .line 203
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->V:Ljava/lang/String;
 
     .line 204
     .line 205
-    .line 206
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
-
-    .line 207
-    .line 208
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 209
-    .line 210
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/m52;->b(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)Ljava/lang/String;
-
-    .line 211
-    .line 212
-    .line 213
-    move-result-object p1
-
-    .line 214
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->V:Ljava/lang/String;
-
-    .line 215
-    .line 216
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 217
-    .line 218
+    .line 206
+    .line 207
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->X3()Ljava/lang/String;
 
-    .line 219
-    .line 220
-    .line 221
+    .line 208
+    .line 209
+    .line 210
     move-result-object p1
 
-    .line 222
+    .line 211
     const-string v0, "H"
 
-    .line 223
-    .line 224
+    .line 212
+    .line 213
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 214
+    .line 215
+    .line 216
+    move-result p1
+
+    .line 217
+    iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->B:Z
+
+    .line 218
+    .line 219
+    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
+
+    .line 220
+    .line 221
+    iget v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->y:I
+
+    .line 222
+    .line 223
+    const/4 v4, 0x0
+
+    .line 224
+    if-eqz p1, :cond_9
 
     .line 225
     .line 226
-    .line 227
-    move-result p1
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
+    .line 227
     .line 228
-    iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->B:Z
+    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
     .line 229
     .line 230
-    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
-
     .line 231
+    move-result-object p1
+
     .line 232
-    iget v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->y:I
+    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 233
     .line 234
-    const/4 v4, 0x0
-
     .line 235
-    if-eqz p1, :cond_9
+    move-result-object p1
 
     .line 236
-    .line 237
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 238
-    .line 239
-    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
-
-    .line 240
-    .line 241
-    .line 242
-    move-result-object p1
-
-    .line 243
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 244
-    .line 245
-    .line 246
-    move-result-object p1
-
-    .line 247
     check-cast p1, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;
 
-    .line 248
-    .line 249
+    .line 237
+    .line 238
     invoke-static {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->l2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;)[F
 
-    .line 250
-    .line 251
-    .line 252
+    .line 239
+    .line 240
+    .line 241
     move-result-object p1
 
-    .line 253
+    .line 242
     aget v5, p1, v2
 
-    .line 254
-    .line 255
+    .line 243
+    .line 244
     aget p1, p1, v1
 
-    .line 256
-    .line 257
+    .line 245
+    .line 246
     cmpl-float p1, v5, p1
 
-    .line 258
-    .line 259
+    .line 247
+    .line 248
     if-lez p1, :cond_6
 
-    .line 260
-    .line 261
+    .line 249
+    .line 250
     const/4 p1, 0x1
 
-    .line 262
+    .line 251
     goto :goto_4
 
-    .line 263
+    .line 252
     :cond_6
     const/4 p1, 0x0
 
-    .line 264
+    .line 253
     :goto_4
     iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->B:Z
 
-    .line 265
-    .line 266
+    .line 254
+    .line 255
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->k2()I
 
-    .line 267
-    .line 268
-    .line 269
+    .line 256
+    .line 257
+    .line 258
     move-result p1
 
-    .line 270
+    .line 259
     if-ge p1, v1, :cond_7
 
-    .line 271
-    .line 272
+    .line 260
+    .line 261
     goto :goto_5
 
-    .line 273
+    .line 262
     :cond_7
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 274
-    .line 275
+    .line 263
+    .line 264
     invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
-    .line 276
-    .line 277
-    .line 278
+    .line 265
+    .line 266
+    .line 267
     move-result-object v5
 
-    .line 279
+    .line 268
     invoke-interface {v5, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 280
-    .line 281
-    .line 282
+    .line 269
+    .line 270
+    .line 271
     move-result-object v5
 
-    .line 283
+    .line 272
     check-cast v5, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;
 
-    .line 284
-    .line 285
+    .line 273
+    .line 274
     invoke-static {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->l2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;)[F
 
-    .line 286
-    .line 287
-    .line 288
+    .line 275
+    .line 276
+    .line 277
     move-result-object v5
 
-    .line 289
+    .line 278
     aget v6, v5, v2
 
-    .line 290
-    .line 291
+    .line 279
+    .line 280
     cmpg-float v6, v6, v4
 
-    .line 292
-    .line 293
+    .line 281
+    .line 282
     if-lez v6, :cond_a
 
-    .line 294
-    .line 295
+    .line 283
+    .line 284
     aget v6, v5, v1
 
-    .line 296
-    .line 297
+    .line 285
+    .line 286
     cmpl-float v6, v6, v4
 
-    .line 298
-    .line 299
+    .line 287
+    .line 288
     if-nez v6, :cond_8
 
-    .line 300
-    .line 301
+    .line 289
+    .line 290
     goto :goto_5
 
-    .line 302
+    .line 291
     :cond_8
     iget-object v6, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    .line 303
-    .line 304
-    invoke-static {v6}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    .line 292
+    .line 293
+    invoke-static {v6}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
-    .line 305
-    .line 306
-    .line 307
+    .line 294
+    .line 295
+    .line 296
     move-result v6
 
-    .line 308
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->b()I
+    .line 297
+    invoke-static {}, Lcom/huawei/appmarket/al0;->b()I
 
-    .line 309
-    .line 310
-    .line 311
+    .line 298
+    .line 299
+    .line 300
     move-result v7
 
-    .line 312
+    .line 301
     sub-int/2addr v6, v7
 
-    .line 313
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->a()I
+    .line 302
+    invoke-static {}, Lcom/huawei/appmarket/al0;->a()I
 
-    .line 314
-    .line 315
-    .line 316
+    .line 303
+    .line 304
+    .line 305
     move-result v7
 
-    .line 317
+    .line 306
     sub-int/2addr v6, v7
 
-    .line 318
+    .line 307
     add-int/lit8 v7, p1, -0x1
 
-    .line 319
-    .line 320
+    .line 308
+    .line 309
     mul-int v7, v7, v3
+
+    .line 310
+    .line 311
+    sub-int/2addr v6, v7
+
+    .line 312
+    aget v7, v5, v1
+
+    .line 313
+    .line 314
+    float-to-int v7, v7
+
+    .line 315
+    mul-int v6, v6, v7
+
+    .line 316
+    .line 317
+    aget v5, v5, v2
+
+    .line 318
+    .line 319
+    int-to-float p1, p1
+
+    .line 320
+    mul-float v5, v5, p1
 
     .line 321
     .line 322
-    sub-int/2addr v6, v7
-
-    .line 323
-    aget v7, v5, v1
-
-    .line 324
-    .line 325
-    float-to-int v7, v7
-
-    .line 326
-    mul-int v6, v6, v7
-
-    .line 327
-    .line 328
-    aget v5, v5, v2
-
-    .line 329
-    .line 330
-    int-to-float p1, p1
-
-    .line 331
-    mul-float v5, v5, p1
-
-    .line 332
-    .line 333
     float-to-int p1, v5
 
-    .line 334
+    .line 323
     div-int/2addr v6, p1
 
-    .line 335
+    .line 324
     iput v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
 
-    .line 336
-    .line 337
+    .line 325
+    .line 326
     goto :goto_5
 
-    .line 338
+    .line 327
     :cond_9
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 339
-    .line 340
+    .line 328
+    .line 329
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->X3()Ljava/lang/String;
 
-    .line 341
-    .line 342
-    .line 343
+    .line 330
+    .line 331
+    .line 332
     move-result-object p1
 
-    .line 344
+    .line 333
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 345
-    .line 346
-    .line 347
+    .line 334
+    .line 335
+    .line 336
     move-result p1
 
-    .line 348
+    .line 337
     iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->B:Z
 
-    .line 349
-    .line 350
+    .line 338
+    .line 339
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->s2()V
 
-    .line 351
-    .line 352
-    .line 353
+    .line 340
+    .line 341
+    .line 342
     :cond_a
     :goto_5
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
+    .line 343
+    .line 344
+    if-eqz p1, :cond_b
+
+    .line 345
+    .line 346
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->a1()I
+
+    .line 347
+    .line 348
+    .line 349
+    move-result p1
+
+    .line 350
+    const/4 v5, 0x2
+
+    .line 351
+    if-ne p1, v5, :cond_b
+
+    .line 352
+    .line 353
+    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
+
     .line 354
     .line 355
-    if-eqz p1, :cond_b
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->e()I
 
     .line 356
     .line 357
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;->a1()I
-
     .line 358
-    .line 359
-    .line 360
-    move-result p1
-
-    .line 361
-    const/4 v5, 0x2
-
-    .line 362
-    if-ne p1, v5, :cond_b
-
-    .line 363
-    .line 364
-    iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
-
-    .line 365
-    .line 366
-    invoke-static {}, Lcom/huawei/appmarket/al0;->e()I
-
-    .line 367
-    .line 368
-    .line 369
     move-result v5
 
-    .line 370
-    invoke-static {p1, v5, v3}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    .line 359
+    invoke-static {p1, v5, v3}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
-    .line 371
-    .line 372
-    .line 373
+    .line 360
+    .line 361
+    .line 362
     move-result p1
 
-    .line 374
+    .line 363
     iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->H:I
 
-    .line 375
-    .line 376
+    .line 364
+    .line 365
     :cond_b
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 377
-    .line 378
+    .line 366
+    .line 367
     invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->b4()Ljava/util/List;
 
-    .line 379
-    .line 380
-    .line 381
+    .line 368
+    .line 369
+    .line 370
     move-result-object p1
 
+    .line 371
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
+
+    .line 372
+    .line 373
+    .line 374
+    move-result p1
+
+    .line 375
+    if-nez p1, :cond_d
+
+    .line 376
+    .line 377
+    new-instance p1, Ljava/util/LinkedHashMap;
+
+    .line 378
+    .line 379
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 380
+    .line 381
     .line 382
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->I:Ljava/util/LinkedHashMap;
 
     .line 383
     .line 384
-    .line 385
-    move-result p1
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
+    .line 385
     .line 386
-    if-nez p1, :cond_d
+    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->b4()Ljava/util/List;
 
     .line 387
     .line 388
-    new-instance p1, Ljava/util/LinkedHashMap;
-
     .line 389
+    move-result-object p1
+
     .line 390
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 391
     .line 392
     .line 393
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->I:Ljava/util/LinkedHashMap;
+    move-result-object p1
 
     .line 394
-    .line 395
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 396
-    .line 397
-    invoke-virtual {p1}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->b4()Ljava/util/List;
-
-    .line 398
-    .line 399
-    .line 400
-    move-result-object p1
-
-    .line 401
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 402
-    .line 403
-    .line 404
-    move-result-object p1
-
-    .line 405
     :goto_6
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 406
-    .line 407
-    .line 408
+    .line 395
+    .line 396
+    .line 397
     move-result v3
 
-    .line 409
+    .line 398
     if-eqz v3, :cond_c
 
-    .line 410
-    .line 411
+    .line 399
+    .line 400
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 412
-    .line 413
-    .line 414
+    .line 401
+    .line 402
+    .line 403
     move-result-object v3
 
-    .line 415
+    .line 404
     check-cast v3, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
 
-    .line 416
-    .line 417
+    .line 405
+    .line 406
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->I:Ljava/util/LinkedHashMap;
 
-    .line 418
-    .line 419
+    .line 407
+    .line 408
     invoke-virtual {v3}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->T0()I
 
-    .line 420
-    .line 421
-    .line 422
+    .line 409
+    .line 410
+    .line 411
     move-result v6
 
-    .line 423
+    .line 412
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 424
-    .line 425
-    .line 426
+    .line 413
+    .line 414
+    .line 415
     move-result-object v6
 
-    .line 427
+    .line 416
     invoke-interface {v5, v6, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 428
-    .line 429
-    .line 430
+    .line 417
+    .line 418
+    .line 419
     goto :goto_6
 
-    .line 431
+    .line 420
     :cond_c
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
+    .line 421
+    .line 422
+    if-eqz p1, :cond_d
+
+    .line 423
+    .line 424
+    new-instance v3, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;
+
+    .line 425
+    .line 426
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    .line 427
+    .line 428
+    .line 429
+    move-result-object p1
+
+    .line 430
+    invoke-direct {v3, p1}, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;-><init>(Landroid/content/Context;)V
+
+    .line 431
     .line 432
     .line 433
-    if-eqz p1, :cond_d
+    iput-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->x:Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;
 
     .line 434
     .line 435
-    new-instance v3, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;->s()V
 
     .line 436
     .line 437
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
-
     .line 438
-    .line 439
-    .line 440
-    move-result-object p1
-
-    .line 441
-    invoke-direct {v3, p1}, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;-><init>(Landroid/content/Context;)V
-
-    .line 442
-    .line 443
-    .line 444
-    iput-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->x:Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;
-
-    .line 445
-    .line 446
-    invoke-virtual {v3}, Lcom/huawei/appmarket/support/video/VideoNetChangedEvent;->s()V
-
-    .line 447
-    .line 448
-    .line 449
     :cond_d
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
-    .line 450
-    .line 451
+    .line 439
+    .line 440
     if-nez p1, :cond_e
 
-    .line 452
-    .line 453
+    .line 441
+    .line 442
     new-instance p1, Ljava/util/ArrayList;
 
-    .line 454
-    .line 455
+    .line 443
+    .line 444
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 456
-    .line 457
-    .line 458
+    .line 445
+    .line 446
+    .line 447
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
-    .line 459
-    .line 460
+    .line 448
+    .line 449
     goto :goto_7
 
-    .line 461
+    .line 450
     :cond_e
     invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
-    .line 462
-    .line 463
-    .line 464
+    .line 451
+    .line 452
+    .line 453
     :goto_7
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->I:Ljava/util/LinkedHashMap;
 
-    .line 465
-    .line 466
+    .line 454
+    .line 455
     if-nez p1, :cond_f
 
-    .line 467
-    .line 468
+    .line 456
+    .line 457
     const/4 p1, 0x0
 
-    .line 469
+    .line 458
     goto :goto_8
 
-    .line 470
+    .line 459
     :cond_f
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
-    .line 471
-    .line 472
-    .line 473
+    .line 460
+    .line 461
+    .line 462
     move-result p1
 
-    .line 474
+    .line 463
     :goto_8
     const/4 v3, 0x0
 
-    .line 475
+    .line 464
     :goto_9
     if-ge v3, p1, :cond_13
 
-    .line 476
-    .line 477
+    .line 465
+    .line 466
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->I:Ljava/util/LinkedHashMap;
 
-    .line 478
-    .line 479
+    .line 467
+    .line 468
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 480
-    .line 481
-    .line 482
+    .line 469
+    .line 470
+    .line 471
     move-result-object v6
 
-    .line 483
+    .line 472
     invoke-virtual {v5, v6}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 484
-    .line 485
-    .line 486
+    .line 473
+    .line 474
+    .line 475
     move-result-object v5
 
-    .line 487
+    .line 476
     check-cast v5, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
 
-    .line 488
-    .line 489
+    .line 477
+    .line 478
     if-nez v5, :cond_10
 
-    .line 490
-    .line 491
+    .line 479
+    .line 480
     goto :goto_d
 
-    .line 492
+    .line 481
     :cond_10
     invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->U0()Ljava/lang/String;
 
-    .line 493
-    .line 494
-    .line 495
+    .line 482
+    .line 483
+    .line 484
     move-result-object v6
 
-    .line 496
+    .line 485
     invoke-virtual {v5, v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->e1(Ljava/lang/String;)V
 
+    .line 486
+    .line 487
+    .line 488
+    iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
+
+    .line 489
+    .line 490
+    invoke-virtual {v5, v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->a1(I)V
+
+    .line 491
+    .line 492
+    .line 493
+    iget-boolean v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
+
+    .line 494
+    .line 495
+    if-eqz v6, :cond_12
+
+    .line 496
     .line 497
+    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
+
     .line 498
     .line 499
-    iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
+    invoke-virtual {v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->X3()Ljava/lang/String;
 
     .line 500
     .line 501
-    invoke-virtual {v5, v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->a1(I)V
-
     .line 502
-    .line 503
-    .line 504
-    iget-boolean v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
-
-    .line 505
-    .line 506
-    if-eqz v6, :cond_12
-
-    .line 507
-    .line 508
-    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 509
-    .line 510
-    invoke-virtual {v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->X3()Ljava/lang/String;
-
-    .line 511
-    .line 512
-    .line 513
     move-result-object v6
 
-    .line 514
+    .line 503
     invoke-virtual {v0, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 515
-    .line 516
-    .line 517
+    .line 504
+    .line 505
+    .line 506
     move-result v6
 
-    .line 518
+    .line 507
     const/high16 v7, 0x3f100000    # 0.5625f
 
-    .line 519
-    .line 520
+    .line 508
+    .line 509
     if-eqz v6, :cond_11
 
-    .line 521
-    .line 522
+    .line 510
+    .line 511
     iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
 
-    .line 523
-    .line 524
+    .line 512
+    .line 513
     int-to-float v6, v6
 
-    .line 525
+    .line 514
     div-float/2addr v6, v7
 
-    .line 526
+    .line 515
     :goto_a
     invoke-static {v6}, Ljava/lang/Math;->round(F)I
 
-    .line 527
-    .line 528
-    .line 529
+    .line 516
+    .line 517
+    .line 518
     move-result v6
 
-    .line 530
+    .line 519
     :goto_b
     invoke-virtual {v5, v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->f1(I)V
 
-    .line 531
-    .line 532
-    .line 533
+    .line 520
+    .line 521
+    .line 522
     goto :goto_c
 
-    .line 534
+    .line 523
     :cond_11
     iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
 
-    .line 535
-    .line 536
+    .line 524
+    .line 525
     int-to-float v6, v6
 
-    .line 537
+    .line 526
     mul-float v6, v6, v7
 
-    .line 538
-    .line 539
+    .line 527
+    .line 528
     goto :goto_a
 
-    .line 540
+    .line 529
     :cond_12
     iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->F:I
 
-    .line 541
-    .line 542
+    .line 530
+    .line 531
     goto :goto_b
 
-    .line 543
+    .line 532
     :goto_c
     iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
-    .line 544
-    .line 545
+    .line 533
+    .line 534
     invoke-virtual {v6, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 546
-    .line 547
-    .line 548
+    .line 535
+    .line 536
+    .line 537
     :goto_d
     add-int/lit8 v3, v3, 0x1
 
-    .line 549
-    .line 550
+    .line 538
+    .line 539
     goto :goto_9
 
-    .line 551
+    .line 540
     :cond_13
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->S:Ljava/util/ArrayList;
 
+    .line 541
+    .line 542
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+
+    .line 543
+    .line 544
+    .line 545
+    iget-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
+
+    .line 546
+    .line 547
+    const-string v3, "1"
+
+    .line 548
+    .line 549
+    if-nez v0, :cond_19
+
+    .line 550
+    .line 551
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
+
     .line 552
     .line 553
-    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Y3()Ljava/util/ArrayList;
 
     .line 554
     .line 555
     .line 556
-    iget-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->P:Z
+    move-result-object v0
 
     .line 557
-    .line 558
-    const-string v3, "1"
-
-    .line 559
-    .line 560
-    if-nez v0, :cond_19
-
-    .line 561
-    .line 562
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 563
-    .line 564
-    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Y3()Ljava/util/ArrayList;
-
-    .line 565
-    .line 566
-    .line 567
-    move-result-object v0
-
-    .line 568
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
 
-    .line 569
-    .line 570
+    .line 558
+    .line 559
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 571
-    .line 572
+    .line 560
+    .line 561
     invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->W3()Ljava/util/List;
 
-    .line 573
-    .line 574
-    .line 575
+    .line 562
+    .line 563
+    .line 564
     move-result-object v0
 
-    .line 576
+    .line 565
     if-nez v0, :cond_14
 
-    .line 577
-    .line 578
+    .line 566
+    .line 567
     const/4 v0, 0x0
 
-    .line 579
+    .line 568
     goto :goto_e
 
-    .line 580
+    .line 569
     :cond_14
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 581
-    .line 582
+    .line 570
+    .line 571
     invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->W3()Ljava/util/List;
 
-    .line 583
-    .line 584
-    .line 585
+    .line 572
+    .line 573
+    .line 574
     move-result-object v0
 
-    .line 586
+    .line 575
     invoke-interface {v0}, Ljava/util/List;->size()I
 
-    .line 587
-    .line 588
-    .line 589
+    .line 576
+    .line 577
+    .line 578
     move-result v0
 
-    .line 590
+    .line 579
     :goto_e
     const/4 v4, 0x0
 
-    .line 591
+    .line 580
     :goto_f
     if-ge v4, v0, :cond_1d
 
-    .line 592
-    .line 593
+    .line 581
+    .line 582
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 594
-    .line 595
+    .line 583
+    .line 584
     invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->W3()Ljava/util/List;
 
-    .line 596
-    .line 597
-    .line 598
+    .line 585
+    .line 586
+    .line 587
     move-result-object v5
 
-    .line 599
+    .line 588
     invoke-interface {v5, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 600
-    .line 601
-    .line 602
+    .line 589
+    .line 590
+    .line 591
     move-result-object v5
 
-    .line 603
+    .line 592
     check-cast v5, Ljava/lang/String;
 
-    .line 604
-    .line 605
+    .line 593
+    .line 594
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 606
-    .line 607
-    .line 608
+    .line 595
+    .line 596
+    .line 597
     move-result v6
 
-    .line 609
+    .line 598
     if-nez v6, :cond_18
 
-    .line 610
-    .line 611
+    .line 599
+    .line 600
     iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
-    .line 612
-    .line 613
+    .line 601
+    .line 602
     invoke-virtual {v6}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
-    .line 614
-    .line 615
-    .line 616
+    .line 603
+    .line 604
+    .line 605
     move-result-object v6
 
-    .line 617
+    .line 606
     :cond_15
     invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 618
-    .line 619
-    .line 620
+    .line 607
+    .line 608
+    .line 609
     move-result v7
 
-    .line 621
+    .line 610
     if-eqz v7, :cond_16
 
-    .line 622
-    .line 623
+    .line 611
+    .line 612
     invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 624
-    .line 625
-    .line 626
+    .line 613
+    .line 614
+    .line 615
     move-result-object v7
 
-    .line 627
+    .line 616
     check-cast v7, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
 
-    .line 628
-    .line 629
+    .line 617
+    .line 618
     invoke-virtual {v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->R0()Ljava/lang/String;
 
-    .line 630
-    .line 631
-    .line 632
+    .line 619
+    .line 620
+    .line 621
     move-result-object v7
 
-    .line 633
+    .line 622
     invoke-virtual {v5, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 634
-    .line 635
-    .line 636
+    .line 623
+    .line 624
+    .line 625
     move-result v7
 
-    .line 637
+    .line 626
     if-eqz v7, :cond_15
 
-    .line 638
-    .line 639
+    .line 627
+    .line 628
     iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
 
-    .line 640
-    .line 641
+    .line 629
+    .line 630
     invoke-virtual {v6, v5}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 642
-    .line 643
-    .line 644
+    .line 631
+    .line 632
+    .line 633
     goto :goto_11
 
-    .line 645
+    .line 634
     :cond_16
     new-instance v6, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
 
-    .line 646
-    .line 647
+    .line 635
+    .line 636
     invoke-direct {v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;-><init>()V
 
-    .line 648
-    .line 649
-    .line 650
+    .line 637
+    .line 638
+    .line 639
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->n2()Z
 
-    .line 651
-    .line 652
-    .line 653
+    .line 640
+    .line 641
+    .line 642
     move-result v7
 
-    .line 654
+    .line 643
     if-eqz v7, :cond_17
 
-    .line 655
-    .line 656
+    .line 644
+    .line 645
     move-object v7, v3
 
-    .line 657
+    .line 646
     goto :goto_10
 
-    .line 658
+    .line 647
     :cond_17
     const-string v7, "0"
 
-    .line 659
-    .line 660
+    .line 648
+    .line 649
     :goto_10
     invoke-virtual {p1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 661
-    .line 662
-    .line 663
+    .line 650
+    .line 651
+    .line 652
     invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->e1(Ljava/lang/String;)V
 
-    .line 664
-    .line 665
-    .line 666
+    .line 653
+    .line 654
+    .line 655
     iget v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->F:I
 
-    .line 667
-    .line 668
+    .line 656
+    .line 657
     invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->f1(I)V
 
-    .line 669
-    .line 670
-    .line 671
+    .line 658
+    .line 659
+    .line 660
     iget v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
 
-    .line 672
-    .line 673
+    .line 661
+    .line 662
     invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->a1(I)V
 
-    .line 674
-    .line 675
-    .line 676
+    .line 663
+    .line 664
+    .line 665
     invoke-virtual {p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->n2()Z
 
-    .line 677
-    .line 678
-    .line 679
+    .line 666
+    .line 667
+    .line 668
     move-result v5
 
-    .line 680
+    .line 669
     invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->c1(Z)V
 
-    .line 681
-    .line 682
-    .line 683
+    .line 670
+    .line 671
+    .line 672
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
-    .line 684
-    .line 685
+    .line 673
+    .line 674
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 686
-    .line 687
-    .line 688
+    .line 675
+    .line 676
+    .line 677
     :cond_18
     :goto_11
     add-int/lit8 v4, v4, 0x1
 
-    .line 689
-    .line 690
+    .line 678
+    .line 679
     goto :goto_f
 
-    .line 691
+    .line 680
     :cond_19
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
 
-    .line 692
-    .line 693
+    .line 681
+    .line 682
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 694
-    .line 695
-    .line 696
+    .line 683
+    .line 684
+    .line 685
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->M:Ljava/util/ArrayList;
 
-    .line 697
-    .line 698
+    .line 686
+    .line 687
     if-nez v0, :cond_1a
 
+    .line 688
+    .line 689
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 690
+    .line 691
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 692
+    .line 693
+    .line 694
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->M:Ljava/util/ArrayList;
+
+    .line 695
+    .line 696
+    goto :goto_12
+
+    .line 697
+    :cond_1a
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    .line 698
     .line 699
     .line 700
-    new-instance v0, Ljava/util/ArrayList;
+    :goto_12
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
     .line 701
     .line 702
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
 
     .line 703
     .line 704
     .line 705
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->M:Ljava/util/ArrayList;
+    move-result-object v0
 
     .line 706
-    .line 707
-    goto :goto_12
-
-    .line 708
-    :cond_1a
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    .line 709
-    .line 710
-    .line 711
-    :goto_12
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 712
-    .line 713
-    invoke-virtual {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;->Z3()Ljava/util/List;
-
-    .line 714
-    .line 715
-    .line 716
-    move-result-object v0
-
-    .line 717
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 718
-    .line 719
-    .line 720
+    .line 707
+    .line 708
+    .line 709
     move-result-object v0
 
-    .line 721
+    .line 710
     :goto_13
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 722
-    .line 723
-    .line 724
+    .line 711
+    .line 712
+    .line 713
     move-result v5
 
-    .line 725
+    .line 714
     if-eqz v5, :cond_1d
 
-    .line 726
-    .line 727
+    .line 715
+    .line 716
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 728
-    .line 729
-    .line 730
+    .line 717
+    .line 718
+    .line 719
     move-result-object v5
 
-    .line 731
+    .line 720
     check-cast v5, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;
+
+    .line 721
+    .line 722
+    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
+
+    .line 723
+    .line 724
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->getUrl_()Ljava/lang/String;
+
+    .line 725
+    .line 726
+    .line 727
+    move-result-object v7
+
+    .line 728
+    invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 729
+    .line 730
+    .line 731
+    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->M:Ljava/util/ArrayList;
 
     .line 732
     .line 733
-    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
 
     .line 734
     .line 735
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->getUrl_()Ljava/lang/String;
-
     .line 736
-    .line 737
-    .line 738
     move-result-object v7
 
+    .line 737
+    invoke-virtual {v3, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 738
     .line 739
-    invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 740
-    .line 741
-    .line 742
-    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->M:Ljava/util/ArrayList;
+    move-result v7
 
+    .line 741
+    invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 742
     .line 743
     .line 744
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
-
-    .line 745
-    .line 746
-    .line 747
     move-result-object v7
 
+    .line 745
+    invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 746
+    .line 747
     .line 748
-    invoke-virtual {v3, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    new-instance v6, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
 
     .line 749
     .line 750
-    .line 751
-    move-result v7
-
-    .line 752
-    invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 753
-    .line 754
-    .line 755
-    move-result-object v7
-
-    .line 756
-    invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 757
-    .line 758
-    .line 759
-    new-instance v6, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;
-
-    .line 760
-    .line 761
     invoke-direct {v6}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;-><init>()V
 
+    .line 751
+    .line 752
+    .line 753
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
+
+    .line 754
+    .line 755
+    .line 756
+    move-result-object v7
+
+    .line 757
+    invoke-virtual {p1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 758
+    .line 759
+    .line 760
+    invoke-static {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->l2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;)[F
+
+    .line 761
     .line 762
     .line 763
+    move-result-object v7
+
     .line 764
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
+    aget v8, v7, v2
 
     .line 765
     .line 766
-    .line 767
-    move-result-object v7
+    cmpg-float v9, v8, v4
 
+    .line 767
     .line 768
-    invoke-virtual {p1, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    if-lez v9, :cond_1c
 
     .line 769
     .line 770
-    .line 771
-    invoke-static {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->l2(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;)[F
-
-    .line 772
-    .line 773
-    .line 774
-    move-result-object v7
-
-    .line 775
-    aget v8, v7, v2
-
-    .line 776
-    .line 777
-    cmpg-float v9, v8, v4
-
-    .line 778
-    .line 779
-    if-lez v9, :cond_1c
-
-    .line 780
-    .line 781
     aget v7, v7, v1
 
-    .line 782
-    .line 783
+    .line 771
+    .line 772
     cmpg-float v9, v7, v4
 
-    .line 784
-    .line 785
+    .line 773
+    .line 774
     if-gtz v9, :cond_1b
 
-    .line 786
-    .line 787
+    .line 775
+    .line 776
     goto :goto_14
 
-    .line 788
+    .line 777
     :cond_1b
     div-float/2addr v8, v7
 
-    .line 789
+    .line 778
     iget v7, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
 
-    .line 790
-    .line 791
+    .line 779
+    .line 780
     int-to-float v7, v7
 
-    .line 792
+    .line 781
     mul-float v8, v8, v7
+
+    .line 782
+    .line 783
+    invoke-static {v8}, Ljava/lang/Math;->round(F)I
+
+    .line 784
+    .line 785
+    .line 786
+    move-result v7
+
+    .line 787
+    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->f1(I)V
+
+    .line 788
+    .line 789
+    .line 790
+    iget v7, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
+
+    .line 791
+    .line 792
+    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->a1(I)V
 
     .line 793
     .line 794
-    invoke-static {v8}, Ljava/lang/Math;->round(F)I
-
     .line 795
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->Q0()Ljava/lang/String;
+
     .line 796
     .line 797
-    move-result v7
-
     .line 798
-    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->f1(I)V
+    move-result-object v7
 
     .line 799
+    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->e1(Ljava/lang/String;)V
+
     .line 800
     .line 801
-    iget v7, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->G:I
-
     .line 802
-    .line 803
-    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->a1(I)V
+    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
 
+    .line 803
     .line 804
     .line 805
+    move-result-object v5
+
     .line 806
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->Q0()Ljava/lang/String;
+    invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 807
     .line 808
     .line 809
-    move-result-object v7
+    move-result v5
 
     .line 810
-    invoke-virtual {v6, v7}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->e1(Ljava/lang/String;)V
+    invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->c1(Z)V
 
     .line 811
     .line 812
     .line 813
-    invoke-virtual {v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailScreenShotInfo;->P0()Ljava/lang/String;
-
-    .line 814
-    .line 815
-    .line 816
-    move-result-object v5
-
-    .line 817
-    invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    .line 818
-    .line 819
-    .line 820
-    move-result v5
-
-    .line 821
-    invoke-virtual {v6, v5}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean$DetailVideoInfo;->c1(Z)V
-
-    .line 822
-    .line 823
-    .line 824
     :cond_1c
     :goto_14
     iget-object v5, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->L:Ljava/util/ArrayList;
 
+    .line 814
+    .line 815
+    invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 816
+    .line 817
+    .line 818
+    goto :goto_13
+
+    .line 819
+    :cond_1d
+    new-instance p1, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
+
+    .line 820
+    .line 821
+    invoke-direct {p1, p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)V
+
+    .line 822
+    .line 823
+    .line 824
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
+
     .line 825
     .line 826
-    invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView$h;->setHasStableIds(Z)V
 
     .line 827
     .line 828
     .line 829
-    goto :goto_13
+    invoke-static {}, Lcom/huawei/appmarket/j61;->a()Lcom/huawei/appmarket/j61;
 
     .line 830
-    :cond_1d
-    new-instance p1, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
-
     .line 831
     .line 832
-    invoke-direct {p1, p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)V
+    move-result-object p1
 
     .line 833
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->J:Ljava/util/HashMap;
+
     .line 834
     .line 835
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
+    iput-object v0, p1, Lcom/huawei/appmarket/j61;->a:Ljava/util/HashMap;
 
     .line 836
     .line 837
-    invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView$h;->setHasStableIds(Z)V
+    invoke-static {}, Lcom/huawei/appmarket/j61;->a()Lcom/huawei/appmarket/j61;
 
     .line 838
     .line 839
     .line 840
-    invoke-static {}, Lcom/huawei/appmarket/j61;->a()Lcom/huawei/appmarket/j61;
+    move-result-object p1
 
     .line 841
-    .line 842
-    .line 843
-    move-result-object p1
-
-    .line 844
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->J:Ljava/util/HashMap;
-
-    .line 845
-    .line 846
-    iput-object v0, p1, Lcom/huawei/appmarket/j61;->a:Ljava/util/HashMap;
-
-    .line 847
-    .line 848
-    invoke-static {}, Lcom/huawei/appmarket/j61;->a()Lcom/huawei/appmarket/j61;
-
-    .line 849
-    .line 850
-    .line 851
-    move-result-object p1
-
-    .line 852
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    .line 853
-    .line 854
-    .line 855
+    .line 842
+    .line 843
+    .line 844
     move-result-object v0
 
-    .line 856
+    .line 845
     iput-object v0, p1, Lcom/huawei/appmarket/j61;->b:Ljava/lang/String;
 
+    .line 846
+    .line 847
+    new-instance p1, Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    .line 848
+    .line 849
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
+
+    .line 850
+    .line 851
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    .line 852
+    .line 853
+    .line 854
+    move-result-object v0
+
+    .line 855
+    invoke-direct {p1, v0, v2, v2}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
+
+    .line 856
     .line 857
     .line 858
-    new-instance p1, Landroidx/recyclerview/widget/LinearLayoutManager;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->D:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     .line 859
     .line 860
@@ -5451,151 +5482,151 @@
 
     .line 861
     .line 862
-    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$p;)V
 
     .line 863
     .line 864
     .line 865
-    move-result-object v0
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
     .line 866
-    invoke-direct {p1, v0, v2, v2}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
-
     .line 867
-    .line 868
-    .line 869
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->D:Landroidx/recyclerview/widget/LinearLayoutManager;
-
-    .line 870
-    .line 871
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
-
-    .line 872
-    .line 873
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$p;)V
-
-    .line 874
-    .line 875
-    .line 876
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
-
-    .line 877
-    .line 878
     invoke-virtual {p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;->setUnInterceptOnRight(Z)V
 
-    .line 879
-    .line 880
-    .line 881
+    .line 868
+    .line 869
+    .line 870
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
-    .line 882
-    .line 883
+    .line 871
+    .line 872
     new-instance v0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/a;
 
-    .line 884
-    .line 885
+    .line 873
+    .line 874
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/a;-><init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;)V
 
+    .line 875
+    .line 876
+    .line 877
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$t;)V
+
+    .line 878
+    .line 879
+    .line 880
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
+
+    .line 881
+    .line 882
+    if-eqz p1, :cond_1e
+
+    .line 883
+    .line 884
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->i0()Ljava/lang/String;
+
+    .line 885
     .line 886
     .line 887
+    move-result-object p1
+
     .line 888
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$t;)V
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 889
     .line 890
     .line 891
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
-
-    .line 892
-    .line 893
-    if-eqz p1, :cond_1e
-
-    .line 894
-    .line 895
-    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->i0()Ljava/lang/String;
-
-    .line 896
-    .line 897
-    .line 898
-    move-result-object p1
-
-    .line 899
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    .line 900
-    .line 901
-    .line 902
     move-result p1
 
-    .line 903
+    .line 892
     if-nez p1, :cond_1e
 
-    .line 904
-    .line 905
+    .line 893
+    .line 894
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
 
-    .line 906
-    .line 907
+    .line 895
+    .line 896
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->z:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenBean;
 
-    .line 908
-    .line 909
+    .line 897
+    .line 898
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->i0()Ljava/lang/String;
 
-    .line 910
-    .line 911
-    .line 912
+    .line 899
+    .line 900
+    .line 901
     move-result-object v0
 
-    .line 913
+    .line 902
     :goto_15
     invoke-virtual {p1, v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;->m(Ljava/lang/String;)V
 
-    .line 914
-    .line 915
-    .line 916
+    .line 903
+    .line 904
+    .line 905
     goto :goto_16
 
-    .line 917
+    .line 906
     :cond_1e
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
 
-    .line 918
-    .line 919
+    .line 907
+    .line 908
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    .line 920
-    .line 921
-    .line 922
+    .line 909
+    .line 910
+    .line 911
     move-result-object v0
 
-    .line 923
+    .line 912
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
-    .line 924
-    .line 925
-    .line 926
+    .line 913
+    .line 914
+    .line 915
     move-result-object v0
 
-    .line 927
+    .line 916
     goto :goto_15
 
-    .line 928
+    .line 917
     :goto_16
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
 
+    .line 918
+    .line 919
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
+
+    .line 920
+    .line 921
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
+
+    .line 922
+    .line 923
+    .line 924
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
+
+    .line 925
+    .line 926
+    .line 927
+    move-result-object p1
+
+    .line 928
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
+
     .line 929
     .line 930
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->E:Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard$a;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ql0;->c(Landroid/view/ViewGroup;)V
 
     .line 931
     .line 932
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$h;)V
-
     .line 933
+    const-class p1, Lcom/huawei/appmarket/in3;
+
     .line 934
     .line 935
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {p1}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 936
     .line 937
@@ -5603,53 +5634,43 @@
     move-result-object p1
 
     .line 939
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->C:Lcom/huawei/appgallery/horizontalcard/api/view/BounceHorizontalRecyclerView;
+    check-cast p1, Lcom/huawei/appmarket/in3;
 
     .line 940
     .line 941
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/pl0;->c(Landroid/view/ViewGroup;)V
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
 
     .line 942
     .line 943
-    .line 944
-    const-class p1, Lcom/huawei/appmarket/gn3;
-
-    .line 945
-    .line 946
-    invoke-static {p1}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
-
-    .line 947
-    .line 948
-    .line 949
-    move-result-object p1
-
-    .line 950
-    check-cast p1, Lcom/huawei/appmarket/gn3;
-
-    .line 951
-    .line 952
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->O:Ljava/util/ArrayList;
-
-    .line 953
-    .line 954
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
+    .line 944
+    .line 945
+    .line 946
+    move-result-object v0
+
+    .line 947
+    check-cast v0, Ljava/lang/String;
+
+    .line 948
+    .line 949
+    invoke-interface {p1}, Lcom/huawei/appmarket/in3;->T0()V
+
+    .line 950
+    .line 951
+    .line 952
+    return-void
+    .line 953
+    .line 954
     .line 955
     .line 956
     .line 957
-    move-result-object v0
-
     .line 958
-    check-cast v0, Ljava/lang/String;
-
     .line 959
     .line 960
-    invoke-interface {p1}, Lcom/huawei/appmarket/gn3;->T0()V
-
     .line 961
     .line 962
     .line 963
-    return-void
     .line 964
     .line 965
     .line 966
@@ -6418,21 +6439,21 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/al0;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->e()I
 
     move-result v0
 
     return v0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 
@@ -6663,7 +6684,7 @@
 
     iget v2, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/DetailScreenGeneralCard;->y:I
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result v0
 

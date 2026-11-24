@@ -7,7 +7,7 @@
 .method public abstract findVisibleCountInGroup(Lcom/huawei/flexiblelayout/data/d;Ljava/lang/String;ZLcom/koushikdutta/quack/JavaScriptObject;)V
 .end method
 
-.method public abstract initDownloadButton(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/koushikdutta/quack/JavaScriptObject;Lcom/huawei/appmarket/ib2;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;)V
+.method public abstract initDownloadButton(Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;Lcom/koushikdutta/quack/JavaScriptObject;Lcom/huawei/appmarket/lb2;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/IDownloadListener;)V
 .end method
 
 .method public abstract setDividerVisible(Landroid/view/View;Z)V

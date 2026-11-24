@@ -1,11 +1,11 @@
 .class final Lcom/huawei/gamebox/service/common/cardkit/card/LeavesEntranceCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/gamebox/service/common/cardkit/card/LeavesEntranceCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/gamebox/service/common/cardkit/card/LeavesEntranceCard;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/gamebox/service/common/cardkit/card/LeavesEntranceCard$a;->b:Lcom/huawei/gamebox/service/common/cardkit/card/LeavesEntranceCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -155,5 +155,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

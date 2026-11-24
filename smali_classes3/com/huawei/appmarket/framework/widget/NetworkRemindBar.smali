@@ -227,7 +227,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method static synthetic b(Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;)Z
@@ -305,7 +304,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -493,7 +492,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->A(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->B(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 13
     .line 14
@@ -761,7 +760,7 @@
 
     .line 40
     .line 41
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->N(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->N(Landroid/view/View;)V
 
     .line 42
     .line 43
@@ -810,7 +809,7 @@
 
     .line 65
     .line 66
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 67
     .line 68
@@ -844,7 +843,7 @@
 
     .line 83
     .line 84
-    const v3, 0x7f0a1853
+    const v3, 0x7f0a1854
 
     .line 85
     .line 86
@@ -1853,7 +1852,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 6
     .line 7
@@ -1967,7 +1966,7 @@
     move-result-object v1
 
     .line 63
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 64
     .line 65
@@ -1979,7 +1978,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     .line 70
     .line 71
@@ -2042,7 +2041,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -2121,7 +2119,7 @@
     move-result-object v0
 
     .line 31
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     .line 32
     .line 33
@@ -2133,7 +2131,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     .line 38
     .line 39
@@ -2178,7 +2176,7 @@
 
     .line 57
     .line 58
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/om5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/uq5;->A(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -2309,7 +2307,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 9
     .line 10
@@ -2432,7 +2430,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final onClick(Landroid/view/View;)V
@@ -2442,7 +2439,7 @@
 
     const-string v1, "onClick netremind view again to refresh main page , When the interface shows no network "
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;->o:Landroid/widget/TextView;
 
@@ -2465,11 +2462,11 @@
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/lf;
+    new-instance v0, Lcom/huawei/appmarket/w81;
 
-    const/16 v1, 0x18
+    const/16 v1, 0x1a
 
-    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/lf;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/w81;-><init>(Ljava/lang/Object;I)V
 
     const-wide/16 v1, 0xc8
 
@@ -2481,7 +2478,7 @@
     :goto_0
     iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/NetworkRemindBar;->b:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/tf5;->a(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/wf5;->a(Landroid/content/Context;)V
 
     :cond_2
     :goto_1

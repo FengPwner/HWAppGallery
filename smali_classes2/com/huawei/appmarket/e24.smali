@@ -3,6 +3,9 @@
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a(Ljava/lang/String;Lcom/huawei/appmarket/f24;)V
-.end method
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/e24$a;
+    }
+.end annotation

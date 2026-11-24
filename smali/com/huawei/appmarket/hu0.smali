@@ -238,7 +238,7 @@
     .line 66
     .line 67
     :cond_1
-    sget-object v9, Lcom/huawei/appmarket/sg6;->a:[I
+    sget-object v9, Lcom/huawei/appmarket/ug6;->a:[I
 
     .line 68
     .line 69
@@ -733,7 +733,7 @@
     const/4 v12, 0x0
 
     .line 292
-    invoke-static {v9, v12, v11}, Lcom/huawei/appmarket/z45;->a(III)I
+    invoke-static {v9, v12, v11}, Lcom/huawei/appmarket/c55;->a(III)I
 
     .line 293
     .line 294
@@ -745,7 +745,7 @@
 
     .line 297
     .line 298
-    invoke-static {v10}, Lcom/huawei/appmarket/xh0;->a(I)Lcom/huawei/appmarket/xh0;
+    invoke-static {v10}, Lcom/huawei/appmarket/yh0;->a(I)Lcom/huawei/appmarket/yh0;
 
     .line 299
     .line 300
@@ -753,7 +753,7 @@
     move-result-object v7
 
     .line 302
-    invoke-virtual {v7}, Lcom/huawei/appmarket/xh0;->d()F
+    invoke-virtual {v7}, Lcom/huawei/appmarket/yh0;->d()F
 
     .line 303
     .line 304
@@ -761,7 +761,7 @@
     move-result v10
 
     .line 306
-    invoke-virtual {v7}, Lcom/huawei/appmarket/xh0;->c()F
+    invoke-virtual {v7}, Lcom/huawei/appmarket/yh0;->c()F
 
     .line 307
     .line 308
@@ -769,7 +769,7 @@
     move-result v7
 
     .line 310
-    invoke-static {v10, v7, v4}, Lcom/huawei/appmarket/xh0;->e(FFF)I
+    invoke-static {v10, v7, v4}, Lcom/huawei/appmarket/yh0;->e(FFF)I
 
     .line 311
     .line 312

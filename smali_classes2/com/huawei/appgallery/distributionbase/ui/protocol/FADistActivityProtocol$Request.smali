@@ -46,7 +46,7 @@
     .end annotation
 .end field
 
-.field private scenType:Lcom/huawei/appmarket/n27;
+.field private scenType:Lcom/huawei/appmarket/r27;
 
 .field private serviceInfo:Lcom/huawei/appgallery/agd/api/ServiceInfo;
 
@@ -143,11 +143,11 @@
     return-object v0
 .end method
 
-.method public final E2()Lcom/huawei/appmarket/n27;
+.method public final E2()Lcom/huawei/appmarket/r27;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->scenType:Lcom/huawei/appmarket/n27;
+    iget-object v0, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->scenType:Lcom/huawei/appmarket/r27;
 
     return-object v0
 .end method
@@ -232,11 +232,11 @@
     return-void
 .end method
 
-.method public final M2(Lcom/huawei/appmarket/n27;)V
+.method public final M2(Lcom/huawei/appmarket/r27;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->scenType:Lcom/huawei/appmarket/n27;
+    iput-object p1, p0, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->scenType:Lcom/huawei/appmarket/r27;
 
     return-void
 .end method

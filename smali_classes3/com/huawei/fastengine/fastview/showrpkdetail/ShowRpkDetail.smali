@@ -123,7 +123,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -264,7 +264,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public getContext()Landroid/content/Context;

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field protected n:Lcom/huawei/appmarket/du4;
+.field protected n:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -58,24 +58,24 @@
 
     invoke-virtual {p0, p1}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     const-string p2, "RecommendSelectNode"
 
     const-string v0, " RecommendSelectNode createChildNode "
 
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
     return p1
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/RecommendSelectNode;->n:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/RecommendSelectNode;->n:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

@@ -28,11 +28,11 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/a;->b:Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;
 
-    iget-object v1, v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->b3:Lcom/huawei/appmarket/s85;
+    iget-object v1, v0, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->b3:Lcom/huawei/appmarket/v85;
 
     const-string v2, "loadingTime"
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/s85;->n(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/v85;->n(Ljava/lang/String;)Z
 
     invoke-static {v0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->V5(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;)Landroid/widget/FrameLayout;
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -70,11 +70,11 @@
 
     .line 11
     .line 12
-    iget-object v0, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/kd2;
+    iget-object v0, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/nd2;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kd2;->E()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/nd2;->E()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -82,11 +82,11 @@
     move-result-object v0
 
     .line 18
-    iget-object v1, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/kd2;
+    iget-object v1, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/nd2;
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Lcom/huawei/appmarket/kd2;->J()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/nd2;->J()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -94,11 +94,11 @@
     move-result-object v1
 
     .line 24
-    iget-object p1, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/kd2;
+    iget-object p1, p1, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E3:Lcom/huawei/appmarket/nd2;
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Lcom/huawei/appmarket/kd2;->s()Lcom/huawei/appmarket/sn0;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nd2;->s()Lcom/huawei/appmarket/tn0;
 
     .line 27
     .line 28
@@ -110,7 +110,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/cd2;->h(Lcom/huawei/appmarket/sn0;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/fd2;->h(Lcom/huawei/appmarket/tn0;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -188,5 +188,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -75,7 +75,7 @@
 
     const/16 v1, 0x30
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -265,7 +265,7 @@
 
     const-string p2, "dispatchTouchEvent IllegalArgumentException."
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return v3
 .end method
@@ -278,9 +278,9 @@
 
     if-eqz v0, :cond_0
 
-    check-cast v0, Lcom/huawei/appmarket/p42;
+    check-cast v0, Lcom/huawei/appmarket/t42;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/p42;->a()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/t42;->a()Z
 
     move-result v0
 
@@ -401,7 +401,7 @@
 
     const-string v0, "dispatchTouchEvent IllegalArgumentException."
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -621,7 +621,7 @@
     .line 87
     .line 88
     .line 89
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 90
     .line 91
@@ -723,7 +723,7 @@
 
     .line 142
     .line 143
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
     .line 145
@@ -758,7 +758,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method protected j()V
@@ -1208,7 +1207,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -1840,8 +1839,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final onMeasure(II)V
@@ -2489,8 +2486,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final scrollTo(II)V
@@ -2652,7 +2647,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/b00;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/kd0;->t(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     .line 43
     .line 44
@@ -2729,7 +2724,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public setHeadView(Landroid/view/View;)V

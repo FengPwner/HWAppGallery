@@ -1,71 +1,75 @@
-.class public final Lcom/huawei/appmarket/au6;
-.super Lcom/huawei/appmarket/nv6;
+.class final Lcom/huawei/appmarket/au6;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/huawei/appmarket/nv6;"
-    }
-.end annotation
+# interfaces
+.implements Lcom/huawei/appmarket/kd6;
 
 
 # instance fields
-.field private b:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-.end field
+.field final synthetic a:Lcom/huawei/appmarket/yt6;
 
 
 # direct methods
-.method public constructor <init>()V
+.method constructor <init>(Lcom/huawei/appmarket/yt6;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/nv6;-><init>()V
+    iput-object p1, p0, Lcom/huawei/appmarket/au6;->a:Lcom/huawei/appmarket/yt6;
 
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lcom/huawei/appmarket/au6;->b:Ljava/lang/Object;
-
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/Object;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
-
-    .line 2
-    invoke-direct {p0}, Lcom/huawei/appmarket/nv6;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/au6;->b:Ljava/lang/Object;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final c()Ljava/lang/Object;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
+.method public final a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/au6;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/huawei/appmarket/au6;->a:Lcom/huawei/appmarket/yt6;
 
-    return-object v0
+    invoke-static {v0}, Lcom/huawei/appmarket/yt6;->a(Lcom/huawei/appmarket/yt6;)Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-static {v0}, Lcom/huawei/appmarket/yt6;->a(Lcom/huawei/appmarket/yt6;)Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getUserId()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;->G4(Ljava/lang/String;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/yt6;->a(Lcom/huawei/appmarket/yt6;)Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p3}, Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;->J4(Ljava/lang/String;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/yt6;->a(Lcom/huawei/appmarket/yt6;)Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    move-result-object p3
+
+    invoke-virtual {p3, p1}, Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;->H4(Ljava/lang/String;)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/yt6;->a(Lcom/huawei/appmarket/yt6;)Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+
+    move-result-object p1
+
+    invoke-virtual {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;->I4(Ljava/lang/String;)V
+
+    return-void
 .end method

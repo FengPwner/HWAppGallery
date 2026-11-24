@@ -124,7 +124,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/tw5;
+    invoke-static {v0}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/vw5;
 
     .line 18
     .line 19
@@ -278,7 +278,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
@@ -377,7 +376,7 @@
     move-result-object v1
 
     .line 32
-    invoke-static {v1}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/tw5;
+    invoke-static {v1}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/vw5;
 
     .line 33
     .line 34
@@ -477,7 +476,7 @@
     move-result-object p2
 
     .line 83
-    invoke-static {p2}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/tw5;
+    invoke-static {p2}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/vw5;
 
     .line 84
     .line 85
@@ -578,7 +577,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
@@ -604,7 +602,7 @@
     move-result-object p3
 
     .line 9
-    invoke-static {p3}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/tw5;
+    invoke-static {p3}, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a(Landroid/content/Context;)Lcom/huawei/appmarket/vw5;
 
     .line 10
     .line 11

@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/d54$a;->values()[Lcom/huawei/appmarket/d54$a;
+    invoke-static {}, Lcom/huawei/appmarket/g54$a;->values()[Lcom/huawei/appmarket/g54$a;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideRealActivity$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/d54$a;->d:Lcom/huawei/appmarket/d54$a;
+    sget-object v1, Lcom/huawei/appmarket/g54$a;->d:Lcom/huawei/appmarket/g54$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideRealActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/d54$a;->c:Lcom/huawei/appmarket/d54$a;
+    sget-object v1, Lcom/huawei/appmarket/g54$a;->c:Lcom/huawei/appmarket/g54$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/huawei/appmarket/service/hota/activity/UpgradeGuideRealActivity$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/d54$a;->b:Lcom/huawei/appmarket/d54$a;
+    sget-object v1, Lcom/huawei/appmarket/g54$a;->b:Lcom/huawei/appmarket/g54$a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

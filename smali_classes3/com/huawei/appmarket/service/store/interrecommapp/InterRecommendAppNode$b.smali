@@ -85,7 +85,7 @@
 .method public final onViewDetachedFromWindow(Landroid/view/View;)V
     .registers 7
 
-    invoke-static {p1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/di8;->j(Landroid/view/View;)I
 
     move-result v0
 
@@ -123,13 +123,13 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     move-result-object p1
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/q42;->a()V
+    invoke-static {}, Lcom/huawei/appmarket/u42;->a()V
 
     :cond_0
     return-void

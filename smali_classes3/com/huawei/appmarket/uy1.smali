@@ -2,69 +2,40 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# static fields
-.field private static b:Lcom/huawei/appmarket/uy1;
-
-
-# instance fields
-.field public a:Ljava/util/concurrent/ConcurrentHashMap;
+# interfaces
+.implements Lcom/huawei/appmarket/yo3;
 
 
 # direct methods
 .method public constructor <init>()V
-    .registers 2
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
-
-    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/uy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     return-void
 .end method
 
-.method public static declared-synchronized a()Lcom/huawei/appmarket/uy1;
-    .registers 2
+
+# virtual methods
+.method public final T()V
+    .registers 3
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/uy1;
+    const-string v0, "EcosRefreshDataImpl"
 
-    monitor-enter v0
+    const-string v1, "doRefresh"
 
-    :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    if-nez v1, :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/sy1;->a()Lcom/huawei/appmarket/sy1;
 
-    new-instance v1, Lcom/huawei/appmarket/uy1;
+    move-result-object v0
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/uy1;-><init>()V
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    sput-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
+    const-wide/32 v0, 0x1b7740
 
-    goto :goto_0
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/sy1;->d(J)V
 
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
-
-    :cond_0
-    :goto_0
-    sget-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit v0
-
-    return-object v1
-
-    :goto_1
-    monitor-exit v0
-
-    throw v1
+    return-void
 .end method

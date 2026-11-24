@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ky3;
+.implements Lcom/huawei/appmarket/my3;
 
 
 # annotations
@@ -16,7 +16,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ky3<",
+        "Lcom/huawei/appmarket/my3<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -109,7 +109,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -152,7 +152,7 @@
 
     .line 33
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/wa7;->v()Lcom/huawei/appmarket/wa7;
+    invoke-static {}, Lcom/huawei/appmarket/bb7;->v()Lcom/huawei/appmarket/bb7;
 
     .line 35
     .line 36
@@ -160,7 +160,7 @@
     move-result-object v1
 
     .line 38
-    invoke-virtual {v1}, Lcom/huawei/appmarket/wa7;->x()Z
+    invoke-virtual {v1}, Lcom/huawei/appmarket/bb7;->x()Z
 
     .line 39
     .line 40
@@ -217,7 +217,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v4}, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c()Lcom/huawei/appmarket/nv7;
+    invoke-virtual {v4}, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/a$a;->c()Lcom/huawei/appmarket/tv7;
 
     .line 63
     .line 64
@@ -247,7 +247,7 @@
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0, v1, p1, v3, v2}, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;->a(ZLjava/lang/String;ILcom/huawei/appmarket/nv7;)V
+    invoke-virtual {v0, v1, p1, v3, v2}, Lcom/huawei/appgallery/forum/message/msgsetting/launcher/c;->a(ZLjava/lang/String;ILcom/huawei/appmarket/tv7;)V
 
     .line 76
     .line 77
@@ -290,5 +290,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

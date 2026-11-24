@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     iput-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadRequest;->b:Ljava/lang/String;
 
@@ -171,7 +171,7 @@
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/ge8;->J(Landroid/net/Uri;Ljava/lang/String;)I
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/le8;->J(Landroid/net/Uri;Ljava/lang/String;)I
 
     move-result v0
 
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/hy;->b(ZLjava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/iy;->b(ZLjava/lang/String;)V
 
     :cond_2
     iput-object p1, p0, Landroidx/media3/exoplayer/offline/DownloadRequest;->b:Ljava/lang/String;
@@ -256,7 +256,7 @@
     goto :goto_2
 
     :cond_4
-    sget-object p1, Lcom/huawei/appmarket/ge8;->f:[B
+    sget-object p1, Lcom/huawei/appmarket/le8;->f:[B
 
     :goto_2
     iput-object p1, p0, Landroidx/media3/exoplayer/offline/DownloadRequest;->h:[B
@@ -287,7 +287,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hy;->a(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/iy;->a(Z)V
 
     iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadRequest;->e:Ljava/util/List;
 
@@ -422,7 +422,7 @@
 
     iget-object v2, p1, Landroidx/media3/exoplayer/offline/DownloadRequest;->d:Ljava/lang/String;
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -452,7 +452,7 @@
 
     iget-object v2, p1, Landroidx/media3/exoplayer/offline/DownloadRequest;->g:Ljava/lang/String;
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/ge8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/le8;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 

@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract showFARetryErrorFragment(II)V
+.method public abstract init()V
 .end method

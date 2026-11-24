@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appgallery/usercenter/personal/base/card/userinfocardv5/PersonalUserInfoV5Card$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/usercenter/personal/base/card/userinfocardv5/PersonalUserInfoV5Card;->Z(Lcom/huawei/appmarket/ak0;)V
+    value = Lcom/huawei/appgallery/usercenter/personal/base/card/userinfocardv5/PersonalUserInfoV5Card;->Z(Lcom/huawei/appmarket/bk0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/usercenter/personal/base/card/userinfocardv5/PersonalUserInfoV5Card$a;->b:Lcom/huawei/appgallery/usercenter/personal/base/card/userinfocardv5/PersonalUserInfoV5Card;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -48,7 +48,7 @@
 
     const-string v0, "activityUri|info_head"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

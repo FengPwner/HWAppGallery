@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/zq6;",
+            "Lcom/huawei/appmarket/cr6;",
             ">;"
         }
     .end annotation
@@ -113,9 +113,9 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/appcomment/ui/adapter/ReportTypeAdapter;->list:Ljava/util/List;
 
-    new-instance v2, Lcom/huawei/appmarket/zq6;
+    new-instance v2, Lcom/huawei/appmarket/cr6;
 
-    invoke-direct {v2}, Lcom/huawei/appmarket/zq6;-><init>()V
+    invoke-direct {v2}, Lcom/huawei/appmarket/cr6;-><init>()V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -151,9 +151,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/zq6;
+    check-cast v2, Lcom/huawei/appmarket/cr6;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/zq6;->a()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/cr6;->a()Z
 
     move-result v2
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/zq6;
+    check-cast v0, Lcom/huawei/appmarket/cr6;
 
     if-eqz v0, :cond_3
 
@@ -376,13 +376,13 @@
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/ui/adapter/ReportTypeAdapter$b;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appgallery/appcomment/ui/adapter/ReportTypeAdapter$b;-><init>(Lcom/huawei/appmarket/zq6;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appgallery/appcomment/ui/adapter/ReportTypeAdapter$b;-><init>(Lcom/huawei/appmarket/cr6;)V
 
     invoke-virtual {p1, v1}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     iget-object p1, p3, Lcom/huawei/appgallery/appcomment/ui/adapter/ReportTypeAdapter$c;->b:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zq6;->a()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cr6;->a()Z
 
     move-result p3
 
@@ -433,9 +433,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/zq6;
+    check-cast v1, Lcom/huawei/appmarket/cr6;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zq6;->b(Z)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/cr6;->b(Z)V
 
     add-int/lit8 v0, v0, 0x1
 

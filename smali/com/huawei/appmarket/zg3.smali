@@ -3,36 +3,28 @@
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/zg3$a;
+    }
+.end annotation
+
+
 # virtual methods
-.method public abstract getCloudSignTime()Ljava/lang/Long;
+.method public abstract a()Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/nv7<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
 .end method
 
-.method public abstract getLanguage()Ljava/lang/String;
+.method public abstract h(Lcom/huawei/appmarket/yi;)V
 .end method
 
-.method public abstract getLatestVersion()Ljava/lang/Long;
-.end method
-
-.method public abstract getLocalSignTime()Ljava/lang/Long;
-.end method
-
-.method public abstract getMutable()Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;
-.end method
-
-.method public abstract getServiceCountry()Ljava/lang/String;
-.end method
-
-.method public abstract getSignedVersion()Ljava/lang/Long;
-.end method
-
-.method public abstract getSigningEntity()Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;
-.end method
-
-.method public abstract getType()Lcom/huawei/appmarket/qj;
-.end method
-
-.method public abstract getUserIdHash()Ljava/lang/String;
-.end method
-
-.method public abstract needSign(Ljava/lang/String;)Z
+.method public abstract i(Lcom/huawei/appmarket/xg3;)V
 .end method

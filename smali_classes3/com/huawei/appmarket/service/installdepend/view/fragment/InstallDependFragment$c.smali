@@ -37,7 +37,7 @@
 .method public final onClick(Landroid/view/View;)V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -47,7 +47,7 @@
 
     const-string v0, "loadingCtl onClick will onLoadingRetry()"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p0, Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment$c;->b:Lcom/huawei/appmarket/service/installdepend/view/fragment/InstallDependFragment;

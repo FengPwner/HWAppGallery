@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/welfarecenter/business/card/PointsTaskCard$a;
-.super Lcom/huawei/appmarket/ep0;
+.super Lcom/huawei/appmarket/fp0;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/card/PointsTaskCard$a;->b:Lcom/huawei/appgallery/welfarecenter/business/card/PointsTaskCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ep0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fp0;-><init>()V
 
     return-void
 .end method

@@ -214,7 +214,7 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 19
     .line 20
@@ -222,7 +222,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 23
     .line 24
@@ -356,4 +356,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

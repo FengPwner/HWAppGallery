@@ -110,7 +110,7 @@
     move-result-object p1
 
     .line 49
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     .line 50
     .line 51
@@ -122,7 +122,7 @@
 
     .line 54
     .line 55
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/gi7;->e(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/mi7;->e(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 56
     .line 57
@@ -148,7 +148,7 @@
 
     .line 66
     .line 67
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/z84;->D(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kk4;->y(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 68
     .line 69

@@ -75,7 +75,7 @@
     const-string v1, "MicroMsg.SDK.WXImageObject"
 
     .line 1
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/vw7;->o(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/ci7;->v(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     :goto_0
     return-void

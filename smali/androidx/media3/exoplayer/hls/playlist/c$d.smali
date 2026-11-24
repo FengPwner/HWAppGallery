@@ -17,7 +17,7 @@
 # instance fields
 .field public final m:Ljava/lang/String;
 
-.field public final n:Lcom/huawei/appmarket/jb4;
+.field public final n:Lcom/huawei/appmarket/lb4;
 
 
 # direct methods
@@ -51,7 +51,7 @@
 
     const/16 v16, 0x0
 
-    invoke-static {}, Lcom/huawei/appmarket/jb4;->p()Lcom/huawei/appmarket/jb4;
+    invoke-static {}, Lcom/huawei/appmarket/lb4;->p()Lcom/huawei/appmarket/lb4;
 
     move-result-object v17
 
@@ -114,11 +114,11 @@
 
     iput-object v1, v0, Landroidx/media3/exoplayer/hls/playlist/c$d;->m:Ljava/lang/String;
 
-    invoke-static/range {p17 .. p17}, Lcom/huawei/appmarket/jb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/jb4;
+    invoke-static/range {p17 .. p17}, Lcom/huawei/appmarket/lb4;->m(Ljava/util/Collection;)Lcom/huawei/appmarket/lb4;
 
     move-result-object v1
 
-    iput-object v1, v0, Landroidx/media3/exoplayer/hls/playlist/c$d;->n:Lcom/huawei/appmarket/jb4;
+    iput-object v1, v0, Landroidx/media3/exoplayer/hls/playlist/c$d;->n:Lcom/huawei/appmarket/lb4;
 
     return-void
 .end method

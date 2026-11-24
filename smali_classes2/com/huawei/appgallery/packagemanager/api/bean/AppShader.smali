@@ -13,22 +13,22 @@
 .field private e:Ljava/lang/String;
 
 .field private fSha:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private pkgName:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private shaderEscapeVersion:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
 .field private versionCode:J
-    .annotation runtime Lcom/huawei/appmarket/t02;
+    .annotation runtime Lcom/huawei/appmarket/x02;
     .end annotation
 .end field
 
@@ -161,7 +161,7 @@
     move-exception p0
 
     .line 56
-    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object p1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     .line 57
     .line 58
@@ -203,7 +203,7 @@
 
     .line 77
     .line 78
-    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -292,7 +292,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -389,7 +388,7 @@
     :catch_0
     move-exception v0
 
-    sget-object v1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+    sget-object v1, Lcom/huawei/appmarket/hu5;->a:Lcom/huawei/appmarket/hu5;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -407,7 +406,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, ""
 
@@ -557,7 +556,7 @@
 .method public final toRecord()Landroid/content/ContentValues;
     .registers 4
 
-    invoke-static {p0}, Lcom/huawei/appmarket/j91;->a(Lcom/huawei/appmarket/f91;)Landroid/content/ContentValues;
+    invoke-static {p0}, Lcom/huawei/appmarket/k91;->a(Lcom/huawei/appmarket/g91;)Landroid/content/ContentValues;
 
     move-result-object v0
 

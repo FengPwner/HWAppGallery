@@ -4,8 +4,11 @@
 
 
 # virtual methods
-.method public abstract N0(Landroid/os/Bundle;)V
+.method public abstract a()Z
 .end method
 
-.method public abstract o1()V
+.method public abstract b()Z
+.end method
+
+.method public abstract c()Z
 .end method

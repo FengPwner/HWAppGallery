@@ -35,7 +35,7 @@
 
     const-string v0, "ClientHubActivity"
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/sz8;->M(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/yz8;->M(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setResult(I)V
 
@@ -71,7 +71,7 @@
 
     const-string v0, "ClientHubActivity"
 
-    invoke-static {v0, p3}, Lcom/huawei/appmarket/sz8;->F(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p3}, Lcom/huawei/appmarket/yz8;->F(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 p3, 0x4dbc
 
@@ -79,7 +79,7 @@
 
     const-string p1, "onActivityResult finish"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/sz8;->F(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yz8;->F(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, p2}, Landroid/app/Activity;->setResult(I)V
 
@@ -96,11 +96,11 @@
 
     const-string v1, "ClientHubActivity onCreate"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/sz8;->F(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/yz8;->F(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/sz8;->k(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/yz8;->k(Landroid/content/Context;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -112,7 +112,7 @@
 
     const-string p1, "checkIntent intent is null"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/sz8;->M(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/yz8;->M(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "invalid intent"
 
@@ -151,7 +151,7 @@
     :cond_1
     const-string v1, "startJumpActivity"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/sz8;->F(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/yz8;->F(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v0, 0xc
 
@@ -199,7 +199,7 @@
 
     invoke-virtual {v4, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {v4}, Lcom/huawei/appmarket/sz8;->d(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-static {v4}, Lcom/huawei/appmarket/yz8;->d(Landroid/content/Intent;)Landroid/content/Intent;
 
     move-result-object p1
 

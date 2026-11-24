@@ -43,7 +43,7 @@
 
 .field private E:Landroid/graphics/RectF;
 
-.field private F:Lcom/huawei/appmarket/or4;
+.field private F:Lcom/huawei/appmarket/rr4;
 
 .field private G:Landroid/graphics/Rect;
 
@@ -59,21 +59,21 @@
 
 .field private M:Z
 
-.field private N:Lcom/huawei/appmarket/uy;
+.field private N:Lcom/huawei/appmarket/vy;
 
 .field private final O:Ljava/util/concurrent/Semaphore;
 
 .field private P:Landroid/os/Handler;
 
-.field private Q:Lcom/huawei/appmarket/a15;
+.field private Q:Lcom/huawei/appmarket/d15;
 
-.field private final R:Lcom/huawei/appmarket/a15;
+.field private final R:Lcom/huawei/appmarket/d15;
 
 .field private S:F
 
-.field private b:Lcom/huawei/appmarket/r05;
+.field private b:Lcom/huawei/appmarket/u05;
 
-.field private final c:Lcom/huawei/appmarket/l15;
+.field private final c:Lcom/huawei/appmarket/o15;
 
 .field private d:Z
 
@@ -93,11 +93,11 @@
     .end annotation
 .end field
 
-.field private i:Lcom/huawei/appmarket/l94;
+.field private i:Lcom/huawei/appmarket/n94;
 
 .field private j:Ljava/lang/String;
 
-.field private k:Lcom/huawei/appmarket/en2;
+.field private k:Lcom/huawei/appmarket/gn2;
 
 .field private l:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -112,9 +112,9 @@
 
 .field m:Ljava/lang/String;
 
-.field n:Lcom/huawei/appmarket/dn2;
+.field n:Lcom/huawei/appmarket/fn2;
 
-.field o:Lcom/huawei/appmarket/ax7;
+.field o:Lcom/huawei/appmarket/fx7;
 
 .field private p:Z
 
@@ -191,9 +191,9 @@
 
     invoke-direct {v7}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
-    new-instance v8, Lcom/huawei/appmarket/k15;
+    new-instance v8, Lcom/huawei/appmarket/n15;
 
-    invoke-direct {v8}, Lcom/huawei/appmarket/k15;-><init>()V
+    invoke-direct {v8}, Lcom/huawei/appmarket/n15;-><init>()V
 
     move-object v1, v0
 
@@ -209,11 +209,11 @@
 
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/l15;
+    new-instance v0, Lcom/huawei/appmarket/o15;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/l15;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/o15;-><init>()V
 
-    iput-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iput-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     const/4 v1, 0x1
 
@@ -259,9 +259,9 @@
 
     iput-boolean v2, p0, Lcom/airbnb/lottie/h;->M:Z
 
-    new-instance v3, Lcom/huawei/appmarket/z05;
+    new-instance v3, Lcom/huawei/appmarket/c15;
 
-    invoke-direct {v3, p0}, Lcom/huawei/appmarket/z05;-><init>(Lcom/airbnb/lottie/h;)V
+    invoke-direct {v3, p0}, Lcom/huawei/appmarket/c15;-><init>(Lcom/airbnb/lottie/h;)V
 
     new-instance v4, Ljava/util/concurrent/Semaphore;
 
@@ -269,11 +269,11 @@
 
     iput-object v4, p0, Lcom/airbnb/lottie/h;->O:Ljava/util/concurrent/Semaphore;
 
-    new-instance v1, Lcom/huawei/appmarket/a15;
+    new-instance v1, Lcom/huawei/appmarket/d15;
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/a15;-><init>(Lcom/airbnb/lottie/h;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/d15;-><init>(Lcom/airbnb/lottie/h;I)V
 
-    iput-object v1, p0, Lcom/airbnb/lottie/h;->R:Lcom/huawei/appmarket/a15;
+    iput-object v1, p0, Lcom/airbnb/lottie/h;->R:Lcom/huawei/appmarket/d15;
 
     const v1, -0x800001
 
@@ -288,7 +288,7 @@
     .registers 12
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -386,16 +386,16 @@
 
     .line 51
     .line 52
-    new-instance v0, Lcom/huawei/appmarket/or4;
+    new-instance v0, Lcom/huawei/appmarket/rr4;
 
     .line 53
     .line 54
-    invoke-direct {v0}, Lcom/huawei/appmarket/or4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/rr4;-><init>()V
 
     .line 55
     .line 56
     .line 57
-    iput-object v0, p0, Lcom/airbnb/lottie/h;->F:Lcom/huawei/appmarket/or4;
+    iput-object v0, p0, Lcom/airbnb/lottie/h;->F:Lcom/huawei/appmarket/rr4;
 
     .line 58
     .line 59
@@ -1130,7 +1130,7 @@
 
     .line 411
     .line 412
-    iget-object v2, p0, Lcom/airbnb/lottie/h;->F:Lcom/huawei/appmarket/or4;
+    iget-object v2, p0, Lcom/airbnb/lottie/h;->F:Lcom/huawei/appmarket/rr4;
 
     .line 413
     .line 414
@@ -1433,7 +1433,7 @@
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/airbnb/lottie/h;->l()Lcom/huawei/appmarket/uy;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/h;->l()Lcom/huawei/appmarket/vy;
 
     .line 2
     .line 3
@@ -1441,7 +1441,7 @@
     move-result-object v0
 
     .line 5
-    sget-object v1, Lcom/huawei/appmarket/uy;->c:Lcom/huawei/appmarket/uy;
+    sget-object v1, Lcom/huawei/appmarket/vy;->c:Lcom/huawei/appmarket/vy;
 
     .line 6
     .line 7
@@ -1466,11 +1466,11 @@
 
     .line 16
     .line 17
-    iget-object p0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object p0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {p0}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 20
     .line 21
@@ -1583,11 +1583,11 @@
     .line 9
     .line 10
     .line 11
-    iget-object v2, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v2, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v2}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 14
     .line 15
@@ -1645,19 +1645,19 @@
 
     .line 42
     .line 43
-    new-instance v1, Lcom/huawei/appmarket/a15;
+    new-instance v1, Lcom/huawei/appmarket/d15;
 
     .line 44
     .line 45
     const/4 v2, 0x1
 
     .line 46
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/a15;-><init>(Lcom/airbnb/lottie/h;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/d15;-><init>(Lcom/airbnb/lottie/h;I)V
 
     .line 47
     .line 48
     .line 49
-    iput-object v1, p0, Lcom/airbnb/lottie/h;->Q:Lcom/huawei/appmarket/a15;
+    iput-object v1, p0, Lcom/airbnb/lottie/h;->Q:Lcom/huawei/appmarket/d15;
 
     .line 50
     .line 51
@@ -1677,7 +1677,7 @@
 
     .line 55
     .line 56
-    iget-object p0, p0, Lcom/airbnb/lottie/h;->Q:Lcom/huawei/appmarket/a15;
+    iget-object p0, p0, Lcom/airbnb/lottie/h;->Q:Lcom/huawei/appmarket/d15;
 
     .line 57
     .line 58
@@ -1773,7 +1773,7 @@
 
     .line 2
     .line 3
-    iget-object v3, v0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v3, v0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 4
     .line 5
@@ -1789,11 +1789,11 @@
 
     .line 9
     .line 10
-    sget v1, Lcom/huawei/appmarket/vs4;->d:I
+    sget v1, Lcom/huawei/appmarket/ys4;->d:I
 
     .line 11
     .line 12
-    invoke-virtual {v3}, Lcom/huawei/appmarket/r05;->b()Landroid/graphics/Rect;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/u05;->b()Landroid/graphics/Rect;
 
     .line 13
     .line 14
@@ -1801,7 +1801,7 @@
     move-result-object v19
 
     .line 16
-    new-instance v14, Lcom/huawei/appmarket/us4;
+    new-instance v14, Lcom/huawei/appmarket/xs4;
 
     .line 17
     .line 18
@@ -1824,7 +1824,7 @@
 
     .line 26
     .line 27
-    sget-object v7, Lcom/huawei/appmarket/us4$a;->b:Lcom/huawei/appmarket/us4$a;
+    sget-object v7, Lcom/huawei/appmarket/xs4$a;->b:Lcom/huawei/appmarket/xs4$a;
 
     .line 28
     .line 29
@@ -1843,14 +1843,14 @@
     move-result-object v11
 
     .line 36
-    new-instance v13, Lcom/huawei/appmarket/cm;
+    new-instance v13, Lcom/huawei/appmarket/bm;
 
     .line 37
     .line 38
     move-object v12, v13
 
     .line 39
-    invoke-direct {v13}, Lcom/huawei/appmarket/cm;-><init>()V
+    invoke-direct {v13}, Lcom/huawei/appmarket/bm;-><init>()V
 
     .line 40
     .line 41
@@ -1932,7 +1932,7 @@
     move-result-object v22
 
     .line 79
-    sget-object v23, Lcom/huawei/appmarket/us4$b;->b:Lcom/huawei/appmarket/us4$b;
+    sget-object v23, Lcom/huawei/appmarket/xs4$b;->b:Lcom/huawei/appmarket/xs4$b;
 
     .line 80
     .line 81
@@ -1952,7 +1952,7 @@
 
     .line 88
     .line 89
-    sget-object v28, Lcom/huawei/appmarket/nr4;->b:Lcom/huawei/appmarket/nr4;
+    sget-object v28, Lcom/huawei/appmarket/qr4;->b:Lcom/huawei/appmarket/qr4;
 
     .line 90
     .line 91
@@ -1967,12 +1967,12 @@
 
     .line 95
     .line 96
-    invoke-direct/range {v1 .. v28}, Lcom/huawei/appmarket/us4;-><init>(Ljava/util/List;Lcom/huawei/appmarket/r05;Ljava/lang/String;JLcom/huawei/appmarket/us4$a;JLjava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/cm;IIIFFFFLcom/huawei/appmarket/zl;Lcom/huawei/appmarket/am;Ljava/util/List;Lcom/huawei/appmarket/us4$b;Lcom/huawei/appmarket/ql;ZLcom/huawei/appmarket/bb0;Lcom/huawei/appmarket/cx1;Lcom/huawei/appmarket/nr4;)V
+    invoke-direct/range {v1 .. v28}, Lcom/huawei/appmarket/xs4;-><init>(Ljava/util/List;Lcom/huawei/appmarket/u05;Ljava/lang/String;JLcom/huawei/appmarket/xs4$a;JLjava/lang/String;Ljava/util/List;Lcom/huawei/appmarket/bm;IIIFFFFLcom/huawei/appmarket/yl;Lcom/huawei/appmarket/zl;Ljava/util/List;Lcom/huawei/appmarket/xs4$b;Lcom/huawei/appmarket/pl;ZLcom/huawei/appmarket/bb0;Lcom/huawei/appmarket/gx1;Lcom/huawei/appmarket/qr4;)V
 
     .line 97
     .line 98
     .line 99
-    invoke-virtual/range {v31 .. v31}, Lcom/huawei/appmarket/r05;->k()Ljava/util/List;
+    invoke-virtual/range {v31 .. v31}, Lcom/huawei/appmarket/u05;->k()Ljava/util/List;
 
     .line 100
     .line 101
@@ -1992,7 +1992,7 @@
 
     .line 108
     .line 109
-    invoke-direct {v3, v0, v4, v1, v2}, Lcom/huawei/appmarket/bz0;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/us4;Ljava/util/List;Lcom/huawei/appmarket/r05;)V
+    invoke-direct {v3, v0, v4, v1, v2}, Lcom/huawei/appmarket/bz0;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/xs4;Ljava/util/List;Lcom/huawei/appmarket/u05;)V
 
     .line 110
     .line 111
@@ -2038,13 +2038,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private g()V
     .registers 8
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -2064,7 +2065,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->q()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->q()Z
 
     .line 11
     .line 12
@@ -2072,7 +2073,7 @@
     move-result v3
 
     .line 14
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->m()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->m()I
 
     .line 15
     .line 16
@@ -2248,6 +2249,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private static h(Landroid/graphics/RectF;Landroid/graphics/Rect;)V
@@ -2305,7 +2307,7 @@
     .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/h;->s:Lcom/huawei/appmarket/bz0;
 
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-eqz v0, :cond_2
 
@@ -2334,7 +2336,7 @@
 
     int-to-float v4, v4
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/r05;->b()Landroid/graphics/Rect;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/u05;->b()Landroid/graphics/Rect;
 
     move-result-object v5
 
@@ -2352,7 +2354,7 @@
 
     int-to-float v5, v5
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/r05;->b()Landroid/graphics/Rect;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/u05;->b()Landroid/graphics/Rect;
 
     move-result-object v1
 
@@ -2386,7 +2388,7 @@
     return-void
 .end method
 
-.method private q()Lcom/huawei/appmarket/en2;
+.method private q()Lcom/huawei/appmarket/gn2;
     .registers 4
 
     .line 1
@@ -2401,30 +2403,30 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/en2;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/gn2;
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/huawei/appmarket/en2;
+    new-instance v0, Lcom/huawei/appmarket/gn2;
 
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getCallback()Landroid/graphics/drawable/Drawable$Callback;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/airbnb/lottie/h;->n:Lcom/huawei/appmarket/dn2;
+    iget-object v2, p0, Lcom/airbnb/lottie/h;->n:Lcom/huawei/appmarket/fn2;
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/en2;-><init>(Landroid/graphics/drawable/Drawable$Callback;Lcom/huawei/appmarket/dn2;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/gn2;-><init>(Landroid/graphics/drawable/Drawable$Callback;Lcom/huawei/appmarket/fn2;)V
 
-    iput-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/en2;
+    iput-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/gn2;
 
     iget-object v1, p0, Lcom/airbnb/lottie/h;->m:Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/en2;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gn2;->b(Ljava/lang/String;)V
 
     :cond_1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/en2;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/gn2;
 
     return-object v0
 .end method
@@ -2435,7 +2437,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->getRepeatCount()I
 
@@ -2453,7 +2455,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->getRepeatMode()I
 
@@ -2466,25 +2468,25 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->n()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->n()F
 
     move-result v0
 
     return v0
 .end method
 
-.method public final D()Lcom/huawei/appmarket/ax7;
+.method public final D()Lcom/huawei/appmarket/fx7;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->o:Lcom/huawei/appmarket/ax7;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->o:Lcom/huawei/appmarket/fx7;
 
     return-object v0
 .end method
 
-.method public final E(Lcom/huawei/appmarket/cn2;)Landroid/graphics/Typeface;
+.method public final E(Lcom/huawei/appmarket/en2;)Landroid/graphics/Typeface;
     .registers 5
 
     .line 1
@@ -2492,7 +2494,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cn2;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/en2;->a()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2512,7 +2514,7 @@
     return-object p1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cn2;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/en2;->b()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2529,7 +2531,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cn2;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/en2;->a()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2539,7 +2541,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/cn2;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/en2;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2558,13 +2560,13 @@
     goto :goto_0
 
     :cond_2
-    invoke-direct {p0}, Lcom/airbnb/lottie/h;->q()Lcom/huawei/appmarket/en2;
+    invoke-direct {p0}, Lcom/airbnb/lottie/h;->q()Lcom/huawei/appmarket/gn2;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/en2;->a(Lcom/huawei/appmarket/cn2;)Landroid/graphics/Typeface;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gn2;->a(Lcom/huawei/appmarket/en2;)Landroid/graphics/Typeface;
 
     move-result-object p1
 
@@ -2580,7 +2582,7 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     if-nez v0, :cond_0
 
@@ -2589,7 +2591,7 @@
     return v0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->isRunning()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->isRunning()Z
 
     move-result v0
 
@@ -2606,9 +2608,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->isRunning()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->isRunning()Z
 
     move-result v0
 
@@ -2657,9 +2659,9 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->p()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->p()V
 
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->isVisible()Z
 
@@ -2725,7 +2727,7 @@
     move-result v0
 
     .line 24
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 25
     .line 26
@@ -2758,7 +2760,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->q()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->q()V
 
     .line 41
     .line 42
@@ -2837,11 +2839,11 @@
 
     .line 75
     .line 76
-    iget-object v3, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v3, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 77
     .line 78
-    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/r05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/l35;
+    invoke-virtual {v3, v2}, Lcom/huawei/appmarket/u05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/o35;
 
     .line 79
     .line 80
@@ -2858,7 +2860,7 @@
 
     .line 85
     .line 86
-    iget v0, v2, Lcom/huawei/appmarket/l35;->b:F
+    iget v0, v2, Lcom/huawei/appmarket/o35;->b:F
 
     .line 87
     .line 88
@@ -2875,7 +2877,7 @@
 
     .line 93
     :cond_6
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->n()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->n()F
 
     .line 94
     .line 95
@@ -2894,7 +2896,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->m()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->m()F
 
     .line 103
     .line 104
@@ -2906,7 +2908,7 @@
 
     .line 107
     :cond_7
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->l()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->l()F
 
     .line 108
     .line 109
@@ -2918,7 +2920,7 @@
 
     .line 112
     :goto_3
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->i()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->i()V
 
     .line 113
     .line 114
@@ -2955,6 +2957,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final L()V
@@ -3007,7 +3010,7 @@
     move-result v0
 
     .line 24
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 25
     .line 26
@@ -3040,7 +3043,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->s()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->s()V
 
     .line 41
     .line 42
@@ -3079,7 +3082,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->n()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->n()F
 
     .line 58
     .line 59
@@ -3098,7 +3101,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->m()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->m()F
 
     .line 67
     .line 68
@@ -3110,7 +3113,7 @@
 
     .line 71
     :cond_4
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->l()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->l()F
 
     .line 72
     .line 73
@@ -3127,7 +3130,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->i()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->i()V
 
     .line 80
     .line 81
@@ -3197,6 +3200,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final M(Z)V
@@ -3208,11 +3212,11 @@
     return-void
 .end method
 
-.method public final N(Lcom/huawei/appmarket/uy;)V
+.method public final N(Lcom/huawei/appmarket/vy;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/airbnb/lottie/h;->N:Lcom/huawei/appmarket/uy;
+    iput-object p1, p0, Lcom/airbnb/lottie/h;->N:Lcom/huawei/appmarket/vy;
 
     return-void
 .end method
@@ -3256,11 +3260,11 @@
     return-void
 .end method
 
-.method public final Q(Lcom/huawei/appmarket/r05;)Z
+.method public final Q(Lcom/huawei/appmarket/u05;)Z
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-ne v0, p1, :cond_0
 
@@ -3275,15 +3279,15 @@
 
     invoke-virtual {p0}, Lcom/airbnb/lottie/h;->f()V
 
-    iput-object p1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iput-object p1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     invoke-direct {p0}, Lcom/airbnb/lottie/h;->e()V
 
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/l15;->t(Lcom/huawei/appmarket/r05;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/o15;->t(Lcom/huawei/appmarket/u05;)V
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/l15;->getAnimatedFraction()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o15;->getAnimatedFraction()F
 
     move-result v1
 
@@ -3326,7 +3330,7 @@
 
     iget-boolean v1, p0, Lcom/airbnb/lottie/h;->u:Z
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/r05;->v(Z)V
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/u05;->v(Z)V
 
     invoke-direct {p0}, Lcom/airbnb/lottie/h;->g()V
 
@@ -3356,29 +3360,29 @@
     .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/h;->m:Ljava/lang/String;
 
-    invoke-direct {p0}, Lcom/airbnb/lottie/h;->q()Lcom/huawei/appmarket/en2;
+    invoke-direct {p0}, Lcom/airbnb/lottie/h;->q()Lcom/huawei/appmarket/gn2;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/en2;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gn2;->b(Ljava/lang/String;)V
 
     :cond_0
     return-void
 .end method
 
-.method public final S(Lcom/huawei/appmarket/dn2;)V
+.method public final S(Lcom/huawei/appmarket/fn2;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/airbnb/lottie/h;->n:Lcom/huawei/appmarket/dn2;
+    iput-object p1, p0, Lcom/airbnb/lottie/h;->n:Lcom/huawei/appmarket/fn2;
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/en2;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->k:Lcom/huawei/appmarket/gn2;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/en2;->c(Lcom/huawei/appmarket/dn2;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gn2;->c(Lcom/huawei/appmarket/fn2;)V
 
     :cond_0
     return-void
@@ -3415,7 +3419,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -3432,11 +3436,11 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     int-to-float p1, p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->u(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->u(F)V
 
     return-void
 .end method
@@ -3472,7 +3476,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -3495,9 +3499,9 @@
 
     add-float/2addr p1, v0
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->v(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->v(F)V
 
     return-void
 .end method
@@ -3506,7 +3510,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -3539,7 +3543,7 @@
 
     .line 17
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/r05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/l35;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/o35;
 
     .line 18
     .line 19
@@ -3551,11 +3555,11 @@
 
     .line 22
     .line 23
-    iget p1, v0, Lcom/huawei/appmarket/l35;->b:F
+    iget p1, v0, Lcom/huawei/appmarket/o35;->b:F
 
     .line 24
     .line 25
-    iget v0, v0, Lcom/huawei/appmarket/l35;->c:F
+    iget v0, v0, Lcom/huawei/appmarket/o35;->c:F
 
     .line 26
     .line 27
@@ -3586,7 +3590,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -3655,7 +3659,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -3672,23 +3676,23 @@
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->p()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->p()F
 
     move-result v0
 
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/r05;->f()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/u05;->f()F
 
     move-result v1
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/s95;->e(FFF)F
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/v95;->e(FFF)F
 
     move-result p1
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->v(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->v(F)V
 
     return-void
 .end method
@@ -3697,7 +3701,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -3720,23 +3724,23 @@
 
     add-float/2addr p2, v0
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/l15;->w(FF)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/o15;->w(FF)V
 
     return-void
 .end method
 
-.method public final c(Lcom/huawei/appmarket/zq4;Ljava/lang/Object;Lcom/huawei/appmarket/m15;)V
+.method public final c(Lcom/huawei/appmarket/cr4;Ljava/lang/Object;Lcom/huawei/appmarket/p15;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/huawei/appmarket/zq4;",
+            "Lcom/huawei/appmarket/cr4;",
             "TT;",
-            "Lcom/huawei/appmarket/m15<",
+            "Lcom/huawei/appmarket/p15<",
             "TT;>;)V"
         }
     .end annotation
@@ -3758,7 +3762,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, p0, p1, p2, p3}, Lcom/airbnb/lottie/f;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/zq4;Ljava/lang/Object;Lcom/huawei/appmarket/m15;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Lcom/airbnb/lottie/f;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/cr4;Ljava/lang/Object;Lcom/huawei/appmarket/p15;)V
 
     .line 10
     .line 11
@@ -3772,7 +3776,7 @@
 
     .line 16
     :cond_0
-    sget-object v1, Lcom/huawei/appmarket/zq4;->c:Lcom/huawei/appmarket/zq4;
+    sget-object v1, Lcom/huawei/appmarket/cr4;->c:Lcom/huawei/appmarket/cr4;
 
     .line 17
     .line 18
@@ -3780,7 +3784,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p3, p2}, Lcom/huawei/appmarket/bz0;->c(Lcom/huawei/appmarket/m15;Ljava/lang/Object;)V
+    invoke-virtual {v0, p3, p2}, Lcom/huawei/appmarket/bz0;->c(Lcom/huawei/appmarket/p15;Ljava/lang/Object;)V
 
     .line 21
     .line 22
@@ -3789,7 +3793,7 @@
 
     .line 24
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/zq4;->c()Lcom/huawei/appmarket/ar4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cr4;->c()Lcom/huawei/appmarket/dr4;
 
     .line 25
     .line 26
@@ -3801,7 +3805,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Lcom/huawei/appmarket/zq4;->c()Lcom/huawei/appmarket/ar4;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/cr4;->c()Lcom/huawei/appmarket/dr4;
 
     .line 31
     .line 32
@@ -3809,7 +3813,7 @@
     move-result-object p1
 
     .line 34
-    invoke-interface {p1, p3, p2}, Lcom/huawei/appmarket/ar4;->c(Lcom/huawei/appmarket/m15;Ljava/lang/Object;)V
+    invoke-interface {p1, p3, p2}, Lcom/huawei/appmarket/dr4;->c(Lcom/huawei/appmarket/p15;Ljava/lang/Object;)V
 
     .line 35
     .line 36
@@ -3833,7 +3837,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mz4;->c(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -3863,7 +3867,7 @@
 
     .line 59
     .line 60
-    new-instance v3, Lcom/huawei/appmarket/zq4;
+    new-instance v3, Lcom/huawei/appmarket/cr4;
 
     .line 61
     .line 62
@@ -3871,12 +3875,12 @@
 
     .line 63
     .line 64
-    invoke-direct {v3, v4}, Lcom/huawei/appmarket/zq4;-><init>([Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Lcom/huawei/appmarket/cr4;-><init>([Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v2, p1, v1, v0, v3}, Lcom/huawei/appmarket/g40;->d(Lcom/huawei/appmarket/zq4;ILjava/util/ArrayList;Lcom/huawei/appmarket/zq4;)V
+    invoke-virtual {v2, p1, v1, v0, v3}, Lcom/huawei/appmarket/g40;->d(Lcom/huawei/appmarket/cr4;ILjava/util/ArrayList;Lcom/huawei/appmarket/cr4;)V
 
     .line 68
     .line 69
@@ -3905,11 +3909,11 @@
     move-result-object v0
 
     .line 81
-    check-cast v0, Lcom/huawei/appmarket/zq4;
+    check-cast v0, Lcom/huawei/appmarket/cr4;
 
     .line 82
     .line 83
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zq4;->c()Lcom/huawei/appmarket/ar4;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cr4;->c()Lcom/huawei/appmarket/dr4;
 
     .line 84
     .line 85
@@ -3917,7 +3921,7 @@
     move-result-object v0
 
     .line 87
-    invoke-interface {v0, p3, p2}, Lcom/huawei/appmarket/ar4;->c(Lcom/huawei/appmarket/m15;Ljava/lang/Object;)V
+    invoke-interface {v0, p3, p2}, Lcom/huawei/appmarket/dr4;->c(Lcom/huawei/appmarket/p15;Ljava/lang/Object;)V
 
     .line 88
     .line 89
@@ -3952,7 +3956,7 @@
     .line 102
     .line 103
     .line 104
-    sget-object p1, Lcom/huawei/appmarket/h15;->E:Ljava/lang/Float;
+    sget-object p1, Lcom/huawei/appmarket/k15;->E:Ljava/lang/Float;
 
     .line 105
     .line 106
@@ -3960,11 +3964,11 @@
 
     .line 107
     .line 108
-    iget-object p1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object p1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 109
     .line 110
-    invoke-virtual {p1}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 111
     .line 112
@@ -4145,13 +4149,20 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final c0(Ljava/lang/String;)V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -4184,7 +4195,7 @@
 
     .line 17
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/r05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/l35;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/o35;
 
     .line 18
     .line 19
@@ -4196,14 +4207,14 @@
 
     .line 22
     .line 23
-    iget p1, v0, Lcom/huawei/appmarket/l35;->b:F
+    iget p1, v0, Lcom/huawei/appmarket/o35;->b:F
 
     .line 24
     .line 25
     float-to-int p1, p1
 
     .line 26
-    iget v0, v0, Lcom/huawei/appmarket/l35;->c:F
+    iget v0, v0, Lcom/huawei/appmarket/o35;->c:F
 
     .line 27
     .line 28
@@ -4234,7 +4245,7 @@
 
     .line 39
     .line 40
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -4302,7 +4313,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -4319,9 +4330,9 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->x(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->x(I)V
 
     return-void
 .end method
@@ -4342,7 +4353,7 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0}, Lcom/airbnb/lottie/h;->l()Lcom/huawei/appmarket/uy;
+    invoke-virtual {p0}, Lcom/airbnb/lottie/h;->l()Lcom/huawei/appmarket/vy;
 
     .line 7
     .line 8
@@ -4350,7 +4361,7 @@
     move-result-object v1
 
     .line 10
-    sget-object v2, Lcom/huawei/appmarket/uy;->c:Lcom/huawei/appmarket/uy;
+    sget-object v2, Lcom/huawei/appmarket/vy;->c:Lcom/huawei/appmarket/vy;
 
     .line 11
     .line 12
@@ -4380,11 +4391,11 @@
 
     .line 21
     .line 22
-    iget-object v5, p0, Lcom/airbnb/lottie/h;->R:Lcom/huawei/appmarket/a15;
+    iget-object v5, p0, Lcom/airbnb/lottie/h;->R:Lcom/huawei/appmarket/d15;
 
     .line 23
     .line 24
-    iget-object v6, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v6, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 25
     .line 26
@@ -4410,7 +4421,7 @@
     .line 34
     :cond_2
     :goto_1
-    sget v7, Lcom/huawei/appmarket/mr4;->d:I
+    sget v7, Lcom/huawei/appmarket/pr4;->d:I
 
     .line 35
     .line 36
@@ -4418,7 +4429,7 @@
 
     .line 37
     .line 38
-    iget-object v7, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v7, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 39
     .line 40
@@ -4434,7 +4445,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {v6}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 46
     .line 47
@@ -4446,7 +4457,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v7}, Lcom/huawei/appmarket/r05;->d()F
+    invoke-virtual {v7}, Lcom/huawei/appmarket/u05;->d()F
 
     .line 52
     .line 53
@@ -4481,7 +4492,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {v6}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 69
     .line 70
@@ -4537,7 +4548,7 @@
     .line 91
     :catchall_1
     :try_start_2
-    invoke-static {}, Lcom/huawei/appmarket/jz4;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/mz4;->b()V
 
     .line 92
     .line 93
@@ -4576,7 +4587,7 @@
 
     .line 107
     .line 108
-    sget p1, Lcom/huawei/appmarket/mr4;->d:I
+    sget p1, Lcom/huawei/appmarket/pr4;->d:I
 
     .line 109
     .line 110
@@ -4597,7 +4608,7 @@
     move-result p1
 
     .line 119
-    invoke-virtual {v6}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 120
     .line 121
@@ -4623,7 +4634,7 @@
 
     .line 131
     :goto_5
-    sget v3, Lcom/huawei/appmarket/mr4;->d:I
+    sget v3, Lcom/huawei/appmarket/pr4;->d:I
 
     .line 132
     .line 133
@@ -4644,7 +4655,7 @@
     move-result v0
 
     .line 142
-    invoke-virtual {v6}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 143
     .line 144
@@ -4670,7 +4681,7 @@
 
     .line 154
     :catch_0
-    sget p1, Lcom/huawei/appmarket/mr4;->d:I
+    sget p1, Lcom/huawei/appmarket/pr4;->d:I
 
     .line 155
     .line 156
@@ -4691,7 +4702,7 @@
     move-result p1
 
     .line 165
-    invoke-virtual {v6}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v6}, Lcom/huawei/appmarket/o15;->j()F
 
     .line 166
     .line 167
@@ -4890,7 +4901,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 2
     .line 3
@@ -4923,7 +4934,7 @@
 
     .line 17
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/r05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/l35;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u05;->l(Ljava/lang/String;)Lcom/huawei/appmarket/o35;
 
     .line 18
     .line 19
@@ -4935,7 +4946,7 @@
 
     .line 22
     .line 23
-    iget p1, v0, Lcom/huawei/appmarket/l35;->b:F
+    iget p1, v0, Lcom/huawei/appmarket/o35;->b:F
 
     .line 24
     .line 25
@@ -4963,7 +4974,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/uq5;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -5035,15 +5046,15 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->isRunning()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->isRunning()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->cancel()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->cancel()V
 
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->isVisible()Z
 
@@ -5058,17 +5069,17 @@
     :cond_0
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iput-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     iput-object v1, p0, Lcom/airbnb/lottie/h;->s:Lcom/huawei/appmarket/bz0;
 
-    iput-object v1, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iput-object v1, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     const v1, -0x800001
 
     iput v1, p0, Lcom/airbnb/lottie/h;->S:F
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->h()V
 
     invoke-virtual {p0}, Lcom/airbnb/lottie/h;->invalidateSelf()V
 
@@ -5079,7 +5090,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -5096,17 +5107,17 @@
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->p()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->p()F
 
     move-result v0
 
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/r05;->f()F
+    invoke-virtual {v1}, Lcom/huawei/appmarket/u05;->f()F
 
     move-result v1
 
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/s95;->e(FFF)F
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/v95;->e(FFF)F
 
     move-result p1
 
@@ -5151,7 +5162,7 @@
 .method public final getIntrinsicHeight()I
     .registers 2
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -5160,7 +5171,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->b()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->b()Landroid/graphics/Rect;
 
     move-result-object v0
 
@@ -5175,7 +5186,7 @@
 .method public final getIntrinsicWidth()I
     .registers 2
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -5184,7 +5195,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->b()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->b()Landroid/graphics/Rect;
 
     move-result-object v0
 
@@ -5210,11 +5221,11 @@
     .line 1
     iput-boolean p1, p0, Lcom/airbnb/lottie/h;->u:Z
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/r05;->v(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u05;->v(Z)V
 
     :cond_0
     return-void
@@ -5224,7 +5235,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -5241,15 +5252,15 @@
     return-void
 
     :cond_0
-    sget v1, Lcom/huawei/appmarket/mr4;->d:I
+    sget v1, Lcom/huawei/appmarket/pr4;->d:I
 
-    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/r05;->h(F)F
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/u05;->h(F)F
 
     move-result p1
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/l15;->u(F)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/o15;->u(F)V
 
     return-void
 .end method
@@ -5337,7 +5348,7 @@
     :cond_0
     iput-boolean p1, p0, Lcom/airbnb/lottie/h;->p:Z
 
-    iget-object p1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object p1, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-eqz p1, :cond_1
 
@@ -5371,25 +5382,25 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     invoke-virtual {v0, p1}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
     return-void
 .end method
 
-.method public final l()Lcom/huawei/appmarket/uy;
+.method public final l()Lcom/huawei/appmarket/vy;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->N:Lcom/huawei/appmarket/uy;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->N:Lcom/huawei/appmarket/vy;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/mr4;->a()Lcom/huawei/appmarket/uy;
+    invoke-static {}, Lcom/huawei/appmarket/pr4;->a()Lcom/huawei/appmarket/vy;
 
     move-result-object v0
 
@@ -5400,9 +5411,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->setRepeatMode(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->setRepeatMode(I)V
 
     return-void
 .end method
@@ -5411,7 +5422,7 @@
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     .line 2
     .line 3
@@ -5463,7 +5474,7 @@
 
     .line 24
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/l94;->b(Landroid/content/Context;)Z
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/n94;->b(Landroid/content/Context;)Z
 
     .line 25
     .line 26
@@ -5475,12 +5486,12 @@
 
     .line 29
     .line 30
-    iput-object v1, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iput-object v1, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     .line 31
     .line 32
     :cond_2
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     .line 33
     .line 34
@@ -5488,7 +5499,7 @@
 
     .line 35
     .line 36
-    new-instance v0, Lcom/huawei/appmarket/l94;
+    new-instance v0, Lcom/huawei/appmarket/n94;
 
     .line 37
     .line 38
@@ -5504,11 +5515,11 @@
 
     .line 43
     .line 44
-    iget-object v4, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v4, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     .line 45
     .line 46
-    invoke-virtual {v4}, Lcom/huawei/appmarket/r05;->j()Ljava/util/Map;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/u05;->j()Ljava/util/Map;
 
     .line 47
     .line 48
@@ -5516,17 +5527,17 @@
     move-result-object v4
 
     .line 50
-    invoke-direct {v0, v2, v3, v1, v4}, Lcom/huawei/appmarket/l94;-><init>(Landroid/graphics/drawable/Drawable$Callback;Ljava/lang/String;Lcom/huawei/appmarket/k94;Ljava/util/Map;)V
+    invoke-direct {v0, v2, v3, v1, v4}, Lcom/huawei/appmarket/n94;-><init>(Landroid/graphics/drawable/Drawable$Callback;Ljava/lang/String;Lcom/huawei/appmarket/m94;Ljava/util/Map;)V
 
     .line 51
     .line 52
     .line 53
-    iput-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iput-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     .line 54
     .line 55
     :cond_3
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/l94;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->i:Lcom/huawei/appmarket/n94;
 
     .line 56
     .line 57
@@ -5534,7 +5545,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l94;->a(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/n94;->a(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     .line 60
     .line 61
@@ -5602,9 +5613,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->y(F)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->y(F)V
 
     return-void
 .end method
@@ -5631,11 +5642,11 @@
     return-void
 .end method
 
-.method public final p()Lcom/huawei/appmarket/r05;
+.method public final p()Lcom/huawei/appmarket/u05;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     return-object v0
 .end method
@@ -5644,9 +5655,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/l15;->z(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/o15;->z(Z)V
 
     return-void
 .end method
@@ -5659,17 +5670,17 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->o:Lcom/huawei/appmarket/ax7;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->o:Lcom/huawei/appmarket/fx7;
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->c()Lcom/huawei/appmarket/si7;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->c()Lcom/huawei/appmarket/yi7;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/si7;->j()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/yi7;->j()I
 
     move-result v0
 
@@ -5690,9 +5701,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->k()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->k()F
 
     move-result v0
 
@@ -5742,7 +5753,7 @@
 
     const-string p1, "Use addColorFilter instead."
 
-    invoke-static {p1}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/mz4;->c(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -5782,9 +5793,9 @@
     goto :goto_1
 
     :cond_1
-    iget-object p1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object p1, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/l15;->isRunning()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/o15;->isRunning()Z
 
     move-result p1
 
@@ -5851,11 +5862,11 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->i()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->i()V
 
     .line 9
     .line 10
@@ -5996,13 +6007,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final t(Ljava/lang/String;)Lcom/huawei/appmarket/c15;
+.method public final t(Ljava/lang/String;)Lcom/huawei/appmarket/f15;
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-nez v0, :cond_0
 
@@ -6011,7 +6023,7 @@
     return-object p1
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->j()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->j()Ljava/util/Map;
 
     move-result-object v0
 
@@ -6019,7 +6031,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/c15;
+    check-cast p1, Lcom/huawei/appmarket/f15;
 
     return-object p1
 .end method
@@ -6054,9 +6066,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->l()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->l()F
 
     move-result v0
 
@@ -6067,24 +6079,24 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->m()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->m()F
 
     move-result v0
 
     return v0
 .end method
 
-.method public final x()Lcom/huawei/appmarket/tx5;
+.method public final x()Lcom/huawei/appmarket/vx5;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/r05;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->b:Lcom/huawei/appmarket/u05;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/r05;->n()Lcom/huawei/appmarket/tx5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/u05;->n()Lcom/huawei/appmarket/vx5;
 
     move-result-object v0
 
@@ -6100,9 +6112,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/l15;
+    iget-object v0, p0, Lcom/airbnb/lottie/h;->c:Lcom/huawei/appmarket/o15;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/l15;->j()F
+    invoke-virtual {v0}, Lcom/huawei/appmarket/o15;->j()F
 
     move-result v0
 

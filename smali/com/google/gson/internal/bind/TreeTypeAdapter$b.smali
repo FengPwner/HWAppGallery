@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/jp4;
-.implements Lcom/huawei/appmarket/ko4;
+.implements Lcom/huawei/appmarket/mp4;
+.implements Lcom/huawei/appmarket/no4;
 
 
 # annotations

@@ -311,7 +311,7 @@
 
     .line 109
     .line 110
-    const-class v7, Lcom/huawei/appmarket/du4;
+    const-class v7, Lcom/huawei/appmarket/gu4;
 
     .line 111
     .line 112

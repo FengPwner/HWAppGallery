@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
@@ -58,11 +58,11 @@
 
     move-result-object p2
 
-    new-instance v1, Lcom/huawei/appmarket/qj8;
+    new-instance v1, Lcom/huawei/appmarket/wj8;
 
     const/4 v2, 0x7
 
-    invoke-direct {v1, v0, v2, p1}, Lcom/huawei/appmarket/qj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, v0, v2, p1}, Lcom/huawei/appmarket/wj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-virtual {p2, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

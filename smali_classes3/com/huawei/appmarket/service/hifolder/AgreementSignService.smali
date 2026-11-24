@@ -17,7 +17,7 @@
 
 
 # instance fields
-.field private b:Lcom/huawei/appmarket/ch3;
+.field private b:Lcom/huawei/appmarket/eh3;
 
 .field private c:Ljava/lang/String;
 
@@ -39,20 +39,20 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/service/hifolder/AgreementSignService;)Lcom/huawei/appmarket/ch3;
+.method static synthetic a(Lcom/huawei/appmarket/service/hifolder/AgreementSignService;)Lcom/huawei/appmarket/eh3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/ch3;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/eh3;
 
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/huawei/appmarket/service/hifolder/AgreementSignService;Lcom/huawei/appmarket/ch3;)V
+.method static synthetic b(Lcom/huawei/appmarket/service/hifolder/AgreementSignService;Lcom/huawei/appmarket/eh3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/ch3;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/eh3;
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     .line 26
     .line 27
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -322,14 +322,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method private g(Z)V
     .registers 7
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/ch3;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/eh3;
 
     .line 2
     .line 3
@@ -439,7 +438,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->b()I
 
     .line 59
     .line 60
@@ -464,11 +463,11 @@
     .line 69
     .line 70
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/ch3;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->b:Lcom/huawei/appmarket/eh3;
 
     .line 71
     .line 72
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/ch3;->onResult(Ljava/util/HashMap;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/eh3;->onResult(Ljava/util/HashMap;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -487,7 +486,7 @@
 
     .line 79
     .line 80
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -526,7 +525,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -538,7 +536,7 @@
 
     const-string v0, "AppGalleryInitService onBind"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/service/hifolder/AgreementSignService;->d:Lcom/huawei/appmarket/service/hifolder/c;
 
@@ -571,7 +569,7 @@
 
     const-string v1, "AgreementSignService onStartCommand"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -597,7 +595,7 @@
 
     check-cast v3, Landroid/app/NotificationManager;
 
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/l85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/o85;->x(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     :cond_0
     new-instance v2, Landroid/app/Notification$Builder;
@@ -618,7 +616,7 @@
 
     const-string v3, "AgreementSignService startForeground"
 
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 

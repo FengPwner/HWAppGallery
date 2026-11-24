@@ -21,7 +21,7 @@
 
     iput v0, p0, Landroidx/appcompat/widget/ButtonBarLayout;->d:I
 
-    sget-object v3, Lcom/huawei/appmarket/pe6;->l:[I
+    sget-object v3, Lcom/huawei/appmarket/re6;->l:[I
 
     invoke-virtual {p1, p2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -37,7 +37,7 @@
 
     move-object v5, v0
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ei8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/ki8;->d0(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;I)V
 
     const/4 p1, 0x0
 
@@ -565,7 +565,7 @@
     .line 190
     :cond_b
     :goto_6
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->u(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->u(Landroid/view/View;)I
 
     .line 191
     .line 192

@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
-.implements Lcom/huawei/appmarket/oo5;
+.implements Lcom/huawei/appmarket/lp5;
+.implements Lcom/huawei/appmarket/po5;
 
 
 # annotations
@@ -20,10 +20,10 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Ljava/lang/Boolean;",
         ">;",
-        "Lcom/huawei/appmarket/oo5;"
+        "Lcom/huawei/appmarket/po5;"
     }
 .end annotation
 
@@ -67,7 +67,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -94,7 +94,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {}, Lcom/huawei/appmarket/xd8;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/ce8;->d()V
 
     .line 21
     .line 22
@@ -183,7 +183,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onSuccess(Ljava/lang/Object;)V
@@ -224,7 +223,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -263,7 +262,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {}, Lcom/huawei/appmarket/xd8;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/ce8;->d()V
 
     .line 41
     .line 42
@@ -333,5 +332,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

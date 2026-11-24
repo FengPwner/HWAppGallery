@@ -9,7 +9,7 @@
 
 # instance fields
 .field private list:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
@@ -60,7 +60,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/uv4;->c(Ljava/util/List;Ljava/util/List;)Z
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/xv4;->c(Ljava/util/List;Ljava/util/List;)Z
 
     .line 13
     .line 14
@@ -186,7 +186,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final hashCode()I

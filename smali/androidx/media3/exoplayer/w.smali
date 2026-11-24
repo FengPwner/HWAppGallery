@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract a()Lcom/huawei/appmarket/mz7;
+.method public abstract a()Lcom/huawei/appmarket/rz7;
 .end method
 
 .method public abstract getUid()Ljava/lang/Object;

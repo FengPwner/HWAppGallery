@@ -75,7 +75,7 @@
 
     if-lt v4, v5, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/jm7;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/pm7;->v()Z
 
     move-result p0
 

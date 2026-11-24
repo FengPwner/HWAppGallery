@@ -39,7 +39,7 @@
 
     iget-object v0, p0, Landroidx/transition/n$a;->b:Landroidx/transition/n;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     iget-object v1, v0, Landroidx/transition/n;->b:Landroid/view/ViewGroup;
 
@@ -53,7 +53,7 @@
 
     iget-object v1, v0, Landroidx/transition/n;->b:Landroid/view/ViewGroup;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     const/4 v1, 0x0
 

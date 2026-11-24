@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dv7;
+.implements Lcom/huawei/appmarket/jv7;
 
 
 # annotations
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/dv7<",
+        "Lcom/huawei/appmarket/jv7<",
         "TZ;>;"
     }
 .end annotation
@@ -172,7 +172,7 @@
 .method protected abstract a()V
 .end method
 
-.method public final getRequest()Lcom/huawei/appmarket/hr6;
+.method public final getRequest()Lcom/huawei/appmarket/kr6;
     .registers 3
 
     .line 1
@@ -197,7 +197,7 @@
 
     .line 11
     .line 12
-    instance-of v1, v0, Lcom/huawei/appmarket/hr6;
+    instance-of v1, v0, Lcom/huawei/appmarket/kr6;
 
     .line 13
     .line 14
@@ -205,7 +205,7 @@
 
     .line 15
     .line 16
-    check-cast v0, Lcom/huawei/appmarket/hr6;
+    check-cast v0, Lcom/huawei/appmarket/kr6;
 
     .line 17
     .line 18
@@ -341,15 +341,16 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public final getSize(Lcom/huawei/appmarket/pg7;)V
+.method public final getSize(Lcom/huawei/appmarket/ug7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/y61;->b:Lcom/huawei/appmarket/y61$a;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/y61$a;->c(Lcom/huawei/appmarket/pg7;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/y61$a;->c(Lcom/huawei/appmarket/ug7;)V
 
     return-void
 .end method
@@ -395,18 +396,18 @@
     return-void
 .end method
 
-.method public final removeCallback(Lcom/huawei/appmarket/pg7;)V
+.method public final removeCallback(Lcom/huawei/appmarket/ug7;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/y61;->b:Lcom/huawei/appmarket/y61$a;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/y61$a;->e(Lcom/huawei/appmarket/pg7;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/y61$a;->e(Lcom/huawei/appmarket/ug7;)V
 
     return-void
 .end method
 
-.method public final setRequest(Lcom/huawei/appmarket/hr6;)V
+.method public final setRequest(Lcom/huawei/appmarket/kr6;)V
     .registers 4
 
     .line 1

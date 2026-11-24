@@ -49,11 +49,11 @@
     return-void
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v0
 
@@ -69,10 +69,10 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hj0;->D(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ij0;->D(Ljava/lang/String;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/welfarecenter/business/node/BasePointsNode;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appgallery/welfarecenter/business/node/BasePointsNode;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

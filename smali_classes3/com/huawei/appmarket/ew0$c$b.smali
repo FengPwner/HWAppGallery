@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/np1;
 
 
 # annotations
@@ -39,15 +39,15 @@
     .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/sr3;
+    const-class v0, Lcom/huawei/appmarket/ur3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/sr3;
+    check-cast v0, Lcom/huawei/appmarket/ur3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/sr3;->a0()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/ur3;->a0()V
 
     invoke-static {}, Lcom/huawei/appgallery/foundation/account/bean/UserSession;->getInstance()Lcom/huawei/appgallery/foundation/account/bean/UserSession;
 
@@ -65,7 +65,7 @@
 
     const-string v2, "CommonAgreementHelper"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, v1, Lcom/huawei/appmarket/ew0$c;->c:Lcom/huawei/appmarket/ew0;
 
@@ -73,11 +73,11 @@
 
     move-result-object v2
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/by3;
+    invoke-static {v1}, Lcom/huawei/appmarket/ew0$c;->b(Lcom/huawei/appmarket/ew0$c;)Lcom/huawei/appmarket/dy3;
 
     move-result-object v1
 
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/ew0;->x(Lcom/huawei/appmarket/ew0;Landroid/content/Context;Lcom/huawei/appmarket/by3;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/ew0;->x(Lcom/huawei/appmarket/ew0;Landroid/content/Context;Lcom/huawei/appmarket/dy3;)V
 
     return-void
 
@@ -94,7 +94,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appmarket/ew0$c$b$a;-><init>(Lcom/huawei/appmarket/ew0$c$b;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/account/GuideLogin;->d(Lcom/huawei/appmarket/xr3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/service/account/GuideLogin;->d(Lcom/huawei/appmarket/zr3;)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r75;
+.implements Lcom/huawei/appmarket/u75;
 
 
 # virtual methods

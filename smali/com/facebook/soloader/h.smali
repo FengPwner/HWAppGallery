@@ -53,7 +53,7 @@
 
     .line 15
     .line 16
-    invoke-static {v1, v2, v3, p2}, Lcom/huawei/appmarket/ej2;->n(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3, p2}, Lcom/huawei/appmarket/tr2;->l(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -731,7 +731,7 @@
 
     .line 172
     .line 173
-    invoke-static {p2, v1}, Lcom/huawei/appmarket/ej2;->k(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p2, v1}, Lcom/huawei/appmarket/kb1;->i(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
 
     .line 174
     .line 175
@@ -1269,7 +1269,7 @@
     .line 702
 .end method
 
-.method private h(Lcom/huawei/appmarket/rj2;I[B)Z
+.method private h(Lcom/huawei/appmarket/tj2;I[B)Z
     .registers 15
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1545,7 +1545,7 @@
 
     move-object v7, p1
 
-    invoke-direct/range {v1 .. v7}, Lcom/facebook/soloader/h$a;-><init>(Lcom/facebook/soloader/h;Ljava/io/File;[BLcom/facebook/soloader/h$c;Ljava/io/File;Lcom/huawei/appmarket/rj2;)V
+    invoke-direct/range {v1 .. v7}, Lcom/facebook/soloader/h$a;-><init>(Lcom/facebook/soloader/h;Ljava/io/File;[BLcom/facebook/soloader/h$c;Ljava/io/File;Lcom/huawei/appmarket/tj2;)V
 
     and-int/lit8 v1, p2, 0x1
 
@@ -1988,7 +1988,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v4}, Lcom/huawei/appmarket/ej2;->k(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v0, v4}, Lcom/huawei/appmarket/kb1;->i(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -2019,7 +2019,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {v5}, Lcom/huawei/appmarket/rj2;->a(Ljava/io/File;)Lcom/huawei/appmarket/rj2;
+    invoke-static {v5}, Lcom/huawei/appmarket/tj2;->a(Ljava/io/File;)Lcom/huawei/appmarket/tj2;
 
     .line 44
     .line 45
@@ -2063,7 +2063,7 @@
     move-result-object v3
 
     .line 66
-    invoke-direct {p0, v5, p1, v3}, Lcom/facebook/soloader/h;->h(Lcom/huawei/appmarket/rj2;I[B)Z
+    invoke-direct {p0, v5, p1, v3}, Lcom/facebook/soloader/h;->h(Lcom/huawei/appmarket/tj2;I[B)Z
 
     .line 67
     .line 68
@@ -2143,7 +2143,7 @@
     .line 104
     .line 105
     .line 106
-    invoke-virtual {v5}, Lcom/huawei/appmarket/rj2;->close()V
+    invoke-virtual {v5}, Lcom/huawei/appmarket/tj2;->close()V
 
     .line 107
     .line 108
@@ -2223,7 +2223,7 @@
     .line 145
     .line 146
     .line 147
-    invoke-virtual {v5}, Lcom/huawei/appmarket/rj2;->close()V
+    invoke-virtual {v5}, Lcom/huawei/appmarket/tj2;->close()V
 
     .line 148
     .line 149

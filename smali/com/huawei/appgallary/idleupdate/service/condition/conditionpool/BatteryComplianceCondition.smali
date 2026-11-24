@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s74;
+.implements Lcom/huawei/appmarket/v74;
 
 
 # direct methods
@@ -32,23 +32,23 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+    sget-object v1, Lcom/huawei/appmarket/w84;->a:Lcom/huawei/appmarket/w84;
 
     const-string v2, "BatteryComplianceCondition"
 
-    invoke-virtual {v1, v2, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "DeviceKit"
 
-    const-class v4, Lcom/huawei/appmarket/em3;
+    const-class v4, Lcom/huawei/appmarket/gm3;
 
-    invoke-static {v4, v3}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v4, v3}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/huawei/appmarket/em3;
+    check-cast v3, Lcom/huawei/appmarket/gm3;
 
-    invoke-interface {v3}, Lcom/huawei/appmarket/em3;->c()Z
+    invoke-interface {v3}, Lcom/huawei/appmarket/gm3;->c()Z
 
     move-result v3
 
@@ -58,7 +58,7 @@
 
     const-string v0, "DH update, no need check BatteryComplianceCondition."
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v4
 
@@ -69,25 +69,25 @@
 
     iget v3, v0, Lcom/huawei/appmarket/v70;->b:I
 
-    invoke-static {}, Lcom/huawei/appmarket/e84;->g()Lcom/huawei/appmarket/e84;
+    invoke-static {}, Lcom/huawei/appmarket/h84;->g()Lcom/huawei/appmarket/h84;
 
     move-result-object v5
 
     invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/e84;->h()I
+    invoke-static {}, Lcom/huawei/appmarket/h84;->h()I
 
     move-result v5
 
     if-gt v3, v5, :cond_2
 
-    invoke-static {}, Lcom/huawei/appmarket/u98;->a()Lcom/huawei/appmarket/u98;
+    invoke-static {}, Lcom/huawei/appmarket/z98;->a()Lcom/huawei/appmarket/z98;
 
     move-result-object v3
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {}, Lcom/huawei/appmarket/u98;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/z98;->f()Z
 
     move-result v3
 
@@ -120,7 +120,7 @@
 
     sget-object v4, Lcom/huawei/appmarket/q80;->e:Lcom/huawei/appmarket/q80;
 
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/r74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/u74;->a(Ljava/lang/String;Lcom/huawei/appmarket/q80;)V
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

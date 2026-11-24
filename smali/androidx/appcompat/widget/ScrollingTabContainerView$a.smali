@@ -311,7 +311,7 @@
     move-result-object v3
 
     :goto_2
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, v3}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     :cond_d
     :goto_3

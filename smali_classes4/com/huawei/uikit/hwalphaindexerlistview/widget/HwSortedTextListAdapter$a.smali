@@ -178,53 +178,53 @@
     move-result-object v1
 
     .line 56
-    const-string v2, "zh"
+    const-string/jumbo v2, "zh"
 
     .line 57
     .line 58
+    .line 59
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 59
     .line 60
     .line 61
+    .line 62
     move-result v1
 
-    .line 62
+    .line 63
     if-eqz v1, :cond_4
 
-    .line 63
     .line 64
+    .line 65
     invoke-static {v0, p1, p2}, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwSortedTextListAdapter;->a(Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwSortedTextListAdapter;Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 65
     .line 66
     .line 67
+    .line 68
     move-result v2
 
-    .line 68
+    .line 69
     if-eqz v2, :cond_4
 
-    .line 69
     .line 70
+    .line 71
     goto :goto_1
 
-    .line 71
+    .line 72
     :cond_4
     iget-object v0, p0, Lcom/huawei/uikit/hwalphaindexerlistview/widget/HwSortedTextListAdapter$a;->b:Ljava/text/Collator;
 
-    .line 72
     .line 73
+    .line 74
     invoke-virtual {v0, p1, p2}, Ljava/text/Collator;->compare(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 74
     .line 75
     .line 76
+    .line 77
     move-result v2
 
-    .line 77
+    .line 78
     :goto_1
     return v2
-    .line 78
     .line 79
     .line 80
     .line 81
@@ -419,8 +419,4 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method

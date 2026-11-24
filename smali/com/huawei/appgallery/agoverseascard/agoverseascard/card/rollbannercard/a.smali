@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/a;
-.super Lcom/huawei/appmarket/ay6;
+.super Lcom/huawei/appmarket/ey6;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/a;->b:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/rollbannercard/RollBannerCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/ay6;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ey6;-><init>()V
 
     return-void
 .end method

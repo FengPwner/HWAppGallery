@@ -126,7 +126,7 @@
     :cond_1
     new-instance p0, Lcom/huawei/wisesecurity/kfs/exception/KfsValidationException;
 
-    const-string v0, "validate bean is null"
+    const-string/jumbo v0, "validate bean is null"
 
     invoke-direct {p0, v0}, Lcom/huawei/wisesecurity/kfs/exception/KfsValidationException;-><init>(Ljava/lang/String;)V
 

@@ -78,11 +78,11 @@
 
     invoke-virtual {p3, p5}, Lcom/google/android/material/bottomappbar/BottomAppBar;->q0(I)V
 
-    invoke-virtual {p4}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getShapeAppearanceModel()Lcom/huawei/appmarket/nb7;
+    invoke-virtual {p4}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->getShapeAppearanceModel()Lcom/huawei/appmarket/sb7;
 
     move-result-object p6
 
-    invoke-virtual {p6}, Lcom/huawei/appmarket/nb7;->l()Lcom/huawei/appmarket/m41;
+    invoke-virtual {p6}, Lcom/huawei/appmarket/sb7;->l()Lcom/huawei/appmarket/m41;
 
     move-result-object p6
 
@@ -152,7 +152,7 @@
 
     iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
-    invoke-static {p4}, Lcom/huawei/appmarket/tj8;->f(Landroid/view/View;)Z
+    invoke-static {p4}, Lcom/huawei/appmarket/zj8;->f(Landroid/view/View;)Z
 
     move-result p2
 

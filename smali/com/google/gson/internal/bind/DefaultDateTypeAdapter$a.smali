@@ -80,7 +80,7 @@
 
 
 # virtual methods
-.method public final a(II)Lcom/huawei/appmarket/h58;
+.method public final a(II)Lcom/huawei/appmarket/n58;
     .registers 5
 
     .line 1
@@ -96,7 +96,7 @@
     .line 5
     .line 6
     .line 7
-    sget-object p1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/h58;
+    sget-object p1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/n58;
 
     .line 8
     .line 9
@@ -250,7 +250,7 @@
     .line 150
 .end method
 
-.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/h58;
+.method public final b(Ljava/lang/String;)Lcom/huawei/appmarket/n58;
     .registers 4
 
     .line 1
@@ -266,7 +266,7 @@
     .line 5
     .line 6
     .line 7
-    sget-object p1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/h58;
+    sget-object p1, Lcom/google/gson/internal/bind/TypeAdapters;->a:Lcom/huawei/appmarket/n58;
 
     .line 8
     .line 9

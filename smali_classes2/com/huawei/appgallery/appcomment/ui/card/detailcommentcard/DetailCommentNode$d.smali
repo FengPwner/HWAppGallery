@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentNode$d;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentNode$d;->c:Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentNode;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     iput-object p2, p0, Lcom/huawei/appgallery/appcomment/ui/card/detailcommentcard/DetailCommentNode$d;->b:Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 

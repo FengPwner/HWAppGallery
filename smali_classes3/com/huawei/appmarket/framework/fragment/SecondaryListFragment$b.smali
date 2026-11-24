@@ -1,11 +1,11 @@
 .class final Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment$b;
-.super Lcom/huawei/appmarket/bd5;
+.super Lcom/huawei/appmarket/ed5;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment;->F7()Lcom/huawei/appmarket/bd5;
+    value = Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment;->F7()Lcom/huawei/appmarket/ed5;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment$b;->e:Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/bd5;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/ed5;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     return-void
 .end method
@@ -34,7 +34,7 @@
 .method public final onFragmentSelected(I)V
     .registers 4
 
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/bd5;->onFragmentSelected(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appmarket/ed5;->onFragmentSelected(I)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment$b;->e:Lcom/huawei/appmarket/framework/fragment/SecondaryListFragment;
 

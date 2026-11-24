@@ -22,7 +22,7 @@
 
 .field protected s:Ljava/lang/String;
 
-.field private t:Lcom/huawei/appmarket/aq1;
+.field private t:Lcom/huawei/appmarket/dq1;
 
 
 # direct methods
@@ -46,21 +46,21 @@
     .line 1
     if-nez p1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object p1
 
     const-string v0, "Message"
 
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object p1
 
     const-string v0, "msg_setting_fragment"
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     move-result-object p1
 
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/qr2;->d(Lcom/huawei/hmf/services/ui/b;)Lcom/huawei/appmarket/qr2;
+    invoke-static {p1}, Lcom/huawei/appmarket/sr2;->d(Lcom/huawei/hmf/services/ui/b;)Lcom/huawei/appmarket/sr2;
 
     move-result-object p1
 
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/az6;->a()Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ez6;->a()Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 
@@ -178,7 +178,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {p0, v0, v2}, Lcom/huawei/appmarket/pm7;->a(Landroid/app/Activity;II)V
+    invoke-static {p0, v0, v2}, Lcom/huawei/appmarket/vm7;->a(Landroid/app/Activity;II)V
 
     .line 36
     .line 37
@@ -200,7 +200,7 @@
 
     .line 46
     .line 47
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -212,7 +212,7 @@
 
     .line 52
     .line 53
-    invoke-interface {v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/gw7;
+    invoke-interface {v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getLoginResult()Lcom/huawei/appmarket/mw7;
 
     .line 54
     .line 55
@@ -220,7 +220,7 @@
     move-result-object v1
 
     .line 57
-    invoke-interface {v1, v0}, Lcom/huawei/appmarket/gw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/aq1;
+    invoke-interface {v1, v0}, Lcom/huawei/appmarket/mw7;->c(Lcom/huawei/appmarket/g21;)Lcom/huawei/appmarket/dq1;
 
     .line 58
     .line 59
@@ -228,7 +228,7 @@
     move-result-object v0
 
     .line 61
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/message/activity/LauncherMsgSwitchSettingActivity;->t:Lcom/huawei/appmarket/aq1;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/message/activity/LauncherMsgSwitchSettingActivity;->t:Lcom/huawei/appmarket/dq1;
 
     .line 62
     .line 63
@@ -298,12 +298,12 @@
     move-result-object v1
 
     .line 98
-    invoke-static {v1}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 99
     .line 100
     .line 101
-    const v1, 0x7f0a1609
+    const v1, 0x7f0a160a
 
     .line 102
     .line 103
@@ -359,7 +359,7 @@
     .line 129
     .line 130
     .line 131
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 132
     .line 133
@@ -500,11 +500,11 @@
 
     invoke-super {p0}, Lcom/huawei/appgallery/forum/base/ui/ForumActivity;->onDestroy()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/activity/LauncherMsgSwitchSettingActivity;->t:Lcom/huawei/appmarket/aq1;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/message/activity/LauncherMsgSwitchSettingActivity;->t:Lcom/huawei/appmarket/dq1;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/aq1;->a()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dq1;->a()V
 
     :cond_0
     return-void

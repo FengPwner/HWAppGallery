@@ -14,12 +14,12 @@
 
 
 # virtual methods
-.method protected final U1(Lcom/huawei/appmarket/nb3;)V
+.method protected final U1(Lcom/huawei/appmarket/qb3;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nb3<",
+            "Lcom/huawei/appmarket/qb3<",
             "+",
             "Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;",
             ">;)V"
@@ -27,7 +27,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/nb3;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/widget/horizon/DistHorizontalItemCard;->P1(Lcom/huawei/appmarket/qb3;)V
 
     return-void
 .end method

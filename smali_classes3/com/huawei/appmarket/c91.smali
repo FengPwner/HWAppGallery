@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract a(IJ)Ljava/nio/ByteBuffer;
+.method public abstract a([BI)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

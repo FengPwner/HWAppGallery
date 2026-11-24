@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/em;
+.implements Lcom/huawei/appmarket/dm;
 
 
 # annotations
@@ -15,7 +15,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/em<",
+        "Lcom/huawei/appmarket/dm<",
         "TV;TO;>;"
     }
 .end annotation
@@ -26,7 +26,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TV;>;>;"
         }
     .end annotation
@@ -43,9 +43,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/gr4;
+    new-instance v0, Lcom/huawei/appmarket/jr4;
 
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/gr4;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/jr4;-><init>(Ljava/lang/Object;)V
 
     invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
@@ -62,7 +62,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TV;>;>;)V"
         }
     .end annotation
@@ -83,7 +83,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/jr4<",
             "TV;>;>;"
         }
     .end annotation
@@ -120,9 +120,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/gr4;
+    check-cast v0, Lcom/huawei/appmarket/jr4;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr4;->h()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr4;->h()Z
 
     move-result v0
 

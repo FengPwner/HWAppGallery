@@ -2428,7 +2428,7 @@
     move-result-wide v9
 
     .line 138
-    invoke-static {v8, v2, v9, v10}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {v8, v2, v9, v10}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     .line 139
     .line 140
@@ -2517,7 +2517,7 @@
     move-result-wide v8
 
     .line 184
-    invoke-static {v2, v4, v8, v9}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {v2, v4, v8, v9}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     .line 185
     .line 186
@@ -2684,7 +2684,7 @@
 
     .line 261
     .line 262
-    invoke-static {v0, v4, v5, v6}, Lcom/huawei/appmarket/ei8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
+    invoke-static {v0, v4, v5, v6}, Lcom/huawei/appmarket/ki8;->Y(Landroid/view/View;Ljava/lang/Runnable;J)V
 
     .line 263
     .line 264

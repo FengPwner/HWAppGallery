@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
-.implements Lcom/huawei/appmarket/cu4;
+.implements Lcom/huawei/appmarket/fu4;
 
 
 # annotations
@@ -64,18 +64,18 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/h;->a(Lcom/huawei/appmarket/fu4;)V
 
     goto :goto_1
 
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     const-string v0, "TaskFragment"
 
     const-string v1, "hostLifecycle null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -110,7 +110,7 @@
     move-result p2
 
     .line 14
-    sget-object p3, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p3, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     .line 15
     .line 16
@@ -122,7 +122,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1, p2, v2}, Lcom/huawei/appmarket/ej2;->o(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p2, v2}, Lcom/huawei/appmarket/tr2;->n(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -201,7 +201,7 @@
     move-result-object v1
 
     .line 59
-    invoke-virtual {p3, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -259,7 +259,7 @@
 
     .line 88
     .line 89
-    invoke-static {}, Lcom/huawei/appmarket/f87;->a()Lcom/huawei/appmarket/f87;
+    invoke-static {}, Lcom/huawei/appmarket/k87;->a()Lcom/huawei/appmarket/k87;
 
     .line 90
     .line 91
@@ -267,7 +267,7 @@
     move-result-object p3
 
     .line 93
-    invoke-virtual {p3, p2, p0}, Lcom/huawei/appmarket/f87;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-virtual {p3, p2, p0}, Lcom/huawei/appmarket/k87;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 94
     .line 95
@@ -275,7 +275,7 @@
     move-result-object p2
 
     .line 97
-    iput-object p2, p1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/n87;
+    iput-object p2, p1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment;->f0:Lcom/huawei/appmarket/s87;
 
     .line 98
     .line 99
@@ -292,7 +292,7 @@
 
     .line 104
     :cond_2
-    sget-object p1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object p1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     .line 105
     .line 106
@@ -300,7 +300,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -556,7 +556,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/cu4;)V
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/h;->c(Lcom/huawei/appmarket/fu4;)V
 
     :cond_1
     return-void

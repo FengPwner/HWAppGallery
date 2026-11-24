@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/er3;
+.implements Lcom/huawei/appmarket/gr3;
 
 
 # static fields
@@ -37,11 +37,11 @@
 
     .line 8
     .line 9
-    const-class v0, Lcom/huawei/appmarket/er3;
+    const-class v0, Lcom/huawei/appmarket/gr3;
 
     .line 10
     .line 11
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/nj4;->b(Ljava/lang/Class;Lcom/huawei/appmarket/ih3;)Z
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/pj4;->b(Ljava/lang/Class;Lcom/huawei/appmarket/kh3;)Z
 
     .line 12
     .line 13
@@ -243,7 +243,7 @@
 
 
 # virtual methods
-.method public final F1()V
+.method public final G1()V
     .registers 3
 
     .line 1
@@ -255,7 +255,7 @@
 
     const-string v1, "release error:the param app is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -274,7 +274,7 @@
     return-void
 .end method
 
-.method public final Y0(Landroid/app/Application;Lcom/huawei/appmarket/c73;)V
+.method public final Y0(Landroid/app/Application;Lcom/huawei/appmarket/f73;)V
     .registers 4
 
     .line 1
@@ -284,7 +284,7 @@
 
     const-string p2, "init error:the param app is null"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -303,7 +303,7 @@
     return-void
 .end method
 
-.method public final c2()J
+.method public final d2()J
     .registers 3
 
     .line 1

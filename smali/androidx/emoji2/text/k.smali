@@ -1354,7 +1354,7 @@
 
     .line 31
     :cond_1
-    const-class v3, Lcom/huawei/appmarket/b02;
+    const-class v3, Lcom/huawei/appmarket/f02;
 
     .line 32
     .line 33
@@ -1366,7 +1366,7 @@
     move-result-object v2
 
     .line 37
-    check-cast v2, [Lcom/huawei/appmarket/b02;
+    check-cast v2, [Lcom/huawei/appmarket/f02;
 
     .line 38
     .line 39
@@ -1664,6 +1664,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method static b(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
@@ -2103,7 +2110,7 @@
 
     .line 184
     :cond_19
-    const-class p2, Lcom/huawei/appmarket/b02;
+    const-class p2, Lcom/huawei/appmarket/f02;
 
     .line 185
     .line 186
@@ -2115,7 +2122,7 @@
     move-result-object p2
 
     .line 190
-    check-cast p2, [Lcom/huawei/appmarket/b02;
+    check-cast p2, [Lcom/huawei/appmarket/f02;
 
     .line 191
     .line 192
@@ -3179,18 +3186,18 @@
     .registers 16
 
     .line 1
-    instance-of v0, p1, Lcom/huawei/appmarket/qi7;
+    instance-of v0, p1, Lcom/huawei/appmarket/wi7;
 
     if-eqz v0, :cond_0
 
     move-object v1, p1
 
-    check-cast v1, Lcom/huawei/appmarket/qi7;
+    check-cast v1, Lcom/huawei/appmarket/wi7;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/qi7;->a()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/wi7;->a()V
 
     :cond_0
-    const-class v1, Lcom/huawei/appmarket/b02;
+    const-class v1, Lcom/huawei/appmarket/f02;
 
     if-nez v0, :cond_3
 
@@ -3255,7 +3262,7 @@
 
     move-result-object v4
 
-    check-cast v4, [Lcom/huawei/appmarket/b02;
+    check-cast v4, [Lcom/huawei/appmarket/f02;
 
     if-eqz v4, :cond_5
 
@@ -3325,7 +3332,7 @@
 
     move-result-object p3
 
-    check-cast p3, [Lcom/huawei/appmarket/b02;
+    check-cast p3, [Lcom/huawei/appmarket/f02;
 
     array-length p3, p3
 
@@ -3364,9 +3371,9 @@
 
     if-eqz v0, :cond_8
 
-    check-cast p1, Lcom/huawei/appmarket/qi7;
+    check-cast p1, Lcom/huawei/appmarket/wi7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qi7;->d()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wi7;->d()V
 
     :cond_8
     return-object p2
@@ -3376,9 +3383,9 @@
 
     move-object p2, p1
 
-    check-cast p2, Lcom/huawei/appmarket/qi7;
+    check-cast p2, Lcom/huawei/appmarket/wi7;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/qi7;->d()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/wi7;->d()V
 
     :cond_a
     return-object p1
@@ -3389,9 +3396,9 @@
 
     move-object p2, p1
 
-    check-cast p2, Lcom/huawei/appmarket/qi7;
+    check-cast p2, Lcom/huawei/appmarket/wi7;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/qi7;->d()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/wi7;->d()V
 
     :cond_c
     return-object p1
@@ -3399,9 +3406,9 @@
     :goto_4
     if-eqz v0, :cond_d
 
-    check-cast p1, Lcom/huawei/appmarket/qi7;
+    check-cast p1, Lcom/huawei/appmarket/wi7;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qi7;->d()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/wi7;->d()V
 
     :cond_d
     throw p2

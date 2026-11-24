@@ -146,7 +146,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 21
     .line 22
@@ -283,7 +283,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private callBackFailed(Lcom/huawei/fastengine/fastview/FastAppOpenTask$Action;I)V
@@ -692,7 +691,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b00;->c(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kd0;->d(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 4
     .line 5
@@ -872,7 +871,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public getRecommendList(IILcom/huawei/fastengine/fastview/IFastAppOpenCallBack;)V
@@ -922,7 +920,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b00;->c(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kd0;->d(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 4
     .line 5
@@ -1102,5 +1100,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

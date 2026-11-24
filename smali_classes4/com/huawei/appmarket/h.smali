@@ -1,5 +1,5 @@
 .class public final Lcom/huawei/appmarket/h;
-.super Lcom/huawei/appmarket/tu8;
+.super Lcom/huawei/appmarket/zu8;
 .source "SourceFile"
 
 
@@ -20,11 +20,11 @@
     .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/tu8;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/zu8;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/h63;->l:Lcom/huawei/appmarket/h63;
+    sget-object v0, Lcom/huawei/appmarket/k63;->l:Lcom/huawei/appmarket/k63;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/tu8;->b(Lcom/huawei/appmarket/h63;)V
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/zu8;->b(Lcom/huawei/appmarket/k63;)V
 
     const/4 v0, 0x7
 

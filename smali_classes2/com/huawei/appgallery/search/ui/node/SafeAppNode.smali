@@ -252,7 +252,7 @@
 
     .line 52
     .line 53
-    const v0, 0x7f0a1816
+    const v0, 0x7f0a1817
 
     .line 54
     .line 55
@@ -398,7 +398,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final f(Landroid/view/LayoutInflater;)Landroid/view/ViewGroup;
@@ -462,7 +461,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/q42;->g()Lcom/huawei/appmarket/q42;
+    invoke-static {}, Lcom/huawei/appmarket/u42;->g()Lcom/huawei/appmarket/u42;
 
     move-result-object v1
 
@@ -478,7 +477,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/q42;->k(ILjava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/u42;->k(ILjava/lang/String;)V
 
     :goto_0
     return-void

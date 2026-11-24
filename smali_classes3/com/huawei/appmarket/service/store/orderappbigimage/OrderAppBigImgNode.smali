@@ -52,7 +52,7 @@
     move-result-object v1
 
     .line 11
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->e()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->e()I
 
     .line 12
     .line 13
@@ -60,7 +60,7 @@
     move-result v2
 
     .line 15
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->d()I
 
     .line 16
     .line 17
@@ -68,7 +68,7 @@
     move-result v3
 
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->f()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->f()I
 
     .line 20
     .line 21
@@ -76,7 +76,7 @@
     move-result v4
 
     .line 23
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->c()I
 
     .line 24
     .line 25
@@ -84,7 +84,7 @@
     move-result v5
 
     .line 27
-    invoke-static {}, Lcom/huawei/appmarket/ni5;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/pi5;->g()I
 
     .line 28
     .line 29
@@ -169,7 +169,7 @@
 
     .line 69
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 70
     .line 71
@@ -326,14 +326,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final h()I
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     move-result v0
 

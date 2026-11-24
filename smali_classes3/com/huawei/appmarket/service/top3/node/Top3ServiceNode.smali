@@ -20,7 +20,7 @@
     .registers 6
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     iget-object p2, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 

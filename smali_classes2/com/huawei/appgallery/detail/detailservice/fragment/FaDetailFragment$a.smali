@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
+.implements Lcom/huawei/appmarket/zm5;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/ym5<",
+        "Lcom/huawei/appmarket/zm5<",
         "Ljava/lang/Integer;",
         ">;"
     }
@@ -55,7 +55,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->p6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Ljava/lang/Integer;)V
+    invoke-static {v0, p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->q6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;Ljava/lang/Integer;)V
 
     .line 6
     .line 7
@@ -159,5 +159,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

@@ -1,46 +1,51 @@
 .class public final Lcom/huawei/appmarket/o48;
-.super Ljava/lang/Object;
+.super Lcom/huawei/appmarket/c2;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/tryplay/ITryPlayApi;
-
-
-# annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
-.end annotation
-
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/tryplay/ITryPlayApi;
-.end annotation
 
 
 # direct methods
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/c2;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-    .registers 5
+.method protected final b()Ljava/lang/String;
+    .registers 2
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/r44;
+    const-string v0, "TrustListFilter"
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    return-object v0
+.end method
 
-    move-result-object v0
+.method protected final c(I)I
+    .registers 3
 
-    check-cast v0, Lcom/huawei/appmarket/r44;
+    .line 1
+    const/4 v0, 0x2
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/tryplay/ITryPlayApi;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    if-ne p1, v0, :cond_0
 
-    move-result-object p1
+    const/4 p1, 0x0
 
-    return-object p1
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x1
+
+    :goto_0
+    return p1
+.end method
+
+.method protected final d(Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)V
+    .registers 2
+
+    .line 1
+    return-void
 .end method

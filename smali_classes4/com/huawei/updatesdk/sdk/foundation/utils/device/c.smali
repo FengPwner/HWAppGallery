@@ -863,7 +863,7 @@
     .registers 3
 
     .line 2
-    const-string v0, "window"
+    const-string/jumbo v0, "window"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -1115,13 +1115,13 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ur4;->a(Landroid/os/LocaleList;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/xr4;->a(Landroid/os/LocaleList;)I
 
     move-result v2
 
     if-ge v1, v2, :cond_2
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/ur4;->i(Landroid/os/LocaleList;I)Ljava/util/Locale;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/xr4;->i(Landroid/os/LocaleList;I)Ljava/util/Locale;
 
     move-result-object v2
 
@@ -1199,7 +1199,7 @@
     if-eqz v4, :cond_0
 
     .line 1
-    invoke-static {v1, v5, v2}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v5, v2}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1222,7 +1222,7 @@
     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 3
-    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5, v3}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1254,7 +1254,7 @@
     const-string v1, "_"
 
     .line 13
-    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, p0}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1916,7 +1916,7 @@
 
     .line 33
     .line 34
-    invoke-static {v1, v4, v0}, Lcom/huawei/appmarket/bq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v4, v0}, Lcom/huawei/appmarket/eq6;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -2216,6 +2216,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public static n()Z

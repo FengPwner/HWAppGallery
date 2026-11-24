@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rs7;
+.implements Lcom/huawei/appmarket/xs7;
 
 
 # annotations
@@ -38,7 +38,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 2
     .line 3
@@ -46,7 +46,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->c()I
 
     .line 6
     .line 7
@@ -62,7 +62,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 14
     .line 15
@@ -74,7 +74,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 20
     .line 21
@@ -82,12 +82,12 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v1}, Lcom/huawei/appmarket/vj5;->m()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/xj5;->m()V
 
     .line 24
     .line 25
     .line 26
-    invoke-static {v0}, Lcom/huawei/appmarket/ho1;->b(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ko1;->b(I)V
 
     .line 27
     .line 28
@@ -208,7 +208,7 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 2
     .line 3
@@ -216,7 +216,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->c()I
 
     .line 6
     .line 7
@@ -232,7 +232,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/vw7;->p(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v1, v0, v2}, Lcom/huawei/appmarket/ci7;->z(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 14
     .line 15
@@ -248,7 +248,7 @@
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     .line 22
     .line 23
@@ -256,7 +256,7 @@
     move-result-object v0
 
     .line 25
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->i()Lcom/huawei/appgallery/jointmessage/jointmessage/impl/bean/StrategyResBean;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->i()Lcom/huawei/appgallery/jointmessage/jointmessage/impl/bean/StrategyResBean;
 
     .line 26
     .line 27
@@ -387,11 +387,11 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->c()I
 
     move-result v0
 
@@ -409,9 +409,9 @@
 
     const-string v2, "NotificationSwitchDialogActivity"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ho1;->c(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ko1;->c(I)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity$a;->a:Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;
 
@@ -426,11 +426,11 @@
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/vj5;->f()Lcom/huawei/appmarket/vj5;
+    invoke-static {}, Lcom/huawei/appmarket/xj5;->f()Lcom/huawei/appmarket/xj5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vj5;->c()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xj5;->c()I
 
     move-result v0
 
@@ -448,9 +448,9 @@
 
     const-string v2, "NotificationSwitchDialogActivity"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ho1;->c(I)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ko1;->c(I)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity$a;->a:Lcom/huawei/appgallery/jointmessage/jointmessage/impl/activity/NotificationSwitchDialogActivity;
 

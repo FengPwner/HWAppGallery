@@ -3,7 +3,18 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp1;
+.implements Lcom/huawei/appmarket/lp5;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/lp5<",
+        "Lcom/huawei/hms/aaid/entity/AAIDResult;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
@@ -17,72 +28,132 @@
 
 
 # virtual methods
-.method public final run()V
-    .registers 5
+.method public final onSuccess(Ljava/lang/Object;)V
+    .registers 4
 
     .line 1
+    check-cast p1, Lcom/huawei/hms/aaid/entity/AAIDResult;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Lcom/huawei/hms/aaid/entity/AAIDResult;->getId()Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-static {p1}, Lcom/huawei/appmarket/ac6;->d(Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    sget-object p1, Lcom/huawei/appmarket/nb6;->a:Lcom/huawei/appmarket/nb6;
+
+    .line 11
+    .line 12
     const-string v0, "PushTokenManager"
 
-    :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/yb6;->f()Landroid/content/Context;
+    .line 13
+    .line 14
+    const-string v1, "getAaid success."
 
-    move-result-object v1
+    .line 15
+    .line 16
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f120920
+    .line 17
+    .line 18
+    .line 19
+    invoke-static {}, Lcom/huawei/appmarket/ac6;->e()V
 
-    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1}, Lcom/huawei/hms/aaid/HmsInstanceId;->getInstance(Landroid/content/Context;)Lcom/huawei/hms/aaid/HmsInstanceId;
-
-    move-result-object v1
-
-    const-string v3, "HCM"
-
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/hms/aaid/HmsInstanceId;->getToken(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v3, "startTokenThread getToken success."
-
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {v1}, Lcom/huawei/appmarket/yb6;->l(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :catch_0
-    move-exception v1
-
-    goto :goto_0
-
-    :cond_0
-    sget-object v1, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v2, "startTokenThread getToken empty."
-
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_1
-
-    :goto_0
-    sget-object v2, Lcom/huawei/appmarket/lb6;->a:Lcom/huawei/appmarket/lb6;
-
-    const-string v3, "getToken faile."
-
-    invoke-virtual {v2, v0, v3, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    :goto_1
+    .line 20
+    .line 21
+    .line 22
     return-void
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
 .end method

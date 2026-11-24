@@ -184,7 +184,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/huawei/appmarket/el7;)V
+.method public constructor <init>(Lcom/huawei/appmarket/kl7;)V
     .registers 3
 
     .line 3
@@ -198,97 +198,97 @@
 
     iput v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->v:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->p()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->p()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->l:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->q()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->q()Ljava/util/ArrayList;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->u:Ljava/util/ArrayList;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->f()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->f()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->h:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->b()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->b()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->v:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->m()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->o:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->a()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->w:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->l()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->l()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->t:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->r()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->r()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->k:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->t()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->t()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->b:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->c()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->c:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->x()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->x()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->m:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->n()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->n()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->n:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->k()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->k()I
 
     move-result v0
 
     iput v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->s:I
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->d()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->r:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->h()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;->e:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/el7;->i()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kl7;->i()I
 
     move-result p1
 

@@ -1,78 +1,57 @@
-.class final Lcom/huawei/appmarket/o58;
-.super Lcom/huawei/appmarket/ik4$a;
+.class abstract Lcom/huawei/appmarket/o58;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/ik4$a<",
+        "<T:",
         "Ljava/lang/Object;",
-        ">;"
+        ">",
+        "Ljava/lang/Object;"
     }
 .end annotation
 
 
-# instance fields
-.field final synthetic c:Lcom/huawei/appmarket/p58;
-
-
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/p58;Ljava/lang/reflect/Method;)V
-    .registers 3
+.method constructor <init>()V
+    .registers 1
 
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/o58;->c:Lcom/huawei/appmarket/p58;
-
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/ik4$a;-><init>(Ljava/lang/reflect/Method;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/p58;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/huawei/appmarket/p58<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
+.method final a()Ljava/lang/reflect/Type;
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/o58;->c:Lcom/huawei/appmarket/p58;
-
-    return-object v0
-.end method
-
-.method public final toString()Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    iget-object v1, p0, Lcom/huawei/appmarket/o58;->c:Lcom/huawei/appmarket/p58;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, "."
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-super {p0}, Lcom/huawei/appmarket/ik4;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getGenericSuperclass()Ljava/lang/reflect/Type;
+
+    move-result-object v0
+
+    instance-of v1, v0, Ljava/lang/reflect/ParameterizedType;
+
+    const-string v2, "%s isn\'t parameterized"
+
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/i56;->d(Ljava/lang/Object;Ljava/lang/String;Z)V
+
+    check-cast v0, Ljava/lang/reflect/ParameterizedType;
+
+    invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
 
     return-object v0
 .end method

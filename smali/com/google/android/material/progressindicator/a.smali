@@ -35,7 +35,7 @@
 
 .field private final f:I
 
-.field g:Lcom/huawei/appmarket/nm;
+.field g:Lcom/huawei/appmarket/mm;
 
 .field private h:Z
 
@@ -45,9 +45,9 @@
 
 .field private final k:Ljava/lang/Runnable;
 
-.field private final l:Lcom/huawei/appmarket/ol;
+.field private final l:Lcom/huawei/appmarket/nl;
 
-.field private final m:Lcom/huawei/appmarket/ol;
+.field private final m:Lcom/huawei/appmarket/nl;
 
 
 # direct methods
@@ -56,7 +56,7 @@
 
     const v0, 0x7f13064e
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -86,13 +86,13 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/material/progressindicator/a$c;-><init>(Lcom/google/android/material/progressindicator/a;)V
 
-    iput-object v0, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/ol;
+    iput-object v0, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/nl;
 
     new-instance v0, Lcom/google/android/material/progressindicator/a$d;
 
     invoke-direct {v0, p0}, Lcom/google/android/material/progressindicator/a$d;-><init>(Lcom/google/android/material/progressindicator/a;)V
 
-    iput-object v0, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/ol;
+    iput-object v0, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/nl;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/progressindicator/a;->b:Lcom/google/android/material/progressindicator/b;
 
-    sget-object v3, Lcom/huawei/appmarket/ie6;->d:[I
+    sget-object v3, Lcom/huawei/appmarket/ke6;->d:[I
 
     new-array v6, p1, [I
 
@@ -114,7 +114,7 @@
 
     move v5, p4
 
-    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
@@ -140,11 +140,11 @@
 
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    new-instance p1, Lcom/huawei/appmarket/nm;
+    new-instance p1, Lcom/huawei/appmarket/mm;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/nm;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/mm;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/nm;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/mm;
 
     const/4 p1, 0x1
 
@@ -437,7 +437,7 @@
 
     .line 29
     .line 30
-    iget-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/nm;
+    iget-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/mm;
 
     .line 31
     .line 32
@@ -519,7 +519,7 @@
     .line 69
     :cond_1
     :goto_0
-    iget-object p1, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/ol;
+    iget-object p1, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/nl;
 
     .line 70
     .line 71
@@ -528,7 +528,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ol;->a()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nl;->a()V
 
     .line 75
     .line 76
@@ -780,7 +780,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->L(Landroid/view/View;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->L(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -973,6 +973,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final invalidate()V
@@ -1045,11 +1046,11 @@
     move-result-object v0
 
     .line 24
-    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/ol;
+    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->l:Lcom/huawei/appmarket/nl;
 
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/l;->c(Lcom/huawei/appmarket/ol;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/l;->c(Lcom/huawei/appmarket/nl;)V
 
     .line 27
     .line 28
@@ -1063,7 +1064,7 @@
     move-result-object v0
 
     .line 33
-    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/ol;
+    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/nl;
 
     .line 34
     .line 35
@@ -1079,7 +1080,7 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/g;->h(Lcom/huawei/appmarket/ol;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/g;->h(Lcom/huawei/appmarket/nl;)V
 
     .line 42
     .line 43
@@ -1105,7 +1106,7 @@
     move-result-object v0
 
     .line 54
-    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/m;->h(Lcom/huawei/appmarket/ol;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/m;->h(Lcom/huawei/appmarket/nl;)V
 
     .line 55
     .line 56
@@ -1208,6 +1209,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onDetachedFromWindow()V
@@ -1257,7 +1259,7 @@
     move-result-object v0
 
     .line 24
-    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/ol;
+    iget-object v1, p0, Lcom/google/android/material/progressindicator/a;->m:Lcom/huawei/appmarket/nl;
 
     .line 25
     .line 26
@@ -1273,7 +1275,7 @@
     move-result-object v0
 
     .line 32
-    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/m;->l(Lcom/huawei/appmarket/ol;)Z
+    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/m;->l(Lcom/huawei/appmarket/nl;)Z
 
     .line 33
     .line 34
@@ -1320,7 +1322,7 @@
     move-result-object v0
 
     .line 56
-    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/g;->l(Lcom/huawei/appmarket/ol;)Z
+    invoke-virtual {v0, v1}, Lcom/google/android/material/progressindicator/g;->l(Lcom/huawei/appmarket/nl;)Z
 
     .line 57
     .line 58
@@ -1405,6 +1407,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final declared-synchronized onDraw(Landroid/graphics/Canvas;)V
@@ -1931,11 +1934,11 @@
     .line 95
 .end method
 
-.method public setAnimatorDurationScaleProvider(Lcom/huawei/appmarket/nm;)V
+.method public setAnimatorDurationScaleProvider(Lcom/huawei/appmarket/mm;)V
     .registers 3
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/nm;
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/a;->g:Lcom/huawei/appmarket/mm;
 
     invoke-virtual {p0}, Lcom/google/android/material/progressindicator/a;->getProgressDrawable()Lcom/google/android/material/progressindicator/g;
 
@@ -1947,7 +1950,7 @@
 
     move-result-object v0
 
-    iput-object p1, v0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/nm;
+    iput-object p1, v0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/mm;
 
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/progressindicator/a;->getIndeterminateDrawable()Lcom/google/android/material/progressindicator/m;
@@ -1960,7 +1963,7 @@
 
     move-result-object v0
 
-    iput-object p1, v0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/nm;
+    iput-object p1, v0, Lcom/google/android/material/progressindicator/j;->d:Lcom/huawei/appmarket/mm;
 
     :cond_1
     return-void
@@ -2120,7 +2123,7 @@
 
     const/4 v1, -0x1
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/f45;->c(Landroid/content/Context;II)I
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i45;->c(Landroid/content/Context;II)I
 
     move-result p1
 

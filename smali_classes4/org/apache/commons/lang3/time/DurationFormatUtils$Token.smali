@@ -48,7 +48,7 @@
 
     iput v0, p0, Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;->optionalIndex:I
 
-    const-string v0, "value"
+    const-string/jumbo v0, "value"
 
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 

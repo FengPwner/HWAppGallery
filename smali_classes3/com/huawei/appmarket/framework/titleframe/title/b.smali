@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/lp2$b;
+.implements Lcom/huawei/appmarket/np2$b;
 
 
 # instance fields
@@ -31,17 +31,17 @@
 
     if-eqz p1, :cond_1
 
-    new-instance v1, Lcom/huawei/appmarket/g36;
+    new-instance v1, Lcom/huawei/appmarket/i36;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/g36;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/i36;-><init>()V
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/g36;->b(Lcom/huawei/appgallery/forum/posts/api/PostProfiles;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/i36;->b(Lcom/huawei/appgallery/forum/posts/api/PostProfiles;)V
 
     invoke-static {v0}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->m(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;)Landroid/app/Activity;
 
     move-result-object p1
 
-    instance-of p1, p1, Lcom/huawei/appmarket/b44;
+    instance-of p1, p1, Lcom/huawei/appmarket/d44;
 
     if-eqz p1, :cond_0
 
@@ -49,12 +49,12 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/b44;
+    check-cast p1, Lcom/huawei/appmarket/d44;
 
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/b44;->d0(Lcom/huawei/appmarket/g36;)V
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/d44;->d0(Lcom/huawei/appmarket/i36;)V
 
     :cond_0
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->r(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;Lcom/huawei/appmarket/g36;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;->r(Lcom/huawei/appmarket/framework/titleframe/title/WiseDistBaseTitle;Lcom/huawei/appmarket/i36;)V
 
     const/4 p1, 0x1
 

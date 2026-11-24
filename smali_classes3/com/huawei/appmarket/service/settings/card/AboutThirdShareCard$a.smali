@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/settings/card/AboutThirdShareCard$a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/AboutThirdShareCard$a;->b:Lcom/huawei/appmarket/service/settings/card/AboutThirdShareCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     .line 37
     .line 38
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/b00;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kd0;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -189,5 +189,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     iput-object p1, p0, Landroidx/media3/container/XmpData;->b:[B
 
@@ -172,7 +172,7 @@
 
     iget-object v1, p0, Landroidx/media3/container/XmpData;->b:[B
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ge8;->f0([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/huawei/appmarket/le8;->f0([B)Ljava/lang/String;
 
     move-result-object v1
 

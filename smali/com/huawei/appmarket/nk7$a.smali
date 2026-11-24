@@ -1,4 +1,4 @@
-.class public interface abstract Lcom/huawei/appmarket/nk7$a;
+.class interface abstract Lcom/huawei/appmarket/nk7$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,11 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
+    accessFlags = 0x608
     name = "a"
 .end annotation
-
-
-# virtual methods
-.method public abstract a()V
-.end method

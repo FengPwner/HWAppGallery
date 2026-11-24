@@ -91,7 +91,7 @@
 
     const-string v3, "BatchProcessItemViewHolder"
 
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/h70$b;->d:Ljava/lang/ref/WeakReference;
 
@@ -103,7 +103,7 @@
 
     const-string v0, "click edit item, but checkBox is null!"
 
-    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -128,7 +128,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/bb;->m()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/bb;->m()Lcom/huawei/appmarket/ce5;
 
     move-result-object v3
 
@@ -186,7 +186,7 @@
     move-result-object v1
 
     :cond_5
-    invoke-static {v3}, Lcom/huawei/appmarket/j58;->b(Ljava/util/HashMap;)Ljava/util/Map;
+    invoke-static {v3}, Lcom/huawei/appmarket/p58;->b(Ljava/util/HashMap;)Ljava/util/Map;
 
     invoke-interface {v3, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 

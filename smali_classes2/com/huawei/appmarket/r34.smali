@@ -2,10 +2,7 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/z86$a;
-
 
 # virtual methods
-.method public abstract M(Lcom/huawei/appmarket/ax0;)V
+.method public abstract b1()Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 .end method

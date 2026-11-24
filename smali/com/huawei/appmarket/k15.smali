@@ -1,237 +1,378 @@
-.class public final Lcom/huawei/appmarket/k15;
+.class public interface abstract Lcom/huawei/appmarket/k15;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/concurrent/ThreadFactory;
-
 
 # static fields
-.field private static final d:Ljava/util/concurrent/atomic/AtomicInteger;
+.field public static final A:Ljava/lang/Float;
 
+.field public static final B:Ljava/lang/Float;
 
-# instance fields
-.field private final a:Ljava/lang/ThreadGroup;
+.field public static final C:Ljava/lang/Float;
 
-.field private final b:Ljava/util/concurrent/atomic/AtomicInteger;
+.field public static final D:Ljava/lang/Float;
 
-.field private final c:Ljava/lang/String;
+.field public static final E:Ljava/lang/Float;
+
+.field public static final F:Ljava/lang/Float;
+
+.field public static final G:Ljava/lang/Float;
+
+.field public static final H:Ljava/lang/Float;
+
+.field public static final I:Ljava/lang/Float;
+
+.field public static final J:Ljava/lang/Float;
+
+.field public static final K:Landroid/graphics/ColorFilter;
+
+.field public static final L:[Ljava/lang/Integer;
+
+.field public static final M:Landroid/graphics/Typeface;
+
+.field public static final N:Landroid/graphics/Bitmap;
+
+.field public static final O:Ljava/lang/String;
+
+.field public static final P:Landroid/graphics/Path;
+
+.field public static final a:Ljava/lang/Integer;
+
+.field public static final b:Ljava/lang/Integer;
+
+.field public static final c:Ljava/lang/Integer;
+
+.field public static final d:Ljava/lang/Integer;
+
+.field public static final e:Ljava/lang/Integer;
+
+.field public static final f:Landroid/graphics/PointF;
+
+.field public static final g:Landroid/graphics/PointF;
+
+.field public static final h:Ljava/lang/Float;
+
+.field public static final i:Ljava/lang/Float;
+
+.field public static final j:Ljava/lang/Float;
+
+.field public static final k:Landroid/graphics/PointF;
+
+.field public static final l:Landroid/graphics/PointF;
+
+.field public static final m:Ljava/lang/Float;
+
+.field public static final n:Landroid/graphics/PointF;
+
+.field public static final o:Lcom/huawei/appmarket/j27;
+
+.field public static final p:Ljava/lang/Float;
+
+.field public static final q:Ljava/lang/Float;
+
+.field public static final r:Ljava/lang/Float;
+
+.field public static final s:Ljava/lang/Float;
+
+.field public static final t:Ljava/lang/Float;
+
+.field public static final u:Ljava/lang/Float;
+
+.field public static final v:Ljava/lang/Float;
+
+.field public static final w:Ljava/lang/Float;
+
+.field public static final x:Ljava/lang/Float;
+
+.field public static final y:Ljava/lang/Float;
+
+.field public static final z:Ljava/lang/Float;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .registers 2
+    .registers 6
 
     .line 1
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+    const/4 v0, 0x1
 
-    const/4 v1, 0x1
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+    move-result-object v1
 
-    sput-object v0, Lcom/huawei/appmarket/k15;->d:Ljava/util/concurrent/atomic/AtomicInteger;
+    sput-object v1, Lcom/huawei/appmarket/k15;->a:Ljava/lang/Integer;
 
-    return-void
-.end method
+    const/4 v1, 0x2
 
-.method public constructor <init>()V
-    .registers 3
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    move-result-object v1
 
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+    sput-object v1, Lcom/huawei/appmarket/k15;->b:Ljava/lang/Integer;
 
-    const/4 v1, 0x1
+    const/4 v1, 0x3
 
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/k15;->b:Ljava/util/concurrent/atomic/AtomicInteger;
+    move-result-object v1
 
-    invoke-static {}, Ljava/lang/System;->getSecurityManager()Ljava/lang/SecurityManager;
+    sput-object v1, Lcom/huawei/appmarket/k15;->c:Ljava/lang/Integer;
 
-    move-result-object v0
+    const/4 v1, 0x4
 
-    if-nez v0, :cond_0
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    move-result-object v1
 
-    move-result-object v0
+    sput-object v1, Lcom/huawei/appmarket/k15;->d:Ljava/lang/Integer;
 
-    invoke-virtual {v0}, Ljava/lang/Thread;->getThreadGroup()Ljava/lang/ThreadGroup;
+    const/4 v1, 0x5
 
-    move-result-object v0
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    goto :goto_0
+    move-result-object v1
 
-    :cond_0
-    invoke-virtual {v0}, Ljava/lang/SecurityManager;->getThreadGroup()Ljava/lang/ThreadGroup;
+    sput-object v1, Lcom/huawei/appmarket/k15;->e:Ljava/lang/Integer;
 
-    move-result-object v0
+    new-instance v1, Landroid/graphics/PointF;
 
-    :goto_0
-    iput-object v0, p0, Lcom/huawei/appmarket/k15;->a:Ljava/lang/ThreadGroup;
+    invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
-    new-instance v0, Ljava/lang/StringBuilder;
+    sput-object v1, Lcom/huawei/appmarket/k15;->f:Landroid/graphics/PointF;
 
-    const-string v1, "lottie-"
+    new-instance v1, Landroid/graphics/PointF;
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
-    sget-object v1, Lcom/huawei/appmarket/k15;->d:Ljava/util/concurrent/atomic/AtomicInteger;
+    sput-object v1, Lcom/huawei/appmarket/k15;->g:Landroid/graphics/PointF;
 
-    invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+    const/high16 v1, 0x41700000    # 15.0f
 
-    move-result v1
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    move-result-object v1
 
-    const-string v1, "-thread-"
+    sput-object v1, Lcom/huawei/appmarket/k15;->h:Ljava/lang/Float;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const/high16 v2, 0x41800000    # 16.0f
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-    move-result-object v0
+    move-result-object v2
 
-    iput-object v0, p0, Lcom/huawei/appmarket/k15;->c:Ljava/lang/String;
+    sput-object v2, Lcom/huawei/appmarket/k15;->i:Ljava/lang/Float;
 
-    return-void
-.end method
+    const/high16 v3, 0x41880000    # 17.0f
 
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-# virtual methods
-.method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
-    .registers 9
-
-    .line 1
-    new-instance v6, Ljava/lang/Thread;
-
-    .line 2
-    .line 3
-    iget-object v1, p0, Lcom/huawei/appmarket/k15;->a:Ljava/lang/ThreadGroup;
-
-    .line 4
-    .line 5
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    .line 6
-    .line 7
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 8
-    .line 9
-    .line 10
-    iget-object v2, p0, Lcom/huawei/appmarket/k15;->c:Ljava/lang/String;
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 13
-    .line 14
-    .line 15
-    iget-object v2, p0, Lcom/huawei/appmarket/k15;->b:Ljava/util/concurrent/atomic/AtomicInteger;
-
-    .line 16
-    .line 17
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bu0;->n(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/lang/StringBuilder;)Ljava/lang/String;
-
-    .line 18
-    .line 19
-    .line 20
     move-result-object v3
 
-    .line 21
-    const-wide/16 v4, 0x0
+    sput-object v3, Lcom/huawei/appmarket/k15;->j:Ljava/lang/Float;
 
-    .line 22
-    .line 23
-    move-object v0, v6
+    new-instance v4, Landroid/graphics/PointF;
 
-    .line 24
-    move-object v2, p1
+    invoke-direct {v4}, Landroid/graphics/PointF;-><init>()V
 
-    .line 25
-    invoke-direct/range {v0 .. v5}, Ljava/lang/Thread;-><init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
+    sput-object v4, Lcom/huawei/appmarket/k15;->k:Landroid/graphics/PointF;
 
-    .line 26
-    .line 27
-    .line 28
-    const/4 p1, 0x0
+    new-instance v4, Landroid/graphics/PointF;
 
-    .line 29
-    invoke-virtual {v6, p1}, Ljava/lang/Thread;->setDaemon(Z)V
+    invoke-direct {v4}, Landroid/graphics/PointF;-><init>()V
 
-    .line 30
-    .line 31
-    .line 32
-    const/16 p1, 0xa
+    sput-object v4, Lcom/huawei/appmarket/k15;->l:Landroid/graphics/PointF;
 
-    .line 33
-    .line 34
-    invoke-virtual {v6, p1}, Ljava/lang/Thread;->setPriority(I)V
+    const/4 v4, 0x0
 
-    .line 35
-    .line 36
-    .line 37
-    return-object v6
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->m:Ljava/lang/Float;
+
+    new-instance v5, Landroid/graphics/PointF;
+
+    invoke-direct {v5}, Landroid/graphics/PointF;-><init>()V
+
+    sput-object v5, Lcom/huawei/appmarket/k15;->n:Landroid/graphics/PointF;
+
+    new-instance v5, Lcom/huawei/appmarket/j27;
+
+    invoke-direct {v5}, Lcom/huawei/appmarket/j27;-><init>()V
+
+    sput-object v5, Lcom/huawei/appmarket/k15;->o:Lcom/huawei/appmarket/j27;
+
+    const/high16 v5, 0x3f800000    # 1.0f
+
+    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v5
+
+    sput-object v5, Lcom/huawei/appmarket/k15;->p:Ljava/lang/Float;
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->q:Ljava/lang/Float;
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->r:Ljava/lang/Float;
+
+    const/high16 v4, 0x40000000    # 2.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->s:Ljava/lang/Float;
+
+    const/high16 v4, 0x40400000    # 3.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->t:Ljava/lang/Float;
+
+    const/high16 v4, 0x40800000    # 4.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->u:Ljava/lang/Float;
+
+    const/high16 v4, 0x40a00000    # 5.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->v:Ljava/lang/Float;
+
+    const/high16 v4, 0x40c00000    # 6.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->w:Ljava/lang/Float;
+
+    const/high16 v4, 0x40e00000    # 7.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->x:Ljava/lang/Float;
+
+    const/high16 v4, 0x41000000    # 8.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->y:Ljava/lang/Float;
+
+    const/high16 v4, 0x41100000    # 9.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->z:Ljava/lang/Float;
+
+    const/high16 v4, 0x41200000    # 10.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->A:Ljava/lang/Float;
+
+    const/high16 v4, 0x41300000    # 11.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->B:Ljava/lang/Float;
+
+    const/high16 v4, 0x41400000    # 12.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->C:Ljava/lang/Float;
+
+    const v4, 0x4141999a    # 12.1f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->D:Ljava/lang/Float;
+
+    const/high16 v4, 0x41500000    # 13.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->E:Ljava/lang/Float;
+
+    const/high16 v4, 0x41600000    # 14.0f
+
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    sput-object v4, Lcom/huawei/appmarket/k15;->F:Ljava/lang/Float;
+
+    sput-object v1, Lcom/huawei/appmarket/k15;->G:Ljava/lang/Float;
+
+    sput-object v2, Lcom/huawei/appmarket/k15;->H:Ljava/lang/Float;
+
+    sput-object v3, Lcom/huawei/appmarket/k15;->I:Ljava/lang/Float;
+
+    const/high16 v1, 0x41900000    # 18.0f
+
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v1
+
+    sput-object v1, Lcom/huawei/appmarket/k15;->J:Ljava/lang/Float;
+
+    new-instance v1, Landroid/graphics/ColorFilter;
+
+    invoke-direct {v1}, Landroid/graphics/ColorFilter;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/k15;->K:Landroid/graphics/ColorFilter;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/Integer;
+
+    sput-object v1, Lcom/huawei/appmarket/k15;->L:[Ljava/lang/Integer;
+
+    sget-object v1, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
+
+    sput-object v1, Lcom/huawei/appmarket/k15;->M:Landroid/graphics/Typeface;
+
+    sget-object v1, Landroid/graphics/Bitmap$Config;->ALPHA_8:Landroid/graphics/Bitmap$Config;
+
+    invoke-static {v0, v0, v1}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/huawei/appmarket/k15;->N:Landroid/graphics/Bitmap;
+
+    const-string v0, "dynamic_text"
+
+    sput-object v0, Lcom/huawei/appmarket/k15;->O:Ljava/lang/String;
+
+    new-instance v0, Landroid/graphics/Path;
+
+    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/k15;->P:Landroid/graphics/Path;
+
+    return-void
 .end method

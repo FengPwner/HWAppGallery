@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appmarket/service/apprecall/card/a;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -13,7 +13,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/a;->b:Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 
     invoke-static {v1, v0}, Lcom/huawei/appmarket/b9;->a(ILjava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/du;->b()Lcom/huawei/appmarket/du;
+    invoke-static {}, Lcom/huawei/appmarket/eu;->b()Lcom/huawei/appmarket/eu;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     check-cast p1, Lcom/huawei/appmarket/service/apprecall/bean/AppRecallBean;
 
-    invoke-virtual {v0, p1, v1, v2}, Lcom/huawei/appmarket/du;->k(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Landroid/content/Context;Landroid/view/View;)V
+    invoke-virtual {v0, p1, v1, v2}, Lcom/huawei/appmarket/eu;->k(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Landroid/content/Context;Landroid/view/View;)V
 
     :cond_0
     return-void

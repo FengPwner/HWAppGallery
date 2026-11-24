@@ -186,7 +186,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 
@@ -233,11 +232,11 @@
 
     .line 18
     :pswitch_0
-    check-cast v4, Lcom/huawei/appmarket/gv6;
+    check-cast v4, Lcom/huawei/appmarket/kv6;
 
     .line 19
     .line 20
-    invoke-static {v4, p1, p2, p3}, Lcom/huawei/appmarket/gv6;->c(Lcom/huawei/appmarket/gv6;Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
+    invoke-static {v4, p1, p2, p3}, Lcom/huawei/appmarket/kv6;->c(Lcom/huawei/appmarket/kv6;Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
 
     .line 21
     .line 22
@@ -302,7 +301,7 @@
 
     .line 51
     .line 52
-    sget-object p2, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p2, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 53
     .line 54
@@ -314,7 +313,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60

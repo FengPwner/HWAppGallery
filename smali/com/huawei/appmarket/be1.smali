@@ -1,5 +1,5 @@
-.class public final Lcom/huawei/appmarket/be1;
-.super Lcom/huawei/appmarket/ae1;
+.class public Lcom/huawei/appmarket/be1;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
@@ -7,15 +7,27 @@
 .method public constructor <init>()V
     .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ae1;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;
+.method public a(Landroid/content/pm/ResolveInfo;)Landroid/content/pm/ProviderInfo;
+    .registers 3
+
+    .line 1
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "Unable to get provider info prior to API 19"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;
     .registers 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -31,6 +43,17 @@
     move-result-object p1
 
     iget-object p1, p1, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
+
+    return-object p1
+.end method
+
+.method public c(Landroid/content/pm/PackageManager;Landroid/content/Intent;)Ljava/util/List;
+    .registers 3
+
+    .line 1
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    move-result-object p1
 
     return-object p1
 .end method

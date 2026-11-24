@@ -38,7 +38,7 @@
 
     const-string v0, "fadeExit onTransitionEnd"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/widget/FixedSearchView$f;->a:Landroid/view/View;
 

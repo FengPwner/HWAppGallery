@@ -76,7 +76,7 @@
 
     if-lt v4, v5, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/r58;->s(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/fq7;->A(Landroid/content/Context;)Z
 
     move-result v4
 

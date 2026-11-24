@@ -59,9 +59,9 @@
 
     move-result-object p2
 
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object p2, Lcom/huawei/appmarket/uq8;->a:Ljava/lang/String;
+    sget-object p2, Lcom/huawei/appmarket/ar8;->a:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -108,13 +108,13 @@
     invoke-virtual {v1, p1}, Lcom/huawei/appgallery/forum/base/card/bean/User;->setIcon_(Ljava/lang/String;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;->B3(Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;)Lcom/huawei/appmarket/hs3;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;->B3(Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;)Lcom/huawei/appmarket/js3;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;->B3(Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;)Lcom/huawei/appmarket/hs3;
+    invoke-static {v0}, Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;->B3(Lcom/huawei/appgallery/forum/user/usercenter/activity/UserHomePageActivity;)Lcom/huawei/appmarket/js3;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

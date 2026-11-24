@@ -22,7 +22,7 @@
 
 .field private E:F
 
-.field private F:Lcom/huawei/appmarket/xg8;
+.field private F:Lcom/huawei/appmarket/dh8;
 
 .field private G:Z
 
@@ -54,7 +54,7 @@
 
 .field private k:Landroid/widget/LinearLayout;
 
-.field private l:Lcom/huawei/appmarket/k18;
+.field private l:Lcom/huawei/appmarket/p18;
 
 .field private m:I
 
@@ -64,13 +64,13 @@
 
 .field private p:Z
 
-.field private q:Lcom/huawei/appmarket/lf5;
+.field private q:Lcom/huawei/appmarket/of5;
 
 .field private r:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fn3;",
+            "Lcom/huawei/appmarket/hn3;",
             ">;"
         }
     .end annotation
@@ -1402,11 +1402,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method private static P(Landroid/view/View;)V
@@ -1487,7 +1482,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->r:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1511,11 +1506,11 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fn3;
+    check-cast v1, Lcom/huawei/appmarket/hn3;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/fn3;->r()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/hn3;->r()V
 
     goto :goto_0
 
@@ -1560,11 +1555,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/xg8;->F()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/dh8;->F()V
 
     :cond_0
     return-void
@@ -1582,7 +1577,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 6
     .line 7
@@ -1724,7 +1719,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic s(Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;)Landroid/widget/LinearLayout;
@@ -1757,7 +1751,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 6
     .line 7
@@ -1765,7 +1759,7 @@
     move-result-object p0
 
     .line 9
-    invoke-virtual {p0}, Lcom/huawei/appmarket/pl0;->f()V
+    invoke-virtual {p0}, Lcom/huawei/appmarket/ql0;->f()V
 
     .line 10
     .line 11
@@ -1866,7 +1860,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic v(Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;I)V
@@ -1882,7 +1875,7 @@
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iget-object p0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     .line 2
     .line 3
@@ -1890,7 +1883,7 @@
 
     .line 4
     .line 5
-    invoke-interface {p0}, Lcom/huawei/appmarket/xg8;->m1()V
+    invoke-interface {p0}, Lcom/huawei/appmarket/dh8;->m1()V
 
     .line 6
     .line 7
@@ -1995,7 +1988,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic x(Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;Lcom/huawei/appgallery/detail/detailbase/animator/CustomNestedScrollView;Landroid/view/View;)V
@@ -2027,11 +2019,11 @@
 
 
 # virtual methods
-.method public final H(Lcom/huawei/appmarket/lf5;)V
+.method public final H(Lcom/huawei/appmarket/of5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     return-void
 .end method
@@ -2260,7 +2252,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final K(Lcom/huawei/appgallery/detail/detailbase/animator/CustomNestedScrollView;F)V
@@ -2359,13 +2350,13 @@
         value = {
             "(",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/fn3;",
+            "Lcom/huawei/appmarket/hn3;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -2377,20 +2368,20 @@
     return-void
 .end method
 
-.method public final a0(Lcom/huawei/appmarket/k18;)V
+.method public final a0(Lcom/huawei/appmarket/p18;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
     return-void
 .end method
 
-.method public final b0(Lcom/huawei/appmarket/xg8;)V
+.method public final b0(Lcom/huawei/appmarket/dh8;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     return-void
 .end method
@@ -2426,7 +2417,7 @@
 
     if-gez p1, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     check-cast p1, Lcom/huawei/appgallery/detail/detailservice/view/GalleryDetailFragment;
 
@@ -2435,7 +2426,7 @@
     goto :goto_0
 
     :cond_1
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     const/4 p2, -0x1
 
@@ -2647,7 +2638,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->k:Landroid/widget/LinearLayout;
 
-    const p3, 0x7f0a1665
+    const p3, 0x7f0a1666
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2699,7 +2690,7 @@
 
     const/16 p3, 0x50
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 
@@ -2792,9 +2783,9 @@
 
     if-gtz p1, :cond_0
 
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result p1
 
@@ -2826,7 +2817,7 @@
     move/from16 v3, p5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/gw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
 
     move-result-object v4
 
@@ -2905,9 +2896,9 @@
     return-void
 
     :cond_4
-    iget-object v8, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iget-object v8, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v8}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v8}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v8
 
@@ -2959,9 +2950,9 @@
     return-void
 
     :cond_6
-    iget-object v8, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iget-object v8, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v8}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v8}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v8
 
@@ -3056,9 +3047,9 @@
 
     if-gez v3, :cond_b
 
-    iget-object v12, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iget-object v12, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v12}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v12}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v12
 
@@ -3281,12 +3272,12 @@
 
     if-eqz v5, :cond_17
 
-    iget-object v5, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iget-object v5, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     if-eqz v5, :cond_17
 
     .line 14
-    invoke-interface {v5}, Lcom/huawei/appmarket/xg8;->M()V
+    invoke-interface {v5}, Lcom/huawei/appmarket/dh8;->M()V
 
     goto :goto_b
 
@@ -3310,9 +3301,9 @@
 
     if-ne v4, v9, :cond_17
 
-    iget-object v5, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/k18;
+    iget-object v5, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->l:Lcom/huawei/appmarket/p18;
 
-    invoke-interface {v5}, Lcom/huawei/appmarket/k18;->a1()Z
+    invoke-interface {v5}, Lcom/huawei/appmarket/p18;->a1()Z
 
     move-result v5
 
@@ -3464,12 +3455,12 @@
 
     if-eqz v1, :cond_1d
 
-    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iget-object v1, v0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     if-eqz v1, :cond_1d
 
     .line 20
-    invoke-interface {v1}, Lcom/huawei/appmarket/xg8;->M()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/dh8;->M()V
 
     .line 21
     :cond_1d
@@ -3605,7 +3596,7 @@
 
     .line 44
     .line 45
-    iget-object p4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iget-object p4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     .line 46
     .line 47
@@ -3636,7 +3627,7 @@
 
     .line 58
     .line 59
-    iget-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iget-object p3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     .line 60
     .line 61
@@ -3689,7 +3680,7 @@
 
     .line 84
     .line 85
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/lf5;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->q:Lcom/huawei/appmarket/of5;
 
     .line 86
     .line 87
@@ -3717,7 +3708,7 @@
 
     .line 97
     .line 98
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/xg8;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/NestedScrollViewBehavior;->F:Lcom/huawei/appmarket/dh8;
 
     .line 99
     .line 100
@@ -3725,7 +3716,7 @@
 
     .line 101
     .line 102
-    invoke-interface {p1}, Lcom/huawei/appmarket/xg8;->m1()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/dh8;->m1()V
 
     .line 103
     .line 104
@@ -3754,7 +3745,7 @@
 
     .line 115
     .line 116
-    invoke-static {}, Lcom/huawei/appmarket/pl0;->k()Lcom/huawei/appmarket/pl0;
+    invoke-static {}, Lcom/huawei/appmarket/ql0;->k()Lcom/huawei/appmarket/ql0;
 
     .line 117
     .line 118
@@ -3762,7 +3753,7 @@
     move-result-object p1
 
     .line 120
-    invoke-virtual {p1}, Lcom/huawei/appmarket/pl0;->f()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ql0;->f()V
 
     .line 121
     .line 122

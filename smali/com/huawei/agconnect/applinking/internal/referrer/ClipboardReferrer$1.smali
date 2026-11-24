@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;->a(Landroid/content/Context;J)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/huawei/appmarket/nv7;
+.field final synthetic a:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic b:Landroid/content/Context;
 
@@ -26,13 +26,13 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Lcom/huawei/appmarket/nv7;Landroid/content/Context;)V
+.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;Lcom/huawei/appmarket/tv7;Landroid/content/Context;)V
     .registers 4
 
     .line 1
     iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->c:Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;
 
-    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->a:Lcom/huawei/appmarket/nv7;
+    iput-object p2, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->a:Lcom/huawei/appmarket/tv7;
 
     iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->b:Landroid/content/Context;
 
@@ -46,7 +46,7 @@
 .method public run()V
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->a:Lcom/huawei/appmarket/nv7;
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->a:Lcom/huawei/appmarket/tv7;
 
     iget-object v1, p0, Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer$1;->c:Lcom/huawei/agconnect/applinking/internal/referrer/ClipboardReferrer;
 
@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method

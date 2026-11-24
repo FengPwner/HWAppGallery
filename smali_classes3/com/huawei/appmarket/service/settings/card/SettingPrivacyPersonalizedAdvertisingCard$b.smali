@@ -49,11 +49,11 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/aj6;->d()Lcom/huawei/appmarket/aj6;
+    invoke-static {}, Lcom/huawei/appmarket/cj6;->d()Lcom/huawei/appmarket/cj6;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/aj6;->h(I)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/cj6;->h(I)V
 
     return-void
 .end method

@@ -61,13 +61,13 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/hs2;->f(Landroid/widget/ThemedSpinnerAdapter;)Landroid/content/res/Resources$Theme;
+    invoke-static {p1}, Lcom/huawei/appmarket/ks2;->f(Landroid/widget/ThemedSpinnerAdapter;)Landroid/content/res/Resources$Theme;
 
     move-result-object v0
 
     if-nez v0, :cond_1
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/hs2;->u(Landroid/widget/ThemedSpinnerAdapter;Landroid/content/res/Resources$Theme;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ks2;->u(Landroid/widget/ThemedSpinnerAdapter;Landroid/content/res/Resources$Theme;)V
 
     :cond_1
     return-void

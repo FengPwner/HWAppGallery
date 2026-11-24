@@ -1,274 +1,412 @@
-.class public final Lcom/huawei/appmarket/or8;
-.super Lcom/huawei/appmarket/sv5;
+.class public final synthetic Lcom/huawei/appmarket/or8;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Lcom/huawei/appmarket/qr8;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/qr8;I)V
+    .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/sv5;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 2
+    .line 3
+    .line 4
+    iput p2, p0, Lcom/huawei/appmarket/or8;->b:I
+
+    .line 5
+    .line 6
+    iput-object p1, p0, Lcom/huawei/appmarket/or8;->c:Lcom/huawei/appmarket/qr8;
+
+    .line 7
+    .line 8
     return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
-    .registers 5
+.method public final run()V
+    .registers 6
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return-object p2
-
-    :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_3
-
-    :cond_1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "calling packageName not equal, filter keyword:"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "WishCreateActivityParamFetcher"
-
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :cond_2
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appgallery/opengateway/api/Param;
-
-    if-eqz v0, :cond_2
-
-    const-string v1, "keyword"
-
-    invoke-virtual {v0}, Lcom/huawei/appgallery/opengateway/api/Param;->getName_()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    invoke-interface {p1}, Ljava/util/Iterator;->remove()V
-
-    goto :goto_0
-
-    :cond_3
-    return-object p2
-.end method
-
-.method public final b(Ljava/util/List;)Lcom/huawei/hmf/services/ui/e;
-    .registers 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/opengateway/api/Param;",
-            ">;)",
-            "Lcom/huawei/hmf/services/ui/e;"
-        }
-    .end annotation
-
-    .line 1
-    const/4 v0, 0x0
-
-    if-nez p1, :cond_0
-
-    return-object v0
-
-    :cond_0
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    move-object v1, v0
-
-    move-object v2, v1
-
-    :cond_1
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_4
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/huawei/appgallery/opengateway/api/Param;
-
-    if-nez v3, :cond_2
-
-    goto :goto_0
-
-    :cond_2
-    invoke-virtual {v3}, Lcom/huawei/appgallery/opengateway/api/Param;->getName_()Ljava/lang/String;
-
-    move-result-object v4
-
-    const-string v5, "keyword"
-
-    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    invoke-virtual {v3}, Lcom/huawei/appgallery/opengateway/api/Param;->getValue_()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto :goto_0
-
-    :cond_3
-    const-string v4, "wishType"
-
-    invoke-virtual {v3}, Lcom/huawei/appgallery/opengateway/api/Param;->getName_()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_1
-
-    invoke-virtual {v3}, Lcom/huawei/appgallery/opengateway/api/Param;->getValue_()Ljava/lang/String;
-
-    move-result-object v2
-
-    goto :goto_0
-
-    :cond_4
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
-
-    move-result-object p1
-
-    const-string v3, "WishList"
-
-    check-cast p1, Lcom/huawei/appmarket/dr6;
-
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
-
-    move-result-object p1
-
-    const-string v3, "WishCreateActivityParamFetcher"
-
-    if-nez p1, :cond_5
-
-    const-string p1, "wishModule == null"
-
-    :goto_1
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v0
-
-    :cond_5
-    const-string v4, "wish.add"
-
-    invoke-virtual {p1, v4}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
-
-    move-result-object p1
-
-    if-nez p1, :cond_6
-
-    const-string p1, "addWishActivityUiModule == null"
-
-    goto :goto_1
-
-    :cond_6
-    invoke-virtual {p1}, Lcom/huawei/hmf/services/ui/e;->b()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/huawei/appgallery/wishlist/api/IWishAddActivityProtocol;
-
-    invoke-interface {v0, v1}, Lcom/huawei/appgallery/wishlist/api/IWishAddActivityProtocol;->setKeyWord(Ljava/lang/String;)V
-
-    invoke-interface {v0, v2}, Lcom/huawei/appgallery/wishlist/api/IWishAddActivityProtocol;->setWishType(Ljava/lang/String;)V
-
-    return-object p1
-.end method
-
-.method public final c(Ljava/util/List;)Z
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/opengateway/api/Param;",
-            ">;)Z"
-        }
-    .end annotation
-
-    .line 1
-    const/4 p1, 0x1
-
-    return p1
+    iget v0, p0, Lcom/huawei/appmarket/or8;->b:I
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/huawei/appmarket/or8;->c:Lcom/huawei/appmarket/qr8;
+
+    .line 4
+    .line 5
+    packed-switch v0, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 9
+    .line 10
+    .line 11
+    new-instance v0, Lcom/huawei/appmarket/wp1;
+
+    .line 12
+    .line 13
+    sget-object v2, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
+
+    .line 14
+    .line 15
+    sget-object v3, Lcom/huawei/appmarket/rp1;->c:Lcom/huawei/appmarket/rp1;
+
+    .line 16
+    .line 17
+    new-instance v4, Lcom/huawei/appmarket/pr8;
+
+    .line 18
+    .line 19
+    invoke-direct {v4, v1}, Lcom/huawei/appmarket/pr8;-><init>(Lcom/huawei/appmarket/qr8;)V
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-direct {v0, v2, v3, v4}, Lcom/huawei/appmarket/wp1;-><init>(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/rp1;Lcom/huawei/appmarket/np1;)V
+
+    .line 23
+    .line 24
+    .line 25
+    sget-object v1, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
+
+    .line 26
+    .line 27
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/xp1;->c(Lcom/huawei/appmarket/wp1;)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+
+    .line 31
+    :pswitch_0
+    invoke-static {v1}, Lcom/huawei/appmarket/qr8;->c(Lcom/huawei/appmarket/qr8;)V
+
+    .line 32
+    .line 33
+    .line 34
+    return-void
+
+    .line 35
+    :pswitch_1
+    invoke-static {v1}, Lcom/huawei/appmarket/qr8;->d(Lcom/huawei/appmarket/qr8;)V
+
+    .line 36
+    .line 37
+    .line 38
+    return-void
+
+    .line 39
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
 .end method

@@ -1,625 +1,433 @@
-.class public final Lcom/huawei/appmarket/ih;
-.super Ljava/lang/Object;
+.class public Lcom/huawei/appmarket/ih;
+.super Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:Lcom/huawei/appmarket/kb4;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/kb4<",
-            "Ljava/lang/Integer;",
-            "Lcom/huawei/appmarket/wn3;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private static final b:Lcom/huawei/appmarket/kb4;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/kb4<",
-            "Ljava/lang/Integer;",
-            "Lcom/huawei/appmarket/wn3;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 3
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/kb4$a;
-
-    .line 2
-    .line 3
-    invoke-direct {v0}, Lcom/huawei/appmarket/kb4$a;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    const/4 v1, 0x4
-
-    .line 7
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 8
-    .line 9
-    .line 10
-    move-result-object v1
-
-    .line 11
-    sget-object v2, Lcom/huawei/appmarket/wn3;->d:Lcom/huawei/appmarket/wn3;
-
-    .line 12
-    .line 13
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/kb4$a;->e(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 14
-    .line 15
-    .line 16
-    const/4 v1, 0x5
-
-    .line 17
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v1
-
-    .line 21
-    sget-object v2, Lcom/huawei/appmarket/wn3;->e:Lcom/huawei/appmarket/wn3;
-
-    .line 22
-    .line 23
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/kb4$a;->e(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 24
-    .line 25
-    .line 26
-    const/4 v1, 0x6
-
-    .line 27
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 28
-    .line 29
-    .line 30
-    move-result-object v1
-
-    .line 31
-    sget-object v2, Lcom/huawei/appmarket/wn3;->f:Lcom/huawei/appmarket/wn3;
-
-    .line 32
-    .line 33
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/kb4$a;->e(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 34
-    .line 35
-    .line 36
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kb4$a;->a()Lcom/huawei/appmarket/kb4;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    sput-object v0, Lcom/huawei/appmarket/ih;->a:Lcom/huawei/appmarket/kb4;
-
-    .line 41
-    .line 42
-    new-instance v0, Lcom/huawei/appmarket/kb4$a;
-
-    .line 43
-    .line 44
-    invoke-direct {v0}, Lcom/huawei/appmarket/kb4$a;-><init>()V
-
-    .line 45
-    .line 46
-    .line 47
-    const/4 v1, 0x7
-
-    .line 48
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-object v1
-
-    .line 52
-    sget-object v2, Lcom/huawei/appmarket/wn3;->j:Lcom/huawei/appmarket/wn3;
-
-    .line 53
-    .line 54
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/kb4$a;->e(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 55
-    .line 56
-    .line 57
-    const/16 v1, 0x8
-
-    .line 58
-    .line 59
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 60
-    .line 61
-    .line 62
-    move-result-object v1
-
-    .line 63
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/kb4$a;->e(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 64
-    .line 65
-    .line 66
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kb4$a;->a()Lcom/huawei/appmarket/kb4;
-
-    .line 67
-    .line 68
-    .line 69
-    move-result-object v0
-
-    .line 70
-    sput-object v0, Lcom/huawei/appmarket/ih;->b:Lcom/huawei/appmarket/kb4;
-
-    .line 71
-    .line 72
-    return-void
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-.end method
-
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)Lcom/huawei/appmarket/wn3;
-    .registers 4
 
-    .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/ih;->e(Ljava/lang/String;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    sget-object p0, Lcom/huawei/appmarket/wn3;->d:Lcom/huawei/appmarket/wn3;
-
-    .line 8
-    .line 9
-    return-object p0
-
-    .line 10
-    :cond_0
-    const/4 v0, 0x2
-
-    .line 11
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v0
-
-    .line 15
-    sget-object v1, Lcom/huawei/appmarket/ih;->a:Lcom/huawei/appmarket/kb4;
-
-    .line 16
-    .line 17
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v2
-
-    .line 21
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/kb4;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 22
-    .line 23
-    .line 24
-    move-result-object v1
-
-    .line 25
-    check-cast v1, Lcom/huawei/appmarket/wn3;
-
-    .line 26
-    .line 27
-    if-eqz v1, :cond_1
-
-    .line 28
-    .line 29
-    return-object v1
-
-    .line 30
-    :cond_1
-    sget-object v1, Lcom/huawei/appmarket/ih;->b:Lcom/huawei/appmarket/kb4;
-
-    .line 31
-    .line 32
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v0
-
-    .line 36
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/kb4;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    check-cast v0, Lcom/huawei/appmarket/wn3;
-
-    .line 41
-    .line 42
-    const/4 v1, 0x1
-
-    .line 43
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
-
-    .line 44
-    .line 45
-    .line 46
-    move-result p0
-
-    .line 47
-    const/4 v1, 0x4
-
-    .line 48
-    if-ne p0, v1, :cond_2
-
-    .line 49
-    .line 50
-    if-eqz v0, :cond_2
-
-    .line 51
-    .line 52
-    return-object v0
-
-    .line 53
-    :cond_2
-    sget-object p0, Lcom/huawei/appmarket/wn3;->c:Lcom/huawei/appmarket/wn3;
-
-    .line 54
-    .line 55
-    return-object p0
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-.end method
-
-.method private static b(ILjava/lang/String;)I
+# virtual methods
+.method public O()Z
     .registers 5
 
     .line 1
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    sget-object v0, Lcom/huawei/appmarket/r27;->d:Lcom/huawei/appmarket/r27;
+
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v1}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->E2()Lcom/huawei/appmarket/r27;
+
+    move-result-object v1
+
+    if-ne v0, v1, :cond_3
+
+    invoke-super {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->O()Z
 
     move-result v0
+
+    if-nez v0, :cond_2
+
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    if-eqz v1, :cond_2
+
+    new-instance v1, Lcom/huawei/appmarket/o80$b;
+
+    const-string v2, "1190800101"
+
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/o80$b;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->r()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->u(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->R1()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->r(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->P1()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->q(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/foundation/service/common/protocol/AppDetailActivityProtocol$Request;->n()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->l(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->F2()Lcom/huawei/appgallery/agd/api/ServiceInfo;
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_0
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->F2()Lcom/huawei/appgallery/agd/api/ServiceInfo;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/agd/api/ServiceInfo;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    goto :goto_0
+
+    :cond_0
+    move-object v2, v3
+
+    :goto_0
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->C(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->j()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/o80$b;->i(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->E2()Lcom/huawei/appmarket/r27;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_1
+
+    iget-object v2, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->E2()Lcom/huawei/appmarket/r27;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/r27;->a()Ljava/lang/String;
+
+    move-result-object v3
+
+    :cond_1
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/o80$b;->B(Ljava/lang/String;)V
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/o80$b;->c()Lcom/huawei/appmarket/o80;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/huawei/appmarket/zq5;->K2(Lcom/huawei/appmarket/o80;)V
+
+    :cond_2
+    return v0
+
+    :cond_3
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->n:Z
+
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->d:Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;
+
+    if-eqz v1, :cond_4
+
+    sget-object v1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    const-string v2, "AgdsLinkViewModel"
+
+    const-string v3, "needDataLoading return false for: harmonyAppInfo is prepared"
+
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return v0
+
+    :cond_4
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final R()Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;
+    .registers 5
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->k:I
+
+    const/4 v1, 0x0
+
+    const-string v2, "AgdsLinkViewModel"
+
+    if-nez v0, :cond_0
+
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    const-string v3, "onPrepareRequest: data is already success"
+
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object v1
+
+    :cond_0
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
-    move-result v0
+    const-string v3, "onPrepareRequest: protocolRequest is null"
 
-    if-le v0, p0, :cond_1
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    if-gez p0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p1, p0}, Ljava/lang/String;->charAt(I)C
-
-    move-result p0
-
-    add-int/lit8 p0, p0, -0x30
-
-    return p0
+    return-object v1
 
     :cond_1
-    :goto_0
-    sget-object v0, Lcom/huawei/appmarket/zq1;->a:Lcom/huawei/appmarket/zq1;
+    sget-object v3, Lcom/huawei/appmarket/r27;->d:Lcom/huawei/appmarket/r27;
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-virtual {v0}, Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;->E2()Lcom/huawei/appmarket/r27;
 
-    const-string v2, "return invalid for installType: "
+    move-result-object v0
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    if-ne v3, v0, :cond_2
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
-    const-string p1, " pos "
+    const-string v3, "onPrepareRequest: agds link open, already request"
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    return-object v1
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    :cond_2
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->I()Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;
 
-    move-result-object p0
+    move-result-object v0
 
-    const-string p1, "AgdsInstallType"
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
 
-    invoke-virtual {v0, p1, p0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
-    const/4 p0, -0x1
+    move-result v2
 
-    return p0
+    invoke-virtual {v1, v2}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->k2(I)V
+
+    return-object v0
 .end method
 
-.method public static c(Ljava/lang/String;)Z
-    .registers 2
+.method public final S(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
+    .registers 5
 
     .line 1
-    const/16 v0, 0xb
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
+    const-string v1, "AgdsLinkViewModel"
 
-    move-result p0
+    const-string v2, "onResponse called"
 
-    const/4 v0, 0x1
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    if-ne p0, v0, :cond_0
+    if-eqz p1, :cond_0
 
-    goto :goto_0
+    iget-object v0, p1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;->b:Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
-    :cond_0
-    const/4 v0, 0x0
+    instance-of v1, v0, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    :goto_0
-    return v0
-.end method
+    if-eqz v1, :cond_0
 
-.method public static d(Ljava/lang/String;)Z
-    .registers 3
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
 
-    .line 1
-    const/4 v0, 0x0
-
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
-
-    move-result p0
-
-    const/4 v1, 0x6
-
-    if-ne p0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    :cond_0
-    return v0
-.end method
-
-.method public static e(Ljava/lang/String;)Z
-    .registers 3
-
-    .line 1
-    const/4 v0, 0x1
-
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
+    invoke-virtual {v1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->N1()I
 
     move-result v1
 
-    if-nez v1, :cond_0
+    check-cast v0, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    const/4 v1, 0x2
+    :goto_0
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ah;->j(ILcom/huawei/appgallery/distributionbase/api/VerificationResponse;)V
 
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
+    goto :goto_1
 
-    move-result p0
+    :cond_0
+    new-instance v0, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    if-nez p0, :cond_0
+    invoke-direct {v0}, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;-><init>()V
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;->setResponseCode(I)V
+
+    iget-object v1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->p:Lcom/huawei/appgallery/distributionbase/ui/protocol/FADistActivityProtocol$Request;
+
+    invoke-virtual {v1}, Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;->N1()I
+
+    move-result v1
 
     goto :goto_0
 
-    :cond_0
-    const/4 v0, 0x0
+    :goto_1
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->S(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 
-    :goto_0
-    return v0
+    return-void
 .end method
 
-.method public static f(Ljava/lang/String;)Z
-    .registers 2
-
-    .line 1
-    const/16 v0, 0x8
-
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
-
-    move-result p0
-
-    const/4 v0, 0x1
-
-    if-ne p0, v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public static g(Ljava/lang/String;)Z
-    .registers 2
-
-    .line 1
-    const/16 v0, 0xa
-
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
-
-    move-result p0
-
-    const/4 v0, 0x1
-
-    if-ne p0, v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public static h(Ljava/lang/String;)Z
-    .registers 2
+.method protected j(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)Lcom/huawei/appmarket/zn3;
+    .registers 9
 
     .line 1
     const/16 v0, 0x9
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/ih;->b(ILjava/lang/String;)I
+    const-string v1, "AgdsLinkViewModel"
 
-    move-result p0
+    if-eqz p1, :cond_4
 
-    if-nez p0, :cond_0
+    iget-object v2, p1, Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;->b:Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
-    const/4 p0, 0x1
+    instance-of v3, v2, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
 
-    goto :goto_0
+    if-eqz v3, :cond_4
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    goto :goto_2
 
     :cond_0
-    const/4 p0, 0x0
+    check-cast v2, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result v3
+
+    sget-object v4, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    const-string v6, "onResponse: rtnCode = ["
+
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v6, "]"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v1, v5}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    if-eqz v3, :cond_1
 
     :goto_0
-    return p0
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->Y(I)V
+
+    sget-object p1, Lcom/huawei/appmarket/zn3;->c:Lcom/huawei/appmarket/zn3;
+
+    return-object p1
+
+    :cond_1
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;->U0()I
+
+    move-result v3
+
+    if-eqz v3, :cond_3
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v5, "onResponse: fail for verifyErrorCode: "
+
+    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;->U0()I
+
+    move-result v5
+
+    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v4, v1, v3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    sget-object v1, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->u:Ljava/util/ArrayList;
+
+    invoke-virtual {v2}, Lcom/huawei/appgallery/distributionbase/api/VerificationResponse;->U0()I
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->Y(I)V
+
+    goto :goto_1
+
+    :cond_2
+    const/16 v0, 0x8
+
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->Y(I)V
+
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->n(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
+
+    :goto_1
+    sget-object p1, Lcom/huawei/appmarket/zn3;->c:Lcom/huawei/appmarket/zn3;
+
+    return-object p1
+
+    :cond_3
+    sget-object p1, Lcom/huawei/appmarket/zn3;->b:Lcom/huawei/appmarket/zn3;
+
+    return-object p1
+
+    :cond_4
+    :goto_2
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
+
+    const-string v2, "onResponse: fail for response error"
+
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_0
+.end method
+
+.method public final s()Lcom/huawei/appgallery/taskfragment/api/TaskFragment;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->t()Lcom/huawei/appgallery/taskfragment/api/TaskFragment;
+
+    move-result-object v0
+
+    return-object v0
 .end method

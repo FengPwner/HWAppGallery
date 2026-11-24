@@ -222,7 +222,7 @@
     move-result-object v0
 
     .line 79
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 80
     .line 81
@@ -270,7 +270,7 @@
 
     .line 101
     .line 102
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 103
     .line 104
@@ -479,7 +479,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard;->D:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0a1704
+    const v0, 0x7f0a1705
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -489,7 +489,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard;->x:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v0, 0x7f0a1703
+    const v0, 0x7f0a1704
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard;->z:Landroid/widget/LinearLayout;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard;->C:Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard$a;
 
@@ -544,7 +544,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailrelatedpersonaldatacard/DetailRelatedPersonalDataCard;->D:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v2, Lcom/huawei/appmarket/ji7;
+    new-instance v2, Lcom/huawei/appmarket/pi7;
 
     iget-object v3, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
@@ -552,7 +552,7 @@
 
     const/4 v4, 0x1
 
-    invoke-direct {v2, v3, v0, v4}, Lcom/huawei/appmarket/ji7;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v2, v3, v0, v4}, Lcom/huawei/appmarket/pi7;-><init>(Landroid/content/Context;IZ)V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$o;)V
 

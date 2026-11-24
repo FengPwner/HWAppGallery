@@ -185,7 +185,7 @@
     move-result-object p1
 
     .line 66
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 67
     .line 68
@@ -238,7 +238,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final T0()Ljava/util/List;

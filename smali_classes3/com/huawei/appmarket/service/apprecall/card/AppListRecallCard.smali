@@ -8,7 +8,7 @@
 
 .field private E:Ljava/util/HashMap;
 
-.field private F:Lcom/huawei/appmarket/ak0;
+.field private F:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -46,11 +46,11 @@
 
     check-cast p1, Lcom/huawei/appmarket/service/apprecall/bean/AppRecallBean;
 
-    invoke-static {}, Lcom/huawei/appmarket/du;->b()Lcom/huawei/appmarket/du;
+    invoke-static {}, Lcom/huawei/appmarket/eu;->b()Lcom/huawei/appmarket/eu;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/du;->i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/eu;->i(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     invoke-virtual {p1}, Lcom/huawei/appmarket/service/apprecall/bean/AppRecallBean;->getImgUrl()Ljava/lang/String;
 
@@ -153,19 +153,19 @@
 
     invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    iget-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallCard;->F:Lcom/huawei/appmarket/ak0;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallCard;->F:Lcom/huawei/appmarket/bk0;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/apprecall/card/AbstractAppRecallItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_5
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallCard;->F:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/apprecall/card/AppListRecallCard;->F:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method

@@ -2,57 +2,130 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field private static final serialVersionUID:J = -0x76c2a16dc85d8ce2L
+
+
+# instance fields
+.field private b:I
+
+.field private c:Ljava/lang/String;
+
+.field private d:Lcom/huawei/appmarket/bc8;
+
+.field private e:Lcom/huawei/appmarket/d36;
+
+.field private f:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
+
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;)V
+    .registers 3
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x3
+
+    iput v0, p0, Lcom/huawei/appmarket/l36;->b:I
+
+    iput-object p1, p0, Lcom/huawei/appmarket/l36;->f:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;IZ)Z
-    .registers 5
+.method public constructor <init>(Lcom/huawei/appmarket/bc8;)V
+    .registers 3
 
-    .line 1
-    const/4 v0, 0x3
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    if-ne p1, v0, :cond_0
+    iput v0, p0, Lcom/huawei/appmarket/l36;->b:I
 
-    const p1, 0x7f1206fb
+    iput-object p1, p0, Lcom/huawei/appmarket/l36;->d:Lcom/huawei/appmarket/bc8;
 
-    :goto_0
-    invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    return-void
+.end method
 
-    move-result-object p0
+.method public constructor <init>(Lcom/huawei/appmarket/d36;)V
+    .registers 3
 
-    invoke-static {p0}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return v1
+    const/4 v0, 0x2
 
-    :cond_0
+    iput v0, p0, Lcom/huawei/appmarket/l36;->b:I
+
+    iput-object p1, p0, Lcom/huawei/appmarket/l36;->e:Lcom/huawei/appmarket/d36;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 3
+
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
     const/4 v0, 0x1
 
-    if-ne p1, v0, :cond_1
+    iput v0, p0, Lcom/huawei/appmarket/l36;->b:I
 
-    const p1, 0x7f1206f7
+    iput-object p1, p0, Lcom/huawei/appmarket/l36;->c:Ljava/lang/String;
 
-    goto :goto_0
+    return-void
+.end method
 
-    :cond_1
-    if-nez p2, :cond_2
 
-    const/4 p2, 0x2
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .registers 2
 
-    if-ne p1, p2, :cond_2
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/l36;->c:Ljava/lang/String;
 
-    const p1, 0x7f1206f9
+    return-object v0
+.end method
 
-    goto :goto_0
+.method public final b()Lcom/huawei/appmarket/d36;
+    .registers 2
 
-    :cond_2
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/l36;->e:Lcom/huawei/appmarket/d36;
+
+    return-object v0
+.end method
+
+.method public final c()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appmarket/l36;->b:I
+
     return v0
+.end method
+
+.method public final d()Lcom/huawei/appmarket/bc8;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/l36;->d:Lcom/huawei/appmarket/bc8;
+
+    return-object v0
+.end method
+
+.method public final e()Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/l36;->f:Lcom/huawei/appgallery/forum/base/card/bean/VoteDetailBean;
+
+    return-object v0
 .end method

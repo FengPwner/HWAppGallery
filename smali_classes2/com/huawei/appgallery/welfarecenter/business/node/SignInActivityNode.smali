@@ -12,7 +12,7 @@
 # instance fields
 .field private q:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-.field private r:Lcom/huawei/appmarket/du4;
+.field private r:Lcom/huawei/appmarket/gu4;
 
 .field private s:Lcom/huawei/appgallery/welfarecenter/business/card/SignInActivityCard;
 
@@ -35,7 +35,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -60,7 +60,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/eq6;->t(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -211,11 +211,11 @@
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -256,13 +256,13 @@
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->r:Lcom/huawei/appmarket/du4;
+    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->r:Lcom/huawei/appmarket/gu4;
 
     if-eqz p1, :cond_0
 
     iget-object p2, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->s:Lcom/huawei/appgallery/welfarecenter/business/card/SignInActivityCard;
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/welfarecenter/business/card/SignInActivityCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appgallery/welfarecenter/business/card/SignInActivityCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     :cond_0
     const/4 p1, 0x1
@@ -296,13 +296,13 @@
 
     iget-object v1, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->q:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/bx4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/ex4;->c(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
     return-void
 .end method
@@ -313,17 +313,17 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;->l()V
 
-    invoke-static {}, Lcom/huawei/appmarket/hw;->a()Landroid/content/Context;
+    invoke-static {}, Lcom/huawei/appmarket/iw;->a()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->q:Lcom/huawei/secure/android/common/intent/SafeBroadcastReceiver;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/bx4;->f(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ex4;->f(Landroid/content/BroadcastReceiver;)V
 
     const/4 v0, 0x0
 
@@ -339,13 +339,13 @@
     return-void
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;->q(Lcom/huawei/appmarket/du4;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/welfarecenter/business/node/WelfareCenterRefreshNode;->q(Lcom/huawei/appmarket/gu4;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->r:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->r:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

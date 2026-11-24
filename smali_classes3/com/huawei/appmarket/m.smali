@@ -60,7 +60,7 @@
     .line 12
     .line 13
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/br1;->d()Lcom/huawei/appmarket/br1;
+    invoke-static {}, Lcom/huawei/appmarket/er1;->d()Lcom/huawei/appmarket/er1;
 
     .line 14
     .line 15
@@ -81,7 +81,7 @@
     move-result-object p1
 
     .line 24
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ld7;->s()Ljava/util/Map;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qd7;->s()Ljava/util/Map;
 
     .line 25
     .line 26
@@ -89,7 +89,7 @@
     move-result-object p1
 
     .line 28
-    sget-object p2, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p2, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 29
     .line 30
@@ -131,7 +131,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v1, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -197,7 +197,7 @@
 
     .line 82
     .line 83
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 84
     .line 85
@@ -205,7 +205,7 @@
 
     .line 86
     .line 87
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -223,7 +223,7 @@
     .line 95
     .line 96
     .line 97
-    invoke-static {p2}, Lcom/huawei/appmarket/ss1;->d(Ljava/lang/String;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/vs1;->d(Ljava/lang/String;)V
 
     .line 98
     .line 99
@@ -245,7 +245,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {v0}, Lcom/huawei/appmarket/ch;->b(Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;
+    invoke-static {v0}, Lcom/huawei/appmarket/bh;->b(Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;)Lcom/huawei/appgallery/distributionbase/api/VerificationRequest;
 
     .line 109
     .line 110
@@ -253,7 +253,7 @@
     move-result-object v2
 
     .line 112
-    sget-object v3, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v3, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 113
     .line 114
@@ -283,21 +283,21 @@
     move-result-object p2
 
     .line 128
-    invoke-virtual {v3, v1, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
     .line 130
     .line 131
-    new-instance p2, Lcom/huawei/appmarket/rs8;
+    new-instance p2, Lcom/huawei/appmarket/xs8;
 
     .line 132
     .line 133
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/rs8;-><init>(Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/xs8;-><init>(Lcom/huawei/appgallery/distribution/impl/storage/WlanParcelableRequest;)V
 
     .line 134
     .line 135
     .line 136
-    invoke-static {v2, p2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v2, p2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 137
     .line 138
@@ -344,7 +344,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final p()I

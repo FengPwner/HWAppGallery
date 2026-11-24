@@ -43,11 +43,11 @@
     move-result-object p1
 
     .line 5
-    sget v0, Lcom/huawei/appmarket/rs1;->b:I
+    sget v0, Lcom/huawei/appmarket/us1;->b:I
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->b()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -89,7 +89,7 @@
 
     .line 27
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/ts1;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/ws1;->c()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -289,5 +289,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

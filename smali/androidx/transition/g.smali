@@ -474,7 +474,7 @@
     return-void
 .end method
 
-.method public final p(Ljava/lang/Object;Lcom/huawei/appmarket/mi0;Ljava/lang/Runnable;)V
+.method public final p(Ljava/lang/Object;Lcom/huawei/appmarket/ni0;Ljava/lang/Runnable;)V
     .registers 5
 
     .line 1
@@ -484,7 +484,7 @@
 
     invoke-direct {v0, p0, p1}, Landroidx/transition/i;-><init>(Landroidx/transition/g;Landroidx/transition/Transition;)V
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/mi0;->c(Lcom/huawei/appmarket/mi0$b;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/ni0;->c(Lcom/huawei/appmarket/ni0$b;)V
 
     new-instance p2, Landroidx/transition/j;
 
@@ -826,6 +826,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final r(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
@@ -1140,6 +1147,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final s(Ljava/lang/Object;)Ljava/lang/Object;

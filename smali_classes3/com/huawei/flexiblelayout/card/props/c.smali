@@ -645,6 +645,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

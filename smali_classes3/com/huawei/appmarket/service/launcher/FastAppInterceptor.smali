@@ -64,7 +64,7 @@
     move-result-object v0
 
     .line 21
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -146,7 +146,7 @@
 
     .line 63
     .line 64
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -158,7 +158,7 @@
 
     .line 69
     .line 70
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/m77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/r77;->c(Ljava/lang/Integer;Ljava/lang/String;)Ljava/lang/String;
 
     .line 71
     .line 72
@@ -200,7 +200,7 @@
 
     .line 90
     .line 91
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -287,7 +287,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -295,7 +294,7 @@
 .method public getIntentByPackage(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     move-result p1
 
@@ -319,7 +318,7 @@
 
     const-string p2, "AppLauncher"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     new-instance p1, Landroid/content/Intent;

@@ -15,7 +15,7 @@
 .method public abstract d(Landroidx/media3/exoplayer/audio/AudioSink$a;)V
 .end method
 
-.method public abstract e(Landroidx/media3/common/a;Lcom/huawei/appmarket/gb1;)V
+.method public abstract e(Landroidx/media3/common/a;Lcom/huawei/appmarket/hb1;)V
 .end method
 
 .method public abstract f(Ljava/lang/String;)V
@@ -36,7 +36,7 @@
 .method public abstract onSkipSilenceEnabledChanged(Z)V
 .end method
 
-.method public abstract p(Lcom/huawei/appmarket/eb1;)V
+.method public abstract p(Lcom/huawei/appmarket/fb1;)V
 .end method
 
 .method public abstract r(Ljava/lang/Exception;)V
@@ -45,5 +45,5 @@
 .method public abstract t(IJJ)V
 .end method
 
-.method public abstract u(Lcom/huawei/appmarket/eb1;)V
+.method public abstract u(Lcom/huawei/appmarket/fb1;)V
 .end method

@@ -72,7 +72,7 @@
 
     move-result v1
 
-    sget-object v2, Lcom/huawei/appmarket/cm1;->a:Lcom/huawei/appmarket/cm1;
+    sget-object v2, Lcom/huawei/appmarket/fm1;->a:Lcom/huawei/appmarket/fm1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -88,7 +88,7 @@
 
     const-string v4, "GalleryDetailFragment"
 
-    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v4, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, v0, Lcom/huawei/appgallery/detail/detailservice/view/DetailCommonFragment;->z0:Lcom/huawei/appgallery/foundation/ui/framework/widget/PullUpListView;
 

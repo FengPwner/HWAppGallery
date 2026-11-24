@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/tw5;
+.field private static a:Lcom/huawei/appmarket/vw5;
 
 
 # direct methods
@@ -16,7 +16,7 @@
     return-void
 .end method
 
-.method public static declared-synchronized a(Landroid/content/Context;)Lcom/huawei/appmarket/tw5;
+.method public static declared-synchronized a(Landroid/content/Context;)Lcom/huawei/appmarket/vw5;
     .registers 4
 
     .line 1
@@ -25,7 +25,7 @@
     monitor-enter v0
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/tw5;
+    sget-object v1, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/vw5;
 
     if-nez v1, :cond_0
 
@@ -51,7 +51,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/apkmanagement/impl/provider/b;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/tw5;
+    sput-object v1, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/vw5;
 
     goto :goto_0
 
@@ -62,7 +62,7 @@
 
     :cond_0
     :goto_0
-    sget-object p0, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/tw5;
+    sget-object p0, Lcom/huawei/appgallery/apkmanagement/impl/provider/a;->a:Lcom/huawei/appmarket/vw5;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

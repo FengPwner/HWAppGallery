@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/lw4;Lcom/huawei/appmarket/p55;Ljava/io/IOException;I)V
+.method public constructor <init>(Lcom/huawei/appmarket/ow4;Lcom/huawei/appmarket/s55;Ljava/io/IOException;I)V
     .registers 5
 
     .line 1

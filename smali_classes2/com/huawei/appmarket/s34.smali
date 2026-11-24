@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/fu7;Landroid/os/Bundle;)V
+.method public abstract L()I
 .end method

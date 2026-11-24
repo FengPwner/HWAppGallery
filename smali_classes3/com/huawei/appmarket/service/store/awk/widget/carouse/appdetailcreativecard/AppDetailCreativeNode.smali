@@ -6,7 +6,7 @@
 # instance fields
 .field private p:Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeCard;
 
-.field private q:Lcom/huawei/appmarket/du4;
+.field private q:Lcom/huawei/appmarket/gu4;
 
 
 # direct methods
@@ -81,11 +81,11 @@
 
     .line 19
     .line 20
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeNode;->q:Lcom/huawei/appmarket/du4;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeNode;->q:Lcom/huawei/appmarket/gu4;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     .line 23
     .line 24
@@ -145,7 +145,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     .line 53
     .line 54
@@ -286,10 +286,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
@@ -305,13 +304,13 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/hj0;I)V
+    invoke-virtual {v0, p1, v1}, Lcom/huawei/appgallery/horizontalcard/api/card/HorizontalModuleCard;->f2(Lcom/huawei/appmarket/ij0;I)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceNodeV2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/widget/carouse/carouselsubstance/HorizontalSubstanceNodeV2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 11
     .line 12
@@ -478,14 +477,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeNode;->q:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/widget/carouse/appdetailcreativecard/AppDetailCreativeNode;->q:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

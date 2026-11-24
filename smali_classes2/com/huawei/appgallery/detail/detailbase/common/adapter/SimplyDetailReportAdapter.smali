@@ -142,7 +142,7 @@
 
     move-result-object p3
 
-    invoke-static {p3}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p3}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v0, 0x7f0a058d
 

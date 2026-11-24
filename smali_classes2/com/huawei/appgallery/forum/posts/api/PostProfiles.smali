@@ -76,10 +76,9 @@
     return-object v1
 .end method
 
-.method public final U()Ljava/lang/String;
+.method public final getUri_()Ljava/lang/String;
     .registers 2
 
-    .line 1
     iget-object v0, p0, Lcom/huawei/appgallery/forum/posts/api/PostProfiles;->uri_:Ljava/lang/String;
 
     return-object v0

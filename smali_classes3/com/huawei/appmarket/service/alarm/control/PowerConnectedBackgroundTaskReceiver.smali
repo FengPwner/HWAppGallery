@@ -86,7 +86,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/kx5;->b()I
+    invoke-static {}, Lcom/huawei/appmarket/mx5;->b()I
 
     .line 38
     .line 39
@@ -234,5 +234,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

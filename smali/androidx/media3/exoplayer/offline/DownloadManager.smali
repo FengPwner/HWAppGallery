@@ -23,7 +23,7 @@
 
 .field private final b:Landroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;
 
-.field private final c:Lcom/huawei/appmarket/qm2;
+.field private final c:Lcom/huawei/appmarket/sm2;
 
 .field private final d:Ljava/util/concurrent/CopyOnWriteArraySet;
     .annotation system Ldalvik/annotation/Signature;
@@ -57,7 +57,7 @@
     .end annotation
 .end field
 
-.field private l:Lcom/huawei/appmarket/zr6;
+.field private l:Lcom/huawei/appmarket/cs6;
 
 
 # direct methods
@@ -75,32 +75,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/w91;Landroidx/media3/datasource/cache/Cache;Landroidx/media3/datasource/a$a;Ljava/util/concurrent/Executor;)V
-    .registers 8
-
-    .line 1
-    new-instance v0, Landroidx/media3/exoplayer/offline/a;
-
-    invoke-direct {v0, p2}, Landroidx/media3/exoplayer/offline/a;-><init>(Lcom/huawei/appmarket/w91;)V
-
-    new-instance p2, Lcom/huawei/appmarket/vd1;
-
-    new-instance v1, Landroidx/media3/datasource/cache/a$c;
-
-    invoke-direct {v1}, Landroidx/media3/datasource/cache/a$c;-><init>()V
-
-    invoke-virtual {v1, p3}, Landroidx/media3/datasource/cache/a$c;->f(Landroidx/media3/datasource/cache/Cache;)V
-
-    invoke-virtual {v1, p4}, Landroidx/media3/datasource/cache/a$c;->j(Landroidx/media3/datasource/a$a;)V
-
-    invoke-direct {p2, v1, p5}, Lcom/huawei/appmarket/vd1;-><init>(Landroidx/media3/datasource/cache/a$c;Ljava/util/concurrent/Executor;)V
-
-    invoke-direct {p0, p1, v0, p2}, Landroidx/media3/exoplayer/offline/DownloadManager;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/zs8;Lcom/huawei/appmarket/ew1;)V
-
-    return-void
-.end method
-
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/zs8;Lcom/huawei/appmarket/ew1;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/ft8;Lcom/huawei/appmarket/iw1;)V
     .registers 14
 
     .line 2
@@ -132,11 +107,11 @@
 
     iput-object v1, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->d:Ljava/util/concurrent/CopyOnWriteArraySet;
 
-    new-instance v1, Lcom/huawei/appmarket/pu1;
+    new-instance v1, Lcom/huawei/appmarket/tu1;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/pu1;-><init>(Landroidx/media3/exoplayer/offline/DownloadManager;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/tu1;-><init>(Landroidx/media3/exoplayer/offline/DownloadManager;)V
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ge8;->q(Lcom/huawei/appmarket/pu1;)Landroid/os/Handler;
+    invoke-static {v1}, Lcom/huawei/appmarket/le8;->q(Lcom/huawei/appmarket/tu1;)Landroid/os/Handler;
 
     move-result-object v5
 
@@ -158,25 +133,25 @@
 
     move-object v4, p3
 
-    invoke-direct/range {v1 .. v8}, Landroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;-><init>(Landroid/os/HandlerThread;Lcom/huawei/appmarket/zs8;Lcom/huawei/appmarket/ew1;Landroid/os/Handler;IIZ)V
+    invoke-direct/range {v1 .. v8}, Landroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;-><init>(Landroid/os/HandlerThread;Lcom/huawei/appmarket/ft8;Lcom/huawei/appmarket/iw1;Landroid/os/Handler;IIZ)V
 
     iput-object v9, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->b:Landroidx/media3/exoplayer/offline/DownloadManager$InternalHandler;
 
-    new-instance p2, Lcom/huawei/appmarket/qm2;
+    new-instance p2, Lcom/huawei/appmarket/sm2;
 
-    invoke-direct {p2, p0}, Lcom/huawei/appmarket/qm2;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p0}, Lcom/huawei/appmarket/sm2;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->c:Lcom/huawei/appmarket/qm2;
+    iput-object p2, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->c:Lcom/huawei/appmarket/sm2;
 
-    new-instance p3, Lcom/huawei/appmarket/zr6;
+    new-instance p3, Lcom/huawei/appmarket/cs6;
 
     sget-object v1, Landroidx/media3/exoplayer/offline/DownloadManager;->m:Landroidx/media3/exoplayer/scheduler/Requirements;
 
-    invoke-direct {p3, p1, p2, v1}, Lcom/huawei/appmarket/zr6;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/zr6$c;Landroidx/media3/exoplayer/scheduler/Requirements;)V
+    invoke-direct {p3, p1, p2, v1}, Lcom/huawei/appmarket/cs6;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/cs6$c;Landroidx/media3/exoplayer/scheduler/Requirements;)V
 
-    iput-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/zr6;
+    iput-object p3, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/cs6;
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/zr6;->f()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/cs6;->f()I
 
     move-result p1
 
@@ -191,6 +166,31 @@
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/x91;Landroidx/media3/datasource/cache/Cache;Landroidx/media3/datasource/a$a;Ljava/util/concurrent/Executor;)V
+    .registers 8
+
+    .line 1
+    new-instance v0, Landroidx/media3/exoplayer/offline/a;
+
+    invoke-direct {v0, p2}, Landroidx/media3/exoplayer/offline/a;-><init>(Lcom/huawei/appmarket/x91;)V
+
+    new-instance p2, Lcom/huawei/appmarket/xd1;
+
+    new-instance v1, Landroidx/media3/datasource/cache/a$c;
+
+    invoke-direct {v1}, Landroidx/media3/datasource/cache/a$c;-><init>()V
+
+    invoke-virtual {v1, p3}, Landroidx/media3/datasource/cache/a$c;->f(Landroidx/media3/datasource/cache/Cache;)V
+
+    invoke-virtual {v1, p4}, Landroidx/media3/datasource/cache/a$c;->j(Landroidx/media3/datasource/a$a;)V
+
+    invoke-direct {p2, v1, p5}, Lcom/huawei/appmarket/xd1;-><init>(Landroidx/media3/datasource/cache/a$c;Ljava/util/concurrent/Executor;)V
+
+    invoke-direct {p0, p1, v0, p2}, Landroidx/media3/exoplayer/offline/DownloadManager;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/ft8;Lcom/huawei/appmarket/iw1;)V
 
     return-void
 .end method
@@ -1085,11 +1085,11 @@
     .line 702
 .end method
 
-.method public static synthetic b(Landroidx/media3/exoplayer/offline/DownloadManager;Lcom/huawei/appmarket/zr6;I)V
+.method public static synthetic b(Landroidx/media3/exoplayer/offline/DownloadManager;Lcom/huawei/appmarket/cs6;I)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/media3/exoplayer/offline/DownloadManager;->k(Lcom/huawei/appmarket/zr6;I)V
+    invoke-direct {p0, p1, p2}, Landroidx/media3/exoplayer/offline/DownloadManager;->k(Lcom/huawei/appmarket/cs6;I)V
 
     return-void
 .end method
@@ -1127,7 +1127,7 @@
     return-void
 .end method
 
-.method private k(Lcom/huawei/appmarket/zr6;I)V
+.method private k(Lcom/huawei/appmarket/cs6;I)V
     .registers 5
 
     .line 1
@@ -1601,9 +1601,9 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/zr6;
+    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/cs6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zr6;->e()Landroidx/media3/exoplayer/scheduler/Requirements;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cs6;->e()Landroidx/media3/exoplayer/scheduler/Requirements;
 
     move-result-object v0
 
@@ -1616,27 +1616,27 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/zr6;
+    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/cs6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zr6;->g()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cs6;->g()V
 
-    new-instance v0, Lcom/huawei/appmarket/zr6;
+    new-instance v0, Lcom/huawei/appmarket/cs6;
 
-    iget-object v1, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->c:Lcom/huawei/appmarket/qm2;
+    iget-object v1, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->c:Lcom/huawei/appmarket/sm2;
 
     iget-object v2, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->a:Landroid/content/Context;
 
-    invoke-direct {v0, v2, v1, p1}, Lcom/huawei/appmarket/zr6;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/zr6$c;Landroidx/media3/exoplayer/scheduler/Requirements;)V
+    invoke-direct {v0, v2, v1, p1}, Lcom/huawei/appmarket/cs6;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/cs6$c;Landroidx/media3/exoplayer/scheduler/Requirements;)V
 
-    iput-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/zr6;
+    iput-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/cs6;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/zr6;->f()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/cs6;->f()I
 
     move-result p1
 
-    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/zr6;
+    iget-object v0, p0, Landroidx/media3/exoplayer/offline/DownloadManager;->l:Lcom/huawei/appmarket/cs6;
 
-    invoke-direct {p0, v0, p1}, Landroidx/media3/exoplayer/offline/DownloadManager;->k(Lcom/huawei/appmarket/zr6;I)V
+    invoke-direct {p0, v0, p1}, Landroidx/media3/exoplayer/offline/DownloadManager;->k(Lcom/huawei/appmarket/cs6;I)V
 
     return-void
 .end method

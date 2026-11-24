@@ -105,7 +105,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vm8;->e(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/bn8;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -129,7 +129,7 @@
 
     const-string p1, "1430100401"
 
-    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {p0, p1, v0}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     return-void
 .end method
@@ -230,7 +230,7 @@
 
     move-result-object p1
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     iget-object p1, p0, Lcom/huawei/appmarket/mw0$b;->b:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
@@ -250,14 +250,14 @@
     :cond_0
     const-string p1, "Response field<privilegedRight> is Empty"
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_1
     const-string p1, "can not get response correctly"
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p2, :cond_2
 

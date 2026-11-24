@@ -1,8 +1,20 @@
-.class public interface abstract Lcom/huawei/appmarket/f85;
-.super Ljava/lang/Object;
+.class public final Lcom/huawei/appmarket/f85;
+.super Landroidx/media3/decoder/DecoderInputBuffer;
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract onMetadata(Landroidx/media3/common/Metadata;)V
+# instance fields
+.field public k:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Landroidx/media3/decoder/DecoderInputBuffer;-><init>(I)V
+
+    return-void
 .end method

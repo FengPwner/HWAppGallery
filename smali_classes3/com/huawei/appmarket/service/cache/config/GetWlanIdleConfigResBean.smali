@@ -53,12 +53,12 @@
 .field public jobbCycle_:J
 
 .field public lowMobileSpeedCN:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field public lowMobileSpeedOverSea:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -95,7 +95,7 @@
 .field public skipDexOpt_:I
 
 .field public tempPolicy:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

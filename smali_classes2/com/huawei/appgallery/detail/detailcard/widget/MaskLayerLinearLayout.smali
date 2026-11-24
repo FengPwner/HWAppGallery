@@ -18,7 +18,7 @@
 
 .field private f:Landroid/animation/ValueAnimator;
 
-.field private g:Lcom/huawei/appmarket/nk1;
+.field private g:Lcom/huawei/appmarket/qk1;
 
 
 # direct methods
@@ -132,7 +132,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/w68;->l(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/b78;->l(Landroid/content/Context;)I
 
     move-result p1
 
@@ -155,11 +155,11 @@
     return-void
 .end method
 
-.method private getItemCache()Lcom/huawei/appmarket/nk1;
+.method private getItemCache()Lcom/huawei/appmarket/qk1;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/nk1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/qk1;
 
     if-nez v0, :cond_0
 
@@ -167,14 +167,14 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/nk1;->d(Landroid/content/Context;)Lcom/huawei/appmarket/nk1;
+    invoke-static {v0}, Lcom/huawei/appmarket/qk1;->d(Landroid/content/Context;)Lcom/huawei/appmarket/qk1;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/nk1;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/qk1;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/nk1;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->g:Lcom/huawei/appmarket/qk1;
 
     return-object v0
 .end method
@@ -185,7 +185,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object v0, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 2
     .line 3
@@ -197,7 +197,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/om5;->n(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, Lcom/huawei/appmarket/ci7;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     .line 9
@@ -205,7 +205,7 @@
     move-result-object v1
 
     .line 11
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 12
     .line 13
@@ -213,7 +213,7 @@
     move-result-object v2
 
     .line 15
-    invoke-virtual {v2}, Lcom/huawei/appmarket/nk1;->j()Z
+    invoke-virtual {v2}, Lcom/huawei/appmarket/qk1;->j()Z
 
     .line 16
     .line 17
@@ -238,7 +238,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -257,7 +257,7 @@
 
     .line 36
     .line 37
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 38
     .line 39
@@ -265,7 +265,7 @@
     move-result-object p1
 
     .line 41
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nk1;->j()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qk1;->j()Z
 
     .line 42
     .line 43
@@ -287,7 +287,7 @@
     .line 51
     .line 52
     :cond_0
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 53
     .line 54
@@ -295,13 +295,13 @@
     move-result-object p1
 
     .line 56
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nk1;->E(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qk1;->E(Z)V
 
     .line 57
     .line 58
     .line 59
     :cond_1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 60
     .line 61
@@ -309,7 +309,7 @@
     move-result-object p1
 
     .line 63
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nk1;->z(Z)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/qk1;->z(Z)V
 
     .line 64
     .line 65
@@ -355,7 +355,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final d(II)V
@@ -398,7 +397,7 @@
     .line 17
     .line 18
     :cond_0
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 19
     .line 20
@@ -406,7 +405,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->o()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->o()Z
 
     .line 23
     .line 24
@@ -422,7 +421,7 @@
 
     .line 29
     .line 30
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 31
     .line 32
@@ -430,7 +429,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -439,7 +438,7 @@
 
     .line 38
     :cond_1
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 39
     .line 40
@@ -447,7 +446,7 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->n()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->n()Z
 
     .line 43
     .line 44
@@ -459,7 +458,7 @@
 
     .line 47
     .line 48
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 49
     .line 50
@@ -467,7 +466,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -540,7 +539,7 @@
 
     .line 87
     .line 88
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 89
     .line 90
@@ -548,7 +547,7 @@
     move-result-object p1
 
     .line 92
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nk1;->B()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qk1;->B()V
 
     .line 93
     .line 94
@@ -588,7 +587,7 @@
 
     .line 108
     .line 109
-    sget-object v1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object v1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 110
     .line 111
@@ -609,7 +608,7 @@
     .line 117
     .line 118
     :goto_1
-    invoke-virtual {v1, v2, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -669,7 +668,7 @@
     move-result p2
 
     .line 145
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 146
     .line 147
@@ -677,7 +676,7 @@
     move-result-object v0
 
     .line 149
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nk1;->r()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qk1;->r()Z
 
     .line 150
     .line 151
@@ -705,7 +704,7 @@
     move-result v0
 
     .line 162
-    sget-object v1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object v1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     .line 163
     .line 164
@@ -764,7 +763,7 @@
     .line 193
     .line 194
     .line 195
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 196
     .line 197
@@ -772,7 +771,7 @@
     move-result-object p1
 
     .line 199
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nk1;->j()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qk1;->j()Z
 
     .line 200
     .line 201
@@ -793,12 +792,12 @@
     move-result-object p1
 
     .line 210
-    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 211
     .line 212
     .line 213
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     .line 214
     .line 215
@@ -806,7 +805,7 @@
     move-result-object p1
 
     .line 217
-    invoke-virtual {p1}, Lcom/huawei/appmarket/nk1;->j()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/qk1;->j()Z
 
     .line 218
     .line 219
@@ -1184,13 +1183,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public final e(Landroid/view/animation/PathInterpolator;)V
@@ -1212,13 +1204,13 @@
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
 
     :cond_0
-    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/nk1;
+    invoke-direct {p0}, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->getItemCache()Lcom/huawei/appmarket/qk1;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nk1;->y(Z)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/qk1;->y(Z)V
 
     const/4 v0, 0x2
 
@@ -1252,9 +1244,9 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailcard/widget/MaskLayerLinearLayout;->f:Landroid/animation/ValueAnimator;
 
-    new-instance v1, Lcom/huawei/appmarket/rm;
+    new-instance v1, Lcom/huawei/appmarket/qm;
 
-    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/rm;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v0}, Lcom/huawei/appmarket/qm;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -1270,13 +1262,13 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    sget-object p1, Lcom/huawei/appmarket/oj1;->a:Lcom/huawei/appmarket/oj1;
+    sget-object p1, Lcom/huawei/appmarket/rj1;->a:Lcom/huawei/appmarket/rj1;
 
     const-string v0, "MaskLayerLinearLayout"
 
     const-string v1, "installDelay: hint fade-out started, 150ms"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1328,7 +1320,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, p1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v3, p1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p1
 

@@ -26,20 +26,6 @@
 
 
 # instance fields
-.field private G1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
-
-.field private H1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
-
-.field private I1:I
-
-.field private J1:I
-
-.field private K1:I
-
-.field private L1:I
-
-.field private M1:I
-
 .field private N1:I
 
 .field private O1:I
@@ -54,13 +40,27 @@
 
 .field T1:Z
 
-.field private U1:Lcom/huawei/appmarket/j38;
+.field private U1:Lcom/huawei/appmarket/p38;
 
 .field private V1:Lcom/huawei/appmarket/ya;
 
 .field private W1:Z
 
 .field private X1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardBean;
+
+.field private n1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
+
+.field private o1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
+
+.field private s1:I
+
+.field private t1:I
+
+.field private v1:I
+
+.field private x1:I
+
+.field private y1:I
 
 
 # direct methods
@@ -150,7 +150,7 @@
 
     move-result v0
 
-    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->M1:I
+    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->y1:I
 
     const v0, 0x7f07007c
 
@@ -166,7 +166,7 @@
 
     move-result v0
 
-    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->J1:I
+    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->t1:I
 
     const v0, 0x7f07007b
 
@@ -174,7 +174,7 @@
 
     move-result p3
 
-    iput p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->K1:I
+    iput p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->v1:I
 
     iget v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->N1:I
 
@@ -182,7 +182,7 @@
 
     add-int/2addr v0, p3
 
-    iget p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->J1:I
+    iget p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->t1:I
 
     mul-int/lit8 p3, p3, 0x3
 
@@ -194,11 +194,11 @@
 
     invoke-direct {p3, p1}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;-><init>(Landroid/content/Context;)V
 
-    iput-object p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->G1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
+    iput-object p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->n1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
 
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;->setInitialPrefetchItemCount(I)V
 
-    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->G1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
+    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->n1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$SmoothScrollLayoutManager;
 
     invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$p;)V
 
@@ -215,7 +215,7 @@
 
     move-result-object p1
 
-    instance-of p2, p1, Lcom/huawei/appmarket/si8;
+    instance-of p2, p1, Lcom/huawei/appmarket/yi8;
 
     if-eqz p2, :cond_0
 
@@ -223,19 +223,19 @@
 
     move-object p3, p1
 
-    check-cast p3, Lcom/huawei/appmarket/si8;
+    check-cast p3, Lcom/huawei/appmarket/yi8;
 
-    invoke-direct {p2, p3}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/si8;)V
+    invoke-direct {p2, p3}, Landroidx/lifecycle/y;-><init>(Lcom/huawei/appmarket/yi8;)V
 
-    const-class p3, Lcom/huawei/appmarket/j38;
+    const-class p3, Lcom/huawei/appmarket/p38;
 
-    invoke-virtual {p2, p3}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p2, p3}, Landroidx/lifecycle/y;->a(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/j38;
+    check-cast p2, Lcom/huawei/appmarket/p38;
 
-    iput-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/j38;
+    iput-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/p38;
 
     new-instance p3, Lcom/huawei/appmarket/ya;
 
@@ -245,23 +245,23 @@
 
     iput-object p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->V1:Lcom/huawei/appmarket/ya;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/j38;->n()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/p38;->n()Lcom/huawei/appmarket/ce5;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/j38;
+    iget-object p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/p38;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/j38;->n()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/p38;->n()Lcom/huawei/appmarket/ce5;
 
     move-result-object p2
 
-    check-cast p1, Lcom/huawei/appmarket/du4;
+    check-cast p1, Lcom/huawei/appmarket/gu4;
 
     iget-object p3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->V1:Lcom/huawei/appmarket/ya;
 
-    invoke-virtual {p2, p1, p3}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/du4;Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {p2, p1, p3}, Landroidx/lifecycle/m;->observe(Lcom/huawei/appmarket/gu4;Lcom/huawei/appmarket/zm5;)V
 
     :cond_0
     return-void
@@ -289,7 +289,7 @@
     .registers 1
 
     .line 1
-    iget p0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->M1:I
+    iget p0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->y1:I
 
     return p0
 .end method
@@ -309,7 +309,7 @@
     .line 1
     iget v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->N1:I
 
-    iget v1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->M1:I
+    iget v1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->y1:I
 
     sub-int v1, v0, v1
 
@@ -323,13 +323,13 @@
 
     mul-int/lit8 v2, v2, 0x4
 
-    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->K1:I
+    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->v1:I
 
     add-int v3, p1, v0
 
     if-lt v1, v3, :cond_0
 
-    iget v3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->J1:I
+    iget v3, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->t1:I
 
     add-int v4, v3, v0
 
@@ -412,7 +412,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->E(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->u(Ljava/lang/StringBuilder;ZLjava/lang/String;)V
 
     .line 33
     .line 34
@@ -566,13 +566,14 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private setIsOpenTransition(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/bean/BaseCardBean;)V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/kh6;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/mh6;->c()I
 
     .line 2
     .line 3
@@ -755,7 +756,7 @@
 
     const-string v1, "onTouch"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -778,7 +779,7 @@
 
     const-string v1, "onTouchOff"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->L()V
 
@@ -793,7 +794,7 @@
 
     const-string v1, "onChange"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->Q1:Z
 
@@ -811,7 +812,7 @@
 
     const-string v1, "onViewAttachedToWindow"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -839,7 +840,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -856,7 +857,7 @@
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/j38;
+    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/p38;
 
     .line 18
     .line 19
@@ -872,7 +873,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0}, Lcom/huawei/appmarket/j38;->n()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/p38;->n()Lcom/huawei/appmarket/ce5;
 
     .line 26
     .line 27
@@ -884,11 +885,11 @@
 
     .line 30
     .line 31
-    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/j38;
+    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->U1:Lcom/huawei/appmarket/p38;
 
     .line 32
     .line 33
-    invoke-virtual {v0}, Lcom/huawei/appmarket/j38;->n()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/p38;->n()Lcom/huawei/appmarket/ce5;
 
     .line 34
     .line 35
@@ -900,7 +901,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/ym5;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/m;->removeObserver(Lcom/huawei/appmarket/zm5;)V
 
     .line 40
     .line 41
@@ -1000,6 +1001,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final onRtlPropertiesChanged(I)V
@@ -1011,7 +1013,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -1029,14 +1031,14 @@
     .line 2
     .line 3
     .line 4
-    iget p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->I1:I
+    iget p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->s1:I
 
     .line 5
     .line 6
     add-int/2addr p2, p1
 
     .line 7
-    iput p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->I1:I
+    iput p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->s1:I
 
     .line 8
     .line 9
@@ -1062,7 +1064,7 @@
 
     .line 19
     .line 20
-    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->I1:I
+    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->s1:I
 
     .line 21
     .line 22
@@ -1073,12 +1075,12 @@
 
     .line 24
     :cond_1
-    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->I1:I
+    iget p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->s1:I
 
     .line 25
     .line 26
     :goto_0
-    iget p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->L1:I
+    iget p2, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->x1:I
 
     .line 27
     .line 28
@@ -1109,7 +1111,7 @@
 
     .line 40
     .line 41
-    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->H1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
+    iget-object v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->o1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
 
     .line 42
     .line 43
@@ -1254,7 +1256,7 @@
 
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView;->onSizeChanged(IIII)V
 
-    iput p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->L1:I
+    iput p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->x1:I
 
     return-void
 .end method
@@ -1278,7 +1280,7 @@
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->I1:I
+    iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->s1:I
 
     iput v0, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->P1:I
 
@@ -1304,7 +1306,7 @@
 .method public setOnItemScrollListener(Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;)V
     .registers 2
 
-    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->H1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
+    iput-object p1, p0, Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView;->o1:Lcom/huawei/appgallery/agoverseascard/agoverseascard/card/approllcard/AppRollCardRecycleView$b;
 
     return-void
 .end method

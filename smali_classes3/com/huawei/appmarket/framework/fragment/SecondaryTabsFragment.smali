@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/cd5;
+.implements Lcom/huawei/appmarket/fd5;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol<",
         "Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;",
         ">;>;",
-        "Lcom/huawei/appmarket/cd5;"
+        "Lcom/huawei/appmarket/fd5;"
     }
 .end annotation
 
@@ -30,11 +30,11 @@
 # instance fields
 .field private t3:Landroidx/viewpager2/widget/ViewPager2;
 
-.field private u3:Lcom/huawei/appmarket/ad5;
+.field private u3:Lcom/huawei/appmarket/dd5;
 
 .field private v3:Z
 
-.field private w3:Lcom/huawei/appmarket/bd5;
+.field private w3:Lcom/huawei/appmarket/ed5;
 
 .field private x3:I
 
@@ -49,7 +49,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 
     if-eqz v0, :cond_4
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
@@ -98,7 +98,7 @@
     move-object v2, v1
 
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -108,18 +108,18 @@
     move-object v0, v1
 
     :goto_1
-    instance-of v2, v0, Lcom/huawei/appmarket/bu3;
+    instance-of v2, v0, Lcom/huawei/appmarket/du3;
 
     if-eqz v2, :cond_2
 
     move-object v1, v0
 
-    check-cast v1, Lcom/huawei/appmarket/bu3;
+    check-cast v1, Lcom/huawei/appmarket/du3;
 
     :cond_2
     if-eqz v1, :cond_3
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/bu3;->getVisibility()I
+    invoke-interface {v1}, Lcom/huawei/appmarket/du3;->getVisibility()I
 
     move-result v0
 
@@ -130,7 +130,7 @@
     :cond_3
     if-eqz v1, :cond_5
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/bu3;->setVisibility(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/du3;->setVisibility(I)V
 
     goto :goto_2
 
@@ -145,7 +145,7 @@
 .method public abstract E7(Landroid/widget/FrameLayout;)V
 .end method
 
-.method public abstract F7()Lcom/huawei/appmarket/bd5;
+.method public abstract F7()Lcom/huawei/appmarket/ed5;
 .end method
 
 .method protected final G7()I
@@ -169,13 +169,13 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/bd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/ed5;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/huawei/appmarket/bd5;->c:Z
+    iput-boolean v1, v0, Lcom/huawei/appmarket/ed5;->c:Z
 
     :cond_0
     return-void
@@ -209,11 +209,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/kt0;->j(ILjava/util/List;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/lt0;->j(ILjava/util/List;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/fu7;
+    check-cast p1, Lcom/huawei/appmarket/lu7;
 
     goto :goto_0
 
@@ -225,7 +225,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
     move-result-object v2
 
@@ -237,7 +237,7 @@
 
     if-lez v2, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
     move-result-object v1
 
@@ -247,13 +247,13 @@
 
     invoke-direct {v1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o$b;-><init>()V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o$b;->k(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->y()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->y()Ljava/lang/String;
 
     move-result-object v2
 
@@ -263,7 +263,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v2
 
@@ -277,7 +277,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/qt7;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/wt7;->a(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/o;)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -285,7 +285,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
     move-result-object p1
 
@@ -295,7 +295,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -308,7 +308,7 @@
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/fu7;->w()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/lu7;->w()Ljava/lang/String;
 
     move-result-object v1
 
@@ -319,7 +319,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void
@@ -329,7 +329,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     if-eqz v0, :cond_0
 
@@ -352,7 +352,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
@@ -362,7 +362,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 
@@ -372,29 +372,29 @@
     move-object p1, v1
 
     :goto_0
-    instance-of v0, p1, Lcom/huawei/appmarket/do5;
+    instance-of v0, p1, Lcom/huawei/appmarket/eo5;
 
     if-eqz v0, :cond_1
 
     move-object v1, p1
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
     :cond_1
     if-eqz v1, :cond_2
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/do5;->g0()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/eo5;->g0()V
 
     :cond_2
     return-void
 .end method
 
-.method protected V6(Lcom/huawei/appmarket/v34;)V
+.method protected V6(Lcom/huawei/appmarket/x34;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/v34<",
+            "Lcom/huawei/appmarket/x34<",
             "*>;)V"
         }
     .end annotation
@@ -412,7 +412,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Lcom/huawei/appmarket/v34;->getTabInfo()Ljava/util/ArrayList;
+    invoke-interface {p1}, Lcom/huawei/appmarket/x34;->getTabInfo()Ljava/util/ArrayList;
 
     .line 8
     .line 9
@@ -501,7 +501,7 @@
 
     .line 49
     :cond_3
-    sget-object v1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 50
     .line 51
@@ -511,7 +511,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-interface {p1}, Lcom/huawei/appmarket/v34;->getReturnTabId()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/huawei/appmarket/x34;->getReturnTabId()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -531,7 +531,7 @@
 
     .line 63
     .line 64
-    sget-object p1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object p1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 65
     .line 66
@@ -541,7 +541,7 @@
     .line 67
     .line 68
     .line 69
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     .line 70
     .line 71
@@ -549,13 +549,13 @@
 
     .line 72
     .line 73
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ad5;->B(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dd5;->B(Ljava/util/List;)V
 
     .line 74
     .line 75
     .line 76
     :cond_5
-    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     .line 77
     .line 78
@@ -590,7 +590,7 @@
     .line 92
     .line 93
     :cond_7
-    iget-boolean p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J1:Z
+    iget-boolean p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->t1:Z
 
     .line 94
     .line 95
@@ -622,7 +622,7 @@
 
     .line 107
     :cond_9
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->V6(Lcom/huawei/appmarket/v34;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->V6(Lcom/huawei/appmarket/x34;)V
 
     .line 108
     .line 109
@@ -633,7 +633,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final Z0(I)V
@@ -648,24 +647,24 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/bd5;
+    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/ed5;
 
     if-eqz p1, :cond_0
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p1, Lcom/huawei/appmarket/bd5;->c:Z
+    iput-boolean v0, p1, Lcom/huawei/appmarket/ed5;->c:Z
 
     :cond_0
     iget-boolean p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->v3:Z
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ad5;->getItemCount()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/dd5;->getItemCount()I
 
     move-result p1
 
@@ -709,11 +708,11 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 
-    iget-object v1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ad5;->u(Landroid/os/Bundle;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/dd5;->u(Landroid/os/Bundle;)V
 
     goto :goto_0
 
@@ -744,7 +743,7 @@
 
     if-eqz p1, :cond_3
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
@@ -766,7 +765,7 @@
     move-object p1, v1
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object p1
 
@@ -776,26 +775,26 @@
     move-object p1, v1
 
     :goto_1
-    instance-of v0, p1, Lcom/huawei/appmarket/do5;
+    instance-of v0, p1, Lcom/huawei/appmarket/eo5;
 
     if-eqz v0, :cond_2
 
     move-object v1, p1
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
     :cond_2
     if-eqz v1, :cond_3
 
     iget-object p1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->t3:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;->getCurrentItem()I
 
     move-result p1
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/do5;->Z0(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/eo5;->Z0(I)V
 
     :cond_3
     return-void
@@ -805,7 +804,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
@@ -829,7 +828,7 @@
     move-object v2, v1
 
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -839,18 +838,18 @@
     move-object v0, v1
 
     :goto_1
-    instance-of v2, v0, Lcom/huawei/appmarket/do5;
+    instance-of v2, v0, Lcom/huawei/appmarket/eo5;
 
     if-eqz v2, :cond_2
 
     move-object v1, v0
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
     :cond_2
     if-eqz v1, :cond_3
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/do5;->H0()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/eo5;->H0()V
 
     :cond_3
     return-void
@@ -860,7 +859,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     if-eqz v0, :cond_5
 
@@ -886,7 +885,7 @@
     move-result-object v2
 
     :cond_1
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object v2
 
@@ -898,13 +897,13 @@
     goto :goto_0
 
     :cond_3
-    instance-of v1, v2, Lcom/huawei/appmarket/h37;
+    instance-of v1, v2, Lcom/huawei/appmarket/m37;
 
     if-eqz v1, :cond_4
 
-    check-cast v2, Lcom/huawei/appmarket/h37;
+    check-cast v2, Lcom/huawei/appmarket/m37;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/h37;->c0()Z
+    invoke-interface {v2}, Lcom/huawei/appmarket/m37;->c0()Z
 
     move-result v0
 
@@ -933,7 +932,7 @@
 
     const-string v2, "SecondaryTabsFragment"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return v0
@@ -951,7 +950,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
@@ -975,7 +974,7 @@
     move-object v2, v1
 
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/ad5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/dd5;->r(Ljava/lang/Integer;)Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 
@@ -985,18 +984,18 @@
     move-object v0, v1
 
     :goto_1
-    instance-of v2, v0, Lcom/huawei/appmarket/do5;
+    instance-of v2, v0, Lcom/huawei/appmarket/eo5;
 
     if-eqz v2, :cond_2
 
     move-object v1, v0
 
-    check-cast v1, Lcom/huawei/appmarket/do5;
+    check-cast v1, Lcom/huawei/appmarket/eo5;
 
     :cond_2
     if-eqz v1, :cond_3
 
-    invoke-interface {v1}, Lcom/huawei/appmarket/do5;->g0()V
+    invoke-interface {v1}, Lcom/huawei/appmarket/eo5;->g0()V
 
     :cond_3
     return-void
@@ -1014,16 +1013,16 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ad5;->v(Lcom/huawei/appmarket/s34;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dd5;->v(Lcom/huawei/appmarket/u34;)V
 
     :cond_0
-    iput-object v1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iput-object v1, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->t3:Landroidx/viewpager2/widget/ViewPager2;
 
@@ -1038,13 +1037,13 @@
     return-void
 .end method
 
-.method public final j1(Lcom/huawei/appmarket/f14;)V
+.method public final j1(Lcom/huawei/appmarket/h14;)V
     .registers 3
 
     .line 1
     const-string v0, "searchBarAnimationListener"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->m4()Z
 
@@ -1058,16 +1057,16 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->N1:Ljava/lang/ref/WeakReference;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ad5;->A(Lcom/huawei/appmarket/f14;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/dd5;->A(Lcom/huawei/appmarket/h14;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->j1(Lcom/huawei/appmarket/f14;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->j1(Lcom/huawei/appmarket/h14;)V
 
     :cond_1
     :goto_0
@@ -1149,7 +1148,7 @@
     return-void
 .end method
 
-.method protected final r7(Lcom/huawei/appmarket/u34;)V
+.method protected final r7(Lcom/huawei/appmarket/w34;)V
     .registers 3
 
     .line 1
@@ -1159,7 +1158,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->r7(Lcom/huawei/appmarket/u34;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->r7(Lcom/huawei/appmarket/w34;)V
 
     :cond_0
     return-void
@@ -1199,9 +1198,9 @@
 
     if-eqz v0, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/wz6;
+    new-instance v1, Lcom/huawei/appmarket/a07;
 
-    invoke-direct {v1, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     const-string p1, "SelectedTabPositionKey"
 
@@ -1209,7 +1208,7 @@
 
     move-result v0
 
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/wz6;->m(ILjava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/a07;->m(ILjava/lang/String;)V
 
     :cond_0
     return-void
@@ -1260,7 +1259,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -1274,7 +1273,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -1313,7 +1312,7 @@
     .line 49
     .line 50
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->F7()Lcom/huawei/appmarket/bd5;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->F7()Lcom/huawei/appmarket/ed5;
 
     .line 51
     .line 52
@@ -1325,7 +1324,7 @@
 
     .line 55
     .line 56
-    new-instance v0, Lcom/huawei/appmarket/bd5;
+    new-instance v0, Lcom/huawei/appmarket/ed5;
 
     .line 57
     .line 58
@@ -1337,13 +1336,13 @@
     move-result-object v1
 
     .line 62
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/bd5;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ed5;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 63
     .line 64
     .line 65
     :cond_1
-    iput-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/bd5;
+    iput-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/ed5;
 
     .line 66
     .line 67
@@ -1361,7 +1360,7 @@
     .line 73
     .line 74
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/bd5;
+    iget-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->w3:Lcom/huawei/appmarket/ed5;
 
     .line 75
     .line 76
@@ -1369,11 +1368,11 @@
 
     .line 77
     .line 78
-    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->J1:Z
+    iget-boolean v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->t1:Z
 
     .line 79
     .line 80
-    iput-boolean v1, v0, Lcom/huawei/appmarket/bd5;->c:Z
+    iput-boolean v1, v0, Lcom/huawei/appmarket/ed5;->c:Z
 
     .line 81
     .line 82
@@ -1440,12 +1439,12 @@
 
     .line 111
     .line 112
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     .line 114
     .line 115
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 116
     .line 117
@@ -1484,7 +1483,7 @@
     move-result-object v5
 
     .line 133
-    check-cast v5, Lcom/huawei/appmarket/fu7;
+    check-cast v5, Lcom/huawei/appmarket/lu7;
 
     .line 134
     .line 135
@@ -1496,7 +1495,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {v5}, Lcom/huawei/appmarket/fu7;->a()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/huawei/appmarket/lu7;->a()Ljava/lang/String;
 
     .line 140
     .line 141
@@ -1504,7 +1503,7 @@
     move-result-object v5
 
     .line 143
-    invoke-static {v6, v5}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v5}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 144
     .line 145
@@ -1524,7 +1523,7 @@
 
     .line 152
     .line 153
-    invoke-static {v0, v4, v2}, Lcom/huawei/appmarket/ej2;->A(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v4, v2}, Lcom/huawei/appmarket/tr2;->v(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 154
     .line 155
@@ -1542,7 +1541,7 @@
     .line 160
     :cond_6
     :goto_2
-    new-instance v0, Lcom/huawei/appmarket/ad5;
+    new-instance v0, Lcom/huawei/appmarket/dd5;
 
     .line 161
     .line 162
@@ -1550,7 +1549,7 @@
 
     .line 163
     .line 164
-    sget-object v1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 165
     .line 166
@@ -1567,7 +1566,7 @@
 
     .line 171
     .line 172
-    invoke-static {v2, v4}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 173
     .line 174
@@ -1584,17 +1583,17 @@
 
     .line 180
     .line 181
-    invoke-static {v4, v5}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 182
     .line 183
     .line 184
-    invoke-direct {v0, v1, v2, v4}, Lcom/huawei/appmarket/ad5;-><init>(Ljava/util/List;Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/h;)V
+    invoke-direct {v0, v1, v2, v4}, Lcom/huawei/appmarket/dd5;-><init>(Ljava/util/List;Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/h;)V
 
     .line 185
     .line 186
     .line 187
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ad5;->w()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dd5;->w()V
 
     .line 188
     .line 189
@@ -1608,7 +1607,7 @@
     .line 193
     .line 194
     .line 195
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ad5;->v(Lcom/huawei/appmarket/s34;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dd5;->v(Lcom/huawei/appmarket/u34;)V
 
     .line 196
     .line 197
@@ -1650,16 +1649,16 @@
     move-result-object v1
 
     .line 217
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     .line 218
     .line 219
     .line 220
-    check-cast v1, Lcom/huawei/appmarket/f14;
+    check-cast v1, Lcom/huawei/appmarket/h14;
 
     .line 221
     .line 222
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ad5;->A(Lcom/huawei/appmarket/f14;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dd5;->A(Lcom/huawei/appmarket/h14;)V
 
     .line 223
     .line 224
@@ -1701,7 +1700,7 @@
     .line 242
     .line 243
     :cond_a
-    iput-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/ad5;
+    iput-object v0, p0, Lcom/huawei/appmarket/framework/fragment/SecondaryTabsFragment;->u3:Lcom/huawei/appmarket/dd5;
 
     .line 244
     .line 245
@@ -2473,11 +2472,11 @@
 
     .line 13
     :cond_0
-    new-instance v0, Lcom/huawei/appmarket/wz6;
+    new-instance v0, Lcom/huawei/appmarket/a07;
 
     .line 14
     .line 15
-    invoke-direct {v0, p1}, Lcom/huawei/appmarket/wz6;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Lcom/huawei/appmarket/a07;-><init>(Landroid/os/Bundle;)V
 
     .line 16
     .line 17
@@ -2489,7 +2488,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/wz6;->e(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/a07;->e(Ljava/lang/String;I)I
 
     .line 22
     .line 23
@@ -2592,5 +2591,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

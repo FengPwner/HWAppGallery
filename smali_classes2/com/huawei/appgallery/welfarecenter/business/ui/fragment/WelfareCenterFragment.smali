@@ -8,7 +8,7 @@
 
 .field private u3:Z
 
-.field private v3:Lcom/huawei/appmarket/gg5;
+.field private v3:Lcom/huawei/appmarket/jg5;
 
 .field private w3:Landroid/os/Handler;
 
@@ -183,7 +183,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -192,7 +191,7 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 2
     .line 3
@@ -204,12 +203,12 @@
 
     .line 6
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gg5;->e()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jg5;->e()V
 
     .line 7
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 10
     .line 11
@@ -217,7 +216,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gg5;->f(Landroid/os/Handler;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jg5;->f(Landroid/os/Handler;)V
 
     .line 14
     .line 15
@@ -424,7 +423,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 2
     .line 3
@@ -432,21 +431,21 @@
 
     .line 4
     .line 5
-    new-instance v0, Lcom/huawei/appmarket/gg5;
+    new-instance v0, Lcom/huawei/appmarket/jg5;
 
     .line 6
     .line 7
-    invoke-direct {v0}, Lcom/huawei/appmarket/gg5;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/jg5;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iput-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 13
     .line 14
@@ -457,12 +456,12 @@
     const/4 v2, 0x0
 
     .line 17
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gg5;->c(Landroid/os/Handler;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jg5;->c(Landroid/os/Handler;I)V
 
     .line 18
     .line 19
     .line 20
-    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/gg5;
+    iget-object v0, p0, Lcom/huawei/appgallery/welfarecenter/business/ui/fragment/WelfareCenterFragment;->v3:Lcom/huawei/appmarket/jg5;
 
     .line 21
     .line 22
@@ -482,7 +481,7 @@
     move-result-object v1
 
     .line 30
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gg5;->d(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/jg5;->d(Landroid/content/Context;)V
 
     .line 31
     .line 32

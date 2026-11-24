@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fi3;
+.implements Lcom/huawei/appmarket/hi3;
 
 
 # annotations
@@ -46,11 +46,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/gz;)V
+.method public final a(Lcom/huawei/appmarket/hz;)V
     .registers 7
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 2
     .line 3
@@ -62,7 +62,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -112,11 +112,11 @@
 
     .line 31
     .line 32
-    const-class v3, Lcom/huawei/appmarket/kx3;
+    const-class v3, Lcom/huawei/appmarket/mx3;
 
     .line 33
     .line 34
-    invoke-static {v3, v2}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -124,7 +124,7 @@
     move-result-object v2
 
     .line 38
-    check-cast v2, Lcom/huawei/appmarket/kx3;
+    check-cast v2, Lcom/huawei/appmarket/mx3;
 
     .line 39
     .line 40
@@ -148,7 +148,7 @@
 
     .line 49
     .line 50
-    invoke-interface {v2, v3, v4}, Lcom/huawei/appmarket/kx3;->e(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v2, v3, v4}, Lcom/huawei/appmarket/mx3;->e(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -161,7 +161,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -208,11 +208,11 @@
     move-result-object v1
 
     .line 81
-    check-cast v1, Lcom/huawei/appmarket/fi3;
+    check-cast v1, Lcom/huawei/appmarket/hi3;
 
     .line 82
     .line 83
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/fi3;->a(Lcom/huawei/appmarket/gz;)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/hi3;->a(Lcom/huawei/appmarket/hz;)V
 
     .line 84
     .line 85
@@ -242,20 +242,19 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final b(ILjava/lang/String;)V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPlayerManager"
 
     const-string v2, "onError"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/a$a;->a:Ljava/lang/ref/WeakReference;
 
@@ -289,9 +288,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/fi3;
+    check-cast v2, Lcom/huawei/appmarket/hi3;
 
-    invoke-interface {v2, p1, p2}, Lcom/huawei/appmarket/fi3;->b(ILjava/lang/String;)V
+    invoke-interface {v2, p1, p2}, Lcom/huawei/appmarket/hi3;->b(ILjava/lang/String;)V
 
     goto :goto_0
 
@@ -316,13 +315,13 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPlayerManager"
 
     const-string v2, "onPrepared"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/a$a;->a:Ljava/lang/ref/WeakReference;
 
@@ -356,9 +355,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fi3;
+    check-cast v1, Lcom/huawei/appmarket/hi3;
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/fi3;->c(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/hi3;->c(I)V
 
     goto :goto_0
 
@@ -402,9 +401,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fi3;
+    check-cast v1, Lcom/huawei/appmarket/hi3;
 
-    invoke-interface {v1, p1}, Lcom/huawei/appmarket/fi3;->d(I)V
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/hi3;->d(I)V
 
     goto :goto_0
 
@@ -448,9 +447,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/fi3;
+    check-cast v1, Lcom/huawei/appmarket/hi3;
 
-    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/fi3;->e(II)V
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/hi3;->e(II)V
 
     goto :goto_0
 
@@ -461,13 +460,13 @@
 .method public final onComplete()V
     .registers 4
 
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     const-string v1, "AudioPlayerManager"
 
     const-string v2, "onComplete"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/audiokit/impl/a$a;->a:Ljava/lang/ref/WeakReference;
 
@@ -501,9 +500,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/fi3;
+    check-cast v2, Lcom/huawei/appmarket/hi3;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/fi3;->onComplete()V
+    invoke-interface {v2}, Lcom/huawei/appmarket/hi3;->onComplete()V
 
     goto :goto_0
 
@@ -519,7 +518,7 @@
     .registers 4
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v0, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 2
     .line 3
@@ -531,7 +530,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -597,11 +596,11 @@
     move-result-object v2
 
     .line 39
-    check-cast v2, Lcom/huawei/appmarket/fi3;
+    check-cast v2, Lcom/huawei/appmarket/hi3;
 
     .line 40
     .line 41
-    invoke-interface {v2}, Lcom/huawei/appmarket/fi3;->onPause()V
+    invoke-interface {v2}, Lcom/huawei/appmarket/hi3;->onPause()V
 
     .line 42
     .line 43

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/z86;
+.implements Lcom/huawei/appmarket/b96;
 
 
 # annotations
@@ -47,7 +47,7 @@
     return-object v0
 .end method
 
-.method public final getRequest()Lcom/huawei/appmarket/z86$a;
+.method public final getRequest()Lcom/huawei/appmarket/b96$a;
     .registers 2
 
     .line 1

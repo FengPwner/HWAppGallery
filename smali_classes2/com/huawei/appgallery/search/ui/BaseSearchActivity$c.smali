@@ -38,10 +38,10 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/huawei/appmarket/zd5;
+.field private final c:Lcom/huawei/appmarket/ce5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -52,14 +52,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;Landroid/view/View;Lcom/huawei/appmarket/zd5;)V
+.method public constructor <init>(Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;Landroid/view/View;Lcom/huawei/appmarket/ce5;)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/appgallery/search/ui/widget/NormalSearchView;",
             "Landroid/view/View;",
-            "Lcom/huawei/appmarket/zd5<",
+            "Lcom/huawei/appmarket/ce5<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
@@ -80,7 +80,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->b:Ljava/lang/ref/WeakReference;
 
-    iput-object p3, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->c:Lcom/huawei/appmarket/zd5;
+    iput-object p3, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->c:Lcom/huawei/appmarket/ce5;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -261,7 +261,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private b(I)V
@@ -315,13 +314,13 @@
 .method public final onTransitionCancel(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle EnterTransitionListener, onTransitionCancel"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -329,19 +328,19 @@
 .method public final onTransitionEnd(Landroid/transition/Transition;)V
     .registers 5
 
-    sget-object v0, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object v0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v1, "BaseSearchActivity"
 
     const-string v2, "SubTitle EnterTransitionListener, onTransitionEnd"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->c:Lcom/huawei/appmarket/zd5;
+    iget-object v0, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->c:Lcom/huawei/appmarket/ce5;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/BaseSearchActivity$c;->b:Ljava/lang/ref/WeakReference;
 
@@ -388,13 +387,13 @@
 .method public final onTransitionPause(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle EnterTransitionListener, onTransitionPause"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -402,13 +401,13 @@
 .method public final onTransitionResume(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle EnterTransitionListener, onTransitionResume"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -416,13 +415,13 @@
 .method public final onTransitionStart(Landroid/transition/Transition;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/appmarket/g47;->a:Lcom/huawei/appmarket/g47;
+    sget-object p1, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     const-string v0, "BaseSearchActivity"
 
     const-string v1, "SubTitle EnterTransitionListener, onTransitionStart"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Landroid/os/Handler;
 

@@ -38,7 +38,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ei8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ki8;->l0(Landroid/view/View;Landroid/graphics/Rect;)V
 
     return-void
 .end method

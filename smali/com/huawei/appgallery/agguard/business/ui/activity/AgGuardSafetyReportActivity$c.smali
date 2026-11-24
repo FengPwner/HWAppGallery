@@ -50,7 +50,7 @@
 
     .line 6
     .line 7
-    invoke-static {v1, p1, v0, v2}, Lcom/huawei/appmarket/bq6;->C(Ljava/lang/String;ILcom/huawei/appmarket/vc;Ljava/lang/String;)V
+    invoke-static {v1, p1, v0, v2}, Lcom/huawei/appmarket/eq6;->B(Ljava/lang/String;ILcom/huawei/appmarket/vc;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -140,7 +140,7 @@
 
     .line 52
     :cond_0
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -153,7 +153,7 @@
 
     .line 57
     .line 58
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -162,7 +162,7 @@
 
     .line 62
     :cond_2
-    invoke-static {v3}, Lcom/huawei/appmarket/ek4;->i(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/gk4;->i(Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -175,7 +175,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     .line 70

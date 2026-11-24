@@ -1,0 +1,41 @@
+.class public final Lcom/huawei/appmarket/q08;
+.super Lcom/huawei/appmarket/x4;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/x4;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Landroid/view/View;Lcom/huawei/appmarket/f5;)V
+    .registers 3
+
+    .line 1
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/x4;->e(Landroid/view/View;Lcom/huawei/appmarket/f5;)V
+
+    const-class p1, Landroid/widget/Button;
+
+    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/f5;->L(Ljava/lang/CharSequence;)V
+
+    const/4 p1, 0x0
+
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/f5;->J(Z)V
+
+    const/4 p1, 0x1
+
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/f5;->M(Z)V
+
+    return-void
+.end method

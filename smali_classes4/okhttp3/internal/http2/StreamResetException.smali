@@ -4,17 +4,17 @@
 
 
 # instance fields
-.field public final b:Lcom/huawei/appmarket/c22;
+.field public final b:Lcom/huawei/appmarket/g22;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c22;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g22;)V
     .registers 4
 
     .line 1
     const-string v0, "errorCode"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -30,7 +30,7 @@
 
     invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
-    iput-object p1, p0, Lokhttp3/internal/http2/StreamResetException;->b:Lcom/huawei/appmarket/c22;
+    iput-object p1, p0, Lokhttp3/internal/http2/StreamResetException;->b:Lcom/huawei/appmarket/g22;
 
     return-void
 .end method

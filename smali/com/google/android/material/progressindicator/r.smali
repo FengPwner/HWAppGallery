@@ -29,11 +29,11 @@
 
     invoke-virtual {p1}, Lcom/google/android/material/progressindicator/s;->a()V
 
-    iget-object p1, p1, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/ol;
+    iget-object p1, p1, Lcom/google/android/material/progressindicator/s;->k:Lcom/huawei/appmarket/nl;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ol;->a()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nl;->a()V
 
     :cond_0
     return-void

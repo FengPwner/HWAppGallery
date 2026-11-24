@@ -21,16 +21,16 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/p62;)V
+.method static synthetic a(Lcom/huawei/appmarket/t62;)V
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/p62;)V
+    invoke-static {p0}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/t62;)V
 
     return-void
 .end method
 
-.method private static b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+.method private static b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
     .registers 7
 
     .line 1
@@ -50,7 +50,7 @@
 
     const-string p0, "sessionId"
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/t62;->h()I
 
     move-result p3
 
@@ -63,26 +63,26 @@
     invoke-virtual {v0, p0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {p1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object p0
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
 
-.method private static c(Landroid/content/Context;Lcom/huawei/appmarket/p62;Z)V
+.method private static c(Landroid/content/Context;Lcom/huawei/appmarket/t62;Z)V
     .registers 6
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
 
     move-result-object v0
 
@@ -130,43 +130,43 @@
     move-result-object p0
 
     :goto_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/p62;->a()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/t62;->a()I
 
     move-result p1
 
     if-ne p1, v2, :cond_2
 
-    sget-object p0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     const-string p1, "ExtdInstallReceiver"
 
     const-string p2, "no need show install result toast."
 
-    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/d08;->j(Ljava/lang/CharSequence;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/i08;->j(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
 
-.method private static d(Lcom/huawei/appmarket/p62;)V
+.method private static d(Lcom/huawei/appmarket/t62;)V
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/d62;
+    new-instance v0, Lcom/huawei/appmarket/h62;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/d62;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/h62;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/f62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-static {}, Lcom/huawei/appmarket/j62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    new-array v2, v2, [Lcom/huawei/appmarket/p62;
+    new-array v2, v2, [Lcom/huawei/appmarket/t62;
 
     const/4 v3, 0x0
 
@@ -231,7 +231,7 @@
 
     .line 23
     .line 24
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 25
     .line 26
@@ -239,7 +239,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -248,7 +248,7 @@
 
     .line 32
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/gn;->b()Lcom/huawei/appmarket/gn;
+    invoke-static {}, Lcom/huawei/appmarket/fn;->b()Lcom/huawei/appmarket/fn;
 
     .line 33
     .line 34
@@ -261,7 +261,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p2}, Lcom/huawei/appmarket/gn;->a(I)Lcom/huawei/appmarket/p62;
+    invoke-static {p2}, Lcom/huawei/appmarket/fn;->a(I)Lcom/huawei/appmarket/t62;
 
     .line 40
     .line 41
@@ -312,7 +312,7 @@
     .line 62
     .line 63
     :cond_2
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->c()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->c()I
 
     .line 64
     .line 65
@@ -327,7 +327,7 @@
 
     .line 69
     .line 70
-    invoke-static {p2}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/p62;)V
+    invoke-static {p2}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/t62;)V
 
     .line 71
     .line 72
@@ -336,13 +336,13 @@
 
     .line 74
     :cond_3
-    invoke-virtual {p2, v4}, Lcom/huawei/appmarket/p62;->q(I)V
+    invoke-virtual {p2, v4}, Lcom/huawei/appmarket/t62;->q(I)V
 
     .line 75
     .line 76
     .line 77
     :goto_0
-    invoke-static {}, Lcom/huawei/appmarket/gn;->b()Lcom/huawei/appmarket/gn;
+    invoke-static {}, Lcom/huawei/appmarket/fn;->b()Lcom/huawei/appmarket/fn;
 
     .line 78
     .line 79
@@ -350,7 +350,7 @@
     move-result-object p1
 
     .line 81
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 82
     .line 83
@@ -363,7 +363,7 @@
     .line 86
     .line 87
     .line 88
-    invoke-static {p2, v4}, Lcom/huawei/appmarket/gn;->c(II)V
+    invoke-static {p2, v4}, Lcom/huawei/appmarket/fn;->c(II)V
 
     .line 89
     .line 90
@@ -458,7 +458,7 @@
     .line 132
     .line 133
     .line 134
-    sget-object p1, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object p1, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 135
     .line 136
@@ -488,7 +488,7 @@
     move-result-object p2
 
     .line 150
-    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, p2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 151
     .line 152
@@ -498,12 +498,12 @@
     .line 154
     .line 155
     :pswitch_0
-    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/p62;->q(I)V
+    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/t62;->q(I)V
 
     .line 156
     .line 157
     .line 158
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 159
     .line 160
@@ -520,7 +520,7 @@
     .line 165
     .line 166
     :cond_7
-    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
 
     .line 167
     .line 168
@@ -551,13 +551,13 @@
     .line 181
     .line 182
     .line 183
-    invoke-static {p2}, Lcom/huawei/appmarket/ar6;->b(Lcom/huawei/appmarket/p62;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/dr6;->b(Lcom/huawei/appmarket/t62;)V
 
     .line 184
     .line 185
     .line 186
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/gn;->b()Lcom/huawei/appmarket/gn;
+    invoke-static {}, Lcom/huawei/appmarket/fn;->b()Lcom/huawei/appmarket/fn;
 
     .line 187
     .line 188
@@ -565,7 +565,7 @@
     move-result-object p1
 
     .line 190
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 191
     .line 192
@@ -578,7 +578,7 @@
     .line 195
     .line 196
     .line 197
-    invoke-static {p2, v5}, Lcom/huawei/appmarket/gn;->c(II)V
+    invoke-static {p2, v5}, Lcom/huawei/appmarket/fn;->c(II)V
 
     .line 198
     .line 199
@@ -588,17 +588,17 @@
     .line 201
     .line 202
     :pswitch_1
-    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/p62;->q(I)V
+    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/t62;->q(I)V
 
     .line 203
     .line 204
     .line 205
-    invoke-static {p1, p2, v11}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->c(Landroid/content/Context;Lcom/huawei/appmarket/p62;Z)V
+    invoke-static {p1, p2, v11}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->c(Landroid/content/Context;Lcom/huawei/appmarket/t62;Z)V
 
     .line 206
     .line 207
     .line 208
-    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
 
     .line 209
     .line 210
@@ -630,7 +630,7 @@
     .line 224
     .line 225
     :goto_2
-    invoke-static {v3, p2}, Lcom/huawei/appmarket/ar6;->a(ILcom/huawei/appmarket/p62;)V
+    invoke-static {v3, p2}, Lcom/huawei/appmarket/dr6;->a(ILcom/huawei/appmarket/t62;)V
 
     .line 226
     .line 227
@@ -711,7 +711,7 @@
 
     .line 262
     :catch_0
-    sget-object v8, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v8, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 263
     .line 264
@@ -719,7 +719,7 @@
 
     .line 265
     .line 266
-    invoke-virtual {v8, v2, v12}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v8, v2, v12}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 267
     .line 268
@@ -792,23 +792,23 @@
     .line 300
     .line 301
     :goto_4
-    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/p62;->w(Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;)V
+    invoke-virtual {p2, v1}, Lcom/huawei/appmarket/t62;->w(Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;)V
 
     .line 302
     .line 303
     .line 304
     :cond_b
-    invoke-static {p1, p2, v10}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->c(Landroid/content/Context;Lcom/huawei/appmarket/p62;Z)V
+    invoke-static {p1, p2, v10}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->c(Landroid/content/Context;Lcom/huawei/appmarket/t62;Z)V
 
     .line 305
     .line 306
     .line 307
-    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
 
     .line 308
     .line 309
     .line 310
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 311
     .line 312
@@ -825,7 +825,7 @@
     .line 317
     .line 318
     :cond_c
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->c()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->c()I
 
     .line 319
     .line 320
@@ -840,22 +840,22 @@
 
     .line 324
     .line 325
-    invoke-static {p2}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/p62;)V
+    invoke-static {p2}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->d(Lcom/huawei/appmarket/t62;)V
 
     .line 326
     .line 327
     .line 328
     :cond_d
-    new-instance p1, Lcom/huawei/appmarket/e62;
+    new-instance p1, Lcom/huawei/appmarket/i62;
 
     .line 329
     .line 330
-    invoke-direct {p1}, Lcom/huawei/appmarket/e62;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/i62;-><init>()V
 
     .line 331
     .line 332
     .line 333
-    invoke-static {}, Lcom/huawei/appmarket/f62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-static {}, Lcom/huawei/appmarket/j62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 334
     .line 335
@@ -863,7 +863,7 @@
     move-result-object v0
 
     .line 337
-    new-array v1, v10, [Lcom/huawei/appmarket/p62;
+    new-array v1, v10, [Lcom/huawei/appmarket/t62;
 
     .line 338
     .line 339
@@ -876,7 +876,7 @@
     .line 342
     .line 343
     .line 344
-    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/p62;->q(I)V
+    invoke-virtual {p2, v5}, Lcom/huawei/appmarket/t62;->q(I)V
 
     .line 345
     .line 346
@@ -901,7 +901,7 @@
     move-result-object v0
 
     .line 356
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 357
     .line 358
@@ -918,7 +918,7 @@
     .line 363
     .line 364
     :cond_e
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->g()Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;
 
     .line 365
     .line 366
@@ -939,7 +939,7 @@
     .line 373
     .line 374
     .line 375
-    invoke-virtual {p2, v4}, Lcom/huawei/appmarket/p62;->w(Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;)V
+    invoke-virtual {p2, v4}, Lcom/huawei/appmarket/t62;->w(Lcom/huawei/appgallery/extdinstallmanager/impl/bean/ExtdInstPkgEntity;)V
 
     .line 376
     .line 377
@@ -961,7 +961,7 @@
     move-result-object v5
 
     .line 386
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->h()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->h()I
 
     .line 387
     .line 388
@@ -981,7 +981,7 @@
 
     .line 395
     .line 396
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 397
     .line 398
@@ -990,7 +990,7 @@
     .line 399
     .line 400
     :goto_5
-    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 401
     .line 402
@@ -1053,7 +1053,7 @@
 
     .line 429
     .line 430
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 431
     .line 432
@@ -1094,7 +1094,7 @@
 
     .line 449
     .line 450
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 451
     .line 452
@@ -1123,7 +1123,7 @@
 
     .line 463
     .line 464
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 465
     .line 466
@@ -1178,7 +1178,7 @@
 
     .line 488
     :catch_1
-    sget-object v7, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v7, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 489
     .line 490
@@ -1186,7 +1186,7 @@
 
     .line 491
     .line 492
-    invoke-virtual {v7, v2, v10}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v7, v2, v10}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 493
     .line 494
@@ -1269,7 +1269,7 @@
 
     .line 533
     :catch_2
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 534
     .line 535
@@ -1282,7 +1282,7 @@
     .line 538
     .line 539
     :catch_3
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 540
     .line 541
@@ -1295,16 +1295,16 @@
     .line 544
     .line 545
     :goto_7
-    new-instance v0, Lcom/huawei/appmarket/t62;
+    new-instance v0, Lcom/huawei/appmarket/x62;
 
     .line 546
     .line 547
-    invoke-direct {v0, p2}, Lcom/huawei/appmarket/t62;-><init>(Lcom/huawei/appmarket/p62;)V
+    invoke-direct {v0, p2}, Lcom/huawei/appmarket/x62;-><init>(Lcom/huawei/appmarket/t62;)V
 
     .line 548
     .line 549
     .line 550
-    invoke-static {}, Lcom/huawei/appmarket/f62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-static {}, Lcom/huawei/appmarket/j62;->a()Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 551
     .line 552
@@ -1321,7 +1321,7 @@
     .line 557
     .line 558
     .line 559
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->n()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->n()Z
 
     .line 560
     .line 561
@@ -1329,7 +1329,7 @@
     move-result v0
 
     .line 563
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ar6;->c(Lcom/huawei/appmarket/p62;Z)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/dr6;->c(Lcom/huawei/appmarket/t62;Z)V
 
     .line 564
     .line 565
@@ -1367,7 +1367,7 @@
 
     .line 582
     :cond_16
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->a()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->a()I
 
     .line 583
     .line 584
@@ -1407,7 +1407,7 @@
     .line 602
     .line 603
     :try_start_3
-    invoke-static {v0}, Lcom/huawei/appmarket/ri4;->a(Landroid/content/Intent;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/ti4;->a(Landroid/content/Intent;)V
 
     .line 604
     .line 605
@@ -1423,7 +1423,7 @@
 
     .line 610
     :catch_4
-    sget-object v0, Lcom/huawei/appmarket/j62;->a:Lcom/huawei/appmarket/j62;
+    sget-object v0, Lcom/huawei/appmarket/n62;->a:Lcom/huawei/appmarket/n62;
 
     .line 611
     .line 612
@@ -1431,13 +1431,13 @@
 
     .line 613
     .line 614
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 615
     .line 616
     .line 617
     :goto_8
-    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+    invoke-static {v3, p1, v9, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
 
     .line 618
     .line 619
@@ -1446,13 +1446,13 @@
 
     .line 621
     :cond_17
-    invoke-static {v3, p1, v0, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/p62;Ljava/lang/String;)V
+    invoke-static {v3, p1, v0, p2, v6}, Lcom/huawei/appgallery/extdinstallmanager/impl/control/ExtdInstallReceiver;->b(ILandroid/content/Context;Landroid/content/Intent;Lcom/huawei/appmarket/t62;Ljava/lang/String;)V
 
     .line 622
     .line 623
     .line 624
     :goto_9
-    invoke-virtual {p2}, Lcom/huawei/appmarket/p62;->y()V
+    invoke-virtual {p2}, Lcom/huawei/appmarket/t62;->y()V
 
     .line 625
     .line 626
@@ -2206,4 +2206,5 @@
     .line 1357
     .line 1358
     .line 1359
+    .line 1360
 .end method

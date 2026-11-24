@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private l:Lcom/huawei/appmarket/qm0;
+.field private l:Lcom/huawei/appmarket/rm0;
 
 
 # direct methods
@@ -47,7 +47,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -60,7 +60,7 @@
     .line 10
     .line 11
     .line 12
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/qm0;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/rm0;
 
     .line 13
     .line 14
@@ -165,7 +165,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -208,7 +207,7 @@
 
     .line 18
     .line 19
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/tu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/wu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -228,7 +227,7 @@
 
     .line 27
     .line 28
-    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/tu4;->b(ILandroid/widget/TextView;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p0, v2}, Lcom/huawei/appmarket/wu4;->b(ILandroid/widget/TextView;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -256,7 +255,7 @@
 
     .line 41
     .line 42
-    invoke-static {v3, v4}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     .line 43
     .line 44
@@ -306,7 +305,7 @@
 
     .line 65
     .line 66
-    invoke-static {p0, v4}, Lcom/huawei/appmarket/tu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
+    invoke-static {p0, v4}, Lcom/huawei/appmarket/wu4;->c(Landroid/widget/TextView;I)Ljava/lang/String;
 
     .line 67
     .line 68
@@ -332,7 +331,7 @@
     move-result-object v1
 
     .line 80
-    invoke-static {p1, p0, v2}, Lcom/huawei/appmarket/tu4;->b(ILandroid/widget/TextView;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0, v2}, Lcom/huawei/appmarket/wu4;->b(ILandroid/widget/TextView;Ljava/lang/String;)Ljava/lang/String;
 
     .line 81
     .line 82
@@ -383,7 +382,7 @@
 
     .line 104
     .line 105
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 106
     .line 107
@@ -456,7 +455,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d()V
@@ -494,7 +492,7 @@
 
     iput-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/FoldingTextView;->k:Lcom/huawei/appgallery/detail/detailbase/common/FoldingTextView$a;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/qm0;
+    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/rm0;
 
     if-eqz v1, :cond_1
 
@@ -520,7 +518,7 @@
     :cond_2
     iput-object v2, p0, Lcom/huawei/appgallery/detail/detailbase/common/FoldingTextView;->k:Lcom/huawei/appgallery/detail/detailbase/common/FoldingTextView$a;
 
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/qm0;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/rm0;
 
     if-eqz v0, :cond_3
 
@@ -567,7 +565,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/common/FoldingTextView;->c:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/qm0;
+    iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/rm0;
 
     if-eqz v1, :cond_0
 
@@ -599,7 +597,7 @@
 
     const/16 v1, 0x14
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -607,7 +605,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -615,13 +613,13 @@
 
     invoke-virtual {p1, v2, v2, v0, v1}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    new-instance v0, Lcom/huawei/appmarket/qm0;
+    new-instance v0, Lcom/huawei/appmarket/rm0;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/qm0;-><init>(Landroid/graphics/drawable/Drawable;I)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/rm0;-><init>(Landroid/graphics/drawable/Drawable;I)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/qm0;
+    iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/common/HasStartDrawFoldingTextView;->l:Lcom/huawei/appmarket/rm0;
 
     return-void
 .end method

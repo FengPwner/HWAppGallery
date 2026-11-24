@@ -150,7 +150,7 @@
 
     .line 61
     .line 62
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 63
     .line 64
@@ -356,7 +356,7 @@
     .line 168
     .line 169
     .line 170
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 171
     .line 172
@@ -773,20 +773,13 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/search/ui/node/HotWordBaseNode;->s(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/search/ui/node/HotWordBaseNode;->s(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode;->l:Landroid/view/View;
 
@@ -794,7 +787,7 @@
 
     new-instance v1, Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode$a;
 
-    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode$a;-><init>(Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v1, p0, p1}, Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode$a;-><init>(Lcom/huawei/appgallery/search/ui/node/RelatedWordsAddWishNode;Lcom/huawei/appmarket/bk0;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

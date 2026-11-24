@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/s44;
+.implements Lcom/huawei/appmarket/v44;
 
 
 # direct methods
@@ -17,7 +17,7 @@
 
 
 # virtual methods
-.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/f91;Ljava/lang/reflect/Field;)V
+.method public final a(ILandroid/database/Cursor;Lcom/huawei/appmarket/g91;Ljava/lang/reflect/Field;)V
     .registers 5
 
     .line 1

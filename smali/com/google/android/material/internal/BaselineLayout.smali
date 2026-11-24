@@ -163,7 +163,7 @@
     const/4 v3, 0x2
 
     .line 45
-    invoke-static {p4, v1, v3, p3}, Lcom/huawei/appmarket/bq6;->f(IIII)I
+    invoke-static {p4, v1, v3, p3}, Lcom/huawei/appmarket/eq6;->f(IIII)I
 
     .line 46
     .line 47

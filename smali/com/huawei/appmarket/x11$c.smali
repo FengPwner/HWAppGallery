@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wl5;
+.implements Lcom/huawei/appmarket/yl5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/wl5;
+    value = Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/yl5;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/wl5<",
+        "Lcom/huawei/appmarket/yl5<",
         "TT;>;"
     }
 .end annotation

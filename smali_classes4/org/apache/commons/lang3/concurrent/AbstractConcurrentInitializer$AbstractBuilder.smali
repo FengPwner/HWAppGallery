@@ -60,13 +60,13 @@
 
     invoke-direct {p0}, Lorg/apache/commons/lang3/builder/AbstractSupplier;-><init>()V
 
-    invoke-static {}, Lcom/huawei/appmarket/kf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
+    invoke-static {}, Lcom/huawei/appmarket/nf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/apache/commons/lang3/concurrent/AbstractConcurrentInitializer$AbstractBuilder;->closer:Lorg/apache/commons/lang3/function/FailableConsumer;
 
-    invoke-static {}, Lcom/huawei/appmarket/tg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
+    invoke-static {}, Lcom/huawei/appmarket/wg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
 
     move-result-object v0
 
@@ -128,7 +128,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/kf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
+    invoke-static {}, Lcom/huawei/appmarket/nf2;->c()Lorg/apache/commons/lang3/function/FailableConsumer;
 
     move-result-object p1
 
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/tg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
+    invoke-static {}, Lcom/huawei/appmarket/wg2;->b()Lorg/apache/commons/lang3/function/FailableSupplier;
 
     move-result-object p1
 

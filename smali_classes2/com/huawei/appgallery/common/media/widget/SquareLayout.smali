@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/huawei/appmarket/qe6;->a:[I
+    sget-object v2, Lcom/huawei/appmarket/se6;->a:[I
 
     invoke-virtual {v1, p1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -83,13 +83,13 @@
 
     :catch_0
     :try_start_1
-    sget-object p1, Lcom/huawei/appmarket/q55;->a:Lcom/huawei/appmarket/q55;
+    sget-object p1, Lcom/huawei/appmarket/t55;->a:Lcom/huawei/appmarket/t55;
 
     const-string v1, "SquareLayout"
 
     const-string v2, "init error"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

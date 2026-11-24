@@ -21,7 +21,7 @@
 
 # instance fields
 .field appTraceEditActivity:Lcom/huawei/appmarket/s8;
-    .annotation runtime Lcom/huawei/appmarket/cd4;
+    .annotation runtime Lcom/huawei/appmarket/ed4;
         value = "apptraceedit.activity"
     .end annotation
 .end field

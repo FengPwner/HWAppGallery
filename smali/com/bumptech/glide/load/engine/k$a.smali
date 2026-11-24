@@ -18,13 +18,13 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/eu6;
+.field private final b:Lcom/huawei/appmarket/iu6;
 
 .field final synthetic c:Lcom/bumptech/glide/load/engine/k;
 
 
 # direct methods
-.method constructor <init>(Lcom/bumptech/glide/load/engine/k;Lcom/huawei/appmarket/eu6;)V
+.method constructor <init>(Lcom/bumptech/glide/load/engine/k;Lcom/huawei/appmarket/iu6;)V
     .registers 3
 
     .line 1
@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/eu6;
+    iput-object p2, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/iu6;
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/eu6;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/iu6;
 
     .line 2
     .line 3
@@ -81,11 +81,11 @@
 
     .line 16
     .line 17
-    iget-object v3, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/eu6;
+    iget-object v3, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/iu6;
 
     .line 18
     .line 19
-    invoke-virtual {v2, v3}, Lcom/bumptech/glide/load/engine/k$e;->c(Lcom/huawei/appmarket/eu6;)Z
+    invoke-virtual {v2, v3}, Lcom/bumptech/glide/load/engine/k$e;->c(Lcom/huawei/appmarket/iu6;)Z
 
     .line 20
     .line 21
@@ -101,7 +101,7 @@
 
     .line 26
     .line 27
-    iget-object v3, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/eu6;
+    iget-object v3, p0, Lcom/bumptech/glide/load/engine/k$a;->b:Lcom/huawei/appmarket/iu6;
 
     .line 28
     .line 29
@@ -278,4 +278,5 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method

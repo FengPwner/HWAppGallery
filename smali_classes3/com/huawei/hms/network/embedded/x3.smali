@@ -118,7 +118,7 @@
 
     .line 34
     .line 35
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -264,7 +264,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public deadlineNanoTime()J
@@ -371,7 +370,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -524,7 +523,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public timeoutNanos()J

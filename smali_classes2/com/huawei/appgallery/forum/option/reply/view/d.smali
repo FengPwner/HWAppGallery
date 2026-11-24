@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kq3$a;
+.implements Lcom/huawei/appmarket/mq3$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kq3$a<",
+        "Lcom/huawei/appmarket/mq3$a<",
         "Lcom/huawei/appgallery/forum/base/api/request/JGWHttpsReq;",
         "Lcom/huawei/appgallery/forum/option/reply/bean/ReplyResponse;",
         ">;"
@@ -88,7 +88,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -103,11 +103,11 @@
     .line 33
     .line 34
     .line 35
-    sget-object v1, Lcom/huawei/appmarket/gh3;->a:Lcom/huawei/appmarket/kk;
+    sget-object v1, Lcom/huawei/appmarket/ih3;->a:Lcom/huawei/appmarket/jk;
 
     .line 36
     .line 37
-    invoke-static {}, Lcom/huawei/appmarket/to2;->a()Lcom/huawei/appmarket/to2;
+    invoke-static {}, Lcom/huawei/appmarket/vo2;->a()Lcom/huawei/appmarket/vo2;
 
     .line 38
     .line 39
@@ -120,7 +120,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-static {v0}, Lcom/huawei/appmarket/to2;->e(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/vo2;->e(Landroid/content/Context;)I
 
     .line 45
     .line 46
@@ -208,7 +208,7 @@
     move-result-object v9
 
     .line 88
-    invoke-virtual/range {v1 .. v9}, Lcom/huawei/appmarket/kk;->d(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v1 .. v9}, Lcom/huawei/appmarket/jk;->d(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -238,7 +238,7 @@
 
     .line 102
     .line 103
-    sget-object p1, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object p1, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 104
     .line 105
@@ -246,7 +246,7 @@
 
     .line 106
     .line 107
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wo2;->b(Ljava/lang/String;)I
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/yo2;->b(Ljava/lang/String;)I
 
     .line 108
     .line 109
@@ -263,7 +263,7 @@
     move-result-object p1
 
     .line 115
-    invoke-static {p1}, Lcom/huawei/appmarket/d08;->k(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/i08;->k(Ljava/lang/String;)V
 
     .line 116
     .line 117
@@ -272,7 +272,7 @@
 
     .line 119
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object p1, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     .line 120
     .line 121
@@ -284,7 +284,7 @@
     move-result p2
 
     .line 125
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     .line 126
     .line 127
@@ -292,7 +292,7 @@
     move-result-object p1
 
     .line 129
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xo2;->c()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zo2;->c()I
 
     .line 130
     .line 131
@@ -334,7 +334,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;Ljava/lang/Object;)V

@@ -7,10 +7,10 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/ag7;
+.annotation runtime Lcom/huawei/appmarket/fg7;
 .end annotation
 
-.annotation runtime Lcom/huawei/appmarket/zm;
+.annotation runtime Lcom/huawei/appmarket/ym;
     uri = Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;
 .end annotation
 
@@ -30,13 +30,13 @@
     .registers 3
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/pl3;
+    const-class v0, Lcom/huawei/appmarket/rl3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/pl3;
+    check-cast v0, Lcom/huawei/appmarket/rl3;
 
     invoke-interface {v0, p1}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;->jumpToAppMarketLevelPrivilege(Landroid/content/Context;)V
 
@@ -47,13 +47,13 @@
     .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/pl3;
+    const-class v0, Lcom/huawei/appmarket/rl3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/pl3;
+    check-cast v0, Lcom/huawei/appmarket/rl3;
 
     invoke-interface {v0, p1, p2}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;->jumpToDetail(Landroid/content/Context;Ljava/lang/String;)V
 
@@ -64,13 +64,13 @@
     .registers 3
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/pl3;
+    const-class v0, Lcom/huawei/appmarket/rl3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/pl3;
+    check-cast v0, Lcom/huawei/appmarket/rl3;
 
     invoke-interface {v0, p1}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;->jumpToGameLevelPrivilege(Landroid/content/Context;)V
 
@@ -81,13 +81,13 @@
     .registers 4
 
     .line 1
-    const-class v0, Lcom/huawei/appmarket/pl3;
+    const-class v0, Lcom/huawei/appmarket/rl3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/pl3;
+    check-cast v0, Lcom/huawei/appmarket/rl3;
 
     invoke-interface {v0, p1, p2}, Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/common/ICommonApi;->reportQuickCardBiEvents(Ljava/lang/String;Ljava/lang/String;)V
 

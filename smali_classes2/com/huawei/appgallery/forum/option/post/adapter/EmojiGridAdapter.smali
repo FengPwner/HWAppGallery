@@ -113,7 +113,7 @@
 
     invoke-direct {p3, v0}, Lcom/huawei/appgallery/forum/option/post/adapter/EmojiGridAdapter$b;-><init>(Lcom/huawei/appgallery/forum/option/post/adapter/EmojiGridAdapter$a;)V
 
-    const v0, 0x7f0a167f
+    const v0, 0x7f0a1680
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

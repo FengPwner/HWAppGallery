@@ -60,11 +60,11 @@
 
     if-ne p1, p2, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/zx5;->b()Lcom/huawei/appmarket/zx5;
+    invoke-static {}, Lcom/huawei/appmarket/by5;->b()Lcom/huawei/appmarket/by5;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/zx5;->a()Lcom/huawei/appmarket/zd5;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/by5;->a()Lcom/huawei/appmarket/ce5;
 
     move-result-object p1
 
@@ -74,7 +74,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/activity/AbstractBaseActivity;->finish()V
 

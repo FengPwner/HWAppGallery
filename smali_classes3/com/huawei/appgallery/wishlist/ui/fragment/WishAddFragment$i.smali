@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/wishlist/ui/fragment/WishAddFragment$i;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     iput p2, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishAddFragment$i;->b:I
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method

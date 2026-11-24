@@ -296,7 +296,7 @@
     const-string v1, "UpdateManager"
 
     .line 5
-    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/vw7;->r(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, p0, v1}, Lcom/huawei/appmarket/ci7;->B(Ljava/lang/String;ILjava/lang/String;)V
 
     int-to-long v0, p0
 
@@ -656,7 +656,7 @@
     const-string v4, "UpdateManager"
 
     .line 2
-    invoke-static {v0, v3, v4}, Lcom/huawei/appmarket/om5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
+    invoke-static {v0, v3, v4}, Lcom/huawei/appmarket/uq5;->y(Ljava/lang/Exception;Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
     move-object v0, v2
 

@@ -73,7 +73,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -234,7 +234,7 @@
     move-result-object v0
 
     .line 84
-    invoke-static {v2, v1, v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->e0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    invoke-static {v2, v1, v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->c0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
     .line 85
     .line 86
@@ -255,7 +255,7 @@
     .line 93
     .line 94
     .line 95
-    invoke-static {}, Lcom/huawei/appmarket/ir;->b()Lcom/huawei/appmarket/ir;
+    invoke-static {}, Lcom/huawei/appmarket/hr;->b()Lcom/huawei/appmarket/hr;
 
     .line 96
     .line 97
@@ -271,7 +271,7 @@
     move-result-object p1
 
     .line 103
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/ir;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/hr;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 104
     .line 105
@@ -279,7 +279,7 @@
     move-result-object p1
 
     .line 107
-    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->t0(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->s0(Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -288,7 +288,7 @@
 
     .line 111
     .line 112
-    invoke-static {v5}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/jz3;
+    invoke-static {v5}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/lz3;
 
     .line 113
     .line 114
@@ -320,12 +320,12 @@
     move-object v5, p2
 
     .line 126
-    invoke-direct/range {v1 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;Ljava/lang/ref/WeakReference;Lcom/huawei/appmarket/jz3;Ljava/lang/String;JLcom/huawei/appmarket/service/store/awk/card/k;)V
+    invoke-direct/range {v1 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;Ljava/lang/ref/WeakReference;Lcom/huawei/appmarket/lz3;Ljava/lang/String;JLcom/huawei/appmarket/service/store/awk/card/k;)V
 
     .line 127
     .line 128
     .line 129
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 130
     .line 131
@@ -374,7 +374,7 @@
     move-result-object p1
 
     .line 153
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/xi4;->k(ZLcom/huawei/appmarket/n30;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/zi4;->k(ZLcom/huawei/appmarket/n30;)V
 
     .line 154
     .line 155
@@ -485,7 +485,7 @@
     move-result-object p1
 
     .line 209
-    invoke-static {v2, v1, p1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->e0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    invoke-static {v2, v1, p1}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->c0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
     .line 210
     .line 211
@@ -510,7 +510,7 @@
 
     .line 221
     .line 222
-    invoke-static {v5}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/jz3;
+    invoke-static {v5}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;->w3(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;)Lcom/huawei/appmarket/lz3;
 
     .line 223
     .line 224
@@ -542,12 +542,12 @@
     move-object v5, v0
 
     .line 236
-    invoke-direct/range {v1 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;Ljava/lang/ref/WeakReference;Lcom/huawei/appmarket/jz3;Ljava/lang/String;JLcom/huawei/appmarket/service/store/awk/card/k;)V
+    invoke-direct/range {v1 .. v8}, Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard$d;-><init>(Lcom/huawei/appmarket/service/store/awk/card/HorizonSupDlRecommCard;Ljava/lang/ref/WeakReference;Lcom/huawei/appmarket/lz3;Ljava/lang/String;JLcom/huawei/appmarket/service/store/awk/card/k;)V
 
     .line 237
     .line 238
     .line 239
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 240
     .line 241
@@ -1157,23 +1157,4 @@
     .line 842
     .line 843
     .line 844
-    .line 845
-    .line 846
-    .line 847
-    .line 848
-    .line 849
-    .line 850
-    .line 851
-    .line 852
-    .line 853
-    .line 854
-    .line 855
-    .line 856
-    .line 857
-    .line 858
-    .line 859
-    .line 860
-    .line 861
-    .line 862
-    .line 863
 .end method

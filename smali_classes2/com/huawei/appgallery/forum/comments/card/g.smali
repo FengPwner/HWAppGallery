@@ -36,7 +36,7 @@
 
     if-ne p1, v0, :cond_0
 
-    invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->z1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Lcom/huawei/appmarket/xv3;
+    invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->z1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Lcom/huawei/appmarket/zv3;
 
     move-result-object p1
 
@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    new-instance v8, Lcom/huawei/appmarket/ph1;
+    new-instance v8, Lcom/huawei/appmarket/sh1;
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->v1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)J
 
@@ -64,9 +64,9 @@
 
     move-object v2, v8
 
-    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/ph1;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v2 .. v7}, Lcom/huawei/appmarket/sh1;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {p1, v0, v8}, Lcom/huawei/appmarket/xv3;->e(Landroid/content/Context;Lcom/huawei/appmarket/ph1;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {p1, v0, v8}, Lcom/huawei/appmarket/zv3;->e(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -74,7 +74,7 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/forum/comments/card/g$a;-><init>(Lcom/huawei/appgallery/forum/comments/card/g;)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     goto :goto_0
 
@@ -83,21 +83,21 @@
 
     if-ne p1, v0, :cond_1
 
-    new-instance p1, Lcom/huawei/appmarket/mq6;
+    new-instance p1, Lcom/huawei/appmarket/pq6;
 
-    invoke-direct {p1}, Lcom/huawei/appmarket/mq6;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/pq6;-><init>()V
 
     invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->v1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)J
 
     move-result-wide v2
 
-    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/mq6;->l(J)V
+    invoke-virtual {p1, v2, v3}, Lcom/huawei/appmarket/pq6;->l(J)V
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/mq6;->m(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/pq6;->m(I)V
 
-    invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->z1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Lcom/huawei/appmarket/xv3;
+    invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->z1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Lcom/huawei/appmarket/zv3;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/xv3;->h(Landroid/content/Context;Lcom/huawei/appmarket/mq6;)V
+    invoke-interface {v0, v2, p1}, Lcom/huawei/appmarket/zv3;->h(Landroid/content/Context;Lcom/huawei/appmarket/pq6;)V
 
     :goto_0
     invoke-static {v1}, Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;->r1(Lcom/huawei/appgallery/forum/comments/card/ForumReplyCard;)Landroid/widget/PopupMenu;

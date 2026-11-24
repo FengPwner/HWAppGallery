@@ -79,19 +79,19 @@
 
     sput-object v0, Lcom/huawei/phoneservice/faqcommon/webapi/webmanager/a;->j:Ljava/lang/String;
 
-    const-string v0, "vsearch/rec"
+    const-string/jumbo v0, "vsearch/rec"
 
     sput-object v0, Lcom/huawei/phoneservice/faqcommon/webapi/webmanager/a;->k:Ljava/lang/String;
 
-    const-string v0, "vsearch/search"
+    const-string/jumbo v0, "vsearch/search"
 
     sput-object v0, Lcom/huawei/phoneservice/faqcommon/webapi/webmanager/a;->l:Ljava/lang/String;
 
-    const-string v0, "vsearch/hotWord"
+    const-string/jumbo v0, "vsearch/hotWord"
 
     sput-object v0, Lcom/huawei/phoneservice/faqcommon/webapi/webmanager/a;->m:Ljava/lang/String;
 
-    const-string v0, "vsearch/complete"
+    const-string/jumbo v0, "vsearch/complete"
 
     sput-object v0, Lcom/huawei/phoneservice/faqcommon/webapi/webmanager/a;->n:Ljava/lang/String;
 

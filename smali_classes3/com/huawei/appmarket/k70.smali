@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/c04;
+.implements Lcom/huawei/appmarket/e04;
 
 
 # annotations
@@ -56,7 +56,7 @@
     const-string p1, "reserve param is null"
 
     :goto_0
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -92,7 +92,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/vm8;->g(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/bn8;->g(Ljava/lang/String;)V
 
     :goto_2
     add-int/lit8 v1, v1, 0x1
@@ -133,7 +133,7 @@
 
     const-string v0, "orderAppInfos is validate"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -145,13 +145,13 @@
     return p1
 .end method
 
-.method public final d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+.method public final d(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
     .registers 5
 
     .line 1
     new-instance v0, Lcom/huawei/appmarket/k70$a;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/huawei/appmarket/k70$a;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/yq3;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/huawei/appmarket/k70$a;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/reserve/game/control/ReserveParam;Lcom/huawei/appmarket/ar3;)V
 
     return-object v0
 .end method

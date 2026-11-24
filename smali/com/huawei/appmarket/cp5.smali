@@ -1,24 +1,27 @@
-.class public abstract Lcom/huawei/appmarket/cp5;
+.class public interface abstract Lcom/huawei/appmarket/cp5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Landroidx/databinding/l;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+# virtual methods
+.method public abstract addOnPictureInPictureModeChangedListener(Lcom/huawei/appmarket/h21;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/h21<",
+            "Lcom/huawei/appmarket/z06;",
+            ">;)V"
+        }
+    .end annotation
+.end method
 
-
-# direct methods
-.method public constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+.method public abstract removeOnPictureInPictureModeChangedListener(Lcom/huawei/appmarket/h21;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/h21<",
+            "Lcom/huawei/appmarket/z06;",
+            ">;)V"
+        }
+    .end annotation
 .end method

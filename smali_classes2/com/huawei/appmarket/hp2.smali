@@ -3,26 +3,12 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/hp2$a;
-    }
-.end annotation
-
-
 # virtual methods
-.method public abstract a()V
+.method public abstract a()Z
 .end method
 
-.method public abstract b(Ljava/lang/String;)V
+.method public abstract b(Landroid/widget/LinearLayout;)V
 .end method
 
-.method public abstract c()V
-.end method
-
-.method public abstract d()Ljava/lang/String;
-.end method
-
-.method public abstract getDomainId()Ljava/lang/String;
+.method public abstract c(Ljava/lang/String;Lcom/huawei/appmarket/pd6;)V
 .end method

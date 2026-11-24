@@ -18,9 +18,9 @@
     .registers 3
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/w72;
+    new-instance v0, Lcom/huawei/appmarket/a82;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/w72;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/a82;-><init>()V
 
     const-string v1, "main.activity"
 
@@ -34,12 +34,12 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/w72;->setMainActivity(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/a82;->setMainActivity(Ljava/lang/String;)V
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/h20;->d(Landroid/content/Context;ILcom/huawei/appmarket/w72;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/h20;->d(Landroid/content/Context;ILcom/huawei/appmarket/a82;)V
 
     return-void
 .end method
@@ -56,12 +56,12 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/b48;->d()V
+    invoke-static {}, Lcom/huawei/appmarket/h48;->d()V
 
     .line 9
     .line 10
@@ -74,7 +74,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -102,7 +102,7 @@
     move-result-object v1
 
     .line 29
-    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->getAuthAccount(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 30
     .line 31
@@ -110,16 +110,16 @@
     move-result-object v0
 
     .line 33
-    new-instance v1, Lcom/huawei/appmarket/jp0;
+    new-instance v1, Lcom/huawei/appmarket/kp0;
 
     .line 34
     .line 35
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/jp0;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/kp0;-><init>(Landroid/app/Activity;)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 39
     .line 40

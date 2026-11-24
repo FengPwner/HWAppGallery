@@ -14,9 +14,9 @@
 
 
 # instance fields
-.field private n:Lcom/huawei/appmarket/du4;
+.field private n:Lcom/huawei/appmarket/gu4;
 
-.field private o:Lcom/huawei/appmarket/ej4;
+.field private o:Lcom/huawei/appmarket/gj4;
 
 .field private final p:Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode$a;
 
@@ -27,7 +27,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->v(Landroid/app/Activity;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->v(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -53,17 +53,17 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/on1;->g()Lcom/huawei/appmarket/on1;
+    invoke-static {}, Lcom/huawei/appmarket/rn1;->g()Lcom/huawei/appmarket/rn1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/on1;->l()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/rn1;->l()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -75,7 +75,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->h()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->h()Z
 
     move-result v0
 
@@ -84,7 +84,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->x(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->x(Landroid/content/Context;)Z
 
     move-result p1
 
@@ -104,11 +104,11 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ej4;->h()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/gj4;->h()Lcom/huawei/appmarket/service/interactive/bean/InteractiveRecommResponse;
 
     move-result-object v0
 
@@ -146,48 +146,48 @@
     return-object v0
 .end method
 
-.method public final P()Lcom/huawei/appmarket/ej4;
+.method public final P()Lcom/huawei/appmarket/gj4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     return-object v0
 .end method
 
-.method public final Q()Lcom/huawei/appmarket/du4;
+.method public final Q()Lcom/huawei/appmarket/gu4;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->n:Lcom/huawei/appmarket/du4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->n:Lcom/huawei/appmarket/gu4;
 
     return-object v0
 .end method
 
-.method protected final R(Landroid/view/View;)Lcom/huawei/appmarket/ej4;
+.method protected final R(Landroid/view/View;)Lcom/huawei/appmarket/gj4;
     .registers 6
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ej4;
+    new-instance v0, Lcom/huawei/appmarket/gj4;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ej4;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/gj4;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iput-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ej4;->i(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gj4;->i(Landroid/view/View;)V
 
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ej4;->o(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gj4;->o(Landroid/view/View;)V
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/ej4;->g()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/gj4;->g()Landroid/view/View;
 
     move-result-object p1
 
@@ -222,16 +222,16 @@
     invoke-virtual {p1, v0, v1, v2, v3}, Landroid/view/View;->setPaddingRelative(IIII)V
 
     :cond_1
-    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     return-object p1
 .end method
 
-.method public final S(Lcom/huawei/appmarket/ej4;)V
+.method public final S(Lcom/huawei/appmarket/gj4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     return-void
 .end method
@@ -242,11 +242,11 @@
     .line 1
     const-string v0, "rootLayout"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p2, p0, Lcom/huawei/appmarket/p40;->i:Landroid/content/Context;
 
@@ -279,7 +279,7 @@
 
     if-ne v1, v3, :cond_1
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p0, v0, p2, p1}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->N(Landroid/view/LayoutInflater;Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -293,7 +293,7 @@
     throw p1
 
     :cond_2
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {p0, v0, p2, p1}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->M(Landroid/view/LayoutInflater;Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -301,17 +301,17 @@
     return v2
 .end method
 
-.method public p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/ej4;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->o:Lcom/huawei/appmarket/gj4;
 
     if-eqz v0, :cond_1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->a()Lcom/huawei/appgallery/foundation/ui/css/CSSRule;
 
     move-result-object v1
 
@@ -321,23 +321,23 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ej4;->p(Lcom/huawei/appgallery/foundation/ui/css/CSSRule;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gj4;->p(Lcom/huawei/appgallery/foundation/ui/css/CSSRule;)V
 
     :cond_1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method
 
-.method public final q(Lcom/huawei/appmarket/du4;)V
+.method public final q(Lcom/huawei/appmarket/gu4;)V
     .registers 3
 
     .line 1
     const-string v0, "owner"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->n:Lcom/huawei/appmarket/du4;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->n:Lcom/huawei/appmarket/gu4;
 
     return-void
 .end method

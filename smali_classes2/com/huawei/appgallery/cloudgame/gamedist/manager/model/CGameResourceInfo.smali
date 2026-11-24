@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/cloudgame/gamedist/manager/model/CGameResourceInfo;
-.super Lcom/huawei/appmarket/xf0;
+.super Lcom/huawei/appmarket/yf0;
 .source "SourceFile"
 
 # interfaces
@@ -26,7 +26,7 @@
 .method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/xf0;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/yf0;-><init>()V
 
     return-void
 .end method

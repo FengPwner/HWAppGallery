@@ -528,7 +528,7 @@
 
     invoke-direct {v0, v2}, Lcom/huawei/hianalytics/i0;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {v1, v0}, Lcom/huawei/hianalytics/kit/HiAnalyticsClient;->getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, v0}, Lcom/huawei/hianalytics/kit/HiAnalyticsClient;->getHaConfig(Lcom/huawei/hianalytics/i0;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
     :try_end_a
@@ -542,29 +542,29 @@
 
     :cond_a
     :try_start_b
-    new-instance v1, Lcom/huawei/appmarket/ub1;
+    new-instance v1, Lcom/huawei/appmarket/wb1;
 
     const/16 v2, 0x14
 
-    invoke-direct {v1, v2}, Lcom/huawei/appmarket/ub1;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/wb1;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnFailureListener(Lcom/huawei/appmarket/oo5;)Lcom/huawei/appmarket/hv7;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/huawei/appmarket/b89;
-
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/b89;-><init>(Lcom/huawei/hianalytics/h;)V
-
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnSuccessListener(Lcom/huawei/appmarket/kp5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/b89;
+    new-instance v1, Lcom/huawei/appmarket/h89;
 
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/b89;-><init>(Lcom/huawei/hianalytics/h;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/h89;-><init>(Lcom/huawei/hianalytics/h;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/huawei/appmarket/h89;
+
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/h89;-><init>(Lcom/huawei/hianalytics/h;)V
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_3
 
@@ -627,7 +627,7 @@
     throw v0
 .end method
 
-.method public final a(Lcom/huawei/appmarket/hv7;)V
+.method public final a(Lcom/huawei/appmarket/nv7;)V
     .registers 8
 
     .line 3
@@ -638,13 +638,13 @@
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
     :try_start_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -669,7 +669,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getException()Ljava/lang/Exception;
 
     move-result-object p1
 

@@ -51,7 +51,7 @@
     if-eqz p2, :cond_6
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/me6;->e:[I
+    sget-object v1, Lcom/huawei/appmarket/oe6;->e:[I
 
     const/4 v2, 0x0
 
@@ -195,7 +195,7 @@
 
     const-string p3, "RoundImageView"
 
-    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, p3, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     :goto_5

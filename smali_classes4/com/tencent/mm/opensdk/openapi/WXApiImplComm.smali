@@ -34,7 +34,7 @@
     return v0
 
     :cond_0
-    const-string v1, "wx_token_key"
+    const-string/jumbo v1, "wx_token_key"
 
     invoke-virtual {p0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     if-nez v3, :cond_1
 
-    const-string v3, "validateAppSignature signature is null"
+    const-string/jumbo v3, "validateAppSignature signature is null"
 
     invoke-static {v0, v3}, Lcom/tencent/mm/opensdk/utils/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -144,7 +144,7 @@
 .method public static validateAppSignatureForPackage(Landroid/content/Context;Ljava/lang/String;Z)Z
     .registers 8
 
-    const-string v0, "validateAppSignatureForPackage ex "
+    const-string/jumbo v0, "validateAppSignatureForPackage ex "
 
     const-string v1, "MicroMsg.SDK.WXMsgImplComm"
 

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private builder:Lcom/huawei/appmarket/mn5$a;
+.field private builder:Lcom/huawei/appmarket/nn5$a;
 
 
 # direct methods
@@ -13,26 +13,26 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/mn5$a;
+    new-instance v0, Lcom/huawei/appmarket/nn5$a;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/mn5$a;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/nn5$a;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iput-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public addInterceptor(Lcom/huawei/appmarket/lj4;)Lcom/huawei/agconnect/https/OKHttpBuilder;
+.method public addInterceptor(Lcom/huawei/appmarket/nj4;)Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 3
 
     .line 1
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/mn5$a;->a(Lcom/huawei/appmarket/lj4;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nn5$a;->a(Lcom/huawei/appmarket/nj4;)V
 
     return-object p0
 
@@ -50,18 +50,18 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/mn5$a;->b(Lcom/huawei/appmarket/h00;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/nn5$a;->b(Lcom/huawei/appmarket/h00;)V
 
     return-object p0
 .end method
 
-.method public build()Lcom/huawei/appmarket/mn5;
+.method public build()Lcom/huawei/appmarket/nn5;
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     .line 2
     .line 3
@@ -70,11 +70,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lcom/huawei/appmarket/mn5;
+    new-instance v1, Lcom/huawei/appmarket/nn5;
 
     .line 7
     .line 8
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/mn5;-><init>(Lcom/huawei/appmarket/mn5$a;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/nn5;-><init>(Lcom/huawei/appmarket/nn5$a;)V
 
     .line 9
     .line 10
@@ -204,36 +204,37 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
-.method public buildWithTimeOut(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/mn5;
+.method public buildWithTimeOut(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/nn5;
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/mn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/nn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
 
     .line 10
     .line 11
     .line 12
-    new-instance p1, Lcom/huawei/appmarket/mn5;
+    new-instance p1, Lcom/huawei/appmarket/nn5;
 
     .line 13
     .line 14
-    invoke-direct {p1, v0}, Lcom/huawei/appmarket/mn5;-><init>(Lcom/huawei/appmarket/mn5$a;)V
+    invoke-direct {p1, v0}, Lcom/huawei/appmarket/nn5;-><init>(Lcom/huawei/appmarket/nn5$a;)V
 
     .line 15
     .line 16
@@ -377,11 +378,11 @@
 .method public connectTimeout(J)Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/mn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/nn5$a;->e(JLjava/util/concurrent/TimeUnit;)V
 
     return-object p0
 .end method
@@ -389,13 +390,13 @@
 .method public enableGzip()Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     new-instance v1, Lcom/huawei/agconnect/https/GzipRequestInterceptor;
 
     invoke-direct {v1}, Lcom/huawei/agconnect/https/GzipRequestInterceptor;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mn5$a;->a(Lcom/huawei/appmarket/lj4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nn5$a;->a(Lcom/huawei/appmarket/nj4;)V
 
     return-object p0
 .end method
@@ -403,11 +404,11 @@
 .method public readTimeout(J)Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/mn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/nn5$a;->M(JLjava/util/concurrent/TimeUnit;)V
 
     return-object p0
 .end method
@@ -415,13 +416,13 @@
 .method public setRetryTimes(I)Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 4
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     new-instance v1, Lcom/huawei/agconnect/https/RetryInterceptor;
 
     invoke-direct {v1, p1}, Lcom/huawei/agconnect/https/RetryInterceptor;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/mn5$a;->a(Lcom/huawei/appmarket/lj4;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nn5$a;->a(Lcom/huawei/appmarket/nj4;)V
 
     return-object p0
 .end method
@@ -430,9 +431,9 @@
     .registers 4
 
     :try_start_0
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
-    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/mn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
+    invoke-virtual {v0, p1, p2}, Lcom/huawei/appmarket/nn5$a;->N(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -452,11 +453,11 @@
 .method public writeTimeout(J)Lcom/huawei/agconnect/https/OKHttpBuilder;
     .registers 5
 
-    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/mn5$a;
+    iget-object v0, p0, Lcom/huawei/agconnect/https/OKHttpBuilder;->builder:Lcom/huawei/appmarket/nn5$a;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/mn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
+    invoke-virtual {v0, p1, p2, v1}, Lcom/huawei/appmarket/nn5$a;->O(JLjava/util/concurrent/TimeUnit;)V
 
     return-object p0
 .end method

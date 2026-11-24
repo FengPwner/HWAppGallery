@@ -17,7 +17,7 @@
     value = {
         "Lcom/huawei/agconnect/https/AnnotationHandler<",
         "Lcom/huawei/agconnect/https/annotation/Url;",
-        "Lcom/huawei/appmarket/id3$a;",
+        "Lcom/huawei/appmarket/kd3$a;",
         ">;"
     }
 .end annotation
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/id3$a;)Lcom/huawei/appmarket/id3$a;
+.method public a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/kd3$a;)Lcom/huawei/appmarket/kd3$a;
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,9 +43,9 @@
             ">(",
             "Ljava/lang/reflect/Field;",
             "TRequestBean;",
-            "Lcom/huawei/appmarket/id3$a;",
+            "Lcom/huawei/appmarket/kd3$a;",
             ")",
-            "Lcom/huawei/appmarket/id3$a;"
+            "Lcom/huawei/appmarket/kd3$a;"
         }
     .end annotation
 
@@ -87,7 +87,7 @@
     if-nez p1, :cond_0
 
     .line 1
-    sget-object p1, Lcom/huawei/appmarket/id3;->k:Lcom/huawei/appmarket/id3$b;
+    sget-object p1, Lcom/huawei/appmarket/kd3;->k:Lcom/huawei/appmarket/kd3$b;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
     :try_end_0
@@ -97,13 +97,13 @@
 
     .line 2
     :try_start_1
-    new-instance p3, Lcom/huawei/appmarket/id3$a;
+    new-instance p3, Lcom/huawei/appmarket/kd3$a;
 
-    invoke-direct {p3}, Lcom/huawei/appmarket/id3$a;-><init>()V
+    invoke-direct {p3}, Lcom/huawei/appmarket/kd3$a;-><init>()V
 
-    invoke-virtual {p3, p1, p2}, Lcom/huawei/appmarket/id3$a;->g(Lcom/huawei/appmarket/id3;Ljava/lang/String;)V
+    invoke-virtual {p3, p1, p2}, Lcom/huawei/appmarket/kd3$a;->g(Lcom/huawei/appmarket/kd3;Ljava/lang/String;)V
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/id3$a;->c()Lcom/huawei/appmarket/id3;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/kd3$a;->c()Lcom/huawei/appmarket/kd3;
 
     move-result-object p1
     :try_end_1
@@ -113,7 +113,7 @@
     .line 3
     :catch_0
     :try_start_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/id3;->i()Lcom/huawei/appmarket/id3$a;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/kd3;->i()Lcom/huawei/appmarket/kd3$a;
 
     move-result-object p1
 
@@ -165,9 +165,9 @@
     .registers 4
 
     .line 4
-    check-cast p3, Lcom/huawei/appmarket/id3$a;
+    check-cast p3, Lcom/huawei/appmarket/kd3$a;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/agconnect/https/AnnotationHandler$UrlHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/id3$a;)Lcom/huawei/appmarket/id3$a;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/agconnect/https/AnnotationHandler$UrlHandler;->a(Ljava/lang/reflect/Field;Ljava/lang/Object;Lcom/huawei/appmarket/kd3$a;)Lcom/huawei/appmarket/kd3$a;
 
     move-result-object p1
 

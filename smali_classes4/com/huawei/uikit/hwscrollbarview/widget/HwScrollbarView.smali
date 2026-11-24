@@ -46,7 +46,7 @@
 
 .field private G:Z
 
-.field private H:Lcom/huawei/appmarket/pe3;
+.field private H:Lcom/huawei/appmarket/re3;
 
 .field private I:Z
 
@@ -248,7 +248,7 @@
     const v0, 0x7f130310
 
     .line 3
-    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/wf3;->a(Landroid/content/Context;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -344,7 +344,7 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/huawei/appmarket/jg6;->b:[I
+    sget-object v3, Lcom/huawei/appmarket/lg6;->b:[I
 
     const v4, 0x7f13051f
 
@@ -958,10 +958,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 .method static synthetic c(Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;Z)V
@@ -1170,23 +1166,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method private e()V
@@ -1538,6 +1517,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method static f(Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;)V
@@ -1560,7 +1559,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/qf3;->c(ILandroid/view/View;)V
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/sf3;->c(ILandroid/view/View;)V
 
     .line 10
     .line 11
@@ -1736,23 +1735,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method static synthetic g(Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;)I
@@ -1764,7 +1746,7 @@
     return p0
 .end method
 
-.method public static getHwScrollBindImpl()Lcom/huawei/appmarket/ve3;
+.method public static getHwScrollBindImpl()Lcom/huawei/appmarket/xe3;
     .registers 1
 
     .line 1
@@ -2133,6 +2115,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private l()V
@@ -2320,7 +2322,7 @@
 
     .line 78
     :cond_6
-    iget-object v0, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/pe3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/re3;
 
     .line 79
     .line 80
@@ -2625,6 +2627,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private m()V
@@ -3013,6 +3035,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private setThumbShow(Z)V
@@ -3385,6 +3427,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public getFadeTime()I
@@ -4032,6 +4094,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final i()V
@@ -4129,7 +4211,7 @@
 
     .line 40
     .line 41
-    iget-object v0, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/pe3;
+    iget-object v0, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/re3;
 
     .line 42
     .line 43
@@ -4459,6 +4541,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public final k(Landroid/widget/ListView;)V
@@ -4868,6 +4970,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method protected final onDraw(Landroid/graphics/Canvas;)V
@@ -5190,23 +5312,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onHoverChanged(Z)V
@@ -5404,23 +5509,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onHoverEvent(Landroid/view/MotionEvent;)Z
@@ -6363,23 +6451,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -7267,7 +7338,7 @@
 
     .line 405
     .line 406
-    invoke-static {p1, p0}, Lcom/huawei/appmarket/qf3;->c(ILandroid/view/View;)V
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/sf3;->c(ILandroid/view/View;)V
 
     .line 407
     .line 408
@@ -8027,65 +8098,6 @@
     .line 1152
     .line 1153
     .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
 .end method
 
 .method public setFadeTime(I)V
@@ -8104,11 +8116,11 @@
     return-void
 .end method
 
-.method public setHwOverScrollProxy(Lcom/huawei/appmarket/pe3;)V
+.method public setHwOverScrollProxy(Lcom/huawei/appmarket/re3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/pe3;
+    iput-object p1, p0, Lcom/huawei/uikit/hwscrollbarview/widget/HwScrollbarView;->H:Lcom/huawei/appmarket/re3;
 
     return-void
 .end method

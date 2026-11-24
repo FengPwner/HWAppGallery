@@ -1,35 +1,14 @@
 .class public final Lcom/huawei/appmarket/ep2;
-.super Lcom/huawei/appmarket/gy4;
+.super Lcom/huawei/appgallery/forum/forum/bean/ForumHorizonCardBean;
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/ep2;
-
-
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>()V
     .registers 1
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/ep2;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/ep2;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/ep2;->a:Lcom/huawei/appmarket/ep2;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 3
-
-    .line 1
-    const-string v0, "Forum"
-
-    const/4 v1, 0x1
-
-    invoke-direct {p0, v0, v1}, Lcom/huawei/appmarket/gy4;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0}, Lcom/huawei/appgallery/forum/forum/bean/ForumHorizonCardBean;-><init>()V
 
     return-void
 .end method

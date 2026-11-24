@@ -13,7 +13,7 @@
 .field private callerpkg_:Ljava/lang/String;
 
 .field private callerpkgsign_:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
@@ -235,7 +235,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 

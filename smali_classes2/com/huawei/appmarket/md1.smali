@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zl3;
+.implements Lcom/huawei/appmarket/xm3;
 
 
 # direct methods
@@ -17,121 +17,41 @@
 
 
 # virtual methods
-.method public final B2(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;I)V
+.method public final P1(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    return-object p2
+.end method
+
+.method public final b2(Landroid/app/Activity;Lcom/huawei/appmarket/cv0;)V
     .registers 3
 
     .line 1
     return-void
 .end method
 
-.method public final F(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;II)V
-    .registers 4
+.method public final d0(Landroid/content/Context;Lcom/huawei/appmarket/lv0;)V
+    .registers 3
 
     .line 1
     return-void
 .end method
 
-.method public final I(Ljava/lang/String;)Ljava/lang/String;
+.method public final r1(Landroid/content/Context;Lcom/huawei/appmarket/ad8;)V
+    .registers 3
+
+    .line 1
+    return-void
+.end method
+
+.method public final u1(Lcom/huawei/appmarket/xu0;)Landroidx/fragment/app/Fragment;
     .registers 2
 
     .line 1
-    const/4 p1, 0x0
+    new-instance p1, Landroidx/fragment/app/Fragment;
+
+    invoke-direct {p1}, Landroidx/fragment/app/Fragment;-><init>()V
 
     return-object p1
-.end method
-
-.method public final N1(I)Z
-    .registers 2
-
-    .line 1
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final P(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;Lcom/huawei/appmarket/by2;)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method public final Q0(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;I)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method public final U1(Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;I)V
-    .registers 3
-
-    .line 1
-    return-void
-.end method
-
-.method public final W1(Landroid/content/Context;Ljava/lang/String;IIZ)Z
-    .registers 6
-
-    .line 1
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final i1(Z)V
-    .registers 2
-
-    .line 1
-    return-void
-.end method
-
-.method public final n2(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)Ljava/lang/String;
-    .registers 3
-
-    .line 1
-    const/4 p1, 0x0
-
-    return-object p1
-.end method
-
-.method public final o0(IJLjava/lang/String;Ljava/lang/String;Z)Lcom/huawei/appmarket/cn5;
-    .registers 7
-
-    .line 1
-    const/4 p1, 0x0
-
-    return-object p1
-.end method
-
-.method public final r0(ZILcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;Z)V
-    .registers 6
-
-    .line 1
-    return-void
-.end method
-
-.method public final t(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
-    .registers 2
-
-    .line 1
-    const/4 p1, 0x0
-
-    return-object p1
-.end method
-
-.method public final v0(Ljava/lang/String;Ljava/lang/String;)Z
-    .registers 3
-
-    .line 1
-    const/4 p1, 0x0
-
-    return p1
-.end method
-
-.method public final w(Ljava/lang/String;Ljava/lang/String;)V
-    .registers 3
-
-    .line 1
-    return-void
 .end method

@@ -12,7 +12,7 @@
     .registers 1
 
     .line 1
-    const/16 v0, 0x10
+    const/16 v0, 0x12
 
     new-array v0, v0, [I
 
@@ -24,22 +24,24 @@
 
     :array_0
     .array-data 4
-        0x7f04026c
-        0x7f040271
-        0x7f040293
-        0x7f0402f5
-        0x7f0402f9
-        0x7f040308
-        0x7f0403a0
-        0x7f0403a1
-        0x7f0403a2
-        0x7f0403a3
-        0x7f0403a4
-        0x7f0403a5
-        0x7f0403a6
-        0x7f0403a7
-        0x7f0403ed
-        0x7f0403ee
+        0x7f04026f
+        0x7f040270
+        0x7f040272
+        0x7f040278
+        0x7f04027a
+        0x7f04027b
+        0x7f04027c
+        0x7f04027d
+        0x7f04027e
+        0x7f0402df
+        0x7f0402e0
+        0x7f040382
+        0x7f040383
+        0x7f040384
+        0x7f040386
+        0x7f040387
+        0x7f040388
+        0x7f0403c8
     .end array-data
 .end method
 

@@ -7,63 +7,67 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/j3<",
-        "Lcom/huawei/appmarket/cu8;",
+        "Lcom/huawei/appmarket/eu8;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/nt8;
+.field private final b:Lcom/huawei/appmarket/cp7;
 
 
 # direct methods
-.method public constructor <init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/nt8;)V
+.method public constructor <init>(Ljava/nio/ByteBuffer;Lcom/huawei/appmarket/cp7;)V
     .registers 3
 
     .line 1
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/j3;-><init>(Ljava/nio/ByteBuffer;)V
 
-    iput-object p2, p0, Lcom/huawei/appmarket/du8;->b:Lcom/huawei/appmarket/nt8;
+    iput-object p2, p0, Lcom/huawei/appmarket/du8;->b:Lcom/huawei/appmarket/cp7;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final n()Lcom/huawei/appmarket/cu8;
-    .registers 6
+.method public final n()Lcom/huawei/appmarket/eu8;
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/du8;->b:Lcom/huawei/appmarket/nt8;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/j3;->d()I
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/cq0;->a()I
-
-    move-result v1
-
-    div-int/lit8 v1, v1, 0x4
-
-    new-array v2, v1, [I
-
-    const/4 v3, 0x0
-
-    :goto_0
-    if-ge v3, v1, :cond_0
+    move-result v0
 
     invoke-virtual {p0}, Lcom/huawei/appmarket/j3;->d()I
 
-    move-result v4
+    move-result v1
 
-    aput v4, v2, v3
+    invoke-static {}, Lcom/huawei/appmarket/eu8;->a()Lcom/huawei/appmarket/eu8$a;
 
-    add-int/lit8 v3, v3, 0x1
+    move-result-object v2
 
-    goto :goto_0
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/eu8$a;->c(I)V
 
-    :cond_0
-    new-instance v1, Lcom/huawei/appmarket/cu8;
+    invoke-virtual {v2, v1}, Lcom/huawei/appmarket/eu8$a;->e(I)V
 
-    invoke-direct {v1, v0, v2}, Lcom/huawei/appmarket/cu8;-><init>(Lcom/huawei/appmarket/cq0;[I)V
+    iget-object v3, p0, Lcom/huawei/appmarket/du8;->b:Lcom/huawei/appmarket/cp7;
 
-    return-object v1
+    invoke-virtual {v3, v0}, Lcom/huawei/appmarket/cp7;->b(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/eu8$a;->b(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/cp7;->b(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Lcom/huawei/appmarket/eu8$a;->d(Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Lcom/huawei/appmarket/eu8$a;->a()Lcom/huawei/appmarket/eu8;
+
+    move-result-object v0
+
+    return-object v0
 .end method

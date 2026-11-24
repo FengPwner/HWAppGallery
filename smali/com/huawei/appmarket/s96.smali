@@ -1,186 +1,145 @@
 .class public final Lcom/huawei/appmarket/s96;
-.super Lcom/huawei/appmarket/h96;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# instance fields
-.field private c:Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;
-
-
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/ay3;Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;Ljava/lang/String;)V
-    .registers 4
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0, p1, p3}, Lcom/huawei/appmarket/h96;-><init>(Lcom/huawei/appmarket/ay3;Ljava/lang/String;)V
-
-    iput-object p2, p0, Lcom/huawei/appmarket/s96;->c:Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic d(Lcom/huawei/appmarket/s96;)V
-    .registers 2
+.method public static a(Landroid/content/Context;Ljava/lang/String;)V
+    .registers 6
 
     .line 1
-    const/4 v0, 0x1
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/h96;->b(Z)V
+    const-string v1, "openFaDisPatcherProtocol: "
 
-    return-void
-.end method
+    invoke-virtual {v1, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-.method static synthetic e(Lcom/huawei/appmarket/s96;)V
-    .registers 2
+    move-result-object v1
 
-    .line 1
-    const/4 v0, 0x0
+    const-string v2, "ProtocolService"
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/h96;->b(Z)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    return-void
-.end method
+    :try_start_0
+    const-string v0, "Agreement"
 
+    const-string v1, "AgreementFaWebViewActivity"
 
-# virtual methods
-.method public final a(Landroid/app/Activity;)V
-    .registers 4
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ce7;->c()Lcom/huawei/appmarket/ce7;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r93;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/h96;->b:Ljava/lang/String;
+    new-instance v1, Landroid/content/Intent;
 
-    invoke-virtual {v0, p1, v1}, Lcom/huawei/appmarket/ce7;->b(Landroid/app/Activity;Ljava/lang/String;)V
+    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
+    const/high16 v3, 0x14000000
+
+    invoke-virtual {v1, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    const-string v3, "key_param_url"
+
+    invoke-virtual {v1, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    const-string p1, "key_param_OOBE"
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v1, p1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+
+    invoke-static {}, Lcom/huawei/hmf/services/ui/c;->b()Lcom/huawei/hmf/services/ui/c;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p0, v0, v1}, Lcom/huawei/hmf/services/ui/c;->e(Landroid/content/Context;Lcom/huawei/hmf/services/ui/e;Landroid/content/Intent;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    sget-object p0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
+
+    const-string p1, "Exception when calling openFaDisPatcherProtocol."
+
+    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_0
     return-void
 .end method
 
-.method public final c(Landroid/app/Activity;)V
-    .registers 9
+.method public static b(Landroid/content/Context;Ljava/lang/String;Z)V
+    .registers 7
 
     .line 1
-    iget-object v3, p0, Lcom/huawei/appmarket/s96;->c:Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;
+    sget-object v0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
 
-    .line 2
-    .line 3
-    iget-object v5, p0, Lcom/huawei/appmarket/h96;->a:Lcom/huawei/appmarket/ay3;
+    new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 4
-    .line 5
-    new-instance v6, Lcom/huawei/appmarket/s96$a;
+    const-string v2, "openUserProtocol: "
 
-    .line 6
-    .line 7
-    invoke-direct {v6, p0}, Lcom/huawei/appmarket/s96$a;-><init>(Lcom/huawei/appmarket/s96;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8
-    .line 9
-    .line 10
-    invoke-static {}, Lcom/huawei/appmarket/ce7;->c()Lcom/huawei/appmarket/ce7;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
-    .line 12
-    .line 13
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "ProtocolService"
+
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    :try_start_0
+    const-string v0, "Agreement"
+
+    const-string v1, "AgreementWebViewActivity"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/r93;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+
     move-result-object v0
 
-    .line 14
-    iget-object v1, p0, Lcom/huawei/appmarket/h96;->b:Ljava/lang/String;
+    new-instance v1, Landroid/content/Intent;
 
-    .line 15
-    .line 16
-    invoke-static {}, Lcom/huawei/appmarket/ej;->a()Lcom/huawei/appmarket/bj;
+    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v2
+    const-string v3, "key_param_url"
 
-    .line 20
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/bj;->e(Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;)Lcom/huawei/appmarket/kj;
+    invoke-virtual {v1, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 21
-    .line 22
-    .line 23
-    move-result-object v4
+    const-string p1, "key_param_OOBE"
 
-    .line 24
-    move-object v2, p1
+    invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 25
-    invoke-virtual/range {v0 .. v6}, Lcom/huawei/appmarket/ce7;->d(Ljava/lang/String;Landroid/app/Activity;Lcom/huawei/appgallery/agreement/api/ui/ITermsActivityProtocol;Lcom/huawei/appmarket/kj;Lcom/huawei/appmarket/ay3;Lcom/huawei/appmarket/dy3;)V
+    invoke-static {}, Lcom/huawei/hmf/services/ui/c;->b()Lcom/huawei/hmf/services/ui/c;
 
-    .line 26
-    .line 27
-    .line 28
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p0, v0, v1}, Lcom/huawei/hmf/services/ui/c;->e(Landroid/content/Context;Lcom/huawei/hmf/services/ui/e;Landroid/content/Intent;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    sget-object p0, Lcom/huawei/appmarket/fj;->a:Lcom/huawei/appmarket/fj;
+
+    const-string p1, "Exception when calling openUserProtocol."
+
+    invoke-virtual {p0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_0
     return-void
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
 .end method

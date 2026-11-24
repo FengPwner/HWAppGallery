@@ -36,7 +36,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->c(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)V
+    invoke-static {v0}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;->d(Lcom/huawei/appgallery/detail/detailbase/basecard/detailscreen/screencard/ScreenCardView;)V
 
     .line 6
     .line 7

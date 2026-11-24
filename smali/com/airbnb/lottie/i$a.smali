@@ -19,7 +19,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/FutureTask<",
-        "Lcom/huawei/appmarket/i15<",
+        "Lcom/huawei/appmarket/l15<",
         "TT;>;>;"
     }
 .end annotation
@@ -45,7 +45,7 @@
             "Lcom/airbnb/lottie/i<",
             "TT;>;",
             "Ljava/util/concurrent/Callable<",
-            "Lcom/huawei/appmarket/i15<",
+            "Lcom/huawei/appmarket/l15<",
             "TT;>;>;)V"
         }
     .end annotation
@@ -85,9 +85,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/huawei/appmarket/i15;
+    check-cast v2, Lcom/huawei/appmarket/l15;
 
-    invoke-static {v1, v2}, Lcom/airbnb/lottie/i;->b(Lcom/airbnb/lottie/i;Lcom/huawei/appmarket/i15;)V
+    invoke-static {v1, v2}, Lcom/airbnb/lottie/i;->b(Lcom/airbnb/lottie/i;Lcom/huawei/appmarket/l15;)V
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_1 .. :try_end_1} :catch_0
@@ -112,11 +112,11 @@
     :try_start_2
     iget-object v2, p0, Lcom/airbnb/lottie/i$a;->b:Lcom/airbnb/lottie/i;
 
-    new-instance v3, Lcom/huawei/appmarket/i15;
+    new-instance v3, Lcom/huawei/appmarket/l15;
 
-    invoke-direct {v3, v1}, Lcom/huawei/appmarket/i15;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v3, v1}, Lcom/huawei/appmarket/l15;-><init>(Ljava/lang/Throwable;)V
 
-    invoke-static {v2, v3}, Lcom/airbnb/lottie/i;->b(Lcom/airbnb/lottie/i;Lcom/huawei/appmarket/i15;)V
+    invoke-static {v2, v3}, Lcom/airbnb/lottie/i;->b(Lcom/airbnb/lottie/i;Lcom/huawei/appmarket/l15;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 

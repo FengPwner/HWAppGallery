@@ -49,7 +49,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     invoke-virtual {p3}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailnotice/DetailNoticeCardBean$NoticeItemBean;->getTitle_()Ljava/lang/String;
 
@@ -116,13 +116,13 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    new-instance p2, Lcom/huawei/appmarket/tf7;
+    new-instance p2, Lcom/huawei/appmarket/yf7;
 
     new-instance v0, Lcom/huawei/appgallery/detail/detailbase/basecard/detailnotice/DetailNoticeGeneralCard$a;
 
     invoke-direct {v0, p0, p3}, Lcom/huawei/appgallery/detail/detailbase/basecard/detailnotice/DetailNoticeGeneralCard$a;-><init>(Lcom/huawei/appgallery/detail/detailbase/basecard/detailnotice/DetailNoticeGeneralCard;Lcom/huawei/appgallery/detail/detailbase/basecard/detailnotice/DetailNoticeCardBean$NoticeItemBean;)V
 
-    invoke-direct {p2, v0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {p2, v0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -723,7 +723,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/z84;->x(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p1, v0, v1, v2}, Lcom/huawei/appmarket/tr2;->w(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 9
     .line 10
@@ -828,7 +828,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final z1(Landroid/view/View;)V
@@ -837,11 +836,11 @@
     .line 1
     const v0, 0x7f0a0609
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->I(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->I(ILandroid/view/View;)V
 
     const v0, 0x7f0a05fb
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->M(ILandroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->M(ILandroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 

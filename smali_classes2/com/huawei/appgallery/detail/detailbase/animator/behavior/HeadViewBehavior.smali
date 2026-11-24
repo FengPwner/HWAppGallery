@@ -64,30 +64,32 @@
     .line 1
     invoke-static {}, Lcom/huawei/appmarket/e80;->d()I
 
-    move-result v3
+    move-result v2
 
-    iput v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
+    iput v2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
+
+    iget v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 2
     invoke-static {}, Lcom/huawei/appmarket/e80;->f()I
 
     move-result v4
 
-    sub-int/2addr v2, v4
+    sub-int/2addr v3, v4
 
     invoke-static {}, Lcom/huawei/appmarket/e80;->n()I
 
     move-result v4
 
-    add-int/2addr v4, v2
+    add-int/2addr v4, v3
 
-    int-to-float v2, v4
+    int-to-float v3, v4
 
-    iput v2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+    iput v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
 
-    const/4 v2, 0x1
+    const/4 v3, 0x1
 
-    iput-boolean v2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
+    iput-boolean v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
@@ -105,7 +107,7 @@
 
     add-float/2addr v1, v0
 
-    int-to-float v0, v3
+    int-to-float v0, v2
 
     sub-float/2addr v1, v0
 
@@ -138,30 +140,32 @@
     .line 3
     invoke-static {}, Lcom/huawei/appmarket/e80;->d()I
 
-    move-result v1
+    move-result v0
 
-    iput v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
+    iput v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
+
+    iget v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 4
     invoke-static {}, Lcom/huawei/appmarket/e80;->f()I
 
     move-result v2
 
-    sub-int/2addr v0, v2
+    sub-int/2addr v1, v2
 
     invoke-static {}, Lcom/huawei/appmarket/e80;->n()I
 
     move-result v2
 
-    add-int/2addr v2, v0
+    add-int/2addr v2, v1
 
-    int-to-float v0, v2
+    int-to-float v1, v2
 
-    iput v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+    iput v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
 
-    const/4 v0, 0x1
+    const/4 v1, 0x1
 
-    iput-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
+    iput-boolean v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
 
     iput-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
@@ -179,7 +183,7 @@
 
     add-float/2addr p2, p1
 
-    int-to-float p1, v1
+    int-to-float p1, v0
 
     sub-float/2addr p2, p1
 
@@ -236,7 +240,7 @@
 .end method
 
 .method public final d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z
-    .registers 15
+    .registers 12
 
     .line 1
     iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
@@ -248,7 +252,7 @@
     .line 4
     .line 5
     .line 6
-    const v1, 0x7f0a17f8
+    const v1, 0x7f0a17f9
 
     .line 7
     .line 8
@@ -491,7 +495,7 @@
 
     .line 124
     .line 125
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/wi1;->d(Landroid/content/Context;[Landroid/view/View;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/zi1;->d(Landroid/content/Context;[Landroid/view/View;)V
 
     .line 126
     .line 127
@@ -500,597 +504,601 @@
 
     .line 129
     .line 130
-    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
+    if-eqz p1, :cond_6
 
     .line 131
     .line 132
-    if-eqz p1, :cond_6
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
     .line 133
     .line 134
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
-
     .line 135
-    .line 136
-    .line 137
-    move-result v1
+    move-result v0
 
+    .line 136
+    iget v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
+
+    .line 137
     .line 138
-    add-int/lit8 v4, v0, 0x1
+    add-int/2addr v1, v3
 
     .line 139
+    int-to-float v1, v1
+
     .line 140
-    int-to-float v4, v4
+    cmpl-float v0, v0, v1
 
     .line 141
-    cmpl-float v1, v1, v4
-
     .line 142
-    .line 143
-    if-lez v1, :cond_5
+    if-lez v0, :cond_5
 
+    .line 143
     .line 144
-    .line 145
     const/4 p2, 0x1
 
-    .line 146
+    .line 145
     :cond_5
     invoke-virtual {p1, p2}, Landroid/view/View;->setImportantForAccessibility(I)V
 
+    .line 146
     .line 147
     .line 148
-    .line 149
     :cond_6
     invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
+    .line 149
     .line 150
     .line 151
-    .line 152
     move-result p1
 
-    .line 153
-    int-to-float p2, v0
+    .line 152
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
+    .line 153
     .line 154
-    iget v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+    int-to-float p2, p2
 
     .line 155
-    .line 156
-    iget v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
+    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->d:I
 
+    .line 156
     .line 157
+    const/4 v1, 0x0
+
     .line 158
-    const/4 v4, 0x0
+    const-string v3, "HeadViewBehavior"
 
     .line 159
-    const-string v5, "HeadViewBehavior"
-
     .line 160
-    .line 161
-    const/high16 v6, 0x3f800000    # 1.0f
+    const/high16 v4, 0x3f800000    # 1.0f
 
+    .line 161
     .line 162
-    .line 163
     cmpl-float p1, p1, p2
 
+    .line 163
     .line 164
-    .line 165
     if-ltz p1, :cond_f
 
+    .line 165
     .line 166
-    .line 167
     iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->n:F
 
+    .line 167
     .line 168
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
+
     .line 169
-    iget v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
-
     .line 170
+    cmpg-float p2, p2, v1
+
     .line 171
-    cmpg-float v7, v7, v4
-
     .line 172
+    if-gez p2, :cond_7
+
     .line 173
-    if-gez v7, :cond_7
-
     .line 174
+    iput v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
+
     .line 175
-    iput v4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
-
     .line 176
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+
     .line 177
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
-
     .line 178
-    .line 179
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 179
     .line 180
     .line 181
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+
     .line 182
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
-
     .line 183
-    .line 184
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 184
     .line 185
     .line 186
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+
     .line 187
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
-
     .line 188
-    .line 189
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 189
     .line 190
     .line 191
-    .line 192
     :cond_7
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
+    .line 192
     .line 193
+    if-eqz p2, :cond_8
+
     .line 194
-    if-eqz v7, :cond_8
-
     .line 195
-    .line 196
-    invoke-virtual {v7}, Landroid/view/View;->getY()F
+    invoke-virtual {p2}, Landroid/view/View;->getY()F
 
+    .line 196
     .line 197
     .line 198
+    move-result p2
+
     .line 199
-    move-result v7
+    cmpl-float p2, p2, v1
 
     .line 200
-    cmpl-float v7, v7, v4
-
     .line 201
+    if-eqz p2, :cond_8
+
     .line 202
-    if-eqz v7, :cond_8
-
     .line 203
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+
     .line 204
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
-
     .line 205
-    .line 206
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 206
     .line 207
     .line 208
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+
     .line 209
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
-
     .line 210
-    .line 211
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 211
     .line 212
     .line 213
-    .line 214
     :cond_8
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
 
+    .line 214
     .line 215
+    if-eqz p2, :cond_9
+
     .line 216
-    if-eqz v7, :cond_9
-
     .line 217
-    .line 218
-    invoke-virtual {v7}, Landroid/view/View;->getY()F
+    invoke-virtual {p2}, Landroid/view/View;->getY()F
 
+    .line 218
     .line 219
     .line 220
+    move-result p2
+
     .line 221
-    move-result v7
+    cmpl-float p2, p2, v1
 
     .line 222
-    cmpl-float v7, v7, v4
-
     .line 223
+    if-eqz p2, :cond_9
+
     .line 224
-    if-eqz v7, :cond_9
-
     .line 225
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+
     .line 226
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
-
     .line 227
-    .line 228
-    invoke-static {v7, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 228
     .line 229
     .line 230
-    .line 231
     :cond_9
-    iget v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
 
+    .line 231
     .line 232
+    int-to-float p2, p2
+
     .line 233
-    int-to-float v7, v7
+    iget v5, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->b:F
 
     .line 234
-    iget v8, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->b:F
-
     .line 235
+    cmpg-float p2, p2, v5
+
     .line 236
-    cmpg-float v7, v7, v8
-
     .line 237
-    .line 238
-    if-gtz v7, :cond_d
+    if-gtz p2, :cond_d
 
+    .line 238
     .line 239
-    .line 240
     invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
+    .line 240
     .line 241
     .line 242
+    move-result p2
+
     .line 243
-    move-result v7
+    invoke-static {p2, v5}, Ljava/lang/Math;->min(FF)F
 
     .line 244
-    invoke-static {v7, v8}, Ljava/lang/Math;->min(FF)F
-
     .line 245
     .line 246
+    move-result p2
+
     .line 247
-    move-result v7
+    iget v6, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 248
-    sub-float v9, v7, p2
-
     .line 249
+    int-to-float v6, v6
+
     .line 250
-    sub-float/2addr v8, p2
+    sub-float v7, p2, v6
 
     .line 251
-    div-float/2addr v9, v8
-
     .line 252
-    float-to-int v7, v7
+    sub-float/2addr v5, v6
 
     .line 253
-    iput v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+    div-float/2addr v7, v5
 
     .line 254
+    float-to-int p2, p2
+
     .line 255
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    iput p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
 
     .line 256
     .line 257
-    iget v8, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->q:F
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
     .line 258
     .line 259
-    if-eqz v7, :cond_a
+    iget v5, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->q:F
 
     .line 260
     .line 261
-    invoke-virtual {v7}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    if-eqz p2, :cond_a
 
     .line 262
     .line 263
+    invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
     .line 264
-    move-result-object v7
-
     .line 265
-    mul-float v10, v9, v8
-
     .line 266
+    move-result-object p2
+
     .line 267
-    float-to-int v10, v10
+    mul-float v6, v7, v5
 
     .line 268
-    add-int/2addr v10, v3
-
     .line 269
-    iput v10, v7, Landroid/view/ViewGroup$LayoutParams;->height:I
+    float-to-int v6, v6
 
     .line 270
+    add-int/2addr v6, v0
+
     .line 271
-    iget-object v10, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    iput v6, p2, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 272
     .line 273
-    invoke-virtual {v10, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    iget-object v6, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
     .line 274
     .line 275
-    .line 276
-    :cond_a
-    iget-object v7, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+    invoke-virtual {v6, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 276
     .line 277
     .line 278
-    if-eqz v7, :cond_b
+    :cond_a
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
 
     .line 279
     .line 280
-    invoke-virtual {v7}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    if-eqz p2, :cond_b
 
     .line 281
     .line 282
+    invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
     .line 283
-    move-result-object v7
-
     .line 284
-    mul-float v8, v8, v9
-
     .line 285
+    move-result-object p2
+
     .line 286
-    float-to-int v8, v8
+    mul-float v5, v5, v7
 
     .line 287
-    add-int/2addr v3, v8
-
     .line 288
-    iput v3, v7, Landroid/view/ViewGroup$LayoutParams;->height:I
+    float-to-int v5, v5
 
     .line 289
+    add-int/2addr v0, v5
+
     .line 290
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+    iput v0, p2, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 291
     .line 292
-    invoke-virtual {v3, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
 
     .line 293
     .line 294
-    .line 295
-    :cond_b
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+    invoke-virtual {v0, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 295
     .line 296
     .line 297
-    sub-float v7, v6, v9
+    :cond_b
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
 
     .line 298
     .line 299
-    mul-float v4, v4, v7
+    sub-float v0, v4, v7
 
     .line 300
     .line 301
-    invoke-static {v3, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    mul-float v1, v1, v0
 
     .line 302
     .line 303
-    .line 304
-    iget-boolean v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 304
     .line 305
     .line 306
-    if-eqz v3, :cond_d
+    iget-boolean p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
 
     .line 307
     .line 308
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    if-eqz p2, :cond_d
 
     .line 309
     .line 310
-    invoke-static {v3, v7}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
     .line 311
     .line 312
-    .line 313
-    iget-boolean v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
+    invoke-static {p2, v0}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
 
+    .line 313
     .line 314
     .line 315
-    if-eqz v3, :cond_c
+    iget-boolean p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
     .line 316
     .line 317
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+    if-eqz p2, :cond_c
 
     .line 318
     .line 319
-    invoke-static {v3, v7}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
 
     .line 320
     .line 321
-    .line 322
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+    invoke-static {p2, v0}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
 
+    .line 322
     .line 323
     .line 324
-    invoke-static {v3, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
 
     .line 325
     .line 326
-    .line 327
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    invoke-static {p2, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
+    .line 327
     .line 328
     .line 329
-    :goto_1
-    invoke-static {v3, v9}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     .line 330
     .line 331
+    :goto_1
+    invoke-static {p2, v7}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+
     .line 332
+    .line 333
+    .line 334
     goto :goto_2
 
-    .line 333
-    :cond_c
-    iget-object v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
-
-    .line 334
     .line 335
-    goto :goto_1
+    :cond_c
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
 
     .line 336
+    .line 337
+    goto :goto_1
+
+    .line 338
     :cond_d
     :goto_2
-    iget-boolean v3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
-
-    .line 337
-    .line 338
-    if-eqz v3, :cond_16
+    iget-boolean p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
 
     .line 339
     .line 340
-    :try_start_0
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+    if-eqz p2, :cond_16
 
     .line 341
     .line 342
+    :try_start_0
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+
     .line 343
-    move-result v3
-
     .line 344
-    sub-float/2addr v3, p2
-
     .line 345
-    sub-float v4, p1, p2
+    move-result p2
 
     .line 346
-    .line 347
-    div-float/2addr v3, v4
+    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
+    .line 347
     .line 348
-    iget-boolean v4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
+    int-to-float v0, v0
 
     .line 349
+    sub-float/2addr p2, v0
+
     .line 350
-    if-eqz v4, :cond_e
+    sub-float v0, p1, v0
 
     .line 351
     .line 352
-    iget-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    div-float/2addr p2, v0
 
     .line 353
-    .line 354
-    invoke-static {v4, v3}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    iget-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
+    .line 354
     .line 355
+    if-eqz v0, :cond_e
+
     .line 356
     .line 357
-    iget-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     .line 358
     .line 359
-    :goto_3
-    sub-float/2addr v6, v3
+    invoke-static {v0, p2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
 
     .line 360
-    mul-float v6, v6, v1
-
     .line 361
     .line 362
-    invoke-static {v4, v6}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
     .line 363
     .line 364
-    .line 365
-    goto/16 :goto_7
+    :goto_3
+    iget v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
 
+    .line 365
     .line 366
+    sub-float/2addr v4, p2
+
     .line 367
-    :cond_e
-    iget-object v4, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    mul-float v4, v4, v1
 
     .line 368
     .line 369
-    goto :goto_3
+    invoke-static {v0, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
     .line 370
-    :catch_0
-    sget-object v1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
-
     .line 371
     .line 372
-    new-instance v3, Ljava/lang/StringBuilder;
+    goto/16 :goto_7
 
     .line 373
     .line 374
-    const-string v4, "divisor is zero, maxHeight = "
+    :cond_e
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 375
     .line 376
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    goto :goto_3
 
     .line 377
+    :catch_0
+    sget-object p2, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
+
     .line 378
     .line 379
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    new-instance v0, Ljava/lang/StringBuilder;
 
     .line 380
     .line 381
+    const-string v1, "divisor is zero, maxHeight = "
+
     .line 382
-    const-string p1, " headViewHeight = "
-
     .line 383
-    .line 384
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 384
     .line 385
     .line 386
-    .line 387
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
+    .line 387
     .line 388
     .line 389
-    .line 390
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    const-string p1, " headViewHeight = "
 
+    .line 390
     .line 391
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 392
     .line 393
-    move-result-object p1
-
     .line 394
-    invoke-virtual {v1, v5, p1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 395
     .line 396
-    .line 397
-    goto/16 :goto_7
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
+    .line 397
     .line 398
     .line 399
-    :cond_f
-    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 400
     .line 401
-    if-eqz p1, :cond_13
-
     .line 402
+    move-result-object p1
+
     .line 403
-    iput v2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+    invoke-virtual {p2, v3, p1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 404
     .line 405
-    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
-
     .line 406
+    goto/16 :goto_7
+
     .line 407
-    if-eqz p1, :cond_11
-
     .line 408
+    :cond_f
+    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+
     .line 409
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
-
     .line 410
-    .line 411
-    invoke-static {p1, v6}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    if-eqz p1, :cond_13
 
+    .line 411
     .line 412
+    iput v2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->l:I
+
     .line 413
     .line 414
-    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
+    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->j:Z
 
     .line 415
     .line 416
-    if-eqz p1, :cond_10
+    if-eqz p1, :cond_11
 
     .line 417
     .line 418
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
     .line 419
     .line 420
@@ -1099,345 +1107,367 @@
     .line 421
     .line 422
     .line 423
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
     .line 424
     .line 425
-    invoke-static {p1, v6}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+    if-eqz p1, :cond_10
 
     .line 426
     .line 427
-    .line 428
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
-
-    .line 429
-    .line 430
-    invoke-static {p1, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
-
-    .line 431
-    .line 432
-    .line 433
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
 
-    .line 434
-    .line 435
-    :goto_4
-    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    .line 428
+    .line 429
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
 
+    .line 430
+    .line 431
+    .line 432
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+
+    .line 433
+    .line 434
+    invoke-static {p1, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+
+    .line 435
     .line 436
     .line 437
-    .line 438
-    goto :goto_5
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
 
+    .line 438
     .line 439
-    :cond_10
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
     .line 440
     .line 441
-    invoke-static {p1, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
-
     .line 442
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 443
     .line 444
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
+    :goto_4
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
 
     .line 445
     .line 446
-    goto :goto_4
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
     .line 447
+    .line 448
+    .line 449
+    goto :goto_5
+
+    .line 450
+    :cond_10
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
+
+    .line 451
+    .line 452
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->u(Landroid/view/View;F)V
+
+    .line 453
+    .line 454
+    .line 455
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->i:Landroid/widget/ImageView;
+
+    .line 456
+    .line 457
+    goto :goto_4
+
+    .line 458
     :cond_11
     :goto_5
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
-    .line 448
-    .line 449
+    .line 459
+    .line 460
     if-eqz p1, :cond_12
 
-    .line 450
-    .line 451
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
-    .line 452
-    .line 453
-    .line 454
-    move-result-object p1
-
-    .line 455
-    iput v3, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
-
-    .line 456
-    .line 457
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
-
-    .line 458
-    .line 459
-    invoke-virtual {v0, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 460
     .line 461
     .line 462
-    :cond_12
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 463
     .line 464
-    if-eqz p1, :cond_13
-
     .line 465
+    move-result-object p1
+
     .line 466
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 467
     .line 468
-    .line 469
-    move-result-object p1
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
 
+    .line 469
     .line 470
-    iput v3, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
+    invoke-virtual {p2, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 471
     .line 472
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
-
     .line 473
-    .line 474
-    invoke-virtual {v0, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    :cond_12
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
 
+    .line 474
     .line 475
+    if-eqz p1, :cond_13
+
     .line 476
     .line 477
-    :cond_13
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 478
     .line 479
     .line 480
-    move-result p1
+    move-result-object p1
 
     .line 481
-    sub-float p1, p2, p1
+    iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 482
     .line 483
-    neg-float p1, p1
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
 
     .line 484
-    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
-
     .line 485
-    .line 486
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+    invoke-virtual {p2, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
+    .line 486
     .line 487
     .line 488
-    invoke-static {v0, p1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    :cond_13
+    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 489
     .line 490
+    int-to-float p1, p1
+
     .line 491
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
     .line 492
     .line 493
-    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
-
     .line 494
+    move-result p2
+
     .line 495
-    invoke-static {p1, v0}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+    sub-float/2addr p1, p2
 
     .line 496
+    neg-float p1, p1
+
     .line 497
+    iput p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
+
     .line 498
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
-
     .line 499
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->f:Landroid/widget/ImageView;
+
     .line 500
-    iget v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
-
     .line 501
+    invoke-static {p2, p1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+
     .line 502
-    add-float/2addr v4, v0
-
     .line 503
-    invoke-static {p1, v4}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
-
     .line 504
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->g:Landroid/widget/RelativeLayout;
+
     .line 505
     .line 506
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->h:Landroid/widget/TextView;
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
 
     .line 507
     .line 508
-    if-nez p1, :cond_14
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
 
     .line 509
     .line 510
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
-
     .line 511
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->p:Landroid/widget/FrameLayout;
+
     .line 512
-    const-string v0, "scrollingMasking\uff1asafeText is null"
-
     .line 513
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->m:F
+
     .line 514
-    invoke-virtual {p1, v5, v0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 515
+    add-float/2addr v1, p2
+
     .line 516
+    invoke-static {p1, v1}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->w(Landroid/view/View;F)V
+
     .line 517
-    goto :goto_7
-
     .line 518
-    :cond_14
-    const/high16 p1, 0x41f80000    # 31.0f
-
     .line 519
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->h:Landroid/widget/TextView;
+
     .line 520
-    mul-float p1, p1, p2
-
     .line 521
+    if-nez p1, :cond_14
+
     .line 522
-    const/high16 v0, 0x42200000    # 40.0f
-
     .line 523
-    .line 524
-    div-float/2addr p1, v0
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
+    .line 524
     .line 525
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+    const-string p2, "scrollingMasking\uff1asafeText is null"
 
     .line 526
     .line 527
+    invoke-virtual {p1, v3, p2}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 528
-    move-result v0
-
     .line 529
-    cmpg-float v0, v0, p1
-
     .line 530
+    goto :goto_7
+
     .line 531
-    if-gez v0, :cond_15
+    :cond_14
+    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
 
     .line 532
     .line 533
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+    int-to-float p1, p1
 
     .line 534
+    const/high16 p2, 0x41f80000    # 31.0f
+
     .line 535
     .line 536
-    move-result v0
+    mul-float p1, p1, p2
 
     .line 537
-    sub-float/2addr p1, v0
-
     .line 538
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    const/high16 p2, 0x42200000    # 40.0f
 
     .line 539
     .line 540
+    div-float/2addr p1, p2
+
     .line 541
-    move-result p1
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
     .line 542
-    neg-float p1, p1
-
     .line 543
-    float-to-int p1, p1
-
     .line 544
-    goto :goto_6
+    move-result p2
 
     .line 545
+    cmpg-float p2, p2, p1
+
+    .line 546
+    .line 547
+    if-gez p2, :cond_15
+
+    .line 548
+    .line 549
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
+
+    .line 550
+    .line 551
+    .line 552
+    move-result p2
+
+    .line 553
+    sub-float/2addr p1, p2
+
+    .line 554
+    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+
+    .line 555
+    .line 556
+    .line 557
+    move-result p1
+
+    .line 558
+    neg-float p1, p1
+
+    .line 559
+    float-to-int p1, p1
+
+    .line 560
+    goto :goto_6
+
+    .line 561
     :cond_15
     const/4 p1, 0x0
 
-    .line 546
+    .line 562
     :goto_6
-    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->h:Landroid/widget/TextView;
+    iget-object p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->h:Landroid/widget/TextView;
 
-    .line 547
-    .line 548
-    invoke-virtual {v0, v2, p1, v2, v2}, Landroid/widget/TextView;->setPadding(IIII)V
+    .line 563
+    .line 564
+    invoke-virtual {p2, v2, p1, v2, v2}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 549
-    .line 550
-    .line 551
+    .line 565
+    .line 566
+    .line 567
     :cond_16
     :goto_7
     iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
-    .line 552
-    .line 553
-    if-eqz p1, :cond_18
-
-    .line 554
-    .line 555
-    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
-
-    .line 556
-    .line 557
-    .line 558
-    move-result p1
-
-    .line 559
-    cmpl-float p1, p1, p2
-
-    .line 560
-    .line 561
-    if-lez p1, :cond_17
-
-    .line 562
-    .line 563
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
-
-    .line 564
-    .line 565
-    invoke-static {p1, v2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->v(Landroid/view/View;I)V
-
-    .line 566
-    .line 567
     .line 568
-    goto :goto_8
-
     .line 569
-    :cond_17
-    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+    if-eqz p1, :cond_18
 
     .line 570
     .line 571
-    const/16 p2, 0x8
+    invoke-virtual {p3}, Landroid/view/View;->getTranslationY()F
 
     .line 572
     .line 573
-    invoke-static {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->v(Landroid/view/View;I)V
-
     .line 574
+    move-result p1
+
     .line 575
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
+
     .line 576
-    :cond_18
-    :goto_8
-    return v2
     .line 577
+    int-to-float p2, p2
+
     .line 578
+    cmpl-float p1, p1, p2
+
     .line 579
     .line 580
+    if-lez p1, :cond_17
+
     .line 581
     .line 582
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 583
     .line 584
+    invoke-static {p1, v2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->v(Landroid/view/View;I)V
+
     .line 585
     .line 586
     .line 587
+    goto :goto_8
+
     .line 588
+    :cond_17
+    iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->o:Lcom/huawei/appgallery/videokit/api/WiseVideoView;
+
     .line 589
     .line 590
+    const/16 p2, 0x8
+
     .line 591
     .line 592
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->v(Landroid/view/View;I)V
+
     .line 593
     .line 594
     .line 595
+    :cond_18
+    :goto_8
+    return v2
     .line 596
     .line 597
     .line 598
@@ -2121,6 +2151,28 @@
 
     iput-boolean p3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->a:Z
 
+    invoke-static {}, Lcom/huawei/appmarket/e80;->j()I
+
+    move-result p3
+
+    iput p3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->c:I
+
+    invoke-static {}, Lcom/huawei/appmarket/e80;->f()I
+
+    move-result v1
+
+    sub-int/2addr p3, v1
+
+    invoke-static {}, Lcom/huawei/appmarket/e80;->n()I
+
+    move-result v1
+
+    add-int/2addr v1, p3
+
+    int-to-float p3, v1
+
+    iput p3, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+
     const p3, 0x7f0a0ada
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2149,7 +2201,7 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    const p3, 0x7f0a17f8
+    const p3, 0x7f0a17f9
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2190,8 +2242,6 @@
     :cond_0
     iget-boolean p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->k:Z
 
-    iget v1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
-
     if-eqz p1, :cond_1
 
     invoke-static {p2, p3}, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->v(Landroid/view/View;I)V
@@ -2208,7 +2258,9 @@
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1, v1}, Landroid/view/View;->setY(F)V
+    iget p2, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+
+    invoke-virtual {p1, p2}, Landroid/view/View;->setY(F)V
 
     goto :goto_0
 
@@ -2225,7 +2277,9 @@
 
     if-eqz p2, :cond_2
 
-    invoke-virtual {p2, v1}, Landroid/view/View;->setY(F)V
+    iget p1, p0, Lcom/huawei/appgallery/detail/detailbase/animator/behavior/HeadViewBehavior;->e:F
+
+    invoke-virtual {p2, p1}, Landroid/view/View;->setY(F)V
 
     :cond_2
     :goto_0

@@ -1,100 +1,50 @@
-.class public final enum Lcom/huawei/appmarket/pc2;
-.super Ljava/lang/Enum;
+.class public interface abstract Lcom/huawei/appmarket/pc2;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/huawei/appmarket/pc2;",
-        ">;"
-    }
-.end annotation
-
-
-# static fields
-.field public static final enum b:Lcom/huawei/appmarket/pc2;
-
-.field private static final synthetic c:[Lcom/huawei/appmarket/pc2;
-
-
-# direct methods
-.method static constructor <clinit>()V
-    .registers 5
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/pc2;
-
-    const-string v1, "FROM_CACHE"
-
-    const/4 v2, 0x0
-
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/pc2;-><init>(Ljava/lang/String;I)V
-
-    new-instance v1, Lcom/huawei/appmarket/pc2;
-
-    const-string v3, "FROM_SERVER"
-
-    const/4 v4, 0x1
-
-    invoke-direct {v1, v3, v4}, Lcom/huawei/appmarket/pc2;-><init>(Ljava/lang/String;I)V
-
-    sput-object v1, Lcom/huawei/appmarket/pc2;->b:Lcom/huawei/appmarket/pc2;
-
-    const/4 v3, 0x2
-
-    new-array v3, v3, [Lcom/huawei/appmarket/pc2;
-
-    aput-object v0, v3, v2
-
-    aput-object v1, v3, v4
-
-    sput-object v3, Lcom/huawei/appmarket/pc2;->c:[Lcom/huawei/appmarket/pc2;
-
-    return-void
+# virtual methods
+.method public abstract b()J
 .end method
 
-.method private constructor <init>(Ljava/lang/String;I)V
-    .registers 3
+.method public abstract c()Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()V"
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
         }
     .end annotation
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lcom/huawei/appmarket/pc2;
-    .registers 2
-
-    .line 1
-    const-class v0, Lcom/huawei/appmarket/pc2;
-
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
-
-    move-result-object p0
-
-    check-cast p0, Lcom/huawei/appmarket/pc2;
-
-    return-object p0
+.method public abstract d()I
 .end method
 
-.method public static values()[Lcom/huawei/appmarket/pc2;
-    .registers 1
+.method public abstract e()Ljava/lang/String;
+.end method
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/pc2;->c:[Lcom/huawei/appmarket/pc2;
+.method public abstract f()Ljava/lang/String;
+.end method
 
-    invoke-virtual {v0}, [Lcom/huawei/appmarket/pc2;->clone()Ljava/lang/Object;
+.method public abstract g()Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end method
 
-    move-result-object v0
+.method public abstract getAppId()Ljava/lang/String;
+.end method
 
-    check-cast v0, [Lcom/huawei/appmarket/pc2;
+.method public abstract getClientVersion()Ljava/lang/String;
+.end method
 
-    return-object v0
+.method public abstract getServiceCountry()Ljava/lang/String;
 .end method

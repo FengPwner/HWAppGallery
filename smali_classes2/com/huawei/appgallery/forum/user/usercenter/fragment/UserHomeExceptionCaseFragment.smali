@@ -47,11 +47,11 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    sget-object p2, Lcom/huawei/appmarket/mq3;->a:Lcom/huawei/appmarket/wo2;
+    sget-object p2, Lcom/huawei/appmarket/oq3;->a:Lcom/huawei/appmarket/yo2;
 
     iget p3, p0, Lcom/huawei/appgallery/forum/user/usercenter/fragment/UserHomeExceptionCaseFragment;->f0:I
 
-    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/wo2;->a(I)Lcom/huawei/appmarket/xo2;
+    invoke-virtual {p2, p3}, Lcom/huawei/appmarket/yo2;->a(I)Lcom/huawei/appmarket/zo2;
 
     move-result-object p2
 
@@ -61,7 +61,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xo2;->a()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zo2;->a()I
 
     move-result v0
 
@@ -75,7 +75,7 @@
 
     check-cast p3, Landroid/widget/TextView;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/xo2;->b()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/zo2;->b()I
 
     move-result p2
 

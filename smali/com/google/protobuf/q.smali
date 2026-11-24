@@ -491,12 +491,12 @@
     .line 95
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/q;",
             ">;"
         }
@@ -1021,6 +1021,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final bridge synthetic newBuilderForType()Lcom/google/protobuf/b1$a;

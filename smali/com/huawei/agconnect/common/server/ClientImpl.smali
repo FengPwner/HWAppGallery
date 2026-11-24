@@ -21,7 +21,7 @@
             "(",
             "Landroid/content/Context;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/lj4;",
+            "Lcom/huawei/appmarket/nj4;",
             ">;Z)V"
         }
     .end annotation
@@ -57,11 +57,11 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/huawei/appmarket/lj4;
+    check-cast p2, Lcom/huawei/appmarket/nj4;
 
     iget-object v0, p0, Lcom/huawei/agconnect/common/server/ClientImpl;->a:Lcom/huawei/agconnect/https/OKHttpBuilder;
 
-    invoke-virtual {v0, p2}, Lcom/huawei/agconnect/https/OKHttpBuilder;->addInterceptor(Lcom/huawei/appmarket/lj4;)Lcom/huawei/agconnect/https/OKHttpBuilder;
+    invoke-virtual {v0, p2}, Lcom/huawei/agconnect/https/OKHttpBuilder;->addInterceptor(Lcom/huawei/appmarket/nj4;)Lcom/huawei/agconnect/https/OKHttpBuilder;
 
     goto :goto_0
 
@@ -273,26 +273,26 @@
     return-object p0
 .end method
 
-.method public a()Lcom/huawei/appmarket/mn5;
+.method public a()Lcom/huawei/appmarket/nn5;
     .registers 2
 
     .line 3
     iget-object v0, p0, Lcom/huawei/agconnect/common/server/ClientImpl;->a:Lcom/huawei/agconnect/https/OKHttpBuilder;
 
-    invoke-virtual {v0}, Lcom/huawei/agconnect/https/OKHttpBuilder;->build()Lcom/huawei/appmarket/mn5;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/https/OKHttpBuilder;->build()Lcom/huawei/appmarket/nn5;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public a(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/mn5;
+.method public a(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/nn5;
     .registers 5
 
     .line 4
     iget-object v0, p0, Lcom/huawei/agconnect/common/server/ClientImpl;->a:Lcom/huawei/agconnect/https/OKHttpBuilder;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/agconnect/https/OKHttpBuilder;->buildWithTimeOut(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/mn5;
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/agconnect/https/OKHttpBuilder;->buildWithTimeOut(JLjava/util/concurrent/TimeUnit;)Lcom/huawei/appmarket/nn5;
 
     move-result-object p1
 

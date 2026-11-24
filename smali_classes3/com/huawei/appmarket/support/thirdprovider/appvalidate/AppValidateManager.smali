@@ -49,7 +49,7 @@
     .registers 7
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 2
     .line 3
@@ -81,7 +81,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bu0;->v(Ljava/lang/StringBuilder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/kd0;->w(Ljava/lang/StringBuilder;ILjava/lang/String;)V
 
     .line 18
     .line 19
@@ -91,11 +91,11 @@
 
     .line 21
     .line 22
-    const-class v1, Lcom/huawei/appmarket/ai3;
+    const-class v1, Lcom/huawei/appmarket/ci3;
 
     .line 23
     .line 24
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -103,7 +103,7 @@
     move-result-object v0
 
     .line 28
-    check-cast v0, Lcom/huawei/appmarket/ai3;
+    check-cast v0, Lcom/huawei/appmarket/ci3;
 
     .line 29
     .line 30
@@ -116,7 +116,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-interface {v0, p2, p3, v1}, Lcom/huawei/appmarket/ai3;->b([Ljava/lang/String;[Ljava/lang/String;Lcom/huawei/appmarket/bi3;)V
+    invoke-interface {v0, p2, p3, v1}, Lcom/huawei/appmarket/ci3;->b([Ljava/lang/String;[Ljava/lang/String;Lcom/huawei/appmarket/di3;)V
 
     .line 36
     .line 37
@@ -450,29 +450,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method private getNextRequestSequence()I
@@ -519,7 +496,7 @@
 
     const-string v4, "UrlRecognitionManager"
 
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Lcom/huawei/appmarket/support/thirdprovider/appvalidate/AppValidateManager$TimeoutQueryRequest;
 
@@ -545,7 +522,7 @@
 
     move-result-object p1
 
-    invoke-static {v4, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/huawei/appmarket/support/thirdprovider/appvalidate/AppValidateManager$TimeoutQueryRequest;->getResult()Landroid/database/MatrixCursor;
 

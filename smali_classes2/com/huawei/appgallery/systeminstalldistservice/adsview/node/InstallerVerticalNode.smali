@@ -67,11 +67,11 @@
     return p1
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 4
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/qh4;->r()Lcom/huawei/appmarket/qh4;
+    invoke-static {}, Lcom/huawei/appmarket/sh4;->r()Lcom/huawei/appmarket/sh4;
 
     .line 2
     .line 3
@@ -79,7 +79,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appmarket/qh4;->q()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/sh4;->q()Z
 
     .line 6
     .line 7
@@ -95,7 +95,7 @@
 
     .line 12
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/o2;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     .line 13
     .line 14
@@ -249,5 +249,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

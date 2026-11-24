@@ -999,7 +999,7 @@
 
     .line 445
     .line 446
-    invoke-static {v15, v10}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v15, v10}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 447
     .line 448

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/l14;
+.implements Lcom/huawei/appmarket/n14;
 
 
 # annotations
@@ -19,7 +19,7 @@
         "Lcom/huawei/appgallery/foundation/service/common/protocol/AppListFragmentProtocol<",
         "Lcom/huawei/appgallery/foundation/service/common/protocol/request/AppListFragmentRequest;",
         ">;>;",
-        "Lcom/huawei/appmarket/l14;"
+        "Lcom/huawei/appmarket/n14;"
     }
 .end annotation
 
@@ -37,7 +37,7 @@
 
 .field private G3:Landroid/view/View;
 
-.field private final H3:Lcom/huawei/appmarket/bt4;
+.field private final H3:Lcom/huawei/appmarket/et4;
 
 
 # direct methods
@@ -48,7 +48,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->I3:Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$a;
 
@@ -70,42 +70,42 @@
 
     invoke-direct {v0, p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2$c;-><init>(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/gt4;->a(Lcom/huawei/appmarket/os2;)Lcom/huawei/appmarket/bt4;
+    invoke-static {v0}, Lcom/huawei/appmarket/jt4;->a(Lcom/huawei/appmarket/rs2;)Lcom/huawei/appmarket/et4;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->H3:Lcom/huawei/appmarket/bt4;
+    iput-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->H3:Lcom/huawei/appmarket/et4;
 
     return-void
 .end method
 
-.method public static final synthetic B6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+.method public static final synthetic C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final synthetic C6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;I)V
+.method public static final synthetic D6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;I)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(I)V
 
     return-void
 .end method
 
-.method private final D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+.method private final E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->H3:Lcom/huawei/appmarket/bt4;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->H3:Lcom/huawei/appmarket/et4;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/bt4;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/huawei/appmarket/et4;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -114,7 +114,7 @@
     return-object v0
 .end method
 
-.method private final E6(I)V
+.method private final F6(I)V
     .registers 5
 
     .line 1
@@ -158,11 +158,11 @@
     return-void
 .end method
 
-.method private final F6(ILjava/util/List;)V
+.method private final G6(ILjava/util/List;)V
     .registers 6
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -247,7 +247,7 @@
 
     if-lez v0, :cond_1
 
-    iget-object v2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->H1:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->o1:Ljava/util/ArrayList;
 
     if-eqz v2, :cond_0
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/fu7;
+    check-cast v0, Lcom/huawei/appmarket/lu7;
 
     goto :goto_0
 
@@ -267,7 +267,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fu7;->y()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lu7;->y()Ljava/lang/String;
 
     move-result-object v1
 
@@ -275,14 +275,14 @@
     return-object v1
 .end method
 
-.method public final A6(Ljava/util/List;)V
+.method public final B6(Ljava/util/List;)V
     .registers 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
             "+",
-            "Lcom/huawei/appmarket/fu7;",
+            "Lcom/huawei/appmarket/lu7;",
             ">;)V"
         }
     .end annotation
@@ -290,19 +290,19 @@
     .line 1
     const-string v0, "list"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->o6()I
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()I
 
     move-result v1
 
-    invoke-direct {p0, v1, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(ILjava/util/List;)V
+    invoke-direct {p0, v1, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->G6(ILjava/util/List;)V
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$h;->notifyDataSetChanged()V
 
@@ -316,7 +316,7 @@
 
     move-result p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(I)V
 
     :cond_0
     return-void
@@ -326,7 +326,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -352,7 +352,7 @@
 
     if-ge v2, v0, :cond_1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->H1:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->o1:Ljava/util/ArrayList;
 
     if-eqz v0, :cond_0
 
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/fu7;
+    check-cast v0, Lcom/huawei/appmarket/lu7;
 
     goto :goto_0
 
@@ -370,7 +370,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/fu7;->y()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/lu7;->y()Ljava/lang/String;
 
     move-result-object v1
 
@@ -382,7 +382,7 @@
     .registers 4
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -414,7 +414,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v2
 
@@ -426,7 +426,7 @@
 
     const-string v2, "VerticalMultiTabsFragmentV2"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 .end method
@@ -447,7 +447,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->H1:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->o1:Ljava/util/ArrayList;
 
     .line 5
     .line 6
@@ -455,12 +455,12 @@
 
     .line 7
     .line 8
-    sget-object p1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object p1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 9
     .line 10
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->A6(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->B6(Ljava/util/List;)V
 
     .line 11
     .line 12
@@ -559,14 +559,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final Q()V
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 2
     .line 3
@@ -614,7 +613,7 @@
 
     .line 24
     .line 25
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 26
     .line 27
@@ -744,7 +743,7 @@
     .line 1
     invoke-super {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->h2()V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -755,7 +754,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/cd5;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/fd5;)V
 
     :goto_0
     iget-object v0, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E3:Landroidx/recyclerview/widget/RecyclerView;
@@ -777,24 +776,24 @@
     return-void
 .end method
 
-.method public final j1(Lcom/huawei/appmarket/f14;)V
+.method public final j1(Lcom/huawei/appmarket/h14;)V
     .registers 3
 
     .line 1
     const-string v0, "searchBarAnimationListener"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Lcom/huawei/appmarket/ad5;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->r6()Lcom/huawei/appmarket/dd5;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ad5;->y()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/dd5;->y()V
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->j1(Lcom/huawei/appmarket/f14;)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->j1(Lcom/huawei/appmarket/h14;)V
 
     return-void
 .end method
@@ -950,7 +949,7 @@
     float-to-int v3, v3
 
     .line 71
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->m(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->m(Landroid/content/Context;)I
 
     .line 72
     .line 73
@@ -1005,7 +1004,7 @@
 
     .line 96
     .line 97
-    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->H1:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/huawei/appgallery/pageframe/fragment/BaseListFragmentV2;->o1:Ljava/util/ArrayList;
 
     .line 98
     .line 99
@@ -1013,12 +1012,12 @@
 
     .line 100
     .line 101
-    sget-object v1, Lcom/huawei/appmarket/k02;->b:Lcom/huawei/appmarket/k02;
+    sget-object v1, Lcom/huawei/appmarket/o02;->b:Lcom/huawei/appmarket/o02;
 
     .line 102
     .line 103
     :cond_5
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->o6()I
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->p6()I
 
     .line 104
     .line 105
@@ -1026,7 +1025,7 @@
     move-result v3
 
     .line 107
-    invoke-direct {p0, v3, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(ILjava/util/List;)V
+    invoke-direct {p0, v3, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->G6(ILjava/util/List;)V
 
     .line 108
     .line 109
@@ -1076,7 +1075,7 @@
 
     .line 130
     :cond_7
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 131
     .line 132
@@ -1090,7 +1089,7 @@
     .line 136
     .line 137
     :goto_4
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 138
     .line 139
@@ -1122,13 +1121,13 @@
     move-result v1
 
     .line 153
-    invoke-direct {p0, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6(I)V
+    invoke-direct {p0, v1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(I)V
 
     .line 154
     .line 155
     .line 156
     :cond_8
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 157
     .line 158
@@ -1144,7 +1143,7 @@
 
     .line 163
     :cond_9
-    invoke-virtual {v1, p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/cd5;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;->n(Lcom/huawei/appmarket/fd5;)V
 
     .line 164
     .line 165
@@ -1162,7 +1161,7 @@
 
     .line 171
     .line 172
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Lcom/huawei/appmarket/ad5;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->r6()Lcom/huawei/appmarket/dd5;
 
     .line 173
     .line 174
@@ -1174,13 +1173,13 @@
 
     .line 177
     .line 178
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ad5;->y()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/dd5;->y()V
 
     .line 179
     .line 180
     .line 181
     :cond_a
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Lcom/huawei/appmarket/ad5;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->r6()Lcom/huawei/appmarket/dd5;
 
     .line 182
     .line 183
@@ -1192,7 +1191,7 @@
 
     .line 186
     .line 187
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ad5;->x(Z)V
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/dd5;->x(Z)V
 
     .line 188
     .line 189
@@ -1210,7 +1209,7 @@
     .line 194
     .line 195
     .line 196
-    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->q6()Lcom/huawei/appmarket/ad5;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->r6()Lcom/huawei/appmarket/dd5;
 
     .line 197
     .line 198
@@ -1222,7 +1221,7 @@
 
     .line 201
     .line 202
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ad5;->C(Lcom/huawei/appmarket/support/preload/c;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dd5;->C(Lcom/huawei/appmarket/support/preload/c;)V
 
     .line 203
     .line 204
@@ -1622,22 +1621,13 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method public final p1()Z
     .registers 5
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -1677,7 +1667,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v2
 
@@ -1689,7 +1679,7 @@
 
     const-string v2, "VerticalMultiTabsFragmentV2"
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 .end method
@@ -1724,16 +1714,16 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
-    check-cast v0, Lcom/huawei/appmarket/f14;
+    check-cast v0, Lcom/huawei/appmarket/h14;
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/f14;->B0(Z)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/h14;->B0(Z)V
 
     :cond_0
     if-lez p1, :cond_1
 
-    invoke-interface {p0, v1}, Lcom/huawei/appmarket/gs3;->T0(Z)V
+    invoke-interface {p0, v1}, Lcom/huawei/appmarket/is3;->T0(Z)V
 
     :cond_1
     return-void
@@ -1743,7 +1733,7 @@
     .registers 3
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 2
     .line 3
@@ -1783,7 +1773,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     .line 22
     .line 23
@@ -1911,7 +1901,7 @@
     .line 137
 .end method
 
-.method public final u6()I
+.method public final v6()I
     .registers 2
 
     .line 1
@@ -1920,13 +1910,13 @@
     return v0
 .end method
 
-.method protected final y6(I)V
+.method protected final z6(I)V
     .registers 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->y6(I)V
+    invoke-super {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/MultiTabsFragmentV2;->z6(I)V
 
-    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->D6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-direct {p0}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6()Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object v0
 
@@ -1950,7 +1940,7 @@
 
     move-result p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->E6(I)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/VerticalMultiTabsFragmentV2;->F6(I)V
 
     :cond_0
     return-void

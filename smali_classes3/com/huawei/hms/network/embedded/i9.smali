@@ -552,7 +552,7 @@
     new-instance v2, Lcom/huawei/hms/network/embedded/w6;
 
     .line 12
-    invoke-static {v3}, Lcom/huawei/appmarket/bq6;->v(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/huawei/appmarket/fs;->h(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 

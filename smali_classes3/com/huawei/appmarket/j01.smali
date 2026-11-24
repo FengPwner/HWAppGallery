@@ -42,14 +42,23 @@
     return-void
 .end method
 
-.method private e(Ljava/lang/Object;Ljava/lang/String;)V
+.method private e(Ljava/lang/String;Ljava/lang/Object;)V
     .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/String;",
+            "TT;)V"
+        }
+    .end annotation
 
     .line 1
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appmarket/j01;->a:Lorg/json/JSONObject;
 
-    invoke-virtual {v0, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -60,7 +69,7 @@
 
     const-string p2, "ConsentRequest:JSONException"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -109,7 +118,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -120,7 +129,7 @@
     .line 1
     const-string v0, "clientName"
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -135,7 +144,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -146,7 +155,7 @@
     .line 1
     const-string v0, "subConsent"
 
-    invoke-direct {p0, p1, v0}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Lcom/huawei/appmarket/j01;->e(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method

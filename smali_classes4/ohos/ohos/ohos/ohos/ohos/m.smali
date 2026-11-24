@@ -1,5 +1,5 @@
 .class public final Lohos/ohos/ohos/ohos/ohos/m;
-.super Lcom/huawei/appmarket/pb9;
+.super Lcom/huawei/appmarket/wb9;
 .source "SourceFile"
 
 # interfaces
@@ -67,7 +67,7 @@
 
     move-object/from16 v1, p2
 
-    invoke-direct/range {p0 .. p1}, Lcom/huawei/appmarket/pb9;-><init>(Landroid/app/Activity;)V
+    invoke-direct/range {p0 .. p1}, Lcom/huawei/appmarket/wb9;-><init>(Landroid/app/Activity;)V
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    iget-object v4, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v4, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-static {v4}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -150,7 +150,7 @@
 
     iput-object v5, v0, Lohos/ohos/ohos/ohos/ohos/m;->p:Landroid/widget/RelativeLayout;
 
-    const v5, 0x7f0a184a
+    const v5, 0x7f0a184b
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
 
     new-instance v5, Landroid/text/style/TypefaceSpan;
 
-    iget-object v7, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v7, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v7}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -293,13 +293,13 @@
 
     const v8, 0x7f060379
 
-    invoke-virtual {v0, v8}, Lcom/huawei/appmarket/pb9;->a(I)I
+    invoke-virtual {v0, v8}, Lcom/huawei/appmarket/wb9;->a(I)I
 
     move-result v8
 
     invoke-direct {v7, v8}, Landroid/text/style/ForegroundColorSpan;-><init>(I)V
 
-    iget-object v8, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v8, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v8}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -338,7 +338,7 @@
 
     invoke-virtual {v9, v8, v2, v10, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    iget-object v8, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v8, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     .line 2
     invoke-virtual {v8}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -381,7 +381,7 @@
 
     aput-object v9, v12, v15
 
-    invoke-static {v8, v12}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v8, v12}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v8
 
@@ -393,9 +393,9 @@
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    sget-object v12, Lcom/huawei/appmarket/u29;->a:Landroid/util/ArrayMap;
+    sget-object v12, Lcom/huawei/appmarket/a39;->a:Landroid/util/ArrayMap;
 
-    sget-object v6, Lcom/huawei/appmarket/u29;->d:Landroid/util/ArrayMap;
+    sget-object v6, Lcom/huawei/appmarket/a39;->d:Landroid/util/ArrayMap;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -444,7 +444,7 @@
 
     iget-object v11, v0, Lohos/ohos/ohos/ohos/ohos/m;->w:Ljava/util/ArrayList;
 
-    iget-object v15, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v15, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v15}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -512,9 +512,9 @@
 
     if-nez v1, :cond_5
 
-    new-instance v1, Lcom/huawei/appmarket/cg9;
+    new-instance v1, Lcom/huawei/appmarket/jg9;
 
-    invoke-direct {v1, v0}, Lcom/huawei/appmarket/cg9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/jg9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
 
     invoke-static {v9, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -539,7 +539,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    sget-object v9, Lcom/huawei/appmarket/u29;->b:Landroid/util/ArrayMap;
+    sget-object v9, Lcom/huawei/appmarket/a39;->b:Landroid/util/ArrayMap;
 
     iget-object v10, v0, Lohos/ohos/ohos/ohos/ohos/m;->w:Ljava/util/ArrayList;
 
@@ -563,7 +563,7 @@
 
     if-nez v2, :cond_7
 
-    iget-object v2, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -578,7 +578,7 @@
     :cond_7
     if-eqz v10, :cond_e
 
-    iget-object v2, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     iget-object v9, v0, Lohos/ohos/ohos/ohos/ohos/m;->w:Ljava/util/ArrayList;
 
@@ -593,7 +593,7 @@
     goto/16 :goto_4
 
     :cond_8
-    invoke-static {v2}, Lcom/huawei/appmarket/nv8;->b(Landroid/app/Activity;)Ljava/util/Locale;
+    invoke-static {v2}, Lcom/huawei/appmarket/tv8;->b(Landroid/app/Activity;)Ljava/util/Locale;
 
     move-result-object v12
 
@@ -859,7 +859,7 @@
 
     new-instance v1, Landroid/text/SpannableStringBuilder;
 
-    iget-object v2, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -898,7 +898,7 @@
 
     invoke-virtual {v1, v2, v9, v3, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    iget-object v2, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     iget-object v3, v0, Lohos/ohos/ohos/ohos/ohos/m;->v:Ljava/util/ArrayList;
 
@@ -1105,7 +1105,7 @@
 
     aput-object v1, v9, v10
 
-    invoke-static {v2, v9}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v9}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1198,7 +1198,7 @@
 
     aput-object v1, v9, v13
 
-    invoke-static {v2, v9}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v9}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1285,7 +1285,7 @@
 
     aput-object v1, v9, v12
 
-    invoke-static {v2, v9}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v9}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1366,7 +1366,7 @@
 
     aput-object v1, v9, v7
 
-    invoke-static {v2, v9}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v9}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1441,7 +1441,7 @@
 
     aput-object v1, v7, v3
 
-    invoke-static {v2, v7}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v7}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1510,7 +1510,7 @@
 
     aput-object v1, v3, v6
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1573,7 +1573,7 @@
 
     aput-object v1, v3, v6
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1630,7 +1630,7 @@
 
     aput-object v1, v3, v6
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1679,7 +1679,7 @@
 
     aput-object v1, v3, v6
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1720,7 +1720,7 @@
 
     aput-object v1, v3, v9
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v1
 
@@ -1755,7 +1755,7 @@
 
     aput-object v1, v3, v7
 
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v6
 
@@ -1792,9 +1792,9 @@
 
     invoke-direct {v3, v2}, Landroid/text/SpannableStringBuilder;-><init>(Ljava/lang/CharSequence;)V
 
-    new-instance v2, Lcom/huawei/appmarket/ff9;
+    new-instance v2, Lcom/huawei/appmarket/mf9;
 
-    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/ff9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;Ljava/lang/String;)V
+    invoke-direct {v2, v0, v1}, Lcom/huawei/appmarket/mf9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;Ljava/lang/String;)V
 
     new-instance v1, Lohos/ohos/ohos/ohos/ohos/v;
 
@@ -1826,7 +1826,7 @@
 
     invoke-virtual {v3, v1, v7, v2, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    iget-object v1, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v1, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -1838,7 +1838,7 @@
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -1860,7 +1860,7 @@
 
     aput-object v3, v5, v1
 
-    invoke-static {v2, v5}, Lcom/huawei/appmarket/nv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
+    invoke-static {v2, v5}, Lcom/huawei/appmarket/tv8;->a(Ljava/lang/String;[Ljava/lang/Object;)Landroid/text/SpannableStringBuilder;
 
     move-result-object v2
 
@@ -1896,7 +1896,7 @@
 
     iget-object v2, v0, Lohos/ohos/ohos/ohos/ohos/m;->l:Landroid/widget/ImageView;
 
-    iget-object v3, v0, Lcom/huawei/appmarket/pb9;->b:Landroid/app/Activity;
+    iget-object v3, v0, Lcom/huawei/appmarket/wb9;->b:Landroid/app/Activity;
 
     invoke-direct {v1, v2, v3}, Lohos/ohos/ohos/ohos/ohos/m$c;-><init>(Landroid/widget/ImageView;Landroid/content/Context;)V
 
@@ -1916,17 +1916,17 @@
 
     iget-object v1, v0, Lohos/ohos/ohos/ohos/ohos/m;->h:Landroid/widget/Button;
 
-    new-instance v2, Lcom/huawei/appmarket/md9;
+    new-instance v2, Lcom/huawei/appmarket/td9;
 
-    invoke-direct {v2, v0}, Lcom/huawei/appmarket/md9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
+    invoke-direct {v2, v0}, Lcom/huawei/appmarket/td9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v1, v0, Lohos/ohos/ohos/ohos/ohos/m;->f:Landroid/widget/Button;
 
-    new-instance v2, Lcom/huawei/appmarket/yd9;
+    new-instance v2, Lcom/huawei/appmarket/fe9;
 
-    invoke-direct {v2, v0}, Lcom/huawei/appmarket/yd9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
+    invoke-direct {v2, v0}, Lcom/huawei/appmarket/fe9;-><init>(Lohos/ohos/ohos/ohos/ohos/m;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1941,7 +1941,7 @@
     iget-object v1, v0, Lohos/ohos/ohos/ohos/ohos/m;->y:Lohos/ohos/ohos/ohos/ohos/m$a;
 
     .line 8
-    invoke-static {}, Lcom/huawei/appmarket/cc9;->a()Landroid/os/IBinder;
+    invoke-static {}, Lcom/huawei/appmarket/jc9;->a()Landroid/os/IBinder;
 
     move-result-object v2
 

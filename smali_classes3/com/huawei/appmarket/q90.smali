@@ -22,7 +22,7 @@
             "()",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/pn3;",
+            "Lcom/huawei/appmarket/rn3;",
             ">;"
         }
     .end annotation
@@ -37,11 +37,11 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     move-result p1
 
-    invoke-static {}, Lcom/huawei/appmarket/w68;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->g()I
 
     move-result v0
 

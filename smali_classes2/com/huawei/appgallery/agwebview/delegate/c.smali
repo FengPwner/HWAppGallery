@@ -28,7 +28,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/agwebview/delegate/c;->b:Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->I0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)I
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->J0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)I
 
     move-result v0
 
@@ -39,33 +39,33 @@
     return-void
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->J0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/webkit/WebView;
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->K0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/webkit/WebView;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->K0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/View;
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->L0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/View;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->L0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/content/Context;
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->M0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->M0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
-
     invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->N0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->O0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/ViewStub;
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->O0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)V
+
+    invoke-static {p1}, Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;->P0(Lcom/huawei/appgallery/agwebview/delegate/TranslucentWebViewDelegate;)Landroid/view/ViewStub;
 
     move-result-object p1
 

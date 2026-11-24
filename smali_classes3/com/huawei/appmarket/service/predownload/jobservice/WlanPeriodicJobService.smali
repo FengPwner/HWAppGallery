@@ -23,7 +23,7 @@
 
     const-string v2, "WlanPeriodicJobService job started, jobId: 10001"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -35,7 +35,7 @@
 
     const/16 v3, 0x2711
 
-    invoke-static {v0, v3, v1, v2, p1}, Lcom/huawei/appmarket/wm4;->a(Landroid/content/Context;IIZLandroid/app/job/JobParameters;)V
+    invoke-static {v0, v3, v1, v2, p1}, Lcom/huawei/appmarket/zm4;->a(Landroid/content/Context;IIZLandroid/app/job/JobParameters;)V
 
     const/4 p1, 0x0
 
@@ -51,7 +51,7 @@
 
     const-string v1, "WlanPeriodicJobService job stopped"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

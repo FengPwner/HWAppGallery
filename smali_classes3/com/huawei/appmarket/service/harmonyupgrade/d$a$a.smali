@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/wc4;
+.implements Lcom/huawei/appmarket/yc4;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->onComplete(Lcom/huawei/appmarket/hv7;)V
+    value = Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->onComplete(Lcom/huawei/appmarket/nv7;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -42,9 +42,9 @@
 
     iget-object v0, p1, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->b:Landroid/content/Context;
 
-    iget-object p1, p1, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->c:Lcom/huawei/appmarket/es3;
+    iget-object p1, p1, Lcom/huawei/appmarket/service/harmonyupgrade/d$a;->c:Lcom/huawei/appmarket/gs3;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->t(Landroid/content/Context;Lcom/huawei/appmarket/es3;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/service/harmonyupgrade/d;->t(Landroid/content/Context;Lcom/huawei/appmarket/gs3;)V
 
     return-void
 .end method

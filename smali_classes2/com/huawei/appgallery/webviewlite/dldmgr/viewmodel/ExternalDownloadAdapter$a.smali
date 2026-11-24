@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field u:Lcom/huawei/appmarket/yo8;
+.field u:Lcom/huawei/appmarket/ep8;
 
 
 # direct methods

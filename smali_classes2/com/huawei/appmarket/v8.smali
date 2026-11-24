@@ -77,7 +77,7 @@
     if-eqz v1, :cond_2
 
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/uv7;->a:Lcom/huawei/appmarket/uv7;
+    sget-object v1, Lcom/huawei/appmarket/aw7;->a:Lcom/huawei/appmarket/aw7;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -93,7 +93,7 @@
 
     const-string v2, "ActivityUtil"
 
-    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 

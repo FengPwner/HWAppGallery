@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/dg3;
+.implements Lcom/huawei/appmarket/fg3;
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/zm;
-    uri = Lcom/huawei/appmarket/dg3;
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/fg3;
 .end annotation
 
 
@@ -23,11 +23,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/eg3;)V
+.method public final a(Lcom/huawei/appmarket/gg3;)V
     .registers 2
 
     .line 1
-    invoke-static {p1}, Lcom/huawei/appmarket/o5;->b(Lcom/huawei/appmarket/eg3;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/o5;->b(Lcom/huawei/appmarket/gg3;)V
 
     return-void
 .end method

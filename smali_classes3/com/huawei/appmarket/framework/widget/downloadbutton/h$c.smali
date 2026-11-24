@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/xk3;
+.implements Lcom/huawei/appmarket/zk3;
 
 
 # annotations
@@ -52,15 +52,15 @@
 
     const-string v1, "dialog closed by click back button!"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h$c;->a:Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/fr5;->c()V
 
     return-void
 .end method

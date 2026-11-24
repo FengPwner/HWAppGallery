@@ -2497,11 +2497,11 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdateResp;->access$1700()Lcom/huawei/appmarket/gw5;
+    invoke-static {}, Lcom/huawei/appgallery/updatemanager/proto/UpdateRes$UpdateResp;->access$1700()Lcom/huawei/appmarket/iw5;
 
     move-result-object v1
 
-    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/gw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
+    invoke-interface {v1, p1, p2}, Lcom/huawei/appmarket/iw5;->parsePartialFrom(Lcom/google/protobuf/i;Lcom/google/protobuf/v;)Ljava/lang/Object;
 
     move-result-object p1
 

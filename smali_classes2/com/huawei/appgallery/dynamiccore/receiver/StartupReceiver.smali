@@ -58,7 +58,7 @@
     move-result-object p1
 
     .line 21
-    sget-object v1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object v1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     .line 22
     .line 23
@@ -75,7 +75,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-static {}, Lcom/huawei/appmarket/xh;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/wh;->a()Z
 
     .line 31
     .line 32
@@ -110,12 +110,12 @@
     move-result-object v2
 
     .line 49
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {}, Lcom/huawei/appmarket/xl7;->c()Lcom/huawei/appmarket/xl7;
+    invoke-static {}, Lcom/huawei/appmarket/dm7;->c()Lcom/huawei/appmarket/dm7;
 
     .line 53
     .line 54
@@ -123,7 +123,7 @@
     move-result-object v1
 
     .line 56
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/xl7;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/dm7;->a(Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -202,7 +202,7 @@
     .line 94
     .line 95
     :cond_1
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     .line 96
     .line 97
@@ -210,12 +210,12 @@
 
     .line 98
     .line 99
-    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     .line 101
     .line 102
-    invoke-static {}, Lcom/huawei/appmarket/xl7;->c()Lcom/huawei/appmarket/xl7;
+    invoke-static {}, Lcom/huawei/appmarket/dm7;->c()Lcom/huawei/appmarket/dm7;
 
     .line 103
     .line 104
@@ -223,7 +223,7 @@
     move-result-object p1
 
     .line 106
-    invoke-virtual {p1}, Lcom/huawei/appmarket/xl7;->b()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/dm7;->b()V
 
     .line 107
     .line 108
@@ -284,5 +284,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

@@ -42,12 +42,12 @@
 
 
 # virtual methods
-.method final declared-synchronized a(Lcom/huawei/appmarket/cu6;Z)V
+.method final declared-synchronized a(Lcom/huawei/appmarket/gu6;Z)V
     .registers 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/cu6<",
+            "Lcom/huawei/appmarket/gu6<",
             "*>;Z)V"
         }
     .end annotation
@@ -69,7 +69,7 @@
     :cond_0
     iput-boolean v1, p0, Lcom/bumptech/glide/load/engine/u;->a:Z
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/cu6;->b()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/gu6;->b()V
 
     const/4 p1, 0x0
 

@@ -60,9 +60,9 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/tf7;
+    new-instance v0, Lcom/huawei/appmarket/yf7;
 
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     const v1, 0x7f0a113f
 
@@ -136,7 +136,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/q37;->a()Lcom/huawei/appmarket/q37;
+    invoke-static {}, Lcom/huawei/appmarket/v37;->a()Lcom/huawei/appmarket/v37;
 
     move-result-object v1
 
@@ -146,7 +146,7 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/q37;->b(Landroid/content/Context;Landroid/view/View;Landroid/view/View;)V
+    invoke-static {v2, p1, v0}, Lcom/huawei/appmarket/v37;->b(Landroid/content/Context;Landroid/view/View;Landroid/view/View;)V
 
     goto :goto_0
 
@@ -157,7 +157,7 @@
 
     const-string v1, "activityUri|info_search"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/uz5;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/wz5;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_1
     :goto_0

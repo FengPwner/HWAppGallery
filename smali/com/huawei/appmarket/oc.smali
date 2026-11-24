@@ -8,13 +8,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/og3;",
+            "Lcom/huawei/appmarket/qg3;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private final b:Lcom/huawei/appmarket/v23;
+.field private final b:Lcom/huawei/appmarket/y23;
 
 .field private c:Z
 
@@ -24,7 +24,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/Map$Entry;Lcom/huawei/appmarket/v23;II)V
+.method public constructor <init>(Ljava/util/Map$Entry;Lcom/huawei/appmarket/y23;II)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -32,9 +32,9 @@
             "Ljava/util/Map$Entry<",
             "Ljava/lang/Integer;",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/og3;",
+            "Lcom/huawei/appmarket/qg3;",
             ">;>;",
-            "Lcom/huawei/appmarket/v23;",
+            "Lcom/huawei/appmarket/y23;",
             "II)V"
         }
     .end annotation
@@ -54,7 +54,7 @@
 
     iput-object p3, p0, Lcom/huawei/appmarket/oc;->a:Ljava/util/List;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/v23;->a()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/y23;->a()I
 
     move-result p3
 
@@ -98,18 +98,18 @@
     :goto_0
     iput-boolean v0, p0, Lcom/huawei/appmarket/oc;->c:Z
 
-    iput-object p2, p0, Lcom/huawei/appmarket/oc;->b:Lcom/huawei/appmarket/v23;
+    iput-object p2, p0, Lcom/huawei/appmarket/oc;->b:Lcom/huawei/appmarket/y23;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/v23;
+.method public final a()Lcom/huawei/appmarket/y23;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/oc;->b:Lcom/huawei/appmarket/v23;
+    iget-object v0, p0, Lcom/huawei/appmarket/oc;->b:Lcom/huawei/appmarket/y23;
 
     return-object v0
 .end method
@@ -120,7 +120,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/og3;",
+            "Lcom/huawei/appmarket/qg3;",
             ">;"
         }
     .end annotation
@@ -155,7 +155,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/oc;->a:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 

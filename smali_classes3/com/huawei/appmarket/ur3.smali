@@ -2,19 +2,16 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/kh3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/qe1;
+.end annotation
+
 
 # virtual methods
-.method public abstract onCallBackFail(I)V
-.end method
-
-.method public abstract onCallBackSuccess(Ljava/util/Map;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
+.method public abstract a0()V
 .end method

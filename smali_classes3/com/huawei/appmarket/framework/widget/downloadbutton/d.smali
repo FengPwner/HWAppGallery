@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/huawei/appmarket/framework/widget/downloadbutton/m$a;
-.implements Lcom/huawei/appmarket/gy7;
+.implements Lcom/huawei/appmarket/ly7;
 
 
 # instance fields
@@ -394,29 +394,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 
@@ -459,7 +436,7 @@
     move-object v0, v7
 
     .line 17
-    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;ZZLcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dr5;)V
+    invoke-direct/range {v0 .. v6}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;-><init>(Landroid/content/Context;Lcom/huawei/appgallery/foundation/ui/framework/widget/button/DownloadButton;ZZLcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/fr5;)V
 
     .line 18
     .line 19

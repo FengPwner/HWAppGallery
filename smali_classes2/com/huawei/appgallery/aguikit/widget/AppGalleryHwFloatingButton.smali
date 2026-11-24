@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    sget-object p3, Lcom/huawei/appmarket/me6;->b:[I
+    sget-object p3, Lcom/huawei/appmarket/oe6;->b:[I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -93,16 +93,16 @@
     goto :goto_1
 
     :goto_2
-    invoke-direct {p0}, Lcom/huawei/appgallery/aguikit/widget/AppGalleryHwFloatingButton;->getFloatingActionButtonAnimatorItem()Lcom/huawei/appmarket/nm2;
+    invoke-direct {p0}, Lcom/huawei/appgallery/aguikit/widget/AppGalleryHwFloatingButton;->getFloatingActionButtonAnimatorItem()Lcom/huawei/appmarket/pm2;
 
     move-result-object p2
 
     .line 5
-    new-instance p3, Lcom/huawei/appmarket/om2;
+    new-instance p3, Lcom/huawei/appmarket/qm2;
 
-    invoke-direct {p3, p1}, Lcom/huawei/appmarket/om2;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p3, p1}, Lcom/huawei/appmarket/qm2;-><init>(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/om2;->k(Lcom/huawei/appmarket/nm2;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/qm2;->k(Lcom/huawei/appmarket/pm2;)V
 
     invoke-virtual {p0, p3}, Lcom/huawei/uikit/hwfloatingbutton/widget/HwFloatingButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
@@ -117,13 +117,13 @@
     throw p2
 .end method
 
-.method private getFloatingActionButtonAnimatorItem()Lcom/huawei/appmarket/nm2;
+.method private getFloatingActionButtonAnimatorItem()Lcom/huawei/appmarket/pm2;
     .registers 7
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/nm2;
+    new-instance v0, Lcom/huawei/appmarket/pm2;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nm2;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/pm2;-><init>()V
 
     new-instance v1, Landroid/view/animation/PathInterpolator;
 
@@ -137,17 +137,17 @@
 
     invoke-direct {v1, v4, v5, v2, v3}, Landroid/view/animation/PathInterpolator;-><init>(FFFF)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nm2;->l(Landroid/view/animation/PathInterpolator;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pm2;->l(Landroid/view/animation/PathInterpolator;)V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nm2;->n()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pm2;->n()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nm2;->j()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pm2;->j()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nm2;->k()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pm2;->k()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nm2;->i()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pm2;->i()V
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nm2;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/pm2;->h()V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -217,7 +217,7 @@
 
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nm2;->m(Ljava/util/HashMap;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/pm2;->m(Ljava/util/HashMap;)V
 
     return-object v0
 .end method

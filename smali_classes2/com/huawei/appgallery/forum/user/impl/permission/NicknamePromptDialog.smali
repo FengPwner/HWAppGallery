@@ -6,7 +6,7 @@
 # instance fields
 .field private a:Landroid/content/Context;
 
-.field private b:Lcom/huawei/appmarket/fh3;
+.field private b:Lcom/huawei/appmarket/hh3;
 
 
 # direct methods
@@ -23,7 +23,7 @@
 
     .line 5
     .line 6
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 7
     .line 8
@@ -35,11 +35,11 @@
 
     .line 11
     .line 12
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 15
     .line 16
@@ -47,11 +47,11 @@
     move-result-object v0
 
     .line 18
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -59,11 +59,11 @@
     move-result-object v0
 
     .line 24
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 25
     .line 26
-    iput-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/fh3;
+    iput-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/hh3;
 
     .line 27
     .line 28
@@ -88,7 +88,7 @@
     move-result-object p1
 
     .line 39
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 40
     .line 41
@@ -101,7 +101,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     .line 47
     .line 48
@@ -114,7 +114,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     .line 54
     .line 55
@@ -170,18 +170,17 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/ao5;)V
+.method public final a(Lcom/huawei/appmarket/bo5;)V
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     return-void
 .end method
@@ -190,9 +189,9 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/hh3;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/fh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
 
     return-void
 .end method
@@ -201,11 +200,11 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->b:Lcom/huawei/appmarket/hh3;
 
     const-string v1, "NicknamePromptDialog"
 
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -216,7 +215,7 @@
     :cond_0
     iget-object v2, p0, Lcom/huawei/appgallery/forum/user/impl/permission/NicknamePromptDialog;->a:Landroid/content/Context;
 
-    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v2, v1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

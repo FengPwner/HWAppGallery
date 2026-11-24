@@ -1,80 +1,48 @@
-.class public Lcom/huawei/appmarket/gg0;
+.class public final synthetic Lcom/huawei/appmarket/gg0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/huawei/appmarket/gg0$b;,
-        Lcom/huawei/appmarket/gg0$a;
-    }
-.end annotation
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field protected final a:Landroid/util/ArrayMap;
+.field public final synthetic b:Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;
 
-.field protected b:Ljava/lang/String;
+.field public final synthetic c:Landroid/view/View;
+
+.field public final synthetic d:F
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 2
+.method public synthetic constructor <init>(Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;Landroid/view/View;F)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Landroid/util/ArrayMap;
+    iput-object p1, p0, Lcom/huawei/appmarket/gg0;->b:Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;
 
-    invoke-direct {v0}, Landroid/util/ArrayMap;-><init>()V
+    iput-object p2, p0, Lcom/huawei/appmarket/gg0;->c:Landroid/view/View;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/gg0;->a:Landroid/util/ArrayMap;
+    iput p3, p0, Lcom/huawei/appmarket/gg0;->d:F
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/huawei/appmarket/jg0;)V
+.method public final run()V
     .registers 4
 
     .line 1
-    if-eqz p2, :cond_0
+    iget-object v0, p0, Lcom/huawei/appmarket/gg0;->c:Landroid/view/View;
 
-    iget-object v0, p0, Lcom/huawei/appmarket/gg0;->a:Landroid/util/ArrayMap;
+    iget v1, p0, Lcom/huawei/appmarket/gg0;->d:F
 
-    invoke-virtual {v0, p1, p2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    iget-object v2, p0, Lcom/huawei/appmarket/gg0;->b:Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;
 
-    :cond_0
+    invoke-static {v2, v0, v1}, Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;->a(Lcom/huawei/flexiblelayout/css/adapter/wrapper/CSSLayoutWeightWrapper;Landroid/view/View;F)V
+
     return-void
-.end method
-
-.method public final b()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/gg0;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public c(Ljava/lang/String;)Lcom/huawei/appmarket/jg0;
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/gg0;->a:Landroid/util/ArrayMap;
-
-    invoke-virtual {v0, p1}, Landroid/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appmarket/jg0;
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1, p0}, Lcom/huawei/appmarket/jg0;->o(Lcom/huawei/appmarket/gg0;)V
-
-    :cond_0
-    return-object p1
 .end method

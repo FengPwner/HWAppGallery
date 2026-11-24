@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/ak0;)V
+.method public M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/bk0;)V
     .registers 6
 
     .line 1
@@ -36,7 +36,7 @@
 
     const/16 v2, 0x3ec
 
-    invoke-direct {v1, p2, p1, v2}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v1, p2, p1, v2}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     new-instance v1, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;
 
@@ -98,7 +98,7 @@
     return p1
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 11
 
     .line 1
@@ -170,7 +170,7 @@
 
     .line 33
     .line 34
-    new-instance v4, Lcom/huawei/appmarket/tf7;
+    new-instance v4, Lcom/huawei/appmarket/yf7;
 
     .line 35
     .line 36
@@ -178,12 +178,12 @@
 
     .line 37
     .line 38
-    invoke-direct {v5, p1, v2, v0}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v5, p1, v2, v0}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 39
     .line 40
     .line 41
-    invoke-direct {v4, v5}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v4, v5}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 42
     .line 43
@@ -209,7 +209,7 @@
     move-result-object v4
 
     .line 54
-    new-instance v5, Lcom/huawei/appmarket/tf7;
+    new-instance v5, Lcom/huawei/appmarket/yf7;
 
     .line 55
     .line 56
@@ -221,12 +221,12 @@
 
     .line 59
     .line 60
-    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 61
     .line 62
     .line 63
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v5, v6}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 64
     .line 65
@@ -244,7 +244,7 @@
     move-result-object v4
 
     .line 73
-    new-instance v5, Lcom/huawei/appmarket/tf7;
+    new-instance v5, Lcom/huawei/appmarket/yf7;
 
     .line 74
     .line 75
@@ -252,12 +252,12 @@
 
     .line 76
     .line 77
-    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 78
     .line 79
     .line 80
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v5, v6}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 81
     .line 82
@@ -275,7 +275,7 @@
     move-result-object v4
 
     .line 90
-    new-instance v5, Lcom/huawei/appmarket/tf7;
+    new-instance v5, Lcom/huawei/appmarket/yf7;
 
     .line 91
     .line 92
@@ -283,12 +283,12 @@
 
     .line 93
     .line 94
-    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 95
     .line 96
     .line 97
-    invoke-direct {v5, v6}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v5, v6}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 98
     .line 99
@@ -306,7 +306,7 @@
     move-result-object v4
 
     .line 107
-    new-instance v5, Lcom/huawei/appmarket/tf7;
+    new-instance v5, Lcom/huawei/appmarket/yf7;
 
     .line 108
     .line 109
@@ -318,7 +318,7 @@
 
     .line 112
     .line 113
-    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v6, p1, v2, v7}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 114
     .line 115
@@ -327,7 +327,7 @@
 
     .line 117
     .line 118
-    invoke-direct {v5, v6, v7}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;I)V
+    invoke-direct {v5, v6, v7}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;I)V
 
     .line 119
     .line 120
@@ -345,7 +345,7 @@
     move-result-object v4
 
     .line 128
-    new-instance v5, Lcom/huawei/appmarket/tf7;
+    new-instance v5, Lcom/huawei/appmarket/yf7;
 
     .line 129
     .line 130
@@ -357,12 +357,12 @@
 
     .line 133
     .line 134
-    invoke-direct {v6, p1, v2, v8}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v6, p1, v2, v8}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode$a;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     .line 135
     .line 136
     .line 137
-    invoke-direct {v5, v6, v7}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;I)V
+    invoke-direct {v5, v6, v7}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;I)V
 
     .line 138
     .line 139
@@ -372,7 +372,7 @@
     .line 141
     .line 142
     .line 143
-    invoke-virtual {p0, v3, p1}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode;->M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {p0, v3, p1}, Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentNode;->M(Lcom/huawei/appgallery/appcomment/ui/usercomment/UserCommentInfoCard;Lcom/huawei/appmarket/bk0;)V
 
     .line 144
     .line 145

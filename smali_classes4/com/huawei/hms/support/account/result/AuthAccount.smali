@@ -743,159 +743,159 @@
 
     .line 2
     .line 3
-    const-string v1, "{uid: "
+    const-string/jumbo v1, "{uid: "
 
     .line 4
     .line 5
+    .line 6
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 6
     .line 7
     .line 8
+    .line 9
     iget-object v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->uid:Ljava/lang/String;
 
-    .line 9
     .line 10
+    .line 11
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     .line 12
     .line 13
+    .line 14
     const-string v1, ",displayName: "
 
-    .line 14
     .line 15
+    .line 16
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     .line 17
     .line 18
+    .line 19
     iget-object v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->displayName:Ljava/lang/String;
 
-    .line 19
     .line 20
+    .line 21
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 21
     .line 22
     .line 23
+    .line 24
     const-string v1, ",photoUriString: "
 
-    .line 24
     .line 25
+    .line 26
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 26
     .line 27
     .line 28
+    .line 29
     iget-object v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->photoUriString:Ljava/lang/String;
 
-    .line 29
     .line 30
+    .line 31
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 31
     .line 32
     .line 33
+    .line 34
     const-string v1, ",status: "
 
-    .line 34
     .line 35
+    .line 36
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 36
     .line 37
     .line 38
+    .line 39
     iget v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->status:I
 
-    .line 39
     .line 40
+    .line 41
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 41
     .line 42
     .line 43
+    .line 44
     const-string v1, ",gender: "
 
-    .line 44
     .line 45
+    .line 46
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 46
     .line 47
     .line 48
+    .line 49
     iget v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->gender:I
 
-    .line 49
     .line 50
+    .line 51
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     const-string v1, ",serviceCountryCode: "
 
-    .line 54
     .line 55
+    .line 56
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 56
     .line 57
     .line 58
+    .line 59
     iget-object v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->serviceCountryCode:Ljava/lang/String;
 
-    .line 59
     .line 60
+    .line 61
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 61
     .line 62
     .line 63
+    .line 64
     const-string v1, ",countryCode: "
 
-    .line 64
     .line 65
+    .line 66
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 66
     .line 67
     .line 68
+    .line 69
     iget-object v1, p0, Lcom/huawei/hms/support/feature/result/AbstractAuthAccount;->countryCode:Ljava/lang/String;
 
-    .line 69
     .line 70
+    .line 71
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 71
     .line 72
     .line 73
+    .line 74
     const-string v1, "accountFlag"
 
-    .line 74
     .line 75
+    .line 76
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 76
     .line 77
     .line 78
+    .line 79
     iget v1, p0, Lcom/huawei/hms/support/account/result/AuthAccount;->a:I
 
-    .line 79
     .line 80
+    .line 81
     const/16 v2, 0x7d
 
-    .line 81
     .line 82
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/b00;->j(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
-
     .line 83
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/fs;->f(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+
     .line 84
     .line 85
+    .line 86
     move-result-object v0
 
-    .line 86
-    return-object v0
     .line 87
+    return-object v0
     .line 88
     .line 89
     .line 90
@@ -1117,6 +1117,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

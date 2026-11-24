@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->L(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/dt1;)V
+    value = Lcom/huawei/appmarket/framework/widget/downloadbutton/DownloadButtonDelegate;->L(Lcom/huawei/appgallery/foundation/card/base/bean/BaseDistCardBean;Lcom/huawei/appmarket/gt1;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

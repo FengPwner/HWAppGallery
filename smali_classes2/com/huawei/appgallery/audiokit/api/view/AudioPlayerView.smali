@@ -32,11 +32,11 @@
 
 .field private i:Z
 
-.field private j:Lcom/huawei/appmarket/gz;
+.field private j:Lcom/huawei/appmarket/hz;
 
-.field private k:Lcom/huawei/appmarket/fi3;
+.field private k:Lcom/huawei/appmarket/hi3;
 
-.field private l:Lcom/huawei/appmarket/fh3;
+.field private l:Lcom/huawei/appmarket/hh3;
 
 
 # direct methods
@@ -149,7 +149,7 @@
 
     invoke-direct {p1, p0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView$a;-><init>(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/fi3;
+    iput-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/hi3;
 
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -188,11 +188,11 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/gz;
+.method static synthetic c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hz;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     return-object p0
 .end method
@@ -215,11 +215,11 @@
     return-void
 .end method
 
-.method static synthetic f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/fh3;
+.method static synthetic f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hh3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iget-object p0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     return-object p0
 .end method
@@ -236,7 +236,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 6
     .line 7
@@ -244,7 +244,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->g()J
 
     .line 10
     .line 11
@@ -260,7 +260,7 @@
 
     .line 16
     .line 17
-    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/hz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
+    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/mz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -359,7 +359,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static h(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
@@ -374,7 +373,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 6
     .line 7
@@ -382,7 +381,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->m()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->m()J
 
     .line 10
     .line 11
@@ -398,7 +397,7 @@
 
     .line 16
     .line 17
-    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/hz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
+    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/mz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -497,7 +496,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method static synthetic i(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
@@ -522,7 +520,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 2
     .line 3
@@ -542,20 +540,20 @@
     move-result-object v0
 
     .line 10
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/fi3;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/hi3;
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->j(Lcom/huawei/appmarket/fi3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->j(Lcom/huawei/appmarket/hi3;)V
 
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -591,17 +589,17 @@
     move-result-object v0
 
     .line 35
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->q(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->q(Lcom/huawei/appmarket/hz;)V
 
     .line 38
     .line 39
     .line 40
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 41
     .line 42
@@ -650,11 +648,11 @@
     move-result-object v1
 
     .line 65
-    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 66
     .line 67
-    invoke-virtual {v2}, Lcom/huawei/appmarket/gz;->n()I
+    invoke-virtual {v2}, Lcom/huawei/appmarket/hz;->n()I
 
     .line 68
     .line 69
@@ -662,11 +660,11 @@
     move-result v2
 
     .line 71
-    iget-object v3, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v3, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 72
     .line 73
-    invoke-virtual {v3}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -712,11 +710,11 @@
     move-result-object v0
 
     .line 96
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 97
     .line 98
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/gz;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->L(Lcom/huawei/appmarket/hz;)V
 
     .line 99
     .line 100
@@ -764,11 +762,11 @@
     .registers 3
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->o()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->o()I
 
     move-result v0
 
@@ -804,7 +802,7 @@
     .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     if-eqz v0, :cond_1
 
@@ -815,7 +813,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->g()J
 
     move-result-wide v2
 
@@ -825,9 +823,9 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->e:Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;
 
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gz;->m()J
+    invoke-virtual {v1}, Lcom/huawei/appmarket/hz;->m()J
 
     move-result-wide v1
 
@@ -835,9 +833,9 @@
 
     invoke-virtual {v0, v2}, Lcom/huawei/uikit/hwseekbar/widget/HwSeekBar;->setProgress(I)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->f()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->f()I
 
     move-result v0
 
@@ -847,9 +845,9 @@
 
     div-float/2addr v0, v1
 
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {v1}, Lcom/huawei/appmarket/hz;->g()J
 
     move-result-wide v1
 
@@ -874,7 +872,7 @@
     .registers 6
 
     .line 1
-    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 2
     .line 3
@@ -886,7 +884,7 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->o()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->o()I
 
     .line 7
     .line 8
@@ -925,7 +923,7 @@
     move-result-object p1
 
     .line 25
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 26
     .line 27
@@ -934,7 +932,7 @@
     .line 28
     .line 29
     .line 30
-    sget-object v1, Lcom/huawei/appmarket/lz;->a:Lcom/huawei/appmarket/lz;
+    sget-object v1, Lcom/huawei/appmarket/mz;->a:Lcom/huawei/appmarket/mz;
 
     .line 31
     .line 32
@@ -946,12 +944,12 @@
 
     .line 35
     .line 36
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/gz;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/hz;)Z
 
     .line 40
     .line 41
@@ -981,7 +979,7 @@
     move-result-object p1
 
     .line 54
-    invoke-static {p1}, Lcom/huawei/appmarket/wg5;->m(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/zg5;->m(Landroid/content/Context;)Z
 
     .line 55
     .line 56
@@ -1017,7 +1015,7 @@
 
     .line 71
     :cond_2
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     .line 72
     .line 73
@@ -1025,7 +1023,7 @@
 
     .line 74
     .line 75
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 76
     .line 77
@@ -1037,11 +1035,11 @@
 
     .line 80
     .line 81
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 82
     .line 83
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 84
     .line 85
@@ -1049,11 +1047,11 @@
     move-result-object v0
 
     .line 87
-    const-class v1, Lcom/huawei/appmarket/fh3;
+    const-class v1, Lcom/huawei/appmarket/hh3;
 
     .line 88
     .line 89
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -1061,16 +1059,16 @@
     move-result-object v0
 
     .line 93
-    check-cast v0, Lcom/huawei/appmarket/fh3;
+    check-cast v0, Lcom/huawei/appmarket/hh3;
 
     .line 94
     .line 95
-    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     .line 96
     .line 97
     :cond_3
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     .line 98
     .line 99
@@ -1078,7 +1076,7 @@
 
     .line 100
     .line 101
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/fh3;->o(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
     .line 102
     .line 103
@@ -1099,7 +1097,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ss8;->a(ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/ys8;->a(ILandroid/content/Context;)Ljava/lang/String;
 
     .line 112
     .line 113
@@ -1107,16 +1105,16 @@
     move-result-object v0
 
     .line 115
-    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iget-object v2, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     .line 116
     .line 117
-    invoke-interface {v2, v0}, Lcom/huawei/appmarket/fh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/fh3;
+    invoke-interface {v2, v0}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
 
     .line 118
     .line 119
     .line 120
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/fh3;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->l:Lcom/huawei/appmarket/hh3;
 
     .line 121
     .line 122
@@ -1129,7 +1127,7 @@
     .line 125
     .line 126
     .line 127
-    invoke-interface {v0, v2}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v0, v2}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 128
     .line 129
@@ -1137,7 +1135,7 @@
     move-result-object v0
 
     .line 131
-    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, p1, v1}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 132
     .line 133
@@ -1151,11 +1149,11 @@
     move-result-object p1
 
     .line 138
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 139
     .line 140
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/gz;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/hz;)Z
 
     .line 141
     .line 142
@@ -1321,18 +1319,18 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/fi3;
+    iget-object v1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/hi3;
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->O(Lcom/huawei/appmarket/fi3;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/audiokit/impl/a;->O(Lcom/huawei/appmarket/hi3;)V
 
     return-void
 .end method
 
-.method public setData(Lcom/huawei/appmarket/gz;)V
+.method public setData(Lcom/huawei/appmarket/hz;)V
     .registers 8
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->d()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1360,7 +1358,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -1368,7 +1366,7 @@
     move-result-object v1
 
     .line 19
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->e()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1376,7 +1374,7 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->j()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -1406,7 +1404,7 @@
     move-result-object v1
 
     .line 38
-    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->r(Ljava/lang/String;)Lcom/huawei/appmarket/gz;
+    invoke-virtual {v1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->r(Ljava/lang/String;)Lcom/huawei/appmarket/hz;
 
     .line 39
     .line 40
@@ -1414,7 +1412,7 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->j()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -1422,12 +1420,12 @@
     move-result-object v1
 
     .line 46
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->D(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->D(Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->e()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -1435,12 +1433,12 @@
     move-result-object v1
 
     .line 53
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->x(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->x(Ljava/lang/String;)V
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->k()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->k()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -1448,12 +1446,12 @@
     move-result-object v1
 
     .line 60
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->E(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->E(Ljava/lang/String;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->n()I
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->n()I
 
     .line 64
     .line 65
@@ -1461,12 +1459,12 @@
     move-result v1
 
     .line 67
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->I(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->I(I)V
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->h()Ljava/lang/String;
 
     .line 71
     .line 72
@@ -1474,12 +1472,12 @@
     move-result-object v1
 
     .line 74
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->B(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->B(Ljava/lang/String;)V
 
     .line 75
     .line 76
     .line 77
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->g()J
 
     .line 78
     .line 79
@@ -1499,7 +1497,7 @@
 
     .line 86
     .line 87
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->g()J
 
     .line 88
     .line 89
@@ -1507,13 +1505,13 @@
     move-result-wide v1
 
     .line 91
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gz;->z(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/hz;->z(J)V
 
     .line 92
     .line 93
     .line 94
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->l()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->l()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -1521,12 +1519,12 @@
     move-result-object v1
 
     .line 98
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->F(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->F(Ljava/lang/String;)V
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->i()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->i()Ljava/lang/String;
 
     .line 102
     .line 103
@@ -1534,12 +1532,12 @@
     move-result-object v1
 
     .line 105
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->C(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->C(Ljava/lang/String;)V
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->c()Ljava/lang/String;
 
     .line 109
     .line 110
@@ -1547,12 +1545,12 @@
     move-result-object v1
 
     .line 112
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->w(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->w(Ljava/lang/String;)V
 
     .line 113
     .line 114
     .line 115
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->a()Ljava/lang/String;
 
     .line 116
     .line 117
@@ -1560,12 +1558,12 @@
     move-result-object v1
 
     .line 119
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->u(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->u(Ljava/lang/String;)V
 
     .line 120
     .line 121
     .line 122
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->b()Ljava/lang/String;
 
     .line 123
     .line 124
@@ -1573,12 +1571,12 @@
     move-result-object v1
 
     .line 126
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gz;->v(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hz;->v(Ljava/lang/String;)V
 
     .line 127
     .line 128
     .line 129
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->r()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->r()Z
 
     .line 130
     .line 131
@@ -1586,12 +1584,12 @@
     move-result p1
 
     .line 133
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gz;->A(Z)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/hz;->A(Z)V
 
     .line 134
     .line 135
     .line 136
-    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iput-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 137
     .line 138
@@ -1608,7 +1606,7 @@
 
     .line 144
     .line 145
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 146
     .line 147
@@ -1616,7 +1614,7 @@
 
     .line 148
     .line 149
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gz;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/hz;->e()Ljava/lang/String;
 
     .line 150
     .line 151
@@ -1651,7 +1649,7 @@
 
     .line 166
     .line 167
-    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 168
     .line 169
@@ -1659,7 +1657,7 @@
 
     .line 170
     .line 171
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->g()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->g()J
 
     .line 172
     .line 173
@@ -1667,7 +1665,7 @@
     move-result-wide v2
 
     .line 175
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/hz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/mz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
 
     .line 176
     .line 177
@@ -1693,7 +1691,7 @@
 
     .line 187
     .line 188
-    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object p1, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 189
     .line 190
@@ -1701,7 +1699,7 @@
 
     .line 191
     .line 192
-    invoke-virtual {p1}, Lcom/huawei/appmarket/gz;->m()J
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hz;->m()J
 
     .line 193
     .line 194
@@ -1709,7 +1707,7 @@
     move-result-wide v2
 
     .line 196
-    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/hz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v3}, Lcom/huawei/appmarket/mz7;->a(Ljava/lang/StringBuilder;Ljava/util/Formatter;J)Ljava/lang/String;
 
     .line 197
     .line 198
@@ -1740,11 +1738,11 @@
     move-result-object p1
 
     .line 212
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/fi3;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->k:Lcom/huawei/appmarket/hi3;
 
     .line 213
     .line 214
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->j(Lcom/huawei/appmarket/fi3;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->j(Lcom/huawei/appmarket/hi3;)V
 
     .line 215
     .line 216
@@ -1757,11 +1755,11 @@
     move-result-object p1
 
     .line 221
-    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/gz;
+    iget-object v0, p0, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->j:Lcom/huawei/appmarket/hz;
 
     .line 222
     .line 223
-    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/gz;)Z
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/audiokit/impl/a;->F(Lcom/huawei/appmarket/hz;)Z
 
     .line 224
     .line 225

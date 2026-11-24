@@ -31,7 +31,7 @@
 
     iput-object p1, p0, Landroidx/media3/exoplayer/mediacodec/p;->a:Landroid/media/MediaCodec;
 
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x15
 
@@ -183,7 +183,7 @@
     .registers 4
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x15
 
@@ -266,7 +266,7 @@
 
     if-ne v0, v1, :cond_1
 
-    sget v3, Lcom/huawei/appmarket/ge8;->a:I
+    sget v3, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v4, 0x15
 
@@ -299,7 +299,7 @@
     .registers 4
 
     .line 1
-    sget v0, Lcom/huawei/appmarket/ge8;->a:I
+    sget v0, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v1, 0x15
 
@@ -333,7 +333,7 @@
     iput-object v1, p0, Landroidx/media3/exoplayer/mediacodec/p;->c:[Ljava/nio/ByteBuffer;
 
     :try_start_0
-    sget v1, Lcom/huawei/appmarket/ge8;->a:I
+    sget v1, Lcom/huawei/appmarket/le8;->a:I
 
     const/16 v2, 0x1e
 

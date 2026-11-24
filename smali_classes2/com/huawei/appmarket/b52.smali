@@ -1,14 +1,6 @@
-.class public abstract Lcom/huawei/appmarket/b52;
-.super Lcom/huawei/appmarket/c52;
+.class public final Lcom/huawei/appmarket/b52;
+.super Lcom/huawei/appmarket/ma5;
 .source "SourceFile"
-
-
-# static fields
-.field protected static final TAG:Ljava/lang/String; = "ExportActivityChecker"
-
-
-# instance fields
-.field protected targetActivity:Landroid/app/Activity;
 
 
 # direct methods
@@ -16,37 +8,35 @@
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/c52;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/ma5;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onDestroy()V
-    .registers 1
-
-    .line 1
-    return-void
-.end method
-
-.method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+.method public final b()V
     .registers 4
 
     .line 1
+    sget-object v0, Lcom/huawei/appmarket/c52;->a:Lcom/huawei/appmarket/c52;
+
+    const-string v1, "ExploreCardDefine:"
+
+    const-string v2, "initialize success "
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
     return-void
 .end method
 
-.method public onSaveInstanceState(Landroid/os/Bundle;)V
+.method protected final c()Lcom/huawei/appmarket/dn;
     .registers 2
 
     .line 1
-    return-void
-.end method
+    invoke-static {}, Lcom/huawei/appmarket/a52;->a()V
 
-.method public restoreSavedInstanceState(Landroid/os/Bundle;)V
-    .registers 2
+    const/4 v0, 0x0
 
-    .line 1
-    return-void
+    return-object v0
 .end method

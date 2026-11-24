@@ -37,7 +37,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper$Companion;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper$Companion;-><init>(Lcom/huawei/appmarket/id1;)V
 
     sput-object v0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->Companion:Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper$Companion;
 
@@ -65,11 +65,11 @@
 
     if-eqz p1, :cond_2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->mAppContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
@@ -82,7 +82,7 @@
     const-string v0, ""
 
     :cond_1
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ge8;->I(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/le8;->I(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -115,7 +115,7 @@
 
     move-object v1, v0
 
-    invoke-direct/range {v1 .. v7}, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/s28;IIZ)V
+    invoke-direct/range {v1 .. v7}, Lcom/huawei/appgallery/videokit/impl/player/exo/VideoDataSourceFactory;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/appmarket/y28;IIZ)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->mHttpDataSourceFactory:Landroidx/media3/datasource/HttpDataSource$b;
 
@@ -124,7 +124,7 @@
 
     const-string v1, "null cannot be cast to non-null type androidx.media3.datasource.HttpDataSource.Factory"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -138,7 +138,7 @@
 
     const-string v1, "US"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     const-string v0, "this as java.lang.String).toLowerCase(locale)"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -154,11 +154,11 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {p1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     const-string v0, ".m3u8"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ip7;->p(Ljava/lang/CharSequence;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/np7;->p(Ljava/lang/CharSequence;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -184,7 +184,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->mAppContext:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     invoke-direct {p0}, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->getHttpDataSourceFactory()Landroidx/media3/datasource/a$a;
 
@@ -207,25 +207,25 @@
     move-result-object v0
 
     .line 5
-    sget-object v1, Lcom/huawei/appmarket/n55;->g:Lcom/huawei/appmarket/n55;
+    sget-object v1, Lcom/huawei/appmarket/q55;->g:Lcom/huawei/appmarket/q55;
 
     .line 6
     .line 7
-    new-instance v1, Lcom/huawei/appmarket/n55$c;
+    new-instance v1, Lcom/huawei/appmarket/q55$c;
 
     .line 8
     .line 9
-    invoke-direct {v1}, Lcom/huawei/appmarket/n55$c;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/q55$c;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/n55$c;->f(Landroid/net/Uri;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/q55$c;->f(Landroid/net/Uri;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v1}, Lcom/huawei/appmarket/n55$c;->a()Lcom/huawei/appmarket/n55;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/q55$c;->a()Lcom/huawei/appmarket/q55;
 
     .line 16
     .line 17
@@ -313,7 +313,7 @@
 
     .line 57
     .line 58
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     .line 59
     .line 60
@@ -323,7 +323,7 @@
     .line 62
     .line 63
     .line 64
-    invoke-virtual {p1, v0}, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;->a(Lcom/huawei/appmarket/n55;)Landroidx/media3/exoplayer/hls/HlsMediaSource;
+    invoke-virtual {p1, v0}, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;->a(Lcom/huawei/appmarket/q55;)Landroidx/media3/exoplayer/hls/HlsMediaSource;
 
     .line 65
     .line 66
@@ -349,7 +349,7 @@
 
     .line 75
     .line 76
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     .line 77
     .line 78
@@ -360,7 +360,7 @@
     .line 81
     .line 82
     :goto_1
-    invoke-virtual {p1, v0}, Landroidx/media3/exoplayer/source/q$b;->a(Lcom/huawei/appmarket/n55;)Landroidx/media3/exoplayer/source/q;
+    invoke-virtual {p1, v0}, Landroidx/media3/exoplayer/source/q$b;->a(Lcom/huawei/appmarket/q55;)Landroidx/media3/exoplayer/source/q;
 
     .line 83
     .line 84
@@ -380,7 +380,7 @@
 
     .line 90
     .line 91
-    invoke-static {v2}, Lcom/huawei/appmarket/ek4;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/gk4;->b(Ljava/lang/Object;)V
 
     .line 92
     .line 93
@@ -403,7 +403,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final setDataSourceFactory(Landroidx/media3/datasource/a$a;)V
@@ -411,7 +410,7 @@
 
     const-string v0, "factory"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/huawei/appgallery/videokit/impl/player/exo/ExoMediaSourceHelper;->mDataSourceFactory:Landroidx/media3/datasource/a$a;
 

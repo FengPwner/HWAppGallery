@@ -153,7 +153,7 @@
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/fs;->y(Ljava/lang/String;)Z
 
     .line 2
     .line 3
@@ -280,7 +280,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method private static verifiedListFiles(Ljava/io/File;)[Ljava/io/File;

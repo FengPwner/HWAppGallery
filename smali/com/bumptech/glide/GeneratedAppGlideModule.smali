@@ -1,5 +1,5 @@
 .class abstract Lcom/bumptech/glide/GeneratedAppGlideModule;
-.super Lcom/huawei/appmarket/dr;
+.super Lcom/huawei/appmarket/cr;
 .source "SourceFile"
 
 
@@ -7,7 +7,7 @@
 .method constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dr;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/cr;-><init>()V
 
     return-void
 .end method

@@ -247,7 +247,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public final X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
@@ -340,7 +339,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
@@ -362,7 +361,7 @@
     .registers 12
 
     .line 1
-    const v0, 0x7f0a18c8
+    const v0, 0x7f0a18c9
 
     .line 2
     .line 3
@@ -383,7 +382,7 @@
 
     .line 11
     .line 12
-    const v0, 0x7f0a18ec
+    const v0, 0x7f0a18ed
 
     .line 13
     .line 14
@@ -404,7 +403,7 @@
 
     .line 22
     .line 23
-    const v0, 0x7f0a18eb
+    const v0, 0x7f0a18ec
 
     .line 24
     .line 25
@@ -425,7 +424,7 @@
 
     .line 33
     .line 34
-    const v0, 0x7f0a18e2
+    const v0, 0x7f0a18e3
 
     .line 35
     .line 36
@@ -450,7 +449,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 48
     .line 49
@@ -459,7 +458,7 @@
 
     .line 51
     .line 52
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->K(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->K(Landroid/view/View;)V
 
     .line 53
     .line 54
@@ -468,7 +467,7 @@
 
     .line 56
     .line 57
-    invoke-static {v0}, Lcom/huawei/appmarket/il0;->a(Landroid/content/Context;)Landroid/content/res/Resources;
+    invoke-static {v0}, Lcom/huawei/appmarket/jl0;->a(Landroid/content/Context;)Landroid/content/res/Resources;
 
     .line 58
     .line 59
@@ -507,7 +506,7 @@
 
     .line 75
     .line 76
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     .line 77
     .line 78
@@ -519,7 +518,7 @@
 
     .line 81
     .line 82
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->k()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->k()Z
 
     .line 83
     .line 84
@@ -609,7 +608,7 @@
     .line 121
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->i(Landroid/content/Context;)Landroid/util/DisplayMetrics;
 
     .line 122
     .line 123
@@ -858,6 +857,4 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method

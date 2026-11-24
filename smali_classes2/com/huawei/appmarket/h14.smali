@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/app/Activity;Landroid/view/View;Ljava/util/ArrayList;Z)V
+.method public abstract B0(Z)V
 .end method

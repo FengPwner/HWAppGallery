@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/eo5;
+.implements Lcom/huawei/appmarket/fo5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/eo5<",
+        "Lcom/huawei/appmarket/fo5<",
         "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
         ">;"
     }
@@ -42,12 +42,12 @@
 
 
 # virtual methods
-.method public final onComplete(Lcom/huawei/appmarket/hv7;)V
+.method public final onComplete(Lcom/huawei/appmarket/nv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Lcom/huawei/appgallery/accountkit/api/LoginResultBean;",
             ">;)V"
         }
@@ -60,7 +60,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->I0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Z
 
     move-result v2
 
@@ -69,7 +69,7 @@
     invoke-virtual {v1}, Lcom/huawei/appmarket/framework/widget/LoadingDialog;->dismiss()V
 
     :cond_0
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->isSuccessful()Z
 
     move-result v1
 
@@ -79,7 +79,7 @@
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -88,7 +88,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -110,15 +110,15 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->K0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->K0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Z
+    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->L0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->L0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;
+    invoke-static {v0}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->M0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;)Lcom/huawei/appgallery/agwebview/api/ui/IWebViewActivityProtocol;
 
     move-result-object p1
 
@@ -131,7 +131,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -145,7 +145,7 @@
 
     if-ne p1, v1, :cond_3
 
-    invoke-static {v0, v2, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->K0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_0
@@ -157,9 +157,9 @@
 
     const-string v1, "onComplete, login task is failed"
 
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0, v2, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->J0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v3}, Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;->K0(Lcom/huawei/appgallery/assistantdock/buoydock/webview/delegate/BuoyWebviewDelegate;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

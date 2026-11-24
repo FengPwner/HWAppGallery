@@ -38,7 +38,7 @@
 
     new-array v1, v0, [[Ljava/lang/String;
 
-    const-string v2, "\u00a0"
+    const-string/jumbo v2, "\u00a0"
 
     const-string v3, "&nbsp;"
 
@@ -50,7 +50,7 @@
 
     aput-object v2, v1, v3
 
-    const-string v2, "\u00a1"
+    const-string/jumbo v2, "\u00a1"
 
     const-string v4, "&iexcl;"
 
@@ -62,7 +62,7 @@
 
     aput-object v2, v1, v4
 
-    const-string v2, "\u00a2"
+    const-string/jumbo v2, "\u00a2"
 
     const-string v5, "&cent;"
 
@@ -74,7 +74,7 @@
 
     aput-object v2, v1, v5
 
-    const-string v2, "\u00a3"
+    const-string/jumbo v2, "\u00a3"
 
     const-string v6, "&pound;"
 
@@ -86,7 +86,7 @@
 
     aput-object v2, v1, v6
 
-    const-string v2, "\u00a4"
+    const-string/jumbo v2, "\u00a4"
 
     const-string v7, "&curren;"
 
@@ -98,7 +98,7 @@
 
     aput-object v2, v1, v7
 
-    const-string v2, "\u00a5"
+    const-string/jumbo v2, "\u00a5"
 
     const-string v8, "&yen;"
 
@@ -110,7 +110,7 @@
 
     aput-object v2, v1, v8
 
-    const-string v2, "\u00a6"
+    const-string/jumbo v2, "\u00a6"
 
     const-string v9, "&brvbar;"
 
@@ -122,7 +122,7 @@
 
     aput-object v2, v1, v9
 
-    const-string v2, "\u00a7"
+    const-string/jumbo v2, "\u00a7"
 
     const-string v10, "&sect;"
 
@@ -134,7 +134,7 @@
 
     aput-object v2, v1, v10
 
-    const-string v2, "\u00a8"
+    const-string/jumbo v2, "\u00a8"
 
     const-string v11, "&uml;"
 
@@ -146,7 +146,7 @@
 
     aput-object v2, v1, v11
 
-    const-string v2, "\u00a9"
+    const-string/jumbo v2, "\u00a9"
 
     const-string v12, "&copy;"
 
@@ -158,7 +158,7 @@
 
     aput-object v2, v1, v12
 
-    const-string v2, "\u00aa"
+    const-string/jumbo v2, "\u00aa"
 
     const-string v13, "&ordf;"
 
@@ -170,7 +170,7 @@
 
     aput-object v2, v1, v13
 
-    const-string v2, "\u00ab"
+    const-string/jumbo v2, "\u00ab"
 
     const-string v14, "&laquo;"
 
@@ -182,7 +182,7 @@
 
     aput-object v2, v1, v14
 
-    const-string v2, "\u00ac"
+    const-string/jumbo v2, "\u00ac"
 
     const-string v15, "&not;"
 
@@ -194,7 +194,7 @@
 
     aput-object v2, v1, v15
 
-    const-string v2, "\u00ad"
+    const-string/jumbo v2, "\u00ad"
 
     const-string v0, "&shy;"
 
@@ -206,7 +206,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ae"
+    const-string/jumbo v0, "\u00ae"
 
     const-string v2, "&reg;"
 
@@ -218,7 +218,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00af"
+    const-string/jumbo v0, "\u00af"
 
     const-string v2, "&macr;"
 
@@ -230,7 +230,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b0"
+    const-string/jumbo v0, "\u00b0"
 
     const-string v2, "&deg;"
 
@@ -242,7 +242,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b1"
+    const-string/jumbo v0, "\u00b1"
 
     const-string v2, "&plusmn;"
 
@@ -254,7 +254,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b2"
+    const-string/jumbo v0, "\u00b2"
 
     const-string v2, "&sup2;"
 
@@ -266,7 +266,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b3"
+    const-string/jumbo v0, "\u00b3"
 
     const-string v2, "&sup3;"
 
@@ -278,7 +278,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b4"
+    const-string/jumbo v0, "\u00b4"
 
     const-string v2, "&acute;"
 
@@ -290,7 +290,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b5"
+    const-string/jumbo v0, "\u00b5"
 
     const-string v2, "&micro;"
 
@@ -302,7 +302,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b6"
+    const-string/jumbo v0, "\u00b6"
 
     const-string v2, "&para;"
 
@@ -314,7 +314,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b7"
+    const-string/jumbo v0, "\u00b7"
 
     const-string v2, "&middot;"
 
@@ -326,7 +326,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b8"
+    const-string/jumbo v0, "\u00b8"
 
     const-string v2, "&cedil;"
 
@@ -338,7 +338,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00b9"
+    const-string/jumbo v0, "\u00b9"
 
     const-string v2, "&sup1;"
 
@@ -350,7 +350,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ba"
+    const-string/jumbo v0, "\u00ba"
 
     const-string v2, "&ordm;"
 
@@ -362,7 +362,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00bb"
+    const-string/jumbo v0, "\u00bb"
 
     const-string v2, "&raquo;"
 
@@ -374,7 +374,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00bc"
+    const-string/jumbo v0, "\u00bc"
 
     const-string v2, "&frac14;"
 
@@ -386,7 +386,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00bd"
+    const-string/jumbo v0, "\u00bd"
 
     const-string v2, "&frac12;"
 
@@ -398,7 +398,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00be"
+    const-string/jumbo v0, "\u00be"
 
     const-string v2, "&frac34;"
 
@@ -410,7 +410,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00bf"
+    const-string/jumbo v0, "\u00bf"
 
     const-string v2, "&iquest;"
 
@@ -422,7 +422,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c0"
+    const-string/jumbo v0, "\u00c0"
 
     const-string v2, "&Agrave;"
 
@@ -434,7 +434,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c1"
+    const-string/jumbo v0, "\u00c1"
 
     const-string v2, "&Aacute;"
 
@@ -446,7 +446,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c2"
+    const-string/jumbo v0, "\u00c2"
 
     const-string v2, "&Acirc;"
 
@@ -458,7 +458,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c3"
+    const-string/jumbo v0, "\u00c3"
 
     const-string v2, "&Atilde;"
 
@@ -470,7 +470,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c4"
+    const-string/jumbo v0, "\u00c4"
 
     const-string v2, "&Auml;"
 
@@ -482,7 +482,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c5"
+    const-string/jumbo v0, "\u00c5"
 
     const-string v2, "&Aring;"
 
@@ -494,7 +494,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c6"
+    const-string/jumbo v0, "\u00c6"
 
     const-string v2, "&AElig;"
 
@@ -506,7 +506,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c7"
+    const-string/jumbo v0, "\u00c7"
 
     const-string v2, "&Ccedil;"
 
@@ -518,7 +518,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c8"
+    const-string/jumbo v0, "\u00c8"
 
     const-string v2, "&Egrave;"
 
@@ -530,7 +530,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00c9"
+    const-string/jumbo v0, "\u00c9"
 
     const-string v2, "&Eacute;"
 
@@ -542,7 +542,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ca"
+    const-string/jumbo v0, "\u00ca"
 
     const-string v2, "&Ecirc;"
 
@@ -554,7 +554,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00cb"
+    const-string/jumbo v0, "\u00cb"
 
     const-string v2, "&Euml;"
 
@@ -566,7 +566,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00cc"
+    const-string/jumbo v0, "\u00cc"
 
     const-string v2, "&Igrave;"
 
@@ -578,7 +578,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00cd"
+    const-string/jumbo v0, "\u00cd"
 
     const-string v2, "&Iacute;"
 
@@ -590,7 +590,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ce"
+    const-string/jumbo v0, "\u00ce"
 
     const-string v2, "&Icirc;"
 
@@ -602,7 +602,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00cf"
+    const-string/jumbo v0, "\u00cf"
 
     const-string v2, "&Iuml;"
 
@@ -614,7 +614,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d0"
+    const-string/jumbo v0, "\u00d0"
 
     const-string v2, "&ETH;"
 
@@ -626,7 +626,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d1"
+    const-string/jumbo v0, "\u00d1"
 
     const-string v2, "&Ntilde;"
 
@@ -638,7 +638,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d2"
+    const-string/jumbo v0, "\u00d2"
 
     const-string v2, "&Ograve;"
 
@@ -650,7 +650,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d3"
+    const-string/jumbo v0, "\u00d3"
 
     const-string v2, "&Oacute;"
 
@@ -662,7 +662,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d4"
+    const-string/jumbo v0, "\u00d4"
 
     const-string v2, "&Ocirc;"
 
@@ -674,7 +674,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d5"
+    const-string/jumbo v0, "\u00d5"
 
     const-string v2, "&Otilde;"
 
@@ -686,7 +686,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d6"
+    const-string/jumbo v0, "\u00d6"
 
     const-string v2, "&Ouml;"
 
@@ -698,7 +698,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d7"
+    const-string/jumbo v0, "\u00d7"
 
     const-string v2, "&times;"
 
@@ -710,7 +710,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d8"
+    const-string/jumbo v0, "\u00d8"
 
     const-string v2, "&Oslash;"
 
@@ -722,7 +722,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00d9"
+    const-string/jumbo v0, "\u00d9"
 
     const-string v2, "&Ugrave;"
 
@@ -734,7 +734,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00da"
+    const-string/jumbo v0, "\u00da"
 
     const-string v2, "&Uacute;"
 
@@ -746,7 +746,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00db"
+    const-string/jumbo v0, "\u00db"
 
     const-string v2, "&Ucirc;"
 
@@ -758,7 +758,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00dc"
+    const-string/jumbo v0, "\u00dc"
 
     const-string v2, "&Uuml;"
 
@@ -770,7 +770,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00dd"
+    const-string/jumbo v0, "\u00dd"
 
     const-string v2, "&Yacute;"
 
@@ -782,7 +782,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00de"
+    const-string/jumbo v0, "\u00de"
 
     const-string v2, "&THORN;"
 
@@ -794,7 +794,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00df"
+    const-string/jumbo v0, "\u00df"
 
     const-string v2, "&szlig;"
 
@@ -806,7 +806,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e0"
+    const-string/jumbo v0, "\u00e0"
 
     const-string v2, "&agrave;"
 
@@ -818,7 +818,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e1"
+    const-string/jumbo v0, "\u00e1"
 
     const-string v2, "&aacute;"
 
@@ -830,7 +830,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e2"
+    const-string/jumbo v0, "\u00e2"
 
     const-string v2, "&acirc;"
 
@@ -842,7 +842,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e3"
+    const-string/jumbo v0, "\u00e3"
 
     const-string v2, "&atilde;"
 
@@ -854,7 +854,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e4"
+    const-string/jumbo v0, "\u00e4"
 
     const-string v2, "&auml;"
 
@@ -866,7 +866,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e5"
+    const-string/jumbo v0, "\u00e5"
 
     const-string v2, "&aring;"
 
@@ -878,7 +878,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e6"
+    const-string/jumbo v0, "\u00e6"
 
     const-string v2, "&aelig;"
 
@@ -890,7 +890,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e7"
+    const-string/jumbo v0, "\u00e7"
 
     const-string v2, "&ccedil;"
 
@@ -902,7 +902,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e8"
+    const-string/jumbo v0, "\u00e8"
 
     const-string v2, "&egrave;"
 
@@ -914,7 +914,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00e9"
+    const-string/jumbo v0, "\u00e9"
 
     const-string v2, "&eacute;"
 
@@ -926,7 +926,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ea"
+    const-string/jumbo v0, "\u00ea"
 
     const-string v2, "&ecirc;"
 
@@ -938,7 +938,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00eb"
+    const-string/jumbo v0, "\u00eb"
 
     const-string v2, "&euml;"
 
@@ -950,7 +950,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ec"
+    const-string/jumbo v0, "\u00ec"
 
     const-string v2, "&igrave;"
 
@@ -962,7 +962,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ed"
+    const-string/jumbo v0, "\u00ed"
 
     const-string v2, "&iacute;"
 
@@ -974,7 +974,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ee"
+    const-string/jumbo v0, "\u00ee"
 
     const-string v2, "&icirc;"
 
@@ -986,7 +986,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ef"
+    const-string/jumbo v0, "\u00ef"
 
     const-string v2, "&iuml;"
 
@@ -998,7 +998,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f0"
+    const-string/jumbo v0, "\u00f0"
 
     const-string v2, "&eth;"
 
@@ -1010,7 +1010,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f1"
+    const-string/jumbo v0, "\u00f1"
 
     const-string v2, "&ntilde;"
 
@@ -1022,7 +1022,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f2"
+    const-string/jumbo v0, "\u00f2"
 
     const-string v2, "&ograve;"
 
@@ -1034,7 +1034,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f3"
+    const-string/jumbo v0, "\u00f3"
 
     const-string v2, "&oacute;"
 
@@ -1046,7 +1046,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f4"
+    const-string/jumbo v0, "\u00f4"
 
     const-string v2, "&ocirc;"
 
@@ -1058,7 +1058,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f5"
+    const-string/jumbo v0, "\u00f5"
 
     const-string v2, "&otilde;"
 
@@ -1070,7 +1070,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f6"
+    const-string/jumbo v0, "\u00f6"
 
     const-string v2, "&ouml;"
 
@@ -1082,7 +1082,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f7"
+    const-string/jumbo v0, "\u00f7"
 
     const-string v2, "&divide;"
 
@@ -1094,7 +1094,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f8"
+    const-string/jumbo v0, "\u00f8"
 
     const-string v2, "&oslash;"
 
@@ -1106,7 +1106,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00f9"
+    const-string/jumbo v0, "\u00f9"
 
     const-string v2, "&ugrave;"
 
@@ -1118,7 +1118,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00fa"
+    const-string/jumbo v0, "\u00fa"
 
     const-string v2, "&uacute;"
 
@@ -1130,7 +1130,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00fb"
+    const-string/jumbo v0, "\u00fb"
 
     const-string v2, "&ucirc;"
 
@@ -1142,7 +1142,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00fc"
+    const-string/jumbo v0, "\u00fc"
 
     const-string v2, "&uuml;"
 
@@ -1154,7 +1154,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00fd"
+    const-string/jumbo v0, "\u00fd"
 
     const-string v2, "&yacute;"
 
@@ -1166,7 +1166,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00fe"
+    const-string/jumbo v0, "\u00fe"
 
     const-string v2, "&thorn;"
 
@@ -1178,7 +1178,7 @@
 
     aput-object v0, v1, v2
 
-    const-string v0, "\u00ff"
+    const-string/jumbo v0, "\u00ff"
 
     const-string v2, "&yuml;"
 
@@ -1202,7 +1202,7 @@
 
     new-array v0, v0, [[Ljava/lang/String;
 
-    const-string v1, "\u0192"
+    const-string/jumbo v1, "\u0192"
 
     const-string v2, "&fnof;"
 
@@ -1212,7 +1212,7 @@
 
     aput-object v1, v0, v3
 
-    const-string v1, "\u0391"
+    const-string/jumbo v1, "\u0391"
 
     const-string v2, "&Alpha;"
 
@@ -1222,7 +1222,7 @@
 
     aput-object v1, v0, v4
 
-    const-string v1, "\u0392"
+    const-string/jumbo v1, "\u0392"
 
     const-string v2, "&Beta;"
 
@@ -1232,7 +1232,7 @@
 
     aput-object v1, v0, v5
 
-    const-string v1, "\u0393"
+    const-string/jumbo v1, "\u0393"
 
     const-string v2, "&Gamma;"
 
@@ -1242,7 +1242,7 @@
 
     aput-object v1, v0, v6
 
-    const-string v1, "\u0394"
+    const-string/jumbo v1, "\u0394"
 
     const-string v2, "&Delta;"
 
@@ -1252,7 +1252,7 @@
 
     aput-object v1, v0, v7
 
-    const-string v1, "\u0395"
+    const-string/jumbo v1, "\u0395"
 
     const-string v2, "&Epsilon;"
 
@@ -1262,7 +1262,7 @@
 
     aput-object v1, v0, v8
 
-    const-string v1, "\u0396"
+    const-string/jumbo v1, "\u0396"
 
     const-string v2, "&Zeta;"
 
@@ -1272,7 +1272,7 @@
 
     aput-object v1, v0, v9
 
-    const-string v1, "\u0397"
+    const-string/jumbo v1, "\u0397"
 
     const-string v2, "&Eta;"
 
@@ -1282,7 +1282,7 @@
 
     aput-object v1, v0, v10
 
-    const-string v1, "\u0398"
+    const-string/jumbo v1, "\u0398"
 
     const-string v2, "&Theta;"
 
@@ -1292,7 +1292,7 @@
 
     aput-object v1, v0, v11
 
-    const-string v1, "\u0399"
+    const-string/jumbo v1, "\u0399"
 
     const-string v2, "&Iota;"
 
@@ -1302,7 +1302,7 @@
 
     aput-object v1, v0, v12
 
-    const-string v1, "\u039a"
+    const-string/jumbo v1, "\u039a"
 
     const-string v2, "&Kappa;"
 
@@ -1312,7 +1312,7 @@
 
     aput-object v1, v0, v13
 
-    const-string v1, "\u039b"
+    const-string/jumbo v1, "\u039b"
 
     const-string v2, "&Lambda;"
 
@@ -1322,7 +1322,7 @@
 
     aput-object v1, v0, v14
 
-    const-string v1, "\u039c"
+    const-string/jumbo v1, "\u039c"
 
     const-string v2, "&Mu;"
 
@@ -1332,7 +1332,7 @@
 
     aput-object v1, v0, v15
 
-    const-string v1, "\u039d"
+    const-string/jumbo v1, "\u039d"
 
     const-string v2, "&Nu;"
 
@@ -1344,7 +1344,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u039e"
+    const-string/jumbo v1, "\u039e"
 
     const-string v2, "&Xi;"
 
@@ -1356,7 +1356,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u039f"
+    const-string/jumbo v1, "\u039f"
 
     const-string v2, "&Omicron;"
 
@@ -1368,7 +1368,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a0"
+    const-string/jumbo v1, "\u03a0"
 
     const-string v2, "&Pi;"
 
@@ -1380,7 +1380,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a1"
+    const-string/jumbo v1, "\u03a1"
 
     const-string v2, "&Rho;"
 
@@ -1392,7 +1392,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a3"
+    const-string/jumbo v1, "\u03a3"
 
     const-string v2, "&Sigma;"
 
@@ -1404,7 +1404,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a4"
+    const-string/jumbo v1, "\u03a4"
 
     const-string v2, "&Tau;"
 
@@ -1416,7 +1416,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a5"
+    const-string/jumbo v1, "\u03a5"
 
     const-string v2, "&Upsilon;"
 
@@ -1428,7 +1428,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a6"
+    const-string/jumbo v1, "\u03a6"
 
     const-string v2, "&Phi;"
 
@@ -1440,7 +1440,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a7"
+    const-string/jumbo v1, "\u03a7"
 
     const-string v2, "&Chi;"
 
@@ -1452,7 +1452,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a8"
+    const-string/jumbo v1, "\u03a8"
 
     const-string v2, "&Psi;"
 
@@ -1464,7 +1464,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03a9"
+    const-string/jumbo v1, "\u03a9"
 
     const-string v2, "&Omega;"
 
@@ -1476,7 +1476,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b1"
+    const-string/jumbo v1, "\u03b1"
 
     const-string v2, "&alpha;"
 
@@ -1488,7 +1488,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b2"
+    const-string/jumbo v1, "\u03b2"
 
     const-string v2, "&beta;"
 
@@ -1500,7 +1500,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b3"
+    const-string/jumbo v1, "\u03b3"
 
     const-string v2, "&gamma;"
 
@@ -1512,7 +1512,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b4"
+    const-string/jumbo v1, "\u03b4"
 
     const-string v2, "&delta;"
 
@@ -1524,7 +1524,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b5"
+    const-string/jumbo v1, "\u03b5"
 
     const-string v2, "&epsilon;"
 
@@ -1536,7 +1536,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b6"
+    const-string/jumbo v1, "\u03b6"
 
     const-string v2, "&zeta;"
 
@@ -1548,7 +1548,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b7"
+    const-string/jumbo v1, "\u03b7"
 
     const-string v2, "&eta;"
 
@@ -1560,7 +1560,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b8"
+    const-string/jumbo v1, "\u03b8"
 
     const-string v2, "&theta;"
 
@@ -1572,7 +1572,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03b9"
+    const-string/jumbo v1, "\u03b9"
 
     const-string v2, "&iota;"
 
@@ -1584,7 +1584,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03ba"
+    const-string/jumbo v1, "\u03ba"
 
     const-string v2, "&kappa;"
 
@@ -1596,7 +1596,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03bb"
+    const-string/jumbo v1, "\u03bb"
 
     const-string v2, "&lambda;"
 
@@ -1608,7 +1608,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03bc"
+    const-string/jumbo v1, "\u03bc"
 
     const-string v2, "&mu;"
 
@@ -1620,7 +1620,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03bd"
+    const-string/jumbo v1, "\u03bd"
 
     const-string v2, "&nu;"
 
@@ -1632,7 +1632,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03be"
+    const-string/jumbo v1, "\u03be"
 
     const-string v2, "&xi;"
 
@@ -1644,7 +1644,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03bf"
+    const-string/jumbo v1, "\u03bf"
 
     const-string v2, "&omicron;"
 
@@ -1656,7 +1656,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c0"
+    const-string/jumbo v1, "\u03c0"
 
     const-string v2, "&pi;"
 
@@ -1668,7 +1668,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c1"
+    const-string/jumbo v1, "\u03c1"
 
     const-string v2, "&rho;"
 
@@ -1680,7 +1680,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c2"
+    const-string/jumbo v1, "\u03c2"
 
     const-string v2, "&sigmaf;"
 
@@ -1692,7 +1692,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c3"
+    const-string/jumbo v1, "\u03c3"
 
     const-string v2, "&sigma;"
 
@@ -1704,7 +1704,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c4"
+    const-string/jumbo v1, "\u03c4"
 
     const-string v2, "&tau;"
 
@@ -1716,7 +1716,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c5"
+    const-string/jumbo v1, "\u03c5"
 
     const-string v2, "&upsilon;"
 
@@ -1728,7 +1728,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c6"
+    const-string/jumbo v1, "\u03c6"
 
     const-string v2, "&phi;"
 
@@ -1740,7 +1740,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c7"
+    const-string/jumbo v1, "\u03c7"
 
     const-string v2, "&chi;"
 
@@ -1752,7 +1752,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c8"
+    const-string/jumbo v1, "\u03c8"
 
     const-string v2, "&psi;"
 
@@ -1764,7 +1764,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03c9"
+    const-string/jumbo v1, "\u03c9"
 
     const-string v2, "&omega;"
 
@@ -1776,7 +1776,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03d1"
+    const-string/jumbo v1, "\u03d1"
 
     const-string v2, "&thetasym;"
 
@@ -1788,7 +1788,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03d2"
+    const-string/jumbo v1, "\u03d2"
 
     const-string v2, "&upsih;"
 
@@ -1800,7 +1800,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u03d6"
+    const-string/jumbo v1, "\u03d6"
 
     const-string v2, "&piv;"
 
@@ -1812,7 +1812,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2022"
+    const-string/jumbo v1, "\u2022"
 
     const-string v2, "&bull;"
 
@@ -1824,7 +1824,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2026"
+    const-string/jumbo v1, "\u2026"
 
     const-string v2, "&hellip;"
 
@@ -1836,7 +1836,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2032"
+    const-string/jumbo v1, "\u2032"
 
     const-string v2, "&prime;"
 
@@ -1848,7 +1848,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2033"
+    const-string/jumbo v1, "\u2033"
 
     const-string v2, "&Prime;"
 
@@ -1860,7 +1860,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u203e"
+    const-string/jumbo v1, "\u203e"
 
     const-string v2, "&oline;"
 
@@ -1872,7 +1872,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2044"
+    const-string/jumbo v1, "\u2044"
 
     const-string v2, "&frasl;"
 
@@ -1884,7 +1884,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2118"
+    const-string/jumbo v1, "\u2118"
 
     const-string v2, "&weierp;"
 
@@ -1896,7 +1896,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2111"
+    const-string/jumbo v1, "\u2111"
 
     const-string v2, "&image;"
 
@@ -1908,7 +1908,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u211c"
+    const-string/jumbo v1, "\u211c"
 
     const-string v2, "&real;"
 
@@ -1920,7 +1920,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2122"
+    const-string/jumbo v1, "\u2122"
 
     const-string v2, "&trade;"
 
@@ -1932,7 +1932,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2135"
+    const-string/jumbo v1, "\u2135"
 
     const-string v2, "&alefsym;"
 
@@ -1944,7 +1944,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2190"
+    const-string/jumbo v1, "\u2190"
 
     const-string v2, "&larr;"
 
@@ -1956,7 +1956,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2191"
+    const-string/jumbo v1, "\u2191"
 
     const-string v2, "&uarr;"
 
@@ -1968,7 +1968,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2192"
+    const-string/jumbo v1, "\u2192"
 
     const-string v2, "&rarr;"
 
@@ -1980,7 +1980,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2193"
+    const-string/jumbo v1, "\u2193"
 
     const-string v2, "&darr;"
 
@@ -1992,7 +1992,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2194"
+    const-string/jumbo v1, "\u2194"
 
     const-string v2, "&harr;"
 
@@ -2004,7 +2004,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21b5"
+    const-string/jumbo v1, "\u21b5"
 
     const-string v2, "&crarr;"
 
@@ -2016,7 +2016,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21d0"
+    const-string/jumbo v1, "\u21d0"
 
     const-string v2, "&lArr;"
 
@@ -2028,7 +2028,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21d1"
+    const-string/jumbo v1, "\u21d1"
 
     const-string v2, "&uArr;"
 
@@ -2040,7 +2040,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21d2"
+    const-string/jumbo v1, "\u21d2"
 
     const-string v2, "&rArr;"
 
@@ -2052,7 +2052,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21d3"
+    const-string/jumbo v1, "\u21d3"
 
     const-string v2, "&dArr;"
 
@@ -2064,7 +2064,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u21d4"
+    const-string/jumbo v1, "\u21d4"
 
     const-string v2, "&hArr;"
 
@@ -2076,7 +2076,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2200"
+    const-string/jumbo v1, "\u2200"
 
     const-string v2, "&forall;"
 
@@ -2088,7 +2088,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2202"
+    const-string/jumbo v1, "\u2202"
 
     const-string v2, "&part;"
 
@@ -2100,7 +2100,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2203"
+    const-string/jumbo v1, "\u2203"
 
     const-string v2, "&exist;"
 
@@ -2112,7 +2112,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2205"
+    const-string/jumbo v1, "\u2205"
 
     const-string v2, "&empty;"
 
@@ -2124,7 +2124,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2207"
+    const-string/jumbo v1, "\u2207"
 
     const-string v2, "&nabla;"
 
@@ -2136,7 +2136,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2208"
+    const-string/jumbo v1, "\u2208"
 
     const-string v2, "&isin;"
 
@@ -2148,7 +2148,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2209"
+    const-string/jumbo v1, "\u2209"
 
     const-string v2, "&notin;"
 
@@ -2160,7 +2160,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u220b"
+    const-string/jumbo v1, "\u220b"
 
     const-string v2, "&ni;"
 
@@ -2172,7 +2172,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u220f"
+    const-string/jumbo v1, "\u220f"
 
     const-string v2, "&prod;"
 
@@ -2184,7 +2184,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2211"
+    const-string/jumbo v1, "\u2211"
 
     const-string v2, "&sum;"
 
@@ -2196,7 +2196,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2212"
+    const-string/jumbo v1, "\u2212"
 
     const-string v2, "&minus;"
 
@@ -2208,7 +2208,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2217"
+    const-string/jumbo v1, "\u2217"
 
     const-string v2, "&lowast;"
 
@@ -2220,7 +2220,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u221a"
+    const-string/jumbo v1, "\u221a"
 
     const-string v2, "&radic;"
 
@@ -2232,7 +2232,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u221d"
+    const-string/jumbo v1, "\u221d"
 
     const-string v2, "&prop;"
 
@@ -2244,7 +2244,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u221e"
+    const-string/jumbo v1, "\u221e"
 
     const-string v2, "&infin;"
 
@@ -2256,7 +2256,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2220"
+    const-string/jumbo v1, "\u2220"
 
     const-string v2, "&ang;"
 
@@ -2268,7 +2268,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2227"
+    const-string/jumbo v1, "\u2227"
 
     const-string v2, "&and;"
 
@@ -2280,7 +2280,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2228"
+    const-string/jumbo v1, "\u2228"
 
     const-string v2, "&or;"
 
@@ -2292,7 +2292,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2229"
+    const-string/jumbo v1, "\u2229"
 
     const-string v2, "&cap;"
 
@@ -2304,7 +2304,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u222a"
+    const-string/jumbo v1, "\u222a"
 
     const-string v2, "&cup;"
 
@@ -2316,7 +2316,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u222b"
+    const-string/jumbo v1, "\u222b"
 
     const-string v2, "&int;"
 
@@ -2328,7 +2328,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2234"
+    const-string/jumbo v1, "\u2234"
 
     const-string v2, "&there4;"
 
@@ -2340,7 +2340,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u223c"
+    const-string/jumbo v1, "\u223c"
 
     const-string v2, "&sim;"
 
@@ -2352,7 +2352,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2245"
+    const-string/jumbo v1, "\u2245"
 
     const-string v2, "&cong;"
 
@@ -2364,7 +2364,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2248"
+    const-string/jumbo v1, "\u2248"
 
     const-string v2, "&asymp;"
 
@@ -2376,7 +2376,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2260"
+    const-string/jumbo v1, "\u2260"
 
     const-string v2, "&ne;"
 
@@ -2388,7 +2388,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2261"
+    const-string/jumbo v1, "\u2261"
 
     const-string v2, "&equiv;"
 
@@ -2400,7 +2400,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2264"
+    const-string/jumbo v1, "\u2264"
 
     const-string v2, "&le;"
 
@@ -2412,7 +2412,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2265"
+    const-string/jumbo v1, "\u2265"
 
     const-string v2, "&ge;"
 
@@ -2424,7 +2424,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2282"
+    const-string/jumbo v1, "\u2282"
 
     const-string v2, "&sub;"
 
@@ -2436,7 +2436,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2283"
+    const-string/jumbo v1, "\u2283"
 
     const-string v2, "&sup;"
 
@@ -2448,7 +2448,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2284"
+    const-string/jumbo v1, "\u2284"
 
     const-string v2, "&nsub;"
 
@@ -2460,7 +2460,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2286"
+    const-string/jumbo v1, "\u2286"
 
     const-string v2, "&sube;"
 
@@ -2472,7 +2472,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2287"
+    const-string/jumbo v1, "\u2287"
 
     const-string v2, "&supe;"
 
@@ -2484,7 +2484,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2295"
+    const-string/jumbo v1, "\u2295"
 
     const-string v2, "&oplus;"
 
@@ -2496,7 +2496,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2297"
+    const-string/jumbo v1, "\u2297"
 
     const-string v2, "&otimes;"
 
@@ -2508,7 +2508,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u22a5"
+    const-string/jumbo v1, "\u22a5"
 
     const-string v2, "&perp;"
 
@@ -2520,7 +2520,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u22c5"
+    const-string/jumbo v1, "\u22c5"
 
     const-string v2, "&sdot;"
 
@@ -2532,7 +2532,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2308"
+    const-string/jumbo v1, "\u2308"
 
     const-string v2, "&lceil;"
 
@@ -2544,7 +2544,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2309"
+    const-string/jumbo v1, "\u2309"
 
     const-string v2, "&rceil;"
 
@@ -2556,7 +2556,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u230a"
+    const-string/jumbo v1, "\u230a"
 
     const-string v2, "&lfloor;"
 
@@ -2568,7 +2568,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u230b"
+    const-string/jumbo v1, "\u230b"
 
     const-string v2, "&rfloor;"
 
@@ -2580,7 +2580,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2329"
+    const-string/jumbo v1, "\u2329"
 
     const-string v2, "&lang;"
 
@@ -2592,7 +2592,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u232a"
+    const-string/jumbo v1, "\u232a"
 
     const-string v2, "&rang;"
 
@@ -2604,7 +2604,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u25ca"
+    const-string/jumbo v1, "\u25ca"
 
     const-string v2, "&loz;"
 
@@ -2616,7 +2616,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2660"
+    const-string/jumbo v1, "\u2660"
 
     const-string v2, "&spades;"
 
@@ -2628,7 +2628,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2663"
+    const-string/jumbo v1, "\u2663"
 
     const-string v2, "&clubs;"
 
@@ -2640,7 +2640,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2665"
+    const-string/jumbo v1, "\u2665"
 
     const-string v2, "&hearts;"
 
@@ -2652,7 +2652,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2666"
+    const-string/jumbo v1, "\u2666"
 
     const-string v2, "&diams;"
 
@@ -2664,7 +2664,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u0152"
+    const-string/jumbo v1, "\u0152"
 
     const-string v2, "&OElig;"
 
@@ -2676,7 +2676,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u0153"
+    const-string/jumbo v1, "\u0153"
 
     const-string v2, "&oelig;"
 
@@ -2688,7 +2688,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u0160"
+    const-string/jumbo v1, "\u0160"
 
     const-string v2, "&Scaron;"
 
@@ -2700,7 +2700,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u0161"
+    const-string/jumbo v1, "\u0161"
 
     const-string v2, "&scaron;"
 
@@ -2712,7 +2712,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u0178"
+    const-string/jumbo v1, "\u0178"
 
     const-string v2, "&Yuml;"
 
@@ -2724,7 +2724,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u02c6"
+    const-string/jumbo v1, "\u02c6"
 
     const-string v2, "&circ;"
 
@@ -2736,7 +2736,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u02dc"
+    const-string/jumbo v1, "\u02dc"
 
     const-string v2, "&tilde;"
 
@@ -2748,7 +2748,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2002"
+    const-string/jumbo v1, "\u2002"
 
     const-string v2, "&ensp;"
 
@@ -2760,7 +2760,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2003"
+    const-string/jumbo v1, "\u2003"
 
     const-string v2, "&emsp;"
 
@@ -2772,7 +2772,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2009"
+    const-string/jumbo v1, "\u2009"
 
     const-string v2, "&thinsp;"
 
@@ -2784,7 +2784,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u200c"
+    const-string/jumbo v1, "\u200c"
 
     const-string v2, "&zwnj;"
 
@@ -2796,7 +2796,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u200d"
+    const-string/jumbo v1, "\u200d"
 
     const-string v2, "&zwj;"
 
@@ -2808,7 +2808,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u200e"
+    const-string/jumbo v1, "\u200e"
 
     const-string v2, "&lrm;"
 
@@ -2820,7 +2820,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u200f"
+    const-string/jumbo v1, "\u200f"
 
     const-string v2, "&rlm;"
 
@@ -2832,7 +2832,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2013"
+    const-string/jumbo v1, "\u2013"
 
     const-string v2, "&ndash;"
 
@@ -2844,7 +2844,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2014"
+    const-string/jumbo v1, "\u2014"
 
     const-string v2, "&mdash;"
 
@@ -2856,7 +2856,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2018"
+    const-string/jumbo v1, "\u2018"
 
     const-string v2, "&lsquo;"
 
@@ -2868,7 +2868,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2019"
+    const-string/jumbo v1, "\u2019"
 
     const-string v2, "&rsquo;"
 
@@ -2880,7 +2880,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u201a"
+    const-string/jumbo v1, "\u201a"
 
     const-string v2, "&sbquo;"
 
@@ -2892,7 +2892,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u201c"
+    const-string/jumbo v1, "\u201c"
 
     const-string v2, "&ldquo;"
 
@@ -2904,7 +2904,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u201d"
+    const-string/jumbo v1, "\u201d"
 
     const-string v2, "&rdquo;"
 
@@ -2916,7 +2916,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u201e"
+    const-string/jumbo v1, "\u201e"
 
     const-string v2, "&bdquo;"
 
@@ -2928,7 +2928,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2020"
+    const-string/jumbo v1, "\u2020"
 
     const-string v2, "&dagger;"
 
@@ -2940,7 +2940,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2021"
+    const-string/jumbo v1, "\u2021"
 
     const-string v2, "&Dagger;"
 
@@ -2952,7 +2952,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2030"
+    const-string/jumbo v1, "\u2030"
 
     const-string v2, "&permil;"
 
@@ -2964,7 +2964,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u2039"
+    const-string/jumbo v1, "\u2039"
 
     const-string v2, "&lsaquo;"
 
@@ -2976,7 +2976,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u203a"
+    const-string/jumbo v1, "\u203a"
 
     const-string v2, "&rsaquo;"
 
@@ -2988,7 +2988,7 @@
 
     aput-object v1, v0, v2
 
-    const-string v1, "\u20ac"
+    const-string/jumbo v1, "\u20ac"
 
     const-string v2, "&euro;"
 

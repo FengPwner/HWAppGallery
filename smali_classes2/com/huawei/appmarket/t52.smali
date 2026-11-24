@@ -1,41 +1,36 @@
-.class public final Lcom/huawei/appmarket/t52;
-.super Lcom/huawei/appmarket/ck8;
+.class public final synthetic Lcom/huawei/appmarket/t52;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:Lcom/huawei/appmarket/u52;
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/u52;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ck8;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appmarket/t52;->b:Lcom/huawei/appmarket/u52;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Landroid/view/View;)I
-    .registers 3
+.method public final run()V
+    .registers 2
 
     .line 1
-    :try_start_0
-    invoke-static {p1}, Lcom/huawei/appmarket/xh8;->j(Landroid/view/View;)I
+    iget-object v0, p0, Lcom/huawei/appmarket/t52;->b:Lcom/huawei/appmarket/u52;
 
-    move-result p1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    invoke-static {v0}, Lcom/huawei/appmarket/u52;->a(Lcom/huawei/appmarket/u52;)V
 
-    return p1
-
-    :catchall_0
-    const-string p1, "ExposureVisibleAreaCalculator"
-
-    const-string v0, "calculateVisiblePercents error"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
-
-    const/4 p1, 0x0
-
-    return p1
+    return-void
 .end method

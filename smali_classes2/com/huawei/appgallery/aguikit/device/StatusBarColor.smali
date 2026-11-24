@@ -82,11 +82,11 @@
 .method public getNewHwHintProperties()Z
     .registers 5
 
-    invoke-static {}, Lcom/huawei/appmarket/gy1;->d()Lcom/huawei/appmarket/gy1;
+    invoke-static {}, Lcom/huawei/appmarket/ky1;->d()Lcom/huawei/appmarket/ky1;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gy1;->e()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/ky1;->e()I
 
     move-result v0
 
@@ -102,7 +102,7 @@
     const-string v0, "ro.config.hw_tint"
 
     :goto_0
-    invoke-static {v0}, Lcom/huawei/appmarket/gt7;->b(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/mt7;->b(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -122,7 +122,7 @@
 
     const-string v3, "StatusBarColor"
 
-    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v3, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method

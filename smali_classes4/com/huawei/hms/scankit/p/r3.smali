@@ -493,7 +493,7 @@
     const-string v10, "mHeight:"
 
     .line 2
-    invoke-static {v6, v7, v8, v1, v10}, Lcom/huawei/appmarket/bq6;->w(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v6, v7, v8, v1, v10}, Lcom/huawei/appmarket/fs;->i(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v6
 

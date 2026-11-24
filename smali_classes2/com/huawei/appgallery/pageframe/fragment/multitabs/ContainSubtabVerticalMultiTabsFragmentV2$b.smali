@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->K6(I)V
+    value = Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->L6(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -44,7 +44,7 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2$b;->d0:Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->I6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->J6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object p2
 
@@ -52,7 +52,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->I6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->J6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object p2
 
@@ -62,7 +62,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->I6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
+    invoke-static {p1}, Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;->J6(Lcom/huawei/appgallery/pageframe/fragment/multitabs/ContainSubtabVerticalMultiTabsFragmentV2;)Lcom/huawei/appgallery/foundation/ui/framework/fragment/multitabs/vertival/VerticalTabsAdapter;
 
     move-result-object p1
 

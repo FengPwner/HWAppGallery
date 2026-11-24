@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/p15;
+.field private final a:Lcom/huawei/appmarket/s15;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/p15<",
-            "Lcom/huawei/appmarket/sq4;",
+            "Lcom/huawei/appmarket/s15<",
+            "Lcom/huawei/appmarket/vq4;",
             "Ljava/lang/String;",
             ">;"
         }
@@ -23,31 +23,31 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/huawei/appmarket/p15;
+    new-instance v0, Lcom/huawei/appmarket/s15;
 
     const-wide/16 v1, 0x3e8
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/p15;-><init>(J)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/s15;-><init>(J)V
 
-    iput-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/p15;
+    iput-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/s15;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/sq4;)Ljava/lang/String;
+.method public final a(Lcom/huawei/appmarket/vq4;)Ljava/lang/String;
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/p15;
+    iget-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/s15;
 
     monitor-enter v0
 
     :try_start_0
-    iget-object v1, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/p15;
+    iget-object v1, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/s15;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/p15;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/s15;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -66,13 +66,13 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/sq4;->a(Ljava/security/MessageDigest;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/vq4;->a(Ljava/security/MessageDigest;)V
 
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ie8;->n([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/ne8;->n([B)Ljava/lang/String;
 
     move-result-object v1
     :try_end_1
@@ -81,23 +81,23 @@
     goto :goto_0
 
     :catch_0
-    sget-object v0, Lcom/huawei/appmarket/ea4;->a:Lcom/huawei/appmarket/ea4;
+    sget-object v0, Lcom/huawei/appmarket/ga4;->a:Lcom/huawei/appmarket/ga4;
 
     const-string v2, "SafeKeyGenerator"
 
     const-string v3, "getSafeKey NoSuchAlgorithmException!"
 
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    iget-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/p15;
+    iget-object v0, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/s15;
 
     monitor-enter v0
 
     :try_start_2
-    iget-object v2, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/p15;
+    iget-object v2, p0, Lcom/huawei/appmarket/r61;->a:Lcom/huawei/appmarket/s15;
 
-    invoke-virtual {v2, p1, v1}, Lcom/huawei/appmarket/p15;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, v1}, Lcom/huawei/appmarket/s15;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     monitor-exit v0
 

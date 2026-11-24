@@ -1,454 +1,309 @@
-.class public final Lcom/huawei/appmarket/ol2;
-.super Ljava/lang/Object;
+.class final Lcom/huawei/appmarket/ol2;
+.super Lcom/huawei/appmarket/r90;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/huawei/appmarket/ol2$a;
+        Lcom/huawei/appmarket/ol2$b;
     }
 .end annotation
 
 
 # direct methods
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a(Lcom/huawei/appmarket/aw5;Lcom/huawei/appmarket/sl2;ILcom/huawei/appmarket/ol2$a;)Z
-    .registers 22
+.method public constructor <init>(Lcom/huawei/appmarket/ul2;IJJ)V
+    .registers 23
 
     .line 1
     move-object/from16 v0, p1
 
     .line 2
     .line 3
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->e()I
+    invoke-static/range {p1 .. p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    move-result v1
+    new-instance v1, Landroidx/media3/exoplayer/trackselection/d;
 
     .line 7
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->C()J
-
     .line 8
+    const/4 v2, 0x1
+
     .line 9
+    invoke-direct {v1, v0, v2}, Landroidx/media3/exoplayer/trackselection/d;-><init>(Ljava/lang/Object;I)V
+
     .line 10
-    move-result-wide v2
-
     .line 11
-    const/16 v4, 0x10
-
     .line 12
-    .line 13
-    ushr-long v4, v2, v4
+    new-instance v2, Lcom/huawei/appmarket/ol2$b;
 
+    .line 13
     .line 14
+    const/4 v3, 0x0
+
     .line 15
-    move/from16 v6, p2
+    move/from16 v4, p2
 
     .line 16
     .line 17
-    int-to-long v6, v6
+    invoke-direct {v2, v0, v4, v3}, Lcom/huawei/appmarket/ol2$b;-><init>(Lcom/huawei/appmarket/ul2;ILcom/huawei/appmarket/ol2$a;)V
 
     .line 18
-    const/4 v8, 0x0
-
     .line 19
-    cmp-long v9, v4, v6
-
     .line 20
-    .line 21
-    if-eqz v9, :cond_0
+    invoke-virtual/range {p1 .. p1}, Lcom/huawei/appmarket/ul2;->e()J
 
+    .line 21
     .line 22
     .line 23
-    return v8
+    move-result-wide v3
 
     .line 24
-    :cond_0
-    const-wide/16 v6, 0x1
+    const-wide/16 v5, 0x0
 
     .line 25
     .line 26
-    and-long/2addr v4, v6
+    iget-wide v7, v0, Lcom/huawei/appmarket/ul2;->j:J
 
     .line 27
-    const/4 v9, 0x1
-
     .line 28
-    cmp-long v10, v4, v6
+    iget v9, v0, Lcom/huawei/appmarket/ul2;->c:I
 
     .line 29
     .line 30
-    if-nez v10, :cond_1
+    iget v10, v0, Lcom/huawei/appmarket/ul2;->d:I
 
     .line 31
     .line 32
-    const/4 v4, 0x1
+    if-lez v10, :cond_0
 
     .line 33
-    goto :goto_0
-
     .line 34
-    :cond_1
-    const/4 v4, 0x0
+    int-to-long v10, v10
 
     .line 35
-    :goto_0
-    const/16 v5, 0xc
+    int-to-long v12, v9
 
     .line 36
+    add-long/2addr v10, v12
+
     .line 37
-    shr-long v10, v2, v5
+    const-wide/16 v12, 0x2
 
     .line 38
     .line 39
-    const-wide/16 v12, 0xf
+    div-long/2addr v10, v12
 
     .line 40
-    .line 41
-    and-long/2addr v10, v12
+    const-wide/16 v12, 0x1
 
+    .line 41
     .line 42
-    long-to-int v11, v10
+    :goto_0
+    add-long/2addr v10, v12
 
     .line 43
-    const/16 v10, 0x8
+    move-wide v13, v10
 
     .line 44
+    goto :goto_2
+
     .line 45
-    shr-long v14, v2, v10
+    :cond_0
+    iget v10, v0, Lcom/huawei/appmarket/ul2;->b:I
 
     .line 46
     .line 47
-    and-long/2addr v14, v12
+    iget v11, v0, Lcom/huawei/appmarket/ul2;->a:I
 
     .line 48
-    long-to-int v10, v14
-
     .line 49
-    const/4 v14, 0x4
+    if-ne v11, v10, :cond_1
 
     .line 50
-    shr-long v14, v2, v14
-
     .line 51
-    .line 52
-    and-long/2addr v12, v14
+    if-lez v11, :cond_1
 
+    .line 52
     .line 53
-    long-to-int v13, v12
+    int-to-long v10, v11
 
     .line 54
-    shr-long v14, v2, v9
+    goto :goto_1
 
     .line 55
+    :cond_1
+    const-wide/16 v10, 0x1000
+
     .line 56
-    const-wide/16 v16, 0x7
-
     .line 57
-    .line 58
-    and-long v14, v14, v16
+    :goto_1
+    iget v12, v0, Lcom/huawei/appmarket/ul2;->g:I
 
+    .line 58
     .line 59
+    int-to-long v12, v12
+
     .line 60
-    long-to-int v12, v14
+    mul-long v10, v10, v12
 
     .line 61
-    and-long/2addr v2, v6
-
     .line 62
-    cmp-long v14, v2, v6
+    iget v0, v0, Lcom/huawei/appmarket/ul2;->h:I
 
     .line 63
     .line 64
-    if-nez v14, :cond_2
+    int-to-long v12, v0
 
     .line 65
-    .line 66
-    const/4 v2, 0x1
+    mul-long v10, v10, v12
 
+    .line 66
     .line 67
-    goto :goto_1
+    const-wide/16 v12, 0x8
 
     .line 68
-    :cond_2
-    const/4 v2, 0x0
-
     .line 69
-    :goto_1
-    const/4 v3, 0x7
+    div-long/2addr v10, v12
 
     .line 70
-    if-gt v13, v3, :cond_3
+    const-wide/16 v12, 0x40
 
     .line 71
     .line 72
-    iget v3, v0, Lcom/huawei/appmarket/sl2;->g:I
+    goto :goto_0
 
     .line 73
+    :goto_2
+    const/4 v0, 0x6
+
     .line 74
-    sub-int/2addr v3, v9
+    invoke-static {v0, v9}, Ljava/lang/Math;->max(II)I
 
     .line 75
-    if-ne v13, v3, :cond_a
-
     .line 76
     .line 77
-    goto :goto_2
+    move-result v15
 
     .line 78
-    :cond_3
-    const/16 v3, 0xa
+    move-object/from16 v0, p0
 
     .line 79
     .line 80
-    if-gt v13, v3, :cond_a
+    move-wide/from16 v9, p3
 
     .line 81
     .line 82
-    iget v3, v0, Lcom/huawei/appmarket/sl2;->g:I
+    move-wide/from16 v11, p5
 
     .line 83
     .line 84
-    const/4 v6, 0x2
+    invoke-direct/range {v0 .. v15}, Lcom/huawei/appmarket/r90;-><init>(Lcom/huawei/appmarket/r90$d;Lcom/huawei/appmarket/r90$f;JJJJJJI)V
 
     .line 85
-    if-ne v3, v6, :cond_a
-
     .line 86
     .line 87
-    :goto_2
-    if-nez v12, :cond_4
-
+    return-void
     .line 88
     .line 89
-    goto :goto_3
-
     .line 90
-    :cond_4
-    iget v3, v0, Lcom/huawei/appmarket/sl2;->i:I
-
     .line 91
     .line 92
-    if-ne v12, v3, :cond_a
-
     .line 93
     .line 94
-    :goto_3
-    if-nez v2, :cond_a
-
     .line 95
     .line 96
-    :try_start_0
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->H()J
-
     .line 97
     .line 98
     .line 99
-    move-result-wide v2
-    :try_end_0
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
-
     .line 100
-    if-eqz v4, :cond_5
-
     .line 101
     .line 102
-    :goto_4
-    move-object/from16 v4, p3
-
     .line 103
     .line 104
-    goto :goto_5
-
     .line 105
-    :cond_5
-    iget v4, v0, Lcom/huawei/appmarket/sl2;->b:I
-
     .line 106
     .line 107
-    int-to-long v6, v4
-
     .line 108
-    mul-long v2, v2, v6
-
     .line 109
     .line 110
-    goto :goto_4
-
     .line 111
-    :goto_5
-    iput-wide v2, v4, Lcom/huawei/appmarket/ol2$a;->a:J
-
     .line 112
     .line 113
-    move-object/from16 v2, p0
-
     .line 114
     .line 115
-    invoke-static {v11, v2}, Lcom/huawei/appmarket/ol2;->c(ILcom/huawei/appmarket/aw5;)I
-
     .line 116
     .line 117
     .line 118
-    move-result v3
-
     .line 119
-    const/4 v4, -0x1
-
     .line 120
-    if-eq v3, v4, :cond_a
-
     .line 121
     .line 122
-    iget v4, v0, Lcom/huawei/appmarket/sl2;->b:I
-
     .line 123
     .line 124
-    if-gt v3, v4, :cond_a
-
     .line 125
     .line 126
-    if-nez v10, :cond_6
-
     .line 127
     .line 128
-    goto :goto_6
-
     .line 129
-    :cond_6
-    const/16 v3, 0xb
-
     .line 130
     .line 131
-    if-gt v10, v3, :cond_7
-
     .line 132
     .line 133
-    iget v0, v0, Lcom/huawei/appmarket/sl2;->f:I
-
     .line 134
     .line 135
-    if-ne v10, v0, :cond_a
-
     .line 136
     .line 137
-    goto :goto_6
-
     .line 138
-    :cond_7
-    iget v0, v0, Lcom/huawei/appmarket/sl2;->e:I
-
     .line 139
     .line 140
-    if-ne v10, v5, :cond_8
-
     .line 141
     .line 142
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->A()I
-
     .line 143
     .line 144
     .line 145
-    move-result v3
-
     .line 146
-    mul-int/lit16 v3, v3, 0x3e8
-
     .line 147
     .line 148
-    if-ne v3, v0, :cond_a
-
     .line 149
     .line 150
-    goto :goto_6
-
     .line 151
-    :cond_8
-    const/16 v3, 0xe
-
     .line 152
     .line 153
-    if-gt v10, v3, :cond_a
-
     .line 154
     .line 155
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->G()I
-
     .line 156
     .line 157
     .line 158
-    move-result v4
-
     .line 159
-    if-ne v10, v3, :cond_9
-
     .line 160
     .line 161
-    mul-int/lit8 v4, v4, 0xa
-
     .line 162
     .line 163
-    :cond_9
-    if-ne v4, v0, :cond_a
-
     .line 164
     .line 165
-    :goto_6
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->A()I
-
     .line 166
     .line 167
     .line 168
-    move-result v0
-
     .line 169
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->e()I
-
     .line 170
     .line 171
     .line 172
-    move-result v3
-
     .line 173
-    invoke-virtual/range {p0 .. p0}, Lcom/huawei/appmarket/aw5;->d()[B
-
     .line 174
     .line 175
     .line 176
-    move-result-object v2
-
     .line 177
-    sub-int/2addr v3, v9
-
     .line 178
-    invoke-static {v1, v3, v2}, Lcom/huawei/appmarket/ge8;->o(II[B)I
-
     .line 179
     .line 180
     .line 181
-    move-result v1
-
     .line 182
-    if-ne v0, v1, :cond_a
-
     .line 183
     .line 184
-    const/4 v8, 0x1
-
     .line 185
-    :catch_0
-    :cond_a
-    return v8
     .line 186
     .line 187
     .line 188
@@ -753,342 +608,4 @@
     .line 487
     .line 488
     .line 489
-.end method
-
-.method public static b(Lcom/huawei/appmarket/ge1;Lcom/huawei/appmarket/sl2;)J
-    .registers 9
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ge1;->b()V
-
-    .line 2
-    .line 3
-    .line 4
-    const/4 v0, 0x1
-
-    .line 5
-    const/4 v1, 0x0
-
-    .line 6
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/ge1;->h(IZ)Z
-
-    .line 7
-    .line 8
-    .line 9
-    new-array v2, v0, [B
-
-    .line 10
-    .line 11
-    invoke-virtual {p0, v2, v1, v0, v1}, Lcom/huawei/appmarket/ge1;->a([BIIZ)Z
-
-    .line 12
-    .line 13
-    .line 14
-    aget-byte v2, v2, v1
-
-    .line 15
-    .line 16
-    and-int/2addr v2, v0
-
-    .line 17
-    if-ne v2, v0, :cond_0
-
-    .line 18
-    .line 19
-    goto :goto_0
-
-    .line 20
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 21
-    :goto_0
-    const/4 v2, 0x2
-
-    .line 22
-    invoke-virtual {p0, v2, v1}, Lcom/huawei/appmarket/ge1;->h(IZ)Z
-
-    .line 23
-    .line 24
-    .line 25
-    if-eqz v0, :cond_1
-
-    .line 26
-    .line 27
-    const/4 v2, 0x7
-
-    .line 28
-    goto :goto_1
-
-    .line 29
-    :cond_1
-    const/4 v2, 0x6
-
-    .line 30
-    :goto_1
-    new-instance v3, Lcom/huawei/appmarket/aw5;
-
-    .line 31
-    .line 32
-    invoke-direct {v3, v2}, Lcom/huawei/appmarket/aw5;-><init>(I)V
-
-    .line 33
-    .line 34
-    .line 35
-    invoke-virtual {v3}, Lcom/huawei/appmarket/aw5;->d()[B
-
-    .line 36
-    .line 37
-    .line 38
-    move-result-object v4
-
-    .line 39
-    :goto_2
-    if-ge v1, v2, :cond_3
-
-    .line 40
-    .line 41
-    sub-int v5, v2, v1
-
-    .line 42
-    .line 43
-    invoke-virtual {p0, v4, v1, v5}, Lcom/huawei/appmarket/ge1;->j([BII)I
-
-    .line 44
-    .line 45
-    .line 46
-    move-result v5
-
-    .line 47
-    const/4 v6, -0x1
-
-    .line 48
-    if-ne v5, v6, :cond_2
-
-    .line 49
-    .line 50
-    goto :goto_3
-
-    .line 51
-    :cond_2
-    add-int/2addr v1, v5
-
-    .line 52
-    goto :goto_2
-
-    .line 53
-    :cond_3
-    :goto_3
-    invoke-virtual {v3, v1}, Lcom/huawei/appmarket/aw5;->L(I)V
-
-    .line 54
-    .line 55
-    .line 56
-    invoke-virtual {p0}, Lcom/huawei/appmarket/ge1;->b()V
-
-    .line 57
-    .line 58
-    .line 59
-    new-instance p0, Lcom/huawei/appmarket/ol2$a;
-
-    .line 60
-    .line 61
-    invoke-direct {p0}, Lcom/huawei/appmarket/ol2$a;-><init>()V
-
-    .line 62
-    .line 63
-    .line 64
-    :try_start_0
-    invoke-virtual {v3}, Lcom/huawei/appmarket/aw5;->H()J
-
-    .line 65
-    .line 66
-    .line 67
-    move-result-wide v1
-    :try_end_0
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 68
-    if-eqz v0, :cond_4
-
-    .line 69
-    .line 70
-    goto :goto_4
-
-    .line 71
-    :cond_4
-    iget p1, p1, Lcom/huawei/appmarket/sl2;->b:I
-
-    .line 72
-    .line 73
-    int-to-long v3, p1
-
-    .line 74
-    mul-long v1, v1, v3
-
-    .line 75
-    .line 76
-    :goto_4
-    iput-wide v1, p0, Lcom/huawei/appmarket/ol2$a;->a:J
-
-    .line 77
-    .line 78
-    return-wide v1
-
-    .line 79
-    :catch_0
-    const/4 p0, 0x0
-
-    .line 80
-    invoke-static {p0, p0}, Landroidx/media3/common/ParserException;->a(Ljava/lang/String;Ljava/lang/RuntimeException;)Landroidx/media3/common/ParserException;
-
-    .line 81
-    .line 82
-    .line 83
-    move-result-object p0
-
-    .line 84
-    throw p0
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-.end method
-
-.method public static c(ILcom/huawei/appmarket/aw5;)I
-    .registers 2
-
-    .line 1
-    packed-switch p0, :pswitch_data_0
-
-    const/4 p0, -0x1
-
-    return p0
-
-    :pswitch_0
-    add-int/lit8 p0, p0, -0x8
-
-    const/16 p1, 0x100
-
-    shl-int p0, p1, p0
-
-    return p0
-
-    :pswitch_1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aw5;->G()I
-
-    move-result p0
-
-    add-int/lit8 p0, p0, 0x1
-
-    return p0
-
-    :pswitch_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/aw5;->A()I
-
-    move-result p0
-
-    add-int/lit8 p0, p0, 0x1
-
-    return p0
-
-    :pswitch_3
-    add-int/lit8 p0, p0, -0x2
-
-    const/16 p1, 0x240
-
-    shl-int p0, p1, p0
-
-    return p0
-
-    :pswitch_4
-    const/16 p0, 0xc0
-
-    return p0
-
-    :pswitch_data_0
-    .packed-switch 0x1
-        :pswitch_4
-        :pswitch_3
-        :pswitch_3
-        :pswitch_3
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-        :pswitch_0
-    .end packed-switch
 .end method

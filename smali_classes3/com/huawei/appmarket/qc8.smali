@@ -1,63 +1,68 @@
-.class final Lcom/huawei/appmarket/qc8;
+.class public final Lcom/huawei/appmarket/qc8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ao5;
-
-
-# instance fields
-.field final synthetic b:Landroid/content/Context;
-
-.field final synthetic c:Ljava/lang/String;
-
-.field final synthetic d:Ljava/lang/String;
-
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-    .registers 4
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/qc8;->b:Landroid/content/Context;
-
-    iput-object p2, p0, Lcom/huawei/appmarket/qc8;->c:Ljava/lang/String;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/qc8;->d:Ljava/lang/String;
+.method public constructor <init>()V
+    .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 6
+.method public static a(Ljava/lang/String;)Ljava/lang/String;
+    .registers 4
 
     .line 1
-    const/4 p1, -0x1
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    if-ne p3, p1, :cond_0
+    move-result v0
 
-    iget-object p1, p0, Lcom/huawei/appmarket/qc8;->b:Landroid/content/Context;
+    const-string v1, ""
 
-    invoke-static {p1}, Lcom/huawei/appmarket/oc8;->h(Landroid/content/Context;)V
+    if-nez v0, :cond_1
 
-    new-instance p2, Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdReqBean;
+    :try_start_0
+    invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    iget-object p3, p0, Lcom/huawei/appmarket/qc8;->c:Ljava/lang/String;
+    move-result-object v0
 
-    invoke-direct {p2, p3}, Lcom/huawei/appgallery/appdownloadinfo/api/GetDetailByIdReqBean;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v0}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
-    new-instance v0, Lcom/huawei/appmarket/oc8$b;
+    move-result-object p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/qc8;->d:Ljava/lang/String;
+    if-eqz p0, :cond_0
 
-    invoke-direct {v0, p1, v1, p3}, Lcom/huawei/appmarket/oc8$b;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    move-object v1, p0
 
     :cond_0
-    return-void
+    return-object v1
+
+    :catchall_0
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v2, "Failed to parse the uri: \'"
+
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "\'."
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v0, "UriUtils"
+
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/iy4;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_1
+    return-object v1
 .end method

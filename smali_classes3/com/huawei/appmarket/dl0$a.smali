@@ -1,9 +1,6 @@
-.class public interface abstract Lcom/huawei/appmarket/dl0$a;
+.class final synthetic Lcom/huawei/appmarket/dl0$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
-
-# interfaces
-.implements Lcom/huawei/appmarket/dl0;
 
 
 # annotations
@@ -12,14 +9,6 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
-    name = "a"
+    accessFlags = 0x1008
+    name = null
 .end annotation
-
-
-# virtual methods
-.method public abstract a(Ljava/lang/String;Ljava/lang/String;)Lcom/huawei/appmarket/mk0;
-.end method
-
-.method public abstract b(Ljava/lang/String;)V
-.end method

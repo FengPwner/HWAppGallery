@@ -126,7 +126,7 @@
     const-string v0, "model download synGetGrsUrl failed: "
 
     .line 1
-    invoke-static {v0, v2, v5}, Lcom/huawei/appmarket/b00;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v5}, Lcom/huawei/appmarket/fs;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v4
 
@@ -134,7 +134,7 @@
     const-string v3, "/openapi/v1/modelaccess"
 
     .line 2
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

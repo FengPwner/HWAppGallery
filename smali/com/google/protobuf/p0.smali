@@ -256,7 +256,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p1}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {p1}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 14
     .line 15
@@ -696,6 +696,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final getDefaultInstanceForType()Lcom/google/protobuf/b1;
@@ -789,12 +790,12 @@
     return-object v0
 .end method
 
-.method public final getParserForType()Lcom/huawei/appmarket/gw5;
+.method public final getParserForType()Lcom/huawei/appmarket/iw5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/p0<",
             "TK;TV;>;>;"
         }
@@ -803,7 +804,7 @@
     .line 1
     iget-object v0, p0, Lcom/google/protobuf/p0;->d:Lcom/google/protobuf/p0$c;
 
-    iget-object v0, v0, Lcom/google/protobuf/p0$c;->f:Lcom/huawei/appmarket/gw5;
+    iget-object v0, v0, Lcom/google/protobuf/p0$c;->f:Lcom/huawei/appmarket/iw5;
 
     return-object v0
 .end method
@@ -915,7 +916,7 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Lcom/huawei/appmarket/r75;->isInitialized()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/u75;->isInitialized()Z
 
     .line 18
     .line 19
@@ -1044,6 +1045,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final bridge synthetic newBuilderForType()Lcom/google/protobuf/b1$a;

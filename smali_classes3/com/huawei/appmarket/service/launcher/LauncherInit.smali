@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/zt3;
+.implements Lcom/huawei/appmarket/bu3;
 
 
 # static fields
@@ -22,7 +22,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/d43;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/huawei/appmarket/g43;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -45,7 +45,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ps4;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/ss4;->c()V
 
     .line 2
     .line 3
@@ -66,7 +66,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -87,7 +87,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -100,7 +100,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -113,7 +113,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -126,7 +126,7 @@
 
     .line 43
     .line 44
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -147,7 +147,7 @@
 
     .line 54
     .line 55
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -160,7 +160,7 @@
 
     .line 61
     .line 62
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -169,7 +169,7 @@
 
     .line 66
     .line 67
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -182,7 +182,7 @@
 
     .line 73
     .line 74
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -195,7 +195,7 @@
 
     .line 80
     .line 81
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ps4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ss4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     .line 83

@@ -206,7 +206,7 @@
 
     :goto_3
     :try_start_4
-    const-string v3, "writeFile exception:"
+    const-string/jumbo v3, "writeFile exception:"
 
     invoke-static {v1, v3, v2}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_4

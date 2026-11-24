@@ -195,7 +195,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v2, v3, p1}, Lcom/huawei/appmarket/ej2;->m(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Lcom/alibaba/fastjson2/JSONReader;)Ljava/lang/String;
+    invoke-static {v1, v2, v3, p1}, Lcom/huawei/appmarket/kb1;->m(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Lcom/alibaba/fastjson2/JSONReader;)Ljava/lang/String;
 
     .line 60
     .line 61

@@ -66,7 +66,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a35;->b:Ljava/util/Map;
+    iget-object v0, p0, Lcom/huawei/appmarket/d35;->b:Ljava/util/Map;
 
     check-cast v0, Ljava/util/SortedMap;
 

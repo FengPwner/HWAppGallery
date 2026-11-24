@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailbase/card/appdetailopawardcard/AppDetailOpawardCard$b;
-.super Lcom/huawei/appmarket/al1;
+.super Lcom/huawei/appmarket/dl1;
 .source "SourceFile"
 
 
@@ -24,14 +24,14 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailopawardcard/AppDetailOpawardCard$b;->c:Lcom/huawei/appgallery/detail/detailbase/card/appdetailopawardcard/AppDetailOpawardCard;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/al1;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/dl1;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/dv7;Lcom/huawei/appmarket/d91;Z)Z
+.method public final onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/huawei/appmarket/jv7;Lcom/huawei/appmarket/e91;Z)Z
     .registers 6
 
     .line 1
@@ -53,7 +53,7 @@
 
     check-cast p1, Lcom/huawei/appgallery/detail/detailbase/view/FadeImageView;
 
-    sget-object p2, Lcom/huawei/appmarket/d91;->c:Lcom/huawei/appmarket/d91;
+    sget-object p2, Lcom/huawei/appmarket/e91;->c:Lcom/huawei/appmarket/e91;
 
     if-ne p4, p2, :cond_0
 

@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLjava/lang/Integer;Ljava/lang/String;ILcom/huawei/appmarket/gd1;)V
+.method public synthetic constructor <init>(ZLjava/lang/Integer;Ljava/lang/String;ILcom/huawei/appmarket/id1;)V
     .registers 7
 
     .line 2

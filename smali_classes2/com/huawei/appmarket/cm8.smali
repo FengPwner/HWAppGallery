@@ -1,67 +1,39 @@
-.class public final Lcom/huawei/appmarket/cm8;
-.super Lcom/huawei/appmarket/ts5;
+.class final Lcom/huawei/appmarket/cm8;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/lp5;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/lp5<",
+        "Ljava/lang/Void;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method constructor <init>(Lcom/huawei/appmarket/vl8;)V
+    .registers 2
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/ts5;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final A()Ljava/lang/String;
+.method public final bridge synthetic onSuccess(Ljava/lang/Object;)V
     .registers 2
 
     .line 1
-    const-string v0, "text/plain"
+    check-cast p1, Ljava/lang/Void;
 
-    return-object v0
-.end method
-
-.method public final d(Lcom/huawei/appgallery/share/api/ShareBean;)Z
-    .registers 3
-
-    .line 1
-    const-string v0, "WECHAT"
-
-    invoke-static {v0}, Lcom/huawei/appmarket/u72;->b(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/ts5;->d(Lcom/huawei/appgallery/share/api/ShareBean;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    goto :goto_1
-
-    :cond_1
-    :goto_0
-    const/4 p1, 0x1
-
-    :goto_1
-    return p1
-.end method
-
-.method public final f()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    const-string v0, "com.tencent.mm"
-
-    return-object v0
+    return-void
 .end method

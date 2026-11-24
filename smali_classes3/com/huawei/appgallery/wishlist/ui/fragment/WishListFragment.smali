@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/fr2;
+.annotation runtime Lcom/huawei/appmarket/hr2;
     alias = "wishlist.fragment"
     protocol = Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragmentProtocol;
 .end annotation
@@ -17,7 +17,7 @@
 
 
 # instance fields
-.field private l0:Lcom/huawei/appmarket/pv6;
+.field private l0:Lcom/huawei/appmarket/tv6;
 
 .field private m0:Landroid/view/ViewGroup;
 
@@ -29,7 +29,7 @@
 
 .field private q0:Landroid/widget/TextView;
 
-.field private r0:Lcom/huawei/appmarket/gf1;
+.field private r0:Lcom/huawei/appmarket/if1;
 
 .field private s0:Lcom/huawei/appgallery/wishlist/control/WishListAdapter;
 
@@ -121,11 +121,11 @@
     return-object p0
 .end method
 
-.method static synthetic E3(Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;Lcom/huawei/appmarket/pv6;)V
+.method static synthetic E3(Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;Lcom/huawei/appmarket/tv6;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/pv6;
+    iput-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/tv6;
 
     return-void
 .end method
@@ -152,7 +152,7 @@
     .registers 6
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     .line 2
     .line 3
@@ -164,7 +164,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/if1;->o(I)V
 
     .line 8
     .line 9
@@ -172,7 +172,7 @@
     const/4 v0, 0x0
 
     .line 11
-    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     .line 12
     .line 13
@@ -190,7 +190,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 21
     .line 22
@@ -223,7 +223,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     .line 38
     .line 39
@@ -235,7 +235,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     .line 44
     .line 45
@@ -246,7 +246,7 @@
     const/4 v1, 0x1
 
     .line 48
-    invoke-interface {v0, p0, v1}, Lcom/huawei/appmarket/lv3;->a(Landroidx/fragment/app/Fragment;Z)V
+    invoke-interface {v0, p0, v1}, Lcom/huawei/appmarket/nv3;->a(Landroidx/fragment/app/Fragment;Z)V
 
     .line 49
     .line 50
@@ -307,7 +307,7 @@
 
     .line 77
     :cond_3
-    sget-object v0, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v0, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     .line 78
     .line 79
@@ -319,7 +319,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -390,7 +390,7 @@
     .line 118
     .line 119
     .line 120
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     .line 121
     .line 122
@@ -402,7 +402,7 @@
 
     .line 125
     .line 126
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     .line 127
     .line 128
@@ -410,7 +410,7 @@
     move-result-object v0
 
     .line 130
-    invoke-interface {v0, p0, v2}, Lcom/huawei/appmarket/lv3;->a(Landroidx/fragment/app/Fragment;Z)V
+    invoke-interface {v0, p0, v2}, Lcom/huawei/appmarket/nv3;->a(Landroidx/fragment/app/Fragment;Z)V
 
     .line 131
     .line 132
@@ -424,7 +424,7 @@
     move-result-object v0
 
     .line 137
-    instance-of v0, v0, Lcom/huawei/appmarket/qv3;
+    instance-of v0, v0, Lcom/huawei/appmarket/sv3;
 
     .line 138
     .line 139
@@ -440,7 +440,7 @@
     move-result-object v0
 
     .line 145
-    check-cast v0, Lcom/huawei/appmarket/qv3;
+    check-cast v0, Lcom/huawei/appmarket/sv3;
 
     .line 146
     .line 147
@@ -448,7 +448,7 @@
 
     .line 148
     .line 149
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qv3;->W0(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/sv3;->W0(Ljava/lang/String;)V
 
     .line 150
     .line 151
@@ -1341,40 +1341,40 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/gf1;
+    new-instance v0, Lcom/huawei/appmarket/if1;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/gf1;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/if1;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     iget-object v1, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->m0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0a18e5
+    const v2, 0x7f0a18e6
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gf1;->h(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/if1;->h(Landroid/view/View;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     new-instance v1, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment$d;
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment$d;-><init>(Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gf1;->e(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/if1;->e(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gf1;->o(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/if1;->o(I)V
 
     return-void
 .end method
@@ -1402,7 +1402,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->a2(IILandroid/content/Intent;)V
 
-    iget-object p3, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/pv6;
+    iget-object p3, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/tv6;
 
     if-eqz p3, :cond_1
 
@@ -1413,7 +1413,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p3}, Lcom/huawei/appmarket/pv6;->a()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/tv6;->a()I
 
     move-result p2
 
@@ -1430,25 +1430,25 @@
     .registers 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/lv3;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/wishbase/ui/fragment/BaseWishFragment;->y3()Lcom/huawei/appmarket/nv3;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->t0:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
     xor-int/lit8 v0, v0, 0x1
 
-    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/lv3;->a(Landroidx/fragment/app/Fragment;Z)V
+    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/nv3;->a(Landroidx/fragment/app/Fragment;Z)V
 
     :cond_0
     return-void
@@ -1517,7 +1517,7 @@
 
     .line 31
     .line 32
-    const p2, 0x7f0a18e7
+    const p2, 0x7f0a18e8
 
     .line 33
     .line 34
@@ -1542,7 +1542,7 @@
 
     .line 44
     .line 45
-    const p2, 0x7f0a18fd    # 1.835632E38f
+    const p2, 0x7f0a18fe
 
     .line 46
     .line 47
@@ -1567,7 +1567,7 @@
 
     .line 57
     .line 58
-    const p2, 0x7f0a18e8
+    const p2, 0x7f0a18e9
 
     .line 59
     .line 60
@@ -1592,7 +1592,7 @@
 
     .line 70
     .line 71
-    const p2, 0x7f0a18ea
+    const p2, 0x7f0a18eb
 
     .line 72
     .line 73
@@ -1634,7 +1634,7 @@
 
     .line 92
     .line 93
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 94
     .line 95
@@ -1669,7 +1669,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 112
     .line 113
@@ -1678,7 +1678,7 @@
 
     .line 115
     .line 116
-    const p3, 0x7f0a18d6
+    const p3, 0x7f0a18d7
 
     .line 117
     .line 118
@@ -1825,7 +1825,7 @@
 
     .line 189
     .line 190
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     .line 191
     .line 192
@@ -2025,29 +2025,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public final i1(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)Z
@@ -2102,7 +2079,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->x0:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/fs8;->b()Lcom/huawei/appmarket/fs8;
+    invoke-static {}, Lcom/huawei/appmarket/ls8;->b()Lcom/huawei/appmarket/ls8;
 
     move-result-object p1
 
@@ -2110,7 +2087,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/fs8;->a(Ljava/util/List;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/ls8;->a(Ljava/util/List;)V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->O1()Z
 
@@ -2127,7 +2104,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object p2, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object p2, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     if-eqz p2, :cond_1
 
@@ -2145,13 +2122,13 @@
 
     invoke-static {p2, v2}, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->J3(Landroid/view/View;I)V
 
-    iget-object p2, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/gf1;
+    iget-object p2, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->r0:Lcom/huawei/appmarket/if1;
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
 
     move-result p1
 
-    invoke-virtual {p2, p1, v1}, Lcom/huawei/appmarket/gf1;->q(IZ)V
+    invoke-virtual {p2, p1, v1}, Lcom/huawei/appmarket/if1;->q(IZ)V
 
     :cond_1
     :goto_0
@@ -2212,22 +2189,22 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/fs8;->b()Lcom/huawei/appmarket/fs8;
+    invoke-static {}, Lcom/huawei/appmarket/ls8;->b()Lcom/huawei/appmarket/ls8;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/fs8;->e(Ljava/util/ArrayList;)V
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ls8;->e(Ljava/util/ArrayList;)V
 
-    new-instance v0, Lcom/huawei/appmarket/cn5;
+    new-instance v0, Lcom/huawei/appmarket/dn5;
 
     const-string v1, "delete.wish.activity"
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/cn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/z86;)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
 
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/is4;->a()Lcom/huawei/appmarket/is4;
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
 
     move-result-object v1
 
@@ -2239,11 +2216,11 @@
 
     const/16 v1, 0x65
 
-    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/is4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/cn5;I)Lcom/huawei/appmarket/pv6;
+    invoke-static {v2, v0, v1}, Lcom/huawei/appmarket/ls4;->e(Landroid/app/Activity;Lcom/huawei/appmarket/dn5;I)Lcom/huawei/appmarket/tv6;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/pv6;
+    iput-object v0, p0, Lcom/huawei/appgallery/wishlist/ui/fragment/WishListFragment;->l0:Lcom/huawei/appmarket/tv6;
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2252,13 +2229,13 @@
     :catch_0
     move-exception v0
 
-    sget-object v1, Lcom/huawei/appmarket/es8;->a:Lcom/huawei/appmarket/es8;
+    sget-object v1, Lcom/huawei/appmarket/ks8;->a:Lcom/huawei/appmarket/ks8;
 
     const-string v2, "WishListFragment"
 
     const-string v3, "ActivityNotFoundException"
 
-    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_1
     return-void

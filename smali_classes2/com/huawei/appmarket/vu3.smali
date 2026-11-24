@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract setScrollDownListener(Lcom/huawei/appmarket/y04;)V
+.method public abstract h(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/CardDataProvider;)V
 .end method

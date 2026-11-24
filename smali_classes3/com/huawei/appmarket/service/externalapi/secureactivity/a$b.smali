@@ -19,7 +19,7 @@
 
 .field private b:Landroid/content/Intent;
 
-.field private c:Lcom/huawei/appmarket/cn5;
+.field private c:Lcom/huawei/appmarket/dn5;
 
 .field private d:Ljava/lang/String;
 
@@ -118,20 +118,20 @@
     return-void
 .end method
 
-.method static synthetic i(Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;)Lcom/huawei/appmarket/cn5;
+.method static synthetic i(Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;)Lcom/huawei/appmarket/dn5;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;->c:Lcom/huawei/appmarket/cn5;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;->c:Lcom/huawei/appmarket/dn5;
 
     return-object p0
 .end method
 
-.method static synthetic j(Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;Lcom/huawei/appmarket/cn5;)V
+.method static synthetic j(Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;Lcom/huawei/appmarket/dn5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;->c:Lcom/huawei/appmarket/cn5;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/externalapi/secureactivity/a$b;->c:Lcom/huawei/appmarket/dn5;
 
     return-void
 .end method

@@ -1,180 +1,162 @@
-.class final Lcom/huawei/appmarket/a58;
+.class public final Lcom/huawei/appmarket/a58;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/dr7;
-
-
-# instance fields
-.field private final b:Lcom/huawei/appmarket/v48;
-
-.field private final c:[J
-
-.field private final d:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/z48;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final e:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/x48;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final f:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
-
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/v48;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V
-    .registers 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/huawei/appmarket/v48;",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/z48;",
-            ">;",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/x48;",
-            ">;",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)V"
-        }
-    .end annotation
+.method private constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a58;->b:Lcom/huawei/appmarket/v48;
-
-    iput-object p3, p0, Lcom/huawei/appmarket/a58;->e:Ljava/util/Map;
-
-    iput-object p4, p0, Lcom/huawei/appmarket/a58;->f:Ljava/util/Map;
-
-    if-eqz p2, :cond_0
-
-    invoke-static {p2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object p2
-
-    goto :goto_0
-
-    :cond_0
-    invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
-
-    move-result-object p2
-
-    :goto_0
-    iput-object p2, p0, Lcom/huawei/appmarket/a58;->d:Ljava/util/Map;
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/v48;->h()[J
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/huawei/appmarket/a58;->c:[J
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final a(J)I
-    .registers 5
+.method public static a(IILcom/huawei/appmarket/cw5;)J
+    .registers 10
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a58;->c:[J
+    invoke-virtual {p2, p0}, Lcom/huawei/appmarket/cw5;->M(I)V
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->a()I
+
+    move-result p0
+
+    const/4 v0, 0x5
+
+    const-wide v1, -0x7fffffffffffffffL    # -4.9E-324
+
+    if-ge p0, v0, :cond_0
+
+    return-wide v1
+
+    :cond_0
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->l()I
+
+    move-result p0
+
+    const/high16 v0, 0x800000
+
+    and-int/2addr v0, p0
+
+    if-eqz v0, :cond_1
+
+    return-wide v1
+
+    :cond_1
+    const v0, 0x1fff00
+
+    and-int/2addr v0, p0
+
+    shr-int/lit8 v0, v0, 0x8
+
+    if-eq v0, p1, :cond_2
+
+    return-wide v1
+
+    :cond_2
+    and-int/lit8 p0, p0, 0x20
+
+    if-eqz p0, :cond_3
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->A()I
+
+    move-result p0
+
+    const/4 p1, 0x7
+
+    if-lt p0, p1, :cond_3
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->a()I
+
+    move-result p0
+
+    if-lt p0, p1, :cond_3
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/cw5;->A()I
+
+    move-result p0
+
+    const/16 v0, 0x10
+
+    and-int/2addr p0, v0
+
+    if-ne p0, v0, :cond_3
+
+    const/4 p0, 0x6
+
+    new-array v0, p0, [B
 
     const/4 v1, 0x0
 
-    invoke-static {v0, p1, p2, v1}, Lcom/huawei/appmarket/ge8;->b([JJZ)I
+    invoke-virtual {p2, v0, v1, p0}, Lcom/huawei/appmarket/cw5;->j([BII)V
 
-    move-result p1
+    aget-byte p0, v0, v1
 
-    array-length p2, v0
+    int-to-long v1, p0
 
-    if-ge p1, p2, :cond_0
+    const-wide/16 v3, 0xff
 
-    goto :goto_0
+    and-long/2addr v1, v3
 
-    :cond_0
-    const/4 p1, -0x1
+    const/16 p0, 0x19
 
-    :goto_0
-    return p1
-.end method
+    shl-long/2addr v1, p0
 
-.method public final b(J)Ljava/util/List;
-    .registers 9
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(J)",
-            "Ljava/util/List<",
-            "Lcom/huawei/appmarket/c61;",
-            ">;"
-        }
-    .end annotation
+    const/4 p0, 0x1
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a58;->b:Lcom/huawei/appmarket/v48;
+    aget-byte p2, v0, p0
 
-    iget-object v3, p0, Lcom/huawei/appmarket/a58;->d:Ljava/util/Map;
+    int-to-long v5, p2
 
-    iget-object v4, p0, Lcom/huawei/appmarket/a58;->e:Ljava/util/Map;
+    and-long/2addr v5, v3
 
-    iget-object v5, p0, Lcom/huawei/appmarket/a58;->f:Ljava/util/Map;
+    const/16 p2, 0x11
 
-    move-wide v1, p1
+    shl-long/2addr v5, p2
 
-    invoke-virtual/range {v0 .. v5}, Lcom/huawei/appmarket/v48;->f(JLjava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/util/ArrayList;
+    or-long/2addr v1, v5
 
-    move-result-object p1
+    const/4 p2, 0x2
 
-    return-object p1
-.end method
+    aget-byte p2, v0, p2
 
-.method public final c(I)J
-    .registers 5
+    int-to-long v5, p2
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a58;->c:[J
+    and-long/2addr v5, v3
 
-    aget-wide v1, v0, p1
+    const/16 p2, 0x9
 
+    shl-long/2addr v5, p2
+
+    or-long/2addr v1, v5
+
+    const/4 p2, 0x3
+
+    aget-byte p2, v0, p2
+
+    int-to-long v5, p2
+
+    and-long/2addr v5, v3
+
+    shl-long/2addr v5, p0
+
+    or-long/2addr v1, v5
+
+    const/4 p0, 0x4
+
+    aget-byte p0, v0, p0
+
+    int-to-long v5, p0
+
+    and-long/2addr v3, v5
+
+    shr-long p0, v3, p1
+
+    or-long/2addr p0, v1
+
+    return-wide p0
+
+    :cond_3
     return-wide v1
-.end method
-
-.method public final d()I
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/a58;->c:[J
-
-    array-length v0, v0
-
-    return v0
 .end method

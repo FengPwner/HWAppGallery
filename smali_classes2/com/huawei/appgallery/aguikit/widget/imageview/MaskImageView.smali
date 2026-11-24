@@ -83,7 +83,7 @@
 
     if-eqz p1, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/me6;->d:[I
+    sget-object v1, Lcom/huawei/appmarket/oe6;->d:[I
 
     iget-object v2, p0, Lcom/huawei/appgallery/aguikit/widget/imageview/MaskImageView;->d:Landroid/content/Context;
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

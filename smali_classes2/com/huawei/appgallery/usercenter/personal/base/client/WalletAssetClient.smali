@@ -24,7 +24,7 @@
     .end annotation
 .end field
 
-.field private static p:Lcom/huawei/appmarket/vk8;
+.field private static p:Lcom/huawei/appmarket/bl8;
 
 
 # direct methods
@@ -39,11 +39,11 @@
 
     sput-object v0, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->o:Lcom/huawei/hms/api/Api;
 
-    new-instance v0, Lcom/huawei/appmarket/vk8;
+    new-instance v0, Lcom/huawei/appmarket/bl8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/vk8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/bl8;-><init>()V
 
-    sput-object v0, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/vk8;
+    sput-object v0, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/bl8;
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     invoke-direct {v1}, Lcom/huawei/hms/api/Api$ApiOptions$NoOptions;-><init>()V
 
-    sget-object v2, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/vk8;
+    sget-object v2, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/bl8;
 
     invoke-direct {p0, p1, v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;-><init>(Landroid/app/Activity;Lcom/huawei/hms/api/Api;Lcom/huawei/hms/api/Api$ApiOptions;Lcom/huawei/hms/common/internal/AbstractClientBuilder;)V
 
@@ -78,7 +78,7 @@
 
     invoke-direct {v1}, Lcom/huawei/hms/api/Api$ApiOptions$NoOptions;-><init>()V
 
-    sget-object v2, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/vk8;
+    sget-object v2, Lcom/huawei/appgallery/usercenter/personal/base/client/WalletAssetClient;->p:Lcom/huawei/appmarket/bl8;
 
     invoke-direct {p0, p1, v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;-><init>(Landroid/content/Context;Lcom/huawei/hms/api/Api;Lcom/huawei/hms/api/Api$ApiOptions;Lcom/huawei/hms/common/internal/AbstractClientBuilder;)V
 

@@ -133,7 +133,7 @@
     move-result-object p2
 
     :cond_0
-    invoke-static {p2}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     iget-object p3, p0, Lcom/huawei/appmarket/service/usercenter/userinfo/view/activity/AddressListActivity$AddressListAdapter;->this$0:Lcom/huawei/appmarket/service/usercenter/userinfo/view/activity/AddressListActivity;
 

@@ -63,7 +63,7 @@
     const/high16 v2, 0x3f800000    # 1.0f
 
     .line 2
-    invoke-static {v0, v1, v0, v2}, Lcom/huawei/appmarket/ow5;->a(FFFF)Landroid/view/animation/PathInterpolator;
+    invoke-static {v0, v1, v0, v2}, Lcom/huawei/appmarket/qw5;->a(FFFF)Landroid/view/animation/PathInterpolator;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
     const v3, 0x3f2b851f    # 0.67f
 
     .line 3
-    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/ow5;->a(FFFF)Landroid/view/animation/PathInterpolator;
+    invoke-static {v0, v1, v3, v2}, Lcom/huawei/appmarket/qw5;->a(FFFF)Landroid/view/animation/PathInterpolator;
 
     move-result-object v0
 
@@ -200,7 +200,7 @@
 .method private preInflate(Landroid/content/res/Resources;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
     .registers 7
 
-    sget-object v0, Lcom/huawei/appmarket/of6;->b:[I
+    sget-object v0, Lcom/huawei/appmarket/qf6;->b:[I
 
     const/4 v1, 0x0
 
@@ -466,7 +466,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable;->mState:Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable$a;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->a(Landroid/graphics/drawable/GradientDrawable;)F
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->a(Landroid/graphics/drawable/GradientDrawable;)F
 
     move-result v1
 
@@ -474,7 +474,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable;->mState:Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable$a;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->b(Landroid/graphics/drawable/GradientDrawable;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->b(Landroid/graphics/drawable/GradientDrawable;)I
 
     move-result v1
 
@@ -499,7 +499,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable;->mState:Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable$a;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->D(Landroid/graphics/drawable/GradientDrawable;)[F
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->D(Landroid/graphics/drawable/GradientDrawable;)[F
 
     move-result-object v1
 
@@ -525,7 +525,7 @@
 .method public draw(Landroid/graphics/Canvas;)V
     .registers 4
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -537,7 +537,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
@@ -626,7 +626,7 @@
 
     iput-object v0, p0, Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable;->mState:Lcom/huawei/uikit/animations/drawable/HwHoverAndPressAnimatedDrawable$a;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/t12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Lcom/huawei/appmarket/x12;->d(Landroid/graphics/drawable/GradientDrawable;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 

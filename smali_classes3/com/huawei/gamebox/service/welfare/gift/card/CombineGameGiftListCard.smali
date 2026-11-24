@@ -8,7 +8,7 @@
 
 .field private y:Landroid/widget/TextView;
 
-.field private z:Lcom/huawei/appmarket/ak0;
+.field private z:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -499,7 +499,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -565,7 +565,7 @@
     move-result-object v0
 
     .line 50
-    invoke-static {v0}, Lcom/huawei/appmarket/gp7;->i(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/lp7;->i(Ljava/lang/String;)Z
 
     .line 51
     .line 52
@@ -642,7 +642,7 @@
     const/4 v1, 0x2
 
     .line 90
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ei8;->o0(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/ki8;->o0(Landroid/view/View;I)V
 
     .line 91
     .line 92
@@ -1005,8 +1005,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final bridge synthetic g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -1060,7 +1058,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 22
     .line 23
@@ -1179,7 +1177,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final w1()Landroid/widget/TextView;
@@ -1200,11 +1197,11 @@
     return-object v0
 .end method
 
-.method public final y1(Lcom/huawei/appmarket/ak0;)V
+.method public final y1(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/CombineGameGiftListCard;->z:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/CombineGameGiftListCard;->z:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method

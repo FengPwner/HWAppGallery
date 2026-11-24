@@ -82,7 +82,7 @@
 
     iget-object v0, p0, Lcom/huawei/uikit/hwunifiedinteract/widget/HwKeyEventDetector;->a:Landroid/view/View;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/of1;->u(Landroid/view/View;Landroid/view/View$OnUnhandledKeyEventListener;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/qf1;->u(Landroid/view/View;Landroid/view/View$OnUnhandledKeyEventListener;)V
 
     goto :goto_0
 
@@ -91,7 +91,7 @@
 
     if-eqz p1, :cond_3
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/of1;->B(Landroid/view/View;Landroid/view/View$OnUnhandledKeyEventListener;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/qf1;->B(Landroid/view/View;Landroid/view/View$OnUnhandledKeyEventListener;)V
 
     const/4 p1, 0x0
 
@@ -413,10 +413,6 @@
     .line 270
     .line 271
     .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
 .end method
 
 

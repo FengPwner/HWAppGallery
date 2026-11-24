@@ -1,50 +1,71 @@
 .class public final Lcom/huawei/appmarket/pv1;
-.super Lcom/huawei/appmarket/ld7;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;)V
-    .registers 2
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final v(Ljava/lang/String;)V
-    .registers 4
+.method public static a(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
+    .registers 5
 
     .line 1
-    const-string v0, "cdnBackupDomain"
+    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->n()I
 
-    :try_start_0
-    iget-object v1, p0, Lcom/huawei/appmarket/j50;->a:Landroid/content/SharedPreferences;
+    move-result v0
 
-    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    const/16 v1, 0x11
 
-    move-result-object v1
+    if-ne v0, v1, :cond_0
 
-    invoke-interface {v1, v0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->g()Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v0
 
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    goto :goto_0
+    move-result v0
 
-    :catch_0
-    const-string p1, "putStringAsync error!!key:cdnBackupDomain"
+    if-eqz v0, :cond_0
 
-    const-string v0, "DownloadSharedPreference"
+    new-instance p1, Ljava/lang/StringBuilder;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v0, "dlType is  APP_SHADER_PROFILE_DOWNLOAD,pkgName ="
 
-    :goto_0
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->D()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string p1, "DownloadReport"
+
+    invoke-static {p1, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_0
+    sget-object v0, Lcom/huawei/appmarket/tp1;->b:Lcom/huawei/appmarket/xp1;
+
+    sget-object v1, Lcom/huawei/appmarket/sp1;->b:Lcom/huawei/appmarket/sp1;
+
+    new-instance v2, Lcom/huawei/appmarket/pv1$a;
+
+    invoke-direct {v2, p0, p1}, Lcom/huawei/appmarket/pv1$a;-><init>(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;I)V
+
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/xp1;->b(Lcom/huawei/appmarket/sp1;Lcom/huawei/appmarket/np1;)V
+
     return-void
 .end method

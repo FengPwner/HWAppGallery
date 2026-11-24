@@ -78,7 +78,7 @@
             "(",
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/lj8;",
+            "Lcom/huawei/appmarket/rj8;",
             ">;)V"
         }
     .end annotation

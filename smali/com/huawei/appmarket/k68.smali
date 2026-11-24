@@ -1,40 +1,71 @@
-.class public final synthetic Lcom/huawei/appmarket/k68;
+.class public final Lcom/huawei/appmarket/k68;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/mt2;
-
-
-# instance fields
-.field public final synthetic b:Lcom/huawei/appmarket/h68$c;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/h68$c;)V
-    .registers 2
+.method private constructor <init>()V
+    .registers 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/huawei/appmarket/k68;->b:Lcom/huawei/appmarket/h68$c;
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 3
+.method public static a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/k68;->b:Lcom/huawei/appmarket/h68$c;
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    check-cast p1, Ljava/lang/reflect/Type;
+    const/16 v1, 0x1f
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/h68$c;->b(Ljava/lang/reflect/Type;)Ljava/lang/String;
+    if-lt v0, v1, :cond_0
 
-    move-result-object p1
+    invoke-static {p0}, Lcom/huawei/appmarket/w55;->a(Landroid/content/res/Configuration;)I
 
-    return-object p1
+    move-result v0
+
+    const v1, 0x7fffffff
+
+    if-eq v0, v1, :cond_0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/w55;->a(Landroid/content/res/Configuration;)I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p1}, Lcom/huawei/appmarket/f56;->a(Landroid/graphics/Typeface;)I
+
+    move-result v0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/w55;->a(Landroid/content/res/Configuration;)I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    const/4 v0, 0x1
+
+    const/16 v1, 0x3e8
+
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/c55;->a(III)I
+
+    move-result p0
+
+    invoke-virtual {p1}, Landroid/graphics/Typeface;->isItalic()Z
+
+    move-result v0
+
+    invoke-static {p1, p0, v0}, Lcom/huawei/appmarket/f56;->e(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return-object p0
 .end method

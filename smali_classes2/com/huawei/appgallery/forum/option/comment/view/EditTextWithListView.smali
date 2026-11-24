@@ -16,7 +16,7 @@
 
 .field private o:Z
 
-.field private p:Lcom/huawei/appmarket/g67;
+.field private p:Lcom/huawei/appmarket/l67;
 
 
 # direct methods
@@ -38,7 +38,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 
     const/4 p2, 0x0
 
-    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/g67;
+    iput-object p2, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/l67;
 
     invoke-virtual {p0, p1, p1, p1, p1}, Landroid/view/View;->setPaddingRelative(IIII)V
 
@@ -86,7 +86,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method
@@ -226,7 +226,7 @@
 
     .line 59
     .line 60
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -290,7 +290,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method protected final onMeasure(II)V
@@ -530,7 +529,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method protected final onScrollChanged(IIII)V
@@ -566,11 +564,11 @@
 
     invoke-super {p0, p1, p2}, Landroid/widget/EditText;->onSelectionChanged(II)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/g67;
+    iget-object v0, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/l67;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/g67;->b(IILandroid/view/View;)V
+    invoke-interface {v0, p1, p2, p0}, Lcom/huawei/appmarket/l67;->b(IILandroid/view/View;)V
 
     :cond_0
     return-void
@@ -649,11 +647,11 @@
     return p1
 .end method
 
-.method public setSelectionChangedListener(Lcom/huawei/appmarket/g67;)V
+.method public setSelectionChangedListener(Lcom/huawei/appmarket/l67;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/g67;
+    iput-object p1, p0, Lcom/huawei/appgallery/forum/option/comment/view/EditTextWithListView;->p:Lcom/huawei/appmarket/l67;
 
     return-void
 .end method

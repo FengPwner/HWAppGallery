@@ -22,7 +22,7 @@
     return-void
 .end method
 
-.method public static g(Ljava/lang/String;)Lcom/huawei/appmarket/bc0;
+.method public static h(Ljava/lang/String;)Lcom/huawei/appmarket/bc0;
     .registers 8
 
     .line 1
@@ -53,7 +53,7 @@
 
     .line 13
     .line 14
-    invoke-static {v3, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -79,7 +79,7 @@
 
     .line 25
     .line 26
-    invoke-static {v3, p0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -291,7 +291,7 @@
     move-result-object p0
 
     .line 130
-    invoke-static {v3, p0}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, p0}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -336,7 +336,7 @@
     move-result-object v0
 
     .line 152
-    invoke-static {v3, v0, p0}, Lcom/huawei/appmarket/g83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v3, v0, p0}, Lcom/huawei/appmarket/j83;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 153
     .line 154
@@ -504,7 +504,7 @@
     return-object v0
 
     :cond_0
-    const-string v1, "tagName"
+    const-string v1, "subTagName"
 
     invoke-virtual {v0, v1}, Lcom/alibaba/fastjson2/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -514,6 +514,28 @@
 .end method
 
 .method public final e()Ljava/lang/String;
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/bc0;->d:Lcom/alibaba/fastjson2/JSONObject;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_0
+    const-string v1, "tagName"
+
+    invoke-virtual {v0, v1}, Lcom/alibaba/fastjson2/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final f()Ljava/lang/String;
     .registers 2
 
     .line 1
@@ -522,7 +544,7 @@
     return-object v0
 .end method
 
-.method public final f()Ljava/lang/String;
+.method public final g()Ljava/lang/String;
     .registers 3
 
     .line 1

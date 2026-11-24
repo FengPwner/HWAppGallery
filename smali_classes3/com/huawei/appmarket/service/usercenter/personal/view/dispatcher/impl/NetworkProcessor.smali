@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/tm2;
+.implements Lcom/huawei/appmarket/vm2;
 
 
 # instance fields
@@ -29,19 +29,19 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/usercenter/personal/view/dispatcher/impl/NetworkProcessor;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/p3;->a()Lcom/huawei/appmarket/tm2;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/p3;->a()Lcom/huawei/appmarket/vm2;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/tm2;->b(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/vm2;->b(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -50,11 +50,11 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/d08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/d08;
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/i08;->f(Landroid/content/Context;II)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     :cond_1
     :goto_0

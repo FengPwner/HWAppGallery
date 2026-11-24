@@ -238,7 +238,7 @@
     move-result-object v1
 
     .line 84
-    invoke-static {v4, v1}, Lcom/huawei/appmarket/s39;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/huawei/appmarket/y39;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -246,7 +246,7 @@
     .line 86
     .line 87
     :goto_2
-    invoke-static {v0}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     .line 88
     .line 89
@@ -255,7 +255,7 @@
 
     .line 91
     :goto_3
-    invoke-static {v3}, Lcom/huawei/appmarket/l19;->a(Ljava/io/InputStream;)V
+    invoke-static {v3}, Lcom/huawei/appmarket/r19;->a(Ljava/io/InputStream;)V
 
     .line 92
     .line 93
@@ -475,4 +475,24 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method

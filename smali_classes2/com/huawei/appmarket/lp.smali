@@ -3,124 +3,92 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/pp$a;
+.implements Landroid/view/ViewTreeObserver$OnPreDrawListener;
 
 
 # instance fields
-.field private a:J
-
-.field final synthetic b:Lcom/huawei/appmarket/np;
+.field final synthetic b:Lcom/huawei/appmarket/mp;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/np;)V
-    .registers 4
+.method constructor <init>(Lcom/huawei/appmarket/mp;)V
+    .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/lp;->b:Lcom/huawei/appmarket/np;
+    iput-object p1, p0, Lcom/huawei/appmarket/lp;->b:Lcom/huawei/appmarket/mp;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const-wide/16 v0, 0x0
-
-    iput-wide v0, p0, Lcom/huawei/appmarket/lp;->a:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final b(I)V
-    .registers 9
+.method public final onPreDraw()Z
+    .registers 4
 
     .line 1
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    iget-object v0, p0, Lcom/huawei/appmarket/lp;->b:Lcom/huawei/appmarket/mp;
 
-    move-result-wide v0
-
-    iget-wide v2, p0, Lcom/huawei/appmarket/lp;->a:J
-
-    sub-long v2, v0, v2
-
-    invoke-static {v2, v3}, Ljava/lang/Math;->abs(J)J
-
-    move-result-wide v2
-
-    const-wide/16 v4, 0x3e8
-
-    cmp-long v6, v2, v4
-
-    if-gez v6, :cond_0
-
-    return-void
-
-    :cond_0
-    iput-wide v0, p0, Lcom/huawei/appmarket/lp;->a:J
-
-    iget-object v0, p0, Lcom/huawei/appmarket/lp;->b:Lcom/huawei/appmarket/np;
-
-    invoke-static {v0}, Lcom/huawei/appmarket/np;->b(Lcom/huawei/appmarket/np;)Ljava/util/List;
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->d(Lcom/huawei/appmarket/mp;)Lcom/huawei/uikit/phone/hwbubblelayout/widget/HwBubbleLayout;
 
     move-result-object v1
 
-    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v1
 
-    if-eqz v1, :cond_2
+    invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/np;->b(Lcom/huawei/appmarket/np;)Ljava/util/List;
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->e(Lcom/huawei/appmarket/mp;)V
 
-    move-result-object v1
-
-    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->d(Lcom/huawei/appmarket/mp;)Lcom/huawei/uikit/phone/hwbubblelayout/widget/HwBubbleLayout;
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/jp;
-
-    invoke-virtual {v1}, Lcom/huawei/appmarket/jp;->b()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v1
 
-    if-eqz v1, :cond_1
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->h(Lcom/huawei/appmarket/mp;)I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->min(II)I
+
+    move-result v1
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/mp;->g(Lcom/huawei/appmarket/mp;I)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->f(Lcom/huawei/appmarket/mp;)I
+
+    move-result v1
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->i(Lcom/huawei/appmarket/mp;)I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->max(II)I
+
+    move-result v1
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/mp;->g(Lcom/huawei/appmarket/mp;I)V
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->j(Lcom/huawei/appmarket/mp;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->k(Lcom/huawei/appmarket/mp;)V
 
     goto :goto_0
 
-    :cond_1
-    invoke-static {v0}, Lcom/huawei/appmarket/np;->c(Lcom/huawei/appmarket/np;)Landroid/content/Context;
+    :cond_0
+    invoke-static {v0}, Lcom/huawei/appmarket/mp;->l(Lcom/huawei/appmarket/mp;)V
 
-    move-result-object v1
-
-    invoke-static {v0}, Lcom/huawei/appmarket/np;->b(Lcom/huawei/appmarket/np;)Ljava/util/List;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/huawei/appmarket/jp;
-
-    invoke-virtual {p1}, Lcom/huawei/appmarket/jp;->b()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/a9;->a(Landroid/content/Context;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_2
     :goto_0
-    const-string p1, "AppComplianceBubble"
+    const/4 v0, 0x0
 
-    const-string v0, "appComplianceBean or complianceInfo is null"
-
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+    return v0
 .end method

@@ -9,13 +9,13 @@
 
 # instance fields
 .field private scenes:Ljava/util/List;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ml1;",
+            "Lcom/huawei/appmarket/pl1;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ml1;",
+            "Lcom/huawei/appmarket/pl1;",
             ">;"
         }
     .end annotation

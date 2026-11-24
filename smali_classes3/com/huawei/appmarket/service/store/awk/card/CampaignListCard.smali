@@ -239,7 +239,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -736,8 +735,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
@@ -749,21 +746,21 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/CampaignListCard;->D:Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/CampaignListCard;->E:Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/CampaignListCard;->F:Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/service/store/awk/card/CampaignCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     return-void
 .end method
@@ -965,7 +962,7 @@
     .line 102
     .line 103
     .line 104
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 105
     .line 106
@@ -977,7 +974,7 @@
 
     .line 109
     .line 110
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 111
     .line 112
@@ -985,7 +982,7 @@
     move-result v1
 
     .line 114
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     .line 115
     .line 116
@@ -1238,8 +1235,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method protected final s1()Ljava/util/ArrayList;

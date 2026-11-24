@@ -738,7 +738,7 @@
 
     .line 79
     .line 80
-    invoke-static {v0, p2, p3}, Lcom/huawei/appmarket/om5;->k(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v0, p2, p3}, Lcom/huawei/appmarket/uq5;->h(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 81
     .line 82
@@ -839,7 +839,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public timeout()Lcom/huawei/hms/network/embedded/ac;

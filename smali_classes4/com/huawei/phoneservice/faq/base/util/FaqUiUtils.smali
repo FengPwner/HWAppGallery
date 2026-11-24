@@ -84,7 +84,7 @@
 
 .method public static dip2px(Landroid/content/Context;F)I
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -110,7 +110,7 @@
 
 .method public static isRtlLayout(Landroid/content/Context;)Z
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -123,7 +123,7 @@
 
     iget-object p0, p0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ox7;->a(Ljava/util/Locale;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/tx7;->a(Ljava/util/Locale;)I
 
     move-result p0
 
@@ -142,7 +142,7 @@
 
 .method public static isSplitActivity(Landroid/app/Activity;)Z
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     const-string v0, "FaqUiUtils"
@@ -244,7 +244,7 @@
 
 .method public static setPadPadding(Landroid/app/Activity;[I)V
     .registers 8
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-eqz p1, :cond_2
@@ -307,7 +307,7 @@
 
 .method public static setRootViewDefaultFocusHighlight(Landroid/app/Activity;)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -369,7 +369,7 @@
 
 .method public static setStatusBarColor(Landroid/app/Activity;ZI)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -446,7 +446,7 @@
 
 .method public static setViewLayoutParams(Landroid/view/View;I)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -462,7 +462,7 @@
 
 .method public static viewMapToButton(Landroid/view/View;)V
     .registers 2
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-nez p0, :cond_0
@@ -474,7 +474,7 @@
 
     invoke-direct {v0}, Lcom/huawei/phoneservice/faq/base/util/FaqUiUtils$a;-><init>()V
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     return-void
 .end method

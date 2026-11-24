@@ -998,7 +998,7 @@
     .registers 12
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/wf6;->p:[I
+    sget-object v0, Lcom/huawei/appmarket/yf6;->p:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

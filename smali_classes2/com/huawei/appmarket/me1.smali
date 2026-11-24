@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/er3;
+.implements Lcom/huawei/appmarket/iq3;
 
 
 # direct methods
@@ -17,11 +17,11 @@
 
 
 # virtual methods
-.method public final c2()J
-    .registers 3
+.method public final a()Z
+    .registers 2
 
     .line 1
-    const-wide/16 v0, -0x1
+    const/4 v0, 0x0
 
-    return-wide v0
+    return v0
 .end method

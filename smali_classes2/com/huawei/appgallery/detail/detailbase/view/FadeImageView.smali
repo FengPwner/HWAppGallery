@@ -85,11 +85,11 @@
 .method public setImageDrawable(Landroid/graphics/drawable/Drawable;)V
     .registers 6
 
-    sget-object v0, Lcom/huawei/appmarket/j38$a;->c:Ljava/lang/Integer;
+    sget-object v0, Lcom/huawei/appmarket/p38$a;->c:Ljava/lang/Integer;
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/view/FadeImageView;->b:Landroid/content/Context;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/j38;->i(Landroid/content/Context;Ljava/lang/Integer;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/p38;->i(Landroid/content/Context;Ljava/lang/Integer;)Z
 
     move-result v0
 
@@ -117,11 +117,11 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v1, Lcom/huawei/appmarket/qj8;
+    new-instance v1, Lcom/huawei/appmarket/wj8;
 
     const/16 v2, 0x10
 
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/qj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/wj8;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     const-wide/16 v2, 0x32
 
@@ -130,9 +130,9 @@
     return-void
 
     :cond_0
-    sget-object v0, Lcom/huawei/appmarket/j38$a;->d:Ljava/lang/Integer;
+    sget-object v0, Lcom/huawei/appmarket/p38$a;->d:Ljava/lang/Integer;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/j38;->i(Landroid/content/Context;Ljava/lang/Integer;)Z
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/p38;->i(Landroid/content/Context;Ljava/lang/Integer;)Z
 
     move-result v0
 
@@ -146,7 +146,7 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/detail/detailbase/view/FadeImageView;->d:Z
 
-    invoke-static {p0}, Lcom/huawei/appmarket/um;->b(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/tm;->b(Landroid/view/View;)V
 
     :cond_1
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V

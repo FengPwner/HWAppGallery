@@ -1,5 +1,5 @@
 .class public abstract Landroidx/fragment/app/j;
-.super Lcom/huawei/appmarket/dr2;
+.super Lcom/huawei/appmarket/fr2;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
         "<H:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/huawei/appmarket/dr2;"
+        "Lcom/huawei/appmarket/fr2;"
     }
 .end annotation
 
@@ -31,13 +31,13 @@
     .line 1
     const-string p4, "context"
 
-    invoke-static {p2, p4}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p4}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "handler"
 
-    invoke-static {p3, p4}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/dr2;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/fr2;-><init>()V
 
     iput-object p1, p0, Landroidx/fragment/app/j;->b:Landroid/app/Activity;
 
@@ -60,11 +60,11 @@
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "handler"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     instance-of v0, p1, Landroid/app/Activity;
 
@@ -91,7 +91,7 @@
     .line 3
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -182,7 +182,7 @@
 
     const-string v1, "from(context)"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -193,11 +193,11 @@
     .line 1
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "intent"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -236,13 +236,13 @@
 
     move-object v1, p1
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "intent"
 
     move-object v2, p2
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, -0x1
 

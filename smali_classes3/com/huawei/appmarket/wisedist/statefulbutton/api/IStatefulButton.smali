@@ -4,8 +4,8 @@
 
 
 # virtual methods
-.method public abstract click(Lcom/huawei/appmarket/ib2;Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource$DownloadStatus;)V
+.method public abstract click(Lcom/huawei/appmarket/lb2;Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource$DownloadStatus;)V
 .end method
 
-.method public abstract getStatus(Lcom/huawei/appmarket/ib2;)Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource$DownloadStatus;
+.method public abstract getStatus(Lcom/huawei/appmarket/lb2;)Lcom/huawei/appmarket/service/deamon/download/sources/AppStatusSource$DownloadStatus;
 .end method

@@ -19,15 +19,15 @@
 
     invoke-super {p0}, Lcom/huawei/appmarket/service/thirdappdl/ThirdAppDownloadActivity;->onDestroy()V
 
-    const-class v0, Lcom/huawei/appmarket/ls3;
+    const-class v0, Lcom/huawei/appmarket/ns3;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/mj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/huawei/appmarket/oj4;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/ls3;
+    check-cast v0, Lcom/huawei/appmarket/ns3;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/ls3;->G2()Z
+    invoke-interface {v0}, Lcom/huawei/appmarket/ns3;->H2()Z
 
     move-result v0
 
@@ -37,7 +37,7 @@
 
     const-string v1, "update hms success, continue to login."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/appgallery/accountkit/api/LoginParam;
 
@@ -51,13 +51,13 @@
 
     const-class v2, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/huawei/appgallery/accountkit/api/IAccountManager;
 
-    invoke-interface {v1, p0, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v1, p0, v0}, Lcom/huawei/appgallery/accountkit/api/IAccountManager;->login(Landroid/content/Context;Lcom/huawei/appgallery/accountkit/api/LoginParam;)Lcom/huawei/appmarket/nv7;
 
     :cond_0
     return-void

@@ -38,7 +38,7 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/om5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/uq5;->d(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 12
     .line 13

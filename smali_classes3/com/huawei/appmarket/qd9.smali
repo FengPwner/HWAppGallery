@@ -1,83 +1,91 @@
 .class public final Lcom/huawei/appmarket/qd9;
-.super Lcom/huawei/appmarket/le9;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/zv8$a;
+
+
+# static fields
+.field public static final a:Lcom/huawei/appmarket/qd9;
 
 
 # direct methods
-.method public constructor <init>()V
+.method static constructor <clinit>()V
     .registers 1
 
     .line 1
-    invoke-direct {p0}, Lcom/huawei/appmarket/le9;-><init>()V
+    new-instance v0, Lcom/huawei/appmarket/qd9;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/qd9;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/qd9;->a:Lcom/huawei/appmarket/qd9;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final e(Lcom/huawei/appmarket/u52;)Ljava/lang/String;
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
+.method public final a(Ljava/util/LinkedHashSet;)Ljava/util/LinkedHashSet;
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/LinkedHashSet<",
+            "Lcom/huawei/appmarket/z09<",
+            "TT;>;>;)",
+            "Ljava/util/LinkedHashSet<",
+            "Lcom/huawei/appmarket/z09<",
+            "TT;>;>;"
         }
     .end annotation
 
     .line 1
-    const-string p1, "addition"
+    new-instance v0, Ljava/util/LinkedHashSet;
 
-    return-object p1
-.end method
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-.method protected final f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .registers 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/huawei/flexiblelayout/parser/expr/ExprException;
-        }
-    .end annotation
+    new-instance v1, Lcom/huawei/appmarket/uc9;
 
-    .line 1
-    instance-of v0, p1, Ljava/lang/Number;
+    sget-object v2, Lcom/huawei/appmarket/uc9$b;->c:Lcom/huawei/appmarket/uc9$b;
 
-    if-eqz v0, :cond_0
+    invoke-direct {v1, v2}, Lcom/huawei/appmarket/uc9;-><init>(Lcom/huawei/appmarket/uc9$b;)V
 
-    instance-of v0, p2, Ljava/lang/Number;
-
-    if-eqz v0, :cond_0
-
-    :try_start_0
-    move-object v0, p1
-
-    check-cast v0, Ljava/lang/Number;
-
-    move-object v1, p2
-
-    check-cast v1, Ljava/lang/Number;
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o89;->b(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
-    :try_end_0
-    .catch Lcom/huawei/flexiblelayout/parser/expr/ExprException; {:try_start_0 .. :try_end_0} :catch_0
 
-    return-object p1
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    :catch_0
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/huawei/appmarket/z09;
+
+    new-instance v3, Lcom/huawei/appmarket/ld9;
+
+    invoke-direct {v3, v0}, Lcom/huawei/appmarket/ld9;-><init>(Ljava/util/LinkedHashSet;)V
+
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/uc9;->a(Lcom/huawei/appmarket/gc9;Lcom/huawei/appmarket/uc9$c;)V
+
+    goto :goto_0
+
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, ""
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    return-object p1
+    return-object v0
 .end method

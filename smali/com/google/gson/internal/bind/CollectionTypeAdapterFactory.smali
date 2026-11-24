@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/h58;
+.implements Lcom/huawei/appmarket/n58;
 
 
 # annotations
@@ -83,13 +83,13 @@
 
     iget-object v2, p0, Lcom/google/gson/internal/bind/CollectionTypeAdapterFactory;->b:Lcom/huawei/appmarket/x11;
 
-    invoke-virtual {v2, p2}, Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/wl5;
+    invoke-virtual {v2, p2}, Lcom/huawei/appmarket/x11;->b(Lcom/google/gson/reflect/TypeToken;)Lcom/huawei/appmarket/yl5;
 
     move-result-object p2
 
     new-instance v2, Lcom/google/gson/internal/bind/CollectionTypeAdapterFactory$Adapter;
 
-    invoke-direct {v2, p1, v0, v1, p2}, Lcom/google/gson/internal/bind/CollectionTypeAdapterFactory$Adapter;-><init>(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Lcom/huawei/appmarket/wl5;)V
+    invoke-direct {v2, p1, v0, v1, p2}, Lcom/google/gson/internal/bind/CollectionTypeAdapterFactory$Adapter;-><init>(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter;Lcom/huawei/appmarket/yl5;)V
 
     return-object v2
 .end method

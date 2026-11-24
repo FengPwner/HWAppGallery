@@ -1,0 +1,16 @@
+.class public final synthetic Lcom/huawei/appmarket/hh8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static bridge synthetic a(Landroid/media/MediaMetadataRetriever;JIII)Landroid/graphics/Bitmap;
+    .registers 6
+
+    .line 1
+    invoke-virtual/range {p0 .. p5}, Landroid/media/MediaMetadataRetriever;->getScaledFrameAtTime(JIII)Landroid/graphics/Bitmap;
+
+    move-result-object p0
+
+    return-object p0
+.end method

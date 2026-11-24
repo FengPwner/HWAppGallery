@@ -60,13 +60,13 @@
 
     if-eqz v0, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "MyAssetChildGridItemCard"
 
     const-string v1, "setAssetSuggestions,result is null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -85,7 +85,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object v0, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     .line 2
     .line 3
@@ -97,12 +97,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 11
     .line 12
@@ -110,7 +110,7 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->e()Lcom/huawei/appgallery/userinfokit/userinfokit/api/bean/UserInfoResponse;
 
     .line 15
     .line 16
@@ -118,7 +118,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {}, Lcom/huawei/appmarket/sz5;->a()Z
+    invoke-static {}, Lcom/huawei/appmarket/uz5;->a()Z
 
     .line 19
     .line 20
@@ -165,7 +165,7 @@
 
     .line 40
     .line 41
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 42
     .line 43
@@ -173,7 +173,7 @@
     move-result-object v0
 
     .line 45
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->a()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->a()Z
 
     .line 46
     .line 47
@@ -186,7 +186,7 @@
     .line 50
     .line 51
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/xz5;->b()Lcom/huawei/appmarket/xz5;
+    invoke-static {}, Lcom/huawei/appmarket/zz5;->b()Lcom/huawei/appmarket/zz5;
 
     .line 52
     .line 53
@@ -194,7 +194,7 @@
     move-result-object v0
 
     .line 55
-    invoke-virtual {v0}, Lcom/huawei/appmarket/xz5;->c()Z
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zz5;->c()Z
 
     .line 56
     .line 57
@@ -210,7 +210,7 @@
 
     .line 62
     .line 63
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -236,7 +236,7 @@
 
     .line 74
     .line 75
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/uz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/zz7;->g(Ljava/lang/Boolean;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -314,7 +314,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ny;->c()Z
+    invoke-static {}, Lcom/huawei/appmarket/oy;->c()Z
 
     move-result v0
 
@@ -326,7 +326,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/usercenter/personal/base/card/MyAssetChildGridItemCard$a;-><init>(Lcom/huawei/appgallery/usercenter/personal/base/card/MyAssetChildGridItemCard;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ny;->e(Landroid/content/Context;Lcom/huawei/appmarket/kr3;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/oy;->e(Landroid/content/Context;Lcom/huawei/appmarket/mr3;)V
 
     goto :goto_0
 
@@ -377,7 +377,7 @@
     .registers 3
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/i06;->i()Lcom/huawei/appmarket/i06;
+    invoke-static {}, Lcom/huawei/appmarket/k06;->i()Lcom/huawei/appmarket/k06;
 
     move-result-object v0
 
@@ -387,7 +387,7 @@
 
     const-string v0, "activityUri|my_asset_card_observer"
 
-    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/i06;->m(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/ym5;)V
+    invoke-static {v1, v0, p0}, Lcom/huawei/appmarket/k06;->m(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/zm5;)V
 
     return-void
 .end method
@@ -580,13 +580,13 @@
 
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/b06;->a:Lcom/huawei/appmarket/b06;
+    sget-object p1, Lcom/huawei/appmarket/d06;->a:Lcom/huawei/appmarket/d06;
 
     const-string v0, "MyAssetChildGridItemCard"
 
     const-string v1, "onChanged,event is null."
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

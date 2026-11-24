@@ -1,63 +1,207 @@
-.class public final Lcom/huawei/appmarket/qn2;
+.class final Lcom/huawei/appmarket/qn2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/h21;
+
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        Lcom/huawei/appmarket/qn2$c;,
-        Lcom/huawei/appmarket/qn2$a;,
-        Lcom/huawei/appmarket/qn2$b;
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/h21<",
+        "Lcom/huawei/appmarket/nn2$b;",
+        ">;"
     }
 .end annotation
 
 
+# instance fields
+.field final synthetic a:Ljava/lang/String;
+
+
 # direct methods
-.method private constructor <init>()V
-    .registers 1
+.method constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/qn2;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/huawei/appmarket/kn2;)Lcom/huawei/appmarket/qn2$a;
-    .registers 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/content/pm/PackageManager$NameNotFoundException;
-        }
-    .end annotation
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .registers 6
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/jn2;->a(Landroid/content/Context;Lcom/huawei/appmarket/kn2;)Lcom/huawei/appmarket/qn2$a;
+    check-cast p1, Lcom/huawei/appmarket/nn2$b;
 
-    move-result-object p0
+    .line 2
+    .line 3
+    sget-object v0, Lcom/huawei/appmarket/nn2;->c:Ljava/lang/Object;
 
-    return-object p0
-.end method
+    .line 4
+    .line 5
+    monitor-enter v0
 
-.method public static b(Landroid/content/Context;Lcom/huawei/appmarket/kn2;IZILandroid/os/Handler;Lcom/huawei/appmarket/u58$a;)Landroid/graphics/Typeface;
-    .registers 8
+    .line 6
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/nn2;->d:Lcom/huawei/appmarket/ze7;
 
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/uh0;
+    .line 7
+    .line 8
+    iget-object v2, p0, Lcom/huawei/appmarket/qn2;->a:Ljava/lang/String;
 
-    invoke-direct {v0, p6, p5}, Lcom/huawei/appmarket/uh0;-><init>(Lcom/huawei/appmarket/qn2$c;Landroid/os/Handler;)V
+    .line 9
+    .line 10
+    const/4 v3, 0x0
 
-    if-eqz p3, :cond_0
+    .line 11
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/ze7;->getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0, p1, v0, p2, p4}, Lcom/huawei/appmarket/ln2;->c(Landroid/content/Context;Lcom/huawei/appmarket/kn2;Lcom/huawei/appmarket/uh0;II)Landroid/graphics/Typeface;
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v2
 
-    move-result-object p0
+    .line 15
+    check-cast v2, Ljava/util/ArrayList;
 
-    return-object p0
+    .line 16
+    .line 17
+    if-nez v2, :cond_0
 
+    .line 18
+    .line 19
+    monitor-exit v0
+
+    .line 20
+    goto :goto_1
+
+    .line 21
+    :catchall_0
+    move-exception p1
+
+    .line 22
+    goto :goto_2
+
+    .line 23
     :cond_0
-    invoke-static {p0, p1, p2, v0}, Lcom/huawei/appmarket/ln2;->b(Landroid/content/Context;Lcom/huawei/appmarket/kn2;ILcom/huawei/appmarket/uh0;)Landroid/graphics/Typeface;
+    iget-object v3, p0, Lcom/huawei/appmarket/qn2;->a:Ljava/lang/String;
 
-    move-result-object p0
+    .line 24
+    .line 25
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/ze7;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    return-object p0
+    .line 26
+    .line 27
+    .line 28
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 29
+    const/4 v0, 0x0
+
+    .line 30
+    :goto_0
+    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v1
+
+    .line 34
+    if-ge v0, v1, :cond_1
+
+    .line 35
+    .line 36
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v1
+
+    .line 40
+    check-cast v1, Lcom/huawei/appmarket/h21;
+
+    .line 41
+    .line 42
+    invoke-interface {v1, p1}, Lcom/huawei/appmarket/h21;->accept(Ljava/lang/Object;)V
+
+    .line 43
+    .line 44
+    .line 45
+    add-int/lit8 v0, v0, 0x1
+
+    .line 46
+    .line 47
+    goto :goto_0
+
+    .line 48
+    :cond_1
+    :goto_1
+    return-void
+
+    .line 49
+    :goto_2
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 50
+    throw p1
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
 .end method

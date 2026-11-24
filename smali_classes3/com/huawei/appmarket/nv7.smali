@@ -1,4 +1,4 @@
-.class public final Lcom/huawei/appmarket/nv7;
+.class public abstract Lcom/huawei/appmarket/nv7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -14,104 +14,414 @@
 .end annotation
 
 
-# instance fields
-.field public final task:Lcom/huawei/appmarket/x89;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/huawei/appmarket/x89<",
-            "TTResult;>;"
-        }
-    .end annotation
-.end field
-
-
 # direct methods
 .method public constructor <init>()V
-    .registers 2
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Lcom/huawei/appmarket/x89;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/x89;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
-
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/huawei/appmarket/ni0;)V
-    .registers 3
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Lcom/huawei/appmarket/x89;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/x89;-><init>()V
-
-    iput-object v0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
-
-    new-instance v0, Lcom/huawei/appmarket/nv7$a;
-
-    invoke-direct {v0, p0}, Lcom/huawei/appmarket/nv7$a;-><init>(Lcom/huawei/appmarket/nv7;)V
-
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/ni0;->register(Ljava/lang/Runnable;)Lcom/huawei/appmarket/ni0;
-
-    return-void
-.end method
-
-.method public static synthetic access$000(Lcom/huawei/appmarket/nv7;)Lcom/huawei/appmarket/x89;
     .registers 1
 
-    .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-object p0
+    return-void
 .end method
 
 
 # virtual methods
-.method public getTask()Lcom/huawei/appmarket/hv7;
-    .registers 2
+.method public addOnCanceledListener(Landroid/app/Activity;Lcom/huawei/appmarket/yn5;)Lcom/huawei/appmarket/nv7;
+    .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()",
-            "Lcom/huawei/appmarket/hv7<",
+            "(",
+            "Landroid/app/Activity;",
+            "Lcom/huawei/appmarket/yn5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
             "TTResult;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    return-object v0
+    const-string p2, "addOnCanceledListener is not implemented."
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
 .end method
 
-.method public setException(Ljava/lang/Exception;)V
-    .registers 3
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
-
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/x89;->d(Ljava/lang/Exception;)V
-
-    return-void
-.end method
-
-.method public setResult(Ljava/lang/Object;)V
+.method public addOnCanceledListener(Lcom/huawei/appmarket/yn5;)Lcom/huawei/appmarket/nv7;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TTResult;)V"
+            "(",
+            "Lcom/huawei/appmarket/yn5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "addOnCanceledListener is not implemented."
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public addOnCanceledListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/yn5;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/yn5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+
+    .line 3
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "addOnCanceledListener is not implemented."
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public addOnCompleteListener(Landroid/app/Activity;Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/app/Activity;",
+            "Lcom/huawei/appmarket/fo5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/nv7;->task:Lcom/huawei/appmarket/x89;
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/x89;->e(Ljava/lang/Object;)V
+    const-string p2, "addOnCompleteListener is not implemented"
 
-    return-void
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/fo5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "addOnCompleteListener is not implemented"
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/fo5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+
+    .line 3
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "addOnCompleteListener is not implemented"
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public abstract addOnFailureListener(Landroid/app/Activity;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/app/Activity;",
+            "Lcom/huawei/appmarket/po5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract addOnFailureListener(Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/po5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract addOnFailureListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/po5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/po5;",
+            ")",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract addOnSuccessListener(Landroid/app/Activity;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/app/Activity;",
+            "Lcom/huawei/appmarket/lp5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract addOnSuccessListener(Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/lp5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/lp5;)Lcom/huawei/appmarket/nv7;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/lp5<",
+            "TTResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public continueWith(Lcom/huawei/appmarket/x31;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/huawei/appmarket/x31<",
+            "TTResult;TTContinuationResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "continueWith is not implemented"
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public continueWith(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/x31;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/x31<",
+            "TTResult;TTContinuationResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "continueWith is not implemented"
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public continueWithTask(Lcom/huawei/appmarket/x31;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/huawei/appmarket/x31<",
+            "TTResult;",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "continueWithTask is not implemented"
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public continueWithTask(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/x31;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/x31<",
+            "TTResult;",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "continueWithTask is not implemented"
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public abstract getException()Ljava/lang/Exception;
+.end method
+
+.method public abstract getResult()Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TTResult;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getResultThrowException(Ljava/lang/Class;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<E:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Ljava/lang/Class<",
+            "TE;>;)TTResult;^TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+.end method
+
+.method public abstract isCanceled()Z
+.end method
+
+.method public abstract isComplete()Z
+.end method
+
+.method public abstract isSuccessful()Z
+.end method
+
+.method public onSuccessTask(Lcom/huawei/appmarket/tr7;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/huawei/appmarket/tr7<",
+            "TTResult;TTContinuationResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "onSuccessTask is not implemented"
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public onSuccessTask(Ljava/util/concurrent/Executor;Lcom/huawei/appmarket/tr7;)Lcom/huawei/appmarket/nv7;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TContinuationResult:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/huawei/appmarket/tr7<",
+            "TTResult;TTContinuationResult;>;)",
+            "Lcom/huawei/appmarket/nv7<",
+            "TTContinuationResult;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "onSuccessTask is not implemented"
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
 .end method

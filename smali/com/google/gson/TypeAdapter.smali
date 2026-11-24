@@ -43,11 +43,11 @@
     return-object v0
 .end method
 
-.method public abstract b(Lcom/huawei/appmarket/gp4;)Ljava/lang/Object;
+.method public abstract b(Lcom/huawei/appmarket/jp4;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/gp4;",
+            "Lcom/huawei/appmarket/jp4;",
             ")TT;"
         }
     .end annotation
@@ -59,11 +59,11 @@
     .end annotation
 .end method
 
-.method public abstract c(Lcom/huawei/appmarket/tp4;Ljava/lang/Object;)V
+.method public abstract c(Lcom/huawei/appmarket/wp4;Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/tp4;",
+            "Lcom/huawei/appmarket/wp4;",
             "TT;)V"
         }
     .end annotation

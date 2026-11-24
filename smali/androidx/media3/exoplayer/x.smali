@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public final a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/mz7;)V
+.method public final a(Landroidx/media3/exoplayer/source/k;Lcom/huawei/appmarket/rz7;)V
     .registers 3
 
     .line 1

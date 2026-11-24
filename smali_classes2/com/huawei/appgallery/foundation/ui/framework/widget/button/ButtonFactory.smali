@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/huawei/appmarket/jt4;
+.annotation runtime Lcom/huawei/appmarket/mt4;
     value = Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory$a;
 .end annotation
 
@@ -17,7 +17,7 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/xj3;
+.field private static a:Lcom/huawei/appmarket/zj3;
 
 
 # direct methods
@@ -29,7 +29,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Ljava/lang/Class;)Lcom/huawei/appmarket/vj3;
+.method public static a(Landroid/content/Context;Ljava/lang/Class;)Lcom/huawei/appmarket/xj3;
     .registers 7
 
     .line 1
@@ -44,7 +44,7 @@
     const/4 v2, 0x1
 
     .line 6
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/lt4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/ot4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -88,7 +88,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -146,7 +146,7 @@
     move-result-object p0
 
     .line 56
-    check-cast p0, Lcom/huawei/appmarket/vj3;
+    check-cast p0, Lcom/huawei/appmarket/xj3;
     :try_end_0
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_2
@@ -309,14 +309,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public static b()Lcom/huawei/appmarket/xj3;
+.method public static b()Lcom/huawei/appmarket/zj3;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a:Lcom/huawei/appmarket/xj3;
+    sget-object v0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a:Lcom/huawei/appmarket/zj3;
 
     return-object v0
 .end method
@@ -349,7 +348,7 @@
             ">;",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/huawei/appmarket/vj3;",
+            "Lcom/huawei/appmarket/xj3;",
             ">;)V"
         }
     .end annotation
@@ -362,7 +361,7 @@
 
     .line 3
     .line 4
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/lt4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ot4;->b(Ljava/lang/Class;Z)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -534,14 +533,13 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
-.method public static e(Lcom/huawei/appmarket/ef0;)V
+.method public static e(Lcom/huawei/appmarket/ff0;)V
     .registers 1
 
     .line 1
-    sput-object p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a:Lcom/huawei/appmarket/xj3;
+    sput-object p0, Lcom/huawei/appgallery/foundation/ui/framework/widget/button/ButtonFactory;->a:Lcom/huawei/appmarket/zj3;
 
     return-void
 .end method

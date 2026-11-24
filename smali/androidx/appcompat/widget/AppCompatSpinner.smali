@@ -144,7 +144,7 @@
 
     invoke-static {v0, p0}, Landroidx/appcompat/widget/b0;->a(Landroid/content/Context;Landroid/view/View;)V
 
-    sget-object v0, Lcom/huawei/appmarket/pe6;->x:[I
+    sget-object v0, Lcom/huawei/appmarket/re6;->x:[I
 
     const/4 v1, 0x0
 
@@ -1065,7 +1065,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/hp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gp;->b(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 

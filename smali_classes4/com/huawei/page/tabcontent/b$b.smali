@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/st7$a;
+.implements Lcom/huawei/appmarket/yt7$a;
 
 
 # annotations
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final a:Lcom/huawei/appmarket/wt7;
+.field private final a:Lcom/huawei/appmarket/cu7;
 
 .field private b:I
 
@@ -26,13 +26,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/wt7;Z)V
+.method public constructor <init>(Lcom/huawei/appmarket/cu7;Z)V
     .registers 3
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/wt7;
+    iput-object p1, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/cu7;
 
     iput-boolean p2, p0, Lcom/huawei/page/tabcontent/b$b;->c:Z
 
@@ -45,9 +45,9 @@
     .registers 4
 
     .line 1
-    iget-object p3, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/wt7;
+    iget-object p3, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/cu7;
 
-    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/wt7;->d(FI)V
+    invoke-virtual {p3, p2, p1}, Lcom/huawei/appmarket/cu7;->d(FI)V
 
     return-void
 .end method
@@ -62,9 +62,9 @@
 
     iget-boolean v0, p0, Lcom/huawei/page/tabcontent/b$b;->c:Z
 
-    iget-object v1, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/wt7;
+    iget-object v1, p0, Lcom/huawei/page/tabcontent/b$b;->a:Lcom/huawei/appmarket/cu7;
 
-    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/wt7;->f(IZ)V
+    invoke-virtual {v1, p1, v0}, Lcom/huawei/appmarket/cu7;->f(IZ)V
 
     :cond_0
     return-void

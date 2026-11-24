@@ -108,7 +108,7 @@
 
     .line 48
     .line 49
-    invoke-static {}, Lcom/huawei/appmarket/f96;->d()Lcom/huawei/appmarket/f96;
+    invoke-static {}, Lcom/huawei/appmarket/h96;->d()Lcom/huawei/appmarket/h96;
 
     .line 50
     .line 51
@@ -121,7 +121,7 @@
     .line 54
     .line 55
     .line 56
-    invoke-static {}, Lcom/huawei/appmarket/f96;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/h96;->f()Z
 
     .line 57
     .line 58
@@ -133,7 +133,7 @@
 
     .line 61
     .line 62
-    invoke-static {}, Lcom/huawei/appmarket/g83;->i()Z
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
 
     .line 63
     .line 64
@@ -153,7 +153,7 @@
 
     .line 71
     .line 72
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -163,12 +163,12 @@
 
     .line 76
     .line 77
-    invoke-direct {v1, p0, v0, p1}, Lcom/huawei/appgallery/assistantdock/base/service/a;-><init>(Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;Lcom/huawei/appmarket/f96;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;)V
+    invoke-direct {v1, p0, v0, p1}, Lcom/huawei/appgallery/assistantdock/base/service/a;-><init>(Lcom/huawei/appgallery/assistantdock/base/service/GameServicePermissionActivity;Lcom/huawei/appmarket/h96;Lcom/huawei/gamebox/plugin/gameservice/service/RequestInfo;)V
 
     .line 78
     .line 79
     .line 80
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/f96;->g(Landroid/app/Activity;Lcom/huawei/appmarket/b96;)V
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/h96;->g(Landroid/app/Activity;Lcom/huawei/appmarket/d96;)V
 
     .line 81
     .line 82
@@ -209,5 +209,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

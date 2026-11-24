@@ -64,7 +64,7 @@
 
     const-string v1, "BottomTabItemView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -114,7 +114,7 @@
 
     const-string v1, "BottomTabItemView"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/fy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/iy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/huawei/appmarket/ob0$a;->a:Lcom/huawei/page/tabitem/c$a;
 

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/kp5;
+.implements Lcom/huawei/appmarket/lp5;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Landroid/app/Activity;Landroid/content/Intent;Z)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/kp5<",
+        "Lcom/huawei/appmarket/lp5<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -29,13 +29,13 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lcom/huawei/appmarket/nv7;
+.field final synthetic b:Lcom/huawei/appmarket/tv7;
 
 .field final synthetic c:Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;ZLcom/huawei/appmarket/nv7;)V
+.method constructor <init>(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;ZLcom/huawei/appmarket/tv7;)V
     .registers 4
 
     .line 1
@@ -43,7 +43,7 @@
 
     iput-boolean p2, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->a:Z
 
-    iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/nv7;
+    iput-object p3, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -73,9 +73,9 @@
 
     iget-boolean v1, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->a:Z
 
-    iget-object v2, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/nv7;
+    iget-object v2, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/tv7;
 
-    invoke-static {v0, p1, v1, v2}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Ljava/lang/String;ZLcom/huawei/appmarket/nv7;)V
+    invoke-static {v0, p1, v1, v2}, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;->a(Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl;Ljava/lang/String;ZLcom/huawei/appmarket/tv7;)V
 
     const-string v0, "read referrer from clipboard : "
 
@@ -90,7 +90,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/nv7;
+    iget-object p1, p0, Lcom/huawei/agconnect/applinking/internal/AGConnectAppLinkingAndroidImpl$3;->b:Lcom/huawei/appmarket/tv7;
 
     new-instance v0, Lcom/huawei/agconnect/applinking/AppLinkingException;
 
@@ -100,7 +100,7 @@
 
     invoke-direct {v0, v1, v2}, Lcom/huawei/agconnect/applinking/AppLinkingException;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-void

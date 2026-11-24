@@ -26,11 +26,11 @@
 
 
 # virtual methods
-.method protected c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+.method protected c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
     .registers 5
 
     .line 1
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/video/VideoCard;->c(Lcom/huawei/appmarket/sa2;Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/video/VideoCard;->c(Lcom/huawei/appmarket/va2;Landroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     .line 3
@@ -79,7 +79,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     .line 27
     .line 28
@@ -238,23 +238,22 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method protected final e(Lcom/huawei/appmarket/sa2;)V
+.method protected final e(Lcom/huawei/appmarket/va2;)V
     .registers 2
 
     .line 1
     return-void
 .end method
 
-.method protected bridge synthetic g(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
+.method protected bridge synthetic g(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/flexiblelayout/data/b;)V
     .registers 4
 
     .line 1
     check-cast p3, Lcom/huawei/appmarket/service/video/VideoCardData;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/video/ImmerseHeadImageCard;->k(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/video/ImmerseHeadImageCard;->k(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
 
     return-void
 .end method
@@ -426,7 +425,7 @@
     move-result-object p2
 
     .line 83
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/a73;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/d73;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -522,14 +521,13 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method protected k(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
+.method protected k(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
     .registers 4
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/video/VideoCard;->k(Lcom/huawei/appmarket/sa2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/huawei/appmarket/service/video/VideoCard;->k(Lcom/huawei/appmarket/va2;Lcom/huawei/flexiblelayout/data/d;Lcom/huawei/appmarket/service/video/VideoCardData;)V
 
     iput-object p3, p0, Lcom/huawei/appmarket/service/video/ImmerseHeadImageCard;->w:Lcom/huawei/appmarket/service/video/VideoCardData;
 

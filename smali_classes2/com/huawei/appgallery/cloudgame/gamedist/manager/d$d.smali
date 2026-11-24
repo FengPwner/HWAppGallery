@@ -63,7 +63,7 @@
 
     const-string v2, "CloudGameManager"
 
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     if-nez v0, :cond_0
 

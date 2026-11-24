@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final b:Lcom/huawei/appmarket/q45;
+.field private final b:Lcom/huawei/appmarket/t45;
 
 .field private c:I
 
@@ -44,7 +44,7 @@
     .line 3
     const v0, 0x7f130643
 
-    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/t45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, p3, v0}, Lcom/huawei/appmarket/w45;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     move-result-object p1
 
@@ -54,13 +54,13 @@
 
     move-result-object p1
 
-    new-instance v0, Lcom/huawei/appmarket/q45;
+    new-instance v0, Lcom/huawei/appmarket/t45;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/q45;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/t45;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/q45;
+    iput-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/t45;
 
-    sget-object v2, Lcom/huawei/appmarket/ie6;->F:[I
+    sget-object v2, Lcom/huawei/appmarket/ke6;->F:[I
 
     const v4, 0x7f130643
 
@@ -74,7 +74,7 @@
 
     move v3, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/tx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v0 .. v5}, Lcom/huawei/appmarket/yx7;->f(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
@@ -112,7 +112,7 @@
 
     iput p3, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
-    invoke-static {p1, p2, v6}, Lcom/huawei/appmarket/p45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {p1, p2, v6}, Lcom/huawei/appmarket/s45;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
@@ -166,7 +166,7 @@
 
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result v0
 
@@ -215,7 +215,7 @@
     goto :goto_2
 
     :goto_3
-    iget-object v3, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/q45;
+    iget-object v3, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/t45;
 
     invoke-virtual {p0}, Landroid/view/View;->getBottom()I
 
@@ -229,7 +229,7 @@
 
     invoke-virtual {v3, v0, v1, v2, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/q45;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Lcom/huawei/appmarket/t45;->draw(Landroid/graphics/Canvas;)V
 
     return-void
 .end method
@@ -282,13 +282,13 @@
 
     iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;->d:I
 
-    iget-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/q45;
+    iget-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lcom/huawei/appmarket/t45;
 
     invoke-static {p1}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/q45;->H(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/t45;->H(Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 

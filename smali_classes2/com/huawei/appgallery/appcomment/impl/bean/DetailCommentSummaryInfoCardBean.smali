@@ -81,7 +81,7 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/appcomment/impl/bean/DetailCommentSummaryInfoCardBean;->gradeList_:Ljava/util/List;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v1
 

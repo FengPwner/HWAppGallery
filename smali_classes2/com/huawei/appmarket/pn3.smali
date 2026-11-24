@@ -1,14 +1,13 @@
-.class public abstract Lcom/huawei/appmarket/pn3;
-.super Lcom/huawei/appgallery/jsonkit/api/JsonBean;
+.class public interface abstract Lcom/huawei/appmarket/pn3;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appgallery/dinvokeapi/dinvokeapi/api/dispatchbydetailid/IDispatchApi;
+.implements Lcom/huawei/appmarket/kh3;
 
-# direct methods
-.method public constructor <init>()V
-    .registers 1
 
-    .line 1
-    invoke-direct {p0}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;-><init>()V
-
-    return-void
-.end method
+# annotations
+.annotation runtime Lcom/huawei/appmarket/df1;
+    value = Lcom/huawei/appmarket/sd1;
+.end annotation

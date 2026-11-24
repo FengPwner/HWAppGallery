@@ -93,7 +93,7 @@
 
     const-string p1, "HwProgressButton"
 
-    const-string p2, "writeToParcel, parcel is null"
+    const-string/jumbo p2, "writeToParcel, parcel is null"
 
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 

@@ -45,7 +45,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/xj5;->h(Landroidx/core/app/p;)Landroid/os/IBinder;
+    invoke-static {p0}, Lcom/huawei/appmarket/zj5;->h(Landroidx/core/app/p;)Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     :cond_0
     :try_start_1
-    invoke-static {v1}, Lcom/huawei/appmarket/nm4;->c(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
+    invoke-static {v1}, Lcom/huawei/appmarket/qm4;->c(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
 
     move-result-object v1
     :try_end_1
@@ -96,7 +96,7 @@
     const-string v3, "dequeueWork error"
 
     :goto_0
-    invoke-static {v1, v3}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -121,12 +121,12 @@
 
     const-string v1, "dequeueWork work is invalid."
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 
     :cond_1
-    invoke-static {v1}, Lcom/huawei/appmarket/nm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v1}, Lcom/huawei/appmarket/qm4;->e(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     move-result-object v0
 

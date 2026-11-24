@@ -2,91 +2,378 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ao5;
-
 
 # instance fields
-.field private final b:Ljava/lang/ref/WeakReference;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/ref/WeakReference<",
-            "Landroid/content/Context;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private final a:Landroid/content/Context;
 
-.field private final c:Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;
+.field private final b:Lcom/huawei/appmarket/hh3;
+
+.field private final c:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;)V
+.method constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/lang/ref/WeakReference;
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/huawei/appmarket/zz2;->a:Landroid/content/Context;
 
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/huawei/appmarket/zz2;->c:Ljava/lang/String;
 
-    iput-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Ljava/lang/ref/WeakReference;
+    .line 7
+    .line 8
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/zz2;->c:Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
 
+    .line 12
+    const-string p2, "AGDialog"
+
+    .line 13
+    .line 14
+    check-cast p1, Lcom/huawei/appmarket/gr6;
+
+    .line 15
+    .line 16
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object p1
+
+    .line 20
+    const-string p2, "Activity"
+
+    .line 21
+    .line 22
+    const-class v0, Lcom/huawei/appmarket/hh3;
+
+    .line 23
+    .line 24
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/ha5;->c(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object p1
+
+    .line 28
+    check-cast p1, Lcom/huawei/appmarket/hh3;
+
+    .line 29
+    .line 30
+    iput-object p1, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    .line 31
+    .line 32
     return-void
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
 .end method
 
 
 # virtual methods
-.method public final h1(Landroid/app/Activity;Landroid/content/DialogInterface;I)V
-    .registers 4
+.method public final a()Z
+    .registers 3
 
     .line 1
-    const/4 p1, -0x1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
 
-    if-ne p1, p3, :cond_2
+    iget-object v1, p0, Lcom/huawei/appmarket/zz2;->c:Ljava/lang/String;
 
-    iget-object p1, p0, Lcom/huawei/appmarket/zz2;->b:Ljava/lang/ref/WeakReference;
+    invoke-interface {v0, v1}, Lcom/huawei/appmarket/hh3;->o(Ljava/lang/String;)Z
 
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    move-result v0
 
-    move-result-object p1
+    return v0
+.end method
 
-    check-cast p1, Landroid/content/Context;
+.method final b(Lcom/huawei/appmarket/bo5;)V
+    .registers 3
 
-    const-string p2, ""
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
 
-    if-nez p1, :cond_0
-
-    const-string p1, "onClick failed, context == null"
-
-    :goto_0
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     return-void
+.end method
 
-    :cond_0
-    iget-object p3, p0, Lcom/huawei/appmarket/zz2;->c:Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;
+.method final c(Lcom/huawei/appmarket/a23;)V
+    .registers 3
 
-    if-nez p3, :cond_1
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
 
-    const-string p1, "onClick failed, gift cardBean == null"
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->z(Landroid/content/DialogInterface$OnDismissListener;)Lcom/huawei/appmarket/w7;
+
+    return-void
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->d(Ljava/lang/String;)Lcom/huawei/appmarket/hh3;
+
+    return-void
+.end method
+
+.method final e(Ljava/lang/String;)V
+    .registers 5
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    const/4 v1, -0x2
+
+    iget-object v2, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    if-eqz v0, :cond_0
+
+    const/16 p1, 0x8
+
+    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
 
     goto :goto_0
 
-    :cond_1
-    invoke-virtual {p3}, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;->getPackage_()Ljava/lang/String;
+    :cond_0
+    invoke-static {p1}, Lcom/huawei/appmarket/v03;->d(Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object p2
+    move-result-object p1
 
-    invoke-virtual {p3}, Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;->e2()Ljava/lang/String;
+    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
 
-    move-result-object p3
+    :goto_0
+    return-void
+.end method
 
-    invoke-static {p1, p2, p3}, Lcom/huawei/appmarket/yr;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+.method final f(Ljava/lang/String;)V
+    .registers 5
 
-    :cond_2
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    const/4 v1, -0x1
+
+    iget-object v2, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    if-eqz v0, :cond_0
+
+    const/16 p1, 0x8
+
+    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {p1}, Lcom/huawei/appmarket/v03;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-interface {v2, v1, p1}, Lcom/huawei/appmarket/hh3;->s(ILjava/lang/String;)Lcom/huawei/appmarket/w7;
+
+    :goto_0
+    return-void
+.end method
+
+.method public final g(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->setTitle(Ljava/lang/String;)Lcom/huawei/appmarket/w7;
+
+    return-void
+.end method
+
+.method public final h(Landroid/view/View;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/hh3;->B(Landroid/view/View;)Lcom/huawei/appmarket/w7;
+
+    return-void
+.end method
+
+.method public final i()V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/zz2;->a:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/w8;->d(Landroid/content/Context;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    iget-object v1, p0, Lcom/huawei/appmarket/zz2;->b:Lcom/huawei/appmarket/hh3;
+
+    iget-object v2, p0, Lcom/huawei/appmarket/zz2;->c:Ljava/lang/String;
+
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+
+    :cond_0
     return-void
 .end method

@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .registers 3
 
-    invoke-static {}, Lcom/huawei/appmarket/ng9;->values()[Lcom/huawei/appmarket/ng9;
+    invoke-static {}, Lcom/huawei/appmarket/ug9;->values()[Lcom/huawei/appmarket/ug9;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
     sput-object v0, Lcom/huawei/quickcard/extension/format/FormatNumberUtils$a;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/huawei/appmarket/ng9;->c:Lcom/huawei/appmarket/ng9;
+    sget-object v1, Lcom/huawei/appmarket/ug9;->c:Lcom/huawei/appmarket/ug9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -49,7 +49,7 @@
     :try_start_1
     sget-object v0, Lcom/huawei/quickcard/extension/format/FormatNumberUtils$a;->a:[I
 
-    sget-object v1, Lcom/huawei/appmarket/ng9;->d:Lcom/huawei/appmarket/ng9;
+    sget-object v1, Lcom/huawei/appmarket/ug9;->d:Lcom/huawei/appmarket/ug9;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

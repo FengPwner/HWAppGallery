@@ -6,7 +6,7 @@
 # instance fields
 .field private V:Landroidx/recyclerview/widget/r;
 
-.field private W:Lcom/huawei/appmarket/rp5;
+.field private W:Lcom/huawei/appmarket/sp5;
 
 .field private X:Landroidx/recyclerview/widget/RecyclerView$q;
 
@@ -34,22 +34,22 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/rp5;
+.method static synthetic a(Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;)Lcom/huawei/appmarket/sp5;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/rp5;
+    iget-object p0, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/sp5;
 
     return-object p0
 .end method
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/rp5;)V
+.method public final b(Lcom/huawei/appmarket/sp5;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/rp5;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/sp5;
 
     return-void
 .end method
@@ -92,7 +92,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/rp5;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/sp5;
 
     if-eqz v1, :cond_1
 
@@ -104,9 +104,9 @@
 
     if-ne v1, v2, :cond_1
 
-    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/rp5;
+    iget-object v1, p0, Lcom/huawei/appmarket/service/videostream/view/ViewPagerLayoutManager;->W:Lcom/huawei/appmarket/sp5;
 
-    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/rp5;->a(ILandroid/view/View;)V
+    invoke-interface {v1, v0, p1}, Lcom/huawei/appmarket/sp5;->a(ILandroid/view/View;)V
 
     :cond_1
     return-void

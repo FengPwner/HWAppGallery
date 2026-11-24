@@ -31,7 +31,7 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/service/settings/card/SettingAboutCard;->z:Ljava/lang/String;
 
-    invoke-static {}, Lcom/huawei/appmarket/na3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/qa3;->c()Ljava/lang/String;
 
     move-result-object p1
 

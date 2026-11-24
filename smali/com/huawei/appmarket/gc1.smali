@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/aw4$a;
+.implements Lcom/huawei/appmarket/dw4$a;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appmarket/qk$a;Ljava/lang/Exception;I)V
+.method public synthetic constructor <init>(Lcom/huawei/appmarket/pk$a;Landroidx/media3/exoplayer/audio/AudioSink$a;I)V
     .registers 4
 
     .line 1
@@ -302,6 +302,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 
@@ -319,11 +326,11 @@
     .line 4
     .line 5
     .line 6
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    check-cast p1, Lcom/huawei/appmarket/pk;
 
     .line 7
     .line 8
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->t()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/pk;->I()V
 
     .line 9
     .line 10
@@ -332,11 +339,11 @@
 
     .line 12
     :pswitch_0
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    check-cast p1, Lcom/huawei/appmarket/pk;
 
     .line 13
     .line 14
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->Q()V
+    invoke-interface {p1}, Lcom/huawei/appmarket/pk;->r()V
 
     .line 15
     .line 16
@@ -344,41 +351,25 @@
     return-void
 
     .line 18
-    :pswitch_1
-    check-cast p1, Lcom/huawei/appmarket/qk;
+    nop
 
     .line 19
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
     .line 20
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->b0()V
-
     .line 21
     .line 22
     .line 23
-    return-void
-
     .line 24
-    :pswitch_2
-    check-cast p1, Lcom/huawei/appmarket/qk;
-
     .line 25
     .line 26
-    invoke-interface {p1}, Lcom/huawei/appmarket/qk;->N()V
-
     .line 27
     .line 28
     .line 29
-    return-void
-
     .line 30
-    nop
-
     .line 31
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
     .line 32
     .line 33
     .line 34

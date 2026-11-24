@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ml3;
+.implements Lcom/huawei/appmarket/ol3;
 
 
 # annotations
@@ -89,9 +89,9 @@
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/huawei/appmarket/nq6;
+    new-instance v1, Lcom/huawei/appmarket/qq6;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/nq6;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/qq6;-><init>()V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->p(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->p(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -119,11 +119,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->j(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->j(Ljava/lang/String;)V
 
     const/16 v2, 0xa
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->n(I)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->n(I)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -137,7 +137,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->o(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->o(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -151,7 +151,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->l(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->l(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -165,7 +165,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->m(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->m(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;->b(Lcom/huawei/appgallery/appcomment/card/commentitemcard/UserCommentPresenter;)Lcom/huawei/appgallery/appcomment/card/commentitemcard/CommentItemCardBean;
 
@@ -175,7 +175,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/nq6;->k(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/qq6;->k(Ljava/lang/String;)V
 
     new-instance v2, Landroid/content/Intent;
 

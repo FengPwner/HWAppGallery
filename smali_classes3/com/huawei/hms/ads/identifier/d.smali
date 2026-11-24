@@ -37,7 +37,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 7
     .line 8
@@ -83,7 +83,7 @@
 
     .line 28
     .line 29
-    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/gi7;->q(Landroid/content/Context;Lcom/huawei/hms/ads/identifier/d;Landroid/content/IntentFilter;)V
+    invoke-static {p0, v1, v0}, Lcom/huawei/appmarket/mi7;->q(Landroid/content/Context;Lcom/huawei/hms/ads/identifier/d;Landroid/content/IntentFilter;)V
 
     .line 30
     .line 31
@@ -183,7 +183,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public static b(Landroid/content/Context;)V

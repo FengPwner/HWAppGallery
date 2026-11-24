@@ -331,7 +331,7 @@
     const-string v0, "Unable to create @Body converter for "
 
     .line 3
-    invoke-static {v0, p2}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -567,7 +567,7 @@
     const-string v2, "Unable to create submit adapter for "
 
     .line 10
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -595,7 +595,7 @@
     const-string v0, "Method return type must not include a type variable or wildcard: "
 
     .line 12
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -615,7 +615,7 @@
     const-string v0, " (parameter #"
 
     .line 18
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -662,7 +662,7 @@
     const-string v0, " (parameter #"
 
     .line 25
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p3
 
@@ -702,7 +702,7 @@
     const-string v0, "    for method: "
 
     .line 31
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -1135,7 +1135,7 @@
     const-string p2, "@FieldMap keys must be of type String: "
 
     .line 2
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -1727,7 +1727,7 @@
     const-string p2, "@HeaderMap keys must be of type String: "
 
     .line 2
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -2406,7 +2406,7 @@
     const-string p2, "@RecordMap keys must be of type String: "
 
     .line 1
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -2713,7 +2713,7 @@
 
     .line 54
     .line 55
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     .line 56
     .line 57
@@ -3809,7 +3809,7 @@
 
     .line 116
     .line 117
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/bu0;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/kb1;->k(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     .line 118
     .line 119

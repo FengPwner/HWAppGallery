@@ -71,7 +71,7 @@
     move-result-object p1
 
     .line 18
-    sget-object v1, Lcom/huawei/appmarket/fl4;->a:Ljava/lang/String;
+    sget-object v1, Lcom/huawei/appmarket/il4;->a:Ljava/lang/String;
 
     .line 19
     .line 20
@@ -301,7 +301,7 @@
 
     .line 134
     .line 135
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     .line 137
@@ -332,5 +332,4 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method

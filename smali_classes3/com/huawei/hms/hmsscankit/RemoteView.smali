@@ -389,7 +389,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ej5;->o(Landroid/app/Activity;[Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gj5;->o(Landroid/app/Activity;[Ljava/lang/String;)V
 
     return-void
 
@@ -404,7 +404,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ej5;->o(Landroid/app/Activity;[Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gj5;->o(Landroid/app/Activity;[Ljava/lang/String;)V
 
     :cond_1
     return-void

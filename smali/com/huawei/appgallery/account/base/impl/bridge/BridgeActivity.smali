@@ -20,9 +20,9 @@
 
 
 # static fields
-.field public static final h:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
+.field public static final k:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
 
-.field private static final i:Ljava/util/LinkedHashMap;
+.field private static final l:Ljava/util/LinkedHashMap;
 
 
 # instance fields
@@ -39,6 +39,12 @@
     .end annotation
 .end field
 
+.field private final h:Landroid/os/Handler;
+
+.field private final i:Lcom/huawei/appmarket/xl0;
+
+.field private j:Z
+
 
 # direct methods
 .method static constructor <clinit>()V
@@ -48,21 +54,21 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;-><init>(Lcom/huawei/appmarket/gd1;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;-><init>(Lcom/huawei/appmarket/id1;)V
 
-    sput-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
+    sput-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->k:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$a;
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    sput-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Ljava/util/LinkedHashMap;
+    sput-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->l:Ljava/util/LinkedHashMap;
 
     return-void
 .end method
 
 .method public constructor <init>()V
-    .registers 2
+    .registers 3
 
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -70,14 +76,231 @@
 
     invoke-direct {p0}, Lcom/huawei/appmarket/framework/activity/SecureActivity;-><init>()V
 
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    iput-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Landroid/os/Handler;
+
+    new-instance v0, Lcom/huawei/appmarket/xl0;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/xl0;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Lcom/huawei/appmarket/xl0;
+
     return-void
 .end method
 
-.method public static final synthetic g3()Ljava/util/LinkedHashMap;
+.method public static g3(Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;)V
+    .registers 5
+
+    .line 1
+    const-string v0, "this$0"
+
+    .line 2
+    .line 3
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+
+    .line 7
+    .line 8
+    .line 9
+    move-result v0
+
+    .line 10
+    if-nez v0, :cond_3
+
+    .line 11
+    .line 12
+    invoke-virtual {p0}, Landroid/app/Activity;->isDestroyed()Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v0
+
+    .line 16
+    if-nez v0, :cond_3
+
+    .line 17
+    .line 18
+    sget-object v0, Lcom/huawei/appmarket/e40;->a:Lcom/huawei/appmarket/e40;
+
+    .line 19
+    .line 20
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    const-string v2, "onActivityResult timeout, invoke callback and finish, uri = "
+
+    .line 23
+    .line 24
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object v2, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->f:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;
+
+    .line 28
+    .line 29
+    if-eqz v2, :cond_0
+
+    .line 30
+    .line 31
+    invoke-virtual {v2}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;->c()Ljava/lang/String;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v2
+
+    .line 35
+    goto :goto_0
+
+    .line 36
+    :cond_0
+    const/4 v2, 0x0
+
+    .line 37
+    :goto_0
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v1
+
+    .line 44
+    const-string v2, "BridgeActivity"
+
+    .line 45
+    .line 46
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->f:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;
+
+    .line 50
+    .line 51
+    if-eqz v0, :cond_2
+
+    .line 52
+    .line 53
+    invoke-virtual {v0}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;->a()I
+
+    .line 54
+    .line 55
+    .line 56
+    move-result v1
+
+    .line 57
+    sget-object v3, Lcom/huawei/appmarket/wb0;->a:Lcom/huawei/appmarket/wb0;
+
+    .line 58
+    .line 59
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->b(I)Lcom/huawei/appmarket/ht2;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v3
+
+    .line 66
+    if-eqz v3, :cond_1
+
+    .line 67
+    .line 68
+    invoke-interface {v3, p0, v0}, Lcom/huawei/appmarket/ht2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 69
+    .line 70
+    .line 71
+    :cond_1
+    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->a(I)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 72
+    .line 73
+    .line 74
+    goto :goto_1
+
+    .line 75
+    :catchall_0
+    sget-object v0, Lcom/huawei/appmarket/e40;->a:Lcom/huawei/appmarket/e40;
+
+    .line 76
+    .line 77
+    const-string v1, "invokeCallbackAndFinish failed."
+
+    .line 78
+    .line 79
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 80
+    .line 81
+    .line 82
+    :cond_2
+    :goto_1
+    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+
+    .line 83
+    .line 84
+    .line 85
+    move-result v0
+
+    .line 86
+    if-nez v0, :cond_3
+
+    .line 87
+    .line 88
+    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
+
+    .line 89
+    .line 90
+    .line 91
+    const/4 v0, 0x0
+
+    .line 92
+    invoke-super {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
+
+    .line 93
+    .line 94
+    .line 95
+    :cond_3
+    return-void
+.end method
+
+.method public static final synthetic h3()Ljava/util/LinkedHashMap;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Ljava/util/LinkedHashMap;
+    sget-object v0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->l:Ljava/util/LinkedHashMap;
 
     return-object v0
 .end method
@@ -88,101 +311,107 @@
     .registers 4
 
     .line 1
-    :try_start_0
-    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->f:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Landroid/os/Handler;
 
     .line 2
     .line 3
-    if-eqz v0, :cond_1
+    iget-object v1, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Lcom/huawei/appmarket/xl0;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;->a()I
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 6
     .line 7
     .line 8
-    move-result v1
+    :try_start_0
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->f:Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;
 
     .line 9
-    sget-object v2, Lcom/huawei/appmarket/wb0;->a:Lcom/huawei/appmarket/wb0;
-
     .line 10
-    .line 11
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    if-eqz v0, :cond_1
 
+    .line 11
     .line 12
+    invoke-virtual {v0}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProtocol;->a()I
+
     .line 13
     .line 14
-    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->b(I)Lcom/huawei/appmarket/et2;
-
     .line 15
-    .line 16
-    .line 17
-    move-result-object v2
+    move-result v1
 
+    .line 16
+    sget-object v2, Lcom/huawei/appmarket/wb0;->a:Lcom/huawei/appmarket/wb0;
+
+    .line 17
     .line 18
-    if-eqz v2, :cond_0
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 19
     .line 20
-    invoke-interface {v2, p0, v0}, Lcom/huawei/appmarket/et2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 21
+    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->b(I)Lcom/huawei/appmarket/ht2;
+
     .line 22
     .line 23
+    .line 24
+    move-result-object v2
+
+    .line 25
+    if-eqz v2, :cond_0
+
+    .line 26
+    .line 27
+    invoke-interface {v2, p0, v0}, Lcom/huawei/appmarket/ht2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 28
+    .line 29
+    .line 30
     :cond_0
     invoke-static {v1}, Lcom/huawei/appmarket/wb0;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 24
-    .line 25
-    .line 26
+    .line 31
+    .line 32
+    .line 33
     goto :goto_0
 
-    .line 27
+    .line 34
     :catchall_0
     sget-object v0, Lcom/huawei/appmarket/e40;->a:Lcom/huawei/appmarket/e40;
 
-    .line 28
-    .line 29
-    const-string v1, "BridgeActivity"
-
-    .line 30
-    .line 31
-    const-string v2, "finish failed."
-
-    .line 32
-    .line 33
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 34
     .line 35
     .line 36
-    :cond_1
-    :goto_0
-    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
+    const-string v1, "BridgeActivity"
 
     .line 37
     .line 38
-    .line 39
-    const/4 v0, 0x0
+    const-string v2, "finish failed."
 
+    .line 39
     .line 40
-    invoke-super {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
     .line 43
-    return-void
+    :cond_1
+    :goto_0
+    invoke-super {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->finish()V
+
     .line 44
     .line 45
     .line 46
+    const/4 v0, 0x0
+
     .line 47
+    invoke-super {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
+
     .line 48
     .line 49
     .line 50
+    return-void
     .line 51
     .line 52
     .line 53
@@ -268,6 +497,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method protected final onActivityResult(IILandroid/content/Intent;)V
@@ -283,7 +513,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity$b;-><init>(Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;)V
 
-    invoke-virtual {v0, p1, p2, p3, v1}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProcessor;->d(IILandroid/content/Intent;Lcom/huawei/appmarket/qs2;)V
+    invoke-virtual {v0, p1, p2, p3, v1}, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivityProcessor;->d(IILandroid/content/Intent;Lcom/huawei/appmarket/ts2;)V
 
     :cond_0
     return-void
@@ -344,11 +574,11 @@
 
     .line 27
     :try_start_0
-    sget-object v2, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Ljava/util/LinkedHashMap;
+    sget-object v2, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->l:Ljava/util/LinkedHashMap;
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 30
     .line 31
@@ -430,7 +660,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 68
     .line 69
@@ -481,7 +711,7 @@
 
     .line 88
     .line 89
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/gk4;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -514,7 +744,7 @@
 
     .line 105
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 106
     .line 107
@@ -552,7 +782,7 @@
 
     .line 123
     :cond_3
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 124
     .line 125
@@ -590,7 +820,7 @@
 
     .line 141
     :cond_4
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 142
     .line 143
@@ -700,7 +930,7 @@
 
     .line 195
     .line 196
-    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 197
     .line 198
@@ -862,6 +1092,12 @@
     .registers 4
 
     :try_start_0
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Landroid/os/Handler;
+
+    iget-object v1, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Lcom/huawei/appmarket/xl0;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
     invoke-super {p0}, Lcom/huawei/appmarket/framework/activity/SecureActivity;->onDestroy()V
 
     const/4 v0, 0x0
@@ -900,13 +1136,13 @@
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->b(I)Lcom/huawei/appmarket/et2;
+    invoke-static {v1}, Lcom/huawei/appmarket/wb0;->b(I)Lcom/huawei/appmarket/ht2;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v2, p0, v0}, Lcom/huawei/appmarket/et2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, p0, v0}, Lcom/huawei/appmarket/ht2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     invoke-static {v1}, Lcom/huawei/appmarket/wb0;->a(I)V
@@ -922,10 +1158,65 @@
 
     const-string v2, "onDestroy failed."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_0
+    return-void
+.end method
+
+.method protected final onPause()V
+    .registers 3
+
+    invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onPause()V
+
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Landroid/os/Handler;
+
+    iget-object v1, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Lcom/huawei/appmarket/xl0;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->j:Z
+
+    return-void
+.end method
+
+.method protected final onResume()V
+    .registers 5
+
+    invoke-super {p0}, Lcom/huawei/appmarket/framework/activity/SecureActivity;->onResume()V
+
+    iget-boolean v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->j:Z
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isDestroyed()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->h:Landroid/os/Handler;
+
+    iget-object v1, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->i:Lcom/huawei/appmarket/xl0;
+
+    const-wide/16 v2, 0x4e20
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/huawei/appgallery/account/base/impl/bridge/BridgeActivity;->j:Z
+
+    :cond_0
     return-void
 .end method
 

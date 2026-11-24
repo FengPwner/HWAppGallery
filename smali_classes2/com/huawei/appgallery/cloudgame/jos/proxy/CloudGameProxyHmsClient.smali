@@ -24,7 +24,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/ts0;",
+            "Lcom/huawei/appmarket/us0;",
             ">;"
         }
     .end annotation
@@ -185,7 +185,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -238,7 +238,7 @@
     move-result-object v0
 
     .line 57
-    check-cast v0, Lcom/huawei/appmarket/ts0;
+    check-cast v0, Lcom/huawei/appmarket/us0;
 
     .line 58
     .line 59
@@ -271,7 +271,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ts0;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/us0;->b()Ljava/lang/String;
 
     .line 75
     .line 76
@@ -322,7 +322,7 @@
     move-result-object v3
 
     .line 101
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 102
     .line 103
@@ -420,7 +420,7 @@
 
     .line 150
     .line 151
-    invoke-static {v2, p0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
     .line 153
@@ -535,7 +535,7 @@
     .line 260
 .end method
 
-.method static h(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appmarket/dn0;)V
+.method static h(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appmarket/en0;)V
     .registers 21
 
     move-wide/from16 v8, p1
@@ -545,7 +545,7 @@
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 1
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->h()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->h()Ljava/lang/String;
 
     move-result-object v0
 
@@ -563,7 +563,7 @@
 
     const-string v11, "CloudGameProxyHmsClient"
 
-    invoke-static {v11, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "game.login"
 
@@ -583,7 +583,7 @@
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v1
 
@@ -597,19 +597,19 @@
 
     move-result-object v4
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v0
 
     new-instance v1, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-direct {v1, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v2
 
@@ -617,9 +617,9 @@
 
     invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v2, v1, v5}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v2, v1, v5}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -627,9 +627,9 @@
 
     invoke-direct {v7}, Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GameLoginRequest;-><init>()V
 
-    invoke-virtual {v0, v5, v7}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v5, v7}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
-    sget-object v13, Lcom/huawei/appmarket/pd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/qd3;
+    sget-object v13, Lcom/huawei/appmarket/rd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/sd3;
 
     move-object/from16 v1, p0
 
@@ -651,11 +651,11 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/huawei/appgallery/cloudgame/jos/proxy/c;-><init>(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;Ljava/lang/String;Ljava/lang/String;JLcom/huawei/hms/api/HuaweiApiClient;)V
 
-    invoke-interface {v13, v10, v14, v7, v15}, Lcom/huawei/appmarket/qd3;->login(Lcom/huawei/hms/api/HuaweiApiClient;Landroid/app/Activity;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GameLoginRequest;Lcom/huawei/appmarket/mv2;)Lcom/huawei/hms/support/api/client/PendingResult;
+    invoke-interface {v13, v10, v14, v7, v15}, Lcom/huawei/appmarket/sd3;->login(Lcom/huawei/hms/api/HuaweiApiClient;Landroid/app/Activity;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GameLoginRequest;Lcom/huawei/appmarket/pv2;)Lcom/huawei/hms/support/api/client/PendingResult;
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/rs0;
+    new-instance v1, Lcom/huawei/appmarket/ss0;
 
     .line 3
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -670,7 +670,7 @@
     :catch_0
     const-string v0, "handle Entity Login meet a exception"
 
-    invoke-static {v11, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -696,7 +696,7 @@
     :try_start_1
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -710,19 +710,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v0
 
     new-instance v2, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v3
 
@@ -730,9 +730,9 @@
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -740,11 +740,11 @@
 
     invoke-direct {v2}, Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationInfoRequest;-><init>()V
 
-    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
-    sget-object v0, Lcom/huawei/appmarket/pd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/qd3;
+    sget-object v0, Lcom/huawei/appmarket/rd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/sd3;
 
-    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/qd3;->getPlayerCertificationInfo(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationInfoRequest;)Lcom/huawei/hms/support/api/client/PendingResult;
+    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/sd3;->getPlayerCertificationInfo(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationInfoRequest;)Lcom/huawei/hms/support/api/client/PendingResult;
 
     move-result-object v7
 
@@ -767,7 +767,7 @@
     goto/16 :goto_3
 
     :catch_1
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -789,7 +789,7 @@
     :try_start_2
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -803,19 +803,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v0
 
     new-instance v2, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v3
 
@@ -823,9 +823,9 @@
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -833,11 +833,11 @@
 
     invoke-direct {v2}, Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationIntentRequest;-><init>()V
 
-    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
-    sget-object v0, Lcom/huawei/appmarket/pd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/qd3;
+    sget-object v0, Lcom/huawei/appmarket/rd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/sd3;
 
-    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/qd3;->getPlayerCertificationIntent(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationIntentRequest;)Lcom/huawei/hms/support/api/client/PendingResult;
+    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/sd3;->getPlayerCertificationIntent(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/GetPlayerCertificationIntentRequest;)Lcom/huawei/hms/support/api/client/PendingResult;
 
     move-result-object v7
 
@@ -860,7 +860,7 @@
     goto/16 :goto_3
 
     :catch_2
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -882,7 +882,7 @@
     :try_start_3
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -896,19 +896,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v0
 
     new-instance v2, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v3
 
@@ -916,9 +916,9 @@
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v3, v2, v4}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -926,11 +926,11 @@
 
     invoke-direct {v2}, Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/AddPlayerInfoReq;-><init>()V
 
-    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v4, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
-    sget-object v0, Lcom/huawei/appmarket/pd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/qd3;
+    sget-object v0, Lcom/huawei/appmarket/rd3;->HUAWEI_GAME_API:Lcom/huawei/appmarket/sd3;
 
-    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/qd3;->addPlayerInfo(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/AddPlayerInfoReq;)Lcom/huawei/hms/support/api/client/PendingResult;
+    invoke-interface {v0, v10, v2}, Lcom/huawei/appmarket/sd3;->addPlayerInfo(Lcom/huawei/hms/api/HuaweiApiClient;Lcom/huawei/appgallery/cloudgame/jos/gamesdk/login/AddPlayerInfoReq;)Lcom/huawei/hms/support/api/client/PendingResult;
 
     move-result-object v7
 
@@ -953,7 +953,7 @@
     goto/16 :goto_3
 
     :catch_3
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1002,7 +1002,7 @@
     :try_start_4
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1016,19 +1016,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v7
 
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-direct {v0, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v7}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v7}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v2
 
@@ -1036,9 +1036,9 @@
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v7}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v7}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -1046,7 +1046,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/PurchaseInfoRequest;-><init>()V
 
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1075,7 +1075,7 @@
     :catch_4
     const-string v0, " handle request meet a exception"
 
-    invoke-static {v11, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1097,7 +1097,7 @@
     :try_start_5
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1111,19 +1111,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v7
 
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-direct {v0, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v7}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v7}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v2
 
@@ -1131,9 +1131,9 @@
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v7}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v7}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -1141,7 +1141,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/ProductDetailRequest;-><init>()V
 
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1168,7 +1168,7 @@
     goto/16 :goto_3
 
     :catch_5
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1190,7 +1190,7 @@
     :try_start_6
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1204,19 +1204,19 @@
 
     move-result-object v6
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v7
 
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-direct {v0, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v7}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v7}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v2
 
@@ -1224,9 +1224,9 @@
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v2, v0, v3}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v7}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v7}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
@@ -1234,7 +1234,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/OrderRequest;-><init>()V
 
-    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v3, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1261,7 +1261,7 @@
     goto/16 :goto_3
 
     :catch_6
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1273,7 +1273,7 @@
     const-string v0, "Unknown Request."
 
     .line 17
-    invoke-static {v11, v0}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v0}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1287,7 +1287,7 @@
     :try_start_7
     new-instance v0, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     move-result-object v5
 
@@ -1301,19 +1301,19 @@
 
     move-result-object v7
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->d()I
 
     move-result v0
 
     new-instance v2, Lorg/json/JSONObject;
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/huawei/appmarket/fo4;->a(I)Lcom/huawei/appmarket/so4;
+    invoke-static {v0}, Lcom/huawei/appmarket/io4;->a(I)Lcom/huawei/appmarket/vo4;
 
     move-result-object v3
 
@@ -1321,13 +1321,13 @@
 
     invoke-direct {v14}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v3, v2, v14}, Lcom/huawei/appmarket/so4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
+    invoke-virtual {v3, v2, v14}, Lcom/huawei/appmarket/vo4;->b(Lorg/json/JSONObject;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/bt0;->a(I)Lcom/huawei/appmarket/j75;
+    invoke-static {v0}, Lcom/huawei/appmarket/ct0;->a(I)Lcom/huawei/appmarket/m75;
 
     move-result-object v0
 
-    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/dn0;->h()Ljava/lang/String;
+    invoke-virtual/range {p4 .. p4}, Lcom/huawei/appmarket/en0;->h()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1341,7 +1341,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/PayReq;-><init>()V
 
-    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1365,7 +1365,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/ProductPayRequest;-><init>()V
 
-    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1380,7 +1380,7 @@
 
     invoke-direct {v2}, Lcom/huawei/hms/support/api/entity/pay/WithholdRequest;-><init>()V
 
-    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/j75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
+    invoke-virtual {v0, v14, v2}, Lcom/huawei/appmarket/m75;->a(Landroid/os/Bundle;Lcom/huawei/hms/core/aidl/IMessageEntity;)Lcom/huawei/hms/core/aidl/IMessageEntity;
 
     sget-object v0, Lcom/huawei/hms/support/api/pay/HuaweiPay;->HuaweiPayApi:Lcom/huawei/hms/support/api/pay/HuaweiPayApi;
 
@@ -1412,7 +1412,7 @@
     goto :goto_3
 
     :catch_7
-    invoke-static {v11, v13}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v11, v13}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v8, v9, v12}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->l(JLjava/lang/String;)V
 
@@ -1482,7 +1482,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -2166,11 +2166,11 @@
     const/4 v3, 0x0
 
     :try_start_0
-    invoke-static {p3}, Lcom/huawei/appmarket/dn0;->i(Ljava/lang/String;)Lcom/huawei/appmarket/dn0;
+    invoke-static {p3}, Lcom/huawei/appmarket/en0;->i(Ljava/lang/String;)Lcom/huawei/appmarket/en0;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->e()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->e()I
 
     move-result v4
 
@@ -2184,13 +2184,13 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x3
 
     if-ne v4, v2, :cond_0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->p(JLcom/huawei/appmarket/dn0;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->p(JLcom/huawei/appmarket/en0;)V
 
     goto :goto_1
 
@@ -2204,7 +2204,7 @@
 
     if-ne v4, v2, :cond_1
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->o(JLcom/huawei/appmarket/dn0;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->o(JLcom/huawei/appmarket/en0;)V
 
     goto :goto_1
 
@@ -2217,11 +2217,11 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/huawei/appmarket/ts0;
+    check-cast p3, Lcom/huawei/appmarket/us0;
 
     if-eqz p3, :cond_2
 
-    invoke-virtual {p3, v3}, Lcom/huawei/appmarket/ts0;->c(Ljava/lang/String;)V
+    invoke-virtual {p3, v3}, Lcom/huawei/appmarket/us0;->c(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2230,7 +2230,7 @@
     :goto_0
     const-string p3, "handle proxy call meet a exception"
 
-    invoke-static {v1, p3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2240,18 +2240,18 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/ts0;
+    check-cast p1, Lcom/huawei/appmarket/us0;
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/ts0;->c(Ljava/lang/String;)V
+    invoke-virtual {p1, v3}, Lcom/huawei/appmarket/us0;->c(Ljava/lang/String;)V
 
     :cond_2
     :goto_1
     return-void
 .end method
 
-.method private o(JLcom/huawei/appmarket/dn0;)V
+.method private o(JLcom/huawei/appmarket/en0;)V
     .registers 11
 
     .line 1
@@ -2259,7 +2259,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->h()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->h()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -2469,7 +2469,7 @@
     move-result-object v2
 
     .line 108
-    invoke-static {v5, v2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -2479,7 +2479,7 @@
 
     .line 112
     .line 113
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -2676,7 +2676,7 @@
 
     .line 215
     .line 216
-    invoke-static {v5, p3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 217
     .line 218
@@ -2718,7 +2718,7 @@
     move-result-object v0
 
     .line 237
-    invoke-static {v5, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 238
     .line 239
@@ -2728,7 +2728,7 @@
 
     .line 241
     .line 242
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     .line 243
     .line 244
@@ -2749,7 +2749,7 @@
     move-result-object v0
 
     .line 253
-    invoke-static {}, Lcom/huawei/appmarket/ca3;->c()Lcom/huawei/appmarket/ca3;
+    invoke-static {}, Lcom/huawei/appmarket/fa3;->c()Lcom/huawei/appmarket/fa3;
 
     .line 254
     .line 255
@@ -2774,12 +2774,12 @@
 
     .line 265
     .line 266
-    invoke-direct {v4, p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;-><init>(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/appmarket/dn0;)V
+    invoke-direct {v4, p0, p1, p2, p3}, Lcom/huawei/appgallery/cloudgame/jos/proxy/b;-><init>(Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;JLcom/huawei/appmarket/en0;)V
 
     .line 267
     .line 268
     .line 269
-    invoke-virtual {v1, v2, v0, v4}, Lcom/huawei/appmarket/ca3;->b(Lcom/huawei/hms/support/api/client/SubAppInfo;Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;Lcom/huawei/appmarket/ca3$a;)V
+    invoke-virtual {v1, v2, v0, v4}, Lcom/huawei/appmarket/fa3;->b(Lcom/huawei/hms/support/api/client/SubAppInfo;Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;Lcom/huawei/appmarket/fa3$a;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -2794,7 +2794,7 @@
 
     .line 274
     .line 275
-    invoke-static {v5, p3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, p3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 276
     .line 277
@@ -3109,16 +3109,9 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
-.method private p(JLcom/huawei/appmarket/dn0;)V
+.method private p(JLcom/huawei/appmarket/en0;)V
     .registers 16
 
     .line 1
@@ -3142,7 +3135,7 @@
 
     .line 10
     :try_start_0
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->e()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->e()I
 
     .line 11
     .line 12
@@ -3150,7 +3143,7 @@
     move-result v5
 
     .line 14
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->d()I
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->d()I
 
     .line 15
     .line 16
@@ -3158,7 +3151,7 @@
     move-result v6
 
     .line 18
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->h()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->h()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -3166,7 +3159,7 @@
     move-result-object v7
 
     .line 22
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->g()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->g()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -3174,7 +3167,7 @@
     move-result-object v8
 
     .line 26
-    invoke-virtual {p3}, Lcom/huawei/appmarket/dn0;->f()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/en0;->f()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -3314,11 +3307,11 @@
     .line 100
     .line 101
     .line 102
-    new-instance v1, Lcom/huawei/appmarket/ep4;
+    new-instance v1, Lcom/huawei/appmarket/hp4;
 
     .line 103
     .line 104
-    invoke-direct {v1, v5, p1, p2}, Lcom/huawei/appmarket/ep4;-><init>(IJ)V
+    invoke-direct {v1, v5, p1, p2}, Lcom/huawei/appmarket/hp4;-><init>(IJ)V
 
     .line 105
     .line 106
@@ -3345,7 +3338,7 @@
     move-result-object v3
 
     .line 119
-    invoke-static {v2, v3}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 120
     .line 121
@@ -3398,7 +3391,7 @@
 
     .line 144
     .line 145
-    invoke-static {v2, p3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 146
     .line 147
@@ -3419,7 +3412,7 @@
     move-result-object p3
 
     .line 156
-    check-cast p3, Lcom/huawei/appmarket/ts0;
+    check-cast p3, Lcom/huawei/appmarket/us0;
 
     .line 157
     .line 158
@@ -3427,7 +3420,7 @@
 
     .line 159
     .line 160
-    invoke-virtual {p3, v4}, Lcom/huawei/appmarket/ts0;->c(Ljava/lang/String;)V
+    invoke-virtual {p3, v4}, Lcom/huawei/appmarket/us0;->c(Ljava/lang/String;)V
 
     .line 161
     .line 162
@@ -3456,7 +3449,7 @@
 
     .line 171
     .line 172
-    invoke-static {v2, p3}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p3}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 173
     .line 174
@@ -3477,7 +3470,7 @@
     move-result-object p1
 
     .line 183
-    check-cast p1, Lcom/huawei/appmarket/ts0;
+    check-cast p1, Lcom/huawei/appmarket/us0;
 
     .line 184
     .line 185
@@ -3485,7 +3478,7 @@
 
     .line 186
     .line 187
-    invoke-virtual {p1, v4}, Lcom/huawei/appmarket/ts0;->c(Ljava/lang/String;)V
+    invoke-virtual {p1, v4}, Lcom/huawei/appmarket/us0;->c(Ljava/lang/String;)V
 
     .line 188
     .line 189
@@ -3887,13 +3880,6 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
 .method public static declared-synchronized q(Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;Lcom/huawei/hms/common/internal/ClientSettings;)V
@@ -3951,7 +3937,7 @@
 
     const-string v2, "release CloudGameProxyHmsClient Instance"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v1, Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;->w:Lcom/huawei/appgallery/cloudgame/jos/proxy/CloudGameProxyHmsClient;
 
@@ -4047,7 +4033,7 @@
 
     const-string p1, "replace AppId PackageName failed. Exception"
 
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_0
@@ -4167,7 +4153,7 @@
     move-result-object v0
 
     .line 31
-    check-cast v0, Lcom/huawei/appmarket/ts0;
+    check-cast v0, Lcom/huawei/appmarket/us0;
 
     .line 32
     .line 33
@@ -4201,7 +4187,7 @@
     move-result-object p1
 
     .line 49
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -4231,7 +4217,7 @@
     .line 62
     .line 63
     :try_start_1
-    invoke-virtual {v0}, Lcom/huawei/appmarket/ts0;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/us0;->b()Ljava/lang/String;
 
     .line 64
     .line 65
@@ -4239,7 +4225,7 @@
     move-result-object v7
 
     .line 67
-    invoke-static {v7}, Lcom/huawei/appmarket/en0;->c(Ljava/lang/String;)Lcom/huawei/appmarket/en0;
+    invoke-static {v7}, Lcom/huawei/appmarket/fn0;->c(Ljava/lang/String;)Lcom/huawei/appmarket/fn0;
 
     .line 68
     .line 69
@@ -4255,7 +4241,7 @@
 
     .line 74
     .line 75
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -4265,7 +4251,7 @@
     .line 79
     .line 80
     :cond_2
-    invoke-virtual {v7}, Lcom/huawei/appmarket/en0;->a()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/fn0;->a()Ljava/lang/String;
 
     .line 81
     .line 82
@@ -4388,7 +4374,7 @@
 
     .line 140
     .line 141
-    invoke-virtual {v7}, Lcom/huawei/appmarket/en0;->b()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/huawei/appmarket/fn0;->b()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -4559,7 +4545,7 @@
 
     .line 226
     .line 227
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 228
     .line 229
@@ -4592,7 +4578,7 @@
     move-result-object p1
 
     .line 244
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 245
     .line 246
@@ -4605,7 +4591,7 @@
     move-result-object p1
 
     .line 251
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ts0;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/us0;->c(Ljava/lang/String;)V
 
     .line 252
     .line 253
@@ -4618,7 +4604,7 @@
 
     .line 256
     .line 257
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 258
     .line 259
@@ -4948,16 +4934,9 @@
     .line 582
     .line 583
     .line 584
-    .line 585
-    .line 586
-    .line 587
-    .line 588
-    .line 589
-    .line 590
-    .line 591
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ts0;)V
+.method public final s(Lcom/huawei/appmarket/us0;)V
     .registers 3
 
     .line 1
@@ -4988,7 +4967,7 @@
 
     const-string v0, "connect failed"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

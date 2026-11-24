@@ -63,7 +63,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/oobe/store/OOBEStoreTask;->c:Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method
@@ -90,7 +90,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/oobe/store/OOBEStoreTask;->c:Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/o77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
+    invoke-static {v0}, Lcom/huawei/appmarket/t77;->b(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;)Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;
 
     move-result-object v0
 

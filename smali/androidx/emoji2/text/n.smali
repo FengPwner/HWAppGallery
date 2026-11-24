@@ -21,7 +21,7 @@
     return-void
 .end method
 
-.method static a(Ljava/nio/MappedByteBuffer;)Lcom/huawei/appmarket/e85;
+.method static a(Ljava/nio/MappedByteBuffer;)Lcom/huawei/appmarket/h85;
     .registers 14
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -289,7 +289,7 @@
     .line 124
     .line 125
     .line 126
-    invoke-static {p0}, Lcom/huawei/appmarket/e85;->c(Ljava/nio/ByteBuffer;)Lcom/huawei/appmarket/e85;
+    invoke-static {p0}, Lcom/huawei/appmarket/h85;->c(Ljava/nio/ByteBuffer;)Lcom/huawei/appmarket/h85;
 
     .line 127
     .line 128

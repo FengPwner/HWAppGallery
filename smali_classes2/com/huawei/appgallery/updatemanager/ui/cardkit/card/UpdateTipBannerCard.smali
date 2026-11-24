@@ -23,7 +23,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wp0;->h(Z)V
+    invoke-static {v0}, Lcom/huawei/appmarket/xp0;->h(Z)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->P()Landroid/view/View;
 
@@ -60,11 +60,11 @@
 
     iget-object v1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/bx4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/bx4;
+    invoke-static {v1}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/bx4;->d(Landroid/content/Intent;)Z
+    invoke-virtual {v1, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
 
     return-void
 .end method
@@ -77,7 +77,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/huawei/appgallery/foundation/card/base/card/BaseDistCard;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/wp0;->e()Z
+    invoke-static {}, Lcom/huawei/appmarket/xp0;->e()Z
 
     move-result p1
 
@@ -89,7 +89,7 @@
     return-void
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
@@ -100,7 +100,7 @@
     .registers 3
 
     .line 1
-    const v0, 0x7f0a176e
+    const v0, 0x7f0a176f
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -125,7 +125,7 @@
     move-result p1
 
     .line 5
-    const v0, 0x7f0a176e
+    const v0, 0x7f0a176f
 
     .line 6
     .line 7
@@ -150,7 +150,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/a73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
+    invoke-static {v0, v1, p1}, Lcom/huawei/appmarket/d73;->b(ILjava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 19
     .line 20
@@ -254,5 +254,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

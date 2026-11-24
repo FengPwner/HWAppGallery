@@ -45,7 +45,7 @@
 
     move-result-object p3
 
-    sget-object v0, Lcom/huawei/appmarket/ne6;->a:[I
+    sget-object v0, Lcom/huawei/appmarket/pe6;->a:[I
 
     invoke-virtual {p3, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -80,7 +80,7 @@
 
     const-string p3, "init(AttributeSet attrs) "
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/x68;->e(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/c78;->e(Landroid/content/Context;)I
 
     move-result p1
 
@@ -194,7 +194,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/huawei/appmarket/x68;->d(Landroid/content/Context;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/c78;->d(Landroid/content/Context;)I
 
     move-result p2
 

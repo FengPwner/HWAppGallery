@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/go3;
+.implements Lcom/huawei/appmarket/io3;
 
 
 # static fields
@@ -13,11 +13,11 @@
 # instance fields
 .field private q0:Z
 
-.field private r0:Lcom/huawei/appmarket/c92;
+.field private r0:Lcom/huawei/appmarket/g92;
 
 .field private s0:Lcom/huawei/appmarket/framework/widget/LoadingDialog;
 
-.field private t0:Lcom/huawei/appmarket/eu1;
+.field private t0:Lcom/huawei/appmarket/iu1;
 
 
 # direct methods
@@ -33,7 +33,7 @@
     return-void
 .end method
 
-.method private I3(Lcom/huawei/appmarket/wn3;)V
+.method private I3(Lcom/huawei/appmarket/yn3;)V
     .registers 4
 
     .line 1
@@ -47,24 +47,24 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->o:Lcom/huawei/appmarket/zd5;
+    iget-object v0, v0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->o:Lcom/huawei/appmarket/ce5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->o:Lcom/huawei/appmarket/zd5;
+    iget-object v0, v0, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->o:Lcom/huawei/appmarket/ce5;
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/zd5;->postValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ce5;->postValue(Ljava/lang/Object;)V
 
     :goto_0
     return-void
@@ -76,33 +76,33 @@
     .registers 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method protected final G3()Lcom/huawei/appmarket/c92;
+.method protected final G3()Lcom/huawei/appmarket/g92;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/c92;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/g92;
 
     if-nez v0, :cond_0
 
-    const-class v0, Lcom/huawei/appmarket/c92;
+    const-class v0, Lcom/huawei/appmarket/g92;
 
-    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, v0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->e3(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/c92;
+    check-cast v0, Lcom/huawei/appmarket/g92;
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/c92;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/g92;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/c92;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->r0:Lcom/huawei/appmarket/g92;
 
     return-object v0
 .end method
@@ -111,25 +111,25 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "FADetailLoadingFragment"
 
     const-string v2, "call installFa."
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/huawei/appmarket/eu1;
+    new-instance v0, Lcom/huawei/appmarket/iu1;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v2
 
@@ -137,14 +137,14 @@
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2, p0}, Lcom/huawei/appmarket/eu1;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/go3;)V
+    invoke-direct {v0, v1, v2, p0}, Lcom/huawei/appmarket/iu1;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/io3;)V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iput-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
     :cond_0
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v1
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v2
 
@@ -160,15 +160,15 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/eu1;->j(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/iu1;->j(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    sget-object v0, Lcom/huawei/appmarket/wn3;->k:Lcom/huawei/appmarket/wn3;
+    sget-object v0, Lcom/huawei/appmarket/yn3;->k:Lcom/huawei/appmarket/yn3;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/wn3;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/yn3;)V
 
     return-void
 
@@ -177,15 +177,15 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v1
 
@@ -193,7 +193,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v2
 
@@ -201,18 +201,18 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/huawei/appmarket/r13;->a()Lcom/huawei/appmarket/sn0;
+    invoke-static {}, Lcom/huawei/appmarket/u13;->a()Lcom/huawei/appmarket/tn0;
 
     move-result-object v3
 
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/eu1;->i(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;Lcom/huawei/appmarket/sn0;Ljava/lang/Boolean;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/iu1;->i(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Ljava/lang/String;Lcom/huawei/appmarket/tn0;Ljava/lang/Boolean;)V
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     move-result-object v0
 
@@ -220,9 +220,9 @@
 
     invoke-virtual {v0, v1}, Lcom/huawei/appgallery/distribution/impl/harmony/fadetail/a;->V(I)V
 
-    sget-object v0, Lcom/huawei/appmarket/wn3;->h:Lcom/huawei/appmarket/wn3;
+    sget-object v0, Lcom/huawei/appmarket/yn3;->h:Lcom/huawei/appmarket/yn3;
 
-    invoke-direct {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/wn3;)V
+    invoke-direct {p0, v0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/yn3;)V
 
     :goto_0
     return-void
@@ -232,7 +232,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 2
     .line 3
@@ -280,12 +280,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     .line 31
     .line 32
@@ -298,7 +298,7 @@
     .line 35
     .line 36
     .line 37
-    iget-object p1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iget-object p1, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
     .line 38
     .line 39
@@ -306,7 +306,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Lcom/huawei/appmarket/eu1;->m()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/iu1;->m()V
 
     .line 42
     .line 43
@@ -316,11 +316,11 @@
 
     .line 45
     .line 46
-    sget-object p1, Lcom/huawei/appmarket/wn3;->k:Lcom/huawei/appmarket/wn3;
+    sget-object p1, Lcom/huawei/appmarket/yn3;->k:Lcom/huawei/appmarket/yn3;
 
     .line 47
     .line 48
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/wn3;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/yn3;)V
 
     .line 49
     .line 50
@@ -337,7 +337,7 @@
 
     .line 55
     .line 56
-    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/ej2;->o(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, p2, v1}, Lcom/huawei/appmarket/tr2;->n(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
@@ -345,7 +345,7 @@
     move-result-object p1
 
     .line 60
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     .line 61
     .line 62
@@ -374,16 +374,16 @@
     move-result-object p1
 
     .line 75
-    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     .line 77
     .line 78
-    sget-object p1, Lcom/huawei/appmarket/wn3;->h:Lcom/huawei/appmarket/wn3;
+    sget-object p1, Lcom/huawei/appmarket/yn3;->h:Lcom/huawei/appmarket/yn3;
 
     .line 79
     .line 80
-    invoke-direct {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/wn3;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->I3(Lcom/huawei/appmarket/yn3;)V
 
     .line 81
     .line 82
@@ -470,7 +470,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d2(Landroid/os/Bundle;)V
@@ -687,7 +686,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final f2(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -710,7 +708,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/c92;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->G3()Lcom/huawei/appmarket/g92;
 
     .line 10
     .line 11
@@ -1110,11 +1108,11 @@
     .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->h2()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/eu1;
+    iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->t0:Lcom/huawei/appmarket/iu1;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/eu1;->m()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/iu1;->m()V
 
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/distribution/impl/harmony/halfdetail/FAHalfDetailLoadingFragment;->s0:Lcom/huawei/appmarket/framework/widget/LoadingDialog;
@@ -1153,13 +1151,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string p2, "FADetailLoadingFragment"
 
     const-string p3, "show fragment with exception."
 
-    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

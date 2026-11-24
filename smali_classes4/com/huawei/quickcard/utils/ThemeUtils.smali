@@ -766,52 +766,9 @@
     .line 509
     .line 510
     .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
-    .line 548
-    .line 549
-    .line 550
-    .line 551
-    .line 552
-    .line 553
-    .line 554
 .end method
 
-.method private static d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/sy8;)V
+.method private static d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/yy8;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -822,7 +779,7 @@
             ">;",
             "Lcom/huawei/quickcard/CardContext;",
             "Lcom/huawei/quickcard/framework/IVirtualViewParent;",
-            "Lcom/huawei/appmarket/sy8;",
+            "Lcom/huawei/appmarket/yy8;",
             ")V"
         }
     .end annotation
@@ -981,7 +938,7 @@
     .line 73
     :cond_2
     :goto_1
-    invoke-virtual {p3}, Lcom/huawei/appmarket/sy8;->a()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/yy8;->a()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -989,7 +946,7 @@
     move-result-object v2
 
     .line 77
-    invoke-virtual {p3}, Lcom/huawei/appmarket/sy8;->h()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/huawei/appmarket/yy8;->h()Ljava/lang/String;
 
     .line 78
     .line 79
@@ -1660,6 +1617,126 @@
     .line 730
     .line 731
     .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
 .end method
 
 .method public static getVirtualInfos(ILcom/huawei/quickcard/framework/bean/ThemeBean;)Ljava/util/Map;
@@ -1671,7 +1748,7 @@
             ")",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/sy8;",
+            "Lcom/huawei/appmarket/yy8;",
             ">;"
         }
     .end annotation
@@ -2140,7 +2217,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/ug9;
+    check-cast v1, Lcom/huawei/appmarket/bh9;
 
     if-nez v1, :cond_10
 
@@ -2164,7 +2241,7 @@
     goto :goto_7
 
     :cond_11
-    invoke-virtual {v1}, Lcom/huawei/appmarket/ug9;->d()Ljava/util/HashMap;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/bh9;->d()Ljava/util/HashMap;
 
     move-result-object v1
 
@@ -2554,14 +2631,14 @@
 
     move-result-object v9
 
-    check-cast v9, Lcom/huawei/appmarket/sy8;
+    check-cast v9, Lcom/huawei/appmarket/yy8;
 
     if-nez v9, :cond_24
 
     goto :goto_12
 
     :cond_24
-    invoke-virtual {v9}, Lcom/huawei/appmarket/sy8;->d()Lcom/huawei/quickcard/framework/IVirtualViewParent;
+    invoke-virtual {v9}, Lcom/huawei/appmarket/yy8;->d()Lcom/huawei/quickcard/framework/IVirtualViewParent;
 
     move-result-object v8
 
@@ -2570,7 +2647,7 @@
     goto :goto_12
 
     :cond_25
-    invoke-virtual {v9}, Lcom/huawei/appmarket/sy8;->f()Ljava/util/HashMap;
+    invoke-virtual {v9}, Lcom/huawei/appmarket/yy8;->f()Ljava/util/HashMap;
 
     move-result-object v10
 
@@ -2580,9 +2657,9 @@
 
     check-cast v10, Ljava/util/Map;
 
-    invoke-static {v10, v6, v8, v9}, Lcom/huawei/quickcard/utils/ThemeUtils;->d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/sy8;)V
+    invoke-static {v10, v6, v8, v9}, Lcom/huawei/quickcard/utils/ThemeUtils;->d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/yy8;)V
 
-    invoke-virtual {v9}, Lcom/huawei/appmarket/sy8;->g()Ljava/util/HashMap;
+    invoke-virtual {v9}, Lcom/huawei/appmarket/yy8;->g()Ljava/util/HashMap;
 
     move-result-object v10
 
@@ -2592,7 +2669,7 @@
 
     check-cast v10, Ljava/util/Map;
 
-    invoke-static {v10, v6, v8, v9}, Lcom/huawei/quickcard/utils/ThemeUtils;->d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/sy8;)V
+    invoke-static {v10, v6, v8, v9}, Lcom/huawei/quickcard/utils/ThemeUtils;->d(Ljava/util/Map;Lcom/huawei/quickcard/CardContext;Lcom/huawei/quickcard/framework/IVirtualViewParent;Lcom/huawei/appmarket/yy8;)V
 
     :goto_12
     add-int/lit8 v4, v4, 0x1
@@ -2761,7 +2838,7 @@
     return-void
 .end method
 
-.method public static replaceVirtualAttrsAndStyles(Ljava/util/Set;Lcom/huawei/appmarket/sy8;Ljava/util/Map;Ljava/util/Map;)V
+.method public static replaceVirtualAttrsAndStyles(Ljava/util/Set;Lcom/huawei/appmarket/yy8;Ljava/util/Map;Ljava/util/Map;)V
     .registers 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2769,7 +2846,7 @@
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Lcom/huawei/appmarket/sy8;",
+            "Lcom/huawei/appmarket/yy8;",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
             "Lcom/huawei/quickcard/framework/value/QuickCardValue;",
@@ -2808,7 +2885,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sy8;->f()Ljava/util/HashMap;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yy8;->f()Ljava/util/HashMap;
 
     move-result-object v1
 
@@ -2823,7 +2900,7 @@
     invoke-interface {p2, v1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
     :cond_2
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sy8;->g()Ljava/util/HashMap;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/yy8;->g()Ljava/util/HashMap;
 
     move-result-object v1
 
@@ -4595,7 +4672,7 @@
     .line 1372
 .end method
 
-.method public static splitVirtualAttrsAndStyles(Lcom/huawei/quickcard/framework/IVirtualViewParent;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/quickcard/framework/bean/ThemeBean;)Lcom/huawei/appmarket/sy8;
+.method public static splitVirtualAttrsAndStyles(Lcom/huawei/quickcard/framework/IVirtualViewParent;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/quickcard/framework/bean/ThemeBean;)Lcom/huawei/appmarket/yy8;
     .registers 11
 
     .line 1
@@ -4658,7 +4735,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/huawei/appmarket/sy8;
+    check-cast v1, Lcom/huawei/appmarket/yy8;
 
     const-string v5, "attrs"
 
@@ -4679,22 +4756,22 @@
     if-eqz v4, :cond_5
 
     :cond_4
-    new-instance v1, Lcom/huawei/appmarket/sy8;
+    new-instance v1, Lcom/huawei/appmarket/yy8;
 
-    invoke-direct {v1}, Lcom/huawei/appmarket/sy8;-><init>()V
+    invoke-direct {v1}, Lcom/huawei/appmarket/yy8;-><init>()V
 
     invoke-interface {p3, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/sy8;->c(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/yy8;->c(Ljava/lang/String;)V
 
-    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/sy8;->e(Ljava/lang/String;)V
+    invoke-virtual {v1, p2}, Lcom/huawei/appmarket/yy8;->e(Ljava/lang/String;)V
 
-    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/sy8;->b(Lcom/huawei/quickcard/framework/IVirtualViewParent;)V
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/yy8;->b(Lcom/huawei/quickcard/framework/IVirtualViewParent;)V
 
     :cond_5
     if-eqz v5, :cond_6
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sy8;->f()Ljava/util/HashMap;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yy8;->f()Ljava/util/HashMap;
 
     move-result-object v6
 
@@ -4703,7 +4780,7 @@
     :cond_6
     if-eqz v4, :cond_1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/sy8;->g()Ljava/util/HashMap;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/yy8;->g()Ljava/util/HashMap;
 
     move-result-object v5
 

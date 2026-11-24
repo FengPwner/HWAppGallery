@@ -42,7 +42,7 @@
     const v0, 0x7f04019c
 
     .line 1
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/d45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g45;->a(ILandroid/content/Context;)Landroid/util/TypedValue;
 
     move-result-object v0
 
@@ -73,19 +73,19 @@
     const v0, 0x7f04019b
 
     .line 2
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/f45;->c(Landroid/content/Context;II)I
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i45;->c(Landroid/content/Context;II)I
 
     move-result v4
 
     const v0, 0x7f04019a
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/f45;->c(Landroid/content/Context;II)I
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i45;->c(Landroid/content/Context;II)I
 
     move-result v5
 
     const v0, 0x7f040116
 
-    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/f45;->c(Landroid/content/Context;II)I
+    invoke-static {p1, v0, v1}, Lcom/huawei/appmarket/i45;->c(Landroid/content/Context;II)I
 
     move-result v6
 
@@ -266,7 +266,7 @@
 
     .line 61
     .line 62
-    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/f45;->e(FII)I
+    invoke-static {p1, p2, v0}, Lcom/huawei/appmarket/i45;->e(FII)I
 
     .line 63
     .line 64

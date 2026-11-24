@@ -294,11 +294,11 @@
     move-result p1
 
     .line 137
-    iget-object v0, p0, Lcom/huawei/appmarket/q2;->a:Lcom/huawei/appmarket/mi3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q2;->a:Lcom/huawei/appmarket/oi3;
 
     .line 138
     .line 139
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/mi3;->a(I)V
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/oi3;->a(I)V
 
     .line 140
     .line 141

@@ -2,8 +2,13 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/huawei/appmarket/ii3;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/kz1$a;
+    }
+.end annotation
 
 
 # direct methods
@@ -15,17 +20,21 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final W0()Z
-    .registers 2
+.method public static a(Ljava/lang/String;Ljava/lang/String;I)V
+    .registers 5
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/n12;->e()Z
+    new-instance v0, Lcom/huawei/appgallery/integratedatakit/api/GeneralRequest;
 
-    move-result v0
+    const-string v1, "customerServiceEmail"
 
-    xor-int/lit8 v0, v0, 0x1
+    invoke-direct {v0, v1}, Lcom/huawei/appgallery/integratedatakit/api/GeneralRequest;-><init>(Ljava/lang/String;)V
 
-    return v0
+    new-instance v1, Lcom/huawei/appmarket/kz1$a;
+
+    invoke-direct {v1, p0, p1, p2}, Lcom/huawei/appmarket/kz1$a;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
+
+    return-void
 .end method

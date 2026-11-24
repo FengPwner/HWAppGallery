@@ -120,7 +120,7 @@
 
     .line 43
     .line 44
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -145,7 +145,7 @@
     const/4 v1, 0x0
 
     .line 56
-    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/l36;->a(Landroid/content/Context;IZ)Z
+    invoke-static {p0, v0, v1}, Lcom/huawei/appmarket/n36;->a(Landroid/content/Context;IZ)Z
 
     .line 57
     .line 58
@@ -166,7 +166,7 @@
 
     .line 66
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 67
     .line 68
@@ -178,11 +178,11 @@
 
     .line 71
     .line 72
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 73
     .line 74
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 75
     .line 76
@@ -190,11 +190,11 @@
     move-result-object v0
 
     .line 78
-    const-class v1, Lcom/huawei/appmarket/o54;
+    const-class v1, Lcom/huawei/appmarket/r54;
 
     .line 79
     .line 80
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 84
-    check-cast v0, Lcom/huawei/appmarket/o54;
+    check-cast v0, Lcom/huawei/appmarket/r54;
 
     .line 85
     .line 86
@@ -210,7 +210,7 @@
 
     .line 87
     .line 88
-    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/o54;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1, p0}, Lcom/huawei/appmarket/r54;->a(ILandroid/content/Context;)Lcom/huawei/appmarket/nv7;
 
     .line 89
     .line 90
@@ -227,7 +227,7 @@
     .line 95
     .line 96
     .line 97
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 98
     .line 99
@@ -240,5 +240,4 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method

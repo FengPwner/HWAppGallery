@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -12,39 +12,53 @@
     return-void
 .end method
 
-.method public static a()I
-    .registers 1
+.method public static a(I)Z
+    .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/qx3;
+    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/sx3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/qx3;->getServiceType()I
+    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/sx3;
 
-    move-result v0
+    move-result-object v0
 
-    return v0
+    invoke-interface {v0, p0}, Lcom/huawei/appmarket/sx3;->e(I)Z
+
+    move-result p0
+
+    return p0
 
     :cond_0
-    const/4 v0, 0x0
+    const-string p0, "PresetConfigUtils"
 
-    return v0
+    const-string v0, "ConfigProvider is null"
+
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
 .end method
 
 .method public static b()Ljava/lang/String;
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/qx3;
+    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/sx3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/qx3;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/sx3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/sx3;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -53,20 +67,20 @@
     :cond_0
     const-string v0, "PresetConfigUtils"
 
-    const-string v1, "provider is null"
+    const-string v1, "ConfigProvider is null"
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, ""
 
     return-object v0
 .end method
 
-.method private static c()Lcom/huawei/appmarket/qx3;
+.method private static c()Lcom/huawei/appmarket/sx3;
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 2
     .line 3
@@ -78,11 +92,11 @@
 
     .line 6
     .line 7
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 10
     .line 11
@@ -94,11 +108,11 @@
 
     .line 14
     .line 15
-    const-class v1, Lcom/huawei/appmarket/qx3;
+    const-class v1, Lcom/huawei/appmarket/sx3;
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -106,7 +120,7 @@
     move-result-object v0
 
     .line 21
-    check-cast v0, Lcom/huawei/appmarket/qx3;
+    check-cast v0, Lcom/huawei/appmarket/sx3;
 
     .line 22
     .line 23
@@ -122,7 +136,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -263,58 +277,4 @@
     .line 162
     .line 163
     .line 164
-.end method
-
-.method public static d()Z
-    .registers 2
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/qx3;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x1
-
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qx3;->e(I)Z
-
-    move-result v0
-
-    return v0
-
-    :cond_0
-    const-string v0, "PresetConfigUtils"
-
-    const-string v1, "provider is null"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public static e()Z
-    .registers 2
-
-    .line 1
-    invoke-static {}, Lcom/huawei/appmarket/p66;->c()Lcom/huawei/appmarket/qx3;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x2
-
-    invoke-interface {v0, v1}, Lcom/huawei/appmarket/qx3;->e(I)Z
-
-    move-result v0
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
 .end method

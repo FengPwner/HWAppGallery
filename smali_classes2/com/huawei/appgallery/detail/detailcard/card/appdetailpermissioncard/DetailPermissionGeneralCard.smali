@@ -95,7 +95,7 @@
 
     .line 24
     .line 25
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 26
     .line 27
@@ -131,7 +131,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 43
     .line 44
@@ -429,7 +429,7 @@
     .registers 4
 
     .line 1
-    const v0, 0x7f0a1896
+    const v0, 0x7f0a1897
 
     .line 2
     .line 3
@@ -450,11 +450,11 @@
 
     .line 11
     .line 12
-    new-instance v1, Lcom/huawei/appmarket/tf7;
+    new-instance v1, Lcom/huawei/appmarket/yf7;
 
     .line 13
     .line 14
-    invoke-direct {v1, p0}, Lcom/huawei/appmarket/tf7;-><init>(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/yf7;-><init>(Landroid/view/View$OnClickListener;)V
 
     .line 15
     .line 16
@@ -559,7 +559,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public final onClick(Landroid/view/View;)V
@@ -569,7 +568,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a1896
+    const v0, 0x7f0a1897
 
     if-ne p1, v0, :cond_0
 
@@ -577,7 +576,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionGeneralCard;->y:Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionBean;
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/jk0;->d(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionBean;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/kk0;->d(Landroid/content/Context;Lcom/huawei/appgallery/detail/detailcard/card/appdetailpermissioncard/DetailPermissionBean;)V
 
     :cond_0
     return-void

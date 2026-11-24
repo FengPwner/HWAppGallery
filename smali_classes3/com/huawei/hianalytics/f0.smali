@@ -476,7 +476,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jm7;->z(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->z(Landroid/content/Context;)I
 
     move-result v0
 
@@ -486,7 +486,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/jm7;->D(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/pm7;->D(Landroid/content/Context;)I
 
     move-result v0
 
@@ -769,9 +769,9 @@
 
     move-result-object v0
 
-    new-instance v2, Lcom/huawei/appmarket/x59;
+    new-instance v2, Lcom/huawei/appmarket/d69;
 
-    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/x59;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, p0, v1}, Lcom/huawei/appmarket/d69;-><init>(Ljava/lang/String;I)V
 
     invoke-virtual {v0, v2}, Lcom/huawei/hianalytics/framework/threadpool/TaskThread;->addToQueue(Ljava/lang/Runnable;)V
 
@@ -966,11 +966,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/huawei/appmarket/x59;
+    new-instance v1, Lcom/huawei/appmarket/d69;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/x59;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/d69;-><init>(Ljava/lang/String;I)V
 
     invoke-virtual {v0, v1}, Lcom/huawei/hianalytics/framework/threadpool/TaskThread;->addToQueue(Ljava/lang/Runnable;)V
 

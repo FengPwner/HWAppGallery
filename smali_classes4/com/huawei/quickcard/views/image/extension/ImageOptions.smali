@@ -6,10 +6,10 @@
 # instance fields
 .field private a:Ljava/lang/String;
 
-.field private b:Lcom/huawei/appmarket/pv5;
+.field private b:Lcom/huawei/appmarket/rv5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/String;",
             "Landroid/graphics/drawable/Drawable;",
             ">;"
@@ -79,12 +79,12 @@
     return v0
 .end method
 
-.method public getPlaceHolder()Lcom/huawei/appmarket/pv5;
+.method public getPlaceHolder()Lcom/huawei/appmarket/rv5;
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/String;",
             "Landroid/graphics/drawable/Drawable;",
             ">;"
@@ -92,7 +92,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->b:Lcom/huawei/appmarket/pv5;
+    iget-object v0, p0, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->b:Lcom/huawei/appmarket/rv5;
 
     return-object v0
 .end method
@@ -177,12 +177,12 @@
     return-void
 .end method
 
-.method public setPlaceHolder(Lcom/huawei/appmarket/pv5;)V
+.method public setPlaceHolder(Lcom/huawei/appmarket/rv5;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/String;",
             "Landroid/graphics/drawable/Drawable;",
             ">;)V"
@@ -190,7 +190,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->b:Lcom/huawei/appmarket/pv5;
+    iput-object p1, p0, Lcom/huawei/quickcard/views/image/extension/ImageOptions;->b:Lcom/huawei/appmarket/rv5;
 
     return-void
 .end method

@@ -51,7 +51,7 @@
 
     const-string p2, "CloudGamePlayActivity"
 
-    invoke-static {p2, p1}, Lcom/huawei/appmarket/bg0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/cg0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance p1, Lcom/huawei/appgallery/cloudgame/gamedist/manager/n;
 
@@ -80,7 +80,7 @@
     :cond_0
     const-string p3, "finish()"
 
-    invoke-static {p2, p3}, Lcom/huawei/appmarket/bg0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/huawei/appmarket/cg0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/huawei/appgallery/cloudgame/surface/CloudGamePlayActivity;->finish()V
 

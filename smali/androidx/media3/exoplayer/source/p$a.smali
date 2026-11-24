@@ -1,5 +1,5 @@
 .class final Landroidx/media3/exoplayer/source/p$a;
-.super Lcom/huawei/appmarket/wq2;
+.super Lcom/huawei/appmarket/yq2;
 .source "SourceFile"
 
 
@@ -19,13 +19,13 @@
 
 
 # direct methods
-.method constructor <init>(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/s57;)V
+.method constructor <init>(Landroidx/media3/exoplayer/source/p;Lcom/huawei/appmarket/x57;)V
     .registers 3
 
     .line 1
     iput-object p1, p0, Landroidx/media3/exoplayer/source/p$a;->b:Landroidx/media3/exoplayer/source/p;
 
-    invoke-direct {p0, p2}, Lcom/huawei/appmarket/wq2;-><init>(Lcom/huawei/appmarket/s57;)V
+    invoke-direct {p0, p2}, Lcom/huawei/appmarket/yq2;-><init>(Lcom/huawei/appmarket/x57;)V
 
     return-void
 .end method

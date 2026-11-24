@@ -4,20 +4,20 @@
 
 
 # static fields
-.field private static a:Lcom/huawei/appmarket/ld7;
+.field private static a:Lcom/huawei/appmarket/qd7;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/ld7;
+    new-instance v0, Lcom/huawei/appmarket/qd7;
 
     const-string v1, "AgGuard"
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/ld7;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/qd7;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/ld7;
+    sput-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/qd7;
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/qd7;
 
     new-instance v1, Lorg/json/JSONObject;
 
@@ -112,7 +112,7 @@
 
     const-string v3, "AgGuardRevokedAppsCache"
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v1
@@ -122,7 +122,7 @@
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/qd7;
 
     .line 2
     .line 3
@@ -248,7 +248,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -303,7 +303,7 @@
 
     .line 89
     .line 90
-    sget-object p0, Lcom/huawei/appmarket/hf0;->a:Lcom/huawei/appmarket/hf0;
+    sget-object p0, Lcom/huawei/appmarket/if0;->a:Lcom/huawei/appmarket/if0;
 
     .line 91
     .line 92
@@ -312,7 +312,7 @@
     .line 93
     .line 94
     .line 95
-    invoke-static {}, Lcom/huawei/appmarket/hf0;->c()V
+    invoke-static {}, Lcom/huawei/appmarket/if0;->c()V
 
     .line 96
     .line 97
@@ -583,7 +583,7 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/ld7;
+    sget-object v0, Lcom/huawei/appgallery/agguard/business/cache/AgGuardRevokedAppsCache;->a:Lcom/huawei/appmarket/qd7;
 
     const-string v1, "REVOKED_APPS_CACHE_KEY"
 
@@ -624,7 +624,7 @@
 
     const-string v1, "AgGuardRevokedAppsCache"
 
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

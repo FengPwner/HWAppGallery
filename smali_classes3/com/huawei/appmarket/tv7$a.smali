@@ -3,23 +3,30 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Executor;
+.implements Ljava/lang/Runnable;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/huawei/appmarket/tv7;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/huawei/appmarket/tv7;-><init>(Lcom/huawei/appmarket/oi0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "a"
+    accessFlags = 0x1
+    name = null
 .end annotation
 
 
+# instance fields
+.field public final synthetic this$0:Lcom/huawei/appmarket/tv7;
+
+
 # direct methods
-.method public constructor <init>()V
-    .registers 1
+.method public constructor <init>(Lcom/huawei/appmarket/tv7;)V
+    .registers 2
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/appmarket/tv7$a;->this$0:Lcom/huawei/appmarket/tv7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,11 +35,17 @@
 
 
 # virtual methods
-.method public execute(Ljava/lang/Runnable;)V
+.method public run()V
     .registers 2
 
     .line 1
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+    iget-object v0, p0, Lcom/huawei/appmarket/tv7$a;->this$0:Lcom/huawei/appmarket/tv7;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/tv7;->access$000(Lcom/huawei/appmarket/tv7;)Lcom/huawei/appmarket/d99;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/d99;->b()V
 
     return-void
 .end method

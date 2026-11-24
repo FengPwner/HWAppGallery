@@ -6,10 +6,10 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/e$b;,
         Lcom/huawei/appgallery/payauthkit/pay/app/control/e$c;,
         Lcom/huawei/appgallery/payauthkit/pay/app/control/e$d;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/e$a;,
-        Lcom/huawei/appgallery/payauthkit/pay/app/control/e$b;
+        Lcom/huawei/appgallery/payauthkit/pay/app/control/e$a;
     }
 .end annotation
 
@@ -37,7 +37,7 @@
 
     invoke-direct {v1, p0}, Lcom/huawei/appgallery/payauthkit/pay/app/control/e$b;-><init>(Lcom/huawei/appgallery/payauthkit/pay/app/control/e;)V
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     return-void
 .end method

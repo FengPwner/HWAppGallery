@@ -43,7 +43,7 @@
 
     .line 13
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->k()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->k()Z
 
     .line 14
     .line 15
@@ -55,7 +55,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/huawei/appmarket/dn1;->f()Z
+    invoke-static {}, Lcom/huawei/appmarket/gn1;->f()Z
 
     .line 20
     .line 21
@@ -219,7 +219,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 
@@ -287,7 +286,7 @@
     .line 27
     .line 28
     :cond_0
-    const v1, 0x7f0a16e9
+    const v1, 0x7f0a16ea
 
     .line 29
     .line 30
@@ -380,7 +379,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;

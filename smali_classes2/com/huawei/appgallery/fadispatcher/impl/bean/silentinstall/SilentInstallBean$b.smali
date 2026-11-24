@@ -79,7 +79,7 @@
 
 .field private t:Landroid/content/Intent;
 
-.field private u:Lcom/huawei/appmarket/wq3;
+.field private u:Lcom/huawei/appmarket/yq3;
 
 
 # direct methods
@@ -216,11 +216,11 @@
     return-object p0
 .end method
 
-.method static synthetic n(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;)Lcom/huawei/appmarket/wq3;
+.method static synthetic n(Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;)Lcom/huawei/appmarket/yq3;
     .registers 1
 
     .line 1
-    iget-object p0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->u:Lcom/huawei/appmarket/wq3;
+    iget-object p0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->u:Lcom/huawei/appmarket/yq3;
 
     return-object p0
 .end method
@@ -335,11 +335,11 @@
     return-void
 .end method
 
-.method public final F(Lcom/huawei/appmarket/wq3;)V
+.method public final F(Lcom/huawei/appmarket/yq3;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->u:Lcom/huawei/appmarket/wq3;
+    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/silentinstall/SilentInstallBean$b;->u:Lcom/huawei/appmarket/yq3;
 
     return-void
 .end method

@@ -93,7 +93,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v6, v7, v1, v8}, Lcom/huawei/appmarket/bu0;->B(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v0, v6, v7, v1, v8}, Lcom/huawei/appmarket/kb1;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 43
     .line 44
@@ -106,7 +106,7 @@
 
     .line 48
     .line 49
-    invoke-static {v2, v6, v0, v3, v1}, Lcom/huawei/appmarket/bu0;->B(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v2, v6, v0, v3, v1}, Lcom/huawei/appmarket/kb1;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 50
     .line 51
@@ -119,7 +119,7 @@
 
     .line 55
     .line 56
-    invoke-static {v4, v6, v0, v5, v1}, Lcom/huawei/appmarket/bu0;->B(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {v4, v6, v0, v5, v1}, Lcom/huawei/appmarket/kb1;->p(ILjava/util/HashMap;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 57
     .line 58

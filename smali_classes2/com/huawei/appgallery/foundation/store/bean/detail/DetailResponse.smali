@@ -62,7 +62,7 @@
 
 # instance fields
 .field private backConfig:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse$BackConfig;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -73,7 +73,7 @@
 .field private dataType_:I
 
 .field private defaultTitleType:Ljava/lang/String;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -86,7 +86,7 @@
 .field private isTrackOpen_:I
 
 .field private popWindow:Lcom/huawei/appgallery/foundation/store/bean/detail/DetailResponse$PopWindow;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

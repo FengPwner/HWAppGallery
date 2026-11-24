@@ -18,13 +18,13 @@
 
 
 # virtual methods
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 3
 
     .line 1
     new-instance v0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard$a;
 
-    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard$a;-><init>(Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard;Lcom/huawei/appmarket/ak0;)V
+    invoke-direct {v0, p0, p1}, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard$a;-><init>(Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard;Lcom/huawei/appmarket/bk0;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/wishlist/ui/cardkit/card/WishEmptyCard;->x:Lcom/huawei/uikit/phone/hwbutton/widget/HwButton;
 
@@ -37,7 +37,7 @@
     .registers 3
 
     .line 1
-    const v0, 0x7f0a18fe
+    const v0, 0x7f0a18ff
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

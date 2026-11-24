@@ -42,7 +42,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractFragment;->f3()Lcom/huawei/appmarket/b96;
 
     .line 8
     .line 9
@@ -86,7 +86,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->c()Lcom/huawei/appmarket/vr2;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/fragment/BaseListFragment;->c()Lcom/huawei/appmarket/ce5;
 
     .line 30
     .line 31
@@ -98,7 +98,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/vr2;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ce5;->setValue(Ljava/lang/Object;)V
 
     .line 36
     .line 37

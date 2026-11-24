@@ -14,11 +14,11 @@
 # instance fields
 .field protected A:Landroidx/recyclerview/widget/RecyclerView$h;
 
-.field protected w:Lcom/huawei/appmarket/ja3;
+.field protected w:Lcom/huawei/appmarket/ma3;
 
 .field protected x:Landroidx/recyclerview/widget/RecyclerView;
 
-.field protected y:Lcom/huawei/appmarket/ak0;
+.field protected y:Lcom/huawei/appmarket/bk0;
 
 .field protected z:Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -29,11 +29,11 @@
 
     invoke-direct {p0, p1}, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyBaseCard;-><init>(Landroid/content/Context;)V
 
-    new-instance v0, Lcom/huawei/appmarket/ja3;
+    new-instance v0, Lcom/huawei/appmarket/ma3;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/ja3;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ma3;-><init>()V
 
-    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ja3;
+    iput-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->w:Lcom/huawei/appmarket/ma3;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -45,7 +45,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ja3;->q(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ma3;->q(I)V
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -57,7 +57,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->u(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->u(I)V
 
     return-void
 .end method
@@ -220,14 +220,13 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->y:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->y:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method
@@ -332,7 +331,7 @@
     move-result-object p1
 
     .line 46
-    invoke-static {p1}, Lcom/huawei/appmarket/lx4;->c(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/huawei/appmarket/ox4;->c(Landroid/content/Context;)Z
 
     .line 47
     .line 48
@@ -379,11 +378,11 @@
     .line 68
     .line 69
     .line 70
-    new-instance p1, Lcom/huawei/appmarket/q23;
+    new-instance p1, Lcom/huawei/appmarket/t23;
 
     .line 71
     .line 72
-    invoke-direct {p1}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/t23;-><init>()V
 
     .line 73
     .line 74
@@ -392,7 +391,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 78
     .line 79
@@ -438,7 +437,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public q1()V
@@ -451,11 +449,11 @@
 .method protected abstract r1()Landroidx/recyclerview/widget/RecyclerView$h;
 .end method
 
-.method public final s1()Lcom/huawei/appmarket/ak0;
+.method public final s1()Lcom/huawei/appmarket/bk0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->y:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appgallery/assistantdock/base/cardkit/card/BuoyHorizonBaseCard;->y:Lcom/huawei/appmarket/bk0;
 
     return-object v0
 .end method

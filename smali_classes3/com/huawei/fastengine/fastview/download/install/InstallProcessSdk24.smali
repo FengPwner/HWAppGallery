@@ -206,7 +206,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/le3;->y(Landroid/content/pm/PackageInstaller$SessionParams;I)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/ne3;->y(Landroid/content/pm/PackageInstaller$SessionParams;I)V
 
     new-instance v2, Ljava/io/File;
 

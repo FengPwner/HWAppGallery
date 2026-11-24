@@ -188,17 +188,17 @@
     goto :goto_5
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object p1, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v1, "read data exception"
 
     :goto_4
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object p1, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v1, "read data outOfMemoryError"
 
@@ -436,17 +436,17 @@
     goto :goto_3
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object p1, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v0, "read data exception"
 
     :goto_2
-    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object p1, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     const-string v0, "write data outOfMemoryError"
 

@@ -446,7 +446,7 @@
 
     invoke-virtual {p0, v0}, Lcom/google/protobuf/CodedOutputStream$d;->a0(I)V
 
-    invoke-virtual {p1, p0}, Lcom/google/protobuf/h;->t(Lcom/huawei/appmarket/qf0;)V
+    invoke-virtual {p1, p0}, Lcom/google/protobuf/h;->t(Lcom/huawei/appmarket/rf0;)V
 
     return-void
 .end method
@@ -1064,6 +1064,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method public final T(Lcom/google/protobuf/b1;)V

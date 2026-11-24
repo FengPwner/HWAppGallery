@@ -14,7 +14,7 @@
 
 .method public static isPadOrTahiti(Landroid/content/Context;)Z
     .registers 1
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-static {p0}, Lcom/huawei/phoneservice/faq/base/util/FaqTahitiUtils;->isTahiti(Landroid/content/Context;)Z
@@ -37,7 +37,7 @@
 
 .method public static isTahiti(Landroid/content/Context;)Z
     .registers 8
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     .line 1
@@ -233,168 +233,168 @@
     .line 81
     .line 82
     .line 83
-    const-string v3, "window"
+    const-string/jumbo v3, "window"
 
     .line 84
     .line 85
+    .line 86
     if-eqz p0, :cond_6
 
-    .line 86
     .line 87
+    .line 88
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 88
     .line 89
     .line 90
-    move-result-object v4
-
     .line 91
-    check-cast v4, Landroid/view/WindowManager;
+    move-result-object v4
 
     .line 92
+    check-cast v4, Landroid/view/WindowManager;
+
     .line 93
+    .line 94
     invoke-interface {v4}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 94
     .line 95
     .line 96
+    .line 97
     move-result-object v4
 
-    .line 97
+    .line 98
     invoke-virtual {v4, v0}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 98
     .line 99
     .line 100
+    .line 101
     :cond_6
     iget v0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 101
     .line 102
+    .line 103
     int-to-float v0, v0
 
-    .line 103
+    .line 104
     new-instance v4, Landroid/util/DisplayMetrics;
 
-    .line 104
     .line 105
+    .line 106
     invoke-direct {v4}, Landroid/util/DisplayMetrics;-><init>()V
 
-    .line 106
     .line 107
     .line 108
+    .line 109
     if-eqz p0, :cond_7
 
-    .line 109
     .line 110
+    .line 111
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 111
     .line 112
     .line 113
-    move-result-object v3
-
     .line 114
-    check-cast v3, Landroid/view/WindowManager;
+    move-result-object v3
 
     .line 115
+    check-cast v3, Landroid/view/WindowManager;
+
     .line 116
+    .line 117
     invoke-interface {v3}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 117
     .line 118
     .line 119
+    .line 120
     move-result-object v3
 
-    .line 120
+    .line 121
     invoke-virtual {v3, v4}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 121
     .line 122
     .line 123
+    .line 124
     :cond_7
     iget v3, v4, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 124
     .line 125
+    .line 126
     int-to-float v3, v3
 
-    .line 126
+    .line 127
     invoke-static {v0, v3}, Ljava/lang/Math;->min(FF)F
 
-    .line 127
     .line 128
     .line 129
+    .line 130
     move-result v4
 
-    .line 130
+    .line 131
     invoke-static {v0, v3}, Ljava/lang/Math;->max(FF)F
 
-    .line 131
     .line 132
     .line 133
+    .line 134
     move-result v0
 
-    .line 134
+    .line 135
     div-float/2addr v0, v4
 
-    .line 135
+    .line 136
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    .line 136
     .line 137
     .line 138
-    move-result-object p0
-
     .line 139
-    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    move-result-object p0
 
     .line 140
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
     .line 141
     .line 142
+    .line 143
     move-result-object p0
 
-    .line 143
+    .line 144
     iget p0, p0, Landroid/content/res/Configuration;->smallestScreenWidthDp:I
 
-    .line 144
     .line 145
+    .line 146
     float-to-double v3, v0
 
-    .line 146
+    .line 147
     const-wide v5, 0x3ff547ae147ae148L    # 1.33
 
-    .line 147
     .line 148
     .line 149
     .line 150
     .line 151
+    .line 152
     cmpg-double v0, v3, v5
 
-    .line 152
     .line 153
+    .line 154
     if-gez v0, :cond_8
 
-    .line 154
     .line 155
+    .line 156
     const/16 v0, 0x215
 
-    .line 156
     .line 157
+    .line 158
     if-le p0, v0, :cond_8
 
-    .line 158
     .line 159
+    .line 160
     goto :goto_4
 
-    .line 160
+    .line 161
     :cond_8
     const/4 v1, 0x0
 
-    .line 161
+    .line 162
     :goto_4
     return v1
-    .line 162
     .line 163
     .line 164
     .line 165
@@ -414,28 +414,11 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public static setDefaultMargin(Landroid/app/Activity;[II)V
     .registers 6
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     if-eqz p1, :cond_2
@@ -484,7 +467,7 @@
 
 .method public static setMargins(Landroid/view/View;II)V
     .registers 5
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -527,7 +510,7 @@
 
 .method public static setWidth(Landroid/view/View;I)V
     .registers 3
-    .annotation build Lcom/huawei/appmarket/qq4;
+    .annotation build Lcom/huawei/appmarket/tq4;
     .end annotation
 
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;

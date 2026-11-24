@@ -1,24 +1,28 @@
-.class public final Lcom/huawei/appmarket/uj4;
+.class public interface abstract Lcom/huawei/appmarket/uj4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/huawei/appmarket/uj4$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/huawei/appmarket/uj4$a;
+
+
 # direct methods
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method public static a(Lcom/huawei/appmarket/tj4;)Ljava/lang/Throwable;
+.method static constructor <clinit>()V
     .registers 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/tj4;->b()Ljava/lang/Throwable;
+    sget-object v0, Lcom/huawei/appmarket/uj4$a;->a:Lcom/huawei/appmarket/uj4$a;
 
-    move-result-object p0
+    sput-object v0, Lcom/huawei/appmarket/uj4;->a:Lcom/huawei/appmarket/uj4$a;
 
-    return-object p0
+    return-void
 .end method

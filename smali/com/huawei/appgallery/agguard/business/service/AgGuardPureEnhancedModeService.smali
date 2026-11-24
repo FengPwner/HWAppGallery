@@ -25,7 +25,7 @@
 
     const-string v2, "open pure mode"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, -0x1
 
@@ -43,7 +43,7 @@
 
     move-result v0
 
-    invoke-static {v3}, Lcom/huawei/appmarket/bk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
+    invoke-static {v3}, Lcom/huawei/appmarket/dk5;->g(Lcom/huawei/secure/android/common/intent/SafeIntent;)Ljava/util/LinkedHashMap;
 
     move-result-object p1
 
@@ -75,11 +75,11 @@
     :goto_0
     const/4 v5, 0x2
 
-    invoke-static {v5, v0, p1}, Lcom/huawei/appmarket/bk5;->q(IILjava/util/LinkedHashMap;)V
+    invoke-static {v5, v0, p1}, Lcom/huawei/appmarket/dk5;->q(IILjava/util/LinkedHashMap;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/bk5;->b()V
+    invoke-static {}, Lcom/huawei/appmarket/dk5;->b()V
 
-    invoke-static {}, Lcom/huawei/appmarket/ya6;->c()Lcom/huawei/appmarket/ya6;
+    invoke-static {}, Lcom/huawei/appmarket/ab6;->c()Lcom/huawei/appmarket/ab6;
 
     move-result-object p1
 
@@ -87,9 +87,9 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ya6;->f(I)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ab6;->f(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/xa6;->r()V
+    invoke-static {}, Lcom/huawei/appmarket/za6;->r()V
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -105,11 +105,11 @@
 
     move-result-object v5
 
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/mb;->M(IJJ)V
 

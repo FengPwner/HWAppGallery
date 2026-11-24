@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/huawei/appmarket/ij5;)V
+.method public final b(Lcom/huawei/appmarket/kj5;)V
     .registers 7
 
     .line 1
@@ -236,7 +236,7 @@
 
     .line 26
     .line 27
-    invoke-static {v1}, Lcom/huawei/appmarket/ej5;->u(Landroid/os/Parcelable;)Z
+    invoke-static {v1}, Lcom/huawei/appmarket/gj5;->u(Landroid/os/Parcelable;)Z
 
     .line 28
     .line 29
@@ -248,7 +248,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1}, Lcom/huawei/appmarket/ej5;->i(Landroid/os/Parcelable;)Landroid/graphics/drawable/Icon;
+    invoke-static {v1}, Lcom/huawei/appmarket/gj5;->i(Landroid/os/Parcelable;)Landroid/graphics/drawable/Icon;
 
     .line 34
     .line 35

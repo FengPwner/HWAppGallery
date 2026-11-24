@@ -119,7 +119,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setDuplicateParentStateEnabled(Z)V
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     return-void
 .end method
@@ -348,7 +348,7 @@
 
     .line 90
     :goto_1
-    invoke-static {p0, v3}, Lcom/huawei/appmarket/ei8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0, v3}, Lcom/huawei/appmarket/ki8;->i0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     .line 91
     .line 92
@@ -453,7 +453,7 @@
     move-result-object p1
 
     .line 146
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/c18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/h18;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 147
     .line 148
@@ -915,7 +915,7 @@
 
     const v2, 0x7f08088c
 
-    invoke-static {p1, v2, v1}, Lcom/huawei/appmarket/nu6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1, v2, v1}, Lcom/huawei/appmarket/ru6;->d(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -936,7 +936,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, p1, v1, v1, v1}, Lcom/huawei/appmarket/qx7;->f(Landroid/widget/TextView;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0, p1, v1, v1, v1}, Lcom/huawei/appmarket/vx7;->f(Landroid/widget/TextView;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
@@ -1013,7 +1013,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/internal/NavigationMenuItemView;->k:Landroid/widget/CheckedTextView;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/qx7;->k(Landroid/widget/TextView;I)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/vx7;->k(Landroid/widget/TextView;I)V
 
     return-void
 .end method

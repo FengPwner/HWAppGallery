@@ -29,10 +29,10 @@
 # instance fields
 .field public final e:Lcom/google/protobuf/Descriptors$b;
 
-.field public final f:Lcom/huawei/appmarket/gw5;
+.field public final f:Lcom/huawei/appmarket/iw5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/gw5<",
+            "Lcom/huawei/appmarket/iw5<",
             "Lcom/google/protobuf/p0<",
             "TK;TV;>;>;"
         }
@@ -71,7 +71,7 @@
 
     invoke-direct {p1, p0}, Lcom/google/protobuf/p0$c$a;-><init>(Lcom/google/protobuf/p0$c;)V
 
-    iput-object p1, p0, Lcom/google/protobuf/p0$c;->f:Lcom/huawei/appmarket/gw5;
+    iput-object p1, p0, Lcom/google/protobuf/p0$c;->f:Lcom/huawei/appmarket/iw5;
 
     return-void
 .end method

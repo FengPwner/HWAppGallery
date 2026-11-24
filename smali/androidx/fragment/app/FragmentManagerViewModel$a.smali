@@ -28,23 +28,23 @@
 
 
 # virtual methods
-.method public final synthetic a(Lcom/huawei/appmarket/pq0;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public final synthetic a(Lcom/huawei/appmarket/qq0;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/vw7;->a(Landroidx/lifecycle/y$c;Lcom/huawei/appmarket/pq0;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/ci7;->a(Landroidx/lifecycle/y$c;Lcom/huawei/appmarket/qq0;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+.method public final b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
     .registers 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
-            "Lcom/huawei/appmarket/ni8;",
+            "Lcom/huawei/appmarket/ti8;",
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)TT;"
@@ -61,11 +61,11 @@
     return-object p1
 .end method
 
-.method public final c(Ljava/lang/Class;Lcom/huawei/appmarket/yd5;)Lcom/huawei/appmarket/ni8;
+.method public final c(Ljava/lang/Class;Lcom/huawei/appmarket/be5;)Lcom/huawei/appmarket/ti8;
     .registers 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManagerViewModel$a;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ni8;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManagerViewModel$a;->b(Ljava/lang/Class;)Lcom/huawei/appmarket/ti8;
 
     .line 2
     .line 3

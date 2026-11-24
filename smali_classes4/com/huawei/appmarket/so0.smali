@@ -1,136 +1,62 @@
-.class public final Lcom/huawei/appmarket/so0;
-.super Ljava/lang/Object;
+.class Lcom/huawei/appmarket/so0;
+.super Lcom/huawei/appmarket/ro0;
 .source "SourceFile"
 
 
-# static fields
-.field public static final a:Lcom/huawei/appmarket/so0;
-
-.field public static final b:Ljava/nio/charset/Charset;
-
-.field private static volatile c:Ljava/nio/charset/Charset;
-
-.field private static volatile d:Ljava/nio/charset/Charset;
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .registers 2
-
-    .line 1
-    new-instance v0, Lcom/huawei/appmarket/so0;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/so0;-><init>()V
-
-    sput-object v0, Lcom/huawei/appmarket/so0;->a:Lcom/huawei/appmarket/so0;
-
-    const-string v0, "UTF-8"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    const-string v1, "forName(...)"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    sput-object v0, Lcom/huawei/appmarket/so0;->b:Ljava/nio/charset/Charset;
-
-    const-string v0, "UTF-16"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "UTF-16BE"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "UTF-16LE"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "US-ASCII"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "ISO-8859-1"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method private constructor <init>()V
+.method public constructor <init>()V
     .registers 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/ro0;-><init>()V
 
     return-void
 .end method
 
-.method public static a()Ljava/nio/charset/Charset;
-    .registers 2
+.method public static final a(CCZ)Z
+    .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/so0;->d:Ljava/nio/charset/Charset;
+    const/4 v0, 0x1
 
-    if-nez v0, :cond_0
+    if-ne p0, p1, :cond_0
 
-    const-string v0, "UTF-32BE"
-
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-
-    move-result-object v0
-
-    const-string v1, "forName(...)"
-
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    sput-object v0, Lcom/huawei/appmarket/so0;->d:Ljava/nio/charset/Charset;
+    return v0
 
     :cond_0
-    return-object v0
-.end method
+    const/4 v1, 0x0
 
-.method public static b()Ljava/nio/charset/Charset;
-    .registers 2
+    if-nez p2, :cond_1
 
-    .line 1
-    sget-object v0, Lcom/huawei/appmarket/so0;->c:Ljava/nio/charset/Charset;
+    return v1
 
-    if-nez v0, :cond_0
+    :cond_1
+    invoke-static {p0}, Ljava/lang/Character;->toUpperCase(C)C
 
-    const-string v0, "UTF-32LE"
+    move-result p0
 
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    invoke-static {p1}, Ljava/lang/Character;->toUpperCase(C)C
 
-    move-result-object v0
+    move-result p1
 
-    const-string v1, "forName(...)"
+    if-eq p0, p1, :cond_3
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0}, Ljava/lang/Character;->toLowerCase(C)C
 
-    sput-object v0, Lcom/huawei/appmarket/so0;->c:Ljava/nio/charset/Charset;
+    move-result p0
 
-    :cond_0
-    return-object v0
+    invoke-static {p1}, Ljava/lang/Character;->toLowerCase(C)C
+
+    move-result p1
+
+    if-ne p0, p1, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :cond_3
+    :goto_0
+    return v0
 .end method

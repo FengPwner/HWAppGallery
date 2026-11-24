@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/ym5;
-.implements Lcom/huawei/appmarket/nt2;
+.implements Lcom/huawei/appmarket/zm5;
+.implements Lcom/huawei/appmarket/qt2;
 
 
 # annotations
@@ -19,32 +19,32 @@
 
 
 # instance fields
-.field private final synthetic b:Lcom/huawei/appmarket/qs2;
+.field private final synthetic b:Lcom/huawei/appmarket/ts2;
 
 
 # direct methods
-.method constructor <init>(Lcom/huawei/appmarket/qs2;)V
+.method constructor <init>(Lcom/huawei/appmarket/ts2;)V
     .registers 3
 
     .line 1
     const-string v0, "function"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/qs2;
+    iput-object p1, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/ts2;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lcom/huawei/appmarket/qs2;
+.method public final a()Lcom/huawei/appmarket/ts2;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/qs2;
+    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/ts2;
 
     return-object v0
 .end method
@@ -52,25 +52,25 @@
 .method public final equals(Ljava/lang/Object;)Z
     .registers 4
 
-    instance-of v0, p1, Lcom/huawei/appmarket/ym5;
+    instance-of v0, p1, Lcom/huawei/appmarket/zm5;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    instance-of v0, p1, Lcom/huawei/appmarket/nt2;
+    instance-of v0, p1, Lcom/huawei/appmarket/qt2;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lcom/huawei/appmarket/nt2;
+    check-cast p1, Lcom/huawei/appmarket/qt2;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/nt2;->a()Lcom/huawei/appmarket/qs2;
+    invoke-interface {p1}, Lcom/huawei/appmarket/qt2;->a()Lcom/huawei/appmarket/ts2;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/qs2;
+    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/ts2;
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/ek4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/gk4;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -81,7 +81,7 @@
 .method public final hashCode()I
     .registers 2
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/qs2;
+    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/ts2;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
@@ -93,9 +93,9 @@
 .method public final synthetic onChanged(Ljava/lang/Object;)V
     .registers 3
 
-    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/qs2;
+    iget-object v0, p0, Lcom/huawei/appgallery/agguard/business/ui/fragment/BatchProcessFragment$c;->b:Lcom/huawei/appmarket/ts2;
 
-    invoke-interface {v0, p1}, Lcom/huawei/appmarket/qs2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/huawei/appmarket/ts2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

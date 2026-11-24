@@ -30,11 +30,11 @@
     .registers 2
 
     .line 1
-    invoke-static {}, Lcom/huawei/appmarket/qh4;->r()Lcom/huawei/appmarket/qh4;
+    invoke-static {}, Lcom/huawei/appmarket/sh4;->r()Lcom/huawei/appmarket/sh4;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/qh4;->q()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sh4;->q()Z
 
     move-result p1
 

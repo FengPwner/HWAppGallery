@@ -18,7 +18,7 @@
 
 .field protected J:Landroid/view/View;
 
-.field protected K:Lcom/huawei/appmarket/ak0;
+.field protected K:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -265,7 +265,7 @@
 
     .line 80
     .line 81
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 82
     .line 83
@@ -355,7 +355,7 @@
 
     .line 120
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 121
     .line 122
@@ -363,7 +363,7 @@
     move-result p1
 
     .line 124
-    invoke-static {}, Lcom/huawei/appmarket/al0;->d()I
+    invoke-static {}, Lcom/huawei/appmarket/bl0;->d()I
 
     .line 125
     .line 126
@@ -610,8 +610,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public X1()I
@@ -639,13 +637,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result p1
 
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->g(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->g(Landroid/content/Context;)I
 
     move-result v0
 
@@ -670,18 +668,18 @@
     :cond_0
     iget-object v0, p0, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->c:Landroid/content/Context;
 
-    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/w68;->h(Landroid/content/Context;II)I
+    invoke-static {v0, p1, p2}, Lcom/huawei/appmarket/b78;->h(Landroid/content/Context;II)I
 
     move-result p1
 
     return p1
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 4
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->K:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->K:Lcom/huawei/appmarket/bk0;
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->E:Ljava/util/ArrayList;
 
@@ -702,7 +700,7 @@
 
     check-cast v1, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;
 
-    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     goto :goto_0
 
@@ -713,7 +711,7 @@
 
     new-instance v1, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard$a;
 
-    invoke-direct {v1, p0, p1, p0}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
+    invoke-direct {v1, p0, p1, p0}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard$a;-><init>(Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -725,7 +723,7 @@
     .registers 4
 
     .line 1
-    invoke-static {p2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {p2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -840,9 +838,9 @@
 
     invoke-virtual {v4, v2}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;->g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->K:Lcom/huawei/appmarket/ak0;
+    iget-object v2, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->K:Lcom/huawei/appmarket/bk0;
 
-    invoke-virtual {v4, v2}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v4, v2}, Lcom/huawei/appmarket/service/store/awk/card/MultiLineSingleItemCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     :cond_0
     add-int/lit8 v1, v1, 0x1
@@ -1307,29 +1305,6 @@
     .line 364
     .line 365
     .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
 .end method
 
 .method public g0(Landroid/view/View;)Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;
@@ -1378,7 +1353,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/store/awk/card/MultiLineAppSingleGroupCard;->G:Lcom/huawei/uikit/phone/hwtextview/widget/HwTextView;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     invoke-virtual {p0, p1}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;->U0(Landroid/view/View;)V
 

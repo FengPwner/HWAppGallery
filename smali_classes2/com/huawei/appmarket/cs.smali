@@ -13,7 +13,7 @@
 
 .field public final synthetic d:Ljava/util/Map;
 
-.field public final synthetic e:Lcom/huawei/appmarket/ru3;
+.field public final synthetic e:Lcom/huawei/appmarket/tu3;
 
 .field public final synthetic f:I
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;ZLjava/util/Map;Lcom/huawei/appmarket/ru3;II)V
+.method public synthetic constructor <init>(Lcom/huawei/appgallery/taskfragment/api/TaskFragment;ZLjava/util/Map;Lcom/huawei/appmarket/tu3;II)V
     .registers 7
 
     .line 1
@@ -46,7 +46,7 @@
 
     .line 11
     .line 12
-    iput-object p4, p0, Lcom/huawei/appmarket/cs;->e:Lcom/huawei/appmarket/ru3;
+    iput-object p4, p0, Lcom/huawei/appmarket/cs;->e:Lcom/huawei/appmarket/tu3;
 
     .line 13
     .line 14
@@ -481,7 +481,7 @@
 
     iget v3, p0, Lcom/huawei/appmarket/cs;->f:I
 
-    iget-object v4, p0, Lcom/huawei/appmarket/cs;->e:Lcom/huawei/appmarket/ru3;
+    iget-object v4, p0, Lcom/huawei/appmarket/cs;->e:Lcom/huawei/appmarket/tu3;
 
     iget-object v5, p0, Lcom/huawei/appmarket/cs;->g:Lcom/huawei/appgallery/taskfragment/api/TaskFragment;
 
@@ -489,14 +489,14 @@
 
     check-cast v5, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;
 
-    invoke-static {v5, v2, v1, v4, v3}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->v5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;ZLjava/util/Map;Lcom/huawei/appmarket/ru3;I)V
+    invoke-static {v5, v2, v1, v4, v3}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->v5(Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;ZLjava/util/Map;Lcom/huawei/appmarket/tu3;I)V
 
     return-void
 
     :pswitch_0
     check-cast v5, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;
 
-    invoke-static {v5, v2, v1, v4, v3}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->U5(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;ZLjava/util/Map;Lcom/huawei/appmarket/ru3;I)V
+    invoke-static {v5, v2, v1, v4, v3}, Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;->U5(Lcom/huawei/appgallery/foundation/ui/framework/fragment/AppListFragment;ZLjava/util/Map;Lcom/huawei/appmarket/tu3;I)V
 
     return-void
 

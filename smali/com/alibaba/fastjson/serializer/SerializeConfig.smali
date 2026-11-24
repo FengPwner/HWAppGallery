@@ -1266,7 +1266,7 @@
     const-string v2, "create asm serializer error, verson 1.2.83, class "
 
     .line 1
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/om5;->l(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/uq5;->i(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/String;
 
     move-result-object v0
 

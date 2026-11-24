@@ -75,7 +75,7 @@
     const-string v3, "../shared_prefs/"
 
     .line 1
-    invoke-static {v3, v1}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v1}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -373,7 +373,7 @@
     :cond_3
     const/16 v5, 0xc
 
-    invoke-static {v5}, Lcom/huawei/appmarket/y02;->d(I)Ljava/lang/String;
+    invoke-static {v5}, Lcom/huawei/appmarket/c12;->d(I)Ljava/lang/String;
 
     move-result-object v5
 
@@ -390,7 +390,7 @@
     move-result-object v4
 
     .line 7
-    invoke-static {v5, v4}, Lcom/huawei/appmarket/bq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v4}, Lcom/huawei/appmarket/eq6;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -659,7 +659,7 @@
 
     .line 103
     .line 104
-    invoke-static {v9, v6}, Lcom/huawei/appmarket/z84;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v9, v6}, Lcom/huawei/appmarket/kk4;->p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 105
     .line 106

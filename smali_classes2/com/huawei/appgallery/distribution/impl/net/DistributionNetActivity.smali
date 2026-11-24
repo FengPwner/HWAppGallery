@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/content/DialogInterface$OnDismissListener;
-.implements Lcom/huawei/appmarket/ao5;
+.implements Lcom/huawei/appmarket/bo5;
 
 
 # annotations
@@ -14,7 +14,7 @@
         "Lcom/huawei/appgallery/distributionbase/ui/DistributionNetActivityProtocol;",
         ">;",
         "Landroid/content/DialogInterface$OnDismissListener;",
-        "Lcom/huawei/appmarket/ao5;"
+        "Lcom/huawei/appmarket/bo5;"
     }
 .end annotation
 
@@ -37,7 +37,7 @@
 
     const-class v0, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/lq1;->d(Ljava/lang/Class;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/oq1;->d(Ljava/lang/Class;)V
 
     return-void
 .end method
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/cw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v1}, Lcom/huawei/appmarket/gw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/mg;->c()Lcom/huawei/appmarket/mg;
+    invoke-static {}, Lcom/huawei/appmarket/lg;->c()Lcom/huawei/appmarket/lg;
 
     move-result-object v0
 
@@ -108,13 +108,13 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/mg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/mg$a;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/lg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/lg$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lcom/huawei/appmarket/mg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    iget-object v0, v0, Lcom/huawei/appmarket/lg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     goto :goto_0
 
@@ -130,7 +130,7 @@
     return-void
 .end method
 
-.method private static c3(Lcom/huawei/appmarket/mg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+.method private static c3(Lcom/huawei/appmarket/lg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
     .registers 4
 
     .line 1
@@ -138,7 +138,7 @@
 
     if-eqz p0, :cond_2
 
-    iget-object p0, p0, Lcom/huawei/appmarket/mg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    iget-object p0, p0, Lcom/huawei/appmarket/lg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     if-nez p0, :cond_0
 
@@ -151,7 +151,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     move-result-object v1
 
@@ -161,36 +161,36 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/cw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v2}, Lcom/huawei/appmarket/gw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    sget-object p0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v2, "getTargetDownloadTask from normal task."
 
-    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v1
 
     :cond_1
-    sget-object v1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v2, "getTargetDownloadTask from cache task info."
 
-    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p0
 
     :cond_2
     :goto_0
-    sget-object p0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v1, "invalid taskInfo"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -201,7 +201,7 @@
     .registers 5
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 2
     .line 3
@@ -257,12 +257,12 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 35
     .line 36
@@ -290,7 +290,7 @@
 
     .line 47
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     .line 49
     .line 50
@@ -307,7 +307,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {v1}, Lcom/huawei/appmarket/cw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v1}, Lcom/huawei/appmarket/gw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 58
     .line 59
@@ -357,7 +357,7 @@
 
     .line 80
     .line 81
-    invoke-static {}, Lcom/huawei/appmarket/mg;->c()Lcom/huawei/appmarket/mg;
+    invoke-static {}, Lcom/huawei/appmarket/lg;->c()Lcom/huawei/appmarket/lg;
 
     .line 82
     .line 83
@@ -377,7 +377,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/mg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/mg$a;
+    invoke-virtual {v0, v2, v3}, Lcom/huawei/appmarket/lg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/lg$a;
 
     .line 92
     .line 93
@@ -389,7 +389,7 @@
 
     .line 96
     .line 97
-    iget-object v2, v0, Lcom/huawei/appmarket/mg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    iget-object v2, v0, Lcom/huawei/appmarket/lg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 98
     .line 99
@@ -405,7 +405,7 @@
     move-result-object v1
 
     .line 105
-    invoke-static {v0}, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->c3(Lcom/huawei/appmarket/mg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v0}, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->c3(Lcom/huawei/appmarket/lg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 106
     .line 107
@@ -427,7 +427,7 @@
 
     .line 115
     .line 116
-    invoke-static {v1}, Lcom/huawei/appmarket/og;->g(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/huawei/appmarket/ng;->g(Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -461,7 +461,7 @@
     const/4 v1, 0x0
 
     .line 132
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 133
     .line 134
@@ -469,7 +469,7 @@
     move-result-object v0
 
     .line 136
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 137
     .line 138
@@ -936,22 +936,13 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private e3()V
     .registers 6
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 2
     .line 3
@@ -1007,12 +998,12 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-static {p0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 35
     .line 36
@@ -1040,7 +1031,7 @@
 
     .line 47
     .line 48
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     .line 49
     .line 50
@@ -1057,7 +1048,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {v3}, Lcom/huawei/appmarket/cw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v3}, Lcom/huawei/appmarket/gw1;->f(Ljava/lang/String;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 58
     .line 59
@@ -1087,7 +1078,7 @@
 
     .line 71
     .line 72
-    invoke-static {}, Lcom/huawei/appmarket/mg;->c()Lcom/huawei/appmarket/mg;
+    invoke-static {}, Lcom/huawei/appmarket/lg;->c()Lcom/huawei/appmarket/lg;
 
     .line 73
     .line 74
@@ -1102,7 +1093,7 @@
     const/4 v4, 0x1
 
     .line 79
-    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/mg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/mg$a;
+    invoke-virtual {v1, v3, v4}, Lcom/huawei/appmarket/lg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/lg$a;
 
     .line 80
     .line 81
@@ -1118,7 +1109,7 @@
 
     .line 86
     .line 87
-    invoke-static {v1}, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->c3(Lcom/huawei/appmarket/mg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    invoke-static {v1}, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->c3(Lcom/huawei/appmarket/lg$a;)Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 88
     .line 89
@@ -1139,7 +1130,7 @@
 
     .line 96
     .line 97
-    iget-object v3, v1, Lcom/huawei/appmarket/mg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    iget-object v3, v1, Lcom/huawei/appmarket/lg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 98
     .line 99
@@ -1194,7 +1185,7 @@
     .line 122
     .line 123
     .line 124
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     .line 125
     .line 126
@@ -1202,11 +1193,11 @@
     move-result-object v0
 
     .line 128
-    iget-object v1, v1, Lcom/huawei/appmarket/mg$a;->b:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
+    iget-object v1, v1, Lcom/huawei/appmarket/lg$a;->b:Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;
 
     .line 129
     .line 130
-    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/cw1;->l(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)V
+    invoke-virtual {v0, v3, v1}, Lcom/huawei/appmarket/gw1;->l(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Lcom/huawei/appgallery/detail/detailbase/api/DetailHiddenBean;)V
 
     .line 131
     .line 132
@@ -1225,7 +1216,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     .line 141
@@ -1260,7 +1251,7 @@
     const/4 v1, 0x0
 
     .line 155
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/i08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     .line 156
     .line 157
@@ -1268,7 +1259,7 @@
     move-result-object v0
 
     .line 159
-    invoke-virtual {v0}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/i08;->h()V
 
     .line 160
     .line 161
@@ -1712,15 +1703,6 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method
 
 .method private f3(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
@@ -1729,13 +1711,13 @@
     .line 1
     if-nez p1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v0, "DistributionNetActivity"
 
     const-string v1, "startDownloadTask task null"
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1765,11 +1747,11 @@
 
     iput-boolean v0, p0, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->h:Z
 
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/cw1;->j(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/gw1;->j(Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;)V
 
     const/4 v0, 0x2
 
@@ -1786,9 +1768,9 @@
     const-string v2, "3"
 
     :goto_0
-    invoke-static {v1, v1, p1, v0, v2}, Lcom/huawei/appmarket/h90;->d(Lcom/huawei/appmarket/el7;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v1, p1, v0, v2}, Lcom/huawei/appmarket/h90;->d(Lcom/huawei/appmarket/kl7;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1, v1, p1, v2}, Lcom/huawei/appmarket/xq5;->S2(Lcom/huawei/appmarket/el7;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Ljava/lang/String;)V
+    invoke-static {v1, v1, p1, v2}, Lcom/huawei/appmarket/zq5;->T2(Lcom/huawei/appmarket/kl7;Lcom/huawei/appgallery/distributionbase/api/DistActivityProtocol$Request;Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1809,13 +1791,13 @@
     .line 1
     if-nez p0, :cond_0
 
-    sget-object p0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     const-string v0, "DistributionNetActivity"
 
     const-string v1, "startDownloadTask task null"
 
-    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -1841,7 +1823,7 @@
 
     invoke-virtual {p0, v0}, Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;->w0(I)V
 
-    invoke-static {}, Lcom/huawei/appmarket/cw1;->e()Lcom/huawei/appmarket/cw1;
+    invoke-static {}, Lcom/huawei/appmarket/gw1;->e()Lcom/huawei/appmarket/gw1;
 
     move-result-object v0
 
@@ -1849,7 +1831,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/cw1;->k(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gw1;->k(J)V
 
     const/4 v0, 0x1
 
@@ -1878,7 +1860,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/huawei/appmarket/mg;->c()Lcom/huawei/appmarket/mg;
+    invoke-static {}, Lcom/huawei/appmarket/lg;->c()Lcom/huawei/appmarket/lg;
 
     .line 10
     .line 11
@@ -1893,7 +1875,7 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/mg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/mg$a;
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/lg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/lg$a;
 
     .line 17
     .line 18
@@ -1905,7 +1887,7 @@
 
     .line 21
     .line 22
-    iget-object v0, v0, Lcom/huawei/appmarket/mg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
+    iget-object v0, v0, Lcom/huawei/appmarket/lg$a;->a:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
     .line 23
     .line 24
@@ -2027,7 +2009,7 @@
 
     .line 83
     .line 84
-    invoke-static {p0}, Lcom/huawei/appmarket/zu1;->a(Landroid/content/Context;)Lcom/huawei/appmarket/zu1;
+    invoke-static {p0}, Lcom/huawei/appmarket/dv1;->a(Landroid/content/Context;)Lcom/huawei/appmarket/dv1;
 
     .line 85
     .line 86
@@ -2035,7 +2017,7 @@
     move-result-object v0
 
     .line 88
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/zu1;->b(Lcom/huawei/appgallery/downloadproxy/api/bean/FullAppStatus;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dv1;->b(Lcom/huawei/appgallery/downloadproxy/api/bean/FullAppStatus;)V
 
     .line 89
     .line 90
@@ -2188,7 +2170,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1}, Lcom/huawei/appmarket/pm7;->i(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/vm7;->i(Landroid/view/Window;)V
 
     .line 27
     .line 28
@@ -2251,7 +2233,7 @@
     .line 57
     .line 58
     :cond_0
-    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/z86;
+    invoke-virtual {p0}, Lcom/huawei/appgallery/foundation/ui/framework/uikit/ContractActivity;->Z2()Lcom/huawei/appmarket/b96;
 
     .line 59
     .line 60
@@ -2351,7 +2333,7 @@
     move-result-wide v3
 
     .line 107
-    invoke-static {}, Lcom/huawei/appmarket/br1;->d()Lcom/huawei/appmarket/br1;
+    invoke-static {}, Lcom/huawei/appmarket/er1;->d()Lcom/huawei/appmarket/er1;
 
     .line 108
     .line 109
@@ -2359,7 +2341,7 @@
     move-result-object p1
 
     .line 111
-    invoke-virtual {p1}, Lcom/huawei/appmarket/br1;->f()Z
+    invoke-virtual {p1}, Lcom/huawei/appmarket/er1;->f()Z
 
     .line 112
     .line 113
@@ -2371,7 +2353,7 @@
 
     .line 116
     .line 117
-    invoke-static {}, Lcom/huawei/appmarket/br1;->d()Lcom/huawei/appmarket/br1;
+    invoke-static {}, Lcom/huawei/appmarket/er1;->d()Lcom/huawei/appmarket/er1;
 
     .line 118
     .line 119
@@ -2392,7 +2374,7 @@
     move-object v6, p0
 
     .line 126
-    invoke-virtual/range {v1 .. v7}, Lcom/huawei/appmarket/br1;->j(Landroid/content/Context;JLcom/huawei/appmarket/ao5;Landroid/content/DialogInterface$OnDismissListener;Z)Z
+    invoke-virtual/range {v1 .. v7}, Lcom/huawei/appmarket/er1;->j(Landroid/content/Context;JLcom/huawei/appmarket/bo5;Landroid/content/DialogInterface$OnDismissListener;Z)Z
 
     .line 127
     .line 128
@@ -2404,7 +2386,7 @@
 
     .line 131
     .line 132
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 133
     .line 134
@@ -2412,7 +2394,7 @@
 
     .line 135
     .line 136
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 137
     .line 138
@@ -2450,7 +2432,7 @@
 
     .line 154
     .line 155
-    invoke-static {p1}, Lcom/huawei/appmarket/bq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
+    invoke-static {p1}, Lcom/huawei/appmarket/eq6;->h(Ljava/lang/String;)Landroid/content/IntentFilter;
 
     .line 156
     .line 157
@@ -2472,7 +2454,7 @@
     .line 165
     :cond_4
     :goto_1
-    sget-object p1, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object p1, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     .line 166
     .line 167
@@ -2480,7 +2462,7 @@
 
     .line 168
     .line 169
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 170
     .line 171
@@ -2604,7 +2586,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/mg;->c()Lcom/huawei/appmarket/mg;
+    invoke-static {}, Lcom/huawei/appmarket/lg;->c()Lcom/huawei/appmarket/lg;
 
     move-result-object p1
 
@@ -2612,7 +2594,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/mg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/mg$a;
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/lg;->d(Ljava/lang/String;Z)Lcom/huawei/appmarket/lg$a;
 
     :goto_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/distribution/impl/net/DistributionNetActivity;->finish()V

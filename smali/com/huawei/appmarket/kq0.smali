@@ -1,168 +1,127 @@
-.class final Lcom/huawei/appmarket/kq0;
+.class public final Lcom/huawei/appmarket/kq0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/v21;
 
-# static fields
-.field private static final a:Lcom/huawei/appmarket/fp4$a;
+
+# instance fields
+.field private final a:Ljava/lang/String;
+
+.field private final b:Lcom/huawei/appmarket/dm;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/huawei/appmarket/dm<",
+            "Landroid/graphics/PointF;",
+            "Landroid/graphics/PointF;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final c:Lcom/huawei/appmarket/ul;
+
+.field private final d:Z
+
+.field private final e:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .registers 5
-
-    .line 1
-    const-string v0, "hd"
-
-    const-string v1, "d"
-
-    const-string v2, "nm"
-
-    const-string v3, "p"
-
-    const-string v4, "s"
-
-    filled-new-array {v2, v3, v4, v0, v1}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/huawei/appmarket/fp4$a;->a([Ljava/lang/String;)Lcom/huawei/appmarket/fp4$a;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/huawei/appmarket/kq0;->a:Lcom/huawei/appmarket/fp4$a;
-
-    return-void
-.end method
-
-.method private constructor <init>()V
-    .registers 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-.method static a(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;I)Lcom/huawei/appmarket/jq0;
-    .registers 13
-    .annotation system Ldalvik/annotation/Throws;
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/dm;Lcom/huawei/appmarket/ul;ZZ)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Ljava/io/IOException;
+            "(",
+            "Ljava/lang/String;",
+            "Lcom/huawei/appmarket/dm<",
+            "Landroid/graphics/PointF;",
+            "Landroid/graphics/PointF;",
+            ">;",
+            "Lcom/huawei/appmarket/ul;",
+            "ZZ)V"
         }
     .end annotation
 
     .line 1
-    const/4 v0, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v1, 0x1
+    iput-object p1, p0, Lcom/huawei/appmarket/kq0;->a:Ljava/lang/String;
 
-    const/4 v2, 0x3
+    iput-object p2, p0, Lcom/huawei/appmarket/kq0;->b:Lcom/huawei/appmarket/dm;
 
-    if-ne p2, v2, :cond_0
+    iput-object p3, p0, Lcom/huawei/appmarket/kq0;->c:Lcom/huawei/appmarket/ul;
 
-    const/4 p2, 0x1
+    iput-boolean p4, p0, Lcom/huawei/appmarket/kq0;->d:Z
 
-    goto :goto_0
+    iput-boolean p5, p0, Lcom/huawei/appmarket/kq0;->e:Z
 
-    :cond_0
-    const/4 p2, 0x0
+    return-void
+.end method
 
-    :goto_0
-    const/4 v3, 0x0
 
-    move v8, p2
+# virtual methods
+.method public final a(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/u05;Lcom/huawei/appmarket/g40;)Lcom/huawei/appmarket/k21;
+    .registers 4
 
-    move-object v5, v3
+    .line 1
+    new-instance p2, Lcom/huawei/appmarket/iz1;
 
-    move-object v6, v5
+    invoke-direct {p2, p1, p3, p0}, Lcom/huawei/appmarket/iz1;-><init>(Lcom/airbnb/lottie/h;Lcom/huawei/appmarket/g40;Lcom/huawei/appmarket/kq0;)V
 
-    move-object v7, v6
+    return-object p2
+.end method
 
-    const/4 v9, 0x0
+.method public final b()Ljava/lang/String;
+    .registers 2
 
-    :goto_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->x()Z
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kq0;->a:Ljava/lang/String;
 
-    move-result p2
+    return-object v0
+.end method
 
-    if-eqz p2, :cond_7
+.method public final c()Lcom/huawei/appmarket/dm;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/huawei/appmarket/dm<",
+            "Landroid/graphics/PointF;",
+            "Landroid/graphics/PointF;",
+            ">;"
+        }
+    .end annotation
 
-    sget-object p2, Lcom/huawei/appmarket/kq0;->a:Lcom/huawei/appmarket/fp4$a;
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kq0;->b:Lcom/huawei/appmarket/dm;
 
-    invoke-virtual {p0, p2}, Lcom/huawei/appmarket/fp4;->G(Lcom/huawei/appmarket/fp4$a;)I
+    return-object v0
+.end method
 
-    move-result p2
+.method public final d()Lcom/huawei/appmarket/ul;
+    .registers 2
 
-    if-eqz p2, :cond_6
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/kq0;->c:Lcom/huawei/appmarket/ul;
 
-    if-eq p2, v1, :cond_5
+    return-object v0
+.end method
 
-    const/4 v3, 0x2
+.method public final e()Z
+    .registers 2
 
-    if-eq p2, v3, :cond_4
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kq0;->e:Z
 
-    if-eq p2, v2, :cond_3
+    return v0
+.end method
 
-    const/4 v3, 0x4
+.method public final f()Z
+    .registers 2
 
-    if-eq p2, v3, :cond_1
+    .line 1
+    iget-boolean v0, p0, Lcom/huawei/appmarket/kq0;->d:Z
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->H()V
-
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->I()V
-
-    goto :goto_1
-
-    :cond_1
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->A()I
-
-    move-result p2
-
-    if-ne p2, v2, :cond_2
-
-    const/4 v8, 0x1
-
-    goto :goto_1
-
-    :cond_2
-    const/4 v8, 0x0
-
-    goto :goto_1
-
-    :cond_3
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->y()Z
-
-    move-result v9
-
-    goto :goto_1
-
-    :cond_4
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/fm;->e(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;)Lcom/huawei/appmarket/vl;
-
-    move-result-object v7
-
-    goto :goto_1
-
-    :cond_5
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/ul;->b(Lcom/huawei/appmarket/fp4;Lcom/huawei/appmarket/r05;)Lcom/huawei/appmarket/em;
-
-    move-result-object v6
-
-    goto :goto_1
-
-    :cond_6
-    invoke-virtual {p0}, Lcom/huawei/appmarket/fp4;->C()Ljava/lang/String;
-
-    move-result-object v5
-
-    goto :goto_1
-
-    :cond_7
-    new-instance p0, Lcom/huawei/appmarket/jq0;
-
-    move-object v4, p0
-
-    invoke-direct/range {v4 .. v9}, Lcom/huawei/appmarket/jq0;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/em;Lcom/huawei/appmarket/vl;ZZ)V
-
-    return-object p0
+    return v0
 .end method

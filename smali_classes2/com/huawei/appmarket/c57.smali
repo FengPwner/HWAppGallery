@@ -1,157 +1,117 @@
 .class public final Lcom/huawei/appmarket/c57;
-.super Lcom/huawei/appmarket/hj0;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# static fields
+.field private static a:Lcom/huawei/appmarket/z38;
+
+
 # direct methods
-.method public constructor <init>(JLcom/huawei/appmarket/o2;I)V
-    .registers 5
+.method public constructor <init>()V
+    .registers 1
 
-    .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/appmarket/hj0;-><init>(JLcom/huawei/appmarket/o2;I)V
-
-    return-void
-.end method
-
-.method public constructor <init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
-    .registers 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(J",
-            "Lcom/huawei/appmarket/o2;",
-            "I",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 2
-    invoke-direct/range {p0 .. p5}, Lcom/huawei/appmarket/hj0;-><init>(JLcom/huawei/appmarket/o2;ILjava/util/List;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-
-# virtual methods
-.method public final F(Ljava/util/List;)V
-    .registers 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;",
-            ">;)V"
-        }
-    .end annotation
+.method public static a(Ljava/lang/String;Ljava/lang/String;Z)V
+    .registers 4
 
     .line 1
-    if-eqz p1, :cond_2
+    if-eqz p2, :cond_0
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/e36;->b()Lcom/huawei/appmarket/e36;
+    new-instance p2, Ljava/util/LinkedHashMap;
 
     .line 4
     .line 5
+    invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
+
     .line 6
-    move-result-object v0
-
     .line 7
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
     .line 8
+    const-string v0, "callerPkg"
+
     .line 9
     .line 10
-    move-result-object v1
+    invoke-virtual {p2, v0, p0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
-    :cond_0
-    :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
     .line 12
     .line 13
-    .line 14
-    move-result v2
+    const-string p0, "from"
 
+    .line 14
     .line 15
-    if-eqz v2, :cond_2
+    invoke-virtual {p2, p0, p1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
     .line 18
+    const-string p0, "390601"
+
     .line 19
     .line 20
-    move-result-object v2
+    invoke-static {p0, p2}, Lcom/huawei/appmarket/d73;->d(Ljava/lang/String;Ljava/util/LinkedHashMap;)V
 
     .line 21
-    check-cast v2, Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
-
     .line 22
     .line 23
-    instance-of v3, v2, Lcom/huawei/appgallery/forum/cards/bean/ForumPostCardBean;
+    :cond_0
+    sget-object p0, Lcom/huawei/appmarket/c57;->a:Lcom/huawei/appmarket/z38;
 
     .line 24
     .line 25
-    if-eqz v3, :cond_0
+    if-eqz p0, :cond_1
 
     .line 26
     .line 27
-    check-cast v2, Lcom/huawei/appgallery/forum/cards/bean/ForumPostCardBean;
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
 
     .line 28
     .line 29
-    iget-object v3, v2, Lcom/huawei/appgallery/forum/cards/bean/ForumPostCardBean;->post_:Lcom/huawei/appgallery/forum/base/card/bean/Post;
+    const-string p1, "SearchTrialModeUtil"
 
     .line 30
     .line 31
-    if-nez v3, :cond_1
+    const-string p2, "remove protocol observer in callback"
 
     .line 32
     .line 33
-    goto :goto_0
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
-    :cond_1
-    invoke-virtual {v3}, Lcom/huawei/appgallery/forum/base/card/bean/Post;->Y()J
-
     .line 35
     .line 36
-    .line 37
-    move-result-wide v3
+    sget-object p0, Lcom/huawei/appmarket/c57;->a:Lcom/huawei/appmarket/z38;
 
+    .line 37
     .line 38
-    invoke-virtual {v0, v3, v4}, Lcom/huawei/appmarket/e36;->c(J)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/r96;->b(Lcom/huawei/appmarket/r96$a;)V
 
     .line 39
     .line 40
     .line 41
-    move-result v3
+    const/4 p0, 0x0
 
     .line 42
-    invoke-virtual {v2, v3}, Lcom/huawei/appgallery/forum/cards/bean/ForumPostCardBean;->k2(Z)V
+    sput-object p0, Lcom/huawei/appmarket/c57;->a:Lcom/huawei/appmarket/z38;
 
     .line 43
     .line 44
+    :cond_1
+    return-void
     .line 45
-    invoke-virtual {v2}, Lcom/huawei/appgallery/forum/cards/bean/ForumPostCardBean;->j2()V
-
     .line 46
     .line 47
     .line 48
-    goto :goto_0
-
     .line 49
-    :cond_2
-    invoke-super {p0, p1}, Lcom/huawei/appmarket/hj0;->F(Ljava/util/List;)V
-
     .line 50
     .line 51
     .line 52
-    return-void
     .line 53
     .line 54
     .line 55
@@ -207,4 +167,631 @@
     .line 105
     .line 106
     .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+.end method
+
+.method public static b(Landroid/app/Activity;)V
+    .registers 6
+
+    .line 1
+    const-string v0, "SearchTrialModeUtil"
+
+    .line 2
+    .line 3
+    if-nez p0, :cond_0
+
+    .line 4
+    .line 5
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
+
+    .line 6
+    .line 7
+    const-string v1, "showProtocol activity is null."
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_0
+    invoke-static {p0}, Lcom/huawei/appmarket/x7;->a(Landroid/app/Activity;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    sget-object v1, Lcom/huawei/appmarket/c57;->a:Lcom/huawei/appmarket/z38;
+
+    .line 18
+    .line 19
+    if-nez v1, :cond_1
+
+    .line 20
+    .line 21
+    new-instance v1, Lcom/huawei/appmarket/z38;
+
+    .line 22
+    .line 23
+    invoke-direct {v1, p0}, Lcom/huawei/appmarket/z38;-><init>(Ljava/lang/String;)V
+
+    .line 24
+    .line 25
+    .line 26
+    sput-object v1, Lcom/huawei/appmarket/c57;->a:Lcom/huawei/appmarket/z38;
+
+    .line 27
+    .line 28
+    invoke-static {v1}, Lcom/huawei/appmarket/r96;->c(Lcom/huawei/appmarket/r96$a;)V
+
+    .line 29
+    .line 30
+    .line 31
+    :cond_1
+    invoke-static {}, Lcom/huawei/appmarket/h96;->d()Lcom/huawei/appmarket/h96;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object p0
+
+    .line 35
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-static {}, Lcom/huawei/appmarket/h96;->b()V
+
+    .line 39
+    .line 40
+    .line 41
+    sget-object p0, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
+
+    .line 42
+    .line 43
+    const-string v1, "Ready to restart the app from Search!"
+
+    .line 44
+    .line 45
+    invoke-virtual {p0, v0, v1}, Lcom/huawei/appmarket/jy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-wide v1
+
+    .line 52
+    invoke-static {v1, v2}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->setApsid_(J)V
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object p0
+
+    .line 59
+    invoke-virtual {p0}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p0
+
+    .line 63
+    new-instance v1, Lcom/huawei/appmarket/dn5;
+
+    .line 64
+    .line 65
+    const/4 v2, 0x0
+
+    .line 66
+    const-string v3, "main.activity"
+
+    .line 67
+    .line 68
+    invoke-direct {v1, v3, v2}, Lcom/huawei/appmarket/dn5;-><init>(Ljava/lang/String;Lcom/huawei/appmarket/b96;)V
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object v2
+
+    .line 75
+    const/high16 v3, 0x4000000
+
+    .line 76
+    .line 77
+    invoke-virtual {v2, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    .line 78
+    .line 79
+    .line 80
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object v2
+
+    .line 84
+    const/high16 v3, 0x10000000
+
+    .line 85
+    .line 86
+    invoke-virtual {v2, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    .line 87
+    .line 88
+    .line 89
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    .line 90
+    .line 91
+    .line 92
+    move-result-object v2
+
+    .line 93
+    const-string v3, "from_restart"
+
+    .line 94
+    .line 95
+    const/4 v4, 0x0
+
+    .line 96
+    invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+
+    .line 97
+    .line 98
+    .line 99
+    invoke-virtual {v1, p0}, Lcom/huawei/appmarket/dn5;->b(Landroid/content/Context;)Landroid/content/Intent;
+
+    .line 100
+    .line 101
+    .line 102
+    move-result-object v2
+
+    .line 103
+    const-string v3, "trial_guide_from"
+
+    .line 104
+    .line 105
+    const-string v4, "search_error"
+
+    .line 106
+    .line 107
+    invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 108
+    .line 109
+    .line 110
+    :try_start_0
+    invoke-static {}, Lcom/huawei/appmarket/ls4;->a()Lcom/huawei/appmarket/ls4;
+
+    .line 111
+    .line 112
+    .line 113
+    move-result-object v2
+
+    .line 114
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 115
+    .line 116
+    .line 117
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/ls4;->c(Landroid/content/Context;Lcom/huawei/appmarket/dn5;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 118
+    .line 119
+    .line 120
+    goto :goto_0
+
+    .line 121
+    :catch_0
+    move-exception v1
+
+    .line 122
+    sget-object v2, Lcom/huawei/appmarket/l47;->a:Lcom/huawei/appmarket/l47;
+
+    .line 123
+    .line 124
+    const-string v3, "startActivity error"
+
+    .line 125
+    .line 126
+    invoke-virtual {v2, v0, v3, v1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 127
+    .line 128
+    .line 129
+    :goto_0
+    const-string v0, "com.huawei.systemmanager.action.CHANGE_HOME_COUNTRY"
+
+    .line 130
+    .line 131
+    invoke-static {v0}, Lcom/huawei/appmarket/eq6;->g(Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 132
+    .line 133
+    .line 134
+    move-result-object v0
+
+    .line 135
+    const-string v1, "broadcast_send_time"
+
+    .line 136
+    .line 137
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    .line 138
+    .line 139
+    .line 140
+    move-result-wide v2
+
+    .line 141
+    invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
+
+    .line 142
+    .line 143
+    .line 144
+    invoke-static {p0}, Lcom/huawei/appmarket/ex4;->b(Landroid/content/Context;)Lcom/huawei/appmarket/ex4;
+
+    .line 145
+    .line 146
+    .line 147
+    move-result-object p0
+
+    .line 148
+    if-eqz p0, :cond_2
+
+    .line 149
+    .line 150
+    invoke-virtual {p0, v0}, Lcom/huawei/appmarket/ex4;->d(Landroid/content/Intent;)Z
+
+    .line 151
+    .line 152
+    .line 153
+    :cond_2
+    return-void
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
 .end method

@@ -77,9 +77,9 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/quickcard/flnetworkadapter/a$a;->g(Ljava/lang/String;)V
 
-    sget-object v2, Lcom/huawei/appmarket/g87$a;->d:Lcom/huawei/appmarket/g87$a;
+    sget-object v2, Lcom/huawei/appmarket/l87$a;->d:Lcom/huawei/appmarket/l87$a;
 
-    invoke-virtual {v1, v2}, Lcom/huawei/quickcard/flnetworkadapter/a$a;->b(Lcom/huawei/appmarket/g87$a;)V
+    invoke-virtual {v1, v2}, Lcom/huawei/quickcard/flnetworkadapter/a$a;->b(Lcom/huawei/appmarket/l87$a;)V
 
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
@@ -119,7 +119,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/u32;->a(Landroid/content/Context;Lcom/huawei/quickcard/flnetworkadapter/a;)Lcom/huawei/appmarket/hv7;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/y32;->a(Landroid/content/Context;Lcom/huawei/quickcard/flnetworkadapter/a;)Lcom/huawei/appmarket/nv7;
 
     move-result-object p1
 
@@ -132,15 +132,15 @@
 
     const-wide/16 v3, 0x1e
 
-    invoke-static {p1, v3, v4, v2}, Lcom/huawei/appmarket/nw7;->await(Lcom/huawei/appmarket/hv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-static {p1, v3, v4, v2}, Lcom/huawei/appmarket/tw7;->await(Lcom/huawei/appmarket/nv7;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/nv7;->getResult()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/huawei/appmarket/j87;
+    check-cast p1, Lcom/huawei/appmarket/o87;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j87;->getResponse()Lcom/huawei/serverrequest/e$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/o87;->getResponse()Lcom/huawei/serverrequest/e$a;
 
     move-result-object v2
 
@@ -150,7 +150,7 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/quickcard/flnetworkadapter/b$a;->f(Ljava/lang/String;)V
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j87;->getResponse()Lcom/huawei/serverrequest/e$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/o87;->getResponse()Lcom/huawei/serverrequest/e$a;
 
     move-result-object v2
 
@@ -160,7 +160,7 @@
 
     invoke-virtual {v1, v2}, Lcom/huawei/quickcard/flnetworkadapter/b$a;->b(I)V
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j87;->getResponse()Lcom/huawei/serverrequest/e$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/o87;->getResponse()Lcom/huawei/serverrequest/e$a;
 
     move-result-object v2
 
@@ -172,7 +172,7 @@
 
     new-instance v2, Ljava/util/LinkedHashMap;
 
-    invoke-interface {p1}, Lcom/huawei/appmarket/j87;->getResponse()Lcom/huawei/serverrequest/e$a;
+    invoke-interface {p1}, Lcom/huawei/appmarket/o87;->getResponse()Lcom/huawei/serverrequest/e$a;
 
     move-result-object p1
 

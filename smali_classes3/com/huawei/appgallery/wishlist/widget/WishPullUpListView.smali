@@ -40,19 +40,19 @@
             "(",
             "Landroidx/recyclerview/widget/RecyclerView$h;",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
+            "Lcom/huawei/appmarket/nl2;",
             ">;",
             "Ljava/util/ArrayList<",
-            "Lcom/huawei/appmarket/ll2;",
+            "Lcom/huawei/appmarket/nl2;",
             ">;)",
             "Lcom/huawei/appgallery/foundation/ui/framework/widget/recyclerview/b;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/yr8;
+    new-instance v0, Lcom/huawei/appmarket/es8;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/huawei/appmarket/yr8;-><init>(Landroidx/recyclerview/widget/RecyclerView$h;Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/huawei/appmarket/es8;-><init>(Landroidx/recyclerview/widget/RecyclerView$h;Ljava/util/List;Ljava/util/List;)V
 
     return-object v0
 .end method

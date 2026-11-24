@@ -27,19 +27,19 @@
 
     iget-object p1, p0, Lcom/huawei/uikit/hwedittext/widget/a;->b:Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;
 
-    invoke-static {p1}, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/df3;
+    invoke-static {p1}, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/ff3;
 
     move-result-object p2
 
-    sget-object v0, Lcom/huawei/appmarket/df3;->b:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->b:Lcom/huawei/appmarket/ff3;
 
     if-eq p2, v0, :cond_0
 
-    invoke-static {p1}, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/df3;
+    invoke-static {p1}, Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;->a(Lcom/huawei/uikit/hwedittext/widget/HwCounterTextLayout;)Lcom/huawei/appmarket/ff3;
 
     move-result-object p2
 
-    sget-object v0, Lcom/huawei/appmarket/df3;->d:Lcom/huawei/appmarket/df3;
+    sget-object v0, Lcom/huawei/appmarket/ff3;->d:Lcom/huawei/appmarket/ff3;
 
     if-ne p2, v0, :cond_1
 

@@ -85,7 +85,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 34
     .line 35
@@ -97,11 +97,11 @@
 
     .line 38
     .line 39
-    check-cast p1, Lcom/huawei/appmarket/dr6;
+    check-cast p1, Lcom/huawei/appmarket/gr6;
 
     .line 40
     .line 41
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 42
     .line 43
@@ -109,11 +109,11 @@
     move-result-object p1
 
     .line 45
-    const-class v1, Lcom/huawei/appmarket/vv3;
+    const-class v1, Lcom/huawei/appmarket/xv3;
 
     .line 46
     .line 47
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -121,7 +121,7 @@
     move-result-object p1
 
     .line 51
-    check-cast p1, Lcom/huawei/appmarket/vv3;
+    check-cast p1, Lcom/huawei/appmarket/xv3;
 
     .line 52
     .line 53
@@ -129,7 +129,7 @@
 
     .line 54
     .line 55
-    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/vv3;->b(Landroid/content/Context;Landroid/os/Bundle;)V
+    invoke-interface {p1, p0, v0}, Lcom/huawei/appmarket/xv3;->b(Landroid/content/Context;Landroid/os/Bundle;)V
 
     .line 56
     .line 57
@@ -240,7 +240,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method static synthetic u1(Lcom/huawei/appgallery/forum/section/card/BuoyForumNoticeCard;)Landroid/view/View;

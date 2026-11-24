@@ -484,7 +484,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method public final d()Ljava/lang/String;
@@ -516,7 +515,7 @@
 
     iget-object v0, p0, Lcom/huawei/appgallery/downloadproxy/api/bean/DownloadHistory;->extend_:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/kd3;->n(Ljava/lang/String;)Ljava/util/LinkedHashMap;
+    invoke-static {v0}, Lcom/huawei/appmarket/md3;->n(Ljava/lang/String;)Ljava/util/LinkedHashMap;
 
     move-result-object v0
 

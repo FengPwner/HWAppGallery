@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;->subscribe(Lcom/huawei/hmf/orb/tbis/result/TBResult$Callback;)Lcom/huawei/appmarket/aq1;
+    value = Lcom/huawei/hmf/orb/tbis/type/TaskStreamRef;->subscribe(Lcom/huawei/hmf/orb/tbis/result/TBResult$Callback;)Lcom/huawei/appmarket/dq1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

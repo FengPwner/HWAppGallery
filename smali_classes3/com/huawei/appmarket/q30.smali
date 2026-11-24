@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/rt3;
+.implements Lcom/huawei/appmarket/tt3;
 
 
 # static fields
@@ -19,13 +19,13 @@
 
 .field protected final mHandler:Landroid/os/Handler;
 
-.field protected mJsCallBack:Lcom/huawei/appmarket/tt3;
+.field protected mJsCallBack:Lcom/huawei/appmarket/vt3;
 
 .field protected mWebView:Landroid/webkit/WebView;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/tt3;Landroid/webkit/WebView;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/appmarket/vt3;Landroid/webkit/WebView;)V
     .registers 6
 
     .line 1
@@ -49,21 +49,21 @@
 
     iput-object p1, p0, Lcom/huawei/appmarket/q30;->mContext:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iput-object p2, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     return-void
 .end method
 
-.method public static synthetic a(Lcom/huawei/appmarket/q30;Lcom/huawei/appmarket/op0;ZI)V
+.method public static synthetic a(Lcom/huawei/appmarket/q30;Lcom/huawei/appmarket/pp0;ZI)V
     .registers 4
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;->lambda$requestWhiteList$0(Lcom/huawei/appmarket/op0;ZI)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/huawei/appmarket/q30;->lambda$requestWhiteList$0(Lcom/huawei/appmarket/pp0;ZI)V
 
     return-void
 .end method
 
-.method private synthetic lambda$requestWhiteList$0(Lcom/huawei/appmarket/op0;ZI)V
+.method private synthetic lambda$requestWhiteList$0(Lcom/huawei/appmarket/pp0;ZI)V
     .registers 5
 
     .line 1
@@ -77,7 +77,7 @@
 
     move-result p2
 
-    invoke-interface {p1, p2}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, p2}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     return-void
 
@@ -86,9 +86,9 @@
 
     const-string v0, "not in the white list after request white list"
 
-    invoke-static {p2, v0}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {p1, p3}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, p3}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     return-void
 .end method
@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -131,7 +131,7 @@
     :catch_0
     const-string p1, "countDownLatch await error"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -140,7 +140,7 @@
 .method protected abstract isInWhiteList()Z
 .end method
 
-.method protected requestWhiteList(Lcom/huawei/appmarket/op0;)V
+.method protected requestWhiteList(Lcom/huawei/appmarket/pp0;)V
     .registers 5
 
     .line 1
@@ -148,7 +148,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/huawei/appmarket/wg5;->i(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/zg5;->i(Landroid/content/Context;)Z
 
     .line 4
     .line 5
@@ -171,12 +171,12 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     .line 18
     .line 19
@@ -193,7 +193,7 @@
 
     .line 24
     .line 25
-    invoke-interface {p1, v1}, Lcom/huawei/appmarket/op0;->a(Z)V
+    invoke-interface {p1, v1}, Lcom/huawei/appmarket/pp0;->a(Z)V
 
     .line 26
     .line 27
@@ -202,7 +202,7 @@
 
     .line 29
     .line 30
-    invoke-static {v2, p1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -211,11 +211,11 @@
 
     .line 34
     :cond_1
-    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, p0, Lcom/huawei/appmarket/q30;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     .line 35
     .line 36
-    new-instance v1, Lcom/huawei/appmarket/mh4;
+    new-instance v1, Lcom/huawei/appmarket/oh4;
 
     .line 37
     .line 38
@@ -223,7 +223,7 @@
 
     .line 39
     .line 40
-    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-direct {v1, p0, v2, p1}, Lcom/huawei/appmarket/oh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 41
     .line 42
@@ -237,11 +237,11 @@
     .line 46
     .line 47
     .line 48
-    new-instance p1, Lcom/huawei/appmarket/is1;
+    new-instance p1, Lcom/huawei/appmarket/ls1;
 
     .line 49
     .line 50
-    invoke-direct {p1, v1}, Lcom/huawei/appmarket/is1;-><init>(Lcom/huawei/appmarket/n64;)V
+    invoke-direct {p1, v1}, Lcom/huawei/appmarket/ls1;-><init>(Lcom/huawei/appmarket/q64;)V
 
     .line 51
     .line 52
@@ -258,7 +258,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -271,7 +271,7 @@
     move-result-object v0
 
     .line 66
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/o77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/t77;->c(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 67
     .line 68
@@ -322,5 +322,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

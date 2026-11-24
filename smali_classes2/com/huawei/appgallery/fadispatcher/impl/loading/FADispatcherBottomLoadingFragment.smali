@@ -53,7 +53,7 @@
 
     .line 10
     .line 11
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 12
     .line 13
@@ -65,7 +65,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -201,15 +201,15 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
     if-eqz v0, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/wq5;->k:Lcom/huawei/appmarket/wq5;
+    sget-object v1, Lcom/huawei/appmarket/yq5;->k:Lcom/huawei/appmarket/yq5;
 
     iget-object v2, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->l0:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/se7;->B(Lcom/huawei/appmarket/wq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/xe7;->B(Lcom/huawei/appmarket/yq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
 
     :cond_0
     invoke-virtual {p0}, Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment;->A3()V
@@ -221,15 +221,15 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
     if-eqz v0, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/wq5;->d:Lcom/huawei/appmarket/wq5;
+    sget-object v1, Lcom/huawei/appmarket/yq5;->d:Lcom/huawei/appmarket/yq5;
 
     iget-object v2, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->l0:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/se7;->B(Lcom/huawei/appmarket/wq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/xe7;->B(Lcom/huawei/appmarket/yq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
 
     :cond_0
     return-void
@@ -264,7 +264,7 @@
 
     .line 13
     .line 14
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     .line 15
     .line 16
@@ -276,7 +276,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -415,11 +415,11 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v2, "onCreate error, activity is null"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment;->A3()V
 
@@ -470,11 +470,11 @@
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/framework/widget/LoadingDialog;->show()V
 
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v2, "show loading dialog"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -483,17 +483,17 @@
     .registers 9
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object v0, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v1, "FADispatcherBottomLoadingFragment"
 
     const-string v2, "FADispatcherBottomLoadingFragmentrequest success"
 
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object v2, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
-    invoke-virtual {v2}, Lcom/huawei/appmarket/se7;->v()Lcom/huawei/appmarket/s85;
+    invoke-virtual {v2}, Lcom/huawei/appmarket/xe7;->v()Lcom/huawei/appmarket/v85;
 
     move-result-object v2
 
@@ -503,7 +503,7 @@
 
     check-cast v3, Ljava/util/HashMap;
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/s85;->b(Ljava/util/HashMap;)V
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/v85;->b(Ljava/util/HashMap;)V
 
     check-cast p1, Lcom/huawei/appgallery/downloadtaskassemble/base/api/HarmonyInfoResponseBean;
 
@@ -511,7 +511,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -523,13 +523,13 @@
 
     const-string p1, "harmonyInfoResponseBean.getHarmonyApps() is empty!"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
-    sget-object v0, Lcom/huawei/appmarket/wq5;->g:Lcom/huawei/appmarket/wq5;
+    sget-object v0, Lcom/huawei/appmarket/yq5;->g:Lcom/huawei/appmarket/yq5;
 
-    invoke-virtual {p1, v0, v4}, Lcom/huawei/appmarket/se7;->B(Lcom/huawei/appmarket/wq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
+    invoke-virtual {p1, v0, v4}, Lcom/huawei/appmarket/xe7;->B(Lcom/huawei/appmarket/yq5;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Z
 
     return v3
 
@@ -661,7 +661,7 @@
     :cond_2
     invoke-virtual {v4, v0}, Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;->setModuleFileInfoList(Ljava/util/List;)V
 
-    iget-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/FragmentActivity;
 
@@ -675,7 +675,7 @@
 
     invoke-direct {v2, p0}, Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment$b;-><init>(Lcom/huawei/appgallery/fadispatcher/impl/loading/FADispatcherBottomLoadingFragment;)V
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/huawei/appmarket/se7;->c(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/k34$a;)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/huawei/appmarket/xe7;->c(Landroid/content/Context;Ljava/lang/String;Lcom/huawei/appmarket/m34$a;)V
 
     const/4 p1, 0x1
 
@@ -718,19 +718,19 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/mn7;->e(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Lcom/huawei/appgallery/downloadtaskassemble/base/api/HarmonyInfoRequstBean;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/sn7;->e(ILcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;)Lcom/huawei/appgallery/downloadtaskassemble/base/api/HarmonyInfoRequstBean;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/sd2;->a:Lcom/huawei/appmarket/sd2;
+    sget-object p1, Lcom/huawei/appmarket/vd2;->a:Lcom/huawei/appmarket/vd2;
 
     const-string v1, "FADispatcherBottomLoadingFragment"
 
     const-string v2, "getHarmonyInfoRequestBean return null, cannot request"
 
-    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 

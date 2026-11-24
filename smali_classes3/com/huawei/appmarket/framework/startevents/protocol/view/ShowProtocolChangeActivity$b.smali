@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/j96;
+.implements Lcom/huawei/appmarket/l96;
 
 
 # annotations
@@ -49,7 +49,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/z84;->z(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, p1, v1}, Lcom/huawei/appmarket/kk4;->A(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 6
     .line 7
@@ -161,5 +161,4 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method

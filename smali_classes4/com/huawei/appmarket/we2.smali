@@ -3,40 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lorg/apache/commons/lang3/function/FailableRunnable;
+.implements Ljava/util/function/BiPredicate;
 
 
 # instance fields
-.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
-
-.field public final synthetic b:D
+.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableBiPredicate;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableDoubleConsumer;D)V
-    .registers 4
+.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableBiPredicate;)V
+    .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/we2;->a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
-
-    iput-wide p2, p0, Lcom/huawei/appmarket/we2;->b:D
+    iput-object p1, p0, Lcom/huawei/appmarket/we2;->a:Lorg/apache/commons/lang3/function/FailableBiPredicate;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
+.method public final test(Ljava/lang/Object;Ljava/lang/Object;)Z
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/we2;->a:Lorg/apache/commons/lang3/function/FailableDoubleConsumer;
+    iget-object v0, p0, Lcom/huawei/appmarket/we2;->a:Lorg/apache/commons/lang3/function/FailableBiPredicate;
 
-    iget-wide v1, p0, Lcom/huawei/appmarket/we2;->b:D
+    invoke-static {v0, p1, p2}, Lorg/apache/commons/lang3/function/Failable;->p(Lorg/apache/commons/lang3/function/FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
 
-    invoke-static {v0, v1, v2}, Lorg/apache/commons/lang3/function/Failable;->t(Lorg/apache/commons/lang3/function/FailableDoubleConsumer;D)V
+    move-result p1
 
-    return-void
+    return p1
 .end method

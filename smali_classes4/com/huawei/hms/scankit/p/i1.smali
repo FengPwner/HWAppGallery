@@ -1798,7 +1798,7 @@
     :cond_e
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    const-string p1, "width or Height is Illeagle"
+    const-string/jumbo p1, "width or Height is Illeagle"
 
     invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -3573,7 +3573,7 @@
     :cond_17
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
-    const-string v1, "widthOrHeight is Illeagle"
+    const-string/jumbo v1, "widthOrHeight is Illeagle"
 
     invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 

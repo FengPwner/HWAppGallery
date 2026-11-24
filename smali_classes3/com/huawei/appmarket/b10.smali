@@ -31,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -113,7 +113,7 @@
     move-result-object p0
 
     .line 47
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -156,7 +156,7 @@
 
     .line 67
     .line 68
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -214,7 +214,7 @@
 
     .line 95
     .line 96
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 97
     .line 98
@@ -231,7 +231,7 @@
 
     .line 102
     .line 103
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -244,7 +244,7 @@
 
     .line 108
     .line 109
-    invoke-static {v1, p0}, Lcom/huawei/appmarket/bz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p0}, Lcom/huawei/appmarket/ez4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     .line 111
@@ -312,5 +312,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

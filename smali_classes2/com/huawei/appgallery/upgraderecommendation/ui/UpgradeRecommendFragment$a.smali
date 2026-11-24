@@ -64,13 +64,13 @@
 
     if-lez v5, :cond_0
 
-    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object p1, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     const-string v0, "RecommendFragment"
 
     const-string v1, "Network changed too fast !! "
 
-    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
@@ -84,7 +84,7 @@
     :try_start_0
     iget p1, p1, Landroid/os/Message;->arg1:I
 
-    sget-object v2, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+    sget-object v2, Lcom/huawei/appmarket/wb8;->a:Lcom/huawei/appmarket/wb8;
 
     const-string v3, "RecommendFragment"
 
@@ -98,17 +98,17 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v0}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/huawei/appmarket/gg5$d;->d:Lcom/huawei/appmarket/gg5$d;
+    sget-object v0, Lcom/huawei/appmarket/jg5$d;->d:Lcom/huawei/appmarket/jg5$d;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gg5$d;->a()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jg5$d;->a()I
 
     move-result v0
 
     if-ne p1, v0, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/zf5;->c()Lcom/huawei/appmarket/zf5;
+    invoke-static {}, Lcom/huawei/appmarket/cg5;->c()Lcom/huawei/appmarket/cg5;
 
     move-result-object p1
 
@@ -120,7 +120,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/zf5;->m(Lcom/huawei/appgallery/upgraderecommendation/ui/e;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/cg5;->m(Lcom/huawei/appgallery/upgraderecommendation/ui/e;)V
 
     iget-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendFragment$a;->a:Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendFragment;
 

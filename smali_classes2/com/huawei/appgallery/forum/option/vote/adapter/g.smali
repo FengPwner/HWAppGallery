@@ -113,26 +113,26 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/g;->b:Ljava/lang/String;
 
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/d08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/i08;->e(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/i08;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+    invoke-virtual {p1}, Lcom/huawei/appmarket/i08;->h()V
 
     return-void
 
     :cond_0
     iget v0, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/g;->c:I
 
-    invoke-static {p1, v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/qk8;
+    invoke-static {p1, v0}, Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;->s(Lcom/huawei/appgallery/forum/option/vote/adapter/VotingInfoAdapter;I)Lcom/huawei/appmarket/wk8;
 
     move-result-object v1
 
     iget v4, p0, Lcom/huawei/appgallery/forum/option/vote/adapter/g;->d:I
 
-    iput v4, v1, Lcom/huawei/appmarket/qk8;->g:I
+    iput v4, v1, Lcom/huawei/appmarket/wk8;->g:I
 
-    iput-wide v2, v1, Lcom/huawei/appmarket/qk8;->i:J
+    iput-wide v2, v1, Lcom/huawei/appmarket/wk8;->i:J
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$h;->notifyItemChanged(I)V
 

@@ -292,7 +292,7 @@
     .registers 3
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/v91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcom/huawei/appmarket/w91;->c(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -363,7 +363,7 @@
     .registers 7
 
     .line 1
-    invoke-static/range {p0 .. p6}, Lcom/huawei/appmarket/v91;->e(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/String;ILjava/lang/Object;II[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static/range {p0 .. p6}, Lcom/huawei/appmarket/w91;->e(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/String;ILjava/lang/Object;II[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -404,7 +404,7 @@
 
     aget-object v2, p1, v1
 
-    invoke-static {v0, v2}, Lcom/huawei/appmarket/v91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
+    invoke-static {v0, v2}, Lcom/huawei/appmarket/w91;->g(Ljava/lang/StringBuilder;Ljava/lang/Object;)V
 
     array-length v2, p1
 
@@ -437,7 +437,7 @@
     .registers 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/v91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/w91;->f(Lcom/huawei/quickcard/base/wrapper/DataWrapper;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

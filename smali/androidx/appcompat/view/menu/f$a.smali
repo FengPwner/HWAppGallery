@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/view/menu/f;->b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/ur7;
+    value = Landroidx/appcompat/view/menu/f;->b(Landroidx/core/view/ActionProvider;)Lcom/huawei/appmarket/as7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

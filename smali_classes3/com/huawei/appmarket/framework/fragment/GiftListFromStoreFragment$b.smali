@@ -101,7 +101,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -183,7 +183,7 @@
 
     .line 62
     :cond_2
-    check-cast p1, Lcom/huawei/appmarket/sk0;
+    check-cast p1, Lcom/huawei/appmarket/tk0;
 
     .line 63
     .line 64
@@ -204,7 +204,7 @@
 
     .line 71
     .line 72
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -270,7 +270,7 @@
     move-result-object p1
 
     .line 106
-    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/j83;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 107
     .line 108
@@ -341,5 +341,4 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method

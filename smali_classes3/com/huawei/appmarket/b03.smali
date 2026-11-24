@@ -1,29 +1,10 @@
-.class public Lcom/huawei/appmarket/b03;
+.class public abstract Lcom/huawei/appmarket/b03;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/io/Serializable;
-
 
 # static fields
-.field private static final serialVersionUID:J = 0x2c82af864f1b3360L
-
-
-# instance fields
-.field private b:Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
-
-.field private d:Ljava/lang/String;
-
-.field private e:Ljava/lang/String;
-
-.field private f:Ljava/lang/String;
-
-.field private g:Landroid/view/View;
-
-.field private h:Lcom/huawei/appmarket/ao5;
+.field private static volatile a:Lcom/huawei/appmarket/zz2;
 
 
 # direct methods
@@ -35,130 +16,307 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public final a()Ljava/lang/String;
+.method public static synthetic a(Landroid/content/Context;)V
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->b:Ljava/lang/String;
+    const/4 v0, 0x0
 
-    return-object v0
+    .line 2
+    sput-object v0, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    .line 3
+    .line 4
+    instance-of v0, p0, Lcom/huawei/appmarket/a03;
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    check-cast p0, Lcom/huawei/appmarket/a03;
+
+    .line 9
+    .line 10
+    invoke-interface {p0}, Lcom/huawei/appmarket/a03;->a()V
+
+    .line 11
+    .line 12
+    .line 13
+    :cond_0
+    return-void
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
 .end method
 
-.method public final b()Lcom/huawei/appmarket/ao5;
-    .registers 2
+.method public static declared-synchronized b(Landroid/content/Context;Lcom/huawei/appmarket/e03;)V
+    .registers 5
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->h:Lcom/huawei/appmarket/ao5;
+    const-class v0, Lcom/huawei/appmarket/b03;
 
-    return-object v0
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    if-eqz v1, :cond_1
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {v1}, Lcom/huawei/appmarket/zz2;->a()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-static {}, Lcom/huawei/appmarket/j83;->i()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    const-string p0, "GiftDialogLauncher"
+
+    const-string p1, "has giftDialog showing"
+
+    invoke-static {p0, p1}, Lcom/huawei/appmarket/j83;->a(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    return-void
+
+    :cond_1
+    :try_start_1
+    new-instance v1, Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->a()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/zz2;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    sput-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->f()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zz2;->g(Ljava/lang/String;)V
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->c()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zz2;->d(Ljava/lang/String;)V
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->e()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zz2;->f(Ljava/lang/String;)V
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->d()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zz2;->e(Ljava/lang/String;)V
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->g()Landroid/view/View;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/zz2;->h(Landroid/view/View;)V
+
+    sget-object v1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/e03;->b()Lcom/huawei/appmarket/bo5;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1}, Lcom/huawei/appmarket/zz2;->b(Lcom/huawei/appmarket/bo5;)V
+
+    sget-object p1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/zz2;->i()V
+
+    sget-object p1, Lcom/huawei/appmarket/b03;->a:Lcom/huawei/appmarket/zz2;
+
+    new-instance v1, Lcom/huawei/appmarket/a23;
+
+    const/4 v2, 0x5
+
+    invoke-direct {v1, p0, v2}, Lcom/huawei/appmarket/a23;-><init>(Ljava/lang/Object;I)V
+
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/zz2;->c(Lcom/huawei/appmarket/a23;)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    monitor-exit v0
+
+    return-void
+
+    :goto_1
+    monitor-exit v0
+
+    throw p0
 .end method
 
-.method public final c()Ljava/lang/String;
-    .registers 2
+.method public static c(Landroid/app/Activity;Ljava/util/ArrayList;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;ILandroid/content/DialogInterface$OnDismissListener;)V
+    .registers 12
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->d:Ljava/lang/String;
+    new-instance v6, Lcom/huawei/appmarket/s03;
 
-    return-object v0
-.end method
+    move-object v0, v6
 
-.method public final d()Ljava/lang/String;
-    .registers 2
+    move-object v1, p0
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->f:Ljava/lang/String;
+    move-object v2, p1
 
-    return-object v0
-.end method
+    move-object v3, p2
 
-.method public final e()Ljava/lang/String;
-    .registers 2
+    move v4, p3
 
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->e:Ljava/lang/String;
+    move-object v5, p4
 
-    return-object v0
-.end method
+    invoke-direct/range {v0 .. v5}, Lcom/huawei/appmarket/s03;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;ILandroid/content/DialogInterface$OnDismissListener;)V
 
-.method public final f()Ljava/lang/String;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->c:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final g()Landroid/view/View;
-    .registers 2
-
-    .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/b03;->g:Landroid/view/View;
-
-    return-object v0
-.end method
-
-.method public final h(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->b:Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/huawei/appmarket/s03;->i()V
 
     return-void
 .end method
 
-.method public final i(Lcom/huawei/appmarket/ao5;)V
-    .registers 2
+.method public static d(Landroid/content/Context;Ljava/util/ArrayList;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;I)V
+    .registers 5
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->h:Lcom/huawei/appmarket/ao5;
+    new-instance v0, Lcom/huawei/appmarket/s03;
 
-    return-void
-.end method
+    invoke-direct {v0, p0, p1, p2, p3}, Lcom/huawei/appmarket/s03;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;I)V
 
-.method public final j(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->d:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final k(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->f:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final l(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->e:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final m(Ljava/lang/String;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->c:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public final n(Landroid/view/View;)V
-    .registers 2
-
-    .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/b03;->g:Landroid/view/View;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/s03;->i()V
 
     return-void
 .end method

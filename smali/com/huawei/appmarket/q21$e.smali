@@ -36,7 +36,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/huawei/appmarket/hz;->q(Ljava/lang/Object;)Landroid/view/ContentInfo;
+    invoke-static {p1}, Lcom/huawei/appmarket/iz;->q(Ljava/lang/Object;)Landroid/view/ContentInfo;
 
     .line 8
     .line 9
@@ -141,7 +141,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$e;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->l(Landroid/view/ContentInfo;)Landroid/net/Uri;
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->l(Landroid/view/ContentInfo;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -163,7 +163,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$e;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->D(Landroid/view/ContentInfo;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->D(Landroid/view/ContentInfo;)I
 
     move-result v0
 
@@ -176,7 +176,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$e;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->e(Landroid/view/ContentInfo;)Landroid/content/ClipData;
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->e(Landroid/view/ContentInfo;)Landroid/content/ClipData;
 
     move-result-object v0
 
@@ -189,7 +189,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$e;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->m(Landroid/view/ContentInfo;)Landroid/os/Bundle;
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->m(Landroid/view/ContentInfo;)Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -202,7 +202,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/q21$e;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/hz;->c(Landroid/view/ContentInfo;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/iz;->c(Landroid/view/ContentInfo;)I
 
     move-result v0
 

@@ -1,5 +1,5 @@
 .class final Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$d;
-.super Lcom/huawei/appmarket/rf7;
+.super Lcom/huawei/appmarket/wf7;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$d;->b:Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;
 
-    invoke-direct {p0}, Lcom/huawei/appmarket/rf7;-><init>()V
+    invoke-direct {p0}, Lcom/huawei/appmarket/wf7;-><init>()V
 
     return-void
 .end method
@@ -36,13 +36,13 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment$d;->b:Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->B6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->C6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
 
     const/4 v0, 0x1
 
-    invoke-static {p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->C6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
+    invoke-static {p1, v0}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->D6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;I)V
 
-    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->D6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
+    invoke-static {p1}, Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;->E6(Lcom/huawei/appgallery/detail/detailservice/fragment/FaDetailFragment;)V
 
     return-void
 .end method

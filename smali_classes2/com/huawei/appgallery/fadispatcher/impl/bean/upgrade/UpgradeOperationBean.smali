@@ -36,7 +36,7 @@
 
 .field private flag:I
 
-.field private freeInstallCallback:Lcom/huawei/appmarket/wq3;
+.field private freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
 .field private isOpenHarmony:Z
 
@@ -123,11 +123,11 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->uniqueId:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->access$1000(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;)Lcom/huawei/appmarket/wq3;
+    invoke-static {p1}, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;->access$1000(Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean$Builder;)Lcom/huawei/appmarket/yq3;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/wq3;
+    iput-object p1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
     return-void
 .end method
@@ -199,11 +199,11 @@
     return v0
 .end method
 
-.method public getIFreeInstallCallback()Lcom/huawei/appmarket/wq3;
+.method public getIFreeInstallCallback()Lcom/huawei/appmarket/yq3;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/wq3;
+    iget-object v0, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
     return-object v0
 .end method
@@ -409,7 +409,7 @@
     .line 86
     .line 87
     .line 88
-    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/wq3;
+    iget-object v1, p0, Lcom/huawei/appgallery/fadispatcher/impl/bean/upgrade/UpgradeOperationBean;->freeInstallCallback:Lcom/huawei/appmarket/yq3;
 
     .line 89
     .line 90
@@ -435,7 +435,7 @@
 
     .line 101
     .line 102
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/bq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/eq6;->u(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 103
     .line 104

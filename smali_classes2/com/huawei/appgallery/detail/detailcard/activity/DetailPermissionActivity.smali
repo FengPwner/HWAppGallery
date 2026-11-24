@@ -122,7 +122,7 @@
     .line 49
     .line 50
     .line 51
-    const p1, 0x7f0a1809
+    const p1, 0x7f0a180a
 
     .line 52
     .line 53
@@ -139,12 +139,12 @@
 
     .line 59
     .line 60
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     .line 64
     .line 65
@@ -212,7 +212,7 @@
     move-result-object v3
 
     .line 95
-    const v4, 0x7f0a1898
+    const v4, 0x7f0a1899
 
     .line 96
     .line 97
@@ -229,7 +229,7 @@
 
     .line 103
     .line 104
-    const v5, 0x7f0a1897
+    const v5, 0x7f0a1898
 
     .line 105
     .line 106

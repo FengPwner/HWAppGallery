@@ -101,12 +101,12 @@
     return v0
 .end method
 
-.method protected a(Lcom/huawei/appmarket/nv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
+.method protected a(Lcom/huawei/appmarket/tv7;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;",
             ">;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
@@ -207,7 +207,7 @@
 
     invoke-virtual {p3, p2}, Lcom/huawei/hms/iap/entity/OwnedPurchasesResult;->setSignatureAlgorithm(Ljava/lang/String;)V
 
-    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p1, p3}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     return-void
 .end method

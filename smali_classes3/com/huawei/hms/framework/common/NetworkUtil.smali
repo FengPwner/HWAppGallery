@@ -243,7 +243,7 @@
     return-object p0
 
     :cond_0
-    invoke-static {p0}, Lcom/huawei/appmarket/jc8;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/appmarket/oc8;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -344,7 +344,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1, v1}, Lcom/huawei/appmarket/om5;->o(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/uq5;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
@@ -540,7 +540,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method public static getLteCqi(Landroid/content/Context;)I
@@ -564,7 +563,7 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -582,7 +581,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/l85;->D(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/o85;->D(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
 
@@ -650,7 +649,7 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -668,7 +667,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/l85;->B(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/o85;->B(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
 
@@ -736,7 +735,7 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -754,7 +753,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/l85;->y(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/o85;->y(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
 
@@ -822,7 +821,7 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -840,7 +839,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
     :try_end_0
@@ -896,7 +895,7 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -914,7 +913,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/l85;->c(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/o85;->c(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
 
@@ -1008,7 +1007,7 @@
     if-le v1, v2, :cond_1
 
     :try_start_1
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1042,7 +1041,7 @@
 
     check-cast v2, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/l85;->B(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/o85;->B(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result v2
 
@@ -1058,7 +1057,7 @@
 
     check-cast v2, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/l85;->y(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/o85;->y(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result v2
 
@@ -1074,7 +1073,7 @@
 
     check-cast v2, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/l85;->c(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/o85;->c(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result v2
 
@@ -1090,7 +1089,7 @@
 
     check-cast v2, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {v2}, Lcom/huawei/appmarket/l85;->D(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/o85;->D(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result v2
 
@@ -1108,7 +1107,7 @@
 
     check-cast p0, Landroid/telephony/CellSignalStrengthLte;
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     move-result p0
 
@@ -1493,11 +1492,11 @@
 
     :cond_2
     :try_start_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1511,11 +1510,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->x(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->x(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v2
 
@@ -1527,7 +1526,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {v0}, Lcom/huawei/appmarket/qe3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {v0}, Lcom/huawei/appmarket/se3;->m(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1550,7 +1549,7 @@
     goto :goto_1
 
     :cond_4
-    invoke-static {v0}, Lcom/huawei/appmarket/qe3;->v(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {v0}, Lcom/huawei/appmarket/se3;->v(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1573,11 +1572,11 @@
     goto :goto_1
 
     :cond_5
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->k()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->k()Ljava/lang/Class;
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1591,18 +1590,18 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->j(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthTdscdma;
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->j(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthTdscdma;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->c(Landroid/telephony/CellSignalStrengthTdscdma;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->c(Landroid/telephony/CellSignalStrengthTdscdma;)I
 
     move-result v2
 
     goto :goto_1
 
     :cond_6
-    invoke-static {v0}, Lcom/huawei/appmarket/qe3;->y(Landroid/telephony/SignalStrength;)Ljava/util/List;
+    invoke-static {v0}, Lcom/huawei/appmarket/se3;->y(Landroid/telephony/SignalStrength;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2113,11 +2112,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2133,11 +2132,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->C(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->C(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2193,11 +2192,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2213,11 +2212,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->b(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->b(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2273,11 +2272,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2293,11 +2292,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->A(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->A(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2366,11 +2365,11 @@
 
     if-le v1, v2, :cond_1
 
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2388,11 +2387,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/qe3;->x(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/se3;->x(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2408,11 +2407,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/qe3;->C(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/se3;->C(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2428,11 +2427,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/qe3;->b(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/se3;->b(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2448,11 +2447,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/qe3;->A(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/se3;->A(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2468,11 +2467,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/qe3;->D(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/se3;->D(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2488,11 +2487,11 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/huawei/appmarket/vg5;->d(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/huawei/appmarket/yg5;->d(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result v3
 
@@ -2508,11 +2507,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->t(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->t(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
 
@@ -2575,11 +2574,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2595,11 +2594,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->D(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->D(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2655,11 +2654,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2675,11 +2674,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->d(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->d(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2735,11 +2734,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/qe3;->u()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/appmarket/se3;->u()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-static {p0, v1}, Lcom/huawei/appmarket/vg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/appmarket/yg5;->i(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -2755,11 +2754,11 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/vg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/huawei/appmarket/yg5;->h(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/qe3;->t(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/se3;->t(Landroid/telephony/CellSignalStrengthNr;)I
 
     move-result p0
     :try_end_0
@@ -2843,7 +2842,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/of1;->k(Landroid/telephony/TelephonyManager;)Landroid/telephony/SignalStrength;
+    invoke-static {p0}, Lcom/huawei/appmarket/qf1;->k(Landroid/telephony/TelephonyManager;)Landroid/telephony/SignalStrength;
 
     move-result-object p0
 
@@ -2878,11 +2877,11 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/o85;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/r85;->a()I
 
     move-result v0
 
-    invoke-static {p0, v0}, Lcom/huawei/appmarket/o85;->h(Landroid/telephony/TelephonyManager;I)Landroid/telephony/TelephonyManager;
+    invoke-static {p0, v0}, Lcom/huawei/appmarket/r85;->h(Landroid/telephony/TelephonyManager;I)Landroid/telephony/TelephonyManager;
 
     move-result-object p0
 
@@ -3077,7 +3076,7 @@
 
     if-eqz v5, :cond_0
 
-    invoke-static {v4}, Lcom/huawei/appmarket/qe3;->i(Landroid/net/NetworkCapabilities;)Landroid/net/TransportInfo;
+    invoke-static {v4}, Lcom/huawei/appmarket/se3;->i(Landroid/net/NetworkCapabilities;)Landroid/net/TransportInfo;
 
     move-result-object v4
 
@@ -3450,7 +3449,7 @@
     return p1
 
     :cond_2
-    invoke-static {p0}, Lcom/huawei/appmarket/ej5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
+    invoke-static {p0}, Lcom/huawei/appmarket/gj5;->j(Landroid/net/ConnectivityManager;)Landroid/net/Network;
 
     move-result-object v2
 
@@ -3561,7 +3560,7 @@
     if-eqz p0, :cond_0
 
     :try_start_0
-    invoke-static {p0}, Lcom/huawei/appmarket/r58;->u(Landroid/os/UserManager;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/da9;->b(Landroid/os/UserManager;)Z
 
     move-result p0
     :try_end_0
@@ -3710,7 +3709,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {p0}, Lcom/huawei/appmarket/o85;->b(Landroid/net/ConnectivityManager;)I
+    invoke-static {p0}, Lcom/huawei/appmarket/r85;->b(Landroid/net/ConnectivityManager;)I
 
     move-result v1
 

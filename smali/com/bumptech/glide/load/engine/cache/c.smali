@@ -119,7 +119,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/huawei/appmarket/f56;->b(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcom/huawei/appmarket/h56;->b(Ljava/lang/Object;)V
 
     check-cast v2, Lcom/bumptech/glide/load/engine/cache/c$a;
 

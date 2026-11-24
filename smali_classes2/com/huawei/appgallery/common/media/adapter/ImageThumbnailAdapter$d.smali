@@ -222,7 +222,7 @@
 
     :cond_3
     :goto_0
-    iget-object p1, v1, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/du3;
+    iget-object p1, v1, Lcom/huawei/appgallery/common/media/adapter/BaseThumbnailAdapter;->iLoadImageListener:Lcom/huawei/appmarket/fu3;
 
     if-eqz p1, :cond_4
 
@@ -232,7 +232,7 @@
 
     move-result v0
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/du3;->l1(I)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fu3;->l1(I)V
 
     :cond_4
     return-void

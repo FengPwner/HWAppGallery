@@ -527,19 +527,19 @@
 
     const v1, 0x1020048
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     const v2, 0x1020049
 
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     const v3, 0x1020046
 
-    invoke-static {v3, v0}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v3, v0}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     const v4, 0x1020047
 
-    invoke-static {v4, v0}, Lcom/huawei/appmarket/ei8;->Z(ILandroid/view/View;)V
+    invoke-static {v4, v0}, Lcom/huawei/appmarket/ki8;->Z(ILandroid/view/View;)V
 
     iget-object v5, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
@@ -623,7 +623,7 @@
 
     iget-object v3, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->mActionPageForward:Lcom/huawei/appmarket/i5;
 
-    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {v0, v2, v3}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     :cond_5
     iget-object v2, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->this$0:Landroidx/viewpager2/widget/ViewPager2;
@@ -638,7 +638,7 @@
 
     iget-object v1, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->mActionPageBackward:Lcom/huawei/appmarket/i5;
 
-    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {v0, v2, v1}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     goto :goto_1
 
@@ -657,7 +657,7 @@
 
     iget-object v2, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->mActionPageForward:Lcom/huawei/appmarket/i5;
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     :cond_7
     iget-object v1, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->this$0:Landroidx/viewpager2/widget/ViewPager2;
@@ -672,7 +672,7 @@
 
     iget-object v2, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->mActionPageBackward:Lcom/huawei/appmarket/i5;
 
-    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ei8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/appmarket/ki8;->b0(Landroid/view/View;Lcom/huawei/appmarket/f5$a;Lcom/huawei/appmarket/i5;)V
 
     :cond_8
     :goto_1

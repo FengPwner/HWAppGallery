@@ -80,7 +80,7 @@
     return-object v0
 .end method
 
-.method public bridge synthetic getRequest()Lcom/huawei/appmarket/z86$a;
+.method public bridge synthetic getRequest()Lcom/huawei/appmarket/b96$a;
     .registers 2
 
     .line 1

@@ -216,7 +216,7 @@
     move-exception p0
 
     .line 83
-    sget-object v1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object v1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     .line 84
     .line 85
@@ -258,7 +258,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, p0}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -475,7 +475,7 @@
     :catch_0
     move-exception p1
 
-    sget-object v2, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object v2, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -493,16 +493,16 @@
 
     move-result-object p1
 
-    invoke-virtual {v2, v0, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :catch_1
-    sget-object p1, Lcom/huawei/appmarket/xx1;->a:Lcom/huawei/appmarket/xx1;
+    sget-object p1, Lcom/huawei/appmarket/by1;->a:Lcom/huawei/appmarket/by1;
 
     const-string v2, "JSONException when creating JSONArray for sliceList."
 
-    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_1

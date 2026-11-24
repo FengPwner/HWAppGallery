@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/k34$a;
+.implements Lcom/huawei/appmarket/m34$a;
 
 
 # annotations
@@ -64,9 +64,9 @@
 
     iget-object v2, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->l0:Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;
 
-    iget-object v0, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/se7;
+    iget-object v0, v0, Lcom/huawei/appgallery/fadispatcher/impl/loading/AbsLoadingFragment;->m0:Lcom/huawei/appmarket/xe7;
 
-    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/mn7;->a(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/k34;)V
+    invoke-static {v1, v2, v0}, Lcom/huawei/appmarket/sn7;->a(Lcom/huawei/appgallery/foundation/card/base/bean/HarmonyAppInfo;Lcom/huawei/appgallery/foundation/card/base/bean/RelatedFAInfo;Lcom/huawei/appmarket/m34;)V
 
     return-void
 .end method

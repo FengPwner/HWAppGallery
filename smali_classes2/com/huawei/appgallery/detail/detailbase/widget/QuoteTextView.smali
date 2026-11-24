@@ -247,7 +247,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method private d(Landroid/text/SpannableStringBuilder;I)V
@@ -467,7 +466,6 @@
     .line 161
     .line 162
     .line 163
-    .line 164
 .end method
 
 .method private e(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -476,19 +474,19 @@
     .line 1
     const v0, 0x7f070137
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/b37;->h(ILandroid/content/Context;)F
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/g37;->h(ILandroid/content/Context;)F
 
     move-result v0
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result v1
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v3
 
@@ -562,13 +560,13 @@
     goto :goto_0
 
     :catch_0
-    sget-object p1, Lcom/huawei/appmarket/ij1;->a:Lcom/huawei/appmarket/ij1;
+    sget-object p1, Lcom/huawei/appmarket/lj1;->a:Lcom/huawei/appmarket/lj1;
 
     const-string p2, "QuoteTextView"
 
     const-string v2, "QuoteTextView get resource error."
 
-    invoke-virtual {p1, p2, v2}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, v2}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iput v1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/QuoteTextView;->i:I
 
@@ -587,19 +585,19 @@
 
     iget-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/QuoteTextView;->n:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->r(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->r(Landroid/content/Context;)I
 
     move-result p1
 
     iget-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/widget/QuoteTextView;->n:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result v0
 
     iget-object v1, p0, Lcom/huawei/appgallery/detail/detailbase/widget/QuoteTextView;->n:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->p(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->p(Landroid/content/Context;)I
 
     move-result v1
 
@@ -1189,7 +1187,7 @@
 
     .line 272
     :cond_8
-    invoke-static {v4, v7, v4, p1}, Lcom/huawei/appmarket/bq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
+    invoke-static {v4, v7, v4, p1}, Lcom/huawei/appmarket/eq6;->q(Ljava/lang/String;ILjava/lang/String;I)Ljava/lang/String;
 
     .line 273
     .line 274
@@ -1231,7 +1229,7 @@
     .line 290
     .line 291
     .line 292
-    invoke-static {v4}, Lcom/huawei/appmarket/tu4;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/huawei/appmarket/wu4;->a(Ljava/lang/String;)Ljava/lang/String;
 
     .line 293
     .line 294
@@ -1591,11 +1589,6 @@
     .line 632
     .line 633
     .line 634
-    .line 635
-    .line 636
-    .line 637
-    .line 638
-    .line 639
 .end method
 
 .method public setMaxLines(I)V

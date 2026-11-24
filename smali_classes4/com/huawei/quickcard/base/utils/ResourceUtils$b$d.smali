@@ -27,14 +27,14 @@
 
 
 # virtual methods
-.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/pv5;
+.method final a(Ljava/lang/String;)Lcom/huawei/appmarket/rv5;
     .registers 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lcom/huawei/appmarket/pv5<",
+            "Lcom/huawei/appmarket/rv5<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Integer;",
             ">;"
@@ -46,7 +46,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/quickcard/base/utils/ResourceUtils;->e()Lcom/huawei/appmarket/ub1;
+    invoke-static {}, Lcom/huawei/quickcard/base/utils/ResourceUtils;->e()Lcom/huawei/appmarket/wb1;
 
     .line 4
     .line 5
@@ -93,7 +93,7 @@
 
     .line 25
     .line 26
-    new-instance v1, Lcom/huawei/appmarket/pv5;
+    new-instance v1, Lcom/huawei/appmarket/rv5;
 
     .line 27
     .line 28
@@ -217,7 +217,7 @@
     move-result-object p1
 
     .line 86
-    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p1}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 87
     .line 88
@@ -226,7 +226,7 @@
 
     .line 90
     :cond_0
-    new-instance p1, Lcom/huawei/appmarket/pv5;
+    new-instance p1, Lcom/huawei/appmarket/rv5;
 
     .line 91
     .line 92
@@ -242,7 +242,7 @@
     move-result-object v0
 
     .line 98
-    invoke-direct {p1, v1, v0}, Lcom/huawei/appmarket/pv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v1, v0}, Lcom/huawei/appmarket/rv5;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 99
     .line 100
@@ -328,21 +328,4 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method

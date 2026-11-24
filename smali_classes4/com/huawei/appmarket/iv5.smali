@@ -1,18 +1,37 @@
 .class public final Lcom/huawei/appmarket/iv5;
-.super Landroid/widget/LinearLayout;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# instance fields
+.field private a:Ljava/lang/String;
+
+
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/sa2;)V
-    .registers 2
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p1
+    sget v0, Lcom/huawei/appmarket/ir6;->c:I
 
-    invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+    iput-object p1, p0, Lcom/huawei/appmarket/iv5;->a:Ljava/lang/String;
 
     return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/huawei/appmarket/y49;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/y49;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/iv5;->a:Ljava/lang/String;
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/y49;-><init>(Ljava/lang/String;)V
+
+    return-object v0
 .end method

@@ -8,7 +8,7 @@
 
 .field private y:Landroid/widget/TextView;
 
-.field private z:Lcom/huawei/appmarket/ak0;
+.field private z:Lcom/huawei/appmarket/bk0;
 
 
 # direct methods
@@ -636,7 +636,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     .line 22
     .line 23
@@ -745,7 +745,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method public final w1()Landroid/widget/TextView;
@@ -766,11 +765,11 @@
     return-object v0
 .end method
 
-.method public final y1(Lcom/huawei/appmarket/ak0;)V
+.method public final y1(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/CombineGiftListCard;->z:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/CombineGiftListCard;->z:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method

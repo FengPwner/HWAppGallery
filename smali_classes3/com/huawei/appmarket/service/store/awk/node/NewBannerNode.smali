@@ -13,7 +13,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;-><init>(Landroid/content/Context;)V
 
@@ -37,7 +37,7 @@
     .line 1
     const-string v0, "rootLayout"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v0, 0x7f0d09a8
 
@@ -47,7 +47,7 @@
 
     const-string p3, "inflate(...)"
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p3, Lcom/huawei/appmarket/service/store/awk/card/f0;
 
@@ -59,11 +59,11 @@
 
     invoke-direct {p3, p2, v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/f0;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode$a;Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode$b;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->Q()Lcom/huawei/appmarket/du4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->Q()Lcom/huawei/appmarket/gu4;
 
     move-result-object p2
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     invoke-virtual {p0, p3}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
@@ -80,7 +80,7 @@
     .line 1
     const-string v0, "rootLayout"
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/gk4;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v0, 0x7f0d09aa
 
@@ -90,13 +90,13 @@
 
     const-string p3, "inflate(...)"
 
-    invoke-static {p1, p3}, Lcom/huawei/appmarket/ek4;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcom/huawei/appmarket/gk4;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->R(Landroid/view/View;)Lcom/huawei/appmarket/ej4;
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->R(Landroid/view/View;)Lcom/huawei/appmarket/gj4;
 
     move-result-object p3
 
-    invoke-virtual {p0, p3}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->S(Lcom/huawei/appmarket/ej4;)V
+    invoke-virtual {p0, p3}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->S(Lcom/huawei/appmarket/gj4;)V
 
     new-instance p3, Lcom/huawei/appmarket/service/store/awk/card/f0;
 
@@ -108,17 +108,17 @@
 
     invoke-direct {p3, p2, v0, v1}, Lcom/huawei/appmarket/service/store/awk/card/f0;-><init>(Landroid/content/Context;Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode$a;Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode$b;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->P()Lcom/huawei/appmarket/ej4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->P()Lcom/huawei/appmarket/gj4;
 
     move-result-object p2
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/f0;->X1(Lcom/huawei/appmarket/ej4;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/f0;->X1(Lcom/huawei/appmarket/gj4;)V
 
-    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->Q()Lcom/huawei/appmarket/du4;
+    invoke-virtual {p0}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->Q()Lcom/huawei/appmarket/gu4;
 
     move-result-object p2
 
-    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/du4;)V
+    invoke-virtual {p3, p2}, Lcom/huawei/appmarket/service/store/awk/card/BannerAbsCard;->Y(Lcom/huawei/appmarket/gu4;)V
 
     invoke-virtual {p0, p3}, Lcom/huawei/appmarket/o2;->c(Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;)V
 
@@ -129,7 +129,7 @@
     return-void
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 6
 
     .line 1
@@ -137,7 +137,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/hj0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/ij0;->g()Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object v1
 
@@ -173,7 +173,7 @@
     invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/ui/framework/cardframe/component/NormalCardComponentData;->h0()V
 
     :cond_3
-    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+    invoke-super {p0, p1, p2}, Lcom/huawei/appmarket/service/store/awk/node/VerticalMultiTabsEntranceNode;->p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
 
     return-void
 .end method

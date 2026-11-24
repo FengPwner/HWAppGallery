@@ -16,10 +16,10 @@
 
 .field private static final TAG:Ljava/lang/String; = "OpenDeletePostAction"
 
-.field private static onCompleteListener:Lcom/huawei/appmarket/eo5;
+.field private static onCompleteListener:Lcom/huawei/appmarket/fo5;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/huawei/appmarket/eo5<",
+            "Lcom/huawei/appmarket/fo5<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -28,28 +28,28 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
     .registers 3
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/c72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
+    invoke-direct {p0, p1, p2}, Lcom/huawei/appgallery/assistantdock/base/externalaction/openviewaction/IOpenViewAction;-><init>(Lcom/huawei/appmarket/g72$b;Lcom/huawei/secure/android/common/intent/SafeIntent;)V
 
     return-void
 .end method
 
-.method public static setOnCompleteListener(Lcom/huawei/appmarket/eo5;)V
+.method public static setOnCompleteListener(Lcom/huawei/appmarket/fo5;)V
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/eo5<",
+            "Lcom/huawei/appmarket/fo5<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    sput-object p0, Lcom/huawei/appgallery/forum/posts/buoy/action/OpenDeleteCommentAction;->onCompleteListener:Lcom/huawei/appmarket/eo5;
+    sput-object p0, Lcom/huawei/appgallery/forum/posts/buoy/action/OpenDeleteCommentAction;->onCompleteListener:Lcom/huawei/appmarket/fo5;
 
     return-void
 .end method
@@ -68,12 +68,12 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/gz4;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/jz4;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 9
     .line 10
@@ -89,7 +89,7 @@
 
     .line 15
     :cond_0
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 16
     .line 17
@@ -101,11 +101,11 @@
 
     .line 20
     .line 21
-    check-cast v0, Lcom/huawei/appmarket/dr6;
+    check-cast v0, Lcom/huawei/appmarket/gr6;
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 24
     .line 25
@@ -113,11 +113,11 @@
     move-result-object v0
 
     .line 27
-    const-class v1, Lcom/huawei/appmarket/xv3;
+    const-class v1, Lcom/huawei/appmarket/zv3;
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -125,11 +125,11 @@
     move-result-object v0
 
     .line 33
-    check-cast v0, Lcom/huawei/appmarket/xv3;
+    check-cast v0, Lcom/huawei/appmarket/zv3;
 
     .line 34
     .line 35
-    new-instance v7, Lcom/huawei/appmarket/ph1;
+    new-instance v7, Lcom/huawei/appmarket/sh1;
 
     .line 36
     .line 37
@@ -204,12 +204,12 @@
     move-object v1, v7
 
     .line 72
-    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/ph1;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v6}, Lcom/huawei/appmarket/sh1;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
     .line 75
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     .line 76
     .line 77
@@ -217,7 +217,7 @@
 
     .line 78
     .line 79
-    invoke-interface {v0, v1, v7}, Lcom/huawei/appmarket/xv3;->g(Landroid/content/Context;Lcom/huawei/appmarket/ph1;)Lcom/huawei/appmarket/hv7;
+    invoke-interface {v0, v1, v7}, Lcom/huawei/appmarket/zv3;->g(Landroid/content/Context;Lcom/huawei/appmarket/sh1;)Lcom/huawei/appmarket/nv7;
 
     .line 80
     .line 81
@@ -225,11 +225,11 @@
     move-result-object v0
 
     .line 83
-    sget-object v1, Lcom/huawei/appgallery/forum/posts/buoy/action/OpenDeleteCommentAction;->onCompleteListener:Lcom/huawei/appmarket/eo5;
+    sget-object v1, Lcom/huawei/appgallery/forum/posts/buoy/action/OpenDeleteCommentAction;->onCompleteListener:Lcom/huawei/appmarket/fo5;
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/hv7;->addOnCompleteListener(Lcom/huawei/appmarket/eo5;)Lcom/huawei/appmarket/hv7;
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/nv7;->addOnCompleteListener(Lcom/huawei/appmarket/fo5;)Lcom/huawei/appmarket/nv7;
 
     .line 86
     .line 87

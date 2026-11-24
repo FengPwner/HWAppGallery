@@ -7,13 +7,13 @@
 .method public abstract clear()V
 .end method
 
-.method public abstract load(Lcom/huawei/appmarket/fc2;)Lcom/huawei/appmarket/hv7;
+.method public abstract load(Lcom/huawei/appmarket/ic2;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/huawei/appmarket/fc2;",
+            "Lcom/huawei/appmarket/ic2;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/Void;",
             ">;"
         }

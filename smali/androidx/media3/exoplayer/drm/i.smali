@@ -124,7 +124,7 @@
     .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/vf0;->a:Ljava/util/UUID;
+    sget-object v0, Lcom/huawei/appmarket/wf0;->a:Ljava/util/UUID;
 
     return-object v0
 .end method

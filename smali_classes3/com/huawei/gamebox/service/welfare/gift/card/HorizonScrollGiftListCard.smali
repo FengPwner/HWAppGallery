@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field private final H:Lcom/huawei/appmarket/ja3;
+.field private final H:Lcom/huawei/appmarket/ma3;
 
 .field private I:Landroidx/recyclerview/widget/RecyclerView;
 
-.field private J:Lcom/huawei/appmarket/ak0;
+.field private J:Lcom/huawei/appmarket/bk0;
 
 .field private K:Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -27,16 +27,16 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/huawei/appmarket/ja3;
+    new-instance v0, Lcom/huawei/appmarket/ma3;
 
     .line 5
     .line 6
-    invoke-direct {v0}, Lcom/huawei/appmarket/ja3;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/ma3;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ja3;
+    iput-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ma3;
 
     .line 10
     .line 11
@@ -61,7 +61,7 @@
     move-result v1
 
     .line 22
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ja3;->m(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ma3;->m(I)V
 
     .line 23
     .line 24
@@ -82,7 +82,7 @@
     move-result v1
 
     .line 33
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ja3;->r(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ma3;->r(I)V
 
     .line 34
     .line 35
@@ -108,7 +108,7 @@
     move-result v1
 
     .line 47
-    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ja3;->s(I)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ma3;->s(I)V
 
     .line 48
     .line 49
@@ -134,7 +134,7 @@
     move-result p1
 
     .line 61
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->n(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->n(I)V
 
     .line 62
     .line 63
@@ -155,7 +155,7 @@
 
     .line 71
     .line 72
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 73
     .line 74
@@ -163,12 +163,12 @@
     move-result p1
 
     .line 76
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->q(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->q(I)V
 
     .line 77
     .line 78
     .line 79
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 80
     .line 81
@@ -176,7 +176,7 @@
     move-result p1
 
     .line 83
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->u(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->u(I)V
 
     .line 84
     .line 85
@@ -234,7 +234,7 @@
 
     .line 111
     :cond_1
-    invoke-static {}, Lcom/huawei/appmarket/w68;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->c()I
 
     .line 112
     .line 113
@@ -243,7 +243,7 @@
 
     .line 115
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->t(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->t(I)V
 
     .line 116
     .line 117
@@ -252,7 +252,7 @@
 
     .line 119
     .line 120
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 121
     .line 122
@@ -260,7 +260,7 @@
     move-result p1
 
     .line 124
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->q(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->q(I)V
 
     .line 125
     .line 126
@@ -310,7 +310,7 @@
 
     .line 149
     :cond_2
-    invoke-static {}, Lcom/huawei/appmarket/w68;->g()I
+    invoke-static {}, Lcom/huawei/appmarket/b78;->g()I
 
     .line 150
     .line 151
@@ -319,7 +319,7 @@
 
     .line 153
     :goto_1
-    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ja3;->u(I)V
+    invoke-virtual {v0, p1}, Lcom/huawei/appmarket/ma3;->u(I)V
 
     .line 154
     .line 155
@@ -520,8 +520,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method static synthetic M1(Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;)J
@@ -753,7 +751,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 
@@ -819,7 +816,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     .line 31
     .line 32
@@ -827,7 +824,7 @@
     move-result v0
 
     .line 34
-    invoke-static {}, Lcom/huawei/appmarket/zk0;->c()I
+    invoke-static {}, Lcom/huawei/appmarket/al0;->c()I
 
     .line 35
     .line 36
@@ -881,11 +878,11 @@
 
     .line 60
     .line 61
-    iget-object v2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ja3;
+    iget-object v2, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ma3;
 
     .line 62
     .line 63
-    invoke-direct {v0, p0, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;-><init>(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;Lcom/huawei/appmarket/ja3;)V
+    invoke-direct {v0, p0, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;-><init>(Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;Lcom/huawei/appmarket/ma3;)V
 
     .line 64
     .line 65
@@ -936,12 +933,12 @@
 
     .line 89
     .line 90
-    invoke-virtual {p0, p1, v0, v3, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->L1(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;Landroidx/recyclerview/widget/LinearLayoutManager;Lcom/huawei/appmarket/ja3;)V
+    invoke-virtual {p0, p1, v0, v3, v2}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->L1(Landroidx/recyclerview/widget/RecyclerView;Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard$d;Landroidx/recyclerview/widget/LinearLayoutManager;Lcom/huawei/appmarket/ma3;)V
 
     .line 91
     .line 92
     .line 93
-    invoke-static {}, Lcom/huawei/appmarket/b00;->v()Z
+    invoke-static {}, Lcom/huawei/appmarket/fs;->x()Z
 
     .line 94
     .line 95
@@ -988,11 +985,11 @@
     .line 115
     .line 116
     .line 117
-    new-instance p1, Lcom/huawei/appmarket/q23;
+    new-instance p1, Lcom/huawei/appmarket/t23;
 
     .line 118
     .line 119
-    invoke-direct {p1}, Lcom/huawei/appmarket/q23;-><init>()V
+    invoke-direct {p1}, Lcom/huawei/appmarket/t23;-><init>()V
 
     .line 120
     .line 121
@@ -1001,7 +998,7 @@
 
     .line 123
     .line 124
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/q23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/t23;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 125
     .line 126
@@ -1238,8 +1235,6 @@
     .line 348
     .line 349
     .line 350
-    .line 351
-    .line 352
 .end method
 
 .method public final T()V
@@ -1289,11 +1284,11 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->J:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->J:Lcom/huawei/appmarket/bk0;
 
     .line 14
     .line 15
-    invoke-super {p0, v0}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->H1(Lcom/huawei/appmarket/ak0;)V
+    invoke-super {p0, v0}, Lcom/huawei/gamebox/service/welfare/gift/card/BaseGiftScrollCard;->H1(Lcom/huawei/appmarket/bk0;)V
 
     .line 16
     .line 17
@@ -1363,15 +1358,15 @@
 
     .line 49
     .line 50
-    new-instance v0, Lcom/huawei/appmarket/d03;
+    new-instance v0, Lcom/huawei/appmarket/g03;
 
     .line 51
     .line 52
-    iget-object v1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ja3;
+    iget-object v1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->H:Lcom/huawei/appmarket/ma3;
 
     .line 53
     .line 54
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/d03;-><init>(Lcom/huawei/appmarket/ja3;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/g03;-><init>(Lcom/huawei/appmarket/ma3;)V
 
     .line 55
     .line 56
@@ -1388,7 +1383,7 @@
     move-result-object v2
 
     .line 63
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/d03;->a(Landroid/content/Context;Ljava/util/List;)I
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/g03;->a(Landroid/content/Context;Ljava/util/List;)I
 
     .line 64
     .line 65
@@ -1468,14 +1463,13 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
-.method public final Z(Lcom/huawei/appmarket/ak0;)V
+.method public final Z(Lcom/huawei/appmarket/bk0;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->J:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/gamebox/service/welfare/gift/card/HorizonScrollGiftListCard;->J:Lcom/huawei/appmarket/bk0;
 
     return-void
 .end method

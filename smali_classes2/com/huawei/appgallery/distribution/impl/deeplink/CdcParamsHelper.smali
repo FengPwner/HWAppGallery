@@ -32,43 +32,43 @@
     .line 1
     const-string v0, "accessID"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v0, "s"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v0, "id"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v0, "channelId"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     const-string v0, "extraParam"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
     const-string v0, "initParam"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
     const-string v0, "detailType"
 
-    invoke-static {p1, v0}, Lcom/huawei/appmarket/yo1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/bp1;->b(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -99,7 +99,7 @@
     move-exception p1
 
     :goto_0
-    sget-object v0, Lcom/huawei/appmarket/cr1;->a:Lcom/huawei/appmarket/cr1;
+    sget-object v0, Lcom/huawei/appmarket/fr1;->a:Lcom/huawei/appmarket/fr1;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -119,7 +119,7 @@
 
     const-string v1, "CdcParamsHelper"
 
-    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/huawei/appmarket/jy4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     return-void

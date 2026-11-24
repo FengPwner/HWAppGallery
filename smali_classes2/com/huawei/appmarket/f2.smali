@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field protected b:Lcom/huawei/appmarket/eo1;
+.field protected b:Lcom/huawei/appmarket/ho1;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/eo1;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/huawei/appmarket/ho1;Ljava/lang/String;)V
     .registers 5
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lcom/huawei/appmarket/wf5;->a:Lcom/huawei/appmarket/wf5;
+    sget-object v0, Lcom/huawei/appmarket/zf5;->a:Lcom/huawei/appmarket/zf5;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -35,9 +35,9 @@
 
     const-string v1, "AbsDiagnoseTask"
 
-    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p2}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/f2;->b:Lcom/huawei/appmarket/eo1;
+    iput-object p1, p0, Lcom/huawei/appmarket/f2;->b:Lcom/huawei/appmarket/ho1;
 
     return-void
 .end method

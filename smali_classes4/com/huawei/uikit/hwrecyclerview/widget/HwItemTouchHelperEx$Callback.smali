@@ -46,19 +46,19 @@
 .method static constructor <clinit>()V
     .registers 2
 
-    new-instance v0, Lcom/huawei/appmarket/mf5;
+    new-instance v0, Lcom/huawei/appmarket/pf5;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/mf5;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pf5;-><init>(I)V
 
     sput-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$Callback;->h:Landroid/view/animation/Interpolator;
 
-    new-instance v0, Lcom/huawei/appmarket/mf5;
+    new-instance v0, Lcom/huawei/appmarket/pf5;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/mf5;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/pf5;-><init>(I)V
 
     sput-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/HwItemTouchHelperEx$Callback;->i:Landroid/view/animation/Interpolator;
 
@@ -145,11 +145,11 @@
     .registers 4
 
     .line 5
-    new-instance v0, Lcom/huawei/appmarket/qm;
+    new-instance v0, Lcom/huawei/appmarket/pm;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/qm;-><init>(Landroid/view/View;I)V
+    invoke-direct {v0, p1, v1}, Lcom/huawei/appmarket/pm;-><init>(Landroid/view/View;I)V
 
     return-object v0
 .end method
@@ -737,11 +737,11 @@
     return-void
 .end method
 
-.method public static getDefaultUIUtil()Lcom/huawei/appmarket/uk4;
+.method public static getDefaultUIUtil()Lcom/huawei/appmarket/xk4;
     .registers 1
 
     .line 1
-    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/xk4;
 
     return-object v0
 .end method
@@ -796,7 +796,7 @@
 
     move-result p2
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->t(Landroid/view/View;)I
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->t(Landroid/view/View;)I
 
     move-result p1
 
@@ -1187,11 +1187,11 @@
 .method public clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$d0;)V
     .registers 4
 
-    sget-object p1, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/uk4;
+    sget-object p1, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/xk4;
 
     iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/uk4;->clearView(Landroid/view/View;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/xk4;->clearView(Landroid/view/View;)V
 
     iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
@@ -1435,7 +1435,7 @@
 .method public onChildDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$d0;FFIZ)V
     .registers 16
 
-    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/xk4;
 
     iget-object v3, p3, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
@@ -1451,7 +1451,7 @@
 
     move v7, p7
 
-    invoke-interface/range {v0 .. v7}, Lcom/huawei/appmarket/uk4;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
+    invoke-interface/range {v0 .. v7}, Lcom/huawei/appmarket/xk4;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
 
     return-void
 .end method
@@ -1459,7 +1459,7 @@
 .method public onChildDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$d0;FFIZ)V
     .registers 16
 
-    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/uk4;
+    sget-object v0, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/xk4;
 
     iget-object v3, p3, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
@@ -1475,7 +1475,7 @@
 
     move v7, p7
 
-    invoke-interface/range {v0 .. v7}, Lcom/huawei/appmarket/uk4;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
+    invoke-interface/range {v0 .. v7}, Lcom/huawei/appmarket/xk4;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
 
     return-void
 .end method
@@ -1606,11 +1606,11 @@
 
     if-eqz p1, :cond_0
 
-    sget-object p2, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/uk4;
+    sget-object p2, Lcom/huawei/uikit/hwrecyclerview/widget/aauaf;->a:Lcom/huawei/appmarket/xk4;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->itemView:Landroid/view/View;
 
-    invoke-interface {p2, p1}, Lcom/huawei/appmarket/uk4;->onSelected(Landroid/view/View;)V
+    invoke-interface {p2, p1}, Lcom/huawei/appmarket/xk4;->onSelected(Landroid/view/View;)V
 
     :cond_0
     return-void

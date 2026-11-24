@@ -55,7 +55,7 @@
 
     move-result-object p1
 
-    sget-object v2, Lcom/huawei/appmarket/fl4;->b:Ljava/lang/String;
+    sget-object v2, Lcom/huawei/appmarket/il4;->b:Ljava/lang/String;
 
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -117,7 +117,7 @@
 
     const-string p1, "show noDataView, provider is empty"
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -162,7 +162,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

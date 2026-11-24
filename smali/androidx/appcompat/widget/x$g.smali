@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p4, p3, p2}, Lcom/huawei/appmarket/ag8;->a(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/content/res/XmlResourceParser;)Lcom/huawei/appmarket/ag8;
+    invoke-static {p1, p4, p3, p2}, Lcom/huawei/appmarket/fg8;->a(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/content/res/XmlResourceParser;)Lcom/huawei/appmarket/fg8;
 
     move-result-object p1
     :try_end_0

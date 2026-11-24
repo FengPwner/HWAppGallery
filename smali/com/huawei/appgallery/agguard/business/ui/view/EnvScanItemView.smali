@@ -160,7 +160,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/og3;Ljava/lang/Boolean;)V
+.method public final a(Lcom/huawei/appmarket/qg3;Ljava/lang/Boolean;)V
     .registers 10
 
     .line 1

@@ -70,13 +70,13 @@
     return-object p1
 .end method
 
-.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lcom/huawei/appmarket/nv7;)V
+.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lcom/huawei/appmarket/tv7;)V
     .registers 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/hms/push/plugin/notification/NotificationStatus;",
             ">;)V"
         }
@@ -99,7 +99,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     goto :goto_0
 
@@ -120,7 +120,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p2, v0}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     :goto_0
     return-void
@@ -128,7 +128,7 @@
 
 
 # virtual methods
-.method protected a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method protected a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -136,7 +136,7 @@
             "Lcom/huawei/hms/aaid/task/PushClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lcom/huawei/appmarket/nv7<",
+            "Lcom/huawei/appmarket/tv7<",
             "Lcom/huawei/hms/push/plugin/notification/NotificationStatus;",
             ">;)V"
         }
@@ -169,7 +169,7 @@
 
     invoke-static {v1, p1}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/push/plugin/notification/b;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lcom/huawei/appmarket/nv7;)V
+    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/push/plugin/notification/b;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lcom/huawei/appmarket/tv7;)V
 
     goto :goto_0
 
@@ -200,7 +200,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/nv7;->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lcom/huawei/appmarket/tv7;->setException(Ljava/lang/Exception;)V
 
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -243,7 +243,7 @@
 
     invoke-virtual {p3, v1}, Lcom/huawei/hms/support/api/client/Status;->setIntent(Landroid/content/Intent;)V
 
-    invoke-virtual {p4, v0}, Lcom/huawei/appmarket/nv7;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p4, v0}, Lcom/huawei/appmarket/tv7;->setResult(Ljava/lang/Object;)V
 
     new-instance p3, Lcom/huawei/hms/aaid/utils/PushPreferences;
 
@@ -279,13 +279,13 @@
     return-void
 .end method
 
-.method protected bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+.method protected bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
     .registers 5
 
     .line 1
     check-cast p1, Lcom/huawei/hms/aaid/task/PushClient;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/plugin/notification/b;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/nv7;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/plugin/notification/b;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lcom/huawei/appmarket/tv7;)V
 
     return-void
 .end method

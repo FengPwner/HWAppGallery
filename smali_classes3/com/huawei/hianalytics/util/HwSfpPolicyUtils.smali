@@ -149,7 +149,7 @@
 
     if-lt v0, v1, :cond_1
 
-    invoke-static {p0}, Lcom/huawei/appmarket/r58;->s(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/fq7;->A(Landroid/content/Context;)Z
 
     move-result v0
 

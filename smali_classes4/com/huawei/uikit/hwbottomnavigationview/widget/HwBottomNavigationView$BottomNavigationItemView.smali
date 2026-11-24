@@ -159,7 +159,7 @@
 
     iput-object v6, v0, Lcom/huawei/uikit/hwbottomnavigationview/widget/HwBottomNavigationView$BottomNavigationItemView;->k:Landroid/view/MenuItem;
 
-    sget-object v6, Lcom/huawei/appmarket/pf6;->a:[I
+    sget-object v6, Lcom/huawei/appmarket/rf6;->a:[I
 
     const v7, 0x7f130440
 
@@ -283,7 +283,7 @@
 
     iput-object v6, v0, Lcom/huawei/uikit/hwbottomnavigationview/widget/HwBottomNavigationView$BottomNavigationItemView;->b:Lcom/huawei/uikit/hwtextview/widget/HwTextView;
 
-    const v7, 0x7f0a162b
+    const v7, 0x7f0a162c
 
     invoke-virtual {p0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,217 +783,217 @@
     .line 22
     .line 23
     .line 24
-    const-string v3, "window"
+    const-string/jumbo v3, "window"
 
     .line 25
     .line 26
+    .line 27
     invoke-virtual {v0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 27
     .line 28
     .line 29
-    move-result-object v0
-
     .line 30
-    check-cast v0, Landroid/view/WindowManager;
+    move-result-object v0
 
     .line 31
+    check-cast v0, Landroid/view/WindowManager;
+
     .line 32
+    .line 33
     invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
-    .line 33
     .line 34
     .line 35
+    .line 36
     move-result-object v0
 
-    .line 36
+    .line 37
     invoke-virtual {v0, v2}, Landroid/view/Display;->getRealSize(Landroid/graphics/Point;)V
 
-    .line 37
     .line 38
     .line 39
+    .line 40
     iget v0, v2, Landroid/graphics/Point;->y:I
 
-    .line 40
     .line 41
+    .line 42
     iget v3, v2, Landroid/graphics/Point;->x:I
 
-    .line 42
     .line 43
+    .line 44
     if-ge v0, v3, :cond_0
 
-    .line 44
     .line 45
+    .line 46
     new-instance v0, Landroid/util/Size;
 
-    .line 46
     .line 47
+    .line 48
     iget v3, v2, Landroid/graphics/Point;->y:I
 
-    .line 48
     .line 49
+    .line 50
     iget v2, v2, Landroid/graphics/Point;->x:I
 
-    .line 50
     .line 51
+    .line 52
     invoke-direct {v0, v3, v2}, Landroid/util/Size;-><init>(II)V
 
-    .line 52
     .line 53
     .line 54
+    .line 55
     goto :goto_0
 
-    .line 55
+    .line 56
     :cond_0
     new-instance v0, Landroid/util/Size;
 
-    .line 56
     .line 57
+    .line 58
     iget v3, v2, Landroid/graphics/Point;->x:I
 
-    .line 58
     .line 59
+    .line 60
     iget v2, v2, Landroid/graphics/Point;->y:I
 
-    .line 60
     .line 61
+    .line 62
     invoke-direct {v0, v3, v2}, Landroid/util/Size;-><init>(II)V
 
-    .line 62
     .line 63
     .line 64
+    .line 65
     :goto_0
     invoke-virtual {v0}, Landroid/util/Size;->getHeight()I
 
-    .line 65
     .line 66
     .line 67
+    .line 68
     move-result v2
 
-    .line 68
+    .line 69
     if-gtz v2, :cond_1
 
-    .line 69
     .line 70
+    .line 71
     goto :goto_1
 
-    .line 71
+    .line 72
     :cond_1
     invoke-virtual {v0}, Landroid/util/Size;->getWidth()I
 
-    .line 72
     .line 73
     .line 74
+    .line 75
     move-result v2
 
-    .line 75
+    .line 76
     int-to-float v2, v2
 
-    .line 76
+    .line 77
     invoke-virtual {v0}, Landroid/util/Size;->getHeight()I
 
-    .line 77
     .line 78
     .line 79
-    move-result v0
-
     .line 80
-    int-to-float v0, v0
+    move-result v0
 
     .line 81
-    div-float/2addr v2, v0
+    int-to-float v0, v0
 
     .line 82
-    const/high16 v0, 0x3f600000    # 0.875f
+    div-float/2addr v2, v0
 
     .line 83
+    const/high16 v0, 0x3f600000    # 0.875f
+
     .line 84
+    .line 85
     invoke-static {v2, v0}, Ljava/lang/Float;->compare(FF)I
 
-    .line 85
     .line 86
     .line 87
+    .line 88
     move-result v0
 
-    .line 88
+    .line 89
     if-ltz v0, :cond_2
 
-    .line 89
     .line 90
+    .line 91
     goto :goto_3
 
-    .line 91
+    .line 92
     :cond_2
     :goto_1
     invoke-static {}, Lcom/huawei/uikit/hwbottomnavigationview/widget/utils/HwDeviceUtils;->d()Z
 
-    .line 92
     .line 93
     .line 94
-    move-result v0
-
     .line 95
-    if-nez v0, :cond_4
+    move-result v0
 
     .line 96
+    if-nez v0, :cond_4
+
     .line 97
+    .line 98
     invoke-static {}, Lcom/huawei/uikit/hwbottomnavigationview/widget/utils/HwDeviceUtils;->e()Z
 
-    .line 98
     .line 99
     .line 100
+    .line 101
     move-result v0
 
-    .line 101
+    .line 102
     if-eqz v0, :cond_3
 
-    .line 102
     .line 103
+    .line 104
     goto :goto_3
 
-    .line 104
+    .line 105
     :cond_3
     iget v0, p0, Lcom/huawei/uikit/hwbottomnavigationview/widget/HwBottomNavigationView$BottomNavigationItemView;->A:I
 
-    .line 105
     .line 106
+    .line 107
     invoke-virtual {p0, v0}, Landroid/view/View;->setMinimumHeight(I)V
 
-    .line 107
     .line 108
     .line 109
+    .line 110
     const/4 v0, 0x0
 
-    .line 110
+    .line 111
     :goto_2
     invoke-virtual {v1, v0}, Lcom/huawei/uikit/hwbottomnavigationview/widget/HwBottomNavigationView;->setPortLayout(Z)V
 
-    .line 111
     .line 112
     .line 113
+    .line 114
     goto :goto_4
 
-    .line 114
+    .line 115
     :cond_4
     :goto_3
     iget v0, p0, Lcom/huawei/uikit/hwbottomnavigationview/widget/HwBottomNavigationView$BottomNavigationItemView;->o:I
 
-    .line 115
     .line 116
+    .line 117
     invoke-virtual {p0, v0}, Landroid/view/View;->setMinimumHeight(I)V
 
-    .line 117
     .line 118
     .line 119
+    .line 120
     const/4 v0, 0x1
 
-    .line 120
+    .line 121
     goto :goto_2
 
-    .line 121
+    .line 122
     :goto_4
     return-void
-    .line 122
     .line 123
     .line 124
     .line 125
@@ -1180,6 +1180,26 @@
     .line 306
     .line 307
     .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
 .end method
 
 .method private g()V
@@ -2102,23 +2122,6 @@
     .line 179
     .line 180
     .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
 .end method
 
 .method public final onKeyDown(ILandroid/view/KeyEvent;)Z

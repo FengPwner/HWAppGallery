@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/hj3;
+.implements Lcom/huawei/appmarket/jj3;
 
 
 # annotations
@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public final H(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/e04;)V
+.method public final H(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/g04;)V
     .registers 5
 
     .line 1
@@ -33,7 +33,7 @@
 
     invoke-direct {v0}, Lcom/huawei/appmarket/zb0$a;-><init>()V
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/zb0$a;->e(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/e04;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/huawei/appmarket/zb0$a;->e(Landroid/content/Context;Lcom/huawei/appmarket/support/bridgeservice/BaseBridgeRequest;Lcom/huawei/appmarket/g04;)V
 
     return-void
 .end method

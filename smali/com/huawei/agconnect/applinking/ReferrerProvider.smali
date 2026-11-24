@@ -4,13 +4,13 @@
 
 
 # virtual methods
-.method public abstract getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/hv7;
+.method public abstract getCustomReferrer(Landroid/content/Context;)Lcom/huawei/appmarket/nv7;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lcom/huawei/appmarket/hv7<",
+            "Lcom/huawei/appmarket/nv7<",
             "Ljava/lang/String;",
             ">;"
         }

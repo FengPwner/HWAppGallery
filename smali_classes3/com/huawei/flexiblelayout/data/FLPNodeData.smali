@@ -5,13 +5,13 @@
 
 # instance fields
 .field private s:Ljava/lang/Integer;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "cacheSize"
     .end annotation
 .end field
 
 .field private t:Lorg/json/JSONObject;
-    .annotation runtime Lcom/huawei/appmarket/zo4;
+    .annotation runtime Lcom/huawei/appmarket/cp4;
         value = "flex"
     .end annotation
 .end field
@@ -103,7 +103,7 @@
 
     .line 23
     :cond_1
-    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getCssRule()Lcom/huawei/appmarket/jg0;
+    invoke-virtual {p0}, Lcom/huawei/flexiblelayout/data/b;->getCssRule()Lcom/huawei/appmarket/kg0;
 
     .line 24
     .line 25
@@ -119,7 +119,7 @@
 
     .line 30
     :cond_2
-    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/jg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
+    invoke-virtual {v0, v2}, Lcom/huawei/appmarket/kg0;->m(Ljava/lang/String;)Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue;
 
     .line 31
     .line 32

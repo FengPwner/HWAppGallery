@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract S0()V
+.method public abstract a()Lcom/huawei/appmarket/f66;
 .end method

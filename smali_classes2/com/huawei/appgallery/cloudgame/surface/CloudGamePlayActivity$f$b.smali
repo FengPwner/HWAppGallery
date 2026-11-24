@@ -95,7 +95,7 @@
 
     .line 29
     .line 30
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/bg0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/cg0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -157,12 +157,12 @@
 
     .line 62
     .line 63
-    invoke-static {v2, v1}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     .line 67
     .line 68
@@ -174,11 +174,11 @@
 
     .line 71
     .line 72
-    check-cast v1, Lcom/huawei/appmarket/dr6;
+    check-cast v1, Lcom/huawei/appmarket/gr6;
 
     .line 73
     .line 74
-    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v1, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     .line 75
     .line 76
@@ -194,7 +194,7 @@
 
     .line 81
     .line 82
-    invoke-static {v2, v0}, Lcom/huawei/appmarket/bg0;->c(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/huawei/appmarket/cg0;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -203,11 +203,11 @@
 
     .line 86
     :cond_1
-    const-class v2, Lcom/huawei/appmarket/fh3;
+    const-class v2, Lcom/huawei/appmarket/hh3;
 
     .line 87
     .line 88
-    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/huawei/appmarket/ha5;->b(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -215,11 +215,11 @@
     move-result-object v1
 
     .line 92
-    check-cast v1, Lcom/huawei/appmarket/fh3;
+    check-cast v1, Lcom/huawei/appmarket/hh3;
 
     .line 93
     .line 94
-    iput-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/fh3;
+    iput-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/hh3;
 
     .line 95
     .line 96
@@ -228,12 +228,12 @@
     .line 97
     .line 98
     .line 99
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/fh3;->w(I)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/hh3;->w(I)Lcom/huawei/appmarket/w7;
 
     .line 100
     .line 101
     .line 102
-    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/fh3;
+    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/hh3;
 
     .line 103
     .line 104
@@ -244,12 +244,12 @@
 
     .line 106
     .line 107
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/fh3;->C(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/hh3;->C(II)Lcom/huawei/appmarket/w7;
 
     .line 108
     .line 109
     .line 110
-    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/fh3;
+    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/hh3;
 
     .line 111
     .line 112
@@ -261,12 +261,12 @@
     .line 114
     .line 115
     .line 116
-    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/fh3;->i(II)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2, v3}, Lcom/huawei/appmarket/hh3;->i(II)Lcom/huawei/appmarket/w7;
 
     .line 117
     .line 118
     .line 119
-    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/fh3;
+    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/hh3;
 
     .line 120
     .line 121
@@ -279,7 +279,7 @@
     .line 124
     .line 125
     .line 126
-    invoke-interface {v1, v2}, Lcom/huawei/appmarket/fh3;->h(Lcom/huawei/appmarket/ao5;)Lcom/huawei/appmarket/w7;
+    invoke-interface {v1, v2}, Lcom/huawei/appmarket/hh3;->h(Lcom/huawei/appmarket/bo5;)Lcom/huawei/appmarket/w7;
 
     .line 127
     .line 128
@@ -308,7 +308,7 @@
 
     .line 140
     .line 141
-    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/fh3;
+    iget-object v1, v0, Lcom/huawei/appgallery/cloudgame/surface/CloudCommonActivity;->g:Lcom/huawei/appmarket/hh3;
 
     .line 142
     .line 143
@@ -316,7 +316,7 @@
 
     .line 144
     .line 145
-    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/fh3;->b(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v1, v0, v2}, Lcom/huawei/appmarket/hh3;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 146
     .line 147
@@ -774,13 +774,4 @@
     .line 596
     .line 597
     .line 598
-    .line 599
-    .line 600
-    .line 601
-    .line 602
-    .line 603
-    .line 604
-    .line 605
-    .line 606
-    .line 607
 .end method

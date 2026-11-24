@@ -7,27 +7,36 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/huawei/appmarket/x20<",
-        "Landroid/graphics/PointF;",
-        "Landroid/graphics/PointF;",
+        "Lcom/huawei/appmarket/j27;",
+        "Lcom/huawei/appmarket/j27;",
         ">;"
     }
 .end annotation
 
 
 # direct methods
+.method public constructor <init>(Lcom/huawei/appmarket/j27;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/x20;-><init>(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
 .method public constructor <init>(Ljava/util/List;)V
     .registers 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/huawei/appmarket/gr4<",
-            "Landroid/graphics/PointF;",
+            "Lcom/huawei/appmarket/jr4<",
+            "Lcom/huawei/appmarket/j27;",
             ">;>;)V"
         }
     .end annotation
 
-    .line 1
+    .line 2
     invoke-direct {p0, p1}, Lcom/huawei/appmarket/x20;-><init>(Ljava/util/List;)V
 
     return-void
@@ -41,18 +50,18 @@
         value = {
             "()",
             "Lcom/huawei/appmarket/d40<",
-            "Landroid/graphics/PointF;",
-            "Landroid/graphics/PointF;",
+            "Lcom/huawei/appmarket/j27;",
+            "Lcom/huawei/appmarket/j27;",
             ">;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/w16;
+    new-instance v0, Lcom/huawei/appmarket/i27;
 
     iget-object v1, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
 
-    invoke-direct {v0, v1}, Lcom/huawei/appmarket/w16;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/i27;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/os2;
+.implements Lcom/huawei/appmarket/rs2;
 
 
 # instance fields
@@ -30,7 +30,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/my0;->b:Landroidx/activity/ComponentActivity;
 
-    invoke-static {v0}, Landroidx/activity/ComponentActivity;->T2(Landroidx/activity/ComponentActivity;)Lcom/huawei/appmarket/x78;
+    invoke-static {v0}, Landroidx/activity/ComponentActivity;->T2(Landroidx/activity/ComponentActivity;)Lcom/huawei/appmarket/c88;
 
     move-result-object v0
 

@@ -3,9 +3,20 @@
 .source "SourceFile"
 
 
-# virtual methods
-.method public abstract a(Lcom/huawei/appmarket/j94;)V
-.end method
+# static fields
+.field public static final a:Lcom/huawei/appmarket/rq6;
 
-.method public abstract b()Lcom/huawei/appmarket/yz3;
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/rq6;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/rq6;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/xz3;->a:Lcom/huawei/appmarket/rq6;
+
+    return-void
 .end method

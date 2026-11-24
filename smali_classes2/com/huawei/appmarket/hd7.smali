@@ -2,18 +2,14 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/huawei/appmarket/i24;
 
-# static fields
-.field private static a:Ljava/lang/Class;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/gd7;",
-            ">;"
-        }
-    .end annotation
-.end field
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/ym;
+    uri = Lcom/huawei/appmarket/i24;
+.end annotation
 
 
 # direct methods
@@ -25,63 +21,37 @@
     return-void
 .end method
 
-.method public static a()Lcom/huawei/appmarket/gd7;
-    .registers 3
+
+# virtual methods
+.method public final a()V
+    .registers 2
 
     .line 1
-    sget-object v0, Lcom/huawei/appmarket/hd7;->a:Ljava/lang/Class;
+    const-class v0, Lcom/huawei/appmarket/ou;
 
-    if-nez v0, :cond_0
+    invoke-static {v0}, Lcom/huawei/appmarket/xd6;->b(Ljava/lang/Class;)V
 
-    new-instance v0, Lcom/huawei/appmarket/jg1;
+    return-void
+.end method
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/jg1;-><init>()V
+.method public final b()Lcom/huawei/appmarket/f24;
+    .registers 2
 
-    return-object v0
-
-    :cond_0
-    :try_start_0
-    invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/cd7;->a()Lcom/huawei/appmarket/f24;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/gd7;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    sget-object v0, Lcom/huawei/appmarket/zc7;->a:Lcom/huawei/appmarket/zc7;
-
-    const-string v1, "ShareWrapperUtil"
-
-    const-string v2, "create getShareWrapper error"
-
-    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Lcom/huawei/appmarket/jg1;
-
-    invoke-direct {v0}, Lcom/huawei/appmarket/jg1;-><init>()V
-
-    :goto_0
     return-object v0
 .end method
 
-.method public static b(Ljava/lang/Class;)V
-    .registers 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "+",
-            "Lcom/huawei/appmarket/gd7;",
-            ">;)V"
-        }
-    .end annotation
+.method public final c()V
+    .registers 2
 
     .line 1
-    sput-object p0, Lcom/huawei/appmarket/hd7;->a:Ljava/lang/Class;
+    const-class v0, Lcom/huawei/appmarket/dd7;
+
+    invoke-static {v0}, Lcom/huawei/appmarket/cd7;->b(Ljava/lang/Class;)V
 
     return-void
 .end method

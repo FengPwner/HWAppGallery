@@ -40,7 +40,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :goto_0
     return-void
@@ -58,7 +58,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/c52;->checkFailed()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/g52;->checkFailed()V
 
     :cond_0
     return-void

@@ -49,11 +49,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h$d;->a:Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/fr5;->c()V
 
     return-void
 .end method
@@ -63,11 +63,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h$d;->a:Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/fr5;->c()V
 
     return-void
 .end method
@@ -77,11 +77,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h$d;->a:Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/fr5;->c()V
 
     return-void
 .end method

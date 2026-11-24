@@ -246,6 +246,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private g(Landroid/view/View;Landroid/view/View;F)V
@@ -302,7 +303,7 @@
     invoke-virtual {p1, v0, p2, v0, p3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     :goto_0
-    invoke-static {p0}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
     return-void
 .end method
@@ -340,7 +341,7 @@
 
     iput-object p3, p0, Lcom/google/android/material/tabs/TabLayout$f;->b:Landroid/animation/ValueAnimator;
 
-    sget-object v0, Lcom/huawei/appmarket/mm;->b:Lcom/huawei/appmarket/uh2;
+    sget-object v0, Lcom/huawei/appmarket/lm;->b:Lcom/huawei/appmarket/xh2;
 
     invoke-virtual {p3, v0}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
@@ -761,7 +762,7 @@
 
     const/16 v7, 0x10
 
-    invoke-static {v7, v5}, Lcom/huawei/appmarket/tj8;->c(ILandroid/content/Context;)F
+    invoke-static {v7, v5}, Lcom/huawei/appmarket/zj8;->c(ILandroid/content/Context;)F
 
     move-result v5
 

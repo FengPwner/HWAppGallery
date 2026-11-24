@@ -70,7 +70,7 @@
 
     if-eqz p2, :cond_6
 
-    sget-object v1, Lcom/huawei/appmarket/ue6;->b:[I
+    sget-object v1, Lcom/huawei/appmarket/we6;->b:[I
 
     invoke-virtual {p1, p2, v1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -203,7 +203,7 @@
 
     const-string v0, "CropRightRoundImageView init(AttributeSet attrs) "
 
-    invoke-static {p3, v0, p2}, Lcom/huawei/appmarket/gz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {p3, v0, p2}, Lcom/huawei/appmarket/jz4;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -927,7 +927,6 @@
     .line 104
     .line 105
     .line 106
-    .line 107
 .end method
 
 .method public setUseSuper(Z)V

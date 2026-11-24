@@ -61,7 +61,7 @@
 
     const/16 v0, 0x40
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -73,7 +73,7 @@
 
     const/16 v0, 0x5a
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -84,7 +84,7 @@
     move-result-object p3
 
     .line 3
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -98,7 +98,7 @@
     const/16 v0, 0xd3
 
     .line 5
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -111,7 +111,7 @@
 
     const/16 v0, 0x8
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -121,7 +121,7 @@
 
     move-result-object p3
 
-    invoke-static {p3, v0}, Lcom/huawei/appmarket/w68;->a(Landroid/content/Context;I)I
+    invoke-static {p3, v0}, Lcom/huawei/appmarket/b78;->a(Landroid/content/Context;I)I
 
     move-result p3
 
@@ -148,7 +148,7 @@
 
     if-eqz p2, :cond_0
 
-    sget-object v1, Lcom/huawei/appmarket/hf6;->f:[I
+    sget-object v1, Lcom/huawei/appmarket/jf6;->f:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -194,7 +194,7 @@
 
     move-result-object p2
 
-    invoke-static {p3, p2}, Lcom/huawei/appmarket/g83;->k(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcom/huawei/appmarket/j83;->k(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -207,7 +207,7 @@
 
     :cond_0
     :goto_2
-    invoke-static {p0}, Lcom/huawei/appmarket/nx7;->b(Landroid/widget/TextView;)V
+    invoke-static {p0}, Lcom/huawei/appmarket/sx7;->b(Landroid/widget/TextView;)V
 
     return-void
 .end method

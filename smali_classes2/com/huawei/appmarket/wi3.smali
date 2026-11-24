@@ -4,5 +4,11 @@
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Lcom/huawei/appmarket/kc7;Lcom/huawei/appgallery/share/api/ShareBean;Z)V
+.method public abstract e1(Z)V
+.end method
+
+.method public abstract i0()V
+.end method
+
+.method public abstract q0()Lcom/huawei/appmarket/fq4;
 .end method

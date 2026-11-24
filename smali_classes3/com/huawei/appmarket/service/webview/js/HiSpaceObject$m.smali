@@ -47,7 +47,7 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$m;->d:Lcom/huawei/appmarket/service/webview/js/HiSpaceObject;
 
-    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/tt3;
+    iget-object v0, v0, Lcom/huawei/appmarket/service/webview/js/ExtraJsObject;->mJsCallBack:Lcom/huawei/appmarket/vt3;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$m;->c:Ljava/lang/String;
 
@@ -55,7 +55,7 @@
 
     iget-object v2, p0, Lcom/huawei/appmarket/service/webview/js/HiSpaceObject$m;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->A0(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lcom/huawei/appgallery/agwebview/api/delegate/GeneralWebViewDelegate;->B0(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

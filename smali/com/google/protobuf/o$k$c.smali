@@ -505,6 +505,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method private p()Lcom/google/protobuf/s1;
@@ -1612,6 +1613,13 @@
     .line 281
     .line 282
     .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
 .end method
 
 .method protected final internalGetFieldAccessorTable()Lcom/google/protobuf/g0$f;
@@ -1880,6 +1888,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final k()Lcom/google/protobuf/o$k;
@@ -5322,11 +5331,11 @@
     .line 30
     .line 31
     :sswitch_1
-    sget-object v1, Lcom/google/protobuf/o$v;->l:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$v;->l:Lcom/huawei/appmarket/iw5;
 
     .line 32
     .line 33
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 34
     .line 35
@@ -5448,11 +5457,11 @@
 
     .line 92
     :sswitch_3
-    sget-object v1, Lcom/google/protobuf/o$k$e;->g:Lcom/huawei/appmarket/gw5;
+    sget-object v1, Lcom/google/protobuf/o$k$e;->g:Lcom/huawei/appmarket/iw5;
 
     .line 93
     .line 94
-    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/gw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
+    invoke-virtual {p1, v1, p2}, Lcom/google/protobuf/i;->w(Lcom/huawei/appmarket/iw5;Lcom/google/protobuf/v;)Lcom/google/protobuf/b1;
 
     .line 95
     .line 96

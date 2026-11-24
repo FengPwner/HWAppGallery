@@ -21,7 +21,7 @@
 
 
 # instance fields
-.field private mCssRule:Lcom/huawei/appmarket/jg0;
+.field private mCssRule:Lcom/huawei/appmarket/kg0;
 
 .field private mSelectExpr:Ljava/lang/String;
 
@@ -52,22 +52,22 @@
     return-object p1
 .end method
 
-.method static synthetic access$202(Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;Lcom/huawei/appmarket/jg0;)Lcom/huawei/appmarket/jg0;
+.method static synthetic access$202(Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;Lcom/huawei/appmarket/kg0;)Lcom/huawei/appmarket/kg0;
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->mCssRule:Lcom/huawei/appmarket/jg0;
+    iput-object p1, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->mCssRule:Lcom/huawei/appmarket/kg0;
 
     return-object p1
 .end method
 
 
 # virtual methods
-.method public getCssRule()Lcom/huawei/appmarket/jg0;
+.method public getCssRule()Lcom/huawei/appmarket/kg0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->mCssRule:Lcom/huawei/appmarket/jg0;
+    iget-object v0, p0, Lcom/huawei/flexiblelayout/css/adapter/type/CSSValue$LinkedRule;->mCssRule:Lcom/huawei/appmarket/kg0;
 
     return-object v0
 .end method

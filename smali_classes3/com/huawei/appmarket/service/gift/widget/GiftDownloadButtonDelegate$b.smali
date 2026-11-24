@@ -48,13 +48,13 @@
     .line 1
     const-string v0, "DownloadProxy"
 
-    const-class v1, Lcom/huawei/appmarket/mo3;
+    const-class v1, Lcom/huawei/appmarket/oo3;
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/r93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/huawei/appmarket/mo3;
+    check-cast v0, Lcom/huawei/appmarket/oo3;
 
     iget-object v1, p0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate$b;->b:Lcom/huawei/appgallery/downloadengine/api/SessionDownloadTask;
 
@@ -62,7 +62,7 @@
 
     move-result-wide v1
 
-    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/mo3;->c0(J)V
+    invoke-interface {v0, v1, v2}, Lcom/huawei/appmarket/oo3;->c0(J)V
 
     iget v0, p0, Lcom/huawei/appmarket/service/gift/widget/GiftDownloadButtonDelegate$b;->d:I
 
@@ -72,7 +72,7 @@
 
     const/16 v3, 0x8
 
-    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/j03;->c(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;III)V
+    invoke-static {v2, v3, v0, v1}, Lcom/huawei/appmarket/m03;->c(Lcom/huawei/gamebox/service/welfare/gift/bean/GiftCardBean;III)V
 
     return-void
 .end method

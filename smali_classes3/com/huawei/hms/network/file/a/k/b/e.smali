@@ -77,7 +77,7 @@
 
     move-result-object v5
 
-    invoke-static {p1, v5}, Lcom/huawei/appmarket/r58;->t(Landroid/content/Context;Landroid/content/Context;)Z
+    invoke-static {p1, v5}, Lcom/huawei/appmarket/fq7;->B(Landroid/content/Context;Landroid/content/Context;)Z
 
     move-result v6
 

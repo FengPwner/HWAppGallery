@@ -4,5 +4,23 @@
 
 
 # virtual methods
-.method public abstract d()Ljava/util/ArrayList;
+.method public abstract a(Landroid/content/Context;)V
+.end method
+
+.method public abstract b(Landroid/content/Context;)I
+.end method
+
+.method public abstract c(Landroid/content/Context;)I
+.end method
+
+.method public abstract d(Landroid/content/Context;Ljava/lang/String;)J
+.end method
+
+.method public abstract e(Landroid/content/Context;Ljava/lang/String;)V
+.end method
+
+.method public abstract f(Landroid/content/Context;Ljava/lang/String;)V
+.end method
+
+.method public abstract g(Landroid/content/Context;Ljava/lang/String;)Lcom/huawei/appgallery/powerkitmanager/api/PowerUsageStateBean;
 .end method

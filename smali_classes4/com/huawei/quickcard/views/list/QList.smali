@@ -59,41 +59,41 @@
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/PropertyProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/j19;
+    new-instance v0, Lcom/huawei/appmarket/p19;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/j19;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/p19;-><init>()V
 
     const-string v1, "scroll"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addEventProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/EventProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/bx8;
+    new-instance v0, Lcom/huawei/appmarket/hx8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/bx8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/hx8;-><init>()V
 
     const-string v1, "scrollbottom"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addEventProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/EventProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/nz8;
+    new-instance v0, Lcom/huawei/appmarket/tz8;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/nz8;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/tz8;-><init>()V
 
     const-string v1, "scrollend"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addEventProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/EventProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/p39;
+    new-instance v0, Lcom/huawei/appmarket/v39;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/p39;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/v39;-><init>()V
 
     const-string v1, "scrolltop"
 
     invoke-virtual {p0, v1, v0}, Lcom/huawei/quickcard/framework/ui/Component;->addEventProcessor(Ljava/lang/String;Lcom/huawei/quickcard/framework/processor/EventProcessor;)V
 
-    new-instance v0, Lcom/huawei/appmarket/e59;
+    new-instance v0, Lcom/huawei/appmarket/k59;
 
-    invoke-direct {v0}, Lcom/huawei/appmarket/e59;-><init>()V
+    invoke-direct {v0}, Lcom/huawei/appmarket/k59;-><init>()V
 
     const-string v1, "scrolltouchup"
 

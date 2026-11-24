@@ -37,13 +37,13 @@
 .method public final run()V
     .registers 4
 
-    invoke-static {}, Lcom/huawei/appmarket/uk5;->l()Lcom/huawei/appmarket/uk5;
+    invoke-static {}, Lcom/huawei/appmarket/wk5;->l()Lcom/huawei/appmarket/wk5;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uk5;->b()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/wk5;->b()V
 
-    new-instance v0, Lcom/huawei/appmarket/zk5;
+    new-instance v0, Lcom/huawei/appmarket/bl5;
 
     invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
 
@@ -55,7 +55,7 @@
 
     iget v2, p0, Lcom/huawei/appmarket/oobe/app/f$a;->b:I
 
-    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/zk5;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, v1, v2}, Lcom/huawei/appmarket/bl5;-><init>(Landroid/content/Context;I)V
 
     invoke-virtual {v0}, Lcom/huawei/appmarket/oobe/store/OOBEStoreTask;->c()V
 

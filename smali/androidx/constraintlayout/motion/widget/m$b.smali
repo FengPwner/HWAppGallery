@@ -231,7 +231,7 @@
 
     move-result-object p3
 
-    sget-object v2, Lcom/huawei/appmarket/wf6;->E:[I
+    sget-object v2, Lcom/huawei/appmarket/yf6;->E:[I
 
     .line 2
     invoke-virtual {p2, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -1068,6 +1068,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public final F(I)V

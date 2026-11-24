@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/qn5;
+.implements Lcom/huawei/appmarket/rn5;
 
 
 # annotations
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/nq8;)Lcom/huawei/appmarket/nq8;
+.method public final onApplyWindowInsets(Landroid/view/View;Lcom/huawei/appmarket/tq8;)Lcom/huawei/appmarket/tq8;
     .registers 8
 
     .line 1
@@ -53,27 +53,27 @@
     :cond_0
     iget-object v0, p1, Lcom/google/android/material/internal/ScrimInsetsFrameLayout;->c:Landroid/graphics/Rect;
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->j()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->j()I
 
     move-result v1
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->l()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->l()I
 
     move-result v2
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->k()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->k()I
 
     move-result v3
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->i()I
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->i()I
 
     move-result v4
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Rect;->set(IIII)V
 
-    invoke-virtual {p1, p2}, Lcom/google/android/material/internal/ScrimInsetsFrameLayout;->a(Lcom/huawei/appmarket/nq8;)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/internal/ScrimInsetsFrameLayout;->a(Lcom/huawei/appmarket/tq8;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->m()Z
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->m()Z
 
     move-result v0
 
@@ -97,9 +97,9 @@
     :goto_1
     invoke-virtual {p1, v0}, Landroid/view/View;->setWillNotDraw(Z)V
 
-    invoke-static {p1}, Lcom/huawei/appmarket/ei8;->W(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/ki8;->W(Landroid/view/View;)V
 
-    invoke-virtual {p2}, Lcom/huawei/appmarket/nq8;->c()Lcom/huawei/appmarket/nq8;
+    invoke-virtual {p2}, Lcom/huawei/appmarket/tq8;->c()Lcom/huawei/appmarket/tq8;
 
     move-result-object p1
 

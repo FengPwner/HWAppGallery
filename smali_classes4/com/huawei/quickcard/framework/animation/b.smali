@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const-string v1, "width"
+    const-string/jumbo v1, "width"
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

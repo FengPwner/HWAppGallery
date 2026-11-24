@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private G1:Lcom/huawei/appmarket/nw4;
+.field private n1:Lcom/huawei/appmarket/qw4;
 
-.field private H1:I
+.field private o1:I
 
 
 # direct methods
@@ -69,20 +69,20 @@
 
     move-result v1
 
-    iput v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->H1:I
+    iput v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->o1:I
 
     :cond_0
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->G1:Lcom/huawei/appmarket/nw4;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->n1:Lcom/huawei/appmarket/qw4;
 
     if-eqz v1, :cond_1
 
-    iget v2, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->H1:I
+    iget v2, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->o1:I
 
     add-int/lit8 v0, v0, -0x3
 
     if-le v2, v0, :cond_1
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nw4;->g()V
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qw4;->g()V
 
     :cond_1
     return-void
@@ -100,11 +100,11 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->G1:Lcom/huawei/appmarket/nw4;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->n1:Lcom/huawei/appmarket/qw4;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/nw4;->f()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/qw4;->f()V
 
     :cond_0
     invoke-super {p0, p1}, Lcom/huawei/uikit/hwrecyclerview/widget/HwRecyclerView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
@@ -119,27 +119,27 @@
 
     invoke-super {p0}, Lcom/huawei/uikit/hwrecyclerview/widget/HwRecyclerView;->onAttachedToWindow()V
 
-    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->G1:Lcom/huawei/appmarket/nw4;
+    iget-object v0, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->n1:Lcom/huawei/appmarket/qw4;
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/huawei/appmarket/kz6;->b()Lcom/huawei/appmarket/kz6;
+    invoke-static {}, Lcom/huawei/appmarket/oz6;->b()Lcom/huawei/appmarket/oz6;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/kz6;->e(Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;)V
+    invoke-virtual {v0, p0}, Lcom/huawei/appmarket/oz6;->e(Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/kz6;->b()Lcom/huawei/appmarket/kz6;
+    invoke-static {}, Lcom/huawei/appmarket/oz6;->b()Lcom/huawei/appmarket/oz6;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->G1:Lcom/huawei/appmarket/nw4;
+    iget-object v1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->n1:Lcom/huawei/appmarket/qw4;
 
-    invoke-virtual {v1}, Lcom/huawei/appmarket/nw4;->d()Lcom/huawei/appmarket/iz6;
+    invoke-virtual {v1}, Lcom/huawei/appmarket/qw4;->d()Lcom/huawei/appmarket/mz6;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/kz6;->c(Lcom/huawei/appmarket/iz6;Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v0, v1, p0}, Lcom/huawei/appmarket/oz6;->c(Lcom/huawei/appmarket/mz6;Landroidx/recyclerview/widget/RecyclerView;)V
 
     :cond_0
     return-void
@@ -153,11 +153,11 @@
     return-void
 .end method
 
-.method public setOnLoadListener(Lcom/huawei/appmarket/nw4;)V
+.method public setOnLoadListener(Lcom/huawei/appmarket/qw4;)V
     .registers 2
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->G1:Lcom/huawei/appmarket/nw4;
+    iput-object p1, p0, Lcom/huawei/appgallery/horizontalcardv2/impl/view/AbsSNodeRecyclerView;->n1:Lcom/huawei/appmarket/qw4;
 
     return-void
 .end method

@@ -65,7 +65,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v0, v0, v2}, Landroidx/fragment/app/FragmentManager;->j(Landroidx/fragment/app/j;Lcom/huawei/appmarket/dr2;Landroidx/fragment/app/Fragment;)V
+    invoke-virtual {v1, v0, v0, v2}, Landroidx/fragment/app/FragmentManager;->j(Landroidx/fragment/app/j;Lcom/huawei/appmarket/fr2;Landroidx/fragment/app/Fragment;)V
 
     return-void
 .end method

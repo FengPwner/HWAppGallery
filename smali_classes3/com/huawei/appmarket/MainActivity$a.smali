@@ -50,19 +50,19 @@
 
     const-string p2, "localeChangedReceiver MainActivity finish"
 
-    invoke-static {p1, p2}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/huawei/appmarket/e13;->c()Lcom/huawei/appmarket/e13;
+    invoke-static {}, Lcom/huawei/appmarket/h13;->c()Lcom/huawei/appmarket/h13;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/huawei/appmarket/MainActivity$a;->k:Lcom/huawei/appmarket/MainActivity;
 
-    invoke-static {p2}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {p2}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/e13;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/huawei/appmarket/h13;->a(I)V
 
     invoke-virtual {p2}, Lcom/huawei/appmarket/MainActivity;->finish()V
 

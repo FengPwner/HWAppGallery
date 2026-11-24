@@ -69,15 +69,15 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v2, Lcom/huawei/appmarket/zu5;->a:Lcom/huawei/appmarket/zu5;
+    sget-object v2, Lcom/huawei/appmarket/bv5;->a:Lcom/huawei/appmarket/bv5;
 
     const-string v3, "AppListFragmentV2"
 
     const-string v4, "CachedResRunnable onResponse"
 
-    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/huawei/appmarket/jy4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->a6(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
+    invoke-virtual {v0, v1}, Lcom/huawei/appgallery/pageframe/fragment/AppListFragmentV2;->b6(Lcom/huawei/appgallery/taskfragment/api/TaskFragment$d;)V
 
     :cond_0
     return-void

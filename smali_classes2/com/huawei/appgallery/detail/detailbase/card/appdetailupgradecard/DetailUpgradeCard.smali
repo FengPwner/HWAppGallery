@@ -53,7 +53,7 @@
     .line 1
     iput-object p1, p0, Lcom/huawei/appgallery/detail/detailbase/basecard/BaseDescFoldingCard;->x:Landroid/view/View;
 
-    invoke-static {p1}, Lcom/huawei/appmarket/b37;->G(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/huawei/appmarket/g37;->G(Landroid/view/View;)V
 
     const v0, 0x7f0a0b3f
 
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcom/huawei/appgallery/detail/detailbase/card/appdetailupgradecard/DetailUpgradeCard;->G:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/ud3;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/wd3;->b(Landroid/view/View;)V
 
     const v0, 0x7f0a0b3a
 

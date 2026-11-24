@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/r95$a;
+.implements Lcom/huawei/appmarket/u95$a;
 
 
 # annotations
@@ -73,11 +73,11 @@
 
     iget-object v0, p0, Lcom/huawei/appmarket/framework/widget/downloadbutton/h$i;->a:Lcom/huawei/appmarket/framework/widget/downloadbutton/h;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/dr5;
+    invoke-static {v0}, Lcom/huawei/appmarket/framework/widget/downloadbutton/h;->j(Lcom/huawei/appmarket/framework/widget/downloadbutton/h;)Lcom/huawei/appmarket/fr5;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/dr5;->c()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/fr5;->c()V
 
     return-void
 .end method

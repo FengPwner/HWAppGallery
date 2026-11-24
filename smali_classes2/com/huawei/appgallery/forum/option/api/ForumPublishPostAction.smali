@@ -1,5 +1,5 @@
 .class public Lcom/huawei/appgallery/forum/option/api/ForumPublishPostAction;
-.super Lcom/huawei/appmarket/np3;
+.super Lcom/huawei/appmarket/pp3;
 .source "SourceFile"
 
 
@@ -32,11 +32,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/appmarket/c72$b;)V
+.method public constructor <init>(Lcom/huawei/appmarket/g72$b;)V
     .registers 2
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/np3;-><init>(Lcom/huawei/appmarket/c72$b;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/pp3;-><init>(Lcom/huawei/appmarket/g72$b;)V
 
     return-void
 .end method
@@ -50,13 +50,13 @@
 
     const-string v1, "ForumPublishPostAction"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/huawei/secure/android/common/intent/SafeIntent;
 
-    iget-object v2, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v2, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v2}, Lcom/huawei/appmarket/c72$b;->getIntent()Landroid/content/Intent;
+    invoke-interface {v2}, Lcom/huawei/appmarket/g72$b;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
@@ -89,25 +89,25 @@
     goto :goto_0
 
     :goto_1
-    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/fr6;
 
     move-result-object v2
 
     const-string v3, "Option"
 
-    check-cast v2, Lcom/huawei/appmarket/dr6;
+    check-cast v2, Lcom/huawei/appmarket/gr6;
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/gr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ha5;
 
     move-result-object v2
 
     const-string v3, "option.publish"
 
-    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ea5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
+    invoke-virtual {v2, v3}, Lcom/huawei/appmarket/ha5;->d(Ljava/lang/String;)Lcom/huawei/hmf/services/ui/e;
 
     move-result-object v2
 
-    new-instance v9, Lcom/huawei/appmarket/la6;
+    new-instance v9, Lcom/huawei/appmarket/na6;
 
     const-string v3, "SectionId"
 
@@ -133,7 +133,7 @@
 
     move-object v3, v9
 
-    invoke-direct/range {v3 .. v8}, Lcom/huawei/appmarket/la6;-><init>(IJLjava/lang/String;Ljava/util/List;)V
+    invoke-direct/range {v3 .. v8}, Lcom/huawei/appmarket/na6;-><init>(IJLjava/lang/String;Ljava/util/List;)V
 
     const-string v3, "PostMediaType"
 
@@ -143,7 +143,7 @@
 
     move-result v3
 
-    invoke-virtual {v9, v3}, Lcom/huawei/appmarket/la6;->p(I)V
+    invoke-virtual {v9, v3}, Lcom/huawei/appmarket/na6;->p(I)V
 
     const-string v3, "PostContent"
 
@@ -151,7 +151,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v9, v3}, Lcom/huawei/appmarket/la6;->n(Ljava/lang/String;)V
+    invoke-virtual {v9, v3}, Lcom/huawei/appmarket/na6;->n(Ljava/lang/String;)V
 
     const-string v3, "DomainId"
 
@@ -159,7 +159,7 @@
 
     move-result-object v3
 
-    iget-object v5, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v5, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
     instance-of v5, v5, Landroid/content/Context;
 
@@ -167,12 +167,12 @@
 
     const-string v0, "!callback instanceof Context"
 
-    invoke-static {v1, v0}, Lcom/huawei/appmarket/gz4;->b(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/jz4;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
-    iget-object v0, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v0, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v0}, Lcom/huawei/appmarket/c72$b;->finish()V
+    invoke-interface {v0}, Lcom/huawei/appmarket/g72$b;->finish()V
 
     return-void
 
@@ -201,7 +201,7 @@
     invoke-interface {v1, v4}, Lcom/huawei/appgallery/forum/option/api/IPublishPostActivityProtocol;->setIsUpdate(Z)V
 
     :goto_3
-    invoke-interface {v1, v9}, Lcom/huawei/appgallery/forum/option/api/IPublishPostActivityProtocol;->setPublishData(Lcom/huawei/appmarket/la6;)V
+    invoke-interface {v1, v9}, Lcom/huawei/appgallery/forum/option/api/IPublishPostActivityProtocol;->setPublishData(Lcom/huawei/appmarket/na6;)V
 
     invoke-interface {v1, v3}, Lcom/huawei/appgallery/forum/base/api/IJGWTabProtocol;->setDomainId(Ljava/lang/String;)V
 
@@ -237,9 +237,9 @@
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/np3;->callback:Lcom/huawei/appmarket/c72$b;
+    iget-object v1, p0, Lcom/huawei/appmarket/pp3;->callback:Lcom/huawei/appmarket/g72$b;
 
-    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/c72$b;->d1(Lcom/huawei/hmf/services/ui/e;Landroid/content/Intent;)V
+    invoke-interface {v1, v2, v0}, Lcom/huawei/appmarket/g72$b;->d1(Lcom/huawei/hmf/services/ui/e;Landroid/content/Intent;)V
 
     goto :goto_2
 .end method

@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/x69;
-.implements Lcom/huawei/appmarket/l49;
+.implements Lcom/huawei/appmarket/d79;
+.implements Lcom/huawei/appmarket/r49;
 
 
 # direct methods

@@ -3,51 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lorg/apache/commons/lang3/function/FailableBiConsumer;
+.implements Lorg/apache/commons/lang3/function/FailableRunnable;
 
 
 # instance fields
-.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+.field public final synthetic a:Lorg/apache/commons/lang3/function/FailableLongConsumer;
 
-.field public final synthetic b:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+.field public final synthetic b:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;)V
-    .registers 3
+.method public synthetic constructor <init>(Lorg/apache/commons/lang3/function/FailableLongConsumer;J)V
+    .registers 4
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/huawei/appmarket/af2;->a:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+    iput-object p1, p0, Lcom/huawei/appmarket/af2;->a:Lorg/apache/commons/lang3/function/FailableLongConsumer;
 
-    iput-object p2, p0, Lcom/huawei/appmarket/af2;->b:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+    iput-wide p2, p0, Lcom/huawei/appmarket/af2;->b:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
-    .registers 5
+.method public final run()V
+    .registers 4
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/af2;->a:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+    iget-object v0, p0, Lcom/huawei/appmarket/af2;->a:Lorg/apache/commons/lang3/function/FailableLongConsumer;
 
-    iget-object v1, p0, Lcom/huawei/appmarket/af2;->b:Lorg/apache/commons/lang3/function/FailableBiConsumer;
+    iget-wide v1, p0, Lcom/huawei/appmarket/af2;->b:J
 
-    invoke-static {v0, v1, p1, p2}, Lcom/huawei/appmarket/cf2;->b(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lorg/apache/commons/lang3/function/Failable;->g(Lorg/apache/commons/lang3/function/FailableLongConsumer;J)V
 
     return-void
-.end method
-
-.method public final synthetic andThen(Lorg/apache/commons/lang3/function/FailableBiConsumer;)Lorg/apache/commons/lang3/function/FailableBiConsumer;
-    .registers 2
-
-    .line 1
-    invoke-static {p0, p1}, Lcom/huawei/appmarket/cf2;->a(Lorg/apache/commons/lang3/function/FailableBiConsumer;Lorg/apache/commons/lang3/function/FailableBiConsumer;)Lorg/apache/commons/lang3/function/FailableBiConsumer;
-
-    move-result-object p1
-
-    return-object p1
 .end method

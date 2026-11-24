@@ -58,9 +58,9 @@
     :try_start_0
     iget-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a$e;->a:Lcom/huawei/appmarket/ca0;
 
-    check-cast v0, Lcom/huawei/appmarket/kj2;
+    check-cast v0, Lcom/huawei/appmarket/mj2;
 
-    invoke-virtual {v0}, Lcom/huawei/appmarket/kj2;->a()Landroid/graphics/BitmapRegionDecoder;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/mj2;->a()Landroid/graphics/BitmapRegionDecoder;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
 
     const-string v2, "doInBackground, error"
 
-    invoke-static {v1, v2}, Lcom/huawei/appmarket/gz4;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/huawei/appmarket/jz4;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/huawei/appgallery/forum/base/image/a$e;->g:Ljava/lang/Exception;
 

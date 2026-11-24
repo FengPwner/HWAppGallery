@@ -197,7 +197,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 
@@ -222,7 +221,7 @@
     .line 7
     .line 8
     .line 9
-    sget v0, Lcom/huawei/appmarket/framework/MainActivityBase;->f0:I
+    sget v0, Lcom/huawei/appmarket/framework/MainActivityBase;->g0:I
 
     .line 10
     .line 11
@@ -231,7 +230,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {v2}, Lcom/huawei/appmarket/hd4;->g(Landroid/app/Activity;)I
+    invoke-static {v2}, Lcom/huawei/appmarket/jd4;->g(Landroid/app/Activity;)I
 
     .line 15
     .line 16
@@ -243,7 +242,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0, v1, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->e0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
+    invoke-static {v0, v1, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->c0(IILjava/lang/String;)Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;
 
     .line 21
     .line 22
@@ -259,12 +258,12 @@
     move-result-object v3
 
     .line 28
-    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->l0(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->k0(Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->y0()V
+    invoke-virtual {v0}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->x0()V
 
     .line 32
     .line 33
@@ -303,7 +302,7 @@
     move-result-object v3
 
     .line 52
-    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->l0(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/foundation/store/bean/detail/DetailRequest;->k0(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -322,7 +321,7 @@
     .line 61
     .line 62
     .line 63
-    new-instance v3, Lcom/huawei/appmarket/u56;
+    new-instance v3, Lcom/huawei/appmarket/w56;
 
     .line 64
     .line 65
@@ -333,12 +332,12 @@
     const/4 v5, 0x5
 
     .line 68
-    invoke-direct {v3, v4, v1, v5}, Lcom/huawei/appmarket/u56;-><init>(IZI)V
+    invoke-direct {v3, v4, v1, v5}, Lcom/huawei/appmarket/w56;-><init>(IZI)V
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setPreloadStrategy(Lcom/huawei/appmarket/u56;)V
+    invoke-virtual {v0, v3}, Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;->setPreloadStrategy(Lcom/huawei/appmarket/w56;)V
 
     .line 72
     .line 73
@@ -355,7 +354,7 @@
     .line 78
     .line 79
     .line 80
-    invoke-static {v0, v1}, Lcom/huawei/appmarket/o77;->d(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/n87;
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/t77;->d(Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;)Lcom/huawei/appmarket/s87;
 
     .line 81
     .line 82
@@ -364,7 +363,7 @@
 
     .line 84
     :pswitch_0
-    sget v0, Lcom/huawei/appmarket/framework/MainActivityBase;->f0:I
+    sget v0, Lcom/huawei/appmarket/framework/MainActivityBase;->g0:I
 
     .line 85
     .line 86
@@ -382,7 +381,7 @@
     .line 92
     .line 93
     .line 94
-    invoke-static {v0}, Lcom/huawei/appmarket/sp1;->b(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/huawei/appmarket/vp1;->b(Ljava/lang/Runnable;)V
 
     .line 95
     .line 96

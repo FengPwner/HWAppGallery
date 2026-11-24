@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/fi3;
+.implements Lcom/huawei/appmarket/hi3;
 
 
 # annotations
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/huawei/appmarket/gz;)V
+.method public final a(Lcom/huawei/appmarket/hz;)V
     .registers 4
 
     .line 1
@@ -65,11 +65,11 @@
     goto :goto_2
 
     :cond_0
-    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/gz;
+    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hz;
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/gz;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Lcom/huawei/appmarket/hz;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -90,19 +90,19 @@
     :goto_1
     invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->b(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)V
 
-    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/fh3;
+    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hh3;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/fh3;
+    invoke-static {v0}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->f(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hh3;
 
     move-result-object p1
 
     const-string v0, "audio.clickStartPlay"
 
-    invoke-interface {p1, v0}, Lcom/huawei/appmarket/fh3;->q(Ljava/lang/String;)V
+    invoke-interface {p1, v0}, Lcom/huawei/appmarket/hh3;->q(Ljava/lang/String;)V
 
     :cond_2
     :goto_2
@@ -162,7 +162,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/gz;
+    invoke-static {p1}, Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;->c(Lcom/huawei/appgallery/audiokit/api/view/AudioPlayerView;)Lcom/huawei/appmarket/hz;
 
     move-result-object v0
 

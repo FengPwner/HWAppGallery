@@ -91,9 +91,9 @@
     :goto_0
     move-object p4, p0
 
-    check-cast p4, Lcom/huawei/appmarket/jv4;
+    check-cast p4, Lcom/huawei/appmarket/mv4;
 
-    invoke-virtual {p4, p1, p2}, Lcom/huawei/appmarket/jv4;->o(Ljava/lang/String;Z)V
+    invoke-virtual {p4, p1, p2}, Lcom/huawei/appmarket/mv4;->o(Ljava/lang/String;Z)V
 
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

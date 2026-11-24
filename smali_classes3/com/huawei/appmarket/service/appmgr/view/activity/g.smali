@@ -29,7 +29,7 @@
     .line 1
     iget-object v0, p0, Lcom/huawei/appmarket/service/appmgr/view/activity/g;->a:Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;
 
-    invoke-static {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;->M3(Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;)Lcom/huawei/appmarket/b78;
+    invoke-static {v0}, Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;->M3(Lcom/huawei/appmarket/service/appmgr/view/activity/AppUnInstallActivity;)Lcom/huawei/appmarket/g78;
 
     move-result-object v1
 
@@ -39,7 +39,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/b78;->e(IZ)Ljava/util/ArrayList;
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/g78;->e(IZ)Ljava/util/ArrayList;
 
     move-result-object v1
 

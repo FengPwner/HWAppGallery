@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method protected final g(Lcom/huawei/appmarket/sa2;)Lcom/huawei/page/tabitem/c;
+.method protected final g(Lcom/huawei/appmarket/va2;)Lcom/huawei/page/tabitem/c;
     .registers 4
 
     .line 1
@@ -23,7 +23,7 @@
 
     new-instance v1, Lcom/google/android/material/bottomnavigation/BottomNavigationView;
 
-    invoke-virtual {p1}, Lcom/huawei/appmarket/sa2;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/huawei/appmarket/va2;->getContext()Landroid/content/Context;
 
     move-result-object p1
 

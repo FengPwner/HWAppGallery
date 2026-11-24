@@ -6,7 +6,7 @@
 # instance fields
 .field private n:Lcom/huawei/appmarket/service/gift/card/GiftClaimListWithTitleCard;
 
-.field private o:Lcom/huawei/appmarket/ak0;
+.field private o:Lcom/huawei/appmarket/bk0;
 
 .field p:Z
 
@@ -19,7 +19,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/bk0;
 
     const/4 p1, 0x0
 
@@ -48,11 +48,11 @@
     return v0
 .end method
 
-.method protected final L()Lcom/huawei/appmarket/ak0;
+.method protected final L()Lcom/huawei/appmarket/bk0;
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/ak0;
+    iget-object v0, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/bk0;
 
     return-object v0
 .end method
@@ -94,7 +94,7 @@
     :goto_1
     if-eqz v0, :cond_1
 
-    invoke-static {v1}, Lcom/huawei/appmarket/b37;->q(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/huawei/appmarket/g37;->q(Landroid/content/Context;)I
 
     move-result p1
 
@@ -110,11 +110,11 @@
     .registers 5
 
     .line 1
-    new-instance v0, Lcom/huawei/appmarket/uz2;
+    new-instance v0, Lcom/huawei/appmarket/xz2;
 
     .line 2
     .line 3
-    invoke-static {}, Lcom/huawei/appmarket/bv;->a()I
+    invoke-static {}, Lcom/huawei/appmarket/cv;->a()I
 
     .line 4
     .line 5
@@ -126,12 +126,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v2, p1, v1}, Lcom/huawei/appmarket/uz2;-><init>(Landroid/content/Context;ZI)V
+    invoke-direct {v0, v2, p1, v1}, Lcom/huawei/appmarket/xz2;-><init>(Landroid/content/Context;ZI)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v0}, Lcom/huawei/appmarket/uz2;->v1()V
+    invoke-virtual {v0}, Lcom/huawei/appmarket/xz2;->v1()V
 
     .line 13
     .line 14
@@ -236,7 +236,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final P(Landroid/content/Intent;)V
@@ -358,7 +357,7 @@
     move-result-object v5
 
     .line 55
-    instance-of v6, v5, Lcom/huawei/appmarket/uz2;
+    instance-of v6, v5, Lcom/huawei/appmarket/xz2;
 
     .line 56
     .line 57
@@ -370,7 +369,7 @@
 
     .line 60
     :cond_2
-    check-cast v5, Lcom/huawei/appmarket/uz2;
+    check-cast v5, Lcom/huawei/appmarket/xz2;
 
     .line 61
     .line 62
@@ -430,7 +429,7 @@
 
     .line 87
     .line 88
-    invoke-static {v7, v8}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcom/huawei/appmarket/j83;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -455,7 +454,7 @@
     .line 101
     .line 102
     :cond_5
-    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/uz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
+    invoke-virtual {v5, v6}, Lcom/huawei/appmarket/xz2;->X(Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;)V
 
     .line 103
     .line 104
@@ -477,7 +476,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected Q()Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;
@@ -748,10 +746,9 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
-.method public final p(Lcom/huawei/appmarket/hj0;Landroid/view/ViewGroup;)V
+.method public final p(Lcom/huawei/appmarket/ij0;Landroid/view/ViewGroup;)V
     .registers 7
 
     .line 1
@@ -767,13 +764,13 @@
     return-void
 
     :cond_1
-    iget-wide v0, p1, Lcom/huawei/appmarket/hj0;->d:J
+    iget-wide v0, p1, Lcom/huawei/appmarket/ij0;->d:J
 
     iput-wide v0, p0, Lcom/huawei/appmarket/o2;->c:J
 
     const/4 p2, 0x0
 
-    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/hj0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
+    invoke-virtual {p1, p2}, Lcom/huawei/appmarket/ij0;->d(I)Lcom/huawei/appgallery/foundation/ui/framework/cardkit/bean/CardBean;
 
     move-result-object p1
 
@@ -799,7 +796,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/huawei/appmarket/xv4;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -846,11 +843,11 @@
     return-void
 .end method
 
-.method public final s(Lcom/huawei/appmarket/ak0;)V
+.method public final s(Lcom/huawei/appmarket/bk0;)V
     .registers 7
 
     .line 1
-    iput-object p1, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/ak0;
+    iput-object p1, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->o:Lcom/huawei/appmarket/bk0;
 
     iget-object v0, p0, Lcom/huawei/appmarket/service/gift/node/GiftClaimListWithTitleNode;->n:Lcom/huawei/appmarket/service/gift/card/GiftClaimListWithTitleCard;
 
@@ -863,7 +860,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/ak0;)V
+    invoke-virtual {v0, p1}, Lcom/huawei/gamebox/service/welfare/common/card/GsTitleCard;->Z(Lcom/huawei/appmarket/bk0;)V
 
     const/4 v0, 0x0
 
@@ -898,9 +895,9 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    new-instance v4, Lcom/huawei/appmarket/q03;
+    new-instance v4, Lcom/huawei/appmarket/t03;
 
-    invoke-direct {v4, p1, v2, v0}, Lcom/huawei/appmarket/q03;-><init>(Lcom/huawei/appmarket/ak0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
+    invoke-direct {v4, p1, v2, v0}, Lcom/huawei/appmarket/t03;-><init>(Lcom/huawei/appmarket/bk0;Lcom/huawei/appgallery/foundation/ui/framework/cardframe/card/BaseCard;I)V
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -978,7 +975,7 @@
     move-result-object v2
 
     .line 26
-    instance-of v3, v2, Lcom/huawei/appmarket/uz2;
+    instance-of v3, v2, Lcom/huawei/appmarket/xz2;
 
     .line 27
     .line 28
@@ -1006,7 +1003,7 @@
 
     .line 38
     :cond_2
-    invoke-static {v3}, Lcom/huawei/appmarket/s52;->c(Landroid/view/View;)Z
+    invoke-static {v3}, Lcom/huawei/appmarket/w52;->c(Landroid/view/View;)Z
 
     .line 39
     .line 40

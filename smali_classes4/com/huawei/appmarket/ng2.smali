@@ -4,8 +4,8 @@
 
 
 # direct methods
-.method public static synthetic a(Ljava/lang/Object;D)V
-    .registers 3
+.method public static synthetic a(J)I
+    .registers 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -13,25 +13,25 @@
     .end annotation
 
     .line 1
-    return-void
+    const/4 p0, 0x0
+
+    return p0
 .end method
 
-.method public static b()Lorg/apache/commons/lang3/function/FailableObjDoubleConsumer;
+.method public static b()Lorg/apache/commons/lang3/function/FailableLongToIntFunction;
     .registers 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            "E:",
+            "<E:",
             "Ljava/lang/Throwable;",
             ">()",
-            "Lorg/apache/commons/lang3/function/FailableObjDoubleConsumer<",
-            "TT;TE;>;"
+            "Lorg/apache/commons/lang3/function/FailableLongToIntFunction<",
+            "TE;>;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lorg/apache/commons/lang3/function/FailableObjDoubleConsumer;->NOP:Lorg/apache/commons/lang3/function/FailableObjDoubleConsumer;
+    sget-object v0, Lorg/apache/commons/lang3/function/FailableLongToIntFunction;->NOP:Lorg/apache/commons/lang3/function/FailableLongToIntFunction;
 
     return-object v0
 .end method

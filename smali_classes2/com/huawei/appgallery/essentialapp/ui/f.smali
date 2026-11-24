@@ -40,11 +40,11 @@
 
     iget-object p2, p2, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment$h;->a:Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;
 
-    invoke-static {p2}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->l3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/g22;
+    invoke-static {p2}, Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;->l3(Lcom/huawei/appgallery/essentialapp/ui/EssentialAppFragment;)Lcom/huawei/appmarket/k22;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/g22;->l(I)V
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/k22;->l(I)V
 
     return-void
 .end method

@@ -4,17 +4,14 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/huawei/appmarket/nu0;Ljava/lang/String;)V
+.method public abstract a(Landroid/content/Context;)Lcom/huawei/appmarket/ph0;
 .end method
 
-.method public abstract b(Ljava/lang/String;Lcom/huawei/appmarket/fm3;)V
+.method public abstract b(Landroid/content/Context;Z)Lcom/huawei/appmarket/ph0;
 .end method
 
-.method public abstract c(Ljava/lang/String;)V
+.method public abstract c(Landroid/content/Context;Ljava/lang/String;II)Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;
 .end method
 
-.method public abstract d(Lcom/huawei/appmarket/sa8;)V
-.end method
-
-.method public abstract e(Lcom/huawei/appmarket/y98;)V
+.method public abstract d(Landroid/content/Context;)V
 .end method

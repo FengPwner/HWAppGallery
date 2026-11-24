@@ -9,47 +9,26 @@
 
 # direct methods
 .method public static constructor <clinit>()V
-    .registers 1
+    .registers 5
 
     .line 1
-    const/16 v0, 0x19
+    const v0, 0x7f0403c3
 
-    new-array v0, v0, [I
+    const v1, 0x7f040414
 
-    fill-array-data v0, :array_0
+    const v2, 0x7f04025c
+
+    const v3, 0x7f0402fe
+
+    const v4, 0x7f0403c2
+
+    filled-new-array {v2, v3, v4, v0, v1}, [I
+
+    move-result-object v0
 
     sput-object v0, Lcom/huawei/appmarket/mf6;->a:[I
 
     return-void
-
-    :array_0
-    .array-data 4
-        0x101000e
-        0x7f0402bf
-        0x7f0402f9
-        0x7f04033d
-        0x7f04033e
-        0x7f040340
-        0x7f040342
-        0x7f040347
-        0x7f04034b
-        0x7f04034c
-        0x7f04034d
-        0x7f04035c
-        0x7f04035d
-        0x7f0403a9
-        0x7f0403aa
-        0x7f0403b9
-        0x7f0403ba
-        0x7f0403bb
-        0x7f0403c0
-        0x7f0403c9
-        0x7f0403ca
-        0x7f0403cb
-        0x7f0403cf
-        0x7f040409
-        0x7f04040a
-    .end array-data
 .end method
 
 .method private constructor <init>()V

@@ -273,7 +273,6 @@
     .line 112
     .line 113
     .line 114
-    .line 115
 .end method
 
 .method protected final onMeasure(II)V
@@ -524,7 +523,6 @@
     .line 172
     .line 173
     .line 174
-    .line 175
 .end method
 
 .method protected final onScrollChanged(IIII)V

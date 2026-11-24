@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/agconnect/https/HttpsService;->execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/hv7;
+    value = Lcom/huawei/agconnect/https/HttpsService;->execute(Lcom/huawei/agconnect/https/Method;)Lcom/huawei/appmarket/nv7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -91,7 +91,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lcom/huawei/agconnect/https/Method;->create()Lcom/huawei/appmarket/gr6$a;
+    invoke-virtual {v0}, Lcom/huawei/agconnect/https/Method;->create()Lcom/huawei/appmarket/jr6$a;
 
     .line 19
     .line 20
@@ -99,7 +99,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Lcom/huawei/appmarket/gr6$a;->b()Lcom/huawei/appmarket/gr6;
+    invoke-virtual {v0}, Lcom/huawei/appmarket/jr6$a;->b()Lcom/huawei/appmarket/jr6;
 
     .line 23
     .line 24
@@ -115,7 +115,7 @@
 
     .line 28
     .line 29
-    invoke-static {v3}, Lcom/huawei/agconnect/https/HttpsService;->a(Lcom/huawei/agconnect/https/HttpsService;)Lcom/huawei/appmarket/mn5;
+    invoke-static {v3}, Lcom/huawei/agconnect/https/HttpsService;->a(Lcom/huawei/agconnect/https/HttpsService;)Lcom/huawei/appmarket/nn5;
 
     .line 30
     .line 31
@@ -128,16 +128,16 @@
     .line 34
     .line 35
     .line 36
-    new-instance v4, Lcom/huawei/appmarket/zh6;
+    new-instance v4, Lcom/huawei/appmarket/bi6;
 
     .line 37
     .line 38
-    invoke-direct {v4, v3, v0, v1}, Lcom/huawei/appmarket/zh6;-><init>(Lcom/huawei/appmarket/mn5;Lcom/huawei/appmarket/gr6;Z)V
+    invoke-direct {v4, v3, v0, v1}, Lcom/huawei/appmarket/bi6;-><init>(Lcom/huawei/appmarket/nn5;Lcom/huawei/appmarket/jr6;Z)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v4}, Lcom/huawei/appmarket/zh6;->g()Lcom/huawei/appmarket/vu6;
+    invoke-virtual {v4}, Lcom/huawei/appmarket/bi6;->g()Lcom/huawei/appmarket/zu6;
 
     .line 42
     .line 43
@@ -149,7 +149,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v0}, Lcom/huawei/appmarket/vu6;->w()I
+    invoke-virtual {v0}, Lcom/huawei/appmarket/zu6;->w()I
 
     .line 48
     .line 49
@@ -157,7 +157,7 @@
     move-result v3
 
     .line 51
-    invoke-direct {v1, v2, v3, v0}, Lcom/huawei/agconnect/https/HttpsResult;-><init>(ZILcom/huawei/appmarket/vu6;)V
+    invoke-direct {v1, v2, v3, v0}, Lcom/huawei/agconnect/https/HttpsResult;-><init>(ZILcom/huawei/appmarket/zu6;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -264,6 +264,7 @@
     .line 133
     .line 134
     .line 135
+    .line 136
 .end method
 
 .method public bridge synthetic call()Ljava/lang/Object;

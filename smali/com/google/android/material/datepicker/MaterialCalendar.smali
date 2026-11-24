@@ -183,7 +183,7 @@
     return-void
 .end method
 
-.method public final e3(Lcom/huawei/appmarket/gp5;)V
+.method public final e3(Lcom/huawei/appmarket/hp5;)V
     .registers 3
 
     .line 1
@@ -569,7 +569,7 @@
     .line 138
     .line 139
     .line 140
-    invoke-static {p2, v2}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {p2, v2}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 141
     .line 142
@@ -862,7 +862,7 @@
     .line 294
     .line 295
     .line 296
-    invoke-static {v0, v3}, Lcom/huawei/appmarket/ei8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
+    invoke-static {v0, v3}, Lcom/huawei/appmarket/ki8;->e0(Landroid/view/View;Lcom/huawei/appmarket/x4;)V
 
     .line 297
     .line 298

@@ -27,7 +27,7 @@
     .registers 1
 
     .line 1
-    invoke-static {p0}, Lcom/huawei/appmarket/qc1;->C(Ljava/lang/Object;)Z
+    invoke-static {p0}, Lcom/huawei/appmarket/sc1;->C(Ljava/lang/Object;)Z
 
     move-result p0
 

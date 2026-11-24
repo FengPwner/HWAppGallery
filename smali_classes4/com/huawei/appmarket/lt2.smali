@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/huawei/appmarket/at2;
+.implements Lcom/huawei/appmarket/dt2;
 
 
 # annotations
@@ -21,17 +21,11 @@
         "Ljava/lang/Object;",
         "P6:",
         "Ljava/lang/Object;",
-        "P7:",
-        "Ljava/lang/Object;",
-        "P8:",
-        "Ljava/lang/Object;",
-        "P9:",
-        "Ljava/lang/Object;",
         "R:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lcom/huawei/appmarket/at2<",
+        "Lcom/huawei/appmarket/dt2<",
         "TR;>;"
     }
 .end annotation

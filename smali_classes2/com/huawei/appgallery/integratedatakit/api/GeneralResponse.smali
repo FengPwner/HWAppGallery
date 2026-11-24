@@ -36,14 +36,14 @@
 
 # instance fields
 .field private appOpenRemindTime:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
 .field private appPopConfig_:Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$AppPopConfig;
 
 .field private childAge:I
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 
@@ -66,13 +66,13 @@
 .field private pushInfo_:Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$PushInfo;
 
 .field private qq_:Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$QQs;
-    .annotation runtime Lcom/huawei/appmarket/gj2;
+    .annotation runtime Lcom/huawei/appmarket/ij2;
         security = .enum Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;->PRIVACY:Lcom/huawei/appgallery/jsonkit/api/annotation/SecurityLevel;
     .end annotation
 .end field
 
 .field private repairDelay:Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$RepairDelay;
-    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .annotation runtime Lcom/huawei/appmarket/vg5;
     .end annotation
 .end field
 

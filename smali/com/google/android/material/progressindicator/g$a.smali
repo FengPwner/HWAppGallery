@@ -1,5 +1,5 @@
 .class final Lcom/google/android/material/progressindicator/g$a;
-.super Lcom/huawei/appmarket/hm2;
+.super Lcom/huawei/appmarket/jm2;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/huawei/appmarket/hm2<",
+        "Lcom/huawei/appmarket/jm2<",
         "Lcom/google/android/material/progressindicator/g;",
         ">;"
     }
@@ -26,7 +26,7 @@
 .method constructor <init>(Ljava/lang/String;)V
     .registers 2
 
-    invoke-direct {p0, p1}, Lcom/huawei/appmarket/hm2;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/jm2;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method
